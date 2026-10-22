@@ -1,0 +1,18 @@
+.next
+node_modules
+.env
+.env.local
+.vercel
+.DS_Store
+*.zip
+.DS_Store
+
+.npm-cache
+_to_delete
+tsconfig.tsbuildinfo
+
+# My Phu Quoc additions
+*.tsbuildinfo
+ai-photos/
+convert.py
+resize.py
