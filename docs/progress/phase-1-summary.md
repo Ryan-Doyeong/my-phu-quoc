@@ -1,8 +1,8 @@
 # My Phu Quoc — 진행 상황 및 마스터 작업 로그
 
-- **최종 업데이트:** 2026-10-25 18:35 (Asia/Saigon)
+- **최종 업데이트:** 2026-10-25 18:45 (Asia/Saigon)
 - **대상 워크스페이스:** `/Users/admin/내 드라이브(namdo772@gmail.com)/PhuQuoc`
-- **로컬 빌드/git:** `~/dev/my-phu-quoc`
+- **로컬 빌드/git:** `~/dev/my-phu-quoc` (commit: `de0f8a3`)
 
 ---
 
@@ -18,7 +18,14 @@
   - 마스터 문서 저장: `docs/reference/푸꾸옥_선셋타운_티켓정보_KLOOK_마스터.md`
   - 카카오톡/오픈채팅방 공유용 텍스트 클립보드 포맷 작성 완료.
 
-### 2) 웹사이트 실시간 반영 및 빌드 검증 완료
+### 2) 다국어 전수 검수 및 타오디엔 잔존 표기 푸꾸옥 완벽 전환 (100% 제거)
+- **영문/베트남어/한국어 전수 검수**:
+  - `en.ts`, `ko.ts`, `vi.ts` 사전 내 Thao Dien / 타오디엔 / Thảo Điền 잔존 문구 100% 제거 및 `Phu Quoc` / `푸꾸옥` / `Phú Quốc` 반영 완료.
+  - 파트너 페이지(`PartnersClient.tsx`), 디렉터리(`DirectoryBrowser.tsx`), 스폰서 캐러셀(`SponsorCarousel.tsx`), 이벤트 샘플(`eventSamples.ts`) 내 잔존 표기 전면 교체.
+  - Supabase 마이그레이션 SQL 내 이미지 경로(`/images/hero-phuquoc.jpg`) 및 잔존 텍스트 일체 치환 완료.
+  - 잔여 타오디엔 문자열: **0건** 확인 완료.
+
+### 3) 웹사이트 실시간 반영 및 빌드 검증 완료
 - **데이터 모델:** `lib/tickets.ts` (7개 국어 지원, Klook 할인가/정가 비교, 꿀팁, 공식 예매 링크)
 - **UI 컴포넌트:** `components/SunsetTownTickets.tsx` (반응형 카드 그리드, 선셋타운 오션/앰버 테마 적용)
 - **메인 홈 연동:** `components/HomePage.tsx` Discover 하단에 배치.
