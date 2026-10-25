@@ -1,0 +1,84 @@
+{
+  "name_google": "MIXUE - Ice Cream and Tea",
+  "name_display": "미쉐 아이스크림 & 티 선셋타운점 (MIXUE)",
+  "place_id": "ChIJVUPC1uyXpzERD5yoNJTu_-w",
+  "master_category": "3. 카페 & 베이커리",
+  "info_level": "B",
+  "status": "partial",
+  "menu_date": "2026-10",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "third_party",
+      "url": "https://mixue.com.vn",
+      "accessed": "2026-10-25",
+      "note": "MIXUE 베트남 표준 메뉴 및 정가"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Kem & Trà / Ice Cream & Tea",
+      "section_ko": "소프트 아이스크림 & 밀크티",
+      "items": [
+        {
+          "name_original": "Kem Ốc Quế (Crispy Soft Serve Cone)",
+          "name_ko": "소프트 아이스크림 콘",
+          "description_original": "Signature creamy vanilla soft serve in a crisp waffle cone",
+          "description_ko": "바삭한 와플콘에 담긴 미쉐 시그니처 바닐라 소프트 아이스크림",
+          "price_vnd": 10000,
+          "tags": [
+            "아이스크림",
+            "시그니처",
+            "가성비"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Nước Chanh Tươi (Fresh Lemon Water)",
+          "name_ko": "생레몬 워터",
+          "description_original": "Iced fresh lemon cooler with refreshing citrus aroma",
+          "description_ko": "신선한 레몬 과육을 즉석에서 으깨 시원하고 상큼한 비타민 음료",
+          "price_vnd": 15000,
+          "tags": [
+            "음료",
+            "레몬",
+            "가성비"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Trà Sữa Trân Châu (Pearl Milk Tea)",
+          "name_ko": "오리지널 버블 밀크티",
+          "description_original": "Classic roasted black tea milk tea with chewy brown sugar pearls",
+          "description_ko": "쫀득한 타피오카 펄이 가득 들어간 부드러운 오리지널 블랙 밀크티",
+          "price_vnd": 25000,
+          "tags": [
+            "밀크티",
+            "버블티"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Trà Đào Bốn Mùa (Four Seasons Peach Tea)",
+          "name_ko": "포시즌스 복숭아 과일티",
+          "description_original": "Fragrant Four Seasons oolong tea blended with juicy peach puree and jelly",
+          "description_ko": "향긋한 포시즌스 우롱차 베이스에 복숭아 과육과 젤리가 들어간 과일티",
+          "price_vnd": 30000,
+          "tags": [
+            "티",
+            "과일티"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 F&B 확장 조사: 3. 카페 & 베이커리 실측 핵심 메뉴 확보로 Grade B 등록."
+}

@@ -1,0 +1,59 @@
+{
+  "name_google": "Teatro Club Phú Quốc",
+  "name_display": "테아트로 클럽 푸꾸옥 (Teatro Club Phú Quốc)",
+  "place_id": "ChIJgdPeM-6VpzERp4qCP5Rftfc",
+  "master_category": "4. 바 & 펍 & 비치클럽",
+  "info_level": "B",
+  "status": "partial",
+  "menu_date": "2026-10",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_site",
+      "url": "https://teatrovietnam.com/",
+      "accessed": "2026-10-25",
+      "note": "테아트로 클럽 공식 드링크 메뉴"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Cocktails & Spirits / 클럽 칵테일 & 음료",
+      "section_ko": "시그니처 칵테일 & 스피릿",
+      "items": [
+        {
+          "name_original": "Teatro Signature Sunset Flame Cocktail",
+          "name_ko": "테아트로 선셋 플레임 칵테일",
+          "description_original": "Showcase theatrical cocktail with tropical spirits and flambéed garnish",
+          "description_ko": "화려한 불꽃 퍼포먼스와 함께 제공되는 테아트로 대표 시그니처 칵테일",
+          "price_vnd": 250000,
+          "tags": [
+            "칵테일",
+            "시그니처",
+            "클럽"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Classic Gin & Tonic (Hendrick’s)",
+          "name_ko": "핸드릭스 진토닉",
+          "description_original": "Premium cucumber infused Scottish gin with tonic water",
+          "description_ko": "오이 슬라이스를 띄운 프리미엄 핸드릭스 진토닉",
+          "price_vnd": 220000,
+          "tags": [
+            "칵테일",
+            "진토닉"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 F&B 확장 조사: 4. 바 & 펍 & 비치클럽 실측 핵심 메뉴 확보로 Grade B 등록."
+}

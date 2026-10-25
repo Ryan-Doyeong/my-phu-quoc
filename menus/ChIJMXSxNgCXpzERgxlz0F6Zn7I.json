@@ -1,0 +1,58 @@
+{
+  "name_google": "Luna Folk",
+  "name_display": "루나 포크 (Luna Folk - La Festa Hilton 재즈 & 칵테일 바)",
+  "place_id": "ChIJMXSxNgCXpzERgxlz0F6Zn7I",
+  "master_category": "4. 바 & 펍 & 비치클럽",
+  "info_level": "B",
+  "status": "partial",
+  "menu_date": "2026-10",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_site",
+      "url": "https://hilton.com",
+      "accessed": "2026-10-25",
+      "note": "라 페스타 힐튼 루나 포크 바 공식 메뉴"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Speakeasy Cocktails / 스피크이지 칵테일",
+      "section_ko": "재즈 & 장인정신 칵테일",
+      "items": [
+        {
+          "name_original": "The Amalfi Old Fashioned",
+          "name_ko": "아말피 올드 패션드",
+          "description_original": "Bourbon infused with candied citrus peels, aromatic bitters, and smoked oak aroma",
+          "description_ko": "지중해풍 감귤 껍질과 스모크 오크 향을 입힌 힐튼 품격의 올드 패션드",
+          "price_vnd": 280000,
+          "tags": [
+            "칵테일",
+            "클래식"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Negroni Classico",
+          "name_ko": "네그로니 클라시코",
+          "description_original": "Campari, red vermouth, and London dry gin stirred over hand-carved ice",
+          "description_ko": "핸드 카빙 아이스와 함께 완벽한 밸런스를 자랑하는 이탈리안 네그로니",
+          "price_vnd": 260000,
+          "tags": [
+            "칵테일",
+            "이탈리안"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 F&B 확장 조사: 4. 바 & 펍 & 비치클럽 실측 핵심 메뉴 확보로 Grade B 등록."
+}

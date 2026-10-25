@@ -6,6 +6,11 @@ import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { SocialIcons } from '@/components/SocialIcons'
 import { BusinessReviews, BusinessInstagram } from '@/components/BusinessEnrichment'
+import { BusinessMenuSection } from '@/components/BusinessMenuSection'
+import { BusinessCover } from '@/components/BusinessCover'
+import { getCoverPhoto } from '@/lib/coverPhotos'
+import { loadMenuForPlace } from '@/lib/menus'
+import businessesRegistry from '@/data/businesses-registry.json'
 import { categoryLabel, nearbyBadgeText } from '@/lib/directory'
 import { stockGalleryFor } from '@/lib/stockImages'
 import { imageUrl } from '@/lib/imageUrl'
@@ -40,12 +45,19 @@ export async function generateBusinessMetadata(
   locale: Locale = 'en'
 ): Promise<Metadata> {
   const supabase = createPublicClient()
-  const { data: b } = await supabase
-    .from('businesses')
-    .select('*')
-    .eq('slug', slug)
-    .eq('status', 'published')
-    .maybeSingle()
+  let b: any = null
+  try {
+    const { data } = await supabase
+      .from('businesses')
+      .select('*')
+      .eq('slug', slug)
+      .eq('status', 'published')
+      .maybeSingle()
+    b = data
+  } catch {}
+  if (!b) {
+    b = (businessesRegistry as any[]).find((x) => x.slug === slug) || null
+  }
   if (!b) return {}
 
   const rawDesc = selectBusinessDescription(b, locale)
@@ -53,10 +65,12 @@ export async function generateBusinessMetadata(
     ? rawDesc.slice(0, 150) + (rawDesc.length > 150 ? '...' : '')
     : `${categoryLabel(b.category, locale)} - ${b.address || 'Phu Quoc'}`
 
-  const photos = (b.gallery_urls || []).length
-    ? b.gallery_urls
-    : defaultImages(b.category, b.subcategory, b.tags)
-  const ogImage = photos?.[0] ? imageUrl(photos[0], 1200, 76) : undefined
+  const coverPhoto = getCoverPhoto(slug)
+  const ogImage = coverPhoto
+    ? coverPhoto.image_url.startsWith('http')
+      ? coverPhoto.image_url
+      : localeUrl(locale, coverPhoto.image_url)
+    : undefined
   const barePath = `/business/${b.slug}`
   const canonicalUrl = localeUrl(locale, barePath)
   const alternates = buildAlternates(barePath)
@@ -78,15 +92,37 @@ export async function generateBusinessMetadata(
   }
 }
 
+function splitBusinessTitle(name: string) {
+  if (!name) return { primary: '', secondary: null }
+  const match = name.match(/^(.*?)\s*[\(\（](.*?)[\)\）]$/)
+  if (match && match[1].trim() && match[2].trim()) {
+    return {
+      primary: match[1].trim(),
+      secondary: match[2].trim(),
+    }
+  }
+  return {
+    primary: name,
+    secondary: null,
+  }
+}
+
 export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
   const dict = getDictionary(locale)
   const supabase = createPublicClient()
-  const { data: b } = await supabase
-    .from('businesses')
-    .select('*')
-    .eq('slug', slug)
-    .eq('status', 'published')
-    .maybeSingle()
+  let b: any = null
+  try {
+    const { data } = await supabase
+      .from('businesses')
+      .select('*')
+      .eq('slug', slug)
+      .eq('status', 'published')
+      .maybeSingle()
+    b = data
+  } catch {}
+  if (!b) {
+    b = (businessesRegistry as any[]).find((x) => x.slug === slug) || null
+  }
   if (!b) notFound()
 
   const photos = (b.gallery_urls || []).length
@@ -100,6 +136,12 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
     ? translateTerm(b.subcategory, locale)
     : translateTerm('General', locale)
   const localizedDescription = selectBusinessDescription(b, locale) || dict.business.detailsPreparing
+  const placeIdMatch = b.google_maps_url
+    ? b.google_maps_url.match(/place_id:([A-Za-z0-9_-]+)/) ||
+      b.google_maps_url.match(/place_id=([A-Za-z0-9_-]+)/)
+    : null
+  const googlePlaceId = b.google_place_id || (placeIdMatch ? placeIdMatch[1] : null)
+  const menuData = loadMenuForPlace(googlePlaceId)
 
   const jsonLd: any = {
     '@context': 'https://schema.org',
@@ -164,19 +206,99 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
         </div>
       </header>
       <section className="shell businessDetail">
-        <div className="photoGallery">
-          {photos.slice(0, 8).map((p: string, i: number) => (
-            <div key={i} className={i === 0 ? 'galleryTile main' : 'galleryTile'}>
-              <img
-                src={imageUrl(p, i === 0 ? 1400 : 760, i === 0 ? 76 : 70)}
-                alt={`${b.public_name} image ${i + 1}`}
-                loading={i === 0 ? 'eager' : 'lazy'}
-                decoding="async"
+        {(() => {
+          const coverPhoto = getCoverPhoto(b.slug)
+          if (coverPhoto) {
+            return (
+              <div style={{ marginBottom: '28px' }}>
+                <div
+                  className="officialCoverHero"
+                  style={{
+                    borderRadius: '16px',
+                    overflow: 'hidden',
+                    position: 'relative',
+                    maxHeight: '440px',
+                    backgroundColor: '#18181b',
+                  }}
+                >
+                  <img
+                    src={coverPhoto.image_url}
+                    alt={b.public_name}
+                    style={{
+                      width: '100%',
+                      height: '380px',
+                      objectFit: 'cover',
+                      display: 'block',
+                    }}
+                    loading="eager"
+                    decoding="async"
+                  />
+                </div>
+                <div
+                  style={{
+                    marginTop: '10px',
+                    fontSize: '12px',
+                    color: 'var(--ink-muted, #71717a)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    flexWrap: 'wrap',
+                    gap: '6px',
+                  }}
+                >
+                  <span>사진 출처:</span>
+                  <a
+                    href={coverPhoto.source_page_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ textDecoration: 'underline', color: 'inherit' }}
+                  >
+                    업체 공식 홈페이지/SNS
+                  </a>
+                  <span style={{ opacity: 0.5 }}>·</span>
+                  <Link
+                    href={localePath(
+                      locale,
+                      `/for-businesses?public_name=${encodeURIComponent(b.public_name)}&slug=${encodeURIComponent(b.slug)}#claim`
+                    )}
+                    style={{ textDecoration: 'underline', color: 'inherit' }}
+                  >
+                    사진 삭제·수정 요청
+                  </Link>
+                </div>
+              </div>
+            )
+          }
+
+          if ((b.gallery_urls || []).length > 0) {
+            return (
+              <div className="photoGallery">
+                {b.gallery_urls.slice(0, 8).map((p: string, i: number) => (
+                  <div key={i} className={i === 0 ? 'galleryTile main' : 'galleryTile'}>
+                    <img
+                      src={imageUrl(p, i === 0 ? 1400 : 760, i === 0 ? 76 : 70)}
+                      alt={`${b.public_name} image ${i + 1}`}
+                      loading={i === 0 ? 'eager' : 'lazy'}
+                      decoding="async"
+                    />
+                    {badgeText && <span>{badgeText}</span>}
+                  </div>
+                ))}
+              </div>
+            )
+          }
+
+          return (
+            <div style={{ marginBottom: '28px' }}>
+              <BusinessCover
+                name={b.public_name}
+                googleName={b.google_maps_name}
+                category={b.category}
+                subcategory={b.subcategory}
+                aspectRatio="hero"
               />
-              {badgeText && <span>{badgeText}</span>}
             </div>
-          ))}
-        </div>
+          )
+        })()}
         <div className="businessTitleRow">
           <div>
             <span className="eyebrow">
@@ -202,7 +324,15 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                 </Link>
               )}
             </div>
-            <h1>{b.public_name}</h1>
+            {(() => {
+              const { primary, secondary } = splitBusinessTitle(b.public_name)
+              return (
+                <div className="businessTitleGroup">
+                  <h1 className="businessPrimaryTitle">{primary}</h1>
+                  {secondary && <p className="businessSecondaryTitle">{secondary}</p>}
+                </div>
+              )
+            })()}
             <div className="ratingLine">
               {b.google_rating ? (
                 <>
@@ -251,6 +381,9 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
           <article className="detailCard">
             <h2>{dict.business.aboutPlace}</h2>
             <p className="detailLead">{localizedDescription}</p>
+            {(b.category === 'dining' || b.category === 'bars' || menuData) && (
+              <BusinessMenuSection menuData={menuData} locale={locale} />
+            )}
             {Array.isArray(b.highlights) && b.highlights.length > 0 && (
               <>
                 <h3>{dict.business.whyConsider}</h3>

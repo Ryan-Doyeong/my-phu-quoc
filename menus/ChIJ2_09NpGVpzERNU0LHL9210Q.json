@@ -1,0 +1,76 @@
+{
+  "name_google": "Giòn Bar",
+  "name_display": "지온 바 & 바이츠 키친 (Giòn Bar & Bites Kitchen)",
+  "place_id": "ChIJ2_09NpGVpzERNU0LHL9210Q",
+  "master_category": "4. 바 & 펍 & 비치클럽",
+  "info_level": "B",
+  "status": "partial",
+  "menu_date": "2026-10",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJ2_09NpGVpzERNU0LHL9210Q",
+      "accessed": "2026-10-25",
+      "note": "부이페스트 야시장 Giòn Bar 구글맵 리뷰 정가"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Cocktails & Craft Beers / 칵테일 & 주류",
+      "section_ko": "트로피컬 칵테일 & 하이볼",
+      "items": [
+        {
+          "name_original": "Sunset Town Mojito (Passion Fruit)",
+          "name_ko": "선셋 모히토 (패션후르츠 & 민트)",
+          "description_original": "White rum, fresh mint, lime, and tart Phu Quoc passion fruit topped with soda",
+          "description_ko": "화이트 럼에 푸꾸옥 생 패션후르츠와 라임, 애플민트를 듬뿍 넣은 상큼한 시그니처 칵테일",
+          "price_vnd": 140000,
+          "tags": [
+            "칵테일",
+            "모히토"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Phu Quoc Pepper Highball",
+          "name_ko": "푸꾸옥 후추 진저 하이볼",
+          "description_original": "Whisky with ginger ale and crushed local black pepper for an aromatic kick",
+          "description_ko": "위스키 베이스에 푸꾸옥 특산 통후추를 살짝 으깨 스파이시한 풍미를 더한 하이볼",
+          "price_vnd": 130000,
+          "tags": [
+            "하이볼",
+            "위스키"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Crispy Bites & Snacks / 핑거푸드 & 안주",
+      "section_ko": "크리스피 치킨 & 수제 안주",
+      "items": [
+        {
+          "name_original": "Gà Giòn Cay Sốt Mắm Tỏi (Crispy Spicy Garlic Fish Sauce Chicken)",
+          "name_ko": "크리스피 갈릭 피시소스 치킨",
+          "description_original": "Crunchy golden fried chicken tossed in sweet garlic chili fish sauce",
+          "description_ko": "바삭하게 튀긴 순살 치킨에 단짠 갈릭 피시소스 글레이즈를 입힌 인기 메뉴",
+          "price_vnd": 140000,
+          "tags": [
+            "치킨",
+            "안주"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 F&B 확장 조사: 4. 바 & 펍 & 비치클럽 실측 핵심 메뉴 확보로 Grade B 등록."
+}

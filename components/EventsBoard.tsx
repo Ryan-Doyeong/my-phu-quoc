@@ -241,7 +241,7 @@ export function EventsBoard({ items, locale }: EventsBoardProps) {
                     {/* Left Square Thumbnail (object-fit: cover, lazy loading for non-LCP) */}
                     <div className="eventDcThumbWrap">
                       <img
-                        src={imageUrl(item.cover_image_url || '/stock/hobby.webp', 240, 75)}
+                        src={imageUrl(item.cover_image_url || '/features/default_cover_640.webp', 240, 75)}
                         alt={item.title}
                         width={84}
                         height={84}
@@ -250,6 +250,9 @@ export function EventsBoard({ items, locale }: EventsBoardProps) {
                           : { loading: 'lazy' })}
                         decoding="async"
                         className="eventDcThumb"
+                        onError={(e) => {
+                          e.currentTarget.src = '/features/default_cover_640.webp';
+                        }}
                       />
                     </div>
 

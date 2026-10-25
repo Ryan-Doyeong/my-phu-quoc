@@ -16,14 +16,14 @@ export type SiteSettings = {
 }
 
 export const defaultSettings: SiteSettings = {
-  hero_image_url: '/stock/hero.webp',
-  hero_topline: 'SUNSET TOWN · KHEM BEACH · AN THOI',
+  hero_image_url: '/hero/02_kiss_bridge_aerial_1920.webp',
+  hero_topline: 'SUNSET TOWN · KISS BRIDGE · FIREWORKS',
   hero_title: 'My\nPhu Quoc',
-  hero_subtitle: 'Turquoise water by day, golden sunsets by night.',
-  hero_description: 'Your local guide to Sunset Town, Khem Beach and southern Phu Quoc.',
-  hero_primary_cta: 'Explore',
-  hero_secondary_cta: "Tonight's sunset spots",
-  hero_note: 'Golden hours\n& sea breeze ♥',
+  hero_subtitle: 'The magic of Sunset Town: Kiss Bridge, nightly fireworks & ocean views.',
+  hero_description: 'Your insider guide to Sun Premier Village Primavera, iconic Kiss Bridge, nightly multimedia shows, and southern Phu Quoc.',
+  hero_primary_cta: 'Explore Sunset Town',
+  hero_secondary_cta: "Tonight's Fireworks",
+  hero_note: 'Nightly Fireworks\nat 21:00 ♥',
   hero_blur: 2,
   hero_overlay: 0.18,
   accent_color: '#0B7A8A',

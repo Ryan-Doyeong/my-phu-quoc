@@ -93,7 +93,7 @@ export async function submitBusiness(formData: FormData) {
 
 export async function saveAppearance(formData: FormData) {
   const { supabase, user } = await requireAdmin()
-  let imageUrl = str(formData.get('hero_image_url')) || '/stock/hero.webp'
+  let imageUrl = str(formData.get('hero_image_url')) || '/hero/02_kiss_bridge_aerial_1920.webp'
   const file = formData.get('hero_image'); if (file instanceof File && file.size > 0) imageUrl=await uploadImage(supabase,file,'hero')
   const value = {hero_image_url:imageUrl,hero_topline:str(formData.get('hero_topline')),hero_title:str(formData.get('hero_title')),hero_subtitle:str(formData.get('hero_subtitle')),hero_description:str(formData.get('hero_description')),hero_primary_cta:str(formData.get('hero_primary_cta')),hero_secondary_cta:str(formData.get('hero_secondary_cta')),hero_note:str(formData.get('hero_note')),hero_blur:Number(str(formData.get('hero_blur'))||2),hero_overlay:Number(str(formData.get('hero_overlay'))||.18),accent_color:str(formData.get('accent_color'))||'#556f58',bg_color:str(formData.get('bg_color'))||'#f5f2ea',paper_color:str(formData.get('paper_color'))||'#fffdf8',radius:Number(str(formData.get('radius'))||28)}
   const { error } = await supabase.from('site_settings').upsert({ key: 'appearance', value, updated_by: user.id }, { onConflict: 'key' }); if (error) throw error
@@ -207,7 +207,7 @@ export async function saveSponsorSlot(formData:FormData){
 export async function createEvent(formData:FormData){
   const {supabase,user}=await requireAdmin();const title=str(formData.get('title'));if(!title)throw new Error('Title is required.')
   const slug=`${slugify(title)}-${Date.now().toString(36)}`
-  let cover=str(formData.get('cover_image_url'))||'/stock/hobby.webp';const file=formData.get('cover_image');if(file instanceof File&&file.size>0)cover=await uploadImage(supabase,file,'events')
+  let cover=str(formData.get('cover_image_url'))||'/features/nightlife_featured_1280.webp';const file=formData.get('cover_image');if(file instanceof File&&file.size>0)cover=await uploadImage(supabase,file,'events')
   const {error}=await supabase.from('stories').insert({title,slug,category:'Events',excerpt:str(formData.get('excerpt')),body_en:str(formData.get('body_en')),cover_image_url:cover,status:'published',content_type:'event',event_date:str(formData.get('event_date'))||null,event_location:str(formData.get('event_location')),is_featured:true,author_id:user.id,published_at:new Date().toISOString()});if(error) throw error
   revalidatePath('/');revalidatePath('/events');revalidatePath('/admin')
 }
@@ -230,7 +230,7 @@ export async function saveArticle(formData:FormData){
   if(!['news','blog','impact','event','story'].includes(content_type)) throw new Error('Invalid content type.')
   const status=str(formData.get('status'))==='published'?'published':'draft'
   const requestedSlug=str(formData.get('slug'))
-  let cover_image_url=str(formData.get('cover_image_url'))||'/stock/wellness.webp'
+  let cover_image_url=str(formData.get('cover_image_url'))||'/features/hotel_featured_1280.webp'
   const cover=formData.get('cover_image')
   if(cover instanceof File&&cover.size>0) cover_image_url=await uploadImage(supabase,cover,'editorial')
   const removeGallery=new Set(formData.getAll('remove_gallery').map(x=>String(x)))

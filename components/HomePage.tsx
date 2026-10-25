@@ -9,6 +9,7 @@ import { HeroSearch } from '@/components/SiteSearch'
 import { MobileMenu } from '@/components/MobileMenu'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { SunsetTownTickets } from '@/components/SunsetTownTickets'
+import { SunsetDistrictFilter } from '@/components/SunsetDistrictFilter'
 import {
   DIRECTORY_CATEGORIES,
   DIRECTORY_CATEGORY_KEYS,
@@ -52,25 +53,25 @@ const fallbackStories = [
     title: 'From expat to neighbor',
     category: 'PEOPLE',
     excerpt: 'How Phu Quoc became home for good.',
-    image: '/stock/closing.webp',
+    image: '/features/general_sightseeing_640.webp',
   },
   {
     title: 'Why we love Phu Quoc',
     category: 'PLACES',
     excerpt: 'Green streets, great food and a stronger community.',
-    image: '/stock/brunch.webp',
+    image: '/features/dining_featured_640.webp',
   },
   {
     title: 'A second chance',
     category: 'COMMUNITY',
     excerpt: 'Meet the rescue dogs finding new homes in Phu Quoc.',
-    image: '/stock/bakery.webp',
+    image: '/features/hotel_featured_640.webp',
   },
   {
     title: 'Small actions, big impact',
     category: 'VOLUNTEER',
     excerpt: 'How neighbors come together to make a difference.',
-    image: '/stock/workout.webp',
+    image: '/features/activities_featured_640.webp',
   },
 ]
 
@@ -128,7 +129,7 @@ export function HomePage({
     !settings.hero_image_url ||
     settings.hero_image_url.startsWith('/images/') ||
     settings.hero_image_url.startsWith('/api/unsplash/')
-      ? '/stock/hero.webp'
+      ? '/hero/02_kiss_bridge_aerial_1920.webp'
       : settings.hero_image_url
 
   // For English, respect DB-customized settings/homeSections; for VI/KO, use localized dictionary copy
@@ -137,7 +138,6 @@ export function HomePage({
   const heroSubtitle = locale === 'en' ? settings.hero_subtitle : dict.home.heroSubtitle
   const heroDescription = locale === 'en' ? settings.hero_description : dict.home.heroDescription
   const heroPrimaryCta = locale === 'en' ? settings.hero_primary_cta : dict.home.heroPrimaryCta
-  const heroNote = locale === 'en' ? settings.hero_note : dict.home.heroNote
 
   const purposeTitle = locale === 'en' ? homeSections.purpose.title : dict.home.purposeTitle
   const purposeDesc = locale === 'en' ? homeSections.purpose.description : dict.home.purposeDesc
@@ -194,19 +194,23 @@ export function HomePage({
       <main>
         <section className="heroSection">
           <picture>
-            <source media="(max-width: 800px)" srcSet={imageUrl(heroImage, 800, 75)} />
+            <source media="(max-width: 640px)" srcSet="/hero/02_kiss_bridge_aerial_640.webp" />
+            <source media="(max-width: 1280px)" srcSet="/hero/02_kiss_bridge_aerial_1280.webp" />
             <img
-              src={imageUrl(heroImage, 1600, 78)}
-              alt="Phu Quoc neighborhood lifestyle"
+              src="/hero/02_kiss_bridge_aerial_1920.webp"
+              alt="Phu Quoc Sunset Town Kiss Bridge aerial sunset view"
               className="heroImage"
               loading="eager"
               fetchPriority="high"
               decoding="async"
-              width={1600}
-              height={1066}
+              width={1920}
+              height={1280}
             />
           </picture>
           <div className="heroOverlay" />
+          <div className="heroAttribution">
+            <span>Photo: <a href="https://commons.wikimedia.org/wiki/File:Kiss_Bridge_Phu_Quoc_aerial_sunset_view.jpg" target="_blank" rel="noopener noreferrer">Vivu Vietnam</a> · <a href="https://creativecommons.org/licenses/by/4.0" target="_blank" rel="noopener noreferrer">CC BY 4.0</a></span>
+          </div>
           <div className="heroCopy">
             <div className="topline">{heroTopline}</div>
             <h1>
@@ -229,14 +233,6 @@ export function HomePage({
                 {dict.home.heroSecondaryCta}
               </Link>
             </div>
-            <div className="heroNote">
-              {heroNote.split('\n').map((l, i) => (
-                <span key={i}>
-                  {l}
-                  <br />
-                </span>
-              ))}
-            </div>
           </div>
         </section>
 
@@ -246,7 +242,7 @@ export function HomePage({
           <section className="shell eventPromo">
             <Link href={localePath(locale, '/events')} className="eventPromoLink">
               <img
-                src={imageUrl(localizedEvent.cover_image_url || '/stock/hobby.webp', 1200, 72)}
+                src={imageUrl(localizedEvent.cover_image_url || '/features/nightlife_featured_1280.webp', 1200, 72)}
                 alt=""
                 loading="lazy"
                 decoding="async"
@@ -270,11 +266,13 @@ export function HomePage({
                 </div>
                 <strong>{dict.home.eventCta}</strong>
               </div>
+              <span className="eventPromoAttribution">Photo: Vivu Vietnam · CC BY-SA 4.0</span>
             </Link>
           </section>
         )}
 
-        {homeSections.purpose.visible && (
+        {/* Claude 5차/6차: 타오디엔 레거시 섹션 비활성화 */
+        false && homeSections.purpose.visible && (
           <section className="shell purpose" id="community">
             <div className="sectionIntro purposeIntro">
               <div>
@@ -367,6 +365,8 @@ export function HomePage({
           </section>
         )}
 
+        <SunsetDistrictFilter locale={locale} />
+
         <SunsetTownTickets locale={locale} />
 
         {homeSections.stories.visible && (
@@ -398,6 +398,7 @@ export function HomePage({
                         height={426}
                       />
                     )}
+                    <small className="storyPhotoCredit">Photo: Vivu Vietnam · CC BY-SA 4.0</small>
                     <span>{s.category}</span>
                     <h3>{s.title}</h3>
                     <p>{s.excerpt}</p>

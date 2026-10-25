@@ -3,10 +3,12 @@ import { NextResponse } from 'next/server'
 import { updateSession } from '@/lib/supabase/proxy'
 import {
   LOCALE_COOKIE_NAME,
+  LEGACY_LOCALE_COOKIE_NAME,
   isPrefixedLocale,
   isValidLocale,
   localePath,
   stripLocalePrefix,
+  detectPreferredLocale,
 } from '@/lib/i18n/config'
 
 const AUTH_PREFIXES = [
@@ -50,6 +52,14 @@ export async function proxy(request: NextRequest) {
     return NextResponse.redirect(url, 301)
   }
 
+  // 1-b) Deactivated /vi prefix -> redirect to unprefixed path (301)
+  if (pathname === '/vi' || pathname.startsWith('/vi/')) {
+    const barePath = pathname === '/vi' ? '/' : pathname.slice(3) || '/'
+    const url = request.nextUrl.clone()
+    url.pathname = barePath
+    return NextResponse.redirect(url, 301)
+  }
+
   // 2) Old Phu Quoc-style events URL (/news/events) -> standalone /events board (301)
   {
     const { locale: evLocale, barePath: evPath } = stripLocalePrefix(pathname)
@@ -70,15 +80,32 @@ export async function proxy(request: NextRequest) {
     return NextResponse.redirect(url, 301)
   }
 
-  // 4) Root (/) visit by non-bot browser with saved language cookie -> 307 temporary redirect
+  // 4) Root (/) visit by non-bot browser:
+  // - First visit: Accept-Language header detection (zh, ko, ja, ru, hi -> auto redirect; other -> en)
+  // - Subsequent visits: User-selected cookie (NEXT_LOCALE / mpq_lang) overrides auto detection
   if (pathname === '/' && searchParams.toString() === '') {
     const ua = request.headers.get('user-agent') || ''
     if (!BOT_UA_REGEX.test(ua)) {
-      const cookieLang = request.cookies.get(LOCALE_COOKIE_NAME)?.value?.toLowerCase()
-      if (isPrefixedLocale(cookieLang)) {
-        const url = request.nextUrl.clone()
-        url.pathname = `/${cookieLang}`
-        return NextResponse.redirect(url, 307)
+      const cookieLang =
+        request.cookies.get(LOCALE_COOKIE_NAME)?.value?.toLowerCase() ||
+        request.cookies.get(LEGACY_LOCALE_COOKIE_NAME)?.value?.toLowerCase()
+
+      if (cookieLang) {
+        // User explicitly picked a language earlier
+        if (isPrefixedLocale(cookieLang)) {
+          const url = request.nextUrl.clone()
+          url.pathname = `/${cookieLang}`
+          return NextResponse.redirect(url, 307)
+        }
+      } else {
+        // First visit: inspect Accept-Language
+        const acceptLang = request.headers.get('accept-language')
+        const preferred = detectPreferredLocale(acceptLang)
+        if (isPrefixedLocale(preferred)) {
+          const url = request.nextUrl.clone()
+          url.pathname = `/${preferred}`
+          return NextResponse.redirect(url, 307)
+        }
       }
     }
   }

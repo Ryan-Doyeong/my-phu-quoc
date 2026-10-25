@@ -1,0 +1,59 @@
+{
+  "name_google": "Sultan Turkish Kebab – Sunset Town Phu Quoc",
+  "name_display": "술탄 터키쉬 케밥 선셋타운 (Sultan Turkish Kebab)",
+  "place_id": "ChIJc9wZF96XpzERaOKT6SZjnj4",
+  "master_category": "4. 바 & 펍 & 비치클럽",
+  "info_level": "B",
+  "status": "partial",
+  "menu_date": "2026-10",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJc9wZF96XpzERaOKT6SZjnj4",
+      "accessed": "2026-10-25",
+      "note": "구글맵 리뷰 등록 메뉴판"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Döner Kebab & Turkish Specialties / 터키식 케밥",
+      "section_ko": "정통 터키식 도네르 케밥",
+      "items": [
+        {
+          "name_original": "Döner Kebab Bò (Beef Döner Kebab Wrap)",
+          "name_ko": "소고기 도네르 케밥 랩",
+          "description_original": "Shaved seasoned spit-roasted beef wrapped in fresh flatbread with garlic yogurt sauce",
+          "description_ko": "회전 꼬치에서 갓 썰어낸 소고기와 신선한 야채, 요거트 소스를 넣은 또르띠아 랩",
+          "price_vnd": 110000,
+          "tags": [
+            "케밥",
+            "소고기",
+            "할랄"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Döner Kebab Gà (Chicken Döner Kebab Wrap)",
+          "name_ko": "치킨 도네르 케밥 랩",
+          "description_original": "Spiced chicken döner with crisp cabbage, tomatoes, and tahini sauce",
+          "description_ko": "터키 향신료로 마리네이드한 담백한 닭고기 케밥 샌드위치 랩",
+          "price_vnd": 90000,
+          "tags": [
+            "케밥",
+            "치킨"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 F&B 확장 조사: 4. 바 & 펍 & 비치클럽 실측 핵심 메뉴 확보로 Grade B 등록."
+}

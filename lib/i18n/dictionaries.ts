@@ -315,15 +315,22 @@ const TERM_GLOSSARY: Record<string, LocalizedText> = {
   'kids & craft workshop': { vi: 'Workshop Thiếu nhi & Thủ công', ko: '어린이 · 공예 워크숍' },
 }
 
+import { SUBCATEGORY_DICTIONARY, translateSubcategory } from './subcategories'
+
 export function translateTerm(term: string | null | undefined, locale: Locale = 'en'): string {
   if (!term) return ''
-  if (locale === 'en') return term
+  const subcat = translateSubcategory(term, locale)
+  if (subcat && subcat.toLowerCase() !== term.toLowerCase()) return subcat
+  if (locale === 'en') {
+    return subcat || term
+  }
   const normalized = term.trim().toLowerCase()
   const entry = TERM_GLOSSARY[normalized]
-  return entry?.[locale] || term
+  return entry?.[locale] || subcat || term
 }
 
-// 3. 페이지별 전체 UI 사전 — 언어별 파일은 ./locales/*.ts
+// 3. 페이지별 전체 UI 사전 — 언어별 파일은 ./locales/*.ts (베트남어 vi 사전 보존)
+export const PRESERVED_VI_DICTIONARY = vi
 export const DICTIONARIES: Record<Locale, DictionaryInput> = { en, vi, hi, zh, ru, ko, ja }
 
 

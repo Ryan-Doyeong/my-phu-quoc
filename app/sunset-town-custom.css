@@ -1,0 +1,369 @@
+/**
+ * app/sunset-town-custom.css
+ * Sunset Town 특화 UI 스타일 (Ocean #0B7A8A + Amber Gold #C86D2D)
+ */
+
+/* 1. Sunset District Section (Home & Directory) */
+.sunsetDistrictSection {
+  max-width: 1200px;
+  margin: 48px auto;
+  padding: 0 20px;
+}
+
+.sunsetDistrictHeader {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.sunsetTownEyebrow {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #C86D2D;
+  background: #FBEBDD;
+  padding: 4px 12px;
+  border-radius: 999px;
+  margin-bottom: 12px;
+}
+
+.sunsetDistrictHeader h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #12333B;
+  margin: 0 0 10px;
+  letter-spacing: -0.02em;
+}
+
+.sunsetDistrictHeader p {
+  font-size: 16px;
+  color: #4A6B72;
+  max-width: 680px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.sunsetDistrictGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.districtCard {
+  background: #FCFEFD;
+  border: 1px solid #DDF0EF;
+  border-radius: 16px;
+  padding: 24px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 8px rgba(11, 122, 138, 0.04);
+  cursor: pointer;
+  text-align: left;
+}
+
+.districtCard:hover,
+.districtCard.active {
+  border-color: #0B7A8A;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(11, 122, 138, 0.12);
+}
+
+.districtCardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.districtBadge {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: #0B7A8A;
+  background: #DDF0EF;
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+
+.districtArrow {
+  font-size: 18px;
+  color: #C86D2D;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.districtCard:hover .districtArrow {
+  transform: translateX(4px);
+}
+
+.districtCard h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #12333B;
+  margin: 0 0 8px;
+}
+
+.districtCard p {
+  font-size: 14px;
+  color: #4A6B72;
+  line-height: 1.5;
+  margin: 0 0 16px;
+  flex-grow: 1;
+}
+
+.districtHighlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.districtHighlights span {
+  font-size: 11px;
+  font-weight: 600;
+  color: #0B7A8A;
+  background: #F3F8F7;
+  padding: 3px 8px;
+  border-radius: 4px;
+  border: 1px solid #E1EFEF;
+}
+
+/* 2. Menu Section in Business Detail */
+.businessMenuSection {
+  background: #FCFEFD;
+  border: 1px solid #DDF0EF;
+  border-radius: 16px;
+  padding: 28px;
+  margin: 32px 0;
+  box-shadow: 0 4px 16px rgba(11, 122, 138, 0.05);
+}
+
+.menuHeader {
+  margin-bottom: 20px;
+}
+
+.gradeBadgeRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.gradeBadge {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 800;
+  padding: 4px 12px;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.gradeBadge.gradeA {
+  background: #0B7A8A;
+}
+
+.gradeBadge.gradeB {
+  background: #C86D2D;
+}
+
+.gradeBadge.gradeC {
+  background: #B5843E;
+}
+
+.gradeBadge.gradeD {
+  background: #718096;
+}
+
+.menuCountTag,
+.menuStatusTag {
+  font-size: 12px;
+  font-weight: 600;
+  color: #0B7A8A;
+  background: #DDF0EF;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.menuHeader h3 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #12333B;
+  margin: 0 0 6px;
+}
+
+.gradeExplanation {
+  font-size: 14px;
+  color: #4A6B72;
+  margin: 0;
+}
+
+.priceNoticeBanner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #FFF8E8;
+  border-left: 4px solid #C86D2D;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.priceNoticeBanner span {
+  font-size: 16px;
+}
+
+.priceNoticeBanner p {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: #7A4B1A;
+}
+
+.menuSectionBlock {
+  margin-bottom: 28px;
+}
+
+.menuSectionTitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0B7A8A;
+  border-bottom: 2px solid #DDF0EF;
+  padding-bottom: 8px;
+  margin: 0 0 16px;
+}
+
+.menuItemsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px;
+}
+
+.menuItemCard {
+  background: #F8FBFA;
+  border: 1px solid #E8F2F1;
+  border-radius: 10px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menuItemHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.dishName {
+  font-size: 15px;
+  font-weight: 700;
+  color: #12333B;
+}
+
+.dishPrice {
+  font-size: 14px;
+  font-weight: 800;
+  color: #C86D2D;
+  white-space: nowrap;
+}
+
+.dishSubName {
+  font-size: 12px;
+  color: #718096;
+  margin-bottom: 6px;
+}
+
+.dishDescription {
+  font-size: 13px;
+  color: #4A6B72;
+  line-height: 1.45;
+  margin: 4px 0 0;
+}
+
+.dishDescription.isClamped {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 2px;
+}
+
+.dishDescription.isExpanded {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.dishDescExpandBtn {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 2px 0 0;
+  color: #0B7A8A;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.dishDescExpandBtn:hover {
+  color: #C86D2D;
+  text-decoration: underline;
+}
+
+.menuPartialNotice {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px dashed #DDF0EF;
+  color: #718096;
+}
+
+.menuSourceFooter {
+  margin-top: 20px;
+  text-align: right;
+  color: #8C9BA5;
+}
+
+/* 3. Directory filters & Badges */
+.zoneFilterBar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0 24px;
+}
+
+.zoneFilterButton {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: #FCFEFD;
+  border: 1px solid #DDF0EF;
+  color: #12333B;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.zoneFilterButton:hover,
+.zoneFilterButton.active {
+  background: #0B7A8A;
+  border-color: #0B7A8A;
+  color: #ffffff;
+}
+
+.mapDirectLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #0B7A8A;
+  text-decoration: none;
+  margin-top: 8px;
+}
+
+.mapDirectLink:hover {
+  color: #C86D2D;
+}

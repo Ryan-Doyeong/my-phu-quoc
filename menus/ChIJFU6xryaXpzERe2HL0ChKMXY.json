@@ -1,0 +1,83 @@
+{
+  "name_google": "CAFE GREEN(카페그린)SUNSET TOWN.망고빙수",
+  "name_display": "카페 그린 선셋타운 (Cafe Green - 망고빙수 전문)",
+  "place_id": "ChIJFU6xryaXpzERe2HL0ChKMXY",
+  "master_category": "3. 카페 & 베이커리",
+  "info_level": "B",
+  "status": "partial",
+  "menu_date": "2026-10",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJFU6xryaXpzERe2HL0ChKMXY",
+      "accessed": "2026-10-25",
+      "note": "구글맵 리뷰 사진 실측 메뉴판"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Bingsu & Mango Dessert / 빙수 & 망고 디저트",
+      "section_ko": "생망고 눈꽃빙수 & 디저트",
+      "items": [
+        {
+          "name_original": "Bingsu Xoài Tươi (Fresh Mango Snowflake Bingsu)",
+          "name_ko": "생망고 눈꽃빙수 (대표 시그니처)",
+          "description_original": "Silky milk snowflake shaved ice topped with sweet ripe Vietnamese mango cubes and ice cream",
+          "description_ko": "부드러운 우유 눈꽃 얼음 위에 신선한 생망고 과육과 아이스크림을 듬뿍 올린 대표 빙수",
+          "price_vnd": 160000,
+          "tags": [
+            "빙수",
+            "망고",
+            "시그니처",
+            "인기"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Sinh Tố Xoài (Fresh Mango Smoothie)",
+          "name_ko": "생망고 스무디",
+          "description_original": "Pure ripe mango blended thick and cold",
+          "description_ko": "달콤한 완숙 생망고를 그대로 갈아 넣은 진한 트로피컬 스무디",
+          "price_vnd": 70000,
+          "tags": [
+            "스무디",
+            "망고"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Cà Phê Cốt Dừa (Iced Coconut Coffee)",
+          "name_ko": "코코넛 커피 스무디",
+          "description_original": "Creamy blended coconut milk topped with rich Vietnamese espresso",
+          "description_ko": "고소하고 달콤한 코코넛 스무디에 진한 에스프레소를 부어 마시는 베트남 명물 커피",
+          "price_vnd": 65000,
+          "tags": [
+            "커피",
+            "코코넛"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Cà phê Americano",
+          "name_ko": "아이스 아메리카노",
+          "description_original": "Crisp cold iced Americano with premium roast",
+          "description_ko": "시원하고 깔끔한 클래식 아이스 아메리카노",
+          "price_vnd": 50000,
+          "tags": [
+            "커피"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 F&B 확장 조사: 3. 카페 & 베이커리 실측 핵심 메뉴 확보로 Grade B 등록."
+}

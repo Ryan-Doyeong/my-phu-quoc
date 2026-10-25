@@ -171,7 +171,7 @@ export const PUBLISHED_EVENTS: EventSampleStory[] = [
       "Đặt chỗ & liên hệ: www.getartystudio.com/events · Nguồn thông tin: Chia sẻ từ nhóm Facebook 'Events in Saigon' (Get Arty)",
     callout_ko:
       "예약 및 문의: www.getartystudio.com/events · 정보 출처: Facebook 'Events in Saigon' 그룹 공유 (Get Arty)",
-    cover_image_url: '/news-img/spooky-halloween-mask-making-get-arty-thao-dien.webp',
+    cover_image_url: '/features/default_cover_640.webp',
     hero_caption:
       'Halloween mask-making craft table with felt masks, colored cardstock, brushes and glue gun (illustration prepared by Good Life Phu Quoc).',
     hero_caption_vi:
@@ -211,7 +211,7 @@ export const PUBLISHED_EVENTS: EventSampleStory[] = [
 
 /**
  * 샘플 이벤트 글 3건 (실제가 아닌 '샘플' 표시, 외부 검색 노출 금지 noindex 처리)
- * - 사진은 기존 사이트 보유 정적 이미지(/stock/*.webp)만 사용 (새 오브젝트 추가 없음)
+ * - 사진은 기존 사이트 보유 정적 이미지(/features/*.webp)만 사용 (새 오브젝트 추가 없음)
  * - 아르곤이 3개 언어(EN / VI / KO)를 한 번에 입력한 구조
  */
 export const SAMPLE_EVENTS: EventSampleStory[] = [
@@ -314,10 +314,10 @@ Khuyến khích cư dân mang theo túi vải cá nhân và bình nước riêng
     callout: 'SAMPLE NOTICE: This listing is a sample post for UI verification only and is excluded from public search indexing.',
     callout_vi: 'THÔNG BÁO BÀI MẪU: Đây là bài đăng mẫu chỉ dùng để kiểm tra giao diện và không xuất hiện trên công cụ tìm kiếm.',
     callout_ko: '샘플 공지: 이 게시물은 게시판 디자인 및 기능 점검을 위한 샘플 데이터이며 외부 검색엔진에 노출되지 않습니다.',
-    cover_image_url: '/stock/bakery.webp',
-    hero_caption: 'Sample illustration image from existing site stock (/stock/bakery.webp).',
-    hero_caption_vi: 'Ảnh minh họa mẫu từ kho ảnh sẵn có của trang (/stock/bakery.webp).',
-    hero_caption_ko: '사이트 기존 보유 스톡 이미지를 활용한 샘플 대표 사진입니다 (/stock/bakery.webp).',
+    cover_image_url: '/features/dining_featured_640.webp',
+    hero_caption: 'Sample illustration image from existing site stock (/features/dining_featured_640.webp).',
+    hero_caption_vi: 'Ảnh minh họa mẫu từ kho ảnh sẵn có của trang (/features/dining_featured_640.webp).',
+    hero_caption_ko: '사이트 기존 보유 스톡 이미지를 활용한 샘플 대표 사진입니다 (/features/dining_featured_640.webp).',
     published_at: '2026-10-19T09:00:00+07:00',
     updated_at: '2026-10-19T09:00:00+07:00',
     event_date: '2026-10-18T08:30:00+07:00',
@@ -425,10 +425,10 @@ Vui lòng tự chuẩn bị thảm tập yoga, khăn nhỏ và bình nước cá
     callout: 'SAMPLE NOTICE: This listing is a sample post for UI verification only and is excluded from public search indexing.',
     callout_vi: 'THÔNG BÁO BÀI MẪU: Đây là bài đăng mẫu chỉ dùng để kiểm tra giao diện và không xuất hiện trên công cụ tìm kiếm.',
     callout_ko: '샘플 공지: 이 게시물은 게시판 디자인 및 기능 점검을 위한 샘플 데이터이며 외부 검색엔진에 노출되지 않습니다.',
-    cover_image_url: '/stock/workout.webp',
-    hero_caption: 'Sample illustration image from existing site stock (/stock/workout.webp).',
-    hero_caption_vi: 'Ảnh minh họa mẫu từ kho ảnh sẵn có của trang (/stock/workout.webp).',
-    hero_caption_ko: '사이트 기존 보유 스톡 이미지를 활용한 샘플 대표 사진입니다 (/stock/workout.webp).',
+    cover_image_url: '/features/activities_featured_640.webp',
+    hero_caption: 'Sample illustration image from existing site stock (/features/activities_featured_640.webp).',
+    hero_caption_vi: 'Ảnh minh họa mẫu từ kho ảnh sẵn có của trang (/features/activities_featured_640.webp).',
+    hero_caption_ko: '사이트 기존 보유 스톡 이미지를 활용한 샘플 대표 사진입니다 (/features/activities_featured_640.webp).',
     published_at: '2026-10-16T08:00:00+07:00',
     updated_at: '2026-10-16T08:00:00+07:00',
     event_date: '2026-10-17T07:00:00+07:00',
@@ -533,10 +533,10 @@ Sự kiện mẫu này có ngày kết thúc trong quá khứ (\`2026-10-10\`) �
     callout: 'SAMPLE NOTICE: This listing is a sample post for UI verification only and is excluded from public search indexing.',
     callout_vi: 'THÔNG BÁO BÀI MẪU: Đây là bài đăng mẫu chỉ dùng để kiểm tra giao diện và không xuất hiện trên công cụ tìm kiếm.',
     callout_ko: '샘플 공지: 이 게시물은 게시판 디자인 및 기능 점검을 위한 샘플 데이터이며 외부 검색엔진에 노출되지 않습니다.',
-    cover_image_url: '/stock/cafe.webp',
-    hero_caption: 'Sample illustration image from existing site stock (/stock/cafe.webp).',
-    hero_caption_vi: 'Ảnh minh họa mẫu từ kho ảnh sẵn có của trang (/stock/cafe.webp).',
-    hero_caption_ko: '사이트 기존 보유 스톡 이미지를 활용한 샘플 대표 사진입니다 (/stock/cafe.webp).',
+    cover_image_url: '/features/dining_featured_640.webp',
+    hero_caption: 'Sample illustration image from existing site stock (/features/dining_featured_640.webp).',
+    hero_caption_vi: 'Ảnh minh họa mẫu từ kho ảnh sẵn có của trang (/features/dining_featured_640.webp).',
+    hero_caption_ko: '사이트 기존 보유 스톡 이미지를 활용한 샘플 대표 사진입니다 (/features/dining_featured_640.webp).',
     published_at: '2026-10-08T10:00:00+07:00',
     updated_at: '2026-10-10T19:00:00+07:00',
     event_date: '2026-10-10T15:00:00+07:00',

@@ -1,0 +1,176 @@
+{
+  "updated_at": "2026-10-25T23:14:00+07:00",
+  "verification_method": "Google Chrome Headless --dump-dom Wikimedia Commons direct verification",
+  "status": "candidate_02_selected_by_ryan_verified",
+  "active_hero_in_production": "hero_02_kiss_bridge_aerial_webp",
+  "active_hero_files": {
+    "sm_640": "/hero/02_kiss_bridge_aerial_640.webp",
+    "md_1280": "/hero/02_kiss_bridge_aerial_1280.webp",
+    "lg_1920": "/hero/02_kiss_bridge_aerial_1920.webp"
+  },
+  "active_hero_attribution": {
+    "title": "Kiss Bridge Phu Quoc aerial sunset view",
+    "author": "Vivu Vietnam",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Kiss_Bridge_Phu_Quoc_aerial_sunset_view.jpg",
+    "chrome_verified_at": "2026-10-25T23:13:00+07:00",
+    "license_status": "verified",
+    "share_alike_clause": "CC BY 4.0: 저작자 표시 의무만 적용 (동일조건변경허락 의무 없음)"
+  },
+  "stock_replacement_plan": {
+    "total_replaced": 5,
+    "criteria": "푸꾸옥 선셋타운 실제 사진 (WebP 640/1280 2종 및 화면 출처 표기)",
+    "replaced_slots": [
+      {
+        "slot": "dining_featured",
+        "photo_id": "cand_05",
+        "subject": "Apollo Cafe & Sunset Town 보행자 거리 (주간)",
+        "author": "Vivu Vietnam",
+        "license": "CC BY-SA 4.0",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Apollo_Cafe_daytime_street_view_Sunset_Town_Phu_Quoc_Vietnam.jpg",
+        "files": {
+          "sm_640": "/features/dining_featured_640.webp",
+          "md_1280": "/features/dining_featured_1280.webp"
+        },
+        "license_status": "verified",
+        "share_alike_clause": "CC BY-SA 4.0: 동일조건변경허락(ShareAlike) 적용"
+      },
+      {
+        "slot": "hotel_featured",
+        "photo_id": "cand_03",
+        "subject": "선셋타운 지중해풍 언덕 건축 및 호텔가 전경",
+        "author": "Vivu Vietnam",
+        "license": "CC BY-SA 4.0",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Sunset-town-phu-quoc-1.jpg",
+        "files": {
+          "sm_640": "/features/hotel_featured_640.webp",
+          "md_1280": "/features/hotel_featured_1280.webp"
+        },
+        "license_status": "verified",
+        "share_alike_clause": "CC BY-SA 4.0: 동일조건변경허락(ShareAlike) 적용"
+      },
+      {
+        "slot": "activities_featured",
+        "photo_id": "cand_06",
+        "subject": "선셋타운 상공 혼똔 케이블카",
+        "author": "Klientos",
+        "license": "CC BY-SA 4.0",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:H%C3%B2n_Th%C6%A1m_cable_car_above_the_An_Th%E1%BB%9Bi_township.jpg",
+        "files": {
+          "sm_640": "/features/activities_featured_640.webp",
+          "md_1280": "/features/activities_featured_1280.webp"
+        },
+        "license_status": "verified",
+        "share_alike_clause": "CC BY-SA 4.0: 동일조건변경허락(ShareAlike) 적용"
+      },
+      {
+        "slot": "nightlife_featured",
+        "photo_id": "cand_04",
+        "subject": "선셋타운 Kiss of the Sea 해상 불꽃놀이 쇼",
+        "author": "Vivu Vietnam",
+        "license": "CC BY-SA 4.0",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Kiss_of_the_Sea_fireworks_show_Sunset_Town_Sun_World_Phu_Quoc_night_Vietnam.jpg",
+        "files": {
+          "sm_640": "/features/nightlife_featured_640.webp",
+          "md_1280": "/features/nightlife_featured_1280.webp"
+        },
+        "license_status": "verified",
+        "share_alike_clause": "CC BY-SA 4.0: 동일조건변경허락(ShareAlike) 적용"
+      },
+      {
+        "slot": "general_sightseeing",
+        "photo_id": "cand_01",
+        "subject": "키스브릿지(Cầu Hôn) 바다 위 황금빛 석양",
+        "author": "Vivu Vietnam",
+        "license": "CC BY-SA 4.0",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Kiss_Bridge_at_sunset_Phu_Quoc_Island_Vietnam.jpg",
+        "files": {
+          "sm_640": "/features/general_sightseeing_640.webp",
+          "md_1280": "/features/general_sightseeing_1280.webp"
+        },
+        "license_status": "verified",
+        "share_alike_clause": "CC BY-SA 4.0: 동일조건변경허락(ShareAlike) 적용"
+      }
+    ]
+  },
+  "candidates_verification": [
+    {
+      "id": "cand_02",
+      "file_name": "Kiss_Bridge_Phu_Quoc_aerial_sunset_view.jpg",
+      "url_checked": "https://commons.wikimedia.org/wiki/File:Kiss_Bridge_Phu_Quoc_aerial_sunset_view.jpg",
+      "checked_at": "2026-10-25T23:13:10.870784",
+      "chrome_page_title": "File:Kiss Bridge Phu Quoc aerial sunset view.jpg - Wikimedia Commons",
+      "detected_author": "Vivu Vietnam",
+      "detected_license": "Creative Commons Attribution 4.0",
+      "license_status": "verified",
+      "share_alike_clause": "CC BY 4.0: 저작자 표시 의무만 적용 (동일조건 의무 없음)"
+    },
+    {
+      "id": "cand_01",
+      "file_name": "Kiss_Bridge_at_sunset_Phu_Quoc_Island_Vietnam.jpg",
+      "url_checked": "https://commons.wikimedia.org/wiki/File:Kiss_Bridge_at_sunset_Phu_Quoc_Island_Vietnam.jpg",
+      "checked_at": "2026-10-25T23:13:17.703313",
+      "chrome_page_title": "File:Kiss Bridge at sunset Phu Quoc Island Vietnam.jpg - Wikimedia Commons",
+      "detected_author": "Vivu Vietnam",
+      "detected_license": "Creative Commons Attribution-ShareAlike 4.0",
+      "license_status": "verified",
+      "share_alike_clause": "CC BY 4.0: 저작자 표시 의무만 적용 (동일조건 의무 없음)"
+    },
+    {
+      "id": "cand_03",
+      "file_name": "Sunset-town-phu-quoc-1.jpg",
+      "url_checked": "https://commons.wikimedia.org/wiki/File:Sunset-town-phu-quoc-1.jpg",
+      "checked_at": "2026-10-25T23:13:25.408782",
+      "chrome_page_title": "File:Sunset-town-phu-quoc-1.jpg - Wikimedia Commons",
+      "detected_author": "Vivu Vietnam",
+      "detected_license": "Creative Commons Attribution-ShareAlike 4.0",
+      "license_status": "verified",
+      "share_alike_clause": "CC BY 4.0: 저작자 표시 의무만 적용 (동일조건 의무 없음)"
+    },
+    {
+      "id": "cand_04",
+      "file_name": "Kiss_of_the_Sea_fireworks_show_Sunset_Town_Sun_World_Phu_Quoc_night_Vietnam.jpg",
+      "url_checked": "https://commons.wikimedia.org/wiki/File:Kiss_of_the_Sea_fireworks_show_Sunset_Town_Sun_World_Phu_Quoc_night_Vietnam.jpg",
+      "checked_at": "2026-10-25T23:13:31.830203",
+      "chrome_page_title": "File:Kiss of the Sea fireworks show Sunset Town Sun World Phu Quoc night Vietnam.jpg - Wikimedia Commons",
+      "detected_author": "Vivu Vietnam",
+      "detected_license": "Creative Commons Attribution-ShareAlike 4.0",
+      "license_status": "verified",
+      "share_alike_clause": "CC BY 4.0: 저작자 표시 의무만 적용 (동일조건 의무 없음)"
+    },
+    {
+      "id": "cand_05",
+      "file_name": "Apollo_Cafe_daytime_street_view_Sunset_Town_Phu_Quoc_Vietnam.jpg",
+      "url_checked": "https://commons.wikimedia.org/wiki/File:Apollo_Cafe_daytime_street_view_Sunset_Town_Phu_Quoc_Vietnam.jpg",
+      "checked_at": "2026-10-25T23:13:38.031867",
+      "chrome_page_title": "File:Apollo Cafe daytime street view Sunset Town Phu Quoc Vietnam.jpg - Wikimedia Commons",
+      "detected_author": "Vivu Vietnam",
+      "detected_license": "Creative Commons Attribution-ShareAlike 4.0",
+      "license_status": "verified",
+      "share_alike_clause": "CC BY 4.0: 저작자 표시 의무만 적용 (동일조건 의무 없음)"
+    },
+    {
+      "id": "cand_06",
+      "file_name": "H%C3%B2n_Th%C6%A1m_cable_car_above_the_An_Th%E1%BB%9Bi_township.jpg",
+      "url_checked": "https://commons.wikimedia.org/wiki/File:H%C3%B2n_Th%C6%A1m_cable_car_above_the_An_Th%E1%BB%9Bi_township.jpg",
+      "checked_at": "2026-10-25T23:13:44.061538",
+      "chrome_page_title": "File:Hòn Thơm cable car above the An Thới township.jpg - Wikimedia Commons",
+      "detected_author": "Klientos (page does not exist)",
+      "detected_license": "Creative Commons Attribution-ShareAlike 4.0",
+      "license_status": "verified",
+      "share_alike_clause": "CC BY 4.0: 저작자 표시 의무만 적용 (동일조건 의무 없음)"
+    },
+    {
+      "id": "cand_07",
+      "file_name": "Sunset_Town_Phu_Quoc_at_night.jpg",
+      "url_checked": "https://commons.wikimedia.org/wiki/File:Sunset_Town_Phu_Quoc_at_night.jpg",
+      "checked_at": "2026-10-25T23:13:51.878417",
+      "chrome_page_title": "File:Sunset Town Phu Quoc at night.jpg - Wikimedia Commons",
+      "detected_author": "Vivu Vietnam",
+      "detected_license": "Creative Commons Attribution-ShareAlike 4.0",
+      "license_status": "verified",
+      "share_alike_clause": "CC BY 4.0: 저작자 표시 의무만 적용 (동일조건 의무 없음)"
+    }
+  ]
+}

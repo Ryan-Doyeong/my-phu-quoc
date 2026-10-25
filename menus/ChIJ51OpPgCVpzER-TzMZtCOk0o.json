@@ -1,0 +1,51 @@
+{
+  "name_google": "Maison Kayser Phu Quoc",
+  "name_display": "Maison Kayser Phu Quoc",
+  "place_id": "ChIJ51OpPgCVpzER-TzMZtCOk0o",
+  "master_category": "3. 카페 & 베이커리",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJ51OpPgCVpzER-TzMZtCOk0o",
+      "accessed": "2026-10-25"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
+      "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
+      "price_approx": "45,000 ~ 75,000 VND"
+    },
+    {
+      "name_original": "Cà phê Americano / Espresso",
+      "name_ko": "아메리카노 / 에스프레소",
+      "price_approx": "45,000 ~ 65,000 VND"
+    },
+    {
+      "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
+      "name_ko": "망고 스무디 / 생과일 주스",
+      "price_approx": "55,000 ~ 85,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 45000,
+    "max": 110000,
+    "basis": "베이커리 / 디저트 / 아이스크림 평균 가격대 실측"
+  },
+  "conflicts": [
+    {
+      "field": "duplicate",
+      "issue": "Maison Eric Kayser Sunset Town(ChIJjVDpHgiHCjERTaQVRRrVJ9Y)의 중복 등록 지점임."
+    }
+  ],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 F&B 확장 조사: 3. 카페 & 베이커리 베이커리 / 디저트 / 아이스크림 가격대 및 대표 메뉴군 파악으로 Grade C 등록."
+}

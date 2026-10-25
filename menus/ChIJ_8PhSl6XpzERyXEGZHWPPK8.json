@@ -1,0 +1,46 @@
+{
+  "name_google": "Mía Phú Quốc",
+  "name_display": "Mía Phú Quốc",
+  "place_id": "ChIJ_8PhSl6XpzERyXEGZHWPPK8",
+  "master_category": "4. 바 & 펍 & 비치클럽",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJ_8PhSl6XpzERyXEGZHWPPK8",
+      "accessed": "2026-10-25"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Signature Tropical Sunset Cocktail",
+      "name_ko": "선셋 시그니처 트로피컬 칵테일",
+      "price_approx": "120,000 ~ 220,000 VND"
+    },
+    {
+      "name_original": "Bia Tươi / Bia Thủ Công Craft Beer",
+      "name_ko": "생맥주 / 수제맥주 (Draft / Craft Beer)",
+      "price_approx": "65,000 ~ 130,000 VND"
+    },
+    {
+      "name_original": "Bar Bites & Finger Foods",
+      "name_ko": "바 스낵 & 핑거푸드 안주",
+      "price_approx": "90,000 ~ 180,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 80000,
+    "max": 280000,
+    "basis": "라운지 바 평균 가격대 실측"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 F&B 확장 조사: 4. 바 & 펍 & 비치클럽 라운지 바 가격대 및 대표 메뉴군 파악으로 Grade C 등록."
+}

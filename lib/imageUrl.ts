@@ -15,12 +15,8 @@ export function imageUrl(src: string | null | undefined, width = 900, quality = 
     }
   }
 
-  if ((src === '/stock/hero.webp' || src === '/stock/ai/hero.webp') && width <= 800) {
-    return '/stock/ai/hero-mobile.webp';
-  }
-  if (src === '/stock/hero.webp') {
-    return '/stock/ai/hero.webp';
-  }
+  // Replaced stock routing
+  // legacy check removed
 
   if (src.startsWith('/api/unsplash/')) {
     // Generate a simple hash from the src string
@@ -31,7 +27,7 @@ export function imageUrl(src: string | null | undefined, width = 900, quality = 
     const absHash = Math.abs(hash);
     const options = ['closing', 'hobby', 'cafe', 'wellness', 'workout', 'brunch', 'bakery'];
     const selected = options[absHash % options.length];
-    return `/stock/${selected}.webp`;
+    return `/features/${selected}_640.webp`;
   }
   
   if (src.startsWith('https://images.unsplash.com/')) {

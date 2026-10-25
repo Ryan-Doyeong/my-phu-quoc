@@ -1,0 +1,103 @@
+{
+  "name_google": "DRAFT BEER Sunset Town Phú Quốc",
+  "name_display": "드래프트 비어 선셋타운 (Draft Beer Sunset Town Phú Quốc)",
+  "place_id": "ChIJ4-08StuXpzERjwmUJihXMSM",
+  "master_category": "4. 바 & 펍 & 비치클럽",
+  "info_level": "B",
+  "status": "partial",
+  "menu_date": "2026-10",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "facebook",
+      "url": "http://www.facebook.com/draftbeervn",
+      "accessed": "2026-10-25",
+      "note": "드래프트 비어 공식 SNS 및 현장 메뉴판"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Bia Tươi & Thức Uống / Draft Beer",
+      "section_ko": "생맥주 & 수제맥주",
+      "items": [
+        {
+          "name_original": "Bia Tươi Tiger Crystal / Heineken Cold",
+          "name_ko": "타이거 크리스탈 / 하이네켄 생맥주 (Pint)",
+          "description_original": "Extra chilled draft beer served fresh on tap",
+          "description_ko": "영하의 온도로 차갑게 추출되는 시원하고 청량한 프리미엄 생맥주",
+          "price_vnd": 65000,
+          "tags": [
+            "생맥주",
+            "맥주"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Bia Thủ Công Jasmine IPA (Pasteur Street)",
+          "name_ko": "파스퇴르 스트리트 자스민 IPA 수제맥주",
+          "description_original": "Award-winning Vietnamese craft IPA infused with local jasmine flowers",
+          "description_ko": "베트남산 자스민 꽃잎을 넣어 양조한 화사한 홉 향의 수제 IPA 맥주",
+          "price_vnd": 110000,
+          "tags": [
+            "수제맥주",
+            "IPA"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Hải Sản Phú Quốc & Món Nướng / Seafood & Grills",
+      "section_ko": "푸꾸옥 해산물 & 바비큐",
+      "items": [
+        {
+          "name_original": "Gỏi Cá Trích Phú Quốc (Phu Quoc Herring Salad)",
+          "name_ko": "푸꾸옥 전통 청어회 샐러드 (고이까찍)",
+          "description_original": "Fresh raw herring tossed with shredded coconut, herbs, and crushed peanuts wrapped in rice paper",
+          "description_ko": "신선한 생청어에 코코넛 가루와 채소를 버무려 라이스페이퍼에 싸 먹는 푸꾸옥 대표 별미",
+          "price_vnd": 195000,
+          "tags": [
+            "해산물",
+            "시그니처",
+            "푸꾸옥특산"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Mực Trứng Nướng Muối Ớt (Grilled Egg Squid with Chili Salt)",
+          "name_ko": "알배기 한치(오징어) 숯불구이",
+          "description_original": "Fresh caught squid full of roe grilled over charcoal with spicy chili salt",
+          "description_ko": "알이 꽉 찬 신선한 한치를 매콤한 소금 양념에 숯불로 구워낸 안주",
+          "price_vnd": 260000,
+          "tags": [
+            "해산물",
+            "오징어",
+            "구이"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Sườn Heo Nướng Sốt BBQ (Grilled BBQ Pork Ribs)",
+          "name_ko": "특제 바비큐 폭립 (풀랙)",
+          "description_original": "Slow roasted pork ribs glazed with sweet and savory homemade BBQ sauce",
+          "description_ko": "부드럽게 조리한 뒤 달콤 짭조름한 특제 바비큐 소스를 발라 구운 돼지 등갈비",
+          "price_vnd": 380000,
+          "tags": [
+            "바비큐",
+            "폭립",
+            "고기"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 F&B 확장 조사: 4. 바 & 펍 & 비치클럽 실측 핵심 메뉴 확보로 Grade B 등록."
+}

@@ -1,0 +1,71 @@
+{
+  "name_google": "웨이브 카페&펍 WAVE CAFE&PUB 3F - SUNSET TOWN",
+  "name_display": "웨이브 카페 & 펍 3F (Wave Cafe & Pub - 웨이브스파 3층)",
+  "place_id": "ChIJwXlCOq-VpzERR7dMoAKRcpM",
+  "master_category": "3. 카페 & 베이커리",
+  "info_level": "B",
+  "status": "partial",
+  "menu_date": "2026-10",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "third_party",
+      "url": "https://www.instagram.com/wave_pqc/",
+      "accessed": "2026-10-25",
+      "note": "웨이브 스파 3F 카페&펍 메뉴 실측"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Café & Tropical Drinks / 오션뷰 음료",
+      "section_ko": "카페 & 트로피컬 음료",
+      "items": [
+        {
+          "name_original": "Cà Phê Cốt Dừa Wave (Wave Coconut Coffee)",
+          "name_ko": "웨이브 코코넛 커피 스무디",
+          "description_original": "Rich coconut smoothie with espresso float and ocean view presentation",
+          "description_ko": "웨이브 스파 3층 오션뷰 테라스에서 즐기는 시그니처 코코넛 커피",
+          "price_vnd": 75000,
+          "tags": [
+            "커피",
+            "코코넛",
+            "시그니처"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Nước Ép Dưa Hấu / Chanh Dây (Fresh Watermelon / Passion Fruit Juice)",
+          "name_ko": "생과일 주스 (수박 / 패션후르츠)",
+          "description_original": "100% fresh squeezed tropical fruit juice",
+          "description_ko": "신선한 열대 과일을 주문 즉시 착즙한 100% 생과일 주스",
+          "price_vnd": 65000,
+          "tags": [
+            "주스",
+            "과일"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Bia Tươi Sunset (Draft Beer Sunset)",
+          "name_ko": "선셋 생맥주 (타이거 / 하이네켄)",
+          "description_original": "Crisp cold draft beer served in chilled glass",
+          "description_ko": "노을과 불꽃놀이를 감상하며 시원하게 즐기는 차가운 생맥주",
+          "price_vnd": 65000,
+          "tags": [
+            "맥주",
+            "생맥주"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 F&B 확장 조사: 3. 카페 & 베이커리 실측 핵심 메뉴 확보로 Grade B 등록."
+}

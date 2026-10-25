@@ -1,0 +1,115 @@
+{
+  "name_google": "Sun Bavaria GastroPub",
+  "name_display": "선 바바리아 가스트로펍 (Sun Bavaria GastroPub - Sun KraftBeer)",
+  "place_id": "ChIJAwwqc2yVpzER_4K_0feO5I8",
+  "master_category": "4. 바 & 펍 & 비치클럽",
+  "info_level": "B",
+  "status": "partial",
+  "menu_date": "2026-10",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_site",
+      "url": "https://sunsettown.com.vn",
+      "accessed": "2026-10-25",
+      "note": "선그룹 선 바바리아 가스트로펍 공식 요금 및 메뉴"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Bia thủ công Sun KraftBeer / German Craft Beer",
+      "section_ko": "선 크래프트비어 정통 독일 수제맥주",
+      "items": [
+        {
+          "name_original": "Sun KraftBeer Munich Helles (Lager)",
+          "name_ko": "뮌헨 헬레스 라거 수제맥주 (500ml)",
+          "description_original": "Crisp golden Bavarian lager brewed in accordance with German purity law",
+          "description_ko": "독일 정통 맥주 순수령을 준수해 양조한 황금빛의 깔끔하고 상쾌한 라거",
+          "price_vnd": 120000,
+          "tags": [
+            "수제맥주",
+            "라거",
+            "독일"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Sun KraftBeer Weizen (Wheat Beer)",
+          "name_ko": "바이젠 밀맥주 (500ml)",
+          "description_original": "Unfiltered Bavarian wheat beer with banana and clove notes",
+          "description_ko": "바나나와 정향의 풍부한 아로마가 감도는 부드러운 바이에른 정통 밀맥주",
+          "price_vnd": 130000,
+          "tags": [
+            "수제맥주",
+            "밀맥주"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Sun KraftBeer Dark Dunkel",
+          "name_ko": "둔켈 흑맥주 (500ml)",
+          "description_original": "Roasted malt dark lager with caramel and chocolate undertones",
+          "description_ko": "구운 몰트의 고소함과 카라멜 풍미가 깊은 정통 바바리아 흑맥주",
+          "price_vnd": 130000,
+          "tags": [
+            "수제맥주",
+            "흑맥주"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Món ăn Đức truyền thống & Hải sản / German Dishes & Seafood",
+      "section_ko": "독일 요리 & 바비큐 & 해산물",
+      "items": [
+        {
+          "name_original": "Đùi Heo Muối Chiên Giòn (Crispy Bavarian Schweinshaxe)",
+          "name_ko": "독일식 슈바인학센 (겉바속촉 족발 구이)",
+          "description_original": "Crispy roasted pork knuckle served with sauerkraut and beer mustard gravy",
+          "description_ko": "겉은 바삭하고 속은 부드러운 정통 독일식 돼지 족발 구이와 자우어크라우트",
+          "price_vnd": 480000,
+          "tags": [
+            "학센",
+            "고기",
+            "시그니처"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Xúc Xích Đức Tổng Hợp (Assorted German Sausages Platter)",
+          "name_ko": "독일식 모둠 수제 소시지 플래터",
+          "description_original": "Grilled artisanal bratwurst, bockwurst, and cheese kransky with mustard",
+          "description_ko": "그릴에 구워 육즙이 가득한 3종 수제 소시지와 홀그레인 머스터드",
+          "price_vnd": 350000,
+          "tags": [
+            "소시지",
+            "안주"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Gói Buffet Tối + Xem Show Symphony of the Sea (Dinner Buffet & Show)",
+          "name_ko": "디너 뷔페 + 심포니 오브 더 씨 수상쇼 관람 패키지 (1인)",
+          "description_original": "International buffet with free-flow Sun KraftBeer and VIP show seats",
+          "description_ko": "야외 테라스 특석에서 즐기는 해산물 뷔페 + 수제맥주 무제한 + 해상 제트스키쇼 관람",
+          "price_vnd": 850000,
+          "tags": [
+            "뷔페",
+            "패키지",
+            "공연"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 F&B 확장 조사: 4. 바 & 펍 & 비치클럽 실측 핵심 메뉴 확보로 Grade B 등록."
+}

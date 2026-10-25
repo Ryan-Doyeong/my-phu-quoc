@@ -1,56 +1,52 @@
+// lib/stockImages.ts - Claude 7차 지시서: public/stock 대체용 Sunset Town 실제 사진 매핑
 export const STOCK_IMAGES = {
-  wellness: '/stock/ai/wellness.webp',
-  workout: '/stock/ai/workout.webp',
-  food: '/stock/ai/food.webp',
-  cafe: '/stock/ai/cafe.webp',
-  hobby: '/stock/ai/hobby.webp',
-  hotel: '/stock/ai/hero.webp',
+  wellness: '/features/hotel_featured_1280.webp',
+  workout: '/features/activities_featured_1280.webp',
+  food: '/features/dining_featured_1280.webp',
+  cafe: '/features/dining_featured_1280.webp',
+  hobby: '/features/activities_featured_1280.webp',
+  hotel: '/features/hotel_featured_1280.webp',
 
-  massage: '/stock/wellness.webp',
-  spa: '/stock/wellness.webp',
-  recovery: '/stock/wellness.webp',
-  clinic: '/stock/wellness.webp',
+  massage: '/features/hotel_featured_1280.webp',
+  spa: '/features/hotel_featured_1280.webp',
+  recovery: '/features/hotel_featured_1280.webp',
+  clinic: '/features/hotel_featured_1280.webp',
 
-  gym: '/stock/workout.webp',
-  yoga: '/stock/workout.webp',
-  pilates: '/stock/workout.webp',
+  gym: '/features/activities_featured_1280.webp',
+  yoga: '/features/activities_featured_1280.webp',
+  pilates: '/features/activities_featured_1280.webp',
 
-  restaurant: '/stock/food.webp',
-  korean: '/stock/korean.webp',
-  japanese: '/stock/japanese.webp',
-  italian: '/stock/italian.webp',
-  healthy: '/stock/healthy.webp',
+  restaurant: '/features/dining_featured_1280.webp',
+  korean: '/features/dining_featured_1280.webp',
+  japanese: '/features/dining_featured_1280.webp',
+  italian: '/features/dining_featured_1280.webp',
+  healthy: '/features/dining_featured_1280.webp',
 
-  brunch: '/stock/brunch.webp',
-  bakery: '/stock/bakery.webp',
-  tennis: '/stock/hobby.webp',
+  brunch: '/features/dining_featured_1280.webp',
+  bakery: '/features/dining_featured_1280.webp',
+  tennis: '/features/activities_featured_1280.webp',
 
-  hero: '/stock/ai/hero.webp',
-  closing: '/stock/closing.webp',
+  hero: '/hero/02_kiss_bridge_aerial_1920.webp',
+  closing: '/features/general_sightseeing_1280.webp',
 } as const
 
-export function stockGalleryFor(category:string,subcategory:string|null,tags:string[]|null=[]){
-  const t=[subcategory||'',...(tags||[])].join(' ').toLowerCase()
-  if(category==='bars') return [STOCK_IMAGES.cafe]
-  if(category==='dining'){
-    if(t.includes('japanese')||t.includes('sushi')) return [STOCK_IMAGES.japanese]
-    if(t.includes('korean')) return [STOCK_IMAGES.korean]
-    if(t.includes('italian')||t.includes('pizza')) return [STOCK_IMAGES.italian]
-    if(t.includes('vegetarian')||t.includes('healthy')) return [STOCK_IMAGES.healthy]
+export function stockGalleryFor(category: string, subcategory: string | null, tags: string[] | null = []) {
+  const t = [subcategory || '', ...(tags || [])].join(' ').toLowerCase()
+  if (category === 'bars') return [STOCK_IMAGES.cafe]
+  if (category === 'dining') {
     return [STOCK_IMAGES.restaurant]
   }
-  if(category==='hotels') return [STOCK_IMAGES.hotel]
-  if(category==='activities') return [STOCK_IMAGES.workout]
-  if(category==='beach') return [STOCK_IMAGES.hero]
-  if(category==='wellness'){
-    if(t.includes('massage')) return [STOCK_IMAGES.massage]
+  if (category === 'hotels') return [STOCK_IMAGES.hotel]
+  if (category === 'activities') return [STOCK_IMAGES.workout]
+  if (category === 'beach') return [STOCK_IMAGES.hero]
+  if (category === 'wellness') {
     return [STOCK_IMAGES.spa]
   }
-  if(category==='shopping') return [STOCK_IMAGES.hobby]
-  if(category==='essentials') return [STOCK_IMAGES.closing]
-  return [STOCK_IMAGES.tennis]
+  if (category === 'shopping') return [STOCK_IMAGES.hobby]
+  if (category === 'essentials') return [STOCK_IMAGES.closing]
+  return [STOCK_IMAGES.hero]
 }
 
-export function stockPrimaryFor(category:string,subcategory:string|null,tags:string[]|null=[]){
-  return stockGalleryFor(category,subcategory,tags)[0]
+export function stockPrimaryFor(category: string, subcategory: string | null, tags: string[] | null = []) {
+  return stockGalleryFor(category, subcategory, tags)[0]
 }

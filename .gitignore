@@ -9,9 +9,11 @@ node_modules
 
 .npm-cache
 _to_delete
+_backup_orig
 tsconfig.tsbuildinfo
 
 # My Phu Quoc additions
+*.orig
 *.tsbuildinfo
 ai-photos/
 convert.py

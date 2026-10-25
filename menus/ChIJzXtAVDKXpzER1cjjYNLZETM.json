@@ -1,0 +1,47 @@
+{
+  "name_google": "Cielo",
+  "name_display": "씨엘로 루프탑 바 (Cielo Rooftop Bar - La Festa Hilton)",
+  "place_id": "ChIJzXtAVDKXpzER1cjjYNLZETM",
+  "master_category": "4. 바 & 펍 & 비치클럽",
+  "info_level": "B",
+  "status": "partial",
+  "menu_date": "2026-10",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_site",
+      "url": "https://hilton.com",
+      "accessed": "2026-10-25",
+      "note": "라 페스타 힐튼 씨엘로 루프탑 바 메뉴"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Skyline Cocktails / 스카이라인 선셋 칵테일",
+      "section_ko": "선셋 루프탑 시그니처 칵테일",
+      "items": [
+        {
+          "name_original": "Cielo Kiss of the Sea Cocktail",
+          "name_ko": "씨엘로 키스 오브 더 씨 칵테일",
+          "description_original": "Sparkling prosecco layered with blue curacao, elderflower liqueur, and gold glitter",
+          "description_ko": "야간 불꽃놀이와 바다의 반짝임을 모티브로 프로세코와 엘더플라워로 빚어낸 칵테일",
+          "price_vnd": 290000,
+          "tags": [
+            "칵테일",
+            "시그니처",
+            "불꽃놀이명당"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 F&B 확장 조사: 4. 바 & 펍 & 비치클럽 실측 핵심 메뉴 확보로 Grade B 등록."
+}

@@ -1,0 +1,113 @@
+{
+  "name_google": "Eric Kayser Vietnam",
+  "name_display": "에릭 케제르 푸꾸옥 (Maison Eric Kayser Sunset Town)",
+  "place_id": "ChIJjVDpHgiHCjERTaQVRRrVJ9Y",
+  "master_category": "3. 카페 & 베이커리",
+  "info_level": "B",
+  "status": "partial",
+  "menu_date": "2026-10",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "facebook",
+      "url": "https://www.facebook.com/EricKayserVietnam",
+      "accessed": "2026-10-25",
+      "note": "에릭 케제르 베트남 공식 메뉴 및 정가"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Viennoiserie & Artisanal Bread / 프랑스 정통 페이스트리 & 빵",
+      "section_ko": "프랑스 정통 페이스트리 & 베이커리",
+      "items": [
+        {
+          "name_original": "Croissant au Beurre (French Butter Croissant)",
+          "name_ko": "버터 크루아상 (프랑스 AOP 버터 100%)",
+          "description_original": "Traditional Parisian flaky croissant made with pure French butter",
+          "description_ko": "프랑스산 최고급 버터로 겹겹이 구워낸 바삭하고 촉촉한 정통 크루아상",
+          "price_vnd": 45000,
+          "tags": [
+            "베이커리",
+            "시그니처",
+            "프랑스"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Pain au Chocolat",
+          "name_ko": "뺑 오 쇼콜라",
+          "description_original": "Flaky pastry filled with rich French dark chocolate batons",
+          "description_ko": "달콤 쌉싸름한 다크 초콜릿 스틱이 들어간 프랑스 정통 페이스트리",
+          "price_vnd": 55000,
+          "tags": [
+            "베이커리",
+            "초콜릿"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Baguette Monge (Artisanal Monge Baguette)",
+          "name_ko": "바게트 몽쥬 (천연 발효 정통 프랑스 바게트)",
+          "description_original": "Eric Kayser signature sourdough baguette with crisp crust",
+          "description_ko": "에릭 케제르의 대표 시그니처 천연 발효종 바게트",
+          "price_vnd": 45000,
+          "tags": [
+            "바게트",
+            "식사빵"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Tarte au Citron Meringuée (Lemon Meringue Tart)",
+          "name_ko": "레몬 머랭 타르트",
+          "description_original": "Tangy fresh lemon curd topped with caramelized fluffy meringue",
+          "description_ko": "상큼한 레몬 커드에 부드럽게 구워낸 머랭이 조화로운 디저트 타르트",
+          "price_vnd": 95000,
+          "tags": [
+            "디저트",
+            "타르트"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Café & Boissons / Coffee & Drinks",
+      "section_ko": "커피 & 음료",
+      "items": [
+        {
+          "name_original": "Café Latte / Cappuccino",
+          "name_ko": "카페 라떼 / 카푸치노",
+          "description_original": "Rich espresso with creamy steamed milk and fine foam",
+          "description_ko": "진한 에스프레소에 부드러운 스팀 밀크를 더한 클래식 커피",
+          "price_vnd": 75000,
+          "tags": [
+            "커피",
+            "라떼"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Americano (Hot / Iced)",
+          "name_ko": "아메리카노 (핫 / 아이스)",
+          "description_original": "Double shot espresso balanced with pure water",
+          "description_ko": "깔끔하고 깊은 풍미의 클래식 아메리카노",
+          "price_vnd": 65000,
+          "tags": [
+            "커피",
+            "아메리카노"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 F&B 확장 조사: 3. 카페 & 베이커리 실측 핵심 메뉴 확보로 Grade B 등록."
+}

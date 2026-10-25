@@ -1,0 +1,145 @@
+{
+  "name_google": "Highlands Coffee Cable Car An Thới PQ",
+  "name_display": "하이랜드 커피 안터이 케이블카역점 (Highlands Coffee Cable Car An Thới)",
+  "place_id": "ChIJhwN-oSqXpzERgUhhE4tiYRE",
+  "master_category": "3. 카페 & 베이커리",
+  "info_level": "B",
+  "status": "partial",
+  "menu_date": "2026-10",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_site",
+      "url": "https://www.highlandscoffee.com.vn/",
+      "accessed": "2026-10-25",
+      "note": "하이랜드 커피 공식 메뉴 및 정가"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Cà phê Phin truyền thống / Traditional Phin Coffee",
+      "section_ko": "전통 핀 드립 커피",
+      "items": [
+        {
+          "name_original": "Phin Sữa Đá (Iced Coffee with Condensed Milk)",
+          "name_ko": "카페 쓰어다 (베트남 전통 핀 연유 아이스 커피)",
+          "description_original": "Traditional Vietnamese dark roast dripped through phin filter served with condensed milk over ice",
+          "description_ko": "전통 핀 필터로 진하게 내린 커피에 달콤한 연유와 얼음을 더한 시그니처 커피",
+          "price_vnd": 39000,
+          "tags": [
+            "커피",
+            "시그니처",
+            "베트남"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Phin Đen Đá (Iced Black Coffee)",
+          "name_ko": "카페 덴다 (베트남 전통 핀 블랙 아이스 커피)",
+          "description_original": "Rich Vietnamese black coffee with ice",
+          "description_ko": "깊고 진한 풍미의 베트남식 블랙 아이스 커피",
+          "price_vnd": 35000,
+          "tags": [
+            "커피",
+            "블랙"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Bạc Xỉu Đá (White Coffee with Extra Milk)",
+          "name_ko": "박시우 (부드러운 연유 라떼)",
+          "description_original": "Mild coffee layered with fresh milk and condensed milk",
+          "description_ko": "연유와 우유 비율을 높여 부드럽고 달콤하게 즐기는 라떼 스타일 커피",
+          "price_vnd": 45000,
+          "tags": [
+            "커피",
+            "라떼"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Trà & Freeze / Tea & Blended Ice",
+      "section_ko": "티 & 프리즈 스무디",
+      "items": [
+        {
+          "name_original": "Trà Sen Vàng (Golden Lotus Seed Tea)",
+          "name_ko": "짜 센 방 (골든 연꽃씨 밀크티)",
+          "description_original": "Oolong tea with sweet lotus seeds and cheese cream topping",
+          "description_ko": "고소한 연꽃씨와 달콤한 치즈 크림 폼이 올라간 하이랜드 대표 인기 티",
+          "price_vnd": 55000,
+          "tags": [
+            "티",
+            "시그니처",
+            "인기"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Trà Thạch Đào (Peach Jelly Tea)",
+          "name_ko": "복숭아 젤리 아이스티",
+          "description_original": "Refreshing black tea with peach slices and chewy jelly",
+          "description_ko": "달콤한 복숭아 과육과 젤리가 들어간 상큼한 아이스티",
+          "price_vnd": 55000,
+          "tags": [
+            "티",
+            "과일티"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Freeze Trà Xanh (Green Tea Freeze)",
+          "name_ko": "그린티 프리즈 (녹차 블렌디드 스무디)",
+          "description_original": "Matcha green tea blended ice with grass jelly and whipped cream",
+          "description_ko": "진한 말차 블렌디드에 젤리와 휘핑크림이 듬뿍 올라간 프라푸치노 음료",
+          "price_vnd": 65000,
+          "tags": [
+            "스무디",
+            "프리즈",
+            "말차"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Caramel Phin Freeze",
+          "name_ko": "카라멜 핀 프리즈",
+          "description_original": "Phin coffee blended with caramel and rich whipped cream",
+          "description_ko": "베트남 핀 커피에 달콤한 카라멜과 얼음을 곱게 갈아 만든 스무디",
+          "price_vnd": 65000,
+          "tags": [
+            "스무디",
+            "커피"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Bánh mì & Pastries / Bakery",
+      "section_ko": "반미 & 베이커리",
+      "items": [
+        {
+          "name_original": "Bánh Mì Thịt Nướng (Grilled Pork Banh Mi)",
+          "name_ko": "바비큐 돼지고기 반미",
+          "description_original": "Crisp Vietnamese baguette with grilled savory pork and pickles",
+          "description_ko": "바삭한 바게트에 양념 돼지고기구이와 피클을 채운 베트남식 샌드위치",
+          "price_vnd": 29000,
+          "tags": [
+            "반미",
+            "스낵"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 F&B 확장 조사: 3. 카페 & 베이커리 실측 핵심 메뉴 확보로 Grade B 등록."
+}

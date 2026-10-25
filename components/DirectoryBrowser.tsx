@@ -9,6 +9,15 @@ import {
   nearbyBadgeText,
   type DirectoryCategory,
 } from '@/lib/directory'
+import {
+  SUNSET_ZONE_KEYS,
+  zoneLabel,
+  detectSunsetZone,
+  isSunsetTownFacility,
+  type SunsetZoneKey,
+} from '@/lib/zones'
+import { BusinessCover } from '@/components/BusinessCover'
+import { getCoverPhoto } from '@/lib/coverPhotos'
 import { stockPrimaryFor } from '@/lib/stockImages'
 import { imageUrl } from '@/lib/imageUrl'
 import { localePath, type Locale } from '@/lib/i18n/config'
@@ -72,6 +81,7 @@ function BusinessCard({ b, locale }: { b: Business; locale: Locale }) {
   const subLabel = b.subcategory
     ? translateTerm(b.subcategory, locale)
     : categoryLabel(b.category, locale)
+  const coverPhoto = getCoverPhoto(b.slug)
 
   return (
     <Link
@@ -82,15 +92,39 @@ function BusinessCard({ b, locale }: { b: Business; locale: Locale }) {
     >
       <article className="directoryResult compactDirectoryCard">
         <div className="resultImageWrap">
-          <img
-            src={imageUrl(img, 620, 68)}
-            alt=""
-            loading="lazy"
-            decoding="async"
-            width={620}
-            height={414}
-          />
-          {badgeText && <span className="illustrativeBadge">{badgeText}</span>}
+          {coverPhoto ? (
+            <div
+              className="officialCoverCard"
+              style={{
+                width: '100%',
+                height: '220px',
+                overflow: 'hidden',
+                backgroundColor: '#18181b',
+                borderRadius: '12px 12px 0 0',
+              }}
+            >
+              <img
+                src={coverPhoto.image_url}
+                alt={b.public_name}
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  display: 'block',
+                }}
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+          ) : (
+            <BusinessCover
+              name={b.public_name}
+              googleName={b.google_maps_name}
+              category={b.category}
+              subcategory={b.subcategory}
+              aspectRatio="card"
+            />
+          )}
           <div className="businessBadgeStack">
             {(b.badges || []).slice(0, 3).map((x) => (
               <span key={x} className={`businessBadge badge${x.toLowerCase().replaceAll(' ', '')}`}>
@@ -124,6 +158,25 @@ function BusinessCard({ b, locale }: { b: Business; locale: Locale }) {
           </div>
           <p>{desc}</p>
           <small>{b.address}</small>
+          {(b.google_maps_url || b.google_place_id) && (
+            <div style={{ marginTop: '8px' }}>
+              <span
+                role="button"
+                tabIndex={0}
+                className="mapDirectLink"
+                onClick={(e) => {
+                  e.preventDefault()
+                  e.stopPropagation()
+                  const url =
+                    b.google_maps_url ||
+                    `https://www.google.com/maps/place/?q=place_id:${b.google_place_id}`
+                  window.open(url, '_blank', 'noopener,noreferrer')
+                }}
+              >
+                📍 {locale === 'ko' ? '지도 보기' : 'Google Maps'} ↗
+              </span>
+            </div>
+          )}
         </div>
       </article>
     </Link>
@@ -198,6 +251,8 @@ export function DirectoryBrowser({
   const [q, setQ] = useState('')
   const [filter, setFilter] = useState('All')
   const [labelFilter, setLabelFilter] = useState<LabelFilter>('All')
+  const [zoneFilter, setZoneFilter] = useState<SunsetZoneKey>('all')
+  const [priceFilter, setPriceFilter] = useState<string>('All')
   const config = DIRECTORY_CATEGORIES[category]
   const catLabel = categoryLabel(category, activeLocale)
   const catEyebrow = categoryEyebrow(category, activeLocale)
@@ -239,12 +294,17 @@ export function DirectoryBrowser({
             !(b.badges || []).includes(labelFilter)
           )
             return false
+          if (zoneFilter !== 'all' && detectSunsetZone(b) !== zoneFilter) return false
+          if (priceFilter !== 'All' && b.price_level && b.price_level !== priceFilter) return false
           return true
         })
-        .sort(
-          (a, b) => badgeRank(a) - badgeRank(b) || randomScore(a, shuffleSeed) - randomScore(b, shuffleSeed)
-        ),
-    [items, q, filter, labelFilter, shuffleSeed, activeLocale]
+        .sort((a, b) => {
+          const sunsetA = isSunsetTownFacility(a) ? 0 : 1
+          const sunsetB = isSunsetTownFacility(b) ? 0 : 1
+          if (sunsetA !== sunsetB) return sunsetA - sunsetB
+          return badgeRank(a) - badgeRank(b) || randomScore(a, shuffleSeed) - randomScore(b, shuffleSeed)
+        }),
+    [items, q, filter, labelFilter, zoneFilter, priceFilter, shuffleSeed, activeLocale]
   )
 
   const showEditorialHighlights = filter === 'All' && labelFilter === 'All'
@@ -298,6 +358,40 @@ export function DirectoryBrowser({
                 onClick={() => setFilter(x)}
               >
                 {translateTerm(x, activeLocale)}
+              </button>
+            ))}
+          </div>
+        </div>
+        <div>
+          <div className="directoryFilterLabel">
+            {activeLocale === 'ko' ? '선셋타운 구역별 보기' : 'Sunset Town Quarters'}
+          </div>
+          <div className="directoryFilters zoneFilters" aria-label="Sunset Town Zones">
+            {SUNSET_ZONE_KEYS.map((k) => (
+              <button
+                type="button"
+                key={k}
+                className={zoneFilter === k ? 'active' : ''}
+                onClick={() => setZoneFilter(k)}
+              >
+                {zoneLabel(k, activeLocale)}
+              </button>
+            ))}
+          </div>
+        </div>
+        <div>
+          <div className="directoryFilterLabel">
+            {activeLocale === 'ko' ? '가격대' : 'Price Level'}
+          </div>
+          <div className="directoryFilters priceFilters" aria-label="Price Level">
+            {['All', '$', '$$', '$$$', '$$$$'].map((p) => (
+              <button
+                type="button"
+                key={p}
+                className={priceFilter === p ? 'active' : ''}
+                onClick={() => setPriceFilter(p)}
+              >
+                {p === 'All' ? (activeLocale === 'ko' ? '전체 가격' : 'All Prices') : p}
               </button>
             ))}
           </div>

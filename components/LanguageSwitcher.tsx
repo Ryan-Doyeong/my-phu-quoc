@@ -1,12 +1,12 @@
 "use client"
 
-import { Suspense } from 'react'
+import { Suspense, useEffect, useRef, useState } from 'react'
 import { usePathname, useSearchParams } from 'next/navigation'
 import {
   LOCALES,
-  LOCALE_LABELS,
   LOCALE_NATIVE_NAMES,
   LOCALE_COOKIE_NAME,
+  LEGACY_LOCALE_COOKIE_NAME,
   localePath,
   stripLocalePrefix,
   type Locale,
@@ -22,6 +22,8 @@ function LanguageSwitcherInner({ locale, variant = 'light' }: { locale: Locale; 
   const pathname = usePathname() || '/'
   const searchParams = useSearchParams()
   const { barePath } = stripLocalePrefix(pathname)
+  const [isOpen, setIsOpen] = useState(searchParams.get('openLang') === '1')
+  const dropdownRef = useRef<HTMLDivElement>(null)
 
   const sp = new URLSearchParams(searchParams?.toString() || '')
   sp.delete('lang')
@@ -30,82 +32,85 @@ function LanguageSwitcherInner({ locale, variant = 'light' }: { locale: Locale; 
   function handleSelect(targetLocale: Locale) {
     try {
       document.cookie = `${LOCALE_COOKIE_NAME}=${targetLocale}; path=/; max-age=31536000; SameSite=Lax`
+      document.cookie = `${LEGACY_LOCALE_COOKIE_NAME}=${targetLocale}; path=/; max-age=31536000; SameSite=Lax`
     } catch {
       // ignore cookie error
     }
+    setIsOpen(false)
   }
+
+  // Close dropdown on outside click
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsOpen(false)
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => document.removeEventListener('mousedown', handleClickOutside)
+  }, [])
 
   const hrefFor = (loc: Locale) => {
     const baseTarget = localePath(loc, barePath)
     return qs ? `${baseTarget}?${qs}` : baseTarget
   }
 
+  const currentNativeName = LOCALE_NATIVE_NAMES[locale] || 'English'
+
   return (
-    <div className={rootClass(variant)}>
-      {/* PC: 버튼 7개 */}
-      <div className="langButtons" role="group" aria-label="Language">
-        {LOCALES.map((loc) => {
-          const isActive = loc === locale
-          return (
-            <a
-              key={loc}
-              href={hrefFor(loc)}
-              hrefLang={loc}
-              lang={loc}
-              className={`langSwitchBtn ${isActive ? 'active' : ''}`}
-              aria-current={isActive ? 'page' : undefined}
-              onClick={() => handleSelect(loc)}
-            >
-              {LOCALE_LABELS[loc]}
-            </a>
-          )
-        })}
+    <div className={rootClass(variant)} ref={dropdownRef}>
+      <div className="prominentLangContainer">
+        <button
+          type="button"
+          className="prominentLangBtn"
+          onClick={() => setIsOpen(!isOpen)}
+          aria-expanded={isOpen}
+          aria-haspopup="listbox"
+          aria-label={`언어 선택 (현재: ${currentNativeName})`}
+        >
+          <span className="langGlobe" aria-hidden="true">🌐</span>
+          <span className="langCurrentName">{currentNativeName}</span>
+          <span className="langArrow" aria-hidden="true">{isOpen ? '▴' : '▾'}</span>
+        </button>
+
+        {isOpen && (
+          <div className="prominentLangMenu" role="listbox" aria-label="Languages">
+            {LOCALES.map((loc) => {
+              const isActive = loc === locale
+              return (
+                <a
+                  key={loc}
+                  href={hrefFor(loc)}
+                  hrefLang={loc}
+                  lang={loc}
+                  role="option"
+                  aria-selected={isActive}
+                  className={`prominentLangItem ${isActive ? 'active' : ''}`}
+                  onClick={() => handleSelect(loc)}
+                >
+                  <span className="langOptionName">{LOCALE_NATIVE_NAMES[loc]}</span>
+                  {isActive && <span className="langCheckMark" aria-hidden="true">✓</span>}
+                </a>
+              )
+            })}
+          </div>
+        )}
       </div>
-      {/* 모바일: 🌐 EN ▾ 드롭다운 */}
-      <details className="langDropdown">
-        <summary aria-label="Language">
-          <span aria-hidden="true">🌐</span> {LOCALE_LABELS[locale]} <span aria-hidden="true">▾</span>
-        </summary>
-        <ul className="langMenu">
-          {LOCALES.map((loc) => (
-            <li key={loc}>
-              <a
-                href={hrefFor(loc)}
-                hrefLang={loc}
-                lang={loc}
-                className={loc === locale ? 'active' : ''}
-                aria-current={loc === locale ? 'page' : undefined}
-                onClick={() => handleSelect(loc)}
-              >
-                {LOCALE_NATIVE_NAMES[loc]}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </details>
     </div>
   )
 }
 
 export function LanguageSwitcher({ locale, variant = 'light' }: { locale: Locale; variant?: Variant }) {
-  const pathname = usePathname() || '/'
-  const { barePath } = stripLocalePrefix(pathname)
+  const currentNativeName = LOCALE_NATIVE_NAMES[locale] || 'English'
   return (
     <Suspense
       fallback={
         <div className={rootClass(variant)}>
-          <div className="langButtons" role="group" aria-label="Language">
-            {LOCALES.map((loc) => (
-              <a
-                key={loc}
-                href={localePath(loc, barePath)}
-                lang={loc}
-                className={`langSwitchBtn ${loc === locale ? 'active' : ''}`}
-              >
-                {LOCALE_LABELS[loc]}
-              </a>
-            ))}
-          </div>
+          <button type="button" className="prominentLangBtn" disabled>
+            <span className="langGlobe">🌐</span>
+            <span className="langCurrentName">{currentNativeName}</span>
+            <span className="langArrow">▾</span>
+          </button>
         </div>
       }
     >

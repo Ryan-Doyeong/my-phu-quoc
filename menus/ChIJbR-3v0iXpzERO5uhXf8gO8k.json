@@ -1,0 +1,59 @@
+{
+  "name_google": "iL Salone – Afternoon Tea Lounge & Bar",
+  "name_display": "일 살로네 (iL Salone - La Festa Hilton 애프터눈티 & 라운지 바)",
+  "place_id": "ChIJbR-3v0iXpzERO5uhXf8gO8k",
+  "master_category": "4. 바 & 펍 & 비치클럽",
+  "info_level": "B",
+  "status": "partial",
+  "menu_date": "2026-10",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_site",
+      "url": "https://hilton.com",
+      "accessed": "2026-10-25",
+      "note": "라 페스타 힐튼 일 살로네 라운지 메뉴"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Afternoon Tea & Artisanal Pastries / 애프터눈 티 & 디저트",
+      "section_ko": "애프터눈 티 & 이탈리안 페이스트리",
+      "items": [
+        {
+          "name_original": "Italian Amalfi Afternoon Tea Set for Two",
+          "name_ko": "이탈리안 아말피 애프터눈 티 세트 (2인)",
+          "description_original": "Tiered stand with Italian savory bites, handmade cannoli, pastries, and fine teas",
+          "description_ko": "수제 카놀리와 타르트, 세이보리 샌드위치와 프리미엄 티가 포함된 2인 세트",
+          "price_vnd": 750000,
+          "tags": [
+            "애프터눈티",
+            "시그니처",
+            "힐튼"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Cannoli Siciliani (Classic Sicilian Cannoli)",
+          "name_ko": "시칠리아 정통 카놀리 (리코타 치즈)",
+          "description_original": "Crisp pastry shell filled with sweetened fresh ricotta and pistachios",
+          "description_ko": "바삭한 쉘 속에 고소한 리코타 치즈와 피스타치오를 채운 시칠리아 전통 디저트",
+          "price_vnd": 120000,
+          "tags": [
+            "디저트",
+            "카놀리"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 F&B 확장 조사: 4. 바 & 펍 & 비치클럽 실측 핵심 메뉴 확보로 Grade B 등록."
+}

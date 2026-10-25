@@ -463,10 +463,13 @@ export async function renderArticleRoute(
           <figure className="articleHeroFigure">
             <img
               className="articleHero"
-              src={imageUrl(x.cover_image_url, 1400, 76)}
+              src={imageUrl(x.cover_image_url || '/features/default_cover_1280.webp', 1400, 76)}
               alt={x.title}
               fetchPriority="high"
               decoding="async"
+              onError={(e) => {
+                e.currentTarget.src = '/features/default_cover_1280.webp';
+              }}
             />
             {x.hero_caption && <figcaption>{x.hero_caption}</figcaption>}
           </figure>

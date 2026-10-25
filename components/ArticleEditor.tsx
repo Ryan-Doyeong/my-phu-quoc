@@ -282,7 +282,7 @@ const DRAFT_KEY = 'antigravity-article-draft';
     {preview&&<div className="articleLivePreview"><div className="prePublishChecklist">
       <h3>Pre-publish Checklist</h3>
       <ul>
-        {formState.cover === '' || formState.cover.includes('/stock/wellness') ? <li className="warn">⚠️ Cover image might be missing or default.</li> : <li className="ok">✅ Cover image set.</li>}
+        {formState.cover === '' || formState.cover.includes('/features/hotel_featured') ? <li className="warn">⚠️ Cover image might be missing or default.</li> : <li className="ok">✅ Cover image set.</li>}
         {formState.title.length < 15 || formState.title.length > 70 ? <li className="warn">⚠️ Title length is {formState.title.length} chars (aim for 15-70).</li> : <li className="ok">✅ Title length is good.</li>}
         {!formState.source ? <li className="warn">⚠️ Source name is empty (important for news).</li> : <li className="ok">✅ Source provided.</li>}
         {(() => {

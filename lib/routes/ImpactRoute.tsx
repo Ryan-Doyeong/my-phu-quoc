@@ -121,7 +121,7 @@ export async function renderImpactRoute(topic: string | undefined, locale: Local
               className="impactFeaturedStory"
             >
               <img
-                src={imageUrl(featured.cover_image_url || '/stock/cafe.webp', 1400, 76)}
+                src={imageUrl(featured.cover_image_url || '/features/dining_featured_1280.webp', 1400, 76)}
                 alt=""
                 decoding="async"
               />
@@ -162,7 +162,7 @@ export async function renderImpactRoute(topic: string | undefined, locale: Local
                 className="impactArticleCard"
               >
                 <img
-                  src={imageUrl(x.cover_image_url || '/stock/cafe.webp', 900, 72)}
+                  src={imageUrl(x.cover_image_url || '/features/dining_featured_1280.webp', 900, 72)}
                   alt=""
                   loading="lazy"
                   decoding="async"
@@ -197,7 +197,7 @@ export async function renderImpactRoute(topic: string | undefined, locale: Local
         <div className="impactTipCard">
           <figure className="impactTipImage">
             <img
-              src="/stock/ai/thao-dien-neighbors-dinner-v2.webp"
+              src="/features/dining_featured_1280.webp"
               alt="Neighbors of all ages sharing a long dinner table on a leafy Phu Quoc lane"
               loading="lazy"
               decoding="async"

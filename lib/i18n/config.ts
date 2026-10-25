@@ -1,41 +1,75 @@
 import { SITE_URL } from '@/lib/supabase/config'
 
-// My Phu Quoc — 7개 언어 (2026-10-22 확정)
-// en(기본, 접두사 없음) · vi · hi · zh(간체) · ru · ko · ja
-export const SUPPORTED_LOCALES = ['en', 'vi', 'hi', 'zh', 'ru', 'ko', 'ja'] as const
+// My Phu Quoc — 6개 언어 (2026-10-25 4차 수정 지시 확정: 한국어·영어·중국어·러시아어·일본어·힌디어)
+// 베트남어(vi)는 제외하되 관련 사전·코드는 복구 가능하도록 비활성화 보존
+export const ALL_HISTORICAL_LOCALES = ['en', 'vi', 'hi', 'zh', 'ru', 'ko', 'ja'] as const
+export const SUPPORTED_LOCALES = ['en', 'ko', 'zh', 'ru', 'ja', 'hi'] as const
 export const LOCALES = SUPPORTED_LOCALES
-export type Locale = (typeof SUPPORTED_LOCALES)[number]
-export type PrefixedLocale = Exclude<Locale, 'en'>
+export type HistoricalLocale = (typeof ALL_HISTORICAL_LOCALES)[number]
+export type Locale = HistoricalLocale
+export type ActiveLocale = (typeof SUPPORTED_LOCALES)[number]
+export type PrefixedLocale = Exclude<ActiveLocale, 'en'>
 export const PREFIXED_LOCALES = SUPPORTED_LOCALES.filter((l) => l !== 'en') as PrefixedLocale[]
-export const DEFAULT_LOCALE: Locale = 'en'
-export const LOCALE_COOKIE_NAME = 'mpq_lang'
+export const DEFAULT_LOCALE: ActiveLocale = 'en'
+export const LOCALE_COOKIE_NAME = 'NEXT_LOCALE'
+export const LEGACY_LOCALE_COOKIE_NAME = 'mpq_lang'
 
 /** 헤더 버튼에 쓰는 짧은 코드 */
 export const LOCALE_LABELS: Record<Locale, string> = {
   en: 'EN',
-  vi: 'VI',
-  hi: 'HI',
+  ko: 'KO',
   zh: '中文',
   ru: 'RU',
-  ko: 'KO',
   ja: 'JA',
+  hi: 'HI',
+  vi: 'VI',
 }
 
 /** 드롭다운에 쓰는 자국어 이름 */
 export const LOCALE_NATIVE_NAMES: Record<Locale, string> = {
+  ko: '한국어',
   en: 'English',
-  vi: 'Tiếng Việt',
-  hi: 'हिन्दी',
   zh: '简体中文',
   ru: 'Русский',
-  ko: '한국어',
   ja: '日本語',
+  hi: 'हिन्दी',
+  vi: 'Tiếng Việt',
+}
+
+/** 브라우저 Accept-Language 헤더 분석하여 6개 지원 언어 중 최적 언어 판별 */
+export function detectPreferredLocale(acceptLanguage: string | null | undefined): Locale {
+  if (!acceptLanguage) return DEFAULT_LOCALE
+  const clean = acceptLanguage.toLowerCase()
+  
+  // zh-CN, zh-TW, zh-HK, zh -> zh
+  if (clean.includes('zh-cn') || clean.includes('zh-tw') || clean.includes('zh-hk') || clean.includes('zh-sg') || clean.startsWith('zh')) {
+    return 'zh'
+  }
+  // ko-KR, ko -> ko
+  if (clean.includes('ko-kr') || clean.startsWith('ko')) {
+    return 'ko'
+  }
+  // ja-JP, ja -> ja
+  if (clean.includes('ja-jp') || clean.startsWith('ja')) {
+    return 'ja'
+  }
+  // ru-RU, ru -> ru
+  if (clean.includes('ru-ru') || clean.startsWith('ru')) {
+    return 'ru'
+  }
+  // hi-IN, hi -> hi
+  if (clean.includes('hi-in') || clean.startsWith('hi')) {
+    return 'hi'
+  }
+
+  // 기본은 영어
+  return 'en'
 }
 
 /** hi/zh/ru/ja 는 처음에 "AI 검수 완료 / 원어민 미확인" 상태 (내부 관리용, 방문자 비노출) */
 export const AI_REVIEWED_LOCALES: readonly Locale[] = ['hi', 'zh', 'ru', 'ja']
 
-export function isValidLocale(value: unknown): value is Locale {
+export function isValidLocale(value: unknown): value is ActiveLocale {
   return typeof value === 'string' && (SUPPORTED_LOCALES as readonly string[]).includes(value)
 }
 
@@ -77,12 +111,12 @@ export function localeUrl(locale: Locale, barePath: string = '/', baseUrl: strin
 /** hreflang 값 (zh 는 간체이므로 zh-Hans) */
 export const HREFLANG: Record<Locale, string> = {
   en: 'en',
-  vi: 'vi',
-  hi: 'hi',
+  ko: 'ko',
   zh: 'zh-Hans',
   ru: 'ru',
-  ko: 'ko',
   ja: 'ja',
+  hi: 'hi',
+  vi: 'vi',
 }
 
 export function buildAlternates(
