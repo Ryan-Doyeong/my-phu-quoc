@@ -68,7 +68,7 @@ export const PUBLISHED_EVENTS: EventSampleStory[] = [
     title_vi: 'Workshop Làm Mặt nạ Halloween cho Bé (6–12 tuổi) – Thảo Điền',
     title_ko: 'Spooky Halloween Mask Making (Kids 6–12) – 타오디엔 어린이 할로윈 가면 만들기 공방',
     subtitle:
-      'Hands-on Halloween mask-making workshop for children aged 6–12 at Get Arty Studio in Thao Dien — all craft materials provided.',
+      'Hands-on Halloween mask-making workshop for children aged 6–12 at Get Arty Studio in Phu Quoc — all craft materials provided.',
     subtitle_vi:
       'Buổi workshop thủ công tự tay làm mặt nạ Halloween dành cho các bé từ 6–12 tuổi tại Get Arty Studio (Thảo Điền) — cung cấp đầy đủ dụng cụ.',
     subtitle_ko:
@@ -79,7 +79,7 @@ export const PUBLISHED_EVENTS: EventSampleStory[] = [
       'Buổi chiều Chủ Nhật sáng tạo tại Get Arty Studio (19 Đường số 46, Thảo Điền), nơi các bé 6–12 tuổi tự thiết kế và hoàn thiện chiếc mặt nạ Halloween để mang về nhà ngay trong ngày.',
     excerpt_ko:
       '10월 25일(일) 오후 타오디엔 Get Arty Studio(19 Đường số 46)에서 6–12세 어린이가 직접 할로윈 가면을 만들고 당일 완성품을 집으로 가져가는 체험 공방입니다.',
-    body_en: `**Get Arty** (an art studio located in Thao Dien, [www.getartystudio.com](https://www.getartystudio.com)) is hosting a hands-on **Spooky Halloween Mask Making** workshop for children aged **6 to 12** on Sunday afternoon, October 25, 2026.
+    body_en: `**Get Arty** (an art studio located in Phu Quoc, [www.getartystudio.com](https://www.getartystudio.com)) is hosting a hands-on **Spooky Halloween Mask Making** workshop for children aged **6 to 12** on Sunday afternoon, October 25, 2026.
 
 ## Workshop Highlights
 
@@ -139,13 +139,13 @@ export const PUBLISHED_EVENTS: EventSampleStory[] = [
 ---
 
 **정보 출처**: Facebook 'Events in Saigon' 그룹 공유 (Get Arty)`,
-    seo_title: 'Spooky Halloween Mask Making (Kids 6–12) – Thảo Điền | Good Life in Thaodien',
+    seo_title: 'Spooky Halloween Mask Making (Kids 6–12) – Thảo Điền | Good Life in Phu Quoc',
     seo_title_vi:
-      'Workshop Làm Mặt nạ Halloween cho Bé (6–12 tuổi) – Thảo Điền | Good Life in Thaodien',
+      'Workshop Làm Mặt nạ Halloween cho Bé (6–12 tuổi) – Thảo Điền | Good Life in Phu Quoc',
     seo_title_ko:
-      'Spooky Halloween Mask Making (Kids 6–12) – 타오디엔 어린이 할로윈 가면 만들기 공방 | Good Life in Thaodien',
+      'Spooky Halloween Mask Making (Kids 6–12) – 타오디엔 어린이 할로윈 가면 만들기 공방 | Good Life in Phu Quoc',
     seo_description:
-      'Kids Halloween mask-making workshop (ages 6–12) at Get Arty Studio in Thao Dien on Oct 25, 2026 (15:30–17:00). 450,000 VND per child, 10% sibling discount, all materials provided.',
+      'Kids Halloween mask-making workshop (ages 6–12) at Get Arty Studio in Phu Quoc on Oct 25, 2026 (15:30–17:00). 450,000 VND per child, 10% sibling discount, all materials provided.',
     seo_description_vi:
       'Workshop làm mặt nạ Halloween cho bé 6–12 tuổi tại Get Arty Studio (19 Đường số 46, Thảo Điền) ngày 25/10/2026 (15:30–17:00). Học phí 450.000 VND/bé, giảm 10% cho anh chị em.',
     seo_description_ko:
@@ -173,11 +173,11 @@ export const PUBLISHED_EVENTS: EventSampleStory[] = [
       "예약 및 문의: www.getartystudio.com/events · 정보 출처: Facebook 'Events in Saigon' 그룹 공유 (Get Arty)",
     cover_image_url: '/news-img/spooky-halloween-mask-making-get-arty-thao-dien.webp',
     hero_caption:
-      'Halloween mask-making craft table with felt masks, colored cardstock, brushes and glue gun (illustration prepared by Good Life Thaodien).',
+      'Halloween mask-making craft table with felt masks, colored cardstock, brushes and glue gun (illustration prepared by Good Life Phu Quoc).',
     hero_caption_vi:
-      'Bàn thủ công làm mặt nạ Halloween với mặt nạ vải nỉ, giấy màu, cọ vẽ và súng bắn keo (ảnh minh họa do Good Life Thaodien thực hiện).',
+      'Bàn thủ công làm mặt nạ Halloween với mặt nạ vải nỉ, giấy màu, cọ vẽ và súng bắn keo (ảnh minh họa do Good Life Phu Quoc thực hiện).',
     hero_caption_ko:
-      '할로윈 가면과 펠트지·색지·붓·글루건 등 크래프트 재료가 준비된 공방 테이블 (Good Life Thaodien 자체 제작 썸네일).',
+      '할로윈 가면과 펠트지·색지·붓·글루건 등 크래프트 재료가 준비된 공방 테이블 (Good Life Phu Quoc 자체 제작 썸네일).',
     published_at: '2026-10-20T13:45:00+07:00',
     updated_at: '2026-10-20T13:45:00+07:00',
     event_date: '2026-10-25T15:30:00+07:00',
@@ -224,18 +224,18 @@ export const SAMPLE_EVENTS: EventSampleStory[] = [
     category: 'Market & Pop-up',
     category_vi: 'Chợ phiên & Pop-up',
     category_ko: '플리마켓 · 팝업',
-    title: '[SAMPLE] Thao Dien Weekend Farmers & Craft Market at Xuan Thuy Courtyard',
+    title: '[SAMPLE] Phu Quoc Weekend Farmers & Craft Market at Xuan Thuy Courtyard',
     title_vi: '[MẪU] Chợ phiên Nông sản & Thủ công Cuối tuần Thảo Điền tại sân Xuân Thủy',
     title_ko: '[샘플] 타오디엔 주말 파머스 & 크래프트 마켓 (쑤언투이 코트야드)',
     subtitle: 'Sample preview event: organic produce, sourdough bread, local ceramics and family-friendly workshops.',
     subtitle_vi: 'Bài mẫu xem trước: nông sản hữu cơ, bánh mì sourdough, gốm thủ công và workshop cuối tuần.',
     subtitle_ko: '화면 확인용 샘플 이벤트: 유기농 농산물, 사워도우 베이커리, 로컬 도자기 공예 및 주말 워크숍 안내.',
-    excerpt: '[SAMPLE — Not a real event] A neighborhood weekend market bringing together Dalat organic growers, artisan bakers and local makers in central Thao Dien.',
+    excerpt: '[SAMPLE — Not a real event] A neighborhood weekend market bringing together Dalat organic growers, artisan bakers and local makers in central Phu Quoc.',
     excerpt_vi: '[BÀI MẪU — Không phải sự kiện thật] Chợ phiên cuối tuần quy tụ nông sản Đà Lạt, bánh nướng thủ công và các nghệ nhân địa phương tại trung tâm Thảo Điền.',
     excerpt_ko: '[샘플 — 실제 행사가 아닙니다] 달랏 유기농 농산물, 수제 베이커리, 로컬 창작자들이 한자리에 모이는 타오디엔 주말 마켓 안내입니다.',
-    body_en: `> **[SAMPLE PREVIEW]** This post is a **sample entry** created to preview the Thao Dien Events board layout and features. It is not a real event and is blocked from search engine indexing (\`noindex\`).
+    body_en: `> **[SAMPLE PREVIEW]** This post is a **sample entry** created to preview the Phu Quoc Events board layout and features. It is not a real event and is blocked from search engine indexing (\`noindex\`).
 
-The Thao Dien Weekend Farmers & Craft Market gathers local growers, bakers and neighborhood makers for a relaxed two-day courtyard market on Xuan Thuy Street.
+The Phu Quoc Weekend Farmers & Craft Market gathers local growers, bakers and neighborhood makers for a relaxed two-day courtyard market on Xuan Thuy Street.
 
 ## What to expect
 
@@ -246,7 +246,7 @@ The Thao Dien Weekend Farmers & Craft Market gathers local growers, bakers and n
 ## When & where
 
 - **Dates**: October 18 – October 26, 2026 (08:30 – 17:00)
-- **Location**: Xuan Thuy Community Courtyard, Thao Dien, Thu Duc City
+- **Location**: Xuan Thuy Community Courtyard, Phu Quoc, Thu Duc City
 - **Entry**: Free admission (pet-friendly outdoor area)
 
 ## Good to know
@@ -290,10 +290,10 @@ Khuyến khích cư dân mang theo túi vải cá nhân và bình nước riêng
 ## 방문 전 참고사항
 
 개인 에코백과 텀블러 지참을 권장합니다. 오토바이 주차는 꾸옥흐엉(Quốc Hương) 거리 쪽 보조 출입구를 이용하실 수 있습니다.`,
-    seo_title: '[SAMPLE] Thao Dien Weekend Farmers & Craft Market | Good Life in Thaodien',
-    seo_title_vi: '[MẪU] Chợ phiên Nông sản & Thủ công Cuối tuần Thảo Điền | Good Life in Thaodien',
-    seo_title_ko: '[샘플] 타오디엔 주말 파머스 & 크래프트 마켓 | Good Life in Thaodien',
-    seo_description: '[SAMPLE] Preview event entry for the Thao Dien Weekend Farmers & Craft Market at Xuan Thuy Courtyard.',
+    seo_title: '[SAMPLE] Phu Quoc Weekend Farmers & Craft Market | Good Life in Phu Quoc',
+    seo_title_vi: '[MẪU] Chợ phiên Nông sản & Thủ công Cuối tuần Thảo Điền | Good Life in Phu Quoc',
+    seo_title_ko: '[샘플] 타오디엔 주말 파머스 & 크래프트 마켓 | Good Life in Phu Quoc',
+    seo_description: '[SAMPLE] Preview event entry for the Phu Quoc Weekend Farmers & Craft Market at Xuan Thuy Courtyard.',
     seo_description_vi: '[MẪU] Bài xem trước cho sự kiện Chợ phiên Nông sản & Thủ công Cuối tuần Thảo Điền.',
     seo_description_ko: '[샘플] 타오디엔 주말 파머스 & 크래프트 마켓 이벤트 게시판 화면 확인용 샘플 글입니다.',
     key_points: [
@@ -322,7 +322,7 @@ Khuyến khích cư dân mang theo túi vải cá nhân và bình nước riêng
     updated_at: '2026-10-19T09:00:00+07:00',
     event_date: '2026-10-18T08:30:00+07:00',
     effective_date: '2026-10-26T17:00:00+07:00', // Ends Oct 26, 2026 -> Ongoing (진행중)
-    event_location: 'Xuan Thuy Courtyard, Thao Dien, Thu Duc City',
+    event_location: 'Xuan Thuy Courtyard, Phu Quoc, Thu Duc City',
     author_name: 'Good Life Editorial Desk (Sample)',
     tags: ['sample', 'market', 'farmers-market', 'bakery', 'craft', 'xuan-thuy', '플리마켓', '마켓', 'chợ phiên'],
   },
@@ -341,10 +341,10 @@ Khuyến khích cư dân mang theo túi vải cá nhân và bình nước riêng
     subtitle: 'Sample preview event: beginner-friendly outdoor vinyasa flow and guided breathwork by the river.',
     subtitle_vi: 'Bài mẫu xem trước: lớp yoga vinyasa ngoài trời và hướng dẫn hít thở dành cho người mới.',
     subtitle_ko: '화면 확인용 샘플 이벤트: 초보자도 참여할 수 있는 강변 야외 빈야사 요가 및 호흡 명상.',
-    excerpt: '[SAMPLE — Not a real event] An open-air morning movement and recovery session along Nguyen Van Huong riverside lawn for Thao Dien residents.',
+    excerpt: '[SAMPLE — Not a real event] An open-air morning movement and recovery session along Nguyen Van Huong riverside lawn for Phu Quoc residents.',
     excerpt_vi: '[BÀI MẪU — Không phải sự kiện thật] Buổi tập vận động và phục hồi buổi sáng ngoài trời dọc bờ sông đường Nguyễn Văn Hưởng dành cho cư dân Thảo Điền.',
     excerpt_ko: '[샘플 — 실제 행사가 아닙니다] 응우옌반흐엉 강변 잔디밭에서 진행되는 타오디엔 주민 대상 아침 야외 요가 및 회복 세션입니다.',
-    body_en: `> **[SAMPLE PREVIEW]** This post is a **sample entry** created to preview the Thao Dien Events board layout and features. It is not a real event and is blocked from search engine indexing (\`noindex\`).
+    body_en: `> **[SAMPLE PREVIEW]** This post is a **sample entry** created to preview the Phu Quoc Events board layout and features. It is not a real event and is blocked from search engine indexing (\`noindex\`).
 
 Start the weekend with a gentle 60-minute outdoor yoga flow followed by 15 minutes of guided breathwork overlooking the Saigon River.
 
@@ -357,7 +357,7 @@ Start the weekend with a gentle 60-minute outdoor yoga flow followed by 15 minut
 ## When & where
 
 - **Dates**: October 17 – November 15, 2026 (Saturdays, 07:00 – 08:15)
-- **Location**: Nguyen Van Huong Riverside Lawn, Thao Dien, Thu Duc City
+- **Location**: Nguyen Van Huong Riverside Lawn, Phu Quoc, Thu Duc City
 - **Who it is for**: Open to all fitness levels; beginners welcome.
 
 ## Good to know
@@ -401,10 +401,10 @@ Vui lòng tự chuẩn bị thảm tập yoga, khăn nhỏ và bình nước cá
 ## 방문 전 참고사항
 
 개인 요가 매트, 작은 수건, 생수를 지참해 주세요. 우천 시에는 바로 옆 지붕이 있는 파빌리온 공간에서 진행됩니다.`,
-    seo_title: '[SAMPLE] Saigon Riverside Morning Yoga & Breathwork | Good Life in Thaodien',
-    seo_title_vi: '[MẪU] Buổi tập Yoga & Thở buổi sáng bên sông Sài Gòn | Good Life in Thaodien',
-    seo_title_ko: '[샘플] 사이공 리버사이드 모닝 요가 & 호흡 클래스 | Good Life in Thaodien',
-    seo_description: '[SAMPLE] Preview event entry for the Saigon Riverside Morning Yoga & Breathwork Community Session in Thao Dien.',
+    seo_title: '[SAMPLE] Saigon Riverside Morning Yoga & Breathwork | Good Life in Phu Quoc',
+    seo_title_vi: '[MẪU] Buổi tập Yoga & Thở buổi sáng bên sông Sài Gòn | Good Life in Phu Quoc',
+    seo_title_ko: '[샘플] 사이공 리버사이드 모닝 요가 & 호흡 클래스 | Good Life in Phu Quoc',
+    seo_description: '[SAMPLE] Preview event entry for the Saigon Riverside Morning Yoga & Breathwork Community Session in Phu Quoc.',
     seo_description_vi: '[MẪU] Bài xem trước cho sự kiện Buổi tập Yoga & Thở buổi sáng bên sông Sài Gòn tại Thảo Điền.',
     seo_description_ko: '[샘플] 사이공 리버사이드 모닝 요가 & 호흡 커뮤니티 클래스 화면 확인용 샘플 글입니다.',
     key_points: [
@@ -433,7 +433,7 @@ Vui lòng tự chuẩn bị thảm tập yoga, khăn nhỏ và bình nước cá
     updated_at: '2026-10-16T08:00:00+07:00',
     event_date: '2026-10-17T07:00:00+07:00',
     effective_date: '2026-11-15T08:15:00+07:00', // Ends Nov 15, 2026 -> Ongoing (진행중)
-    event_location: 'Nguyen Van Huong Riverside, Thao Dien, Thu Duc City',
+    event_location: 'Nguyen Van Huong Riverside, Phu Quoc, Thu Duc City',
     author_name: 'Good Life Editorial Desk (Sample)',
     tags: ['sample', 'yoga', 'wellness', 'workout', 'riverside', '요가', '운동', '웰니스', 'thể thao'],
   },
@@ -446,16 +446,16 @@ Vui lòng tự chuẩn bị thảm tập yoga, khăn nhỏ và bình nước cá
     category: 'Community & Culture',
     category_vi: 'Cộng đồng & Văn hóa',
     category_ko: '커뮤니티 · 문화',
-    title: '[SAMPLE] Thao Dien Autumn Acoustic & Neighbor Coffee Social (Past Event)',
+    title: '[SAMPLE] Phu Quoc Autumn Acoustic & Neighbor Coffee Social (Past Event)',
     title_vi: '[MẪU] Giao lưu Cà phê & Nhạc Acoustic Mùa thu Thảo Điền (Đã kết thúc)',
     title_ko: '[샘플] 타오디엔 어텀 어쿠스틱 & 이웃 커피 모임 (종료된 행사 예시)',
     subtitle: 'Sample completed event demonstrating the Ended status badge when the event end date has passed.',
     subtitle_vi: 'Bài mẫu sự kiện đã qua nhằm hiển thị trạng thái Đã kết thúc khi qua ngày kết thúc sự kiện.',
     subtitle_ko: '종료일 경과 시 ‘종료(Ended)’ 배지가 표시되는 것을 확인하기 위한 샘플 이벤트 게시물.',
-    excerpt: '[SAMPLE — Not a real event] An afternoon acoustic guitar session and specialty pour-over coffee tasting for new and long-time Thao Dien residents.',
+    excerpt: '[SAMPLE — Not a real event] An afternoon acoustic guitar session and specialty pour-over coffee tasting for new and long-time Phu Quoc residents.',
     excerpt_vi: '[BÀI MẪU — Không phải sự kiện thật] Buổi chiều nhạc guitar acoustic và thưởng thức cà phê pha thủ công dành cho cư dân mới và lâu năm tại Thảo Điền.',
     excerpt_ko: '[샘플 — 실제 행사가 아닙니다] 타오디엔 신규 전입 주민과 기존 거주민이 함께 어울리는 오후 어쿠스틱 기타 연주 및 핸드드립 커피 시음 모임입니다.',
-    body_en: `> **[SAMPLE PREVIEW]** This post is a **sample entry** created to preview the Thao Dien Events board layout (specifically the **Ended** status badge). It is not a real event and is blocked from search engine indexing (\`noindex\`).
+    body_en: `> **[SAMPLE PREVIEW]** This post is a **sample entry** created to preview the Phu Quoc Events board layout (specifically the **Ended** status badge). It is not a real event and is blocked from search engine indexing (\`noindex\`).
 
 Neighbors gathered on Quoc Huong Street for an informal afternoon of acoustic music, pour-over coffee tasting and practical neighborhood tips for newcomers.
 
@@ -468,7 +468,7 @@ Neighbors gathered on Quoc Huong Street for an informal afternoon of acoustic mu
 ## When & where
 
 - **Date**: October 10, 2026 (15:00 – 18:00) — **Event Ended**
-- **Location**: Quoc Huong Garden Lounge, Thao Dien, Thu Duc City
+- **Location**: Quoc Huong Garden Lounge, Phu Quoc, Thu Duc City
 
 ## Good to know
 
@@ -509,16 +509,16 @@ Sự kiện mẫu này có ngày kết thúc trong quá khứ (\`2026-10-10\`) �
 ## 참고사항
 
 이 샘플 게시물은 종료일(\`2026-10-10\`)이 과거로 설정되어 있어, 목록과 상세 페이지에서 **Ended / Đã kết thúc / 종료** 배지가 정상적으로 표시되는지 확인하는 용도입니다.`,
-    seo_title: '[SAMPLE] Thao Dien Autumn Acoustic & Coffee Social | Good Life in Thaodien',
-    seo_title_vi: '[MẪU] Giao lưu Cà phê & Nhạc Acoustic Mùa thu Thảo Điền | Good Life in Thaodien',
-    seo_title_ko: '[샘플] 타오디엔 어텀 어쿠스틱 & 이웃 커피 모임 | Good Life in Thaodien',
-    seo_description: '[SAMPLE] Preview completed event entry demonstrating the Ended status badge on the Thao Dien Events board.',
+    seo_title: '[SAMPLE] Phu Quoc Autumn Acoustic & Coffee Social | Good Life in Phu Quoc',
+    seo_title_vi: '[MẪU] Giao lưu Cà phê & Nhạc Acoustic Mùa thu Thảo Điền | Good Life in Phu Quoc',
+    seo_title_ko: '[샘플] 타오디엔 어텀 어쿠스틱 & 이웃 커피 모임 | Good Life in Phu Quoc',
+    seo_description: '[SAMPLE] Preview completed event entry demonstrating the Ended status badge on the Phu Quoc Events board.',
     seo_description_vi: '[MẪU] Bài xem trước cho sự kiện đã kết thúc trên bảng Sự kiện Thảo Điền.',
     seo_description_ko: '[샘플] 종료일 경과 시 종료 배지 표시를 확인하기 위한 타오디엔 이벤트 샘플 글입니다.',
     key_points: [
       '[SAMPLE] Completed event held on October 10, 2026 (demonstrates Ended status badge)',
       'Featured Lam Dong pour-over coffee tasting and acoustic guitar sessions',
-      'Included newcomer Q&A on Thao Dien daily living',
+      'Included newcomer Q&A on Phu Quoc daily living',
     ],
     key_points_vi: [
       '[MẪU] Sự kiện đã diễn ra ngày 10/10/2026 (minh họa nhãn trạng thái Đã kết thúc)',
@@ -541,7 +541,7 @@ Sự kiện mẫu này có ngày kết thúc trong quá khứ (\`2026-10-10\`) �
     updated_at: '2026-10-10T19:00:00+07:00',
     event_date: '2026-10-10T15:00:00+07:00',
     effective_date: '2026-10-10T18:00:00+07:00', // Ended Oct 10, 2026 -> Ended (종료)
-    event_location: 'Quoc Huong Street, Thao Dien, Thu Duc City',
+    event_location: 'Quoc Huong Street, Phu Quoc, Thu Duc City',
     author_name: 'Good Life Editorial Desk (Sample)',
     tags: ['sample', 'coffee', 'acoustic', 'community', 'cafe', '커피', '어쿠스틱', '카페', 'cà phê'],
   },

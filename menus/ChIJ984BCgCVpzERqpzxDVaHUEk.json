@@ -1,0 +1,169 @@
+{
+  "name_google": "Madam Khánh Restaurant Phú quốc 2-마담 칸 - 汗女士",
+  "name_display": "Madam Khánh Restaurant Phú quốc 2-마담 칸 - 汗女士",
+  "place_id": "ChIJ984BCgCVpzERqpzxDVaHUEk",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "B",
+  "status": "partial",
+  "menu_date": "2026-08",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=61568821410077",
+      "accessed": "2026-10-25",
+      "note": "Madam Khánh Restaurant Phú Quốc 2 공식 페이스북 페이지"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://tripcoupon.com/",
+      "accessed": "2026-10-25",
+      "note": "마담 칸 선셋타운점(A164 Amalfi) 정규 메뉴판 및 단품 정가 내역 확인"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Hải sản cố định giá / Fixed Price Seafood",
+      "section_ko": "정가 해산물 단품 요리",
+      "items": [
+        {
+          "name_original": "Nghêu hấp Thái / sả / sốt Madam Khánh",
+          "name_ko": "조개 요리 (태국식 똠얌 찜 / 레몬그라스 찜 / 마담칸 특제소스)",
+          "description_original": "Clams cooked in Thai style, steamed with lemongrass or Madam Khanh sauce",
+          "description_ko": "신선한 조개를 태국식 매콤새콤 육수 또는 레몬그라스 향으로 쪄낸 요리",
+          "price_vnd": 150000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "조개",
+            "추천"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Ốc móng tay cháy tỏi / xào rau muống",
+          "name_ko": "맛조개 볶음 (마늘 버터 볶음 / 모닝글로리 볶음)",
+          "description_original": "Razor clams fried with crispy garlic or stir-fried with water spinach",
+          "description_ko": "쫄깃한 맛조개를 바삭한 마늘 또는 모닝글로리와 함께 센 불에 볶아낸 요리",
+          "price_vnd": 150000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "맛조개",
+            "인기"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Cơm chiên hải sản",
+          "name_ko": "해산물 볶음밥",
+          "description_original": "Seafood fried rice with prawns, squid and vegetables",
+          "description_ko": "새우, 오징어와 야채를 넣고 고슬고슬하게 볶아낸 베트남식 볶음밥",
+          "price_vnd": 150000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "식사류"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Rau muống xào tỏi",
+          "name_ko": "모닝글로리 마늘 볶음 (공심채 볶음)",
+          "description_original": "Stir-fried morning glory with garlic",
+          "description_ko": "마늘 향을 듬뿍 머금은 베트남 대표 야채 볶음",
+          "price_vnd": 80000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "야채"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Hải sản sống theo thời giá / Live Seafood (Market Price)",
+      "section_ko": "수족관 활어 & 해산물 (당일 싯가)",
+      "items": [
+        {
+          "name_original": "Cá mú sống (hấp Hồng Kông / nướng muối ớt)",
+          "name_ko": "다금바리 / 활 농어 (홍콩식 간장찜 / 소금고추 구이)",
+          "description_original": "Live Grouper steamed HK style or grilled with chili salt",
+          "description_ko": "수족관에서 갓 잡은 활 다금바리(그루퍼) 요리",
+          "price_vnd": null,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "1kg당 당일 싯가 (주문 전 무게 측정 필수)",
+          "tags": [
+            "활어",
+            "싯가"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Sò điệp / Hàu nướng mỡ hành",
+          "name_ko": "가리비 / 굴 파기름 땅콩 구이",
+          "description_original": "Grilled scallops and oysters with scallion oil and peanuts",
+          "description_ko": "석쇠에 구워 파기름과 땅콩을 얹은 해산물 구이",
+          "price_vnd": null,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "kg당 또는 피스당 싯가",
+          "tags": [
+            "구이",
+            "싯가"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Ốc hương xào bơ tỏi / sốt trứng muối",
+          "name_ko": "바다 골뱅이 (마늘버터 볶음 / 솔티드 에그 소스)",
+          "description_original": "Sweet snails stir-fried with garlic butter or salted egg sauce",
+          "description_ko": "푸꾸옥 특산 신선한 옥흐엉(바다골뱅이)",
+          "price_vnd": null,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "kg당 당일 싯가",
+          "tags": [
+            "달팽이",
+            "싯가"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Bào ngư nướng phô mai / sốt XO",
+          "name_ko": "활 전복 구이 (모차렐라 치즈 구이 / XO 소스)",
+          "description_original": "Live Abalone grilled with cheese or XO sauce",
+          "description_ko": "신선한 통전복 요리",
+          "price_vnd": null,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "마리당 싯가",
+          "tags": [
+            "전복",
+            "싯가"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": {
+    "min": 150000,
+    "max": 600000,
+    "basis": "조개류/식사류 단품 8만~15만동, 활어/갑각류 싯가 포함 1인 30만~60만동"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "호이안의 반미퀸과 다른 푸꾸옥 현지 해산물 전문 브랜드(선셋타운 A164 Amalfi)로, 조개찜(15만동), 맛조개볶음(15만동), 해산물볶음밥(15만동) 등 주요 정가 메뉴를 확보하고 다금바리/전복/가리비 등 싯가 품목의 조리 방식을 구체적으로 정리하여 B등급으로 편제함."
+}

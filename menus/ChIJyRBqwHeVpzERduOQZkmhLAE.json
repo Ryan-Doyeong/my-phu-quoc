@@ -1,0 +1,41 @@
+{
+  "name_google": "IBIZA - Oyster & Seafood Bar",
+  "name_display": "IBIZA - Oyster & Seafood Bar",
+  "place_id": "ChIJyRBqwHeVpzERduOQZkmhLAE",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "third_party",
+      "url": "https://restaurantsphuquoc.com/ibiza-sunset-town",
+      "accessed": "2026-10-25"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Fresh & Baked Oysters Selection",
+      "name_ko": "신선 생석화 및 치즈 구이 굴 플래터",
+      "price_approx": "150,000 ~ 280,000 VND"
+    },
+    {
+      "name_original": "Seafood Tapas & Sparkling Wine",
+      "name_ko": "해산물 타파스와 스파클링 와인",
+      "price_approx": "200,000 ~ 450,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 150000,
+    "max": 450000,
+    "basis": "오이스터 플래터 15만~28만동, 주류 및 타파스 20만동~"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "이비자 스타일의 활기찬 해변 라운지로 신선한 굴(오이스터) 요리와 와인, 칵테일을 전문 취급함. C등급으로 기록함."
+}

@@ -8,12 +8,14 @@ import { NewsletterForm } from '@/components/NewsletterForm'
 import { HeroSearch } from '@/components/SiteSearch'
 import { MobileMenu } from '@/components/MobileMenu'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
+import { SunsetTownTickets } from '@/components/SunsetTownTickets'
 import {
   DIRECTORY_CATEGORIES,
   DIRECTORY_CATEGORY_KEYS,
   categoryLabel,
   categoryEyebrow,
   categoryDescription,
+  categoryTheme,
   type DirectoryCategoryAppearance,
   type DirectoryCategory,
 } from '@/lib/directory'
@@ -49,11 +51,11 @@ const fallbackStories = [
   {
     title: 'From expat to neighbor',
     category: 'PEOPLE',
-    excerpt: 'How Thao Dien became home for good.',
+    excerpt: 'How Phu Quoc became home for good.',
     image: '/stock/closing.webp',
   },
   {
-    title: 'Why we love Thao Dien',
+    title: 'Why we love Phu Quoc',
     category: 'PLACES',
     excerpt: 'Green streets, great food and a stronger community.',
     image: '/stock/brunch.webp',
@@ -61,7 +63,7 @@ const fallbackStories = [
   {
     title: 'A second chance',
     category: 'COMMUNITY',
-    excerpt: 'Meet the rescue dogs finding new homes in Thao Dien.',
+    excerpt: 'Meet the rescue dogs finding new homes in Phu Quoc.',
     image: '/stock/bakery.webp',
   },
   {
@@ -174,7 +176,7 @@ export function HomePage({
             </Link>
           ))}
           <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
-          <Link href={localePath(locale, '/news/events')}>{dict.nav.events}</Link>
+          <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
           <Link href={localePath(locale, '/impact')}>{dict.nav.impact}</Link>
         </nav>
         <div className="headerActions">
@@ -195,7 +197,7 @@ export function HomePage({
             <source media="(max-width: 800px)" srcSet={imageUrl(heroImage, 800, 75)} />
             <img
               src={imageUrl(heroImage, 1600, 78)}
-              alt="Thao Dien neighborhood lifestyle"
+              alt="Phu Quoc neighborhood lifestyle"
               className="heroImage"
               loading="eager"
               fetchPriority="high"
@@ -219,7 +221,7 @@ export function HomePage({
             <p>{heroDescription}</p>
             <HeroSearch locale={locale} />
             <div className="heroButtons">
-              <a href="#discover" className="primaryButton heroPrimary">
+              <a href="#discover" className="primaryButton heroPrimary amberCta">
                 {heroPrimaryCta}
                 <span>→</span>
               </a>
@@ -242,7 +244,7 @@ export function HomePage({
 
         {homeSections.eventPromo.visible && localizedEvent && (
           <section className="shell eventPromo">
-            <Link href={localePath(locale, '/news/events')} className="eventPromoLink">
+            <Link href={localePath(locale, '/events')} className="eventPromoLink">
               <img
                 src={imageUrl(localizedEvent.cover_image_url || '/stock/hobby.webp', 1200, 72)}
                 alt=""
@@ -330,6 +332,7 @@ export function HomePage({
                     key={key}
                     data-analytics-type="category"
                     data-analytics-id={key}
+                    data-theme={categoryTheme(key)}
                   >
                     <article>
                       <img
@@ -363,6 +366,8 @@ export function HomePage({
             </div>
           </section>
         )}
+
+        <SunsetTownTickets locale={locale} />
 
         {homeSections.stories.visible && (
           <section className="shell stories" id="stories">

@@ -1,0 +1,64 @@
+{
+  "name_google": "Sorrento Restaurant & Bar",
+  "name_display": "소렌토 레스토랑 & 바 (Sorrento Restaurant & Bar)",
+  "place_id": "ChIJfyqPrL2VpzERtUaB6o2c_ZU",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "facebook",
+      "url": "https://facebook.com/sorrentophuquoc",
+      "accessed": "2026-10-25",
+      "note": "소렌토 레스토랑 & 바 공식 페이스북 채널 (선셋타운 키스브릿지 인근 오션뷰)"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://phuquocmap.com/sorrento-restaurant-phu-quoc",
+      "accessed": "2026-10-25",
+      "note": "소렌토 레스토랑 지중해 & 베트남 퓨전 시그니처 요리 및 가격대 (1인 30만~70만동)"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Chả giò hoàng hôn (Sunset Spring Rolls)",
+      "name_ko": "선셋 특제 수제 스프링롤",
+      "price_approx": "120,000 ~ 180,000 VND"
+    },
+    {
+      "name_original": "Lẩu nấm tràm Phú Quốc (Melaleuca Mushroom Hot Pot)",
+      "name_ko": "푸꾸옥 특산 짬버섯(멜라루카 버섯) 해산물 전골",
+      "price_approx": "350,000 ~ 550,000 VND"
+    },
+    {
+      "name_original": "Lẩu ghẹ Hàm Ninh (Ham Ninh Flower Crab Hot Pot)",
+      "name_ko": "함닌 꽃게 해산물 전골",
+      "price_approx": "450,000 ~ 650,000 VND"
+    },
+    {
+      "name_original": "Tôm sú sốt bơ tỏi (Garlic Butter Black Tiger Prawns)",
+      "name_ko": "블랙타이거 새우 갈릭버터 구이",
+      "price_approx": "250,000 ~ 450,000 VND"
+    },
+    {
+      "name_original": "Rượu vang Ý & Cocktail Địa Trung Hải",
+      "name_ko": "이탈리아 직수입 와인 및 지중해풍 칵테일",
+      "price_approx": "150,000 ~ 300,000 VND (글라스)"
+    }
+  ],
+  "price_range": {
+    "min": 150000,
+    "max": 700000,
+    "basis": "단품 요리 15만~50만동, 핫팟 전골 35만~65만동, 1인 평균 30만~70만동"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 키스브릿지 정면 뷰를 감상할 수 있는 이탈리아 지중해풍 & 베트남 해산물 퓨전 레스토랑. 푸꾸옥 짬버섯 전골과 꽃게탕, 와인을 주력으로 서비스하며 검증된 가격대를 바탕으로 C등급으로 편제함."
+}

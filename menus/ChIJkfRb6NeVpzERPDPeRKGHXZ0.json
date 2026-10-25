@@ -1,0 +1,27 @@
+{
+  "name_google": "Turkish Kitchen",
+  "name_display": "Turkish Kitchen",
+  "place_id": "ChIJkfRb6NeVpzERPDPeRKGHXZ0",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "D",
+  "status": "not_found",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJkfRb6NeVpzERPDPeRKGHXZ0",
+      "accessed": "2026-10-22",
+      "note": "공식 채널 없음, 가격(₫) 표시 없음"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "검색 요약은 'Sultan Turkish Kebab'의 가격이라 다른 업체로 보고 사용하지 않음."
+}

@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { notFound } from 'next/navigation'
+import { notFound, redirect } from 'next/navigation'
 import type { Metadata } from 'next'
 import { createPublicClient } from '@/lib/supabase/public'
 import { Logo } from '@/components/Logo'
@@ -55,6 +55,7 @@ export async function renderNewsListRoute(locale: Locale = 'en') {
     .from('stories')
     .select('*')
     .eq('status', 'published')
+    .neq('content_type', 'event') // 이벤트는 /events 게시판에서만 보여준다
     .order('published_at', { ascending: false })
     .limit(60)
 
@@ -68,7 +69,7 @@ export async function renderNewsListRoute(locale: Locale = 'en') {
           <nav>
             <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
             <Link href={localePath(locale, '/news')}>{dict.nav.newsAndBlog}</Link>
-            <Link href={localePath(locale, '/news/events')}>{dict.nav.events}</Link>
+            <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
             <Link href={localePath(locale, '/impact')}>{dict.nav.impact}</Link>
             <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
           </nav>
@@ -132,10 +133,10 @@ export async function generateArticleMetadata(
     .maybeSingle()
 
   const raw = dbRaw || getSampleEventBySlug(slug)
-  if (!raw) return { title: 'Good life in Thaodien' }
+  if (!raw) return { title: 'Good life in Phu Quoc' }
 
   const x = localizeStory(raw, locale)
-  const barePath = `/news/${slug}`
+  const barePath = `${x.content_type === 'event' ? '/events' : '/news'}/${slug}`
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
 
   // Only include locales that have an actual translation in hreflang!
@@ -156,7 +157,7 @@ export async function generateArticleMetadata(
     : undefined
 
   return {
-    title: x.seo_title || `${x.title} | Good life in Thaodien`,
+    title: x.seo_title || `${x.title} | Good life in Phu Quoc`,
     description: x.seo_description || x.excerpt || undefined,
     robots: isSample
       ? {
@@ -182,7 +183,11 @@ export async function generateArticleMetadata(
   }
 }
 
-export async function renderArticleRoute(slug: string, locale: Locale = 'en') {
+export async function renderArticleRoute(
+  slug: string,
+  locale: Locale = 'en',
+  section: 'news' | 'events' = 'news'
+) {
   const dict = getDictionary(locale)
   const supabase = createPublicClient()
   const { data: dbRaw } = await supabase
@@ -196,10 +201,13 @@ export async function renderArticleRoute(slug: string, locale: Locale = 'en') {
   if (!raw) notFound()
 
   const x = localizeStory(raw, locale)
+  // 뉴스와 이벤트는 별도 게시판: 글 종류와 주소가 다르면 올바른 주소로 이동
+  const expectedSection = x.content_type === 'event' ? 'events' : 'news'
+  if (section !== expectedSection) redirect(localePath(locale, `/${expectedSection}/${slug}`))
   const keyPoints = Array.isArray(x.key_points) ? x.key_points : []
   const tags = Array.isArray(x.tags) ? x.tags : []
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
-  const articleUrl = localeUrl(locale, `/news/${slug}`)
+  const articleUrl = localeUrl(locale, `/${expectedSection}/${slug}`)
   const isUntranslatedFallback = x.isUntranslatedFallback
   const isEvent = x.content_type === 'event'
   const isSample = Boolean(raw.is_sample || isSampleEventSlug(slug))
@@ -218,8 +226,8 @@ export async function renderArticleRoute(slug: string, locale: Locale = 'en') {
     '@type': 'Article',
     headline: x.title,
     inLanguage: isUntranslatedFallback ? 'en' : locale,
-    author: { '@type': 'Organization', name: 'Good Life Thaodien' },
-    publisher: { '@type': 'Organization', name: 'Good Life Thaodien' },
+    author: { '@type': 'Organization', name: 'Good Life Phu Quoc' },
+    publisher: { '@type': 'Organization', name: 'Good Life Phu Quoc' },
     mainEntityOfPage: articleUrl,
   }
   if (x.seo_description || x.excerpt) articleLd.description = x.seo_description || x.excerpt
@@ -242,17 +250,17 @@ export async function renderArticleRoute(slug: string, locale: Locale = 'en') {
         image: absCoverImage ? [absCoverImage] : undefined,
         location: {
           '@type': 'Place',
-          name: x.event_location || 'Thao Dien, Thu Duc City, Ho Chi Minh City',
+          name: x.event_location || 'Phu Quoc, Thu Duc City, Ho Chi Minh City',
           address: {
             '@type': 'PostalAddress',
-            addressLocality: 'Thao Dien, Thu Duc City',
+            addressLocality: 'Phu Quoc, Thu Duc City',
             addressRegion: 'Ho Chi Minh City',
             addressCountry: 'VN',
           },
         },
         organizer: {
           '@type': 'Organization',
-          name: 'Good Life Thaodien',
+          name: 'Good Life Phu Quoc',
           url: baseUrl,
         },
       }
@@ -268,7 +276,7 @@ export async function renderArticleRoute(slug: string, locale: Locale = 'en') {
             '@type': 'ListItem',
             position: 2,
             name: dict.nav.events,
-            item: localeUrl(locale, '/news/events'),
+            item: localeUrl(locale, '/events'),
           },
           { '@type': 'ListItem', position: 3, name: x.title, item: articleUrl },
         ]
@@ -298,7 +306,7 @@ export async function renderArticleRoute(slug: string, locale: Locale = 'en') {
           <nav>
             <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
             <Link href={localePath(locale, '/news')}>{dict.nav.newsAndBlog}</Link>
-            <Link href={localePath(locale, '/news/events')}>{dict.nav.events}</Link>
+            <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
             <Link href={localePath(locale, '/impact')}>{dict.nav.impact}</Link>
             <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
           </nav>
@@ -308,7 +316,7 @@ export async function renderArticleRoute(slug: string, locale: Locale = 'en') {
       <article className="onlineArticle richArticle">
         {isEvent && (
           <div className="eventDetailBackRow">
-            <Link href={localePath(locale, '/news/events')} className="eventDetailBackLink">
+            <Link href={localePath(locale, '/events')} className="eventDetailBackLink">
               {dict.news.eventsBackToList}
             </Link>
           </div>
@@ -511,10 +519,10 @@ export async function renderArticleRoute(slug: string, locale: Locale = 'en') {
 
 export async function generateEventsMetadata(locale: Locale = 'en'): Promise<Metadata> {
   const dict = getDictionary(locale)
-  const barePath = '/news/events'
+  const barePath = '/events'
   const canonicalUrl = localeUrl(locale, barePath)
   const alternates = buildAlternates(barePath)
-  const title = `${dict.news.eventsTitle} | Good Life in Thaodien`
+  const title = `${dict.news.eventsTitle} | Good Life in Phu Quoc`
   return {
     title,
     description: dict.news.eventsLead,
@@ -562,7 +570,7 @@ export async function renderEventsRoute(locale: Locale = 'en') {
           <nav>
             <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
             <Link href={localePath(locale, '/news')}>{dict.nav.newsAndBlog}</Link>
-            <Link href={localePath(locale, '/news/events')}>{dict.nav.events}</Link>
+            <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
             <Link href={localePath(locale, '/impact')}>{dict.nav.impact}</Link>
             <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
           </nav>

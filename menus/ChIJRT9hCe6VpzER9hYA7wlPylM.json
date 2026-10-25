@@ -1,0 +1,64 @@
+{
+  "name_google": "하이산캉",
+  "name_display": "하이산캉 (Hải Sản Cảng Phú Quốc - 해산물 전문점)",
+  "place_id": "ChIJRT9hCe6VpzER9hYA7wlPylM",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_website",
+      "url": "https://haisancang.com/",
+      "accessed": "2026-10-25",
+      "note": "하이산캉 선셋타운 Ven 45 공식 웹사이트 (50여 종 수족관 해산물과 100여 개 메뉴)"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://trip.com/restaurants/hai-san-cang-phu-quoc",
+      "accessed": "2026-10-25",
+      "note": "선셋타운 하이산캉 실측 가격 (해산물 볶음면 15만동, 새우 요리 79만동 등)"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Tôm sú sốt cay ngọt (Steamed Sweet & Spicy Prawns)",
+      "name_ko": "매콤달콤 특제 소스 타이거새우 찜 요리",
+      "price_approx": "약 790,000 VND / 플레이트"
+    },
+    {
+      "name_original": "Mì xào hải sản / Cơm chiên hải sản",
+      "name_ko": "해산물 볶음면 / 해산물 볶음밥",
+      "price_approx": "150,000 ~ 220,000 VND"
+    },
+    {
+      "name_original": "Cá mú sống hấp Hồng Kông (Live Grouper HK Style)",
+      "name_ko": "대형 수족관 활 다금바리(그루퍼) 파간장 찜",
+      "price_approx": "kg당 당일 싯가 (Market Price)"
+    },
+    {
+      "name_original": "Hàu nướng phô mai / mỡ hành",
+      "name_ko": "모차렐라 치즈 굴 구이 / 파기름 굴 구이",
+      "price_approx": "35,000 ~ 50,000 VND / 미(piece)"
+    },
+    {
+      "name_original": "Bia Tiger / Nước suối",
+      "name_ko": "타이거 캔맥주 및 생수",
+      "price_approx": "맥주 50,000 VND / 생수 20,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 100000,
+    "max": 790000,
+    "basis": "식사 단품 15만~22만동, 새우 요리 79만동선, 활어/갑각류 싯가"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 Ven 45에 위치한 초대형 수족관 해산물 식당으로 100여 가지 해산물 요리를 서비스함. 공식 웹사이트 및 트립닷컴 영수증 데이터를 확인하여 C등급으로 기록함."
+}

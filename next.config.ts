@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
     },
   },
   async redirects() {
-    // My Phu Quoc: Thaodien-only redirects (goodlifethaodien.online host, old Thaodien story slugs) removed in Phase 0.
+    // My Phu Quoc: Phu Quoc-only redirects (goodlifethaodien.online host, old Phu Quoc story slugs) removed in Phase 0.
     // Add the www → apex redirect here once the My Phu Quoc domain is decided.
     return []
   },

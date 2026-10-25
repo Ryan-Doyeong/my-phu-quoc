@@ -1,0 +1,36 @@
+{
+  "name_google": "Green Tree Buffet SeaFood",
+  "name_display": "Green Tree Buffet SeaFood",
+  "place_id": "ChIJNcEJoqmXpzERV_7N3lFq9sM",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_website",
+      "url": "http://greentreerestaurant.vn/",
+      "accessed": "2026-10-25"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Buffet Hải Sản Nướng & Lẩu Hoàng Hôn",
+      "name_ko": "선셋타운 대형 해산물 구이 & 핫팟 뷔페 (석식)",
+      "price_approx": "약 350,000 ~ 550,000 VND / 1인"
+    }
+  ],
+  "price_range": {
+    "min": 350000,
+    "max": 600000,
+    "basis": "디너 해산물 뷔페 1인 35만~60만동 (시즌/프로모션 변동)"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 프리마베라 FB3-03에 위치한 대형 해산물 뷔페 레스토랑. 꽃게, 새우, 조개류 뷔페를 운영하며 1인 요금대를 확인하여 C등급으로 기록함."
+}

@@ -1,0 +1,151 @@
+{
+  "name_google": "Nhà Hàng Cơm Niêu Việt Xưa - An Thới",
+  "name_display": "Nhà Hàng Cơm Niêu Việt Xưa - An Thới",
+  "place_id": "ChIJlehtpXeXpzERpS23o9pxwrc",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "B",
+  "status": "partial",
+  "menu_date": "2026-07",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_website",
+      "url": "https://comnieuvietxua.vn/",
+      "accessed": "2026-10-25",
+      "note": "Cơm Niêu Việt Xưa 공식 웹사이트 및 안터이/남부 매장 안내"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://vnguide.vn/com-nieu-viet-xua-phu-quoc",
+      "accessed": "2026-10-25",
+      "note": "정규 단품 가격표 (삼겹살 9만동, 생선조림 10만동, 소고기 14.5만동, 국 7만동)"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Món mặn ăn cơm / Savory Main Dishes for Rice",
+      "section_ko": "밥도둑 베트남 전통 반찬",
+      "items": [
+        {
+          "name_original": "Ba chỉ rang mắm tép (Fried Pork Belly with Shrimp Paste)",
+          "name_ko": "바삭 삼겹살 맘뗍(새우젓갈) 볶음",
+          "description_original": "Crispy thin-sliced pork belly stir-fried with fragrant fermented shrimp paste and lemongrass",
+          "description_ko": "바삭하게 구운 삼겹살에 특제 새우젓갈과 레몬그라스를 넣고 볶아낸 밥도둑 대표 요리",
+          "price_vnd": 90000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "인기",
+            "돼지고기"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Cá bống kho tộ (Claypot Braised Goby Fish)",
+          "name_ko": "옹기 뚝배기 망둑어(생선) 카라멜 조림",
+          "description_original": "Traditional claypot braised fish in savory caramelized pepper sauce",
+          "description_ko": "진한 후추와 카라멜 소스로 자작하게 조려낸 정통 뚝배기 생선조림",
+          "price_vnd": 100000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "생선요리",
+            "시그니처"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Bò xào rau củ theo mùa (Stir-fried Beef with Vegetables)",
+          "name_ko": "소고기 계절 야채 볶음",
+          "description_original": "Tender sliced beef wok-tossed with fresh seasonal greens and garlic",
+          "description_ko": "부드러운 소고기 슬라이스와 신선한 제철 채소를 센 불에 볶아낸 요리",
+          "price_vnd": 145000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "소고기"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Thịt ba chỉ luộc chấm cà pháo mắm tôm",
+          "name_ko": "삶은 삼겹살 수육과 가지절임 맘똠",
+          "description_original": "Boiled pork belly served with pickled Thai eggplants and fermented shrimp dip",
+          "description_ko": "베트남 북부 전통 스타일의 깔끔한 수육 백반 요리",
+          "price_vnd": 95000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "전통요리"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Cơm niêu & Canh truyền thống / Claypot Rice & Soups",
+      "section_ko": "도자기 솥밥 & 전통 국",
+      "items": [
+        {
+          "name_original": "Cơm niêu cháy giòn (Crispy Claypot Rice)",
+          "name_ko": "전통 옹기 돌솥 누룽지 밥",
+          "description_original": "Single portion claypot rice with golden crispy bottom layer",
+          "description_ko": "겉은 바삭하고 속은 찰진 전통 도자기 솥밥",
+          "price_vnd": 30000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "식사"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Canh cua đồng mồng tơi (Field Crab & Spinach Soup)",
+          "name_ko": "민물 게살 말라바 시금치 국",
+          "description_original": "Refreshing soup with fresh field crab meat and tender greens",
+          "description_ko": "구수하고 시원한 베트남 시골풍 게살 맑은 국",
+          "price_vnd": 70000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "국물요리"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Canh chua cá lăng (Sour Catfish Soup)",
+          "name_ko": "칼칼한 메콩 생선 신선탕 (칸추아)",
+          "description_original": "Southern style tamarind sour soup with fresh river fish and pineapple",
+          "description_ko": "파인애플, 토마토, 타마린드를 넣은 새콤달콤 생선탕",
+          "price_vnd": 85000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "국물요리"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": {
+    "min": 30000,
+    "max": 145000,
+    "basis": "반찬 7만~14.5만동, 돌솥밥 3만동, 1인 백반 10만~25만동"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "안터이/선셋타운 인근의 유명 전통 뚝배기 솥밥 전문점. 삼겹살 맘뗍(9만동), 생선조림(10만동), 소고기볶음(14.5만동), 돌솥밥(3만동), 게살국(7만동) 등 7개 핵심 요리의 정확한 가격을 확인하여 B등급으로 편제함."
+}

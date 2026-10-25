@@ -1,0 +1,1651 @@
+{
+  "name_google": "MEDITERRAN Sunset Town (Greek & Italian Restaurant) pizza, pasta & souvlaki",
+  "name_display": "메디테란 선셋타운 (MEDITERRAN - 그리스 & 이탈리안 레스토랑)",
+  "place_id": "ChIJoU5XY4qXpzER7IMIeP5u2_U",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "A",
+  "status": "complete",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": "메뉴판 표기: 모든 가격은 천 동 단위이며 세금·서비스료 포함 (All prices are in thousands of VND & inclusive of tax and service charge)",
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_website",
+      "url": "https://mediterran.vn/italian-menu/",
+      "accessed": "2026-10-22",
+      "note": "Ti Amo Pizza 이탈리안 메뉴판 이미지 (menu-pages/italian/page-03~13)"
+    },
+    {
+      "id": "s2",
+      "type": "official_website",
+      "url": "https://mediterran.vn/greek-menu/",
+      "accessed": "2026-10-22",
+      "note": "Dinos Greek Taverna 그리스 메뉴판 이미지 (menu-pages/greek/page-03~11)"
+    },
+    {
+      "id": "s3",
+      "type": "official_website",
+      "url": "https://mediterran.vn/drinks-menu/",
+      "accessed": "2026-10-22",
+      "note": "음료 메뉴판 이미지 (menu-pages/drinks/page-01~04)"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Appetizers",
+      "section_ko": "전채",
+      "items": [
+        {
+          "name_original": "Mediterranean Salad with Grilled Eggplant",
+          "name_ko": "구운 가지 지중해 샐러드",
+          "description_original": "Grilled eggplant, cherry tomatoes, cucumber, red onion, bell pepper, olive oil, lemon juice, dried oregano, salt and pepper",
+          "description_ko": "구운 가지, 방울토마토, 오이, 적양파, 파프리카, 올리브오일, 레몬즙, 말린 오레가노, 소금·후추",
+          "price_vnd": 199000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "채식"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Caprese Salad",
+          "name_ko": "카프레제 샐러드",
+          "description_original": "Fresh mozzarella, tomatoes, fresh basil, olive oil, balsamic vinegar, salt, pepper",
+          "description_ko": "생모차렐라, 토마토, 생바질, 올리브오일, 발사믹 식초, 소금·후추",
+          "price_vnd": 229000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "채식",
+            "베스트 초이스"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Baby Octopus Salad",
+          "name_ko": "주꾸미 샐러드",
+          "description_original": "Baby octopus, olive oil, lemon juice, garlic, fresh salad, cherry tomatoes, red onion, salt, pepper",
+          "description_ko": "주꾸미(베이비 옥토퍼스), 올리브오일, 레몬즙, 마늘, 샐러드 채소, 방울토마토, 적양파, 소금·후추",
+          "price_vnd": 229000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Burrata e Crudo",
+          "name_ko": "부라타 에 크루도 (부라타 치즈와 생햄)",
+          "description_original": "burrata cheese, prosciutto crudo, cherry tomatoes, arugula, olive oil, balsamic glaze, salt, black pepper",
+          "description_ko": "부라타 치즈, 프로슈토 크루도, 방울토마토, 루콜라, 올리브오일, 발사믹 글레이즈, 소금·흑후추",
+          "price_vnd": 279000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Scallop Crudo",
+          "name_ko": "가리비 크루도 (생가리비)",
+          "description_original": "fresh scallops, cherry tomatoes, lemon juice, chili olive oil, sea salt, black pepper",
+          "description_ko": "생가리비, 방울토마토, 레몬즙, 칠리 올리브오일, 바다소금, 흑후추",
+          "price_vnd": 279000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "매운맛",
+            "베스트 초이스"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Tris di Bruschette",
+          "name_ko": "트리스 디 브루스케타 (브루스케타 3종)",
+          "description_original": "Bread, tomatoes, prosciutto crudo, smoked salmon, fresh basil, cheese, garlic, olive oil, balsamic vinegar, salt, pepper, parmesan cheese",
+          "description_ko": "빵, 토마토, 프로슈토 크루도, 훈제연어, 생바질, 치즈, 마늘, 올리브오일, 발사믹 식초, 소금·후추, 파르메산 치즈",
+          "price_vnd": 219000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Soup (subject to availability)",
+      "section_ko": "수프 (재료 수급에 따라 제공)",
+      "items": [
+        {
+          "name_original": "Cacciucco alla Livornese",
+          "name_ko": "카추코 알라 리보르네세 (리보르노식 해산물 스튜)",
+          "description_original": "Fish, shellfish, seafood, olive oil, garlic, onion, tomatoes, white wine, fresh parsley, salt, pepper, fresh basil",
+          "description_ko": "생선, 조개류, 해산물, 올리브오일, 마늘, 양파, 토마토, 화이트와인, 파슬리, 소금·후추, 생바질",
+          "price_vnd": 269000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "베스트 초이스"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Minestra di Verdure",
+          "name_ko": "미네스트라 디 베르두레 (미네스트로네 채소 수프)",
+          "description_original": "Vegetable broth, tomatoes, carrots, celery, zucchini, beans, potato, onion, garlic, pasta, olive oil, fresh parsley, salt, pepper",
+          "description_ko": "채소 육수, 토마토, 당근, 셀러리, 주키니, 콩, 감자, 양파, 마늘, 파스타, 올리브오일, 파슬리, 소금·후추",
+          "price_vnd": 219000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "채식"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Zuppa di Spinaci e Manzo",
+          "name_ko": "주파 디 스피나치 에 만초 (시금치 소고기 수프)",
+          "description_original": "Beef, spinach, onion, garlic, carrots, celery, tomatoes, olive oil, salt, pepper",
+          "description_ko": "소고기, 시금치, 양파, 마늘, 당근, 셀러리, 토마토, 올리브오일, 소금·후추",
+          "price_vnd": 269000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Pizza",
+      "section_ko": "피자",
+      "items": [
+        {
+          "name_original": "Pizza Margherita",
+          "name_ko": "마르게리타 피자",
+          "description_original": "Tomato sauce, mozzarella cheese, fresh basil, olive oil",
+          "description_ko": "토마토소스, 모차렐라 치즈, 생바질, 올리브오일",
+          "price_vnd": 219000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "채식"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Pizza alla Diavola",
+          "name_ko": "디아볼라 피자 (매운 살라미)",
+          "description_original": "Tomato sauce, mozzarella cheese, spicy salami, chili peppers",
+          "description_ko": "토마토소스, 모차렐라 치즈, 매운 살라미, 고추",
+          "price_vnd": 289000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "메뉴판 원문 표기 'DIAVOLLA'",
+          "tags": [
+            "매운맛",
+            "베스트 초이스"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Pizza Quattro Formaggi",
+          "name_ko": "콰트로 포르마지 피자 (4가지 치즈)",
+          "description_original": "Tomato sauce, mozzarella cheese, gorgonzola cheese, cheddar cheese, parmesan cheese",
+          "description_ko": "토마토소스, 모차렐라, 고르곤졸라, 체다, 파르메산 치즈",
+          "price_vnd": 319000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "채식",
+            "베스트 초이스"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Pizza Prosciutto e Funghi",
+          "name_ko": "프로슈토 에 풍기 피자 (햄과 버섯)",
+          "description_original": "Tomato sauce, mozzarella cheese, prosciutto, mushrooms",
+          "description_ko": "토마토소스, 모차렐라 치즈, 프로슈토(햄), 버섯",
+          "price_vnd": 289000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Pizza Frutti di Mare",
+          "name_ko": "프루티 디 마레 피자 (해산물)",
+          "description_original": "Tomato sauce, mozzarella cheese, shrimp, squid, clams, garlic, olive oil, parsley",
+          "description_ko": "토마토소스, 모차렐라 치즈, 새우, 오징어, 조개, 마늘, 올리브오일, 파슬리",
+          "price_vnd": 319000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Pizza Prosciutto Crudo Rucola e Parmigiano",
+          "name_ko": "프로슈토 크루도 루콜라 파르미자노 피자",
+          "description_original": "Tomato sauce, mozzarella cheese, olive oil, prosciutto crudo, arugula, parmesan cheese",
+          "description_ko": "토마토소스, 모차렐라 치즈, 올리브오일, 프로슈토 크루도, 루콜라, 파르메산 치즈",
+          "price_vnd": 319000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "베스트 초이스"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Pizza Smoked Salmon",
+          "name_ko": "훈제연어 피자",
+          "description_original": "smoked salmon, cream cheese, mozzarella, dill, onion, olive oil, black pepper, lemon zest",
+          "description_ko": "훈제연어, 크림치즈, 모차렐라, 딜, 양파, 올리브오일, 흑후추, 레몬 제스트",
+          "price_vnd": 359000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "베스트 초이스"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Spicy Pizza \"Phu Quoc Chicken\"",
+          "name_ko": "스파이시 '푸꾸옥 치킨' 피자",
+          "description_original": "Mozzarella cheese, spicy chili sauce, marinated chicken, lemongrass, scallions, cilantro, olive oil",
+          "description_ko": "모차렐라 치즈, 매운 칠리소스, 양념 닭고기, 레몬그라스, 쪽파, 고수, 올리브오일",
+          "price_vnd": 289000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "매운맛"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Burrata Pesto Pizza",
+          "name_ko": "부라타 페스토 피자",
+          "description_original": "burrata cheese, basil pesto, parmesan cheese, arugula, mushroom, olive oil, salt, black pepper",
+          "description_ko": "부라타 치즈, 바질 페스토, 파르메산 치즈, 루콜라, 버섯, 올리브오일, 소금·흑후추",
+          "price_vnd": 359000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Extra Topping",
+      "section_ko": "피자 추가 토핑",
+      "items": [
+        {
+          "name_original": "Spice / Nonspice Salami",
+          "name_ko": "살라미 (매운맛/순한맛)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 69000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Jamón Serrano",
+          "name_ko": "하몬 세라노",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 69000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Prosciutto Crudo o Cotto",
+          "name_ko": "프로슈토 (생햄 또는 익힌 햄)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 69000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Gorgonzola or Parmesan",
+          "name_ko": "고르곤졸라 또는 파르메산 치즈",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 49000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Mushroom & Sweetcorn",
+          "name_ko": "버섯 & 스위트콘",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 49000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Risotto Selections",
+      "section_ko": "리소토",
+      "items": [
+        {
+          "name_original": "Risotto ai Frutti di Mare",
+          "name_ko": "해산물 리소토",
+          "description_original": "arborio rice, shrimp, squid, butter, garlic, onion, white wine, seafood broth, parsley, parmesan cheese, salt, black pepper",
+          "description_ko": "아르보리오 쌀, 새우, 오징어, 버터, 마늘, 양파, 화이트와인, 해산물 육수, 파슬리, 파르메산 치즈, 소금·흑후추",
+          "price_vnd": 299000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "메뉴판 원문 표기 'FRUITTI'",
+          "tags": [
+            "베스트 초이스"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Risotto Bianco",
+          "name_ko": "리소토 비앙코 (화이트 리소토)",
+          "description_original": "arborio rice, butter, onion, white wine, vegetable broth, parmesan cheese, salt, black pepper",
+          "description_ko": "아르보리오 쌀, 버터, 양파, 화이트와인, 채소 육수, 파르메산 치즈, 소금·흑후추",
+          "price_vnd": 229000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "채식"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Risotto Mushroom",
+          "name_ko": "버섯 리소토",
+          "description_original": "arborio rice, mushrooms, butter, onion, garlic, white wine, vegetable broth, parmesan cheese, parsley, salt, black pepper",
+          "description_ko": "아르보리오 쌀, 버섯, 버터, 양파, 마늘, 화이트와인, 채소 육수, 파르메산 치즈, 파슬리, 소금·흑후추",
+          "price_vnd": 259000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "채식"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Pasta",
+      "section_ko": "파스타",
+      "items": [
+        {
+          "name_original": "Spaghetti Tomato & Herbs",
+          "name_ko": "토마토 허브 스파게티",
+          "description_original": "tomato sauce, garlic, onion, olive oil, basil, oregano, salt, black pepper",
+          "description_ko": "토마토소스, 마늘, 양파, 올리브오일, 바질, 오레가노, 소금·흑후추",
+          "price_vnd": 229000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "채식"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Spaghetti Aglio e Olio",
+          "name_ko": "알리오 올리오 스파게티",
+          "description_original": "garlic, olive oil, chili flakes, parsley, salt, black pepper",
+          "description_ko": "마늘, 올리브오일, 고춧가루(칠리 플레이크), 파슬리, 소금·흑후추",
+          "price_vnd": 229000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "채식"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Spaghetti alla Carbonara",
+          "name_ko": "카르보나라 스파게티",
+          "description_original": "Bacon, eggs, parmesan cheese, cream, salt, black pepper",
+          "description_ko": "베이컨, 달걀, 파르메산 치즈, 크림, 소금·흑후추",
+          "price_vnd": 269000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "베스트 초이스"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Spaghetti con Gamberetti e Zucchine",
+          "name_ko": "새우 주키니 스파게티",
+          "description_original": "Shrimp, zucchini, garlic, olive oil, parsley, salt, black pepper",
+          "description_ko": "새우, 주키니(애호박), 마늘, 올리브오일, 파슬리, 소금·흑후추",
+          "price_vnd": 269000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Spaghetti ai Frutti di Mare",
+          "name_ko": "해산물 스파게티",
+          "description_original": "Shrimp, mussels/clams, calamari, white wine, parsley, salt, black pepper",
+          "description_ko": "새우, 홍합/조개, 오징어, 화이트와인, 파슬리, 소금·흑후추",
+          "price_vnd": 299000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Tagliatelle ai Quattro Formaggi",
+          "name_ko": "4가지 치즈 탈리아텔레",
+          "description_original": "Parmesan, gorgonzola, cheddar, scamorza (gouda), butter, salt, black pepper",
+          "description_ko": "파르메산, 고르곤졸라, 체다, 스카모르차(고다), 버터, 소금·흑후추",
+          "price_vnd": 299000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "채식",
+            "베스트 초이스"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Tagliatelle Prosciutto e Funghi",
+          "name_ko": "프로슈토 버섯 탈리아텔레",
+          "description_original": "Prosciutto, mushrooms, parmesan, olive oil, butter, salt, black pepper",
+          "description_ko": "프로슈토(햄), 버섯, 파르메산, 올리브오일, 버터, 소금·흑후추",
+          "price_vnd": 299000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Spaghetti alla Bolognese",
+          "name_ko": "볼로네제 스파게티",
+          "description_original": "Minced beef, onion, carrot, celery, parmesan, red wine, salt, black pepper",
+          "description_ko": "다진 소고기, 양파, 당근, 셀러리, 파르메산, 레드와인, 소금·흑후추",
+          "price_vnd": 299000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Seafood",
+      "section_ko": "해산물 요리",
+      "items": [
+        {
+          "name_original": "Grilled Tuna Steak",
+          "name_ko": "참치 스테이크",
+          "description_original": "fresh tuna, olive oil, garlic, lemon juice, sea salt, black pepper, herbs, mixed vegetables",
+          "description_ko": "생참치, 올리브오일, 마늘, 레몬즙, 바다소금, 흑후추, 허브, 채소 곁들임",
+          "price_vnd": 319000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Tonno in Crosta di Pistacchi",
+          "name_ko": "피스타치오 크러스트 참치",
+          "description_original": "Tuna fillet, pistachio, breadcrumbs, parmesan, egg, lemon zest, olive oil, salt, black pepper",
+          "description_ko": "참치 필레, 피스타치오, 빵가루, 파르메산, 달걀, 레몬 제스트, 올리브오일, 소금·흑후추",
+          "price_vnd": 319000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "견과류"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Tuna Avocado Tartare",
+          "name_ko": "참치 아보카도 타르타르",
+          "description_original": "Tuna, avocado, red onion, lime juice, olive oil, arugula & cherry tomatoes, fresh herbs",
+          "description_ko": "참치, 아보카도, 적양파, 라임즙, 올리브오일, 루콜라·방울토마토, 허브",
+          "price_vnd": 319000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "베스트 초이스"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Dessert",
+      "section_ko": "디저트",
+      "items": [
+        {
+          "name_original": "Tiramisu",
+          "name_ko": "티라미수",
+          "description_original": "Ladyfingers, mascarpone cheese, espresso, cocoa powder, whipped cream, liqueur",
+          "description_ko": "레이디핑거, 마스카르포네 치즈, 에스프레소, 코코아 파우더, 휘핑크림, 리큐어",
+          "price_vnd": 149000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "베스트 초이스"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Mango Mousse",
+          "name_ko": "망고 무스",
+          "description_original": "Whipping cream, mango puree, whipped cream, condensed milk, fresh ripe mango",
+          "description_ko": "휘핑크림, 망고 퓌레, 연유, 생망고",
+          "price_vnd": 149000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Sbrisolona",
+          "name_ko": "즈브리졸로나 (헤이즐넛·아몬드 크럼블 케이크)",
+          "description_original": "Hazelnut and almond sbrisolona with chocolate ganache and cassis",
+          "description_ko": "헤이즐넛·아몬드 즈브리졸로나, 초콜릿 가나슈와 카시스 곁들임",
+          "price_vnd": 189000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "견과류"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Starter (Dinos Greek Taverna)",
+      "section_ko": "전채 (그리스 메뉴)",
+      "items": [
+        {
+          "name_original": "Greek Salad (Choriatiki Salata)",
+          "name_ko": "그릭 샐러드 (호리아티키 살라타)",
+          "description_original": "Feta cheese, Kalamata olives, olive oil, red wine vinegar, cucumbers, tomatoes, red onion, bell peppers, dried oregano, salt and pepper",
+          "description_ko": "페타 치즈, 칼라마타 올리브, 올리브오일, 레드와인 식초, 오이, 토마토, 적양파, 파프리카, 말린 오레가노, 소금·후추",
+          "price_vnd": 189000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "채식"
+          ],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Mediterranean Salad (Mesogeiaki Salata)",
+          "name_ko": "지중해 샐러드 (메소기아키 살라타)",
+          "description_original": "Kalamata olives, cherry tomatoes, cucumber, red onion, bell pepper, olive oil, lemon juice, dried oregano, salt and pepper",
+          "description_ko": "칼라마타 올리브, 방울토마토, 오이, 적양파, 파프리카, 올리브오일, 레몬즙, 말린 오레가노, 소금·후추",
+          "price_vnd": 189000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "채식"
+          ],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Greek Hummus Dip",
+          "name_ko": "그릭 후무스 딥",
+          "description_original": "Chickpeas, tahini, lemon juice, garlic, olive oil, pita bread, salt, pepper, cumin, parsley",
+          "description_ko": "병아리콩, 타히니, 레몬즙, 마늘, 올리브오일, 피타빵, 소금·후추, 커민, 파슬리",
+          "price_vnd": 189000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "채식"
+          ],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Greek Eggplant Dip (Melitzanosalata)",
+          "name_ko": "그릭 가지 딥 (멜리찬살라타)",
+          "description_original": "Eggplant, garlic, olive oil, lemon juice, pita bread, fresh parsley, salt, pepper",
+          "description_ko": "가지, 마늘, 올리브오일, 레몬즙, 피타빵, 파슬리, 소금·후추",
+          "price_vnd": 189000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "채식"
+          ],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Tzatziki",
+          "name_ko": "차지키 (요거트 오이 딥)",
+          "description_original": "Pita bread, Greek yogurt, cucumber (grated), garlic (minced), olive oil, lemon juice, fresh dill (chopped), salt, pepper",
+          "description_ko": "피타빵, 그릭요거트, 간 오이, 다진 마늘, 올리브오일, 레몬즙, 다진 딜, 소금·후추",
+          "price_vnd": 189000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "채식"
+          ],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Keftedes Greek Meatballs",
+          "name_ko": "케프테데스 (그리스식 미트볼)",
+          "description_original": "Ground meat (beef & pork), bread crumbs, pita bread, tomatoes, onion, cucumber, red pepper, garlic, fresh parsley, egg, oregano, salt, pepper",
+          "description_ko": "다진 고기(소·돼지), 빵가루, 피타빵, 토마토, 양파, 오이, 홍피망, 마늘, 파슬리, 달걀, 오레가노, 소금·후추",
+          "price_vnd": 269000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "돼지고기"
+          ],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Crispy Deep-Fried Zucchini (Tiganita Kolokythakia)",
+          "name_ko": "주키니 튀김 (티가니타 콜로키타키아)",
+          "description_original": "Zucchini (thin sliced), flour, eggs, bread crumbs, tzatziki, salt, pepper",
+          "description_ko": "얇게 썬 주키니, 밀가루, 달걀, 빵가루, 차지키, 소금·후추",
+          "price_vnd": 199000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "채식"
+          ],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Stuffed Mushrooms Feta & Fresh Herbs (Manitaria me Feta kai Freska Myrodika)",
+          "name_ko": "페타 치즈 허브 버섯구이",
+          "description_original": "Mushrooms, cheese, fresh herbs (parsley, dill), garlic (minced), pita bread, breadcrumbs, olive oil, salt, pepper",
+          "description_ko": "버섯, 치즈, 허브(파슬리·딜), 다진 마늘, 피타빵, 빵가루, 올리브오일, 소금·후추",
+          "price_vnd": 199000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "채식"
+          ],
+          "source_ref": "s2"
+        }
+      ]
+    },
+    {
+      "section_original": "Main (Dinos Greek Taverna)",
+      "section_ko": "메인 (그리스 메뉴)",
+      "items": [
+        {
+          "name_original": "Souvlaki - Chicken/Pork",
+          "name_ko": "수블라키 (닭고기/돼지고기 꼬치)",
+          "description_original": "Marinated meat, French fries, pita bread, tzatziki, tomatoes, onion, cucumber, red pepper",
+          "description_ko": "양념 고기 꼬치, 감자튀김, 피타빵, 차지키, 토마토, 양파, 오이, 홍피망",
+          "price_vnd": 269000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Souvlaki - Lamb",
+          "name_ko": "수블라키 (양고기 꼬치)",
+          "description_original": "Marinated meat, French fries, pita bread, tzatziki, tomatoes, onion, cucumber, red pepper",
+          "description_ko": "양념 양고기 꼬치, 감자튀김, 피타빵, 차지키, 토마토, 양파, 오이, 홍피망",
+          "price_vnd": 319000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Gyros Plate (Piato Gyrou) - Chicken/Pork",
+          "name_ko": "기로스 플레이트 (닭고기/돼지고기)",
+          "description_original": "Marinated meat, French fries, pita bread, tzatziki, tomatoes, onion, cucumber, red pepper",
+          "description_ko": "양념 고기, 감자튀김, 피타빵, 차지키, 토마토, 양파, 오이, 홍피망",
+          "price_vnd": 269000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Gyros Plate (Piato Gyrou) - Lamb",
+          "name_ko": "기로스 플레이트 (양고기)",
+          "description_original": "Marinated meat, French fries, pita bread, tzatziki, tomatoes, onion, cucumber, red pepper",
+          "description_ko": "양념 양고기, 감자튀김, 피타빵, 차지키, 토마토, 양파, 오이, 홍피망",
+          "price_vnd": 319000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Greek-Style Grilled Lamb Chops (Ellinika Psita Paidakia)",
+          "name_ko": "그리스식 양갈비 구이",
+          "description_original": "Lamb chops with fat, French fries, olive oil, lemon juice, garlic, oregano, salt, pepper, pita bread, tomatoes, onion, cucumber, red pepper",
+          "description_ko": "양갈비, 감자튀김, 올리브오일, 레몬즙, 마늘, 오레가노, 소금·후추, 피타빵, 토마토, 양파, 오이, 홍피망",
+          "price_vnd": 369000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Grilled Pork Sausage Plate (Piato Psiton Choriatikon Loukanikon)",
+          "name_ko": "돼지고기 소시지 구이 플레이트",
+          "description_original": "Pork sausages, olive oil, French fries, pita bread, tomatoes, onion, cucumber, red pepper",
+          "description_ko": "돼지고기 소시지, 올리브오일, 감자튀김, 피타빵, 토마토, 양파, 오이, 홍피망",
+          "price_vnd": 269000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "돼지고기"
+          ],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Greek Style Beef T-Bone Black Angus",
+          "name_ko": "그리스식 블랙앵거스 티본 스테이크",
+          "description_original": "Beef T-bone, olive oil, garlic, lemon juice, oregano, rosemary, asparagus & mushrooms, cherry tomatoes, wedges potato or pita bread",
+          "description_ko": "소고기 티본, 올리브오일, 마늘, 레몬즙, 오레가노, 로즈마리, 아스파라거스·버섯, 방울토마토, 웨지감자 또는 피타빵",
+          "price_vnd": 899000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Old-Fashioned Greek Burgers (Palies Ellinikes Mperger)",
+          "name_ko": "옛날식 그리스 버거 (패티 플레이트)",
+          "description_original": "Ground meat (pork & beef), garlic (minced), pita bread & fries, mustard sauce, thyme, salt, pepper, tomatoes, onion, cucumber, red pepper",
+          "description_ko": "다진 고기(돼지·소), 다진 마늘, 피타빵·감자튀김, 머스터드 소스, 타임, 소금·후추, 토마토, 양파, 오이, 홍피망",
+          "price_vnd": 269000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "돼지고기"
+          ],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Mussels Saganaki (Saganaki Mydia)",
+          "name_ko": "홍합 사가나키 (토마토 페타 홍합찜)",
+          "description_original": "Pita bread, mussels, tomatoes (diced), feta cheese, garlic (minced), olive oil, basil, oregano, parsley",
+          "description_ko": "피타빵, 홍합, 깍둑 토마토, 페타 치즈, 다진 마늘, 올리브오일, 바질, 오레가노, 파슬리",
+          "price_vnd": 279000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Stuffed Calamari with Feta Cheese (Gemista Kalamaria me Feta)",
+          "name_ko": "페타 치즈 오징어순대",
+          "description_original": "Calamari, feta cheese, tomatoes, fresh herbs (parsley, dill), onion (chopped), olive oil, salt, pepper",
+          "description_ko": "오징어, 페타 치즈, 토마토, 허브(파슬리·딜), 다진 양파, 올리브오일, 소금·후추",
+          "price_vnd": 319000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Shrimp Saganaki (Saganaki Garidas)",
+          "name_ko": "새우 사가나키 (토마토 페타 새우찜)",
+          "description_original": "Pita bread, shrimp, tomatoes (diced), feta cheese, garlic (minced), olive oil, basil, oregano, parsley",
+          "description_ko": "피타빵, 새우, 깍둑 토마토, 페타 치즈, 다진 마늘, 올리브오일, 바질, 오레가노, 파슬리",
+          "price_vnd": 279000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Greek Seafood Platter (Thalassinos Diskos) - Prawn, Calamari, Baby Octopus",
+          "name_ko": "그리스식 해산물 플래터 (새우·오징어·주꾸미)",
+          "description_original": "Swedish sauce: mayonnaise, dill, lemon, honey",
+          "description_ko": "스웨디시 소스(마요네즈·딜·레몬·꿀) 곁들임",
+          "price_vnd": 289000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Crispy Deep-Fried Calamari (Piato Traganon Tiganiton Kalamarion)",
+          "name_ko": "오징어 튀김",
+          "description_original": "Swedish sauce: mayonnaise, dill, lemon, honey",
+          "description_ko": "스웨디시 소스(마요네즈·딜·레몬·꿀) 곁들임",
+          "price_vnd": 229000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Crispy Deep-Fried Shrimp (Piato Traganon Tiganiton Garidon)",
+          "name_ko": "새우 튀김",
+          "description_original": "Swedish sauce: mayonnaise, dill, lemon, honey",
+          "description_ko": "스웨디시 소스(마요네즈·딜·레몬·꿀) 곁들임",
+          "price_vnd": 229000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s2"
+        }
+      ]
+    },
+    {
+      "section_original": "Dessert (Dinos Greek Taverna)",
+      "section_ko": "디저트 (그리스 메뉴)",
+      "items": [
+        {
+          "name_original": "Grilled Mango with Greek Yogurt, Honey & Almonds",
+          "name_ko": "그릭요거트·꿀·아몬드를 곁들인 구운 망고",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 189000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "견과류"
+          ],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Chocolate Baklava with Coffee Syrup",
+          "name_ko": "커피 시럽 초콜릿 바클라바",
+          "description_original": "Baklava me sokolata kai maskarpon me siropi kafe",
+          "description_ko": "초콜릿·마스카르포네 바클라바, 커피 시럽",
+          "price_vnd": 189000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Baklava Strudel with Orange Syrup",
+          "name_ko": "오렌지 시럽 바클라바 슈트루델",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 189000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s2"
+        }
+      ]
+    },
+    {
+      "section_original": "Side Dishes & Extra",
+      "section_ko": "사이드 & 추가",
+      "items": [
+        {
+          "name_original": "French Fries",
+          "name_ko": "감자튀김",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 89000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Wedges Potatoes",
+          "name_ko": "웨지 감자",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 99000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Mixed Vegetable Salad",
+          "name_ko": "모둠 채소 샐러드",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 169000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Extra Herb Tomato Sauce",
+          "name_ko": "허브 토마토소스 추가",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 39000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Extra Pita",
+          "name_ko": "피타빵 추가",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 59000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Extra Tzatziki",
+          "name_ko": "차지키 추가",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 59000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Extra Kalamata Olive",
+          "name_ko": "칼라마타 올리브 추가",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 99000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s2"
+        },
+        {
+          "name_original": "Extra Feta Cheese",
+          "name_ko": "페타 치즈 추가",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 99000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s2"
+        }
+      ]
+    },
+    {
+      "section_original": "Coffee & Tea",
+      "section_ko": "커피 & 차",
+      "items": [
+        {
+          "name_original": "Espresso",
+          "name_ko": "에스프레소",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 69000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Americano",
+          "name_ko": "아메리카노",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 79000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Cappuccino",
+          "name_ko": "카푸치노",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 99000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Cafe Latte",
+          "name_ko": "카페라테",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 99000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Matcha Latte",
+          "name_ko": "말차 라테",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 99000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Hot Chocolate",
+          "name_ko": "핫초콜릿",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 99000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        }
+      ]
+    },
+    {
+      "section_original": "Iced Tea",
+      "section_ko": "아이스티 & 차",
+      "items": [
+        {
+          "name_original": "Hot / Iced Tea (Green Jasmine, Oolong, Black Tea) - cup",
+          "name_ko": "따뜻한/아이스 차 (재스민 녹차·우롱차·홍차) 한 잔",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 69000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Hot / Iced Tea (Green Jasmine, Oolong, Black Tea) - teapot",
+          "name_ko": "따뜻한/아이스 차 (재스민 녹차·우롱차·홍차) 포트",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 119000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Peach Chiller",
+          "name_ko": "피치 칠러",
+          "description_original": "peach syrup, orange, lemongrass, kumquat",
+          "description_ko": "복숭아 시럽, 오렌지, 레몬그라스, 금귤",
+          "price_vnd": 89000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Ginger Lemongrass",
+          "name_ko": "진저 레몬그라스",
+          "description_original": "lemongrass, ginger, lime, Lipton",
+          "description_ko": "레몬그라스, 생강, 라임, 립톤 홍차",
+          "price_vnd": 89000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Extra: Malibu (rum 21%) 30ml / Baileys (17%) 30ml",
+          "name_ko": "추가: 말리부(럼 21%) 30ml / 베일리스(17%) 30ml",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 59000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        }
+      ]
+    },
+    {
+      "section_original": "Fruit Juice",
+      "section_ko": "생과일 주스",
+      "items": [
+        {
+          "name_original": "Spicy Celery",
+          "name_ko": "스파이시 셀러리",
+          "description_original": "celery, green apple, lime, ginger, honey",
+          "description_ko": "셀러리, 청사과, 라임, 생강, 꿀",
+          "price_vnd": 89000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "채식"
+          ],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Refreshing Red",
+          "name_ko": "리프레싱 레드",
+          "description_original": "pineapple, carrot, beetroot, ginger",
+          "description_ko": "파인애플, 당근, 비트, 생강",
+          "price_vnd": 89000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "채식"
+          ],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Sunshine",
+          "name_ko": "선샤인",
+          "description_original": "mango, pineapple, passionfruit, honey",
+          "description_ko": "망고, 파인애플, 패션프루트, 꿀",
+          "price_vnd": 89000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "채식"
+          ],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Orange Sunshine",
+          "name_ko": "오렌지 선샤인",
+          "description_original": "orange, carrot, ginger, honey",
+          "description_ko": "오렌지, 당근, 생강, 꿀",
+          "price_vnd": 89000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "채식"
+          ],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Fresh Juice single selection (Watermelon, Beetroot, Carrot, Passion Fruit, Orange, Lemon, Green Apple, Pineapple)",
+          "name_ko": "단일 생과일 주스 (수박·비트·당근·패션프루트·오렌지·레몬·청사과·파인애플 중 택1)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 79000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        }
+      ]
+    },
+    {
+      "section_original": "Smoothie",
+      "section_ko": "스무디",
+      "items": [
+        {
+          "name_original": "Banana Mango & Cinnamon",
+          "name_ko": "바나나 망고 시나몬",
+          "description_original": "banana, mango, milk, ginger, cinnamon",
+          "description_ko": "바나나, 망고, 우유, 생강, 시나몬",
+          "price_vnd": 99000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Lime Mexico",
+          "name_ko": "라임 멕시코",
+          "description_original": "lime, milk, condensed milk",
+          "description_ko": "라임, 우유, 연유",
+          "price_vnd": 99000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Mango & Passion",
+          "name_ko": "망고 & 패션프루트",
+          "description_original": "mango, passion fruit, milk",
+          "description_ko": "망고, 패션프루트, 우유",
+          "price_vnd": 99000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Banana Chocolate",
+          "name_ko": "바나나 초콜릿",
+          "description_original": "banana, chocolate, milk, cocoa powder",
+          "description_ko": "바나나, 초콜릿, 우유, 코코아 파우더",
+          "price_vnd": 99000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Smoothie single selection (Mango, Banana, Passion Fruit, Orange, Lemon, Pineapple)",
+          "name_ko": "단일 스무디 (망고·바나나·패션프루트·오렌지·레몬·파인애플 중 택1)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 89000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        }
+      ]
+    },
+    {
+      "section_original": "Beer & Drink",
+      "section_ko": "맥주 & 음료",
+      "items": [
+        {
+          "name_original": "Saigon Special Green",
+          "name_ko": "사이공 스페셜 (녹색)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 69000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Saigon Export Red",
+          "name_ko": "사이공 엑스포트 (빨간색)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 69000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Bivina",
+          "name_ko": "비비나 맥주",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 59000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Corona Extra",
+          "name_ko": "코로나 엑스트라",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 109000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Apple Cider",
+          "name_ko": "애플 사이다(사과 발효주)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 99000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "San Pellegrino Sparkling 500ml",
+          "name_ko": "산펠레그리노 탄산수 500ml",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 69000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "San Pellegrino Sparkling 750ml",
+          "name_ko": "산펠레그리노 탄산수 750ml",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 89000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Acqua Panna Natural Water 500ml",
+          "name_ko": "아쿠아 파나 생수 500ml",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 69000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Acqua Panna Natural Water 750ml",
+          "name_ko": "아쿠아 파나 생수 750ml",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 89000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Schweppes (Tonic / Ginger Ale / Soda Water)",
+          "name_ko": "슈웹스 (토닉/진저에일/소다수)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 59000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Red Bull",
+          "name_ko": "레드불",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 49000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Coke / Pepsi / Coke Zero / Pepsi Zero Lime / 7Up / Sprite / Fanta",
+          "name_ko": "콜라·펩시·제로콜라·펩시 제로 라임·세븐업·스프라이트·환타",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 49000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        }
+      ]
+    },
+    {
+      "section_original": "Classic Cocktails",
+      "section_ko": "클래식 칵테일 (전 품목 동일가)",
+      "items": [
+        {
+          "name_original": "Mojito",
+          "name_ko": "모히토",
+          "description_original": "Bacardi rum, lime, mint",
+          "description_ko": "바카디 럼, 라임, 민트",
+          "price_vnd": 189000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Negroni",
+          "name_ko": "네그로니",
+          "description_original": "Gordon's gin, Martini Rosso, Campari",
+          "description_ko": "고든스 진, 마티니 로쏘, 캄파리",
+          "price_vnd": 189000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Caipirinha",
+          "name_ko": "카이피리냐",
+          "description_original": "Cachaça rum, lime",
+          "description_ko": "카샤사, 라임",
+          "price_vnd": 189000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Black/White Russian",
+          "name_ko": "블랙/화이트 러시안",
+          "description_original": "vodka, Kahlúa, milk",
+          "description_ko": "보드카, 깔루아, 우유",
+          "price_vnd": 189000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Long Island Iced Tea",
+          "name_ko": "롱아일랜드 아이스티",
+          "description_original": "rum, gin, vodka, tequila, triple sec, Coke",
+          "description_ko": "럼, 진, 보드카, 데킬라, 트리플섹, 콜라",
+          "price_vnd": 189000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Piña Colada",
+          "name_ko": "피냐 콜라다",
+          "description_original": "Bacardi rum, Malibu, pineapple, coconut",
+          "description_ko": "바카디 럼, 말리부, 파인애플, 코코넛",
+          "price_vnd": 189000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Whisky Sour",
+          "name_ko": "위스키 사워",
+          "description_original": "Jim Beam, lime, Angostura, egg white",
+          "description_ko": "짐빔, 라임, 앙고스투라 비터, 달걀흰자",
+          "price_vnd": 189000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Tequila Sunrise",
+          "name_ko": "데킬라 선라이즈",
+          "description_original": "tequila, orange, grenadine",
+          "description_ko": "데킬라, 오렌지, 그레나딘",
+          "price_vnd": 189000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Daiquiri",
+          "name_ko": "다이키리",
+          "description_original": "Bacardi rum, lime, sugar",
+          "description_ko": "바카디 럼, 라임, 설탕",
+          "price_vnd": 189000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Dry Martini",
+          "name_ko": "드라이 마티니",
+          "description_original": "Gordon's gin, Martini Dry extra",
+          "description_ko": "고든스 진, 마티니 엑스트라 드라이",
+          "price_vnd": 189000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        },
+        {
+          "name_original": "Margarita",
+          "name_ko": "마르가리타",
+          "description_original": "Tequila, triple sec, lime, salt",
+          "description_ko": "데킬라, 트리플섹, 라임, 소금",
+          "price_vnd": 189000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s3"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": {
+    "per_person_min_vnd": 250000,
+    "per_person_max_vnd": 450000,
+    "range_label": "중간~고가 (메인 1개+음료 1잔 기준 약 30만~45만 동)",
+    "basis": [
+      {
+        "type": "official_menu_calc",
+        "value": "메인 219K~369K(티본 899K 제외) + 음료 49K~189K",
+        "url": "https://mediterran.vn/italian-menu/"
+      }
+    ],
+    "confidence": "high"
+  },
+  "conflicts": [],
+  "db_corrections": [
+    {
+      "field": "phone",
+      "value_found": "+84 931 068 931",
+      "source": "Google Maps 장소 패널 (2026-10-22 확인)"
+    }
+  ],
+  "worker_notes": "메뉴판 이미지 판독. 메뉴판에 인쇄된 한국어 번역 중 오류 2건은 바로잡아 기록함: Spaghetti alla Carbonara의 인쇄 한국어가 '시금치와 소고기 수프'로 잘못 들어가 있음, Spaghetti con Gamberetti e Zucchine의 인쇄 한국어가 '감자와 새우 스파게티'(실제는 주키니)로 되어 있음. italian page-01·greek page-01·drinks page-05는 표지/중복이라 제외. menu_date는 메뉴판에 표기 없음."
+}

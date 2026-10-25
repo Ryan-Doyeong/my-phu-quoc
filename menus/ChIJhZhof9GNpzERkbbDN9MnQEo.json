@@ -1,0 +1,39 @@
+{
+  "name_google": "Delhi Darbaar Indian Restaurant (Indian Food in Sunset Town Phu Quoc)",
+  "name_display": "델리 다르바르 인디안 레스토랑 (Delhi Darbaar)",
+  "place_id": "ChIJhZhof9GNpzERkbbDN9MnQEo",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "D",
+  "status": "not_found",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJhZhof9GNpzERkbbDN9MnQEo",
+      "accessed": "2026-10-25",
+      "note": "선셋타운 델리 다르바르 구글맵 등록 링크"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://restaurantsphuquoc.com/delhi-darbaar-phu-quoc",
+      "accessed": "2026-10-25",
+      "note": "델리 다르바르 푸꾸옥 본점 안내 (그랜드월드 테디베어 박물관 인근 소재)"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [
+    {
+      "field": "location",
+      "issue": "구글맵에는 선셋타운 지점으로 등록되어 있으나, 실제 공식 사이트 및 다이닝 가이드상 매장은 북부 그랜드월드(Grand World)에만 단독 운영 중임."
+    }
+  ],
+  "db_corrections": [],
+  "worker_notes": "구글맵 등록 지점은 선셋타운으로 표기되어 있으나 현장 검색 및 브랜드 확인 결과 북부 그랜드월드 매장의 가상/중복 등록이거나 미영업 상태로 파악됨. 근거 불충분으로 D등급으로 기록함."
+}

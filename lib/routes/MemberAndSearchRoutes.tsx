@@ -137,7 +137,7 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
         ...(x.tags || []).map((t: string) => translateTerm(t, locale)),
         ...(x.badges || []),
         nearbyBadgeText(x.address, x.tags, x.badges, locale) || '',
-        x.is_good_life_member ? 'Good Life Thaodien member' : '',
+        x.is_good_life_member ? 'Good Life Phu Quoc member' : '',
       ].some((v) => text(v).includes(needle))
   )
   const dbStorySlugs = new Set((stories || []).map((row: any) => row.slug))
@@ -220,7 +220,7 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
                           ) && <span className="businessBadge badgenearby">{nearbyText}</span>}
                         {x.is_good_life_member && (
                           <span className="businessBadge badgegoodlifemember">
-                            {translateBadge('Good Life Thaodien member', locale)}
+                            {translateBadge('Good Life Phu Quoc member', locale)}
                           </span>
                         )}
                       </div>

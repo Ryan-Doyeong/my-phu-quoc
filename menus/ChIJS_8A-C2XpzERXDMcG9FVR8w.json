@@ -1,0 +1,64 @@
+{
+  "name_google": "Hai Bột Eatery & Homestay Phu Quoc",
+  "name_display": "Hai Bột Eatery & Homestay Phu Quoc",
+  "place_id": "ChIJS_8A-C2XpzERXDMcG9FVR8w",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_website",
+      "url": "https://haibotphuquoc.com/",
+      "accessed": "2026-10-25",
+      "note": "하이 봇 푸꾸옥 공식 웹사이트 (선셋타운 베니스 54)"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://phuquocmap.com/hai-bot-eatery",
+      "accessed": "2026-10-25",
+      "note": "하이 봇 누들, 핫팟, 스테이크 및 음료 가격대 (음료 6만~9만동, 식사 10만~35만동)"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Bánh canh cua Hai Bột (Signature Crab Noodle Soup)",
+      "name_ko": "하이 봇 시그니처 꽃게 쌀국수 (바인깐 꾸아)",
+      "price_approx": "95,000 ~ 150,000 VND"
+    },
+    {
+      "name_original": "Bò bít tết sốt bơ tỏi đặc biệt (Beef Steak with Garlic Butter)",
+      "name_ko": "특제 갈릭 버터 소스 비프 스테이크",
+      "price_approx": "220,000 ~ 350,000 VND"
+    },
+    {
+      "name_original": "Bột chiên & Chả giò truyền thống",
+      "name_ko": "베트남식 무 떡 튀김(봇찌엔)과 바삭 스프링롤",
+      "price_approx": "65,000 ~ 95,000 VND"
+    },
+    {
+      "name_original": "Lẩu hải sản Hai Bột (Seafood Hot Pot)",
+      "name_ko": "하이 봇 해산물 전골 핫팟",
+      "price_approx": "350,000 ~ 550,000 VND"
+    },
+    {
+      "name_original": "Cà phê & Trà trái cây tươi",
+      "name_ko": "전통 연유 커피 및 생과일 티",
+      "price_approx": "60,000 ~ 90,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 60000,
+    "max": 550000,
+    "basis": "국수 및 스낵 6.5만~15만동, 스테이크 22만~35만동, 전골 35만동~"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 베니스 54에 위치한 캐주얼 비스트로로 게살국수(바인깐꾸아), 스테이크, 핫팟 및 수제 음료를 판매함. 브랜드 공식 사이트와 매장 가격대를 확인하여 C등급으로 기록함."
+}

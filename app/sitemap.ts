@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next'
 import { createPublicClient } from '@/lib/supabase/public'
 import { DIRECTORY_CATEGORY_KEYS } from '@/lib/directory'
 import { PUBLISHED_EVENTS } from '@/lib/eventSamples'
+import { storyAvailableLocales } from '@/lib/i18n/dictionaries'
 import { LOCALES, buildAlternates, localeUrl, type Locale } from '@/lib/i18n/config'
 
 // Rebuild hourly so newly published stories appear without a redeploy
@@ -14,7 +15,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/',
     ...DIRECTORY_CATEGORY_KEYS.map((key) => `/directory/${key}`),
     '/news',
-    '/news/events',
+    '/events',
     '/impact',
     '/member',
     '/for-businesses',
@@ -23,7 +24,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const routes: MetadataRoute.Sitemap = []
 
-  // 1) Static & Category routes exist in all 3 locales (EN, VI, KO)
+  // 1) Static & Category routes exist in all all 7 locales
   for (const barePath of staticPaths) {
     const alternates = buildAlternates(barePath, LOCALES)
     for (const loc of LOCALES) {
@@ -40,7 +41,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   try {
     const supabase = await createPublicClient()
 
-    // 2) Published businesses exist in all 3 locales (EN, VI, KO) with localized UI/curation
+    // 2) Published businesses exist in all all 7 locales with localized UI/curation
     const { data: businesses } = await supabase
       .from('businesses')
       .select('slug, updated_at')
@@ -65,8 +66,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       })
     }
 
-    // 3) Published stories: ONLY include VI/KO URLs if body_vi / body_ko is actually populated!
-    // Untranslated fallback pages (/vi/news/[slug], /ko/news/[slug]) have noindex and MUST NOT be in sitemap or hreflang.
+    // 3) Published stories: ONLY include a translated URL if body_<locale> is actually populated!
+    // Untranslated fallback pages (/<locale>/news/[slug]) have noindex and MUST NOT be in sitemap or hreflang.
     const { data: stories } = await supabase
       .from('stories')
       .select('*')
@@ -81,15 +82,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     if (allStories.length > 0) {
       allStories.forEach((s: any) => {
         if (s.slug) {
-          const barePath = `/news/${s.slug}`
+          const barePath = `${s.content_type === 'event' ? '/events' : '/news'}/${s.slug}`
           const lastModified = s.updated_at ? new Date(s.updated_at) : now
-          const availableLocales: Locale[] = ['en']
-          if (typeof s.body_vi === 'string' && s.body_vi.trim().length > 0) {
-            availableLocales.push('vi')
-          }
-          if (typeof s.body_ko === 'string' && s.body_ko.trim().length > 0) {
-            availableLocales.push('ko')
-          }
+          const availableLocales: Locale[] = storyAvailableLocales(s)
           const alternates = buildAlternates(barePath, availableLocales)
           for (const loc of availableLocales) {
             routes.push({

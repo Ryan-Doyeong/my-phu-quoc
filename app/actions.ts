@@ -209,7 +209,7 @@ export async function createEvent(formData:FormData){
   const slug=`${slugify(title)}-${Date.now().toString(36)}`
   let cover=str(formData.get('cover_image_url'))||'/stock/hobby.webp';const file=formData.get('cover_image');if(file instanceof File&&file.size>0)cover=await uploadImage(supabase,file,'events')
   const {error}=await supabase.from('stories').insert({title,slug,category:'Events',excerpt:str(formData.get('excerpt')),body_en:str(formData.get('body_en')),cover_image_url:cover,status:'published',content_type:'event',event_date:str(formData.get('event_date'))||null,event_location:str(formData.get('event_location')),is_featured:true,author_id:user.id,published_at:new Date().toISOString()});if(error) throw error
-  revalidatePath('/');revalidatePath('/news/events');revalidatePath('/admin')
+  revalidatePath('/');revalidatePath('/events');revalidatePath('/admin')
 }
 
 export async function createBackupSnapshot(formData:FormData){
@@ -299,7 +299,7 @@ export async function saveArticle(formData:FormData){
     articleSlug=articleSlug||`${slugify(title)}-${Date.now().toString(36)}`
     const {error}=await supabase.from('stories').insert({...base,slug:articleSlug});if(error) throw error
   }
-  revalidatePath('/');revalidatePath('/news');revalidatePath('/news/events');revalidatePath('/impact');revalidatePath('/editor');revalidatePath('/admin');if(articleSlug)revalidatePath(`/news/${articleSlug}`)
+  revalidatePath('/');revalidatePath('/news');revalidatePath('/events');revalidatePath('/impact');revalidatePath('/editor');revalidatePath('/admin');if(articleSlug)revalidatePath(`/news/${articleSlug}`)
 }
 
 export async function deleteArticle(formData:FormData){

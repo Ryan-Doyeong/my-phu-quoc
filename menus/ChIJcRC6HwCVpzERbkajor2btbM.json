@@ -1,0 +1,64 @@
+{
+  "name_google": "푸꾸옥 뚱보집 선셋타운",
+  "name_display": "푸꾸옥 뚱보집 선셋타운점 (한식당)",
+  "place_id": "ChIJcRC6HwCVpzERbkajor2btbM",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "third_party",
+      "url": "https://premierresidencesphuquoc.com/",
+      "accessed": "2026-10-25",
+      "note": "푸꾸옥 선셋타운 한식당 뚱보집(BBQ Ông Mập) 매장 및 삼겹살/돼지껍데기 메뉴 소개"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://wanderboat.ai/",
+      "accessed": "2026-10-25",
+      "note": "선셋타운 아말피 거리 뚱보집 방문 리뷰 (삼겹살, 목살, 된장찌개 등 한식 가격대)"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Samgyeopsal / Pork Belly (삼겹살)",
+      "name_ko": "한국식 생삼겹살 / 냉동삼겹살 구이",
+      "price_approx": "180,000 ~ 240,000 VND / 1인분"
+    },
+    {
+      "name_original": "Honeycomb Pork Rind (돼지 벌집껍데기)",
+      "name_ko": "뚱보집 시그니처 쫀득한 벌집 껍데기",
+      "price_approx": "140,000 ~ 190,000 VND"
+    },
+    {
+      "name_original": "Pork Neck / Moksal (목살)",
+      "name_ko": "두툼한 소금 생목살 구이",
+      "price_approx": "180,000 ~ 240,000 VND / 1인분"
+    },
+    {
+      "name_original": "Kimchi Jjigae / Doenjang Jjigae (뚝배기 찌개류)",
+      "name_ko": "대형 뚝배기 돼지고기 김치찌개 / 구수한 된장찌개",
+      "price_approx": "150,000 ~ 190,000 VND"
+    },
+    {
+      "name_original": "Cheese Tteokbokki (치즈 떡볶이)",
+      "name_ko": "매콤달콤 모차렐라 치즈 떡볶이",
+      "price_approx": "140,000 ~ 180,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 140000,
+    "max": 450000,
+    "basis": "고기 단품 1인분 18만~24만동, 껍데기 14만~19만동, 식사류 15만동선"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 아말피 거리 인근에 입점한 한국식 돼지고기 구이 전문점으로 삼겹살, 목살 및 벌집껍데기, 김치찌개 등을 서비스함. 한식당 고기 1인분 가격대(18만~24만동)를 확인하여 C등급으로 기록함."
+}

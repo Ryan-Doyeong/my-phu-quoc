@@ -1,0 +1,545 @@
+{
+  "batch_size": 10,
+  "done_batches": 5,
+  "venues": {
+    "ChIJmwciuL6VpzER3ZIjhoDL17I": {
+      "name": "라군 식당",
+      "name_google": "라군 식당",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 0,
+      "sources_count": 1
+    },
+    "ChIJ-8xuXJSXpzER_vuwYia2R1M": {
+      "name": "Times Corner Restaurant",
+      "name_google": "Times Corner Restaurant",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 4,
+      "sources_count": 2
+    },
+    "ChIJqSNX-FuLpzERVHIK_K9q4ac": {
+      "name": "Yushima Japanese Restaurant",
+      "name_google": "Yushima Japanese Restaurant",
+      "status": "partial",
+      "info_level": "B",
+      "items_count": 7,
+      "known_dishes_count": 0,
+      "sources_count": 2
+    },
+    "ChIJMyo1GFCXpzERJi4JKDavOgQ": {
+      "name": "Restaurant- Coffee Halal Sunset Town Phu Quoc",
+      "name_google": "Restaurant- Coffee Halal Sunset Town Phu Quoc",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
+    },
+    "ChIJexQHMSaVpzERSr6zIxWjYDs": {
+      "name": "라군 BBQ & 베트남 퀴진 (Lagoon BBQ & Vietnamese Cuisine)",
+      "name_google": "LAGOON BBQ & VIETNAMESE CUISINE",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 4,
+      "sources_count": 2
+    },
+    "ChIJufI0FqCVpzER1FiJropT03Y": {
+      "name": "Quán Nhậu Bình Dân HOÀNG HÔN ( Hoàng Hôn Quán )",
+      "name_google": "Quán Nhậu Bình Dân HOÀNG HÔN ( Hoàng Hôn Quán )",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 2,
+      "sources_count": 1
+    },
+    "ChIJLwGTViCVpzER8VvsPx7gfqs": {
+      "name": "One Boat Restaurant & Bar",
+      "name_google": "One Boat Restaurant & Bar",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 2,
+      "sources_count": 1
+    },
+    "ChIJD-a4fwCVpzERA9KJ8gWE4cA": {
+      "name": "더 머천트 (The Merchant - La Festa Hilton 올데이 다이닝)",
+      "name_google": "The Merchant",
+      "status": "complete",
+      "info_level": "A",
+      "items_count": 35,
+      "known_dishes_count": 0,
+      "sources_count": 1
+    },
+    "ChIJFUbrywqVpzERZ-766zaQ1NE": {
+      "name": "마레 (Mare - La Festa Hilton 이탈리안 레스토랑)",
+      "name_google": "Mare",
+      "status": "complete",
+      "info_level": "A",
+      "items_count": 52,
+      "known_dishes_count": 0,
+      "sources_count": 1
+    },
+    "ChIJZ97LhDOVpzER7ZlyLY3K-9o": {
+      "name": "껌자딘 선셋타운 (Cơm Gia Đình - 베트남 가정식)",
+      "name_google": "껌자딘 越南家常菜",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 5,
+      "sources_count": 2
+    },
+    "ChIJcRC6HwCVpzERbkajor2btbM": {
+      "name": "푸꾸옥 뚱보집 선셋타운점 (한식당)",
+      "name_google": "푸꾸옥 뚱보집 선셋타운",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 5,
+      "sources_count": 2
+    },
+    "ChIJOTitfqa1oDERmIfA4qzOI_U": {
+      "name": "H Corner Chợ đêm Vuifest",
+      "name_google": "H Corner Chợ đêm Vuifest",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 4,
+      "sources_count": 2
+    },
+    "ChIJsx0UrT6LpzERcrAcAZp0Ea4": {
+      "name": "Cơm Gia Đình Việt - Tây Hồ Restaurant",
+      "name_google": "Cơm Gia Đình Việt - Tây Hồ Restaurant",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 2,
+      "sources_count": 1
+    },
+    "ChIJ_6I1rnKVpzERSyzp7e76ffQ": {
+      "name": "WOW QUÊ TÔI",
+      "name_google": "WOW QUÊ TÔI",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 2,
+      "sources_count": 1
+    },
+    "ChIJia_QcgCVpzER-0oMbCu_tgs": {
+      "name": "Chill Sunset Restaurant",
+      "name_google": "Chill Sunset Restaurant",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 2,
+      "sources_count": 1
+    },
+    "ChIJN7xYjTaVpzERxXuOhOW_Bkg": {
+      "name": "Tribal Grill - Ribs, Burger & Beer",
+      "name_google": "Tribal Grill - Ribs, Burger & Beer",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
+    },
+    "ChIJt4niIACVpzERsZinQbNSOvs": {
+      "name": "블루 테이블 (Blue Table - 이탈리안 레스토랑)",
+      "name_google": "BLUE TABLE(Italian Restaurant)",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 6,
+      "sources_count": 2
+    },
+    "ChIJ0f-9_fqXpzERWAKUF0YKrkY": {
+      "name": "Trần Coffee Shop No.2 Sunset Town",
+      "name_google": "Trần Coffee Shop No.2 Sunset Town",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 5,
+      "sources_count": 2
+    },
+    "ChIJ22vgGjSVpzERYizOdzNYy64": {
+      "name": "남보 키친 (NamBo Kitchen - Southern Vietnamese Cuisine)",
+      "name_google": "NamBo Kitchen",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 4,
+      "sources_count": 2
+    },
+    "ChIJFYbEOYuVpzERNhVUrah1-3Y": {
+      "name": "Amritsar Grill Indian Restaurant",
+      "name_google": "Amritsar Grill Indian Restaurant",
+      "status": "not_found",
+      "info_level": "D",
+      "items_count": 0,
+      "known_dishes_count": 0,
+      "sources_count": 1
+    },
+    "ChIJFYITJBKVpzERPIOdOa8Hzyg": {
+      "name": "포틴 푸꾸옥 (Phở Thìn Phú Quốc - 하노이 3대 쌀국수 & 핫팟)",
+      "name_google": "Phở Thìn Phú Quốc - [Top 3 Pho / 越南三大河粉] & [HOT POT / 火锅]",
+      "status": "partial",
+      "info_level": "B",
+      "items_count": 8,
+      "known_dishes_count": 0,
+      "sources_count": 3
+    },
+    "ChIJX83fV32VpzERWuVp_qZeJVc": {
+      "name": "Rasa Nusantara Phú Quốc",
+      "name_google": "Rasa Nusantara Phú Quốc",
+      "status": "not_found",
+      "info_level": "D",
+      "items_count": 0,
+      "known_dishes_count": 0,
+      "sources_count": 1
+    },
+    "ChIJIb8W0jqVpzERKa5wk0xTu3k": {
+      "name": "껌 메 (Cơm Mẹ - 엄마의 밥상 베트남 가정식)",
+      "name_google": "Cơm Mẹ",
+      "status": "not_found",
+      "info_level": "D",
+      "items_count": 0,
+      "known_dishes_count": 0,
+      "sources_count": 1
+    },
+    "ChIJkfRb6NeVpzERPDPeRKGHXZ0": {
+      "name": "Turkish Kitchen",
+      "name_google": "Turkish Kitchen",
+      "status": "not_found",
+      "info_level": "D",
+      "items_count": 0,
+      "known_dishes_count": 0,
+      "sources_count": 1
+    },
+    "ChIJS-IdAACVpzERrZzkY5r_-JQ": {
+      "name": "베니스 카페 & 이터리 (Venice Café & Eatery)",
+      "name_google": "Venice Cafe",
+      "status": "complete",
+      "info_level": "A",
+      "items_count": 98,
+      "known_dishes_count": 0,
+      "sources_count": 2
+    },
+    "ChIJk-2CcACXpzERjAdWD6NvD-w": {
+      "name": "선셋분식 (Sunset Bunsik)",
+      "name_google": "Sunset bunsik (선셋분식)",
+      "status": "partial",
+      "info_level": "B",
+      "items_count": 8,
+      "known_dishes_count": 0,
+      "sources_count": 2
+    },
+    "ChIJ1-LOM_iVpzEReC2eAEZgchI": {
+      "name": "쿵푸 누들 푸꾸옥 (Kungfu Noodle Phú Quốc - 수타면 & 딤섬)",
+      "name_google": "Kungfu Noodle Phú Quốc",
+      "status": "partial",
+      "info_level": "B",
+      "items_count": 8,
+      "known_dishes_count": 0,
+      "sources_count": 2
+    },
+    "ChIJN_Q6ZQCXpzERnEgRa_rea4k": {
+      "name": "세타 (Seta - La Festa Hilton 광동식 파인다이닝)",
+      "name_google": "Seta",
+      "status": "complete",
+      "info_level": "A",
+      "items_count": 146,
+      "known_dishes_count": 0,
+      "sources_count": 2
+    },
+    "ChIJyRBqwHeVpzERduOQZkmhLAE": {
+      "name": "IBIZA - Oyster & Seafood Bar",
+      "name_google": "IBIZA - Oyster & Seafood Bar",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 2,
+      "sources_count": 1
+    },
+    "ChIJM0_7pzqVpzERSaJMCKvjEZU": {
+      "name": "Đảo Vị VuiFest Bazaar",
+      "name_google": "Đảo Vị VuiFest Bazaar",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 2,
+      "sources_count": 1
+    },
+    "ChIJNcEJoqmXpzERV_7N3lFq9sM": {
+      "name": "Green Tree Buffet SeaFood",
+      "name_google": "Green Tree Buffet SeaFood",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 1,
+      "sources_count": 1
+    },
+    "ChIJS_8A-C2XpzERXDMcG9FVR8w": {
+      "name": "Hai Bột Eatery & Homestay Phu Quoc",
+      "name_google": "Hai Bột Eatery & Homestay Phu Quoc",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 5,
+      "sources_count": 2
+    },
+    "ChIJ1UTOAQCXpzERJu5SyLaNnBs": {
+      "name": "Ốc Đảo An Thới",
+      "name_google": "Ốc Đảo An Thới",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 2,
+      "sources_count": 1
+    },
+    "ChIJdy0S10CVpzERjeJJwHTOH7s": {
+      "name": "더 갱스 선셋 (The Gangs Sunset - 해산물 & 크래프트 비어)",
+      "name_google": "The Gangs Sunset",
+      "status": "partial",
+      "info_level": "B",
+      "items_count": 10,
+      "known_dishes_count": 0,
+      "sources_count": 2
+    },
+    "ChIJp_0sEWaXpzER2D9WqJ-NxEI": {
+      "name": "Times Corner Luxe - Pizza, Pasta & Grill",
+      "name_google": "Times Corner Luxe - Pizza, Pasta & Grill",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 4,
+      "sources_count": 2
+    },
+    "ChIJQyGZW3iVpzERlT6miydatAU": {
+      "name": "Cap'tr Phú Quốc",
+      "name_google": "Cap'tr Phú Quốc",
+      "status": "not_found",
+      "info_level": "D",
+      "items_count": 0,
+      "known_dishes_count": 0,
+      "sources_count": 1
+    },
+    "ChIJn8-tUACXpzER6RqdNBwIv2U": {
+      "name": "핀카 (Finca - La Festa Hilton 스페인 다이닝)",
+      "name_google": "Finca",
+      "status": "complete",
+      "info_level": "A",
+      "items_count": 126,
+      "known_dishes_count": 0,
+      "sources_count": 1
+    },
+    "ChIJdbjrShmVpzER-zfUU0OhqPg": {
+      "name": "카다이 인디안 레스토랑 (Kadhai Indian Restaurant)",
+      "name_google": "Kadhai Indian Restaurant Sunset Town (Phu Quoc)",
+      "status": "not_found",
+      "info_level": "D",
+      "items_count": 0,
+      "known_dishes_count": 0,
+      "sources_count": 2
+    },
+    "ChIJYx62SU2VpzERzC6ZA_AF9YY": {
+      "name": "SUNNY COFFEE - PHO - BANH MI (Vietnamese cuisine)",
+      "name_google": "SUNNY COFFEE - PHO - BANH MI (Vietnamese cuisine)",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 7,
+      "sources_count": 2
+    },
+    "ChIJfyqPrL2VpzERtUaB6o2c_ZU": {
+      "name": "소렌토 레스토랑 & 바 (Sorrento Restaurant & Bar)",
+      "name_google": "Sorrento Restaurant & Bar",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 5,
+      "sources_count": 2
+    },
+    "ChIJr-c8ZACVpzER41yqzYEUGAE": {
+      "name": "Hải Sản Hàm Ninh",
+      "name_google": "Hải Sản Hàm Ninh",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
+    },
+    "ChIJRT9hCe6VpzER9hYA7wlPylM": {
+      "name": "하이산캉 (Hải Sản Cảng Phú Quốc - 해산물 전문점)",
+      "name_google": "하이산캉",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 5,
+      "sources_count": 2
+    },
+    "ChIJ1SUXRwCVpzERK21wkH1D7nM": {
+      "name": "Mai Hương Restaurant - Sunset Town",
+      "name_google": "Mai Hương Restaurant - Sunset Town",
+      "status": "not_found",
+      "info_level": "D",
+      "items_count": 0,
+      "known_dishes_count": 0,
+      "sources_count": 2
+    },
+    "ChIJ5ZFzqOiVpzERxxGEcmIZi3g": {
+      "name": "Antalya Turkish Cuisine-Sunset Town",
+      "name_google": "Antalya Turkish Cuisine-Sunset Town",
+      "status": "not_found",
+      "info_level": "D",
+      "items_count": 0,
+      "known_dishes_count": 0,
+      "sources_count": 1
+    },
+    "ChIJlehtpXeXpzERpS23o9pxwrc": {
+      "name": "Nhà Hàng Cơm Niêu Việt Xưa - An Thới",
+      "name_google": "Nhà Hàng Cơm Niêu Việt Xưa - An Thới",
+      "status": "partial",
+      "info_level": "B",
+      "items_count": 7,
+      "known_dishes_count": 0,
+      "sources_count": 2
+    },
+    "ChIJR4_RrzuVpzERTNZI9HaezLk": {
+      "name": "마하라자 라운지 선셋타운 (Maharaja Lounge - 인도 채식 레스토랑)",
+      "name_google": "Maharaja Lounge - 100% Pure Veg Authentic Indian Restaurant Sunset Town",
+      "status": "not_found",
+      "info_level": "D",
+      "items_count": 0,
+      "known_dishes_count": 0,
+      "sources_count": 2
+    },
+    "ChIJMfJ3VWSVpzER2App4vNzuqo": {
+      "name": "한식당 화로구이 (Charcoal Korean BBQ)",
+      "name_google": "한식당 화로구이(charcoal korean bbq)(炭烤肉)",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 4,
+      "sources_count": 2
+    },
+    "ChIJqWMc3JqXpzER9imqzVVuH00": {
+      "name": "투안 끼에우 2 해산물 그릴 전문점 (Nhà hàng hải sản Thuận Kiều 2)",
+      "name_google": "Nhà hàng hải sản Thuận Kiều 2 | Seafood & Grill | 해산물 그릴 전문점",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 5,
+      "sources_count": 2
+    },
+    "ChIJhZhof9GNpzERkbbDN9MnQEo": {
+      "name": "델리 다르바르 인디안 레스토랑 (Delhi Darbaar)",
+      "name_google": "Delhi Darbaar Indian Restaurant (Indian Food in Sunset Town Phu Quoc)",
+      "status": "not_found",
+      "info_level": "D",
+      "items_count": 0,
+      "known_dishes_count": 0,
+      "sources_count": 2
+    },
+    "ChIJj9eeH0-XpzERR3O-7B0rxFo": {
+      "name": "까이 멈 비스트로 (Cái Mâm Bistro - Vietnamese Noodles & Cafe)",
+      "name_google": "CÁI MÂM BISTRO",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 4,
+      "sources_count": 2
+    },
+    "ChIJoU5XY4qXpzER7IMIeP5u2_U": {
+      "name": "메디테란 선셋타운 (MEDITERRAN - 그리스 & 이탈리안 레스토랑)",
+      "name_google": "MEDITERRAN Sunset Town (Greek & Italian Restaurant) pizza, pasta & souvlaki",
+      "status": "complete",
+      "info_level": "A",
+      "items_count": 117,
+      "known_dishes_count": 0,
+      "sources_count": 3
+    },
+    "ChIJgbE4kXGVpzERZ8C1U29WbHA": {
+      "name": "카페 루남 푸꾸옥 (Café RuNam Phú Quốc - Hexagonal House)",
+      "name_google": "루남 푸꾸옥",
+      "status": "partial",
+      "info_level": "B",
+      "items_count": 11,
+      "known_dishes_count": 0,
+      "sources_count": 2
+    },
+    "ChIJzUpxDmWXpzER9_x5dGSKcdM": {
+      "name": "껌니우 비엣 선셋타운 (Nhà hàng Cơm Niêu Việt - 베트남 돌솥밥)",
+      "name_google": "Nhà hàng Cơm Niêu Việt Địa Trung Hải",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 6,
+      "sources_count": 2
+    },
+    "ChIJ_VQ_ljWXpzERbwSZZ5XUYYU": {
+      "name": "Hội Quán - European Brasserie • Bar • Pastry",
+      "name_google": "Hội Quán - European Brasserie • Bar • Pastry",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
+    },
+    "ChIJ4SO9awCXpzERER4uBviu2l0": {
+      "name": "Bánh Canh Ghẹ BY-restaurant seafood",
+      "name_google": "Bánh Canh Ghẹ BY-restaurant seafood",
+      "status": "partial",
+      "info_level": "B",
+      "items_count": 4,
+      "known_dishes_count": 0,
+      "sources_count": 2
+    },
+    "ChIJ984BCgCVpzERqpzxDVaHUEk": {
+      "name": "Madam Khánh Restaurant Phú quốc 2-마담 칸 - 汗女士",
+      "name_google": "Madam Khánh Restaurant Phú quốc 2-마담 칸 - 汗女士",
+      "status": "partial",
+      "info_level": "B",
+      "items_count": 8,
+      "known_dishes_count": 0,
+      "sources_count": 2
+    },
+    "ChIJT66MukeVpzERQhQDyvVNUr4": {
+      "name": "옥토퍼스 아일랜드 레스토랑 (Octopus Island - 부이페스트 야시장)",
+      "name_google": "Octopus Island Restaurant - Night Market Sunset town",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 5,
+      "sources_count": 2
+    },
+    "ChIJHWzLNQCXpzER8C174EPH8Fs": {
+      "name": "Phố Nướng / seafood & meat grill",
+      "name_google": "Phố Nướng / seafood & meat grill",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 2,
+      "sources_count": 1
+    },
+    "ChIJ013bPieXpzERQbVdD9Sx2Kg": {
+      "name": "케이브맨 스모크 립 & 크래프트 비어 (Caveman Smoked Ribs)",
+      "name_google": "Caveman Smoked Ribs & Craft Beer",
+      "status": "partial",
+      "info_level": "B",
+      "items_count": 8,
+      "known_dishes_count": 0,
+      "sources_count": 3
+    }
+  },
+  "summary": {
+    "total_processed": 59,
+    "grade_a": 6,
+    "grade_b": 10,
+    "grade_c": 33,
+    "grade_d": 10,
+    "total_items": 653
+  }
+}

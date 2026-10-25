@@ -1,0 +1,46 @@
+{
+  "name_google": "Hải Sản Hàm Ninh",
+  "name_display": "Hải Sản Hàm Ninh",
+  "place_id": "ChIJr-c8ZACVpzER41yqzYEUGAE",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "facebook",
+      "url": "https://www.facebook.com/haisanhamninhphuquoc/",
+      "accessed": "2026-10-25"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Ghẹ Hàm Ninh hấp (Steamed Ham Ninh Crab)",
+      "name_ko": "함닌 자연산 꽃게 찜",
+      "price_approx": "kg당 당일 싯가 (Market Price)"
+    },
+    {
+      "name_original": "Mực trứng nướng sa tế",
+      "name_ko": "알배기 오징어 사테 구이",
+      "price_approx": "120,000 ~ 200,000 VND"
+    },
+    {
+      "name_original": "Ngao 2 còi hấp sả",
+      "name_ko": "대형 가리비/조개 레몬그라스 찜",
+      "price_approx": "100,000 ~ 180,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 100000,
+    "max": 350000,
+    "basis": "조개/오징어 단품 10만~20만동, 꽃게/활어 싯가"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "함닌 어촌마을 해산물 직송 컨셉의 선셋타운 매장으로 꽃게와 신선 해산물을 취급함. C등급으로 편제함."
+}

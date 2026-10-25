@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>My Phu Quoc — Palette Mockup</title>
+<style>
+  :root{
+    --accent:#C86D2D; --bg:#FBF5EA; --paper:#FFFDF9;
+    --ink:#3a2a1f; --muted:#8a6f5a;
+    --sky1:#f6c56b; --sky2:#ef8f4a; --sky3:#c9583a; --sky4:#5a3a5e;
+    --label:'A안 — Golden Sunset & Warm Sand';
+  }
+  body.b{
+    --accent:#B85338; --bg:#F9F1E6; --paper:#FFFDF8;
+    --ink:#3b2420; --muted:#8c6458;
+    --sky1:#f9d38a; --sky2:#f0a06a; --sky3:#d0644e; --sky4:#6b3b58;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{width:1280px;background:var(--bg);color:var(--ink);font-family:-apple-system,"SF Pro Display","Helvetica Neue",Arial,sans-serif}
+  .tag{background:var(--ink);color:#fff;font-size:15px;padding:10px 40px;letter-spacing:.04em}
+  header{display:flex;align-items:center;justify-content:space-between;padding:22px 40px;background:var(--paper);border-bottom:1px solid rgba(0,0,0,.06)}
+  .logo{font-family:Georgia,"Times New Roman",serif;font-size:28px;font-weight:700;color:var(--ink)}
+  .logo span{color:var(--accent)}
+  nav{display:flex;gap:26px;font-size:15px;color:var(--muted)}
+  nav a{white-space:nowrap}
+  .lang{display:flex;gap:6px}
+  .lang b{font-size:12px;padding:6px 9px;border-radius:999px;border:1px solid rgba(0,0,0,.12);color:var(--muted);font-weight:600}
+  .lang b.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .hero{position:relative;height:440px;margin:28px 40px;border-radius:28px;overflow:hidden;
+    background:linear-gradient(180deg,var(--sky1) 0%,var(--sky2) 38%,var(--sky3) 66%,var(--sky4) 100%)}
+  .sun{position:absolute;left:62%;top:46%;width:170px;height:170px;border-radius:50%;
+    background:radial-gradient(circle,#fff6d8 0%,#ffd98a 45%,rgba(255,200,110,0) 72%)}
+  .sea{position:absolute;left:0;right:0;bottom:0;height:34%;
+    background:linear-gradient(180deg,rgba(255,210,140,.55),rgba(60,40,70,.85));}
+  .sea::before{content:"";position:absolute;left:58%;top:0;width:200px;height:100%;
+    background:repeating-linear-gradient(180deg,rgba(255,230,170,.7) 0 3px,transparent 3px 14px);filter:blur(1px);opacity:.8}
+  .town{position:absolute;bottom:34%;left:0;right:0;height:90px;display:flex;align-items:flex-end;gap:6px;justify-content:flex-end;padding-right:40px}
+  .town i{display:block;background:rgba(70,40,50,.55);border-radius:4px 4px 0 0}
+  .copy{position:absolute;left:56px;top:60px;color:#fff;text-shadow:0 2px 18px rgba(80,30,10,.35)}
+  .copy small{font-size:13px;letter-spacing:.22em;font-weight:600;opacity:.95}
+  .copy h1{font-family:Georgia,serif;font-size:66px;line-height:1.02;margin:14px 0 14px}
+  .copy p{font-size:19px;opacity:.95;max-width:470px}
+  .btns{display:flex;gap:12px;margin-top:24px}
+  .btn{padding:14px 24px;border-radius:999px;font-weight:700;font-size:15px}
+  .btn.p{background:var(--paper);color:var(--accent)}
+  .btn.s{border:1.5px solid rgba(255,255,255,.85);color:#fff}
+  .sec{padding:8px 40px 0}
+  .sec h2{font-family:Georgia,serif;font-size:30px;margin:18px 0 6px}
+  .eyebrow{font-size:12px;letter-spacing:.2em;color:var(--accent);font-weight:700}
+  .cats{display:grid;grid-template-columns:repeat(8,1fr);gap:12px;margin-top:16px}
+  .cat{background:var(--paper);border-radius:20px;padding:18px 10px;text-align:center;border:1px solid rgba(0,0,0,.05)}
+  .cat .ic{width:44px;height:44px;margin:0 auto 10px;border-radius:50%;background:color-mix(in srgb,var(--accent) 14%,var(--paper));color:var(--accent);display:grid;place-items:center;font-size:20px}
+  .cat b{display:block;font-size:13px;white-space:nowrap}
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:16px}
+  .card{background:var(--paper);border-radius:24px;overflow:hidden;border:1px solid rgba(0,0,0,.05)}
+  .ph{height:150px;background:linear-gradient(160deg,var(--sky1),var(--sky3))}
+  .card:nth-child(2) .ph{background:linear-gradient(160deg,var(--sky2),var(--sky4))}
+  .card:nth-child(3) .ph{background:linear-gradient(160deg,#f3e2c4,var(--sky2))}
+  .cb{padding:16px 18px 18px}
+  .badges{display:flex;gap:6px;margin-bottom:8px}
+  .bd{font-size:11px;font-weight:700;padding:4px 9px;border-radius:999px}
+  .bd.r{background:var(--accent);color:#fff}
+  .bd.n{background:color-mix(in srgb,var(--accent) 14%,var(--paper));color:var(--accent)}
+  .card h3{font-size:18px;margin-bottom:4px}
+  .card p{font-size:13px;color:var(--muted)}
+  .pal{display:flex;gap:16px;padding:26px 40px 34px}
+  .sw{flex:1;border-radius:18px;overflow:hidden;background:var(--paper);border:1px solid rgba(0,0,0,.08)}
+  .sw div{height:70px}
+  .sw p{padding:10px 14px;font-size:13px}
+  .sw p b{display:block;font-size:15px}
+</style>
+</head>
+<body class="b">
+  <div class="tag">B안 — Sunset Terracotta &amp; Golden Hour</div>
+  <header>
+    <div class="logo">My <span>Phu Quoc</span></div>
+    <nav><a>Explore</a><a>Dining</a><a>Sunset Spots</a><a>Events</a><a>Guides</a></nav>
+    <div class="lang"><b class="on">EN</b><b>VI</b><b>HI</b><b>ZH</b><b>RU</b><b>KO</b><b>JA</b></div>
+  </header>
+
+  <div class="hero">
+    <div class="sun"></div>
+    <div class="town">
+      <i style="width:40px;height:60px"></i><i style="width:26px;height:82px"></i><i style="width:54px;height:48px"></i>
+      <i style="width:30px;height:70px"></i><i style="width:46px;height:56px"></i><i style="width:22px;height:88px"></i>
+      <i style="width:60px;height:44px"></i><i style="width:34px;height:66px"></i>
+    </div>
+    <div class="sea"></div>
+    <div class="copy">
+      <small>SUNSET TOWN · KHEM BEACH · AN THOI</small>
+      <h1>My<br>Phu Quoc</h1>
+      <p>Golden hours, local flavors and the best sunset spots in southern Phu Quoc.</p>
+      <div class="btns"><span class="btn p">Explore</span><span class="btn s">Tonight's shows</span></div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="eyebrow">DISCOVER</div>
+    <h2>What are you looking for?</h2>
+    <div class="cats">
+      <div class="cat"><div class="ic">◉</div><b>Dining</b></div>
+      <div class="cat"><div class="ic">☀</div><b>Sunset Cafes</b></div>
+      <div class="cat"><div class="ic">✦</div><b>Shows</b></div>
+      <div class="cat"><div class="ic">❀</div><b>Spa</b></div>
+      <div class="cat"><div class="ic">⌂</div><b>Hotels</b></div>
+      <div class="cat"><div class="ic">◇</div><b>Shopping</b></div>
+      <div class="cat"><div class="ic">≈</div><b>Beaches</b></div>
+      <div class="cat"><div class="ic">✚</div><b>Essentials</b></div>
+    </div>
+
+    <div class="cards">
+      <div class="card"><div class="ph"></div><div class="cb"><div class="badges"><span class="bd r">Recommended</span><span class="bd n">Sunset Town</span></div><h3>Sample Seafood Restaurant</h3><p>Seafood · Beachfront Dining</p></div></div>
+      <div class="card"><div class="ph"></div><div class="cb"><div class="badges"><span class="bd r">HOT</span><span class="bd n">Khem Beach</span></div><h3>Sample Sunset Bar</h3><p>Rooftop &amp; Sunset Bar</p></div></div>
+      <div class="card"><div class="ph"></div><div class="cb"><div class="badges"><span class="bd n">Nearby (An Thoi)</span></div><h3>Sample Local Spa</h3><p>Foot &amp; Body Massage</p></div></div>
+    </div>
+  </div>
+
+  <div class="pal">
+    <div class="sw"><div style="background:var(--accent)"></div><p><b>Accent</b>#B85338</p></div>
+    <div class="sw"><div style="background:var(--bg)"></div><p><b>Background</b>#F9F1E6</p></div>
+    <div class="sw"><div style="background:var(--paper)"></div><p><b>Paper</b>#FFFDF8</p></div>
+  </div>
+</body>
+</html>

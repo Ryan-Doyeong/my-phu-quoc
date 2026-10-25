@@ -1,0 +1,64 @@
+{
+  "name_google": "Trần Coffee Shop No.2 Sunset Town",
+  "name_display": "Trần Coffee Shop No.2 Sunset Town",
+  "place_id": "ChIJ0f-9_fqXpzERWAKUF0YKrkY",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_website",
+      "url": "https://trancoffee.com/",
+      "accessed": "2026-10-25",
+      "note": "Trần Coffee 공식 웹사이트 (푸꾸옥 선셋타운 11 Amalfi 및 즈엉동 본점)"
+    },
+    {
+      "id": "s2",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJ0f-9_fqXpzERWAKUF0YKrkY",
+      "accessed": "2026-10-25",
+      "note": "Trần Coffee Shop No.2 Sunset Town 구글맵 등록 정보"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Cà phê Phin Robusta / Arabica Đậm Đà",
+      "name_ko": "베트남 전통 핀 드립 커피 (로부스타 / 아라비카)",
+      "price_approx": "35,000 ~ 55,000 VND"
+    },
+    {
+      "name_original": "Cà phê sữa đá đặc biệt",
+      "name_ko": "진한 연유 아이스 커피 (시그니처 카페 쓰어다)",
+      "price_approx": "45,000 ~ 60,000 VND"
+    },
+    {
+      "name_original": "Pour-over Specialty Coffee (Single Origin)",
+      "name_ko": "싱글 오리진 핸드드립 스페셜티 커피 (다랏/닥락 원두)",
+      "price_approx": "65,000 ~ 95,000 VND"
+    },
+    {
+      "name_original": "Cold Brew Coffee",
+      "name_ko": "저온 숙성 콜드브루 커피",
+      "price_approx": "60,000 ~ 75,000 VND"
+    },
+    {
+      "name_original": "Trà thảo mộc & Trái cây tươi",
+      "name_ko": "수제 허브티 및 생과일 아이스티",
+      "price_approx": "45,000 ~ 65,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 35000,
+    "max": 95000,
+    "basis": "로컬 핀커피 3.5만~5.5만동, 스페셜티 핸드드립 및 콜드브루 6.5만~9.5만동"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "베트남 자체 로스터리 농장을 보유한 스페셜티 커피 전문 브랜드 Trần Coffee의 선셋타운 2호점(11 Amalfi)으로, 최고급 원두 핸드드립과 전통 핀 커피를 전문 취급함. 브랜드 공식 사이트와 매장 가격대를 확인하여 C등급으로 편제함."
+}

@@ -1,0 +1,64 @@
+{
+  "name_google": "Octopus Island Restaurant - Night Market Sunset town",
+  "name_display": "옥토퍼스 아일랜드 레스토랑 (Octopus Island - 부이페스트 야시장)",
+  "place_id": "ChIJT66MukeVpzERQhQDyvVNUr4",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJT66MukeVpzERQhQDyvVNUr4",
+      "accessed": "2026-10-25",
+      "note": "부이페스트 야시장 옥토퍼스 아일랜드 구글맵 등록 정보"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://wanderlog.com/",
+      "accessed": "2026-10-25",
+      "note": "Vui-Fest Bazaar 야시장 내 시푸드 바비큐 리뷰 및 실측 가격 정보 (단품 3만~10만 동대)"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Bạch tuộc nướng sa tế (Grilled Spicy Octopus)",
+      "name_ko": "매콤한 사테 양념 문어 숯불구이",
+      "price_approx": "60,000 ~ 120,000 VND (접시/무게당)"
+    },
+    {
+      "name_original": "Mực nướng muối ớt (Grilled Squid with Chili Salt)",
+      "name_ko": "푸꾸옥 한치/오징어 칠리소금 구이",
+      "price_approx": "80,000 ~ 150,000 VND"
+    },
+    {
+      "name_original": "Hàu nướng mỡ hành phô mai (Grilled Oysters with Cheese)",
+      "name_ko": "치즈 파기름 굴 구이 (개당 또는 접시)",
+      "price_approx": "30,000 ~ 60,000 VND"
+    },
+    {
+      "name_original": "Sò nướng mỡ hành (Grilled Scallops & Clams)",
+      "name_ko": "가리비 및 조개 파기름 땅콩 구이",
+      "price_approx": "50,000 ~ 100,000 VND"
+    },
+    {
+      "name_original": "Xiên nướng đường phố (Street BBQ Skewers)",
+      "name_ko": "야시장 해산물 & 고기 꼬치구이",
+      "price_approx": "30,000 ~ 50,000 VND / 꼬치당"
+    }
+  ],
+  "price_range": {
+    "min": 30000,
+    "max": 200000,
+    "basis": "야시장 꼬치 및 소접시 3만~6만동, 해산물 구이 6만~15만동, 생물 싯가"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 부이페스트 야시장(Vui-Fest Bazaar) 해변가에 위치한 오픈에어 해산물 펍으로 문어/오징어 숯불구이와 조개구이를 생맥주와 함께 판매함. 야시장 특유의 꼬치/소접시 단가(3만~12만동)를 확인하여 C등급으로 기록함."
+}

@@ -1,0 +1,27 @@
+{
+  "name_google": "Rasa Nusantara Phú Quốc",
+  "name_display": "Rasa Nusantara Phú Quốc",
+  "place_id": "ChIJX83fV32VpzERWuVp_qZeJVc",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "D",
+  "status": "not_found",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJX83fV32VpzERWuVp_qZeJVc",
+      "accessed": "2026-10-22",
+      "note": "구글맵에는 평점 5.0으로 등록돼 있으나 공식 채널·가격 표시 없음"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "웹 검색에서는 같은 이름의 푸꾸옥 식당을 찾지 못함. 구글맵 등록 정보와 어긋나므로 현장 확인이 필요하며, 폐업·이전 여부도 불확실."
+}

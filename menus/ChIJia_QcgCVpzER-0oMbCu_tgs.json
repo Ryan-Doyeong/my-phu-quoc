@@ -1,0 +1,41 @@
+{
+  "name_google": "Chill Sunset Restaurant",
+  "name_display": "Chill Sunset Restaurant",
+  "place_id": "ChIJia_QcgCVpzER-0oMbCu_tgs",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJia_QcgCVpzER-0oMbCu_tgs",
+      "accessed": "2026-10-25"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Cocktail Hoàng Hôn (Sunset Chill Cocktail)",
+      "name_ko": "칠 선셋 시그니처 트로피컬 칵테일",
+      "price_approx": "120,000 ~ 180,000 VND"
+    },
+    {
+      "name_original": "Đĩa hải sản nướng & Bia lạnh",
+      "name_ko": "해산물 구이 플래터와 시원한 맥주",
+      "price_approx": "250,000 ~ 450,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 120000,
+    "max": 450000,
+    "basis": "칵테일 12만~18만동, 해산물 요리 25만~45만동"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 해안가에 위치하여 일몰을 감상하며 칵테일과 해산물 구이를 즐길 수 있는 펍 레스토랑. C등급으로 기록함."
+}

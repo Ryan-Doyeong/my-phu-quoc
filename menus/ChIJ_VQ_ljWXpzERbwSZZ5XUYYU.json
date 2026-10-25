@@ -1,0 +1,46 @@
+{
+  "name_google": "Hội Quán - European Brasserie • Bar • Pastry",
+  "name_display": "Hội Quán - European Brasserie • Bar • Pastry",
+  "place_id": "ChIJ_VQ_ljWXpzERbwSZZ5XUYYU",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJ_VQ_ljWXpzERbwSZZ5XUYYU",
+      "accessed": "2026-10-25"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "European Pastries & Cakes",
+      "name_ko": "유럽식 수제 페이스트리 & 케이크",
+      "price_approx": "60,000 ~ 120,000 VND"
+    },
+    {
+      "name_original": "Brasserie Casual Mains & Pasta",
+      "name_ko": "브라세리 캐주얼 파스타 및 스테이크",
+      "price_approx": "180,000 ~ 380,000 VND"
+    },
+    {
+      "name_original": "Cocktails & House Wine",
+      "name_ko": "시그니처 칵테일 및 하우스 와인",
+      "price_approx": "140,000 ~ 250,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 60000,
+    "max": 450000,
+    "basis": "베이커리 6만~12만동, 파스타/메인 18만~38만동, 주류 14만동~"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 내 유러피안 브라세리, 베이커리 및 바 복합 다이닝. 가격대를 검증하여 C등급으로 기록함."
+}

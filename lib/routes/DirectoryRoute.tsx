@@ -29,7 +29,7 @@ export async function generateDirectoryMetadata(
       ? `${label} tại Thảo Điền | Good Life`
       : locale === 'ko'
       ? `타오디엔 ${label} | Good Life`
-      : `${label} in Thao Dien | Good Life`
+      : `${label} in Phu Quoc | Good Life`
   const barePath = `/directory/${category}`
   const canonicalUrl = localeUrl(locale, barePath)
   const alternates = buildAlternates(barePath)

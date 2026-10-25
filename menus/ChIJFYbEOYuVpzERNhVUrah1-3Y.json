@@ -1,0 +1,27 @@
+{
+  "name_google": "Amritsar Grill Indian Restaurant",
+  "name_display": "Amritsar Grill Indian Restaurant",
+  "place_id": "ChIJFYbEOYuVpzERNhVUrah1-3Y",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "D",
+  "status": "not_found",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJFYbEOYuVpzERNhVUrah1-3Y",
+      "accessed": "2026-10-22",
+      "note": "공식 홈페이지 없음, 가격(₫) 표시 없음"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "검색 요약의 가격은 '푸꾸옥 인도 식당의 일반적 가격'이라 근거로 쓰지 않음. 주소는 요약에 'OTM 7-11 (S223), Gateway Urban Area'로 나오나 원문 미확인."
+}

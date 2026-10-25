@@ -1,0 +1,59 @@
+{
+  "name_google": "H Corner Chợ đêm Vuifest",
+  "name_display": "H Corner Chợ đêm Vuifest",
+  "place_id": "ChIJOTitfqa1oDERmIfA4qzOI_U",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "third_party",
+      "url": "https://sunworld.vn/vui-fest-bazaar-h-corner",
+      "accessed": "2026-10-25",
+      "note": "선셋타운 Vui-Fest Bazaar 야시장 H Corner 매장 소개 (S362 Seta 3)"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://trip.com/h-corner-phu-quoc",
+      "accessed": "2026-10-25",
+      "note": "H Corner 홍콩 에그와플 및 디저트 가격대 (3만~10만 동)"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Hong Kong Bubble Waffle with Ice Cream",
+      "name_ko": "홍콩식 버블 에그와플과 젤라또 아이스크림",
+      "price_approx": "50,000 ~ 75,000 VND"
+    },
+    {
+      "name_original": "Matcha / Chocolate Bubble Waffle",
+      "name_ko": "말차 / 초콜릿 버블 와플",
+      "price_approx": "55,000 ~ 80,000 VND"
+    },
+    {
+      "name_original": "Cà phê sữa đá & Trà trái cây",
+      "name_ko": "시원한 연유 아이스 커피 및 생과일 티",
+      "price_approx": "35,000 ~ 55,000 VND"
+    },
+    {
+      "name_original": "Trà đào cam sả (Peach Orange Lemongrass Tea)",
+      "name_ko": "복숭아 오렌지 레몬그라스 아이스티",
+      "price_approx": "45,000 ~ 60,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 35000,
+    "max": 80000,
+    "basis": "음료 3.5만~6만동, 홍콩 버블와플 디저트 5만~8만동선"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 부이페스트 야시장 S362 Seta 3에 위치한 인기 디저트 카페로 겉바속촉 홍콩식 버블 에그와플과 아이스크림, 과일 티를 판매함. 야시장 길거리 디저트 실측 가격(3.5만~8만동)을 확인하여 C등급으로 기록함."
+}

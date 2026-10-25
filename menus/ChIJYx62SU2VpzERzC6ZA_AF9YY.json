@@ -1,0 +1,74 @@
+{
+  "name_google": "SUNNY COFFEE - PHO - BANH MI (Vietnamese cuisine)",
+  "name_display": "SUNNY COFFEE - PHO - BANH MI (Vietnamese cuisine)",
+  "place_id": "ChIJYx62SU2VpzERzC6ZA_AF9YY",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJYx62SU2VpzERzC6ZA_AF9YY",
+      "accessed": "2026-10-25",
+      "note": "선셋타운 166 Amalfi 구글맵 등록 정보 (평점 4.9, 쌀국수/반미/커피)"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://tripc.ai/restaurants/sunny-coffee-sunset-town",
+      "accessed": "2026-10-25",
+      "note": "선셋타운 써니커피 매장 정보 및 대표 메뉴 가격대 (3만~10만 동대)"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Cà phê trứng (Egg Coffee)",
+      "name_ko": "하노이식 수제 에그 커피",
+      "price_approx": "50,000 ~ 65,000 VND"
+    },
+    {
+      "name_original": "Cà phê cốt dừa (Coconut Coffee)",
+      "name_ko": "코코넛 스무디 커피",
+      "price_approx": "55,000 ~ 70,000 VND"
+    },
+    {
+      "name_original": "Cà phê sữa đá (Vietnamese Iced Milk Coffee)",
+      "name_ko": "베트남 전통 연유 아이스 커피",
+      "price_approx": "35,000 ~ 45,000 VND"
+    },
+    {
+      "name_original": "Bánh mì bò tiêu đen (Black Pepper Beef Banh Mi)",
+      "name_ko": "블랙페퍼 소고기 반미 바게트 샌드위치",
+      "price_approx": "50,000 ~ 75,000 VND"
+    },
+    {
+      "name_original": "Bánh mì thịt nguội (Traditional Cold Cuts Banh Mi)",
+      "name_ko": "베트남 전통 햄 & 파테 반미",
+      "price_approx": "40,000 ~ 60,000 VND"
+    },
+    {
+      "name_original": "Phở bò tái nạm (Beef Pho Noodle Soup)",
+      "name_ko": "진한 소고기 양지 차돌 쌀국수",
+      "price_approx": "70,000 ~ 90,000 VND"
+    },
+    {
+      "name_original": "Sinh tố bơ cốt dừa (Avocado Coconut Smoothie)",
+      "name_ko": "아보카도 코코넛 생과일 스무디",
+      "price_approx": "60,000 ~ 75,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 35000,
+    "max": 95000,
+    "basis": "커피 및 음료 3.5만~7만동, 반미 4만~7.5만동, 소고기 쌀국수 7만~9만동"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 166 Amalfi 길가에 위치한 인기 로컬 카페 겸 식당으로 에그커피/코코넛커피 및 소고기 반미, 쌀국수로 유명. 3.5만~9.5만동 수준의 착한 가격대로 현장 메뉴 구성을 확인하여 C등급으로 기록함."
+}

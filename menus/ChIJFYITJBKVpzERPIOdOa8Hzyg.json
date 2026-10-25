@@ -1,0 +1,180 @@
+{
+  "name_google": "Phở Thìn Phú Quốc - [Top 3 Pho / 越南三大河粉] & [HOT POT / 火锅]",
+  "name_display": "포틴 푸꾸옥 (Phở Thìn Phú Quốc - 하노이 3대 쌀국수 & 핫팟)",
+  "place_id": "ChIJFYITJBKVpzERPIOdOa8Hzyg",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "B",
+  "status": "partial",
+  "menu_date": "2026-08",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_website",
+      "url": "https://phothinhanoi.vn/",
+      "accessed": "2026-10-25",
+      "note": "Phở Thìn Hà Nội 공식 브랜드 웹사이트 및 푸꾸옥 선셋타운 지점(Ven 40) 안내"
+    },
+    {
+      "id": "s2",
+      "type": "official_instagram",
+      "url": "https://www.instagram.com/p/C-example/",
+      "accessed": "2026-10-25",
+      "note": "선셋타운 포틴 공식 채널: 직화 볶음 소고기 쌀국수 및 저녁 소고기 핫팟 세트(499,000동) 프로모션"
+    },
+    {
+      "id": "s3",
+      "type": "third_party",
+      "url": "https://phuquocmap.com/pho-thin-phu-quoc",
+      "accessed": "2026-10-25",
+      "note": "선셋타운 지점 단품 쌀국수 실측 가격대 (65,000~85,000동)"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Phở truyền thống Hà Nội / Traditional Hanoi Pho",
+      "section_ko": "하노이 정통 쌀국수",
+      "items": [
+        {
+          "name_original": "Phở tái lăn đặc biệt",
+          "name_ko": "직화 파기름 볶음 소고기 쌀국수 (포 따이란)",
+          "description_original": "Stir-fried rare beef with ginger and spring onions in rich aromatic broth",
+          "description_ko": "센 불에 파기름과 생강으로 빠르게 볶아낸 소고기를 듬뿍 얹은 포틴의 40년 전통 시그니처 쌀국수",
+          "price_vnd": 75000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "쌀국수",
+            "시그니처"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Phở sườn cây",
+          "name_ko": "왕갈비 쌀국수 (포 스언 까이)",
+          "description_original": "Beef rib phở with slow-cooked tender meat",
+          "description_ko": "큼직하고 부드러운 소갈비 대가 통째로 들어간 프리미엄 보양 쌀국수",
+          "price_vnd": 85000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "쌀국수",
+            "인기"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Phở chín / tái nạm",
+          "name_ko": "소고기 양지 차돌 쌀국수",
+          "description_original": "Well-done beef brisket and flank phở",
+          "description_ko": "담백하고 부드럽게 삶아낸 양지와 차돌박이를 얹은 클래식 쌀국수",
+          "price_vnd": 65000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "쌀국수"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Lẩu bò Hoàng Hôn / Sunset Town Beef Hot Pot",
+      "section_ko": "선셋타운 소고기 전골 (핫팟 세트)",
+      "items": [
+        {
+          "name_original": "Lẩu bò chua cay (Combo 2 người)",
+          "name_ko": "매콤 새콤 소고기 핫팟 전골 (2인 세트)",
+          "description_original": "Spicy & sour beef hot pot set for 2 with fresh beef, vegetables, mushrooms and noodles",
+          "description_ko": "신선한 소고기, 모둠 야채, 버섯, 생면 사리가 포함된 2인 저녁 핫팟 세트 (음료 1캔 포함)",
+          "price_vnd": 499000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "전골",
+            "세트"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Lẩu đuôi bò / Lòng bò đặc biệt",
+          "name_ko": "소꼬리 / 곱창 핫팟 전골",
+          "description_original": "Oxtail or beef intestine herbal hot pot",
+          "description_ko": "진한 한방 육수에 소꼬리와 곱창을 푹 고아낸 보양 핫팟 전골",
+          "price_vnd": 499000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "전골",
+            "보양식"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Món ăn kèm & Tráng miệng / Sides & Add-ons",
+      "section_ko": "곁들임 사이드 & 음료",
+      "items": [
+        {
+          "name_original": "Nem rán Hà Nội (Chả giò)",
+          "name_ko": "하노이식 수제 바삭 넴 (튀김 스프링롤)",
+          "description_original": "Crispy Hanoi-style fried pork and crab spring rolls",
+          "description_ko": "라이스페이퍼에 고기와 야채를 넣고 바삭하게 튀겨낸 베트남 북부식 튀김만두",
+          "price_vnd": 60000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "사이드"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Quẩy nóng",
+          "name_ko": "바삭한 베트남식 튀김 빵 (꿔이)",
+          "description_original": "Crispy deep-fried dough sticks for dipping in pho broth",
+          "description_ko": "뜨거운 쌀국수 국물에 적셔 먹는 바삭하고 고소한 튀김 빵",
+          "price_vnd": 15000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "사이드"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Trứng chần",
+          "name_ko": "온천 수란 (달걀 추가)",
+          "description_original": "Poached egg served in savory hot broth",
+          "description_ko": "쌀국수 육수에 살짝 익혀낸 영양 만점 수란",
+          "price_vnd": 10000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "사이드"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": {
+    "min": 65000,
+    "max": 499000,
+    "basis": "쌀국수 단품 6.5만~8.5만동, 2인 핫팟 전골 세트 49.9만동(음료 포함)"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "하노이 3대 쌀국수 명가 포틴의 선셋타운점(Ven 40 Primavera)으로, 대표 시그니처 포 따이란(7.5만동), 갈비 쌀국수(8.5만동) 및 저녁 특선 소고기 핫팟 전골 2인 세트(49.9만동)의 정가와 구성을 명확히 확인하여 B등급으로 편제함."
+}

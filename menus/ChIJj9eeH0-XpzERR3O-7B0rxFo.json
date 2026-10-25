@@ -1,0 +1,59 @@
+{
+  "name_google": "CÁI MÂM BISTRO",
+  "name_display": "까이 멈 비스트로 (Cái Mâm Bistro - Vietnamese Noodles & Cafe)",
+  "place_id": "ChIJj9eeH0-XpzERR3O-7B0rxFo",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_website",
+      "url": "https://caimambistro.com/branches/cai-mam-sunset-town/",
+      "accessed": "2026-10-25",
+      "note": "까이 멈 비스트로 선셋타운점 공식 안내 (Vui-Fest Bazaar 야시장 P27)"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://pato.com.vn/nha-hang/cai-mam-bistro-sunset-town",
+      "accessed": "2026-10-25",
+      "note": "선셋타운 까이 멈 비스트로 식사 가격대 (1인 6만~20만 동)"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Phở Bò Hà Nội (Traditional Hanoi Beef Pho)",
+      "name_ko": "하노이 정통 소고기 쌀국수",
+      "price_approx": "65,000 ~ 95,000 VND"
+    },
+    {
+      "name_original": "Bún Bò Nam Bộ (Southern Dry Beef Noodles)",
+      "name_ko": "분보남보 (베트남 남부식 소고기 비빔 쌀국수)",
+      "price_approx": "75,000 ~ 110,000 VND"
+    },
+    {
+      "name_original": "Chả Giò Cái Mâm (Crispy Spring Rolls)",
+      "name_ko": "까이 멈 수제 바삭 튀김 스프링롤",
+      "price_approx": "60,000 ~ 95,000 VND"
+    },
+    {
+      "name_original": "Cà Phê & Trà Trái Cây (Vietnamese Coffee & Fruit Tea)",
+      "name_ko": "베트남 전통 핀 커피 및 시원한 열대 과일차",
+      "price_approx": "35,000 ~ 65,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 60000,
+    "max": 200000,
+    "basis": "쌀국수 및 국수 단품 6.5만~11만동, 스프링롤 6만~9.5만동, 1인 평균 6만~20만동"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "부이페스트 야시장 P27에 위치한 베트남 누들 & 카페 비스트로로 정갈한 하노이 쌀국수와 분보남보를 판매함. 브랜드 공식 사이트와 제3자 다이닝 플랫폼의 1인 가격대(6만~20만동)를 확인하여 C등급으로 기록함."
+}

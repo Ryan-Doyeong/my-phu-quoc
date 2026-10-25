@@ -51,7 +51,7 @@ export async function generateBusinessMetadata(
   const rawDesc = selectBusinessDescription(b, locale)
   const description = rawDesc
     ? rawDesc.slice(0, 150) + (rawDesc.length > 150 ? '...' : '')
-    : `${categoryLabel(b.category, locale)} - ${b.address || 'Thao Dien'}`
+    : `${categoryLabel(b.category, locale)} - ${b.address || 'Phu Quoc'}`
 
   const photos = (b.gallery_urls || []).length
     ? b.gallery_urls
@@ -62,14 +62,14 @@ export async function generateBusinessMetadata(
   const alternates = buildAlternates(barePath)
 
   return {
-    title: `${b.public_name} | Good Life in Thaodien`,
+    title: `${b.public_name} | Good Life in Phu Quoc`,
     description,
     alternates: {
       canonical: canonicalUrl,
       languages: alternates.languages,
     },
     openGraph: {
-      title: `${b.public_name} | Good Life in Thaodien`,
+      title: `${b.public_name} | Good Life in Phu Quoc`,
       description,
       url: canonicalUrl,
       locale: ogLocaleFor(locale),
@@ -198,7 +198,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                   href={localePath(locale, '/member')}
                   className="businessBadge badgegoodlifemember"
                 >
-                  {translateBadge('Good Life Thaodien member', locale)}
+                  {translateBadge('Good Life Phu Quoc member', locale)}
                 </Link>
               )}
             </div>

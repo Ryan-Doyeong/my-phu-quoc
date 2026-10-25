@@ -1,0 +1,34 @@
+{
+  "name_google": "Mai Hương Restaurant - Sunset Town",
+  "name_display": "Mai Hương Restaurant - Sunset Town",
+  "place_id": "ChIJ1SUXRwCVpzERK21wkH1D7nM",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "D",
+  "status": "not_found",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "facebook",
+      "url": "https://www.facebook.com/MaiHuongSunset/",
+      "accessed": "2026-10-22",
+      "note": "마스터 DB의 SNS 링크, 접속 불가"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://checkinvietnam.io/clients/restaurants/80",
+      "accessed": "2026-10-22",
+      "note": "열렸으나 GrandWorld(VinWonders) 지점 정보라 선셋타운 지점에는 사용하지 않음"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "제3자 사이트의 '10$~100$' 가격대는 그랜드월드 지점 기준이라 선셋타운 지점의 근거가 아님. 검색 요약의 '1인 20만~100만 동'은 출처가 trip.com 등 원문 미확인이라 채택하지 않음."
+}

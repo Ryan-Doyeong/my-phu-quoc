@@ -1,0 +1,59 @@
+{
+  "name_google": "Times Corner Restaurant",
+  "name_display": "Times Corner Restaurant",
+  "place_id": "ChIJ-8xuXJSXpzER_vuwYia2R1M",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_website",
+      "url": "http://timescornerphuquoc.com/dining/bistro",
+      "accessed": "2026-10-25",
+      "note": "타임스 코너 비스트로(Bistro) 공식 다이닝 페이지 (선셋타운 소렌토 201)"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://trip.com/",
+      "accessed": "2026-10-25",
+      "note": "타임스 코너 비스트로 조식 및 올데이 다이닝 요금 내역"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Traditional Vietnamese Pho / Bun Bo Hue",
+      "name_ko": "베트남 전통 쌀국수 (하노이 쌀국수 / 분보후에)",
+      "price_approx": "75,000 ~ 95,000 VND"
+    },
+    {
+      "name_original": "Western Breakfast Combo",
+      "name_ko": "웨스턴 조식 콤보 (에그, 베이컨, 소시지, 토스트)",
+      "price_approx": "90,000 ~ 130,000 VND"
+    },
+    {
+      "name_original": "All-day Casual Bistro Mains",
+      "name_ko": "올데이 캐주얼 비스트로 단품 요리 (파스타, 볶음밥, 샌드위치)",
+      "price_approx": "120,000 ~ 250,000 VND"
+    },
+    {
+      "name_original": "BBQ Seafood Dinner Buffet",
+      "name_ko": "바비큐 해산물 디너 뷔페 (시즌 운영)",
+      "price_approx": "약 450,000 ~ 650,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 75000,
+    "max": 450000,
+    "basis": "조식 쌀국수 및 콤보 7.5만~13만동, 비스트로 단품 12만~25만동, 디너 뷔페 45만동~"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "타임스 코너 소렌토 빌딩(201 Sorrento)에 위치한 올데이 비스트로로 아침 쌀국수/웨스턴 조식부터 저녁 캐주얼 식사 및 해산물 바비큐를 제공함. 공식 홈페이지 및 트립닷컴 다이닝 정보를 기반으로 C등급으로 기록함."
+}

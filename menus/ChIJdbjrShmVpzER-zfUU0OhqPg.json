@@ -1,0 +1,34 @@
+{
+  "name_google": "Kadhai Indian Restaurant Sunset Town (Phu Quoc)",
+  "name_display": "카다이 인디안 레스토랑 (Kadhai Indian Restaurant)",
+  "place_id": "ChIJdbjrShmVpzER-zfUU0OhqPg",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "D",
+  "status": "not_found",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_website",
+      "url": "https://kadhaivietnam.com/",
+      "accessed": "2026-10-22",
+      "note": "브랜드 홈페이지는 열림. 사진·소개만 있고 메뉴·가격 페이지 없음(메뉴 링크 탐색 결과 없음)"
+    },
+    {
+      "id": "s2",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJdbjrShmVpzER-zfUU0OhqPg",
+      "accessed": "2026-10-22",
+      "note": "장소 패널에 가격(₫) 표시·메뉴 탭 없음"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "공식 사이트에 품목별 메뉴·가격 없음. 웹 검색 요약은 '일반적인 인도 식당 가격'을 말하는 내용이라 근거로 쓰지 않음. 페이스북 페이지에서 메뉴판 사진을 확인하면 B등급 이상으로 올릴 수 있음(이번에는 페이스북 접속 불가)."
+}

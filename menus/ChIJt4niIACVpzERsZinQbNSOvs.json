@@ -1,0 +1,69 @@
+{
+  "name_google": "BLUE TABLE(Italian Restaurant)",
+  "name_display": "블루 테이블 (Blue Table - 이탈리안 레스토랑)",
+  "place_id": "ChIJt4niIACVpzERsZinQbNSOvs",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_instagram",
+      "url": "https://www.instagram.com/bluetablepq/",
+      "accessed": "2026-10-25",
+      "note": "BLUE TABLE 공식 인스타그램 계정 (선셋타운 아말피 136)"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://www.klook.com/",
+      "accessed": "2026-10-25",
+      "note": "클룩(Klook) & 트립닷컴 BLUE TABLE 2인 다이닝 세트 패키지 바우처 (약 85만~95만 동, 34~37 USD)"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Neapolitan Wood-fired Pizza",
+      "name_ko": "화덕 나폴리 피자 (마르게리타, 콰트로 포르마지 등)",
+      "price_approx": "220,000 ~ 380,000 VND"
+    },
+    {
+      "name_original": "Handmade Pasta & Risotto",
+      "name_ko": "수제 생면 파스타 및 해산물 리소토",
+      "price_approx": "180,000 ~ 320,000 VND"
+    },
+    {
+      "name_original": "Grilled Scallops with Lime Butter",
+      "name_ko": "라임 버터 관자 구이 에피타이저",
+      "price_approx": "190,000 ~ 280,000 VND"
+    },
+    {
+      "name_original": "Octopus Carpaccio",
+      "name_ko": "푸꾸옥 문어 카르파초",
+      "price_approx": "180,000 ~ 250,000 VND"
+    },
+    {
+      "name_original": "Premium Beef Steak",
+      "name_ko": "프리미엄 비프 스테이크",
+      "price_approx": "450,000 ~ 850,000 VND"
+    },
+    {
+      "name_original": "Romantic Sunset 2-Person Set Menu",
+      "name_ko": "로맨틱 선셋 2인 세트 패키지 (샐러드+스테이크+파스타/리소토+음료)",
+      "price_approx": "850,000 ~ 950,000 VND (Klook/트립닷컴 바우처)"
+    }
+  ],
+  "price_range": {
+    "min": 150000,
+    "max": 850000,
+    "basis": "Klook 바우처 85~95만동(2인 세트), 파스타/피자 단품 18만~38만동, 스테이크 45만동~"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 136 Amalfi에 위치한 정통 이탈리안 레스토랑으로 바다 및 분수쇼 뷰 테라스를 보유. Klook 및 여행 플랫폼의 2인 세트(약 85만~95만동) 및 주요 단품 가격대를 검증하여 C등급으로 기록함."
+}

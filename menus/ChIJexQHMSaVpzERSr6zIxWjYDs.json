@@ -1,0 +1,59 @@
+{
+  "name_google": "LAGOON BBQ & VIETNAMESE CUISINE",
+  "name_display": "라군 BBQ & 베트남 퀴진 (Lagoon BBQ & Vietnamese Cuisine)",
+  "place_id": "ChIJexQHMSaVpzERSr6zIxWjYDs",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "facebook",
+      "url": "https://www.facebook.com/lagooncuisinephuquoc/",
+      "accessed": "2026-10-25",
+      "note": "라군 BBQ & 베트남 퀴진 공식 페이스북 (선셋타운 베니스 05)"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://phuquocmap.com/lagoon-bbq-sunset-town",
+      "accessed": "2026-10-25",
+      "note": "선셋타운 키스브릿지 뷰 바비큐 & 전골 다이닝 가격대 (20만~100만 동)"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Combo Nướng Than Hoa Lagoon (Lagoon BBQ Platter)",
+      "name_ko": "라군 시그니처 숯불 고기 & 해산물 바비큐 플래터",
+      "price_approx": "450,000 ~ 850,000 VND"
+    },
+    {
+      "name_original": "Đĩa hải sản lạnh phong cách Pháp (Chilled Seafood Platter)",
+      "name_ko": "프랑스식 프리미엄 냉 해산물 플래터 (굴, 새우, 게살)",
+      "price_approx": "600,000 ~ 1,200,000 VND"
+    },
+    {
+      "name_original": "Lẩu hải sản Địa Trung Hải (Mediterranean Seafood Hot Pot)",
+      "name_ko": "지중해풍 토마토 해산물 핫팟 전골",
+      "price_approx": "380,000 ~ 650,000 VND"
+    },
+    {
+      "name_original": "Sườn heo nướng sốt BBQ",
+      "name_ko": "특제 바비큐 소스 돼지 등갈비 구이",
+      "price_approx": "250,000 ~ 380,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 200000,
+    "max": 1000000,
+    "basis": "단품 바비큐 25만~38만동, 플래터 및 전골 45만~85만동, 고급 해산물 100만동선"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 베니스 05에 위치하여 키스브릿지와 야간 불꽃놀이를 정면에서 관람할 수 있는 오션뷰 바비큐 식당. 50여 종의 바비큐/해산물 단품 및 플래터 가격대를 확인하여 C등급으로 기록함."
+}

@@ -1,0 +1,64 @@
+{
+  "name_google": "Nhà hàng hải sản Thuận Kiều 2 | Seafood & Grill | 해산물 그릴 전문점",
+  "name_display": "투안 끼에우 2 해산물 그릴 전문점 (Nhà hàng hải sản Thuận Kiều 2)",
+  "place_id": "ChIJqWMc3JqXpzER9imqzVVuH00",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_website",
+      "url": "https://nhahanghaisanpq.com/",
+      "accessed": "2026-10-25",
+      "note": "투안 끼에우 해산물 공식 웹사이트 (함닌 본점 및 안터이 대대로 2호점)"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://vnguide.vn/nha-hang-thuan-kieu-phu-quoc",
+      "accessed": "2026-10-25",
+      "note": "투안 끼에우 실측 다이닝 가격대 (해산물 단품 8만~25만동, 전골 30만~60만동)"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Ghẹ Hàm Ninh hấp bia / luộc (Ham Ninh Flower Crab)",
+      "name_ko": "푸꾸옥 함닌 자연산 꽃게 찜 (맥주 찜)",
+      "price_approx": "kg당 당일 싯가 (Market Price by kg)"
+    },
+    {
+      "name_original": "Mực trứng hấp gừng / chiên nước mắm",
+      "name_ko": "알배기 오징어 생강 찜 / 피시소스 튀김",
+      "price_approx": "150,000 ~ 250,000 VND"
+    },
+    {
+      "name_original": "Ngao / Sò điệp nướng mỡ hành (Grilled Clams with Scallion)",
+      "name_ko": "가리비 및 조개 파기름 땅콩 숯불구이",
+      "price_approx": "80,000 ~ 150,000 VND"
+    },
+    {
+      "name_original": "Lẩu hải sản chua cay Thuận Kiều (Seafood Hotpot)",
+      "name_ko": "투안 끼에우 특제 해산물 매콤새콤 핫팟 전골",
+      "price_approx": "300,000 ~ 600,000 VND"
+    },
+    {
+      "name_original": "Tôm hùm bông nướng phô mai (Grilled Lobster with Cheese)",
+      "name_ko": "자연산 닭새우 랍스터 모차렐라 치즈 구이",
+      "price_approx": "kg당 당일 싯가 (Market Price)"
+    }
+  ],
+  "price_range": {
+    "min": 80000,
+    "max": 600000,
+    "basis": "조개/소접시 8만~15만동, 오징어/요리 15만~25만동, 해산물 전골 30만~60만동, 활어 싯가"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "함닌 어촌마을의 전통 해산물 명가 투안 끼에우의 안터이/선셋타운 인근 2호점으로 원물 그대로의 자연스러운 해산물 찜과 숯불구이로 명성이 높음. 검증된 대표 요리 가격대를 반영하여 C등급으로 기록함."
+}

@@ -1,0 +1,27 @@
+{
+  "name_google": "Cơm Mẹ",
+  "name_display": "껌 메 (Cơm Mẹ - 엄마의 밥상 베트남 가정식)",
+  "place_id": "ChIJIb8W0jqVpzERKa5wk0xTu3k",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "D",
+  "status": "not_found",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJIb8W0jqVpzERKa5wk0xTu3k",
+      "accessed": "2026-10-25",
+      "note": "Cơm Mẹ 구글맵 등록 링크 (엄마의 밥상 베트남 가정식)"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "구글맵에는 베트남 가정식(Cơm Mẹ)으로 등록되어 있으나 공식 홈페이지, SNS 채널 및 온라인 메뉴판/가격 정보가 전혀 확인되지 않는 소규모 로컬 매장임. 작업지시문 기준에 따라 D등급으로 편제함."
+}

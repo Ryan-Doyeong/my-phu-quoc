@@ -1,0 +1,41 @@
+{
+  "name_google": "Cơm Gia Đình Việt - Tây Hồ Restaurant",
+  "name_display": "Cơm Gia Đình Việt - Tây Hồ Restaurant",
+  "place_id": "ChIJsx0UrT6LpzERcrAcAZp0Ea4",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJsx0UrT6LpzERcrAcAZp0Ea4",
+      "accessed": "2026-10-25"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Cơm gia đình Hà Nội (Hanoi Family Set)",
+      "name_ko": "하노이식 가정식 백반 세트",
+      "price_approx": "80,000 ~ 140,000 VND / 1인"
+    },
+    {
+      "name_original": "Thịt kho tàu & Canh chua",
+      "name_ko": "돼지고기 장조림 및 새콤한 생선국",
+      "price_approx": "70,000 ~ 120,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 70000,
+    "max": 180000,
+    "basis": "베트남 가정식 백반 단품 및 세트 7만~18만동"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 인근 하노이 서호(Tây Hồ) 스타일의 전통 베트남 가정식 백반 식당. 로컬 식사 가격대를 확인하여 C등급으로 기록함."
+}

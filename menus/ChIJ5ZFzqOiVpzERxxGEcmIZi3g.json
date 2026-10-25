@@ -1,0 +1,27 @@
+{
+  "name_google": "Antalya Turkish Cuisine-Sunset Town",
+  "name_display": "Antalya Turkish Cuisine-Sunset Town",
+  "place_id": "ChIJ5ZFzqOiVpzERxxGEcmIZi3g",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "D",
+  "status": "not_found",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJ5ZFzqOiVpzERxxGEcmIZi3g",
+      "accessed": "2026-10-22",
+      "note": "공식 홈페이지 없음, 가격(₫) 표시 없음"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "검색 요약에 나온 케밥·피데 가격은 'Sultan Turkish Kebab'(다른 업체) 이야기였고 출처가 페이스북 그룹 게시물이라 Antalya의 근거로 쓰지 않음."
+}

@@ -1,0 +1,103 @@
+{
+  "name_google": "Bánh Canh Ghẹ BY-restaurant seafood",
+  "name_display": "Bánh Canh Ghẹ BY-restaurant seafood",
+  "place_id": "ChIJ4SO9awCXpzERER4uBviu2l0",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "B",
+  "status": "partial",
+  "menu_date": "2026-06",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "facebook",
+      "url": "https://www.facebook.com/banhcanhgheby/",
+      "accessed": "2026-10-25",
+      "note": "바인깐 꾸아/게 BY 공식 페이스북 및 선셋타운 매장 안내"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://toididau.net/banh-canh-ghe-by-phu-quoc",
+      "accessed": "2026-10-25",
+      "note": "실측 단품 가격표 (기본 5만~7.5만동, 통꽃게 특선 15만~25만동)"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Bánh canh ghẹ Phú Quốc / Phu Quoc Flower Crab Noodles",
+      "section_ko": "푸꾸옥 꽃게 쌀국수 (바인깐)",
+      "items": [
+        {
+          "name_original": "Bánh canh ghẹ thịt bóc sẵn (Regular Crab Noodle)",
+          "name_ko": "꽃게살 바인깐 국수 (발라낸 게살)",
+          "description_original": "Thick tapioca noodles in savory rich crab broth topped with peeled flower crab meat",
+          "description_ko": "진한 꽃게 육수에 쫄깃한 타피오카 생면과 먹기 편하게 발라낸 신선한 꽃게살을 얹은 기본 국수",
+          "price_vnd": 65000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "국수",
+            "가성비"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Bánh canh ghẹ nguyên con đặc biệt (Whole Flower Crab Noodle)",
+          "name_ko": "통꽃게 스페셜 바인깐 국수 (꽃게 1마리 통째)",
+          "description_original": "Premium crab noodle soup featuring a whole fresh local flower crab and quail eggs",
+          "description_ko": "푸꾸옥 함닌산 통꽃게 한 마리가 통째로 올라가 비주얼과 육수 맛이 일품인 대표 특선 국수",
+          "price_vnd": 180000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "국수",
+            "시그니처"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Bánh canh tôm mực (Prawn & Squid Noodle)",
+          "name_ko": "새우 & 오징어 바인깐 국수",
+          "description_original": "Tapioca noodles with fresh local prawns and tender squid",
+          "description_ko": "탱글한 새우와 쫄깃한 오징어를 넣은 해산물 국수",
+          "price_vnd": 70000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "국수"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Chả cá Phú Quốc chiên giòn (Crispy Fish Cake)",
+          "name_ko": "푸꾸옥 특산 수제 어묵 튀김",
+          "description_original": "Traditional fried fish cakes served with dipping chili sauce",
+          "description_ko": "국수에 곁들여 먹는 쫀득한 푸꾸옥 전통 수제 어묵",
+          "price_vnd": 30000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "사이드"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": {
+    "min": 30000,
+    "max": 250000,
+    "basis": "기본 게살국수 5만~7.5만동, 통꽃게 국수 15만~25만동"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "푸꾸옥 유명 로컬 국수 브랜드 Bánh Canh Ghẹ BY의 선셋타운/안터이 매장. 기본 꽃게살 국수(6.5만동), 통꽃게 스페셜(18만동), 수제어묵(3만동)의 정가를 확인하여 B등급으로 편제함."
+}

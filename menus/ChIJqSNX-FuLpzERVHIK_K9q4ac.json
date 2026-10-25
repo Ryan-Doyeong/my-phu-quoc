@@ -1,0 +1,153 @@
+{
+  "name_google": "Yushima Japanese Restaurant",
+  "name_display": "Yushima Japanese Restaurant",
+  "place_id": "ChIJqSNX-FuLpzERVHIK_K9q4ac",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "B",
+  "status": "partial",
+  "menu_date": "2026-08",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "third_party",
+      "url": "https://zodmenu.com/yushima-phu-quoc",
+      "accessed": "2026-10-25",
+      "note": "선셋타운 프리마베라 FB3-04B 유시마 일식당 온라인 메뉴판"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://tripcoupon.com/yushima-sunset-town",
+      "accessed": "2026-10-25",
+      "note": "생선 숯불구이(18만~35만동), 석화(24만동), 단품 일식 정가 내역"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Robatayaki & Grilled Fish / 참숯 생선구이",
+      "section_ko": "참숯 생선구이 (로바타야키)",
+      "items": [
+        {
+          "name_original": "Cá thu Nhật nướng muối / sốt Teriyaki (Grilled Saba Mackerel)",
+          "name_ko": "고등어 소금구이 / 데리야키 구이",
+          "description_original": "Japanese saba mackerel grilled with sea salt or teriyaki glaze",
+          "description_ko": "바삭하고 촉촉하게 구워낸 일본산 고등어 참숯 구이",
+          "price_vnd": 280000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "구이",
+            "생선"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Cá trích nướng Shishamo (Grilled Shishamo)",
+          "name_ko": "열빙어(시샤모) 숯불구이",
+          "description_original": "Grilled willow leaf fish with roe",
+          "description_ko": "알이 꽉 찬 고소한 시샤모 숯불구이",
+          "price_vnd": 200000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "구이"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Cá hồi nướng sốt Teriyaki (Grilled Salmon Teriyaki)",
+          "name_ko": "연어 데리야키 숯불구이",
+          "description_original": "Fresh Norwegian salmon fillet grilled with teriyaki sauce",
+          "description_ko": "달콤 짭조름한 특제 데리야키 소스를 바른 생연어 구이",
+          "price_vnd": 350000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "구이",
+            "인기"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Hàu sữa Nhật tươi sống (Fresh Japanese Oysters)",
+          "name_ko": "일본산 신선 생석화 (생굴 플레이트)",
+          "description_original": "Fresh imported Japanese oysters with ponzu and lemon",
+          "description_ko": "상큼한 폰즈 소스와 레몬을 곁들인 신선한 생굴",
+          "price_vnd": 240000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "해산물",
+            "생굴"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Sushi, Sashimi & Ramen / 스시, 사시미 & 식사",
+      "section_ko": "스시, 사시미 & 라멘",
+      "items": [
+        {
+          "name_original": "Mì Ramen hải sản Yushima (Seafood Ramen)",
+          "name_ko": "유시마 특제 해산물 라멘",
+          "description_original": "Japanese ramen in rich pork and seafood broth with squid and prawns",
+          "description_ko": "진한 돈코츠 해물 육수에 오징어와 새우를 얹은 일본 라멘",
+          "price_vnd": 180000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "라멘"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Cơm lươn Nhật nướng sốt Kabayaki (Unagi Don)",
+          "name_ko": "일본산 민물장어 덮밥 (우나기동)",
+          "description_original": "Grilled Japanese freshwater eel with kabayaki glaze over rice",
+          "description_ko": "특제 양념을 발라 정성스레 구워낸 보양 장어 덮밥",
+          "price_vnd": 380000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "식사"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Thuyền Sashimi tổng hợp (Mixed Sashimi Boat)",
+          "name_ko": "모둠 사시미 셰어링 보트",
+          "description_original": "Chef's selection of fresh local and imported raw fish",
+          "description_ko": "신선한 참치, 연어, 흰살생선 모둠 사시미",
+          "price_vnd": null,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "어종 구성에 따른 당일 싯가",
+          "tags": [
+            "사시미",
+            "싯가"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": {
+    "min": 80000,
+    "max": 450000,
+    "basis": "단품 요리 8만~20만동, 생선구이 18만~35만동, 라멘/덮밥 18만~38만동, 사시미 싯가"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 프리마베라 FB3-04B에 위치한 정통 일식 레스토랑. 고등어구이(28만동), 시샤모(20만동), 연어구이(35만동), 생석화(24만동), 라멘(18만동) 등 7개 핵심 품목의 정가를 확인하여 B등급으로 편제함."
+}

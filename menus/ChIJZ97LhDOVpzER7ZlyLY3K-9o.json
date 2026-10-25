@@ -1,0 +1,64 @@
+{
+  "name_google": "껌자딘 越南家常菜",
+  "name_display": "껌자딘 선셋타운 (Cơm Gia Đình - 베트남 가정식)",
+  "place_id": "ChIJZ97LhDOVpzER7ZlyLY3K-9o",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJZ97LhDOVpzER7ZlyLY3K-9o",
+      "accessed": "2026-10-25",
+      "note": "선셋타운 껌자딘(Cơm Gia Đình - 越南家常菜) 구글맵 등록 정보"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://visitphuquoc.com.vn/com-gia-dinh-sunset-town",
+      "accessed": "2026-10-25",
+      "note": "선셋타운 베트남 가정식 백반 가격대 (1인 8만~18만동)"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Cơm phần gia đình (Family Rice Set)",
+      "name_ko": "베트남 가정식 백반 정식 (밥+메인요리+국+반찬)",
+      "price_approx": "80,000 ~ 120,000 VND / 1인"
+    },
+    {
+      "name_original": "Thịt heo kho tộ (Claypot Caramelized Pork)",
+      "name_ko": "뚝배기 돼지고기 장조림",
+      "price_approx": "70,000 ~ 110,000 VND"
+    },
+    {
+      "name_original": "Trứng chiên thịt bằm (Minced Pork Omelette)",
+      "name_ko": "다진 돼지고기를 넣은 베트남식 계란부침",
+      "price_approx": "50,000 ~ 75,000 VND"
+    },
+    {
+      "name_original": "Rau muống xào tỏi (Stir-fried Morning Glory)",
+      "name_ko": "마늘 모닝글로리(공심채) 볶음",
+      "price_approx": "40,000 ~ 60,000 VND"
+    },
+    {
+      "name_original": "Canh chua cá (Sour Fish Soup)",
+      "name_ko": "새콤하고 시원한 베트남식 생선탕",
+      "price_approx": "80,000 ~ 130,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 40000,
+    "max": 180000,
+    "basis": "반찬 단품 4만~11만동, 1인 백반 세트 8만~12만동, 생선탕 8만~13만동"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 내에 위치한 소박하고 정겨운 베트남 남부 가정식 백반 식당으로 현지식 돼지고기 조림, 계란부침, 모닝글로리 및 맑은 생선탕을 취급함. 저렴한 로컬 백반 가격대를 확인하여 C등급으로 기록함."
+}

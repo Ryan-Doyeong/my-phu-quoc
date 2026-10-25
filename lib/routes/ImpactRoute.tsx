@@ -80,7 +80,7 @@ export async function renderImpactRoute(topic: string | undefined, locale: Local
           <nav>
             <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
             <Link href={localePath(locale, '/news')}>{dict.nav.newsAndBlog}</Link>
-            <Link href={localePath(locale, '/news/events')}>{dict.nav.events}</Link>
+            <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
             <Link href={localePath(locale, '/impact')}>{dict.nav.impact}</Link>
             <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
           </nav>
@@ -198,7 +198,7 @@ export async function renderImpactRoute(topic: string | undefined, locale: Local
           <figure className="impactTipImage">
             <img
               src="/stock/ai/thao-dien-neighbors-dinner-v2.webp"
-              alt="Neighbors of all ages sharing a long dinner table on a leafy Thao Dien lane"
+              alt="Neighbors of all ages sharing a long dinner table on a leafy Phu Quoc lane"
               loading="lazy"
               decoding="async"
               width={1600}

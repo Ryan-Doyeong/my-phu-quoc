@@ -1,0 +1,59 @@
+{
+  "name_google": "Times Corner Luxe - Pizza, Pasta & Grill",
+  "name_display": "Times Corner Luxe - Pizza, Pasta & Grill",
+  "place_id": "ChIJp_0sEWaXpzER2D9WqJ-NxEI",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_website",
+      "url": "https://timescornerphuquoc.com/dining/luxe",
+      "accessed": "2026-10-25",
+      "note": "타임스 코너 푸꾸옥 럭스(Luxe) 공식 다이닝 페이지 (화덕피자, 파스타, 그릴)"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://phuquocmap.com/times-corner-phu-quoc",
+      "accessed": "2026-10-25",
+      "note": "타임스 코너 호텔 선셋타운 다이닝 가격대 및 인터내셔널 조식 뷔페 정보"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Neapolitan Artisan Pizza",
+      "name_ko": "나폴리탄 정통 화덕 피자",
+      "price_approx": "220,000 ~ 380,000 VND"
+    },
+    {
+      "name_original": "Handmade Gourmet Pasta",
+      "name_ko": "수제 생면 고메 파스타 (해산물, 크림, 토마토)",
+      "price_approx": "180,000 ~ 320,000 VND"
+    },
+    {
+      "name_original": "Charcoal Grilled Steaks & Seafood",
+      "name_ko": "참숯 그릴 비프 스테이크 및 해산물 플래터",
+      "price_approx": "450,000 ~ 890,000 VND"
+    },
+    {
+      "name_original": "International Breakfast Buffet",
+      "name_ko": "인터내셔널 조식 뷔페 (호텔 투숙객 및 방문객)",
+      "price_approx": "약 200,000 ~ 300,000 VND (단품 주문 시 70,000~90,000 VND)"
+    }
+  ],
+  "price_range": {
+    "min": 70000,
+    "max": 750000,
+    "basis": "조식 단품 7만~9만동, 파스타/피자 18만~38만동, 그릴 스테이크 45만동~"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "타임스 코너 호텔 선셋타운(50 Amalfi)의 고급 다이닝 라운지로 나폴리 화덕피자, 파스타 및 숯불 그릴 스테이크를 서비스함. 공식 웹사이트 다이닝 구성과 가격대를 확인하여 C등급으로 기록함."
+}

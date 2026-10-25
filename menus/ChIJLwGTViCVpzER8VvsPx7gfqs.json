@@ -1,0 +1,41 @@
+{
+  "name_google": "One Boat Restaurant & Bar",
+  "name_display": "One Boat Restaurant & Bar",
+  "place_id": "ChIJLwGTViCVpzER8VvsPx7gfqs",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "facebook",
+      "url": "https://www.facebook.com/oneboatphuquoc/",
+      "accessed": "2026-10-25"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Hải sản nướng muối ớt One Boat",
+      "name_ko": "원보트 특제 칠리소금 해산물 숯불구이",
+      "price_approx": "150,000 ~ 300,000 VND"
+    },
+    {
+      "name_original": "Combo Hải sản Cướp biển (Pirate Seafood Combo)",
+      "name_ko": "파이러츠 모둠 해산물 바비큐 콤보 (2~4인)",
+      "price_approx": "450,000 ~ 750,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 100000,
+    "max": 450000,
+    "basis": "단품 해산물 15만~30만동, 모둠 콤보 45만동~"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "해적선 테마의 오션뷰 레스토랑 겸 바. 키스브릿지 불꽃쇼 명당으로 해산물 바비큐 콤보를 판매함. C등급으로 기록함."
+}

@@ -1,0 +1,173 @@
+{
+  "name_google": "Sunset bunsik (선셋분식)",
+  "name_display": "선셋분식 (Sunset Bunsik)",
+  "place_id": "ChIJk-2CcACXpzERjAdWD6NvD-w",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "B",
+  "status": "partial",
+  "menu_date": "2026-05",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "third_party",
+      "url": "https://hyedd.co.kr/entry/%ED%91%B8%EA%BE%B8%EC%98%A5-%EC%84%A0%EC%85%8B%ED%83%80%EC%9A%B4-%ED%95%9C%EC%8B%9D-%EB%A7%9B%EC%A7%91-%EC%84%A0%EC%85%8B%EB%8F%99-%EC%84%A0%EC%85%8B%EB%B6%84%EC%8B%9D",
+      "accessed": "2026-10-25",
+      "note": "한국인 여행객 영수증 및 현장 메뉴판 인증 리뷰 (김밥 10만 동, 떡볶이 12만 동, 김치말이국수 16만 동 확인)"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://vietbenefit.com/",
+      "accessed": "2026-10-25",
+      "note": "선셋분식 제휴 할인 및 위치 안내 (시계탑 및 케이블카 인근 A56 Sunset Town)"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Kimbap / 김밥류",
+      "section_ko": "김밥류",
+      "items": [
+        {
+          "name_original": "Sunset Kimbap",
+          "name_ko": "선셋김밥 (기본 야채김밥)",
+          "description_original": "Basic Korean vegetable seaweed rice roll",
+          "description_ko": "참기름 향이 가득한 선셋분식의 시그니처 기본 김밥",
+          "price_vnd": 100000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "김밥",
+            "시그니처"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Tuna Kimbap",
+          "name_ko": "참치김밥",
+          "description_original": "Tuna and mayonnaise kimbap",
+          "description_ko": "고소한 참치마요가 듬뿍 들어간 김밥",
+          "price_vnd": 110000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "김밥"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Spicy Chili Kimbap",
+          "name_ko": "땡초김밥",
+          "description_original": "Spicy green chili kimbap",
+          "description_ko": "매콤한 땡초 고추가 들어가 깔끔하고 칼칼한 김밥",
+          "price_vnd": 110000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "김밥",
+            "매운맛"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Bunsik & Noodles / 분식 & 면류",
+      "section_ko": "분식 & 면류",
+      "items": [
+        {
+          "name_original": "Tteokbokki / Rabokki",
+          "name_ko": "떡볶이 / 라볶이",
+          "description_original": "Korean spicy rice cakes with ramen noodles",
+          "description_ko": "매콤달콤한 특제 고추장 소스 떡볶이",
+          "price_vnd": 120000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "떡볶이",
+            "인기"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Kimchi Cold Noodles",
+          "name_ko": "김치말이국수",
+          "description_original": "Chilled noodles with sliced kimchi broth",
+          "description_ko": "시원하고 살얼음 동동 띄운 매콤 새콤한 김치말이국수",
+          "price_vnd": 160000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "국수",
+            "추천"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Korean Ramen",
+          "name_ko": "신라면 / 해물라면",
+          "description_original": "Classic Korean spicy instant ramen",
+          "description_ko": "칼칼한 국물의 한국 즉석 라면",
+          "price_vnd": 90000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "라면"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Meal & Stew / 식사 & 찌개류",
+      "section_ko": "식사 & 찌개류",
+      "items": [
+        {
+          "name_original": "Spam Kimchi Cup Rice",
+          "name_ko": "스팸 김치 컵밥",
+          "description_original": "Spam and fried kimchi over rice bowl",
+          "description_ko": "구운 스팸과 볶음김치, 김가루를 얹은 컵밥",
+          "price_vnd": 120000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "밥류"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Kimchi Jjigae",
+          "name_ko": "김치찌개",
+          "description_original": "Spicy kimchi stew with pork",
+          "description_ko": "돼지고기와 묵은지를 푹 끓여낸 한식 김치찌개",
+          "price_vnd": 160000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "찌개"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": {
+    "min": 90000,
+    "max": 180000,
+    "basis": "한국 여행자 영수증 및 현장 메뉴판 실측 가격 기준"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 시계탑 인근 A56에 위치한 한국인 운영 분식점으로, 현장 메뉴판 및 방문 영수증으로 김밥(10만동), 떡볶이(12만동), 김치말이국수(16만동) 등 주요 8개 품목의 정확한 판매 가격을 검증하여 B등급으로 편제함."
+}

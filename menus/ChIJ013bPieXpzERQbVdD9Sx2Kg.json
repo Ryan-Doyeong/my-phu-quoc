@@ -1,0 +1,181 @@
+{
+  "name_google": "Caveman Smoked Ribs & Craft Beer",
+  "name_display": "케이브맨 스모크 립 & 크래프트 비어 (Caveman Smoked Ribs)",
+  "place_id": "ChIJ013bPieXpzERQbVdD9Sx2Kg",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "B",
+  "status": "partial",
+  "menu_date": "2026-07",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": "음식 부가세 8%, 주류 부가세 10% 별도 부과 가능.",
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_website",
+      "url": "https://www.lotushomephuquoc.com/caveman",
+      "accessed": "2026-10-25",
+      "note": "케이브맨 스모크 립 공식 웹사이트 (선셋타운 48 Positano)"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://eatit.vn/restaurants/caveman-phu-quoc",
+      "accessed": "2026-10-25",
+      "note": "온라인 딜리버리 및 레스토랑 메뉴판 실측 가격 (하프립 37.8만동, 버거 23.4만동)"
+    },
+    {
+      "id": "s3",
+      "type": "official_instagram",
+      "url": "https://www.instagram.com/cavemanphuquoc/",
+      "accessed": "2026-10-25",
+      "note": "수제 맥주 2시간 무제한 뷔페 299,000 VND 프로모션 공지"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Smoked BBQ Ribs & Steaks / 참나무 훈제 바비큐",
+      "section_ko": "참나무 훈제 바비큐",
+      "items": [
+        {
+          "name_original": "Slow Smoked Pork Ribs (Half Rack - 350g)",
+          "name_ko": "저온 훈제 스모크 바비큐 폭립 (하프 랙 350g)",
+          "description_original": "Slow-cooked smoked pork ribs coated with homemade BBQ glaze, served with fries",
+          "description_ko": "참나무 훈연실에서 8시간 이상 저온으로 훈제하여 뼈가 쏙 빠지는 부드러운 돼지 등갈비 바비큐와 감자튀김",
+          "price_vnd": 378000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "바비큐",
+            "시그니처"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Slow Smoked Pork Ribs (Full Rack - 700g)",
+          "name_ko": "저온 훈제 스모크 바비큐 폭립 (풀 랙 700g)",
+          "description_original": "Full rack slow-cooked pork ribs with signature BBQ sauce and coleslaw",
+          "description_ko": "2~3인이 푸짐하게 즐길 수 있는 대형 풀 랙 훈제 바비큐 폭립과 코울슬로",
+          "price_vnd": 690000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "바비큐",
+            "추천"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Caveman Giant Smoked Beef Rib",
+          "name_ko": "케이브맨 자이언트 스모크 비프 립 (소갈비 바비큐)",
+          "description_original": "Massive whole beef short rib smoked low and slow for 12 hours",
+          "description_ko": "두툼한 통 소갈비를 12시간 동안 정성껏 훈연해 입안에서 녹아내리는 육즙의 바비큐",
+          "price_vnd": 1120000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "프리미엄",
+            "소고기"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Burgers & Starters / 수제 버거 & 스타터",
+      "section_ko": "수제 버거 & 사이드 요리",
+      "items": [
+        {
+          "name_original": "Classic Angus Beef Burger",
+          "name_ko": "클래식 앵거스 비프 버거 (감자튀김 세트)",
+          "description_original": "100% Angus beef patty, cheddar, bacon, lettuce, tomato and crispy french fries",
+          "description_ko": "100% 앵거스 비프 수제 패티, 체다 치즈, 베이컨, 신선한 야채와 바삭한 감자튀김 세트",
+          "price_vnd": 234000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "버거",
+            "인기"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Crispy Calamari Rings",
+          "name_ko": "바삭한 오징어 튀김 (칼라마리 링)",
+          "description_original": "Deep-fried fresh squid rings with homemade tartar dipping sauce",
+          "description_ko": "신선한 오징어를 바삭하게 튀겨낸 수제 타르타르 소스 칼라마리",
+          "price_vnd": 185000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "스타터"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Crispy Mozzarella Sticks",
+          "name_ko": "모차렐라 치즈 스틱 & 어니언링",
+          "description_original": "Golden melted cheese sticks and beer-battered onion rings with marinara dip",
+          "description_ko": "맥주 반죽으로 바삭하게 튀긴 양파링과 늘어나는 치즈스틱",
+          "price_vnd": 125000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "스타터"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Craft Beer & Promotions / 수제 크래프트 맥주",
+      "section_ko": "크래프트 비어 & 무제한 프로모션",
+      "items": [
+        {
+          "name_original": "2-Hour Unlimited Craft Beer Package",
+          "name_ko": "2시간 수제 크래프트 맥주 무제한 패키지",
+          "description_original": "Unlimited draft pours of premium craft beers (iBiero Pilsner, IPA, Wheat) for 2 hours",
+          "description_ko": "2시간 동안 시원한 수제 생맥주(필스너, IPA, 바이젠)를 무제한으로 즐기는 파격 프로모션",
+          "price_vnd": 299000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "1인 기준 요금",
+          "tags": [
+            "맥주",
+            "프로모션"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Caveman Craft Beer by Glass (Pilsner / IPA / Stout)",
+          "name_ko": "케이브맨 수제 생맥주 (글라스)",
+          "description_original": "Fresh draft craft beer by glass",
+          "description_ko": "매장에서 갓 뽑아낸 신선한 수제 맥주 1잔",
+          "price_vnd": 85000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "맥주"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": {
+    "min": 85000,
+    "max": 1120000,
+    "basis": "수제버거 23.4만동, 바비큐 폭립 37.8만~69만동, 맥주 무제한 29.9만동"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 48 Positano에 위치한 정통 아메리칸 텍사스식 스모크 바비큐 전문점으로, 하프랙 폭립(37.8만동), 수제버거(23.4만동), 수제맥주 무제한(29.9만동) 등 주요 8개 품목의 정확한 실측 가격을 수집하여 B등급으로 편제함."
+}

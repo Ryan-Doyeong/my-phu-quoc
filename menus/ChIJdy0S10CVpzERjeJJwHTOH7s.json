@@ -1,0 +1,205 @@
+{
+  "name_google": "The Gangs Sunset",
+  "name_display": "더 갱스 선셋 (The Gangs Sunset - 해산물 & 크래프트 비어)",
+  "place_id": "ChIJdy0S10CVpzERjeJJwHTOH7s",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "B",
+  "status": "partial",
+  "menu_date": "2026-09",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_website",
+      "url": "https://thegangszone.com/",
+      "accessed": "2026-10-25",
+      "note": "The Gangs 공식 웹사이트 및 실시간 온라인 오더링 포털"
+    },
+    {
+      "id": "s2",
+      "type": "facebook",
+      "url": "https://www.facebook.com/TheGangsSunset/",
+      "accessed": "2026-10-25",
+      "note": "The Gangs Sunset Town 공식 페이스북 채널"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Hải sản tươi sống & Đĩa lớn / Fresh Seafood Platters",
+      "section_ko": "신선 해산물 & 셰어링 플래터",
+      "items": [
+        {
+          "name_original": "Ốc hương Pháp xào bơ tỏi / sốt trứng muối (100g)",
+          "name_ko": "프랑스산 바다골뱅이 (마늘버터 / 에그솔트 볶음 100g)",
+          "description_original": "French sweet sea snails stir-fried with garlic butter or salted egg (min 300g)",
+          "description_ko": "쫄깃한 고급 바다골뱅이 볶음 요리 (기본 300g 이상 주문)",
+          "price_vnd": 81000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "100g당 가격 (기본 300g 주문)",
+          "tags": [
+            "해산물"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Hàu Miyagi Nhật Bản (1 con)",
+          "name_ko": "일본 미야기현 직수입 프리미엄 생굴 (1미)",
+          "description_original": "Fresh imported Japanese Miyagi oysters with ponzu and tabasco",
+          "description_ko": "바다의 우유, 산뜻한 폰즈 소스를 곁들인 최고급 일본산 생굴",
+          "price_vnd": 81000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "1마리(피스) 기준",
+          "tags": [
+            "생굴"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Cá hồi Na Uy áp chảo sốt chanh leo",
+          "name_ko": "노르웨이산 연어 스테이크 패션프루트 소스",
+          "description_original": "Pan-seared Norwegian salmon with passion fruit sauce and asparagus",
+          "description_ko": "상큼한 패션프루트 소스를 얹은 노르웨이산 연어 구이",
+          "price_vnd": 265000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "생선요리"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Đĩa hải sản nướng tổng hợp The Gangs",
+          "name_ko": "더 갱스 시그니처 모둠 해산물 바비큐 플래터",
+          "description_original": "Mixed seafood platter with grilled tiger prawns, squid, scallops and clams",
+          "description_ko": "타이거새우, 오징어, 가리비, 조개를 참숯에 구워낸 푸짐한 해산물 플래터",
+          "price_vnd": 580000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "플래터",
+            "인기"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Bò & Món nướng than hoa / Beef & Grill",
+      "section_ko": "소고기 & 참숯 그릴 구이",
+      "items": [
+        {
+          "name_original": "Bò Mỹ tái chanh wasabi (Tataki)",
+          "name_ko": "미국산 소고기 타타키 (라임 와사비 소스)",
+          "description_original": "Seared US beef slices with fresh lime juice, herbs and wasabi",
+          "description_ko": "겉만 살짝 익혀 부드러운 육즙이 살아있는 미국산 소고기 타타키 요리",
+          "price_vnd": 135000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "소고기"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Combo thịt nướng The Gangs BBQ Platter",
+          "name_ko": "더 갱스 모둠 고기 바비큐 콤보",
+          "description_original": "Mixed meat combo featuring pork ribs, beef short rib, sausages and chicken",
+          "description_ko": "폭립, 소갈비, 수제 소시지, 닭구이가 모두 포함된 푸짐한 콤보 세트",
+          "price_vnd": 680000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "바비큐",
+            "세트"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Cơm & Mì ăn kèm / Rice & Noodles",
+      "section_ko": "식사류 (볶음밥 & 볶음면)",
+      "items": [
+        {
+          "name_original": "Cơm chiên hải sản sốt XO",
+          "name_ko": "XO 소스 해산물 볶음밥",
+          "description_original": "Fried rice with fresh seafood and gourmet XO sauce",
+          "description_ko": "해산물과 특제 XO 소스를 센 불에 고슬고슬하게 볶아낸 식사 요리",
+          "price_vnd": 156600,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "식사류"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Cơm chiên tỏi giòn",
+          "name_ko": "바삭한 마늘 볶음밥",
+          "description_original": "Fragrant fried rice tossed with crispy golden garlic chips",
+          "description_ko": "바삭한 황금 마늘칩을 듬뿍 올린 깔끔한 볶음밥",
+          "price_vnd": 81000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "식사류"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Bia thủ công & Đồ uống / Craft Beer Selection",
+      "section_ko": "더 갱스 수제 맥주 & 타워",
+      "items": [
+        {
+          "name_original": "The Gangs Craft Beer (Pint)",
+          "name_ko": "더 갱스 자체 양조 수제 생맥주 (1파인트)",
+          "description_original": "Signature fresh craft beer on tap",
+          "description_ko": "더 갱스 전용 하우스 크래프트 생맥주",
+          "price_vnd": 75000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "맥주"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Bia Tháp (Beer Tower 3L)",
+          "name_ko": "수제 생맥주 비어 타워 (3리터)",
+          "description_original": "3-liter self-pour beer tower ideal for groups",
+          "description_ko": "여럿이서 시원하게 따라 마시는 3L 대형 비어 타워",
+          "price_vnd": 420000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "맥주타워"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": {
+    "min": 75000,
+    "max": 680000,
+    "basis": "스낵 2.7만~8.1만동, 해산물/단품 13.5만~26.5만동, 대형 콤보 58만~68만동"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "호치민 유명 펍 브랜드 The Gangs의 선셋타운 매장으로 공식 오더링 시스템에서 바다골뱅이(100g 8.1만동), 미야기 생굴(8.1만동), 소고기 타타키(13.5만동), 모둠 바비큐(68만동), 수제맥주(7.5만동) 등 10개 핵심 품목의 정가를 검증하여 B등급으로 편제함."
+}

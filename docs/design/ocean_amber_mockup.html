@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<title>My Phu Quoc — Ocean + Amber Mockup</title>
+<style>
+:root{
+  /* Main brand: Ocean */
+  --ocean:#0B7A8A; --ocean-deep:#0A4F5C; --ocean-soft:#DDF0EF; --aqua:#3FB8C4;
+  --bg:#F3F8F7; --paper:#FCFEFD; --ink:#12333B; --muted:#5D7A80;
+  /* Theme: Amber gold (Sunset Town evenings) */
+  --amber:#C86D2D; --amber-soft:#FBEBDD;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1280px;background:var(--bg);color:var(--ink);font-family:-apple-system,"Apple SD Gothic Neo","Helvetica Neue",Arial,sans-serif}
+.tag{background:var(--ink);color:#fff;font-size:15px;padding:10px 40px}
+header{display:flex;align-items:center;justify-content:space-between;padding:22px 40px;background:var(--paper);border-bottom:1px solid rgba(0,0,0,.06)}
+.logo{font-family:Georgia,serif;font-size:28px;font-weight:700}
+.logo span{color:var(--ocean)}
+nav{display:flex;gap:26px;font-size:15px;color:var(--muted)}
+.lang{display:flex;gap:6px}
+.lang b{font-size:12px;padding:6px 9px;border-radius:999px;border:1px solid rgba(0,0,0,.12);color:var(--muted)}
+.lang b.on{background:var(--ocean);color:#fff;border-color:var(--ocean)}
+.hero{position:relative;height:420px;margin:28px 40px;border-radius:28px;overflow:hidden;
+  background:linear-gradient(180deg,#cfeef2 0%,#a6dfe6 34%,#5cc3cd 52%,#1f9aa8 70%,#0b6f80 100%)}
+.hz{position:absolute;left:0;right:0;top:51%;height:2px;background:rgba(255,255,255,.7)}
+.glint{position:absolute;left:55%;top:52%;width:320px;height:46%;background:repeating-linear-gradient(180deg,rgba(255,255,255,.55) 0 2px,transparent 2px 16px);opacity:.6}
+.island{position:absolute;right:120px;top:41%;width:260px;height:44px;background:#5f8f7d;border-radius:60% 60% 0 0;opacity:.75}
+.town{position:absolute;right:40px;top:calc(51% - 70px);display:flex;align-items:flex-end;gap:5px}
+.town i{display:block;border-radius:3px 3px 0 0}
+.copy{position:absolute;left:56px;top:56px;color:#fff;text-shadow:0 2px 16px rgba(5,60,70,.45)}
+.copy small{font-size:13px;letter-spacing:.22em;font-weight:700}
+.copy h1{font-family:Georgia,serif;font-size:64px;line-height:1.02;margin:14px 0}
+.copy p{font-size:19px;max-width:470px}
+.btns{display:flex;gap:12px;margin-top:24px}
+.btn{padding:14px 24px;border-radius:999px;font-weight:700;font-size:15px}
+.btn.p{background:var(--paper);color:var(--ocean)}
+.btn.s{background:var(--amber);color:#fff}
+.sec{padding:6px 40px 0}
+.eyebrow{font-size:12px;letter-spacing:.2em;color:var(--ocean);font-weight:700}
+h2{font-family:Georgia,serif;font-size:30px;margin:8px 0 4px}
+.legend{display:flex;gap:18px;font-size:13px;color:var(--muted);margin:6px 0 14px}
+.legend span::before{content:"";display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;vertical-align:-1px;background:var(--c)}
+.cats{display:grid;grid-template-columns:repeat(8,1fr);gap:12px}
+.cat{background:var(--paper);border-radius:20px;padding:16px 8px 14px;text-align:center;border:1px solid rgba(0,0,0,.05);border-top:4px solid var(--c)}
+.cat .ic{width:44px;height:44px;margin:0 auto 10px;border-radius:50%;background:var(--cs);color:var(--c);display:grid;place-items:center;font-size:20px}
+.cat b{display:block;font-size:13px;white-space:nowrap}
+.cat small{display:block;font-size:11px;color:var(--c);margin-top:3px;font-weight:700}
+.am{--c:var(--amber);--cs:var(--amber-soft)}
+.oc{--c:var(--ocean);--cs:var(--ocean-soft)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:20px}
+.card{background:var(--paper);border-radius:24px;overflow:hidden;border:1px solid rgba(0,0,0,.05)}
+.ph{height:140px}
+.ph.sun{background:linear-gradient(180deg,#f6c56b,#ef8f4a 45%,#c9583a 75%,#5a3a5e)}
+.ph.sea{background:linear-gradient(180deg,#bfe9ee,#4fbfca 50%,#0b6f80)}
+.ph.htl{background:linear-gradient(160deg,#f3e2c4,#e9a46a 60%,#c86d2d)}
+.cb{padding:14px 18px 18px}
+.badges{display:flex;gap:6px;margin-bottom:8px}
+.bd{font-size:11px;font-weight:700;padding:4px 9px;border-radius:999px}
+.bd.f{background:var(--c);color:#fff}.bd.l{background:var(--cs);color:var(--c)}
+.card h3{font-size:18px;margin-bottom:4px}.card p{font-size:13px;color:var(--muted)}
+.card .lk{display:block;margin-top:8px;font-weight:700;font-size:13px;color:var(--c)}
+.pal{display:flex;gap:14px;padding:24px 40px 34px}
+.sw{flex:1;border-radius:16px;overflow:hidden;background:var(--paper);border:1px solid rgba(0,0,0,.08)}
+.sw div{height:60px}.sw p{padding:9px 12px;font-size:12px;color:var(--muted)}.sw p b{display:block;font-size:14px;color:var(--ink)}
+</style></head>
+<body>
+<div class="tag">My Phu Quoc — 메인 오션 + 카테고리 테마 (오션 / 앰버 골드)</div>
+<header>
+  <div class="logo">My <span>Phu Quoc</span></div>
+  <nav><a>Explore</a><a>Dining</a><a>Sunset Spots</a><a>Activities</a><a>Guides</a></nav>
+  <div class="lang"><b class="on">EN</b><b>VI</b><b>HI</b><b>ZH</b><b>RU</b><b>KO</b><b>JA</b></div>
+</header>
+
+<div class="hero">
+  <div class="island"></div>
+  <div class="town">
+    <i style="width:30px;height:46px;background:#e9b98f"></i><i style="width:22px;height:64px;background:#d98f6a"></i>
+    <i style="width:38px;height:40px;background:#f1d2a8"></i><i style="width:24px;height:58px;background:#e7a07a"></i>
+    <i style="width:34px;height:50px;background:#f3c9a0"></i><i style="width:18px;height:70px;background:#d4876a"></i>
+    <i style="width:42px;height:36px;background:#eebf94"></i>
+  </div>
+  <div class="hz"></div><div class="glint"></div>
+  <div class="copy">
+    <small>SUNSET TOWN · KHEM BEACH · AN THOI</small>
+    <h1>My<br>Phu Quoc</h1>
+    <p>Turquoise water by day, golden sunsets by night — your local guide to southern Phu Quoc.</p>
+    <div class="btns"><span class="btn p">Explore</span><span class="btn s">Tonight's sunset spots</span></div>
+  </div>
+</div>
+
+<div class="sec">
+  <div class="eyebrow">DISCOVER</div>
+  <h2>What are you looking for?</h2>
+  <div class="legend"><span style="--c:var(--ocean)">Ocean — 낮 · 바다 · 액티비티 · 여행 편의</span><span style="--c:var(--amber)">Amber Gold — 저녁 · 선셋 · 식당 · 바 · 호텔</span></div>
+  <div class="cats">
+    <div class="cat am"><div class="ic">◉</div><b>Dining</b><small>AMBER</small></div>
+    <div class="cat am"><div class="ic">☀</div><b>Sunset Bars</b><small>AMBER</small></div>
+    <div class="cat am"><div class="ic">⌂</div><b>Hotels</b><small>AMBER</small></div>
+    <div class="cat am"><div class="ic">◇</div><b>Shopping</b><small>AMBER</small></div>
+    <div class="cat oc"><div class="ic">✦</div><b>Activities</b><small>OCEAN</small></div>
+    <div class="cat oc"><div class="ic">≈</div><b>Beaches</b><small>OCEAN</small></div>
+    <div class="cat oc"><div class="ic">❀</div><b>Spa</b><small>OCEAN</small></div>
+    <div class="cat oc"><div class="ic">✚</div><b>Essentials</b><small>OCEAN</small></div>
+  </div>
+
+  <div class="cards">
+    <div class="card am"><div class="ph sun"></div><div class="cb"><div class="badges"><span class="bd f">Recommended</span><span class="bd l">Sunset Bars</span></div><h3>Sample Rooftop Bar</h3><p>Sunset Town · Rooftop &amp; Cocktails</p><span class="lk">View details →</span></div></div>
+    <div class="card am"><div class="ph htl"></div><div class="cb"><div class="badges"><span class="bd f">New</span><span class="bd l">Hotels</span></div><h3>Sample Boutique Hotel</h3><p>Sunset Town · Sea view rooms</p><span class="lk">View details →</span></div></div>
+    <div class="card oc"><div class="ph sea"></div><div class="cb"><div class="badges"><span class="bd f">HOT</span><span class="bd l">Activities</span></div><h3>Sample Snorkeling Tour</h3><p>An Thoi Harbor · Island hopping</p><span class="lk">View details →</span></div></div>
+  </div>
+</div>
+
+<div class="pal">
+  <div class="sw"><div style="background:var(--ocean)"></div><p><b>#0B7A8A</b>Ocean · 메인 포인트</p></div>
+  <div class="sw"><div style="background:var(--ocean-deep)"></div><p><b>#0A4F5C</b>Deep Ocean · 진한 글자/푸터</p></div>
+  <div class="sw"><div style="background:var(--ocean-soft)"></div><p><b>#DDF0EF</b>Ocean Soft · 칩 배경</p></div>
+  <div class="sw"><div style="background:var(--amber)"></div><p><b>#C86D2D</b>Amber Gold · 선셋 테마</p></div>
+  <div class="sw"><div style="background:var(--amber-soft)"></div><p><b>#FBEBDD</b>Amber Soft · 칩 배경</p></div>
+  <div class="sw"><div style="background:var(--bg)"></div><p><b>#F3F8F7</b>전체 배경</p></div>
+</div>
+</body></html>

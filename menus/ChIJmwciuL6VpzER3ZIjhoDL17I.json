@@ -1,0 +1,35 @@
+{
+  "name_google": "라군 식당",
+  "name_display": "라군 식당",
+  "place_id": "ChIJmwciuL6VpzER3ZIjhoDL17I",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJmwciuL6VpzER3ZIjhoDL17I",
+      "accessed": "2026-10-25"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [],
+  "price_range": {
+    "min": 200000,
+    "max": 1000000,
+    "basis": "LAGOON BBQ 동일 매장 요금 기준"
+  },
+  "conflicts": [
+    {
+      "field": "duplicate",
+      "issue": "동일 위치의 LAGOON BBQ & VIETNAMESE CUISINE(ChIJexQHMSaVpzERSr6zIxWjYDs)의 중복 한글 표기 등록 지점임."
+    }
+  ],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 베니스 05에 위치한 라군 비비큐의 중복 등록 장소. C등급으로 연계 기록함."
+}

@@ -1,7 +1,13 @@
 import type { NextRequest } from 'next/server'
 import { NextResponse } from 'next/server'
 import { updateSession } from '@/lib/supabase/proxy'
-import { LOCALE_COOKIE_NAME, localePath, stripLocalePrefix, type Locale } from '@/lib/i18n/config'
+import {
+  LOCALE_COOKIE_NAME,
+  isPrefixedLocale,
+  isValidLocale,
+  localePath,
+  stripLocalePrefix,
+} from '@/lib/i18n/config'
 
 const AUTH_PREFIXES = [
   '/admin',
@@ -29,14 +35,7 @@ export async function proxy(request: NextRequest) {
 
   const { pathname, searchParams } = request.nextUrl
 
-  // 1) Legacy Korean business intake draft URL -> /ko/for-businesses (301)
-  if (pathname === '/kr/join' || pathname === '/kr/join/') {
-    const url = request.nextUrl.clone()
-    url.pathname = '/ko/for-businesses'
-    return NextResponse.redirect(url, 301)
-  }
-
-  // 2) Unnecessary /en prefix -> unprefixed English path (301)
+  // 1) Unnecessary /en prefix -> unprefixed English path (301)
   if (pathname === '/en' || pathname.startsWith('/en/')) {
     const barePath = pathname === '/en' ? '/' : pathname.slice(3) || '/'
     const url = request.nextUrl.clone()
@@ -44,30 +43,39 @@ export async function proxy(request: NextRequest) {
     if (url.searchParams.has('lang')) {
       const qLang = url.searchParams.get('lang')?.toLowerCase()
       url.searchParams.delete('lang')
-      if (qLang === 'vi' || qLang === 'ko') {
-        url.pathname = localePath(qLang as Locale, barePath)
+      if (isPrefixedLocale(qLang)) {
+        url.pathname = localePath(qLang, barePath)
       }
     }
     return NextResponse.redirect(url, 301)
   }
 
-  // 3) Legacy ?lang=vi|ko|en query parameter -> 301 redirect to path-based locale URL
+  // 2) Old Phu Quoc-style events URL (/news/events) -> standalone /events board (301)
+  {
+    const { locale: evLocale, barePath: evPath } = stripLocalePrefix(pathname)
+    if (evPath === '/news/events' || evPath === '/news/events/') {
+      const url = request.nextUrl.clone()
+      url.pathname = localePath(evLocale, '/events')
+      return NextResponse.redirect(url, 301)
+    }
+  }
+
+  // 3) ?lang=<locale> query parameter -> 301 redirect to path-based locale URL
   const langParam = searchParams.get('lang')?.toLowerCase()
-  if (langParam === 'vi' || langParam === 'ko' || langParam === 'en') {
+  if (isValidLocale(langParam)) {
     const { barePath } = stripLocalePrefix(pathname)
-    const targetLocale: Locale = langParam === 'vi' ? 'vi' : langParam === 'ko' ? 'ko' : 'en'
     const url = request.nextUrl.clone()
-    url.pathname = localePath(targetLocale, barePath)
+    url.pathname = localePath(langParam, barePath)
     url.searchParams.delete('lang')
     return NextResponse.redirect(url, 301)
   }
 
-  // 4) Root (/) visit by non-bot browser with saved gl_lang cookie (vi or ko) -> 307 temporary redirect
+  // 4) Root (/) visit by non-bot browser with saved language cookie -> 307 temporary redirect
   if (pathname === '/' && searchParams.toString() === '') {
     const ua = request.headers.get('user-agent') || ''
     if (!BOT_UA_REGEX.test(ua)) {
       const cookieLang = request.cookies.get(LOCALE_COOKIE_NAME)?.value?.toLowerCase()
-      if (cookieLang === 'vi' || cookieLang === 'ko') {
+      if (isPrefixedLocale(cookieLang)) {
         const url = request.nextUrl.clone()
         url.pathname = `/${cookieLang}`
         return NextResponse.redirect(url, 307)

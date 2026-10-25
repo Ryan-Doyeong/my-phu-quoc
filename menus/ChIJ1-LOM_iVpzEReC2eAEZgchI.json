@@ -1,0 +1,166 @@
+{
+  "name_google": "Kungfu Noodle Phú Quốc",
+  "name_display": "쿵푸 누들 푸꾸옥 (Kungfu Noodle Phú Quốc - 수타면 & 딤섬)",
+  "place_id": "ChIJ1-LOM_iVpzEReC2eAEZgchI",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "B",
+  "status": "partial",
+  "menu_date": "2026-06",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_website",
+      "url": "https://kungfupq.my.canva.site/kungfunoodle",
+      "accessed": "2026-10-25",
+      "note": "쿵푸 누들 푸꾸옥 공식 온라인 사이트 (선셋타운 VUI-Fest Bazaar 야시장)"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://tripcoupon.com/kungfu-noodle-sunset-town",
+      "accessed": "2026-10-25",
+      "note": "쿵푸 누들 정규 수타면 단품 가격표 (치킨면 5만동, 차슈면 5.5만동, 해산물 10만동, 음료 2만~3.5만동)"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Mì kéo thủ công Kungfu / Hand-pulled Chinese Noodles",
+      "section_ko": "라이브 수타면 요리",
+      "items": [
+        {
+          "name_original": "Mì gà Kungfu (Chicken Hand-pulled Noodle)",
+          "name_ko": "쿵푸 닭고기 수타면 (담백한 육수)",
+          "description_original": "Freshly hand-pulled noodles topped with tender braised chicken in savory clear broth",
+          "description_ko": "주문 즉시 면을 쳐서 뽑아내는 쫄깃한 수타면에 부드러운 닭고기를 얹은 기본 탕면",
+          "price_vnd": 50000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "수타면",
+            "가성비"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Mì xá xíu Kungfu (Charsiu BBQ Pork Noodle)",
+          "name_ko": "쿵푸 정통 차슈 수타면",
+          "description_original": "Fresh hand-pulled noodles with savory sweet Cantonese roast charsiu pork",
+          "description_ko": "달콤짭조름하게 구워낸 홍콩식 차슈 바비큐 돼지고기를 듬뿍 올린 수타면",
+          "price_vnd": 55000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "수타면",
+            "인기"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Mì tôm tươi (Fresh Shrimp Noodle)",
+          "name_ko": "생새우 수타면",
+          "description_original": "Handmade noodles served with fresh local tiger prawns and green bok choy",
+          "description_ko": "탱글탱글한 푸꾸옥 생새우와 청경채를 곁들인 시원한 국물의 수타면",
+          "price_vnd": 65000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "수타면"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Mì hải sản đặc biệt (Special Seafood Noodle)",
+          "name_ko": "쿵푸 스페셜 모둠 해산물 수타면",
+          "description_original": "Signature bowl packed with fresh squid, prawns, meatballs and vegetables",
+          "description_ko": "통오징어, 새우, 완자, 야채가 푸짐하게 들어간 쿵푸 누들의 프리미엄 시그니처 탕면",
+          "price_vnd": 100000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "수타면",
+            "시그니처"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Đĩa xá xíu truyền thống (Charsiu Plate for Sharing)",
+          "name_ko": "광동식 정통 꿀 차슈 바비큐 한 접시",
+          "description_original": "Generous sharing portion of sweet honey-glazed roast pork",
+          "description_ko": "사이드로 곁들여 먹는 부드럽고 달콤한 차슈 바비큐 단품 요리",
+          "price_vnd": 150000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "사이드"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Đồ uống giải khát / Refreshing Drinks",
+      "section_ko": "음료 & 과일 스무디",
+      "items": [
+        {
+          "name_original": "Cà phê đen truyền thống (Traditional Black Coffee)",
+          "name_ko": "베트남 전통 블랙 커피",
+          "description_original": "Iced black coffee",
+          "description_ko": "시원하고 진한 베트남식 아이스 커피",
+          "price_vnd": 20000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "음료"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Nước ép dừa / cam / xoài (Fresh Fruit Juice)",
+          "name_ko": "생과일 착즙 주스 (통코코넛 / 오렌지 / 망고 / 수박)",
+          "description_original": "Fresh coconut or tropical juices",
+          "description_ko": "열대 과일 착즙 주스",
+          "price_vnd": 30000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "주스"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Sinh tố xoài cốt dừa (Mango Coconut Smoothie)",
+          "name_ko": "망고 코코넛 스무디",
+          "description_original": "Rich mango and coconut ice blended smoothie",
+          "description_ko": "생망고와 코코넛 밀크를 갈아 넣은 스무디",
+          "price_vnd": 35000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "스무디"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": {
+    "min": 20000,
+    "max": 150000,
+    "basis": "수타면 5만~10만동, 차슈 단품 15만동, 커피/주스 2만~3.5만동"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "부이페스트 야시장 중앙에 위치한 라이브 수타면 전문점으로 즉석에서 면을 늘려 탕면과 비빔면을 조리함. 공식 사이트 및 현장 단품 정가(치킨면 5만, 차슈면 5.5만, 해산물 10만동 등)를 완벽히 확인하여 B등급으로 편제함."
+}

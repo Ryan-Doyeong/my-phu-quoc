@@ -1,0 +1,41 @@
+{
+  "name_google": "Đảo Vị VuiFest Bazaar",
+  "name_display": "Đảo Vị VuiFest Bazaar",
+  "place_id": "ChIJM0_7pzqVpzERSaJMCKvjEZU",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJM0_7pzqVpzERSaJMCKvjEZU",
+      "accessed": "2026-10-25"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Xiên nướng hải sản chợ đêm",
+      "name_ko": "부이페스트 야시장 해산물 꼬치구이",
+      "price_approx": "30,000 ~ 60,000 VND / 꼬치"
+    },
+    {
+      "name_original": "Mực nướng muối ớt",
+      "name_ko": "칠리소금 오징어 숯불구이",
+      "price_approx": "80,000 ~ 150,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 30000,
+    "max": 150000,
+    "basis": "야시장 꼬치 및 해산물 소접시 3만~15만동"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "부이페스트 야시장 내 해산물 및 로컬 그릴 포차로 꼬치 및 오징어구이를 취급함. 야시장 표준 가격대를 확인하여 C등급으로 기록함."
+}

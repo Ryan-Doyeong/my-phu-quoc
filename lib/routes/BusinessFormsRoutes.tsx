@@ -36,16 +36,16 @@ export async function generatePartnersMetadata(locale: Locale = 'en'): Promise<M
   const alternates = buildAlternates(barePath)
   const title =
     locale === 'vi'
-      ? 'Đối tác Cộng đồng — Good Life in Thaodien'
+      ? 'Đối tác Cộng đồng — Good Life in Phu Quoc'
       : locale === 'ko'
-      ? '커뮤니티 파트너 — Good Life in Thaodien'
-      : 'Community Partners — Good Life in Thaodien'
+      ? '커뮤니티 파트너 — Good Life in Phu Quoc'
+      : 'Community Partners — Good Life in Phu Quoc'
   const description =
     locale === 'vi'
-      ? 'Đồng hành cùng Good Life in Thaodien với tư cách Đối tác Cộng đồng Sáng lập. Năm vị trí, ba tháng miễn phí — cùng nhau vì một Thảo Điền tươi đẹp.'
+      ? 'Đồng hành cùng Good Life in Phu Quoc với tư cách Đối tác Cộng đồng Sáng lập. Năm vị trí, ba tháng miễn phí — cùng nhau vì một Thảo Điền tươi đẹp.'
       : locale === 'ko'
-      ? 'Good Life in Thaodien의 창립 커뮤니티 파트너로 함께해 주세요. 5개 자리 한정, 첫 3개월 무료 — 함께 만들어가는 아름다운 타오디엔.'
-      : 'Join Good Life in Thaodien as a Founding Community Partner. Five places, three months free — for a beautiful Thao Dien, together.'
+      ? 'Good Life in Phu Quoc의 창립 커뮤니티 파트너로 함께해 주세요. 5개 자리 한정, 첫 3개월 무료 — 함께 만들어가는 아름다운 타오디엔.'
+      : 'Join Good Life in Phu Quoc as a Founding Community Partner. Five places, three months free — for a beautiful Phu Quoc, together.'
 
   return {
     title,

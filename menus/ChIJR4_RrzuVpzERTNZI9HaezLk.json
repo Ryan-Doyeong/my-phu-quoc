@@ -1,0 +1,34 @@
+{
+  "name_google": "Maharaja Lounge - 100% Pure Veg Authentic Indian Restaurant Sunset Town",
+  "name_display": "마하라자 라운지 선셋타운 (Maharaja Lounge - 인도 채식 레스토랑)",
+  "place_id": "ChIJR4_RrzuVpzERTNZI9HaezLk",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "D",
+  "status": "not_found",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_website",
+      "url": "https://maharajalounge.com/",
+      "accessed": "2026-10-22",
+      "note": "봇 차단(HTTP 406)으로 내용 확인 불가"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://www.happycow.net/reviews/maharaja-lounge-phu-quoc-334629",
+      "accessed": "2026-10-22",
+      "note": "열었으나 본문에서 가격을 추출하지 못함"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "검색 요약에는 '탈리·콤보 78,000~160,000 동, 단품 38,000~130,000 동'이라고 HappyCow를 인용했으나 원문에서 확인하지 못해 가격대로 올리지 않음(확인되지 않은 단서). 브라우저로 maharajalounge.com 메뉴 페이지를 직접 보면 A등급 가능성이 큼."
+}

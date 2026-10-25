@@ -1,0 +1,41 @@
+{
+  "name_google": "WOW QUÊ TÔI",
+  "name_display": "WOW QUÊ TÔI",
+  "place_id": "ChIJ_6I1rnKVpzERSyzp7e76ffQ",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "facebook",
+      "url": "http://facebook.com/wowquetoi.phuquoc",
+      "accessed": "2026-10-25"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Món ăn vặt đường phố Việt Nam",
+      "name_ko": "베트남 길거리 퓨전 스낵 모둠",
+      "price_approx": "50,000 ~ 90,000 VND"
+    },
+    {
+      "name_original": "Lẩu hải sản bình dân",
+      "name_ko": "가성비 해산물 핫팟 전골",
+      "price_approx": "250,000 ~ 380,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 50000,
+    "max": 380000,
+    "basis": "스낵 5만~9만동, 전골 25만~38만동"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "베트남 로컬 감성의 퓨전 주점 겸 스낵 바로 길거리 음식과 전골을 판매함. C등급으로 기록함."
+}

@@ -1,0 +1,59 @@
+{
+  "name_google": "NamBo Kitchen",
+  "name_display": "남보 키친 (NamBo Kitchen - Southern Vietnamese Cuisine)",
+  "place_id": "ChIJ22vgGjSVpzERYizOdzNYy64",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "facebook",
+      "url": "https://www.facebook.com/The.lords.of.everything/",
+      "accessed": "2026-10-25",
+      "note": "NamBo Kitchen 공식 페이스북 채널 (선셋타운 81 Positano)"
+    },
+    {
+      "id": "s2",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJ22vgGjSVpzERYizOdzNYy64",
+      "accessed": "2026-10-25",
+      "note": "구글맵 등록 정보 (남부 베트남 가정식 요리)"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Cá Kho Tộ (Clay Pot Braised Fish)",
+      "name_ko": "남부식 뚝배기 생선 조림 (생선 카라멜 간장 조림)",
+      "price_approx": "120,000 ~ 180,000 VND"
+    },
+    {
+      "name_original": "Canh Chua Cá (Southern Sour Fish Soup)",
+      "name_ko": "베트남 남부식 새콤한 생선 맑은 탕 (칸추아)",
+      "price_approx": "130,000 ~ 190,000 VND"
+    },
+    {
+      "name_original": "Cá Mú Hấp Xì Dầu (Steamed Grouper with Soy Sauce)",
+      "name_ko": "신선한 다금바리(그루퍼) 간장 찜",
+      "price_approx": "싯가 (Market Price)"
+    },
+    {
+      "name_original": "Mâm Cơm Nam Bộ (Southern Family Rice Set)",
+      "name_ko": "남보 가정식 백반 세트 (조림+국+모닝글로리+흰밥)",
+      "price_approx": "180,000 ~ 280,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 80000,
+    "max": 350000,
+    "basis": "베트남 남부 가정식 단품 8만~18만동, 가족 식사 세트 18만~35만동선"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 포지타노 계단 인근에 위치한 베트남 남부(메콩델타 스타일) 가정식 백반 식당으로 뚝배기 생선조림과 칸추아(생선신선탕)가 대표 메뉴임. 현지 가격대(1인 10만~25만동)를 검증하여 C등급으로 기록함."
+}

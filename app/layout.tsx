@@ -9,8 +9,8 @@ import { normalizeLocale } from '@/lib/i18n/config'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: 'Good life in Thaodien',
-  description: 'A local guide for better everyday living in Thao Dien.',
+  title: 'My Phu Quoc',
+  description: 'Your local guide to Sunset Town, Khem Beach and the south of Phu Quoc.',
 }
 
 export const viewport: Viewport = {
@@ -34,6 +34,12 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
       <head>
         <link rel="preconnect" href="https://images.unsplash.com" />
         <link rel="dns-prefetch" href="https://images.unsplash.com" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+SC:wght@400;700&family=Noto+Sans+JP:wght@400;700&family=Noto+Sans+KR:wght@400;700&display=swap"
+        />
       </head>
       <body>
         <AnalyticsTracker />

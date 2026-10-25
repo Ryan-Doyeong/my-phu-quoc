@@ -1,0 +1,46 @@
+{
+  "name_google": "Restaurant- Coffee Halal Sunset Town Phu Quoc",
+  "name_display": "Restaurant- Coffee Halal Sunset Town Phu Quoc",
+  "place_id": "ChIJMyo1GFCXpzERJi4JKDavOgQ",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_website",
+      "url": "http://www.champatravel.com/",
+      "accessed": "2026-10-25"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Halal Beef / Chicken Curry with Roti",
+      "name_ko": "할랄 소고기 / 치킨 커리와 로티 차파티",
+      "price_approx": "90,000 ~ 150,000 VND"
+    },
+    {
+      "name_original": "Halal Vietnamese Beef Pho",
+      "name_ko": "할랄 인증 소고기 쌀국수",
+      "price_approx": "75,000 ~ 95,000 VND"
+    },
+    {
+      "name_original": "Nasi Goreng Halal",
+      "name_ko": "할랄 나시고랭 해산물 볶음밥",
+      "price_approx": "80,000 ~ 120,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 50000,
+    "max": 150000,
+    "basis": "할랄 쌀국수 7.5만~9.5만동, 커리 및 볶음밥 8만~15만동"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 New Boulevard(AT80-82)에 입점한 무슬림 친화 할랄 식당 겸 카페로 말레이시아/인도풍 할랄 커리와 쌀국수를 취급함. C등급으로 기록함."
+}

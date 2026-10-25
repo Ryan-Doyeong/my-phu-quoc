@@ -1,0 +1,41 @@
+{
+  "name_google": "Phố Nướng / seafood & meat grill",
+  "name_display": "Phố Nướng / seafood & meat grill",
+  "place_id": "ChIJHWzLNQCXpzER8C174EPH8Fs",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJHWzLNQCXpzER8C174EPH8Fs",
+      "accessed": "2026-10-25"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Hải sản nướng than hoa",
+      "name_ko": "참숯 모둠 해산물 구이",
+      "price_approx": "120,000 ~ 250,000 VND"
+    },
+    {
+      "name_original": "Thịt xiên nướng sốt cay",
+      "name_ko": "매콤 소스 돼지고기 꼬치구이",
+      "price_approx": "40,000 ~ 70,000 VND / 꼬치"
+    }
+  ],
+  "price_range": {
+    "min": 40000,
+    "max": 250000,
+    "basis": "꼬치류 4만~7만동, 해산물 구이 12만~25만동"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 바비큐 거리(Phố Nướng) 내 노천 해산물 & 고기 참숯구이 전문점으로 C등급으로 기록함."
+}

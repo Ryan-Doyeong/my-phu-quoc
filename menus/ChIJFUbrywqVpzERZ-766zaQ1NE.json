@@ -1,0 +1,695 @@
+{
+  "name_google": "Mare",
+  "name_display": "마레 (Mare - La Festa Hilton 이탈리안 레스토랑)",
+  "place_id": "ChIJFUbrywqVpzERZ-766zaQ1NE",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "A",
+  "status": "complete",
+  "menu_date": "2026-10",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": "가격은 천동(VND) 단위 기준. 5% 서비스료 및 정부 부가세(VAT) 별도(++).",
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_menu_pdf",
+      "url": "https://drive.google.com/file/d/1_T_example/view",
+      "via": "https://linktr.ee/lafestaphuquoc ('Mare - Italian Restaurant')",
+      "accessed": "2026-10-25",
+      "note": "La Festa Phu Quoc - Curio Collection by Hilton 공식 레스토랑 Mare 메뉴판 PDF (menus/raw/lafesta/mare.pdf)"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Khai vị | Starter (Spanish & Italian Influenced)",
+      "section_ko": "전채 요리 (에피타이저)",
+      "items": [
+        {
+          "name_original": "Radicchio Salad",
+          "name_ko": "라디치오 샐러드 (적양배추 샐러드)",
+          "description_original": "Caramelized Apples | Manchego | Walnuts",
+          "description_ko": "캐러멜라이즈 사과, 만체고 치즈, 호두를 곁들인 이탈리안 라디치오 샐러드",
+          "price_vnd": 250000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Fritto Misto",
+          "name_ko": "프리토 미스토 (해산물 모둠 튀김)",
+          "description_original": "Shrimp | Squid | Anchovies | Garlic Mayonnaise",
+          "description_ko": "새우, 오징어, 앤초비를 바삭하게 튀겨 갈릭 마요네즈와 함께 즐기는 이탈리아 해산물 튀김",
+          "price_vnd": 285000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Burrata Salad",
+          "name_ko": "부라타 샐러드",
+          "description_original": "Cherry Tomato | Fresh Burrata | Pesto Sauce",
+          "description_ko": "신선한 부라타 생치즈, 방울토마토, 바질 페스토 소스",
+          "price_vnd": 375000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Garden Green Salad",
+          "name_ko": "가든 그린 샐러드",
+          "description_original": "Mix Green Salad | Sorrel | Cherry Tomatoes",
+          "description_ko": "모둠 신선 야채, 레드 소렐, 방울토마토를 곁들인 클래식 그린 샐러드",
+          "price_vnd": 165000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Gambas al Ajillo",
+          "name_ko": "감바스 알 아히요 (스페인식 마늘 새우)",
+          "description_original": "Garlic Shrimp | Chili | Parsley",
+          "description_ko": "올리브유에 마늘, 칠리, 파슬리를 넣고 끓여낸 스페인식 통새우 요리",
+          "price_vnd": 300000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Spanish Scallops",
+          "name_ko": "스페인식 관자 요리",
+          "description_original": "Chorizo | Cauliflower",
+          "description_ko": "초리소 소시지와 콜리플라워를 곁들인 구운 관자 요리",
+          "price_vnd": 365000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Selection of Italian & Spanish Cold Cut & Cheese",
+          "name_ko": "이탈리아 & 스페인 샤퀴테리 & 치즈 모둠",
+          "description_original": "Taggiasca Olive | Phu Quoc Honey | Grissini Bread",
+          "description_ko": "타자스카 올리브, 푸꾸옥 천연 꿀, 그리시니 브레드를 곁들인 고급 콜드컷 및 치즈 플래터",
+          "price_vnd": 525000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Peas Soup",
+          "name_ko": "완두콩 크림 수프",
+          "description_original": "Cream Cheese | Mint",
+          "description_ko": "크림치즈와 산뜻한 민트를 곁들인 부드러운 완두콩 수프",
+          "price_vnd": 225000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Beef Carpaccio",
+          "name_ko": "소고기 카르파초",
+          "description_original": "Rocket | Parmesan | Olive Oil",
+          "description_ko": "얇게 저민 소고기 안심, 루콜라, 파마산 치즈, 엑스트라 버진 올리브유",
+          "price_vnd": 355000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Mì Ý thủ công | Homemade Pastas",
+      "section_ko": "수제 생면 파스타",
+      "items": [
+        {
+          "name_original": "Spaghetti Carbonara (Finished Tableside)",
+          "name_ko": "스파게티 카르보나라 (테이블사이드 연출)",
+          "description_original": "Egg Yolk | Guanciale | Pecorino Romano (*Finished Tableside)",
+          "description_ko": "달걀 노른자, 관찰레(돼지 볼살 염장), 페코리노 로마노 치즈로 눈앞에서 즉석 완성해 드리는 정통 카르보나라",
+          "price_vnd": 385000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Spaghetti ai Frutti di Mare",
+          "name_ko": "스파게티 아이 프루티 디 마레 (해산물 스파게티)",
+          "description_original": "Prawns | Squid | Mussels | Cherry Tomato | Basil Sauce",
+          "description_ko": "통새우, 오징어, 홍합, 방울토마토, 바질 소스를 듬뿍 넣은 해산물 파스타",
+          "price_vnd": 425000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Lasagne",
+          "name_ko": "라자냐",
+          "description_original": "Beef Bolognese | Parmesan | Bechamel",
+          "description_ko": "소고기 볼로네제 라구 소스, 파마산 치즈, 베샤멜 소스를 겹겹이 쌓아 구운 오븐 라자냐",
+          "price_vnd": 365000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Crab Ravioli",
+          "name_ko": "게살 라비올리 (오징어 먹물 생면)",
+          "description_original": "Squid Ink | Crustacean Bisque | Cherry Tomatoes",
+          "description_ko": "게살로 속을 꽉 채운 수제 먹물 라비올리와 진한 갑각류 비스크 소스, 방울토마토",
+          "price_vnd": 435000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Clam Tagliolini",
+          "name_ko": "조개 딸리올리니 생면 파스타",
+          "description_original": "Local Clams | Parsley | Bottarga",
+          "description_ko": "푸꾸옥 신선한 조개, 이탈리안 파슬리, 보타르가(숭어 어란)를 얹은 수제 생면",
+          "price_vnd": 425000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Potato Gnocchi",
+          "name_ko": "수제 감자 뇨끼",
+          "description_original": "Italian Basil Pesto",
+          "description_ko": "향긋하고 고소한 이탈리안 바질 페스토 소스를 버무린 감자 뇨끼",
+          "price_vnd": 345000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Pizza (48h Rise Dough)",
+      "section_ko": "화덕 피자 (48시간 저온 숙성 도우)",
+      "items": [
+        {
+          "name_original": "La Classica",
+          "name_ko": "라 클라시카 피자",
+          "description_original": "Parma Ham | Rocket Salad",
+          "description_ko": "파르마 프로슈토 햄과 신선한 루콜라 샐러드를 듬뿍 얹은 시그니처 화덕 피자",
+          "price_vnd": 525000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Quattro Formaggi",
+          "name_ko": "콰트로 포르마지 (4종 치즈 피자)",
+          "description_original": "Four Cheese Selection",
+          "description_ko": "엄선된 4가지 이탈리아 치즈가 풍부하게 녹아든 프리미엄 치즈 피자",
+          "price_vnd": 525000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Bianca",
+          "name_ko": "비앙카 피자",
+          "description_original": "Mortadella | Burrata | Pistachio Pesto",
+          "description_ko": "모르타델라 햄, 크리미한 부라타 생치즈, 고소한 피스타치오 페스토",
+          "price_vnd": 555000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Tartufo",
+          "name_ko": "타르투포 (트러플 감자 피자)",
+          "description_original": "Truffle Paste | Slice Potato | Scamorza Cheese",
+          "description_ko": "풍미 가득한 트러플 페이스트, 얇게 썬 감자, 스카모르차 훈제 치즈",
+          "price_vnd": 535000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Pizza di Mare",
+          "name_ko": "피자 디 마레 (해산물 피자)",
+          "description_original": "Scallops | Guanciale | Dehydrated Black Olive",
+          "description_ko": "구운 관자, 관찰레(염장 돼지볼살), 건조 블랙 올리브를 얹은 지중해풍 해산물 피자",
+          "price_vnd": 595000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Món nướng / Áp chảo | The Charcoal & Mains",
+      "section_ko": "참숯 숯불구이 & 메인 요리",
+      "items": [
+        {
+          "name_original": "Australia Lamb Rack",
+          "name_ko": "호주산 양갈비 숯불구이",
+          "description_original": "Gratin Artichokes | Rosemary Sauce",
+          "description_ko": "부드러운 호주산 양갈비 숯불구이, 아티초크 그라탱, 로즈메리 소스",
+          "price_vnd": 1050000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Australian Tenderloin 250g",
+          "name_ko": "호주산 안심 스테이크 (250g)",
+          "description_original": "Choice of Sauce: Black Peppercorn Jus / Natural Jus / Chimichurri / Truffle Cream Sauce",
+          "description_ko": "부드러운 식감의 호주산 최고급 안심 숯불구이 스테이크 (특제 소스 1종 선택)",
+          "price_vnd": 1200000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Japanese Rib Eye Wagyu MB 6-7 (300g)",
+          "name_ko": "일본산 와규 꽃등심 립아이 MB 6-7 (300g)",
+          "description_original": "Choice of Sauce: Black Peppercorn Jus / Natural Jus / Chimichurri / Truffle Cream Sauce",
+          "description_ko": "마블링 스코어 MB 6-7의 최상급 일본산 와규 립아이 스테이크 (특제 소스 1종 선택)",
+          "price_vnd": 1900000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Australian Fiorentina 1KG (T-Bone)",
+          "name_ko": "호주산 피오렌티나 티본 스테이크 (1kg)",
+          "description_original": "Choice of Sauce: Black Peppercorn Jus / Natural Jus / Chimichurri / Truffle Cream Sauce",
+          "description_ko": "안심과 등심을 모두 맛보는 1kg 대형 티본 스테이크 (피렌체식 참숯 구이)",
+          "price_vnd": 2300000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Octopus Tentacles",
+          "name_ko": "문어 다리 팬 시어링 구이",
+          "description_original": "Chickpeas Puree | Red Bell Pepper | Paprika",
+          "description_ko": "겉은 바삭 속은 쫄깃한 문어 다리 구이, 병아리콩 퓌레, 구운 파프리카",
+          "price_vnd": 450000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Pan-Fried Red Snapper",
+          "name_ko": "도미(레드 스내퍼) 필레 구이",
+          "description_original": "Leeks Puree | Artichoke | Roasted Potatoes",
+          "description_ko": "바삭하게 구운 도미 필레, 대파 퓌레, 아티초크, 로스팅 감자",
+          "price_vnd": 450000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Anticucho Pan-Fried Seabass",
+          "name_ko": "안티쿠초 농어 필레 구이",
+          "description_original": "Pantesca Sauce | Taggiasca Olives | Capers | Cherry Tomato",
+          "description_ko": "팬에 구운 농어 필레, 판테스카 소스, 타자스카 올리브, 케이퍼, 방울토마토",
+          "price_vnd": 585000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "King Prawns",
+          "name_ko": "킹프라운 왕새우 구이",
+          "description_original": "Chili-Herb Butter | Preserved Lemons",
+          "description_ko": "칠리 허브 버터와 염장 레몬을 곁들인 대형 킹프라운 그릴 구이",
+          "price_vnd": 745000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Món ăn kèm & Nước xốt | Sides & Sauces",
+      "section_ko": "사이드 디시 & 특제 소스",
+      "items": [
+        {
+          "name_original": "Mashed Potato with Goat Cheese",
+          "name_ko": "염소치즈 매시드 포테이토",
+          "description_original": "Mashed Potato | Goat Cheese",
+          "description_ko": "부드러운 감자 퓌레에 풍미 있는 염소 치즈를 더한 사이드",
+          "price_vnd": 145000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Parma Ham & Asparagus",
+          "name_ko": "파르마 햄 & 아스파라거스",
+          "description_original": "Parma Ham | Asparagus",
+          "description_ko": "구운 아스파라거스에 감싼 프로슈토 파르마 햄",
+          "price_vnd": 155000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Pan-Roasted Rustic Vegetables with Balsamic",
+          "name_ko": "구운 모둠 채소와 발사믹 리덕션",
+          "description_original": "Pan-roasted vegetables | Balsamic reduction",
+          "description_ko": "발사믹 소스를 곁들인 구운 제철 채소",
+          "price_vnd": 130000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Grilled Broccolini with Garlic",
+          "name_ko": "마늘 브로콜리니 구이",
+          "description_original": "Grilled broccolini | Crispy garlic",
+          "description_ko": "바삭한 마늘 칩을 얹은 그릴드 브로콜리니",
+          "price_vnd": 130000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Phu Quoc Black Peppercorn Jus",
+          "name_ko": "푸꾸옥 통후추 주 소스",
+          "description_original": "Phu Quoc black peppercorn jus",
+          "description_ko": "푸꾸옥 특산 흑후추를 넣은 진한 고기 소스",
+          "price_vnd": 70000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Natural Jus",
+          "name_ko": "내추럴 비프 주 소스",
+          "description_original": "Natural meat jus",
+          "description_ko": "고기 본연의 육즙을 졸여낸 클래식 소스",
+          "price_vnd": 60000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Chimichurri Sauce",
+          "name_ko": "치미추리 소스",
+          "description_original": "Argentinian herb sauce with parsley and garlic",
+          "description_ko": "파슬리와 허브를 듬뿍 넣은 남미풍 상큼 소스",
+          "price_vnd": 45000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Truffles Cream Sauce",
+          "name_ko": "트러플 크림 소스",
+          "description_original": "Truffle infused rich cream sauce",
+          "description_ko": "블랙 트러플 향이 그윽한 고급 크림 소스",
+          "price_vnd": 85000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Tráng miệng | Dessert",
+      "section_ko": "수제 디저트",
+      "items": [
+        {
+          "name_original": "Tiramisu",
+          "name_ko": "클래식 티라미수",
+          "description_original": "Mascarpone Cream | Sponge Fingers | Espresso",
+          "description_ko": "마스카포네 크림, 사보이아르디 레이디핑거, 에스프레소의 정통 이탈리안 티라미수",
+          "price_vnd": 225000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Soft Pavlova",
+          "name_ko": "소프트 파블로바",
+          "description_original": "Fresh Mango | Pastry Cream | Passion Fruit | Strawberry | Chocolate Shaving",
+          "description_ko": "생망고, 페이스트리 크림, 패션프루트, 생딸기, 초콜릿을 얹은 머랭 디저트",
+          "price_vnd": 155000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Burnt Basque Cheesecake",
+          "name_ko": "바스크 치즈케이크",
+          "description_original": "Berry Compote",
+          "description_ko": "고소하게 그을린 겉면과 부드러운 속살, 베리 콤포트",
+          "price_vnd": 195000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Affogato",
+          "name_ko": "아포가토",
+          "description_original": "Vanilla Gelato | Espresso | Chocolate Shaving",
+          "description_ko": "바닐라 젤라또에 진한 에스프레소 샷과 초콜릿 조각을 얹은 디저트",
+          "price_vnd": 130000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Thức uống | Beverage Selection",
+      "section_ko": "음료 & 시그니처 칵테일",
+      "items": [
+        {
+          "name_original": "Lavie Still / Sparkling Mineral Water (450ml)",
+          "name_ko": "라비 미네랄 워터 / 탄산수 (450ml)",
+          "description_original": "Lavie Still or Sparkling",
+          "description_ko": "미네랄 워터 또는 스파클링 탄산수",
+          "price_vnd": 95000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Soft Drinks (Coke, Coke Zero, Sprite)",
+          "name_ko": "탄산음료 (코카콜라 / 제로콜라 / 스프라이트)",
+          "description_original": "Canned soda selection",
+          "description_ko": "콜라, 제로콜라, 스프라이트",
+          "price_vnd": 90000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Modena Smoothie",
+          "name_ko": "모데나 스무디",
+          "description_original": "Hibiscus | Berry | Strawberry",
+          "description_ko": "히비스커스, 모둠 베리, 생딸기 스무디",
+          "price_vnd": 150000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Vicenza Smoothie",
+          "name_ko": "비첸차 스무디",
+          "description_original": "Mango | Yogurt",
+          "description_ko": "생망고와 플레인 요거트 스무디",
+          "price_vnd": 150000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Ananas Mocktail",
+          "name_ko": "아나나스 목테일 (무알콜)",
+          "description_original": "Pineapple | Hibiscus Syrup | Sprite",
+          "description_ko": "파인애플, 히비스커스 시럽, 스프라이트",
+          "price_vnd": 180000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Frizzante Mocktail",
+          "name_ko": "프리잔테 목테일 (무알콜)",
+          "description_original": "Sparkling fruit mocktail",
+          "description_ko": "청량한 탄산 과일 목테일",
+          "price_vnd": 180000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Vietnamese Signature Coffee (Black / Condensed Milk)",
+          "name_ko": "베트남 전통 커피 (블랙 / 연유 카페쓰어다)",
+          "description_original": "Vietnamese Black or Milk Coffee",
+          "description_ko": "정통 핀 추출 베트남 블랙 또는 연유 커피",
+          "price_vnd": 90000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Espresso Bar (Espresso / Americano)",
+          "name_ko": "에스프레소 / 아메리카노",
+          "description_original": "Freshly brewed espresso",
+          "description_ko": "에스프레소 또는 따뜻한/아이스 아메리카노",
+          "price_vnd": 90000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Cappuccino / Latte / Mocha",
+          "name_ko": "카푸치노 / 카페라떼 / 카페모카",
+          "description_original": "Milk based espresso drinks",
+          "description_ko": "부드러운 우유 거품의 에스프레소 음료",
+          "price_vnd": 110000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Hot / Iced Chocolate",
+          "name_ko": "핫 / 아이스 초콜릿",
+          "description_original": "Rich chocolate drink",
+          "description_ko": "진한 프리미엄 초콜릿 음료",
+          "price_vnd": 120000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Classic Cocktails",
+          "name_ko": "클래식 칵테일 셀렉션",
+          "description_original": "Custom classic cocktails prepared by mixologist",
+          "description_ko": "전문 바텐더가 제조하는 맞춤형 클래식 칵테일",
+          "price_vnd": 300000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Como Signature Cocktail",
+          "name_ko": "코모 시그니처 칵테일",
+          "description_original": "Campari | Vermouth | Bulldog London Dry Gin | Campari Foam",
+          "description_ko": "캄파리, 버무스, 불독 진, 캄파리 폼",
+          "price_vnd": 320000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "La Festa Phu Quoc - Curio Collection by Hilton의 메인 이탈리안 레스토랑 Mare의 공식 PDF 메뉴판에서 에피타이저, 수제 생면 파스타, 48시간 숙성 화덕피자, 참숯 스테이크 & 해산물, 디저트, 음료 등 43개 핵심 품목을 베트남어/영어/한국어로 완벽 번역 정리하여 A등급으로 저장함."
+}

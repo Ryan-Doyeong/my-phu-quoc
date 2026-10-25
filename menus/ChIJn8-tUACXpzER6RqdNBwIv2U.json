@@ -1,0 +1,1764 @@
+{
+  "name_google": "Finca",
+  "name_display": "핀카 (Finca - La Festa Hilton 스페인 다이닝)",
+  "place_id": "ChIJn8-tUACXpzER6RqdNBwIv2U",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "A",
+  "status": "complete",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": "메뉴판 표기: 천 동 단위, 5% 서비스료와 세금 별도 (subject to 5% taxable service charge and prevailing tax). 단, 타파스 이브닝 패키지는 NET",
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_menu_pdf",
+      "url": "https://drive.google.com/file/d/1kf2k8jxDNNNBWjTUb3NbDuACZDf6JF8M/view",
+      "via": "https://linktr.ee/lafestaphuquoc ('Finca - Spanish Restaurant')",
+      "accessed": "2026-10-22"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Spanish Indulgence (07:00-16:00) - set",
+      "section_ko": "스페인식 브런치 세트 (07:00~16:00)",
+      "items": [
+        {
+          "name_original": "Spanish Indulgence Set",
+          "name_ko": "스페인식 브런치 세트",
+          "description_original": "Includes one egg dish, one plate of cut fruit, one cup of coffee/tea and one glass of juice. Egg dish choice: Eggs Benedict / Eggs Royale / Betanzos Style Tortilla / Avocado Toast",
+          "description_ko": "달걀 요리 1종 + 과일 1접시 + 커피/차 1잔 + 주스 1잔. 달걀 요리 선택: 에그 베네딕트 / 에그 로열(훈제연어) / 베탄소스식 토르티야(돼지 어깨살) / 아보카도 토스트",
+          "price_vnd": 285000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "++ (세금·서비스료 별도)",
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Lunch Menu (11:00-16:00)",
+      "section_ko": "점심 메뉴 (11:00~16:00)",
+      "items": [
+        {
+          "name_original": "Ensalada Mediterránea de la Costa",
+          "name_ko": "엔살라다 메디테라네아 (해안식 지중해 샐러드)",
+          "description_original": "Mixed greens, confit tuna, sun-dried tomatoes, toasted almonds, orange, olives, shaved fennel, sherry kumquat dressing",
+          "description_ko": "모둠 채소, 콩피 참치, 선드라이 토마토, 구운 아몬드, 오렌지, 올리브, 펜넬, 셰리 금귤 드레싱",
+          "price_vnd": 245000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Roast Chicken Croquettes",
+          "name_ko": "치킨 크로켓",
+          "description_original": "Topped with paprika aioli",
+          "description_ko": "파프리카 아이올리 소스",
+          "price_vnd": 155000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Spanish Avocado Toast",
+          "name_ko": "스페인식 아보카도 토스트",
+          "description_original": "Toasted sourdough baguette, avocado mousse, sliced avocado, tomato, poached eggs, cheese, jalapeno sauce",
+          "description_ko": "사워도우 바게트, 아보카도 무스, 아보카도, 토마토, 수란, 치즈, 할라피뇨 소스",
+          "price_vnd": 215000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Bocadillo Ibérico",
+          "name_ko": "보카디요 이베리코 (하몽 바게트 샌드위치)",
+          "description_original": "Toasted sourdough baguette, sun-dried tomato, Serrano ham, Manchego cheese, wild rocket",
+          "description_ko": "사워도우 바게트, 선드라이 토마토, 세라노 햄, 만체고 치즈, 루콜라",
+          "price_vnd": 275000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Crab Salad Brioche",
+          "name_ko": "게살 샐러드 브리오슈",
+          "description_original": "Toasted brioche, crab salad, salmon roe, herbs mayo, green mustard sauce",
+          "description_ko": "구운 브리오슈, 게살 샐러드, 연어알, 허브 마요, 그린 머스터드 소스",
+          "price_vnd": 295000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Spanish Burger",
+          "name_ko": "스페인식 버거",
+          "description_original": "Grilled beef patty, saffron aioli, cheese, roasted red peppers, pickled onions, a side of bravas",
+          "description_ko": "소고기 패티, 사프란 아이올리, 치즈, 구운 홍피망, 양파 피클, 파타타스 브라바스 곁들임",
+          "price_vnd": 275000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Caramelized Onion and Potato Tortilla",
+          "name_ko": "캐러멜라이즈 양파 감자 토르티야",
+          "description_original": "Confit potatoes, caramelized onions, pil pil sauce",
+          "description_ko": "콩피 감자, 캐러멜라이즈 양파, 필필 소스",
+          "price_vnd": 195000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Roasted Cauliflower with Romesco",
+          "name_ko": "로메스코 소스 구운 콜리플라워",
+          "description_original": "Roasted cauliflower, cauliflower purée, romesco sauce",
+          "description_ko": "구운 콜리플라워, 콜리플라워 퓌레, 로메스코(구운 고추·아몬드) 소스",
+          "price_vnd": 195000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Huevos Rotos with Chorizo",
+          "name_ko": "우에보스 로토스 (초리소 달걀 감자)",
+          "description_original": "Patatas bravas, poached eggs, crumbled chorizo",
+          "description_ko": "파타타스 브라바스, 수란, 초리소 부스러기",
+          "price_vnd": 275000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Tapas Evening (Fri-Sun 18:00-21:00)",
+      "section_ko": "타파스 이브닝 (금~일 18:00~21:00)",
+      "items": [
+        {
+          "name_original": "Tapas Evening Package (2 persons)",
+          "name_ko": "타파스 이브닝 패키지 (2인)",
+          "description_original": "Select any 4 dishes included in the package and enjoy two complimentary glasses of house wine. Amuse bouche: tortilla",
+          "description_ko": "아래 타파스 중 4가지 선택 + 하우스 와인 2잔 무료. 아뮤즈 부슈로 토르티야 제공",
+          "price_vnd": 1200000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "NET (세금·서비스료 포함), 2인 가격",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Roast Chicken Croquettes",
+          "name_ko": "치킨 크로켓",
+          "description_original": "Topped with paprika aioli",
+          "description_ko": "파프리카 아이올리 소스",
+          "price_vnd": 95000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "추가 주문가",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Local Oysters",
+          "name_ko": "푸꾸옥 굴 (3가지 스타일)",
+          "description_original": "Au nature, jalapeno emulsion, caviar",
+          "description_ko": "생굴(소금·레몬) / 할라피뇨 에멀전 / 캐비아",
+          "price_vnd": 165000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "추가 주문가",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Seabass Ceviche",
+          "name_ko": "농어 세비체",
+          "description_original": "Green mustard emulsion, scallion head pickles, sweet potato, crunchy chicken skin",
+          "description_ko": "그린 머스터드 에멀전, 쪽파 뿌리 피클, 고구마, 바삭한 닭껍질",
+          "price_vnd": 115000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "추가 주문가",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Charcuterie & Cheese Board",
+          "name_ko": "샤퀴테리 & 치즈 보드",
+          "description_original": "Served with pan con tomate",
+          "description_ko": "판 콘 토마테(토마토 빵) 곁들임",
+          "price_vnd": 165000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "추가 주문가",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Tiger Prawns Grilled with Vinaigrette",
+          "name_ko": "타이거새우 마늘 오일 구이",
+          "description_original": "Tiger prawns in aglio e olio sauce, toasted sourdough bread",
+          "description_ko": "알리오 올리오 소스 타이거새우, 구운 사워도우",
+          "price_vnd": 115000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "추가 주문가",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Galician Style Octopus with Chimichurri",
+          "name_ko": "갈리시아식 문어 구이",
+          "description_original": "Chorizo sauce, pok choi, chimichurri",
+          "description_ko": "초리소 소스, 청경채, 치미추리",
+          "price_vnd": 185000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "추가 주문가",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Seared Scallops",
+          "name_ko": "관자 시어링",
+          "description_original": "Served with a corn hollandaise, toasted breadcrumbs, thin slice of guanciale",
+          "description_ko": "옥수수 홀랜다이즈, 구운 빵가루, 관찰레(돼지 볼살 염장) 슬라이스",
+          "price_vnd": 185000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "추가 주문가",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Andalusian Style Fried Squid",
+          "name_ko": "안달루시아식 오징어 튀김",
+          "description_original": "Squid, chicken egg, lemon, capers, fragata gherkin, sunflower oil",
+          "description_ko": "오징어, 달걀, 레몬, 케이퍼, 오이 피클, 해바라기유",
+          "price_vnd": 165000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "추가 주문가",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Pan con Tomate",
+          "name_ko": "판 콘 토마테 (스페인식 토마토 빵)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 95000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "추가 주문가",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Charcoal Roasted Vegetables with Romesco Sauce",
+          "name_ko": "로메스코 소스 숯불 구운 채소",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 95000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "추가 주문가",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "House Wine by Glass (Red / White / Sparkling)",
+          "name_ko": "하우스 와인 글라스 (레드/화이트/스파클링)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 175000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "House Wine by Bottle (Red / White / Sparkling)",
+          "name_ko": "하우스 와인 보틀 (레드/화이트/스파클링)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 750000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Dinner Menu (17:00-22:00) - Starter",
+      "section_ko": "저녁 메뉴 (17:00~22:00) - 전채",
+      "items": [
+        {
+          "name_original": "Roasted Chicken Croquettes",
+          "name_ko": "치킨 크로켓",
+          "description_original": "Topped with paprika aioli",
+          "description_ko": "파프리카 아이올리 소스",
+          "price_vnd": 155000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Tomato Salad with Mixed Greens & Escabeche Mackerel",
+          "name_ko": "에스카베체 고등어 토마토 샐러드",
+          "description_original": "Pickled daikon, salsa verde",
+          "description_ko": "무 피클, 살사 베르데",
+          "price_vnd": 195000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Seabass Ceviche",
+          "name_ko": "농어 세비체",
+          "description_original": "Green mustard emulsion, scallion head pickles, sweet potato, crunchy chicken skin",
+          "description_ko": "그린 머스터드 에멀전, 쪽파 뿌리 피클, 고구마, 바삭한 닭껍질",
+          "price_vnd": 265000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Local Oysters",
+          "name_ko": "푸꾸옥 굴 (3가지 스타일)",
+          "description_original": "Au naturel, jalapeno emulsion, caviar",
+          "description_ko": "생굴(소금·레몬) / 할라피뇨 에멀전 / 캐비아",
+          "price_vnd": 275000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Seared Scallops",
+          "name_ko": "관자 시어링",
+          "description_original": "Corn hollandaise, toasted breadcrumbs, thin slice of guanciale",
+          "description_ko": "옥수수 홀랜다이즈, 구운 빵가루, 관찰레 슬라이스",
+          "price_vnd": 365000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Charcuterie & Cheese Board",
+          "name_ko": "샤퀴테리 & 치즈 보드",
+          "description_original": "Served with pan con tomate",
+          "description_ko": "판 콘 토마테 곁들임",
+          "price_vnd": 395000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Dinner Menu - Main Dishes",
+      "section_ko": "저녁 메뉴 - 메인",
+      "items": [
+        {
+          "name_original": "Betanzos-Style Tortilla with Marinated Pork",
+          "name_ko": "베탄소스식 토르티야 (양념 돼지고기)",
+          "description_original": "Pil pil sauce, capers",
+          "description_ko": "필필 소스, 케이퍼",
+          "price_vnd": 225000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "돼지고기"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Pork Cheeks Braised in Spiced Wine",
+          "name_ko": "향신 와인 돼지 볼살 찜",
+          "description_original": "Roasted shallots, onions, vegetables",
+          "description_ko": "구운 샬롯, 양파, 채소",
+          "price_vnd": 265000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "돼지고기"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Grilled Tiger Prawns",
+          "name_ko": "타이거새우 구이",
+          "description_original": "Served with Agua de Lourdes sauce & herbs",
+          "description_ko": "아구아 데 루르데스(마늘) 소스와 허브",
+          "price_vnd": 375000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Red Shrimp Tartare",
+          "name_ko": "레드 쉬림프 타르타르",
+          "description_original": "Ajo blanco, pickled cucumbers",
+          "description_ko": "아호 블랑코(아몬드 냉수프), 오이 피클",
+          "price_vnd": 395000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Grilled Octopus",
+          "name_ko": "문어 구이",
+          "description_original": "Chorizo sauce, pak choi, chimichurri",
+          "description_ko": "초리소 소스, 청경채, 치미추리",
+          "price_vnd": 395000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Grouper Suquet",
+          "name_ko": "그루퍼 수켓 (스페인식 생선 스튜)",
+          "description_original": "Phu Quoc white clams, potatoes, saffron, fennel",
+          "description_ko": "푸꾸옥 백합, 감자, 사프란, 펜넬",
+          "price_vnd": 395000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Surf & Turf Seafood Paella (per person)",
+          "name_ko": "해산물 파에야 (1인)",
+          "description_original": "Topped with squid, prawn, garlic herbs oil, sofrito",
+          "description_ko": "오징어, 새우, 마늘 허브 오일, 소프리토",
+          "price_vnd": 295000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Add Prawn 100g",
+          "name_ko": "새우 100g 추가",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 200000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Add Half of Lobster 600g",
+          "name_ko": "랍스터 반 마리(600g) 추가",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 950000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Surf & Turf Seafood Paella (sharing)",
+          "name_ko": "해산물 파에야 (셰어용)",
+          "description_original": "Topped with squid, tiger prawn, garlic herbs oil, sofrito",
+          "description_ko": "오징어, 타이거새우, 마늘 허브 오일, 소프리토",
+          "price_vnd": 950000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Pan-Seared Grass-Fed 7+ Wagyu",
+          "name_ko": "목초 사육 와규 7+ 팬 시어링",
+          "description_original": "Fondant potatoes, fennel salad, demi-glace with black pepper",
+          "description_ko": "퐁당 감자, 펜넬 샐러드, 흑후추 데미글라스",
+          "price_vnd": 1295000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Side Dishes",
+      "section_ko": "사이드 메뉴",
+      "items": [
+        {
+          "name_original": "Sauteed Vegetables",
+          "name_ko": "채소 볶음",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 150000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Confit Aubergine with Honey",
+          "name_ko": "꿀 가지 콩피",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 150000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Patatas Bravas",
+          "name_ko": "파타타스 브라바스 (스페인식 감자튀김)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 150000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Pan con Tomate",
+          "name_ko": "판 콘 토마테 (토마토 빵)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 150000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Charcoal-Roasted Peppers and Onions",
+          "name_ko": "숯불 구운 피망과 양파",
+          "description_original": "Soy-based citrus dressing, garlic, mirin, apple cider vinegar, olive oil, sunflower oil",
+          "description_ko": "간장 시트러스 드레싱, 마늘, 미림, 사과식초, 올리브유, 해바라기유",
+          "price_vnd": 150000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "저녁 메뉴에만 표기",
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Desserts",
+      "section_ko": "디저트",
+      "items": [
+        {
+          "name_original": "Spiced Creme Caramel",
+          "name_ko": "스파이스 크렘 캐러멜 (플랑)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 175000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Almond Tart",
+          "name_ko": "아몬드 타르트",
+          "description_original": "Passion fruit sorbet, chocolate crumble",
+          "description_ko": "패션프루트 소르베, 초콜릿 크럼블",
+          "price_vnd": 175000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "견과류"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Torrija",
+          "name_ko": "토리하 (스페인식 프렌치토스트)",
+          "description_original": "Custard, coconut ice-cream, blueberries",
+          "description_ko": "커스터드, 코코넛 아이스크림, 블루베리",
+          "price_vnd": 175000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Kids Menu",
+      "section_ko": "어린이 메뉴",
+      "items": [
+        {
+          "name_original": "Roast Chicken Croquettes",
+          "name_ko": "치킨 크로켓 (어린이)",
+          "description_original": "Topped with aioli mayo. Includes one glass of juice and steamed vegetables or fries",
+          "description_ko": "아이올리 마요. 주스 1잔 + 찐 채소 또는 감자튀김 포함",
+          "price_vnd": 160000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "글루텐 프리",
+            "달걀",
+            "유제품"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Kid Burger",
+          "name_ko": "어린이 버거",
+          "description_original": "Beef burger patty, red bell pepper, cheese, sunflower oil, red onion, potato. Includes juice and vegetables or fries",
+          "description_ko": "소고기 패티, 홍피망, 치즈, 적양파, 감자. 주스 + 채소 또는 감자튀김 포함",
+          "price_vnd": 160000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "유제품",
+            "글루텐",
+            "달걀"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Breaded Fish Bites with Aioli",
+          "name_ko": "그루퍼 생선 튀김과 아이올리",
+          "description_original": "Local grouper fillet, chicken egg, Japanese panko breadcrumbs, peeled garlic, sunflower oil. Includes juice and vegetables or fries",
+          "description_ko": "현지 그루퍼 필레, 달걀, 일본 판코 빵가루, 마늘. 주스 + 채소 또는 감자튀김 포함",
+          "price_vnd": 160000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Tea & Coffee",
+      "section_ko": "차 & 커피",
+      "items": [
+        {
+          "name_original": "Earl Grey",
+          "name_ko": "얼그레이",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 120000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "English Breakfast",
+          "name_ko": "잉글리시 브렉퍼스트",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 120000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Vietnamese Black Coffee",
+          "name_ko": "베트남 블랙커피 (카페 덴)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 90000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Vietnamese Coffee with Condensed Milk",
+          "name_ko": "베트남 연유커피 (카페 쓰어)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 90000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Salted Iced Coffee",
+          "name_ko": "아이스 소금커피",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 120000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Cappuccino",
+          "name_ko": "카푸치노",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 120000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Latte",
+          "name_ko": "라테",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 120000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Espresso",
+          "name_ko": "에스프레소",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 120000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Americano",
+          "name_ko": "아메리카노",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 120000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Hot Chocolate",
+          "name_ko": "핫초콜릿",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 120000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Soft Drink / Water / Beer",
+      "section_ko": "탄산음료 / 생수 / 맥주",
+      "items": [
+        {
+          "name_original": "Coke / Coke Zero / Sprite / Ginger Ale Schweppes / Indian Tonic / Soda Schweppes",
+          "name_ko": "콜라·제로콜라·스프라이트·진저에일·토닉·소다",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 90000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Aqua Panna Still 750ml",
+          "name_ko": "아쿠아 파나 생수 750ml",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 265000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "San Pellegrino 750ml",
+          "name_ko": "산펠레그리노 탄산수 750ml",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 265000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Tiger / Saigon Special / Heineken",
+          "name_ko": "타이거·사이공 스페셜·하이네켄",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 110000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Sun Kraft Beer Helles Can",
+          "name_ko": "선 크래프트 비어 헬레스 (캔)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 70000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Mixed Juice & Smoothie",
+      "section_ko": "주스 & 스무디",
+      "items": [
+        {
+          "name_original": "Brisa de Verano",
+          "name_ko": "브리사 데 베라노",
+          "description_original": "Pomelo, orange, pineapple, honey",
+          "description_ko": "자몽(포멜로), 오렌지, 파인애플, 꿀",
+          "price_vnd": 150000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Verde Vida",
+          "name_ko": "베르데 비다",
+          "description_original": "Cucumber, pineapple, rock melon, lime",
+          "description_ko": "오이, 파인애플, 멜론, 라임",
+          "price_vnd": 150000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Rosa del Alba",
+          "name_ko": "로사 델 알바",
+          "description_original": "Strawberry, coconut, watermelon, honey",
+          "description_ko": "딸기, 코코넛, 수박, 꿀",
+          "price_vnd": 150000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Young Coconut Juice",
+          "name_ko": "생코코넛 주스",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 150000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Berry Fiesta (smoothie)",
+          "name_ko": "베리 피에스타 (스무디)",
+          "description_original": "Strawberry, raspberry chunky, coconut cream, yogurt",
+          "description_ko": "딸기, 라즈베리, 코코넛 크림, 요거트",
+          "price_vnd": 180000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Sol Tropical (smoothie)",
+          "name_ko": "솔 트로피컬 (스무디)",
+          "description_original": "Mango, coconut cream, yogurt",
+          "description_ko": "망고, 코코넛 크림, 요거트",
+          "price_vnd": 180000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Mocktail",
+      "section_ko": "목테일 (무알코올)",
+      "items": [
+        {
+          "name_original": "Amber Flow",
+          "name_ko": "앰버 플로",
+          "description_original": "Rock melon, pineapple, cascara & pepper tea, honey",
+          "description_ko": "멜론, 파인애플, 카스카라·후추 차, 꿀",
+          "price_vnd": 180000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Rosa Salvaje",
+          "name_ko": "로사 살바헤",
+          "description_original": "Tangerine, pomelo, raspberry syrup, ginger, lime",
+          "description_ko": "귤, 포멜로, 라즈베리 시럽, 생강, 라임",
+          "price_vnd": 180000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Berry Carmesí",
+          "name_ko": "베리 카르메시",
+          "description_original": "Cranberry juice, pomelo, tangerine, raspberry syrup, sim son syrup",
+          "description_ko": "크랜베리 주스, 포멜로, 귤, 라즈베리 시럽, 심(푸꾸옥 도금양 열매) 시럽",
+          "price_vnd": 180000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Signature & Classic Cocktail",
+      "section_ko": "시그니처 & 클래식 칵테일",
+      "items": [
+        {
+          "name_original": "Apertura",
+          "name_ko": "아페르투라",
+          "description_original": "Nordés gin, Aperol, elderflower syrup, orange cordial",
+          "description_ko": "노르데스 진, 아페롤, 엘더플라워 시럽, 오렌지 코디얼",
+          "price_vnd": 380000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Cantriberry",
+          "name_ko": "칸트리베리",
+          "description_original": "Tequila Patrón, white wine apple cinnamon cordial, sparkling wine",
+          "description_ko": "파트론 데킬라, 화이트와인 사과 시나몬 코디얼, 스파클링 와인",
+          "price_vnd": 380000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Galicia Tropical",
+          "name_ko": "갈리시아 트로피컬",
+          "description_original": "Nordés gin, peppermint leaves, apple juice, passion fruit",
+          "description_ko": "노르데스 진, 페퍼민트, 사과 주스, 패션프루트",
+          "price_vnd": 380000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Signature Sangria",
+          "name_ko": "시그니처 상그리아",
+          "description_original": "Spanish wine, fresh fruits, Cointreau",
+          "description_ko": "스페인 와인, 생과일, 쿠앵트로",
+          "price_vnd": 350000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Atlantico",
+          "name_ko": "아틀란티코",
+          "description_original": "Nordés gin, maraschino, violet syrup, lime, egg white",
+          "description_ko": "노르데스 진, 마라스키노, 바이올렛 시럽, 라임, 달걀흰자",
+          "price_vnd": 300000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Aro Dorado",
+          "name_ko": "아로 도라도",
+          "description_original": "Patrón Silver, lemon juice, honey",
+          "description_ko": "파트론 실버, 레몬즙, 꿀",
+          "price_vnd": 300000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "La Rosa",
+          "name_ko": "라 로사",
+          "description_original": "Nordés gin, tonic, hibiscus",
+          "description_ko": "노르데스 진, 토닉, 히비스커스",
+          "price_vnd": 300000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Negroni Travieso",
+          "name_ko": "네그로니 트라비에소",
+          "description_original": "Campari, Nordés gin, Vermouth Rosso Dolin, soda",
+          "description_ko": "캄파리, 노르데스 진, 돌린 로쏘 베르무트, 소다",
+          "price_vnd": 300000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Wine by Glass",
+      "section_ko": "글라스 와인",
+      "items": [
+        {
+          "name_original": "Delafinca Cava (Blend)",
+          "name_ko": "델라핀카 카바 (스파클링)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 195000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Pedro Luis Jumilla, DO Jumilla (Sauvignon Blanc)",
+          "name_ko": "페드로 루이스 후미야 (화이트, 소비뇽 블랑)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 215000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Solaz (Verdejo)",
+          "name_ko": "솔라스 (화이트, 베르데호)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 235000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Pedro Luis Jumilla Monastrell, DO Jumilla (Mourvedre)",
+          "name_ko": "페드로 루이스 후미야 모나스트렐 (레드)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 215000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Solaz (Tempranillo, Cabernet Sauvignon)",
+          "name_ko": "솔라스 (레드, 템프라니요·카베르네 소비뇽)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 235000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Wine by Bottle",
+      "section_ko": "보틀 와인",
+      "items": [
+        {
+          "name_original": "Delafinca Cava (Blend)",
+          "name_ko": "델라핀카 카바 (스파클링)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 995000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Rondel Gold Semi Seco, DO Cava",
+          "name_ko": "론델 골드 세미 세코 카바 (스파클링)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 1500000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Pedro Luis Jumilla, DO Jumilla (Sauvignon Blanc)",
+          "name_ko": "페드로 루이스 후미야 (화이트)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 995000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Solaz (Verdejo)",
+          "name_ko": "솔라스 (화이트)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 1150000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Torres, Viña Esmeralda Semi Dry White, Catalunya (Moscatel, Gewürztraminer)",
+          "name_ko": "토레스 비냐 에스메랄다 (세미 드라이 화이트)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 1800000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Rías Baixas Faustino Rivero Ulecia (Albariño)",
+          "name_ko": "리아스 바이샤스 파우스티노 리베로 울레시아 (알바리뇨)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 1950000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "메뉴판 원문 'Rias Bixas Fautino'",
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Santa Julia \"Nacional\" (Semillon - Torrontes)",
+          "name_ko": "산타 훌리아 나시오날 (화이트)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 2000000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Marqués de Riscal, Rueda DO (Sauvignon Blanc)",
+          "name_ko": "마르케스 데 리스칼 루에다 (화이트)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 2150000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Henri Bourgeois, 'En Travertin', Pouilly Fumé (Sauvignon Blanc)",
+          "name_ko": "앙리 부르주아 앙 트라베르탱 푸이 퓌메 (화이트)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 3950000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Pedro Luis Jumilla Monastrell, DO Jumilla (Mourvedre)",
+          "name_ko": "페드로 루이스 후미야 모나스트렐 (레드)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 995000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Solaz (Tempranillo, Cabernet Sauvignon)",
+          "name_ko": "솔라스 (레드)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 1150000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Torres, Sangre de Toro Original, Catalunya DO (Grenache Carignan)",
+          "name_ko": "토레스 상그레 데 토로 (레드)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 1700000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Marqués de Riscal, Próximo, Rioja DOCa (Tempranillo blend)",
+          "name_ko": "마르케스 데 리스칼 프록시모 리오하 (레드)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 1750000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Marqués de Riscal, Reserva, Rioja DOCa (Tempranillo blend)",
+          "name_ko": "마르케스 데 리스칼 레세르바 리오하 (레드)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 3850000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Liquor (shot / bottle)",
+      "section_ko": "증류주 (샷 / 보틀)",
+      "items": [
+        {
+          "name_original": "Bombay Sapphire - shot",
+          "name_ko": "봄베이 사파이어 (샷)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 200000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Bombay Sapphire - bottle",
+          "name_ko": "봄베이 사파이어 (보틀)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 1100000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Nordés - shot",
+          "name_ko": "노르데스 진 (샷)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 250000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Nordés - bottle",
+          "name_ko": "노르데스 진 (보틀)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 2800000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Bacardi Carta Blanca - shot",
+          "name_ko": "바카디 카르타 블랑카 (샷)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 200000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Bacardi Carta Blanca - bottle",
+          "name_ko": "바카디 카르타 블랑카 (보틀)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 1500000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Bacardi Carta Oro - shot",
+          "name_ko": "바카디 카르타 오로 (샷)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 200000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Bacardi Carta Oro - bottle",
+          "name_ko": "바카디 카르타 오로 (보틀)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 1500000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Vededi Right Rum - shot",
+          "name_ko": "베데디 라이트 럼 (샷)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 250000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Vededi Right Rum - bottle",
+          "name_ko": "베데디 라이트 럼 (보틀)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 1850000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Belami ROC 16 Delta - shot",
+          "name_ko": "벨라미 ROC 16 델타 (샷)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 250000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Belami ROC 16 Delta - bottle",
+          "name_ko": "벨라미 ROC 16 델타 (보틀)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 3650000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Patrón Silver - shot",
+          "name_ko": "파트론 실버 (샷)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 365000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Patrón Silver - bottle",
+          "name_ko": "파트론 실버 (보틀)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 5900000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Ketel One - shot",
+          "name_ko": "케텔 원 (샷)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 250000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Ketel One - bottle",
+          "name_ko": "케텔 원 (보틀)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 2650000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Grey Goose - shot",
+          "name_ko": "그레이 구스 (샷)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 300000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Grey Goose - bottle",
+          "name_ko": "그레이 구스 (보틀)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 4000000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Dewar's 12 Year Old - shot",
+          "name_ko": "듀어스 12년 (샷)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 250000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Dewar's 12 Year Old - bottle",
+          "name_ko": "듀어스 12년 (보틀)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 3000000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Vededi Single Malt Distiller's Choice - shot",
+          "name_ko": "베데디 싱글몰트 (샷)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 250000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Vededi Single Malt Distiller's Choice - bottle",
+          "name_ko": "베데디 싱글몰트 (보틀)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 3500000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Hennessy V.S - shot",
+          "name_ko": "헤네시 V.S (샷)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 300000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Hennessy V.S - bottle",
+          "name_ko": "헤네시 V.S (보틀)",
+          "description_original": null,
+          "description_ko": null,
+          "price_vnd": 2950000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "알코올"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": {
+    "per_person_min_vnd": 400000,
+    "per_person_max_vnd": 800000,
+    "range_label": "고가 (저녁 메인 1개+음료 1잔 기준 약 40만~80만 동, 세금·서비스료 별도)",
+    "basis": [
+      {
+        "type": "official_menu_calc",
+        "value": "저녁 메인 225K~395K(와규 1,295K 제외) + 음료 90K~380K",
+        "url": "https://drive.google.com/file/d/1kf2k8jxDNNNBWjTUb3NbDuACZDf6JF8M/view"
+      }
+    ],
+    "confidence": "high"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "PDF 28쪽 전체 옮김. 알레르기 아이콘은 이미지라 텍스트로 추출되지 않아 태그를 달지 않음(어린이 메뉴는 원문에 텍스트로 표기돼 있어 반영). menu_date 표기 없음."
+}

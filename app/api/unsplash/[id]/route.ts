@@ -15,7 +15,7 @@ export async function GET(req:NextRequest,{params}:{params:Promise<{id:string}>}
     // from Unsplash's CDN to the visitor rather than through the Hostinger app.
     const upstream=await fetch(download,{
       redirect:'manual',
-      headers:{'User-Agent':'GoodLifeInThaodien/1.0'},
+      headers:{'User-Agent':'GoodLifeInPhu Quoc/1.0'},
       next:{revalidate:2592000},
     })
     const location=upstream.headers.get('location')

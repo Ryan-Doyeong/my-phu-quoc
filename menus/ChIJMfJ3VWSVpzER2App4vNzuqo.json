@@ -1,0 +1,59 @@
+{
+  "name_google": "한식당 화로구이(charcoal korean bbq)(炭烤肉)",
+  "name_display": "한식당 화로구이 (Charcoal Korean BBQ)",
+  "place_id": "ChIJMfJ3VWSVpzER2App4vNzuqo",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "google_maps",
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJMfJ3VWSVpzER2App4vNzuqo",
+      "accessed": "2026-10-25",
+      "note": "선셋타운 화로구이(Charcoal Korean BBQ) 구글맵 등록 정보"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://trip.com/",
+      "accessed": "2026-10-25",
+      "note": "선셋타운 내 숯불 화로구이 한식당 다이닝 안내"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Charcoal Grilled Samgyeopsal (숯불 삼겹살)",
+      "name_ko": "참숯 화로 생삼겹살 구이",
+      "price_approx": "180,000 ~ 250,000 VND / 1인분"
+    },
+    {
+      "name_original": "Charcoal Beef Ribs (소갈비살 구이)",
+      "name_ko": "참숯 소갈비살 및 양념 소고기 구이",
+      "price_approx": "280,000 ~ 380,000 VND / 1인분"
+    },
+    {
+      "name_original": "Kimchi Stew & Steamed Rice (김치찌개와 공깃밥)",
+      "name_ko": "얼큰한 한국식 돼지고기 김치찌개 백반",
+      "price_approx": "150,000 ~ 200,000 VND"
+    },
+    {
+      "name_original": "Cold Naengmyeon (물냉면 / 비빔냉면)",
+      "name_ko": "시원한 살얼음 물냉면 / 매콤 비빔냉면",
+      "price_approx": "140,000 ~ 180,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 140000,
+    "max": 450000,
+    "basis": "삼겹살 1인분 18만~25만동, 소고기 28만~38만동, 찌개/냉면 14만~20만동"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 내에서 일몰과 불꽃쇼를 조망하며 즐길 수 있는 참숯 화로구이 한식당으로 삼겹살 및 소고기 숯불구이와 찌개/냉면을 취급함. 전형적인 해외 한식 바비큐 가격대를 확인하여 C등급으로 기록함."
+}

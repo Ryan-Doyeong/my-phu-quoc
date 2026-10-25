@@ -67,16 +67,16 @@ create table if not exists public.backup_snapshots (
 alter table public.backup_snapshots enable row level security;
 create policy "backup snapshots admin only" on public.backup_snapshots for all to authenticated using (public.is_admin()) with check (public.is_admin());
 
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] insert into public.sponsor_banners(slot_key,size,title,subtitle,image_url,target_url,is_active,sort_order) values
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] ('main-1','main','Neighborhood Partner','Main sponsor banner 1','/images/food-dining.jpg','#',true,1),
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] ('main-2','main','Wellness Partner','Main sponsor banner 2','/images/wellness-gym.jpg','#',true,2),
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] ('main-3','main','Local Cafe Partner','Main sponsor banner 3','/images/food-brunch.jpg','#',true,3),
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] ('small-1','small','Community Partner',null,'/images/news-community.jpg','#',true,1),
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] ('small-2','small','Local Partner',null,'/images/cat-food.jpg','#',true,2),
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] ('small-3','small','Wellness Partner',null,'/images/cat-wellness.jpg','#',true,3),
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] ('small-4','small','Neighborhood Partner',null,'/images/news-living.jpg','#',true,4)
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] on conflict(slot_key) do nothing;
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] 
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] insert into public.stories(title,slug,category,excerpt,body_en,cover_image_url,status,content_type,event_date,event_location,is_featured,published_at) values
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] ('Thao Dien Community Weekend','thao-dien-community-weekend','Events','A sample neighborhood event announcement for the launch edition.','This sample event demonstrates the event banner and event-news flow. Replace it with a verified local event before public launch.','/images/news-community.jpg','published','event','2026-10-03T09:00:00+07','Thao Dien, Thu Duc City',true,now())
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] on conflict(slug) do nothing;
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] insert into public.sponsor_banners(slot_key,size,title,subtitle,image_url,target_url,is_active,sort_order) values
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] ('main-1','main','Neighborhood Partner','Main sponsor banner 1','/images/food-dining.jpg','#',true,1),
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] ('main-2','main','Wellness Partner','Main sponsor banner 2','/images/wellness-gym.jpg','#',true,2),
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] ('main-3','main','Local Cafe Partner','Main sponsor banner 3','/images/food-brunch.jpg','#',true,3),
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] ('small-1','small','Community Partner',null,'/images/news-community.jpg','#',true,1),
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] ('small-2','small','Local Partner',null,'/images/cat-food.jpg','#',true,2),
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] ('small-3','small','Wellness Partner',null,'/images/cat-wellness.jpg','#',true,3),
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] ('small-4','small','Neighborhood Partner',null,'/images/news-living.jpg','#',true,4)
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] on conflict(slot_key) do nothing;
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] 
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] insert into public.stories(title,slug,category,excerpt,body_en,cover_image_url,status,content_type,event_date,event_location,is_featured,published_at) values
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] ('Phu Quoc Community Weekend','thao-dien-community-weekend','Events','A sample neighborhood event announcement for the launch edition.','This sample event demonstrates the event banner and event-news flow. Replace it with a verified local event before public launch.','/images/news-community.jpg','published','event','2026-10-03T09:00:00+07','Phu Quoc, Thu Duc City',true,now())
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] on conflict(slug) do nothing;

@@ -22,5 +22,5 @@ export default async function LocaleArticle({
 }) {
   const { locale, slug } = await params
   if (!isPrefixedLocale(locale)) notFound()
-  return renderArticleRoute(slug, locale)
+  return renderArticleRoute(slug, locale, 'news')
 }

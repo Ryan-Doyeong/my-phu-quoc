@@ -235,7 +235,7 @@ export function EventsBoard({ items, locale }: EventsBoardProps) {
               return (
                 <li key={item.id || item.slug} className="eventDcItem">
                   <Link
-                    href={localePath(locale, `/news/${item.slug}`)}
+                    href={localePath(locale, `/events/${item.slug}`)}
                     className="eventDcRow"
                   >
                     {/* Left Square Thumbnail (object-fit: cover, lazy loading for non-LCP) */}

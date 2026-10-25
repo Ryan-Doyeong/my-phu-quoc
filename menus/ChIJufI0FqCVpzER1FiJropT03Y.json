@@ -1,0 +1,41 @@
+{
+  "name_google": "Quán Nhậu Bình Dân HOÀNG HÔN ( Hoàng Hôn Quán )",
+  "name_display": "Quán Nhậu Bình Dân HOÀNG HÔN ( Hoàng Hôn Quán )",
+  "place_id": "ChIJufI0FqCVpzER1FiJropT03Y",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "facebook",
+      "url": "https://www.facebook.com/hoanghonquanphuquoc/",
+      "accessed": "2026-10-25"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Mực trứng chiên mắm / nướng",
+      "name_ko": "알배기 오징어 튀김 / 구이",
+      "price_approx": "120,000 ~ 180,000 VND"
+    },
+    {
+      "name_original": "Lẩu hải sản chua cay bình dân",
+      "name_ko": "실속형 해산물 전골 핫팟",
+      "price_approx": "200,000 ~ 300,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 50000,
+    "max": 300000,
+    "basis": "로컬 해산물 안주 5만~18만동, 핫팟 20만~30만동"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 해변 방갈로에 인접한 서민형 로컬 해산물 포차로 저렴하게 해산물 안주를 즐길 수 있음. C등급으로 기록함."
+}

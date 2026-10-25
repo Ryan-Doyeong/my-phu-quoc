@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1280px;background:#2b211b;font-family:-apple-system,"Apple SD Gothic Neo","Helvetica Neue",sans-serif;padding:36px 40px}
+h1{color:#fff;font-size:26px;margin-bottom:24px;font-weight:700}
+.wrap{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.col{border-radius:28px;overflow:hidden;background:var(--bg)}
+.a{--accent:#C86D2D;--bg:#FBF5EA;--paper:#FFFDF9;--ink:#3a2a1f;--muted:#8a6f5a;--s1:#f6c56b;--s2:#ef8f4a;--s3:#c9583a;--s4:#5a3a5e}
+.b{--accent:#B85338;--bg:#F9F1E6;--paper:#FFFDF8;--ink:#3b2420;--muted:#8c6458;--s1:#f9d38a;--s2:#f0a06a;--s3:#d0644e;--s4:#6b3b58}
+.top{padding:22px 26px;color:var(--ink)}
+.top b{font-size:30px;display:block}
+.top span{font-size:16px;color:var(--muted)}
+.big{height:200px;background:var(--accent);display:flex;align-items:flex-end;padding:18px 26px;color:#fff}
+.big p{font-size:15px}.big p strong{display:block;font-size:30px;letter-spacing:.02em}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:0}
+.sm{height:120px;display:flex;align-items:flex-end;padding:14px 26px;color:var(--ink);border-top:1px solid rgba(0,0,0,.06)}
+.sm p{font-size:14px}.sm p strong{display:block;font-size:22px}
+.demo{padding:26px;background:var(--bg);border-top:1px solid rgba(0,0,0,.06)}
+.logo{font-family:Georgia,serif;font-size:32px;font-weight:700;color:var(--ink);margin-bottom:18px}
+.logo i{font-style:normal;color:var(--accent)}
+.btns{display:flex;gap:10px;margin-bottom:18px}
+.btn{padding:13px 22px;border-radius:999px;font-weight:700;font-size:15px}
+.p{background:var(--accent);color:#fff}.o{border:1.5px solid var(--accent);color:var(--accent)}
+.badges{display:flex;gap:8px;margin-bottom:18px}
+.bd{font-size:13px;font-weight:700;padding:5px 11px;border-radius:999px}
+.r{background:var(--accent);color:#fff}.n{background:color-mix(in srgb,var(--accent) 14%,var(--paper));color:var(--accent)}
+.card{background:var(--paper);border-radius:22px;overflow:hidden;border:1px solid rgba(0,0,0,.06)}
+.ph{height:130px;background:linear-gradient(180deg,var(--s1),var(--s2) 45%,var(--s3) 75%,var(--s4))}
+.cb{padding:14px 18px}.cb h3{font-size:18px;color:var(--ink)}.cb p{font-size:13px;color:var(--muted)}
+.cb .link{color:var(--accent);font-weight:700;font-size:14px;margin-top:8px;display:block}
+</style></head><body>
+<h1>My Phu Quoc — 컬러 비교 (A안 vs B안)</h1>
+<div class="wrap">
+ <div class="col a">
+  <div class="top"><b>A안 · Golden Sunset</b><span>황금빛 햇살 · 앰버 골드 · 밝고 따뜻함</span></div>
+  <div class="big"><p><strong>#C86D2D</strong>포인트 컬러 (버튼·로고·배지·링크)</p></div>
+  <div class="row"><div class="sm" style="background:var(--bg)"><p><strong>#FBF5EA</strong>전체 배경</p></div><div class="sm" style="background:var(--paper)"><p><strong>#FFFDF9</strong>카드 배경</p></div></div>
+  <div class="demo">
+   <div class="logo">My <i>Phu Quoc</i></div>
+   <div class="btns"><span class="btn p">Explore</span><span class="btn o">Tonight's shows</span></div>
+   <div class="badges"><span class="bd r">Recommended</span><span class="bd n">Sunset Town</span><span class="bd n">Hotels</span></div>
+   <div class="card"><div class="ph"></div><div class="cb"><h3>Sample Sunset Bar</h3><p>Rooftop &amp; Sunset Bar · Khem Beach</p><span class="link">View on map →</span></div></div>
+  </div>
+ </div>
+ <div class="col b">
+  <div class="top"><b>B안 · Sunset Terracotta</b><span>붉은 노을 · 테라코타 로즈 · 차분함</span></div>
+  <div class="big"><p><strong>#B85338</strong>포인트 컬러 (버튼·로고·배지·링크)</p></div>
+  <div class="row"><div class="sm" style="background:var(--bg)"><p><strong>#F9F1E6</strong>전체 배경</p></div><div class="sm" style="background:var(--paper)"><p><strong>#FFFDF8</strong>카드 배경</p></div></div>
+  <div class="demo">
+   <div class="logo">My <i>Phu Quoc</i></div>
+   <div class="btns"><span class="btn p">Explore</span><span class="btn o">Tonight's shows</span></div>
+   <div class="badges"><span class="bd r">Recommended</span><span class="bd n">Sunset Town</span><span class="bd n">Hotels</span></div>
+   <div class="card"><div class="ph"></div><div class="cb"><h3>Sample Sunset Bar</h3><p>Rooftop &amp; Sunset Bar · Khem Beach</p><span class="link">View on map →</span></div></div>
+  </div>
+ </div>
+</div>
+</body></html>

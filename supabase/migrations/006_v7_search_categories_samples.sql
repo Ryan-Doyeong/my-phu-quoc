@@ -135,16 +135,16 @@ update public.businesses set
 where slug='lotus-table';
 
 -- Replace sponsor placeholders with the new high-resolution visual set and fill all seven main slots.
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] insert into public.sponsor_banners(slot_key,size,title,subtitle,image_url,target_url,is_active,sort_order) values
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] ('main-1','main','Local Living Partner','A featured space for neighborhood brands that support the community.','/images/v7/sponsor-main-1.jpg','#',true,1),
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] ('main-2','main','Wellness Community Partner','Move, recover and live well in Thao Dien.','/images/v7/sponsor-main-2.jpg','#',true,2),
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] ('main-3','main','Food & Dining Partner','A spotlight for restaurants and hospitality partners.','/images/v7/sponsor-main-3.jpg','#',true,3),
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] ('main-4','main','Active Life Partner','Supporting healthier everyday routines.','/images/v7/sponsor-main-4.jpg','#',true,4),
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] ('main-5','main','Neighborhood Café Partner','Good coffee, local stories and community connection.','/images/v7/sponsor-main-5.jpg','#',true,5),
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] ('main-6','main','Recovery & Care Partner','Wellbeing services for everyday life.','/images/v7/sponsor-main-6.jpg','#',true,6),
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] ('main-7','main','Community Partner','Local support for a brighter Thao Dien.','/images/v7/sponsor-main-7.jpg','#',true,7),
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] ('small-1','small','Food Partner',null,'/images/v7/sponsor-small-1.jpg','#',true,1),
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] ('small-2','small','Fitness Partner',null,'/images/v7/sponsor-small-2.jpg','#',true,2),
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] ('small-3','small','Café Partner',null,'/images/v7/sponsor-small-3.jpg','#',true,3),
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] ('small-4','small','Community Partner',null,'/images/v7/sponsor-small-4.jpg','#',true,4)
--- [MyPhuQuoc Phase0 disabled: Thaodien sample] on conflict(slot_key) do update set title=excluded.title,subtitle=excluded.subtitle,image_url=excluded.image_url,target_url=excluded.target_url,is_active=excluded.is_active,sort_order=excluded.sort_order,updated_at=now();
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] insert into public.sponsor_banners(slot_key,size,title,subtitle,image_url,target_url,is_active,sort_order) values
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] ('main-1','main','Local Living Partner','A featured space for neighborhood brands that support the community.','/images/v7/sponsor-main-1.jpg','#',true,1),
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] ('main-2','main','Wellness Community Partner','Move, recover and live well in Phu Quoc.','/images/v7/sponsor-main-2.jpg','#',true,2),
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] ('main-3','main','Food & Dining Partner','A spotlight for restaurants and hospitality partners.','/images/v7/sponsor-main-3.jpg','#',true,3),
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] ('main-4','main','Active Life Partner','Supporting healthier everyday routines.','/images/v7/sponsor-main-4.jpg','#',true,4),
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] ('main-5','main','Neighborhood Café Partner','Good coffee, local stories and community connection.','/images/v7/sponsor-main-5.jpg','#',true,5),
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] ('main-6','main','Recovery & Care Partner','Wellbeing services for everyday life.','/images/v7/sponsor-main-6.jpg','#',true,6),
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] ('main-7','main','Community Partner','Local support for a brighter Phu Quoc.','/images/v7/sponsor-main-7.jpg','#',true,7),
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] ('small-1','small','Food Partner',null,'/images/v7/sponsor-small-1.jpg','#',true,1),
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] ('small-2','small','Fitness Partner',null,'/images/v7/sponsor-small-2.jpg','#',true,2),
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] ('small-3','small','Café Partner',null,'/images/v7/sponsor-small-3.jpg','#',true,3),
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] ('small-4','small','Community Partner',null,'/images/v7/sponsor-small-4.jpg','#',true,4)
+-- [MyPhuQuoc Phase0 disabled: Phu Quoc sample] on conflict(slot_key) do update set title=excluded.title,subtitle=excluded.subtitle,image_url=excluded.image_url,target_url=excluded.target_url,is_active=excluded.is_active,sort_order=excluded.sort_order,updated_at=now();

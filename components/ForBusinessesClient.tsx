@@ -225,21 +225,21 @@ export function ForBusinessesClient({ locale = 'en' }: { locale?: Locale }) {
                 <input
                   name="tags"
                   placeholder={
-                    category === 'food'
-                      ? 'e.g. Sushi, Family Friendly, Outdoor Seating'
-                      : category === 'workout'
-                      ? 'e.g. Strength, Small Group, Personal Training'
+                    category === 'dining'
+                      ? 'e.g. Seafood, Family Friendly, Sea View'
+                      : category === 'bars'
+                      ? 'e.g. Sunset View, Live Music, Cocktails'
+                      : category === 'hotels'
+                      ? 'e.g. Beachfront, Pool Villa, Breakfast Included'
+                      : category === 'shopping'
+                      ? 'e.g. Pearls, Souvenirs, Local Specialties'
+                      : category === 'activities'
+                      ? 'e.g. Island Hopping, Show, Family Friendly'
+                      : category === 'beach'
+                      ? 'e.g. Sun Loungers, Quiet, Water Sports'
                       : category === 'wellness'
-                      ? 'e.g. Sports Massage, Sauna, Recovery'
-                      : category === 'cafe'
-                      ? 'e.g. Specialty Coffee, Pet Friendly, Outdoor Seating'
-                      : category === 'beauty'
-                      ? 'e.g. Nail Art, Hair Salon, Barber, Waxing'
-                      : category === 'services'
-                      ? 'e.g. Laundry, AC Cleaning, Deep Cleaning, Repair'
-                      : category === 'market'
-                      ? 'e.g. Organic, Fresh Produce, Convenience, Groceries'
-                      : 'e.g. Beginners, Kids, Weekend Classes'
+                      ? 'e.g. Massage, Nail Art, Sunburn Care'
+                      : 'e.g. Scooter Rental, Taxi, Pharmacy, Money Exchange'
                   }
                 />
                 <small>{dict.intake.tagsHint}</small>

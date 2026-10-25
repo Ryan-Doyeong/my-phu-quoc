@@ -168,14 +168,14 @@ export function PartnersClient({ initialLang, initialSlot, businesses }: Props) 
             </span>
             <h1>
               {t(
-                'For a beautiful Thao Dien, together.',
+                'For a beautiful Phu Quoc, together.',
                 'Cùng nhau vì một Thảo Điền tươi đẹp.',
                 '함께 만들어가는 아름다운 타오디엔.'
               )}
             </h1>
             <p className="partnerLead">
               {t(
-                'Thao Dien is where many lives meet — families who have called it home for generations and newcomers from every corner of the world, the café on the corner and the little studio down the lane. We hope the people who share these streets can come to know one another, and live side by side in harmony.',
+                'Phu Quoc is where many lives meet — families who have called it home for generations and newcomers from every corner of the world, the café on the corner and the little studio down the lane. We hope the people who share these streets can come to know one another, and live side by side in harmony.',
                 'Thảo Điền là nơi nhiều cuộc sống gặp gỡ — những gia đình đã gắn bó nơi đây qua nhiều thế hệ và những người bạn mới đến từ khắp nơi trên thế giới, quán cà phê nơi góc phố và studio nhỏ cuối con hẻm. Chúng tôi mong rằng những người cùng chung con phố có thể hiểu nhau hơn và sống bên nhau thật hài hòa.',
                 '타오디엔은 오랜 세월 이곳을 터전으로 살아온 가족들과 세계 각지에서 새로 온 이웃들, 골목 모퉁이 카페와 작은 스튜디오까지 다양한 삶이 만나는 동네입니다. 같은 거리를 걷는 이웃들이 서로를 더 잘 알고 조화롭게 살아가길 바랍니다.'
               )}
@@ -219,9 +219,9 @@ export function PartnersClient({ initialLang, initialSlot, businesses }: Props) 
             </p>
             <p>
               {t(
-                'Good Life in Thaodien began as a way to gather those moments — honest information about the businesses that care for this neighborhood, news that matters to the people who live here, and the quiet efforts that make Thao Dien a little kinder each day.',
-                'Good Life in Thaodien ra đời để gom góp những khoảnh khắc đó — thông tin trung thực về những cơ sở kinh doanh luôn quan tâm đến khu phố, tin tức thiết thực cho người dân nơi đây, và những nỗ lực thầm lặng giúp Thảo Điền mỗi ngày thêm ấm áp.',
-                'Good Life in Thaodien은 이러한 순간들을 모으기 위해 시작되었습니다 — 동네를 아끼는 로컬 비즈니스에 대한 정직한 정보, 주민들에게 꼭 필요한 소식, 그리고 타오디엔을 매일 조금씩 더 따뜻하게 만드는 조용한 노력들을 전합니다.'
+                'Good Life in Phu Quoc began as a way to gather those moments — honest information about the businesses that care for this neighborhood, news that matters to the people who live here, and the quiet efforts that make Phu Quoc a little kinder each day.',
+                'Good Life in Phu Quoc ra đời để gom góp những khoảnh khắc đó — thông tin trung thực về những cơ sở kinh doanh luôn quan tâm đến khu phố, tin tức thiết thực cho người dân nơi đây, và những nỗ lực thầm lặng giúp Thảo Điền mỗi ngày thêm ấm áp.',
+                'Good Life in Phu Quoc은 이러한 순간들을 모으기 위해 시작되었습니다 — 동네를 아끼는 로컬 비즈니스에 대한 정직한 정보, 주민들에게 꼭 필요한 소식, 그리고 타오디엔을 매일 조금씩 더 따뜻하게 만드는 조용한 노력들을 전합니다.'
               )}
             </p>
             <p>
@@ -260,9 +260,9 @@ export function PartnersClient({ initialLang, initialSlot, businesses }: Props) 
             </p>
             <p>
               {t(
-                'Your support keeps Good Life in Thaodien free, honest and growing — and makes room for community initiatives that give back to Thao Dien.',
-                'Sự ủng hộ của bạn giúp Good Life in Thaodien luôn miễn phí, trung thực và phát triển — đồng thời tạo điều kiện cho những hoạt động cộng đồng đóng góp lại cho Thảo Điền.',
-                '파트너의 후원은 Good Life in Thaodien이 누구나 무료로 이용할 수 있는 정직한 플랫폼으로 성장하게 돕고, 타오디엔 지역사회에 환원하는 다양한 커뮤니티 활동을 가능하게 합니다.'
+                'Your support keeps Good Life in Phu Quoc free, honest and growing — and makes room for community initiatives that give back to Phu Quoc.',
+                'Sự ủng hộ của bạn giúp Good Life in Phu Quoc luôn miễn phí, trung thực và phát triển — đồng thời tạo điều kiện cho những hoạt động cộng đồng đóng góp lại cho Thảo Điền.',
+                '파트너의 후원은 Good Life in Phu Quoc이 누구나 무료로 이용할 수 있는 정직한 플랫폼으로 성장하게 돕고, 타오디엔 지역사회에 환원하는 다양한 커뮤니티 활동을 가능하게 합니다.'
               )}
             </p>
           </div>
@@ -465,7 +465,7 @@ export function PartnersClient({ initialLang, initialSlot, businesses }: Props) 
                 </h3>
                 <p>
                   {t(
-                    'Only businesses we have reviewed and confirmed in Thao Dien can become partners.',
+                    'Only businesses we have reviewed and confirmed in Phu Quoc can become partners.',
                     'Chỉ những doanh nghiệp tại Thảo Điền đã được chúng tôi xem xét và xác nhận mới có thể trở thành đối tác.',
                     '에디터가 직접 검토하고 확인한 타오디엔 지역 비즈니스만 파트너로 참여할 수 있습니다.'
                   )}
@@ -1007,7 +1007,7 @@ export function PartnersClient({ initialLang, initialSlot, businesses }: Props) 
             </h2>
             <p>
               {t(
-                'Thank you for helping Thao Dien stay a place where everyone can belong.',
+                'Thank you for helping Phu Quoc stay a place where everyone can belong.',
                 'Cảm ơn bạn đã cùng giữ cho Thảo Điền là nơi ai cũng có thể thuộc về.',
                 '타오디엔이 누구에게나 따뜻한 삶의 터전이 될 수 있도록 함께해 주셔서 감사합니다.'
               )}

@@ -1,0 +1,69 @@
+{
+  "name_google": "Nhà hàng Cơm Niêu Việt Địa Trung Hải",
+  "name_display": "껌니우 비엣 선셋타운 (Nhà hàng Cơm Niêu Việt - 베트남 돌솥밥)",
+  "place_id": "ChIJzUpxDmWXpzER9_x5dGSKcdM",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_website",
+      "url": "https://comnieuviet.com.vn/",
+      "accessed": "2026-10-25",
+      "note": "그린 트리(Green Tree) 그룹 껌니우 비엣 공식 사이트 (선셋타운 지점)"
+    },
+    {
+      "id": "s2",
+      "type": "third_party",
+      "url": "https://visitphuquoc.com.vn/com-nieu-viet-sunset-town",
+      "accessed": "2026-10-25",
+      "note": "껌니우 비엣 정규 뚝배기 돌솥밥 및 가정식 요리 가격대 (단품 10만~30만동, 세트 35만~45만동)"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Cơm Niêu đập truyền thống",
+      "name_ko": "베트남 전통 도자기 돌솥밥 (누룽지 밥)",
+      "price_approx": "35,000 ~ 50,000 VND / 솥"
+    },
+    {
+      "name_original": "Cá kho tộ đất sét (Claypot Caramelized Fish)",
+      "name_ko": "옹기 뚝배기 메콩 생선 조림",
+      "price_approx": "120,000 ~ 180,000 VND"
+    },
+    {
+      "name_original": "Canh cua rau đay (Crab & Jute Leaf Soup)",
+      "name_ko": "민물 게살과 말라바 시금치 맑은 국",
+      "price_approx": "90,000 ~ 140,000 VND"
+    },
+    {
+      "name_original": "Thịt kho tàu nước dừa (Braised Pork Belly with Eggs)",
+      "name_ko": "코코넛 워터에 조려낸 삼겹살 달걀 장조림",
+      "price_approx": "120,000 ~ 180,000 VND"
+    },
+    {
+      "name_original": "Bò xào bông thiên lý (Stir-fried Beef with Tonkin Jasmine)",
+      "name_ko": "천리향 야생꽃 소고기 볶음",
+      "price_approx": "180,000 ~ 270,000 VND"
+    },
+    {
+      "name_original": "Set Cơm Niêu Gia Đình (Family Set Menu)",
+      "name_ko": "가족 4인 정식 세트 (돌솥밥+생선조림+삼겹살조림+모닝글로리+국)",
+      "price_approx": "350,000 ~ 450,000 VND / 1인"
+    }
+  ],
+  "price_range": {
+    "min": 90000,
+    "max": 450000,
+    "basis": "단품 요리 9만~27만동, 1인 정식 세트 35만~45만동선"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 지중해 마을에 위치한 정통 베트남 뚝배기 솥밥(Cơm Niêu) 전문점으로 돌솥밥을 깨서 누룽지를 즐기는 퍼포먼스와 생선조림이 유명함. 공식 사이트 메뉴 구성과 가격대를 검증하여 C등급으로 기록함."
+}

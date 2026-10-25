@@ -1,0 +1,217 @@
+{
+  "name_google": "루남 푸꾸옥",
+  "name_display": "카페 루남 푸꾸옥 (Café RuNam Phú Quốc - Hexagonal House)",
+  "place_id": "ChIJgbE4kXGVpzERZ8C1U29WbHA",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "B",
+  "status": "partial",
+  "menu_date": "2026-09",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": "가격은 부가세(VAT 8~10%) 및 서비스료 5% 별도.",
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_website",
+      "url": "http://caferunam.com/",
+      "accessed": "2026-10-25",
+      "note": "Café RuNam 공식 웹사이트 및 푸꾸옥 선셋타운(Hexagonal House 룩각루) 안내"
+    },
+    {
+      "id": "s2",
+      "type": "official_website",
+      "url": "https://caferunam.com/menu/",
+      "accessed": "2026-10-25",
+      "note": "루남 공식 온라인 메뉴판 (반미 19.5만동, 후띠우 23만동, 분보후에 28만동, 쌀국수 32만동, 스테이크 59만동)"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Điểm tâm & Món Việt tinh hoa / Premium Vietnamese Classics",
+      "section_ko": "프리미엄 베트남 전통 요리",
+      "items": [
+        {
+          "name_original": "Bánh mì Phở đặc biệt RuNam",
+          "name_ko": "루남 시그니처 반미 퍼 (소고기 쌀국수 풍미 반미)",
+          "description_original": "Crispy baguette filled with tender beef brisket, herbs and savory pho reduction sauce",
+          "description_ko": "쌀국수의 깊은 육수 풍미와 소고기 양지, 신선한 야채를 바삭한 바게트에 담아낸 루남의 특허 반미",
+          "price_vnd": 195000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "반미",
+            "시그니처"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Hủ tiếu cá hồi / Mì hoành thánh xá xíu",
+          "name_ko": "연어 후띠우 / 차슈 완탕면",
+          "description_original": "Southern Vietnamese fish noodle soup or pork wonton noodles with charsiu",
+          "description_ko": "깔끔하고 개운한 남부식 생선 쌀국수 또는 차슈를 곁들인 수제 완탕면",
+          "price_vnd": 230000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "국수"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Bún bò Huế đuôi bò (Oxtail Bun Bo Hue)",
+          "name_ko": "소꼬리 분보후에 (매콤 후에 쌀국수)",
+          "description_original": "Spicy Hue noodle soup with slow-cooked premium oxtail and beef shank",
+          "description_ko": "진한 육수에 푹 고아낸 명품 소꼬리와 양지고기를 넣은 후에식 매콤 쌀국수",
+          "price_vnd": 280000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "쌀국수",
+            "추천"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Phở bò tủy xương & đuôi bò cao cấp",
+          "name_ko": "프리미엄 사골 골수 & 소꼬리 소고기 쌀국수",
+          "description_original": "Luxury beef pho served with rich marrow bone and tender oxtail",
+          "description_ko": "진하고 구수한 사골 골수 뼈와 소꼬리가 통째로 들어간 루남의 최고급 쌀국수",
+          "price_vnd": 320000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "쌀국수",
+            "프리미엄"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Bánh canh cua lột (Soft-shell Crab Noodle)",
+          "name_ko": "소프트셸 크랩 게살 바인깐 국수",
+          "description_original": "Thick tapioca noodle soup featuring whole crispy deep-fried soft shell crab",
+          "description_ko": "통째로 튀긴 부드러운 소프트셸 크랩과 꽃게살이 푸짐한 걸쭉한 타피오카 국수",
+          "price_vnd": 320000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "해산물",
+            "특선"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Món chính & Bò nướng đá núi lửa / Western Mains & Stone Grill",
+      "section_ko": "서양식 메인 & 화산석 스테이크",
+      "items": [
+        {
+          "name_original": "Thịt bò Úc nướng trên đá nóng (250g)",
+          "name_ko": "화산석 스톤 그릴 호주산 소고기 스테이크 (250g)",
+          "description_original": "250g Australian beef fillet seared tableside on hot volcanic lava stone with herb butter",
+          "description_ko": "뜨거운 천연 화산석 위에서 원하는 굽기로 직접 구워 먹는 최고급 호주산 안심 스테이크",
+          "price_vnd": 590000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "스테이크",
+            "시그니처"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Cá hồi Na Uy áp chảo sốt bơ chanh",
+          "name_ko": "노르웨이산 연어 스테이크와 레몬 버터 소스",
+          "description_original": "Pan-seared Norwegian salmon with asparagus, mashed potato and citrus glaze",
+          "description_ko": "부드러운 매시드 포테이토와 아스파라거스를 곁들인 프리미엄 연어 구이",
+          "price_vnd": 390000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "생선요리"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Mì Ý gà nấm sốt kem (Chicken Mushroom Pasta)",
+          "name_ko": "치킨 머시룸 크림 파스타",
+          "description_original": "Creamy pasta tossed with chicken breast, wild mushrooms and parmesan",
+          "description_ko": "닭가슴살과 야생 버섯, 파마산 치즈의 고소한 크림 파스타",
+          "price_vnd": 250000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "파스타"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Cà phê & Đồ uống nghệ thuật RuNam / Signature Coffee & Drinks",
+      "section_ko": "루남 시그니처 커피 & 음료",
+      "items": [
+        {
+          "name_original": "Cà phê trứng RuNam (RuNam Signature Egg Coffee)",
+          "name_ko": "루남 시그니처 수제 에그 커피",
+          "description_original": "Velvety egg cream foam over rich Robusta & Arabica drip coffee",
+          "description_ko": "부드럽고 묵직한 수제 달걀 노른자 크림을 얹은 하노이풍 명품 에그커피",
+          "price_vnd": 120000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "커피",
+            "인기"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Cà phê cốt dừa tuyết (Coconut Snow Coffee)",
+          "name_ko": "코코넛 스노우 스무디 커피",
+          "description_original": "Ice-blended rich coconut cream poured with dark espresso",
+          "description_ko": "진한 에스프레소를 곁들인 코코넛 슬러시 커피",
+          "price_vnd": 130000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "커피"
+          ],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Trà hoa quả nhiệt đới thượng hạng",
+          "name_ko": "프리미엄 열대 과일 블렌딩 티",
+          "description_original": "Artisan fruit tea infusion with fresh tropical slices",
+          "description_ko": "신선한 과육을 듬뿍 넣은 수제 과일차",
+          "price_vnd": 110000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [
+            "티"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": {
+    "min": 90000,
+    "max": 590000,
+    "basis": "단품 국수/식사 19.5만~32만동, 화산석 스테이크 59만동, 커피/티 9만~13만동"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋타운 해변 룩각루(육각형 랜드마크 누각)에 자리잡은 베트남 최고급 카페 & 다이닝 체인 Café RuNam. 공식 사이트 메뉴판에서 반미(19.5만동), 분보후에(28만동), 골수쌀국수(32만동), 스톤스테이크(59만동), 에그커피(12만동) 등 11개 핵심 요리의 정확한 가격을 확인하여 B등급으로 편제함."
+}

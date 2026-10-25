@@ -27,7 +27,7 @@ export function SiteFooter() {
           </Link>
         ))}
         <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
-        <Link href={localePath(locale, '/news/events')}>{dict.nav.events}</Link>
+        <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
         <Link href={localePath(locale, '/impact')}>{dict.nav.impact}</Link>
         <Link href={localePath(locale, '/member')}>{dict.nav.member}</Link>
         <Link href={localePath(locale, '/for-businesses')}>{dict.nav.forBusinesses}</Link>

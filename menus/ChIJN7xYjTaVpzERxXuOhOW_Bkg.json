@@ -1,0 +1,46 @@
+{
+  "name_google": "Tribal Grill - Ribs, Burger & Beer",
+  "name_display": "Tribal Grill - Ribs, Burger & Beer",
+  "place_id": "ChIJN7xYjTaVpzERxXuOhOW_Bkg",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "C",
+  "status": "price_range_only",
+  "menu_date": null,
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": null,
+  "sources": [
+    {
+      "id": "s1",
+      "type": "third_party",
+      "url": "https://visitphuquoc.com.vn/tribal-grill",
+      "accessed": "2026-10-25"
+    }
+  ],
+  "sections": [],
+  "known_dishes": [
+    {
+      "name_original": "Tribal Smoked BBQ Ribs",
+      "name_ko": "트라이벌 스모크 바비큐 폭립",
+      "price_approx": "280,000 ~ 480,000 VND"
+    },
+    {
+      "name_original": "Gourmet Beef Burger with Fries",
+      "name_ko": "수제 비프 버거와 감자튀김",
+      "price_approx": "180,000 ~ 250,000 VND"
+    },
+    {
+      "name_original": "Craft Beer on Tap",
+      "name_ko": "수제 생맥주 (파인트)",
+      "price_approx": "70,000 ~ 110,000 VND"
+    }
+  ],
+  "price_range": {
+    "min": 70000,
+    "max": 500000,
+    "basis": "수제맥주 7만동~, 버거 18만~25만동, 바비큐 폭립 28만~48만동"
+  },
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "선셋 바자 상업구역의 오픈에어 그릴 스테이크하우스로 바비큐 립과 수제버거, 생맥주를 주력으로 함. C등급으로 기록함."
+}

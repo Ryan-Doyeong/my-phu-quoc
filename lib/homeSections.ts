@@ -41,7 +41,7 @@ export const DEFAULT_HOME_SECTIONS: HomeSections = {
   purpose: {
     visible: true,
     title: 'Sponsored with Purpose',
-    description: 'Sponsorship helps sustain Good life in Thaodien and creates room for community-focused local initiatives.',
+    description: 'Sponsorship helps sustain Good life in Phu Quoc and creates room for community-focused local initiatives.',
     handNote: 'Local support.\nReal change. ♡'
   },
   discover: {
@@ -68,7 +68,7 @@ export const DEFAULT_HOME_SECTIONS: HomeSections = {
   },
   closing: {
     visible: true,
-    title: 'A healthier, happier,\nmore connected Thao Dien.',
+    title: 'A healthier, happier,\nmore connected Phu Quoc.',
     description: 'LIVE WELL. GROW TOGETHER. FEEL AT HOME.'
   },
   eventPromo: {

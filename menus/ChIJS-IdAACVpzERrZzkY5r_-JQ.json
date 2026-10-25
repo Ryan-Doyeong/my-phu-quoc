@@ -1,0 +1,1304 @@
+{
+  "name_google": "Venice Cafe",
+  "name_display": "베니스 카페 & 이터리 (Venice Café & Eatery)",
+  "place_id": "ChIJS-IdAACVpzERrZzkY5r_-JQ",
+  "master_category": "2. 식당 & 레스토랑",
+  "info_level": "A",
+  "status": "complete",
+  "menu_date": "2026-10",
+  "stale": false,
+  "currency": "VND",
+  "price_note_global": "부가세(VAT) 포함 여부 매장 확인 요망. 호텔 투숙객 10% 할인.",
+  "sources": [
+    {
+      "id": "s1",
+      "type": "official_website",
+      "url": "https://skyethgroup.com/venice-cafe-eatery-menu/",
+      "accessed": "2026-10-25",
+      "note": "Skyeth Group 베니스 호텔 공식 웹사이트의 Venice Café & Eatery 정규 풀 메뉴판 (전 품목 베트남어/영어 명칭 및 정가 수록)"
+    },
+    {
+      "id": "s2",
+      "type": "official_website",
+      "url": "https://skyethgroup.com/venice-cafe-eatery/",
+      "accessed": "2026-10-25",
+      "note": "베니스 카페 공식 레스토랑 소개 페이지 (조식 뷔페 시간 및 300,000 VND 요금 안내)"
+    }
+  ],
+  "sections": [
+    {
+      "section_original": "Bữa sáng tự chọn / Daily Breakfast Buffet",
+      "section_ko": "조식 뷔페 (매일 아침 06:30 - 10:00)",
+      "items": [
+        {
+          "name_original": "Daily Breakfast Buffet",
+          "name_ko": "데일리 조식 뷔페 (성인/투숙객 및 일반)",
+          "description_original": "Venice Café & Eatery serves a breakfast buffet daily from 6:30 to 10:00 AM, open to hotel guests and visitors alike at 300,000 VND per guest. Guests staying at Venice, Roma and Sakurakyo receive 10 percent off.",
+          "description_ko": "선셋타운 키스브릿지 뷰를 감상하며 즐기는 유러피안 & 베트남식 조식 뷔페. 호텔 투숙객 10% 할인 혜택 제공.",
+          "price_vnd": 300000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "투숙객(Venice, Roma, Sakurakyo) 10% 할인",
+          "tags": [
+            "뷔페",
+            "조식"
+          ],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Khai vị (Appetizer)",
+      "section_ko": "에피타이저 (전채요리)",
+      "items": [
+        {
+          "name_original": "Tomato Soup",
+          "name_ko": "토마토 수프",
+          "description_original": "Súp cà chua: cà chua, húng quế, dầu ô liu, hành, nước dùng rau củ",
+          "description_ko": "바질, 올리브오일, 양파, 야채 육수를 넣고 끓여낸 정통 이탈리안 토마토 수프",
+          "price_vnd": 215000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Prawn Pumpkin Soup",
+          "name_ko": "새우 단호박 수프",
+          "description_original": "Súp bí đỏ tôm: bí đỏ, tôm, hành, lá nguyệt quế, bơ, kem, bánh mì nướng",
+          "description_ko": "단호박, 새우, 버터, 크림, 월계수잎과 구운 토스트를 곁들인 크리미 수프",
+          "price_vnd": 225000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Chicken Caesar Salad",
+          "name_ko": "치킨 시저 샐러드",
+          "description_original": "Salad Caesar gà nướng, xà lách romaine, thịt xông khói, cà chua bi, phô mai Parmesan",
+          "description_ko": "그릴드 치킨, 로메인 레터스, 베이컨, 방울토마토, 파마산 치즈",
+          "price_vnd": 275000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Greek Salad",
+          "name_ko": "그리스식 샐러드",
+          "description_original": "Salad Hy Lạp: cà chua bi, hành, dưa leo, ớt chuông, ô liu, phô mai Feta, sốt Ý",
+          "description_ko": "방울토마토, 적양파, 오이, 파프리카, 올리브, 페타 치즈와 이탈리안 드레싱",
+          "price_vnd": 275000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Bánh mì và burger (Sandwich & Burger)",
+      "section_ko": "반미 & 버거",
+      "items": [
+        {
+          "name_original": "Inter Cold Cuts Banh Mi",
+          "name_ko": "인터내셔널 콜드컷 반미",
+          "description_original": "Bánh mì thịt nguội: baguette, jambon, pepperoni, dưa leo, dưa muối, ngò rí, hành lá, bơ, pate gan heo",
+          "description_ko": "바게트, 햄, 페퍼로니, 오이, 피클, 고수, 파, 버터, 돼지 간 파테",
+          "price_vnd": 225000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Cheese Burger",
+          "name_ko": "호주산 소고기 치즈버거",
+          "description_original": "Burger bò Úc phô mai: bò xay Úc, hành, thịt xông khói, cà chua, xà lách, phô mai Cheddar, khoai tây chiên",
+          "description_ko": "호주산 비프 패티, 양파, 베이컨, 토마토, 레터스, 체다 치즈, 감자튀김",
+          "price_vnd": 345000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Chicken Burger",
+          "name_ko": "크리스피 치킨버거",
+          "description_original": "Burger gà chiên: ức gà chiên giòn, hành, thịt xông khói, trứng, cà chua, xà lách, phô mai Cheddar, khoai tây chiên",
+          "description_ko": "바삭한 치킨 브레스트, 양파, 베이컨, 달걀 프라이, 토마토, 레터스, 체다 치즈, 감자튀김",
+          "price_vnd": 325000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Club Sandwich",
+          "name_ko": "클럽 샌드위치",
+          "description_original": "Sandwich gà nướng, cà chua, thịt xông khói, trứng, phô mai Cheddar, xà lách, hành, khoai tây chiên",
+          "description_ko": "그릴드 치킨, 토마토, 베이컨, 달걀, 체다 치즈, 레터스, 감자튀김",
+          "price_vnd": 325000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Thịt và cá (Meat & Fish)",
+      "section_ko": "육류 & 생선 요리 (스테이크 & 그릴)",
+      "items": [
+        {
+          "name_original": "Rib-Eye Steak",
+          "name_ko": "립아이 꽃등심 스테이크",
+          "description_original": "Bò rib-eye, khoai tây nghiền, măng tây, bí ngòi, cà rốt, hành, húng quế",
+          "description_ko": "소고기 립아이, 매시드 포테이토, 아스파라거스, 주키니 호박, 당근, 바질",
+          "price_vnd": 975000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Striploin Steak",
+          "name_ko": "채끝 등심 스트립로인 스테이크",
+          "description_original": "Bò thăn lưng, khoai tây nghiền, măng tây, bí ngòi, cà rốt, hành, húng quế",
+          "description_ko": "소고기 스트립로인, 매시드 포테이토, 아스파라거스, 주키니 호박, 당근",
+          "price_vnd": 679000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Grilled Salmon",
+          "name_ko": "노르웨이산 연어 구이",
+          "description_original": "Cá hồi Na Uy nướng, ớt chuông, hành, bí ngòi, khoai tây nghiền",
+          "description_ko": "노르웨이산 연어 스테이크, 파프리카, 양파, 주키니 호박, 매시드 포테이토",
+          "price_vnd": 539000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Grilled Seabass",
+          "name_ko": "농어 구이",
+          "description_original": "Cá chẽm nướng, ớt chuông, hành, bí ngòi, khoai tây nghiền",
+          "description_ko": "신선한 농어 스테이크, 파프리카, 양파, 주키니 호박, 매시드 포테이토",
+          "price_vnd": 469000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Crispy Chicken Wings with Buffalo Sauce",
+          "name_ko": "버펄로 윙 치킨",
+          "description_original": "Cánh gà chiên giòn sốt Buffalo: Tabasco, bơ, mật ong, tỏi, sốt ớt",
+          "description_ko": "바삭한 닭날개 튀김, 타바스코 버터 꿀 칠리 소스",
+          "price_vnd": 315000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Grilled Chicken Breast",
+          "name_ko": "그릴드 치킨 브레스트",
+          "description_original": "Ức gà nướng, măng tây, ớt chuông, cà rốt, hành, khoai tây múi cau",
+          "description_ko": "닭가슴살 구이, 아스파라거스, 파프리카, 미니 당근, 웨지 감자",
+          "price_vnd": 479000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Stewed Beef with Red Wine",
+          "name_ko": "레드와인 비프 스튜",
+          "description_original": "Bò hầm rượu vang đỏ, khoai tây nghiền, bí ngòi, cà rốt bao tử, măng tây",
+          "description_ko": "레드와인에 푹 고아낸 소고기 스튜, 매시드 포테이토, 미니 당근, 아스파라거스",
+          "price_vnd": 425000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Smoked Duck Breast with Orange Sauce",
+          "name_ko": "오렌지 소스 훈제 오리가슴살",
+          "description_original": "Ức vịt xông khói sốt cam, khoai tây nghiền, cam tươi, rau củ luộc",
+          "description_ko": "훈제 오리가슴살, 매시드 포테이토, 신선한 오렌지, 익힌 야채",
+          "price_vnd": 405000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Smoked Pork Rib with BBQ Sauce",
+          "name_ko": "BBQ 훈제 돼지 등갈비",
+          "description_original": "Sườn heo xông khói sốt BBQ, bắp nướng, khoai tây nướng, rau củ nướng",
+          "description_ko": "스모크 바비큐 폭립, 구운 옥수수, 구운 감자, 모둠 구운 야채",
+          "price_vnd": 425000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Mì Ý (Spaghetti)",
+      "section_ko": "스파게티 & 파스타",
+      "items": [
+        {
+          "name_original": "Spaghetti Carbonara",
+          "name_ko": "스파게티 카르보나라",
+          "description_original": "Mì Ý Carbonara: hành, nấm, thịt xông khói, kem, sữa tươi, phô mai bào",
+          "description_ko": "양파, 양송이 버섯, 베이컨, 생크림, 우유, 그라나파다노 치즈",
+          "price_vnd": 375000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Spaghetti with Seafood Tomyum Sauce",
+          "name_ko": "똠얌 해산물 스파게티",
+          "description_original": "Mì Ý hải sản sốt Tomyum: tôm, mực, hành, ngò, nấm, húng quế, nước mắm, kem",
+          "description_ko": "새우, 오징어, 양파, 고수, 버섯, 바질, 피시소스, 크림의 똠얌 퓨전 파스타",
+          "price_vnd": 375000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Spaghetti with Truffle Mushroom",
+          "name_ko": "트러플 버섯 스파게티",
+          "description_original": "Mì Ý nấm truffle: hành, nấm, sốt truffle, kem, sữa, phô mai bào",
+          "description_ko": "양파, 양송이 버섯, 트러플 크림 소스, 우유, 치즈",
+          "price_vnd": 375000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Spaghetti with Seafood",
+          "name_ko": "해산물 토마토 스파게티",
+          "description_original": "Mì Ý hải sản: tôm, sò điệp, mực, sốt cà chua, húng quế, vang trắng",
+          "description_ko": "새우, 관자, 오징어, 토마토 소스, 바질, 화이트 와인",
+          "price_vnd": 375000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Spaghetti Bolognese",
+          "name_ko": "스파게티 볼로네제 (라구)",
+          "description_original": "Mì Ý bò bằm: hành, cần tây, cà rốt, bò xay Úc, tỏi tây, cà chua, húng quế, vang đỏ",
+          "description_ko": "호주산 다진 소고기, 양파, 샐러리, 당근, 토마토, 바질, 레드와인",
+          "price_vnd": 375000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Spaghetti Arrabbiata",
+          "name_ko": "스파게티 아라비아타",
+          "description_original": "Mì Ý sốt cà chua cay: cà chua, hương thảo, húng quế, ớt, phô mai Pecorino",
+          "description_ko": "매콤한 토마토 소스, 로즈메리, 바질, 페페론치노 칠리, 페코리노 치즈",
+          "price_vnd": 355000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Pizza (Pizza delights)",
+      "section_ko": "피자",
+      "items": [
+        {
+          "name_original": "Campanola Pizza",
+          "name_ko": "캄파놀라 채소 피자",
+          "description_original": "Ớt chuông, măng tây, hành, nấm, ô liu, sốt cà chua, húng quế, phô mai Mozzarella",
+          "description_ko": "파프리카, 아스파라거스, 양파, 버섯, 올리브, 토마토 소스, 바질, 모차렐라 치즈",
+          "price_vnd": 425000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Diavola Pizza",
+          "name_ko": "디아볼라 페퍼로니 피자",
+          "description_original": "Pepperoni, sốt cà chua, húng quế, oregano, phô mai Mozzarella",
+          "description_ko": "페퍼로니, 매콤한 토마토 소스, 바질, 오레가노, 모차렐라 치즈",
+          "price_vnd": 425000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Margherita Pizza",
+          "name_ko": "마르게리타 피자",
+          "description_original": "Cà chua bi, sốt cà chua, húng quế, oregano, phô mai Mozzarella",
+          "description_ko": "방울토마토, 토마토 소스, 생바질, 오레가노, 엑스트라 버진 올리브유, 모차렐라 치즈",
+          "price_vnd": 425000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Hawaiian Pizza",
+          "name_ko": "하와이안 피자",
+          "description_original": "Dứa, jambon, hành, sốt cà chua, húng quế, phô mai Mozzarella",
+          "description_ko": "달콤한 파인애플, 햄, 양파, 토마토 소스, 바질, 모차렐라 치즈",
+          "price_vnd": 425000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Frutti di Mare Pizza",
+          "name_ko": "프루티 디 마레 (해산물 피자)",
+          "description_original": "Pizza hải sản: tôm, sò điệp, mực, sốt cà chua, húng quế, phô mai Mozzarella",
+          "description_ko": "신선한 새우, 관자, 오징어, 토마토 소스, 바질, 모차렐라 치즈",
+          "price_vnd": 425000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Quattro Formaggi Pizza",
+          "name_ko": "콰트로 포르마지 (4종 치즈 피자)",
+          "description_original": "Pizza bốn loại phô mai: Cheddar, Parmesan, Pecorino, Mozzarella, cà chua, oregano",
+          "description_ko": "체다, 파마산, 페코리노, 모차렐라 치즈, 토마토, 오레가노",
+          "price_vnd": 425000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Tráng miệng (Dessert)",
+      "section_ko": "디저트",
+      "items": [
+        {
+          "name_original": "Panna Cotta Strawberry",
+          "name_ko": "딸기 판나코타",
+          "description_original": "Panna cotta dâu tây: sữa, kem tươi, dâu, si rô dâu",
+          "description_ko": "우유 생크림 푸딩, 신선한 생딸기, 수제 딸기 시럽",
+          "price_vnd": 155000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Tropical Yoghurt",
+          "name_ko": "트로피컬 요거트",
+          "description_original": "Sữa chua trái cây nhiệt đới, hạt chia",
+          "description_ko": "열대 과일 요거트 볼, 치아시드",
+          "price_vnd": 155000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Ice Cream",
+          "name_ko": "젤라또 아이스크림",
+          "description_original": "Kem: chocolate, dâu hoặc vani",
+          "description_ko": "초콜릿, 딸기 또는 바닐라 중 선택 (1스쿱)",
+          "price_vnd": 155000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Rượu vang (Wine)",
+      "section_ko": "와인 (레드, 화이트 & 스파클링)",
+      "items": [
+        {
+          "name_original": "Le Triporteur Rouge IGP, Rhône (vang đỏ)",
+          "name_ko": "Le Triporteur Rouge IGP, Rhône (vang đỏ)",
+          "description_original": "Grenache, Syrah",
+          "description_ko": "Grenache, Syrah",
+          "price_vnd": 190000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "Ly 190.000 / Chai 890.000",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Signore Giuseppe Bardolino, Veneto (vang đỏ)",
+          "name_ko": "Signore Giuseppe Bardolino, Veneto (vang đỏ)",
+          "description_original": "Corvina Veronese, Rondinella",
+          "description_ko": "Corvina Veronese, Rondinella",
+          "price_vnd": 180000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "Ly 180.000 / Chai 850.000",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Château Platon, Bordeaux (vang đỏ)",
+          "name_ko": "Château Platon, Bordeaux (vang đỏ)",
+          "description_original": "Cabernet Sauvignon, Cabernet Franc, Merlot",
+          "description_ko": "Cabernet Sauvignon, Cabernet Franc, Merlot",
+          "price_vnd": null,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "Chai 1.400.000",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Deakin Estate, Victoria (vang đỏ)",
+          "name_ko": "Deakin Estate, Victoria (vang đỏ)",
+          "description_original": "Shiraz",
+          "description_ko": "Shiraz",
+          "price_vnd": null,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "Chai 1.036.000",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Velenosi, Abruzzo (vang đỏ)",
+          "name_ko": "Velenosi, Abruzzo (vang đỏ)",
+          "description_original": "Montepulciano",
+          "description_ko": "Montepulciano",
+          "price_vnd": null,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "Chai 1.596.000",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Château Pas de l’Âne, Saint-Émilion (vang đỏ)",
+          "name_ko": "Château Pas de l’Âne, Saint-Émilion (vang đỏ)",
+          "description_original": "Merlot, Cabernet Franc",
+          "description_ko": "Merlot, Cabernet Franc",
+          "price_vnd": null,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "Chai 3.500.000",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Mouton Cadet Classic Rosé (vang hồng)",
+          "name_ko": "Mouton Cadet Classic Rosé (vang hồng)",
+          "description_original": "Merlot, Cabernet Franc, Cabernet Sauvignon",
+          "description_ko": "Merlot, Cabernet Franc, Cabernet Sauvignon",
+          "price_vnd": null,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "Chai 1.996.000",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Le Triporteur IGP, Rhône (vang trắng)",
+          "name_ko": "Le Triporteur IGP, Rhône (vang trắng)",
+          "description_original": "Grenache, Bourboulenc",
+          "description_ko": "Grenache, Bourboulenc",
+          "price_vnd": 190000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "Ly 190.000 / Chai 890.000",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Gustave Lorentz, Alsace (vang trắng)",
+          "name_ko": "Gustave Lorentz, Alsace (vang trắng)",
+          "description_original": "Riesling",
+          "description_ko": "Riesling",
+          "price_vnd": null,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "Chai 1.996.000",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Santa Cristina, Veneto (vang trắng)",
+          "name_ko": "Santa Cristina, Veneto (vang trắng)",
+          "description_original": "Pinot Grigio",
+          "description_ko": "Pinot Grigio",
+          "price_vnd": null,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "Chai 1.476.000",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Deakin Estate, Victoria (vang trắng)",
+          "name_ko": "Deakin Estate, Victoria (vang trắng)",
+          "description_original": "Chardonnay",
+          "description_ko": "Chardonnay",
+          "price_vnd": null,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "Chai 1.036.000",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Allan Scott, Marlborough (vang trắng)",
+          "name_ko": "Allan Scott, Marlborough (vang trắng)",
+          "description_original": "Sauvignon Blanc",
+          "description_ko": "Sauvignon Blanc",
+          "price_vnd": null,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "Chai 1.560.000",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Cava Vega Medien Semi-Sec (vang sủi)",
+          "name_ko": "Cava Vega Medien Semi-Sec (vang sủi)",
+          "description_original": "Macabeo, Chardonnay",
+          "description_ko": "Macabeo, Chardonnay",
+          "price_vnd": null,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "Chai 1.520.000",
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Tommasi Filodora Prosecco (vang sủi)",
+          "name_ko": "Tommasi Filodora Prosecco (vang sủi)",
+          "description_original": "Glera",
+          "description_ko": "Glera",
+          "price_vnd": null,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": "Chai 1.916.000",
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Cocktail (Classic & Fancy)",
+      "section_ko": "시그니처 & 클래식 칵테일",
+      "items": [
+        {
+          "name_original": "Venice Cocktail",
+          "name_ko": "베니스 시그니처 칵테일",
+          "description_original": "Rum, Aperol, bưởi, hoa hồng, chanh",
+          "description_ko": "럼, 아페롤, 자몽, 로즈 시럽, 라임",
+          "price_vnd": 220000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Pearl Island Sunny",
+          "name_ko": "펄 아일랜드 써니",
+          "description_original": "Rum, Blue Curaçao, chanh dây, dứa",
+          "description_ko": "럼, 블루 큐라소, 패션프루트, 파인애플",
+          "price_vnd": 220000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Florence Sunset",
+          "name_ko": "플로렌스 선셋",
+          "description_original": "Malibu, cam, dứa, grenadine",
+          "description_ko": "말리부 코코넛 럼, 오렌지, 파인애플, 그레나딘 시럽",
+          "price_vnd": 220000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Ly Chỉ Kiss",
+          "name_ko": "리치 키스",
+          "description_original": "Vodka, si rô vải, cam, chanh, trứng",
+          "description_ko": "보드카, 리치 시럽, 오렌지, 라임, 에그화이트",
+          "price_vnd": 220000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Cold Smoke",
+          "name_ko": "콜드 스모크",
+          "description_original": "Vodka, si rô hoa cơm cháy, trà xanh, chanh",
+          "description_ko": "보드카, 엘더플라워 시럽, 녹차, 라임",
+          "price_vnd": 220000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Peachy Breeze",
+          "name_ko": "피치 브리즈",
+          "description_original": "Vodka, si rô đào, chanh, soda",
+          "description_ko": "보드카, 복숭아 시럽, 라임, 탄산수",
+          "price_vnd": 220000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Salted Sol",
+          "name_ko": "솔티드 솔",
+          "description_original": "Tequila, cam, si rô đường, muối, Angostura bitter",
+          "description_ko": "데킬라, 오렌지, 슈거 시럽, 소금 리밍, 앙고스투라 비터",
+          "price_vnd": 220000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Melon Mist",
+          "name_ko": "멜론 미스트",
+          "description_original": "Gin, si rô hoa hồng, chanh, dưa hấu, si rô đường",
+          "description_ko": "진, 로즈 시럽, 라임, 수박 주스, 시럽",
+          "price_vnd": 220000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Midnight",
+          "name_ko": "미드나이트",
+          "description_original": "Gin, si rô dâu, dứa, mật ong, chanh",
+          "description_ko": "진, 스트로베리 시럽, 파인애플, 꿀, 라임",
+          "price_vnd": 220000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Negroni",
+          "name_ko": "네그로니",
+          "description_original": "Gin, Martini Rosso, Campari",
+          "description_ko": "진, 마르티니 로쏘, 캄파리",
+          "price_vnd": 220000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Classic Mojito",
+          "name_ko": "클래식 모히토",
+          "description_original": "Rum, đường nâu, chanh, bạc hà, soda, đá",
+          "description_ko": "럼, 브라운 슈거, 라임, 신선한 민트잎, 소다수",
+          "price_vnd": 220000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Long Island Iced Tea",
+          "name_ko": "롱아일랜드 아이스티",
+          "description_original": "Tequila, vodka, gin, rum, Cointreau, chanh, coke",
+          "description_ko": "데킬라, 보드카, 진, 럼, 쿠앵트로, 레몬, 콜라",
+          "price_vnd": 220000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Pina Colada",
+          "name_ko": "피나콜라다",
+          "description_original": "Rum, Malibu, kem dừa, nước dứa, chanh",
+          "description_ko": "럼, 말리부, 코코넛 크림, 파인애플 주스, 라임",
+          "price_vnd": 220000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Mocktail không cồn (Virgin Cocktails)",
+      "section_ko": "무알콜 목테일",
+      "items": [
+        {
+          "name_original": "Venice Sunset",
+          "name_ko": "베니스 선셋 목테일",
+          "description_original": "Cam, chanh dây, grenadine, quế, đường",
+          "description_ko": "오렌지, 패션프루트, 그레나딘, 시나몬, 슈거",
+          "price_vnd": 155000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Guava Detox",
+          "name_ko": "구아바 디톡스 목테일",
+          "description_original": "Nước ổi, nước cam, bạc hà, chanh",
+          "description_ko": "구아바 주스, 오렌지 주스, 민트, 라임",
+          "price_vnd": 155000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Phu Quoc Tropical",
+          "name_ko": "푸꾸옥 트로피컬 목테일",
+          "description_original": "Xoài, dứa, chanh, grenadine",
+          "description_ko": "망고, 파인애플, 라임, 그레나딘",
+          "price_vnd": 155000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Island Dream",
+          "name_ko": "아일랜드 드림 목테일",
+          "description_original": "Dứa, kem dừa, đường, chanh",
+          "description_ko": "파인애플, 코코넛 크림, 설탕, 라임",
+          "price_vnd": 155000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Passion Virgin Mojito",
+          "name_ko": "패션프루트 버진 모히토",
+          "description_original": "Chanh dây, đường, bạc hà, soda",
+          "description_ko": "패션프루트, 민트잎, 설탕, 탄산수",
+          "price_vnd": 155000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Blue Ocean",
+          "name_ko": "블루 오션 목테일",
+          "description_original": "Blue Curaçao, nước dưa leo, bạc hà, chanh, soda",
+          "description_ko": "블루 큐라소, 오이 즙, 민트, 라임, 소다",
+          "price_vnd": 155000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Gingerberry Fizz",
+          "name_ko": "진저베리 피즈 목테일",
+          "description_original": "Dâu, chanh, ginger ale, bạc hà",
+          "description_ko": "딸기, 라임, 진저에일, 민트",
+          "price_vnd": 155000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Cà phê (Coffee)",
+      "section_ko": "커피 & 스페셜티 음료",
+      "items": [
+        {
+          "name_original": "Venice’s Signature Coffee",
+          "name_ko": "베니스 시그니처 솔트 크림 커피",
+          "description_original": "Espresso, sữa đặc, kem muối",
+          "description_ko": "에스프레소, 연유, 수제 쏠트 크림 폼",
+          "price_vnd": 110000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Tiramisu Cheese Coffee",
+          "name_ko": "티라미수 치즈 커피",
+          "description_original": "Cà phê phô mai tiramisu: cà phê, kem phô mai, cacao",
+          "description_ko": "에스프레소, 치즈 크림 폼, 카카오 파우더",
+          "price_vnd": 110000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Cocoa Tiramisu",
+          "name_ko": "코코아 티라미수",
+          "description_original": "Kakao vị tiramisu: cacao đá với kem tiramisu",
+          "description_ko": "진한 아이스 코코아, 수제 티라미수 크림",
+          "price_vnd": 110000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Coconut Coffee",
+          "name_ko": "코코넛 스무디 커피",
+          "description_original": "Cà phê cốt dừa: sữa dừa, cà phê, dừa sấy",
+          "description_ko": "코코넛 밀크 쉐이크, 에스프레소 샷, 구운 코코넛 칩",
+          "price_vnd": 110000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Yogurt Coffee",
+          "name_ko": "요거트 커피",
+          "description_original": "Cà phê sữa chua: cà phê, xoài tươi",
+          "description_ko": "에스프레소와 신선한 생망고 요거트의 조화",
+          "price_vnd": 110000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Egg Coffee",
+          "name_ko": "하노이식 에그 커피",
+          "description_original": "Cà phê trứng: trứng, sữa đặc, espresso, cacao",
+          "description_ko": "달걀 노른자 크림 폼, 연유, 진한 에스프레소, 카카오",
+          "price_vnd": 110000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Traditional Coffee",
+          "name_ko": "베트남 전통 커피 (카페 쓰어다 / 카페 덴)",
+          "description_original": "Cà phê truyền thống: cà phê đen Việt Nam với sữa đặc",
+          "description_ko": "베트남 전통 핀 추출 커피와 연유 또는 블랙",
+          "price_vnd": 110000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Espresso, Americano, Latte, Matcha Latte, Cara Latte, Cappuccino",
+          "name_ko": "에스프레소 & 이탈리안 커피 셀렉션",
+          "description_original": "Cà phê Ý",
+          "description_ko": "에스프레소 / 아메리카노 / 라떼 / 말차라떼 / 카라멜라떼 / 카푸치노",
+          "price_vnd": 95000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Hot or Iced Chocolate",
+          "name_ko": "핫 / 아이스 초콜릿",
+          "description_original": "Sô cô la nóng hoặc đá: cacao, kem, sữa đặc",
+          "description_ko": "카카오 파우더, 부드러운 밀크 크림, 연유",
+          "price_vnd": 95000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Trà trái cây (Refreshing Tea)",
+      "section_ko": "과일 티 (리프레싱 티)",
+      "items": [
+        {
+          "name_original": "Tropical Tea",
+          "name_ko": "트로피컬 체리 오렌지 티",
+          "description_original": "Trà anh đào cam: cam tươi, anh đào, trà xanh",
+          "description_ko": "생오렌지, 체리, 녹차 베이스 블렌딩 티",
+          "price_vnd": 95000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Be-A-Mangozing",
+          "name_ko": "비-어-망고징 망고 티",
+          "description_original": "Trà xoài nhiệt đới: xoài tươi, cam, chanh, trà xanh",
+          "description_ko": "생망고 과육, 오렌지, 라임, 녹차",
+          "price_vnd": 95000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Summer Strawberry",
+          "name_ko": "썸머 스트로베리 티",
+          "description_original": "Trà dâu, kiwi, nha đam, trà xanh",
+          "description_ko": "딸기 과육, 키위, 알로에 베라, 녹차",
+          "price_vnd": 95000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Love Sunny",
+          "name_ko": "러브 써니 워터멜론 리치 티",
+          "description_original": "Trà dưa hấu vải: si rô dưa hấu, vải, chanh, soda, trà xanh",
+          "description_ko": "수박 시럽, 생리치, 라임, 탄산수, 녹차",
+          "price_vnd": 95000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "The Smell of the Sunshine",
+          "name_ko": "더 스멜 오브 선샤인 애플 시나몬 티",
+          "description_original": "Trà táo xanh hoa hồi: quế, chanh, si rô táo xanh, đường, trà xanh",
+          "description_ko": "계피, 라임, 청사과 시럽, 녹차",
+          "price_vnd": 95000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Nước ép & Healthy Drinks",
+      "section_ko": "생과일 주스 & 헬시 음료",
+      "items": [
+        {
+          "name_original": "Venice Juice",
+          "name_ko": "베니스 시그니처 주스",
+          "description_original": "Nước ép trái cây Venice: cam, dâu, si rô hoa hồng",
+          "description_ko": "생오렌지, 딸기 착즙, 로즈 시럽",
+          "price_vnd": 95000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Golden Roots Elixir",
+          "name_ko": "골든 루츠 엘릭서 (진저 허니 레몬그라스)",
+          "description_original": "Gừng mật ong sả nóng",
+          "description_ko": "따뜻한 생강, 자연산 꿀, 레몬그라스 차",
+          "price_vnd": 95000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Beach Bum",
+          "name_ko": "비치 범 코코넛 알로에",
+          "description_original": "Nước dừa nha đam",
+          "description_ko": "신선한 코코넛 워터, 알로에 베라",
+          "price_vnd": 95000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Summer in Venice",
+          "name_ko": "썸머 인 베니스 판단 레몬그라스",
+          "description_original": "Chanh sả lá nếp nha đam",
+          "description_ko": "라임, 레몬그라스, 판단 잎, 알로에 베라",
+          "price_vnd": 95000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Fresh Juice",
+          "name_ko": "100% 착즙 생과일 주스",
+          "description_original": "Nước ép cam, dứa, ổi, dưa hấu hoặc dừa tươi",
+          "description_ko": "오렌지, 파인애플, 구아바, 수박, 신선한 통코코넛 중 택 1",
+          "price_vnd": 95000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Green Zen Energy",
+          "name_ko": "그린 젠 에너지 말차 레몬",
+          "description_original": "Matcha chanh mật ong",
+          "description_ko": "말차, 라임, 천연 꿀",
+          "price_vnd": 95000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Passion Healthy",
+          "name_ko": "패션 헬시 치아시드 드링크",
+          "description_original": "Chanh dây thơm đào, hạt chia",
+          "description_ko": "패션프루트, 복숭아, 파인애플, 치아시드",
+          "price_vnd": 95000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Sinh tố và đá xay (Smoothies & Ice Blended)",
+      "section_ko": "스무디 & 프라페 (블렌디드)",
+      "items": [
+        {
+          "name_original": "Passionate Smoothie",
+          "name_ko": "패셔네이트 망고 패션 요거트 스무디",
+          "description_original": "Sữa chua xoài chanh dây",
+          "description_ko": "생망고와 패션프루트를 넣은 요거트 스무디",
+          "price_vnd": 110000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Love Formula",
+          "name_ko": "러브 포뮬러 딸기 알로에 블렌디드",
+          "description_original": "Dâu tây đá xay nha đam",
+          "description_ko": "생딸기 과육과 알로에를 갈아 넣은 스무디",
+          "price_vnd": 110000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Coma Tango",
+          "name_ko": "코마 탱고 망고 코코넛 블렌디드",
+          "description_original": "Xoài, kem dừa, sữa tươi, sữa đặc",
+          "description_ko": "생망고 과육, 코코넛 크림, 우유, 연유",
+          "price_vnd": 110000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Choco Blended",
+          "name_ko": "초코 블렌디드 프라페",
+          "description_original": "Chocolate đá xay",
+          "description_ko": "진한 다크 초콜릿 얼음 블렌디드",
+          "price_vnd": 110000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Matcha Blended",
+          "name_ko": "말차 블렌디드 프라페",
+          "description_original": "Trà xanh đá xay",
+          "description_ko": "프리미엄 녹차 말차 얼음 블렌디드",
+          "price_vnd": 110000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Caramel Mix",
+          "name_ko": "카라멜 믹스 요거트 블렌디드",
+          "description_original": "Sữa chua caramel",
+          "description_ko": "수제 카라멜 소스와 플레인 요거트 블렌디드",
+          "price_vnd": 110000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    },
+    {
+      "section_original": "Bia và nước đóng chai (Beer & Soft Drinks)",
+      "section_ko": "맥주 & 탄산음료",
+      "items": [
+        {
+          "name_original": "Beer 330 ml",
+          "name_ko": "베트남 로컬 맥주 (캔/병 330ml)",
+          "description_original": "Bia Bivina, Sài Gòn, Tiger Crystal",
+          "description_ko": "비비나(Bivina), 사이공(Saigon), 타이거 크리스탈(Tiger Crystal)",
+          "price_vnd": 75000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Sapporo Draft",
+          "name_ko": "삿포로 생맥주",
+          "description_original": "Bia Sapporo tươi",
+          "description_ko": "삿포로 프리미엄 생맥주",
+          "price_vnd": 90000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Mineral Water",
+          "name_ko": "프리미엄 미네랄 워터",
+          "description_original": "Nước khoáng Perrier, Evian",
+          "description_ko": "페리에(Perrier 탄산수) 또는 에비앙(Evian)",
+          "price_vnd": 85000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        },
+        {
+          "name_original": "Soft Drinks",
+          "name_ko": "탄산음료",
+          "description_original": "Nước có ga: Coke, Diet Coke, Coke Zero, Sprite, Tonic, Soda",
+          "description_ko": "코카콜라, 다이어트 콜라, 제로 콜라, 스프라이트, 토닉워터, 소다수",
+          "price_vnd": 70000,
+          "unit_original": null,
+          "unit_ko": null,
+          "price_note": null,
+          "tags": [],
+          "source_ref": "s1"
+        }
+      ]
+    }
+  ],
+  "known_dishes": [],
+  "price_range": null,
+  "conflicts": [],
+  "db_corrections": [],
+  "worker_notes": "Skyeth Group 공식 웹사이트에 게시된 97개 품목의 이탈리안 요리, 스테이크, 피자, 파스타, 와인, 칵테일, 커피 및 조식 뷔페(30만 동) 정보를 완벽하게 추출하고 한국어로 번역 완료함."
+}

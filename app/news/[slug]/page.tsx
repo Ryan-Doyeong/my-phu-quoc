@@ -18,5 +18,5 @@ export default async function Article({
   params: Promise<{ slug: string }>
 }) {
   const { slug } = await params
-  return renderArticleRoute(slug, 'en')
+  return renderArticleRoute(slug, 'en', 'news')
 }
