@@ -64,21 +64,21 @@ export const PUBLISHED_EVENTS: EventSampleStory[] = [
     category: 'Kids & Craft Workshop',
     category_vi: 'Workshop Thiếu nhi & Thủ công',
     category_ko: '어린이 · 공예 워크숍',
-    title: 'Spooky Halloween Mask Making (Kids 6–12) – Thảo Điền',
-    title_vi: 'Workshop Làm Mặt nạ Halloween cho Bé (6–12 tuổi) – Thảo Điền',
-    title_ko: 'Spooky Halloween Mask Making (Kids 6–12) – 타오디엔 어린이 할로윈 가면 만들기 공방',
+    title: 'Spooky Halloween Mask Making (Kids 6–12) – Phú Quốc',
+    title_vi: 'Workshop Làm Mặt nạ Halloween cho Bé (6–12 tuổi) – Phú Quốc',
+    title_ko: 'Spooky Halloween Mask Making (Kids 6–12) – 푸꾸옥 어린이 할로윈 가면 만들기 공방',
     subtitle:
       'Hands-on Halloween mask-making workshop for children aged 6–12 at Get Arty Studio in Phu Quoc — all craft materials provided.',
     subtitle_vi:
-      'Buổi workshop thủ công tự tay làm mặt nạ Halloween dành cho các bé từ 6–12 tuổi tại Get Arty Studio (Thảo Điền) — cung cấp đầy đủ dụng cụ.',
+      'Buổi workshop thủ công tự tay làm mặt nạ Halloween dành cho các bé từ 6–12 tuổi tại Get Arty Studio (Phú Quốc) — cung cấp đầy đủ dụng cụ.',
     subtitle_ko:
-      '타오디엔 아트 스튜디오 Get Arty에서 열리는 6–12세 어린이 할로윈 가면 만들기 공방 — 모든 재료 제공 및 당일 완성품 지참 귀가.',
+      '푸꾸옥 아트 스튜디오 Get Arty에서 열리는 6–12세 어린이 할로윈 가면 만들기 공방 — 모든 재료 제공 및 당일 완성품 지참 귀가.',
     excerpt:
-      'A creative Sunday afternoon workshop at Get Arty Studio (19 Đường số 46, Thảo Điền) where kids aged 6–12 design and craft their own Halloween masks to take home.',
+      'A creative Sunday afternoon workshop at Get Arty Studio (19 Đường số 46, Phú Quốc) where kids aged 6–12 design and craft their own Halloween masks to take home.',
     excerpt_vi:
-      'Buổi chiều Chủ Nhật sáng tạo tại Get Arty Studio (19 Đường số 46, Thảo Điền), nơi các bé 6–12 tuổi tự thiết kế và hoàn thiện chiếc mặt nạ Halloween để mang về nhà ngay trong ngày.',
+      'Buổi chiều Chủ Nhật sáng tạo tại Get Arty Studio (19 Đường số 46, Phú Quốc), nơi các bé 6–12 tuổi tự thiết kế và hoàn thiện chiếc mặt nạ Halloween để mang về nhà ngay trong ngày.',
     excerpt_ko:
-      '10월 25일(일) 오후 타오디엔 Get Arty Studio(19 Đường số 46)에서 6–12세 어린이가 직접 할로윈 가면을 만들고 당일 완성품을 집으로 가져가는 체험 공방입니다.',
+      '10월 25일(일) 오후 푸꾸옥 Get Arty Studio(19 Đường số 46)에서 6–12세 어린이가 직접 할로윈 가면을 만들고 당일 완성품을 집으로 가져가는 체험 공방입니다.',
     body_en: `**Get Arty** (an art studio located in Phu Quoc, [www.getartystudio.com](https://www.getartystudio.com)) is hosting a hands-on **Spooky Halloween Mask Making** workshop for children aged **6 to 12** on Sunday afternoon, October 25, 2026.
 
 ## Workshop Highlights
@@ -92,14 +92,14 @@ export const PUBLISHED_EVENTS: EventSampleStory[] = [
 
 - **Date & Time**: Sunday, October 25, 2026 · **15:30 – 17:00**
 - **Organizer**: Get Arty ([www.getartystudio.com](https://www.getartystudio.com))
-- **Location**: Get Arty Studio, 19 Đường số 46, Thảo Điền, Thủ Đức, Hồ Chí Minh
+- **Location**: Get Arty Studio, 19 Đường số 46, Phú Quốc, Thủ Đức, Hồ Chí Minh
 - **Fee**: **450,000 VND** per child (**10% sibling discount** for 2 or more brothers/sisters)
 - **Booking & Inquiries**: [www.getartystudio.com/events](https://www.getartystudio.com/events)
 
 ---
 
 **Source**: Shared via Facebook 'Events in Saigon' group (Get Arty) / 정보 출처: Facebook 'Events in Saigon' 그룹 공유 (Get Arty)`,
-    body_vi: `**Get Arty** (xưởng nghệ thuật tại Thảo Điền, [www.getartystudio.com](https://www.getartystudio.com)) tổ chức buổi workshop thủ công **Spooky Halloween Mask Making** dành cho các bé từ **6 đến 12 tuổi** vào chiều Chủ Nhật, ngày 25/10/2026.
+    body_vi: `**Get Arty** (xưởng nghệ thuật tại Phú Quốc, [www.getartystudio.com](https://www.getartystudio.com)) tổ chức buổi workshop thủ công **Spooky Halloween Mask Making** dành cho các bé từ **6 đến 12 tuổi** vào chiều Chủ Nhật, ngày 25/10/2026.
 
 ## Nội dung hoạt động
 
@@ -112,14 +112,14 @@ export const PUBLISHED_EVENTS: EventSampleStory[] = [
 
 - **Thời gian**: Chủ Nhật, **25/10/2026 · 15:30 – 17:00**
 - **Đơn vị tổ chức**: Get Arty ([www.getartystudio.com](https://www.getartystudio.com))
-- **Địa điểm**: Get Arty Studio, 19 Đường số 46, Thảo Điền, Thủ Đức, Hồ Chí Minh
+- **Địa điểm**: Get Arty Studio, 19 Đường số 46, Phú Quốc, Thủ Đức, Hồ Chí Minh
 - **Chi phí**: **450.000 VND / 1 bé** (**Giảm 10%** khi đăng ký từ 2 anh/chị/em ruột trở lên)
 - **Đặt chỗ & Liên hệ**: [www.getartystudio.com/events](https://www.getartystudio.com/events)
 
 ---
 
 **Nguồn thông tin**: Chia sẻ từ nhóm Facebook 'Events in Saigon' (Get Arty) / 정보 출처: Facebook 'Events in Saigon' 그룹 공유 (Get Arty)`,
-    body_ko: `타오디엔 소재 아트 스튜디오 **Get Arty**([www.getartystudio.com](https://www.getartystudio.com))에서 오는 2026년 10월 25일(일) 오후, **6~12세 어린이**를 위한 할로윈 가면 만들기 공방(**Spooky Halloween Mask Making**)을 진행합니다.
+    body_ko: `푸꾸옥 소재 아트 스튜디오 **Get Arty**([www.getartystudio.com](https://www.getartystudio.com))에서 오는 2026년 10월 25일(일) 오후, **6~12세 어린이**를 위한 할로윈 가면 만들기 공방(**Spooky Halloween Mask Making**)을 진행합니다.
 
 ## 주요 프로그램 내용
 
@@ -131,37 +131,37 @@ export const PUBLISHED_EVENTS: EventSampleStory[] = [
 ## 일시 · 장소 · 참가비 및 예약 안내
 
 - **일시**: 2026년 10월 25일(일) **15:30 – 17:00**
-- **주최**: Get Arty (타오디엔 소재 아트 스튜디오, [www.getartystudio.com](https://www.getartystudio.com))
-- **장소**: Get Arty Studio, 19 Đường số 46, Thảo Điền, Thủ Đức, Hồ Chí Minh
+- **주최**: Get Arty (푸꾸옥 소재 아트 스튜디오, [www.getartystudio.com](https://www.getartystudio.com))
+- **장소**: Get Arty Studio, 19 Đường số 46, Phú Quốc, Thủ Đức, Hồ Chí Minh
 - **요금**: 1인 **450,000 VND** (2명 이상 형제/자매 함께 등록 시 **10% 할인**)
 - **예약 및 문의**: [www.getartystudio.com/events](https://www.getartystudio.com/events)
 
 ---
 
 **정보 출처**: Facebook 'Events in Saigon' 그룹 공유 (Get Arty)`,
-    seo_title: 'Spooky Halloween Mask Making (Kids 6–12) – Thảo Điền | Good Life in Phu Quoc',
+    seo_title: 'Spooky Halloween Mask Making (Kids 6–12) – Phú Quốc | Good Life in Phu Quoc',
     seo_title_vi:
-      'Workshop Làm Mặt nạ Halloween cho Bé (6–12 tuổi) – Thảo Điền | Good Life in Phu Quoc',
+      'Workshop Làm Mặt nạ Halloween cho Bé (6–12 tuổi) – Phú Quốc | Good Life in Phu Quoc',
     seo_title_ko:
-      'Spooky Halloween Mask Making (Kids 6–12) – 타오디엔 어린이 할로윈 가면 만들기 공방 | Good Life in Phu Quoc',
+      'Spooky Halloween Mask Making (Kids 6–12) – 푸꾸옥 어린이 할로윈 가면 만들기 공방 | Good Life in Phu Quoc',
     seo_description:
       'Kids Halloween mask-making workshop (ages 6–12) at Get Arty Studio in Phu Quoc on Oct 25, 2026 (15:30–17:00). 450,000 VND per child, 10% sibling discount, all materials provided.',
     seo_description_vi:
-      'Workshop làm mặt nạ Halloween cho bé 6–12 tuổi tại Get Arty Studio (19 Đường số 46, Thảo Điền) ngày 25/10/2026 (15:30–17:00). Học phí 450.000 VND/bé, giảm 10% cho anh chị em.',
+      'Workshop làm mặt nạ Halloween cho bé 6–12 tuổi tại Get Arty Studio (19 Đường số 46, Phú Quốc) ngày 25/10/2026 (15:30–17:00). Học phí 450.000 VND/bé, giảm 10% cho anh chị em.',
     seo_description_ko:
-      '2026년 10월 25일(일) 15:30–17:00 타오디엔 Get Arty Studio에서 열리는 6–12세 어린이 할로윈 가면 만들기 공방. 참가비 450,000 VND(형제·자매 10% 할인), 재료 전부 제공.',
+      '2026년 10월 25일(일) 15:30–17:00 푸꾸옥 Get Arty Studio에서 열리는 6–12세 어린이 할로윈 가면 만들기 공방. 참가비 450,000 VND(형제·자매 10% 할인), 재료 전부 제공.',
     key_points: [
-      'Sunday, October 25, 2026 (15:30–17:00) at Get Arty Studio, 19 Đường số 46, Thảo Điền',
+      'Sunday, October 25, 2026 (15:30–17:00) at Get Arty Studio, 19 Đường số 46, Phú Quốc',
       'For kids aged 6–12: all mask-making materials provided, older kids can use glue guns, take finished mask home the same day',
       'Fee: 450,000 VND per child (10% sibling discount for 2+ kids) · Booking: www.getartystudio.com/events',
     ],
     key_points_vi: [
-      'Chủ Nhật, 25/10/2026 (15:30–17:00) tại Get Arty Studio, 19 Đường số 46, Thảo Điền',
+      'Chủ Nhật, 25/10/2026 (15:30–17:00) tại Get Arty Studio, 19 Đường số 46, Phú Quốc',
       'Dành cho bé 6–12 tuổi: cung cấp toàn bộ nguyên liệu, bé lớn được dùng súng bắn keo, mang mặt nạ hoàn thiện về ngay trong ngày',
       'Chi phí: 450.000 VND/bé (giảm 10% cho từ 2 anh/chị/em) · Đặt chỗ: www.getartystudio.com/events',
     ],
     key_points_ko: [
-      '일시 및 장소: 2026년 10월 25일(일) 15:30–17:00 · Get Arty Studio (19 Đường số 46, Thảo Điền)',
+      '일시 및 장소: 2026년 10월 25일(일) 15:30–17:00 · Get Arty Studio (19 Đường số 46, Phú Quốc)',
       '대상 및 내용: 6–12세 어린이 할로윈 가면 만들기 공방 (재료 전부 제공, 큰 아이 글루건 사용 가능, 당일 완성품 지참 귀가)',
       '요금 및 예약: 1인 450,000 VND (2명 이상 형제/자매 10% 할인) · www.getartystudio.com/events',
     ],
@@ -182,7 +182,7 @@ export const PUBLISHED_EVENTS: EventSampleStory[] = [
     updated_at: '2026-10-20T13:45:00+07:00',
     event_date: '2026-10-25T15:30:00+07:00',
     effective_date: '2026-10-25T17:00:00+07:00', // Automatically switches to Ended after Oct 25, 2026 17:00 ICT
-    event_location: 'Get Arty Studio, 19 Đường số 46, Thảo Điền, Thủ Đức, Hồ Chí Minh',
+    event_location: 'Get Arty Studio, 19 Đường số 46, Phú Quốc, Thủ Đức, Hồ Chí Minh',
     author_name: 'Good Life Editorial Desk',
     source_name:
       "Source: Shared via Facebook 'Events in Saigon' group (Get Arty) · 정보 출처: Facebook 'Events in Saigon' 그룹 공유 (Get Arty)",
@@ -225,14 +225,14 @@ export const SAMPLE_EVENTS: EventSampleStory[] = [
     category_vi: 'Chợ phiên & Pop-up',
     category_ko: '플리마켓 · 팝업',
     title: '[SAMPLE] Phu Quoc Weekend Farmers & Craft Market at Xuan Thuy Courtyard',
-    title_vi: '[MẪU] Chợ phiên Nông sản & Thủ công Cuối tuần Thảo Điền tại sân Xuân Thủy',
-    title_ko: '[샘플] 타오디엔 주말 파머스 & 크래프트 마켓 (쑤언투이 코트야드)',
+    title_vi: '[MẪU] Chợ phiên Nông sản & Thủ công Cuối tuần Phú Quốc tại sân Xuân Thủy',
+    title_ko: '[샘플] 푸꾸옥 주말 파머스 & 크래프트 마켓 (쑤언투이 코트야드)',
     subtitle: 'Sample preview event: organic produce, sourdough bread, local ceramics and family-friendly workshops.',
     subtitle_vi: 'Bài mẫu xem trước: nông sản hữu cơ, bánh mì sourdough, gốm thủ công và workshop cuối tuần.',
     subtitle_ko: '화면 확인용 샘플 이벤트: 유기농 농산물, 사워도우 베이커리, 로컬 도자기 공예 및 주말 워크숍 안내.',
     excerpt: '[SAMPLE — Not a real event] A neighborhood weekend market bringing together Dalat organic growers, artisan bakers and local makers in central Phu Quoc.',
-    excerpt_vi: '[BÀI MẪU — Không phải sự kiện thật] Chợ phiên cuối tuần quy tụ nông sản Đà Lạt, bánh nướng thủ công và các nghệ nhân địa phương tại trung tâm Thảo Điền.',
-    excerpt_ko: '[샘플 — 실제 행사가 아닙니다] 달랏 유기농 농산물, 수제 베이커리, 로컬 창작자들이 한자리에 모이는 타오디엔 주말 마켓 안내입니다.',
+    excerpt_vi: '[BÀI MẪU — Không phải sự kiện thật] Chợ phiên cuối tuần quy tụ nông sản Đà Lạt, bánh nướng thủ công và các nghệ nhân địa phương tại trung tâm Phú Quốc.',
+    excerpt_ko: '[샘플 — 실제 행사가 아닙니다] 달랏 유기농 농산물, 수제 베이커리, 로컬 창작자들이 한자리에 모이는 푸꾸옥 주말 마켓 안내입니다.',
     body_en: `> **[SAMPLE PREVIEW]** This post is a **sample entry** created to preview the Phu Quoc Events board layout and features. It is not a real event and is blocked from search engine indexing (\`noindex\`).
 
 The Phu Quoc Weekend Farmers & Craft Market gathers local growers, bakers and neighborhood makers for a relaxed two-day courtyard market on Xuan Thuy Street.
@@ -252,9 +252,9 @@ The Phu Quoc Weekend Farmers & Craft Market gathers local growers, bakers and ne
 ## Good to know
 
 Bring your own reusable tote bag and tumbler. Motorbike parking is available at the side entrance on Quoc Huong Street.`,
-    body_vi: `> **[BÀI MẪU XEM TRƯỚC]** Đây là **bài viết mẫu** dùng để kiểm tra giao diện bảng Sự kiện Thảo Điền, không phải sự kiện thực tế và đã được chặn lập chỉ mục tìm kiếm (\`noindex\`).
+    body_vi: `> **[BÀI MẪU XEM TRƯỚC]** Đây là **bài viết mẫu** dùng để kiểm tra giao diện bảng Sự kiện Phú Quốc, không phải sự kiện thực tế và đã được chặn lập chỉ mục tìm kiếm (\`noindex\`).
 
-Chợ phiên Nông sản & Thủ công Cuối tuần Thảo Điền quy tụ các nhà vườn địa phương, tiệm bánh thủ công và các nghệ nhân trong khu phố tại khoảng sân thoáng mát trên đường Xuân Thủy.
+Chợ phiên Nông sản & Thủ công Cuối tuần Phú Quốc quy tụ các nhà vườn địa phương, tiệm bánh thủ công và các nghệ nhân trong khu phố tại khoảng sân thoáng mát trên đường Xuân Thủy.
 
 ## Hoạt động nổi bật
 
@@ -265,15 +265,15 @@ Chợ phiên Nông sản & Thủ công Cuối tuần Thảo Điền quy tụ cá
 ## Thời gian & địa điểm
 
 - **Thời gian**: 18/10 – 26/10/2026 (08:30 – 17:00)
-- **Địa điểm**: Sân sinh hoạt cộng đồng Xuân Thủy, Thảo Điền, TP. Thủ Đức
+- **Địa điểm**: Sân sinh hoạt cộng đồng Xuân Thủy, Phú Quốc, TP. Thủ Đức
 - **Vé vào cửa**: Miễn phí (khu vực ngoài trời thân thiện với thú cưng)
 
 ## Lưu ý hữu ích
 
 Khuyến khích cư dân mang theo túi vải cá nhân và bình nước riêng. Có bãi giữ xe máy ở cổng phụ phía đường Quốc Hương.`,
-    body_ko: `> **[샘플 미리보기 안내]** 이 글은 타오디엔 이벤트 게시판 화면과 기능을 확인하기 위해 작성된 **샘플 게시물**입니다. 실제 열리는 행사가 아니며 검색엔진 노출이 차단(\`noindex\`)되어 있습니다.
+    body_ko: `> **[샘플 미리보기 안내]** 이 글은 푸꾸옥 이벤트 게시판 화면과 기능을 확인하기 위해 작성된 **샘플 게시물**입니다. 실제 열리는 행사가 아니며 검색엔진 노출이 차단(\`noindex\`)되어 있습니다.
 
-타오디엔 주말 파머스 & 크래프트 마켓은 쑤언투이(Xuân Thủy) 거리의 야외 코트야드에서 로컬 농가, 수제 베이커리, 동네 공방 작가들이 함께 여는 주말 장터입니다.
+푸꾸옥 주말 파머스 & 크래프트 마켓은 쑤언투이(Xuân Thủy) 거리의 야외 코트야드에서 로컬 농가, 수제 베이커리, 동네 공방 작가들이 함께 여는 주말 장터입니다.
 
 ## 주요 프로그램 및 부스
 
@@ -284,18 +284,18 @@ Khuyến khích cư dân mang theo túi vải cá nhân và bình nước riêng
 ## 일시 및 장소
 
 - **일정**: 2026년 10월 18일 ~ 10월 26일 (08:30 – 17:00)
-- **장소**: 타오디엔 쑤언투이 커뮤니티 코트야드 (Xuân Thủy, Thảo Điền, TP. Thủ Đức)
+- **장소**: 푸꾸옥 쑤언투이 커뮤니티 코트야드 (Xuân Thủy, Phú Quốc, TP. Thủ Đức)
 - **입장료**: 무료 입장 (반려동물 동반 가능 야외 공간)
 
 ## 방문 전 참고사항
 
 개인 에코백과 텀블러 지참을 권장합니다. 오토바이 주차는 꾸옥흐엉(Quốc Hương) 거리 쪽 보조 출입구를 이용하실 수 있습니다.`,
     seo_title: '[SAMPLE] Phu Quoc Weekend Farmers & Craft Market | Good Life in Phu Quoc',
-    seo_title_vi: '[MẪU] Chợ phiên Nông sản & Thủ công Cuối tuần Thảo Điền | Good Life in Phu Quoc',
-    seo_title_ko: '[샘플] 타오디엔 주말 파머스 & 크래프트 마켓 | Good Life in Phu Quoc',
+    seo_title_vi: '[MẪU] Chợ phiên Nông sản & Thủ công Cuối tuần Phú Quốc | Good Life in Phu Quoc',
+    seo_title_ko: '[샘플] 푸꾸옥 주말 파머스 & 크래프트 마켓 | Good Life in Phu Quoc',
     seo_description: '[SAMPLE] Preview event entry for the Phu Quoc Weekend Farmers & Craft Market at Xuan Thuy Courtyard.',
-    seo_description_vi: '[MẪU] Bài xem trước cho sự kiện Chợ phiên Nông sản & Thủ công Cuối tuần Thảo Điền.',
-    seo_description_ko: '[샘플] 타오디엔 주말 파머스 & 크래프트 마켓 이벤트 게시판 화면 확인용 샘플 글입니다.',
+    seo_description_vi: '[MẪU] Bài xem trước cho sự kiện Chợ phiên Nông sản & Thủ công Cuối tuần Phú Quốc.',
+    seo_description_ko: '[샘플] 푸꾸옥 주말 파머스 & 크래프트 마켓 이벤트 게시판 화면 확인용 샘플 글입니다.',
     key_points: [
       '[SAMPLE] Runs October 18–26, 2026 (08:30–17:00) at Xuan Thuy Courtyard',
       'Features Dalat organic produce, sourdough bakery stalls and local ceramics',
@@ -336,14 +336,14 @@ Khuyến khích cư dân mang theo túi vải cá nhân và bình nước riêng
     category_vi: 'Sức khỏe & Thể thao',
     category_ko: '웰니스 · 스포츠',
     title: '[SAMPLE] Saigon Riverside Morning Yoga & Breathwork Community Session',
-    title_vi: '[MẪU] Buổi tập Yoga & Thở buổi sáng bên sông Sài Gòn tại Thảo Điền',
+    title_vi: '[MẪU] Buổi tập Yoga & Thở buổi sáng bên sông Sài Gòn tại Phú Quốc',
     title_ko: '[샘플] 사이공 리버사이드 모닝 요가 & 호흡 커뮤니티 클래스',
     subtitle: 'Sample preview event: beginner-friendly outdoor vinyasa flow and guided breathwork by the river.',
     subtitle_vi: 'Bài mẫu xem trước: lớp yoga vinyasa ngoài trời và hướng dẫn hít thở dành cho người mới.',
     subtitle_ko: '화면 확인용 샘플 이벤트: 초보자도 참여할 수 있는 강변 야외 빈야사 요가 및 호흡 명상.',
     excerpt: '[SAMPLE — Not a real event] An open-air morning movement and recovery session along Nguyen Van Huong riverside lawn for Phu Quoc residents.',
-    excerpt_vi: '[BÀI MẪU — Không phải sự kiện thật] Buổi tập vận động và phục hồi buổi sáng ngoài trời dọc bờ sông đường Nguyễn Văn Hưởng dành cho cư dân Thảo Điền.',
-    excerpt_ko: '[샘플 — 실제 행사가 아닙니다] 응우옌반흐엉 강변 잔디밭에서 진행되는 타오디엔 주민 대상 아침 야외 요가 및 회복 세션입니다.',
+    excerpt_vi: '[BÀI MẪU — Không phải sự kiện thật] Buổi tập vận động và phục hồi buổi sáng ngoài trời dọc bờ sông đường Nguyễn Văn Hưởng dành cho cư dân Phú Quốc.',
+    excerpt_ko: '[샘플 — 실제 행사가 아닙니다] 응우옌반흐엉 강변 잔디밭에서 진행되는 푸꾸옥 주민 대상 아침 야외 요가 및 회복 세션입니다.',
     body_en: `> **[SAMPLE PREVIEW]** This post is a **sample entry** created to preview the Phu Quoc Events board layout and features. It is not a real event and is blocked from search engine indexing (\`noindex\`).
 
 Start the weekend with a gentle 60-minute outdoor yoga flow followed by 15 minutes of guided breathwork overlooking the Saigon River.
@@ -363,7 +363,7 @@ Start the weekend with a gentle 60-minute outdoor yoga flow followed by 15 minut
 ## Good to know
 
 Please bring your own yoga mat, a small towel and water bottle. In case of heavy morning rain, the session moves under the covered pavilion.`,
-    body_vi: `> **[BÀI MẪU XEM TRƯỚC]** Đây là **bài viết mẫu** dùng để kiểm tra giao diện bảng Sự kiện Thảo Điền, không phải sự kiện thực tế và đã được chặn lập chỉ mục tìm kiếm (\`noindex\`).
+    body_vi: `> **[BÀI MẪU XEM TRƯỚC]** Đây là **bài viết mẫu** dùng để kiểm tra giao diện bảng Sự kiện Phú Quốc, không phải sự kiện thực tế và đã được chặn lập chỉ mục tìm kiếm (\`noindex\`).
 
 Khởi đầu ngày cuối tuần với 60 phút tập yoga ngoài trời nhẹ nhàng kết hợp 15 phút thực hành hít thở thư giãn bên bờ sông Sài Gòn.
 
@@ -376,13 +376,13 @@ Khởi đầu ngày cuối tuần với 60 phút tập yoga ngoài trời nhẹ 
 ## Thời gian & địa điểm
 
 - **Thời gian**: 17/10 – 15/11/2026 (Thứ Bảy hàng tuần, 07:00 – 08:15)
-- **Địa điểm**: Bãi cỏ ven sông đường Nguyễn Văn Hưởng, Thảo Điền, TP. Thủ Đức
+- **Địa điểm**: Bãi cỏ ven sông đường Nguyễn Văn Hưởng, Phú Quốc, TP. Thủ Đức
 - **Đối tượng**: Phù hợp với mọi trình độ, hoan nghênh người mới bắt đầu.
 
 ## Lưu ý hữu ích
 
 Vui lòng tự chuẩn bị thảm tập yoga, khăn nhỏ và bình nước cá nhân. Nếu trời mưa lớn vào buổi sáng, lớp tập sẽ chuyển vào khu mái che liền kề.`,
-    body_ko: `> **[샘플 미리보기 안내]** 이 글은 타오디엔 이벤트 게시판 화면과 기능을 확인하기 위해 작성된 **샘플 게시물**입니다. 실제 열리는 행사가 아니며 검색엔진 노출이 차단(\`noindex\`)되어 있습니다.
+    body_ko: `> **[샘플 미리보기 안내]** 이 글은 푸꾸옥 이벤트 게시판 화면과 기능을 확인하기 위해 작성된 **샘플 게시물**입니다. 실제 열리는 행사가 아니며 검색엔진 노출이 차단(\`noindex\`)되어 있습니다.
 
 주말 아침 사이공강 바람을 맞으며 60분간의 야외 빈야사 요가와 15분간의 호흡 명상으로 상쾌하게 하루를 시작해 보세요.
 
@@ -395,7 +395,7 @@ Vui lòng tự chuẩn bị thảm tập yoga, khăn nhỏ và bình nước cá
 ## 일시 및 장소
 
 - **일정**: 2026년 10월 17일 ~ 11월 15일 (매주 토요일 오전 07:00 – 08:15)
-- **장소**: 응우옌반흐엉 강변 잔디 공간 (Nguyễn Văn Hưởng, Thảo Điền, TP. Thủ Đức)
+- **장소**: 응우옌반흐엉 강변 잔디 공간 (Nguyễn Văn Hưởng, Phú Quốc, TP. Thủ Đức)
 - **대상**: 요가 입문자부터 숙련자까지 모든 거주민 참여 가능
 
 ## 방문 전 참고사항
@@ -405,7 +405,7 @@ Vui lòng tự chuẩn bị thảm tập yoga, khăn nhỏ và bình nước cá
     seo_title_vi: '[MẪU] Buổi tập Yoga & Thở buổi sáng bên sông Sài Gòn | Good Life in Phu Quoc',
     seo_title_ko: '[샘플] 사이공 리버사이드 모닝 요가 & 호흡 클래스 | Good Life in Phu Quoc',
     seo_description: '[SAMPLE] Preview event entry for the Saigon Riverside Morning Yoga & Breathwork Community Session in Phu Quoc.',
-    seo_description_vi: '[MẪU] Bài xem trước cho sự kiện Buổi tập Yoga & Thở buổi sáng bên sông Sài Gòn tại Thảo Điền.',
+    seo_description_vi: '[MẪU] Bài xem trước cho sự kiện Buổi tập Yoga & Thở buổi sáng bên sông Sài Gòn tại Phú Quốc.',
     seo_description_ko: '[샘플] 사이공 리버사이드 모닝 요가 & 호흡 커뮤니티 클래스 화면 확인용 샘플 글입니다.',
     key_points: [
       '[SAMPLE] Saturday morning sessions (07:00–08:15) through November 15, 2026',
@@ -447,14 +447,14 @@ Vui lòng tự chuẩn bị thảm tập yoga, khăn nhỏ và bình nước cá
     category_vi: 'Cộng đồng & Văn hóa',
     category_ko: '커뮤니티 · 문화',
     title: '[SAMPLE] Phu Quoc Autumn Acoustic & Neighbor Coffee Social (Past Event)',
-    title_vi: '[MẪU] Giao lưu Cà phê & Nhạc Acoustic Mùa thu Thảo Điền (Đã kết thúc)',
-    title_ko: '[샘플] 타오디엔 어텀 어쿠스틱 & 이웃 커피 모임 (종료된 행사 예시)',
+    title_vi: '[MẪU] Giao lưu Cà phê & Nhạc Acoustic Mùa thu Phú Quốc (Đã kết thúc)',
+    title_ko: '[샘플] 푸꾸옥 어텀 어쿠스틱 & 이웃 커피 모임 (종료된 행사 예시)',
     subtitle: 'Sample completed event demonstrating the Ended status badge when the event end date has passed.',
     subtitle_vi: 'Bài mẫu sự kiện đã qua nhằm hiển thị trạng thái Đã kết thúc khi qua ngày kết thúc sự kiện.',
     subtitle_ko: '종료일 경과 시 ‘종료(Ended)’ 배지가 표시되는 것을 확인하기 위한 샘플 이벤트 게시물.',
     excerpt: '[SAMPLE — Not a real event] An afternoon acoustic guitar session and specialty pour-over coffee tasting for new and long-time Phu Quoc residents.',
-    excerpt_vi: '[BÀI MẪU — Không phải sự kiện thật] Buổi chiều nhạc guitar acoustic và thưởng thức cà phê pha thủ công dành cho cư dân mới và lâu năm tại Thảo Điền.',
-    excerpt_ko: '[샘플 — 실제 행사가 아닙니다] 타오디엔 신규 전입 주민과 기존 거주민이 함께 어울리는 오후 어쿠스틱 기타 연주 및 핸드드립 커피 시음 모임입니다.',
+    excerpt_vi: '[BÀI MẪU — Không phải sự kiện thật] Buổi chiều nhạc guitar acoustic và thưởng thức cà phê pha thủ công dành cho cư dân mới và lâu năm tại Phú Quốc.',
+    excerpt_ko: '[샘플 — 실제 행사가 아닙니다] 푸꾸옥 신규 전입 주민과 기존 거주민이 함께 어울리는 오후 어쿠스틱 기타 연주 및 핸드드립 커피 시음 모임입니다.',
     body_en: `> **[SAMPLE PREVIEW]** This post is a **sample entry** created to preview the Phu Quoc Events board layout (specifically the **Ended** status badge). It is not a real event and is blocked from search engine indexing (\`noindex\`).
 
 Neighbors gathered on Quoc Huong Street for an informal afternoon of acoustic music, pour-over coffee tasting and practical neighborhood tips for newcomers.
@@ -473,7 +473,7 @@ Neighbors gathered on Quoc Huong Street for an informal afternoon of acoustic mu
 ## Good to know
 
 This sample event has an end date in the past (\`2026-10-10\`) so you can verify how completed events display the **Ended / Đã kết thúc / 종료** badge on both the list and detail pages.`,
-    body_vi: `> **[BÀI MẪU XEM TRƯỚC]** Đây là **bài viết mẫu** dùng để kiểm tra trạng thái **Đã kết thúc** trên bảng Sự kiện Thảo Điền, không phải sự kiện thực tế và đã được chặn lập chỉ mục tìm kiếm (\`noindex\`).
+    body_vi: `> **[BÀI MẪU XEM TRƯỚC]** Đây là **bài viết mẫu** dùng để kiểm tra trạng thái **Đã kết thúc** trên bảng Sự kiện Phú Quốc, không phải sự kiện thực tế và đã được chặn lập chỉ mục tìm kiếm (\`noindex\`).
 
 Buổi chiều giao lưu thân mật trên đường Quốc Hương với âm nhạc acoustic, thưởng thức cà phê pour-over và chia sẻ kinh nghiệm sinh hoạt cho cư dân mới.
 
@@ -486,14 +486,14 @@ Buổi chiều giao lưu thân mật trên đường Quốc Hương với âm nh
 ## Thời gian & địa điểm
 
 - **Thời gian**: 10/10/2026 (15:00 – 18:00) — **Sự kiện đã kết thúc**
-- **Địa điểm**: Không gian sân vườn đường Quốc Hương, Thảo Điền, TP. Thủ Đức
+- **Địa điểm**: Không gian sân vườn đường Quốc Hương, Phú Quốc, TP. Thủ Đức
 
 ## Lưu ý hữu ích
 
 Sự kiện mẫu này có ngày kết thúc trong quá khứ (\`2026-10-10\`) để kiểm tra cách hiển thị nhãn **Ended / Đã kết thúc / 종료** trên trang danh sách và trang chi tiết.`,
-    body_ko: `> **[샘플 미리보기 안내]** 이 글은 타오디엔 이벤트 게시판의 **‘종료’ 상태 배지** 표시를 확인하기 위해 작성된 **샘플 게시물**입니다. 실제 열린 행사가 아니며 검색엔진 노출이 차단(\`noindex\`)되어 있습니다.
+    body_ko: `> **[샘플 미리보기 안내]** 이 글은 푸꾸옥 이벤트 게시판의 **‘종료’ 상태 배지** 표시를 확인하기 위해 작성된 **샘플 게시물**입니다. 실제 열린 행사가 아니며 검색엔진 노출이 차단(\`noindex\`)되어 있습니다.
 
-꾸옥흐엉(Quốc Hương) 거리의 가든 라운지에서 타오디엔 신규 입주민과 기존 주민들이 함께 핸드드립 커피를 마시며 어쿠스틱 음악을 즐긴 오후 모임입니다.
+꾸옥흐엉(Quốc Hương) 거리의 가든 라운지에서 푸꾸옥 신규 입주민과 기존 주민들이 함께 핸드드립 커피를 마시며 어쿠스틱 음악을 즐긴 오후 모임입니다.
 
 ## 주요 진행 내용
 
@@ -504,17 +504,17 @@ Sự kiện mẫu này có ngày kết thúc trong quá khứ (\`2026-10-10\`) �
 ## 일시 및 장소
 
 - **일정**: 2026년 10월 10일 (15:00 – 18:00) — **종료된 이벤트**
-- **장소**: 타오디엔 꾸옥흐엉 가든 라운지 (Quốc Hương, Thảo Điền, TP. Thủ Đức)
+- **장소**: 푸꾸옥 꾸옥흐엉 가든 라운지 (Quốc Hương, Phú Quốc, TP. Thủ Đức)
 
 ## 참고사항
 
 이 샘플 게시물은 종료일(\`2026-10-10\`)이 과거로 설정되어 있어, 목록과 상세 페이지에서 **Ended / Đã kết thúc / 종료** 배지가 정상적으로 표시되는지 확인하는 용도입니다.`,
     seo_title: '[SAMPLE] Phu Quoc Autumn Acoustic & Coffee Social | Good Life in Phu Quoc',
-    seo_title_vi: '[MẪU] Giao lưu Cà phê & Nhạc Acoustic Mùa thu Thảo Điền | Good Life in Phu Quoc',
-    seo_title_ko: '[샘플] 타오디엔 어텀 어쿠스틱 & 이웃 커피 모임 | Good Life in Phu Quoc',
+    seo_title_vi: '[MẪU] Giao lưu Cà phê & Nhạc Acoustic Mùa thu Phú Quốc | Good Life in Phu Quoc',
+    seo_title_ko: '[샘플] 푸꾸옥 어텀 어쿠스틱 & 이웃 커피 모임 | Good Life in Phu Quoc',
     seo_description: '[SAMPLE] Preview completed event entry demonstrating the Ended status badge on the Phu Quoc Events board.',
-    seo_description_vi: '[MẪU] Bài xem trước cho sự kiện đã kết thúc trên bảng Sự kiện Thảo Điền.',
-    seo_description_ko: '[샘플] 종료일 경과 시 종료 배지 표시를 확인하기 위한 타오디엔 이벤트 샘플 글입니다.',
+    seo_description_vi: '[MẪU] Bài xem trước cho sự kiện đã kết thúc trên bảng Sự kiện Phú Quốc.',
+    seo_description_ko: '[샘플] 종료일 경과 시 종료 배지 표시를 확인하기 위한 푸꾸옥 이벤트 샘플 글입니다.',
     key_points: [
       '[SAMPLE] Completed event held on October 10, 2026 (demonstrates Ended status badge)',
       'Featured Lam Dong pour-over coffee tasting and acoustic guitar sessions',
@@ -523,12 +523,12 @@ Sự kiện mẫu này có ngày kết thúc trong quá khứ (\`2026-10-10\`) �
     key_points_vi: [
       '[MẪU] Sự kiện đã diễn ra ngày 10/10/2026 (minh họa nhãn trạng thái Đã kết thúc)',
       'Thưởng thức cà phê pour-over Lâm Đồng và nhạc guitar acoustic',
-      'Chia sẻ kinh nghiệm sinh hoạt tại Thảo Điền cho cư dân mới',
+      'Chia sẻ kinh nghiệm sinh hoạt tại Phú Quốc cho cư dân mới',
     ],
     key_points_ko: [
       '[샘플] 2026년 10월 10일 종료된 행사 예시 (‘종료’ 배지 동작 확인용)',
       '럼동 싱글오리진 핸드드립 커피 시음 및 어쿠스틱 기타 공연',
-      '타오디엔 신규 거주민을 위한 동네 생활 정보 교류',
+      '푸꾸옥 신규 거주민을 위한 동네 생활 정보 교류',
     ],
     callout: 'SAMPLE NOTICE: This listing is a sample post for UI verification only and is excluded from public search indexing.',
     callout_vi: 'THÔNG BÁO BÀI MẪU: Đây là bài đăng mẫu chỉ dùng để kiểm tra giao diện và không xuất hiện trên công cụ tìm kiếm.',

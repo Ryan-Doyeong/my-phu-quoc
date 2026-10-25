@@ -70,7 +70,7 @@ function localizeSponsorBanner(banner: Banner, locale: Locale): { title: string;
     if (key === 'main-1' || /featured partner/i.test(rawTitle)) {
       return {
         title: '대표 커뮤니티 파트너 자리 · 신청 가능',
-        subtitle: '타오디엔 이웃과 함께하는 창립 커뮤니티 파트너 — 첫 3개월 무료.',
+        subtitle: '푸꾸옥 이웃과 함께하는 창립 커뮤니티 파트너 — 첫 3개월 무료.',
       }
     }
     if (key === 'small-1' || /food partner/i.test(rawTitle)) {

@@ -234,7 +234,7 @@ export const en = {
   member: {
     metaTitle: 'Good Life Member | Good Life in Phu Quoc',
     metaDesc: 'Information about the Good Life Phu Quoc member program.',
-    eyebrow: 'GOOD LIFE THAODIEN MEMBER',
+    eyebrow: 'GOOD LIFE PHU QUOC MEMBER',
     title: 'Local businesses that choose to give something back.',
     lead: 'The member badge identifies businesses that participate in Good Life Phu Quoc with a community-minded commitment — supporting neighborhood initiatives, volunteering, sharing useful local knowledge, or contributing time and resources to a better Phu Quoc.',
     whatItMeansTitle: 'What the badge means',
@@ -260,7 +260,7 @@ export const en = {
     lead: 'Share your business details and 3–5 clear photos. We’ll review the information before adding the listing to the directory.',
     pilotNoticeTitle: 'Pilot Coverage Notice:',
     pilotNoticeBody1: 'Official partner verification and priority category listing are currently open for businesses located in',
-    pilotNoticeArea1: 'Thảo Điền',
+    pilotNoticeArea1: 'Phú Quốc',
     pilotNoticeBody2: 'and adjacent',
     pilotNoticeArea2: 'An Phú / An Khánh',
     pilotNoticeBody3: '(labeled as Nearby (An Phu / An Khanh)). Businesses outside these areas may still submit their information for our upcoming expansion waitlist.',

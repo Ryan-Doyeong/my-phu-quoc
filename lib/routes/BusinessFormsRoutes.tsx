@@ -42,9 +42,9 @@ export async function generatePartnersMetadata(locale: Locale = 'en'): Promise<M
       : 'Community Partners — Good Life in Phu Quoc'
   const description =
     locale === 'vi'
-      ? 'Đồng hành cùng Good Life in Phu Quoc với tư cách Đối tác Cộng đồng Sáng lập. Năm vị trí, ba tháng miễn phí — cùng nhau vì một Thảo Điền tươi đẹp.'
+      ? 'Đồng hành cùng Good Life in Phu Quoc với tư cách Đối tác Cộng đồng Sáng lập. Năm vị trí, ba tháng miễn phí — cùng nhau vì một Phú Quốc tươi đẹp.'
       : locale === 'ko'
-      ? 'Good Life in Phu Quoc의 창립 커뮤니티 파트너로 함께해 주세요. 5개 자리 한정, 첫 3개월 무료 — 함께 만들어가는 아름다운 타오디엔.'
+      ? 'Good Life in Phu Quoc의 창립 커뮤니티 파트너로 함께해 주세요. 5개 자리 한정, 첫 3개월 무료 — 함께 만들어가는 아름다운 푸꾸옥.'
       : 'Join Good Life in Phu Quoc as a Founding Community Partner. Five places, three months free — for a beautiful Phu Quoc, together.'
 
   return {

@@ -220,7 +220,7 @@ export function DirectoryBrowser({
             ...(b.tags || []).map((t) => translateTerm(t, activeLocale)),
             ...(b.badges || []),
             nearbyBadgeText(b.address, b.tags, b.badges, activeLocale) || '',
-            b.is_good_life_member ? 'good life thaodien member' : '',
+            b.is_good_life_member ? 'good life phu quoc member' : '',
           ]
             .filter(Boolean)
             .join(' ')

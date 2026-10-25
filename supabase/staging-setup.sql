@@ -159,7 +159,7 @@ create policy "impact staff write" on public.impact_programs for all to authenti
 create policy "stories staff write" on public.stories for all to authenticated using (public.is_staff()) with check (public.is_staff());
 
 insert into public.site_settings(key,value) values ('appearance',jsonb_build_object(
-  'hero_image_url','/images/hero-thaodien.jpg','hero_topline','PEOPLE · PLACES · A BRIGHTER PHU QUOC','hero_title',E'Good life\nin Phu Quoc','hero_subtitle','Live well. Grow together. Feel at home.','hero_description','A local guide for better everyday living in Phu Quoc.','hero_primary_cta','Explore','hero_secondary_cta','Join the community','hero_note',E'A kinder\nbrighter\nPhu Quoc ♥','hero_blur',2,'hero_overlay',0.18,'accent_color','#556f58','bg_color','#f5f2ea','paper_color','#fffdf8','radius',28
+  'hero_image_url','/images/hero-phuquoc.jpg','hero_topline','PEOPLE · PLACES · A BRIGHTER PHU QUOC','hero_title',E'Good life\nin Phu Quoc','hero_subtitle','Live well. Grow together. Feel at home.','hero_description','A local guide for better everyday living in Phu Quoc.','hero_primary_cta','Explore','hero_secondary_cta','Join the community','hero_note',E'A kinder\nbrighter\nPhu Quoc ♥','hero_blur',2,'hero_overlay',0.18,'accent_color','#556f58','bg_color','#f5f2ea','paper_color','#fffdf8','radius',28
 )) on conflict(key) do nothing;
 
 insert into storage.buckets(id,name,public,file_size_limit,allowed_mime_types) values ('site-media','site-media',true,10485760,array['image/jpeg','image/png','image/webp','image/avif']) on conflict(id) do nothing;
