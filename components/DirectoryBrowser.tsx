@@ -49,7 +49,7 @@ type Business = {
   [key: string]: any
 }
 
-type LabelFilter = 'All' | 'Recommended' | 'New' | 'HOT' | 'Good Life Phu Quoc member'
+type LabelFilter = 'All' | 'Recommended' | 'New' | 'HOT' | 'My Phu Quoc member'
 
 function imageFor(b: Business) {
   return stockPrimaryFor(b.category, b.subcategory, b.tags)
@@ -137,7 +137,7 @@ function BusinessCard({ b, locale }: { b: Business; locale: Locale }) {
               )}
             {b.is_good_life_member && (
               <span className="businessBadge badgegoodlifemember">
-                {translateBadge('Good Life Phu Quoc member', locale)}
+                {translateBadge('My Phu Quoc member', locale)}
               </span>
             )}
           </div>
@@ -257,7 +257,7 @@ export function DirectoryBrowser({
   const catLabel = categoryLabel(category, activeLocale)
   const catEyebrow = categoryEyebrow(category, activeLocale)
   const filters = ['All', ...config.subcategories]
-  const labels: LabelFilter[] = ['All', 'Recommended', 'New', 'HOT', 'Good Life Phu Quoc member']
+  const labels: LabelFilter[] = ['All', 'Recommended', 'New', 'HOT', 'My Phu Quoc member']
 
   const filtered = useMemo(
     () =>
@@ -287,10 +287,10 @@ export function DirectoryBrowser({
             !(b.tags || []).some((x) => x.toLowerCase() === filter.toLowerCase())
           )
             return false
-          if (labelFilter === 'Good Life Phu Quoc member' && !b.is_good_life_member) return false
+          if (labelFilter === 'My Phu Quoc member' && !b.is_good_life_member) return false
           if (
             labelFilter !== 'All' &&
-            labelFilter !== 'Good Life Phu Quoc member' &&
+            labelFilter !== 'My Phu Quoc member' &&
             !(b.badges || []).includes(labelFilter)
           )
             return false

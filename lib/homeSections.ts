@@ -41,7 +41,7 @@ export const DEFAULT_HOME_SECTIONS: HomeSections = {
   purpose: {
     visible: false, // Claude 5차/6차: 타오디엔 레거시 섹션 비활성화
     title: 'Sponsored with Purpose',
-    description: 'Sponsorship helps sustain Good life in Phu Quoc and creates room for community-focused local initiatives.',
+    description: 'Sponsorship helps sustain My Phu Quoc and creates room for community-focused local initiatives.',
     handNote: 'Local support.\nReal change. ♡'
   },
   discover: {

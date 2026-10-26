@@ -219,9 +219,9 @@ export function PartnersClient({ initialLang, initialSlot, businesses }: Props) 
             </p>
             <p>
               {t(
-                'Good Life in Phu Quoc began as a way to gather those moments — honest information about the businesses that care for this neighborhood, news that matters to the people who live here, and the quiet efforts that make Phu Quoc a little kinder each day.',
-                'Good Life in Phu Quoc ra đời để gom góp những khoảnh khắc đó — thông tin trung thực về những cơ sở kinh doanh luôn quan tâm đến khu phố, tin tức thiết thực cho người dân nơi đây, và những nỗ lực thầm lặng giúp Phú Quốc mỗi ngày thêm ấm áp.',
-                'Good Life in Phu Quoc은 이러한 순간들을 모으기 위해 시작되었습니다 — 동네를 아끼는 로컬 비즈니스에 대한 정직한 정보, 주민들에게 꼭 필요한 소식, 그리고 푸꾸옥을 매일 조금씩 더 따뜻하게 만드는 조용한 노력들을 전합니다.'
+                'My Phu Quoc began as a way to gather those moments — honest information about the businesses that care for this neighborhood, news that matters to the people who live here, and the quiet efforts that make Phu Quoc a little kinder each day.',
+                'My Phu Quoc ra đời để gom góp những khoảnh khắc đó — thông tin trung thực về những cơ sở kinh doanh luôn quan tâm đến khu phố, tin tức thiết thực cho người dân nơi đây, và những nỗ lực thầm lặng giúp Phú Quốc mỗi ngày thêm ấm áp.',
+                'My Phu Quoc은 이러한 순간들을 모으기 위해 시작되었습니다 — 동네를 아끼는 로컬 비즈니스에 대한 정직한 정보, 주민들에게 꼭 필요한 소식, 그리고 푸꾸옥을 매일 조금씩 더 따뜻하게 만드는 조용한 노력들을 전합니다.'
               )}
             </p>
             <p>
@@ -260,9 +260,9 @@ export function PartnersClient({ initialLang, initialSlot, businesses }: Props) 
             </p>
             <p>
               {t(
-                'Your support keeps Good Life in Phu Quoc free, honest and growing — and makes room for community initiatives that give back to Phu Quoc.',
-                'Sự ủng hộ của bạn giúp Good Life in Phu Quoc luôn miễn phí, trung thực và phát triển — đồng thời tạo điều kiện cho những hoạt động cộng đồng đóng góp lại cho Phú Quốc.',
-                '파트너의 후원은 Good Life in Phu Quoc이 누구나 무료로 이용할 수 있는 정직한 플랫폼으로 성장하게 돕고, 푸꾸옥 지역사회에 환원하는 다양한 커뮤니티 활동을 가능하게 합니다.'
+                'Your support keeps My Phu Quoc free, honest and growing — and makes room for community initiatives that give back to Phu Quoc.',
+                'Sự ủng hộ của bạn giúp My Phu Quoc luôn miễn phí, trung thực và phát triển — đồng thời tạo điều kiện cho những hoạt động cộng đồng đóng góp lại cho Phú Quốc.',
+                '파트너의 후원은 My Phu Quoc이 누구나 무료로 이용할 수 있는 정직한 플랫폼으로 성장하게 돕고, 푸꾸옥 지역사회에 환원하는 다양한 커뮤니티 활동을 가능하게 합니다.'
               )}
             </p>
           </div>

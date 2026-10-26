@@ -76,14 +76,14 @@ export async function generateBusinessMetadata(
   const alternates = buildAlternates(barePath)
 
   return {
-    title: `${b.public_name} | Good Life in Phu Quoc`,
+    title: `${b.public_name} | My Phu Quoc`,
     description,
     alternates: {
       canonical: canonicalUrl,
       languages: alternates.languages,
     },
     openGraph: {
-      title: `${b.public_name} | Good Life in Phu Quoc`,
+      title: `${b.public_name} | My Phu Quoc`,
       description,
       url: canonicalUrl,
       locale: ogLocaleFor(locale),
@@ -320,7 +320,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                   href={localePath(locale, '/member')}
                   className="businessBadge badgegoodlifemember"
                 >
-                  {translateBadge('Good Life Phu Quoc member', locale)}
+                  {translateBadge('My Phu Quoc member', locale)}
                 </Link>
               )}
             </div>

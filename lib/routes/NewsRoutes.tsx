@@ -133,7 +133,7 @@ export async function generateArticleMetadata(
     .maybeSingle()
 
   const raw = dbRaw || getSampleEventBySlug(slug)
-  if (!raw) return { title: 'Good life in Phu Quoc' }
+  if (!raw) return { title: 'My Phu Quoc' }
 
   const x = localizeStory(raw, locale)
   const barePath = `${x.content_type === 'event' ? '/events' : '/news'}/${slug}`
@@ -157,7 +157,7 @@ export async function generateArticleMetadata(
     : undefined
 
   return {
-    title: x.seo_title || `${x.title} | Good life in Phu Quoc`,
+    title: x.seo_title || `${x.title} | My Phu Quoc`,
     description: x.seo_description || x.excerpt || undefined,
     robots: isSample
       ? {
@@ -226,8 +226,8 @@ export async function renderArticleRoute(
     '@type': 'Article',
     headline: x.title,
     inLanguage: isUntranslatedFallback ? 'en' : locale,
-    author: { '@type': 'Organization', name: 'Good Life Phu Quoc' },
-    publisher: { '@type': 'Organization', name: 'Good Life Phu Quoc' },
+    author: { '@type': 'Organization', name: 'My Phu Quoc' },
+    publisher: { '@type': 'Organization', name: 'My Phu Quoc' },
     mainEntityOfPage: articleUrl,
   }
   if (x.seo_description || x.excerpt) articleLd.description = x.seo_description || x.excerpt
@@ -250,17 +250,17 @@ export async function renderArticleRoute(
         image: absCoverImage ? [absCoverImage] : undefined,
         location: {
           '@type': 'Place',
-          name: x.event_location || 'Phu Quoc, Thu Duc City, Ho Chi Minh City',
+          name: x.event_location || 'Sunset Town, An Thoi, Phu Quoc',
           address: {
             '@type': 'PostalAddress',
-            addressLocality: 'Phu Quoc, Thu Duc City',
-            addressRegion: 'Ho Chi Minh City',
+            addressLocality: 'Phú Quốc',
+            addressRegion: 'Kiên Giang',
             addressCountry: 'VN',
           },
         },
         organizer: {
           '@type': 'Organization',
-          name: 'Good Life Phu Quoc',
+          name: 'My Phu Quoc',
           url: baseUrl,
         },
       }
@@ -467,9 +467,6 @@ export async function renderArticleRoute(
               alt={x.title}
               fetchPriority="high"
               decoding="async"
-              onError={(e) => {
-                e.currentTarget.src = '/features/default_cover_1280.webp';
-              }}
             />
             {x.hero_caption && <figcaption>{x.hero_caption}</figcaption>}
           </figure>
@@ -525,7 +522,7 @@ export async function generateEventsMetadata(locale: Locale = 'en'): Promise<Met
   const barePath = '/events'
   const canonicalUrl = localeUrl(locale, barePath)
   const alternates = buildAlternates(barePath)
-  const title = `${dict.news.eventsTitle} | Good Life in Phu Quoc`
+  const title = `${dict.news.eventsTitle} | My Phu Quoc`
   return {
     title,
     description: dict.news.eventsLead,

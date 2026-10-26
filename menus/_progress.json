@@ -1,7 +1,25 @@
 {
   "batch_size": 10,
-  "done_batches": 5,
+  "done_batches": 10,
   "venues": {
+    "ChIJM56vPyOVpzERkcoihdCbcQg": {
+      "name": "SANTO CAFE",
+      "name_google": "SANTO CAFE",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
+    },
+    "ChIJw0KgNACVpzERw5KrYRFhYrk": {
+      "name": "Loop Jacuzzi Bar",
+      "name_google": "Loop Jacuzzi Bar",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
+    },
     "ChIJmwciuL6VpzER3ZIjhoDL17I": {
       "name": "라군 식당",
       "name_google": "라군 식당",
@@ -9,6 +27,15 @@
       "info_level": "C",
       "items_count": 0,
       "known_dishes_count": 0,
+      "sources_count": 1
+    },
+    "ChIJybaGwLWXpzER0vqLL6QiWjE": {
+      "name": "Tsunagari Phu Quoc - Japanese matcha in the island",
+      "name_google": "Tsunagari Phu Quoc - Japanese matcha in the island",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
       "sources_count": 1
     },
     "ChIJ-8xuXJSXpzER_vuwYia2R1M": {
@@ -38,6 +65,15 @@
       "known_dishes_count": 3,
       "sources_count": 1
     },
+    "ChIJ4-08StuXpzERjwmUJihXMSM": {
+      "name": "드래프트 비어 선셋타운 (Draft Beer Sunset Town Phú Quốc)",
+      "name_google": "DRAFT BEER Sunset Town Phú Quốc",
+      "status": "partial",
+      "info_level": "B",
+      "items_count": 5,
+      "known_dishes_count": 0,
+      "sources_count": 1
+    },
     "ChIJexQHMSaVpzERSr6zIxWjYDs": {
       "name": "라군 BBQ & 베트남 퀴진 (Lagoon BBQ & Vietnamese Cuisine)",
       "name_google": "LAGOON BBQ & VIETNAMESE CUISINE",
@@ -63,6 +99,15 @@
       "info_level": "C",
       "items_count": 0,
       "known_dishes_count": 2,
+      "sources_count": 1
+    },
+    "ChIJ_8PhSl6XpzERyXEGZHWPPK8": {
+      "name": "Mía Phú Quốc",
+      "name_google": "Mía Phú Quốc",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
       "sources_count": 1
     },
     "ChIJD-a4fwCVpzERA9KJ8gWE4cA": {
@@ -119,6 +164,24 @@
       "known_dishes_count": 2,
       "sources_count": 1
     },
+    "ChIJVef0-G6XpzERfRGPWSjnMSM": {
+      "name": "MAE Coffee",
+      "name_google": "MAE Coffee",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
+    },
+    "ChIJTdwiKNmVpzER1knXm_zr2zA": {
+      "name": "Cafe Juliet & Pastries",
+      "name_google": "Cafe Juliet & Pastries",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
+    },
     "ChIJ_6I1rnKVpzERSyzp7e76ffQ": {
       "name": "WOW QUÊ TÔI",
       "name_google": "WOW QUÊ TÔI",
@@ -173,6 +236,15 @@
       "known_dishes_count": 4,
       "sources_count": 2
     },
+    "ChIJ51OpPgCVpzER-TzMZtCOk0o": {
+      "name": "Maison Kayser Phu Quoc",
+      "name_google": "Maison Kayser Phu Quoc",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
+    },
     "ChIJFYbEOYuVpzERNhVUrah1-3Y": {
       "name": "Amritsar Grill Indian Restaurant",
       "name_google": "Amritsar Grill Indian Restaurant",
@@ -190,6 +262,15 @@
       "items_count": 8,
       "known_dishes_count": 0,
       "sources_count": 3
+    },
+    "ChIJc9wZF96XpzERaOKT6SZjnj4": {
+      "name": "술탄 터키쉬 케밥 선셋타운 (Sultan Turkish Kebab)",
+      "name_google": "Sultan Turkish Kebab – Sunset Town Phu Quoc",
+      "status": "partial",
+      "info_level": "B",
+      "items_count": 2,
+      "known_dishes_count": 0,
+      "sources_count": 1
     },
     "ChIJX83fV32VpzERWuVp_qZeJVc": {
       "name": "Rasa Nusantara Phú Quốc",
@@ -215,6 +296,15 @@
       "status": "not_found",
       "info_level": "D",
       "items_count": 0,
+      "known_dishes_count": 0,
+      "sources_count": 1
+    },
+    "ChIJzXtAVDKXpzER1cjjYNLZETM": {
+      "name": "씨엘로 루프탑 바 (Cielo Rooftop Bar - La Festa Hilton)",
+      "name_google": "Cielo",
+      "status": "partial",
+      "info_level": "B",
+      "items_count": 1,
       "known_dishes_count": 0,
       "sources_count": 1
     },
@@ -245,6 +335,24 @@
       "known_dishes_count": 0,
       "sources_count": 2
     },
+    "ChIJMXSxNgCXpzERgxlz0F6Zn7I": {
+      "name": "루나 포크 (Luna Folk - La Festa Hilton 재즈 & 칵테일 바)",
+      "name_google": "Luna Folk",
+      "status": "partial",
+      "info_level": "B",
+      "items_count": 2,
+      "known_dishes_count": 0,
+      "sources_count": 1
+    },
+    "ChIJVUPC1uyXpzERD5yoNJTu_-w": {
+      "name": "미쉐 아이스크림 & 티 선셋타운점 (MIXUE)",
+      "name_google": "MIXUE - Ice Cream and Tea",
+      "status": "partial",
+      "info_level": "B",
+      "items_count": 4,
+      "known_dishes_count": 0,
+      "sources_count": 1
+    },
     "ChIJN_Q6ZQCXpzERnEgRa_rea4k": {
       "name": "세타 (Seta - La Festa Hilton 광동식 파인다이닝)",
       "name_google": "Seta",
@@ -253,6 +361,42 @@
       "items_count": 146,
       "known_dishes_count": 0,
       "sources_count": 2
+    },
+    "ChIJi6p4AwCXpzERrcfUWx2c6gY": {
+      "name": "Senthy Coffee Lounge",
+      "name_google": "Senthy Coffee Lounge",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
+    },
+    "ChIJEUml2SuVpzER3wqcSc2d9yg": {
+      "name": "The Ivy Café & Lounge Phu Quoc",
+      "name_google": "The Ivy Café & Lounge Phu Quoc",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
+    },
+    "ChIJy_hxHgCrNTERoIcGv_opdSI": {
+      "name": "Phu Quoc Sunset Town Coffee Workshop - Brew & Design the Art of Vietnamese Coffee",
+      "name_google": "Phu Quoc Sunset Town Coffee Workshop - Brew & Design the Art of Vietnamese Coffee",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
+    },
+    "ChIJqzR5BqKVpzERsUFb1ZBTkHI": {
+      "name": "Milano Coffee - 64 Milan Sunset Town",
+      "name_google": "Milano Coffee - 64 Milan Sunset Town",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
     },
     "ChIJyRBqwHeVpzERduOQZkmhLAE": {
       "name": "IBIZA - Oyster & Seafood Bar",
@@ -335,6 +479,15 @@
       "known_dishes_count": 0,
       "sources_count": 1
     },
+    "ChIJjVDpHgiHCjERTaQVRRrVJ9Y": {
+      "name": "에릭 케제르 푸꾸옥 (Maison Eric Kayser Sunset Town)",
+      "name_google": "Eric Kayser Vietnam",
+      "status": "partial",
+      "info_level": "B",
+      "items_count": 6,
+      "known_dishes_count": 0,
+      "sources_count": 1
+    },
     "ChIJdbjrShmVpzER-zfUU0OhqPg": {
       "name": "카다이 인디안 레스토랑 (Kadhai Indian Restaurant)",
       "name_google": "Kadhai Indian Restaurant Sunset Town (Phu Quoc)",
@@ -353,6 +506,24 @@
       "known_dishes_count": 7,
       "sources_count": 2
     },
+    "ChIJE6Jt3vuVpzERA6ErTfB79es": {
+      "name": "The Juliet Coffee & Dessert - AMA71",
+      "name_google": "The Juliet Coffee & Dessert - AMA71",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
+    },
+    "ChIJAwwqc2yVpzER_4K_0feO5I8": {
+      "name": "선 바바리아 가스트로펍 (Sun Bavaria GastroPub - Sun KraftBeer)",
+      "name_google": "Sun Bavaria GastroPub",
+      "status": "partial",
+      "info_level": "B",
+      "items_count": 6,
+      "known_dishes_count": 0,
+      "sources_count": 1
+    },
     "ChIJfyqPrL2VpzERtUaB6o2c_ZU": {
       "name": "소렌토 레스토랑 & 바 (Sorrento Restaurant & Bar)",
       "name_google": "Sorrento Restaurant & Bar",
@@ -362,6 +533,15 @@
       "known_dishes_count": 5,
       "sources_count": 2
     },
+    "ChIJWemJxp-XpzER7U_LSFAw2FI": {
+      "name": "Hiên Nhà Veranda Sunset Town Phú Quốc",
+      "name_google": "Hiên Nhà Veranda Sunset Town Phú Quốc",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
+    },
     "ChIJr-c8ZACVpzER41yqzYEUGAE": {
       "name": "Hải Sản Hàm Ninh",
       "name_google": "Hải Sản Hàm Ninh",
@@ -369,6 +549,15 @@
       "info_level": "C",
       "items_count": 0,
       "known_dishes_count": 3,
+      "sources_count": 1
+    },
+    "ChIJhwN-oSqXpzERgUhhE4tiYRE": {
+      "name": "하이랜드 커피 안터이 케이블카역점 (Highlands Coffee Cable Car An Thới)",
+      "name_google": "Highlands Coffee Cable Car An Thới PQ",
+      "status": "partial",
+      "info_level": "B",
+      "items_count": 8,
+      "known_dishes_count": 0,
       "sources_count": 1
     },
     "ChIJRT9hCe6VpzER9hYA7wlPylM": {
@@ -398,6 +587,33 @@
       "known_dishes_count": 0,
       "sources_count": 1
     },
+    "ChIJHfkAZ4WVpzERmME-KkMKRrI": {
+      "name": "Lotus Home & Cafe",
+      "name_google": "Lotus Home & Cafe",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
+    },
+    "ChIJxyS9aICXpzERzjprHrHS6HM": {
+      "name": "Mango Mango",
+      "name_google": "Mango Mango",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
+    },
+    "ChIJk8rbTrmXpzERJtmse_K7fYA": {
+      "name": "Apollo Cafe Phu Quoc",
+      "name_google": "Apollo Cafe Phu Quoc",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
+    },
     "ChIJlehtpXeXpzERpS23o9pxwrc": {
       "name": "Nhà Hàng Cơm Niêu Việt Xưa - An Thới",
       "name_google": "Nhà Hàng Cơm Niêu Việt Xưa - An Thới",
@@ -424,6 +640,24 @@
       "items_count": 0,
       "known_dishes_count": 4,
       "sources_count": 2
+    },
+    "ChIJgdPeM-6VpzERp4qCP5Rftfc": {
+      "name": "테아트로 클럽 푸꾸옥 (Teatro Club Phú Quốc)",
+      "name_google": "Teatro Club Phú Quốc",
+      "status": "partial",
+      "info_level": "B",
+      "items_count": 2,
+      "known_dishes_count": 0,
+      "sources_count": 1
+    },
+    "ChIJexxLuvWVpzERYfMNC6E2l6k": {
+      "name": "Casa Limone Phu Quoc Hotel & Café - Specialty Coffee & Matcha Bar",
+      "name_google": "Casa Limone Phu Quoc Hotel & Café - Specialty Coffee & Matcha Bar",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
     },
     "ChIJqWMc3JqXpzER9imqzVVuH00": {
       "name": "투안 끼에우 2 해산물 그릴 전문점 (Nhà hàng hải sản Thuận Kiều 2)",
@@ -452,6 +686,15 @@
       "known_dishes_count": 4,
       "sources_count": 2
     },
+    "ChIJFU6xryaXpzERe2HL0ChKMXY": {
+      "name": "카페 그린 선셋타운 (Cafe Green - 망고빙수 전문)",
+      "name_google": "CAFE GREEN(카페그린)SUNSET TOWN.망고빙수",
+      "status": "partial",
+      "info_level": "B",
+      "items_count": 4,
+      "known_dishes_count": 0,
+      "sources_count": 1
+    },
     "ChIJoU5XY4qXpzER7IMIeP5u2_U": {
       "name": "메디테란 선셋타운 (MEDITERRAN - 그리스 & 이탈리안 레스토랑)",
       "name_google": "MEDITERRAN Sunset Town (Greek & Italian Restaurant) pizza, pasta & souvlaki",
@@ -469,6 +712,24 @@
       "items_count": 11,
       "known_dishes_count": 0,
       "sources_count": 2
+    },
+    "ChIJO3-yzguVpzERco-w4qWwzBE": {
+      "name": "Kem Tràng Tiền - Sunset Town, Phú Quốc",
+      "name_google": "Kem Tràng Tiền - Sunset Town, Phú Quốc",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
+    },
+    "ChIJ4XRWXwCVpzER4TmxHDp0HaI": {
+      "name": "Islander PhuQuoc Handmade Gifts & Coffee",
+      "name_google": "Islander PhuQuoc Handmade Gifts & Coffee",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
     },
     "ChIJzUpxDmWXpzER9_x5dGSKcdM": {
       "name": "껌니우 비엣 선셋타운 (Nhà hàng Cơm Niêu Việt - 베트남 돌솥밥)",
@@ -488,6 +749,15 @@
       "known_dishes_count": 3,
       "sources_count": 1
     },
+    "ChIJFePbK8yXpzER_rJM4eYtKaA": {
+      "name": "La isla Bistro & coffee",
+      "name_google": "La isla Bistro & coffee",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
+    },
     "ChIJ4SO9awCXpzERER4uBviu2l0": {
       "name": "Bánh Canh Ghẹ BY-restaurant seafood",
       "name_google": "Bánh Canh Ghẹ BY-restaurant seafood",
@@ -496,6 +766,24 @@
       "items_count": 4,
       "known_dishes_count": 0,
       "sources_count": 2
+    },
+    "ChIJ2_09NpGVpzERNU0LHL9210Q": {
+      "name": "지온 바 & 바이츠 키친 (Giòn Bar & Bites Kitchen)",
+      "name_google": "Giòn Bar",
+      "status": "partial",
+      "info_level": "B",
+      "items_count": 3,
+      "known_dishes_count": 0,
+      "sources_count": 1
+    },
+    "ChIJ_UidppuWpzERKabcboVlovw": {
+      "name": "PH Rooftop Bar & Lounge - Sea View Restaurant, An Thoi, Phu Quoc",
+      "name_google": "PH Rooftop Bar & Lounge - Sea View Restaurant, An Thoi, Phu Quoc",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
     },
     "ChIJ984BCgCVpzERqpzxDVaHUEk": {
       "name": "Madam Khánh Restaurant Phú quốc 2-마담 칸 - 汗女士",
@@ -515,6 +803,15 @@
       "known_dishes_count": 5,
       "sources_count": 2
     },
+    "ChIJO5hTZgCVpzERv98h_ecyvFc": {
+      "name": "Sunset Tiger Tea",
+      "name_google": "Sunset Tiger Tea",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
+    },
     "ChIJHWzLNQCXpzER8C174EPH8Fs": {
       "name": "Phố Nướng / seafood & meat grill",
       "name_google": "Phố Nướng / seafood & meat grill",
@@ -522,6 +819,24 @@
       "info_level": "C",
       "items_count": 0,
       "known_dishes_count": 2,
+      "sources_count": 1
+    },
+    "ChIJUZs9AACVpzERDU2CVZEwhMQ": {
+      "name": "The Fern Coffee Sea",
+      "name_google": "The Fern Coffee Sea",
+      "status": "price_range_only",
+      "info_level": "C",
+      "items_count": 0,
+      "known_dishes_count": 3,
+      "sources_count": 1
+    },
+    "ChIJbR-3v0iXpzERO5uhXf8gO8k": {
+      "name": "일 살로네 (iL Salone - La Festa Hilton 애프터눈티 & 라운지 바)",
+      "name_google": "iL Salone – Afternoon Tea Lounge & Bar",
+      "status": "partial",
+      "info_level": "B",
+      "items_count": 2,
+      "known_dishes_count": 0,
       "sources_count": 1
     },
     "ChIJ013bPieXpzERQbVdD9Sx2Kg": {
@@ -541,329 +856,14 @@
       "items_count": 3,
       "known_dishes_count": 0,
       "sources_count": 1
-    },
-    "ChIJFU6xryaXpzERe2HL0ChKMXY": {
-      "name": "카페 그린 선셋타운 (Cafe Green - 망고빙수 전문)",
-      "name_google": "CAFE GREEN(카페그린)SUNSET TOWN.망고빙수",
-      "status": "partial",
-      "info_level": "B",
-      "items_count": 4,
-      "known_dishes_count": 0,
-      "sources_count": 1
-    },
-    "ChIJhwN-oSqXpzERgUhhE4tiYRE": {
-      "name": "하이랜드 커피 안터이 케이블카역점 (Highlands Coffee Cable Car An Thới)",
-      "name_google": "Highlands Coffee Cable Car An Thới PQ",
-      "status": "partial",
-      "info_level": "B",
-      "items_count": 8,
-      "known_dishes_count": 0,
-      "sources_count": 1
-    },
-    "ChIJjVDpHgiHCjERTaQVRRrVJ9Y": {
-      "name": "에릭 케제르 푸꾸옥 (Maison Eric Kayser Sunset Town)",
-      "name_google": "Eric Kayser Vietnam",
-      "status": "partial",
-      "info_level": "B",
-      "items_count": 6,
-      "known_dishes_count": 0,
-      "sources_count": 1
-    },
-    "ChIJVUPC1uyXpzERD5yoNJTu_-w": {
-      "name": "미쉐 아이스크림 & 티 선셋타운점 (MIXUE)",
-      "name_google": "MIXUE - Ice Cream and Tea",
-      "status": "partial",
-      "info_level": "B",
-      "items_count": 4,
-      "known_dishes_count": 0,
-      "sources_count": 1
-    },
-    "ChIJy_hxHgCrNTERoIcGv_opdSI": {
-      "name": "Phu Quoc Sunset Town Coffee Workshop - Brew & Design the Art of Vietnamese Coffee",
-      "name_google": "Phu Quoc Sunset Town Coffee Workshop - Brew & Design the Art of Vietnamese Coffee",
-      "status": "price_range_only",
-      "info_level": "C",
-      "items_count": 0,
-      "known_dishes_count": 3,
-      "sources_count": 1
-    },
-    "ChIJqzR5BqKVpzERsUFb1ZBTkHI": {
-      "name": "Milano Coffee - 64 Milan Sunset Town",
-      "name_google": "Milano Coffee - 64 Milan Sunset Town",
-      "status": "price_range_only",
-      "info_level": "C",
-      "items_count": 0,
-      "known_dishes_count": 3,
-      "sources_count": 1
-    },
-    "ChIJO3-yzguVpzERco-w4qWwzBE": {
-      "name": "Kem Tràng Tiền - Sunset Town, Phú Quốc",
-      "name_google": "Kem Tràng Tiền - Sunset Town, Phú Quốc",
-      "status": "price_range_only",
-      "info_level": "C",
-      "items_count": 0,
-      "known_dishes_count": 3,
-      "sources_count": 1
-    },
-    "ChIJexxLuvWVpzERYfMNC6E2l6k": {
-      "name": "Casa Limone Phu Quoc Hotel & Café - Specialty Coffee & Matcha Bar",
-      "name_google": "Casa Limone Phu Quoc Hotel & Café - Specialty Coffee & Matcha Bar",
-      "status": "price_range_only",
-      "info_level": "C",
-      "items_count": 0,
-      "known_dishes_count": 3,
-      "sources_count": 1
-    },
-    "ChIJO5hTZgCVpzERv98h_ecyvFc": {
-      "name": "Sunset Tiger Tea",
-      "name_google": "Sunset Tiger Tea",
-      "status": "price_range_only",
-      "info_level": "C",
-      "items_count": 0,
-      "known_dishes_count": 3,
-      "sources_count": 1
-    },
-    "ChIJi6p4AwCXpzERrcfUWx2c6gY": {
-      "name": "Senthy Coffee Lounge",
-      "name_google": "Senthy Coffee Lounge",
-      "status": "price_range_only",
-      "info_level": "C",
-      "items_count": 0,
-      "known_dishes_count": 3,
-      "sources_count": 1
-    },
-    "ChIJybaGwLWXpzER0vqLL6QiWjE": {
-      "name": "Tsunagari Phu Quoc - Japanese matcha in the island",
-      "name_google": "Tsunagari Phu Quoc - Japanese matcha in the island",
-      "status": "price_range_only",
-      "info_level": "C",
-      "items_count": 0,
-      "known_dishes_count": 3,
-      "sources_count": 1
-    },
-    "ChIJTdwiKNmVpzER1knXm_zr2zA": {
-      "name": "Cafe Juliet & Pastries",
-      "name_google": "Cafe Juliet & Pastries",
-      "status": "price_range_only",
-      "info_level": "C",
-      "items_count": 0,
-      "known_dishes_count": 3,
-      "sources_count": 1
-    },
-    "ChIJE6Jt3vuVpzERA6ErTfB79es": {
-      "name": "The Juliet Coffee & Dessert - AMA71",
-      "name_google": "The Juliet Coffee & Dessert - AMA71",
-      "status": "price_range_only",
-      "info_level": "C",
-      "items_count": 0,
-      "known_dishes_count": 3,
-      "sources_count": 1
-    },
-    "ChIJ4XRWXwCVpzER4TmxHDp0HaI": {
-      "name": "Islander PhuQuoc Handmade Gifts & Coffee",
-      "name_google": "Islander PhuQuoc Handmade Gifts & Coffee",
-      "status": "price_range_only",
-      "info_level": "C",
-      "items_count": 0,
-      "known_dishes_count": 3,
-      "sources_count": 1
-    },
-    "ChIJEUml2SuVpzER3wqcSc2d9yg": {
-      "name": "The Ivy Café & Lounge Phu Quoc",
-      "name_google": "The Ivy Café & Lounge Phu Quoc",
-      "status": "price_range_only",
-      "info_level": "C",
-      "items_count": 0,
-      "known_dishes_count": 3,
-      "sources_count": 1
-    },
-    "ChIJHfkAZ4WVpzERmME-KkMKRrI": {
-      "name": "Lotus Home & Cafe",
-      "name_google": "Lotus Home & Cafe",
-      "status": "price_range_only",
-      "info_level": "C",
-      "items_count": 0,
-      "known_dishes_count": 3,
-      "sources_count": 1
-    },
-    "ChIJUZs9AACVpzERDU2CVZEwhMQ": {
-      "name": "The Fern Coffee Sea",
-      "name_google": "The Fern Coffee Sea",
-      "status": "price_range_only",
-      "info_level": "C",
-      "items_count": 0,
-      "known_dishes_count": 3,
-      "sources_count": 1
-    },
-    "ChIJM56vPyOVpzERkcoihdCbcQg": {
-      "name": "SANTO CAFE",
-      "name_google": "SANTO CAFE",
-      "status": "price_range_only",
-      "info_level": "C",
-      "items_count": 0,
-      "known_dishes_count": 3,
-      "sources_count": 1
-    },
-    "ChIJ51OpPgCVpzER-TzMZtCOk0o": {
-      "name": "Maison Kayser Phu Quoc",
-      "name_google": "Maison Kayser Phu Quoc",
-      "status": "price_range_only",
-      "info_level": "C",
-      "items_count": 0,
-      "known_dishes_count": 3,
-      "sources_count": 1
-    },
-    "ChIJVef0-G6XpzERfRGPWSjnMSM": {
-      "name": "MAE Coffee",
-      "name_google": "MAE Coffee",
-      "status": "price_range_only",
-      "info_level": "C",
-      "items_count": 0,
-      "known_dishes_count": 3,
-      "sources_count": 1
-    },
-    "ChIJk8rbTrmXpzERJtmse_K7fYA": {
-      "name": "Apollo Cafe Phu Quoc",
-      "name_google": "Apollo Cafe Phu Quoc",
-      "status": "price_range_only",
-      "info_level": "C",
-      "items_count": 0,
-      "known_dishes_count": 3,
-      "sources_count": 1
-    },
-    "ChIJFePbK8yXpzER_rJM4eYtKaA": {
-      "name": "La isla Bistro & coffee",
-      "name_google": "La isla Bistro & coffee",
-      "status": "price_range_only",
-      "info_level": "C",
-      "items_count": 0,
-      "known_dishes_count": 3,
-      "sources_count": 1
-    },
-    "ChIJMXSxNgCXpzERgxlz0F6Zn7I": {
-      "name": "루나 포크 (Luna Folk - La Festa Hilton 재즈 & 칵테일 바)",
-      "name_google": "Luna Folk",
-      "status": "partial",
-      "info_level": "B",
-      "items_count": 2,
-      "known_dishes_count": 0,
-      "sources_count": 1
-    },
-    "ChIJbR-3v0iXpzERO5uhXf8gO8k": {
-      "name": "일 살로네 (iL Salone - La Festa Hilton 애프터눈티 & 라운지 바)",
-      "name_google": "iL Salone – Afternoon Tea Lounge & Bar",
-      "status": "partial",
-      "info_level": "B",
-      "items_count": 2,
-      "known_dishes_count": 0,
-      "sources_count": 1
-    },
-    "ChIJzXtAVDKXpzER1cjjYNLZETM": {
-      "name": "씨엘로 루프탑 바 (Cielo Rooftop Bar - La Festa Hilton)",
-      "name_google": "Cielo",
-      "status": "partial",
-      "info_level": "B",
-      "items_count": 1,
-      "known_dishes_count": 0,
-      "sources_count": 1
-    },
-    "ChIJc9wZF96XpzERaOKT6SZjnj4": {
-      "name": "술탄 터키쉬 케밥 선셋타운 (Sultan Turkish Kebab)",
-      "name_google": "Sultan Turkish Kebab – Sunset Town Phu Quoc",
-      "status": "partial",
-      "info_level": "B",
-      "items_count": 2,
-      "known_dishes_count": 0,
-      "sources_count": 1
-    },
-    "ChIJAwwqc2yVpzER_4K_0feO5I8": {
-      "name": "선 바바리아 가스트로펍 (Sun Bavaria GastroPub - Sun KraftBeer)",
-      "name_google": "Sun Bavaria GastroPub",
-      "status": "partial",
-      "info_level": "B",
-      "items_count": 6,
-      "known_dishes_count": 0,
-      "sources_count": 1
-    },
-    "ChIJ2_09NpGVpzERNU0LHL9210Q": {
-      "name": "지온 바 & 바이츠 키친 (Giòn Bar & Bites Kitchen)",
-      "name_google": "Giòn Bar",
-      "status": "partial",
-      "info_level": "B",
-      "items_count": 3,
-      "known_dishes_count": 0,
-      "sources_count": 1
-    },
-    "ChIJ4-08StuXpzERjwmUJihXMSM": {
-      "name": "드래프트 비어 선셋타운 (Draft Beer Sunset Town Phú Quốc)",
-      "name_google": "DRAFT BEER Sunset Town Phú Quốc",
-      "status": "partial",
-      "info_level": "B",
-      "items_count": 5,
-      "known_dishes_count": 0,
-      "sources_count": 1
-    },
-    "ChIJgdPeM-6VpzERp4qCP5Rftfc": {
-      "name": "테아트로 클럽 푸꾸옥 (Teatro Club Phú Quốc)",
-      "name_google": "Teatro Club Phú Quốc",
-      "status": "partial",
-      "info_level": "B",
-      "items_count": 2,
-      "known_dishes_count": 0,
-      "sources_count": 1
-    },
-    "ChIJ_8PhSl6XpzERyXEGZHWPPK8": {
-      "name": "Mía Phú Quốc",
-      "name_google": "Mía Phú Quốc",
-      "status": "price_range_only",
-      "info_level": "C",
-      "items_count": 0,
-      "known_dishes_count": 3,
-      "sources_count": 1
-    },
-    "ChIJw0KgNACVpzERw5KrYRFhYrk": {
-      "name": "Loop Jacuzzi Bar",
-      "name_google": "Loop Jacuzzi Bar",
-      "status": "price_range_only",
-      "info_level": "C",
-      "items_count": 0,
-      "known_dishes_count": 3,
-      "sources_count": 1
-    },
-    "ChIJWemJxp-XpzER7U_LSFAw2FI": {
-      "name": "Hiên Nhà Veranda Sunset Town Phú Quốc",
-      "name_google": "Hiên Nhà Veranda Sunset Town Phú Quốc",
-      "status": "price_range_only",
-      "info_level": "C",
-      "items_count": 0,
-      "known_dishes_count": 3,
-      "sources_count": 1
-    },
-    "ChIJxyS9aICXpzERzjprHrHS6HM": {
-      "name": "Mango Mango",
-      "name_google": "Mango Mango",
-      "status": "price_range_only",
-      "info_level": "C",
-      "items_count": 0,
-      "known_dishes_count": 3,
-      "sources_count": 1
-    },
-    "ChIJ_UidppuWpzERKabcboVlovw": {
-      "name": "PH Rooftop Bar & Lounge - Sea View Restaurant, An Thoi, Phu Quoc",
-      "name_google": "PH Rooftop Bar & Lounge - Sea View Restaurant, An Thoi, Phu Quoc",
-      "status": "price_range_only",
-      "info_level": "C",
-      "items_count": 0,
-      "known_dishes_count": 3,
-      "sources_count": 1
     }
   },
   "summary": {
-    "total_processed": 59,
+    "total_processed": 95,
     "grade_a": 6,
-    "grade_b": 10,
-    "grade_c": 33,
+    "grade_b": 23,
+    "grade_c": 56,
     "grade_d": 10,
-    "total_items": 653
+    "total_items": 701
   }
 }

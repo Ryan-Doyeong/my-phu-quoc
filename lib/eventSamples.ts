@@ -92,7 +92,7 @@ export const PUBLISHED_EVENTS: EventSampleStory[] = [
 
 - **Date & Time**: Sunday, October 25, 2026 · **15:30 – 17:00**
 - **Organizer**: Get Arty ([www.getartystudio.com](https://www.getartystudio.com))
-- **Location**: Get Arty Studio, 19 Đường số 46, Phú Quốc, Thủ Đức, Hồ Chí Minh
+- **Location**: Get Arty Studio, 19 Đường số 46, Sunset Town, Phú Quốc, Kiên Giang
 - **Fee**: **450,000 VND** per child (**10% sibling discount** for 2 or more brothers/sisters)
 - **Booking & Inquiries**: [www.getartystudio.com/events](https://www.getartystudio.com/events)
 
@@ -112,7 +112,7 @@ export const PUBLISHED_EVENTS: EventSampleStory[] = [
 
 - **Thời gian**: Chủ Nhật, **25/10/2026 · 15:30 – 17:00**
 - **Đơn vị tổ chức**: Get Arty ([www.getartystudio.com](https://www.getartystudio.com))
-- **Địa điểm**: Get Arty Studio, 19 Đường số 46, Phú Quốc, Thủ Đức, Hồ Chí Minh
+- **Địa điểm**: Get Arty Studio, 19 Đường số 46, Sunset Town, Phú Quốc, Kiên Giang
 - **Chi phí**: **450.000 VND / 1 bé** (**Giảm 10%** khi đăng ký từ 2 anh/chị/em ruột trở lên)
 - **Đặt chỗ & Liên hệ**: [www.getartystudio.com/events](https://www.getartystudio.com/events)
 
@@ -132,18 +132,18 @@ export const PUBLISHED_EVENTS: EventSampleStory[] = [
 
 - **일시**: 2026년 10월 25일(일) **15:30 – 17:00**
 - **주최**: Get Arty (푸꾸옥 소재 아트 스튜디오, [www.getartystudio.com](https://www.getartystudio.com))
-- **장소**: Get Arty Studio, 19 Đường số 46, Phú Quốc, Thủ Đức, Hồ Chí Minh
+- **장소**: Get Arty Studio, 19 Đường số 46, Sunset Town, Phú Quốc, Kiên Giang
 - **요금**: 1인 **450,000 VND** (2명 이상 형제/자매 함께 등록 시 **10% 할인**)
 - **예약 및 문의**: [www.getartystudio.com/events](https://www.getartystudio.com/events)
 
 ---
 
 **정보 출처**: Facebook 'Events in Saigon' 그룹 공유 (Get Arty)`,
-    seo_title: 'Spooky Halloween Mask Making (Kids 6–12) – Phú Quốc | Good Life in Phu Quoc',
+    seo_title: 'Spooky Halloween Mask Making (Kids 6–12) – Phú Quốc | My Phu Quoc',
     seo_title_vi:
-      'Workshop Làm Mặt nạ Halloween cho Bé (6–12 tuổi) – Phú Quốc | Good Life in Phu Quoc',
+      'Workshop Làm Mặt nạ Halloween cho Bé (6–12 tuổi) – Phú Quốc | My Phu Quoc',
     seo_title_ko:
-      'Spooky Halloween Mask Making (Kids 6–12) – 푸꾸옥 어린이 할로윈 가면 만들기 공방 | Good Life in Phu Quoc',
+      'Spooky Halloween Mask Making (Kids 6–12) – 푸꾸옥 어린이 할로윈 가면 만들기 공방 | My Phu Quoc',
     seo_description:
       'Kids Halloween mask-making workshop (ages 6–12) at Get Arty Studio in Phu Quoc on Oct 25, 2026 (15:30–17:00). 450,000 VND per child, 10% sibling discount, all materials provided.',
     seo_description_vi:
@@ -173,17 +173,17 @@ export const PUBLISHED_EVENTS: EventSampleStory[] = [
       "예약 및 문의: www.getartystudio.com/events · 정보 출처: Facebook 'Events in Saigon' 그룹 공유 (Get Arty)",
     cover_image_url: '/features/default_cover_640.webp',
     hero_caption:
-      'Halloween mask-making craft table with felt masks, colored cardstock, brushes and glue gun (illustration prepared by Good Life Phu Quoc).',
+      'Halloween mask-making craft table with felt masks, colored cardstock, brushes and glue gun (illustration prepared by My Phu Quoc).',
     hero_caption_vi:
-      'Bàn thủ công làm mặt nạ Halloween với mặt nạ vải nỉ, giấy màu, cọ vẽ và súng bắn keo (ảnh minh họa do Good Life Phu Quoc thực hiện).',
+      'Bàn thủ công làm mặt nạ Halloween với mặt nạ vải nỉ, giấy màu, cọ vẽ và súng bắn keo (ảnh minh họa do My Phu Quoc thực hiện).',
     hero_caption_ko:
-      '할로윈 가면과 펠트지·색지·붓·글루건 등 크래프트 재료가 준비된 공방 테이블 (Good Life Phu Quoc 자체 제작 썸네일).',
+      '할로윈 가면과 펠트지·색지·붓·글루건 등 크래프트 재료가 준비된 공방 테이블 (My Phu Quoc 자체 제작 썸네일).',
     published_at: '2026-10-20T13:45:00+07:00',
     updated_at: '2026-10-20T13:45:00+07:00',
     event_date: '2026-10-25T15:30:00+07:00',
     effective_date: '2026-10-25T17:00:00+07:00', // Automatically switches to Ended after Oct 25, 2026 17:00 ICT
-    event_location: 'Get Arty Studio, 19 Đường số 46, Phú Quốc, Thủ Đức, Hồ Chí Minh',
-    author_name: 'Good Life Editorial Desk',
+    event_location: 'Get Arty Studio, 19 Đường số 46, Sunset Town, Phú Quốc, Kiên Giang',
+    author_name: 'My Phu Quoc Editorial Desk',
     source_name:
       "Source: Shared via Facebook 'Events in Saigon' group (Get Arty) · 정보 출처: Facebook 'Events in Saigon' 그룹 공유 (Get Arty)",
     source_name_vi:
@@ -224,7 +224,7 @@ export const SAMPLE_EVENTS: EventSampleStory[] = [
     category: 'Market & Pop-up',
     category_vi: 'Chợ phiên & Pop-up',
     category_ko: '플리마켓 · 팝업',
-    title: '[SAMPLE] Phu Quoc Weekend Farmers & Craft Market at Xuan Thuy Courtyard',
+    title: '[SAMPLE] Phu Quoc Weekend Farmers & Craft Market at Sunset Town Promenade',
     title_vi: '[MẪU] Chợ phiên Nông sản & Thủ công Cuối tuần Phú Quốc tại sân Xuân Thủy',
     title_ko: '[샘플] 푸꾸옥 주말 파머스 & 크래프트 마켓 (쑤언투이 코트야드)',
     subtitle: 'Sample preview event: organic produce, sourdough bread, local ceramics and family-friendly workshops.',
@@ -241,12 +241,12 @@ The Phu Quoc Weekend Farmers & Craft Market gathers local growers, bakers and ne
 
 - **Fresh produce & pantry**: Dalat highland vegetables, raw honey, artisanal cheese and small-batch coffee beans.
 - **Bakery & brunch stalls**: Freshly baked sourdough loaves, pastries and cold-pressed juices available from 8:30 AM.
-- **Craft & ceramic tables**: Handmade tableware, linen home goods and botanical candles by Thu Duc studio artists.
+- **Craft & ceramic tables**: Handmade tableware, linen home goods and botanical candles by local Phu Quoc artists.
 
 ## When & where
 
 - **Dates**: October 18 – October 26, 2026 (08:30 – 17:00)
-- **Location**: Xuan Thuy Community Courtyard, Phu Quoc, Thu Duc City
+- **Location**: Waterfront Promenade, Sunset Town, Phu Quoc
 - **Entry**: Free admission (pet-friendly outdoor area)
 
 ## Good to know
@@ -260,12 +260,12 @@ Chợ phiên Nông sản & Thủ công Cuối tuần Phú Quốc quy tụ các n
 
 - **Nông sản tươi & thực phẩm sạch**: Rau củ Đà Lạt, mật ong nguyên chất, phô mai thủ công và cà phê rang mộc.
 - **Quầy bánh & đồ uống sáng**: Bánh mì sourdough mới ra lò, bánh ngọt và nước ép lạnh phục vụ từ 08:30 sáng.
-- **Góc thủ công & gốm**: Đồ gốm bàn ăn, vải linen gia dụng và nến thơm tự nhiên từ các xưởng nhỏ tại TP. Thủ Đức.
+- **Góc thủ công & gốm**: Đồ gốm bàn ăn, vải linen gia dụng và nến thơm tự nhiên từ các xưởng nhỏ tại Phú Quốc.
 
 ## Thời gian & địa điểm
 
 - **Thời gian**: 18/10 – 26/10/2026 (08:30 – 17:00)
-- **Địa điểm**: Sân sinh hoạt cộng đồng Xuân Thủy, Phú Quốc, TP. Thủ Đức
+- **Địa điểm**: Quảng trường Biển, Thị trấn Hoàng Hôn, Phú Quốc
 - **Vé vào cửa**: Miễn phí (khu vực ngoài trời thân thiện với thú cưng)
 
 ## Lưu ý hữu ích
@@ -279,25 +279,25 @@ Khuyến khích cư dân mang theo túi vải cá nhân và bình nước riêng
 
 - **신선 농산물 & 그로서리**: 달랏 고원 유기농 채소, 천연 벌꿀, 수제 치즈 및 소량 로스팅 원두를 만나볼 수 있습니다.
 - **베이커리 & 모닝 브런치**: 오전 8시 30분부터 갓 구운 사워도우 브레드, 페이스트리, 착즙 주스가 준비됩니다.
-- **수공예 & 세라믹 마켓**: 투득시 로컬 공방에서 제작한 도자기 식기, 리넨 소품, 천연 소이 캔들을 전시·판매합니다.
+- **수공예 & 세라믹 마켓**: 푸꾸옥 로컬 공방에서 제작한 도자기 식기, 리넨 소품, 천연 소이 캔들을 전시·판매합니다.
 
 ## 일시 및 장소
 
 - **일정**: 2026년 10월 18일 ~ 10월 26일 (08:30 – 17:00)
-- **장소**: 푸꾸옥 쑤언투이 커뮤니티 코트야드 (Xuân Thủy, Phú Quốc, TP. Thủ Đức)
+- **장소**: 선셋타운 워터프론트 광장 (Sunset Town, Phú Quốc)
 - **입장료**: 무료 입장 (반려동물 동반 가능 야외 공간)
 
 ## 방문 전 참고사항
 
 개인 에코백과 텀블러 지참을 권장합니다. 오토바이 주차는 꾸옥흐엉(Quốc Hương) 거리 쪽 보조 출입구를 이용하실 수 있습니다.`,
-    seo_title: '[SAMPLE] Phu Quoc Weekend Farmers & Craft Market | Good Life in Phu Quoc',
-    seo_title_vi: '[MẪU] Chợ phiên Nông sản & Thủ công Cuối tuần Phú Quốc | Good Life in Phu Quoc',
-    seo_title_ko: '[샘플] 푸꾸옥 주말 파머스 & 크래프트 마켓 | Good Life in Phu Quoc',
-    seo_description: '[SAMPLE] Preview event entry for the Phu Quoc Weekend Farmers & Craft Market at Xuan Thuy Courtyard.',
+    seo_title: '[SAMPLE] Phu Quoc Weekend Farmers & Craft Market | My Phu Quoc',
+    seo_title_vi: '[MẪU] Chợ phiên Nông sản & Thủ công Cuối tuần Phú Quốc | My Phu Quoc',
+    seo_title_ko: '[샘플] 푸꾸옥 주말 파머스 & 크래프트 마켓 | My Phu Quoc',
+    seo_description: '[SAMPLE] Preview event entry for the Phu Quoc Weekend Farmers & Craft Market at Sunset Town Promenade.',
     seo_description_vi: '[MẪU] Bài xem trước cho sự kiện Chợ phiên Nông sản & Thủ công Cuối tuần Phú Quốc.',
     seo_description_ko: '[샘플] 푸꾸옥 주말 파머스 & 크래프트 마켓 이벤트 게시판 화면 확인용 샘플 글입니다.',
     key_points: [
-      '[SAMPLE] Runs October 18–26, 2026 (08:30–17:00) at Xuan Thuy Courtyard',
+      '[SAMPLE] Runs October 18–26, 2026 (08:30–17:00) at Sunset Town Promenade',
       'Features Dalat organic produce, sourdough bakery stalls and local ceramics',
       'Free entry, pet-friendly outdoor space, bring your own reusable bag',
     ],
@@ -322,8 +322,8 @@ Khuyến khích cư dân mang theo túi vải cá nhân và bình nước riêng
     updated_at: '2026-10-19T09:00:00+07:00',
     event_date: '2026-10-18T08:30:00+07:00',
     effective_date: '2026-10-26T17:00:00+07:00', // Ends Oct 26, 2026 -> Ongoing (진행중)
-    event_location: 'Xuan Thuy Courtyard, Phu Quoc, Thu Duc City',
-    author_name: 'Good Life Editorial Desk (Sample)',
+    event_location: 'Sunset Town, Phu Quoc',
+    author_name: 'My Phu Quoc Editorial Desk (Sample)',
     tags: ['sample', 'market', 'farmers-market', 'bakery', 'craft', 'xuan-thuy', '플리마켓', '마켓', 'chợ phiên'],
   },
   {
@@ -357,7 +357,7 @@ Start the weekend with a gentle 60-minute outdoor yoga flow followed by 15 minut
 ## When & where
 
 - **Dates**: October 17 – November 15, 2026 (Saturdays, 07:00 – 08:15)
-- **Location**: Nguyen Van Huong Riverside Lawn, Phu Quoc, Thu Duc City
+- **Location**: Khem Beach Sunrise Lawn, Phu Quoc
 - **Who it is for**: Open to all fitness levels; beginners welcome.
 
 ## Good to know
@@ -376,7 +376,7 @@ Khởi đầu ngày cuối tuần với 60 phút tập yoga ngoài trời nhẹ 
 ## Thời gian & địa điểm
 
 - **Thời gian**: 17/10 – 15/11/2026 (Thứ Bảy hàng tuần, 07:00 – 08:15)
-- **Địa điểm**: Bãi cỏ ven sông đường Nguyễn Văn Hưởng, Phú Quốc, TP. Thủ Đức
+- **Địa điểm**: Bãi cỏ ven sông đường Nguyễn Văn Hưởng, Phú Quốc, Phú Quốc
 - **Đối tượng**: Phù hợp với mọi trình độ, hoan nghênh người mới bắt đầu.
 
 ## Lưu ý hữu ích
@@ -395,15 +395,15 @@ Vui lòng tự chuẩn bị thảm tập yoga, khăn nhỏ và bình nước cá
 ## 일시 및 장소
 
 - **일정**: 2026년 10월 17일 ~ 11월 15일 (매주 토요일 오전 07:00 – 08:15)
-- **장소**: 응우옌반흐엉 강변 잔디 공간 (Nguyễn Văn Hưởng, Phú Quốc, TP. Thủ Đức)
+- **장소**: 응우옌반흐엉 강변 잔디 공간 (Nguyễn Văn Hưởng, Phú Quốc, Phú Quốc)
 - **대상**: 요가 입문자부터 숙련자까지 모든 거주민 참여 가능
 
 ## 방문 전 참고사항
 
 개인 요가 매트, 작은 수건, 생수를 지참해 주세요. 우천 시에는 바로 옆 지붕이 있는 파빌리온 공간에서 진행됩니다.`,
-    seo_title: '[SAMPLE] Saigon Riverside Morning Yoga & Breathwork | Good Life in Phu Quoc',
-    seo_title_vi: '[MẪU] Buổi tập Yoga & Thở buổi sáng bên sông Sài Gòn | Good Life in Phu Quoc',
-    seo_title_ko: '[샘플] 사이공 리버사이드 모닝 요가 & 호흡 클래스 | Good Life in Phu Quoc',
+    seo_title: '[SAMPLE] Saigon Riverside Morning Yoga & Breathwork | My Phu Quoc',
+    seo_title_vi: '[MẪU] Buổi tập Yoga & Thở buổi sáng bên sông Sài Gòn | My Phu Quoc',
+    seo_title_ko: '[샘플] 사이공 리버사이드 모닝 요가 & 호흡 클래스 | My Phu Quoc',
     seo_description: '[SAMPLE] Preview event entry for the Saigon Riverside Morning Yoga & Breathwork Community Session in Phu Quoc.',
     seo_description_vi: '[MẪU] Bài xem trước cho sự kiện Buổi tập Yoga & Thở buổi sáng bên sông Sài Gòn tại Phú Quốc.',
     seo_description_ko: '[샘플] 사이공 리버사이드 모닝 요가 & 호흡 커뮤니티 클래스 화면 확인용 샘플 글입니다.',
@@ -433,8 +433,8 @@ Vui lòng tự chuẩn bị thảm tập yoga, khăn nhỏ và bình nước cá
     updated_at: '2026-10-16T08:00:00+07:00',
     event_date: '2026-10-17T07:00:00+07:00',
     effective_date: '2026-11-15T08:15:00+07:00', // Ends Nov 15, 2026 -> Ongoing (진행중)
-    event_location: 'Nguyen Van Huong Riverside, Phu Quoc, Thu Duc City',
-    author_name: 'Good Life Editorial Desk (Sample)',
+    event_location: 'Khem Beach, Phu Quoc',
+    author_name: 'My Phu Quoc Editorial Desk (Sample)',
     tags: ['sample', 'yoga', 'wellness', 'workout', 'riverside', '요가', '운동', '웰니스', 'thể thao'],
   },
   {
@@ -468,7 +468,7 @@ Neighbors gathered on Quoc Huong Street for an informal afternoon of acoustic mu
 ## When & where
 
 - **Date**: October 10, 2026 (15:00 – 18:00) — **Event Ended**
-- **Location**: Quoc Huong Garden Lounge, Phu Quoc, Thu Duc City
+- **Location**: Clock Tower Square, Sunset Town, Phu Quoc
 
 ## Good to know
 
@@ -486,7 +486,7 @@ Buổi chiều giao lưu thân mật trên đường Quốc Hương với âm nh
 ## Thời gian & địa điểm
 
 - **Thời gian**: 10/10/2026 (15:00 – 18:00) — **Sự kiện đã kết thúc**
-- **Địa điểm**: Không gian sân vườn đường Quốc Hương, Phú Quốc, TP. Thủ Đức
+- **Địa điểm**: Không gian sân vườn đường Quốc Hương, Phú Quốc, Phú Quốc
 
 ## Lưu ý hữu ích
 
@@ -504,14 +504,14 @@ Sự kiện mẫu này có ngày kết thúc trong quá khứ (\`2026-10-10\`) �
 ## 일시 및 장소
 
 - **일정**: 2026년 10월 10일 (15:00 – 18:00) — **종료된 이벤트**
-- **장소**: 푸꾸옥 꾸옥흐엉 가든 라운지 (Quốc Hương, Phú Quốc, TP. Thủ Đức)
+- **장소**: 푸꾸옥 꾸옥흐엉 가든 라운지 (Quốc Hương, Phú Quốc, Phú Quốc)
 
 ## 참고사항
 
 이 샘플 게시물은 종료일(\`2026-10-10\`)이 과거로 설정되어 있어, 목록과 상세 페이지에서 **Ended / Đã kết thúc / 종료** 배지가 정상적으로 표시되는지 확인하는 용도입니다.`,
-    seo_title: '[SAMPLE] Phu Quoc Autumn Acoustic & Coffee Social | Good Life in Phu Quoc',
-    seo_title_vi: '[MẪU] Giao lưu Cà phê & Nhạc Acoustic Mùa thu Phú Quốc | Good Life in Phu Quoc',
-    seo_title_ko: '[샘플] 푸꾸옥 어텀 어쿠스틱 & 이웃 커피 모임 | Good Life in Phu Quoc',
+    seo_title: '[SAMPLE] Phu Quoc Autumn Acoustic & Coffee Social | My Phu Quoc',
+    seo_title_vi: '[MẪU] Giao lưu Cà phê & Nhạc Acoustic Mùa thu Phú Quốc | My Phu Quoc',
+    seo_title_ko: '[샘플] 푸꾸옥 어텀 어쿠스틱 & 이웃 커피 모임 | My Phu Quoc',
     seo_description: '[SAMPLE] Preview completed event entry demonstrating the Ended status badge on the Phu Quoc Events board.',
     seo_description_vi: '[MẪU] Bài xem trước cho sự kiện đã kết thúc trên bảng Sự kiện Phú Quốc.',
     seo_description_ko: '[샘플] 종료일 경과 시 종료 배지 표시를 확인하기 위한 푸꾸옥 이벤트 샘플 글입니다.',
@@ -541,8 +541,8 @@ Sự kiện mẫu này có ngày kết thúc trong quá khứ (\`2026-10-10\`) �
     updated_at: '2026-10-10T19:00:00+07:00',
     event_date: '2026-10-10T15:00:00+07:00',
     effective_date: '2026-10-10T18:00:00+07:00', // Ended Oct 10, 2026 -> Ended (종료)
-    event_location: 'Quoc Huong Street, Phu Quoc, Thu Duc City',
-    author_name: 'Good Life Editorial Desk (Sample)',
+    event_location: 'Sunset Town, Phu Quoc',
+    author_name: 'My Phu Quoc Editorial Desk (Sample)',
     tags: ['sample', 'coffee', 'acoustic', 'community', 'cafe', '커피', '어쿠스틱', '카페', 'cà phê'],
   },
 ]

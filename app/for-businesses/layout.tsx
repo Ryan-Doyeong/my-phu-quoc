@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: "For Businesses | Good Life in Phu Quoc",
+  title: "For Businesses | My Phu Quoc",
   description: "Information for businesses in Phu Quoc to claim or update their listing."
 }
 
