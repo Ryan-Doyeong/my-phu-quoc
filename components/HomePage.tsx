@@ -76,6 +76,45 @@ const fallbackStories = [
   },
 ]
 
+function sanitizeFireworksTiming(text: string): string {
+  if (!text) return ''
+  let t = text
+  // 1. 한국어
+  t = t.replace(/매일\s*밤\s*21시\s*30분\s*터지는\s*불꽃놀이/g, '불꽃놀이 피날레(운영 일정은 공식 공지 확인)')
+  t = t.replace(/매일\s*밤\s*21:30/g, '공연 피날레')
+  t = t.replace(/21시\s*30분\s*불꽃놀이/g, '불꽃놀이 피날레')
+  t = t.replace(/21시\s*30분/g, '공연 피날레(공식 공지 확인)')
+  t = t.replace(/21:30/g, '공연 피날레(공식 공지 확인)')
+  t = t.replace(/매일\s*밤\s*불꽃놀이/g, '불꽃놀이 쇼')
+
+  // 2. 영어
+  t = t.replace(/for the 21:30 fireworks/gi, 'for the fireworks finale (check official schedule)')
+  t = t.replace(/the 21:30 fireworks/gi, 'the fireworks finale (check official schedule)')
+  t = t.replace(/21:30 fireworks/gi, 'fireworks finale (check official schedule)')
+  t = t.replace(/Nightly Fireworks/gi, 'Fireworks Finale')
+
+  // 3. 베트남어
+  t = t.replace(/lúc 21:30/gi, 'cuối show diễn (xem thông báo chính thức)')
+  t = t.replace(/21:30/gi, 'cuối show (xem lịch chính thức)')
+  t = t.replace(/Pháo Hoa Hàng Đêm/gi, 'Pháo Hoa Biển')
+
+  // 4. 러시아어
+  t = t.replace(/21:30/gi, 'в финале шоу (уточняйте расписание)')
+
+  // 5. 일본어
+  t = t.replace(/21:30/gi, 'フィナーレ花火（公式スケジュール確認）')
+  t = t.replace(/毎晩/g, '公演')
+
+  // 6. 중국어
+  t = t.replace(/21:30/gi, '压轴烟花秀（以官方最新公告为准）')
+  t = t.replace(/每晚/g, '演出')
+
+  // 7. 힌디어
+  t = t.replace(/21:30/gi, 'आतिशबाजी (आधिकारिक समय सारिणी देखें)')
+
+  return t
+}
+
 export function HomePage({
   settings,
   categoryAppearance,
@@ -107,14 +146,19 @@ export function HomePage({
     ? stories.slice(0, 4).map((raw, i) => {
         const s = localizeStory(raw, locale)
         return {
-          title: s.title,
+          title: sanitizeFireworksTiming(s.title),
           category: s.category || fallbackStories[i]?.category || 'COMMUNITY',
-          excerpt: s.excerpt || fallbackStories[i]?.excerpt || '',
+          excerpt: sanitizeFireworksTiming(s.excerpt || fallbackStories[i]?.excerpt || ''),
           image: s.cover_image_url,
           slug: s.slug,
         }
       })
-    : fallbackStories.map((x, i) => ({ ...x, slug: `fallback-${i}` }))
+    : fallbackStories.map((x, i) => ({
+        ...x,
+        title: sanitizeFireworksTiming(x.title),
+        excerpt: sanitizeFireworksTiming(x.excerpt),
+        slug: `fallback-${i}`,
+      }))
 
   const localizedEvent = event ? localizeStory(event, locale) : null
   const mainBanners = banners
@@ -248,8 +292,8 @@ export function HomePage({
               <div className="eventPromoShade" />
               <div className="eventPromoCopy">
                 <span className="eyebrow">{dict.home.eventEyebrow}</span>
-                <h2>{localizedEvent.title}</h2>
-                <p>{localizedEvent.excerpt}</p>
+                <h2>{sanitizeFireworksTiming(localizedEvent.title)}</h2>
+                <p>{sanitizeFireworksTiming(localizedEvent.excerpt || '')}</p>
                 <div>
                   {localizedEvent.event_date
                     ? new Date(localizedEvent.event_date).toLocaleDateString(dateLocaleFor(locale), {
@@ -389,20 +433,24 @@ export function HomePage({
                   key={`${s.title}-${i}`}
                 >
                   <article className="storyCard">
-                    {s.image && (
-                      <img
-                        src={imageUrl(s.image, 640, 70)}
-                        alt=""
-                        loading="lazy"
-                        decoding="async"
-                        width={640}
-                        height={426}
-                      />
-                    )}
-                    <small className="storyPhotoCredit">Photo: Vivu Vietnam · CC BY-SA 4.0</small>
-                    <span>{s.category}</span>
-                    <h3>{s.title}</h3>
-                    <p>{s.excerpt}</p>
+                    <div className="storyCardImage">
+                      {s.image && (
+                        <img
+                          src={imageUrl(s.image, 640, 70)}
+                          alt=""
+                          loading="lazy"
+                          decoding="async"
+                          width={640}
+                          height={426}
+                        />
+                      )}
+                    </div>
+                    <div className="storyCardBody">
+                      <span className="storyCategory">{s.category}</span>
+                      <h3>{s.title}</h3>
+                      <p>{s.excerpt}</p>
+                      <small className="storyPhotoCredit">Photo: Vivu Vietnam · CC BY-SA 4.0</small>
+                    </div>
                   </article>
                 </Link>
               ))}
