@@ -26,6 +26,8 @@ export interface MapLandmark {
   tips: Record<Locale, string>
   bestTime?: string
   operatingHours?: string
+  walkingDistance?: string
+  walkingTime?: string
   googleMapsUrl: string
 }
 
@@ -58,6 +60,8 @@ export interface MapTourCourse {
 export const SUNSET_LANDMARKS: MapLandmark[] = [
   {
     id: 'kiss-bridge',
+    walkingDistance: '0.4 km',
+    walkingTime: '5 min',
     number: 1,
     name: {
       ko: '키스 브릿지 (Cầu Hôn)',
@@ -102,6 +106,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
   },
   {
     id: 'kiss-of-the-sea',
+    walkingDistance: '0.2 km',
+    walkingTime: '3 min',
     number: 2,
     name: {
       ko: '키스 오브 더 씨 극장 & 불꽃놀이 (Kiss of the Sea)',
@@ -146,6 +152,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
   },
   {
     id: 'clock-tower',
+    walkingDistance: '0.3 km',
+    walkingTime: '4 min',
     number: 3,
     name: {
       ko: '센트럴 75m 시계탑 (Torre dell\'Orologio)',
@@ -188,6 +196,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
   },
   {
     id: 'cable-car-station',
+    walkingDistance: '0.5 km',
+    walkingTime: '7 min',
     number: 4,
     name: {
       ko: '혼똠 케이블카 안즈엉역 (콜로세움 역사)',
@@ -232,6 +242,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
   },
   {
     id: 'vuifest-bazaar',
+    walkingDistance: '0.9 km',
+    walkingTime: '12 min',
     number: 5,
     name: {
       ko: '부이페스트 바자르 야시장 (Vui-Fest Bazaar)',
@@ -274,6 +286,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
   },
   {
     id: 'sun-signature-gallery',
+    walkingDistance: '0.2 km',
+    walkingTime: '3 min',
     number: 6,
     name: {
       ko: '썬 시그니처 갤러리 (Sun Signature Gallery)',
@@ -316,6 +330,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
   },
   {
     id: 'king-sun-fountain',
+    walkingDistance: '0.2 km',
+    walkingTime: '3 min',
     number: 7,
     name: {
       ko: '태양의 분수 (Fontana Dei Giorni)',
@@ -358,6 +374,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
   },
   {
     id: 'sunset-beach',
+    walkingDistance: '0.3 km',
+    walkingTime: '4 min',
     number: 8,
     name: {
       ko: '선셋 비치 (Bãi Biển Hoàng Hôn)',
@@ -400,6 +418,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
   },
   {
     id: 'arc-de-triomphe',
+    walkingDistance: '0.8 km',
+    walkingTime: '11 min',
     number: 9,
     name: {
       ko: '선셋 개선문 (Khải Hoàn Môn)',
@@ -442,6 +462,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
   },
   {
     id: 'marina-pier',
+    walkingDistance: '0.6 km',
+    walkingTime: '8 min',
     number: 10,
     name: {
       ko: '선셋 마리나 요트 선착장 (Marina Pier)',
@@ -484,6 +506,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
   },
   {
     id: 'pompeii-ruins',
+    walkingDistance: '0.3 km',
+    walkingTime: '4 min',
     number: 11,
     name: {
       ko: '폼페이 유적 & 스페인 계단 (Pompeii Ruins)',
@@ -526,6 +550,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
   },
   {
     id: 'dragon-staircase',
+    walkingDistance: '0.2 km',
+    walkingTime: '3 min',
     number: 12,
     name: {
       ko: '용의 계단 (Thang Rồng / Dragon Staircase)',
@@ -738,3 +764,18 @@ export const SUNSET_TOUR_COURSES: MapTourCourse[] = [
     stopIds: ['arc-de-triomphe', 'pompeii-ruins', 'cable-car-station', 'marina-pier'],
   },
 ]
+
+export function getSunsetMapImage(locale: Locale): { jpg: string; webp: string } {
+  // 사용자가 각 언어별 지도를 주면 해당 파일로 연결, 기본은 영어(en) 지도
+  const mapFiles: Partial<Record<Locale, { jpg: string; webp: string }>> = {
+    en: {
+      jpg: '/map/sunset-town-map-en.jpg',
+      webp: '/map/sunset-town-map-en.webp',
+    },
+    // 향후 ko, vi 등 언어별 지도가 추가되면 여기에 매핑
+  }
+  return mapFiles[locale] || mapFiles.en || {
+    jpg: '/map/sunset-town-map-en.jpg',
+    webp: '/map/sunset-town-map-en.webp',
+  }
+}

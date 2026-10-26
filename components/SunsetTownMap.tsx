@@ -1,8 +1,12 @@
 'use client'
 
-import React from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
-import { SUNSET_LANDMARKS, type MapLandmark } from '@/lib/sunsetMapData'
+import {
+  SUNSET_LANDMARKS,
+  getSunsetMapImage,
+  type MapLandmark,
+} from '@/lib/sunsetMapData'
 import type { Locale } from '@/lib/i18n/config'
 
 interface Props {
@@ -15,32 +19,54 @@ interface Props {
 export default function SunsetTownMap({ locale }: Props) {
   const loc = (locale as string) || 'ko'
   const isKo = loc === 'ko'
+  const [selectedCategory, setSelectedCategory] = useState<string>('all')
 
-  // 다국어 라벨
+  // 언어별 지도 이미지 가져오기 (현재 제공된 영어 지도 기본 매핑)
+  const mapImage = getSunsetMapImage(locale)
+
+  // 다국어 라벨 사전
   const t = {
-    badge: isKo ? '선그룹 공식 선셋타운 지도' : 'SUN GROUP OFFICIAL MAP',
+    badge: isKo ? 'MyPhuQuoc.NET 공식 안내' : 'MyPhuQuoc.NET OFFICIAL GUIDE',
     title: isKo
-      ? '선셋타운 전체 안내 지도'
+      ? '선셋타운 전체 안내 지도 (Sunset Town Map)'
       : 'Sunset Town Official Illustrated Map',
     subtitle: isKo
-      ? '선그룹 공식 선셋타운 일러스트 지도입니다. 고화질 지도를 다운로드하여 편리하게 확대해 보실 수 있으며, 아래 명소 목록에서 구글맵으로 정확한 위치를 바로 확인하실 수 있습니다.'
-      : 'Official illustrated map of Sunset Town by Sun Group. Download the high-resolution map to zoom in freely, or use Google Maps below for exact landmark navigation.',
-    downloadBtn: isKo ? '고화질 지도 다운로드 (JPG)' : 'Download High-Res Map (JPG)',
-    viewOriginalBtn: isKo ? '새 창에서 원본 보기' : 'View Full Image',
-    placesHeader: isKo ? '선셋타운 12대 핵심 명소 (구글맵 연결)' : '12 Iconic Attractions & Google Maps',
+      ? '선셋타운의 주요 거리와 12대 핵심 명소를 담은 고해상도 인포그래픽 지도입니다. 아래 다운로드 버튼을 통해 고화질 원본을 저장하여 확대해 보실 수 있으며, 각 명소 카드의 구글맵 링크로 실시간 위치와 길찾기를 확인하세요.'
+      : 'High-resolution illustrated guide map featuring the iconic landmarks and walking routes of Sunset Town. Download the full image to zoom in, or use Google Maps links below for instant navigation.',
+    downloadBtn: isKo ? '고화질 지도 다운로드 (JPG)' : 'Download Full Map (JPG)',
+    viewOriginalBtn: isKo ? '새 창에서 원본 크게 보기' : 'Open Full Image',
+    placesHeader: isKo ? '선셋타운 12대 핵심 명소 상세 가이드' : '12 Iconic Landmarks Guide',
     placesSub: isKo
-      ? '각 명소의 위치와 길찾기는 구글맵 버튼을 클릭하여 확인하세요.'
-      : 'Click Google Maps button on any attraction to open instant directions.',
-    openGoogleMaps: isKo ? 'Google Maps에서 위치 보기' : 'Open in Google Maps',
-    bookTicket: isKo ? '공식 티켓 예매' : 'Book Official Tickets',
-    bestTime: isKo ? '추천 시간' : 'Best Time',
+      ? '지도 번호(No. 1 ~ 12)와 일치하는 각 명소의 상세 설명, 여행자 꿀팁, 도보 거리 및 구글맵 바로가기입니다.'
+      : 'Explore each landmark matching map pins No. 1 to 12 with insider tips, walking times, and Google Maps directions.',
+    openGoogleMaps: isKo ? 'Google Maps 길찾기' : 'Get Directions (Google Maps)',
+    bookTicket: isKo ? '공식 티켓 할인가 예매' : 'Book Discount Tickets',
+    tipLabel: isKo ? '여행자 추천 꿀팁' : 'Traveler Tip',
+    aboutLabel: isKo ? '명소 소개' : 'About this place',
+    bestTimeLabel: isKo ? '추천 시간' : 'Best Time',
+    walkLabel: isKo ? '도보 거리' : 'Walking distance',
+    categories: {
+      all: isKo ? '전체 보기 (12)' : 'All Places (12)',
+      attraction: isKo ? '핵심 명소' : 'Landmarks',
+      show: isKo ? '공연 & 불꽃쇼' : 'Shows & Fireworks',
+      shopping: isKo ? '야시장 & 쇼핑' : 'Night Market',
+      transport: isKo ? '케이블카 & 마리나' : 'Transit & Marina',
+      beach: isKo ? '해변 & 비치' : 'Beach',
+      culture: isKo ? '예술 & 역사' : 'Culture & Ruins',
+    },
   }
 
+  // 필터링된 랜드마크 목록
+  const filteredLandmarks = SUNSET_LANDMARKS.filter((lm) => {
+    if (selectedCategory === 'all') return true
+    return lm.category === selectedCategory
+  })
+
   return (
-    <div className="w-full flex flex-col gap-8">
-      {/* 1. 지도 영역 카드 */}
+    <div className="w-full flex flex-col gap-10">
+      {/* 1. 지도 뷰어 카드 (사용자 제공 인포그래픽 지도 렌더링) */}
       <div className="w-full bg-slate-900 border border-slate-800 rounded-3xl p-4 sm:p-8 shadow-2xl overflow-hidden">
-        {/* 상단 타이틀 & 다운로드 바 */}
+        {/* 헤더 및 다운로드 액션 바 */}
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-slate-800">
           <div>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold bg-amber-500/20 text-amber-400 border border-amber-500/30 mb-2">
@@ -55,18 +81,18 @@ export default function SunsetTownMap({ locale }: Props) {
             </p>
           </div>
 
-          {/* 다운로드 & 원본 보기 액션 버튼 */}
+          {/* 다운로드 & 새 창에서 크게 보기 버튼 */}
           <div className="flex flex-wrap items-center gap-3">
             <a
-              href="/map/sunset-town-official-map.jpg"
+              href={mapImage.jpg}
               download="Sunset-Town-Official-Map.jpg"
-              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-slate-950 font-black text-xs sm:text-sm shadow-lg shadow-amber-500/20 transition-all transform active:scale-95"
+              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-slate-950 font-black text-xs sm:text-sm shadow-lg shadow-amber-500/25 transition-all transform active:scale-95"
             >
               <span>📥</span>
               <span>{t.downloadBtn}</span>
             </a>
             <a
-              href="/map/sunset-town-official-map.webp"
+              href={mapImage.jpg}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold text-xs sm:text-sm border border-slate-700 transition-all"
@@ -77,92 +103,154 @@ export default function SunsetTownMap({ locale }: Props) {
           </div>
         </div>
 
-        {/* 고정 지도 이미지 뷰어 (복잡한 오버레이 선 제거, 순수 공식 일러스트 렌더링) */}
-        <div className="mt-6 w-full flex justify-center bg-slate-950/60 rounded-2xl p-2 sm:p-4 border border-slate-800/80">
-          <div className="relative w-full max-w-4xl aspect-[2000/2914] rounded-xl overflow-hidden shadow-2xl border border-slate-800">
+        {/* 지도 이미지 액자 (고화질 고정형 인포그래픽 뷰) */}
+        <div className="mt-6 w-full flex justify-center bg-slate-950/70 rounded-2xl p-2 sm:p-5 border border-slate-800/90">
+          <div className="relative w-full max-w-3xl aspect-[702/1024] rounded-xl overflow-hidden shadow-2xl border border-slate-800 bg-slate-950">
             <Image
-              src="/map/sunset-town-official-map.webp"
-              alt={isKo ? '선그룹 공식 선셋타운 일러스트 지도' : 'Sun Group Sunset Town Official Map'}
+              src={mapImage.webp}
+              alt={t.title}
               fill
               priority
-              sizes="(max-width: 1024px) 100vw, 896px"
+              sizes="(max-width: 1024px) 100vw, 768px"
               className="object-contain"
             />
           </div>
         </div>
       </div>
 
-      {/* 2. 구체적인 관광 명소 12선 카드 그리드 (구글맵 직결) */}
+      {/* 2. 각 장소 소개 - 세련된 텍스트 박스 형태 구분 (Styled Cards) */}
       <div className="w-full">
-        <div className="mb-6">
-          <div className="flex items-center gap-2">
-            <span className="text-xl">📍</span>
-            <h3 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
-              {t.placesHeader}
-            </h3>
+        {/* 섹션 타이틀 & 카테고리 필터 */}
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8 pb-4 border-b border-slate-200">
+          <div>
+            <div className="flex items-center gap-2 mb-1">
+              <span className="text-2xl">🏛️</span>
+              <h3 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
+                {t.placesHeader}
+              </h3>
+            </div>
+            <p className="text-xs sm:text-sm text-slate-600 max-w-2xl">
+              {t.placesSub}
+            </p>
           </div>
-          <p className="text-xs sm:text-sm text-slate-600 mt-1">
-            {t.placesSub}
-          </p>
+
+          {/* 카테고리 빠른 필터 */}
+          <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none">
+            {[
+              { key: 'all' },
+              { key: 'attraction' },
+              { key: 'show' },
+              { key: 'shopping' },
+              { key: 'transport' },
+              { key: 'beach' },
+              { key: 'culture' },
+            ].map((cat) => (
+              <button
+                key={cat.key}
+                onClick={() => setSelectedCategory(cat.key)}
+                className={`px-3 py-1.5 rounded-full text-xs font-bold whitespace-nowrap transition-all ${
+                  selectedCategory === cat.key
+                    ? 'bg-slate-900 text-white shadow-sm'
+                    : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                }`}
+              >
+                {(t.categories as Record<string, string>)[cat.key]}
+              </button>
+            ))}
+          </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          {SUNSET_LANDMARKS.map((lm: MapLandmark) => {
+        {/* 12대 명소 예쁜 텍스트 박스 그리드 */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {filteredLandmarks.map((lm: MapLandmark) => {
             const name = lm.name[locale] || lm.name.en || lm.name.ko
             const desc = lm.description[locale] || lm.description.en || lm.description.ko
-            // 구글맵 길찾기/위치 URL (정확한 좌표 우선)
-            const mapUrl = lm.lat && lm.lng
-              ? `https://www.google.com/maps/search/?api=1&query=${lm.lat},${lm.lng}`
-              : lm.googleMapsUrl
+            const tip = lm.tips[locale] || lm.tips.en || lm.tips.ko
+            const mapUrl =
+              lm.lat && lm.lng
+                ? `https://www.google.com/maps/search/?api=1&query=${lm.lat},${lm.lng}`
+                : lm.googleMapsUrl
 
             return (
-              <div
+              <article
                 key={lm.id}
-                className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between"
+                className="group relative bg-white rounded-3xl border border-slate-200/90 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between overflow-hidden"
               >
-                <div>
-                  {/* 명소 대표 사진 */}
-                  <div className="relative w-full h-48 bg-slate-100">
-                    <Image
-                      src={lm.image}
-                      alt={name}
-                      fill
-                      className="object-cover"
-                      sizes="(max-width: 768px) 100vw, 380px"
-                    />
-                    <div className="absolute top-3 left-3 bg-amber-500 text-slate-950 font-black px-2.5 py-0.5 rounded-lg text-xs shadow-md">
-                      No. {lm.number}
+                {/* 상단 컬러풀 인포 바 */}
+                <div className="p-5 sm:p-6 pb-0">
+                  <div className="flex items-center justify-between gap-3 mb-3">
+                    {/* 번호 뱃지 */}
+                    <div className="flex items-center gap-2">
+                      <span className="inline-flex items-center justify-center w-8 h-8 rounded-xl bg-slate-950 text-amber-400 font-black text-sm shadow-md">
+                        {lm.number}
+                      </span>
+                      <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">
+                        SPOT {String(lm.number).padStart(2, '0')}
+                      </span>
                     </div>
+
+                    {/* 도보 거리 및 소요 시간 태그 */}
+                    {lm.walkingDistance && lm.walkingTime && (
+                      <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 text-emerald-800 text-xs font-semibold border border-emerald-200/60">
+                        <span>🚶</span>
+                        <span>{lm.walkingDistance} · {lm.walkingTime}</span>
+                      </span>
+                    )}
                   </div>
 
-                  {/* 텍스트 내용 */}
-                  <div className="p-4 sm:p-5">
-                    <h4 className="text-base sm:text-lg font-bold text-slate-900 leading-snug">
-                      {name}
-                    </h4>
-                    <p className="text-xs text-amber-700 font-medium mt-1">
-                      📍 {lm.address}
-                    </p>
-                    <p className="text-xs sm:text-sm text-slate-600 mt-2.5 line-clamp-3 leading-relaxed">
-                      {desc}
-                    </p>
+                  {/* 장소 이름 헤더 */}
+                  <h4 className="text-lg sm:text-xl font-black text-slate-900 leading-snug group-hover:text-amber-800 transition-colors">
+                    {name}
+                  </h4>
+                  <p className="text-xs font-medium text-amber-700 mt-1 flex items-center gap-1">
+                    <span>📍</span>
+                    <span className="truncate">{lm.address}</span>
+                  </p>
 
+                  {/* 1. 소개 텍스트 박스 (About Box) */}
+                  <div className="mt-4 p-4 rounded-2xl bg-slate-50 border border-slate-100 text-slate-700 text-xs sm:text-sm leading-relaxed">
+                    <div className="flex items-center gap-1.5 font-bold text-slate-900 mb-1.5 text-xs">
+                      <span>📖</span>
+                      <span>{t.aboutLabel}</span>
+                    </div>
+                    <p>{desc}</p>
+                  </div>
+
+                  {/* 2. 꿀팁 텍스트 박스 (Traveler Tip Box) */}
+                  {tip && (
+                    <div className="mt-3 p-4 rounded-2xl bg-amber-50/70 border border-amber-200/80 text-amber-950 text-xs sm:text-sm leading-relaxed">
+                      <div className="flex items-center gap-1.5 font-black text-amber-900 mb-1.5 text-xs">
+                        <span>💡</span>
+                        <span>{t.tipLabel}</span>
+                      </div>
+                      <p className="text-amber-900/90">{tip}</p>
+                    </div>
+                  )}
+
+                  {/* 메타 정보 칩 (추천 시간대, 운영시간) */}
+                  <div className="mt-3 flex flex-wrap items-center gap-2 text-xs">
                     {lm.bestTime && (
-                      <div className="mt-3 inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 text-slate-700 text-xs">
+                      <div className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-slate-100 text-slate-700 font-medium">
                         <span>⏰</span>
-                        <span>{t.bestTime}: {lm.bestTime}</span>
+                        <span>{t.bestTimeLabel}: {lm.bestTime}</span>
+                      </div>
+                    )}
+                    {lm.operatingHours && (
+                      <div className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-slate-100 text-slate-600">
+                        <span>🕒</span>
+                        <span>{lm.operatingHours}</span>
                       </div>
                     )}
                   </div>
                 </div>
 
-                {/* 하단 액션 버튼 (Google Maps 및 티켓 예매) */}
-                <div className="p-4 sm:p-5 pt-0 flex flex-col gap-2">
+                {/* 하단 액션 버튼 그룹 */}
+                <div className="p-5 sm:p-6 pt-4 mt-4 border-t border-slate-100 flex flex-col sm:flex-row items-center gap-2.5">
                   <a
                     href={mapUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-slate-900 hover:bg-slate-800 text-white font-bold rounded-xl text-xs sm:text-sm shadow-sm transition-all"
+                    className="w-full sm:flex-1 inline-flex items-center justify-center gap-2 px-4 py-3 bg-slate-900 hover:bg-slate-800 text-white font-bold rounded-2xl text-xs sm:text-sm shadow-md hover:shadow-lg transition-all"
                   >
                     <span>🧭</span>
                     <span>{t.openGoogleMaps}</span>
@@ -173,14 +261,14 @@ export default function SunsetTownMap({ locale }: Props) {
                       href={lm.ticketUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="w-full inline-flex items-center justify-center gap-2 px-4 py-2 bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white font-bold rounded-xl text-xs shadow-sm transition-all"
+                      className="w-full sm:flex-1 inline-flex items-center justify-center gap-2 px-4 py-3 bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white font-bold rounded-2xl text-xs sm:text-sm shadow-md shadow-orange-500/25 transition-all transform active:scale-95"
                     >
                       <span>🎟️</span>
                       <span>{t.bookTicket}</span>
                     </a>
                   )}
                 </div>
-              </div>
+              </article>
             )
           })}
         </div>
