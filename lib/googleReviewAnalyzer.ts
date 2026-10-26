@@ -19,12 +19,29 @@ export interface BusinessReviewAnalysis {
   lastVerified: string
 }
 
-export function analyzeGoogleReviews(business: any, locale: Locale = 'ko'): BusinessReviewAnalysis {
-  const rating = business.google_rating ? Number(business.google_rating) : null
-  const reviewCount = business.google_review_count ? Number(business.google_review_count) : null
+export function analyzeGoogleReviews(business: any, locale: Locale = 'ko'): BusinessReviewAnalysis | null {
+  if (!business) return null
+
   const cat = (business.category || '').toLowerCase()
   const subcat = (business.subcategory || '').toLowerCase()
   const name = `${business.public_name || ''} ${business.google_maps_name || ''}`.toLowerCase()
+
+  // Ryan 지시 (2026-10-26 2단계): essentials·banking·ATM·약국·병원·환전·세탁·편의점 상세 페이지에서 리뷰분석 카드 노출 중단 (렌더링 제외)
+  const isExcluded =
+    cat === 'essentials' ||
+    cat === 'banking' ||
+    ['atm', 'pharmacy', 'clinic', 'hospital', 'currency_exchange', 'laundry', 'convenience_store'].includes(subcat) ||
+    (cat === 'shopping' && (subcat.includes('convenience') || subcat.includes('mart') || subcat.includes('grocery'))) ||
+    ['atm', 'ngân hàng', 'laundry', 'giặt', 'exchange', '환전', 'pharmacy', 'nhà thuốc', 'clinic', 'phòng khám', 'bệnh viện', 'convenience', 'tiện lợi', 'mart', 'mini mart'].some(
+      (k) => name.includes(k) && (cat === 'essentials' || cat === 'shopping' || cat === 'activities')
+    )
+
+  if (isExcluded) {
+    return null
+  }
+
+  const rating = business.google_rating ? Number(business.google_rating) : null
+  const reviewCount = business.google_review_count ? Number(business.google_review_count) : null
   const features = (business.features || '').toLowerCase()
   const tags = (business.tags || []).map((t: string) => String(t).toLowerCase())
   const fullText = `${name} ${cat} ${subcat} ${features} ${tags.join(' ')}`.toLowerCase()

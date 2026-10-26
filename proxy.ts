@@ -24,6 +24,13 @@ const AUTH_PREFIXES = [
 const BOT_UA_REGEX =
   /bot|crawler|spider|slurp|googlebot|bingbot|yandex|baiduspider|duckduckbot|facebookexternalhit|twitterbot|linkedinbot|whatsapp|telegrambot|discordbot|applebot|semrushbot|ahrefsbot|mj12bot|petalbot|gptbot|claudebot|perplexitybot/i
 
+// Ryan 지시 (2026-10-26 2단계): 타오디엔 확정 외지 이벤트 3건 영구 삭제 -> HTTP 410 (홈 리다이렉트 금지)
+const PERMANENTLY_DELETED_EVENT_SLUGS = [
+  'spooky-halloween-mask-making-kids-thao-dien',
+  'sample-thao-dien-weekend-farmers-craft-market',
+  'sample-riverside-morning-yoga-breathwork-session',
+]
+
 export async function proxy(request: NextRequest) {
   const forwarded = request.headers.get('x-forwarded-proto')
   const host = request.headers.get('host') || ''
@@ -36,6 +43,31 @@ export async function proxy(request: NextRequest) {
   }
 
   const { pathname, searchParams } = request.nextUrl
+
+  // 0-a) Permanently deleted out-of-region events -> HTTP 410 Gone
+  for (const deletedSlug of PERMANENTLY_DELETED_EVENT_SLUGS) {
+    if (pathname.includes(`/events/${deletedSlug}`)) {
+      return new NextResponse('410 Gone - This event has been permanently removed.', {
+        status: 410,
+        headers: {
+          'Content-Type': 'text/plain; charset=utf-8',
+          'Cache-Control': 'public, max-age=86400, s-maxage=86400',
+        },
+      })
+    }
+  }
+
+  // 0-b) Slug typos -> 301 Permanent Redirect
+  if (pathname.includes('sunset-house-phu-quoc-buggy-sevices')) {
+    const url = request.nextUrl.clone()
+    url.pathname = pathname.replace('sunset-house-phu-quoc-buggy-sevices', 'sunset-house-phu-quoc-buggy-services')
+    return NextResponse.redirect(url, 301)
+  }
+  if (pathname.includes('l-a-hillside-aparment-sunset-town-phu-quoc')) {
+    const url = request.nextUrl.clone()
+    url.pathname = pathname.replace('l-a-hillside-aparment-sunset-town-phu-quoc', 'l-a-hillside-apartment-sunset-town-phu-quoc')
+    return NextResponse.redirect(url, 301)
+  }
 
   // 1) Unnecessary /en prefix -> unprefixed English path (301)
   if (pathname === '/en' || pathname.startsWith('/en/')) {

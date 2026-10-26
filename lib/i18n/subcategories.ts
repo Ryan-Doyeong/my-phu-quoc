@@ -541,6 +541,15 @@ export const SUBCATEGORY_DICTIONARY: Record<string, LocalizedSubcategory> = {
     ko: '약국',
     ja: '薬局',
   },
+  banking_exchange: {
+    en: 'ATM & Currency Exchange',
+    vi: 'Đổi tiền & ATM',
+    hi: 'मुद्रा विनिमय और एटीएम',
+    zh: '货币兑换 · ATM · 银行',
+    ru: 'Обмен валюты и банкоматы',
+    ko: '환전 · ATM · 은행',
+    ja: '両替・ATM・銀行',
+  },
   atm: {
     en: 'ATM',
     vi: 'Cây ATM',

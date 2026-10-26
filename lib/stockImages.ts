@@ -8,6 +8,7 @@ export const STOCK_IMAGES = {
   hotel: '/categories/hotels.webp',
   beach: '/categories/beach.webp',
   essentials: '/categories/essentials.webp',
+  banking: '/categories/essentials.webp',
 
   massage: '/categories/wellness.webp',
   spa: '/categories/wellness.webp',
@@ -41,6 +42,7 @@ export function stockGalleryFor(category: string, subcategory: string | null, ta
   if (category === 'wellness') return ['/categories/wellness.webp']
   if (category === 'shopping') return ['/categories/shopping.webp']
   if (category === 'essentials') return ['/categories/essentials.webp']
+  if (category === 'banking') return ['/categories/essentials.webp']
   return [STOCK_IMAGES.hero]
 }
 

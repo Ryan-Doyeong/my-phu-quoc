@@ -19,7 +19,7 @@ type CategoryDef = {
   subcategories: string[]
 }
 
-// My Phu Quoc — 카테고리 8개 (2026-10-22 확정, docs/00_사이트_정의서.md §4)
+// My Phu Quoc — 카테고리 9개 (2026-10-26 Phase 2 개편: 생활편의 essentials 와 금융·환전·ATM banking 분리)
 // 번역 상태: vi·ko 는 초안, hi·zh·ru·ja 는 "AI 검수 완료 / 원어민 미확인"
 const CATEGORY_DEFS = {
   dining: {
@@ -192,27 +192,51 @@ const CATEGORY_DEFS = {
   },
   essentials: {
     theme: 'ocean',
-    label: {en: 'Essentials', vi: 'Tiện ích', hi: 'ज़रूरी सेवाएँ', zh: '旅行必备', ru: 'Полезное', ko: '여행 편의', ja: '旅の便利情報'},
+    label: {en: 'Essential Services', vi: 'Dịch vụ thiết yếu', hi: 'दैनिक सेवाएँ', zh: '生活便利服务', ru: 'Бытовые услуги', ko: '생활편의 서비스', ja: '生活便利サービス'},
     eyebrow: {
-      en: 'RENTALS · TAXI · PHARMACY · EXCHANGE · LAUNDRY',
-      vi: 'THUÊ XE · TAXI · NHÀ THUỐC · ĐỔI TIỀN · GIẶT ỦI',
-      hi: 'किराया · टैक्सी · फ़ार्मेसी · मुद्रा विनिमय · लॉन्ड्री',
-      zh: '租车 · 出租车 · 药店 · 换汇 · 洗衣',
-      ru: 'АРЕНДА · ТАКСИ · АПТЕКА · ОБМЕН ВАЛЮТ · ПРАЧЕЧНАЯ',
-      ko: '렌트 · 택시 · 약국 · 환전 · 세탁',
-      ja: 'レンタル · タクシー · 薬局 · 両替 · ランドリー',
+      en: 'LAUNDRY · PHARMACY · CLINIC & HEALTHCARE',
+      vi: 'GIẶT ỦI · NHÀ THUỐC · PHÒNG KHÁM',
+      hi: 'लॉन्ड्री · फ़ार्मेसी · क्लिनिक',
+      zh: '洗衣 · 药店 · 诊所与医疗',
+      ru: 'ПРАЧЕЧНАЯ · АПТЕКА · КЛИНИКА',
+      ko: '세탁 · 약국 · 병원 · 클리닉',
+      ja: 'ランドリー · 薬局 · クリニック・医療',
     },
     description: {
-      en: 'Scooter rentals, taxis, pharmacies, money exchange and laundry for your stay.',
-      vi: 'Thuê xe máy, taxi, nhà thuốc, đổi tiền và giặt ủi cho kỳ nghỉ của bạn.',
-      hi: 'आपके प्रवास के लिए स्कूटर किराया, टैक्सी, फ़ार्मेसी, मुद्रा विनिमय और लॉन्ड्री।',
-      zh: '为旅途提供租摩托车、出租车、药店、换汇和洗衣服务。',
-      ru: 'Аренда скутеров, такси, аптеки, обмен валюты и прачечные для вашей поездки.',
-      ko: '여행 중 필요한 스쿠터 렌트, 택시, 약국, 환전, 세탁.',
-      ja: '滞在に役立つスクーターレンタル、タクシー、薬局、両替、ランドリー。',
+      en: 'Laundry services, pharmacies, clinics and medical facilities in Sunset Town.',
+      vi: 'Dịch vụ giặt ủi, nhà thuốc và phòng khám y tế tại Thị trấn Hoàng Hôn.',
+      hi: 'सनसेट टाउन में लॉन्ड्री, फ़ार्मेसी और क्लिनिक।',
+      zh: '日落小镇的洗衣店、药店、诊所及医疗机构。',
+      ru: 'Прачечные, аптеки и медицинские клиники в Сансет-Тауне.',
+      ko: '선셋타운 여행자를 위한 세탁소, 약국, 병원 및 클리닉 편의시설.',
+      ja: 'サンセットタウンのランドリー、薬局、クリニック・医療施設。',
     },
     image: '/categories/essentials.webp',
-    subcategories: ['Rental','Taxi','Pharmacy','Currency Exchange','Laundry','SIM & Wi-Fi'],
+    subcategories: ['Laundry','Pharmacy','Clinic'],
+  },
+  banking: {
+    theme: 'ocean',
+    label: {en: 'Currency & ATM', vi: 'Đổi tiền & ATM', hi: 'मुद्रा विनिमय और एटीएम', zh: '货币兑换 · ATM · 银行', ru: 'Обмен валюты · Банкоматы', ko: '환전 · ATM · 은행', ja: '両替・ATM・銀行'},
+    eyebrow: {
+      en: 'ATM · CASH WITHDRAWAL · CURRENCY EXCHANGE · BANK',
+      vi: 'ATM · RÚT TIỀN · ĐỔI TIỀN · NGÂN HÀNG',
+      hi: 'एटीएम · नकद निकासी · मुद्रा विनिमय · बैंक',
+      zh: 'ATM · 提款 · 货币兑换 · 银行',
+      ru: 'БАНКОМАТЫ · СНЯТИЕ НАЛИЧНЫХ · ОБМЕН ВАЛЮТ',
+      ko: 'ATM · 현금인출 · 환전소 · 은행',
+      ja: 'ATM · 現金引き出し · 両替 · 銀行',
+    },
+    description: {
+      en: 'ATM cash machines, banking branches and currency exchange booths in Sunset Town and An Thoi.',
+      vi: 'Cây ATM, chi nhánh ngân hàng và quầy đổi tiền tại Thị trấn Hoàng Hôn và An Thới.',
+      hi: 'सनसेट टाउन और आन थोई में एटीएम, बैंक शाखाएँ और मुद्रा विनिमय केंद्र।',
+      zh: '日落小镇及安泰的自动提款机(ATM)、银行网点与货币兑换点。',
+      ru: 'Банкоматы, банковские отделения и пункты обмена валюты в Сансет-Тауне и Ан Тхое.',
+      ko: '선셋타운과 안터이 일대의 현금인출기(ATM), 은행 지점, 환전소 위치 안내.',
+      ja: 'サンセットタウンとアントイ周辺のATM、銀行、両替所の案内。',
+    },
+    image: '/categories/essentials.webp',
+    subcategories: ['ATM','Currency Exchange'],
   },
 } as const satisfies Record<string, CategoryDef>
 
@@ -293,6 +317,7 @@ export const DEFAULT_DIRECTORY_CATEGORY_APPEARANCE: Record<DirectoryCategory,Dir
   beach: {icon_text:'🏖',icon_url:''},
   wellness: {icon_text:'✦',icon_url:''},
   essentials: {icon_text:'🧭',icon_url:''},
+  banking: {icon_text:'🏦',icon_url:''},
 }
 
 export function mergeDirectoryCategoryAppearance(value:unknown){

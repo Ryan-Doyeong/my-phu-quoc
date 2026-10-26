@@ -311,17 +311,29 @@ export function DirectoryBrowser({
     const source = showEditorialHighlights ? filtered.filter((b) => badgeRank(b) === 3) : filtered
     if (filter !== 'All') return [{ name: filter, items: source }]
     const order = [...config.subcategories]
+    const norm = (s: string) => s.trim().toLowerCase().replaceAll('-', '_').replaceAll(' ', '_')
     const map = new Map<string, Business[]>()
     for (const b of source) {
       const key = b.subcategory || 'Other'
       map.set(key, [...(map.get(key) || []), b])
     }
-    return [
-      ...order.filter((name) => map.has(name)).map((name) => ({ name, items: map.get(name)! })),
-      ...Array.from(map.entries())
-        .filter(([name]) => !(order as readonly string[]).includes(name))
-        .map(([name, rows]) => ({ name, items: rows })),
-    ]
+    const matchedKeys = new Set<string>()
+    const orderedGroups: { name: string; items: Business[] }[] = []
+    for (const oName of order) {
+      const oKey = norm(oName)
+      for (const [key, rows] of map.entries()) {
+        if (norm(key) === oKey) {
+          orderedGroups.push({ name: key, items: rows })
+          matchedKeys.add(key)
+        }
+      }
+    }
+    for (const [key, rows] of map.entries()) {
+      if (!matchedKeys.has(key)) {
+        orderedGroups.push({ name: key, items: rows })
+      }
+    }
+    return orderedGroups
   }, [filtered, filter, config.subcategories, showEditorialHighlights])
 
   return (
