@@ -134,7 +134,6 @@ export function HomePage({
   const heroSubtitle = dict.home.heroSubtitle
   const heroDescription = dict.home.heroDescription
   const heroPrimaryCta = dict.home.heroPrimaryCta
-  const heroNote = dict.home.heroNote
 
   const purposeTitle = locale === 'en' ? homeSections.purpose.title : dict.home.purposeTitle
   const purposeDesc = locale === 'en' ? homeSections.purpose.description : dict.home.purposeDesc
@@ -230,16 +229,6 @@ export function HomePage({
                 {dict.home.heroSecondaryCta}
               </Link>
             </div>
-            {heroNote && (
-              <div className="heroNote">
-                {heroNote.split('\n').map((l, i) => (
-                  <span key={i}>
-                    {l}
-                    <br />
-                  </span>
-                ))}
-              </div>
-            )}
           </div>
         </section>
 
