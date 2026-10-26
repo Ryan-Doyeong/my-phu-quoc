@@ -36,16 +36,16 @@ export async function generatePartnersMetadata(locale: Locale = 'en'): Promise<M
   const alternates = buildAlternates(barePath)
   const title =
     locale === 'vi'
-      ? 'Đối tác Cộng đồng — Hello Sunset Town'
+      ? 'Đối tác Cộng đồng — My Phu Quoc'
       : locale === 'ko'
-      ? '커뮤니티 파트너 — 헬로 선셋타운'
-      : 'Community Partners — Hello Sunset Town'
+      ? '커뮤니티 파트너 — 마이 푸꾸옥 (My Phu Quoc)'
+      : 'Community Partners — My Phu Quoc'
   const description =
     locale === 'vi'
-      ? 'Đồng hành cùng Hello Sunset Town với tư cách Đối tác Cộng đồng Sáng lập. Năm vị trí, ba tháng miễn phí — cùng nhau vì một Phú Quốc tươi đẹp.'
+      ? 'Đồng hành cùng My Phu Quoc với tư cách Đối tác Cộng đồng Sáng lập. Năm vị trí, ba tháng miễn phí — cùng nhau vì một Phú Quốc tươi đẹp.'
       : locale === 'ko'
-      ? 'Hello Sunset Town의 창립 커뮤니티 파트너로 함께해 주세요. 5개 자리 한정, 첫 3개월 무료 — 함께 만들어가는 아름다운 푸꾸옥.'
-      : 'Join Hello Sunset Town as a Founding Community Partner. Five places, three months free — for a beautiful Phu Quoc, together.'
+      ? 'My Phu Quoc의 창립 커뮤니티 파트너로 함께해 주세요. 5개 자리 한정, 첫 3개월 무료 — 함께 만들어가는 아름다운 푸꾸옥.'
+      : 'Join My Phu Quoc as a Founding Community Partner. Five places, three months free — for a beautiful Phu Quoc, together.'
 
   return {
     title,

@@ -11,7 +11,7 @@ export async function generateHomeMetadata(locale: Locale = 'en'): Promise<Metad
   const dict = getDictionary(locale)
   const alternates = buildAlternates('/')
   const canonicalUrl = localeUrl(locale, '/')
-  const siteTitle = 'Hello Sunset Town'
+  const siteTitle = locale === 'ko' ? '마이 푸꾸옥' : 'My Phu Quoc'
   return {
     title: siteTitle,
     description: dict.home.heroDescription,

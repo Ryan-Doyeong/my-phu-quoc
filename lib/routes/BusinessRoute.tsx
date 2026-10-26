@@ -83,14 +83,14 @@ export async function generateBusinessMetadata(
   const alternates = buildAlternates(barePath)
 
   return {
-    title: `${b.public_name} | Hello Sunset Town`,
+    title: `${b.public_name} | My Phu Quoc`,
     description,
     alternates: {
       canonical: canonicalUrl,
       languages: alternates.languages,
     },
     openGraph: {
-      title: `${b.public_name} | Hello Sunset Town`,
+      title: `${b.public_name} | My Phu Quoc`,
       description,
       url: canonicalUrl,
       locale: ogLocaleFor(locale),

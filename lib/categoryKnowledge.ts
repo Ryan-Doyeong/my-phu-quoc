@@ -202,7 +202,7 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
     ko: {
       label: '한국어 · 불꽃놀이 명당 객실 & 전동 버기카 이용 꿀팁',
       paragraphs: [
-        '선셋타운에서는 매일 밤 9시 30분 키스 오브 더 씨(Kiss of the Sea) 공연 피날레로 환상적인 불꽃놀이가 바다 위에서 펼쳐집니다.',
+        '선셋타운에서는 매주 수~월요일 밤 9시 키스 오브 더 씨(Kiss of the Sea) 공연 피날레(약 21:25)로 환상적인 불꽃놀이가 바다 위에서 펼쳐집니다 (화요일 정기 휴무).',
       ],
       list: [
         '불꽃놀이 직관 룸: 예약 시 "Fireworks View" 또는 "Sea View with Balcony" 객실을 선택하면 테라스에 앉아 맥주나 와인을 마시며 불꽃놀이를 1열에서 직관할 수 있습니다.',
@@ -213,7 +213,7 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
     en: {
       label: 'English · Fireworks Viewing & Electric Buggy Shuttles',
       paragraphs: [
-        'Sunset Town stages a world-class fireworks display every night at 21:30 over the sea.',
+        'Sunset Town stages a world-class fireworks display as the grand finale of the Kiss of the Sea show (Wed–Mon around 21:25 over the sea; closed Tuesdays).',
       ],
       list: [
         'Fireworks Balcony Rooms: Book rooms explicitly tagged "Fireworks View" to enjoy the pyrotechnics from your private terrace.',
@@ -333,13 +333,13 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
       ],
       list: [
         'Kiss Bridge Sunset Window: The two spans approach within 30 cm without touching. Arrive between 17:15 and 17:45 for the iconic solar alignment.',
-        'Kiss of the Sea Show: High-tech ocean theater featuring water jets, fireballs, and synchronised pyrotechnics.',
+        'Kiss of the Sea Show: High-tech ocean theater featuring water jets, fireballs, and synchronized pyrotechnics (Wed–Mon 21:00; Tue dark).',
       ],
     },
     vi: {
       label: 'Tiếng Việt · Cầu Hôn & Show diễn Kiss of the Sea',
       paragraphs: [
-        'Cầu Hôn đón hoàng hôn đẹp nhất lúc 17:15 - 17:45. Show diễn Kiss of the Sea kết hợp nước, lửa, laser và pháo hoa đỉnh cao mỗi đêm.',
+        'Cầu Hôn đón hoàng hôn đẹp nhất lúc 17:15 - 17:45. Show diễn Kiss of the Sea kết hợp nước, lửa, laser và pháo hoa đỉnh cao lúc 21h00 từ Thứ 4 đến Thứ 2 (Thứ 3 nghỉ định kỳ).',
       ],
     },
   },

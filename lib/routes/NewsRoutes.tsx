@@ -132,7 +132,7 @@ export async function generateArticleMetadata(
     .maybeSingle()
 
   const raw = dbRaw || getSampleEventBySlug(slug)
-  if (!raw) return { title: 'Hello Sunset Town' }
+  if (!raw) return { title: 'My Phu Quoc' }
 
   const x = localizeStory(raw, locale)
   const barePath = `${x.content_type === 'event' ? '/events' : '/news'}/${slug}`
@@ -156,7 +156,7 @@ export async function generateArticleMetadata(
     : undefined
 
   return {
-    title: x.seo_title || `${x.title} | Hello Sunset Town`,
+    title: x.seo_title || `${x.title} | My Phu Quoc`,
     description: x.seo_description || x.excerpt || undefined,
     robots: isSample
       ? {
@@ -225,8 +225,8 @@ export async function renderArticleRoute(
     '@type': 'Article',
     headline: x.title,
     inLanguage: isUntranslatedFallback ? 'en' : locale,
-    author: { '@type': 'Organization', name: 'Hello Sunset Town' },
-    publisher: { '@type': 'Organization', name: 'Hello Sunset Town' },
+    author: { '@type': 'Organization', name: 'My Phu Quoc' },
+    publisher: { '@type': 'Organization', name: 'My Phu Quoc' },
     mainEntityOfPage: articleUrl,
   }
   if (x.seo_description || x.excerpt) articleLd.description = x.seo_description || x.excerpt
@@ -253,13 +253,13 @@ export async function renderArticleRoute(
           address: {
             '@type': 'PostalAddress',
             addressLocality: 'Phú Quốc',
-            addressRegion: 'Kiên Giang',
+            addressRegion: 'An Giang',
             addressCountry: 'VN',
           },
         },
         organizer: {
           '@type': 'Organization',
-          name: 'Hello Sunset Town',
+          name: 'My Phu Quoc',
           url: baseUrl,
         },
       }
@@ -520,7 +520,7 @@ export async function generateEventsMetadata(locale: Locale = 'en'): Promise<Met
   const barePath = '/events'
   const canonicalUrl = localeUrl(locale, barePath)
   const alternates = buildAlternates(barePath)
-  const title = `${dict.news.eventsTitle} | Hello Sunset Town`
+  const title = `${dict.news.eventsTitle} | My Phu Quoc`
   return {
     title,
     description: dict.news.eventsLead,

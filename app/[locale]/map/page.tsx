@@ -21,8 +21,8 @@ export async function generateMetadata({ params }: MapPageProps): Promise<Metada
       ? '선셋타운 완벽 여행 지도 — 거리별 명소 & 12대 랜드마크 안내 | My Phu Quoc'
       : 'Sunset Town Guide Map — Street Navigation & 12 Iconic Landmarks | My Phu Quoc',
     description: isKo
-      ? '선그룹 공식 선셋타운 일러스트 지도를 기반으로 키스브릿지, 75m 시계탑, 케이블카, 부이페스트 야시장, 6대 구역 및 주요 거리를 한눈에 탐색하세요.'
-      : 'Explore Sunset Town with Sun Group official map tiles, featuring Kiss Bridge, Clock Tower, Cable Car Station, Vui-Fest Bazaar and 6 distinct Italian quarters.',
+      ? '선셋타운 마스터플랜 일러스트 지도를 기반으로 키스브릿지, 75m 시계탑, 기네스 등재 케이블카, 부이페스트 야시장, 6대 구역 및 주요 거리를 한눈에 탐색하세요.'
+      : 'Explore Sunset Town with our illustrated guide map, featuring Kiss Bridge, Clock Tower, Guinness-record 3-rope Cable Car, Vui-Fest Bazaar and 6 distinct quarters.',
   }
 }
 
@@ -72,15 +72,15 @@ export default async function MapPage({ params }: MapPageProps) {
               marginBottom: '10px',
             }}
           >
-            SUN GROUP OFFICIAL SUNSET TOWN MAP
+            SUNSET TOWN ILLUSTRATED GUIDE MAP
           </span>
           <h1 style={{ fontSize: '2.2rem', fontWeight: 800, color: '#12333B', margin: '0 0 10px' }}>
             {isKo ? '선셋타운 거리 & 12대 랜드마크 인터랙티브 가이드 맵' : 'Sunset Town Interactive Street & Landmark Guide Map'}
           </h1>
           <p style={{ fontSize: '15.5px', color: '#527982', maxWidth: '720px', margin: '0 auto', lineHeight: 1.6 }}>
             {isKo
-              ? '선그룹 공식 선셋타운 지도 타일과 연동되어 6대 구역, 8개 주요 거리(베니스, 소렌토, 아말피 등) 및 키스 브릿지·불꽃쇼·케이블카 등 핵심 관광 포인트의 실시간 위치와 관람 꿀팁을 제공합니다.'
-              : 'Integrated with Sun Group official Sunset Town map tiles. Discover 6 quarters, 8 main boulevards, and 12 iconic landmarks with insider tips.'}
+              ? '선셋타운 마스터플랜 일러스트를 기반으로 6대 구역, 8개 주요 거리(베니스, 소렌토, 아말피 등) 및 키스 브릿지·불꽃쇼·케이블카 등 핵심 관광 포인트의 실시간 위치와 관람 꿀팁을 제공합니다.'
+              : 'Illustrated guide map based on the Sunset Town master plan. Discover 6 quarters, 8 main boulevards, and 12 iconic landmarks with insider tips.'}
           </p>
         </div>
 
@@ -91,7 +91,7 @@ export default async function MapPage({ params }: MapPageProps) {
         <section style={{ marginTop: '50px' }}>
           <div style={{ marginBottom: '20px' }}>
             <h2 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#12333B' }}>
-              🏛️ {isKo ? '선셋타운 6대 명품 구역 한눈에 보기' : 'Sunset Town 6 Distinct Italian Quarters'}
+              🏛️ {isKo ? '선셋타운 6대 구역 (공식 개발 구역 & 여행자 안내 구역)' : 'Sunset Town 6 Quarters (Official Sectors & Visitor Zones)'}
             </h2>
           </div>
           <div
@@ -105,7 +105,7 @@ export default async function MapPage({ params }: MapPageProps) {
               {
                 zone: 'venice',
                 title: isKo ? '베니스 (Venice)' : 'Venice Quarter',
-                badge: '해안 산책로 & 야시장',
+                badge: isKo ? '공식 개발 구역 · 해안 산책로' : 'Official Sector · Promenade',
                 desc: isKo
                   ? '부이페스트 야시장, 롱비치 해변, 바닷가 바로 앞 노을 명당 카페와 낭만적인 부티크 호텔 밀집.'
                   : 'VUI-Fest night market, Sunset beach, romantic waterfront dining and cozy boutique hotels.',
@@ -114,16 +114,16 @@ export default async function MapPage({ params }: MapPageProps) {
               {
                 zone: 'sorrento',
                 title: isKo ? '소렌토 (Sorrento)' : 'Sorrento Quarter',
-                badge: '케이블카 & 개선문',
+                badge: isKo ? '공식 개발 구역 · 케이블카 관문' : 'Official Sector · Cable Car',
                 desc: isKo
-                  ? '개선문 관문부터 폼페이 유적 기둥, 콜로세움 모티브의 썬월드 케이블카 승강장이 있는 활기찬 남측 중심.'
-                  : 'Arc de Triomphe, Pompeii Ruins, and the world longest cable car Colosseum gateway.',
+                  ? '개선문 관문부터 폼페이 유적 기둥, 콜로세움 모티브의 썬월드 3선식 해상 케이블카 승강장이 있는 활기찬 남측 중심.'
+                  : 'Arc de Triomphe, Pompeii Ruins, and the gateway to the Guinness-record longest three-rope cable car.',
                 tag: 'Đường Sorrento',
               },
               {
                 zone: 'amalfi',
                 title: isKo ? '아말피 (Amalfi)' : 'Amalfi Quarter',
-                badge: '시계탑 & 오션뷰 테라스',
+                badge: isKo ? '공식 개발 구역 · 시계탑' : 'Official Sector · Clock Tower',
                 desc: isKo
                   ? '75m 센트럴 시계탑, 태양의 분수, 용의 계단, 빌 벤슬리의 썬 시그니처 갤러리가 있는 지중해 절벽 마을.'
                   : '75m Campanile Clock Tower, Sun God Fountain, Dragon Stairs, and cliffside dining terraces.',
@@ -132,7 +132,7 @@ export default async function MapPage({ params }: MapPageProps) {
               {
                 zone: 'central',
                 title: isKo ? '센트럴 (Central)' : 'Central / Kiss Bridge',
-                badge: '키스브릿지 & 불꽃쇼',
+                badge: isKo ? '여행자 안내 구역 · 키스브릿지' : 'Visitor Zone · Kiss Bridge',
                 desc: isKo
                   ? '세계적인 석양 랜드마크 키스 브릿지와 매일 밤 불꽃놀이가 터지는 키스오브더씨 해상 극장 광장.'
                   : 'Iconic Kiss Bridge over the sea and the nightly Kiss of the Sea fireworks amphitheater.',
@@ -141,7 +141,7 @@ export default async function MapPage({ params }: MapPageProps) {
               {
                 zone: 'positano',
                 title: isKo ? '포지타노 (Positano)' : 'Positano Quarter',
-                badge: '부티크 & 힐링 스파',
+                badge: isKo ? '공식 개발 구역 · 숍하우스' : 'Official Sector · Shophouses',
                 desc: isKo
                   ? '알록달록 파스텔톤 이탈리아풍 숍하우스, 베트남 전통 아로마 스파, 디저트 베이커리 거리.'
                   : 'Vibrant pastel shophouses, serene massage spas, specialty cafes, and local craft shops.',
@@ -150,7 +150,7 @@ export default async function MapPage({ params }: MapPageProps) {
               {
                 zone: 'hillside',
                 title: isKo ? '힐사이드 (Hillside)' : 'Hillside Quarter',
-                badge: '360도 스카이라인 전망',
+                badge: isKo ? '공식 개발 구역 · 스카이라인' : 'Official Sector · Skyline',
                 desc: isKo
                   ? 'Sun Grand City Hillside 아파트먼트 단지와 루프탑 인피니티 풀에서 내려다보는 선셋타운 파노라마.'
                   : 'Sun Grand City Hillside towers, residential suites, and highest vantage rooftop panoramas.',

@@ -126,19 +126,15 @@ export function HomePage({
     .sort((a, b) => a.sort_order - b.sort_order)
     .slice(0, 4)
 
-  const heroImage =
-    !settings.hero_image_url ||
-    settings.hero_image_url.startsWith('/images/') ||
-    settings.hero_image_url.startsWith('/api/unsplash/')
-      ? '/hero/02_kiss_bridge_aerial_1920.webp'
-      : settings.hero_image_url
+  const heroImage = '/hero/02_kiss_bridge_aerial_1920.webp'
 
-  // For English, respect DB-customized settings/homeSections; for VI/KO, use localized dictionary copy
-  const heroTopline = locale === 'en' ? settings.hero_topline : dict.home.heroTopline
-  const heroTitle = locale === 'en' ? settings.hero_title : dict.home.heroTitle
-  const heroSubtitle = locale === 'en' ? settings.hero_subtitle : dict.home.heroSubtitle
-  const heroDescription = locale === 'en' ? settings.hero_description : dict.home.heroDescription
-  const heroPrimaryCta = locale === 'en' ? settings.hero_primary_cta : dict.home.heroPrimaryCta
+  // 언어별 딕셔너리 정본 텍스트 적용 (마이 푸꾸옥 공식 브랜딩)
+  const heroTopline = dict.home.heroTopline
+  const heroTitle = dict.home.heroTitle
+  const heroSubtitle = dict.home.heroSubtitle
+  const heroDescription = dict.home.heroDescription
+  const heroPrimaryCta = dict.home.heroPrimaryCta
+  const heroNote = dict.home.heroNote
 
   const purposeTitle = locale === 'en' ? homeSections.purpose.title : dict.home.purposeTitle
   const purposeDesc = locale === 'en' ? homeSections.purpose.description : dict.home.purposeDesc
@@ -171,9 +167,6 @@ export function HomePage({
         <Logo locale={locale} />
         <nav className="desktopNav">
           <a href="#discover">{dict.nav.discover}</a>
-          <a href="#map" style={{ color: '#C86D2D', fontWeight: 700 }}>
-            🗺️ {locale === 'ko' ? '선셋타운 지도' : 'Town Map'}
-          </a>
           {DIRECTORY_CATEGORY_KEYS.map((key) => (
             <Link href={localePath(locale, `/directory/${key}`)} key={key}>
               {categoryLabel(key, locale)}
@@ -237,6 +230,16 @@ export function HomePage({
                 {dict.home.heroSecondaryCta}
               </Link>
             </div>
+            {heroNote && (
+              <div className="heroNote">
+                {heroNote.split('\n').map((l, i) => (
+                  <span key={i}>
+                    {l}
+                    <br />
+                  </span>
+                ))}
+              </div>
+            )}
           </div>
         </section>
 
@@ -371,32 +374,9 @@ export function HomePage({
 
         <SunsetDistrictFilter locale={locale} />
 
-        {/* 선셋타운 공식 인터랙티브 지도 & 거리 가이드 섹션 */}
-        <section className="shell sunsetTownMapSection" id="map" style={{ padding: '60px 20px', maxWidth: 1200, margin: '0 auto' }}>
-          <div style={{ textAlign: 'center', marginBottom: 32 }}>
-            <span
-              style={{
-                display: 'inline-block',
-                fontSize: '0.85rem',
-                fontWeight: 700,
-                letterSpacing: '0.1em',
-                color: '#C86D2D',
-                textTransform: 'uppercase',
-                marginBottom: 8,
-              }}
-            >
-              SUN GROUP OFFICIAL MAP
-            </span>
-            <h2 style={{ fontSize: '2rem', fontWeight: 800, color: '#12333B', margin: '0 0 12px' }}>
-              {locale === 'ko' ? '선셋타운 거리 & 12대 랜드마크 지도' : 'Sunset Town Street & Landmark Map'}
-            </h2>
-            <p style={{ fontSize: '1rem', color: '#527982', maxWidth: 640, margin: '0 auto', lineHeight: 1.6 }}>
-              {locale === 'ko'
-                ? '선그룹 공식 지도 타일로 만나는 베니스·소렌토·아말피 주요 거리와 키스브릿지, 75m 시계탑, 케이블카 등 핵심 관광 포인트 안내.'
-                : 'Interactive exploration of Sunset Town with Sun Group official map tiles, featuring main boulevards and top landmarks.'}
-            </p>
-          </div>
-          <SunsetTownMap locale={locale} height="650px" showSidebar={true} />
+        {/* 선셋타운 공식 일러스트 지도 & 거리 가이드 섹션 */}
+        <section className="shell sunsetTownMapSection" id="map" style={{ padding: '40px 20px', maxWidth: 1200, margin: '0 auto' }}>
+          <SunsetTownMap locale={locale} />
         </section>
 
         <SunsetTownTickets locale={locale} />

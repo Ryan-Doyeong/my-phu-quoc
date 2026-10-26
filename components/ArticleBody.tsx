@@ -23,7 +23,12 @@ function inline(text:string):ReactNode[]{
 }
 
 export function ArticleBody({body}:{body:string|null|undefined}){
-  const lines=String(body||'').replace(/\r/g,'').split('\n')
+  const normalized = String(body || '')
+    .replace(/\\r\\n/g, '\n')
+    .replace(/\\n/g, '\n')
+    .replace(/\r\n/g, '\n')
+    .replace(/\r/g, '\n')
+  const lines = normalized.split('\n')
   const nodes:ReactNode[]=[]
   let bullets:string[]=[]
   const flush=()=>{if(bullets.length){nodes.push(<ul key={`ul-${nodes.length}`} className="articleBulletList">{bullets.map((b,i)=><li key={i}>{inline(b)}</li>)}</ul>);bullets=[]}}

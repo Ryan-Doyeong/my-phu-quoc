@@ -8,13 +8,13 @@ interface SunsetTownTicketsProps {
 
 const UI_TEXT = {
   sectionEyebrow: {
-    en: 'OFFICIAL & KLOOK TICKETS',
-    vi: 'VÉ CHÍNH HÃNG & KLOOK',
-    hi: 'आधिकारिक और KLOOK टिकट',
-    zh: '官方与 KLOOK 特惠门票',
-    ru: 'ОФИЦИАЛЬНЫЕ БИЛЕТЫ И KLOOK',
-    ko: '선그룹 공식 & KLOOK 할인 티켓',
-    ja: '公式＆KLOOK 特別割引チケット',
+    en: 'ATTRACTIONS & KLOOK TICKETS',
+    vi: 'ĐIỂM ĐẾN & VÉ KLOOK',
+    hi: 'आकर्षण और KLOOK टिकट',
+    zh: '景点与 KLOOK 特惠门票',
+    ru: 'РАЗВЛЕЧЕНИЯ И БИЛЕТЫ KLOOK',
+    ko: '어트랙션 & KLOOK 예매 안내',
+    ja: 'アトラクション＆KLOOK チケット',
   },
   sectionTitle: {
     en: 'Sunset Town & Sun World Attractions',
@@ -26,13 +26,13 @@ const UI_TEXT = {
     ja: 'サンセットタウン＆サンワールド主要アトラクション',
   },
   sectionDesc: {
-    en: 'Compare official gate prices with Klook discounted rates for the top sights in South Phu Quoc.',
-    vi: 'So sánh giá vé niêm yết và giá ưu đãi Klook cho các điểm tham quan nổi tiếng nhất phía Nam đảo.',
-    hi: 'दक्षिण फू क्वोक के शीर्ष स्थलों के लिए आधिकारिक कीमतों की Klook छूट से तुलना करें।',
-    zh: '对比富国岛南部最热门景点的现场官方价与 Klook 在线优惠价，省心畅玩。',
-    ru: 'Сравните официальные цены с тарифами Klook со скидкой для лучших мест юга Фукуока.',
-    ko: '현장 매표소 정가보다 최대 30% 저렴한 Klook 할인 혜택과 관람 꿀팁을 확인하세요.',
-    ja: '現地窓口価格とKlook割引価格を比較して、お得に南フーコックを満喫。',
+    en: 'Compare official gate prices with Klook discounted rates for the top sights in South Phu Quoc. (Verified: October 2026)',
+    vi: 'So sánh giá vé niêm yết và giá ưu đãi Klook cho các điểm tham quan nổi tiếng nhất phía Nam đảo. (Cập nhật: Tháng 10/2026)',
+    hi: 'दक्षिण फू क्वोक के शीर्ष स्थलों के लिए आधिकारिक कीमतों की Klook छूट से तुलना करें। (सत्यापन: अक्टूबर 2026)',
+    zh: '对比富国岛南部最热门景点的现场官方价与 Klook 在线优惠价。（核实日期：2026年10月）',
+    ru: 'Сравните официальные цены с тарифами Klook со скидкой для лучших мест юга Фукуока. (Проверено: октябрь 2026)',
+    ko: '현장 매표소 정가와 온라인 할인 혜택, 관람 꿀팁을 비교 확인하세요. (검증 기준일: 2026년 10월)',
+    ja: '現地窓口価格とKlook割引価格を比較して、お得に南フーコックを満喫。（確認日：2026年10月）',
   },
   klookBadge: {
     en: 'Klook Discount',
@@ -262,6 +262,11 @@ export function SunsetTownTickets({ locale = 'en' }: SunsetTownTicketsProps) {
           )
         })}
       </div>
+      <p style={{ marginTop: 24, textAlign: 'center', fontSize: '0.8rem', color: '#64748B', lineHeight: 1.5 }}>
+        ℹ️ {locale === 'ko'
+          ? '※ 티켓 요금, 운영 시간 및 포함 사항은 선월드(Sun World) 및 운영사의 현장 정책, 시즌 프로모션에 따라 변동될 수 있습니다. (검증 기준일: 2026년 10월)'
+          : '※ Gate prices, operating schedules, and bundle inclusions are subject to change by Sun World and operating partners. Verified October 2026.'}
+      </p>
     </section>
   )
 }

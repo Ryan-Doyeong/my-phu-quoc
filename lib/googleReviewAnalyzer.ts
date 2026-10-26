@@ -145,7 +145,7 @@ export function analyzeGoogleReviews(business: any, locale: Locale = 'ko'): Busi
     } else if (isVi) {
       topics.push('View pháo hoa', 'Ban công ngắm hoàng hôn', 'Xe điện đưa đón', 'Giá phòng hợp lý')
       if (isFireworks) {
-        praised.push('Ban công phòng có tầm nhìn trực diện ngắm trọn vẹn màn bắn pháo hoa Kiss of the Sea lúc 21:30 mỗi đêm.')
+        praised.push('Ban công phòng có tầm nhìn trực diện ngắm trọn vẹn màn bắn pháo hoa Kiss of the Sea lúc ~21:25 (Thứ 4–Thứ 2).')
       } else {
         praised.push('Kiến trúc Địa Trung Hải đẹp mắt, phòng ốc bài trí tinh tế và view biển thoáng đãng.')
       }
@@ -155,13 +155,13 @@ export function analyzeGoogleReviews(business: any, locale: Locale = 'ko'): Busi
       )
       goodToKnow.push(
         'Địa hình có nhiều dốc và bậc thang, nên gọi xe điện khi có hành lý cồng kềnh.',
-        'Lúc 21:30 có tiếng pháo hoa rực rỡ ngoài biển, quý khách có trẻ nhỏ nên lưu ý.',
+        'Lúc ~21:25 có tiếng pháo hoa rực rỡ ngoài biển (Thứ 3 nghỉ), quý khách có trẻ nhỏ nên lưu ý.',
         'Khách sạn có thể yêu cầu đặt cọc (khoảng 500k - 1tr VND) khi làm thủ tục nhận phòng.'
       )
     } else {
       topics.push('Fireworks View', 'Balcony Sunset', 'Buggy Transport', 'Great Value')
       if (isFireworks) {
-        praised.push('Direct private balcony view of the nightly 21:30 "Kiss of the Sea" ocean fireworks show.')
+        praised.push('Direct private balcony view of the "Kiss of the Sea" fireworks finale (~21:25 Wed–Mon).')
       } else {
         praised.push('Charming Mediterranean aesthetics with bright seaside balconies and clean interiors.')
       }

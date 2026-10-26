@@ -10,8 +10,8 @@ import { normalizeLocale } from '@/lib/i18n/config'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: 'Hello Sunset Town | Sunset Town at a Glance',
-  description: 'Sunset Town at a Glance — Your local guide to Sunset Town, Khem Beach and southern Phu Quoc.',
+  title: 'My Phu Quoc — Sunset Town & Island Travel Guide',
+  description: 'MyPhuQuoc.NET — Your curated local guide to Sunset Town, Kiss Bridge, fireworks, dining, and southern Phu Quoc, An Giang.',
 }
 
 export const viewport: Viewport = {
