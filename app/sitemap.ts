@@ -80,8 +80,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       ...PUBLISHED_EVENTS.filter((e) => !dbStorySlugs.has(e.slug)),
     ]
 
+    const DELETED_SLUGS = new Set([
+      'spooky-halloween-mask-making-kids-thao-dien',
+      'sample-thao-dien-weekend-farmers-craft-market',
+      'sample-riverside-morning-yoga-breathwork-session',
+    ])
+
     if (allStories.length > 0) {
       allStories.forEach((s: any) => {
+        if (DELETED_SLUGS.has(s.slug)) return
         if (s.slug) {
           const barePath = `${s.content_type === 'event' ? '/events' : '/news'}/${s.slug}`
           const lastModified = s.updated_at ? new Date(s.updated_at) : now
