@@ -1015,190 +1015,432 @@
 
 /* -------------------------------------------------------------
  * 12. Sunset Town Map Photobox & Landmarks
+ * Strictly adheres to site design system:
+ * --ocean: #0B7A8A, --ocean-deep: #0A4F5C, --ocean-soft: #DDF0EF
+ * --amber: #C86D2D, --amber-soft: #FBEBDD
+ * --paper: #FCFEFD, --ink: #12333B, --muted: #5B7479, --line: #D5E5E4
  * ------------------------------------------------------------- */
-.mapPhotoboxSection {
-  background: linear-gradient(180deg, #f8fbfb 0%, #ffffff 100%);
-  border: 1px solid #dce8e7;
-  border-radius: 24px;
-  padding: 32px;
-  margin-top: 32px;
-  margin-bottom: 48px;
-  box-shadow: 0 4px 20px rgba(11, 122, 138, 0.06);
+
+.sunsetTownMapSection {
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
-.mapPhotoboxHeader {
-  text-align: center;
-  margin-bottom: 28px;
+.sunsetTownMapWrapper {
+  width: 100%;
 }
 
-.mapPhotoboxBadge {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  color: #c86d2d;
-  background: #fcf1e8;
-  padding: 4px 12px;
-  border-radius: 999px;
-  border: 1px solid #f6d8c0;
-  margin-bottom: 10px;
+/* 1. 지도 표현: 밝은 종이톤 카드 + 비율 유지(object-fit: contain) */
+.mapPhotoCard {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 24px;
+  margin-bottom: 40px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.mapPhotoboxHeader h2 {
-  font-size: 26px;
-  font-weight: 800;
-  color: #12333b;
-  margin: 0 0 8px;
-}
-
-.mapPhotoboxHeader p {
-  font-size: 14px;
-  color: #527982;
-  max-width: 640px;
-  margin: 0 auto;
-  line-height: 1.5;
-}
-
-/* Photobox 2-Column Layout */
-.mapPhotoboxLayout {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 28px;
-  align-items: center;
-}
-
-.mapFrameCard {
+.mapPhotoFrame {
   position: relative;
   width: 100%;
-  max-width: 560px;
-  aspect-ratio: 4 / 3;
-  border-radius: 16px;
+  aspect-ratio: 16 / 10;
+  max-height: 520px;
+  border-radius: calc(var(--radius) - 8px);
   overflow: hidden;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-  border: 2px solid #e1eceb;
-  background: #0f1e24;
+  border: 1px solid var(--line);
+  background: #F4F8F7;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-  margin: 0 auto;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
-.mapFrameCard:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 12px 36px rgba(11, 122, 138, 0.2);
-  border-color: #0b7a8a;
+.mapPhotoFrame:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(11, 122, 138, 0.12);
+  border-color: var(--ocean);
 }
 
-.mapFrameCard img {
+.mapPhotoFrame img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: top center;
+  object-fit: contain;
   display: block;
 }
 
-.mapFrameOverlay {
+.mapPhotoFrameHint {
   position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, transparent 50%, rgba(10, 30, 36, 0.85) 100%);
-  display: flex;
-  align-items: flex-end;
-  padding: 16px;
-}
-
-.mapFrameButton {
+  right: 14px;
+  bottom: 14px;
+  z-index: 2;
+  background: rgba(18, 51, 59, 0.85);
+  backdrop-filter: blur(4px);
+  color: #ffffff;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: #c86d2d;
-  color: #ffffff;
-  font-size: 13px;
-  font-weight: 700;
-  padding: 8px 14px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+  pointer-events: none;
 }
 
-.mapInfoPanel {
+/* 지도 아래 버튼 2개: 「크게 보기」(outlineDark), 「고화질 다운로드」(primaryButton) */
+.mapPhotoActions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.mapTopBtn {
+  font-size: 13.5px !important;
+  font-weight: 700 !important;
+  padding: 11px 24px !important;
+  min-height: 44px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+.mapTopBtn.outlineDark {
+  background: #ffffff !important;
+  color: var(--ink) !important;
+  border: 1px solid var(--line) !important;
+}
+
+.mapTopBtn.outlineDark:hover {
+  border-color: var(--ocean) !important;
+  color: var(--ocean) !important;
+  background: var(--ocean-soft) !important;
+}
+
+.mapTopBtn.primaryButton:hover {
+  background: var(--ocean-deep) !important;
+}
+
+/* 2. 12대 랜드마크 가이드 섹션 */
+.landmarksGuideSection {
+  margin-top: 20px;
+}
+
+.landmarksHeader {
+  margin-bottom: 20px;
+}
+
+.landmarksHeader h3 {
+  font-family: var(--font-pretendard);
+  font-size: clamp(24px, 2.5vw, 30px);
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0 0 6px;
+  letter-spacing: -0.02em;
+}
+
+.landmarksHeaderSub {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* 카테고리 필터: 알약형 칩 */
+.landmarkFilterRow {
+  margin-bottom: 24px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.landmarkFilterRow::-webkit-scrollbar {
+  display: none;
+}
+
+.landmarksFilters {
+  display: flex;
+  gap: 8px;
+  flex-wrap: nowrap;
+}
+
+.landmarkFilterBtn {
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 8px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.landmarkFilterBtn:hover {
+  border-color: var(--ocean);
+  color: var(--ocean);
+}
+
+.landmarkFilterBtn.active {
+  background: var(--ocean);
+  color: #ffffff;
+  border-color: var(--ocean);
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(11, 122, 138, 0.2);
+}
+
+/* 12대 명소 그리드 (데스크톱 2열 / 모바일 1열) */
+.landmarksGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.landmarkCard {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 24px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  justify-content: space-between;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
-.mapInfoPanel h3 {
-  font-size: 20px;
-  font-weight: 800;
-  color: #12333b;
+.landmarkCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(11, 122, 138, 0.12);
+  border-color: var(--ocean);
+}
+
+.landmarkCardBody {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 카드 상단: 번호 배지(바다색 원형) + 이름(현지어 크게 / 영문 작게) */
+.landmarkHeader {
+  margin-bottom: 10px;
+}
+
+.landmarkBadgeGroup {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.landmarkNumBadge {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--ocean);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.landmarkNameGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.landmarkPrimaryName {
+  font-family: var(--font-pretendard);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink);
   margin: 0;
+  line-height: 1.35;
 }
 
-.mapInfoPanel p {
-  font-size: 14px;
+.landmarkSecondaryName {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+  margin-top: 2px;
+  line-height: 1.3;
+}
+
+/* 한 줄 요약: 카테고리 태그 및 주소 */
+.landmarkSummaryLine {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 6px 0 12px;
+  font-size: 12px;
+}
+
+.landmarkCategoryTag {
+  background: var(--ocean-soft);
+  color: var(--ocean-deep);
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.landmarkAddressText {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+/* 추천 시간 · 도보 거리 두 칸 */
+.landmarkMetaGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.landmarkMetaItem {
+  background: var(--site-bg);
+  border: 1px solid rgba(213, 229, 228, 0.7);
+  border-radius: 10px;
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.landmarkMetaLabel {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.landmarkMetaValue {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 긴 설명: 2~3줄만 보이고 「더 보기」로 펼침 */
+.landmarkDesc {
+  font-size: 13.5px;
   line-height: 1.6;
-  color: #3a5b63;
-  margin: 0;
+  color: var(--muted);
+  margin-bottom: 6px;
 }
 
-.mapActionButtons {
+.landmarkDesc.isClamped {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.landmarkDesc.isExpanded {
+  display: block;
+}
+
+.landmarkMoreBtn {
+  background: none;
+  border: none;
+  padding: 0 0 10px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ocean);
+  cursor: pointer;
+  text-align: left;
+  display: inline-block;
+  align-self: flex-start;
+  font-family: inherit;
+}
+
+.landmarkMoreBtn:hover {
+  text-decoration: underline;
+}
+
+/* 여행자 팁 (연한 amber-soft 박스) */
+.landmarkTipBox {
+  background: var(--amber-soft);
+  border: 1px solid rgba(200, 109, 45, 0.22);
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: #7A3F14;
+  margin-bottom: 16px;
+}
+
+.landmarkTipLabel {
+  color: var(--amber);
+  margin-right: 4px;
+}
+
+/* 카드 액션 버튼: 「구글맵 길찾기」(primaryButton) + 「할인 티켓 예매」(outlineDark) */
+.landmarkCardActions {
   display: flex;
   gap: 10px;
+  margin-top: auto;
   flex-wrap: wrap;
-  margin-top: 8px;
 }
 
-.mapBtnPrimary {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background: #0b7a8a;
-  color: #ffffff;
-  padding: 10px 18px;
-  border-radius: 10px;
-  font-size: 13.5px;
-  font-weight: 700;
-  text-decoration: none;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.2s;
+.landmarkCardBtn {
+  font-size: 12.5px !important;
+  font-weight: 700 !important;
+  padding: 8px 16px !important;
+  min-height: 38px !important;
+  gap: 6px !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex: 1 1 140px;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
 }
 
-.mapBtnPrimary:hover {
-  background: #096370;
+.landmarkCardBtn.outlineDark {
+  background: #ffffff !important;
+  color: var(--ink) !important;
+  border: 1px solid var(--line) !important;
 }
 
-.mapBtnSecondary {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background: #ebf4f3;
-  color: #0b7a8a;
-  padding: 10px 18px;
-  border-radius: 10px;
-  font-size: 13.5px;
-  font-weight: 700;
-  text-decoration: none;
-  border: 1px solid #c8dedd;
-  cursor: pointer;
-  transition: background-color 0.2s;
+.landmarkCardBtn.outlineDark:hover {
+  border-color: var(--ocean) !important;
+  color: var(--ocean) !important;
+  background: var(--ocean-soft) !important;
 }
 
-.mapBtnSecondary:hover {
-  background: #dbeefd;
+.landmarkCardBtn.primaryButton:hover {
+  background: var(--ocean-deep) !important;
 }
 
-/* Lightbox Modal */
+/* 라이트박스 팝업 확대 모달 */
 .mapLightboxModal {
   position: fixed;
   inset: 0;
   z-index: 9999;
-  background: rgba(0, 0, 0, 0.88);
+  background: rgba(10, 40, 48, 0.88);
   backdrop-filter: blur(8px);
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px;
@@ -1206,8 +1448,8 @@
 
 .mapLightboxContent {
   width: 100%;
-  max-width: 900px;
-  height: 85vh;
+  max-width: 1000px;
+  max-height: 90vh;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -1218,16 +1460,34 @@
   justify-content: space-between;
   align-items: center;
   color: #ffffff;
+  padding: 0 4px;
 }
 
 .mapLightboxTitle {
   font-size: 16px;
   font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.mapLightboxActions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mapLightboxDownloadBtn {
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  padding: 7px 16px !important;
+  min-height: 36px !important;
+  gap: 6px !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
 }
 
 .mapLightboxClose {
-  background: #2a3a40;
-  border: none;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   color: #ffffff;
   width: 36px;
   height: 36px;
@@ -1237,206 +1497,70 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background 0.2s ease;
+}
+
+.mapLightboxClose:hover {
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .mapLightboxBody {
   flex: 1;
   overflow: auto;
-  border-radius: 12px;
-  background: #111a1e;
-  border: 1px solid #2a3a40;
+  border-radius: var(--radius);
+  background: #ffffff;
+  border: 1px solid var(--line);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 12px;
+  padding: 16px;
+  max-height: 82vh;
 }
 
 .mapLightboxBody img {
   max-width: 100%;
-  max-height: 100%;
+  max-height: 78vh;
   object-fit: contain;
+  display: block;
 }
 
-/* Landmarks Grid */
-.landmarksHeader {
-  margin-top: 36px;
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 12px;
-  border-bottom: 2px solid #e1eceb;
-  padding-bottom: 12px;
-}
-
-.landmarksHeader h3 {
-  font-size: 20px;
-  font-weight: 800;
-  color: #12333b;
-  margin: 0;
-}
-
-.landmarksFilters {
-  display: flex;
-  gap: 6px;
-  overflow-x: auto;
-  padding-bottom: 4px;
-}
-
-.landmarkFilterBtn {
-  background: #f1f6f5;
-  color: #527982;
-  border: 1px solid #dce8e7;
-  padding: 6px 12px;
-  border-radius: 20px;
-  font-size: 12px;
-  font-weight: 700;
-  cursor: pointer;
-  white-space: nowrap;
-}
-
-.landmarkFilterBtn.active {
-  background: #0b7a8a;
-  color: #ffffff;
-  border-color: #0b7a8a;
-}
-
-.landmarksGrid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 18px;
-}
-
-.landmarkCard {
-  background: #ffffff;
-  border: 1px solid #e1eceb;
-  border-radius: 14px;
-  padding: 18px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  transition: transform 0.2s, box-shadow 0.2s;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-}
-
-.landmarkCard:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(11, 122, 138, 0.09);
-  border-color: #0b7a8a;
-}
-
-.landmarkCardTop {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.landmarkNumBadge {
-  width: 28px;
-  height: 28px;
-  background: #12333b;
-  color: #f7a048;
-  font-size: 12px;
-  font-weight: 900;
-  border-radius: 8px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.landmarkWalkTag {
-  font-size: 11px;
-  color: #0b7a8a;
-  background: #ebf4f3;
-  padding: 3px 8px;
-  border-radius: 6px;
-  font-weight: 600;
-}
-
-.landmarkName {
-  font-size: 16px;
-  font-weight: 800;
-  color: #12333b;
-  margin: 0 0 6px;
-}
-
-.landmarkAddress {
-  font-size: 12px;
-  color: #7d9d9f;
-  margin: 0 0 10px;
-}
-
-.landmarkDesc {
-  font-size: 13px;
-  color: #4a6b72;
-  line-height: 1.5;
-  margin: 0 0 12px;
-}
-
-.landmarkTip {
-  background: #fdf7f2;
-  border-left: 3px solid #c86d2d;
-  padding: 8px 10px;
-  font-size: 12px;
-  color: #7c431b;
-  border-radius: 0 6px 6px 0;
-  margin-bottom: 14px;
-  line-height: 1.4;
-}
-
-.landmarkCardFooter {
-  display: flex;
-  gap: 8px;
-  margin-top: auto;
-}
-
-.landmarkMapsLink {
-  flex: 1;
-  text-align: center;
-  background: #ebf4f3;
-  color: #0b7a8a;
-  padding: 8px 12px;
-  border-radius: 8px;
-  font-size: 12px;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.landmarkMapsLink:hover {
-  background: #d8ecea;
-}
-
-.landmarkTicketLink {
-  flex: 1;
-  text-align: center;
-  background: #c86d2d;
-  color: #ffffff;
-  padding: 8px 12px;
-  border-radius: 8px;
-  font-size: 12px;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.landmarkTicketLink:hover {
-  background: #b55d20;
-}
-
+/* 반응형 스타일 */
 @media (max-width: 760px) {
-  .mapPhotoboxSection {
-    padding: 20px 14px;
-    border-radius: 16px;
+  .mapPhotoCard {
+    padding: 16px;
+    border-radius: 20px;
   }
-  .mapPhotoboxLayout {
-    grid-template-columns: 1fr;
-    gap: 20px;
+  .mapPhotoFrame {
+    aspect-ratio: 4 / 3;
+    border-radius: 14px;
   }
   .landmarksGrid {
     grid-template-columns: 1fr;
+    gap: 16px;
   }
   .landmarkCard {
-    padding: 14px;
+    padding: 18px;
+    border-radius: 20px;
+  }
+  .mapPhotoActions {
+    flex-direction: column;
+    width: 100%;
+  }
+  .mapTopBtn {
+    width: 100%;
+    justify-content: center;
   }
 }
+
+@media (max-width: 390px) {
+  .landmarkMetaGrid {
+    grid-template-columns: 1fr;
+  }
+  .landmarkCardActions {
+    flex-direction: column;
+  }
+  .landmarkCardBtn {
+    width: 100%;
+  }
+}
+

@@ -375,7 +375,7 @@ export function HomePage({
         <SunsetDistrictFilter locale={locale} />
 
         {/* 선셋타운 공식 일러스트 지도 & 거리 가이드 섹션 */}
-        <section className="shell sunsetTownMapSection" id="map" style={{ padding: '40px 20px', maxWidth: 1200, margin: '0 auto' }}>
+        <section className="shell sunsetTownMapSection" id="map">
           <SunsetTownMap locale={locale} />
         </section>
 
