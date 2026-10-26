@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import {
   SUNSET_LANDMARKS,
@@ -206,6 +206,18 @@ export default function SunsetTownMap({ locale }: Props) {
   const loc = locale || 'en'
   const [selectedCategory, setSelectedCategory] = useState<string>('all')
   const [isLightboxOpen, setIsLightboxOpen] = useState(false)
+
+  // ESC 키로 라이트박스 모달 닫기
+  useEffect(() => {
+    if (!isLightboxOpen) return
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setIsLightboxOpen(false)
+      }
+    }
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [isLightboxOpen])
 
   // 언어별 지도 이미지 가져오기 (.webp 우선)
   const mapImage = getSunsetMapImage(locale)
