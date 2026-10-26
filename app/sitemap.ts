@@ -6,7 +6,8 @@ import { storyAvailableLocales } from '@/lib/i18n/dictionaries'
 import { LOCALES, buildAlternates, localeUrl, type Locale } from '@/lib/i18n/config'
 
 // Rebuild hourly so newly published stories appear without a redeploy
-export const revalidate = 3600
+export const revalidate = 0
+export const dynamic = "force-dynamic"
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date()
