@@ -24,7 +24,7 @@ export function CategoryKnowledgeSection({
   const displayTitle =
     title ||
     (isKo
-      ? '선셋타운 필수 상식 & 이용 꿀팁 가이드'
+      ? '선셋타운 필수 상식 & 이용 안내 가이드'
       : isVi
       ? 'Cẩm nang kinh nghiệm & Hướng dẫn trải nghiệm'
       : 'Essential Tips & Category Guide')

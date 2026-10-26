@@ -53,7 +53,7 @@ export const FOOD_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = {
       subList: [
         '특제 간장소스(참소스)에 청양고추와 다진 마늘을 풀고 푹 찍어 드세요.',
         '고소한 콩가루(미숫가루)를 살짝 묻히면 기름진 맛을 부드럽게 감싸줍니다.',
-        '시원한 맥주나 한국 전통 소주와 페어링할 때 풍미가 극대화됩니다.',
+        '시원한 맥주나 한국 전통 소주와 곁들여 즐기기 좋습니다.',
       ],
     },
     en: {
@@ -290,7 +290,7 @@ export const FOOD_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = {
       list: [
         '숯불 고기: 겉은 불향이 그윽하고 속은 육즙이 촉촉한 완자와 삼겹살.',
         '느억맘 육수: 피시소스, 식초, 설탕, 라임을 배합하고 그린 파파야와 당근 절임을 띄운 따뜻한 소스.',
-        '바삭한 넴(Nem rán): 게살과 다진 돼지고기를 라이스페이퍼에 말아 튀긴 스프링롤을 곁들이면 완벽한 한 상이 완성됩니다.',
+        '바삭한 넴(Nem rán): 게살과 다진 돼지고기를 라이스페이퍼에 말아 튀긴 스프링롤을 곁들여 먹는 방식입니다.',
       ],
       subheading: '분짜 먹는 순서 & 팁',
       subList: [
@@ -800,7 +800,7 @@ export function enrichDishDescription(
   }
 
   return {
-    descKo: currentDescKo || '엄선된 신선한 로컬 식재료로 정성껏 조리하여 풍미를 극대화한 요리입니다.',
-    descEn: currentDescEn || 'Crafted with carefully selected fresh local ingredients for rich natural flavor.',
+    descKo: currentDescKo || '엄선된 로컬 식재료로 조리한 요리입니다.',
+    descEn: currentDescEn || 'Crafted with carefully selected local ingredients.',
   }
 }

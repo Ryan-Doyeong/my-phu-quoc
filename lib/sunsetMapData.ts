@@ -83,7 +83,7 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     ticketSlug: 'kiss-bridge',
     ticketUrl: 'https://www.klook.com/en-US/activity/108398-kiss-bridge-sunset-town-phu-quoc/?aid=MYPHUQUOC',
     description: {
-      ko: '이탈리아 건축 거장 마르코 카사몬티가 설계한 세계적인 해상 보행교. 50cm 간격으로 마주보는 두 다리 사이로 붉은 석양이 떨어지는 환상적인 일몰 명소입니다.',
+      ko: '이탈리아 건축가 마르코 카사몬티가 설계한 해상 보행교. 50cm 간격으로 마주보는 두 다리 사이로 석양이 떨어지는 일몰 명소입니다.',
       en: 'World-famous iconic ocean pedestrian bridge designed by Marco Casamonti, featuring a 50cm gap where the setting sun aligns between the twin spans.',
       vi: 'Cây cầu đi bộ trên biển độc đáo do KTS Marco Casamonti thiết kế, khoảng cách 50cm giữa hai đầu cầu là điểm rơi của ánh hoàng hôn tuyệt mỹ.',
       hi: 'मार्को कैसा मोंटी द्वारा डिज़ाइन किया गया प्रतिष्ठित समुद्री पैदल यात्री पुल, जहाँ दोनों सिरों के बीच सूर्यास्त गिरता है।',
@@ -92,7 +92,7 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
       ja: '建築家マルコ・カサモンティ設計の象徴的な海上遊歩道。夕日が2つの橋の隙間に沈む絶景ビューポイント。',
     },
     tips: {
-      ko: '일몰 골든아워(17:00~17:45)에 북쪽 다리와 남쪽 다리 끝에서 마주보고 서서 사진을 찍으면 최고의 인생샷이 완성됩니다.',
+      ko: '일몰 골든아워(17:00~17:45)에 북쪽 다리와 남쪽 다리 끝에서 마주보고 서서 사진을 촬영하기 좋습니다.',
       en: 'Best photography time is golden hour (17:00-17:45). Stand at opposite bridge tips for the iconic pose.',
       vi: 'Khung giờ vàng từ 17:00 đến 17:45 là thời điểm hoàn hảo nhất để có bức ảnh ngược sáng hoàng hôn tuyệt đẹp.',
       hi: 'शाम 17:00-17:45 पर जाएँ, सबसे खूबसूरत सूर्यास्त तस्वीरें मिलेंगी।',
@@ -129,7 +129,7 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     ticketSlug: 'kiss-of-the-sea',
     ticketUrl: 'https://www.klook.com/en-US/activity/108397-kiss-of-the-sea-show-phu-quoc/?aid=MYPHUQUOC',
     description: {
-      ko: '5,000석 규모의 세계 최대 해상 멀티미디어 쇼. 분수, 화염, 레이저, 음악과 밤하늘을 수놓는 환상적인 불꽃놀이가 수~월요일 밤마다 펼쳐집니다 (화요일 휴무).',
+      ko: '5,000석 규모의 해상 멀티미디어 쇼. 분수, 화염, 레이저, 음악과 불꽃놀이가 수~월요일 밤마다 진행됩니다 (화요일 휴무).',
       en: 'The world\'s largest ocean multimedia show seating 5,000 guests. Features water jets, fire, lasers, music, and an astonishing fireworks finale (Wed–Mon; Tue dark).',
       vi: 'Show diễn đa phương tiện trên biển quy mô 5.000 chỗ ngồi, kết hợp lửa, nước, laser và pháo hoa rực rỡ từ Thứ 4 đến Thứ 2 (Thứ 3 nghỉ định kỳ).',
       hi: '5,000 सीटों वाला विशाल समुद्री मल्टीमीडिया शो, पानी, आग, लेजर और भव्य आतिशबाजी (बुध-सोम, मंगलवार अवकाश)।',
@@ -316,7 +316,7 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
       ja: '有名建築家ビル・ベンズリーが手掛けたミッドセンチュリーモダンのアートギャラリー。',
     },
     tips: {
-      ko: '민트빛 돔과 화려한 샹들리에 로비가 최고의 포토제닉 스팟입니다. 특별 전시회나 이벤트 개최 시 입장이 가능합니다.',
+      ko: '민트빛 돔과 샹들리에 로비가 특징적인 스팟입니다. 특별 전시회나 이벤트 개최 시 입장이 가능합니다.',
       en: 'Mint green dome and lavish chandeliers create glamorous photoshoot backdrops.',
       vi: 'Mái vòm xanh ngọc bích và dàn đèn chùm sang trọng là góc chụp ảnh nghệ thuật đỉnh cao.',
       hi: 'गुंबद और झूमर के साथ फोटोग्राफी के लिए अद्भुत पृष्ठभूमि।',
@@ -536,7 +536,7 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
       ja: '古代ローマ・ポンペイの石柱や遺跡を再現したクラシックなフォトスポット。',
     },
     tips: {
-      ko: '돌기둥 사이로 햇살이 스며드는 늦은 오후에 드라마틱한 인물 사진을 찍기에 최적입니다.',
+      ko: '돌기둥 사이로 햇살이 스며드는 늦은 오후에 인물 사진을 촬영하기 좋습니다.',
       en: 'Late afternoon sunlight filtering through stone pillars creates striking cinematic portraits.',
       vi: 'Thời điểm xế chiều khi nắng xiên qua hàng cột đá tạo nên những bức ảnh chân dung tuyệt đẹp.',
       hi: 'दोपहर बाद स्तंभों के बीच से छनती धूप में शानदार तस्वीरें आती हैं।',
@@ -636,7 +636,7 @@ export const SUNSET_STREETS: MapStreet[] = [
     strokeWidth: 12,
     // 썬 시그니처 갤러리 -> 태양의 분수 -> 시계탑 앞 테라스
     pathD: 'M 940 1100 Q 1010 1240 1060 1380 T 1050 1520 T 1030 1660 T 1090 1820 T 1180 1940',
-    descriptionKo: '시계탑과 태양의 분수가 위치한 중심 절벽 테라스 도로. 선셋타운 전체를 한눈에 내려다보는 최고의 일몰 뷰포인트.',
+    descriptionKo: '시계탑과 태양의 분수가 위치한 중심 절벽 테라스 도로. 선셋타운 전체를 한눈에 내려다보는 일몰 뷰포인트.',
     descriptionEn: 'Spectacular cliffside terrace linking the Clock Tower, King Sun Fountain, and fine oceanview dining.',
     labelX: 1040,
     labelY: 1400,
@@ -691,7 +691,7 @@ export const SUNSET_TOUR_COURSES: MapTourCourse[] = [
   {
     id: 'sunset-essential',
     title: {
-      ko: '골든아워 인생샷 100% 보장 코스 (2.5시간)',
+      ko: '골든아워 사진 코스 (2.5시간)',
       en: 'Golden Hour Sunset Photo Trail (2.5 hrs)',
       vi: 'Cung đường check-in hoàng hôn triệu view (2.5h)',
       hi: 'गोल्डन ऑवर सनसेट फोटो ट्रेल (2.5 घंटे)',
@@ -703,7 +703,7 @@ export const SUNSET_TOUR_COURSES: MapTourCourse[] = [
     distance: '1.8 km',
     themeColor: '#f59e0b',
     description: {
-      ko: '오후 4시 30분 75m 시계탑에서 출발해 태양의 분수, 드래곤 계단을 거쳐 일몰 골든아워에 키스브릿지에서 최고의 사진을 남기고 선셋 비치에서 칵테일로 마무리하는 필수 코스입니다.',
+      ko: '오후 4시 30분 75m 시계탑에서 출발해 태양의 분수, 드래곤 계단을 거쳐 일몰 골든아워에 키스브릿지에서 사진을 남기고 선셋 비치로 이어지는 코스입니다.',
       en: 'Depart 16:30 from the Clock Tower, wander past the King Sun Fountain & Dragon Staircase, reach Kiss Bridge right at golden hour, and end with beach cocktails.',
       vi: 'Bắt đầu 16:30 từ Tháp đồng hồ, dạo bước qua Đài Thần Mặt Trời, ngắm hoàng hôn rực rỡ trên Cầu Hôn và tận hưởng ly cocktail bên bờ biển.',
       hi: 'शाम 16:30 बजे क्लॉक टॉवर से शुरू करें, फाउंटेन और ड्रैगन सीढ़ी से होते हुए किस ब्रिज पर सूर्यास्त देखें।',
@@ -728,7 +728,7 @@ export const SUNSET_TOUR_COURSES: MapTourCourse[] = [
     distance: '2.2 km',
     themeColor: '#ec4899',
     description: {
-      ko: '오후 6시 부이페스트 야시장에서 베트남 길거리 음식을 맛보고, 베니스 해안로를 따라 남하하여 21:00 키스 오브 더 씨 수상 멀티미디어 쇼와 환상적인 매일 밤 불꽃놀이를 직관하는 저녁 전용 코스입니다.',
+      ko: '오후 6시 부이페스트 야시장에서 베트남 길거리 음식을 맛보고, 베니스 해안로를 따라 남하하여 21:00 키스 오브 더 씨 수상 멀티미디어 쇼와 불꽃놀이를 직관하는 저녁 전용 코스입니다.',
       en: 'Feast on street food at Vui-Fest Bazaar at 18:00, stroll south along Venice Promenade, and take front-row seats for the 21:00 Kiss of the Sea & Fireworks show.',
       vi: 'Khám phá ẩm thực chợ đêm Vui-Fest lúc 18:00, tản bộ ven biển Venice và thưởng thức đại tiệc âm thanh ánh sáng Nụ Hôn Của Biển Cả cùng pháo hoa lúc 21:00.',
       hi: 'शाम 18:00 बजे नाइट मार्केट में स्ट्रीट फूड, वेनिस सड़क पर सैर और 21:00 बजे भव्य आतिशबाजी शो।',

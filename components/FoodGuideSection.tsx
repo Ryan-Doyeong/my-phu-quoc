@@ -26,7 +26,7 @@ export function FoodGuideSection({
     : 'Get to Know the Food'
 
   const intro = isKo
-    ? '푸꾸옥 여행자를 위해 음식의 유래, 특징 및 맛있게 즐기는 꿀팁을 안내합니다.'
+    ? '푸꾸옥 여행자를 위해 음식의 유래, 특징 및 식사 안내를 제공합니다.'
     : isVi
     ? 'Khám phá nguồn gốc, hương vị đặc trưng và bí quyết thưởng thức trọn vẹn món ăn.'
     : 'Discover the origins, signature flavors, and tips to savor this dish like a local.'

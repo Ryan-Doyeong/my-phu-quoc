@@ -34,15 +34,15 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
     ko: {
       label: '한국어 · 타이 마사지 vs 아로마 오일 마사지 차이',
       paragraphs: [
-        '스파 메뉴판을 볼 때 가장 고민되는 두 가지 핵심 코스인 타이 마사지와 아로마 마사지는 조리법과 목적이 완전히 다릅니다.',
-        '자신의 현재 피로 상태와 일정(이동 직전인지, 샤워가 가능한지 등)에 맞추어 선택하면 만족도가 배가됩니다.',
+        '스파 메뉴의 대표 코스인 타이 마사지와 아로마 마사지는 진행 방식과 관리 목적에 차이가 있습니다.',
+        '개인의 피로 상태와 일정(이동 직전인지, 샤워 가능 여부 등)을 고려하여 선택할 수 있습니다.',
       ],
       list: [
-        '타이 마사지 (건식 · 지압 & 스트레칭): 오일을 바르지 않고 전용 옷을 입은 채 진행됩니다. 손가락, 팔꿈치, 무릎을 이용한 경혈 지압과 요가식 수동 스트레칭으로 굳은 관절과 근육을 시원하게 늘려줍니다. 투어 후 뭉친 피로 회복에 최적입니다.',
-        '아로마 오일 마사지 (습식 · 림프 순환): 천연 에센셜 오일(라벤더, 레몬그라스, 코코넛 등)을 전신에 도포하여 부드러운 압으로 림프절을 자극합니다. 심신 안정, 피부 보습, 혈액순환에 탁월하며 강한 압이 부담스러운 분께 추천합니다.',
-        '선택 기준: 격한 물놀이나 투어 후 개운한 스트레칭을 원할 때는 타이, 비행 후 붓기 완화나 깊은 숙면을 원할 때는 아로마를 추천합니다.',
+        '타이 마사지 (건식 · 지압 & 스트레칭): 오일을 바르지 않고 전용 옷을 입은 채 진행됩니다. 손가락, 팔꿈치, 무릎을 이용한 경혈 지압과 요가식 수동 스트레칭으로 굳은 관절과 근육을 이완하는 방식입니다.',
+        '아로마 오일 마사지 (습식 · 림프 순환): 천연 에센셜 오일(라벤더, 레몬그라스, 코코넛 등)을 전신에 도포하여 부드러운 압으로 케어합니다. 부드러운 압의 릴랙스 관리를 원하는 경우 주로 선택합니다.',
+        '선택 안내: 활동적인 일정 후 근육 스트레칭을 원할 때는 타이, 비행 후 피로 완화나 편안한 휴식을 원할 때는 아로마 코스를 고려할 수 있습니다.',
       ],
-      subheading: '마사지 압 조절 베트남어 꿀팁',
+      subheading: '마사지 압 조절 베트남어 안내',
       subList: [
         '약하게: "Nhẹ (녜)"',
         '보통으로: "Vừa (브어)"',
@@ -53,12 +53,12 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
     en: {
       label: 'English · Thai Massage vs Aroma Oil Massage',
       paragraphs: [
-        'The two most popular spa treatments differ significantly in philosophy, technique, and physiological benefits.',
+        'Two common spa treatments differ significantly in philosophy, technique, and application.',
       ],
       list: [
-        'Thai Traditional Massage (Dry / Acupressure & Stretch): Performed on a mat with loose-fitting clothes. Practitioners use rhythmic compression and yoga-like stretching to restore flexibility and clear energy blockages.',
-        'Aroma Essential Oil Massage (Gentle / Lymphatic): Gentle, sweeping strokes using natural botanical oils to melt stress, nourish skin, and encourage lymphatic drainage.',
-        'Which to choose: Pick Thai for relieving heavy muscle stiffness; pick Aroma for jet lag relaxation and gentle recovery.',
+        'Thai Traditional Massage (Dry / Acupressure & Stretch): Performed on a mat with loose-fitting clothes. Practitioners use rhythmic compression and yoga-like stretching to restore flexibility.',
+        'Aroma Essential Oil Massage (Gentle / Lymphatic): Gentle, sweeping strokes using natural botanical oils focused on relaxation and skin hydration.',
+        'Which to choose: Pick Thai for full-body stretching; pick Aroma for gentle recovery and unwinding.',
       ],
       subheading: 'Handy Vietnamese Pressure Phrases',
       subList: [
@@ -71,11 +71,11 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
     vi: {
       label: 'Tiếng Việt · So sánh Massage Thái & Massage Tinh dầu',
       paragraphs: [
-        'Massage Thái chú trọng bấm huyệt và kéo giãn cơ xương khớp không dùng dầu, trong khi massage tinh dầu sử dụng kỹ thuật vuốt nhẹ nhàng giúp thư giãn sâu và dưỡng ẩm da.',
+        'Massage Thái chú trọng bấm huyệt và kéo giãn cơ xương khớp không dùng dầu, trong khi massage tinh dầu sử dụng kỹ thuật vuốt nhẹ nhàng giúp thư giãn và dưỡng ẩm da.',
       ],
       list: [
-        'Massage Thái: Phù hợp sau các hoạt động thể thao, du lịch vận động mạnh.',
-        'Massage Aroma: Phù hợp cho những ai muốn giải tỏa căng thẳng và chăm sóc làn da.',
+        'Massage Thái: Phù hợp sau các hoạt động thể thao, du lịch vận động.',
+        'Massage Aroma: Phù hợp cho những ai muốn thư giãn nhẹ nhàng và chăm sóc làn da.',
       ],
     },
   },
@@ -88,33 +88,33 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
     ko: {
       label: '한국어 · 핫스톤 테라피 & 베트남 전통 두피 헤드스파',
       paragraphs: [
-        '베트남 푸꾸옥의 주요 스파에서 제공하는 스페셜 테라피인 핫스톤과 베트남식 허브 헤드스파(Gội đầu dưỡng sinh)의 특징과 관리 방법입니다.',
+        '베트남 푸꾸옥의 스파에서 제공하는 핫스톤과 베트남식 허브 헤드스파(Gội đầu dưỡng sinh)의 특징과 이용 안내입니다.',
       ],
       list: [
-        '핫스톤 테라피 (Hot Stone): 약 50~60도로 데운 천연 현무암을 등과 척추, 혈자리에 얹고 오일과 함께 롤링합니다. 돌의 원적외선 열기가 근육 깊숙이 침투하여 뭉친 담과 결림을 부드럽게 녹여줍니다.',
-        '베트남 두피 헤드스파 (Gội đầu dưỡng sinh): 자몽 껍질, 레몬그라스, 하수오 등 천연 허브를 달인 따뜻한 물로 두피를 세정하고, 두피·목·어깨·데콜테 라인의 경혈을 지압하여 두통과 눈의 피로를 즉각적으로 날려줍니다.',
+        '핫스톤 테라피 (Hot Stone): 약 50~60도로 데운 천연 현무암을 등과 척추 부위에 얹고 오일과 함께 관리합니다. 스톤의 온열감을 통해 뭉친 부위의 긴장을 완화합니다.',
+        '베트남 두피 헤드스파 (Gội đầu dưỡng sinh): 자몽 껍질, 레몬그라스 등 천연 허브를 달인 따뜻한 물로 두피를 세정하고, 두피·목·어깨 라인을 지압하여 피로를 덜어줍니다.',
       ],
-      subheading: '이용 팁',
+      subheading: '이용 안내',
       subList: [
-        '선번(햇빛 화상)이 있는 날에는 핫스톤보다는 쿨링 알로에 베라 마사지를 선택하세요.',
-        '헤드스파 후에는 매장에서 헤어 드라이어와 오일 마무리를 제공하므로 바로 저녁 일정 진행이 가능합니다.',
+        '햇빛에 그을린 날에는 온열 핫스톤보다 알로에 베라 등 쿨링 케어를 선택하는 것이 무난합니다.',
+        '헤드스파 후에는 매장에서 헤어 드라이어와 모발 정돈 서비스를 제공합니다.',
       ],
     },
     en: {
       label: 'English · Hot Stone & Vietnamese Herbal Head Spa',
       paragraphs: [
-        'Hot Stone Therapy uses warm volcanic basalt stones to radiate restorative thermal energy into stiff muscles.',
-        'Vietnamese Herbal Head Spa (Gội đầu dưỡng sinh) is a holistic scalp and neck acupressure therapy using freshly brewed pomelo and lemongrass herbal rinses.',
+        'Hot Stone Therapy uses warm basalt stones to apply soothing heat to tense muscles.',
+        'Vietnamese Herbal Head Spa (Gội đầu dưỡng sinh) is a scalp and neck acupressure therapy using brewed pomelo and lemongrass herbal rinses.',
       ],
       list: [
-        'Hot Stone: Melts away deep-seated tensions and boosts blood flow.',
-        'Herbal Head Spa: Calms migraines, refreshes sun-exposed hair, and relieves neck stiffness.',
+        'Hot Stone: Delivers gentle thermal therapy to ease muscle stiffness.',
+        'Herbal Head Spa: Cleanses the scalp and eases neck and shoulder fatigue.',
       ],
     },
     vi: {
       label: 'Tiếng Việt · Trị liệu Đá nóng & Gội đầu Dưỡng sinh',
       paragraphs: [
-        'Liệu pháp đá nóng giúp giải tỏa căng cơ bằng nhiệt năng tự nhiên, trong khi gội đầu dưỡng sinh thảo dược mang lại cảm giác thư thái tuyệt đối cho vùng đầu, cổ và vai gáy.',
+        'Liệu pháp đá nóng giúp giải tỏa căng cơ bằng nhiệt năng tự nhiên, trong khi gội đầu dưỡng sinh thảo dược chăm sóc vùng đầu, cổ và vai gáy.',
       ],
     },
   },
@@ -237,7 +237,7 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
     title: 'Phu Quoc Top 4 Souvenirs: Pepper, Fish Sauce, Sim Wine & Pearls',
     tocLabel: 'Top 4 Souvenirs',
     ko: {
-      label: '한국어 · 푸꾸옥 4대 쇼핑 특산품 완벽 가이드',
+      label: '한국어 · 푸꾸옥 4대 쇼핑 특산품 안내',
       paragraphs: [
         '푸꾸옥 여행 기념품으로 무엇을 사야 할지 고민될 때 반드시 알아두어야 할 4대 핵심 특산품 고르는 법입니다.',
       ],
@@ -282,14 +282,14 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
     title: 'Hon Thom Cable Car & Aquatopia Water Park Guide',
     tocLabel: 'Cable Car Guide',
     ko: {
-      label: '한국어 · 기네스북 혼똔섬 케이블카 & 아쿠아토피아 꿀팁',
+      label: '한국어 · 혼똔섬 케이블카 & 아쿠아토피아 안내',
       paragraphs: [
-        '선셋타운에서 출발하는 혼똔섬(Hòn Thơm) 케이블카는 기네스 세계 기록에 등재된 7,899m 길이의 세계 최장 3선 해상 케이블카입니다.',
+        '선셋타운에서 출발하는 혼똔섬(Hòn Thơm) 케이블카는 기네스 세계 기록에 등재된 7,899m 길이의 3선 해상 케이블카입니다.',
       ],
       list: [
         '운행 시간 & 점심 브레이크 주의: 케이블카는 보통 오전 9시~11시 30분, 오후 13시 30분~17시 등으로 운행하며, 중간 점심시간(11:30~13:30경)에는 점검 및 휴게로 운행이 일시 중단될 수 있으므로 사전에 시간표를 꼭 확인하세요.',
-        '탑승 명당: 진행 방향 오른쪽 좌석에 앉으면 선셋타운의 알록달록한 지중해 마을 전경과 푸른 바다의 어선들이 환상적으로 펼쳐집니다.',
-        '아쿠아토피아(Aquatopia) 워터파크: 혼똔섬 내에 위치한 최신 테마 워터파크로 케이블카 티켓에 포함된 경우가 많습니다. 래시가드, 아쿠아슈즈, 방수팩을 챙기시면 유용합니다.',
+        '탑승 안내: 탑승 중 선셋타운 마을 전경과 바다 풍경을 조망할 수 있습니다.',
+        '아쿠아토피아(Aquatopia) 워터파크: 혼똔섬 내에 위치한 테마 워터파크로 케이블카 티켓에 포함된 경우가 많습니다. 래시가드, 아쿠아슈즈, 방수팩을 챙기시면 유용합니다.',
       ],
     },
     en: {
@@ -299,7 +299,7 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
       ],
       list: [
         'Midday Break: The cable car system frequently halts for maintenance between 11:30 and 13:30; plan your crossing accordingly.',
-        'Photo Angle: Sit on the right-hand side facing forward for sweeping aerial views of Sunset Town.',
+        'Scenery: Enjoy sweeping aerial views of Sunset Town and the sea during the crossing.',
       ],
     },
     vi: {
@@ -353,7 +353,7 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
     title: 'The World of Vietnamese Coffee: Phin, Condensed Milk & Beyond',
     tocLabel: 'Coffee Guide',
     ko: {
-      label: '한국어 · 베트남 4대 전통 커피 완벽 해설',
+      label: '한국어 · 베트남 4대 전통 커피 해설',
       paragraphs: [
         '세계 2위 커피 수출국인 베트남은 진하고 구수한 로부스타(Robusta) 원두와 전통 알루미늄 드리퍼 핀(Phin)을 사용한 고유의 커피 문화를 꽃피웠습니다.',
       ],
@@ -363,7 +363,7 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
         '3. 까페 쯩 (Cà phê trứng - 에그 커피): 신선한 계란 노른자와 연유를 크림처럼 쫀쫀하게 휘핑하여 진한 커피 위에 얹은 하노이 명물 디저트 커피.',
         '4. 까페 무오이 (Cà phê muối - 소금 커피): 단짠의 황금 비율을 자랑하는 부드러운 쏠티드 크림을 얹은 중부 후에식 트렌디 커피.',
       ],
-      subheading: '주문 꿀팁',
+      subheading: '주문 안내',
       subList: [
         '얼음 적게: "Ít đá (잇 다)"',
         '달지 않게 / 연유 적게: "Ít đường (잇 드엉)" / "Ít sữa (잇 쓰어)"',
