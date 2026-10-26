@@ -85,7 +85,7 @@ export default function SunsetTownMap({ locale }: Props) {
           <div className="flex flex-wrap items-center gap-3">
             <a
               href={mapImage.jpg}
-              download="Sunset-Town-Official-Map.jpg"
+              download={mapImage.filename}
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-slate-950 font-black text-xs sm:text-sm shadow-lg shadow-amber-500/25 transition-all transform active:scale-95"
             >
               <span>📥</span>
@@ -105,7 +105,7 @@ export default function SunsetTownMap({ locale }: Props) {
 
         {/* 지도 이미지 액자 (고화질 고정형 인포그래픽 뷰) */}
         <div className="mt-6 w-full flex justify-center bg-slate-950/70 rounded-2xl p-2 sm:p-5 border border-slate-800/90">
-          <div className="relative w-full max-w-3xl aspect-[702/1024] rounded-xl overflow-hidden shadow-2xl border border-slate-800 bg-slate-950">
+          <div className="relative w-full max-w-3xl aspect-[1039/1514] rounded-xl overflow-hidden shadow-2xl border border-slate-800 bg-slate-950">
             <Image
               src={mapImage.webp}
               alt={t.title}

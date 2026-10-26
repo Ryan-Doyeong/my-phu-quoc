@@ -765,17 +765,49 @@ export const SUNSET_TOUR_COURSES: MapTourCourse[] = [
   },
 ]
 
-export function getSunsetMapImage(locale: Locale): { jpg: string; webp: string } {
-  // 사용자가 각 언어별 지도를 주면 해당 파일로 연결, 기본은 영어(en) 지도
-  const mapFiles: Partial<Record<Locale, { jpg: string; webp: string }>> = {
+export interface LocalizedMapImage {
+  jpg: string
+  webp: string
+  filename: string
+}
+
+export function getSunsetMapImage(locale: Locale): LocalizedMapImage {
+  const mapFiles: Record<Locale, LocalizedMapImage> = {
+    ko: {
+      jpg: '/map/sunset-town-map-ko.jpg',
+      webp: '/map/sunset-town-map-ko.webp',
+      filename: 'Sunset-Town-Map-KO.jpg',
+    },
     en: {
       jpg: '/map/sunset-town-map-en.jpg',
       webp: '/map/sunset-town-map-en.webp',
+      filename: 'Sunset-Town-Map-EN.jpg',
     },
-    // 향후 ko, vi 등 언어별 지도가 추가되면 여기에 매핑
+    zh: {
+      jpg: '/map/sunset-town-map-zh.jpg',
+      webp: '/map/sunset-town-map-zh.webp',
+      filename: 'Sunset-Town-Map-ZH.jpg',
+    },
+    ja: {
+      jpg: '/map/sunset-town-map-ja.jpg',
+      webp: '/map/sunset-town-map-ja.webp',
+      filename: 'Sunset-Town-Map-JA.jpg',
+    },
+    ru: {
+      jpg: '/map/sunset-town-map-ru.jpg',
+      webp: '/map/sunset-town-map-ru.webp',
+      filename: 'Sunset-Town-Map-RU.jpg',
+    },
+    hi: {
+      jpg: '/map/sunset-town-map-hi.jpg',
+      webp: '/map/sunset-town-map-hi.webp',
+      filename: 'Sunset-Town-Map-HI.jpg',
+    },
+    vi: {
+      jpg: '/map/sunset-town-map-en.jpg',
+      webp: '/map/sunset-town-map-en.webp',
+      filename: 'Sunset-Town-Map-EN.jpg',
+    },
   }
-  return mapFiles[locale] || mapFiles.en || {
-    jpg: '/map/sunset-town-map-en.jpg',
-    webp: '/map/sunset-town-map-en.webp',
-  }
+  return mapFiles[locale] || mapFiles.en
 }
