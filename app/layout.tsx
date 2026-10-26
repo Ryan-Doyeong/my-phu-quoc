@@ -10,8 +10,8 @@ import { normalizeLocale } from '@/lib/i18n/config'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: 'My Phu Quoc',
-  description: 'Your local guide to Sunset Town, Khem Beach and the south of Phu Quoc.',
+  title: 'Hello Sunset Town | Sunset Town at a Glance',
+  description: 'Sunset Town at a Glance — Your local guide to Sunset Town, Khem Beach and southern Phu Quoc.',
 }
 
 export const viewport: Viewport = {

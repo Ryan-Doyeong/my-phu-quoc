@@ -18,8 +18,8 @@ export type SiteSettings = {
 export const defaultSettings: SiteSettings = {
   hero_image_url: '/hero/02_kiss_bridge_aerial_1920.webp',
   hero_topline: 'SUNSET TOWN · KISS BRIDGE · FIREWORKS',
-  hero_title: 'My\nPhu Quoc',
-  hero_subtitle: 'The magic of Sunset Town: Kiss Bridge, nightly fireworks & ocean views.',
+  hero_title: 'Hello\nSunset Town',
+  hero_subtitle: 'Sunset Town at a Glance: Kiss Bridge, nightly fireworks & ocean views.',
   hero_description: 'Your insider guide to Sun Premier Village Primavera, iconic Kiss Bridge, nightly multimedia shows, and southern Phu Quoc.',
   hero_primary_cta: 'Explore Sunset Town',
   hero_secondary_cta: "Tonight's Fireworks",

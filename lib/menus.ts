@@ -11,17 +11,22 @@ export interface MenuItem {
   name_original: string
   name_ko: string | null
   name_en: string | null
+  name_vi?: string | null
   price_vnd: number | null
   price_text: string | null
   grade: MenuGrade
   description_original?: string | null
   description_ko?: string | null
+  description_en?: string | null
   source?: string | null
   verified_date?: string | null
 }
 
 export interface MenuSection {
   title: string
+  title_ko?: string
+  title_en?: string
+  title_vi?: string
   items: MenuItem[]
 }
 
@@ -35,6 +40,7 @@ export interface BusinessMenuData {
   isUnconfirmed: boolean
   sourcesSummary: string
   verifiedDate: string
+  menuImages?: { url: string; label: string }[]
 }
 
 export const GRADE_INFO: Record<
@@ -71,6 +77,20 @@ export const GRADE_INFO: Record<
   },
 }
 
+function splitViEn(text: string): { vi: string; en: string } {
+  if (!text) return { vi: '', en: '' }
+  const trimmed = text.trim()
+  if (trimmed.includes('|')) {
+    const parts = trimmed.split('|')
+    return { vi: parts[0].trim(), en: parts[1].trim() }
+  }
+  const match = trimmed.match(/^(.*?)\s*[\(\（]([A-Za-z0-9\s,&'\-\.\/]+)[\)\）]$/)
+  if (match) {
+    return { vi: match[1].trim(), en: match[2].trim() }
+  }
+  return { vi: trimmed, en: trimmed }
+}
+
 export function loadMenuForPlace(placeId: string | null | undefined): BusinessMenuData | null {
   if (!placeId) return null
 
@@ -94,21 +114,40 @@ export function loadMenuForPlace(placeId: string | null | undefined): BusinessMe
     // 1. Process sections if present
     if (raw.sections && raw.sections.length > 0) {
       for (const sec of raw.sections) {
-        const secTitle =
-          sec.section_ko || sec.section_original || sec.name_ko || sec.name_original || '기타 메뉴'
-        const items: MenuItem[] = (sec.items || []).map((it: any) => ({
-          name_original: it.name_original || it.name_ko || 'Dish',
-          name_ko: it.name_ko || null,
-          name_en: it.name_original || null,
-          price_vnd: it.price_vnd ? Number(it.price_vnd) : null,
-          price_text:
-            it.price_note || (it.price_vnd ? `${Number(it.price_vnd).toLocaleString()} VND` : null),
-          grade,
-          description_original: it.description_original || null,
-          description_ko: it.description_ko || null,
-        }))
+        const secKo = sec.section_ko || sec.name_ko || null
+        const secOrig = sec.section_original || sec.name_original || ''
+        const splitSec = splitViEn(secOrig)
+
+        const title_ko = secKo || secOrig || '기타 메뉴'
+        const title_en = splitSec.en || secOrig || secKo || 'Menu'
+        const title_vi = splitSec.vi || secOrig || 'Thực đơn'
+
+        const items: MenuItem[] = (sec.items || []).map((it: any) => {
+          const orig = it.name_original || it.name_ko || 'Dish'
+          const splitItem = splitViEn(orig)
+          return {
+            name_original: orig,
+            name_ko: it.name_ko || null,
+            name_en: splitItem.en || orig,
+            name_vi: splitItem.vi || orig,
+            price_vnd: it.price_vnd ? Number(it.price_vnd) : null,
+            price_text:
+              it.price_note || (it.price_vnd ? `${Number(it.price_vnd).toLocaleString()} VND` : null),
+            grade,
+            description_original: it.description_original || null,
+            description_ko: it.description_ko || null,
+            description_en: it.description_en || it.description_original || null,
+          }
+        })
+
         if (items.length > 0) {
-          sections.push({ title: secTitle, items })
+          sections.push({
+            title: title_ko,
+            title_ko,
+            title_en,
+            title_vi,
+            items,
+          })
         }
       }
     }
@@ -121,10 +160,13 @@ export function loadMenuForPlace(placeId: string | null | undefined): BusinessMe
           const match = kd.price_approx.replace(/,/g, '').match(/\d+/)
           if (match) vnd = parseInt(match[0], 10)
         }
+        const orig = kd.name_original || kd.name_ko || 'Recommended'
+        const splitItem = splitViEn(orig)
         return {
-          name_original: kd.name_original || kd.name_ko || 'Recommended',
+          name_original: orig,
           name_ko: kd.name_ko || null,
-          name_en: kd.name_original || null,
+          name_en: splitItem.en || orig,
+          name_vi: splitItem.vi || orig,
           price_vnd: vnd,
           price_text: kd.price_approx || null,
           grade,
@@ -132,6 +174,9 @@ export function loadMenuForPlace(placeId: string | null | undefined): BusinessMe
       })
       sections.push({
         title: '대표 추천 메뉴 (Signatures)',
+        title_ko: '대표 추천 메뉴 (시그니처)',
+        title_en: 'Signature Dishes & Recommendations',
+        title_vi: 'Món đặc trưng nổi bật',
         items,
       })
     }
@@ -149,6 +194,7 @@ export function loadMenuForPlace(placeId: string | null | undefined): BusinessMe
       isUnconfirmed,
       sourcesSummary,
       verifiedDate,
+      menuImages: raw.menu_images || undefined,
     }
   } catch (e) {
     return null

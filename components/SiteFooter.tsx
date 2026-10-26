@@ -26,10 +26,9 @@ export function SiteFooter() {
             {categoryLabel(key, locale)}
           </Link>
         ))}
+        <Link href={localePath(locale, '/map')}>🗺️ {locale === 'ko' ? '선셋타운 지도' : 'Town Map'}</Link>
         <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
         <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
-        <Link href={localePath(locale, '/impact')}>{dict.nav.impact}</Link>
-        <Link href={localePath(locale, '/member')}>{dict.nav.member}</Link>
         <Link href={localePath(locale, '/for-businesses')}>{dict.nav.forBusinesses}</Link>
         <Link href={localePath(locale, '/partners')}>{dict.nav.partners}</Link>
       </nav>

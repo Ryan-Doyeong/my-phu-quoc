@@ -10,6 +10,7 @@ import { MobileMenu } from '@/components/MobileMenu'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { SunsetTownTickets } from '@/components/SunsetTownTickets'
 import { SunsetDistrictFilter } from '@/components/SunsetDistrictFilter'
+import { SunsetTownMap } from '@/components/SunsetTownMapClient'
 import {
   DIRECTORY_CATEGORIES,
   DIRECTORY_CATEGORY_KEYS,
@@ -170,6 +171,9 @@ export function HomePage({
         <Logo locale={locale} />
         <nav className="desktopNav">
           <a href="#discover">{dict.nav.discover}</a>
+          <a href="#map" style={{ color: '#C86D2D', fontWeight: 700 }}>
+            🗺️ {locale === 'ko' ? '선셋타운 지도' : 'Town Map'}
+          </a>
           {DIRECTORY_CATEGORY_KEYS.map((key) => (
             <Link href={localePath(locale, `/directory/${key}`)} key={key}>
               {categoryLabel(key, locale)}
@@ -366,6 +370,34 @@ export function HomePage({
         )}
 
         <SunsetDistrictFilter locale={locale} />
+
+        {/* 선셋타운 공식 인터랙티브 지도 & 거리 가이드 섹션 */}
+        <section className="shell sunsetTownMapSection" id="map" style={{ padding: '60px 20px', maxWidth: 1200, margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', marginBottom: 32 }}>
+            <span
+              style={{
+                display: 'inline-block',
+                fontSize: '0.85rem',
+                fontWeight: 700,
+                letterSpacing: '0.1em',
+                color: '#C86D2D',
+                textTransform: 'uppercase',
+                marginBottom: 8,
+              }}
+            >
+              SUN GROUP OFFICIAL MAP
+            </span>
+            <h2 style={{ fontSize: '2rem', fontWeight: 800, color: '#12333B', margin: '0 0 12px' }}>
+              {locale === 'ko' ? '선셋타운 거리 & 12대 랜드마크 지도' : 'Sunset Town Street & Landmark Map'}
+            </h2>
+            <p style={{ fontSize: '1rem', color: '#527982', maxWidth: 640, margin: '0 auto', lineHeight: 1.6 }}>
+              {locale === 'ko'
+                ? '선그룹 공식 지도 타일로 만나는 베니스·소렌토·아말피 주요 거리와 키스브릿지, 75m 시계탑, 케이블카 등 핵심 관광 포인트 안내.'
+                : 'Interactive exploration of Sunset Town with Sun Group official map tiles, featuring main boulevards and top landmarks.'}
+            </p>
+          </div>
+          <SunsetTownMap locale={locale} height="650px" showSidebar={true} />
+        </section>
 
         <SunsetTownTickets locale={locale} />
 

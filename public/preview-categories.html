@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>푸꾸옥 선셋타운 — 카테고리 대표 AI 실사 이미지 프리뷰</title>
+  <style>
+    :root {
+      --bg: #0f141c;
+      --card-bg: #1a2230;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --accent: #f59e0b;
+      --ocean: #0ea5e9;
+      --border: rgba(255, 255, 255, 0.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      padding: 40px 24px 80px;
+      line-height: 1.6;
+    }
+    .header {
+      max-width: 1300px;
+      margin: 0 auto 40px;
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(245, 158, 11, 0.15);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      margin-bottom: 14px;
+      border: 1px solid rgba(245, 158, 11, 0.3);
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 800;
+      margin-bottom: 12px;
+      letter-spacing: -0.02em;
+    }
+    p.lead {
+      color: var(--text-muted);
+      font-size: 16px;
+      max-width: 680px;
+      margin: 0 auto 24px;
+    }
+    .nav-actions {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      margin-top: 16px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+    .btn-primary {
+      background: var(--accent);
+      color: #000;
+    }
+    .btn-primary:hover {
+      background: #d97706;
+      transform: translateY(-1px);
+    }
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.08);
+      color: #fff;
+      border: 1px solid var(--border);
+    }
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.15);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 28px;
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+    .card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+      display: flex;
+      flex-direction: column;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.5);
+      border-color: rgba(245, 158, 11, 0.4);
+    }
+    .img-wrap {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 3 / 2;
+      overflow: hidden;
+      background: #000;
+    }
+    .img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+    .card:hover .img-wrap img {
+      transform: scale(1.05);
+    }
+    .cat-tag {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      background: rgba(0, 0, 0, 0.65);
+      backdrop-filter: blur(8px);
+      color: #fff;
+    }
+    .theme-amber { color: #fbbf24; }
+    .theme-ocean { color: #38bdf8; }
+    .card-body {
+      padding: 22px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .card-eyebrow {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      margin-bottom: 6px;
+      text-transform: uppercase;
+    }
+    .card-title {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .card-desc {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      flex: 1;
+      line-height: 1.55;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: auto;
+    }
+    .tag {
+      font-size: 11px;
+      padding: 3px 8px;
+      background: rgba(255, 255, 255, 0.06);
+      border-radius: 4px;
+      color: #cbd5e1;
+    }
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 14px;
+      margin-top: 14px;
+      border-top: 1px solid var(--border);
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <span class="badge">MY PHU QUOC · SUNSET TOWN</span>
+    <h1>메인화면 카테고리 대표 AI 실사 이미지 프리뷰</h1>
+    <p class="lead">푸꾸옥 선셋타운과 완벽하게 매칭되는 8개 카테고리의 신규 AI 고화질 실사 이미지입니다. (900×600 WebP 최적화 적용)</p>
+    <div class="nav-actions">
+      <a href="http://localhost:3000/#discover" target="_blank" class="btn btn-primary">
+        선셋타운 메인화면 바로가기 →
+      </a>
+      <a href="http://localhost:3000" target="_blank" class="btn btn-secondary">
+        사이트 홈 (localhost:3000)
+      </a>
+    </div>
+  </div>
+
+  <div class="grid">
+    <!-- 1. 맛집 -->
+    <article class="card">
+      <div class="img-wrap">
+        <span class="cat-tag theme-amber">Dining</span>
+        <img src="/categories/dining.webp" alt="맛집 · 식당" />
+      </div>
+      <div class="card-body">
+        <span class="card-eyebrow">SEAFOOD · WORLD CUISINE</span>
+        <h3 class="card-title">맛집 · 식당 (Dining)</h3>
+        <p class="card-desc">선셋타운의 테라스에서 바라보는 바다와 노을 배경, 신선한 베트남 쌀국수(Pho), 직화 타이거 새우 구이, 패션후르츠 열대 음료.</p>
+        <div class="tags">
+          <span class="tag">#해산물</span>
+          <span class="tag">#베트남식</span>
+          <span class="tag">#오션뷰테라스</span>
+          <span class="tag">#쌀국수</span>
+        </div>
+        <div class="card-footer">
+          <span>/categories/dining.webp</span>
+          <span>900×600 px</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- 2. 선셋 바 -->
+    <article class="card">
+      <div class="img-wrap">
+        <span class="cat-tag theme-amber">Bars</span>
+        <img src="/categories/bars.webp" alt="선셋 바" />
+      </div>
+      <div class="card-body">
+        <span class="card-eyebrow">SUNSET VIEWS · ROOFTOP</span>
+        <h3 class="card-title">선셋 바 (Sunset Bars)</h3>
+        <p class="card-desc">황금빛 바다 노을과 키스 브릿지, 파스텔톤 지중해 마을을 배경으로 바 카운터에 놓인 시원하고 세련된 열대 칵테일.</p>
+        <div class="tags">
+          <span class="tag">#노을뷰</span>
+          <span class="tag">#루프탑바</span>
+          <span class="tag">#비치클럽</span>
+          <span class="tag">#칵테일</span>
+        </div>
+        <div class="card-footer">
+          <span>/categories/bars.webp</span>
+          <span>900×600 px</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- 3. 호텔 -->
+    <article class="card">
+      <div class="img-wrap">
+        <span class="cat-tag theme-amber">Hotels</span>
+        <img src="/categories/hotels.webp" alt="호텔 & 리조트" />
+      </div>
+      <div class="card-body">
+        <span class="card-eyebrow">RESORTS · POOL VILLAS</span>
+        <h3 class="card-title">호텔 & 리조트 (Hotels)</h3>
+        <p class="card-desc">파스텔톤 지중해풍 빌라와 에메랄드빛 바다가 펼쳐지는 부티크 리조트 발코니, 야자수가 비치는 투명한 인피니티 풀과 화이트 선베드.</p>
+        <div class="tags">
+          <span class="tag">#리조트</span>
+          <span class="tag">#인피니티풀</span>
+          <span class="tag">#부티크호텔</span>
+          <span class="tag">#풀빌라</span>
+        </div>
+        <div class="card-footer">
+          <span>/categories/hotels.webp</span>
+          <span>900×600 px</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- 4. 쇼핑 -->
+    <article class="card">
+      <div class="img-wrap">
+        <span class="cat-tag theme-amber">Shopping</span>
+        <img src="/categories/shopping.webp" alt="쇼핑" />
+      </div>
+      <div class="card-body">
+        <span class="card-eyebrow">PEARLS · SPECIALTIES</span>
+        <h3 class="card-title">쇼핑 (Shopping)</h3>
+        <p class="card-desc">푸꾸옥 특산 진주 보석 진열대, 푸꾸옥 후추 보틀, 핸드메이드 라탄 기념품이 따뜻한 유럽풍 가로등 조명 아래 빛나는 부티크 거리.</p>
+        <div class="tags">
+          <span class="tag">#푸꾸옥진주</span>
+          <span class="tag">#푸꾸옥후추</span>
+          <span class="tag">#특산품</span>
+          <span class="tag">#야시장</span>
+        </div>
+        <div class="card-footer">
+          <span>/categories/shopping.webp</span>
+          <span>900×600 px</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- 5. 액티비티 -->
+    <article class="card">
+      <div class="img-wrap">
+        <span class="cat-tag theme-ocean">Activities</span>
+        <img src="/categories/activities.webp" alt="액티비티" />
+      </div>
+      <div class="card-body">
+        <span class="card-eyebrow">SHOWS · TOURS · CABLE CAR</span>
+        <h3 class="card-title">액티비티 (Activities)</h3>
+        <p class="card-desc">에메랄드빛 바다를 가르는 쾌속 카타마란 보트와 청명한 푸른 하늘 위를 지나는 썬월드 혼똔섬 최장 해상 케이블카 & 키스 브릿지.</p>
+        <div class="tags">
+          <span class="tag">#해상케이블카</span>
+          <span class="tag">#키스브릿지</span>
+          <span class="tag">#호핑투어</span>
+          <span class="tag">#키스오브더씨</span>
+        </div>
+        <div class="card-footer">
+          <span>/categories/activities.webp</span>
+          <span>900×600 px</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- 6. 해변 -->
+    <article class="card">
+      <div class="img-wrap">
+        <span class="cat-tag theme-ocean">Beach</span>
+        <img src="/categories/beach.webp" alt="해변" />
+      </div>
+      <div class="card-body">
+        <span class="card-eyebrow">BEACHES · SUN LOUNGERS</span>
+        <h3 class="card-title">해변 (Beaches)</h3>
+        <p class="card-desc">푸꾸옥 대표 명소 켐비치(Bai Khem)의 순백 모래사장과 에메랄드빛 잔잔한 바다, 부드러운 야자수 그늘과 파라솔 & 원목 선베드.</p>
+        <div class="tags">
+          <span class="tag">#켐비치</span>
+          <span class="tag">#화이트샌드</span>
+          <span class="tag">#선베드라운지</span>
+          <span class="tag">#야자수</span>
+        </div>
+        <div class="card-footer">
+          <span>/categories/beach.webp</span>
+          <span>900×600 px</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- 7. 스파 & 마사지 -->
+    <article class="card">
+      <div class="img-wrap">
+        <span class="cat-tag theme-ocean">Wellness</span>
+        <img src="/categories/wellness.webp" alt="스파 & 마사지" />
+      </div>
+      <div class="card-body">
+        <span class="card-eyebrow">MASSAGE · SPA · CARE</span>
+        <h3 class="card-title">스파 & 마사지 (Spa)</h3>
+        <p class="card-desc">열대 정원이 보이는 고요한 프라이빗 스파룸, 티크목 베드와 순백 타월, 플루메리아(프랑지파니) 꽃과 아로마 테라피 오일 보틀.</p>
+        <div class="tags">
+          <span class="tag">#마사지</span>
+          <span class="tag">#아로마스파</span>
+          <span class="tag">#선번케어</span>
+          <span class="tag">#릴랙스</span>
+        </div>
+        <div class="card-footer">
+          <span>/categories/wellness.webp</span>
+          <span>900×600 px</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- 8. 여행 편의 -->
+    <article class="card">
+      <div class="img-wrap">
+        <span class="cat-tag theme-ocean">Essentials</span>
+        <img src="/categories/essentials.webp" alt="여행 편의" />
+      </div>
+      <div class="card-body">
+        <span class="card-eyebrow">RENTALS · TAXI · PHARMACY</span>
+        <h3 class="card-title">여행 편의 (Essentials)</h3>
+        <p class="card-desc">지중해풍 돌길과 부겐빌레아 꽃길에 세워진 클래식 빈티지 스쿠터와 환전/약국/렌트 서비스를 제공하는 쾌적한 여행자 편의 숍.</p>
+        <div class="tags">
+          <span class="tag">#스쿠터렌트</span>
+          <span class="tag">#환전소</span>
+          <span class="tag">#약국</span>
+          <span class="tag">#세탁서비스</span>
+        </div>
+        <div class="card-footer">
+          <span>/categories/essentials.webp</span>
+          <span>900×600 px</span>
+        </div>
+      </div>
+    </article>
+  </div>
+</body>
+</html>

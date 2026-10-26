@@ -27,10 +27,10 @@ export async function generateDirectoryMetadata(
   const description = categoryDescription(category, locale)
   const title =
     locale === 'vi'
-      ? `${label} tại Phú Quốc | My Phu Quoc`
+      ? `${label} tại Sunset Town | Hello Sunset Town`
       : locale === 'ko'
-      ? `푸꾸옥 ${label} | My Phu Quoc`
-      : `${label} in Phu Quoc | My Phu Quoc`
+      ? `선셋타운 ${label} | 헬로 선셋타운`
+      : `${label} in Sunset Town | Hello Sunset Town`
   const barePath = `/directory/${category}`
   const canonicalUrl = localeUrl(locale, barePath)
   const alternates = buildAlternates(barePath)

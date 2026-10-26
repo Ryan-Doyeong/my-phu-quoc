@@ -70,7 +70,6 @@ export async function renderNewsListRoute(locale: Locale = 'en') {
             <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
             <Link href={localePath(locale, '/news')}>{dict.nav.newsAndBlog}</Link>
             <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
-            <Link href={localePath(locale, '/impact')}>{dict.nav.impact}</Link>
             <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
           </nav>
           <LanguageSwitcher locale={locale} variant="light" />
@@ -133,7 +132,7 @@ export async function generateArticleMetadata(
     .maybeSingle()
 
   const raw = dbRaw || getSampleEventBySlug(slug)
-  if (!raw) return { title: 'My Phu Quoc' }
+  if (!raw) return { title: 'Hello Sunset Town' }
 
   const x = localizeStory(raw, locale)
   const barePath = `${x.content_type === 'event' ? '/events' : '/news'}/${slug}`
@@ -157,7 +156,7 @@ export async function generateArticleMetadata(
     : undefined
 
   return {
-    title: x.seo_title || `${x.title} | My Phu Quoc`,
+    title: x.seo_title || `${x.title} | Hello Sunset Town`,
     description: x.seo_description || x.excerpt || undefined,
     robots: isSample
       ? {
@@ -226,8 +225,8 @@ export async function renderArticleRoute(
     '@type': 'Article',
     headline: x.title,
     inLanguage: isUntranslatedFallback ? 'en' : locale,
-    author: { '@type': 'Organization', name: 'My Phu Quoc' },
-    publisher: { '@type': 'Organization', name: 'My Phu Quoc' },
+    author: { '@type': 'Organization', name: 'Hello Sunset Town' },
+    publisher: { '@type': 'Organization', name: 'Hello Sunset Town' },
     mainEntityOfPage: articleUrl,
   }
   if (x.seo_description || x.excerpt) articleLd.description = x.seo_description || x.excerpt
@@ -260,7 +259,7 @@ export async function renderArticleRoute(
         },
         organizer: {
           '@type': 'Organization',
-          name: 'My Phu Quoc',
+          name: 'Hello Sunset Town',
           url: baseUrl,
         },
       }
@@ -307,7 +306,6 @@ export async function renderArticleRoute(
             <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
             <Link href={localePath(locale, '/news')}>{dict.nav.newsAndBlog}</Link>
             <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
-            <Link href={localePath(locale, '/impact')}>{dict.nav.impact}</Link>
             <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
           </nav>
           <LanguageSwitcher locale={locale} variant="light" />
@@ -522,7 +520,7 @@ export async function generateEventsMetadata(locale: Locale = 'en'): Promise<Met
   const barePath = '/events'
   const canonicalUrl = localeUrl(locale, barePath)
   const alternates = buildAlternates(barePath)
-  const title = `${dict.news.eventsTitle} | My Phu Quoc`
+  const title = `${dict.news.eventsTitle} | Hello Sunset Town`
   return {
     title,
     description: dict.news.eventsLead,
@@ -571,7 +569,6 @@ export async function renderEventsRoute(locale: Locale = 'en') {
             <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
             <Link href={localePath(locale, '/news')}>{dict.nav.newsAndBlog}</Link>
             <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
-            <Link href={localePath(locale, '/impact')}>{dict.nav.impact}</Link>
             <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
           </nav>
           <LanguageSwitcher locale={locale} variant="light" />

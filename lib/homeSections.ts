@@ -55,21 +55,21 @@ export const DEFAULT_HOME_SECTIONS: HomeSections = {
     description: 'Useful information for residents, neighborhood stories and foreign-resident updates.'
   },
   newsletter: {
-    visible: true,
-    title: 'Join the English email magazine.',
-    description: 'A concise English update with local news, useful businesses, events and community stories.'
+    visible: false,
+    title: 'Phu Quoc Sunset Town Magazine',
+    description: 'Travel updates and new openings in Sunset Town.'
   },
   participation: {
-    visible: true,
+    visible: false,
     suggestionTitle: 'Community Suggestions',
     suggestionDescription: 'Have an idea, feedback or recommendation? Help shape the platform around real local needs.',
-    volunteerTitle: 'Volunteer With Us',
-    volunteerDescription: 'Help with content, translation, operations or hands-on community service.'
+    volunteerTitle: 'Volunteer',
+    volunteerDescription: ''
   },
   closing: {
     visible: true,
-    title: 'A healthier, happier,\nmore connected Phu Quoc.',
-    description: 'LIVE WELL. GROW TOGETHER. FEEL AT HOME.'
+    title: 'The most breathtaking sunset\nand unforgettable Phu Quoc nights.',
+    description: 'SUNSET TOWN PHU QUOC · TRAVEL & DISTRICT GUIDE'
   },
   eventPromo: {
     visible: true

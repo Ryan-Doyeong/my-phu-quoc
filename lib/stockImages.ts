@@ -1,49 +1,46 @@
-// lib/stockImages.ts - Claude 7차 지시서: public/stock 대체용 Sunset Town 실제 사진 매핑
+// lib/stockImages.ts - Phu Quoc Sunset Town 카테고리별 대표 실사 이미지 매핑
 export const STOCK_IMAGES = {
-  wellness: '/features/hotel_featured_1280.webp',
-  workout: '/features/activities_featured_1280.webp',
-  food: '/features/dining_featured_1280.webp',
-  cafe: '/features/dining_featured_1280.webp',
-  hobby: '/features/activities_featured_1280.webp',
-  hotel: '/features/hotel_featured_1280.webp',
+  wellness: '/categories/wellness.webp',
+  workout: '/categories/activities.webp',
+  food: '/categories/dining.webp',
+  cafe: '/categories/bars.webp',
+  hobby: '/categories/shopping.webp',
+  hotel: '/categories/hotels.webp',
+  beach: '/categories/beach.webp',
+  essentials: '/categories/essentials.webp',
 
-  massage: '/features/hotel_featured_1280.webp',
-  spa: '/features/hotel_featured_1280.webp',
-  recovery: '/features/hotel_featured_1280.webp',
-  clinic: '/features/hotel_featured_1280.webp',
+  massage: '/categories/wellness.webp',
+  spa: '/categories/wellness.webp',
+  recovery: '/categories/wellness.webp',
+  clinic: '/categories/wellness.webp',
 
-  gym: '/features/activities_featured_1280.webp',
-  yoga: '/features/activities_featured_1280.webp',
-  pilates: '/features/activities_featured_1280.webp',
+  gym: '/categories/activities.webp',
+  yoga: '/categories/activities.webp',
+  pilates: '/categories/activities.webp',
 
-  restaurant: '/features/dining_featured_1280.webp',
-  korean: '/features/dining_featured_1280.webp',
-  japanese: '/features/dining_featured_1280.webp',
-  italian: '/features/dining_featured_1280.webp',
-  healthy: '/features/dining_featured_1280.webp',
+  restaurant: '/categories/dining.webp',
+  korean: '/categories/dining.webp',
+  japanese: '/categories/dining.webp',
+  italian: '/categories/dining.webp',
+  healthy: '/categories/dining.webp',
 
-  brunch: '/features/dining_featured_1280.webp',
-  bakery: '/features/dining_featured_1280.webp',
-  tennis: '/features/activities_featured_1280.webp',
+  brunch: '/categories/dining.webp',
+  bakery: '/categories/dining.webp',
+  tennis: '/categories/activities.webp',
 
   hero: '/hero/02_kiss_bridge_aerial_1920.webp',
   closing: '/features/general_sightseeing_1280.webp',
 } as const
 
 export function stockGalleryFor(category: string, subcategory: string | null, tags: string[] | null = []) {
-  const t = [subcategory || '', ...(tags || [])].join(' ').toLowerCase()
-  if (category === 'bars') return [STOCK_IMAGES.cafe]
-  if (category === 'dining') {
-    return [STOCK_IMAGES.restaurant]
-  }
-  if (category === 'hotels') return [STOCK_IMAGES.hotel]
-  if (category === 'activities') return [STOCK_IMAGES.workout]
-  if (category === 'beach') return [STOCK_IMAGES.hero]
-  if (category === 'wellness') {
-    return [STOCK_IMAGES.spa]
-  }
-  if (category === 'shopping') return [STOCK_IMAGES.hobby]
-  if (category === 'essentials') return [STOCK_IMAGES.closing]
+  if (category === 'bars') return ['/categories/bars.webp']
+  if (category === 'dining') return ['/categories/dining.webp']
+  if (category === 'hotels') return ['/categories/hotels.webp']
+  if (category === 'activities') return ['/categories/activities.webp']
+  if (category === 'beach') return ['/categories/beach.webp']
+  if (category === 'wellness') return ['/categories/wellness.webp']
+  if (category === 'shopping') return ['/categories/shopping.webp']
+  if (category === 'essentials') return ['/categories/essentials.webp']
   return [STOCK_IMAGES.hero]
 }
 

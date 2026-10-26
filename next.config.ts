@@ -7,9 +7,14 @@ const nextConfig: NextConfig = {
     },
   },
   async redirects() {
-    // My Phu Quoc: Phu Quoc-only redirects (goodlifethaodien.online host, old Phu Quoc story slugs) removed in Phase 0.
-    // Add the www → apex redirect here once the My Phu Quoc domain is decided.
-    return []
+    return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.myphuquoc.net' }],
+        destination: 'https://myphuquoc.net/:path*',
+        permanent: true,
+      },
+    ]
   },
 }
 export default nextConfig

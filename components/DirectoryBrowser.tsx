@@ -49,7 +49,7 @@ type Business = {
   [key: string]: any
 }
 
-type LabelFilter = 'All' | 'Recommended' | 'New' | 'HOT' | 'My Phu Quoc member'
+type LabelFilter = 'All' | 'Recommended' | 'New' | 'HOT'
 
 function imageFor(b: Business) {
   return stockPrimaryFor(b.category, b.subcategory, b.tags)
@@ -135,11 +135,6 @@ function BusinessCard({ b, locale }: { b: Business; locale: Locale }) {
               !(b.badges || []).some((x) => x.toLowerCase().includes('nearby')) && (
                 <span className="businessBadge badgenearby">{nearbyText}</span>
               )}
-            {b.is_good_life_member && (
-              <span className="businessBadge badgegoodlifemember">
-                {translateBadge('My Phu Quoc member', locale)}
-              </span>
-            )}
           </div>
         </div>
         <div className="compactBusinessBody">
@@ -257,7 +252,7 @@ export function DirectoryBrowser({
   const catLabel = categoryLabel(category, activeLocale)
   const catEyebrow = categoryEyebrow(category, activeLocale)
   const filters = ['All', ...config.subcategories]
-  const labels: LabelFilter[] = ['All', 'Recommended', 'New', 'HOT', 'My Phu Quoc member']
+  const labels: LabelFilter[] = ['All', 'Recommended', 'New', 'HOT']
 
   const filtered = useMemo(
     () =>
@@ -275,7 +270,6 @@ export function DirectoryBrowser({
             ...(b.tags || []).map((t) => translateTerm(t, activeLocale)),
             ...(b.badges || []),
             nearbyBadgeText(b.address, b.tags, b.badges, activeLocale) || '',
-            b.is_good_life_member ? 'good life phu quoc member' : '',
           ]
             .filter(Boolean)
             .join(' ')
@@ -287,13 +281,7 @@ export function DirectoryBrowser({
             !(b.tags || []).some((x) => x.toLowerCase() === filter.toLowerCase())
           )
             return false
-          if (labelFilter === 'My Phu Quoc member' && !b.is_good_life_member) return false
-          if (
-            labelFilter !== 'All' &&
-            labelFilter !== 'My Phu Quoc member' &&
-            !(b.badges || []).includes(labelFilter)
-          )
-            return false
+          if (labelFilter !== 'All' && !(b.badges || []).includes(labelFilter)) return false
           if (zoneFilter !== 'all' && detectSunsetZone(b) !== zoneFilter) return false
           if (priceFilter !== 'All' && b.price_level && b.price_level !== priceFilter) return false
           return true
@@ -417,10 +405,7 @@ export function DirectoryBrowser({
           <span className="eyebrow">{catEyebrow}</span>
           <h2>{dict.directory.placesCount(filtered.length)}</h2>
         </div>
-        <p>
-          {dict.directory.summaryText}{' '}
-          <Link href={localePath(activeLocale, '/member')}>{dict.directory.memberBadgeLink}</Link>
-        </p>
+        <p>{dict.directory.summaryText}</p>
       </div>
       <div className="directoryGroups">
         {featuredBuckets.map((bucket) => (

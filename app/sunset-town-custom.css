@@ -367,3 +367,647 @@
 .mapDirectLink:hover {
   color: #C86D2D;
 }
+
+/* ========================================================
+ * 4. Good Life Style: Practical Information Card
+ * ======================================================== */
+.practicalInfoCard {
+  background: #fdfdf8 !important;
+  border: 1px solid #e4e4d8 !important;
+  border-radius: 22px !important;
+  padding: 24px !important;
+  box-shadow: 0 8px 30px rgba(47, 74, 58, 0.06) !important;
+}
+
+.practicalInfoCard h3 {
+  color: #2f4a3a;
+  letter-spacing: -0.01em;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 16px;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+}
+
+.practicalInfoList {
+  flex-direction: column;
+  display: flex;
+}
+
+.practicalInfoRow {
+  border-bottom: 1px solid #e4e4d8;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 0;
+  display: flex;
+}
+
+.practicalInfoRow:first-child {
+  padding-top: 0;
+}
+
+.practicalInfoRow:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.practicalInfoIcon {
+  background: #e6eee7;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  min-width: 36px;
+  height: 36px;
+  margin-top: 2px;
+  font-size: 16px;
+  display: flex;
+}
+
+.practicalInfoBody {
+  flex: 1;
+  min-width: 0;
+}
+
+.practicalInfoLabel {
+  color: #6b786f;
+  margin-bottom: 2px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.3;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.practicalInfoValue {
+  color: #223128;
+  word-break: break-word;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.practicalInfoValue a {
+  color: #223128;
+  text-decoration: none;
+}
+
+.practicalInfoValue a:hover {
+  text-decoration: underline;
+  color: #0B7A8A;
+}
+
+.practicalMapBtn {
+  box-sizing: border-box;
+  background: #55705a;
+  border-radius: 999px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  margin-top: 16px;
+  padding: 13px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: opacity 0.15s, background-color 0.2s;
+  display: flex;
+  box-shadow: 0 4px 14px rgba(47, 74, 58, 0.16);
+  color: #fff !important;
+}
+
+.practicalMapBtn:hover {
+  opacity: 0.92;
+  background: #475e4c;
+}
+
+.practicalVerification {
+  color: #6b786f;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 14px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.practicalClaimBox {
+  text-align: center;
+  border-top: 1px solid #e4e4d8;
+  margin-top: 0;
+  padding-top: 14px;
+}
+
+.practicalClaimBox p {
+  color: #6b786f;
+  margin: 0 0 8px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.practicalClaimBox a {
+  color: #55705a;
+  text-underline-offset: 3px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: underline;
+  display: inline-flex;
+}
+
+.practicalClaimBox a:hover {
+  color: #2f4a3a;
+}
+
+/* ========================================================
+ * 5. Good Life Style: Business Menu & Prices Card
+ * ======================================================== */
+.businessMenuCard,
+.foodGuideCard {
+  margin-top: 22px;
+}
+
+.businessMenuCard h2,
+.foodGuideCard h2 {
+  margin-top: 6px;
+  font-family: Georgia, serif;
+  font-size: 28px;
+  letter-spacing: -0.02em;
+  color: #1a251e;
+}
+
+.menuGroup {
+  margin-top: 24px;
+}
+
+.menuGroup h3 {
+  border-bottom: 2px solid var(--ink, #1f2937);
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 10px;
+  padding-bottom: 8px;
+  font-size: 19px;
+  display: flex;
+}
+
+.menuBadge {
+  letter-spacing: 0.06em;
+  color: #fff;
+  vertical-align: 2px;
+  background: #c0322b;
+  border-radius: 999px;
+  padding: 3px 8px;
+  font-size: 10px;
+  font-weight: 800;
+  display: inline-block;
+}
+
+.menuBadge.best {
+  margin-right: 7px;
+  background: #0B7A8A;
+}
+
+.menuBadge.gradeA {
+  background: #0B7A8A;
+}
+
+.menuBadge.gradeB {
+  background: #C86D2D;
+}
+
+.menuBadge.gradeC {
+  background: #8A6D3B;
+}
+
+.menuBadge.gradeD {
+  background: #718096;
+}
+
+.menuItems {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menuItem {
+  border-bottom: 1px solid var(--line, #e5e7eb);
+  padding: 16px 0;
+}
+
+.menuItem:last-child {
+  border-bottom: 0;
+}
+
+.menuItemHead {
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  display: flex;
+}
+
+.menuItemName strong {
+  font-size: 17px;
+  line-height: 1.35;
+  color: #111827;
+  display: block;
+}
+
+.menuItemAlt {
+  color: var(--muted, #6b7280);
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  margin-top: 4px;
+  font-size: 13px;
+  display: flex;
+}
+
+.menuPortion {
+  color: #49604d;
+  background: #edf2e9;
+  border-radius: 999px;
+  margin-top: 6px;
+  padding: 3px 9px;
+  font-size: 12px;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.menuPrice {
+  white-space: nowrap;
+  color: #b8312a;
+  font-size: 18px;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.menuPrice small {
+  font-size: 11px;
+  color: inherit;
+  font-weight: 600;
+}
+
+.menuDesc {
+  color: #4f5b53;
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.menuDesc > div {
+  margin-bottom: 3px;
+}
+
+.menuNote {
+  color: var(--muted, #6b7280);
+  margin: 14px 0 0;
+  font-size: 12.5px;
+}
+
+.menuFiles {
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line, #e5e7eb);
+}
+
+.menuFiles h3 {
+  margin: 0 0 14px;
+  font-size: 19px;
+}
+
+.menuFileGrid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  display: grid;
+}
+
+.menuFile {
+  border: 1px solid var(--line, #e5e7eb);
+  background: #fbfaf6;
+  border-radius: 14px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.menuFile:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.menuFile img {
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  height: 280px;
+  display: block;
+}
+
+.menuFile span {
+  color: #fff;
+  background: rgba(24, 37, 28, 0.82);
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: 11px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  backdrop-filter: blur(4px);
+}
+
+/* ========================================================
+ * 6. Good Life Style: Food Guide Card (Get to know the food)
+ * ======================================================== */
+.foodGuideIntro {
+  color: var(--muted, #6b7280);
+  margin: 0 0 14px;
+  font-size: 14px;
+}
+
+.foodGuideToc {
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+  display: flex;
+}
+
+.foodGuideToc a {
+  white-space: nowrap;
+  border: 1px solid var(--line, #e5e7eb);
+  background: #fff;
+  color: #2f4a3a;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.foodGuideToc a:hover {
+  background: #0B7A8A;
+  border-color: #0B7A8A;
+  color: #fff;
+}
+
+.foodGuideSection {
+  border-top: 1px solid var(--line, #e5e7eb);
+  margin-top: 24px;
+  padding-top: 22px;
+  scroll-margin-top: 100px;
+}
+
+.foodGuideSection > h3 {
+  margin: 0 0 14px;
+  font-family: Georgia, serif;
+  font-size: 24px;
+  color: #1e2d24;
+}
+
+.foodGuideLang {
+  border: 1px solid var(--line, #e5e7eb);
+  background: #fbfaf6;
+  border-radius: 14px;
+  margin-top: 12px;
+  padding: 16px 18px;
+}
+
+.foodGuideLang.lang-ko {
+  background: #f4f0e8;
+  border-color: #e1d8c8;
+}
+
+.foodGuideLangLabel {
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #0B7A8A;
+  margin-bottom: 6px;
+  font-size: 11px;
+  font-weight: 800;
+  display: inline-block;
+}
+
+.foodGuideLang p {
+  margin: 6px 0;
+  font-size: 15px;
+  line-height: 1.75;
+  color: #2c3830;
+}
+
+.foodGuideLang h5 {
+  color: var(--ink, #111827);
+  margin: 14px 0 6px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.guideList {
+  color: #445149;
+  gap: 8px;
+  margin: 6px 0;
+  padding-left: 20px;
+  font-size: 15px;
+  line-height: 1.7;
+  display: grid;
+}
+
+@media (max-width: 760px) {
+  .menuFileGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .menuFile img {
+    height: 200px;
+  }
+  .menuItemHead {
+    flex-direction: column;
+    gap: 6px;
+  }
+  .foodGuideSection > h3 {
+    font-size: 20px;
+  }
+  .foodGuideLang {
+    padding: 12px;
+  }
+}
+
+/* ========================================================
+ * 7. Good Life Style: Google Reviews Analysis (Pros & Cons)
+ * ======================================================== */
+.reviewAnalysisCard {
+  margin-top: 22px;
+}
+
+.reviewAnalysisCard h2 {
+  font-family: Georgia, serif;
+  font-size: 26px;
+  margin: 6px 0 10px;
+  color: #1a251e;
+}
+
+.reviewScoreBar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.reviewRatingPill {
+  background: #0B7A8A;
+  color: #fff;
+  font-weight: 800;
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.reviewCountPill {
+  background: #edf2e9;
+  color: #2f4a3a;
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.reviewAnalysisDesc {
+  font-size: 14.5px;
+  color: #445149;
+  line-height: 1.6;
+  margin: 0 0 16px;
+}
+
+.reviewTopicsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.reviewTopicTag {
+  background: #f4f6f4;
+  border: 1px solid #dbe2dc;
+  color: #314436;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 11px;
+  border-radius: 999px;
+}
+
+.reviewColsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.reviewProsBox {
+  background: #f4f8f5;
+  border: 1px solid #cfe2d4;
+  border-radius: 16px;
+  padding: 18px 20px;
+}
+
+.reviewProsBox h3 {
+  color: #245735;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.reviewConsBox {
+  background: #fef8ee;
+  border: 1px solid #f2ddbe;
+  border-radius: 16px;
+  padding: 18px 20px;
+}
+
+.reviewConsBox h3 {
+  color: #925310;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.reviewPointsList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reviewPointsList li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: #334036;
+}
+
+.reviewPointsList li b {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 900;
+  flex-shrink: 0;
+}
+
+.reviewProsBox .reviewPointsList li b {
+  color: #2e7d48;
+}
+
+.reviewConsBox .reviewPointsList li b {
+  color: #c86d2d;
+}
+
+.reviewFooterAction {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line, #e5e7eb);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.reviewFooterAction small {
+  color: var(--muted, #6b7280);
+  font-size: 12px;
+}
+
+.reviewFooterAction a {
+  color: #0B7A8A;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.reviewFooterAction a:hover {
+  text-decoration: underline;
+  color: #C86D2D;
+}
+
+@media (max-width: 760px) {
+  .reviewColsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+

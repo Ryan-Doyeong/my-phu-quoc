@@ -7,11 +7,18 @@ import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { SocialIcons } from '@/components/SocialIcons'
 import { BusinessReviews, BusinessInstagram } from '@/components/BusinessEnrichment'
 import { BusinessMenuSection } from '@/components/BusinessMenuSection'
+import { PracticalInfoCard } from '@/components/PracticalInfoCard'
+import { FoodGuideSection } from '@/components/FoodGuideSection'
+import { CategoryKnowledgeSection } from '@/components/CategoryKnowledgeSection'
+import { GoogleReviewAnalysisCard } from '@/components/GoogleReviewAnalysisCard'
+import { getFoodGuideForBusiness } from '@/lib/foodKnowledge'
+import { getKnowledgeGuideForBusiness } from '@/lib/categoryKnowledge'
+import { analyzeGoogleReviews } from '@/lib/googleReviewAnalyzer'
 import { BusinessCover } from '@/components/BusinessCover'
 import { getCoverPhoto } from '@/lib/coverPhotos'
 import { loadMenuForPlace } from '@/lib/menus'
 import businessesRegistry from '@/data/businesses-registry.json'
-import { categoryLabel, nearbyBadgeText } from '@/lib/directory'
+import { categoryLabel, nearbyBadgeText, formatLocalizedAddress } from '@/lib/directory'
 import { stockGalleryFor } from '@/lib/stockImages'
 import { imageUrl } from '@/lib/imageUrl'
 import {
@@ -63,7 +70,7 @@ export async function generateBusinessMetadata(
   const rawDesc = selectBusinessDescription(b, locale)
   const description = rawDesc
     ? rawDesc.slice(0, 150) + (rawDesc.length > 150 ? '...' : '')
-    : `${categoryLabel(b.category, locale)} - ${b.address || 'Phu Quoc'}`
+    : `${categoryLabel(b.category, locale)} - ${formatLocalizedAddress(b.address, locale) || 'Phu Quoc'}`
 
   const coverPhoto = getCoverPhoto(slug)
   const ogImage = coverPhoto
@@ -76,14 +83,14 @@ export async function generateBusinessMetadata(
   const alternates = buildAlternates(barePath)
 
   return {
-    title: `${b.public_name} | My Phu Quoc`,
+    title: `${b.public_name} | Hello Sunset Town`,
     description,
     alternates: {
       canonical: canonicalUrl,
       languages: alternates.languages,
     },
     openGraph: {
-      title: `${b.public_name} | My Phu Quoc`,
+      title: `${b.public_name} | Hello Sunset Town`,
       description,
       url: canonicalUrl,
       locale: ogLocaleFor(locale),
@@ -142,6 +149,17 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
     : null
   const googlePlaceId = b.google_place_id || (placeIdMatch ? placeIdMatch[1] : null)
   const menuData = loadMenuForPlace(googlePlaceId)
+
+  const isDiningOrFood =
+    b.category === 'dining' ||
+    b.category === 'food' ||
+    b.category === 'cafe' ||
+    b.category === 'bars' ||
+    Boolean(menuData)
+
+  const foodGuide = isDiningOrFood ? getFoodGuideForBusiness(b, menuData) : null
+  const categoryGuide = !isDiningOrFood ? getKnowledgeGuideForBusiness(b, menuData) : null
+  const reviewAnalysis = analyzeGoogleReviews(b, locale)
 
   const jsonLd: any = {
     '@context': 'https://schema.org',
@@ -315,14 +333,6 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                 !(b.badges || []).some((x: string) => x.toLowerCase().includes('nearby')) && (
                   <span className="businessBadge badgenearby">{nearbyText}</span>
                 )}
-              {b.is_good_life_member && (
-                <Link
-                  href={localePath(locale, '/member')}
-                  className="businessBadge badgegoodlifemember"
-                >
-                  {translateBadge('My Phu Quoc member', locale)}
-                </Link>
-              )}
             </div>
             {(() => {
               const { primary, secondary } = splitBusinessTitle(b.public_name)
@@ -346,7 +356,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                   ) : null}
                 </>
               ) : null}
-              <span>{b.address}</span>
+              <span>{formatLocalizedAddress(b.address, locale)}</span>
             </div>
             <div className="tagList businessTags">
               {(b.tags || []).map((x: string) => (
@@ -368,201 +378,123 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
             <span>{dict.business.photoNoteDesc}</span>
           </div>
         )}
-        {b.is_good_life_member && (
-          <div className="memberDisclosure">
-            <div>
-              <strong>{dict.business.memberTitle}</strong>
-              <p>{b.good_life_member_note || dict.business.memberDefaultNote}</p>
-            </div>
-            <Link href={localePath(locale, '/member')}>{dict.business.memberLink}</Link>
-          </div>
-        )}
         <div className="businessColumns">
-          <article className="detailCard">
-            <h2>{dict.business.aboutPlace}</h2>
-            <p className="detailLead">{localizedDescription}</p>
-            {(b.category === 'dining' || b.category === 'bars' || menuData) && (
-              <BusinessMenuSection menuData={menuData} locale={locale} />
-            )}
-            {Array.isArray(b.highlights) && b.highlights.length > 0 && (
-              <>
-                <h3>{dict.business.whyConsider}</h3>
-                <ul className="featureList">
-                  {b.highlights.map((x: string) => (
-                    <li key={x}>{translateTerm(x, locale)}</li>
-                  ))}
-                </ul>
-              </>
-            )}
-            {Array.isArray(b.services) && b.services.length > 0 && (
-              <>
-                <h3>
-                  {b.category === 'food' || b.category === 'cafe'
-                    ? dict.business.menuExperience
-                    : b.category === 'workout'
-                    ? dict.business.trainingClasses
-                    : dict.business.servicesExperience}
-                </h3>
-                <div className="tagList">
-                  {b.services.map((x: string) => (
-                    <span key={x}>{translateTerm(x, locale)}</span>
-                  ))}
-                </div>
-              </>
-            )}
-            {b.editor_note && (
-              <section className="editorsNote">
-                <span className="eyebrow">{dict.business.editorsNoteEyebrow}</span>
-                <h3>{dict.business.fromOurVisit}</h3>
-                <p>{b.editor_note}</p>
-                <small>
-                  {b.editor_name || dict.business.editorDefaultName}
-                  {b.editor_visited_at
-                    ? ` · ${dict.business.visitedPrefix} ${new Date(
-                        `${b.editor_visited_at}T00:00:00`
-                      ).toLocaleDateString(dateLocaleFor(locale), {
-                        year: 'numeric',
-                        month: 'short',
-                        day: 'numeric',
-                      })}`
-                    : ''}
-                </small>
-              </section>
-            )}
-            {b.amenities &&
-              typeof b.amenities === 'object' &&
-              Object.keys(b.amenities).length > 0 && (
+          <div className="businessMainContent" style={{ minWidth: 0, flex: 1, display: 'flex', flexDirection: 'column', gap: '22px' }}>
+            {/* 1. About this place */}
+            <article className="detailCard">
+              <h2>{dict.business.aboutPlace}</h2>
+              <p className="detailLead">{localizedDescription}</p>
+              {Array.isArray(b.highlights) && b.highlights.length > 0 && (
                 <>
-                  <h3>{dict.business.amenities}</h3>
-                  <div className="amenityGrid">
-                    {Object.entries(b.amenities).map(([k, v]) => (
-                      <div key={k}>
-                        <strong>{translateTerm(k.replaceAll('_', ' '), locale)}</strong>
-                        <span>{translateTerm(String(v), locale)}</span>
-                      </div>
+                  <h3>{dict.business.whyConsider}</h3>
+                  <ul className="featureList">
+                    {b.highlights.map((x: string) => (
+                      <li key={x}>{translateTerm(x, locale)}</li>
+                    ))}
+                  </ul>
+                </>
+              )}
+              {Array.isArray(b.services) && b.services.length > 0 && (
+                <>
+                  <h3>
+                    {b.category === 'food' || b.category === 'cafe' || b.category === 'dining'
+                      ? dict.business.menuExperience
+                      : b.category === 'workout'
+                      ? dict.business.trainingClasses
+                      : dict.business.servicesExperience}
+                  </h3>
+                  <div className="tagList">
+                    {b.services.map((x: string) => (
+                      <span key={x}>{translateTerm(x, locale)}</span>
                     ))}
                   </div>
                 </>
               )}
+              {b.editor_note && (
+                <section className="editorsNote">
+                  <span className="eyebrow">{dict.business.editorsNoteEyebrow}</span>
+                  <h3>{dict.business.fromOurVisit}</h3>
+                  <p>{b.editor_note}</p>
+                  <small>
+                    {b.editor_name || dict.business.editorDefaultName}
+                    {b.editor_visited_at
+                      ? ` · ${dict.business.visitedPrefix} ${new Date(
+                          `${b.editor_visited_at}T00:00:00`
+                        ).toLocaleDateString(dateLocaleFor(locale), {
+                          year: 'numeric',
+                          month: 'short',
+                          day: 'numeric',
+                        })}`
+                      : ''}
+                  </small>
+                </section>
+              )}
+              {b.amenities &&
+                typeof b.amenities === 'object' &&
+                Object.keys(b.amenities).length > 0 && (
+                  <>
+                    <h3>{dict.business.amenities}</h3>
+                    <div className="amenityGrid">
+                      {Object.entries(b.amenities).map(([k, v]) => (
+                        <div key={k}>
+                          <strong>{translateTerm(k.replaceAll('_', ' '), locale)}</strong>
+                          <span>{translateTerm(String(v), locale)}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </>
+                )}
+            </article>
+
+            {/* 2. Menu & Prices (Good Life style standalone card) */}
+            {isDiningOrFood && (
+              <BusinessMenuSection
+                menuData={menuData}
+                locale={locale}
+                menuImages={menuData?.menuImages}
+              />
+            )}
+
+            {/* 3. Knowledge & Culture Guide (Good Life style cultural knowledge guide) */}
+            {foodGuide && (
+              <FoodGuideSection
+                eyebrow={foodGuide.eyebrow}
+                introText={foodGuide.introText}
+                sections={foodGuide.sections}
+                locale={locale}
+              />
+            )}
+            {categoryGuide && (
+              <CategoryKnowledgeSection
+                eyebrow={categoryGuide.eyebrow}
+                title={categoryGuide.title}
+                introText={categoryGuide.introText}
+                sections={categoryGuide.sections}
+                locale={locale}
+              />
+            )}
+
+            {/* 4. Google Reviews Analysis: Pros & Cons (구글맵 리뷰 분석 장단점 시각화) */}
+            {reviewAnalysis && (
+              <GoogleReviewAnalysisCard
+                analysis={reviewAnalysis}
+                businessName={b.public_name}
+                googleMapsUrl={b.google_maps_url}
+                locale={locale}
+              />
+            )}
+
+            {/* 5. Reviews & Community */}
             <BusinessReviews b={b} locale={locale} />
-          </article>
-          <aside className="detailCard stickyInfo">
-            <h3>{dict.business.practicalInfo}</h3>
-            <dl>
-              {b.subcategory && (
-                <>
-                  <dt>{dict.business.businessType}</dt>
-                  <dd>{translateTerm(b.subcategory, locale)}</dd>
-                </>
-              )}
-              {nearbyText && (
-                <>
-                  <dt>{dict.business.area}</dt>
-                  <dd>{nearbyText}</dd>
-                </>
-              )}
-              {b.address && (
-                <>
-                  <dt>{dict.business.address}</dt>
-                  <dd>{b.address}</dd>
-                </>
-              )}
-              {b.phone && (
-                <>
-                  <dt>{dict.business.phone}</dt>
-                  <dd>{b.phone}</dd>
-                </>
-              )}
-              {b.price_level && (
-                <>
-                  <dt>{dict.business.price}</dt>
-                  <dd>{b.price_level}</dd>
-                </>
-              )}
-              {hours && (
-                <>
-                  <dt>{dict.business.hours}</dt>
-                  <dd>
-                    {hours.map(([d, h]) => (
-                      <div key={d}>
-                        {String(d).toLowerCase() === 'raw' ? (
-                          String(h)
-                        ) : (
-                          <>
-                            <strong>{translateTerm(d, locale)}</strong> {String(h)}
-                          </>
-                        )}
-                      </div>
-                    ))}
-                  </dd>
-                </>
-              )}
-            </dl>
-            <div className="sourceDisclosure">
-              <small>
-                {b.listing_checked_at || b.last_verified_at || b.updated_at
-                  ? `${dict.business.detailsUpdatedPrefix} ${new Date(
-                      b.listing_checked_at || b.last_verified_at || b.updated_at
-                    ).toLocaleDateString(dateLocaleFor(locale), {
-                      year: 'numeric',
-                      month: 'short',
-                      day: 'numeric',
-                    })}`
-                  : ''}
-                {b.source_label || b.source
-                  ? ` · ${dict.business.sourcePrefix}: ${b.source_label || b.source}`
-                  : ''}
-              </small>
-            </div>
-            <div className="detailActions">
-              {b.google_maps_url && (
-                <a
-                  className="primaryButton"
-                  href={b.google_maps_url}
-                  target="_blank"
-                  rel="noreferrer"
-                  data-analytics-type="business-map"
-                  data-analytics-id={b.id}
-                >
-                  {dict.business.viewOnGoogleMaps}
-                </a>
-              )}
-              {b.booking_url && (
-                <a
-                  className="outlineDark"
-                  href={b.booking_url}
-                  target="_blank"
-                  rel="noreferrer"
-                  data-analytics-type="business-booking"
-                  data-analytics-id={b.id}
-                >
-                  {dict.business.bookReserve}
-                </a>
-              )}
-            </div>
-            <div className="claimListingBox">
-              <p
-                className="publicInfoNotice"
-                style={{
-                  margin: '0 0 8px',
-                  fontSize: '12px',
-                  lineHeight: 1.5,
-                  color: 'var(--muted)',
-                }}
-              >
-                <strong>{dict.business.publicNoticeTitle}</strong>{' '}
-                {dict.business.publicNoticeBody}{' '}
-                <strong>{dict.business.publicNoticeHours}</strong>.
-              </p>
-              <Link
-                href={`${localePath(locale, '/for-businesses')}?public_name=${encodeURIComponent(
-                  b.public_name || ''
-                )}&address=${encodeURIComponent(b.address || '')}`}
-              >
-                {dict.business.claimListingLink}
-              </Link>
-            </div>
-          </aside>
+          </div>
+
+          {/* Right Column: Practical information (Good Life 100% style) */}
+          <PracticalInfoCard
+            business={b}
+            locale={locale}
+            hours={hours}
+            nearbyText={nearbyText}
+          />
         </div>
       </section>
       <BusinessInstagram b={b} locale={locale} />

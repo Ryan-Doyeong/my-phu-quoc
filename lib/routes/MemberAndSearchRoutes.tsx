@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 import { createPublicClient } from '@/lib/supabase/public'
 import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
-import { DIRECTORY_CATEGORY_KEYS, categoryLabel, nearbyBadgeText } from '@/lib/directory'
+import { DIRECTORY_CATEGORY_KEYS, categoryLabel, nearbyBadgeText, formatLocalizedAddress } from '@/lib/directory'
 import { PUBLISHED_EVENTS } from '@/lib/eventSamples'
 import { stockPrimaryFor } from '@/lib/stockImages'
 import { imageUrl } from '@/lib/imageUrl'
@@ -137,7 +137,6 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
         ...(x.tags || []).map((t: string) => translateTerm(t, locale)),
         ...(x.badges || []),
         nearbyBadgeText(x.address, x.tags, x.badges, locale) || '',
-        x.is_good_life_member ? 'My Phu Quoc member' : '',
       ].some((v) => text(v).includes(needle))
   )
   const dbStorySlugs = new Set((stories || []).map((row: any) => row.slug))
@@ -218,11 +217,6 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
                           !(x.badges || []).some((badge: string) =>
                             badge.toLowerCase().includes('nearby')
                           ) && <span className="businessBadge badgenearby">{nearbyText}</span>}
-                        {x.is_good_life_member && (
-                          <span className="businessBadge badgegoodlifemember">
-                            {translateBadge('My Phu Quoc member', locale)}
-                          </span>
-                        )}
                       </div>
                     </div>
                     <div className="compactBusinessBody">
@@ -240,7 +234,7 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
                         ))}
                       </div>
                       <p>{selectBusinessDescription(x, locale)}</p>
-                      <small>{x.address}</small>
+                      <small>{formatLocalizedAddress(x.address, locale)}</small>
                     </div>
                   </article>
                 </Link>

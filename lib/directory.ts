@@ -43,7 +43,7 @@ const CATEGORY_DEFS = {
       ko: '선셋타운과 주변의 씨푸드 식당, 국가별 요리, 길거리 음식.',
       ja: 'サンセットタウンとその周辺のシーフード、各国料理、ストリートフード。',
     },
-    image: STOCK_IMAGES.food,
+    image: '/categories/dining.webp',
     subcategories: ['Seafood','Vietnamese','Korean','Japanese','Chinese','Western','Indian','Russian','Street Food','Vegetarian'],
   },
   bars: {
@@ -67,7 +67,7 @@ const CATEGORY_DEFS = {
       ko: '노을이 가장 예쁜 바, 카페, 루프탑 라운지, 비치클럽.',
       ja: '夕日が美しいバー、カフェ、ルーフトップラウンジ、ビーチクラブ。',
     },
-    image: STOCK_IMAGES.cafe,
+    image: '/categories/bars.webp',
     subcategories: ['Cafe','Rooftop Bar','Beach Club','Cocktail Bar','Live Music','Dessert Cafe'],
   },
   hotels: {
@@ -91,7 +91,7 @@ const CATEGORY_DEFS = {
       ko: '선셋타운과 켐비치 근처의 리조트, 호텔, 풀빌라, 홈스테이.',
       ja: 'サンセットタウンとケムビーチ周辺のリゾート、ホテル、プールヴィラ、ホームステイ。',
     },
-    image: STOCK_IMAGES.hotel,
+    image: '/categories/hotels.webp',
     subcategories: ['Resort','Hotel','Pool Villa','Homestay','Apartment'],
   },
   shopping: {
@@ -115,7 +115,7 @@ const CATEGORY_DEFS = {
       ko: '진주, 특산품, 기념품, 마트.',
       ja: '真珠、特産品、お土産、スーパーマーケット。',
     },
-    image: STOCK_IMAGES.hobby,
+    image: '/categories/shopping.webp',
     subcategories: ['Pearls','Local Specialties','Souvenirs','Supermarket','Fresh Market'],
   },
   activities: {
@@ -139,7 +139,7 @@ const CATEGORY_DEFS = {
       ko: '키스 오브 더 씨 쇼, 케이블카, 호핑투어, 야시장.',
       ja: 'キス・オブ・ザ・シー、ロープウェイ、アイランドホッピング、ナイトマーケット。',
     },
-    image: STOCK_IMAGES.workout,
+    image: '/categories/activities.webp',
     subcategories: ['Show','Cable Car','Island Hopping','Water Sports','Night Market','Tour'],
   },
   beach: {
@@ -163,7 +163,7 @@ const CATEGORY_DEFS = {
       ko: '켐비치와 주변 해변, 선베드 라운지, 골프, 비치 요가.',
       ja: 'ケムビーチと周辺のビーチ、サンラウンジャー、ゴルフ、ビーチヨガ。',
     },
-    image: STOCK_IMAGES.hero,
+    image: '/categories/beach.webp',
     subcategories: ['Beach','Sun Lounger','Golf','Yoga','Water Sports'],
   },
   wellness: {
@@ -187,7 +187,7 @@ const CATEGORY_DEFS = {
       ko: '해변 후 휴식을 위한 마사지, 스파, 네일, 선번 케어.',
       ja: 'ビーチの後にくつろげるマッサージ、スパ、ネイル、日焼けケア。',
     },
-    image: STOCK_IMAGES.wellness,
+    image: '/categories/wellness.webp',
     subcategories: ['Massage','Spa','Nail Salon','Sunburn Care','Beauty & Skin'],
   },
   essentials: {
@@ -211,7 +211,7 @@ const CATEGORY_DEFS = {
       ko: '여행 중 필요한 스쿠터 렌트, 택시, 약국, 환전, 세탁.',
       ja: '滞在に役立つスクーターレンタル、タクシー、薬局、両替、ランドリー。',
     },
-    image: STOCK_IMAGES.closing,
+    image: '/categories/essentials.webp',
     subcategories: ['Rental','Taxi','Pharmacy','Currency Exchange','Laundry','SIM & Wi-Fi'],
   },
 } as const satisfies Record<string, CategoryDef>
@@ -298,4 +298,55 @@ export const DEFAULT_DIRECTORY_CATEGORY_APPEARANCE: Record<DirectoryCategory,Dir
 export function mergeDirectoryCategoryAppearance(value:unknown){
   const raw=(value&&typeof value==='object'?value:{}) as Record<string,Partial<DirectoryCategoryAppearance>>
   return Object.fromEntries(DIRECTORY_CATEGORY_KEYS.map(key=>[key,{...DEFAULT_DIRECTORY_CATEGORY_APPEARANCE[key],...(raw[key]||{})}])) as Record<DirectoryCategory,DirectoryCategoryAppearance>
+}
+
+/**
+ * 언어별 주소 포맷팅 헬퍼
+ * - 영문 화면에서는 한글이 섞이지 않은 100% 영문/로컬 주소 표기
+ * - 한국어 화면에서는 자연스러운 한국어 표기
+ * - 베트남어 화면에서는 Việt Nam 표기
+ */
+export function formatLocalizedAddress(address?: string | null, locale: Locale = 'en'): string {
+  if (!address) return ''
+  let addr = address.trim()
+
+  // 1. 공통: 앞쪽에 붙은 "베트남 " 접두사 제거
+  addr = addr.replace(/^베트남\s+/, '')
+  addr = addr.replace(/^Vietnam\s*,\s*/i, '')
+
+  if (locale === 'ko') {
+    addr = addr.replace(/[\s,]+베트남$/i, '')
+    addr = addr.replace(/[\s,]+Vietnam$/i, '')
+    addr = addr.replace(/\bSunset Town\b/gi, '선셋타운')
+    addr = addr.replace(/,\s*,/g, ',').replace(/^,\s*/, '').replace(/,\s*$/, '').trim()
+    return `${addr}, 베트남`
+  }
+
+  if (locale === 'vi') {
+    addr = addr.replace(/[\s,]+베트남$/i, '')
+    addr = addr.replace(/[\s,]+Vietnam$/i, '')
+    addr = addr.replace(/\bSunset Town\b/gi, 'Thị trấn Hoàng Hôn')
+    addr = addr.replace(/,\s*,/g, ',').replace(/^,\s*/, '').replace(/,\s*$/, '').trim()
+    return `${addr}, Việt Nam`
+  }
+
+  // 영문 및 기타 글로벌 언어: 한글이 섞이지 않도록 완벽 영문화
+  addr = addr.replace(/[\s,]+베트남$/i, '')
+  addr = addr.replace(/\s+베트남\b/gi, '')
+  addr = addr.replace(/[\s,]+Vietnam$/i, '')
+  addr = addr.replace(/선셋타운/g, 'Sunset Town')
+  addr = addr.replace(/안장\s*성/g, 'An Giang')
+  addr = addr.replace(/안장/g, 'An Giang')
+  addr = addr.replace(/구역/g, 'Zone')
+  addr = addr.replace(/정류장/g, 'Stop')
+  addr = addr.replace(/입구/g, 'Entrance')
+  addr = addr.replace(/시계탑/g, 'Clock Tower')
+  addr = addr.replace(/야시장/g, 'Night Market')
+  addr = addr.replace(/케이블카\s*역/g, 'Cable Car Station')
+
+  // 혹시라도 남아있는 한글이 있다면 제거
+  addr = addr.replace(/[\uac00-\ud7a3]+/g, '').trim()
+  addr = addr.replace(/,\s*,/g, ',').replace(/^,\s*/, '').replace(/,\s*$/, '').trim()
+
+  return `${addr}, Vietnam`
 }

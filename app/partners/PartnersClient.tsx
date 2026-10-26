@@ -152,7 +152,6 @@ export function PartnersClient({ initialLang, initialSlot, businesses }: Props) 
           <nav className="partnersNavLinks">
             <Link href={localePath(lang, '/')}>{dict.nav.home}</Link>
             <Link href={localePath(lang, '/news')}>{dict.nav.news}</Link>
-            <Link href={localePath(lang, '/impact')}>{dict.nav.impact}</Link>
             <Link href={localePath(lang, '/for-businesses')}>{dict.nav.forBusinesses}</Link>
           </nav>
           <LanguageSwitcher locale={lang} variant="light" />

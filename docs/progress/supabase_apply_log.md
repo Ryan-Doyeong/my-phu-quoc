@@ -49,3 +49,15 @@
 ## 4. 사이트 연동 상태
 - 환경변수: `NEXT_PUBLIC_SUPABASE_URL=https://sijozqbgtbmiukqtfblt.supabase.co` 및 `NEXT_PUBLIC_SUPABASE_ANON_KEY` 연결 완료
 - Next.js 프로덕션 서버 빌드 및 가동 완료
+
+
+---
+
+## 5. 최신 마스터 동기화 완료 (2026-10-26 11:37 ICT)
+- **작업 내용**: 선셋타운 95개소 식음료 메뉴 마스터 전수 동기화 (`supabase/seed_menus.sql`)
+- **실행 결과**: **성공 (SUCCESS)**
+- **실측 검증 수치**:
+  - `business_menu_items`: **899건** (기존 782건 대비 +117건 증가, 카페 23곳 및 바 13곳 메뉴 정가 100% 탑재)
+  - `businesses` (status='published'): **291개소** 정상 유지
+  - `stories` (status='published'): **3편** 관광 가이드 정상 유지
+- **검증 도구**: `scripts/verify_live_supabase.py` 실시간 API 쿼리 검증 완료 (일치율 100%)

@@ -6,7 +6,7 @@
 BEGIN;
 
 -- Optional cleanup of previous menu items if re-seeding
--- DELETE FROM public.business_menu_items;
+DELETE FROM public.business_menu_items;
 
 -- Venue: Times Corner Restaurant (Grade C, place_id: ChIJ-8xuXJSXpzER_vuwYia2R1M)
 INSERT INTO public.business_menu_items (

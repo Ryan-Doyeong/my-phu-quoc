@@ -84,6 +84,29 @@ export function SunsetDistrictFilter({
           )
         })}
       </div>
+
+      <div style={{ textAlign: 'center', marginTop: '32px' }}>
+        <Link
+          href={localePath(locale, '/map')}
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '8px',
+            padding: '12px 28px',
+            borderRadius: '999px',
+            background: 'linear-gradient(135deg, #0B7A8A, #129BAE)',
+            color: '#ffffff',
+            fontSize: '14.5px',
+            fontWeight: 800,
+            textDecoration: 'none',
+            boxShadow: '0 4px 16px rgba(11, 122, 138, 0.25)',
+            transition: 'transform 0.2s',
+          }}
+        >
+          <span>🗺️ {isKo ? '선셋타운 거리 & 12대 랜드마크 지도 탐색하기' : 'Explore Sunset Town Street & Landmark Map'}</span>
+          <span>→</span>
+        </Link>
+      </div>
     </section>
   )
 }
