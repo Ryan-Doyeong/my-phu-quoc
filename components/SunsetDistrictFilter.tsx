@@ -9,14 +9,28 @@ interface SunsetDistrictFilterProps {
   selectedZone?: SunsetZoneKey
   onSelectZone?: (zone: SunsetZoneKey) => void
   isInteractive?: boolean
+  hidden?: boolean
 }
+
+/**
+ * [업무 지시 · Claude] SUNSET TOWN 6 QUARTERS / Explore Sunset Town by District 섹션 숨김 처리
+ * 사유: 거리명 기준 분류의 정확성이 미확인이고, 여행자는 거리 이름을 몰라 효용이 낮으며 정보가 너무 김.
+ * 규칙: 코드와 데이터는 삭제 금지, 숨김 플래그(HIDE_SUNSET_DISTRICT_SECTION)로 화면에서만 숨김.
+ * 복구 필요 시 아래 플래그를 false로 변경하면 즉시 원상 복구됩니다.
+ */
+export const HIDE_SUNSET_DISTRICT_SECTION = true
 
 export function SunsetDistrictFilter({
   locale = 'en',
   selectedZone = 'all',
   onSelectZone,
   isInteractive = false,
+  hidden = HIDE_SUNSET_DISTRICT_SECTION,
 }: SunsetDistrictFilterProps) {
+  if (hidden) {
+    return null
+  }
+
   const isKo = locale === 'ko'
 
   return (

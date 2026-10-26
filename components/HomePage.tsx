@@ -405,7 +405,8 @@ export function HomePage({
           </section>
         )}
 
-        <SunsetDistrictFilter locale={locale} />
+        {/* [업무 지시 · Claude] SUNSET TOWN 6 QUARTERS / Explore Sunset Town by District 섹션 숨김 처리 (복구 시 주석 해제) */}
+        {/* <SunsetDistrictFilter locale={locale} /> */}
 
         {/* 선셋타운 공식 일러스트 지도 & 거리 가이드 섹션 */}
         <section className="shell sunsetTownMapSection" id="map">
