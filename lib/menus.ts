@@ -50,14 +50,14 @@ export const GRADE_INFO: Record<
   A: {
     labelKo: 'Grade A · 전체 메뉴 확인',
     labelEn: 'Grade A · Full Menu Verified',
-    descKo: '실제 메뉴판 전수 조사 및 한글 번역, 최신 가격(VND)이 완벽하게 등록된 업체입니다.',
+    descKo: '실제 메뉴판 전수 조사 및 한글 번역, 최신 가격(VND) 정보가 등록된 업체입니다.',
     descEn: 'Comprehensive menu verified with official prices and multilingual translations.',
     color: '#0B7A8A', // Ocean Teal
   },
   B: {
     labelKo: 'Grade B · 주요 메뉴 확인',
     labelEn: 'Grade B · Core Menu Verified',
-    descKo: '인기 대표 메뉴와 시그니처 요금 정보가 확인된 업체입니다.',
+    descKo: '대표 메뉴와 시그니처 요금 정보가 확인된 업체입니다.',
     descEn: 'Core selection of signature dishes and prices verified from menu boards.',
     color: '#C86D2D', // Amber Gold
   },

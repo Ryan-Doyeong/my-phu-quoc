@@ -88,7 +88,7 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
     ko: {
       label: '한국어 · 핫스톤 테라피 & 베트남 전통 두피 헤드스파',
       paragraphs: [
-        '베트남 푸꾸옥의 인기 스파에서 사랑받는 스페셜 테라피인 핫스톤과 베트남식 허브 헤드스파(Gội đầu dưỡng sinh)의 매력과 효능입니다.',
+        '베트남 푸꾸옥의 주요 스파에서 제공하는 스페셜 테라피인 핫스톤과 베트남식 허브 헤드스파(Gội đầu dưỡng sinh)의 특징과 관리 방법입니다.',
       ],
       list: [
         '핫스톤 테라피 (Hot Stone): 약 50~60도로 데운 천연 현무암을 등과 척추, 혈자리에 얹고 오일과 함께 롤링합니다. 돌의 원적외선 열기가 근육 깊숙이 침투하여 뭉친 담과 결림을 부드럽게 녹여줍니다.',
@@ -127,12 +127,11 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
     ko: {
       label: '한국어 · 스파 이용 에티켓과 마사지 팁 상식',
       paragraphs: [
-        '푸꾸옥 선셋타운의 스파를 편안하게 즐기기 위한 기본 에티켓과 마사지사 팁(Tip)에 대한 표준적인 가이드입니다.',
+        '푸꾸옥 선셋타운의 스파를 편안하게 즐기기 위한 기본 에티켓과 팁 안내입니다.',
       ],
       list: [
         '방문 시간: 예약 시간 10~15분 전에 도착하여 웰컴 티를 마시며 집중 관리 부위 체크리스트를 작성하는 것이 좋습니다.',
-        '팁(Tip) 가이드라인: 베트남 스파는 팁 문화가 보편적입니다. 계산서에 "Tip Included" 또는 봉사료(Service Charge) 표기가 없는 경우, 만족스러운 관리에 대해 테라피스트에게 직접 팁을 전달하는 것이 매너입니다.',
-        '권장 팁 금액: 60분 코스 기준 50,000 ~ 70,000 VND (약 3,000~4,000원), 90분 코스 기준 80,000 ~ 100,000 VND, 120분 코스 기준 100,000 ~ 150,000 VND가 표준적입니다.',
+        '팁(Tip) 가이드라인: 베트남 스파는 매장에 따라 팁 정책이 다릅니다. 계산서에 "Tip Included" 또는 봉사료(Service Charge) 포함 여부를 먼저 확인하시고, 팁 정책이나 권장 여부는 매장 카운터에 직접 문의하는 것이 가장 정확합니다.',
       ],
     },
     en: {
@@ -142,13 +141,13 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
       ],
       list: [
         'Arrival: Arrive 10–15 minutes early to fill out consultation sheets and enjoy herbal welcome tea.',
-        'Tipping Guideline: If service tip is not included in the bill, customary tips are 50,000–70,000 VND for 60 min, and 80,000–100,000 VND for 90 min per therapist.',
+        'Tipping Guideline: Check your bill first to see if service charge or tip is already included. Tipping policies vary by spa; please verify current guidelines with the reception desk.',
       ],
     },
     vi: {
       label: 'Tiếng Việt · Văn hóa Tips & Lưu ý khi đi Spa',
       paragraphs: [
-        'Nên đến trước giờ hẹn 10-15 phút để thưởng thức trà chào mừng. Tiền tip thông lệ cho kỹ thuật viên thường từ 50.000 - 100.000 VND tùy theo thời lượng liệu trình.',
+        'Nên đến trước giờ hẹn 10-15 phút để thưởng thức trà chào mừng. Quý khách vui lòng kiểm tra hóa đơn đã bao gồm phí dịch vụ hay chưa và tham khảo quy định tip tại quầy lễ tân.',
       ],
     },
   },
@@ -164,16 +163,16 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
     ko: {
       label: '한국어 · 부티크 호텔 vs 힐사이드 고층 레지던스 비교',
       paragraphs: [
-        '선셋타운 숙소는 지중해 해변 골목의 아늑한 "부티크 호텔"과 언덕 위 파노라마 전망을 자랑하는 "힐사이드 레지던스(The Hill / The Sky)"로 나뉩니다.',
+        '선셋타운 숙소는 지중해 해변 골목의 "부티크 호텔"과 언덕 위 전망을 갖춘 "힐사이드 레지던스(The Hill / The Sky)"로 나뉩니다.',
       ],
       list: [
-        '해안가 부티크 호텔 (Boutique Hotel): 1층에 카페/레스토랑이 입점해 있고 24시간 프런트 데스크, 매일 룸클리닝, 조식 서비스가 기본 제공됩니다. 키스브릿지 및 야시장 도보 접근성이 뛰어납니다.',
-        '힐사이드 고층 레지던스 (High-rise Residence): 풀옵션 아파트형 구조로 인덕션 주방, 대형 냉장고, 드럼 세탁기가 완비되어 있어 아이 동반 가족이나 연박 여행자에게 최적입니다. 최상층 루프탑 인피니티 풀에서 선셋과 불꽃놀이를 한눈에 내려다볼 수 있습니다.',
+        '해안가 부티크 호텔 (Boutique Hotel): 24시간 프런트 데스크와 룸클리닝 서비스를 운영하는 곳이 많으며, 키스브릿지 및 야시장 인근에 위치합니다. 조식 제공 여부 및 식음 시설은 예약 조건과 숙소별 정책을 확인하세요.',
+        '힐사이드 고층 레지던스 (High-rise Residence): 아파트형 구조로 주방 공간과 세탁 시설을 갖춘 객실이 많아 장기 투숙이나 가족 여행객이 주로 이용합니다. 수영장 및 부대시설 운영 여부는 숙소별 현장 안내를 확인하세요.',
       ],
-      subheading: '추천 가이드',
+      subheading: '이용 가이드',
       subList: [
-        '커플/우정 여행 & 조식/프런트 편의 중시 → 해안가 부티크 호텔',
-        '가족 여행 & 세탁/취사/초고층 불꽃놀이 뷰 중시 → 힐사이드 레지던스',
+        '프런트 데스크 및 야시장 도보 동선 중심 → 해안가 부티크 호텔 (예약 조건별 부대 혜택 확인 필요)',
+        '세탁/취사 시설 및 고층 전망 중심 → 힐사이드 레지던스 (객실 타입별 시설 확인 필요)',
       ],
     },
     en: {
@@ -182,14 +181,14 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
         'Sunset Town offers two primary accommodation styles tailored to different traveler needs.',
       ],
       list: [
-        'Seaside Boutique Hotels: Full hotel service, daily housekeeping, concierge, front desk, and steps from the night market.',
-        'Hillside Residences (The Hill / The Sky): Fully furnished apartments with induction stoves, refrigerators, washing machines, and rooftop infinity pools.',
+        'Seaside Boutique Hotels: Full hotel front desk, housekeeping service, and situated near the night market area. Breakfast inclusions and amenities vary by booking plan; please verify room details.',
+        'Hillside Residences (The Hill / The Sky): Apartment-style units featuring kitchen spaces and laundry appliances, often utilized for longer stays and family trips. Pool access and facilities vary by building; check check-in policies.',
       ],
     },
     vi: {
       label: 'Tiếng Việt · Khách sạn Boutique & Căn hộ Hillside Residence',
       paragraphs: [
-        'Khách sạn ven biển mang lại dịch vụ lễ tân và dọn phòng hàng ngày, trong khi căn hộ cao tầng Hillside sở hữu bếp nấu, máy giặt và hồ bơi vô cực ngắm pháo hoa tuyệt đẹp.',
+        'Khách sạn ven biển mang lại dịch vụ lễ tân và dọn phòng, trong khi căn hộ Hillside sở hữu không gian bếp và máy giặt tiện lợi. Tiện ích bữa sáng và hồ bơi phụ thuộc vào điều kiện đặt phòng của từng cơ sở.',
       ],
     },
   },
@@ -200,30 +199,31 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
     title: 'Fireworks Room Tips & Electric Buggy Transport',
     tocLabel: 'Fireworks & Buggy',
     ko: {
-      label: '한국어 · 불꽃놀이 명당 객실 & 전동 버기카 이용 꿀팁',
+      label: '한국어 · 불꽃놀이 조망 객실 & 전동 버기카 이용 안내',
       paragraphs: [
-        '선셋타운에서는 매주 수~월요일 밤 9시 키스 오브 더 씨(Kiss of the Sea) 공연 피날레(약 21:25)로 환상적인 불꽃놀이가 바다 위에서 펼쳐집니다 (화요일 정기 휴무).',
+        '선셋타운에서는 매주 수~월요일 밤 9시 키스 오브 더 씨(Kiss of the Sea) 공연 피날레(약 21:25)로 불꽃놀이가 바다 위에서 펼쳐집니다 (화요일 정기 휴무).',
       ],
       list: [
-        '불꽃놀이 직관 룸: 예약 시 "Fireworks View" 또는 "Sea View with Balcony" 객실을 선택하면 테라스에 앉아 맥주나 와인을 마시며 불꽃놀이를 1열에서 직관할 수 있습니다.',
-        '전동 버기카(Buggy Car) 무료 셔틀: 선셋타운은 언덕과 계단 지형으로 이루어져 있어 무거운 캐리어가 있을 때 전동 버기카를 적극 활용해야 합니다. 대부분의 호텔과 레지던스에서 숙박객용 무료 버기 픽드랍을 지원하며, 로비 또는 Zalo/전화로 호출할 수 있습니다.',
-        '체크인 보증금(Deposit): 체크인 시 50만~100만 VND 상당의 현금 또는 신용카드 보증금을 요구할 수 있으니 준비해 두세요.',
+        '불꽃놀이 조망 룸: 예약 시 "Fireworks View" 또는 "Sea View with Balcony" 객실을 선택하면 객실 테라스에서 불꽃놀이를 조망할 수 있습니다 (객실 위치별 시야각 상이).',
+        '전동 버기카(Buggy Car) 이동: 선셋타운은 언덕과 계단 지형으로 이루어져 있어 무거운 짐이 있을 때 전동 버기카 이용 여부를 미리 확인하는 것이 좋습니다. 숙소별 버기 픽드랍 운영 여부와 유/무료 조건은 체크인 전 호텔 측에 문의하시기 바랍니다.',
+        '체크인 보증금(Deposit): 체크인 시 숙소 규정에 따라 보증금(신용카드 가승인 또는 현금 디포짓)이 요구될 수 있으니 예약 확인서의 체크인 규정을 확인하세요.',
       ],
     },
     en: {
       label: 'English · Fireworks Viewing & Electric Buggy Shuttles',
       paragraphs: [
-        'Sunset Town stages a world-class fireworks display as the grand finale of the Kiss of the Sea show (Wed–Mon around 21:25 over the sea; closed Tuesdays).',
+        'Sunset Town stages a fireworks display as the grand finale of the Kiss of the Sea show (Wed–Mon around 21:25 over the sea; closed Tuesdays).',
       ],
       list: [
-        'Fireworks Balcony Rooms: Book rooms explicitly tagged "Fireworks View" to enjoy the pyrotechnics from your private terrace.',
-        'Buggy Shuttle Service: Because of the town’s hilly Italianate terrain, request free electric golf-cart shuttles via hotel reception or Zalo for seamless luggage transit.',
+        'Fireworks Balcony Rooms: Book rooms explicitly tagged "Fireworks View" to enjoy the pyrotechnics from your private balcony (views vary by room orientation).',
+        'Buggy Transport: Because of the town’s hilly cobblestone terrain, inquire with your property in advance regarding buggy shuttle availability and fare terms for luggage transfer.',
+        'Security Deposit: Check-in deposits (credit card pre-authorization or cash) may be requested depending on each property’s policy. Please review your booking confirmation.',
       ],
     },
     vi: {
       label: 'Tiếng Việt · Ngắm pháo hoa & Xe điện Buggy',
       paragraphs: [
-        'Pháo hoa rực rỡ diễn ra lúc 21:30 mỗi tối. Địa hình thị trấn dốc nên du khách nên tận dụng xe điện buggy miễn phí từ khách sạn.',
+        'Thị trấn Hoàng Hôn có màn bắn pháo hoa lúc ~21:25 từ Thứ 4 đến Thứ 2 (Thứ 3 nghỉ định kỳ). Địa hình thị trấn có nhiều dốc và bậc thang; quý khách vui lòng liên hệ trước với nơi lưu trú để kiểm tra dịch vụ xe điện buggy và quy định đặt cọc phòng.',
       ],
     },
   },
@@ -242,7 +242,7 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
         '푸꾸옥 여행 기념품으로 무엇을 사야 할지 고민될 때 반드시 알아두어야 할 4대 핵심 특산품 고르는 법입니다.',
       ],
       list: [
-        '1. 푸꾸옥 통후추 (Tiêu Phú Quốc): 흑후추는 진한 풍미로 육류 요리에, 백후추는 부드러운 매운맛으로 생선/수프에, 붉은 완숙 열매만 딴 적후추(Tiêu đỏ)는 향긋한 단맛이 감도는 최고급품입니다. 간편한 선물용으로는 "푸꾸옥 후추 소금(Muối tiêu)"이 인기입니다.',
+        '1. 푸꾸옥 통후추 (Tiêu Phú Quốc): 흑후추는 진한 풍미로 육류 요리에, 백후추는 부드러운 매운맛으로 생선/수프에, 붉은 완숙 열매만 딴 적후추(Tiêu đỏ)는 향긋한 단맛이 감도는 고급 품종입니다. 선물용으로는 "푸꾸옥 후추 소금(Muối tiêu)"도 널리 활용됩니다.',
         '2. 전통 피시소스 (Nước mắm): 라벨에 표기된 단백질 함량(Độ đạm)을 확인하세요. 40N~43N 표기가 된 제품이 100% 안초비로 숙성한 프리미엄 순수 원액입니다. (※ 비행기 탑승 시 기내 반입은 금지되며, 위탁 수하물로 부칠 때는 완충재 포장 필수입니다.)',
         '3. 심와인 & 심 시럽 (Rượu Sim): 푸꾸옥 야생 로즈머틀(Sim) 열매를 발효해 만든 과실주로, 달콤 쌉싸름하며 식후 소화와 피로 회복에 좋아 여성 여행자에게 큰 사랑을 받습니다.',
         '4. 천연 진주 (Ngọc trai): 품질 보증서가 발행되는 공인 진주 농장 직영 매장에서 구매하는 것을 권장합니다.',
@@ -316,20 +316,20 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
     title: 'Kiss Bridge & Kiss of the Sea Night Show Tips',
     tocLabel: 'Bridge & Night Show',
     ko: {
-      label: '한국어 · 키스브릿지(Cầu Hôn) & 키스 오브 더 씨 관람 꿀팁',
+      label: '한국어 · 키스브릿지(Cầu Hôn) & 키스 오브 더 씨 관람 안내',
       paragraphs: [
-        '선셋타운의 양대 랜드마크인 키스브릿지와 키스 오브 더 씨 멀티미디어 쇼를 완벽하게 즐기는 방법입니다.',
+        '선셋타운의 주요 랜드마크인 키스브릿지와 키스 오브 더 씨 멀티미디어 쇼 관람 안내입니다.',
       ],
       list: [
-        '키스브릿지(Cầu Hôn) 골든타임: 두 개의 다리가 30cm 간격을 두고 바다 위에서 마주 보는 구조로, 일몰 시간대(17:15~17:45)에 다리 사이로 해가 떨어지는 찰나의 광경이 가장 아름답습니다. 연인과 마주 보며 기념사진을 남기기 좋습니다.',
-        '키스 오브 더 씨(Kiss of the Sea): 세계 최대 규모의 바다 수상 무대에서 분수, 홀로그램 레이저, 화염, 그리고 불꽃놀이가 어우러지는 종합 공연입니다.',
-        '좌석 꿀팁: 중앙 열 약간 높은 좌석에 앉아야 전체 무대 연출과 뒤편의 대형 불꽃놀이를 한눈에 담을 수 있습니다.',
+        '키스브릿지(Cầu Hôn) 일몰 시간: 두 개의 다리가 30cm 간격을 두고 바다 위에서 마주 보는 구조로, 일몰 시간대(17:15~17:45)에 다리 사이로 해가 떨어지는 풍경을 조망할 수 있습니다.',
+        '키스 오브 더 씨(Kiss of the Sea): 바다 수상 무대에서 분수, 홀로그램 레이저, 화염, 그리고 불꽃놀이가 어우러지는 종합 공연입니다.',
+        '좌석 안내: 중앙 구역 좌석에서 전체 무대 연출과 불꽃놀이를 조망하기 용이합니다.',
       ],
     },
     en: {
       label: 'English · Kiss Bridge & Kiss of the Sea Spectacle',
       paragraphs: [
-        'The centerpiece architectural wonder and nightly grand multimedia performance.',
+        'Centerpiece architectural landmark and grand nightly multimedia performance.',
       ],
       list: [
         'Kiss Bridge Sunset Window: The two spans approach within 30 cm without touching. Arrive between 17:15 and 17:45 for the iconic solar alignment.',
@@ -339,7 +339,7 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
     vi: {
       label: 'Tiếng Việt · Cầu Hôn & Show diễn Kiss of the Sea',
       paragraphs: [
-        'Cầu Hôn đón hoàng hôn đẹp nhất lúc 17:15 - 17:45. Show diễn Kiss of the Sea kết hợp nước, lửa, laser và pháo hoa đỉnh cao lúc 21h00 từ Thứ 4 đến Thứ 2 (Thứ 3 nghỉ định kỳ).',
+        'Cầu Hôn đón hoàng hôn đẹp nhất lúc 17:15 - 17:45. Show diễn Kiss of the Sea kết hợp nước, lửa, laser và pháo hoa lúc 21h00 từ Thứ 4 đến Thứ 2 (Thứ 3 nghỉ định kỳ).',
       ],
     },
   },

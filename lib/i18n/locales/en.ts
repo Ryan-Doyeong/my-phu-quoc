@@ -300,7 +300,7 @@ export const en = {
     deliveryModeDriver: 'Courier dispatch (GrabExpress, etc.)',
     deliveryModePickup: 'Takeaway / Pickup & messenger order',
     deliveryAreaLabel: 'Delivery area / notes (optional)',
-    deliveryAreaPlaceholder: 'e.g. Phu Quoc, An Phu, free over 300k VND',
+    deliveryAreaPlaceholder: 'e.g. Phu Quoc, An Phu (delivery terms)',
     phoneLabel: 'Phone',
     sec3Title: 'Photo intake',
     photoHelp: 'Upload between 3 and 5 clear business photos. Recommended: exterior/signage, interior, service/menu, and atmosphere.',

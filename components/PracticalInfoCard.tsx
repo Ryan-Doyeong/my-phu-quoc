@@ -35,16 +35,16 @@ export function PracticalInfoCard({
   const servicesLabel = isKo ? '서비스 및 편의' : isVi ? 'Dịch vụ & Tiện ích' : 'Services & Dining'
   const updatedLabel = isKo ? '정보 업데이트' : isVi ? 'Cập nhật thông tin' : 'Details updated'
   const sourceDefault = isKo
-    ? '선셋타운 마스터 검증 DB'
+    ? '선셋타운 시설 안내 DB'
     : isVi
-    ? 'Dữ liệu xác thực Thị trấn Hoàng Hôn'
-    : 'Sunset Town Verified DB'
+    ? 'Dữ liệu thông tin Thị trấn Hoàng Hôn'
+    : 'Sunset Town Directory DB'
 
   const claimNotice = isKo
     ? '본 정보는 여행자와 지역 주민을 위해 공개된 데이터를 종합한 것입니다. 매장 점주나 관리자는 언제든지 정보 수정 또는 페이지 관리를 요청하실 수 있습니다.'
     : isVi
     ? 'Thông tin được tổng hợp từ dữ liệu công khai phục vụ du khách. Chủ cơ sở kinh doanh có thể yêu cầu xác nhận quyền quản lý hoặc cập nhật thông tin bất cứ lúc nào.'
-    : 'Summarized from verified public information for visitors. Business owners or managers may request listing claims, updates, or edits at any time.'
+    : 'Summarized from public information for visitors. Business owners or managers may request listing claims, updates, or edits at any time.'
 
   return (
     <aside id="practical-info" className="detailCard stickyInfo practicalInfoCard">

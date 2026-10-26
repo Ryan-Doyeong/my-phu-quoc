@@ -22,6 +22,13 @@ export interface BusinessReviewAnalysis {
 export function analyzeGoogleReviews(business: any, locale: Locale = 'ko'): BusinessReviewAnalysis | null {
   if (!business) return null
 
+  // [업무 지시 · Claude/Ryan] 구글 리뷰 실시간/실측 데이터 연동 전까지 모든 카테고리 렌더링 비활성화
+  // 출처 없는 가상 리뷰 분석 텍스트 노출 차단
+  const DISABLE_PSEUDO_REVIEW_ANALYSIS = true
+  if (DISABLE_PSEUDO_REVIEW_ANALYSIS) {
+    return null
+  }
+
   const cat = (business.category || '').toLowerCase()
   const subcat = (business.subcategory || '').toLowerCase()
   const name = `${business.public_name || ''} ${business.google_maps_name || ''}`.toLowerCase()

@@ -222,7 +222,7 @@ const TERM_GLOSSARY: Record<string, LocalizedText> = {
   'appointment based': { vi: 'Theo lịch hẹn trước', ko: '예약제 운영' },
   'short recovery sessions available': { vi: 'Có gói phục hồi ngắn', ko: '단시간 리커버리 세션 가능' },
   'outdoor seating': { vi: 'Chỗ ngồi ngoài trời', ko: '야외 좌석' },
-  'good for weekend brunch': { vi: 'Phù hợp ăn brunch cuối tuần', ko: '주말 브런치 추천' },
+  'good for weekend brunch': { vi: 'Phù hợp ăn brunch cuối tuần', ko: '주말 브런치' },
   'family-friendly layout': { vi: 'Không gian thân thiện gia đình', ko: '가족 친화적 공간' },
   'family friendly': { vi: 'Thân thiện với gia đình', ko: '가족 동반 적합' },
   'family-friendly': { vi: 'Thân thiện với gia đình', ko: '가족 동반 적합' },

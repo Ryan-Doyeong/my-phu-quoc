@@ -166,18 +166,18 @@ export const FOOD_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = {
     ko: {
       label: '한국어 · 푸꾸옥 해산물과 함닌 꽃게',
       paragraphs: [
-        '청정 해역으로 둘러싸인 푸꾸옥 섬은 베트남 최고의 신선한 해산물 천국입니다. 특히 푸꾸옥 동쪽 함닌(Hàm Ninh) 마을의 꽃게(Ghẹ)는 크기는 아담하지만 살이 꽉 차고 단맛이 진하기로 전국적으로 유명합니다.',
+        '청정 해역으로 둘러싸인 푸꾸옥 섬은 신선한 해산물 어획이 풍부한 지역입니다. 특히 푸꾸옥 동쪽 함닌(Hàm Ninh) 마을의 꽃게(Ghẹ)는 크기는 아담하지만 단맛과 살이 찬 특징으로 알려져 있습니다.',
         '복잡한 양념 대신 찜(Hấp)이나 숯불구이(Nướng)로 본연의 신선함을 살리며, 푸꾸옥 특산 후추 소금에 찍어 먹습니다.',
       ],
       list: [
-        '함닌 꽃게(Ghẹ Hàm Ninh): 레몬그라스와 함께 쪄내어 은은한 향과 달콤한 게살의 풍미가 극대화됩니다.',
+        '함닌 꽃게(Ghẹ Hàm Ninh): 레몬그라스와 함께 쪄내어 은은한 향과 게살 본연의 맛을 살립니다.',
         '파기름 가리비/조개구이(Sò nướng mỡ hành): 고소한 땅콩 분태와 파기름, 느억맘을 얹어 직화로 구워냅니다.',
-        '마늘버터 타이거새우(Tôm sốt bơ tỏi): 큼직한 블랙타이거 새우에 풍미 가득한 마늘 버터소스를 입혀 빵을 찍어 먹기 좋습니다.',
+        '마늘버터 타이거새우(Tôm sốt bơ tỏi): 큼직한 블랙타이거 새우에 마늘 버터소스를 곁들여 즐기기 좋습니다.',
       ],
-      subheading: '푸꾸옥 특산 소스 공식: 소금+후추+라임',
+      subheading: '푸꾸옥 특산 소스 안내: 소금+후추+라임',
       subList: [
         '푸꾸옥 후추 소금(Muối tiêu Phú Quốc)에 라임/칼라만시 즙을 넉넉히 짭니다.',
-        '갓 쪄낸 꽃게살과 조개, 새우를 콕 찍으면 비린내 없이 해산물의 감칠맛이 폭발합니다.',
+        '갓 쪄낸 꽃게살과 조개, 새우를 곁들이면 깔끔하게 해산물을 즐길 수 있습니다.',
       ],
     },
     en: {
@@ -353,7 +353,7 @@ export const FOOD_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = {
       ],
       subheading: '식사 & 포장 팁',
       subList: [
-        '반미는 갓 구워 따뜻할 때 바로 먹어야 바삭함이 최고조에 달합니다. 고수를 못 드신다면 "콤 쪼 라우 무이(Không cho rau mùi)"라고 요청하세요.',
+        '반미는 갓 구워 따뜻할 때 바로 먹어야 바삭한 식감을 제대로 즐길 수 있습니다. 고수를 못 드신다면 "콤 쪼 라우 무이(Không cho rau mùi)"라고 요청하세요.',
         '반쎄오는 가위로 먹기 좋은 크기로 잘라 상추와 허브에 얹고 돌돌 말아 느억맘 소스에 푹 찍어 드세요.',
       ],
     },
@@ -400,35 +400,35 @@ export const FOOD_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = {
     ko: {
       label: '한국어 · 푸꾸옥의 식문화와 유래',
       paragraphs: [
-        '베트남 최남단에 위치한 에메랄드빛 섬 푸꾸옥은 풍부한 일조량과 미네랄이 풍부한 청정 해역 덕분에 베트남에서도 가장 독보적인 미식 생태계를 구축하고 있습니다.',
-        '바다에서 갓 건져 올린 해산물을 신선한 상태로 바로 조리하는 소박함과, 세계적으로 찬사를 받는 천연 흑후추와 100년 전통의 목통 발효 피시소스(Nước mắm)가 모든 요리의 깊은 감칠맛을 완성합니다.',
+        '베트남 최남단에 위치한 섬 푸꾸옥은 풍부한 일조량과 해양 환경을 바탕으로 독자적인 지역 식문화를 발전시켜 왔습니다.',
+        '바다에서 어획한 해산물을 조리하는 방식과 함께, 현지에서 재배되는 천연 흑후추와 전통 목통 발효 피시소스(Nước mắm)가 주요 식재료로 사용됩니다.',
       ],
       list: [
-        '푸꾸옥 전통 피시소스: 신선한 안초비(멸치)와 바다 소금만을 오크통에서 12개월 이상 자연 발효시켜 유네스코 무형문화유산으로 지정된 명품.',
-        '푸꾸옥 후추(Tiêu Phú Quốc): 향이 진하고 매운맛의 여운이 깊어 글로벌 미슐랭 스타 셰프들이 애용하는 세계 최고 등급 후추.',
-        '나이트마켓 & 선셋 다이닝: 해질녘 붉게 물드는 바다를 바라보며 신선한 해산물과 맥주를 즐기는 선셋타운만의 낭만적인 밤 문화.',
+        '푸꾸옥 전통 피시소스: 멸치와 바다 소금을 나무통에서 장기간 자연 발효시켜 만드는 푸꾸옥 전통 발효 조미료.',
+        '푸꾸옥 후추(Tiêu Phú Quốc): 향과 매운맛의 여운이 뚜렷하여 베트남 국내외에서 널리 활용되는 지역 특산 후추.',
+        '나이트마켓 & 선셋 다이닝: 해질녘 바다 전망과 함께 신선한 해산물 요리를 즐기는 선셋타운의 식문화.',
       ],
     },
     en: {
       label: 'English · Phu Quoc Heritage & Food Culture',
       paragraphs: [
-        'Located in the crystalline waters of the Gulf of Thailand, Phu Quoc Island boasts a distinct culinary identity shaped by abundant marine life, red volcanic soil, and centuries of artisan food craftsmanship.',
-        'The island\'s cuisine celebrates ultra-fresh wild seafood enhanced by two legendary native treasures: artisanal barrel-aged fish sauce (Nước mắm) and aromatic sun-dried black pepper.',
+        'Located in the Gulf of Thailand, Phu Quoc Island has developed a distinct culinary identity shaped by coastal marine harvests, local agriculture, and traditional food-making techniques.',
+        'The island\'s cuisine highlights fresh seafood complemented by two staple specialties: traditional barrel-fermented fish sauce (Nước mắm) and aromatic sun-dried black peppercorns.',
       ],
       list: [
-        'Phu Quoc Fish Sauce: UNESCO-recognized heritage, aged in wooden vats for over 12 months using wild black anchovies.',
-        'Phu Quoc Peppercorns: Celebrated by Michelin-starred chefs worldwide for citrusy floral notes and lingering heat.',
-        'Sunset Dining Tradition: Savoring freshly barbecued catches on seaside promenades as dusk sets over the sea.',
+        'Phu Quoc Fish Sauce: Traditional fish sauce fermented in wooden vats with anchovies and sea salt according to island traditions.',
+        'Phu Quoc Peppercorns: Celebrated for citrusy floral notes and warm heat, widely used in regional Vietnamese cooking.',
+        'Sunset Dining Tradition: Enjoying fresh seafood dishes on seaside promenades as dusk sets over the sea.',
       ],
     },
     vi: {
       label: 'Tiếng Việt · Văn hóa ẩm thực đảo ngọc',
       paragraphs: [
-        'Phú Quốc không chỉ quyến rũ bởi biển xanh cát trắng mà còn níu chân du khách bằng nền ẩm thực trứ danh với hải sản tươi rói và hai đặc sản trứ danh: nước mắm cá cơm truyền thống và hồ tiêu đậm vị.',
+        'Phú Quốc được biết đến với nền ẩm thực biển đảo phong phú cùng các đặc sản truyền thống: nước mắm cá cơm lên men thùng gỗ và hồ tiêu thơm cay.',
       ],
       list: [
-        'Nước mắm Phú Quốc: Di sản văn hóa phi vật thể quốc gia, ủ chượp từ cá cơm than và muối biển trong thùng gỗ bời lời.',
-        'Hồ tiêu Phú Quốc: Hạt mẩy, cay nồng thơm ngát, gia vị đỉnh cao của ẩm thực.',
+        'Nước mắm Phú Quốc: Sản phẩm truyền thống ủ chượp từ cá cơm than và muối biển trong thùng gỗ.',
+        'Hồ tiêu Phú Quốc: Hạt tiêu thơm cay đặc trưng, gia vị chủ đạo của vùng đảo.',
       ],
     },
   },
@@ -446,13 +446,13 @@ export const FOOD_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = {
       ],
       list: [
         '느억맘 참(Nước mắm chấm): 피시소스에 물, 설탕, 라임 즙, 다진 마늘과 고추를 섞은 마법의 만능 디핑 소스. 튀김, 쌀국수 면, 구이에 곁들입니다.',
-        '무이 띠에우 짠(Muối tiêu chanh): 푸꾸옥 후추 소금에 생라임 즙을 듬뿍 짠 것으로, 해산물과 닭고기에 찍어 먹을 때 최고의 궁합을 자랑합니다.',
+        '무이 띠에우 짠(Muối tiêu chanh): 푸꾸옥 후추 소금에 생라임 즙을 듬뿍 짠 것으로, 해산물과 닭고기에 곁들여 먹는 대표적인 소스 조합입니다.',
         '신선한 허브(Rau thơm): 바질(Húng quế), 쿨란트로(Ngò gai), 민트, 어성초 등 향채를 손으로 찢어 국물에 넣거나 쌈에 곁들이면 소화와 풍미를 돕습니다.',
       ],
-      subheading: '선셋타운 식당 이용 꿀팁',
+      subheading: '선셋타운 식당 이용 안내',
       subList: [
         '얼음(Đá): 베트남에서는 맥주와 음료에 큰 원통형 얼음을 넣어 마십니다. 위생적인 식당에서는 정제 튜브 얼음을 제공합니다.',
-        '물티슈(Khăn lạnh): 식탁에 놓인 비닐 포장 물티슈는 보통 소액(약 2,000~5,000 VND)의 비용이 청구될 수 있습니다.',
+        '물티슈(Khăn lạnh): 식탁에 놓인 비닐 포장 물티슈는 매장 정책에 따라 소액의 비용이 추가될 수 있으니 영수증을 확인하세요.',
       ],
     },
     en: {
@@ -468,7 +468,7 @@ export const FOOD_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = {
       subheading: 'Local Dining Etiquette & Tips',
       subList: [
         'Ice with Beer: It is local tradition to pour beer over a giant ice cube in your glass to stay refreshing in tropical warmth.',
-        'Wet Towels (Khăn lạnh): Packaged wet wipes on tables are common and carry a nominal charge (2,000–5,000 VND).',
+        'Wet Towels (Khăn lạnh): Packaged wet wipes on tables are common and may carry a small charge depending on restaurant policy.',
       ],
     },
     vi: {
@@ -536,8 +536,8 @@ export const FOOD_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = {
         '선셋타운(Sunset Town) 내 대부분의 식당은 매장 식사뿐만 아니라 포장 및 인근 리조트/호텔 배달 서비스를 제공합니다.',
       ],
       list: [
-        '피크 시간 안내: 일몰 시간대(17:30~19:00) 및 키스 오브 더 씨(Kiss of the Sea) 분수쇼 전후(20:00~21:30)는 매장이 매우 붐비므로 사전 예약을 권장합니다.',
-        '배달 주문: 호텔 프런트나 그랩(GrabFood), 카카오톡/Zalo를 통해 룸서비스 대용으로 편리하게 배달받으실 수 있습니다.',
+        '피크 시간 안내: 일몰 시간대 및 공연 전후는 매장 이용객이 증가할 수 있으므로 예약 가능 여부를 확인하세요.',
+        '배달 주문: 호텔 프런트나 배달 앱(GrabFood), 메신저 채널을 통해 숙소로 배달받으실 수 있습니다.',
         '결제 수단: 베트남 동(VND) 현금, 국제 신용카드(Visa/Mastercard), 현지 QR 계좌이체(VietQR)가 널리 사용됩니다.',
       ],
     },
@@ -547,8 +547,8 @@ export const FOOD_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = {
         'Most restaurants across Sunset Town accommodate dine-in, takeaway, and delivery to nearby hotels and villas.',
       ],
       list: [
-        'Peak Hours: Sunset (17:30–19:00) and post-"Kiss of the Sea" show (20:00–21:30) are peak dining times; reservations are highly recommended for sea-view tables.',
-        'Delivery: Order conveniently via GrabFood, WhatsApp, or Zalo directly to your hotel lobby.',
+        'Peak Hours: Sunset and showtimes often see higher customer volumes; reservations are recommended where available.',
+        'Delivery: Order via GrabFood, WhatsApp, or Zalo directly to your hotel lobby.',
         'Payment: Cash (VND), international credit cards (Visa/Mastercard), and VietQR payments are widely accepted.',
       ],
     },
@@ -558,7 +558,7 @@ export const FOOD_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = {
         'Hầu hết các nhà hàng tại Thị trấn Hoàng Hôn đều phục vụ ăn tại chỗ, mua mang về và giao hàng tận nơi tới các resort/khách sạn lân cận.',
       ],
       list: [
-        'Khung giờ cao điểm: Thời điểm ngắm hoàng hôn (17:30 - 19:00) và sau show diễn Kiss of the Sea (20:00 - 21:30) rất đông khách, nên đặt bàn trước.',
+        'Khung giờ cao điểm: Thời điểm hoàng hôn và trước sau các sự kiện biểu diễn thường đông khách, nên liên hệ trước.',
         'Hình thức thanh toán: Tiền mặt VND, thẻ quốc tế và quét mã chuyển khoản QR tiện lợi.',
       ],
     },
