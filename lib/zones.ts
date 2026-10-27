@@ -502,20 +502,20 @@ export const MAIN_ZONES: Record<MainZoneSlug, MainZoneInfo> = {
 export const INTER_ZONE_TRANSIT = {
   headline: {
     ko: '두 구역 간 이동: 차량 약 10분 소요',
-    en: 'Travel between both hubs: approx. 10 mins by car',
-    zh: '两区相距仅约 10 分钟车程',
+    en: 'Travel between the two areas: approx. 10 mins by car',
+    zh: '两个区域之间的交通：车程约 10 分钟',
     ru: 'Поездка между районами занимает около 10 минут',
     ja: '両エリア間の移動：車で約10分',
-    hi: 'दोनों केंद्रों के बीच यात्रा: कार से लगभग 10 मिनट',
+    hi: 'दोनों क्षेत्रों के बीच यात्रा: कार से लगभग 10 मिनट',
     vi: 'Khoảng cách giữa hai khu vực: khoảng 10 phút đi xe',
   },
   description: {
     ko: '이동 수단: 택시 또는 그랩(지역·시간대에 따라 호출이 어려울 수 있음) · 차량 약 10분 소요',
     en: 'Transport: Taxi or Grab (availability may vary by time and location) · approx. 10 mins by car',
-    zh: '交通方式：出租车或 Grab 网约车（高峰期叫车可能需要稍作等待） · 车程约 10 分钟',
-    ru: 'Транспорт: Такси или Grab (доступность зависит от времени суток) · около 10 минут на машине',
+    zh: '交通方式：出租车或 Grab 网约车（根据地区和时段，可能较难叫到车） · 车程约 10 分钟',
+    ru: 'Транспорт: такси или Grab (в зависимости от района и времени суток вызвать машину может быть сложно) · около 10 минут на машине',
     ja: '交通手段：タクシーまたはGrab（時間帯や場所により手配に時間がかかる場合があります） · 車で約10分',
-    hi: 'परिवहन: टैक्सी या ग्रैब (समय अनुसार उपलब्धता भिन्न हो सकती है) · कार से लगभग 10 मिनट',
+    hi: 'परिवहन: टैक्सी या Grab (इलाके और समय के अनुसार गाड़ी बुक करना मुश्किल हो सकता है) · कार से लगभग 10 मिनट',
     vi: 'Phương tiện: Taxi hoặc Grab (tùy thời điểm và khu vực) · khoảng 10 phút đi xe',
   },
   badge: {
