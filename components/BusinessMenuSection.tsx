@@ -94,11 +94,21 @@ const MENU_NOTICE_TEXT: Record<string, string> = {
 const MENU_DETAILED_COLLECTING: Record<string, string> = {
   ko: '공식 메뉴판 세부 항목을 수집 중입니다. 대표 메뉴는 현장 주문 시 확인해 주세요.',
   vi: 'Đang cập nhật chi tiết các món ăn. Vui lòng kiểm tra khi đến quán.',
-  en: 'Detailed items are being verified. Please confirm on site.',
+  en: 'Detailed items are being gathered. Please confirm on site.',
   zh: '正在收集官方菜单的详细信息。主要推荐菜品请在店内点餐时确认。',
   ru: 'Подробная информация из официального меню ещё собирается. Основные фирменные позиции уточняйте при заказе на месте.',
   ja: '公式メニューの詳細項目を収集中です。代表的なメニューは店頭でのご注文時にご確認ください。',
   hi: 'आधिकारिक मेन्यू की विस्तृत जानकारी जुटाई जा रही है। प्रमुख व्यंजनों की जानकारी ऑर्डर करते समय वहीं पुष्टि करें।',
+}
+
+const MENU_PARTIAL_NOTICE: Record<string, string> = {
+  ko: '※ 본 매장은 주요 대표 메뉴 및 가격대가 등록되어 있습니다. 전체 메뉴 및 계절 특선은 매장 방문 시 확인하실 수 있습니다.',
+  vi: '※ Đây là danh sách các món đặc trưng được ghi nhận. Quý khách vui lòng xem toàn bộ thực đơn tại quán.',
+  en: '※ Representative menu items and prices are listed. Full menu available on site.',
+  zh: '※ 本店已收录主要代表菜品及价格区间。完整菜单和季节限定菜品请到店查看。',
+  ru: '※ Здесь указаны основные блюда и диапазон цен. Полное меню и сезонные предложения можно уточнить на месте.',
+  ja: '※ この店舗の主な代表メニューと価格帯を掲載しています。全メニューや季節限定メニューはご来店時にご確認ください。',
+  hi: '※ इस स्थान के प्रमुख व्यंजन और उनकी मूल्य सीमा दर्ज हैं। पूरा मेन्यू और मौसमी विशेष व्यंजन वहाँ जाकर देख सकते हैं।',
 }
 
 const SIGNATURE_BADGE: Record<string, string> = {
@@ -328,11 +338,7 @@ export function BusinessMenuSection({
           {menuData.grade !== 'A' && (
             <div className="menuPartialNotice" style={{ marginTop: '20px', fontSize: '12.5px' }}>
               <small>
-                {isKo
-                  ? '※ 본 매장은 주요 대표 메뉴 및 가격대가 등록되어 있습니다. 전체 메뉴 및 계절 특선은 매장 방문 시 확인하실 수 있습니다.'
-                  : isVi
-                  ? '※ Đây là danh sách các món đặc trưng đã xác thực. Quý khách vui lòng xem toàn bộ thực đơn tại quán.'
-                  : '※ Representative menu items and prices are verified. Full menu available on site.'}
+                {MENU_PARTIAL_NOTICE[locale] || MENU_PARTIAL_NOTICE.en}
               </small>
             </div>
           )}
@@ -342,7 +348,7 @@ export function BusinessMenuSection({
       {/* Menu boards (원본 메뉴판 이미지 갤러리 섹션) */}
       {menuImages && menuImages.length > 0 && (
         <div className="menuFiles">
-          <h3>{isKo ? '실측 메뉴판 이미지' : isVi ? 'Hình ảnh bảng giá thực tế' : 'Menu Boards'}</h3>
+          <h3>{isKo ? '메뉴판 이미지' : isVi ? 'Hình ảnh bảng giá thực tế' : 'Menu Boards'}</h3>
           <div className="menuFileGrid">
             {menuImages.map((img, idx) => (
               <a
