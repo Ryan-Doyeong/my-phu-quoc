@@ -1743,10 +1743,17 @@
 
 .mapAspectBox {
   position: relative;
-  width: min(100%, calc(720px * 887 / 1774));
+  width: min(100%, 540px);
   margin: 0 auto;
   aspect-ratio: 887 / 1774;
-  max-height: 720px;
+  max-height: 1080px;
+}
+
+@media (max-width: 1024px) {
+  .mapAspectBox {
+    width: min(100%, calc(720px * 887 / 1774));
+    max-height: 720px;
+  }
 }
 
 @media (max-width: 768px) {
