@@ -452,6 +452,7 @@ export function localizeStory(story: any, locale: Locale = 'en') {
     const heroCaption = f('hero_caption') || story.hero_caption || null
     const sourceName = f('source_name') || story.source_name || null
     const eventLocation = f('event_location') || story.event_location || null
+    const faqs = f('faqs') || story.faqs || []
     return {
       ...story,
       title,
@@ -473,6 +474,7 @@ export function localizeStory(story: any, locale: Locale = 'en') {
       heroCaption,
       source_name: sourceName,
       event_location: eventLocation,
+      faqs,
       hasVi,
       hasKo,
       availableLocales,
@@ -506,6 +508,7 @@ export function localizeStory(story: any, locale: Locale = 'en') {
     callout,
     hero_caption: heroCaption,
     heroCaption,
+    faqs: story.faqs || [],
     hasVi,
     hasKo,
     availableLocales,

@@ -59,7 +59,12 @@ export async function renderNewsListRoute(locale: Locale = 'en') {
     .order('published_at', { ascending: false })
     .limit(60)
 
-  const items = (data || []).map((raw) => localizeStory(raw, locale))
+  const dbSlugs = new Set((data || []).map((s: any) => s.slug))
+  const inRepoStories = PUBLISHED_EVENTS.filter(
+    (e) => e.status === 'published' && e.content_type !== 'event' && !dbSlugs.has(e.slug)
+  )
+  const allRaw = [...inRepoStories, ...(data || [])]
+  const items = allRaw.map((raw) => localizeStory(raw, locale))
 
   return (
     <main>
@@ -222,7 +227,7 @@ export async function renderArticleRoute(
 
   const articleLd: any = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': x.content_type === 'news' || x.content_type === 'guide' ? 'NewsArticle' : 'Article',
     headline: x.title,
     inLanguage: isUntranslatedFallback ? 'en' : locale,
     author: { '@type': 'Organization', name: 'My Phu Quoc' },
@@ -233,6 +238,22 @@ export async function renderArticleRoute(
   if (absCoverImage) articleLd.image = absCoverImage
   if (x.published_at) articleLd.datePublished = x.published_at
   if (x.updated_at) articleLd.dateModified = x.updated_at
+
+  const faqLd: any =
+    Array.isArray(x.faqs) && x.faqs.length > 0
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: x.faqs.map((f: any) => ({
+            '@type': 'Question',
+            name: f.question,
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: f.answer,
+            },
+          })),
+        }
+      : null
 
   const eventLd: any = isEvent
     ? {
@@ -291,7 +312,12 @@ export async function renderArticleRoute(
         ],
   }
 
-  const structuredData = eventLd ? [eventLd, articleLd, breadcrumbLd] : [articleLd, breadcrumbLd]
+  const structuredData = [
+    articleLd,
+    breadcrumbLd,
+    ...(eventLd ? [eventLd] : []),
+    ...(faqLd ? [faqLd] : []),
+  ]
 
   return (
     <main>
