@@ -47,6 +47,36 @@ function humanHours(v: any) {
   return rows.length ? rows : null
 }
 
+const PHOTO_SOURCE_LABEL: Record<string, string> = {
+  ko: '사진 출처:',
+  en: 'Photo Source:',
+  vi: 'Nguồn ảnh:',
+  zh: '照片来源：',
+  ru: 'Источник фото: ',
+  ja: '写真の出典：',
+  hi: 'फ़ोटो स्रोत: ',
+}
+
+const PHOTO_SOURCE_TARGET: Record<string, string> = {
+  ko: '업체 공식 홈페이지/SNS',
+  en: 'Official Website / Social Media',
+  vi: 'Website / Mạng xã hội chính thức của quán',
+  zh: '商家官方网站／社交媒体',
+  ru: 'Официальный сайт и соцсети заведения',
+  ja: '店舗公式サイト・SNS',
+  hi: 'व्यवसाय की आधिकारिक वेबसाइट / सोशल मीडिया',
+}
+
+const PHOTO_REQUEST_LINK: Record<string, string> = {
+  ko: '사진 삭제·수정 요청',
+  en: 'Request photo removal or update',
+  vi: 'Yêu cầu gỡ bỏ hoặc chỉnh sửa ảnh',
+  zh: '申请删除或修改照片',
+  ru: 'Запросить удаление или изменение фото',
+  ja: '写真の削除・修正依頼',
+  hi: 'फ़ोटो हटाने या बदलने का अनुरोध',
+}
+
 export async function generateBusinessMetadata(
   slug: string,
   locale: Locale = 'en'
@@ -263,14 +293,14 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                     gap: '6px',
                   }}
                 >
-                  <span>사진 출처:</span>
+                  <span>{PHOTO_SOURCE_LABEL[locale] || PHOTO_SOURCE_LABEL.en}</span>
                   <a
                     href={coverPhoto.source_page_url}
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ textDecoration: 'underline', color: 'inherit' }}
                   >
-                    업체 공식 홈페이지/SNS
+                    {PHOTO_SOURCE_TARGET[locale] || PHOTO_SOURCE_TARGET.en}
                   </a>
                   <span style={{ opacity: 0.5 }}>·</span>
                   <Link
@@ -280,7 +310,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                     )}
                     style={{ textDecoration: 'underline', color: 'inherit' }}
                   >
-                    사진 삭제·수정 요청
+                    {PHOTO_REQUEST_LINK[locale] || PHOTO_REQUEST_LINK.en}
                   </Link>
                 </div>
               </div>

@@ -10,6 +10,26 @@ interface CategoryKnowledgeSectionProps {
   locale?: Locale
 }
 
+const CATEGORY_GUIDE_TITLE: Record<string, string> = {
+  ko: '선셋타운 필수 상식 & 이용 안내 가이드',
+  vi: 'Cẩm nang kinh nghiệm & Hướng dẫn trải nghiệm',
+  en: 'Essential Tips & Category Guide',
+  zh: '日落小镇必备常识与游览指南',
+  ru: 'Основные сведения и руководство для посетителей Сансет-Тауна',
+  ja: 'サンセットタウンの基本知識・利用ガイド',
+  hi: 'सनसेट टाउन की ज़रूरी जानकारी और आगंतुक गाइड',
+}
+
+const CATEGORY_GUIDE_INTRO: Record<string, string> = {
+  ko: '방문 전 알아두면 유용한 기본 상식과 실전 팁을 안내합니다.',
+  vi: 'Những thông tin hữu ích và mẹo thực tế bạn nên biết trước khi trải nghiệm.',
+  en: 'Helpful background knowledge and practical tips to know before your visit.',
+  zh: '提供到访前值得了解的基本知识和实用建议。',
+  ru: 'Основная информация и практические советы, которые полезно знать перед посещением.',
+  ja: '訪問前に知っておくと役立つ基本知識と実用的なヒントをご案内します。',
+  hi: 'यात्रा से पहले जानने योग्य बुनियादी जानकारी और व्यावहारिक सुझाव दिए जाते हैं।',
+}
+
 export function CategoryKnowledgeSection({
   eyebrow,
   title,
@@ -23,17 +43,12 @@ export function CategoryKnowledgeSection({
 
   const displayTitle =
     title ||
-    (isKo
-      ? '선셋타운 필수 상식 & 이용 안내 가이드'
-      : isVi
-      ? 'Cẩm nang kinh nghiệm & Hướng dẫn trải nghiệm'
-      : 'Essential Tips & Category Guide')
+    CATEGORY_GUIDE_TITLE[locale] ||
+    CATEGORY_GUIDE_TITLE.en
 
-  const intro = isKo
-    ? '방문 전 알아두면 유용한 기본 상식과 실전 팁을 안내합니다.'
-    : isVi
-    ? 'Những thông tin hữu ích và mẹo thực tế bạn nên biết trước khi trải nghiệm.'
-    : 'Helpful background knowledge and practical tips to know before your visit.'
+  const intro =
+    CATEGORY_GUIDE_INTRO[locale] ||
+    CATEGORY_GUIDE_INTRO.en
 
   return (
     <section className="detailCard foodGuideCard" id="knowledge-guide">

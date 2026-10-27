@@ -41,6 +41,116 @@ function getItemCountText(count: number, locale: Locale): string {
   }
 }
 
+const MENU_TITLE: Record<string, string> = {
+  ko: '메뉴 & 가격 안내',
+  vi: 'Thực đơn & Bảng giá',
+  en: 'Menu & Prices',
+  zh: '菜单与价格信息',
+  ru: 'Меню и цены',
+  ja: 'メニュー・料金案内',
+  hi: 'मेन्यू और कीमतों की जानकारी',
+}
+
+const MENU_EYEBROW: Record<string, string> = {
+  ko: '메뉴',
+  vi: 'Thực đơn',
+  en: 'Menu',
+  zh: '菜单',
+  ru: 'Меню',
+  ja: 'メニュー',
+  hi: 'मेन्यू',
+}
+
+const MENU_UPDATING_BADGE: Record<string, string> = {
+  ko: '메뉴 정보 준비 중',
+  vi: 'Đang cập nhật',
+  en: 'Menu Updating',
+  zh: '菜单信息整理中',
+  ru: 'Информация о меню готовится',
+  ja: 'メニュー情報を準備中',
+  hi: 'मेन्यू की जानकारी तैयार की जा रही है',
+}
+
+const MENU_EMPTY_NOTICE: Record<string, string> = {
+  ko: '현재 온라인에 등록된 공식 메뉴판이 없습니다. 방문 시 현장에서 메뉴판을 확인해 주세요.',
+  vi: 'Chưa có thực đơn chính thức trực tuyến. Quý khách vui lòng kiểm tra trực tiếp tại quán.',
+  en: 'Official menu board is not yet registered online. Please check on site.',
+  zh: '目前尚无在线发布的官方菜单。请到店查看菜单。',
+  ru: 'Официальное меню пока не опубликовано онлайн. Пожалуйста, ознакомьтесь с ним на месте.',
+  ja: '現在、公式メニューはオンラインに掲載されていません。ご来店時に店頭でご確認ください。',
+  hi: 'फ़िलहाल आधिकारिक मेन्यू ऑनलाइन उपलब्ध नहीं है। कृपया वहाँ जाकर मेन्यू देखें।',
+}
+
+const MENU_NOTICE_TEXT: Record<string, string> = {
+  ko: '가격은 현장 사정 및 환율·물가 변동에 따라 상이할 수 있습니다. (2026-10 기준)',
+  vi: 'Giá có thể thay đổi tùy theo chương trình khuyến mãi hoặc thời điểm. (Tháng 10/2026)',
+  en: 'Prices may vary on site due to seasonal updates and inflation. (As of 2026-10)',
+  zh: '价格可能因现场情况、汇率及物价变化而有所不同。（截至2026-10）',
+  ru: 'Цены на месте могут отличаться в зависимости от текущих условий, обменного курса и цен. (По состоянию на 2026-10)',
+  ja: '価格は現地の状況や為替レート・物価の変動により異なる場合があります。（2026-10時点）',
+  hi: 'स्थानीय परिस्थितियों, विनिमय दर और महँगाई में बदलाव के कारण कीमतें अलग हो सकती हैं। (2026-10 के अनुसार)',
+}
+
+const MENU_DETAILED_COLLECTING: Record<string, string> = {
+  ko: '공식 메뉴판 세부 항목을 수집 중입니다. 대표 메뉴는 현장 주문 시 확인해 주세요.',
+  vi: 'Đang cập nhật chi tiết các món ăn. Vui lòng kiểm tra khi đến quán.',
+  en: 'Detailed items are being verified. Please confirm on site.',
+  zh: '正在收集官方菜单的详细信息。主要推荐菜品请在店内点餐时确认。',
+  ru: 'Подробная информация из официального меню ещё собирается. Основные фирменные позиции уточняйте при заказе на месте.',
+  ja: '公式メニューの詳細項目を収集中です。代表的なメニューは店頭でのご注文時にご確認ください。',
+  hi: 'आधिकारिक मेन्यू की विस्तृत जानकारी जुटाई जा रही है। प्रमुख व्यंजनों की जानकारी ऑर्डर करते समय वहीं पुष्टि करें।',
+}
+
+const SIGNATURE_BADGE: Record<string, string> = {
+  ko: 'SIGNATURE',
+  vi: 'SIGNATURE',
+  en: 'SIGNATURE',
+  zh: '招牌',
+  ru: 'Фирменное',
+  ja: 'シグネチャー',
+  hi: 'सिग्नेचर',
+}
+
+function formatMenuMetaHeader(date: string, source: string, loc: string): string {
+  switch (loc) {
+    case 'ko':
+      return `메뉴 기준일: ${date || '2026-10'}, 출처: ${source || '공식 메뉴판'}`
+    case 'vi':
+      return `Cập nhật: ${date || '10/2026'}, Nguồn: ${source || 'Thực đơn chính thức'}`
+    case 'zh':
+      return `菜单参考日期：${date || '2026-10'}，来源：${source || '官方菜单'}`
+    case 'ru':
+      return `Дата меню: ${date || '2026-10'}, источник: ${source || 'Официальное меню'}`
+    case 'ja':
+      return `メニュー基準日：${date || '2026-10'}、出典：${source || '公式メニュー'}`
+    case 'hi':
+      return `मेन्यू की संदर्भ तिथि: ${date || '2026-10'}, स्रोत: ${source || 'आधिकारिक मेन्यू'}`
+    case 'en':
+    default:
+      return `Menu as of: ${date || '2026-10'}, Source: ${source || 'Official Menu'}`
+  }
+}
+
+function formatMenuFooter(date: string, source: string, loc: string): string {
+  switch (loc) {
+    case 'ko':
+      return `메뉴 기준일: ${date} · 출처: ${source}`
+    case 'vi':
+      return `Ngày cập nhật: ${date} · Nguồn: ${source}`
+    case 'zh':
+      return `菜单参考日期：${date} · 来源：${source}`
+    case 'ru':
+      return `Дата меню: ${date} · Источник: ${source}`
+    case 'ja':
+      return `メニュー基準日：${date} · 出典：${source}`
+    case 'hi':
+      return `मेन्यू की संदर्भ तिथि: ${date} · स्रोत: ${source}`
+    case 'en':
+    default:
+      return `Menu updated: ${date} · Source: ${source}`
+  }
+}
+
 export function BusinessMenuSection({
   menuData,
   locale = 'ko',
@@ -57,13 +167,8 @@ export function BusinessMenuSection({
     setOpenSectionIdx((prev) => (prev === idx ? null : idx))
   }
 
-  const title = isKo
-    ? '메뉴 & 가격 안내'
-    : isVi
-    ? 'Thực đơn & Bảng giá'
-    : 'Menu & Prices'
-
-  const eyebrow = isKo ? '메뉴' : isVi ? 'Thực đơn' : 'Menu'
+  const title = MENU_TITLE[locale] || MENU_TITLE.en
+  const eyebrow = MENU_EYEBROW[locale] || MENU_EYEBROW.en
 
   if (!menuData) {
     return (
@@ -72,15 +177,11 @@ export function BusinessMenuSection({
         <h2>{title}</h2>
         <div style={{ marginTop: '12px' }}>
           <span className="menuBadge gradeD">
-            {isKo ? '메뉴 정보 준비 중' : isVi ? 'Đang cập nhật' : 'Menu Updating'}
+            {MENU_UPDATING_BADGE[locale] || MENU_UPDATING_BADGE.en}
           </span>
         </div>
         <p className="menuNote" style={{ marginTop: '12px' }}>
-          {isKo
-            ? '현재 온라인에 등록된 공식 메뉴판이 없습니다. 방문 시 현장에서 메뉴판을 확인해 주세요.'
-            : isVi
-            ? 'Chưa có thực đơn chính thức trực tuyến. Quý khách vui lòng kiểm tra trực tiếp tại quán.'
-            : 'Official menu board is not yet registered online. Please check on site.'}
+          {MENU_EMPTY_NOTICE[locale] || MENU_EMPTY_NOTICE.en}
         </p>
       </section>
     )
@@ -90,11 +191,7 @@ export function BusinessMenuSection({
   const gradeLabel = isKo ? gradeInfo.labelKo : gradeInfo.labelEn
   const gradeDesc = isKo ? gradeInfo.descKo : gradeInfo.descEn
 
-  const noticeText = isKo
-    ? '가격은 현장 사정 및 환율·물가 변동에 따라 상이할 수 있습니다. (2026-10 기준)'
-    : isVi
-    ? 'Giá có thể thay đổi tùy theo chương trình khuyến mãi hoặc thời điểm. (Tháng 10/2026)'
-    : 'Prices may vary on site due to seasonal updates and inflation. (As of 2026-10)'
+  const noticeText = MENU_NOTICE_TEXT[locale] || MENU_NOTICE_TEXT.en
 
   return (
     <section className="detailCard businessMenuCard" id="menu">
@@ -104,11 +201,7 @@ export function BusinessMenuSection({
       {/* 메뉴 출처 및 기준일 메타 정보 표기 (여행자 친화적 표기, 내부 관리 등급 문구 노출 금지) */}
       <div style={{ marginTop: '8px', marginBottom: '14px', display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
         <span style={{ fontSize: '13px', color: '#527982', fontWeight: 600 }}>
-          {isKo
-            ? `메뉴 기준일: ${menuData.verifiedDate || '2026-10'}, 출처: ${menuData.sourcesSummary || '공식 메뉴판'}`
-            : isVi
-            ? `Cập nhật: ${menuData.verifiedDate || '10/2026'}, Nguồn: ${menuData.sourcesSummary || 'Thực đơn chính thức'}`
-            : `Menu as of: ${menuData.verifiedDate || '2026-10'}, Source: ${menuData.sourcesSummary || 'Official Menu'}`}
+          {formatMenuMetaHeader(menuData.verifiedDate, menuData.sourcesSummary, locale)}
         </span>
       </div>
 
@@ -134,11 +227,7 @@ export function BusinessMenuSection({
       {menuData.isUnconfirmed && menuData.sections.length === 0 ? (
         <div className="unconfirmedNotice">
           <p>
-            {isKo
-              ? '공식 메뉴판 세부 항목을 수집 중입니다. 대표 메뉴는 현장 주문 시 확인해 주세요.'
-              : isVi
-              ? 'Đang cập nhật chi tiết các món ăn. Vui lòng kiểm tra khi đến quán.'
-              : 'Detailed items are being verified. Please confirm on site.'}
+            {MENU_DETAILED_COLLECTING[locale] || MENU_DETAILED_COLLECTING.en}
           </p>
         </div>
       ) : (
@@ -169,7 +258,7 @@ export function BusinessMenuSection({
                 >
                   <div className="menuAccordionTitleWrap">
                     <span className="menuAccordionTitle">{sectionTitle}</span>
-                    {sIdx === 0 && <span className="menuBadge best">SIGNATURE</span>}
+                    {sIdx === 0 && <span className="menuBadge best">{SIGNATURE_BADGE[locale] || SIGNATURE_BADGE.en}</span>}
                   </div>
                   <div className="menuAccordionMetaWrap">
                     <span className="menuItemCountBadge">{itemCountLabel}</span>
@@ -278,8 +367,7 @@ export function BusinessMenuSection({
 
       {/* Footer verification note */}
       <p className="menuNote">
-        {isKo ? '메뉴 기준일' : isVi ? 'Ngày cập nhật' : 'Menu updated'}: {menuData.verifiedDate} ·{' '}
-        {isKo ? '출처' : isVi ? 'Nguồn' : 'Source'}: {menuData.sourcesSummary}
+        {formatMenuFooter(menuData.verifiedDate, menuData.sourcesSummary, locale)}
       </p>
     </section>
   )

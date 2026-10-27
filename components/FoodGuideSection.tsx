@@ -9,6 +9,26 @@ interface FoodGuideSectionProps {
   locale?: Locale
 }
 
+const FOOD_GUIDE_TITLE: Record<string, string> = {
+  ko: '음식 알고 먹기 · 미식 지식 백과',
+  vi: 'Tìm hiểu món ăn & Văn hóa ẩm thực',
+  en: 'Get to Know the Food',
+  zh: '了解美食 · 美食知识百科',
+  ru: 'Знакомство с едой · Гастрономическая энциклопедия',
+  ja: '食を知る・グルメ知識百科',
+  hi: 'भोजन को जानें · पाक ज्ञान विश्वकोश',
+}
+
+const FOOD_GUIDE_INTRO: Record<string, string> = {
+  ko: '푸꾸옥 여행자를 위해 음식의 유래, 특징 및 식사 안내를 제공합니다.',
+  vi: 'Khám phá nguồn gốc, hương vị đặc trưng và bí quyết thưởng thức trọn vẹn món ăn.',
+  en: 'Discover the origins, signature flavors, and tips to savor this dish like a local.',
+  zh: '为富国岛游客提供有关美食起源、特点及用餐的指南。',
+  ru: 'Для туристов на Фукуоке представлена информация о происхождении и особенностях блюд, а также рекомендации по питанию.',
+  ja: 'フーコック島を訪れる旅行者向けに、料理の由来や特徴、食事に関する情報をご案内します。',
+  hi: 'फु क्वोक के यात्रियों के लिए व्यंजनों की उत्पत्ति, विशेषताओं और भोजन संबंधी जानकारी प्रदान की जाती है।',
+}
+
 export function FoodGuideSection({
   eyebrow,
   sections,
@@ -19,17 +39,8 @@ export function FoodGuideSection({
   const isKo = locale === 'ko'
   const isVi = locale === 'vi'
 
-  const title = isKo
-    ? '음식 알고 먹기 · 미식 지식 백과'
-    : isVi
-    ? 'Tìm hiểu món ăn & Văn hóa ẩm thực'
-    : 'Get to Know the Food'
-
-  const intro = isKo
-    ? '푸꾸옥 여행자를 위해 음식의 유래, 특징 및 식사 안내를 제공합니다.'
-    : isVi
-    ? 'Khám phá nguồn gốc, hương vị đặc trưng và bí quyết thưởng thức trọn vẹn món ăn.'
-    : 'Discover the origins, signature flavors, and tips to savor this dish like a local.'
+  const title = FOOD_GUIDE_TITLE[locale] || FOOD_GUIDE_TITLE.en
+  const intro = FOOD_GUIDE_INTRO[locale] || FOOD_GUIDE_INTRO.en
 
   return (
     <section className="detailCard foodGuideCard" id="food-guide">
