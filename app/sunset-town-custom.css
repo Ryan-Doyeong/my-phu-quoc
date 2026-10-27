@@ -1743,17 +1743,17 @@
 
 .mapAspectBox {
   position: relative;
-  width: min(100%, calc(640px * 2000 / 2914));
+  width: min(100%, calc(720px * 887 / 1774));
   margin: 0 auto;
-  aspect-ratio: 2000 / 2914;
-  max-height: 640px;
+  aspect-ratio: 887 / 1774;
+  max-height: 720px;
 }
 
 @media (max-width: 768px) {
   .mapAspectBox {
-    width: min(100%, calc(460px * 2000 / 2914));
+    width: min(100%, calc(600px * 887 / 1774));
     margin: 0 auto;
-    max-height: 460px;
+    max-height: 600px;
   }
 }
 
@@ -1799,26 +1799,30 @@
 }
 
 .mapPinBadge {
-  width: 24px;
-  height: 24px;
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
-  background: #0B7A8A;
-  color: #ffffff;
-  font-size: 11px;
-  font-weight: 800;
+  background: transparent;
+  color: transparent;
+  font-size: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #ffffff;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  transition: background 0.2s ease, box-shadow 0.2s ease;
+  border: 2px solid transparent;
+  transition: all 0.2s ease;
 }
 
 .mapPinItem:hover .mapPinBadge,
-.mapPinItem:focus-visible .mapPinBadge,
+.mapPinItem:focus-visible .mapPinBadge {
+  border: 2px solid #ffffff;
+  background: rgba(200, 109, 45, 0.25);
+  box-shadow: 0 0 0 3px #C86D2D, 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
 .mapPinItem.isPinActive .mapPinBadge {
-  background: #C86D2D;
-  box-shadow: 0 4px 12px rgba(200, 109, 45, 0.5);
+  border: 2px solid #ffffff;
+  background: rgba(200, 109, 45, 0.35);
+  box-shadow: 0 0 0 4px #C86D2D, 0 4px 16px rgba(200, 109, 45, 0.6);
 }
 
 .mapPinTooltip {
@@ -2311,22 +2315,16 @@
   background: #12333B;
   color: #ffffff;
   padding: 10px 20px;
-  font-size: 13px;
+  font-size: 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 8px;
 }
 
-.frameTopBarTitle {
-  font-weight: 600;
-  letter-spacing: -0.01em;
-}
-
-.frameTopBarBadge {
+.frameTopBar code {
   color: #3FB8C4;
+  font-family: monospace;
   font-size: 12px;
-  font-weight: 500;
 }
 
 .zoneHeroBanner {

@@ -333,11 +333,11 @@ export function SunsetTownMap({ locale }: Props) {
               className="mapBaseImage"
             />
 
-            {/* 12대 랜드마크 핀 오버레이 (2000 x 2914 원본 좌표계 기준 정밀 비율 배치) */}
+            {/* 12대 랜드마크 핀 오버레이 (887 x 1774 원본 좌표계 기준 정밀 비율 배치) */}
             <div className="mapPinsOverlay" aria-label="12 Landmark Pins">
               {SUNSET_LANDMARKS.map((lm) => {
-                const leftPercent = (lm.imgX / 2000) * 100
-                const topPercent = (lm.imgY / 2914) * 100
+                const leftPercent = (lm.imgX / 887) * 100
+                const topPercent = (lm.imgY / 1774) * 100
                 const isActive = activePinId === lm.id
                 const primaryName = lm.name[loc] || lm.name.en || lm.name.ko
 

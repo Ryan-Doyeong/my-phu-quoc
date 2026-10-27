@@ -12,6 +12,16 @@ interface BusinessMenuSectionProps {
   menuImages?: { url: string; label: string }[]
 }
 
+const PRICE_ON_REQUEST: Record<string, string> = {
+  ko: '현장 문의',
+  vi: 'Giá tại quán',
+  zh: '请向店家咨询价格',
+  ru: 'Уточняйте цену на месте',
+  ja: '料金は店舗にお問い合わせください',
+  hi: 'कीमत के लिए मौके पर पूछें',
+  en: 'Price on Request',
+}
+
 function getItemCountText(count: number, locale: Locale): string {
   switch (locale) {
     case 'ko':
@@ -207,7 +217,7 @@ export function BusinessMenuSection({
                             <span className="menuPrice">
                               {item.price_vnd !== null
                                 ? `${item.price_vnd.toLocaleString()} `
-                                : item.price_text || (isKo ? '가격 미확인' : isVi ? 'Chưa rõ giá' : 'Unconfirmed ')}
+                                : item.price_text || (PRICE_ON_REQUEST[locale] || PRICE_ON_REQUEST.en)}
                               {item.price_vnd !== null && <small>VND</small>}
                             </span>
                           </div>

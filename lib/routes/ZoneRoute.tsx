@@ -354,7 +354,7 @@ export async function renderZoneRoute(slug: string, locale: Locale = 'en') {
               <div className="transitTitle">{transitHeadline}</div>
               <ul className="transitList">
                 <li>
-                  <strong>{getTransportLabel(locale)}</strong> {transitDescription}
+                  {transitDescription}
                 </li>
               </ul>
               <div style={{ marginTop: '10px' }}>

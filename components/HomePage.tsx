@@ -28,6 +28,51 @@ import type { HomeSections } from '@/lib/homeSections'
 import { localePath, dateLocaleFor, type Locale } from '@/lib/i18n/config'
 import { getDictionary, localizeStory, translateTerm } from '@/lib/i18n/dictionaries'
 
+const HOME_NAV_SUNSET: Record<string, string> = {
+  ko: '선셋타운',
+  en: 'Sunset Town',
+  zh: '日落小镇',
+  ru: 'Сансет-Таун',
+  ja: 'サンセットタウン',
+  hi: 'सनसेट टाउन',
+}
+
+const HOME_NAV_KHEM: Record<string, string> = {
+  ko: '켐비치',
+  en: 'Khem Beach',
+  zh: '凯姆海滩',
+  ru: 'Пляж Кхем',
+  ja: 'ケムビーチ',
+  hi: 'खेम बीच',
+}
+
+const TWO_HUBS_EYEBROW: Record<string, string> = {
+  ko: 'TWO HUBS · 2대 구역',
+  en: 'TWO HUBS · DUAL ZONES',
+  zh: '两大区域',
+  ru: 'Две основные зоны',
+  ja: '2つの主要エリア',
+  hi: 'दो प्रमुख क्षेत्र',
+}
+
+const TWO_HUBS_TITLE: Record<string, string> = {
+  ko: '선셋타운 & 켐비치',
+  en: 'Sunset Town & Khem Beach',
+  zh: '日落小镇与凯姆海滩',
+  ru: 'Сансет-Таун и Пляж Кхем',
+  ja: 'サンセットタウン＆ケムビーチ',
+  hi: 'सनसेट टाउन और खेम बीच',
+}
+
+const TWO_HUBS_DESC: Record<string, string> = {
+  ko: '저녁·야경 중심의 선셋타운과 낮·해변 중심의 켐비치는 차량으로 약 10분 거리입니다.',
+  en: 'Sunset Town for evenings and night views, Khem Beach for daytime beach relaxation — about 10 minutes apart by car.',
+  zh: '日落小镇以傍晚活动和夜景为主，凯姆海滩适合白天的海滩休闲。两地车程约10分钟。',
+  ru: 'Сансет-Таун — для вечернего отдыха и ночных видов, а Пляж Кхем — для дневного отдыха на пляже. Между ними около 10 минут на машине.',
+  ja: '夕方と夜景が中心のサンセットタウンと、昼間のビーチでのんびり過ごせるケムビーチ。両エリア間は車で約10分です。',
+  hi: 'सनसेट टाउन शाम और रात के नज़ारों के लिए, जबकि खेम बीच दिन में समुद्र तट पर आराम करने के लिए है। दोनों के बीच कार से लगभग 10 मिनट लगते हैं।',
+}
+
 type Story = {
   id: string
   title: string
@@ -212,10 +257,10 @@ export function HomePage({
         <nav className="desktopNav">
           <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
           <Link href={localePath(locale, '/zones/sunset-town')}>
-            {locale === 'ko' ? '선셋타운' : 'Sunset Town'}
+            {HOME_NAV_SUNSET[locale] || HOME_NAV_SUNSET.en}
           </Link>
           <Link href={localePath(locale, '/zones/khem-beach')}>
-            {locale === 'ko' ? '켐비치' : 'Khem Beach'}
+            {HOME_NAV_KHEM[locale] || HOME_NAV_KHEM.en}
           </Link>
           <Link href={localePath(locale, '/directory/dining')}>
             {categoryLabel('dining', locale)}
@@ -418,15 +463,13 @@ export function HomePage({
         <section className="shell twoZonesSection" id="two-zones">
           <div className="sectionHeader">
             <span className="hubEyebrow">
-              {locale === 'ko' ? 'TWO HUBS · 2대 구역' : 'TWO HUBS · DUAL ZONES'}
+              {TWO_HUBS_EYEBROW[locale] || TWO_HUBS_EYEBROW.en}
             </span>
             <h3>
-              {locale === 'ko' ? '선셋타운 & 켐비치' : 'Sunset Town & Khem Beach'}
+              {TWO_HUBS_TITLE[locale] || TWO_HUBS_TITLE.en}
             </h3>
             <p>
-              {locale === 'ko'
-                ? '저녁·야경 중심의 선셋타운과 낮·해변 중심의 켐비치는 차량으로 약 10분 거리입니다.'
-                : 'Sunset Town for evening nightlife and Khem Beach for tranquil daytime relaxation — just 10 minutes apart by car.'}
+              {TWO_HUBS_DESC[locale] || TWO_HUBS_DESC.en}
             </p>
           </div>
 

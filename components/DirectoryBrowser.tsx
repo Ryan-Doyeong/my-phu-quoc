@@ -29,6 +29,69 @@ import {
   selectBusinessDescription,
 } from '@/lib/i18n/dictionaries'
 
+const MAP_LINK_LABEL: Record<string, string> = {
+  ko: '지도 보기 ↗',
+  en: 'Google Maps ↗',
+  zh: 'Google 地图 ↗',
+  ru: 'Google Карты ↗',
+  ja: 'Google マップ ↗',
+  hi: 'Google मैप्स ↗',
+}
+
+const EXPLORE_BY_ZONE_LABEL: Record<string, string> = {
+  ko: '구역별 보기 (선셋타운 & 켐비치)',
+  en: 'Explore by Zone',
+  zh: '按区域探索',
+  ru: 'Поиск по районам',
+  ja: 'エリアから探す',
+  hi: 'क्षेत्र के अनुसार खोजें',
+}
+
+const ALL_ZONES_LABEL: Record<string, string> = {
+  ko: '전체 구역',
+  en: 'All Zones',
+  zh: '全部区域',
+  ru: 'Все районы',
+  ja: 'すべてのエリア',
+  hi: 'सभी क्षेत्र',
+}
+
+const ZONE_FILTER_SUNSET: Record<string, string> = {
+  ko: '선셋타운',
+  en: 'Sunset Town',
+  zh: '日落小镇',
+  ru: 'Сансет-Таун',
+  ja: 'サンセットタウン',
+  hi: 'सनसेट टाउन',
+}
+
+const ZONE_FILTER_KHEM: Record<string, string> = {
+  ko: '켐비치',
+  en: 'Khem Beach',
+  zh: '凯姆海滩',
+  ru: 'Пляж Кхем',
+  ja: 'ケムビーチ',
+  hi: 'खेम बीच',
+}
+
+const PRICE_LEVEL_LABEL: Record<string, string> = {
+  ko: '가격대',
+  en: 'Price Level',
+  zh: '价格档次',
+  ru: 'Ценовая категория',
+  ja: '価格帯',
+  hi: 'मूल्य श्रेणी',
+}
+
+const ALL_PRICES_LABEL: Record<string, string> = {
+  ko: '전체 가격',
+  en: 'All Prices',
+  zh: '全部价位',
+  ru: 'Все ценовые категории',
+  ja: 'すべての価格帯',
+  hi: 'सभी मूल्य श्रेणियाँ',
+}
+
 type Business = {
   id: string
   public_name: string
@@ -168,7 +231,7 @@ function BusinessCard({ b, locale }: { b: Business; locale: Locale }) {
                   window.open(url, '_blank', 'noopener,noreferrer')
                 }}
               >
-                📍 {locale === 'ko' ? '지도 보기' : 'Google Maps'} ↗
+                📍 {MAP_LINK_LABEL[locale] || MAP_LINK_LABEL.en}
               </span>
             </div>
           )}
@@ -366,13 +429,13 @@ export function DirectoryBrowser({
         </div>
         <div>
           <div className="directoryFilterLabel">
-            {activeLocale === 'ko' ? '구역별 보기 (선셋타운 & 켐비치)' : 'Explore by Zone'}
+            {EXPLORE_BY_ZONE_LABEL[activeLocale] || EXPLORE_BY_ZONE_LABEL.en}
           </div>
-          <div className="directoryFilters zoneFilters" aria-label="Zones">
+          <div className="directoryFilters zoneFilters" aria-label={EXPLORE_BY_ZONE_LABEL[activeLocale] || 'Zones'}>
             {[
-              { key: 'all', label: activeLocale === 'ko' ? '전체 구역' : 'All Zones' },
-              { key: 'sunset-town', label: activeLocale === 'ko' ? '선셋타운' : 'Sunset Town' },
-              { key: 'khem-beach', label: activeLocale === 'ko' ? '켐비치' : 'Khem Beach' },
+              { key: 'all', label: ALL_ZONES_LABEL[activeLocale] || ALL_ZONES_LABEL.en },
+              { key: 'sunset-town', label: ZONE_FILTER_SUNSET[activeLocale] || ZONE_FILTER_SUNSET.en },
+              { key: 'khem-beach', label: ZONE_FILTER_KHEM[activeLocale] || ZONE_FILTER_KHEM.en },
             ].map(({ key, label }) => (
               <button
                 type="button"
@@ -387,9 +450,9 @@ export function DirectoryBrowser({
         </div>
         <div>
           <div className="directoryFilterLabel">
-            {activeLocale === 'ko' ? '가격대' : 'Price Level'}
+            {PRICE_LEVEL_LABEL[activeLocale] || PRICE_LEVEL_LABEL.en}
           </div>
-          <div className="directoryFilters priceFilters" aria-label="Price Level">
+          <div className="directoryFilters priceFilters" aria-label={PRICE_LEVEL_LABEL[activeLocale] || 'Price Level'}>
             {['All', '$', '$$', '$$$', '$$$$'].map((p) => (
               <button
                 type="button"
@@ -397,7 +460,7 @@ export function DirectoryBrowser({
                 className={priceFilter === p ? 'active' : ''}
                 onClick={() => setPriceFilter(p)}
               >
-                {p === 'All' ? (activeLocale === 'ko' ? '전체 가격' : 'All Prices') : p}
+                {p === 'All' ? (ALL_PRICES_LABEL[activeLocale] || ALL_PRICES_LABEL.en) : p}
               </button>
             ))}
           </div>
