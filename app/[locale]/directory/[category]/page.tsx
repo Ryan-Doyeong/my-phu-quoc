@@ -17,10 +17,13 @@ export async function generateMetadata({
 
 export default async function LocaleDirectoryPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ locale: string; category: string }>
+  searchParams?: Promise<{ zone?: string }>
 }) {
   const { locale, category } = await params
   if (!isPrefixedLocale(locale)) notFound()
-  return renderDirectoryRoute(category, locale)
+  const resolvedSearchParams = searchParams ? await searchParams : undefined
+  return renderDirectoryRoute(category, locale, resolvedSearchParams)
 }

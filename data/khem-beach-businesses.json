@@ -1,0 +1,611 @@
+[
+  {
+    "id": "khem-draft-001",
+    "public_name": "JW 메리어트 푸꾸옥 에메랄드 베이 리조트 & 스파",
+    "name_local": "JW Marriott Phu Quoc Emerald Bay Resort & Spa",
+    "slug": "jw-marriott-phu-quoc-emerald-bay",
+    "category": "hotels",
+    "subcategory": "resort",
+    "address": "Bãi Khem, An Thới, Phú Quốc, An Giang",
+    "description_en": "JW 메리어트 푸꾸옥 에메랄드 베이 리조트 & 스파 located at Khem Beach, Phu Quoc.",
+    "description_ko": "푸꾸옥 켐비치에 위치한 JW 메리어트 푸꾸옥 에메랄드 베이 리조트 & 스파.",
+    "google_maps_name": "JW Marriott Phu Quoc Emerald Bay Resort & Spa",
+    "google_maps_url": null,
+    "phone": null,
+    "website_url": null,
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "켐비치 해변 직접 위치한 대형 리조트",
+    "google_rating": null,
+    "google_review_count": null,
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "tags": [
+      "Khem Beach",
+      "hotels"
+    ],
+    "zone": "khem-beach"
+  },
+  {
+    "id": "khem-draft-002",
+    "public_name": "프리미어 레지던스 푸꾸옥 에메랄드 베이",
+    "name_local": "Premier Residences Phu Quoc Emerald Bay",
+    "slug": "premier-residences-phu-quoc-emerald-bay",
+    "category": "hotels",
+    "subcategory": "resort",
+    "address": "Bãi Khem, An Thới, Phú Quốc, An Giang",
+    "description_en": "프리미어 레지던스 푸꾸옥 에메랄드 베이 located at Khem Beach, Phu Quoc.",
+    "description_ko": "푸꾸옥 켐비치에 위치한 프리미어 레지던스 푸꾸옥 에메랄드 베이.",
+    "google_maps_name": "Premier Residences Phu Quoc Emerald Bay",
+    "google_maps_url": null,
+    "phone": null,
+    "website_url": null,
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "아코르(Accor) 운영 켐비치 해변 리조트",
+    "google_rating": null,
+    "google_review_count": null,
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "tags": [
+      "Khem Beach",
+      "hotels"
+    ],
+    "zone": "khem-beach"
+  },
+  {
+    "id": "khem-draft-003",
+    "public_name": "뉴월드 푸꾸옥 리조트",
+    "name_local": "New World Phu Quoc Resort",
+    "slug": "new-world-phu-quoc-resort",
+    "category": "hotels",
+    "subcategory": "resort",
+    "address": "Bãi Khem, An Thới, Phú Quốc, An Giang",
+    "description_en": "뉴월드 푸꾸옥 리조트 located at Khem Beach, Phu Quoc.",
+    "description_ko": "푸꾸옥 켐비치에 위치한 뉴월드 푸꾸옥 리조트.",
+    "google_maps_name": "New World Phu Quoc Resort",
+    "google_maps_url": null,
+    "phone": null,
+    "website_url": null,
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "켐비치 해변 리조트",
+    "google_rating": null,
+    "google_review_count": null,
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "tags": [
+      "Khem Beach",
+      "hotels"
+    ],
+    "zone": "khem-beach"
+  },
+  {
+    "id": "khem-draft-004",
+    "public_name": "파랄리아 켐비치 호텔 푸꾸옥",
+    "name_local": "Paralia Khem Beach Phu Quoc Hotel",
+    "slug": "paralia-khem-beach-phu-quoc-hotel",
+    "category": "hotels",
+    "subcategory": "hotel",
+    "address": "Shophouse D107-D115, Melodia, Bãi Khem, An Thới, Phú Quốc",
+    "description_en": "파랄리아 켐비치 호텔 푸꾸옥 located at Khem Beach, Phu Quoc.",
+    "description_ko": "푸꾸옥 켐비치에 위치한 파랄리아 켐비치 호텔 푸꾸옥.",
+    "google_maps_name": "Paralia Khem Beach Phu Quoc Hotel",
+    "google_maps_url": null,
+    "phone": null,
+    "website_url": null,
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "멜로디아 숍하우스 단지 내 부티크 호텔",
+    "google_rating": null,
+    "google_review_count": null,
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "tags": [
+      "Khem Beach",
+      "hotels"
+    ],
+    "zone": "khem-beach"
+  },
+  {
+    "id": "khem-draft-005",
+    "public_name": "JM 부티크 호텔 푸꾸옥",
+    "name_local": "JM Boutique Hotel Phu Quoc",
+    "slug": "jm-boutique-hotel-phu-quoc",
+    "category": "hotels",
+    "subcategory": "hotel",
+    "address": "Bãi Khem, An Thới, Phú Quốc, An Giang",
+    "description_en": "JM 부티크 호텔 푸꾸옥 located at Khem Beach, Phu Quoc.",
+    "description_ko": "푸꾸옥 켐비치에 위치한 JM 부티크 호텔 푸꾸옥.",
+    "google_maps_name": "JM Boutique Hotel Phu Quoc",
+    "google_maps_url": null,
+    "phone": null,
+    "website_url": null,
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "선 프라임 빌리지 숍하우스 구역 부티크 호텔",
+    "google_rating": null,
+    "google_review_count": null,
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "tags": [
+      "Khem Beach",
+      "hotels"
+    ],
+    "zone": "khem-beach"
+  },
+  {
+    "id": "khem-draft-006",
+    "public_name": "앤 호텔 & 스파 푸꾸옥",
+    "name_local": "Ann Hotel & Spa Phu Quoc",
+    "slug": "ann-hotel-spa-phu-quoc",
+    "category": "hotels",
+    "subcategory": "hotel",
+    "address": "Căn KB03, Khu đô thị Bãi Khem, An Thới, Phú Quốc",
+    "description_en": "앤 호텔 & 스파 푸꾸옥 located at Khem Beach, Phu Quoc.",
+    "description_ko": "푸꾸옥 켐비치에 위치한 앤 호텔 & 스파 푸꾸옥.",
+    "google_maps_name": "Ann Hotel & Spa Phu Quoc",
+    "google_maps_url": null,
+    "phone": null,
+    "website_url": null,
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "KB03 구역 부티크 호텔 및 스파 시설",
+    "google_rating": null,
+    "google_review_count": null,
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "tags": [
+      "Khem Beach",
+      "hotels"
+    ],
+    "zone": "khem-beach"
+  },
+  {
+    "id": "khem-draft-007",
+    "public_name": "핑크 펄",
+    "name_local": "Pink Pearl",
+    "slug": "pink-pearl-jw-marriott",
+    "category": "dining",
+    "subcategory": "fine_dining",
+    "address": "JW Marriott Phu Quoc, Bãi Khem, An Thới, Phú Quốc",
+    "description_en": "핑크 펄 located at Khem Beach, Phu Quoc.",
+    "description_ko": "푸꾸옥 켐비치에 위치한 핑크 펄.",
+    "google_maps_name": "Pink Pearl",
+    "google_maps_url": null,
+    "phone": null,
+    "website_url": null,
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "JW 메리어트 내 프렌치 파인다이닝 식당",
+    "google_rating": null,
+    "google_review_count": null,
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "tags": [
+      "Khem Beach",
+      "dining"
+    ],
+    "zone": "khem-beach"
+  },
+  {
+    "id": "khem-draft-008",
+    "public_name": "템푸스 푸짓",
+    "name_local": "Tempus Fugit",
+    "slug": "tempus-fugit-jw-marriott",
+    "category": "dining",
+    "subcategory": "restaurant",
+    "address": "JW Marriott Phu Quoc, Bãi Khem, An Thới, Phú Quốc",
+    "description_en": "템푸스 푸짓 located at Khem Beach, Phu Quoc.",
+    "description_ko": "푸꾸옥 켐비치에 위치한 템푸스 푸짓.",
+    "google_maps_name": "Tempus Fugit",
+    "google_maps_url": null,
+    "phone": null,
+    "website_url": null,
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "JW 메리어트 올데이 다이닝 뷔페 및 단품 식당",
+    "google_rating": null,
+    "google_review_count": null,
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "tags": [
+      "Khem Beach",
+      "dining"
+    ],
+    "zone": "khem-beach"
+  },
+  {
+    "id": "khem-draft-009",
+    "public_name": "레드 럼",
+    "name_local": "Red Rum",
+    "slug": "red-rum-jw-marriott",
+    "category": "dining",
+    "subcategory": "restaurant",
+    "address": "JW Marriott Phu Quoc, Bãi Khem, An Thới, Phú Quốc",
+    "description_en": "레드 럼 located at Khem Beach, Phu Quoc.",
+    "description_ko": "푸꾸옥 켐비치에 위치한 레드 럼.",
+    "google_maps_name": "Red Rum",
+    "google_maps_url": null,
+    "phone": null,
+    "website_url": null,
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "JW 메리어트 해변가 시푸드 및 그릴 바비큐 식당",
+    "google_rating": null,
+    "google_review_count": null,
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "tags": [
+      "Khem Beach",
+      "dining"
+    ],
+    "zone": "khem-beach"
+  },
+  {
+    "id": "khem-draft-010",
+    "public_name": "클럽하우스 레스토랑",
+    "name_local": "Clubhouse Restaurant",
+    "slug": "clubhouse-premier-residences",
+    "category": "dining",
+    "subcategory": "restaurant",
+    "address": "Premier Residences Phu Quoc, Bãi Khem, An Thới, Phú Quốc",
+    "description_en": "클럽하우스 레스토랑 located at Khem Beach, Phu Quoc.",
+    "description_ko": "푸꾸옥 켐비치에 위치한 클럽하우스 레스토랑.",
+    "google_maps_name": "Clubhouse Restaurant",
+    "google_maps_url": null,
+    "phone": null,
+    "website_url": null,
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "프리미어 레지던스 수영장 및 해변 앞 레스토랑",
+    "google_rating": null,
+    "google_review_count": null,
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "tags": [
+      "Khem Beach",
+      "dining"
+    ],
+    "zone": "khem-beach"
+  },
+  {
+    "id": "khem-draft-011",
+    "public_name": "메르카토 레스토랑",
+    "name_local": "Mercato Restaurant",
+    "slug": "mercato-restaurant-premier-residences",
+    "category": "dining",
+    "subcategory": "restaurant",
+    "address": "Premier Residences Phu Quoc, Bãi Khem, An Thới, Phú Quốc",
+    "description_en": "메르카토 레스토랑 located at Khem Beach, Phu Quoc.",
+    "description_ko": "푸꾸옥 켐비치에 위치한 메르카토 레스토랑.",
+    "google_maps_name": "Mercato Restaurant",
+    "google_maps_url": null,
+    "phone": null,
+    "website_url": null,
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "프리미어 레지던스 메인 다이닝 뷔페 식당",
+    "google_rating": null,
+    "google_review_count": null,
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "tags": [
+      "Khem Beach",
+      "dining"
+    ],
+    "zone": "khem-beach"
+  },
+  {
+    "id": "khem-draft-012",
+    "public_name": "더 베이 키친",
+    "name_local": "The Bay Kitchen",
+    "slug": "the-bay-kitchen-new-world",
+    "category": "dining",
+    "subcategory": "restaurant",
+    "address": "New World Phu Quoc Resort, Bãi Khem, An Thới, Phú Quốc",
+    "description_en": "더 베이 키친 located at Khem Beach, Phu Quoc.",
+    "description_ko": "푸꾸옥 켐비치에 위치한 더 베이 키친.",
+    "google_maps_name": "The Bay Kitchen",
+    "google_maps_url": null,
+    "phone": null,
+    "website_url": null,
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "뉴월드 리조트 올데이 다이닝 식당",
+    "google_rating": null,
+    "google_review_count": null,
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "tags": [
+      "Khem Beach",
+      "dining"
+    ],
+    "zone": "khem-beach"
+  },
+  {
+    "id": "khem-draft-017",
+    "public_name": "디파트먼트 오브 케미스트리 바",
+    "name_local": "Department of Chemistry Bar",
+    "slug": "department-of-chemistry-bar-jw-marriott",
+    "category": "bars",
+    "subcategory": "cocktail_bar",
+    "address": "JW Marriott Phu Quoc, Bãi Khem, An Thới, Phú Quốc",
+    "description_en": "디파트먼트 오브 케미스트리 바 located at Khem Beach, Phu Quoc.",
+    "description_ko": "푸꾸옥 켐비치에 위치한 디파트먼트 오브 케미스트리 바.",
+    "google_maps_name": "Department of Chemistry Bar",
+    "google_maps_url": null,
+    "phone": null,
+    "website_url": null,
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "JW 메리어트 해변 오션뷰 칵테일 바",
+    "google_rating": null,
+    "google_review_count": null,
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "tags": [
+      "Khem Beach",
+      "bars"
+    ],
+    "zone": "khem-beach"
+  },
+  {
+    "id": "khem-draft-018",
+    "public_name": "프렌치 앤 코",
+    "name_local": "French & Co.",
+    "slug": "french-and-co-jw-marriott",
+    "category": "bars",
+    "subcategory": "cafe",
+    "address": "JW Marriott Phu Quoc, Bãi Khem, An Thới, Phú Quốc",
+    "description_en": "프렌치 앤 코 located at Khem Beach, Phu Quoc.",
+    "description_ko": "푸꾸옥 켐비치에 위치한 프렌치 앤 코.",
+    "google_maps_name": "French & Co.",
+    "google_maps_url": null,
+    "phone": null,
+    "website_url": null,
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "JW 메리어트 내 프랑스풍 베이커리 및 카페",
+    "google_rating": null,
+    "google_review_count": null,
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "tags": [
+      "Khem Beach",
+      "bars"
+    ],
+    "zone": "khem-beach"
+  },
+  {
+    "id": "khem-draft-019",
+    "public_name": "풀 바",
+    "name_local": "Pool Bar",
+    "slug": "pool-bar-premier-residences",
+    "category": "bars",
+    "subcategory": "bar",
+    "address": "Premier Residences Phu Quoc, Bãi Khem, An Thới, Phú Quốc",
+    "description_en": "풀 바 located at Khem Beach, Phu Quoc.",
+    "description_ko": "푸꾸옥 켐비치에 위치한 풀 바.",
+    "google_maps_name": "Pool Bar",
+    "google_maps_url": null,
+    "phone": null,
+    "website_url": null,
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "프리미어 레지던스 중앙 수영장 음료 및 칵테일 바",
+    "google_rating": null,
+    "google_review_count": null,
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "tags": [
+      "Khem Beach",
+      "bars"
+    ],
+    "zone": "khem-beach"
+  },
+  {
+    "id": "khem-draft-020",
+    "public_name": "샹트렐 스파 바이 JW",
+    "name_local": "Chanterelle - Spa by JW",
+    "slug": "chanterelle-spa-by-jw",
+    "category": "wellness",
+    "subcategory": "spa",
+    "address": "JW Marriott Phu Quoc, Bãi Khem, An Thới, Phú Quốc",
+    "description_en": "샹트렐 스파 바이 JW located at Khem Beach, Phu Quoc.",
+    "description_ko": "푸꾸옥 켐비치에 위치한 샹트렐 스파 바이 JW.",
+    "google_maps_name": "Chanterelle - Spa by JW",
+    "google_maps_url": null,
+    "phone": null,
+    "website_url": null,
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "JW 메리어트 리조트 내 프리미엄 스파 시설",
+    "google_rating": null,
+    "google_review_count": null,
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "tags": [
+      "Khem Beach",
+      "wellness"
+    ],
+    "zone": "khem-beach"
+  },
+  {
+    "id": "khem-draft-021",
+    "public_name": "에메랄드 스파",
+    "name_local": "Emerald Spa",
+    "slug": "emerald-spa-premier-residences",
+    "category": "wellness",
+    "subcategory": "spa",
+    "address": "Premier Residences Phu Quoc, Bãi Khem, An Thới, Phú Quốc",
+    "description_en": "에메랄드 스파 located at Khem Beach, Phu Quoc.",
+    "description_ko": "푸꾸옥 켐비치에 위치한 에메랄드 스파.",
+    "google_maps_name": "Emerald Spa",
+    "google_maps_url": null,
+    "phone": null,
+    "website_url": null,
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "프리미어 레지던스 내 웰니스 스파 시설",
+    "google_rating": null,
+    "google_review_count": null,
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "tags": [
+      "Khem Beach",
+      "wellness"
+    ],
+    "zone": "khem-beach"
+  },
+  {
+    "id": "khem-draft-022",
+    "public_name": "더 스파 앳 뉴월드",
+    "name_local": "The Spa at New World",
+    "slug": "the-spa-at-new-world",
+    "category": "wellness",
+    "subcategory": "spa",
+    "address": "New World Phu Quoc Resort, Bãi Khem, An Thới, Phú Quốc",
+    "description_en": "더 스파 앳 뉴월드 located at Khem Beach, Phu Quoc.",
+    "description_ko": "푸꾸옥 켐비치에 위치한 더 스파 앳 뉴월드.",
+    "google_maps_name": "The Spa at New World",
+    "google_maps_url": null,
+    "phone": null,
+    "website_url": null,
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "뉴월드 푸꾸옥 리조트 전용 스파 시설",
+    "google_rating": null,
+    "google_review_count": null,
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "tags": [
+      "Khem Beach",
+      "wellness"
+    ],
+    "zone": "khem-beach"
+  },
+  {
+    "id": "khem-draft-023",
+    "public_name": "바이켐 해변",
+    "name_local": "Bãi Khem Beach",
+    "slug": "bai-khem-beach",
+    "category": "beaches",
+    "subcategory": "beach",
+    "address": "Bãi Khem, An Thới, Phú Quốc, An Giang",
+    "description_en": "바이켐 해변 located at Khem Beach, Phu Quoc.",
+    "description_ko": "푸꾸옥 켐비치에 위치한 바이켐 해변.",
+    "google_maps_name": "Bãi Khem Beach",
+    "google_maps_url": null,
+    "phone": null,
+    "website_url": null,
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "구글맵 공식 장소 및 Unsplash 위치태그(3wqun2PnZqo) 확인된 천연 백사장 해변",
+    "google_rating": null,
+    "google_review_count": null,
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "tags": [
+      "Khem Beach",
+      "beaches"
+    ],
+    "zone": "khem-beach"
+  },
+  {
+    "id": "khem-draft-024",
+    "public_name": "프리미어 레지던스 해양 레저 센터",
+    "name_local": "Water Sports at Premier Residences",
+    "slug": "water-sports-premier-residences",
+    "category": "activities",
+    "subcategory": "water_sports",
+    "address": "Bãi Khem Beach, An Thới, Phú Quốc",
+    "description_en": "프리미어 레지던스 해양 레저 센터 located at Khem Beach, Phu Quoc.",
+    "description_ko": "푸꾸옥 켐비치에 위치한 프리미어 레지던스 해양 레저 센터.",
+    "google_maps_name": "Water Sports at Premier Residences",
+    "google_maps_url": null,
+    "phone": null,
+    "website_url": null,
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "카약 및 SUP 패들보드 등 무동력 해양 레저 운영 확인",
+    "google_rating": null,
+    "google_review_count": null,
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "tags": [
+      "Khem Beach",
+      "activities"
+    ],
+    "zone": "khem-beach"
+  },
+  {
+    "id": "khem-draft-026",
+    "public_name": "푸꾸옥 택시 승강장 (켐비치 리조트 게이트)",
+    "name_local": "Taxi Stand Khem Beach Resorts",
+    "slug": "taxi-stand-khem-beach-resorts",
+    "category": "transport",
+    "subcategory": "taxi",
+    "address": "Cổng các khu nghỉ dưỡng Bãi Khem, An Thới, Phú Quốc",
+    "description_en": "푸꾸옥 택시 승강장 (켐비치 리조트 게이트) located at Khem Beach, Phu Quoc.",
+    "description_ko": "푸꾸옥 켐비치에 위치한 푸꾸옥 택시 승강장 (켐비치 리조트 게이트).",
+    "google_maps_name": "Taxi Stand Khem Beach Resorts",
+    "google_maps_url": null,
+    "phone": null,
+    "website_url": null,
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "프리미어 레지던스 공식 교통 안내 페이지 확인 (리조트 로비 택시/차량 서비스 및 공항 셔틀 운영)",
+    "google_rating": null,
+    "google_review_count": null,
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "tags": [
+      "Khem Beach",
+      "transport"
+    ],
+    "zone": "khem-beach"
+  }
+]

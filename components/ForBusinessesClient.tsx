@@ -235,7 +235,7 @@ export function ForBusinessesClient({ locale = 'en' }: { locale?: Locale }) {
                       ? 'e.g. Pearls, Souvenirs, Local Specialties'
                       : category === 'activities'
                       ? 'e.g. Island Hopping, Show, Family Friendly'
-                      : category === 'beach'
+                      : (category as string) === 'beaches' || (category as string) === 'beach'
                       ? 'e.g. Sun Loungers, Quiet, Water Sports'
                       : category === 'wellness'
                       ? 'e.g. Massage, Nail Art, Sunburn Care'

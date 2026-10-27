@@ -14,6 +14,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const staticPaths = [
     '/',
+    '/zones/sunset-town',
+    '/zones/khem-beach',
     ...DIRECTORY_CATEGORY_KEYS.map((key) => `/directory/${key}`),
     '/news',
     '/events',

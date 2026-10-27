@@ -234,19 +234,21 @@ export function DirectoryBrowser({
   shuffleSeed,
   locale = 'en',
   isVi,
+  initialZone,
 }: {
   category: DirectoryCategory
   items: Business[]
   shuffleSeed: string
   locale?: Locale
   isVi?: boolean
+  initialZone?: 'sunset-town' | 'khem-beach'
 }) {
   const activeLocale: Locale = isVi ? 'vi' : locale
   const dict = getDictionary(activeLocale)
   const [q, setQ] = useState('')
   const [filter, setFilter] = useState('All')
   const [labelFilter, setLabelFilter] = useState<LabelFilter>('All')
-  const [zoneFilter, setZoneFilter] = useState<SunsetZoneKey>('all')
+  const [zoneFilter, setZoneFilter] = useState<SunsetZoneKey>(initialZone || 'all')
   const [priceFilter, setPriceFilter] = useState<string>('All')
   const config = DIRECTORY_CATEGORIES[category]
   const catLabel = categoryLabel(category, activeLocale)
@@ -364,17 +366,21 @@ export function DirectoryBrowser({
         </div>
         <div>
           <div className="directoryFilterLabel">
-            {activeLocale === 'ko' ? '선셋타운 구역별 보기' : 'Sunset Town Quarters'}
+            {activeLocale === 'ko' ? '구역별 보기 (선셋타운 & 켐비치)' : 'Explore by Zone'}
           </div>
-          <div className="directoryFilters zoneFilters" aria-label="Sunset Town Zones">
-            {SUNSET_ZONE_KEYS.map((k) => (
+          <div className="directoryFilters zoneFilters" aria-label="Zones">
+            {[
+              { key: 'all', label: activeLocale === 'ko' ? '전체 구역' : 'All Zones' },
+              { key: 'sunset-town', label: activeLocale === 'ko' ? '선셋타운' : 'Sunset Town' },
+              { key: 'khem-beach', label: activeLocale === 'ko' ? '켐비치' : 'Khem Beach' },
+            ].map(({ key, label }) => (
               <button
                 type="button"
-                key={k}
-                className={zoneFilter === k ? 'active' : ''}
-                onClick={() => setZoneFilter(k)}
+                key={key}
+                className={zoneFilter === key ? 'active' : ''}
+                onClick={() => setZoneFilter(key as SunsetZoneKey)}
               >
-                {zoneLabel(k, activeLocale)}
+                {label}
               </button>
             ))}
           </div>

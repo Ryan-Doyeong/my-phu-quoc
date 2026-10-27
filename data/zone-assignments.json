@@ -1,0 +1,3123 @@
+{
+  "local-sunset-1": {
+    "place_id": "local-sunset-1",
+    "google_place_id": "ChIJ9SwzZzeVpzERAz84CLvBLh8",
+    "name": "노스카 호텔 선셋타운 (Noska Hotel Sunset Town Sea View & Fireworks)",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-2": {
+    "place_id": "local-sunset-2",
+    "google_place_id": "ChIJ5RnXOaiXpzER0QhbiBUJ6d8",
+    "name": "사쿠라쿄 호텔 & 스파 푸꾸옥 (Sakurakyo Hotel & Spa)",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-3": {
+    "place_id": "local-sunset-3",
+    "google_place_id": "ChIJT1X9WkqVpzERe6nExGNSEYw",
+    "name": "베니스 호텔 푸꾸옥 (Venice Hotel Phu Quoc)",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-4": {
+    "place_id": "local-sunset-4",
+    "google_place_id": "ChIJjwfWKIqXpzERYsn-qQI_59o",
+    "name": "로마 호텔 푸꾸옥 (Roma Hotel Phu Quoc)",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-5": {
+    "place_id": "local-sunset-5",
+    "google_place_id": "ChIJ5Z5ZTfmVpzERiSVXng2WHUY",
+    "name": "더 줄리엣 부티크 호텔 & 커피 Ven 07 (The Juliet Boutique Hotel)",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-6": {
+    "place_id": "local-sunset-6",
+    "google_place_id": "ChIJk0mFcgCVpzERf3VayqKU9Ug",
+    "name": "한국관 BBQ 하우스 포 유 (Korean BBQ House)",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-7": {
+    "place_id": "local-sunset-7",
+    "google_place_id": "ChIJk9NfQm6XpzERAcfkxs2uJV8",
+    "name": "타임즈 코너 소렌토 부티크 호텔 (Times Corner Sorrento)",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-8": {
+    "place_id": "local-sunset-8",
+    "google_place_id": "ChIJtc9o0lKXpzERaiJkBt3PCf0",
+    "name": "로얄 호텔 푸꾸옥 1 (Royal Hotel Phu Quoc)",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-9": {
+    "place_id": "local-sunset-9",
+    "google_place_id": "ChIJjZ-YVl6XpzERBev66-X35uQ",
+    "name": "펠라 호텔 선셋타운 (Fella Hotel Sunset Town)",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-10": {
+    "place_id": "local-sunset-10",
+    "google_place_id": "ChIJjRZrewCXpzERoLfxbMC-_ao",
+    "name": "타임즈 코너 아말피 호텔 (Times Corner Amalfi Hotel)",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-11": {
+    "place_id": "local-sunset-11",
+    "google_place_id": "ChIJHdlM6--XpzERU4FcoKO7V3k",
+    "name": "로지 힐사이드 시뷰 아파트먼트 (Rosie Hillside Seaview Apartment)",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-12": {
+    "place_id": "local-sunset-12",
+    "google_place_id": "ChIJRxYLYomXpzERCi3mFgoiNp4",
+    "name": "카세피아 호텔 푸꾸옥 (Casepia Hotel Phu Quoc)",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-13": {
+    "place_id": "local-sunset-13",
+    "google_place_id": "ChIJPZ4-MRiXpzER0cBb6s2l0EI",
+    "name": "르 보뇌르 호텔 (Le Bonheur Hotel Sunset Town)",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-14": {
+    "place_id": "local-sunset-14",
+    "google_place_id": "ChIJE1DWLR2XpzERHLkECUYFH9A",
+    "name": "루나 솔 선셋 & 파이어웍스 시그니처 (Luna Sol Hillside Apartment)",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-15": {
+    "place_id": "local-sunset-15",
+    "google_place_id": "ChIJCY_uEYqXpzERtNAHnYgN8rc",
+    "name": "드 스테파노 커피 앤 호텔 (De Stefano Coffee & Hotel)",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-16": {
+    "place_id": "local-sunset-16",
+    "google_place_id": "ChIJlXfNAn-VpzERPevvIKQTJiM",
+    "name": "스타벅스 비치 하우스 선셋타운점 (Starbucks Beach House Sun Primavera)",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-17": {
+    "place_id": "local-sunset-17",
+    "google_place_id": "ChIJSxxK2hKXpzEREXkxEzCQ--w",
+    "name": "엘리데이 아파트먼트 힐사이드 푸꾸옥 (Elyday Apartment Hillside)",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-18": {
+    "place_id": "local-sunset-18",
+    "google_place_id": "ChIJkxnyzB-VpzERiqEaw7e2MHA",
+    "name": "Blue Hotel Sunset Town Phu Quoc",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-19": {
+    "place_id": "local-sunset-19",
+    "google_place_id": "ChIJw1HTFTKVpzERuz5tY3Ixnpo",
+    "name": "The Memory Hotel - Sunset Town Phú Quốc",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-20": {
+    "place_id": "local-sunset-20",
+    "google_place_id": "ChIJLzWBN6KVpzERtskBmd6MwKw",
+    "name": "Blue Home Sunset Town Phu Quoc",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-21": {
+    "place_id": "local-sunset-21",
+    "google_place_id": "ChIJk5O2QguXpzERx3GTGWc8ck8",
+    "name": "Sunset Town Hillside Apartment",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-22": {
+    "place_id": "local-sunset-22",
+    "google_place_id": "ChIJpwj5PxOXpzER9t6nZE6l51g",
+    "name": "The Sunset Seaview Phu Quoc Apartments",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-23": {
+    "place_id": "local-sunset-23",
+    "google_place_id": "ChIJS5nx7xuXpzERhPHmeeq9Leo",
+    "name": "Summer Homestay Phu Quoc",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-24": {
+    "place_id": "local-sunset-24",
+    "google_place_id": "ChIJydXEsh-VpzERcKXaLqqv-20",
+    "name": "Sunset Home Airbnb Phu Quoc",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-25": {
+    "place_id": "local-sunset-25",
+    "google_place_id": "ChIJYT2Wn8qLpzERrMAUGknSA4c",
+    "name": "Tiny House Phu Quoc",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-26": {
+    "place_id": "local-sunset-26",
+    "google_place_id": "ChIJnbI5PgCXpzERL5VQGOXcvgY",
+    "name": "Toà H2, Sun Grand City Hillside Residence",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-27": {
+    "place_id": "local-sunset-27",
+    "google_place_id": "ChIJg0lBcACXpzERWCJOUaO-NCU",
+    "name": "Phu quoc sunset",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-28": {
+    "place_id": "local-sunset-28",
+    "google_place_id": "ChIJHV-DBISVpzERUz8K6OFUIGo",
+    "name": "ROSY HOTEL Phu Quoc Sunset town",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-29": {
+    "place_id": "local-sunset-29",
+    "google_place_id": "ChIJ8wmMbXaXpzERStmPml0_UD8",
+    "name": "Milan Hotel",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-30": {
+    "place_id": "local-sunset-30",
+    "google_place_id": "ChIJM7-eNwCXpzERplviN61yYmc",
+    "name": "TH Luxury Hotel",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-31": {
+    "place_id": "local-sunset-31",
+    "google_place_id": "ChIJRReqm0iXpzERKSxB7jzof78",
+    "name": "Sunset Home - Apartment Phu Quoc",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-32": {
+    "place_id": "local-sunset-32",
+    "google_place_id": "ChIJ1yTVrpyVpzER3zYlS4ZhGqA",
+    "name": "The Juliet A Boutique Hotel & Coffee - Ama 71",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-33": {
+    "place_id": "local-sunset-33",
+    "google_place_id": "ChIJCx9KjDKVpzERrjOgARaHuHI",
+    "name": "Seasons Hotel - Khách Sạn Sunset Town Phú Quốc",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-34": {
+    "place_id": "local-sunset-34",
+    "google_place_id": "ChIJOZ1p38-VpzERKC1kUSIrA4A",
+    "name": "Triland Hillside",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-35": {
+    "place_id": "local-sunset-35",
+    "google_place_id": "ChIJnQsRSQCXpzERZ64K0hh7wXE",
+    "name": "Royal Hotel Phu Quoc 2",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-36": {
+    "place_id": "local-sunset-36",
+    "google_place_id": "ChIJEwFlcSCXpzERdgAgbDFJ86A",
+    "name": "Hongkong Roast House|Halal kitchen Phu Quoc",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-37": {
+    "place_id": "local-sunset-37",
+    "google_place_id": "ChIJPxfJfpeXpzERMNfR5dHAXJE",
+    "name": "Sunny Side Hotel Phú Quốc",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-38": {
+    "place_id": "local-sunset-38",
+    "google_place_id": "ChIJRxTYyj2VpzEReVIKtzS3ug4",
+    "name": "Sea Sunset Hotel Phú Quốc - Welcome to a mixing world of friends",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-39": {
+    "place_id": "local-sunset-39",
+    "google_place_id": "ChIJM3WdM8mVpzERaaspeat4G3I",
+    "name": "Cybele Sunset Hotel Phú Quốc",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-40": {
+    "place_id": "local-sunset-40",
+    "google_place_id": "ChIJ8csMU6aVpzERfAxZKSQ-sVI",
+    "name": "Khách sạn Bella Sunset Town Phú Quốc",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-41": {
+    "place_id": "local-sunset-41",
+    "google_place_id": "ChIJK9xNyBSXpzERvhpFTfFSncM",
+    "name": "The Maris Apartment Hillside Phu Quoc - Sunset Town",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-42": {
+    "place_id": "local-sunset-42",
+    "google_place_id": "ChIJSf1XiyqVpzERESXp2yD4RDI",
+    "name": "Rova 105 Hotel",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-43": {
+    "place_id": "local-sunset-43",
+    "google_place_id": "ChIJCzU1h7OXpzER6BRzBKSqRks",
+    "name": "Sole Casa Phu Quoc",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-44": {
+    "place_id": "local-sunset-44",
+    "google_place_id": "ChIJQ5ppQgCXpzERLIW17797FPk",
+    "name": "Oscar Seaview Apartment",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-45": {
+    "place_id": "local-sunset-45",
+    "google_place_id": "ChIJWyR4R6WVpzERdWiJg-xbMZs",
+    "name": "The Nice Hotel Phu Quoc - Fireworks & Ocean view",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-46": {
+    "place_id": "local-sunset-46",
+    "google_place_id": "ChIJz94dpQKXpzERwFtq4ya-gdg",
+    "name": "Sunset sorento Phu Quoc (Nắng Biển hotel)",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-47": {
+    "place_id": "local-sunset-47",
+    "google_place_id": "ChIJJyvaIBKXpzERPWxGoWlnWoc",
+    "name": "Sunny Hotel Phu Quoc- Ven 18 Sunset Town",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-48": {
+    "place_id": "local-sunset-48",
+    "google_place_id": "ChIJf7rMNa6WpzERKfYbQCgVdlg",
+    "name": "Sunset House Phu Quoc - Buggy Sevices",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-49": {
+    "place_id": "local-sunset-49",
+    "google_place_id": "ChIJV3Wgn1SXpzERMLtkaI4Lsqs",
+    "name": "Pearl Vista Luxury Service Apartments - Seaview & Fireworks",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-50": {
+    "place_id": "local-sunset-50",
+    "google_place_id": "ChIJFxI3_P-XpzERuMb9xcsPfq0",
+    "name": "Eirlys Home Apartment Phu Quoc - Firework & Ocean View",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-51": {
+    "place_id": "local-sunset-51",
+    "google_place_id": "ChIJxbxyGNSXpzEREPa-cnK86aY",
+    "name": "SOLÉA Hotels & Apartments Sunset Town",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-52": {
+    "place_id": "local-sunset-52",
+    "google_place_id": "ChIJC_zbaC2XpzERmmgdPCSvGy4",
+    "name": "Lotus Home Hillside",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-53": {
+    "place_id": "local-sunset-53",
+    "google_place_id": "ChIJL-WjKOKXpzER5xGNbzHMmvI",
+    "name": "SEA GALLERY SUNSET TOWN LUXURY APARTMENT",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-54": {
+    "place_id": "local-sunset-54",
+    "google_place_id": "ChIJi-QGFhaXpzERAaKhYWP121g",
+    "name": "Minimalist Hillside Apartment",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-55": {
+    "place_id": "local-sunset-55",
+    "google_place_id": "ChIJqVgIBfGVpzERic6Fg2JP45o",
+    "name": "Trung nguyên E coffee - JENBEN HOTEL",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-56": {
+    "place_id": "local-sunset-56",
+    "google_place_id": "ChIJbSYTyNmVpzERcDMqecZ8ilI",
+    "name": "SUNSET BAY RETREAT PHÚ QUỐC",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-57": {
+    "place_id": "local-sunset-57",
+    "google_place_id": "ChIJe4CLfRKXpzERL0ZvGC778Bk",
+    "name": "Hoàng Hôn Tím Boutique Hotel",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-58": {
+    "place_id": "local-sunset-58",
+    "google_place_id": "ChIJI__GdUGXpzERKX435iNiC3o",
+    "name": "Sunset Royal",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-59": {
+    "place_id": "local-sunset-59",
+    "google_place_id": "ChIJuxF9RQCXpzERNbbCYOpt3rY",
+    "name": "Homestay Hillside An Thöi (The Hill) H2",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-60": {
+    "place_id": "local-sunset-60",
+    "google_place_id": "ChIJLYZRqS2VpzERBkJetwNxgg8",
+    "name": "Golden Sunset Hotel",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-61": {
+    "place_id": "local-sunset-61",
+    "google_place_id": "ChIJM6pVVcqVpzERvwPbu-fNL6w",
+    "name": "ROVA HOTEL & SPA PHU QUOC",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-62": {
+    "place_id": "local-sunset-62",
+    "google_place_id": "ChIJEcZsCQCXpzERcvHp3Ekte8Y",
+    "name": "Toà S2, Sun Grand City Hillside Residence",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-63": {
+    "place_id": "local-sunset-63",
+    "google_place_id": "ChIJUVANxM6XpzERxNQieCqMz1w",
+    "name": "Luxury Hotel & Spa Milan 38 Sunset Town",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-64": {
+    "place_id": "local-sunset-64",
+    "google_place_id": "ChIJvZLgZACVpzERuXVHXu51M80",
+    "name": "TK HOUSE PHU QUOC",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-65": {
+    "place_id": "local-sunset-65",
+    "google_place_id": "ChIJL0J55ZiXpzERbAGmlh0s12I",
+    "name": "CASA DEL MAR BOUTIQUE HOTEL",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-66": {
+    "place_id": "local-sunset-66",
+    "google_place_id": "ChIJxXhAYgCXpzERdxrx2yxw_70",
+    "name": "Toà H3, Sun Grand City Hillside Residence",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-67": {
+    "place_id": "local-sunset-67",
+    "google_place_id": "ChIJJ1x_dACXpzER0NwrO71hhqE",
+    "name": "Toà S1, Sun Grand City Hillside Residence",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-68": {
+    "place_id": "local-sunset-68",
+    "google_place_id": "ChIJEeS0Gx6UpzER_JDUSa14WaI",
+    "name": "ROVA HOTEL & APARTMENT - AMALFI SUNSET TOWN",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-69": {
+    "place_id": "local-sunset-69",
+    "google_place_id": "ChIJoa-UEQCVpzER3a1nx8svsr0",
+    "name": "The Sea Residences",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-70": {
+    "place_id": "local-sunset-70",
+    "google_place_id": "ChIJh1FRPgCVpzERb673NoY0a2k",
+    "name": "MERCI HOTEL SUNSET TOWN PHU QUOC",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-71": {
+    "place_id": "local-sunset-71",
+    "google_place_id": "ChIJk3IxcACVpzERP5hIbpsfIUI",
+    "name": "The Fern Phu Quoc Hotel Sunset Town",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-72": {
+    "place_id": "local-sunset-72",
+    "google_place_id": "ChIJUZ1-cACXpzER0vvP0T2tKuY",
+    "name": "L&A - Hillside Aparment Sunset Town Phu Quoc",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-73": {
+    "place_id": "local-sunset-73",
+    "google_place_id": "ChIJn4ufFwCXpzERaOY9EyOFHvU",
+    "name": "Toà H1, Sun Grand City Hillside Residence",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-74": {
+    "place_id": "local-sunset-74",
+    "google_place_id": "ChIJY2frYACXpzER7EnKQBfOTZQ",
+    "name": "Toà S3, Sun Grand City Hillside Residence",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-75": {
+    "place_id": "local-sunset-75",
+    "google_place_id": "ChIJizGVMi-XpzERx5BfQC3-v_Q",
+    "name": "La Phan Phu Quoc Hillside Apartment",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-76": {
+    "place_id": "local-sunset-76",
+    "google_place_id": "ChIJc2kJJEqXpzERU8Pi4YXE8VQ",
+    "name": "Sunset Town Service Apartment Phu Quoc",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-77": {
+    "place_id": "local-sunset-77",
+    "google_place_id": "ChIJ320mYwCXpzER-9Vv3cMrOvk",
+    "name": "Crystal Apartment Hillside Phu Quoc - Sunset Town & Firework",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-78": {
+    "place_id": "local-sunset-78",
+    "google_place_id": "ChIJcWEuF12XpzERcz_lK7OYDlw",
+    "name": "Dido Carthage Apartment Sunset Town, Phu Quoc Island",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-79": {
+    "place_id": "local-sunset-79",
+    "google_place_id": "ChIJRSic4YOXpzERfVMlKoCM9v8",
+    "name": "JS Hotel Phu Quoc Sunset Town",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-80": {
+    "place_id": "local-sunset-80",
+    "google_place_id": "ChIJndpEdaCWpzERSJKUI11zKzo",
+    "name": "Haibot 12 Homestay Sunset Town Phu Quoc",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-81": {
+    "place_id": "local-sunset-81",
+    "google_place_id": "ChIJTeB-zh2UpzERcHARuYrdCME",
+    "name": "Sunset Hotel - Sunset Town - Phu Quoc",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-82": {
+    "place_id": "local-sunset-82",
+    "google_place_id": "ChIJO1D89qCWpzERs-4VpolXxCQ",
+    "name": "Hillside Apartment in Sunset Town, Phu Quoc",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-83": {
+    "place_id": "local-sunset-83",
+    "google_place_id": "ChIJgaHIR6CWpzERjGjAhK1qpYE",
+    "name": "Hillside Sunset Town Phu Quoc",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-84": {
+    "place_id": "local-sunset-84",
+    "google_place_id": "ChIJg0OEO6CWpzERLcs9LETAtdI",
+    "name": "Sunset Town Apartment Phu Quoc",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-85": {
+    "place_id": "local-sunset-85",
+    "google_place_id": "ChIJt7Y0Jx6UpzER635fflPTrNI",
+    "name": "Casa Del Mar Hotel & Apartment - Sunset Town",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-86": {
+    "place_id": "local-sunset-86",
+    "google_place_id": "ChIJCf___6uWpzERnlARVsJytyY",
+    "name": "Hillside Apartment Sunset Town Phu Quoc - Apartment with Sea View",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-87": {
+    "place_id": "local-sunset-87",
+    "google_place_id": "ChIJdbjrShmVpzER-zfUU0OhqPg",
+    "name": "카다이 인디안 레스토랑 (Kadhai Indian Restaurant)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-88": {
+    "place_id": "local-sunset-88",
+    "google_place_id": "ChIJR4_RrzuVpzERTNZI9HaezLk",
+    "name": "마하라자 라운지 선셋타운 (Maharaja Lounge - 인도 채식 레스토랑)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-89": {
+    "place_id": "local-sunset-89",
+    "google_place_id": "ChIJoU5XY4qXpzER7IMIeP5u2_U",
+    "name": "메디테란 선셋타운 (MEDITERRAN - 그리스 & 이탈리안 레스토랑)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-90": {
+    "place_id": "local-sunset-90",
+    "google_place_id": "ChIJn8-tUACXpzER6RqdNBwIv2U",
+    "name": "핀카 (Finca - La Festa Hilton 스페인 다이닝)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-91": {
+    "place_id": "local-sunset-91",
+    "google_place_id": "ChIJN_Q6ZQCXpzERnEgRa_rea4k",
+    "name": "세타 (Seta - La Festa Hilton 광동식 파인다이닝)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-92": {
+    "place_id": "local-sunset-92",
+    "google_place_id": "ChIJ22vgGjSVpzERYizOdzNYy64",
+    "name": "남보 키친 (NamBo Kitchen - Southern Vietnamese Cuisine)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-93": {
+    "place_id": "local-sunset-93",
+    "google_place_id": "ChIJT66MukeVpzERQhQDyvVNUr4",
+    "name": "옥토퍼스 아일랜드 레스토랑 (Octopus Island - 부이페스트 야시장)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-94": {
+    "place_id": "local-sunset-94",
+    "google_place_id": "ChIJk-2CcACXpzERjAdWD6NvD-w",
+    "name": "선셋분식 (Sunset Bunsik)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-95": {
+    "place_id": "local-sunset-95",
+    "google_place_id": "ChIJt4niIACVpzERsZinQbNSOvs",
+    "name": "블루 테이블 (Blue Table - 이탈리안 레스토랑)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-96": {
+    "place_id": "local-sunset-96",
+    "google_place_id": "ChIJS-IdAACVpzERrZzkY5r_-JQ",
+    "name": "베니스 카페 & 이터리 (Venice Café & Eatery)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-97": {
+    "place_id": "local-sunset-97",
+    "google_place_id": "ChIJhZhof9GNpzERkbbDN9MnQEo",
+    "name": "델리 다르바르 인디안 레스토랑 (Delhi Darbaar)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-98": {
+    "place_id": "local-sunset-98",
+    "google_place_id": "ChIJj9eeH0-XpzERR3O-7B0rxFo",
+    "name": "까이 멈 비스트로 (Cái Mâm Bistro - Vietnamese Noodles & Cafe)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-99": {
+    "place_id": "local-sunset-99",
+    "google_place_id": "ChIJIb8W0jqVpzERKa5wk0xTu3k",
+    "name": "껌 메 (Cơm Mẹ - 엄마의 밥상 베트남 가정식)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-100": {
+    "place_id": "local-sunset-100",
+    "google_place_id": "ChIJcRC6HwCVpzERbkajor2btbM",
+    "name": "푸꾸옥 뚱보집 선셋타운점 (한식당)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-101": {
+    "place_id": "local-sunset-101",
+    "google_place_id": "ChIJMfJ3VWSVpzER2App4vNzuqo",
+    "name": "한식당 화로구이 (Charcoal Korean BBQ)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-102": {
+    "place_id": "local-sunset-102",
+    "google_place_id": "ChIJFUbrywqVpzERZ-766zaQ1NE",
+    "name": "마레 (Mare - La Festa Hilton 이탈리안 레스토랑)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-103": {
+    "place_id": "local-sunset-103",
+    "google_place_id": "ChIJFYITJBKVpzERPIOdOa8Hzyg",
+    "name": "포틴 푸꾸옥 (Phở Thìn Phú Quốc - 하노이 3대 쌀국수 & 핫팟)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-104": {
+    "place_id": "local-sunset-104",
+    "google_place_id": "ChIJfyqPrL2VpzERtUaB6o2c_ZU",
+    "name": "소렌토 레스토랑 & 바 (Sorrento Restaurant & Bar)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-105": {
+    "place_id": "local-sunset-105",
+    "google_place_id": "ChIJdy0S10CVpzERjeJJwHTOH7s",
+    "name": "더 갱스 선셋 (The Gangs Sunset - 해산물 & 크래프트 비어)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-106": {
+    "place_id": "local-sunset-106",
+    "google_place_id": "ChIJ013bPieXpzERQbVdD9Sx2Kg",
+    "name": "케이브맨 스모크 립 & 크래프트 비어 (Caveman Smoked Ribs)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-107": {
+    "place_id": "local-sunset-107",
+    "google_place_id": "ChIJD-a4fwCVpzERA9KJ8gWE4cA",
+    "name": "더 머천트 (The Merchant - La Festa Hilton 올데이 다이닝)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-108": {
+    "place_id": "local-sunset-108",
+    "google_place_id": "ChIJqWMc3JqXpzER9imqzVVuH00",
+    "name": "투안 끼에우 2 해산물 그릴 전문점 (Nhà hàng hải sản Thuận Kiều 2)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-109": {
+    "place_id": "local-sunset-109",
+    "google_place_id": "ChIJRT9hCe6VpzER9hYA7wlPylM",
+    "name": "하이산캉 (Hải Sản Cảng Phú Quốc - 해산물 전문점)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-110": {
+    "place_id": "local-sunset-110",
+    "google_place_id": "ChIJ1-LOM_iVpzEReC2eAEZgchI",
+    "name": "쿵푸 누들 푸꾸옥 (Kungfu Noodle Phú Quốc - 수타면 & 딤섬)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-111": {
+    "place_id": "local-sunset-111",
+    "google_place_id": "ChIJgbE4kXGVpzERZ8C1U29WbHA",
+    "name": "카페 루남 푸꾸옥 (Café RuNam Phú Quốc - Hexagonal House)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-112": {
+    "place_id": "local-sunset-112",
+    "google_place_id": "ChIJexQHMSaVpzERSr6zIxWjYDs",
+    "name": "라군 BBQ & 베트남 퀴진 (Lagoon BBQ & Vietnamese Cuisine)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-113": {
+    "place_id": "local-sunset-113",
+    "google_place_id": "ChIJZ97LhDOVpzER7ZlyLY3K-9o",
+    "name": "껌자딘 선셋타운 (Cơm Gia Đình - 베트남 가정식)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-114": {
+    "place_id": "local-sunset-114",
+    "google_place_id": "ChIJzUpxDmWXpzER9_x5dGSKcdM",
+    "name": "껌니우 비엣 선셋타운 (Nhà hàng Cơm Niêu Việt - 베트남 돌솥밥)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-115": {
+    "place_id": "local-sunset-115",
+    "google_place_id": "ChIJ5ZFzqOiVpzERxxGEcmIZi3g",
+    "name": "Antalya Turkish Cuisine-Sunset Town",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-116": {
+    "place_id": "local-sunset-116",
+    "google_place_id": "ChIJFYbEOYuVpzERNhVUrah1-3Y",
+    "name": "Amritsar Grill Indian Restaurant",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-117": {
+    "place_id": "local-sunset-117",
+    "google_place_id": "ChIJX83fV32VpzERWuVp_qZeJVc",
+    "name": "Rasa Nusantara Phú Quốc",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-118": {
+    "place_id": "local-sunset-118",
+    "google_place_id": "ChIJ1SUXRwCVpzERK21wkH1D7nM",
+    "name": "Mai Hương Restaurant - Sunset Town",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-119": {
+    "place_id": "local-sunset-119",
+    "google_place_id": "ChIJkfRb6NeVpzERPDPeRKGHXZ0",
+    "name": "Turkish Kitchen",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-120": {
+    "place_id": "local-sunset-120",
+    "google_place_id": "ChIJYx62SU2VpzERzC6ZA_AF9YY",
+    "name": "SUNNY COFFEE - PHO - BANH MI (Vietnamese cuisine)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-121": {
+    "place_id": "local-sunset-121",
+    "google_place_id": "ChIJ984BCgCVpzERqpzxDVaHUEk",
+    "name": "Madam Khánh Restaurant Phú quốc 2-마담 칸 - 汗女士",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-122": {
+    "place_id": "local-sunset-122",
+    "google_place_id": "ChIJp_0sEWaXpzER2D9WqJ-NxEI",
+    "name": "Times Corner Luxe - Pizza, Pasta & Grill",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-123": {
+    "place_id": "local-sunset-123",
+    "google_place_id": "ChIJ-8xuXJSXpzER_vuwYia2R1M",
+    "name": "Times Corner Restaurant",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-124": {
+    "place_id": "local-sunset-124",
+    "google_place_id": "ChIJ0f-9_fqXpzERWAKUF0YKrkY",
+    "name": "Trần Coffee Shop No.2 Sunset Town",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-125": {
+    "place_id": "local-sunset-125",
+    "google_place_id": "ChIJS_8A-C2XpzERXDMcG9FVR8w",
+    "name": "Hai Bột Eatery & Homestay Phu Quoc",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-126": {
+    "place_id": "local-sunset-126",
+    "google_place_id": "ChIJOTitfqa1oDERmIfA4qzOI_U",
+    "name": "H Corner Chợ đêm Vuifest",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-127": {
+    "place_id": "local-sunset-127",
+    "google_place_id": "ChIJM0_7pzqVpzERSaJMCKvjEZU",
+    "name": "Đảo Vị VuiFest Bazaar",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-128": {
+    "place_id": "local-sunset-128",
+    "google_place_id": "ChIJsx0UrT6LpzERcrAcAZp0Ea4",
+    "name": "Cơm Gia Đình Việt - Tây Hồ Restaurant",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-129": {
+    "place_id": "local-sunset-129",
+    "google_place_id": "ChIJr-c8ZACVpzER41yqzYEUGAE",
+    "name": "Hải Sản Hàm Ninh",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-130": {
+    "place_id": "local-sunset-130",
+    "google_place_id": "ChIJ_VQ_ljWXpzERbwSZZ5XUYYU",
+    "name": "Hội Quán - European Brasserie • Bar • Pastry",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-131": {
+    "place_id": "local-sunset-131",
+    "google_place_id": "ChIJHWzLNQCXpzER8C174EPH8Fs",
+    "name": "Phố Nướng / seafood & meat grill",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-132": {
+    "place_id": "local-sunset-132",
+    "google_place_id": "ChIJMyo1GFCXpzERJi4JKDavOgQ",
+    "name": "Restaurant- Coffee Halal Sunset Town Phu Quoc",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-133": {
+    "place_id": "local-sunset-133",
+    "google_place_id": "ChIJqSNX-FuLpzERVHIK_K9q4ac",
+    "name": "Yushima Japanese Restaurant",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-134": {
+    "place_id": "local-sunset-134",
+    "google_place_id": "ChIJQyGZW3iVpzERlT6miydatAU",
+    "name": "Cap'tr Phú Quốc",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-135": {
+    "place_id": "local-sunset-135",
+    "google_place_id": "ChIJia_QcgCVpzER-0oMbCu_tgs",
+    "name": "Chill Sunset Restaurant",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-136": {
+    "place_id": "local-sunset-136",
+    "google_place_id": "ChIJ_6I1rnKVpzERSyzp7e76ffQ",
+    "name": "WOW QUÊ TÔI",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-137": {
+    "place_id": "local-sunset-137",
+    "google_place_id": "ChIJN7xYjTaVpzERxXuOhOW_Bkg",
+    "name": "Tribal Grill - Ribs, Burger & Beer",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-138": {
+    "place_id": "local-sunset-138",
+    "google_place_id": "ChIJLwGTViCVpzER8VvsPx7gfqs",
+    "name": "One Boat Restaurant & Bar",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-139": {
+    "place_id": "local-sunset-139",
+    "google_place_id": "ChIJmwciuL6VpzER3ZIjhoDL17I",
+    "name": "라군 식당",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-140": {
+    "place_id": "local-sunset-140",
+    "google_place_id": "ChIJNcEJoqmXpzERV_7N3lFq9sM",
+    "name": "Green Tree Buffet SeaFood",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-141": {
+    "place_id": "local-sunset-141",
+    "google_place_id": "ChIJyRBqwHeVpzERduOQZkmhLAE",
+    "name": "IBIZA - Oyster & Seafood Bar",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-142": {
+    "place_id": "local-sunset-142",
+    "google_place_id": "ChIJ4SO9awCXpzERER4uBviu2l0",
+    "name": "Bánh Canh Ghẹ BY-restaurant seafood",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-143": {
+    "place_id": "local-sunset-143",
+    "google_place_id": "ChIJ1UTOAQCXpzERJu5SyLaNnBs",
+    "name": "Ốc Đảo An Thới",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-144": {
+    "place_id": "local-sunset-144",
+    "google_place_id": "ChIJufI0FqCVpzER1FiJropT03Y",
+    "name": "Quán Nhậu Bình Dân HOÀNG HÔN ( Hoàng Hôn Quán )",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-145": {
+    "place_id": "local-sunset-145",
+    "google_place_id": "ChIJlehtpXeXpzERpS23o9pxwrc",
+    "name": "Nhà Hàng Cơm Niêu Việt Xưa - An Thới",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-146": {
+    "place_id": "local-sunset-146",
+    "google_place_id": "ChIJwXlCOq-VpzERR7dMoAKRcpM",
+    "name": "웨이브 카페 & 펍 3F (Wave Cafe & Pub - 웨이브스파 3층)",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-147": {
+    "place_id": "local-sunset-147",
+    "google_place_id": "ChIJFU6xryaXpzERe2HL0ChKMXY",
+    "name": "카페 그린 선셋타운 (Cafe Green - 망고빙수 전문)",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-148": {
+    "place_id": "local-sunset-148",
+    "google_place_id": "ChIJhwN-oSqXpzERgUhhE4tiYRE",
+    "name": "하이랜드 커피 안터이 케이블카역점 (Highlands Coffee Cable Car An Thới)",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-149": {
+    "place_id": "local-sunset-149",
+    "google_place_id": "ChIJjVDpHgiHCjERTaQVRRrVJ9Y",
+    "name": "에릭 케제르 푸꾸옥 (Maison Eric Kayser Sunset Town)",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-150": {
+    "place_id": "local-sunset-150",
+    "google_place_id": "ChIJVUPC1uyXpzERD5yoNJTu_-w",
+    "name": "미쉐 아이스크림 & 티 선셋타운점 (MIXUE)",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-151": {
+    "place_id": "local-sunset-151",
+    "google_place_id": "ChIJy_hxHgCrNTERoIcGv_opdSI",
+    "name": "Phu Quoc Sunset Town Coffee Workshop - Brew & Design the Art of Vietnamese Coffee",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-152": {
+    "place_id": "local-sunset-152",
+    "google_place_id": "ChIJqzR5BqKVpzERsUFb1ZBTkHI",
+    "name": "Milano Coffee - 64 Milan Sunset Town",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-153": {
+    "place_id": "local-sunset-153",
+    "google_place_id": "ChIJO3-yzguVpzERco-w4qWwzBE",
+    "name": "Kem Tràng Tiền - Sunset Town, Phú Quốc",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-154": {
+    "place_id": "local-sunset-154",
+    "google_place_id": "ChIJexxLuvWVpzERYfMNC6E2l6k",
+    "name": "Casa Limone Phu Quoc Hotel & Café - Specialty Coffee & Matcha Bar",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-155": {
+    "place_id": "local-sunset-155",
+    "google_place_id": "ChIJO5hTZgCVpzERv98h_ecyvFc",
+    "name": "Sunset Tiger Tea",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-156": {
+    "place_id": "local-sunset-156",
+    "google_place_id": "ChIJi6p4AwCXpzERrcfUWx2c6gY",
+    "name": "Senthy Coffee Lounge",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-157": {
+    "place_id": "local-sunset-157",
+    "google_place_id": "ChIJybaGwLWXpzER0vqLL6QiWjE",
+    "name": "Tsunagari Phu Quoc - Japanese matcha in the island",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-158": {
+    "place_id": "local-sunset-158",
+    "google_place_id": "ChIJTdwiKNmVpzER1knXm_zr2zA",
+    "name": "Cafe Juliet & Pastries",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-159": {
+    "place_id": "local-sunset-159",
+    "google_place_id": "ChIJE6Jt3vuVpzERA6ErTfB79es",
+    "name": "The Juliet Coffee & Dessert - AMA71",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-160": {
+    "place_id": "local-sunset-160",
+    "google_place_id": "ChIJ4XRWXwCVpzER4TmxHDp0HaI",
+    "name": "Islander PhuQuoc Handmade Gifts & Coffee",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-161": {
+    "place_id": "local-sunset-161",
+    "google_place_id": "ChIJEUml2SuVpzER3wqcSc2d9yg",
+    "name": "The Ivy Café & Lounge Phu Quoc",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-162": {
+    "place_id": "local-sunset-162",
+    "google_place_id": "ChIJHfkAZ4WVpzERmME-KkMKRrI",
+    "name": "Lotus Home & Cafe",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-163": {
+    "place_id": "local-sunset-163",
+    "google_place_id": "ChIJUZs9AACVpzERDU2CVZEwhMQ",
+    "name": "The Fern Coffee Sea",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-164": {
+    "place_id": "local-sunset-164",
+    "google_place_id": "ChIJM56vPyOVpzERkcoihdCbcQg",
+    "name": "SANTO CAFE",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-165": {
+    "place_id": "local-sunset-165",
+    "google_place_id": "ChIJ51OpPgCVpzER-TzMZtCOk0o",
+    "name": "Maison Kayser Phu Quoc",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-166": {
+    "place_id": "local-sunset-166",
+    "google_place_id": "ChIJVef0-G6XpzERfRGPWSjnMSM",
+    "name": "MAE Coffee",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-167": {
+    "place_id": "local-sunset-167",
+    "google_place_id": "ChIJk8rbTrmXpzERJtmse_K7fYA",
+    "name": "Apollo Cafe Phu Quoc",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-168": {
+    "place_id": "local-sunset-168",
+    "google_place_id": "ChIJFePbK8yXpzER_rJM4eYtKaA",
+    "name": "La isla Bistro & coffee",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-169": {
+    "place_id": "local-sunset-169",
+    "google_place_id": "ChIJMXSxNgCXpzERgxlz0F6Zn7I",
+    "name": "루나 포크 (Luna Folk - La Festa Hilton 재즈 & 칵테일 바)",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-170": {
+    "place_id": "local-sunset-170",
+    "google_place_id": "ChIJbR-3v0iXpzERO5uhXf8gO8k",
+    "name": "일 살로네 (iL Salone - La Festa Hilton 애프터눈티 & 라운지 바)",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-171": {
+    "place_id": "local-sunset-171",
+    "google_place_id": "ChIJzXtAVDKXpzER1cjjYNLZETM",
+    "name": "씨엘로 루프탑 바 (Cielo Rooftop Bar - La Festa Hilton)",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-172": {
+    "place_id": "local-sunset-172",
+    "google_place_id": "ChIJc9wZF96XpzERaOKT6SZjnj4",
+    "name": "술탄 터키쉬 케밥 선셋타운 (Sultan Turkish Kebab)",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-173": {
+    "place_id": "local-sunset-173",
+    "google_place_id": "ChIJAwwqc2yVpzER_4K_0feO5I8",
+    "name": "선 바바리아 가스트로펍 (Sun Bavaria GastroPub - Sun KraftBeer)",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-174": {
+    "place_id": "local-sunset-174",
+    "google_place_id": "ChIJ2_09NpGVpzERNU0LHL9210Q",
+    "name": "지온 바 & 바이츠 키친 (Giòn Bar & Bites Kitchen)",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-175": {
+    "place_id": "local-sunset-175",
+    "google_place_id": "ChIJ4-08StuXpzERjwmUJihXMSM",
+    "name": "드래프트 비어 선셋타운 (Draft Beer Sunset Town Phú Quốc)",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-176": {
+    "place_id": "local-sunset-176",
+    "google_place_id": "ChIJgdPeM-6VpzERp4qCP5Rftfc",
+    "name": "테아트로 클럽 푸꾸옥 (Teatro Club Phú Quốc)",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-177": {
+    "place_id": "local-sunset-177",
+    "google_place_id": "ChIJ_8PhSl6XpzERyXEGZHWPPK8",
+    "name": "Mía Phú Quốc",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-178": {
+    "place_id": "local-sunset-178",
+    "google_place_id": "ChIJw0KgNACVpzERw5KrYRFhYrk",
+    "name": "Loop Jacuzzi Bar",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-179": {
+    "place_id": "local-sunset-179",
+    "google_place_id": "ChIJWemJxp-XpzER7U_LSFAw2FI",
+    "name": "Hiên Nhà Veranda Sunset Town Phú Quốc",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-180": {
+    "place_id": "local-sunset-180",
+    "google_place_id": "ChIJxyS9aICXpzERzjprHrHS6HM",
+    "name": "Mango Mango",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-181": {
+    "place_id": "local-sunset-181",
+    "google_place_id": "ChIJ_UidppuWpzERKabcboVlovw",
+    "name": "PH Rooftop Bar & Lounge - Sea View Restaurant, An Thoi, Phu Quoc",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-182": {
+    "place_id": "local-sunset-182",
+    "google_place_id": "ChIJSQmMIPGVpzERHuR1g4s-oH0",
+    "name": "롱비치 미니마트 선셋타운 (Long Beach Mini Mart)",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-183": {
+    "place_id": "local-sunset-183",
+    "google_place_id": "ChIJ--rCzyWVpzERa9vsKRhIrxk",
+    "name": "토니 마트 24시 선셋타운 (Tony Mart 24h - The Center)",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-184": {
+    "place_id": "local-sunset-184",
+    "google_place_id": "ChIJt72kKACVpzER02fxBgKfwjM",
+    "name": "68마트 (68Mart - 여행자 마트 & 푸꾸옥 특산품)",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-185": {
+    "place_id": "local-sunset-185",
+    "google_place_id": "ChIJX0-mNgCVpzERuUC87Bnl3G8",
+    "name": "베트남 셀렉트 슈퍼마켓 (Siêu thị Vietnam Select - 선셋타운 최대 대형마트)",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-186": {
+    "place_id": "local-sunset-186",
+    "google_place_id": "ChIJTRy1mL6VpzERoC2sDLhsG2w",
+    "name": "Queen Of Islands - Greek Yogurt & More Store",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-187": {
+    "place_id": "local-sunset-187",
+    "google_place_id": "ChIJKRXo2vGVpzER09JscHejn9Q",
+    "name": "Siêu Thị Đất Phương Nam",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-188": {
+    "place_id": "local-sunset-188",
+    "google_place_id": "ChIJZxIdKxnB9WYR0OpNKEcReFQ",
+    "name": "Muoi Mini Mart - Sunset Town",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-189": {
+    "place_id": "local-sunset-189",
+    "google_place_id": "mimi_fruits_sunset_town",
+    "name": "미미프루츠 & 미미편의점 (선셋타운 전 구역 배달)",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-190": {
+    "place_id": "local-sunset-190",
+    "google_place_id": "ChIJrZVSrMGVpzERwEKKl8CoFhY",
+    "name": "SSMART 24H",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-191": {
+    "place_id": "local-sunset-191",
+    "google_place_id": "ChIJhRYHJwCXpzERee2VZCGiccg",
+    "name": "THALA MART",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-192": {
+    "place_id": "local-sunset-192",
+    "google_place_id": "ChIJnYlOSfWXpzERzpfC_jsVFlM",
+    "name": "Sunset Souvenir & Fashion Store",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-193": {
+    "place_id": "local-sunset-193",
+    "google_place_id": "ChIJq-MaQQCVpzERMbW2Y8JvlMI",
+    "name": "Lemon Queen (bazaar store)",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-194": {
+    "place_id": "local-sunset-194",
+    "google_place_id": "ChIJ1UtCOACXpzERXQalSAj65cU",
+    "name": "SUNSET TOWN STORE",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-195": {
+    "place_id": "local-sunset-195",
+    "google_place_id": "ChIJ_6tNcgCXpzERjZNk7CARSY0",
+    "name": "Siêu Thị G_Mart 24h",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-196": {
+    "place_id": "local-sunset-196",
+    "google_place_id": "ChIJvStN7o-VpzERtAxqXhgc9Ik",
+    "name": "B&B Mart",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-197": {
+    "place_id": "local-sunset-197",
+    "google_place_id": "ChIJNaTg2vuXpzERZnqMv7SVHvA",
+    "name": "HƯỜNG NGUYỄN COSMETICS",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-198": {
+    "place_id": "local-sunset-198",
+    "google_place_id": "ChIJp_CkEwCXpzERY7WxGGwTwAQ",
+    "name": "HomeMart",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-199": {
+    "place_id": "local-sunset-199",
+    "google_place_id": "ChIJOZDMI8qXpzERJS8UXPB_0pw",
+    "name": "Cocomart An Thới",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-200": {
+    "place_id": "local-sunset-200",
+    "google_place_id": "ChIJ2xD_WwCXpzER-iMnVxEhwYc",
+    "name": "DUGONG MART",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-201": {
+    "place_id": "local-sunset-201",
+    "google_place_id": "ChIJgeZqD5SVpzERoy7NGQ43Sy8",
+    "name": "아말피 67 약국 (Pharmacy Amalfi 67 Sunset Town)",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-202": {
+    "place_id": "local-sunset-202",
+    "google_place_id": "ChIJY8WHWACVpzERqhosrS9_k48",
+    "name": "선 국제병원 푸꾸옥 (Bệnh viện Quốc tế Mặt Trời - Sun Serenia Hospital)",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-203": {
+    "place_id": "local-sunset-203",
+    "google_place_id": "ChIJU2YY86iWpzERfGNTGD1eM6Q",
+    "name": "DNG 국제 종합 클리닉 안터이점 (Phòng Khám Đa Khoa Quốc Tế DNG)",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-204": {
+    "place_id": "local-sunset-204",
+    "google_place_id": "ChIJPfhBQgCVpzER89jomzuoPTQ",
+    "name": "At 108 new an thới",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-205": {
+    "place_id": "local-sunset-205",
+    "google_place_id": "ChIJuYW74Y2XpzERIbXTGTiotEU",
+    "name": "안캉 약국 안터이점 (Nhà Thuốc An Khang - 대형 체인 약국)",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-206": {
+    "place_id": "local-sunset-206",
+    "google_place_id": "ChIJY5o0asSXpzERJEewEY1Dy9U",
+    "name": "FPT 롱쩌우 약국 안터이점 (Nhà Thuốc FPT Long Châu)",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-207": {
+    "place_id": "local-sunset-207",
+    "google_place_id": "ChIJ7epOcgCXpzER4Pu65g6K-yk",
+    "name": "Nhà Thuốc Tây Thanh Duy 3",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-208": {
+    "place_id": "local-sunset-208",
+    "google_place_id": "ChIJ229GfZuWpzERWXEOoCjT1ao",
+    "name": "Nhà Thuốc An Khang Phú Quốc 2",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-209": {
+    "place_id": "local-sunset-209",
+    "google_place_id": "ChIJL8Jlo_qXpzERNalWWNGBoZ8",
+    "name": "PHÒNG KHÁM 30/4 AN THỚI",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-210": {
+    "place_id": "local-sunset-210",
+    "google_place_id": "ChIJ8Y7stJuWpzERimekjdeDF1E",
+    "name": "Nhà Thuốc Tâm Châu",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-211": {
+    "place_id": "local-sunset-211",
+    "google_place_id": "ChIJU4agN6aXpzERrBgnLedRIUw",
+    "name": "Nhà Thuốc Phụng Nghi",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-212": {
+    "place_id": "local-sunset-212",
+    "google_place_id": "ChIJFz2RcwCXpzERhWMAdSOePWQ",
+    "name": "Аптека",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-213": {
+    "place_id": "local-sunset-213",
+    "google_place_id": "ChIJrymiSpqWpzERLePYuNe8KAU",
+    "name": "Nhà Thuốc Thanh Đo",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-214": {
+    "place_id": "local-sunset-214",
+    "google_place_id": "ChIJt_3NtZuWpzERGTeviuGd4Zs",
+    "name": "An Thoi Polyclinics",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-215": {
+    "place_id": "local-sunset-215",
+    "google_place_id": "ChIJ4R_dcwCXpzER-NaDXKD9eG0",
+    "name": "Nhà Thuốc Huyền Lý",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-216": {
+    "place_id": "local-sunset-216",
+    "google_place_id": "ChIJt4aBPTKXpzERXxwyYMJ_UEs",
+    "name": "Phòng khám đa khoa SOS An Thới Phú Quốc",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-217": {
+    "place_id": "local-sunset-217",
+    "google_place_id": "ChIJYzTKe5uWpzERlve-nLrs1ZM",
+    "name": "Quầy Thuốc Hương Thơm",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-218": {
+    "place_id": "local-sunset-218",
+    "google_place_id": "ChIJQ--MV_2XpzERASbXj8qCogo",
+    "name": "Nhà Thuốc AnDu",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-219": {
+    "place_id": "local-sunset-219",
+    "google_place_id": "ChIJ3eqbgD6XpzERKkofOwT0TQ0",
+    "name": "Quầy thuốc Diệp Anh Anh",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-220": {
+    "place_id": "local-sunset-220",
+    "google_place_id": "ChIJX8tw7y2XpzERCFG11LaWKLE",
+    "name": "Nhà thuốc Nguyễn Huỳnh",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-221": {
+    "place_id": "local-sunset-221",
+    "google_place_id": "ChIJI-mjDgCXpzERLr3nqqKx91w",
+    "name": "Nhà Thuốc Trường Thi",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-222": {
+    "place_id": "local-sunset-222",
+    "google_place_id": "ChIJrU1ApcGXpzERiYILhxSdfIM",
+    "name": "Nhà Thuốc THANH KHOẺ",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-223": {
+    "place_id": "local-sunset-223",
+    "google_place_id": "ChIJO3jGau-VpzERg1PmG8cPTJw",
+    "name": "앙스파 & 네일 선셋타운 (Ang Spa & Nail)",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-224": {
+    "place_id": "local-sunset-224",
+    "google_place_id": "ChIJA5A7QwCVpzERi3wo6GV_i48",
+    "name": "루미 스파 1호점 (Lumi Spa & Massage - Venice 63)",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-225": {
+    "place_id": "local-sunset-225",
+    "google_place_id": "ChIJ4974y1WVpzERZyQpIOT6t0U",
+    "name": "웨이브 스파 2F 선셋타운 (Wave Spa 2F)",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-226": {
+    "place_id": "local-sunset-226",
+    "google_place_id": "ChIJu-MGk6CXpzER7qRmKY1HVdk",
+    "name": "코코넛 스파 & 카페 (Coconut Spa & Cafe)",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-227": {
+    "place_id": "local-sunset-227",
+    "google_place_id": "ChIJe9DMSLCVpzERuXEIXupJCTo",
+    "name": "블랙스파 푸꾸옥 (Black Spa Phu Quoc)",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-228": {
+    "place_id": "local-sunset-228",
+    "google_place_id": "ChIJp7ADMgCXpzERshZgTfNAb3g",
+    "name": "스파 더 엘 (SPA THE - L)",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-229": {
+    "place_id": "local-sunset-229",
+    "google_place_id": "ChIJc4_lgKCWpzERfX9ic42Xi-s",
+    "name": "라 페스타 푸꾸옥, 큐리오 컬렉션 바이 힐튼 (La Festa Phu Quoc, Curio Collection by Hilton)",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-230": {
+    "place_id": "local-sunset-230",
+    "google_place_id": "ChIJebcgOgCVpzERju4UV3vLlHw",
+    "name": "Chip’s Spa&Nail - 58 Venice ( Sunset town Phu Quoc )",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-231": {
+    "place_id": "local-sunset-231",
+    "google_place_id": "ChIJB0Bq072NpzERcvRvViCt6TQ",
+    "name": "KING Spa & Massage Sunset Town Phú Quốc | Spa Phú Quốc | 푸꾸옥 마사지샵",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-232": {
+    "place_id": "local-sunset-232",
+    "google_place_id": "ChIJ7VnT_3uVpzER4yazXSkfeG8",
+    "name": "SUNSET BLOOM SPA",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-233": {
+    "place_id": "local-sunset-233",
+    "google_place_id": "ChIJjZbdc--VpzERyzxlDVkNyeY",
+    "name": "Bloom Spa Phu Quoc Sunset Town",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-234": {
+    "place_id": "local-sunset-234",
+    "google_place_id": "ChIJS9wjorOXpzERYSjKguaEmUY",
+    "name": "Sakurakyo Spa Phu Quoc |フットマッサージ | スパマッサージ | Massage Body | Massage Foot",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-235": {
+    "place_id": "local-sunset-235",
+    "google_place_id": "ChIJL31cE-ONpzERUxrsDyzknto",
+    "name": "OASIS Spa Massage & Nail (Sunset Town Phu Quoc) 마사지 및 네일 스파 按摩和美甲",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-236": {
+    "place_id": "local-sunset-236",
+    "google_place_id": "ChIJX9gYEACVpzERCpsaoOzb3R0",
+    "name": "Véra Spa & Nail (Phú Quốc Sunset Town)",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-237": {
+    "place_id": "local-sunset-237",
+    "google_place_id": "ChIJPUyxCwAdCjER5UdXfYlBIEU",
+    "name": "LUMI SPA - MASSAGE 2 (Foot Massage Sunset Town)",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-238": {
+    "place_id": "local-sunset-238",
+    "google_place_id": "ChIJAXBY4QaNpzERRzRNokHlSgY",
+    "name": "Candle Spa",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-239": {
+    "place_id": "local-sunset-239",
+    "google_place_id": "ChIJp0UjMf6VpzERD7GyjfKiP3E",
+    "name": "Herbal Spa & Nail - Sunset Town",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-240": {
+    "place_id": "local-sunset-240",
+    "google_place_id": "ChIJ-8ORFQCXpzERAjwPCzq_HAQ",
+    "name": "코코넛 스파",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-241": {
+    "place_id": "local-sunset-241",
+    "google_place_id": "ChIJK_t3pDqVpzERT3sFCVV1eT8",
+    "name": "HANZ SUNSET SPA 2 - 56 VENICE (Sunset Town)",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-242": {
+    "place_id": "local-sunset-242",
+    "google_place_id": "ChIJi3lTpG-VpzERyFCVhUNZGHE",
+    "name": "Venice SpaMedica Phu Quoc",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-243": {
+    "place_id": "local-sunset-243",
+    "google_place_id": "ChIJHfcQsGGVpzERBnRdctDlfl0",
+    "name": "Luna Spa & Nail Phú Quốc (Sunset Town)",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-244": {
+    "place_id": "local-sunset-244",
+    "google_place_id": "ChIJ1Tfe3kGXpzERi4VaLomCKFA",
+    "name": "Hanz Sunset Spa - Phu Quoc Massage",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-245": {
+    "place_id": "local-sunset-245",
+    "google_place_id": "ChIJNVJF6dyVpzER3ORE37zaHAQ",
+    "name": "King Spa & Massage Sunset Town Night Market",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-246": {
+    "place_id": "local-sunset-246",
+    "google_place_id": "ChIJ-yY2EeuVpzERZkC-0w4sM4A",
+    "name": "솔라나 스파",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-247": {
+    "place_id": "local-sunset-247",
+    "google_place_id": "ChIJ_dd-OKyVpzERFhiS9KgMlzg",
+    "name": "King Spa & Massage Sunset View",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-248": {
+    "place_id": "local-sunset-248",
+    "google_place_id": "ChIJ7StT10WYdIERE7HOX3G1q7Q",
+    "name": "Miss Tiên Spa & Homestay Phu Quốc Sunset Town 按摩 마사지",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-249": {
+    "place_id": "local-sunset-249",
+    "google_place_id": "ChIJO4Xsb_qNpzER-PmClNP5660",
+    "name": "Sunset Spa Phú Quốc",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-250": {
+    "place_id": "local-sunset-250",
+    "google_place_id": "ChIJnaqMUXCXpzERqfIx40YV_tw",
+    "name": "Em Spa Sunset Town - Hair Wash - Massage Body & Foot",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-251": {
+    "place_id": "local-sunset-251",
+    "google_place_id": "ChIJ6wKFhxiVpzERyyp2Pzh1eG8",
+    "name": "An Mộc Spa",
+    "zone": "sunset-town",
+    "public_category": "wellness",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-252": {
+    "place_id": "local-sunset-252",
+    "google_place_id": "ChIJRUK3Ya6VpzERn8o1Mjv25do",
+    "name": "어웨이큰 씨 쇼 (Awaken Sea - 일몰 수상 스포츠 쇼)",
+    "zone": "sunset-town",
+    "public_category": "activities",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-253": {
+    "place_id": "local-sunset-253",
+    "google_place_id": "ChIJGz2yTr6XpzERw3f-8LpV0PM",
+    "name": "선셋타운 시계탑 (Clock Tower / Tháp Đồng Hồ)",
+    "zone": "sunset-town",
+    "public_category": "activities",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-254": {
+    "place_id": "local-sunset-254",
+    "google_place_id": "ChIJR1rvoz6XpzERak7X8IIpK7Q",
+    "name": "고대 폼페이 유적 기둥 (Pompeii Ruins)",
+    "zone": "sunset-town",
+    "public_category": "activities",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-255": {
+    "place_id": "local-sunset-255",
+    "google_place_id": "ChIJG-HZ4ZaRpzERhjtO1_1kObg",
+    "name": "키스 브릿지 (Kiss Bridge / Cầu Hôn)",
+    "zone": "sunset-town",
+    "public_category": "activities",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-256": {
+    "place_id": "local-sunset-256",
+    "google_place_id": "ChIJlxCWdMWXpzER1uHLQ3OpVkI",
+    "name": "드래곤 계단 (Dragon Staircase / Thang Rồng)",
+    "zone": "sunset-town",
+    "public_category": "activities",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-257": {
+    "place_id": "local-sunset-257",
+    "google_place_id": "ChIJe-XGILOVpzERFUpU0tLXMoY",
+    "name": "부이페스트 바자 야시장 (VUI-Fest Bazaar Night Market)",
+    "zone": "sunset-town",
+    "public_category": "activities",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-258": {
+    "place_id": "local-sunset-258",
+    "google_place_id": "ChIJtSQ7ywmVpzERvzagy4sWZus",
+    "name": "키스 오브 더 씨 쇼 (Kiss of the Sea Show & 불꽃놀이)",
+    "zone": "sunset-town",
+    "public_category": "activities",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-259": {
+    "place_id": "local-sunset-259",
+    "google_place_id": "ChIJvxdKNoKWpzERAWSyG5rABsg",
+    "name": "선월드 혼똔섬 케이블카 탑승장 (Hon Thom Cable Car - 안즈엉역)",
+    "zone": "sunset-town",
+    "public_category": "activities",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-260": {
+    "place_id": "local-sunset-260",
+    "google_place_id": "ChIJs4HwPACXpzER7626u4zOsys",
+    "name": "심포니 오브 더 씨 쇼 (Symphony of the Sea)",
+    "zone": "sunset-town",
+    "public_category": "activities",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-261": {
+    "place_id": "local-sunset-261",
+    "google_place_id": "ChIJb5dRi2aVpzER5yka1zrbkLM",
+    "name": "선 시그니처 갤러리 (Sun Signature Gallery)",
+    "zone": "sunset-town",
+    "public_category": "activities",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-262": {
+    "place_id": "local-sunset-262",
+    "google_place_id": "ChIJs257yXOVpzERXbYTubmIxb0",
+    "name": "GL90s 24시 세탁소 아말피점 (GL90s Laundry Ama47)",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-263": {
+    "place_id": "local-sunset-263",
+    "google_place_id": "ChIJVzqFZ6eVpzERaAEnyrzAM7w",
+    "name": "Money Exchange Sunset Town",
+    "zone": "sunset-town",
+    "public_category": "banking",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-264": {
+    "place_id": "local-sunset-264",
+    "google_place_id": "ChIJ3XnvB6WVpzERvfQlQF07n4c",
+    "name": "Phú Quốc Laundry (Giặt sấy, 옷 세탁 및 건조)",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-265": {
+    "place_id": "local-sunset-265",
+    "google_place_id": "ChIJp9ZcOsKXpzERDLEPwP3e9JE",
+    "name": "Phú Quốc Go",
+    "zone": "sunset-town",
+    "public_category": "transport",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-266": {
+    "place_id": "local-sunset-266",
+    "google_place_id": "ChIJZXM2cdOVpzERTz6J6CvWVwg",
+    "name": "Bãi biển Thị trấn Hoàng Hôn",
+    "zone": "sunset-town",
+    "public_category": "activities",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-267": {
+    "place_id": "local-sunset-267",
+    "google_place_id": "ChIJX_dQ80WVpzERt4kcSkTbC6I",
+    "name": "Exchange Money - Sol Cosy Phu Quoc",
+    "zone": "sunset-town",
+    "public_category": "banking",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-268": {
+    "place_id": "local-sunset-268",
+    "google_place_id": "buggy_service_sunset_town",
+    "name": "선셋타운 공식 전동 버기카 & 무료 셔틀버스 (Electric Buggy)",
+    "zone": "sunset-town",
+    "public_category": "transport",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-269": {
+    "place_id": "local-sunset-269",
+    "google_place_id": "ChIJ7aTxLR2VpzERAztBqz__Cew",
+    "name": "G&G Money Exchange Sunset Town",
+    "zone": "sunset-town",
+    "public_category": "banking",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-270": {
+    "place_id": "local-sunset-270",
+    "google_place_id": "ChIJPZGZytL1MjERhJRt3am-myo",
+    "name": "Sunset Bazaar Phú Quốc",
+    "zone": "sunset-town",
+    "public_category": "activities",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-271": {
+    "place_id": "local-sunset-271",
+    "google_place_id": "ChIJsY4JY3iXpzEREnF4DG6QX0Q",
+    "name": "EXMoney Sunset Town | Currency Exchange",
+    "zone": "sunset-town",
+    "public_category": "banking",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-272": {
+    "place_id": "local-sunset-272",
+    "google_place_id": "ChIJk-jMi4iXpzERM3xMhvCmdVE",
+    "name": "Sunset Town Motorbike & Scooter Rental",
+    "zone": "sunset-town",
+    "public_category": "transport",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-273": {
+    "place_id": "local-sunset-273",
+    "google_place_id": "ChIJ0TT_dGuLpzERVxP3FqXvAGE",
+    "name": "GL90S Laundry ( CS S4)",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-274": {
+    "place_id": "local-sunset-274",
+    "google_place_id": "ChIJK4MK9QeXpzER3_XWA20nk4M",
+    "name": "선셋타운 환전소(sunsettown exchange)",
+    "zone": "sunset-town",
+    "public_category": "banking",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-275": {
+    "place_id": "local-sunset-275",
+    "google_place_id": "ChIJNQRxBrKVpzERhBI9igVrm6k",
+    "name": "Phu Quoc Brew House",
+    "zone": "sunset-town",
+    "public_category": "activities",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-276": {
+    "place_id": "local-sunset-276",
+    "google_place_id": "ChIJeZB3ZgCXpzERHUYzcRYXt8c",
+    "name": "Áo Mây Phú Quốc Laundry, Shoesspa - Giặt Sấy Nhanh, Giặt Hấp, Vệ Sinh Giày",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-277": {
+    "place_id": "local-sunset-277",
+    "google_place_id": "ChIJ1R0-b6eVpzERP9dGI5QcYFk",
+    "name": "MB ATM (Nộp/rút tiền)",
+    "zone": "sunset-town",
+    "public_category": "banking",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-278": {
+    "place_id": "local-sunset-278",
+    "google_place_id": "ChIJ_YsvGwCXpzERHyfTAx4dejg",
+    "name": "BIDV ATM machine",
+    "zone": "sunset-town",
+    "public_category": "banking",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-279": {
+    "place_id": "local-sunset-279",
+    "google_place_id": "ChIJc4dmHQCVpzEROaH0u4lrt6A",
+    "name": "VietinBank ATM",
+    "zone": "sunset-town",
+    "public_category": "banking",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-280": {
+    "place_id": "local-sunset-280",
+    "google_place_id": "ChIJTaoBNgCXpzERxON7dd1eJBo",
+    "name": "Giặt sấy Laundry and Drying Cô Út",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-281": {
+    "place_id": "local-sunset-281",
+    "google_place_id": "ChIJ60Q_PwCXpzERlHqpwLfDXS4",
+    "name": "An Thới Laundry",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-282": {
+    "place_id": "local-sunset-282",
+    "google_place_id": "ChIJubRuqqOXpzERw_JwJW5n2Ro",
+    "name": "GL90s Laundry ( Giặt là)",
+    "zone": "sunset-town",
+    "public_category": "essentials",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-283": {
+    "place_id": "local-sunset-283",
+    "google_place_id": "ChIJ3X20sn2XpzERXLMKc4FzQ28",
+    "name": "TPBank LiveBank 347 Nguyễn Văn Cừ",
+    "zone": "sunset-town",
+    "public_category": "banking",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-284": {
+    "place_id": "local-sunset-284",
+    "google_place_id": "ChIJI2mmzSmXpzERbYVRzyoEe-U",
+    "name": "ACB ATM",
+    "zone": "sunset-town",
+    "public_category": "banking",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-285": {
+    "place_id": "local-sunset-285",
+    "google_place_id": "ChIJk0WXYpuWpzERa4-nkUrGLEY",
+    "name": "PGD An Thới - CN Phú Quốc - Ngân hàng TMCP Đầu tư & Phát triển Việt Nam (BIDV)",
+    "zone": "sunset-town",
+    "public_category": "banking",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-286": {
+    "place_id": "local-sunset-286",
+    "google_place_id": "ChIJ85c8oy6XpzERSWtuWtlHbLk",
+    "name": "Cây ATM_BIDV",
+    "zone": "sunset-town",
+    "public_category": "banking",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-287": {
+    "place_id": "local-sunset-287",
+    "google_place_id": "ChIJJ0CyH1iXpzERLDnhtNVvV3U",
+    "name": "MB ATM (Rút tiền)",
+    "zone": "sunset-town",
+    "public_category": "banking",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-288": {
+    "place_id": "local-sunset-288",
+    "google_place_id": "ChIJHb8567mWpzER64OgWXrzHkc",
+    "name": "ATM Vietcombank, BIDV ATM",
+    "zone": "khem-beach",
+    "public_category": "banking",
+    "service_areas": [
+      "khem-beach",
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-289": {
+    "place_id": "local-sunset-289",
+    "google_place_id": "ChIJee2mR4OWpzER98XuX_CY8nM",
+    "name": "ATM Vietcombank",
+    "zone": "sunset-town",
+    "public_category": "banking",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-290": {
+    "place_id": "local-sunset-290",
+    "google_place_id": "ChIJ5dx6-3-XpzERAdsyhzUCpM8",
+    "name": "ATM SACOMBANK",
+    "zone": "sunset-town",
+    "public_category": "banking",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-291": {
+    "place_id": "local-sunset-291",
+    "google_place_id": "ChIJMe22CnCXpzERJBSnWhFrVmI",
+    "name": "ATM - KienlongBank An Thới",
+    "zone": "sunset-town",
+    "public_category": "banking",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "khem-draft-001": {
+    "place_id": "khem-draft-001",
+    "google_place_id": null,
+    "name": "JW 메리어트 푸꾸옥 에메랄드 베이 리조트 & 스파",
+    "zone": "khem-beach",
+    "public_category": "hotels",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-002": {
+    "place_id": "khem-draft-002",
+    "google_place_id": null,
+    "name": "프리미어 레지던스 푸꾸옥 에메랄드 베이",
+    "zone": "khem-beach",
+    "public_category": "hotels",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-003": {
+    "place_id": "khem-draft-003",
+    "google_place_id": null,
+    "name": "뉴월드 푸꾸옥 리조트",
+    "zone": "khem-beach",
+    "public_category": "hotels",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-004": {
+    "place_id": "khem-draft-004",
+    "google_place_id": null,
+    "name": "파랄리아 켐비치 호텔 푸꾸옥",
+    "zone": "khem-beach",
+    "public_category": "hotels",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-005": {
+    "place_id": "khem-draft-005",
+    "google_place_id": null,
+    "name": "JM 부티크 호텔 푸꾸옥",
+    "zone": "khem-beach",
+    "public_category": "hotels",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-006": {
+    "place_id": "khem-draft-006",
+    "google_place_id": null,
+    "name": "앤 호텔 & 스파 푸꾸옥",
+    "zone": "khem-beach",
+    "public_category": "hotels",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-007": {
+    "place_id": "khem-draft-007",
+    "google_place_id": null,
+    "name": "핑크 펄",
+    "zone": "khem-beach",
+    "public_category": "dining",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-008": {
+    "place_id": "khem-draft-008",
+    "google_place_id": null,
+    "name": "템푸스 푸짓",
+    "zone": "khem-beach",
+    "public_category": "dining",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-009": {
+    "place_id": "khem-draft-009",
+    "google_place_id": null,
+    "name": "레드 럼",
+    "zone": "khem-beach",
+    "public_category": "dining",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-010": {
+    "place_id": "khem-draft-010",
+    "google_place_id": null,
+    "name": "클럽하우스 레스토랑",
+    "zone": "khem-beach",
+    "public_category": "dining",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-011": {
+    "place_id": "khem-draft-011",
+    "google_place_id": null,
+    "name": "메르카토 레스토랑",
+    "zone": "khem-beach",
+    "public_category": "dining",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-012": {
+    "place_id": "khem-draft-012",
+    "google_place_id": null,
+    "name": "더 베이 키친",
+    "zone": "khem-beach",
+    "public_category": "dining",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-017": {
+    "place_id": "khem-draft-017",
+    "google_place_id": null,
+    "name": "디파트먼트 오브 케미스트리 바",
+    "zone": "khem-beach",
+    "public_category": "bars",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-018": {
+    "place_id": "khem-draft-018",
+    "google_place_id": null,
+    "name": "프렌치 앤 코",
+    "zone": "khem-beach",
+    "public_category": "bars",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-019": {
+    "place_id": "khem-draft-019",
+    "google_place_id": null,
+    "name": "풀 바",
+    "zone": "khem-beach",
+    "public_category": "bars",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-020": {
+    "place_id": "khem-draft-020",
+    "google_place_id": null,
+    "name": "샹트렐 스파 바이 JW",
+    "zone": "khem-beach",
+    "public_category": "wellness",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-021": {
+    "place_id": "khem-draft-021",
+    "google_place_id": null,
+    "name": "에메랄드 스파",
+    "zone": "khem-beach",
+    "public_category": "wellness",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-022": {
+    "place_id": "khem-draft-022",
+    "google_place_id": null,
+    "name": "더 스파 앳 뉴월드",
+    "zone": "khem-beach",
+    "public_category": "wellness",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-023": {
+    "place_id": "khem-draft-023",
+    "google_place_id": null,
+    "name": "바이켐 해변",
+    "zone": "khem-beach",
+    "public_category": "beaches",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-024": {
+    "place_id": "khem-draft-024",
+    "google_place_id": null,
+    "name": "프리미어 레지던스 해양 레저 센터",
+    "zone": "khem-beach",
+    "public_category": "activities",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-026": {
+    "place_id": "khem-draft-026",
+    "google_place_id": null,
+    "name": "푸꾸옥 택시 승강장 (켐비치 리조트 게이트)",
+    "zone": "khem-beach",
+    "public_category": "transport",
+    "service_areas": [
+      "khem-beach"
+    ]
+  }
+}

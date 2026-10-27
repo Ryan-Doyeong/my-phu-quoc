@@ -12,6 +12,13 @@ export function MobileMenu({ locale = 'en' }: { locale?: Locale }) {
         <em>{dict.nav.menu}</em>
       </summary>
       <div className="mobileMenuPanel">
+        <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
+        <Link href={localePath(locale, '/zones/sunset-town')}>
+          {locale === 'ko' ? '선셋타운 (Sunset Town)' : 'Sunset Town'}
+        </Link>
+        <Link href={localePath(locale, '/zones/khem-beach')}>
+          {locale === 'ko' ? '켐비치 (Khem Beach)' : 'Khem Beach'}
+        </Link>
         <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
         {DIRECTORY_CATEGORY_KEYS.map((key) => (
           <Link href={localePath(locale, `/directory/${key}`)} key={key}>

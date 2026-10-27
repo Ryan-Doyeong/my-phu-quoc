@@ -1,0 +1,813 @@
+/**
+ * lib/sunsetMapData.ts
+ * 선그룹(Sun Group) 공식 선셋타운(Sunset Town / Thị trấn Hoàng Hôn) 지도 데이터
+ * 2000 x 2914 공식 일러스트 맵 기준 거리(Roads) 및 12대 핵심 랜드마크 POI 좌표 정의
+ */
+
+import type { Locale } from '@/lib/i18n/config'
+import type { SunsetZoneKey } from '@/lib/zones'
+
+export interface MapLandmark {
+  id: string
+  number: number
+  name: Record<Locale, string>
+  category: 'attraction' | 'show' | 'shopping' | 'transport' | 'culture' | 'beach'
+  zone: SunsetZoneKey
+  // 2000 x 2914 픽셀 기준 정확한 지도 좌표
+  imgX: number
+  imgY: number
+  lat: number
+  lng: number
+  address: string
+  image: string
+  ticketSlug?: string
+  ticketUrl?: string
+  description: Record<Locale, string>
+  tips: Record<Locale, string>
+  bestTime?: string
+  operatingHours?: string
+  walkingDistance?: string
+  walkingTime?: string
+  googleMapsUrl: string
+}
+
+export interface MapStreet {
+  id: string
+  name: string
+  nameKo: string
+  nameEn: string
+  zone: SunsetZoneKey
+  color: string
+  strokeWidth: number
+  pathD: string // SVG path d (viewBox 0 0 2000 2914)
+  descriptionKo: string
+  descriptionEn: string
+  labelX: number
+  labelY: number
+}
+
+export interface MapTourCourse {
+  id: string
+  title: Record<Locale, string>
+  duration: string
+  distance: string
+  description: Record<Locale, string>
+  stopIds: string[]
+  themeColor: string
+}
+
+// 12대 핵심 관광 랜드마크 (2000 x 2914 좌표계 기준)
+export const SUNSET_LANDMARKS: MapLandmark[] = [
+  {
+    id: 'kiss-bridge',
+    walkingDistance: '0.4 km',
+    walkingTime: '5 min',
+    number: 1,
+    name: {
+      ko: '키스 브릿지 (Cầu Hôn)',
+      en: 'Kiss Bridge (Cau Hon)',
+      vi: 'Cầu Hôn (Kiss Bridge)',
+      hi: 'किस ब्रिज (काऊ होन)',
+      zh: '亲吻桥 (Kiss Bridge)',
+      ru: '«Мост поцелуев» (Kiss Bridge)',
+      ja: 'キスブリッジ (Kiss Bridge)',
+    },
+    category: 'attraction',
+    zone: 'central',
+    imgX: 108,
+    imgY: 1586,
+    lat: 10.02708,
+    lng: 104.0049,
+    address: 'Bờ biển Sunset Town, Phường An Thới, Phú Quốc',
+    image: '/tickets/kiss-bridge.webp',
+    ticketSlug: 'kiss-bridge',
+    ticketUrl: 'https://www.klook.com/en-US/activity/108398-kiss-bridge-sunset-town-phu-quoc/?aid=MYPHUQUOC',
+    description: {
+      ko: '이탈리아 건축 거장 마르코 카사몬티가 설계한 해상 보행교. 50cm 간격으로 마주보는 두 다리 사이로 붉은 석양이 지는 일몰 명소입니다.',
+      en: 'Ocean pedestrian bridge designed by Marco Casamonti, featuring a 50cm gap where the setting sun aligns between the twin spans.',
+      vi: 'Cây cầu đi bộ trên biển độc đáo do KTS Marco Casamonti thiết kế, khoảng cách 50cm giữa hai đầu cầu là điểm rơi của ánh hoàng hôn tuyệt mỹ.',
+      hi: 'मार्को कैसा मोंटी द्वारा डिज़ाइन किया गया प्रतिष्ठित समुद्री पैदल यात्री पुल, जहाँ दोनों सिरों के बीच सूर्यास्त गिरता है।',
+      zh: '由意大利著名建筑大师设计，两桥相距50公分的唯美海上步道，夕阳落入两端桥缝间的震撼日落奇观。',
+      ru: 'Знаменитый морской пешеходный мост с зазором в 50 см, где заходящее солнце садится точно между пролетами.',
+      ja: '建築家マルコ・カサモンティ設計の象徴的な海上遊歩道。夕日が2つの橋の隙間に沈む絶景ビューポイント。',
+    },
+    tips: {
+      ko: '일몰 시간대(17:00~17:45)에 북쪽 다리와 남쪽 다리 끝에서 마주보고 서서 사진을 촬영하는 대표적인 포토존입니다.',
+      en: 'Best photography time is golden hour (17:00-17:45). Stand at opposite bridge tips for memorable photos.',
+      vi: 'Khung giờ vàng từ 17:00 đến 17:45 là thời điểm hoàn hảo nhất để có bức ảnh ngược sáng hoàng hôn tuyệt đẹp.',
+      hi: 'शाम 17:00-17:45 पर जाएँ, सबसे खूबसूरत सूर्यास्त तस्वीरें मिलेंगी।',
+      zh: '建议傍晚17:00~17:45黄金时段登桥，两端相隔打卡最具仪式感。',
+      ru: 'Идеальное время — закат с 17:00 до 17:45 для классических романтических фото.',
+      ja: '日没のゴールデンアワー(17:00~17:45)の撮影が最も美しくおすすめです。',
+    },
+    bestTime: '17:00 - 18:00 (Sunset)',
+    operatingHours: '07:00 - 23:00',
+    googleMapsUrl: 'https://maps.google.com/?q=Kiss+Bridge+Phu+Quoc',
+  },
+  {
+    id: 'kiss-of-the-sea',
+    walkingDistance: '0.2 km',
+    walkingTime: '3 min',
+    number: 2,
+    name: {
+      ko: '키스 오브 더 씨 극장 & 불꽃놀이 (Kiss of the Sea)',
+      en: 'Kiss of the Sea Show & Theatre',
+      vi: 'Sân khấu Show Nụ Hôn Của Biển Cả',
+      hi: 'किस ऑफ़ द सी शो और रंगमंच',
+      zh: '海洋之吻海上剧场与烟花秀',
+      ru: 'Театр шоу «Поцелуй моря» и фейерверки',
+      ja: 'キス・オブ・ザ・シー 海上劇場＆花火',
+    },
+    category: 'show',
+    zone: 'central',
+    imgX: 497,
+    imgY: 1713,
+    lat: 10.02708,
+    lng: 104.0069,
+    address: 'Sân khấu biển Sunset Town, Phường An Thới, Phú Quốc',
+    image: '/tickets/kiss-of-the-sea.webp',
+    ticketSlug: 'kiss-of-the-sea',
+    ticketUrl: 'https://www.klook.com/en-US/activity/108397-kiss-of-the-sea-show-phu-quoc/?aid=MYPHUQUOC',
+    description: {
+      ko: '해상 멀티미디어 쇼. 분수, 화염, 레이저, 음악과 불꽃놀이가 수~월요일 밤마다 펼쳐집니다 (화요일 휴무, 공연 일정은 공식 공지 확인).',
+      en: 'The world\'s largest ocean multimedia show seating 5,000 guests. Features water jets, fire, lasers, music, and an astonishing fireworks finale (Wed–Mon; Tue dark).',
+      vi: 'Show diễn đa phương tiện trên biển quy mô 5.000 chỗ ngồi, kết hợp lửa, nước, laser và pháo hoa rực rỡ từ Thứ 4 đến Thứ 2 (Thứ 3 nghỉ định kỳ).',
+      hi: '5,000 सीटों वाला विशाल समुद्री मल्टीमीडिया शो, पानी, आग, लेजर और भव्य आतिशबाजी (बुध-सोम, मंगलवार अवकाश)।',
+      zh: '容纳5000名观众的全球最大海上多媒体盛秀，水幕、火光、激光与璀璨烟花交相辉映（逢周二休演）。',
+      ru: 'Морское мультимедийное шоу на 5000 мест: вода, огонь, лазеры и праздничный салют (Ср–Пн; Вт — выходной).',
+      ja: '世界最大規模の5,000席海上マルチメディアショー。噴水、炎、レーザー、そして華麗な花火（水〜月開演、火曜休演）。',
+    },
+    tips: {
+      ko: '공연은 수~월요일 21:00에 시작하며(화요일 휴무), 공연 피날레인 21:25경부터 약 5~7분간 화려한 불꽃놀이가 펼쳐집니다. VIP석 중앙블록이 가장 시야가 좋습니다.',
+      en: 'Show starts Wed–Mon at 21:00 (closed Tuesdays), followed by the fireworks finale around 21:25. Center VIP seats offer unobstructed views.',
+      vi: 'Show diễn lúc 21:00 từ Thứ 4 đến Thứ 2 (Thứ 3 nghỉ), pháo hoa bắn lúc ~21:25. Khu vực VIP trung tâm có góc nhìn đẹp nhất.',
+      hi: 'शो बुध-सोम 21:00 बजे शुरू होता है (मंगलवार अवकाश), आतिशबाजी ~21:25 पर होती है। केंद्र वीआईपी सीटें सबसे अच्छी हैं।',
+      zh: '演出每周三至周一 21:00 开始（周二休演），约 21:25 烟花压轴。中央VIP区域视角最佳。',
+      ru: 'Начало шоу в 21:00 со среды по понедельник (вт — выходной), салют около 21:25. Лучший обзор — в VIP-секторе.',
+      ja: '水〜月 21:00開演（火曜休演）、21:25頃よりフィナーレ花火。中央VIPシートの眺めが最も迫力があります。',
+    },
+    bestTime: '20:30 - 21:45',
+    operatingHours: '수~월 21:00 (화요일 정기 휴무; 국경일 정상 운행 여부 공지 확인)',
+    googleMapsUrl: 'https://maps.google.com/?q=Kiss+of+the+Sea+Show+Phu+Quoc',
+  },
+  {
+    id: 'clock-tower',
+    walkingDistance: '0.3 km',
+    walkingTime: '4 min',
+    number: 3,
+    name: {
+      ko: '센트럴 75m 시계탑 (Torre dell\'Orologio)',
+      en: 'Central 75m Clock Tower',
+      vi: 'Tháp đồng hồ trung tâm 75m',
+      hi: 'सेंट्रल क्लॉक टॉवर 75m',
+      zh: '75米中央钟楼 (Torre dell\'Orologio)',
+      ru: 'Центральная часовая башня 75 м',
+      ja: '75m セントラル時計塔',
+    },
+    category: 'attraction',
+    zone: 'central',
+    imgX: 670,
+    imgY: 947,
+    lat: 10.0292,
+    lng: 104.0077,
+    address: 'Quảng trường trung tâm Sunset Town, Phú Quốc',
+    image: '/categories/dining.webp',
+    description: {
+      ko: '베네치아 산마르코 광장의 종탑에서 영감을 얻은 선셋타운의 상징적인 75m 랜드마크. 푸른 바다와 파스텔톤 숍하우스를 360도로 조망할 수 있습니다.',
+      en: 'Iconic 75m landmark inspired by St. Mark\'s Campanile in Venice, commanding 360-degree views over pastel shophouses and the azure sea.',
+      vi: 'Biểu tượng cao 75m lấy cảm hứng từ tháp chuông San Marco (Venice), ngắm trọn toàn cảnh thị trấn và biển đảo ngọc.',
+      hi: 'वेनिस के सैन मार्को से प्रेरित 75 मीटर का प्रतिष्ठित टॉवर, पेस्टल घरों और समुद्र का 360-डिग्री दृश्य।',
+      zh: '灵感源自威尼斯圣马可钟楼的75米地标巨塔，俯瞰彩虹小镇与碧蓝大海的绝佳据点。',
+      ru: '75-метровая башня в стиле венецианской кампанилы собора Сан-Марко, главная доминанта Сансет Тауна.',
+      ja: 'ヴェネツィアの鐘楼をモチーフにした高さ75mのシンボルタワー。街並みと海を一望できます。',
+    },
+    tips: {
+      ko: '시계탑 앞 광장은 선셋타운의 중심 만남의 장소이며, 정오와 일몰 시각에 장엄한 종소리가 울려 퍼집니다.',
+      en: 'The square below is the central meeting point; bells toll at noon and sunset.',
+      vi: 'Quảng trường trước tháp là điểm check-in trung tâm, tiếng chuông ngân vang lúc hoàng hôn.',
+      hi: 'टॉवर के सामने का चौराहा मुख्य बैठक स्थल है; सूर्यास्त के समय घंटियाँ बजती हैं।',
+      zh: '塔前中央广场是核心拍照点，黄昏时分钟声响起极富地中海浪漫风情。',
+      ru: 'Площадь у подножия башни — центральное место встреч и фотосессий.',
+      ja: '時計塔前の広場は待ち合わせの定番スポット。日没時の鐘の音が響き渡ります。',
+    },
+    bestTime: '16:30 - 18:30',
+    operatingHours: '24시간 관람 가능 (야간 조명 연출)',
+    googleMapsUrl: 'https://maps.google.com/?q=Clock+Tower+Sunset+Town+Phu+Quoc',
+  },
+  {
+    id: 'cable-car-station',
+    walkingDistance: '0.5 km',
+    walkingTime: '7 min',
+    number: 4,
+    name: {
+      ko: '혼똠 케이블카 안즈엉역 (콜로세움 역사)',
+      en: 'Hon Thom Cable Car Station (Colosseum)',
+      vi: 'Ga Ánh Dương (Ga Cáp Treo Hòn Thơm)',
+      hi: 'हॉन थोम केबल कार स्टेशन (कोलोसियम)',
+      zh: '太阳世界香岛缆车出发站 (斗兽场造型)',
+      ru: 'Станция канатной дороги Хон Тхом (Колизей)',
+      ja: 'ホントム ケーブルカー出発駅 (コロッセオ)',
+    },
+    category: 'transport',
+    zone: 'sorrento',
+    imgX: 391,
+    imgY: 354,
+    lat: 10.0274,
+    lng: 104.0072,
+    address: 'Ga Cáp treo Ánh Dương, Sunset Town, An Thới, Phú Quốc',
+    image: '/tickets/hon-thom-cable-car.webp',
+    ticketSlug: 'hon-thom-cable-car',
+    ticketUrl: 'https://www.klook.com/en-US/activity/12871-sun-world-hon-thom-nature-park-cable-car-phu-quoc/?aid=MYPHUQUOC',
+    description: {
+      ko: '혼똠섬으로 연결되는 7,899.9m 3선식 논스톱 해상 케이블카의 출발역. 로마 콜로세움을 모티브로 한 아치 건축과 폼페이 전사 동상이 있습니다.',
+      en: "Non-stop 3-rope ocean cable car (7,899.9m). Architectural tribute to Rome's Colosseum with gladiator statues.",
+      vi: 'Ga đi của tuyến cáp treo vượt biển 3 dây không dừng dài nhất thế giới (7.899,9m), thiết kế như Đấu trường La Mã Colosseum tráng lệ.',
+      hi: 'गिनीज रिकॉर्ड वाली 7,899 मीटर लंबी समुद्री केबल कार का प्रारंभिक स्टेशन, रोमन कोलोसियम वास्तुकला।',
+      zh: '吉尼斯世界纪录最长的3线跨海缆车(7,899米)起点站，重现古罗马斗兽场的宏伟圆拱外观。',
+      ru: 'Отправная станция самой длинной в мире канатной дороги над морем (7 899 м), оформленная как римский Колизей.',
+      ja: 'ギネス認定の世界最長海上3線ロープウェイ(7,899m)の出発駅。コロッセオを模した壮大な建築。',
+    },
+    tips: {
+      ko: '케이블카 운행 시간(오전 09:00~11:30, 오후 13:30~17:00 등 브레이크 타임 있음)을 반드시 미리 확인하세요. 오전 탑승을 추천합니다.',
+      en: 'Operating hours have midday break slots (check schedules). Morning departure gives full day at Aquatopia waterpark.',
+      vi: 'Cáp treo có khung giờ vận hành cố định sáng/chiều, nên kiểm tra lịch trước khi di chuyển.',
+      hi: 'केबल कार के चलने का समय देख लें (दोपहर में ब्रेक होता है)। सुबह निकलना सबसे अच्छा है।',
+      zh: '缆车中午有时段停运维护，建议清晨前往，预留全天游玩香岛水上乐园。',
+      ru: 'У канатной дороги есть дневной перерыв в движении. Рекомендуется выезжать утром.',
+      ja: '運行時間(昼休みあり)を事前に確認してください。午前中に出発してアクアトピアを満喫するのがおすすめ。',
+    },
+    bestTime: '08:30 - 11:00 / 14:00 - 17:00',
+    operatingHours: '09:00 - 17:00 (회차별 탄력 운행)',
+    googleMapsUrl: 'https://maps.google.com/?q=Hon+Thom+Departure+Cable+Car+Station',
+  },
+  {
+    id: 'vuifest-bazaar',
+    walkingDistance: '0.9 km',
+    walkingTime: '12 min',
+    number: 5,
+    name: {
+      ko: '부이페스트 바자르 야시장 (Vui-Fest Bazaar)',
+      en: 'Vui-Fest Bazaar Night Market',
+      vi: 'Chợ đêm Vui-Fest Bazaar',
+      hi: 'वुई-फेस्ट बाज़ार नाइट मार्केट',
+      zh: 'Vui-Fest 海滨创意夜市',
+      ru: 'Ночной базар Vui-Fest',
+      ja: 'ヴイフェスト ナイトマーケット',
+    },
+    category: 'shopping',
+    zone: 'venice',
+    imgX: 123,
+    imgY: 179,
+    lat: 10.035,
+    lng: 104.0027,
+    address: 'Đường ven biển Venice, Sunset Town, An Thới, Phú Quốc',
+    image: '/categories/shopping.webp',
+    description: {
+      ko: '베트남 해변 크리에이티브 야시장. 50여 개가 넘는 로컬 스트리트 푸드 부스와 버스킹 음악 공연, 공예품 숍이 바닷바람과 함께 어우러집니다.',
+      en: 'Vietnam\'s premier seaside creative night market with 50+ local street food stalls, live busking shows, crafts, and breezy ocean vibes.',
+      vi: 'Chợ đêm sáng tạo ven biển đầu tiên tại Việt Nam, nơi hội tụ hơn 50 gian hàng ẩm thực, biểu diễn đường phố Loảng Xoảng show sôi động.',
+      hi: 'वियतनाम का पहला समुद्रतटीय नाइट मार्केट, 50+ स्ट्रीट फूड स्टॉल, लाइव संगीत और हस्तशिल्प।',
+      zh: '越南首个创意海滨夜市，50多档地道街头美食、Loang Xoang锅碗打击乐快闪与手工艺品。',
+      ru: 'Первый во Вьетнаме креативный ночной рынок на берегу моря: уличная еда, живая музыка, ремесла.',
+      ja: 'ベトナム初の海辺のナイトマーケット。50以上の屋台、ストリートパフォーマンス、工芸品が並びます。',
+    },
+    tips: {
+      ko: '저녁 18:00부터 활기를 띠며, 20:00경 펼쳐지는 \'로앙소앙(Loảng Xoảng) 키친 스트리트 쇼\' 타악 공연을 놓치지 마세요.',
+      en: 'Vibrant from 18:00 onwards. Don\'t miss the "Loang Xoang" comedic kitchen musical busking show at 20:00.',
+      vi: 'Bắt đầu nhộn nhịp từ 18:00. Đừng bỏ lỡ show hoạt náo đường phố Loảng Xoảng lúc 20:00.',
+      hi: 'शाम 18:00 बजे से रौनक शुरू होती है, रात 20:00 बजे का सड़क संगीत शो जरूर देखें।',
+      zh: '傍晚18点开始热闹，20:00左右的Loang Xoang锅碗瓢盆打击乐街头快闪不可错过。',
+      ru: 'Рынок оживает с 18:00. В 20:00 не пропустите забавное уличное шоу уличных поваров.',
+      ja: '18:00以降が賑やかでおすすめ。20:00のキッチンパーカッションショー「ロアンソアン」は必見。',
+    },
+    bestTime: '18:00 - 23:00',
+    operatingHours: '16:00 - 24:00',
+    googleMapsUrl: 'https://maps.google.com/?q=Vui-Fest+Bazaar+Phu+Quoc',
+  },
+  {
+    id: 'sun-signature-gallery',
+    walkingDistance: '0.2 km',
+    walkingTime: '3 min',
+    number: 6,
+    name: {
+      ko: '썬 시그니처 갤러리 (Sun Signature Gallery)',
+      en: 'Sun Signature Gallery (Bill Bensley)',
+      vi: 'Sun Signature Gallery',
+      hi: 'सन सिग्नेचर गैलरी',
+      zh: '太阳标志画廊 (比尔·本斯利设计)',
+      ru: 'Галерея Sun Signature Gallery',
+      ja: 'サン・シグネチャー・ギャラリー',
+    },
+    category: 'culture',
+    zone: 'central',
+    imgX: 962,
+    imgY: 1120,
+    lat: 10.0306,
+    lng: 104.0071,
+    address: 'Đường Amalfi, Sunset Town, An Thới, Phú Quốc',
+    image: '/categories/wellness.webp',
+    description: {
+      ko: '세계적인 건축가 빌 벤슬리(Bill Bensley)가 미드센추리 모던 아트 스타일로 디자인한 예술 회관. 1,000석 규모의 웅장한 볼룸과 미술 컬렉션이 있습니다.',
+      en: 'Masterpiece by renowned architect Bill Bensley in Mid-Century Modern style. Features grand 1,000-seat ballroom and curated art collections.',
+      vi: 'Bảo tàng nghệ thuật kiến trúc do KTS Bill Bensley thiết kế phong cách Mid-Century Modern với đại tiệc khán phòng 1.000 chỗ.',
+      hi: 'प्रसिद्ध वास्तुकार बिल बेन्सले द्वारा डिज़ाइन किया गया मिड-सेंचुरी मॉडर्न आर्ट हॉल।',
+      zh: '世界顶级建筑大师比尔·本斯利设计的世纪中期现代艺术殿堂，内设豪华千人宴会大厅。',
+      ru: 'Шедевр архитектора Билла Бенсли в стиле модернизма середины века, роскошный арт-комплекс.',
+      ja: '有名建築家ビル・ベンズリーが手掛けたミッドセンチュリーモダンのアートギャラリー。',
+    },
+    tips: {
+      ko: '민트빛 돔과 화려한 샹들리에 로비가 주요 포토제닉 스팟입니다. 특별 전시회나 이벤트 개최 시 입장이 가능합니다.',
+      en: 'Mint green dome and lavish chandeliers create glamorous photoshoot backdrops.',
+      vi: 'Mái vòm xanh ngọc bích và dàn đèn chùm sang trọng là góc chụp ảnh nghệ thuật đỉnh cao.',
+      hi: 'गुंबद और झूमर के साथ फोटोग्राफी के लिए अद्भुत पृष्ठभूमि।',
+      zh: '薄荷绿色穹顶与奢华吊灯是出片率极高的打卡背景。',
+      ru: 'Изумрудный купол и хрустальные люстры идеальны для изысканных снимков.',
+      ja: 'ミントグリーンのドームと豪華なシャンデリアが印象的なフォトスポットです。',
+    },
+    bestTime: '10:00 - 16:00',
+    operatingHours: '08:00 - 18:00 (전시 및 행사 일정에 따름)',
+    googleMapsUrl: 'https://maps.google.com/?q=Sun+Signature+Gallery+Phu+Quoc',
+  },
+  {
+    id: 'king-sun-fountain',
+    walkingDistance: '0.2 km',
+    walkingTime: '3 min',
+    number: 7,
+    name: {
+      ko: '태양의 분수 (Fontana Dei Giorni)',
+      en: 'King Sun Fountain (Fontana Dei Giorni)',
+      vi: 'Đài phun nước Thần Mặt Trời',
+      hi: 'किंग सन फाउंटेन (फोंटाना देई जियोर्नी)',
+      zh: '太阳神喷泉 (Fontana Dei Giorni)',
+      ru: 'Фонтан бога Солнца (Fontana Dei Giorni)',
+      ja: '太陽神の噴水 (Fontana Dei Giorni)',
+    },
+    category: 'attraction',
+    zone: 'central',
+    imgX: 962,
+    imgY: 1328,
+    lat: 10.0299,
+    lng: 104.0072,
+    address: 'Quảng trường Con Sò, Sunset Town, An Thới, Phú Quốc',
+    image: '/categories/beach.webp',
+    description: {
+      ko: '이탈리아 피렌체의 조각 명가 Frilli Gallery가 제작한 황금빛 태양의 마차와 물의 신 조각 군상 분수대. 정교한 브론즈 조각이 빛을 발합니다.',
+      en: 'Majestic fountain crafted by Florence\'s famous Frilli Gallery, depicting the God of Sun Helios in a gilded bronze chariot drawn by stallions.',
+      vi: 'Tác phẩm điêu khắc đài phun nước Thần Mặt Trời tuyệt mỹ do Frilli Gallery (Ý) chế tác bằng đồng nguyên khối dát vàng.',
+      hi: 'फ्लोरेंस की फ्रिली गैलरी द्वारा बनाई गई सुनहरी धूप के रथ और पानी के देवताओं की मूर्तियां।',
+      zh: '由意大利佛罗伦萨Frilli工坊打造的太阳神阿波罗镀金战车喷泉，工艺栩栩如生。',
+      ru: 'Фонтан работы флорентийской галереи Frilli: золоченая колесница бога солнца Гелиоса.',
+      ja: 'フィレンツェの名門フリッリ・ギャラリーが手掛けた太陽神ヘリオスの黄金戦車噴水。',
+    },
+    tips: {
+      ko: '분수대 정면에서 75m 시계탑을 배경으로 구도를 잡으면 유럽 광장에 온 듯한 웅장한 사진을 남길 수 있습니다.',
+      en: 'Frame your photo facing the fountain with the 75m Clock Tower directly in the background.',
+      vi: 'Góc chụp từ đài phun nước lấy hậu cảnh tháp đồng hồ 75m tựa như đang ở quảng trường châu Âu.',
+      hi: 'फाउंटेन के पीछे 75 मीटर क्लॉक टॉवर को फ्रेम करके फोटो लें, यूरोपियन वाइब मिलेगी।',
+      zh: '以喷泉为前景、75米钟楼为背景构图，极具欧洲古典广场气势。',
+      ru: 'Лучший ракурс — фонтан с часовой башней на заднем плане.',
+      ja: '噴水越しに75mの時計塔をバックに入れたアングルがヨーロッパの広場のようで格別です。',
+    },
+    bestTime: '15:00 - 17:30',
+    operatingHours: '24시간 관람 가능',
+    googleMapsUrl: 'https://maps.google.com/?q=King+Sun+Fountain+Sunset+Town+Phu+Quoc',
+  },
+  {
+    id: 'sunset-beach',
+    walkingDistance: '0.3 km',
+    walkingTime: '4 min',
+    number: 8,
+    name: {
+      ko: '선셋 비치 (Bãi Biển Hoàng Hôn)',
+      en: 'Sunset Beach & Promenade',
+      vi: 'Bãi biển Sunset Town',
+      hi: 'सनसेट बीच और प्रोमेनेड',
+      zh: '日落海滩与滨海步道',
+      ru: 'Пляж Сансет Бич',
+      ja: 'サンセットビーチ＆遊歩道',
+    },
+    category: 'beach',
+    zone: 'central',
+    imgX: 485,
+    imgY: 1193,
+    lat: 10.0291,
+    lng: 104.0062,
+    address: 'Bờ biển Sunset Town, Phú Quốc',
+    image: '/categories/beach.webp',
+    description: {
+      ko: '에메랄드빛 바다와 키스브릿지를 마주하는 프라이빗 화이트 비치. 선베드와 파라솔, 비치 칵테일 바가 늘어서 있어 여유로운 휴식을 즐길 수 있습니다.',
+      en: 'Scenic white sand beach facing Kiss Bridge and emerald waters. Lined with sun loungers, parasols, and relaxed beach clubs.',
+      vi: 'Bãi cát trắng mịn hướng nhìn trọn vẹn Cầu Hôn, nơi lý tưởng để tắm biển, thưởng thức cocktail ngắm hoàng hôn.',
+      hi: 'किस ब्रिज और नीले समुद्र के सामने खूबसूरत रेतीला समुद्र तट, लाउंज और बार।',
+      zh: '面朝亲吻桥与碧蓝海水的白沙滩，排布着沙滩躺椅与海滨鸡尾酒吧。',
+      ru: 'Песчаный пляж с видом на Мост Поцелуев, шезлонгами и пляжными коктейлями.',
+      ja: 'キスブリッジと青い海を望む白砂ビーチ。パラソルとビーチバーが並びます。',
+    },
+    tips: {
+      ko: '해변가 펍에서 시원한 코코넛이나 맥주 한 잔을 들고 일몰을 감상하며 느긋한 시간을 보내보세요.',
+      en: 'Grab a fresh coconut or draft beer at a beachfront pub while watching the blazing sunset.',
+      vi: 'Thưởng thức nước dừa tươi hoặc ly bia lạnh tại quầy bar ven biển khi mặt trời lặn.',
+      hi: 'समुद्र किनारे ताज़ा नारियल पानी या बीयर का आनंद लेते हुए सूर्यास्त देखें।',
+      zh: '傍晚在海滩酒吧点一杯椰子或冰啤酒，静静欣赏晚霞浸染海面。',
+      ru: 'Закажите кокос или напиток в пляжном баре и наслаждайтесь золотым закатом.',
+      ja: 'ビーチバーでココナッツや冷たいビールを片手に夕日を眺めるのが至福のひととき。',
+    },
+    bestTime: '16:00 - 18:30',
+    operatingHours: '06:00 - 22:00',
+    googleMapsUrl: 'https://maps.google.com/?q=Sunset+Town+Beach+Phu+Quoc',
+  },
+  {
+    id: 'arc-de-triomphe',
+    walkingDistance: '0.8 km',
+    walkingTime: '11 min',
+    number: 9,
+    name: {
+      ko: '선셋 개선문 (Khải Hoàn Môn)',
+      en: 'Arc de Triomphe Sunset Gate',
+      vi: 'Khải Hoàn Môn Sunset Town',
+      hi: 'आर्क डी ट्रायम्फ गेट',
+      zh: '凯旋门入口牌楼',
+      ru: 'Триумфальная арка Сансет Таун',
+      ja: 'サンセット凱旋門',
+    },
+    category: 'attraction',
+    zone: 'sorrento',
+    imgX: 1140,
+    imgY: 2054,
+    lat: 10.0251,
+    lng: 104.0084,
+    address: 'Cổng vào phía Nam, Sunset Town, An Thới, Phú Quốc',
+    image: '/categories/hotels.webp',
+    description: {
+      ko: '파리 에투알 개선문을 재해석한 선셋타운 남쪽의 웅장한 진입 게이트. 숍하우스 단지로 이어지는 환영의 랜드마크입니다.',
+      en: 'Grand southern welcome gateway inspired by Paris\'s Arc de Triomphe, leading guests into the Sorrento shophouse avenues.',
+      vi: 'Cổng chào hoành tráng phong cách Khải Hoàn Môn Paris, lối dẫn vào các tuyến phố mua sắm Sorrento sầm uất.',
+      hi: 'पेरिस के आर्क डी ट्रायम्फ से प्रेरित भव्य दक्षिणी प्रवेश द्वार।',
+      zh: '以巴黎凯旋门为灵感的南区气派迎宾门楼，通往索伦托商业街区。',
+      ru: 'Въездные ворота в виде парижской Триумфальной арки, ведущие к улицам Сорренто.',
+      ja: 'パリの凱旋門を思わせる南側のメインゲート。ソレント通りへの玄関口。',
+    },
+    tips: {
+      ko: '선셋타운 남부로 진입할 때 첫 기념사진을 찍기에 매우 좋습니다.',
+      en: 'The prime welcome photography spot when arriving at the southern gate.',
+      vi: 'Điểm check-in đầu tiên lý tưởng khi tiến vào khu đô thị phía Nam.',
+      hi: 'दक्षिणी गेट पर आते ही पहली यादगार तस्वीर लेने का बेहतरीन स्थान।',
+      zh: '进入南区商业街的标志性迎宾打卡机位。',
+      ru: 'Отличная локация для первого памятного кадра при въезде в город.',
+      ja: '南側から街に入った時の最初の記念撮影におすすめ。',
+    },
+    bestTime: '09:00 - 11:00 / 15:00 - 17:00',
+    operatingHours: '24시간 관람 가능',
+    googleMapsUrl: 'https://maps.google.com/?q=Arc+de+Triomphe+Sunset+Town+Phu+Quoc',
+  },
+  {
+    id: 'marina-pier',
+    walkingDistance: '0.6 km',
+    walkingTime: '8 min',
+    number: 10,
+    name: {
+      ko: '선셋 마리나 요트 선착장 (Marina Pier)',
+      en: 'Sunset Marina Yacht Pier',
+      vi: 'Bến du thuyền Sunset Marina',
+      hi: 'सनसेट मरीना यॉट पियर',
+      zh: '日落码头与游艇泊位',
+      ru: 'Причал яхт Sunset Marina',
+      ja: 'サンセット マリーナ ヨット桟橋',
+    },
+    category: 'transport',
+    zone: 'sorrento',
+    imgX: 939,
+    imgY: 2583,
+    lat: 10.0245,
+    lng: 104.0055,
+    address: 'Bến du thuyền Sunset Town, An Thới, Phú Quốc',
+    image: '/categories/activities.webp',
+    description: {
+      ko: '푸른 바다로 길게 뻗은 마리나 피어. 프라이빗 요트 투어, 선셋 크루즈 출발지이자 에메랄드빛 바다 배경의 낭만적인 포토존입니다.',
+      en: 'Deep blue water pier hosting private yacht charters and luxury sunset cruises with stunning sea vistas.',
+      vi: 'Bến du thuyền sang trọng đón các tour ngắm hoàng hôn, cano và du thuyền cao cấp tham quan quần đảo An Thới.',
+      hi: 'प्राइवेट यॉट टूर और लक्जरी सनसेट क्रूज़ के लिए खूबसूरत पियर।',
+      zh: '私人游艇出海巡游与日落巡航码头，海天一色的浪漫拍照步道。',
+      ru: 'Элегантный причал для частных яхт и круизов на закате в архипелаге Ан Тхой.',
+      ja: 'プライベートヨットやサンセットクルーズの出発桟橋。海を見渡す絶景スポット。',
+    },
+    tips: {
+      ko: '야간에는 마리나 피어 전체에 푸른빛 LED 조명이 켜져 신비로운 분위기를 자아냅니다.',
+      en: 'At night, blue LED illuminations along the pier create a mesmerizing cyber-coastal ambiance.',
+      vi: 'Buổi tối bến tàu lung linh ánh đèn LED xanh rực rỡ.',
+      hi: 'रात में नीली एलईडी लाइटें पियर को बेहद खूबसूरत बना देती हैं।',
+      zh: '夜晚栈桥亮起蓝色荧光霓虹，非常梦幻。',
+      ru: 'Вечером причал красиво подсвечивается синими неоновыми огнями.',
+      ja: '夜になると桟橋が幻想的なブルーのLEDでライトアップされます。',
+    },
+    bestTime: '16:30 - 19:00',
+    operatingHours: '07:00 - 21:00',
+    googleMapsUrl: 'https://maps.google.com/?q=Marina+Sunset+Town+Phu+Quoc',
+  },
+  {
+    id: 'pompeii-ruins',
+    walkingDistance: '0.3 km',
+    walkingTime: '4 min',
+    number: 11,
+    name: {
+      ko: '폼페이 유적 & 스페인 계단 (Pompeii Ruins)',
+      en: 'Pompeii Ruins & Spanish Steps',
+      vi: 'Tàn tích Pompeii & Bậc thang Tây Ban Nha',
+      hi: 'पोम्पेई खंडहर और स्पैनिश स्टेप्स',
+      zh: '庞贝遗迹与西班牙大阶梯',
+      ru: 'Руины Помпеи и Испанская лестница',
+      ja: 'ポンペイ遺跡＆スペイン階段',
+    },
+    category: 'culture',
+    zone: 'sorrento',
+    imgX: 1143,
+    imgY: 1517,
+    lat: 10.0265,
+    lng: 104.008,
+    address: 'Gần Ga Ánh Dương, Sunset Town, An Thới, Phú Quốc',
+    image: '/categories/bars.webp',
+    description: {
+      ko: '화산재에 묻혔던 고대 로마 폼페이의 원형 기둥과 부서진 성벽을 세밀하게 재현한 야외 유적 테마 광장입니다.',
+      en: 'Artfully replicated ancient Roman columns and textured ruins reminiscent of Pompeii, leading up to amphitheater steps.',
+      vi: 'Khu vực tái hiện cột trụ La Mã cổ đại và các mảng tường cổ kính thời Pompeii rực rỡ.',
+      hi: 'प्राचीन रोमन स्तंभों और पोम्पेई खंडहरों की जीवंत प्रतिकृति।',
+      zh: '高度还原古罗马庞贝古城的断壁残垣与石柱廊，浓郁历史艺术感。',
+      ru: 'Атмосферная реконструкция античных колонн и каменных руин древней Помпеи.',
+      ja: '古代ローマ・ポンペイの石柱や遺跡を再現したクラシックなフォトスポット。',
+    },
+    tips: {
+      ko: '돌기둥 사이로 햇살이 스며드는 늦은 오후에 드라마틱한 인물 사진을 찍기에 최적입니다.',
+      en: 'Late afternoon sunlight filtering through stone pillars creates striking cinematic portraits.',
+      vi: 'Thời điểm xế chiều khi nắng xiên qua hàng cột đá tạo nên những bức ảnh chân dung tuyệt đẹp.',
+      hi: 'दोपहर बाद स्तंभों के बीच से छनती धूप में शानदार तस्वीरें आती हैं।',
+      zh: '午后阳光斜射石柱间，适合拍摄电影质感人像大片。',
+      ru: 'Предзакатные косые лучи сквозь колонны идеальны для кинематографичных портретов.',
+      ja: '夕方の光が石柱の間に差し込む時間帯のポートレート撮影がおすすめ。',
+    },
+    bestTime: '15:30 - 17:30',
+    operatingHours: '24시간 관람 가능',
+    googleMapsUrl: 'https://maps.google.com/?q=Pompeii+Ruins+Sunset+Town+Phu+Quoc',
+  },
+  {
+    id: 'dragon-staircase',
+    walkingDistance: '0.2 km',
+    walkingTime: '3 min',
+    number: 12,
+    name: {
+      ko: '용의 계단 (Thang Rồng / Dragon Staircase)',
+      en: 'Dragon Staircase (Thang Rong)',
+      vi: 'Thang Rồng (Dragon Staircase)',
+      hi: 'ड्रैगन सीढ़ी (थांग रोंग)',
+      zh: '龙梯步道 (Thang Rong)',
+      ru: 'Лестница Дракона (Thang Rong)',
+      ja: 'ドラゴンの階段 (Thang Rong)',
+    },
+    category: 'attraction',
+    zone: 'central',
+    imgX: 1170,
+    imgY: 1748,
+    lat: 10.0301,
+    lng: 104.0078,
+    address: 'Nối từ Đường Amalfi xuống bờ biển, Sunset Town, Phú Quốc',
+    image: '/categories/dining.webp',
+    description: {
+      ko: '시계탑 앞 높은 언덕에서 해안가 비치 프롬나드로 이어지는 이국적인 테라스 계단. 계단 양옆으로 늘어선 부겐빌레아 꽃과 지중해풍 타일이 아름답습니다.',
+      en: 'Cascading scenic terrace steps connecting the Clock Tower ridge down to the seaside promenade, adorned with bougainvillea and Mediterranean tiles.',
+      vi: 'Bậc thang dốc tuyệt đẹp kết nối từ tháp đồng hồ xuống bờ biển, rực rỡ hoa giấy và gạch men phong cách Địa Trung Hải.',
+      hi: 'क्लॉक टॉवर से समुद्र तट तक जाने वाली सीढ़ी, बोगनवेलिया के फूलों से सजी।',
+      zh: '连接钟楼高台与海滨大道的下沉景观台阶，两旁盛开的三角梅与彩绘瓷砖相映成趣。',
+      ru: 'Живописная террасная лестница от часовой башни к набережной, украшенная бугенвиллеями.',
+      ja: '時計塔のある丘から海辺へと下る階段。ブーゲンビリアの花とタイルが鮮やか。',
+    },
+    tips: {
+      ko: '계단 중간에서 아래쪽 에메랄드빛 바다를 배경으로 내려다보는 각도로 촬영해보세요.',
+      en: 'Shoot looking downward towards the sparkling turquoise ocean from halfway up.',
+      vi: 'Góc chụp từ lưng chừng dốc hướng xuống biển ngọc là góc đẹp nhất.',
+      hi: 'सीढ़ियों के बीच से नीचे नीले समुद्र की ओर कोण बनाकर फोटो लें।',
+      zh: '在台阶半山腰俯拍下方的碧蓝海水，色彩反差十分抓人眼球。',
+      ru: 'Фотографируйте с середины лестницы с видом на бирюзовое море внизу.',
+      ja: '階段の途中から海を見下ろす構図がとても綺麗です。',
+    },
+    bestTime: '15:00 - 17:00',
+    operatingHours: '24시간 관람 가능',
+    googleMapsUrl: 'https://maps.google.com/?q=Sunset+Town+Phu+Quoc',
+  },
+]
+
+// 선셋타운 6대 핵심 거리망 (2000 x 2914 SVG 패스)
+export const SUNSET_STREETS: MapStreet[] = [
+  {
+    id: 'venice',
+    name: 'Đường Venice',
+    nameKo: '베니스 거리 (해안 야시장 & 비치 산책로)',
+    nameEn: 'Venice Coastal Promenade & Bazaar',
+    zone: 'venice',
+    color: '#f59e0b', // 앰버 골드
+    strokeWidth: 14,
+    // 최북단 야시장부터 해안선을 따라 키스오브더씨 극장 앞까지 이어지는 해안 곡선
+    pathD: 'M 240 180 Q 270 300 310 450 T 360 680 T 450 960 T 560 1200 T 680 1440 T 780 1650 T 880 1880 T 960 2050',
+    descriptionKo: '부이페스트 야시장, 모래사장 해변, 펍 & 카페가 해안선을 따라 시원하게 펼쳐진 선셋타운의 메인 비치 프롬나드.',
+    descriptionEn: 'The primary beachfront boulevard hosting Vui-Fest Bazaar, beach clubs, and panoramic sunset seating.',
+    labelX: 410,
+    labelY: 820,
+  },
+  {
+    id: 'sorrento',
+    name: 'Đường Sorrento',
+    nameKo: '소렌토 거리 (케이블카 & 개선문 상업 지구)',
+    nameEn: 'Sorrento Boulevard (Cable Car & Arc)',
+    zone: 'sorrento',
+    color: '#f97316', // 코랄 오렌지
+    strokeWidth: 14,
+    // 개선문에서 케이블카역으로 이어지는 순환 상업 가로망
+    pathD: 'M 1390 2430 Q 1330 2280 1280 2120 T 1200 1960 Q 1140 2050 1120 2200 T 1110 2400 T 1180 2600 T 1300 2620 T 1390 2430',
+    descriptionKo: '로마 콜로세움 케이블카역과 남쪽 개선문을 잇는 이국적인 레스토랑 & 쇼핑 아케이드 거리.',
+    descriptionEn: 'Bustling avenue surrounding the Cable Car Colosseum and Arc de Triomphe, filled with trattorias and local cafes.',
+    labelX: 1220,
+    labelY: 2360,
+  },
+  {
+    id: 'amalfi',
+    name: 'Đường Amalfi',
+    nameKo: '아말피 거리 (절벽 테라스 & 선셋 파노라마)',
+    nameEn: 'Amalfi Terrace Cliff Scenic Way',
+    zone: 'central',
+    color: '#06b6d4', // 시안 블루
+    strokeWidth: 12,
+    // 썬 시그니처 갤러리 -> 태양의 분수 -> 시계탑 앞 테라스
+    pathD: 'M 940 1100 Q 1010 1240 1060 1380 T 1050 1520 T 1030 1660 T 1090 1820 T 1180 1940',
+    descriptionKo: '시계탑과 태양의 분수가 위치한 중심 절벽 테라스 도로. 선셋타운 전경을 내려다보는 일몰 뷰포인트.',
+    descriptionEn: 'Spectacular cliffside terrace linking the Clock Tower, King Sun Fountain, and fine oceanview dining.',
+    labelX: 1040,
+    labelY: 1400,
+  },
+  {
+    id: 'positano',
+    name: 'Đường Positano',
+    nameKo: '포지타노 거리 (파스텔 숍하우스 & 힐링 스파)',
+    nameEn: 'Positano Pastel Shophouse Avenue',
+    zone: 'central',
+    color: '#ec4899', // 로즈 핑크
+    strokeWidth: 12,
+    // 알록달록 테라코타 주황 지붕 마을 중심 도로
+    pathD: 'M 360 260 Q 430 450 510 650 T 630 880 T 780 1100 T 930 1300',
+    descriptionKo: '이탈리아 남부 포지타노를 빼닮은 파스텔톤 부티크 호텔, 아로마 마사지 스파, 디저트 베이커리가 늘어선 감성 골목.',
+    descriptionEn: 'Charming pastel village road reminiscent of Positano Italy, packed with boutique stays, spas, and cute cafes.',
+    labelX: 620,
+    labelY: 820,
+  },
+  {
+    id: 'milan',
+    name: 'Đường Milan',
+    nameKo: '밀라노 거리 (패션 & 부티크 쇼핑)',
+    nameEn: 'Milan Fashion & Boutique Street',
+    zone: 'central',
+    color: '#a855f7', // 바이올렛 퍼플
+    strokeWidth: 10,
+    pathD: 'M 520 320 Q 610 520 710 720 T 830 920 T 950 1120',
+    descriptionKo: '선셋타운 중심부를 잇는 세련된 패션 부티크, 기념품 편집숍, 갤러리가 있는 쇼핑 거리.',
+    descriptionEn: 'Fashion-forward shopping corridor connecting central Sunset Town with boutiques and designer galleries.',
+    labelX: 740,
+    labelY: 660,
+  },
+  {
+    id: 'hillside',
+    name: 'Đường Hillside',
+    nameKo: '힐사이드 거리 (상공 파노라마 애비뉴)',
+    nameEn: 'The Hillside Panoramic Avenue',
+    zone: 'hillside',
+    color: '#10b981', // 에메랄드 그린
+    strokeWidth: 12,
+    pathD: 'M 1100 750 Q 1240 960 1400 1200 T 1540 1460 T 1580 1720 T 1480 2050',
+    descriptionKo: '선셋타운에서 가장 높은 언덕에 위치하여 푸른 바다와 마을 전경을 입체적으로 굽어보는 고지대 드라이브 도로.',
+    descriptionEn: 'Elevated avenue cresting above Sunset Town with infinite horizon views over the Gulf of Thailand.',
+    labelX: 1470,
+    labelY: 1350,
+  },
+]
+
+// 3대 추천 도보 코스
+export const SUNSET_TOUR_COURSES: MapTourCourse[] = [
+  {
+    id: 'sunset-essential',
+    title: {
+      ko: '선셋 골든아워 워킹 코스 (2.5시간)',
+      en: 'Golden Hour Sunset Photo Trail (2.5 hrs)',
+      vi: 'Cung đường check-in hoàng hôn triệu view (2.5h)',
+      hi: 'गोल्डन ऑवर सनसेट फोटो ट्रेल (2.5 घंटे)',
+      zh: '黄金落日出片必走路线 (2.5小时)',
+      ru: 'Золотой закатный фотомаршрут (2,5 ч)',
+      ja: 'サンセット絶景フォト満喫コース (2.5時間)',
+    },
+    duration: '2.5시간 (약 1.8km 도보)',
+    distance: '1.8 km',
+    themeColor: '#f59e0b',
+    description: {
+      ko: '오후 4시 30분 75m 시계탑에서 출발해 태양의 분수, 드래곤 계단을 거쳐 일몰 골든아워에 키스브릿지에서 기념 사진을 남기고 선셋 비치에서 칵테일로 마무리하는 필수 코스입니다.',
+      en: 'Depart 16:30 from the Clock Tower, wander past the King Sun Fountain & Dragon Staircase, reach Kiss Bridge right at golden hour, and end with beach cocktails.',
+      vi: 'Bắt đầu 16:30 từ Tháp đồng hồ, dạo bước qua Đài Thần Mặt Trời, ngắm hoàng hôn rực rỡ trên Cầu Hôn và tận hưởng ly cocktail bên bờ biển.',
+      hi: 'शाम 16:30 बजे क्लॉक टॉवर से शुरू करें, फाउंटेन और ड्रैगन सीढ़ी से होते हुए किस ब्रिज पर सूर्यास्त देखें।',
+      zh: '下午4:30自钟楼出发，途经太阳神喷泉与龙梯，在黄金落日时刻登上亲吻桥，最后在沙滩酒吧小酌。',
+      ru: 'Старт в 16:30 от часовой башни, путь через фонтан и лестницу к Мосту поцелуев на закате, завершение в пляжном баре.',
+      ja: '16:30に時計塔を出発し、噴水と階段を経て日没時にキスブリッジへ。海辺のバーでカクテルを楽しむ王道コース。',
+    },
+    stopIds: ['clock-tower', 'king-sun-fountain', 'dragon-staircase', 'kiss-bridge', 'sunset-beach'],
+  },
+  {
+    id: 'night-entertainment',
+    title: {
+      ko: '화려한 나이트라이프 & 불꽃놀이 코스 (3.5시간)',
+      en: 'Vibrant Nightlife & Fireworks Trail (3.5 hrs)',
+      vi: 'Cung đường đêm rực rỡ & pháo hoa (3.5h)',
+      hi: 'नाइटलाइफ़ और आतिशबाजी ट्रेल (3.5 घंटे)',
+      zh: '夜市狂欢与璀璨烟花路线 (3.5小时)',
+      ru: 'Ночные развлечения и салют (3,5 ч)',
+      ja: 'ナイトライフ＆花火ナイトコース (3.5時間)',
+    },
+    duration: '3.5시간 (약 2.2km 도보)',
+    distance: '2.2 km',
+    themeColor: '#ec4899',
+    description: {
+      ko: '오후 6시 부이페스트 야시장에서 베트남 길거리 음식을 맛보고, 베니스 해안로를 따라 남하하여 21:00 키스 오브 더 씨 수상 멀티미디어 쇼와 불꽃놀이를 관람하는 저녁 코스입니다 (공식 일정 확인 요망).',
+      en: 'Feast on street food at Vui-Fest Bazaar at 18:00, stroll south along Venice Promenade, and take front-row seats for the 21:00 Kiss of the Sea & Fireworks show.',
+      vi: 'Khám phá ẩm thực chợ đêm Vui-Fest lúc 18:00, tản bộ ven biển Venice và thưởng thức đại tiệc âm thanh ánh sáng Nụ Hôn Của Biển Cả cùng pháo hoa lúc 21:00.',
+      hi: 'शाम 18:00 बजे नाइट मार्केट में स्ट्रीट फूड, वेनिस सड़क पर सैर और 21:00 बजे भव्य आतिशबाजी शो।',
+      zh: '傍晚6点在夜市大快朵颐，漫步威尼斯滨海长廊，21:00准时入座海洋之吻剧场观看烟花秀。',
+      ru: 'Уличная еда на ночном базаре с 18:00, вечерняя прогулка по набережной и грандиозное шоу фейерверков в 21:00.',
+      ja: '18:00にナイトマーケットで屋台グルメ、ベニス通りを散策し、21:00に花火と水上ショーを観覧。',
+    },
+    stopIds: ['vuifest-bazaar', 'sunset-beach', 'kiss-bridge', 'kiss-of-the-sea'],
+  },
+  {
+    id: 'cablecar-architecture',
+    title: {
+      ko: '고대 로마 건축 & 케이블카 탐험 코스 (반나절)',
+      en: 'Roman Architecture & Cable Car Trail (Half Day)',
+      vi: 'Cung đường kiến trúc La Mã & Cáp treo (Nửa ngày)',
+      hi: 'रोमन वास्तुकला और केबल कार ट्रेल (आधा दिन)',
+      zh: '古罗马建筑巡礼与跨海缆车 (半天)',
+      ru: 'Римская архитектура и канатная дорога (Полдня)',
+      ja: '古代ローマ建築＆ケーブルカー探検 (半日)',
+    },
+    duration: '반나절 (케이블카 왕복 포함)',
+    distance: '1.5 km 도보 + 7.9 km 케이블카',
+    themeColor: '#06b6d4',
+    description: {
+      ko: '개선문에서 출발해 폼페이 유적을 둘러본 뒤, 콜로세움 역사에서 혼똠 케이블카에 탑승하여 남부 군도의 비경을 감상하는 역사·레저 코스입니다.',
+      en: 'Begin at Arc de Triomphe, explore Pompeii Ruins, then board the 3-rope Cable Car from the Colosseum Station over emerald seas.',
+      vi: 'Bắt đầu từ Khải Hoàn Môn, tham quan tàn tích Pompeii, sau đó lên tuyến cáp treo vượt biển kỷ lục thế giới tại Ga Ánh Dương.',
+      hi: 'आर्क डी ट्रायम्फ से शुरू होकर पोम्पेई खंडहर देखें, फिर कोलोसियम स्टेशन से समुद्र के ऊपर केबल कार की सवारी।',
+      zh: '自凯旋门启程，打卡庞贝断柱遗迹，自斗兽场造型车站搭乘世界纪录跨海缆车直达香岛。',
+      ru: 'От Триумфальной арки через руины Помпеи к станции-Колизею и полет над морем на канатной дороге.',
+      ja: '凱旋門からポンペイ遺跡を経て、コロッセオ駅から世界最長ロープウェイで島巡り。',
+    },
+    stopIds: ['arc-de-triomphe', 'pompeii-ruins', 'cable-car-station', 'marina-pier'],
+  },
+]
+
+export interface LocalizedMapImage {
+  jpg: string
+  webp: string
+  filename: string
+}
+
+export function getSunsetMapImage(locale: Locale): LocalizedMapImage {
+  const mapFiles: Record<Locale, LocalizedMapImage> = {
+    ko: {
+      jpg: '/map/sunset-town-map-ko.webp',
+      webp: '/map/sunset-town-map-ko.webp',
+      filename: 'Sunset-Town-Map-KO.webp',
+    },
+    en: {
+      jpg: '/map/sunset-town-map-en.webp',
+      webp: '/map/sunset-town-map-en.webp',
+      filename: 'Sunset-Town-Map-EN.webp',
+    },
+    zh: {
+      jpg: '/map/sunset-town-map-zh.webp',
+      webp: '/map/sunset-town-map-zh.webp',
+      filename: 'Sunset-Town-Map-ZH.webp',
+    },
+    ja: {
+      jpg: '/map/sunset-town-map-ja.webp',
+      webp: '/map/sunset-town-map-ja.webp',
+      filename: 'Sunset-Town-Map-JA.webp',
+    },
+    ru: {
+      jpg: '/map/sunset-town-map-ru.webp',
+      webp: '/map/sunset-town-map-ru.webp',
+      filename: 'Sunset-Town-Map-RU.webp',
+    },
+    hi: {
+      jpg: '/map/sunset-town-map-hi.webp',
+      webp: '/map/sunset-town-map-hi.webp',
+      filename: 'Sunset-Town-Map-HI.webp',
+    },
+    vi: {
+      jpg: '/map/sunset-town-map-en.webp',
+      webp: '/map/sunset-town-map-en.webp',
+      filename: 'Sunset-Town-Map-EN.webp',
+    },
+  }
+  return mapFiles[locale] || mapFiles.en
+}
