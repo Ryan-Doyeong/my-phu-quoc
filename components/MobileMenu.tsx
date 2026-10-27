@@ -3,6 +3,24 @@ import { DIRECTORY_CATEGORY_KEYS, categoryLabel } from '@/lib/directory'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
 
+const SUNSET_MENU_LABELS: Record<string, string> = {
+  ko: '선셋타운 (Sunset Town)',
+  en: 'Sunset Town',
+  zh: '日落小镇',
+  ru: 'Сансет-Таун',
+  ja: 'サンセットタウン',
+  hi: 'सनसेट टाउन',
+}
+
+const KHEM_MENU_LABELS: Record<string, string> = {
+  ko: '켐비치 (Khem Beach)',
+  en: 'Khem Beach',
+  zh: '凯姆海滩',
+  ru: 'Пляж Кхем',
+  ja: 'ケムビーチ',
+  hi: 'खेम बीच',
+}
+
 export function MobileMenu({ locale = 'en' }: { locale?: Locale }) {
   const dict = getDictionary(locale)
   return (
@@ -14,10 +32,10 @@ export function MobileMenu({ locale = 'en' }: { locale?: Locale }) {
       <div className="mobileMenuPanel">
         <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
         <Link href={localePath(locale, '/zones/sunset-town')}>
-          {locale === 'ko' ? '선셋타운 (Sunset Town)' : 'Sunset Town'}
+          {SUNSET_MENU_LABELS[locale] || SUNSET_MENU_LABELS.en}
         </Link>
         <Link href={localePath(locale, '/zones/khem-beach')}>
-          {locale === 'ko' ? '켐비치 (Khem Beach)' : 'Khem Beach'}
+          {KHEM_MENU_LABELS[locale] || KHEM_MENU_LABELS.en}
         </Link>
         <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
         {DIRECTORY_CATEGORY_KEYS.map((key) => (

@@ -13,6 +13,127 @@ import { SITE_URL } from '@/lib/supabase/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
 import { categoryLabel } from '@/lib/directory'
 
+const ZONE_NAV_LABELS: {
+  sunset: Record<string, string>
+  khem: Record<string, string>
+} = {
+  sunset: {
+    ko: '선셋타운',
+    en: 'Sunset Town',
+    zh: '日落小镇',
+    ru: 'Сансет-Таун',
+    ja: 'サンセットタウン',
+    hi: 'सनसेट टाउन',
+  },
+  khem: {
+    ko: '켐비치',
+    en: 'Khem Beach',
+    zh: '凯姆海滩',
+    ru: 'Пляж Кхем',
+    ja: 'ケムビーチ',
+    hi: 'खेम बीच',
+  },
+}
+
+function getOverviewTitle(locale: Locale): string {
+  switch (locale) {
+    case 'ko': return '구역 소개'
+    case 'zh': return '区域概览'
+    case 'ru': return 'Обзор района'
+    case 'ja': return 'エリア概要'
+    case 'hi': return 'क्षेत्र का परिचय'
+    default: return 'Zone Overview'
+  }
+}
+
+function getLocalNameBadge(local: string, locale: Locale): string {
+  switch (locale) {
+    case 'ko': return `현지명: ${local}`
+    case 'zh': return `当地名称：${local}`
+    case 'ru': return `Местное название: ${local}`
+    case 'ja': return `現地名：${local}`
+    case 'hi': return `स्थानीय नाम: ${local}`
+    default: return `Local name: ${local}`
+  }
+}
+
+function getTopAttractionsTitle(locale: Locale): string {
+  switch (locale) {
+    case 'ko': return '대표 장소'
+    case 'zh': return '主要景点'
+    case 'ru': return 'Основные достопримечательности'
+    case 'ja': return '主な観光スポット'
+    case 'hi': return 'प्रमुख दर्शनीय स्थल'
+    default: return 'Top Attractions'
+  }
+}
+
+function getKeyHighlightsBadge(isSunset: boolean, locale: Locale): string {
+  if (locale === 'ko') return isSunset ? '주요 명소 4선' : '대표 장소 4선'
+  switch (locale) {
+    case 'zh': return '重点地点'
+    case 'ru': return 'Ключевые места'
+    case 'ja': return '主要スポット'
+    case 'hi': return 'प्रमुख स्थान'
+    default: return 'Key Highlights'
+  }
+}
+
+function getCategoriesSectionTitle(name: string, isSunset: boolean, locale: Locale): string {
+  if (locale === 'ko') return isSunset ? '선셋타운 카테고리' : '켐비치 카테고리'
+  switch (locale) {
+    case 'zh': return `${name}分类`
+    case 'ru': return `${name}: категории`
+    case 'ja': return `${name}のカテゴリー`
+    case 'hi': return `${name} की श्रेणियाँ`
+    default: return `${name} Categories`
+  }
+}
+
+function getVenuesCountText(count: number, locale: Locale): string {
+  if (locale === 'ko') return `${count}개소`
+  switch (locale) {
+    case 'zh': return `${count} 处`
+    case 'ru': return `${count} объектов`
+    case 'ja': return `${count}か所`
+    case 'hi': return `${count} स्थान`
+    default: return `${count} venues`
+  }
+}
+
+function getTransportLabel(locale: Locale): string {
+  switch (locale) {
+    case 'ko': return '이동 안내:'
+    case 'zh': return '交通指南：'
+    case 'ru': return 'Как добраться:'
+    case 'ja': return 'アクセス案内：'
+    case 'hi': return 'आवागमन की जानकारी:'
+    default: return 'Transport:'
+  }
+}
+
+function getCrossZoneLinkText(isSunset: boolean, locale: Locale): string {
+  if (isSunset) {
+    switch (locale) {
+      case 'ko': return '→ 켐비치(Bãi Khem) 상세 안내 보기'
+      case 'zh': return '→ 查看凯姆海滩（Bãi Khem）详细信息'
+      case 'ru': return '→ Подробнее о пляже Кхем (Bãi Khem)'
+      case 'ja': return '→ ケムビーチ（Bãi Khem）の詳細を見る'
+      case 'hi': return '→ खेम बीच (Bãi Khem) की विस्तृत जानकारी देखें'
+      default: return '→ Explore Khem Beach Details'
+    }
+  } else {
+    switch (locale) {
+      case 'ko': return '→ 선셋타운(Sunset Town) 상세 안내 보기'
+      case 'zh': return '→ 查看日落小镇（Sunset Town）详细信息'
+      case 'ru': return '→ Подробнее о Сансет-Тауне (Sunset Town)'
+      case 'ja': return '→ サンセットタウン（Sunset Town）の詳細を見る'
+      case 'hi': return '→ सनसेट टाउन (Sunset Town) की विस्तृत जानकारी देखें'
+      default: return '→ Explore Sunset Town Details'
+    }
+  }
+}
+
 export async function generateZoneMetadata(
   slug: string,
   locale: Locale = 'en'
@@ -113,13 +234,13 @@ export async function renderZoneRoute(slug: string, locale: Locale = 'en') {
               href={localePath(locale, '/zones/sunset-town')}
               className={slug === 'sunset-town' ? 'active' : ''}
             >
-              {locale === 'ko' ? '선셋타운' : 'Sunset Town'}
+              {ZONE_NAV_LABELS.sunset[locale] || ZONE_NAV_LABELS.sunset.en}
             </Link>
             <Link
               href={localePath(locale, '/zones/khem-beach')}
               className={slug === 'khem-beach' ? 'active' : ''}
             >
-              {locale === 'ko' ? '켐비치' : 'Khem Beach'}
+              {ZONE_NAV_LABELS.khem[locale] || ZONE_NAV_LABELS.khem.en}
             </Link>
             <Link href={localePath(locale, '/directory/dining')}>
               {categoryLabel('dining', locale)}
@@ -164,9 +285,9 @@ export async function renderZoneRoute(slug: string, locale: Locale = 'en') {
             {/* Section 1: Overview */}
             <div>
               <div className="contentSectionTitle">
-                <span>{locale === 'ko' ? '구역 소개' : 'Zone Overview'}</span>
+                <span>{getOverviewTitle(locale)}</span>
                 <span className="badge">
-                  {locale === 'ko' ? `현지명: ${zone.nameLocal}` : `Local name: ${zone.nameLocal}`}
+                  {getLocalNameBadge(zone.nameLocal, locale)}
                 </span>
               </div>
               <p className="zoneOverviewText">{overview}</p>
@@ -175,9 +296,9 @@ export async function renderZoneRoute(slug: string, locale: Locale = 'en') {
             {/* Section 2: Top Attractions */}
             <div>
               <div className="contentSectionTitle">
-                <span>{locale === 'ko' ? '대표 장소' : 'Top Attractions'}</span>
+                <span>{getTopAttractionsTitle(locale)}</span>
                 <span className="badge">
-                  {locale === 'ko' ? (isSunset ? '주요 명소 4선' : '대표 장소 4선') : 'Key Highlights'}
+                  {getKeyHighlightsBadge(isSunset, locale)}
                 </span>
               </div>
               <div className="attractionList">
@@ -199,11 +320,7 @@ export async function renderZoneRoute(slug: string, locale: Locale = 'en') {
             {/* Section 3: Categories Filter Grid (Approved 8 tiles layout v9) */}
             <div>
               <div className="contentSectionTitle">
-                <span>
-                  {locale === 'ko'
-                    ? (isSunset ? '선셋타운 카테고리' : '켐비치 카테고리')
-                    : `${name} Categories`}
-                </span>
+                <span>{getCategoriesSectionTitle(name, isSunset, locale)}</span>
                 <span className="badge">{categoryBadge}</span>
               </div>
               <div className="categoryGridSmall">
@@ -218,7 +335,7 @@ export async function renderZoneRoute(slug: string, locale: Locale = 'en') {
                     <span className="icon">{cat.icon}</span>
                     <span>{cat.name[locale] || cat.name.en}</span>
                     <small>
-                      {locale === 'ko' ? `${cat.count}개소` : `${cat.count} venues`}
+                      {getVenuesCountText(cat.count, locale)}
                     </small>
                   </Link>
                 ))}
@@ -237,7 +354,7 @@ export async function renderZoneRoute(slug: string, locale: Locale = 'en') {
               <div className="transitTitle">{transitHeadline}</div>
               <ul className="transitList">
                 <li>
-                  <strong>{locale === 'ko' ? '이동 안내:' : 'Transport:'}</strong> {transitDescription}
+                  <strong>{getTransportLabel(locale)}</strong> {transitDescription}
                 </li>
               </ul>
               <div style={{ marginTop: '10px' }}>
@@ -245,9 +362,7 @@ export async function renderZoneRoute(slug: string, locale: Locale = 'en') {
                   href={localePath(locale, `/zones/${otherZoneSlug}`)}
                   className="otherZoneLink"
                 >
-                  {isSunset
-                    ? (locale === 'ko' ? '→ 켐비치(Bãi Khem) 상세 안내 보기' : '→ Explore Khem Beach Details')
-                    : (locale === 'ko' ? '→ 선셋타운(Sunset Town) 상세 안내 보기' : '→ Explore Sunset Town Details')}
+                  {getCrossZoneLinkText(isSunset, locale)}
                 </Link>
               </div>
             </div>
