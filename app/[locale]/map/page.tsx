@@ -18,11 +18,11 @@ export async function generateMetadata({ params }: MapPageProps): Promise<Metada
   const isKo = locale === 'ko'
   return {
     title: isKo
-      ? '선셋타운 완벽 여행 지도 — 거리별 명소 & 12대 랜드마크 안내 | My Phu Quoc'
+      ? '선셋타운 안내 지도 — 거리별 명소 & 12대 랜드마크 안내 | My Phu Quoc'
       : 'Sunset Town Guide Map — Street Navigation & 12 Iconic Landmarks | My Phu Quoc',
     description: isKo
-      ? '선셋타운 마스터플랜 일러스트 지도를 기반으로 키스브릿지, 75m 시계탑, 기네스 등재 케이블카, 부이페스트 야시장, 6대 구역 및 주요 거리를 한눈에 탐색하세요.'
-      : 'Explore Sunset Town with our illustrated guide map, featuring Kiss Bridge, Clock Tower, Guinness-record 3-rope Cable Car, Vui-Fest Bazaar and 6 distinct quarters.',
+      ? '선셋타운 마스터플랜 일러스트 지도를 기반으로 키스브릿지, 75m 시계탑, 해상 케이블카, 부이페스트 야시장, 6대 구역 및 주요 거리를 한눈에 탐색하세요.'
+      : 'Explore Sunset Town with our illustrated guide map, featuring Kiss Bridge, Clock Tower, 3-rope Cable Car, Vui-Fest Bazaar and 6 distinct quarters.',
   }
 }
 
@@ -31,9 +31,78 @@ export default async function MapPage({ params }: MapPageProps) {
   const dict = getDictionary(locale)
   const isKo = locale === 'ko'
 
+  // 다국어 텍스트 대응
+  const pageTexts: Record<Locale, {
+    eyebrow: string
+    title: string
+    subtitle: string
+    zoneBannerTitle: string
+    zoneBannerDesc: string
+    zoneBannerBtn: string
+  }> = {
+    ko: {
+      eyebrow: 'SUNSET TOWN ILLUSTRATED GUIDE MAP',
+      title: '선셋타운 거리 & 12대 랜드마크 인터랙티브 가이드 맵',
+      subtitle: '선셋타운 마스터플랜 일러스트를 기반으로 키스 브릿지·불꽃쇼·케이블카 등 12대 핵심 관광 랜드마크의 실시간 위치와 관람 꿀팁을 제공합니다.',
+      zoneBannerTitle: '선셋타운 6대 구역 상세 가이드 둘러보기',
+      zoneBannerDesc: '베니스(Venice), 소렌토(Sorrento), 아말피(Amalfi), 센트럴(Central), 포지타노(Positano), 힐사이드(Hillside) 등 각 구역의 역사, 건축 양식 및 특색을 확인하세요.',
+      zoneBannerBtn: '6대 구역 전용 가이드 바로가기 →',
+    },
+    en: {
+      eyebrow: 'SUNSET TOWN ILLUSTRATED GUIDE MAP',
+      title: 'Sunset Town Street & 12 Iconic Landmarks Guide Map',
+      subtitle: 'Interactive master plan map pinpointing Kiss Bridge, the nightly fireworks amphitheater, cable car terminal, and all 12 key landmarks with insider tips.',
+      zoneBannerTitle: 'Explore Sunset Town 6 Distinct Quarters',
+      zoneBannerDesc: 'Discover the architecture, vibe, and stories of Venice, Sorrento, Amalfi, Central, Positano, and Hillside in our dedicated quarters guide.',
+      zoneBannerBtn: 'View 6 Quarters Guide →',
+    },
+    vi: {
+      eyebrow: 'SUNSET TOWN ILLUSTRATED GUIDE MAP',
+      title: 'Bản đồ minh họa & 12 Điểm đến biểu tượng Sunset Town',
+      subtitle: 'Bản đồ tương tác chỉ dẫn chính xác vị trí Cầu Hôn, tháp đồng hồ 75m, bến cáp treo và 12 điểm đến hàng đầu cùng mẹo tham quan.',
+      zoneBannerTitle: 'Khám phá 6 Phân khu đặc trưng Thị trấn Hoàng Hôn',
+      zoneBannerDesc: 'Tìm hiểu kiến trúc Địa Trung Hải và trải nghiệm tại Venice, Sorrento, Amalfi, Central, Positano và Hillside.',
+      zoneBannerBtn: 'Xem cẩm nang 6 Phân khu →',
+    },
+    zh: {
+      eyebrow: 'SUNSET TOWN ILLUSTRATED GUIDE MAP',
+      title: '日落小镇街道与12大核心地标互动导览图',
+      subtitle: '基于日落小镇手绘全景地图，精准标注亲吻桥、海上大秀烟花、跨海缆车等12大核心景点位置与实用贴士。',
+      zoneBannerTitle: '探索日落小镇6大特色街区',
+      zoneBannerDesc: '在街区专页中全面了解威尼斯、索伦托、阿玛菲、中心区、波西塔诺与山腰区的地中海风情。',
+      zoneBannerBtn: '前往6大街区全景指南 →',
+    },
+    ja: {
+      eyebrow: 'SUNSET TOWN ILLUSTRATED GUIDE MAP',
+      title: 'サンセットタウン ストリート＆12大ランドマーク案内マップ',
+      subtitle: 'イラストマップ上でキスブリッジ、花火ショー、ロープウェイ駅など12大名所のピン位置と旅行者のヒントをチェックできます。',
+      zoneBannerTitle: 'サンセットタウン6大エリア詳細ガイドを見る',
+      zoneBannerDesc: 'ヴェネツィア、ソレント、アマルフィ、セントラル、ポジターノ、ヒルサイドの6大エリアの魅力を詳しく紹介。',
+      zoneBannerBtn: '6大エリアガイドを見る →',
+    },
+    ru: {
+      eyebrow: 'SUNSET TOWN ILLUSTRATED GUIDE MAP',
+      title: 'Карта Сансет-Тауна и 12 главных достопримечательностей',
+      subtitle: 'Интерактивная иллюстрированная карта с точным расположением Моста поцелуев, канатной дороги и 12 ключевых мест с советами.',
+      zoneBannerTitle: 'Гид по 6 районам Сансет-Тауна',
+      zoneBannerDesc: 'Узнайте об особенностях районов Венеция, Сорренто, Амальфи, Центральный, Позитано и Хиллсайд.',
+      zoneBannerBtn: 'Перейти к гиду по районам →',
+    },
+    hi: {
+      eyebrow: 'SUNSET TOWN ILLUSTRATED GUIDE MAP',
+      title: 'सनसेट टाउन 12 प्रमुख दर्शनीय स्थल गाइड नक्शा',
+      subtitle: 'किस ब्रिज, आतिशबाजी शो और 12 प्रमुख स्थलों के सटीक पिन और उपयोगी सुझावों के साथ सचित्र इंटरैक्टिव नक्शा।',
+      zoneBannerTitle: 'सनसेट टाउन के 6 प्रमुख क्षेत्र देखें',
+      zoneBannerDesc: 'वेनिस, सोरेंटो, अमाल्फी, सेंट्रल, पॉसिटानो और हिलसाइड क्षेत्रों का विशेष गाइड देखें।',
+      zoneBannerBtn: '6 प्रमुख क्षेत्र गाइड देखें →',
+    },
+  }
+
+  const t = pageTexts[locale] || pageTexts.en
+
   return (
     <div className="siteRoot" style={{ minHeight: '100vh', background: '#F8FAFC' }}>
-      {/* 헤더 */}
+      {/* 사이트 상단 공통 헤더 */}
       <header className="siteHeader" style={{ background: '#12333B', color: '#ffffff' }}>
         <Logo locale={locale} />
         <nav className="desktopNav">
@@ -72,115 +141,76 @@ export default async function MapPage({ params }: MapPageProps) {
               marginBottom: '10px',
             }}
           >
-            SUNSET TOWN ILLUSTRATED GUIDE MAP
+            {t.eyebrow}
           </span>
-          <h1 style={{ fontSize: '2.2rem', fontWeight: 800, color: '#12333B', margin: '0 0 10px' }}>
-            {isKo ? '선셋타운 거리 & 12대 랜드마크 인터랙티브 가이드 맵' : 'Sunset Town Interactive Street & Landmark Guide Map'}
+          <h1 style={{ fontSize: 'clamp(24px, 2.8vw, 36px)', fontWeight: 800, color: '#12333B', margin: '0 0 12px' }}>
+            {t.title}
           </h1>
-          <p style={{ fontSize: '15.5px', color: '#527982', maxWidth: '720px', margin: '0 auto', lineHeight: 1.6 }}>
-            {isKo
-              ? '선셋타운 마스터플랜 일러스트를 기반으로 6대 구역, 8개 주요 거리(베니스, 소렌토, 아말피 등) 및 키스 브릿지·불꽃쇼·케이블카 등 핵심 관광 포인트의 실시간 위치와 관람 꿀팁을 제공합니다.'
-              : 'Illustrated guide map based on the Sunset Town master plan. Discover 6 quarters, 8 main boulevards, and 12 iconic landmarks with insider tips.'}
+          <p style={{ fontSize: '15.5px', color: '#527982', maxWidth: '780px', margin: '0 auto', lineHeight: 1.65 }}>
+            {t.subtitle}
           </p>
         </div>
 
-        {/* 인터랙티브 지도 컴포넌트 */}
-        <SunsetTownMap locale={locale} height="700px" showSidebar={true} />
+        {/* 1. 상단 인터랙티브 지도 & 2. 12대 명소 아코디언 카드 목록 */}
+        <SunsetTownMap locale={locale} />
 
-        {/* 하단 6대 구역 가이드 카드 요약 */}
-        <section style={{ marginTop: '50px' }}>
-          <div style={{ marginBottom: '20px' }}>
-            <h2 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#12333B' }}>
-              🏛️ {isKo ? '선셋타운 6대 구역 (공식 개발 구역 & 여행자 안내 구역)' : 'Sunset Town 6 Quarters (Official Sectors & Visitor Zones)'}
-            </h2>
-          </div>
+        {/* 3. 하단 구역 전용 페이지(/zones/sunset-town) 링크 배너 (중복 제거 및 연계 연결) */}
+        <section style={{ marginTop: '60px' }}>
           <div
             style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
-              gap: '20px',
+              background: '#ffffff',
+              border: '1px solid #E2E8F0',
+              borderRadius: '16px',
+              padding: '32px 28px',
+              boxShadow: '0 4px 16px rgba(0,0,0,0.04)',
+              display: 'flex',
+              flexDirection: 'row',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              gap: '24px',
+              flexWrap: 'wrap',
             }}
           >
-            {[
-              {
-                zone: 'venice',
-                title: isKo ? '베니스 (Venice)' : 'Venice Quarter',
-                badge: isKo ? '공식 개발 구역 · 해안 산책로' : 'Official Sector · Promenade',
-                desc: isKo
-                  ? '부이페스트 야시장, 롱비치 해변, 바닷가 바로 앞 노을 명당 카페와 낭만적인 부티크 호텔 밀집.'
-                  : 'VUI-Fest night market, Sunset beach, romantic waterfront dining and cozy boutique hotels.',
-                tag: 'Đường Venice',
-              },
-              {
-                zone: 'sorrento',
-                title: isKo ? '소렌토 (Sorrento)' : 'Sorrento Quarter',
-                badge: isKo ? '공식 개발 구역 · 케이블카 관문' : 'Official Sector · Cable Car',
-                desc: isKo
-                  ? '개선문 관문부터 폼페이 유적 기둥, 콜로세움 모티브의 썬월드 3선식 해상 케이블카 승강장이 있는 활기찬 남측 중심.'
-                  : 'Arc de Triomphe, Pompeii Ruins, and the gateway to the Guinness-record longest three-rope cable car.',
-                tag: 'Đường Sorrento',
-              },
-              {
-                zone: 'amalfi',
-                title: isKo ? '아말피 (Amalfi)' : 'Amalfi Quarter',
-                badge: isKo ? '공식 개발 구역 · 시계탑' : 'Official Sector · Clock Tower',
-                desc: isKo
-                  ? '75m 센트럴 시계탑, 태양의 분수, 용의 계단, 빌 벤슬리의 썬 시그니처 갤러리가 있는 지중해 절벽 마을.'
-                  : '75m Campanile Clock Tower, Sun God Fountain, Dragon Stairs, and cliffside dining terraces.',
-                tag: 'Đường Amalfi',
-              },
-              {
-                zone: 'central',
-                title: isKo ? '센트럴 (Central)' : 'Central / Kiss Bridge',
-                badge: isKo ? '여행자 안내 구역 · 키스브릿지' : 'Visitor Zone · Kiss Bridge',
-                desc: isKo
-                  ? '세계적인 석양 랜드마크 키스 브릿지와 매일 밤 불꽃놀이가 터지는 키스오브더씨 해상 극장 광장.'
-                  : 'Iconic Kiss Bridge over the sea and the nightly Kiss of the Sea fireworks amphitheater.',
-                tag: 'Cầu Hôn · Quảng trường',
-              },
-              {
-                zone: 'positano',
-                title: isKo ? '포지타노 (Positano)' : 'Positano Quarter',
-                badge: isKo ? '공식 개발 구역 · 숍하우스' : 'Official Sector · Shophouses',
-                desc: isKo
-                  ? '알록달록 파스텔톤 이탈리아풍 숍하우스, 베트남 전통 아로마 스파, 디저트 베이커리 거리.'
-                  : 'Vibrant pastel shophouses, serene massage spas, specialty cafes, and local craft shops.',
-                tag: 'Đường Positano',
-              },
-              {
-                zone: 'hillside',
-                title: isKo ? '힐사이드 (Hillside)' : 'Hillside Quarter',
-                badge: isKo ? '공식 개발 구역 · 스카이라인' : 'Official Sector · Skyline',
-                desc: isKo
-                  ? 'Sun Grand City Hillside 아파트먼트 단지와 루프탑 인피니티 풀에서 내려다보는 선셋타운 파노라마.'
-                  : 'Sun Grand City Hillside towers, residential suites, and highest vantage rooftop panoramas.',
-                tag: 'Đường Hillside',
-              },
-            ].map((q) => (
-              <div
-                key={q.zone}
+            <div style={{ maxWidth: '720px' }}>
+              <span
                 style={{
-                  background: '#ffffff',
-                  borderRadius: '12px',
-                  padding: '18px',
-                  border: '1px solid #E2E8F0',
-                  boxShadow: '0 2px 8px rgba(0,0,0,0.04)',
+                  fontSize: '12px',
+                  fontWeight: 800,
+                  color: '#C86D2D',
+                  letterSpacing: '0.06em',
+                  textTransform: 'uppercase',
+                  display: 'inline-block',
+                  marginBottom: '6px',
                 }}
               >
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
-                  <span style={{ fontSize: '11px', fontWeight: 700, color: '#C86D2D', background: '#FDF7F2', padding: '2px 8px', borderRadius: '4px' }}>
-                    {q.badge}
-                  </span>
-                  <span style={{ fontSize: '11px', color: '#64748B', fontWeight: 600 }}>{q.tag}</span>
-                </div>
-                <h3 style={{ fontSize: '16px', fontWeight: 800, color: '#12333B', margin: '0 0 6px' }}>
-                  {q.title}
-                </h3>
-                <p style={{ fontSize: '13px', color: '#475569', margin: 0, lineHeight: 1.5 }}>
-                  {q.desc}
-                </p>
-              </div>
-            ))}
+                SUNSET TOWN 6 QUARTERS
+              </span>
+              <h2 style={{ fontSize: '20px', fontWeight: 800, color: '#12333B', margin: '0 0 8px' }}>
+                🏛️ {t.zoneBannerTitle}
+              </h2>
+              <p style={{ fontSize: '14px', color: '#64748B', margin: 0, lineHeight: 1.6 }}>
+                {t.zoneBannerDesc}
+              </p>
+            </div>
+            <Link
+              href={localePath(locale, '/zones/sunset-town')}
+              className="primaryButton"
+              style={{
+                background: '#12333B',
+                color: '#ffffff',
+                padding: '12px 24px',
+                borderRadius: '999px',
+                fontWeight: 700,
+                fontSize: '14px',
+                textDecoration: 'none',
+                whiteSpace: 'nowrap',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '8px',
+              }}
+            >
+              <span>{t.zoneBannerBtn}</span>
+            </Link>
           </div>
         </section>
       </main>

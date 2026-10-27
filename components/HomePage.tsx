@@ -408,9 +408,73 @@ export function HomePage({
         {/* [업무 지시 · Claude] SUNSET TOWN 6 QUARTERS / Explore Sunset Town by District 섹션 숨김 처리 (복구 시 주석 해제) */}
         {/* <SunsetDistrictFilter locale={locale} /> */}
 
-        {/* 선셋타운 공식 일러스트 지도 & 거리 가이드 섹션 */}
-        <section className="shell sunsetTownMapSection" id="map">
-          <SunsetTownMap locale={locale} />
+        {/* [2026-10-27 개편] 선셋타운 지도 & 12대 핵심 명소 바로가기 컴팩트 카드 (상세 본문은 /map 페이지로 분리) */}
+        <section className="shell sunsetTownMapPromoSection" id="map-preview">
+          {(() => {
+            const promoTexts: Record<Locale, { badge: string; title: string; desc: string; cta: string }> = {
+              ko: {
+                badge: '선셋타운 지도 & 12대 명소',
+                title: '선셋타운 인터랙티브 지도 & 12대 핵심 명소 가이드',
+                desc: '키스 브릿지·75m 시계탑·케이블카·불꽃쇼 등 선셋타운 12대 랜드마크의 인터랙티브 핀 지도와 상세 관람 안내를 한눈에 확인하세요.',
+                cta: '선셋타운 지도 & 12대 명소 보기 →',
+              },
+              en: {
+                badge: 'MAP & 12 LANDMARKS',
+                title: 'Sunset Town Interactive Map & 12 Iconic Landmarks',
+                desc: 'Explore the master plan illustrated map, walking routes, and detailed visitor tips for all 12 iconic landmarks including Kiss Bridge.',
+                cta: 'Explore Sunset Town Map & 12 Iconic Landmarks →',
+              },
+              vi: {
+                badge: 'BẢN ĐỒ & 12 ĐIỂM ĐẾN',
+                title: 'Bản đồ tương tác & 12 Điểm đến biểu tượng Sunset Town',
+                desc: 'Khám phá bản đồ minh họa, tuyến phố đi bộ và cẩm nang tham quan 12 điểm đến nổi tiếng như Cầu Hôn, Tháp đồng hồ và Cáp treo.',
+                cta: 'Xem Bản đồ & 12 Điểm đến Thị trấn Hoàng Hôn →',
+              },
+              zh: {
+                badge: '导览地图与12大地标',
+                title: '日落小镇互动地图与12大核心地标',
+                desc: '通过手绘全景地图与详尽游玩指南，探索亲吻桥、75米钟楼、跨海缆车站等12大打卡点。',
+                cta: '查看日落小镇地图与12大地标 →',
+              },
+              ja: {
+                badge: 'MAP & 12 LANDMARKS',
+                title: 'サンセットタウン案内マップ＆12大名所ガイド',
+                desc: 'キスブリッジ、75m時計台、海上ロープウェイなど、12大名所の見どころとストリート網をご案内。',
+                cta: 'サンセットタウン地図＆12大名所を見る →',
+              },
+              ru: {
+                badge: 'КАРТА И 12 МЕСТ',
+                title: 'Интерактивная карта Сансет-Тауна и 12 главных мест',
+                desc: 'Иллюстрированная карта, пешеходные маршруты и подробные советы для путешественников по 12 знаковым местам.',
+                cta: 'Карта Сансет-Тауна и 12 главных мест →',
+              },
+              hi: {
+                badge: 'नक्शा और 12 स्थल',
+                title: 'सनसेट टाउन इंटरैक्टिव मैप और 12 प्रमुख दर्शनीय स्थल',
+                desc: 'किस ब्रिज, 75 मीटर क्लॉक टॉवर और 12 प्रमुख स्थलों के सचित्र नक्शे और संपूर्ण गाइड का अन्वेषण करें।',
+                cta: 'सनसेट टाउन मैप और 12 प्रमुख स्थल देखें →',
+              },
+            }
+            const pt = promoTexts[locale] || promoTexts.en
+            return (
+              <div className="sunsetMapPromoCard">
+                <div className="sunsetMapPromoCopy">
+                  <span className="sunsetMapPromoBadge">{pt.badge}</span>
+                  <h2 className="sunsetMapPromoTitle">{pt.title}</h2>
+                  <p className="sunsetMapPromoDesc">{pt.desc}</p>
+                  <Link href={localePath(locale, '/map')} className="sunsetMapPromoBtn">
+                    <span>{pt.cta}</span>
+                  </Link>
+                </div>
+                <div className="sunsetMapPromoGraphic">
+                  <Link href={localePath(locale, '/map')} className="sunsetMapPromoThumbnail" aria-label={pt.cta}>
+                    <span style={{ fontSize: '38px' }}>🗺️</span>
+                    <span style={{ fontSize: '11.5px', fontWeight: 800, letterSpacing: '0.04em' }}>INTERACTIVE MAP</span>
+                  </Link>
+                </div>
+              </div>
+            )
+          })()}
         </section>
 
         <SunsetTownTickets locale={locale} />

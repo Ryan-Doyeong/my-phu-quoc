@@ -543,6 +543,117 @@
   margin-top: 24px;
 }
 
+/* 업체 메뉴 아코디언 (접이식 드롭다운) */
+.menuAccordionList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.menuAccordionItem {
+  margin-top: 0 !important;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  background: #ffffff;
+  overflow: hidden;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.menuAccordionItem.menuAccordionOpen {
+  border-color: #0B7A8A;
+  box-shadow: 0 4px 14px rgba(11, 122, 138, 0.08);
+}
+
+.menuAccordionHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  background: #F8FAFC;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 700;
+  color: #12333B;
+  transition: background 0.15s ease;
+  min-height: 52px;
+}
+
+.menuAccordionHeader:hover {
+  background: #F1F5F9;
+}
+
+.menuAccordionHeader:focus-visible {
+  outline: 2px solid #0B7A8A;
+  outline-offset: -2px;
+}
+
+.menuAccordionOpen .menuAccordionHeader {
+  background: #EFF6F7;
+  border-bottom: 1px solid #E1ECEB;
+}
+
+.menuAccordionTitleWrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.menuAccordionTitle {
+  font-size: 16.5px;
+  font-weight: 800;
+  color: #12333B;
+}
+
+.menuAccordionMetaWrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.menuItemCountBadge {
+  font-size: 12px;
+  font-weight: 700;
+  color: #0B7A8A;
+  background: #E0F2F1;
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(11, 122, 138, 0.15);
+}
+
+.menuAccordionChevron {
+  display: inline-block;
+  font-size: 16px;
+  color: #64748B;
+  transition: transform 0.2s ease, color 0.2s ease;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.menuAccordionChevron.isExpanded {
+  transform: rotate(180deg);
+  color: #0B7A8A;
+}
+
+.menuAccordionPanel {
+  padding: 0 18px;
+}
+
+.menuAccordionPanel.panelHidden {
+  display: none;
+}
+
+.menuAccordionPanel.panelVisible {
+  display: block;
+}
+
 .menuGroup h3 {
   border-bottom: 2px solid var(--ink, #1f2937);
   align-items: center;
@@ -1022,7 +1133,7 @@
  * ------------------------------------------------------------- */
 
 .sunsetTownMapSection {
-  padding-top: 48px;
+  padding-top: 0;
   padding-bottom: 48px;
 }
 
@@ -1599,3 +1710,330 @@
   }
 }
 
+
+/* ==========================================================================
+   2026-10-27 선셋타운 지도 인터랙티브 핀 & 12대 명소 아코디언 & 홈 프로모 카드
+   ========================================================================== */
+
+/* 상단 핀 안내 배너 */
+.mapPinGuideBanner {
+  background: #EBF5F5;
+  border: 1px solid #C4E2E0;
+  border-radius: 8px;
+  padding: 8px 14px;
+  margin-bottom: 12px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: #0B7A8A;
+}
+
+/* 인터랙티브 지도 컨테이너 */
+.mapInteractiveContainer {
+  width: 100%;
+  border-radius: calc(var(--radius) - 8px);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: #F4F8F7;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mapAspectBox {
+  position: relative;
+  width: min(100%, calc(640px * 2000 / 2914));
+  margin: 0 auto;
+  aspect-ratio: 2000 / 2914;
+  max-height: 640px;
+}
+
+@media (max-width: 768px) {
+  .mapAspectBox {
+    width: min(100%, calc(460px * 2000 / 2914));
+    margin: 0 auto;
+    max-height: 460px;
+  }
+}
+
+.mapBaseImage {
+  pointer-events: none;
+  user-select: none;
+}
+
+/* 핀 오버레이 */
+.mapPinsOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.mapPinItem {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), z-index 0.1s ease;
+}
+
+.mapPinItem:hover,
+.mapPinItem:focus-visible {
+  transform: translate(-50%, -50%) scale(1.25);
+  z-index: 25;
+}
+
+.mapPinItem.isPinActive {
+  transform: translate(-50%, -50%) scale(1.35);
+  z-index: 30;
+}
+
+.mapPinBadge {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #0B7A8A;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mapPinItem:hover .mapPinBadge,
+.mapPinItem:focus-visible .mapPinBadge,
+.mapPinItem.isPinActive .mapPinBadge {
+  background: #C86D2D;
+  box-shadow: 0 4px 12px rgba(200, 109, 45, 0.5);
+}
+
+.mapPinTooltip {
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(18, 51, 59, 0.92);
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 6px;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.15s ease, visibility 0.15s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.mapPinItem:hover .mapPinTooltip,
+.mapPinItem:focus-visible .mapPinTooltip,
+.mapPinItem.isPinActive .mapPinTooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* 12대 명소 카드 아코디언 */
+.landmarkCardAccordion {
+  cursor: pointer;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.landmarkCardAccordion.cardHighlighted {
+  border-color: #C86D2D !important;
+  background: #FDF9F5 !important;
+  box-shadow: 0 0 0 3px rgba(200, 109, 45, 0.25), 0 8px 24px rgba(200, 109, 45, 0.15) !important;
+}
+
+.landmarkCardClickable {
+  outline: none;
+}
+
+.landmarkCardClickable:focus-visible {
+  outline: 2px solid #0B7A8A;
+  outline-offset: 4px;
+  border-radius: 8px;
+}
+
+.landmarkAccordionToggleIcon {
+  font-size: 18px;
+  color: #0B7A8A;
+  margin-left: auto;
+  transition: transform 0.2s ease;
+  padding-left: 8px;
+}
+
+.landmarkAccordionHint {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--line);
+  font-size: 12px;
+  font-weight: 700;
+  color: #0B7A8A;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.landmarkCardDetailBody {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.landmarkCardDetailBody.detailHidden {
+  display: none;
+}
+
+.landmarkCardDetailBody.detailVisible {
+  display: block;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+.landmarkFullDesc {
+  font-size: 14px;
+  line-height: 1.65;
+  color: #334155;
+  margin-bottom: 12px;
+}
+
+/* 홈 화면 전용: 선셋타운 지도 & 12대 명소 바로가기 컴팩트 카드 */
+.sunsetMapPromoCard {
+  background: linear-gradient(135deg, #12333B 0%, #1B4D58 100%);
+  border-radius: 16px;
+  padding: 36px 40px;
+  color: #ffffff;
+  box-shadow: 0 10px 30px rgba(18, 51, 59, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  margin: 32px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.sunsetMapPromoCard::before {
+  content: '';
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(200, 109, 45, 0.25) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.sunsetMapPromoCopy {
+  max-width: 680px;
+  position: relative;
+  z-index: 2;
+}
+
+.sunsetMapPromoBadge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: rgba(200, 109, 45, 0.2);
+  color: #F8B37E;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.sunsetMapPromoTitle {
+  font-size: clamp(22px, 2.2vw, 28px);
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 10px;
+  line-height: 1.3;
+}
+
+.sunsetMapPromoDesc {
+  font-size: 14.5px;
+  color: #B2D1D6;
+  line-height: 1.6;
+  margin: 0 0 20px;
+}
+
+.sunsetMapPromoBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #C86D2D;
+  color: #ffffff !important;
+  font-size: 14.5px;
+  font-weight: 700;
+  padding: 12px 24px;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 14px rgba(200, 109, 45, 0.35);
+}
+
+.sunsetMapPromoBtn:hover {
+  background: #d97833;
+  transform: translateX(4px);
+  box-shadow: 0 6px 18px rgba(200, 109, 45, 0.45);
+}
+
+.sunsetMapPromoGraphic {
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sunsetMapPromoThumbnail {
+  width: 140px;
+  height: 140px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.sunsetMapPromoThumbnail:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .sunsetMapPromoCard {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 20px;
+    gap: 20px;
+  }
+  .sunsetMapPromoGraphic {
+    display: none;
+  }
+  .sunsetMapPromoBtn {
+    width: 100%;
+    justify-content: center;
+  }
+}

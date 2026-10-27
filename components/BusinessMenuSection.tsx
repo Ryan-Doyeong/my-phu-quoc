@@ -1,6 +1,6 @@
 'use client'
 
-import React from 'react'
+import React, { useState } from 'react'
 import type { BusinessMenuData } from '@/lib/menus'
 import { GRADE_INFO } from '@/lib/menus'
 import type { Locale } from '@/lib/i18n/config'
@@ -12,6 +12,25 @@ interface BusinessMenuSectionProps {
   menuImages?: { url: string; label: string }[]
 }
 
+function getItemCountText(count: number, locale: Locale): string {
+  switch (locale) {
+    case 'ko':
+      return `${count}개 품목`
+    case 'vi':
+      return `${count} món`
+    case 'zh':
+      return `${count} 项`
+    case 'ja':
+      return `${count} 品`
+    case 'ru':
+      return `${count} поз.`
+    case 'hi':
+      return `${count} आइटम`
+    default:
+      return `${count} ${count === 1 ? 'item' : 'items'}`
+  }
+}
+
 export function BusinessMenuSection({
   menuData,
   locale = 'ko',
@@ -19,6 +38,14 @@ export function BusinessMenuSection({
 }: BusinessMenuSectionProps) {
   const isKo = locale === 'ko'
   const isVi = locale === 'vi'
+
+  // 아코디언 상태 관리: 기본은 전부 접힌 상태 (null)
+  // 클릭 시 해당 카테고리만 펼쳐짐 (이미 열려있는 것을 클릭하면 다시 접힘)
+  const [openSectionIdx, setOpenSectionIdx] = useState<number | null>(null)
+
+  const toggleSection = (idx: number) => {
+    setOpenSectionIdx((prev) => (prev === idx ? null : idx))
+  }
 
   const title = isKo
     ? '메뉴 & 가격 안내'
@@ -35,7 +62,7 @@ export function BusinessMenuSection({
         <h2>{title}</h2>
         <div style={{ marginTop: '12px' }}>
           <span className="menuBadge gradeD">
-            {isKo ? 'Grade D · 미확인' : isVi ? 'Hạng D · Chưa xác nhận' : 'Grade D · Unconfirmed'}
+            {isKo ? '메뉴 정보 준비 중' : isVi ? 'Đang cập nhật' : 'Menu Updating'}
           </span>
         </div>
         <p className="menuNote" style={{ marginTop: '12px' }}>
@@ -64,23 +91,16 @@ export function BusinessMenuSection({
       <span className="eyebrow">{eyebrow}</span>
       <h2>{title}</h2>
 
-      {/* Grade badge & Explanation */}
+      {/* 메뉴 출처 및 기준일 메타 정보 표기 (여행자 친화적 표기, 내부 관리 등급 문구 노출 금지) */}
       <div style={{ marginTop: '8px', marginBottom: '14px', display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
-        <span className={`menuBadge grade${menuData.grade}`}>{gradeLabel}</span>
-        {menuData.totalItems > 0 && (
-          <span style={{ fontSize: '13px', color: 'var(--muted, #6b7280)', fontWeight: 600 }}>
-            {isKo
-              ? `${menuData.totalItems}개 품목 실측 등록`
-              : isVi
-              ? `Đã xác thực ${menuData.totalItems} món`
-              : `${menuData.totalItems} verified items`}
-          </span>
-        )}
+        <span style={{ fontSize: '13px', color: '#527982', fontWeight: 600 }}>
+          {isKo
+            ? `메뉴 기준일: ${menuData.verifiedDate || '2026-10'}, 출처: ${menuData.sourcesSummary || '공식 메뉴판'}`
+            : isVi
+            ? `Cập nhật: ${menuData.verifiedDate || '10/2026'}, Nguồn: ${menuData.sourcesSummary || 'Thực đơn chính thức'}`
+            : `Menu as of: ${menuData.verifiedDate || '2026-10'}, Source: ${menuData.sourcesSummary || 'Official Menu'}`}
+        </span>
       </div>
-
-      <p style={{ fontSize: '13.5px', color: '#55655a', margin: '0 0 16px', lineHeight: 1.5 }}>
-        {gradeDesc}
-      </p>
 
       {/* Warning Notice */}
       <div
@@ -112,7 +132,7 @@ export function BusinessMenuSection({
           </p>
         </div>
       ) : (
-        <div className="menuGroupsWrapper">
+        <div className="menuGroupsWrapper menuAccordionList">
           {menuData.sections.map((section, sIdx) => {
             const sectionTitle = isKo
               ? section.title_ko || section.title
@@ -120,57 +140,88 @@ export function BusinessMenuSection({
               ? section.title_vi || section.title_en || section.title
               : section.title_en || section.title
 
+            const isOpen = openSectionIdx === sIdx
+            const itemCount = section.items.length
+            const itemCountLabel = getItemCountText(itemCount, locale)
+
             return (
-              <div key={sIdx} className="menuGroup">
-                <h3>
-                  <span>{sectionTitle}</span>
-                  {sIdx === 0 && <span className="menuBadge best">SIGNATURE</span>}
-                </h3>
-                <ul className="menuItems">
-                  {section.items.map((item, iIdx) => {
-                    // 접속 언어 1개로만 단일 명칭 노출 (혼란 및 번잡함 제거)
-                    const primaryName = isKo
-                      ? item.name_ko || item.name_original
-                      : isVi
-                      ? item.name_vi || item.name_original
-                      : item.name_en || item.name_original
+              <div
+                key={sIdx}
+                className={`menuGroup menuAccordionItem ${isOpen ? 'menuAccordionOpen' : 'menuAccordionClosed'}`}
+              >
+                <button
+                  type="button"
+                  id={`menu-btn-${sIdx}`}
+                  className="menuAccordionHeader"
+                  onClick={() => toggleSection(sIdx)}
+                  aria-expanded={isOpen}
+                  aria-controls={`menu-panel-${sIdx}`}
+                >
+                  <div className="menuAccordionTitleWrap">
+                    <span className="menuAccordionTitle">{sectionTitle}</span>
+                    {sIdx === 0 && <span className="menuBadge best">SIGNATURE</span>}
+                  </div>
+                  <div className="menuAccordionMetaWrap">
+                    <span className="menuItemCountBadge">{itemCountLabel}</span>
+                    <span className={`menuAccordionChevron ${isOpen ? 'isExpanded' : ''}`} aria-hidden="true">
+                      ▾
+                    </span>
+                  </div>
+                </button>
 
-                    // 풍부한 일반적 음식 설명 보충 (접속 언어 1개로만 단일 제공)
-                    const enriched = enrichDishDescription(
-                      item.name_original,
-                      item.name_ko,
-                      item.description_ko || null,
-                      item.description_original || null
-                    )
-                    const displayDesc = isKo
-                      ? enriched.descKo
-                      : isVi
-                      ? item.description_original || enriched.descEn
-                      : enriched.descEn
+                {/* HTML에 항상 렌더링되어 검색엔진(SEO)이 읽을 수 있으며 접힘 상태에 따라 CSS로 표시 제어 */}
+                <div
+                  id={`menu-panel-${sIdx}`}
+                  role="region"
+                  aria-labelledby={`menu-btn-${sIdx}`}
+                  className={`menuAccordionPanel ${isOpen ? 'panelVisible' : 'panelHidden'}`}
+                >
+                  <ul className="menuItems">
+                    {section.items.map((item, iIdx) => {
+                      // 접속 언어 1개로만 단일 명칭 노출 (혼란 및 번잡함 제거)
+                      const primaryName = isKo
+                        ? item.name_ko || item.name_original
+                        : isVi
+                        ? item.name_vi || item.name_original
+                        : item.name_en || item.name_original
 
-                    return (
-                      <li key={iIdx} className="menuItem">
-                        <div className="menuItemHead">
-                          <div className="menuItemName">
-                            <strong>{primaryName}</strong>
+                      // 풍부한 일반적 음식 설명 보충 (접속 언어 1개로만 단일 제공)
+                      const enriched = enrichDishDescription(
+                        item.name_original,
+                        item.name_ko,
+                        item.description_ko || null,
+                        item.description_original || null
+                      )
+                      const displayDesc = isKo
+                        ? enriched.descKo
+                        : isVi
+                        ? item.description_original || enriched.descEn
+                        : enriched.descEn
+
+                      return (
+                        <li key={iIdx} className="menuItem">
+                          <div className="menuItemHead">
+                            <div className="menuItemName">
+                              <strong>{primaryName}</strong>
+                            </div>
+                            <span className="menuPrice">
+                              {item.price_vnd !== null
+                                ? `${item.price_vnd.toLocaleString()} `
+                                : item.price_text || (isKo ? '가격 미확인' : isVi ? 'Chưa rõ giá' : 'Unconfirmed ')}
+                              {item.price_vnd !== null && <small>VND</small>}
+                            </span>
                           </div>
-                          <span className="menuPrice">
-                            {item.price_vnd !== null
-                              ? `${item.price_vnd.toLocaleString()} `
-                              : item.price_text || (isKo ? '가격 미확인' : isVi ? 'Chưa rõ giá' : 'Unconfirmed ')}
-                            {item.price_vnd !== null && <small>VND</small>}
-                          </span>
-                        </div>
 
-                        {displayDesc && (
-                          <div className="menuDesc">
-                            <div>{displayDesc}</div>
-                          </div>
-                        )}
-                      </li>
-                    )
-                  })}
-                </ul>
+                          {displayDesc && (
+                            <div className="menuDesc">
+                              <div>{displayDesc}</div>
+                            </div>
+                          )}
+                        </li>
+                      )
+                    })}
+                  </ul>
+                </div>
               </div>
             )
           })}
