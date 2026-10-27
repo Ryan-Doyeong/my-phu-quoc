@@ -139,10 +139,10 @@ export async function renderZoneRoute(slug: string, locale: Locale = 'en') {
       {/* Main Container */}
       <div className="zoneDetailContainer">
         <div className="zonePageFrame">
-          {/* Top Bar */}
+          {/* Top Bar (User-facing only: Zone name & approved badge) */}
           <div className="frameTopBar">
-            <span>{name}</span>
-            <code>/zones/{slug}</code>
+            <span className="frameTopBarTitle">{name}</span>
+            <span className="frameTopBarBadge">{badge}</span>
           </div>
 
           {/* Hero Banner */}
@@ -207,7 +207,9 @@ export async function renderZoneRoute(slug: string, locale: Locale = 'en') {
                 <span className="badge">{categoryBadge}</span>
               </div>
               <div className="categoryGridSmall">
-                {zone.categories.map((cat, idx) => (
+                {zone.categories
+                  .filter((cat) => cat.count > 0)
+                  .map((cat, idx) => (
                   <Link
                     href={`${localePath(locale, `/directory/${cat.categoryKey}`)}?zone=${slug}`}
                     key={idx}
