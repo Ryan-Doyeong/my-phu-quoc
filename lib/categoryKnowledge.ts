@@ -91,7 +91,7 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
         '베트남 푸꾸옥의 스파에서 제공하는 핫스톤과 베트남식 허브 헤드스파(Gội đầu dưỡng sinh)의 특징과 이용 안내입니다.',
       ],
       list: [
-        '핫스톤 테라피 (Hot Stone): 약 50~60도로 데운 천연 현무암을 등과 척추 부위에 얹고 오일과 함께 관리합니다. 스톤의 온열감을 통해 뭉친 부위의 긴장을 완화합니다.',
+        '핫스톤 테라피 (Hot Stone): 따뜻하게 데운 스톤을 등과 척추 부위에 얹고 오일과 함께 관리합니다. 스톤의 온열감을 통해 뭉친 부위의 긴장을 완화합니다.',
         '베트남 두피 헤드스파 (Gội đầu dưỡng sinh): 자몽 껍질, 레몬그라스 등 천연 허브를 달인 따뜻한 물로 두피를 세정하고, 두피·목·어깨 라인을 지압하여 피로를 덜어줍니다.',
       ],
       subheading: '이용 안내',
@@ -103,7 +103,7 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
     en: {
       label: 'English · Hot Stone & Vietnamese Herbal Head Spa',
       paragraphs: [
-        'Hot Stone Therapy uses warm basalt stones to apply soothing heat to tense muscles.',
+        'Hot Stone Therapy uses warm stones to apply soothing heat to tense muscles.',
         'Vietnamese Herbal Head Spa (Gội đầu dưỡng sinh) is a scalp and neck acupressure therapy using brewed pomelo and lemongrass herbal rinses.',
       ],
       list: [
@@ -244,7 +244,7 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
       list: [
         '1. 푸꾸옥 통후추 (Tiêu Phú Quốc): 흑후추는 진한 풍미로 육류 요리에, 백후추는 부드러운 매운맛으로 생선/수프에, 붉은 완숙 열매만 딴 적후추(Tiêu đỏ)는 향긋한 단맛이 감도는 고급 품종입니다. 선물용으로는 "푸꾸옥 후추 소금(Muối tiêu)"도 널리 활용됩니다.',
         '2. 전통 피시소스 (Nước mắm): 라벨에 표기된 단백질 함량(Độ đạm)을 확인하세요. 40N~43N 표기가 된 제품이 100% 안초비로 숙성한 프리미엄 순수 원액입니다. (※ 비행기 탑승 시 기내 반입은 금지되며, 위탁 수하물로 부칠 때는 완충재 포장 필수입니다.)',
-        '3. 심와인 & 심 시럽 (Rượu Sim): 푸꾸옥 야생 로즈머틀(Sim) 열매를 발효해 만든 과실주로, 달콤 쌉싸름하며 식후 소화와 피로 회복에 좋아 여성 여행자에게 큰 사랑을 받습니다.',
+        '3. 심와인 & 심 시럽 (Rượu Sim): 푸꾸옥 야생 로즈머틀(Sim) 열매를 발효해 만든 과실주로, 특유의 달콤하고 쌉싸름한 풍미가 특징입니다.',
         '4. 천연 진주 (Ngọc trai): 품질 보증서가 발행되는 공인 진주 농장 직영 매장에서 구매하는 것을 권장합니다.',
       ],
       subheading: '열대과일 포장 팁',
@@ -261,7 +261,7 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
       list: [
         'Phu Quoc Peppercorns: Look for Red Pepper (Tiêu đỏ) for gourmet floral spice, or Pepper Salt (Muối tiêu) for effortless grilling seasoning.',
         'Artisan Fish Sauce: Look for 40°N or 43°N protein content for the purest traditional barrel-aged anchovy elixir (pack in checked luggage only).',
-        'Sim Wine (Rượu Sim): Sweet-tangy wild Myrtle berry liqueur, great for digestion.',
+        'Sim Wine (Rượu Sim): Sweet-tangy wild Myrtle berry liqueur unique to Phu Quoc Island.',
         'Cultured Pearls: Always purchase from reputable pearl showrooms with certificates.',
       ],
     },
@@ -284,7 +284,7 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
     ko: {
       label: '한국어 · 혼똔섬 케이블카 & 아쿠아토피아 안내',
       paragraphs: [
-        '선셋타운에서 출발하는 혼똔섬(Hòn Thơm) 케이블카는 기네스 세계 기록에 등재된 7,899m 길이의 3선 해상 케이블카입니다.',
+        '선셋타운에서 출발하는 혼똔섬(Hòn Thơm) 케이블카는 7,899m 길이의 3선 해상 케이블카입니다.',
       ],
       list: [
         '운행 시간 & 점심 브레이크 주의: 케이블카는 보통 오전 9시~11시 30분, 오후 13시 30분~17시 등으로 운행하며, 중간 점심시간(11:30~13:30경)에는 점검 및 휴게로 운행이 일시 중단될 수 있으므로 사전에 시간표를 꼭 확인하세요.',
@@ -293,9 +293,9 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
       ],
     },
     en: {
-      label: 'English · Hon Thom World-Record Cable Car Tips',
+      label: 'English · Hon Thom Cable Car & Aquatopia Tips',
       paragraphs: [
-        'Stretching 7,899 meters across turquoise seas, this Guinness-record 3-wire cable car links Sunset Town to Hon Thom Nature Park.',
+        'Stretching 7,899 meters across turquoise seas, this 3-wire cable car links Sunset Town to Hon Thom Nature Park.',
       ],
       list: [
         'Midday Break: The cable car system frequently halts for maintenance between 11:30 and 13:30; plan your crossing accordingly.',
@@ -305,7 +305,7 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
     vi: {
       label: 'Tiếng Việt · Cáp treo Hòn Thơm & Công viên nước Aquatopia',
       paragraphs: [
-        'Tuyến cáp treo vượt biển 3 dây dài nhất thế giới 7.899m. Cần lưu ý khung giờ nghỉ trưa của cáp treo để sắp xếp lịch trình vui chơi thuận lợi.',
+        'Tuyến cáp treo vượt biển 3 dây 7.899m. Cần lưu ý khung giờ nghỉ trưa của cáp treo để sắp xếp lịch trình vui chơi thuận lợi.',
       ],
     },
   },
@@ -321,9 +321,8 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
         '선셋타운의 주요 랜드마크인 키스브릿지와 키스 오브 더 씨 멀티미디어 쇼 관람 안내입니다.',
       ],
       list: [
-        '키스브릿지(Cầu Hôn) 일몰 시간: 두 개의 다리가 30cm 간격을 두고 바다 위에서 마주 보는 구조로, 일몰 시간대(17:15~17:45)에 다리 사이로 해가 떨어지는 풍경을 조망할 수 있습니다.',
-        '키스 오브 더 씨(Kiss of the Sea): 바다 수상 무대에서 분수, 홀로그램 레이저, 화염, 그리고 불꽃놀이가 어우러지는 종합 공연입니다.',
-        '좌석 안내: 중앙 구역 좌석에서 전체 무대 연출과 불꽃놀이를 조망하기 용이합니다.',
+        '키스브릿지(Cầu Hôn): 두 개의 다리가 바다 위에서 마주 보는 구조로, 일몰 시간대에 다리 너머로 해가 떨어지는 풍경을 조망할 수 있습니다.',
+        '키스 오브 더 씨(Kiss of the Sea): 바다 수상 무대에서 펼쳐지는 야간 멀티미디어 쇼와 불꽃놀이 공연입니다 (수~월 21:00 공연 및 21:25 피날레 불꽃놀이, 화요일 정기 휴무).',
       ],
     },
     en: {
@@ -332,14 +331,14 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
         'Centerpiece architectural landmark and grand nightly multimedia performance.',
       ],
       list: [
-        'Kiss Bridge Sunset Window: The two spans approach within 30 cm without touching. Arrive between 17:15 and 17:45 for the iconic solar alignment.',
-        'Kiss of the Sea Show: High-tech ocean theater featuring water jets, fireballs, and synchronized pyrotechnics (Wed–Mon 21:00; Tue dark).',
+        'Kiss Bridge: Two pedestrian spans approach each other over the sea, offering scenic sunset views.',
+        'Kiss of the Sea Show: Ocean theater multimedia performance and nightly fireworks (Wed–Mon 21:00 show, ~21:25 fireworks finale; Tue dark).',
       ],
     },
     vi: {
       label: 'Tiếng Việt · Cầu Hôn & Show diễn Kiss of the Sea',
       paragraphs: [
-        'Cầu Hôn đón hoàng hôn đẹp nhất lúc 17:15 - 17:45. Show diễn Kiss of the Sea kết hợp nước, lửa, laser và pháo hoa lúc 21h00 từ Thứ 4 đến Thứ 2 (Thứ 3 nghỉ định kỳ).',
+        'Cầu Hôn gồm hai nhánh vươn ra biển đón hoàng hôn. Show diễn Kiss of the Sea và pháo hoa lúc 21h00 từ Thứ 4 đến Thứ 2 (Thứ 3 nghỉ định kỳ).',
       ],
     },
   },
@@ -355,13 +354,13 @@ export const CATEGORY_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = 
     ko: {
       label: '한국어 · 베트남 4대 전통 커피 해설',
       paragraphs: [
-        '세계 2위 커피 수출국인 베트남은 진하고 구수한 로부스타(Robusta) 원두와 전통 알루미늄 드리퍼 핀(Phin)을 사용한 고유의 커피 문화를 꽃피웠습니다.',
+        '진하고 구수한 로부스타(Robusta) 원두와 전통 알루미늄 드리퍼 핀(Phin)을 사용하는 베트남의 커피 문화 안내입니다.',
       ],
       list: [
         '1. 까페 쓰어다 (Cà phê sữa đá): 진하게 내린 커피 원액에 달콤한 연유(Sữa đặc)와 굵은 각얼음을 섞어 마시는 베트남의 국민 아이스 커피.',
         '2. 박씨우 (Bạc xỉu): 커피의 쓴맛이 부담스러운 분을 위해 우유와 연유의 비율을 높이고 커피를 살짝 얹은 부드럽고 달콤한 라떼.',
         '3. 까페 쯩 (Cà phê trứng - 에그 커피): 신선한 계란 노른자와 연유를 크림처럼 쫀쫀하게 휘핑하여 진한 커피 위에 얹은 하노이 명물 디저트 커피.',
-        '4. 까페 무오이 (Cà phê muối - 소금 커피): 단짠의 황금 비율을 자랑하는 부드러운 쏠티드 크림을 얹은 중부 후에식 트렌디 커피.',
+        '4. 까페 무오이 (Cà phê muối - 소금 커피): 부드러운 쏠티드 크림을 얹은 베트남 중부 후에 지역 유래의 커피.',
       ],
       subheading: '주문 안내',
       subList: [
@@ -451,7 +450,7 @@ export function getKnowledgeGuideForBusiness(
       category: 'activities',
       eyebrow: 'Sunset Town Attractions & Sightseeing Guide',
       title: 'Experience Sunset Town Highlights',
-      introText: 'Insider tips for the world-record cable car, Kiss Bridge, and spectacular ocean night shows.',
+      introText: 'Guide to the Hon Thom cable car, Kiss Bridge, and ocean night shows.',
       sections: [
         CATEGORY_KNOWLEDGE_ENTRIES.cableCarAndIsland,
         CATEGORY_KNOWLEDGE_ENTRIES.kissBridgeAndShow,

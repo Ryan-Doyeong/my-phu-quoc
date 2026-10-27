@@ -242,7 +242,7 @@ export const FOOD_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = {
     en: {
       label: 'English · The Art of Vietnamese Phở',
       paragraphs: [
-        'Phở is Vietnam’s national treasure: a deeply comforting noodle soup crafted by simmering beef marrow bones or whole chicken for 8–12 hours with charred ginger, onions, star anise, and cinnamon.',
+        'Phở is Vietnam’s national treasure: a deeply comforting noodle soup crafted by simmering beef marrow bones or whole chicken with charred ginger, onions, star anise, and cinnamon.',
         'Northern (Hanoi) style focuses on a crystal-clear, subtly spiced savory broth accented with green scallions, whereas Southern style embraces fresh aromatic herbs, bean sprouts, lime, and hoisin-chili sauce.',
       ],
       list: [
@@ -737,9 +737,9 @@ export function enrichDishDescription(
   if (text.includes('phở bò') || text.includes('소고기 쌀국수') || text.includes('pho bo')) {
     return {
       descKo:
-        '사골과 양지를 천연 향신료(팔각, 계피, 생강)와 함께 10시간 이상 푹 고아낸 깊은 육수에 얇게 저민 소고기를 얹은 베트남 전통 쌀국수입니다.',
+        '사골과 양지를 천연 향신료(팔각, 계피, 생강)와 함께 오랜 시간 푹 고아낸 깊은 육수에 얇게 저민 소고기를 얹은 베트남 전통 쌀국수입니다.',
       descEn:
-        'Traditional flat rice noodle soup in an aromatic 10-hour beef bone broth topped with tender beef slices and herbs.',
+        'Traditional flat rice noodle soup in an aromatic simmered beef bone broth topped with tender beef slices and herbs.',
     }
   }
   if (text.includes('bún chả') || text.includes('분짜')) {
