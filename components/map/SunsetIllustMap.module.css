@@ -1,0 +1,621 @@
+/* SunsetIllustMap.module.css - Phase 2.1 Refined Styles */
+
+.mapContainer {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  background: #0b1120;
+  color: #f8fafc;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+  overflow: hidden;
+  border-radius: 0;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .mapContainer {
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* Header & Controls */
+.mapHeader {
+  background: #0f172a;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 10px 14px 8px;
+}
+
+@media (min-width: 768px) {
+  .mapHeader {
+    padding: 14px 20px 12px;
+  }
+}
+
+.headerTop {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  .headerTop {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+}
+
+.headerTitleGroup h2 {
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin: 0 0 2px;
+}
+
+@media (min-width: 768px) {
+  .headerTitleGroup h2 {
+    font-size: 20px;
+    margin: 0 0 4px;
+  }
+}
+
+.headerTitleGroup p {
+  font-size: 11px;
+  color: #94a3b8;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .headerTitleGroup p {
+    font-size: 13px;
+  }
+}
+
+/* 6-Language Selector - Full width bar on mobile to guarantee NO line breaks */
+.langBar {
+  display: flex;
+  width: 100%;
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+  padding: 2px;
+  gap: 2px;
+}
+
+@media (min-width: 768px) {
+  .langBar {
+    width: auto;
+    padding: 3px;
+    border-radius: 8px;
+  }
+}
+
+.langBtn {
+  flex: 1 1 0;
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 5px 2px;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: -0.2px;
+  transition: all 0.15s ease;
+}
+
+@media (min-width: 768px) {
+  .langBtn {
+    flex: initial;
+    padding: 5px 12px;
+    font-size: 12px;
+    border-radius: 6px;
+  }
+}
+
+.langBtn:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.langBtnActive {
+  background: #f59e0b !important;
+  color: #0b1120 !important;
+  font-weight: 800 !important;
+}
+
+/* Filter Row: 3 tabs on one single row with NO clipping */
+.filterRow {
+  display: flex;
+  width: 100%;
+  gap: 6px;
+  padding-bottom: 2px;
+}
+
+.filterBtn {
+  flex: 1 1 0;
+  background: #1e293b;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #94a3b8;
+  padding: 7px 6px;
+  border-radius: 9999px;
+  font-size: 11.5px;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  overflow: visible;
+  transition: all 0.15s ease;
+}
+
+.tabIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+@media (min-width: 768px) {
+  .filterBtn {
+    flex: initial;
+    padding: 8px 18px;
+    font-size: 13px;
+  }
+}
+
+.filterBtn:hover {
+  background: #334155;
+  color: #ffffff;
+}
+
+.filterBtnActive {
+  background: #f59e0b !important;
+  color: #0b1120 !important;
+  border-color: #f59e0b !important;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.35);
+}
+
+/* Map Viewport Area: 460px on mobile for bottom card peek */
+.mapViewport {
+  position: relative;
+  width: 100%;
+  height: 460px;
+  background: #060913;
+  overflow: hidden;
+  cursor: grab;
+  user-select: none;
+  touch-action: none;
+}
+
+@media (min-width: 768px) {
+  .mapViewport {
+    height: 540px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mapViewport {
+    height: 600px;
+  }
+}
+
+.mapViewport:active {
+  cursor: grabbing;
+}
+
+.mapCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 887px;
+  height: 1774px;
+  transform-origin: 0 0;
+  transition: transform 0.05s linear;
+  will-change: transform;
+}
+
+.mapBgImg {
+  width: 887px;
+  height: 1774px;
+  display: block;
+  pointer-events: none;
+}
+
+/* Block Cluster Markers */
+.blockMarker {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.markerBubble {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #f59e0b;
+  color: #0b1120;
+  font-size: 11px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.6), 0 0 0 2px rgba(255, 255, 255, 0.9);
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
+}
+
+.blockMarker:hover .markerBubble {
+  transform: scale(1.15);
+}
+
+.markerActive {
+  z-index: 25;
+}
+
+.markerActive .markerBubble {
+  width: 36px;
+  height: 36px;
+  font-size: 13px;
+  background: #f59e0b;
+  color: #0b1120;
+  box-shadow: 0 0 0 4px #ffffff, 0 0 15px #f59e0b, 0 0 25px rgba(245, 158, 11, 0.8) !important;
+  transform: scale(1.1);
+}
+
+/* Tooltip on Active Marker */
+.markerTooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-6px);
+  background: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(8px);
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+  pointer-events: none;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(245, 158, 11, 0.5);
+  z-index: 30;
+}
+
+.markerTooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(15, 23, 42, 0.95) transparent transparent transparent;
+}
+
+/* Map Controls (+ / - / Reset) */
+.mapControls {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  z-index: 20;
+}
+
+.ctrlBtn {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: rgba(15, 23, 42, 0.9);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #cbd5e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  transition: all 0.15s ease;
+}
+
+.ctrlBtn:hover {
+  background: #1e293b;
+  color: #ffffff;
+}
+
+/* Informational Notice Banner: Outside map viewport, allows 2-line wrap on narrow screens */
+.noticeBar {
+  background: #0b1120;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 6px 12px;
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  overflow: hidden;
+  font-size: 10.5px;
+  color: #cbd5e1;
+}
+
+.noticeTag {
+  background: rgba(245, 158, 11, 0.15);
+  color: #f59e0b;
+  padding: 1.5px 5px;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 9.5px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.noticeText {
+  white-space: normal;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #cbd5e1;
+  font-size: 10.5px;
+  flex: 1 1 0;
+}
+
+/* Bottom Cards Panel */
+.bottomPanel {
+  background: #0f172a;
+  padding: 12px 14px 16px;
+}
+
+@media (min-width: 768px) {
+  .bottomPanel {
+    padding: 16px 20px 20px;
+  }
+}
+
+.panelHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.panelTitle {
+  font-size: 13.5px;
+  font-weight: 800;
+  color: #e2e8f0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.seeAllBtn {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #94a3b8;
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.seeAllBtn:hover {
+  background: #1e293b;
+  color: #ffffff;
+}
+
+/* Cards Slider */
+.cardsSlider {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.cardsSlider::-webkit-scrollbar {
+  height: 4px;
+}
+
+.cardsSlider::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+
+.venueCard {
+  flex: 0 0 250px;
+  background: #1e293b;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  scroll-snap-align: start;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.venueCard:hover {
+  transform: translateY(-2px);
+  border-color: rgba(245, 158, 11, 0.4);
+}
+
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.cardTitle {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #f1f5f9;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.cardBadge {
+  font-size: 9.5px;
+  font-weight: 700;
+  padding: 1.5px 5px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+.badgeDining {
+  background: rgba(245, 158, 11, 0.15);
+  color: #f59e0b;
+}
+
+.badgeBars {
+  background: rgba(168, 85, 247, 0.15);
+  color: #c084fc;
+}
+
+.cardBlockTag {
+  font-size: 10.5px;
+  color: #38bdf8;
+  margin-bottom: 3px;
+}
+
+.cardAddr {
+  font-size: 9.5px;
+  color: #64748b;
+  line-height: 1.3;
+  margin-bottom: 4px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.cardWalkTime {
+  font-size: 10px;
+  color: #10b981;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-bottom: 6px;
+}
+
+.cardBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  padding-top: 6px;
+}
+
+.cardLevelBadge {
+  font-size: 9px;
+  padding: 1px 4px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.levelExact {
+  background: rgba(16, 185, 129, 0.15);
+  color: #34d399;
+}
+
+.levelEst {
+  background: rgba(148, 163, 184, 0.15);
+  color: #94a3b8;
+}
+
+.cardBtn {
+  font-size: 10.5px;
+  color: #f59e0b;
+  font-weight: 700;
+}
+
+/* Outside Venues Accordion */
+.outsideSection {
+  margin-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 10px;
+}
+
+.outsideToggle {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 6px;
+  padding: 8px 12px;
+  color: #94a3b8;
+  font-size: 11.5px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.outsideToggle:hover {
+  background: rgba(255, 255, 255, 0.06);
+  color: #f8fafc;
+}
+
+.outsideContent {
+  display: none;
+  margin-top: 8px;
+  gap: 8px;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+}
+
+.outsideOpen {
+  display: grid;
+}
+
+.outsideCard {
+  background: #1e293b;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 6px;
+  padding: 8px 10px;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+.outsideCard:hover {
+  border-color: rgba(245, 158, 11, 0.4);
+}
