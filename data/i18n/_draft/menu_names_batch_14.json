@@ -1,0 +1,602 @@
+[
+  {
+    "name_original": "Prosciutto Crudo o Cotto",
+    "name_ko": "프로슈토 (생햄 또는 익힌 햄)",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Prosciutto (Cured Ham or Cooked Ham)",
+    "name_zh": "意式火腿（生火腿或熟火腿）",
+    "name_ru": "Прошутто (сыровяленая или вареная ветчина)",
+    "name_ja": "プロシュート（生ハムまたは加熱ハム）",
+    "name_hi": "प्रोसियुत्तो (कच्चा हैम या पका हुआ हैम)"
+  },
+  {
+    "name_original": "Gorgonzola or Parmesan",
+    "name_ko": "고르곤졸라 또는 파르메산 치즈",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Gorgonzola or Parmesan Cheese",
+    "name_zh": "戈贡佐拉芝士或帕马森芝士",
+    "name_ru": "Сыр горгонзола или пармезан",
+    "name_ja": "ゴルゴンゾーラまたはパルミジャーノチーズ",
+    "name_hi": "गोर्गोनजोला या परमेसन चीज"
+  },
+  {
+    "name_original": "Mushroom & Sweetcorn",
+    "name_ko": "버섯 & 스위트콘",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Mushroom & Sweet Corn",
+    "name_zh": "蘑菇与甜玉米",
+    "name_ru": "Грибы и сладкая кукуруза",
+    "name_ja": "マッシュルーム＆スイートコーン",
+    "name_hi": "मशरूम और स्वीटकॉर्न"
+  },
+  {
+    "name_original": "Risotto ai Frutti di Mare",
+    "name_ko": "해산물 리소토",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Seafood Risotto",
+    "name_zh": "海鲜意大利烩饭",
+    "name_ru": "Ризотто с морепродуктами",
+    "name_ja": "海鮮のリゾット",
+    "name_hi": "सीफूड रिसोट्टो"
+  },
+  {
+    "name_original": "Risotto Bianco",
+    "name_ko": "리소토 비앙코 (화이트 리소토)",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "White Risotto (Risotto Bianco)",
+    "name_zh": "意式白汁烩饭",
+    "name_ru": "Белое ризотто (ризотто бьянко)",
+    "name_ja": "白のリゾット（リゾット・ビアンコ）",
+    "name_hi": "व्हाइट रिसोट्टो (रिसोट्टो बियानको)"
+  },
+  {
+    "name_original": "Risotto Mushroom",
+    "name_ko": "버섯 리소토",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Mushroom Risotto",
+    "name_zh": "蘑菇意大利烩饭",
+    "name_ru": "Ризотто с грибами",
+    "name_ja": "キノコのリゾット",
+    "name_hi": "मशरूम रिसोट्टो"
+  },
+  {
+    "name_original": "Spaghetti Tomato & Herbs",
+    "name_ko": "토마토 허브 스파게티",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Tomato and Herb Spaghetti",
+    "name_zh": "番茄香草意面",
+    "name_ru": "Спагетти с томатами и травами",
+    "name_ja": "トマトとハーブのスパゲッティ",
+    "name_hi": "टमाटर और हर्ब स्पेगेटी"
+  },
+  {
+    "name_original": "Spaghetti Aglio e Olio",
+    "name_ko": "알리오 올리오 스파게티",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Spaghetti Aglio e Olio",
+    "name_zh": "蒜香橄榄油意面",
+    "name_ru": "Спагетти алио и олио",
+    "name_ja": "スパゲッティ・アーリオ・オーリオ",
+    "name_hi": "स्पेगेटी अलियो ई ओलियो"
+  },
+  {
+    "name_original": "Spaghetti alla Carbonara",
+    "name_ko": "카르보나라 스파게티",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Spaghetti Carbonara",
+    "name_zh": "卡邦尼培根蛋面",
+    "name_ru": "Спагетти карбонара",
+    "name_ja": "カルボナーラスパゲッティ",
+    "name_hi": "स्पेगेटी कारबोनारा"
+  },
+  {
+    "name_original": "Spaghetti con Gamberetti e Zucchine",
+    "name_ko": "새우 주키니 스파게티",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Spaghetti with Shrimp and Zucchini",
+    "name_zh": "鲜虾西葫芦意面",
+    "name_ru": "Спагетти с креветками и цукини",
+    "name_ja": "エビとズッキーニのスパゲッティ",
+    "name_hi": "झींगा और तोरी के साथ स्पेगेटी"
+  },
+  {
+    "name_original": "Spaghetti ai Frutti di Mare",
+    "name_ko": "해산물 스파게티",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Seafood Spaghetti",
+    "name_zh": "海鲜意大利面",
+    "name_ru": "Спагетти с морепродуктами",
+    "name_ja": "海の幸のスパゲッティ",
+    "name_hi": "सीफूड स्पेगेटी"
+  },
+  {
+    "name_original": "Tagliatelle ai Quattro Formaggi",
+    "name_ko": "4가지 치즈 탈리아텔레",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Four Cheese Tagliatelle",
+    "name_zh": "四种芝士意大利宽面",
+    "name_ru": "Тальятелле с четырьмя сырами",
+    "name_ja": "4種チーズのタリアテッレ",
+    "name_hi": "फोर चीज टैलियाटेले"
+  },
+  {
+    "name_original": "Tagliatelle Prosciutto e Funghi",
+    "name_ko": "프로슈토 버섯 탈리아텔레",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Tagliatelle with Prosciutto and Mushrooms",
+    "name_zh": "火腿蘑菇意大利宽面",
+    "name_ru": "Тальятелле с прошутто и грибами",
+    "name_ja": "プロシュートとキノコのタリアテッレ",
+    "name_hi": "प्रोसियुत्तो और मशरूम टैलियाटेले"
+  },
+  {
+    "name_original": "Spaghetti alla Bolognese",
+    "name_ko": "볼로네제 스파게티",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Spaghetti Bolognese",
+    "name_zh": "肉酱意面",
+    "name_ru": "Спагетти болоньезе",
+    "name_ja": "ボロネーゼスパゲッティ",
+    "name_hi": "स्पेगेटी बोलोग्नीज"
+  },
+  {
+    "name_original": "Grilled Tuna Steak",
+    "name_ko": "참치 스테이크",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Grilled Tuna Steak",
+    "name_zh": "香煎金枪鱼排",
+    "name_ru": "Стейк из тунца на гриле",
+    "name_ja": "マグロのグリルステーキ",
+    "name_hi": "ग्रिल्ड टूना स्टेक"
+  },
+  {
+    "name_original": "Tonno in Crosta di Pistacchi",
+    "name_ko": "피스타치오 크러스트 참치",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Pistachio Crusted Tuna",
+    "name_zh": "开心果碎裹金枪鱼",
+    "name_ru": "Тунец в фисташковой корочке",
+    "name_ja": "ピスタチオ衣のマグロステーキ",
+    "name_hi": "पिस्ता क्रस्टेड टूना"
+  },
+  {
+    "name_original": "Tuna Avocado Tartare",
+    "name_ko": "참치 아보카도 타르타르",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Tuna and Avocado Tartare",
+    "name_zh": "金枪鱼鳄梨塔塔",
+    "name_ru": "Тартар из тунца и авокадо",
+    "name_ja": "マグロとアボカドのタルタル",
+    "name_hi": "टूना एवोकाडो टार्टार"
+  },
+  {
+    "name_original": "Tiramisu",
+    "name_ko": "티라미수",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Tiramisu",
+    "name_zh": "提拉米苏",
+    "name_ru": "Тирамису",
+    "name_ja": "ティラミス",
+    "name_hi": "तिरामिसू"
+  },
+  {
+    "name_original": "Mango Mousse",
+    "name_ko": "망고 무스",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Mango Mousse",
+    "name_zh": "芒果慕斯",
+    "name_ru": "Манговый мусс",
+    "name_ja": "マンゴームース",
+    "name_hi": "मैंगो मूस"
+  },
+  {
+    "name_original": "Sbrisolona",
+    "name_ko": "즈브리졸로나 (헤이즐넛·아몬드 크럼블 케이크)",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Sbrisolona (Almond Crumb Cake)",
+    "name_zh": "斯布里索洛纳杏仁脆碎蛋糕",
+    "name_ru": "Сбризолона (миндальный песочный пирог)",
+    "name_ja": "ズブリゾローナ（アーモンドクランブルケーキ）",
+    "name_hi": "स्ब्रिजोलोना (बादाम क्रम्बल केक)"
+  },
+  {
+    "name_original": "Greek Salad (Choriatiki Salata)",
+    "name_ko": "그릭 샐러드 (호리아티키 살라타)",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Traditional Greek Salad (Horiatiki)",
+    "name_zh": "希腊传统沙拉",
+    "name_ru": "Греческий салат (Хориатики)",
+    "name_ja": "グリークサラダ（ホリアティキ）",
+    "name_hi": "पारंपरिक ग्रीक सलाद (होरियाटिकी)"
+  },
+  {
+    "name_original": "Mediterranean Salad (Mesogeiaki Salata)",
+    "name_ko": "지중해 샐러드 (메소기아키 살라타)",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Mediterranean Salad",
+    "name_zh": "地中海风味沙拉",
+    "name_ru": "Средиземноморский салат",
+    "name_ja": "地中海風サラダ",
+    "name_hi": "मेडिटेरेनियन सलाद"
+  },
+  {
+    "name_original": "Greek Hummus Dip",
+    "name_ko": "그릭 후무스 딥",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Greek Hummus Dip",
+    "name_zh": "希腊鹰嘴豆泥蘸酱",
+    "name_ru": "Греческий хумус-дип",
+    "name_ja": "ギリシャ風フムスディップ",
+    "name_hi": "ग्रीक हम्मस डिप"
+  },
+  {
+    "name_original": "Greek Eggplant Dip (Melitzanosalata)",
+    "name_ko": "그릭 가지 딥 (멜리찬살라타)",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Greek Eggplant Dip (Melitzanosalata)",
+    "name_zh": "希腊烤茄子酱",
+    "name_ru": "Греческий дип из баклажанов (мелидзаносалата)",
+    "name_ja": "ギリシャ風焼きナスディップ（メリツァノサラタ）",
+    "name_hi": "ग्रीक बैंगन डिप (मेलित्जानोसालाता)"
+  },
+  {
+    "name_original": "Tzatziki",
+    "name_ko": "차지키 (요거트 오이 딥)",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Tzatziki (Greek Yogurt Cucumber Dip)",
+    "name_zh": "希腊黄瓜酸奶酱",
+    "name_ru": "Дзадзики (дип из йогурта и огурца)",
+    "name_ja": "ザジキ（ヨーグルトときゅうりのディップ）",
+    "name_hi": "त्सात्सिकी (दही और खीरे का डिप)"
+  },
+  {
+    "name_original": "Keftedes Greek Meatballs",
+    "name_ko": "케프테데스 (그리스식 미트볼)",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Greek Meatballs (Keftedes)",
+    "name_zh": "希腊肉丸",
+    "name_ru": "Греческие фрикадельки (кефтедес)",
+    "name_ja": "ギリシャ風ミートボール（ケフテデス）",
+    "name_hi": "ग्रीक मीटबॉल्स (केफ्तेदेस)"
+  },
+  {
+    "name_original": "Crispy Deep-Fried Zucchini (Tiganita Kolokythakia)",
+    "name_ko": "주키니 튀김 (티가니타 콜로키타키아)",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Crispy Fried Zucchini",
+    "name_zh": "香脆炸西葫芦片",
+    "name_ru": "Хрустящие жареные цукини",
+    "name_ja": "ズッキーニのクリスピーフライ",
+    "name_hi": "कुरकुरी तली हुई तोरी"
+  },
+  {
+    "name_original": "Stuffed Mushrooms Feta & Fresh Herbs (Manitaria me Feta kai Freska Myrodika)",
+    "name_ko": "페타 치즈 허브 버섯구이",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Stuffed Mushrooms with Feta Cheese and Fresh Herbs",
+    "name_zh": "菲达芝士香草酿烤蘑菇",
+    "name_ru": "Фаршированные грибы с сыром фета и зеленью",
+    "name_ja": "フェタチーズとハーブのキノコ詰め焼き",
+    "name_hi": "फेटा चीज और जड़ी-बूटियों से भरे मशरूम"
+  },
+  {
+    "name_original": "Souvlaki - Chicken/Pork",
+    "name_ko": "수블라키 (닭고기/돼지고기 꼬치)",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Souvlaki Skewers (Chicken or Pork)",
+    "name_zh": "希腊烤肉串（鸡肉 / 猪肉）",
+    "name_ru": "Сувлаки на шпажках (курица или свинина)",
+    "name_ja": "スブラキ串焼き（チキンまたはポーク）",
+    "name_hi": "सूवलाकी कटार (चिकन या पोर्क)"
+  },
+  {
+    "name_original": "Souvlaki - Lamb",
+    "name_ko": "수블라키 (양고기 꼬치)",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Lamb Souvlaki Skewers",
+    "name_zh": "希腊羊肉烤串",
+    "name_ru": "Сувлаки из ягненка на шпажках",
+    "name_ja": "ラム肉のスブラキ串焼き",
+    "name_hi": "लैम्ब सूवलाकी कटार"
+  },
+  {
+    "name_original": "Gyros Plate (Piato Gyrou) - Chicken/Pork",
+    "name_ko": "기로스 플레이트 (닭고기/돼지고기)",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Gyros Platter (Chicken or Pork)",
+    "name_zh": "希腊旋烤肉拼盘（鸡肉 / 猪肉）",
+    "name_ru": "Тарелка гирос (курица или свинина)",
+    "name_ja": "ギロピタ・プレート（チキンまたはポーク）",
+    "name_hi": "गाइरोस थाली (चिकन या पोर्क)"
+  },
+  {
+    "name_original": "Gyros Plate (Piato Gyrou) - Lamb",
+    "name_ko": "기로스 플레이트 (양고기)",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Lamb Gyros Platter",
+    "name_zh": "希腊旋烤羊肉拼盘",
+    "name_ru": "Тарелка гирос с ягненком",
+    "name_ja": "ラム肉のギロピタ・プレート",
+    "name_hi": "लैम्ब गाइरोस थाली"
+  },
+  {
+    "name_original": "Greek-Style Grilled Lamb Chops (Ellinika Psita Paidakia)",
+    "name_ko": "그리스식 양갈비 구이",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Greek-Style Grilled Lamb Chops",
+    "name_zh": "希腊风味炭烤羊排",
+    "name_ru": "Бараньи ребрышки на гриле по-гречески",
+    "name_ja": "ギリシャ風ラムチョップのグリル",
+    "name_hi": "ग्रीक स्टाइल ग्रिल्ड लैम्ब चॉप्स"
+  },
+  {
+    "name_original": "Grilled Pork Sausage Plate (Piato Psiton Choriatikon Loukanikon)",
+    "name_ko": "돼지고기 소시지 구이 플레이트",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Grilled Greek Pork Sausage Platter",
+    "name_zh": "希腊风味香烤猪肉肠拼盘",
+    "name_ru": "Тарелка жареных свиных колбасок по-гречески",
+    "name_ja": "ギリシャ風ポークソーセージグリルの盛り合わせ",
+    "name_hi": "ग्रिल्ड ग्रीक पोर्क सॉसेज थाली"
+  },
+  {
+    "name_original": "Greek Style Beef T-Bone Black Angus",
+    "name_ko": "그리스식 블랙앵거스 티본 스테이크",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Greek-Style Black Angus Beef T-Bone Steak",
+    "name_zh": "希腊风味黑安格斯丁骨牛排",
+    "name_ru": "Стейк ти-бон из говядины блэк ангус по-гречески",
+    "name_ja": "ギリシャ風ブラックアンガス牛Tボーンステーキ",
+    "name_hi": "ग्रीक स्टाइल ब्लैक एंगस बीफ टी-बोन स्टेक"
+  },
+  {
+    "name_original": "Old-Fashioned Greek Burgers (Palies Ellinikes Mperger)",
+    "name_ko": "옛날식 그리스 버거 (패티 플레이트)",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Traditional Greek Burger Patties",
+    "name_zh": "传统希腊风味牛肉肉饼拼盘",
+    "name_ru": "Традиционные греческие бургер-котлеты",
+    "name_ja": "伝統ギリシャ風ハンバーグパティ・プレート",
+    "name_hi": "पारंपरिक ग्रीक बर्गर पैटी थाली"
+  },
+  {
+    "name_original": "Mussels Saganaki (Saganaki Mydia)",
+    "name_ko": "홍합 사가나키 (토마토 페타 홍합찜)",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Mussels Saganaki (with Tomato & Feta Cheese)",
+    "name_zh": "萨加纳基青口贝（番茄菲达芝士焖贻贝）",
+    "name_ru": "Мидии саганаки (в томатном соусе с сыром фета)",
+    "name_ja": "ムール貝のサガナキ（トマトとフェタチーズの煮込み）",
+    "name_hi": "मसल्स सगानाकी (टमाटर और फेटा चीज के साथ)"
+  },
+  {
+    "name_original": "Stuffed Calamari with Feta Cheese (Gemista Kalamaria me Feta)",
+    "name_ko": "페타 치즈 오징어순대",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Grilled Calamari Stuffed with Feta Cheese",
+    "name_zh": "菲达芝士酿烤鱿鱼筒",
+    "name_ru": "Кальмары, фаршированные сыром фета",
+    "name_ja": "フェタチーズを詰めたイカのグリル",
+    "name_hi": "फेटा चीज से भरा ग्रिल्ड कैलामारी"
+  },
+  {
+    "name_original": "Shrimp Saganaki (Saganaki Garidas)",
+    "name_ko": "새우 사가나키 (토마토 페타 새우찜)",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Shrimp Saganaki (with Tomato & Feta Cheese)",
+    "name_zh": "萨加纳基鲜虾（番茄菲达芝士焖虾）",
+    "name_ru": "Креветки саганаки (в томатном соусе с сыром фета)",
+    "name_ja": "エビのサガナキ（トマトとフェタチーズの煮込み）",
+    "name_hi": "झींगा सगानाकी (टमाटर और फेटा चीज के साथ)"
+  },
+  {
+    "name_original": "Greek Seafood Platter (Thalassinos Diskos) - Prawn, Calamari, Baby Octopus",
+    "name_ko": "그리스식 해산물 플래터 (새우·오징어·주꾸미)",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Greek Seafood Platter (Prawns, Calamari, Baby Octopus)",
+    "name_zh": "希腊风味海鲜大拼盘（大虾、鱿鱼、小章鱼）",
+    "name_ru": "Греческое морское плато (креветки, кальмары, молодые осьминоги)",
+    "name_ja": "ギリシャ風シーフード盛り合わせ（エビ、イカ、イイダコ）",
+    "name_hi": "ग्रीक सीफूड थाली (झींगा, कैलामारी, बेबी ऑक्टोपस)"
+  },
+  {
+    "name_original": "Crispy Deep-Fried Calamari (Piato Traganon Tiganiton Kalamarion)",
+    "name_ko": "오징어 튀김",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Crispy Fried Calamari",
+    "name_zh": "酥脆炸鱿鱼圈",
+    "name_ru": "Хрустящие жареные кальмары",
+    "name_ja": "クリスピーカラマリフライ",
+    "name_hi": "कुरकुरी तली हुई कैलामारी"
+  },
+  {
+    "name_original": "Crispy Deep-Fried Shrimp (Piato Traganon Tiganiton Garidon)",
+    "name_ko": "새우 튀김",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Crispy Fried Shrimp",
+    "name_zh": "香脆炸虾",
+    "name_ru": "Хрустящие жареные креветки",
+    "name_ja": "クリスピーエビフライ",
+    "name_hi": "कुरकुरे तले हुए झींगे"
+  },
+  {
+    "name_original": "Grilled Mango with Greek Yogurt, Honey & Almonds",
+    "name_ko": "그릭요거트·꿀·아몬드를 곁들인 구운 망고",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Grilled Mango with Greek Yogurt, Honey and Almonds",
+    "name_zh": "烤芒果配希腊酸奶、蜂蜜与杏仁",
+    "name_ru": "Запеченное манго с греческим йогуртом, медом и миндалем",
+    "name_ja": "焼きマンゴーのギリシャヨーグルト・ハチミツ・アーモンド添え",
+    "name_hi": "ग्रीक योगर्ट, शहद और बादाम के साथ ग्रिल्ड मैंगो"
+  },
+  {
+    "name_original": "Chocolate Baklava with Coffee Syrup",
+    "name_ko": "커피 시럽 초콜릿 바클라바",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Chocolate Baklava with Coffee Syrup",
+    "name_zh": "咖啡糖浆巧克力果仁蜜饼",
+    "name_ru": "Шоколадная пахлава с кофейным сиропом",
+    "name_ja": "コーヒーシロップ添え チョコレート・バクラヴァ",
+    "name_hi": "कॉफी सिरप के साथ चॉकलेट बकलावा"
+  },
+  {
+    "name_original": "Baklava Strudel with Orange Syrup",
+    "name_ko": "오렌지 시럽 바클라바 슈트루델",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Baklava Strudel with Orange Syrup",
+    "name_zh": "香橙糖浆果仁蜜饼卷",
+    "name_ru": "Штрудель-пахлава с апельсиновым сиропом",
+    "name_ja": "オレンジシロップ添え バクラヴァ・シュトゥルーデル",
+    "name_hi": "ऑरेंज सिरप के साथ बकलावा स्ट्रूडल"
+  },
+  {
+    "name_original": "French Fries",
+    "name_ko": "감자튀김",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "French Fries",
+    "name_zh": "炸薯条",
+    "name_ru": "Картофель фри",
+    "name_ja": "フライドポテト",
+    "name_hi": "फ्रेंच फ्राइज"
+  },
+  {
+    "name_original": "Wedges Potatoes",
+    "name_ko": "웨지 감자",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Potato Wedges",
+    "name_zh": "炸薯角",
+    "name_ru": "Картофельные дольки",
+    "name_ja": "ウェッジポテト",
+    "name_hi": "पोटैटो वेजेस"
+  },
+  {
+    "name_original": "Mixed Vegetable Salad",
+    "name_ko": "모둠 채소 샐러드",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Mixed Vegetable Salad",
+    "name_zh": "田园混合蔬菜沙拉",
+    "name_ru": "Салат из свежих овощей",
+    "name_ja": "ミックス野菜サラダ",
+    "name_hi": "मिक्स्ड वेजीटेबल सलाद"
+  },
+  {
+    "name_original": "Extra Herb Tomato Sauce",
+    "name_ko": "허브 토마토소스 추가",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Extra Herb Tomato Sauce",
+    "name_zh": "额外香草番茄酱",
+    "name_ru": "Дополнительный томатный соус с травами",
+    "name_ja": "追加ハーブトマトソース",
+    "name_hi": "अतिरिक्त हर्ब टोमैटो सॉस"
+  },
+  {
+    "name_original": "Extra Pita",
+    "name_ko": "피타빵 추가",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Extra Pita Bread",
+    "name_zh": "额外皮塔饼",
+    "name_ru": "Дополнительная пита",
+    "name_ja": "追加ピタパン",
+    "name_hi": "अतिरिक्त पीटा ब्रेड"
+  }
+]

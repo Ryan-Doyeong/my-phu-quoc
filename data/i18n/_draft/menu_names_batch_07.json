@@ -1,0 +1,602 @@
+[
+  {
+    "name_original": "Lotus Leaf Sticky Rice with Chicken",
+    "name_ko": "연잎 닭고기 찹쌀밥 (로마이까이)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Steamed Glutinous Rice with Chicken in Lotus Leaf (Lo Mai Gai)",
+    "name_zh": "糯米鸡 (荷叶糯米鸡)",
+    "name_ru": "Клейкий рис с курицей в лотосовых листьях (Ло Май Гай)",
+    "name_ja": "蓮の葉包みチキンおこわ (糯米鶏)",
+    "name_hi": "कमल के पत्ते में चिकन स्टिकी राइस (लो माई गाई)"
+  },
+  {
+    "name_original": "Prawn Toast with XO Sauce",
+    "name_ko": "XO소스 새우 토스트",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Crispy Prawn Toast with XO Sauce",
+    "name_zh": "XO酱虾多士",
+    "name_ru": "Хрустящие тосты с креветками и соусом XO",
+    "name_ja": "海老トースト XO醤添え",
+    "name_hi": "एक्सओ सॉस के साथ क्रिस्पी प्रॉन टोस्ट"
+  },
+  {
+    "name_original": "Sichuan Mala Braised Beef Shank",
+    "name_ko": "쓰촨 마라 소고기 사태 조림",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Braised Beef Shank in Sichuan Mala Sauce",
+    "name_zh": "四川麻辣卤牛腱",
+    "name_ru": "Тушеная говяжья голяшка в соусе сычуань мала",
+    "name_ja": "四川麻辣牛スネ肉の煮込み",
+    "name_hi": "सिचुआन माला ब्रेज़्ड बीफ़ शैंक"
+  },
+  {
+    "name_original": "Chilled French Beans with Sesame Sauce",
+    "name_ko": "참깨소스 껍질콩 냉채",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Chilled French Green Beans with Sesame Sauce",
+    "name_zh": "麻酱冰镇四季豆",
+    "name_ru": "Охлажденная стручковая фасоль под кунжутным соусом",
+    "name_ja": "インゲン豆の冷製胡麻ソース和え",
+    "name_hi": "तिल की चटनी के साथ चिल्ड फ्रेंच बीन्स"
+  },
+  {
+    "name_original": "Chilled Marinated Jelly Fish",
+    "name_ko": "해파리 냉채",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Chilled Marinated Jellyfish Salad",
+    "name_zh": "凉拌海蜇皮",
+    "name_ru": "Маринованные медузы по-китайски",
+    "name_ja": "中華風クラゲの冷菜",
+    "name_hi": "चिल्ड मैरीनेटेड जेलीफ़िश सलाद"
+  },
+  {
+    "name_original": "Century Egg with Ginger-Scallion Dressing",
+    "name_ko": "생강·파 드레싱 피단",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Century Egg with Ginger & Scallion Dressing",
+    "name_zh": "姜葱拌皮蛋",
+    "name_ru": "Столетние яйца под имбирно-луковой заправкой",
+    "name_ja": "ピータンの生姜葱ソース和え",
+    "name_hi": "अदरक-हरी प्याज ड्रेसिंग के साथ सेंचुरी एग"
+  },
+  {
+    "name_original": "Braised Chicken Soup with Morel Mushrooms & Cabbage (per person)",
+    "name_ko": "곰보버섯 배추 닭고기 수프 (1인)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Braised Chicken Soup with Morel Mushrooms & Chinese Cabbage (per person)",
+    "name_zh": "羊肚菌白菜炖鸡汤 (位)",
+    "name_ru": "Куриный суп со сморчками и пекинской капустой (порционный)",
+    "name_ja": "アミガサ茸と白菜の極上チキンスープ (1名分)",
+    "name_hi": "मोरेल मशरूम और पत्तागोभी के साथ चिकन सूप (प्रति व्यक्ति)"
+  },
+  {
+    "name_original": "Hokkaido Scallop Hot & Sour Soup (per person)",
+    "name_ko": "홋카이도 관자 산라탕 (1인)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Hokkaido Scallop Hot & Sour Soup (per person)",
+    "name_zh": "北海道带子酸辣汤 (位)",
+    "name_ru": "Кисло-острый суп с морским гребешком с Хоккайдо (порционный)",
+    "name_ja": "北海道産ホタテの酸辣湯 (1名分)",
+    "name_hi": "होक्काइडो स्कैलप हॉट एंड सॉर सूप (प्रति व्यक्ति)"
+  },
+  {
+    "name_original": "Wok-Fried Typhoon Shelter-Style Tiger Prawn (3 pieces)",
+    "name_ko": "타이푼 셸터식 타이거새우 볶음 (3마리, 마늘 크럼블)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Wok-Fried Typhoon Shelter Tiger Prawns with Crispy Garlic (3 pcs)",
+    "name_zh": "避风塘炒大虎虾 (3只)",
+    "name_ru": "Тигровые креветки вок в стиле «Тайфун Шелтер» с чесночным кранчем (3 шт.)",
+    "name_ja": "避風塘風タイガー海老のガーリック炒め (3尾)",
+    "name_hi": "टाइफून शेल्टर-स्टाइल वोक-फ्राइड टाइगर प्रॉन्स (3 पीस)"
+  },
+  {
+    "name_original": "Steamed Tofu with Japanese Scallops in Black Bean Sauce (3 pieces)",
+    "name_ko": "흑두소스 일본 관자 두부찜 (3개)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Steamed Tofu with Japanese Scallops in Black Bean Sauce (3 pcs)",
+    "name_zh": "豉汁日本带子蒸豆腐 (3件)",
+    "name_ru": "Паровой тофу с японским гребешком в соусе из черных бобов (3 шт.)",
+    "name_ja": "日本産ホタテと豆腐の豆豉蒸し (3個)",
+    "name_hi": "ब्लैक बीन सॉस में जापानी स्कैलप्स के साथ स्टीम्ड टोफू (3 पीस)"
+  },
+  {
+    "name_original": "Stir-Fried Beef with 3 Types of Onion",
+    "name_ko": "소고기 3가지 파 볶음",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Stir-Fried Beef with Three Kinds of Onions",
+    "name_zh": "葱爆三葱牛肉",
+    "name_ru": "Говядина вок с тремя видами лука",
+    "name_ja": "牛肉と3種葱の強火炒め",
+    "name_hi": "तीन प्रकार के प्याज के साथ वोक-फ्राइड बीफ़"
+  },
+  {
+    "name_original": "Typhoon Shelter-Style New Zealand Lamb Chops (3 pieces)",
+    "name_ko": "타이푼 셸터식 뉴질랜드 양갈비 (3대)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Typhoon Shelter New Zealand Lamb Chops (3 pcs)",
+    "name_zh": "避风塘新西兰羊排 (3件)",
+    "name_ru": "Бараньи ребрышки из Новой Зеландии в стиле «Тайфун Шелтер» (3 шт.)",
+    "name_ja": "避風塘風ニュージーランド産ラムチョップ (3本)",
+    "name_hi": "टाइफून शेल्टर-स्टाइल न्यूजीलैंड लैम्ब चॉप्स (3 पीस)"
+  },
+  {
+    "name_original": "Sweet & Sour Sauce Crispy Pork Fillet with Pineapple & Bell Pepper",
+    "name_ko": "파인애플·피망 탕수육",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Sweet & Sour Crispy Pork with Pineapple & Bell Pepper",
+    "name_zh": "菠萝咕噜肉",
+    "name_ru": "Хрустящая свинина в кисло-сладком соусе с ананасом и сладким перцем",
+    "name_ja": "パイナップルとパプリカの特製酢豚",
+    "name_hi": "अनानास और शिमला मिर्च के साथ स्वीट एंड सॉर क्रिस्पी पोर्क"
+  },
+  {
+    "name_original": "Marinated Chicken with Salt, Spices and Minced Spring Onion (quarter)",
+    "name_ko": "광동식 소금 닭과 다진 파 (1/4마리)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Cantonese Salt-Baked Chicken with Minced Scallions (Quarter)",
+    "name_zh": "广式葱油盐焗鸡 (四分之一只)",
+    "name_ru": "Курица по-кантонски с зеленым луком и солью (четверть)",
+    "name_ja": "広東風塩蒸し鶏の葱油ソース添え (1/4羽)",
+    "name_hi": "कैंटोनीज़ नमक और हरी प्याज वाली चिकन (एक चौथाई)"
+  },
+  {
+    "name_original": "Marinated Chicken with Salt, Spices and Minced Spring Onion (half)",
+    "name_ko": "광동식 소금 닭과 다진 파 (반 마리)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Cantonese Salt-Baked Chicken with Minced Scallions (Half)",
+    "name_zh": "广式葱油盐焗鸡 (半只)",
+    "name_ru": "Курица по-кантонски с зеленым луком и солью (половина)",
+    "name_ja": "広東風塩蒸し鶏の葱油ソース添え (半羽)",
+    "name_hi": "कैंटोनीज़ नमक और हरी प्याज वाली चिकन (आधा)"
+  },
+  {
+    "name_original": "Crispy Roasted Pork Belly",
+    "name_ko": "바삭한 통삼겹 구이 (시우육)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Crispy Roasted Pork Belly (Siu Yuk)",
+    "name_zh": "脆皮烧肉 (烧腩仔)",
+    "name_ru": "Хрустящая жареная свиная грудинка по-кантонски (Сиу Юк)",
+    "name_ja": "広東風クリスピーローストポーク (脆皮焼肉)",
+    "name_hi": "क्रिस्पी रोस्टेड पोर्क बेली (सिउ युक)"
+  },
+  {
+    "name_original": "Honey-Glazed Char Siu Pork Belly",
+    "name_ko": "꿀 차슈 삼겹살",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Honey-Glazed Char Siu Pork Belly",
+    "name_zh": "蜜汁叉烧腩肉",
+    "name_ru": "Свиная грудинка барбекю чар сиу в медовой глазури",
+    "name_ja": "蜜汁チャーシュー豚バラ肉",
+    "name_hi": "हनी-ग्लेज़्ड चार सिउ पोर्क बेली"
+  },
+  {
+    "name_original": "Cantonese-Style Sesame Grilled Chicken (quarter)",
+    "name_ko": "광동식 참깨 닭구이 (1/4마리)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Cantonese Roasted Sesame Chicken (Quarter)",
+    "name_zh": "广式芝麻脆皮鸡 (四分之一只)",
+    "name_ru": "Жареная курица с кунжутом по-кантонски (четверть)",
+    "name_ja": "広東風胡麻風味のローストチキン (1/4羽)",
+    "name_hi": "कैंटोनीज़-स्टाइल तिल भुना चिकन (एक चौथाई)"
+  },
+  {
+    "name_original": "Cantonese-Style Sesame Grilled Chicken (half)",
+    "name_ko": "광동식 참깨 닭구이 (반 마리)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Cantonese Roasted Sesame Chicken (Half)",
+    "name_zh": "广式芝麻脆皮鸡 (半只)",
+    "name_ru": "Жареная курица с кунжутом по-кантонски (половина)",
+    "name_ja": "広東風胡麻風味のローストチキン (半羽)",
+    "name_hi": "कैंटोनीज़-स्टाइल तिल भुना चिकन (आधा)"
+  },
+  {
+    "name_original": "Caramelized Smoked Duck Breast",
+    "name_ko": "캐러멜 훈제 오리가슴살",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Caramelized Smoked Duck Breast",
+    "name_zh": "焦糖烟熏鸭胸",
+    "name_ru": "Копченая утиная грудка в карамельной глазури",
+    "name_ja": "鴨胸肉のキャラメリゼスモーク",
+    "name_hi": "कैरामेलाइज़्ड स्मोक्ड डक ब्रेस्ट"
+  },
+  {
+    "name_original": "Local Seasonal Green (poached / stir-fried with oil / with minced garlic / with \"Lao Gan Ma\")",
+    "name_ko": "제철 채소 (데침 / 기름 볶음 / 마늘 볶음 / 라오간마 고추기름 볶음 중 선택)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Seasonal Greens (Poached / Stir-Fried with Oil / Garlic / Lao Gan Ma Chili)",
+    "name_zh": "时令绿色时蔬 (白灼 / 清炒 / 蒜蓉 / 老干妈炒 可选)",
+    "name_ru": "Сезонные зеленые овощи (отварные / на масле / с чесноком / в соусе Лао Гань Ма)",
+    "name_ja": "季節の青菜料理 (湯引き / 清炒め / ニンニク炒め / 老干媽炒め)",
+    "name_hi": "मौसमी हरी सब्जियाँ (उबली / सादी तली / लहसुन के साथ / लाओ गान मा में)"
+  },
+  {
+    "name_original": "Additional with Crab Meat",
+    "name_ko": "게살 추가",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Extra Crab Meat Topping",
+    "name_zh": "加蟹肉",
+    "name_ru": "Дополнительно: мясо краба",
+    "name_ja": "蟹肉の追加トッピング",
+    "name_hi": "अतिरिक्त केकड़ा मांस"
+  },
+  {
+    "name_original": "Additional with Dried Scallop",
+    "name_ko": "말린 관자 추가",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Extra Dried Scallop Topping",
+    "name_zh": "加瑶柱 (干贝)",
+    "name_ru": "Дополнительно: сушеный морской гребешок",
+    "name_ja": "干し貝柱の追加トッピング",
+    "name_hi": "अतिरिक्त सूखे स्कैलप"
+  },
+  {
+    "name_original": "Hong Kong-Style Fried Flat Rice Noodles with Beef",
+    "name_ko": "홍콩식 소고기 볶음 쌀국수 (깐차우 응아우호)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Hong Kong-Style Wok-Fried Flat Rice Noodles with Beef (Gon Chow Ngau Ho)",
+    "name_zh": "干炒牛河",
+    "name_ru": "Жареная рисовая лапша с говядиной по-гонконгски",
+    "name_ja": "香港風牛肉入り焼きフォー (乾炒牛河)",
+    "name_hi": "हांगकांग-शैली वोक-फ्राइड राइस नूडल्स बीफ़ के साथ"
+  },
+  {
+    "name_original": "Wok-Fried Rice with Crab Meat, Ginger & Egg White",
+    "name_ko": "게살·생강·달걀흰자 볶음밥",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Wok-Fried Rice with Crab Meat, Ginger & Egg White",
+    "name_zh": "姜汁蛋白蟹肉炒饭",
+    "name_ru": "Жареный рис вок с крабовым мясом, имбирем и яичным белком",
+    "name_ja": "蟹肉と生姜と卵白のパラパラ炒飯",
+    "name_hi": "केकड़ा मांस, अदरक और अंडे की सफेदी के साथ फ्राइड राइस"
+  },
+  {
+    "name_original": "Lotus Leaf Fried Rice with Diced Roasted Duck, Chicken, Crab Meat & Dried Scallop (per person)",
+    "name_ko": "연잎 볶음밥 (오리·닭·게살·말린 관자, 1인)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Lotus Leaf Fried Rice with Roast Duck, Chicken, Crab Meat & Dried Scallop (per person)",
+    "name_zh": "荷叶裹蒸炒饭 (烧鸭、鸡肉、蟹肉、瑶柱，位)",
+    "name_ru": "Жареный рис в лотосовом листе с уткой, курицей, крабом и гребешком (порционный)",
+    "name_ja": "蓮の葉包み炒飯 (ローストダック・鶏肉・蟹肉・干し貝柱、1名分)",
+    "name_hi": "रोस्ट डक, चिकन, केकड़ा मांस और सूखे स्कैलप के साथ लोटस लीफ फ्राइड राइस (प्रति व्यक्ति)"
+  },
+  {
+    "name_original": "White Rice",
+    "name_ko": "흰쌀밥",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Steamed White Rice",
+    "name_zh": "白米饭",
+    "name_ru": "Отварной белый рис",
+    "name_ja": "白ご飯",
+    "name_hi": "सादा उबला चावल"
+  },
+  {
+    "name_original": "Vegetarian Crystal Dumpling (3 pieces)",
+    "name_ko": "채식 크리스털 만두 (3개)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Vegetarian Crystal Dumplings (3 pcs)",
+    "name_zh": "素水晶蒸饺 (3件)",
+    "name_ru": "Вегетарианские хрустальные пельмени (3 шт.)",
+    "name_ja": "野菜のクリスタル蒸し餃子 (3個)",
+    "name_hi": "शाकाहारी क्रिस्टल डंपलिंग्स (3 पीस)"
+  },
+  {
+    "name_original": "Spinach Dumpling (3 pieces)",
+    "name_ko": "시금치 만두 (3개)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Steamed Vegetarian Spinach Dumplings (3 pcs)",
+    "name_zh": "翡翠素菠菜饺 (3件)",
+    "name_ru": "Паровые вегетарианские пельмени со шпинатом (3 шт.)",
+    "name_ja": "ほうれん草の蒸し餃子 (3個)",
+    "name_hi": "पालक डंपलिंग्स (3 पीस)"
+  },
+  {
+    "name_original": "Fried Vegetarian Spring Roll (3 pieces)",
+    "name_ko": "채식 춘권 튀김 (3개)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Crispy Vegetarian Spring Rolls (3 pcs)",
+    "name_zh": "炸素春卷 (3件)",
+    "name_ru": "Хрустящие вегетарианские спринг-роллы (3 шт.)",
+    "name_ja": "精進揚げ春巻き (3個)",
+    "name_hi": "क्रिस्पी वेज स्प्रिंग रोल्स (3 पीस)"
+  },
+  {
+    "name_original": "Chinese Bun - Steamed or Deep Fried (3 pieces)",
+    "name_ko": "만터우 (찐빵 또는 튀김, 3개)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Mantou Chinese Buns - Steamed or Fried (3 pcs)",
+    "name_zh": "馒头 (蒸或炸，3件)",
+    "name_ru": "Китайские булочки маньтоу — на пару или жареные (3 шт.)",
+    "name_ja": "中華まんとう (蒸し または 揚げ、3個)",
+    "name_hi": "चीनी मंतो बन्स - स्टीम्ड या डीप फ्राइड (3 पीस)"
+  },
+  {
+    "name_original": "Sweet and Sour Radish Roll (3 pieces)",
+    "name_ko": "새콤달콤 무말이 (3개)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Sweet and Sour Pickled Radish Rolls (3 pcs)",
+    "name_zh": "糖醋酸甜萝卜卷 (3件)",
+    "name_ru": "Кисло-сладкие рулетики из редьки (3 шт.)",
+    "name_ja": "甘酢大根ロール (3個)",
+    "name_hi": "खट्टे-मीठे मूली रोल्स (3 पीस)"
+  },
+  {
+    "name_original": "Stir-fried Green Beans in Sesame Dressing",
+    "name_ko": "참깨 드레싱 껍질콩",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Stir-Fried Green Beans in Sesame Dressing",
+    "name_zh": "芝麻酱炒四季豆",
+    "name_ru": "Стручковая фасоль в кунжутном соусе",
+    "name_ja": "インゲン豆の胡麻炒め",
+    "name_hi": "तिल की ड्रेसिंग में तली हुई हरी फलियाँ"
+  },
+  {
+    "name_original": "Deep Fried Salt and Pepper Beancurd",
+    "name_ko": "두부 소금후추 튀김",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Crispy Salt and Pepper Tofu",
+    "name_zh": "椒盐脆皮豆腐",
+    "name_ru": "Хрустящий тофу с солью и черным перцем",
+    "name_ja": "揚げ豆腐の塩胡椒炒め",
+    "name_hi": "क्रिस्पी सॉल्ट एंड पेपर टोफू"
+  },
+  {
+    "name_original": "Vegetarian Hot and Sour Soup",
+    "name_ko": "채식 산라탕",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Vegetarian Hot and Sour Soup",
+    "name_zh": "素酸辣汤",
+    "name_ru": "Вегетарианский кисло-острый суп",
+    "name_ja": "精進酸辣湯",
+    "name_hi": "वेज हॉट एंड सॉर सूप"
+  },
+  {
+    "name_original": "Pumpkin Soup with Black Truffle",
+    "name_ko": "블랙 트러플 단호박 수프",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Pumpkin Soup with Black Truffle",
+    "name_zh": "黑松露南瓜浓汤",
+    "name_ru": "Тыквенный суп с черным трюфелем",
+    "name_ja": "黒トリュフ香る南瓜スープ",
+    "name_hi": "ब्लैक ट्रफ़ल कद्दू सूप"
+  },
+  {
+    "name_original": "Stir Fried Eggplant with Typhoon Shelter Style",
+    "name_ko": "타이푼 셸터식 가지 볶음",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Typhoon Shelter Stir-Fried Eggplant",
+    "name_zh": "避风塘炒茄子",
+    "name_ru": "Баклажаны вок в стиле «Тайфун Шелтер»",
+    "name_ja": "避風塘風茄子のサクサク炒め",
+    "name_hi": "टाइफून शेल्टर-स्टाइल फ्राइड बैंगन"
+  },
+  {
+    "name_original": "Steamed Eggplant with Garlic Dressing",
+    "name_ko": "마늘 드레싱 가지찜",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Steamed Eggplant with Minced Garlic Sauce",
+    "name_zh": "蒜蓉蒸茄子",
+    "name_ru": "Паровые баклажаны под чесночным соусом",
+    "name_ja": "蒸し茄子のニンニクソース添え",
+    "name_hi": "लहसुन ड्रेसिंग के साथ स्टीम्ड बैंगन"
+  },
+  {
+    "name_original": "Stir Fried Mixed Vegetable with Bell Pepper and Black Pepper",
+    "name_ko": "피망 흑후추 모둠 채소 볶음",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Stir-Fried Mixed Vegetables with Bell Pepper and Black Pepper",
+    "name_zh": "黑椒彩椒炒什锦时蔬",
+    "name_ru": "Овощное ассорти вок со сладким и черным перцем",
+    "name_ja": "パプリカと黒胡椒の彩り野菜炒め",
+    "name_hi": "शिमला मिर्च और काली मिर्च के साथ तली हुई मिश्रित सब्जियां"
+  },
+  {
+    "name_original": "Braised Baby Chinese Cabbage with Enoki Mushrooms in Pumpkin Sauce",
+    "name_ko": "단호박 소스 알배추 팽이버섯 조림",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Braised Baby Chinese Cabbage with Enoki Mushrooms in Pumpkin Broth",
+    "name_zh": "金汤金针菇娃娃菜",
+    "name_ru": "Тушеная мини-пекинская капуста с грибами эноки в тыквенном бульоне",
+    "name_ja": "エノキとミニ白菜の南瓜ソース煮込み",
+    "name_hi": "कद्दू की ग्रेवी में एनोकी मशरूम और बेबी पत्तागोभी"
+  },
+  {
+    "name_original": "Braised Tofu with Morel Mushrooms",
+    "name_ko": "곰보버섯 두부조림",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Braised Tofu with Morel Mushrooms",
+    "name_zh": "羊肚菌红烧豆腐",
+    "name_ru": "Тушеный тофу со сморчками",
+    "name_ja": "アミガサ茸と豆腐の煮込み",
+    "name_hi": "मोरेल मशरूम के साथ ब्रेज़्ड टोफू"
+  },
+  {
+    "name_original": "Sweet and Sour Gourd Ball",
+    "name_ko": "채식 탕수 박 완자",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Sweet and Sour Bottle Gourd Vegetarian Balls",
+    "name_zh": "糖醋素葫芦丸子",
+    "name_ru": "Вегетарианские шарики из тыквы в кисло-сладком соусе",
+    "name_ja": "甘酢あんかけヒョウタン団子 (精進料理)",
+    "name_hi": "खट्टे-मीठे लौकी के वेज कोफ़्ते"
+  },
+  {
+    "name_original": "Stir Fried Potato Ball with Kung Pao Sauce",
+    "name_ko": "궁보 소스 감자 완자 볶음",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Stir-Fried Potato Balls in Kung Pao Sauce",
+    "name_zh": "宫保土豆丸子",
+    "name_ru": "Картофельные шарики в соусе Кунг Пао",
+    "name_ja": "宮保風ポテトボール炒め",
+    "name_hi": "कुंग पाओ सॉस में तले हुए आलू के कोफ़्ते"
+  },
+  {
+    "name_original": "Wok Fried Rice with Avocado and Cashew Nut",
+    "name_ko": "아보카도 캐슈넛 볶음밥",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Wok-Fried Rice with Avocado and Cashew Nuts",
+    "name_zh": "牛油果腰果炒饭",
+    "name_ru": "Жареный рис вок с авокадо и кешью",
+    "name_ja": "アボカドとカシューナッツの炒飯",
+    "name_hi": "एवोकैडो और काजू फ्राइड राइस"
+  },
+  {
+    "name_original": "Braised Ee Fu Noodles with Mushrooms, Onion and Black Pepper",
+    "name_ko": "버섯·양파·흑후추 이푸면 조림",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Braised E-Fu Noodles with Mushrooms, Onion and Black Pepper",
+    "name_zh": "黑椒菌菇洋葱焖伊面",
+    "name_ru": "Тушеная лапша и-фу с грибами, луком и черным перцем",
+    "name_ja": "椎茸と玉ねぎと黒胡椒の煮込み伊府麺 (イーフーメン)",
+    "name_hi": "मशरूम, प्याज और काली मिर्च के साथ ब्रेज़्ड ई-फू नूडल्स"
+  },
+  {
+    "name_original": "Glutinous Rice Balls in Wolfberry Ginger Tea",
+    "name_ko": "구기자 생강차 찹쌀경단",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Glutinous Rice Dumplings in Goji Berry Ginger Tea (Tang Yuan)",
+    "name_zh": "枸杞姜茶汤圆",
+    "name_ru": "Рисовые клецки в имбирном чае с ягодами годжи (Танъюань)",
+    "name_ja": "クコの実と生姜湯の白玉団子 (湯円)",
+    "name_hi": "गोजी बेरी और अदरक की चाय में स्टिकी राइस बॉल्स"
+  },
+  {
+    "name_original": "Lemongrass Jelly with Lime Sorbet",
+    "name_ko": "레몬그라스 젤리와 라임 소르베",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Lemongrass Jelly with Lime Sorbet",
+    "name_zh": "香茅青柠雪葩果冻",
+    "name_ru": "Желе из лемонграсса с лаймовым сорбетом",
+    "name_ja": "レモングラスゼリーとライムソルベ",
+    "name_hi": "लेमनग्रास जेली और नींबू सॉर्बे"
+  },
+  {
+    "name_original": "Mango Puree with Pomelo & Sago",
+    "name_ko": "망고 포멜로 사고 (양지감로)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Chilled Mango Puree with Pomelo & Sago (Yang Zhi Gan Lu)",
+    "name_zh": "杨枝甘露",
+    "name_ru": "Манговый суп с помело и саго (Ян Чжи Гань Лу)",
+    "name_ja": "楊枝甘露 (ヨンジーガムロ / マンゴーとポメロのタピオカデザート)",
+    "name_hi": "आम प्यूरी, पोमेलो और साबूदाना मिठाई (यांग झी गान लू)"
+  },
+  {
+    "name_original": "Baked Egg Tart",
+    "name_ko": "에그타르트",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Baked Portuguese Egg Tart",
+    "name_zh": "葡式蛋挞",
+    "name_ru": "Запеченный яичный тарт",
+    "name_ja": "エッグタルト (蛋撻)",
+    "name_hi": "बेक्ड एग टार्ट"
+  },
+  {
+    "name_original": "Longevity Peach Buns (3 pieces)",
+    "name_ko": "장수 복숭아 찐빵 (3개)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Steamed Longevity Peach Buns (3 pcs)",
+    "name_zh": "寿桃包 (3件)",
+    "name_ru": "Праздничные паровые булочки долголетия в форме персика (3 шт.)",
+    "name_ja": "寿桃包 (長寿の桃まんじゅう、3個)",
+    "name_hi": "लोंगेविटी पीच बन्स (3 पीस)"
+  }
+]

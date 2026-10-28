@@ -1,0 +1,665 @@
+[
+  {
+    "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
+    "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
+    "place_ids": [
+      "ChIJM56vPyOVpzERkcoihdCbcQg",
+      "ChIJybaGwLWXpzER0vqLL6QiWjE",
+      "ChIJVef0-G6XpzERfRGPWSjnMSM",
+      "ChIJTdwiKNmVpzER1knXm_zr2zA",
+      "ChIJ51OpPgCVpzER-TzMZtCOk0o",
+      "ChIJi6p4AwCXpzERrcfUWx2c6gY",
+      "ChIJEUml2SuVpzER3wqcSc2d9yg",
+      "ChIJy_hxHgCrNTERoIcGv_opdSI",
+      "ChIJqzR5BqKVpzERsUFb1ZBTkHI",
+      "ChIJE6Jt3vuVpzERA6ErTfB79es",
+      "ChIJHfkAZ4WVpzERmME-KkMKRrI",
+      "ChIJk8rbTrmXpzERJtmse_K7fYA",
+      "ChIJexxLuvWVpzERYfMNC6E2l6k",
+      "ChIJO3-yzguVpzERco-w4qWwzBE",
+      "ChIJ4XRWXwCVpzER4TmxHDp0HaI",
+      "ChIJFePbK8yXpzER_rJM4eYtKaA",
+      "ChIJO5hTZgCVpzERv98h_ecyvFc",
+      "ChIJUZs9AACVpzERDU2CVZEwhMQ"
+    ],
+    "name_en": "Vietnamese Iced Coffee with Condensed Milk / Coconut Coffee",
+    "name_zh": "越南炼乳冰咖啡 / 椰奶咖啡",
+    "name_ru": "Вьетнамский кофе со сгущенным молоком и льдом / кокосовый кофе",
+    "name_ja": "ベトナム練乳アイスコーヒー / ココナッツコーヒー",
+    "name_hi": "वियतनामी कंडेंस्ड मिल्क आइस्ड कॉफ़ी / नारियल कॉफ़ी"
+  },
+  {
+    "name_original": "Cà phê Americano / Espresso",
+    "name_ko": "아메리카노 / 에스프레소",
+    "place_ids": [
+      "ChIJM56vPyOVpzERkcoihdCbcQg",
+      "ChIJybaGwLWXpzER0vqLL6QiWjE",
+      "ChIJVef0-G6XpzERfRGPWSjnMSM",
+      "ChIJTdwiKNmVpzER1knXm_zr2zA",
+      "ChIJ51OpPgCVpzER-TzMZtCOk0o",
+      "ChIJi6p4AwCXpzERrcfUWx2c6gY",
+      "ChIJEUml2SuVpzER3wqcSc2d9yg",
+      "ChIJy_hxHgCrNTERoIcGv_opdSI",
+      "ChIJqzR5BqKVpzERsUFb1ZBTkHI",
+      "ChIJE6Jt3vuVpzERA6ErTfB79es",
+      "ChIJHfkAZ4WVpzERmME-KkMKRrI",
+      "ChIJk8rbTrmXpzERJtmse_K7fYA",
+      "ChIJexxLuvWVpzERYfMNC6E2l6k",
+      "ChIJO3-yzguVpzERco-w4qWwzBE",
+      "ChIJ4XRWXwCVpzER4TmxHDp0HaI",
+      "ChIJFePbK8yXpzER_rJM4eYtKaA",
+      "ChIJO5hTZgCVpzERv98h_ecyvFc",
+      "ChIJUZs9AACVpzERDU2CVZEwhMQ"
+    ],
+    "name_en": "Americano / Espresso",
+    "name_zh": "美式咖啡 / 意式浓缩咖啡",
+    "name_ru": "Американо / Эспрессо",
+    "name_ja": "アメリカーノ / エスプレッソ",
+    "name_hi": "अमेरिकानो / एस्प्रेसो"
+  },
+  {
+    "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
+    "name_ko": "망고 스무디 / 생과일 주스",
+    "place_ids": [
+      "ChIJM56vPyOVpzERkcoihdCbcQg",
+      "ChIJybaGwLWXpzER0vqLL6QiWjE",
+      "ChIJVef0-G6XpzERfRGPWSjnMSM",
+      "ChIJTdwiKNmVpzER1knXm_zr2zA",
+      "ChIJ51OpPgCVpzER-TzMZtCOk0o",
+      "ChIJi6p4AwCXpzERrcfUWx2c6gY",
+      "ChIJEUml2SuVpzER3wqcSc2d9yg",
+      "ChIJy_hxHgCrNTERoIcGv_opdSI",
+      "ChIJqzR5BqKVpzERsUFb1ZBTkHI",
+      "ChIJE6Jt3vuVpzERA6ErTfB79es",
+      "ChIJHfkAZ4WVpzERmME-KkMKRrI",
+      "ChIJk8rbTrmXpzERJtmse_K7fYA",
+      "ChIJexxLuvWVpzERYfMNC6E2l6k",
+      "ChIJO3-yzguVpzERco-w4qWwzBE",
+      "ChIJ4XRWXwCVpzER4TmxHDp0HaI",
+      "ChIJFePbK8yXpzER_rJM4eYtKaA",
+      "ChIJO5hTZgCVpzERv98h_ecyvFc",
+      "ChIJUZs9AACVpzERDU2CVZEwhMQ"
+    ],
+    "name_en": "Mango Smoothie / Tropical Fruit Juice",
+    "name_zh": "芒果冰沙 / 热带水果汁",
+    "name_ru": "Смузи из манго / Сок из тропических фруктов",
+    "name_ja": "マンゴースムージー / トロピカルフルーツジュース",
+    "name_hi": "मैंगो स्मूदी / ट्रॉपिकल फ्रूट जूस"
+  },
+  {
+    "name_original": "Signature Tropical Sunset Cocktail",
+    "name_ko": "선셋 시그니처 트로피컬 칵테일",
+    "place_ids": [
+      "ChIJw0KgNACVpzERw5KrYRFhYrk",
+      "ChIJ_8PhSl6XpzERyXEGZHWPPK8",
+      "ChIJWemJxp-XpzER7U_LSFAw2FI",
+      "ChIJxyS9aICXpzERzjprHrHS6HM",
+      "ChIJ_UidppuWpzERKabcboVlovw"
+    ],
+    "name_en": "Signature Tropical Sunset Cocktail",
+    "name_zh": "日落招牌热带鸡尾酒",
+    "name_ru": "Фирменный тропический коктейль «Сансет»",
+    "name_ja": "シグネチャートロピカルサンセットカクテル",
+    "name_hi": "सिग्नेचर ट्रॉपिकल सनसेट कॉकटेल"
+  },
+  {
+    "name_original": "Bia Tươi / Bia Thủ Công Craft Beer",
+    "name_ko": "생맥주 / 수제맥주 (Draft / Craft Beer)",
+    "place_ids": [
+      "ChIJw0KgNACVpzERw5KrYRFhYrk",
+      "ChIJ_8PhSl6XpzERyXEGZHWPPK8",
+      "ChIJWemJxp-XpzER7U_LSFAw2FI",
+      "ChIJxyS9aICXpzERzjprHrHS6HM",
+      "ChIJ_UidppuWpzERKabcboVlovw"
+    ],
+    "name_en": "Draft Beer / Craft Beer",
+    "name_zh": "生啤酒 / 精酿啤酒",
+    "name_ru": "Разливное пиво / Крафтовое пиво",
+    "name_ja": "生ビール / クラフトビール",
+    "name_hi": "ड्राफ्ट बीयर / क्राफ्ट बीयर"
+  },
+  {
+    "name_original": "Bar Bites & Finger Foods",
+    "name_ko": "바 스낵 & 핑거푸드 안주",
+    "place_ids": [
+      "ChIJw0KgNACVpzERw5KrYRFhYrk",
+      "ChIJ_8PhSl6XpzERyXEGZHWPPK8",
+      "ChIJWemJxp-XpzER7U_LSFAw2FI",
+      "ChIJxyS9aICXpzERzjprHrHS6HM",
+      "ChIJ_UidppuWpzERKabcboVlovw"
+    ],
+    "name_en": "Bar Bites & Finger Foods",
+    "name_zh": "酒吧小吃与下酒手指点心",
+    "name_ru": "Закуски к бару и фингер-фуд",
+    "name_ja": "バースナック＆フィンガーフード",
+    "name_hi": "बार स्नैक्स और फिंगर फूड"
+  },
+  {
+    "name_original": "Traditional Vietnamese Pho / Bun Bo Hue",
+    "name_ko": "베트남 전통 쌀국수 (하노이 쌀국수 / 분보후에)",
+    "place_ids": [
+      "ChIJ-8xuXJSXpzER_vuwYia2R1M"
+    ],
+    "name_en": "Traditional Vietnamese Pho / Bun Bo Hue",
+    "name_zh": "传统越南河粉 / 顺化牛肉米粉",
+    "name_ru": "Традиционный вьетнамский фо / Бун бо Хюэ",
+    "name_ja": "伝統的なベトナムフォー / ブンボーフエ",
+    "name_hi": "पारंपरिक वियतनामी फो / बुन बो ह्यू"
+  },
+  {
+    "name_original": "Western Breakfast Combo",
+    "name_ko": "웨스턴 조식 콤보 (에그, 베이컨, 소시지, 토스트)",
+    "place_ids": [
+      "ChIJ-8xuXJSXpzER_vuwYia2R1M"
+    ],
+    "name_en": "Western Breakfast Combo",
+    "name_zh": "西式早餐套餐",
+    "name_ru": "Западный сет на завтрак",
+    "name_ja": "ウェスタンブレックファストコンボ",
+    "name_hi": "वेस्टर्न ब्रेकफास्ट कॉम्बो"
+  },
+  {
+    "name_original": "All-day Casual Bistro Mains",
+    "name_ko": "올데이 캐주얼 비스트로 단품 요리 (파스타, 볶음밥, 샌드위치)",
+    "place_ids": [
+      "ChIJ-8xuXJSXpzER_vuwYia2R1M"
+    ],
+    "name_en": "All-Day Casual Bistro Mains",
+    "name_zh": "全日休闲小酒馆主菜",
+    "name_ru": "Основные блюда бистро на весь день",
+    "name_ja": "オールデイ・カジュアルビストロメイン料理",
+    "name_hi": "ऑल-डे कैज़ुअल बिस्ट्रो मेन कोर्स"
+  },
+  {
+    "name_original": "BBQ Seafood Dinner Buffet",
+    "name_ko": "바비큐 해산물 디너 뷔페 (시즌 운영)",
+    "place_ids": [
+      "ChIJ-8xuXJSXpzER_vuwYia2R1M"
+    ],
+    "name_en": "BBQ Seafood Dinner Buffet",
+    "name_zh": "海鲜烧烤自助晚餐",
+    "name_ru": "Ужин «шведский стол» с морепродуктами барбекю",
+    "name_ja": "BBQシーフードディナービュッフェ",
+    "name_hi": "बारबेक्यू सीफ़ूड डिनर बुफे"
+  },
+  {
+    "name_original": "Cá thu Nhật nướng muối / sốt Teriyaki (Grilled Saba Mackerel)",
+    "name_ko": "고등어 소금구이 / 데리야키 구이",
+    "place_ids": [
+      "ChIJqSNX-FuLpzERVHIK_K9q4ac"
+    ],
+    "name_en": "Grilled Mackerel with Salt / Teriyaki Sauce",
+    "name_zh": "盐烤青花鱼 / 照烧青花鱼",
+    "name_ru": "Скумбрия на гриле с солью / соусом терияки",
+    "name_ja": "鯖の塩焼き / 照り焼き",
+    "name_hi": "नमक / तेरियाकी सॉस के साथ ग्रिल्ड मैकेरल मछली"
+  },
+  {
+    "name_original": "Cá trích nướng Shishamo (Grilled Shishamo)",
+    "name_ko": "열빙어(시샤모) 숯불구이",
+    "place_ids": [
+      "ChIJqSNX-FuLpzERVHIK_K9q4ac"
+    ],
+    "name_en": "Grilled Shishamo Smelt",
+    "name_zh": "炭烤多春鱼",
+    "name_ru": "Жареная корюшка шишамо на углях",
+    "name_ja": "子持ちししゃもの炭火焼き",
+    "name_hi": "ग्रिल्ड शीशामो मछली"
+  },
+  {
+    "name_original": "Cá hồi nướng sốt Teriyaki (Grilled Salmon Teriyaki)",
+    "name_ko": "연어 데리야키 숯불구이",
+    "place_ids": [
+      "ChIJqSNX-FuLpzERVHIK_K9q4ac"
+    ],
+    "name_en": "Grilled Salmon with Teriyaki Sauce",
+    "name_zh": "照烧炭烤三文鱼",
+    "name_ru": "Лосось на гриле в соусе терияки",
+    "name_ja": "鮭の照り焼き炭火焼き",
+    "name_hi": "तेरियाकी सॉस में ग्रिल्ड साल्मन"
+  },
+  {
+    "name_original": "Hàu sữa Nhật tươi sống (Fresh Japanese Oysters)",
+    "name_ko": "일본산 신선 생석화 (생굴 플레이트)",
+    "place_ids": [
+      "ChIJqSNX-FuLpzERVHIK_K9q4ac"
+    ],
+    "name_en": "Fresh Japanese Oysters Platter",
+    "name_zh": "新鲜日本生蚝拼盘",
+    "name_ru": "Свежие японские устрицы",
+    "name_ja": "新鮮な日本の生牡蠣プレート",
+    "name_hi": "ताज़ा जापानी ऑयस्टर प्लेटर"
+  },
+  {
+    "name_original": "Mì Ramen hải sản Yushima (Seafood Ramen)",
+    "name_ko": "유시마 특제 해산물 라멘",
+    "place_ids": [
+      "ChIJqSNX-FuLpzERVHIK_K9q4ac"
+    ],
+    "name_en": "Yushima Seafood Ramen",
+    "name_zh": "汤岛特制海鲜拉面",
+    "name_ru": "Фирменный рамен с морепродуктами Юсима",
+    "name_ja": "湯島特製海鮮ラーメン",
+    "name_hi": "युशिमा सीफ़ूड रामेन"
+  },
+  {
+    "name_original": "Cơm lươn Nhật nướng sốt Kabayaki (Unagi Don)",
+    "name_ko": "일본산 민물장어 덮밥 (우나기동)",
+    "place_ids": [
+      "ChIJqSNX-FuLpzERVHIK_K9q4ac"
+    ],
+    "name_en": "Grilled Eel Rice Bowl (Unadon)",
+    "name_zh": "蒲烧鳗鱼饭",
+    "name_ru": "Рис с жареным угрем в соусе кабаяки (Унаги-дон)",
+    "name_ja": "鰻の蒲焼き丼",
+    "name_hi": "ग्रिल्ड ईल राइस बाउल (उनागी दोन)"
+  },
+  {
+    "name_original": "Thuyền Sashimi tổng hợp (Mixed Sashimi Boat)",
+    "name_ko": "모둠 사시미 셰어링 보트",
+    "place_ids": [
+      "ChIJqSNX-FuLpzERVHIK_K9q4ac"
+    ],
+    "name_en": "Mixed Sashimi Boat",
+    "name_zh": "综合刺身船",
+    "name_ru": "Ассорти сашими на лодке",
+    "name_ja": "刺身盛り合わせ舟盛り",
+    "name_hi": "मिक्स्ड साशिमी बोट"
+  },
+  {
+    "name_original": "Halal Beef / Chicken Curry with Roti",
+    "name_ko": "할랄 소고기 / 치킨 커리와 로티 차파티",
+    "place_ids": [
+      "ChIJMyo1GFCXpzERJi4JKDavOgQ"
+    ],
+    "name_en": "Halal Beef / Chicken Curry with Roti",
+    "name_zh": "清真牛肉 / 鸡肉咖喱配飞饼",
+    "name_ru": "Халяльное карри из говядины / курицы с лепёшкой роти",
+    "name_ja": "ハラール 牛肉 / チキンカレー ロティ付き",
+    "name_hi": "हलाल बीफ / चिकन करी रोटी के साथ"
+  },
+  {
+    "name_original": "Halal Vietnamese Beef Pho",
+    "name_ko": "할랄 인증 소고기 쌀국수",
+    "place_ids": [
+      "ChIJMyo1GFCXpzERJi4JKDavOgQ"
+    ],
+    "name_en": "Halal Vietnamese Beef Pho",
+    "name_zh": "清真越南牛肉河粉",
+    "name_ru": "Халяльный вьетнамский фо с говядиной",
+    "name_ja": "ハラール 越南牛肉フォー",
+    "name_hi": "हलाल वियतनामी बीफ फो"
+  },
+  {
+    "name_original": "Nasi Goreng Halal",
+    "name_ko": "할랄 나시고랭 해산물 볶음밥",
+    "place_ids": [
+      "ChIJMyo1GFCXpzERJi4JKDavOgQ"
+    ],
+    "name_en": "Halal Seafood Nasi Goreng",
+    "name_zh": "清真海鲜印尼炒饭",
+    "name_ru": "Халяльный наси горенг с морепродуктами",
+    "name_ja": "ハラール 海鮮ナシゴレン",
+    "name_hi": "हलाल सीफ़ूड नासी गोरेंग"
+  },
+  {
+    "name_original": "Bia Tươi Tiger Crystal / Heineken Cold",
+    "name_ko": "타이거 크리스탈 / 하이네켄 생맥주 (Pint)",
+    "place_ids": [
+      "ChIJ4-08StuXpzERjwmUJihXMSM"
+    ],
+    "name_en": "Tiger Crystal / Heineken Draft Beer",
+    "name_zh": "虎牌晶纯 / 喜力生啤酒",
+    "name_ru": "Разливное пиво Tiger Crystal / Heineken",
+    "name_ja": "タイガークリスタル / ハイネケン 生ビール",
+    "name_hi": "टाइगर क्रिस्टल / हेनेकेन ड्राफ्ट बीयर"
+  },
+  {
+    "name_original": "Bia Thủ Công Jasmine IPA (Pasteur Street)",
+    "name_ko": "파스퇴르 스트리트 자스민 IPA 수제맥주",
+    "place_ids": [
+      "ChIJ4-08StuXpzERjwmUJihXMSM"
+    ],
+    "name_en": "Pasteur Street Jasmine IPA Craft Beer",
+    "name_zh": "巴斯德街茉莉花IPA精酿啤酒",
+    "name_ru": "Крафтовое пиво Jasmine IPA (Pasteur Street)",
+    "name_ja": "パスツールストリート ジャスミンIPA クラフトビール",
+    "name_hi": "पाश्चर स्ट्रीट जैस्मीन आईपीए क्राफ्ट बीयर"
+  },
+  {
+    "name_original": "Gỏi Cá Trích Phú Quốc (Phu Quoc Herring Salad)",
+    "name_ko": "푸꾸옥 전통 청어회 샐러드 (고이까찍)",
+    "place_ids": [
+      "ChIJ4-08StuXpzERjwmUJihXMSM"
+    ],
+    "name_en": "Phu Quoc Herring Salad",
+    "name_zh": "富国岛传统鲱鱼沙拉",
+    "name_ru": "Салат из сельди по-фукуокски",
+    "name_ja": "フーコック伝統ニシンサラダ",
+    "name_hi": "फू क्वोक हेरिंग सलाद"
+  },
+  {
+    "name_original": "Mực Trứng Nướng Muối Ớt (Grilled Egg Squid with Chili Salt)",
+    "name_ko": "알배기 한치(오징어) 숯불구이",
+    "place_ids": [
+      "ChIJ4-08StuXpzERjwmUJihXMSM"
+    ],
+    "name_en": "Grilled Egg Squid with Chili Salt",
+    "name_zh": "辣椒盐烤抱卵鱿鱼",
+    "name_ru": "Кальмар с икрой на углях с солью и чили",
+    "name_ja": "子持ちイカの唐辛子塩炭火焼き",
+    "name_hi": "मिर्च-नमक के साथ ग्रिल्ड एग स्क्विड"
+  },
+  {
+    "name_original": "Sườn Heo Nướng Sốt BBQ (Grilled BBQ Pork Ribs)",
+    "name_ko": "특제 바비큐 폭립 (풀랙)",
+    "place_ids": [
+      "ChIJ4-08StuXpzERjwmUJihXMSM"
+    ],
+    "name_en": "Grilled BBQ Pork Ribs",
+    "name_zh": "特制BBQ烤猪肋排",
+    "name_ru": "Свиные ребрышки барбекю на гриле",
+    "name_ja": "特製BBQポークリブ炭火焼き",
+    "name_hi": "ग्रिल्ड बारबेक्यू पोर्क रिब्स"
+  },
+  {
+    "name_original": "Combo Nướng Than Hoa Lagoon (Lagoon BBQ Platter)",
+    "name_ko": "라군 시그니처 숯불 고기 & 해산물 바비큐 플래터",
+    "place_ids": [
+      "ChIJexQHMSaVpzERSr6zIxWjYDs"
+    ],
+    "name_en": "Lagoon Signature BBQ Meat & Seafood Platter",
+    "name_zh": "泻湖招牌炭烤肉类与海鲜拼盘",
+    "name_ru": "Фирменное плато барбекю на углях с мясом и морепродуктами «Лагуна»",
+    "name_ja": "ラグーン特製 炭火焼き肉＆シーフードBBQ盛り合わせ",
+    "name_hi": "लैगून सिग्नेचर ग्रिल्ड मीट और सीफ़ूड प्लेटर"
+  },
+  {
+    "name_original": "Đĩa hải sản lạnh phong cách Pháp (Chilled Seafood Platter)",
+    "name_ko": "프랑스식 프리미엄 냉 해산물 플래터 (굴, 새우, 게살)",
+    "place_ids": [
+      "ChIJexQHMSaVpzERSr6zIxWjYDs"
+    ],
+    "name_en": "French-Style Chilled Premium Seafood Platter",
+    "name_zh": "法式优质冷海鲜拼盘",
+    "name_ru": "Французское премиальное плато охлажденных морепродуктов",
+    "name_ja": "フランス風プレミアム冷製シーフードプラッター",
+    "name_hi": "फ्रेंच-स्टाइल चिल्ड प्रीमियम सीफ़ूड प्लेटर"
+  },
+  {
+    "name_original": "Lẩu hải sản Địa Trung Hải (Mediterranean Seafood Hot Pot)",
+    "name_ko": "지중해풍 토마토 해산물 핫팟 전골",
+    "place_ids": [
+      "ChIJexQHMSaVpzERSr6zIxWjYDs"
+    ],
+    "name_en": "Mediterranean Tomato Seafood Hot Pot",
+    "name_zh": "地中海风味番茄海鲜火锅",
+    "name_ru": "Средиземноморский томатный хот-пот с морепродуктами",
+    "name_ja": "地中海風トマト海鮮鍋",
+    "name_hi": "मेडिटेरेनियन टोमैटो सीफ़ूड हॉट पॉट"
+  },
+  {
+    "name_original": "Sườn heo nướng sốt BBQ",
+    "name_ko": "특제 바비큐 소스 돼지 등갈비 구이",
+    "place_ids": [
+      "ChIJexQHMSaVpzERSr6zIxWjYDs"
+    ],
+    "name_en": "Grilled Pork Ribs with BBQ Sauce",
+    "name_zh": "特制BBQ酱烤猪肋排",
+    "name_ru": "Свиные ребрышки на гриле в соусе барбекю",
+    "name_ja": "特製BBQソースポークリブ焼き",
+    "name_hi": "बारबेक्यू सॉस में ग्रिल्ड पोर्क रिब्स"
+  },
+  {
+    "name_original": "Mực trứng chiên mắm / nướng",
+    "name_ko": "알배기 오징어 튀김 / 구이",
+    "place_ids": [
+      "ChIJufI0FqCVpzER1FiJropT03Y"
+    ],
+    "name_en": "Fried Egg Squid with Fish Sauce / Grilled",
+    "name_zh": "鱼露炸抱卵鱿鱼 / 烤抱卵鱿鱼",
+    "name_ru": "Жареный с рыбным соусом / гриль кальмар с икрой",
+    "name_ja": "子持ちイカの魚醤揚げ / 焼き",
+    "name_hi": "फिश सॉस में फ्राइड / ग्रिल्ड एग स्क्विड"
+  },
+  {
+    "name_original": "Lẩu hải sản chua cay bình dân",
+    "name_ko": "실속형 해산물 전골 핫팟",
+    "place_ids": [
+      "ChIJufI0FqCVpzER1FiJropT03Y"
+    ],
+    "name_en": "Value Hot & Sour Seafood Hot Pot",
+    "name_zh": "实惠酸辣海鲜火锅",
+    "name_ru": "Доступный кисло-острый хот-пот с морепродуктами",
+    "name_ja": "お手頃価格の酸辣海鮮鍋",
+    "name_hi": "किफ़ायती खट्टा-तीखा सीफ़ूड हॉट पॉट"
+  },
+  {
+    "name_original": "Hải sản nướng muối ớt One Boat",
+    "name_ko": "원보트 특제 칠리소금 해산물 숯불구이",
+    "place_ids": [
+      "ChIJLwGTViCVpzER8VvsPx7gfqs"
+    ],
+    "name_en": "One Boat Grilled Seafood with Chili Salt",
+    "name_zh": "One Boat特制辣椒盐炭烤海鲜",
+    "name_ru": "Морепродукты на углях с солью и чили от One Boat",
+    "name_ja": "One Boat 特製チリ塩シーフード炭火焼き",
+    "name_hi": "वन बोट चिली साल्ट ग्रिल्ड सीफ़ूड"
+  },
+  {
+    "name_original": "Combo Hải sản Cướp biển (Pirate Seafood Combo)",
+    "name_ko": "파이러츠 모둠 해산물 바비큐 콤보 (2~4인)",
+    "place_ids": [
+      "ChIJLwGTViCVpzER8VvsPx7gfqs"
+    ],
+    "name_en": "Pirate Seafood BBQ Combo",
+    "name_zh": "海盗综合海鲜烧烤套餐",
+    "name_ru": "Набор морепродуктов барбекю «Пиратский»",
+    "name_ja": "パイレーツ シーフードBBQコンボ",
+    "name_hi": "पाइरेट सीफ़ूड बारबेक्यू कॉम्बो"
+  },
+  {
+    "name_original": "Coconut Chia Pudding & Fresh Fruits",
+    "name_ko": "코코넛 치아 푸딩 & 생과일",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Coconut Chia Pudding & Fresh Fruits",
+    "name_zh": "椰香奇亚籽布丁配新鲜水果",
+    "name_ru": "Кокосовый чиа-пудинг со свежими фруктами",
+    "name_ja": "ココナッツチアプリン＆フレッシュフルーツ",
+    "name_hi": "कोकोनट चिया पुडिंग और ताज़े फल"
+  },
+  {
+    "name_original": "Nutritious Breakfast Bowl",
+    "name_ko": "영양 가득 조식 볼",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Nutritious Breakfast Bowl",
+    "name_zh": "营养早餐能量碗",
+    "name_ru": "Питательный боул на завтрак",
+    "name_ja": "栄養満点ブレックファストボウル",
+    "name_hi": "पौष्टिक ब्रेकफास्ट बाउल"
+  },
+  {
+    "name_original": "Eggs Benedict / Royale",
+    "name_ko": "에그 베네딕트 / 에그 로열",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Eggs Benedict / Eggs Royale",
+    "name_zh": "班尼迪克蛋 / 皇家班尼迪克蛋",
+    "name_ru": "Яйца Бенедикт / Яйца Рояль",
+    "name_ja": "エッグベネディクト / エッグロワイヤル",
+    "name_hi": "एग्स बेनेडिक्ट / एग्स रॉयल"
+  },
+  {
+    "name_original": "Vietnamese Breakfast Pho (Beef / Chicken)",
+    "name_ko": "베트남 전통 조식 쌀국수 (소고기 / 닭고기)",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Traditional Vietnamese Breakfast Pho (Beef / Chicken)",
+    "name_zh": "越南传统早餐河粉（牛肉 / 鸡肉）",
+    "name_ru": "Традиционный вьетнамский фо на завтрак (с говядиной / курицей)",
+    "name_ja": "ベトナム伝統朝食フォー（牛肉 / 鶏肉）",
+    "name_hi": "पारंपरिक वियतनामी ब्रेकफास्ट फो (बीफ / चिकन)"
+  },
+  {
+    "name_original": "Gỏi ngó sen tôm mực (Lotus Stem Salad with Prawn & Squid)",
+    "name_ko": "새우 오징어 연근줄기 샐러드 (고이 응오센)",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Lotus Stem Salad with Prawns & Squid",
+    "name_zh": "鲜虾鱿鱼莲藕带沙拉",
+    "name_ru": "Салат из стеблей лотоса с креветками и кальмарами",
+    "name_ja": "海老とイカの蓮の茎サラダ",
+    "name_hi": "झींगा और स्क्विड के साथ कमल के तने का सलाद"
+  },
+  {
+    "name_original": "Quinoa Salad",
+    "name_ko": "퀴노아 슈퍼푸드 샐러드",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Quinoa Superfood Salad",
+    "name_zh": "藜麦超级食物沙拉",
+    "name_ru": "Суперфуд салат с киноа",
+    "name_ja": "キヌア スーパーフードサラダ",
+    "name_hi": "क्विनोआ सुपरफूड सलाद"
+  },
+  {
+    "name_original": "Phu Quoc Seafood Caesar Salad",
+    "name_ko": "푸꾸옥 해산물 시저 샐러드",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Phu Quoc Seafood Caesar Salad",
+    "name_zh": "富国岛海鲜凯撒沙拉",
+    "name_ru": "Салат Цезарь с морепродуктами по-фукуокски",
+    "name_ja": "フーコック海鮮シーザーサラダ",
+    "name_hi": "फू क्वोक सीफ़ूड सीज़र सलाद"
+  },
+  {
+    "name_original": "Bún hải sản làng chài (Phu Quoc Seafood Noodle Soup)",
+    "name_ko": "푸꾸옥 어촌 마을 해산물 쌀국수 (분 하이산)",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Phu Quoc Fishermen's Seafood Noodle Soup",
+    "name_zh": "富国岛渔村海鲜米粉",
+    "name_ru": "Рыбацкий суп с рисовой лапшой и морепродуктами по-фукуокски",
+    "name_ja": "フーコック漁村風海鮮米粉麺",
+    "name_hi": "फू क्वोक फिशिंग विलेज सीफ़ूड नूडल सूप"
+  },
+  {
+    "name_original": "Nem rán Hà Nội (Hanoi Deep Fried Spring Rolls)",
+    "name_ko": "하노이식 수제 바삭 넴 (튀김 스프링롤)",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Hanoi Crispy Fried Spring Rolls",
+    "name_zh": "河内风味香脆炸春卷",
+    "name_ru": "Хрустящие жареные спринг-роллы по-ханойски",
+    "name_ja": "ハノイ風クリスピー揚げ春巻き",
+    "name_hi": "हनोई क्रिस्पी फ्राइड स्प्रिंग रोल्स"
+  },
+  {
+    "name_original": "Cơm chiên ghẹ Phú Quốc (Phu Quoc Flower Crab Fried Rice)",
+    "name_ko": "푸꾸옥 함닌 꽃게살 볶음밥",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Phu Quoc Flower Crab Fried Rice",
+    "name_zh": "富国岛花蟹肉炒饭",
+    "name_ru": "Жареный рис с мясом голубого краба по-фукуокски",
+    "name_ja": "フーコック産ワタリガニチャーハン",
+    "name_hi": "फू क्वोक फ्लावर क्रैब फ्राइड राइस"
+  },
+  {
+    "name_original": "Cá kho tộ tiêu Phú Quốc (Claypot Braised Fish)",
+    "name_ko": "푸꾸옥 흑후추 뚝배기 생선 조림",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Phu Quoc Claypot Braised Fish with Black Pepper",
+    "name_zh": "富国岛黑胡椒砂锅焖鱼",
+    "name_ru": "Рыба в глиняном горшочке с фукуокским черным перцем",
+    "name_ja": "フーコック産黒胡椒入り土鍋魚の煮付け",
+    "name_hi": "फू क्वोक काली मिर्च के साथ मिट्टी के बर्तन में पकी मछली"
+  },
+  {
+    "name_original": "Australian Beef Rib with Tamarind Sauce",
+    "name_ko": "타마린드 소스 호주산 우갈비 구이",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Australian Beef Ribs with Tamarind Sauce",
+    "name_zh": "罗望子酱烤澳洲牛肋排",
+    "name_ru": "Австралийские говяжьи ребрышки под тамариндовым соусом",
+    "name_ja": "オーストラリア産牛リブのタマリンドソースがけ",
+    "name_hi": "इमली सॉस के साथ ऑस्ट्रेलियाई बीफ रिब्स"
+  },
+  {
+    "name_original": "Grilled Black Angus Ribeye",
+    "name_ko": "블랙 앵거스 립아이 스테이크",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Grilled Black Angus Ribeye Steak",
+    "name_zh": "炭烤黑安格斯肋眼牛排",
+    "name_ru": "Стейк рибай из черного ангуса на гриле",
+    "name_ja": "ブラックアンガス リブアイステーキ炭火焼き",
+    "name_hi": "ग्रिल्ड ब्लैक एंगस रिब-आई स्टेक"
+  },
+  {
+    "name_original": "Pan-seared Salmon Fillet",
+    "name_ko": "노르웨이산 연어 스테이크",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Pan-Seared Salmon Fillet",
+    "name_zh": "香煎三文鱼柳",
+    "name_ru": "Обжаренное филе лосося",
+    "name_ja": "サーモンフィレのソテー",
+    "name_hi": "पैन-सीयर साल्मन फिलेट"
+  },
+  {
+    "name_original": "Chicken Club Sandwich",
+    "name_ko": "치킨 클럽 샌드위치",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Chicken Club Sandwich",
+    "name_zh": "经典鸡肉俱乐部三明治",
+    "name_ru": "Клаб-сэндвич с курицей",
+    "name_ja": "チキンクラブハウスサンドイッチ",
+    "name_hi": "चिकन क्लब सैंडविच"
+  },
+  {
+    "name_original": "The Merchant Wagyu Burger",
+    "name_ko": "더 머천트 시그니처 와규 버거",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "The Merchant Wagyu Burger",
+    "name_zh": "The Merchant招牌和牛汉堡",
+    "name_ru": "Фирменный бургер с вагю The Merchant",
+    "name_ja": "The Merchant 特製和牛バーガー",
+    "name_hi": "द मर्चेंट वाग्यू बर्गर"
+  },
+  {
+    "name_original": "Four Cheese Ravioli",
+    "name_ko": "4종 치즈 수제 라비올리",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Four Cheese Ravioli",
+    "name_zh": "四重芝士意大利饺",
+    "name_ru": "Равиоли с четырьмя сырами",
+    "name_ja": "4種のチーズ手作りラビオリ",
+    "name_hi": "फोर चीज़ रैवियोली"
+  }
+]

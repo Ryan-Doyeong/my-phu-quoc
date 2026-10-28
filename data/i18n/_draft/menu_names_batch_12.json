@@ -1,0 +1,602 @@
+[
+  {
+    "name_original": "Vededi Right Rum - shot",
+    "name_ko": "베데디 라이트 럼 (샷)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ],
+    "name_en": "Vededi Light Rum (Shot)",
+    "name_zh": "Vededi 浅色朗姆酒（单份角酒）",
+    "name_ru": "Ром Vededi Right (шот)",
+    "name_ja": "ヴェデディ ライトラム（ショット）",
+    "name_hi": "वेडेडी लाइट रम (शॉट)"
+  },
+  {
+    "name_original": "Vededi Right Rum - bottle",
+    "name_ko": "베데디 라이트 럼 (보틀)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ],
+    "name_en": "Vededi Light Rum (Bottle)",
+    "name_zh": "Vededi 浅色朗姆酒（整瓶）",
+    "name_ru": "Ром Vededi Right (бутылка)",
+    "name_ja": "ヴェデディ ライトラム（ボトル）",
+    "name_hi": "वेडेडी लाइट रम (बोतल)"
+  },
+  {
+    "name_original": "Belami ROC 16 Delta - shot",
+    "name_ko": "벨라미 ROC 16 델타 (샷)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ],
+    "name_en": "Belami ROC 16 Delta Rum (Shot)",
+    "name_zh": "贝拉米 ROC 16 三角洲朗姆酒（单份角酒）",
+    "name_ru": "Ром Belami ROC 16 Delta (шот)",
+    "name_ja": "ベラミ ROC 16 デルタ（ショット）",
+    "name_hi": "बेलामी आरओसी 16 डेल्टा रम (शॉट)"
+  },
+  {
+    "name_original": "Belami ROC 16 Delta - bottle",
+    "name_ko": "벨라미 ROC 16 델타 (보틀)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ],
+    "name_en": "Belami ROC 16 Delta Rum (Bottle)",
+    "name_zh": "贝拉米 ROC 16 三角洲朗姆酒（整瓶）",
+    "name_ru": "Ром Belami ROC 16 Delta (бутылка)",
+    "name_ja": "ベラミ ROC 16 デルタ（ボトル）",
+    "name_hi": "बेलामी आरओसी 16 डेल्टा रम (बोतल)"
+  },
+  {
+    "name_original": "Patrón Silver - shot",
+    "name_ko": "파트론 실버 (샷)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ],
+    "name_en": "Patrón Silver Tequila (Shot)",
+    "name_zh": "培恩银尊龙舌兰酒（单份角酒）",
+    "name_ru": "Патрон Сильвер (шот)",
+    "name_ja": "パトロン シルバー（ショット）",
+    "name_hi": "पैट्रोन सिल्वर (शॉट)"
+  },
+  {
+    "name_original": "Ketel One - shot",
+    "name_ko": "케텔 원 (샷)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ],
+    "name_en": "Ketel One Vodka (Shot)",
+    "name_zh": "魁列一号伏特加（单份角酒）",
+    "name_ru": "Кетел Ван (шот)",
+    "name_ja": "ケテル・ワン（ショット）",
+    "name_hi": "केटेल वन वोदका (शॉट)"
+  },
+  {
+    "name_original": "Ketel One - bottle",
+    "name_ko": "케텔 원 (보틀)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ],
+    "name_en": "Ketel One Vodka (Bottle)",
+    "name_zh": "魁列一号伏特加（整瓶）",
+    "name_ru": "Кетел Ван (бутылка)",
+    "name_ja": "ケテル・ワン（ボトル）",
+    "name_hi": "केटेल वन वोदका (बोतल)"
+  },
+  {
+    "name_original": "Grey Goose - shot",
+    "name_ko": "그레이 구스 (샷)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ],
+    "name_en": "Grey Goose Vodka (Shot)",
+    "name_zh": "灰雁伏特加（单份角酒）",
+    "name_ru": "Грей Гус (шот)",
+    "name_ja": "グレイグース（ショット）",
+    "name_hi": "ग्रे गूज़ वोदका (शॉट)"
+  },
+  {
+    "name_original": "Dewar's 12 Year Old - shot",
+    "name_ko": "듀어스 12년 (샷)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ],
+    "name_en": "Dewar's 12 Years Blended Scotch Whisky (Shot)",
+    "name_zh": "帝王12年调配苏格兰威士忌（单份角酒）",
+    "name_ru": "Дюарс 12 лет (шот)",
+    "name_ja": "デュワーズ 12年（ショット）",
+    "name_hi": "डेवर्स 12 इयर्स (शॉट)"
+  },
+  {
+    "name_original": "Dewar's 12 Year Old - bottle",
+    "name_ko": "듀어스 12년 (보틀)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ],
+    "name_en": "Dewar's 12 Years Blended Scotch Whisky (Bottle)",
+    "name_zh": "帝王12年调配苏格兰威士忌（整瓶）",
+    "name_ru": "Дюарс 12 лет (бутылка)",
+    "name_ja": "デュワーズ 12年（ボトル）",
+    "name_hi": "डेवर्स 12 इयर्स (बोतल)"
+  },
+  {
+    "name_original": "Vededi Single Malt Distiller's Choice - shot",
+    "name_ko": "베데디 싱글몰트 (샷)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ],
+    "name_en": "Vededi Single Malt Distiller's Choice (Shot)",
+    "name_zh": "Vededi 蒸馏大师精选单一麦芽威士忌（单份角酒）",
+    "name_ru": "Виски Vededi Single Malt Distiller's Choice (шот)",
+    "name_ja": "ヴェデディ シングルモルト ディスティラーズ・チョイス（ショット）",
+    "name_hi": "वेडेडी सिंगल माल्ट डिस्टिलर्स च्वाइस (शॉट)"
+  },
+  {
+    "name_original": "Vededi Single Malt Distiller's Choice - bottle",
+    "name_ko": "베데디 싱글몰트 (보틀)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ],
+    "name_en": "Vededi Single Malt Distiller's Choice (Bottle)",
+    "name_zh": "Vededi 蒸馏大师精选单一麦芽威士忌（整瓶）",
+    "name_ru": "Виски Vededi Single Malt Distiller's Choice (бутылка)",
+    "name_ja": "ヴェデディ シングルモルト ディスティラーズ・チョイス（ボトル）",
+    "name_hi": "वेडेडी सिंगल माल्ट डिस्टिलर्स च्वाइस (बोतल)"
+  },
+  {
+    "name_original": "Hennessy V.S - shot",
+    "name_ko": "헤네시 V.S (샷)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ],
+    "name_en": "Hennessy V.S Cognac (Shot)",
+    "name_zh": "轩尼诗VS干邑白兰地（单份角酒）",
+    "name_ru": "Хеннесси V.S (шот)",
+    "name_ja": "ヘネシー V.S（ショット）",
+    "name_hi": "हेनेसी वी.एस (शॉट)"
+  },
+  {
+    "name_original": "Hennessy V.S - bottle",
+    "name_ko": "헤네시 V.S (보틀)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ],
+    "name_en": "Hennessy V.S Cognac (Bottle)",
+    "name_zh": "轩尼诗VS干邑白兰地（整瓶）",
+    "name_ru": "Хеннесси V.S (бутылка)",
+    "name_ja": "ヘネシー V.S（ボトル）",
+    "name_hi": "हेनेसी वी.एस (बोतल)"
+  },
+  {
+    "name_original": "Croissant au Beurre (French Butter Croissant)",
+    "name_ko": "버터 크루아상 (프랑스 AOP 버터 100%)",
+    "place_ids": [
+      "ChIJjVDpHgiHCjERTaQVRRrVJ9Y"
+    ],
+    "name_en": "French Pure Butter Croissant",
+    "name_zh": "法式纯黄油牛角可颂",
+    "name_ru": "Французский сливочный круассан",
+    "name_ja": "フランス産バタークロワッサン",
+    "name_hi": "फ्रेंच मक्खन क्रोइसैन्ट"
+  },
+  {
+    "name_original": "Pain au Chocolat",
+    "name_ko": "뺑 오 쇼콜라",
+    "place_ids": [
+      "ChIJjVDpHgiHCjERTaQVRRrVJ9Y"
+    ],
+    "name_en": "Pain au Chocolat (Chocolate Croissant)",
+    "name_zh": "法式巧克力牛角可颂",
+    "name_ru": "Пан-о-шоколя (шоколадный круассан)",
+    "name_ja": "パン・オ・ショコラ",
+    "name_hi": "पैन औ चॉकलाट (चॉकलेट क्रोइसैन्ट)"
+  },
+  {
+    "name_original": "Baguette Monge (Artisanal Monge Baguette)",
+    "name_ko": "바게트 몽쥬 (천연 발효 정통 프랑스 바게트)",
+    "place_ids": [
+      "ChIJjVDpHgiHCjERTaQVRRrVJ9Y"
+    ],
+    "name_en": "Monge Traditional Artisanal Baguette",
+    "name_zh": "蒙日传统手工天然酵母法棍",
+    "name_ru": "Традиционный французский ремесленный багет Монж",
+    "name_ja": "バゲット・モンジュ（伝統フランスパン）",
+    "name_hi": "मोंगे पारंपरिक कारीगर बगेट"
+  },
+  {
+    "name_original": "Tarte au Citron Meringuée (Lemon Meringue Tart)",
+    "name_ko": "레몬 머랭 타르트",
+    "place_ids": [
+      "ChIJjVDpHgiHCjERTaQVRRrVJ9Y"
+    ],
+    "name_en": "Lemon Meringue Tart",
+    "name_zh": "法式柠檬蛋白霜挞",
+    "name_ru": "Лимонный тарт с меренгой",
+    "name_ja": "レモンメレンゲタルト",
+    "name_hi": "लेमन मेरिंग्यू टार्ट"
+  },
+  {
+    "name_original": "Café Latte / Cappuccino",
+    "name_ko": "카페 라떼 / 카푸치노",
+    "place_ids": [
+      "ChIJjVDpHgiHCjERTaQVRRrVJ9Y"
+    ],
+    "name_en": "Café Latte / Cappuccino",
+    "name_zh": "拿铁咖啡 / 卡布奇诺",
+    "name_ru": "Латте / Капучино",
+    "name_ja": "カフェラテ / カプチーノ",
+    "name_hi": "कैफ़े लाते / कैपुचीनो"
+  },
+  {
+    "name_original": "Americano (Hot / Iced)",
+    "name_ko": "아메리카노 (핫 / 아이스)",
+    "place_ids": [
+      "ChIJjVDpHgiHCjERTaQVRRrVJ9Y"
+    ],
+    "name_en": "Americano (Hot / Iced)",
+    "name_zh": "美式咖啡（热 / 冰）",
+    "name_ru": "Американо (горячий / со льдом)",
+    "name_ja": "アメリカーノ（ホット / アイス）",
+    "name_hi": "अमेरिकानो (गर्म / आइस्ड)"
+  },
+  {
+    "name_original": "Cà phê trứng (Egg Coffee)",
+    "name_ko": "하노이식 수제 에그 커피",
+    "place_ids": [
+      "ChIJYx62SU2VpzERzC6ZA_AF9YY"
+    ],
+    "name_en": "Traditional Hanoi Egg Coffee",
+    "name_zh": "河内传统手工蛋黄咖啡",
+    "name_ru": "Традиционный ханойский яичный кофе",
+    "name_ja": "ハノイ名物エッグコーヒー",
+    "name_hi": "पारंपरिक हनोई एग कॉफ़ी"
+  },
+  {
+    "name_original": "Cà phê cốt dừa (Coconut Coffee)",
+    "name_ko": "코코넛 스무디 커피",
+    "place_ids": [
+      "ChIJYx62SU2VpzERzC6ZA_AF9YY"
+    ],
+    "name_en": "Vietnamese Coconut Smoothie Coffee",
+    "name_zh": "椰浆冰沙咖啡",
+    "name_ru": "Кофе со смузи из кокосового молока",
+    "name_ja": "ココナッツスムージーコーヒー",
+    "name_hi": "नारियल स्मूदी कॉफ़ी"
+  },
+  {
+    "name_original": "Cà phê sữa đá (Vietnamese Iced Milk Coffee)",
+    "name_ko": "베트남 전통 연유 아이스 커피",
+    "place_ids": [
+      "ChIJYx62SU2VpzERzC6ZA_AF9YY"
+    ],
+    "name_en": "Traditional Vietnamese Iced Milk Coffee",
+    "name_zh": "越南传统炼乳冰咖啡",
+    "name_ru": "Вьетнамский холодный кофе со сгущенным молоком",
+    "name_ja": "ベトナム伝統アイス練乳コーヒー",
+    "name_hi": "पारंपरिक वियतनामी आइस्ड मिल्क कॉफ़ी"
+  },
+  {
+    "name_original": "Bánh mì bò tiêu đen (Black Pepper Beef Banh Mi)",
+    "name_ko": "블랙페퍼 소고기 반미 바게트 샌드위치",
+    "place_ids": [
+      "ChIJYx62SU2VpzERzC6ZA_AF9YY"
+    ],
+    "name_en": "Black Pepper Beef Banh Mi",
+    "name_zh": "黑胡椒牛肉法棍三明治",
+    "name_ru": "Бань ми с говядиной в черном перце",
+    "name_ja": "黒胡椒牛肉のバインミー",
+    "name_hi": "काली मिर्च बीफ बान्ह मी"
+  },
+  {
+    "name_original": "Bánh mì thịt nguội (Traditional Cold Cuts Banh Mi)",
+    "name_ko": "베트남 전통 햄 & 파테 반미",
+    "place_ids": [
+      "ChIJYx62SU2VpzERzC6ZA_AF9YY"
+    ],
+    "name_en": "Traditional Cold Cuts & Pâté Banh Mi",
+    "name_zh": "传统冷肉肝酱法棍三明治",
+    "name_ru": "Традиционный бань ми с мясным ассорти и паштетом",
+    "name_ja": "伝統ハム＆パテのバインミー",
+    "name_hi": "पारंपरिक कोल्ड कट्स और पेटे बान्ह मी"
+  },
+  {
+    "name_original": "Phở bò tái nạm (Beef Pho Noodle Soup)",
+    "name_ko": "진한 소고기 양지 차돌 쌀국수",
+    "place_ids": [
+      "ChIJYx62SU2VpzERzC6ZA_AF9YY"
+    ],
+    "name_en": "Vietnamese Beef Pho with Rare Steak and Flank",
+    "name_zh": "鲜牛肉牛腩越南河粉",
+    "name_ru": "Вьетнамский фо бо с говяжьей грудинкой и вырезкой",
+    "name_ja": "牛肉フォー（半生肉＆牛バラ肉入り）",
+    "name_hi": "वियतनामी बीफ फो नूडल सूप"
+  },
+  {
+    "name_original": "Sinh tố bơ cốt dừa (Avocado Coconut Smoothie)",
+    "name_ko": "아보카도 코코넛 생과일 스무디",
+    "place_ids": [
+      "ChIJYx62SU2VpzERzC6ZA_AF9YY"
+    ],
+    "name_en": "Avocado Coconut Smoothie",
+    "name_zh": "鳄梨椰浆鲜果冰沙",
+    "name_ru": "Смузи из авокадо и кокосового молока",
+    "name_ja": "アボカドココナッツスムージー",
+    "name_hi": "एवोकैडो कोकोनट स्मूदी"
+  },
+  {
+    "name_original": "Sun KraftBeer Munich Helles (Lager)",
+    "name_ko": "뮌헨 헬레스 라거 수제맥주 (500ml)",
+    "place_ids": [
+      "ChIJAwwqc2yVpzER_4K_0feO5I8"
+    ],
+    "name_en": "Sun KraftBeer Munich Helles Lager",
+    "name_zh": "太阳精酿慕尼黑淡色拉格生啤",
+    "name_ru": "Крафтовое пиво Sun KraftBeer Мюнхен Хеллес",
+    "name_ja": "サンクラフトビール ミュンヘン・ヘレス（ラガー）",
+    "name_hi": "सन क्राफ्ट बीयर म्यूनिख हेल्स (लेगर)"
+  },
+  {
+    "name_original": "Sun KraftBeer Weizen (Wheat Beer)",
+    "name_ko": "바이젠 밀맥주 (500ml)",
+    "place_ids": [
+      "ChIJAwwqc2yVpzER_4K_0feO5I8"
+    ],
+    "name_en": "Sun KraftBeer Bavarian Weizen Wheat Beer",
+    "name_zh": "太阳精酿巴伐利亚小麦白啤",
+    "name_ru": "Крафтовое пшеничное пиво Sun KraftBeer Вайцен",
+    "name_ja": "サンクラフトビール ヴァイツェン（白ビール）",
+    "name_hi": "सन क्राफ्ट बीयर वाइज़न (व्हीट बीयर)"
+  },
+  {
+    "name_original": "Sun KraftBeer Dark Dunkel",
+    "name_ko": "둔켈 흑맥주 (500ml)",
+    "place_ids": [
+      "ChIJAwwqc2yVpzER_4K_0feO5I8"
+    ],
+    "name_en": "Sun KraftBeer Munich Dunkel Dark Beer",
+    "name_zh": "太阳精酿慕尼黑邓克尔黑啤",
+    "name_ru": "Крафтовое темное пиво Sun KraftBeer Дункель",
+    "name_ja": "サンクラフトビール ドゥンケル（黒ビール）",
+    "name_hi": "सन क्राफ्ट बीयर डंकेल (डार्क बीयर)"
+  },
+  {
+    "name_original": "Đùi Heo Muối Chiên Giòn (Crispy Bavarian Schweinshaxe)",
+    "name_ko": "독일식 슈바인학센 (겉바속촉 족발 구이)",
+    "place_ids": [
+      "ChIJAwwqc2yVpzER_4K_0feO5I8"
+    ],
+    "name_en": "Crispy Roasted Bavarian Pork Knuckle (Schweinshaxe)",
+    "name_zh": "德式脆皮烤猪肘",
+    "name_ru": "Хрустящая баварская свиная рулька (швайнсхаксе)",
+    "name_ja": "ドイツ風クリスピーアイスバイン（シュバインスハクセ）",
+    "name_hi": "कुरकुरा बवेरियन रोस्टेड पोर्क नकल (श्विनशैकसे)"
+  },
+  {
+    "name_original": "Xúc Xích Đức Tổng Hợp (Assorted German Sausages Platter)",
+    "name_ko": "독일식 모둠 수제 소시지 플래터",
+    "place_ids": [
+      "ChIJAwwqc2yVpzER_4K_0feO5I8"
+    ],
+    "name_en": "Assorted German Artisanal Sausages Platter",
+    "name_zh": "德式综合手工香肠拼盘",
+    "name_ru": "Ассорти из немецких домашних колбасок",
+    "name_ja": "ドイツ風自家製ソーセージ盛り合わせ",
+    "name_hi": "जर्मन सॉसेज प्लेटर"
+  },
+  {
+    "name_original": "Gói Buffet Tối + Xem Show Symphony of the Sea (Dinner Buffet & Show)",
+    "name_ko": "디너 뷔페 + 심포니 오브 더 씨 수상쇼 관람 패키지 (1인)",
+    "place_ids": [
+      "ChIJAwwqc2yVpzER_4K_0feO5I8"
+    ],
+    "name_en": "Dinner Buffet & Symphony of the Sea Show Package",
+    "name_zh": "晚餐自助与大海交响乐水上秀套票",
+    "name_ru": "Пакет «Ужин шведский стол и водное шоу Симфония моря»",
+    "name_ja": "ディナービュッフェ＋シンフォニー・オブ・ザ・シー鑑賞パッケージ",
+    "name_hi": "डिनर बुफे और सिम्फनी ऑफ द सी शो पैकेज"
+  },
+  {
+    "name_original": "Chả giò hoàng hôn (Sunset Spring Rolls)",
+    "name_ko": "선셋 특제 수제 스프링롤",
+    "place_ids": [
+      "ChIJfyqPrL2VpzERtUaB6o2c_ZU"
+    ],
+    "name_en": "Sunset Signature Crispy Spring Rolls",
+    "name_zh": "日落特制脆皮手工炸春卷",
+    "name_ru": "Фирменные хрустящие спринг-роллы «Сансет»",
+    "name_ja": "サンセット特製クリスピー春巻き",
+    "name_hi": "सनसेट सिग्नेचर क्रिस्पी स्प्रिंग रोल"
+  },
+  {
+    "name_original": "Lẩu nấm tràm Phú Quốc (Melaleuca Mushroom Hot Pot)",
+    "name_ko": "푸꾸옥 특산 짬버섯(멜라루카 버섯) 해산물 전골",
+    "place_ids": [
+      "ChIJfyqPrL2VpzERtUaB6o2c_ZU"
+    ],
+    "name_en": "Phu Quoc Melaleuca Mushroom Seafood Hot Pot",
+    "name_zh": "富国岛特产白千层红菇海鲜火锅",
+    "name_ru": "Морской хот-пот с местными грибами мелалеука острова Фукуок",
+    "name_ja": "フーコック特産メラルーカ茸と魚介の鍋",
+    "name_hi": "फु क्वोक मेलालेउका मशरूम सीफूड हॉट पॉट"
+  },
+  {
+    "name_original": "Lẩu ghẹ Hàm Ninh (Ham Ninh Flower Crab Hot Pot)",
+    "name_ko": "함닌 꽃게 해산물 전골",
+    "place_ids": [
+      "ChIJfyqPrL2VpzERtUaB6o2c_ZU"
+    ],
+    "name_en": "Ham Ninh Blue Crab Seafood Hot Pot",
+    "name_zh": "涵宁花蟹海鲜火锅",
+    "name_ru": "Морской хот-пот с крабом из деревни Хамнинь",
+    "name_ja": "ハムニン産ワタリガニの海鮮鍋",
+    "name_hi": "हाम निन्ह ब्लू क्रैब सीफूड हॉट पॉट"
+  },
+  {
+    "name_original": "Tôm sú sốt bơ tỏi (Garlic Butter Black Tiger Prawns)",
+    "name_ko": "블랙타이거 새우 갈릭버터 구이",
+    "place_ids": [
+      "ChIJfyqPrL2VpzERtUaB6o2c_ZU"
+    ],
+    "name_en": "Black Tiger Prawns in Garlic Butter Sauce",
+    "name_zh": "蒜香黄油黑虎虾",
+    "name_ru": "Черные тигровые креветки в чесночно-масляном соусе",
+    "name_ja": "ブラックタイガー海老のガーリックバター炒め",
+    "name_hi": "लहसुन मक्खन सॉस में ब्लैक टाइगर प्रॉन"
+  },
+  {
+    "name_original": "Rượu vang Ý & Cocktail Địa Trung Hải",
+    "name_ko": "이탈리아 직수입 와인 및 지중해풍 칵테일",
+    "place_ids": [
+      "ChIJfyqPrL2VpzERtUaB6o2c_ZU"
+    ],
+    "name_en": "Italian Wine & Mediterranean Cocktails",
+    "name_zh": "意大利葡萄酒与地中海风味鸡尾酒",
+    "name_ru": "Итальянские вина и средиземноморские коктейли",
+    "name_ja": "イタリア直輸入ワイン＆地中海風カクテル",
+    "name_hi": "इतालवी वाइन और भूमध्यसागरीय कॉकटेल"
+  },
+  {
+    "name_original": "Ghẹ Hàm Ninh hấp (Steamed Ham Ninh Crab)",
+    "name_ko": "함닌 자연산 꽃게 찜",
+    "place_ids": [
+      "ChIJr-c8ZACVpzER41yqzYEUGAE"
+    ],
+    "name_en": "Steamed Fresh Ham Ninh Flower Crab",
+    "name_zh": "清蒸涵宁野生花蟹",
+    "name_ru": "Паровой краб из Хамниня",
+    "name_ja": "ハムニン産天然ワタリガニの姿蒸し",
+    "name_hi": "उबला हुआ ताज़ा हाम निन्ह केकड़ा"
+  },
+  {
+    "name_original": "Mực trứng nướng sa tế",
+    "name_ko": "알배기 오징어 사테 구이",
+    "place_ids": [
+      "ChIJr-c8ZACVpzER41yqzYEUGAE"
+    ],
+    "name_en": "Grilled Egg Squid with Satay Chili Sauce",
+    "name_zh": "沙爹辣酱烤籽乌贼",
+    "name_ru": "Кальмар с икрой на гриле в соусе сате",
+    "name_ja": "子持ちヤリイカのサテ唐辛子炭火焼き",
+    "name_hi": "साते सॉस के साथ ग्रिल्ड एग स्क्विड"
+  },
+  {
+    "name_original": "Ngao 2 còi hấp sả",
+    "name_ko": "대형 가리비/조개 레몬그라스 찜",
+    "place_ids": [
+      "ChIJr-c8ZACVpzER41yqzYEUGAE"
+    ],
+    "name_en": "Steamed Giant Clams with Lemongrass",
+    "name_zh": "香茅蒸双柱大蛤蜊",
+    "name_ru": "Паровые двустворчатые моллюски с лемонграссом",
+    "name_ja": "大粒アサリ（二枚貝）のレモングラス蒸し",
+    "name_hi": "लेमनग्रास के साथ उबला हुआ क्लैम"
+  },
+  {
+    "name_original": "Phin Sữa Đá (Iced Coffee with Condensed Milk)",
+    "name_ko": "카페 쓰어다 (베트남 전통 핀 연유 아이스 커피)",
+    "place_ids": [
+      "ChIJhwN-oSqXpzERgUhhE4tiYRE"
+    ],
+    "name_en": "Traditional Vietnamese Drip Iced Coffee with Condensed Milk",
+    "name_zh": "滴漏炼乳冰咖啡",
+    "name_ru": "Традиционный вьетнамский холодный кофе фин со сгущенкой",
+    "name_ja": "ベトナム伝統フィン抽出アイス練乳コーヒー",
+    "name_hi": "पारंपरिक वियतनामी ड्रिप आइस्ड मिल्क कॉफ़ी"
+  },
+  {
+    "name_original": "Phin Đen Đá (Iced Black Coffee)",
+    "name_ko": "카페 덴다 (베트남 전통 핀 블랙 아이스 커피)",
+    "place_ids": [
+      "ChIJhwN-oSqXpzERgUhhE4tiYRE"
+    ],
+    "name_en": "Traditional Vietnamese Drip Iced Black Coffee",
+    "name_zh": "滴漏黑冰咖啡",
+    "name_ru": "Традиционный вьетнамский холодный черный кофе фин",
+    "name_ja": "ベトナム伝統フィン抽出アイスブラックコーヒー",
+    "name_hi": "पारंपरिक वियतनामी ड्रिप आइस्ड ब्लैक कॉफ़ी"
+  },
+  {
+    "name_original": "Bạc Xỉu Đá (White Coffee with Extra Milk)",
+    "name_ko": "박시우 (부드러운 연유 라떼)",
+    "place_ids": [
+      "ChIJhwN-oSqXpzERgUhhE4tiYRE"
+    ],
+    "name_en": "Bac Xiu (Vietnamese Sweet Milk Drip Coffee)",
+    "name_zh": "白秀三层炼乳冰咖啡",
+    "name_ru": "Бак сиу (вьетнамский мягкий кофе с молоком со льдом)",
+    "name_ja": "バクシウ（ミルクたっぷりベトナムアイスコーヒー）",
+    "name_hi": "बाक सिउ (अतिरिक्त दूध के साथ वियतनामी मीठी आइस्ड कॉफ़ी)"
+  },
+  {
+    "name_original": "Trà Sen Vàng (Golden Lotus Seed Tea)",
+    "name_ko": "짜 센 방 (골든 연꽃씨 밀크티)",
+    "place_ids": [
+      "ChIJhwN-oSqXpzERgUhhE4tiYRE"
+    ],
+    "name_en": "Golden Lotus Seed Tea",
+    "name_zh": "金莲子乌龙茶",
+    "name_ru": "Чай с семенами золотого лотоса",
+    "name_ja": "ゴールデン・ロータスシードティー（蓮の実茶）",
+    "name_hi": "गोल्डन कमल के बीज वाली चाय"
+  },
+  {
+    "name_original": "Trà Thạch Đào (Peach Jelly Tea)",
+    "name_ko": "복숭아 젤리 아이스티",
+    "place_ids": [
+      "ChIJhwN-oSqXpzERgUhhE4tiYRE"
+    ],
+    "name_en": "Iced Peach Tea with Peach Jelly",
+    "name_zh": "蜜桃果冻冰茶",
+    "name_ru": "Персиковый чай со льдом и желе",
+    "name_ja": "ピーチゼリーアイスティー",
+    "name_hi": "आड़ू जेली आइस्ड टी"
+  },
+  {
+    "name_original": "Freeze Trà Xanh (Green Tea Freeze)",
+    "name_ko": "그린티 프리즈 (녹차 블렌디드 스무디)",
+    "place_ids": [
+      "ChIJhwN-oSqXpzERgUhhE4tiYRE"
+    ],
+    "name_en": "Green Tea Freeze (Matcha Blended Ice)",
+    "name_zh": "抹茶绿茶冰沙",
+    "name_ru": "Зеленый чай фриз (маття айс-смузи)",
+    "name_ja": "グリーンティー・フリーズ（抹茶フローズン）",
+    "name_hi": "ग्रीन टी फ्रीज़ (माचा ब्लेंडेड स्मूदी)"
+  },
+  {
+    "name_original": "Caramel Phin Freeze",
+    "name_ko": "카라멜 핀 프리즈",
+    "place_ids": [
+      "ChIJhwN-oSqXpzERgUhhE4tiYRE"
+    ],
+    "name_en": "Caramel Phin Freeze (Blended Drip Coffee)",
+    "name_zh": "焦糖滴漏咖啡冰沙",
+    "name_ru": "Карамельный кофейный фриз фин",
+    "name_ja": "キャラメル・フィン・フリーズ（コーヒーフローズン）",
+    "name_hi": "कारमेल फिन फ्रीज़ (ब्लेंडेड कॉफ़ी स्मूदी)"
+  },
+  {
+    "name_original": "Bánh Mì Thịt Nướng (Grilled Pork Banh Mi)",
+    "name_ko": "바비큐 돼지고기 반미",
+    "place_ids": [
+      "ChIJhwN-oSqXpzERgUhhE4tiYRE"
+    ],
+    "name_en": "Grilled Pork Banh Mi Baguette",
+    "name_zh": "炭烤猪肉法棍三明治",
+    "name_ru": "Бань ми с жареной свининой барбекю",
+    "name_ja": "焼き豚肉のバインミー",
+    "name_hi": "ग्रिल्ड पोर्क बान्ह मी"
+  },
+  {
+    "name_original": "Tôm sú sốt cay ngọt (Steamed Sweet & Spicy Prawns)",
+    "name_ko": "매콤달콤 특제 소스 타이거새우 찜 요리",
+    "place_ids": [
+      "ChIJRT9hCe6VpzER9hYA7wlPylM"
+    ],
+    "name_en": "Tiger Prawns in Sweet & Spicy Sauce",
+    "name_zh": "甜辣风味黑虎虾",
+    "name_ru": "Черные тигровые креветки в кисло-сладком остром соусе",
+    "name_ja": "タイガー海老の甘辛チリソース炒め",
+    "name_hi": "मीठी और तीखी सॉस में टाइगर प्रॉन"
+  }
+]
