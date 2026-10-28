@@ -93,19 +93,73 @@ function splitViEn(text: string): { vi: string; en: string } {
 
 export function cleanSourcesSummaryNonKo(src: string): string {
   if (!src) return 'Official Menu'
+
+  // 1. Remove Hangul
   let s = src.replace(/[\uac00-\ud7a3]+/g, '')
-  // 글자가 없는 괄호(숫자/구분자만 남은 것 포함) 제거
-  s = s.replace(/\([^a-zA-Z\u00C0-\u024F\u1EA0-\u1EF9\u4e00-\u9fa5\u0400-\u04FF\u0900-\u097F)]*\)/g, '')
-  s = s.replace(/\[[^a-zA-Z\u00C0-\u024F\u1EA0-\u1EF9\u4e00-\u9fa5\u0400-\u04FF\u0900-\u097F\]]*\]/g, '')
-  s = s.replace(/[\(\[\{]\s*[\)\]\}]/g, '')
-  s = s.replace(/\s*,\s*,+/g, ', ')
+
+  // Letter regex (Latin, Vietnamese diacritics, CJK, Cyrillic, Hindi)
+  const letterRe = /[a-zA-Z\u00C0-\u024F\u1EA0-\u1EF9\u4e00-\u9fa5\u0400-\u04FF\u0900-\u097F]/
+
+  // 2. Iteratively remove brackets containing NO letters & clean inside brackets
+  for (let i = 0; i < 3; i++) {
+    s = s.replace(/\([^()]*\)/g, (match) => (letterRe.test(match) ? match : ''))
+    s = s.replace(/\[[^\[\]]*\]/g, (match) => (letterRe.test(match) ? match : ''))
+    s = s.replace(/\([\s,;:\-_/.]+/g, '(')
+    s = s.replace(/[\s,;:\-_/.]+\)/g, ')')
+    s = s.replace(/\[[\s,;:\-_/.]+/g, '[')
+    s = s.replace(/[\s,;:\-_/.]+\]/g, ']')
+    s = s.replace(/\(\s*\)/g, '')
+    s = s.replace(/\[\s*\]/g, '')
+  }
+
+  // 3. Clean unbalanced brackets
+  const openCount = (s.match(/\(/g) || []).length
+  const closeCount = (s.match(/\)/g) || []).length
+  if (openCount > closeCount) {
+    let diff = openCount - closeCount
+    s = s.replace(/\(/g, (m) => (diff-- > 0 ? '' : m))
+  } else if (closeCount > openCount) {
+    let diff = closeCount - openCount
+    s = s.replace(/\)/g, (m) => (diff-- > 0 ? '' : m))
+  }
+
+  // 4. Clean delimiters & symbols
+  s = s.replace(/\s*([,;:])\s*([,;:])+/g, '$1 ')
   s = s.replace(/\s*,\s*/g, ', ')
-  s = s.replace(/[\s\-_/]+/g, ' ').trim()
-  s = s.replace(/^[,\s\-_/.:;]+|[,\s\-_/.:;]+$/g, '').trim()
-  if (!s || !/[a-zA-Z0-9]/.test(s)) {
+  s = s.replace(/\s*-\s*-\s*/g, ' - ')
+  s = s.replace(/,\s*-\s*/g, ', ')
+  s = s.replace(/-\s*,\s*/g, ', ')
+  s = s.replace(/\s*&\s*,\s*/g, ', ')
+  s = s.replace(/\s*,\s*&\s*/g, ', ')
+  s = s.replace(/\s{2,}/g, ' ')
+
+  // 5. Trim leading/trailing punctuation & symbols
+  s = s.replace(/^[,\s\-_/.:;+&|~]+|[,\s\-_/.:;+&|~]+$/g, '').trim()
+
+  // 6. Unwrap single surrounding parens/brackets
+  if (s.startsWith('(') && s.endsWith(')') && (s.match(/\(/g) || []).length === 1 && (s.match(/\)/g) || []).length === 1) {
+    s = s.slice(1, -1).trim()
+  }
+  if (s.startsWith('[') && s.endsWith(']') && (s.match(/\[/g) || []).length === 1 && (s.match(/\]/g) || []).length === 1) {
+    s = s.slice(1, -1).trim()
+  }
+
+  // 7. Check if meaningful name remains (at least 2 letters, not price/noise)
+  const letters = s.match(new RegExp(letterRe.source, 'g'))
+  if (!letters || letters.length < 2) {
     return 'Official Menu'
   }
-  return s
+
+  // Filter residual prices like '2 299, 000 VND' or internal codes 's1', '3F', 'SNS'
+  if (/^[\d\s,.~]+(?:VND|USD|VND\/USD)?$/i.test(s)) {
+    return 'Official Menu'
+  }
+  if (['s1', '3f', 'sns'].includes(s.toLowerCase())) {
+    return 'Official Menu'
+  }
+
+  s = s.replace(/^[,\s\-_/.:;+&|~]+|[,\s\-_/.:;+&|~]+$/g, '').trim()
+  return s || 'Official Menu'
 }
 
 export const SECTION_CANONICAL_EN_MAP: Record<string, string> = {
