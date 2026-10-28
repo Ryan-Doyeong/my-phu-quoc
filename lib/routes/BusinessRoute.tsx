@@ -53,17 +53,25 @@ export async function generateBusinessMetadata(
 ): Promise<Metadata> {
   const supabase = createPublicClient()
   let b: any = null
+  let dbError = false
   try {
-    const { data } = await supabase
+    const { data, error } = await supabase
       .from('businesses')
       .select('*')
       .eq('slug', slug)
       .eq('status', 'published')
       .maybeSingle()
-    b = data
-  } catch {}
-  if (!b) {
-    // Ryan 지시 (Phase 2.7): draft/비공개 업체는 fallback 레지스트리에서도 노출 차단
+    if (error) {
+      dbError = true
+    } else {
+      b = data
+    }
+  } catch {
+    dbError = true
+  }
+  // Supabase 장애(예외 또는 error) 시에만 로컬 JSON fallback 사용
+  // 정상 응답인데 결과가 없는 경우(data === null, error 없음) 즉시 빈 메타데이터 반환 (fallback 미사용)
+  if (!b && dbError) {
     b = (businessesRegistry as any[]).find((x) => x.slug === slug && x.status === 'published') || null
   }
   if (!b) return {}
@@ -119,17 +127,25 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
   const dict = getDictionary(locale)
   const supabase = createPublicClient()
   let b: any = null
+  let dbError = false
   try {
-    const { data } = await supabase
+    const { data, error } = await supabase
       .from('businesses')
       .select('*')
       .eq('slug', slug)
       .eq('status', 'published')
       .maybeSingle()
-    b = data
-  } catch {}
-  if (!b) {
-    // Ryan 지시 (Phase 2.7): draft/비공개 업체는 fallback 레지스트리에서도 노출 차단
+    if (error) {
+      dbError = true
+    } else {
+      b = data
+    }
+  } catch {
+    dbError = true
+  }
+  // Supabase 장애(예외 또는 error) 시에만 로컬 JSON fallback 사용
+  // 정상 응답인데 결과가 없는 경우(data === null, error 없음) 즉시 404 notFound() (fallback 미사용)
+  if (!b && dbError) {
     b = (businessesRegistry as any[]).find((x) => x.slug === slug && x.status === 'published') || null
   }
   if (!b) notFound()
