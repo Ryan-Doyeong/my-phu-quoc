@@ -63,7 +63,8 @@ export async function generateBusinessMetadata(
     b = data
   } catch {}
   if (!b) {
-    b = (businessesRegistry as any[]).find((x) => x.slug === slug) || null
+    // Ryan 지시 (Phase 2.7): draft/비공개 업체는 fallback 레지스트리에서도 노출 차단
+    b = (businessesRegistry as any[]).find((x) => x.slug === slug && x.status === 'published') || null
   }
   if (!b) return {}
 
@@ -128,7 +129,8 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
     b = data
   } catch {}
   if (!b) {
-    b = (businessesRegistry as any[]).find((x) => x.slug === slug) || null
+    // Ryan 지시 (Phase 2.7): draft/비공개 업체는 fallback 레지스트리에서도 노출 차단
+    b = (businessesRegistry as any[]).find((x) => x.slug === slug && x.status === 'published') || null
   }
   if (!b) notFound()
 
