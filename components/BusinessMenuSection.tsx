@@ -2,10 +2,11 @@
 
 import React, { useState } from 'react'
 import type { BusinessMenuData } from '@/lib/menus'
-import { GRADE_INFO, cleanSourcesSummaryNonKo } from '@/lib/menus'
+import { GRADE_INFO, cleanSourcesSummaryNonKo, SECTION_CANONICAL_EN_MAP } from '@/lib/menus'
 import type { Locale } from '@/lib/i18n/config'
 import { enrichDishDescription } from '@/lib/foodKnowledge'
 import menuNamesTranslations from '@/data/i18n/translations/menu_names.json'
+import sectionTitlesTranslations from '@/data/i18n/translations/section_titles.json'
 
 interface BusinessMenuSectionProps {
   menuData: BusinessMenuData | null
@@ -256,11 +257,24 @@ export function BusinessMenuSection({
       ) : (
         <div className="menuGroupsWrapper menuAccordionList">
           {menuData.sections.map((section, sIdx) => {
-            const sectionTitle = isKo
-              ? section.title_ko || section.title
-              : isVi
-              ? section.title_vi || section.title_en || section.title
-              : section.title_en || section.title
+            const sectionTitle = (() => {
+              if (isKo) return section.title_ko || section.title
+              if (isVi) {
+                const rawVi = section.title_vi || section.title_en || section.title
+                // 비-ko 화면에 한글 섹션 제목이 절대 나오지 않게 방어
+                return /[\uac00-\ud7a3]/.test(rawVi) ? (section.title_en || 'Thực đơn') : rawVi
+              }
+              // en / zh / ru / ja / hi:
+              // section_titles.json[키]?.[locale] 우선, 없으면 title_en, title_en에 한글이 있으면 다시 영어 fallback(없으면 'Menu')
+              const rawKey = section.title_en || ''
+              const key = SECTION_CANONICAL_EN_MAP[rawKey] || rawKey
+              const entry = (sectionTitlesTranslations as Record<string, Record<string, string>>)[key]
+              const tr = entry?.[locale]
+              if (tr && !/[\uac00-\ud7a3]/.test(tr)) return tr
+              if (section.title_en && !/[\uac00-\ud7a3]/.test(section.title_en)) return section.title_en
+              if (entry?.en && !/[\uac00-\ud7a3]/.test(entry.en)) return entry.en
+              return 'Menu'
+            })()
 
             const isOpen = openSectionIdx === sIdx
             const itemCount = section.items.length
