@@ -121,6 +121,16 @@ const SIGNATURE_BADGE: Record<string, string> = {
   hi: 'सिग्नेचर',
 }
 
+const MENU_IMAGES_TITLE: Record<string, string> = {
+  ko: '메뉴판 이미지',
+  vi: 'Hình ảnh thực đơn',
+  en: 'Menu Boards',
+  zh: '菜单图片',
+  ru: 'Фото меню',
+  ja: 'メニュー画像',
+  hi: 'मेन्यू की तस्वीरें',
+}
+
 function formatMenuMetaHeader(date: string, source: string, loc: string): string {
   switch (loc) {
     case 'ko':
@@ -348,7 +358,7 @@ export function BusinessMenuSection({
       {/* Menu boards (원본 메뉴판 이미지 갤러리 섹션) */}
       {menuImages && menuImages.length > 0 && (
         <div className="menuFiles">
-          <h3>{isKo ? '메뉴판 이미지' : isVi ? 'Hình ảnh bảng giá thực tế' : 'Menu Boards'}</h3>
+          <h3>{MENU_IMAGES_TITLE[locale] || MENU_IMAGES_TITLE.en}</h3>
           <div className="menuFileGrid">
             {menuImages.map((img, idx) => (
               <a
