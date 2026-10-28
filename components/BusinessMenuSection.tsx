@@ -5,6 +5,7 @@ import type { BusinessMenuData } from '@/lib/menus'
 import { GRADE_INFO } from '@/lib/menus'
 import type { Locale } from '@/lib/i18n/config'
 import { enrichDishDescription } from '@/lib/foodKnowledge'
+import menuNamesTranslations from '@/data/i18n/translations/menu_names.json'
 
 interface BusinessMenuSectionProps {
   menuData: BusinessMenuData | null
@@ -298,11 +299,20 @@ export function BusinessMenuSection({
                   <ul className="menuItems">
                     {section.items.map((item, iIdx) => {
                       // 접속 언어 1개로만 단일 명칭 노출 (혼란 및 번잡함 제거)
-                      const primaryName = isKo
-                        ? item.name_ko || item.name_original
-                        : isVi
-                        ? item.name_vi || item.name_original
-                        : item.name_en || item.name_original
+                      let primaryName = item.name_original
+                      if (isKo) {
+                        primaryName = item.name_ko || item.name_original
+                      } else if (isVi) {
+                        primaryName = item.name_vi || item.name_original
+                      } else {
+                        // en / zh / ru / ja / hi: 교정 번역본 우선 → 없으면 en → 없으면 name_original
+                        const tr = (menuNamesTranslations as Record<string, Record<string, string>>)[item.name_original]
+                        primaryName =
+                          tr?.[locale] ||
+                          tr?.en ||
+                          item.name_en ||
+                          item.name_original
+                      }
 
                       // 풍부한 일반적 음식 설명 보충 (접속 언어 1개로만 단일 제공)
                       const enriched = enrichDishDescription(

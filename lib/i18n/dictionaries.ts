@@ -13,6 +13,7 @@ import { zh } from './locales/zh'
 import { ru } from './locales/ru'
 import { ko } from './locales/ko'
 import { ja } from './locales/ja'
+import bizDescTranslations from '@/data/i18n/translations/biz_desc.json'
 
 export type { Dictionary } from './dictionaryTypes'
 
@@ -518,9 +519,24 @@ export function localizeStory(story: any, locale: Locale = 'en') {
 }
 
 // 업체(Business) 소개글 선택 헬퍼
-// - 자동번역 절대 없음. 업체가 직접 해당 언어 소개(description_xx)를 등록해 둔 경우에만 표시하고, 없으면 영어 원문 표시
+// - zh/ru/ja/hi: translations/biz_desc[b.slug][locale] 우선 → 없으면 description_en. 비한국어 locale에서 description_ko 로 폴백하지 않음(한글 노출 금지).
+// - ko/en/vi: 기존 동작 유지
 export function selectBusinessDescription(b: any, locale: Locale = 'en'): string | null {
   if (!b) return null
+
+  // 1. zh / ru / ja / hi: 교정 번역본 우선 → 없으면 description_en (description_ko 폴백 금지)
+  if (locale === 'zh' || locale === 'ru' || locale === 'ja' || locale === 'hi') {
+    const slug = b.slug
+    if (slug) {
+      const trans = (bizDescTranslations as Record<string, Record<string, string>>)[slug]?.[locale]
+      if (hasText(trans)) return String(trans).trim()
+    }
+    const v = b[`description_${locale}`]
+    if (hasText(v)) return String(v).trim()
+    return b.description_en || null
+  }
+
+  // 2. 기존 ko / en / vi 동작 유지
   if (locale !== 'en') {
     const v = b[`description_${locale}`]
     if (hasText(v)) return String(v).trim()
