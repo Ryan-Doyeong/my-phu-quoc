@@ -91,6 +91,10 @@ function splitViEn(text: string): { vi: string; en: string } {
   return { vi: trimmed, en: trimmed }
 }
 
+/**
+ * @deprecated 12차 D 지시: 비-ko 로케일(en/zh/ru/ja/hi/vi)에서는 sources 자유 문구를 전혀 쓰지 않고
+ * 로케일별 고정 문구('Official menu & venue information' 등)를 통일 적용하므로 본 함수는 미사용(deprecated) 처리됨.
+ */
 export function cleanSourcesSummaryNonKo(src: string): string {
   if (!src) return 'Official Menu'
 
@@ -295,9 +299,8 @@ export function loadMenuForPlace(
         .filter(Boolean)
         .join(', ') || 'Sunset Town Master Menu DB'
 
-    if (locale !== 'ko') {
-      sourcesSummary = cleanSourcesSummaryNonKo(sourcesSummary)
-    }
+    // 12차 D 지시: 비-ko 로케일에서는 formatMenuMetaHeader/formatMenuFooter에서 로케일별 고정 문구를 사용하므로
+    // 원본 sourcesSummary는 한국어(ko) 환경 및 데이터 보존 목적으로 그대로 유지
 
     const sections: MenuSection[] = []
 

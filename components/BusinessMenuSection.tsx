@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 import type { BusinessMenuData } from '@/lib/menus'
-import { GRADE_INFO, cleanSourcesSummaryNonKo, SECTION_CANONICAL_EN_MAP } from '@/lib/menus'
+import { GRADE_INFO, SECTION_CANONICAL_EN_MAP } from '@/lib/menus'
 import type { Locale } from '@/lib/i18n/config'
 import { enrichDishDescription } from '@/lib/foodKnowledge'
 import menuNamesTranslations from '@/data/i18n/translations/menu_names.json'
@@ -133,45 +133,60 @@ const MENU_IMAGES_TITLE: Record<string, string> = {
   hi: 'मेन्यू की तस्वीरें',
 }
 
+const LOCALIZED_MENU_SOURCE: Record<string, string> = {
+  en: 'Official menu & venue information',
+  zh: '官方菜单及商家信息',
+  ru: 'Официальное меню и информация заведения',
+  ja: '公式メニュー・店舗情報',
+  hi: 'आधिकारिक मेन्यू और स्थान की जानकारी',
+  vi: 'Thực đơn và thông tin chính thức',
+}
+
 function formatMenuMetaHeader(date: string, source: string, loc: string): string {
-  const cleanSource = loc !== 'ko' ? cleanSourcesSummaryNonKo(source) : source
+  const displaySource =
+    loc === 'ko'
+      ? (source || '공식 메뉴판')
+      : (LOCALIZED_MENU_SOURCE[loc] || LOCALIZED_MENU_SOURCE.en)
   switch (loc) {
     case 'ko':
-      return `메뉴 기준일: ${date || '2026-10'}, 출처: ${cleanSource || '공식 메뉴판'}`
+      return `메뉴 기준일: ${date || '2026-10'}, 출처: ${displaySource}`
     case 'vi':
-      return `Cập nhật: ${date || '10/2026'}, Nguồn: ${cleanSource || 'Thực đơn chính thức'}`
+      return `Cập nhật: ${date || '10/2026'}, Nguồn: ${displaySource}`
     case 'zh':
-      return `菜单参考日期：${date || '2026-10'}，来源：${cleanSource || '官方菜单'}`
+      return `菜单参考日期：${date || '2026-10'}，来源：${displaySource}`
     case 'ru':
-      return `Дата меню: ${date || '2026-10'}, источник: ${cleanSource || 'Официальное меню'}`
+      return `Дата меню: ${date || '2026-10'}, источник: ${displaySource}`
     case 'ja':
-      return `メニュー基準日：${date || '2026-10'}、出典：${cleanSource || '公式メニュー'}`
+      return `メニュー基準日：${date || '2026-10'}、出典：${displaySource}`
     case 'hi':
-      return `मेन्यू की संदर्भ तिथि: ${date || '2026-10'}, स्रोत: ${cleanSource || 'आधिकारिक मेन्यू'}`
+      return `मेन्यू की संदर्भ तिथि: ${date || '2026-10'}, स्रोत: ${displaySource}`
     case 'en':
     default:
-      return `Menu as of: ${date || '2026-10'}, Source: ${cleanSource || 'Official Menu'}`
+      return `Menu as of: ${date || '2026-10'}, Source: ${displaySource}`
   }
 }
 
 function formatMenuFooter(date: string, source: string, loc: string): string {
-  const cleanSource = loc !== 'ko' ? cleanSourcesSummaryNonKo(source) : source
+  const displaySource =
+    loc === 'ko'
+      ? (source || 'Sunset Town Master Menu DB')
+      : (LOCALIZED_MENU_SOURCE[loc] || LOCALIZED_MENU_SOURCE.en)
   switch (loc) {
     case 'ko':
-      return `메뉴 기준일: ${date} · 출처: ${cleanSource}`
+      return `메뉴 기준일: ${date} · 출처: ${displaySource}`
     case 'vi':
-      return `Ngày cập nhật: ${date} · Nguồn: ${cleanSource}`
+      return `Ngày cập nhật: ${date} · Nguồn: ${displaySource}`
     case 'zh':
-      return `菜单参考日期：${date} · 来源：${cleanSource}`
+      return `菜单参考日期：${date} · 来源：${displaySource}`
     case 'ru':
-      return `Дата меню: ${date} · Источник: ${cleanSource}`
+      return `Дата меню: ${date} · Источник: ${displaySource}`
     case 'ja':
-      return `メニュー基準日：${date} · 出典：${cleanSource}`
+      return `メニュー基準日：${date} · 出典：${displaySource}`
     case 'hi':
-      return `मेन्यू की संदर्भ तिथि: ${date} · स्रोत: ${cleanSource}`
+      return `मेन्यू की संदर्भ तिथि: ${date} · स्रोत: ${displaySource}`
     case 'en':
     default:
-      return `Menu updated: ${date} · Source: ${cleanSource}`
+      return `Menu updated: ${date} · Source: ${displaySource}`
   }
 }
 
