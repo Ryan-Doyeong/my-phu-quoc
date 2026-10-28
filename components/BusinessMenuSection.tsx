@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 import type { BusinessMenuData } from '@/lib/menus'
-import { GRADE_INFO } from '@/lib/menus'
+import { GRADE_INFO, cleanSourcesSummaryNonKo } from '@/lib/menus'
 import type { Locale } from '@/lib/i18n/config'
 import { enrichDishDescription } from '@/lib/foodKnowledge'
 import menuNamesTranslations from '@/data/i18n/translations/menu_names.json'
@@ -133,42 +133,44 @@ const MENU_IMAGES_TITLE: Record<string, string> = {
 }
 
 function formatMenuMetaHeader(date: string, source: string, loc: string): string {
+  const cleanSource = loc !== 'ko' ? cleanSourcesSummaryNonKo(source) : source
   switch (loc) {
     case 'ko':
-      return `메뉴 기준일: ${date || '2026-10'}, 출처: ${source || '공식 메뉴판'}`
+      return `메뉴 기준일: ${date || '2026-10'}, 출처: ${cleanSource || '공식 메뉴판'}`
     case 'vi':
-      return `Cập nhật: ${date || '10/2026'}, Nguồn: ${source || 'Thực đơn chính thức'}`
+      return `Cập nhật: ${date || '10/2026'}, Nguồn: ${cleanSource || 'Thực đơn chính thức'}`
     case 'zh':
-      return `菜单参考日期：${date || '2026-10'}，来源：${source || '官方菜单'}`
+      return `菜单参考日期：${date || '2026-10'}，来源：${cleanSource || '官方菜单'}`
     case 'ru':
-      return `Дата меню: ${date || '2026-10'}, источник: ${source || 'Официальное меню'}`
+      return `Дата меню: ${date || '2026-10'}, источник: ${cleanSource || 'Официальное меню'}`
     case 'ja':
-      return `メニュー基準日：${date || '2026-10'}、出典：${source || '公式メニュー'}`
+      return `メニュー基準日：${date || '2026-10'}、出典：${cleanSource || '公式メニュー'}`
     case 'hi':
-      return `मेन्यू की संदर्भ तिथि: ${date || '2026-10'}, स्रोत: ${source || 'आधिकारिक मेन्यू'}`
+      return `मेन्यू की संदर्भ तिथि: ${date || '2026-10'}, स्रोत: ${cleanSource || 'आधिकारिक मेन्यू'}`
     case 'en':
     default:
-      return `Menu as of: ${date || '2026-10'}, Source: ${source || 'Official Menu'}`
+      return `Menu as of: ${date || '2026-10'}, Source: ${cleanSource || 'Official Menu'}`
   }
 }
 
 function formatMenuFooter(date: string, source: string, loc: string): string {
+  const cleanSource = loc !== 'ko' ? cleanSourcesSummaryNonKo(source) : source
   switch (loc) {
     case 'ko':
-      return `메뉴 기준일: ${date} · 출처: ${source}`
+      return `메뉴 기준일: ${date} · 출처: ${cleanSource}`
     case 'vi':
-      return `Ngày cập nhật: ${date} · Nguồn: ${source}`
+      return `Ngày cập nhật: ${date} · Nguồn: ${cleanSource}`
     case 'zh':
-      return `菜单参考日期：${date} · 来源：${source}`
+      return `菜单参考日期：${date} · 来源：${cleanSource}`
     case 'ru':
-      return `Дата меню: ${date} · Источник: ${source}`
+      return `Дата меню: ${date} · Источник: ${cleanSource}`
     case 'ja':
-      return `メニュー基準日：${date} · 出典：${source}`
+      return `メニュー基準日：${date} · 出典：${cleanSource}`
     case 'hi':
-      return `मेन्यू की संदर्भ तिथि: ${date} · स्रोत: ${source}`
+      return `मेन्यू की संदर्भ तिथि: ${date} · स्रोत: ${cleanSource}`
     case 'en':
     default:
-      return `Menu updated: ${date} · Source: ${source}`
+      return `Menu updated: ${date} · Source: ${cleanSource}`
   }
 }
 

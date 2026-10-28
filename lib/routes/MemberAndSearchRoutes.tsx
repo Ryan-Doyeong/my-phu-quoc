@@ -12,6 +12,7 @@ import {
   getDictionary,
   localizeStory,
   selectBusinessDescription,
+  displayBusinessName,
   translateBadge,
   translateTerm,
 } from '@/lib/i18n/dictionaries'
@@ -125,6 +126,7 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
       !needle ||
       [
         x.public_name,
+        displayBusinessName(x, locale),
         x.category,
         categoryLabel(x.category, locale),
         x.subcategory,
@@ -227,7 +229,7 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
                         </span>
                         {x.google_rating && <strong>★ {Number(x.google_rating).toFixed(1)}</strong>}
                       </div>
-                      <h3>{x.public_name}</h3>
+                      <h3>{displayBusinessName(x, locale)}</h3>
                       <div className="tagList compactTags">
                         {(x.tags || []).slice(0, 3).map((t: string) => (
                           <span key={t}>{translateTerm(t, locale)}</span>

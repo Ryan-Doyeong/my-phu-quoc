@@ -543,3 +543,55 @@ export function selectBusinessDescription(b: any, locale: Locale = 'en'): string
   }
   return b.description_en || b.description_vi || b.description_ko || null
 }
+
+const HANGUL_REGEX = /[\uac00-\ud7a3]/
+const LATIN_REGEX = /[a-zA-Z]/
+
+/**
+ * 비-한국어 로케일에서 한글 업체명 제거 및 라틴 표기 정제 헬퍼
+ * - ko 로케일: 기존 그대로 반환
+ * - 비-ko 로케일:
+ *   1) 'A (B)' 형태면 B에 라틴 문자가 있을 때 B 사용 (B 내 잔여 한글/구분자 정제)
+ *   2) 아니면 한글을 제거하고 구분자(괄호, 하이픈, 공백) 정리
+ *   3) 한글 제거 후 문자가 남지 않는 경우 원본 반환 (보고서에 표로 기재)
+ */
+export function displayBusinessName(b: any, locale: Locale = 'en'): string {
+  if (!b) return ''
+  const raw = typeof b === 'string' ? b : (b.public_name || b.name || '')
+  if (!raw || locale === 'ko') {
+    return raw
+  }
+
+  if (!HANGUL_REGEX.test(raw)) {
+    return raw.trim()
+  }
+
+  // 1) 'A (B)' 형태인지 확인
+  const match = raw.match(/^(.*?)\s*[\(\（](.*?)[\)\）]\s*$/)
+  if (match && match[2]) {
+    const inside = match[2].trim()
+    if (LATIN_REGEX.test(inside)) {
+      let cleanedB = inside.replace(/[\uac00-\ud7a3]+/g, '')
+      cleanedB = cleanedB.replace(/\s*[\-_/|]+\s*/g, ' ')
+      cleanedB = cleanedB.replace(/\s+/g, ' ').trim()
+      cleanedB = cleanedB.replace(/^[,\s\-_/.:;]+|[,\s\-_/.:;]+$/g, '').trim()
+      if (cleanedB && LATIN_REGEX.test(cleanedB)) {
+        return cleanedB
+      }
+    }
+  }
+
+  // 2) 한글 제거 및 구분자 정리
+  let cleaned = raw.replace(/[\uac00-\ud7a3]+/g, '')
+  cleaned = cleaned.replace(/[\(\[\{]\s*[\)\]\}]/g, '')
+  cleaned = cleaned.replace(/\s*[\-_/|]+\s*/g, ' ')
+  cleaned = cleaned.replace(/\s+/g, ' ').trim()
+  cleaned = cleaned.replace(/^[,\s\-_/.:;&]+|[,\s\-_/.:;&]+$/g, '').trim()
+
+  // 3) 문자가 남아있으면 반환 (특수기호만 남은 경우 제외), 비어있으면 원문 유지
+  if (cleaned && (LATIN_REGEX.test(cleaned) || /[a-zA-Z0-9\u00C0-\u024F\u1EA0-\u1EF9\u4e00-\u9fa5\u0400-\u04FF\u0900-\u097F]/.test(cleaned))) {
+    return cleaned
+  }
+
+  return raw
+}

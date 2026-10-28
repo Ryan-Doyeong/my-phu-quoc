@@ -33,6 +33,7 @@ import {
   getDictionary,
   getPhotoBadgeText,
   selectBusinessDescription,
+  displayBusinessName,
   translateBadge,
   translateTerm,
 } from '@/lib/i18n/dictionaries'
@@ -111,16 +112,17 @@ export async function generateBusinessMetadata(
   const barePath = `/business/${b.slug}`
   const canonicalUrl = localeUrl(locale, barePath)
   const alternates = buildAlternates(barePath)
+  const businessName = displayBusinessName(b, locale)
 
   return {
-    title: `${b.public_name} | My Phu Quoc`,
+    title: `${businessName} | My Phu Quoc`,
     description,
     alternates: {
       canonical: canonicalUrl,
       languages: alternates.languages,
     },
     openGraph: {
-      title: `${b.public_name} | My Phu Quoc`,
+      title: `${businessName} | My Phu Quoc`,
       description,
       url: canonicalUrl,
       locale: ogLocaleFor(locale),
@@ -178,7 +180,8 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
       b.google_maps_url.match(/place_id=([A-Za-z0-9_-]+)/)
     : null
   const googlePlaceId = b.google_place_id || (placeIdMatch ? placeIdMatch[1] : null)
-  const menuData = loadMenuForPlace(googlePlaceId)
+  const menuData = loadMenuForPlace(googlePlaceId, locale)
+  const businessDisplayName = displayBusinessName(b, locale)
 
   const isDiningOrFood =
     b.category === 'dining' ||
@@ -194,7 +197,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
   const jsonLd: any = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    name: b.public_name,
+    name: businessDisplayName,
   }
   if (b.address) jsonLd.address = b.address
   if (b.phone) jsonLd.telephone = b.phone
@@ -271,7 +274,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                 >
                   <img
                     src={coverPhoto.image_url}
-                    alt={b.public_name}
+                    alt={businessDisplayName}
                     style={{
                       width: '100%',
                       height: '380px',
@@ -324,7 +327,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                   <div key={i} className={i === 0 ? 'galleryTile main' : 'galleryTile'}>
                     <img
                       src={imageUrl(p, i === 0 ? 1400 : 760, i === 0 ? 76 : 70)}
-                      alt={`${b.public_name} image ${i + 1}`}
+                      alt={`${businessDisplayName} image ${i + 1}`}
                       loading={i === 0 ? 'eager' : 'lazy'}
                       decoding="async"
                     />
@@ -338,7 +341,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
           return (
             <div style={{ marginBottom: '28px' }}>
               <BusinessCover
-                name={b.public_name}
+                name={businessDisplayName}
                 googleName={b.google_maps_name}
                 category={b.category}
                 subcategory={b.subcategory}
@@ -365,7 +368,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                 )}
             </div>
             {(() => {
-              const { primary, secondary } = splitBusinessTitle(b.public_name)
+              const { primary, secondary } = splitBusinessTitle(businessDisplayName)
               return (
                 <div className="businessTitleGroup">
                   <h1 className="businessPrimaryTitle">{primary}</h1>
@@ -508,7 +511,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
             {reviewAnalysis && (
               <GoogleReviewAnalysisCard
                 analysis={reviewAnalysis}
-                businessName={b.public_name}
+                businessName={businessDisplayName}
                 googleMapsUrl={b.google_maps_url}
                 locale={locale}
               />

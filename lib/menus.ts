@@ -91,7 +91,27 @@ function splitViEn(text: string): { vi: string; en: string } {
   return { vi: trimmed, en: trimmed }
 }
 
-export function loadMenuForPlace(placeId: string | null | undefined): BusinessMenuData | null {
+export function cleanSourcesSummaryNonKo(src: string): string {
+  if (!src) return 'Official Menu'
+  let s = src.replace(/[\uac00-\ud7a3]+/g, '')
+  // 글자가 없는 괄호(숫자/구분자만 남은 것 포함) 제거
+  s = s.replace(/\([^a-zA-Z\u00C0-\u024F\u1EA0-\u1EF9\u4e00-\u9fa5\u0400-\u04FF\u0900-\u097F)]*\)/g, '')
+  s = s.replace(/\[[^a-zA-Z\u00C0-\u024F\u1EA0-\u1EF9\u4e00-\u9fa5\u0400-\u04FF\u0900-\u097F\]]*\]/g, '')
+  s = s.replace(/[\(\[\{]\s*[\)\]\}]/g, '')
+  s = s.replace(/\s*,\s*,+/g, ', ')
+  s = s.replace(/\s*,\s*/g, ', ')
+  s = s.replace(/[\s\-_/]+/g, ' ').trim()
+  s = s.replace(/^[,\s\-_/.:;]+|[,\s\-_/.:;]+$/g, '').trim()
+  if (!s || !/[a-zA-Z0-9]/.test(s)) {
+    return 'Official Menu'
+  }
+  return s
+}
+
+export function loadMenuForPlace(
+  placeId: string | null | undefined,
+  locale: string = 'ko'
+): BusinessMenuData | null {
   if (!placeId) return null
 
   try {
@@ -103,11 +123,15 @@ export function loadMenuForPlace(placeId: string | null | undefined): BusinessMe
     const grade: MenuGrade = (raw.info_level || 'C').toUpperCase() as MenuGrade
     const info = GRADE_INFO[grade] || GRADE_INFO.C
     const verifiedDate = raw.menu_date || (raw.sources && raw.sources[0]?.accessed) || '2026-10'
-    const sourcesSummary =
+    let sourcesSummary =
       (raw.sources || [])
         .map((s: any) => s.note || s.url)
         .filter(Boolean)
         .join(', ') || 'Sunset Town Master Menu DB'
+
+    if (locale !== 'ko') {
+      sourcesSummary = cleanSourcesSummaryNonKo(sourcesSummary)
+    }
 
     const sections: MenuSection[] = []
 

@@ -27,6 +27,7 @@ import {
   translateTerm,
   getPhotoBadgeText,
   selectBusinessDescription,
+  displayBusinessName,
 } from '@/lib/i18n/dictionaries'
 
 const MAP_LINK_LABEL: Record<string, string> = {
@@ -168,7 +169,7 @@ function BusinessCard({ b, locale }: { b: Business; locale: Locale }) {
             >
               <img
                 src={coverPhoto.image_url}
-                alt={b.public_name}
+                alt={displayBusinessName(b, locale)}
                 style={{
                   width: '100%',
                   height: '100%',
@@ -181,7 +182,7 @@ function BusinessCard({ b, locale }: { b: Business; locale: Locale }) {
             </div>
           ) : (
             <BusinessCover
-              name={b.public_name}
+              name={displayBusinessName(b, locale)}
               googleName={b.google_maps_name}
               category={b.category}
               subcategory={b.subcategory}
@@ -208,7 +209,7 @@ function BusinessCard({ b, locale }: { b: Business; locale: Locale }) {
             </span>
             {b.google_rating ? <strong>★ {Number(b.google_rating).toFixed(1)}</strong> : null}
           </div>
-          <h3>{b.public_name}</h3>
+          <h3>{displayBusinessName(b, locale)}</h3>
           <div className="tagList compactTags">
             {(b.tags || []).slice(0, 3).map((t) => (
               <span key={t}>{translateTerm(t, locale)}</span>
@@ -325,6 +326,7 @@ export function DirectoryBrowser({
         .filter((b) => {
           const hay = [
             b.public_name,
+            displayBusinessName(b, activeLocale),
             b.subcategory,
             b.subcategory ? translateTerm(b.subcategory, activeLocale) : '',
             b.address,
