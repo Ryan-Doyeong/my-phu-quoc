@@ -1,0 +1,202 @@
+[
+  {
+    "slug": "noska-hotel",
+    "google_place_id": "ChIJ9SwzZzeVpzERAz84CLvBLh8",
+    "public_name": "노스카 호텔 선셋타운 (Noska Hotel Sunset Town Sea View & Fireworks)",
+    "category": "hotels",
+    "description_en": "NOSKA Hotel is a boutique hotel located in Sunset Town, Phu Quoc.",
+    "description_ko": "불꽃놀이 직관 발코니 부티크 호텔."
+  },
+  {
+    "slug": "sakurakyo-hotel-spa-phu-quoc",
+    "google_place_id": "ChIJ5RnXOaiXpzER0QhbiBUJ6d8",
+    "public_name": "사쿠라쿄 호텔 & 스파 푸꾸옥 (Sakurakyo Hotel & Spa)",
+    "category": "hotels",
+    "description_en": "Sakurakyo Hotel & Spa Phu Quoc is a boutique hotel located in Sunset Town, Phu Quoc.",
+    "description_ko": "일본식 서비스와 스파가 결합된 선셋타운 부티크 호텔."
+  },
+  {
+    "slug": "venice-hotel-phu-quoc",
+    "google_place_id": "ChIJT1X9WkqVpzERe6nExGNSEYw",
+    "public_name": "베니스 호텔 푸꾸옥 (Venice Hotel Phu Quoc)",
+    "category": "hotels",
+    "description_en": "Venice Hotel Phu Quoc is a boutique hotel located in Sunset Town, Phu Quoc.",
+    "description_ko": "키스브릿지 및 불꽃놀이 정면 해안 라인 부티크 호텔."
+  },
+  {
+    "slug": "roma-hotel-phu-quoc",
+    "google_place_id": "ChIJjwfWKIqXpzERYsn-qQI_59o",
+    "public_name": "로마 호텔 푸꾸옥 (Roma Hotel Phu Quoc)",
+    "category": "hotels",
+    "description_en": "Roma Hotel Phu Quoc is a boutique hotel located in Sunset Town, Phu Quoc.",
+    "description_ko": "Skyeth 그룹 운영 선셋타운 부티크 호텔."
+  },
+  {
+    "slug": "the-juliet-a-boutique-hotel-coffee-ven-07",
+    "google_place_id": "ChIJ5Z5ZTfmVpzERiSVXng2WHUY",
+    "public_name": "더 줄리엣 부티크 호텔 & 커피 Ven 07 (The Juliet Boutique Hotel)",
+    "category": "hotels",
+    "description_en": "The Juliet A Boutique Hotel & Coffee - Ven 07 is a boutique hotel located in Sunset Town, Phu Quoc.",
+    "description_ko": "베니스 거리 중심부, 디저트 카페 겸 부티크 호텔."
+  },
+  {
+    "slug": "bbq-house-for-you",
+    "google_place_id": "ChIJk0mFcgCVpzERf3VayqKU9Ug",
+    "public_name": "한국관 BBQ 하우스 포 유 (Korean BBQ House)",
+    "category": "dining",
+    "description_en": "BBQ House for You is a Korean restaurant located in Sunset Town, Phu Quoc.",
+    "description_ko": "선셋타운 내 한국식 바비큐 및 한식 메뉴 제공."
+  },
+  {
+    "slug": "times-corner-sorrento-boutique-hotel",
+    "google_place_id": "ChIJk9NfQm6XpzERAcfkxs2uJV8",
+    "public_name": "타임즈 코너 소렌토 부티크 호텔 (Times Corner Sorrento)",
+    "category": "hotels",
+    "description_en": "Times Corner Sorrento Boutique Hotel is a boutique hotel located in Sunset Town, Phu Quoc.",
+    "description_ko": "구내 레스토랑 운영."
+  },
+  {
+    "slug": "royal-hotel-phu-quoc",
+    "google_place_id": "ChIJtc9o0lKXpzERaiJkBt3PCf0",
+    "public_name": "로얄 호텔 푸꾸옥 1 (Royal Hotel Phu Quoc)",
+    "category": "hotels",
+    "description_en": "ROYAL HOTEL PHU QUOC is a boutique hotel located in Sunset Town, Phu Quoc.",
+    "description_ko": "선셋타운 케이블카 역 광장 인접 부티크 호텔."
+  },
+  {
+    "slug": "fella-hotel",
+    "google_place_id": "ChIJjZ-YVl6XpzERBev66-X35uQ",
+    "public_name": "펠라 호텔 선셋타운 (Fella Hotel Sunset Town)",
+    "category": "hotels",
+    "description_en": "FELLA HOTEL is a boutique hotel located in Sunset Town, Phu Quoc.",
+    "description_ko": "소렌토 거리 위치, 모던 객실 운영."
+  },
+  {
+    "slug": "times-corner-amalfi-hotel",
+    "google_place_id": "ChIJjRZrewCXpzERoLfxbMC-_ao",
+    "public_name": "타임즈 코너 아말피 호텔 (Times Corner Amalfi Hotel)",
+    "category": "hotels",
+    "description_en": "Times Corner Amalfi Hotel is a boutique hotel located in Sunset Town, Phu Quoc.",
+    "description_ko": "선셋타운 케이블카 역 및 해변 인근 부티크 호텔."
+  },
+  {
+    "slug": "rosie-hillside-phu-quoc-apartment",
+    "google_place_id": "ChIJHdlM6--XpzERU4FcoKO7V3k",
+    "public_name": "로지 힐사이드 시뷰 아파트먼트 (Rosie Hillside Seaview Apartment)",
+    "category": "hotels",
+    "description_en": "Rosie Hillside Phu Quoc apartment is a residence apartment located in Sunset Town, Phu Quoc.",
+    "description_ko": "다인원 가족용 2~3베드룸."
+  },
+  {
+    "slug": "casepia",
+    "google_place_id": "ChIJRxYLYomXpzERCi3mFgoiNp4",
+    "public_name": "카세피아 호텔 푸꾸옥 (Casepia Hotel Phu Quoc)",
+    "category": "hotels",
+    "description_en": "CASEPiA is a boutique hotel located in Sunset Town, Phu Quoc.",
+    "description_ko": "Kiss of the Sea 공연장 및 해변 바로 앞, 오션뷰 및 불꽃놀이 발코니."
+  },
+  {
+    "slug": "le-bonheur-hotel",
+    "google_place_id": "ChIJPZ4-MRiXpzER0cBb6s2l0EI",
+    "public_name": "르 보뇌르 호텔 (Le Bonheur Hotel Sunset Town)",
+    "category": "hotels",
+    "description_en": "Le Bonheur Hotel is a boutique hotel located in Sunset Town, Phu Quoc.",
+    "description_ko": "선셋타운 위치 부티크 호텔."
+  },
+  {
+    "slug": "luna-sol-sunset-firework-signature",
+    "google_place_id": "ChIJE1DWLR2XpzERHLkECUYFH9A",
+    "public_name": "루나 솔 선셋 & 파이어웍스 시그니처 (Luna Sol Hillside Apartment)",
+    "category": "hotels",
+    "description_en": "Luna Sol Sunset & Firework Signature is a residence apartment located in Sunset Town, Phu Quoc.",
+    "description_ko": "불꽃놀이 정면 뷰 고층 레지던스."
+  },
+  {
+    "slug": "de-stefano-hotel-coffee",
+    "google_place_id": "ChIJCY_uEYqXpzERtNAHnYgN8rc",
+    "public_name": "드 스테파노 커피 앤 호텔 (De Stefano Coffee & Hotel)",
+    "category": "hotels",
+    "description_en": "De Stefano Hotel Coffee is a boutique hotel located in Sunset Town, Phu Quoc.",
+    "description_ko": "선셋타운 1층 카페 겸 부티크 호텔."
+  },
+  {
+    "slug": "starbucks-beach-house-sun-primavera",
+    "google_place_id": "ChIJlXfNAn-VpzERPevvIKQTJiM",
+    "public_name": "스타벅스 비치 하우스 선셋타운점 (Starbucks Beach House Sun Primavera)",
+    "category": "dining",
+    "description_en": "Starbucks Beach House Sun Primavera is a cafe & bakery located in Sunset Town, Phu Quoc.",
+    "description_ko": "키스브릿지 출입구 바로 앞 해변 매장, (접근성: 휠체어 이용가능 화장실) • [대표 메뉴/가격] 아메리카노 85,000~109,000 VND | 카페라떼/카푸치노 95,000~119,000 VND | 프라푸치노/리프레셔 105,000~134,000 VND | 푸꾸옥 시티 머그·텀블러 굿즈 판매."
+  },
+  {
+    "slug": "elyday-apartment-hillside-phu-quoc-sea-firework-view",
+    "google_place_id": "ChIJSxxK2hKXpzEREXkxEzCQ--w",
+    "public_name": "엘리데이 아파트먼트 힐사이드 푸꾸옥 (Elyday Apartment Hillside)",
+    "category": "hotels",
+    "description_en": "Elyday Apartment Hillside Phu Quoc - Sea & Firework view is a residence apartment located in Sunset Town, Phu Quoc.",
+    "description_ko": "바다 및 불꽃놀이 전망 객실 지정 가능."
+  },
+  {
+    "slug": "blue-hotel-sunset-town-phu-quoc",
+    "google_place_id": "ChIJkxnyzB-VpzERiqEaw7e2MHA",
+    "public_name": "Blue Hotel Sunset Town Phu Quoc",
+    "category": "hotels",
+    "description_en": "Blue Hotel Sunset Town Phu Quoc is a boutique hotel located in Sunset Town, Phu Quoc.",
+    "description_ko": "선셋타운 지중해풍 부티크 호텔."
+  },
+  {
+    "slug": "the-memory-hotel-sunset-town-phu-quoc",
+    "google_place_id": "ChIJw1HTFTKVpzERuz5tY3Ixnpo",
+    "public_name": "The Memory Hotel - Sunset Town Phú Quốc",
+    "category": "hotels",
+    "description_en": "The Memory Hotel - Sunset Town Phú Quốc is a boutique hotel located in Sunset Town, Phu Quoc.",
+    "description_ko": "선셋타운 지중해풍 부티크 호텔."
+  },
+  {
+    "slug": "blue-home-sunset-town-phu-quoc",
+    "google_place_id": "ChIJLzWBN6KVpzERtskBmd6MwKw",
+    "public_name": "Blue Home Sunset Town Phu Quoc",
+    "category": "hotels",
+    "description_en": "Blue Home Sunset Town Phu Quoc is a boutique hotel located in Sunset Town, Phu Quoc.",
+    "description_ko": "선셋타운 지중해풍 부티크 호텔."
+  },
+  {
+    "slug": "sunset-town-hillside-apartment",
+    "google_place_id": "ChIJk5O2QguXpzERx3GTGWc8ck8",
+    "public_name": "Sunset Town Hillside Apartment",
+    "category": "hotels",
+    "description_en": "Sunset Town Hillside Apartment is a residence apartment located in Sunset Town, Phu Quoc.",
+    "description_ko": "Sun Grand City Hillside 고층 아파트먼트, 오션/불꽃놀이 뷰."
+  },
+  {
+    "slug": "the-sunset-seaview-phu-quoc-apartments",
+    "google_place_id": "ChIJpwj5PxOXpzER9t6nZE6l51g",
+    "public_name": "The Sunset Seaview Phu Quoc Apartments",
+    "category": "hotels",
+    "description_en": "The Sunset Seaview Phu Quoc Apartments is a residence apartment located in Sunset Town, Phu Quoc.",
+    "description_ko": "Sun Grand City Hillside 고층 아파트먼트, 오션/불꽃놀이 뷰."
+  },
+  {
+    "slug": "summer-homestay-phu-quoc",
+    "google_place_id": "ChIJS5nx7xuXpzERhPHmeeq9Leo",
+    "public_name": "Summer Homestay Phu Quoc",
+    "category": "hotels",
+    "description_en": "Summer Homestay Phu Quoc is a boutique hotel located in Sunset Town, Phu Quoc.",
+    "description_ko": "선셋타운 지중해풍 부티크 호텔."
+  },
+  {
+    "slug": "sunset-home-airbnb-phu-quoc",
+    "google_place_id": "ChIJydXEsh-VpzERcKXaLqqv-20",
+    "public_name": "Sunset Home Airbnb Phu Quoc",
+    "category": "hotels",
+    "description_en": "Sunset Home Airbnb Phu Quoc is a boutique hotel located in Sunset Town, Phu Quoc.",
+    "description_ko": "선셋타운 지중해풍 부티크 호텔."
+  },
+  {
+    "slug": "tiny-house-phu-quoc",
+    "google_place_id": "ChIJYT2Wn8qLpzERrMAUGknSA4c",
+    "public_name": "Tiny House Phu Quoc",
+    "category": "hotels",
+    "description_en": "Tiny House Phu Quoc is a boutique hotel located in Sunset Town, Phu Quoc.",
+    "description_ko": "선셋타운 지중해풍 부티크 호텔."
+  }
+]

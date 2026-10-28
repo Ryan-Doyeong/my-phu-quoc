@@ -1,0 +1,352 @@
+[
+  {
+    "name_original": "Extra Tzatziki",
+    "name_ko": "차지키 추가",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Extra Kalamata Olive",
+    "name_ko": "칼라마타 올리브 추가",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Extra Feta Cheese",
+    "name_ko": "페타 치즈 추가",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Cafe Latte",
+    "name_ko": "카페라테",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Matcha Latte",
+    "name_ko": "말차 라테",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Hot / Iced Tea (Green Jasmine, Oolong, Black Tea) - cup",
+    "name_ko": "따뜻한/아이스 차 (재스민 녹차·우롱차·홍차) 한 잔",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Hot / Iced Tea (Green Jasmine, Oolong, Black Tea) - teapot",
+    "name_ko": "따뜻한/아이스 차 (재스민 녹차·우롱차·홍차) 포트",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Peach Chiller",
+    "name_ko": "피치 칠러",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Ginger Lemongrass",
+    "name_ko": "진저 레몬그라스",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Extra: Malibu (rum 21%) 30ml / Baileys (17%) 30ml",
+    "name_ko": "추가: 말리부(럼 21%) 30ml / 베일리스(17%) 30ml",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Spicy Celery",
+    "name_ko": "스파이시 셀러리",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Refreshing Red",
+    "name_ko": "리프레싱 레드",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Sunshine",
+    "name_ko": "선샤인",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Orange Sunshine",
+    "name_ko": "오렌지 선샤인",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Fresh Juice single selection (Watermelon, Beetroot, Carrot, Passion Fruit, Orange, Lemon, Green Apple, Pineapple)",
+    "name_ko": "단일 생과일 주스 (수박·비트·당근·패션프루트·오렌지·레몬·청사과·파인애플 중 택1)",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Banana Mango & Cinnamon",
+    "name_ko": "바나나 망고 시나몬",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Lime Mexico",
+    "name_ko": "라임 멕시코",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Mango & Passion",
+    "name_ko": "망고 & 패션프루트",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Banana Chocolate",
+    "name_ko": "바나나 초콜릿",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Smoothie single selection (Mango, Banana, Passion Fruit, Orange, Lemon, Pineapple)",
+    "name_ko": "단일 스무디 (망고·바나나·패션프루트·오렌지·레몬·파인애플 중 택1)",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Saigon Special Green",
+    "name_ko": "사이공 스페셜 (녹색)",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Saigon Export Red",
+    "name_ko": "사이공 엑스포트 (빨간색)",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Bivina",
+    "name_ko": "비비나 맥주",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Corona Extra",
+    "name_ko": "코로나 엑스트라",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Apple Cider",
+    "name_ko": "애플 사이다(사과 발효주)",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "San Pellegrino Sparkling 500ml",
+    "name_ko": "산펠레그리노 탄산수 500ml",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Acqua Panna Natural Water 500ml",
+    "name_ko": "아쿠아 파나 생수 500ml",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Acqua Panna Natural Water 750ml",
+    "name_ko": "아쿠아 파나 생수 750ml",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Schweppes (Tonic / Ginger Ale / Soda Water)",
+    "name_ko": "슈웹스 (토닉/진저에일/소다수)",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Red Bull",
+    "name_ko": "레드불",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Coke / Pepsi / Coke Zero / Pepsi Zero Lime / 7Up / Sprite / Fanta",
+    "name_ko": "콜라·펩시·제로콜라·펩시 제로 라임·세븐업·스프라이트·환타",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Mojito",
+    "name_ko": "모히토",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Caipirinha",
+    "name_ko": "카이피리냐",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Black/White Russian",
+    "name_ko": "블랙/화이트 러시안",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Piña Colada",
+    "name_ko": "피냐 콜라다",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Whisky Sour",
+    "name_ko": "위스키 사워",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Tequila Sunrise",
+    "name_ko": "데킬라 선라이즈",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Daiquiri",
+    "name_ko": "다이키리",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Dry Martini",
+    "name_ko": "드라이 마티니",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Margarita",
+    "name_ko": "마르가리타",
+    "place_ids": [
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ]
+  },
+  {
+    "name_original": "Bánh mì Phở đặc biệt RuNam",
+    "name_ko": "루남 시그니처 반미 퍼 (소고기 쌀국수 풍미 반미)",
+    "place_ids": [
+      "ChIJgbE4kXGVpzERZ8C1U29WbHA"
+    ]
+  },
+  {
+    "name_original": "Hủ tiếu cá hồi / Mì hoành thánh xá xíu",
+    "name_ko": "연어 후띠우 / 차슈 완탕면",
+    "place_ids": [
+      "ChIJgbE4kXGVpzERZ8C1U29WbHA"
+    ]
+  },
+  {
+    "name_original": "Bún bò Huế đuôi bò (Oxtail Bun Bo Hue)",
+    "name_ko": "소꼬리 분보후에 (매콤 후에 쌀국수)",
+    "place_ids": [
+      "ChIJgbE4kXGVpzERZ8C1U29WbHA"
+    ]
+  },
+  {
+    "name_original": "Phở bò tủy xương & đuôi bò cao cấp",
+    "name_ko": "프리미엄 사골 골수 & 소꼬리 소고기 쌀국수",
+    "place_ids": [
+      "ChIJgbE4kXGVpzERZ8C1U29WbHA"
+    ]
+  },
+  {
+    "name_original": "Bánh canh cua lột (Soft-shell Crab Noodle)",
+    "name_ko": "소프트셸 크랩 게살 바인깐 국수",
+    "place_ids": [
+      "ChIJgbE4kXGVpzERZ8C1U29WbHA"
+    ]
+  },
+  {
+    "name_original": "Thịt bò Úc nướng trên đá nóng (250g)",
+    "name_ko": "화산석 스톤 그릴 호주산 소고기 스테이크 (250g)",
+    "place_ids": [
+      "ChIJgbE4kXGVpzERZ8C1U29WbHA"
+    ]
+  },
+  {
+    "name_original": "Cá hồi Na Uy áp chảo sốt bơ chanh",
+    "name_ko": "노르웨이산 연어 스테이크와 레몬 버터 소스",
+    "place_ids": [
+      "ChIJgbE4kXGVpzERZ8C1U29WbHA"
+    ]
+  },
+  {
+    "name_original": "Mì Ý gà nấm sốt kem (Chicken Mushroom Pasta)",
+    "name_ko": "치킨 머시룸 크림 파스타",
+    "place_ids": [
+      "ChIJgbE4kXGVpzERZ8C1U29WbHA"
+    ]
+  },
+  {
+    "name_original": "Cà phê trứng RuNam (RuNam Signature Egg Coffee)",
+    "name_ko": "루남 시그니처 수제 에그 커피",
+    "place_ids": [
+      "ChIJgbE4kXGVpzERZ8C1U29WbHA"
+    ]
+  },
+  {
+    "name_original": "Cà phê cốt dừa tuyết (Coconut Snow Coffee)",
+    "name_ko": "코코넛 스노우 스무디 커피",
+    "place_ids": [
+      "ChIJgbE4kXGVpzERZ8C1U29WbHA"
+    ]
+  }
+]
