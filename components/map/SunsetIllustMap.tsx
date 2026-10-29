@@ -176,10 +176,10 @@ const I18N: Record<MapLanguage, {
     noticeText: '插画地图的比例尺仅供参考，与实际距离有所差异',
     seeAll: '查看全部',
     recommendedHeading: '日落小镇推荐美食·酒吧',
-    districtListHeading: 'Sunset Town Venues by District',
-    venueCountSuffix: ' venues',
-    showMore: 'Show More',
-    showLess: 'Show Less',
+    districtListHeading: '日落小镇分区美食、咖啡馆与酒吧推荐',
+    venueCountSuffix: '家',
+    showMore: '展开更多',
+    showLess: '收起',
     walkPrefix: '距钟楼步行 ',
     walkSuffix: '分钟',
     walkCarOnly: '需乘车前往（小镇外围）',
@@ -202,10 +202,10 @@ const I18N: Record<MapLanguage, {
     noticeText: 'Масштабная линейка на карте носит справочный характер и отличается от фактического расстояния',
     seeAll: 'Показать все',
     recommendedHeading: 'Рестораны и бары Sunset Town',
-    districtListHeading: 'Sunset Town Venues by District',
-    venueCountSuffix: ' venues',
-    showMore: 'Show More',
-    showLess: 'Show Less',
+    districtListHeading: 'Рестораны, кафе и бары по районам Сансет Таун',
+    venueCountSuffix: ' заведений',
+    showMore: 'Показать ещё',
+    showLess: 'Свернуть',
     walkPrefix: '',
     walkSuffix: ' мин пешком от башни',
     walkCarOnly: 'На транспорте (за пределами городка)',
@@ -228,10 +228,10 @@ const I18N: Record<MapLanguage, {
     noticeText: 'イラストマップの縮尺バーは参考用であり、実際の距離とは異なります',
     seeAll: 'すべて表示',
     recommendedHeading: 'サンセットタウンおすすめグルメ・バー',
-    districtListHeading: 'Sunset Town Venues by District',
-    venueCountSuffix: ' venues',
-    showMore: 'Show More',
-    showLess: 'Show Less',
+    districtListHeading: 'サンセットタウンのエリア別おすすめ飲食店・カフェ・バー',
+    venueCountSuffix: '店舗',
+    showMore: 'もっと見る',
+    showLess: '閉じる',
     walkPrefix: '時計塔から徒歩',
     walkSuffix: '分',
     walkCarOnly: '徒歩移動不可（車両利用）',
@@ -254,10 +254,10 @@ const I18N: Record<MapLanguage, {
     noticeText: 'सचित्र नक्शे पर स्केल bar केवल संदर्भ के लिए है और वास्तविक दूरी से भिन्न है',
     seeAll: 'सभी देखें',
     recommendedHeading: 'सनसेट टाउन अनुशंसित भोजन और बार',
-    districtListHeading: 'Sunset Town Venues by District',
-    venueCountSuffix: ' venues',
-    showMore: 'Show More',
-    showLess: 'Show Less',
+    districtListHeading: 'सनसेट टाउन में क्षेत्रवार सुझाए गए रेस्तरां, कैफ़े और बार',
+    venueCountSuffix: ' स्थान',
+    showMore: 'और देखें',
+    showLess: 'कम दिखाएं',
     walkPrefix: 'घंटाघर से ',
     walkSuffix: ' मिनट पैदल',
     walkCarOnly: 'वाहन आवश्यक (कस्बे के बाहर)',
@@ -308,6 +308,25 @@ const getDynamicOutsideTitle = (lang: MapLanguage, count: number): string => {
     default:
       return `Outskirts / An Thoi Old Town Venues (${count} places)`
   }
+}
+
+// 러시아어 복수형 문법: 1·21 등 → заведение, 2~4 → заведения, 5~20 및 0 → заведений (11~14는 заведений)
+const renderVenueCountSuffix = (count: number, lang: MapLanguage, defaultSuffix: string): string => {
+  if (lang === 'ru') {
+    const mod10 = count % 10
+    const mod100 = count % 100
+    if (mod100 >= 11 && mod100 <= 14) {
+      return ' заведений'
+    }
+    if (mod10 === 1) {
+      return ' заведение'
+    }
+    if (mod10 >= 2 && mod10 <= 4) {
+      return ' заведения'
+    }
+    return ' заведений'
+  }
+  return defaultSuffix
 }
 
 export function SunsetIllustMap({
@@ -849,7 +868,8 @@ export function SunsetIllustMap({
                     <span className={styles.districtHeaderPin}>📍</span>
                     <span className={styles.districtHeaderName}>{blockName}</span>
                     <span className={styles.districtHeaderBadge}>
-                      {blockVenues.length}{t.venueCountSuffix}
+                      {blockVenues.length}
+                      {renderVenueCountSuffix(blockVenues.length, lang, t.venueCountSuffix)}
                     </span>
                   </div>
                   <span
@@ -919,7 +939,11 @@ export function SunsetIllustMap({
                       >
                         {isExpanded
                           ? `${t.showLess} ▴`
-                          : `${t.showMore} (${remainingCount}${t.venueCountSuffix}) ▾`}
+                          : `${t.showMore} (${remainingCount}${renderVenueCountSuffix(
+                              remainingCount,
+                              lang,
+                              t.venueCountSuffix
+                            )}) ▾`}
                       </button>
                     )}
                   </div>

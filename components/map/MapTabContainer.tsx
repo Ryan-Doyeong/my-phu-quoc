@@ -21,28 +21,23 @@ export const MAP_TAB_LABELS: Record<Locale, MapTabLabels> = {
   },
   zh: {
     landmarks: '12大核心地标',
-    dining: 'Dining Map', // Ryan 지시: 번역 미확정 언어는 영어로 보존 후 보고서에 '번역 검수 필요' 표시
-    diningNeedsReview: true,
+    dining: '美食地图',
   },
   ja: {
     landmarks: '12大ランドマーク',
-    dining: 'Dining Map', // 번역 검수 필요
-    diningNeedsReview: true,
+    dining: 'グルメマップ',
   },
   ru: {
     landmarks: '12 достопримечательностей',
-    dining: 'Dining Map', // 번역 검수 필요
-    diningNeedsReview: true,
+    dining: 'Карта ресторанов и кафе',
   },
   hi: {
     landmarks: '12 प्रमुख दर्शनीय स्थल',
-    dining: 'Dining Map', // 번역 검수 필요
-    diningNeedsReview: true,
+    dining: 'खाने-पीने की जगहों का नक्शा',
   },
   vi: {
     landmarks: '12 điểm đến biểu tượng',
-    dining: 'Dining Map', // 번역 검수 필요
-    diningNeedsReview: true,
+    dining: 'Dining Map',
   },
 }
 
