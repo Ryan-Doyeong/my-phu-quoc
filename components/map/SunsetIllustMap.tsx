@@ -92,21 +92,44 @@ const getBlockName = (block: Block, lang: MapLanguage): string => {
 
 const KOREAN_CHAR_REGEX = /[\uac00-\ud7a3]/
 
+const FOREIGN_VENUE_NAME_OVERRIDES: Record<string, string> = {
+  'sunset-place-4': 'LAGOON SUNSET ITALIANO BOUTIQUE',
+  'sunset-place': '푸꾸옥 뚱보집 선셋타운',
+  'madam-khanh-restaurant-phu-quoc-2': 'Madam Khánh Restaurant Phú quốc 2',
+}
+
 /**
  * zh/ru/ja/hi 등 다국어 화면에서 업체 카드 제목의 불필요한 한글 음역 및 설명 제거
  * 규칙:
  * 1) ko 화면은 현재 그대로, en 화면은 기존 동작 유지
- * 2) 한글이 포함되지 않은 순수 영문/베트남어 명칭은 그대로 반환
- * 3) "한글 (원문)" 형태인 경우 괄호 안의 원문(영문/베트남어)을 추출하고,
+ * 2) Ryan 직접 승인: 구글 공식 기본 상호명 오버라이드
+ *    - sunset-place-4 → LAGOON SUNSET ITALIANO BOUTIQUE (구글 실측 H1, 대문자 그대로)
+ *    - sunset-place → 푸꾸옥 뚱보집 선셋타운 (구글 등록명 그대로, 한식당 등 덧붙임 제거)
+ *    - madam-khanh-restaurant-phu-quoc-2 → Madam Khánh Restaurant Phú quốc 2 (구글명 앞부분, 한글/한자 조각 제거)
+ * 3) 한글이 포함되지 않은 순수 영문/베트남어 명칭은 그대로 반환
+ * 4) "한글 (원문)" 형태인 경우 괄호 안의 원문(영문/베트남어)을 추출하고,
  *    괄호 안의 한글 부가설명 및 남는 구분기호(-, 공백 등)를 제거
- * 4) 파싱 결과가 비어있거나 한글이 남아있으면 원래 rawName으로 안전하게 fallback
- *    (순수 한글 2곳: sunset-place-4 '라군 식당', sunset-place '푸꾸옥 뚱보집 선셋타운점 (한식당)',
- *     혼합 1곳: madam-khanh-restaurant-phu-quoc-2 'Madam Khánh Restaurant Phú quốc 2-마담 칸 - 汗女士')
+ * 5) 파싱 결과가 비어있거나 한글이 남아있으면 원래 rawName으로 안전하게 fallback
  */
-export const getCleanVenueName = (rawName: string, lang: MapLanguage): string => {
+export const getCleanVenueName = (rawName: string, lang: MapLanguage, slug?: string): string => {
   if (lang === 'ko' || lang === 'en') {
     return rawName
   }
+
+  // Ryan 직접 승인 구글 공식 기본 상호명 매핑
+  if (slug && FOREIGN_VENUE_NAME_OVERRIDES[slug]) {
+    return FOREIGN_VENUE_NAME_OVERRIDES[slug]
+  }
+  if (rawName === '라군 식당') {
+    return 'LAGOON SUNSET ITALIANO BOUTIQUE'
+  }
+  if (rawName.startsWith('푸꾸옥 뚱보집')) {
+    return '푸꾸옥 뚱보집 선셋타운'
+  }
+  if (rawName.startsWith('Madam Khánh Restaurant Phú quốc 2')) {
+    return 'Madam Khánh Restaurant Phú quốc 2'
+  }
+
   if (!KOREAN_CHAR_REGEX.test(rawName)) {
     return rawName
   }
@@ -1002,7 +1025,7 @@ export function SunsetIllustMap({
                             <div className={styles.cardMain}>
                               <div className={styles.cardTop}>
                                 <div className={styles.cardTitle}>
-                                  {getCleanVenueName(v.name, lang)}
+                                  {getCleanVenueName(v.name, lang, v.slug)}
                                 </div>
                                 <span
                                   className={`${styles.cardBadge} ${
@@ -1076,7 +1099,7 @@ export function SunsetIllustMap({
               >
                 <div>
                   <div className={styles.cardTitle}>
-                    {getCleanVenueName(ov.name, lang)}
+                    {getCleanVenueName(ov.name, lang, ov.slug)}
                   </div>
                   <div className={styles.cardAddr}>{ov.addr || ''}</div>
                 </div>
