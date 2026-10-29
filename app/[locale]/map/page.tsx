@@ -26,6 +26,14 @@ export async function generateMetadata({ params }: MapPageProps): Promise<Metada
   }
 }
 
+/**
+ * [업무 지시 · Ryan] SUNSET TOWN 6 QUARTERS 배너 조건부 숨김 처리
+ * 사유: 아직 사용 계획이 없으므로 화면에서 비노출.
+ * 규칙: 코드 삭제 금지, 설정 플래그(SHOW_6_QUARTERS_BANNER)로 조건부 숨김 처리하여 추후 용이하게 복구 가능.
+ * 복구 필요 시: SHOW_6_QUARTERS_BANNER = true 로 변경하면 즉시 원상 복구됩니다.
+ */
+const SHOW_6_QUARTERS_BANNER = false
+
 export default async function MapPage({ params }: MapPageProps) {
   const { locale } = await params
   const dict = getDictionary(locale)
@@ -154,65 +162,67 @@ export default async function MapPage({ params }: MapPageProps) {
         {/* 1. 상단 인터랙티브 지도 & 2. 12대 명소 아코디언 카드 목록 */}
         <SunsetTownMap locale={locale} />
 
-        {/* 3. 하단 구역 전용 페이지(/zones/sunset-town) 링크 배너 (중복 제거 및 연계 연결) */}
-        <section style={{ marginTop: '60px' }}>
-          <div
-            style={{
-              background: '#ffffff',
-              border: '1px solid #E2E8F0',
-              borderRadius: '16px',
-              padding: '32px 28px',
-              boxShadow: '0 4px 16px rgba(0,0,0,0.04)',
-              display: 'flex',
-              flexDirection: 'row',
-              alignItems: 'center',
-              justifyContent: 'space-between',
-              gap: '24px',
-              flexWrap: 'wrap',
-            }}
-          >
-            <div style={{ maxWidth: '720px' }}>
-              <span
-                style={{
-                  fontSize: '12px',
-                  fontWeight: 800,
-                  color: '#C86D2D',
-                  letterSpacing: '0.06em',
-                  textTransform: 'uppercase',
-                  display: 'inline-block',
-                  marginBottom: '6px',
-                }}
-              >
-                SUNSET TOWN 6 QUARTERS
-              </span>
-              <h2 style={{ fontSize: '20px', fontWeight: 800, color: '#12333B', margin: '0 0 8px' }}>
-                🏛️ {t.zoneBannerTitle}
-              </h2>
-              <p style={{ fontSize: '14px', color: '#64748B', margin: 0, lineHeight: 1.6 }}>
-                {t.zoneBannerDesc}
-              </p>
-            </div>
-            <Link
-              href={localePath(locale, '/zones/sunset-town')}
-              className="primaryButton"
+        {/* 3. 하단 구역 전용 페이지(/zones/sunset-town) 링크 배너 (Ryan 지시: 미사용 계획으로 조건부 숨김 처리) */}
+        {SHOW_6_QUARTERS_BANNER && (
+          <section style={{ marginTop: '60px' }}>
+            <div
               style={{
-                background: '#12333B',
-                color: '#ffffff',
-                padding: '12px 24px',
-                borderRadius: '999px',
-                fontWeight: 700,
-                fontSize: '14px',
-                textDecoration: 'none',
-                whiteSpace: 'nowrap',
-                display: 'inline-flex',
+                background: '#ffffff',
+                border: '1px solid #E2E8F0',
+                borderRadius: '16px',
+                padding: '32px 28px',
+                boxShadow: '0 4px 16px rgba(0,0,0,0.04)',
+                display: 'flex',
+                flexDirection: 'row',
                 alignItems: 'center',
-                gap: '8px',
+                justifyContent: 'space-between',
+                gap: '24px',
+                flexWrap: 'wrap',
               }}
             >
-              <span>{t.zoneBannerBtn}</span>
-            </Link>
-          </div>
-        </section>
+              <div style={{ maxWidth: '720px' }}>
+                <span
+                  style={{
+                    fontSize: '12px',
+                    fontWeight: 800,
+                    color: '#C86D2D',
+                    letterSpacing: '0.06em',
+                    textTransform: 'uppercase',
+                    display: 'inline-block',
+                    marginBottom: '6px',
+                  }}
+                >
+                  SUNSET TOWN 6 QUARTERS
+                </span>
+                <h2 style={{ fontSize: '20px', fontWeight: 800, color: '#12333B', margin: '0 0 8px' }}>
+                  🏛️ {t.zoneBannerTitle}
+                </h2>
+                <p style={{ fontSize: '14px', color: '#64748B', margin: 0, lineHeight: 1.6 }}>
+                  {t.zoneBannerDesc}
+                </p>
+              </div>
+              <Link
+                href={localePath(locale, '/zones/sunset-town')}
+                className="primaryButton"
+                style={{
+                  background: '#12333B',
+                  color: '#ffffff',
+                  padding: '12px 24px',
+                  borderRadius: '999px',
+                  fontWeight: 700,
+                  fontSize: '14px',
+                  textDecoration: 'none',
+                  whiteSpace: 'nowrap',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                }}
+              >
+                <span>{t.zoneBannerBtn}</span>
+              </Link>
+            </div>
+          </section>
+        )}
       </main>
     </div>
   )
