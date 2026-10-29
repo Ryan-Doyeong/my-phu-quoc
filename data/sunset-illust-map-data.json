@@ -465,7 +465,9 @@
       ],
       "name_en": "Kiss Bridge North Beach Plaza F&B",
       "name_zh": "接吻桥北侧沙滩广场",
-      "name_ja": "キスブリッジ北側ビーチプラザ"
+      "name_ja": "キスブリッジ北側ビーチプラザ",
+      "name_ru": "Рестораны и кафе на площади у северного пляжа Kiss Bridge",
+      "name_hi": "किस ब्रिज नॉर्थ बीच प्लाज़ा के रेस्तरां और कैफ़े"
     },
     {
       "id": "VUIFEST",
@@ -916,7 +918,9 @@
       ],
       "name_en": "Venice Street North",
       "name_zh": "威尼斯商业街北部",
-      "name_ja": "ベニス通り（北部）"
+      "name_ja": "ベニス通り（北部）",
+      "name_ru": "Venice Street (Северная часть)",
+      "name_hi": "Venice Street (उत्तर)"
     },
     {
       "id": "AMA_NORTH",
@@ -1153,7 +1157,9 @@
       ],
       "name_en": "Amalfi Street North",
       "name_zh": "阿马尔菲街北部",
-      "name_ja": "アマルフィ通り（北部）"
+      "name_ja": "アマルフィ通り（北部）",
+      "name_ru": "Amalfi Street (Северная часть)",
+      "name_hi": "Amalfi Street (उत्तर)"
     },
     {
       "id": "POS_NORTH",
@@ -1180,7 +1186,9 @@
       ],
       "name_en": "Positano Street North",
       "name_zh": "波西塔诺街北部",
-      "name_ja": "ポジターノ通り（北部）"
+      "name_ja": "ポジターノ通り（北部）",
+      "name_ru": "Positano Street (Северная часть)",
+      "name_hi": "Positano Street (उत्तर)"
     },
     {
       "id": "MILAN_HILLSIDE",
@@ -1249,7 +1257,9 @@
       ],
       "name_en": "Milan Street / Hillside",
       "name_zh": "米兰时尚街 / 坡上大道",
-      "name_ja": "ミラノ通り / ヒルサイド"
+      "name_ja": "ミラノ通り / ヒルサイド",
+      "name_ru": "Milan Street / Hillside",
+      "name_hi": "Milan Street / Hillside"
     },
     {
       "id": "VEN_SOUTH",
@@ -1276,7 +1286,9 @@
       ],
       "name_en": "Venice Street South",
       "name_zh": "威尼斯商业街南部",
-      "name_ja": "ベニス通り（南部）"
+      "name_ja": "ベニス通り（南部）",
+      "name_ru": "Venice Street (Южная часть)",
+      "name_hi": "Venice Street (दक्षिण)"
     },
     {
       "id": "AMA_SOUTH",
@@ -1373,7 +1385,9 @@
       ],
       "name_en": "Amalfi Street South",
       "name_zh": "阿马尔菲街南部",
-      "name_ja": "アマルフィ通り（南部）"
+      "name_ja": "アマルフィ通り（南部）",
+      "name_ru": "Amalfi Street (Южная часть)",
+      "name_hi": "Amalfi Street (दक्षिण)"
     },
     {
       "id": "POS_SOUTH",
@@ -1400,7 +1414,9 @@
       ],
       "name_en": "Positano Street South",
       "name_zh": "波西塔诺街南部",
-      "name_ja": "ポジターノ通り（南部）"
+      "name_ja": "ポジターノ通り（南部）",
+      "name_ru": "Positano Street (Южная часть)",
+      "name_hi": "Positano Street (दक्षिण)"
     },
     {
       "id": "SOR_NORTH",

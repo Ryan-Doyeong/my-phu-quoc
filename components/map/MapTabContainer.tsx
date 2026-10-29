@@ -100,7 +100,7 @@ export function MapTabContainer({
 
   return (
     <div style={{ width: '100%' }}>
-      {/* 2대 탭 네비게이션 세그먼트 컨트롤 (모바일 390px 친화적 디자인) */}
+      {/* 2대 탭 네비게이션 세그먼트 컨트롤 (모바일 390px 친화적 반응형 디자인) */}
       <div
         role="tablist"
         aria-label="Map Mode Tabs"
@@ -109,11 +109,13 @@ export function MapTabContainer({
           gridTemplateColumns: '1fr 1fr',
           gap: '6px',
           maxWidth: '520px',
+          width: '100%',
           margin: '0 auto 28px',
           padding: '5px',
           background: '#E2E8F0',
           borderRadius: '16px',
           boxShadow: 'inset 0 1px 3px rgba(0, 0, 0, 0.06)',
+          boxSizing: 'border-box',
         }}
       >
         {/* 탭 1: 12대 관광 명소 */}
@@ -126,9 +128,9 @@ export function MapTabContainer({
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            gap: '8px',
-            padding: '11px 12px',
-            fontSize: '14px',
+            gap: '5px',
+            padding: '9px 8px',
+            fontSize: 'clamp(11.5px, 2.7vw, 14px)',
             fontWeight: activeTab === 'landmarks' ? 800 : 600,
             color: activeTab === 'landmarks' ? '#12333B' : '#64748B',
             background: activeTab === 'landmarks' ? '#FFFFFF' : 'transparent',
@@ -140,19 +142,29 @@ export function MapTabContainer({
               activeTab === 'landmarks'
                 ? '0 2px 8px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.04)'
                 : 'none',
-            whiteSpace: 'nowrap',
+            minWidth: 0,
+            textAlign: 'center',
           }}
         >
-          <span style={{ fontSize: '16px', lineHeight: 1 }}>🏛️</span>
-          <span>{tabLabels.landmarks}</span>
+          <span style={{ fontSize: '15px', lineHeight: 1, flexShrink: 0 }}>🏛️</span>
+          <span
+            style={{
+              lineHeight: 1.25,
+              wordBreak: 'normal',
+              whiteSpace: 'normal',
+            }}
+          >
+            {tabLabels.landmarks}
+          </span>
           <span
             style={{
               fontSize: '11px',
-              padding: '2px 6px',
+              padding: '2px 5px',
               borderRadius: '999px',
               background: activeTab === 'landmarks' ? '#F1F5F9' : 'rgba(100, 116, 139, 0.12)',
               color: activeTab === 'landmarks' ? '#0F766E' : '#64748B',
               fontWeight: 700,
+              flexShrink: 0,
             }}
           >
             12
@@ -169,9 +181,9 @@ export function MapTabContainer({
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            gap: '8px',
-            padding: '11px 12px',
-            fontSize: '14px',
+            gap: '5px',
+            padding: '9px 8px',
+            fontSize: 'clamp(11.5px, 2.7vw, 14px)',
             fontWeight: activeTab === 'dining' ? 800 : 600,
             color: activeTab === 'dining' ? '#12333B' : '#64748B',
             background: activeTab === 'dining' ? '#FFFFFF' : 'transparent',
@@ -183,19 +195,29 @@ export function MapTabContainer({
               activeTab === 'dining'
                 ? '0 2px 8px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.04)'
                 : 'none',
-            whiteSpace: 'nowrap',
+            minWidth: 0,
+            textAlign: 'center',
           }}
         >
-          <span style={{ fontSize: '16px', lineHeight: 1 }}>🍽️</span>
-          <span>{tabLabels.dining}</span>
+          <span style={{ fontSize: '15px', lineHeight: 1, flexShrink: 0 }}>🍽️</span>
+          <span
+            style={{
+              lineHeight: 1.25,
+              wordBreak: 'normal',
+              whiteSpace: 'normal',
+            }}
+          >
+            {tabLabels.dining}
+          </span>
           <span
             style={{
               fontSize: '11px',
-              padding: '2px 6px',
+              padding: '2px 5px',
               borderRadius: '999px',
               background: activeTab === 'dining' ? '#FFF1E8' : 'rgba(100, 116, 139, 0.12)',
               color: activeTab === 'dining' ? '#C86D2D' : '#64748B',
               fontWeight: 700,
+              flexShrink: 0,
             }}
           >
             {totalVenues}

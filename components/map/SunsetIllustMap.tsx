@@ -50,9 +50,37 @@ interface Block {
   venues: Venue[]
 }
 
+const DISTRICT_NAME_OVERRIDES: Partial<Record<MapLanguage, Record<string, string>>> = {
+  ru: {
+    VEN_NORTH: 'Venice Street (Северная часть)',
+    VEN_SOUTH: 'Venice Street (Южная часть)',
+    AMA_NORTH: 'Amalfi Street (Северная часть)',
+    AMA_SOUTH: 'Amalfi Street (Южная часть)',
+    POS_NORTH: 'Positano Street (Северная часть)',
+    POS_SOUTH: 'Positano Street (Южная часть)',
+    FB2: 'Рестораны и кафе на площади у северного пляжа Kiss Bridge',
+    MILAN_HILLSIDE: 'Milan Street / Hillside',
+  },
+  hi: {
+    VEN_NORTH: 'Venice Street (उत्तर)',
+    VEN_SOUTH: 'Venice Street (दक्षिण)',
+    AMA_NORTH: 'Amalfi Street (उत्तर)',
+    AMA_SOUTH: 'Amalfi Street (दक्षिण)',
+    POS_NORTH: 'Positano Street (उत्तर)',
+    POS_SOUTH: 'Positano Street (दक्षिण)',
+    FB2: 'किस ब्रिज नॉर्थ बीच प्लाज़ा के रेस्तरां और कैफ़े',
+    AMA_MID_1: 'सन सिग्नेचर गैलरी',
+    MILAN_HILLSIDE: 'Milan Street / Hillside',
+  },
+}
+
 const getBlockName = (block: Block, lang: MapLanguage): string => {
   if (lang === 'ko') {
     return block.name
+  }
+  const override = DISTRICT_NAME_OVERRIDES[lang]?.[block.id]
+  if (override) {
+    return override
   }
   const langKey = `name_${lang}` as keyof Block
   const val = block[langKey]
@@ -60,6 +88,76 @@ const getBlockName = (block: Block, lang: MapLanguage): string => {
     return val
   }
   return block.name_en || block.name
+}
+
+const KOREAN_CHAR_REGEX = /[\uac00-\ud7a3]/
+
+/**
+ * zh/ru/ja/hi 등 다국어 화면에서 업체 카드 제목의 불필요한 한글 음역 및 설명 제거
+ * 규칙:
+ * 1) ko 화면은 현재 그대로, en 화면은 기존 동작 유지
+ * 2) 한글이 포함되지 않은 순수 영문/베트남어 명칭은 그대로 반환
+ * 3) "한글 (원문)" 형태인 경우 괄호 안의 원문(영문/베트남어)을 추출하고,
+ *    괄호 안의 한글 부가설명 및 남는 구분기호(-, 공백 등)를 제거
+ * 4) 파싱 결과가 비어있거나 한글이 남아있으면 원래 rawName으로 안전하게 fallback
+ *    (순수 한글 2곳: sunset-place-4 '라군 식당', sunset-place '푸꾸옥 뚱보집 선셋타운점 (한식당)',
+ *     혼합 1곳: madam-khanh-restaurant-phu-quoc-2 'Madam Khánh Restaurant Phú quốc 2-마담 칸 - 汗女士')
+ */
+export const getCleanVenueName = (rawName: string, lang: MapLanguage): string => {
+  if (lang === 'ko' || lang === 'en') {
+    return rawName
+  }
+  if (!KOREAN_CHAR_REGEX.test(rawName)) {
+    return rawName
+  }
+
+  // 괄호 안 원문 매칭 (예: "한글음역 (원문/영문)")
+  const match = rawName.match(/\(([^)]+)\)/)
+  if (!match) {
+    return rawName
+  }
+
+  const inside = match[1].trim()
+
+  // 하이픈(-) 구분자가 포함된 경우 세그먼트별 한글 설명 분리 제거
+  let candidate = inside
+  const segments = inside.split(/\s*[-–—]\s*/)
+  if (segments.length > 1) {
+    const cleanedSegments: string[] = []
+    for (const seg of segments) {
+      if (KOREAN_CHAR_REGEX.test(seg)) {
+        // 영문 브랜드 + 한글 설명 혼합인 경우(예: "La Festa Hilton 스페인 다이닝")
+        const stripped = seg
+          .replace(/[\uac00-\ud7a3]+/g, '')
+          .replace(/[&/·,]/g, '')
+          .trim()
+        if (/[a-zA-Z]{2,}/.test(stripped)) {
+          cleanedSegments.push(stripped)
+        }
+      } else {
+        cleanedSegments.push(seg)
+      }
+    }
+    if (cleanedSegments.length > 0) {
+      candidate = cleanedSegments.join(' - ')
+    }
+  } else {
+    candidate = inside.replace(/[\uac00-\ud7a3]+/g, '').trim()
+  }
+
+  // 앞뒤 및 내부 찌꺼기 기호/공백 정리
+  const cleaned = candidate
+    .replace(/\s*[-–—/·,&]+\s*$/g, '')
+    .replace(/^\s*[-–—/·,&]+\s*/g, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim()
+
+  // 결과가 비었거나 여전히 한글이 남아있는 경우 원래 rawName으로 fallback
+  if (!cleaned || KOREAN_CHAR_REGEX.test(cleaned)) {
+    return rawName
+  }
+
+  return cleaned
 }
 
 const IMG_W = 887
@@ -903,7 +1001,9 @@ export function SunsetIllustMap({
                           >
                             <div className={styles.cardMain}>
                               <div className={styles.cardTop}>
-                                <div className={styles.cardTitle}>{v.name}</div>
+                                <div className={styles.cardTitle}>
+                                  {getCleanVenueName(v.name, lang)}
+                                </div>
                                 <span
                                   className={`${styles.cardBadge} ${
                                     isDining ? styles.badgeDining : styles.badgeBars
@@ -975,7 +1075,9 @@ export function SunsetIllustMap({
                 className={styles.outsideCard}
               >
                 <div>
-                  <div className={styles.cardTitle}>{ov.name}</div>
+                  <div className={styles.cardTitle}>
+                    {getCleanVenueName(ov.name, lang)}
+                  </div>
                   <div className={styles.cardAddr}>{ov.addr || ''}</div>
                 </div>
                 <div className={styles.cardBottom}>
