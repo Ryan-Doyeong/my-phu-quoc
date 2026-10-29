@@ -23,6 +23,7 @@ import {
   type DirectoryCategory,
 } from '@/lib/directory'
 import { STOCK_IMAGES } from '@/lib/stockImages'
+import { tUi } from '@/lib/i18n/uiStrings'
 import { imageUrl } from '@/lib/imageUrl'
 import type { HomeSections } from '@/lib/homeSections'
 import { localePath, dateLocaleFor, type Locale } from '@/lib/i18n/config'
@@ -632,7 +633,9 @@ export function HomePage({
                 <div className="sunsetMapPromoGraphic">
                   <Link href={localePath(locale, '/map')} className="sunsetMapPromoThumbnail" aria-label={pt.cta}>
                     <span style={{ fontSize: '38px' }}>🗺️</span>
-                    <span style={{ fontSize: '11.5px', fontWeight: 800, letterSpacing: '0.04em' }}>INTERACTIVE MAP</span>
+                    <span style={{ fontSize: '11.5px', fontWeight: 800, letterSpacing: '0.04em' }}>
+                      {tUi('INTERACTIVE MAP', locale)}
+                    </span>
                   </Link>
                 </div>
               </div>

@@ -25,7 +25,7 @@ export type LocalizedText = Partial<Record<Exclude<Locale, 'en'>, string>>
 const BADGE_MAP: Record<string, LocalizedText> = {
   recommended: { vi: 'Đề xuất', hi: 'अनुशंसित', zh: '推荐', ru: 'Рекомендуем', ko: '추천', ja: 'おすすめ' },
   new: { vi: 'Mới', hi: 'नया', zh: '新店', ru: 'Новое', ko: '신규', ja: '新着' },
-  hot: { vi: 'HOT', hi: 'HOT', zh: '热门', ru: 'HOT', ko: '인기(HOT)', ja: '人気' },
+  hot: { vi: 'HOT', hi: 'लोकप्रिय', zh: '热门', ru: 'Популярное', ko: '인기(HOT)', ja: '人気' },
   'hello sunset town member': {
     vi: 'Thành viên My Phu Quoc',
     hi: 'My Phu Quoc सदस्य',
@@ -392,6 +392,22 @@ export function getDictionary(locale: Locale = 'en'): Dictionary {
 
   if (locale === 'zh' || locale === 'ru' || locale === 'ja' || locale === 'hi') {
     merged = translateDictionaryTree(merged, locale) as Dictionary
+    if (merged.intake) {
+      const origPhotoSelected = merged.intake.photoSelected
+      merged = {
+        ...merged,
+        intake: {
+          ...merged.intake,
+          photoSelected: (n: number) => {
+            if (locale === 'zh') return `已选择 ${n} 张`
+            if (locale === 'ru') return `Выбрано: ${n}`
+            if (locale === 'ja') return `${n}枚 選択中`
+            if (locale === 'hi') return `${n} फ़ोटो चुनी गई`
+            return origPhotoSelected ? origPhotoSelected(n) : `${n} selected`
+          },
+        },
+      } as Dictionary
+    }
   }
 
   MERGED_CACHE.set(locale, merged)
@@ -642,17 +658,44 @@ function cleanBusinessName(raw: string): string {
   return raw
 }
 
+const SPECIAL_VENUE_NAMES: Record<string, { en: string; ko: string }> = {
+  'sunset-place': {
+    ko: '푸꾸옥 뚱보집 선셋타운점 (한식당)',
+    en: 'Phu Quoc Ttungbojip Sunset Town (Korean Restaurant)',
+  },
+  'mimi-fruits-mart': {
+    ko: '미미프루츠 & 미미편의점 (선셋타운 전 구역 배달)',
+    en: 'Mimi Fruits & Mimi Mini Mart (Delivery across Sunset Town)',
+  },
+  'sunset-place-9': {
+    ko: '솔라나 스파',
+    en: 'SOLANA Spa Sunset Town Phú Quốc',
+  },
+}
+
 /**
  * 비-한국어 로케일에서 한글 업체명 제거 및 라틴 표기 정제 헬퍼
  * - ko 로케일: 기존 그대로 반환
  * - 비-ko 로케일:
- *   1) b가 객체일 때 name_en / name_local 우선 사용 (영문/라틴 후보)
- *   2) 'A (B)' 형태면 B에 라틴 문자가 있을 때 B 사용
- *   3) 아니면 한글을 제거하고 구분자(괄호, 하이픈, 공백) 정리
- *   4) 한글만 남아 라틴 문자가 없는 5개소는 원본 반환 (보고서에 TODO 표로 보고)
+ *   1) b가 객체일 때 SPECIAL_VENUE_NAMES 우선 매핑
+ *   2) name_en, name_local, google_maps_name 우선 사용
+ *   3) 'A (B)' 형태면 B에 라틴 문자가 있을 때 B 사용
+ *   4) 한글을 제거하고 구분자(괄호, 하이픈, 공백) 정리
  */
 export function displayBusinessName(b: any, locale: Locale = 'en'): string {
   if (!b) return ''
+  const slug = typeof b === 'object' ? (b.slug || '') : ''
+  if (slug && SPECIAL_VENUE_NAMES[slug]) {
+    return locale === 'ko' ? SPECIAL_VENUE_NAMES[slug].ko : SPECIAL_VENUE_NAMES[slug].en
+  }
+  if (typeof b === 'string') {
+    for (const item of Object.values(SPECIAL_VENUE_NAMES)) {
+      if (b === item.ko || b === item.en) {
+        return locale === 'ko' ? item.ko : item.en
+      }
+    }
+  }
+
   if (locale === 'ko') {
     return typeof b === 'string' ? b : (b.public_name || b.name || '')
   }

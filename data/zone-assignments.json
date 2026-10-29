@@ -1379,16 +1379,6 @@
       "sunset-town"
     ]
   },
-  "local-sunset-139": {
-    "place_id": "local-sunset-139",
-    "google_place_id": "ChIJmwciuL6VpzER3ZIjhoDL17I",
-    "name": "라군 식당",
-    "zone": "sunset-town",
-    "public_category": "dining",
-    "service_areas": [
-      "sunset-town"
-    ]
-  },
   "local-sunset-140": {
     "place_id": "local-sunset-140",
     "google_place_id": "ChIJNcEJoqmXpzERV_7N3lFq9sM",
@@ -2383,16 +2373,6 @@
     "place_id": "local-sunset-239",
     "google_place_id": "ChIJp0UjMf6VpzERD7GyjfKiP3E",
     "name": "Herbal Spa & Nail - Sunset Town",
-    "zone": "sunset-town",
-    "public_category": "wellness",
-    "service_areas": [
-      "sunset-town"
-    ]
-  },
-  "local-sunset-240": {
-    "place_id": "local-sunset-240",
-    "google_place_id": "ChIJ-8ORFQCXpzERAjwPCzq_HAQ",
-    "name": "코코넛 스파",
     "zone": "sunset-town",
     "public_category": "wellness",
     "service_areas": [

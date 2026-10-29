@@ -123,9 +123,13 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
   const needle = q.toLowerCase()
   const b = (businesses || []).filter(
     (x: any) =>
-      !needle ||
-      [
-        x.public_name,
+      x.slug !== 'sunset-place-4' &&
+      x.slug !== 'sunset-place-8' &&
+      x.id !== 'local-sunset-139' &&
+      x.id !== 'local-sunset-240' &&
+      (!needle ||
+        [
+          x.public_name,
         displayBusinessName(x, locale),
         x.category,
         categoryLabel(x.category, locale),
@@ -139,7 +143,7 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
         ...(x.tags || []).map((t: string) => translateTerm(t, locale)),
         ...(x.badges || []),
         nearbyBadgeText(x.address, x.tags, x.badges, locale) || '',
-      ].some((v) => text(v).includes(needle))
+      ].some((v) => text(v).includes(needle)))
   )
   const dbStorySlugs = new Set((stories || []).map((row: any) => row.slug))
   const mergedStories = [

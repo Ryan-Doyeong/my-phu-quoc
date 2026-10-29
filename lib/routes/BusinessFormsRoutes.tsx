@@ -76,7 +76,15 @@ export async function renderPartnersRoute(slot: string | undefined, locale: Loca
       .select('id, public_name, slug')
       .eq('status', 'published')
       .order('public_name')
-    if (data) businesses = data
+    if (data) {
+      businesses = data.filter(
+        (b) =>
+          b.slug !== 'sunset-place-4' &&
+          b.slug !== 'sunset-place-8' &&
+          b.id !== 'local-sunset-139' &&
+          b.id !== 'local-sunset-240'
+      )
+    }
   } catch {
     businesses = []
   }

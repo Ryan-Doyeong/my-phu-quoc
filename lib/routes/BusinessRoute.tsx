@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { notFound } from 'next/navigation'
+import { notFound, redirect } from 'next/navigation'
 import type { Metadata } from 'next'
 import { createPublicClient } from '@/lib/supabase/public'
 import { Logo } from '@/components/Logo'
@@ -78,10 +78,18 @@ const PHOTO_REQUEST_LINK: Record<string, string> = {
   hi: 'फ़ोटो हटाने या बदलने का अनुरोध',
 }
 
+const DELETED_SLUG_REDIRECTS: Record<string, string> = {
+  'sunset-place-4': '/directory/dining',
+  'sunset-place-8': '/directory/wellness',
+}
+
 export async function generateBusinessMetadata(
   slug: string,
   locale: Locale = 'en'
 ): Promise<Metadata> {
+  if (DELETED_SLUG_REDIRECTS[slug]) {
+    return {}
+  }
   const supabase = createPublicClient()
   let b: any = null
   try {
@@ -147,6 +155,9 @@ function splitBusinessTitle(name: string) {
 }
 
 export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
+  if (DELETED_SLUG_REDIRECTS[slug]) {
+    redirect(localePath(locale, DELETED_SLUG_REDIRECTS[slug]))
+  }
   const dict = getDictionary(locale)
   const supabase = createPublicClient()
   let b: any = null
@@ -162,7 +173,12 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
   if (!b) {
     b = (businessesRegistry as any[]).find((x) => x.slug === slug) || null
   }
-  if (!b) notFound()
+  if (!b || b.slug === 'sunset-place-4' || b.slug === 'sunset-place-8' || b.id === 'local-sunset-139' || b.id === 'local-sunset-240') {
+    if (DELETED_SLUG_REDIRECTS[slug]) {
+      redirect(localePath(locale, DELETED_SLUG_REDIRECTS[slug]))
+    }
+    notFound()
+  }
 
   const photos = (b.gallery_urls || []).length
     ? b.gallery_urls

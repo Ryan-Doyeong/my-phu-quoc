@@ -110,10 +110,17 @@ export async function renderDirectoryRoute(
     }),
   ]
 
-  const items =
+  const items = (
     data && data.length > 0 && !['beaches', 'transport'].includes(category)
       ? data
       : combinedRegistry.filter((b) => b.public_category === category)
+  ).filter(
+    (b: any) =>
+      b.slug !== 'sunset-place-4' &&
+      b.slug !== 'sunset-place-8' &&
+      b.id !== 'local-sunset-139' &&
+      b.id !== 'local-sunset-240'
+  )
 
   const initialZone = normalizeZoneQuery(searchParams?.zone)
 
