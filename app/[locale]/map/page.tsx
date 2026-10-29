@@ -8,6 +8,13 @@ import Link from 'next/link'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { DIRECTORY_CATEGORY_KEYS, categoryLabel } from '@/lib/directory'
 import { getDictionary } from '@/lib/i18n/dictionaries'
+import { createPublicClient } from '@/lib/supabase/public'
+import baseMapJson from '@/data/sunset-illust-map-data.json'
+import type { MapDataPayload } from '@/components/map/SunsetIllustMap'
+import { MapTabContainer } from '@/components/map/MapTabContainer'
+
+// Ryan 지시: Next.js ISR 300초(5분) 캐시 갱신
+export const revalidate = 300
 
 interface MapPageProps {
   params: Promise<{ locale: Locale }>
@@ -108,6 +115,55 @@ export default async function MapPage({ params }: MapPageProps) {
 
   const t = pageTexts[locale] || pageTexts.en
 
+  // 1. Supabase businesses 테이블에서 published 상태인 F&B 업체 목록 조회
+  // [안전 보강 · Ryan 지시]: DB 통신 오류 또는 0건 반환 시 전체가 노출되는 취약점 원천 방어
+  const supabase = createPublicClient()
+  const { data: dbBusinesses, error: dbError } = await supabase
+    .from('businesses')
+    .select('slug, status, category')
+    .eq('status', 'published')
+    .in('category', ['dining', 'bars'])
+
+  if (dbError || !dbBusinesses || dbBusinesses.length === 0) {
+    console.error('[MapPage] Supabase fetch error or empty results:', dbError)
+    throw new Error(
+      `[MapPage] Supabase query failed or returned 0 items: ${dbError?.message || '0 items'}`
+    )
+  }
+
+  const publishedSlugs = new Set<string>()
+  dbBusinesses.forEach((b: any) => {
+    publishedSlugs.add(b.slug)
+  })
+
+  // 2. 보조 정적 JSON 데이터와 DB published 목록 순수 결합 (화이트리스트 방식)
+  const rawBase = baseMapJson as any
+  const filteredVenues = (rawBase.venues || []).filter((v: any) => publishedSlugs.has(v.slug))
+  const filteredOutside = (rawBase.outside || []).filter((ov: any) => publishedSlugs.has(ov.slug))
+  const filteredBlocks = (rawBase.blocks || []).map((b: any) => ({
+    ...b,
+    venues: (b.venues || []).filter((v: any) => publishedSlugs.has(v.slug)),
+  }))
+
+  const diningInside = filteredVenues.filter((v: any) => v.cat === 'dining').length
+  const barsInside = filteredVenues.filter((v: any) => v.cat === 'bars').length
+
+  const dynamicMapData: MapDataPayload = {
+    summary: {
+      ...rawBase.summary,
+      total_live_union: filteredVenues.length + filteredOutside.length,
+      inside_map: filteredVenues.length,
+      outside_map: filteredOutside.length,
+      dining_inside: diningInside,
+      bars_inside: barsInside,
+      dining_outside: filteredOutside.filter((v: any) => v.cat === 'dining').length,
+      bars_outside: filteredOutside.filter((v: any) => v.cat === 'bars').length,
+    },
+    blocks: filteredBlocks,
+    venues: filteredVenues,
+    outside: filteredOutside,
+  }
+
   return (
     <div className="siteRoot" style={{ minHeight: '100vh', background: '#F8FAFC' }}>
       {/* 사이트 상단 공통 헤더 */}
@@ -159,70 +215,79 @@ export default async function MapPage({ params }: MapPageProps) {
           </p>
         </div>
 
-        {/* 1. 상단 인터랙티브 지도 & 2. 12대 명소 아코디언 카드 목록 */}
-        <SunsetTownMap locale={locale} />
+        {/* 2대 탭 컨테이너 (탭1: 12대 관광 명소 / 탭2: 맛집 지도 85곳) */}
+        <MapTabContainer
+          locale={locale}
+          dynamicMapData={dynamicMapData}
+          landmarksChild={
+            <>
+              {/* 1. 상단 인터랙티브 지도 & 2. 12대 명소 아코디언 카드 목록 */}
+              <SunsetTownMap locale={locale} />
 
-        {/* 3. 하단 구역 전용 페이지(/zones/sunset-town) 링크 배너 (Ryan 지시: 미사용 계획으로 조건부 숨김 처리) */}
-        {SHOW_6_QUARTERS_BANNER && (
-          <section style={{ marginTop: '60px' }}>
-            <div
-              style={{
-                background: '#ffffff',
-                border: '1px solid #E2E8F0',
-                borderRadius: '16px',
-                padding: '32px 28px',
-                boxShadow: '0 4px 16px rgba(0,0,0,0.04)',
-                display: 'flex',
-                flexDirection: 'row',
-                alignItems: 'center',
-                justifyContent: 'space-between',
-                gap: '24px',
-                flexWrap: 'wrap',
-              }}
-            >
-              <div style={{ maxWidth: '720px' }}>
-                <span
-                  style={{
-                    fontSize: '12px',
-                    fontWeight: 800,
-                    color: '#C86D2D',
-                    letterSpacing: '0.06em',
-                    textTransform: 'uppercase',
-                    display: 'inline-block',
-                    marginBottom: '6px',
-                  }}
-                >
-                  SUNSET TOWN 6 QUARTERS
-                </span>
-                <h2 style={{ fontSize: '20px', fontWeight: 800, color: '#12333B', margin: '0 0 8px' }}>
-                  🏛️ {t.zoneBannerTitle}
-                </h2>
-                <p style={{ fontSize: '14px', color: '#64748B', margin: 0, lineHeight: 1.6 }}>
-                  {t.zoneBannerDesc}
-                </p>
-              </div>
-              <Link
-                href={localePath(locale, '/zones/sunset-town')}
-                className="primaryButton"
-                style={{
-                  background: '#12333B',
-                  color: '#ffffff',
-                  padding: '12px 24px',
-                  borderRadius: '999px',
-                  fontWeight: 700,
-                  fontSize: '14px',
-                  textDecoration: 'none',
-                  whiteSpace: 'nowrap',
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  gap: '8px',
-                }}
-              >
-                <span>{t.zoneBannerBtn}</span>
-              </Link>
-            </div>
-          </section>
-        )}
+              {/* 3. 하단 구역 전용 페이지(/zones/sunset-town) 링크 배너 (Ryan 지시: 미사용 계획으로 조건부 숨김 처리) */}
+              {SHOW_6_QUARTERS_BANNER && (
+                <section style={{ marginTop: '60px' }}>
+                  <div
+                    style={{
+                      background: '#ffffff',
+                      border: '1px solid #E2E8F0',
+                      borderRadius: '16px',
+                      padding: '32px 28px',
+                      boxShadow: '0 4px 16px rgba(0,0,0,0.04)',
+                      display: 'flex',
+                      flexDirection: 'row',
+                      alignItems: 'center',
+                      justifyContent: 'space-between',
+                      gap: '24px',
+                      flexWrap: 'wrap',
+                    }}
+                  >
+                    <div style={{ maxWidth: '720px' }}>
+                      <span
+                        style={{
+                          fontSize: '12px',
+                          fontWeight: 800,
+                          color: '#C86D2D',
+                          letterSpacing: '0.06em',
+                          textTransform: 'uppercase',
+                          display: 'inline-block',
+                          marginBottom: '6px',
+                        }}
+                      >
+                        SUNSET TOWN 6 QUARTERS
+                      </span>
+                      <h2 style={{ fontSize: '20px', fontWeight: 800, color: '#12333B', margin: '0 0 8px' }}>
+                        🏛️ {t.zoneBannerTitle}
+                      </h2>
+                      <p style={{ fontSize: '14px', color: '#64748B', margin: 0, lineHeight: 1.6 }}>
+                        {t.zoneBannerDesc}
+                      </p>
+                    </div>
+                    <Link
+                      href={localePath(locale, '/zones/sunset-town')}
+                      className="primaryButton"
+                      style={{
+                        background: '#12333B',
+                        color: '#ffffff',
+                        padding: '12px 24px',
+                        borderRadius: '999px',
+                        fontWeight: 700,
+                        fontSize: '14px',
+                        textDecoration: 'none',
+                        whiteSpace: 'nowrap',
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '8px',
+                      }}
+                    >
+                      <span>{t.zoneBannerBtn}</span>
+                    </Link>
+                  </div>
+                </section>
+              )}
+            </>
+          }
+        />
       </main>
     </div>
   )
