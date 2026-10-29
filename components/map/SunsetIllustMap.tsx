@@ -64,6 +64,17 @@ const getBlockName = (block: Block, lang: MapLanguage): string => {
 
 const IMG_W = 887
 const IMG_H = 1774
+const FOCUS_Y = 550 // Central Clock Tower & town center anchor in canvas coordinates
+
+// Rule 2-a: Minimum scale is cover = max(vpW / IMG_W, vpH / IMG_H). Never drops below this.
+const getMinScale = (vpW: number, vpH: number) => {
+  if (vpW <= 0 || vpH <= 0) return 0.44
+  return Math.max(vpW / IMG_W, vpH / IMG_H)
+}
+
+const getMaxScale = (minScale: number) => {
+  return Math.max(minScale * 3.2, 2.5)
+}
 
 // 6 supported languages map background paths
 const MAP_IMAGES: Record<MapLanguage, string> = {
@@ -340,59 +351,135 @@ export function SunsetIllustMap({
   const totalCount = activeData.summary?.total_live_union || (allVenues.length + outsideVenues.length) || 85
 
   // Clamp function
-  const clamp = (val: number, min: number, max: number) => Math.min(Math.max(val, min), max)
+  const clamp = useCallback(
+    (val: number, min: number, max: number) => Math.min(Math.max(val, min), max),
+    []
+  )
 
-  // Calculate clamp boundaries
+  // Calculate clamp boundaries so image edges NEVER enter inside the viewport (Rule 2-b)
   const getBounds = useCallback(
     (curScale: number) => {
-      const vpW = viewportRef.current?.clientWidth || 390
-      const vpH = viewportRef.current?.clientHeight || 500
-      const minX = Math.min(0, vpW - IMG_W * curScale)
-      const maxX = 0
-      const minY = Math.min(0, vpH - IMG_H * curScale)
-      const maxY = 0
-      return { minX, maxX, minY, maxY, vpW, vpH }
+      const el = viewportRef.current
+      const vpW = el?.clientWidth || 390
+      const vpH = el?.clientHeight || 460
+
+      const imgW = IMG_W * curScale
+      const imgH = IMG_H * curScale
+
+      // If imgW >= vpW, allow panning between vpW - imgW and 0.
+      // If imgW < vpW (safety fallback), center horizontally.
+      const minX = imgW >= vpW ? vpW - imgW : (vpW - imgW) / 2
+      const maxX = imgW >= vpW ? 0 : (vpW - imgW) / 2
+
+      // If imgH >= vpH, allow panning between vpH - imgH and 0.
+      // If imgH < vpH (safety fallback), center vertically.
+      const minY = imgH >= vpH ? vpH - imgH : (vpH - imgH) / 2
+      const maxY = imgH >= vpH ? 0 : (vpH - imgH) / 2
+
+      return { minX, maxX, minY, maxY, vpW, vpH, imgW, imgH }
     },
     []
   )
 
-  // 결함 1 (중대) 수정:
-  // 탭 숨김(display: none) 상태에서 폭이 0으로 읽혀 scale이 0이 되는 문제 원천 해결.
-  // 1. 폭이 0보다 클 때만 scale을 계산하고, 0이면 절대 scale을 0으로 덮어쓰지 않음.
-  // 2. ResizeObserver를 통해 탭 전환, 창 크기 변경, #food 직접 진입 등으로 컨테이너가 화면에 나타나는 즉시 scale 재계산.
+  // Initial centered view calculation (Rules 2-a, 2-c, 2-d)
+  const getInitialView = useCallback(
+    (vpW: number, vpH: number) => {
+      const minScale = getMinScale(vpW, vpH)
+      const initScale = minScale
+
+      const imgW = IMG_W * initScale
+      const imgH = IMG_H * initScale
+
+      // Horizontal centering: (vpW - imgW) / 2
+      // PC: imgW === vpW -> initPanX = 0 (exact full-width coverage, 0 left/right gap).
+      // Tall viewports: imgW > vpW -> initPanX < 0 (centered horizontally with no gaps).
+      const minX = imgW >= vpW ? vpW - imgW : (vpW - imgW) / 2
+      const maxX = imgW >= vpW ? 0 : (vpW - imgW) / 2
+      const initPanX = clamp((vpW - imgW) / 2, minX, maxX)
+
+      // Vertical: center around FOCUS_Y (550, Central Clock Tower & town), clamped to [minY, maxY]
+      const minY = imgH >= vpH ? vpH - imgH : (vpH - imgH) / 2
+      const maxY = imgH >= vpH ? 0 : (vpH - imgH) / 2
+      const desiredPanY = vpH / 2 - FOCUS_Y * initScale
+      const initPanY = clamp(desiredPanY, minY, maxY)
+
+      return { initScale, initPanX, initPanY }
+    },
+    [clamp]
+  )
+
+  const isInitialized = useRef(false)
+  const lastVpDims = useRef({ w: 0, h: 0 })
+
+  // ResizeObserver for initial entry, tab switch (#food), and window resize
   useEffect(() => {
     const el = viewportRef.current
     if (!el) return
 
-    const updateScaleFromWidth = (width: number) => {
-      if (width <= 0) return
-      const nextScale = clamp(width / IMG_W, 0.35, 1.6)
-      setScale((prev) => {
-        // scale이 0에 가깝거나 크게 변했을 때 안전하게 갱신
-        if (prev <= 0.05 || Math.abs(prev - nextScale) > 0.01) {
-          const { minX, maxX, minY, maxY } = getBounds(nextScale)
-          setPanX((px) => clamp(px, minX, maxX))
-          setPanY((py) => clamp(py, minY, maxY))
+    const handleResize = (w: number, h: number) => {
+      if (w <= 0 || h <= 0) return
+
+      const prevW = lastVpDims.current.w
+      const prevH = lastVpDims.current.h
+      lastVpDims.current = { w, h }
+
+      const minScale = getMinScale(w, h)
+      const maxScale = getMaxScale(minScale)
+
+      if (!isInitialized.current || prevW === 0 || prevH === 0) {
+        // Initial setup or container became visible (tab switch)
+        isInitialized.current = true
+        const { initScale, initPanX, initPanY } = getInitialView(w, h)
+        setScale(initScale)
+        setPanX(initPanX)
+        setPanY(initPanY)
+      } else {
+        // Window resized
+        setScale((prevScale) => {
+          // If previous scale dropped below the new minScale, raise it to minScale
+          const wasAtMinScale = prevScale <= minScale + 0.05
+          const nextScale = wasAtMinScale ? minScale : clamp(prevScale, minScale, maxScale)
+
+          const imgW = IMG_W * nextScale
+          const imgH = IMG_H * nextScale
+
+          const minX = imgW >= w ? w - imgW : (w - imgW) / 2
+          const maxX = imgW >= w ? 0 : (w - imgW) / 2
+          const minY = imgH >= h ? h - imgH : (h - imgH) / 2
+          const maxY = imgH >= h ? 0 : (h - imgH) / 2
+
+          setPanX((prevPanX) => {
+            if (wasAtMinScale) {
+              return clamp((w - imgW) / 2, minX, maxX)
+            }
+            return clamp(prevPanX, minX, maxX)
+          })
+
+          setPanY((prevPanY) => {
+            if (wasAtMinScale) {
+              return clamp(h / 2 - FOCUS_Y * nextScale, minY, maxY)
+            }
+            return clamp(prevPanY, minY, maxY)
+          })
+
           return nextScale
-        }
-        return prev
-      })
+        })
+      }
     }
 
-    // 마운트 시점에 유효한 너비가 있으면 즉시 초기화
-    if (el.clientWidth > 0) {
-      updateScaleFromWidth(el.clientWidth)
+    if (el.clientWidth > 0 && el.clientHeight > 0) {
+      handleResize(el.clientWidth, el.clientHeight)
     }
 
-    // 컨테이너 표시 상태 및 크기 변화를 실시간 감지
     let ro: ResizeObserver | null = null
     if (typeof ResizeObserver !== 'undefined') {
       ro = new ResizeObserver((entries) => {
         for (const entry of entries) {
           const cr = entry.contentRect
           const w = cr.width || el.clientWidth
-          if (w > 0) {
-            updateScaleFromWidth(w)
+          const h = cr.height || el.clientHeight
+          if (w > 0 && h > 0) {
+            handleResize(w, h)
           }
         }
       })
@@ -400,8 +487,8 @@ export function SunsetIllustMap({
     }
 
     const onWindowResize = () => {
-      if (el.clientWidth > 0) {
-        updateScaleFromWidth(el.clientWidth)
+      if (el.clientWidth > 0 && el.clientHeight > 0) {
+        handleResize(el.clientWidth, el.clientHeight)
       }
     }
     window.addEventListener('resize', onWindowResize)
@@ -410,37 +497,77 @@ export function SunsetIllustMap({
       if (ro) ro.disconnect()
       window.removeEventListener('resize', onWindowResize)
     }
-  }, [getBounds])
+  }, [getInitialView, clamp])
 
-  // Zoom handlers
+  // Zoom handlers (Rules 2-a, 2-b)
   const handleZoom = (factor: number) => {
-    setScale((prev) => {
-      const nextScale = clamp(prev * factor, 0.35, 1.6)
-      const { minX, maxX, minY, maxY } = getBounds(nextScale)
-      setPanX((px) => clamp(px, minX, maxX))
-      setPanY((py) => clamp(py, minY, maxY))
+    const el = viewportRef.current
+    const vpW = el?.clientWidth || 390
+    const vpH = el?.clientHeight || 460
+    const minScale = getMinScale(vpW, vpH)
+    const maxScale = getMaxScale(minScale)
+
+    setScale((prevScale) => {
+      const targetScale = prevScale * factor
+      const nextScale = clamp(targetScale, minScale, maxScale)
+
+      const imgW = IMG_W * nextScale
+      const imgH = IMG_H * nextScale
+
+      const minX = imgW >= vpW ? vpW - imgW : (vpW - imgW) / 2
+      const maxX = imgW >= vpW ? 0 : (vpW - imgW) / 2
+      const minY = imgH >= vpH ? vpH - imgH : (vpH - imgH) / 2
+      const maxY = imgH >= vpH ? 0 : (vpH - imgH) / 2
+
+      setPanX((prevPanX) => {
+        if (Math.abs(nextScale - minScale) < 0.001) {
+          // At max zoom out, center horizontally
+          return clamp((vpW - imgW) / 2, minX, maxX)
+        }
+        // Zoom relative to viewport center
+        const newPanX = vpW / 2 - (vpW / 2 - prevPanX) * (nextScale / prevScale)
+        return clamp(newPanX, minX, maxX)
+      })
+
+      setPanY((prevPanY) => {
+        if (Math.abs(nextScale - minScale) < 0.001) {
+          // At max zoom out, center vertically on town center
+          return clamp(vpH / 2 - FOCUS_Y * nextScale, minY, maxY)
+        }
+        const newPanY = vpH / 2 - (vpH / 2 - prevPanY) * (nextScale / prevScale)
+        return clamp(newPanY, minY, maxY)
+      })
+
       return nextScale
     })
   }
 
+  // Reset button returns to centered initial state (Rule 2-d)
   const handleReset = () => {
-    if (viewportRef.current) {
-      const vpW = viewportRef.current.clientWidth
-      if (vpW > 0) {
-        const initScale = clamp(vpW / IMG_W, 0.35, 1.6)
+    const el = viewportRef.current
+    if (el) {
+      const vpW = el.clientWidth
+      const vpH = el.clientHeight
+      if (vpW > 0 && vpH > 0) {
+        const { initScale, initPanX, initPanY } = getInitialView(vpW, vpH)
         setScale(initScale)
-        setPanX(0)
-        setPanY(-95)
+        setPanX(initPanX)
+        setPanY(initPanY)
       }
       setActiveBlockId(null)
     }
   }
 
-  // Pointer drag interactions
+  // Pointer drag interactions with strict edge clamp (Rule 2-b)
   const onPointerDown = (e: React.PointerEvent) => {
     isDragging.current = true
     startPos.current = { x: e.clientX, y: e.clientY }
     startPan.current = { x: panX, y: panY }
+    if (e.target instanceof HTMLElement) {
+      try {
+        e.target.setPointerCapture(e.pointerId)
+      } catch {}
+    }
   }
 
   const onPointerMove = (e: React.PointerEvent) => {
@@ -452,8 +579,13 @@ export function SunsetIllustMap({
     setPanY(clamp(startPan.current.y + dy, minY, maxY))
   }
 
-  const onPointerUp = () => {
+  const onPointerUp = (e: React.PointerEvent) => {
     isDragging.current = false
+    try {
+      if (e.target instanceof HTMLElement && e.target.hasPointerCapture(e.pointerId)) {
+        e.target.releasePointerCapture(e.pointerId)
+      }
+    } catch {}
   }
 
   // 아코디언 열림/닫힘 토글 (다중 열림 지원)
@@ -488,8 +620,8 @@ export function SunsetIllustMap({
     const block = blocks.find((b) => b.id === blockId)
     if (block) {
       const { minX, maxX, minY, maxY, vpW, vpH } = getBounds(scale)
-      const targetX = -(block.x * scale - vpW / 2)
-      const targetY = -(block.y * scale - vpH / 2.2)
+      const targetX = vpW / 2 - block.x * scale
+      const targetY = vpH / 2 - block.y * scale
       setPanX(clamp(targetX, minX, maxX))
       setPanY(clamp(targetY, minY, maxY))
     }
