@@ -506,7 +506,7 @@ export async function renderArticleRoute(
           </section>
         )}
         {x.callout && <aside className="articleCallout">{x.callout}</aside>}
-        <ArticleBody body={x.body} />
+        <ArticleBody body={x.body} locale={locale} />
         {Array.isArray(x.gallery_urls) && x.gallery_urls.length > 0 && (
           <div className="articleGallery">
             {x.gallery_urls.map((p: string, i: number) => (

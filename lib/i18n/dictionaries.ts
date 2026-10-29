@@ -366,7 +366,10 @@ function translateDictionaryTree(obj: any, locale: Locale): any {
   if (typeof obj === 'string') {
     return tUi(obj, locale)
   }
-  if (typeof obj === 'object' && obj !== null && !Array.isArray(obj)) {
+  if (Array.isArray(obj)) {
+    return obj.map((item) => translateDictionaryTree(item, locale))
+  }
+  if (typeof obj === 'object' && obj !== null) {
     const res: Record<string, any> = {}
     for (const [k, v] of Object.entries(obj)) {
       res[k] = translateDictionaryTree(v, locale)
@@ -581,7 +584,15 @@ export function selectBusinessDescription(b: any, locale: Locale = 'en'): string
     }
     const v = b[`description_${locale}`]
     if (hasText(v)) return String(v).trim()
-    return b.description_en || null
+    let desc = b.description_en || null
+    if (desc && HANGUL_REGEX.test(desc)) {
+      if (b.name_local && LATIN_REGEX.test(b.name_local) && !HANGUL_REGEX.test(b.name_local)) {
+        desc = desc.replace(b.public_name || '', b.name_local)
+      } else if (b.google_maps_name && LATIN_REGEX.test(b.google_maps_name) && !HANGUL_REGEX.test(b.google_maps_name)) {
+        desc = desc.replace(b.public_name || '', b.google_maps_name)
+      }
+    }
+    return desc
   }
 
   // 2. 기존 ko / en / vi 동작 유지
@@ -646,13 +657,19 @@ export function displayBusinessName(b: any, locale: Locale = 'en'): string {
     return typeof b === 'string' ? b : (b.public_name || b.name || '')
   }
 
-  // 비-한국어: b가 객체일 때 name_en 또는 name_local 우선
+  // 비-한국어: b가 객체일 때 name_en, name_local 또는 google_maps_name 우선
   if (typeof b === 'object') {
     if (b.name_en && LATIN_REGEX.test(b.name_en)) {
       return cleanBusinessName(b.name_en)
     }
     if (b.name_local && LATIN_REGEX.test(b.name_local) && !HANGUL_REGEX.test(b.name_local)) {
       return cleanBusinessName(b.name_local)
+    }
+    if (b.google_maps_name && LATIN_REGEX.test(b.google_maps_name)) {
+      const cleanedG = cleanBusinessName(b.google_maps_name)
+      if (cleanedG && LATIN_REGEX.test(cleanedG) && !HANGUL_REGEX.test(cleanedG)) {
+        return cleanedG
+      }
     }
   }
 

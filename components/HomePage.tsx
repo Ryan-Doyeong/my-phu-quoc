@@ -58,10 +58,10 @@ const TWO_HUBS_EYEBROW: Record<string, string> = {
 const TWO_HUBS_TITLE: Record<string, string> = {
   ko: '선셋타운 & 켐비치',
   en: 'Sunset Town & Khem Beach',
-  zh: 'Sunset Town & Khem Beach',
-  ru: 'Sunset Town & Khem Beach',
-  ja: 'Sunset Town & Khem Beach',
-  hi: 'Sunset Town & Khem Beach',
+  zh: 'Sunset Town 与 Khem Beach',
+  ru: 'Sunset Town и Khem Beach',
+  ja: 'Sunset TownとKhem Beach',
+  hi: 'Sunset Town और Khem Beach',
 }
 
 const TWO_HUBS_DESC: Record<string, string> = {

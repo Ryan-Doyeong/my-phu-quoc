@@ -1,6 +1,7 @@
 import React from 'react'
 import type { FoodGuideSectionData } from '@/lib/foodKnowledge'
 import type { Locale } from '@/lib/i18n/config'
+import { tUi } from '@/lib/i18n/uiStrings'
 
 interface CategoryKnowledgeSectionProps {
   eyebrow: string
@@ -42,7 +43,7 @@ export function CategoryKnowledgeSection({
   const isVi = locale === 'vi'
 
   const displayTitle =
-    title ||
+    (title && tUi(title, locale)) ||
     CATEGORY_GUIDE_TITLE[locale] ||
     CATEGORY_GUIDE_TITLE.en
 
@@ -52,17 +53,22 @@ export function CategoryKnowledgeSection({
 
   return (
     <section className="detailCard foodGuideCard" id="knowledge-guide">
-      <span className="eyebrow">{eyebrow}</span>
+      <span className="eyebrow">{tUi(eyebrow, locale)}</span>
       <h2>{displayTitle}</h2>
       <p className="foodGuideIntro">{intro}</p>
 
       {/* 1. TOC Buttons */}
       <nav className="foodGuideToc" aria-label="Knowledge guide table of contents">
-        {sections.map((sec) => (
-          <a key={sec.id} href={`#guide-${sec.id}`}>
-            {sec.icon} {sec.tocLabel}
-          </a>
-        ))}
+        {sections.map((sec) => {
+          const fullTitle = `${sec.icon} ${sec.title}`.trim()
+          const trFull = tUi(fullTitle, locale)
+          const tocText = trFull !== fullTitle ? trFull.replace(sec.icon, '').trim() : tUi(sec.tocLabel, locale)
+          return (
+            <a key={sec.id} href={`#guide-${sec.id}`}>
+              {sec.icon} {tocText}
+            </a>
+          )
+        })}
       </nav>
 
       {/* 2. Single Language Article per Locale */}
@@ -71,32 +77,42 @@ export function CategoryKnowledgeSection({
         const langClass = isVi ? 'lang-vi' : isKo ? 'lang-ko' : 'lang-en'
         const langCode = isVi ? 'vi' : isKo ? 'ko' : 'en'
 
+        const fullTitle = `${sec.icon} ${sec.title}`.trim()
+        const trFull = tUi(fullTitle, locale)
+        const hasFullTr = trFull !== fullTitle
+
         return (
           <article key={sec.id} id={`guide-${sec.id}`} className="foodGuideSection">
             <h3>
-              <span aria-hidden="true">{sec.icon} </span>
-              {sec.title}
+              {hasFullTr ? (
+                trFull
+              ) : (
+                <>
+                  <span aria-hidden="true">{sec.icon} </span>
+                  {tUi(sec.title, locale)}
+                </>
+              )}
             </h3>
 
             <div className={`foodGuideLang ${langClass}`} lang={langCode}>
               {langData.paragraphs.map((p, idx) => (
-                <p key={idx}>{p}</p>
+                <p key={idx}>{tUi(p, locale)}</p>
               ))}
 
               {langData.list && langData.list.length > 0 && (
                 <ul className="guideList">
                   {langData.list.map((item, idx) => (
-                    <li key={idx}>{item}</li>
+                    <li key={idx}>{tUi(item, locale)}</li>
                   ))}
                 </ul>
               )}
 
-              {langData.subheading && <h5>{langData.subheading}</h5>}
+              {langData.subheading && <h5>{tUi(langData.subheading, locale)}</h5>}
 
               {langData.subList && langData.subList.length > 0 && (
                 <ul className="guideList">
                   {langData.subList.map((item, idx) => (
-                    <li key={idx}>{item}</li>
+                    <li key={idx}>{tUi(item, locale)}</li>
                   ))}
                 </ul>
               )}

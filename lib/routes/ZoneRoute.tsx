@@ -12,6 +12,7 @@ import { buildAlternates, localePath, localeUrl, ogLocaleFor, type Locale } from
 import { SITE_URL } from '@/lib/supabase/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
 import { categoryLabel } from '@/lib/directory'
+import { tUi } from '@/lib/i18n/uiStrings'
 
 const ZONE_NAV_LABELS: {
   sunset: Record<string, string>
@@ -143,10 +144,13 @@ export async function generateZoneMetadata(
 
   const name = zone.name[locale] || zone.name.en
   const summary = zone.summary[locale] || zone.summary.en
+  const rawEnTitle = `${zone.name.en} Travel Guide | My Phu Quoc`
   const title =
     locale === 'ko'
       ? `${name} 여행 가이드 | 마이 푸꾸옥 (My Phu Quoc)`
-      : `${name} Travel Guide | My Phu Quoc`
+      : locale === 'en'
+      ? rawEnTitle
+      : tUi(rawEnTitle, locale)
 
   const barePath = `/zones/${slug}`
   const canonicalUrl = localeUrl(locale, barePath)

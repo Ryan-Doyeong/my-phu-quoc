@@ -4,6 +4,7 @@ import { PartnersClient } from '@/app/partners/PartnersClient'
 import { ForBusinessesClient } from '@/components/ForBusinessesClient'
 import { buildAlternates, localeUrl, ogLocaleFor, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
+import { tUi } from '@/lib/i18n/uiStrings'
 
 export async function generateForBusinessesMetadata(locale: Locale = 'en'): Promise<Metadata> {
   const dict = getDictionary(locale)
@@ -34,18 +35,21 @@ export async function generatePartnersMetadata(locale: Locale = 'en'): Promise<M
   const barePath = '/partners'
   const canonicalUrl = localeUrl(locale, barePath)
   const alternates = buildAlternates(barePath)
+  const rawTitle = 'Community Partners — My Phu Quoc'
+  const rawDesc =
+    'Join My Phu Quoc as a Founding Community Partner. Five places, three months free — for a beautiful Phu Quoc, together.'
   const title =
     locale === 'vi'
       ? 'Đối tác Cộng đồng — My Phu Quoc'
       : locale === 'ko'
       ? '커뮤니티 파트너 — 마이 푸꾸옥 (My Phu Quoc)'
-      : 'Community Partners — My Phu Quoc'
+      : tUi(rawTitle, locale)
   const description =
     locale === 'vi'
       ? 'Đồng hành cùng My Phu Quoc với tư cách Đối tác Cộng đồng Sáng lập. Năm vị trí, ba tháng miễn phí — cùng nhau vì một Phú Quốc tươi đẹp.'
       : locale === 'ko'
       ? 'My Phu Quoc의 창립 커뮤니티 파트너로 함께해 주세요. 5개 자리 한정, 첫 3개월 무료 — 함께 만들어가는 아름다운 푸꾸옥.'
-      : 'Join My Phu Quoc as a Founding Community Partner. Five places, three months free — for a beautiful Phu Quoc, together.'
+      : tUi(rawDesc, locale)
 
   return {
     title,

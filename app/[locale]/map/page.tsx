@@ -107,7 +107,7 @@ export default async function MapPage({ params }: MapPageProps) {
       <header className="siteHeader" style={{ background: '#12333B', color: '#ffffff' }}>
         <Logo locale={locale} />
         <nav className="desktopNav">
-          <Link href={localePath(locale, '/')}>Home</Link>
+          <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
           <Link href={localePath(locale, '/map')} style={{ color: '#C86D2D', fontWeight: 800 }}>
             {isKo ? '🗺️ 선셋타운 지도' : locale === 'vi' ? '🗺️ Bản đồ thị trấn' : tUi('🗺️  Town Map', locale)}
           </Link>
@@ -184,7 +184,7 @@ export default async function MapPage({ params }: MapPageProps) {
                   marginBottom: '6px',
                 }}
               >
-                SUNSET TOWN 6 QUARTERS
+                {tUi('SUNSET TOWN 6 QUARTERS', locale)}
               </span>
               <h2 style={{ fontSize: '20px', fontWeight: 800, color: '#12333B', margin: '0 0 8px' }}>
                 🏛️ {t.zoneBannerTitle}
