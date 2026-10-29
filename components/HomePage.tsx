@@ -31,19 +31,19 @@ import { getDictionary, localizeStory, translateTerm } from '@/lib/i18n/dictiona
 const HOME_NAV_SUNSET: Record<string, string> = {
   ko: '선셋타운',
   en: 'Sunset Town',
-  zh: '日落小镇',
-  ru: 'Сансет-Таун',
-  ja: 'サンセットタウン',
-  hi: 'सनसेट टाउन',
+  zh: 'Sunset Town',
+  ru: 'Sunset Town',
+  ja: 'Sunset Town',
+  hi: 'Sunset Town',
 }
 
 const HOME_NAV_KHEM: Record<string, string> = {
   ko: '켐비치',
   en: 'Khem Beach',
-  zh: '凯姆海滩',
-  ru: 'Пляж Кхем',
-  ja: 'ケムビーチ',
-  hi: 'खेम बीच',
+  zh: 'Khem Beach',
+  ru: 'Khem Beach',
+  ja: 'Khem Beach',
+  hi: 'Khem Beach',
 }
 
 const TWO_HUBS_EYEBROW: Record<string, string> = {
@@ -58,19 +58,19 @@ const TWO_HUBS_EYEBROW: Record<string, string> = {
 const TWO_HUBS_TITLE: Record<string, string> = {
   ko: '선셋타운 & 켐비치',
   en: 'Sunset Town & Khem Beach',
-  zh: '日落小镇与凯姆海滩',
-  ru: 'Сансет-Таун и Пляж Кхем',
-  ja: 'サンセットタウン＆ケムビーチ',
-  hi: 'सनसेट टाउन और खेम बीच',
+  zh: 'Sunset Town & Khem Beach',
+  ru: 'Sunset Town & Khem Beach',
+  ja: 'Sunset Town & Khem Beach',
+  hi: 'Sunset Town & Khem Beach',
 }
 
 const TWO_HUBS_DESC: Record<string, string> = {
   ko: '저녁·야경 중심의 선셋타운과 낮·해변 중심의 켐비치는 차량으로 약 10분 거리입니다.',
   en: 'Sunset Town for evenings and night views, Khem Beach for daytime beach relaxation — about 10 minutes apart by car.',
-  zh: '日落小镇以傍晚活动和夜景为主，凯姆海滩适合白天的海滩休闲。两地车程约10分钟。',
-  ru: 'Сансет-Таун — для вечернего отдыха и ночных видов, а Пляж Кхем — для дневного отдыха на пляже. Между ними около 10 минут на машине.',
-  ja: '夕方と夜景が中心のサンセットタウンと、昼間のビーチでのんびり過ごせるケムビーチ。両エリア間は車で約10分です。',
-  hi: 'सनसेट टाउन शाम और रात के नज़ारों के लिए, जबकि खेम बीच दिन में समुद्र तट पर आराम करने के लिए है। दोनों के बीच कार से लगभग 10 मिनट लगते हैं।',
+  zh: 'Sunset Town 以傍晚活动和夜景为主，Khem Beach 适合白天的海滩休闲。两地车程约10分钟。',
+  ru: 'Sunset Town — для вечернего отдыха и ночных видов, а Khem Beach — для дневного отдыха на пляже. Между ними около 10 минут на машине.',
+  ja: '夕方と夜景が中心の Sunset Town と、昼間のビーチでのんびり過ごせる Khem Beach。両エリア間は車で約10分です。',
+  hi: 'Sunset Town शाम और रात के नज़ारों के लिए, जबकि Khem Beach दिन में समुद्र तट पर आराम करने के लिए है। दोनों के बीच कार से लगभग 10 मिनट लगते हैं।',
 }
 
 type Story = {

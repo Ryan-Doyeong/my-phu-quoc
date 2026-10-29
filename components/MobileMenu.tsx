@@ -6,19 +6,19 @@ import { getDictionary } from '@/lib/i18n/dictionaries'
 const SUNSET_MENU_LABELS: Record<string, string> = {
   ko: '선셋타운 (Sunset Town)',
   en: 'Sunset Town',
-  zh: '日落小镇',
-  ru: 'Сансет-Таун',
-  ja: 'サンセットタウン',
-  hi: 'सनसेट टाउन',
+  zh: 'Sunset Town',
+  ru: 'Sunset Town',
+  ja: 'Sunset Town',
+  hi: 'Sunset Town',
 }
 
 const KHEM_MENU_LABELS: Record<string, string> = {
   ko: '켐비치 (Khem Beach)',
   en: 'Khem Beach',
-  zh: '凯姆海滩',
-  ru: 'Пляж Кхем',
-  ja: 'ケムビーチ',
-  hi: 'खेम बीच',
+  zh: 'Khem Beach',
+  ru: 'Khem Beach',
+  ja: 'Khem Beach',
+  hi: 'Khem Beach',
 }
 
 export function MobileMenu({ locale = 'en' }: { locale?: Locale }) {

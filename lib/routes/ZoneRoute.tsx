@@ -20,18 +20,18 @@ const ZONE_NAV_LABELS: {
   sunset: {
     ko: '선셋타운',
     en: 'Sunset Town',
-    zh: '日落小镇',
-    ru: 'Сансет-Таун',
-    ja: 'サンセットタウン',
-    hi: 'सनसेट टाउन',
+    zh: 'Sunset Town',
+    ru: 'Sunset Town',
+    ja: 'Sunset Town',
+    hi: 'Sunset Town',
   },
   khem: {
     ko: '켐비치',
     en: 'Khem Beach',
-    zh: '凯姆海滩',
-    ru: 'Пляж Кхем',
-    ja: 'ケムビーチ',
-    hi: 'खेम बीच',
+    zh: 'Khem Beach',
+    ru: 'Khem Beach',
+    ja: 'Khem Beach',
+    hi: 'Khem Beach',
   },
 }
 
@@ -116,19 +116,19 @@ function getCrossZoneLinkText(isSunset: boolean, locale: Locale): string {
   if (isSunset) {
     switch (locale) {
       case 'ko': return '→ 켐비치(Bãi Khem) 상세 안내 보기'
-      case 'zh': return '→ 查看凯姆海滩（Bãi Khem）详细信息'
-      case 'ru': return '→ Подробнее о пляже Кхем (Bãi Khem)'
-      case 'ja': return '→ ケムビーチ（Bãi Khem）の詳細を見る'
-      case 'hi': return '→ खेम बीच (Bãi Khem) की विस्तृत जानकारी देखें'
+      case 'zh': return '→ 查看 Khem Beach (Bãi Khem) 详细信息'
+      case 'ru': return '→ Подробнее о Khem Beach (Bãi Khem)'
+      case 'ja': return '→ Khem Beach（Bãi Khem）の詳細を見る'
+      case 'hi': return '→ Khem Beach (Bãi Khem) की विस्तृत जानकारी देखें'
       default: return '→ Explore Khem Beach Details'
     }
   } else {
     switch (locale) {
       case 'ko': return '→ 선셋타운(Sunset Town) 상세 안내 보기'
-      case 'zh': return '→ 查看日落小镇（Sunset Town）详细信息'
-      case 'ru': return '→ Подробнее о Сансет-Тауне (Sunset Town)'
-      case 'ja': return '→ サンセットタウン（Sunset Town）の詳細を見る'
-      case 'hi': return '→ सनसेट टाउन (Sunset Town) की विस्तृत जानकारी देखें'
+      case 'zh': return '→ 查看 Sunset Town 详细信息'
+      case 'ru': return '→ Подробнее о Sunset Town'
+      case 'ja': return '→ Sunset Town の詳細を見る'
+      case 'hi': return '→ Sunset Town की विस्तृत जानकारी देखें'
       default: return '→ Explore Sunset Town Details'
     }
   }

@@ -61,19 +61,19 @@ const ALL_ZONES_LABEL: Record<string, string> = {
 const ZONE_FILTER_SUNSET: Record<string, string> = {
   ko: '선셋타운',
   en: 'Sunset Town',
-  zh: '日落小镇',
-  ru: 'Сансет-Таун',
-  ja: 'サンセットタウン',
-  hi: 'सनसेट टाउन',
+  zh: 'Sunset Town',
+  ru: 'Sunset Town',
+  ja: 'Sunset Town',
+  hi: 'Sunset Town',
 }
 
 const ZONE_FILTER_KHEM: Record<string, string> = {
   ko: '켐비치',
   en: 'Khem Beach',
-  zh: '凯姆海滩',
-  ru: 'Пляж Кхем',
-  ja: 'ケムビーチ',
-  hi: 'खेम बीच',
+  zh: 'Khem Beach',
+  ru: 'Khem Beach',
+  ja: 'Khem Beach',
+  hi: 'Khem Beach',
 }
 
 const PRICE_LEVEL_LABEL: Record<string, string> = {

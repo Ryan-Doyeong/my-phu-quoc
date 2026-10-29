@@ -408,10 +408,13 @@ export function formatLocalizedAddress(address?: string | null, locale: Locale =
   }
 
   if (locale === 'en') {
-    // 영문 화면: 기존 영문 출력 엄격 유지
+    // 영문 화면: 기존 영문 출력 엄격 유지 (Bãi Khem Beach 중복 오기 방지)
     addr = addr.replace(/[\s,]+베트남$/i, '')
     addr = addr.replace(/\s+베트남\b/gi, '')
     addr = addr.replace(/[\s,]+Vietnam$/i, '')
+    addr = addr.replace(/Bãi Khem(?:\s*Beach)?/gi, 'Khem Beach')
+    addr = addr.replace(/Khem Beach(?:\s*Beach)+/gi, 'Khem Beach')
+    addr = addr.replace(/An Thới/gi, 'An Thoi')
     addr = addr.replace(/선셋타운/g, 'Sunset Town')
     addr = addr.replace(/안장\s*성/g, 'An Giang')
     addr = addr.replace(/안장/g, 'An Giang')
