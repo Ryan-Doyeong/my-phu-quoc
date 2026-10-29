@@ -13,6 +13,7 @@ import {
 } from '@/lib/directory'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { getDictionary, translateTerm } from '@/lib/i18n/dictionaries'
+import { tUi, tUiById } from '@/lib/i18n/uiStrings'
 
 export function ForBusinessesClient({ locale = 'en' }: { locale?: Locale }) {
   const dict = getDictionary(locale)
@@ -130,11 +131,17 @@ export function ForBusinessesClient({ locale = 'en' }: { locale?: Locale }) {
       </section>
       <section className="shell intakeGrid">
         <form ref={formRef} className="intakeForm" onSubmit={submit}>
-          <div className="mediaDisclosure pilotNoticeBanner" role="note">
-            <strong>{dict.intake.pilotNoticeTitle}</strong> {dict.intake.pilotNoticeBody1}{' '}
-            <strong>{dict.intake.pilotNoticeArea1}</strong> {dict.intake.pilotNoticeBody2}{' '}
-            <strong>{dict.intake.pilotNoticeArea2}</strong> {dict.intake.pilotNoticeBody3}
-          </div>
+          {locale === 'ko' || locale === 'vi' || locale === 'en' ? (
+            <div className="mediaDisclosure pilotNoticeBanner" role="note">
+              <strong>{dict.intake.pilotNoticeTitle}</strong> {dict.intake.pilotNoticeBody1}{' '}
+              <strong>{dict.intake.pilotNoticeArea1}</strong> {dict.intake.pilotNoticeBody2}{' '}
+              <strong>{dict.intake.pilotNoticeArea2}</strong> {dict.intake.pilotNoticeBody3}
+            </div>
+          ) : (
+            <div className="mediaDisclosure pilotNoticeBanner" role="note">
+              <strong>{tUi('Pilot Coverage Notice:', locale)}</strong> {tUiById('U73', locale)}
+            </div>
+          )}
           <input
             type="text"
             name="website_url_confirm"

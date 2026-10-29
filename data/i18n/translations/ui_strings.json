@@ -1,0 +1,975 @@
+{
+ "U1": {
+  "en": "(optional — we create a search link from your address if blank)",
+  "zh": "（可选——如留空，我们将根据您的地址创建搜索链接）",
+  "ru": "(Необязательно — если оставить поле пустым, мы создадим поисковую ссылку по вашему адресу)",
+  "ja": "（任意 — 空欄の場合は住所から検索リンクを作成します）",
+  "hi": "(वैकल्पिक — खाली छोड़ने पर हम आपके पते से खोज लिंक बनाएंगे)"
+ },
+ "U2": {
+  "en": "+ Add introduction in other languages (Optional — VI / KO / EN)",
+  "zh": "+ 添加其他语言的介绍（可选 — 越南语 / 韩语 / 英语）",
+  "ru": "+ Добавить описание на других языках (необязательно — вьетнамский / корейский / английский)",
+  "ja": "+ 他の言語での紹介文を追加（任意 — ベトナム語 / 韓国語 / 英語）",
+  "hi": "+ अन्य भाषाओं में परिचय जोड़ें (वैकल्पिक — वियतनामी / कोरियाई / अंग्रेज़ी)"
+ },
+ "U3": {
+  "en": "1 Featured Partner and 4 Category Partners (Food · Fitness · Café · Community)",
+  "zh": "1个精选合作伙伴名额和4个分类合作伙伴名额（美食 · 健身 · 咖啡馆 · 社区）",
+  "ru": "1 место для избранного партнёра и 4 места для партнёров по категориям (Еда · Фитнес · Кафе · Сообщество)",
+  "ja": "注目パートナー1枠とカテゴリーパートナー4枠（グルメ · フィットネス · カフェ · コミュニティ）",
+  "hi": "1 फ़ीचर्ड पार्टनर और 4 श्रेणी पार्टनर (भोजन · फ़िटनेस · कैफ़े · समुदाय)"
+ },
+ "U4": {
+  "en": "5 places only",
+  "zh": "仅限5个地点",
+  "ru": "Только 5 мест",
+  "ja": "5か所限定",
+  "hi": "केवल 5 स्थान"
+ },
+ "U5": {
+  "en": "A Community Partner is a local business that stands with this neighborhood.",
+  "zh": "社区合作伙伴是支持本地社区的商家。",
+  "ru": "Партнёр сообщества — это местный бизнес, который поддерживает свой район.",
+  "ja": "コミュニティパートナーとは、この地域を支える地元の事業者です。",
+  "hi": "कम्युनिटी पार्टनर वह स्थानीय व्यवसाय है जो इस पड़ोस का साथ देता है।"
+ },
+ "U6": {
+  "en": "A good fit for the neighborhood.",
+  "zh": "适合本地社区。",
+  "ru": "Подходит этому району.",
+  "ja": "この地域にふさわしいお店。",
+  "hi": "इस पड़ोस के लिए उपयुक्त।"
+ },
+ "U7": {
+  "en": "Additional labels / specialties",
+  "zh": "其他标签 / 特色服务",
+  "ru": "Дополнительные метки / специализация",
+  "ja": "追加タグ / 専門分野",
+  "hi": "अतिरिक्त टैग / विशेषताएँ"
+ },
+ "U8": {
+  "en": "All",
+  "zh": "全部",
+  "ru": "Все",
+  "ja": "すべて",
+  "hi": "सभी"
+ },
+ "U9": {
+  "en": "Always clearly labeled.",
+  "zh": "始终清晰标注。",
+  "ru": "Всегда с чёткой маркировкой.",
+  "ja": "常に明確に表示します。",
+  "hi": "हमेशा स्पष्ट रूप से चिह्नित।"
+ },
+ "U10": {
+  "en": "Approved listings are added to the directory in the original language you provided.",
+  "zh": "审核通过的商家信息将以您提供的原始语言添加至商家目录。",
+  "ru": "Одобренные карточки добавляются в каталог на том языке, на котором вы их предоставили.",
+  "ja": "承認された掲載情報は、ご入力いただいた元の言語のままディレクトリに追加されます。",
+  "hi": "स्वीकृत लिस्टिंग आपके द्वारा दी गई मूल भाषा में डायरेक्टरी में जोड़ी जाती हैं।"
+ },
+ "U11": {
+  "en": "Banner image (optional, JPG/PNG/WebP)",
+  "zh": "横幅图片（可选，JPG/PNG/WebP）",
+  "ru": "Баннер (необязательно, JPG/PNG/WebP)",
+  "ja": "バナー画像（任意、JPG/PNG/WebP）",
+  "hi": "बैनर इमेज (वैकल्पिक, JPG/PNG/WebP)"
+ },
+ "U12": {
+  "en": "Beauty & Skin",
+  "zh": "美容与皮肤护理",
+  "ru": "Красота и уход за кожей",
+  "ja": "美容・スキンケア",
+  "hi": "ब्यूटी और स्किनकेयर"
+ },
+ "U13": {
+  "en": "Become a Community Partner →",
+  "zh": "成为社区合作伙伴 →",
+  "ru": "Стать партнёром сообщества →",
+  "ja": "コミュニティパートナーになる →",
+  "hi": "कम्युनिटी पार्टनर बनें →"
+ },
+ "U14": {
+  "en": "Become a Founding Partner",
+  "zh": "成为 Founding Partner",
+  "ru": "Стать Founding Partner",
+  "ja": "Founding Partnerになる",
+  "hi": "Founding Partner बनें"
+ },
+ "U15": {
+  "en": "Best Combo Rate",
+  "zh": "最佳组合优惠价",
+  "ru": "Лучшая цена за комплект",
+  "ja": "お得なセット料金",
+  "hi": "सर्वश्रेष्ठ कॉम्बो दर"
+ },
+ "U16": {
+  "en": "Business concept *",
+  "zh": "经营理念 *",
+  "ru": "Концепция бизнеса *",
+  "ja": "事業コンセプト *",
+  "hi": "व्यवसाय की अवधारणा *"
+ },
+ "U17": {
+  "en": "Business introduction (in your preferred language)",
+  "zh": "商家介绍（使用您偏好的语言）",
+  "ru": "Описание бизнеса (на удобном вам языке)",
+  "ja": "事業紹介（ご希望の言語で）",
+  "hi": "व्यवसाय का परिचय (अपनी पसंदीदा भाषा में)"
+ },
+ "U19": {
+  "en": "COMMUNITY PARTNERS",
+  "zh": "社区合作伙伴",
+  "ru": "ПАРТНЁРЫ СООБЩЕСТВА",
+  "ja": "コミュニティパートナー",
+  "hi": "कम्युनिटी पार्टनर"
+ },
+ "U20": {
+  "en": "Can I change my banner?",
+  "zh": "我可以更换横幅图片吗？",
+  "ru": "Можно ли заменить баннер?",
+  "ja": "バナー画像は変更できますか？",
+  "hi": "क्या मैं अपना बैनर बदल सकता हूँ?"
+ },
+ "U21": {
+  "en": "Can I choose my place?",
+  "zh": "我可以选择自己的展示位置吗？",
+  "ru": "Могу ли я выбрать своё место?",
+  "ja": "掲載場所は自分で選べますか？",
+  "hi": "क्या मैं अपनी जगह चुन सकता हूँ?"
+ },
+ "U22": {
+  "en": "Choose 3–5 photos",
+  "zh": "选择3–5张照片",
+  "ru": "Выберите 3–5 фотографий",
+  "ja": "写真を3～5枚選択",
+  "hi": "3–5 फ़ोटो चुनें"
+ },
+ "U23": {
+  "en": "Choose this place →",
+  "zh": "选择此位置 →",
+  "ru": "Выбрать это место →",
+  "ja": "この場所を選ぶ →",
+  "hi": "यह स्थान चुनें →"
+ },
+ "U24": {
+  "en": "Choose your place",
+  "zh": "选择您的位置",
+  "ru": "Выберите своё место",
+  "ja": "場所を選択",
+  "hi": "अपना स्थान चुनें"
+ },
+ "U25": {
+  "en": "Community Partners — My Phu Quoc",
+  "zh": "社区合作伙伴 — My Phu Quoc",
+  "ru": "Партнёры сообщества — My Phu Quoc",
+  "ja": "コミュニティパートナー — My Phu Quoc",
+  "hi": "कम्युनिटी पार्टनर — My Phu Quoc"
+ },
+ "U26": {
+  "en": "Contact email *",
+  "zh": "联系邮箱 *",
+  "ru": "Контактный email *",
+  "ja": "連絡先メールアドレス *",
+  "hi": "संपर्क ईमेल *"
+ },
+ "U27": {
+  "en": "Create English draft with AI",
+  "zh": "使用AI生成英文草稿",
+  "ru": "Создать черновик на английском с помощью ИИ",
+  "ja": "AIで英語の下書きを作成",
+  "hi": "AI से अंग्रेज़ी ड्राफ़्ट बनाएँ"
+ },
+ "U29": {
+  "en": "Delivery options (Optional — for restaurants, cafés & shops)",
+  "zh": "配送选项（可选 — 适用于餐厅、咖啡馆和商店）",
+  "ru": "Варианты доставки (необязательно — для ресторанов, кафе и магазинов)",
+  "ja": "デリバリーオプション（任意 — レストラン・カフェ・ショップ向け）",
+  "hi": "डिलीवरी विकल्प (वैकल्पिक — रेस्तराँ, कैफ़े और दुकानों के लिए)"
+ },
+ "U30": {
+  "en": "Each image must be under 10 MB. JPG, PNG, WebP and HEIC are supported.",
+  "zh": "每张图片必须小于10 MB。支持JPG、PNG、WebP和HEIC格式。",
+  "ru": "Размер каждого изображения должен быть менее 10 МБ. Поддерживаются JPG, PNG, WebP и HEIC.",
+  "ja": "各画像は10 MB未満にしてください。JPG、PNG、WebP、HEICに対応しています。",
+  "hi": "हर इमेज 10 MB से कम होनी चाहिए। JPG, PNG, WebP और HEIC समर्थित हैं।"
+ },
+ "U31": {
+  "en": "Each posting runs for one month",
+  "zh": "每次发布的展示期为一个月",
+  "ru": "Каждое размещение действует один месяц",
+  "ja": "掲載期間は1回につき1か月",
+  "hi": "हर पोस्टिंग एक महीने तक चलती है"
+ },
+ "U32": {
+  "en": "Essential advice for taking the 7,899m Guinness-record cable car from Sunset Town station to Sun World Hon Thom Nature Park.",
+  "zh": "从Sunset Town站乘坐全长7,899米、创下吉尼斯世界纪录的缆车前往Sun World Hon Thom Nature Park的必备指南。",
+  "ru": "Важные советы для поездки на канатной дороге длиной 7 899 м, занесённой в Книгу рекордов Гиннесса, от станции Sunset Town до Sun World Hon Thom Nature Park.",
+  "ja": "Sunset Town駅からSun World Hon Thom Nature Parkへ向かう、ギネス世界記録を持つ全長7,899mのケーブルカーに乗るための必須ガイド。",
+  "hi": "Sunset Town स्टेशन से Sun World Hon Thom Nature Park तक 7,899 मीटर लंबी गिनीज़ रिकॉर्डधारी केबल कार की यात्रा के लिए ज़रूरी सुझाव।"
+ },
+ "U33": {
+  "en": "Every partner placement is marked SPONSORED.",
+  "zh": "所有合作伙伴展示位均标注“SPONSORED”。",
+  "ru": "Все партнёрские размещения помечены как SPONSORED.",
+  "ja": "すべてのパートナー掲載枠には「SPONSORED」と表示します。",
+  "hi": "हर पार्टनर प्लेसमेंट पर SPONSORED का लेबल लगाया जाता है।"
+ },
+ "U34": {
+  "en": "Everything you need to know about the multi-million dollar water & laser show, plus the best free and paid vantage points for the 21:30 fireworks.",
+  "zh": "全面了解耗资数百万美元的水幕与激光表演，以及观赏21:30烟花的最佳免费和付费位置。",
+  "ru": "Всё о водном и лазерном шоу стоимостью в миллионы долларов, а также о лучших бесплатных и платных местах для просмотра фейерверка в 21:30.",
+  "ja": "数百万ドル規模のウォーター＆レーザーショーの見どころと、21:30の花火を鑑賞するのに最適な無料・有料スポットをご紹介します。",
+  "hi": "कई मिलियन डॉलर के वॉटर और लेज़र शो की पूरी जानकारी, साथ ही 21:30 की आतिशबाज़ी देखने के लिए सबसे अच्छे मुफ़्त और सशुल्क स्थान।"
+ },
+ "U35": {
+  "en": "Explore Sunset Town with our illustrated guide map, featuring Kiss Bridge, Clock Tower, 3-rope Cable Car, Vui-Fest Bazaar and 6 distinct quarters.",
+  "zh": "通过我们的插画导览地图探索Sunset Town，涵盖Kiss Bridge、Clock Tower、3-rope Cable Car、Vui-Fest Bazaar及6个各具特色的街区。",
+  "ru": "Исследуйте Sunset Town по нашей иллюстрированной карте-путеводителю: Kiss Bridge, Clock Tower, 3-rope Cable Car, Vui-Fest Bazaar и 6 самобытных кварталов.",
+  "ja": "イラストガイドマップでSunset Townを散策。Kiss Bridge、Clock Tower、3-rope Cable Car、Vui-Fest Bazaar、特色ある6つの地区を紹介します。",
+  "hi": "हमारे चित्रित गाइड मैप से Sunset Town देखें, जिसमें Kiss Bridge, Clock Tower, 3-rope Cable Car, Vui-Fest Bazaar और 6 अलग-अलग इलाक़े शामिल हैं।"
+ },
+ "U36": {
+  "en": "Explore Vietnams first creative seaside night market, featuring eco-friendly packaging, local delicacies, and live street performances.",
+  "zh": "探索越南首个创意海滨夜市，体验环保包装、当地特色美食和现场街头表演。",
+  "ru": "Откройте для себя первый во Вьетнаме креативный приморский ночной рынок с экологичной упаковкой, местными деликатесами и живыми уличными выступлениями.",
+  "ja": "ベトナム初のクリエイティブな海辺のナイトマーケットを探索。環境に配慮した包装、地元グルメ、ライブストリートパフォーマンスが楽しめます。",
+  "hi": "वियतनाम के पहले रचनात्मक समुद्रतटीय नाइट मार्केट को देखें, जहाँ पर्यावरण-अनुकूल पैकेजिंग, स्थानीय व्यंजन और लाइव स्ट्रीट परफ़ॉर्मेंस हैं।"
+ },
+ "U37": {
+  "en": "FOR LOCAL BUSINESSES · PHU QUOC",
+  "zh": "面向本地商家 · 富国岛",
+  "ru": "ДЛЯ МЕСТНОГО БИЗНЕСА · ФУКУОК",
+  "ja": "地元事業者向け · フーコック",
+  "hi": "स्थानीय व्यवसायों के लिए · फु क्वोक"
+ },
+ "U38": {
+  "en": "For a beautiful Phu Quoc, together.",
+  "zh": "携手共建美丽富国岛。",
+  "ru": "Вместе ради прекрасного Фукуока.",
+  "ja": "美しいフーコックのために、ともに。",
+  "hi": "एक सुंदर फु क्वोक के लिए, साथ मिलकर।"
+ },
+ "U39": {
+  "en": "Founding Partners — 3 months, free",
+  "zh": "Founding Partner — 3个月免费",
+  "ru": "Founding Partner — 3 месяца бесплатно",
+  "ja": "Founding Partner — 3か月無料",
+  "hi": "Founding Partner — 3 महीने मुफ़्त"
+ },
+ "U40": {
+  "en": "GUIDE  ·  Night Market & Food",
+  "zh": "指南 · 夜市与美食",
+  "ru": "ГИД · Ночной рынок и еда",
+  "ja": "ガイド · ナイトマーケット＆グルメ",
+  "hi": "गाइड · नाइट मार्केट और भोजन"
+ },
+ "U41": {
+  "en": "GUIDE  ·  Shows & Entertainment",
+  "zh": "指南 · 表演与娱乐",
+  "ru": "ГИД · Шоу и развлечения",
+  "ja": "ガイド · ショー＆エンターテインメント",
+  "hi": "गाइड · शो और मनोरंजन"
+ },
+ "U42": {
+  "en": "GUIDE  ·  Tours & Cable Car",
+  "zh": "指南 · 旅游与缆车",
+  "ru": "ГИД · Экскурсии и канатная дорога",
+  "ja": "ガイド · ツアー＆ケーブルカー",
+  "hi": "गाइड · टूर और केबल कार"
+ },
+ "U43": {
+  "en": "Good neighbors make a good life.",
+  "zh": "好邻居，共创美好生活。",
+  "ru": "Хорошие соседи делают жизнь лучше.",
+  "ja": "良いご近所さんが、良い暮らしをつくる。",
+  "hi": "अच्छे पड़ोसी, अच्छी ज़िंदगी बनाते हैं।"
+ },
+ "U44": {
+  "en": "Google Maps URL",
+  "zh": "Google Maps链接",
+  "ru": "Ссылка Google Maps",
+  "ja": "Google MapsのURL",
+  "hi": "Google Maps URL"
+ },
+ "U45": {
+  "en": "Google Maps listing name",
+  "zh": "Google Maps商家名称",
+  "ru": "Название в Google Maps",
+  "ja": "Google Mapsの掲載名",
+  "hi": "Google Maps लिस्टिंग का नाम"
+ },
+ "U46": {
+  "en": "HOW IT WORKS",
+  "zh": "运作方式",
+  "ru": "КАК ЭТО РАБОТАЕТ",
+  "ja": "仕組み",
+  "hi": "यह कैसे काम करता है"
+ },
+ "U47": {
+  "en": "Hon Thom Cable Car: Worlds Longest Sea Crossing Tips",
+  "zh": "Hon Thom Cable Car：世界最长跨海缆车乘坐指南",
+  "ru": "Hon Thom Cable Car: советы для поездки по самой длинной в мире канатной дороге над морем",
+  "ja": "Hon Thom Cable Car：世界最長の海上横断ケーブルカー乗車ガイド",
+  "hi": "Hon Thom Cable Car: दुनिया की सबसे लंबी समुद्री क्रॉसिंग के लिए सुझाव"
+ },
+ "U48": {
+  "en": "Honest information comes first.",
+  "zh": "真实可靠的信息始终放在首位。",
+  "ru": "Честная информация — прежде всего.",
+  "ja": "正直な情報を何よりも大切に。",
+  "hi": "ईमानदार जानकारी सबसे पहले।"
+ },
+ "U49": {
+  "en": "How to join",
+  "zh": "如何加入",
+  "ru": "Как присоединиться",
+  "ja": "参加方法",
+  "hi": "कैसे जुड़ें"
+ },
+ "U50": {
+  "en": "I don't have a banner image.",
+  "zh": "我没有横幅图片。",
+  "ru": "У меня нет изображения для баннера.",
+  "ja": "バナー画像がありません。",
+  "hi": "मेरे पास बैनर इमेज नहीं है।"
+ },
+ "U51": {
+  "en": "I have read and agree to the partner promises *",
+  "zh": "我已阅读并同意合作伙伴承诺条款 *",
+  "ru": "Я прочитал(а) и принимаю обязательства партнёра *",
+  "ja": "パートナーとしての約束事項を読み、同意します *",
+  "hi": "मैंने पार्टनर प्रतिबद्धताओं को पढ़ लिया है और उनसे सहमत हूँ *"
+ },
+ "U52": {
+  "en": "If anything is unclear, we may contact you for an update.",
+  "zh": "如有任何信息不明确，我们可能会联系您进行更新。",
+  "ru": "Если что-то будет неясно, мы можем связаться с вами для уточнения информации.",
+  "ja": "不明な点がある場合は、情報の更新についてご連絡することがあります。",
+  "hi": "यदि कोई जानकारी स्पष्ट नहीं है, तो हम उसे अपडेट करने के लिए आपसे संपर्क कर सकते हैं।"
+ },
+ "U53": {
+  "en": "JW Marriott Phu Quoc Emerald Bay Resort",
+  "zh": "JW Marriott Phu Quoc Emerald Bay Resort",
+  "ru": "JW Marriott Phu Quoc Emerald Bay Resort",
+  "ja": "JW Marriott Phu Quoc Emerald Bay Resort",
+  "hi": "JW Marriott Phu Quoc Emerald Bay Resort"
+ },
+ "U54": {
+  "en": "Join My Phu Quoc as a Founding Community Partner. Five places, three months free — for a beautiful Phu Quoc, together.",
+  "zh": "加入 My Phu Quoc，成为 Founding Community Partner。仅限5个名额，免费3个月——携手共建美丽富国岛。",
+  "ru": "Присоединяйтесь к My Phu Quoc в качестве Founding Community Partner. Всего 5 мест, 3 месяца бесплатно — вместе ради прекрасного Фукуока.",
+  "ja": "My Phu QuocのFounding Community Partnerに参加しませんか。5枠限定、3か月無料。美しいフーコックのために、ともに。",
+  "hi": "Founding Community Partner के रूप में My Phu Quoc से जुड़ें। केवल 5 स्थान, 3 महीने मुफ़्त — एक सुंदर फु क्वोक के लिए, साथ मिलकर।"
+ },
+ "U55": {
+  "en": "KakaoTalk OpenChat URL (optional)",
+  "zh": "KakaoTalk OpenChat 链接（可选）",
+  "ru": "Ссылка KakaoTalk OpenChat (необязательно)",
+  "ja": "KakaoTalk OpenChatのURL（任意）",
+  "hi": "KakaoTalk OpenChat URL (वैकल्पिक)"
+ },
+ "U57": {
+  "en": "Kiss of the Sea Show & Fireworks Finale: Complete Guide",
+  "zh": "Kiss of the Sea 表演与压轴烟花：完整指南",
+  "ru": "Kiss of the Sea: полное руководство по шоу и финальному фейерверку",
+  "ja": "Kiss of the Seaショー＆フィナーレ花火：完全ガイド",
+  "hi": "Kiss of the Sea शो और समापन आतिशबाज़ी: संपूर्ण गाइड"
+ },
+ "U58": {
+  "en": "Kiss of the Sea Show & Nightly Fireworks: Complete Guide",
+  "zh": "Kiss of the Sea 表演与每晚烟花：完整指南",
+  "ru": "Kiss of the Sea: полное руководство по шоу и ежевечернему фейерверку",
+  "ja": "Kiss of the Seaショー＆毎晩の花火：完全ガイド",
+  "hi": "Kiss of the Sea शो और हर रात की आतिशबाज़ी: संपूर्ण गाइड"
+ },
+ "U59": {
+  "en": "List your business",
+  "zh": "登记您的商家",
+  "ru": "Добавить свой бизнес",
+  "ja": "お店を掲載する",
+  "hi": "अपना व्यवसाय सूचीबद्ध करें"
+ },
+ "U60": {
+  "en": "Listings stay independent from sponsorship",
+  "zh": "商家目录信息不受赞助影响",
+  "ru": "Карточки в каталоге не зависят от спонсорства",
+  "ja": "掲載情報はスポンサー契約から独立しています",
+  "hi": "डायरेक्टरी लिस्टिंग प्रायोजन से स्वतंत्र रहती हैं"
+ },
+ "U61": {
+  "en": "Local and verified.",
+  "zh": "本地商家，已核实。",
+  "ru": "Местные и проверенные.",
+  "ja": "地元の情報を確認済み。",
+  "hi": "स्थानीय और सत्यापित।"
+ },
+ "U62": {
+  "en": "Location, category & introduction",
+  "zh": "位置、类别与介绍",
+  "ru": "Местоположение, категория и описание",
+  "ja": "所在地・カテゴリー・紹介",
+  "hi": "स्थान, श्रेणी और परिचय"
+ },
+ "U63": {
+  "en": "MAP & 12 LANDMARKS",
+  "zh": "地图与12个地标",
+  "ru": "КАРТА И 12 ДОСТОПРИМЕЧАТЕЛЬНОСТЕЙ",
+  "ja": "マップ＆12のランドマーク",
+  "hi": "मानचित्र और 12 प्रमुख स्थल"
+ },
+ "U64": {
+  "en": "Messenger / WhatsApp / IG DM link (optional)",
+  "zh": "Messenger / WhatsApp / IG私信链接（可选）",
+  "ru": "Ссылка Messenger / WhatsApp / IG DM (необязательно)",
+  "ja": "Messenger / WhatsApp / IG DMリンク（任意）",
+  "hi": "Messenger / WhatsApp / IG DM लिंक (वैकल्पिक)"
+ },
+ "U65": {
+  "en": "My Phu Quoc began as a way to gather those moments — honest information about the businesses that care for this neighborhood, news that matters to the people who live here, and the quiet efforts that make Phu Quoc a little kinder each day.",
+  "zh": "My Phu Quoc 的创立，源于我们希望汇集这些日常瞬间——真实介绍关爱这片社区的商家、分享与当地居民息息相关的消息，以及记录那些让富国岛每天变得更温暖的默默付出。",
+  "ru": "My Phu Quoc появился из желания собрать такие моменты воедино: честную информацию о компаниях, которые заботятся об этом районе, новости, важные для местных жителей, и незаметные усилия, благодаря которым Фукуок с каждым днём становится немного добрее.",
+  "ja": "My Phu Quocは、そんな日々の瞬間を集めたいという思いから始まりました。この地域を大切にするお店の正直な情報、ここで暮らす人々にとって大切なニュース、そしてフーコックを毎日少しずつ優しい場所にしている、目立たない取り組みを伝えていきます。",
+  "hi": "My Phu Quoc की शुरुआत ऐसे पलों को एक जगह संजोने के लिए हुई — इस पड़ोस की परवाह करने वाले व्यवसायों की सच्ची जानकारी, यहाँ रहने वालों के लिए महत्वपूर्ण खबरें, और वे शांत प्रयास जो हर दिन फु क्वोक को थोड़ा और अपनापन भरा बनाते हैं।"
+ },
+ "U66": {
+  "en": "My business isn't listed yet",
+  "zh": "我的商家尚未收录",
+  "ru": "Моего бизнеса ещё нет в каталоге",
+  "ja": "まだお店が掲載されていません",
+  "hi": "मेरा व्यवसाय अभी सूचीबद्ध नहीं है"
+ },
+ "U68": {
+  "en": "Night Market & Food",
+  "zh": "夜市与美食",
+  "ru": "Ночной рынок и еда",
+  "ja": "ナイトマーケット＆グルメ",
+  "hi": "नाइट मार्केट और भोजन"
+ },
+ "U69": {
+  "en": "No payment details needed.",
+  "zh": "无需提供付款信息。",
+  "ru": "Платёжные данные не требуются.",
+  "ja": "お支払い情報は不要です。",
+  "hi": "भुगतान विवरण की आवश्यकता नहीं है।"
+ },
+ "U70": {
+  "en": "No problem. We can create a simple banner from your listing photos.",
+  "zh": "没问题。我们可以使用您商家资料中的照片制作一张简单的横幅图片。",
+  "ru": "Ничего страшного. Мы можем создать простой баннер из фотографий вашей карточки.",
+  "ja": "問題ありません。掲載用の写真を使って、シンプルなバナーを作成できます。",
+  "hi": "कोई समस्या नहीं। हम आपकी लिस्टिंग की फ़ोटो से एक साधारण बैनर बना सकते हैं।"
+ },
+ "U71": {
+  "en": "Not listed yet? You can still apply — we'll review your listing and partnership together.",
+  "zh": "尚未收录？您仍然可以申请——我们会同时审核您的商家信息和合作伙伴申请。",
+  "ru": "Вас ещё нет в каталоге? Вы всё равно можете подать заявку — мы рассмотрим вашу карточку и партнёрство вместе.",
+  "ja": "まだ掲載されていなくてもお申し込みいただけます。掲載情報とパートナー申請をあわせて審査します。",
+  "hi": "अभी सूचीबद्ध नहीं हैं? आप फिर भी आवेदन कर सकते हैं — हम आपकी लिस्टिंग और पार्टनरशिप की एक साथ समीक्षा करेंगे।"
+ },
+ "U72": {
+  "en": "Nothing is ever charged automatically. Before anything changes, we will talk with you first.",
+  "zh": "我们绝不会自动收费。在任何事项发生变化之前，我们都会先与您沟通。",
+  "ru": "Никакие платежи не списываются автоматически. Прежде чем что-либо изменится, мы сначала обсудим это с вами.",
+  "ja": "料金が自動的に請求されることはありません。何か変更する前に、必ず事前にご相談します。",
+  "hi": "कभी भी अपने आप कोई शुल्क नहीं लिया जाएगा। किसी भी बदलाव से पहले हम आपसे बात करेंगे।"
+ },
+ "U73": {
+  "en": "Official partner verification and priority category listing are currently open for businesses located in    and adjacent    (labeled as Nearby (An Phu / An Khanh)). Businesses outside these areas may still submit their information for our upcoming expansion waitlist.",
+  "zh": "目前，官方合作伙伴认证及分类优先展示仅向位于 Sunset Town 和邻近 Khem Beach 地区（标记为 Nearby (An Phu / An Khanh)）的商家开放。其他地区的商家仍可提交资料，加入我们未来扩展区域的候补名单。",
+  "ru": "Официальная проверка партнёров и приоритетное размещение в категориях сейчас доступны компаниям в Sunset Town и прилегающем районе Khem Beach (обозначенном как Nearby (An Phu / An Khanh)). Компании за пределами этих районов также могут подать сведения для включения в список ожидания на этапе будущего расширения.",
+  "ja": "現在、公式パートナー認証とカテゴリー内の優先掲載は、Sunset Townおよび隣接するKhem Beachエリア（Nearby (An Phu / An Khanh)と表示）の事業者を対象としています。対象エリア外の事業者も、今後のエリア拡大に向けたウェイトリストへの登録申請が可能です。",
+  "hi": "आधिकारिक पार्टनर सत्यापन और श्रेणी में प्राथमिकता वाली लिस्टिंग अभी Sunset Town और उससे सटे Khem Beach क्षेत्र (Nearby (An Phu / An Khanh) के रूप में चिह्नित) के व्यवसायों के लिए खुली है। इन क्षेत्रों के बाहर के व्यवसाय भी भविष्य में विस्तार के लिए प्रतीक्षा सूची में अपनी जानकारी जमा कर सकते हैं।"
+ },
+ "U74": {
+  "en": "One business per place",
+  "zh": "每个位置仅限一家商家",
+  "ru": "Один бизнес на одно место",
+  "ja": "1枠につき1事業者",
+  "hi": "हर स्थान पर केवल एक व्यवसाय"
+ },
+ "U75": {
+  "en": "Only businesses we have reviewed and confirmed in Phu Quoc can become partners.",
+  "zh": "只有经过我们审核并确认位于富国岛的商家才能成为合作伙伴。",
+  "ru": "Партнёрами могут стать только компании на Фукуоке, которые мы проверили и подтвердили.",
+  "ja": "当サイトが審査し、フーコックに所在することを確認した事業者のみ、パートナーになれます。",
+  "hi": "केवल वे व्यवसाय पार्टनर बन सकते हैं जिनकी हमने समीक्षा की है और जिनके फु क्वोक में होने की पुष्टि की है।"
+ },
+ "U76": {
+  "en": "Opening hours (optional)",
+  "zh": "营业时间（可选）",
+  "ru": "Часы работы (необязательно)",
+  "ja": "営業時間（任意）",
+  "hi": "खुलने का समय (वैकल्पिक)"
+ },
+ "U77": {
+  "en": "Owner & business identity",
+  "zh": "业主与商家身份信息",
+  "ru": "Данные владельца и бизнеса",
+  "ja": "オーナー・事業者情報",
+  "hi": "मालिक और व्यवसाय की पहचान"
+ },
+ "U78": {
+  "en": "Partnership never changes directory order, labels such as Recommended, New or HOT, or our news.",
+  "zh": "合作伙伴关系绝不会改变商家目录的排序、“Recommended”“New”“HOT”等标签或我们的新闻内容。",
+  "ru": "Партнёрство никогда не влияет на порядок в каталоге, метки Recommended, New или HOT, а также на наши новости.",
+  "ja": "パートナー契約によって、ディレクトリの掲載順、「Recommended」「New」「HOT」などのラベル、または当サイトのニュース内容が変わることはありません。",
+  "hi": "पार्टनरशिप से डायरेक्टरी का क्रम, Recommended, New या HOT जैसे लेबल, या हमारी खबरें कभी नहीं बदलतीं।"
+ },
+ "U79": {
+  "en": "Paste a full URL or just your username/handle. Optional messenger fields (Zalo, KakaoTalk, WhatsApp/Messenger) are also supported.",
+  "zh": "粘贴完整链接，或仅填写用户名/账号名称。也支持填写可选的通讯工具信息（Zalo、KakaoTalk、WhatsApp/Messenger）。",
+  "ru": "Вставьте полную ссылку или только имя пользователя. Также поддерживаются необязательные поля мессенджеров (Zalo, KakaoTalk, WhatsApp/Messenger).",
+  "ja": "完全なURL、またはユーザー名・アカウント名だけを入力してください。任意のメッセンジャー項目（Zalo、KakaoTalk、WhatsApp/Messenger）にも対応しています。",
+  "hi": "पूरा URL या सिर्फ़ अपना यूज़रनेम/हैंडल दर्ज करें। वैकल्पिक मैसेंजर फ़ील्ड (Zalo, KakaoTalk, WhatsApp/Messenger) भी समर्थित हैं।"
+ },
+ "U80": {
+  "en": "Phone / Zalo / WhatsApp *",
+  "zh": "电话 / Zalo / WhatsApp *",
+  "ru": "Телефон / Zalo / WhatsApp *",
+  "ja": "電話 / Zalo / WhatsApp *",
+  "hi": "फ़ोन / Zalo / WhatsApp *"
+ },
+ "U82": {
+  "en": "Photo: Vivu Vietnam · CC BY-SA 4.0",
+  "zh": "照片：Vivu Vietnam · CC BY-SA 4.0",
+  "ru": "Фото: Vivu Vietnam · CC BY-SA 4.0",
+  "ja": "写真：Vivu Vietnam · CC BY-SA 4.0",
+  "hi": "फ़ोटो: Vivu Vietnam · CC BY-SA 4.0"
+ },
+ "U83": {
+  "en": "Phu Quoc is where many lives meet — families who have called it home for generations and newcomers from every corner of the world, the café on the corner and the little studio down the lane. We hope the people who share these streets can come to know one another, and live side by side in harmony.",
+  "zh": "富国岛是许多不同人生交汇的地方——世代以此为家的家庭，来自世界各地的新居民，街角的咖啡馆，以及小巷深处的小工作室。我们希望共享这些街道的人们能够逐渐了解彼此，和谐地生活在一起。",
+  "ru": "Фукуок — место, где пересекаются самые разные жизни: семьи, для которых остров был домом на протяжении поколений, и новосёлы со всего мира, кафе на углу и маленькая студия в переулке. Мы надеемся, что люди, живущие на одних улицах, смогут лучше узнать друг друга и жить рядом в согласии.",
+  "ja": "フーコックは、さまざまな人生が出会う場所です。何世代にもわたってここを故郷としてきた家族、世界各地から移り住んできた人々、街角のカフェ、路地の奥の小さなスタジオ。私たちは、同じ通りを行き交う人々がお互いを知り、調和しながら隣り合って暮らせることを願っています。",
+  "hi": "फु क्वोक वह जगह है जहाँ कई ज़िंदगियाँ मिलती हैं — पीढ़ियों से इसे अपना घर मानने वाले परिवार, दुनिया के हर कोने से आए नए निवासी, नुक्कड़ का कैफ़े और गली के भीतर छोटा स्टूडियो। हमारी आशा है कि इन सड़कों को साझा करने वाले लोग एक-दूसरे को जानें और मिल-जुलकर सद्भाव से रहें।"
+ },
+ "U85": {
+  "en": "Pilot Coverage Notice:",
+  "zh": "试点覆盖范围说明：",
+  "ru": "Уведомление о зоне пилотного проекта:",
+  "ja": "試験運用対象エリアのお知らせ：",
+  "hi": "पायलट कवरेज सूचना:"
+ },
+ "U86": {
+  "en": "Place you'd like * — Featured / Food / Fitness / Café / Community",
+  "zh": "您希望选择的位置 * — Featured / Food / Fitness / Café / Community",
+  "ru": "Желаемое место * — Featured / Food / Fitness / Café / Community",
+  "ja": "希望する掲載枠 * — Featured / Food / Fitness / Café / Community",
+  "hi": "आपकी पसंद का स्थान * — Featured / Food / Fitness / Café / Community"
+ },
+ "U87": {
+  "en": "Please create a banner for me",
+  "zh": "请为我制作横幅图片",
+  "ru": "Создайте для меня баннер",
+  "ja": "バナーを作成してほしい",
+  "hi": "कृपया मेरे लिए बैनर बनाएँ"
+ },
+ "U88": {
+  "en": "Preferred start month",
+  "zh": "希望开始的月份",
+  "ru": "Предпочтительный месяц начала",
+  "ja": "希望開始月",
+  "hi": "पसंदीदा शुरुआत का महीना"
+ },
+ "U89": {
+  "en": "Public address *",
+  "zh": "公开地址 *",
+  "ru": "Публичный адрес *",
+  "ja": "公開住所 *",
+  "hi": "सार्वजनिक पता *"
+ },
+ "U90": {
+  "en": "Public business name *",
+  "zh": "公开商家名称 *",
+  "ru": "Публичное название бизнеса *",
+  "ja": "公開店舗名 *",
+  "hi": "सार्वजनिक व्यवसाय नाम *"
+ },
+ "U91": {
+  "en": "SUNSET TOWN 6 QUARTERS",
+  "zh": "SUNSET TOWN 六大街区",
+  "ru": "ШЕСТЬ КВАРТАЛОВ SUNSET TOWN",
+  "ja": "SUNSET TOWNの6つの地区",
+  "hi": "SUNSET TOWN के 6 इलाक़े"
+ },
+ "U92": {
+  "en": "SUNSET TOWN ILLUSTRATED GUIDE MAP",
+  "zh": "SUNSET TOWN 插画导览地图",
+  "ru": "ИЛЛЮСТРИРОВАННАЯ КАРТА-ПУТЕВОДИТЕЛЬ SUNSET TOWN",
+  "ja": "SUNSET TOWN イラストガイドマップ",
+  "hi": "SUNSET TOWN का चित्रित गाइड मानचित्र"
+ },
+ "U93": {
+  "en": "SUNSET TOWN PHU QUOC · TRAVEL & DISTRICT GUIDE",
+  "zh": "SUNSET TOWN PHU QUOC · 旅行与街区指南",
+  "ru": "SUNSET TOWN PHU QUOC · ПУТЕВОДИТЕЛЬ ПО ПУТЕШЕСТВИЯМ И РАЙОНАМ",
+  "ja": "SUNSET TOWN PHU QUOC · 旅行＆エリアガイド",
+  "hi": "SUNSET TOWN PHU QUOC · यात्रा और इलाक़ों की गाइड"
+ },
+ "U94": {
+  "en": "Select a concept",
+  "zh": "选择经营理念",
+  "ru": "Выберите концепцию",
+  "ja": "コンセプトを選択",
+  "hi": "अवधारणा चुनें"
+ },
+ "U95": {
+  "en": "Separate multiple tags with commas. Labels such as Recommended, New and HOT may be added by My Phu Quoc after review.",
+  "zh": "多个标签请用逗号分隔。My Phu Quoc 可能会在审核后添加“Recommended”“New”“HOT”等标签。",
+  "ru": "Разделяйте несколько тегов запятыми. После проверки My Phu Quoc может добавить метки Recommended, New или HOT.",
+  "ja": "複数のタグはカンマで区切ってください。「Recommended」「New」「HOT」などのラベルは、審査後にMy Phu Quocが追加する場合があります。",
+  "hi": "कई टैग को कॉमा से अलग करें। समीक्षा के बाद My Phu Quoc, Recommended, New और HOT जैसे लेबल जोड़ सकता है।"
+ },
+ "U96": {
+  "en": "Share your Phu Quoc business details to join the Good Life directory.",
+  "zh": "分享您在富国岛的商家信息，加入 Good Life 商家目录。",
+  "ru": "Поделитесь информацией о своём бизнесе на Фукуоке, чтобы присоединиться к каталогу Good Life.",
+  "ja": "フーコックでの事業情報を登録して、Good Lifeディレクトリに参加しましょう。",
+  "hi": "Good Life डायरेक्टरी से जुड़ने के लिए अपने फु क्वोक व्यवसाय का विवरण साझा करें।"
+ },
+ "U97": {
+  "en": "Share your business details and 3–5 clear photos. We’ll review the information before adding the listing to the directory.",
+  "zh": "请提交商家信息和3–5张清晰照片。我们将在审核信息后将其添加至商家目录。",
+  "ru": "Отправьте сведения о своём бизнесе и 3–5 чётких фотографий. Мы проверим информацию перед добавлением карточки в каталог.",
+  "ja": "事業情報と鮮明な写真3～5枚をお送りください。内容を確認したうえで、ディレクトリに掲載します。",
+  "hi": "अपने व्यवसाय का विवरण और 3–5 स्पष्ट फ़ोटो साझा करें। डायरेक्टरी में लिस्टिंग जोड़ने से पहले हम जानकारी की समीक्षा करेंगे।"
+ },
+ "U99": {
+  "en": "Shows & Entertainment",
+  "zh": "表演与娱乐",
+  "ru": "Шоу и развлечения",
+  "ja": "ショー＆エンターテインメント",
+  "hi": "शो और मनोरंजन"
+ },
+ "U100": {
+  "en": "Special Online Rate",
+  "zh": "线上专属优惠价",
+  "ru": "Специальная онлайн-цена",
+  "ja": "オンライン特別料金",
+  "hi": "विशेष ऑनलाइन दर"
+ },
+ "U101": {
+  "en": "Sponsored placements do not determine organic directory placement or editorial labels.",
+  "zh": "赞助展示位不会决定商家在自然目录中的排序或编辑标签。",
+  "ru": "Спонсорские размещения не определяют порядок органической выдачи в каталоге или редакционные метки.",
+  "ja": "スポンサー掲載枠は、通常のディレクトリ掲載順位や編集上のラベルに影響しません。",
+  "hi": "प्रायोजित प्लेसमेंट, डायरेक्टरी में सामान्य लिस्टिंग के क्रम या संपादकीय लेबल तय नहीं करते।"
+ },
+ "U102": {
+  "en": "Submit your business",
+  "zh": "提交商家信息",
+  "ru": "Отправить данные бизнеса",
+  "ja": "事業情報を送信",
+  "hi": "अपना व्यवसाय सबमिट करें"
+ },
+ "U105": {
+  "en": "Sunset Town Guide Map — Street Navigation & 12 Iconic Landmarks | My Phu Quoc",
+  "zh": "Sunset Town 导览地图 — 街道导航与12大标志性地标 | My Phu Quoc",
+  "ru": "Карта-путеводитель Sunset Town — навигация по улицам и 12 знаковых достопримечательностей | My Phu Quoc",
+  "ja": "Sunset Townガイドマップ — 街歩きナビ＆12の象徴的ランドマーク | My Phu Quoc",
+  "hi": "Sunset Town गाइड मैप — सड़क मार्गदर्शन और 12 प्रतिष्ठित स्थल | My Phu Quoc"
+ },
+ "U107": {
+  "en": "Tell us about your business.",
+  "zh": "向我们介绍您的商家。",
+  "ru": "Расскажите нам о своём бизнесе.",
+  "ja": "あなたのお店について教えてください。",
+  "hi": "हमें अपने व्यवसाय के बारे में बताएँ।"
+ },
+ "U108": {
+  "en": "Thank you for helping Phu Quoc stay a place where everyone can belong.",
+  "zh": "感谢您帮助富国岛成为一个让每个人都有归属感的地方。",
+  "ru": "Спасибо, что помогаете Фукуоку оставаться местом, где каждый может чувствовать себя своим.",
+  "ja": "誰もが居場所を感じられるフーコックであり続けるために、ご協力いただきありがとうございます。",
+  "hi": "फु क्वोक को ऐसी जगह बनाए रखने में मदद करने के लिए धन्यवाद, जहाँ हर कोई अपनापन महसूस कर सके।"
+ },
+ "U109": {
+  "en": "The same bánh mì stall every morning. A familiar smile at the café. A neighbor who waves as you pass. Small moments like these are what turn a place into home.",
+  "zh": "每天早晨光顾的同一家越南法棍摊。咖啡馆里熟悉的微笑。路过时向你挥手的邻居。正是这些小小的日常瞬间，让一个地方逐渐成为家。",
+  "ru": "Один и тот же киоск с бань ми каждое утро. Знакомая улыбка в кафе. Сосед, который машет рукой, когда вы проходите мимо. Именно такие маленькие моменты превращают место в дом.",
+  "ja": "毎朝通ういつものバインミー屋台。カフェで見かけるなじみの笑顔。通りすがりに手を振ってくれるご近所さん。そんな小さな瞬間が積み重なって、その場所は「わが家」になっていきます。",
+  "hi": "हर सुबह वही बान मी स्टॉल। कैफ़े में जानी-पहचानी मुस्कान। गुज़रते समय हाथ हिलाता पड़ोसी। ऐसे छोटे-छोटे पल ही किसी जगह को घर बना देते हैं।"
+ },
+ "U110": {
+  "en": "Tours & Cable Car",
+  "zh": "旅游与缆车",
+  "ru": "Экскурсии и канатная дорога",
+  "ja": "ツアー＆ケーブルカー",
+  "hi": "टूर और केबल कार"
+ },
+ "U111": {
+  "en": "Upload between 3 and 5 clear business photos. Recommended: exterior/signage, interior, service/menu, and atmosphere.",
+  "zh": "上传3至5张清晰的商家照片。建议包括：外观/招牌、室内环境、服务/菜单及整体氛围。",
+  "ru": "Загрузите от 3 до 5 чётких фотографий бизнеса. Рекомендуем: фасад/вывеска, интерьер, услуги/меню и атмосфера.",
+  "ja": "お店の鮮明な写真を3～5枚アップロードしてください。推奨：外観・看板、店内、サービス・メニュー、雰囲気。",
+  "hi": "व्यवसाय की 3 से 5 स्पष्ट फ़ोटो अपलोड करें। सुझाव: बाहरी हिस्सा/साइनबोर्ड, अंदरूनी हिस्सा, सेवाएँ/मेन्यू और माहौल।"
+ },
+ "U112": {
+  "en": "VUI-Fest Bazaar: Seaside Night Market Street Food & Vibes",
+  "zh": "VUI-Fest Bazaar：海滨夜市、美味街头小吃与热闹氛围",
+  "ru": "VUI-Fest Bazaar: приморский ночной рынок, уличная еда и атмосфера",
+  "ja": "VUI-Fest Bazaar：海辺のナイトマーケット、ストリートフード＆雰囲気",
+  "hi": "VUI-Fest Bazaar: समुद्र किनारे नाइट मार्केट, स्ट्रीट फ़ूड और माहौल"
+ },
+ "U113": {
+  "en": "Vietnamese introduction — Tiếng Việt (optional)",
+  "zh": "越南语介绍 — Tiếng Việt（可选）",
+  "ru": "Описание на вьетнамском — Tiếng Việt (необязательно)",
+  "ja": "ベトナム語の紹介文 — Tiếng Việt（任意）",
+  "hi": "वियतनामी भाषा में परिचय — Tiếng Việt (वैकल्पिक)"
+ },
+ "U114": {
+  "en": "Vui-Fest Night Market Entrance / Clock Tower / Cable Car Station / Hillside Stop",
+  "zh": "Vui-Fest Night Market 入口 / Clock Tower / Cable Car Station / 山坡站点",
+  "ru": "Вход на Vui-Fest Night Market / Clock Tower / Cable Car Station / Остановка на склоне",
+  "ja": "Vui-Fest Night Market入口 / Clock Tower / Cable Car Station / 丘の中腹の停留所",
+  "hi": "Vui-Fest Night Market प्रवेश द्वार / Clock Tower / Cable Car Station / पहाड़ी ढलान का स्टॉप"
+ },
+ "U115": {
+  "en": "Want to support the neighborhood?",
+  "zh": "想为本地社区出一份力吗？",
+  "ru": "Хотите поддержать местное сообщество?",
+  "ja": "地域を応援しませんか？",
+  "hi": "क्या आप इस पड़ोस का सहयोग करना चाहते हैं?"
+ },
+ "U116": {
+  "en": "We are opening our first five places to the neighbors who join us at the beginning.",
+  "zh": "我们将首批5个名额开放给最早加入我们的社区邻里商家。",
+  "ru": "Мы открываем первые пять мест для соседей, которые присоединятся к нам с самого начала.",
+  "ja": "最初の5枠を、立ち上げ当初から参加してくださる地域の皆さまにご用意します。",
+  "hi": "हम अपने शुरुआती पाँच स्थान उन पड़ोसियों के लिए खोल रहे हैं जो शुरुआत से हमारे साथ जुड़ेंगे।"
+ },
+ "U117": {
+  "en": "We may kindly decline partnerships that don't suit the community.",
+  "zh": "对于不适合本地社区的合作申请，我们可能会婉拒。",
+  "ru": "Мы можем вежливо отклонить партнёрство, если оно не подходит местному сообществу.",
+  "ja": "地域にふさわしくないパートナーシップは、お断りする場合があります。",
+  "hi": "जो पार्टनरशिप समुदाय के अनुकूल नहीं हैं, उन्हें हम विनम्रतापूर्वक अस्वीकार कर सकते हैं।"
+ },
+ "U118": {
+  "en": "We never auto-translate business descriptions. If you wish to provide your introduction in multiple languages yourself, you may enter them below (optional).",
+  "zh": "我们不会自动翻译商家介绍。如果您希望自行提供多种语言的介绍，可以在下方填写（可选）。",
+  "ru": "Мы никогда не переводим описания бизнеса автоматически. Если вы хотите самостоятельно предоставить описание на нескольких языках, можете указать их ниже (необязательно).",
+  "ja": "事業紹介文を自動翻訳することはありません。ご自身で複数言語の紹介文を用意される場合は、以下に入力できます（任意）。",
+  "hi": "हम व्यवसाय के विवरण का कभी स्वतः अनुवाद नहीं करते। यदि आप स्वयं कई भाषाओं में अपना परिचय देना चाहते हैं, तो नीचे दर्ज कर सकते हैं (वैकल्पिक)।"
+ },
+ "U119": {
+  "en": "We review and get in touch",
+  "zh": "我们审核后与您联系",
+  "ru": "Мы проверим заявку и свяжемся с вами",
+  "ja": "審査後にご連絡します",
+  "hi": "हम समीक्षा करके आपसे संपर्क करेंगे"
+ },
+ "U120": {
+  "en": "We review the business details, photos and public links.",
+  "zh": "我们会审核商家资料、照片和公开链接。",
+  "ru": "Мы проверяем сведения о бизнесе, фотографии и общедоступные ссылки.",
+  "ja": "事業情報、写真、公開リンクを確認します。",
+  "hi": "हम व्यवसाय की जानकारी, फ़ोटो और सार्वजनिक लिंक की समीक्षा करते हैं।"
+ },
+ "U121": {
+  "en": "We'll reach out before your free period ends. You are free to stop at any time.",
+  "zh": "我们会在免费期结束前与您联系。您可以随时停止合作。",
+  "ru": "Мы свяжемся с вами до окончания бесплатного периода. Вы можете прекратить участие в любое время.",
+  "ja": "無料期間が終了する前にご連絡します。いつでも参加を終了できます。",
+  "hi": "मुफ़्त अवधि समाप्त होने से पहले हम आपसे संपर्क करेंगे। आप किसी भी समय भागीदारी समाप्त कर सकते हैं।"
+ },
+ "U122": {
+  "en": "Website, social & direct contact",
+  "zh": "网站、社交媒体与直接联系方式",
+  "ru": "Сайт, социальные сети и прямые контакты",
+  "ja": "ウェブサイト・SNS・直接連絡先",
+  "hi": "वेबसाइट, सोशल मीडिया और सीधे संपर्क के विकल्प"
+ },
+ "U123": {
+  "en": "What happens after three months?",
+  "zh": "三个月后会怎样？",
+  "ru": "Что произойдёт через три месяца?",
+  "ja": "3か月後はどうなりますか？",
+  "hi": "तीन महीने बाद क्या होगा?"
+ },
+ "U124": {
+  "en": "What happens next?",
+  "zh": "接下来会怎样？",
+  "ru": "Что будет дальше?",
+  "ja": "次のステップは？",
+  "hi": "इसके बाद क्या होगा?"
+ },
+ "U125": {
+  "en": "What it means to be a Community Partner",
+  "zh": "成为 Community Partner 意味着什么",
+  "ru": "Что значит быть Community Partner",
+  "ja": "Community Partnerになるということ",
+  "hi": "Community Partner होने का क्या अर्थ है"
+ },
+ "U126": {
+  "en": "Where your place appears",
+  "zh": "您的展示位置",
+  "ru": "Где появится ваше размещение",
+  "ja": "掲載される場所",
+  "hi": "आपका स्थान कहाँ दिखाई देगा"
+ },
+ "U127": {
+  "en": "Whether you live here for a lifetime or a season, we hope you find what you need close by, support the places that support this community, and feel that you belong.",
+  "zh": "无论您在这里生活一辈子，还是只停留一个季节，我们都希望您能在附近找到所需，支持那些为社区付出的商家，并感受到这里属于您。",
+  "ru": "Живёте ли вы здесь всю жизнь или всего один сезон, мы надеемся, что вы найдёте всё необходимое поблизости, поддержите места, которые заботятся об этом сообществе, и почувствуете себя здесь своим.",
+  "ja": "ここで一生を過ごす方も、ひとつの季節だけ滞在する方も、必要なものを身近に見つけ、この地域を支えるお店を応援し、自分の居場所だと感じていただけることを願っています。",
+  "hi": "चाहे आप यहाँ जीवन भर रहें या केवल एक मौसम, हमारी आशा है कि आपको ज़रूरत की चीज़ें पास में मिलें, आप इस समुदाय का साथ देने वाले व्यवसायों का समर्थन करें और यहाँ अपनापन महसूस करें।"
+ },
+ "U128": {
+  "en": "Why we're here",
+  "zh": "我们为何在这里",
+  "ru": "Почему мы здесь",
+  "ja": "私たちがここにいる理由",
+  "hi": "हम यहाँ क्यों हैं"
+ },
+ "U129": {
+  "en": "Yes — Delivery available",
+  "zh": "是 — 提供配送服务",
+  "ru": "Да — доставка доступна",
+  "ja": "はい — 配達対応",
+  "hi": "हाँ — डिलीवरी उपलब्ध है"
+ },
+ "U130": {
+  "en": "Yes, if it is still available. Each place holds one business at a time.",
+  "zh": "可以，只要该名额仍有空位。每个名额同一时间仅限一家商家。",
+  "ru": "Да, если место ещё свободно. На каждом месте одновременно может размещаться только один бизнес.",
+  "ja": "はい、まだ空きがあれば選べます。各枠に掲載できる事業者は一度に1社のみです。",
+  "hi": "हाँ, यदि वह स्थान अभी उपलब्ध है। हर स्थान पर एक समय में केवल एक व्यवसाय हो सकता है।"
+ },
+ "U131": {
+  "en": "Yes, just let us know.",
+  "zh": "可以，只需告诉我们即可。",
+  "ru": "Да, просто сообщите нам.",
+  "ja": "はい、お知らせいただくだけで大丈夫です。",
+  "hi": "हाँ, बस हमें बता दें।"
+ },
+ "U132": {
+  "en": "Your banner appears in the Community Partners section near the top of our homepage, marked clearly as SPONSORED. Visitors who tap it are taken to your business page in our directory.",
+  "zh": "您的横幅将展示在我们首页靠近顶部的 Community Partners 区域，并清楚标注为 SPONSORED。访客点击后将进入商家目录中的您的商家页面。",
+  "ru": "Ваш баннер появится в разделе Community Partners в верхней части главной страницы с чёткой пометкой SPONSORED. При нажатии посетители перейдут на страницу вашего бизнеса в нашем каталоге.",
+  "ja": "バナーはホームページ上部付近のCommunity Partnersセクションに表示され、「SPONSORED」と明確に表記されます。訪問者がタップすると、ディレクトリ内の事業者ページに移動します。",
+  "hi": "आपका बैनर हमारे होमपेज के ऊपरी हिस्से के पास Community Partners सेक्शन में दिखाई देगा, जिस पर SPONSORED स्पष्ट रूप से लिखा होगा। इसे टैप करने वाले विज़िटर हमारी डायरेक्टरी में आपके व्यवसाय के पेज पर पहुँचेंगे।"
+ },
+ "U133": {
+  "en": "Your banner goes live",
+  "zh": "您的横幅正式上线",
+  "ru": "Ваш баннер публикуется",
+  "ja": "バナーの掲載開始",
+  "hi": "आपका बैनर लाइव होगा"
+ },
+ "U134": {
+  "en": "Your business *",
+  "zh": "您的商家 *",
+  "ru": "Ваш бизнес *",
+  "ja": "あなたのお店 *",
+  "hi": "आपका व्यवसाय *"
+ },
+ "U135": {
+  "en": "Your name *",
+  "zh": "您的姓名 *",
+  "ru": "Ваше имя *",
+  "ja": "お名前 *",
+  "hi": "आपका नाम *"
+ },
+ "U136": {
+  "en": "Your support keeps My Phu Quoc free, honest and growing — and makes room for community initiatives that give back to Phu Quoc.",
+  "zh": "您的支持让 My Phu Quoc 能够持续免费、真实可靠并不断成长，也为回馈富国岛的社区活动创造空间。",
+  "ru": "Ваша поддержка помогает My Phu Quoc оставаться бесплатным, честным и развиваться, а также создаёт возможности для общественных инициатив на благо Фукуока.",
+  "ja": "皆さまのご支援によって、My Phu Quocは無料で誠実な情報発信を続けながら成長し、フーコックに還元する地域活動にも取り組めます。",
+  "hi": "आपका सहयोग My Phu Quoc को मुफ़्त, ईमानदार और विकसित होते रहने में मदद करता है — और फु क्वोक को लाभ पहुँचाने वाली सामुदायिक पहलों के लिए जगह बनाता है।"
+ },
+ "U137": {
+  "en": "Zalo phone number (optional)",
+  "zh": "Zalo 电话号码（可选）",
+  "ru": "Номер телефона Zalo (необязательно)",
+  "ja": "Zaloの電話番号（任意）",
+  "hi": "Zalo फ़ोन नंबर (वैकल्पिक)"
+ },
+ "U138": {
+  "en": "and send a short application below.",
+  "zh": "并在下方提交简短申请。",
+  "ru": "и отправьте краткую заявку ниже.",
+  "ja": "下記から簡単な申請を送信してください。",
+  "hi": "और नीचे एक संक्षिप्त आवेदन भेजें।"
+ },
+ "U139": {
+  "en": "and your first three months are free",
+  "zh": "并且前三个月免费",
+  "ru": "и первые три месяца бесплатно",
+  "ja": "最初の3か月は無料",
+  "hi": "और आपके पहले तीन महीने मुफ़्त हैं"
+ },
+ "U140": {
+  "en": "first come, first served after review",
+  "zh": "审核后按先到先得原则分配",
+  "ru": "после проверки — в порядке очереди подачи заявок",
+  "ja": "審査後、先着順",
+  "hi": "समीक्षा के बाद पहले आओ, पहले पाओ"
+ },
+ "U141": {
+  "en": "for one month at a time, and we'll check in with you each month.",
+  "zh": "每次为期一个月，我们会每月与您确认。",
+  "ru": "на один месяц за раз, и мы будем связываться с вами каждый месяц.",
+  "ja": "1か月ごとに掲載し、毎月ご連絡して確認します。",
+  "hi": "एक बार में एक महीने के लिए, और हम हर महीने आपसे संपर्क करेंगे।"
+ },
+ "U143": {
+  "en": "usually within a few days.",
+  "zh": "通常在几天内。",
+  "ru": "обычно в течение нескольких дней.",
+  "ja": "通常は数日以内です。",
+  "hi": "आमतौर पर कुछ दिनों के भीतर।"
+ },
+ "U164": {
+  "en": "— Select a place —",
+  "zh": "— 选择位置 —",
+  "ru": "— Выберите место —",
+  "ja": "— 掲載枠を選択 —",
+  "hi": "— स्थान चुनें —"
+ },
+ "U165": {
+  "en": "— Select start month (optional) —",
+  "zh": "— 选择开始月份（可选）—",
+  "ru": "— Выберите месяц начала (необязательно) —",
+  "ja": "— 開始月を選択（任意）—",
+  "hi": "— शुरुआत का महीना चुनें (वैकल्पिक) —"
+ },
+ "U166": {
+  "en": "— Select your listed business —",
+  "zh": "— 选择已收录的商家 —",
+  "ru": "— Выберите свой бизнес из каталога —",
+  "ja": "— 掲載済みのお店を選択 —",
+  "hi": "— अपना सूचीबद्ध व्यवसाय चुनें —"
+ },
+ "U167": {
+  "en": "ℹ️  ※ Gate prices, operating schedules, and bundle inclusions are subject to change by Sun World and operating partners. Verified October 2026.",
+  "zh": "ℹ️  ※ 门票价格、运营时间及套票包含项目可能由 Sun World 和运营合作伙伴调整。已于2026年10月核实。",
+  "ru": "ℹ️  ※ Цены на билеты, графики работы и состав пакетных предложений могут изменяться по решению Sun World и операционных партнёров. Проверено в октябре 2026 года.",
+  "ja": "ℹ️  ※ 入場料金、運営スケジュール、セットプランの内容は、Sun Worldおよび運営パートナーにより変更される場合があります。2026年10月確認済み。",
+  "hi": "ℹ️  ※ प्रवेश टिकट की कीमतें, संचालन समय-सारणी और पैकेज में शामिल सेवाएँ Sun World तथा संचालन भागीदारों द्वारा बदली जा सकती हैं। अक्टूबर 2026 में सत्यापित।"
+ },
+ "U188": {
+  "en": "🗺️  Town Map",
+  "zh": "🗺️  城镇地图",
+  "ru": "🗺️  Карта города",
+  "ja": "🗺️  タウンマップ",
+  "hi": "🗺️  टाउन मैप"
+ },
+ "T1": {
+  "en": "{category} in Sunset Town & Khem Beach | My Phu Quoc",
+  "zh": "Sunset Town 与 Khem Beach 的{category} | My Phu Quoc",
+  "ru": "{category} в Sunset Town и Khem Beach | My Phu Quoc",
+  "ja": "Sunset Town・Khem Beachの{category} | My Phu Quoc",
+  "hi": "Sunset Town और Khem Beach में {category} | My Phu Quoc"
+ },
+ "T2": {
+  "en": "Phu Quoc, Vietnam",
+  "zh": "越南富国岛",
+  "ru": "Фукуок, Вьетнам",
+  "ja": "ベトナム・フーコック",
+  "hi": "फु क्वोक, वियतनाम"
+ }
+}

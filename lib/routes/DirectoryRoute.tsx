@@ -18,6 +18,7 @@ import {
 import { normalizeZoneQuery, type MainZoneSlug } from '@/lib/zones'
 import { buildAlternates, localePath, localeUrl, ogLocaleFor, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
+import { tUi } from '@/lib/i18n/uiStrings'
 import businessesRegistry from '@/data/businesses-registry.json'
 import khemBusinesses from '@/data/khem-beach-businesses.json'
 import zoneAssignmentsJson from '@/data/zone-assignments.json'
@@ -35,7 +36,7 @@ export async function generateDirectoryMetadata(
       ? `${label} tại Sunset Town & Bãi Khem | My Phu Quoc`
       : locale === 'ko'
       ? `선셋타운 & 켐비치 ${label} | 마이 푸꾸옥 (My Phu Quoc)`
-      : `${label} in Sunset Town & Khem Beach | My Phu Quoc`
+      : tUi('{category} in Sunset Town & Khem Beach | My Phu Quoc', locale).replace('{category}', label)
   const barePath = `/directory/${category}`
   const canonicalUrl = localeUrl(locale, barePath)
   const alternates = buildAlternates(barePath)

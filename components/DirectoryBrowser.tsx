@@ -7,6 +7,7 @@ import {
   categoryLabel,
   categoryEyebrow,
   nearbyBadgeText,
+  formatLocalizedAddress,
   type DirectoryCategory,
 } from '@/lib/directory'
 import {
@@ -216,7 +217,7 @@ function BusinessCard({ b, locale }: { b: Business; locale: Locale }) {
             ))}
           </div>
           <p>{desc}</p>
-          <small>{b.address}</small>
+          <small>{formatLocalizedAddress(b.address, locale)}</small>
           {(b.google_maps_url || b.google_place_id) && (
             <div style={{ marginTop: '8px' }}>
               <span

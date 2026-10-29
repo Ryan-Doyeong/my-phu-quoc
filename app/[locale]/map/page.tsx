@@ -8,6 +8,7 @@ import Link from 'next/link'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { DIRECTORY_CATEGORY_KEYS, categoryLabel } from '@/lib/directory'
 import { getDictionary } from '@/lib/i18n/dictionaries'
+import { tUi } from '@/lib/i18n/uiStrings'
 
 interface MapPageProps {
   params: Promise<{ locale: Locale }>
@@ -19,10 +20,10 @@ export async function generateMetadata({ params }: MapPageProps): Promise<Metada
   return {
     title: isKo
       ? '선셋타운 안내 지도 — 거리별 명소 & 12대 랜드마크 안내 | My Phu Quoc'
-      : 'Sunset Town Guide Map — Street Navigation & 12 Iconic Landmarks | My Phu Quoc',
+      : tUi('Sunset Town Guide Map — Street Navigation & 12 Iconic Landmarks | My Phu Quoc', locale),
     description: isKo
       ? '선셋타운 마스터플랜 일러스트 지도를 기반으로 키스브릿지, 75m 시계탑, 해상 케이블카, 부이페스트 야시장, 6대 구역 및 주요 거리를 한눈에 탐색하세요.'
-      : 'Explore Sunset Town with our illustrated guide map, featuring Kiss Bridge, Clock Tower, 3-rope Cable Car, Vui-Fest Bazaar and 6 distinct quarters.',
+      : tUi('Explore Sunset Town with our illustrated guide map, featuring Kiss Bridge, Clock Tower, 3-rope Cable Car, Vui-Fest Bazaar and 6 distinct quarters.', locale),
   }
 }
 
@@ -65,7 +66,7 @@ export default async function MapPage({ params }: MapPageProps) {
       zoneBannerBtn: 'Xem cẩm nang 6 Phân khu →',
     },
     zh: {
-      eyebrow: 'SUNSET TOWN ILLUSTRATED GUIDE MAP',
+      eyebrow: tUi('SUNSET TOWN ILLUSTRATED GUIDE MAP', 'zh'),
       title: '日落小镇街道与12大核心地标互动导览图',
       subtitle: '基于日落小镇手绘全景地图，精准标注亲吻桥、海上大秀烟花、跨海缆车等12大核心景点位置与实用贴士。',
       zoneBannerTitle: '探索日落小镇6大特色街区',
@@ -73,7 +74,7 @@ export default async function MapPage({ params }: MapPageProps) {
       zoneBannerBtn: '前往6大街区全景指南 →',
     },
     ja: {
-      eyebrow: 'SUNSET TOWN ILLUSTRATED GUIDE MAP',
+      eyebrow: tUi('SUNSET TOWN ILLUSTRATED GUIDE MAP', 'ja'),
       title: 'サンセットタウン ストリート＆12大ランドマーク案内マップ',
       subtitle: 'イラストマップ上でキスブリッジ、花火ショー、ロープウェイ駅など12大名所のピン位置と旅行者のヒントをチェックできます。',
       zoneBannerTitle: 'サンセットタウン6大エリア詳細ガイドを見る',
@@ -81,7 +82,7 @@ export default async function MapPage({ params }: MapPageProps) {
       zoneBannerBtn: '6大エリアガイドを見る →',
     },
     ru: {
-      eyebrow: 'SUNSET TOWN ILLUSTRATED GUIDE MAP',
+      eyebrow: tUi('SUNSET TOWN ILLUSTRATED GUIDE MAP', 'ru'),
       title: 'Карта Сансет-Тауна и 12 главных достопримечательностей',
       subtitle: 'Интерактивная иллюстрированная карта с точным расположением Моста поцелуев, канатной дороги и 12 ключевых мест с советами.',
       zoneBannerTitle: 'Гид по 6 районам Сансет-Тауна',
@@ -89,7 +90,7 @@ export default async function MapPage({ params }: MapPageProps) {
       zoneBannerBtn: 'Перейти к гиду по районам →',
     },
     hi: {
-      eyebrow: 'SUNSET TOWN ILLUSTRATED GUIDE MAP',
+      eyebrow: tUi('SUNSET TOWN ILLUSTRATED GUIDE MAP', 'hi'),
       title: 'सनसेट टाउन 12 प्रमुख दर्शनीय स्थल गाइड नक्शा',
       subtitle: 'किस ब्रिज, आतिशबाजी शो और 12 प्रमुख स्थलों के सटीक पिन और उपयोगी सुझावों के साथ सचित्र इंटरैक्टिव नक्शा।',
       zoneBannerTitle: 'सनसेट टाउन के 6 प्रमुख क्षेत्र देखें',
@@ -108,7 +109,7 @@ export default async function MapPage({ params }: MapPageProps) {
         <nav className="desktopNav">
           <Link href={localePath(locale, '/')}>Home</Link>
           <Link href={localePath(locale, '/map')} style={{ color: '#C86D2D', fontWeight: 800 }}>
-            🗺️ {isKo ? '선셋타운 지도' : 'Town Map'}
+            {isKo ? '🗺️ 선셋타운 지도' : locale === 'vi' ? '🗺️ Bản đồ thị trấn' : tUi('🗺️  Town Map', locale)}
           </Link>
           {DIRECTORY_CATEGORY_KEYS.slice(0, 5).map((key) => (
             <Link href={localePath(locale, `/directory/${key}`)} key={key}>

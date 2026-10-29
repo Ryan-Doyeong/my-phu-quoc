@@ -122,42 +122,49 @@ const fallbackStories = [
   },
 ]
 
-function sanitizeFireworksTiming(text: string): string {
+function sanitizeFireworksTiming(text: string, locale: Locale = 'en'): string {
   if (!text) return ''
   let t = text
-  // 1. 한국어
-  t = t.replace(/매일\s*밤\s*21시\s*30분\s*터지는\s*불꽃놀이/g, '불꽃놀이 피날레(운영 일정은 공식 공지 확인)')
-  t = t.replace(/매일\s*밤\s*21:30/g, '공연 피날레')
-  t = t.replace(/21시\s*30분\s*불꽃놀이/g, '불꽃놀이 피날레')
-  t = t.replace(/21시\s*30분/g, '공연 피날레(공식 공지 확인)')
-  t = t.replace(/21:30/g, '공연 피날레(공식 공지 확인)')
-  t = t.replace(/매일\s*밤\s*불꽃놀이/g, '불꽃놀이 쇼')
-
-  // 2. 영어
-  t = t.replace(/for the 21:30 fireworks/gi, 'for the fireworks finale (check official schedule)')
-  t = t.replace(/the 21:30 fireworks/gi, 'the fireworks finale (check official schedule)')
-  t = t.replace(/21:30 fireworks/gi, 'fireworks finale (check official schedule)')
-  t = t.replace(/Nightly Fireworks/gi, 'Fireworks Finale')
-
-  // 3. 베트남어
-  t = t.replace(/lúc 21:30/gi, 'cuối show diễn (xem thông báo chính thức)')
-  t = t.replace(/21:30/gi, 'cuối show (xem lịch chính thức)')
-  t = t.replace(/Pháo Hoa Hàng Đêm/gi, 'Pháo Hoa Biển')
-
-  // 4. 러시아어
-  t = t.replace(/21:30/gi, 'в финале шоу (уточняйте расписание)')
-
-  // 5. 일본어
-  t = t.replace(/21:30/gi, 'フィナーレ花火（公式スケジュール確認）')
-  t = t.replace(/毎晩/g, '公演')
-
-  // 6. 중국어
-  t = t.replace(/21:30/gi, '压轴烟花秀（以官方最新公告为准）')
-  t = t.replace(/每晚/g, '演出')
-
-  // 7. 힌디어
-  t = t.replace(/21:30/gi, 'आतिशबाजी (आधिकारिक समय सारिणी देखें)')
-
+  if (locale === 'ko') {
+    t = t.replace(/매일\s*밤\s*21시\s*30분\s*터지는\s*불꽃놀이/g, '불꽃놀이 피날레(운영 일정은 공식 공지 확인)')
+    t = t.replace(/매일\s*밤\s*21:30/g, '공연 피날레')
+    t = t.replace(/21시\s*30분\s*불꽃놀이/g, '불꽃놀이 피날레')
+    t = t.replace(/21시\s*30분/g, '공연 피날레(공식 공지 확인)')
+    t = t.replace(/21:30/g, '공연 피날레(공식 공지 확인)')
+    t = t.replace(/매일\s*밤\s*불꽃놀이/g, '불꽃놀이 쇼')
+    return t
+  }
+  if (locale === 'en') {
+    t = t.replace(/for the 21:30 fireworks/gi, 'for the fireworks finale (check official schedule)')
+    t = t.replace(/the 21:30 fireworks/gi, 'the fireworks finale (check official schedule)')
+    t = t.replace(/21:30 fireworks/gi, 'fireworks finale (check official schedule)')
+    t = t.replace(/Nightly Fireworks/gi, 'Fireworks Finale')
+    return t
+  }
+  if (locale === 'vi') {
+    t = t.replace(/lúc 21:30/gi, 'cuối show diễn (xem thông báo chính thức)')
+    t = t.replace(/21:30/gi, 'cuối show (xem lịch chính thức)')
+    t = t.replace(/Pháo Hoa Hàng Đêm/gi, 'Pháo Hoa Biển')
+    return t
+  }
+  if (locale === 'ru') {
+    t = t.replace(/21:30/gi, 'в финале шоу (уточняйте расписание)')
+    return t
+  }
+  if (locale === 'ja') {
+    t = t.replace(/21:30/gi, 'フィナーレ花火（公式スケジュール確認）')
+    t = t.replace(/毎晩/g, '公演')
+    return t
+  }
+  if (locale === 'zh') {
+    t = t.replace(/21:30/gi, '压轴烟花秀（以官方最新公告为准）')
+    t = t.replace(/每晚/g, '演出')
+    return t
+  }
+  if (locale === 'hi') {
+    t = t.replace(/21:30/gi, 'आतिशबाजी (आधिकारिक समय सारिणी देखें)')
+    return t
+  }
   return t
 }
 
@@ -192,17 +199,17 @@ export function HomePage({
     ? stories.slice(0, 4).map((raw, i) => {
         const s = localizeStory(raw, locale)
         return {
-          title: sanitizeFireworksTiming(s.title),
+          title: sanitizeFireworksTiming(s.title, locale),
           category: s.category || fallbackStories[i]?.category || 'COMMUNITY',
-          excerpt: sanitizeFireworksTiming(s.excerpt || fallbackStories[i]?.excerpt || ''),
+          excerpt: sanitizeFireworksTiming(s.excerpt || fallbackStories[i]?.excerpt || '', locale),
           image: s.cover_image_url,
           slug: s.slug,
         }
       })
     : fallbackStories.map((x, i) => ({
         ...x,
-        title: sanitizeFireworksTiming(x.title),
-        excerpt: sanitizeFireworksTiming(x.excerpt),
+        title: sanitizeFireworksTiming(x.title, locale),
+        excerpt: sanitizeFireworksTiming(x.excerpt, locale),
         slug: `fallback-${i}`,
       }))
 
@@ -593,7 +600,7 @@ export function HomePage({
                 cta: '查看日落小镇地图与12大地标 →',
               },
               ja: {
-                badge: 'MAP & 12 LANDMARKS',
+                badge: 'マップ＆12大名所',
                 title: 'サンセットタウン案内マップ＆12大名所ガイド',
                 desc: 'キスブリッジ、75m時計台、海上ロープウェイなど、12大名所の見どころとストリート網をご案内。',
                 cta: 'サンセットタウン地図＆12大名所を見る →',

@@ -14,6 +14,7 @@ import { ru } from './locales/ru'
 import { ko } from './locales/ko'
 import { ja } from './locales/ja'
 import bizDescTranslations from '@/data/i18n/translations/biz_desc.json'
+import { tUi, tUiById } from './uiStrings'
 
 export type { Dictionary } from './dictionaryTypes'
 
@@ -335,7 +336,10 @@ export function translateTerm(term: string | null | undefined, locale: Locale = 
   }
   const normalized = term.trim().toLowerCase()
   const entry = TERM_GLOSSARY[normalized]
-  return entry?.[locale] || subcat || term
+  if (entry?.[locale]) return entry[locale]!
+  const ui = tUi(term, locale)
+  if (ui && ui !== term) return ui
+  return subcat || term
 }
 
 // 3. 페이지별 전체 UI 사전 — 언어별 파일은 ./locales/*.ts (베트남어 vi 사전 보존)
@@ -358,16 +362,35 @@ function deepMerge(base: Record<string, unknown>, override: Record<string, unkno
   return out
 }
 
+function translateDictionaryTree(obj: any, locale: Locale): any {
+  if (typeof obj === 'string') {
+    return tUi(obj, locale)
+  }
+  if (typeof obj === 'object' && obj !== null && !Array.isArray(obj)) {
+    const res: Record<string, any> = {}
+    for (const [k, v] of Object.entries(obj)) {
+      res[k] = translateDictionaryTree(v, locale)
+    }
+    return res
+  }
+  return obj
+}
+
 const MERGED_CACHE = new Map<Locale, Dictionary>()
 
-/** 언어별 사전 (빠진 키는 영어로 자동 대체) */
+/** 언어별 사전 (빠진 키는 영어로 자동 대체, zh/ru/ja/hi는 ui_strings 보강) */
 export function getDictionary(locale: Locale = 'en'): Dictionary {
   const cached = MERGED_CACHE.get(locale)
   if (cached) return cached
   const base = en as unknown as Record<string, unknown>
-  const merged = (
+  let merged = (
     locale === 'en' ? en : deepMerge(base, DICTIONARIES[locale] as Record<string, unknown> | undefined)
   ) as unknown as Dictionary
+
+  if (locale === 'zh' || locale === 'ru' || locale === 'ja' || locale === 'hi') {
+    merged = translateDictionaryTree(merged, locale) as Dictionary
+  }
+
   MERGED_CACHE.set(locale, merged)
   return merged
 }
@@ -490,15 +513,40 @@ export function localizeStory(story: any, locale: Locale = 'en') {
   const callout = story.callout || null
   const heroCaption = story.hero_caption || null
 
+  const ESSENTIAL_GUIDE_UI_MAP: Record<string, { title: string; excerpt: string; category: string }> = {
+    'hon-thom-cable-car-day-trip': { title: 'U47', excerpt: 'U32', category: 'U110' },
+    'kiss-of-the-sea-show-fireworks': { title: 'U57', excerpt: 'U34', category: 'U99' },
+    'vui-fest-bazaar-night-market-food': { title: 'U112', excerpt: 'U36', category: 'U68' },
+  }
+
+  const isAsianOrRu = locale === 'zh' || locale === 'ru' || locale === 'ja' || locale === 'hi'
+  const guideMap = isAsianOrRu && story.slug ? ESSENTIAL_GUIDE_UI_MAP[story.slug] : null
+
+  const title = guideMap
+    ? tUiById(guideMap.title, locale)
+    : isAsianOrRu
+    ? tUi(story.title || '', locale)
+    : story.title
+  const excerpt = guideMap
+    ? tUiById(guideMap.excerpt, locale)
+    : isAsianOrRu && story.excerpt
+    ? tUi(story.excerpt, locale)
+    : story.excerpt || null
+  const category = guideMap
+    ? tUiById(guideMap.category, locale)
+    : isAsianOrRu && story.category
+    ? tUi(story.category, locale)
+    : story.category || null
+
   return {
     ...story,
-    title: story.title,
+    title,
     title_en: titleEn,
     subtitle: story.subtitle || null,
-    excerpt: story.excerpt || null,
+    excerpt,
     excerpt_en: excerptEn,
     body: story.body_en || '',
-    category: story.category || null,
+    category,
     category_en: categoryEn,
     seo_title: seoTitle,
     seo_description: seoDescription,
@@ -547,21 +595,8 @@ export function selectBusinessDescription(b: any, locale: Locale = 'en'): string
 const HANGUL_REGEX = /[\uac00-\ud7a3]/
 const LATIN_REGEX = /[a-zA-Z]/
 
-/**
- * 비-한국어 로케일에서 한글 업체명 제거 및 라틴 표기 정제 헬퍼
- * - ko 로케일: 기존 그대로 반환
- * - 비-ko 로케일:
- *   1) 'A (B)' 형태면 B에 라틴 문자가 있을 때 B 사용 (B 내 잔여 한글/구분자 정제)
- *   2) 아니면 한글을 제거하고 구분자(괄호, 하이픈, 공백) 정리
- *   3) 한글 제거 후 문자가 남지 않는 경우 원본 반환 (보고서에 표로 기재)
- */
-export function displayBusinessName(b: any, locale: Locale = 'en'): string {
-  if (!b) return ''
-  const raw = typeof b === 'string' ? b : (b.public_name || b.name || '')
-  if (!raw || locale === 'ko') {
-    return raw
-  }
-
+function cleanBusinessName(raw: string): string {
+  if (!raw) return ''
   if (!HANGUL_REGEX.test(raw)) {
     return raw.trim()
   }
@@ -594,4 +629,33 @@ export function displayBusinessName(b: any, locale: Locale = 'en'): string {
   }
 
   return raw
+}
+
+/**
+ * 비-한국어 로케일에서 한글 업체명 제거 및 라틴 표기 정제 헬퍼
+ * - ko 로케일: 기존 그대로 반환
+ * - 비-ko 로케일:
+ *   1) b가 객체일 때 name_en / name_local 우선 사용 (영문/라틴 후보)
+ *   2) 'A (B)' 형태면 B에 라틴 문자가 있을 때 B 사용
+ *   3) 아니면 한글을 제거하고 구분자(괄호, 하이픈, 공백) 정리
+ *   4) 한글만 남아 라틴 문자가 없는 5개소는 원본 반환 (보고서에 TODO 표로 보고)
+ */
+export function displayBusinessName(b: any, locale: Locale = 'en'): string {
+  if (!b) return ''
+  if (locale === 'ko') {
+    return typeof b === 'string' ? b : (b.public_name || b.name || '')
+  }
+
+  // 비-한국어: b가 객체일 때 name_en 또는 name_local 우선
+  if (typeof b === 'object') {
+    if (b.name_en && LATIN_REGEX.test(b.name_en)) {
+      return cleanBusinessName(b.name_en)
+    }
+    if (b.name_local && LATIN_REGEX.test(b.name_local) && !HANGUL_REGEX.test(b.name_local)) {
+      return cleanBusinessName(b.name_local)
+    }
+  }
+
+  const raw = typeof b === 'string' ? b : (b.public_name || b.name || '')
+  return cleanBusinessName(raw)
 }

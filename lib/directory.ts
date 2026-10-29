@@ -374,7 +374,15 @@ export function mergeDirectoryCategoryAppearance(value:unknown){
  * - 영문 화면에서는 한글이 섞이지 않은 100% 영문/로컬 주소 표기
  * - 한국어 화면에서는 자연스러운 한국어 표기
  * - 베트남어 화면에서는 Việt Nam 표기
+ * - zh / ru / ja / hi 화면에서는 구글식 잡음(An Giang 등) 제거 및 T2 번역 표기 반영
  */
+const T2_ADDRESS_SUFFIX: Partial<Record<Locale, string>> = {
+  zh: '越南富国岛',
+  ru: 'Фукуок, Вьетнам',
+  ja: 'ベトナム・フーコック',
+  hi: 'फु क्वोक, वियतनाम',
+}
+
 export function formatLocalizedAddress(address?: string | null, locale: Locale = 'en'): string {
   if (!address) return ''
   let addr = address.trim()
@@ -399,13 +407,32 @@ export function formatLocalizedAddress(address?: string | null, locale: Locale =
     return `${addr}, Việt Nam`
   }
 
-  // 영문 및 기타 글로벌 언어: 한글이 섞이지 않도록 완벽 영문화
-  addr = addr.replace(/[\s,]+베트남$/i, '')
-  addr = addr.replace(/\s+베트남\b/gi, '')
-  addr = addr.replace(/[\s,]+Vietnam$/i, '')
+  if (locale === 'en') {
+    // 영문 화면: 기존 영문 출력 엄격 유지
+    addr = addr.replace(/[\s,]+베트남$/i, '')
+    addr = addr.replace(/\s+베트남\b/gi, '')
+    addr = addr.replace(/[\s,]+Vietnam$/i, '')
+    addr = addr.replace(/선셋타운/g, 'Sunset Town')
+    addr = addr.replace(/안장\s*성/g, 'An Giang')
+    addr = addr.replace(/안장/g, 'An Giang')
+    addr = addr.replace(/구역/g, 'Zone')
+    addr = addr.replace(/정류장/g, 'Stop')
+    addr = addr.replace(/입구/g, 'Entrance')
+    addr = addr.replace(/시계탑/g, 'Clock Tower')
+    addr = addr.replace(/야시장/g, 'Night Market')
+    addr = addr.replace(/케이블카\s*역/g, 'Cable Car Station')
+
+    addr = addr.replace(/[\uac00-\ud7a3]+/g, '').trim()
+    addr = addr.replace(/,\s*,/g, ',').replace(/^,\s*/, '').replace(/,\s*$/, '').trim()
+
+    return `${addr}, Vietnam`
+  }
+
+  // zh, ru, ja, hi: 베트남 로컬 명칭 영문화 및 구글 맵 잡음(An Giang 등) 정제
+  addr = addr.replace(/thị trấn Hoàng Hôn/gi, 'Sunset Town')
+  addr = addr.replace(/Bãi Khem(?:\s*Beach)?/gi, 'Khem Beach')
+  addr = addr.replace(/An Thới/gi, 'An Thoi')
   addr = addr.replace(/선셋타운/g, 'Sunset Town')
-  addr = addr.replace(/안장\s*성/g, 'An Giang')
-  addr = addr.replace(/안장/g, 'An Giang')
   addr = addr.replace(/구역/g, 'Zone')
   addr = addr.replace(/정류장/g, 'Stop')
   addr = addr.replace(/입구/g, 'Entrance')
@@ -413,9 +440,19 @@ export function formatLocalizedAddress(address?: string | null, locale: Locale =
   addr = addr.replace(/야시장/g, 'Night Market')
   addr = addr.replace(/케이블카\s*역/g, 'Cable Car Station')
 
-  // 혹시라도 남아있는 한글이 있다면 제거
+  for (let i = 0; i < 3; i++) {
+    const prev = addr
+    addr = addr.replace(/[\s,]+(?:Vietnam|베트남)$/i, '')
+    addr = addr.replace(/[\s,]+An Giang(?:\s*\d+)?$/i, '')
+    addr = addr.replace(/[\s,]+(?:Phú Quốc|Phu Quoc)$/i, '')
+    addr = addr.replace(/[\s,]+\d{5}$/, '')
+    if (addr === prev) break
+  }
+
   addr = addr.replace(/[\uac00-\ud7a3]+/g, '').trim()
   addr = addr.replace(/,\s*,/g, ',').replace(/^,\s*/, '').replace(/,\s*$/, '').trim()
 
-  return `${addr}, Vietnam`
+  const suffix = T2_ADDRESS_SUFFIX[locale] || 'Phu Quoc, Vietnam'
+  if (!addr) return suffix
+  return `${addr}, ${suffix}`
 }
