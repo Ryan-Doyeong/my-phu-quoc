@@ -65,11 +65,17 @@ export function MapTabContainer({
     setMounted(true)
     if (typeof window !== 'undefined' && window.location.hash === '#food') {
       setActiveTab('dining')
+      setTimeout(() => {
+        window.dispatchEvent(new Event('resize'))
+      }, 50)
     }
 
     const handleHashChange = () => {
       if (window.location.hash === '#food') {
         setActiveTab('dining')
+        setTimeout(() => {
+          window.dispatchEvent(new Event('resize'))
+        }, 50)
       } else {
         setActiveTab('landmarks')
       }
@@ -84,6 +90,10 @@ export function MapTabContainer({
     if (typeof window !== 'undefined') {
       if (tab === 'dining') {
         window.history.replaceState(null, '', `${window.location.pathname}#food`)
+        // 탭이 화면에 나타난 직후 너비 재측정을 보장하기 위한 리사이즈 이벤트 트리거
+        setTimeout(() => {
+          window.dispatchEvent(new Event('resize'))
+        }, 50)
       } else {
         window.history.replaceState(null, '', window.location.pathname)
       }

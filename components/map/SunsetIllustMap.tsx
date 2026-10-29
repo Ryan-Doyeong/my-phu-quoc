@@ -101,10 +101,10 @@ const I18N: Record<MapLanguage, {
   ko: {
     langName: '한국어',
     title: '선셋타운 F&B 일러스트 지도',
-    subtitle: '92개 추천 식당·카페 & 바 (블록별 클러스터 맵)',
-    tabAll: '전체 (92)',
-    tabDining: '식당 (82)',
-    tabBars: '바 & 펍 (10)',
+    subtitle: '추천 식당·카페 & 바 (블록별 클러스터 맵)',
+    tabAll: '전체',
+    tabDining: '식당',
+    tabBars: '바 & 펍',
     noticeTag: '안내',
     noticeText: '일러스트 지도의 축척 막대는 참고용이며 실제 거리와 다릅니다',
     seeAll: '전체 보기',
@@ -113,7 +113,7 @@ const I18N: Record<MapLanguage, {
     walkSuffix: '분',
     walkCarOnly: '도보 이동 불가 (차량 이용)',
     detailBtn: '상세보기 →',
-    outsideTitle: '선셋타운 외곽 / 안터이 구도심 매장 (6곳)',
+    outsideTitle: '선셋타운 외곽 / 안터이 구도심 매장',
     levelExact: '확실',
     levelEst: '추정',
     levelUnconfirmed: '미확인',
@@ -123,10 +123,10 @@ const I18N: Record<MapLanguage, {
   en: {
     langName: 'English',
     title: 'Sunset Town F&B Illustrated Map',
-    subtitle: '92 Curated Restaurants, Cafes & Bars by Block',
-    tabAll: 'All (92)',
-    tabDining: 'Dining (82)',
-    tabBars: 'Bars & Pubs (10)',
+    subtitle: 'Curated Restaurants, Cafes & Bars by Block',
+    tabAll: 'All',
+    tabDining: 'Dining',
+    tabBars: 'Bars & Pubs',
     noticeTag: 'Notice',
     noticeText: 'The scale bar on the illustration map is for reference only and differs from actual distance',
     seeAll: 'See All',
@@ -135,7 +135,7 @@ const I18N: Record<MapLanguage, {
     walkSuffix: ' min walk from Clock Tower',
     walkCarOnly: 'Vehicles required (outside town)',
     detailBtn: 'Details →',
-    outsideTitle: 'Outskirts / An Thoi Old Town Venues (6 places)',
+    outsideTitle: 'Outskirts / An Thoi Old Town Venues',
     levelExact: 'Verified',
     levelEst: 'Estimated',
     levelUnconfirmed: 'Unconfirmed',
@@ -145,10 +145,10 @@ const I18N: Record<MapLanguage, {
   zh: {
     langName: '中文',
     title: '日落小镇美食手绘插画地图',
-    subtitle: '92家精选餐厅·咖啡与酒吧（街区聚合分布）',
-    tabAll: '全部 (92)',
-    tabDining: '餐厅 (82)',
-    tabBars: '酒吧 (10)',
+    subtitle: '精选餐厅·咖啡与酒吧（街区聚合分布）',
+    tabAll: '全部',
+    tabDining: '餐厅',
+    tabBars: '酒吧',
     noticeTag: '说明',
     noticeText: '插画地图的比例尺仅供参考，与实际距离有所差异',
     seeAll: '查看全部',
@@ -157,7 +157,7 @@ const I18N: Record<MapLanguage, {
     walkSuffix: '分钟',
     walkCarOnly: '需乘车前往（小镇外围）',
     detailBtn: '查看详情 →',
-    outsideTitle: '日落小镇外围 / 安泰老街商户（6家）',
+    outsideTitle: '日落小镇外围 / 安泰老街商户',
     levelExact: '确切',
     levelEst: '推定',
     levelUnconfirmed: '未确认',
@@ -167,10 +167,10 @@ const I18N: Record<MapLanguage, {
   ru: {
     langName: 'Русский',
     title: 'Иллюстрированная карта гастрономии Sunset Town',
-    subtitle: '92 лучших ресторана, кафе и бара по кварталам',
-    tabAll: 'Все (92)',
-    tabDining: 'Рестораны (82)',
-    tabBars: 'Бары и пабы (10)',
+    subtitle: 'Лучшие рестораны, кафе и бары по кварталам',
+    tabAll: 'Все',
+    tabDining: 'Рестораны',
+    tabBars: 'Бары и пабы',
     noticeTag: 'Инфо',
     noticeText: 'Масштабная линейка на карте носит справочный характер и отличается от фактического расстояния',
     seeAll: 'Показать все',
@@ -179,7 +179,7 @@ const I18N: Record<MapLanguage, {
     walkSuffix: ' мин пешком от башни',
     walkCarOnly: 'На транспорте (за пределами городка)',
     detailBtn: 'Подробнее →',
-    outsideTitle: 'За пределами Сансет Тауна / Старый город Ан Тхой (6 мест)',
+    outsideTitle: 'За пределами Сансет Тауна / Старый город Ан Тхой',
     levelExact: 'Точно',
     levelEst: 'Оценка',
     levelUnconfirmed: 'Не подтверждено',
@@ -189,10 +189,10 @@ const I18N: Record<MapLanguage, {
   ja: {
     langName: '日本語',
     title: 'サンセットタウン グルメイラストマップ',
-    subtitle: '厳選92店舗のレストラン・カフェ・バー（ブロック別）',
-    tabAll: 'すべて (92)',
-    tabDining: 'レストラン (82)',
-    tabBars: 'バー＆パブ (10)',
+    subtitle: '厳選店舗のレストラン・カフェ・バー（ブロック別）',
+    tabAll: 'すべて',
+    tabDining: 'レストラン',
+    tabBars: 'バー＆パブ',
     noticeTag: 'ご案内',
     noticeText: 'イラストマップの縮尺バーは参考用であり、実際の距離とは異なります',
     seeAll: 'すべて表示',
@@ -201,7 +201,7 @@ const I18N: Record<MapLanguage, {
     walkSuffix: '分',
     walkCarOnly: '徒歩移動不可（車両利用）',
     detailBtn: '詳細を見る →',
-    outsideTitle: 'サンセットタウン郊外・アントイ旧市街（6軒）',
+    outsideTitle: 'サンセットタウン郊外・アントイ旧市街',
     levelExact: '確定',
     levelEst: '推定',
     levelUnconfirmed: '未確認',
@@ -211,25 +211,64 @@ const I18N: Record<MapLanguage, {
   hi: {
     langName: 'हिन्दी',
     title: 'सनसेट टाउन एफ एंड बी इलस्ट्रेटेड मैप',
-    subtitle: 'ब्लॉक द्वारा 92 क्यूरेटेड रेस्तरां, कैफे और बार',
-    tabAll: 'सभी (92)',
-    tabDining: 'रेस्तरां (82)',
-    tabBars: 'बार और पब (10)',
+    subtitle: 'ब्लॉक द्वारा क्यूरेटेड रेस्तरां, कैफे और बार',
+    tabAll: 'सभी',
+    tabDining: 'रेस्तरां',
+    tabBars: 'बार और पब',
     noticeTag: 'सूचना',
-    noticeText: 'सचित्र नक्शे पर स्केल बार केवल संदर्भ के लिए है और वास्तविक दूरी से भिन्न है',
+    noticeText: 'सचित्र नक्शे पर स्केल bar केवल संदर्भ के लिए है और वास्तविक दूरी से भिन्न है',
     seeAll: 'सभी देखें',
     recommendedHeading: 'सनसेट टाउन अनुशंसित भोजन और बार',
     walkPrefix: 'घंटाघर से ',
     walkSuffix: ' मिनट पैदल',
     walkCarOnly: 'वाहन आवश्यक (कस्बे के बाहर)',
     detailBtn: 'विवरण देखें →',
-    outsideTitle: 'सनसेट टाउन के बाहर / अन थोई पुराना शहर (6 स्थान)',
+    outsideTitle: 'सनसेट टाउन के बाहर / अन थोई पुराना शहर',
     levelExact: 'सत्यापित',
     levelEst: 'अनुमानित',
     levelUnconfirmed: 'अपुष्ट',
     diningBadge: 'रेस्तरां',
     barsBadge: 'बार',
   },
+}
+
+// 결함 2 수정: 하드코딩된 '92'를 제거하고 실제 노출되는 총 업체 수로 동적 생성
+const getDynamicSubtitle = (lang: MapLanguage, count: number): string => {
+  switch (lang) {
+    case 'ko':
+      return `${count}개 추천 식당·카페 & 바 (블록별 클러스터 맵)`
+    case 'en':
+      return `${count} Curated Restaurants, Cafes & Bars by Block`
+    case 'zh':
+      return `${count}家精选餐厅·咖啡与酒吧（街区聚合分布）`
+    case 'ru':
+      return `${count} лучших ресторанов, кафе и баров по кварталам`
+    case 'ja':
+      return `厳選${count}店舗のレストラン・カフェ・バー（ブロック別）`
+    case 'hi':
+      return `ब्लॉक द्वारा ${count} क्यूरेटेड रेस्तरां, कैफे और बार`
+    default:
+      return `${count} Curated Restaurants, Cafes & Bars by Block`
+  }
+}
+
+const getDynamicOutsideTitle = (lang: MapLanguage, count: number): string => {
+  switch (lang) {
+    case 'ko':
+      return `선셋타운 외곽 / 안터이 구도심 매장 (${count}곳)`
+    case 'en':
+      return `Outskirts / An Thoi Old Town Venues (${count} places)`
+    case 'zh':
+      return `日落小镇外围 / 安泰老街商户（${count}家）`
+    case 'ru':
+      return `За пределами Сансет Тауна / Старый город Ан Тхой (${count} мест)`
+    case 'ja':
+      return `サンセットタウン郊外・アントイ旧市街（${count}軒）`
+    case 'hi':
+      return `सनसेट टाउन के बाहर / अन थोई पुराना शहर (${count} स्थान)`
+    default:
+      return `Outskirts / An Thoi Old Town Venues (${count} places)`
+  }
 }
 
 export function SunsetIllustMap({
@@ -265,6 +304,7 @@ export function SunsetIllustMap({
   const blocks: Block[] = (activeData.blocks as unknown) as Block[]
   const allVenues: Venue[] = (activeData.venues as unknown) as Venue[]
   const outsideVenues: Venue[] = ((activeData.outside || []) as unknown) as Venue[]
+  const totalCount = activeData.summary?.total_live_union || (allVenues.length + outsideVenues.length) || 85
 
   // Clamp function
   const clamp = (val: number, min: number, max: number) => Math.min(Math.max(val, min), max)
@@ -283,16 +323,61 @@ export function SunsetIllustMap({
     []
   )
 
-  // Initial setup on mount
+  // 결함 1 (중대) 수정:
+  // 탭 숨김(display: none) 상태에서 폭이 0으로 읽혀 scale이 0이 되는 문제 원천 해결.
+  // 1. 폭이 0보다 클 때만 scale을 계산하고, 0이면 절대 scale을 0으로 덮어쓰지 않음.
+  // 2. ResizeObserver를 통해 탭 전환, 창 크기 변경, #food 직접 진입 등으로 컨테이너가 화면에 나타나는 즉시 scale 재계산.
   useEffect(() => {
-    if (viewportRef.current) {
-      const vpW = viewportRef.current.clientWidth
-      const initScale = vpW / IMG_W
-      setScale(initScale)
-      setPanX(0)
-      setPanY(-95)
+    const el = viewportRef.current
+    if (!el) return
+
+    const updateScaleFromWidth = (width: number) => {
+      if (width <= 0) return
+      const nextScale = clamp(width / IMG_W, 0.35, 1.6)
+      setScale((prev) => {
+        // scale이 0에 가깝거나 크게 변했을 때 안전하게 갱신
+        if (prev <= 0.05 || Math.abs(prev - nextScale) > 0.01) {
+          const { minX, maxX, minY, maxY } = getBounds(nextScale)
+          setPanX((px) => clamp(px, minX, maxX))
+          setPanY((py) => clamp(py, minY, maxY))
+          return nextScale
+        }
+        return prev
+      })
     }
-  }, [])
+
+    // 마운트 시점에 유효한 너비가 있으면 즉시 초기화
+    if (el.clientWidth > 0) {
+      updateScaleFromWidth(el.clientWidth)
+    }
+
+    // 컨테이너 표시 상태 및 크기 변화를 실시간 감지
+    let ro: ResizeObserver | null = null
+    if (typeof ResizeObserver !== 'undefined') {
+      ro = new ResizeObserver((entries) => {
+        for (const entry of entries) {
+          const cr = entry.contentRect
+          const w = cr.width || el.clientWidth
+          if (w > 0) {
+            updateScaleFromWidth(w)
+          }
+        }
+      })
+      ro.observe(el)
+    }
+
+    const onWindowResize = () => {
+      if (el.clientWidth > 0) {
+        updateScaleFromWidth(el.clientWidth)
+      }
+    }
+    window.addEventListener('resize', onWindowResize)
+
+    return () => {
+      if (ro) ro.disconnect()
+      window.removeEventListener('resize', onWindowResize)
+    }
+  }, [getBounds])
 
   // Zoom handlers
   const handleZoom = (factor: number) => {
@@ -308,10 +393,12 @@ export function SunsetIllustMap({
   const handleReset = () => {
     if (viewportRef.current) {
       const vpW = viewportRef.current.clientWidth
-      const initScale = vpW / IMG_W
-      setScale(initScale)
-      setPanX(0)
-      setPanY(-95)
+      if (vpW > 0) {
+        const initScale = clamp(vpW / IMG_W, 0.35, 1.6)
+        setScale(initScale)
+        setPanX(0)
+        setPanY(-95)
+      }
       setActiveBlockId(null)
     }
   }
@@ -386,7 +473,7 @@ export function SunsetIllustMap({
         <div className={styles.headerTop}>
           <div className={styles.headerTitleGroup}>
             <h2>{t.title}</h2>
-            <p>{t.subtitle}</p>
+            <p>{getDynamicSubtitle(lang, totalCount)}</p>
           </div>
           {showLanguageSwitcher && (
             <div className={styles.langBar}>
@@ -595,7 +682,7 @@ export function SunsetIllustMap({
             className={styles.outsideToggle}
             onClick={() => setOutsideOpen(!outsideOpen)}
           >
-            <span>{t.outsideTitle}</span>
+            <span>{getDynamicOutsideTitle(lang, outsideVenues.length)}</span>
             <span>{outsideOpen ? '▲' : '▼'}</span>
           </button>
           <div
