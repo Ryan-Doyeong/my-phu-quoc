@@ -4,6 +4,7 @@ import type { DictionaryInput } from '../dictionaryTypes'
 export const hi = {
   nav: {
     home: 'होम',
+    zones: 'सनसेट टाउन / खेम बीच',
     discover: 'खोजें',
     news: 'समाचार',
     newsAndBlog: 'समाचार और ब्लॉग',
@@ -17,6 +18,7 @@ export const hi = {
     directory: 'निर्देशिका',
     search: 'खोजें',
     menu: 'मेनू',
+    about: 'हमारे बारे में',
   },
   footer: {
     taglineLine1: 'फू क्वोक सनसेट टाउन',

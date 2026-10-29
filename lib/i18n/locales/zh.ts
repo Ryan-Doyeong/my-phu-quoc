@@ -4,6 +4,7 @@ import type { DictionaryInput } from '../dictionaryTypes'
 export const zh = {
   nav: {
     home: '首页',
+    zones: '日落小镇 / 凯姆海滩',
     discover: '探索',
     news: '新闻资讯',
     newsAndBlog: '资讯与博客',
@@ -17,6 +18,7 @@ export const zh = {
     directory: '分类指南',
     search: '搜索',
     menu: '菜单',
+    about: '关于我们',
   },
   footer: {
     taglineLine1: '富国岛日落小镇',

@@ -218,6 +218,7 @@ export function HomePage({
           <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
           <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
           <Link href={localePath(locale, '/impact')}>{dict.nav.impact}</Link>
+          <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
         </nav>
         <div className="headerActions">
           <Link
