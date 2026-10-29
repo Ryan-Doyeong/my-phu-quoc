@@ -91,7 +91,197 @@ function splitViEn(text: string): { vi: string; en: string } {
   return { vi: trimmed, en: trimmed }
 }
 
-export function loadMenuForPlace(placeId: string | null | undefined): BusinessMenuData | null {
+/**
+ * @deprecated 12차 D 지시: 비-ko 로케일(en/zh/ru/ja/hi/vi)에서는 sources 자유 문구를 전혀 쓰지 않고
+ * 로케일별 고정 문구('Official menu & venue information' 등)를 통일 적용하므로 본 함수는 미사용(deprecated) 처리됨.
+ */
+export function cleanSourcesSummaryNonKo(src: string): string {
+  if (!src) return 'Official Menu'
+
+  // 1. Remove Hangul
+  let s = src.replace(/[\uac00-\ud7a3]+/g, '')
+
+  // Letter regex (Latin, Vietnamese diacritics, CJK, Cyrillic, Hindi)
+  const letterRe = /[a-zA-Z\u00C0-\u024F\u1EA0-\u1EF9\u4e00-\u9fa5\u0400-\u04FF\u0900-\u097F]/
+
+  // 2. Iteratively remove brackets containing NO letters & clean inside brackets
+  for (let i = 0; i < 3; i++) {
+    s = s.replace(/\([^()]*\)/g, (match) => (letterRe.test(match) ? match : ''))
+    s = s.replace(/\[[^\[\]]*\]/g, (match) => (letterRe.test(match) ? match : ''))
+    s = s.replace(/\([\s,;:\-_/.]+/g, '(')
+    s = s.replace(/[\s,;:\-_/.]+\)/g, ')')
+    s = s.replace(/\[[\s,;:\-_/.]+/g, '[')
+    s = s.replace(/[\s,;:\-_/.]+\]/g, ']')
+    s = s.replace(/\(\s*\)/g, '')
+    s = s.replace(/\[\s*\]/g, '')
+  }
+
+  // 3. Clean unbalanced brackets
+  const openCount = (s.match(/\(/g) || []).length
+  const closeCount = (s.match(/\)/g) || []).length
+  if (openCount > closeCount) {
+    let diff = openCount - closeCount
+    s = s.replace(/\(/g, (m) => (diff-- > 0 ? '' : m))
+  } else if (closeCount > openCount) {
+    let diff = closeCount - openCount
+    s = s.replace(/\)/g, (m) => (diff-- > 0 ? '' : m))
+  }
+
+  // 4. Clean delimiters & symbols
+  s = s.replace(/\s*([,;:])\s*([,;:])+/g, '$1 ')
+  s = s.replace(/\s*,\s*/g, ', ')
+  s = s.replace(/\s*-\s*-\s*/g, ' - ')
+  s = s.replace(/,\s*-\s*/g, ', ')
+  s = s.replace(/-\s*,\s*/g, ', ')
+  s = s.replace(/\s*&\s*,\s*/g, ', ')
+  s = s.replace(/\s*,\s*&\s*/g, ', ')
+  s = s.replace(/\s{2,}/g, ' ')
+
+  // 5. Trim leading/trailing punctuation & symbols
+  s = s.replace(/^[,\s\-_/.:;+&|~]+|[,\s\-_/.:;+&|~]+$/g, '').trim()
+
+  // 6. Unwrap single surrounding parens/brackets
+  if (s.startsWith('(') && s.endsWith(')') && (s.match(/\(/g) || []).length === 1 && (s.match(/\)/g) || []).length === 1) {
+    s = s.slice(1, -1).trim()
+  }
+  if (s.startsWith('[') && s.endsWith(']') && (s.match(/\[/g) || []).length === 1 && (s.match(/\]/g) || []).length === 1) {
+    s = s.slice(1, -1).trim()
+  }
+
+  // 7. Check if meaningful name remains (at least 2 letters, not price/noise)
+  const letters = s.match(new RegExp(letterRe.source, 'g'))
+  if (!letters || letters.length < 2) {
+    return 'Official Menu'
+  }
+
+  // Filter residual prices like '2 299, 000 VND' or internal codes 's1', '3F', 'SNS'
+  if (/^[\d\s,.~]+(?:VND|USD|VND\/USD)?$/i.test(s)) {
+    return 'Official Menu'
+  }
+  if (['s1', '3f', 'sns'].includes(s.toLowerCase())) {
+    return 'Official Menu'
+  }
+
+  s = s.replace(/^[,\s\-_/.:;+&|~]+|[,\s\-_/.:;+&|~]+$/g, '').trim()
+  return s || 'Official Menu'
+}
+
+export const SECTION_CANONICAL_EN_MAP: Record<string, string> = {
+  '20 minutes preparation': 'Soups (20-Minute Preparation)',
+  '48h Rise Dough': 'Pizza with 48-Hour Fermented Dough',
+  'Afternoon Tea & Artisanal Pastries / 애프터눈 티 & 디저트': 'Afternoon Tea & Artisanal Pastries',
+  'Appetizer': 'Appetizers',
+  'Appetizer & Salad': 'Appetizers & Salads',
+  'Barbecued': 'Barbecued Dishes',
+  'Beer & Drink': 'Beer & Drinks',
+  'Beer / Soft Drinks / Water': 'Beer, Soft Drinks & Water',
+  'Beverage, Coffee & Teas': 'Beverages, Coffee & Tea',
+  'Bia Tươi & Thức Uống / Draft Beer': 'Draft Beer & Craft Beer',
+  'Bia thủ công & Đồ uống / Craft Beer Selection': 'Craft Beer & Drinks',
+  'Bia thủ công Sun KraftBeer / German Craft Beer': 'Sun KraftBeer – German Craft Beer',
+  'Bingsu & Mango Dessert / 빙수 & 망고 디저트': 'Bingsu & Mango Desserts',
+  'Breakfast (07:00 - 11:00)': 'Breakfast (07:00–11:00)',
+  'Bunsik & Noodles / 분식 & 면류': 'Korean Street Food & Noodles',
+  'Burger, Pasta & Sourdough Pizza': 'Burgers, Pasta & Sourdough Pizza',
+  'Burgers & Starters / 수제 버거 & 스타터': 'Burgers & Starters',
+  'Bánh canh ghẹ Phú Quốc / Phu Quoc Flower Crab Noodles': 'Phu Quoc Flower Crab Banh Canh Noodles',
+  'Bánh mì & Pastries / Bakery': 'Banh Mi & Pastries',
+  'Bò & Món nướng than hoa / Beef & Grill': 'Beef & Charcoal Grills',
+  'Bữa sáng tự chọn / Daily Breakfast Buffet': 'Daily Breakfast Buffet',
+  'Café & Boissons / Coffee & Drinks': 'Coffee & Drinks',
+  'Café & Tropical Drinks / 오션뷰 음료': 'Café & Tropical Drinks',
+  'Classic & Fancy': 'Classic & Fancy Cocktails',
+  'Cocktails & Craft Beers / 칵테일 & 주류': 'Cocktails & Craft Beers',
+  'Cocktails & Spirits / 클럽 칵테일 & 음료': 'Cocktails & Spirits',
+  'Craft Beer & Promotions / 수제 크래프트 맥주': 'Craft Beer & Promotions',
+  'Crispy Bites & Snacks / 핑거푸드 & 안주': 'Crispy Bites & Snacks',
+  'Cà phê & Đồ uống nghệ thuật RuNam / Signature Coffee & Drinks': 'RuNam Signature Coffee & Drinks',
+  'Cà phê Phin truyền thống / Traditional Phin Coffee': 'Traditional Vietnamese Phin Coffee',
+  'Cơm & Mì ăn kèm / Rice & Noodles': 'Rice & Noodles',
+  'Cơm niêu & Canh truyền thống / Claypot Rice & Soups': 'Claypot Rice & Traditional Soups',
+  'Dessert': 'Desserts',
+  'Dinner Menu (17:00-22:00) - Starter': 'Dinner Menu (17:00–22:00) – Starters',
+  'Dinner Menu - Main Dishes': 'Dinner Menu – Main Courses',
+  'Döner Kebab & Turkish Specialties / 터키식 케밥': 'Döner Kebab & Turkish Specialties',
+  'Extra Topping': 'Extra Pizza Toppings',
+  'Homemade Pastas': 'Homemade Pasta',
+  'Hải Sản Phú Quốc & Món Nướng / Seafood & Grills': 'Phu Quoc Seafood & Grills',
+  'Hải sản cố định giá / Fixed Price Seafood': 'Fixed-Price Seafood',
+  'Hải sản tươi sống & Đĩa lớn / Fresh Seafood Platters': 'Fresh Seafood & Sharing Platters',
+  'Kem & Trà / Ice Cream & Tea': 'Ice Cream & Tea',
+  'Kids Menu': "Kids' Menu",
+  'Kids Menu & Desserts': "Kids' Menu & Desserts",
+  'Kimbap / 김밥류': 'Kimbap',
+  'Lunch Menu (11:00-16:00)': 'Lunch Menu (11:00–16:00)',
+  'Lẩu bò Hoàng Hôn / Sunset Town Beef Hot Pot': 'Sunset Town Beef Hot Pot',
+  'Meal & Stew / 식사 & 찌개류': 'Rice Meals & Korean Stews',
+  'Mixed Juice & Smoothie': 'Mixed Juices & Smoothies',
+  'Mocktail': 'Mocktails',
+  'Mì kéo thủ công Kungfu / Hand-pulled Chinese Noodles': 'Kungfu Hand-Pulled Noodles',
+  'Món chính & Bò nướng đá núi lửa / Western Mains & Stone Grill': 'Western Main Courses & Hot Stone Grills',
+  'Món mặn ăn cơm / Savory Main Dishes for Rice': 'Savory Vietnamese Dishes to Accompany Rice',
+  'Món ăn kèm & Tráng miệng / Sides & Add-ons': 'Sides, Add-ons & Desserts',
+  'Món ăn Đức truyền thống & Hải sản / German Dishes & Seafood': 'Traditional German Dishes & Seafood',
+  'Noodles / Rice / Congee': 'Noodles, Rice & Congee',
+  'Nước ép & Healthy Drinks': 'Fresh Juices & Healthy Drinks',
+  'Phu Quoc Flavors & Vietnamese Heritage': 'Phu Quoc Specialties & Traditional Vietnamese Cuisine',
+  'Phở truyền thống Hà Nội / Traditional Hanoi Pho': 'Traditional Hanoi Pho',
+  'Pizza delights': 'Pizza',
+  'Risotto Selections': 'Risotto',
+  'Robatayaki & Grilled Fish / 참숯 생선구이': 'Robatayaki & Charcoal-Grilled Fish',
+  'Sandwich & Burger': 'Sandwiches & Burgers',
+  'Side Dishes & Extra': 'Side Dishes & Extras',
+  'Signature & Classic Cocktail': 'Signature & Classic Cocktails',
+  'Skyline Cocktails / 스카이라인 선셋 칵테일': 'Skyline Sunset Cocktails',
+  'Smoked BBQ Ribs & Steaks / 참나무 훈제 바비큐': 'Smoked BBQ Ribs & Steaks',
+  'Smoothie': 'Smoothies',
+  'Smoothies & Ice Blended': 'Smoothies & Ice-Blended Drinks',
+  'Smoothies & Juice': 'Smoothies & Juices',
+  'Soft Drink / Water / Beer': 'Soft Drinks, Water & Beer',
+  'Spanish Indulgence (07:00-16:00) - set': 'Spanish Indulgence Brunch Set (07:00–16:00)',
+  'Speakeasy Cocktails / 스피크이지 칵테일': 'Speakeasy Cocktails',
+  'Starter (Spanish & Italian Influenced)': 'Starters (Spanish & Italian Influences)',
+  'Sushi, Sashimi & Ramen / 스시, 사시미 & 식사': 'Sushi, Sashimi & Ramen',
+  'Tapas Evening (Fri-Sun 18:00-21:00)': 'Tapas Evening (Fri–Sun, 18:00–21:00)',
+  'The Charcoal & Mains': 'Charcoal Grills & Main Courses',
+  'Trà & Freeze / Tea & Blended Ice': 'Tea & Ice-Blended Drinks',
+  'Vegetarian': 'Vegetarian Dishes',
+  'Viennoiserie & Artisanal Bread / 프랑스 정통 페이스트리 & 빵': 'Viennoiserie & Artisanal Bread',
+  'Vietnamese Set Menu (2 Pax)': 'Vietnamese Set Menu (2 People)',
+  'Virgin Cocktails': 'Non-Alcoholic Cocktails',
+  'Western Mains & Grill': 'Western Main Courses & Grills',
+  'Wine by Bottle': 'Wine by the Bottle',
+  'Wine by Glass': 'Wine by the Glass',
+  'glass / bottle': 'Spirits (Glass / Bottle)',
+  'set': "Chef Victor Ho's Recommended Set",
+  'shot / bottle': 'Spirits (Shot / Bottle)',
+  'subject to availability': 'Soups (Subject to Availability)',
+  'Điểm tâm & Món Việt tinh hoa / Premium Vietnamese Classics': 'Premium Vietnamese Classics',
+  'Đồ uống giải khát / Refreshing Drinks': 'Refreshing Drinks',
+  '김밥류': 'Kimbap',
+  '분식 & 면류': 'Korean Street Food & Noodles',
+  '생망고 눈꽃빙수 & 디저트': 'Bingsu & Mango Desserts',
+  '선셋 루프탑 시그니처 칵테일': 'Skyline Sunset Cocktails',
+  '수제 버거 & 사이드 요리': 'Burgers & Starters',
+  '스시, 사시미 & 라멘': 'Sushi, Sashimi & Ramen',
+  '시그니처 칵테일 & 스피릿': 'Cocktails & Spirits',
+  '식사 & 찌개류': 'Rice Meals & Korean Stews',
+  '애프터눈 티 & 이탈리안 페이스트리': 'Afternoon Tea & Artisanal Pastries',
+  '재즈 & 장인정신 칵테일': 'Speakeasy Cocktails',
+  '정통 터키식 도네르 케밥': 'Döner Kebab & Turkish Specialties',
+  '참나무 훈제 바비큐': 'Smoked BBQ Ribs & Steaks',
+  '참숯 생선구이 (로바타야키)': 'Robatayaki & Charcoal-Grilled Fish',
+  '카페 & 트로피컬 음료': 'Café & Tropical Drinks',
+  '크래프트 비어 & 무제한 프로모션': 'Craft Beer & Promotions',
+  '크리스피 치킨 & 수제 안주': 'Crispy Bites & Snacks',
+  '트로피컬 칵테일 & 하이볼': 'Cocktails & Craft Beers',
+  '프랑스 정통 페이스트리 & 베이커리': 'Viennoiserie & Artisanal Bread',
+}
+
+export function loadMenuForPlace(
+  placeId: string | null | undefined,
+  locale: string = 'ko'
+): BusinessMenuData | null {
   if (!placeId) return null
 
   try {
@@ -103,11 +293,14 @@ export function loadMenuForPlace(placeId: string | null | undefined): BusinessMe
     const grade: MenuGrade = (raw.info_level || 'C').toUpperCase() as MenuGrade
     const info = GRADE_INFO[grade] || GRADE_INFO.C
     const verifiedDate = raw.menu_date || (raw.sources && raw.sources[0]?.accessed) || '2026-10'
-    const sourcesSummary =
+    let sourcesSummary =
       (raw.sources || [])
         .map((s: any) => s.note || s.url)
         .filter(Boolean)
         .join(', ') || 'Sunset Town Master Menu DB'
+
+    // 12차 D 지시: 비-ko 로케일에서는 formatMenuMetaHeader/formatMenuFooter에서 로케일별 고정 문구를 사용하므로
+    // 원본 sourcesSummary는 한국어(ko) 환경 및 데이터 보존 목적으로 그대로 유지
 
     const sections: MenuSection[] = []
 
@@ -119,7 +312,12 @@ export function loadMenuForPlace(placeId: string | null | undefined): BusinessMe
         const splitSec = splitViEn(secOrig)
 
         const title_ko = secKo || secOrig || '기타 메뉴'
-        const title_en = splitSec.en || secOrig || secKo || 'Menu'
+        const raw_title_en = splitSec.en || secOrig || secKo || 'Menu'
+        const title_en =
+          SECTION_CANONICAL_EN_MAP[raw_title_en] ||
+          SECTION_CANONICAL_EN_MAP[secOrig] ||
+          SECTION_CANONICAL_EN_MAP[title_ko] ||
+          raw_title_en
         const title_vi = splitSec.vi || secOrig || 'Thực đơn'
 
         const items: MenuItem[] = (sec.items || []).map((it: any) => {

@@ -1,5 +1,28 @@
 import type {ReactNode} from 'react'
 import {imageUrl} from '@/lib/imageUrl'
+import type {Locale} from '@/lib/i18n/config'
+import {tUi} from '@/lib/i18n/uiStrings'
+
+function translateArticleText(text: string, locale?: Locale): string {
+  if (!text || !locale || locale === 'en' || locale === 'ko' || locale === 'vi') return text
+  const trimmed = text.trim()
+  let res = tUi(trimmed, locale)
+  if (res !== trimmed) return res
+
+  // X28: Hon Thom Cable Car paragraph
+  if (trimmed.startsWith('Starting from the Roman-inspired An Thoi Departure Station')) {
+    const tr = tUi('Starting from the Roman-inspired An Thoi Departure Station in Sunset Town, the Hon Thom Cable Car stretches 7,899.9 meters across the open sea.', locale)
+    if (tr && !tr.startsWith('Starting from the Roman-inspired')) return tr
+  }
+
+  // X29: Check operating hours timetable
+  if (trimmed.startsWith('Check operating hours timetable before departure')) {
+    const tr = tUi('Check operating hours timetable before departure.', locale)
+    if (tr && !tr.startsWith('Check operating hours timetable')) return tr
+  }
+
+  return text
+}
 
 function inline(text:string):ReactNode[]{
   const token=/\*\*(.+?)\*\*|\[([^\]]+)\]\((https?:\/\/[^\s)]+|\/(?!\/)[^\s)]*)\)/g
@@ -22,7 +45,7 @@ function inline(text:string):ReactNode[]{
   return out
 }
 
-export function ArticleBody({body}:{body:string|null|undefined}){
+export function ArticleBody({body, locale}:{body:string|null|undefined; locale?: Locale}){
   const normalized = String(body || '')
     .replace(/\\r\\n/g, '\n')
     .replace(/\\n/g, '\n')
@@ -44,7 +67,7 @@ export function ArticleBody({body}:{body:string|null|undefined}){
               <tr style={{ background: 'rgba(0, 0, 0, 0.04)', borderBottom: '2px solid rgba(0, 0, 0, 0.12)' }}>
                 {header.map((col, idx) => (
                   <th key={idx} style={{ padding: '0.75rem 1rem', fontWeight: 600, border: '1px solid rgba(0, 0, 0, 0.08)' }}>
-                    {inline(col)}
+                    {inline(translateArticleText(col, locale))}
                   </th>
                 ))}
               </tr>
@@ -54,7 +77,7 @@ export function ArticleBody({body}:{body:string|null|undefined}){
                 <tr key={rIdx} style={{ borderBottom: '1px solid rgba(0, 0, 0, 0.06)' }}>
                   {row.map((cell, cIdx) => (
                     <td key={cIdx} style={{ padding: '0.75rem 1rem', border: '1px solid rgba(0, 0, 0, 0.08)' }}>
-                      {inline(cell)}
+                      {inline(translateArticleText(cell, locale))}
                     </td>
                   ))}
                 </tr>
@@ -110,7 +133,7 @@ export function ArticleBody({body}:{body:string|null|undefined}){
     }
     if (line.startsWith('- ')) {
       flushTable()
-      bullets.push(line.slice(2))
+      bullets.push(translateArticleText(line.slice(2), locale))
       return
     }
     flush()
@@ -129,10 +152,10 @@ export function ArticleBody({body}:{body:string|null|undefined}){
       )
       return
     }
-    if (line.startsWith('### ')) nodes.push(<h3 key={i}>{inline(line.slice(4))}</h3>)
-    else if (line.startsWith('## ')) nodes.push(<h2 key={i}>{inline(line.slice(3))}</h2>)
-    else if (line.startsWith('> ')) nodes.push(<blockquote key={i}>{inline(line.slice(2))}</blockquote>)
-    else nodes.push(<p key={i}>{inline(line)}</p>)
+    if (line.startsWith('### ')) nodes.push(<h3 key={i}>{inline(translateArticleText(line.slice(4), locale))}</h3>)
+    else if (line.startsWith('## ')) nodes.push(<h2 key={i}>{inline(translateArticleText(line.slice(3), locale))}</h2>)
+    else if (line.startsWith('> ')) nodes.push(<blockquote key={i}>{inline(translateArticleText(line.slice(2), locale))}</blockquote>)
+    else nodes.push(<p key={i}>{inline(translateArticleText(line, locale))}</p>)
   })
   flush()
   return <div className="articleCopy structuredArticleCopy">{nodes}</div>

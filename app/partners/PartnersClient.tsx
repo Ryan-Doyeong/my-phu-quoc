@@ -6,12 +6,15 @@ import { Logo } from '@/components/Logo';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 import { submitPartnerApplication } from './actions';
 import { localePath, type Locale } from '@/lib/i18n/config';
-import { getDictionary } from '@/lib/i18n/dictionaries';
+import { getDictionary, displayBusinessName } from '@/lib/i18n/dictionaries';
+import { tUi } from '@/lib/i18n/uiStrings';
 
 type Business = {
   id: string;
   public_name: string;
   slug: string;
+  name_en?: string;
+  name_local?: string;
 };
 
 type Props = {
@@ -23,7 +26,7 @@ type Props = {
 const VALID_SLOTS = ['featured', 'food', 'fitness', 'cafe', 'community'] as const;
 type SlotKey = (typeof VALID_SLOTS)[number];
 
-function getStartMonthOptions() {
+function getStartMonthOptions(locale: Locale = 'en') {
   const options = [];
   const now = new Date();
   for (let i = 1; i <= 6; i++) {
@@ -34,7 +37,21 @@ function getStartMonthOptions() {
     const en = d.toLocaleString('en-US', { month: 'long', year: 'numeric' });
     const vi = `Tháng ${month}/${year}`;
     const ko = `${year}년 ${Number(month)}월`;
-    options.push({ value, en, vi, ko });
+    const localized =
+      locale === 'vi'
+        ? vi
+        : locale === 'ko'
+        ? ko
+        : locale === 'zh'
+        ? `${year}年${Number(month)}月`
+        : locale === 'ja'
+        ? `${year}年${Number(month)}月`
+        : locale === 'ru'
+        ? d.toLocaleString('ru-RU', { month: 'long', year: 'numeric' })
+        : locale === 'hi'
+        ? d.toLocaleString('hi-IN', { month: 'long', year: 'numeric' })
+        : en;
+    options.push({ value, en, vi, ko, label: localized });
   }
   return options;
 }
@@ -53,11 +70,18 @@ export function PartnersClient({ initialLang, initialSlot, businesses }: Props) 
   const [submitting, setSubmitting] = useState<boolean>(false);
   const [errorMsg, setErrorMsg] = useState<string>('');
   const [renderTime] = useState(() => Date.now());
-  const startMonthOptions = getStartMonthOptions();
+  const startMonthOptions = getStartMonthOptions(lang);
 
   const isVi = lang === 'vi';
   const isKo = lang === 'ko';
-  const t = <T,>(enVal: T, viVal: T, koVal: T): T => (isVi ? viVal : isKo ? koVal : enVal);
+  const t = <T,>(enVal: T, viVal: T, koVal: T): T => {
+    if (isVi) return viVal;
+    if (isKo) return koVal;
+    if (typeof enVal === 'string' && (lang === 'zh' || lang === 'ru' || lang === 'ja' || lang === 'hi')) {
+      return (tUi(enVal, lang) as unknown) as T;
+    }
+    return enVal;
+  };
 
   useEffect(() => {
     if (normalizedInitialSlot) {
@@ -725,7 +749,7 @@ export function PartnersClient({ initialLang, initialSlot, businesses }: Props) 
                     </option>
                     {businesses.map((b) => (
                       <option key={b.id} value={b.id}>
-                        {b.public_name}
+                        {displayBusinessName(b, lang)}
                       </option>
                     ))}
                     <option value="unlisted">
@@ -894,7 +918,7 @@ export function PartnersClient({ initialLang, initialSlot, businesses }: Props) 
                     </option>
                     {startMonthOptions.map((opt) => (
                       <option key={opt.value} value={opt.value}>
-                        {t(opt.en, opt.vi, opt.ko)}
+                        {opt.label || t(opt.en, opt.vi, opt.ko)}
                       </option>
                     ))}
                   </select>

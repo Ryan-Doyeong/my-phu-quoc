@@ -10,6 +10,7 @@ import { MobileMenu } from '@/components/MobileMenu'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { SunsetTownTickets } from '@/components/SunsetTownTickets'
 import { SunsetDistrictFilter } from '@/components/SunsetDistrictFilter'
+import { MAIN_ZONES, INTER_ZONE_TRANSIT } from '@/lib/zones'
 import { SunsetTownMap } from '@/components/SunsetTownMapClient'
 import {
   DIRECTORY_CATEGORIES,
@@ -22,10 +23,56 @@ import {
   type DirectoryCategory,
 } from '@/lib/directory'
 import { STOCK_IMAGES } from '@/lib/stockImages'
+import { tUi } from '@/lib/i18n/uiStrings'
 import { imageUrl } from '@/lib/imageUrl'
 import type { HomeSections } from '@/lib/homeSections'
 import { localePath, dateLocaleFor, type Locale } from '@/lib/i18n/config'
 import { getDictionary, localizeStory, translateTerm } from '@/lib/i18n/dictionaries'
+
+const HOME_NAV_SUNSET: Record<string, string> = {
+  ko: '선셋타운',
+  en: 'Sunset Town',
+  zh: 'Sunset Town',
+  ru: 'Sunset Town',
+  ja: 'Sunset Town',
+  hi: 'Sunset Town',
+}
+
+const HOME_NAV_KHEM: Record<string, string> = {
+  ko: '켐비치',
+  en: 'Khem Beach',
+  zh: 'Khem Beach',
+  ru: 'Khem Beach',
+  ja: 'Khem Beach',
+  hi: 'Khem Beach',
+}
+
+const TWO_HUBS_EYEBROW: Record<string, string> = {
+  ko: 'TWO HUBS · 2대 구역',
+  en: 'TWO HUBS · DUAL ZONES',
+  zh: '两大区域',
+  ru: 'Две основные зоны',
+  ja: '2つの主要エリア',
+  hi: 'दो प्रमुख क्षेत्र',
+}
+
+const TWO_HUBS_TITLE: Record<string, string> = {
+  ko: '선셋타운 & 켐비치',
+  en: 'Sunset Town & Khem Beach',
+  zh: 'Sunset Town 与 Khem Beach',
+  ru: 'Sunset Town и Khem Beach',
+  ja: 'Sunset TownとKhem Beach',
+  hi: 'Sunset Town और Khem Beach',
+}
+
+const TWO_HUBS_DESC: Record<string, string> = {
+  ko: '저녁·야경 중심의 선셋타운과 낮·해변 중심의 켐비치는 차량으로 약 10분 거리입니다.',
+  en: 'Sunset Town for evenings and night views, Khem Beach for daytime beach relaxation — about 10 minutes apart by car.',
+  zh: 'Sunset Town 以傍晚活动和夜景为主，Khem Beach 适合白天的海滩休闲。两地车程约10分钟。',
+  ru: 'Sunset Town — для вечернего отдыха и ночных видов, а Khem Beach — для дневного отдыха на пляже. Между ними около 10 минут на машине.',
+  ja: '夕方と夜景が中心の Sunset Town と、昼間のビーチでのんびり過ごせる Khem Beach。両エリア間は車で約10分です。',
+  hi: 'Sunset Town शाम और रात के नज़ारों के लिए, जबकि Khem Beach दिन में समुद्र तट पर आराम करने के लिए है। दोनों के बीच कार से लगभग 10 मिनट लगते हैं।',
+}
 
 type Story = {
   id: string
@@ -76,42 +123,49 @@ const fallbackStories = [
   },
 ]
 
-function sanitizeFireworksTiming(text: string): string {
+function sanitizeFireworksTiming(text: string, locale: Locale = 'en'): string {
   if (!text) return ''
   let t = text
-  // 1. 한국어
-  t = t.replace(/매일\s*밤\s*21시\s*30분\s*터지는\s*불꽃놀이/g, '불꽃놀이 피날레(운영 일정은 공식 공지 확인)')
-  t = t.replace(/매일\s*밤\s*21:30/g, '공연 피날레')
-  t = t.replace(/21시\s*30분\s*불꽃놀이/g, '불꽃놀이 피날레')
-  t = t.replace(/21시\s*30분/g, '공연 피날레(공식 공지 확인)')
-  t = t.replace(/21:30/g, '공연 피날레(공식 공지 확인)')
-  t = t.replace(/매일\s*밤\s*불꽃놀이/g, '불꽃놀이 쇼')
-
-  // 2. 영어
-  t = t.replace(/for the 21:30 fireworks/gi, 'for the fireworks finale (check official schedule)')
-  t = t.replace(/the 21:30 fireworks/gi, 'the fireworks finale (check official schedule)')
-  t = t.replace(/21:30 fireworks/gi, 'fireworks finale (check official schedule)')
-  t = t.replace(/Nightly Fireworks/gi, 'Fireworks Finale')
-
-  // 3. 베트남어
-  t = t.replace(/lúc 21:30/gi, 'cuối show diễn (xem thông báo chính thức)')
-  t = t.replace(/21:30/gi, 'cuối show (xem lịch chính thức)')
-  t = t.replace(/Pháo Hoa Hàng Đêm/gi, 'Pháo Hoa Biển')
-
-  // 4. 러시아어
-  t = t.replace(/21:30/gi, 'в финале шоу (уточняйте расписание)')
-
-  // 5. 일본어
-  t = t.replace(/21:30/gi, 'フィナーレ花火（公式スケジュール確認）')
-  t = t.replace(/毎晩/g, '公演')
-
-  // 6. 중국어
-  t = t.replace(/21:30/gi, '压轴烟花秀（以官方最新公告为准）')
-  t = t.replace(/每晚/g, '演出')
-
-  // 7. 힌디어
-  t = t.replace(/21:30/gi, 'आतिशबाजी (आधिकारिक समय सारिणी देखें)')
-
+  if (locale === 'ko') {
+    t = t.replace(/매일\s*밤\s*21시\s*30분\s*터지는\s*불꽃놀이/g, '불꽃놀이 피날레(운영 일정은 공식 공지 확인)')
+    t = t.replace(/매일\s*밤\s*21:30/g, '공연 피날레')
+    t = t.replace(/21시\s*30분\s*불꽃놀이/g, '불꽃놀이 피날레')
+    t = t.replace(/21시\s*30분/g, '공연 피날레(공식 공지 확인)')
+    t = t.replace(/21:30/g, '공연 피날레(공식 공지 확인)')
+    t = t.replace(/매일\s*밤\s*불꽃놀이/g, '불꽃놀이 쇼')
+    return t
+  }
+  if (locale === 'en') {
+    t = t.replace(/for the 21:30 fireworks/gi, 'for the fireworks finale (check official schedule)')
+    t = t.replace(/the 21:30 fireworks/gi, 'the fireworks finale (check official schedule)')
+    t = t.replace(/21:30 fireworks/gi, 'fireworks finale (check official schedule)')
+    t = t.replace(/Nightly Fireworks/gi, 'Fireworks Finale')
+    return t
+  }
+  if (locale === 'vi') {
+    t = t.replace(/lúc 21:30/gi, 'cuối show diễn (xem thông báo chính thức)')
+    t = t.replace(/21:30/gi, 'cuối show (xem lịch chính thức)')
+    t = t.replace(/Pháo Hoa Hàng Đêm/gi, 'Pháo Hoa Biển')
+    return t
+  }
+  if (locale === 'ru') {
+    t = t.replace(/21:30/gi, 'в финале шоу (уточняйте расписание)')
+    return t
+  }
+  if (locale === 'ja') {
+    t = t.replace(/21:30/gi, 'フィナーレ花火（公式スケジュール確認）')
+    t = t.replace(/毎晩/g, '公演')
+    return t
+  }
+  if (locale === 'zh') {
+    t = t.replace(/21:30/gi, '压轴烟花秀（以官方最新公告为准）')
+    t = t.replace(/每晚/g, '演出')
+    return t
+  }
+  if (locale === 'hi') {
+    t = t.replace(/21:30/gi, 'आतिशबाजी (आधिकारिक समय सारिणी देखें)')
+    return t
+  }
   return t
 }
 
@@ -146,17 +200,17 @@ export function HomePage({
     ? stories.slice(0, 4).map((raw, i) => {
         const s = localizeStory(raw, locale)
         return {
-          title: sanitizeFireworksTiming(s.title),
+          title: sanitizeFireworksTiming(s.title, locale),
           category: s.category || fallbackStories[i]?.category || 'COMMUNITY',
-          excerpt: sanitizeFireworksTiming(s.excerpt || fallbackStories[i]?.excerpt || ''),
+          excerpt: sanitizeFireworksTiming(s.excerpt || fallbackStories[i]?.excerpt || '', locale),
           image: s.cover_image_url,
           slug: s.slug,
         }
       })
     : fallbackStories.map((x, i) => ({
         ...x,
-        title: sanitizeFireworksTiming(x.title),
-        excerpt: sanitizeFireworksTiming(x.excerpt),
+        title: sanitizeFireworksTiming(x.title, locale),
+        excerpt: sanitizeFireworksTiming(x.excerpt, locale),
         slug: `fallback-${i}`,
       }))
 
@@ -209,15 +263,23 @@ export function HomePage({
       <header className="siteHeader heroHeader">
         <Logo locale={locale} />
         <nav className="desktopNav">
-          <a href="#discover">{dict.nav.discover}</a>
-          {DIRECTORY_CATEGORY_KEYS.map((key) => (
-            <Link href={localePath(locale, `/directory/${key}`)} key={key}>
-              {categoryLabel(key, locale)}
-            </Link>
-          ))}
+          <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
+          <Link href={localePath(locale, '/zones/sunset-town')}>
+            {HOME_NAV_SUNSET[locale] || HOME_NAV_SUNSET.en}
+          </Link>
+          <Link href={localePath(locale, '/zones/khem-beach')}>
+            {HOME_NAV_KHEM[locale] || HOME_NAV_KHEM.en}
+          </Link>
+          <Link href={localePath(locale, '/directory/dining')}>
+            {categoryLabel('dining', locale)}
+          </Link>
+          <Link href={localePath(locale, '/directory/bars')}>
+            {categoryLabel('bars', locale)}
+          </Link>
+          <Link href={localePath(locale, '/directory/hotels')}>
+            {categoryLabel('hotels', locale)}
+          </Link>
           <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
-          <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
-          <Link href={localePath(locale, '/impact')}>{dict.nav.impact}</Link>
           <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
         </nav>
         <div className="headerActions">
@@ -406,8 +468,110 @@ export function HomePage({
           </section>
         )}
 
-        {/* [업무 지시 · Claude] SUNSET TOWN 6 QUARTERS / Explore Sunset Town by District 섹션 숨김 처리 (복구 시 주석 해제) */}
-        {/* <SunsetDistrictFilter locale={locale} /> */}
+        {/* [확정 지시 · Claude] TWO HUBS · 2대 구역 섹션 (선셋타운 & 켐비치) */}
+        <section className="shell twoZonesSection" id="two-zones">
+          <div className="sectionHeader">
+            <span className="hubEyebrow">
+              {TWO_HUBS_EYEBROW[locale] || TWO_HUBS_EYEBROW.en}
+            </span>
+            <h3>
+              {TWO_HUBS_TITLE[locale] || TWO_HUBS_TITLE.en}
+            </h3>
+            <p>
+              {TWO_HUBS_DESC[locale] || TWO_HUBS_DESC.en}
+            </p>
+          </div>
+
+          <div className="dualGrid">
+            {/* Card 1: Sunset Town */}
+            <div className="hubCard sunset">
+              <div
+                className="hubCardImage"
+                style={{
+                  backgroundImage: `url('${MAIN_ZONES['sunset-town'].heroImage}')`,
+                }}
+              >
+                <span className="hubCardBadge">
+                  {MAIN_ZONES['sunset-town'].badge[locale] || MAIN_ZONES['sunset-town'].badge.en}
+                </span>
+              </div>
+              <div className="hubCardBody">
+                <div className="hubCardTitleRow">
+                  <h4>{MAIN_ZONES['sunset-town'].name[locale] || MAIN_ZONES['sunset-town'].name.en}</h4>
+                  <span>{MAIN_ZONES['sunset-town'].nameLocal}</span>
+                </div>
+                <div className="hubSubConcept">
+                  {MAIN_ZONES['sunset-town'].subConcept[locale] || MAIN_ZONES['sunset-town'].subConcept.en}
+                </div>
+                <p className="hubCardDesc">
+                  {MAIN_ZONES['sunset-town'].homeDescription[locale] || MAIN_ZONES['sunset-town'].homeDescription.en}
+                </p>
+                <div className="hubFeatureChips">
+                  {(MAIN_ZONES['sunset-town'].featureChips[locale] || MAIN_ZONES['sunset-town'].featureChips.en).map((chip, idx) => (
+                    <span key={idx}>{chip}</span>
+                  ))}
+                </div>
+                <Link
+                  href={localePath(locale, '/zones/sunset-town')}
+                  className="hubButton"
+                >
+                  <span>{MAIN_ZONES['sunset-town'].ctaButton[locale] || MAIN_ZONES['sunset-town'].ctaButton.en}</span>
+                </Link>
+              </div>
+            </div>
+
+            {/* Card 2: Khem Beach */}
+            <div className="hubCard khem">
+              <div
+                className="hubCardImage"
+                style={{
+                  backgroundImage: `url('${MAIN_ZONES['khem-beach'].heroImage}')`,
+                }}
+              >
+                <span className="hubCardBadge">
+                  {MAIN_ZONES['khem-beach'].badge[locale] || MAIN_ZONES['khem-beach'].badge.en}
+                </span>
+              </div>
+              <div className="hubCardBody">
+                <div className="hubCardTitleRow">
+                  <h4>{MAIN_ZONES['khem-beach'].name[locale] || MAIN_ZONES['khem-beach'].name.en}</h4>
+                  <span>{MAIN_ZONES['khem-beach'].nameLocal}</span>
+                </div>
+                <div className="hubSubConcept">
+                  {MAIN_ZONES['khem-beach'].subConcept[locale] || MAIN_ZONES['khem-beach'].subConcept.en}
+                </div>
+                <p className="hubCardDesc">
+                  {MAIN_ZONES['khem-beach'].homeDescription[locale] || MAIN_ZONES['khem-beach'].homeDescription.en}
+                </p>
+                <div className="hubFeatureChips">
+                  {(MAIN_ZONES['khem-beach'].featureChips[locale] || MAIN_ZONES['khem-beach'].featureChips.en).map((chip, idx) => (
+                    <span key={idx}>{chip}</span>
+                  ))}
+                </div>
+                <Link
+                  href={localePath(locale, '/zones/khem-beach')}
+                  className="hubButton"
+                >
+                  <span>{MAIN_ZONES['khem-beach'].ctaButton[locale] || MAIN_ZONES['khem-beach'].ctaButton.en}</span>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Transit Bridge */}
+          <div className="interZoneBridge">
+            <div className="bridgeLeft">
+              <div className="bridgeIcon">⇄</div>
+              <div className="bridgeText">
+                <h5>{INTER_ZONE_TRANSIT.headline[locale] || INTER_ZONE_TRANSIT.headline.en}</h5>
+                <p>{INTER_ZONE_TRANSIT.description[locale] || INTER_ZONE_TRANSIT.description.en}</p>
+              </div>
+            </div>
+            <div className="bridgeInfoBadge">
+              {INTER_ZONE_TRANSIT.badge[locale] || INTER_ZONE_TRANSIT.badge.en}
+            </div>
+          </div>
+        </section>
 
         {/* [2026-10-27 개편] 선셋타운 지도 & 12대 핵심 명소 바로가기 컴팩트 카드 (상세 본문은 /map 페이지로 분리) */}
         <section className="shell sunsetTownMapPromoSection" id="map-preview">
@@ -438,7 +602,7 @@ export function HomePage({
                 cta: '查看日落小镇地图与12大地标 →',
               },
               ja: {
-                badge: 'MAP & 12 LANDMARKS',
+                badge: 'マップ＆12大名所',
                 title: 'サンセットタウン案内マップ＆12大名所ガイド',
                 desc: 'キスブリッジ、75m時計台、海上ロープウェイなど、12大名所の見どころとストリート網をご案内。',
                 cta: 'サンセットタウン地図＆12大名所を見る →',
@@ -470,7 +634,9 @@ export function HomePage({
                 <div className="sunsetMapPromoGraphic">
                   <Link href={localePath(locale, '/map')} className="sunsetMapPromoThumbnail" aria-label={pt.cta}>
                     <span style={{ fontSize: '38px' }}>🗺️</span>
-                    <span style={{ fontSize: '11.5px', fontWeight: 800, letterSpacing: '0.04em' }}>INTERACTIVE MAP</span>
+                    <span style={{ fontSize: '11.5px', fontWeight: 800, letterSpacing: '0.04em' }}>
+                      {tUi('INTERACTIVE MAP', locale)}
+                    </span>
                   </Link>
                 </div>
               </div>

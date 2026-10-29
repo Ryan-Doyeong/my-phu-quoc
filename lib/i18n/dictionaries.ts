@@ -13,6 +13,8 @@ import { zh } from './locales/zh'
 import { ru } from './locales/ru'
 import { ko } from './locales/ko'
 import { ja } from './locales/ja'
+import bizDescTranslations from '@/data/i18n/translations/biz_desc.json'
+import { tUi, tUiById } from './uiStrings'
 
 export type { Dictionary } from './dictionaryTypes'
 
@@ -23,7 +25,7 @@ export type LocalizedText = Partial<Record<Exclude<Locale, 'en'>, string>>
 const BADGE_MAP: Record<string, LocalizedText> = {
   recommended: { vi: 'Đề xuất', hi: 'अनुशंसित', zh: '推荐', ru: 'Рекомендуем', ko: '추천', ja: 'おすすめ' },
   new: { vi: 'Mới', hi: 'नया', zh: '新店', ru: 'Новое', ko: '신규', ja: '新着' },
-  hot: { vi: 'HOT', hi: 'HOT', zh: '热门', ru: 'HOT', ko: '인기(HOT)', ja: '人気' },
+  hot: { vi: 'HOT', hi: 'लोकप्रिय', zh: '热门', ru: 'Популярное', ko: '인기(HOT)', ja: '人気' },
   'hello sunset town member': {
     vi: 'Thành viên My Phu Quoc',
     hi: 'My Phu Quoc सदस्य',
@@ -334,7 +336,10 @@ export function translateTerm(term: string | null | undefined, locale: Locale = 
   }
   const normalized = term.trim().toLowerCase()
   const entry = TERM_GLOSSARY[normalized]
-  return entry?.[locale] || subcat || term
+  if (entry?.[locale]) return entry[locale]!
+  const ui = tUi(term, locale)
+  if (ui && ui !== term) return ui
+  return subcat || term
 }
 
 // 3. 페이지별 전체 UI 사전 — 언어별 파일은 ./locales/*.ts (베트남어 vi 사전 보존)
@@ -357,16 +362,54 @@ function deepMerge(base: Record<string, unknown>, override: Record<string, unkno
   return out
 }
 
+function translateDictionaryTree(obj: any, locale: Locale): any {
+  if (typeof obj === 'string') {
+    return tUi(obj, locale)
+  }
+  if (Array.isArray(obj)) {
+    return obj.map((item) => translateDictionaryTree(item, locale))
+  }
+  if (typeof obj === 'object' && obj !== null) {
+    const res: Record<string, any> = {}
+    for (const [k, v] of Object.entries(obj)) {
+      res[k] = translateDictionaryTree(v, locale)
+    }
+    return res
+  }
+  return obj
+}
+
 const MERGED_CACHE = new Map<Locale, Dictionary>()
 
-/** 언어별 사전 (빠진 키는 영어로 자동 대체) */
+/** 언어별 사전 (빠진 키는 영어로 자동 대체, zh/ru/ja/hi는 ui_strings 보강) */
 export function getDictionary(locale: Locale = 'en'): Dictionary {
   const cached = MERGED_CACHE.get(locale)
   if (cached) return cached
   const base = en as unknown as Record<string, unknown>
-  const merged = (
+  let merged = (
     locale === 'en' ? en : deepMerge(base, DICTIONARIES[locale] as Record<string, unknown> | undefined)
   ) as unknown as Dictionary
+
+  if (locale === 'zh' || locale === 'ru' || locale === 'ja' || locale === 'hi') {
+    merged = translateDictionaryTree(merged, locale) as Dictionary
+    if (merged.intake) {
+      const origPhotoSelected = merged.intake.photoSelected
+      merged = {
+        ...merged,
+        intake: {
+          ...merged.intake,
+          photoSelected: (n: number) => {
+            if (locale === 'zh') return `已选择 ${n} 张`
+            if (locale === 'ru') return `Выбрано: ${n}`
+            if (locale === 'ja') return `${n}枚 選択中`
+            if (locale === 'hi') return `${n} फ़ोटो चुनी गई`
+            return origPhotoSelected ? origPhotoSelected(n) : `${n} selected`
+          },
+        },
+      } as Dictionary
+    }
+  }
+
   MERGED_CACHE.set(locale, merged)
   return merged
 }
@@ -489,15 +532,40 @@ export function localizeStory(story: any, locale: Locale = 'en') {
   const callout = story.callout || null
   const heroCaption = story.hero_caption || null
 
+  const ESSENTIAL_GUIDE_UI_MAP: Record<string, { title: string; excerpt: string; category: string }> = {
+    'hon-thom-cable-car-day-trip': { title: 'U47', excerpt: 'U32', category: 'U110' },
+    'kiss-of-the-sea-show-fireworks': { title: 'U57', excerpt: 'U34', category: 'U99' },
+    'vui-fest-bazaar-night-market-food': { title: 'U112', excerpt: 'U36', category: 'U68' },
+  }
+
+  const isAsianOrRu = locale === 'zh' || locale === 'ru' || locale === 'ja' || locale === 'hi'
+  const guideMap = isAsianOrRu && story.slug ? ESSENTIAL_GUIDE_UI_MAP[story.slug] : null
+
+  const title = guideMap
+    ? tUiById(guideMap.title, locale)
+    : isAsianOrRu
+    ? tUi(story.title || '', locale)
+    : story.title
+  const excerpt = guideMap
+    ? tUiById(guideMap.excerpt, locale)
+    : isAsianOrRu && story.excerpt
+    ? tUi(story.excerpt, locale)
+    : story.excerpt || null
+  const category = guideMap
+    ? tUiById(guideMap.category, locale)
+    : isAsianOrRu && story.category
+    ? tUi(story.category, locale)
+    : story.category || null
+
   return {
     ...story,
-    title: story.title,
+    title,
     title_en: titleEn,
     subtitle: story.subtitle || null,
-    excerpt: story.excerpt || null,
+    excerpt,
     excerpt_en: excerptEn,
     body: story.body_en || '',
-    category: story.category || null,
+    category,
     category_en: categoryEn,
     seo_title: seoTitle,
     seo_description: seoDescription,
@@ -518,12 +586,136 @@ export function localizeStory(story: any, locale: Locale = 'en') {
 }
 
 // 업체(Business) 소개글 선택 헬퍼
-// - 자동번역 절대 없음. 업체가 직접 해당 언어 소개(description_xx)를 등록해 둔 경우에만 표시하고, 없으면 영어 원문 표시
+// - zh/ru/ja/hi: translations/biz_desc[b.slug][locale] 우선 → 없으면 description_en. 비한국어 locale에서 description_ko 로 폴백하지 않음(한글 노출 금지).
+// - ko/en/vi: 기존 동작 유지
 export function selectBusinessDescription(b: any, locale: Locale = 'en'): string | null {
   if (!b) return null
+
+  // 1. zh / ru / ja / hi: 교정 번역본 우선 → 없으면 description_en (description_ko 폴백 금지)
+  if (locale === 'zh' || locale === 'ru' || locale === 'ja' || locale === 'hi') {
+    const slug = b.slug
+    if (slug) {
+      const trans = (bizDescTranslations as Record<string, Record<string, string>>)[slug]?.[locale]
+      if (hasText(trans)) return String(trans).trim()
+    }
+    const v = b[`description_${locale}`]
+    if (hasText(v)) return String(v).trim()
+    let desc = b.description_en || null
+    if (desc && HANGUL_REGEX.test(desc)) {
+      if (b.name_local && LATIN_REGEX.test(b.name_local) && !HANGUL_REGEX.test(b.name_local)) {
+        desc = desc.replace(b.public_name || '', b.name_local)
+      } else if (b.google_maps_name && LATIN_REGEX.test(b.google_maps_name) && !HANGUL_REGEX.test(b.google_maps_name)) {
+        desc = desc.replace(b.public_name || '', b.google_maps_name)
+      }
+    }
+    return desc
+  }
+
+  // 2. 기존 ko / en / vi 동작 유지
   if (locale !== 'en') {
     const v = b[`description_${locale}`]
     if (hasText(v)) return String(v).trim()
   }
   return b.description_en || b.description_vi || b.description_ko || null
+}
+
+const HANGUL_REGEX = /[\uac00-\ud7a3]/
+const LATIN_REGEX = /[a-zA-Z]/
+
+function cleanBusinessName(raw: string): string {
+  if (!raw) return ''
+  if (!HANGUL_REGEX.test(raw)) {
+    return raw.trim()
+  }
+
+  // 1) 'A (B)' 형태인지 확인
+  const match = raw.match(/^(.*?)\s*[\(\（](.*?)[\)\）]\s*$/)
+  if (match && match[2]) {
+    const inside = match[2].trim()
+    if (LATIN_REGEX.test(inside)) {
+      let cleanedB = inside.replace(/[\uac00-\ud7a3]+/g, '')
+      cleanedB = cleanedB.replace(/\s*[\-_/|]+\s*/g, ' ')
+      cleanedB = cleanedB.replace(/\s+/g, ' ').trim()
+      cleanedB = cleanedB.replace(/^[,\s\-_/.:;]+|[,\s\-_/.:;]+$/g, '').trim()
+      if (cleanedB && LATIN_REGEX.test(cleanedB)) {
+        return cleanedB
+      }
+    }
+  }
+
+  // 2) 한글 제거 및 구분자 정리
+  let cleaned = raw.replace(/[\uac00-\ud7a3]+/g, '')
+  cleaned = cleaned.replace(/[\(\[\{]\s*[\)\]\}]/g, '')
+  cleaned = cleaned.replace(/\s*[\-_/|]+\s*/g, ' ')
+  cleaned = cleaned.replace(/\s+/g, ' ').trim()
+  cleaned = cleaned.replace(/^[,\s\-_/.:;&]+|[,\s\-_/.:;&]+$/g, '').trim()
+
+  // 3) 문자가 남아있으면 반환 (특수기호만 남은 경우 제외), 비어있으면 원문 유지
+  if (cleaned && (LATIN_REGEX.test(cleaned) || /[a-zA-Z0-9\u00C0-\u024F\u1EA0-\u1EF9\u4e00-\u9fa5\u0400-\u04FF\u0900-\u097F]/.test(cleaned))) {
+    return cleaned
+  }
+
+  return raw
+}
+
+const SPECIAL_VENUE_NAMES: Record<string, { en: string; ko: string }> = {
+  'sunset-place': {
+    ko: '푸꾸옥 뚱보집 선셋타운점 (한식당)',
+    en: 'Phu Quoc Ttungbojip Sunset Town (Korean Restaurant)',
+  },
+  'mimi-fruits-mart': {
+    ko: '미미프루츠 & 미미편의점 (선셋타운 전 구역 배달)',
+    en: 'Mimi Fruits & Mimi Mini Mart (Delivery across Sunset Town)',
+  },
+  'sunset-place-9': {
+    ko: '솔라나 스파',
+    en: 'SOLANA Spa Sunset Town Phú Quốc',
+  },
+}
+
+/**
+ * 비-한국어 로케일에서 한글 업체명 제거 및 라틴 표기 정제 헬퍼
+ * - ko 로케일: 기존 그대로 반환
+ * - 비-ko 로케일:
+ *   1) b가 객체일 때 SPECIAL_VENUE_NAMES 우선 매핑
+ *   2) name_en, name_local, google_maps_name 우선 사용
+ *   3) 'A (B)' 형태면 B에 라틴 문자가 있을 때 B 사용
+ *   4) 한글을 제거하고 구분자(괄호, 하이픈, 공백) 정리
+ */
+export function displayBusinessName(b: any, locale: Locale = 'en'): string {
+  if (!b) return ''
+  const slug = typeof b === 'object' ? (b.slug || '') : ''
+  if (slug && SPECIAL_VENUE_NAMES[slug]) {
+    return locale === 'ko' ? SPECIAL_VENUE_NAMES[slug].ko : SPECIAL_VENUE_NAMES[slug].en
+  }
+  if (typeof b === 'string') {
+    for (const item of Object.values(SPECIAL_VENUE_NAMES)) {
+      if (b === item.ko || b === item.en) {
+        return locale === 'ko' ? item.ko : item.en
+      }
+    }
+  }
+
+  if (locale === 'ko') {
+    return typeof b === 'string' ? b : (b.public_name || b.name || '')
+  }
+
+  // 비-한국어: b가 객체일 때 name_en, name_local 또는 google_maps_name 우선
+  if (typeof b === 'object') {
+    if (b.name_en && LATIN_REGEX.test(b.name_en)) {
+      return cleanBusinessName(b.name_en)
+    }
+    if (b.name_local && LATIN_REGEX.test(b.name_local) && !HANGUL_REGEX.test(b.name_local)) {
+      return cleanBusinessName(b.name_local)
+    }
+    if (b.google_maps_name && LATIN_REGEX.test(b.google_maps_name)) {
+      const cleanedG = cleanBusinessName(b.google_maps_name)
+      if (cleanedG && LATIN_REGEX.test(cleanedG) && !HANGUL_REGEX.test(cleanedG)) {
+        return cleanedG
+      }
+    }
+  }
+
+  const raw = typeof b === 'string' ? b : (b.public_name || b.name || '')
+  return cleanBusinessName(raw)
 }

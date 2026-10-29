@@ -1,0 +1,602 @@
+[
+  {
+    "name_original": "Venice Juice",
+    "name_ko": "베니스 시그니처 주스",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Venice Signature Fresh Juice",
+    "name_zh": "威尼斯招牌鲜榨果汁",
+    "name_ru": "Фирменный свежевыжатый сок Venice",
+    "name_ja": "ヴェニス シグネチャージュース",
+    "name_hi": "वेनिस सिग्नेचर फ्रेश जूस"
+  },
+  {
+    "name_original": "Golden Roots Elixir",
+    "name_ko": "골든 루츠 엘릭서 (진저 허니 레몬그라스)",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Golden Roots Elixir (Ginger, Honey, Lemongrass)",
+    "name_zh": "金根甘露 (生姜、蜂蜜、柠檬草)",
+    "name_ru": "Эликсир Golden Roots (имбирь, мед, лемонграсс)",
+    "name_ja": "ゴールデンルーツ・エリクサー (生姜・蜂蜜・レモングラス)",
+    "name_hi": "गोल्डन रूट्स एलिक्सिर (अदरक, शहद, लेमनग्रास)"
+  },
+  {
+    "name_original": "Beach Bum",
+    "name_ko": "비치 범 코코넛 알로에",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Beach Bum Coconut Aloe Vera Drink",
+    "name_zh": "沙滩流浪椰香芦荟饮",
+    "name_ru": "Напиток Beach Bum с кокосом и алоэ",
+    "name_ja": "ビーチバム ココナッツ＆アロエ",
+    "name_hi": "बीच बम नारियल एलोवेरा पेय"
+  },
+  {
+    "name_original": "Summer in Venice",
+    "name_ko": "썸머 인 베니스 판단 레몬그라스",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Summer in Venice Pandan Lemongrass Drink",
+    "name_zh": "威尼斯之夏斑兰柠檬草饮",
+    "name_ru": "Напиток Summer in Venice с панданом и лемонграссом",
+    "name_ja": "サマー・イン・ヴェニス バンダン＆レモングラス",
+    "name_hi": "समर इन वेनिस पानदान लेमनग्रास पेय"
+  },
+  {
+    "name_original": "Fresh Juice",
+    "name_ko": "100% 착즙 생과일 주스",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "100% Fresh Squeezed Fruit Juice",
+    "name_zh": "100% 鲜榨纯果汁",
+    "name_ru": "100% свежевыжатый фруктовый сок",
+    "name_ja": "100% 搾りたて生フルーツジュース",
+    "name_hi": "100% ताज़ा निचोड़ा हुआ फलों का रस"
+  },
+  {
+    "name_original": "Green Zen Energy",
+    "name_ko": "그린 젠 에너지 말차 레몬",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Green Zen Energy Matcha Lemon",
+    "name_zh": "禅意绿能抹茶柠檬饮",
+    "name_ru": "Энергетический напиток Green Zen Energy с матча и лимоном",
+    "name_ja": "グリーンゼン・エナジー 抹茶レモン",
+    "name_hi": "ग्रीन ज़ेन एनर्जी माचा नींबू"
+  },
+  {
+    "name_original": "Passion Healthy",
+    "name_ko": "패션 헬시 치아시드 드링크",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Passion Healthy Chia Seed Drink",
+    "name_zh": "健康活力百香果奇亚籽饮",
+    "name_ru": "Освежающий напиток Passion Healthy с маракуйей и семенами чиа",
+    "name_ja": "パッション・ヘルシー チアシードドリンク",
+    "name_hi": "पैशन हेल्दी चिया सीड्स पेय"
+  },
+  {
+    "name_original": "Passionate Smoothie",
+    "name_ko": "패셔네이트 망고 패션 요거트 스무디",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Passionate Mango Passion Fruit Yogurt Smoothie",
+    "name_zh": "热带风情芒果百香果酸奶奶昔",
+    "name_ru": "Смузи Passionate с манго, маракуйей и йогуртом",
+    "name_ja": "パッショネート マンゴー＆パッションフルーツ ヨーグルトスムージー",
+    "name_hi": "पैशनेट आम पैशन फ्रूट योगर्ट स्मूदी"
+  },
+  {
+    "name_original": "Love Formula",
+    "name_ko": "러브 포뮬러 딸기 알로에 블렌디드",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Love Formula Strawberry Aloe Blended Drink",
+    "name_zh": "爱之秘方草莓芦荟冰沙",
+    "name_ru": "Смузи Love Formula с клубникой и алоэ",
+    "name_ja": "ラブ・フォーミュラ ストロベリー＆アロエ ブレンディッド",
+    "name_hi": "लव फॉर्मूला स्ट्रॉबेरी एलोवेरा ब्लेंडेड ड्रिंक"
+  },
+  {
+    "name_original": "Coma Tango",
+    "name_ko": "코마 탱고 망고 코코넛 블렌디드",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Coma Tango Mango Coconut Blended Drink",
+    "name_zh": "昏迷探戈芒果椰香冰沙",
+    "name_ru": "Смузи Coma Tango с манго и кокосом",
+    "name_ja": "コーマ・タンゴ マンゴー＆ココナッツ ブレンディッド",
+    "name_hi": "कोमा टैंगो आम नारियल ब्लेंडेड ड्रिंक"
+  },
+  {
+    "name_original": "Choco Blended",
+    "name_ko": "초코 블렌디드 프라페",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Chocolate Blended Frappe",
+    "name_zh": "巧克力冰沙星冰乐",
+    "name_ru": "Шоколадный фраппе",
+    "name_ja": "チョコブレンディッド・フラッペ",
+    "name_hi": "चॉकलेट ब्लेंडेड फ़्रैप्पे"
+  },
+  {
+    "name_original": "Matcha Blended",
+    "name_ko": "말차 블렌디드 프라페",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Matcha Blended Frappe",
+    "name_zh": "抹茶冰沙星冰乐",
+    "name_ru": "Матча фраппе",
+    "name_ja": "抹茶ブレンディッド・フラッペ",
+    "name_hi": "माचा ब्लेंडेड फ़्रैप्पे"
+  },
+  {
+    "name_original": "Caramel Mix",
+    "name_ko": "카라멜 믹스 요거트 블렌디드",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Caramel Mix Yogurt Blended Drink",
+    "name_zh": "焦糖混合酸奶冰沙",
+    "name_ru": "Смузи Caramel Mix с карамелью и йогуртом",
+    "name_ja": "キャラメルミックス ヨーグルトブレンディッド",
+    "name_hi": "कैरेमल मिक्स योगर्ट ब्लेंडेड ड्रिंक"
+  },
+  {
+    "name_original": "Beer 330 ml",
+    "name_ko": "베트남 로컬 맥주 (캔/병 330ml)",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Vietnamese Local Beer (Can/Bottle 330ml)",
+    "name_zh": "越南本地啤酒 (易拉罐/瓶装 330ml)",
+    "name_ru": "Вьетнамское местное пиво (банка/бутылка 330 мл)",
+    "name_ja": "ベトナム ローカルビール (缶/瓶 330ml)",
+    "name_hi": "वियतनामी स्थानीय बीयर (कैन/बोतल 330 मिली)"
+  },
+  {
+    "name_original": "Sapporo Draft",
+    "name_ko": "삿포로 생맥주",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Sapporo Draft Beer",
+    "name_zh": "札幌生啤酒",
+    "name_ru": "Разливное пиво Sapporo",
+    "name_ja": "サッポロ生ビール",
+    "name_hi": "सैपोरो ड्राफ्ट बीयर"
+  },
+  {
+    "name_original": "Mineral Water",
+    "name_ko": "프리미엄 미네랄 워터",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Premium Mineral Water",
+    "name_zh": "高级矿泉水",
+    "name_ru": "Минеральная вода премиум",
+    "name_ja": "プレミアムミネラルウォーター",
+    "name_hi": "प्रीमियम मिनरल वाटर"
+  },
+  {
+    "name_original": "Soft Drinks",
+    "name_ko": "탄산음료",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Soft Drinks",
+    "name_zh": "碳酸饮料",
+    "name_ru": "Безалкогольные газированные напитки",
+    "name_ja": "ソフトドリンク",
+    "name_hi": "शीतल पेय"
+  },
+  {
+    "name_original": "Sunset Kimbap",
+    "name_ko": "선셋김밥 (기본 야채김밥)",
+    "place_ids": [
+      "ChIJk-2CcACXpzERjAdWD6NvD-w"
+    ],
+    "name_en": "Sunset Kimbap (Vegetable Rice Roll)",
+    "name_zh": "日落紫菜包饭 (经典蔬菜)",
+    "name_ru": "Кимбап Сансет (классический с овощами)",
+    "name_ja": "サンセットキンパ (野菜キンパ)",
+    "name_hi": "सनसेट किम्बाप (सब्जी चावल रोल)"
+  },
+  {
+    "name_original": "Tuna Kimbap",
+    "name_ko": "참치김밥",
+    "place_ids": [
+      "ChIJk-2CcACXpzERjAdWD6NvD-w"
+    ],
+    "name_en": "Tuna Kimbap",
+    "name_zh": "金枪鱼紫菜包饭",
+    "name_ru": "Кимбап с тунцом",
+    "name_ja": "ツナキンパ",
+    "name_hi": "टूना किम्बाप"
+  },
+  {
+    "name_original": "Spicy Chili Kimbap",
+    "name_ko": "땡초김밥",
+    "place_ids": [
+      "ChIJk-2CcACXpzERjAdWD6NvD-w"
+    ],
+    "name_en": "Spicy Chili Pepper Kimbap",
+    "name_zh": "辣青椒紫菜包饭",
+    "name_ru": "Острый кимбап с перцем",
+    "name_ja": "青唐辛子キンパ",
+    "name_hi": "तीखा मिर्च किम्बाप"
+  },
+  {
+    "name_original": "Tteokbokki / Rabokki",
+    "name_ko": "떡볶이 / 라볶이",
+    "place_ids": [
+      "ChIJk-2CcACXpzERjAdWD6NvD-w"
+    ],
+    "name_en": "Tteokbokki / Rabokki (Spicy Rice Cakes / with Ramen)",
+    "name_zh": "辣炒年糕 / 拉面炒年糕",
+    "name_ru": "Токпокки / Рабокки (острые рисовые клецки / с рамёном)",
+    "name_ja": "トッポッキ / ラポッキ",
+    "name_hi": "तोकबोकी / राबोकी (तीखे चावल के केक / रेमन के साथ)"
+  },
+  {
+    "name_original": "Kimchi Cold Noodles",
+    "name_ko": "김치말이국수",
+    "place_ids": [
+      "ChIJk-2CcACXpzERjAdWD6NvD-w"
+    ],
+    "name_en": "Kimchi Cold Noodles",
+    "name_zh": "泡菜冷面",
+    "name_ru": "Холодная лапша с кимчи",
+    "name_ja": "キムチ素麺 (キムチマリククス)",
+    "name_hi": "किमची कोल्ड नूडल्स"
+  },
+  {
+    "name_original": "Korean Ramen",
+    "name_ko": "신라면 / 해물라면",
+    "place_ids": [
+      "ChIJk-2CcACXpzERjAdWD6NvD-w"
+    ],
+    "name_en": "Korean Ramen (Shin Ramyun / Seafood Ramen)",
+    "name_zh": "韩国拉面 (辛拉面 / 海鲜拉面)",
+    "name_ru": "Корейский рамён (Шин Рамён / с морепродуктами)",
+    "name_ja": "韓国ラーメン (辛ラーメン / 海鮮ラーメン)",
+    "name_hi": "कोरियन रेमन (शिन रेमन / सीफ़ूड रेमन)"
+  },
+  {
+    "name_original": "Spam Kimchi Cup Rice",
+    "name_ko": "스팸 김치 컵밥",
+    "place_ids": [
+      "ChIJk-2CcACXpzERjAdWD6NvD-w"
+    ],
+    "name_en": "Spam & Kimchi Cup Rice",
+    "name_zh": "午餐肉泡菜拌饭杯",
+    "name_ru": "Рис в стакане со спамом и кимчи (капбап)",
+    "name_ja": "スパムキムチカップご飯",
+    "name_hi": "स्पैम किमची कप राइस"
+  },
+  {
+    "name_original": "Kimchi Jjigae",
+    "name_ko": "김치찌개",
+    "place_ids": [
+      "ChIJk-2CcACXpzERjAdWD6NvD-w"
+    ],
+    "name_en": "Kimchi Jjigae (Kimchi Stew)",
+    "name_zh": "泡菜汤",
+    "name_ru": "Суп Кимчи чиге",
+    "name_ja": "キムチチゲ",
+    "name_hi": "किमची जिगे (किमची स्टू)"
+  },
+  {
+    "name_original": "Mì gà Kungfu (Chicken Hand-pulled Noodle)",
+    "name_ko": "쿵푸 닭고기 수타면 (담백한 육수)",
+    "place_ids": [
+      "ChIJ1-LOM_iVpzEReC2eAEZgchI"
+    ],
+    "name_en": "Kung Fu Chicken Hand-Pulled Noodles",
+    "name_zh": "功夫鸡肉拉面",
+    "name_ru": "Тянутая лапша кунг-фу с курицей",
+    "name_ja": "カンフー手延べチキンラーメン",
+    "name_hi": "कुंग फू चिकन हैंड-पुल नूडल्स"
+  },
+  {
+    "name_original": "Mì xá xíu Kungfu (Charsiu BBQ Pork Noodle)",
+    "name_ko": "쿵푸 정통 차슈 수타면",
+    "place_ids": [
+      "ChIJ1-LOM_iVpzEReC2eAEZgchI"
+    ],
+    "name_en": "Kung Fu Char Siu BBQ Pork Hand-Pulled Noodles",
+    "name_zh": "功夫叉烧拉面",
+    "name_ru": "Тянутая лапша кунг-фу со свининой чар сиу",
+    "name_ja": "カンフー手延べチャーシューラーメン",
+    "name_hi": "कुंग फू चार सिउ बारबेक्यू पोर्क हैंड-पुल नूडल्स"
+  },
+  {
+    "name_original": "Mì tôm tươi (Fresh Shrimp Noodle)",
+    "name_ko": "생새우 수타면",
+    "place_ids": [
+      "ChIJ1-LOM_iVpzEReC2eAEZgchI"
+    ],
+    "name_en": "Fresh Shrimp Hand-Pulled Noodles",
+    "name_zh": "鲜虾拉面",
+    "name_ru": "Тянутая лапша со свежими креветками",
+    "name_ja": "新鮮海老の手延べラーメン",
+    "name_hi": "ताज़ा झींगा हैंड-पुल नूडल्स"
+  },
+  {
+    "name_original": "Mì hải sản đặc biệt (Special Seafood Noodle)",
+    "name_ko": "쿵푸 스페셜 모둠 해산물 수타면",
+    "place_ids": [
+      "ChIJ1-LOM_iVpzEReC2eAEZgchI"
+    ],
+    "name_en": "Kung Fu Special Seafood Hand-Pulled Noodles",
+    "name_zh": "功夫特制海鲜拉面",
+    "name_ru": "Фирменная тянутая лапша кунг-фу с морепродуктами",
+    "name_ja": "カンフー特製海鮮手延べラーメン",
+    "name_hi": "कुंग फू स्पेशल सीफ़ूड हैंड-पुल नूडल्स"
+  },
+  {
+    "name_original": "Đĩa xá xíu truyền thống (Charsiu Plate for Sharing)",
+    "name_ko": "광동식 정통 꿀 차슈 바비큐 한 접시",
+    "place_ids": [
+      "ChIJ1-LOM_iVpzEReC2eAEZgchI"
+    ],
+    "name_en": "Traditional Cantonese Honey Char Siu BBQ Pork Platter",
+    "name_zh": "传统广式蜜汁叉烧拼盘",
+    "name_ru": "Традиционное кантонское барбекю чар сиу",
+    "name_ja": "伝統広東風ハニーチャーシュー盛り合わせ",
+    "name_hi": "पारंपरिक कैंटोनीज़ हनी चार सिउ बारबेक्यू पोर्क प्लैटर"
+  },
+  {
+    "name_original": "Cà phê đen truyền thống (Traditional Black Coffee)",
+    "name_ko": "베트남 전통 블랙 커피",
+    "place_ids": [
+      "ChIJ1-LOM_iVpzEReC2eAEZgchI"
+    ],
+    "name_en": "Traditional Vietnamese Black Coffee",
+    "name_zh": "传统越南黑咖啡",
+    "name_ru": "Традиционный вьетнамский черный кофе",
+    "name_ja": "ベトナム伝統ブラックコーヒー",
+    "name_hi": "पारंपरिक वियतनामी ब्लैक कॉफ़ी"
+  },
+  {
+    "name_original": "Nước ép dừa / cam / xoài (Fresh Fruit Juice)",
+    "name_ko": "생과일 착즙 주스 (통코코넛 / 오렌지 / 망고 / 수박)",
+    "place_ids": [
+      "ChIJ1-LOM_iVpzEReC2eAEZgchI"
+    ],
+    "name_en": "Fresh Fruit Juice (Fresh Coconut / Orange / Mango / Watermelon)",
+    "name_zh": "鲜榨纯果汁 (新鲜椰子 / 橙汁 / 芒果汁 / 西瓜汁)",
+    "name_ru": "Свежевыжатый сок (свежий кокос / апельсин / манго / арбуз)",
+    "name_ja": "生搾りフルーツジュース (フレッシュココナッツ / オレンジ / マンゴー / スイカ)",
+    "name_hi": "ताज़ा फलों का रस (ताज़ा नारियल / संतरा / आम / तरबूज)"
+  },
+  {
+    "name_original": "Sinh tố xoài cốt dừa (Mango Coconut Smoothie)",
+    "name_ko": "망고 코코넛 스무디",
+    "place_ids": [
+      "ChIJ1-LOM_iVpzEReC2eAEZgchI"
+    ],
+    "name_en": "Mango Coconut Smoothie",
+    "name_zh": "芒果椰奶冰沙",
+    "name_ru": "Смузи из манго и кокоса",
+    "name_ja": "マンゴーココナッツスムージー",
+    "name_hi": "आम नारियल स्मूदी"
+  },
+  {
+    "name_original": "The Amalfi Old Fashioned",
+    "name_ko": "아말피 올드 패션드",
+    "place_ids": [
+      "ChIJMXSxNgCXpzERgxlz0F6Zn7I"
+    ],
+    "name_en": "The Amalfi Old Fashioned Cocktail",
+    "name_zh": "阿马尔菲经典古风鸡尾酒",
+    "name_ru": "Коктейль The Amalfi Old Fashioned",
+    "name_ja": "アマルフィ・オールドファッションド",
+    "name_hi": "द अमाल्फी ओल्ड फैशन्ड कॉकटेल"
+  },
+  {
+    "name_original": "Negroni Classico",
+    "name_ko": "네그로니 클라시코",
+    "place_ids": [
+      "ChIJMXSxNgCXpzERgxlz0F6Zn7I"
+    ],
+    "name_en": "Classic Negroni",
+    "name_zh": "经典内格罗尼",
+    "name_ru": "Классический Негрони",
+    "name_ja": "ネグローニ・クラシコ",
+    "name_hi": "नेग्रोनी क्लासिको"
+  },
+  {
+    "name_original": "Kem Ốc Quế (Crispy Soft Serve Cone)",
+    "name_ko": "소프트 아이스크림 콘",
+    "place_ids": [
+      "ChIJVUPC1uyXpzERD5yoNJTu_-w"
+    ],
+    "name_en": "Crispy Soft Serve Ice Cream Cone",
+    "name_zh": "脆皮甜筒软冰淇淋",
+    "name_ru": "Мягкое мороженое в вафельном рожке",
+    "name_ja": "クリスピーソフトクリームコーン",
+    "name_hi": "क्रिस्पी सॉफ्ट सर्व आइसक्रीम कोन"
+  },
+  {
+    "name_original": "Nước Chanh Tươi (Fresh Lemon Water)",
+    "name_ko": "생레몬 워터",
+    "place_ids": [
+      "ChIJVUPC1uyXpzERD5yoNJTu_-w"
+    ],
+    "name_en": "Fresh Lemonade",
+    "name_zh": "新鲜柠檬水",
+    "name_ru": "Свежий лимонад",
+    "name_ja": "新鮮レモンウォーター",
+    "name_hi": "ताज़ा नींबू पानी"
+  },
+  {
+    "name_original": "Trà Sữa Trân Châu (Pearl Milk Tea)",
+    "name_ko": "오리지널 버블 밀크티",
+    "place_ids": [
+      "ChIJVUPC1uyXpzERD5yoNJTu_-w"
+    ],
+    "name_en": "Original Pearl Milk Tea",
+    "name_zh": "珍珠奶茶",
+    "name_ru": "Чай с молоком и тапиокой (бабл-ти)",
+    "name_ja": "タピオカミルクティー",
+    "name_hi": "पर्ल मिल्क टी (बोबा चाय)"
+  },
+  {
+    "name_original": "Trà Đào Bốn Mùa (Four Seasons Peach Tea)",
+    "name_ko": "포시즌스 복숭아 과일티",
+    "place_ids": [
+      "ChIJVUPC1uyXpzERD5yoNJTu_-w"
+    ],
+    "name_en": "Four Seasons Peach Fruit Tea",
+    "name_zh": "四季春蜜桃果茶",
+    "name_ru": "Персиковый чай «Четыре сезона»",
+    "name_ja": "フォーシーズンズ・ピーチティー",
+    "name_hi": "फोर सीज़न्स पीच फ्रूट टी"
+  },
+  {
+    "name_original": "Chef Victor's Curated Selection",
+    "name_ko": "빅터 셰프 추천 세트 (1인)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Chef Victor's Curated Dim Sum Selection (Set for 1)",
+    "name_zh": "Victor主厨精选点心套餐 (单人)",
+    "name_ru": "Сет от шеф-повара Виктора (на 1 персону)",
+    "name_ja": "シェフ・ヴィクター特選飲茶セット (1名様)",
+    "name_hi": "शेफ विक्टर क्यूरेटेड डिम सम सेट (1 व्यक्ति)"
+  },
+  {
+    "name_original": "Imperial Dimsum Basket (5 pieces)",
+    "name_ko": "황실 딤섬 바구니 (5개)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Imperial Dim Sum Basket (5 pcs)",
+    "name_zh": "皇家点心蒸笼拼盘 (5件)",
+    "name_ru": "Императорская корзина димсамов (5 шт.)",
+    "name_ja": "皇室特選点心盛り合わせ (5個)",
+    "name_hi": "इंपीरियल डिम सम बास्केट (5 पीस)"
+  },
+  {
+    "name_original": "Steamed Spinach Dumpling (3 pieces)",
+    "name_ko": "새우·돼지고기 시금치 만두 (3개)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Steamed Shrimp & Pork Spinach Dumplings (3 pcs)",
+    "name_zh": "鲜虾猪肉菠菜饺 (3件)",
+    "name_ru": "Паровые пельмени со шпинатом, креветками и свининой (3 шт.)",
+    "name_ja": "海老と豚肉のほうれん草蒸し餃子 (3個)",
+    "name_hi": "स्टीम्ड पालक, झींगा और पोर्क डंपलिंग (3 पीस)"
+  },
+  {
+    "name_original": "Steamed Shrimp Dumpling - Ha Gao (3 pieces)",
+    "name_ko": "새우 하가우 (3개)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Steamed Shrimp Dumplings - Har Gow (3 pcs)",
+    "name_zh": "水晶鲜虾饺 (3件)",
+    "name_ru": "Паровые пельмени с креветками — Ха Гао (3 шт.)",
+    "name_ja": "特製海老蒸し餃子 - ハーガオ (3個)",
+    "name_hi": "स्टीम्ड श्रिम्प डंपलिंग - हा गाओ (3 पीस)"
+  },
+  {
+    "name_original": "Steamed Pork & Shrimp with Mushroom - Siew Mai (3 pieces)",
+    "name_ko": "샤오마이 (돼지고기·새우·버섯, 3개)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Steamed Pork & Shrimp Dumplings with Mushrooms - Siu Mai (3 pcs)",
+    "name_zh": "香菇虾仁猪肉烧卖 (3件)",
+    "name_ru": "Сяомай со свининой, креветками и грибами (3 шт.)",
+    "name_ja": "豚肉と海老と椎茸のシューマイ (3個)",
+    "name_hi": "स्टीम्ड पोर्क, श्रिम्प और मशरूम सिउ माई (3 पीस)"
+  },
+  {
+    "name_original": "Steamed Barbecue Pork Buns (2 pieces)",
+    "name_ko": "차슈바오 (꿀 바비큐 돼지고기 찐빵, 2개)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Steamed Honey BBQ Pork Buns - Char Siu Bao (2 pcs)",
+    "name_zh": "蜜汁叉烧包 (2件)",
+    "name_ru": "Паровые булочки со свининой барбекю чар сиу (2 шт.)",
+    "name_ja": "蜜汁チャーシューまん (2個)",
+    "name_hi": "स्टीम्ड बारबेक्यू पोर्क बन्स - चार सिउ बाओ (2 पीस)"
+  },
+  {
+    "name_original": "Village-Style Chicken Feet",
+    "name_ko": "시골식 닭발찜",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Village-Style Steamed Chicken Feet",
+    "name_zh": "乡味蒸凤爪",
+    "name_ru": "Куриные лапки по-деревенски на пару",
+    "name_ja": "田舎風蒸し鶏足 (モミジ)",
+    "name_hi": "विलेज-स्टाइल स्टीम्ड चिकन फीट"
+  },
+  {
+    "name_original": "Steamed Pork Ribs with Black Bean Sauce",
+    "name_ko": "흑두소스 돼지갈비찜",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Steamed Pork Ribs with Black Bean Sauce",
+    "name_zh": "豉汁蒸排骨",
+    "name_ru": "Паровые свиные ребрышки в соусе из черных бобов",
+    "name_ja": "豚スペアリブの豆豉蒸し",
+    "name_hi": "ब्लैक बीन सॉस में स्टीम्ड पोर्क रिब्स"
+  },
+  {
+    "name_original": "Charcoal Custard Bun (3 pieces)",
+    "name_ko": "숯 커스터드 번 (류사바오, 3개)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Charcoal Salted Egg Custard Lava Buns (3 pcs)",
+    "name_zh": "黑金流沙包 (3件)",
+    "name_ru": "Черные булочки с заварным яичным кремом (3 шт.)",
+    "name_ja": "竹炭カスタード流沙包 (3個)",
+    "name_hi": "चारकोल कस्टर्ड लावा बन्स (3 पीस)"
+  },
+  {
+    "name_original": "Chili Oil Dumplings (3 pieces)",
+    "name_ko": "쓰촨식 홍유 만두 (3개)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Sichuan Chili Oil Dumplings (3 pcs)",
+    "name_zh": "四川红油抄手 (3件)",
+    "name_ru": "Пельмени по-сычуаньски в остром масле (3 шт.)",
+    "name_ja": "四川風紅油ワンタン (3個)",
+    "name_hi": "सिचुआन चिली ऑयल डंपलिंग्स (3 पीस)"
+  },
+  {
+    "name_original": "Baked Pineapple Buns with BBQ Pork (3 pieces)",
+    "name_ko": "파인애플 차슈번 (3개)",
+    "place_ids": [
+      "ChIJN_Q6ZQCXpzERnEgRa_rea4k"
+    ],
+    "name_en": "Baked Pineapple Buns with BBQ Pork (3 pcs)",
+    "name_zh": "酥皮菠萝叉烧包 (3件)",
+    "name_ru": "Запеченные булочки «боло» со свининой барбекю (3 шт.)",
+    "name_ja": "パイナップルチャーシューパン (3個)",
+    "name_hi": "बेक्ड अनानास बारबेक्यू पोर्क बन्स (3 पीस)"
+  }
+]

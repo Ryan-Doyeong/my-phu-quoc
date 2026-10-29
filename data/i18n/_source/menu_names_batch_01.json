@@ -1,0 +1,415 @@
+[
+  {
+    "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
+    "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
+    "place_ids": [
+      "ChIJM56vPyOVpzERkcoihdCbcQg",
+      "ChIJybaGwLWXpzER0vqLL6QiWjE",
+      "ChIJVef0-G6XpzERfRGPWSjnMSM",
+      "ChIJTdwiKNmVpzER1knXm_zr2zA",
+      "ChIJ51OpPgCVpzER-TzMZtCOk0o",
+      "ChIJi6p4AwCXpzERrcfUWx2c6gY",
+      "ChIJEUml2SuVpzER3wqcSc2d9yg",
+      "ChIJy_hxHgCrNTERoIcGv_opdSI",
+      "ChIJqzR5BqKVpzERsUFb1ZBTkHI",
+      "ChIJE6Jt3vuVpzERA6ErTfB79es",
+      "ChIJHfkAZ4WVpzERmME-KkMKRrI",
+      "ChIJk8rbTrmXpzERJtmse_K7fYA",
+      "ChIJexxLuvWVpzERYfMNC6E2l6k",
+      "ChIJO3-yzguVpzERco-w4qWwzBE",
+      "ChIJ4XRWXwCVpzER4TmxHDp0HaI",
+      "ChIJFePbK8yXpzER_rJM4eYtKaA",
+      "ChIJO5hTZgCVpzERv98h_ecyvFc",
+      "ChIJUZs9AACVpzERDU2CVZEwhMQ"
+    ]
+  },
+  {
+    "name_original": "Cà phê Americano / Espresso",
+    "name_ko": "아메리카노 / 에스프레소",
+    "place_ids": [
+      "ChIJM56vPyOVpzERkcoihdCbcQg",
+      "ChIJybaGwLWXpzER0vqLL6QiWjE",
+      "ChIJVef0-G6XpzERfRGPWSjnMSM",
+      "ChIJTdwiKNmVpzER1knXm_zr2zA",
+      "ChIJ51OpPgCVpzER-TzMZtCOk0o",
+      "ChIJi6p4AwCXpzERrcfUWx2c6gY",
+      "ChIJEUml2SuVpzER3wqcSc2d9yg",
+      "ChIJy_hxHgCrNTERoIcGv_opdSI",
+      "ChIJqzR5BqKVpzERsUFb1ZBTkHI",
+      "ChIJE6Jt3vuVpzERA6ErTfB79es",
+      "ChIJHfkAZ4WVpzERmME-KkMKRrI",
+      "ChIJk8rbTrmXpzERJtmse_K7fYA",
+      "ChIJexxLuvWVpzERYfMNC6E2l6k",
+      "ChIJO3-yzguVpzERco-w4qWwzBE",
+      "ChIJ4XRWXwCVpzER4TmxHDp0HaI",
+      "ChIJFePbK8yXpzER_rJM4eYtKaA",
+      "ChIJO5hTZgCVpzERv98h_ecyvFc",
+      "ChIJUZs9AACVpzERDU2CVZEwhMQ"
+    ]
+  },
+  {
+    "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
+    "name_ko": "망고 스무디 / 생과일 주스",
+    "place_ids": [
+      "ChIJM56vPyOVpzERkcoihdCbcQg",
+      "ChIJybaGwLWXpzER0vqLL6QiWjE",
+      "ChIJVef0-G6XpzERfRGPWSjnMSM",
+      "ChIJTdwiKNmVpzER1knXm_zr2zA",
+      "ChIJ51OpPgCVpzER-TzMZtCOk0o",
+      "ChIJi6p4AwCXpzERrcfUWx2c6gY",
+      "ChIJEUml2SuVpzER3wqcSc2d9yg",
+      "ChIJy_hxHgCrNTERoIcGv_opdSI",
+      "ChIJqzR5BqKVpzERsUFb1ZBTkHI",
+      "ChIJE6Jt3vuVpzERA6ErTfB79es",
+      "ChIJHfkAZ4WVpzERmME-KkMKRrI",
+      "ChIJk8rbTrmXpzERJtmse_K7fYA",
+      "ChIJexxLuvWVpzERYfMNC6E2l6k",
+      "ChIJO3-yzguVpzERco-w4qWwzBE",
+      "ChIJ4XRWXwCVpzER4TmxHDp0HaI",
+      "ChIJFePbK8yXpzER_rJM4eYtKaA",
+      "ChIJO5hTZgCVpzERv98h_ecyvFc",
+      "ChIJUZs9AACVpzERDU2CVZEwhMQ"
+    ]
+  },
+  {
+    "name_original": "Signature Tropical Sunset Cocktail",
+    "name_ko": "선셋 시그니처 트로피컬 칵테일",
+    "place_ids": [
+      "ChIJw0KgNACVpzERw5KrYRFhYrk",
+      "ChIJ_8PhSl6XpzERyXEGZHWPPK8",
+      "ChIJWemJxp-XpzER7U_LSFAw2FI",
+      "ChIJxyS9aICXpzERzjprHrHS6HM",
+      "ChIJ_UidppuWpzERKabcboVlovw"
+    ]
+  },
+  {
+    "name_original": "Bia Tươi / Bia Thủ Công Craft Beer",
+    "name_ko": "생맥주 / 수제맥주 (Draft / Craft Beer)",
+    "place_ids": [
+      "ChIJw0KgNACVpzERw5KrYRFhYrk",
+      "ChIJ_8PhSl6XpzERyXEGZHWPPK8",
+      "ChIJWemJxp-XpzER7U_LSFAw2FI",
+      "ChIJxyS9aICXpzERzjprHrHS6HM",
+      "ChIJ_UidppuWpzERKabcboVlovw"
+    ]
+  },
+  {
+    "name_original": "Bar Bites & Finger Foods",
+    "name_ko": "바 스낵 & 핑거푸드 안주",
+    "place_ids": [
+      "ChIJw0KgNACVpzERw5KrYRFhYrk",
+      "ChIJ_8PhSl6XpzERyXEGZHWPPK8",
+      "ChIJWemJxp-XpzER7U_LSFAw2FI",
+      "ChIJxyS9aICXpzERzjprHrHS6HM",
+      "ChIJ_UidppuWpzERKabcboVlovw"
+    ]
+  },
+  {
+    "name_original": "Traditional Vietnamese Pho / Bun Bo Hue",
+    "name_ko": "베트남 전통 쌀국수 (하노이 쌀국수 / 분보후에)",
+    "place_ids": [
+      "ChIJ-8xuXJSXpzER_vuwYia2R1M"
+    ]
+  },
+  {
+    "name_original": "Western Breakfast Combo",
+    "name_ko": "웨스턴 조식 콤보 (에그, 베이컨, 소시지, 토스트)",
+    "place_ids": [
+      "ChIJ-8xuXJSXpzER_vuwYia2R1M"
+    ]
+  },
+  {
+    "name_original": "All-day Casual Bistro Mains",
+    "name_ko": "올데이 캐주얼 비스트로 단품 요리 (파스타, 볶음밥, 샌드위치)",
+    "place_ids": [
+      "ChIJ-8xuXJSXpzER_vuwYia2R1M"
+    ]
+  },
+  {
+    "name_original": "BBQ Seafood Dinner Buffet",
+    "name_ko": "바비큐 해산물 디너 뷔페 (시즌 운영)",
+    "place_ids": [
+      "ChIJ-8xuXJSXpzER_vuwYia2R1M"
+    ]
+  },
+  {
+    "name_original": "Cá thu Nhật nướng muối / sốt Teriyaki (Grilled Saba Mackerel)",
+    "name_ko": "고등어 소금구이 / 데리야키 구이",
+    "place_ids": [
+      "ChIJqSNX-FuLpzERVHIK_K9q4ac"
+    ]
+  },
+  {
+    "name_original": "Cá trích nướng Shishamo (Grilled Shishamo)",
+    "name_ko": "열빙어(시샤모) 숯불구이",
+    "place_ids": [
+      "ChIJqSNX-FuLpzERVHIK_K9q4ac"
+    ]
+  },
+  {
+    "name_original": "Cá hồi nướng sốt Teriyaki (Grilled Salmon Teriyaki)",
+    "name_ko": "연어 데리야키 숯불구이",
+    "place_ids": [
+      "ChIJqSNX-FuLpzERVHIK_K9q4ac"
+    ]
+  },
+  {
+    "name_original": "Hàu sữa Nhật tươi sống (Fresh Japanese Oysters)",
+    "name_ko": "일본산 신선 생석화 (생굴 플레이트)",
+    "place_ids": [
+      "ChIJqSNX-FuLpzERVHIK_K9q4ac"
+    ]
+  },
+  {
+    "name_original": "Mì Ramen hải sản Yushima (Seafood Ramen)",
+    "name_ko": "유시마 특제 해산물 라멘",
+    "place_ids": [
+      "ChIJqSNX-FuLpzERVHIK_K9q4ac"
+    ]
+  },
+  {
+    "name_original": "Cơm lươn Nhật nướng sốt Kabayaki (Unagi Don)",
+    "name_ko": "일본산 민물장어 덮밥 (우나기동)",
+    "place_ids": [
+      "ChIJqSNX-FuLpzERVHIK_K9q4ac"
+    ]
+  },
+  {
+    "name_original": "Thuyền Sashimi tổng hợp (Mixed Sashimi Boat)",
+    "name_ko": "모둠 사시미 셰어링 보트",
+    "place_ids": [
+      "ChIJqSNX-FuLpzERVHIK_K9q4ac"
+    ]
+  },
+  {
+    "name_original": "Halal Beef / Chicken Curry with Roti",
+    "name_ko": "할랄 소고기 / 치킨 커리와 로티 차파티",
+    "place_ids": [
+      "ChIJMyo1GFCXpzERJi4JKDavOgQ"
+    ]
+  },
+  {
+    "name_original": "Halal Vietnamese Beef Pho",
+    "name_ko": "할랄 인증 소고기 쌀국수",
+    "place_ids": [
+      "ChIJMyo1GFCXpzERJi4JKDavOgQ"
+    ]
+  },
+  {
+    "name_original": "Nasi Goreng Halal",
+    "name_ko": "할랄 나시고랭 해산물 볶음밥",
+    "place_ids": [
+      "ChIJMyo1GFCXpzERJi4JKDavOgQ"
+    ]
+  },
+  {
+    "name_original": "Bia Tươi Tiger Crystal / Heineken Cold",
+    "name_ko": "타이거 크리스탈 / 하이네켄 생맥주 (Pint)",
+    "place_ids": [
+      "ChIJ4-08StuXpzERjwmUJihXMSM"
+    ]
+  },
+  {
+    "name_original": "Bia Thủ Công Jasmine IPA (Pasteur Street)",
+    "name_ko": "파스퇴르 스트리트 자스민 IPA 수제맥주",
+    "place_ids": [
+      "ChIJ4-08StuXpzERjwmUJihXMSM"
+    ]
+  },
+  {
+    "name_original": "Gỏi Cá Trích Phú Quốc (Phu Quoc Herring Salad)",
+    "name_ko": "푸꾸옥 전통 청어회 샐러드 (고이까찍)",
+    "place_ids": [
+      "ChIJ4-08StuXpzERjwmUJihXMSM"
+    ]
+  },
+  {
+    "name_original": "Mực Trứng Nướng Muối Ớt (Grilled Egg Squid with Chili Salt)",
+    "name_ko": "알배기 한치(오징어) 숯불구이",
+    "place_ids": [
+      "ChIJ4-08StuXpzERjwmUJihXMSM"
+    ]
+  },
+  {
+    "name_original": "Sườn Heo Nướng Sốt BBQ (Grilled BBQ Pork Ribs)",
+    "name_ko": "특제 바비큐 폭립 (풀랙)",
+    "place_ids": [
+      "ChIJ4-08StuXpzERjwmUJihXMSM"
+    ]
+  },
+  {
+    "name_original": "Combo Nướng Than Hoa Lagoon (Lagoon BBQ Platter)",
+    "name_ko": "라군 시그니처 숯불 고기 & 해산물 바비큐 플래터",
+    "place_ids": [
+      "ChIJexQHMSaVpzERSr6zIxWjYDs"
+    ]
+  },
+  {
+    "name_original": "Đĩa hải sản lạnh phong cách Pháp (Chilled Seafood Platter)",
+    "name_ko": "프랑스식 프리미엄 냉 해산물 플래터 (굴, 새우, 게살)",
+    "place_ids": [
+      "ChIJexQHMSaVpzERSr6zIxWjYDs"
+    ]
+  },
+  {
+    "name_original": "Lẩu hải sản Địa Trung Hải (Mediterranean Seafood Hot Pot)",
+    "name_ko": "지중해풍 토마토 해산물 핫팟 전골",
+    "place_ids": [
+      "ChIJexQHMSaVpzERSr6zIxWjYDs"
+    ]
+  },
+  {
+    "name_original": "Sườn heo nướng sốt BBQ",
+    "name_ko": "특제 바비큐 소스 돼지 등갈비 구이",
+    "place_ids": [
+      "ChIJexQHMSaVpzERSr6zIxWjYDs"
+    ]
+  },
+  {
+    "name_original": "Mực trứng chiên mắm / nướng",
+    "name_ko": "알배기 오징어 튀김 / 구이",
+    "place_ids": [
+      "ChIJufI0FqCVpzER1FiJropT03Y"
+    ]
+  },
+  {
+    "name_original": "Lẩu hải sản chua cay bình dân",
+    "name_ko": "실속형 해산물 전골 핫팟",
+    "place_ids": [
+      "ChIJufI0FqCVpzER1FiJropT03Y"
+    ]
+  },
+  {
+    "name_original": "Hải sản nướng muối ớt One Boat",
+    "name_ko": "원보트 특제 칠리소금 해산물 숯불구이",
+    "place_ids": [
+      "ChIJLwGTViCVpzER8VvsPx7gfqs"
+    ]
+  },
+  {
+    "name_original": "Combo Hải sản Cướp biển (Pirate Seafood Combo)",
+    "name_ko": "파이러츠 모둠 해산물 바비큐 콤보 (2~4인)",
+    "place_ids": [
+      "ChIJLwGTViCVpzER8VvsPx7gfqs"
+    ]
+  },
+  {
+    "name_original": "Coconut Chia Pudding & Fresh Fruits",
+    "name_ko": "코코넛 치아 푸딩 & 생과일",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ]
+  },
+  {
+    "name_original": "Nutritious Breakfast Bowl",
+    "name_ko": "영양 가득 조식 볼",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ]
+  },
+  {
+    "name_original": "Eggs Benedict / Royale",
+    "name_ko": "에그 베네딕트 / 에그 로열",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ]
+  },
+  {
+    "name_original": "Vietnamese Breakfast Pho (Beef / Chicken)",
+    "name_ko": "베트남 전통 조식 쌀국수 (소고기 / 닭고기)",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ]
+  },
+  {
+    "name_original": "Gỏi ngó sen tôm mực (Lotus Stem Salad with Prawn & Squid)",
+    "name_ko": "새우 오징어 연근줄기 샐러드 (고이 응오센)",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ]
+  },
+  {
+    "name_original": "Quinoa Salad",
+    "name_ko": "퀴노아 슈퍼푸드 샐러드",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ]
+  },
+  {
+    "name_original": "Phu Quoc Seafood Caesar Salad",
+    "name_ko": "푸꾸옥 해산물 시저 샐러드",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ]
+  },
+  {
+    "name_original": "Bún hải sản làng chài (Phu Quoc Seafood Noodle Soup)",
+    "name_ko": "푸꾸옥 어촌 마을 해산물 쌀국수 (분 하이산)",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ]
+  },
+  {
+    "name_original": "Nem rán Hà Nội (Hanoi Deep Fried Spring Rolls)",
+    "name_ko": "하노이식 수제 바삭 넴 (튀김 스프링롤)",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ]
+  },
+  {
+    "name_original": "Cơm chiên ghẹ Phú Quốc (Phu Quoc Flower Crab Fried Rice)",
+    "name_ko": "푸꾸옥 함닌 꽃게살 볶음밥",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ]
+  },
+  {
+    "name_original": "Cá kho tộ tiêu Phú Quốc (Claypot Braised Fish)",
+    "name_ko": "푸꾸옥 흑후추 뚝배기 생선 조림",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ]
+  },
+  {
+    "name_original": "Australian Beef Rib with Tamarind Sauce",
+    "name_ko": "타마린드 소스 호주산 우갈비 구이",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ]
+  },
+  {
+    "name_original": "Grilled Black Angus Ribeye",
+    "name_ko": "블랙 앵거스 립아이 스테이크",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ]
+  },
+  {
+    "name_original": "Pan-seared Salmon Fillet",
+    "name_ko": "노르웨이산 연어 스테이크",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ]
+  },
+  {
+    "name_original": "Chicken Club Sandwich",
+    "name_ko": "치킨 클럽 샌드위치",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ]
+  },
+  {
+    "name_original": "The Merchant Wagyu Burger",
+    "name_ko": "더 머천트 시그니처 와규 버거",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ]
+  },
+  {
+    "name_original": "Four Cheese Ravioli",
+    "name_ko": "4종 치즈 수제 라비올리",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ]
+  }
+]

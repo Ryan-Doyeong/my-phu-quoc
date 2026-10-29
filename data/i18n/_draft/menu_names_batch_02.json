@@ -1,0 +1,602 @@
+[
+  {
+    "name_original": "12-Hour Sourdough Pizza Margarita",
+    "name_ko": "12시간 저온발효 마르게리타 피자",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "12-Hour Sourdough Margherita Pizza",
+    "name_zh": "12小时慢发酵天然酵母玛格丽特披萨",
+    "name_ru": "Пицца Маргарита на 12-часовом тесте на закваске",
+    "name_ja": "12時間熟成天然酵母マルゲリータピザ",
+    "name_hi": "12 घंटे किण्वित सोरडो मार्गरिटा पिज़्ज़ा"
+  },
+  {
+    "name_original": "Korean Seafood Ramen",
+    "name_ko": "해물 라면 (얼큰 해산물 라면)",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Korean Spicy Seafood Ramen",
+    "name_zh": "韩式辣味海鲜拉面",
+    "name_ru": "Корейский острый рамен с морепродуктами",
+    "name_ja": "韓国風スパイシー海鮮ラーメン",
+    "name_hi": "कोरियन स्पाइसी सीफ़ूड रामेन"
+  },
+  {
+    "name_original": "Korean Crispy Fried Chicken",
+    "name_ko": "한국식 크리스피 프라이드 치킨 / 양념 치킨",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Korean Crispy Fried Chicken / Seasoned Chicken",
+    "name_zh": "韩式脆皮炸鸡 / 调味炸鸡",
+    "name_ru": "Хрустящая корейская жареная курица / острая курочка",
+    "name_ja": "韓国風クリスピーフライドチキン / ヤンニョムチキン",
+    "name_hi": "कोरियन क्रिस्पी फ्राइड चिकन / सीज़न्ड चिकन"
+  },
+  {
+    "name_original": "Kimchi Fried Rice with Fried Egg",
+    "name_ko": "김치 볶음밥과 달걀 프라이",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Kimchi Fried Rice with Fried Egg",
+    "name_zh": "泡菜炒饭配煎蛋",
+    "name_ru": "Жареный рис с кимчи и яичницей",
+    "name_ja": "キムチチャーハン 目玉焼き添え",
+    "name_hi": "किमची फ्राइड राइस फ्राइड एग के साथ"
+  },
+  {
+    "name_original": "Dal Makhani (Indian Lentil Curry)",
+    "name_ko": "달 마카니 (인도식 전통 렌틸콩 커리)",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Dal Makhani (Indian Lentil Curry)",
+    "name_zh": "印度黑扁豆咖喱（达尔玛克尼）",
+    "name_ru": "Дал макхани (индийское карри из чечевицы)",
+    "name_ja": "ダルマッカニー（インド風レンズ豆の黒カレー）",
+    "name_hi": "दाल मखनी"
+  },
+  {
+    "name_original": "Butter Chicken (Murgh Makhani)",
+    "name_ko": "치킨 마크니 (버터 치킨 커리)",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Butter Chicken (Murgh Makhani)",
+    "name_zh": "黄油咖喱鸡（穆尔格玛克尼）",
+    "name_ru": "Баттер чикен (Мург макхани)",
+    "name_ja": "バターチキンカレー（ムルグマッカニー）",
+    "name_hi": "बटर चिकन (मुर्ग मखनी)"
+  },
+  {
+    "name_original": "Garlic & Butter Naan",
+    "name_ko": "갈릭 & 버터 난",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Garlic & Butter Naan",
+    "name_zh": "大蒜黄油烤饼",
+    "name_ru": "Чесночный и сливочный наан",
+    "name_ja": "ガーリック＆バターナン",
+    "name_hi": "गार्लिक और बटर नान"
+  },
+  {
+    "name_original": "Kids Spaghetti Bolognese / Pomodoro",
+    "name_ko": "어린이 스파게티 (볼로네제 소스 또는 토마토 소스)",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Kids Spaghetti Bolognese / Pomodoro",
+    "name_zh": "儿童意面（肉酱或番茄酱）",
+    "name_ru": "Детские спагетти болоньезе / помодоро",
+    "name_ja": "キッズスパゲッティ（ボロネーゼ / ポモドーロ）",
+    "name_hi": "किड्स स्पेगेटी बोलोग्नीज़ / पोमोडोरो"
+  },
+  {
+    "name_original": "Kids Crispy Fish & Chips",
+    "name_ko": "어린이 피시 앤 칩스",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Kids Crispy Fish & Chips",
+    "name_zh": "儿童脆皮炸鱼薯条",
+    "name_ru": "Детский хрустящий фиш-энд-чипс",
+    "name_ja": "キッズ クリスピーフィッシュ＆チップス",
+    "name_hi": "किड्स क्रिस्पी फिश एंड चिप्स"
+  },
+  {
+    "name_original": "Pina Colada Mousse",
+    "name_ko": "피나콜라다 무스 케이크",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Pina Colada Mousse Cake",
+    "name_zh": "椰林飘香慕斯蛋糕",
+    "name_ru": "Муссовый торт Пина колада",
+    "name_ja": "ピニャコラーダムースケーキ",
+    "name_hi": "पिना कोलाडा मूस केक"
+  },
+  {
+    "name_original": "Phu Quoc Pepper Chocolate Lava Cake",
+    "name_ko": "푸꾸옥 통후추 초콜릿 퐁당 (라바 케이크)",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Phu Quoc Pepper Chocolate Lava Cake",
+    "name_zh": "富国岛胡椒熔岩巧克力蛋糕",
+    "name_ru": "Шоколадный фондан с фукуокским перцем",
+    "name_ja": "フーコックペッパー チョコレートフォンダンショコラ",
+    "name_hi": "फू क्वोक काली मिर्च चॉकलेट लावा केक"
+  },
+  {
+    "name_original": "Northern Set Menu (2 persons)",
+    "name_ko": "베트남 북부 하노이 전통 코스 세트 (2인)",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Northern Vietnamese Set Menu (for 2)",
+    "name_zh": "越南北部传统风味双人套餐",
+    "name_ru": "Традиционный сет северной вьетнамской кухни (на 2 персоны)",
+    "name_ja": "ベトナム北部ハノイ伝統コースセット（2名様）",
+    "name_hi": "उत्तरी वियतनामी सेट मेन्यू (2 लोगों के लिए)"
+  },
+  {
+    "name_original": "Southern Set Menu (2 persons)",
+    "name_ko": "베트남 남부 메콩델타 풍미 코스 세트 (2인)",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Southern Vietnamese Set Menu (for 2)",
+    "name_zh": "越南南部湄公河风味双人套餐",
+    "name_ru": "Традиционный сет южной вьетнамской кухни (на 2 персоны)",
+    "name_ja": "ベトナム南部メコン風味コースセット（2名様）",
+    "name_hi": "दक्षिणी वियतनामी सेट मेन्यू (2 लोगों के लिए)"
+  },
+  {
+    "name_original": "Vietnamese Traditional Coffee (Black / Condensed Milk)",
+    "name_ko": "베트남 전통 커피 (블랙 / 연유 카페쓰어다)",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Traditional Vietnamese Coffee (Black / Condensed Milk)",
+    "name_zh": "越南传统咖啡（黑咖啡 / 炼乳咖啡）",
+    "name_ru": "Традиционный вьетнамский кофе (черный / со сгущенным молоком)",
+    "name_ja": "ベトナム伝統コーヒー（ブラック / 練乳）",
+    "name_hi": "पारंपरिक वियतनामी कॉफ़ी (ब्लैक / कंडेंस्ड मिल्क)"
+  },
+  {
+    "name_original": "Selection of Sao Epicurean Tea",
+    "name_ko": "에피큐리언 프리미엄 티 셀렉션",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Sao Epicurean Premium Tea Selection",
+    "name_zh": "Sao Epicurean精选茗茶系列",
+    "name_ru": "Коллекция премиального чая Sao Epicurean",
+    "name_ja": "サオ・エピキュリアン プレミアムティーセレクション",
+    "name_hi": "साओ एपिक्यूरियन प्रीमियम टी सिलेक्शन"
+  },
+  {
+    "name_original": "Local Beers (Tiger, Heineken, Saigon Special)",
+    "name_ko": "로컬 맥주 (타이거 / 하이네켄 / 사이공 스페셜)",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Local Beers (Tiger, Heineken, Saigon Special)",
+    "name_zh": "本地啤酒（虎牌、喜力、西贡特酿）",
+    "name_ru": "Местное пиво (Tiger, Heineken, Saigon Special)",
+    "name_ja": "ローカルビール（タイガー / ハイネケン / サイゴンスペシャル）",
+    "name_hi": "लोकल बीयर (टाइगर, हेनेकेन, साइगॉन स्पेशल)"
+  },
+  {
+    "name_original": "Corona Extra",
+    "name_ko": "코로나 엑스트라 (병)",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Corona Extra Beer",
+    "name_zh": "科罗娜特级啤酒",
+    "name_ru": "Пиво Corona Extra",
+    "name_ja": "コロナ・エキストラ（ボトル）",
+    "name_hi": "कोरोना एक्स्ट्रा बीयर"
+  },
+  {
+    "name_original": "Mellow Yellow Mocktail",
+    "name_ko": "멜로우 옐로우 시그니처 목테일",
+    "place_ids": [
+      "ChIJD-a4fwCVpzERA9KJ8gWE4cA"
+    ],
+    "name_en": "Mellow Yellow Mocktail",
+    "name_zh": "醇黄招牌无酒精鸡尾酒",
+    "name_ru": "Безалкогольный коктейль Mellow Yellow",
+    "name_ja": "メロウイエロー 特製モクテル",
+    "name_hi": "मेलो येलो मॉकटेल"
+  },
+  {
+    "name_original": "Radicchio Salad",
+    "name_ko": "라디치오 샐러드 (적양배추 샐러드)",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Radicchio Salad",
+    "name_zh": "红菊苣沙拉",
+    "name_ru": "Салат из радиккьо",
+    "name_ja": "ラディッキオのサラダ",
+    "name_hi": "रेडिकियो सलाद"
+  },
+  {
+    "name_original": "Fritto Misto",
+    "name_ko": "프리토 미스토 (해산물 모둠 튀김)",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Fritto Misto (Mixed Fried Seafood)",
+    "name_zh": "意式综合炸海鲜拼盘",
+    "name_ru": "Фритто мисто (ассорти жареных морепродуктов)",
+    "name_ja": "フリットミスト（魚介のフリット盛り合わせ）",
+    "name_hi": "फ्रिट्टो मिस्टो (मिक्स्ड फ्राइड सीफ़ूड)"
+  },
+  {
+    "name_original": "Burrata Salad",
+    "name_ko": "부라타 샐러드",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Burrata Salad",
+    "name_zh": "布拉塔芝士沙拉",
+    "name_ru": "Салат с бурратой",
+    "name_ja": "ブッラータチーズのサラダ",
+    "name_hi": "बुराटा सलाद"
+  },
+  {
+    "name_original": "Garden Green Salad",
+    "name_ko": "가든 그린 샐러드",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Garden Green Salad",
+    "name_zh": "田园蔬菜沙拉",
+    "name_ru": "Зеленый садовый салат",
+    "name_ja": "ガーデングリーンサラダ",
+    "name_hi": "गार्डन ग्रीन सलाद"
+  },
+  {
+    "name_original": "Gambas al Ajillo",
+    "name_ko": "감바스 알 아히요 (스페인식 마늘 새우)",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Gambas al Ajillo (Garlic Prawns)",
+    "name_zh": "西班牙蒜香虾",
+    "name_ru": "Гамбас аль ахильо (креветки с чесноком)",
+    "name_ja": "ガンバス・アル・アヒージョ（海老のアヒージョ）",
+    "name_hi": "गाम्बास अल अजिल्लो (गार्लिक प्रॉन्स)"
+  },
+  {
+    "name_original": "Spanish Scallops",
+    "name_ko": "스페인식 관자 요리",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Spanish-Style Scallops",
+    "name_zh": "西班牙风味扇贝",
+    "name_ru": "Морские гребешки по-испански",
+    "name_ja": "スペイン風ホタテ料理",
+    "name_hi": "स्पैनिश-स्टाइल स्कैलप्स"
+  },
+  {
+    "name_original": "Selection of Italian & Spanish Cold Cut & Cheese",
+    "name_ko": "이탈리아 & 스페인 샤퀴테리 & 치즈 모둠",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Italian & Spanish Cold Cuts and Cheese Platter",
+    "name_zh": "意式与西式冷肉切片及芝士拼盘",
+    "name_ru": "Ассорти итальянских и испанских мясных деликатесов и сыров",
+    "name_ja": "イタリア＆スペイン産シャルキュトリー＆チーズ盛り合わせ",
+    "name_hi": "इटैलियन और स्पैनिश कोल्ड कट्स और चीज़ प्लेटर"
+  },
+  {
+    "name_original": "Peas Soup",
+    "name_ko": "완두콩 크림 수프",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Green Pea Cream Soup",
+    "name_zh": "青豆奶油浓汤",
+    "name_ru": "Крем-суп из зеленого горошка",
+    "name_ja": "グリンピースのクリームスープ",
+    "name_hi": "ग्रीन पी क्रीम सूप"
+  },
+  {
+    "name_original": "Beef Carpaccio",
+    "name_ko": "소고기 카르파초",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Beef Carpaccio",
+    "name_zh": "生牛肉卡尔帕乔薄片",
+    "name_ru": "Карпаччо из говядины",
+    "name_ja": "牛肉のカルパッチョ",
+    "name_hi": "बीफ कार्पाचियो"
+  },
+  {
+    "name_original": "Spaghetti Carbonara (Finished Tableside)",
+    "name_ko": "스파게티 카르보나라 (테이블사이드 연출)",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Spaghetti Carbonara (Tableside Preparation)",
+    "name_zh": "桌边现拌培根蛋酱意面",
+    "name_ru": "Спагетти карбонара с подачей у стола",
+    "name_ja": "テーブルサイド仕上げのスパゲッティ・カルボナーラ",
+    "name_hi": "स्पेगेटी कार्बोनारा (टेबलसाइड तैयारी)"
+  },
+  {
+    "name_original": "Spaghetti ai Frutti di Mare",
+    "name_ko": "스파게티 아이 프루티 디 마레 (해산물 스파게티)",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Spaghetti ai Frutti di Mare (Seafood Spaghetti)",
+    "name_zh": "海鲜意式细面",
+    "name_ru": "Спагетти с морепродуктами (Фрутти ди маре)",
+    "name_ja": "スパゲッティ・アイ・フルッティ・ディ・マーレ（海鮮パスタ）",
+    "name_hi": "स्पेगेटी ऐ फ्रूटी डी मारे (सीफ़ूड स्पेगेटी)"
+  },
+  {
+    "name_original": "Lasagne",
+    "name_ko": "라자냐",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Traditional Baked Lasagna",
+    "name_zh": "传统焗烤千层面",
+    "name_ru": "Традиционная запеченная лазанья",
+    "name_ja": "伝統的な窯焼きラザニア",
+    "name_hi": "पारंपरिक बेक्ड लज़ानिया"
+  },
+  {
+    "name_original": "Crab Ravioli",
+    "name_ko": "게살 라비올리 (오징어 먹물 생면)",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Squid Ink Crab Ravioli",
+    "name_zh": "墨鱼汁蟹肉意大利饺",
+    "name_ru": "Равиоли с крабом в тесте с чернилами каракатицы",
+    "name_ja": "イカ墨パスタ生地の蟹肉ラビオリ",
+    "name_hi": "स्क्विड इंक क्रैब रैवियोली"
+  },
+  {
+    "name_original": "Clam Tagliolini",
+    "name_ko": "조개 딸리올리니 생면 파스타",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Fresh Clam Tagliolini Pasta",
+    "name_zh": "蛤蜊手工细扁面",
+    "name_ru": "Тальолини ручной работы с моллюсками",
+    "name_ja": "アサリの手打ちタリオリーニ生パスタ",
+    "name_hi": "हैंडमेड क्लैम टैलियोलिनी पास्ता"
+  },
+  {
+    "name_original": "Potato Gnocchi",
+    "name_ko": "수제 감자 뇨끼",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Handmade Potato Gnocchi",
+    "name_zh": "手工土豆团子",
+    "name_ru": "Домашние картофельные ньокки",
+    "name_ja": "手作りポテトニョッキ",
+    "name_hi": "हैंडमेड पोटैटो न्योकी"
+  },
+  {
+    "name_original": "La Classica",
+    "name_ko": "라 클라시카 피자",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "La Classica Pizza",
+    "name_zh": "经典披萨",
+    "name_ru": "Пицца Классика",
+    "name_ja": "ラ・クラシカ ピザ",
+    "name_hi": "ला क्लासिका पिज़्ज़ा"
+  },
+  {
+    "name_original": "Quattro Formaggi",
+    "name_ko": "콰트로 포르마지 (4종 치즈 피자)",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Quattro Formaggi Pizza (Four Cheese)",
+    "name_zh": "四重芝士经典披萨",
+    "name_ru": "Пицца Кватро Формаджи (Четыре сыра)",
+    "name_ja": "クアトロ・フォルマッジ（4種のチーズピザ）",
+    "name_hi": "क्वात्रो फोर्म्माजी पिज़्ज़ा (फोर-चीज़)"
+  },
+  {
+    "name_original": "Bianca",
+    "name_ko": "비앙카 피자",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Bianca White Pizza",
+    "name_zh": "白披萨",
+    "name_ru": "Пицца Бьянка",
+    "name_ja": "ビアンカ ピザ",
+    "name_hi": "बियान्का व्हाइट पिज़्ज़ा"
+  },
+  {
+    "name_original": "Tartufo",
+    "name_ko": "타르투포 (트러플 감자 피자)",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Tartufo Truffle Potato Pizza",
+    "name_zh": "松露土豆披萨",
+    "name_ru": "Пицца Тартуфо с трюфелем и картофелем",
+    "name_ja": "タルトゥーフォ（トリュフとポテトのピザ）",
+    "name_hi": "टार्टूफो ट्रफल पोटैटो पिज़्ज़ा"
+  },
+  {
+    "name_original": "Pizza di Mare",
+    "name_ko": "피자 디 마레 (해산물 피자)",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Pizza di Mare (Seafood Pizza)",
+    "name_zh": "海鲜披萨",
+    "name_ru": "Пицца с морепродуктами (ди Маре)",
+    "name_ja": "ピッツァ・ディ・マーレ（シーフードピザ）",
+    "name_hi": "पिज़्ज़ा दी मारे (सीफ़ूड पिज़्ज़ा)"
+  },
+  {
+    "name_original": "Australia Lamb Rack",
+    "name_ko": "호주산 양갈비 숯불구이",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Australian Grilled Rack of Lamb",
+    "name_zh": "炭烤澳洲羊排",
+    "name_ru": "Австралийское каре ягненка на углях",
+    "name_ja": "オーストラリア産ラムラックの炭火焼き",
+    "name_hi": "ग्रिल्ड ऑस्ट्रेलियन लैम्ब रैक"
+  },
+  {
+    "name_original": "Australian Tenderloin 250g",
+    "name_ko": "호주산 안심 스테이크 (250g)",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Australian Beef Tenderloin Steak (250g)",
+    "name_zh": "澳洲牛里脊牛排（250克）",
+    "name_ru": "Австралийская говяжья вырезка (250 г)",
+    "name_ja": "オーストラリア産牛テンダーロインステーキ（250g）",
+    "name_hi": "ऑस्ट्रेलियन बीफ टेंडरलॉइन स्टेक (250 ग्राम)"
+  },
+  {
+    "name_original": "Japanese Rib Eye Wagyu MB 6-7 (300g)",
+    "name_ko": "일본산 와규 꽃등심 립아이 MB 6-7 (300g)",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Japanese Wagyu Ribeye Steak MB 6-7 (300g)",
+    "name_zh": "日本和牛肋眼牛排 MB 6-7（300克）",
+    "name_ru": "Японский рибай вагю MB 6-7 (300 г)",
+    "name_ja": "日本産和牛リブアイステーキ MB 6-7（300g）",
+    "name_hi": "जापानी वाग्यू रिब-आई स्टेक एमबी 6-7 (300 ग्राम)"
+  },
+  {
+    "name_original": "Australian Fiorentina 1KG (T-Bone)",
+    "name_ko": "호주산 피오렌티나 티본 스테이크 (1kg)",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Australian Fiorentina T-Bone Steak (1kg)",
+    "name_zh": "澳洲佛罗伦萨T骨牛排（1公斤）",
+    "name_ru": "Австралийский стейк ти-бон по-флорентийски (1 кг)",
+    "name_ja": "オーストラリア産フィオレンティーナ Tボーンステーキ（1kg）",
+    "name_hi": "ऑस्ट्रेलियन फियोरेंटीना टी-बोन स्टेक (1 किग्रा)"
+  },
+  {
+    "name_original": "Octopus Tentacles",
+    "name_ko": "문어 다리 팬 시어링 구이",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Pan-Seared Octopus Tentacles",
+    "name_zh": "香煎章鱼足",
+    "name_ru": "Щупальца осьминога, обжаренные на сковороде",
+    "name_ja": "タコの足のフライパンソテー",
+    "name_hi": "पैन-सीयर ऑक्टोपस टेंटेकल्स"
+  },
+  {
+    "name_original": "Pan-Fried Red Snapper",
+    "name_ko": "도미(레드 스내퍼) 필레 구이",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Pan-Fried Red Snapper Fillet",
+    "name_zh": "香煎红鲷鱼柳",
+    "name_ru": "Обжаренное филе красного луциана",
+    "name_ja": "真鯛（レッドスナッパー）フィレのソテー",
+    "name_hi": "पैन-फ्राइड रेड स्नैपर फिलेट"
+  },
+  {
+    "name_original": "Anticucho Pan-Fried Seabass",
+    "name_ko": "안티쿠초 농어 필레 구이",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Anticucho Pan-Fried Seabass Fillet",
+    "name_zh": "安蒂库乔风味香煎海鲈鱼柳",
+    "name_ru": "Филе сибаса по-перуански (антикучо)",
+    "name_ja": "ペルー風アンティクーチョ シーバスフィレのソテー",
+    "name_hi": "एंटीकुचो पैन-फ्राइड सीबास फिलेट"
+  },
+  {
+    "name_original": "King Prawns",
+    "name_ko": "킹프라운 왕새우 구이",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Grilled King Prawns",
+    "name_zh": "炭烤大头王虾",
+    "name_ru": "Королевские креветки на гриле",
+    "name_ja": "キングプラウン大エビのグリル",
+    "name_hi": "ग्रिल्ड किंग प्रॉन्स"
+  },
+  {
+    "name_original": "Mashed Potato with Goat Cheese",
+    "name_ko": "염소치즈 매시드 포테이토",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Mashed Potatoes with Goat Cheese",
+    "name_zh": "山羊奶酪土豆泥",
+    "name_ru": "Картофельное пюре с козьим сыром",
+    "name_ja": "ヤギのチーズ入りマッシュポテト",
+    "name_hi": "गोट चीज़ मैश्ड पोटैटो"
+  },
+  {
+    "name_original": "Parma Ham & Asparagus",
+    "name_ko": "파르마 햄 & 아스파라거스",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Parma Ham & Asparagus",
+    "name_zh": "帕尔马火腿配芦笋",
+    "name_ru": "Пармская ветчина со спаржей",
+    "name_ja": "パルマ産生ハムとアスパラガス",
+    "name_hi": "पार्मा हैम और एस्परैगस"
+  },
+  {
+    "name_original": "Pan-Roasted Rustic Vegetables with Balsamic",
+    "name_ko": "구운 모둠 채소와 발사믹 리덕션",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Pan-Roasted Rustic Vegetables with Balsamic Glaze",
+    "name_zh": "香醋煎田园时蔬拼盘",
+    "name_ru": "Запеченные деревенские овощи под бальзамическим кремом",
+    "name_ja": "焼き野菜の盛り合わせ バルサミコソース",
+    "name_hi": "बाल्सामिक ग्लेज़ के साथ भुनी सब्ज़ियाँ"
+  },
+  {
+    "name_original": "Grilled Broccolini with Garlic",
+    "name_ko": "마늘 브로콜리니 구이",
+    "place_ids": [
+      "ChIJFUbrywqVpzERZ-766zaQ1NE"
+    ],
+    "name_en": "Grilled Broccolini with Garlic",
+    "name_zh": "蒜香烤西兰苔",
+    "name_ru": "Брокколини на гриле с чесноком",
+    "name_ja": "ニンニクとブロッコリーニのグリル",
+    "name_hi": "लहसुन के साथ ग्रिल्ड ब्रोकोलिनी"
+  }
+]

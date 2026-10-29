@@ -1,0 +1,5490 @@
+{
+ "Cà phê Phin Sữa Đá / Cốt Dừa": {
+  "en": "Vietnamese Iced Coffee with Condensed Milk / Coconut Coffee",
+  "zh": "越南炼乳冰咖啡 / 椰奶咖啡",
+  "ru": "Вьетнамский кофе со сгущенным молоком и льдом / кокосовый кофе",
+  "ja": "ベトナム練乳アイスコーヒー / ココナッツコーヒー",
+  "hi": "वियतनामी कंडेंस्ड मिल्क आइस्ड कॉफ़ी / नारियल कॉफ़ी"
+ },
+ "Cà phê Americano / Espresso": {
+  "en": "Americano / Espresso",
+  "zh": "美式咖啡 / 意式浓缩咖啡",
+  "ru": "Американо / Эспрессо",
+  "ja": "アメリカーノ / エスプレッソ",
+  "hi": "अमेरिकानो / एस्प्रेसो"
+ },
+ "Sinh tố Xoài / Trái cây nhiệt đới": {
+  "en": "Mango Smoothie / Tropical Fruit Juice",
+  "zh": "芒果冰沙 / 热带水果汁",
+  "ru": "Смузи из манго / Сок из тропических фруктов",
+  "ja": "マンゴースムージー / トロピカルフルーツジュース",
+  "hi": "मैंगो स्मूदी / ट्रॉपिकल फ्रूट जूस"
+ },
+ "Signature Tropical Sunset Cocktail": {
+  "en": "Signature Tropical Sunset Cocktail",
+  "zh": "日落招牌热带鸡尾酒",
+  "ru": "Фирменный тропический коктейль «Сансет»",
+  "ja": "シグネチャートロピカルサンセットカクテル",
+  "hi": "सिग्नेचर ट्रॉपिकल सनसेट कॉकटेल"
+ },
+ "Bia Tươi / Bia Thủ Công Craft Beer": {
+  "en": "Draft Beer / Craft Beer",
+  "zh": "生啤酒 / 精酿啤酒",
+  "ru": "Разливное пиво / Крафтовое пиво",
+  "ja": "生ビール / クラフトビール",
+  "hi": "ड्राफ्ट बीयर / क्राफ्ट बीयर"
+ },
+ "Bar Bites & Finger Foods": {
+  "en": "Bar Bites & Finger Foods",
+  "zh": "酒吧小吃与手抓小食",
+  "ru": "Барные закуски и закуски для еды руками",
+  "ja": "バースナック＆フィンガーフード",
+  "hi": "बार स्नैक्स और फिंगर फूड"
+ },
+ "Traditional Vietnamese Pho / Bun Bo Hue": {
+  "en": "Traditional Vietnamese Phở / Bún bò Huế",
+  "zh": "越南传统河粉（Phở）/ 顺化牛肉米粉（Bún bò Huế）",
+  "ru": "Традиционный вьетнамский фо (Phở) / Бун бо Хюэ (Bún bò Huế)",
+  "ja": "伝統的なベトナムフォー / ブンボーフエ",
+  "hi": "पारंपरिक वियतनामी फो / बुन बो ह्यू"
+ },
+ "Western Breakfast Combo": {
+  "en": "Western Breakfast Combo",
+  "zh": "西式早餐套餐",
+  "ru": "Западный завтрак-комбо",
+  "ja": "ウェスタンブレックファストコンボ",
+  "hi": "वेस्टर्न ब्रेकफास्ट कॉम्बो"
+ },
+ "All-day Casual Bistro Mains": {
+  "en": "All-Day Casual Bistro Mains",
+  "zh": "全日休闲小酒馆主菜",
+  "ru": "Основные блюда бистро на весь день",
+  "ja": "オールデイ・カジュアルビストロメイン料理",
+  "hi": "ऑल-डे कैज़ुअल बिस्ट्रो मेन कोर्स"
+ },
+ "BBQ Seafood Dinner Buffet": {
+  "en": "BBQ Seafood Dinner Buffet",
+  "zh": "海鲜烧烤自助晚餐",
+  "ru": "Ужин «шведский стол» с морепродуктами барбекю",
+  "ja": "BBQシーフードディナービュッフェ",
+  "hi": "बारबेक्यू सीफ़ूड डिनर बुफे"
+ },
+ "Cá thu Nhật nướng muối / sốt Teriyaki (Grilled Saba Mackerel)": {
+  "en": "Grilled Mackerel with Salt / Teriyaki Sauce",
+  "zh": "盐烤青花鱼 / 照烧青花鱼",
+  "ru": "Скумбрия на гриле с солью / соусом терияки",
+  "ja": "鯖の塩焼き / 照り焼き",
+  "hi": "नमक / तेरियाकी सॉस के साथ ग्रिल्ड मैकेरल मछली"
+ },
+ "Cá trích nướng Shishamo (Grilled Shishamo)": {
+  "en": "Grilled Shishamo Smelt",
+  "zh": "炭烤多春鱼",
+  "ru": "Шишамо на углях",
+  "ja": "子持ちししゃもの炭火焼き",
+  "hi": "ग्रिल्ड शीशामो मछली"
+ },
+ "Cá hồi nướng sốt Teriyaki (Grilled Salmon Teriyaki)": {
+  "en": "Grilled Salmon with Teriyaki Sauce",
+  "zh": "照烧炭烤三文鱼",
+  "ru": "Лосось на гриле в соусе терияки",
+  "ja": "サーモンの照り焼き",
+  "hi": "तेरियाकी सॉस में ग्रिल्ड साल्मन"
+ },
+ "Hàu sữa Nhật tươi sống (Fresh Japanese Oysters)": {
+  "en": "Fresh Japanese Oysters Platter",
+  "zh": "新鲜日本生蚝拼盘",
+  "ru": "Свежие японские устрицы",
+  "ja": "新鮮な日本の生牡蠣プレート",
+  "hi": "ताज़ा जापानी ऑयस्टर प्लेटर"
+ },
+ "Mì Ramen hải sản Yushima (Seafood Ramen)": {
+  "en": "Yushima Seafood Ramen",
+  "zh": "Yushima海鲜拉面",
+  "ru": "Рамен с морепродуктами Yushima",
+  "ja": "Yushima 海鮮ラーメン",
+  "hi": "युशिमा सीफ़ूड रामेन"
+ },
+ "Cơm lươn Nhật nướng sốt Kabayaki (Unagi Don)": {
+  "en": "Grilled Eel Rice Bowl (Unadon)",
+  "zh": "蒲烧鳗鱼饭",
+  "ru": "Рис с жареным угрем в соусе кабаяки (Унаги-дон)",
+  "ja": "鰻の蒲焼き丼",
+  "hi": "ग्रिल्ड ईल राइस बाउल (उनागी दोन)"
+ },
+ "Thuyền Sashimi tổng hợp (Mixed Sashimi Boat)": {
+  "en": "Mixed Sashimi Boat",
+  "zh": "综合刺身船",
+  "ru": "Ассорти сашими в лодке для подачи",
+  "ja": "刺身盛り合わせ舟盛り",
+  "hi": "मिक्स्ड साशिमी बोट"
+ },
+ "Halal Beef / Chicken Curry with Roti": {
+  "en": "Halal Beef / Chicken Curry with Roti",
+  "zh": "清真牛肉 / 鸡肉咖喱配印度薄饼（Roti）",
+  "ru": "Халяльное карри из говядины / курицы с лепёшкой роти",
+  "ja": "ハラール 牛肉 / チキンカレー ロティ付き",
+  "hi": "हलाल बीफ / चिकन करी रोटी के साथ"
+ },
+ "Halal Vietnamese Beef Pho": {
+  "en": "Halal Vietnamese Beef Pho",
+  "zh": "清真越南牛肉河粉",
+  "ru": "Халяльный вьетнамский фо с говядиной",
+  "ja": "ハラール対応ベトナム牛肉フォー",
+  "hi": "हलाल वियतनामी बीफ फो"
+ },
+ "Nasi Goreng Halal": {
+  "en": "Halal Nasi Goreng",
+  "zh": "清真印尼炒饭（Nasi Goreng）",
+  "ru": "Халяльный наси-горенг",
+  "ja": "ハラール対応ナシゴレン",
+  "hi": "हलाल नासी गोरेंग"
+ },
+ "Bia Tươi Tiger Crystal / Heineken Cold": {
+  "en": "Tiger Crystal / Heineken Draft Beer",
+  "zh": "虎牌晶纯 / 喜力生啤酒",
+  "ru": "Разливное пиво Tiger Crystal / Heineken",
+  "ja": "タイガークリスタル / ハイネケン 生ビール",
+  "hi": "टाइगर क्रिस्टल / हेनेकेन ड्राफ्ट बीयर"
+ },
+ "Bia Thủ Công Jasmine IPA (Pasteur Street)": {
+  "en": "Pasteur Street Jasmine IPA Craft Beer",
+  "zh": "巴斯德街茉莉花IPA精酿啤酒",
+  "ru": "Крафтовое пиво Jasmine IPA (Pasteur Street)",
+  "ja": "パスツールストリート ジャスミンIPA クラフトビール",
+  "hi": "पाश्चर स्ट्रीट जैस्मीन आईपीए क्राफ्ट बीयर"
+ },
+ "Gỏi Cá Trích Phú Quốc (Phu Quoc Herring Salad)": {
+  "en": "Phu Quoc Herring Salad (Gỏi cá trích)",
+  "zh": "富国岛传统鲱鱼沙拉",
+  "ru": "Салат из сельди по-фукуокски",
+  "ja": "フーコック風ニシンのサラダ（Gỏi cá trích）",
+  "hi": "फू क्वोक हेरिंग सलाद"
+ },
+ "Mực Trứng Nướng Muối Ớt (Grilled Egg Squid with Chili Salt)": {
+  "en": "Grilled Egg Squid with Chili Salt",
+  "zh": "辣椒盐烤抱卵鱿鱼",
+  "ru": "Кальмар с икрой на углях с солью и чили",
+  "ja": "子持ちイカの唐辛子塩炭火焼き",
+  "hi": "मिर्च-नमक के साथ ग्रिल्ड एग स्क्विड"
+ },
+ "Sườn Heo Nướng Sốt BBQ (Grilled BBQ Pork Ribs)": {
+  "en": "Grilled BBQ Pork Ribs",
+  "zh": "BBQ酱烤猪肋排",
+  "ru": "Свиные ребрышки барбекю на гриле",
+  "ja": "BBQソースのポークリブグリル",
+  "hi": "ग्रिल्ड बारबेक्यू पोर्क रिब्स"
+ },
+ "Combo Nướng Than Hoa Lagoon (Lagoon BBQ Platter)": {
+  "en": "Lagoon Charcoal BBQ Platter",
+  "zh": "Lagoon炭火烧烤拼盘",
+  "ru": "Ассорти барбекю на углях Lagoon",
+  "ja": "Lagoon 炭火焼きBBQ盛り合わせ",
+  "hi": "Lagoon चारकोल BBQ प्लेटर"
+ },
+ "Đĩa hải sản lạnh phong cách Pháp (Chilled Seafood Platter)": {
+  "en": "French-Style Chilled Seafood Platter",
+  "zh": "法式冷海鲜拼盘",
+  "ru": "Охлаждённое ассорти морепродуктов по-французски",
+  "ja": "フランス風冷製シーフードプラッター",
+  "hi": "फ्रेंच-स्टाइल चिल्ड सीफ़ूड प्लेटर"
+ },
+ "Lẩu hải sản Địa Trung Hải (Mediterranean Seafood Hot Pot)": {
+  "en": "Mediterranean Seafood Hot Pot",
+  "zh": "地中海风味海鲜火锅",
+  "ru": "Средиземноморский хот-пот с морепродуктами",
+  "ja": "地中海風海鮮鍋",
+  "hi": "मेडिटेरेनियन सीफ़ूड हॉट पॉट"
+ },
+ "Sườn heo nướng sốt BBQ": {
+  "en": "Grilled Pork Ribs with BBQ Sauce",
+  "zh": "BBQ酱烤猪肋排",
+  "ru": "Свиные ребрышки на гриле в соусе барбекю",
+  "ja": "BBQソースのポークリブ焼き",
+  "hi": "बारबेक्यू सॉस में ग्रिल्ड पोर्क रिब्स"
+ },
+ "Mực trứng chiên mắm / nướng": {
+  "en": "Fried Egg Squid with Fish Sauce / Grilled",
+  "zh": "鱼露炸抱卵鱿鱼 / 烤抱卵鱿鱼",
+  "ru": "Кальмар с икрой, жаренный с рыбным соусом / на гриле",
+  "ja": "子持ちイカの魚醤炒め / 焼き",
+  "hi": "फिश सॉस में फ्राइड / ग्रिल्ड एग स्क्विड"
+ },
+ "Lẩu hải sản chua cay bình dân": {
+  "en": "Value Hot & Sour Seafood Hot Pot",
+  "zh": "实惠酸辣海鲜火锅",
+  "ru": "Доступный кисло-острый хот-пот с морепродуктами",
+  "ja": "お手頃価格の酸辣海鮮鍋",
+  "hi": "किफ़ायती खट्टा-तीखा सीफ़ूड हॉट पॉट"
+ },
+ "Hải sản nướng muối ớt One Boat": {
+  "en": "One Boat Grilled Seafood with Chili Salt",
+  "zh": "One Boat辣椒盐烤海鲜",
+  "ru": "Морепродукты на гриле с солью и чили от One Boat",
+  "ja": "One Boat チリ塩シーフードグリル",
+  "hi": "One Boat चिली सॉल्ट ग्रिल्ड सीफ़ूड"
+ },
+ "Combo Hải sản Cướp biển (Pirate Seafood Combo)": {
+  "en": "Pirate Seafood Combo",
+  "zh": "海盗海鲜套餐",
+  "ru": "Пиратский набор морепродуктов",
+  "ja": "パイレーツ シーフードコンボ",
+  "hi": "पाइरेट सीफ़ूड कॉम्बो"
+ },
+ "Coconut Chia Pudding & Fresh Fruits": {
+  "en": "Coconut Chia Pudding & Fresh Fruits",
+  "zh": "椰香奇亚籽布丁配新鲜水果",
+  "ru": "Кокосовый чиа-пудинг со свежими фруктами",
+  "ja": "ココナッツチアプリン＆フレッシュフルーツ",
+  "hi": "कोकोनट चिया पुडिंग और ताज़े फल"
+ },
+ "Nutritious Breakfast Bowl": {
+  "en": "Nutritious Breakfast Bowl",
+  "zh": "营养早餐碗",
+  "ru": "Питательный боул на завтрак",
+  "ja": "栄養満点ブレックファストボウル",
+  "hi": "पौष्टिक ब्रेकफास्ट बाउल"
+ },
+ "Eggs Benedict / Royale": {
+  "en": "Eggs Benedict / Eggs Royale",
+  "zh": "班尼迪克蛋 / 皇家班尼迪克蛋",
+  "ru": "Яйца Бенедикт / Яйца Рояль",
+  "ja": "エッグベネディクト / エッグロワイヤル",
+  "hi": "एग्स बेनेडिक्ट / एग्स रॉयल"
+ },
+ "Vietnamese Breakfast Pho (Beef / Chicken)": {
+  "en": "Traditional Vietnamese Breakfast Pho (Beef / Chicken)",
+  "zh": "越南传统早餐河粉（牛肉 / 鸡肉）",
+  "ru": "Традиционный вьетнамский фо на завтрак (с говядиной / курицей)",
+  "ja": "ベトナム伝統朝食フォー（牛肉 / 鶏肉）",
+  "hi": "पारंपरिक वियतनामी ब्रेकफास्ट फो (बीफ / चिकन)"
+ },
+ "Gỏi ngó sen tôm mực (Lotus Stem Salad with Prawn & Squid)": {
+  "en": "Lotus Stem Salad with Prawns & Squid",
+  "zh": "鲜虾鱿鱼莲藕带沙拉",
+  "ru": "Салат из стеблей лотоса с креветками и кальмарами",
+  "ja": "海老とイカの蓮の茎サラダ",
+  "hi": "झींगा और स्क्विड के साथ कमल के तने का सलाद"
+ },
+ "Quinoa Salad": {
+  "en": "Quinoa Salad",
+  "zh": "藜麦沙拉",
+  "ru": "Салат с киноа",
+  "ja": "キヌアサラダ",
+  "hi": "क्विनोआ सलाद"
+ },
+ "Phu Quoc Seafood Caesar Salad": {
+  "en": "Phu Quoc Seafood Caesar Salad",
+  "zh": "富国岛海鲜凯撒沙拉",
+  "ru": "Салат Цезарь с морепродуктами по-фукуокски",
+  "ja": "フーコック海鮮シーザーサラダ",
+  "hi": "फू क्वोक सीफ़ूड सीज़र सलाद"
+ },
+ "Bún hải sản làng chài (Phu Quoc Seafood Noodle Soup)": {
+  "en": "Fishing Village Seafood Rice Noodle Soup (Bún hải sản)",
+  "zh": "富国岛渔村海鲜米粉",
+  "ru": "Рыбацкий суп с рисовой лапшой и морепродуктами по-фукуокски",
+  "ja": "漁村風海鮮米麺スープ（Bún hải sản）",
+  "hi": "फू क्वोक फिशिंग विलेज सीफ़ूड नूडल सूप"
+ },
+ "Nem rán Hà Nội (Hanoi Deep Fried Spring Rolls)": {
+  "en": "Hanoi Crispy Fried Spring Rolls",
+  "zh": "河内风味香脆炸春卷",
+  "ru": "Хрустящие жареные спринг-роллы по-ханойски",
+  "ja": "ハノイ風クリスピー揚げ春巻き",
+  "hi": "हनोई क्रिस्पी फ्राइड स्प्रिंग रोल्स"
+ },
+ "Cơm chiên ghẹ Phú Quốc (Phu Quoc Flower Crab Fried Rice)": {
+  "en": "Phu Quoc Flower Crab Fried Rice",
+  "zh": "富国岛花蟹肉炒饭",
+  "ru": "Жареный рис с мясом краба по-фукуокски",
+  "ja": "フーコック産ワタリガニチャーハン",
+  "hi": "फू क्वोक फ्लावर क्रैब फ्राइड राइस"
+ },
+ "Cá kho tộ tiêu Phú Quốc (Claypot Braised Fish)": {
+  "en": "Phu Quoc Claypot Braised Fish with Black Pepper",
+  "zh": "富国岛黑胡椒砂锅焖鱼",
+  "ru": "Рыба в глиняном горшочке с фукуокским черным перцем",
+  "ja": "フーコック産黒胡椒入り土鍋魚の煮付け",
+  "hi": "फू क्वोक काली मिर्च के साथ मिट्टी के बर्तन में पकी मछली"
+ },
+ "Australian Beef Rib with Tamarind Sauce": {
+  "en": "Australian Beef Ribs with Tamarind Sauce",
+  "zh": "澳洲牛肋排配罗望子酱",
+  "ru": "Австралийские говяжьи ребрышки под тамариндовым соусом",
+  "ja": "オーストラリア産牛リブのタマリンドソースがけ",
+  "hi": "इमली सॉस के साथ ऑस्ट्रेलियाई बीफ रिब्स"
+ },
+ "Grilled Black Angus Ribeye": {
+  "en": "Grilled Black Angus Ribeye Steak",
+  "zh": "烤黑安格斯肋眼牛排",
+  "ru": "Стейк рибай из черного ангуса на гриле",
+  "ja": "ブラックアンガスのリブアイステーキ",
+  "hi": "ग्रिल्ड ब्लैक एंगस रिब-आई स्टेक"
+ },
+ "Pan-seared Salmon Fillet": {
+  "en": "Pan-Seared Salmon Fillet",
+  "zh": "香煎三文鱼柳",
+  "ru": "Обжаренное филе лосося",
+  "ja": "サーモンフィレのソテー",
+  "hi": "पैन-सीयर साल्मन फिलेट"
+ },
+ "Chicken Club Sandwich": {
+  "en": "Chicken Club Sandwich",
+  "zh": "鸡肉俱乐部三明治",
+  "ru": "Клаб-сэндвич с курицей",
+  "ja": "チキンクラブハウスサンドイッチ",
+  "hi": "चिकन क्लब सैंडविच"
+ },
+ "The Merchant Wagyu Burger": {
+  "en": "The Merchant Wagyu Burger",
+  "zh": "The Merchant和牛汉堡",
+  "ru": "Бургер с вагю The Merchant",
+  "ja": "The Merchant 和牛バーガー",
+  "hi": "The Merchant वाग्यू बर्गर"
+ },
+ "Four Cheese Ravioli": {
+  "en": "Four Cheese Ravioli",
+  "zh": "四重芝士意大利饺",
+  "ru": "Равиоли с четырьмя сырами",
+  "ja": "4種のチーズのラビオリ",
+  "hi": "फोर चीज़ रैवियोली"
+ },
+ "12-Hour Sourdough Pizza Margarita": {
+  "en": "12-Hour Sourdough Margherita Pizza",
+  "zh": "12小时酸种面团玛格丽特披萨",
+  "ru": "Пицца Маргарита на 12-часовом тесте на закваске",
+  "ja": "12時間熟成天然酵母マルゲリータピザ",
+  "hi": "12 घंटे किण्वित सोरडो मार्गरिटा पिज़्ज़ा"
+ },
+ "Korean Seafood Ramen": {
+  "en": "Korean Seafood Ramen",
+  "zh": "韩式海鲜拉面",
+  "ru": "Корейский рамен с морепродуктами",
+  "ja": "韓国風海鮮ラーメン",
+  "hi": "कोरियन सीफ़ूड रामेन"
+ },
+ "Korean Crispy Fried Chicken": {
+  "en": "Korean Crispy Fried Chicken",
+  "zh": "韩式脆皮炸鸡",
+  "ru": "Хрустящая жареная курица по-корейски",
+  "ja": "韓国風クリスピーフライドチキン",
+  "hi": "कोरियन क्रिस्पी फ्राइड चिकन"
+ },
+ "Kimchi Fried Rice with Fried Egg": {
+  "en": "Kimchi Fried Rice with Fried Egg",
+  "zh": "泡菜炒饭配煎蛋",
+  "ru": "Жареный рис с кимчи и яичницей",
+  "ja": "キムチチャーハン 目玉焼き添え",
+  "hi": "किमची फ्राइड राइस फ्राइड एग के साथ"
+ },
+ "Dal Makhani (Indian Lentil Curry)": {
+  "en": "Dal Makhani (Indian Lentil Curry)",
+  "zh": "印度黑扁豆咖喱（达尔玛克尼）",
+  "ru": "Дал макхани (индийское карри из чечевицы)",
+  "ja": "ダルマッカニー（インド風レンズ豆の黒カレー）",
+  "hi": "दाल मखनी"
+ },
+ "Butter Chicken (Murgh Makhani)": {
+  "en": "Butter Chicken (Murgh Makhani)",
+  "zh": "黄油咖喱鸡（穆尔格玛克尼）",
+  "ru": "Баттер чикен (Мург макхани)",
+  "ja": "バターチキンカレー（ムルグマッカニー）",
+  "hi": "बटर चिकन (मुर्ग मखनी)"
+ },
+ "Garlic & Butter Naan": {
+  "en": "Garlic & Butter Naan",
+  "zh": "大蒜黄油烤饼",
+  "ru": "Чесночный и сливочный наан",
+  "ja": "ガーリック＆バターナン",
+  "hi": "गार्लिक और बटर नान"
+ },
+ "Kids Spaghetti Bolognese / Pomodoro": {
+  "en": "Kids Spaghetti Bolognese / Pomodoro",
+  "zh": "儿童意面（肉酱或番茄酱）",
+  "ru": "Детские спагетти болоньезе / помодоро",
+  "ja": "キッズスパゲッティ（ボロネーゼ / ポモドーロ）",
+  "hi": "किड्स स्पेगेटी बोलोग्नीज़ / पोमोडोरो"
+ },
+ "Kids Crispy Fish & Chips": {
+  "en": "Kids Crispy Fish & Chips",
+  "zh": "儿童脆皮炸鱼薯条",
+  "ru": "Детский хрустящий фиш-энд-чипс",
+  "ja": "キッズ クリスピーフィッシュ＆チップス",
+  "hi": "किड्स क्रिस्पी फिश एंड चिप्स"
+ },
+ "Pina Colada Mousse": {
+  "en": "Pina Colada Mousse",
+  "zh": "椰林飘香慕斯",
+  "ru": "Мусс «Пина колада»",
+  "ja": "ピニャコラーダムース",
+  "hi": "पिना कोलाडा मूस"
+ },
+ "Phu Quoc Pepper Chocolate Lava Cake": {
+  "en": "Phu Quoc Pepper Chocolate Lava Cake",
+  "zh": "富国岛胡椒熔岩巧克力蛋糕",
+  "ru": "Шоколадный фондан с фукуокским перцем",
+  "ja": "フーコックペッパー チョコレートフォンダンショコラ",
+  "hi": "फू क्वोक काली मिर्च चॉकलेट लावा केक"
+ },
+ "Northern Set Menu (2 persons)": {
+  "en": "Northern Vietnamese Set Menu (for 2)",
+  "zh": "越南北部双人套餐",
+  "ru": "Сет северной вьетнамской кухни на двоих",
+  "ja": "ベトナム北部料理セット（2名様）",
+  "hi": "उत्तरी वियतनामी सेट मेन्यू (2 लोगों के लिए)"
+ },
+ "Southern Set Menu (2 persons)": {
+  "en": "Southern Vietnamese Set Menu (for 2)",
+  "zh": "越南南部双人套餐",
+  "ru": "Сет южной вьетнамской кухни на двоих",
+  "ja": "ベトナム南部料理セット（2名様）",
+  "hi": "दक्षिणी वियतनामी सेट मेन्यू (2 लोगों के लिए)"
+ },
+ "Vietnamese Traditional Coffee (Black / Condensed Milk)": {
+  "en": "Traditional Vietnamese Coffee (Black / Condensed Milk)",
+  "zh": "越南传统咖啡（黑咖啡 / 炼乳咖啡）",
+  "ru": "Традиционный вьетнамский кофе (черный / со сгущенным молоком)",
+  "ja": "ベトナム伝統コーヒー（ブラック / 練乳）",
+  "hi": "पारंपरिक वियतनामी कॉफ़ी (ब्लैक / कंडेंस्ड मिल्क)"
+ },
+ "Selection of Sao Epicurean Tea": {
+  "en": "Sao Epicurean Tea Selection",
+  "zh": "Sao Epicurean精选茗茶系列",
+  "ru": "Ассортимент чая Sao Epicurean",
+  "ja": "Sao Epicurean ティーセレクション",
+  "hi": "Sao Epicurean टी सिलेक्शन"
+ },
+ "Local Beers (Tiger, Heineken, Saigon Special)": {
+  "en": "Local Beers (Tiger, Heineken, Saigon Special)",
+  "zh": "本地啤酒（虎牌、喜力、西贡特酿）",
+  "ru": "Местное пиво (Tiger, Heineken, Saigon Special)",
+  "ja": "ローカルビール（タイガー / ハイネケン / サイゴンスペシャル）",
+  "hi": "लोकल बीयर (टाइगर, हेनेकेन, साइगॉन स्पेशल)"
+ },
+ "Corona Extra": {
+  "en": "Corona Extra Beer",
+  "zh": "科罗娜特级啤酒",
+  "ru": "Пиво Corona Extra",
+  "ja": "コロナ・エキストラビール",
+  "hi": "कोरोना एक्स्ट्रा बीयर"
+ },
+ "Mellow Yellow Mocktail": {
+  "en": "Mellow Yellow Mocktail",
+  "zh": "Mellow Yellow无酒精鸡尾酒",
+  "ru": "Безалкогольный коктейль Mellow Yellow",
+  "ja": "Mellow Yellow モクテル",
+  "hi": "Mellow Yellow मॉकटेल"
+ },
+ "Radicchio Salad": {
+  "en": "Radicchio Salad",
+  "zh": "红菊苣沙拉",
+  "ru": "Салат из радиккьо",
+  "ja": "ラディッキオのサラダ",
+  "hi": "रेडिकियो सलाद"
+ },
+ "Fritto Misto": {
+  "en": "Fritto Misto (Mixed Fried Seafood)",
+  "zh": "意式综合炸海鲜拼盘",
+  "ru": "Фритто мисто (ассорти жареных морепродуктов)",
+  "ja": "フリットミスト（魚介のフリット盛り合わせ）",
+  "hi": "फ्रिट्टो मिस्टो (मिक्स्ड फ्राइड सीफ़ूड)"
+ },
+ "Burrata Salad": {
+  "en": "Burrata Salad",
+  "zh": "布拉塔芝士沙拉",
+  "ru": "Салат с бурратой",
+  "ja": "ブッラータチーズのサラダ",
+  "hi": "बुराटा सलाद"
+ },
+ "Garden Green Salad": {
+  "en": "Garden Green Salad",
+  "zh": "田园蔬菜沙拉",
+  "ru": "Зеленый садовый салат",
+  "ja": "ガーデングリーンサラダ",
+  "hi": "गार्डन ग्रीन सलाद"
+ },
+ "Gambas al Ajillo": {
+  "en": "Gambas al Ajillo (Garlic Prawns)",
+  "zh": "西班牙蒜香虾",
+  "ru": "Гамбас аль ахильо (креветки с чесноком)",
+  "ja": "ガンバス・アル・アヒージョ（海老のアヒージョ）",
+  "hi": "गाम्बास अल अजिल्लो (गार्लिक प्रॉन्स)"
+ },
+ "Spanish Scallops": {
+  "en": "Spanish-Style Scallops",
+  "zh": "西班牙风味扇贝",
+  "ru": "Морские гребешки по-испански",
+  "ja": "スペイン風ホタテ料理",
+  "hi": "स्पैनिश-स्टाइल स्कैलप्स"
+ },
+ "Selection of Italian & Spanish Cold Cut & Cheese": {
+  "en": "Italian & Spanish Cold Cuts and Cheese Platter",
+  "zh": "意大利与西班牙冷切肉及芝士拼盘",
+  "ru": "Ассорти итальянских и испанских мясных деликатесов и сыров",
+  "ja": "イタリア＆スペイン産シャルキュトリー＆チーズ盛り合わせ",
+  "hi": "इटैलियन और स्पैनिश कोल्ड कट्स और चीज़ प्लेटर"
+ },
+ "Peas Soup": {
+  "en": "Pea Soup",
+  "zh": "豌豆汤",
+  "ru": "Гороховый суп",
+  "ja": "豆のスープ",
+  "hi": "मटर का सूप"
+ },
+ "Beef Carpaccio": {
+  "en": "Beef Carpaccio",
+  "zh": "生牛肉卡尔帕乔薄片",
+  "ru": "Карпаччо из говядины",
+  "ja": "牛肉のカルパッチョ",
+  "hi": "बीफ कार्पाचियो"
+ },
+ "Spaghetti Carbonara (Finished Tableside)": {
+  "en": "Spaghetti Carbonara (Tableside Preparation)",
+  "zh": "桌边完成的卡邦尼意面",
+  "ru": "Спагетти карбонара с завершением приготовления у стола",
+  "ja": "テーブルサイド仕上げのスパゲッティ・カルボナーラ",
+  "hi": "स्पेगेटी कार्बोनारा (टेबलसाइड तैयारी)"
+ },
+ "Spaghetti ai Frutti di Mare": {
+  "en": "Seafood Spaghetti",
+  "zh": "海鲜意大利面",
+  "ru": "Спагетти с морепродуктами",
+  "ja": "海の幸のスパゲッティ",
+  "hi": "सीफूड स्पेगेटी"
+ },
+ "Lasagne": {
+  "en": "Lasagne",
+  "zh": "千层面",
+  "ru": "Лазанья",
+  "ja": "ラザニア",
+  "hi": "लज़ानिया"
+ },
+ "Crab Ravioli": {
+  "en": "Crab Ravioli",
+  "zh": "蟹肉意大利饺",
+  "ru": "Равиоли с крабом",
+  "ja": "カニのラビオリ",
+  "hi": "क्रैब रैवियोली"
+ },
+ "Clam Tagliolini": {
+  "en": "Clam Tagliolini",
+  "zh": "蛤蜊细扁面",
+  "ru": "Тальолини с моллюсками",
+  "ja": "アサリのタリオリーニ",
+  "hi": "क्लैम टैलियोलिनी"
+ },
+ "Potato Gnocchi": {
+  "en": "Potato Gnocchi",
+  "zh": "土豆意式面疙瘩",
+  "ru": "Картофельные ньокки",
+  "ja": "ポテトニョッキ",
+  "hi": "पोटैटो न्योकी"
+ },
+ "La Classica": {
+  "en": "La Classica Pizza",
+  "zh": "La Classica披萨",
+  "ru": "Пицца La Classica",
+  "ja": "ラ・クラシカ ピザ",
+  "hi": "ला क्लासिका पिज़्ज़ा"
+ },
+ "Quattro Formaggi": {
+  "en": "Quattro Formaggi Pizza (Four Cheese)",
+  "zh": "Quattro Formaggi四种芝士披萨",
+  "ru": "Пицца Кватро Формаджи (Четыре сыра)",
+  "ja": "クアトロ・フォルマッジ（4種のチーズピザ）",
+  "hi": "क्वात्रो फोर्म्माजी पिज़्ज़ा (फोर-चीज़)"
+ },
+ "Bianca": {
+  "en": "Bianca Pizza",
+  "zh": "Bianca披萨",
+  "ru": "Пицца Бьянка",
+  "ja": "ビアンカ ピザ",
+  "hi": "बियान्का पिज़्ज़ा"
+ },
+ "Tartufo": {
+  "en": "Tartufo Pizza",
+  "zh": "Tartufo松露披萨",
+  "ru": "Пицца «Тартуфо» с трюфелем",
+  "ja": "タルトゥーフォ（トリュフピザ）",
+  "hi": "टार्टूफो ट्रफल पिज़्ज़ा"
+ },
+ "Pizza di Mare": {
+  "en": "Pizza di Mare (Seafood Pizza)",
+  "zh": "海鲜披萨",
+  "ru": "Пицца с морепродуктами (ди Маре)",
+  "ja": "ピッツァ・ディ・マーレ（シーフードピザ）",
+  "hi": "पिज़्ज़ा दी मारे (सीफ़ूड पिज़्ज़ा)"
+ },
+ "Australia Lamb Rack": {
+  "en": "Australian Rack of Lamb",
+  "zh": "澳洲羊排",
+  "ru": "Австралийское каре ягнёнка",
+  "ja": "オーストラリア産ラムラック",
+  "hi": "ऑस्ट्रेलियन लैम्ब रैक"
+ },
+ "Australian Tenderloin 250g": {
+  "en": "Australian Beef Tenderloin Steak (250g)",
+  "zh": "澳洲牛里脊牛排（250克）",
+  "ru": "Австралийская говяжья вырезка (250 г)",
+  "ja": "オーストラリア産牛テンダーロインステーキ（250g）",
+  "hi": "ऑस्ट्रेलियन बीफ टेंडरलॉइन स्टेक (250 ग्राम)"
+ },
+ "Japanese Rib Eye Wagyu MB 6-7 (300g)": {
+  "en": "Japanese Wagyu Ribeye Steak MB 6-7 (300g)",
+  "zh": "日本和牛肋眼牛排 MB 6-7（300克）",
+  "ru": "Японский рибай вагю MB 6-7 (300 г)",
+  "ja": "日本産和牛リブアイステーキ MB 6-7（300g）",
+  "hi": "जापानी वाग्यू रिब-आई स्टेक एमबी 6-7 (300 ग्राम)"
+ },
+ "Australian Fiorentina 1KG (T-Bone)": {
+  "en": "Australian Fiorentina T-Bone Steak (1kg)",
+  "zh": "澳洲佛罗伦萨T骨牛排（1公斤）",
+  "ru": "Австралийский стейк ти-бон по-флорентийски (1 кг)",
+  "ja": "オーストラリア産フィオレンティーナ Tボーンステーキ（1kg）",
+  "hi": "ऑस्ट्रेलियन फियोरेंटीना टी-बोन स्टेक (1 किग्रा)"
+ },
+ "Octopus Tentacles": {
+  "en": "Octopus Tentacles",
+  "zh": "章鱼足",
+  "ru": "Щупальца осьминога",
+  "ja": "タコの足",
+  "hi": "ऑक्टोपस टेंटेकल्स"
+ },
+ "Pan-Fried Red Snapper": {
+  "en": "Pan-Fried Red Snapper",
+  "zh": "香煎红鲷鱼",
+  "ru": "Красный луциан, обжаренный на сковороде",
+  "ja": "レッドスナッパーのソテー",
+  "hi": "पैन-फ्राइड रेड स्नैपर"
+ },
+ "Anticucho Pan-Fried Seabass": {
+  "en": "Anticucho Pan-Fried Seabass",
+  "zh": "安蒂库乔风味香煎海鲈鱼",
+  "ru": "Сибас, обжаренный на сковороде в стиле антикучо",
+  "ja": "アンティクーチョ風シーバスのソテー",
+  "hi": "एंटीकुचो पैन-फ्राइड सीबास"
+ },
+ "King Prawns": {
+  "en": "King Prawns",
+  "zh": "大虾",
+  "ru": "Королевские креветки",
+  "ja": "キングプラウン",
+  "hi": "किंग प्रॉन्स"
+ },
+ "Mashed Potato with Goat Cheese": {
+  "en": "Mashed Potatoes with Goat Cheese",
+  "zh": "山羊奶酪土豆泥",
+  "ru": "Картофельное пюре с козьим сыром",
+  "ja": "ヤギのチーズ入りマッシュポテト",
+  "hi": "गोट चीज़ मैश्ड पोटैटो"
+ },
+ "Parma Ham & Asparagus": {
+  "en": "Parma Ham & Asparagus",
+  "zh": "帕尔马火腿配芦笋",
+  "ru": "Пармская ветчина со спаржей",
+  "ja": "パルマ産生ハムとアスパラガス",
+  "hi": "पार्मा हैम और एस्परैगस"
+ },
+ "Pan-Roasted Rustic Vegetables with Balsamic": {
+  "en": "Pan-Roasted Rustic Vegetables with Balsamic",
+  "zh": "香醋煎田园时蔬拼盘",
+  "ru": "Овощи по-деревенски, обжаренные на сковороде, с бальзамическим уксусом",
+  "ja": "焼き野菜の盛り合わせ バルサミコソース",
+  "hi": "बाल्सामिक के साथ पैन-रोस्टेड सब्ज़ियाँ"
+ },
+ "Grilled Broccolini with Garlic": {
+  "en": "Grilled Broccolini with Garlic",
+  "zh": "蒜香烤西兰苔",
+  "ru": "Брокколини на гриле с чесноком",
+  "ja": "ニンニクとブロッコリーニのグリル",
+  "hi": "लहसुन के साथ ग्रिल्ड ब्रोकोलिनी"
+ },
+ "Phu Quoc Black Peppercorn Jus": {
+  "en": "Phu Quoc Black Peppercorn Jus",
+  "zh": "富国岛黑胡椒肉汁酱",
+  "ru": "Мясной соус жу с фукуокским черным перцем",
+  "ja": "フーコック産黒胡椒のジュソース",
+  "hi": "फु क्वोक ब्लैक पेपरकॉर्न जू सॉस"
+ },
+ "Natural Jus": {
+  "en": "Natural Jus",
+  "zh": "原味肉汁酱",
+  "ru": "Натуральный мясной соус жу",
+  "ja": "ナチュラルジュソース",
+  "hi": "नैचुरल जू सॉस"
+ },
+ "Chimichurri Sauce": {
+  "en": "Chimichurri Sauce",
+  "zh": "奇米秋里青酱",
+  "ru": "Соус чимичурри",
+  "ja": "チミチュリソース",
+  "hi": "चिमिचुरी सॉस"
+ },
+ "Truffles Cream Sauce": {
+  "en": "Truffle Cream Sauce",
+  "zh": "松露奶油酱",
+  "ru": "Трюфельный сливочный соус",
+  "ja": "トリュフクリームソース",
+  "hi": "ट्रफल क्रीम सॉस"
+ },
+ "Tiramisu": {
+  "en": "Tiramisu",
+  "zh": "提拉米苏",
+  "ru": "Тирамису",
+  "ja": "ティラミス",
+  "hi": "तिरामिसू"
+ },
+ "Soft Pavlova": {
+  "en": "Soft Pavlova",
+  "zh": "柔软口感帕芙洛娃蛋白甜点",
+  "ru": "Нежная павлова",
+  "ja": "ソフトパブロバ",
+  "hi": "सॉफ्ट पाब्लोवा"
+ },
+ "Burnt Basque Cheesecake": {
+  "en": "Basque Burnt Cheesecake",
+  "zh": "巴斯克焦香芝士蛋糕",
+  "ru": "Баскский чизкейк с подрумяненной корочкой",
+  "ja": "バスクチーズケーキ",
+  "hi": "बास्क बर्न्ट चीज़केक"
+ },
+ "Affogato": {
+  "en": "Affogato",
+  "zh": "阿芙佳朵（意式浓缩浇冰淇淋）",
+  "ru": "Аффогато",
+  "ja": "アフォガート",
+  "hi": "अफ़ोगाटो"
+ },
+ "Lavie Still / Sparkling Mineral Water (450ml)": {
+  "en": "Lavie Still / Sparkling Mineral Water (450ml)",
+  "zh": "乐维天然矿泉水 / 气泡矿泉水（450毫升）",
+  "ru": "Минеральная вода Lavie без газа / с газом (450 мл)",
+  "ja": "ラヴィ ミネラルウォーター / 炭酸水（450ml）",
+  "hi": "लावी स्टिल / स्पार्कलिंग मिनरल वॉटर (450 मिली)"
+ },
+ "Soft Drinks (Coke, Coke Zero, Sprite)": {
+  "en": "Soft Drinks (Coke, Coke Zero, Sprite)",
+  "zh": "碳酸汽水（可口可乐、零度可乐、雪碧）",
+  "ru": "Безалкогольные газированные напитки (Кока-кола, Кола Зеро, Спрайт)",
+  "ja": "ソフトドリンク（コカ・コーラ / コカ・コーラゼロ / スプライト）",
+  "hi": "सॉफ्ट ड्रिंक्स (कोका-कोला, कोक ज़ीरो, स्प्राइट)"
+ },
+ "Modena Smoothie": {
+  "en": "Modena Smoothie",
+  "zh": "Modena冰沙",
+  "ru": "Смузи «Модена»",
+  "ja": "モデナスムージー",
+  "hi": "मोडेना स्मूदी"
+ },
+ "Vicenza Smoothie": {
+  "en": "Vicenza Smoothie",
+  "zh": "Vicenza冰沙",
+  "ru": "Смузи «Виченца»",
+  "ja": "ヴィチェンツァスムージー",
+  "hi": "विसेंज़ा स्मूदी"
+ },
+ "Ananas Mocktail": {
+  "en": "Ananas Mocktail",
+  "zh": "Ananas无酒精鸡尾酒",
+  "ru": "Безалкогольный коктейль «Ananas»",
+  "ja": "Ananas モクテル",
+  "hi": "Ananas मॉकटेल"
+ },
+ "Frizzante Mocktail": {
+  "en": "Frizzante Mocktail",
+  "zh": "Frizzante无酒精鸡尾酒",
+  "ru": "Безалкогольный коктейль «Frizzante»",
+  "ja": "Frizzante モクテル",
+  "hi": "Frizzante मॉकटेल"
+ },
+ "Vietnamese Signature Coffee (Black / Condensed Milk)": {
+  "en": "Traditional Vietnamese Signature Coffee (Black / Condensed Milk)",
+  "zh": "越南传统招牌咖啡（黑咖啡 / 炼乳咖啡）",
+  "ru": "Традиционный фирменный вьетнамский кофе (черный / со сгущенным молоком)",
+  "ja": "ベトナム伝統シグネチャーコーヒー（ブラック / 練乳）",
+  "hi": "पारंपरिक वियतनामी सिग्नेचर कॉफ़ी (ब्लैक / कंडेंस्ड मिल्क)"
+ },
+ "Espresso Bar (Espresso / Americano)": {
+  "en": "Espresso Bar (Espresso / Americano)",
+  "zh": "浓缩咖啡吧（意式浓缩 / 美式咖啡）",
+  "ru": "Эспрессо-бар (Эспрессо / Американо)",
+  "ja": "エスプレッソバー（エスプレッソ / アメリカーノ）",
+  "hi": "एस्प्रेसो बार (एस्प्रेसो / अमेरिकानो)"
+ },
+ "Cappuccino / Latte / Mocha": {
+  "en": "Cappuccino / Latte / Mocha",
+  "zh": "卡布奇诺 / 拿铁 / 摩卡",
+  "ru": "Капучино / Латте / Мокко",
+  "ja": "カプチーノ / カフェラテ / カフェモカ",
+  "hi": "कैपुचीनो / लाते / मोका"
+ },
+ "Hot / Iced Chocolate": {
+  "en": "Hot / Iced Chocolate",
+  "zh": "热巧克力 / 冰巧克力",
+  "ru": "Горячий / Холодный шоколад",
+  "ja": "ホット / アイス チョコレート",
+  "hi": "हॉट / आइस्ड चॉकलेट"
+ },
+ "Classic Cocktails": {
+  "en": "Classic Cocktail Selection",
+  "zh": "经典鸡尾酒精选",
+  "ru": "Классические коктейли",
+  "ja": "クラシックカクテルセレクション",
+  "hi": "क्लासिक कॉकटेल सिलेक्शन"
+ },
+ "Como Signature Cocktail": {
+  "en": "Como Signature Cocktail",
+  "zh": "Como招牌鸡尾酒",
+  "ru": "Фирменный коктейль Como",
+  "ja": "Como 特製カクテル",
+  "hi": "कोमो सिग्नेचर कॉकटेल"
+ },
+ "Cơm phần gia đình (Family Rice Set)": {
+  "en": "Vietnamese Family Rice Set",
+  "zh": "越南家庭式家常套餐",
+  "ru": "Вьетнамский домашний семейный обеденный сет",
+  "ja": "ベトナム家庭料理定食セット",
+  "hi": "वियतनामी पारिवारिक भोजन सेट"
+ },
+ "Thịt heo kho tộ (Claypot Caramelized Pork)": {
+  "en": "Claypot Caramelized Braised Pork",
+  "zh": "砂锅焦糖风味红烧肉",
+  "ru": "Карамелизированная свинина в глиняном горшочке",
+  "ja": "土鍋豚肉のキャラメル煮込み",
+  "hi": "मिट्टी के बर्तन में पकी कैरामलाइज़्ड पोर्क"
+ },
+ "Trứng chiên thịt bằm (Minced Pork Omelette)": {
+  "en": "Vietnamese Minced Pork Omelette",
+  "zh": "越式肉末煎蛋",
+  "ru": "Вьетнамский омлет со свиным фаршем",
+  "ja": "豚ひき肉入りベトナム風卵焼き",
+  "hi": "कीमा पोर्क आमलेट"
+ },
+ "Rau muống xào tỏi (Stir-fried Morning Glory)": {
+  "en": "Stir-Fried Morning Glory with Garlic",
+  "zh": "蒜蓉炒空心菜",
+  "ru": "Жареный водяной шпинат с чесноком",
+  "ja": "空心菜のにんにく炒め",
+  "hi": "लहसुन के साथ स्टिर-फ्राइड मॉर्निंग ग्लोरी"
+ },
+ "Canh chua cá (Sour Fish Soup)": {
+  "en": "Vietnamese Sour Fish Soup",
+  "zh": "越式酸鱼汤（Canh chua cá）",
+  "ru": "Вьетнамский кислый рыбный суп (Canh chua cá)",
+  "ja": "ベトナム風酸味のある魚スープ",
+  "hi": "वियतनामी खट्टा मछली का सूप"
+ },
+ "Samgyeopsal / Pork Belly (삼겹살)": {
+  "en": "Korean Grilled Pork Belly (Samgyeopsal)",
+  "zh": "韩式烤五花肉（Samgyeopsal）",
+  "ru": "Корейская свиная грудинка на гриле (самгёпсаль)",
+  "ja": "韓国式サムギョプサル（豚バラ肉の焼肉）",
+  "hi": "कोरियन ग्रिल्ड पोर्क बेली (सामग्योप्सल)"
+ },
+ "Honeycomb Pork Rind (돼지 벌집껍데기)": {
+  "en": "Honeycomb Pork Rind",
+  "zh": "蜂窝纹猪皮",
+  "ru": "Свиная шкурка с надрезами в виде сот",
+  "ja": "豚皮のハニカムカット",
+  "hi": "हनीकॉम्ब पोर्क रिंड"
+ },
+ "Pork Neck / Moksal (목살)": {
+  "en": "Korean Grilled Pork Neck (Moksal)",
+  "zh": "韩式烤厚切猪颈肉",
+  "ru": "Свиная шейка на гриле (моксаль)",
+  "ja": "豚モクサル（豚肩ロースの塩焼き）",
+  "hi": "कोरियन ग्रिल्ड पोर्क नेक (मोकसाल)"
+ },
+ "Kimchi Jjigae / Doenjang Jjigae (뚝배기 찌개류)": {
+  "en": "Kimchi Jjigae / Doenjang Jjigae (Korean Stew)",
+  "zh": "砂锅辣白菜猪肉汤 / 大酱汤",
+  "ru": "Кимчи тиге / Твенджан тиге (корейские супы)",
+  "ja": "キムチチゲ / テンジャンチゲ（韓国風鍋料理）",
+  "hi": "किमची जिगे / देनजांग जिगे (कोरियन स्ट्यू)"
+ },
+ "Cheese Tteokbokki (치즈 떡볶이)": {
+  "en": "Cheese Tteokbokki",
+  "zh": "芝士炒年糕（Tteokbokki）",
+  "ru": "Ттокпокки с сыром",
+  "ja": "チーズトッポッキ",
+  "hi": "चीज़ तोकबोक्की"
+ },
+ "Hong Kong Bubble Waffle with Ice Cream": {
+  "en": "Hong Kong Bubble Waffle with Ice Cream",
+  "zh": "港式鸡蛋仔配冰淇淋",
+  "ru": "Гонконгские вафли с мороженым",
+  "ja": "香港風エッグワッフル アイスクリーム添え",
+  "hi": "हॉन्गकॉन्ग बबल वफ़ल आइसक्रीम के साथ"
+ },
+ "Matcha / Chocolate Bubble Waffle": {
+  "en": "Matcha / Chocolate Bubble Waffle",
+  "zh": "抹茶 / 巧克力鸡蛋仔",
+  "ru": "Гонконгские вафли с матча / шоколадом",
+  "ja": "抹茶 / チョコレート エッグワッフル",
+  "hi": "माचा / चॉकलेट बबल वफ़ल"
+ },
+ "Cà phê sữa đá & Trà trái cây": {
+  "en": "Vietnamese Iced Coffee with Condensed Milk & Fresh Fruit Tea",
+  "zh": "越南炼乳冰咖啡与鲜果茶",
+  "ru": "Вьетнамский кофе со льдом и сгущенным молоком и фруктовый чай",
+  "ja": "ベトナム練乳アイスコーヒー＆フルーツティー",
+  "hi": "वियतनामी आइस्ड कॉफ़ी कंडेंस्ड मिल्क के साथ और फ्रूट टी"
+ },
+ "Trà đào cam sả (Peach Orange Lemongrass Tea)": {
+  "en": "Peach Orange Lemongrass Iced Tea",
+  "zh": "蜜桃橙香香茅冰茶",
+  "ru": "Чай со льдом с персиком, апельсином и лемонграссом",
+  "ja": "ピーチオレンジレモングラスアイスティー",
+  "hi": "पीच ऑरेंज लेमनग्रास आइस्ड टी"
+ },
+ "Cơm gia đình Hà Nội (Hanoi Family Set)": {
+  "en": "Hanoi Family Rice Set",
+  "zh": "河内风味家常白饭套餐",
+  "ru": "Ханойский домашний обеденный сет",
+  "ja": "ハノイ風家庭料理定食セット",
+  "hi": "हनोई पारिवारिक भोजन सेट"
+ },
+ "Thịt kho tàu & Canh chua": {
+  "en": "Caramelized Braised Pork & Sour Soup",
+  "zh": "越式红烧肉配酸汤",
+  "ru": "Карамелизированная тушёная свинина и кислый суп",
+  "ja": "豚の角煮と酸味スープ",
+  "hi": "कैरामलाइज़्ड पोर्क और खट्टा सूप"
+ },
+ "Món ăn vặt đường phố Việt Nam": {
+  "en": "Vietnamese Street Food Snacks",
+  "zh": "越南街头小吃",
+  "ru": "Вьетнамские уличные закуски",
+  "ja": "ベトナムの屋台スナック",
+  "hi": "वियतनामी स्ट्रीट फ़ूड स्नैक्स"
+ },
+ "Lẩu hải sản bình dân": {
+  "en": "Budget-Friendly Seafood Hot Pot",
+  "zh": "实惠海鲜热锅",
+  "ru": "Доступный хот-пот с морепродуктами",
+  "ja": "お手頃価格の海鮮鍋",
+  "hi": "किफ़ायती सीफ़ूड हॉट पॉट"
+ },
+ "Cocktail Hoàng Hôn (Sunset Chill Cocktail)": {
+  "en": "Sunset Chill Tropical Cocktail",
+  "zh": "日落鸡尾酒（Cocktail Hoàng Hôn）",
+  "ru": "Коктейль «Закат» (Cocktail Hoàng Hôn)",
+  "ja": "サンセットカクテル（Cocktail Hoàng Hôn）",
+  "hi": "सनसेट चिल ट्रॉपिकल कॉकटेल"
+ },
+ "Đĩa hải sản nướng & Bia lạnh": {
+  "en": "Grilled Seafood Platter with Chilled Beer",
+  "zh": "烤海鲜拼盘配冰镇啤酒",
+  "ru": "Плато морепродуктов на гриле с холодным пивом",
+  "ja": "シーフードグリル盛り合わせと冷たいビール",
+  "hi": "ग्रिल्ड सीफ़ूड प्लेटर और ठंडी बीयर"
+ },
+ "Tribal Smoked BBQ Ribs": {
+  "en": "Tribal Smoked BBQ Ribs",
+  "zh": "Tribal烟熏BBQ肋排",
+  "ru": "Копчёные рёбрышки BBQ Tribal",
+  "ja": "トライバル スモークBBQポークリブ",
+  "hi": "ट्राइबल स्मोक्ड बारबेक्यू पोर्क रिब्स"
+ },
+ "Gourmet Beef Burger with Fries": {
+  "en": "Gourmet Beef Burger with French Fries",
+  "zh": "精品牛肉汉堡配薯条",
+  "ru": "Бургер с говядиной и картофелем фри",
+  "ja": "特製グルメビーフバーガー フライドポテト添え",
+  "hi": "गॉरमे बीफ बर्गर फ्रेंच फ्राइज़ के साथ"
+ },
+ "Craft Beer on Tap": {
+  "en": "Craft Beer on Tap",
+  "zh": "现打精酿生啤酒",
+  "ru": "Крафтовое разливное пиво",
+  "ja": "生クラフトビール",
+  "hi": "क्राफ्ट बीयर ऑन टैप"
+ },
+ "Neapolitan Wood-fired Pizza": {
+  "en": "Neapolitan Wood-Fired Pizza",
+  "zh": "那不勒斯柴火烤披萨",
+  "ru": "Неаполитанская пицца из дровяной печи",
+  "ja": "ナポリ風薪窯焼きピザ",
+  "hi": "नेपोलिटन वुड-फायर्ड पिज़्ज़ा"
+ },
+ "Handmade Pasta & Risotto": {
+  "en": "Handmade Pasta & Risotto",
+  "zh": "手工意面与意式烩饭",
+  "ru": "Паста ручной работы и ризотто",
+  "ja": "手作りパスタ＆リゾット",
+  "hi": "हैंडमेड पास्ता और रिसोट्टो"
+ },
+ "Grilled Scallops with Lime Butter": {
+  "en": "Grilled Scallops with Lime Butter",
+  "zh": "青柠黄油烤扇贝",
+  "ru": "Морские гребешки на гриле с лаймовым маслом",
+  "ja": "ホタテのライムバターグリル",
+  "hi": "लाइम बटर के साथ ग्रिल्ड स्कैलप्स"
+ },
+ "Octopus Carpaccio": {
+  "en": "Octopus Carpaccio",
+  "zh": "章鱼卡尔帕乔薄片",
+  "ru": "Карпаччо из осьминога",
+  "ja": "タコのカルパッチョ",
+  "hi": "ऑक्टोपस कार्पाचियो"
+ },
+ "Premium Beef Steak": {
+  "en": "Premium Beef Steak",
+  "zh": "优质牛排",
+  "ru": "Премиальный говяжий стейк",
+  "ja": "プレミアムビーフステーキ",
+  "hi": "प्रीमियम बीफ स्टेक"
+ },
+ "Romantic Sunset 2-Person Set Menu": {
+  "en": "Romantic Sunset Set Menu (for 2)",
+  "zh": "浪漫日落双人套餐",
+  "ru": "Романтический закатный сет на 2 персоны",
+  "ja": "ロマンチックサンセット2名様セット",
+  "hi": "रोमांटिक सनसेट सेट मेन्यू (2 लोगों के लिए)"
+ },
+ "Cà phê Phin Robusta / Arabica Đậm Đà": {
+  "en": "Traditional Drip Coffee (Robusta / Arabica)",
+  "zh": "传统越式滴漏咖啡（罗布斯塔 / 阿拉比卡）",
+  "ru": "Традиционный вьетнамский кофе через фильтр фин (робуста / арабика)",
+  "ja": "伝統的なベトナムフィンフィルターコーヒー（ロブスタ / アラビカ）",
+  "hi": "पारंपरिक वियतनामी ड्रिप कॉफ़ी (रोबस्टा / अरेबिका)"
+ },
+ "Cà phê sữa đá đặc biệt": {
+  "en": "Signature Vietnamese Iced Coffee with Condensed Milk",
+  "zh": "招牌浓郁越南炼乳冰咖啡",
+  "ru": "Фирменный вьетнамский кофе со льдом и сгущенным молоком",
+  "ja": "特製濃厚ベトナム練乳アイスコーヒー",
+  "hi": "सिग्नेचर वियतनामी आइस्ड कॉफ़ी कंडेंस्ड मिल्क के साथ"
+ },
+ "Pour-over Specialty Coffee (Single Origin)": {
+  "en": "Single-Origin Pour-Over Specialty Coffee",
+  "zh": "单品手冲精品咖啡",
+  "ru": "Спешелти пуровер-кофе из зерен одного региона",
+  "ja": "シングルオリジン ハンドドリップスペシャルティコーヒー",
+  "hi": "सिंगल-ओरिजिन पोर-ओवर स्पेशलिटी कॉफ़ी"
+ },
+ "Cold Brew Coffee": {
+  "en": "Cold Brew Coffee",
+  "zh": "冷萃咖啡",
+  "ru": "Колд-брю кофе",
+  "ja": "水出しコールドブリューコーヒー",
+  "hi": "कोल्ड ब्रू कॉफ़ी"
+ },
+ "Trà thảo mộc & Trái cây tươi": {
+  "en": "Herbal Tea & Fresh Fruit",
+  "zh": "草本茶与新鲜水果",
+  "ru": "Травяной чай и свежие фрукты",
+  "ja": "ハーブティー＆フレッシュフルーツ",
+  "hi": "हर्बल टी और ताज़े फल"
+ },
+ "Cá Kho Tộ (Clay Pot Braised Fish)": {
+  "en": "Clay Pot Braised Fish (Cá kho tộ)",
+  "zh": "越式砂锅焖鱼（Cá kho tộ）",
+  "ru": "Рыба, тушённая в глиняном горшочке (Cá kho tộ)",
+  "ja": "土鍋で煮込んだ魚（Cá kho tộ）",
+  "hi": "मिट्टी के बर्तन में पकी मछली (Cá kho tộ)"
+ },
+ "Canh Chua Cá (Southern Sour Fish Soup)": {
+  "en": "Southern Vietnamese Sour Fish Soup",
+  "zh": "越南南部风味酸汤鱼",
+  "ru": "Кисло-сладкий рыбный суп по-южновьетнамски",
+  "ja": "ベトナム南部風酸味のある魚スープ",
+  "hi": "दक्षिणी वियतनामी खट्टा मछली का सूप"
+ },
+ "Cá Mú Hấp Xì Dầu (Steamed Grouper with Soy Sauce)": {
+  "en": "Steamed Grouper with Soy Sauce",
+  "zh": "清蒸豉油石斑鱼",
+  "ru": "Групер на пару с соевым соусом",
+  "ja": "ハタの醤油蒸し",
+  "hi": "सोया सॉस में स्टीम्ड ग्रूपर मछली"
+ },
+ "Mâm Cơm Nam Bộ (Southern Family Rice Set)": {
+  "en": "Southern Vietnamese Family Rice Set",
+  "zh": "越南南部传统家庭式套餐",
+  "ru": "Семейный обеденный сет южно-вьетнамской кухни",
+  "ja": "南部風家庭料理定食セット",
+  "hi": "दक्षिणी वियतनामी पारिवारिक थाली सेट"
+ },
+ "Phở tái lăn đặc biệt": {
+  "en": "Special Wok-Seared Beef Pho",
+  "zh": "特制葱油爆炒牛肉河粉",
+  "ru": "Фирменный фо с обжаренной на воке говядиной",
+  "ja": "牛肉炒めの特製フォー（Phở tái lăn）",
+  "hi": "स्पेशल वोक-सियर्ड बीफ फो"
+ },
+ "Phở sườn cây": {
+  "en": "Beef Short Rib Pho",
+  "zh": "大牛排骨河粉",
+  "ru": "Фо с говяжьими рёбрами (Phở sườn cây)",
+  "ja": "牛リブ入りフォー（Phở sườn cây）",
+  "hi": "बीफ रिब फो"
+ },
+ "Phở chín / tái nạm": {
+  "en": "Pho with Cooked Beef / Rare Beef & Flank",
+  "zh": "熟牛肉 / 生嫩牛肉与牛腩河粉",
+  "ru": "Фо с отварной говядиной / слегка проваренной говядиной и пашиной",
+  "ja": "加熱済み牛肉 / レア牛肉・牛バラ入りフォー",
+  "hi": "पके हुए बीफ / हल्के पके बीफ और फ्लैंक वाला फो"
+ },
+ "Lẩu bò chua cay (Combo 2 người)": {
+  "en": "Spicy & Sour Beef Hot Pot (for 2)",
+  "zh": "酸辣牛肉火锅双人套餐",
+  "ru": "Кисло-острый говяжий хот-пот (сет на 2 персоны)",
+  "ja": "ピリ辛酸辣牛鍋（2名様セット）",
+  "hi": "स्पाइसी और सोर बीफ हॉट पॉट (2 लोगों के लिए)"
+ },
+ "Lẩu đuôi bò / Lòng bò đặc biệt": {
+  "en": "Special Oxtail / Beef Offal Hot Pot",
+  "zh": "牛尾 / 牛杂特色火锅",
+  "ru": "Особый хот-пот с бычьим хвостом / говяжьими субпродуктами",
+  "ja": "特製牛テール / 牛ホルモン鍋",
+  "hi": "स्पेशल ऑक्सटेल / बीफ ऑफल हॉट पॉट"
+ },
+ "Nem rán Hà Nội (Chả giò)": {
+  "en": "Hanoi Crispy Fried Spring Rolls",
+  "zh": "河内风味香脆炸春卷",
+  "ru": "Хрустящие жареные спринг-роллы по-ханойски",
+  "ja": "ハノイ風揚げ春巻き（Nem rán）",
+  "hi": "हनोई क्रिस्पी फ्राइड स्प्रिंग रोल्स"
+ },
+ "Quẩy nóng": {
+  "en": "Crispy Vietnamese Fried Dough Sticks",
+  "zh": "香脆炸油条",
+  "ru": "Хрустящие жареные полоски теста",
+  "ja": "ベトナム風揚げパン",
+  "hi": "क्रिस्पी वियतनामी फ्राइड डो स्टिक्स"
+ },
+ "Trứng chần": {
+  "en": "Poached Egg",
+  "zh": "水波蛋",
+  "ru": "Яйцо пашот",
+  "ja": "ポーチドエッグ",
+  "hi": "पोच्ड एग"
+ },
+ "Döner Kebab Bò (Beef Döner Kebab Wrap)": {
+  "en": "Beef Döner Kebab Wrap",
+  "zh": "牛肉旋转烤肉卷饼",
+  "ru": "Донер-кебаб в лаваше с говядиной",
+  "ja": "牛肉のドネルケバブラップ",
+  "hi": "बीफ डोनर कबाब रैप"
+ },
+ "Döner Kebab Gà (Chicken Döner Kebab Wrap)": {
+  "en": "Chicken Döner Kebab Wrap",
+  "zh": "鸡肉旋转烤肉卷饼",
+  "ru": "Донер-кебаб в лаваше с курицей",
+  "ja": "チキンのドネルケバブラップ",
+  "hi": "चिकन डोनर कबाब रैप"
+ },
+ "Cielo Kiss of the Sea Cocktail": {
+  "en": "Cielo Kiss of the Sea Cocktail",
+  "zh": "Cielo海洋之吻鸡尾酒",
+  "ru": "Коктейль Cielo Kiss of the Sea",
+  "ja": "Cielo キス・オブ・ザ・シー カクテル",
+  "hi": "सिएलो किस ऑफ द सी कॉकटेल"
+ },
+ "Daily Breakfast Buffet": {
+  "en": "Daily Breakfast Buffet",
+  "zh": "每日自助早餐",
+  "ru": "Ежедневный завтрак «шведский стол»",
+  "ja": "デイリー朝食ビュッフェ",
+  "hi": "डेली ब्रेकफास्ट बुफे"
+ },
+ "Tomato Soup": {
+  "en": "Tomato Soup",
+  "zh": "番茄汤",
+  "ru": "Томатный суп",
+  "ja": "トマトスープ",
+  "hi": "टोमैटो सूप"
+ },
+ "Prawn Pumpkin Soup": {
+  "en": "Prawn Pumpkin Soup",
+  "zh": "鲜虾南瓜汤",
+  "ru": "Тыквенный суп с креветками",
+  "ja": "海老とカボチャのスープ",
+  "hi": "झींगा और कद्दू का सूप"
+ },
+ "Chicken Caesar Salad": {
+  "en": "Chicken Caesar Salad",
+  "zh": "鸡肉凯撒沙拉",
+  "ru": "Салат Цезарь с курицей",
+  "ja": "チキンシーザーサラダ",
+  "hi": "चिकन सीज़र सलाद"
+ },
+ "Greek Salad": {
+  "en": "Greek Salad",
+  "zh": "希腊沙拉",
+  "ru": "Греческий салат",
+  "ja": "ギリシャ風サラダ",
+  "hi": "ग्रीक सलाद"
+ },
+ "Inter Cold Cuts Banh Mi": {
+  "en": "International Cold Cuts Banh Mi",
+  "zh": "综合冷肉法棍三明治",
+  "ru": "Багет бань ми с мясным ассорти",
+  "ja": "コールドカットのバインミー",
+  "hi": "इंटरनेशनल कोल्ड कट्स बान मी"
+ },
+ "Cheese Burger": {
+  "en": "Cheeseburger",
+  "zh": "芝士汉堡",
+  "ru": "Чизбургер",
+  "ja": "チーズバーガー",
+  "hi": "चीज़बर्गर"
+ },
+ "Chicken Burger": {
+  "en": "Chicken Burger",
+  "zh": "鸡肉汉堡",
+  "ru": "Бургер с курицей",
+  "ja": "チキンバーガー",
+  "hi": "चिकन बर्गर"
+ },
+ "Club Sandwich": {
+  "en": "Club Sandwich",
+  "zh": "俱乐部三明治",
+  "ru": "Клаб-сэндвич",
+  "ja": "クラブハウスサンドイッチ",
+  "hi": "क्लब सैंडविच"
+ },
+ "Rib-Eye Steak": {
+  "en": "Rib-Eye Steak",
+  "zh": "肋眼牛排",
+  "ru": "Стейк рибай",
+  "ja": "リブアイステーキ",
+  "hi": "रिब-आई स्टेक"
+ },
+ "Striploin Steak": {
+  "en": "Striploin Steak",
+  "zh": "西冷牛排",
+  "ru": "Стейк стриплойн",
+  "ja": "サーロイン・ストリップロインステーキ",
+  "hi": "स्ट्रिपलोइन स्टेक"
+ },
+ "Grilled Salmon": {
+  "en": "Grilled Salmon",
+  "zh": "烤三文鱼",
+  "ru": "Лосось на гриле",
+  "ja": "サーモンのグリル",
+  "hi": "ग्रिल्ड साल्मन"
+ },
+ "Grilled Seabass": {
+  "en": "Grilled Seabass",
+  "zh": "烤海鲈鱼",
+  "ru": "Сибас на гриле",
+  "ja": "スズキ（シーバス）のグリル",
+  "hi": "ग्रिल्ड सीबास"
+ },
+ "Crispy Chicken Wings with Buffalo Sauce": {
+  "en": "Crispy Buffalo Chicken Wings",
+  "zh": "水牛城风味香脆炸鸡翅",
+  "ru": "Хрустящие куриные крылышки баффало",
+  "ja": "クリスピー・バッファローウィングチキン",
+  "hi": "क्रिस्पी बफ़ेलो चिकन विंग्स"
+ },
+ "Grilled Chicken Breast": {
+  "en": "Grilled Chicken Breast",
+  "zh": "烤鸡胸肉",
+  "ru": "Куриная грудка на гриле",
+  "ja": "グリルドチキンブレスト",
+  "hi": "ग्रिल्ड चिकन ब्रेस्ट"
+ },
+ "Stewed Beef with Red Wine": {
+  "en": "Stewed Beef with Red Wine",
+  "zh": "红酒炖牛肉",
+  "ru": "Говядина, тушенная в красном вине",
+  "ja": "赤ワインで煮込んだビーフシチュー",
+  "hi": "रेड वाइन में पका बीफ स्ट्यू"
+ },
+ "Smoked Duck Breast with Orange Sauce": {
+  "en": "Smoked Duck Breast with Orange Sauce",
+  "zh": "香橙烟熏鸭胸肉",
+  "ru": "Копченая утиная грудка под апельсиновым соусом",
+  "ja": "鴨胸肉の燻製 オレンジソース添え",
+  "hi": "ऑरेंज सॉस के साथ स्मोक्ड डक ब्रेस्ट"
+ },
+ "Smoked Pork Rib with BBQ Sauce": {
+  "en": "Smoked Pork Ribs with BBQ Sauce",
+  "zh": "烟熏猪肋排配BBQ酱",
+  "ru": "Копченые свиные ребрышки в соусе барбекю",
+  "ja": "BBQスモークポークリブ",
+  "hi": "बारबेक्यू सॉस के साथ स्मोक्ड पोर्क रिब्स"
+ },
+ "Spaghetti Carbonara": {
+  "en": "Spaghetti Carbonara",
+  "zh": "卡邦尼意面",
+  "ru": "Спагетти карбонара",
+  "ja": "スパゲッティ・カルボナーラ",
+  "hi": "स्पेगेटी कार्बोनारा"
+ },
+ "Spaghetti with Seafood Tomyum Sauce": {
+  "en": "Tom Yum Seafood Spaghetti",
+  "zh": "冬阴功海鲜意面",
+  "ru": "Спагетти с морепродуктами в соусе том ям",
+  "ja": "トムヤム海鮮スパゲッティ",
+  "hi": "टॉम यम सीफ़ूड स्पेगेटी"
+ },
+ "Spaghetti with Truffle Mushroom": {
+  "en": "Truffle Mushroom Spaghetti",
+  "zh": "松露蘑菇意面",
+  "ru": "Спагетти с трюфелем и грибами",
+  "ja": "トリュフ香るキノコのスパゲッティ",
+  "hi": "ट्रफल मशरूम स्पेगेटी"
+ },
+ "Spaghetti with Seafood": {
+  "en": "Seafood Spaghetti",
+  "zh": "海鲜意面",
+  "ru": "Спагетти с морепродуктами",
+  "ja": "シーフードスパゲッティ",
+  "hi": "सीफ़ूड स्पेगेटी"
+ },
+ "Spaghetti Bolognese": {
+  "en": "Spaghetti Bolognese",
+  "zh": "博洛尼亚肉酱意面",
+  "ru": "Спагетти болоньезе",
+  "ja": "スパゲッティ・ボロネーゼ",
+  "hi": "स्पेगेटी बोलोग्नीज़"
+ },
+ "Spaghetti Arrabbiata": {
+  "en": "Spaghetti Arrabbiata",
+  "zh": "香辣番茄意面",
+  "ru": "Спагетти аррабиата",
+  "ja": "スパゲッティ・アラビアータ",
+  "hi": "स्पेगेटी अराब्बियाता"
+ },
+ "Campanola Pizza": {
+  "en": "Campanola Pizza",
+  "zh": "Campanola披萨",
+  "ru": "Пицца Campanola",
+  "ja": "Campanola ピザ",
+  "hi": "Campanola पिज़्ज़ा"
+ },
+ "Diavola Pizza": {
+  "en": "Diavola Pizza",
+  "zh": "Diavola披萨",
+  "ru": "Пицца Дьявола",
+  "ja": "ディアボラピザ",
+  "hi": "डियावोला पिज़्ज़ा"
+ },
+ "Margherita Pizza": {
+  "en": "Margherita Pizza",
+  "zh": "玛格丽特披萨",
+  "ru": "Пицца Маргарита",
+  "ja": "マルゲリータピザ",
+  "hi": "मार्गरिटा पिज़्ज़ा"
+ },
+ "Hawaiian Pizza": {
+  "en": "Hawaiian Pizza",
+  "zh": "夏威夷披萨",
+  "ru": "Гавайская пицца",
+  "ja": "ハワイアンピザ",
+  "hi": "हवाईयन पिज़्ज़ा"
+ },
+ "Frutti di Mare Pizza": {
+  "en": "Frutti di Mare Seafood Pizza",
+  "zh": "Frutti di Mare海鲜披萨",
+  "ru": "Пицца с морепродуктами (Фрутти ди маре)",
+  "ja": "フルッティ・ディ・マーレ（シーフードピザ）",
+  "hi": "फ्रूटी डी मारे सीफ़ूड पिज़्ज़ा"
+ },
+ "Quattro Formaggi Pizza": {
+  "en": "Quattro Formaggi Four-Cheese Pizza",
+  "zh": "Quattro Formaggi四种芝士披萨",
+  "ru": "Пицца Четыре сыра (Кватро формаджи)",
+  "ja": "クアトロ・フォルマッジ 4種のチーズピザ",
+  "hi": "क्वात्रो फोर्म्माजी फोर-चीज़ पिज़्ज़ा"
+ },
+ "Panna Cotta Strawberry": {
+  "en": "Strawberry Panna Cotta",
+  "zh": "草莓意式奶冻",
+  "ru": "Клубничная панна-котта",
+  "ja": "苺のパンナコッタ",
+  "hi": "स्ट्रॉबेरी पन्ना कोट्टा"
+ },
+ "Tropical Yoghurt": {
+  "en": "Tropical Yogurt",
+  "zh": "热带风味酸奶",
+  "ru": "Тропический йогурт",
+  "ja": "トロピカルヨーグルト",
+  "hi": "ट्रॉपिकल योगर्ट"
+ },
+ "Ice Cream": {
+  "en": "Ice Cream",
+  "zh": "冰淇淋",
+  "ru": "Мороженое",
+  "ja": "アイスクリーム",
+  "hi": "आइसक्रीम"
+ },
+ "Le Triporteur Rouge IGP, Rhône (vang đỏ)": {
+  "en": "Le Triporteur Rouge IGP, Rhône Red Wine",
+  "zh": "罗讷河谷 Le Triporteur Rouge IGP 红葡萄酒",
+  "ru": "Красное вино Le Triporteur Rouge IGP, Rhône",
+  "ja": "ル・トリポルテール ルージュ IGP ローヌ (赤ワイン)",
+  "hi": "ले ट्रिपॉर्टूर रूज आईजीपी, रोन रेड वाइन"
+ },
+ "Signore Giuseppe Bardolino, Veneto (vang đỏ)": {
+  "en": "Signore Giuseppe Bardolino, Veneto Red Wine",
+  "zh": "威尼托 Signore Giuseppe 巴多利诺红葡萄酒",
+  "ru": "Красное вино Signore Giuseppe Bardolino, Veneto",
+  "ja": "シニョーレ・ジュゼッペ バルドリーノ ヴェネト (赤ワイン)",
+  "hi": "सिन्योरे जिसेपे बारडोलिनो, वेनेटो रेड वाइन"
+ },
+ "Château Platon, Bordeaux (vang đỏ)": {
+  "en": "Château Platon, Bordeaux Red Wine",
+  "zh": "波尔多 Château Platon 红葡萄酒",
+  "ru": "Красное вино Château Platon, Bordeaux",
+  "ja": "シャトー・プラトン ボルドー (赤ワイン)",
+  "hi": "शातो प्लाटन, बोर्डो रेड वाइन"
+ },
+ "Deakin Estate, Victoria (vang đỏ)": {
+  "en": "Deakin Estate, Victoria Red Wine",
+  "zh": "维多利亚 Deakin Estate 红葡萄酒",
+  "ru": "Красное вино Deakin Estate, Victoria",
+  "ja": "ディーキン・エステート ヴィクトリア (赤ワイン)",
+  "hi": "डीकिन एस्टेट, विक्टोरिया रेड वाइन"
+ },
+ "Velenosi, Abruzzo (vang đỏ)": {
+  "en": "Velenosi, Abruzzo Red Wine",
+  "zh": "阿布鲁佐 Velenosi 红葡萄酒",
+  "ru": "Красное вино Velenosi, Abruzzo",
+  "ja": "ヴェレノージ アブルッツォ (赤ワイン)",
+  "hi": "वेलेनोसी, अब्रूज़ो रेड वाइन"
+ },
+ "Château Pas de l’Âne, Saint-Émilion (vang đỏ)": {
+  "en": "Château Pas de l’Âne, Saint-Émilion Red Wine",
+  "zh": "圣埃美隆 Château Pas de l’Âne 红葡萄酒",
+  "ru": "Красное вино Château Pas de l’Âne, Saint-Émilion",
+  "ja": "シャトー・パ・ド・ラーヌ サンテミリオン (赤ワイン)",
+  "hi": "शातो पा द लान, सेंट-एमिलियन रेड वाइन"
+ },
+ "Mouton Cadet Classic Rosé (vang hồng)": {
+  "en": "Mouton Cadet Classic Rosé Wine",
+  "zh": "木桐嘉棣经典桃红葡萄酒",
+  "ru": "Розовое вино Mouton Cadet Classic Rosé",
+  "ja": "ムートン・カデ クラシック ロゼワイン",
+  "hi": "मूटन कैडेट क्लासिक रोज़े वाइन"
+ },
+ "Le Triporteur IGP, Rhône (vang trắng)": {
+  "en": "Le Triporteur IGP, Rhône White Wine",
+  "zh": "罗讷河谷 Le Triporteur IGP 白葡萄酒",
+  "ru": "Белое вино Le Triporteur IGP, Rhône",
+  "ja": "ル・トリポルテール IGP ローヌ (白ワイン)",
+  "hi": "ले ट्रिपॉर्टूर आईजीपी, रोन व्हाइट वाइन"
+ },
+ "Gustave Lorentz, Alsace (vang trắng)": {
+  "en": "Gustave Lorentz, Alsace White Wine",
+  "zh": "阿尔萨斯 Gustave Lorentz 白葡萄酒",
+  "ru": "Белое вино Gustave Lorentz, Alsace",
+  "ja": "ギュスターヴ・ロレンツ アルザス (白ワイン)",
+  "hi": "गुस्ताव लोरेंज, अलसास व्हाइट वाइन"
+ },
+ "Santa Cristina, Veneto (vang trắng)": {
+  "en": "Santa Cristina, Veneto White Wine",
+  "zh": "威尼托 Santa Cristina 白葡萄酒",
+  "ru": "Белое вино Santa Cristina, Veneto",
+  "ja": "サンタ・クリスティーナ ヴェネト (白ワイン)",
+  "hi": "सांता क्रिस्टीना, वेनेटो व्हाइट वाइन"
+ },
+ "Deakin Estate, Victoria (vang trắng)": {
+  "en": "Deakin Estate, Victoria White Wine",
+  "zh": "维多利亚 Deakin Estate 白葡萄酒",
+  "ru": "Белое вино Deakin Estate, Victoria",
+  "ja": "ディーキン・エステート ヴィクトリア (白ワイン)",
+  "hi": "डीकिन एस्टेट, विक्टोरिया व्हाइट वाइन"
+ },
+ "Allan Scott, Marlborough (vang trắng)": {
+  "en": "Allan Scott, Marlborough White Wine",
+  "zh": "马尔堡 Allan Scott 白葡萄酒",
+  "ru": "Белое вино Allan Scott, Marlborough",
+  "ja": "アラン・スコット マールボロ (白ワイン)",
+  "hi": "एलन स्कॉट, मार्लबोरो व्हाइट वाइन"
+ },
+ "Cava Vega Medien Semi-Sec (vang sủi)": {
+  "en": "Cava Vega Medien Semi-Sec Sparkling Wine",
+  "zh": "Cava Vega Medien 半干型起泡酒",
+  "ru": "Игристое вино Cava Vega Medien Semi-Sec",
+  "ja": "カヴァ ヴェガ・メディエン セミ・セック (スパークリングワイン)",
+  "hi": "कावा वेगा मेडिएन सेमी-सेक स्पार्कलिंग वाइन"
+ },
+ "Tommasi Filodora Prosecco (vang sủi)": {
+  "en": "Tommasi Filodora Prosecco Sparkling Wine",
+  "zh": "Tommasi Filodora 普罗塞克起泡酒",
+  "ru": "Игристое вино Tommasi Filodora Prosecco",
+  "ja": "トマージ フィロドラ プロセッコ (スパークリングワイン)",
+  "hi": "तोम्मासी फिलोडोरा प्रोसेको स्पार्कलिंग वाइन"
+ },
+ "Venice Cocktail": {
+  "en": "Venice Cocktail",
+  "zh": "Venice 鸡尾酒",
+  "ru": "Коктейль Venice",
+  "ja": "ヴェニス・カクテル",
+  "hi": "वेनिस कॉकटेल"
+ },
+ "Pearl Island Sunny": {
+  "en": "Pearl Island Sunny Cocktail",
+  "zh": "珍珠岛之阳鸡尾酒",
+  "ru": "Коктейль Pearl Island Sunny",
+  "ja": "パールアイランド・サニー",
+  "hi": "पर्ल आइलैंड सनी कॉकटेल"
+ },
+ "Florence Sunset": {
+  "en": "Florence Sunset Cocktail",
+  "zh": "佛罗伦萨落日鸡尾酒",
+  "ru": "Коктейль Florence Sunset",
+  "ja": "フローレンス・サンセット",
+  "hi": "फ्लोरेंस सनसेट कॉकटेल"
+ },
+ "Ly Chỉ Kiss": {
+  "en": "Ly Chỉ Kiss Cocktail",
+  "zh": "Ly Chỉ Kiss 鸡尾酒",
+  "ru": "Коктейль Ly Chỉ Kiss",
+  "ja": "Ly Chỉ Kiss（ライチ・キス）",
+  "hi": "Ly Chỉ Kiss कॉकटेल"
+ },
+ "Cold Smoke": {
+  "en": "Cold Smoke Cocktail",
+  "zh": "冷烟鸡尾酒",
+  "ru": "Коктейль Cold Smoke",
+  "ja": "コールド・スモーク",
+  "hi": "कोल्ड स्मोक कॉकटेल"
+ },
+ "Peachy Breeze": {
+  "en": "Peachy Breeze Cocktail",
+  "zh": "桃香微风鸡尾酒",
+  "ru": "Коктейль Peachy Breeze",
+  "ja": "ピーチ・ブリーズ",
+  "hi": "पीची ब्रीज कॉकटेल"
+ },
+ "Salted Sol": {
+  "en": "Salted Sol Cocktail",
+  "zh": "Salted Sol 鸡尾酒",
+  "ru": "Коктейль Salted Sol",
+  "ja": "ソルティッド・ソル",
+  "hi": "सॉल्टेड सोल कॉकटेल"
+ },
+ "Melon Mist": {
+  "en": "Melon Mist Cocktail",
+  "zh": "蜜瓜薄雾鸡尾酒",
+  "ru": "Коктейль Melon Mist",
+  "ja": "メロン・ミスト",
+  "hi": "मेलन मिस्ट कॉकटेल"
+ },
+ "Midnight": {
+  "en": "Midnight Cocktail",
+  "zh": "午夜鸡尾酒",
+  "ru": "Коктейль Midnight",
+  "ja": "ミッドナイト",
+  "hi": "मिडनाइट कॉकटेल"
+ },
+ "Negroni": {
+  "en": "Negroni",
+  "zh": "内格罗尼",
+  "ru": "Негрони",
+  "ja": "ネグローニ",
+  "hi": "नेग्रोनी"
+ },
+ "Classic Mojito": {
+  "en": "Classic Mojito",
+  "zh": "经典莫吉托",
+  "ru": "Классический мохито",
+  "ja": "クラシック・モヒート",
+  "hi": "क्लासिक मोजितो"
+ },
+ "Long Island Iced Tea": {
+  "en": "Long Island Iced Tea",
+  "zh": "长岛冰茶",
+  "ru": "Коктейль «Лонг-Айленд айс ти»",
+  "ja": "ロングアイランド・アイスティー",
+  "hi": "लॉन्ग आइलैंड आइस्ड टी"
+ },
+ "Pina Colada": {
+  "en": "Piña Colada",
+  "zh": "椰林飘香",
+  "ru": "Пина колада",
+  "ja": "ピニャ・コラーダ",
+  "hi": "पिना कोलाडा"
+ },
+ "Venice Sunset": {
+  "en": "Venice Sunset Mocktail",
+  "zh": "威尼斯落日无酒精鸡尾酒",
+  "ru": "Безалкогольный коктейль Venice Sunset",
+  "ja": "ヴェニス・サンセット モクテル",
+  "hi": "वेनिस सनसेट मॉकटेल"
+ },
+ "Guava Detox": {
+  "en": "Guava Detox Mocktail",
+  "zh": "Guava Detox 无酒精鸡尾酒",
+  "ru": "Безалкогольный коктейль Guava Detox",
+  "ja": "グアバ・デトックス モクテル",
+  "hi": "अमरूद डिटॉक्स मॉकटेल"
+ },
+ "Phu Quoc Tropical": {
+  "en": "Phu Quoc Tropical Mocktail",
+  "zh": "富国岛热带无酒精鸡尾酒",
+  "ru": "Безалкогольный коктейль Phu Quoc Tropical",
+  "ja": "フーコック・トロピカル モクテル",
+  "hi": "फु क्वोक ट्रॉपिकल मॉकटेल"
+ },
+ "Island Dream": {
+  "en": "Island Dream Mocktail",
+  "zh": "海岛之梦无酒精鸡尾酒",
+  "ru": "Безалкогольный коктейль Island Dream",
+  "ja": "アイランド・ドリーム モクテル",
+  "hi": "आइलैंड ड्रीम मॉकटेल"
+ },
+ "Passion Virgin Mojito": {
+  "en": "Passion Fruit Virgin Mojito",
+  "zh": "百香果无酒精莫吉托",
+  "ru": "Безалкогольный мохито с маракуйей",
+  "ja": "パッションフルーツ・バージンモヒート",
+  "hi": "पैशन फ्रूट वर्जिन मोजितो"
+ },
+ "Blue Ocean": {
+  "en": "Blue Ocean Mocktail",
+  "zh": "蓝色海洋无酒精鸡尾酒",
+  "ru": "Безалкогольный коктейль Blue Ocean",
+  "ja": "ブルー・オーシャン モクテル",
+  "hi": "ब्लू ओशन मॉकटेल"
+ },
+ "Gingerberry Fizz": {
+  "en": "Gingerberry Fizz Mocktail",
+  "zh": "Gingerberry Fizz 无酒精鸡尾酒",
+  "ru": "Безалкогольный коктейль Gingerberry Fizz",
+  "ja": "ジンジャーベリー・フィズ モクテル",
+  "hi": "जिंजरबेरी फ़िज़ मॉकटेल"
+ },
+ "Venice’s Signature Coffee": {
+  "en": "Venice’s Signature Coffee",
+  "zh": "Venice 招牌咖啡",
+  "ru": "Фирменный кофе Venice",
+  "ja": "ヴェニス シグネチャーコーヒー",
+  "hi": "वेनिस सिग्नेचर कॉफ़ी"
+ },
+ "Tiramisu Cheese Coffee": {
+  "en": "Tiramisu Cheese Coffee",
+  "zh": "提拉米苏芝士咖啡",
+  "ru": "Сырный кофе Тирамису",
+  "ja": "ティラミス・チーズコーヒー",
+  "hi": "तिरामिसु चीज़ कॉफ़ी"
+ },
+ "Cocoa Tiramisu": {
+  "en": "Cocoa Tiramisu",
+  "zh": "可可提拉米苏",
+  "ru": "Тирамису с какао",
+  "ja": "ココア・ティラミス",
+  "hi": "कोको तिरामिसु"
+ },
+ "Coconut Coffee": {
+  "en": "Coconut Coffee",
+  "zh": "椰子咖啡",
+  "ru": "Кокосовый кофе",
+  "ja": "ココナッツコーヒー",
+  "hi": "नारियल कॉफ़ी"
+ },
+ "Yogurt Coffee": {
+  "en": "Yogurt Coffee",
+  "zh": "酸奶咖啡",
+  "ru": "Кофе с йогуртом",
+  "ja": "ヨーグルトコーヒー",
+  "hi": "योगर्ट कॉफ़ी"
+ },
+ "Egg Coffee": {
+  "en": "Egg Coffee",
+  "zh": "鸡蛋咖啡",
+  "ru": "Яичный кофе",
+  "ja": "エッグコーヒー",
+  "hi": "एग कॉफ़ी"
+ },
+ "Traditional Coffee": {
+  "en": "Traditional Vietnamese Coffee (Iced Milk Coffee / Black Coffee)",
+  "zh": "越南传统咖啡 (炼乳冰咖啡 / 黑咖啡)",
+  "ru": "Традиционный вьетнамский кофе (со сгущенным молоком / черный)",
+  "ja": "ベトナム伝統コーヒー (練乳アイスコーヒー / ブラックコーヒー)",
+  "hi": "पारंपरिक वियतनामी कॉफ़ी (कंडेंस्ड मिल्क वाली आइस्ड कॉफ़ी / ब्लैक कॉफ़ी)"
+ },
+ "Espresso, Americano, Latte, Matcha Latte, Cara Latte, Cappuccino": {
+  "en": "Espresso / Americano / Latte / Matcha Latte / Cara Latte / Cappuccino",
+  "zh": "浓缩咖啡 / 美式咖啡 / 拿铁 / 抹茶拿铁 / Cara Latte / 卡布奇诺",
+  "ru": "Эспрессо / Американо / Латте / Матча-латте / Cara Latte / Капучино",
+  "ja": "エスプレッソ / アメリカーノ / カフェラテ / 抹茶ラテ / Cara Latte / カプチーノ",
+  "hi": "एस्प्रेसो / अमेरिकानो / लाते / माचा लाते / Cara Latte / कैपुचीनो"
+ },
+ "Hot or Iced Chocolate": {
+  "en": "Hot or Iced Chocolate",
+  "zh": "热/冰巧克力",
+  "ru": "Горячий или холодный шоколад",
+  "ja": "ホット / アイス チョコレート",
+  "hi": "हॉट या आइस्ड चॉकलेट"
+ },
+ "Tropical Tea": {
+  "en": "Tropical Tea",
+  "zh": "热带风味茶",
+  "ru": "Тропический чай",
+  "ja": "トロピカルティー",
+  "hi": "ट्रॉपिकल टी"
+ },
+ "Be-A-Mangozing": {
+  "en": "Be-A-Mangozing",
+  "zh": "Be-A-Mangozing",
+  "ru": "Be-A-Mangozing",
+  "ja": "Be-A-Mangozing（ビー・ア・マンゴジング）",
+  "hi": "Be-A-Mangozing"
+ },
+ "Summer Strawberry": {
+  "en": "Summer Strawberry",
+  "zh": "Summer Strawberry（夏日草莓）",
+  "ru": "Summer Strawberry",
+  "ja": "サマー・ストロベリー",
+  "hi": "समर स्ट्रॉबेरी"
+ },
+ "Love Sunny": {
+  "en": "Love Sunny",
+  "zh": "Love Sunny",
+  "ru": "Love Sunny",
+  "ja": "ラブ・サニー",
+  "hi": "लव सनी"
+ },
+ "The Smell of the Sunshine": {
+  "en": "The Smell of the Sunshine",
+  "zh": "The Smell of the Sunshine",
+  "ru": "The Smell of the Sunshine",
+  "ja": "ザ・スメル・オブ・ザ・サンシャイン",
+  "hi": "द स्मेल ऑफ द सनशाइन"
+ },
+ "Venice Juice": {
+  "en": "Venice Juice",
+  "zh": "Venice 果汁",
+  "ru": "Сок Venice",
+  "ja": "ヴェニス・ジュース",
+  "hi": "वेनिस जूस"
+ },
+ "Golden Roots Elixir": {
+  "en": "Golden Roots Elixir",
+  "zh": "Golden Roots Elixir（金色根源）",
+  "ru": "Эликсир Golden Roots",
+  "ja": "ゴールデンルーツ・エリクサー",
+  "hi": "गोल्डन रूट्स एलिक्सिर"
+ },
+ "Beach Bum": {
+  "en": "Beach Bum",
+  "zh": "Beach Bum",
+  "ru": "Beach Bum",
+  "ja": "ビーチ・バム",
+  "hi": "बीच बम"
+ },
+ "Summer in Venice": {
+  "en": "Summer in Venice",
+  "zh": "Summer in Venice（威尼斯之夏）",
+  "ru": "Summer in Venice",
+  "ja": "サマー・イン・ヴェニス",
+  "hi": "समर इन वेनिस"
+ },
+ "Fresh Juice": {
+  "en": "Fresh Juice",
+  "zh": "鲜果汁",
+  "ru": "Свежий сок",
+  "ja": "フレッシュジュース",
+  "hi": "ताज़ा जूस"
+ },
+ "Green Zen Energy": {
+  "en": "Green Zen Energy",
+  "zh": "Green Zen Energy",
+  "ru": "Green Zen Energy",
+  "ja": "グリーンゼン・エナジー",
+  "hi": "ग्रीन ज़ेन एनर्जी"
+ },
+ "Passion Healthy": {
+  "en": "Passion Healthy",
+  "zh": "Passion Healthy",
+  "ru": "Passion Healthy",
+  "ja": "パッション・ヘルシー",
+  "hi": "पैशन हेल्दी"
+ },
+ "Passionate Smoothie": {
+  "en": "Passionate Smoothie",
+  "zh": "Passionate 思慕雪",
+  "ru": "Смузи Passionate",
+  "ja": "パッショネート・スムージー",
+  "hi": "पैशनेट स्मूदी"
+ },
+ "Love Formula": {
+  "en": "Love Formula",
+  "zh": "Love Formula（爱之配方）",
+  "ru": "Love Formula",
+  "ja": "ラブ・フォーミュラ",
+  "hi": "लव फॉर्मूला"
+ },
+ "Coma Tango": {
+  "en": "Coma Tango",
+  "zh": "Coma Tango",
+  "ru": "Coma Tango",
+  "ja": "コーマ・タンゴ",
+  "hi": "कोमा टैंगो"
+ },
+ "Choco Blended": {
+  "en": "Choco Blended",
+  "zh": "巧克力冰沙",
+  "ru": "Шоколадный смешанный напиток",
+  "ja": "チョコブレンディッド",
+  "hi": "चोको ब्लेंडेड ड्रिंक"
+ },
+ "Matcha Blended": {
+  "en": "Matcha Blended",
+  "zh": "抹茶冰沙",
+  "ru": "Смешанный напиток с матча",
+  "ja": "抹茶ブレンディッド",
+  "hi": "माचा ब्लेंडेड ड्रिंक"
+ },
+ "Caramel Mix": {
+  "en": "Caramel Mix",
+  "zh": "Caramel Mix（焦糖混合饮品）",
+  "ru": "Caramel Mix",
+  "ja": "キャラメルミックス",
+  "hi": "कैरेमल मिक्स"
+ },
+ "Beer 330 ml": {
+  "en": "Beer (330 ml)",
+  "zh": "啤酒（330毫升）",
+  "ru": "Пиво (330 мл)",
+  "ja": "ビール（330ml）",
+  "hi": "बीयर (330 मिली)"
+ },
+ "Sapporo Draft": {
+  "en": "Sapporo Draft Beer",
+  "zh": "札幌生啤酒",
+  "ru": "Разливное пиво Sapporo",
+  "ja": "サッポロ生ビール",
+  "hi": "सैपोरो ड्राफ्ट बीयर"
+ },
+ "Mineral Water": {
+  "en": "Mineral Water",
+  "zh": "矿泉水",
+  "ru": "Минеральная вода",
+  "ja": "ミネラルウォーター",
+  "hi": "मिनरल वाटर"
+ },
+ "Soft Drinks": {
+  "en": "Soft Drinks",
+  "zh": "软饮料",
+  "ru": "Безалкогольные напитки",
+  "ja": "ソフトドリンク",
+  "hi": "शीतल पेय"
+ },
+ "Sunset Kimbap": {
+  "en": "Sunset Kimbap (Vegetable Rice Roll)",
+  "zh": "日落紫菜包饭 (经典蔬菜)",
+  "ru": "Кимбап Сансет (классический с овощами)",
+  "ja": "サンセットキンパ (野菜キンパ)",
+  "hi": "सनसेट किम्बाप (सब्जी चावल रोल)"
+ },
+ "Tuna Kimbap": {
+  "en": "Tuna Kimbap",
+  "zh": "金枪鱼紫菜包饭",
+  "ru": "Кимбап с тунцом",
+  "ja": "ツナキンパ",
+  "hi": "टूना किम्बाप"
+ },
+ "Spicy Chili Kimbap": {
+  "en": "Spicy Chili Pepper Kimbap",
+  "zh": "辣青椒紫菜包饭",
+  "ru": "Острый кимбап с перцем",
+  "ja": "青唐辛子入り辛口キンパ",
+  "hi": "तीखा मिर्च किम्बाप"
+ },
+ "Tteokbokki / Rabokki": {
+  "en": "Tteokbokki / Rabokki (Spicy Rice Cakes / with Ramen)",
+  "zh": "辣炒年糕 / 拉面炒年糕",
+  "ru": "Токпокки / Рабокки (острые рисовые клецки / с рамёном)",
+  "ja": "トッポッキ / ラポッキ",
+  "hi": "तोकबोकी / राबोकी (तीखे चावल के केक / रेमन के साथ)"
+ },
+ "Kimchi Cold Noodles": {
+  "en": "Kimchi Cold Noodles",
+  "zh": "韩式泡菜冷汤面（Kimchi Mari Guksu）",
+  "ru": "Корейская холодная лапша в бульоне с кимчи (Kimchi Mari Guksu)",
+  "ja": "キムチ入り冷製スープ麺（キムチマリグクス）",
+  "hi": "किमची के साथ ठंडे शोरबे वाले नूडल्स (Kimchi Mari Guksu)"
+ },
+ "Korean Ramen": {
+  "en": "Korean Ramen (Shin Ramyun / Seafood Ramen)",
+  "zh": "韩国拉面 (辛拉面 / 海鲜拉面)",
+  "ru": "Корейский рамён (Шин Рамён / с морепродуктами)",
+  "ja": "韓国ラーメン (辛ラーメン / 海鮮ラーメン)",
+  "hi": "कोरियन रेमन (शिन रेमन / सीफ़ूड रेमन)"
+ },
+ "Spam Kimchi Cup Rice": {
+  "en": "Spam & Kimchi Cup Rice",
+  "zh": "午餐肉泡菜拌饭杯",
+  "ru": "Рис в стаканчике со Spam и кимчи (капбап)",
+  "ja": "スパムキムチカップご飯",
+  "hi": "स्पैम किमची कप राइस"
+ },
+ "Kimchi Jjigae": {
+  "en": "Kimchi Jjigae (Kimchi Stew)",
+  "zh": "泡菜汤",
+  "ru": "Суп Кимчи чиге",
+  "ja": "キムチチゲ",
+  "hi": "किमची जिगे (किमची स्टू)"
+ },
+ "Mì gà Kungfu (Chicken Hand-pulled Noodle)": {
+  "en": "Kung Fu Chicken Hand-Pulled Noodles",
+  "zh": "功夫鸡肉拉面",
+  "ru": "Тянутая лапша кунг-фу с курицей",
+  "ja": "カンフー手打ち鶏肉麺",
+  "hi": "कुंग फू चिकन हैंड-पुल नूडल्स"
+ },
+ "Mì xá xíu Kungfu (Charsiu BBQ Pork Noodle)": {
+  "en": "Kung Fu Char Siu BBQ Pork Hand-Pulled Noodles",
+  "zh": "功夫叉烧拉面",
+  "ru": "Тянутая лапша кунг-фу со свининой чар сиу",
+  "ja": "カンフー手打ちチャーシュー麺",
+  "hi": "कुंग फू चार सिउ बारबेक्यू पोर्क हैंड-पुल नूडल्स"
+ },
+ "Mì tôm tươi (Fresh Shrimp Noodle)": {
+  "en": "Fresh Shrimp Hand-Pulled Noodles",
+  "zh": "鲜虾拉面",
+  "ru": "Тянутая лапша со свежими креветками",
+  "ja": "新鮮な海老の手打ち麺",
+  "hi": "ताज़ा झींगा हैंड-पुल नूडल्स"
+ },
+ "Mì hải sản đặc biệt (Special Seafood Noodle)": {
+  "en": "Kung Fu Special Seafood Hand-Pulled Noodles",
+  "zh": "功夫特制海鲜拉面",
+  "ru": "Фирменная тянутая лапша кунг-фу с морепродуктами",
+  "ja": "カンフー特製海鮮手打ち麺",
+  "hi": "कुंग फू स्पेशल सीफ़ूड हैंड-पुल नूडल्स"
+ },
+ "Đĩa xá xíu truyền thống (Charsiu Plate for Sharing)": {
+  "en": "Traditional Char Siu BBQ Pork Platter",
+  "zh": "传统叉烧拼盘",
+  "ru": "Традиционное ассорти из свинины чар сиу",
+  "ja": "伝統的なチャーシュー盛り合わせ",
+  "hi": "पारंपरिक चार सिउ बारबेक्यू पोर्क प्लेटर"
+ },
+ "Cà phê đen truyền thống (Traditional Black Coffee)": {
+  "en": "Traditional Vietnamese Black Coffee",
+  "zh": "传统越南黑咖啡",
+  "ru": "Традиционный вьетнамский черный кофе",
+  "ja": "ベトナム伝統ブラックコーヒー",
+  "hi": "पारंपरिक वियतनामी ब्लैक कॉफ़ी"
+ },
+ "Nước ép dừa / cam / xoài (Fresh Fruit Juice)": {
+  "en": "Fresh Coconut / Orange / Mango Juice",
+  "zh": "新鲜椰子水 / 橙汁 / 芒果汁",
+  "ru": "Свежая кокосовая вода / апельсиновый сок / манговый сок",
+  "ja": "フレッシュココナッツウォーター / オレンジジュース / マンゴージュース",
+  "hi": "ताज़ा नारियल पानी / संतरे का रस / आम का रस"
+ },
+ "Sinh tố xoài cốt dừa (Mango Coconut Smoothie)": {
+  "en": "Mango Coconut Smoothie",
+  "zh": "芒果椰奶冰沙",
+  "ru": "Смузи из манго и кокоса",
+  "ja": "マンゴーココナッツスムージー",
+  "hi": "आम नारियल स्मूदी"
+ },
+ "The Amalfi Old Fashioned": {
+  "en": "The Amalfi Old Fashioned Cocktail",
+  "zh": "阿马尔菲经典古风鸡尾酒",
+  "ru": "Коктейль The Amalfi Old Fashioned",
+  "ja": "アマルフィ・オールドファッションド",
+  "hi": "द अमाल्फी ओल्ड फैशन्ड कॉकटेल"
+ },
+ "Negroni Classico": {
+  "en": "Negroni Classico",
+  "zh": "Negroni Classico（经典内格罗尼）",
+  "ru": "Негрони Классико",
+  "ja": "ネグローニ・クラシコ",
+  "hi": "नेग्रोनी क्लासिको"
+ },
+ "Kem Ốc Quế (Crispy Soft Serve Cone)": {
+  "en": "Soft Serve Ice Cream Cone",
+  "zh": "软冰淇淋甜筒",
+  "ru": "Мягкое мороженое в вафельном рожке",
+  "ja": "ソフトクリームコーン",
+  "hi": "सॉफ्ट सर्व आइसक्रीम कोन"
+ },
+ "Nước Chanh Tươi (Fresh Lemon Water)": {
+  "en": "Fresh Lemonade",
+  "zh": "新鲜柠檬水",
+  "ru": "Свежий лимонад",
+  "ja": "新鮮レモンウォーター",
+  "hi": "ताज़ा नींबू पानी"
+ },
+ "Trà Sữa Trân Châu (Pearl Milk Tea)": {
+  "en": "Pearl Milk Tea",
+  "zh": "珍珠奶茶",
+  "ru": "Чай с молоком и тапиокой (бабл-ти)",
+  "ja": "タピオカミルクティー",
+  "hi": "पर्ल मिल्क टी (बोबा चाय)"
+ },
+ "Trà Đào Bốn Mùa (Four Seasons Peach Tea)": {
+  "en": "Four Seasons Peach Fruit Tea",
+  "zh": "四季春蜜桃果茶",
+  "ru": "Персиковый чай «Четыре сезона»",
+  "ja": "フォーシーズンズ・ピーチティー",
+  "hi": "फोर सीज़न्स पीच फ्रूट टी"
+ },
+ "Chef Victor's Curated Selection": {
+  "en": "Chef Victor's Curated Selection",
+  "zh": "Victor主厨精选",
+  "ru": "Подборка блюд от шеф-повара Виктора",
+  "ja": "シェフ・ヴィクター厳選メニュー",
+  "hi": "शेफ विक्टर का चुना हुआ मेन्यू"
+ },
+ "Imperial Dimsum Basket (5 pieces)": {
+  "en": "Imperial Dim Sum Basket (5 pcs)",
+  "zh": "皇家点心蒸笼拼盘 (5件)",
+  "ru": "Императорская корзина димсамов (5 шт.)",
+  "ja": "皇室特選点心盛り合わせ (5個)",
+  "hi": "इंपीरियल डिम सम बास्केट (5 पीस)"
+ },
+ "Steamed Spinach Dumpling (3 pieces)": {
+  "en": "Steamed Spinach Dumplings (3 pcs)",
+  "zh": "菠菜蒸饺（3件）",
+  "ru": "Паровые пельмени со шпинатом (3 шт.)",
+  "ja": "ほうれん草の蒸し餃子（3個）",
+  "hi": "स्टीम्ड पालक डंपलिंग्स (3 पीस)"
+ },
+ "Steamed Shrimp Dumpling - Ha Gao (3 pieces)": {
+  "en": "Steamed Shrimp Dumplings - Har Gow (3 pcs)",
+  "zh": "水晶鲜虾饺 (3件)",
+  "ru": "Паровые пельмени с креветками — Ха Гао (3 шт.)",
+  "ja": "海老蒸し餃子・ハーガオ（3個）",
+  "hi": "स्टीम्ड श्रिम्प डंपलिंग - हा गाओ (3 पीस)"
+ },
+ "Steamed Pork & Shrimp with Mushroom - Siew Mai (3 pieces)": {
+  "en": "Steamed Pork & Shrimp Dumplings with Mushrooms - Siu Mai (3 pcs)",
+  "zh": "香菇虾仁猪肉烧卖 (3件)",
+  "ru": "Сяомай со свининой, креветками и грибами (3 шт.)",
+  "ja": "豚肉と海老とキノコのシューマイ（3個）",
+  "hi": "स्टीम्ड पोर्क, श्रिम्प और मशरूम सिउ माई (3 पीस)"
+ },
+ "Steamed Barbecue Pork Buns (2 pieces)": {
+  "en": "Steamed BBQ Pork Buns (Char Siu Bao, 2 pcs)",
+  "zh": "叉烧包（2件）",
+  "ru": "Паровые булочки со свининой барбекю чар сиу (2 шт.)",
+  "ja": "チャーシューまん（2個）",
+  "hi": "स्टीम्ड बारबेक्यू पोर्क बन्स - चार सिउ बाओ (2 पीस)"
+ },
+ "Village-Style Chicken Feet": {
+  "en": "Village-Style Steamed Chicken Feet",
+  "zh": "乡味蒸凤爪",
+  "ru": "Куриные лапки по-деревенски на пару",
+  "ja": "田舎風蒸し鶏足 (モミジ)",
+  "hi": "विलेज-स्टाइल स्टीम्ड चिकन फीट"
+ },
+ "Steamed Pork Ribs with Black Bean Sauce": {
+  "en": "Steamed Pork Ribs with Black Bean Sauce",
+  "zh": "豉汁蒸排骨",
+  "ru": "Паровые свиные ребрышки в соусе из черных бобов",
+  "ja": "豚スペアリブの豆豉蒸し",
+  "hi": "ब्लैक बीन सॉस में स्टीम्ड पोर्क रिब्स"
+ },
+ "Charcoal Custard Bun (3 pieces)": {
+  "en": "Charcoal Custard Buns (3 pcs)",
+  "zh": "竹炭奶黄包（3件）",
+  "ru": "Булочки с угольным тестом и заварным кремом (3 шт.)",
+  "ja": "竹炭カスタードまん（3個）",
+  "hi": "चारकोल कस्टर्ड बन्स (3 पीस)"
+ },
+ "Chili Oil Dumplings (3 pieces)": {
+  "en": "Sichuan Chili Oil Dumplings (3 pcs)",
+  "zh": "四川红油抄手 (3件)",
+  "ru": "Пельмени по-сычуаньски в остром масле (3 шт.)",
+  "ja": "四川風紅油ワンタン (3個)",
+  "hi": "सिचुआन चिली ऑयल डंपलिंग्स (3 पीस)"
+ },
+ "Baked Pineapple Buns with BBQ Pork (3 pieces)": {
+  "en": "Baked Pineapple Buns with BBQ Pork (3 pcs)",
+  "zh": "酥皮菠萝叉烧包 (3件)",
+  "ru": "Запечённые булочки «боло» со свининой барбекю (3 шт.)",
+  "ja": "チャーシュー入りパイナップルパン（3個）",
+  "hi": "बेक्ड अनानास बारबेक्यू पोर्क बन्स (3 पीस)"
+ },
+ "Lotus Leaf Sticky Rice with Chicken": {
+  "en": "Steamed Glutinous Rice with Chicken in Lotus Leaf (Lo Mai Gai)",
+  "zh": "糯米鸡 (荷叶糯米鸡)",
+  "ru": "Клейкий рис с курицей в лотосовых листьях (Ло Май Гай)",
+  "ja": "蓮の葉包みチキンおこわ (糯米鶏)",
+  "hi": "कमल के पत्ते में लिपटा चिकन स्टिकी राइस (Lo Mai Gai)"
+ },
+ "Prawn Toast with XO Sauce": {
+  "en": "Prawn Toast with XO Sauce",
+  "zh": "XO酱虾多士",
+  "ru": "Тосты с креветками и соусом XO",
+  "ja": "海老トースト XO醤添え",
+  "hi": "एक्सओ सॉस के साथ प्रॉन टोस्ट"
+ },
+ "Sichuan Mala Braised Beef Shank": {
+  "en": "Braised Beef Shank in Sichuan Mala Sauce",
+  "zh": "四川麻辣卤牛腱",
+  "ru": "Тушеная говяжья голяшка в соусе сычуань мала",
+  "ja": "四川麻辣牛スネ肉の煮込み",
+  "hi": "सिचुआन माला ब्रेज़्ड बीफ़ शैंक"
+ },
+ "Chilled French Beans with Sesame Sauce": {
+  "en": "Chilled French Green Beans with Sesame Sauce",
+  "zh": "麻酱冰镇四季豆",
+  "ru": "Охлажденная стручковая фасоль под кунжутным соусом",
+  "ja": "インゲン豆の冷製胡麻ソース和え",
+  "hi": "तिल की चटनी के साथ चिल्ड फ्रेंच बीन्स"
+ },
+ "Chilled Marinated Jelly Fish": {
+  "en": "Chilled Marinated Jellyfish",
+  "zh": "凉拌海蜇皮",
+  "ru": "Охлаждённая маринованная медуза",
+  "ja": "クラゲの冷製マリネ",
+  "hi": "ठंडी मैरीनेटेड जेलीफ़िश"
+ },
+ "Century Egg with Ginger-Scallion Dressing": {
+  "en": "Century Egg with Ginger & Scallion Dressing",
+  "zh": "姜葱拌皮蛋",
+  "ru": "Столетние яйца под имбирно-луковой заправкой",
+  "ja": "ピータンの生姜葱ソース和え",
+  "hi": "अदरक-हरी प्याज ड्रेसिंग के साथ सेंचुरी एग"
+ },
+ "Braised Chicken Soup with Morel Mushrooms & Cabbage (per person)": {
+  "en": "Braised Chicken Soup with Morel Mushrooms & Chinese Cabbage (per person)",
+  "zh": "羊肚菌白菜炖鸡汤 (位)",
+  "ru": "Куриный суп со сморчками и пекинской капустой (порционный)",
+  "ja": "アミガサ茸と白菜の鶏肉スープ（1名分）",
+  "hi": "मोरेल मशरूम और पत्तागोभी के साथ चिकन सूप (प्रति व्यक्ति)"
+ },
+ "Hokkaido Scallop Hot & Sour Soup (per person)": {
+  "en": "Hokkaido Scallop Hot & Sour Soup (per person)",
+  "zh": "北海道带子酸辣汤 (位)",
+  "ru": "Кисло-острый суп с морским гребешком с Хоккайдо (порционный)",
+  "ja": "北海道産ホタテの酸辣湯 (1名分)",
+  "hi": "होक्काइडो स्कैलप हॉट एंड सॉर सूप (प्रति व्यक्ति)"
+ },
+ "Wok-Fried Typhoon Shelter-Style Tiger Prawn (3 pieces)": {
+  "en": "Wok-Fried Typhoon Shelter-Style Tiger Prawns (3 pcs)",
+  "zh": "避风塘炒大虎虾 (3只)",
+  "ru": "Тигровые креветки, обжаренные в воке в стиле «Тайфун Шелтер» (3 шт.)",
+  "ja": "避風塘風タイガー海老の炒め物（3尾）",
+  "hi": "टाइफून शेल्टर-स्टाइल वोक-फ्राइड टाइगर प्रॉन्स (3 पीस)"
+ },
+ "Steamed Tofu with Japanese Scallops in Black Bean Sauce (3 pieces)": {
+  "en": "Steamed Tofu with Japanese Scallops in Black Bean Sauce (3 pcs)",
+  "zh": "豉汁日本带子蒸豆腐 (3件)",
+  "ru": "Паровой тофу с японским гребешком в соусе из черных бобов (3 шт.)",
+  "ja": "日本産ホタテと豆腐の豆豉蒸し (3個)",
+  "hi": "ब्लैक बीन सॉस में जापानी स्कैलप्स के साथ स्टीम्ड टोफू (3 पीस)"
+ },
+ "Stir-Fried Beef with 3 Types of Onion": {
+  "en": "Stir-Fried Beef with Three Kinds of Onions",
+  "zh": "三种葱炒牛肉",
+  "ru": "Говядина вок с тремя видами лука",
+  "ja": "牛肉と3種葱の強火炒め",
+  "hi": "तीन प्रकार के प्याज के साथ वोक-फ्राइड बीफ़"
+ },
+ "Typhoon Shelter-Style New Zealand Lamb Chops (3 pieces)": {
+  "en": "Typhoon Shelter New Zealand Lamb Chops (3 pcs)",
+  "zh": "避风塘新西兰羊排 (3件)",
+  "ru": "Бараньи ребрышки из Новой Зеландии в стиле «Тайфун Шелтер» (3 шт.)",
+  "ja": "避風塘風ニュージーランド産ラムチョップ (3本)",
+  "hi": "टाइफून शेल्टर-स्टाइल न्यूजीलैंड लैम्ब चॉप्स (3 पीस)"
+ },
+ "Sweet & Sour Sauce Crispy Pork Fillet with Pineapple & Bell Pepper": {
+  "en": "Sweet & Sour Crispy Pork with Pineapple & Bell Pepper",
+  "zh": "菠萝彩椒咕噜肉",
+  "ru": "Хрустящая свинина в кисло-сладком соусе с ананасом и сладким перцем",
+  "ja": "パイナップルとパプリカの酢豚",
+  "hi": "अनानास और शिमला मिर्च के साथ स्वीट एंड सॉर क्रिस्पी पोर्क"
+ },
+ "Marinated Chicken with Salt, Spices and Minced Spring Onion (quarter)": {
+  "en": "Salt-and-Spice Marinated Chicken with Minced Spring Onion (Quarter)",
+  "zh": "香料盐腌鸡配葱花（四分之一只）",
+  "ru": "Курица, маринованная с солью и специями, с рубленым зелёным луком (четверть)",
+  "ja": "塩と香辛料でマリネした鶏肉の刻み青ねぎ添え（1/4羽）",
+  "hi": "नमक और मसालों में मैरीनेट किया हुआ चिकन, कटी हरी प्याज़ के साथ (एक चौथाई)"
+ },
+ "Marinated Chicken with Salt, Spices and Minced Spring Onion (half)": {
+  "en": "Salt-and-Spice Marinated Chicken with Minced Spring Onion (Half)",
+  "zh": "香料盐腌鸡配葱花（半只）",
+  "ru": "Курица, маринованная с солью и специями, с рубленым зелёным луком (половина)",
+  "ja": "塩と香辛料でマリネした鶏肉の刻み青ねぎ添え（半羽）",
+  "hi": "नमक और मसालों में मैरीनेट किया हुआ चिकन, कटी हरी प्याज़ के साथ (आधा)"
+ },
+ "Crispy Roasted Pork Belly": {
+  "en": "Crispy Roasted Pork Belly (Siu Yuk)",
+  "zh": "脆皮烧肉 (烧腩仔)",
+  "ru": "Хрустящая жареная свиная грудинка по-кантонски (Сиу Юк)",
+  "ja": "広東風クリスピーローストポーク (脆皮焼肉)",
+  "hi": "क्रिस्पी रोस्टेड पोर्क बेली (सिउ युक)"
+ },
+ "Honey-Glazed Char Siu Pork Belly": {
+  "en": "Honey-Glazed Char Siu Pork Belly",
+  "zh": "蜜汁叉烧腩肉",
+  "ru": "Свиная грудинка барбекю чар сиу в медовой глазури",
+  "ja": "蜜汁チャーシュー豚バラ肉",
+  "hi": "हनी-ग्लेज़्ड चार सिउ पोर्क बेली"
+ },
+ "Cantonese-Style Sesame Grilled Chicken (quarter)": {
+  "en": "Cantonese Roasted Sesame Chicken (Quarter)",
+  "zh": "广式芝麻烤鸡（四分之一只）",
+  "ru": "Жареная курица с кунжутом по-кантонски (четверть)",
+  "ja": "広東風胡麻風味のローストチキン (1/4羽)",
+  "hi": "कैंटोनीज़-स्टाइल तिल भुना चिकन (एक चौथाई)"
+ },
+ "Cantonese-Style Sesame Grilled Chicken (half)": {
+  "en": "Cantonese Roasted Sesame Chicken (Half)",
+  "zh": "广式芝麻烤鸡（半只）",
+  "ru": "Жареная курица с кунжутом по-кантонски (половина)",
+  "ja": "広東風胡麻風味のローストチキン (半羽)",
+  "hi": "कैंटोनीज़-स्टाइल तिल भुना चिकन (आधा)"
+ },
+ "Caramelized Smoked Duck Breast": {
+  "en": "Caramelized Smoked Duck Breast",
+  "zh": "焦糖烟熏鸭胸",
+  "ru": "Копченая утиная грудка в карамельной глазури",
+  "ja": "鴨胸肉のキャラメリゼスモーク",
+  "hi": "कैरामेलाइज़्ड स्मोक्ड डक ब्रेस्ट"
+ },
+ "Local Seasonal Green (poached / stir-fried with oil / with minced garlic / with \"Lao Gan Ma\")": {
+  "en": "Seasonal Greens (Poached / Stir-Fried with Oil / Garlic / Lao Gan Ma Chili)",
+  "zh": "时令绿色时蔬 (白灼 / 清炒 / 蒜蓉 / 老干妈炒 可选)",
+  "ru": "Сезонные зеленые овощи (отварные / на масле / с чесноком / в соусе Лао Гань Ма)",
+  "ja": "季節の青菜料理 (湯引き / 清炒め / ニンニク炒め / 老干媽炒め)",
+  "hi": "मौसमी हरी सब्जियाँ (उबली / सादी तली / लहसुन के साथ / लाओ गान मा में)"
+ },
+ "Additional with Crab Meat": {
+  "en": "Extra Crab Meat Topping",
+  "zh": "加蟹肉",
+  "ru": "Дополнительно: мясо краба",
+  "ja": "蟹肉の追加トッピング",
+  "hi": "अतिरिक्त केकड़ा मांस"
+ },
+ "Additional with Dried Scallop": {
+  "en": "Extra Dried Scallop Topping",
+  "zh": "加瑶柱 (干贝)",
+  "ru": "Дополнительно: сушеный морской гребешок",
+  "ja": "干し貝柱の追加トッピング",
+  "hi": "अतिरिक्त सूखे स्कैलप"
+ },
+ "Hong Kong-Style Fried Flat Rice Noodles with Beef": {
+  "en": "Hong Kong-Style Wok-Fried Flat Rice Noodles with Beef (Gon Chow Ngau Ho)",
+  "zh": "干炒牛河",
+  "ru": "Жареная рисовая лапша с говядиной по-гонконгски",
+  "ja": "香港風牛肉入り焼きフォー (乾炒牛河)",
+  "hi": "हांगकांग-शैली वोक-फ्राइड राइस नूडल्स बीफ़ के साथ"
+ },
+ "Wok-Fried Rice with Crab Meat, Ginger & Egg White": {
+  "en": "Wok-Fried Rice with Crab Meat, Ginger & Egg White",
+  "zh": "姜汁蛋白蟹肉炒饭",
+  "ru": "Жареный рис вок с крабовым мясом, имбирем и яичным белком",
+  "ja": "蟹肉と生姜と卵白の炒飯",
+  "hi": "केकड़ा मांस, अदरक और अंडे की सफेदी के साथ फ्राइड राइस"
+ },
+ "Lotus Leaf Fried Rice with Diced Roasted Duck, Chicken, Crab Meat & Dried Scallop (per person)": {
+  "en": "Lotus Leaf Fried Rice with Roast Duck, Chicken, Crab Meat & Dried Scallop (per person)",
+  "zh": "荷叶裹蒸炒饭 (烧鸭、鸡肉、蟹肉、瑶柱，位)",
+  "ru": "Жареный рис в лотосовом листе с жареной уткой, курицей, крабовым мясом и сушёным морским гребешком (на 1 человека)",
+  "ja": "蓮の葉包み炒飯 (ローストダック・鶏肉・蟹肉・干し貝柱、1名分)",
+  "hi": "रोस्ट डक, चिकन, केकड़ा मांस और सूखे स्कैलप के साथ लोटस लीफ फ्राइड राइस (प्रति व्यक्ति)"
+ },
+ "White Rice": {
+  "en": "Steamed White Rice",
+  "zh": "白米饭",
+  "ru": "Отварной белый рис",
+  "ja": "白ご飯",
+  "hi": "सादा उबला चावल"
+ },
+ "Vegetarian Crystal Dumpling (3 pieces)": {
+  "en": "Vegetarian Crystal Dumplings (3 pcs)",
+  "zh": "素水晶蒸饺 (3件)",
+  "ru": "Вегетарианские хрустальные пельмени (3 шт.)",
+  "ja": "野菜のクリスタル蒸し餃子 (3個)",
+  "hi": "शाकाहारी क्रिस्टल डंपलिंग्स (3 पीस)"
+ },
+ "Spinach Dumpling (3 pieces)": {
+  "en": "Spinach Dumplings (3 pcs)",
+  "zh": "菠菜饺（3件）",
+  "ru": "Пельмени со шпинатом (3 шт.)",
+  "ja": "ほうれん草の餃子（3個）",
+  "hi": "पालक डंपलिंग्स (3 पीस)"
+ },
+ "Fried Vegetarian Spring Roll (3 pieces)": {
+  "en": "Fried Vegetarian Spring Rolls (3 pcs)",
+  "zh": "炸素春卷 (3件)",
+  "ru": "Жареные вегетарианские спринг-роллы (3 шт.)",
+  "ja": "精進揚げ春巻き (3個)",
+  "hi": "फ्राइड वेजिटेरियन स्प्रिंग रोल्स (3 पीस)"
+ },
+ "Chinese Bun - Steamed or Deep Fried (3 pieces)": {
+  "en": "Mantou Chinese Buns - Steamed or Fried (3 pcs)",
+  "zh": "馒头 (蒸或炸，3件)",
+  "ru": "Китайские булочки маньтоу — на пару или жареные (3 шт.)",
+  "ja": "中華まんとう (蒸し または 揚げ、3個)",
+  "hi": "चीनी मंतो बन्स - स्टीम्ड या डीप फ्राइड (3 पीस)"
+ },
+ "Sweet and Sour Radish Roll (3 pieces)": {
+  "en": "Sweet and Sour Pickled Radish Rolls (3 pcs)",
+  "zh": "糖醋萝卜卷（3件）",
+  "ru": "Кисло-сладкие рулетики из редьки (3 шт.)",
+  "ja": "甘酢大根ロール (3個)",
+  "hi": "खट्टे-मीठे मूली रोल्स (3 पीस)"
+ },
+ "Stir-fried Green Beans in Sesame Dressing": {
+  "en": "Stir-Fried Green Beans in Sesame Dressing",
+  "zh": "芝麻酱炒四季豆",
+  "ru": "Стручковая фасоль в кунжутном соусе",
+  "ja": "インゲン豆の胡麻炒め",
+  "hi": "तिल की ड्रेसिंग में तली हुई हरी फलियाँ"
+ },
+ "Deep Fried Salt and Pepper Beancurd": {
+  "en": "Deep-Fried Salt and Pepper Tofu",
+  "zh": "椒盐脆皮豆腐",
+  "ru": "Тофу во фритюре с солью и перцем",
+  "ja": "揚げ豆腐の塩胡椒風味",
+  "hi": "क्रिस्पी सॉल्ट एंड पेपर टोफू"
+ },
+ "Vegetarian Hot and Sour Soup": {
+  "en": "Vegetarian Hot and Sour Soup",
+  "zh": "素酸辣汤",
+  "ru": "Вегетарианский кисло-острый суп",
+  "ja": "精進酸辣湯",
+  "hi": "वेज हॉट एंड सॉर सूप"
+ },
+ "Pumpkin Soup with Black Truffle": {
+  "en": "Pumpkin Soup with Black Truffle",
+  "zh": "黑松露南瓜汤",
+  "ru": "Тыквенный суп с черным трюфелем",
+  "ja": "黒トリュフ香る南瓜スープ",
+  "hi": "ब्लैक ट्रफ़ल कद्दू सूप"
+ },
+ "Stir Fried Eggplant with Typhoon Shelter Style": {
+  "en": "Typhoon Shelter Stir-Fried Eggplant",
+  "zh": "避风塘炒茄子",
+  "ru": "Баклажаны вок в стиле «Тайфун Шелтер»",
+  "ja": "避風塘風茄子炒め",
+  "hi": "टाइफून शेल्टर-स्टाइल फ्राइड बैंगन"
+ },
+ "Steamed Eggplant with Garlic Dressing": {
+  "en": "Steamed Eggplant with Minced Garlic Sauce",
+  "zh": "蒜蓉蒸茄子",
+  "ru": "Паровые баклажаны под чесночным соусом",
+  "ja": "蒸し茄子のニンニクソース添え",
+  "hi": "लहसुन ड्रेसिंग के साथ स्टीम्ड बैंगन"
+ },
+ "Stir Fried Mixed Vegetable with Bell Pepper and Black Pepper": {
+  "en": "Stir-Fried Mixed Vegetables with Bell Pepper and Black Pepper",
+  "zh": "黑椒彩椒炒什锦时蔬",
+  "ru": "Овощное ассорти вок со сладким и черным перцем",
+  "ja": "パプリカと黒胡椒の彩り野菜炒め",
+  "hi": "शिमला मिर्च और काली मिर्च के साथ तली हुई मिश्रित सब्जियां"
+ },
+ "Braised Baby Chinese Cabbage with Enoki Mushrooms in Pumpkin Sauce": {
+  "en": "Braised Baby Chinese Cabbage with Enoki Mushrooms in Pumpkin Sauce",
+  "zh": "金汤金针菇娃娃菜",
+  "ru": "Тушёная молодая пекинская капуста с грибами эноки в тыквенном соусе",
+  "ja": "エノキとミニ白菜の南瓜ソース煮込み",
+  "hi": "कद्दू की ग्रेवी में एनोकी मशरूम और बेबी पत्तागोभी"
+ },
+ "Braised Tofu with Morel Mushrooms": {
+  "en": "Braised Tofu with Morel Mushrooms",
+  "zh": "羊肚菌红烧豆腐",
+  "ru": "Тушеный тофу со сморчками",
+  "ja": "アミガサ茸と豆腐の煮込み",
+  "hi": "मोरेल मशरूम के साथ ब्रेज़्ड टोफू"
+ },
+ "Sweet and Sour Gourd Ball": {
+  "en": "Sweet and Sour Bottle Gourd Vegetarian Balls",
+  "zh": "糖醋素葫芦丸子",
+  "ru": "Вегетарианские шарики из бутылочной тыквы в кисло-сладком соусе",
+  "ja": "甘酢あんかけヒョウタン団子 (精進料理)",
+  "hi": "खट्टे-मीठे लौकी के वेज कोफ़्ते"
+ },
+ "Stir Fried Potato Ball with Kung Pao Sauce": {
+  "en": "Stir-Fried Potato Balls in Kung Pao Sauce",
+  "zh": "宫保土豆丸子",
+  "ru": "Картофельные шарики в соусе Кунг Пао",
+  "ja": "宮保風ポテトボール炒め",
+  "hi": "कुंग पाओ सॉस में तले हुए आलू के कोफ़्ते"
+ },
+ "Wok Fried Rice with Avocado and Cashew Nut": {
+  "en": "Wok-Fried Rice with Avocado and Cashew Nuts",
+  "zh": "牛油果腰果炒饭",
+  "ru": "Жареный рис вок с авокадо и кешью",
+  "ja": "アボカドとカシューナッツの炒飯",
+  "hi": "एवोकैडो और काजू फ्राइड राइस"
+ },
+ "Braised Ee Fu Noodles with Mushrooms, Onion and Black Pepper": {
+  "en": "Braised E-Fu Noodles with Mushrooms, Onion and Black Pepper",
+  "zh": "黑椒菌菇洋葱焖伊面",
+  "ru": "Тушеная лапша и-фу с грибами, луком и черным перцем",
+  "ja": "キノコと玉ねぎと黒胡椒の煮込み伊府麺（イーフーメン）",
+  "hi": "मशरूम, प्याज और काली मिर्च के साथ ब्रेज़्ड ई-फू नूडल्स"
+ },
+ "Glutinous Rice Balls in Wolfberry Ginger Tea": {
+  "en": "Glutinous Rice Dumplings in Goji Berry Ginger Tea (Tang Yuan)",
+  "zh": "枸杞姜茶汤圆",
+  "ru": "Рисовые клецки в имбирном чае с ягодами годжи (Танъюань)",
+  "ja": "クコの実と生姜湯の白玉団子 (湯円)",
+  "hi": "गोजी बेरी और अदरक की चाय में स्टिकी राइस बॉल्स"
+ },
+ "Lemongrass Jelly with Lime Sorbet": {
+  "en": "Lemongrass Jelly with Lime Sorbet",
+  "zh": "香茅青柠雪葩果冻",
+  "ru": "Желе из лемонграсса с лаймовым сорбетом",
+  "ja": "レモングラスゼリーとライムソルベ",
+  "hi": "लेमनग्रास जेली और लाइम सॉर्बे"
+ },
+ "Mango Puree with Pomelo & Sago": {
+  "en": "Mango Purée with Pomelo & Sago (Yang Zhi Gan Lu)",
+  "zh": "杨枝甘露",
+  "ru": "Манговое пюре с помело и саго (Ян Чжи Гань Лу)",
+  "ja": "楊枝甘露（マンゴーピューレ・ポメロ・サゴ入り）",
+  "hi": "आम प्यूरी, पोमेलो और साबूदाना मिठाई (यांग झी गान लू)"
+ },
+ "Baked Egg Tart": {
+  "en": "Baked Egg Tart",
+  "zh": "烤蛋挞",
+  "ru": "Запеченный яичный тарт",
+  "ja": "エッグタルト (蛋撻)",
+  "hi": "बेक्ड एग टार्ट"
+ },
+ "Longevity Peach Buns (3 pieces)": {
+  "en": "Steamed Longevity Peach Buns (3 pcs)",
+  "zh": "寿桃包 (3件)",
+  "ru": "Паровые булочки долголетия в форме персика (3 шт.)",
+  "ja": "寿桃包 (長寿の桃まんじゅう、3個)",
+  "hi": "लोंगेविटी पीच बन्स (3 पीस)"
+ },
+ "Sesame Balls with Red Bean (3 pieces)": {
+  "en": "Sesame Balls with Red Bean (3 pcs)",
+  "zh": "豆沙芝麻球 (煎堆，3件)",
+  "ru": "Кунжутные шарики с начинкой из красной фасоли (3 шт.)",
+  "ja": "あんこ入り胡麻団子 (3個)",
+  "hi": "मीठी लाल बीन पेस्ट के साथ तिल के गोले (3 पीस)"
+ },
+ "Senado Silk": {
+  "en": "Senado Silk Cocktail",
+  "zh": "议事亭丝语鸡尾酒",
+  "ru": "Коктейль Senado Silk",
+  "ja": "セナド・シルク",
+  "hi": "सेनाडो सिल्क कॉकटेल"
+ },
+ "Lan Kwai Fong Breeze": {
+  "en": "Lan Kwai Fong Breeze Cocktail",
+  "zh": "兰桂坊微风鸡尾酒",
+  "ru": "Коктейль Lan Kwai Fong Breeze",
+  "ja": "蘭桂坊ブリーズ (ランカイフォン・ブリーズ)",
+  "hi": "लैन क्वाई फोंग ब्रीज कॉकटेल"
+ },
+ "Donghu Drift": {
+  "en": "Donghu Drift Cocktail",
+  "zh": "东湖漫影鸡尾酒",
+  "ru": "Коктейль Donghu Drift",
+  "ja": "ドンフー・ドリフト (東湖ドリフト)",
+  "hi": "डोंगहू ड्रिफ्ट कॉकटेल"
+ },
+ "Classic Cocktail (ask our mixologist)": {
+  "en": "Classic Cocktail (Upon Request to Mixologist)",
+  "zh": "经典鸡尾酒 (可向调酒师点单)",
+  "ru": "Классический коктейль (по запросу у бармена)",
+  "ja": "クラシックカクテル (バーテンダーにお申し付けください)",
+  "hi": "क्लासिक कॉकटेल (मिक्सोलॉजिस्ट से अपनी पसंद का ऑर्डर करें)"
+ },
+ "Cat Street Spice": {
+  "en": "Cat Street Spice Mocktail",
+  "zh": "摩罗街香韵无酒精鸡尾酒",
+  "ru": "Безалкогольный коктейль Cat Street Spice",
+  "ja": "キャットストリート・スパイス",
+  "hi": "कैट स्ट्रीट स्पाइस मॉकटेल"
+ },
+ "Canton Road Citrus": {
+  "en": "Canton Road Citrus Mocktail",
+  "zh": "广东道柑橘无酒精鸡尾酒",
+  "ru": "Безалкогольный коктейль Canton Road Citrus",
+  "ja": "カントンロード・シトラス",
+  "hi": "कैंटन रोड सिट्रस मॉकटेल"
+ },
+ "Shamian Spice": {
+  "en": "Shamian Spice Mocktail",
+  "zh": "沙面辛香无酒精鸡尾酒",
+  "ru": "Безалкогольный коктейль Shamian Spice",
+  "ja": "シャーミエン・スパイス (沙面スパイス)",
+  "hi": "शामियान स्पाइस मॉकटेल"
+ },
+ "Sun Kraft Kiss Bridge Helles Lager | Sunset Town Dry Hop Pale Ale - can": {
+  "en": "Sun Kraft Kiss Bridge Helles Lager / Sunset Town Dry Hop Pale Ale (Can)",
+  "zh": "Sun Kraft 接吻桥海勒斯拉格 / 日落小镇冷投酒花淡色艾尔 (易拉罐)",
+  "ru": "Крафтовое пиво Sun Kraft Kiss Bridge Helles Lager / Sunset Town Dry Hop Pale Ale (банка)",
+  "ja": "サンクラフト キスブリッジ・ヘレスラガー / サンセットタウン・ドライホップ・ペールエール (缶)",
+  "hi": "सन क्राफ्ट किस ब्रिज हेल्स लेगर / सनसेट टाउन ड्राई हॉप पेल एल (कैन)"
+ },
+ "Sun Kraft (as above) - glass 330ml": {
+  "en": "Sun Kraft Craft Beer on Tap (330ml Glass)",
+  "zh": "Sun Kraft 精酿生啤酒 (330ml杯装)",
+  "ru": "Разливное крафтовое пиво Sun Kraft (бокал 330 мл)",
+  "ja": "サンクラフト 生クラフトビール (グラス 330ml)",
+  "hi": "सन क्राफ्ट ड्राफ्ट बीयर (ग्लास 330 मिली)"
+ },
+ "Sun Kraft (as above) - glass 500ml": {
+  "en": "Sun Kraft Craft Beer on Tap (500ml Glass)",
+  "zh": "Sun Kraft 精酿生啤酒 (500ml杯装)",
+  "ru": "Разливное крафтовое пиво Sun Kraft (бокал 500 мл)",
+  "ja": "サンクラフト 生クラフトビール (グラス 500ml)",
+  "hi": "सन क्राफ्ट ड्राफ्ट बीयर (ग्लास 500 मिली)"
+ },
+ "Tsing Tao - can": {
+  "en": "Tsingtao Beer (Can)",
+  "zh": "青岛啤酒 (听装)",
+  "ru": "Пиво Циндао (банка)",
+  "ja": "青島ビール (缶)",
+  "hi": "त्सिंगताओ बीयर (कैन)"
+ },
+ "Tsing Tao - bottle": {
+  "en": "Tsingtao Beer (Bottle)",
+  "zh": "青岛啤酒 (瓶装)",
+  "ru": "Пиво Циндао (бутылка)",
+  "ja": "青島ビール (瓶)",
+  "hi": "त्सिंगताओ बीयर (बोतल)"
+ },
+ "Tiger / Saigon Special / Heineken / Heineken Zero": {
+  "en": "Tiger / Saigon Special / Heineken / Heineken 0.0",
+  "zh": "虎牌 / 西贡特醇 / 喜力 / 喜力无醇啤酒",
+  "ru": "Пиво Tiger / Saigon Special / Heineken / Heineken 0.0",
+  "ja": "タイガー / サイゴンスペシャル / ハイネケン / ハイネケン0.0",
+  "hi": "टाइगर / साइगॉन स्पेशल / हेनेकेन / हेनेकेन ज़ीरो"
+ },
+ "Coke / Coke Zero / Sprite / Ginger Ale / Tonic / Soda Schweppes": {
+  "en": "Coca-Cola / Coke Zero / Sprite / Schweppes Ginger Ale / Tonic / Soda",
+  "zh": "可口可乐 / 零度可乐 / 雪碧 / 怡泉姜汁汽水 / 汤力水 / 苏打水",
+  "ru": "Coca-Cola / Coke Zero / Sprite / имбирный эль / тоник / содовая Schweppes",
+  "ja": "コカ・コーラ / コカ・コーラゼロ / スプライト / ジンジャーエール / トニックウォーター / ソーダ",
+  "hi": "कोका-कोला / कोक ज़ीरो / स्प्राइट / जिंजर एल / टॉनिक / सोडा श्वेप्स"
+ },
+ "Aqua Panna Still 750ml": {
+  "en": "Acqua Panna Still Mineral Water (750ml)",
+  "zh": "普娜天然无气矿泉水 750ml",
+  "ru": "Минеральная негазированная вода Acqua Panna 750 мл",
+  "ja": "アクアパンナ 静水 750ml",
+  "hi": "एक्वा पन्ना स्टिल मिनरल वाटर 750 मिली"
+ },
+ "San Pellegrino Sparkling 750ml": {
+  "en": "San Pellegrino Sparkling Natural Mineral Water (750ml)",
+  "zh": "圣培露天然气泡水 750ml",
+  "ru": "Газированная минеральная вода San Pellegrino 750 мл",
+  "ja": "サンペレグリノ 炭酸水 750ml",
+  "hi": "सैन पेलेग्रिनो स्पार्कलिंग वाटर 750 मिली"
+ },
+ "Sai Kung Sunset": {
+  "en": "Sai Kung Sunset",
+  "zh": "Sai Kung Sunset（西贡日落）",
+  "ru": "Sai Kung Sunset",
+  "ja": "サイクン・サンセット",
+  "hi": "साई कुंग सनसेट"
+ },
+ "Fuxing Blend": {
+  "en": "Fuxing Blend",
+  "zh": "Fuxing Blend（复兴拼配）",
+  "ru": "Fuxing Blend",
+  "ja": "フーシン・ブレンド",
+  "hi": "फुक्सिंग ब्लेंड"
+ },
+ "Huaihai Glow": {
+  "en": "Huaihai Glow",
+  "zh": "Huaihai Glow（淮海之光）",
+  "ru": "Huaihai Glow",
+  "ja": "ファイハイ・グロー",
+  "hi": "हुआईहाई ग्लो"
+ },
+ "Wukang Whisper": {
+  "en": "Wukang Whisper",
+  "zh": "Wukang Whisper（武康低语）",
+  "ru": "Wukang Whisper",
+  "ja": "ウーカン・ウィスパー",
+  "hi": "वुकांग व्हिस्पर"
+ },
+ "Tai Ping Green": {
+  "en": "Tai Ping Green",
+  "zh": "Tai Ping Green（太平绿茶）",
+  "ru": "Tai Ping Green",
+  "ja": "タイピン・グリーン",
+  "hi": "ताइपिंग ग्रीन"
+ },
+ "Yellow Buds Tea": {
+  "en": "Yellow Buds Tea (Huang Ya)",
+  "zh": "黄芽茶",
+  "ru": "Желтый чай Хуанъя (Желтые почки)",
+  "ja": "黄芽茶 (イエローバズティー)",
+  "hi": "येलो बड्स टी (पीली कलियों की चाय)"
+ },
+ "Rising Stars Tea": {
+  "en": "Rising Stars Tea",
+  "zh": "Rising Stars 茶",
+  "ru": "Чай Rising Stars",
+  "ja": "ライジングスター・ティー",
+  "hi": "राइजिंग स्टार्स टी"
+ },
+ "Imperial Pu-Erh": {
+  "en": "Imperial Pu-Erh",
+  "zh": "宫廷普洱茶",
+  "ru": "Императорский чай Пуэр",
+  "ja": "宮廷プーアル茶",
+  "hi": "इंपीरियल पु-एर टी"
+ },
+ "Tie Guan Yin": {
+  "en": "Tie Guan Yin Oolong Tea",
+  "zh": "铁观音乌龙茶",
+  "ru": "Чай улун Те Гуань Инь",
+  "ja": "鉄観音烏龍茶",
+  "hi": "ती गुआन यिन ऊलोंग चाय"
+ },
+ "Pai Mu Tan": {
+  "en": "Bai Mu Dan White Peony Tea",
+  "zh": "白牡丹白茶",
+  "ru": "Белый чай Бай Мудань (Белый пион)",
+  "ja": "白牡丹白茶 (パイムータン)",
+  "hi": "बाई मु दान व्हाइट टी (सफेद चाय)"
+ },
+ "Chamomile": {
+  "en": "Chamomile Herbal Tea",
+  "zh": "洋甘菊草本茶",
+  "ru": "Ромашковый травяной чай",
+  "ja": "カモミールハーブティー",
+  "hi": "कैमोमाइल हर्बल टी"
+ },
+ "Salted Iced Coffee": {
+  "en": "Salted Iced Coffee (Cà phê muối)",
+  "zh": "越南冰盐咖啡（Cà phê muối）",
+  "ru": "Вьетнамский соленый кофе со льдом",
+  "ja": "ベトナム風アイス塩コーヒー (カフェ・ムオイ)",
+  "hi": "वियतनामी सॉल्टेड आइस्ड कॉफ़ी"
+ },
+ "Vietnamese Black Coffee": {
+  "en": "Vietnamese Black Coffee",
+  "zh": "越南黑咖啡",
+  "ru": "Вьетнамский черный кофе",
+  "ja": "ベトナム黒コーヒー",
+  "hi": "वियतनामी ब्लैक कॉफ़ी"
+ },
+ "Vietnamese Milk Coffee": {
+  "en": "Vietnamese Condensed Milk Coffee (Cà phê sữa)",
+  "zh": "越南炼乳咖啡",
+  "ru": "Вьетнамский кофе со сгущенным молоком",
+  "ja": "ベトナム練乳コーヒー（Cà phê sữa）",
+  "hi": "वियतनामी कंडेंस्ड मिल्क कॉफ़ी"
+ },
+ "Hot Chocolate": {
+  "en": "Hot Chocolate",
+  "zh": "热巧克力",
+  "ru": "Горячий шоколад",
+  "ja": "ホットチョコレート",
+  "hi": "हॉट चॉकलेट"
+ },
+ "Cappuccino": {
+  "en": "Cappuccino",
+  "zh": "卡布奇诺",
+  "ru": "Капучино",
+  "ja": "カプチーノ",
+  "hi": "कैपुचीनो"
+ },
+ "Latte": {
+  "en": "Caffe Latte",
+  "zh": "拿铁咖啡",
+  "ru": "Кофе латте",
+  "ja": "カフェラテ",
+  "hi": "कैफ़े लाते"
+ },
+ "Espresso": {
+  "en": "Espresso",
+  "zh": "意式浓缩咖啡",
+  "ru": "Эспрессо",
+  "ja": "エスプレッソ",
+  "hi": "एस्प्रेसो"
+ },
+ "Americano": {
+  "en": "Americano",
+  "zh": "美式咖啡",
+  "ru": "Американо",
+  "ja": "アメリカーノ",
+  "hi": "अमेरिकानो"
+ },
+ "Maotai Cun 53% 50cl": {
+  "en": "Kweichow Moutai Chun 53% (500ml)",
+  "zh": "茅台醇 53度 500ml",
+  "ru": "Китайский байцзю Maotai Chun 53% (500 мл)",
+  "ja": "貴州茅台醇 53度 (500ml)",
+  "hi": "माओताई चुन 53% (500 मिली)"
+ },
+ "Maotai Prince 53% 50cl": {
+  "en": "Kweichow Moutai Prince 53% (500ml)",
+  "zh": "茅台王子酒 53度 500ml",
+  "ru": "Китайский байцзю Maotai Prince 53% (500 мл)",
+  "ja": "貴州茅台王子酒 53度 (500ml)",
+  "hi": "माओताई प्रिंस 53% (500 मिली)"
+ },
+ "Maotai Yingbin 53% 50cl": {
+  "en": "Kweichow Moutai Yingbin 53% (500ml)",
+  "zh": "茅台迎宾酒 53度 500ml",
+  "ru": "Китайский байцзю Maotai Yingbin 53% (500 мл)",
+  "ja": "貴州茅台迎賓酒 53度 (500ml)",
+  "hi": "माओताई यिंगबिन 53% (500 मिली)"
+ },
+ "Maison Castel, Merlot, IGP d'Oc": {
+  "en": "Maison Castel, Merlot, IGP d'Oc Red Wine",
+  "zh": "法国卡思黛乐美乐红葡萄酒 IGP d'Oc",
+  "ru": "Красное вино Maison Castel, Merlot, IGP d'Oc",
+  "ja": "メゾン・カステル メルロー IGP ペイ・ドック (赤ワイン)",
+  "hi": "मेसन कास्टेल, मर्लोट, आईजीपी डी'ओक रेड वाइन"
+ },
+ "Banfi, Placido Chianti DOCG": {
+  "en": "Castello Banfi Placido Chianti DOCG Red Wine",
+  "zh": "班菲普拉奇多基安蒂红葡萄酒 DOCG",
+  "ru": "Красное вино Banfi, Placido Chianti DOCG",
+  "ja": "バンフィ プラチド キャンティ DOCG (赤ワイン)",
+  "hi": "बानफ़ी, प्लासीडो चियांती डीओसीजी रेड वाइन"
+ },
+ "Château Haut-Meyreau, Nu Comme Un Verre, AOP Bordeaux 2023": {
+  "en": "Château Haut-Meyreau Nu Comme Un Verre AOP Bordeaux 2023",
+  "zh": "Château Haut-Meyreau Nu Comme Un Verre 波尔多 AOP 葡萄酒（2023）",
+  "ru": "Шато О-Мейро Ню Ком Эн Вер AOP Бордо 2023",
+  "ja": "シャトー・オー・メイロー ニュ・コム・アン・ヴェール AOP ボルドー 2023",
+  "hi": "शैतो हाउ-मेयरो नु कॉम अन वेर एओपी बोर्डो 2023"
+ },
+ "Kono Marlborough Sauvignon Blanc": {
+  "en": "Kono Marlborough Sauvignon Blanc White Wine",
+  "zh": "新西兰科诺马尔堡长相思白葡萄酒",
+  "ru": "Белое вино Kono Marlborough Sauvignon Blanc",
+  "ja": "コノ マールボロ ソーヴィニヨン・ブラン (白ワイン)",
+  "hi": "कोनो मार्लबोरो सॉविनियन ब्लैंक व्हाइट वाइन"
+ },
+ "Moulin de Gassac, Figaro Rosé, IGP Pays d'Hérault": {
+  "en": "Moulin de Gassac, Figaro Rosé, IGP Pays d'Hérault",
+  "zh": "Moulin de Gassac Figaro Rosé 桃红葡萄酒（IGP Pays d'Hérault）",
+  "ru": "Розовое вино Moulin de Gassac, Figaro Rosé, IGP Pays d'Hérault",
+  "ja": "ムーラン・ド・ガサック フィガロ・ロゼ IGP (ロゼワイン)",
+  "hi": "मौलिन डी गसैक, फिगारो रोज़े, आईजीपी पे डी'हेरोल्ट"
+ },
+ "Bottega il Vino Dei Poeti Brut Bianco, Prosecco DOC": {
+  "en": "Bottega Il Vino dei Poeti Brut Bianco Prosecco DOC",
+  "zh": "波特嘉诗人之酒天然白普罗塞克起泡酒",
+  "ru": "Боттега Иль Вино деи Поэти Брют Бьянко Просекко DOC",
+  "ja": "ボッテガ イル・ヴィーノ・デイ・ポエティ ブリュット ビアンコ プロセッコ DOC",
+  "hi": "बोटेगा इल विनो देई पोएती ब्रूट बियान्को प्रोसेको डीओसी"
+ },
+ "Silver Heights Ningxia Pinot Noir (Chinese red wine)": {
+  "en": "Silver Heights Ningxia Pinot Noir Red Wine",
+  "zh": "银色高地宁夏黑皮诺红葡萄酒",
+  "ru": "Красное вино Silver Heights Ningxia Pinot Noir (Китай)",
+  "ja": "シルバー・ハイツ 寧夏 ピノ・ノワール (中国産赤ワイン)",
+  "hi": "सिल्वर हाइट्स निंग्ज़िया पिनोट नोयर रेड वाइन"
+ },
+ "Guigal, Crozes-Hermitage": {
+  "en": "E. Guigal, Crozes-Hermitage Rouge",
+  "zh": "吉佳乐世家克罗兹-埃米塔日红葡萄酒",
+  "ru": "Красное вино E. Guigal, Crozes-Hermitage",
+  "ja": "E.ギガル クローズ・エルミタージュ (赤ワイン)",
+  "hi": "ई. गुइगल, क्रोज़-हर्मिटेज रेड वाइन"
+ },
+ "Edouard Delaunay, Septembre, Pinot Noir": {
+  "en": "Edouard Delaunay, Septembre Pinot Noir",
+  "zh": "德洛内九月黑皮诺红葡萄酒",
+  "ru": "Красное вино Edouard Delaunay, Septembre, Pinot Noir",
+  "ja": "エドゥアール・ドロネー セプタンブル ピノ・ノワール (赤ワイン)",
+  "hi": "एडुआर्ड डेलोने, सेप्टेंबर पिनोट नोयर रेड वाइन"
+ },
+ "d'Arenberg, The Custodian, Grenache, McLaren Vale": {
+  "en": "d'Arenberg The Custodian Grenache, McLaren Vale",
+  "zh": "黛伦堡守护者歌海娜红葡萄酒 麦克拉伦谷",
+  "ru": "Красное вино d'Arenberg, The Custodian, Grenache, McLaren Vale",
+  "ja": "ダーレンベルグ ザ・カストディアン グルナッシュ (赤ワイン)",
+  "hi": "डी'अरेनबर्ग, द कस्टोडियन, ग्रेनाचे, मैकलारेन वेल रेड वाइन"
+ },
+ "Silver Heights Family Reserve Chardonnay (Chinese white wine)": {
+  "en": "Silver Heights Family Reserve Chardonnay White Wine",
+  "zh": "银色高地家族珍藏霞多丽白葡萄酒",
+  "ru": "Белое вино Silver Heights Family Reserve Chardonnay (Китай)",
+  "ja": "シルバー・ハイツ ファミリー・リザーブ シャルドネ (中国産白ワイン)",
+  "hi": "सिल्वर हाइट्स फैमिली रिजर्व शारदोने व्हाइट वाइन"
+ },
+ "Henri Bourgeois, Les Baronnes, Sancerre Sauvignon Blanc": {
+  "en": "Henri Bourgeois Les Baronnes Sancerre Sauvignon Blanc",
+  "zh": "亨利布尔乔亚男爵夫人桑塞尔长相思白葡萄酒",
+  "ru": "Анри Буржуа Ле Баронн Сансер Совиньон Блан",
+  "ja": "アンリ・ブルジョワ レ・バロンヌ サンセール ソーヴィニヨン・ブラン",
+  "hi": "हेनरी बोर्जुआ लेस बैरोनेस सैन्सेरे सॉविनन ब्लैंक"
+ },
+ "Von Winning Estate, Win Win, Dry Riesling": {
+  "en": "Von Winning Estate Win Win Dry Riesling",
+  "zh": "冯·威宁酒庄双赢干型雷司令白葡萄酒",
+  "ru": "Фон Виннинг Эстейт Вин Вин Драй Рислинг",
+  "ja": "フォン・ウィニング・エステート ウィン・ウィン ドライ・リースリング",
+  "hi": "वॉन विनिंग एस्टेट विन विन ड्राई रीज़लिंग"
+ },
+ "Villa Maria, Private Bin Pinot Gris, Marlborough": {
+  "en": "Villa Maria Private Bin Pinot Gris Marlborough",
+  "zh": "Villa Maria Private Bin 灰皮诺白葡萄酒（马尔堡）",
+  "ru": "Вилла Мария Прайвит Бин Пино Гри Мальборо",
+  "ja": "ヴィラ・マリア プライベート・ビン ピノ・グリ マールボロ",
+  "hi": "विला मारिया प्राइवेट बिन पिनोट ग्रिस मार्लबोरो"
+ },
+ "Champagne Taittinger, Brut Réserve": {
+  "en": "Taittinger Brut Réserve Champagne",
+  "zh": "泰亭哲 Brut Réserve 干型香槟",
+  "ru": "Шампанское Тэттенже Брют Резерв",
+  "ja": "テタンジェ ブリュット・レゼルヴ シャンパーニュ",
+  "hi": "टेटिंगर ब्रूट रिज़र्व शैम्पेन"
+ },
+ "Macallan 18 yrs Double Cask - bottle": {
+  "en": "The Macallan 18 Years Double Cask (Bottle)",
+  "zh": "麦卡伦18年双桶单一麦芽威士忌（整瓶）",
+  "ru": "Макаллан 18 лет Дабл Каск (бутылка)",
+  "ja": "ザ・マッカラン 18年 ダブルカスク（ボトル）",
+  "hi": "द मैकलन 18 इयर्स डबल कास्क (बोतल)"
+ },
+ "Macallan 12 yrs Double Cask - bottle": {
+  "en": "The Macallan 12 Years Double Cask (Bottle)",
+  "zh": "麦卡伦12年双桶单一麦芽威士忌（整瓶）",
+  "ru": "Макаллан 12 лет Дабл Каск (бутылка)",
+  "ja": "ザ・マッカラン 12年 ダブルカスク（ボトル）",
+  "hi": "द मैकलन 12 इयर्स डबल कास्क (बोतल)"
+ },
+ "Royal Salute 21 yrs - bottle": {
+  "en": "Royal Salute 21 Years (Bottle)",
+  "zh": "皇家礼炮21年调配苏格兰威士忌（整瓶）",
+  "ru": "Роял Салют 21 год (бутылка)",
+  "ja": "ローヤルサルート 21年（ボトル）",
+  "hi": "रॉयल सैल्यूट 21 इयर्स (बोतल)"
+ },
+ "Glenlivet 18 yrs - bottle": {
+  "en": "The Glenlivet 18 Years (Bottle)",
+  "zh": "格兰威特18年单一麦芽威士忌（整瓶）",
+  "ru": "Гленливет 18 лет (бутылка)",
+  "ja": "ザ・グレンリベット 18年（ボトル）",
+  "hi": "द ग्लेनलिवेट 18 इयर्स (बोतल)"
+ },
+ "Glenlivet 12 yrs - bottle": {
+  "en": "The Glenlivet 12 Years (Bottle)",
+  "zh": "格兰威特12年单一麦芽威士忌（整瓶）",
+  "ru": "Гленливет 12 лет (бутылка)",
+  "ja": "ザ・グレンリベット 12年（ボトル）",
+  "hi": "द ग्लेनलिवेट 12 इयर्स (बोतल)"
+ },
+ "Dewar's 12 yrs - glass": {
+  "en": "Dewar's 12 Years (Glass)",
+  "zh": "帝王12年调配苏格兰威士忌（单杯）",
+  "ru": "Дюарс 12 лет (бокал)",
+  "ja": "デュワーズ 12年（グラス）",
+  "hi": "डेवर्स 12 इयर्स (ग्लास)"
+ },
+ "Dewar's 12 yrs - bottle": {
+  "en": "Dewar's 12 Years (Bottle)",
+  "zh": "帝王12年调配苏格兰威士忌（整瓶）",
+  "ru": "Дюарс 12 лет (бутылка)",
+  "ja": "デュワーズ 12年（ボトル）",
+  "hi": "डेवर्स 12 इयर्स (बोतल)"
+ },
+ "Jim Beam White - glass": {
+  "en": "Jim Beam White Label Bourbon (Glass)",
+  "zh": "金宾白牌波旁威士忌（单杯）",
+  "ru": "Джим Бим Вайт (бокал)",
+  "ja": "ジムビーム ホワイト（グラス）",
+  "hi": "जिम बीम व्हाइट (ग्लास)"
+ },
+ "Jim Beam White - bottle": {
+  "en": "Jim Beam White Label Bourbon (Bottle)",
+  "zh": "金宾白牌波旁威士忌（整瓶）",
+  "ru": "Джим Бим Вайт (бутылка)",
+  "ja": "ジムビーム ホワイト（ボトル）",
+  "hi": "जिम बीम व्हाइट (बोतल)"
+ },
+ "Hennessy XO - bottle": {
+  "en": "Hennessy X.O Cognac (Bottle)",
+  "zh": "轩尼诗XO干邑白兰地（整瓶）",
+  "ru": "Хеннесси X.O (бутылка)",
+  "ja": "ヘネシー X.O（ボトル）",
+  "hi": "हेनेसी एक्स.ओ (बोतल)"
+ },
+ "Hennessy VSOP - bottle": {
+  "en": "Hennessy V.S.O.P Cognac (Bottle)",
+  "zh": "轩尼诗VSOP干邑白兰地（整瓶）",
+  "ru": "Хеннесси V.S.O.P (бутылка)",
+  "ja": "ヘネシー V.S.O.P（ボトル）",
+  "hi": "हेनेसी वी.एस.ओ.पी (बोतल)"
+ },
+ "Patrón Reposado - bottle": {
+  "en": "Patrón Reposado Tequila (Bottle)",
+  "zh": "培恩 Reposado 陈酿龙舌兰酒（整瓶）",
+  "ru": "Патрон Репосадо (бутылка)",
+  "ja": "パトロン レポサド（ボトル）",
+  "hi": "पैट्रोन रेपोसैडो (बोतल)"
+ },
+ "Patrón Silver - glass": {
+  "en": "Patrón Silver Tequila (Glass)",
+  "zh": "培恩银尊龙舌兰酒（单杯）",
+  "ru": "Патрон Сильвер (бокал)",
+  "ja": "パトロン シルバー（グラス）",
+  "hi": "पैट्रोन सिल्वर (ग्लास)"
+ },
+ "Patrón Silver - bottle": {
+  "en": "Patrón Silver Tequila (Bottle)",
+  "zh": "培恩银尊龙舌兰酒（整瓶）",
+  "ru": "Патрон Сильвер (бутылка)",
+  "ja": "パトロン シルバー（ボトル）",
+  "hi": "पैट्रोन सिल्वर (बोतल)"
+ },
+ "Grey Goose - glass": {
+  "en": "Grey Goose Vodka (Glass)",
+  "zh": "灰雁伏特加（单杯）",
+  "ru": "Грей Гус (бокал)",
+  "ja": "グレイグース（グラス）",
+  "hi": "ग्रे गूज़ वोदका (ग्लास)"
+ },
+ "Grey Goose - bottle": {
+  "en": "Grey Goose Vodka (Bottle)",
+  "zh": "灰雁伏特加（整瓶）",
+  "ru": "Грей Гус (бутылка)",
+  "ja": "グレイグース（ボトル）",
+  "hi": "ग्रे गूज़ वोदका (बोतल)"
+ },
+ "Nordés - glass": {
+  "en": "Nordés Atlantic Galician Gin (Glass)",
+  "zh": "诺迪斯加利西亚大西洋金酒（单杯）",
+  "ru": "Нордес Джин (бокал)",
+  "ja": "ノルデス・ジン（グラス）",
+  "hi": "नोर्डेस जिन (ग्लास)"
+ },
+ "Nordés - bottle": {
+  "en": "Nordés Atlantic Galician Gin (Bottle)",
+  "zh": "诺迪斯加利西亚大西洋金酒（整瓶）",
+  "ru": "Нордес Джин (бутылка)",
+  "ja": "ノルデス・ジン（ボトル）",
+  "hi": "नोर्डेस जिन (बोतल)"
+ },
+ "Hendrick's - bottle": {
+  "en": "Hendrick's Gin (Bottle)",
+  "zh": "亨利爵士金酒（整瓶）",
+  "ru": "Хендрикс Джин (бутылка)",
+  "ja": "ヘンドリックス・ジン（ボトル）",
+  "hi": "हेंड्रिक्स जिन (बोतल)"
+ },
+ "Bombay Sapphire - glass": {
+  "en": "Bombay Sapphire Gin (Glass)",
+  "zh": "孟买蓝宝石金酒（单杯）",
+  "ru": "Бомбей Сапфир (бокал)",
+  "ja": "ボンベイ・サファイア（グラス）",
+  "hi": "बॉम्बे सफायर जिन (ग्लास)"
+ },
+ "Bombay Sapphire - bottle": {
+  "en": "Bombay Sapphire Gin (Bottle)",
+  "zh": "孟买蓝宝石金酒（整瓶）",
+  "ru": "Бомбей Сапфир (бутылка)",
+  "ja": "ボンベイ・サファイア（ボトル）",
+  "hi": "बॉम्बे सफायर जिन (बोतल)"
+ },
+ "Myers's Original Dark Rum - glass": {
+  "en": "Myers's Original Dark Rum (Glass)",
+  "zh": "麦尔斯原味黑朗姆酒（单杯）",
+  "ru": "Майерс Ориджинал Дарк Ром (бокал)",
+  "ja": "マイヤーズ オリジナル ダークラム（グラス）",
+  "hi": "मायर्स ओरिजिनल डार्क रम (ग्लास)"
+ },
+ "Myers's Original Dark Rum - bottle": {
+  "en": "Myers's Original Dark Rum (Bottle)",
+  "zh": "麦尔斯原味黑朗姆酒（整瓶）",
+  "ru": "Майерс Ориджинал Дарк Ром (бутылка)",
+  "ja": "マイヤーズ オリジナル ダークラム（ボトル）",
+  "hi": "मायर्स ओरिजिनल डार्क रम (बोतल)"
+ },
+ "Bacardi Carta Blanca - glass": {
+  "en": "Bacardi Carta Blanca Superior White Rum (Glass)",
+  "zh": "百加得白朗姆酒（单杯）",
+  "ru": "Бакарди Карта Бланка (бокал)",
+  "ja": "バカルディ スペリオール カルタ・ブランカ（グラス）",
+  "hi": "बकार्डी कार्टा ब्लैंका (ग्लास)"
+ },
+ "Bacardi Carta Blanca - bottle": {
+  "en": "Bacardi Carta Blanca Superior White Rum (Bottle)",
+  "zh": "百加得白朗姆酒（整瓶）",
+  "ru": "Бакарди Карта Бланка (бутылка)",
+  "ja": "バカルディ スペリオール カルタ・ブランカ（ボトル）",
+  "hi": "बकार्डी कार्टा ब्लैंका (बोतल)"
+ },
+ "Fresh & Baked Oysters Selection": {
+  "en": "Fresh & Baked Oysters Platter",
+  "zh": "鲜生蚝与焗烤生蚝拼盘",
+  "ru": "Ассорти из свежих и запеченных устриц",
+  "ja": "生牡蠣と焼き牡蠣の盛り合わせ",
+  "hi": "ताज़ी और बेक की हुई सीपों की थाली"
+ },
+ "Seafood Tapas & Sparkling Wine": {
+  "en": "Seafood Tapas & Sparkling Wine",
+  "zh": "海鲜小吃配起泡酒",
+  "ru": "Морские тапас и игристое вино",
+  "ja": "シーフードタパスとスパークリングワイン",
+  "hi": "समुद्री भोजन तापस और स्पार्कलिंग वाइन"
+ },
+ "Xiên nướng hải sản chợ đêm": {
+  "en": "Night Market Grilled Seafood Skewers",
+  "zh": "夜市烤海鲜串",
+  "ru": "Шашлычки из морепродуктов на ночном рынке",
+  "ja": "ナイトマーケットのシーフード串焼き",
+  "hi": "नाइट मार्केट ग्रिल्ड सीफूड सीख"
+ },
+ "Mực nướng muối ớt": {
+  "en": "Grilled Squid with Chili Salt",
+  "zh": "辣椒盐烤鱿鱼",
+  "ru": "Кальмар на гриле с солью и чили",
+  "ja": "イカのチリ塩炭火焼き",
+  "hi": "मिर्च और नमक के साथ ग्रिल्ड स्क्विड"
+ },
+ "Buffet Hải Sản Nướng & Lẩu Hoàng Hôn": {
+  "en": "Sunset BBQ Seafood & Hot Pot Buffet",
+  "zh": "日落海鲜烧烤与火锅自助餐",
+  "ru": "Шведский стол с морепродуктами на гриле и хот-потом на закате",
+  "ja": "サンセット海鮮BBQ＆鍋ビュッフェ",
+  "hi": "सनसेट बारबेक्यू सीफूड और हॉट पॉट बुफे"
+ },
+ "Bánh canh cua Hai Bột (Signature Crab Noodle Soup)": {
+  "en": "Hai Bot Signature Crab Thick Noodle Soup",
+  "zh": "Hai Bot 招牌蟹肉粗米粉汤（Bánh canh cua）",
+  "ru": "Фирменный суп с крабом и толстой рисовой лапшой Hai Bot",
+  "ja": "Hai Bot 特製カニ入り極太米麺スープ",
+  "hi": "हाई बॉट सिग्नेचर केकड़ा नूडल सूप"
+ },
+ "Bò bít tết sốt bơ tỏi đặc biệt (Beef Steak with Garlic Butter)": {
+  "en": "Beef Steak with Special Garlic Butter Sauce",
+  "zh": "特制蒜香黄油牛排",
+  "ru": "Говяжий стейк с фирменным чесночно-масляным соусом",
+  "ja": "特製ガーリックバターソースのビーフステーキ",
+  "hi": "विशेष लहसुन मक्खन सॉस के साथ बीफ स्टेक"
+ },
+ "Bột chiên & Chả giò truyền thống": {
+  "en": "Fried Rice Flour Cake & Traditional Spring Rolls",
+  "zh": "越式煎米糕与传统炸春卷",
+  "ru": "Жареные рисовые кубики и традиционные спринг-роллы",
+  "ja": "ベトナム風米粉餅の炒め物と伝統的な揚げ春巻き",
+  "hi": "फ्राइड राइस केक और पारंपरिक स्प्रिंग रोल"
+ },
+ "Lẩu hải sản Hai Bột (Seafood Hot Pot)": {
+  "en": "Hai Bot Seafood Hot Pot",
+  "zh": "Hai Bot 海鲜火锅",
+  "ru": "Морской хот-пот Hai Bot",
+  "ja": "Hai Bot 海鮮鍋",
+  "hi": "हाई बॉट सीफूड हॉट पॉट"
+ },
+ "Cà phê & Trà trái cây tươi": {
+  "en": "Coffee & Fresh Fruit Tea",
+  "zh": "咖啡与鲜果茶",
+  "ru": "Кофе и чай со свежими фруктами",
+  "ja": "コーヒー＆フレッシュフルーツティー",
+  "hi": "कॉफ़ी और ताज़े फलों की चाय"
+ },
+ "Ốc hương xào bơ tỏi / me": {
+  "en": "Stir-Fried Sweet Snails with Garlic Butter or Tamarind",
+  "zh": "蒜香黄油或酸豆炒甜海螺",
+  "ru": "Морские улитки вок с чесночным маслом или тамариндом",
+  "ja": "スイートスネイルのガーリックバターまたはタマリンド炒め",
+  "hi": "लहसुन मक्खन या इमली में तली हुई समुद्री घोंघे"
+ },
+ "Sò lông nướng mỡ hành": {
+  "en": "Grilled Hairy Cockles with Scallion Oil & Peanuts",
+  "zh": "葱油花生烤毛蚶",
+  "ru": "Моллюски с волосистыми раковинами на гриле с маслом зелёного лука и арахисом",
+  "ja": "毛赤貝のネギ油＆ピーナッツ焼き",
+  "hi": "हरी प्याज के तेल और मूंगफली के साथ ग्रिल्ड कॉकल्स"
+ },
+ "Ốc hương Pháp xào bơ tỏi / sốt trứng muối (100g)": {
+  "en": "French Sweet Snails with Garlic Butter or Salted Egg Sauce (100g)",
+  "zh": "法国海螺炒蒜香黄油或咸蛋黄酱（100克）",
+  "ru": "Французские морские улитки с чесночным маслом или соусом из соленых желтков (100 г)",
+  "ja": "フランス産スイートスネイルのガーリックバターまたは塩漬け卵黄ソース炒め（100g）",
+  "hi": "लहसुन मक्खन या नमकीन अंडे की सॉस में फ्रांसीसी घोंघे (100 ग्राम)"
+ },
+ "Hàu Miyagi Nhật Bản (1 con)": {
+  "en": "Japanese Miyagi Fresh Oyster (1 pc)",
+  "zh": "日本宫城县生蚝（1只）",
+  "ru": "Японская устрица Мияги (1 шт.)",
+  "ja": "日本宮城産生牡蠣（1個）",
+  "hi": "जापानी मियागी सीप (1 पीस)"
+ },
+ "Cá hồi Na Uy áp chảo sốt chanh leo": {
+  "en": "Pan-Seared Norwegian Salmon with Passion Fruit Sauce",
+  "zh": "香煎挪威三文鱼配百香果酱",
+  "ru": "Обжаренный норвежский лосось с маракуйевым соусом",
+  "ja": "ノルウェー産サーモンのソテー パッションフルーツソース",
+  "hi": "पैशन फ्रूट सॉस के साथ पैन-सियर्ड नार्वेजियन सैल्मन"
+ },
+ "Đĩa hải sản nướng tổng hợp The Gangs": {
+  "en": "The Gangs Mixed Grilled Seafood Platter",
+  "zh": "The Gangs 综合烤海鲜拼盘",
+  "ru": "Фирменное ассорти из морепродуктов на гриле The Gangs",
+  "ja": "The Gangs 特製ミックスシーフードグリル盛り合わせ",
+  "hi": "द गैंग्स मिक्स्ड ग्रिल्ड सीफूड प्लैटर"
+ },
+ "Bò Mỹ tái chanh wasabi (Tataki)": {
+  "en": "US Beef Tataki with Lime and Wasabi",
+  "zh": "美国产牛肉塔塔基配青柠与芥末酱",
+  "ru": "Татаки из американской говядины с лаймом и васаби",
+  "ja": "アメリカ産牛タタキ（ライム＆ワサビ仕立て）",
+  "hi": "लाइम और वसाबी के साथ अमेरिकी बीफ़ ताताकी"
+ },
+ "Combo thịt nướng The Gangs BBQ Platter": {
+  "en": "The Gangs BBQ Meat Combo Platter",
+  "zh": "The Gangs 烤肉组合拼盘",
+  "ru": "Мясное барбекю ассорти The Gangs",
+  "ja": "The Gangs 特製BBQミート盛り合わせ",
+  "hi": "द गैंग्स बारबेक्यू मीट कॉम्बो प्लैटर"
+ },
+ "Cơm chiên hải sản sốt XO": {
+  "en": "Seafood Fried Rice with XO Sauce",
+  "zh": "XO酱海鲜炒饭",
+  "ru": "Жареный рис с морепродуктами в соусе XO",
+  "ja": "XO醤風味の海鮮チャーハン",
+  "hi": "एक्सओ सॉस के साथ सीफूड फ्राइड राइस"
+ },
+ "Cơm chiên tỏi giòn": {
+  "en": "Crispy Garlic Fried Rice",
+  "zh": "酥脆蒜香炒饭",
+  "ru": "Жареный рис с хрустящим чесноком",
+  "ja": "カリカリガーリックチャーハン",
+  "hi": "कुरकुरा लहसुन फ्राइड राइस"
+ },
+ "The Gangs Craft Beer (Pint)": {
+  "en": "The Gangs Craft Beer (Pint)",
+  "zh": "The Gangs 精酿啤酒（1品脱）",
+  "ru": "Крафтовое пиво The Gangs (1 пинта)",
+  "ja": "The Gangs クラフトビール（1パイント）",
+  "hi": "द गैंग्स क्राफ्ट बियर (पिंट)"
+ },
+ "Bia Tháp (Beer Tower 3L)": {
+  "en": "Beer Tower (3L)",
+  "zh": "啤酒塔（3升）",
+  "ru": "Пивная башня (3 л)",
+  "ja": "ビアタワー（3L）",
+  "hi": "बियर टॉवर (3 लीटर)"
+ },
+ "Neapolitan Artisan Pizza": {
+  "en": "Neapolitan Artisan Pizza",
+  "zh": "那不勒斯传统手工披萨",
+  "ru": "Традиционная неаполитанская пицца",
+  "ja": "ナポリ風本格窯焼きピッツァ",
+  "hi": "नियपोलिटन आर्टिसन पिज़्ज़ा"
+ },
+ "Handmade Gourmet Pasta": {
+  "en": "Handmade Gourmet Pasta",
+  "zh": "手工生面风味意面",
+  "ru": "Домашняя авторская паста",
+  "ja": "自家製生パスタ",
+  "hi": "हस्तनिर्मित स्वादिष्ट पास्ता"
+ },
+ "Charcoal Grilled Steaks & Seafood": {
+  "en": "Charcoal-Grilled Steaks & Seafood",
+  "zh": "炭烤牛排与海鲜",
+  "ru": "Стейки и морепродукты на древесных углях",
+  "ja": "炭火焼きステーキ＆シーフード",
+  "hi": "चारकोल ग्रिल्ड स्टेक और समुद्री भोजन"
+ },
+ "International Breakfast Buffet": {
+  "en": "International Breakfast Buffet",
+  "zh": "国际风味自助早餐",
+  "ru": "Международный завтрак шведский стол",
+  "ja": "インターナショナル朝食ビュッフェ",
+  "hi": "अंतरराष्ट्रीय नाश्ता बुफे"
+ },
+ "Spanish Indulgence Set": {
+  "en": "Spanish Indulgence Brunch Set",
+  "zh": "西班牙风情早午餐套餐",
+  "ru": "Испанский бранч-сет",
+  "ja": "スペイン風ブランチセット",
+  "hi": "स्पैनिश ब्रंच सेट"
+ },
+ "Ensalada Mediterránea de la Costa": {
+  "en": "Coastal Mediterranean Salad",
+  "zh": "地中海沿岸风味沙拉",
+  "ru": "Средиземноморский прибрежный салат",
+  "ja": "海岸風地中海サラダ",
+  "hi": "तटीय भूमध्यसागरीय सलाद"
+ },
+ "Roast Chicken Croquettes": {
+  "en": "Kids' Roast Chicken Croquettes",
+  "zh": "儿童烤鸡肉炸丸子",
+  "ru": "Детские крокеты с курицей",
+  "ja": "キッズ・ローストチキンコロッケ",
+  "hi": "बच्चों के रोस्ट चिकन क्रोकेट्स"
+ },
+ "Spanish Avocado Toast": {
+  "en": "Spanish Avocado Toast",
+  "zh": "西班牙风味牛油果吐司",
+  "ru": "Тост с авокадо по-испански",
+  "ja": "スペイン風アボカドトースト",
+  "hi": "स्पैनिश एवोकैडो टोस्ट"
+ },
+ "Bocadillo Ibérico": {
+  "en": "Iberian Ham Baguette Sandwich (Bocadillo Ibérico)",
+  "zh": "伊比利亚火腿法棍三明治",
+  "ru": "Бокадильо с иберийским хамоном",
+  "ja": "イベリコ生ハムのボカディージョ",
+  "hi": "इबेरियन हैम बगेट सैंडविच (बोकाडिलो इबेरिको)"
+ },
+ "Crab Salad Brioche": {
+  "en": "Crab Salad Brioche",
+  "zh": "蟹肉沙拉布里欧修面包",
+  "ru": "Бриошь с крабовым салатом",
+  "ja": "蟹サラダのブリオッシュ",
+  "hi": "क्रैब सलाद ब्रियोश"
+ },
+ "Spanish Burger": {
+  "en": "Spanish Burger",
+  "zh": "西班牙风味汉堡",
+  "ru": "Испанский бургер",
+  "ja": "スペイン風バーガー",
+  "hi": "स्पैनिश बर्गर"
+ },
+ "Caramelized Onion and Potato Tortilla": {
+  "en": "Caramelized Onion and Potato Spanish Tortilla",
+  "zh": "焦糖洋葱土豆西班牙蛋饼",
+  "ru": "Испанская тортилья с карамелизированным луком и картофелем",
+  "ja": "キャラメリゼオニオンとポテトのトルティージャ",
+  "hi": "कैरामेलाइज़्ड प्याज और आलू स्पैनिश टॉर्टिला"
+ },
+ "Roasted Cauliflower with Romesco": {
+  "en": "Roasted Cauliflower with Romesco Sauce",
+  "zh": "烤花椰菜配罗马斯科酱",
+  "ru": "Запеченная цветная капуста с соусом ромеско",
+  "ja": "ローストカリフラワー ロメスコソース添え",
+  "hi": "रोमेस्को सॉस के साथ रोस्टेड फूलगोभी"
+ },
+ "Huevos Rotos with Chorizo": {
+  "en": "Huevos Rotos with Chorizo",
+  "zh": "西班牙碎蛋配乔利佐香肠和土豆",
+  "ru": "Уэвос ротос с чоризо",
+  "ja": "ウエボス・ロトス（チョリソーと半熟卵・ポテト）",
+  "hi": "वेवोस रोटोस (चोरिज़ो और अंडे के साथ आलू)"
+ },
+ "Tapas Evening Package (2 persons)": {
+  "en": "Tapas Evening Set (for 2 Persons)",
+  "zh": "双人晚间小吃套餐",
+  "ru": "Вечерний сет тапас на двоих",
+  "ja": "タパス・イブニングセット（2名用）",
+  "hi": "शाम का तापस सेट (2 व्यक्तियों के लिए)"
+ },
+ "Local Oysters": {
+  "en": "Phu Quoc Fresh Oysters (3 Styles)",
+  "zh": "富国岛特色鲜蚝（三种吃法）",
+  "ru": "Местные устрицы Фукуока (3 подачи)",
+  "ja": "フーコック島産生牡蠣（3種のスタイル）",
+  "hi": "फु क्वोक ताज़ी सीप (3 शैलियाँ)"
+ },
+ "Seabass Ceviche": {
+  "en": "Seabass Ceviche",
+  "zh": "柠汁腌海鲈鱼",
+  "ru": "Севиче из сибаса",
+  "ja": "スズキのセビーチェ",
+  "hi": "सीबास सेविचे"
+ },
+ "Charcuterie & Cheese Board": {
+  "en": "Charcuterie & Cheese Board",
+  "zh": "熟食冷肉与奶酪拼盘",
+  "ru": "Доска мясных деликатесов и сыров",
+  "ja": "シャルキュトリー＆チーズボード",
+  "hi": "चारक्यूटीरी और चीज़ बोर्ड"
+ },
+ "Tiger Prawns Grilled with Vinaigrette": {
+  "en": "Grilled Tiger Prawns with Vinaigrette",
+  "zh": "油醋汁烤黑虎虾",
+  "ru": "Тигровые креветки на гриле с винегретной заправкой",
+  "ja": "タイガー海老のグリル ヴィネグレットソース",
+  "hi": "विनिग्रेट के साथ ग्रिल्ड टाइगर प्रॉन"
+ },
+ "Galician Style Octopus with Chimichurri": {
+  "en": "Galician-Style Grilled Octopus with Chimichurri",
+  "zh": "加利西亚风味烤章鱼配奇米丘里酱",
+  "ru": "Осьминог по-галисийски с соусом чимичурри",
+  "ja": "ガリシア風タコのグリル チミチュリソース",
+  "hi": "चिमिचुरी के साथ गैलिशियन शैली का ऑक्टोपस"
+ },
+ "Seared Scallops": {
+  "en": "Pan-Seared Scallops",
+  "zh": "香煎扇贝柱",
+  "ru": "Обжаренные морские гребешки",
+  "ja": "ホタテ貝柱のソテー",
+  "hi": "पैन-सियर्ड स्कैलप्स"
+ },
+ "Andalusian Style Fried Squid": {
+  "en": "Andalusian-Style Crispy Fried Squid",
+  "zh": "安达卢西亚风味炸鱿鱼",
+  "ru": "Хрустящий жареный кальмар по-андалузски",
+  "ja": "アンダルシア風イカのフリット",
+  "hi": "अंडालूसी शैली की कुरकुरी तली हुई स्क्विड"
+ },
+ "Pan con Tomate": {
+  "en": "Pan con Tomate (Spanish Tomato Bread)",
+  "zh": "西班牙番茄擦面包",
+  "ru": "Пан кон томате (хлеб с томатами по-испански)",
+  "ja": "パン・コン・トマテ（スペイン風トマトトースト）",
+  "hi": "पान कॉन टोमाटे (स्पैनिश टमाटर ब्रेड)"
+ },
+ "Charcoal Roasted Vegetables with Romesco Sauce": {
+  "en": "Charcoal-Roasted Vegetables with Romesco Sauce",
+  "zh": "炭烤时蔬配罗马斯科酱",
+  "ru": "Запеченные на углях овощи с соусом ромеско",
+  "ja": "炭火焼き野菜 ロメスコソース添え",
+  "hi": "रोमेस्को सॉस के साथ चारकोल रोस्टेड सब्जियां"
+ },
+ "House Wine by Glass (Red / White / Sparkling)": {
+  "en": "House Wine by the Glass (Red / White / Sparkling)",
+  "zh": "单杯店选葡萄酒（红 / 白 / 起泡）",
+  "ru": "Бокал домашнего вина (красное / белое / игристое)",
+  "ja": "ハウスワイン グラス（赤 / 白 / スパークリング）",
+  "hi": "हाउस वाइन ग्लास (रेड / व्हाइट / स्पार्कलिंग)"
+ },
+ "House Wine by Bottle (Red / White / Sparkling)": {
+  "en": "House Wine by the Bottle (Red / White / Sparkling)",
+  "zh": "整瓶店选葡萄酒（红 / 白 / 起泡）",
+  "ru": "Бутылка домашнего вина (красное / белое / игристое)",
+  "ja": "ハウスワイン ボトル（赤 / 白 / スパークリング）",
+  "hi": "हाउस वाइन बोतल (रेड / व्हाइट / स्पार्कलिंग)"
+ },
+ "Roasted Chicken Croquettes": {
+  "en": "Roast Chicken Croquettes",
+  "zh": "烤鸡肉炸丸子",
+  "ru": "Крокеты с запеченной курицей",
+  "ja": "ローストチキンコロッケ",
+  "hi": "रोस्ट चिकन क्रोकेट्स"
+ },
+ "Tomato Salad with Mixed Greens & Escabeche Mackerel": {
+  "en": "Tomato Salad with Mixed Greens & Pickled Mackerel Escabeche",
+  "zh": "腌鲭鱼番茄什锦沙拉",
+  "ru": "Салат из томатов с зеленью и маринованной скумбрией эскабече",
+  "ja": "エスカベッシュサバとトマトのグリーンサラダ",
+  "hi": "मिक्स्ड ग्रीन्स और एस्केबेचे मैकेरल के साथ टमाटर का सलाद"
+ },
+ "Betanzos-Style Tortilla with Marinated Pork": {
+  "en": "Betanzos-Style Spanish Tortilla with Marinated Pork",
+  "zh": "贝坦索斯风味腌猪肉西班牙蛋饼",
+  "ru": "Тортилья по-бетансосски с маринованной свининой",
+  "ja": "ベタンソス風トルティージャ（マリネポーク入り）",
+  "hi": "मैरीनेट किए गए पोर्क के साथ बेतान्ज़ोस-शैली का टॉर्टिला"
+ },
+ "Pork Cheeks Braised in Spiced Wine": {
+  "en": "Braised Pork Cheeks in Spiced Red Wine",
+  "zh": "香料红酒焖猪面颊肉",
+  "ru": "Тушеные свиные щечки в пряном вине",
+  "ja": "スパイスワインで煮込んだ豚ホホ肉",
+  "hi": "मसालेदार वाइन में पके हुए पोर्क चीक्स"
+ },
+ "Grilled Tiger Prawns": {
+  "en": "Grilled Tiger Prawns",
+  "zh": "烤黑虎虾",
+  "ru": "Тигровые креветки на гриле",
+  "ja": "タイガー海老のグリル",
+  "hi": "ग्रिल्ड टाइगर प्रॉन"
+ },
+ "Red Shrimp Tartare": {
+  "en": "Red Shrimp Tartare",
+  "zh": "红虾鞑靼",
+  "ru": "Тартар из красных креветок",
+  "ja": "赤海老のタルタル",
+  "hi": "रेड श्रिम्प टार्टार"
+ },
+ "Grilled Octopus": {
+  "en": "Grilled Octopus",
+  "zh": "烤章鱼",
+  "ru": "Осьминог на гриле",
+  "ja": "タコのグリル",
+  "hi": "ग्रिल्ड ऑक्टोपस"
+ },
+ "Grouper Suquet": {
+  "en": "Grouper Fish Stew (Suquet)",
+  "zh": "西班牙式石斑鱼炖菜（Suquet）",
+  "ru": "Рыбное рагу сукет из групера",
+  "ja": "クエ（ハタ）のスケット（スペイン風魚介煮込み）",
+  "hi": "ग्रूपर फिश स्टू (सुकेट)"
+ },
+ "Surf & Turf Seafood Paella (per person)": {
+  "en": "Surf & Turf Seafood Paella (per person)",
+  "zh": "海陆双拼海鲜西班牙饭（单人份）",
+  "ru": "Паэлья с мясом и морепродуктами (на одну персону)",
+  "ja": "肉と魚介のパエリア（1人前）",
+  "hi": "मीट और सीफ़ूड पाएला (प्रति व्यक्ति)"
+ },
+ "Add Prawn 100g": {
+  "en": "Extra Prawns (100g)",
+  "zh": "加大虾（100克）",
+  "ru": "Добавка: креветки (100 г)",
+  "ja": "追加エビ（100g）",
+  "hi": "अतिरिक्त झींगा (100 ग्राम)"
+ },
+ "Add Half of Lobster 600g": {
+  "en": "Extra Half Lobster (600g)",
+  "zh": "加半只龙虾（600克）",
+  "ru": "Добавка: половина лобстера (600 г)",
+  "ja": "追加ロブスター半身（600g）",
+  "hi": "अतिरिक्त आधा लॉबस्टर (600 ग्राम)"
+ },
+ "Surf & Turf Seafood Paella (sharing)": {
+  "en": "Surf & Turf Seafood Paella (Sharing Portion)",
+  "zh": "海陆双拼海鲜西班牙饭（分享份）",
+  "ru": "Паэлья с мясом и морепродуктами (для компании)",
+  "ja": "肉と魚介のパエリア（シェア用）",
+  "hi": "मीट और सीफ़ूड पाएला (साझा करने के लिए)"
+ },
+ "Pan-Seared Grass-Fed 7+ Wagyu": {
+  "en": "Pan-Seared Grass-Fed Wagyu MB 7+",
+  "zh": "香煎草饲和牛（M7+级）",
+  "ru": "Обжаренная на сковороде говядина вагю травяного откорма с мраморностью MB 7+",
+  "ja": "グラスフェッド和牛MB7+のパンシアード",
+  "hi": "पैन-सियर्ड ग्रास-फेड वाग्यू एमबी 7+"
+ },
+ "Sauteed Vegetables": {
+  "en": "Sautéed Vegetables",
+  "zh": "炒蔬菜",
+  "ru": "Обжаренные овощи соте",
+  "ja": "野菜のソテー",
+  "hi": "सॉते की हुई सब्ज़ियाँ"
+ },
+ "Confit Aubergine with Honey": {
+  "en": "Honey Confit Aubergine (Eggplant)",
+  "zh": "蜂蜜油封茄子",
+  "ru": "Конфи из баклажанов с медом",
+  "ja": "ナスのハニーコンフィ",
+  "hi": "शहद के साथ बैंगन कॉन्फित"
+ },
+ "Patatas Bravas": {
+  "en": "Patatas Bravas (Spanish Spicy Potatoes)",
+  "zh": "西班牙辣味炸土豆",
+  "ru": "Пататас бравас (пряный жареный картофель)",
+  "ja": "パタータス・ブラバス（スパイシーポテト）",
+  "hi": "पटाटास ब्रावास (मसालेदार स्पैनिश आलू)"
+ },
+ "Charcoal-Roasted Peppers and Onions": {
+  "en": "Charcoal-Roasted Bell Peppers & Onions",
+  "zh": "炭烤甜椒与洋葱",
+  "ru": "Запеченные на углях сладкий перец и лук",
+  "ja": "炭火焼きパプリカと玉ねぎ",
+  "hi": "चारकोल रोस्टेड शिमला मिर्च और प्याज"
+ },
+ "Spiced Creme Caramel": {
+  "en": "Spiced Crème Caramel (Flan)",
+  "zh": "香料焦糖布丁",
+  "ru": "Пряный крем-карамель (флан)",
+  "ja": "スパイス風味のクレーム・キャラメル（プリン）",
+  "hi": "मसालेदार क्रीम कारमेल (फ्लान)"
+ },
+ "Almond Tart": {
+  "en": "Almond Tart",
+  "zh": "杏仁挞",
+  "ru": "Миндальный тарт",
+  "ja": "アーモンドタルト",
+  "hi": "बादाम टार्ट"
+ },
+ "Torrija": {
+  "en": "Torrija (Spanish Style French Toast)",
+  "zh": "西班牙肉桂炸吐司（托里哈）",
+  "ru": "Торриха (испанский десертный тост)",
+  "ja": "トリーハ（スペイン風フレンチトースト）",
+  "hi": "तोरीहा (स्पैनिश फ्रेंच टोस्ट)"
+ },
+ "Kid Burger": {
+  "en": "Kids' Burger",
+  "zh": "儿童汉堡",
+  "ru": "Детский бургер",
+  "ja": "キッズバーガー",
+  "hi": "बच्चों का बर्गर"
+ },
+ "Breaded Fish Bites with Aioli": {
+  "en": "Crispy Breaded Fish Bites with Aioli",
+  "zh": "酥炸白身鱼块配蒜泥蛋黄酱",
+  "ru": "Хрустящие рыбные наггетсы с соусом айоли",
+  "ja": "白身魚のフライ アイオリソース添え",
+  "hi": "ऐओली सॉस के साथ क्रिस्पी ब्रेड वाली मछली के टुकड़े"
+ },
+ "Earl Grey": {
+  "en": "Earl Grey Tea",
+  "zh": "伯爵红茶",
+  "ru": "Чай Эрл Грей",
+  "ja": "アールグレイティー",
+  "hi": "अर्ल ग्रे चाय"
+ },
+ "English Breakfast": {
+  "en": "English Breakfast Tea",
+  "zh": "英式早餐红茶",
+  "ru": "Чай Инглиш Брекфаст",
+  "ja": "イングリッシュ・ブレックファストティー",
+  "hi": "इंग्लिश ब्रेकफास्ट चाय"
+ },
+ "Vietnamese Coffee with Condensed Milk": {
+  "en": "Vietnamese Coffee with Condensed Milk",
+  "zh": "越南炼乳咖啡",
+  "ru": "Вьетнамский кофе со сгущенным молоком",
+  "ja": "ベトナム練乳コーヒー",
+  "hi": "गाढ़े दूध के साथ वियतनामी कॉफ़ी"
+ },
+ "Coke / Coke Zero / Sprite / Ginger Ale Schweppes / Indian Tonic / Soda Schweppes": {
+  "en": "Soft Drinks (Coke / Coke Zero / Sprite / Schweppes Ginger Ale / Indian Tonic / Schweppes Soda Water)",
+  "zh": "软饮料（可口可乐 / 零度可乐 / 雪碧 / Schweppes 姜汁汽水 / 印度汤力水 / Schweppes 苏打水）",
+  "ru": "Безалкогольные напитки (Coke / Coke Zero / Sprite / Schweppes Ginger Ale / Indian Tonic / Schweppes Soda Water)",
+  "ja": "ソフトドリンク（コーラ / コーラゼロ / スプライト / シュウェップス ジンジャーエール / インディアントニック / シュウェップス ソーダ）",
+  "hi": "सॉफ्ट ड्रिंक्स (कोक / कोक ज़ीरो / स्प्राइट / श्वेप्स जिंजर ऐल / इंडियन टॉनिक / श्वेप्स सोडा)"
+ },
+ "San Pellegrino 750ml": {
+  "en": "San Pellegrino Sparkling Natural Mineral Water (750ml)",
+  "zh": "圣培露天然气泡矿泉水（750毫升）",
+  "ru": "Сан-Пеллегрино газированная вода (750 мл)",
+  "ja": "サンペレグリノ 炭酸水（750ml）",
+  "hi": "सैन पेलेग्रिनो स्पार्कलिंग पानी (750 मिली)"
+ },
+ "Tiger / Saigon Special / Heineken": {
+  "en": "Beer (Tiger / Saigon Special / Heineken)",
+  "zh": "啤酒（虎牌 / 西贡特酿 / 喜力）",
+  "ru": "Пиво (Tiger / Saigon Special / Heineken)",
+  "ja": "ビール（タイガー / サイゴンスペシャル / ハイネケン）",
+  "hi": "बीयर (टाइगर / साइगॉन स्पेशल / हेनेकेन)"
+ },
+ "Sun Kraft Beer Helles Can": {
+  "en": "Sun KraftBeer Munich Helles Lager (Can)",
+  "zh": "太阳精酿慕尼黑淡色拉格啤酒（易拉罐）",
+  "ru": "Крафтовое пиво Sun KraftBeer Хеллес (банка)",
+  "ja": "サンクラフトビール ミュンヘン・ヘレス（缶）",
+  "hi": "सन क्राफ्ट बीयर हेल्स (कैन)"
+ },
+ "Brisa de Verano": {
+  "en": "Brisa de Verano Cocktail",
+  "zh": "Brisa de Verano 鸡尾酒（夏日微风）",
+  "ru": "Коктейль Бриса де Верано",
+  "ja": "ブリサ・デ・ベラーノ（サマーブリーズ・カクテル）",
+  "hi": "ब्रिसा दे वेरानो कॉकटेल"
+ },
+ "Verde Vida": {
+  "en": "Verde Vida Cocktail",
+  "zh": "Verde Vida 鸡尾酒",
+  "ru": "Коктейль Верде Вида",
+  "ja": "ヴェルデ・ヴィダ・カクテル",
+  "hi": "वर्दे विदा कॉकटेल"
+ },
+ "Rosa del Alba": {
+  "en": "Rosa del Alba Cocktail",
+  "zh": "Rosa del Alba 鸡尾酒",
+  "ru": "Коктейль Роза дель Альба",
+  "ja": "ローザ・デル・アルバ・カクテル",
+  "hi": "रोज़ा डेल अल्बा कॉकटेल"
+ },
+ "Young Coconut Juice": {
+  "en": "Fresh Young Coconut Juice",
+  "zh": "新鲜青椰子汁",
+  "ru": "Сок свежего молодого кокоса",
+  "ja": "新鮮な生ココナッツジュース",
+  "hi": "ताज़े हरे नारियल का पानी"
+ },
+ "Berry Fiesta (smoothie)": {
+  "en": "Berry Fiesta Smoothie",
+  "zh": "浆果盛宴冰沙",
+  "ru": "Смузи Ягодная Фиеста",
+  "ja": "ベリー・フィエスタ・スムージー",
+  "hi": "बेरी फिएस्टा स्मूदी"
+ },
+ "Sol Tropical (smoothie)": {
+  "en": "Sol Tropical Smoothie",
+  "zh": "Sol Tropical 冰沙",
+  "ru": "Смузи Сол Тропикаль",
+  "ja": "ソル・トロピカル・スムージー",
+  "hi": "सोल ट्रॉपिकल स्मूदी"
+ },
+ "Amber Flow": {
+  "en": "Amber Flow Mocktail",
+  "zh": "Amber Flow 无酒精鸡尾酒",
+  "ru": "Безалкогольный коктейль Эмбер Флоу",
+  "ja": "アンバー・フロー・モクテル",
+  "hi": "एम्बर फ्लो मॉकटेल"
+ },
+ "Rosa Salvaje": {
+  "en": "Rosa Salvaje Mocktail",
+  "zh": "Rosa Salvaje 无酒精鸡尾酒",
+  "ru": "Безалкогольный коктейль Роза Сальвахе",
+  "ja": "ローザ・サルバヘ・モクテル",
+  "hi": "रोज़ा सल्वाहे मॉकटेल"
+ },
+ "Berry Carmesí": {
+  "en": "Berry Carmesí Mocktail",
+  "zh": "Berry Carmesí 无酒精鸡尾酒",
+  "ru": "Безалкогольный коктейль Берри Кармеси",
+  "ja": "ベリー・カルメシ・モクテル",
+  "hi": "बेरी कारमेसी मॉकटेल"
+ },
+ "Apertura": {
+  "en": "Apertura Cocktail",
+  "zh": "Apertura 鸡尾酒",
+  "ru": "Коктейль «Апертура»",
+  "ja": "アペルトゥーラ・カクテル",
+  "hi": "अपेरतुरा कॉकटेल"
+ },
+ "Cantriberry": {
+  "en": "Cantriberry Cocktail",
+  "zh": "Cantriberry 鸡尾酒",
+  "ru": "Коктейль Кантриберри",
+  "ja": "カントリーベリー・カクテル",
+  "hi": "कैन्ट्रीबेरी कॉकटेल"
+ },
+ "Galicia Tropical": {
+  "en": "Galicia Tropical Cocktail",
+  "zh": "Galicia Tropical 鸡尾酒",
+  "ru": "Коктейль Галисия Тропикаль",
+  "ja": "ガリシア・トロピカル・カクテル",
+  "hi": "गैलिसिया ट्रॉपिकल कॉकटेल"
+ },
+ "Signature Sangria": {
+  "en": "Signature Sangria",
+  "zh": "招牌西班牙桑格利亚果酒",
+  "ru": "Фирменная сангрия",
+  "ja": "特製サングリア",
+  "hi": "सिग्नेचर सांग्रिया"
+ },
+ "Atlantico": {
+  "en": "Atlantico Cocktail",
+  "zh": "Atlantico 鸡尾酒",
+  "ru": "Коктейль Атлантико",
+  "ja": "アトランティコ・カクテル",
+  "hi": "अटलांटिको कॉकटेल"
+ },
+ "Aro Dorado": {
+  "en": "Aro Dorado Cocktail",
+  "zh": "Aro Dorado 鸡尾酒",
+  "ru": "Коктейль Аро Дорадо",
+  "ja": "アロ・ドラード・カクテル",
+  "hi": "आरो डोराडो कॉकटेल"
+ },
+ "La Rosa": {
+  "en": "La Rosa Cocktail",
+  "zh": "La Rosa 鸡尾酒",
+  "ru": "Коктейль Ла Роса",
+  "ja": "ラ・ローザ・カクテル",
+  "hi": "ला रोज़ा कॉकटेल"
+ },
+ "Negroni Travieso": {
+  "en": "Negroni Travieso Cocktail",
+  "zh": "Negroni Travieso 鸡尾酒",
+  "ru": "Коктейль Негрони Травьесо",
+  "ja": "ネグローニ・トラビエソ・カクテル",
+  "hi": "नेग्रोनी त्राविएसो कॉकटेल"
+ },
+ "Delafinca Cava (Blend)": {
+  "en": "Delafinca Cava (Blend)",
+  "zh": "德拉芬卡卡瓦起泡酒",
+  "ru": "Игристое вино Делафинка Кава",
+  "ja": "デラフィンカ カヴァ（スパークリング）",
+  "hi": "डेलाफिन्का कावा स्पार्कलिंग वाइन"
+ },
+ "Pedro Luis Jumilla, DO Jumilla (Sauvignon Blanc)": {
+  "en": "Pedro Luis DO Jumilla Sauvignon Blanc White Wine",
+  "zh": "佩德罗路易斯胡米亚法定产区长相思白葡萄酒",
+  "ru": "Педро Луис Хумилья Совиньон Блан белое вино",
+  "ja": "ペドロ・ルイス フミーリャ ソーヴィニヨン・ブラン（白ワイン）",
+  "hi": "पेड्रो लुइस जुमिला सॉविनन ब्लैंक व्हाइट वाइन"
+ },
+ "Solaz (Verdejo)": {
+  "en": "Solaz Verdejo White Wine",
+  "zh": "索拉斯弗德乔白葡萄酒",
+  "ru": "Солас Вердехо белое вино",
+  "ja": "ソラス ベルデホ（白ワイン）",
+  "hi": "सोलाज़ वर्देहो व्हाइट वाइन"
+ },
+ "Pedro Luis Jumilla Monastrell, DO Jumilla (Mourvedre)": {
+  "en": "Pedro Luis Jumilla Monastrell Red Wine",
+  "zh": "佩德罗路易斯胡米亚法定产区莫纳斯特雷尔红葡萄酒",
+  "ru": "Педро Луис Хумилья Монастрель красное вино",
+  "ja": "ペドロ・ルイス フミーリャ モナストレル（赤ワイン）",
+  "hi": "पेड्रो लुइस जुमिला मोनास्ट्रेल रेड वाइन"
+ },
+ "Solaz (Tempranillo, Cabernet Sauvignon)": {
+  "en": "Solaz Tempranillo & Cabernet Sauvignon Red Wine",
+  "zh": "索拉斯丹魄赤霞珠红葡萄酒",
+  "ru": "Солас Темпранильо Каберне Совиньон красное вино",
+  "ja": "ソラス テンプラニーリョ＆カベルネ・ソーヴィニヨン（赤ワイン）",
+  "hi": "सोलाज़ टेम्प्रानिलो कैबरनेट सॉविनन रेड वाइन"
+ },
+ "Rondel Gold Semi Seco, DO Cava": {
+  "en": "Rondel Gold Semi Seco DO Cava Sparkling Wine",
+  "zh": "龙黛金牌半干型卡瓦起泡酒",
+  "ru": "Игристое вино Рондель Голд Семи Секо Кава",
+  "ja": "ロンデル・ゴールド セミ・セコ カヴァ（スパークリング）",
+  "hi": "रोंडेल गोल्ड सेमी सेको कावा स्पार्कलिंग वाइन"
+ },
+ "Torres, Viña Esmeralda Semi Dry White, Catalunya (Moscatel, Gewürztraminer)": {
+  "en": "Torres Viña Esmeralda Semi-Dry White Wine (Catalunya)",
+  "zh": "桃乐丝翡翠半干白葡萄酒（加泰罗尼亚）",
+  "ru": "Торрес Винья Эсмеральда полусухое белое вино (Каталония)",
+  "ja": "トーレス ヴィニャ・エスメラルダ セミドライ白ワイン（カタルーニャ）",
+  "hi": "टोरेस विना एस्मेराल्डा सेमी-ड्राई व्हाइट वाइन (कैटालोनिया)"
+ },
+ "Rías Baixas Faustino Rivero Ulecia (Albariño)": {
+  "en": "Faustino Rivero Ulecia Rías Baixas Albariño White Wine",
+  "zh": "福斯蒂诺乌勒西亚下海湾阿尔巴利诺白葡萄酒",
+  "ru": "Фаустино Риверо Улесия Риас Байшас Альбариньо белое вино",
+  "ja": "ファウスティーノ・リベロ・ウレシア リアス・バイシャス アルバリーニョ（白ワイン）",
+  "hi": "फॉस्टिनो रिवेरो उलेसिया रियास बैक्सस अल्बारिनो व्हाइट वाइन"
+ },
+ "Santa Julia \"Nacional\" (Semillon - Torrontes)": {
+  "en": "Santa Julia Nacional Semillon & Torrontés White Wine",
+  "zh": "Santa Julia Nacional 赛美蓉与特浓情白葡萄酒",
+  "ru": "Санта Джулия Насьональ Семильон Торронтес белое вино",
+  "ja": "サンタ・フリア ナシオナル セミヨン＆トロンテス（白ワイン）",
+  "hi": "सांता जूलिया नैशनल सेमिलॉन टोरोंटेस व्हाइट वाइन"
+ },
+ "Marqués de Riscal, Rueda DO (Sauvignon Blanc)": {
+  "en": "Marqués de Riscal Rueda DO Sauvignon Blanc White Wine",
+  "zh": "瑞格尔侯爵卢埃达法定产区长相思白葡萄酒",
+  "ru": "Маркес де Рискаль Руэда Совиньон Блан белое вино",
+  "ja": "マルケス・デ・リスカル ルエダ DO ソーヴィニヨン・ブラン（白ワイン）",
+  "hi": "मार्केस डी रिस्कल रुएदा सॉविनन ब्लैंक व्हाइट वाइन"
+ },
+ "Henri Bourgeois, 'En Travertin', Pouilly Fumé (Sauvignon Blanc)": {
+  "en": "Henri Bourgeois En Travertin Pouilly-Fumé Sauvignon Blanc",
+  "zh": "亨利布尔乔亚钙华普伊芙美长相思白葡萄酒",
+  "ru": "Анри Буржуа Ан Травертен Пуйи-Фюме белое вино",
+  "ja": "アンリ・ブルジョワ アン・トラヴェルタン プイィ・フュメ（白ワイン）",
+  "hi": "हेनरी बोर्जुआ एन ट्रैवर्टीन पुइली-फ्यूमे सॉविनन ब्लैंक"
+ },
+ "Torres, Sangre de Toro Original, Catalunya DO (Grenache Carignan)": {
+  "en": "Torres Sangre de Toro Original Red Wine (Catalunya DO)",
+  "zh": "桃乐丝公牛血经典红葡萄酒（加泰罗尼亚法定产区）",
+  "ru": "Торрес Сангре де Торо Ориджинал красное вино",
+  "ja": "トーレス サングレ・デ・トロ オリジナル（赤ワイン）",
+  "hi": "टोरेस सांग्रे डी टोरो ओरिजिनल रेड वाइन"
+ },
+ "Marqués de Riscal, Próximo, Rioja DOCa (Tempranillo blend)": {
+  "en": "Marqués de Riscal Próximo Rioja DOCa Red Wine",
+  "zh": "瑞格尔侯爵普罗西莫里奥哈特级法定产区红葡萄酒",
+  "ru": "Маркес де Рискаль Проксимо Риоха красное вино",
+  "ja": "マルケス・デ・リスカル プロキシモ リオハ DOCa（赤ワイン）",
+  "hi": "मार्केस डी रिस्कल प्रॉक्सिमो रियोहा रेड वाइन"
+ },
+ "Marqués de Riscal, Reserva, Rioja DOCa (Tempranillo blend)": {
+  "en": "Marqués de Riscal Reserva Rioja DOCa Red Wine",
+  "zh": "瑞格尔侯爵珍藏里奥哈特级法定产区红葡萄酒",
+  "ru": "Маркес де Рискаль Резерва Риоха красное вино",
+  "ja": "マルケス・デ・リスカル レセルバ リオハ DOCa（赤ワイン）",
+  "hi": "मार्केस डी रिस्कल रिज़र्वा रियोहा रेड वाइन"
+ },
+ "Bombay Sapphire - shot": {
+  "en": "Bombay Sapphire Gin (Shot)",
+  "zh": "孟买蓝宝石金酒（单份）",
+  "ru": "Бомбей Сапфир (шот)",
+  "ja": "ボンベイ・サファイア（ショット）",
+  "hi": "बॉम्बे सफायर जिन (शॉट)"
+ },
+ "Nordés - shot": {
+  "en": "Nordés Atlantic Galician Gin (Shot)",
+  "zh": "诺迪斯加利西亚金酒（单份）",
+  "ru": "Нордес Джин (шот)",
+  "ja": "ノルデス・ジン（ショット）",
+  "hi": "नोर्डेस जिन (शॉट)"
+ },
+ "Bacardi Carta Blanca - shot": {
+  "en": "Bacardi Carta Blanca Superior White Rum (Shot)",
+  "zh": "百加得 Carta Blanca 白朗姆酒（单份）",
+  "ru": "Бакарди Карта Бланка (шот)",
+  "ja": "バカルディ スペリオール カルタ・ブランカ（ショット）",
+  "hi": "बकार्डी कार्टा ब्लैंका (शॉट)"
+ },
+ "Bacardi Carta Oro - shot": {
+  "en": "Bacardi Carta Oro Gold Rum (Shot)",
+  "zh": "百加得 Carta Oro 金朗姆酒（单份）",
+  "ru": "Бакарди Карта Оро (шот)",
+  "ja": "バカルディ カルタ・オロ ゴールドラム（ショット）",
+  "hi": "बकार्डी कार्टा ओरो (शॉट)"
+ },
+ "Bacardi Carta Oro - bottle": {
+  "en": "Bacardi Carta Oro Gold Rum (Bottle)",
+  "zh": "百加得金朗姆酒（整瓶）",
+  "ru": "Бакарди Карта Оро (бутылка)",
+  "ja": "バカルディ カルタ・オロ ゴールドラム（ボトル）",
+  "hi": "बकार्डी कार्टा ओरो (बोतल)"
+ },
+ "Vededi Right Rum - shot": {
+  "en": "Vededi Right Rum (Shot)",
+  "zh": "Vededi Right 朗姆酒（单份）",
+  "ru": "Ром Vededi Right (шот)",
+  "ja": "Vededi Right ラム（ショット）",
+  "hi": "वेडेडी राइट रम (शॉट)"
+ },
+ "Vededi Right Rum - bottle": {
+  "en": "Vededi Right Rum (Bottle)",
+  "zh": "Vededi Right 朗姆酒（整瓶）",
+  "ru": "Ром Vededi Right (бутылка)",
+  "ja": "Vededi Right ラム（ボトル）",
+  "hi": "वेडेडी राइट रम (बोतल)"
+ },
+ "Belami ROC 16 Delta - shot": {
+  "en": "Belami ROC 16 Delta Rum (Shot)",
+  "zh": "Belami ROC 16 Delta 朗姆酒（单份）",
+  "ru": "Ром Belami ROC 16 Delta (шот)",
+  "ja": "ベラミ ROC 16 デルタ（ショット）",
+  "hi": "बेलामी आरओसी 16 डेल्टा रम (शॉट)"
+ },
+ "Belami ROC 16 Delta - bottle": {
+  "en": "Belami ROC 16 Delta Rum (Bottle)",
+  "zh": "Belami ROC 16 Delta 朗姆酒（整瓶）",
+  "ru": "Ром Belami ROC 16 Delta (бутылка)",
+  "ja": "ベラミ ROC 16 デルタ（ボトル）",
+  "hi": "बेलामी आरओसी 16 डेल्टा रम (बोतल)"
+ },
+ "Patrón Silver - shot": {
+  "en": "Patrón Silver Tequila (Shot)",
+  "zh": "培恩 Silver 龙舌兰酒（单份）",
+  "ru": "Патрон Сильвер (шот)",
+  "ja": "パトロン シルバー（ショット）",
+  "hi": "पैट्रोन सिल्वर (शॉट)"
+ },
+ "Ketel One - shot": {
+  "en": "Ketel One Vodka (Shot)",
+  "zh": "Ketel One 伏特加（单份）",
+  "ru": "Кетел Ван (шот)",
+  "ja": "ケテル・ワン（ショット）",
+  "hi": "केटेल वन वोदका (शॉट)"
+ },
+ "Ketel One - bottle": {
+  "en": "Ketel One Vodka (Bottle)",
+  "zh": "魁列一号伏特加（整瓶）",
+  "ru": "Кетел Ван (бутылка)",
+  "ja": "ケテル・ワン（ボトル）",
+  "hi": "केटेल वन वोदका (बोतल)"
+ },
+ "Grey Goose - shot": {
+  "en": "Grey Goose Vodka (Shot)",
+  "zh": "灰雁伏特加（单份）",
+  "ru": "Грей Гус (шот)",
+  "ja": "グレイグース（ショット）",
+  "hi": "ग्रे गूज़ वोदका (शॉट)"
+ },
+ "Dewar's 12 Year Old - shot": {
+  "en": "Dewar's 12 Years Blended Scotch Whisky (Shot)",
+  "zh": "帝王12年调配苏格兰威士忌（单份）",
+  "ru": "Дюарс 12 лет (шот)",
+  "ja": "デュワーズ 12年（ショット）",
+  "hi": "डेवर्स 12 इयर्स (शॉट)"
+ },
+ "Dewar's 12 Year Old - bottle": {
+  "en": "Dewar's 12 Years Blended Scotch Whisky (Bottle)",
+  "zh": "帝王12年调配苏格兰威士忌（整瓶）",
+  "ru": "Дюарс 12 лет (бутылка)",
+  "ja": "デュワーズ 12年（ボトル）",
+  "hi": "डेवर्स 12 इयर्स (बोतल)"
+ },
+ "Vededi Single Malt Distiller's Choice - shot": {
+  "en": "Vededi Single Malt Distiller's Choice (Shot)",
+  "zh": "Vededi Single Malt Distiller's Choice 单一麦芽威士忌（单份）",
+  "ru": "Виски Vededi Single Malt Distiller's Choice (шот)",
+  "ja": "ヴェデディ シングルモルト ディスティラーズ・チョイス（ショット）",
+  "hi": "वेडेडी सिंगल माल्ट डिस्टिलर्स च्वाइस (शॉट)"
+ },
+ "Vededi Single Malt Distiller's Choice - bottle": {
+  "en": "Vededi Single Malt Distiller's Choice (Bottle)",
+  "zh": "Vededi Single Malt Distiller's Choice 单一麦芽威士忌（整瓶）",
+  "ru": "Виски Vededi Single Malt Distiller's Choice (бутылка)",
+  "ja": "ヴェデディ シングルモルト ディスティラーズ・チョイス（ボトル）",
+  "hi": "वेडेडी सिंगल माल्ट डिस्टिलर्स च्वाइस (बोतल)"
+ },
+ "Hennessy V.S - shot": {
+  "en": "Hennessy V.S Cognac (Shot)",
+  "zh": "轩尼诗 V.S 干邑白兰地（单份）",
+  "ru": "Хеннесси V.S (шот)",
+  "ja": "ヘネシー V.S（ショット）",
+  "hi": "हेनेसी वी.एस (शॉट)"
+ },
+ "Hennessy V.S - bottle": {
+  "en": "Hennessy V.S Cognac (Bottle)",
+  "zh": "轩尼诗VS干邑白兰地（整瓶）",
+  "ru": "Хеннесси V.S (бутылка)",
+  "ja": "ヘネシー V.S（ボトル）",
+  "hi": "हेनेसी वी.एस (बोतल)"
+ },
+ "Croissant au Beurre (French Butter Croissant)": {
+  "en": "French Pure Butter Croissant",
+  "zh": "法式纯黄油牛角可颂",
+  "ru": "Французский сливочный круассан",
+  "ja": "フランス風バタークロワッサン",
+  "hi": "फ्रेंच मक्खन क्रोइसैन्ट"
+ },
+ "Pain au Chocolat": {
+  "en": "Pain au Chocolat (Chocolate Croissant)",
+  "zh": "法式巧克力牛角可颂",
+  "ru": "Пан-о-шоколя (шоколадный круассан)",
+  "ja": "パン・オ・ショコラ",
+  "hi": "पैन औ चॉकलाट (चॉकलेट क्रोइसैन्ट)"
+ },
+ "Baguette Monge (Artisanal Monge Baguette)": {
+  "en": "Monge Traditional Artisanal Baguette",
+  "zh": "Monge 传统手工法棍",
+  "ru": "Традиционный французский ремесленный багет Монж",
+  "ja": "バゲット・モンジュ（伝統フランスパン）",
+  "hi": "मोंगे पारंपरिक कारीगर बगेट"
+ },
+ "Tarte au Citron Meringuée (Lemon Meringue Tart)": {
+  "en": "Lemon Meringue Tart",
+  "zh": "法式柠檬蛋白霜挞",
+  "ru": "Лимонный тарт с меренгой",
+  "ja": "レモンメレンゲタルト",
+  "hi": "लेमन मेरिंग्यू टार्ट"
+ },
+ "Café Latte / Cappuccino": {
+  "en": "Café Latte / Cappuccino",
+  "zh": "拿铁咖啡 / 卡布奇诺",
+  "ru": "Латте / Капучино",
+  "ja": "カフェラテ / カプチーノ",
+  "hi": "कैफ़े लाते / कैपुचीनो"
+ },
+ "Americano (Hot / Iced)": {
+  "en": "Americano (Hot / Iced)",
+  "zh": "美式咖啡（热 / 冰）",
+  "ru": "Американо (горячий / со льдом)",
+  "ja": "アメリカーノ（ホット / アイス）",
+  "hi": "अमेरिकानो (गर्म / आइस्ड)"
+ },
+ "Cà phê trứng (Egg Coffee)": {
+  "en": "Egg Coffee (Cà phê trứng)",
+  "zh": "越南鸡蛋咖啡（Cà phê trứng）",
+  "ru": "Вьетнамский яичный кофе (Cà phê trứng)",
+  "ja": "ベトナムのエッグコーヒー（Cà phê trứng）",
+  "hi": "वियतनामी एग कॉफ़ी (Cà phê trứng)"
+ },
+ "Cà phê cốt dừa (Coconut Coffee)": {
+  "en": "Coconut Coffee (Cà phê cốt dừa)",
+  "zh": "椰子咖啡",
+  "ru": "Кофе с кокосом",
+  "ja": "ココナッツコーヒー",
+  "hi": "नारियल कॉफ़ी"
+ },
+ "Cà phê sữa đá (Vietnamese Iced Milk Coffee)": {
+  "en": "Traditional Vietnamese Iced Milk Coffee",
+  "zh": "越南传统炼乳冰咖啡",
+  "ru": "Вьетнамский холодный кофе со сгущенным молоком",
+  "ja": "ベトナム伝統アイス練乳コーヒー",
+  "hi": "पारंपरिक वियतनामी आइस्ड मिल्क कॉफ़ी"
+ },
+ "Bánh mì bò tiêu đen (Black Pepper Beef Banh Mi)": {
+  "en": "Black Pepper Beef Banh Mi",
+  "zh": "黑胡椒牛肉法棍三明治",
+  "ru": "Бань ми с говядиной в черном перце",
+  "ja": "黒胡椒牛肉のバインミー",
+  "hi": "काली मिर्च बीफ बान्ह मी"
+ },
+ "Bánh mì thịt nguội (Traditional Cold Cuts Banh Mi)": {
+  "en": "Traditional Cold Cuts & Pâté Banh Mi",
+  "zh": "传统冷肉肝酱法棍三明治",
+  "ru": "Традиционный бань ми с мясным ассорти и паштетом",
+  "ja": "伝統ハム＆パテのバインミー",
+  "hi": "पारंपरिक कोल्ड कट्स और पेटे बान्ह मी"
+ },
+ "Phở bò tái nạm (Beef Pho Noodle Soup)": {
+  "en": "Vietnamese Beef Pho with Rare Steak and Flank",
+  "zh": "鲜牛肉牛腩越南河粉",
+  "ru": "Вьетнамский фо бо с тонкими ломтиками слегка приготовленной говядины и говяжьей пашиной",
+  "ja": "牛肉フォー（半生肉＆牛バラ肉入り）",
+  "hi": "वियतनामी बीफ़ फो, हल्के पके बीफ़ स्लाइस और बीफ़ फ्लैंक के साथ"
+ },
+ "Sinh tố bơ cốt dừa (Avocado Coconut Smoothie)": {
+  "en": "Avocado Coconut Smoothie",
+  "zh": "鳄梨椰浆鲜果冰沙",
+  "ru": "Смузи из авокадо и кокосового молока",
+  "ja": "アボカドココナッツスムージー",
+  "hi": "एवोकैडो कोकोनट स्मूदी"
+ },
+ "Sun KraftBeer Munich Helles (Lager)": {
+  "en": "Sun KraftBeer Munich Helles Lager",
+  "zh": "Sun KraftBeer 慕尼黑 Helles 淡色拉格啤酒",
+  "ru": "Крафтовое пиво Sun KraftBeer Мюнхен Хеллес",
+  "ja": "サンクラフトビール ミュンヘン・ヘレス（ラガー）",
+  "hi": "सन क्राफ्ट बीयर म्यूनिख हेल्स (लेगर)"
+ },
+ "Sun KraftBeer Weizen (Wheat Beer)": {
+  "en": "Sun KraftBeer Bavarian Weizen Wheat Beer",
+  "zh": "Sun KraftBeer Weizen 小麦啤酒",
+  "ru": "Крафтовое пшеничное пиво Sun KraftBeer Вайцен",
+  "ja": "サンクラフトビール ヴァイツェン（白ビール）",
+  "hi": "सन क्राफ्ट बीयर वाइज़न (व्हीट बीयर)"
+ },
+ "Sun KraftBeer Dark Dunkel": {
+  "en": "Sun KraftBeer Munich Dunkel Dark Beer",
+  "zh": "Sun KraftBeer Dunkel 黑啤酒",
+  "ru": "Крафтовое темное пиво Sun KraftBeer Дункель",
+  "ja": "サンクラフトビール ドゥンケル（黒ビール）",
+  "hi": "सन क्राफ्ट बीयर डंकेल (डार्क बीयर)"
+ },
+ "Đùi Heo Muối Chiên Giòn (Crispy Bavarian Schweinshaxe)": {
+  "en": "Crispy Roasted Bavarian Pork Knuckle (Schweinshaxe)",
+  "zh": "德式脆皮烤猪肘",
+  "ru": "Хрустящая баварская свиная рулька (швайнсхаксе)",
+  "ja": "バイエルン風クリスピーローストポークナックル（シュバインスハクセ）",
+  "hi": "कुरकुरा बवेरियन रोस्टेड पोर्क नकल (श्विनशैकसे)"
+ },
+ "Xúc Xích Đức Tổng Hợp (Assorted German Sausages Platter)": {
+  "en": "Assorted German Artisanal Sausages Platter",
+  "zh": "德式综合手工香肠拼盘",
+  "ru": "Ассорти из немецких ремесленных колбасок",
+  "ja": "ドイツ風ソーセージ盛り合わせ",
+  "hi": "जर्मन सॉसेज प्लेटर"
+ },
+ "Gói Buffet Tối + Xem Show Symphony of the Sea (Dinner Buffet & Show)": {
+  "en": "Dinner Buffet & Symphony of the Sea Show Package",
+  "zh": "晚餐自助餐＋Symphony of the Sea 演出套票",
+  "ru": "Пакет «Ужин в формате шведского стола и шоу Symphony of the Sea»",
+  "ja": "ディナービュッフェ＋Symphony of the Sea 鑑賞パッケージ",
+  "hi": "डिनर बुफे और Symphony of the Sea शो पैकेज"
+ },
+ "Chả giò hoàng hôn (Sunset Spring Rolls)": {
+  "en": "Sunset Spring Rolls",
+  "zh": "日落春卷",
+  "ru": "Спринг-роллы «Сансет»",
+  "ja": "サンセット春巻き",
+  "hi": "सनसेट स्प्रिंग रोल्स"
+ },
+ "Lẩu nấm tràm Phú Quốc (Melaleuca Mushroom Hot Pot)": {
+  "en": "Phu Quoc Melaleuca Mushroom Hot Pot",
+  "zh": "富国岛白千层菌火锅",
+  "ru": "Хот-пот с грибами мелалеука острова Фукуок",
+  "ja": "フーコックのメラルーカ茸鍋",
+  "hi": "फु क्वोक मेलालेउका मशरूम हॉट पॉट"
+ },
+ "Lẩu ghẹ Hàm Ninh (Ham Ninh Flower Crab Hot Pot)": {
+  "en": "Ham Ninh Flower Crab Hot Pot",
+  "zh": "涵宁花蟹火锅",
+  "ru": "Хот-пот с крабом из Хамниня",
+  "ja": "ハムニン産ワタリガニ鍋",
+  "hi": "हाम निन्ह फ्लावर क्रैब हॉट पॉट"
+ },
+ "Tôm sú sốt bơ tỏi (Garlic Butter Black Tiger Prawns)": {
+  "en": "Black Tiger Prawns in Garlic Butter Sauce",
+  "zh": "蒜香黄油黑虎虾",
+  "ru": "Черные тигровые креветки в чесночно-масляном соусе",
+  "ja": "ブラックタイガー海老のガーリックバターソース",
+  "hi": "लहसुन मक्खन सॉस में ब्लैक टाइगर प्रॉन"
+ },
+ "Rượu vang Ý & Cocktail Địa Trung Hải": {
+  "en": "Italian Wine & Mediterranean Cocktails",
+  "zh": "意大利葡萄酒与地中海风味鸡尾酒",
+  "ru": "Итальянские вина и средиземноморские коктейли",
+  "ja": "イタリアワイン＆地中海風カクテル",
+  "hi": "इतालवी वाइन और भूमध्यसागरीय कॉकटेल"
+ },
+ "Ghẹ Hàm Ninh hấp (Steamed Ham Ninh Crab)": {
+  "en": "Steamed Fresh Ham Ninh Flower Crab",
+  "zh": "清蒸涵宁花蟹",
+  "ru": "Паровой краб из Хамниня",
+  "ja": "ハムニン産ワタリガニの蒸し物",
+  "hi": "भाप में पका हाम निन्ह केकड़ा"
+ },
+ "Mực trứng nướng sa tế": {
+  "en": "Grilled Egg Squid with Satay Chili Sauce",
+  "zh": "沙爹辣酱烤籽乌贼",
+  "ru": "Кальмар с икрой на гриле в соусе сате",
+  "ja": "子持ちイカのサテソース焼き",
+  "hi": "साते सॉस के साथ ग्रिल्ड एग स्क्विड"
+ },
+ "Ngao 2 còi hấp sả": {
+  "en": "Steamed Two-Siphon Clams with Lemongrass",
+  "zh": "香茅蒸双柱大蛤蜊",
+  "ru": "Паровые двустворчатые моллюски с лемонграссом",
+  "ja": "二本の水管を持つ二枚貝のレモングラス蒸し",
+  "hi": "लेमनग्रास के साथ भाप में पके दो साइफ़न वाले क्लैम"
+ },
+ "Phin Sữa Đá (Iced Coffee with Condensed Milk)": {
+  "en": "Traditional Vietnamese Drip Iced Coffee with Condensed Milk",
+  "zh": "滴漏炼乳冰咖啡",
+  "ru": "Традиционный вьетнамский холодный кофе фин со сгущенкой",
+  "ja": "ベトナム伝統フィン抽出アイス練乳コーヒー",
+  "hi": "पारंपरिक वियतनामी ड्रिप आइस्ड मिल्क कॉफ़ी"
+ },
+ "Phin Đen Đá (Iced Black Coffee)": {
+  "en": "Traditional Vietnamese Drip Iced Black Coffee",
+  "zh": "滴漏黑冰咖啡",
+  "ru": "Традиционный вьетнамский холодный черный кофе фин",
+  "ja": "ベトナム伝統フィン抽出アイスブラックコーヒー",
+  "hi": "पारंपरिक वियतनामी ड्रिप आइस्ड ब्लैक कॉफ़ी"
+ },
+ "Bạc Xỉu Đá (White Coffee with Extra Milk)": {
+  "en": "Bạc Xỉu Đá (Iced Coffee with Extra Milk)",
+  "zh": "Bạc Xỉu Đá（越南多奶冰咖啡）",
+  "ru": "Бак сиу (вьетнамский мягкий кофе с молоком со льдом)",
+  "ja": "バクシウ（ミルクたっぷりベトナムアイスコーヒー）",
+  "hi": "बाक सिउ (अतिरिक्त दूध के साथ वियतनामी मीठी आइस्ड कॉफ़ी)"
+ },
+ "Trà Sen Vàng (Golden Lotus Seed Tea)": {
+  "en": "Golden Lotus Seed Tea",
+  "zh": "Trà Sen Vàng（金莲子茶）",
+  "ru": "Чай Golden Lotus с семенами лотоса",
+  "ja": "ゴールデン・ロータスシードティー（蓮の実茶）",
+  "hi": "गोल्डन कमल के बीज वाली चाय"
+ },
+ "Trà Thạch Đào (Peach Jelly Tea)": {
+  "en": "Iced Peach Tea with Peach Jelly",
+  "zh": "蜜桃果冻冰茶",
+  "ru": "Персиковый чай со льдом и желе",
+  "ja": "ピーチゼリーアイスティー",
+  "hi": "आड़ू जेली आइस्ड टी"
+ },
+ "Freeze Trà Xanh (Green Tea Freeze)": {
+  "en": "Green Tea Freeze",
+  "zh": "绿茶冰沙",
+  "ru": "Замороженный напиток из зелёного чая",
+  "ja": "グリーンティー・フリーズ",
+  "hi": "ग्रीन टी फ्रीज़"
+ },
+ "Caramel Phin Freeze": {
+  "en": "Caramel Phin Freeze (Blended Drip Coffee)",
+  "zh": "焦糖滴漏咖啡冰沙",
+  "ru": "Карамельный кофейный фриз фин",
+  "ja": "キャラメル・フィン・フリーズ（コーヒーフローズン）",
+  "hi": "कारमेल फिन फ्रीज़ (ब्लेंडेड कॉफ़ी स्मूदी)"
+ },
+ "Bánh Mì Thịt Nướng (Grilled Pork Banh Mi)": {
+  "en": "Grilled Pork Banh Mi Baguette",
+  "zh": "烤猪肉越南法棍三明治",
+  "ru": "Бань ми с жареной свининой барбекю",
+  "ja": "焼き豚肉のバインミー",
+  "hi": "ग्रिल्ड पोर्क बान्ह मी"
+ },
+ "Tôm sú sốt cay ngọt (Steamed Sweet & Spicy Prawns)": {
+  "en": "Tiger Prawns in Sweet & Spicy Sauce",
+  "zh": "甜辣风味黑虎虾",
+  "ru": "Тигровые креветки в сладко-остром соусе",
+  "ja": "タイガー海老の甘辛ソース仕立て",
+  "hi": "मीठी और तीखी सॉस में टाइगर प्रॉन"
+ },
+ "Mì xào hải sản / Cơm chiên hải sản": {
+  "en": "Seafood Fried Noodles / Seafood Fried Rice",
+  "zh": "海鲜炒面 / 海鲜炒饭",
+  "ru": "Жареная лапша с морепродуктами / Жареный рис с морепродуктами",
+  "ja": "海鮮焼きそば／海鮮チャーハン",
+  "hi": "सीफूड फ्राइड नूडल्स / सीफूड फ्राइड राइस"
+ },
+ "Cá mú sống hấp Hồng Kông (Live Grouper HK Style)": {
+  "en": "Steamed Live Grouper Hong Kong Style",
+  "zh": "港式清蒸活石斑鱼",
+  "ru": "Живой групер на пару по-гонконгски",
+  "ja": "活ハタの香港風蒸し",
+  "hi": "हांगकांग स्टाइल स्टीम्ड लाइव ग्रुपर"
+ },
+ "Hàu nướng phô mai / mỡ hành": {
+  "en": "Grilled Oysters with Cheese / Scallion Oil",
+  "zh": "芝士烤生蚝 / 葱油烤生蚝",
+  "ru": "Запеченные устрицы с сыром / с зеленым луком и маслом",
+  "ja": "焼き牡蠣（チーズ／ネギ油）",
+  "hi": "चीज / हरा प्याज तेल के साथ ग्रिल्ड सीप"
+ },
+ "Bia Tiger / Nước suối": {
+  "en": "Tiger Beer / Mineral Water",
+  "zh": "虎牌啤酒 / 矿泉水",
+  "ru": "Пиво Tiger / Минеральная вода",
+  "ja": "タイガービール／ミネラルウォーター",
+  "hi": "टाइगर बीयर / मिनरल वाटर"
+ },
+ "Ba chỉ rang mắm tép (Fried Pork Belly with Shrimp Paste)": {
+  "en": "Crispy Pork Belly Fried with Shrimp Paste",
+  "zh": "虾酱炒五花肉",
+  "ru": "Хрустящая свиная грудинка с креветочной пастой",
+  "ja": "豚バラ肉のエビ味噌炒め",
+  "hi": "झींगा पेस्ट के साथ भुना सूअर का पेट"
+ },
+ "Cá bống kho tộ (Claypot Braised Goby Fish)": {
+  "en": "Claypot Braised Goby Fish",
+  "zh": "瓦煲焖虾虎鱼",
+  "ru": "Тушеный бычок в глиняном горшочке",
+  "ja": "ハゼの土鍋キャラメル煮",
+  "hi": "मिट्टी की हांडी में पकी गोबी (गॉबी) मछली"
+ },
+ "Bò xào rau củ theo mùa (Stir-fried Beef with Vegetables)": {
+  "en": "Stir-fried Beef with Seasonal Vegetables",
+  "zh": "时蔬炒牛肉",
+  "ru": "Жареная говядина с сезонными овощами",
+  "ja": "牛肉と季節野菜の炒め物",
+  "hi": "मौसमी सब्जियों के साथ भुना बीफ"
+ },
+ "Thịt ba chỉ luộc chấm cà pháo mắm tôm": {
+  "en": "Boiled Pork Belly with Pickled Eggplant and Fermented Shrimp Paste",
+  "zh": "白灼五花肉配腌茄子及虾酱",
+  "ru": "Отварная свиная грудинка с маринованными баклажанами и креветочной пастой",
+  "ja": "ゆで豚バラ肉と小ナスの発酵エビ味噌添え",
+  "hi": "उबला पोर्क बेली, अचार वाले छोटे बैंगन और फर्मेंटेड झींगा पेस्ट के साथ"
+ },
+ "Cơm niêu cháy giòn (Crispy Claypot Rice)": {
+  "en": "Crispy Claypot Rice",
+  "zh": "脆底土煲饭",
+  "ru": "Хрустящий рис в глиняном горшочке",
+  "ja": "土鍋おこげご飯",
+  "hi": "कुरकुरा क्लेपॉट चावल"
+ },
+ "Canh cua đồng mồng tơi (Field Crab & Spinach Soup)": {
+  "en": "Field Crab and Malabar Spinach Soup",
+  "zh": "田蟹落葵汤",
+  "ru": "Суп с речным крабом и малабарским шпинатом",
+  "ja": "田ガニとツルムラサキのスープ",
+  "hi": "फील्ड क्रैब और मालाबार पालक का सूप"
+ },
+ "Canh chua cá lăng (Sour Catfish Soup)": {
+  "en": "Sour Soup with Catfish",
+  "zh": "酸汤鲿鱼",
+  "ru": "Кислый суп с сомом",
+  "ja": "淡水ナマズの酸味スープ",
+  "hi": "कैटफिश के साथ खट्टा सूप"
+ },
+ "Charcoal Grilled Samgyeopsal (숯불 삼겹살)": {
+  "en": "Charcoal Grilled Pork Belly",
+  "zh": "炭烤五花肉",
+  "ru": "Свиная грудинка на углях",
+  "ja": "炭火焼きサムギョプサル",
+  "hi": "चारकोल ग्रिल्ड पोर्क बेली"
+ },
+ "Charcoal Beef Ribs (소갈비살 구이)": {
+  "en": "Charcoal Grilled Beef Ribs",
+  "zh": "炭烤牛小排",
+  "ru": "Говяжьи ребрышки на углях",
+  "ja": "炭火焼き牛カルビ",
+  "hi": "चारकोल ग्रिल्ड बीफ रिब्स"
+ },
+ "Kimchi Stew & Steamed Rice (김치찌개와 공깃밥)": {
+  "en": "Kimchi Stew with Steamed Rice",
+  "zh": "辣白菜汤配米饭",
+  "ru": "Суп кимчи с вареным рисом",
+  "ja": "キムチチゲとご飯",
+  "hi": "चावल के साथ किमची स्ट्यू"
+ },
+ "Cold Naengmyeon (물냉면 / 비빔냉면)": {
+  "en": "Cold Noodles (Mul Naengmyeon / Bibim Naengmyeon)",
+  "zh": "冷面（水冷面 / 拌冷面）",
+  "ru": "Холодная лапша нэнмён (в бульоне со льдом / острая)",
+  "ja": "冷麺（水冷麺／ビビン冷麺）",
+  "hi": "कोरियाई ठंडे नूडल्स (मुल नेंगम्योन शोरबे में / बिबिम नेंगम्योन मसालेदार सॉस में)"
+ },
+ "Teatro Signature Sunset Flame Cocktail": {
+  "en": "Teatro Signature Sunset Flame Cocktail",
+  "zh": "Teatro招牌日落烈焰鸡尾酒",
+  "ru": "Фирменный коктейль Teatro Sunset Flame",
+  "ja": "Teatroシグネチャー サンセット・フレーム・カクテル",
+  "hi": "टिएत्रो सिग्नेचर सनसेट फ्लेम कॉकटेल"
+ },
+ "Classic Gin & Tonic (Hendrick’s)": {
+  "en": "Classic Gin & Tonic (Hendrick's)",
+  "zh": "经典金汤力（亨利爵士）",
+  "ru": "Классический джин-тоник (Hendrick's)",
+  "ja": "クラシック ジン＆トニック（ヘンドリックス）",
+  "hi": "क्लासिक जिन और टॉनिक (हेन्ड्रिक्स)"
+ },
+ "Ghẹ Hàm Ninh hấp bia / luộc (Ham Ninh Flower Crab)": {
+  "en": "Ham Ninh Flower Crab Steamed with Beer / Boiled",
+  "zh": "涵宁花蟹（啤酒蒸 / 水煮）",
+  "ru": "Цветочный краб из Хамнинь на пару с пивом / отварной",
+  "ja": "ハムニン産ワタリガニ（ビール蒸し／ボイル）",
+  "hi": "हाम निन्ह फ्लावर क्रैब (बीयर स्टीम्ड / उबला हुआ)"
+ },
+ "Mực trứng hấp gừng / chiên nước mắm": {
+  "en": "Egg Squid Steamed with Ginger / Fried with Fish Sauce",
+  "zh": "姜蒸带卵鱿鱼 / 鱼露炸带卵鱿鱼",
+  "ru": "Кальмар с икрой на пару с имбирем / жареный в рыбном соусе",
+  "ja": "子持ちイカ（生姜蒸し／魚醤揚げ）",
+  "hi": "अंडे वाली स्क्विड अदरक के साथ भाप में / फिश सॉस में तली हुई"
+ },
+ "Ngao / Sò điệp nướng mỡ hành (Grilled Clams with Scallion)": {
+  "en": "Grilled Clams / Scallops with Scallion Oil and Peanuts",
+  "zh": "葱油花生烤蛤蜊 / 扇贝",
+  "ru": "Моллюски / морские гребешки на гриле с зеленым луком и арахисом",
+  "ja": "貝類／ホタテのネギ油・ピーナッツ焼き",
+  "hi": "हरा प्याज और मूंगफली के साथ ग्रिल्ड क्लैम / स्कैलप्स"
+ },
+ "Lẩu hải sản chua cay Thuận Kiều (Seafood Hotpot)": {
+  "en": "Thuan Kieu Spicy and Sour Seafood Hotpot",
+  "zh": "顺桥特制酸辣海鲜火锅",
+  "ru": "Кисло-острый суп-хотпот с морепродуктами Тхуан Киеу",
+  "ja": "トゥアンキエウ特製 酸味と辛味の海鮮鍋",
+  "hi": "थुआन किउ स्पाइसी एंड सॉर सीफूड हॉटपॉट"
+ },
+ "Tôm hùm bông nướng phô mai (Grilled Lobster with Cheese)": {
+  "en": "Grilled Tropical Rock Lobster with Cheese",
+  "zh": "芝士焗锦绣龙虾",
+  "ru": "Запеченный расписной лангуст с сыром",
+  "ja": "ニシキエビ（ロブスター）のチーズ焼き",
+  "hi": "चीज के साथ ग्रिल्ड रॉक लॉबस्टर"
+ },
+ "Phở Bò Hà Nội (Traditional Hanoi Beef Pho)": {
+  "en": "Traditional Hanoi Beef Pho",
+  "zh": "河内传统牛肉河粉",
+  "ru": "Традиционный ханойский фо с говядиной",
+  "ja": "ハノイ伝統牛肉フォー",
+  "hi": "पारंपरिक हनोई बीफ फो"
+ },
+ "Bún Bò Nam Bộ (Southern Dry Beef Noodles)": {
+  "en": "Southern Vietnamese Beef Dry Noodles",
+  "zh": "南部干拌牛肉米粉",
+  "ru": "Южновьетнамская сухая рисовая лапша с говядиной",
+  "ja": "ブンボーナンボー（南部風牛肉和え米麺）",
+  "hi": "दक्षिणी वियतनामी ड्राई बीफ नूडल्स"
+ },
+ "Chả Giò Cái Mâm (Crispy Spring Rolls)": {
+  "en": "Cai Mam Crispy Fried Spring Rolls",
+  "zh": "Cai Mam酥脆炸春卷",
+  "ru": "Хрустящие жареные спринг-роллы Cai Mam",
+  "ja": "Cai Mam特製 揚げ春巻き",
+  "hi": "काई माम क्रिस्पी फ्राइड स्प्रिंग रोल्स"
+ },
+ "Cà Phê & Trà Trái Cây (Vietnamese Coffee & Fruit Tea)": {
+  "en": "Vietnamese Drip Coffee & Tropical Fruit Tea",
+  "zh": "越南滴漏咖啡与热带水果茶",
+  "ru": "Вьетнамский капельный кофе и тропический фруктовый чай",
+  "ja": "ベトナムドリップコーヒー＆トロピカルフルーツティー",
+  "hi": "वियतनामी ड्रिप कॉफी और ट्रॉपिकल फ्रूट टी"
+ },
+ "Bingsu Xoài Tươi (Fresh Mango Snowflake Bingsu)": {
+  "en": "Fresh Mango Snow Ice Bingsu",
+  "zh": "鲜芒果雪花冰",
+  "ru": "Снежный бингсу со свежим манго",
+  "ja": "フレッシュマンゴーのスノーアイスかき氷",
+  "hi": "ताजा आम स्नो आइस बिंगसू"
+ },
+ "Sinh Tố Xoài (Fresh Mango Smoothie)": {
+  "en": "Fresh Mango Smoothie",
+  "zh": "鲜芒果冰沙",
+  "ru": "Смузи со свежим манго",
+  "ja": "フレッシュマンゴースムージー",
+  "hi": "ताजा आम की स्मूदी"
+ },
+ "Cà Phê Cốt Dừa (Iced Coconut Coffee)": {
+  "en": "Iced Coconut Coffee Smoothie",
+  "zh": "椰奶咖啡冰沙",
+  "ru": "Смузи из кокосового кофе со льдом",
+  "ja": "ココナッツコーヒースムージー",
+  "hi": "आइस्ड कोकोनट कॉफी स्मूदी"
+ },
+ "Cà phê Americano": {
+  "en": "Americano Coffee",
+  "zh": "美式咖啡",
+  "ru": "Кофе американо",
+  "ja": "カフェ・アメリカーノ",
+  "hi": "अमेरिकानो कॉफी"
+ },
+ "Mediterranean Salad with Grilled Eggplant": {
+  "en": "Mediterranean Salad with Grilled Eggplant",
+  "zh": "烤茄子地中海沙拉",
+  "ru": "Средиземноморский салат с баклажанами на гриле",
+  "ja": "焼きナスの地中海風サラダ",
+  "hi": "ग्रिल्ड बैंगन के साथ मेडिटेरेनियन सलाद"
+ },
+ "Caprese Salad": {
+  "en": "Caprese Salad",
+  "zh": "卡普里沙拉",
+  "ru": "Салат капрезе",
+  "ja": "カプレーゼサラダ",
+  "hi": "कैप्रीस सलाद"
+ },
+ "Baby Octopus Salad": {
+  "en": "Baby Octopus Salad",
+  "zh": "小章鱼沙拉",
+  "ru": "Салат с молодыми осьминогами",
+  "ja": "イイダコのサラダ",
+  "hi": "बेबी ऑक्टोपस सलाद"
+ },
+ "Burrata e Crudo": {
+  "en": "Burrata with Prosciutto Crudo",
+  "zh": "布拉塔芝士配意式生火腿",
+  "ru": "Буррата с прошутто крудо",
+  "ja": "ブッラータチーズとプロシュート生ハム",
+  "hi": "बुराता चीज और प्रोसियुत्तो क्रूडो"
+ },
+ "Scallop Crudo": {
+  "en": "Scallop Crudo",
+  "zh": "生鲜扇贝刺身薄片",
+  "ru": "Крудо из морского гребешка",
+  "ja": "ホタテのクルード",
+  "hi": "स्कैलप क्रूडो"
+ },
+ "Tris di Bruschette": {
+  "en": "Bruschetta Trio",
+  "zh": "意式烤面包三重奏",
+  "ru": "Трио брускетт",
+  "ja": "ブルスケッタ3種盛り合わせ",
+  "hi": "ब्रूशेटा तिकड़ी (तीन प्रकार)"
+ },
+ "Cacciucco alla Livornese": {
+  "en": "Livornese Seafood Stew (Cacciucco)",
+  "zh": "里窝那风味海鲜炖汤",
+  "ru": "Каччукко по-ливорнски",
+  "ja": "リヴォルノ風魚介の煮込みスープ",
+  "hi": "लिवोर्नीज सीफूड स्ट्यू (काचुको)"
+ },
+ "Minestra di Verdure": {
+  "en": "Italian Vegetable Soup (Minestrone)",
+  "zh": "意式蔬菜汤（Minestrone）",
+  "ru": "Итальянский овощной суп минестроне",
+  "ja": "イタリア風野菜スープ（ミネストローネ）",
+  "hi": "इटालियन वेजीटेबल सूप (मिनेस्त्रोने)"
+ },
+ "Zuppa di Spinaci e Manzo": {
+  "en": "Spinach and Beef Soup",
+  "zh": "菠菜牛肉汤",
+  "ru": "Суп со шпинатом и говядиной",
+  "ja": "ほうれん草と牛肉のスープ",
+  "hi": "पालक और बीफ का सूप"
+ },
+ "Pizza Margherita": {
+  "en": "Margherita Pizza",
+  "zh": "玛格丽特披萨",
+  "ru": "Пицца Маргарита",
+  "ja": "マルゲリータピザ",
+  "hi": "मार्गेरीटा पिज्जा"
+ },
+ "Pizza alla Diavola": {
+  "en": "Diavola Pizza (Spicy Salami)",
+  "zh": "魔鬼辣味萨拉米披萨",
+  "ru": "Пицца Дьявола с острой салями",
+  "ja": "ディアボラピザ（スパイシーサラミ）",
+  "hi": "डियावोला पिज्जा (मसालेदार सलामी)"
+ },
+ "Pizza Quattro Formaggi": {
+  "en": "Quattro Formaggi Pizza (Four Cheeses)",
+  "zh": "四种芝士披萨",
+  "ru": "Пицца Четыре сыра",
+  "ja": "クアトロ・フォルマッジピザ（4種のチーズ）",
+  "hi": "क्वाट्रो फोरमाजी पिज्जा (चार चीज)"
+ },
+ "Pizza Prosciutto e Funghi": {
+  "en": "Prosciutto and Mushroom Pizza",
+  "zh": "火腿蘑菇披萨",
+  "ru": "Пицца с ветчиной и грибами",
+  "ja": "プロシュートとキノコのピザ",
+  "hi": "प्रोसियुत्तो और मशरूम पिज्जा"
+ },
+ "Pizza Frutti di Mare": {
+  "en": "Seafood Pizza (Frutti di Mare)",
+  "zh": "海鲜披萨",
+  "ru": "Пицца с морепродуктами",
+  "ja": "シーフードピザ（フルッティ・ディ・マーレ）",
+  "hi": "सीफूड पिज्जा (फ्रूटी दी मारे)"
+ },
+ "Pizza Prosciutto Crudo Rucola e Parmigiano": {
+  "en": "Prosciutto Crudo, Arugula and Parmesan Pizza",
+  "zh": "意式生火腿芝麻菜帕马森芝士披萨",
+  "ru": "Пицца с прошутто крудо, рукколой и пармезаном",
+  "ja": "生ハムとルッコラ、パルミジャーノのピザ",
+  "hi": "प्रोसियुत्तो क्रूडो, अरुगुला और परमेसन पिज्जा"
+ },
+ "Pizza Smoked Salmon": {
+  "en": "Smoked Salmon Pizza",
+  "zh": "烟熏三文鱼披萨",
+  "ru": "Пицца с копченым лососем",
+  "ja": "スモークサーモンピザ",
+  "hi": "स्मोक्ड सैल्मन पिज्जा"
+ },
+ "Spicy Pizza \"Phu Quoc Chicken\"": {
+  "en": "Spicy Phu Quoc Chicken Pizza",
+  "zh": "辣味富国岛鸡肉披萨",
+  "ru": "Острая пицца с курицей по-фукуокски",
+  "ja": "スパイシー・フーコックチキンピザ",
+  "hi": "मसालेदार फू क्वोक चिकन पिज्जा"
+ },
+ "Burrata Pesto Pizza": {
+  "en": "Burrata Pesto Pizza",
+  "zh": "布拉塔罗勒青酱披萨",
+  "ru": "Пицца с бурратой и песто",
+  "ja": "ブッラータとペストジェノベーゼのピザ",
+  "hi": "बुराता पेस्टो पिज्जा"
+ },
+ "Spice / Nonspice Salami": {
+  "en": "Spicy / Mild Salami",
+  "zh": "萨拉米香肠（辣味 / 不辣）",
+  "ru": "Салями (острая / неострая)",
+  "ja": "サラミ（スパイシー／マイルド）",
+  "hi": "सलामी (मसालेदार / हल्के मसाले वाली)"
+ },
+ "Jamón Serrano": {
+  "en": "Jamón Serrano",
+  "zh": "塞拉诺火腿",
+  "ru": "Хамон серрано",
+  "ja": "ハモン・セラーノ",
+  "hi": "हामोन सेरानो"
+ },
+ "Prosciutto Crudo o Cotto": {
+  "en": "Prosciutto (Cured Ham or Cooked Ham)",
+  "zh": "意式火腿（生火腿或熟火腿）",
+  "ru": "Прошутто (сыровяленая или вареная ветчина)",
+  "ja": "プロシュート（生ハムまたは加熱ハム）",
+  "hi": "प्रोसियुत्तो (क्योर किया हुआ हैम या पका हुआ हैम)"
+ },
+ "Gorgonzola or Parmesan": {
+  "en": "Gorgonzola or Parmesan Cheese",
+  "zh": "戈贡佐拉芝士或帕马森芝士",
+  "ru": "Сыр горгонзола или пармезан",
+  "ja": "ゴルゴンゾーラまたはパルミジャーノチーズ",
+  "hi": "गोर्गोनजोला या परमेसन चीज"
+ },
+ "Mushroom & Sweetcorn": {
+  "en": "Mushroom & Sweet Corn",
+  "zh": "蘑菇与甜玉米",
+  "ru": "Грибы и сладкая кукуруза",
+  "ja": "マッシュルーム＆スイートコーン",
+  "hi": "मशरूम और स्वीटकॉर्न"
+ },
+ "Risotto ai Frutti di Mare": {
+  "en": "Seafood Risotto",
+  "zh": "海鲜意大利烩饭",
+  "ru": "Ризотто с морепродуктами",
+  "ja": "海鮮のリゾット",
+  "hi": "सीफूड रिसोट्टो"
+ },
+ "Risotto Bianco": {
+  "en": "White Risotto (Risotto Bianco)",
+  "zh": "白色意大利烩饭（Risotto Bianco）",
+  "ru": "Белое ризотто (ризотто бьянко)",
+  "ja": "白のリゾット（リゾット・ビアンコ）",
+  "hi": "व्हाइट रिसोट्टो (रिसोट्टो बियानको)"
+ },
+ "Risotto Mushroom": {
+  "en": "Mushroom Risotto",
+  "zh": "蘑菇意大利烩饭",
+  "ru": "Ризотто с грибами",
+  "ja": "キノコのリゾット",
+  "hi": "मशरूम रिसोट्टो"
+ },
+ "Spaghetti Tomato & Herbs": {
+  "en": "Tomato and Herb Spaghetti",
+  "zh": "番茄香草意面",
+  "ru": "Спагетти с томатами и травами",
+  "ja": "トマトとハーブのスパゲッティ",
+  "hi": "टमाटर और हर्ब स्पेगेटी"
+ },
+ "Spaghetti Aglio e Olio": {
+  "en": "Spaghetti Aglio e Olio",
+  "zh": "蒜香橄榄油意面",
+  "ru": "Спагетти алио и олио",
+  "ja": "スパゲッティ・アーリオ・オーリオ",
+  "hi": "स्पेगेटी अलियो ई ओलियो"
+ },
+ "Spaghetti alla Carbonara": {
+  "en": "Spaghetti Carbonara",
+  "zh": "卡邦尼意大利面",
+  "ru": "Спагетти карбонара",
+  "ja": "カルボナーラスパゲッティ",
+  "hi": "स्पेगेटी कारबोनारा"
+ },
+ "Spaghetti con Gamberetti e Zucchine": {
+  "en": "Spaghetti with Shrimp and Zucchini",
+  "zh": "鲜虾西葫芦意面",
+  "ru": "Спагетти с креветками и цукини",
+  "ja": "エビとズッキーニのスパゲッティ",
+  "hi": "झींगा और तोरी के साथ स्पेगेटी"
+ },
+ "Tagliatelle ai Quattro Formaggi": {
+  "en": "Four Cheese Tagliatelle",
+  "zh": "四种芝士意大利宽面",
+  "ru": "Тальятелле с четырьмя сырами",
+  "ja": "4種チーズのタリアテッレ",
+  "hi": "फोर चीज टैलियाटेले"
+ },
+ "Tagliatelle Prosciutto e Funghi": {
+  "en": "Tagliatelle with Prosciutto and Mushrooms",
+  "zh": "火腿蘑菇意大利宽面",
+  "ru": "Тальятелле с прошутто и грибами",
+  "ja": "プロシュートとキノコのタリアテッレ",
+  "hi": "प्रोसियुत्तो और मशरूम टैलियाटेले"
+ },
+ "Spaghetti alla Bolognese": {
+  "en": "Spaghetti Bolognese",
+  "zh": "肉酱意面",
+  "ru": "Спагетти болоньезе",
+  "ja": "ボロネーゼスパゲッティ",
+  "hi": "स्पेगेटी बोलोग्नीज"
+ },
+ "Grilled Tuna Steak": {
+  "en": "Grilled Tuna Steak",
+  "zh": "烤金枪鱼排",
+  "ru": "Стейк из тунца на гриле",
+  "ja": "マグロのグリルステーキ",
+  "hi": "ग्रिल्ड टूना स्टेक"
+ },
+ "Tonno in Crosta di Pistacchi": {
+  "en": "Pistachio Crusted Tuna",
+  "zh": "开心果碎裹金枪鱼",
+  "ru": "Тунец в фисташковой корочке",
+  "ja": "ピスタチオ衣のマグロ",
+  "hi": "पिस्ता क्रस्टेड टूना"
+ },
+ "Tuna Avocado Tartare": {
+  "en": "Tuna and Avocado Tartare",
+  "zh": "金枪鱼鳄梨塔塔",
+  "ru": "Тартар из тунца и авокадо",
+  "ja": "マグロとアボカドのタルタル",
+  "hi": "टूना एवोकाडो टार्टार"
+ },
+ "Mango Mousse": {
+  "en": "Mango Mousse",
+  "zh": "芒果慕斯",
+  "ru": "Манговый мусс",
+  "ja": "マンゴームース",
+  "hi": "मैंगो मूस"
+ },
+ "Sbrisolona": {
+  "en": "Sbrisolona (Almond Crumb Cake)",
+  "zh": "斯布里索洛纳杏仁脆碎蛋糕",
+  "ru": "Сбризолона (миндальный песочный пирог)",
+  "ja": "ズブリゾローナ（アーモンドクランブルケーキ）",
+  "hi": "स्ब्रिजोलोना (बादाम क्रम्बल केक)"
+ },
+ "Greek Salad (Choriatiki Salata)": {
+  "en": "Traditional Greek Salad (Horiatiki)",
+  "zh": "希腊传统沙拉",
+  "ru": "Греческий салат (Хориатики)",
+  "ja": "グリークサラダ（ホリアティキ）",
+  "hi": "पारंपरिक ग्रीक सलाद (होरियाटिकी)"
+ },
+ "Mediterranean Salad (Mesogeiaki Salata)": {
+  "en": "Mediterranean Salad",
+  "zh": "地中海风味沙拉",
+  "ru": "Средиземноморский салат",
+  "ja": "地中海風サラダ",
+  "hi": "मेडिटेरेनियन सलाद"
+ },
+ "Greek Hummus Dip": {
+  "en": "Greek Hummus Dip",
+  "zh": "希腊鹰嘴豆泥蘸酱",
+  "ru": "Греческий хумус-дип",
+  "ja": "ギリシャ風フムスディップ",
+  "hi": "ग्रीक हम्मस डिप"
+ },
+ "Greek Eggplant Dip (Melitzanosalata)": {
+  "en": "Greek Eggplant Dip (Melitzanosalata)",
+  "zh": "希腊茄子蘸酱（Melitzanosalata）",
+  "ru": "Греческий дип из баклажанов (мелидзаносалата)",
+  "ja": "ギリシャ風ナスのディップ（メリツァノサラタ）",
+  "hi": "ग्रीक बैंगन डिप (मेलित्जानोसालाता)"
+ },
+ "Tzatziki": {
+  "en": "Tzatziki (Greek Yogurt Cucumber Dip)",
+  "zh": "希腊黄瓜酸奶酱",
+  "ru": "Дзадзики (дип из йогурта и огурца)",
+  "ja": "ザジキ（ヨーグルトときゅうりのディップ）",
+  "hi": "त्सात्सिकी (दही और खीरे का डिप)"
+ },
+ "Keftedes Greek Meatballs": {
+  "en": "Greek Meatballs (Keftedes)",
+  "zh": "希腊肉丸",
+  "ru": "Греческие фрикадельки (кефтедес)",
+  "ja": "ギリシャ風ミートボール（ケフテデス）",
+  "hi": "ग्रीक मीटबॉल्स (केफ्तेदेस)"
+ },
+ "Crispy Deep-Fried Zucchini (Tiganita Kolokythakia)": {
+  "en": "Crispy Fried Zucchini",
+  "zh": "香脆炸西葫芦片",
+  "ru": "Хрустящие жареные цукини",
+  "ja": "ズッキーニのクリスピーフライ",
+  "hi": "कुरकुरी तली हुई तोरी"
+ },
+ "Stuffed Mushrooms Feta & Fresh Herbs (Manitaria me Feta kai Freska Myrodika)": {
+  "en": "Stuffed Mushrooms with Feta Cheese and Fresh Herbs",
+  "zh": "菲达芝士香草酿烤蘑菇",
+  "ru": "Фаршированные грибы с сыром фета и зеленью",
+  "ja": "フェタチーズとハーブのキノコ詰め焼き",
+  "hi": "फेटा चीज और जड़ी-बूटियों से भरे मशरूम"
+ },
+ "Souvlaki - Chicken/Pork": {
+  "en": "Souvlaki Skewers (Chicken or Pork)",
+  "zh": "希腊烤肉串（鸡肉 / 猪肉）",
+  "ru": "Сувлаки на шпажках (курица или свинина)",
+  "ja": "スブラキ串焼き（チキンまたはポーク）",
+  "hi": "सूवलाकी कटार (चिकन या पोर्क)"
+ },
+ "Souvlaki - Lamb": {
+  "en": "Lamb Souvlaki Skewers",
+  "zh": "希腊羊肉烤串",
+  "ru": "Сувлаки из ягненка на шпажках",
+  "ja": "ラム肉のスブラキ串焼き",
+  "hi": "लैम्ब सूवलाकी कटार"
+ },
+ "Gyros Plate (Piato Gyrou) - Chicken/Pork": {
+  "en": "Gyros Platter (Chicken or Pork)",
+  "zh": "希腊旋烤肉拼盘（鸡肉 / 猪肉）",
+  "ru": "Тарелка гирос (курица или свинина)",
+  "ja": "ギロス・プレート（チキンまたはポーク）",
+  "hi": "गाइरोस थाली (चिकन या पोर्क)"
+ },
+ "Gyros Plate (Piato Gyrou) - Lamb": {
+  "en": "Lamb Gyros Platter",
+  "zh": "希腊旋烤羊肉拼盘",
+  "ru": "Тарелка гирос с ягненком",
+  "ja": "ラム肉のギロス・プレート",
+  "hi": "लैम्ब गाइरोस थाली"
+ },
+ "Greek-Style Grilled Lamb Chops (Ellinika Psita Paidakia)": {
+  "en": "Greek-Style Grilled Lamb Chops",
+  "zh": "希腊风味烤羊排",
+  "ru": "Бараньи ребрышки на гриле по-гречески",
+  "ja": "ギリシャ風ラムチョップのグリル",
+  "hi": "ग्रीक स्टाइल ग्रिल्ड लैम्ब चॉप्स"
+ },
+ "Grilled Pork Sausage Plate (Piato Psiton Choriatikon Loukanikon)": {
+  "en": "Grilled Greek Pork Sausage Platter",
+  "zh": "希腊风味香烤猪肉肠拼盘",
+  "ru": "Тарелка жареных свиных колбасок по-гречески",
+  "ja": "ギリシャ風ポークソーセージグリルの盛り合わせ",
+  "hi": "ग्रिल्ड ग्रीक पोर्क सॉसेज थाली"
+ },
+ "Greek Style Beef T-Bone Black Angus": {
+  "en": "Greek-Style Black Angus Beef T-Bone Steak",
+  "zh": "希腊风味黑安格斯丁骨牛排",
+  "ru": "Стейк ти-бон из говядины блэк ангус по-гречески",
+  "ja": "ギリシャ風ブラックアンガス牛Tボーンステーキ",
+  "hi": "ग्रीक स्टाइल ब्लैक एंगस बीफ टी-बोन स्टेक"
+ },
+ "Old-Fashioned Greek Burgers (Palies Ellinikes Mperger)": {
+  "en": "Traditional Greek Burger Patties",
+  "zh": "传统希腊风味汉堡肉饼",
+  "ru": "Традиционные греческие бургер-котлеты",
+  "ja": "伝統ギリシャ風ハンバーグパティ・プレート",
+  "hi": "पारंपरिक ग्रीक बर्गर पैटी थाली"
+ },
+ "Mussels Saganaki (Saganaki Mydia)": {
+  "en": "Mussels Saganaki (with Tomato & Feta Cheese)",
+  "zh": "萨加纳基青口贝（番茄菲达芝士焖贻贝）",
+  "ru": "Мидии саганаки (в томатном соусе с сыром фета)",
+  "ja": "ムール貝のサガナキ（トマトとフェタチーズの煮込み）",
+  "hi": "मसल्स सगानाकी (टमाटर और फेटा चीज के साथ)"
+ },
+ "Stuffed Calamari with Feta Cheese (Gemista Kalamaria me Feta)": {
+  "en": "Grilled Calamari Stuffed with Feta Cheese",
+  "zh": "菲达芝士酿烤鱿鱼筒",
+  "ru": "Кальмары на гриле, фаршированные сыром фета",
+  "ja": "フェタチーズを詰めたイカのグリル",
+  "hi": "फेटा चीज से भरा ग्रिल्ड कैलामारी"
+ },
+ "Shrimp Saganaki (Saganaki Garidas)": {
+  "en": "Shrimp Saganaki (with Tomato & Feta Cheese)",
+  "zh": "萨加纳基鲜虾（番茄菲达芝士焖虾）",
+  "ru": "Креветки саганаки (в томатном соусе с сыром фета)",
+  "ja": "エビのサガナキ（トマトとフェタチーズの煮込み）",
+  "hi": "झींगा सगानाकी (टमाटर और फेटा चीज के साथ)"
+ },
+ "Greek Seafood Platter (Thalassinos Diskos) - Prawn, Calamari, Baby Octopus": {
+  "en": "Greek Seafood Platter (Prawns, Calamari, Baby Octopus)",
+  "zh": "希腊风味海鲜大拼盘（大虾、鱿鱼、小章鱼）",
+  "ru": "Греческое морское плато (креветки, кальмары, молодые осьминоги)",
+  "ja": "ギリシャ風シーフード盛り合わせ（エビ、イカ、イイダコ）",
+  "hi": "ग्रीक सीफूड थाली (झींगा, कैलामारी, बेबी ऑक्टोपस)"
+ },
+ "Crispy Deep-Fried Calamari (Piato Traganon Tiganiton Kalamarion)": {
+  "en": "Crispy Fried Calamari",
+  "zh": "香脆炸鱿鱼",
+  "ru": "Хрустящие жареные кальмары",
+  "ja": "クリスピーカラマリフライ",
+  "hi": "कुरकुरी तली हुई कैलामारी"
+ },
+ "Crispy Deep-Fried Shrimp (Piato Traganon Tiganiton Garidon)": {
+  "en": "Crispy Fried Shrimp",
+  "zh": "香脆炸虾",
+  "ru": "Хрустящие жареные креветки",
+  "ja": "クリスピーエビフライ",
+  "hi": "कुरकुरे तले हुए झींगे"
+ },
+ "Grilled Mango with Greek Yogurt, Honey & Almonds": {
+  "en": "Grilled Mango with Greek Yogurt, Honey and Almonds",
+  "zh": "烤芒果配希腊酸奶、蜂蜜与杏仁",
+  "ru": "Запеченное манго с греческим йогуртом, медом и миндалем",
+  "ja": "焼きマンゴーのギリシャヨーグルト・ハチミツ・アーモンド添え",
+  "hi": "ग्रीक योगर्ट, शहद और बादाम के साथ ग्रिल्ड मैंगो"
+ },
+ "Chocolate Baklava with Coffee Syrup": {
+  "en": "Chocolate Baklava with Coffee Syrup",
+  "zh": "咖啡糖浆巧克力果仁蜜饼",
+  "ru": "Шоколадная пахлава с кофейным сиропом",
+  "ja": "コーヒーシロップ添え チョコレート・バクラヴァ",
+  "hi": "कॉफी सिरप के साथ चॉकलेट बकलावा"
+ },
+ "Baklava Strudel with Orange Syrup": {
+  "en": "Baklava Strudel with Orange Syrup",
+  "zh": "香橙糖浆果仁蜜饼卷",
+  "ru": "Штрудель-пахлава с апельсиновым сиропом",
+  "ja": "オレンジシロップ添え バクラヴァ・シュトゥルーデル",
+  "hi": "ऑरेंज सिरप के साथ बकलावा स्ट्रूडल"
+ },
+ "French Fries": {
+  "en": "French Fries",
+  "zh": "炸薯条",
+  "ru": "Картофель фри",
+  "ja": "フライドポテト",
+  "hi": "फ्रेंच फ्राइज"
+ },
+ "Wedges Potatoes": {
+  "en": "Potato Wedges",
+  "zh": "炸薯角",
+  "ru": "Картофельные дольки",
+  "ja": "ウェッジポテト",
+  "hi": "पोटैटो वेजेस"
+ },
+ "Mixed Vegetable Salad": {
+  "en": "Mixed Vegetable Salad",
+  "zh": "混合蔬菜沙拉",
+  "ru": "Салат из разных овощей",
+  "ja": "ミックス野菜サラダ",
+  "hi": "मिक्स्ड वेजीटेबल सलाद"
+ },
+ "Extra Herb Tomato Sauce": {
+  "en": "Extra Herb Tomato Sauce",
+  "zh": "额外香草番茄酱",
+  "ru": "Дополнительный томатный соус с травами",
+  "ja": "追加ハーブトマトソース",
+  "hi": "अतिरिक्त हर्ब टोमैटो सॉस"
+ },
+ "Extra Pita": {
+  "en": "Extra Pita Bread",
+  "zh": "额外皮塔饼",
+  "ru": "Дополнительная пита",
+  "ja": "追加ピタパン",
+  "hi": "अतिरिक्त पीटा ब्रेड"
+ },
+ "Extra Tzatziki": {
+  "en": "Extra Tzatziki Sauce",
+  "zh": "额外希腊黄瓜酸奶酱",
+  "ru": "Дополнительный соус дзадзики",
+  "ja": "追加ザジキソース",
+  "hi": "अतिरिक्त त्सात्सिकी सॉस"
+ },
+ "Extra Kalamata Olive": {
+  "en": "Extra Kalamata Olives",
+  "zh": "额外卡拉马塔橄榄",
+  "ru": "Дополнительные оливки каламата",
+  "ja": "追加カラマタオリーブ",
+  "hi": "अतिरिक्त कालामाता जैतून"
+ },
+ "Extra Feta Cheese": {
+  "en": "Extra Feta Cheese",
+  "zh": "额外菲达芝士",
+  "ru": "Дополнительный сыр фета",
+  "ja": "追加フェタチーズ",
+  "hi": "अतिरिक्त फेटा चीज"
+ },
+ "Cafe Latte": {
+  "en": "Caffè Latte",
+  "zh": "拿铁咖啡",
+  "ru": "Кофе латте",
+  "ja": "カフェラテ",
+  "hi": "कैफे लाते"
+ },
+ "Matcha Latte": {
+  "en": "Matcha Latte",
+  "zh": "抹茶拿铁",
+  "ru": "Матча латте",
+  "ja": "抹茶ラテ",
+  "hi": "माचा लाते"
+ },
+ "Hot / Iced Tea (Green Jasmine, Oolong, Black Tea) - cup": {
+  "en": "Hot / Iced Tea (Jasmine Green, Oolong, or Black Tea) - Cup",
+  "zh": "热/冰茶（茉莉绿茶、乌龙茶、红茶）- 单杯",
+  "ru": "Горячий / холодный чай (зеленый жасминовый, улун, черный) - чашка",
+  "ja": "ホット／アイスティー（ジャスミン緑茶・烏龍茶・紅茶）カップ",
+  "hi": "हॉट / आइस्ड टी (जैस्मिन ग्रीन, ऊलोंग, ब्लैक टी) - कप"
+ },
+ "Hot / Iced Tea (Green Jasmine, Oolong, Black Tea) - teapot": {
+  "en": "Hot / Iced Tea (Jasmine Green, Oolong, or Black Tea) - Pot",
+  "zh": "热/冰茶（茉莉绿茶、乌龙茶、红茶）- 整壶",
+  "ru": "Горячий / холодный чай (зеленый жасминовый, улун, черный) - чайник",
+  "ja": "ホット／アイスティー（ジャスミン緑茶・烏龍茶・紅茶）ポット",
+  "hi": "हॉट / आइस्ड टी (जैस्मिन ग्रीन टी, ऊलोंग या ब्लैक टी) - चाय की पॉट"
+ },
+ "Peach Chiller": {
+  "en": "Peach Chiller",
+  "zh": "冰爽蜜桃冷饮",
+  "ru": "Персиковый чиллер",
+  "ja": "ピーチチラー",
+  "hi": "पीच चिलर"
+ },
+ "Ginger Lemongrass": {
+  "en": "Ginger Lemongrass Drink",
+  "zh": "生姜柠檬草饮品",
+  "ru": "Имбирь и лемонграсс",
+  "ja": "ジンジャーレモングラス",
+  "hi": "अदरक लेमनग्रास ड्रिंक"
+ },
+ "Extra: Malibu (rum 21%) 30ml / Baileys (17%) 30ml": {
+  "en": "Add-on Shot: Malibu Rum (21%) 30ml / Baileys Irish Cream (17%) 30ml",
+  "zh": "加料：马利宝椰子朗姆酒(21%) 30ml / 百利甜酒(17%) 30ml",
+  "ru": "Дополнительно: ром Malibu (21%) 30 мл / ликер Baileys (17%) 30 мл",
+  "ja": "追加ショット：マリブ（ラム 21%）30ml／ベイリーズ（17%）30ml",
+  "hi": "अतिरिक्त: मालिबू रम (21%) 30 मिली / बेलीज (17%) 30 मिली"
+ },
+ "Spicy Celery": {
+  "en": "Spicy Celery Juice",
+  "zh": "香辣西芹汁",
+  "ru": "Пряный сельдерейный напиток",
+  "ja": "スパイシーセロリジュース",
+  "hi": "मसालेदार सेलरी जूस"
+ },
+ "Refreshing Red": {
+  "en": "Refreshing Red Juice",
+  "zh": "清爽红色果汁",
+  "ru": "Освежающий красный сок",
+  "ja": "リフレッシング・レッドジュース",
+  "hi": "रिफ्रेशिंग रेड जूस"
+ },
+ "Sunshine": {
+  "en": "Sunshine Juice",
+  "zh": "阳光果汁",
+  "ru": "Сок «Sunshine»",
+  "ja": "サンシャインジュース",
+  "hi": "सनशाइन जूस"
+ },
+ "Orange Sunshine": {
+  "en": "Orange Sunshine Juice",
+  "zh": "香橙阳光特饮",
+  "ru": "Сок «Orange Sunshine»",
+  "ja": "オレンジサンシャインジュース",
+  "hi": "ऑरेंज सनशाइन जूस"
+ },
+ "Fresh Juice single selection (Watermelon, Beetroot, Carrot, Passion Fruit, Orange, Lemon, Green Apple, Pineapple)": {
+  "en": "Fresh Single Juice (Choice of Watermelon, Beetroot, Carrot, Passion Fruit, Orange, Lemon, Green Apple, or Pineapple)",
+  "zh": "鲜榨单品果汁（西瓜、甜菜根、胡萝卜、百香果、甜橙、柠檬、青苹果、菠萝可选）",
+  "ru": "Свежевыжатый сок на выбор (арбуз, свекла, морковь, маракуйя, апельсин, лимон, зеленое яблоко, ананас)",
+  "ja": "フレッシュジュース（スイカ、ビーツ、ニンジン、パッションフルーツ、オレンジ、レモン、青リンゴ、パイナップルから1種類選択）",
+  "hi": "ताज़ा जूस (तरबूज, चुकंदर, गाजर, पैशन फ्रूट, संतरा, नींबू, हरा सेब या अनानास में से एक चुनें)"
+ },
+ "Banana Mango & Cinnamon": {
+  "en": "Banana Mango and Cinnamon Smoothie",
+  "zh": "香蕉芒果肉桂冰沙",
+  "ru": "Смузи из банана, манго и корицы",
+  "ja": "バナナ・マンゴー＆シナモン スムージー",
+  "hi": "केला, आम और दालचीनी स्मूदी"
+ },
+ "Lime Mexico": {
+  "en": "Lime Mexico Cooler",
+  "zh": "墨西哥风味青柠特饮",
+  "ru": "Мексиканский лаймовый освежающий напиток",
+  "ja": "ライム・メキシコ",
+  "hi": "लाइम मेक्सिको कूलर"
+ },
+ "Mango & Passion": {
+  "en": "Mango and Passion Fruit Smoothie",
+  "zh": "芒果百香果冰沙",
+  "ru": "Смузи из манго и маракуйи",
+  "ja": "マンゴー＆パッションフルーツ スムージー",
+  "hi": "आम और पैशन फ्रूट स्मूदी"
+ },
+ "Banana Chocolate": {
+  "en": "Banana Chocolate Smoothie",
+  "zh": "香蕉巧克力冰沙",
+  "ru": "Бананово-шоколадный смузи",
+  "ja": "バナナチョコレート スムージー",
+  "hi": "केला चॉकलेट स्मूदी"
+ },
+ "Smoothie single selection (Mango, Banana, Passion Fruit, Orange, Lemon, Pineapple)": {
+  "en": "Single Fruit Smoothie (Choice of Mango, Banana, Passion Fruit, Orange, Lemon, or Pineapple)",
+  "zh": "单品鲜果冰沙（芒果、香蕉、百香果、甜橙、柠檬、菠萝可选）",
+  "ru": "Фруктовый смузи на выбор (манго, банан, маракуйя, апельсин, лимон, ананас)",
+  "ja": "シングルフルーツスムージー（マンゴー、バナナ、パッションフルーツ、オレンジ、レモン、パイナップルから選択）",
+  "hi": "सिंगल फ्रूट स्मूदी (आम, केला, पैशन फ्रूट, संतरा, नींबू, अनानास में से एक)"
+ },
+ "Saigon Special Green": {
+  "en": "Saigon Special Beer",
+  "zh": "西贡特酿啤酒（绿标）",
+  "ru": "Пиво Saigon Special (зелёная этикетка)",
+  "ja": "サイゴンスペシャルビール（グリーン）",
+  "hi": "साइगॉन स्पेशल बीयर (ग्रीन लेबल)"
+ },
+ "Saigon Export Red": {
+  "en": "Saigon Export Beer",
+  "zh": "西贡出口啤酒（红标）",
+  "ru": "Пиво Saigon Export (красная этикетка)",
+  "ja": "サイゴンエクスポートビール（レッド）",
+  "hi": "साइगॉन एक्सपोर्ट बीयर (रेड लेबल)"
+ },
+ "Bivina": {
+  "en": "Bivina Beer",
+  "zh": "Bivina啤酒",
+  "ru": "Пиво Bivina",
+  "ja": "ビビナビール",
+  "hi": "बिविना बीयर"
+ },
+ "Apple Cider": {
+  "en": "Apple Cider",
+  "zh": "苹果西打酒",
+  "ru": "Яблочный сидр",
+  "ja": "アップルサイダー（リンゴ発酵酒）",
+  "hi": "एप्पल साइडर"
+ },
+ "San Pellegrino Sparkling 500ml": {
+  "en": "San Pellegrino Sparkling Mineral Water 500ml",
+  "zh": "圣培露含气天然矿泉水 500ml",
+  "ru": "Газированная минеральная вода San Pellegrino 500 мл",
+  "ja": "サンペレグリノ スパークリングウォーター 500ml",
+  "hi": "सैन पेलेग्रिनो स्पार्कलिंग वाटर 500 मिली"
+ },
+ "Acqua Panna Natural Water 500ml": {
+  "en": "Acqua Panna Natural Mineral Water 500ml",
+  "zh": "普娜天然矿泉水 500ml",
+  "ru": "Природная минеральная вода Acqua Panna 500 мл",
+  "ja": "アクアパンナ ナチュラルミネラルウォーター 500ml",
+  "hi": "एक्वा पन्ना नेचुरल मिनरल वाटर 500 मिली"
+ },
+ "Acqua Panna Natural Water 750ml": {
+  "en": "Acqua Panna Natural Mineral Water 750ml",
+  "zh": "普娜天然矿泉水 750ml",
+  "ru": "Природная минеральная вода Acqua Panna 750 мл",
+  "ja": "アクアパンナ ナチュラルミネラルウォーター 750ml",
+  "hi": "एक्वा पन्ना नेचुरल मिनरल वाटर 750 मिली"
+ },
+ "Schweppes (Tonic / Ginger Ale / Soda Water)": {
+  "en": "Schweppes (Tonic Water / Ginger Ale / Soda Water)",
+  "zh": "怡泉（汤力水 / 干姜水 / 苏打水）",
+  "ru": "Schweppes (тоник / имбирный эль / содовая)",
+  "ja": "シュウェップス（トニック／ジンジャーエール／ソーダ水）",
+  "hi": "श्वेप्स (टॉनिक / जिंजर एल / सोडा वाटर)"
+ },
+ "Red Bull": {
+  "en": "Red Bull Energy Drink",
+  "zh": "红牛能量饮料",
+  "ru": "Энергетический напиток Red Bull",
+  "ja": "レッドブル",
+  "hi": "रेड बुल एनर्जी ड्रिंक"
+ },
+ "Coke / Pepsi / Coke Zero / Pepsi Zero Lime / 7Up / Sprite / Fanta": {
+  "en": "Soft Drinks (Coca-Cola, Pepsi, Coke Zero, Pepsi Zero Lime, 7Up, Sprite, or Fanta)",
+  "zh": "碳酸汽水（可口可乐 / 百事可乐 / 零度可乐 / 无糖青柠百事 / 七喜 / 雪碧 / 芬达）",
+  "ru": "Газированные напитки (Coca-Cola / Pepsi / Coke Zero / Pepsi Zero Lime / 7Up / Sprite / Fanta)",
+  "ja": "炭酸飲料（コカ・コーラ／ペプシ／コカ・コーラゼロ／ペプシゼロライム／セブンアップ／スプライト／ファンタ）",
+  "hi": "सॉफ्ट ड्रिंक्स (कोका-कोला / पेप्सी / कोक जीरो / पेप्सी जीरो लाइम / 7अप / स्प्राइट / फैंटा)"
+ },
+ "Mojito": {
+  "en": "Classic Mojito",
+  "zh": "经典莫吉托鸡尾酒",
+  "ru": "Классический мохито",
+  "ja": "クラシック・モヒート",
+  "hi": "क्लासिक मोहितो"
+ },
+ "Caipirinha": {
+  "en": "Caipirinha",
+  "zh": "卡琵莉亚鸡尾酒",
+  "ru": "Коктейль Кайпиринья",
+  "ja": "カイピリーニャ",
+  "hi": "कैपिरिन्हा"
+ },
+ "Black/White Russian": {
+  "en": "Black / White Russian",
+  "zh": "黑俄罗斯 / 白俄罗斯鸡尾酒",
+  "ru": "Черный / Белый русский",
+  "ja": "ブラック／ホワイト・ルシアン",
+  "hi": "ब्लैक / व्हाइट रशियन"
+ },
+ "Piña Colada": {
+  "en": "Piña Colada",
+  "zh": "椰林飘香鸡尾酒",
+  "ru": "Коктейль Пина Колада",
+  "ja": "ピニャ・コラーダ",
+  "hi": "पिना कोलाडा"
+ },
+ "Whisky Sour": {
+  "en": "Whisky Sour",
+  "zh": "威士忌酸酒",
+  "ru": "Коктейль Виски Сауэр",
+  "ja": "ウイスキーサワー",
+  "hi": "व्हिस्की सोर"
+ },
+ "Tequila Sunrise": {
+  "en": "Tequila Sunrise",
+  "zh": "龙舌兰日出鸡尾酒",
+  "ru": "Коктейль Текила Санрайз",
+  "ja": "テキーラサンライズ",
+  "hi": "टकीला सनराइज"
+ },
+ "Daiquiri": {
+  "en": "Daiquiri",
+  "zh": "德贵丽鸡尾酒",
+  "ru": "Коктейль Дайкири",
+  "ja": "ダイキリ",
+  "hi": "डाइकिरी"
+ },
+ "Dry Martini": {
+  "en": "Dry Martini",
+  "zh": "干马天尼鸡尾酒",
+  "ru": "Сухой мартини",
+  "ja": "ドライ・マティーニ",
+  "hi": "ड्राई मार्टिनी"
+ },
+ "Margarita": {
+  "en": "Margarita",
+  "zh": "玛格丽特鸡尾酒",
+  "ru": "Коктейль Маргарита",
+  "ja": "マルガリータ",
+  "hi": "मार्गरीटा"
+ },
+ "Bánh mì Phở đặc biệt RuNam": {
+  "en": "RuNam Signature Pho Flavored Banh Mi",
+  "zh": "RuNam招牌牛肉河粉风味法棍三明治",
+  "ru": "Фирменный баньми RuNam со вкусом супа фо",
+  "ja": "RuNam特製 フォー風味バインミー",
+  "hi": "रूनम सिग्नेचर फो फ्लेवर्ड बान्ह मी"
+ },
+ "Hủ tiếu cá hồi / Mì hoành thánh xá xíu": {
+  "en": "Salmon Hu Tieu Noodle Soup / Char Siu Wonton Noodle Soup",
+  "zh": "三文鱼粿条 / 叉烧云吞面",
+  "ru": "Хутиеу с лососем / Суп с лапшой, вонтонами и свининой часу",
+  "ja": "サーモン入りフーティウ／チャーシューワンタン麺",
+  "hi": "सैल्मन हू टियू नूडल सूप / चार सिउ वोनटन नूडल सूप"
+ },
+ "Bún bò Huế đuôi bò (Oxtail Bun Bo Hue)": {
+  "en": "Oxtail Bun Bo Hue (Spicy Hue Beef Noodle Soup)",
+  "zh": "牛尾顺化辣牛肉米粉",
+  "ru": "Бун бо Хюэ с бычьими хвостами",
+  "ja": "牛テールのフエ風スパイシー米麺（ブンボーフエ）",
+  "hi": "ऑक्सटेल बून बो ह्यु (मसालेदार बीफ नूडल सूप)"
+ },
+ "Phở bò tủy xương & đuôi bò cao cấp": {
+  "en": "Premium Beef Pho with Bone Marrow and Oxtail",
+  "zh": "骨髓牛尾高级牛肉河粉",
+  "ru": "Премиальный фо с говядиной, костным мозгом и бычьим хвостом",
+  "ja": "牛骨髄と牛テールの極上牛肉フォー",
+  "hi": "हड्डी के गूदे और ऑक्सटेल के साथ प्रीमियम बीफ फो"
+ },
+ "Bánh canh cua lột (Soft-shell Crab Noodle)": {
+  "en": "Thick Tapioca Noodle Soup with Soft-Shell Crab",
+  "zh": "软壳蟹木薯粗粉汤",
+  "ru": "Густой суп банькань с мягкопанцирным крабом",
+  "ja": "ソフトシェルクラブ入りバインカン",
+  "hi": "सॉफ्ट-शैल क्रैब के साथ बान्ह कान नूडल सूप"
+ },
+ "Thịt bò Úc nướng trên đá nóng (250g)": {
+  "en": "Australian Beef Hot Stone Grill (250g)",
+  "zh": "火山石炙烤澳洲牛肉（250克）",
+  "ru": "Австралийская говядина на горячем камне (250 г)",
+  "ja": "溶岩石プレートで焼くオーストラリア産牛ステーキ（250g）",
+  "hi": "हॉट स्टोन ग्रिल्ड ऑस्ट्रेलियन बीफ (250 ग्राम)"
+ },
+ "Cá hồi Na Uy áp chảo sốt bơ chanh": {
+  "en": "Pan-Seared Norwegian Salmon with Lemon Butter Sauce",
+  "zh": "香煎挪威三文鱼配柠檬黄油酱",
+  "ru": "Филе норвежского лосося на сковороде с лимонно-масляным соусом",
+  "ja": "ノルウェー産サーモンのソテー レモンバターソース添え",
+  "hi": "पैन-सीयर नॉर्वेजियन सैल्मन, लेमन बटर सॉस के साथ"
+ },
+ "Mì Ý gà nấm sốt kem (Chicken Mushroom Pasta)": {
+  "en": "Chicken and Mushroom Cream Pasta",
+  "zh": "鸡肉蘑菇奶油意面",
+  "ru": "Паста с курицей и грибами в сливочном соусе",
+  "ja": "チキンとキノコのクリームパスタ",
+  "hi": "चिकन मशरूम क्रीम पास्ता"
+ },
+ "Cà phê trứng RuNam (RuNam Signature Egg Coffee)": {
+  "en": "RuNam Signature Egg Coffee",
+  "zh": "RuNam招牌鸡蛋咖啡",
+  "ru": "Фирменный кофе с яичным кремом RuNam",
+  "ja": "RuNam特製 エッグコーヒー",
+  "hi": "रूनम सिग्नेचर एग कॉफी"
+ },
+ "Cà phê cốt dừa tuyết (Coconut Snow Coffee)": {
+  "en": "Coconut Snow Coffee Smoothie",
+  "zh": "椰雪冰沙咖啡",
+  "ru": "Кофейный смузи «Снежный кокос»",
+  "ja": "ココナッツ・スノー・コーヒースムージー",
+  "hi": "कोकोनट स्नो कॉफी स्मूदी"
+ },
+ "Trà hoa quả nhiệt đới thượng hạng": {
+  "en": "Premium Tropical Fruit Tea",
+  "zh": "特级热带水果茶",
+  "ru": "Премиальный тропический фруктовый чай",
+  "ja": "特選トロピカルフルーツティー",
+  "hi": "प्रीमियम ट्रॉपिकल फ्रूट टी"
+ },
+ "Cơm Niêu đập truyền thống": {
+  "en": "Traditional Smacked Claypot Rice",
+  "zh": "传统敲锅陶煲饭",
+  "ru": "Традиционный рис в глиняном горшочке с разбиванием горшочка при подаче",
+  "ja": "伝統土鍋割りご飯（コムニュー・ダップ）",
+  "hi": "पारंपरिक स्मैक्ड क्लेपॉट चावल"
+ },
+ "Cá kho tộ đất sét (Claypot Caramelized Fish)": {
+  "en": "Claypot Caramelized Braised Fish",
+  "zh": "陶煲焦糖焖鱼",
+  "ru": "Рыба, тушенная в карамельном соусе в глиняном горшочке",
+  "ja": "土鍋仕込みの魚のキャラメル煮",
+  "hi": "मिट्टी की हांडी में कैरामेलाइज्ड मछली"
+ },
+ "Canh cua rau đay (Crab & Jute Leaf Soup)": {
+  "en": "Crab and Jute Leaf Soup",
+  "zh": "螃蟹黄麻叶汤",
+  "ru": "Суп с крабом и листьями джута",
+  "ja": "カニとモロヘイヤのスープ",
+  "hi": "केकड़ा और जूट के पत्तों का सूप"
+ },
+ "Thịt kho tàu nước dừa (Braised Pork Belly with Eggs)": {
+  "en": "Braised Pork Belly and Eggs in Coconut Water",
+  "zh": "椰汁卤肉焖蛋",
+  "ru": "Свиная грудинка с яйцами в кокосовой воде",
+  "ja": "豚バラ肉と卵のココナッツウォーター煮",
+  "hi": "नारियल पानी में पका पोर्क बेली और अंडा"
+ },
+ "Bò xào bông thiên lý (Stir-fried Beef with Tonkin Jasmine)": {
+  "en": "Stir-fried Beef with Tonkin Jasmine Flowers",
+  "zh": "夜来香花炒牛肉",
+  "ru": "Жареная говядина с цветами тонкинского жасмина",
+  "ja": "牛肉と夜来香の花の炒め物",
+  "hi": "टोन्किन जैस्मिन के फूलों के साथ भुना बीफ"
+ },
+ "Set Cơm Niêu Gia Đình (Family Set Menu)": {
+  "en": "Claypot Rice Family Set Menu",
+  "zh": "瓦煲饭家庭套餐",
+  "ru": "Семейный сет с рисом в глиняном горшочке",
+  "ja": "土鍋ご飯ファミリーセットメニュー",
+  "hi": "क्लेपॉट चावल फैमिली सेट मेनू"
+ },
+ "European Pastries & Cakes": {
+  "en": "European Pastries and Cakes",
+  "zh": "欧式手工糕点与蛋糕",
+  "ru": "Европейская выпечка и торты",
+  "ja": "ヨーロッパ風ペストリー＆ケーキ",
+  "hi": "यूरोपीय पेस्ट्री और केक"
+ },
+ "Brasserie Casual Mains & Pasta": {
+  "en": "Brasserie Casual Mains and Pasta",
+  "zh": "法式小酒馆主菜与意面",
+  "ru": "Основные блюда и паста в стиле брассери",
+  "ja": "ブラッスリー カジュアルメイン料理＆パスタ",
+  "hi": "ब्रासरी कैजुअल मेन कोर्स और पास्ता"
+ },
+ "Cocktails & House Wine": {
+  "en": "Signature Cocktails and House Wine",
+  "zh": "招牌鸡尾酒与店选葡萄酒",
+  "ru": "Фирменные коктейли и вино заведения",
+  "ja": "シグネチャーカクテル＆ハウスワイン",
+  "hi": "सिग्नेचर कॉकटेल और हाउस वाइन"
+ },
+ "Bánh canh ghẹ thịt bóc sẵn (Regular Crab Noodle)": {
+  "en": "Flower Crab Thick Noodle Soup (Peeled Meat)",
+  "zh": "手剥花蟹肉粗米粉汤",
+  "ru": "Густой суп банькань с мясом цветочного краба",
+  "ja": "剥き身ワタリガニ入りバインカン",
+  "hi": "फ्लावर क्रैब बान्ह कान नूडल सूप (निकाला हुआ केकड़ा मांस)"
+ },
+ "Bánh canh ghẹ nguyên con đặc biệt (Whole Flower Crab Noodle)": {
+  "en": "Special Whole Flower Crab Thick Noodle Soup",
+  "zh": "特选整只花蟹粗米粉汤",
+  "ru": "Особый суп банькань с целым цветочным крабом",
+  "ja": "特製 丸ごとワタリガニ入りバインカン",
+  "hi": "स्पेशल साबुत फ्लावर क्रैब बान्ह कान नूडल सूप"
+ },
+ "Bánh canh tôm mực (Prawn & Squid Noodle)": {
+  "en": "Prawn and Squid Thick Noodle Soup",
+  "zh": "大虾鱿鱼粗米粉汤",
+  "ru": "Густой суп банькань с креветками и кальмарами",
+  "ja": "エビとイカのバインカン",
+  "hi": "झींगा और स्क्विड बान्ह कान नूडल सूप"
+ },
+ "Chả cá Phú Quốc chiên giòn (Crispy Fish Cake)": {
+  "en": "Phu Quoc Crispy Fried Fish Cakes",
+  "zh": "富国岛酥炸手工鱼饼",
+  "ru": "Хрустящие рыбные котлеты по-фукуокски",
+  "ja": "フーコック特製 揚げ魚のさつま揚げ",
+  "hi": "फू क्वोक क्रिस्पी फ्राइड फिश केक"
+ },
+ "Sunset Town Mojito (Passion Fruit)": {
+  "en": "Sunset Town Passion Fruit Mojito",
+  "zh": "日落小镇百香果莫吉托",
+  "ru": "Мохито с маракуйей Сансет-Таун",
+  "ja": "サンセットタウン・パッションフルーツモヒート",
+  "hi": "सनसेट टाउन पैशन फ्रूट मोहितो"
+ },
+ "Phu Quoc Pepper Highball": {
+  "en": "Phu Quoc Black Pepper Highball",
+  "zh": "富国岛胡椒生姜嗨棒",
+  "ru": "Хайбол с фукуокским перцем и имбирем",
+  "ja": "フーコック産胡椒と生姜のハイボール",
+  "hi": "फू क्वोक ब्लैक पेपर हाईबॉल"
+ },
+ "Gà Giòn Cay Sốt Mắm Tỏi (Crispy Spicy Garlic Fish Sauce Chicken)": {
+  "en": "Crispy Spicy Chicken in Garlic Fish Sauce",
+  "zh": "蒜香鱼露香辣脆皮鸡",
+  "ru": "Хрустящая острая курица в чесночно-рыбном соусе",
+  "ja": "クリスピーチキンのピリ辛ニンニク魚醤ソースがけ",
+  "hi": "लहसुन फिश सॉस में क्रिस्पी स्पाइसी चिकन"
+ },
+ "Nghêu hấp Thái / sả / sốt Madam Khánh": {
+  "en": "Steamed Clams (Thai Tom Yum / Lemongrass / Madam Khanh Special Sauce)",
+  "zh": "蒸蛤蜊（泰式冬阴功 / 柠檬草清蒸 / Madam Khanh特调酱）",
+  "ru": "Моллюски на пару (по-тайски том-ям / с лемонграссом / соус Madam Khanh)",
+  "ja": "蒸しアサリ（タイ風トムヤム／レモングラス／マダムカーン特製ソース）",
+  "hi": "स्टीम्ड क्लैम्स (थाई टॉम यम / लेमनग्रास / मैडम खान स्पेशल सॉस)"
+ },
+ "Ốc móng tay cháy tỏi / xào rau muống": {
+  "en": "Razor Clams Stir-fried with Garlic Butter / Water Spinach",
+  "zh": "蒜香炒蛏子 / 空心菜炒蛏子",
+  "ru": "Морские черенки с чесноком / с водным шпинатом",
+  "ja": "マテ貝のニンニク炒め／空心菜炒め",
+  "hi": "लहसुन / वॉटर पालक के साथ तली हुई रेजर क्लैम्स"
+ },
+ "Cơm chiên hải sản": {
+  "en": "Seafood Fried Rice",
+  "zh": "海鲜炒饭",
+  "ru": "Жареный рис с морепродуктами",
+  "ja": "海鮮チャーハン",
+  "hi": "सीफूड फ्राइड राइस"
+ },
+ "Rau muống xào tỏi": {
+  "en": "Stir-fried Water Spinach with Garlic",
+  "zh": "蒜蓉炒空心菜",
+  "ru": "Жареный водный шпинат с чесноком",
+  "ja": "空心菜のニンニク炒め",
+  "hi": "लहसुन के साथ भुना वॉटर पालक"
+ },
+ "Cá mú sống (hấp Hồng Kông / nướng muối ớt)": {
+  "en": "Live Grouper (Steamed Hong Kong Style / Grilled with Chili Salt)",
+  "zh": "活石斑鱼（港式清蒸 / 辣椒盐烤）",
+  "ru": "Живой групер (на пару по-гонконгски / на гриле с солью и чили)",
+  "ja": "活ハタ（香港風蒸し／唐辛子塩焼き）",
+  "hi": "लाइव ग्रुपर (हांगकांग स्टाइल स्टीम्ड / मिर्च नमक के साथ ग्रिल्ड)"
+ },
+ "Sò điệp / Hàu nướng mỡ hành": {
+  "en": "Grilled Scallops / Oysters with Scallion Oil and Peanuts",
+  "zh": "葱油花生碎烤扇贝 / 生蚝",
+  "ru": "Морские гребешки / устрицы на гриле с зеленым луком и арахисом",
+  "ja": "ホタテ／牡蠣のネギ油・ピーナッツ焼き",
+  "hi": "हरा प्याज और मूंगफली के साथ ग्रिल्ड स्कैलप्स / सीप"
+ },
+ "Ốc hương xào bơ tỏi / sốt trứng muối": {
+  "en": "Babylon Snails Stir-fried with Garlic Butter / Salted Egg Sauce",
+  "zh": "蒜香黄油炒花螺 / 咸蛋黄酱炒花螺",
+  "ru": "Улитки бабилония в чесночно-масляном соусе / в соусе из соленого желтка",
+  "ja": "ゾウゲバイ貝（ガーリックバター炒め／塩漬け卵黄ソース）",
+  "hi": "गार्लिक बटर / नमकीन अंडे की सॉस में बेबिलोन स्नेल्स"
+ },
+ "Bào ngư nướng phô mai / sốt XO": {
+  "en": "Grilled Abalone with Cheese / XO Sauce",
+  "zh": "芝士焗鲍鱼 / XO酱烤鲍鱼",
+  "ru": "Абалон на гриле с сыром / с соусом XO",
+  "ja": "アワビのグリル（チーズ焼き／XO醤焼き）",
+  "hi": "चीज / एक्सओ सॉस के साथ ग्रिल्ड एबालोन"
+ },
+ "Bạch tuộc nướng sa tế (Grilled Spicy Octopus)": {
+  "en": "Grilled Spicy Sate Octopus",
+  "zh": "沙爹辣酱烤章鱼",
+  "ru": "Осьминог на гриле с пряным соусом сате",
+  "ja": "タコのサテ炭火焼き",
+  "hi": "मसालेदार साते ग्रिल्ड ऑक्टोपस"
+ },
+ "Mực nướng muối ớt (Grilled Squid with Chili Salt)": {
+  "en": "Grilled Squid with Chili Salt",
+  "zh": "辣椒盐烤鱿鱼",
+  "ru": "Кальмар на гриле с солью и чили",
+  "ja": "イカの唐辛子塩焼き",
+  "hi": "मिर्च नमक के साथ ग्रिल्ड स्क्विड"
+ },
+ "Hàu nướng mỡ hành phô mai (Grilled Oysters with Cheese)": {
+  "en": "Grilled Oysters with Cheese and Scallion Oil",
+  "zh": "芝士葱油烤生蚝",
+  "ru": "Запеченные устрицы с сыром и зеленым луком",
+  "ja": "牡蠣のチーズネギ油焼き",
+  "hi": "चीज और हरे प्याज के साथ ग्रिल्ड सीप"
+ },
+ "Sò nướng mỡ hành (Grilled Scallops & Clams)": {
+  "en": "Grilled Shellfish with Scallion Oil and Peanuts",
+  "zh": "葱油花生碎烤贝类",
+  "ru": "Моллюски на гриле с зеленым луком и арахисом",
+  "ja": "貝類のネギ油・ピーナッツ焼き",
+  "hi": "हरा प्याज और मूंगफली के साथ ग्रिल्ड शेलफिश"
+ },
+ "Xiên nướng đường phố (Street BBQ Skewers)": {
+  "en": "Street Style BBQ Skewers",
+  "zh": "街头风味烧烤串",
+  "ru": "Уличные шашлычки на гриле",
+  "ja": "屋台風BBQ串焼き",
+  "hi": "स्ट्रीट स्टाइल बीबीक्यू सीख"
+ },
+ "Hải sản nướng than hoa": {
+  "en": "Charcoal Grilled Seafood Platter",
+  "zh": "炭烤海鲜拼盘",
+  "ru": "Морепродукты на древесных углях",
+  "ja": "炭火焼きミックスシーフード",
+  "hi": "चारकोल ग्रिल्ड सीफूड"
+ },
+ "Thịt xiên nướng sốt cay": {
+  "en": "Grilled Spicy Pork Skewers",
+  "zh": "辣酱烤猪肉串",
+  "ru": "Свиные шашлычки в остром соусе",
+  "ja": "スパイシーポーク串焼き",
+  "hi": "मसालेदार पोर्क कटार"
+ },
+ "Italian Amalfi Afternoon Tea Set for Two": {
+  "en": "Italian Amalfi Afternoon Tea Set for Two",
+  "zh": "意式阿马尔菲双人下午茶套餐",
+  "ru": "Итальянский дневной чайный сет Амальфи на двоих",
+  "ja": "イタリアン・アマルフィ アフタヌーンティーセット（2名様分）",
+  "hi": "इटालियन अमाल्फी दोपहर की चाय सेट (दो के लिए)"
+ },
+ "Cannoli Siciliani (Classic Sicilian Cannoli)": {
+  "en": "Classic Sicilian Cannoli",
+  "zh": "经典西西里卡诺里甜点卷",
+  "ru": "Традиционные сицилийские канноли",
+  "ja": "シチリア伝統カンノーリ",
+  "hi": "क्लासिक सिसिली कैनोली"
+ },
+ "Slow Smoked Pork Ribs (Half Rack - 350g)": {
+  "en": "Slow-Smoked BBQ Pork Ribs (Half Rack, 350g)",
+  "zh": "慢烤烟熏猪肋排（半份 350克）",
+  "ru": "Копченые свиные ребрышки барбекю (половина порции, 350 г)",
+  "ja": "低温スモークBBQポークリブ（ハフラック 350g）",
+  "hi": "धीमी आंच पर स्मोक्ड पोर्क रिब्स (हाफ रैक, 350 ग्राम)"
+ },
+ "Slow Smoked Pork Ribs (Full Rack - 700g)": {
+  "en": "Slow-Smoked BBQ Pork Ribs (Full Rack, 700g)",
+  "zh": "慢烤烟熏猪肋排（整份 700克）",
+  "ru": "Копченые свиные ребрышки барбекю (целая порция, 700 г)",
+  "ja": "低温スモークBBQポークリブ（フルラック 700g）",
+  "hi": "धीमी आंच पर स्मोक्ड पोर्क रिब्स (फुल रैक, 700 ग्राम)"
+ },
+ "Caveman Giant Smoked Beef Rib": {
+  "en": "Caveman Giant Smoked Beef Rib",
+  "zh": "穴居人巨无霸烟熏牛肋排",
+  "ru": "Гигантское копченое говяжье ребро Caveman",
+  "ja": "ケイブマン・ジャイアントスモークビーフリブ",
+  "hi": "केवमैन जायंट स्मोक्ड बीफ रिब"
+ },
+ "Classic Angus Beef Burger": {
+  "en": "Classic Angus Beef Burger",
+  "zh": "经典安格斯牛肉汉堡",
+  "ru": "Классический бургер с говядиной ангус",
+  "ja": "クラシック・アンガスビーフバーガー",
+  "hi": "क्लासिक एंगस बीफ बर्गर"
+ },
+ "Crispy Calamari Rings": {
+  "en": "Crispy Calamari Rings",
+  "zh": "酥脆鱿鱼圈",
+  "ru": "Хрустящие кольца кальмаров",
+  "ja": "クリスピーカラマリリング",
+  "hi": "क्रिस्पी कैलामारी रिंग्स"
+ },
+ "Crispy Mozzarella Sticks": {
+  "en": "Crispy Mozzarella Sticks",
+  "zh": "酥脆马苏里拉芝士条",
+  "ru": "Хрустящие палочки из моцареллы",
+  "ja": "クリスピーモッツァレラスティック",
+  "hi": "क्रिस्पी मोज़ेरेला स्टिक्स"
+ },
+ "2-Hour Unlimited Craft Beer Package": {
+  "en": "2-Hour Unlimited Craft Beer Package",
+  "zh": "2小时精酿啤酒无限畅饮套餐",
+  "ru": "2-часовой безлимитный пакет крафтового пива",
+  "ja": "2時間クラフトビール飲み放題パッケージ",
+  "hi": "2 घंटे का अनलिमिटेड क्राफ्ट बीयर पैकेज"
+ },
+ "Caveman Craft Beer by Glass (Pilsner / IPA / Stout)": {
+  "en": "Caveman Craft Beer by the Glass (Pilsner, IPA, or Stout)",
+  "zh": "Caveman 杯装精酿啤酒（皮尔森 / IPA / 世涛）",
+  "ru": "Бокал крафтового пива Caveman (пилснер, IPA, стаут)",
+  "ja": "ケイブマン・クラフトビール（グラス／ピルスナー・IPA・スタウト）",
+  "hi": "ग्लास में केवमैन क्राफ्ट बीयर (पिल्सनर, आईपीए या स्टाउट)"
+ },
+ "Cà Phê Cốt Dừa Wave (Wave Coconut Coffee)": {
+  "en": "Wave Coconut Coffee Smoothie",
+  "zh": "Wave椰子咖啡冰沙",
+  "ru": "Кокосовый кофейный смузи Wave",
+  "ja": "Wave ココナッツコーヒースムージー",
+  "hi": "वेव कोकोनट कॉफी स्मूदी"
+ },
+ "Nước Ép Dưa Hấu / Chanh Dây (Fresh Watermelon / Passion Fruit Juice)": {
+  "en": "Fresh Juice (Watermelon or Passion Fruit)",
+  "zh": "鲜榨果汁（西瓜 / 百香果）",
+  "ru": "Свежевыжатый сок (арбуз или маракуйя)",
+  "ja": "搾りたて生ジュース（スイカ／パッションフルーツ）",
+  "hi": "ताजा जूस (तरबूज या पैशन फ्रूट)"
+ },
+ "Bia Tươi Sunset (Draft Beer Sunset)": {
+  "en": "Sunset Draft Beer (Tiger or Heineken)",
+  "zh": "日落生啤酒（虎牌 / 喜力）",
+  "ru": "Разливное пиво Sunset (Tiger или Heineken)",
+  "ja": "サンセット樽生ビール（タイガー／ハイネケン）",
+  "hi": "सनसेट ड्राफ्ट बीयर (टाइगर या हेनेकेन)"
+ }
+}

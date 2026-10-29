@@ -1,0 +1,604 @@
+[
+  {
+    "name_original": "Tropical Yoghurt",
+    "name_ko": "트로피컬 요거트",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Tropical Yogurt",
+    "name_zh": "热带水果酸奶",
+    "name_ru": "Тропический йогурт",
+    "name_ja": "トロピカルヨーグルト",
+    "name_hi": "ट्रॉपिकल योगर्ट"
+  },
+  {
+    "name_original": "Ice Cream",
+    "name_ko": "젤라또 아이스크림",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Gelato Ice Cream",
+    "name_zh": "意式冰淇淋",
+    "name_ru": "Мороженое джелато",
+    "name_ja": "ジェラートアイスクリーム",
+    "name_hi": "जिलेटो आइसक्रीम"
+  },
+  {
+    "name_original": "Le Triporteur Rouge IGP, Rhône (vang đỏ)",
+    "name_ko": "Le Triporteur Rouge IGP, Rhône (vang đỏ)",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Le Triporteur Rouge IGP, Rhône Red Wine",
+    "name_zh": "罗讷河谷 Le Triporteur IGP 红葡萄酒",
+    "name_ru": "Красное вино Le Triporteur Rouge IGP, Rhône",
+    "name_ja": "ル・トリポルテール ルージュ IGP ローヌ (赤ワイン)",
+    "name_hi": "ले ट्रिपॉर्टूर रूज आईजीपी, रोन रेड वाइन"
+  },
+  {
+    "name_original": "Signore Giuseppe Bardolino, Veneto (vang đỏ)",
+    "name_ko": "Signore Giuseppe Bardolino, Veneto (vang đỏ)",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Signore Giuseppe Bardolino, Veneto Red Wine",
+    "name_zh": "威尼托 Signore Giuseppe 巴多利诺红葡萄酒",
+    "name_ru": "Красное вино Signore Giuseppe Bardolino, Veneto",
+    "name_ja": "シニョーレ・ジュゼッペ バルドリーノ ヴェネト (赤ワイン)",
+    "name_hi": "सिन्योरे जिसेपे बारडोलिनो, वेनेटो रेड वाइन"
+  },
+  {
+    "name_original": "Château Platon, Bordeaux (vang đỏ)",
+    "name_ko": "Château Platon, Bordeaux (vang đỏ)",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Château Platon, Bordeaux Red Wine",
+    "name_zh": "波尔多 Château Platon 红葡萄酒",
+    "name_ru": "Красное вино Château Platon, Bordeaux",
+    "name_ja": "シャトー・プラトン ボルドー (赤ワイン)",
+    "name_hi": "शातो प्लाटन, बोर्डो रेड वाइन"
+  },
+  {
+    "name_original": "Deakin Estate, Victoria (vang đỏ)",
+    "name_ko": "Deakin Estate, Victoria (vang đỏ)",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Deakin Estate, Victoria Red Wine",
+    "name_zh": "维多利亚 Deakin Estate 红葡萄酒",
+    "name_ru": "Красное вино Deakin Estate, Victoria",
+    "name_ja": "ディーキン・エステート ヴィクトリア (赤ワイン)",
+    "name_hi": "डीकिन एस्टेट, विक्टोरिया रेड वाइन"
+  },
+  {
+    "name_original": "Velenosi, Abruzzo (vang đỏ)",
+    "name_ko": "Velenosi, Abruzzo (vang đỏ)",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Velenosi, Abruzzo Red Wine",
+    "name_zh": "阿布鲁佐 Velenosi 红葡萄酒",
+    "name_ru": "Красное вино Velenosi, Abruzzo",
+    "name_ja": "ヴェレノージ アブルッツォ (赤ワイン)",
+    "name_hi": "वेलेनोसी, अब्रूज़ो रेड वाइन"
+  },
+  {
+    "name_original": "Château Pas de l’Âne, Saint-Émilion (vang đỏ)",
+    "name_ko": "Château Pas de l’Âne, Saint-Émilion (vang đỏ)",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Château Pas de l’Âne, Saint-Émilion Red Wine",
+    "name_zh": "圣埃美隆 Château Pas de l’Âne 红葡萄酒",
+    "name_ru": "Красное вино Château Pas de l’Âne, Saint-Émilion",
+    "name_ja": "シャトー・パ・ド・ラーヌ サンテミリオン (赤ワイン)",
+    "name_hi": "शातो पा द लान, सेंट-एमिलियन रेड वाइन"
+  },
+  {
+    "name_original": "Mouton Cadet Classic Rosé (vang hồng)",
+    "name_ko": "Mouton Cadet Classic Rosé (vang hồng)",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Mouton Cadet Classic Rosé Wine",
+    "name_zh": "木桐嘉棣经典桃红葡萄酒",
+    "name_ru": "Розовое вино Mouton Cadet Classic Rosé",
+    "name_ja": "ムートン・カデ クラシック ロゼワイン",
+    "name_hi": "मूटन कैडेट क्लासिक रोज़े वाइन"
+  },
+  {
+    "name_original": "Le Triporteur IGP, Rhône (vang trắng)",
+    "name_ko": "Le Triporteur IGP, Rhône (vang trắng)",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Le Triporteur IGP, Rhône White Wine",
+    "name_zh": "罗讷河谷 Le Triporteur IGP 白葡萄酒",
+    "name_ru": "Белое вино Le Triporteur IGP, Rhône",
+    "name_ja": "ル・トリポルテール IGP ローヌ (白ワイン)",
+    "name_hi": "ले ट्रिपॉर्टूर आईजीपी, रोन व्हाइट वाइन"
+  },
+  {
+    "name_original": "Gustave Lorentz, Alsace (vang trắng)",
+    "name_ko": "Gustave Lorentz, Alsace (vang trắng)",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Gustave Lorentz, Alsace White Wine",
+    "name_zh": "阿尔萨斯 Gustave Lorentz 白葡萄酒",
+    "name_ru": "Белое вино Gustave Lorentz, Alsace",
+    "name_ja": "ギュスターヴ・ロレンツ アルザス (白ワイン)",
+    "name_hi": "गुस्ताव लोरेंज, अलसास व्हाइट वाइन"
+  },
+  {
+    "name_original": "Santa Cristina, Veneto (vang trắng)",
+    "name_ko": "Santa Cristina, Veneto (vang trắng)",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Santa Cristina, Veneto White Wine",
+    "name_zh": "威尼托 Santa Cristina 白葡萄酒",
+    "name_ru": "Белое вино Santa Cristina, Veneto",
+    "name_ja": "サンタ・クリスティーナ ヴェネト (白ワイン)",
+    "name_hi": "सांता क्रिस्टीना, वेनेटो व्हाइट वाइन"
+  },
+  {
+    "name_original": "Deakin Estate, Victoria (vang trắng)",
+    "name_ko": "Deakin Estate, Victoria (vang trắng)",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Deakin Estate, Victoria White Wine",
+    "name_zh": "维多利亚 Deakin Estate 白葡萄酒",
+    "name_ru": "Белое вино Deakin Estate, Victoria",
+    "name_ja": "ディーキン・エステート ヴィクトリア (白ワイン)",
+    "name_hi": "डीकिन एस्टेट, विक्टोरिया व्हाइट वाइन"
+  },
+  {
+    "name_original": "Allan Scott, Marlborough (vang trắng)",
+    "name_ko": "Allan Scott, Marlborough (vang trắng)",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Allan Scott, Marlborough White Wine",
+    "name_zh": "马尔堡 Allan Scott 白葡萄酒",
+    "name_ru": "Белое вино Allan Scott, Marlborough",
+    "name_ja": "アラン・スコット マールボロ (白ワイン)",
+    "name_hi": "एलन स्कॉट, मार्लबोरो व्हाइट वाइन"
+  },
+  {
+    "name_original": "Cava Vega Medien Semi-Sec (vang sủi)",
+    "name_ko": "Cava Vega Medien Semi-Sec (vang sủi)",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Cava Vega Medien Semi-Sec Sparkling Wine",
+    "name_zh": "Cava Vega Medien 半干型起泡酒",
+    "name_ru": "Игристое вино Cava Vega Medien Semi-Sec",
+    "name_ja": "カヴァ ヴェガ・メディエン セミ・セック (スパークリングワイン)",
+    "name_hi": "कावा वेगा मेडिएन सेमी-सेक स्पार्कलिंग वाइन"
+  },
+  {
+    "name_original": "Tommasi Filodora Prosecco (vang sủi)",
+    "name_ko": "Tommasi Filodora Prosecco (vang sủi)",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Tommasi Filodora Prosecco Sparkling Wine",
+    "name_zh": "托马斯 Filodora 普罗塞克起泡酒",
+    "name_ru": "Игристое вино Tommasi Filodora Prosecco",
+    "name_ja": "トマージ フィロドラ プロセッコ (スパークリングワイン)",
+    "name_hi": "तोम्मासी फिलोडोरा प्रोसेको स्पार्कलिंग वाइन"
+  },
+  {
+    "name_original": "Venice Cocktail",
+    "name_ko": "베니스 시그니처 칵테일",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Venice Signature Cocktail",
+    "name_zh": "威尼斯招牌鸡尾酒",
+    "name_ru": "Фирменный коктейль Venice",
+    "name_ja": "ヴェニス シグネチャーカクテル",
+    "name_hi": "वेनिस सिग्नेचर कॉकटेल"
+  },
+  {
+    "name_original": "Pearl Island Sunny",
+    "name_ko": "펄 아일랜드 써니",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Pearl Island Sunny Cocktail",
+    "name_zh": "珍珠岛之阳鸡尾酒",
+    "name_ru": "Коктейль Pearl Island Sunny",
+    "name_ja": "パールアイランド・サニー",
+    "name_hi": "पर्ल आइलैंड सनी कॉकटेल"
+  },
+  {
+    "name_original": "Florence Sunset",
+    "name_ko": "플로렌스 선셋",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Florence Sunset Cocktail",
+    "name_zh": "佛罗伦萨落日鸡尾酒",
+    "name_ru": "Коктейль Florence Sunset",
+    "name_ja": "フローレンス・サンセット",
+    "name_hi": "फ्लोरेंस सनसेट कॉकटेल"
+  },
+  {
+    "name_original": "Ly Chỉ Kiss",
+    "name_ko": "리치 키스",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Lychee Kiss Cocktail",
+    "name_zh": "荔枝之吻鸡尾酒",
+    "name_ru": "Коктейль Lychee Kiss",
+    "name_ja": "ライチ・キス",
+    "name_hi": "लीची किस कॉकटेल"
+  },
+  {
+    "name_original": "Cold Smoke",
+    "name_ko": "콜드 스모크",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Cold Smoke Cocktail",
+    "name_zh": "冷烟鸡尾酒",
+    "name_ru": "Коктейль Cold Smoke",
+    "name_ja": "コールド・スモーク",
+    "name_hi": "कोल्ड स्मोक कॉकटेल"
+  },
+  {
+    "name_original": "Peachy Breeze",
+    "name_ko": "피치 브리즈",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Peachy Breeze Cocktail",
+    "name_zh": "桃香微风鸡尾酒",
+    "name_ru": "Коктейль Peachy Breeze",
+    "name_ja": "ピーチ・ブリーズ",
+    "name_hi": "पीची ब्रीज कॉकटेल"
+  },
+  {
+    "name_original": "Salted Sol",
+    "name_ko": "솔티드 솔",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Salted Sol Cocktail",
+    "name_zh": "盐语阳光鸡尾酒",
+    "name_ru": "Коктейль Salted Sol",
+    "name_ja": "ソルティッド・ソル",
+    "name_hi": "सॉल्टेड सोल कॉकटेल"
+  },
+  {
+    "name_original": "Melon Mist",
+    "name_ko": "멜론 미스트",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Melon Mist Cocktail",
+    "name_zh": "蜜瓜薄雾鸡尾酒",
+    "name_ru": "Коктейль Melon Mist",
+    "name_ja": "メロン・ミスト",
+    "name_hi": "मेलन मिस्ट कॉकटेल"
+  },
+  {
+    "name_original": "Midnight",
+    "name_ko": "미드나이트",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Midnight Cocktail",
+    "name_zh": "午夜鸡尾酒",
+    "name_ru": "Коктейль Midnight",
+    "name_ja": "ミッドナイト",
+    "name_hi": "मिडनाइट कॉकटेल"
+  },
+  {
+    "name_original": "Negroni",
+    "name_ko": "네그로니",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ",
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Negroni",
+    "name_zh": "内格罗尼",
+    "name_ru": "Негрони",
+    "name_ja": "ネグローニ",
+    "name_hi": "नेग्रोनी"
+  },
+  {
+    "name_original": "Classic Mojito",
+    "name_ko": "클래식 모히토",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Classic Mojito",
+    "name_zh": "经典莫吉托",
+    "name_ru": "Классический мохито",
+    "name_ja": "クラシック・モヒート",
+    "name_hi": "क्लासिक मोजितो"
+  },
+  {
+    "name_original": "Long Island Iced Tea",
+    "name_ko": "롱아일랜드 아이스티",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ",
+      "ChIJoU5XY4qXpzER7IMIeP5u2_U"
+    ],
+    "name_en": "Long Island Iced Tea",
+    "name_zh": "长岛冰茶",
+    "name_ru": "Лонг-Айленд айс ти",
+    "name_ja": "ロングアイランド・アイスティー",
+    "name_hi": "लॉन्ग आइलैंड आइस्ड टी"
+  },
+  {
+    "name_original": "Pina Colada",
+    "name_ko": "피나콜라다",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Piña Colada",
+    "name_zh": "椰林飘香",
+    "name_ru": "Пина колада",
+    "name_ja": "ピニャ・コラーダ",
+    "name_hi": "पिना कोलाडा"
+  },
+  {
+    "name_original": "Venice Sunset",
+    "name_ko": "베니스 선셋 목테일",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Venice Sunset Mocktail",
+    "name_zh": "威尼斯落日无酒精鸡尾酒",
+    "name_ru": "Безалкогольный коктейль Venice Sunset",
+    "name_ja": "ヴェニス・サンセット モクテル",
+    "name_hi": "वेनिस सनसेट मॉकटेल"
+  },
+  {
+    "name_original": "Guava Detox",
+    "name_ko": "구아바 디톡스 목테일",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Guava Detox Mocktail",
+    "name_zh": "番石榴排毒无酒精鸡尾酒",
+    "name_ru": "Безалкогольный коктейль Guava Detox",
+    "name_ja": "グアバ・デトックス モクテル",
+    "name_hi": "अमरूद डिटॉक्स मॉकटेल"
+  },
+  {
+    "name_original": "Phu Quoc Tropical",
+    "name_ko": "푸꾸옥 트로피컬 목테일",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Phu Quoc Tropical Mocktail",
+    "name_zh": "富国岛热带无酒精鸡尾酒",
+    "name_ru": "Безалкогольный коктейль Phu Quoc Tropical",
+    "name_ja": "フーコック・トロピカル モクテル",
+    "name_hi": "फु क्वोक ट्रॉपिकल मॉकटेल"
+  },
+  {
+    "name_original": "Island Dream",
+    "name_ko": "아일랜드 드림 목테일",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Island Dream Mocktail",
+    "name_zh": "海岛之梦无酒精鸡尾酒",
+    "name_ru": "Безалкогольный коктейль Island Dream",
+    "name_ja": "アイランド・ドリーム モクテル",
+    "name_hi": "आइलैंड ड्रीम मॉकटेल"
+  },
+  {
+    "name_original": "Passion Virgin Mojito",
+    "name_ko": "패션프루트 버진 모히토",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Passion Fruit Virgin Mojito",
+    "name_zh": "百香果无酒精莫吉托",
+    "name_ru": "Безалкогольный мохито с маракуйей",
+    "name_ja": "パッションフルーツ・バージンモヒート",
+    "name_hi": "पैशन फ्रूट वर्जिन मोजितो"
+  },
+  {
+    "name_original": "Blue Ocean",
+    "name_ko": "블루 오션 목테일",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Blue Ocean Mocktail",
+    "name_zh": "蓝色海洋无酒精鸡尾酒",
+    "name_ru": "Безалкогольный коктейль Blue Ocean",
+    "name_ja": "ブルー・オーシャン モクテル",
+    "name_hi": "ब्लू ओशन मॉकटेल"
+  },
+  {
+    "name_original": "Gingerberry Fizz",
+    "name_ko": "진저베리 피즈 목테일",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Gingerberry Fizz Mocktail",
+    "name_zh": "姜汁莓果汽水无酒精鸡尾酒",
+    "name_ru": "Безалкогольный коктейль Gingerberry Fizz",
+    "name_ja": "ジンジャーベリー・フィズ モクテル",
+    "name_hi": "जिंजरबेरी फ़िज़ मॉकटेल"
+  },
+  {
+    "name_original": "Venice’s Signature Coffee",
+    "name_ko": "베니스 시그니처 솔트 크림 커피",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Venice Signature Salt Cream Coffee",
+    "name_zh": "威尼斯招牌海盐奶盖咖啡",
+    "name_ru": "Фирменный кофе Venice с соленой крем-пенкой",
+    "name_ja": "ヴェニス シグネチャー ソルトクリームコーヒー",
+    "name_hi": "वेनिस सिग्नेचर सॉल्ट क्रीम कॉफ़ी"
+  },
+  {
+    "name_original": "Tiramisu Cheese Coffee",
+    "name_ko": "티라미수 치즈 커피",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Tiramisu Cheese Coffee",
+    "name_zh": "提拉米苏芝士咖啡",
+    "name_ru": "Сырный кофе Тирамису",
+    "name_ja": "ティラミス・チーズコーヒー",
+    "name_hi": "तिरामिसु चीज़ कॉफ़ी"
+  },
+  {
+    "name_original": "Cocoa Tiramisu",
+    "name_ko": "코코아 티라미수",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Cocoa Tiramisu",
+    "name_zh": "可可提拉米苏",
+    "name_ru": "Какао Тирамису",
+    "name_ja": "ココア・ティラミス",
+    "name_hi": "कोको तिरामिसु"
+  },
+  {
+    "name_original": "Coconut Coffee",
+    "name_ko": "코코넛 스무디 커피",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Coconut Smoothie Coffee",
+    "name_zh": "椰子冰沙咖啡",
+    "name_ru": "Кокосовый кофе-смузи",
+    "name_ja": "ココナッツスムージーコーヒー",
+    "name_hi": "नारियल स्मूदी कॉफ़ी"
+  },
+  {
+    "name_original": "Yogurt Coffee",
+    "name_ko": "요거트 커피",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Yogurt Coffee",
+    "name_zh": "酸奶咖啡",
+    "name_ru": "Кофе с йогуртом",
+    "name_ja": "ヨーグルトコーヒー",
+    "name_hi": "योगर्ट कॉफ़ी"
+  },
+  {
+    "name_original": "Egg Coffee",
+    "name_ko": "하노이식 에그 커피",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Hanoi Egg Coffee",
+    "name_zh": "河内鸡蛋咖啡",
+    "name_ru": "Ханойский яичный кофе",
+    "name_ja": "ハノイ式エッグコーヒー",
+    "name_hi": "हनोई एग कॉफ़ी"
+  },
+  {
+    "name_original": "Traditional Coffee",
+    "name_ko": "베트남 전통 커피 (카페 쓰어다 / 카페 덴)",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Traditional Vietnamese Coffee (Iced Milk Coffee / Black Coffee)",
+    "name_zh": "越南传统咖啡 (炼乳冰咖啡 / 黑咖啡)",
+    "name_ru": "Традиционный вьетнамский кофе (со сгущенным молоком / черный)",
+    "name_ja": "ベトナム伝統コーヒー (練乳アイスコーヒー / ブラックコーヒー)",
+    "name_hi": "पारंपरिक वियतनामी कॉफ़ी (मिल्क कॉफ़ी / ब्लैक कॉफ़ी)"
+  },
+  {
+    "name_original": "Espresso, Americano, Latte, Matcha Latte, Cara Latte, Cappuccino",
+    "name_ko": "에스프레소 & 이탈리안 커피 셀렉션",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Espresso & Italian Coffee Selection",
+    "name_zh": "意式浓缩与经典咖啡精选",
+    "name_ru": "Эспрессо и коллекция итальянского кофе",
+    "name_ja": "エスプレッソ＆イタリアンコーヒーセレクション",
+    "name_hi": "एस्प्रेसो और इटैलियन कॉफ़ी चयन"
+  },
+  {
+    "name_original": "Hot or Iced Chocolate",
+    "name_ko": "핫 / 아이스 초콜릿",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Hot or Iced Chocolate",
+    "name_zh": "热/冰巧克力",
+    "name_ru": "Горячий или холодный шоколад",
+    "name_ja": "ホット / アイス チョコレート",
+    "name_hi": "हॉट या आइस्ड चॉकलेट"
+  },
+  {
+    "name_original": "Tropical Tea",
+    "name_ko": "트로피컬 체리 오렌지 티",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Tropical Cherry Orange Tea",
+    "name_zh": "热带樱桃香橙茶",
+    "name_ru": "Тропический вишнево-апельсиновый чай",
+    "name_ja": "トロピカル チェリーオレンジティー",
+    "name_hi": "ट्रॉपिकल चेरी ऑरेंज टी"
+  },
+  {
+    "name_original": "Be-A-Mangozing",
+    "name_ko": "비-어-망고징 망고 티",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Be-A-Mangozing Mango Tea",
+    "name_zh": "芒果之恋果茶",
+    "name_ru": "Чай Be-A-Mangozing с манго",
+    "name_ja": "ビー・ア・マンゴジング マンゴーティー",
+    "name_hi": "बी-अ-मैंगोज़िंग मैंगो टी"
+  },
+  {
+    "name_original": "Summer Strawberry",
+    "name_ko": "썸머 스트로베리 티",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Summer Strawberry Tea",
+    "name_zh": "夏日草莓果茶",
+    "name_ru": "Чай Summer Strawberry с клубникой",
+    "name_ja": "サマーストロベリーティー",
+    "name_hi": "समर स्ट्रॉबेरी टी"
+  },
+  {
+    "name_original": "Love Sunny",
+    "name_ko": "러브 써니 워터멜론 리치 티",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "Love Sunny Watermelon Lychee Tea",
+    "name_zh": "阳光恋曲西瓜荔枝茶",
+    "name_ru": "Чай Love Sunny с арбузом и личи",
+    "name_ja": "ラブサニー スイカ＆ライチティー",
+    "name_hi": "लव सनी तरबूज लीची टी"
+  },
+  {
+    "name_original": "The Smell of the Sunshine",
+    "name_ko": "더 스멜 오브 선샤인 애플 시나몬 티",
+    "place_ids": [
+      "ChIJS-IdAACVpzERrZzkY5r_-JQ"
+    ],
+    "name_en": "The Smell of the Sunshine Apple Cinnamon Tea",
+    "name_zh": "阳光气息苹果肉桂茶",
+    "name_ru": "Чай The Smell of the Sunshine с яблоком и корицей",
+    "name_ja": "ザ・スメル・オブ・サンシャイン アップルシナモンティー",
+    "name_hi": "द स्मेल ऑफ सनशाइन सेब दालचीनी चाय"
+  }
+]

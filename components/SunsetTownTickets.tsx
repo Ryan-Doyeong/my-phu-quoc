@@ -1,6 +1,7 @@
 import React from 'react'
 import type { Locale } from '@/lib/i18n/config'
 import { SUNSET_TOWN_TICKETS } from '@/lib/tickets'
+import { tUi } from '@/lib/i18n/uiStrings'
 
 interface SunsetTownTicketsProps {
   locale?: Locale
@@ -162,7 +163,7 @@ export function SunsetTownTickets({ locale = 'en' }: SunsetTownTicketsProps) {
                     borderRadius: 6,
                   }}
                 >
-                  {ticket.discount}
+                  {tUi(ticket.discount, locale)}
                 </span>
               </div>
 
@@ -263,9 +264,11 @@ export function SunsetTownTickets({ locale = 'en' }: SunsetTownTicketsProps) {
         })}
       </div>
       <p style={{ marginTop: 24, textAlign: 'center', fontSize: '0.8rem', color: '#64748B', lineHeight: 1.5 }}>
-        ℹ️ {locale === 'ko'
-          ? '※ 티켓 요금, 운영 시간 및 포함 사항은 선월드(Sun World) 및 운영사의 현장 정책, 시즌 프로모션에 따라 변동될 수 있습니다. (검증 기준일: 2026년 10월)'
-          : '※ Gate prices, operating schedules, and bundle inclusions are subject to change by Sun World and operating partners. Verified October 2026.'}
+        {locale === 'ko'
+          ? 'ℹ️ ※ 티켓 요금, 운영 시간 및 포함 사항은 선월드(Sun World) 및 운영사의 현장 정책, 시즌 프로모션에 따라 변동될 수 있습니다. (검증 기준일: 2026년 10월)'
+          : locale === 'vi'
+          ? 'ℹ️ ※ Giá vé, lịch hoạt động và các dịch vụ đi kèm có thể thay đổi theo chính sách của Sun World và các đối tác. Đã xác minh tháng 10/2026.'
+          : tUi('ℹ️  ※ Gate prices, operating schedules, and bundle inclusions are subject to change by Sun World and operating partners. Verified October 2026.', locale)}
       </p>
     </section>
   )

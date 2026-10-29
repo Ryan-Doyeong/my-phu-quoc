@@ -1,0 +1,202 @@
+[
+  {
+    "slug": "an-moc-spa",
+    "google_place_id": "ChIJ6wKFhxiVpzERyyp2Pzh1eG8",
+    "public_name": "An Mộc Spa",
+    "category": "wellness",
+    "description_en": "An Mộc Spa is a spa & massage center located in Sunset Town, Phu Quoc.",
+    "description_ko": "전신·발 마사지 및 네일 케어."
+  },
+  {
+    "slug": "awaken-sea",
+    "google_place_id": "ChIJRUK3Ya6VpzERn8o1Mjv25do",
+    "public_name": "어웨이큰 씨 쇼 (Awaken Sea - 일몰 수상 스포츠 쇼)",
+    "category": "activities",
+    "description_en": "Awaken Sea is an attraction & landmark located in Sunset Town, Phu Quoc.",
+    "description_ko": "매일 오후 17:00~17:30 키스브릿지 앞바다에서 펼쳐지는 플라이보드·제트스키 쇼 • [관람 안내] 해변 산책로에서 관람 가능 (키스브릿지 다리 위 관람 시 키스브릿지 입장권 필요)."
+  },
+  {
+    "slug": "thap-dong-ho",
+    "google_place_id": "ChIJGz2yTr6XpzERw3f-8LpV0PM",
+    "public_name": "선셋타운 시계탑 (Clock Tower / Tháp Đồng Hồ)",
+    "category": "activities",
+    "description_en": "Tháp Đồng Hồ is an attraction & landmark located in Sunset Town, Phu Quoc.",
+    "description_ko": "베네치아 산마르코 종탑을 모티브로 한 75m 높이의 붉은 벽돌 시계탑, 센트럴 빌리지 중심 명소 • [관람 안내] 24시간 야외 광장 개방."
+  },
+  {
+    "slug": "cot-da-co-pompeii-ancient-pompeii",
+    "google_place_id": "ChIJR1rvoz6XpzERak7X8IIpK7Q",
+    "public_name": "고대 폼페이 유적 기둥 (Pompeii Ruins)",
+    "category": "activities",
+    "description_en": "Cột Đá Cổ Pompeii - Ancient Pompeii is an attraction & landmark located in Sunset Town, Phu Quoc.",
+    "description_ko": "포지타노 해안 절벽에 세워진 고대 로마 폼페이 유적 재현 명소 • [관람 안내] 24시간 개방."
+  },
+  {
+    "slug": "kiss-bridge",
+    "google_place_id": "ChIJG-HZ4ZaRpzERhjtO1_1kObg",
+    "public_name": "키스 브릿지 (Kiss Bridge / Cầu Hôn)",
+    "category": "activities",
+    "description_en": "Kiss Bridge is an attraction & landmark located in Sunset Town, Phu Quoc.",
+    "description_ko": "운영시간 07:00~21:00, 두 다리가 30cm 간격으로 마주보는 선셋타운 일몰 명소 • [입장료] 단독 입장권 성인/아동 100,000 VND."
+  },
+  {
+    "slug": "thang-rong",
+    "google_place_id": "ChIJlxCWdMWXpzER1uHLQ3OpVkI",
+    "public_name": "드래곤 계단 (Dragon Staircase / Thang Rồng)",
+    "category": "activities",
+    "description_en": "Thang Rồng is an attraction & landmark located in Sunset Town, Phu Quoc.",
+    "description_ko": "밀란 거리에서 아말피 거리로 이어지는 샌프란시스코 롬바드풍 지그재그 꽃길 계단 명소 • [관람 안내] 24시간 개방."
+  },
+  {
+    "slug": "cho-dem-vui-fest-bazaar-sunset-town",
+    "google_place_id": "ChIJe-XGILOVpzERFUpU0tLXMoY",
+    "public_name": "부이페스트 바자 야시장 (VUI-Fest Bazaar Night Market)",
+    "category": "activities",
+    "description_en": "Chợ Đêm Vui-Fest Bazaar Sunset Town is an attraction & landmark located in Sunset Town, Phu Quoc.",
+    "description_ko": "매일 16:00~24:00 운영, 약 400m 해안 산책로를 따라 50여 개 식음료·수공예품 부스 밀집 • [공연 안내] 거리공연(로앙소앙 쇼 20:00/22:15, 수상인형극 18:30/21:45)."
+  },
+  {
+    "slug": "sunset-place-10",
+    "google_place_id": "ChIJtSQ7ywmVpzERvzagy4sWZus",
+    "public_name": "키스 오브 더 씨 쇼 (Kiss of the Sea Show & 불꽃놀이)",
+    "category": "activities",
+    "description_en": "키스 오브 더 씨 쇼 is an attraction & landmark located in Sunset Town, Phu Quoc.",
+    "description_ko": "매일 저녁 21:00~21:30 공연(화요일 휴무 가능), 21:25경 대규모 고고도 해상 불꽃놀이 피날레 (접근성: 휠체어 이용 가능 출입구, 휠체어 이용가능 주차장, 휠체어 이용가능 화장실) • [티켓 가격] 스탠다드석 1,000,000 VND (온라인 사전예약/2인 커플권 구매 시 인당 약 650,000~850,000 VND) | VIP석 1,500,000~2,000,000 VND."
+  },
+  {
+    "slug": "sunworld-hon-thom-hon-thom-cable-car-phu-quoc",
+    "google_place_id": "ChIJvxdKNoKWpzERAWSyG5rABsg",
+    "public_name": "선월드 혼똔섬 케이블카 탑승장 (Hon Thom Cable Car - 안즈엉역)",
+    "category": "activities",
+    "description_en": "Sunworld Hòn Thơm - Hon Thom Cable Car Phu Quoc is an attraction & landmark located in Sunset Town, Phu Quoc.",
+    "description_ko": "세계 최장 7,899.9m 해상 케이블카, 주의: 11:30~13:30 정기 점검시간 운행 중단(오전 09:00~11:30, 오후 13:30~17:00 탑승 필수) (접근성: 청각 장애인 보조 기기, 휠체어 이용 가능 출입구, 휠체어 이용가능 좌석, 휠체어 이용가능 주차장) • [티켓 가격] 왕복 케이블카+워터파크 기본권: 성인 850,000 VND / 아동 700,000 VND (100cm 미만 유아 제외) | 런치 뷔페 콤보: 성인 1,150,000 VND / 아동 900,000 VND."
+  },
+  {
+    "slug": "symphony-of-the-sea-show",
+    "google_place_id": "ChIJs4HwPACXpzER7626u4zOsys",
+    "public_name": "심포니 오브 더 씨 쇼 (Symphony of the Sea)",
+    "category": "activities",
+    "description_en": "Symphony of the sea show is an attraction & landmark located in Sunset Town, Phu Quoc.",
+    "description_ko": "매일 저녁 19:30~20:00 진행, 제트스키·플라이보드 LED 수트 및 해상 불꽃 퍼포먼스 • [티켓 가격] 쇼 단독권 약 640,000~700,000 VND | 선 바바리아 가스트로펍 디너+수제맥주+쇼 패키지 약 1,000,000 VND."
+  },
+  {
+    "slug": "sun-signature-gallery",
+    "google_place_id": "ChIJb5dRi2aVpzER5yka1zrbkLM",
+    "public_name": "선 시그니처 갤러리 (Sun Signature Gallery)",
+    "category": "activities",
+    "description_en": "Sun Signature Gallery is an attraction & landmark located in Sunset Town, Phu Quoc.",
+    "description_ko": "세계적 건축가 빌 벤슬리(Bill Bensley)가 설계한 미드센추리 모던 양식의 예술 건축물 • [관람 안내] 외관 명소 개방 (내부 전시·컨벤션은 행사 시 개방)."
+  },
+  {
+    "slug": "gl90s-phu-quoc-laundry-services-sunsetown-ama47-24-24",
+    "google_place_id": "ChIJs257yXOVpzERXbYTubmIxb0",
+    "public_name": "GL90s 24시 세탁소 아말피점 (GL90s Laundry Ama47)",
+    "category": "essentials",
+    "description_en": "GL90s Laundry — 47 Amalfi, Sunset Town, Phu Quoc.",
+    "description_ko": "GL90s 세탁소 — 선셋타운 아말피 거리 47번지."
+  },
+  {
+    "slug": "money-exchange-sunset-town",
+    "google_place_id": "ChIJVzqFZ6eVpzERaAEnyrzAM7w",
+    "public_name": "Money Exchange Sunset Town",
+    "category": "banking",
+    "description_en": "Money Exchange Sunset Town — Central Sunset Town, Phu Quoc.",
+    "description_ko": "선셋타운 환전소 — 선셋타운 중심가."
+  },
+  {
+    "slug": "phu-quoc-laundry-giat-say",
+    "google_place_id": "ChIJ3XnvB6WVpzERvfQlQF07n4c",
+    "public_name": "Phú Quốc Laundry (Giặt sấy, 옷 세탁 및 건조)",
+    "category": "essentials",
+    "description_en": "Phu Quoc Laundry — Sunset Town, Phu Quoc.",
+    "description_ko": "푸꾸옥 세탁소 — 선셋타운."
+  },
+  {
+    "slug": "phu-quoc-go",
+    "google_place_id": "ChIJp9ZcOsKXpzERDLEPwP3e9JE",
+    "public_name": "Phú Quốc Go",
+    "category": "activities",
+    "description_en": "Phú Quốc Go is an attraction & landmark located in Sunset Town, Phu Quoc.",
+    "description_ko": "자유 관람 및 이용 가능 • [이용 안내] 선셋타운 관광 편의시설 및 명소."
+  },
+  {
+    "slug": "bai-bien-thi-tran-hoang-hon",
+    "google_place_id": "ChIJZXM2cdOVpzERTz6J6CvWVwg",
+    "public_name": "Bãi biển Thị trấn Hoàng Hôn",
+    "category": "activities",
+    "description_en": "Bãi biển Thị trấn Hoàng Hôn is an attraction & landmark located in Sunset Town, Phu Quoc.",
+    "description_ko": "자유 관람 및 이용 가능 • [이용 안내] 선셋타운 관광 편의시설 및 명소."
+  },
+  {
+    "slug": "exchange-money-sol-cosy-phu-quoc",
+    "google_place_id": "ChIJX_dQ80WVpzERt4kcSkTbC6I",
+    "public_name": "Exchange Money - Sol Cosy Phu Quoc",
+    "category": "banking",
+    "description_en": "Sol Cosy Money Exchange — Dai Lo New AT 96, Sunset Town, Phu Quoc.",
+    "description_ko": "솔 코지 환전소 — 선셋타운 뉴 안터이 대구역 (AT 96)."
+  },
+  {
+    "slug": "sun-group-sunset-town-electric-buggy-service",
+    "google_place_id": "buggy_service_sunset_town",
+    "public_name": "선셋타운 공식 전동 버기카 & 무료 셔틀버스 (Electric Buggy)",
+    "category": "activities",
+    "description_en": "Sun Group Sunset Town Electric Buggy Service is an attraction & landmark located in Sunset Town, Phu Quoc.",
+    "description_ko": "언덕과 계단이 많은 선셋타운 이동수단."
+  },
+  {
+    "slug": "g-g-money-exchange-sunset-town",
+    "google_place_id": "ChIJ7aTxLR2VpzERAztBqz__Cew",
+    "public_name": "G&G Money Exchange Sunset Town",
+    "category": "banking",
+    "description_en": "G&G Money Exchange — Sunset Town, Phu Quoc (22H5+C89).",
+    "description_ko": "G&G 환전소 — 선셋타운 (22H5+C89)."
+  },
+  {
+    "slug": "sunset-bazaar-phu-quoc",
+    "google_place_id": "ChIJPZGZytL1MjERhJRt3am-myo",
+    "public_name": "Sunset Bazaar Phú Quốc",
+    "category": "activities",
+    "description_en": "Sunset Bazaar Phú Quốc is an attraction & landmark located in Sunset Town, Phu Quoc.",
+    "description_ko": "자유 관람 및 이용 가능 • [이용 안내] 선셋타운 관광 편의시설 및 명소."
+  },
+  {
+    "slug": "exmoney-sunset-town-currency-exchange",
+    "google_place_id": "ChIJsY4JY3iXpzEREnF4DG6QX0Q",
+    "public_name": "EXMoney Sunset Town | Currency Exchange",
+    "category": "banking",
+    "description_en": "EXMoney Currency Exchange — 25 Amalfi, Sunset Town, Phu Quoc.",
+    "description_ko": "EXMoney 환전소 — 선셋타운 아말피 거리 25번지."
+  },
+  {
+    "slug": "sunset-town-motorbike-scooter-rental",
+    "google_place_id": "ChIJk-jMi4iXpzERM3xMhvCmdVE",
+    "public_name": "Sunset Town Motorbike & Scooter Rental",
+    "category": "activities",
+    "description_en": "Sunset Town Motorbike & Scooter Rental is an attraction & landmark located in Sunset Town, Phu Quoc.",
+    "description_ko": "자유 관람 및 이용 가능 • [이용 안내] 선셋타운 관광 편의시설 및 명소."
+  },
+  {
+    "slug": "gl90s-laundry-cs-s4",
+    "google_place_id": "ChIJ0TT_dGuLpzERVxP3FqXvAGE",
+    "public_name": "GL90S Laundry ( CS S4)",
+    "category": "essentials",
+    "description_en": "GL90s Laundry (Branch S4) — Sorrento S4, Sunset Town, Phu Quoc.",
+    "description_ko": "GL90s 세탁소 (S4점) — 선셋타운 소렌토 S4."
+  },
+  {
+    "slug": "sunsettown-exchange",
+    "google_place_id": "ChIJK4MK9QeXpzER3_XWA20nk4M",
+    "public_name": "선셋타운 환전소(sunsettown exchange)",
+    "category": "banking",
+    "description_en": "Sunset Town Currency Exchange — 58 Amalfi, Sunset Town, Phu Quoc.",
+    "description_ko": "선셋타운 환전소 — 선셋타운 아말피 거리 58번지."
+  },
+  {
+    "slug": "phu-quoc-brew-house",
+    "google_place_id": "ChIJNQRxBrKVpzERhBI9igVrm6k",
+    "public_name": "Phu Quoc Brew House",
+    "category": "activities",
+    "description_en": "Phu Quoc Brew House is an attraction & landmark located in Sunset Town, Phu Quoc.",
+    "description_ko": "자유 관람 및 이용 가능 • [이용 안내] 선셋타운 관광 편의시설 및 명소."
+  }
+]

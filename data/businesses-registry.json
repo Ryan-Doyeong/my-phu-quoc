@@ -2877,7 +2877,7 @@
     "category": "dining",
     "subcategory": "korean",
     "google_place_id": "ChIJcRC6HwCVpzERbkajor2btbM",
-    "description_en": "푸꾸옥 뚱보집 선셋타운점 is a Korean restaurant located in Sunset Town, Phu Quoc.",
+    "description_en": "Phu Quoc Ttungbojip Sunset Town (Korean Restaurant) is a Korean restaurant located in Sunset Town, Phu Quoc.",
     "description_ko": "아말피 거리 위치, 양이 매우 푸짐한 한국식 찌개·고기 전문점.",
     "address": "An Giang, Phú Quốc, Khu 2, Đ. Amalfi, Vietnam",
     "google_maps_name": "푸꾸옥 뚱보집 선셋타운",
@@ -2897,7 +2897,8 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 대형 뚝배기 김치찌개·된장찌개(2~3인분 양), 삼겹살, 제육볶음, 불고기 | 찌개·식사류 및 고기류 200,000~450,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "name_en": "Phu Quoc Ttungbojip Sunset Town (Korean Restaurant)"
   },
   {
     "id": "local-sunset-101",
@@ -3998,35 +3999,6 @@
       "Sunset Town"
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 활해산물 구이·찜(새우, 오징어, 조개, 크랩, 생선), 해산물 볶음밥·볶음면, 해산물 전골 | 단품 100,000~380,000 VND (활해산물 시가)",
-    "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
-  },
-  {
-    "id": "local-sunset-139",
-    "public_name": "라군 식당",
-    "slug": "sunset-place-4",
-    "category": "dining",
-    "subcategory": "western",
-    "google_place_id": "ChIJmwciuL6VpzER3ZIjhoDL17I",
-    "description_en": "라군 식당 is a Mediterranean & Western restaurant located in Sunset Town, Phu Quoc.",
-    "description_ko": "웨스턴 다이닝.",
-    "address": "22J4+47P, Phú Quốc, An Giang, Vietnam",
-    "google_maps_name": "라군 식당",
-    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJmwciuL6VpzER3ZIjhoDL17I",
-    "phone": "+84 944 112 655",
-    "website_url": null,
-    "instagram_url": null,
-    "status": "published",
-    "verification_status": "ai_checked",
-    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
-    "google_rating": 4.2,
-    "google_review_count": 50,
-    "gallery_urls": [],
-    "tags": [
-      "western",
-      "Sunset Town"
-    ],
-    "_deleted_snippet": "• [대표 메뉴/가격] 화덕피자, 파스타, 스테이크, 그릴 바비큐, 와인 & 맥주 | 140,000~420,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)"
   },
@@ -5458,7 +5430,7 @@
     "category": "shopping",
     "subcategory": "convenience_store",
     "google_place_id": "mimi_fruits_sunset_town",
-    "description_en": "Mimi Fruits & Mart is a convenience store & market located in Sunset Town, Phu Quoc.",
+    "description_en": "Mimi Fruits & Mimi Mini Mart is a convenience store & fresh fruit delivery market located in Sunset Town, Phu Quoc.",
     "description_ko": "선셋타운 숙소 로비까지 신선 손질 과일과 편의점 물품 배달.",
     "address": "Delivery to hotel, resort & Hillside lobbies across Sunset Town",
     "google_maps_name": "Mimi Fruits & Mart (미미프루츠 & 미미편의점)",
@@ -5478,7 +5450,8 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 손질 망고·망고스틴·용과·파인애플 과일 도시락, 생수·맥주·라면·모기약·약국 심부름 배달 | 과일팩 70,000~180,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "한국인 맞춤/인기 표현 삭제"
+    "_deleted_claims": "한국인 맞춤/인기 표현 삭제",
+    "name_en": "Mimi Fruits & Mimi Mini Mart (Delivery across Sunset Town)"
   },
   {
     "id": "local-sunset-190",
@@ -6931,35 +6904,6 @@
     "_deleted_claims": "(해당 없음)"
   },
   {
-    "id": "local-sunset-240",
-    "public_name": "코코넛 스파",
-    "slug": "sunset-place-8",
-    "category": "wellness",
-    "subcategory": "spa",
-    "google_place_id": "ChIJ-8ORFQCXpzERAjwPCzq_HAQ",
-    "description_en": "코코넛 스파 is a spa & massage center located in Sunset Town, Phu Quoc.",
-    "description_ko": "전신·발 마사지 및 네일 케어.",
-    "address": "22G5+V5C, Phú Quốc, An Giang, Vietnam",
-    "google_maps_name": "코코넛 스파",
-    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-8ORFQCXpzERAjwPCzq_HAQ",
-    "phone": null,
-    "website_url": null,
-    "instagram_url": null,
-    "status": "published",
-    "verification_status": "ai_checked",
-    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
-    "google_rating": 4.9,
-    "google_review_count": 50,
-    "gallery_urls": [],
-    "tags": [
-      "spa",
-      "Sunset Town"
-    ],
-    "_deleted_snippet": "• [코스 가격대] 발 마사지 60분 300,000~450,000 VND | 아로마/타이 전신 마사지 60분 450,000~750,000 VND / 90분 650,000~950,000 VND",
-    "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
-  },
-  {
     "id": "local-sunset-241",
     "public_name": "HANZ SUNSET SPA 2 - 56 VENICE (Sunset Town)",
     "slug": "hanz-sunset-spa-2-56-venice-sunset-town",
@@ -7111,7 +7055,7 @@
     "category": "wellness",
     "subcategory": "spa",
     "google_place_id": "ChIJ-yY2EeuVpzERZkC-0w4sM4A",
-    "description_en": "솔라나 스파 is a spa & massage center located in Sunset Town, Phu Quoc.",
+    "description_en": "SOLANA Spa Sunset Town Phú Quốc is a spa & massage center located in Sunset Town, Phu Quoc.",
     "description_ko": "전신·발 마사지 및 네일 케어.",
     "address": "Sunset town , Địa Trung Hải, A103 Amafi, Phú Quốc, An Giang 92513, Vietnam",
     "google_maps_name": "솔라나 스파",
@@ -7131,7 +7075,8 @@
     ],
     "_deleted_snippet": "• [코스 가격대] 발 마사지 60분 300,000~450,000 VND | 아로마/타이 전신 마사지 60분 450,000~750,000 VND / 90분 650,000~950,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "name_en": "SOLANA Spa Sunset Town Phú Quốc"
   },
   {
     "id": "local-sunset-247",

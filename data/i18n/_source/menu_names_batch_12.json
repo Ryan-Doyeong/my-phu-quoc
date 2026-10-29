@@ -1,0 +1,352 @@
+[
+  {
+    "name_original": "Vededi Right Rum - shot",
+    "name_ko": "베데디 라이트 럼 (샷)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ]
+  },
+  {
+    "name_original": "Vededi Right Rum - bottle",
+    "name_ko": "베데디 라이트 럼 (보틀)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ]
+  },
+  {
+    "name_original": "Belami ROC 16 Delta - shot",
+    "name_ko": "벨라미 ROC 16 델타 (샷)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ]
+  },
+  {
+    "name_original": "Belami ROC 16 Delta - bottle",
+    "name_ko": "벨라미 ROC 16 델타 (보틀)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ]
+  },
+  {
+    "name_original": "Patrón Silver - shot",
+    "name_ko": "파트론 실버 (샷)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ]
+  },
+  {
+    "name_original": "Ketel One - shot",
+    "name_ko": "케텔 원 (샷)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ]
+  },
+  {
+    "name_original": "Ketel One - bottle",
+    "name_ko": "케텔 원 (보틀)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ]
+  },
+  {
+    "name_original": "Grey Goose - shot",
+    "name_ko": "그레이 구스 (샷)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ]
+  },
+  {
+    "name_original": "Dewar's 12 Year Old - shot",
+    "name_ko": "듀어스 12년 (샷)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ]
+  },
+  {
+    "name_original": "Dewar's 12 Year Old - bottle",
+    "name_ko": "듀어스 12년 (보틀)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ]
+  },
+  {
+    "name_original": "Vededi Single Malt Distiller's Choice - shot",
+    "name_ko": "베데디 싱글몰트 (샷)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ]
+  },
+  {
+    "name_original": "Vededi Single Malt Distiller's Choice - bottle",
+    "name_ko": "베데디 싱글몰트 (보틀)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ]
+  },
+  {
+    "name_original": "Hennessy V.S - shot",
+    "name_ko": "헤네시 V.S (샷)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ]
+  },
+  {
+    "name_original": "Hennessy V.S - bottle",
+    "name_ko": "헤네시 V.S (보틀)",
+    "place_ids": [
+      "ChIJn8-tUACXpzER6RqdNBwIv2U"
+    ]
+  },
+  {
+    "name_original": "Croissant au Beurre (French Butter Croissant)",
+    "name_ko": "버터 크루아상 (프랑스 AOP 버터 100%)",
+    "place_ids": [
+      "ChIJjVDpHgiHCjERTaQVRRrVJ9Y"
+    ]
+  },
+  {
+    "name_original": "Pain au Chocolat",
+    "name_ko": "뺑 오 쇼콜라",
+    "place_ids": [
+      "ChIJjVDpHgiHCjERTaQVRRrVJ9Y"
+    ]
+  },
+  {
+    "name_original": "Baguette Monge (Artisanal Monge Baguette)",
+    "name_ko": "바게트 몽쥬 (천연 발효 정통 프랑스 바게트)",
+    "place_ids": [
+      "ChIJjVDpHgiHCjERTaQVRRrVJ9Y"
+    ]
+  },
+  {
+    "name_original": "Tarte au Citron Meringuée (Lemon Meringue Tart)",
+    "name_ko": "레몬 머랭 타르트",
+    "place_ids": [
+      "ChIJjVDpHgiHCjERTaQVRRrVJ9Y"
+    ]
+  },
+  {
+    "name_original": "Café Latte / Cappuccino",
+    "name_ko": "카페 라떼 / 카푸치노",
+    "place_ids": [
+      "ChIJjVDpHgiHCjERTaQVRRrVJ9Y"
+    ]
+  },
+  {
+    "name_original": "Americano (Hot / Iced)",
+    "name_ko": "아메리카노 (핫 / 아이스)",
+    "place_ids": [
+      "ChIJjVDpHgiHCjERTaQVRRrVJ9Y"
+    ]
+  },
+  {
+    "name_original": "Cà phê trứng (Egg Coffee)",
+    "name_ko": "하노이식 수제 에그 커피",
+    "place_ids": [
+      "ChIJYx62SU2VpzERzC6ZA_AF9YY"
+    ]
+  },
+  {
+    "name_original": "Cà phê cốt dừa (Coconut Coffee)",
+    "name_ko": "코코넛 스무디 커피",
+    "place_ids": [
+      "ChIJYx62SU2VpzERzC6ZA_AF9YY"
+    ]
+  },
+  {
+    "name_original": "Cà phê sữa đá (Vietnamese Iced Milk Coffee)",
+    "name_ko": "베트남 전통 연유 아이스 커피",
+    "place_ids": [
+      "ChIJYx62SU2VpzERzC6ZA_AF9YY"
+    ]
+  },
+  {
+    "name_original": "Bánh mì bò tiêu đen (Black Pepper Beef Banh Mi)",
+    "name_ko": "블랙페퍼 소고기 반미 바게트 샌드위치",
+    "place_ids": [
+      "ChIJYx62SU2VpzERzC6ZA_AF9YY"
+    ]
+  },
+  {
+    "name_original": "Bánh mì thịt nguội (Traditional Cold Cuts Banh Mi)",
+    "name_ko": "베트남 전통 햄 & 파테 반미",
+    "place_ids": [
+      "ChIJYx62SU2VpzERzC6ZA_AF9YY"
+    ]
+  },
+  {
+    "name_original": "Phở bò tái nạm (Beef Pho Noodle Soup)",
+    "name_ko": "진한 소고기 양지 차돌 쌀국수",
+    "place_ids": [
+      "ChIJYx62SU2VpzERzC6ZA_AF9YY"
+    ]
+  },
+  {
+    "name_original": "Sinh tố bơ cốt dừa (Avocado Coconut Smoothie)",
+    "name_ko": "아보카도 코코넛 생과일 스무디",
+    "place_ids": [
+      "ChIJYx62SU2VpzERzC6ZA_AF9YY"
+    ]
+  },
+  {
+    "name_original": "Sun KraftBeer Munich Helles (Lager)",
+    "name_ko": "뮌헨 헬레스 라거 수제맥주 (500ml)",
+    "place_ids": [
+      "ChIJAwwqc2yVpzER_4K_0feO5I8"
+    ]
+  },
+  {
+    "name_original": "Sun KraftBeer Weizen (Wheat Beer)",
+    "name_ko": "바이젠 밀맥주 (500ml)",
+    "place_ids": [
+      "ChIJAwwqc2yVpzER_4K_0feO5I8"
+    ]
+  },
+  {
+    "name_original": "Sun KraftBeer Dark Dunkel",
+    "name_ko": "둔켈 흑맥주 (500ml)",
+    "place_ids": [
+      "ChIJAwwqc2yVpzER_4K_0feO5I8"
+    ]
+  },
+  {
+    "name_original": "Đùi Heo Muối Chiên Giòn (Crispy Bavarian Schweinshaxe)",
+    "name_ko": "독일식 슈바인학센 (겉바속촉 족발 구이)",
+    "place_ids": [
+      "ChIJAwwqc2yVpzER_4K_0feO5I8"
+    ]
+  },
+  {
+    "name_original": "Xúc Xích Đức Tổng Hợp (Assorted German Sausages Platter)",
+    "name_ko": "독일식 모둠 수제 소시지 플래터",
+    "place_ids": [
+      "ChIJAwwqc2yVpzER_4K_0feO5I8"
+    ]
+  },
+  {
+    "name_original": "Gói Buffet Tối + Xem Show Symphony of the Sea (Dinner Buffet & Show)",
+    "name_ko": "디너 뷔페 + 심포니 오브 더 씨 수상쇼 관람 패키지 (1인)",
+    "place_ids": [
+      "ChIJAwwqc2yVpzER_4K_0feO5I8"
+    ]
+  },
+  {
+    "name_original": "Chả giò hoàng hôn (Sunset Spring Rolls)",
+    "name_ko": "선셋 특제 수제 스프링롤",
+    "place_ids": [
+      "ChIJfyqPrL2VpzERtUaB6o2c_ZU"
+    ]
+  },
+  {
+    "name_original": "Lẩu nấm tràm Phú Quốc (Melaleuca Mushroom Hot Pot)",
+    "name_ko": "푸꾸옥 특산 짬버섯(멜라루카 버섯) 해산물 전골",
+    "place_ids": [
+      "ChIJfyqPrL2VpzERtUaB6o2c_ZU"
+    ]
+  },
+  {
+    "name_original": "Lẩu ghẹ Hàm Ninh (Ham Ninh Flower Crab Hot Pot)",
+    "name_ko": "함닌 꽃게 해산물 전골",
+    "place_ids": [
+      "ChIJfyqPrL2VpzERtUaB6o2c_ZU"
+    ]
+  },
+  {
+    "name_original": "Tôm sú sốt bơ tỏi (Garlic Butter Black Tiger Prawns)",
+    "name_ko": "블랙타이거 새우 갈릭버터 구이",
+    "place_ids": [
+      "ChIJfyqPrL2VpzERtUaB6o2c_ZU"
+    ]
+  },
+  {
+    "name_original": "Rượu vang Ý & Cocktail Địa Trung Hải",
+    "name_ko": "이탈리아 직수입 와인 및 지중해풍 칵테일",
+    "place_ids": [
+      "ChIJfyqPrL2VpzERtUaB6o2c_ZU"
+    ]
+  },
+  {
+    "name_original": "Ghẹ Hàm Ninh hấp (Steamed Ham Ninh Crab)",
+    "name_ko": "함닌 자연산 꽃게 찜",
+    "place_ids": [
+      "ChIJr-c8ZACVpzER41yqzYEUGAE"
+    ]
+  },
+  {
+    "name_original": "Mực trứng nướng sa tế",
+    "name_ko": "알배기 오징어 사테 구이",
+    "place_ids": [
+      "ChIJr-c8ZACVpzER41yqzYEUGAE"
+    ]
+  },
+  {
+    "name_original": "Ngao 2 còi hấp sả",
+    "name_ko": "대형 가리비/조개 레몬그라스 찜",
+    "place_ids": [
+      "ChIJr-c8ZACVpzER41yqzYEUGAE"
+    ]
+  },
+  {
+    "name_original": "Phin Sữa Đá (Iced Coffee with Condensed Milk)",
+    "name_ko": "카페 쓰어다 (베트남 전통 핀 연유 아이스 커피)",
+    "place_ids": [
+      "ChIJhwN-oSqXpzERgUhhE4tiYRE"
+    ]
+  },
+  {
+    "name_original": "Phin Đen Đá (Iced Black Coffee)",
+    "name_ko": "카페 덴다 (베트남 전통 핀 블랙 아이스 커피)",
+    "place_ids": [
+      "ChIJhwN-oSqXpzERgUhhE4tiYRE"
+    ]
+  },
+  {
+    "name_original": "Bạc Xỉu Đá (White Coffee with Extra Milk)",
+    "name_ko": "박시우 (부드러운 연유 라떼)",
+    "place_ids": [
+      "ChIJhwN-oSqXpzERgUhhE4tiYRE"
+    ]
+  },
+  {
+    "name_original": "Trà Sen Vàng (Golden Lotus Seed Tea)",
+    "name_ko": "짜 센 방 (골든 연꽃씨 밀크티)",
+    "place_ids": [
+      "ChIJhwN-oSqXpzERgUhhE4tiYRE"
+    ]
+  },
+  {
+    "name_original": "Trà Thạch Đào (Peach Jelly Tea)",
+    "name_ko": "복숭아 젤리 아이스티",
+    "place_ids": [
+      "ChIJhwN-oSqXpzERgUhhE4tiYRE"
+    ]
+  },
+  {
+    "name_original": "Freeze Trà Xanh (Green Tea Freeze)",
+    "name_ko": "그린티 프리즈 (녹차 블렌디드 스무디)",
+    "place_ids": [
+      "ChIJhwN-oSqXpzERgUhhE4tiYRE"
+    ]
+  },
+  {
+    "name_original": "Caramel Phin Freeze",
+    "name_ko": "카라멜 핀 프리즈",
+    "place_ids": [
+      "ChIJhwN-oSqXpzERgUhhE4tiYRE"
+    ]
+  },
+  {
+    "name_original": "Bánh Mì Thịt Nướng (Grilled Pork Banh Mi)",
+    "name_ko": "바비큐 돼지고기 반미",
+    "place_ids": [
+      "ChIJhwN-oSqXpzERgUhhE4tiYRE"
+    ]
+  },
+  {
+    "name_original": "Tôm sú sốt cay ngọt (Steamed Sweet & Spicy Prawns)",
+    "name_ko": "매콤달콤 특제 소스 타이거새우 찜 요리",
+    "place_ids": [
+      "ChIJRT9hCe6VpzER9hYA7wlPylM"
+    ]
+  }
+]
