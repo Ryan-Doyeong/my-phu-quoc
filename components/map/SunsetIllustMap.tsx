@@ -87,6 +87,10 @@ const I18N: Record<MapLanguage, {
   noticeText: string
   seeAll: string
   recommendedHeading: string
+  districtListHeading: string
+  venueCountSuffix: string
+  showMore: string
+  showLess: string
   walkPrefix: string
   walkSuffix: string
   walkCarOnly: string
@@ -109,6 +113,10 @@ const I18N: Record<MapLanguage, {
     noticeText: '일러스트 지도의 축척 막대는 참고용이며 실제 거리와 다릅니다',
     seeAll: '전체 보기',
     recommendedHeading: '선셋타운 추천 맛집·바',
+    districtListHeading: '선셋타운 구역별 추천 맛집·바',
+    venueCountSuffix: '곳',
+    showMore: '더 보기',
+    showLess: '접기',
     walkPrefix: '시계탑 도보 ',
     walkSuffix: '분',
     walkCarOnly: '도보 이동 불가 (차량 이용)',
@@ -131,6 +139,10 @@ const I18N: Record<MapLanguage, {
     noticeText: 'The scale bar on the illustration map is for reference only and differs from actual distance',
     seeAll: 'See All',
     recommendedHeading: 'Sunset Town Dining & Bars',
+    districtListHeading: 'Sunset Town Venues by District',
+    venueCountSuffix: 'venues',
+    showMore: 'Show More',
+    showLess: 'Show Less',
     walkPrefix: '',
     walkSuffix: ' min walk from Clock Tower',
     walkCarOnly: 'Vehicles required (outside town)',
@@ -153,6 +165,10 @@ const I18N: Record<MapLanguage, {
     noticeText: '插画地图的比例尺仅供参考，与实际距离有所差异',
     seeAll: '查看全部',
     recommendedHeading: '日落小镇推荐美食·酒吧',
+    districtListHeading: 'Sunset Town Venues by District',
+    venueCountSuffix: 'venues',
+    showMore: 'Show More',
+    showLess: 'Show Less',
     walkPrefix: '距钟楼步行 ',
     walkSuffix: '分钟',
     walkCarOnly: '需乘车前往（小镇外围）',
@@ -175,6 +191,10 @@ const I18N: Record<MapLanguage, {
     noticeText: 'Масштабная линейка на карте носит справочный характер и отличается от фактического расстояния',
     seeAll: 'Показать все',
     recommendedHeading: 'Рестораны и бары Sunset Town',
+    districtListHeading: 'Sunset Town Venues by District',
+    venueCountSuffix: 'venues',
+    showMore: 'Show More',
+    showLess: 'Show Less',
     walkPrefix: '',
     walkSuffix: ' мин пешком от башни',
     walkCarOnly: 'На транспорте (за пределами городка)',
@@ -197,6 +217,10 @@ const I18N: Record<MapLanguage, {
     noticeText: 'イラストマップの縮尺バーは参考用であり、実際の距離とは異なります',
     seeAll: 'すべて表示',
     recommendedHeading: 'サンセットタウンおすすめグルメ・バー',
+    districtListHeading: 'Sunset Town Venues by District',
+    venueCountSuffix: 'venues',
+    showMore: 'Show More',
+    showLess: 'Show Less',
     walkPrefix: '時計塔から徒歩',
     walkSuffix: '分',
     walkCarOnly: '徒歩移動不可（車両利用）',
@@ -219,6 +243,10 @@ const I18N: Record<MapLanguage, {
     noticeText: 'सचित्र नक्शे पर स्केल bar केवल संदर्भ के लिए है और वास्तविक दूरी से भिन्न है',
     seeAll: 'सभी देखें',
     recommendedHeading: 'सनसेट टाउन अनुशंसित भोजन और बार',
+    districtListHeading: 'Sunset Town Venues by District',
+    venueCountSuffix: 'venues',
+    showMore: 'Show More',
+    showLess: 'Show Less',
     walkPrefix: 'घंटाघर से ',
     walkSuffix: ' मिनट पैदल',
     walkCarOnly: 'वाहन आवश्यक (कस्बे के बाहर)',
@@ -286,6 +314,11 @@ export function SunsetIllustMap({
   const [filter, setFilter] = useState<'all' | 'dining' | 'bars'>('all')
   const [activeBlockId, setActiveBlockId] = useState<string | null>(null)
   const [outsideOpen, setOutsideOpen] = useState(false)
+
+  // Ryan 지침: 시계탑에서 가장 가까운 센트럴 구역(CENTRAL_CLOCK)만 기본 열림, 다중 열기 지원
+  const [openBlockIds, setOpenBlockIds] = useState<Set<string>>(() => new Set(['CENTRAL_CLOCK']))
+  // 6곳 초과 구역 페이징(더 보기) 상태 관리
+  const [expandedBlockVenues, setExpandedBlockVenues] = useState<Set<string>>(() => new Set())
 
   const t = I18N[lang]
 
@@ -423,12 +456,34 @@ export function SunsetIllustMap({
     isDragging.current = false
   }
 
-  // Select block handler
+  // 아코디언 열림/닫힘 토글 (다중 열림 지원)
+  const toggleBlock = (blockId: string) => {
+    setOpenBlockIds((prev) => {
+      const next = new Set(prev)
+      if (next.has(blockId)) {
+        next.delete(blockId)
+      } else {
+        next.add(blockId)
+      }
+      return next
+    })
+  }
+
+  // 6곳 초과 시 '더 보기' 토글
+  const toggleShowMore = (blockId: string) => {
+    setExpandedBlockVenues((prev) => {
+      const next = new Set(prev)
+      if (next.has(blockId)) {
+        next.delete(blockId)
+      } else {
+        next.add(blockId)
+      }
+      return next
+    })
+  }
+
+  // Select block handler (지도 핀 클릭 시)
   const handleSelectBlock = (blockId: string) => {
-    if (activeBlockId === blockId) {
-      setActiveBlockId(null)
-      return
-    }
     setActiveBlockId(blockId)
     const block = blocks.find((b) => b.id === blockId)
     if (block) {
@@ -438,6 +493,14 @@ export function SunsetIllustMap({
       setPanX(clamp(targetX, minX, maxX))
       setPanY(clamp(targetY, minY, maxY))
     }
+    // 지시사항: 지도의 구역 핀을 누르면 해당 구역 드랍다운이 열리고 그 헤더 위치로 부드럽게 스크롤
+    setOpenBlockIds((prev) => new Set(prev).add(blockId))
+    setTimeout(() => {
+      const el = document.getElementById(`accordion-block-${blockId}`)
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
+      }
+    }, 120)
   }
 
   // Filtered venues to display in bottom card slider
@@ -608,69 +671,128 @@ export function SunsetIllustMap({
         <span className={styles.noticeText}>{t.noticeText}</span>
       </div>
 
-      {/* Bottom Carousel / Cards Panel */}
+      {/* Bottom Dropdown / Accordion Panel (Ryan 지침: 가로 스크롤 카드 -> 세로 아코디언 전환) */}
       <div className={styles.bottomPanel}>
         <div className={styles.panelHeader}>
           <div className={styles.panelTitle}>
-            📍{' '}
-            {activeBlock
-              ? `${getBlockName(activeBlock, lang)} (${displayedVenues.length})`
-              : `${t.recommendedHeading} (${displayedVenues.length})`}
+            🏛️ {t.districtListHeading}
           </div>
-          {activeBlockId && (
-            <button
-              type="button"
-              className={styles.seeAllBtn}
-              onClick={() => setActiveBlockId(null)}
-            >
-              {t.seeAll}
-            </button>
-          )}
         </div>
 
-        {/* Venue Cards Slider */}
-        <div className={styles.cardsSlider}>
-          {displayedVenues.map((v) => {
-            const isDining = v.cat === 'dining'
-            const isExact = (v.level || '').includes('확실')
-            const levelLabel = isExact ? t.levelExact : t.levelEst
-            const blockForVenue = blocks.find((b) => b.id === v.anchor_key)
-            const blockName = blockForVenue ? getBlockName(blockForVenue, lang) : ''
+        {/* 구역(블록)별 세로 아코디언 목록 */}
+        <div className={styles.districtAccordionList}>
+          {blocks.map((block) => {
+            // 상단 필터(전체/식당/바&펍) 반영
+            const blockVenues = block.venues.filter((v) => filter === 'all' || v.cat === filter)
+            // 지시사항: 업체가 0곳이 된 구역은 숨긴다
+            if (blockVenues.length === 0) return null
+
+            const isOpen = openBlockIds.has(block.id)
+            const isExpanded = expandedBlockVenues.has(block.id)
+            const visibleVenues = isExpanded ? blockVenues : blockVenues.slice(0, 6)
+            const remainingCount = blockVenues.length - 6
+            const isPinActive = activeBlockId === block.id
+            const blockName = getBlockName(block, lang)
 
             return (
-              <Link
-                key={v.slug}
-                href={`/${lang}/business/${v.slug}`}
-                className={styles.venueCard}
+              <section
+                key={block.id}
+                id={`accordion-block-${block.id}`}
+                className={`${styles.districtAccordionItem} ${
+                  isPinActive ? styles.districtAccordionItemActive : ''
+                }`}
               >
-                <div>
-                  <div className={styles.cardTop}>
-                    <div className={styles.cardTitle}>{v.name}</div>
-                    <span
-                      className={`${styles.cardBadge} ${
-                        isDining ? styles.badgeDining : styles.badgeBars
-                      }`}
-                    >
-                      {isDining ? t.diningBadge : t.barsBadge}
+                {/* 구역마다 헤더 한 줄: 구역 이름 + 업체 수 + 펼침 화살표 */}
+                <button
+                  type="button"
+                  id={`accordion-header-${block.id}`}
+                  aria-expanded={isOpen}
+                  aria-controls={`accordion-panel-${block.id}`}
+                  className={`${styles.districtHeaderBtn} ${
+                    isOpen ? styles.districtHeaderBtnOpen : ''
+                  }`}
+                  onClick={() => toggleBlock(block.id)}
+                >
+                  <div className={styles.districtHeaderTitleGroup}>
+                    <span className={styles.districtHeaderPin}>📍</span>
+                    <span className={styles.districtHeaderName}>{blockName}</span>
+                    <span className={styles.districtHeaderBadge}>
+                      {blockVenues.length}{t.venueCountSuffix}
                     </span>
                   </div>
-                  <div className={styles.cardBlockTag}>
-                    🏢 {blockName}
-                  </div>
-                  <div className={styles.cardAddr}>{v.addr || ''}</div>
-                  <div className={styles.cardWalkTime}>{renderWalkText(v)}</div>
-                </div>
-                <div className={styles.cardBottom}>
                   <span
-                    className={`${styles.cardLevelBadge} ${
-                      isExact ? styles.levelExact : styles.levelEst
+                    className={`${styles.districtHeaderArrow} ${
+                      isOpen ? styles.districtHeaderArrowOpen : ''
                     }`}
                   >
-                    {levelLabel}
+                    {isOpen ? '▲' : '▼'}
                   </span>
-                  <span className={styles.cardBtn}>{t.detailBtn}</span>
-                </div>
-              </Link>
+                </button>
+
+                {/* 구역 안 업체 세로 카드 목록 (모바일 390px 한 줄에 하나, 가로 스크롤 완전 금지) */}
+                {isOpen && (
+                  <div
+                    id={`accordion-panel-${block.id}`}
+                    role="region"
+                    aria-labelledby={`accordion-header-${block.id}`}
+                    className={styles.districtBody}
+                  >
+                    <div className={styles.verticalVenuesList}>
+                      {visibleVenues.map((v) => {
+                        const isDining = v.cat === 'dining'
+                        const isExact = (v.level || '').includes('확실')
+                        const levelLabel = isExact ? t.levelExact : t.levelEst
+
+                        return (
+                          <Link
+                            key={v.slug}
+                            href={`/${lang}/business/${v.slug}`}
+                            className={styles.verticalVenueCard}
+                          >
+                            <div className={styles.cardMain}>
+                              <div className={styles.cardTop}>
+                                <div className={styles.cardTitle}>{v.name}</div>
+                                <span
+                                  className={`${styles.cardBadge} ${
+                                    isDining ? styles.badgeDining : styles.badgeBars
+                                  }`}
+                                >
+                                  {isDining ? t.diningBadge : t.barsBadge}
+                                </span>
+                              </div>
+                              {v.addr && <div className={styles.cardAddr}>{v.addr}</div>}
+                              <div className={styles.cardWalkTime}>{renderWalkText(v)}</div>
+                            </div>
+                            <div className={styles.cardBottom}>
+                              <span
+                                className={`${styles.cardLevelBadge} ${
+                                  isExact ? styles.levelExact : styles.levelEst
+                                }`}
+                              >
+                                {levelLabel}
+                              </span>
+                              <span className={styles.cardBtn}>{t.detailBtn}</span>
+                            </div>
+                          </Link>
+                        )
+                      })}
+                    </div>
+
+                    {/* 구역 안 업체가 6곳을 넘으면 "더 보기 (N곳)" / "접기" 버튼 */}
+                    {blockVenues.length > 6 && (
+                      <button
+                        type="button"
+                        className={styles.showMoreBtn}
+                        onClick={() => toggleShowMore(block.id)}
+                      >
+                        {isExpanded
+                          ? `${t.showLess} ▴`
+                          : `${t.showMore} (${remainingCount}${t.venueCountSuffix}) ▾`}
+                      </button>
+                    )}
+                  </div>
+                )}
+              </section>
             )
           })}
         </div>

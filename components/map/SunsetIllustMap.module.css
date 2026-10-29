@@ -430,7 +430,179 @@
   color: #ffffff;
 }
 
-/* Cards Slider */
+/* District Accordions List (Vertical dropdowns) */
+.districtAccordionList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.districtAccordionItem {
+  background: #1e293b;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.districtAccordionItemActive {
+  border-color: #f59e0b !important;
+  box-shadow: 0 0 14px rgba(245, 158, 11, 0.25);
+}
+
+.districtHeaderBtn {
+  width: 100%;
+  min-height: 48px;
+  padding: 12px 14px;
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  text-align: left;
+  color: #f8fafc;
+  transition: background 0.15s ease;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.districtHeaderBtn:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.districtHeaderBtn:focus-visible {
+  outline: 2px solid #f59e0b;
+  outline-offset: -2px;
+}
+
+.districtHeaderBtnOpen {
+  background: rgba(255, 255, 255, 0.02);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.districtHeaderTitleGroup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.districtHeaderPin {
+  font-size: 15px;
+  line-height: 1;
+}
+
+.districtHeaderName {
+  font-size: 14px;
+  font-weight: 800;
+  color: #f1f5f9;
+  letter-spacing: -0.01em;
+}
+
+.districtHeaderBadge {
+  font-size: 11px;
+  font-weight: 700;
+  color: #f59e0b;
+  background: rgba(245, 158, 11, 0.14);
+  padding: 2px 7px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.districtHeaderArrow {
+  font-size: 11px;
+  color: #94a3b8;
+  padding-left: 8px;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.districtHeaderArrowOpen {
+  color: #f59e0b;
+}
+
+/* Accordion Body */
+.districtBody {
+  padding: 12px 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #141f32;
+}
+
+/* Vertical Venues List: One item per row, strictly NO horizontal scroll */
+.verticalVenuesList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.verticalVenueCard {
+  width: 100%;
+  background: #1e293b;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 10px;
+  padding: 11px 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+  box-sizing: border-box;
+}
+
+.verticalVenueCard:hover {
+  border-color: rgba(245, 158, 11, 0.4);
+  background: #24334a;
+}
+
+.verticalVenueCard:focus-visible {
+  outline: 2px solid #f59e0b;
+  outline-offset: -2px;
+}
+
+.cardMain {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* Show More / Show Less Button */
+.showMoreBtn {
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 14px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px dashed rgba(245, 158, 11, 0.35);
+  border-radius: 8px;
+  color: #f59e0b;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+}
+
+.showMoreBtn:hover {
+  background: rgba(245, 158, 11, 0.1);
+  border-color: #f59e0b;
+  color: #fbbf24;
+}
+
+.showMoreBtn:focus-visible {
+  outline: 2px solid #f59e0b;
+  outline-offset: -2px;
+}
+
+/* Cards Slider (legacy fallback) */
 .cardsSlider {
   display: flex;
   gap: 10px;
