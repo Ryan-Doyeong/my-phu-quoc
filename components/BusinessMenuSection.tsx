@@ -7,6 +7,7 @@ import type { Locale } from '@/lib/i18n/config'
 import { enrichDishDescription } from '@/lib/foodKnowledge'
 import menuNamesTranslations from '@/data/i18n/translations/menu_names.json'
 import sectionTitlesTranslations from '@/data/i18n/translations/section_titles.json'
+import menuDescriptionsTranslations from '@/data/i18n/translations/menu_descriptions.json'
 
 interface BusinessMenuSectionProps {
   menuData: BusinessMenuData | null
@@ -352,11 +353,23 @@ export function BusinessMenuSection({
                         item.description_ko || null,
                         item.description_original || null
                       )
-                      const displayDesc = isKo
-                        ? enriched.descKo
-                        : isVi
-                        ? item.description_original || enriched.descEn
-                        : enriched.descEn
+                      let displayDesc: string | null = null
+                      if (isKo) {
+                        displayDesc = enriched.descKo
+                      } else if (isVi) {
+                        displayDesc = item.description_original || enriched.descEn
+                      } else if (locale === 'zh' || locale === 'ru' || locale === 'ja' || locale === 'hi') {
+                        const descEn = enriched.descEn
+                        if (descEn) {
+                          const key = descEn.trim()
+                          const tr = (menuDescriptionsTranslations as Record<string, Record<string, string>>)[key]
+                          displayDesc = tr?.[locale] || descEn
+                        } else {
+                          displayDesc = null
+                        }
+                      } else {
+                        displayDesc = enriched.descEn
+                      }
 
                       return (
                         <li key={iIdx} className="menuItem">
