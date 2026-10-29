@@ -14,9 +14,12 @@ export async function generateMetadata({
 
 export default async function DirectoryPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ category: string }>
+  searchParams?: Promise<{ zone?: string }>
 }) {
   const { category } = await params
-  return renderDirectoryRoute(category, 'en')
+  const resolvedSearchParams = searchParams ? await searchParams : undefined
+  return renderDirectoryRoute(category, 'en', resolvedSearchParams)
 }

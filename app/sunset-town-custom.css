@@ -2048,3 +2048,684 @@
     justify-content: center;
   }
 }
+
+
+/* ==========================================================================
+   Two Zones Architecture Styles (Sunset Town & Khem Beach) — v9 확정 반영
+   ========================================================================== */
+
+/* 1. Home Two Zones Section */
+.twoZonesSection {
+  padding: 36px 20px;
+  background: linear-gradient(180deg, #F9FDFD 0%, #FFFFFF 100%);
+  border-top: 1px solid #D8E7E5;
+  border-bottom: 1px solid #D8E7E5;
+}
+
+.twoZonesSection .sectionHeader {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.hubEyebrow {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 4px 14px;
+  border-radius: 999px;
+  background: #DDF0EF;
+  color: #0B7A8A;
+  margin-bottom: 8px;
+}
+
+.twoZonesSection .sectionHeader h3 {
+  font-size: 26px;
+  font-weight: 800;
+  color: #12333B;
+  letter-spacing: -0.5px;
+  margin-bottom: 6px;
+}
+
+.twoZonesSection .sectionHeader p {
+  font-size: 14px;
+  color: #5D7A80;
+  max-width: 680px;
+  margin: 0 auto;
+  line-height: 1.55;
+}
+
+.dualGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+  margin-bottom: 22px;
+}
+
+.hubCard {
+  background: #ffffff;
+  border: 1px solid #D8E7E5;
+  border-radius: 18px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  transition: all 0.25s ease;
+}
+
+.hubCard.sunset {
+  border-top: 5px solid #C86D2D;
+}
+
+.hubCard.khem {
+  border-top: 5px solid #0B7A8A;
+}
+
+.hubCardImage {
+  height: 190px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hubCardBadge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 5px 12px;
+  border-radius: 999px;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.hubCard.sunset .hubCardBadge {
+  background: #C86D2D;
+}
+
+.hubCard.khem .hubCardBadge {
+  background: #0B7A8A;
+}
+
+.hubCardBody {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.hubCardTitleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 4px;
+}
+
+.hubCardTitleRow h4 {
+  font-size: 21px;
+  font-weight: 800;
+  color: #12333B;
+}
+
+.hubCardTitleRow span {
+  font-size: 12.5px;
+  color: #5D7A80;
+  font-weight: 600;
+}
+
+.hubSubConcept {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.hubCard.sunset .hubSubConcept {
+  color: #9E4F1B;
+}
+
+.hubCard.khem .hubSubConcept {
+  color: #0A4F5C;
+}
+
+.hubCardDesc {
+  font-size: 13.5px;
+  color: #4A6B72;
+  line-height: 1.55;
+  margin-bottom: 14px;
+}
+
+.hubFeatureChips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 18px;
+}
+
+.hubFeatureChips span {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 9px;
+  border-radius: 6px;
+  background: #F3F8F7;
+  border: 1px solid #D8E7E5;
+  color: #12333B;
+}
+
+.hubButton {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border-radius: 12px;
+  font-size: 13.5px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.hubCard.sunset .hubButton {
+  background: #FBEBDD;
+  color: #9E4F1B;
+}
+
+.hubCard.khem .hubButton {
+  background: #DDF0EF;
+  color: #0A4F5C;
+}
+
+.interZoneBridge {
+  background: #ffffff;
+  border: 1px solid #D8E7E5;
+  border-left: 5px solid #3FB8C4;
+  border-radius: 14px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.bridgeLeft {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.bridgeIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: #DDF0EF;
+  color: #0B7A8A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.bridgeText h5 {
+  font-size: 14.5px;
+  font-weight: 800;
+  color: #12333B;
+}
+
+.bridgeText p {
+  font-size: 12.5px;
+  color: #5D7A80;
+  margin-top: 3px;
+}
+
+.bridgeInfoBadge {
+  font-size: 12px;
+  color: #12333B;
+  font-weight: 600;
+  background: #F3F8F7;
+  padding: 8px 12px;
+  border-radius: 8px;
+  white-space: nowrap;
+  border: 1px solid #D8E7E5;
+}
+
+/* 2. Zone Detail Pages */
+.zoneDetailPage {
+  background: #F3F8F7;
+  min-height: 100vh;
+  color: #12333B;
+}
+
+.zoneDetailContainer {
+  max-width: 960px;
+  margin: 32px auto;
+  padding: 0 20px;
+}
+
+.zonePageFrame {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #D8E7E5;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.frameTopBar {
+  background: #12333B;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.frameTopBar code {
+  color: #3FB8C4;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.zoneHeroBanner {
+  position: relative;
+  min-height: 200px;
+  background-size: cover;
+  background-position: center;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #ffffff;
+}
+
+.zoneHeroBanner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(18, 51, 59, 0.25) 0%, rgba(18, 51, 59, 0.88) 100%);
+}
+
+.zoneHeroBanner > * {
+  position: relative;
+  z-index: 1;
+}
+
+.heroTagPill {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  display: inline-block;
+  margin-bottom: 6px;
+  width: fit-content;
+}
+
+.heroTagPill.sunsetTag {
+  background: #C86D2D;
+  color: #fff;
+}
+
+.heroTagPill.khemTag {
+  background: #0B7A8A;
+  color: #fff;
+}
+
+.zoneHeroBanner h1 {
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 4px;
+  color: #ffffff;
+  line-height: 1.25;
+}
+
+.zoneHeroBanner p {
+  font-size: 13.5px;
+  color: #E2E8F0;
+  line-height: 1.45;
+}
+
+.zonePageContent {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.contentSectionTitle {
+  font-size: 14px;
+  font-weight: 800;
+  color: #12333B;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #D8E7E5;
+}
+
+.contentSectionTitle span.badge {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: #5D7A80;
+}
+
+.zoneOverviewText {
+  font-size: 13.5px;
+  color: #4A6B72;
+  line-height: 1.6;
+}
+
+.attractionList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.attrCard {
+  background: #F3F8F7;
+  border: 1px solid #D8E7E5;
+  border-radius: 12px;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.attrLeft {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.attrNum {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid #D8E7E5;
+  color: #12333B;
+  font-size: 11.5px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.attrCard strong {
+  font-size: 13.5px;
+  color: #12333B;
+  display: block;
+}
+
+.attrCard em {
+  font-style: normal;
+  font-size: 11.5px;
+  color: #5D7A80;
+  display: block;
+  margin-top: 1px;
+}
+
+.attrTag {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: #ffffff;
+  border: 1px solid #D8E7E5;
+  color: #12333B;
+  white-space: nowrap;
+}
+
+.categoryGridSmall {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.catBtn {
+  background: #FCFEFD;
+  border: 1px solid #D8E7E5;
+  border-radius: 12px;
+  padding: 12px 8px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: #12333B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.catBtn:hover {
+  background: #F3F8F7;
+  border-color: #0B7A8A;
+}
+
+.catBtn span.icon {
+  font-size: 20px;
+}
+
+.catBtn small {
+  font-size: 11px;
+  color: #5D7A80;
+  font-weight: 600;
+}
+
+.zoneNoteBanner {
+  border-radius: 10px;
+  padding: 11px 14px;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 12px;
+}
+
+.zoneNoteBanner.amberNotice {
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  color: #475569;
+}
+
+.zoneNoteBanner.greenNotice {
+  background: #F0FDF4;
+  border: 1px solid #BBF7D0;
+  color: #166534;
+}
+
+.transitGuideBox {
+  background: #FFFDF9;
+  border: 1px solid #FCD34D;
+  border-left: 5px solid #C86D2D;
+  border-radius: 14px;
+  padding: 14px 18px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.transitGuideBox.oceanBorder {
+  border-color: #D8E7E5;
+  border-left-color: #0B7A8A;
+  background: #EEF8F8;
+}
+
+.transitTitle {
+  font-size: 13.5px;
+  font-weight: 800;
+  color: #12333B;
+  margin-bottom: 6px;
+}
+
+.transitList {
+  margin-top: 4px;
+  padding-left: 18px;
+  color: #334155;
+}
+
+.transitList li {
+  margin-bottom: 3px;
+}
+
+.otherZoneLink {
+  display: inline-block;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #0B7A8A;
+  text-decoration: none;
+  margin-top: 6px;
+}
+
+/* 3. Mobile Responsiveness (360px & 390px - No right-overflow or clipping) */
+@media (max-width: 768px) {
+  .twoZonesSection {
+    padding: 20px 14px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .twoZonesSection .sectionHeader h3 {
+    font-size: 18px;
+  }
+  .twoZonesSection .sectionHeader p {
+    font-size: 12.5px;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+  .dualGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .hubCard {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .hubCardImage {
+    height: 150px;
+    width: 100%;
+  }
+  .hubCardBody {
+    padding: 16px 14px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .hubCardTitleRow {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    margin-bottom: 6px;
+  }
+  .hubCardTitleRow h4 {
+    font-size: 17px;
+    line-height: 1.3;
+    word-break: keep-all;
+  }
+  .hubCardTitleRow span {
+    font-size: 12px;
+    word-break: keep-all;
+  }
+  .hubSubConcept {
+    font-size: 12.5px;
+    line-height: 1.4;
+    word-break: keep-all;
+    margin-bottom: 8px;
+  }
+  .hubCardDesc {
+    font-size: 12.5px;
+    line-height: 1.5;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    margin-bottom: 12px;
+  }
+  .hubFeatureChips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 14px;
+  }
+  .hubFeatureChips span {
+    font-size: 11.5px;
+    padding: 4px 8px;
+    word-break: keep-all;
+  }
+  .hubButton {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 11px 14px;
+    font-size: 13px;
+  }
+  .interZoneBridge {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px 14px;
+    gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .bridgeLeft {
+    align-items: flex-start;
+    width: 100%;
+  }
+  .bridgeInfoBadge {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+  }
+
+  /* Zone detail page mobile */
+  .zoneDetailContainer {
+    margin: 16px auto;
+    padding: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .zonePageFrame {
+    border-radius: 14px;
+  }
+  .zoneHeroBanner {
+    min-height: 160px;
+    padding: 18px 14px;
+  }
+  .zoneHeroBanner h1 {
+    font-size: 20px;
+  }
+  .zoneHeroBanner p {
+    font-size: 12.5px;
+  }
+  .zonePageContent {
+    padding: 16px 14px;
+    gap: 18px;
+  }
+  .categoryGridSmall {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  .attrCard {
+    padding: 9px 10px;
+  }
+  .attrCard strong {
+    font-size: 12.5px;
+  }
+  .attrCard em {
+    font-size: 11px;
+  }
+  .attrTag {
+    font-size: 10.5px;
+  }
+}

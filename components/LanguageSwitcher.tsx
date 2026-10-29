@@ -18,6 +18,16 @@ function rootClass(variant: Variant) {
   return `langSwitcher ${variant === 'hero' ? 'langSwitcherHero' : 'langSwitcherLight'}`
 }
 
+const SELECT_LANGUAGE_LABEL: Record<Locale, (cur: string) => string> = {
+  ko: (c) => `언어 선택 (현재: ${c})`,
+  en: (c) => `Select language (Current: ${c})`,
+  vi: (c) => `Chọn ngôn ngữ (Hiện tại: ${c})`,
+  zh: (c) => `选择语言（当前：${c}）`,
+  ru: (c) => `Выбор языка (Текущий: ${c})`,
+  ja: (c) => `言語を選択（現在: ${c}）`,
+  hi: (c) => `भाषा चुनें (वर्तमान: ${c})`,
+}
+
 function LanguageSwitcherInner({ locale, variant = 'light' }: { locale: Locale; variant?: Variant }) {
   const pathname = usePathname() || '/'
   const searchParams = useSearchParams()
@@ -66,7 +76,7 @@ function LanguageSwitcherInner({ locale, variant = 'light' }: { locale: Locale; 
           onClick={() => setIsOpen(!isOpen)}
           aria-expanded={isOpen}
           aria-haspopup="listbox"
-          aria-label={`언어 선택 (현재: ${currentNativeName})`}
+          aria-label={(SELECT_LANGUAGE_LABEL[locale] || SELECT_LANGUAGE_LABEL.en)(currentNativeName)}
         >
           <span className="langGlobe" aria-hidden="true">🌐</span>
           <span className="langCurrentName">{currentNativeName}</span>

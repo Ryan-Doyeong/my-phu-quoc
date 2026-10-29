@@ -1,0 +1,98 @@
+{
+  "businesses_registry": [
+    {
+      "id": "local-sunset-139",
+      "public_name": "라군 식당",
+      "slug": "sunset-place-4",
+      "category": "dining",
+      "subcategory": "western",
+      "google_place_id": "ChIJmwciuL6VpzER3ZIjhoDL17I",
+      "description_en": "라군 식당 is a Mediterranean & Western restaurant located in Sunset Town, Phu Quoc.",
+      "description_ko": "웨스턴 다이닝.",
+      "address": "22J4+47P, Phú Quốc, An Giang, Vietnam",
+      "google_maps_name": "라군 식당",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJmwciuL6VpzER3ZIjhoDL17I",
+      "phone": "+84 944 112 655",
+      "website_url": null,
+      "instagram_url": null,
+      "status": "published",
+      "verification_status": "ai_checked",
+      "verification_note": "Master DB 수집 2026-10, 현장 미확인",
+      "google_rating": 4.2,
+      "google_review_count": 50,
+      "gallery_urls": [],
+      "tags": [
+        "western",
+        "Sunset Town"
+      ],
+      "_deleted_snippet": "• [대표 메뉴/가격] 화덕피자, 파스타, 스테이크, 그릴 바비큐, 와인 & 맥주 | 140,000~420,000 VND",
+      "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
+      "_deleted_claims": "(해당 없음)"
+    },
+    {
+      "id": "local-sunset-240",
+      "public_name": "코코넛 스파",
+      "slug": "sunset-place-8",
+      "category": "wellness",
+      "subcategory": "spa",
+      "google_place_id": "ChIJ-8ORFQCXpzERAjwPCzq_HAQ",
+      "description_en": "코코넛 스파 is a spa & massage center located in Sunset Town, Phu Quoc.",
+      "description_ko": "전신·발 마사지 및 네일 케어.",
+      "address": "22G5+V5C, Phú Quốc, An Giang, Vietnam",
+      "google_maps_name": "코코넛 스파",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-8ORFQCXpzERAjwPCzq_HAQ",
+      "phone": null,
+      "website_url": null,
+      "instagram_url": null,
+      "status": "published",
+      "verification_status": "ai_checked",
+      "verification_note": "Master DB 수집 2026-10, 현장 미확인",
+      "google_rating": 4.9,
+      "google_review_count": 50,
+      "gallery_urls": [],
+      "tags": [
+        "spa",
+        "Sunset Town"
+      ],
+      "_deleted_snippet": "• [코스 가격대] 발 마사지 60분 300,000~450,000 VND | 아로마/타이 전신 마사지 60분 450,000~750,000 VND / 90분 650,000~950,000 VND",
+      "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
+      "_deleted_claims": "(해당 없음)"
+    }
+  ],
+  "zone_assignments": {
+    "local-sunset-139": {
+      "place_id": "local-sunset-139",
+      "google_place_id": "ChIJmwciuL6VpzER3ZIjhoDL17I",
+      "name": "라군 식당",
+      "zone": "sunset-town",
+      "public_category": "dining",
+      "service_areas": [
+        "sunset-town"
+      ]
+    },
+    "local-sunset-240": {
+      "place_id": "local-sunset-240",
+      "google_place_id": "ChIJ-8ORFQCXpzERAjwPCzq_HAQ",
+      "name": "코코넛 스파",
+      "zone": "sunset-town",
+      "public_category": "wellness",
+      "service_areas": [
+        "sunset-town"
+      ]
+    }
+  },
+  "biz_desc": {
+    "sunset-place-4": {
+      "zh": "Lagoon Restaurant 是位于富国岛日落小镇的地中海及西式餐厅。",
+      "ru": "Lagoon Restaurant — ресторан средиземноморской и западной кухни в Сансет-Тауне на Фукуоке.",
+      "ja": "Lagoon Restaurantは、フーコックのサンセットタウンに位置する地中海＆ウェスタン料理のレストランです。",
+      "hi": "Lagoon Restaurant फु क्वोक के सनसेट टाउन में स्थित भूमध्यसागरीय और पश्चिमी शैली के भोजन का रेस्तराँ है।"
+    },
+    "sunset-place-8": {
+      "zh": "Coconut Spa 位于富国岛日落小镇，提供全身及足部按摩和美甲护理。",
+      "ru": "Coconut Spa — это спа и массажный центр в Сансет-Тауне на Фукуоке, предлагающий массаж всего тела, ног и ногтевой сервис.",
+      "ja": "Coconut Spaはフーコック島サンセットタウンに位置し、全身・フットマッサージやネイルケアを提供しています。",
+      "hi": "Coconut Spa फु क्वोक के सनसेट टाउन में स्थित एक स्पा और मसाज केंद्र है, जहाँ फुल बॉडी व फुट मसाज और नेल केयर उपलब्ध है।"
+    }
+  }
+}

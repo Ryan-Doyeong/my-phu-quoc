@@ -141,7 +141,7 @@ export async function generateArticleMetadata(
 
   const x = localizeStory(raw, locale)
   const barePath = `${x.content_type === 'event' ? '/events' : '/news'}/${slug}`
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://myphuquoc.net'
 
   // Only include locales that have an actual translation in hreflang!
   const availableLocales = x.availableLocales
@@ -210,7 +210,7 @@ export async function renderArticleRoute(
   if (section !== expectedSection) redirect(localePath(locale, `/${expectedSection}/${slug}`))
   const keyPoints = Array.isArray(x.key_points) ? x.key_points : []
   const tags = Array.isArray(x.tags) ? x.tags : []
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://myphuquoc.net'
   const articleUrl = localeUrl(locale, `/${expectedSection}/${slug}`)
   const isUntranslatedFallback = x.isUntranslatedFallback
   const isEvent = x.content_type === 'event'
@@ -506,7 +506,7 @@ export async function renderArticleRoute(
           </section>
         )}
         {x.callout && <aside className="articleCallout">{x.callout}</aside>}
-        <ArticleBody body={x.body} />
+        <ArticleBody body={x.body} locale={locale} />
         {Array.isArray(x.gallery_urls) && x.gallery_urls.length > 0 && (
           <div className="articleGallery">
             {x.gallery_urls.map((p: string, i: number) => (

@@ -10,5 +10,5 @@ if (!SUPABASE_URL || !SUPABASE_PUBLISHABLE_KEY) {
   throw new Error("Missing NEXT_PUBLIC_SUPABASE_URL or NEXT_PUBLIC_SUPABASE_ANON_KEY in environment variables. Do not fallback to production keys.");
 }
 
-// My Phu Quoc: domain not decided yet — set NEXT_PUBLIC_SITE_URL in .env.local / Hostinger. Local fallback only.
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+// My Phu Quoc: base production domain is https://myphuquoc.net
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://myphuquoc.net';
