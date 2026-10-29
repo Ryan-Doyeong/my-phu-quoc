@@ -209,7 +209,10 @@
 
 @media (min-width: 1024px) {
   .mapViewport {
-    height: 600px;
+    /* PC 1024px 이상: 화면 높이의 약 80~85%(최소 600px, 최대 900px)로 확대하여 세로 지도 조망권 확보 */
+    height: clamp(600px, 82vh, 900px);
+    min-height: 600px;
+    max-height: 900px;
   }
 }
 
