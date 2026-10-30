@@ -214,7 +214,8 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
     Boolean(menuData)
 
   const foodGuide = isDiningOrFood ? getFoodGuideForBusiness(b, menuData) : null
-  const categoryGuide = !isDiningOrFood ? getKnowledgeGuideForBusiness(b, menuData) : null
+  const isKhem = b.zone === 'khem-beach' || (b.id && String(b.id).startsWith('khem-'))
+  const categoryGuide = !isDiningOrFood && !isKhem ? getKnowledgeGuideForBusiness(b, menuData) : null
   const reviewAnalysis = analyzeGoogleReviews(b, locale)
 
   const jsonLd: any = {
@@ -348,31 +349,17 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
             return (
               <div className="galleryContainer">
                 <div className="photoGallery">
-                  {b.gallery_urls.slice(0, 8).map((p: string, i: number) => {
-                    const credit = b.image_credits?.[i]
-                    return (
-                      <div key={i} className={i === 0 ? 'galleryTile main' : 'galleryTile'}>
-                        <img
-                          src={imageUrl(p, i === 0 ? 1400 : 760, i === 0 ? 76 : 70)}
-                          alt={`${businessDisplayName} image ${i + 1}`}
-                          loading={i === 0 ? 'eager' : 'lazy'}
-                          decoding="async"
-                        />
-                        {badgeText && <span>{badgeText}</span>}
-                        {credit?.credit_text && (
-                          <div className="tileCreditOverlay">
-                            {credit.source_page_url && credit.source_page_url !== '미확인' ? (
-                              <a href={credit.source_page_url} target="_blank" rel="noopener noreferrer">
-                                {credit.credit_text}
-                              </a>
-                            ) : (
-                              <span>{credit.credit_text}</span>
-                            )}
-                          </div>
-                        )}
-                      </div>
-                    )
-                  })}
+                  {b.gallery_urls.slice(0, 8).map((p: string, i: number) => (
+                    <div key={i} className={i === 0 ? 'galleryTile main' : 'galleryTile'}>
+                      <img
+                        src={imageUrl(p, i === 0 ? 1400 : 760, i === 0 ? 76 : 70)}
+                        alt={`${businessDisplayName} image ${i + 1}`}
+                        loading={i === 0 ? 'eager' : 'lazy'}
+                        decoding="async"
+                      />
+                      {badgeText && <span>{badgeText}</span>}
+                    </div>
+                  ))}
                 </div>
                 {hasCredits && (
                   <div className="galleryCreditsFooter">
@@ -389,28 +376,35 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                         ? 'फोटो स्रोत:'
                         : locale === 'vi'
                         ? 'Nguồn ảnh:'
-                        : 'Photo Source:'}
+                        : 'Photo source:'}
                     </span>{' '}
                     {(() => {
                       const seen = new Set<string>()
+                      const formatCredit = (raw: string) => {
+                        return (raw || '').replace(/^Image:\s*/i, '').trim()
+                      }
                       const uniqueCredits = (b.image_credits as any[]).filter((c) => {
-                        if (!c?.credit_text) return false
-                        if (seen.has(c.credit_text)) return false
-                        seen.add(c.credit_text)
+                        const cleaned = formatCredit(c?.credit_text)
+                        if (!cleaned) return false
+                        if (seen.has(cleaned)) return false
+                        seen.add(cleaned)
                         return true
                       })
-                      return uniqueCredits.map((c: any, ci: number) => (
-                        <span key={ci} className="galleryCreditItem">
-                          {c.source_page_url && c.source_page_url !== '미확인' ? (
-                            <a href={c.source_page_url} target="_blank" rel="noopener noreferrer">
-                              {c.credit_text}
-                            </a>
-                          ) : (
-                            <span>{c.credit_text}</span>
-                          )}
-                          {ci < uniqueCredits.length - 1 ? ' · ' : ''}
-                        </span>
-                      ))
+                      return uniqueCredits.map((c: any, ci: number) => {
+                        const displayText = formatCredit(c.credit_text)
+                        return (
+                          <span key={ci} className="galleryCreditItem">
+                            {c.source_page_url && c.source_page_url !== '미확인' ? (
+                              <a href={c.source_page_url} target="_blank" rel="noopener noreferrer">
+                                {displayText}
+                              </a>
+                            ) : (
+                              <span>{displayText}</span>
+                            )}
+                            {ci < uniqueCredits.length - 1 ? ' · ' : ''}
+                          </span>
+                        )
+                      })
                     })()}
                   </div>
                 )}
@@ -489,9 +483,16 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
               <span>{formatLocalizedAddress(b.address, locale)}</span>
             </div>
             <div className="tagList businessTags">
-              {(b.tags || []).map((x: string) => (
-                <span key={x}>{translateTerm(x, locale)}</span>
-              ))}
+              {(() => {
+                const seen = new Set<string>()
+                const tagsToRender = (b.tags || []).map((x: string) => translateTerm(x, locale)).filter((t: string) => {
+                  if (!t) return false
+                  if (seen.has(t)) return false
+                  seen.add(t)
+                  return true
+                })
+                return tagsToRender.map((t: string) => <span key={t}>{t}</span>)
+              })()}
             </div>
           </div>
           <SocialIcons
@@ -577,17 +578,40 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
               {(() => {
                 const isKo = locale === 'ko'
                 const rawFacilities = !isKo && b.facilities_en ? b.facilities_en : b.facilities
-                if (!rawFacilities) return null
+                if (!rawFacilities || rawFacilities === '미확인') return null
+
+                const KOREAN_FACILITY_KEYS: Record<string, string> = {
+                  accommodations: '객실',
+                  pools: '수영장',
+                  dining_and_bars: '식당·바',
+                  spa_and_wellness: '스파·웰니스',
+                  fitness_and_activities: '피트니스·액티비티',
+                  beach_facilities: '해변 시설',
+                  beach_access: '해변 접근성',
+                  transport_and_shuttle: '교통·셔틀',
+                  notices_and_status: '공지·운영 상태',
+                  equipment: '장비 대여',
+                }
 
                 if (typeof rawFacilities === 'object' && Object.keys(rawFacilities).length > 0) {
+                  const validEntries = Object.entries(rawFacilities).filter(([, fv]: [string, any]) => {
+                    if (!fv || fv === '미확인') return false
+                    if (typeof fv === 'object' && fv !== null && fv.detail === '미확인') return false
+                    return true
+                  })
+
+                  if (validEntries.length === 0) return null
+
                   return (
                     <div className="facilitiesSection">
                       <h3>{isKo ? '주요 시설 및 편의정보' : 'Key Facilities & Services'}</h3>
                       <div className="facilitiesCardList">
-                        {Object.entries(rawFacilities).map(([fk, fv]: [string, any]) => {
-                          const fTitle = fk
-                            .replace(/_/g, ' ')
-                            .replace(/\b\w/g, (c) => c.toUpperCase())
+                        {validEntries.map(([fk, fv]: [string, any]) => {
+                          const fTitle = isKo
+                            ? (KOREAN_FACILITY_KEYS[fk] || fk.replace(/_/g, ' '))
+                            : fk
+                                .replace(/_/g, ' ')
+                                .replace(/\b\w/g, (c) => c.toUpperCase())
                           const fText =
                             typeof fv === 'object' && fv !== null
                               ? fv.detail || JSON.stringify(fv)
@@ -616,7 +640,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                   )
                 }
 
-                if (typeof rawFacilities === 'string') {
+                if (typeof rawFacilities === 'string' && rawFacilities.trim() !== '미확인') {
                   return (
                     <div className="facilitiesSection">
                       <h3>{isKo ? '편의시설' : 'Facilities'}</h3>
