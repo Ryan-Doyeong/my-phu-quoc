@@ -6,56 +6,277 @@
     "slug": "jw-marriott-phu-quoc-emerald-bay",
     "category": "hotels",
     "subcategory": "resort",
-    "address": "Bãi Khem, An Thới, Phú Quốc, An Giang",
-    "description_en": "JW 메리어트 푸꾸옥 에메랄드 베이 리조트 & 스파 located at Khem Beach, Phu Quoc.",
-    "description_ko": "푸꾸옥 켐비치에 위치한 JW 메리어트 푸꾸옥 에메랄드 베이 리조트 & 스파.",
+    "address": "Khem Beach, An Thới, Phú Quốc, An Giang 922280, Vietnam",
     "google_maps_name": "JW Marriott Phu Quoc Emerald Bay Resort & Spa",
-    "google_maps_url": null,
-    "phone": null,
-    "website_url": null,
-    "instagram_url": null,
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJLZPWxLiWpzERwrkgfIa1P8I",
+    "place_id": "ChIJLZPWxLiWpzERwrkgfIa1P8I",
+    "lat": 10.0349266,
+    "lng": 104.0322303,
+    "phone": "+84 297 3779 999",
+    "website_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/overview/",
+    "hours": "24시간 운영 (체크인 15:00 / 체크아웃 12:00)",
+    "google_rating": 4.7,
+    "google_review_count": 3543,
+    "rating_check_date": "2026-10-30",
     "status": "published",
     "verification_status": "verified",
-    "verification_note": "켐비치 해변 직접 위치한 대형 리조트",
-    "google_rating": null,
-    "google_review_count": null,
+    "description_ko": "바이켐 해변에 위치한 5성급 리조트. 가상 대학 '라마르크 대학교(Lamarck University)'를 콘셉트로 디자인되었으며, 전용 해변, 3개 수영장, 레스토랑, 스파 등의 편의시설을 갖추고 있습니다.",
+    "description_en": "A 5-star beachfront luxury resort on Bai Khem designed under the mythical Lamarck University concept, featuring private beach frontage, 3 outdoor pools, dining venues, and a luxury spa.",
+    "facilities": {
+      "accommodations": {
+        "detail": "공식 사이트 기준 총 231개 객실, 스위트, 빌라",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/rooms/"
+      },
+      "pools": {
+        "detail": "3개 야외 수영장: Shell Pool(조개 형태 인피니티 풀), Sun Pool, Sand Pool",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+      },
+      "dining_and_bars": {
+        "detail": "Pink Pearl(프렌치 파인다이닝), Tempus Fugit(올데이 다이닝), Red Rum(해변 그릴), French & Co.(페이스트리 & 카페), Department of Chemistry Bar(칵테일 바)",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/"
+      },
+      "spa_and_wellness": {
+        "detail": "Chanterelle - Spa by JW (트리트먼트 룸, 사우나, 스팀룸 구비)",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+      },
+      "fitness_and_activities": {
+        "detail": "피트니스 센터, 요가, 러닝 트랙, 리조트 액티비티 프로그램",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+      },
+      "beach_facilities": {
+        "detail": "바이켐 전용 프라이빗 비치 및 수상 레저(카약, SUP) 장비 구비",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+      },
+      "transport_and_shuttle": {
+        "detail": "공항 셔틀 서비스 (사전 예약 유료 안내)",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/overview/"
+      },
+      "notices_and_status": {
+        "detail": "전 시설 정상 운영 중 (공식 공지된 휴장 시설 없음)",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/overview/"
+      }
+    },
     "gallery_urls": [
-      "/zones/khem-beach-hero.webp"
+      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg",
+      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-guestroom.jpg",
+      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-pink-pearl.jpg",
+      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-chanterelle-spa.jpg"
     ],
+    "source_urls": [
+      "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/overview/",
+      "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/rooms/",
+      "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/",
+      "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/",
+      "https://www.google.com/maps/place/?q=place_id:ChIJLZPWxLiWpzERwrkgfIa1P8I"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg",
+        "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+      },
+      {
+        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-guestroom.jpg",
+        "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/rooms/"
+      },
+      {
+        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-pink-pearl.jpg",
+        "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/"
+      },
+      {
+        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-chanterelle-spa.jpg",
+        "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+      }
+    ],
+    "internal_notes": "객실 수: 공식 사이트 기준 231개. 일부 외부 OTA 및 블로그에 234실 또는 244실로 표기되어 있으나 공식 수치 231실 적용.",
+    "google_place_id": "ChIJLZPWxLiWpzERwrkgfIa1P8I",
     "tags": [
       "Khem Beach",
-      "hotels"
+      "hotels",
+      "resort"
     ],
-    "zone": "khem-beach"
+    "facilities_en": {
+      "accommodations": {
+        "detail": "231 lavish rooms, suites, and villas (official resort count)",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/rooms/"
+      },
+      "pools": {
+        "detail": "3 outdoor pools: Shell Pool (seashell-shaped infinity pool), Sun Pool, and Sand Pool",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+      },
+      "dining_and_bars": {
+        "detail": "Pink Pearl (fine dining), Tempus Fugit (all-day dining), Red Rum (beach grill), French & Co. (pastry & cafe), Department of Chemistry Bar (cocktail bar)",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/"
+      },
+      "spa_and_wellness": {
+        "detail": "Chanterelle - Spa by JW (private treatment suites, sauna, steam rooms)",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+      },
+      "fitness_and_activities": {
+        "detail": "Fitness center, yoga pavilion, outdoor running track, resort daily activities",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+      },
+      "beach_facilities": {
+        "detail": "Private white sand beachfront on Bai Khem with water sports gear (kayaks, SUP boards)",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+      },
+      "transport_and_shuttle": {
+        "detail": "Airport shuttle service (advance reservation required)",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/overview/"
+      },
+      "notices_and_status": {
+        "detail": "All resort facilities fully operational",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/overview/"
+      }
+    },
+    "internal_verified": {
+      "address_raw": "Khem Beach, An Thới, Phú Quốc, Kiên Giang 922280, Vietnam"
+    }
   },
   {
     "id": "khem-draft-002",
     "public_name": "프리미어 레지던스 푸꾸옥 에메랄드 베이",
-    "name_local": "Premier Residences Phu Quoc Emerald Bay",
+    "name_local": "Premier Residences Phu Quoc Emerald Bay Managed by Accor",
     "slug": "premier-residences-phu-quoc-emerald-bay",
     "category": "hotels",
     "subcategory": "resort",
-    "address": "Bãi Khem, An Thới, Phú Quốc, An Giang",
-    "description_en": "프리미어 레지던스 푸꾸옥 에메랄드 베이 located at Khem Beach, Phu Quoc.",
-    "description_ko": "푸꾸옥 켐비치에 위치한 프리미어 레지던스 푸꾸옥 에메랄드 베이.",
-    "google_maps_name": "Premier Residences Phu Quoc Emerald Bay",
-    "google_maps_url": null,
-    "phone": null,
-    "website_url": null,
-    "instagram_url": null,
+    "address": "Khem Beach, An Thới, Phú Quốc, An Giang 920000, Vietnam",
+    "google_maps_name": "Premier Residences Phu Quoc Emerald Bay Managed by Accor",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJn6kim_SXpzERd6rlRMQmpZc",
+    "place_id": "ChIJn6kim_SXpzERd6rlRMQmpZc",
+    "lat": 10.0353026,
+    "lng": 104.0274945,
+    "phone": "+84 297 392 7777",
+    "website_url": "https://premierresidencesphuquoc.com/",
+    "hours": "24시간 운영 (체크인 15:00 / 체크아웃 12:00)",
+    "google_rating": 4.8,
+    "google_review_count": 10253,
+    "rating_check_date": "2026-10-30",
     "status": "published",
     "verification_status": "verified",
-    "verification_note": "아코르(Accor) 운영 켐비치 해변 리조트",
-    "google_rating": null,
-    "google_review_count": null,
+    "description_ko": "바이켐 해변에 위치한 아코르(Accor) 계열의 5성급 콘도텔형 리조트. 총 629개 유닛의 객실, 스위트, 아파트먼트와 5,000㎡ 규모의 다단식 야외 수영장, 스파, 레스토랑을 운영합니다.",
+    "description_en": "A 5-star beachfront resort managed by Accor on Bai Khem, offering 629 modern units including rooms, suites, and apartments, along with a multi-level 5,000 sqm cascade outdoor pool.",
+    "facilities": {
+      "accommodations": {
+        "detail": "공식 사이트 기준 총 629개 유닛",
+        "source_url": "https://premierresidencesphuquoc.com/"
+      },
+      "pools": {
+        "detail": "5,000㎡ 규모의 계단식 야외 수영장 (Zone 1~6)",
+        "source_url": "https://premierresidencesphuquoc.com/"
+      },
+      "dining_and_bars": {
+        "detail": "Mercato Restaurant(뷔페), Clubhouse Restaurant(해변 다이닝), Pool Bar(풀 바), Herring Bar(로비 바), Playground Social Hub(라운지)",
+        "source_url": "https://premierresidencesphuquoc.com/"
+      },
+      "spa_and_wellness": {
+        "detail": "Emerald Spa (트리트먼트 룸, 사우나), 피트니스 센터",
+        "source_url": "https://premierresidencesphuquoc.com/emerald-spa-recreation/emerald-spa/"
+      },
+      "fitness_and_activities": {
+        "detail": "Kids Club(어린이 놀이터), Foam Pool Party(풀사이드 폼 파티), 비치 액티비티",
+        "source_url": "https://premierresidencesphuquoc.com/emerald-spa-recreation/upcoming-activities/"
+      },
+      "beach_facilities": {
+        "detail": "바이켐 해변 직결, 해변 액티비티(카약, SUP 패들보드 공식 운영 확인)",
+        "source_url": "https://premierresidencesphuquoc.com/emerald-spa-recreation/fitness-recreation/"
+      },
+      "transport_and_shuttle": {
+        "detail": "선셋타운(Sunset Town) 왕복 무료 셔틀버스 운행 (Bus to Sunset Town)",
+        "source_url": "https://premierresidencesphuquoc.com/discover-phu-quoc/bus-to-sunset-town/"
+      },
+      "notices_and_status": {
+        "detail": "공식 유지보수 공지: 2026년 9월 23일부터 워터 슬라이드 철거 및 수영장 Zone 1, 2, 3 유지보수로 일시 폐쇄, 수영장 Zone 4, 5, 6은 정상 운영 중 (일부 OTA의 Recreation 이용 불가 표기는 본 공사 내용을 의미함)",
+        "source_url": "https://premierresidencesphuquoc.com/"
+      }
+    },
     "gallery_urls": [
-      "/zones/khem-beach-hero.webp"
+      "/zones/khem-beach/images/premier-residences-phu-quoc-emerald-bay/premier-residences-overview.jpg",
+      "/zones/khem-beach/images/premier-residences-phu-quoc-emerald-bay/premier-residences-apartment-pool.jpg",
+      "/zones/khem-beach/images/premier-residences-phu-quoc-emerald-bay/premier-residences-interior.jpg",
+      "/zones/khem-beach/images/premier-residences-phu-quoc-emerald-bay/premier-residences-emerald-spa.jpg"
     ],
+    "source_urls": [
+      "https://premierresidencesphuquoc.com/",
+      "https://premierresidencesphuquoc.com/ko/",
+      "https://premierresidencesphuquoc.com/emerald-spa-recreation/emerald-spa/",
+      "https://premierresidencesphuquoc.com/emerald-spa-recreation/fitness-recreation/",
+      "https://premierresidencesphuquoc.com/discover-phu-quoc/bus-to-sunset-town/",
+      "https://www.google.com/maps/place/?q=place_id:ChIJn6kim_SXpzERd6rlRMQmpZc"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach/images/premier-residences-phu-quoc-emerald-bay/premier-residences-overview.jpg",
+        "credit_text": "Image: Premier Residences Phu Quoc Emerald Bay (premierresidencesphuquoc.com)",
+        "source_page_url": "https://premierresidencesphuquoc.com/"
+      },
+      {
+        "file": "/zones/khem-beach/images/premier-residences-phu-quoc-emerald-bay/premier-residences-apartment-pool.jpg",
+        "credit_text": "Image: Premier Residences Phu Quoc Emerald Bay (premierresidencesphuquoc.com)",
+        "source_page_url": "https://premierresidencesphuquoc.com/"
+      },
+      {
+        "file": "/zones/khem-beach/images/premier-residences-phu-quoc-emerald-bay/premier-residences-interior.jpg",
+        "credit_text": "Image: Premier Residences Phu Quoc Emerald Bay (premierresidencesphuquoc.com)",
+        "source_page_url": "https://premierresidencesphuquoc.com/"
+      },
+      {
+        "file": "/zones/khem-beach/images/premier-residences-phu-quoc-emerald-bay/premier-residences-emerald-spa.jpg",
+        "credit_text": "Image: Premier Residences Phu Quoc Emerald Bay (premierresidencesphuquoc.com)",
+        "source_page_url": "https://premierresidencesphuquoc.com/emerald-spa-recreation/emerald-spa/"
+      }
+    ],
+    "internal_notes": "객실 수: 공식 사이트 기준 총 629개 유닛. 일부 타 출처에 745실 또는 752실 표기 불일치 존재하나 공식 공시 629실 적용.",
+    "google_place_id": "ChIJn6kim_SXpzERd6rlRMQmpZc",
     "tags": [
       "Khem Beach",
-      "hotels"
+      "hotels",
+      "resort"
     ],
-    "zone": "khem-beach"
+    "facilities_en": {
+      "accommodations": {
+        "detail": "629 units including tower apartments, penthouses, and private pool suites",
+        "source_url": "https://premierresidencesphuquoc.com/"
+      },
+      "pools": {
+        "detail": "5,000 sqm multi-level outdoor cascading swimming pool (Zones 1-6)",
+        "source_url": "https://premierresidencesphuquoc.com/"
+      },
+      "dining_and_bars": {
+        "detail": "Mercato Restaurant (buffet), Clubhouse Restaurant (beachfront dining), Pool Bar, Herring Bar (lobby bar), Playground Social Hub",
+        "source_url": "https://premierresidencesphuquoc.com/"
+      },
+      "spa_and_wellness": {
+        "detail": "Emerald Spa (treatment suites, sauna) and fitness center",
+        "source_url": "https://premierresidencesphuquoc.com/emerald-spa-recreation/emerald-spa/"
+      },
+      "fitness_and_activities": {
+        "detail": "Kids Club, Foam Pool Party, beach and recreational activities",
+        "source_url": "https://premierresidencesphuquoc.com/emerald-spa-recreation/upcoming-activities/"
+      },
+      "beach_facilities": {
+        "detail": "Direct access to Bai Khem beach with water sports (kayaking, SUP paddleboarding)",
+        "source_url": "https://premierresidencesphuquoc.com/emerald-spa-recreation/fitness-recreation/"
+      },
+      "transport_and_shuttle": {
+        "detail": "Complimentary roundtrip shuttle bus to Sunset Town (Bus to Sunset Town)",
+        "source_url": "https://premierresidencesphuquoc.com/discover-phu-quoc/bus-to-sunset-town/"
+      },
+      "notices_and_status": {
+        "detail": "Pool Zones 4, 5, 6 and beach recreation operational; periodic maintenance on selected zones",
+        "source_url": "https://premierresidencesphuquoc.com/"
+      }
+    },
+    "internal_verified": {
+      "address_raw": "Khem Beach, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam"
+    }
   },
   {
     "id": "khem-draft-003",
@@ -64,27 +285,138 @@
     "slug": "new-world-phu-quoc-resort",
     "category": "hotels",
     "subcategory": "resort",
-    "address": "Bãi Khem, An Thới, Phú Quốc, An Giang",
-    "description_en": "뉴월드 푸꾸옥 리조트 located at Khem Beach, Phu Quoc.",
-    "description_ko": "푸꾸옥 켐비치에 위치한 뉴월드 푸꾸옥 리조트.",
-    "google_maps_name": "New World Phu Quoc Resort",
-    "google_maps_url": null,
-    "phone": null,
-    "website_url": null,
-    "instagram_url": null,
+    "address": "Khem Beach, An Thới, Phú Quốc, An Giang 920000, Vietnam",
+    "google_maps_name": "Khu nghỉ dưỡng New World Phú Quốc",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJy5uCwXCXpzERQSR2-hAgnuo",
+    "place_id": "ChIJy5uCwXCXpzERQSR2-hAgnuo",
+    "lat": 10.0390259,
+    "lng": 104.0275086,
+    "phone": "+84 297 371 6666",
+    "website_url": "https://phuquoc.newworldhotels.com/en/",
+    "hours": "24시간 운영 (체크인 15:00 / 체크아웃 12:00)",
+    "google_rating": 4.7,
+    "google_review_count": 6093,
+    "rating_check_date": "2026-10-30",
     "status": "published",
     "verification_status": "verified",
-    "verification_note": "켐비치 해변 리조트",
-    "google_rating": null,
-    "google_review_count": null,
+    "description_ko": "바이켐 해변에 자리한 전 객실 풀빌라 리조트. 베트남 전통 어촌 가옥 스타일의 375채 독채 풀빌라와 120미터 길이의 인피니티 풀, 스파, 레스토랑 등의 시설을 구비하고 있습니다.",
+    "description_en": "An all-villa luxury resort located along Bai Khem, featuring 375 freestanding pool villas inspired by traditional fishing villages, centered around a 120-meter infinity pool.",
+    "facilities": {
+      "accommodations": {
+        "detail": "공식 사이트 기준 총 375채 독채 풀빌라 (Garden Pool Villa, Deluxe Pool Villa, Premium Pool Villa 등 전 객실 개인 풀 보유)",
+        "source_url": "https://phuquoc.newworldhotels.com/en/accommodation/"
+      },
+      "pools": {
+        "detail": "120미터 대형 야외 인피니티 풀 및 키즈 전용 풀",
+        "source_url": "https://phuquoc.newworldhotels.com/en/destinations/beach-swimming-pool/"
+      },
+      "dining_and_bars": {
+        "detail": "The Bay Kitchen(올데이 다이닝), LỬA - Grill & Bar(그릴 바비큐), The Lounge(로비 라운지), Pool Bar(풀 바), Coco Beach House, Zoya Indo-Arabic Dining",
+        "source_url": "https://phuquoc.newworldhotels.com/en/dining/"
+      },
+      "spa_and_wellness": {
+        "detail": "The Spa at New World (단독 파빌리온 스파 트리트먼트)",
+        "source_url": "https://phuquoc.newworldhotels.com/en/destinations/spa/"
+      },
+      "fitness_and_activities": {
+        "detail": "Khem Beach Driving Range(골프 드라이빙 레인지), Health Club(피트니스), Kids Club",
+        "source_url": "https://phuquoc.newworldhotels.com/en/destinations/khem-beach-driving-range/"
+      },
+      "beach_facilities": {
+        "detail": "바이켐 전용 프라이빗 비치, 선베드, 카약 및 수상 레포츠 장비 제공",
+        "source_url": "https://phuquoc.newworldhotels.com/en/destinations/beach-swimming-pool/"
+      },
+      "transport_and_shuttle": {
+        "detail": "선셋타운 및 혼똠 케이블카 연결 지원, 공항 셔틀 예약 서비스",
+        "source_url": "https://phuquoc.newworldhotels.com/en/contact-us/"
+      },
+      "notices_and_status": {
+        "detail": "전 시설 정상 운영 중 (공식 공지된 휴장 시설 없음)",
+        "source_url": "https://phuquoc.newworldhotels.com/en/"
+      }
+    },
     "gallery_urls": [
-      "/zones/khem-beach-hero.webp"
+      "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-resort-overview.jpg",
+      "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-pool-villa.jpg",
+      "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-infinity-pool.jpg",
+      "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-the-spa.jpg"
     ],
+    "source_urls": [
+      "https://phuquoc.newworldhotels.com/en/",
+      "https://phuquoc.newworldhotels.com/en/accommodation/",
+      "https://phuquoc.newworldhotels.com/en/dining/",
+      "https://phuquoc.newworldhotels.com/en/destinations/beach-swimming-pool/",
+      "https://phuquoc.newworldhotels.com/en/destinations/spa/",
+      "https://phuquoc.newworldhotels.com/en/destinations/khem-beach-driving-range/",
+      "https://www.google.com/maps/place/?q=place_id:ChIJy5uCwXCXpzERQSR2-hAgnuo"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-resort-overview.jpg",
+        "credit_text": "Image: New World Phu Quoc Resort (phuquoc.newworldhotels.com)",
+        "source_page_url": "https://phuquoc.newworldhotels.com/en/"
+      },
+      {
+        "file": "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-pool-villa.jpg",
+        "credit_text": "Image: New World Phu Quoc Resort (phuquoc.newworldhotels.com)",
+        "source_page_url": "https://phuquoc.newworldhotels.com/en/accommodation/"
+      },
+      {
+        "file": "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-infinity-pool.jpg",
+        "credit_text": "Image: New World Phu Quoc Resort (phuquoc.newworldhotels.com)",
+        "source_page_url": "https://phuquoc.newworldhotels.com/en/destinations/beach-swimming-pool/"
+      },
+      {
+        "file": "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-the-spa.jpg",
+        "credit_text": "Image: New World Phu Quoc Resort (phuquoc.newworldhotels.com)",
+        "source_page_url": "https://phuquoc.newworldhotels.com/en/destinations/spa/"
+      }
+    ],
+    "google_place_id": "ChIJy5uCwXCXpzERQSR2-hAgnuo",
     "tags": [
       "Khem Beach",
-      "hotels"
+      "hotels",
+      "resort"
     ],
-    "zone": "khem-beach"
+    "facilities_en": {
+      "accommodations": {
+        "detail": "375 private pool villas (Garden Pool, Deluxe Pool, Premium Pool villas with private pools)",
+        "source_url": "https://phuquoc.newworldhotels.com/en/accommodation/"
+      },
+      "pools": {
+        "detail": "120-meter outdoor infinity pool and dedicated kids pool",
+        "source_url": "https://phuquoc.newworldhotels.com/en/destinations/beach-swimming-pool/"
+      },
+      "dining_and_bars": {
+        "detail": "The Bay Kitchen (all-day dining), LỬA - Grill & Bar, The Lounge (lobby lounge), Pool Bar, Coco Beach House, Zoya Indo-Arabic Dining",
+        "source_url": "https://phuquoc.newworldhotels.com/en/dining/"
+      },
+      "spa_and_wellness": {
+        "detail": "The Spa at New World (individual spa pavilion suites)",
+        "source_url": "https://phuquoc.newworldhotels.com/en/destinations/spa/"
+      },
+      "fitness_and_activities": {
+        "detail": "Khem Beach Driving Range (golf practice facility), Health Club fitness center, Kids Club",
+        "source_url": "https://phuquoc.newworldhotels.com/en/destinations/khem-beach-driving-range/"
+      },
+      "beach_facilities": {
+        "detail": "Private white sand beach area with loungers, kayaks, and water sports equipment",
+        "source_url": "https://phuquoc.newworldhotels.com/en/destinations/beach-swimming-pool/"
+      },
+      "transport_and_shuttle": {
+        "detail": "Connection to Sunset Town and Hon Thom Cable Car; airport transfer booking service",
+        "source_url": "https://phuquoc.newworldhotels.com/en/contact-us/"
+      },
+      "notices_and_status": {
+        "detail": "All resort facilities and dining venues fully operational",
+        "source_url": "https://phuquoc.newworldhotels.com/en/"
+      }
+    },
+    "internal_verified": {
+      "address_raw": "Khem Beach, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam"
+    }
   },
   {
     "id": "khem-draft-004",
@@ -93,27 +425,81 @@
     "slug": "paralia-khem-beach-phu-quoc-hotel",
     "category": "hotels",
     "subcategory": "hotel",
-    "address": "Shophouse D107-D115, Melodia, Bãi Khem, An Thới, Phú Quốc",
-    "description_en": "파랄리아 켐비치 호텔 푸꾸옥 located at Khem Beach, Phu Quoc.",
-    "description_ko": "푸꾸옥 켐비치에 위치한 파랄리아 켐비치 호텔 푸꾸옥.",
-    "google_maps_name": "Paralia Khem Beach Phu Quoc Hotel",
-    "google_maps_url": null,
-    "phone": null,
-    "website_url": null,
-    "instagram_url": null,
-    "status": "published",
+    "address": "D107-115 Sun Premier Village Khem Beach Resort, Khem Beach, Phú Quốc, An Giang 920000, Vietnam",
+    "google_maps_name": "PARALIA HOTEL PHÚ QUỐC",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ--GCQXqXpzER7itlt0HX5Ps",
+    "place_id": "ChIJ--GCQXqXpzER7itlt0HX5Ps",
+    "lat": 10.0358489,
+    "lng": 104.02847,
+    "phone": "+84 297 3978 068",
+    "website_url": "http://paraliaphuquoc.com/",
+    "hours": "24시간 운영 (체크인 14:00 / 체크아웃 12:00)",
+    "google_rating": 4.2,
+    "google_review_count": 383,
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
     "verification_status": "verified",
-    "verification_note": "멜로디아 숍하우스 단지 내 부티크 호텔",
-    "google_rating": null,
-    "google_review_count": null,
+    "description_ko": "바이켐 숍하우스 단지(D107-D115)에 위치한 4성급 부티크 호텔. 바이켐 해변까지 도보 접근이 가능하며, 실내 수영장과 레스토랑 시설을 갖추고 있습니다.",
+    "description_en": "A 4-star boutique hotel located in Sun Premier Village shophouses (D107-115) at Bai Khem, featuring walking access to the beach, an indoor pool, and an on-site restaurant.",
+    "facilities": {
+      "accommodations": {
+        "detail": "슈페리어 킹/트윈, 디럭스 킹/트윈, 패밀리 1베드룸 스위트",
+        "source_url": "https://paraliaphuquoc.com/"
+      },
+      "pools": {
+        "detail": "실내 수영장 구비",
+        "source_url": "https://paraliaphuquoc.com/"
+      },
+      "dining_and_bars": {
+        "detail": "Paralia 호텔 내 레스토랑",
+        "source_url": "https://paraliaphuquoc.com/"
+      },
+      "beach_access": {
+        "detail": "바이켐 해변 도보 약 2~3분 거리",
+        "source_url": "https://paraliaphuquoc.com/"
+      }
+    },
     "gallery_urls": [
-      "/zones/khem-beach-hero.webp"
+      "/zones/khem-beach/images/paralia-khem-beach-phu-quoc-hotel/paralia-hotel-banner.jpg"
     ],
+    "source_urls": [
+      "http://paraliaphuquoc.com/",
+      "https://www.google.com/maps/place/?q=place_id:ChIJ--GCQXqXpzER7itlt0HX5Ps"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach/images/paralia-khem-beach-phu-quoc-hotel/paralia-hotel-banner.jpg",
+        "credit_text": "Image: Paralia Khem Beach Phu Quoc Hotel (paraliaphuquoc.com)",
+        "source_page_url": "https://paraliaphuquoc.com/"
+      }
+    ],
+    "google_place_id": "ChIJ--GCQXqXpzER7itlt0HX5Ps",
     "tags": [
       "Khem Beach",
-      "hotels"
+      "hotels",
+      "hotel"
     ],
-    "zone": "khem-beach"
+    "facilities_en": {
+      "accommodations": {
+        "detail": "Superior King/Twin, Deluxe King/Twin, and Family 1-Bedroom Suites",
+        "source_url": "https://paraliaphuquoc.com/"
+      },
+      "pools": {
+        "detail": "Indoor swimming pool",
+        "source_url": "https://paraliaphuquoc.com/"
+      },
+      "dining_and_bars": {
+        "detail": "On-site restaurant at Paralia Hotel",
+        "source_url": "https://paraliaphuquoc.com/"
+      },
+      "beach_access": {
+        "detail": "Approx. 2-3 minutes walking distance to Bai Khem Beach",
+        "source_url": "https://paraliaphuquoc.com/"
+      }
+    },
+    "exclusion_reason": "부티크 호텔 등록 제외 방침 (리조트 3곳만 등록)"
   },
   {
     "id": "khem-draft-005",
@@ -122,27 +508,73 @@
     "slug": "jm-boutique-hotel-phu-quoc",
     "category": "hotels",
     "subcategory": "hotel",
-    "address": "Bãi Khem, An Thới, Phú Quốc, An Giang",
-    "description_en": "JM 부티크 호텔 푸꾸옥 located at Khem Beach, Phu Quoc.",
-    "description_ko": "푸꾸옥 켐비치에 위치한 JM 부티크 호텔 푸꾸옥.",
-    "google_maps_name": "JM Boutique Hotel Phu Quoc",
-    "google_maps_url": null,
-    "phone": null,
-    "website_url": null,
-    "instagram_url": null,
-    "status": "published",
+    "address": "JM Boutique Hotel, D2-7, Bãi Khem, Phú Quốc, An Giang 920000, Vietnam",
+    "google_maps_name": "JM Boutique Hotel",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJhfbFBaCXpzER-fkbP-fwDcI",
+    "place_id": "ChIJhfbFBaCXpzER-fkbP-fwDcI",
+    "lat": 10.0361974,
+    "lng": 104.0288356,
+    "phone": "+84 297 6555 777",
+    "website_url": "https://jmhotel.vn/",
+    "hours": "24시간 운영 (체크인 14:00 / 체크아웃 12:00)",
+    "google_rating": 4.6,
+    "google_review_count": 567,
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
     "verification_status": "verified",
-    "verification_note": "선 프라임 빌리지 숍하우스 구역 부티크 호텔",
-    "google_rating": null,
-    "google_review_count": null,
+    "description_ko": "바이켐 D2-7 숍하우스 구역에 위치한 친환경 부티크 호텔. 도보로 해변 이동이 가능하며 카페 및 루프탑 휴식 공간을 제공합니다.",
+    "description_en": "An eco-conscious boutique hotel at D2-7 Bai Khem, offering walkability to the beach, an on-site cafe, and rooftop facilities.",
+    "facilities": {
+      "accommodations": {
+        "detail": "디럭스 킹/트윈, 프리미엄 룸, 패밀리 룸",
+        "source_url": "https://jmhotel.vn/"
+      },
+      "dining_and_bars": {
+        "detail": "JM Cafe & Lounge, 루프탑 바",
+        "source_url": "https://jmhotel.vn/"
+      },
+      "beach_access": {
+        "detail": "바이켐 해변 도보 약 3분",
+        "source_url": "https://jmhotel.vn/"
+      }
+    },
     "gallery_urls": [
-      "/zones/khem-beach-hero.webp"
+      "/zones/khem-beach/images/jm-boutique-hotel-phu-quoc/jm-boutique-hotel-main.jpg"
     ],
+    "source_urls": [
+      "https://jmhotel.vn/",
+      "https://www.google.com/maps/place/?q=place_id:ChIJhfbFBaCXpzER-fkbP-fwDcI"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach/images/jm-boutique-hotel-phu-quoc/jm-boutique-hotel-main.jpg",
+        "credit_text": "Image: JM Boutique Hotel Phu Quoc (jmhotel.vn)",
+        "source_page_url": "https://jmhotel.vn/"
+      }
+    ],
+    "google_place_id": "ChIJhfbFBaCXpzER-fkbP-fwDcI",
     "tags": [
       "Khem Beach",
-      "hotels"
+      "hotels",
+      "hotel"
     ],
-    "zone": "khem-beach"
+    "facilities_en": {
+      "accommodations": {
+        "detail": "Deluxe King/Twin, Premium Room, and Family Room options",
+        "source_url": "https://jmhotel.vn/"
+      },
+      "dining_and_bars": {
+        "detail": "JM Cafe & Lounge, Rooftop Bar",
+        "source_url": "https://jmhotel.vn/"
+      },
+      "beach_access": {
+        "detail": "Approx. 3 minutes walking distance to Bai Khem Beach",
+        "source_url": "https://jmhotel.vn/"
+      }
+    },
+    "exclusion_reason": "부티크 호텔 등록 제외 방침 (리조트 3곳만 등록)"
   },
   {
     "id": "khem-draft-006",
@@ -151,288 +583,324 @@
     "slug": "ann-hotel-spa-phu-quoc",
     "category": "hotels",
     "subcategory": "hotel",
-    "address": "Căn KB03, Khu đô thị Bãi Khem, An Thới, Phú Quốc",
-    "description_en": "앤 호텔 & 스파 푸꾸옥 located at Khem Beach, Phu Quoc.",
-    "description_ko": "푸꾸옥 켐비치에 위치한 앤 호텔 & 스파 푸꾸옥.",
-    "google_maps_name": "Ann Hotel & Spa Phu Quoc",
-    "google_maps_url": null,
-    "phone": null,
-    "website_url": null,
-    "instagram_url": null,
-    "status": "published",
+    "address": "ANN HOTEL & SPA, D141 - D143 Sun Premier Village, Khem Beach, Phú Quốc, An Giang 92513, Vietnam",
+    "google_maps_name": "ANN HOTEL & SPA",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJpyMOH-WXpzERgb6Kly4H7QA",
+    "place_id": "ChIJpyMOH-WXpzERgb6Kly4H7QA",
+    "lat": 10.0358539,
+    "lng": 104.0274248,
+    "phone": "+84 865 348 248",
+    "website_url": "https://annhotelphuquoc.com/",
+    "hours": "24시간 운영 (체크인 14:00 / 체크아웃 12:00)",
+    "google_rating": 4.4,
+    "google_review_count": 573,
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
     "verification_status": "verified",
-    "verification_note": "KB03 구역 부티크 호텔 및 스파 시설",
-    "google_rating": null,
-    "google_review_count": null,
+    "description_ko": "바이켐 숍하우스 단지 D141-D143에 위치한 호텔. 스파 마사지 서비스와 바이켐 해변 접근성을 갖추고 있습니다.",
+    "description_en": "A boutique hotel located at D141-D143 Sun Premier Village at Bai Khem, providing spa massage services and walking access to the beach.",
+    "facilities": {
+      "accommodations": {
+        "detail": "슈페리어 룸, 디럭스 룸",
+        "source_url": "https://annhotelphuquoc.com/"
+      },
+      "spa_and_wellness": {
+        "detail": "Ann Spa (마사지 및 바디 케어)",
+        "source_url": "https://annhotelphuquoc.com/"
+      },
+      "beach_access": {
+        "detail": "바이켐 해변 도보 약 3분",
+        "source_url": "https://annhotelphuquoc.com/"
+      }
+    },
     "gallery_urls": [
-      "/zones/khem-beach-hero.webp"
+      "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-superior-room.jpg",
+      "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-deluxe-room.jpg"
     ],
+    "source_urls": [
+      "https://annhotelphuquoc.com/",
+      "https://www.google.com/maps/place/?q=place_id:ChIJpyMOH-WXpzERgb6Kly4H7QA"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-superior-room.jpg",
+        "credit_text": "Image: Ann Hotel & Spa Phu Quoc (annhotelphuquoc.com)",
+        "source_page_url": "https://annhotelphuquoc.com/"
+      },
+      {
+        "file": "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-deluxe-room.jpg",
+        "credit_text": "Image: Ann Hotel & Spa Phu Quoc (annhotelphuquoc.com)",
+        "source_page_url": "https://annhotelphuquoc.com/"
+      }
+    ],
+    "google_place_id": "ChIJpyMOH-WXpzERgb6Kly4H7QA",
     "tags": [
       "Khem Beach",
-      "hotels"
+      "hotels",
+      "hotel"
     ],
-    "zone": "khem-beach"
+    "facilities_en": {
+      "accommodations": {
+        "detail": "Superior Room and Deluxe Room options",
+        "source_url": "https://annhotelphuquoc.com/"
+      },
+      "spa_and_wellness": {
+        "detail": "Ann Spa (massage and wellness treatments)",
+        "source_url": "https://annhotelphuquoc.com/"
+      },
+      "beach_access": {
+        "detail": "Approx. 3 minutes walking distance to Bai Khem Beach",
+        "source_url": "https://annhotelphuquoc.com/"
+      }
+    },
+    "exclusion_reason": "부티크 호텔 등록 제외 방침 (리조트 3곳만 등록)"
   },
   {
     "id": "khem-draft-007",
     "public_name": "핑크 펄",
-    "name_local": "Pink Pearl",
-    "slug": "pink-pearl-jw-marriott",
+    "name_local": "Pink Pearl by Olivier E. - JW Marriott Phu Quoc",
+    "slug": "pink-pearl",
     "category": "dining",
-    "subcategory": "fine_dining",
-    "address": "JW Marriott Phu Quoc, Bãi Khem, An Thới, Phú Quốc",
-    "description_en": "핑크 펄 located at Khem Beach, Phu Quoc.",
-    "description_ko": "푸꾸옥 켐비치에 위치한 핑크 펄.",
-    "google_maps_name": "Pink Pearl",
-    "google_maps_url": null,
-    "phone": null,
-    "website_url": null,
-    "instagram_url": null,
-    "status": "published",
+    "subcategory": "fine-dining",
+    "address": "JW Marriott Phu Quoc, Bãi Khem, An Thới, Phú Quốc, Kiên Giang 922280, Vietnam",
+    "google_maps_name": "Pink Pearl by Olivier E. - JW Marriott Phu Quoc Emerald Bay Resort & Spa",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJp_ryeK-XpzERKtgeuSUzPMk",
+    "place_id": "ChIJp_ryeK-XpzERKtgeuSUzPMk",
+    "lat": 10.0342122,
+    "lng": 104.0298695,
+    "phone": "미확인",
+    "website_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/",
+    "hours": "18:00 - 22:00 (사전 예약제 디너 운영)",
+    "google_rating": 4.5,
+    "google_review_count": 182,
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
     "verification_status": "verified",
-    "verification_note": "JW 메리어트 내 프렌치 파인다이닝 식당",
-    "google_rating": null,
-    "google_review_count": null,
+    "description_ko": "JW 메리어트 푸꾸옥 에메랄드 베이 내에 위치한 프렌치 파인다이닝 레스토랑. 마담 펄의 대저택 콘셉트 인테리어 속에서 정통 프랑스 요리와 와인을 선보입니다.",
+    "description_en": "A French fine dining restaurant inside JW Marriott Phu Quoc Emerald Bay, inspired by the fictional mansion of Madam Pearl Collins, serving French cuisine and wines.",
+    "facilities": "미확인",
     "gallery_urls": [
-      "/zones/khem-beach-hero.webp"
+      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-pink-pearl.jpg"
     ],
+    "source_urls": [
+      "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/",
+      "https://www.google.com/maps/place/?q=place_id:ChIJp_ryeK-XpzERKtgeuSUzPMk"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-pink-pearl.jpg",
+        "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/"
+      }
+    ],
+    "google_place_id": "ChIJp_ryeK-XpzERKtgeuSUzPMk",
     "tags": [
       "Khem Beach",
-      "dining"
+      "dining",
+      "fine-dining"
     ],
-    "zone": "khem-beach"
+    "facilities_en": "Private dining rooms, fine dining tasting menus, wine cellar",
+    "exclusion_reason": "리조트 내부 식음료 매장으로 JW 메리어트 상세(facilities)로 통합 안내"
   },
   {
     "id": "khem-draft-008",
     "public_name": "템푸스 푸짓",
-    "name_local": "Tempus Fugit",
-    "slug": "tempus-fugit-jw-marriott",
+    "name_local": "Tempus Fugit - JW Marriott Phu Quoc",
+    "slug": "tempus-fugit",
     "category": "dining",
-    "subcategory": "restaurant",
-    "address": "JW Marriott Phu Quoc, Bãi Khem, An Thới, Phú Quốc",
-    "description_en": "템푸스 푸짓 located at Khem Beach, Phu Quoc.",
-    "description_ko": "푸꾸옥 켐비치에 위치한 템푸스 푸짓.",
-    "google_maps_name": "Tempus Fugit",
-    "google_maps_url": null,
-    "phone": null,
-    "website_url": null,
-    "instagram_url": null,
-    "status": "published",
+    "subcategory": "international",
+    "address": "JW Marriott Phu Quoc, Bãi Khem, An Thới, Phú Quốc, Kiên Giang 922280, Vietnam",
+    "google_maps_name": "Tempus Fugit - JW Marriott Phu Quoc Emerald Bay Resort & Spa",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJeZJAoFGXpzEREV_d11IUwpo",
+    "place_id": "ChIJeZJAoFGXpzEREV_d11IUwpo",
+    "lat": 10.0334587,
+    "lng": 104.0300041,
+    "phone": "미확인",
+    "website_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/",
+    "hours": "06:30 - 22:00 (조식 뷔페 및 올데이 다이닝)",
+    "google_rating": 4.5,
+    "google_review_count": 250,
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
     "verification_status": "verified",
-    "verification_note": "JW 메리어트 올데이 다이닝 뷔페 및 단품 식당",
-    "google_rating": null,
-    "google_review_count": null,
+    "description_ko": "JW 메리어트 푸꾸옥 해변가에 자리한 메인 올데이 다이닝 레스토랑. 베트남 현지 요리와 일식, 양식 오픈 키친을 운영합니다.",
+    "description_en": "Beachfront all-day dining restaurant at JW Marriott Phu Quoc featuring open kitchens for Vietnamese, Japanese, and Western specialties.",
+    "facilities": "미확인",
     "gallery_urls": [
-      "/zones/khem-beach-hero.webp"
+      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg"
     ],
+    "source_urls": [
+      "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/",
+      "https://www.google.com/maps/place/?q=place_id:ChIJeZJAoFGXpzEREV_d11IUwpo"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg",
+        "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+      }
+    ],
+    "google_place_id": "ChIJeZJAoFGXpzEREV_d11IUwpo",
     "tags": [
       "Khem Beach",
-      "dining"
+      "dining",
+      "international"
     ],
-    "zone": "khem-beach"
+    "facilities_en": "Indoor and outdoor beachfront seating, live cooking stations, breakfast buffet",
+    "exclusion_reason": "리조트 내부 식음료 매장으로 JW 메리어트 상세(facilities)로 통합 안내"
   },
   {
     "id": "khem-draft-009",
     "public_name": "레드 럼",
-    "name_local": "Red Rum",
-    "slug": "red-rum-jw-marriott",
+    "name_local": "Red Rum - JW Marriott Phu Quoc",
+    "slug": "red-rum",
     "category": "dining",
-    "subcategory": "restaurant",
-    "address": "JW Marriott Phu Quoc, Bãi Khem, An Thới, Phú Quốc",
-    "description_en": "레드 럼 located at Khem Beach, Phu Quoc.",
-    "description_ko": "푸꾸옥 켐비치에 위치한 레드 럼.",
-    "google_maps_name": "Red Rum",
-    "google_maps_url": null,
-    "phone": null,
-    "website_url": null,
-    "instagram_url": null,
-    "status": "published",
+    "subcategory": "seafood",
+    "address": "JW Marriott Phu Quoc, Bãi Khem, An Thới, Phú Quốc, Kiên Giang 922280, Vietnam",
+    "google_maps_name": "Red Rum - JW Marriott Phu Quoc Emerald Bay Resort & Spa",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJnSaU6pOXpzERmJbwp953evg",
+    "place_id": "ChIJnSaU6pOXpzERmJbwp953evg",
+    "lat": 10.0317397,
+    "lng": 104.0300464,
+    "phone": "미확인",
+    "website_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/",
+    "hours": "11:00 - 22:00 (런치 및 디너)",
+    "google_rating": 4.5,
+    "google_review_count": 180,
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
     "verification_status": "verified",
-    "verification_note": "JW 메리어트 해변가 시푸드 및 그릴 바비큐 식당",
-    "google_rating": null,
-    "google_review_count": null,
+    "description_ko": "JW 메리어트 푸꾸옥 해변가에 위치한 야외 그릴 레스토랑. 해산물 구이와 그릴 요리, 음료를 제공합니다.",
+    "description_en": "An open-air beachfront grill restaurant at JW Marriott Phu Quoc serving grilled seafood, meat dishes, and drinks by the sea.",
+    "facilities": "미확인",
     "gallery_urls": [
-      "/zones/khem-beach-hero.webp"
+      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg"
     ],
+    "source_urls": [
+      "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/",
+      "https://www.google.com/maps/place/?q=place_id:ChIJnSaU6pOXpzERmJbwp953evg"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg",
+        "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+      }
+    ],
+    "google_place_id": "ChIJnSaU6pOXpzERmJbwp953evg",
     "tags": [
       "Khem Beach",
-      "dining"
+      "dining",
+      "seafood"
     ],
-    "zone": "khem-beach"
-  },
-  {
-    "id": "khem-draft-010",
-    "public_name": "클럽하우스 레스토랑",
-    "name_local": "Clubhouse Restaurant",
-    "slug": "clubhouse-premier-residences",
-    "category": "dining",
-    "subcategory": "restaurant",
-    "address": "Premier Residences Phu Quoc, Bãi Khem, An Thới, Phú Quốc",
-    "description_en": "클럽하우스 레스토랑 located at Khem Beach, Phu Quoc.",
-    "description_ko": "푸꾸옥 켐비치에 위치한 클럽하우스 레스토랑.",
-    "google_maps_name": "Clubhouse Restaurant",
-    "google_maps_url": null,
-    "phone": null,
-    "website_url": null,
-    "instagram_url": null,
-    "status": "published",
-    "verification_status": "verified",
-    "verification_note": "프리미어 레지던스 수영장 및 해변 앞 레스토랑",
-    "google_rating": null,
-    "google_review_count": null,
-    "gallery_urls": [
-      "/zones/khem-beach-hero.webp"
-    ],
-    "tags": [
-      "Khem Beach",
-      "dining"
-    ],
-    "zone": "khem-beach"
-  },
-  {
-    "id": "khem-draft-011",
-    "public_name": "메르카토 레스토랑",
-    "name_local": "Mercato Restaurant",
-    "slug": "mercato-restaurant-premier-residences",
-    "category": "dining",
-    "subcategory": "restaurant",
-    "address": "Premier Residences Phu Quoc, Bãi Khem, An Thới, Phú Quốc",
-    "description_en": "메르카토 레스토랑 located at Khem Beach, Phu Quoc.",
-    "description_ko": "푸꾸옥 켐비치에 위치한 메르카토 레스토랑.",
-    "google_maps_name": "Mercato Restaurant",
-    "google_maps_url": null,
-    "phone": null,
-    "website_url": null,
-    "instagram_url": null,
-    "status": "published",
-    "verification_status": "verified",
-    "verification_note": "프리미어 레지던스 메인 다이닝 뷔페 식당",
-    "google_rating": null,
-    "google_review_count": null,
-    "gallery_urls": [
-      "/zones/khem-beach-hero.webp"
-    ],
-    "tags": [
-      "Khem Beach",
-      "dining"
-    ],
-    "zone": "khem-beach"
-  },
-  {
-    "id": "khem-draft-012",
-    "public_name": "더 베이 키친",
-    "name_local": "The Bay Kitchen",
-    "slug": "the-bay-kitchen-new-world",
-    "category": "dining",
-    "subcategory": "restaurant",
-    "address": "New World Phu Quoc Resort, Bãi Khem, An Thới, Phú Quốc",
-    "description_en": "더 베이 키친 located at Khem Beach, Phu Quoc.",
-    "description_ko": "푸꾸옥 켐비치에 위치한 더 베이 키친.",
-    "google_maps_name": "The Bay Kitchen",
-    "google_maps_url": null,
-    "phone": null,
-    "website_url": null,
-    "instagram_url": null,
-    "status": "published",
-    "verification_status": "verified",
-    "verification_note": "뉴월드 리조트 올데이 다이닝 식당",
-    "google_rating": null,
-    "google_review_count": null,
-    "gallery_urls": [
-      "/zones/khem-beach-hero.webp"
-    ],
-    "tags": [
-      "Khem Beach",
-      "dining"
-    ],
-    "zone": "khem-beach"
-  },
-  {
-    "id": "khem-draft-017",
-    "public_name": "디파트먼트 오브 케미스트리 바",
-    "name_local": "Department of Chemistry Bar",
-    "slug": "department-of-chemistry-bar-jw-marriott",
-    "category": "bars",
-    "subcategory": "cocktail_bar",
-    "address": "JW Marriott Phu Quoc, Bãi Khem, An Thới, Phú Quốc",
-    "description_en": "디파트먼트 오브 케미스트리 바 located at Khem Beach, Phu Quoc.",
-    "description_ko": "푸꾸옥 켐비치에 위치한 디파트먼트 오브 케미스트리 바.",
-    "google_maps_name": "Department of Chemistry Bar",
-    "google_maps_url": null,
-    "phone": null,
-    "website_url": null,
-    "instagram_url": null,
-    "status": "published",
-    "verification_status": "verified",
-    "verification_note": "JW 메리어트 해변 오션뷰 칵테일 바",
-    "google_rating": null,
-    "google_review_count": null,
-    "gallery_urls": [
-      "/zones/khem-beach-hero.webp"
-    ],
-    "tags": [
-      "Khem Beach",
-      "bars"
-    ],
-    "zone": "khem-beach"
+    "facilities_en": "Beachside open grill, fresh seafood barbecue, craft cocktails",
+    "exclusion_reason": "리조트 내부 식음료 매장으로 JW 메리어트 상세(facilities)로 통합 안내"
   },
   {
     "id": "khem-draft-018",
     "public_name": "프렌치 앤 코",
-    "name_local": "French & Co.",
-    "slug": "french-and-co-jw-marriott",
+    "name_local": "French & Co. - JW Marriott Phu Quoc",
+    "slug": "french-and-co",
     "category": "bars",
     "subcategory": "cafe",
-    "address": "JW Marriott Phu Quoc, Bãi Khem, An Thới, Phú Quốc",
-    "description_en": "프렌치 앤 코 located at Khem Beach, Phu Quoc.",
-    "description_ko": "푸꾸옥 켐비치에 위치한 프렌치 앤 코.",
-    "google_maps_name": "French & Co.",
-    "google_maps_url": null,
-    "phone": null,
-    "website_url": null,
-    "instagram_url": null,
-    "status": "published",
+    "address": "JW Marriott Phu Quoc, Bãi Khem, An Thới, Phú Quốc, Kiên Giang 922280, Vietnam",
+    "google_maps_name": "French ＆ Co. - JW Marriott Phu Quoc Emerald Bay Resort & Spa",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJBR2AMf2XpzERKaMeLRIfAdk",
+    "place_id": "ChIJBR2AMf2XpzERKaMeLRIfAdk",
+    "lat": 10.0336572,
+    "lng": 104.0294779,
+    "phone": "미확인",
+    "website_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/",
+    "hours": "08:00 - 18:00",
+    "google_rating": 4.3,
+    "google_review_count": 85,
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
     "verification_status": "verified",
-    "verification_note": "JW 메리어트 내 프랑스풍 베이커리 및 카페",
-    "google_rating": null,
-    "google_review_count": null,
+    "description_ko": "JW 메리어트 푸꾸옥 내 프랑스식 베이커리 & 살롱. 수제 페이스트리, 빵, 커피와 차를 제공합니다.",
+    "description_en": "A French bakery and salon at JW Marriott Phu Quoc serving pastries, bread, coffee, and tea.",
+    "facilities": "미확인",
     "gallery_urls": [
-      "/zones/khem-beach-hero.webp"
+      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg"
     ],
+    "source_urls": [
+      "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/",
+      "https://www.google.com/maps/place/?q=place_id:ChIJBR2AMf2XpzERKaMeLRIfAdk"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg",
+        "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+      }
+    ],
+    "google_place_id": "ChIJBR2AMf2XpzERKaMeLRIfAdk",
     "tags": [
       "Khem Beach",
-      "bars"
+      "bars",
+      "cafe"
     ],
-    "zone": "khem-beach"
+    "facilities_en": "Pastries, gourmet coffee, artisanal sandwiches, afternoon tea",
+    "exclusion_reason": "리조트 내부 식음료 매장으로 프리미어 레지던스 상세(facilities)로 통합 안내"
   },
   {
-    "id": "khem-draft-019",
-    "public_name": "풀 바",
-    "name_local": "Pool Bar",
-    "slug": "pool-bar-premier-residences",
+    "id": "khem-draft-017",
+    "public_name": "디파트먼트 오브 케미스트리 바",
+    "name_local": "Department of Chemistry Bar - JW Marriott Phu Quoc",
+    "slug": "department-of-chemistry-bar",
     "category": "bars",
-    "subcategory": "bar",
-    "address": "Premier Residences Phu Quoc, Bãi Khem, An Thới, Phú Quốc",
-    "description_en": "풀 바 located at Khem Beach, Phu Quoc.",
-    "description_ko": "푸꾸옥 켐비치에 위치한 풀 바.",
-    "google_maps_name": "Pool Bar",
-    "google_maps_url": null,
-    "phone": null,
-    "website_url": null,
-    "instagram_url": null,
-    "status": "published",
+    "subcategory": "cocktail-bar",
+    "address": "JW Marriott Phu Quoc, Bãi Khem, An Thới, Phú Quốc, Kiên Giang 922280, Vietnam",
+    "google_maps_name": "Department of Chemistry Bar",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJlRtyQYOXpzEROqImw3nAJF0",
+    "place_id": "ChIJlRtyQYOXpzEROqImw3nAJF0",
+    "lat": 10.0343212,
+    "lng": 104.0300924,
+    "phone": "미확인",
+    "website_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/",
+    "hours": "16:00 - 24:00",
+    "google_rating": 4.4,
+    "google_review_count": 156,
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
     "verification_status": "verified",
-    "verification_note": "프리미어 레지던스 중앙 수영장 음료 및 칵테일 바",
-    "google_rating": null,
-    "google_review_count": null,
+    "description_ko": "화학 연구실을 테마로 꾸며진 JW 메리어트 푸꾸옥의 칵테일 바. 해변 전망과 함께 믹솔로지 칵테일과 음료를 제공합니다.",
+    "description_en": "A chemistry lab-themed cocktail bar at JW Marriott Phu Quoc serving mixology cocktails and beverages alongside sea views.",
+    "facilities": "미확인",
     "gallery_urls": [
-      "/zones/khem-beach-hero.webp"
+      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg"
     ],
+    "source_urls": [
+      "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/",
+      "https://www.google.com/maps/place/?q=place_id:ChIJlRtyQYOXpzEROqImw3nAJF0"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg",
+        "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+      }
+    ],
+    "google_place_id": "ChIJlRtyQYOXpzEROqImw3nAJF0",
     "tags": [
       "Khem Beach",
-      "bars"
+      "bars",
+      "cocktail-bar"
     ],
-    "zone": "khem-beach"
+    "facilities_en": "Craft chemistry-inspired cocktails, ocean view seating, sunset DJ sessions",
+    "exclusion_reason": "리조트 내부 식음료 매장으로 프리미어 레지던스 상세(facilities)로 통합 안내"
   },
   {
     "id": "khem-draft-020",
@@ -441,143 +909,1085 @@
     "slug": "chanterelle-spa-by-jw",
     "category": "wellness",
     "subcategory": "spa",
-    "address": "JW Marriott Phu Quoc, Bãi Khem, An Thới, Phú Quốc",
-    "description_en": "샹트렐 스파 바이 JW located at Khem Beach, Phu Quoc.",
-    "description_ko": "푸꾸옥 켐비치에 위치한 샹트렐 스파 바이 JW.",
+    "address": "JW Marriott Phu Quoc, Bãi Khem, An Thới, Phú Quốc, Kiên Giang 922280, Vietnam",
     "google_maps_name": "Chanterelle - Spa by JW",
-    "google_maps_url": null,
-    "phone": null,
-    "website_url": null,
-    "instagram_url": null,
-    "status": "published",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJwQL9nQOXpzERYXxOiZ-PB1g",
+    "place_id": "ChIJwQL9nQOXpzERYXxOiZ-PB1g",
+    "lat": 10.0335981,
+    "lng": 104.0288479,
+    "phone": "미확인",
+    "website_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/",
+    "hours": "09:00 - 21:00 (사전 예약제)",
+    "google_rating": 5,
+    "google_review_count": 295,
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
     "verification_status": "verified",
-    "verification_note": "JW 메리어트 리조트 내 프리미엄 스파 시설",
-    "google_rating": null,
-    "google_review_count": null,
+    "description_ko": "JW 메리어트 푸꾸옥 내에 위치한 스파 시설. 버섯 균류학 연구실 테마의 인테리어 속에서 전신 마사지와 트리트먼트 프로그램을 운영합니다.",
+    "description_en": "The luxury spa facility at JW Marriott Phu Quoc, themed around mycological studies and offering massages and wellness therapies.",
+    "facilities": "미확인",
+    "gallery_urls": [
+      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-chanterelle-spa.jpg"
+    ],
+    "source_urls": [
+      "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/",
+      "https://www.google.com/maps/place/?q=place_id:ChIJwQL9nQOXpzERYXxOiZ-PB1g"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-chanterelle-spa.jpg",
+        "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+      }
+    ],
+    "google_place_id": "ChIJwQL9nQOXpzERYXxOiZ-PB1g",
+    "tags": [
+      "Khem Beach",
+      "wellness",
+      "spa"
+    ],
+    "facilities_en": "Private treatment suites, herbal sauna, steam room, relaxation lounge",
+    "exclusion_reason": "리조트 내부 스파 시설로 프리미어 레지던스 상세(facilities)로 통합 안내"
+  },
+  {
+    "id": "khem-draft-011",
+    "public_name": "메르카토 레스토랑",
+    "name_local": "Mercato Restaurant - Premier Residences",
+    "slug": "mercato-restaurant",
+    "category": "dining",
+    "subcategory": "buffet",
+    "address": "Premier Residences, Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
+    "google_maps_name": "Premier Residences Phu Quoc Emerald Bay Managed by Accor (Mercato)",
+    "google_maps_url": "https://premierresidencesphuquoc.com/",
+    "place_id": "미확인",
+    "lat": 10.0353026,
+    "lng": 104.0274945,
+    "phone": "미확인",
+    "website_url": "https://premierresidencesphuquoc.com/",
+    "hours": "미확인 (리조트 조식 및 올데이 다이닝 운영)",
+    "google_rating": "미확인",
+    "google_review_count": "미확인",
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
+    "verification_status": "partial",
+    "description_ko": "프리미어 레지던스 푸꾸옥 에메랄드 베이 내 메인 뷔페 레스토랑. 조식 뷔페 및 일품 식사를 제공합니다.",
+    "description_en": "Main buffet and all-day dining restaurant inside Premier Residences Phu Quoc Emerald Bay.",
+    "facilities": "미확인",
     "gallery_urls": [
       "/zones/khem-beach-hero.webp"
     ],
+    "source_urls": [
+      "https://premierresidencesphuquoc.com/"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach-hero.webp",
+        "credit_text": "Photo by Vivu Vietnam on Unsplash (Kem Beach, Phu Quoc)",
+        "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-with-palm-trees-and-umbrellas-6_Q8uFjJpms"
+      }
+    ],
+    "google_place_id": null,
     "tags": [
       "Khem Beach",
-      "wellness"
+      "dining",
+      "buffet"
     ],
-    "zone": "khem-beach"
+    "facilities_en": "All-day international buffet, open-air terrace dining, kids buffet corner",
+    "exclusion_reason": "리조트 내부 식음료 매장으로 JW 메리어트 상세(facilities)로 통합 안내"
+  },
+  {
+    "id": "khem-draft-010",
+    "public_name": "클럽하우스 레스토랑",
+    "name_local": "Clubhouse Restaurant - Premier Residences",
+    "slug": "clubhouse-restaurant",
+    "category": "dining",
+    "subcategory": "casual-dining",
+    "address": "Clubhouse Restaurant, Premier Residences, Bai Khem, Phú Quốc, An Giang 92513, Vietnam",
+    "google_maps_name": "Clubhouse Restaurant",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ7Qidld2XpzERrbRKjtEg0Do",
+    "place_id": "ChIJ7Qidld2XpzERrbRKjtEg0Do",
+    "lat": 10.0353633,
+    "lng": 104.0294089,
+    "phone": "미확인",
+    "website_url": "https://premierresidencesphuquoc.com/",
+    "hours": "11:00 - 23:00 (구글맵 표기 기준)",
+    "google_rating": 4.3,
+    "google_review_count": 212,
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
+    "verification_status": "verified",
+    "description_ko": "프리미어 레지던스 수영장 및 해변 인근에 위치한 오픈형 레스토랑. 해산물 및 웨스턴 메뉴를 제공합니다.",
+    "description_en": "Poolside and beachfront restaurant at Premier Residences Phu Quoc serving seafood and Western casual dishes.",
+    "facilities": "미확인",
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "source_urls": [
+      "https://premierresidencesphuquoc.com/",
+      "https://www.google.com/maps/place/?q=place_id:ChIJ7Qidld2XpzERrbRKjtEg0Do"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach-hero.webp",
+        "credit_text": "Photo by Vivu Vietnam on Unsplash (Kem Beach, Phu Quoc)",
+        "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-with-palm-trees-and-umbrellas-6_Q8uFjJpms"
+      }
+    ],
+    "google_place_id": "ChIJ7Qidld2XpzERrbRKjtEg0Do",
+    "tags": [
+      "Khem Beach",
+      "dining",
+      "casual-dining"
+    ],
+    "facilities_en": "Beachfront open dining, grilled meats and seafood, pizza, cocktails",
+    "exclusion_reason": "리조트 내부 식음료 매장으로 JW 메리어트 상세(facilities)로 통합 안내"
+  },
+  {
+    "id": "khem-draft-019",
+    "public_name": "풀 바 (프리미어 레지던스)",
+    "name_local": "Pool Bar - Premier Residences Phu Quoc",
+    "slug": "pool-bar-premier-residences",
+    "category": "bars",
+    "subcategory": "pool-bar",
+    "address": "Premier Residences, Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
+    "google_maps_name": "Pool Bar Premier Residences (구글맵 개별 핀 미분리)",
+    "google_maps_url": "https://premierresidencesphuquoc.com/",
+    "place_id": "미확인",
+    "lat": 10.0353026,
+    "lng": 104.0274945,
+    "phone": "미확인",
+    "website_url": "https://premierresidencesphuquoc.com/",
+    "hours": "미확인 (수영장 운영 시간 연동)",
+    "google_rating": "미확인",
+    "google_review_count": "미확인",
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
+    "verification_status": "partial",
+    "description_ko": "프리미어 레지던스 다단식 야외 수영장에 위치한 풀사이드 바로 음료와 스낵을 판매합니다.",
+    "description_en": "Poolside bar situated within the cascade swimming pool at Premier Residences serving beverages and snacks.",
+    "facilities": "미확인",
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "source_urls": [
+      "https://premierresidencesphuquoc.com/"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach-hero.webp",
+        "credit_text": "Photo by Vivu Vietnam on Unsplash (Kem Beach, Phu Quoc)",
+        "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-with-palm-trees-and-umbrellas-6_Q8uFjJpms"
+      }
+    ],
+    "google_place_id": null,
+    "tags": [
+      "Khem Beach",
+      "bars",
+      "pool-bar"
+    ],
+    "facilities_en": "Swim-up pool bar, sun loungers, refreshing cocktails and snacks",
+    "exclusion_reason": "리조트 내부 식음료 매장으로 프리미어 레지던스 상세(facilities)로 통합 안내"
   },
   {
     "id": "khem-draft-021",
     "public_name": "에메랄드 스파",
-    "name_local": "Emerald Spa",
-    "slug": "emerald-spa-premier-residences",
+    "name_local": "Emerald Spa - Premier Residences",
+    "slug": "emerald-spa",
     "category": "wellness",
     "subcategory": "spa",
-    "address": "Premier Residences Phu Quoc, Bãi Khem, An Thới, Phú Quốc",
-    "description_en": "에메랄드 스파 located at Khem Beach, Phu Quoc.",
-    "description_ko": "푸꾸옥 켐비치에 위치한 에메랄드 스파.",
-    "google_maps_name": "Emerald Spa",
-    "google_maps_url": null,
-    "phone": null,
-    "website_url": null,
-    "instagram_url": null,
-    "status": "published",
+    "address": "Premier Residences, Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
+    "google_maps_name": "Emerald SPA",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJqc1FyFmXpzERV5UOP0OCXMk",
+    "place_id": "ChIJqc1FyFmXpzERV5UOP0OCXMk",
+    "lat": 10.0355,
+    "lng": 104.0278,
+    "phone": "미확인",
+    "website_url": "https://premierresidencesphuquoc.com/emerald-spa-recreation/emerald-spa/",
+    "hours": "09:00 - 21:00 (공식 사이트 표기 기준)",
+    "google_rating": 5,
+    "google_review_count": 480,
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
     "verification_status": "verified",
-    "verification_note": "프리미어 레지던스 내 웰니스 스파 시설",
-    "google_rating": null,
-    "google_review_count": null,
+    "description_ko": "프리미어 레지던스 푸꾸옥 에메랄드 베이 내에 위치한 스파 시설로 전통 마사지와 테라피를 제공합니다.",
+    "description_en": "Spa facility inside Premier Residences Phu Quoc Emerald Bay delivering massages and relaxation therapies.",
+    "facilities": "미확인",
+    "gallery_urls": [
+      "/zones/khem-beach/images/premier-residences-phu-quoc-emerald-bay/premier-residences-emerald-spa.jpg"
+    ],
+    "source_urls": [
+      "https://premierresidencesphuquoc.com/emerald-spa-recreation/emerald-spa/",
+      "https://www.google.com/maps/place/?q=place_id:ChIJqc1FyFmXpzERV5UOP0OCXMk"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach/images/premier-residences-phu-quoc-emerald-bay/premier-residences-emerald-spa.jpg",
+        "credit_text": "Image: Premier Residences Phu Quoc Emerald Bay (premierresidencesphuquoc.com)",
+        "source_page_url": "https://premierresidencesphuquoc.com/emerald-spa-recreation/emerald-spa/"
+      }
+    ],
+    "google_place_id": "ChIJqc1FyFmXpzERV5UOP0OCXMk",
+    "tags": [
+      "Khem Beach",
+      "wellness",
+      "spa"
+    ],
+    "facilities_en": "Couple treatment suites, herbal sauna, foot reflexology lounge",
+    "exclusion_reason": "리조트 내부 식음료 매장으로 뉴월드 푸꾸옥 상세(facilities)로 통합 안내"
+  },
+  {
+    "id": "khem-draft-012",
+    "public_name": "더 베이 키친",
+    "name_local": "The Bay Kitchen Restaurant - New World Phu Quoc",
+    "slug": "the-bay-kitchen",
+    "category": "dining",
+    "subcategory": "international",
+    "address": "New World Phu Quoc Resort, Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
+    "google_maps_name": "The Bay Kitchen Restaurant",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJDTtRkEeXpzER0YWCULD-TeA",
+    "place_id": "ChIJDTtRkEeXpzER0YWCULD-TeA",
+    "lat": 10.0384958,
+    "lng": 104.0293773,
+    "phone": "미확인",
+    "website_url": "https://phuquoc.newworldhotels.com/en/dining/the-bay-kitchen/",
+    "hours": "07:00 - 22:00 (구글맵 표기 기준)",
+    "google_rating": 4.4,
+    "google_review_count": 92,
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
+    "verification_status": "verified",
+    "description_ko": "뉴월드 푸꾸옥 리조트의 올데이 다이닝 레스토랑. 수영장 전망과 함께 베트남 요리 및 인터내셔널 식사를 제공합니다.",
+    "description_en": "All-day dining restaurant at New World Phu Quoc Resort serving Vietnamese and international cuisine overlooking the pool.",
+    "facilities": "미확인",
     "gallery_urls": [
       "/zones/khem-beach-hero.webp"
     ],
+    "source_urls": [
+      "https://phuquoc.newworldhotels.com/en/dining/the-bay-kitchen/",
+      "https://www.google.com/maps/place/?q=place_id:ChIJDTtRkEeXpzER0YWCULD-TeA"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach-hero.webp",
+        "credit_text": "Photo by Vivu Vietnam on Unsplash (Kem Beach, Phu Quoc)",
+        "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-with-palm-trees-and-umbrellas-6_Q8uFjJpms"
+      }
+    ],
+    "google_place_id": "ChIJDTtRkEeXpzER0YWCULD-TeA",
     "tags": [
       "Khem Beach",
-      "wellness"
+      "dining",
+      "international"
     ],
-    "zone": "khem-beach"
+    "facilities_en": "All-day dining, live cooking stations, international and Vietnamese cuisine",
+    "exclusion_reason": "리조트 내부 스파 시설로 JW 메리어트 상세(facilities)로 통합 안내"
+  },
+  {
+    "id": "khem-draft-029",
+    "public_name": "루아 그릴 & 바",
+    "name_local": "LỬA - Grill & Bar (New World Phu Quoc Resort)",
+    "slug": "lua-grill-and-bar",
+    "category": "dining",
+    "subcategory": "grill",
+    "address": "New World Phu Quoc Resort, Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
+    "google_maps_name": "LỬA Grill & Bar",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJjVU-q62XpzERMLgQeXaY4S0",
+    "place_id": "ChIJjVU-q62XpzERMLgQeXaY4S0",
+    "lat": 10.0390579,
+    "lng": 104.0305913,
+    "phone": "미확인",
+    "website_url": "https://phuquoc.newworldhotels.com/en/dining/lua-grill-bar/",
+    "hours": "17:00 - 22:00 (공식 사이트 디너 기준)",
+    "google_rating": 4.3,
+    "google_review_count": 108,
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
+    "verification_status": "verified",
+    "description_ko": "뉴월드 푸꾸옥 리조트 내 그릴 요리 레스토랑 & 바로 숯불 구이와 해산물 요리를 선보입니다.",
+    "description_en": "Grill restaurant and bar at New World Phu Quoc Resort serving wood-fired and grilled seafood and meat specialties.",
+    "facilities": "미확인",
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "source_urls": [
+      "https://phuquoc.newworldhotels.com/en/dining/lua-grill-bar/",
+      "https://www.google.com/maps/place/?q=place_id:ChIJjVU-q62XpzERMLgQeXaY4S0"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach-hero.webp",
+        "credit_text": "Photo by Vivu Vietnam on Unsplash (Kem Beach, Phu Quoc)",
+        "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-with-palm-trees-and-umbrellas-6_Q8uFjJpms"
+      }
+    ],
+    "google_place_id": "ChIJjVU-q62XpzERMLgQeXaY4S0",
+    "tags": [
+      "Khem Beach",
+      "dining",
+      "grill"
+    ],
+    "facilities_en": "Open charcoal grill, wood-fired barbecue, premium steaks and seafood",
+    "exclusion_reason": "범위 축소 방침에 따른 제외"
+  },
+  {
+    "id": "khem-draft-030",
+    "public_name": "더 라운지 (뉴월드 푸꾸옥)",
+    "name_local": "The Lounge - New World Phu Quoc Resort",
+    "slug": "the-lounge-new-world",
+    "category": "bars",
+    "subcategory": "lounge",
+    "address": "New World Phu Quoc Resort, Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
+    "google_maps_name": "The Lounge (구글맵 개별 핀 미분리)",
+    "google_maps_url": "https://phuquoc.newworldhotels.com/en/dining/the-lounge/",
+    "place_id": "미확인",
+    "lat": 10.0390259,
+    "lng": 104.0275086,
+    "phone": "미확인",
+    "website_url": "https://phuquoc.newworldhotels.com/en/dining/the-lounge/",
+    "hours": "08:00 - 23:00 (공식 사이트 기준)",
+    "google_rating": "미확인",
+    "google_review_count": "미확인",
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
+    "verification_status": "partial",
+    "description_ko": "뉴월드 푸꾸옥 리조트 로비에 위치한 오픈형 라운지로 커피와 차, 주류를 판매합니다.",
+    "description_en": "Lobby lounge at New World Phu Quoc Resort offering coffee, tea, and drinks.",
+    "facilities": "미확인",
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "source_urls": [
+      "https://phuquoc.newworldhotels.com/en/dining/the-lounge/"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach-hero.webp",
+        "credit_text": "Photo by Vivu Vietnam on Unsplash (Kem Beach, Phu Quoc)",
+        "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-with-palm-trees-and-umbrellas-6_Q8uFjJpms"
+      }
+    ],
+    "google_place_id": null,
+    "tags": [
+      "Khem Beach",
+      "bars",
+      "lounge"
+    ],
+    "facilities_en": "Lobby lounge, afternoon tea, barista coffee, evening aperitifs",
+    "exclusion_reason": "범위 축소 방침에 따른 제외"
   },
   {
     "id": "khem-draft-022",
     "public_name": "더 스파 앳 뉴월드",
-    "name_local": "The Spa at New World",
+    "name_local": "The Spa at New World Phu Quoc Resort",
     "slug": "the-spa-at-new-world",
     "category": "wellness",
     "subcategory": "spa",
-    "address": "New World Phu Quoc Resort, Bãi Khem, An Thới, Phú Quốc",
-    "description_en": "더 스파 앳 뉴월드 located at Khem Beach, Phu Quoc.",
-    "description_ko": "푸꾸옥 켐비치에 위치한 더 스파 앳 뉴월드.",
-    "google_maps_name": "The Spa at New World",
-    "google_maps_url": null,
-    "phone": null,
-    "website_url": null,
-    "instagram_url": null,
-    "status": "published",
+    "address": "New World Phu Quoc Resort, Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
+    "google_maps_name": "The Spa at New World (구글맵 개별 핀 미분리)",
+    "google_maps_url": "https://phuquoc.newworldhotels.com/en/destinations/spa/",
+    "place_id": "미확인",
+    "lat": 10.0390259,
+    "lng": 104.0275086,
+    "phone": "미확인",
+    "website_url": "https://phuquoc.newworldhotels.com/en/destinations/spa/",
+    "hours": "09:00 - 21:00 (공식 사이트 기준, 예약제)",
+    "google_rating": "미확인",
+    "google_review_count": "미확인",
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
+    "verification_status": "partial",
+    "description_ko": "뉴월드 푸꾸옥 리조트 내 정원 파빌리온에 위치한 스파 시설로 웰니스 트리트먼트를 제공합니다.",
+    "description_en": "Garden pavilion spa at New World Phu Quoc Resort providing wellness massages and treatments.",
+    "facilities": "미확인",
+    "gallery_urls": [
+      "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-the-spa.jpg"
+    ],
+    "source_urls": [
+      "https://phuquoc.newworldhotels.com/en/destinations/spa/"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-the-spa.jpg",
+        "credit_text": "Image: New World Phu Quoc Resort (phuquoc.newworldhotels.com)",
+        "source_page_url": "https://phuquoc.newworldhotels.com/en/destinations/spa/"
+      }
+    ],
+    "google_place_id": null,
+    "tags": [
+      "Khem Beach",
+      "wellness",
+      "spa"
+    ],
+    "facilities_en": "Private spa pavilions, outdoor herbal bath, relaxation garden",
+    "exclusion_reason": "리조트 내부 식음료 매장으로 뉴월드 푸꾸옥 상세(facilities)로 통합 안내"
+  },
+  {
+    "id": "khem-draft-035",
+    "public_name": "마레바 켐비치 호텔 푸꾸옥",
+    "name_local": "Mareva Khem Beach Hotel Phu Quoc",
+    "slug": "mareva-khem-beach-hotel-phu-quoc",
+    "category": "hotels",
+    "subcategory": "hotel",
+    "address": "Mareva Khem Beach Hotel Phu Quoc, Sun Premier Village Khem Beach, Phú Quốc, An Giang, Vietnam",
+    "google_maps_name": "Mareva Khem Beach Hotel Phu Quoc",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJKc_twDOXpzERttkoGDyrvjI",
+    "place_id": "ChIJKc_twDOXpzERttkoGDyrvjI",
+    "lat": 10.0382427,
+    "lng": 104.0252881,
+    "phone": "미확인",
+    "website_url": "미확인",
+    "hours": "24시간 운영",
+    "google_rating": 4.7,
+    "google_review_count": 69,
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
     "verification_status": "verified",
-    "verification_note": "뉴월드 푸꾸옥 리조트 전용 스파 시설",
-    "google_rating": null,
-    "google_review_count": null,
+    "description_ko": "바이켐 숍하우스 구역에 위치한 호텔로, 켐비치 백사장까지 도보로 이동 가능한 숙박 시설입니다.",
+    "description_en": "A hotel located in the Bai Khem shophouse area within walking distance of Khem Beach.",
+    "facilities": "미확인",
     "gallery_urls": [
       "/zones/khem-beach-hero.webp"
     ],
+    "source_urls": [
+      "https://www.google.com/maps/place/?q=place_id:ChIJKc_twDOXpzERttkoGDyrvjI"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach-hero.webp",
+        "credit_text": "Photo by Vivu Vietnam on Unsplash (Kem Beach, Phu Quoc)",
+        "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-with-palm-trees-and-umbrellas-6_Q8uFjJpms"
+      }
+    ],
+    "google_place_id": "ChIJKc_twDOXpzERttkoGDyrvjI",
     "tags": [
       "Khem Beach",
-      "wellness"
+      "hotels",
+      "hotel"
     ],
-    "zone": "khem-beach"
+    "facilities_en": "Guestrooms, 24-hour reception, within walking distance of Bai Khem Beach",
+    "exclusion_reason": "부티크 호텔 등록 제외 방침 (리조트 3곳만 등록)"
+  },
+  {
+    "id": "khem-draft-032",
+    "public_name": "드래프트 비어 바이켐",
+    "name_local": "Draft Beer Bai Khem Phu Quoc",
+    "slug": "draft-beer-bai-khem",
+    "category": "bars",
+    "subcategory": "beach_pub",
+    "address": "Bãi Khem, Phú Quốc, An Giang, Vietnam",
+    "google_maps_name": "Draft Beer Bai Khem Phu Quoc",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_UwInh-XpzERL3bKuuPz_sw",
+    "place_id": "ChIJ_UwInh-XpzERL3bKuuPz_sw",
+    "lat": 10.0362806,
+    "lng": 104.0305404,
+    "website_url": "미확인",
+    "rating_check_date": "2026-10-30",
+    "status": "published",
+    "verification_status": "verified",
+    "description_ko": "상세 정보 준비 중",
+    "description_en": "Details coming soon",
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "source_urls": [
+      "https://www.google.com/maps/place/?q=place_id:ChIJ_UwInh-XpzERL3bKuuPz_sw"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach-hero.webp",
+        "credit_text": "Photo by Vivu Vietnam on Unsplash (Kem Beach, Phu Quoc)",
+        "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-with-palm-trees-and-umbrellas-6_Q8uFjJpms"
+      }
+    ],
+    "google_place_id": "ChIJ_UwInh-XpzERL3bKuuPz_sw",
+    "tags": [
+      "Khem Beach",
+      "dining",
+      "beer-pub"
+    ],
+    "display_mode": "name_only",
+    "internal_verified": {
+      "google_rating": 3.5,
+      "google_review_count": 835,
+      "rating_check_date": "2026-10-30",
+      "phone": "+84 889 777 077",
+      "hours": "10:00 - 23:00",
+      "draft_description_ko": "바이켐(Bãi Khem) 백사장 바로 앞에 자리한 개방형 해변 펍 겸 해산물 식당입니다. 바다를 마주한 야외 좌석에서 시원한 생맥주와 현지 해산물 요리를 즐길 수 있습니다. 탁 트인 해변 경관과 함께 가벼운 음료나 식사를 곁들이기 좋은 캐주얼한 공간입니다. 매일 오전 10시부터 오후 11시까지 운영하며 매장 내 식사와 포장이 가능합니다.",
+      "draft_description_en": "An open-air beachfront pub and seafood restaurant situated right on the sands of Bãi Khem. Guests can enjoy cold draft beer and local seafood dishes while taking in direct ocean views from open-air beachfront seating. The venue offers a casual, relaxed atmosphere suited for seaside drinks and dining. Operating daily from 10:00 AM to 11:00 PM with dine-in and takeaway options.",
+      "source_map": {
+        "sentence_1": {
+          "fact": "개방형 해변 펍 겸 해산물 식당",
+          "url": "https://www.google.com/maps/place/Draft+Beer+Bai+Khem+Phu+Quoc/@10.0362806,104.0305404,17z/data=!3m1!4b1!4m6!3m5!1s0x31a7971f9e084cfd:0xccfef3e3baca762f!8m2!3d10.0362806!4d104.0305404!16s%2Fg%2F11rk27wrj7",
+          "evidence_file": "evidence_v5b/evidence_01_draft_beer_place.png"
+        },
+        "sentence_2": {
+          "fact": "바다 마주한 야외 좌석, 생맥주 및 현지 해산물 요리",
+          "url": "https://www.google.com/maps/place/Draft+Beer+Bai+Khem+Phu+Quoc/@10.0362806,104.0305404,17z/data=!3m1!4b1!4m6!3m5!1s0x31a7971f9e084cfd:0xccfef3e3baca762f!8m2!3d10.0362806!4d104.0305404!16s%2Fg%2F11rk27wrj7",
+          "evidence_file": "evidence_v5b/evidence_01_draft_beer_place.png"
+        },
+        "sentence_3": {
+          "fact": "탁 트인 해변 경관과 캐주얼한 휴식 분위기",
+          "reviews": [
+            {
+              "source": "Wanderlog (2024-04)",
+              "quote": "Great open-air beach pub right by Khem Beach, refreshing cold beer and ocean breeze"
+            },
+            {
+              "source": "PhuQuocMap (2024-06)",
+              "quote": "Casual outdoor dining on the sand, relaxing beach views near southern resorts"
+            },
+            {
+              "source": "Trip.com (2024-09)",
+              "quote": "Convenient spot for cold beers and seafood right on the beach"
+            }
+          ],
+          "evidence_file": "evidence_v5b/evidence_08_draft_beer_reviews.png"
+        },
+        "sentence_4": {
+          "fact": "운영시간 매일 10:00-23:00, 매장 내 식사 및 포장",
+          "url": "https://www.google.com/maps/place/Draft+Beer+Bai+Khem+Phu+Quoc/@10.0362806,104.0305404,17z/data=!3m1!4b1!4m6!3m5!1s0x31a7971f9e084cfd:0xccfef3e3baca762f!8m2!3d10.0362806!4d104.0305404!16s%2Fg%2F11rk27wrj7",
+          "evidence_file": "evidence_v5b/evidence_01_draft_beer_place.png"
+        }
+      },
+      "address_raw": "22PJ+H6 Draft Beer Bai Khem Phu Quoc, Phú Quốc, An Giang, Vietnam"
+    }
+  },
+  {
+    "id": "khem-draft-013",
+    "public_name": "앤 시푸드 레스토랑",
+    "name_local": "Ann Seafood Restaurant",
+    "slug": "ann-seafood-restaurant",
+    "category": "dining",
+    "subcategory": "seafood",
+    "address": "Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
+    "google_maps_name": "Ann Seafood",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJMwe2gsuXpzERYM-EJba18Po",
+    "place_id": "ChIJMwe2gsuXpzERYM-EJba18Po",
+    "lat": 10.0366286,
+    "lng": 104.0306752,
+    "phone": "미확인",
+    "website_url": "미확인",
+    "hours": "10:00 - 23:00 (구글맵 표기 기준)",
+    "google_rating": 4.8,
+    "google_review_count": 4199,
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
+    "verification_status": "verified",
+    "description_ko": "바이켐 숍하우스 구역에 위치한 해산물 전문 식당으로 다양한 현지 해산물 메뉴를 조리하여 제공합니다.",
+    "description_en": "A seafood restaurant located in the Bai Khem area offering local seafood preparations.",
+    "facilities": "미확인",
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "source_urls": [
+      "https://www.google.com/maps/place/?q=place_id:ChIJMwe2gsuXpzERYM-EJba18Po"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach-hero.webp",
+        "credit_text": "Photo by Vivu Vietnam on Unsplash (Kem Beach, Phu Quoc)",
+        "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-with-palm-trees-and-umbrellas-6_Q8uFjJpms"
+      }
+    ],
+    "google_place_id": "ChIJMwe2gsuXpzERYM-EJba18Po",
+    "tags": [
+      "Khem Beach",
+      "dining",
+      "seafood"
+    ],
+    "facilities_en": "Fresh seafood display tanks, grilled seafood, air-conditioned and open seating",
+    "exclusion_reason": "비치 펍 외 일반 식당 등록 제외 방침"
+  },
+  {
+    "id": "khem-draft-016",
+    "public_name": "이스탄불 비치클럽 푸꾸옥",
+    "name_local": "Istanbul Bai Kem",
+    "slug": "istanbul-beach-club-phu-quoc",
+    "category": "bars",
+    "subcategory": "beach-club",
+    "address": "Lo06, Bãi Khem, Phú Quốc, An Giang 920000, Vietnam",
+    "google_maps_name": "Istanbul Bai Kem",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJo_k30uyXpzERwwH_mtvJ1aQ",
+    "place_id": "ChIJo_k30uyXpzERwwH_mtvJ1aQ",
+    "lat": 10.0379402,
+    "lng": 104.0313019,
+    "website_url": "미확인",
+    "rating_check_date": "2026-10-30",
+    "status": "published",
+    "verification_status": "verified",
+    "description_ko": "상세 정보 준비 중",
+    "description_en": "Details coming soon",
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "source_urls": [
+      "https://www.google.com/maps/place/?q=place_id:ChIJo_k30uyXpzERwwH_mtvJ1aQ"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach-hero.webp",
+        "credit_text": "Photo by Vivu Vietnam on Unsplash (Kem Beach, Phu Quoc)",
+        "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-with-palm-trees-and-umbrellas-6_Q8uFjJpms"
+      }
+    ],
+    "google_place_id": "ChIJo_k30uyXpzERwwH_mtvJ1aQ",
+    "tags": [
+      "Khem Beach",
+      "bars",
+      "beach-club"
+    ],
+    "display_mode": "name_only",
+    "internal_verified": {
+      "google_rating": 4.8,
+      "google_review_count": 4056,
+      "rating_check_date": "2026-10-30",
+      "phone": "+84 949 440 144",
+      "hours": "08:00 - 23:45",
+      "draft_description_ko": "바이켐 해변 백사장에 위치한 지중해 테마의 비치 클럽 겸 레스토랑입니다. 해변 좌석에서 터키식 케밥과 고기 꼬치구이, 피자, 지중해식 샐러드 및 칵테일을 제공합니다. 리뷰에서는 바다 바로 앞의 휴양 분위기, 케밥 요리, 칵테일 구성에 대한 호평이 이어지고 있습니다. 매일 오전 8시부터 오후 11시 45분까지 늦은 밤까지 운영합니다.",
+      "draft_description_en": "A Mediterranean-inspired beach club and dining venue set directly on the white sands of Bãi Khem. The venue serves authentic Turkish kebabs, grilled meat skewers, pizzas, mezze salads, and tropical cocktails right on the beach. Visitor reviews frequently highlight the vibrant seaside atmosphere, seasoned meat skewers, and evening lounge vibe. Open daily from 8:00 AM until late (11:45 PM).",
+      "source_map": {
+        "sentence_1": {
+          "fact": "백사장 위치 지중해 테마 비치 클럽 겸 레스토랑",
+          "url": "https://www.google.com/maps/place/Istanbul+Bai+Kem/@10.0379402,104.0313019,17z/data=!3m1!4b1!4m6!3m5!1s0x31a797ecd237f9a3:0xa4d5c9db9aff01c3!8m2!3d10.0379402!4d104.0313019!16s%2Fg%2F11s956xr5f",
+          "evidence_file": "evidence_v5b/evidence_04_istanbul_place.png"
+        },
+        "sentence_2": {
+          "fact": "터키식 케밥, 고기 꼬치구이, 피자, 지중해식 샐러드, 칵테일",
+          "url": "https://www.google.com/maps/place/Istanbul+Bai+Kem/@10.0379402,104.0313019,17z/data=!3m1!4b1!4m6!3m5!1s0x31a797ecd237f9a3:0xa4d5c9db9aff01c3!8m2!3d10.0379402!4d104.0313019!16s%2Fg%2F11s956xr5f",
+          "evidence_file": "evidence_v5b/evidence_04_istanbul_place.png"
+        },
+        "sentence_3": {
+          "fact": "해변 휴양 분위기, 케밥 및 꼬치요리, 칵테일 호평",
+          "reviews": [
+            {
+              "source": "Wanderlog (2024-05)",
+              "quote": "Authentic Turkish kebabs and chicken skewers right on the beach with chic boho vibe"
+            },
+            {
+              "source": "Wanderboat (2024-07)",
+              "quote": "Grilled meat skewers, mezze, and great cocktail presentations by the waves"
+            },
+            {
+              "source": "VisitPhuQuoc (2024-09)",
+              "quote": "Vibrant beach club atmosphere, Halal kebabs, evening lanterns and sea view"
+            }
+          ],
+          "evidence_file": "evidence_v5b/evidence_11_istanbul_reviews.png"
+        },
+        "sentence_4": {
+          "fact": "운영시간 매일 08:00-23:45",
+          "url": "https://www.google.com/maps/place/Istanbul+Bai+Kem/@10.0379402,104.0313019,17z/data=!3m1!4b1!4m6!3m5!1s0x31a797ecd237f9a3:0xa4d5c9db9aff01c3!8m2!3d10.0379402!4d104.0313019!16s%2Fg%2F11s956xr5f",
+          "evidence_file": "evidence_v5b/evidence_04_istanbul_place.png"
+        }
+      },
+      "address_raw": "Lo06, Bai Khem, Phú Quốc, An Giang 920000 베트남"
+    }
+  },
+  {
+    "id": "khem-draft-034",
+    "public_name": "카이선 레스토랑 & 바",
+    "name_local": "Kaisun Restaurant & Bar",
+    "slug": "kaisun-restaurant-and-bar",
+    "category": "bars",
+    "subcategory": "beach_pub",
+    "address": "Bãi Khem, Phú Quốc, An Giang 922288, Vietnam",
+    "google_maps_name": "Kaisun Restaurant & Bar",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJA6Ns_eOXpzEReRCODKQQ3S8",
+    "place_id": "ChIJA6Ns_eOXpzEReRCODKQQ3S8",
+    "lat": 10.0374233,
+    "lng": 104.0311396,
+    "website_url": "미확인",
+    "rating_check_date": "2026-10-30",
+    "status": "published",
+    "verification_status": "verified",
+    "description_ko": "상세 정보 준비 중",
+    "description_en": "Details coming soon",
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "source_urls": [
+      "https://www.google.com/maps/place/?q=place_id:ChIJA6Ns_eOXpzEReRCODKQQ3S8"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach-hero.webp",
+        "credit_text": "Photo by Vivu Vietnam on Unsplash (Kem Beach, Phu Quoc)",
+        "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-with-palm-trees-and-umbrellas-6_Q8uFjJpms"
+      }
+    ],
+    "google_place_id": "ChIJA6Ns_eOXpzEReRCODKQQ3S8",
+    "tags": [
+      "Khem Beach",
+      "dining",
+      "restaurant-bar"
+    ],
+    "display_mode": "name_only",
+    "internal_verified": {
+      "google_rating": 4.7,
+      "google_review_count": 1022,
+      "rating_check_date": "2026-10-30",
+      "phone": "+84 98 948 11 88",
+      "hours": "09:00 - 22:30",
+      "draft_description_ko": "켐비치 해변 백사장에 위치한 비치사이드 레스토랑 겸 바로, 실내와 바다 앞 야외 좌석을 모두 갖추고 있습니다. 베트남 현지 해산물 요리와 함께 오븐 화덕 피자, 열대 칵테일을 선보입니다. 방문객 리뷰에서는 치즈 피자와 해산물 구이, 친절한 직원 응대가 반복적으로 호평을 받고 있습니다. 매일 오전 9시부터 오후 10시 30분까지 운영합니다.",
+      "draft_description_en": "A beachside restaurant and bar situated along Khem Beach, featuring both indoor and beachfront open-air seating. The kitchen serves fresh Vietnamese seafood specialties, oven-baked pizzas, and tropical cocktails. Reviews frequently praise the cheese pizzas, grilled seafood, and friendly staff hospitality. Open daily from 9:00 AM to 10:30 PM.",
+      "source_map": {
+        "sentence_1": {
+          "fact": "비치사이드 레스토랑 겸 바, 실내 및 백사장 야외 좌석",
+          "url": "https://www.google.com/maps/place/Kaisun+Restaurant+%26+Bar/@10.0374233,104.0311396,17z/data=!3m1!4b1!4m6!3m5!1s0x31a797e3fd6ca303:0x2fdd10a40c8e1079!8m2!3d10.0374233!4d104.0311396!16s%2Fg%2F11y47rn12k",
+          "evidence_file": "evidence_v5b/evidence_03_kaisun_place.png"
+        },
+        "sentence_2": {
+          "fact": "현지 해산물 요리, 화덕 피자, 열대 칵테일",
+          "url": "https://www.google.com/maps/place/Kaisun+Restaurant+%26+Bar/@10.0374233,104.0311396,17z/data=!3m1!4b1!4m6!3m5!1s0x31a797e3fd6ca303:0x2fdd10a40c8e1079!8m2!3d10.0374233!4d104.0311396!16s%2Fg%2F11y47rn12k",
+          "evidence_file": "evidence_v5b/evidence_03_kaisun_place.png"
+        },
+        "sentence_3": {
+          "fact": "치즈 피자, 해산물 구이, 친절한 직원 서비스 호평",
+          "reviews": [
+            {
+              "source": "RestaurantsPhuQuoc (2024-04)",
+              "quote": "Pizza 4 Cheese is rich and highly praised, great beachfront setting"
+            },
+            {
+              "source": "Wanderboat (2024-06)",
+              "quote": "Staff service rated exceptional with warm hospitality, fresh grilled seafood"
+            },
+            {
+              "source": "PhuQuocMap (2024-09)",
+              "quote": "Wood-fired pizzas and grilled squid/prawns right on the sand with chill sunset views"
+            }
+          ],
+          "evidence_file": "evidence_v5b/evidence_10_kaisun_reviews.png"
+        },
+        "sentence_4": {
+          "fact": "운영시간 매일 09:00-22:30",
+          "url": "https://www.google.com/maps/place/Kaisun+Restaurant+%26+Bar/@10.0374233,104.0311396,17z/data=!3m1!4b1!4m6!3m5!1s0x31a797e3fd6ca303:0x2fdd10a40c8e1079!8m2!3d10.0374233!4d104.0311396!16s%2Fg%2F11y47rn12k",
+          "evidence_file": "evidence_v5b/evidence_03_kaisun_place.png"
+        }
+      },
+      "address_raw": "22PJ+XF Phu Quoc, 안장 성 베트남"
+    }
+  },
+  {
+    "id": "khem-draft-033",
+    "public_name": "더 덱 푸꾸옥 (키친 & 비치바)",
+    "name_local": "The Deck Phu Quoc - Kitchen & Beach Bar",
+    "slug": "the-deck-phu-quoc",
+    "category": "bars",
+    "subcategory": "beach-bar",
+    "address": "22, Bãi Khem, Phú Quốc, An Giang 91000, Vietnam",
+    "google_maps_name": "The Deck Phu Quoc - Kitchen & Beach Bar",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJNfSPMQaXpzEREMCGeU9aXEI",
+    "place_id": "ChIJNfSPMQaXpzEREMCGeU9aXEI",
+    "lat": 10.0369743,
+    "lng": 104.0308526,
+    "website_url": "미확인",
+    "rating_check_date": "2026-10-30",
+    "status": "published",
+    "verification_status": "verified",
+    "description_ko": "상세 정보 준비 중",
+    "description_en": "Details coming soon",
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "source_urls": [
+      "https://www.google.com/maps/place/?q=place_id:ChIJNfSPMQaXpzEREMCGeU9aXEI"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach-hero.webp",
+        "credit_text": "Photo by Vivu Vietnam on Unsplash (Kem Beach, Phu Quoc)",
+        "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-with-palm-trees-and-umbrellas-6_Q8uFjJpms"
+      }
+    ],
+    "google_place_id": "ChIJNfSPMQaXpzEREMCGeU9aXEI",
+    "tags": [
+      "Khem Beach",
+      "bars",
+      "beach-bar"
+    ],
+    "display_mode": "name_only",
+    "internal_verified": {
+      "google_rating": 4.6,
+      "google_review_count": 1515,
+      "rating_check_date": "2026-10-30",
+      "phone": "+84 94 246 22 88",
+      "hours": "09:00 - 21:00",
+      "draft_description_ko": "바이켐 해변 모래사장과 맞닿은 오픈형 키친 겸 비치 바로, 목재 데크 테라스와 해변 좌석을 갖추고 있습니다. 신선한 해산물 요리와 파스타 등 인터내셔널 메뉴, 시그니처 칵테일을 함께 제공합니다. 방문객 리뷰에서는 해변 일몰 조망과 칵테일, 파스타 메뉴의 만족도가 공통적으로 언급됩니다. 매일 오전 9시부터 오후 9시까지 운영하며 해변가 휴식과 식사를 즐길 수 있습니다.",
+      "draft_description_en": "An open-air kitchen and beach bar situated right on the sands of Bãi Khem, featuring wooden decking and beachfront seating. The menu offers fresh seafood, pasta dishes, and tropical signature cocktails. Diner reviews consistently highlight the relaxed sunset views, cocktail selections, and beachfront dining atmosphere. Open daily from 9:00 AM to 9:00 PM for casual beachside lounging and meals.",
+      "source_map": {
+        "sentence_1": {
+          "fact": "오픈형 키친 겸 비치 바, 목재 테라스와 해변 좌석",
+          "url": "https://www.google.com/maps/place/The+Deck+Phu+Quoc+-+Kitchen+%26+Beach+Bar/@10.0369743,104.0308526,17z/data=!3m1!4b1!4m6!3m5!1s0x31a79706318ff435:0x425c5a4f7986c010!8m2!3d10.0369743!4d104.0308526!16s%2Fg%2F11svg3gcxl",
+          "evidence_file": "evidence_v5b/evidence_02_the_deck_place.png"
+        },
+        "sentence_2": {
+          "fact": "해산물, 파스타 등 인터내셔널 메뉴, 시그니처 칵테일",
+          "url": "https://www.google.com/maps/place/The+Deck+Phu+Quoc+-+Kitchen+%26+Beach+Bar/@10.0369743,104.0308526,17z/data=!3m1!4b1!4m6!3m5!1s0x31a79706318ff435:0x425c5a4f7986c010!8m2!3d10.0369743!4d104.0308526!16s%2Fg%2F11svg3gcxl",
+          "evidence_file": "evidence_v5b/evidence_02_the_deck_place.png"
+        },
+        "sentence_3": {
+          "fact": "일몰 조망, 칵테일, 파스타 메뉴 호평",
+          "reviews": [
+            {
+              "source": "Wanderlog (2024-03)",
+              "quote": "Stunning beach views, relaxing sunset atmosphere and delicious cocktails"
+            },
+            {
+              "source": "PhuQuocMap (2024-05)",
+              "quote": "Seafood options alongside pasta, creative salads and tropical cocktails"
+            },
+            {
+              "source": "Trip.com (2024-08)",
+              "quote": "Quiet beach atmosphere at Bai Khem, perfect sunset view and friendly staff"
+            }
+          ],
+          "evidence_file": "evidence_v5b/evidence_09_the_deck_reviews.png"
+        },
+        "sentence_4": {
+          "fact": "운영시간 매일 09:00-21:00",
+          "url": "https://www.google.com/maps/place/The+Deck+Phu+Quoc+-+Kitchen+%26+Beach+Bar/@10.0369743,104.0308526,17z/data=!3m1!4b1!4m6!3m5!1s0x31a79706318ff435:0x425c5a4f7986c010!8m2!3d10.0369743!4d104.0308526!16s%2Fg%2F11svg3gcxl",
+          "evidence_file": "evidence_v5b/evidence_02_the_deck_place.png"
+        }
+      },
+      "address_raw": "The Deck Phu Quoc - Kitchen & Beach Bar, PJ + R88, 22, Bãi Khem, Phú Quốc, An Giang 91000, Vietnam"
+    }
+  },
+  {
+    "id": "khem-draft-031",
+    "public_name": "오이스터 다이닝 & 비치 바",
+    "name_local": "Oyster Dining & Beach Bar Phu Quoc",
+    "slug": "oyster-dining-and-beach-bar",
+    "category": "dining",
+    "subcategory": "seafood",
+    "address": "Bai Kem Beach, An Thoi Ward, Phu Quoc City, Kien Giang Province, Vietnam",
+    "google_maps_name": "Oyster Dining & Beach Bar (구글맵 단독 핀 부재)",
+    "google_maps_url": "https://visitphuquoc.com.vn/en/oyster-dining-beach-bar-restaurant",
+    "place_id": "미확인",
+    "lat": "미확인",
+    "lng": "미확인",
+    "phone": "미확인",
+    "website_url": "https://visitphuquoc.com.vn/en/oyster-dining-beach-bar-restaurant",
+    "hours": "08:00 - 23:00 (공식 소개 사이트 표기 기준)",
+    "google_rating": "미확인",
+    "google_review_count": "미확인",
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
+    "verification_status": "partial",
+    "description_ko": "바이켐 해변에 자리한 다이닝 & 비치 바 레스토랑으로, 실내 및 야외 좌석에서 현지 해산물 요리와 퓨전 요리를 선보입니다.",
+    "description_en": "A beachfront dining and bar venue on Bai Khem, offering indoor and open-air seating with local seafood and fusion cuisine.",
+    "facilities": "미확인",
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "source_urls": [
+      "https://visitphuquoc.com.vn/en/oyster-dining-beach-bar-restaurant"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach-hero.webp",
+        "credit_text": "Photo by Vivu Vietnam on Unsplash (Kem Beach, Phu Quoc)",
+        "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-with-palm-trees-and-umbrellas-6_Q8uFjJpms"
+      }
+    ],
+    "google_place_id": null,
+    "tags": [
+      "Khem Beach",
+      "dining",
+      "seafood"
+    ],
+    "facilities_en": "Beachfront dining and bar, indoor and outdoor seating, seafood and fusion dishes",
+    "exclusion_reason": "구글맵 단독 핀 및 실재 여부 미확인으로 등록 대상 제외"
+  },
+  {
+    "id": "khem-draft-015",
+    "public_name": "타잉 응아 꽌",
+    "name_local": "Thanh Nga Seafood Beach Restaurant",
+    "slug": "thanh-nga-quan",
+    "category": "dining",
+    "subcategory": "seafood",
+    "address": "Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
+    "google_maps_name": "Thanh Nga Seafood beach restaurant",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJc94dJtyXpzERBMOqu0G8zDE",
+    "place_id": "ChIJc94dJtyXpzERBMOqu0G8zDE",
+    "lat": 10.0410221,
+    "lng": 104.0340026,
+    "phone": "+84 782 207 705",
+    "website_url": "미확인",
+    "hours": "08:00 - 22:00 (구글맵 표기 기준)",
+    "google_rating": 4.2,
+    "google_review_count": 553,
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
+    "verification_status": "verified",
+    "description_ko": "바이켐 해변 북단에 위치한 현지 로컬 해산물 식당으로 해산물 조리 메뉴를 제공합니다.",
+    "description_en": "Local seafood beach restaurant situated on northern Bai Khem serving seafood dishes.",
+    "facilities": "미확인",
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "source_urls": [
+      "https://www.google.com/maps/place/?q=place_id:ChIJc94dJtyXpzERBMOqu0G8zDE"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach-hero.webp",
+        "credit_text": "Photo by Vivu Vietnam on Unsplash (Kem Beach, Phu Quoc)",
+        "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-with-palm-trees-and-umbrellas-6_Q8uFjJpms"
+      }
+    ],
+    "google_place_id": "ChIJc94dJtyXpzERBMOqu0G8zDE",
+    "tags": [
+      "Khem Beach",
+      "dining",
+      "seafood"
+    ],
+    "facilities_en": "Beachfront seafood restaurant, local Phu Quoc seafood specialties",
+    "exclusion_reason": "비치 펍 외 일반 식당 등록 제외 방침"
   },
   {
     "id": "khem-draft-023",
     "public_name": "바이켐 해변",
-    "name_local": "Bãi Khem Beach",
+    "name_local": "Bãi Khem Beach (Kem Beach)",
     "slug": "bai-khem-beach",
     "category": "beaches",
     "subcategory": "beach",
-    "address": "Bãi Khem, An Thới, Phú Quốc, An Giang",
-    "description_en": "바이켐 해변 located at Khem Beach, Phu Quoc.",
-    "description_ko": "푸꾸옥 켐비치에 위치한 바이켐 해변.",
-    "google_maps_name": "Bãi Khem Beach",
-    "google_maps_url": null,
-    "phone": null,
-    "website_url": null,
-    "instagram_url": null,
+    "address": "Khem Beach, An Thới, Phú Quốc, An Giang 920000, Vietnam",
+    "google_maps_name": "Khem Beach",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ677owMeWpzERsRurcR7BOYE",
+    "place_id": "ChIJ677owMeWpzERsRurcR7BOYE",
+    "lat": 10.0366839,
+    "lng": 104.0310431,
+    "phone": "미확인",
+    "website_url": "미확인",
+    "hours": "연중무휴 상시 개방",
+    "google_rating": 4.4,
+    "google_review_count": 2187,
+    "rating_check_date": "2026-10-30",
     "status": "published",
     "verification_status": "verified",
-    "verification_note": "구글맵 공식 장소 및 Unsplash 위치태그(3wqun2PnZqo) 확인된 천연 백사장 해변",
-    "google_rating": null,
-    "google_review_count": null,
+    "verification_note": "실제 방문·체크인 POI 핀은 ChIJ677owMeWpzERsRurcR7BOYE(좌표 10.0366839, 104.0310431, 리뷰 2,187개). 구역 지리적 폴리곤 ID인 ChIJyT4u7LmXpzER6gZ0yq3HBAA(좌표 10.0298533, 104.0322303)와 교차 확인 완료.",
+    "description_ko": "푸꾸옥 남동부에 위치한 자연 백사장 해변. 완만한 수심과 모래사장, 바다 전망을 갖춘 공공 해변입니다.",
+    "description_en": "Natural white sand beach located in southeastern Phu Quoc featuring calm sea waters and coastal scenery.",
+    "facilities": {
+      "beach_access": "공공 해변 개방"
+    },
     "gallery_urls": [
       "/zones/khem-beach-hero.webp"
     ],
+    "source_urls": [
+      "https://www.google.com/maps/place/?q=place_id:ChIJ677owMeWpzERsRurcR7BOYE"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach-hero.webp",
+        "credit_text": "Photo by Vivu Vietnam on Unsplash (Kem Beach, Phu Quoc)",
+        "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-with-palm-trees-and-umbrellas-6_Q8uFjJpms"
+      }
+    ],
+    "internal_notes": "구글맵 교차 검증: POI 핀 ChIJ677owMeWpzERsRurcR7BOYE, 지리적 구역 폴리곤 ChIJyT4u7LmXpzER6gZ0yq3HBAA",
+    "google_place_id": "ChIJ677owMeWpzERsRurcR7BOYE",
     "tags": [
       "Khem Beach",
-      "beaches"
+      "beaches",
+      "beach"
     ],
-    "zone": "khem-beach"
+    "facilities_en": {
+      "beach_access": "Public beach access with white sand shoreline"
+    },
+    "internal_verified": {
+      "address_raw": "Khem Beach, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam"
+    }
   },
   {
     "id": "khem-draft-024",
     "public_name": "프리미어 레지던스 해양 레저 센터",
     "name_local": "Water Sports at Premier Residences",
-    "slug": "water-sports-premier-residences",
+    "slug": "water-sports-at-premier-residences",
     "category": "activities",
-    "subcategory": "water_sports",
-    "address": "Bãi Khem Beach, An Thới, Phú Quốc",
-    "description_en": "프리미어 레지던스 해양 레저 센터 located at Khem Beach, Phu Quoc.",
-    "description_ko": "푸꾸옥 켐비치에 위치한 프리미어 레지던스 해양 레저 센터.",
-    "google_maps_name": "Water Sports at Premier Residences",
-    "google_maps_url": null,
-    "phone": null,
-    "website_url": null,
-    "instagram_url": null,
-    "status": "published",
-    "verification_status": "verified",
-    "verification_note": "카약 및 SUP 패들보드 등 무동력 해양 레저 운영 확인",
-    "google_rating": null,
-    "google_review_count": null,
+    "subcategory": "water-sports",
+    "address": "Premier Residences, Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
+    "google_maps_name": "Water Sports at Premier Residences (리조트 귀속, 단독 핀 미분리)",
+    "google_maps_url": "https://premierresidencesphuquoc.com/emerald-spa-recreation/fitness-recreation/",
+    "place_id": "미확인",
+    "lat": 10.0353026,
+    "lng": 104.0274945,
+    "phone": "미확인",
+    "website_url": "https://premierresidencesphuquoc.com/emerald-spa-recreation/fitness-recreation/",
+    "hours": "미확인 (기상 상황에 따라 운영)",
+    "google_rating": "미확인",
+    "google_review_count": "미확인",
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
+    "verification_status": "partial",
+    "description_ko": "프리미어 레지던스 앞 바이켐 해변에서 운영되는 수상 레저 시설로 카약과 SUP 패들보드 장비를 대여합니다.",
+    "description_en": "Beach water sports desk in front of Premier Residences providing kayaks and SUP paddleboards.",
+    "facilities": {
+      "equipment": "카약(Kayaking), 스탠드업 패들보드(SUP boarding)",
+      "source_url": "https://premierresidencesphuquoc.com/emerald-spa-recreation/fitness-recreation/"
+    },
     "gallery_urls": [
-      "/zones/khem-beach-hero.webp"
+      "/zones/khem-beach/images/premier-residences-phu-quoc-emerald-bay/premier-residences-overview.jpg"
     ],
+    "source_urls": [
+      "https://premierresidencesphuquoc.com/emerald-spa-recreation/fitness-recreation/"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach/images/premier-residences-phu-quoc-emerald-bay/premier-residences-overview.jpg",
+        "credit_text": "Image: Premier Residences Phu Quoc Emerald Bay (premierresidencesphuquoc.com)",
+        "source_page_url": "https://premierresidencesphuquoc.com/"
+      }
+    ],
+    "google_place_id": null,
     "tags": [
       "Khem Beach",
-      "activities"
+      "activities",
+      "water-sports"
     ],
-    "zone": "khem-beach"
+    "facilities_en": {
+      "equipment": "Kayaking and stand-up paddleboarding (SUP) equipment",
+      "source_url": "https://premierresidencesphuquoc.com/emerald-spa-recreation/fitness-recreation/"
+    },
+    "exclusion_reason": "리조트 및 비치 펍 한정 등록 방침에 따라 편의시설 제외"
   },
   {
     "id": "khem-draft-026",
@@ -585,27 +1995,95 @@
     "name_local": "Taxi Stand Khem Beach Resorts",
     "slug": "taxi-stand-khem-beach-resorts",
     "category": "transport",
-    "subcategory": "taxi",
-    "address": "Cổng các khu nghỉ dưỡng Bãi Khem, An Thới, Phú Quốc",
-    "description_en": "푸꾸옥 택시 승강장 (켐비치 리조트 게이트) located at Khem Beach, Phu Quoc.",
-    "description_ko": "푸꾸옥 켐비치에 위치한 푸꾸옥 택시 승강장 (켐비치 리조트 게이트).",
-    "google_maps_name": "Taxi Stand Khem Beach Resorts",
-    "google_maps_url": null,
-    "phone": null,
-    "website_url": null,
-    "instagram_url": null,
-    "status": "published",
-    "verification_status": "verified",
-    "verification_note": "프리미어 레지던스 공식 교통 안내 페이지 확인 (리조트 로비 택시/차량 서비스 및 공항 셔틀 운영)",
-    "google_rating": null,
-    "google_review_count": null,
+    "subcategory": "taxi-stand",
+    "address": "Bãi Khem Resort Gate, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
+    "google_maps_name": "Taxi Stand Khem Beach Resorts (구글맵 단독 핀 미분리)",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJn6kim_SXpzERd6rlRMQmpZc",
+    "place_id": "미확인",
+    "lat": 10.0353026,
+    "lng": 104.0274945,
+    "phone": "미확인",
+    "website_url": "미확인",
+    "hours": "24시간 상시 대기",
+    "google_rating": "미확인",
+    "google_review_count": "미확인",
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
+    "verification_status": "partial",
+    "description_ko": "바이켐 리조트 단지 진입로 게이트 부근의 택시 탑승 구역.",
+    "description_en": "Taxi boarding area located near the main entrance gates of Khem Beach resorts.",
+    "facilities": "택시 승차 및 차량 회차 공간",
     "gallery_urls": [
       "/zones/khem-beach-hero.webp"
     ],
+    "source_urls": [
+      "https://www.google.com/maps/place/?q=place_id:ChIJn6kim_SXpzERd6rlRMQmpZc"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach-hero.webp",
+        "credit_text": "Photo by Vivu Vietnam on Unsplash (Kem Beach, Phu Quoc)",
+        "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-with-palm-trees-and-umbrellas-6_Q8uFjJpms"
+      }
+    ],
+    "google_place_id": null,
     "tags": [
       "Khem Beach",
-      "transport"
+      "transport",
+      "taxi-stand"
     ],
-    "zone": "khem-beach"
+    "facilities_en": "Taxi queue and pickup stand serving Khem Beach resorts",
+    "exclusion_reason": "리조트 및 비치 펍 한정 등록 방침에 따라 편의시설 제외"
+  },
+  {
+    "id": "khem-draft-025",
+    "public_name": "ATM 비엣콤뱅크 · BIDV (JW 메리어트 입구)",
+    "name_local": "ATM Vietcombank & BIDV (JW Marriott Entrance)",
+    "slug": "atm-vietcombank-bidv-jw-marriott",
+    "category": "banking",
+    "subcategory": "atm",
+    "address": "22PF+8V6 JW Marriott Entrance, Bãi Khem, Phú Quốc, Kiên Giang, Vietnam",
+    "google_maps_name": "ATM Vietcombank / BIDV ATM",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJHb8567mWpzER64OgWXrzHkc",
+    "place_id": "ChIJHb8567mWpzER64OgWXrzHkc",
+    "lat": 10.035788,
+    "lng": 104.024647,
+    "phone": "미확인",
+    "website_url": "미확인",
+    "hours": "24시간 운영",
+    "google_rating": "미확인",
+    "google_review_count": "미확인",
+    "rating_check_date": "2026-10-30",
+    "status": "hidden",
+    "verification_status": "verified",
+    "verification_note": "기존 DB 수록 place_id ChIJHb8567mWpzER64OgWXrzHkc 대조 확인 완료 (현 로컬 DB local-sunset-288 연계)",
+    "description_ko": "JW 메리어트 및 바이켐 리조트 단지 입구 진입로에 설치된 24시간 현금자동입출금기.",
+    "description_en": "24-hour ATM machines situated near the entrance of JW Marriott and Khem Beach resorts.",
+    "facilities": "24시간 ATM 기기",
+    "gallery_urls": [
+      "/zones/khem-beach-hero.webp"
+    ],
+    "source_urls": [
+      "https://www.google.com/maps/place/?q=place_id:ChIJHb8567mWpzER64OgWXrzHkc"
+    ],
+    "verified_at": "2026-10-30T11:00:00+07:00",
+    "zone": "khem-beach",
+    "image_credits": [
+      {
+        "file": "/zones/khem-beach-hero.webp",
+        "credit_text": "Photo by Vivu Vietnam on Unsplash (Kem Beach, Phu Quoc)",
+        "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-with-palm-trees-and-umbrellas-6_Q8uFjJpms"
+      }
+    ],
+    "google_place_id": "ChIJHb8567mWpzER64OgWXrzHkc",
+    "tags": [
+      "Khem Beach",
+      "banking",
+      "atm"
+    ],
+    "facilities_en": "24-hour ATMs (Vietcombank & BIDV) located near JW Marriott entrance gate",
+    "exclusion_reason": "리조트 및 비치 펍 한정 등록 방침에 따라 편의시설 제외"
   }
 ]

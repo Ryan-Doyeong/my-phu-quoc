@@ -2853,10 +2853,9 @@
     "place_id": "local-sunset-288",
     "google_place_id": "ChIJHb8567mWpzER64OgWXrzHkc",
     "name": "ATM Vietcombank, BIDV ATM",
-    "zone": "khem-beach",
+    "zone": "sunset-town",
     "public_category": "banking",
     "service_areas": [
-      "khem-beach",
       "sunset-town-adjacent"
     ]
   },
@@ -2892,7 +2891,7 @@
   },
   "khem-draft-001": {
     "place_id": "khem-draft-001",
-    "google_place_id": null,
+    "google_place_id": "ChIJLZPWxLiWpzERwrkgfIa1P8I",
     "name": "JW 메리어트 푸꾸옥 에메랄드 베이 리조트 & 스파",
     "zone": "khem-beach",
     "public_category": "hotels",
@@ -2902,7 +2901,7 @@
   },
   "khem-draft-002": {
     "place_id": "khem-draft-002",
-    "google_place_id": null,
+    "google_place_id": "ChIJn6kim_SXpzERd6rlRMQmpZc",
     "name": "프리미어 레지던스 푸꾸옥 에메랄드 베이",
     "zone": "khem-beach",
     "public_category": "hotels",
@@ -2912,7 +2911,7 @@
   },
   "khem-draft-003": {
     "place_id": "khem-draft-003",
-    "google_place_id": null,
+    "google_place_id": "ChIJy5uCwXCXpzERQSR2-hAgnuo",
     "name": "뉴월드 푸꾸옥 리조트",
     "zone": "khem-beach",
     "public_category": "hotels",
@@ -2922,7 +2921,7 @@
   },
   "khem-draft-004": {
     "place_id": "khem-draft-004",
-    "google_place_id": null,
+    "google_place_id": "ChIJ--GCQXqXpzER7itlt0HX5Ps",
     "name": "파랄리아 켐비치 호텔 푸꾸옥",
     "zone": "khem-beach",
     "public_category": "hotels",
@@ -2932,7 +2931,7 @@
   },
   "khem-draft-005": {
     "place_id": "khem-draft-005",
-    "google_place_id": null,
+    "google_place_id": "ChIJhfbFBaCXpzER-fkbP-fwDcI",
     "name": "JM 부티크 호텔 푸꾸옥",
     "zone": "khem-beach",
     "public_category": "hotels",
@@ -2942,7 +2941,7 @@
   },
   "khem-draft-006": {
     "place_id": "khem-draft-006",
-    "google_place_id": null,
+    "google_place_id": "ChIJpyMOH-WXpzERgb6Kly4H7QA",
     "name": "앤 호텔 & 스파 푸꾸옥",
     "zone": "khem-beach",
     "public_category": "hotels",
@@ -2952,7 +2951,7 @@
   },
   "khem-draft-007": {
     "place_id": "khem-draft-007",
-    "google_place_id": null,
+    "google_place_id": "ChIJp_ryeK-XpzERKtgeuSUzPMk",
     "name": "핑크 펄",
     "zone": "khem-beach",
     "public_category": "dining",
@@ -2962,7 +2961,7 @@
   },
   "khem-draft-008": {
     "place_id": "khem-draft-008",
-    "google_place_id": null,
+    "google_place_id": "ChIJeZJAoFGXpzEREV_d11IUwpo",
     "name": "템푸스 푸짓",
     "zone": "khem-beach",
     "public_category": "dining",
@@ -2972,7 +2971,7 @@
   },
   "khem-draft-009": {
     "place_id": "khem-draft-009",
-    "google_place_id": null,
+    "google_place_id": "ChIJnSaU6pOXpzERmJbwp953evg",
     "name": "레드 럼",
     "zone": "khem-beach",
     "public_category": "dining",
@@ -2982,7 +2981,7 @@
   },
   "khem-draft-010": {
     "place_id": "khem-draft-010",
-    "google_place_id": null,
+    "google_place_id": "ChIJ7Qidld2XpzERrbRKjtEg0Do",
     "name": "클럽하우스 레스토랑",
     "zone": "khem-beach",
     "public_category": "dining",
@@ -3002,7 +3001,7 @@
   },
   "khem-draft-012": {
     "place_id": "khem-draft-012",
-    "google_place_id": null,
+    "google_place_id": "ChIJDTtRkEeXpzER0YWCULD-TeA",
     "name": "더 베이 키친",
     "zone": "khem-beach",
     "public_category": "dining",
@@ -3012,7 +3011,7 @@
   },
   "khem-draft-017": {
     "place_id": "khem-draft-017",
-    "google_place_id": null,
+    "google_place_id": "ChIJlRtyQYOXpzEROqImw3nAJF0",
     "name": "디파트먼트 오브 케미스트리 바",
     "zone": "khem-beach",
     "public_category": "bars",
@@ -3022,7 +3021,7 @@
   },
   "khem-draft-018": {
     "place_id": "khem-draft-018",
-    "google_place_id": null,
+    "google_place_id": "ChIJBR2AMf2XpzERKaMeLRIfAdk",
     "name": "프렌치 앤 코",
     "zone": "khem-beach",
     "public_category": "bars",
@@ -3033,7 +3032,7 @@
   "khem-draft-019": {
     "place_id": "khem-draft-019",
     "google_place_id": null,
-    "name": "풀 바",
+    "name": "풀 바 (프리미어 레지던스)",
     "zone": "khem-beach",
     "public_category": "bars",
     "service_areas": [
@@ -3042,7 +3041,7 @@
   },
   "khem-draft-020": {
     "place_id": "khem-draft-020",
-    "google_place_id": null,
+    "google_place_id": "ChIJwQL9nQOXpzERYXxOiZ-PB1g",
     "name": "샹트렐 스파 바이 JW",
     "zone": "khem-beach",
     "public_category": "wellness",
@@ -3052,7 +3051,7 @@
   },
   "khem-draft-021": {
     "place_id": "khem-draft-021",
-    "google_place_id": null,
+    "google_place_id": "ChIJqc1FyFmXpzERV5UOP0OCXMk",
     "name": "에메랄드 스파",
     "zone": "khem-beach",
     "public_category": "wellness",
@@ -3072,7 +3071,7 @@
   },
   "khem-draft-023": {
     "place_id": "khem-draft-023",
-    "google_place_id": null,
+    "google_place_id": "ChIJ677owMeWpzERsRurcR7BOYE",
     "name": "바이켐 해변",
     "zone": "khem-beach",
     "public_category": "beaches",
@@ -3096,6 +3095,116 @@
     "name": "푸꾸옥 택시 승강장 (켐비치 리조트 게이트)",
     "zone": "khem-beach",
     "public_category": "transport",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-029": {
+    "place_id": "khem-draft-029",
+    "google_place_id": "ChIJjVU-q62XpzERMLgQeXaY4S0",
+    "name": "루아 그릴 & 바",
+    "zone": "khem-beach",
+    "public_category": "dining",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-030": {
+    "place_id": "khem-draft-030",
+    "google_place_id": null,
+    "name": "더 라운지 (뉴월드 푸꾸옥)",
+    "zone": "khem-beach",
+    "public_category": "bars",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-035": {
+    "place_id": "khem-draft-035",
+    "google_place_id": "ChIJKc_twDOXpzERttkoGDyrvjI",
+    "name": "마레바 켐비치 호텔 푸꾸옥",
+    "zone": "khem-beach",
+    "public_category": "hotels",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-032": {
+    "place_id": "khem-draft-032",
+    "google_place_id": "ChIJ_UwInh-XpzERL3bKuuPz_sw",
+    "name": "드래프트 비어 바이켐",
+    "zone": "khem-beach",
+    "public_category": "bars",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-013": {
+    "place_id": "khem-draft-013",
+    "google_place_id": "ChIJMwe2gsuXpzERYM-EJba18Po",
+    "name": "앤 시푸드 레스토랑",
+    "zone": "khem-beach",
+    "public_category": "dining",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-016": {
+    "place_id": "khem-draft-016",
+    "google_place_id": "ChIJo_k30uyXpzERwwH_mtvJ1aQ",
+    "name": "이스탄불 비치클럽 푸꾸옥",
+    "zone": "khem-beach",
+    "public_category": "bars",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-034": {
+    "place_id": "khem-draft-034",
+    "google_place_id": "ChIJA6Ns_eOXpzEReRCODKQQ3S8",
+    "name": "카이선 레스토랑 & 바",
+    "zone": "khem-beach",
+    "public_category": "bars",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-033": {
+    "place_id": "khem-draft-033",
+    "google_place_id": "ChIJNfSPMQaXpzEREMCGeU9aXEI",
+    "name": "더 덱 푸꾸옥 (키친 & 비치바)",
+    "zone": "khem-beach",
+    "public_category": "bars",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-031": {
+    "place_id": "khem-draft-031",
+    "google_place_id": null,
+    "name": "오이스터 다이닝 & 비치 바",
+    "zone": "khem-beach",
+    "public_category": "dining",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-015": {
+    "place_id": "khem-draft-015",
+    "google_place_id": "ChIJc94dJtyXpzERBMOqu0G8zDE",
+    "name": "타잉 응아 꽌",
+    "zone": "khem-beach",
+    "public_category": "dining",
+    "service_areas": [
+      "khem-beach"
+    ]
+  },
+  "khem-draft-025": {
+    "place_id": "khem-draft-025",
+    "google_place_id": "ChIJHb8567mWpzER64OgWXrzHkc",
+    "name": "ATM 비엣콤뱅크 · BIDV (JW 메리어트 입구)",
+    "zone": "khem-beach",
+    "public_category": "banking",
     "service_areas": [
       "khem-beach"
     ]
