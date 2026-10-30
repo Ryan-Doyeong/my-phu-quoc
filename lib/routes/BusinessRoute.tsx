@@ -18,6 +18,7 @@ import { BusinessCover } from '@/components/BusinessCover'
 import { getCoverPhoto } from '@/lib/coverPhotos'
 import { loadMenuForPlace } from '@/lib/menus'
 import businessesRegistry from '@/data/businesses-registry.json'
+import khemBusinesses from '@/data/khem-beach-businesses.json'
 import { categoryLabel, nearbyBadgeText, formatLocalizedAddress } from '@/lib/directory'
 import { stockGalleryFor } from '@/lib/stockImages'
 import { imageUrl } from '@/lib/imageUrl'
@@ -102,7 +103,10 @@ export async function generateBusinessMetadata(
     b = data
   } catch {}
   if (!b) {
-    b = (businessesRegistry as any[]).find((x) => x.slug === slug) || null
+    b =
+      (businessesRegistry as any[]).find((x) => x.slug === slug) ||
+      (khemBusinesses as any[]).find((x) => x.slug === slug) ||
+      null
   }
   if (!b) return {}
 
@@ -171,7 +175,10 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
     b = data
   } catch {}
   if (!b) {
-    b = (businessesRegistry as any[]).find((x) => x.slug === slug) || null
+    b =
+      (businessesRegistry as any[]).find((x) => x.slug === slug) ||
+      (khemBusinesses as any[]).find((x) => x.slug === slug) ||
+      null
   }
   if (!b || b.slug === 'sunset-place-4' || b.slug === 'sunset-place-8' || b.id === 'local-sunset-139' || b.id === 'local-sunset-240') {
     if (DELETED_SLUG_REDIRECTS[slug]) {
@@ -337,19 +344,67 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
           }
 
           if ((b.gallery_urls || []).length > 0) {
+            const hasCredits = Array.isArray(b.image_credits) && b.image_credits.length > 0
             return (
-              <div className="photoGallery">
-                {b.gallery_urls.slice(0, 8).map((p: string, i: number) => (
-                  <div key={i} className={i === 0 ? 'galleryTile main' : 'galleryTile'}>
-                    <img
-                      src={imageUrl(p, i === 0 ? 1400 : 760, i === 0 ? 76 : 70)}
-                      alt={`${businessDisplayName} image ${i + 1}`}
-                      loading={i === 0 ? 'eager' : 'lazy'}
-                      decoding="async"
-                    />
-                    {badgeText && <span>{badgeText}</span>}
+              <div className="galleryContainer">
+                <div className="photoGallery">
+                  {b.gallery_urls.slice(0, 8).map((p: string, i: number) => {
+                    const credit = b.image_credits?.[i]
+                    return (
+                      <div key={i} className={i === 0 ? 'galleryTile main' : 'galleryTile'}>
+                        <img
+                          src={imageUrl(p, i === 0 ? 1400 : 760, i === 0 ? 76 : 70)}
+                          alt={`${businessDisplayName} image ${i + 1}`}
+                          loading={i === 0 ? 'eager' : 'lazy'}
+                          decoding="async"
+                        />
+                        {badgeText && <span>{badgeText}</span>}
+                        {credit?.credit_text && (
+                          <div className="tileCreditOverlay">
+                            {credit.source_page_url && credit.source_page_url !== '미확인' ? (
+                              <a href={credit.source_page_url} target="_blank" rel="noopener noreferrer">
+                                {credit.credit_text}
+                              </a>
+                            ) : (
+                              <span>{credit.credit_text}</span>
+                            )}
+                          </div>
+                        )}
+                      </div>
+                    )
+                  })}
+                </div>
+                {hasCredits && (
+                  <div className="galleryCreditsFooter">
+                    <span>
+                      {locale === 'ko'
+                        ? '사진 출처:'
+                        : locale === 'zh'
+                        ? '图片来源:'
+                        : locale === 'ja'
+                        ? '写真出典:'
+                        : locale === 'ru'
+                        ? 'Источник фото:'
+                        : locale === 'hi'
+                        ? 'फोटो स्रोत:'
+                        : locale === 'vi'
+                        ? 'Nguồn ảnh:'
+                        : 'Photo Source:'}
+                    </span>{' '}
+                    {b.image_credits.slice(0, 8).map((c: any, ci: number) => (
+                      <span key={ci} className="galleryCreditItem">
+                        {c.source_page_url && c.source_page_url !== '미확인' ? (
+                          <a href={c.source_page_url} target="_blank" rel="noopener noreferrer">
+                            {c.credit_text}
+                          </a>
+                        ) : (
+                          <span>{c.credit_text}</span>
+                        )}
+                        {ci < Math.min(b.image_credits.length, 8) - 1 ? ' · ' : ''}
+                      </span>
+                    ))}
                   </div>
-                ))}
+                )}
               </div>
             )
           }
@@ -401,6 +456,23 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                       {dict.business.reviewsCount(
                         Number(b.google_review_count).toLocaleString()
                       )}
+                    </span>
+                  ) : null}
+                  {b.rating_check_date ? (
+                    <span className="ratingCheckDate">
+                      ({locale === 'ko'
+                        ? `${b.rating_check_date} 기준`
+                        : locale === 'zh'
+                        ? `截至 ${b.rating_check_date}`
+                        : locale === 'ja'
+                        ? `${b.rating_check_date} 時点`
+                        : locale === 'ru'
+                        ? `по сост. на ${b.rating_check_date}`
+                        : locale === 'hi'
+                        ? `${b.rating_check_date} तक`
+                        : locale === 'vi'
+                        ? `tính đến ${b.rating_check_date}`
+                        : `as of ${b.rating_check_date}`})
                     </span>
                   ) : null}
                 </>
@@ -493,6 +565,48 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                     </div>
                   </>
                 )}
+              {b.facilities &&
+                typeof b.facilities === 'object' &&
+                Object.keys(b.facilities).length > 0 && (
+                  <div className="facilitiesSection">
+                    <h3>{locale === 'ko' ? '주요 시설 및 편의정보' : 'Key Facilities & Services'}</h3>
+                    <div className="facilitiesCardList">
+                      {Object.entries(b.facilities).map(([fk, fv]: [string, any]) => {
+                        const fTitle = fk
+                          .replace(/_/g, ' ')
+                          .replace(/\b\w/g, (c) => c.toUpperCase())
+                        const fText =
+                          typeof fv === 'object' && fv !== null
+                            ? fv.detail || JSON.stringify(fv)
+                            : String(fv)
+                        const fSource =
+                          typeof fv === 'object' && fv !== null ? fv.source_url : null
+                        return (
+                          <div key={fk} className="facilityItem">
+                            <strong className="facilityKey">{fTitle}</strong>
+                            <p className="facilityDetail">{fText}</p>
+                            {fSource && fSource !== '미확인' && (
+                              <a
+                                href={fSource}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="facilitySourceLink"
+                              >
+                                {locale === 'ko' ? '공식 안내 페이지 ↗' : 'Official Page ↗'}
+                              </a>
+                            )}
+                          </div>
+                        )
+                      })}
+                    </div>
+                  </div>
+                )}
+              {b.facilities && typeof b.facilities === 'string' && (
+                <div className="facilitiesSection">
+                  <h3>{locale === 'ko' ? '편의시설' : 'Facilities'}</h3>
+                  <p className="facilitySimpleText">{b.facilities}</p>
+                </div>
+              )}
             </article>
 
             {/* 2. Menu & Prices (Good Life style standalone card) */}
