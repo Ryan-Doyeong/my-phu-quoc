@@ -194,6 +194,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
   const badgeText = getPhotoBadgeText(b.media_note, locale, photos[0])
   const nearbyText = nearbyBadgeText(b.address, b.tags, b.badges, locale)
   const isKhem = b.zone === 'khem-beach' || (b.id && String(b.id).startsWith('khem-'))
+  const isNameOnly = b.display_mode === 'name_only'
   const catLabel =
     isKhem && b.category === 'bars'
       ? locale === 'ko'
@@ -211,7 +212,19 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
   const subLabel = b.subcategory
     ? translateTerm(b.subcategory, locale)
     : translateTerm('General', locale)
-  const localizedDescription = selectBusinessDescription(b, locale) || dict.business.detailsPreparing
+  const localizedDescription = isNameOnly
+    ? locale === 'ko'
+      ? '상세 정보 준비 중'
+      : locale === 'vi'
+      ? 'Đang cập nhật chi tiết'
+      : locale === 'zh'
+      ? '详细信息准备中'
+      : locale === 'ja'
+      ? '詳細情報準備中'
+      : locale === 'ru'
+      ? 'Информация готовится'
+      : 'Details coming soon'
+    : selectBusinessDescription(b, locale) || dict.business.detailsPreparing
   const placeIdMatch = b.google_maps_url
     ? b.google_maps_url.match(/place_id:([A-Za-z0-9_-]+)/) ||
       b.google_maps_url.match(/place_id=([A-Za-z0-9_-]+)/)
@@ -221,15 +234,16 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
   const businessDisplayName = displayBusinessName(b, locale)
 
   const isDiningOrFood =
-    b.category === 'dining' ||
-    b.category === 'food' ||
-    b.category === 'cafe' ||
-    b.category === 'bars' ||
-    Boolean(menuData)
+    !isNameOnly &&
+    (b.category === 'dining' ||
+      b.category === 'food' ||
+      b.category === 'cafe' ||
+      b.category === 'bars' ||
+      Boolean(menuData))
 
   const foodGuide = isDiningOrFood ? getFoodGuideForBusiness(b, menuData) : null
-  const categoryGuide = !isDiningOrFood && !isKhem ? getKnowledgeGuideForBusiness(b, menuData) : null
-  const reviewAnalysis = analyzeGoogleReviews(b, locale)
+  const categoryGuide = !isNameOnly && !isDiningOrFood && !isKhem ? getKnowledgeGuideForBusiness(b, menuData) : null
+  const reviewAnalysis = !isNameOnly ? analyzeGoogleReviews(b, locale) : null
 
   const jsonLd: any = {
     '@context': 'https://schema.org',
@@ -470,7 +484,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
               )
             })()}
             <div className="ratingLine">
-              {b.google_rating ? (
+              {!isNameOnly && b.google_rating ? (
                 <>
                   <strong>★ {Number(b.google_rating).toFixed(1)}</strong>
                   {b.google_review_count ? (
@@ -501,28 +515,32 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
               ) : null}
               <span>{formatLocalizedAddress(b.address, locale)}</span>
             </div>
-            <div className="tagList businessTags">
-              {(() => {
-                const seen = new Set<string>()
-                const tagsToRender = (b.tags || []).map((x: string) => translateTerm(x, locale)).filter((t: string) => {
-                  if (!t) return false
-                  if (seen.has(t)) return false
-                  seen.add(t)
-                  return true
-                })
-                return tagsToRender.map((t: string) => <span key={t}>{t}</span>)
-              })()}
-            </div>
+            {!isNameOnly && (
+              <div className="tagList businessTags">
+                {(() => {
+                  const seen = new Set<string>()
+                  const tagsToRender = (b.tags || []).map((x: string) => translateTerm(x, locale)).filter((t: string) => {
+                    if (!t) return false
+                    if (seen.has(t)) return false
+                    seen.add(t)
+                    return true
+                  })
+                  return tagsToRender.map((t: string) => <span key={t}>{t}</span>)
+                })()}
+              </div>
+            )}
           </div>
-          <SocialIcons
-            website={b.website_url}
-            facebook={b.facebook_url}
-            instagram={b.instagram_url}
-            tiktok={b.tiktok_url}
-            businessId={b.id}
-          />
+          {!isNameOnly && (
+            <SocialIcons
+              website={b.website_url}
+              facebook={b.facebook_url}
+              instagram={b.instagram_url}
+              tiktok={b.tiktok_url}
+              businessId={b.id}
+            />
+          )}
         </div>
-        {b.media_note && (
+        {!isNameOnly && b.media_note && (
           <div className="mediaDisclosure">
             <strong>{dict.business.photoNoteTitle}</strong>{' '}
             <span>{dict.business.photoNoteDesc}</span>
@@ -534,142 +552,146 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
             <article className="detailCard">
               <h2>{dict.business.aboutPlace}</h2>
               <p className="detailLead">{localizedDescription}</p>
-              {Array.isArray(b.highlights) && b.highlights.length > 0 && (
+              {!isNameOnly && (
                 <>
-                  <h3>{dict.business.whyConsider}</h3>
-                  <ul className="featureList">
-                    {b.highlights.map((x: string) => (
-                      <li key={x}>{translateTerm(x, locale)}</li>
-                    ))}
-                  </ul>
-                </>
-              )}
-              {Array.isArray(b.services) && b.services.length > 0 && (
-                <>
-                  <h3>
-                    {b.category === 'food' || b.category === 'cafe' || b.category === 'dining'
-                      ? dict.business.menuExperience
-                      : b.category === 'workout'
-                      ? dict.business.trainingClasses
-                      : dict.business.servicesExperience}
-                  </h3>
-                  <div className="tagList">
-                    {b.services.map((x: string) => (
-                      <span key={x}>{translateTerm(x, locale)}</span>
-                    ))}
-                  </div>
-                </>
-              )}
-              {b.editor_note && (
-                <section className="editorsNote">
-                  <span className="eyebrow">{dict.business.editorsNoteEyebrow}</span>
-                  <h3>{dict.business.fromOurVisit}</h3>
-                  <p>{b.editor_note}</p>
-                  <small>
-                    {b.editor_name || dict.business.editorDefaultName}
-                    {b.editor_visited_at
-                      ? ` · ${dict.business.visitedPrefix} ${new Date(
-                          `${b.editor_visited_at}T00:00:00`
-                        ).toLocaleDateString(dateLocaleFor(locale), {
-                          year: 'numeric',
-                          month: 'short',
-                          day: 'numeric',
-                        })}`
-                      : ''}
-                  </small>
-                </section>
-              )}
-              {b.amenities &&
-                typeof b.amenities === 'object' &&
-                Object.keys(b.amenities).length > 0 && (
-                  <>
-                    <h3>{dict.business.amenities}</h3>
-                    <div className="amenityGrid">
-                      {Object.entries(b.amenities).map(([k, v]) => (
-                        <div key={k}>
-                          <strong>{translateTerm(k.replaceAll('_', ' '), locale)}</strong>
-                          <span>{translateTerm(String(v), locale)}</span>
-                        </div>
-                      ))}
-                    </div>
-                  </>
-                )}
-              {(() => {
-                const isKo = locale === 'ko'
-                const rawFacilities = !isKo && b.facilities_en ? b.facilities_en : b.facilities
-                if (!rawFacilities || rawFacilities === '미확인') return null
-
-                const KOREAN_FACILITY_KEYS: Record<string, string> = {
-                  accommodations: '객실',
-                  pools: '수영장',
-                  dining_and_bars: '식당·바',
-                  spa_and_wellness: '스파·웰니스',
-                  fitness_and_activities: '피트니스·액티비티',
-                  beach_facilities: '해변 시설',
-                  beach_access: '해변 접근성',
-                  transport_and_shuttle: '교통·셔틀',
-                  notices_and_status: '공지·운영 상태',
-                  equipment: '장비 대여',
-                }
-
-                if (typeof rawFacilities === 'object' && Object.keys(rawFacilities).length > 0) {
-                  const validEntries = Object.entries(rawFacilities).filter(([, fv]: [string, any]) => {
-                    if (!fv || fv === '미확인') return false
-                    if (typeof fv === 'object' && fv !== null && fv.detail === '미확인') return false
-                    return true
-                  })
-
-                  if (validEntries.length === 0) return null
-
-                  return (
-                    <div className="facilitiesSection">
-                      <h3>{isKo ? '주요 시설 및 편의정보' : 'Key Facilities & Services'}</h3>
-                      <div className="facilitiesCardList">
-                        {validEntries.map(([fk, fv]: [string, any]) => {
-                          const fTitle = isKo
-                            ? (KOREAN_FACILITY_KEYS[fk] || fk.replace(/_/g, ' '))
-                            : fk
-                                .replace(/_/g, ' ')
-                                .replace(/\b\w/g, (c) => c.toUpperCase())
-                          const fText =
-                            typeof fv === 'object' && fv !== null
-                              ? fv.detail || JSON.stringify(fv)
-                              : String(fv)
-                          const fSource =
-                            typeof fv === 'object' && fv !== null ? fv.source_url : null
-                          return (
-                            <div key={fk} className="facilityItem">
-                              <strong className="facilityKey">{fTitle}</strong>
-                              <p className="facilityDetail">{fText}</p>
-                              {fSource && fSource !== '미확인' && (
-                                <a
-                                  href={fSource}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="facilitySourceLink"
-                                >
-                                  {isKo ? '공식 안내 페이지 ↗' : 'Official Page ↗'}
-                                </a>
-                              )}
-                            </div>
-                          )
-                        })}
+                  {Array.isArray(b.highlights) && b.highlights.length > 0 && (
+                    <>
+                      <h3>{dict.business.whyConsider}</h3>
+                      <ul className="featureList">
+                        {b.highlights.map((x: string) => (
+                          <li key={x}>{translateTerm(x, locale)}</li>
+                        ))}
+                      </ul>
+                    </>
+                  )}
+                  {Array.isArray(b.services) && b.services.length > 0 && (
+                    <>
+                      <h3>
+                        {b.category === 'food' || b.category === 'cafe' || b.category === 'dining'
+                          ? dict.business.menuExperience
+                          : b.category === 'workout'
+                          ? dict.business.trainingClasses
+                          : dict.business.servicesExperience}
+                      </h3>
+                      <div className="tagList">
+                        {b.services.map((x: string) => (
+                          <span key={x}>{translateTerm(x, locale)}</span>
+                        ))}
                       </div>
-                    </div>
-                  )
-                }
+                    </>
+                  )}
+                  {b.editor_note && (
+                    <section className="editorsNote">
+                      <span className="eyebrow">{dict.business.editorsNoteEyebrow}</span>
+                      <h3>{dict.business.fromOurVisit}</h3>
+                      <p>{b.editor_note}</p>
+                      <small>
+                        {b.editor_name || dict.business.editorDefaultName}
+                        {b.editor_visited_at
+                          ? ` · ${dict.business.visitedPrefix} ${new Date(
+                              `${b.editor_visited_at}T00:00:00`
+                            ).toLocaleDateString(dateLocaleFor(locale), {
+                              year: 'numeric',
+                              month: 'short',
+                              day: 'numeric',
+                            })}`
+                          : ''}
+                      </small>
+                    </section>
+                  )}
+                  {b.amenities &&
+                    typeof b.amenities === 'object' &&
+                    Object.keys(b.amenities).length > 0 && (
+                      <>
+                        <h3>{dict.business.amenities}</h3>
+                        <div className="amenityGrid">
+                          {Object.entries(b.amenities).map(([k, v]) => (
+                            <div key={k}>
+                              <strong>{translateTerm(k.replaceAll('_', ' '), locale)}</strong>
+                              <span>{translateTerm(String(v), locale)}</span>
+                            </div>
+                          ))}
+                        </div>
+                      </>
+                    )}
+                  {(() => {
+                    const isKo = locale === 'ko'
+                    const rawFacilities = !isKo && b.facilities_en ? b.facilities_en : b.facilities
+                    if (!rawFacilities || rawFacilities === '미확인') return null
 
-                if (typeof rawFacilities === 'string' && rawFacilities.trim() !== '미확인') {
-                  return (
-                    <div className="facilitiesSection">
-                      <h3>{isKo ? '편의시설' : 'Facilities'}</h3>
-                      <p className="facilitySimpleText">{rawFacilities}</p>
-                    </div>
-                  )
-                }
+                    const KOREAN_FACILITY_KEYS: Record<string, string> = {
+                      accommodations: '객실',
+                      pools: '수영장',
+                      dining_and_bars: '식당·바',
+                      spa_and_wellness: '스파·웰니스',
+                      fitness_and_activities: '피트니스·액티비티',
+                      beach_facilities: '해변 시설',
+                      beach_access: '해변 접근성',
+                      transport_and_shuttle: '교통·셔틀',
+                      notices_and_status: '공지·운영 상태',
+                      equipment: '장비 대여',
+                    }
 
-                return null
-              })()}
+                    if (typeof rawFacilities === 'object' && Object.keys(rawFacilities).length > 0) {
+                      const validEntries = Object.entries(rawFacilities).filter(([, fv]: [string, any]) => {
+                        if (!fv || fv === '미확인') return false
+                        if (typeof fv === 'object' && fv !== null && fv.detail === '미확인') return false
+                        return true
+                      })
+
+                      if (validEntries.length === 0) return null
+
+                      return (
+                        <div className="facilitiesSection">
+                          <h3>{isKo ? '주요 시설 및 편의정보' : 'Key Facilities & Services'}</h3>
+                          <div className="facilitiesCardList">
+                            {validEntries.map(([fk, fv]: [string, any]) => {
+                              const fTitle = isKo
+                                ? (KOREAN_FACILITY_KEYS[fk] || fk.replace(/_/g, ' '))
+                                : fk
+                                    .replace(/_/g, ' ')
+                                    .replace(/\b\w/g, (c) => c.toUpperCase())
+                              const fText =
+                                typeof fv === 'object' && fv !== null
+                                  ? fv.detail || JSON.stringify(fv)
+                                  : String(fv)
+                              const fSource =
+                                typeof fv === 'object' && fv !== null ? fv.source_url : null
+                              return (
+                                <div key={fk} className="facilityItem">
+                                  <strong className="facilityKey">{fTitle}</strong>
+                                  <p className="facilityDetail">{fText}</p>
+                                  {fSource && fSource !== '미확인' && (
+                                    <a
+                                      href={fSource}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="facilitySourceLink"
+                                    >
+                                      {isKo ? '공식 안내 페이지 ↗' : 'Official Page ↗'}
+                                    </a>
+                                  )}
+                                </div>
+                              )
+                            })}
+                          </div>
+                        </div>
+                      )
+                    }
+
+                    if (typeof rawFacilities === 'string' && rawFacilities.trim() !== '미확인') {
+                      return (
+                        <div className="facilitiesSection">
+                          <h3>{isKo ? '편의시설' : 'Facilities'}</h3>
+                          <p className="facilitySimpleText">{rawFacilities}</p>
+                        </div>
+                      )
+                    }
+
+                    return null
+                  })()}
+                </>
+              )}
             </article>
 
             {/* 2. Menu & Prices (Good Life style standalone card) */}
@@ -711,7 +733,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
             )}
 
             {/* 5. Reviews & Community */}
-            <BusinessReviews b={b} locale={locale} />
+            {!isNameOnly && <BusinessReviews b={b} locale={locale} />}
           </div>
 
           {/* Right Column: Practical information (Good Life 100% style) */}
@@ -723,7 +745,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
           />
         </div>
       </section>
-      <BusinessInstagram b={b} locale={locale} />
+      {!isNameOnly && <BusinessInstagram b={b} locale={locale} />}
     </main>
   )
 }

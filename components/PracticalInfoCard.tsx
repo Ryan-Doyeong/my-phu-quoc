@@ -128,6 +128,7 @@ export function PracticalInfoCard({
   const isVi = locale === 'vi'
 
   const isKhem = b.zone === 'khem-beach' || (b.id && String(b.id).startsWith('khem-'))
+  const isNameOnly = b.display_mode === 'name_only'
   const lastUpdated = isKhem ? (b.verified_at || '2026-10-30') : (b.listing_checked_at || b.last_verified_at || b.updated_at)
   const dateFormatted = lastUpdated
     ? new Date(lastUpdated).toLocaleDateString(dateLocaleFor(locale), {
@@ -168,10 +169,22 @@ export function PracticalInfoCard({
           <div className="practicalInfoBody">
             <div className="practicalInfoLabel">{businessTypeLabel}</div>
             <div className="practicalInfoValue">
-              {b.subcategory
+              {isKhem && b.category === 'bars'
+                ? locale === 'ko'
+                  ? '비치 펍'
+                  : locale === 'vi'
+                  ? 'Quán bar bãi biển'
+                  : locale === 'zh'
+                  ? '海滩酒吧'
+                  : locale === 'ja'
+                  ? 'ビーチパブ'
+                  : locale === 'ru'
+                  ? 'Пляжные бары'
+                  : 'Beach Pubs & Bars'
+                : b.subcategory
                 ? translateTerm(b.subcategory, locale)
                 : translateTerm(b.category || 'General', locale)}
-              {nearbyText ? ` · ${nearbyText}` : ''}
+              {!isNameOnly && nearbyText ? ` · ${nearbyText}` : ''}
             </div>
           </div>
         </div>
@@ -192,7 +205,7 @@ export function PracticalInfoCard({
         )}
 
         {/* 3. Phone */}
-        {b.phone && (
+        {!isNameOnly && b.phone && (
           <div className="practicalInfoRow">
             <div className="practicalInfoIcon">📞</div>
             <div className="practicalInfoBody">
@@ -209,7 +222,7 @@ export function PracticalInfoCard({
         )}
 
         {/* 4. Hours */}
-        {hours && hours.length > 0 && (
+        {!isNameOnly && hours && hours.length > 0 && (
           <div className="practicalInfoRow">
             <div className="practicalInfoIcon">🕒</div>
             <div className="practicalInfoBody">
@@ -239,7 +252,7 @@ export function PracticalInfoCard({
         )}
 
         {/* 5. Price range */}
-        {b.price_level && (
+        {!isNameOnly && b.price_level && (
           <div className="practicalInfoRow">
             <div className="practicalInfoIcon">💰</div>
             <div className="practicalInfoBody">
@@ -254,7 +267,7 @@ export function PracticalInfoCard({
         )}
 
         {/* 6. Services & Dining Style */}
-        {Array.isArray(b.services) && b.services.length > 0 && (
+        {!isNameOnly && Array.isArray(b.services) && b.services.length > 0 && (
           <div className="practicalInfoRow">
             <div className="practicalInfoIcon">🛵</div>
             <div className="practicalInfoBody">
@@ -267,7 +280,8 @@ export function PracticalInfoCard({
         )}
 
         {/* 7. Amenities */}
-        {b.amenities &&
+        {!isNameOnly &&
+          b.amenities &&
           typeof b.amenities === 'object' &&
           Object.keys(b.amenities).length > 0 && (
             <div className="practicalInfoRow">

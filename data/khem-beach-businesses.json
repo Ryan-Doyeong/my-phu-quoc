@@ -1391,17 +1391,12 @@
     "place_id": "ChIJ_UwInh-XpzERL3bKuuPz_sw",
     "lat": 10.0362806,
     "lng": 104.0305404,
-    "phone": "+84 889 777 077",
     "website_url": "미확인",
-    "hours": "10:00 - 23:00",
-    "google_rating": 3.5,
-    "google_review_count": 835,
     "rating_check_date": "2026-10-30",
     "status": "published",
     "verification_status": "verified",
-    "description_ko": "바이켐 해변가에 위치한 오픈형 펍 레스토랑으로 생맥주와 음식 메뉴를 판매합니다.",
-    "description_en": "An open-air beachfront beer restaurant on Bai Khem serving draft beers and dining dishes.",
-    "facilities": "미확인",
+    "description_ko": "상세 정보 준비 중",
+    "description_en": "Details coming soon",
     "gallery_urls": [
       "/zones/khem-beach-hero.webp"
     ],
@@ -1423,7 +1418,51 @@
       "dining",
       "beer-pub"
     ],
-    "facilities_en": "Open-air beachfront pub seating, draft beer on tap, Vietnamese seafood dishes"
+    "display_mode": "name_only",
+    "internal_verified": {
+      "google_rating": 3.5,
+      "google_review_count": 835,
+      "rating_check_date": "2026-10-30",
+      "phone": "+84 889 777 077",
+      "hours": "10:00 - 23:00",
+      "draft_description_ko": "바이켐(Bãi Khem) 백사장 바로 앞에 자리한 개방형 해변 펍 겸 해산물 식당입니다. 바다를 마주한 야외 좌석에서 시원한 생맥주와 현지 해산물 요리를 즐길 수 있습니다. 탁 트인 해변 경관과 함께 가벼운 음료나 식사를 곁들이기 좋은 캐주얼한 공간입니다. 매일 오전 10시부터 오후 11시까지 운영하며 매장 내 식사와 포장이 가능합니다.",
+      "draft_description_en": "An open-air beachfront pub and seafood restaurant situated right on the sands of Bãi Khem. Guests can enjoy cold draft beer and local seafood dishes while taking in direct ocean views from open-air beachfront seating. The venue offers a casual, relaxed atmosphere suited for seaside drinks and dining. Operating daily from 10:00 AM to 11:00 PM with dine-in and takeaway options.",
+      "source_map": {
+        "sentence_1": {
+          "fact": "개방형 해변 펍 겸 해산물 식당",
+          "url": "https://www.google.com/maps/place/Draft+Beer+Bai+Khem+Phu+Quoc/@10.0362806,104.0305404,17z/data=!3m1!4b1!4m6!3m5!1s0x31a7971f9e084cfd:0xccfef3e3baca762f!8m2!3d10.0362806!4d104.0305404!16s%2Fg%2F11rk27wrj7",
+          "evidence_file": "evidence_v5b/evidence_01_draft_beer_place.png"
+        },
+        "sentence_2": {
+          "fact": "바다 마주한 야외 좌석, 생맥주 및 현지 해산물 요리",
+          "url": "https://www.google.com/maps/place/Draft+Beer+Bai+Khem+Phu+Quoc/@10.0362806,104.0305404,17z/data=!3m1!4b1!4m6!3m5!1s0x31a7971f9e084cfd:0xccfef3e3baca762f!8m2!3d10.0362806!4d104.0305404!16s%2Fg%2F11rk27wrj7",
+          "evidence_file": "evidence_v5b/evidence_01_draft_beer_place.png"
+        },
+        "sentence_3": {
+          "fact": "탁 트인 해변 경관과 캐주얼한 휴식 분위기",
+          "reviews": [
+            {
+              "source": "Wanderlog (2024-04)",
+              "quote": "Great open-air beach pub right by Khem Beach, refreshing cold beer and ocean breeze"
+            },
+            {
+              "source": "PhuQuocMap (2024-06)",
+              "quote": "Casual outdoor dining on the sand, relaxing beach views near southern resorts"
+            },
+            {
+              "source": "Trip.com (2024-09)",
+              "quote": "Convenient spot for cold beers and seafood right on the beach"
+            }
+          ],
+          "evidence_file": "evidence_v5b/evidence_08_draft_beer_reviews.png"
+        },
+        "sentence_4": {
+          "fact": "운영시간 매일 10:00-23:00, 매장 내 식사 및 포장",
+          "url": "https://www.google.com/maps/place/Draft+Beer+Bai+Khem+Phu+Quoc/@10.0362806,104.0305404,17z/data=!3m1!4b1!4m6!3m5!1s0x31a7971f9e084cfd:0xccfef3e3baca762f!8m2!3d10.0362806!4d104.0305404!16s%2Fg%2F11rk27wrj7",
+          "evidence_file": "evidence_v5b/evidence_01_draft_beer_place.png"
+        }
+      }
+    }
   },
   {
     "id": "khem-draft-013",
@@ -1486,17 +1525,12 @@
     "place_id": "ChIJo_k30uyXpzERwwH_mtvJ1aQ",
     "lat": 10.0379402,
     "lng": 104.0313019,
-    "phone": "+84 949 440 144",
     "website_url": "미확인",
-    "hours": "08:00 - 23:45",
-    "google_rating": 4.8,
-    "google_review_count": 4056,
     "rating_check_date": "2026-10-30",
     "status": "published",
     "verification_status": "verified",
-    "description_ko": "바이켐 해변에 자리한 비치 바로 지중해 및 터키 스타일의 음식과 음료를 판매합니다.",
-    "description_en": "Beach bar on Bai Khem serving Mediterranean and Turkish dishes and beverages by the water.",
-    "facilities": "미확인",
+    "description_ko": "상세 정보 준비 중",
+    "description_en": "Details coming soon",
     "gallery_urls": [
       "/zones/khem-beach-hero.webp"
     ],
@@ -1518,7 +1552,51 @@
       "bars",
       "beach-club"
     ],
-    "facilities_en": "Beach cabanas, sun loungers, Turkish & Mediterranean cuisine, cocktails"
+    "display_mode": "name_only",
+    "internal_verified": {
+      "google_rating": 4.8,
+      "google_review_count": 4056,
+      "rating_check_date": "2026-10-30",
+      "phone": "+84 949 440 144",
+      "hours": "08:00 - 23:45",
+      "draft_description_ko": "바이켐 해변 백사장에 위치한 지중해 테마의 비치 클럽 겸 레스토랑입니다. 해변 좌석에서 터키식 케밥과 고기 꼬치구이, 피자, 지중해식 샐러드 및 칵테일을 제공합니다. 리뷰에서는 바다 바로 앞의 휴양 분위기, 케밥 요리, 칵테일 구성에 대한 호평이 이어지고 있습니다. 매일 오전 8시부터 오후 11시 45분까지 늦은 밤까지 운영합니다.",
+      "draft_description_en": "A Mediterranean-inspired beach club and dining venue set directly on the white sands of Bãi Khem. The venue serves authentic Turkish kebabs, grilled meat skewers, pizzas, mezze salads, and tropical cocktails right on the beach. Visitor reviews frequently highlight the vibrant seaside atmosphere, seasoned meat skewers, and evening lounge vibe. Open daily from 8:00 AM until late (11:45 PM).",
+      "source_map": {
+        "sentence_1": {
+          "fact": "백사장 위치 지중해 테마 비치 클럽 겸 레스토랑",
+          "url": "https://www.google.com/maps/place/Istanbul+Bai+Kem/@10.0379402,104.0313019,17z/data=!3m1!4b1!4m6!3m5!1s0x31a797ecd237f9a3:0xa4d5c9db9aff01c3!8m2!3d10.0379402!4d104.0313019!16s%2Fg%2F11s956xr5f",
+          "evidence_file": "evidence_v5b/evidence_04_istanbul_place.png"
+        },
+        "sentence_2": {
+          "fact": "터키식 케밥, 고기 꼬치구이, 피자, 지중해식 샐러드, 칵테일",
+          "url": "https://www.google.com/maps/place/Istanbul+Bai+Kem/@10.0379402,104.0313019,17z/data=!3m1!4b1!4m6!3m5!1s0x31a797ecd237f9a3:0xa4d5c9db9aff01c3!8m2!3d10.0379402!4d104.0313019!16s%2Fg%2F11s956xr5f",
+          "evidence_file": "evidence_v5b/evidence_04_istanbul_place.png"
+        },
+        "sentence_3": {
+          "fact": "해변 휴양 분위기, 케밥 및 꼬치요리, 칵테일 호평",
+          "reviews": [
+            {
+              "source": "Wanderlog (2024-05)",
+              "quote": "Authentic Turkish kebabs and chicken skewers right on the beach with chic boho vibe"
+            },
+            {
+              "source": "Wanderboat (2024-07)",
+              "quote": "Grilled meat skewers, mezze, and great cocktail presentations by the waves"
+            },
+            {
+              "source": "VisitPhuQuoc (2024-09)",
+              "quote": "Vibrant beach club atmosphere, Halal kebabs, evening lanterns and sea view"
+            }
+          ],
+          "evidence_file": "evidence_v5b/evidence_11_istanbul_reviews.png"
+        },
+        "sentence_4": {
+          "fact": "운영시간 매일 08:00-23:45",
+          "url": "https://www.google.com/maps/place/Istanbul+Bai+Kem/@10.0379402,104.0313019,17z/data=!3m1!4b1!4m6!3m5!1s0x31a797ecd237f9a3:0xa4d5c9db9aff01c3!8m2!3d10.0379402!4d104.0313019!16s%2Fg%2F11s956xr5f",
+          "evidence_file": "evidence_v5b/evidence_04_istanbul_place.png"
+        }
+      }
+    }
   },
   {
     "id": "khem-draft-034",
@@ -1533,17 +1611,12 @@
     "place_id": "ChIJA6Ns_eOXpzEReRCODKQQ3S8",
     "lat": 10.0374233,
     "lng": 104.0311396,
-    "phone": "+84 98 948 11 88",
     "website_url": "미확인",
-    "hours": "09:00 - 22:30",
-    "google_rating": 4.7,
-    "google_review_count": 1022,
     "rating_check_date": "2026-10-30",
     "status": "published",
     "verification_status": "verified",
-    "description_ko": "바이켐 해안가에 위치한 식당 겸 바로 해산물 요리와 음료를 제공합니다.",
-    "description_en": "Beachfront restaurant and bar on Bai Khem serving seafood and beverages.",
-    "facilities": "미확인",
+    "description_ko": "상세 정보 준비 중",
+    "description_en": "Details coming soon",
     "gallery_urls": [
       "/zones/khem-beach-hero.webp"
     ],
@@ -1565,7 +1638,51 @@
       "dining",
       "restaurant-bar"
     ],
-    "facilities_en": "Beachside bar counter, draft beers, cocktails, seafood & pasta dining"
+    "display_mode": "name_only",
+    "internal_verified": {
+      "google_rating": 4.7,
+      "google_review_count": 1022,
+      "rating_check_date": "2026-10-30",
+      "phone": "+84 98 948 11 88",
+      "hours": "09:00 - 22:30",
+      "draft_description_ko": "켐비치 해변 백사장에 위치한 비치사이드 레스토랑 겸 바로, 실내와 바다 앞 야외 좌석을 모두 갖추고 있습니다. 베트남 현지 해산물 요리와 함께 오븐 화덕 피자, 열대 칵테일을 선보입니다. 방문객 리뷰에서는 치즈 피자와 해산물 구이, 친절한 직원 응대가 반복적으로 호평을 받고 있습니다. 매일 오전 9시부터 오후 10시 30분까지 운영합니다.",
+      "draft_description_en": "A beachside restaurant and bar situated along Khem Beach, featuring both indoor and beachfront open-air seating. The kitchen serves fresh Vietnamese seafood specialties, oven-baked pizzas, and tropical cocktails. Reviews frequently praise the cheese pizzas, grilled seafood, and friendly staff hospitality. Open daily from 9:00 AM to 10:30 PM.",
+      "source_map": {
+        "sentence_1": {
+          "fact": "비치사이드 레스토랑 겸 바, 실내 및 백사장 야외 좌석",
+          "url": "https://www.google.com/maps/place/Kaisun+Restaurant+%26+Bar/@10.0374233,104.0311396,17z/data=!3m1!4b1!4m6!3m5!1s0x31a797e3fd6ca303:0x2fdd10a40c8e1079!8m2!3d10.0374233!4d104.0311396!16s%2Fg%2F11y47rn12k",
+          "evidence_file": "evidence_v5b/evidence_03_kaisun_place.png"
+        },
+        "sentence_2": {
+          "fact": "현지 해산물 요리, 화덕 피자, 열대 칵테일",
+          "url": "https://www.google.com/maps/place/Kaisun+Restaurant+%26+Bar/@10.0374233,104.0311396,17z/data=!3m1!4b1!4m6!3m5!1s0x31a797e3fd6ca303:0x2fdd10a40c8e1079!8m2!3d10.0374233!4d104.0311396!16s%2Fg%2F11y47rn12k",
+          "evidence_file": "evidence_v5b/evidence_03_kaisun_place.png"
+        },
+        "sentence_3": {
+          "fact": "치즈 피자, 해산물 구이, 친절한 직원 서비스 호평",
+          "reviews": [
+            {
+              "source": "RestaurantsPhuQuoc (2024-04)",
+              "quote": "Pizza 4 Cheese is rich and highly praised, great beachfront setting"
+            },
+            {
+              "source": "Wanderboat (2024-06)",
+              "quote": "Staff service rated exceptional with warm hospitality, fresh grilled seafood"
+            },
+            {
+              "source": "PhuQuocMap (2024-09)",
+              "quote": "Wood-fired pizzas and grilled squid/prawns right on the sand with chill sunset views"
+            }
+          ],
+          "evidence_file": "evidence_v5b/evidence_10_kaisun_reviews.png"
+        },
+        "sentence_4": {
+          "fact": "운영시간 매일 09:00-22:30",
+          "url": "https://www.google.com/maps/place/Kaisun+Restaurant+%26+Bar/@10.0374233,104.0311396,17z/data=!3m1!4b1!4m6!3m5!1s0x31a797e3fd6ca303:0x2fdd10a40c8e1079!8m2!3d10.0374233!4d104.0311396!16s%2Fg%2F11y47rn12k",
+          "evidence_file": "evidence_v5b/evidence_03_kaisun_place.png"
+        }
+      }
+    }
   },
   {
     "id": "khem-draft-033",
@@ -1580,17 +1697,12 @@
     "place_id": "ChIJNfSPMQaXpzEREMCGeU9aXEI",
     "lat": 10.0369743,
     "lng": 104.0308526,
-    "phone": "+84 94 246 22 88",
     "website_url": "미확인",
-    "hours": "09:00 - 21:00",
-    "google_rating": 4.6,
-    "google_review_count": 1515,
     "rating_check_date": "2026-10-30",
     "status": "published",
     "verification_status": "verified",
-    "description_ko": "바이켐 해변에 인접한 비치 키친 & 바로 식사와 칵테일 등 음료를 판매합니다.",
-    "description_en": "Kitchen and beach bar situated on Bai Khem beach serving food and cocktails.",
-    "facilities": "미확인",
+    "description_ko": "상세 정보 준비 중",
+    "description_en": "Details coming soon",
     "gallery_urls": [
       "/zones/khem-beach-hero.webp"
     ],
@@ -1612,7 +1724,51 @@
       "bars",
       "beach-bar"
     ],
-    "facilities_en": "Beachfront wooden deck, sun loungers, sunset dining, cocktails & beer"
+    "display_mode": "name_only",
+    "internal_verified": {
+      "google_rating": 4.6,
+      "google_review_count": 1515,
+      "rating_check_date": "2026-10-30",
+      "phone": "+84 94 246 22 88",
+      "hours": "09:00 - 21:00",
+      "draft_description_ko": "바이켐 해변 모래사장과 맞닿은 오픈형 키친 겸 비치 바로, 목재 데크 테라스와 해변 좌석을 갖추고 있습니다. 신선한 해산물 요리와 파스타 등 인터내셔널 메뉴, 시그니처 칵테일을 함께 제공합니다. 방문객 리뷰에서는 해변 일몰 조망과 칵테일, 파스타 메뉴의 만족도가 공통적으로 언급됩니다. 매일 오전 9시부터 오후 9시까지 운영하며 해변가 휴식과 식사를 즐길 수 있습니다.",
+      "draft_description_en": "An open-air kitchen and beach bar situated right on the sands of Bãi Khem, featuring wooden decking and beachfront seating. The menu offers fresh seafood, pasta dishes, and tropical signature cocktails. Diner reviews consistently highlight the relaxed sunset views, cocktail selections, and beachfront dining atmosphere. Open daily from 9:00 AM to 9:00 PM for casual beachside lounging and meals.",
+      "source_map": {
+        "sentence_1": {
+          "fact": "오픈형 키친 겸 비치 바, 목재 테라스와 해변 좌석",
+          "url": "https://www.google.com/maps/place/The+Deck+Phu+Quoc+-+Kitchen+%26+Beach+Bar/@10.0369743,104.0308526,17z/data=!3m1!4b1!4m6!3m5!1s0x31a79706318ff435:0x425c5a4f7986c010!8m2!3d10.0369743!4d104.0308526!16s%2Fg%2F11svg3gcxl",
+          "evidence_file": "evidence_v5b/evidence_02_the_deck_place.png"
+        },
+        "sentence_2": {
+          "fact": "해산물, 파스타 등 인터내셔널 메뉴, 시그니처 칵테일",
+          "url": "https://www.google.com/maps/place/The+Deck+Phu+Quoc+-+Kitchen+%26+Beach+Bar/@10.0369743,104.0308526,17z/data=!3m1!4b1!4m6!3m5!1s0x31a79706318ff435:0x425c5a4f7986c010!8m2!3d10.0369743!4d104.0308526!16s%2Fg%2F11svg3gcxl",
+          "evidence_file": "evidence_v5b/evidence_02_the_deck_place.png"
+        },
+        "sentence_3": {
+          "fact": "일몰 조망, 칵테일, 파스타 메뉴 호평",
+          "reviews": [
+            {
+              "source": "Wanderlog (2024-03)",
+              "quote": "Stunning beach views, relaxing sunset atmosphere and delicious cocktails"
+            },
+            {
+              "source": "PhuQuocMap (2024-05)",
+              "quote": "Seafood options alongside pasta, creative salads and tropical cocktails"
+            },
+            {
+              "source": "Trip.com (2024-08)",
+              "quote": "Quiet beach atmosphere at Bai Khem, perfect sunset view and friendly staff"
+            }
+          ],
+          "evidence_file": "evidence_v5b/evidence_09_the_deck_reviews.png"
+        },
+        "sentence_4": {
+          "fact": "운영시간 매일 09:00-21:00",
+          "url": "https://www.google.com/maps/place/The+Deck+Phu+Quoc+-+Kitchen+%26+Beach+Bar/@10.0369743,104.0308526,17z/data=!3m1!4b1!4m6!3m5!1s0x31a79706318ff435:0x425c5a4f7986c010!8m2!3d10.0369743!4d104.0308526!16s%2Fg%2F11svg3gcxl",
+          "evidence_file": "evidence_v5b/evidence_02_the_deck_place.png"
+        }
+      }
+    }
   },
   {
     "id": "khem-draft-031",
