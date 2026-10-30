@@ -20,7 +20,7 @@ function resolvePartnerUrl(
   title?: string | null,
   target_url?: string | null
 ): string {
-  if (target_url && target_url !== '#') {
+  if (target_url && target_url !== '#' && !target_url.includes('/partners')) {
     if (target_url.startsWith('/')) {
       const [p, q] = target_url.split('?')
       const localized = localePath(locale, p)
@@ -28,15 +28,7 @@ function resolvePartnerUrl(
     }
     return target_url
   }
-  const t = (title || '').toLowerCase()
-  const basePartners = localePath(locale, '/partners')
-  if (slot_key === 'main-1' || t.includes('local living')) return `${basePartners}?slot=featured`
-  if (slot_key === 'small-1' || t.includes('food')) return `${basePartners}?slot=food`
-  if (slot_key === 'small-2' || t.includes('fitness')) return `${basePartners}?slot=fitness`
-  if (slot_key === 'small-3' || t.includes('caf')) return `${basePartners}?slot=cafe`
-  if (slot_key === 'small-4' || t.includes('community')) return `${basePartners}?slot=community`
-  if (slot_key.startsWith('main-')) return `${basePartners}?slot=featured`
-  return basePartners
+  return '#'
 }
 
 function localizeSponsorBanner(banner: Banner, locale: Locale): { title: string; subtitle: string | null } {
@@ -142,35 +134,34 @@ export function SponsorCarousel({
   ) : null
 
   return (
-    <section className="shell sponsorsSection" aria-label="Community Partners">
-      <div className="sectionIntro sponsorIntro">
-        <div>
-          <h2>{dict.home.sponsorTitle}</h2>
-          <p>{dict.home.sponsorDesc}</p>
-        </div>
-      </div>
+    <section className="shell sponsorsSection">
       {active && (
         <div className="mainSponsorFrame">
           {isActiveExternal ? (
             <a
               href={activeHref}
               className="mainSponsorLink"
-              data-analytics-type="sponsor"
               data-analytics-id={active.slot_key}
               target="_blank"
               rel="noreferrer"
             >
               {activeContent}
             </a>
-          ) : (
+          ) : activeHref !== '#' ? (
             <Link
               href={activeHref}
               className="mainSponsorLink"
-              data-analytics-type="sponsor"
               data-analytics-id={active.slot_key}
             >
               {activeContent}
             </Link>
+          ) : (
+            <div
+              className="mainSponsorLink"
+              data-analytics-id={active.slot_key}
+            >
+              {activeContent}
+            </div>
           )}
           {main.length > 1 && (
             <div className="sponsorDots">
