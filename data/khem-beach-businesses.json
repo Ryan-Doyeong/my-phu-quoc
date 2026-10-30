@@ -1385,7 +1385,7 @@
     "slug": "draft-beer-bai-khem",
     "category": "bars",
     "subcategory": "beach_pub",
-    "address": "22PJ+H6 Draft Beer Bai Khem Phu Quoc, Phú Quốc, An Giang, Vietnam",
+    "address": "Bãi Khem, Phú Quốc, An Giang, Vietnam",
     "google_maps_name": "Draft Beer Bai Khem Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_UwInh-XpzERL3bKuuPz_sw",
     "place_id": "ChIJ_UwInh-XpzERL3bKuuPz_sw",
@@ -1461,7 +1461,8 @@
           "url": "https://www.google.com/maps/place/Draft+Beer+Bai+Khem+Phu+Quoc/@10.0362806,104.0305404,17z/data=!3m1!4b1!4m6!3m5!1s0x31a7971f9e084cfd:0xccfef3e3baca762f!8m2!3d10.0362806!4d104.0305404!16s%2Fg%2F11rk27wrj7",
           "evidence_file": "evidence_v5b/evidence_01_draft_beer_place.png"
         }
-      }
+      },
+      "address_raw": "22PJ+H6 Draft Beer Bai Khem Phu Quoc, Phú Quốc, An Giang, Vietnam"
     }
   },
   {
@@ -1519,7 +1520,7 @@
     "slug": "istanbul-beach-club-phu-quoc",
     "category": "bars",
     "subcategory": "beach-club",
-    "address": "Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
+    "address": "Lo06, Bãi Khem, Phú Quốc, Kiên Giang 920000, Vietnam",
     "google_maps_name": "Istanbul Bai Kem",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJo_k30uyXpzERwwH_mtvJ1aQ",
     "place_id": "ChIJo_k30uyXpzERwwH_mtvJ1aQ",
@@ -1595,7 +1596,8 @@
           "url": "https://www.google.com/maps/place/Istanbul+Bai+Kem/@10.0379402,104.0313019,17z/data=!3m1!4b1!4m6!3m5!1s0x31a797ecd237f9a3:0xa4d5c9db9aff01c3!8m2!3d10.0379402!4d104.0313019!16s%2Fg%2F11s956xr5f",
           "evidence_file": "evidence_v5b/evidence_04_istanbul_place.png"
         }
-      }
+      },
+      "address_raw": "Lo06, Bai Khem, Phú Quốc, An Giang 920000 베트남"
     }
   },
   {
@@ -1605,7 +1607,7 @@
     "slug": "kaisun-restaurant-and-bar",
     "category": "bars",
     "subcategory": "beach_pub",
-    "address": "Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
+    "address": "Bãi Khem, Phú Quốc, Kiên Giang 922288, Vietnam",
     "google_maps_name": "Kaisun Restaurant & Bar",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJA6Ns_eOXpzEReRCODKQQ3S8",
     "place_id": "ChIJA6Ns_eOXpzEReRCODKQQ3S8",
@@ -1681,7 +1683,8 @@
           "url": "https://www.google.com/maps/place/Kaisun+Restaurant+%26+Bar/@10.0374233,104.0311396,17z/data=!3m1!4b1!4m6!3m5!1s0x31a797e3fd6ca303:0x2fdd10a40c8e1079!8m2!3d10.0374233!4d104.0311396!16s%2Fg%2F11y47rn12k",
           "evidence_file": "evidence_v5b/evidence_03_kaisun_place.png"
         }
-      }
+      },
+      "address_raw": "22PJ+XF Phu Quoc, 안장 성 베트남"
     }
   },
   {
@@ -1691,7 +1694,7 @@
     "slug": "the-deck-phu-quoc",
     "category": "bars",
     "subcategory": "beach-bar",
-    "address": "The Deck Phu Quoc - Kitchen & Beach Bar, PJ + R88, 22, Bãi Khem, Phú Quốc, An Giang 91000, Vietnam",
+    "address": "22, Bãi Khem, Phú Quốc, Kiên Giang 91000, Vietnam",
     "google_maps_name": "The Deck Phu Quoc - Kitchen & Beach Bar",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJNfSPMQaXpzEREMCGeU9aXEI",
     "place_id": "ChIJNfSPMQaXpzEREMCGeU9aXEI",
@@ -1767,7 +1770,8 @@
           "url": "https://www.google.com/maps/place/The+Deck+Phu+Quoc+-+Kitchen+%26+Beach+Bar/@10.0369743,104.0308526,17z/data=!3m1!4b1!4m6!3m5!1s0x31a79706318ff435:0x425c5a4f7986c010!8m2!3d10.0369743!4d104.0308526!16s%2Fg%2F11svg3gcxl",
           "evidence_file": "evidence_v5b/evidence_02_the_deck_place.png"
         }
-      }
+      },
+      "address_raw": "The Deck Phu Quoc - Kitchen & Beach Bar, PJ + R88, 22, Bãi Khem, Phú Quốc, An Giang 91000, Vietnam"
     }
   },
   {
