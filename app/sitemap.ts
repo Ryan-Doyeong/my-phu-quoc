@@ -19,8 +19,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...DIRECTORY_CATEGORY_KEYS.map((key) => `/directory/${key}`),
     '/news',
     '/events',
-    '/for-businesses',
-    '/partners',
     '/about',
   ]
 

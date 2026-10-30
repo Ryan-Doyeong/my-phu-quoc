@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
+import { redirect } from 'next/navigation'
 import { createPublicClient } from '@/lib/supabase/public'
 import { PartnersClient } from '@/app/partners/PartnersClient'
 import { ForBusinessesClient } from '@/components/ForBusinessesClient'
-import { buildAlternates, localeUrl, ogLocaleFor, type Locale } from '@/lib/i18n/config'
+import { buildAlternates, localePath, localeUrl, ogLocaleFor, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
 import { tUi } from '@/lib/i18n/uiStrings'
 
@@ -14,6 +15,10 @@ export async function generateForBusinessesMetadata(locale: Locale = 'en'): Prom
   return {
     title: dict.intake.metaTitle,
     description: dict.intake.metaDesc,
+    robots: {
+      index: false,
+      follow: false,
+    },
     alternates: {
       canonical: canonicalUrl,
       languages: alternates.languages,
@@ -28,6 +33,7 @@ export async function generateForBusinessesMetadata(locale: Locale = 'en'): Prom
 }
 
 export function renderForBusinessesRoute(locale: Locale = 'en') {
+  redirect(localePath(locale, '/'))
   return <ForBusinessesClient locale={locale} />
 }
 
@@ -54,6 +60,10 @@ export async function generatePartnersMetadata(locale: Locale = 'en'): Promise<M
   return {
     title,
     description,
+    robots: {
+      index: false,
+      follow: false,
+    },
     alternates: {
       canonical: canonicalUrl,
       languages: alternates.languages,
@@ -68,6 +78,7 @@ export async function generatePartnersMetadata(locale: Locale = 'en'): Promise<M
 }
 
 export async function renderPartnersRoute(slot: string | undefined, locale: Locale = 'en') {
+  redirect(localePath(locale, '/'))
   const supabase = createPublicClient()
   let businesses: { id: string; public_name: string; slug: string }[] = []
   try {
@@ -77,7 +88,7 @@ export async function renderPartnersRoute(slot: string | undefined, locale: Loca
       .eq('status', 'published')
       .order('public_name')
     if (data) {
-      businesses = data.filter(
+      businesses = (data as any[]).filter(
         (b) =>
           b.slug !== 'sunset-place-4' &&
           b.slug !== 'sunset-place-8' &&

@@ -121,7 +121,7 @@ export function SponsorCarousel({
     <>
       <img
         src={imageUrl(active.image_url, 1400, 72)}
-        alt={activeLocalized.title || 'Partner banner'}
+        alt={activeLocalized.title || ''}
         loading="lazy"
         decoding="async"
       />
@@ -187,7 +187,7 @@ export function SponsorCarousel({
               <>
                 <img
                   src={imageUrl(x.image_url, 520, 68)}
-                  alt={locSmall.title || 'Partner'}
+                  alt={locSmall.title || ''}
                   loading="lazy"
                   decoding="async"
                 />
@@ -198,7 +198,7 @@ export function SponsorCarousel({
               <a
                 key={x.slot_key}
                 href={href}
-                data-analytics-type="sponsor"
+                data-analytics-type="banner"
                 data-analytics-id={x.slot_key}
                 target="_blank"
                 rel="noreferrer"
@@ -209,7 +209,7 @@ export function SponsorCarousel({
               <Link
                 key={x.slot_key}
                 href={href}
-                data-analytics-type="sponsor"
+                data-analytics-type="banner"
                 data-analytics-id={x.slot_key}
               >
                 {smallContent}

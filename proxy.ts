@@ -92,6 +92,22 @@ export async function proxy(request: NextRequest) {
     return NextResponse.redirect(url, 301)
   }
 
+  // 1-c) Ryan 15차 지시: /partners, /for-businesses 6개 언어 홈으로 임시 리다이렉트 (307)
+  {
+    const { locale: targetLocale, barePath } = stripLocalePrefix(pathname)
+    if (
+      barePath === '/partners' ||
+      barePath.startsWith('/partners/') ||
+      barePath === '/for-businesses' ||
+      barePath.startsWith('/for-businesses/')
+    ) {
+      const url = request.nextUrl.clone()
+      url.pathname = localePath(targetLocale, '/')
+      url.search = ''
+      return NextResponse.redirect(url, 307)
+    }
+  }
+
   // 2) Old Phu Quoc-style events URL (/news/events) -> standalone /events board (301)
   {
     const { locale: evLocale, barePath: evPath } = stripLocalePrefix(pathname)
