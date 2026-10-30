@@ -58,6 +58,15 @@ const PRACTICAL_LABELS = {
     ja: '公式サイト・Google マップ',
     hi: 'आधिकारिक वेबसाइट · Google मैप्स',
   },
+  sourceKhemNameOnly: {
+    ko: '구글맵',
+    vi: 'Google Maps',
+    en: 'Google Maps',
+    zh: 'Google 地图',
+    ru: 'Google Карты',
+    ja: 'Google マップ',
+    hi: 'Google मैप्स',
+  },
   claimNotice: {
     ko: '본 정보는 여행자와 지역 주민을 위해 공개된 데이터를 종합한 것입니다. 매장 점주나 관리자는 언제든지 정보 수정 또는 페이지 관리를 요청하실 수 있습니다.',
     vi: 'Thông tin được tổng hợp từ dữ liệu công khai phục vụ du khách. Chủ cơ sở kinh doanh có thể yêu cầu xác nhận quyền quản lý hoặc cập nhật thông tin bất cứ lúc nào.',
@@ -145,7 +154,9 @@ export function PracticalInfoCard({
   const updatedLabel =
     (PRACTICAL_LABELS.updated as Record<string, string>)[locale] || PRACTICAL_LABELS.updated.en
   const sourceDefault = isKhem
-    ? ((PRACTICAL_LABELS.sourceKhem as Record<string, string>)[locale] || PRACTICAL_LABELS.sourceKhem.en)
+    ? isNameOnly
+      ? ((PRACTICAL_LABELS.sourceKhemNameOnly as Record<string, string>)[locale] || PRACTICAL_LABELS.sourceKhemNameOnly.en)
+      : ((PRACTICAL_LABELS.sourceKhem as Record<string, string>)[locale] || PRACTICAL_LABELS.sourceKhem.en)
     : ((PRACTICAL_LABELS.sourceDefault as Record<string, string>)[locale] || PRACTICAL_LABELS.sourceDefault.en)
 
   const claimNotice =

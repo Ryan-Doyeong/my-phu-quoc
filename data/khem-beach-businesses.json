@@ -6,7 +6,7 @@
     "slug": "jw-marriott-phu-quoc-emerald-bay",
     "category": "hotels",
     "subcategory": "resort",
-    "address": "Khem Beach, An Thới, Phú Quốc, Kiên Giang 922280, Vietnam",
+    "address": "Khem Beach, An Thới, Phú Quốc, An Giang 922280, Vietnam",
     "google_maps_name": "JW Marriott Phu Quoc Emerald Bay Resort & Spa",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJLZPWxLiWpzERwrkgfIa1P8I",
     "place_id": "ChIJLZPWxLiWpzERwrkgfIa1P8I",
@@ -133,6 +133,9 @@
         "detail": "All resort facilities fully operational",
         "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/overview/"
       }
+    },
+    "internal_verified": {
+      "address_raw": "Khem Beach, An Thới, Phú Quốc, Kiên Giang 922280, Vietnam"
     }
   },
   {
@@ -142,7 +145,7 @@
     "slug": "premier-residences-phu-quoc-emerald-bay",
     "category": "hotels",
     "subcategory": "resort",
-    "address": "Khem Beach, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
+    "address": "Khem Beach, An Thới, Phú Quốc, An Giang 920000, Vietnam",
     "google_maps_name": "Premier Residences Phu Quoc Emerald Bay Managed by Accor",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJn6kim_SXpzERd6rlRMQmpZc",
     "place_id": "ChIJn6kim_SXpzERd6rlRMQmpZc",
@@ -270,6 +273,9 @@
         "detail": "Pool Zones 4, 5, 6 and beach recreation operational; periodic maintenance on selected zones",
         "source_url": "https://premierresidencesphuquoc.com/"
       }
+    },
+    "internal_verified": {
+      "address_raw": "Khem Beach, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam"
     }
   },
   {
@@ -279,7 +285,7 @@
     "slug": "new-world-phu-quoc-resort",
     "category": "hotels",
     "subcategory": "resort",
-    "address": "Khem Beach, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
+    "address": "Khem Beach, An Thới, Phú Quốc, An Giang 920000, Vietnam",
     "google_maps_name": "Khu nghỉ dưỡng New World Phú Quốc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJy5uCwXCXpzERQSR2-hAgnuo",
     "place_id": "ChIJy5uCwXCXpzERQSR2-hAgnuo",
@@ -407,6 +413,9 @@
         "detail": "All resort facilities and dining venues fully operational",
         "source_url": "https://phuquoc.newworldhotels.com/en/"
       }
+    },
+    "internal_verified": {
+      "address_raw": "Khem Beach, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam"
     }
   },
   {
@@ -1520,7 +1529,7 @@
     "slug": "istanbul-beach-club-phu-quoc",
     "category": "bars",
     "subcategory": "beach-club",
-    "address": "Lo06, Bãi Khem, Phú Quốc, Kiên Giang 920000, Vietnam",
+    "address": "Lo06, Bãi Khem, Phú Quốc, An Giang 920000, Vietnam",
     "google_maps_name": "Istanbul Bai Kem",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJo_k30uyXpzERwwH_mtvJ1aQ",
     "place_id": "ChIJo_k30uyXpzERwwH_mtvJ1aQ",
@@ -1607,7 +1616,7 @@
     "slug": "kaisun-restaurant-and-bar",
     "category": "bars",
     "subcategory": "beach_pub",
-    "address": "Bãi Khem, Phú Quốc, Kiên Giang 922288, Vietnam",
+    "address": "Bãi Khem, Phú Quốc, An Giang 922288, Vietnam",
     "google_maps_name": "Kaisun Restaurant & Bar",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJA6Ns_eOXpzEReRCODKQQ3S8",
     "place_id": "ChIJA6Ns_eOXpzEReRCODKQQ3S8",
@@ -1694,7 +1703,7 @@
     "slug": "the-deck-phu-quoc",
     "category": "bars",
     "subcategory": "beach-bar",
-    "address": "22, Bãi Khem, Phú Quốc, Kiên Giang 91000, Vietnam",
+    "address": "22, Bãi Khem, Phú Quốc, An Giang 91000, Vietnam",
     "google_maps_name": "The Deck Phu Quoc - Kitchen & Beach Bar",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJNfSPMQaXpzEREMCGeU9aXEI",
     "place_id": "ChIJNfSPMQaXpzEREMCGeU9aXEI",
@@ -1877,7 +1886,7 @@
     "slug": "bai-khem-beach",
     "category": "beaches",
     "subcategory": "beach",
-    "address": "Khem Beach, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
+    "address": "Khem Beach, An Thới, Phú Quốc, An Giang 920000, Vietnam",
     "google_maps_name": "Khem Beach",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ677owMeWpzERsRurcR7BOYE",
     "place_id": "ChIJ677owMeWpzERsRurcR7BOYE",
@@ -1921,6 +1930,9 @@
     ],
     "facilities_en": {
       "beach_access": "Public beach access with white sand shoreline"
+    },
+    "internal_verified": {
+      "address_raw": "Khem Beach, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam"
     }
   },
   {
