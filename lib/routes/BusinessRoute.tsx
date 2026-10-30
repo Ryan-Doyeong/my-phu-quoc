@@ -391,18 +391,27 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                         ? 'Nguồn ảnh:'
                         : 'Photo Source:'}
                     </span>{' '}
-                    {b.image_credits.slice(0, 8).map((c: any, ci: number) => (
-                      <span key={ci} className="galleryCreditItem">
-                        {c.source_page_url && c.source_page_url !== '미확인' ? (
-                          <a href={c.source_page_url} target="_blank" rel="noopener noreferrer">
-                            {c.credit_text}
-                          </a>
-                        ) : (
-                          <span>{c.credit_text}</span>
-                        )}
-                        {ci < Math.min(b.image_credits.length, 8) - 1 ? ' · ' : ''}
-                      </span>
-                    ))}
+                    {(() => {
+                      const seen = new Set<string>()
+                      const uniqueCredits = (b.image_credits as any[]).filter((c) => {
+                        if (!c?.credit_text) return false
+                        if (seen.has(c.credit_text)) return false
+                        seen.add(c.credit_text)
+                        return true
+                      })
+                      return uniqueCredits.map((c: any, ci: number) => (
+                        <span key={ci} className="galleryCreditItem">
+                          {c.source_page_url && c.source_page_url !== '미확인' ? (
+                            <a href={c.source_page_url} target="_blank" rel="noopener noreferrer">
+                              {c.credit_text}
+                            </a>
+                          ) : (
+                            <span>{c.credit_text}</span>
+                          )}
+                          {ci < uniqueCredits.length - 1 ? ' · ' : ''}
+                        </span>
+                      ))
+                    })()}
                   </div>
                 )}
               </div>
@@ -565,48 +574,59 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                     </div>
                   </>
                 )}
-              {b.facilities &&
-                typeof b.facilities === 'object' &&
-                Object.keys(b.facilities).length > 0 && (
-                  <div className="facilitiesSection">
-                    <h3>{locale === 'ko' ? '주요 시설 및 편의정보' : 'Key Facilities & Services'}</h3>
-                    <div className="facilitiesCardList">
-                      {Object.entries(b.facilities).map(([fk, fv]: [string, any]) => {
-                        const fTitle = fk
-                          .replace(/_/g, ' ')
-                          .replace(/\b\w/g, (c) => c.toUpperCase())
-                        const fText =
-                          typeof fv === 'object' && fv !== null
-                            ? fv.detail || JSON.stringify(fv)
-                            : String(fv)
-                        const fSource =
-                          typeof fv === 'object' && fv !== null ? fv.source_url : null
-                        return (
-                          <div key={fk} className="facilityItem">
-                            <strong className="facilityKey">{fTitle}</strong>
-                            <p className="facilityDetail">{fText}</p>
-                            {fSource && fSource !== '미확인' && (
-                              <a
-                                href={fSource}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="facilitySourceLink"
-                              >
-                                {locale === 'ko' ? '공식 안내 페이지 ↗' : 'Official Page ↗'}
-                              </a>
-                            )}
-                          </div>
-                        )
-                      })}
+              {(() => {
+                const isKo = locale === 'ko'
+                const rawFacilities = !isKo && b.facilities_en ? b.facilities_en : b.facilities
+                if (!rawFacilities) return null
+
+                if (typeof rawFacilities === 'object' && Object.keys(rawFacilities).length > 0) {
+                  return (
+                    <div className="facilitiesSection">
+                      <h3>{isKo ? '주요 시설 및 편의정보' : 'Key Facilities & Services'}</h3>
+                      <div className="facilitiesCardList">
+                        {Object.entries(rawFacilities).map(([fk, fv]: [string, any]) => {
+                          const fTitle = fk
+                            .replace(/_/g, ' ')
+                            .replace(/\b\w/g, (c) => c.toUpperCase())
+                          const fText =
+                            typeof fv === 'object' && fv !== null
+                              ? fv.detail || JSON.stringify(fv)
+                              : String(fv)
+                          const fSource =
+                            typeof fv === 'object' && fv !== null ? fv.source_url : null
+                          return (
+                            <div key={fk} className="facilityItem">
+                              <strong className="facilityKey">{fTitle}</strong>
+                              <p className="facilityDetail">{fText}</p>
+                              {fSource && fSource !== '미확인' && (
+                                <a
+                                  href={fSource}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="facilitySourceLink"
+                                >
+                                  {isKo ? '공식 안내 페이지 ↗' : 'Official Page ↗'}
+                                </a>
+                              )}
+                            </div>
+                          )
+                        })}
+                      </div>
                     </div>
-                  </div>
-                )}
-              {b.facilities && typeof b.facilities === 'string' && (
-                <div className="facilitiesSection">
-                  <h3>{locale === 'ko' ? '편의시설' : 'Facilities'}</h3>
-                  <p className="facilitySimpleText">{b.facilities}</p>
-                </div>
-              )}
+                  )
+                }
+
+                if (typeof rawFacilities === 'string') {
+                  return (
+                    <div className="facilitiesSection">
+                      <h3>{isKo ? '편의시설' : 'Facilities'}</h3>
+                      <p className="facilitySimpleText">{rawFacilities}</p>
+                    </div>
+                  )
+                }
+
+                return null
+              })()}
             </article>
 
             {/* 2. Menu & Prices (Good Life style standalone card) */}

@@ -99,7 +99,41 @@
       "Khem Beach",
       "hotels",
       "resort"
-    ]
+    ],
+    "facilities_en": {
+      "accommodations": {
+        "detail": "231 lavish rooms, suites, and villas (official resort count)",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/rooms/"
+      },
+      "pools": {
+        "detail": "3 outdoor pools: Shell Pool (seashell-shaped infinity pool), Sun Pool, and Sand Pool",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+      },
+      "dining_and_bars": {
+        "detail": "Pink Pearl (fine dining), Tempus Fugit (all-day dining), Red Rum (beach grill), French & Co. (pastry & cafe), Department of Chemistry Bar (cocktail bar)",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/"
+      },
+      "spa_and_wellness": {
+        "detail": "Chanterelle - Spa by JW (private treatment suites, sauna, steam rooms)",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+      },
+      "fitness_and_activities": {
+        "detail": "Fitness center, yoga pavilion, outdoor running track, resort daily activities",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+      },
+      "beach_facilities": {
+        "detail": "Private white sand beachfront on Bai Khem with water sports gear (kayaks, SUP boards)",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+      },
+      "transport_and_shuttle": {
+        "detail": "Airport shuttle service (advance reservation required)",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/overview/"
+      },
+      "notices_and_status": {
+        "detail": "All resort facilities fully operational",
+        "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/overview/"
+      }
+    }
   },
   {
     "id": "khem-draft-002",
@@ -202,7 +236,41 @@
       "Khem Beach",
       "hotels",
       "resort"
-    ]
+    ],
+    "facilities_en": {
+      "accommodations": {
+        "detail": "629 units including tower apartments, penthouses, and private pool suites",
+        "source_url": "https://premierresidencesphuquoc.com/"
+      },
+      "pools": {
+        "detail": "5,000 sqm multi-level outdoor cascading swimming pool (Zones 1-6)",
+        "source_url": "https://premierresidencesphuquoc.com/"
+      },
+      "dining_and_bars": {
+        "detail": "Mercato Restaurant (buffet), Clubhouse Restaurant (beachfront dining), Pool Bar, Herring Bar (lobby bar), Playground Social Hub",
+        "source_url": "https://premierresidencesphuquoc.com/"
+      },
+      "spa_and_wellness": {
+        "detail": "Emerald Spa (treatment suites, sauna) and fitness center",
+        "source_url": "https://premierresidencesphuquoc.com/emerald-spa-recreation/emerald-spa/"
+      },
+      "fitness_and_activities": {
+        "detail": "Kids Club, Foam Pool Party, beach and recreational activities",
+        "source_url": "https://premierresidencesphuquoc.com/emerald-spa-recreation/upcoming-activities/"
+      },
+      "beach_facilities": {
+        "detail": "Direct access to Bai Khem beach with water sports (kayaking, SUP paddleboarding)",
+        "source_url": "https://premierresidencesphuquoc.com/emerald-spa-recreation/fitness-recreation/"
+      },
+      "transport_and_shuttle": {
+        "detail": "Complimentary roundtrip shuttle bus to Sunset Town (Bus to Sunset Town)",
+        "source_url": "https://premierresidencesphuquoc.com/discover-phu-quoc/bus-to-sunset-town/"
+      },
+      "notices_and_status": {
+        "detail": "Pool Zones 4, 5, 6 and beach recreation operational; periodic maintenance on selected zones",
+        "source_url": "https://premierresidencesphuquoc.com/"
+      }
+    }
   },
   {
     "id": "khem-draft-003",
@@ -305,7 +373,41 @@
       "Khem Beach",
       "hotels",
       "resort"
-    ]
+    ],
+    "facilities_en": {
+      "accommodations": {
+        "detail": "375 private pool villas (Garden Pool, Deluxe Pool, Premium Pool villas with private pools)",
+        "source_url": "https://phuquoc.newworldhotels.com/en/accommodation/"
+      },
+      "pools": {
+        "detail": "120-meter outdoor infinity pool and dedicated kids pool",
+        "source_url": "https://phuquoc.newworldhotels.com/en/destinations/beach-swimming-pool/"
+      },
+      "dining_and_bars": {
+        "detail": "The Bay Kitchen (all-day dining), LỬA - Grill & Bar, The Lounge (lobby lounge), Pool Bar, Coco Beach House, Zoya Indo-Arabic Dining",
+        "source_url": "https://phuquoc.newworldhotels.com/en/dining/"
+      },
+      "spa_and_wellness": {
+        "detail": "The Spa at New World (individual spa pavilion suites)",
+        "source_url": "https://phuquoc.newworldhotels.com/en/destinations/spa/"
+      },
+      "fitness_and_activities": {
+        "detail": "Khem Beach Driving Range (golf practice facility), Health Club fitness center, Kids Club",
+        "source_url": "https://phuquoc.newworldhotels.com/en/destinations/khem-beach-driving-range/"
+      },
+      "beach_facilities": {
+        "detail": "Private white sand beach area with loungers, kayaks, and water sports equipment",
+        "source_url": "https://phuquoc.newworldhotels.com/en/destinations/beach-swimming-pool/"
+      },
+      "transport_and_shuttle": {
+        "detail": "Connection to Sunset Town and Hon Thom Cable Car; airport transfer booking service",
+        "source_url": "https://phuquoc.newworldhotels.com/en/contact-us/"
+      },
+      "notices_and_status": {
+        "detail": "All resort facilities and dining venues fully operational",
+        "source_url": "https://phuquoc.newworldhotels.com/en/"
+      }
+    }
   },
   {
     "id": "khem-draft-004",
@@ -369,7 +471,25 @@
       "Khem Beach",
       "hotels",
       "hotel"
-    ]
+    ],
+    "facilities_en": {
+      "accommodations": {
+        "detail": "Superior King/Twin, Deluxe King/Twin, and Family 1-Bedroom Suites",
+        "source_url": "https://paraliaphuquoc.com/"
+      },
+      "pools": {
+        "detail": "Indoor swimming pool",
+        "source_url": "https://paraliaphuquoc.com/"
+      },
+      "dining_and_bars": {
+        "detail": "On-site restaurant at Paralia Hotel",
+        "source_url": "https://paraliaphuquoc.com/"
+      },
+      "beach_access": {
+        "detail": "Approx. 2-3 minutes walking distance to Bai Khem Beach",
+        "source_url": "https://paraliaphuquoc.com/"
+      }
+    }
   },
   {
     "id": "khem-draft-005",
@@ -429,7 +549,21 @@
       "Khem Beach",
       "hotels",
       "hotel"
-    ]
+    ],
+    "facilities_en": {
+      "accommodations": {
+        "detail": "Deluxe King/Twin, Premium Room, and Family Room options",
+        "source_url": "https://jmhotel.vn/"
+      },
+      "dining_and_bars": {
+        "detail": "JM Cafe & Lounge, Rooftop Bar",
+        "source_url": "https://jmhotel.vn/"
+      },
+      "beach_access": {
+        "detail": "Approx. 3 minutes walking distance to Bai Khem Beach",
+        "source_url": "https://jmhotel.vn/"
+      }
+    }
   },
   {
     "id": "khem-draft-006",
@@ -495,7 +629,21 @@
       "Khem Beach",
       "hotels",
       "hotel"
-    ]
+    ],
+    "facilities_en": {
+      "accommodations": {
+        "detail": "Superior Room and Deluxe Room options",
+        "source_url": "https://annhotelphuquoc.com/"
+      },
+      "spa_and_wellness": {
+        "detail": "Ann Spa (massage and wellness treatments)",
+        "source_url": "https://annhotelphuquoc.com/"
+      },
+      "beach_access": {
+        "detail": "Approx. 3 minutes walking distance to Bai Khem Beach",
+        "source_url": "https://annhotelphuquoc.com/"
+      }
+    }
   },
   {
     "id": "khem-draft-007",
@@ -542,7 +690,8 @@
       "Khem Beach",
       "dining",
       "fine-dining"
-    ]
+    ],
+    "facilities_en": "Private dining rooms, fine dining tasting menus, wine cellar"
   },
   {
     "id": "khem-draft-008",
@@ -589,7 +738,8 @@
       "Khem Beach",
       "dining",
       "international"
-    ]
+    ],
+    "facilities_en": "Indoor and outdoor beachfront seating, live cooking stations, breakfast buffet"
   },
   {
     "id": "khem-draft-009",
@@ -636,7 +786,8 @@
       "Khem Beach",
       "dining",
       "seafood"
-    ]
+    ],
+    "facilities_en": "Beachside open grill, fresh seafood barbecue, craft cocktails"
   },
   {
     "id": "khem-draft-018",
@@ -683,7 +834,8 @@
       "Khem Beach",
       "bars",
       "cafe"
-    ]
+    ],
+    "facilities_en": "Pastries, gourmet coffee, artisanal sandwiches, afternoon tea"
   },
   {
     "id": "khem-draft-017",
@@ -730,7 +882,8 @@
       "Khem Beach",
       "bars",
       "cocktail-bar"
-    ]
+    ],
+    "facilities_en": "Craft chemistry-inspired cocktails, ocean view seating, sunset DJ sessions"
   },
   {
     "id": "khem-draft-020",
@@ -777,7 +930,8 @@
       "Khem Beach",
       "wellness",
       "spa"
-    ]
+    ],
+    "facilities_en": "Private treatment suites, herbal sauna, steam room, relaxation lounge"
   },
   {
     "id": "khem-draft-011",
@@ -823,7 +977,8 @@
       "Khem Beach",
       "dining",
       "buffet"
-    ]
+    ],
+    "facilities_en": "All-day international buffet, open-air terrace dining, kids buffet corner"
   },
   {
     "id": "khem-draft-010",
@@ -870,7 +1025,8 @@
       "Khem Beach",
       "dining",
       "casual-dining"
-    ]
+    ],
+    "facilities_en": "Beachfront open dining, grilled meats and seafood, pizza, cocktails"
   },
   {
     "id": "khem-draft-019",
@@ -916,7 +1072,8 @@
       "Khem Beach",
       "bars",
       "pool-bar"
-    ]
+    ],
+    "facilities_en": "Swim-up pool bar, sun loungers, refreshing cocktails and snacks"
   },
   {
     "id": "khem-draft-021",
@@ -963,7 +1120,8 @@
       "Khem Beach",
       "wellness",
       "spa"
-    ]
+    ],
+    "facilities_en": "Couple treatment suites, herbal sauna, foot reflexology lounge"
   },
   {
     "id": "khem-draft-012",
@@ -1010,7 +1168,8 @@
       "Khem Beach",
       "dining",
       "international"
-    ]
+    ],
+    "facilities_en": "All-day dining, live cooking stations, international and Vietnamese cuisine"
   },
   {
     "id": "khem-draft-029",
@@ -1057,7 +1216,8 @@
       "Khem Beach",
       "dining",
       "grill"
-    ]
+    ],
+    "facilities_en": "Open charcoal grill, wood-fired barbecue, premium steaks and seafood"
   },
   {
     "id": "khem-draft-030",
@@ -1103,7 +1263,8 @@
       "Khem Beach",
       "bars",
       "lounge"
-    ]
+    ],
+    "facilities_en": "Lobby lounge, afternoon tea, barista coffee, evening aperitifs"
   },
   {
     "id": "khem-draft-022",
@@ -1149,7 +1310,8 @@
       "Khem Beach",
       "wellness",
       "spa"
-    ]
+    ],
+    "facilities_en": "Private spa pavilions, outdoor herbal bath, relaxation garden"
   },
   {
     "id": "khem-draft-035",
@@ -1195,7 +1357,8 @@
       "Khem Beach",
       "hotels",
       "hotel"
-    ]
+    ],
+    "facilities_en": "Guestrooms, 24-hour reception, within walking distance of Bai Khem Beach"
   },
   {
     "id": "khem-draft-032",
@@ -1241,7 +1404,8 @@
       "Khem Beach",
       "dining",
       "beer-pub"
-    ]
+    ],
+    "facilities_en": "Open-air beachfront pub seating, draft beer on tap, Vietnamese seafood dishes"
   },
   {
     "id": "khem-draft-013",
@@ -1287,7 +1451,8 @@
       "Khem Beach",
       "dining",
       "seafood"
-    ]
+    ],
+    "facilities_en": "Fresh seafood display tanks, grilled seafood, air-conditioned and open seating"
   },
   {
     "id": "khem-draft-016",
@@ -1333,7 +1498,8 @@
       "Khem Beach",
       "bars",
       "beach-club"
-    ]
+    ],
+    "facilities_en": "Beach cabanas, sun loungers, Turkish & Mediterranean cuisine, cocktails"
   },
   {
     "id": "khem-draft-034",
@@ -1379,7 +1545,8 @@
       "Khem Beach",
       "dining",
       "restaurant-bar"
-    ]
+    ],
+    "facilities_en": "Beachside bar counter, draft beers, cocktails, seafood & pasta dining"
   },
   {
     "id": "khem-draft-033",
@@ -1425,7 +1592,8 @@
       "Khem Beach",
       "bars",
       "beach-bar"
-    ]
+    ],
+    "facilities_en": "Beachfront wooden deck, sun loungers, sunset dining, cocktails & beer"
   },
   {
     "id": "khem-draft-031",
@@ -1471,7 +1639,8 @@
       "Khem Beach",
       "dining",
       "seafood"
-    ]
+    ],
+    "facilities_en": "Beachfront dining and bar, indoor and outdoor seating, seafood and fusion dishes"
   },
   {
     "id": "khem-draft-015",
@@ -1517,7 +1686,8 @@
       "Khem Beach",
       "dining",
       "seafood"
-    ]
+    ],
+    "facilities_en": "Beachfront seafood restaurant, local Phu Quoc seafood specialties"
   },
   {
     "id": "khem-draft-023",
@@ -1567,7 +1737,10 @@
       "Khem Beach",
       "beaches",
       "beach"
-    ]
+    ],
+    "facilities_en": {
+      "beach_access": "Public beach access with white sand shoreline"
+    }
   },
   {
     "id": "khem-draft-024",
@@ -1616,7 +1789,11 @@
       "Khem Beach",
       "activities",
       "water-sports"
-    ]
+    ],
+    "facilities_en": {
+      "equipment": "Kayaking and stand-up paddleboarding (SUP) equipment",
+      "source_url": "https://premierresidencesphuquoc.com/emerald-spa-recreation/fitness-recreation/"
+    }
   },
   {
     "id": "khem-draft-026",
@@ -1662,7 +1839,8 @@
       "Khem Beach",
       "transport",
       "taxi-stand"
-    ]
+    ],
+    "facilities_en": "Taxi queue and pickup stand serving Khem Beach resorts"
   },
   {
     "id": "khem-draft-025",
@@ -1709,6 +1887,7 @@
       "Khem Beach",
       "banking",
       "atm"
-    ]
+    ],
+    "facilities_en": "24-hour ATMs (Vietcombank & BIDV) located near JW Marriott entrance gate"
   }
 ]

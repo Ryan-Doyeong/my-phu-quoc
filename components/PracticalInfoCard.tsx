@@ -49,6 +49,15 @@ const PRACTICAL_LABELS = {
     ja: 'サンセットタウン施設案内データベース',
     hi: 'सनसेट टाउन की सुविधाओं का डेटाबेस',
   },
+  sourceKhem: {
+    ko: '공식 홈페이지 · 구글맵',
+    vi: 'Website chính thức · Google Maps',
+    en: 'Official Website · Google Maps',
+    zh: '官方网站 · Google 地图',
+    ru: 'Официальный сайт · Google Карты',
+    ja: '公式サイト・Google マップ',
+    hi: 'आधिकारिक वेबसाइट · Google मैप्स',
+  },
   claimNotice: {
     ko: '본 정보는 여행자와 지역 주민을 위해 공개된 데이터를 종합한 것입니다. 매장 점주나 관리자는 언제든지 정보 수정 또는 페이지 관리를 요청하실 수 있습니다.',
     vi: 'Thông tin được tổng hợp từ dữ liệu công khai phục vụ du khách. Chủ cơ sở kinh doanh có thể yêu cầu xác nhận quyền quản lý hoặc cập nhật thông tin bất cứ lúc nào.',
@@ -118,7 +127,8 @@ export function PracticalInfoCard({
   const isKo = locale === 'ko'
   const isVi = locale === 'vi'
 
-  const lastUpdated = b.listing_checked_at || b.last_verified_at || b.updated_at
+  const isKhem = b.zone === 'khem-beach' || (b.id && String(b.id).startsWith('khem-'))
+  const lastUpdated = isKhem ? (b.verified_at || '2026-10-30') : (b.listing_checked_at || b.last_verified_at || b.updated_at)
   const dateFormatted = lastUpdated
     ? new Date(lastUpdated).toLocaleDateString(dateLocaleFor(locale), {
         year: 'numeric',
@@ -133,8 +143,9 @@ export function PracticalInfoCard({
     (PRACTICAL_LABELS.services as Record<string, string>)[locale] || PRACTICAL_LABELS.services.en
   const updatedLabel =
     (PRACTICAL_LABELS.updated as Record<string, string>)[locale] || PRACTICAL_LABELS.updated.en
-  const sourceDefault =
-    (PRACTICAL_LABELS.sourceDefault as Record<string, string>)[locale] || PRACTICAL_LABELS.sourceDefault.en
+  const sourceDefault = isKhem
+    ? ((PRACTICAL_LABELS.sourceKhem as Record<string, string>)[locale] || PRACTICAL_LABELS.sourceKhem.en)
+    : ((PRACTICAL_LABELS.sourceDefault as Record<string, string>)[locale] || PRACTICAL_LABELS.sourceDefault.en)
 
   const claimNotice =
     (PRACTICAL_LABELS.claimNotice as Record<string, string>)[locale] || PRACTICAL_LABELS.claimNotice.en

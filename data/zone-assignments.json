@@ -2853,10 +2853,9 @@
     "place_id": "local-sunset-288",
     "google_place_id": "ChIJHb8567mWpzER64OgWXrzHkc",
     "name": "ATM Vietcombank, BIDV ATM",
-    "zone": "khem-beach",
+    "zone": "sunset-town",
     "public_category": "banking",
     "service_areas": [
-      "khem-beach",
       "sunset-town-adjacent"
     ]
   },
