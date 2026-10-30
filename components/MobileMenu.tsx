@@ -45,8 +45,6 @@ export function MobileMenu({ locale = 'en' }: { locale?: Locale }) {
         ))}
         <Link href={localePath(locale, '/news')}>{dict.nav.newsAndBlog}</Link>
         <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
-        <Link href={localePath(locale, '/for-businesses')}>{dict.nav.submitBusiness}</Link>
-        <Link href={localePath(locale, '/partners')}>{dict.nav.partners}</Link>
       </div>
     </details>
   )

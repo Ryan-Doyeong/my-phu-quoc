@@ -19,9 +19,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...DIRECTORY_CATEGORY_KEYS.map((key) => `/directory/${key}`),
     '/news',
     '/events',
-    '/for-businesses',
-    '/partners',
     '/about',
+    // '/partners', // Ryan 지시: 커뮤니티 파트너 숨김 처리로 사이트맵 제외
   ]
 
   const routes: MetadataRoute.Sitemap = []

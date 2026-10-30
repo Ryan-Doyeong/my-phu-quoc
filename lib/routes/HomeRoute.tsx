@@ -6,6 +6,8 @@ import { mergeDirectoryCategoryAppearance } from '@/lib/directory'
 import { mergeHomeSections } from '@/lib/homeSections'
 import { buildAlternates, localeUrl, ogLocaleFor, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
+import { DEFAULT_SPONSOR_BANNERS } from '@/lib/banners'
+import { PUBLISHED_EVENTS } from '@/lib/eventSamples'
 
 export async function generateHomeMetadata(locale: Locale = 'en'): Promise<Metadata> {
   const dict = getDictionary(locale)
@@ -64,13 +66,17 @@ export async function renderHomeRoute(locale: Locale = 'en') {
   const settings = { ...defaultSettings, ...((settingRow?.value || {}) as Partial<SiteSettings>) }
   const categoryAppearance = mergeDirectoryCategoryAppearance(categorySettingRow?.value)
   const homeSections = mergeHomeSections(homeSectionsRow?.value)
+  const effectiveBanners = banners && banners.length > 0 ? banners : DEFAULT_SPONSOR_BANNERS
+  const defaultSunsetEvent = PUBLISHED_EVENTS.find((e) => e.slug === 'phu-quoc-halloween-sunset-town-hon-thom') || PUBLISHED_EVENTS[0]
+  const effectiveEvent = eventRows?.[0] || defaultSunsetEvent || null
+
   return (
     <HomePage
       settings={settings}
       categoryAppearance={categoryAppearance}
       stories={stories || []}
-      banners={banners || []}
-      event={eventRows?.[0] || null}
+      banners={effectiveBanners}
+      event={effectiveEvent}
       homeSections={homeSections}
       locale={locale}
     />
