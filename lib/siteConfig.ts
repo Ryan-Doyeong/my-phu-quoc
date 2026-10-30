@@ -5,4 +5,6 @@
 export const SITE_CONFIG = {
   // 커뮤니티 파트너, 스폰서 안내 등 유료 스폰서 느낌을 주는 문구/링크 화면 표시 여부
   showCommunityPartnerMentions: false,
+  // 기존 "TWO HUBS · 2대 구역" 중복 섹션 홈 화면 노출 여부 (시안 v6에서 남부 한눈에로 통합되어 숨김 처리)
+  showLegacyTwoZonesSection: false,
 } as const

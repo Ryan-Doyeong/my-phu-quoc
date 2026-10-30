@@ -3,7 +3,6 @@ import type { ReactNode } from 'react'
 import { Logo } from '@/components/Logo'
 import { MobileMenu } from '@/components/MobileMenu'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
-import { SiteFooter } from '@/components/SiteFooter'
 import { CONTACT_CONFIG } from '@/lib/contactConfig'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
@@ -207,9 +206,6 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
           </div>
         </div>
       </section>
-
-      {/* ④ Site Footer (Common) */}
-      <SiteFooter />
 
       {/* ⑤ Fixed Floating Contact Widget (Desktop) */}
       <div className="tourDesktopFixedContact" role="complementary" aria-label="Quick contact">

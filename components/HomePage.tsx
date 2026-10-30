@@ -32,6 +32,7 @@ import { localePath, dateLocaleFor, type Locale } from '@/lib/i18n/config'
 import { getDictionary, localizeStory, translateTerm } from '@/lib/i18n/dictionaries'
 import { DEFAULT_SPONSOR_BANNERS } from '@/lib/banners'
 import { PUBLISHED_EVENTS } from '@/lib/eventSamples'
+import { SITE_CONFIG } from '@/lib/siteConfig'
 
 const HOME_NAV_SUNSET: Record<string, string> = {
   ko: '선셋타운',
@@ -439,110 +440,112 @@ export function HomePage({
           </section>
         )}
 
-        {/* [확정 지시 · Claude] TWO HUBS · 2대 구역 섹션 (선셋타운 & 켐비치) */}
-        <section className="shell twoZonesSection" id="two-zones">
-          <div className="sectionHeader">
-            <span className="hubEyebrow">
-              {TWO_HUBS_EYEBROW[locale] || TWO_HUBS_EYEBROW.en}
-            </span>
-            <h3>
-              {TWO_HUBS_TITLE[locale] || TWO_HUBS_TITLE.en}
-            </h3>
-            <p>
-              {TWO_HUBS_DESC[locale] || TWO_HUBS_DESC.en}
-            </p>
-          </div>
+        {/* [확정 지시 · Claude] TWO HUBS · 2대 구역 섹션 (선셋타운 & 켐비치) — 시안 v6 남부 한눈에 섹션으로 통합되어 홈에서는 숨김 플래그 처리 */}
+        {SITE_CONFIG.showLegacyTwoZonesSection && (
+          <section className="shell twoZonesSection" id="two-zones">
+            <div className="sectionHeader">
+              <span className="hubEyebrow">
+                {TWO_HUBS_EYEBROW[locale] || TWO_HUBS_EYEBROW.en}
+              </span>
+              <h3>
+                {TWO_HUBS_TITLE[locale] || TWO_HUBS_TITLE.en}
+              </h3>
+              <p>
+                {TWO_HUBS_DESC[locale] || TWO_HUBS_DESC.en}
+              </p>
+            </div>
 
-          <div className="dualGrid">
-            {/* Card 1: Sunset Town */}
-            <div className="hubCard sunset">
-              <div
-                className="hubCardImage"
-                style={{
-                  backgroundImage: `url('${MAIN_ZONES['sunset-town'].heroImage}')`,
-                }}
-              >
-                <span className="hubCardBadge">
-                  {MAIN_ZONES['sunset-town'].badge[locale] || MAIN_ZONES['sunset-town'].badge.en}
-                </span>
-              </div>
-              <div className="hubCardBody">
-                <div className="hubCardTitleRow">
-                  <h4>{MAIN_ZONES['sunset-town'].name[locale] || MAIN_ZONES['sunset-town'].name.en}</h4>
-                  <span>{MAIN_ZONES['sunset-town'].nameLocal}</span>
-                </div>
-                <div className="hubSubConcept">
-                  {MAIN_ZONES['sunset-town'].subConcept[locale] || MAIN_ZONES['sunset-town'].subConcept.en}
-                </div>
-                <p className="hubCardDesc">
-                  {MAIN_ZONES['sunset-town'].homeDescription[locale] || MAIN_ZONES['sunset-town'].homeDescription.en}
-                </p>
-                <div className="hubFeatureChips">
-                  {(MAIN_ZONES['sunset-town'].featureChips[locale] || MAIN_ZONES['sunset-town'].featureChips.en).map((chip, idx) => (
-                    <span key={idx}>{chip}</span>
-                  ))}
-                </div>
-                <Link
-                  href={localePath(locale, '/zones/sunset-town')}
-                  className="hubButton"
+            <div className="dualGrid">
+              {/* Card 1: Sunset Town */}
+              <div className="hubCard sunset">
+                <div
+                  className="hubCardImage"
+                  style={{
+                    backgroundImage: `url('${MAIN_ZONES['sunset-town'].heroImage}')`,
+                  }}
                 >
-                  <span>{MAIN_ZONES['sunset-town'].ctaButton[locale] || MAIN_ZONES['sunset-town'].ctaButton.en}</span>
-                </Link>
+                  <span className="hubCardBadge">
+                    {MAIN_ZONES['sunset-town'].badge[locale] || MAIN_ZONES['sunset-town'].badge.en}
+                  </span>
+                </div>
+                <div className="hubCardBody">
+                  <div className="hubCardTitleRow">
+                    <h4>{MAIN_ZONES['sunset-town'].name[locale] || MAIN_ZONES['sunset-town'].name.en}</h4>
+                    <span>{MAIN_ZONES['sunset-town'].nameLocal}</span>
+                  </div>
+                  <div className="hubSubConcept">
+                    {MAIN_ZONES['sunset-town'].subConcept[locale] || MAIN_ZONES['sunset-town'].subConcept.en}
+                  </div>
+                  <p className="hubCardDesc">
+                    {MAIN_ZONES['sunset-town'].homeDescription[locale] || MAIN_ZONES['sunset-town'].homeDescription.en}
+                  </p>
+                  <div className="hubFeatureChips">
+                    {(MAIN_ZONES['sunset-town'].featureChips[locale] || MAIN_ZONES['sunset-town'].featureChips.en).map((chip, idx) => (
+                      <span key={idx}>{chip}</span>
+                    ))}
+                  </div>
+                  <Link
+                    href={localePath(locale, '/zones/sunset-town')}
+                    className="hubButton"
+                  >
+                    <span>{MAIN_ZONES['sunset-town'].ctaButton[locale] || MAIN_ZONES['sunset-town'].ctaButton.en}</span>
+                  </Link>
+                </div>
               </div>
-            </div>
 
-            {/* Card 2: Khem Beach */}
-            <div className="hubCard khem">
-              <div
-                className="hubCardImage"
-                style={{
-                  backgroundImage: `url('${MAIN_ZONES['khem-beach'].heroImage}')`,
-                }}
-              >
-                <span className="hubCardBadge">
-                  {MAIN_ZONES['khem-beach'].badge[locale] || MAIN_ZONES['khem-beach'].badge.en}
-                </span>
-              </div>
-              <div className="hubCardBody">
-                <div className="hubCardTitleRow">
-                  <h4>{MAIN_ZONES['khem-beach'].name[locale] || MAIN_ZONES['khem-beach'].name.en}</h4>
-                  <span>{MAIN_ZONES['khem-beach'].nameLocal}</span>
-                </div>
-                <div className="hubSubConcept">
-                  {MAIN_ZONES['khem-beach'].subConcept[locale] || MAIN_ZONES['khem-beach'].subConcept.en}
-                </div>
-                <p className="hubCardDesc">
-                  {MAIN_ZONES['khem-beach'].homeDescription[locale] || MAIN_ZONES['khem-beach'].homeDescription.en}
-                </p>
-                <div className="hubFeatureChips">
-                  {(MAIN_ZONES['khem-beach'].featureChips[locale] || MAIN_ZONES['khem-beach'].featureChips.en).map((chip, idx) => (
-                    <span key={idx}>{chip}</span>
-                  ))}
-                </div>
-                <Link
-                  href={localePath(locale, '/zones/khem-beach')}
-                  className="hubButton"
+              {/* Card 2: Khem Beach */}
+              <div className="hubCard khem">
+                <div
+                  className="hubCardImage"
+                  style={{
+                    backgroundImage: `url('${MAIN_ZONES['khem-beach'].heroImage}')`,
+                  }}
                 >
-                  <span>{MAIN_ZONES['khem-beach'].ctaButton[locale] || MAIN_ZONES['khem-beach'].ctaButton.en}</span>
-                </Link>
+                  <span className="hubCardBadge">
+                    {MAIN_ZONES['khem-beach'].badge[locale] || MAIN_ZONES['khem-beach'].badge.en}
+                  </span>
+                </div>
+                <div className="hubCardBody">
+                  <div className="hubCardTitleRow">
+                    <h4>{MAIN_ZONES['khem-beach'].name[locale] || MAIN_ZONES['khem-beach'].name.en}</h4>
+                    <span>{MAIN_ZONES['khem-beach'].nameLocal}</span>
+                  </div>
+                  <div className="hubSubConcept">
+                    {MAIN_ZONES['khem-beach'].subConcept[locale] || MAIN_ZONES['khem-beach'].subConcept.en}
+                  </div>
+                  <p className="hubCardDesc">
+                    {MAIN_ZONES['khem-beach'].homeDescription[locale] || MAIN_ZONES['khem-beach'].homeDescription.en}
+                  </p>
+                  <div className="hubFeatureChips">
+                    {(MAIN_ZONES['khem-beach'].featureChips[locale] || MAIN_ZONES['khem-beach'].featureChips.en).map((chip, idx) => (
+                      <span key={idx}>{chip}</span>
+                    ))}
+                  </div>
+                  <Link
+                    href={localePath(locale, '/zones/khem-beach')}
+                    className="hubButton"
+                  >
+                    <span>{MAIN_ZONES['khem-beach'].ctaButton[locale] || MAIN_ZONES['khem-beach'].ctaButton.en}</span>
+                  </Link>
+                </div>
               </div>
             </div>
-          </div>
 
-          {/* Transit Bridge */}
-          <div className="interZoneBridge">
-            <div className="bridgeLeft">
-              <div className="bridgeIcon">⇄</div>
-              <div className="bridgeText">
-                <h5>{INTER_ZONE_TRANSIT.headline[locale] || INTER_ZONE_TRANSIT.headline.en}</h5>
-                <p>{INTER_ZONE_TRANSIT.description[locale] || INTER_ZONE_TRANSIT.description.en}</p>
+            {/* Transit Bridge */}
+            <div className="interZoneBridge">
+              <div className="bridgeLeft">
+                <div className="bridgeIcon">⇄</div>
+                <div className="bridgeText">
+                  <h5>{INTER_ZONE_TRANSIT.headline[locale] || INTER_ZONE_TRANSIT.headline.en}</h5>
+                  <p>{INTER_ZONE_TRANSIT.description[locale] || INTER_ZONE_TRANSIT.description.en}</p>
+                </div>
+              </div>
+              <div className="bridgeInfoBadge">
+                {INTER_ZONE_TRANSIT.badge[locale] || INTER_ZONE_TRANSIT.badge.en}
               </div>
             </div>
-            <div className="bridgeInfoBadge">
-              {INTER_ZONE_TRANSIT.badge[locale] || INTER_ZONE_TRANSIT.badge.en}
-            </div>
-          </div>
-        </section>
+          </section>
+        )}
 
         {/* [2026-10-27 개편] 선셋타운 지도 & 12대 핵심 명소 바로가기 컴팩트 카드 (상세 본문은 /map 페이지로 분리) */}
         <section className="shell sunsetTownMapPromoSection" id="map-preview">
