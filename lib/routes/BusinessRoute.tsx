@@ -193,7 +193,21 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
   const hours = humanHours(b.opening_hours)
   const badgeText = getPhotoBadgeText(b.media_note, locale, photos[0])
   const nearbyText = nearbyBadgeText(b.address, b.tags, b.badges, locale)
-  const catLabel = categoryLabel(b.category, locale)
+  const isKhem = b.zone === 'khem-beach' || (b.id && String(b.id).startsWith('khem-'))
+  const catLabel =
+    isKhem && b.category === 'bars'
+      ? locale === 'ko'
+        ? '비치 펍'
+        : locale === 'vi'
+        ? 'Quán bar bãi biển'
+        : locale === 'zh'
+        ? '海滩酒吧'
+        : locale === 'ja'
+        ? 'ビーチパブ'
+        : locale === 'ru'
+        ? 'Пляжные бары'
+        : 'Beach Pubs & Bars'
+      : categoryLabel(b.category, locale)
   const subLabel = b.subcategory
     ? translateTerm(b.subcategory, locale)
     : translateTerm('General', locale)
@@ -214,7 +228,6 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
     Boolean(menuData)
 
   const foodGuide = isDiningOrFood ? getFoodGuideForBusiness(b, menuData) : null
-  const isKhem = b.zone === 'khem-beach' || (b.id && String(b.id).startsWith('khem-'))
   const categoryGuide = !isDiningOrFood && !isKhem ? getKnowledgeGuideForBusiness(b, menuData) : null
   const reviewAnalysis = analyzeGoogleReviews(b, locale)
 
@@ -272,9 +285,15 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
           <nav>
             <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
             <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
-            <Link href={localePath(locale, `/directory/${b.category}`)}>
-              {dict.business.backTo(catLabel)}
-            </Link>
+            {isKhem ? (
+              <Link href={localePath(locale, '/zones/khem-beach')}>
+                {dict.business.backTo(locale === 'ko' ? '켐비치' : 'Khem Beach')}
+              </Link>
+            ) : (
+              <Link href={localePath(locale, `/directory/${b.category}`)}>
+                {dict.business.backTo(catLabel)}
+              </Link>
+            )}
             <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
           </nav>
           <LanguageSwitcher locale={locale} variant="light" />
@@ -427,7 +446,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
         <div className="businessTitleRow">
           <div>
             <span className="eyebrow">
-              {catLabel} · {subLabel}
+              {isKhem ? catLabel : `${catLabel} · ${subLabel}`}
               {nearbyText ? ` · ${nearbyText}` : ''}
             </span>
             <div className="businessDetailBadges">
