@@ -381,7 +381,7 @@ export function HomePage({
                     {localizedEvent.event_location ? ` · ${localizedEvent.event_location}` : ''}
                   </span>
                   <span className="eventPromoDot">·</span>
-                  <strong className="eventPromoCta">{dict.home.eventCta} <span>→</span></strong>
+                  <strong className="eventPromoCta">{dict.home.eventCta}</strong>
                 </div>
               </div>
               <span className="eventPromoAttribution">Photo: Vivu Vietnam · CC BY-SA 4.0</span>
