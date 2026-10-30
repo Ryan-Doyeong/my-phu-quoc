@@ -40,6 +40,8 @@ export const en = {
     sponsorDesc: 'Local brands and partners helping support the platform and neighborhood connection.',
     sponsorCount: 'Local support · clearly sponsored',
     sponsoredBadge: 'SPONSORED',
+    bannerExchangeSlogan: 'Zero Exchange Fees · Best Exchange Rates',
+    bannerTourSlogan: 'The Best Choice for a Great Trip',
     eventEyebrow: 'PHU QUOC EVENTS',
     eventUpcoming: 'Upcoming',
     eventCta: 'See event announcements →',

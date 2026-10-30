@@ -41,6 +41,8 @@ export const ko = {
     sponsorDesc: '플랫폼 운영과 이웃 간의 연결을 지원하는 푸꾸옥 로컬 브랜드 및 파트너입니다.',
     sponsorCount: '지역 후원 · 스폰서 명확 표기',
     sponsoredBadge: 'SPONSORED',
+    bannerExchangeSlogan: '환전 수수료 없음 · 최고의 환전율',
+    bannerTourSlogan: '즐거운 여행을 위한 최고의 선택',
     eventEyebrow: '푸꾸옥 이벤트',
     eventUpcoming: '예정된 일정',
     eventCta: '이벤트 소식 전체 보기 →',

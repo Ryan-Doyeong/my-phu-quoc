@@ -41,6 +41,8 @@ export const hi = {
     sponsorDesc: 'प्लेटफ़ॉर्म और पड़ोस को जोड़ने में मदद करने वाले स्थानीय ब्रांड और भागीदार।',
     sponsorCount: 'स्थानीय समर्थन · आधिकारिक प्रायोजक',
     sponsoredBadge: 'प्रायोजित',
+    bannerExchangeSlogan: 'बिना विनिमय शुल्क · सर्वोत्तम विनिमय दरें',
+    bannerTourSlogan: 'शानदार यात्रा के लिए सबसे अच्छा विकल्प',
     eventEyebrow: 'फू क्वोक कार्यक्रम',
     eventUpcoming: 'आगामी',
     eventCta: 'कार्यक्रम घोषणाएं देखें →',

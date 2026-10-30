@@ -39,6 +39,8 @@ export const vi = {
     sponsorDesc: 'Các thương hiệu và đối tác địa phương đồng hành duy trì nền tảng và gắn kết khu phố.',
     sponsorCount: 'Đồng hành cùng địa phương · ghi rõ tài trợ',
     sponsoredBadge: 'TÀI TRỢ',
+    bannerExchangeSlogan: 'Zero Exchange Fees · Best Exchange Rates',
+    bannerTourSlogan: 'The Best Choice for a Great Trip',
     eventEyebrow: 'SỰ KIỆN PHÚ QUỐC',
     eventUpcoming: 'Sắp diễn ra',
     eventCta: 'Xem thông báo sự kiện →',

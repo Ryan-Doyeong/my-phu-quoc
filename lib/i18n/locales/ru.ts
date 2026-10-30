@@ -41,6 +41,8 @@ export const ru = {
     sponsorDesc: 'Местные бренды и заведения, поддерживающие платформу и развитие района.',
     sponsorCount: 'Поддержка района · Официальные партнеры',
     sponsoredBadge: 'ПАРТНЕР',
+    bannerExchangeSlogan: 'Без комиссии · Лучший курс обмена',
+    bannerTourSlogan: 'Лучший выбор для отличного путешествия',
     eventEyebrow: 'СОБЫТИЯ НА ФУКУОКЕ',
     eventUpcoming: 'Скоро',
     eventCta: 'Смотреть анонсы →',

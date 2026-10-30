@@ -41,6 +41,8 @@ export const ja = {
     sponsorDesc: 'プラットフォームの運営と地域をつなぐ現地のブランド＆パートナーです。',
     sponsorCount: '地域応援 · 公認スポンサー',
     sponsoredBadge: 'スポンサー',
+    bannerExchangeSlogan: '両替手数料無料 · 最良の為替レート',
+    bannerTourSlogan: '楽しい旅に最適な選択',
     eventEyebrow: 'フーコック イベント',
     eventUpcoming: '開催予定',
     eventCta: 'イベント告知を見る →',

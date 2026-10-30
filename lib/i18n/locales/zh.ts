@@ -41,6 +41,8 @@ export const zh = {
     sponsorDesc: '支持平台可持续运营、联结富国岛邻里的本土品牌与合作伙伴。',
     sponsorCount: '本土支持 · 官方赞助',
     sponsoredBadge: '赞助',
+    bannerExchangeSlogan: '免手续费 · 最优汇率',
+    bannerTourSlogan: '精彩旅程的最佳选择',
     eventEyebrow: '富国岛精彩活动',
     eventUpcoming: '即将举行',
     eventCta: '查看活动公告 →',

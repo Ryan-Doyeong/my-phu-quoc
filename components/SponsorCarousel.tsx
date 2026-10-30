@@ -112,6 +112,19 @@ export function SponsorCarousel({
   const isActiveExternal = activeHref.startsWith('http')
   const activeLocalized = active ? localizeSponsorBanner(active, locale) : { title: '', subtitle: null }
 
+  const isExchange = active?.slot_key === 'main-1' || active?.image_url?.includes('viet-travel-exchange')
+  const isTour =
+    active?.slot_key === 'main-2' ||
+    active?.slot_key === 'main-3' ||
+    active?.image_url?.includes('buggy-tour') ||
+    active?.image_url?.includes('taxi-tour')
+
+  const slogan = isExchange
+    ? dict.home.bannerExchangeSlogan
+    : isTour
+    ? dict.home.bannerTourSlogan
+    : activeLocalized.subtitle
+
   const activeContent = active ? (
     <>
       <img
@@ -123,7 +136,7 @@ export function SponsorCarousel({
       <div className="sponsorShade" />
       <div className="sponsorCopy">
         <h3>{activeLocalized.title}</h3>
-        {activeLocalized.subtitle && <p>{activeLocalized.subtitle}</p>}
+        {slogan && <p>{slogan}</p>}
       </div>
     </>
   ) : null
