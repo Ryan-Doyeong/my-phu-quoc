@@ -4,6 +4,8 @@ import type { SiteSettings } from '@/lib/types'
 import { SuggestionForm, VolunteerForm } from '@/components/PublicForms'
 import { Logo } from '@/components/Logo'
 import { SponsorCarousel } from '@/components/SponsorCarousel'
+import { MrtBannerCarousel } from '@/components/MrtBannerCarousel'
+import { SouthGlanceSection } from '@/components/SouthGlanceSection'
 import { NewsletterForm } from '@/components/NewsletterForm'
 import { HeroSearch } from '@/components/SiteSearch'
 import { MobileMenu } from '@/components/MobileMenu'
@@ -28,6 +30,9 @@ import { imageUrl } from '@/lib/imageUrl'
 import type { HomeSections } from '@/lib/homeSections'
 import { localePath, dateLocaleFor, type Locale } from '@/lib/i18n/config'
 import { getDictionary, localizeStory, translateTerm } from '@/lib/i18n/dictionaries'
+import { DEFAULT_SPONSOR_BANNERS } from '@/lib/banners'
+import { PUBLISHED_EVENTS } from '@/lib/eventSamples'
+import { SITE_CONFIG } from '@/lib/siteConfig'
 
 const HOME_NAV_SUNSET: Record<string, string> = {
   ko: '선셋타운',
@@ -214,15 +219,25 @@ export function HomePage({
         slug: `fallback-${i}`,
       }))
 
-  const localizedEvent = event ? localizeStory(event, locale) : null
-  const mainBanners = banners
+  const activeBanners = banners && banners.length > 0 ? banners : DEFAULT_SPONSOR_BANNERS
+  const mainBanners = activeBanners
     .filter((x) => x.size === 'main')
     .sort((a, b) => a.sort_order - b.sort_order)
     .slice(0, 7)
-  const smallBanners = banners
+  const smallBanners = activeBanners
     .filter((x) => x.size === 'small')
     .sort((a, b) => a.sort_order - b.sort_order)
     .slice(0, 4)
+
+  const activeEvent =
+    event ||
+    PUBLISHED_EVENTS.find((e) => e.slug === 'phu-quoc-halloween-sunset-town-hon-thom') ||
+    PUBLISHED_EVENTS[0] ||
+    null
+  const localizedEvent = activeEvent ? localizeStory(activeEvent, locale) : null
+  const eventHref = localizedEvent?.slug
+    ? localePath(locale, `/news/${localizedEvent.slug}`)
+    : localePath(locale, '/news')
 
   const heroImage = '/hero/02_kiss_bridge_aerial_1920.webp'
 
@@ -260,41 +275,45 @@ export function HomePage({
 
   return (
     <div style={style} className="siteRoot">
-      <header className="siteHeader heroHeader">
-        <Logo locale={locale} />
-        <nav className="desktopNav">
-          <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
-          <Link href={localePath(locale, '/zones/sunset-town')}>
-            {HOME_NAV_SUNSET[locale] || HOME_NAV_SUNSET.en}
-          </Link>
-          <Link href={localePath(locale, '/zones/khem-beach')}>
-            {HOME_NAV_KHEM[locale] || HOME_NAV_KHEM.en}
-          </Link>
-          <Link href={localePath(locale, '/directory/dining')}>
-            {categoryLabel('dining', locale)}
-          </Link>
-          <Link href={localePath(locale, '/directory/bars')}>
-            {categoryLabel('bars', locale)}
-          </Link>
-          <Link href={localePath(locale, '/directory/hotels')}>
-            {categoryLabel('hotels', locale)}
-          </Link>
-          <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
-          <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
-        </nav>
-        <div className="headerActions">
-          <Link
-            href={localePath(locale, '/search')}
-            className="searchGlyph"
-            aria-label={dict.nav.search}
-          >
-            ⌕
-          </Link>
-          <LanguageSwitcher locale={locale} variant="hero" />
-          <MobileMenu locale={locale} />
-        </div>
-      </header>
-      <main>
+      <div className="heroHeaderWrap">
+        <header className="siteHeader heroHeader">
+          <Logo locale={locale} />
+          <nav className="desktopNav">
+            <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
+            <Link href={localePath(locale, '/zones/sunset-town')}>
+              {HOME_NAV_SUNSET[locale] || HOME_NAV_SUNSET.en}
+            </Link>
+            <Link href={localePath(locale, '/zones/khem-beach')}>
+              {HOME_NAV_KHEM[locale] || HOME_NAV_KHEM.en}
+            </Link>
+            <Link href={localePath(locale, '/directory/dining')}>
+              {categoryLabel('dining', locale)}
+            </Link>
+            <Link href={localePath(locale, '/directory/bars')}>
+              {categoryLabel('bars', locale)}
+            </Link>
+            <Link href={localePath(locale, '/directory/hotels')}>
+              {categoryLabel('hotels', locale)}
+            </Link>
+            <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
+            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
+          </nav>
+          <div className="headerActions">
+            <Link
+              href={localePath(locale, '/search')}
+              className="searchGlyph"
+              aria-label={dict.nav.search}
+            >
+              ⌕
+            </Link>
+            <LanguageSwitcher locale={locale} variant="hero" />
+            <MobileMenu locale={locale} />
+          </div>
+        </header>
+
+        {/* 메인 v6 A안: 상단 메뉴 바로 아래 마이리얼트립 스타일 메인 배너 */}
+        <MrtBannerCarousel locale={locale} />
+
         <section className="heroSection">
           <picture>
             <source media="(max-width: 640px)" srcSet="/hero/02_kiss_bridge_aerial_640.webp" />
@@ -328,7 +347,7 @@ export function HomePage({
             <p>{heroDescription}</p>
             <HeroSearch locale={locale} />
             <div className="heroButtons">
-              <a href="#discover" className="primaryButton heroPrimary amberCta">
+              <a href="#south-glance" className="primaryButton heroPrimary amberCta">
                 {heroPrimaryCta}
                 <span>→</span>
               </a>
@@ -338,12 +357,16 @@ export function HomePage({
             </div>
           </div>
         </section>
+      </div>
 
-        <SponsorCarousel main={mainBanners} small={smallBanners} locale={locale} />
+      <main>
+        {/* Ryan 지시: 시안대로 홈의 스폰서 영역은 미사용 (컴포넌트는 보존) */}
+        {false && <SponsorCarousel main={mainBanners} small={smallBanners} locale={locale} />}
 
-        {homeSections.eventPromo.visible && localizedEvent && (
+        {/* Ryan 지시: 시안대로 홈의 이벤트 프로모 카드는 제거 */}
+        {false && homeSections.eventPromo.visible && localizedEvent && (
           <section className="shell eventPromo">
-            <Link href={localePath(locale, '/events')} className="eventPromoLink">
+            <Link href={eventHref} className="eventPromoLink">
               <img
                 src={imageUrl(localizedEvent.cover_image_url || '/features/nightlife_featured_1280.webp', 1200, 72)}
                 alt=""
@@ -357,22 +380,28 @@ export function HomePage({
                 <span className="eyebrow">{dict.home.eventEyebrow}</span>
                 <h2>{sanitizeFireworksTiming(localizedEvent.title)}</h2>
                 <p>{sanitizeFireworksTiming(localizedEvent.excerpt || '')}</p>
-                <div>
-                  {localizedEvent.event_date
-                    ? new Date(localizedEvent.event_date).toLocaleDateString(dateLocaleFor(locale), {
-                        month: 'short',
-                        day: 'numeric',
-                        year: 'numeric',
-                      })
-                    : dict.home.eventUpcoming}
-                  {localizedEvent.event_location ? ` · ${localizedEvent.event_location}` : ''}
+                <div className="eventPromoFooter">
+                  <span className="eventPromoDate">
+                    {localizedEvent.event_date
+                      ? new Date(localizedEvent.event_date).toLocaleDateString(dateLocaleFor(locale), {
+                          month: 'short',
+                          day: 'numeric',
+                          year: 'numeric',
+                        })
+                      : dict.home.eventUpcoming}
+                    {localizedEvent.event_location ? ` · ${localizedEvent.event_location}` : ''}
+                  </span>
+                  <span className="eventPromoDot">·</span>
+                  <strong className="eventPromoCta">{dict.home.eventCta}</strong>
                 </div>
-                <strong>{dict.home.eventCta}</strong>
               </div>
               <span className="eventPromoAttribution">Photo: Vivu Vietnam · CC BY-SA 4.0</span>
             </Link>
           </section>
         )}
+
+        {/* 메인 v6 시안: 신규 남부 한눈에 (개요 지도 도식 + 구역 카드 2장) */}
+        <SouthGlanceSection locale={locale} />
 
         {/* Claude 5차/6차: 타오디엔 레거시 섹션 비활성화 */
         false && homeSections.purpose.visible && (
@@ -411,167 +440,112 @@ export function HomePage({
           </section>
         )}
 
-        {homeSections.discover.visible && (
-          <section className="shell discover" id="discover">
-            <div className="sectionIntro">
-              <div>
-                <span className="eyebrow">{dict.home.discoverEyebrow}</span>
-                <h2>{discoverTitle}</h2>
-                <p>{discoverDesc}</p>
+        {/* [확정 지시 · Claude] TWO HUBS · 2대 구역 섹션 (선셋타운 & 켐비치) — 시안 v6 남부 한눈에 섹션으로 통합되어 홈에서는 숨김 플래그 처리 */}
+        {SITE_CONFIG.showLegacyTwoZonesSection && (
+          <section className="shell twoZonesSection" id="two-zones">
+            <div className="sectionHeader">
+              <span className="hubEyebrow">
+                {TWO_HUBS_EYEBROW[locale] || TWO_HUBS_EYEBROW.en}
+              </span>
+              <h3>
+                {TWO_HUBS_TITLE[locale] || TWO_HUBS_TITLE.en}
+              </h3>
+              <p>
+                {TWO_HUBS_DESC[locale] || TWO_HUBS_DESC.en}
+              </p>
+            </div>
+
+            <div className="dualGrid">
+              {/* Card 1: Sunset Town */}
+              <div className="hubCard sunset">
+                <div
+                  className="hubCardImage"
+                  style={{
+                    backgroundImage: `url('${MAIN_ZONES['sunset-town'].heroImage}')`,
+                  }}
+                >
+                  <span className="hubCardBadge">
+                    {MAIN_ZONES['sunset-town'].badge[locale] || MAIN_ZONES['sunset-town'].badge.en}
+                  </span>
+                </div>
+                <div className="hubCardBody">
+                  <div className="hubCardTitleRow">
+                    <h4>{MAIN_ZONES['sunset-town'].name[locale] || MAIN_ZONES['sunset-town'].name.en}</h4>
+                    <span>{MAIN_ZONES['sunset-town'].nameLocal}</span>
+                  </div>
+                  <div className="hubSubConcept">
+                    {MAIN_ZONES['sunset-town'].subConcept[locale] || MAIN_ZONES['sunset-town'].subConcept.en}
+                  </div>
+                  <p className="hubCardDesc">
+                    {MAIN_ZONES['sunset-town'].homeDescription[locale] || MAIN_ZONES['sunset-town'].homeDescription.en}
+                  </p>
+                  <div className="hubFeatureChips">
+                    {(MAIN_ZONES['sunset-town'].featureChips[locale] || MAIN_ZONES['sunset-town'].featureChips.en).map((chip, idx) => (
+                      <span key={idx}>{chip}</span>
+                    ))}
+                  </div>
+                  <Link
+                    href={localePath(locale, '/zones/sunset-town')}
+                    className="hubButton"
+                  >
+                    <span>{MAIN_ZONES['sunset-town'].ctaButton[locale] || MAIN_ZONES['sunset-town'].ctaButton.en}</span>
+                  </Link>
+                </div>
+              </div>
+
+              {/* Card 2: Khem Beach */}
+              <div className="hubCard khem">
+                <div
+                  className="hubCardImage"
+                  style={{
+                    backgroundImage: `url('${MAIN_ZONES['khem-beach'].heroImage}')`,
+                  }}
+                >
+                  <span className="hubCardBadge">
+                    {MAIN_ZONES['khem-beach'].badge[locale] || MAIN_ZONES['khem-beach'].badge.en}
+                  </span>
+                </div>
+                <div className="hubCardBody">
+                  <div className="hubCardTitleRow">
+                    <h4>{MAIN_ZONES['khem-beach'].name[locale] || MAIN_ZONES['khem-beach'].name.en}</h4>
+                    <span>{MAIN_ZONES['khem-beach'].nameLocal}</span>
+                  </div>
+                  <div className="hubSubConcept">
+                    {MAIN_ZONES['khem-beach'].subConcept[locale] || MAIN_ZONES['khem-beach'].subConcept.en}
+                  </div>
+                  <p className="hubCardDesc">
+                    {MAIN_ZONES['khem-beach'].homeDescription[locale] || MAIN_ZONES['khem-beach'].homeDescription.en}
+                  </p>
+                  <div className="hubFeatureChips">
+                    {(MAIN_ZONES['khem-beach'].featureChips[locale] || MAIN_ZONES['khem-beach'].featureChips.en).map((chip, idx) => (
+                      <span key={idx}>{chip}</span>
+                    ))}
+                  </div>
+                  <Link
+                    href={localePath(locale, '/zones/khem-beach')}
+                    className="hubButton"
+                  >
+                    <span>{MAIN_ZONES['khem-beach'].ctaButton[locale] || MAIN_ZONES['khem-beach'].ctaButton.en}</span>
+                  </Link>
+                </div>
               </div>
             </div>
-            <div className="categoryCards categoryCardsFive">
-              {DIRECTORY_CATEGORY_KEYS.map((key) => {
-                const c = DIRECTORY_CATEGORIES[key]
-                const icon = categoryAppearance[key]
-                const locLabel = categoryLabel(key, locale)
-                const locEyebrow = categoryEyebrow(key, locale)
-                const locDesc = categoryDescription(key, locale)
-                return (
-                  <Link
-                    href={localePath(locale, `/directory/${key}`)}
-                    key={key}
-                    data-analytics-type="category"
-                    data-analytics-id={key}
-                    data-theme={categoryTheme(key)}
-                  >
-                    <article>
-                      <img
-                        src={imageUrl(c.image, 480, 72)}
-                        alt=""
-                        loading="lazy"
-                        decoding="async"
-                        width={480}
-                        height={320}
-                      />
-                      <div className="categoryIconBadge">
-                        {icon.icon_url ? (
-                          <img src={icon.icon_url} alt={`${locLabel} icon`} />
-                        ) : (
-                          <span>{icon.icon_text}</span>
-                        )}
-                      </div>
-                      <span>{locEyebrow}</span>
-                      <h3>{locLabel}</h3>
-                      <p>{locDesc}</p>
-                      <div className="categoryMiniTags">
-                        {c.subcategories.slice(0, 4).map((x) => (
-                          <em key={x}>{translateTerm(x, locale)}</em>
-                        ))}
-                      </div>
-                      <strong>{dict.home.exploreCategory(locLabel)}</strong>
-                    </article>
-                  </Link>
-                )
-              })}
+
+            {/* Transit Bridge */}
+            <div className="interZoneBridge">
+              <div className="bridgeLeft">
+                <div className="bridgeIcon">⇄</div>
+                <div className="bridgeText">
+                  <h5>{INTER_ZONE_TRANSIT.headline[locale] || INTER_ZONE_TRANSIT.headline.en}</h5>
+                  <p>{INTER_ZONE_TRANSIT.description[locale] || INTER_ZONE_TRANSIT.description.en}</p>
+                </div>
+              </div>
+              <div className="bridgeInfoBadge">
+                {INTER_ZONE_TRANSIT.badge[locale] || INTER_ZONE_TRANSIT.badge.en}
+              </div>
             </div>
           </section>
         )}
-
-        {/* [확정 지시 · Claude] TWO HUBS · 2대 구역 섹션 (선셋타운 & 켐비치) */}
-        <section className="shell twoZonesSection" id="two-zones">
-          <div className="sectionHeader">
-            <span className="hubEyebrow">
-              {TWO_HUBS_EYEBROW[locale] || TWO_HUBS_EYEBROW.en}
-            </span>
-            <h3>
-              {TWO_HUBS_TITLE[locale] || TWO_HUBS_TITLE.en}
-            </h3>
-            <p>
-              {TWO_HUBS_DESC[locale] || TWO_HUBS_DESC.en}
-            </p>
-          </div>
-
-          <div className="dualGrid">
-            {/* Card 1: Sunset Town */}
-            <div className="hubCard sunset">
-              <div
-                className="hubCardImage"
-                style={{
-                  backgroundImage: `url('${MAIN_ZONES['sunset-town'].heroImage}')`,
-                }}
-              >
-                <span className="hubCardBadge">
-                  {MAIN_ZONES['sunset-town'].badge[locale] || MAIN_ZONES['sunset-town'].badge.en}
-                </span>
-              </div>
-              <div className="hubCardBody">
-                <div className="hubCardTitleRow">
-                  <h4>{MAIN_ZONES['sunset-town'].name[locale] || MAIN_ZONES['sunset-town'].name.en}</h4>
-                  <span>{MAIN_ZONES['sunset-town'].nameLocal}</span>
-                </div>
-                <div className="hubSubConcept">
-                  {MAIN_ZONES['sunset-town'].subConcept[locale] || MAIN_ZONES['sunset-town'].subConcept.en}
-                </div>
-                <p className="hubCardDesc">
-                  {MAIN_ZONES['sunset-town'].homeDescription[locale] || MAIN_ZONES['sunset-town'].homeDescription.en}
-                </p>
-                <div className="hubFeatureChips">
-                  {(MAIN_ZONES['sunset-town'].featureChips[locale] || MAIN_ZONES['sunset-town'].featureChips.en).map((chip, idx) => (
-                    <span key={idx}>{chip}</span>
-                  ))}
-                </div>
-                <Link
-                  href={localePath(locale, '/zones/sunset-town')}
-                  className="hubButton"
-                >
-                  <span>{MAIN_ZONES['sunset-town'].ctaButton[locale] || MAIN_ZONES['sunset-town'].ctaButton.en}</span>
-                </Link>
-              </div>
-            </div>
-
-            {/* Card 2: Khem Beach */}
-            <div className="hubCard khem">
-              <div
-                className="hubCardImage"
-                style={{
-                  backgroundImage: `url('${MAIN_ZONES['khem-beach'].heroImage}')`,
-                }}
-              >
-                <span className="hubCardBadge">
-                  {MAIN_ZONES['khem-beach'].badge[locale] || MAIN_ZONES['khem-beach'].badge.en}
-                </span>
-              </div>
-              <div className="hubCardBody">
-                <div className="hubCardTitleRow">
-                  <h4>{MAIN_ZONES['khem-beach'].name[locale] || MAIN_ZONES['khem-beach'].name.en}</h4>
-                  <span>{MAIN_ZONES['khem-beach'].nameLocal}</span>
-                </div>
-                <div className="hubSubConcept">
-                  {MAIN_ZONES['khem-beach'].subConcept[locale] || MAIN_ZONES['khem-beach'].subConcept.en}
-                </div>
-                <p className="hubCardDesc">
-                  {MAIN_ZONES['khem-beach'].homeDescription[locale] || MAIN_ZONES['khem-beach'].homeDescription.en}
-                </p>
-                <div className="hubFeatureChips">
-                  {(MAIN_ZONES['khem-beach'].featureChips[locale] || MAIN_ZONES['khem-beach'].featureChips.en).map((chip, idx) => (
-                    <span key={idx}>{chip}</span>
-                  ))}
-                </div>
-                <Link
-                  href={localePath(locale, '/zones/khem-beach')}
-                  className="hubButton"
-                >
-                  <span>{MAIN_ZONES['khem-beach'].ctaButton[locale] || MAIN_ZONES['khem-beach'].ctaButton.en}</span>
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          {/* Transit Bridge */}
-          <div className="interZoneBridge">
-            <div className="bridgeLeft">
-              <div className="bridgeIcon">⇄</div>
-              <div className="bridgeText">
-                <h5>{INTER_ZONE_TRANSIT.headline[locale] || INTER_ZONE_TRANSIT.headline.en}</h5>
-                <p>{INTER_ZONE_TRANSIT.description[locale] || INTER_ZONE_TRANSIT.description.en}</p>
-              </div>
-            </div>
-            <div className="bridgeInfoBadge">
-              {INTER_ZONE_TRANSIT.badge[locale] || INTER_ZONE_TRANSIT.badge.en}
-            </div>
-          </div>
-        </section>
 
         {/* [2026-10-27 개편] 선셋타운 지도 & 12대 핵심 명소 바로가기 컴팩트 카드 (상세 본문은 /map 페이지로 분리) */}
         <section className="shell sunsetTownMapPromoSection" id="map-preview">
@@ -643,6 +617,63 @@ export function HomePage({
             )
           })()}
         </section>
+
+        {homeSections.discover.visible && (
+          <section className="shell discover" id="discover">
+            <div className="sectionIntro">
+              <div>
+                <span className="eyebrow">{dict.home.discoverEyebrow}</span>
+                <h2>{discoverTitle}</h2>
+                <p>{discoverDesc}</p>
+              </div>
+            </div>
+            <div className="categoryCards categoryCardsFive">
+              {DIRECTORY_CATEGORY_KEYS.map((key) => {
+                const c = DIRECTORY_CATEGORIES[key]
+                const icon = categoryAppearance[key]
+                const locLabel = categoryLabel(key, locale)
+                const locEyebrow = categoryEyebrow(key, locale)
+                const locDesc = categoryDescription(key, locale)
+                return (
+                  <Link
+                    href={localePath(locale, `/directory/${key}`)}
+                    key={key}
+                    data-analytics-type="category"
+                    data-analytics-id={key}
+                    data-theme={categoryTheme(key)}
+                  >
+                    <article>
+                      <img
+                        src={imageUrl(c.image, 480, 72)}
+                        alt=""
+                        loading="lazy"
+                        decoding="async"
+                        width={480}
+                        height={320}
+                      />
+                      <div className="categoryIconBadge">
+                        {icon.icon_url ? (
+                          <img src={icon.icon_url} alt={`${locLabel} icon`} />
+                        ) : (
+                          <span>{icon.icon_text}</span>
+                        )}
+                      </div>
+                      <span>{locEyebrow}</span>
+                      <h3>{locLabel}</h3>
+                      <p>{locDesc}</p>
+                      <div className="categoryMiniTags">
+                        {c.subcategories.slice(0, 4).map((x) => (
+                          <em key={x}>{translateTerm(x, locale)}</em>
+                        ))}
+                      </div>
+                      <strong>{dict.home.exploreCategory(locLabel)}</strong>
+                    </article>
+                  </Link>
+                )
+              })}
+            </div>
+          </section>
+        )}
 
         <SunsetTownTickets locale={locale} />
 

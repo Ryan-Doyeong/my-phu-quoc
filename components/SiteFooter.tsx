@@ -30,8 +30,6 @@ export function SiteFooter() {
         <Link href={localePath(locale, '/map')}>{locale === 'ko' ? '🗺️ 선셋타운 지도' : locale === 'vi' ? '🗺️ Bản đồ thị trấn' : tUi('🗺️  Town Map', locale)}</Link>
         <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
         <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
-        <Link href={localePath(locale, '/for-businesses')}>{dict.nav.forBusinesses}</Link>
-        <Link href={localePath(locale, '/partners')}>{dict.nav.partners}</Link>
         <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
       </nav>
       <div className="footerLegal">

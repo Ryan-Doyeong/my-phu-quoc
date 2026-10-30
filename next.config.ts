@@ -2,6 +2,7 @@ import type { NextConfig } from 'next'
 const nextConfig: NextConfig = {
   images: { remotePatterns: [{ protocol: 'https', hostname: '**' }] },
   experimental: {
+    cpus: 4,
     serverActions: {
       bodySizeLimit: '50mb',
     },
@@ -34,6 +35,67 @@ const nextConfig: NextConfig = {
         source: '/:locale(ko|zh|ru|ja|hi)/business/l-a-hillside-aparment-sunset-town-phu-quoc',
         destination: '/:locale/business/l-a-hillside-apartment-sunset-town-phu-quoc',
         permanent: true,
+      },
+      // Ryan 15차 지시: /partners, /for-businesses 6개 언어 홈으로 임시 리다이렉트 (307)
+      {
+        source: '/partners',
+        destination: '/',
+        permanent: false,
+      },
+      {
+        source: '/partners/:path*',
+        destination: '/',
+        permanent: false,
+      },
+      {
+        source: '/:locale(ko|zh|ru|ja|hi)/partners',
+        destination: '/:locale',
+        permanent: false,
+      },
+      {
+        source: '/:locale(ko|zh|ru|ja|hi)/partners/:path*',
+        destination: '/:locale',
+        permanent: false,
+      },
+      {
+        source: '/en/partners',
+        destination: '/',
+        permanent: false,
+      },
+      {
+        source: '/en/partners/:path*',
+        destination: '/',
+        permanent: false,
+      },
+      {
+        source: '/for-businesses',
+        destination: '/',
+        permanent: false,
+      },
+      {
+        source: '/for-businesses/:path*',
+        destination: '/',
+        permanent: false,
+      },
+      {
+        source: '/:locale(ko|zh|ru|ja|hi)/for-businesses',
+        destination: '/:locale',
+        permanent: false,
+      },
+      {
+        source: '/:locale(ko|zh|ru|ja|hi)/for-businesses/:path*',
+        destination: '/:locale',
+        permanent: false,
+      },
+      {
+        source: '/en/for-businesses',
+        destination: '/',
+        permanent: false,
+      },
+      {
+        source: '/en/for-businesses/:path*',
+        destination: '/',
+        permanent: false,
       },
     ]
   },

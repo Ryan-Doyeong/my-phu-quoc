@@ -14,6 +14,7 @@ import {
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { getDictionary, translateTerm } from '@/lib/i18n/dictionaries'
 import { tUi, tUiById } from '@/lib/i18n/uiStrings'
+import { SITE_CONFIG } from '@/lib/siteConfig'
 
 export function ForBusinessesClient({ locale = 'en' }: { locale?: Locale }) {
   const dict = getDictionary(locale)
@@ -131,16 +132,18 @@ export function ForBusinessesClient({ locale = 'en' }: { locale?: Locale }) {
       </section>
       <section className="shell intakeGrid">
         <form ref={formRef} className="intakeForm" onSubmit={submit}>
-          {locale === 'ko' || locale === 'vi' || locale === 'en' ? (
-            <div className="mediaDisclosure pilotNoticeBanner" role="note">
-              <strong>{dict.intake.pilotNoticeTitle}</strong> {dict.intake.pilotNoticeBody1}{' '}
-              <strong>{dict.intake.pilotNoticeArea1}</strong> {dict.intake.pilotNoticeBody2}{' '}
-              <strong>{dict.intake.pilotNoticeArea2}</strong> {dict.intake.pilotNoticeBody3}
-            </div>
-          ) : (
-            <div className="mediaDisclosure pilotNoticeBanner" role="note">
-              <strong>{tUi('Pilot Coverage Notice:', locale)}</strong> {tUiById('U73', locale)}
-            </div>
+          {SITE_CONFIG.showCommunityPartnerMentions && (
+            locale === 'ko' || locale === 'vi' || locale === 'en' ? (
+              <div className="mediaDisclosure pilotNoticeBanner" role="note">
+                <strong>{dict.intake.pilotNoticeTitle}</strong> {dict.intake.pilotNoticeBody1}{' '}
+                <strong>{dict.intake.pilotNoticeArea1}</strong> {dict.intake.pilotNoticeBody2}{' '}
+                <strong>{dict.intake.pilotNoticeArea2}</strong> {dict.intake.pilotNoticeBody3}
+              </div>
+            ) : (
+              <div className="mediaDisclosure pilotNoticeBanner" role="note">
+                <strong>{tUi('Pilot Coverage Notice:', locale)}</strong> {tUiById('U73', locale)}
+              </div>
+            )
           )}
           <input
             type="text"
@@ -457,23 +460,25 @@ export function ForBusinessesClient({ locale = 'en' }: { locale?: Locale }) {
             <strong>{dict.intake.fairBoxTitle}</strong>
             <p>{dict.intake.fairBoxDesc}</p>
           </div>
-          <p
-            className="partnerNoticeLine"
-            style={{ marginTop: '16px', fontSize: '13px', lineHeight: 1.5 }}
-          >
-            {dict.intake.partnerPrompt}{' '}
-            <Link
-              href={localePath(locale, '/partners')}
-              style={{
-                color: 'var(--accent)',
-                fontWeight: 700,
-                textDecoration: 'underline',
-                textUnderlineOffset: '3px',
-              }}
+          {SITE_CONFIG.showCommunityPartnerMentions && (
+            <p
+              className="partnerNoticeLine"
+              style={{ marginTop: '16px', fontSize: '13px', lineHeight: 1.5 }}
             >
-              {dict.intake.partnerLink}
-            </Link>
-          </p>
+              {dict.intake.partnerPrompt}{' '}
+              <Link
+                href={localePath(locale, '/partners')}
+                style={{
+                  color: 'var(--accent)',
+                  fontWeight: 700,
+                  textDecoration: 'underline',
+                  textUnderlineOffset: '3px',
+                }}
+              >
+                {dict.intake.partnerLink}
+              </Link>
+            </p>
+          )}
         </aside>
       </section>
     </main>
