@@ -20,6 +20,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/news',
     '/events',
     '/about',
+    // '/partners', // Ryan 지시: 커뮤니티 파트너 숨김 처리로 사이트맵 제외
   ]
 
   const routes: MetadataRoute.Sitemap = []

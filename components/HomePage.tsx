@@ -4,6 +4,8 @@ import type { SiteSettings } from '@/lib/types'
 import { SuggestionForm, VolunteerForm } from '@/components/PublicForms'
 import { Logo } from '@/components/Logo'
 import { SponsorCarousel } from '@/components/SponsorCarousel'
+import { MrtBannerCarousel } from '@/components/MrtBannerCarousel'
+import { SouthGlanceSection } from '@/components/SouthGlanceSection'
 import { NewsletterForm } from '@/components/NewsletterForm'
 import { HeroSearch } from '@/components/SiteSearch'
 import { MobileMenu } from '@/components/MobileMenu'
@@ -272,41 +274,45 @@ export function HomePage({
 
   return (
     <div style={style} className="siteRoot">
-      <header className="siteHeader heroHeader">
-        <Logo locale={locale} />
-        <nav className="desktopNav">
-          <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
-          <Link href={localePath(locale, '/zones/sunset-town')}>
-            {HOME_NAV_SUNSET[locale] || HOME_NAV_SUNSET.en}
-          </Link>
-          <Link href={localePath(locale, '/zones/khem-beach')}>
-            {HOME_NAV_KHEM[locale] || HOME_NAV_KHEM.en}
-          </Link>
-          <Link href={localePath(locale, '/directory/dining')}>
-            {categoryLabel('dining', locale)}
-          </Link>
-          <Link href={localePath(locale, '/directory/bars')}>
-            {categoryLabel('bars', locale)}
-          </Link>
-          <Link href={localePath(locale, '/directory/hotels')}>
-            {categoryLabel('hotels', locale)}
-          </Link>
-          <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
-          <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
-        </nav>
-        <div className="headerActions">
-          <Link
-            href={localePath(locale, '/search')}
-            className="searchGlyph"
-            aria-label={dict.nav.search}
-          >
-            ⌕
-          </Link>
-          <LanguageSwitcher locale={locale} variant="hero" />
-          <MobileMenu locale={locale} />
-        </div>
-      </header>
-      <main>
+      <div className="heroHeaderWrap">
+        <header className="siteHeader heroHeader">
+          <Logo locale={locale} />
+          <nav className="desktopNav">
+            <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
+            <Link href={localePath(locale, '/zones/sunset-town')}>
+              {HOME_NAV_SUNSET[locale] || HOME_NAV_SUNSET.en}
+            </Link>
+            <Link href={localePath(locale, '/zones/khem-beach')}>
+              {HOME_NAV_KHEM[locale] || HOME_NAV_KHEM.en}
+            </Link>
+            <Link href={localePath(locale, '/directory/dining')}>
+              {categoryLabel('dining', locale)}
+            </Link>
+            <Link href={localePath(locale, '/directory/bars')}>
+              {categoryLabel('bars', locale)}
+            </Link>
+            <Link href={localePath(locale, '/directory/hotels')}>
+              {categoryLabel('hotels', locale)}
+            </Link>
+            <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
+            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
+          </nav>
+          <div className="headerActions">
+            <Link
+              href={localePath(locale, '/search')}
+              className="searchGlyph"
+              aria-label={dict.nav.search}
+            >
+              ⌕
+            </Link>
+            <LanguageSwitcher locale={locale} variant="hero" />
+            <MobileMenu locale={locale} />
+          </div>
+        </header>
+
+        {/* 메인 v6 A안: 상단 메뉴 바로 아래 마이리얼트립 스타일 메인 배너 */}
+        <MrtBannerCarousel locale={locale} />
+
         <section className="heroSection">
           <picture>
             <source media="(max-width: 640px)" srcSet="/hero/02_kiss_bridge_aerial_640.webp" />
@@ -340,7 +346,7 @@ export function HomePage({
             <p>{heroDescription}</p>
             <HeroSearch locale={locale} />
             <div className="heroButtons">
-              <a href="#discover" className="primaryButton heroPrimary amberCta">
+              <a href="#south-glance" className="primaryButton heroPrimary amberCta">
                 {heroPrimaryCta}
                 <span>→</span>
               </a>
@@ -350,10 +356,14 @@ export function HomePage({
             </div>
           </div>
         </section>
+      </div>
 
-        <SponsorCarousel main={mainBanners} small={smallBanners} locale={locale} />
+      <main>
+        {/* Ryan 지시: 시안대로 홈의 스폰서 영역은 미사용 (컴포넌트는 보존) */}
+        {false && <SponsorCarousel main={mainBanners} small={smallBanners} locale={locale} />}
 
-        {homeSections.eventPromo.visible && localizedEvent && (
+        {/* Ryan 지시: 시안대로 홈의 이벤트 프로모 카드는 제거 */}
+        {false && homeSections.eventPromo.visible && localizedEvent && (
           <section className="shell eventPromo">
             <Link href={eventHref} className="eventPromoLink">
               <img
@@ -388,6 +398,9 @@ export function HomePage({
             </Link>
           </section>
         )}
+
+        {/* 메인 v6 시안: 신규 남부 한눈에 (개요 지도 도식 + 구역 카드 2장) */}
+        <SouthGlanceSection locale={locale} />
 
         {/* Claude 5차/6차: 타오디엔 레거시 섹션 비활성화 */
         false && homeSections.purpose.visible && (

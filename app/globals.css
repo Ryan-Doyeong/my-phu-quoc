@@ -1119,3 +1119,1097 @@ html[lang="hi"] .sectionIntro h2, html[lang="hi"] .businessPrimaryTitle {
     line-height: 1.3 !important;
   }
 }
+
+/* ============================================================
+   MAIN V6 A-LAYOUT: MYREALTRIP STYLE MAIN BANNER CAROUSEL
+   ============================================================ */
+.heroHeaderWrap {
+  display: flex;
+  flex-direction: column;
+  background: #0A333B;
+}
+
+.heroHeader {
+  position: relative;
+  background: #0A333B;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  z-index: 10;
+}
+
+.heroCopy .topline {
+  margin-top: 20px;
+}
+
+.mrtBannerSection {
+  background: #08272E;
+  padding: 14px 0 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  position: relative;
+  z-index: 5;
+}
+
+.mrtBannerContainer {
+  width: 94%;
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: clamp(14px, 4.5vw, 18px);
+  aspect-ratio: 2.74 / 1;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.16);
+  user-select: none;
+  touch-action: pan-y;
+  cursor: grab;
+  background: #0A2F37;
+}
+.mrtBannerContainer:active {
+  cursor: grabbing;
+}
+
+@media (min-width: 1024px) {
+  .mrtBannerContainer {
+    max-width: 1080px;
+    aspect-ratio: 2.65 / 1;
+    max-height: 400px;
+    border-radius: 16px;
+  }
+}
+
+.mrtSlideTrack {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+  will-change: transform;
+}
+
+.mrtSlide {
+  min-width: 100%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: #0A262E;
+  text-decoration: none;
+  display: block;
+  color: inherit;
+}
+.mrtSlide.is-static {
+  cursor: default;
+}
+
+.mrtSlideImg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.4s ease;
+}
+
+.mrtSlideOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.76) 0%, rgba(0, 0, 0, 0.44) 48%, rgba(0, 0, 0, 0.04) 85%),
+              linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, transparent 55%, rgba(0, 0, 0, 0.40) 100%);
+}
+
+.mrtSlideContent {
+  position: absolute;
+  top: clamp(14px, 4.5%, 26px);
+  left: clamp(14px, 4.5%, 32px);
+  right: clamp(14px, 4.5%, 32px);
+  z-index: 2;
+  color: #FFFFFF;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.mrtAdBadge {
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.72);
+  margin-bottom: 2px;
+  display: inline-block;
+}
+.mrtAdBadge.hidden {
+  display: none !important;
+}
+
+.mrtSlideEyebrow {
+  font-family: inherit;
+  font-size: clamp(11.5px, 2.9vw, 14px);
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 4px;
+  line-height: 1.35;
+  letter-spacing: -0.2px;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.mrtSlideTitle {
+  font-family: inherit;
+  font-size: clamp(15px, 4.0vw, 24px);
+  font-weight: 700;
+  color: #FFFFFF;
+  letter-spacing: -0.3px;
+  line-height: 1.28;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+  max-width: 88%;
+  word-break: keep-all;
+}
+
+.mrtCounterPill {
+  position: absolute;
+  bottom: clamp(10px, 3.5%, 18px);
+  right: clamp(12px, 4%, 22px);
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.48);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  color: #FFFFFF;
+  font-size: clamp(10.5px, 2.7vw, 12.5px);
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 3px 11px;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  pointer-events: none;
+}
+
+/* ============================================================
+   MAIN V6: SOUTH PHU QUOC AT A GLANCE (남부 한눈에)
+   ============================================================ */
+.southGlanceSection {
+  padding: 36px 32px;
+  background: linear-gradient(180deg, #F9FDFD 0%, #FFFFFF 100%);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.overviewMapWrap {
+  position: relative;
+  background: #FFFFFF;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg, 20px);
+  padding: 22px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 14px rgba(18, 51, 59, 0.05);
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.mapStage {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  aspect-ratio: 800 / 520;
+  border-radius: var(--radius-md, 14px);
+  overflow: hidden;
+  background: #EDF6F8;
+  box-shadow: 0 4px 18px rgba(11, 122, 138, 0.08);
+  border: 1px solid rgba(180, 214, 221, 0.6);
+  box-sizing: border-box;
+}
+
+.mapStageSvg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.mapOverlayLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.mapInteractiveItem {
+  position: absolute;
+  pointer-events: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  z-index: 10;
+  text-decoration: none;
+}
+
+.markerSunset {
+  top: 43.3%;
+  left: 31.5%;
+  transform: translate(-50%, -100%);
+}
+
+.markerPinSunset {
+  width: 30px;
+  height: 30px;
+  border-radius: 50% 50% 50% 0;
+  background: var(--amber);
+  transform: rotate(-45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(200, 109, 45, 0.5);
+  border: 2.5px solid #FFFFFF;
+  transition: transform 0.2s;
+}
+.markerPinSunset::after {
+  content: "";
+  width: 9px;
+  height: 9px;
+  background: #FFFFFF;
+  border-radius: 50%;
+}
+.markerSunset:hover .markerPinSunset {
+  transform: rotate(-45deg) scale(1.15);
+}
+
+.markerLabelSunset {
+  margin-bottom: 6px;
+  background: #FFFFFF;
+  border: 1.5px solid var(--amber);
+  border-radius: 8px;
+  padding: 5px 11px;
+  box-shadow: 0 10px 28px rgba(18, 51, 59, 0.08);
+  text-align: center;
+  white-space: nowrap;
+}
+.markerLabelSunset strong {
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--amber-deep);
+  display: block;
+}
+.markerLabelSunset span {
+  font-size: 10.5px;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.markerKhem {
+  top: 43.3%;
+  left: 64.0%;
+  transform: translate(-50%, -100%);
+  cursor: not-allowed;
+}
+
+.markerPinKhem {
+  width: 30px;
+  height: 30px;
+  border-radius: 50% 50% 50% 0;
+  background: var(--ocean);
+  transform: rotate(-45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(11, 122, 138, 0.5);
+  border: 2.5px solid #FFFFFF;
+  transition: transform 0.2s;
+}
+.markerPinKhem::after {
+  content: "";
+  width: 9px;
+  height: 9px;
+  background: #FFFFFF;
+  border-radius: 50%;
+}
+
+.markerLabelKhem {
+  margin-bottom: 6px;
+  background: #FFFFFF;
+  border: 1.5px solid var(--ocean);
+  border-radius: 8px;
+  padding: 5px 11px;
+  box-shadow: 0 10px 28px rgba(18, 51, 59, 0.08);
+  text-align: center;
+  white-space: nowrap;
+  position: relative;
+}
+.markerLabelKhem strong {
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--ocean-deep);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.markerLabelKhem span {
+  font-size: 10.5px;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.statusPreparingBadge {
+  font-size: 9.5px;
+  font-weight: 700;
+  color: #475569;
+  background: #E2E8F0;
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+
+.routeDistanceBadge {
+  position: absolute;
+  top: 43.3%;
+  left: 47.7%;
+  transform: translate(-50%, -50%);
+  background: #FFFFFF;
+  border: 1.5px solid #64748B;
+  border-radius: 9999px;
+  padding: 5px 13px;
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--ink);
+  box-shadow: 0 10px 28px rgba(18, 51, 59, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  z-index: 12;
+  pointer-events: auto;
+}
+
+.seaLabelWest {
+  position: absolute;
+  top: 11%;
+  left: 4.5%;
+  font-size: 12px;
+  font-weight: 700;
+  color: #3D6B75;
+  letter-spacing: 0.5px;
+  pointer-events: none;
+  z-index: 5;
+}
+.seaLabelEast {
+  position: absolute;
+  top: 11%;
+  right: 4.5%;
+  font-size: 12px;
+  font-weight: 700;
+  color: #3D6B75;
+  letter-spacing: 0.5px;
+  text-align: right;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.mapFooterNote {
+  margin-top: 14px;
+  padding: 12px 18px;
+  background: #F8FAFA;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md, 14px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--muted);
+  gap: 12px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.noteLeft { word-break: keep-all; overflow-wrap: break-word; }
+.noteRight { word-break: keep-all; overflow-wrap: break-word; white-space: nowrap; }
+
+.twoCardsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.zoneCard {
+  background: #FFFFFF;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg, 20px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 14px rgba(18, 51, 59, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+.zoneCard:hover {
+  box-shadow: 0 10px 28px rgba(18, 51, 59, 0.08);
+  transform: translateY(-2px);
+}
+.zoneCard.sunset { border-top: 5px solid var(--amber); }
+.zoneCard.khem { border-top: 5px solid var(--ocean); }
+
+.zoneCardMedia {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+  background: #12333B;
+  width: 100%;
+  max-width: 100%;
+}
+.zoneCardMedia img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.zoneCard:hover .zoneCardMedia img {
+  transform: scale(1.03);
+}
+
+.zoneMediaShade {
+  position: absolute;
+  bottom: 0; left: 0; width: 100%; height: 50%;
+  background: linear-gradient(180deg, transparent 0%, rgba(18, 51, 59, 0.6) 100%);
+}
+
+.zoneCardBadge {
+  position: absolute;
+  top: 14px; left: 14px;
+  font-size: 11.5px;
+  font-weight: 800;
+  padding: 5px 12px;
+  border-radius: 9999px;
+  color: #FFFFFF;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+.zoneCard.sunset .zoneCardBadge { background: var(--amber); }
+.zoneCard.khem .zoneCardBadge { background: var(--ocean); }
+
+.zonePreparingBadge {
+  position: absolute;
+  top: 14px; right: 14px;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 5px 12px;
+  border-radius: 9999px;
+  color: #334155;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid #CBD5E1;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.zoneCardBody {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.zoneTitleRow {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+.zoneTitleRow h4 {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--ink);
+  margin-right: 8px;
+}
+.zoneTitleRow span {
+  font-size: 13px;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.zoneTagLine {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ocean-deep);
+  margin-bottom: 12px;
+  word-break: keep-all;
+}
+
+.zoneCardDesc {
+  font-size: 13.5px;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  margin-bottom: 16px;
+  flex: 1;
+  word-break: keep-all;
+}
+
+.zoneFeatureChips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.zoneChip {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: #334155;
+  background: #F1F5F9;
+  border: 1px solid #E2E8F0;
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+
+.zoneCtaBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 18px;
+  border-radius: var(--radius-md, 14px);
+  background: #0B7A8A;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.zoneCtaBtn:hover {
+  background: #0A4F5C;
+}
+.zoneCtaBtn.disabled {
+  background: #E2E8F0;
+  color: #94A3B8;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* ============================================================
+   TOUR LANDING PAGES: BUGGY & TAXI TOURS
+   ============================================================ */
+.tourLandingWrap {
+  width: 100%;
+  background: #FFFFFF;
+  position: relative;
+}
+
+.tourHeroSection {
+  position: relative;
+  width: 100%;
+  height: clamp(380px, 46vw, 500px);
+  min-height: 360px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background: #0A262E;
+}
+.tourHeroImg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.tourHeroOverlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(6, 24, 29, 0.88) 0%, rgba(6, 24, 29, 0.65) 45%, rgba(6, 24, 29, 0.35) 100%),
+    linear-gradient(180deg, rgba(6, 24, 29, 0.4) 0%, transparent 60%, rgba(6, 24, 29, 0.6) 100%);
+}
+.tourHeroContent {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 960px;
+  padding: 0 clamp(24px, 5vw, 64px);
+  color: #FFFFFF;
+}
+.tourHeroBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 14px;
+  border-radius: 9999px;
+  background: var(--amber);
+  color: #FFFFFF;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 12px rgba(200, 109, 45, 0.35);
+}
+.tourHeroTitle {
+  font-size: clamp(28px, 4.5vw, 44px);
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.8px;
+  color: #FFFFFF;
+  margin-bottom: 14px;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.35);
+}
+.tourHeroSubtitle {
+  font-size: clamp(15px, 2.2vw, 19px);
+  font-weight: 450;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.94);
+  max-width: 720px;
+  letter-spacing: -0.3px;
+  word-break: keep-all;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.25);
+}
+
+.tourFeaturesSection {
+  padding: clamp(52px, 6.5vw, 80px) clamp(20px, 4vw, 48px);
+  background: #FFFFFF;
+}
+.tourSectionHeader {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto clamp(36px, 4.5vw, 52px);
+}
+.tourSectionEyebrow {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--ocean);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.tourSectionTitle {
+  font-size: clamp(22px, 3.2vw, 30px);
+  font-weight: 800;
+  color: var(--ink);
+  letter-spacing: -0.5px;
+  line-height: 1.35;
+  word-break: keep-all;
+}
+
+.tourCardsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(18px, 2.5vw, 28px);
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.tourFeatureCard {
+  background: #F0F8F8;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg, 20px);
+  padding: clamp(26px, 3.2vw, 38px) clamp(22px, 2.6vw, 30px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.tourFeatureCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(18, 51, 59, 0.08);
+  border-color: var(--ocean);
+}
+.tourCardIconWrap {
+  width: 54px;
+  height: 54px;
+  border-radius: var(--radius-md, 14px);
+  background: #FFFFFF;
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ocean);
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(18, 51, 59, 0.05);
+  flex-shrink: 0;
+}
+.tourCardIconWrap svg {
+  width: 28px;
+  height: 28px;
+}
+.tourCardOrder {
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--amber);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.tourCardTitle {
+  font-size: clamp(17px, 2vw, 20px);
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.4;
+  margin-bottom: 10px;
+  letter-spacing: -0.4px;
+  word-break: keep-all;
+}
+.tourCardDesc {
+  font-size: 15px;
+  font-weight: 450;
+  color: #475569;
+  line-height: 1.65;
+  letter-spacing: -0.2px;
+  word-break: keep-all;
+}
+
+.tourContactSection {
+  padding: 0 clamp(20px, 4vw, 48px) clamp(64px, 8vw, 96px);
+  background: #FFFFFF;
+}
+.tourContactBox {
+  max-width: 920px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #0A4F5C 0%, #0D6B78 60%, #12333B 100%);
+  border-radius: clamp(18px, 3vw, 28px);
+  padding: clamp(36px, 5vw, 56px) clamp(24px, 4vw, 48px);
+  color: #FFFFFF;
+  text-align: center;
+  box-shadow: 0 16px 40px rgba(10, 79, 92, 0.24);
+  position: relative;
+  overflow: hidden;
+}
+.tourContactBox::before {
+  content: "";
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(63, 184, 196, 0.25) 0%, transparent 70%);
+  pointer-events: none;
+}
+.tourContactBoxTag {
+  display: inline-block;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--aqua);
+  background: rgba(255, 255, 255, 0.12);
+  padding: 4px 14px;
+  border-radius: 9999px;
+  margin-bottom: 12px;
+  letter-spacing: 0.04em;
+}
+.tourContactBoxTitle {
+  font-size: clamp(24px, 3.5vw, 34px);
+  font-weight: 800;
+  line-height: 1.3;
+  margin-bottom: 12px;
+  letter-spacing: -0.6px;
+}
+.tourContactBoxDesc {
+  font-size: clamp(15px, 2vw, 17px);
+  font-weight: 450;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 24px;
+  word-break: keep-all;
+  line-height: 1.6;
+}
+.tourContactPhoneRow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 8px 22px;
+  border-radius: 9999px;
+  margin-bottom: 28px;
+}
+.tourPhoneIcon {
+  width: 20px;
+  height: 20px;
+  color: var(--aqua);
+}
+.tourPhoneNumber {
+  font-size: clamp(20px, 3vw, 26px);
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.tourContactButtonsLarge {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.tourBtnLarge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px 30px;
+  border-radius: var(--radius-md, 14px);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  transition: all 0.25s ease;
+  min-width: 200px;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.tourBtnLarge svg {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.tourBtnWhatsapp {
+  background: #25D366;
+}
+.tourBtnWhatsapp:hover {
+  background: #20BD5A;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(37, 211, 102, 0.4);
+}
+.tourBtnZalo {
+  background: #0068FF;
+}
+.tourBtnZalo:hover {
+  background: #0056D6;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 104, 255, 0.4);
+}
+
+/* Floating contact widgets (desktop / mobile) */
+.tourDesktopFixedContact {
+  position: fixed;
+  right: 28px;
+  bottom: 32px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+.tourFixedCardWidget {
+  background: #FFFFFF;
+  border: 1px solid #CBD5E1;
+  border-radius: var(--radius-lg, 20px);
+  padding: 14px 16px;
+  box-shadow: 0 12px 30px rgba(10, 50, 60, 0.22);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 220px;
+}
+.tourFixedWidgetHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+}
+.tourFixedWidgetLabel {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ocean-deep);
+}
+.tourFixedWidgetPhone {
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--amber);
+  letter-spacing: 0.02em;
+}
+.tourFixedBtnRow {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.tourFixedBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm, 8px);
+  font-size: 13px;
+  font-weight: 700;
+  color: #FFFFFF;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+.tourFixedBtn svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+.tourFixedBtn.whatsapp {
+  background: #25D366;
+}
+.tourFixedBtn.whatsapp:hover {
+  background: #20BD5A;
+}
+.tourFixedBtn.zalo {
+  background: #0068FF;
+}
+.tourFixedBtn.zalo:hover {
+  background: #0056D6;
+}
+
+.tourMobileFixedBar {
+  display: none;
+}
+
+/* Mobile responsive rules */
+@media (max-width: 900px) {
+  .tourCardsGrid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tourDesktopFixedContact {
+    display: none !important;
+  }
+  .tourMobileFixedBar {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #FFFFFF;
+    box-shadow: 0 -4px 20px rgba(18, 51, 59, 0.15);
+    border-top: 1px solid var(--border);
+    padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
+    gap: 10px;
+  }
+  .tourMobileFixedBtn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 10px;
+    border-radius: var(--radius-md, 14px);
+    font-size: 14.5px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .tourMobileFixedBtn svg {
+    width: 20px;
+    height: 20px;
+  }
+  .tourMobileFixedBtn.whatsapp {
+    background: #25D366;
+  }
+  .tourMobileFixedBtn.zalo {
+    background: #0068FF;
+  }
+  .tourLandingWrap {
+    padding-bottom: 96px !important;
+  }
+
+  /* South Glance Mobile Optimization */
+  .southGlanceSection {
+    padding: 24px 14px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  .overviewMapWrap {
+    padding: 12px 10px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  .mapStage {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 800 / 520;
+  }
+  .markerSunset { top: 43.3%; left: 31.5%; }
+  .markerKhem { top: 43.3%; left: 64.0%; }
+  .markerLabelSunset, .markerLabelKhem {
+    padding: 3px 6px;
+    margin-bottom: 3px;
+  }
+  .markerLabelSunset strong, .markerLabelKhem strong { font-size: 10px; }
+  .markerLabelSunset span, .markerLabelKhem span { display: none; }
+  .markerPinSunset, .markerPinKhem { width: 22px; height: 22px; }
+  .markerPinSunset::after, .markerPinKhem::after { width: 6px; height: 6px; }
+  .routeDistanceBadge {
+    font-size: 9.5px;
+    padding: 3px 7px;
+    top: 43.3%;
+    left: 47.7%;
+  }
+  .seaLabelWest {
+    top: 8%;
+    left: 3.5%;
+    font-size: 9.5px;
+    display: block !important;
+    pointer-events: none;
+  }
+  .seaLabelEast {
+    top: 8%;
+    right: 4.5%;
+    font-size: 9.5px;
+    display: block !important;
+    pointer-events: none;
+  }
+  .mapFooterNote {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    padding: 10px 12px;
+    font-size: 11px;
+  }
+  .noteRight { white-space: normal; }
+
+  .twoCardsGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    width: 100%;
+    max-width: 100%;
+  }
+  .zoneCardMedia { height: 180px; }
+  .zoneCardBody {
+    padding: 16px 14px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  .zoneTitleRow {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+  .zoneTitleRow h4 { font-size: 17.5px; }
+  .zoneTitleRow span { margin-left: 0; }
+  .zoneTagLine { font-size: 12px; margin-bottom: 8px; }
+  .zoneCardDesc { font-size: 12.5px; line-height: 1.55; margin-bottom: 12px; }
+  .zoneChip { font-size: 11px; padding: 3px 7px; }
+  .zoneCtaBtn {
+    padding: 11px 14px;
+    font-size: 13px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+

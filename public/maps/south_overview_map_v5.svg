@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%">
+  <defs>
+    <!-- Tropical Coastal Ocean Gradient -->
+    <linearGradient id="seaGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8F6F8"/>
+      <stop offset="50%" stop-color="#DDF0F4"/>
+      <stop offset="100%" stop-color="#D0E9EE"/>
+    </linearGradient>
+
+    <!-- Turquoise Lagoon & Coral Shelf -->
+    <linearGradient id="lagoonGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C5E8EE" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#B2DFE7" stop-opacity="0.75"/>
+    </linearGradient>
+
+    <!-- Warm Island Base: Natural Sand Cream -->
+    <linearGradient id="landBase4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="50%" stop-color="#FAF7F0"/>
+      <stop offset="100%" stop-color="#F5F1E6"/>
+    </linearGradient>
+
+    <!-- Interior Lush Mountain Hills (Sage Green) -->
+    <linearGradient id="hillGreen4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#DCEADF" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#CDDFD1" stop-opacity="0.7"/>
+    </linearGradient>
+
+    <!-- Subtle Natural Drop Shadow -->
+    <filter id="islandShadow4" x="-5%" y="-5%" width="112%" height="114%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#083840" flood-opacity="0.10"/>
+      <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="#083840" flood-opacity="0.06"/>
+    </filter>
+
+    <filter id="subtleShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#083840" flood-opacity="0.09"/>
+    </filter>
+  </defs>
+
+  <!-- 1. Background Sea -->
+  <rect width="800" height="520" rx="20" fill="url(#seaGrad4)"/>
+
+  <!-- 2. Coral Reef & Shallow Lagoon Shelf (Google Maps Bathymetry) -->
+  <path d="M 285 0 
+           C 280 50, 265 105, 246 160 
+           C 230 200, 218 225, 226 255 
+           C 235 285, 260 312, 288 335 
+           C 318 360, 335 380, 350 405 
+           C 365 425, 395 420, 405 385 
+           C 415 350, 438 340, 480 340 
+           C 540 340, 595 342, 615 318 
+           C 628 300, 610 270, 580 255 
+           C 548 240, 545 220, 552 205 
+           C 560 188, 584 172, 582 135 
+           C 580 95, 542 68, 520 38 
+           C 505 18, 498 0, 495 0 
+           Z" 
+        fill="url(#lagoonGrad4)"/>
+
+  <!-- Island Coral Shelves -->
+  <ellipse cx="352" cy="425" rx="24" ry="17" fill="url(#lagoonGrad4)"/>
+  <ellipse cx="395" cy="452" rx="20" ry="15" fill="url(#lagoonGrad4)"/>
+  <path d="M 342 470 C 375 465, 415 470, 422 495 C 418 518, 355 522, 342 498 Z" fill="url(#lagoonGrad4)"/>
+
+  <!-- 3. Southern Phu Quoc Island (Realistic Topography Traced from Google Maps) -->
+  <!-- 
+       West Coast: Sunset Town at (252, 225) -> X: 31.5%, Y: 43.3%
+       East Coast: Khem Beach at (512, 225)  -> X: 64.0%, Y: 43.3%
+       East Coast: Sao Beach at (530, 138)   -> X: 66.2%, Y: 26.5%
+       South Peninsula (An Thoi Cape): (372, 392)
+       South-East Cape (Mũi Ông Đội): (595, 305)
+  -->
+  <path d="M 298 0 
+           C 292 45, 278 95, 268 140 
+           C 258 175, 250 198, 250 218 
+           C 250 228, 254 240, 262 255 
+           C 274 278, 296 302, 320 322 
+           C 342 342, 355 362, 362 382 
+           C 366 394, 378 396, 384 384 
+           C 392 368, 390 348, 396 330 
+           C 404 314, 426 304, 452 304 
+           C 485 304, 528 308, 568 312 
+           C 592 315, 600 306, 595 295 
+           C 588 280, 565 264, 546 252 
+           C 528 240, 518 232, 514 225 
+           C 510 216, 518 204, 532 192 
+           C 548 178, 562 160, 560 135 
+           C 558 108, 535 88, 512 62 
+           C 490 38, 478 18, 472 0 
+           Z" 
+        fill="url(#landBase4)" 
+        stroke="#7AAEB9" 
+        stroke-width="1.8" 
+        filter="url(#islandShadow4)"/>
+
+  <!-- 4. Lush Mountain Forests & Hillside Topography (Interior Greenery) -->
+  <!-- Central spine hills running down An Thoi peninsula -->
+  <path d="M 378 0 
+           C 368 55, 352 110, 345 170 
+           C 338 220, 348 265, 360 305 
+           C 368 330, 372 355, 370 372 
+           C 364 360, 358 335, 348 315 
+           C 332 280, 320 230, 330 170 
+           C 338 120, 352 55, 362 0 
+           Z" 
+        fill="url(#hillGreen4)"/>
+
+  <!-- East Cape (Mũi Ông Đội Hill Ridge) -->
+  <path d="M 465 304 C 505 305, 555 310, 578 308 C 562 294, 538 284, 502 287 C 478 290, 466 297, 465 304 Z" 
+        fill="url(#hillGreen4)" opacity="0.75"/>
+
+  <!-- North-East coastal hill (Mũi Chùa / Sao Beach ridge) -->
+  <path d="M 470 0 C 475 35, 495 70, 518 95 C 532 112, 545 130, 542 145 C 540 120, 520 85, 498 50 C 485 25, 480 0, 480 0 Z" 
+        fill="url(#hillGreen4)" opacity="0.6"/>
+
+  <!-- White Beach Sand Crescent Ribbons (Subtle Accent on Khem & Sao Beaches) -->
+  <!-- Bãi Sao White Sand Crescent -->
+  <path d="M 545 125 C 532 140, 532 155, 545 170" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.95"/>
+  <!-- Bãi Khem White Sand Crescent -->
+  <path d="M 524 212 C 514 222, 514 232, 526 242" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" opacity="0.95"/>
+
+  <!-- 5. Southern Islands (An Thoi Archipelago - Hon Thom, Hon Dua, Hon Roi) -->
+  <!-- Dua Island (Hòn Dừa) -->
+  <ellipse cx="352" cy="425" rx="15" ry="11" fill="url(#landBase4)" stroke="#7AAEB9" stroke-width="1.5" filter="url(#subtleShadow)"/>
+  <ellipse cx="352" cy="425" rx="10" ry="7" fill="url(#hillGreen4)" opacity="0.7"/>
+
+  <!-- Roi Island (Hòn Rỏi) -->
+  <path d="M 390 445 C 402 442, 410 448, 405 458 C 398 465, 385 460, 388 450 Z" fill="url(#landBase4)" stroke="#7AAEB9" stroke-width="1.5" filter="url(#subtleShadow)"/>
+  <circle cx="395" cy="452" r="6" fill="url(#hillGreen4)" opacity="0.7"/>
+
+  <!-- Hon Thom Island (Hòn Thơm - Sun World Island) -->
+  <path d="M 355 475 
+           C 370 470, 400 474, 410 485 
+           C 416 492, 412 506, 395 512 
+           C 378 518, 355 515, 345 502 
+           C 338 492, 345 478, 355 475 Z" 
+        fill="url(#landBase4)" stroke="#7AAEB9" stroke-width="1.6" filter="url(#subtleShadow)"/>
+  <path d="M 360 482 C 380 478, 398 485, 395 500 C 380 508, 355 502, 360 482 Z" fill="url(#hillGreen4)" opacity="0.75"/>
+
+  <!-- 6. Architectural Highlight: Kiss Bridge (Cầu Hôn) Facing Arcs off Sunset Town -->
+  <path d="M 248 219 C 234 216, 226 220, 230 225" fill="none" stroke="#C86D2D" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 248 231 C 234 234, 226 230, 230 225" fill="none" stroke="#C86D2D" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- 7. Main Road Network -->
+  <!-- DT975 Central Highway (North-South Main Arterial) -->
+  <path d="M 395 0 
+           C 390 50, 382 110, 380 160 
+           C 376 200, 382 240, 390 280 
+           C 392 300, 388 330, 378 355" 
+        fill="none" stroke="#CBD5E1" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- Direct Connecting Highway (Sunset Town 252, 225 <-> Khem Beach 512, 225) -->
+  <path d="M 252 225 
+           C 295 218, 350 230, 415 228 
+           C 455 226, 485 222, 512 225" 
+        fill="none" stroke="#334155" stroke-width="2.6" stroke-dasharray="6,5" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Cable Car Line from Sunset Town to Hon Thom (Delicate Dotted Trajectory) -->
+  <path d="M 252 238 
+           C 265 290, 305 380, 365 480" 
+        fill="none" stroke="#94A3B8" stroke-width="1.3" stroke-dasharray="3,4" opacity="0.6"/>
+
+  <!-- 8. Geographic Anchor Dots -->
+  <!-- Sunset Town (West Coast: 252, 225 -> 31.5%, 43.3%) -->
+  <circle cx="252" cy="225" r="7" fill="#C86D2D" stroke="#FFFFFF" stroke-width="2.5"/>
+  <!-- Khem Beach (East Coast: 512, 225 -> 64.0%, 43.3%) -->
+  <circle cx="512" cy="225" r="7" fill="#0B7A8A" stroke="#FFFFFF" stroke-width="2.5"/>
+
+  <!-- 9. Elegant Minimalist Compass Indicator (Strictly NO text) -->
+  <g transform="translate(758, 30)">
+    <circle cx="0" cy="0" r="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2" opacity="0.95" filter="url(#subtleShadow)"/>
+    <path d="M 0 -9 L 3.2 1.5 L 0 0 L -3.2 1.5 Z" fill="#0A3E48"/>
+    <path d="M 0 9 L 3.2 1.5 L 0 0 L -3.2 1.5 Z" fill="#94A3B8" opacity="0.6"/>
+  </g>
+</svg>
