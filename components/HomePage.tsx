@@ -369,7 +369,7 @@ export function HomePage({
                 <span className="eyebrow">{dict.home.eventEyebrow}</span>
                 <h2>{sanitizeFireworksTiming(localizedEvent.title)}</h2>
                 <p>{sanitizeFireworksTiming(localizedEvent.excerpt || '')}</p>
-                <div>
+                <div className="eventPromoDate">
                   {localizedEvent.event_date
                     ? new Date(localizedEvent.event_date).toLocaleDateString(dateLocaleFor(locale), {
                         month: 'short',
