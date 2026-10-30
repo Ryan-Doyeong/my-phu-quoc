@@ -28,6 +28,8 @@ import { imageUrl } from '@/lib/imageUrl'
 import type { HomeSections } from '@/lib/homeSections'
 import { localePath, dateLocaleFor, type Locale } from '@/lib/i18n/config'
 import { getDictionary, localizeStory, translateTerm } from '@/lib/i18n/dictionaries'
+import { DEFAULT_SPONSOR_BANNERS } from '@/lib/banners'
+import { PUBLISHED_EVENTS } from '@/lib/eventSamples'
 
 const HOME_NAV_SUNSET: Record<string, string> = {
   ko: '선셋타운',
@@ -214,15 +216,25 @@ export function HomePage({
         slug: `fallback-${i}`,
       }))
 
-  const localizedEvent = event ? localizeStory(event, locale) : null
-  const mainBanners = banners
+  const activeBanners = banners && banners.length > 0 ? banners : DEFAULT_SPONSOR_BANNERS
+  const mainBanners = activeBanners
     .filter((x) => x.size === 'main')
     .sort((a, b) => a.sort_order - b.sort_order)
     .slice(0, 7)
-  const smallBanners = banners
+  const smallBanners = activeBanners
     .filter((x) => x.size === 'small')
     .sort((a, b) => a.sort_order - b.sort_order)
     .slice(0, 4)
+
+  const activeEvent =
+    event ||
+    PUBLISHED_EVENTS.find((e) => e.slug === 'phu-quoc-halloween-sunset-town-hon-thom') ||
+    PUBLISHED_EVENTS[0] ||
+    null
+  const localizedEvent = activeEvent ? localizeStory(activeEvent, locale) : null
+  const eventHref = localizedEvent?.slug
+    ? localePath(locale, `/news/${localizedEvent.slug}`)
+    : localePath(locale, '/news')
 
   const heroImage = '/hero/02_kiss_bridge_aerial_1920.webp'
 
@@ -343,7 +355,7 @@ export function HomePage({
 
         {homeSections.eventPromo.visible && localizedEvent && (
           <section className="shell eventPromo">
-            <Link href={localePath(locale, '/events')} className="eventPromoLink">
+            <Link href={eventHref} className="eventPromoLink">
               <img
                 src={imageUrl(localizedEvent.cover_image_url || '/features/nightlife_featured_1280.webp', 1200, 72)}
                 alt=""
@@ -408,63 +420,6 @@ export function HomePage({
                 →
               </span>
             </Link>
-          </section>
-        )}
-
-        {homeSections.discover.visible && (
-          <section className="shell discover" id="discover">
-            <div className="sectionIntro">
-              <div>
-                <span className="eyebrow">{dict.home.discoverEyebrow}</span>
-                <h2>{discoverTitle}</h2>
-                <p>{discoverDesc}</p>
-              </div>
-            </div>
-            <div className="categoryCards categoryCardsFive">
-              {DIRECTORY_CATEGORY_KEYS.map((key) => {
-                const c = DIRECTORY_CATEGORIES[key]
-                const icon = categoryAppearance[key]
-                const locLabel = categoryLabel(key, locale)
-                const locEyebrow = categoryEyebrow(key, locale)
-                const locDesc = categoryDescription(key, locale)
-                return (
-                  <Link
-                    href={localePath(locale, `/directory/${key}`)}
-                    key={key}
-                    data-analytics-type="category"
-                    data-analytics-id={key}
-                    data-theme={categoryTheme(key)}
-                  >
-                    <article>
-                      <img
-                        src={imageUrl(c.image, 480, 72)}
-                        alt=""
-                        loading="lazy"
-                        decoding="async"
-                        width={480}
-                        height={320}
-                      />
-                      <div className="categoryIconBadge">
-                        {icon.icon_url ? (
-                          <img src={icon.icon_url} alt={`${locLabel} icon`} />
-                        ) : (
-                          <span>{icon.icon_text}</span>
-                        )}
-                      </div>
-                      <span>{locEyebrow}</span>
-                      <h3>{locLabel}</h3>
-                      <p>{locDesc}</p>
-                      <div className="categoryMiniTags">
-                        {c.subcategories.slice(0, 4).map((x) => (
-                          <em key={x}>{translateTerm(x, locale)}</em>
-                        ))}
-                      </div>
-                      <strong>{dict.home.exploreCategory(locLabel)}</strong>
-                    </article>
-                  </Link>
-                )
-              })}
-            </div>
           </section>
         )}
 
@@ -643,6 +598,63 @@ export function HomePage({
             )
           })()}
         </section>
+
+        {homeSections.discover.visible && (
+          <section className="shell discover" id="discover">
+            <div className="sectionIntro">
+              <div>
+                <span className="eyebrow">{dict.home.discoverEyebrow}</span>
+                <h2>{discoverTitle}</h2>
+                <p>{discoverDesc}</p>
+              </div>
+            </div>
+            <div className="categoryCards categoryCardsFive">
+              {DIRECTORY_CATEGORY_KEYS.map((key) => {
+                const c = DIRECTORY_CATEGORIES[key]
+                const icon = categoryAppearance[key]
+                const locLabel = categoryLabel(key, locale)
+                const locEyebrow = categoryEyebrow(key, locale)
+                const locDesc = categoryDescription(key, locale)
+                return (
+                  <Link
+                    href={localePath(locale, `/directory/${key}`)}
+                    key={key}
+                    data-analytics-type="category"
+                    data-analytics-id={key}
+                    data-theme={categoryTheme(key)}
+                  >
+                    <article>
+                      <img
+                        src={imageUrl(c.image, 480, 72)}
+                        alt=""
+                        loading="lazy"
+                        decoding="async"
+                        width={480}
+                        height={320}
+                      />
+                      <div className="categoryIconBadge">
+                        {icon.icon_url ? (
+                          <img src={icon.icon_url} alt={`${locLabel} icon`} />
+                        ) : (
+                          <span>{icon.icon_text}</span>
+                        )}
+                      </div>
+                      <span>{locEyebrow}</span>
+                      <h3>{locLabel}</h3>
+                      <p>{locDesc}</p>
+                      <div className="categoryMiniTags">
+                        {c.subcategories.slice(0, 4).map((x) => (
+                          <em key={x}>{translateTerm(x, locale)}</em>
+                        ))}
+                      </div>
+                      <strong>{dict.home.exploreCategory(locLabel)}</strong>
+                    </article>
+                  </Link>
+                )
+              })}
+            </div>
+          </section>
+        )}
 
         <SunsetTownTickets locale={locale} />
 

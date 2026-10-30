@@ -46,43 +46,43 @@ function localizeSponsorBanner(banner: Banner, locale: Locale): { title: string;
 
   const key = banner.slot_key
   if (locale === 'vi') {
-    if (key === 'main-1' || /featured partner/i.test(rawTitle)) {
+    if (/featured partner/i.test(rawTitle)) {
       return {
         title: 'Vị trí Đối tác Nổi bật · Đang mở đăng ký',
         subtitle: 'Đồng hành cùng khu phố — miễn phí 3 tháng đầu cho Đối tác Cộng đồng Sáng lập.',
       }
     }
-    if (key === 'small-1' || /food partner/i.test(rawTitle)) {
+    if (/food partner/i.test(rawTitle)) {
       return { title: 'Đối tác Ẩm thực · Còn trống', subtitle: rawSub }
     }
-    if (key === 'small-2' || /fitness partner/i.test(rawTitle)) {
+    if (/fitness partner/i.test(rawTitle)) {
       return { title: 'Đối tác Thể dục · Còn trống', subtitle: rawSub }
     }
-    if (key === 'small-3' || /caf[eé] partner/i.test(rawTitle)) {
+    if (/caf[eé] partner/i.test(rawTitle)) {
       return { title: 'Đối tác Cà phê · Còn trống', subtitle: rawSub }
     }
-    if (key === 'small-4' || /community partner/i.test(rawTitle)) {
+    if (/community partner/i.test(rawTitle)) {
       return { title: 'Đối tác Cộng đồng · Còn trống', subtitle: rawSub }
     }
   }
 
   if (locale === 'ko') {
-    if (key === 'main-1' || /featured partner/i.test(rawTitle)) {
+    if (/featured partner/i.test(rawTitle)) {
       return {
         title: '대표 커뮤니티 파트너 자리 · 신청 가능',
         subtitle: '푸꾸옥 이웃과 함께하는 창립 커뮤니티 파트너 — 첫 3개월 무료.',
       }
     }
-    if (key === 'small-1' || /food partner/i.test(rawTitle)) {
+    if (/food partner/i.test(rawTitle)) {
       return { title: '미식 파트너 · 신청 가능', subtitle: rawSub }
     }
-    if (key === 'small-2' || /fitness partner/i.test(rawTitle)) {
+    if (/fitness partner/i.test(rawTitle)) {
       return { title: '운동 파트너 · 신청 가능', subtitle: rawSub }
     }
-    if (key === 'small-3' || /caf[eé] partner/i.test(rawTitle)) {
+    if (/caf[eé] partner/i.test(rawTitle)) {
       return { title: '카페 파트너 · 신청 가능', subtitle: rawSub }
     }
-    if (key === 'small-4' || /community partner/i.test(rawTitle)) {
+    if (/community partner/i.test(rawTitle)) {
       return { title: '커뮤니티 파트너 · 신청 가능', subtitle: rawSub }
     }
   }
