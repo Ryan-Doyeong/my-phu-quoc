@@ -15,6 +15,13 @@ interface TourPoint {
   icon: ReactNode
 }
 
+interface TourGuideItem {
+  label: string
+  title: string
+  desc: string
+  icon: ReactNode
+}
+
 interface TourLandingPageProps {
   type: 'buggy' | 'taxi'
   locale?: Locale
@@ -100,6 +107,124 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
         },
       ]
 
+  const guides: TourGuideItem[] = isBuggy
+    ? [
+        {
+          label: (tourData as any).guide1Label || '탑승 정원',
+          title: (tourData as any).guide1Title || '최대 8명 탑승',
+          desc: (tourData as any).guide1Desc || '한 번에 최대 8명까지 여유롭게 함께 탑승하실 수 있습니다.',
+          icon: (
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+          ),
+        },
+        {
+          label: (tourData as any).guide2Label || '미팅 장소',
+          title: (tourData as any).guide2Title || '맞춤 승하차 미팅',
+          desc: (tourData as any).guide2Desc || '고객님이 계신 장소에 맞춰 편리하게 승하차를 진행합니다.',
+          icon: (
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+          ),
+        },
+        {
+          label: (tourData as any).guide3Label || '결제 방식',
+          title: (tourData as any).guide3Title || '현금 · 카드 · 계좌이체',
+          desc: (tourData as any).guide3Desc || '현금뿐만 아니라 신용카드 및 계좌이체 결제가 모두 가능합니다.',
+          icon: (
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <rect x="1" y="4" width="22" height="16" rx="2" ry="2" />
+              <line x1="1" y1="10" x2="23" y2="10" />
+            </svg>
+          ),
+        },
+        {
+          label: (tourData as any).guide4Label || '날씨 정책',
+          title: (tourData as any).guide4Title || '우천 시 변경 및 취소',
+          desc: (tourData as any).guide4Desc || '비가 올 경우 예약 일정 변경 및 무료 취소가 가능합니다.',
+          icon: (
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25" />
+              <line x1="8" y1="19" x2="8" y2="21" />
+              <line x1="8" y1="13" x2="8" y2="15" />
+              <line x1="16" y1="19" x2="16" y2="21" />
+              <line x1="16" y1="13" x2="16" y2="15" />
+              <line x1="12" y1="21" x2="12" y2="23" />
+              <line x1="12" y1="15" x2="12" y2="17" />
+            </svg>
+          ),
+        },
+      ]
+    : [
+        {
+          label: (tourData as any).guide1Label || '차량 옵션',
+          title: (tourData as any).guide1Title || '다양한 차량 제공',
+          desc: (tourData as any).guide1Desc || '탑승 인원과 여행 목적에 맞춰 다양한 차량을 제공해 드립니다.',
+          icon: (
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
+              <circle cx="7" cy="17" r="2" />
+              <path d="M9 17h6" />
+              <circle cx="17" cy="17" r="2" />
+            </svg>
+          ),
+        },
+        {
+          label: (tourData as any).guide2Label || '투어 코스',
+          title: (tourData as any).guide2Title || '보편적 코스 & 맞춤 투어',
+          desc: (tourData as any).guide2Desc || '보편적인 추천 코스는 물론, 개인 상황과 일정에 맞춘 자유 투어가 가능합니다.',
+          icon: (
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6" />
+              <line x1="8" y1="2" x2="8" y2="18" />
+              <line x1="16" y1="6" x2="16" y2="22" />
+            </svg>
+          ),
+        },
+        {
+          label: (tourData as any).guide3Label || '요금 정책',
+          title: (tourData as any).guide3Title || '일괄 포함 요금',
+          desc: (tourData as any).guide3Desc || '복잡한 추가 비용 없이 깔끔한 일괄 포함 요금으로 안내해 드립니다.',
+          icon: (
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+            </svg>
+          ),
+        },
+        {
+          label: (tourData as any).guide4Label || '소통 안내',
+          title: (tourData as any).guide4Title || '편리한 기사 소통',
+          desc: (tourData as any).guide4Desc || '기사님이 기본 투어 일정을 잘 이해하고 있으며, 번역기를 사용하여 원활하게 소통합니다.',
+          icon: (
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+            </svg>
+          ),
+        },
+        {
+          label: (tourData as any).guide5Label || '날씨 정책',
+          title: (tourData as any).guide5Title || '우천 시 변경 및 취소',
+          desc: (tourData as any).guide5Desc || '비가 올 경우 예약 일정 변경 및 취소가 가능합니다.',
+          icon: (
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25" />
+              <line x1="8" y1="19" x2="8" y2="21" />
+              <line x1="8" y1="13" x2="8" y2="15" />
+              <line x1="16" y1="19" x2="16" y2="21" />
+              <line x1="16" y1="13" x2="16" y2="15" />
+              <line x1="12" y1="21" x2="12" y2="23" />
+              <line x1="12" y1="15" x2="12" y2="17" />
+            </svg>
+          ),
+        },
+      ]
+
   return (
     <div className="tourLandingWrap">
       {/* Site Header (Common) */}
@@ -159,6 +284,27 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
               <div className="tourCardOrder">{pt.order}</div>
               <h3 className="tourCardTitle">{pt.title}</h3>
               <p className="tourCardDesc">{pt.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* ②-2. Service Guide (이용 안내) */}
+      <section className="tourServiceGuideSection">
+        <div className="tourSectionHeader">
+          <div className="tourSectionEyebrow">{(tourData as any).guideEyebrow || 'Service Guide'}</div>
+          <h2 className="tourSectionTitle">{(tourData as any).guideTitle || (isBuggy ? '버기 투어 이용 안내' : '택시 투어 이용 안내')}</h2>
+        </div>
+
+        <div className={isBuggy ? 'tourGuideGrid buggyGrid' : 'tourGuideGrid taxiGrid'}>
+          {guides.map((g, idx) => (
+            <div className="tourGuideCard" key={idx}>
+              <div className="tourGuideHeader">
+                <div className="tourGuideIconWrap">{g.icon}</div>
+                <span className="tourGuideLabel">{g.label}</span>
+              </div>
+              <h3 className="tourGuideTitle">{g.title}</h3>
+              <p className="tourGuideText">{g.desc}</p>
             </div>
           ))}
         </div>

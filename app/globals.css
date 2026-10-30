@@ -1908,6 +1908,95 @@ html[lang="hi"] .sectionIntro h2, html[lang="hi"] .businessPrimaryTitle {
   word-break: keep-all;
 }
 
+/* Service Guide Section */
+.tourServiceGuideSection {
+  padding: clamp(44px, 5.5vw, 68px) clamp(20px, 4vw, 48px);
+  background: #F8FBFA;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.tourGuideGrid {
+  display: grid;
+  gap: clamp(14px, 2vw, 22px);
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.tourGuideGrid.buggyGrid {
+  grid-template-columns: repeat(4, 1fr);
+}
+.tourGuideGrid.taxiGrid {
+  grid-template-columns: repeat(3, 1fr);
+}
+.tourGuideCard {
+  background: #FFFFFF;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md, 14px);
+  padding: clamp(20px, 2.5vw, 26px);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 12px rgba(18, 51, 59, 0.05);
+}
+.tourGuideHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.tourGuideIconWrap {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: #DDF0EF;
+  color: #0A4F5C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.tourGuideIconWrap svg {
+  width: 20px;
+  height: 20px;
+}
+.tourGuideLabel {
+  font-size: 13px;
+  font-weight: 700;
+  color: #64748B;
+  letter-spacing: -0.2px;
+}
+.tourGuideTitle {
+  font-size: 16.5px;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 6px;
+  letter-spacing: -0.3px;
+}
+.tourGuideText {
+  font-size: 14px;
+  font-weight: 450;
+  color: #475569;
+  line-height: 1.55;
+  word-break: keep-all;
+}
+
+@media (max-width: 960px) {
+  .tourGuideGrid.buggyGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+  .tourGuideGrid.taxiGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tourGuideGrid.buggyGrid,
+  .tourGuideGrid.taxiGrid {
+    grid-template-columns: 1fr !important;
+    gap: 12px;
+  }
+}
+
 .tourContactSection {
   padding: 0 clamp(20px, 4vw, 48px) clamp(64px, 8vw, 96px);
   background: #FFFFFF;
