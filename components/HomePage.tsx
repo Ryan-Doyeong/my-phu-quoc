@@ -369,17 +369,20 @@ export function HomePage({
                 <span className="eyebrow">{dict.home.eventEyebrow}</span>
                 <h2>{sanitizeFireworksTiming(localizedEvent.title)}</h2>
                 <p>{sanitizeFireworksTiming(localizedEvent.excerpt || '')}</p>
-                <div className="eventPromoDate">
-                  {localizedEvent.event_date
-                    ? new Date(localizedEvent.event_date).toLocaleDateString(dateLocaleFor(locale), {
-                        month: 'short',
-                        day: 'numeric',
-                        year: 'numeric',
-                      })
-                    : dict.home.eventUpcoming}
-                  {localizedEvent.event_location ? ` · ${localizedEvent.event_location}` : ''}
+                <div className="eventPromoFooter">
+                  <span className="eventPromoDate">
+                    {localizedEvent.event_date
+                      ? new Date(localizedEvent.event_date).toLocaleDateString(dateLocaleFor(locale), {
+                          month: 'short',
+                          day: 'numeric',
+                          year: 'numeric',
+                        })
+                      : dict.home.eventUpcoming}
+                    {localizedEvent.event_location ? ` · ${localizedEvent.event_location}` : ''}
+                  </span>
+                  <span className="eventPromoDot">·</span>
+                  <strong className="eventPromoCta">{dict.home.eventCta} <span>→</span></strong>
                 </div>
-                <strong>{dict.home.eventCta}</strong>
               </div>
               <span className="eventPromoAttribution">Photo: Vivu Vietnam · CC BY-SA 4.0</span>
             </Link>
