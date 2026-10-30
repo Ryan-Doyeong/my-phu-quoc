@@ -116,13 +116,12 @@ export function SponsorCarousel({
     <>
       <img
         src={imageUrl(active.image_url, 1400, 72)}
-        alt={activeLocalized.title || 'Sponsor banner'}
+        alt={activeLocalized.title || 'Partner banner'}
         loading="lazy"
         decoding="async"
       />
       <div className="sponsorShade" />
       <div className="sponsorCopy">
-        <span>{dict.home.sponsoredBadge}</span>
         <h3>{activeLocalized.title}</h3>
         {activeLocalized.subtitle && <p>{activeLocalized.subtitle}</p>}
       </div>
@@ -130,14 +129,12 @@ export function SponsorCarousel({
   ) : null
 
   return (
-    <section className="shell sponsorsSection" aria-label="Sponsors">
+    <section className="shell sponsorsSection" aria-label="Community Partners">
       <div className="sectionIntro sponsorIntro">
         <div>
-          <span className="eyebrow">{dict.home.sponsorEyebrow}</span>
           <h2>{dict.home.sponsorTitle}</h2>
           <p>{dict.home.sponsorDesc}</p>
         </div>
-        <span className="sponsorCount">{dict.home.sponsorCount}</span>
       </div>
       {active && (
         <div className="mainSponsorFrame">
@@ -167,7 +164,7 @@ export function SponsorCarousel({
               {main.map((x, i) => (
                 <button
                   key={x.slot_key}
-                  aria-label={`Show sponsor ${i + 1}`}
+                  aria-label={`Show slide ${i + 1}`}
                   className={i === index ? 'active' : ''}
                   onClick={() => setIndex(i)}
                 />
@@ -186,11 +183,10 @@ export function SponsorCarousel({
               <>
                 <img
                   src={imageUrl(x.image_url, 520, 68)}
-                  alt={locSmall.title || 'Sponsor'}
+                  alt={locSmall.title || 'Partner'}
                   loading="lazy"
                   decoding="async"
                 />
-                <span>{dict.home.sponsoredBadge}</span>
                 <strong>{locSmall.title}</strong>
               </>
             )

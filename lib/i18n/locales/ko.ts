@@ -38,7 +38,7 @@ export const ko = {
     heroSearchButton: '검색',
     sponsorEyebrow: '스폰서 · 명확한 광고 표기',
     sponsorTitle: '커뮤니티 파트너',
-    sponsorDesc: '플랫폼 운영과 이웃 간의 연결을 후원하는 푸꾸옥 로컬 브랜드 및 파트너입니다.',
+    sponsorDesc: '플랫폼 운영과 이웃 간의 연결을 지원하는 푸꾸옥 로컬 브랜드 및 파트너입니다.',
     sponsorCount: '지역 후원 · 스폰서 명확 표기',
     sponsoredBadge: 'SPONSORED',
     eventEyebrow: '푸꾸옥 이벤트',
