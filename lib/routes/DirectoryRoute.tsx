@@ -99,7 +99,9 @@ export async function renderDirectoryRoute(
         service_areas: a?.service_areas || ['sunset-town'],
       }
     }),
-    ...(khemBusinesses as any[]).map((b) => {
+    ...(khemBusinesses as any[])
+      .filter((b) => b.status === 'published')
+      .map((b) => {
       const a = assignments[b.id]
       return {
         ...b,
@@ -110,11 +112,18 @@ export async function renderDirectoryRoute(
     }),
   ]
 
-  const items = (
-    data && data.length > 0 && !['beaches', 'transport'].includes(category)
+  const khemItems = combinedRegistry.filter(
+    (b) => b.zone === 'khem-beach' && b.public_category === category
+  )
+
+  const items = [
+    ...(data && data.length > 0 && !['beaches', 'transport'].includes(category)
       ? data
-      : combinedRegistry.filter((b) => b.public_category === category)
-  ).filter(
+      : combinedRegistry.filter(
+          (b) => b.zone !== 'khem-beach' && b.public_category === category
+        )),
+    ...khemItems,
+  ].filter(
     (b: any) =>
       b.slug !== 'sunset-place-4' &&
       b.slug !== 'sunset-place-8' &&

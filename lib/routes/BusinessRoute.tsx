@@ -105,7 +105,7 @@ export async function generateBusinessMetadata(
   if (!b) {
     b =
       (businessesRegistry as any[]).find((x) => x.slug === slug) ||
-      (khemBusinesses as any[]).find((x) => x.slug === slug) ||
+      (khemBusinesses as any[]).find((x) => x.slug === slug && x.status === 'published') ||
       null
   }
   if (!b) return {}
@@ -177,7 +177,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
   if (!b) {
     b =
       (businessesRegistry as any[]).find((x) => x.slug === slug) ||
-      (khemBusinesses as any[]).find((x) => x.slug === slug) ||
+      (khemBusinesses as any[]).find((x) => x.slug === slug && x.status === 'published') ||
       null
   }
   if (!b || b.slug === 'sunset-place-4' || b.slug === 'sunset-place-8' || b.id === 'local-sunset-139' || b.id === 'local-sunset-240') {

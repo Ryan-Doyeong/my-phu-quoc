@@ -3134,7 +3134,7 @@
     "google_place_id": "ChIJ_UwInh-XpzERL3bKuuPz_sw",
     "name": "드래프트 비어 바이켐",
     "zone": "khem-beach",
-    "public_category": "dining",
+    "public_category": "bars",
     "service_areas": [
       "khem-beach"
     ]
@@ -3164,7 +3164,7 @@
     "google_place_id": "ChIJA6Ns_eOXpzEReRCODKQQ3S8",
     "name": "카이선 레스토랑 & 바",
     "zone": "khem-beach",
-    "public_category": "dining",
+    "public_category": "bars",
     "service_areas": [
       "khem-beach"
     ]

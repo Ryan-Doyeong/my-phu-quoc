@@ -428,7 +428,7 @@
     "google_rating": 4.2,
     "google_review_count": 383,
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "verified",
     "description_ko": "바이켐 숍하우스 단지(D107-D115)에 위치한 4성급 부티크 호텔. 바이켐 해변까지 도보 접근이 가능하며, 실내 수영장과 레스토랑 시설을 갖추고 있습니다.",
     "description_en": "A 4-star boutique hotel located in Sun Premier Village shophouses (D107-115) at Bai Khem, featuring walking access to the beach, an indoor pool, and an on-site restaurant.",
@@ -489,7 +489,8 @@
         "detail": "Approx. 2-3 minutes walking distance to Bai Khem Beach",
         "source_url": "https://paraliaphuquoc.com/"
       }
-    }
+    },
+    "exclusion_reason": "부티크 호텔 등록 제외 방침 (리조트 3곳만 등록)"
   },
   {
     "id": "khem-draft-005",
@@ -510,7 +511,7 @@
     "google_rating": 4.6,
     "google_review_count": 567,
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "verified",
     "description_ko": "바이켐 D2-7 숍하우스 구역에 위치한 친환경 부티크 호텔. 도보로 해변 이동이 가능하며 카페 및 루프탑 휴식 공간을 제공합니다.",
     "description_en": "An eco-conscious boutique hotel at D2-7 Bai Khem, offering walkability to the beach, an on-site cafe, and rooftop facilities.",
@@ -563,7 +564,8 @@
         "detail": "Approx. 3 minutes walking distance to Bai Khem Beach",
         "source_url": "https://jmhotel.vn/"
       }
-    }
+    },
+    "exclusion_reason": "부티크 호텔 등록 제외 방침 (리조트 3곳만 등록)"
   },
   {
     "id": "khem-draft-006",
@@ -584,7 +586,7 @@
     "google_rating": 4.4,
     "google_review_count": 573,
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "verified",
     "description_ko": "바이켐 숍하우스 단지 D141-D143에 위치한 호텔. 스파 마사지 서비스와 바이켐 해변 접근성을 갖추고 있습니다.",
     "description_en": "A boutique hotel located at D141-D143 Sun Premier Village at Bai Khem, providing spa massage services and walking access to the beach.",
@@ -643,7 +645,8 @@
         "detail": "Approx. 3 minutes walking distance to Bai Khem Beach",
         "source_url": "https://annhotelphuquoc.com/"
       }
-    }
+    },
+    "exclusion_reason": "부티크 호텔 등록 제외 방침 (리조트 3곳만 등록)"
   },
   {
     "id": "khem-draft-007",
@@ -664,7 +667,7 @@
     "google_rating": 4.5,
     "google_review_count": 182,
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "verified",
     "description_ko": "JW 메리어트 푸꾸옥 에메랄드 베이 내에 위치한 프렌치 파인다이닝 레스토랑. 마담 펄의 대저택 콘셉트 인테리어 속에서 정통 프랑스 요리와 와인을 선보입니다.",
     "description_en": "A French fine dining restaurant inside JW Marriott Phu Quoc Emerald Bay, inspired by the fictional mansion of Madam Pearl Collins, serving French cuisine and wines.",
@@ -691,7 +694,8 @@
       "dining",
       "fine-dining"
     ],
-    "facilities_en": "Private dining rooms, fine dining tasting menus, wine cellar"
+    "facilities_en": "Private dining rooms, fine dining tasting menus, wine cellar",
+    "exclusion_reason": "리조트 내부 식음료 매장으로 JW 메리어트 상세(facilities)로 통합 안내"
   },
   {
     "id": "khem-draft-008",
@@ -712,7 +716,7 @@
     "google_rating": 4.5,
     "google_review_count": 250,
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "verified",
     "description_ko": "JW 메리어트 푸꾸옥 해변가에 자리한 메인 올데이 다이닝 레스토랑. 베트남 현지 요리와 일식, 양식 오픈 키친을 운영합니다.",
     "description_en": "Beachfront all-day dining restaurant at JW Marriott Phu Quoc featuring open kitchens for Vietnamese, Japanese, and Western specialties.",
@@ -739,7 +743,8 @@
       "dining",
       "international"
     ],
-    "facilities_en": "Indoor and outdoor beachfront seating, live cooking stations, breakfast buffet"
+    "facilities_en": "Indoor and outdoor beachfront seating, live cooking stations, breakfast buffet",
+    "exclusion_reason": "리조트 내부 식음료 매장으로 JW 메리어트 상세(facilities)로 통합 안내"
   },
   {
     "id": "khem-draft-009",
@@ -760,7 +765,7 @@
     "google_rating": 4.5,
     "google_review_count": 180,
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "verified",
     "description_ko": "JW 메리어트 푸꾸옥 해변가에 위치한 야외 그릴 레스토랑. 해산물 구이와 그릴 요리, 음료를 제공합니다.",
     "description_en": "An open-air beachfront grill restaurant at JW Marriott Phu Quoc serving grilled seafood, meat dishes, and drinks by the sea.",
@@ -787,7 +792,8 @@
       "dining",
       "seafood"
     ],
-    "facilities_en": "Beachside open grill, fresh seafood barbecue, craft cocktails"
+    "facilities_en": "Beachside open grill, fresh seafood barbecue, craft cocktails",
+    "exclusion_reason": "리조트 내부 식음료 매장으로 JW 메리어트 상세(facilities)로 통합 안내"
   },
   {
     "id": "khem-draft-018",
@@ -808,7 +814,7 @@
     "google_rating": 4.3,
     "google_review_count": 85,
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "verified",
     "description_ko": "JW 메리어트 푸꾸옥 내 프랑스식 베이커리 & 살롱. 수제 페이스트리, 빵, 커피와 차를 제공합니다.",
     "description_en": "A French bakery and salon at JW Marriott Phu Quoc serving pastries, bread, coffee, and tea.",
@@ -835,7 +841,8 @@
       "bars",
       "cafe"
     ],
-    "facilities_en": "Pastries, gourmet coffee, artisanal sandwiches, afternoon tea"
+    "facilities_en": "Pastries, gourmet coffee, artisanal sandwiches, afternoon tea",
+    "exclusion_reason": "리조트 내부 식음료 매장으로 프리미어 레지던스 상세(facilities)로 통합 안내"
   },
   {
     "id": "khem-draft-017",
@@ -856,7 +863,7 @@
     "google_rating": 4.4,
     "google_review_count": 156,
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "verified",
     "description_ko": "화학 연구실을 테마로 꾸며진 JW 메리어트 푸꾸옥의 칵테일 바. 해변 전망과 함께 믹솔로지 칵테일과 음료를 제공합니다.",
     "description_en": "A chemistry lab-themed cocktail bar at JW Marriott Phu Quoc serving mixology cocktails and beverages alongside sea views.",
@@ -883,7 +890,8 @@
       "bars",
       "cocktail-bar"
     ],
-    "facilities_en": "Craft chemistry-inspired cocktails, ocean view seating, sunset DJ sessions"
+    "facilities_en": "Craft chemistry-inspired cocktails, ocean view seating, sunset DJ sessions",
+    "exclusion_reason": "리조트 내부 식음료 매장으로 프리미어 레지던스 상세(facilities)로 통합 안내"
   },
   {
     "id": "khem-draft-020",
@@ -901,10 +909,10 @@
     "phone": "미확인",
     "website_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/",
     "hours": "09:00 - 21:00 (사전 예약제)",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 295,
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "verified",
     "description_ko": "JW 메리어트 푸꾸옥 내에 위치한 스파 시설. 버섯 균류학 연구실 테마의 인테리어 속에서 전신 마사지와 트리트먼트 프로그램을 운영합니다.",
     "description_en": "The luxury spa facility at JW Marriott Phu Quoc, themed around mycological studies and offering massages and wellness therapies.",
@@ -931,7 +939,8 @@
       "wellness",
       "spa"
     ],
-    "facilities_en": "Private treatment suites, herbal sauna, steam room, relaxation lounge"
+    "facilities_en": "Private treatment suites, herbal sauna, steam room, relaxation lounge",
+    "exclusion_reason": "리조트 내부 스파 시설로 프리미어 레지던스 상세(facilities)로 통합 안내"
   },
   {
     "id": "khem-draft-011",
@@ -952,7 +961,7 @@
     "google_rating": "미확인",
     "google_review_count": "미확인",
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "partial",
     "description_ko": "프리미어 레지던스 푸꾸옥 에메랄드 베이 내 메인 뷔페 레스토랑. 조식 뷔페 및 일품 식사를 제공합니다.",
     "description_en": "Main buffet and all-day dining restaurant inside Premier Residences Phu Quoc Emerald Bay.",
@@ -978,7 +987,8 @@
       "dining",
       "buffet"
     ],
-    "facilities_en": "All-day international buffet, open-air terrace dining, kids buffet corner"
+    "facilities_en": "All-day international buffet, open-air terrace dining, kids buffet corner",
+    "exclusion_reason": "리조트 내부 식음료 매장으로 JW 메리어트 상세(facilities)로 통합 안내"
   },
   {
     "id": "khem-draft-010",
@@ -999,7 +1009,7 @@
     "google_rating": 4.3,
     "google_review_count": 212,
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "verified",
     "description_ko": "프리미어 레지던스 수영장 및 해변 인근에 위치한 오픈형 레스토랑. 해산물 및 웨스턴 메뉴를 제공합니다.",
     "description_en": "Poolside and beachfront restaurant at Premier Residences Phu Quoc serving seafood and Western casual dishes.",
@@ -1026,7 +1036,8 @@
       "dining",
       "casual-dining"
     ],
-    "facilities_en": "Beachfront open dining, grilled meats and seafood, pizza, cocktails"
+    "facilities_en": "Beachfront open dining, grilled meats and seafood, pizza, cocktails",
+    "exclusion_reason": "리조트 내부 식음료 매장으로 JW 메리어트 상세(facilities)로 통합 안내"
   },
   {
     "id": "khem-draft-019",
@@ -1047,7 +1058,7 @@
     "google_rating": "미확인",
     "google_review_count": "미확인",
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "partial",
     "description_ko": "프리미어 레지던스 다단식 야외 수영장에 위치한 풀사이드 바로 음료와 스낵을 판매합니다.",
     "description_en": "Poolside bar situated within the cascade swimming pool at Premier Residences serving beverages and snacks.",
@@ -1073,7 +1084,8 @@
       "bars",
       "pool-bar"
     ],
-    "facilities_en": "Swim-up pool bar, sun loungers, refreshing cocktails and snacks"
+    "facilities_en": "Swim-up pool bar, sun loungers, refreshing cocktails and snacks",
+    "exclusion_reason": "리조트 내부 식음료 매장으로 프리미어 레지던스 상세(facilities)로 통합 안내"
   },
   {
     "id": "khem-draft-021",
@@ -1091,10 +1103,10 @@
     "phone": "미확인",
     "website_url": "https://premierresidencesphuquoc.com/emerald-spa-recreation/emerald-spa/",
     "hours": "09:00 - 21:00 (공식 사이트 표기 기준)",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 480,
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "verified",
     "description_ko": "프리미어 레지던스 푸꾸옥 에메랄드 베이 내에 위치한 스파 시설로 전통 마사지와 테라피를 제공합니다.",
     "description_en": "Spa facility inside Premier Residences Phu Quoc Emerald Bay delivering massages and relaxation therapies.",
@@ -1121,7 +1133,8 @@
       "wellness",
       "spa"
     ],
-    "facilities_en": "Couple treatment suites, herbal sauna, foot reflexology lounge"
+    "facilities_en": "Couple treatment suites, herbal sauna, foot reflexology lounge",
+    "exclusion_reason": "리조트 내부 식음료 매장으로 뉴월드 푸꾸옥 상세(facilities)로 통합 안내"
   },
   {
     "id": "khem-draft-012",
@@ -1142,7 +1155,7 @@
     "google_rating": 4.4,
     "google_review_count": 92,
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "verified",
     "description_ko": "뉴월드 푸꾸옥 리조트의 올데이 다이닝 레스토랑. 수영장 전망과 함께 베트남 요리 및 인터내셔널 식사를 제공합니다.",
     "description_en": "All-day dining restaurant at New World Phu Quoc Resort serving Vietnamese and international cuisine overlooking the pool.",
@@ -1169,7 +1182,8 @@
       "dining",
       "international"
     ],
-    "facilities_en": "All-day dining, live cooking stations, international and Vietnamese cuisine"
+    "facilities_en": "All-day dining, live cooking stations, international and Vietnamese cuisine",
+    "exclusion_reason": "리조트 내부 스파 시설로 JW 메리어트 상세(facilities)로 통합 안내"
   },
   {
     "id": "khem-draft-029",
@@ -1190,7 +1204,7 @@
     "google_rating": 4.3,
     "google_review_count": 108,
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "verified",
     "description_ko": "뉴월드 푸꾸옥 리조트 내 그릴 요리 레스토랑 & 바로 숯불 구이와 해산물 요리를 선보입니다.",
     "description_en": "Grill restaurant and bar at New World Phu Quoc Resort serving wood-fired and grilled seafood and meat specialties.",
@@ -1217,7 +1231,8 @@
       "dining",
       "grill"
     ],
-    "facilities_en": "Open charcoal grill, wood-fired barbecue, premium steaks and seafood"
+    "facilities_en": "Open charcoal grill, wood-fired barbecue, premium steaks and seafood",
+    "exclusion_reason": "범위 축소 방침에 따른 제외"
   },
   {
     "id": "khem-draft-030",
@@ -1238,7 +1253,7 @@
     "google_rating": "미확인",
     "google_review_count": "미확인",
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "partial",
     "description_ko": "뉴월드 푸꾸옥 리조트 로비에 위치한 오픈형 라운지로 커피와 차, 주류를 판매합니다.",
     "description_en": "Lobby lounge at New World Phu Quoc Resort offering coffee, tea, and drinks.",
@@ -1264,7 +1279,8 @@
       "bars",
       "lounge"
     ],
-    "facilities_en": "Lobby lounge, afternoon tea, barista coffee, evening aperitifs"
+    "facilities_en": "Lobby lounge, afternoon tea, barista coffee, evening aperitifs",
+    "exclusion_reason": "범위 축소 방침에 따른 제외"
   },
   {
     "id": "khem-draft-022",
@@ -1285,7 +1301,7 @@
     "google_rating": "미확인",
     "google_review_count": "미확인",
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "partial",
     "description_ko": "뉴월드 푸꾸옥 리조트 내 정원 파빌리온에 위치한 스파 시설로 웰니스 트리트먼트를 제공합니다.",
     "description_en": "Garden pavilion spa at New World Phu Quoc Resort providing wellness massages and treatments.",
@@ -1311,7 +1327,8 @@
       "wellness",
       "spa"
     ],
-    "facilities_en": "Private spa pavilions, outdoor herbal bath, relaxation garden"
+    "facilities_en": "Private spa pavilions, outdoor herbal bath, relaxation garden",
+    "exclusion_reason": "리조트 내부 식음료 매장으로 뉴월드 푸꾸옥 상세(facilities)로 통합 안내"
   },
   {
     "id": "khem-draft-035",
@@ -1332,7 +1349,7 @@
     "google_rating": 4.7,
     "google_review_count": 69,
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "verified",
     "description_ko": "바이켐 숍하우스 구역에 위치한 호텔로, 켐비치 백사장까지 도보로 이동 가능한 숙박 시설입니다.",
     "description_en": "A hotel located in the Bai Khem shophouse area within walking distance of Khem Beach.",
@@ -1358,15 +1375,16 @@
       "hotels",
       "hotel"
     ],
-    "facilities_en": "Guestrooms, 24-hour reception, within walking distance of Bai Khem Beach"
+    "facilities_en": "Guestrooms, 24-hour reception, within walking distance of Bai Khem Beach",
+    "exclusion_reason": "부티크 호텔 등록 제외 방침 (리조트 3곳만 등록)"
   },
   {
     "id": "khem-draft-032",
     "public_name": "드래프트 비어 바이켐",
     "name_local": "Draft Beer Bai Khem Phu Quoc",
     "slug": "draft-beer-bai-khem",
-    "category": "dining",
-    "subcategory": "beer-pub",
+    "category": "bars",
+    "subcategory": "beach_pub",
     "address": "22PJ+H6 Draft Beer Bai Khem Phu Quoc, Phú Quốc, An Giang, Vietnam",
     "google_maps_name": "Draft Beer Bai Khem Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_UwInh-XpzERL3bKuuPz_sw",
@@ -1426,7 +1444,7 @@
     "google_rating": 4.8,
     "google_review_count": 4199,
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "verified",
     "description_ko": "바이켐 숍하우스 구역에 위치한 해산물 전문 식당으로 다양한 현지 해산물 메뉴를 조리하여 제공합니다.",
     "description_en": "A seafood restaurant located in the Bai Khem area offering local seafood preparations.",
@@ -1452,7 +1470,8 @@
       "dining",
       "seafood"
     ],
-    "facilities_en": "Fresh seafood display tanks, grilled seafood, air-conditioned and open seating"
+    "facilities_en": "Fresh seafood display tanks, grilled seafood, air-conditioned and open seating",
+    "exclusion_reason": "비치 펍 외 일반 식당 등록 제외 방침"
   },
   {
     "id": "khem-draft-016",
@@ -1506,8 +1525,8 @@
     "public_name": "카이선 레스토랑 & 바",
     "name_local": "Kaisun Restaurant & Bar",
     "slug": "kaisun-restaurant-and-bar",
-    "category": "dining",
-    "subcategory": "restaurant-bar",
+    "category": "bars",
+    "subcategory": "beach_pub",
     "address": "Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
     "google_maps_name": "Kaisun Restaurant & Bar",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJA6Ns_eOXpzEReRCODKQQ3S8",
@@ -1614,7 +1633,7 @@
     "google_rating": "미확인",
     "google_review_count": "미확인",
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "partial",
     "description_ko": "바이켐 해변에 자리한 다이닝 & 비치 바 레스토랑으로, 실내 및 야외 좌석에서 현지 해산물 요리와 퓨전 요리를 선보입니다.",
     "description_en": "A beachfront dining and bar venue on Bai Khem, offering indoor and open-air seating with local seafood and fusion cuisine.",
@@ -1640,7 +1659,8 @@
       "dining",
       "seafood"
     ],
-    "facilities_en": "Beachfront dining and bar, indoor and outdoor seating, seafood and fusion dishes"
+    "facilities_en": "Beachfront dining and bar, indoor and outdoor seating, seafood and fusion dishes",
+    "exclusion_reason": "구글맵 단독 핀 및 실재 여부 미확인으로 등록 대상 제외"
   },
   {
     "id": "khem-draft-015",
@@ -1661,7 +1681,7 @@
     "google_rating": 4.2,
     "google_review_count": 553,
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "verified",
     "description_ko": "바이켐 해변 북단에 위치한 현지 로컬 해산물 식당으로 해산물 조리 메뉴를 제공합니다.",
     "description_en": "Local seafood beach restaurant situated on northern Bai Khem serving seafood dishes.",
@@ -1687,7 +1707,8 @@
       "dining",
       "seafood"
     ],
-    "facilities_en": "Beachfront seafood restaurant, local Phu Quoc seafood specialties"
+    "facilities_en": "Beachfront seafood restaurant, local Phu Quoc seafood specialties",
+    "exclusion_reason": "비치 펍 외 일반 식당 등록 제외 방침"
   },
   {
     "id": "khem-draft-023",
@@ -1761,7 +1782,7 @@
     "google_rating": "미확인",
     "google_review_count": "미확인",
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "partial",
     "description_ko": "프리미어 레지던스 앞 바이켐 해변에서 운영되는 수상 레저 시설로 카약과 SUP 패들보드 장비를 대여합니다.",
     "description_en": "Beach water sports desk in front of Premier Residences providing kayaks and SUP paddleboards.",
@@ -1793,7 +1814,8 @@
     "facilities_en": {
       "equipment": "Kayaking and stand-up paddleboarding (SUP) equipment",
       "source_url": "https://premierresidencesphuquoc.com/emerald-spa-recreation/fitness-recreation/"
-    }
+    },
+    "exclusion_reason": "리조트 및 비치 펍 한정 등록 방침에 따라 편의시설 제외"
   },
   {
     "id": "khem-draft-026",
@@ -1814,7 +1836,7 @@
     "google_rating": "미확인",
     "google_review_count": "미확인",
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "partial",
     "description_ko": "바이켐 리조트 단지 진입로 게이트 부근의 택시 탑승 구역.",
     "description_en": "Taxi boarding area located near the main entrance gates of Khem Beach resorts.",
@@ -1840,7 +1862,8 @@
       "transport",
       "taxi-stand"
     ],
-    "facilities_en": "Taxi queue and pickup stand serving Khem Beach resorts"
+    "facilities_en": "Taxi queue and pickup stand serving Khem Beach resorts",
+    "exclusion_reason": "리조트 및 비치 펍 한정 등록 방침에 따라 편의시설 제외"
   },
   {
     "id": "khem-draft-025",
@@ -1861,7 +1884,7 @@
     "google_rating": "미확인",
     "google_review_count": "미확인",
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "hidden",
     "verification_status": "verified",
     "verification_note": "기존 DB 수록 place_id ChIJHb8567mWpzER64OgWXrzHkc 대조 확인 완료 (현 로컬 DB local-sunset-288 연계)",
     "description_ko": "JW 메리어트 및 바이켐 리조트 단지 입구 진입로에 설치된 24시간 현금자동입출금기.",
@@ -1888,6 +1911,7 @@
       "banking",
       "atm"
     ],
-    "facilities_en": "24-hour ATMs (Vietcombank & BIDV) located near JW Marriott entrance gate"
+    "facilities_en": "24-hour ATMs (Vietcombank & BIDV) located near JW Marriott entrance gate",
+    "exclusion_reason": "리조트 및 비치 펍 한정 등록 방침에 따라 편의시설 제외"
   }
 ]
