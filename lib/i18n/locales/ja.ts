@@ -4,6 +4,7 @@ import type { DictionaryInput } from '../dictionaryTypes'
 export const ja = {
   nav: {
     home: 'ホーム',
+    zones: 'サンセットタウン / ケムビーチ',
     discover: '探す',
     news: 'ニュース',
     newsAndBlog: 'ニュース＆ブログ',
@@ -17,6 +18,7 @@ export const ja = {
     directory: 'ディレクトリ',
     search: '検索',
     menu: 'メニュー',
+    about: '概要',
   },
   footer: {
     taglineLine1: 'フーコック サンセットタウン',

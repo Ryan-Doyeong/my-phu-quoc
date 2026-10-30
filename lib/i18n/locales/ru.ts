@@ -4,6 +4,7 @@ import type { DictionaryInput } from '../dictionaryTypes'
 export const ru = {
   nav: {
     home: 'Главная',
+    zones: 'Сансет-Таун / Пляж Кхем',
     discover: 'Обзор',
     news: 'Новости',
     newsAndBlog: 'Новости и блог',
@@ -17,6 +18,7 @@ export const ru = {
     directory: 'Каталог',
     search: 'Поиск',
     menu: 'Меню',
+    about: 'О проекте',
   },
   footer: {
     taglineLine1: 'Фукуок Сансет Таун',

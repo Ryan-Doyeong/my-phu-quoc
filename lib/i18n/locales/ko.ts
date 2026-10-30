@@ -4,6 +4,7 @@ import type { DictionaryInput } from '../dictionaryTypes'
 export const ko = {
   nav: {
     home: '홈',
+    zones: '선셋타운 / 켐비치',
     discover: '둘러보기',
     news: '뉴스·가이드',
     newsAndBlog: '뉴스 & 가이드',
@@ -17,6 +18,7 @@ export const ko = {
     directory: '디렉터리',
     search: '검색',
     menu: '메뉴',
+    about: '소개',
   },
   footer: {
     taglineLine1: '푸꾸옥 선셋타운',
@@ -98,9 +100,9 @@ export const ko = {
     browseByType: '세부 업종별 보기',
     exploreByLabel: '배지·라벨별 보기',
     placesCount: (n: number) => `총 ${n}곳`,
-    summaryText: '푸꾸옥 선셋타운의 주요 시설을 살펴보고, 카테고리별로 원하는 곳을 찾아보세요.',
+    summaryText: '푸꾸옥 선셋타운의 추천 시설과 인기 장소를 살펴보고, 카테고리별로 원하는 곳을 찾아보세요.',
     memberBadgeLink: '마이 푸꾸옥 (My Phu Quoc) 멤버 배지 안내 →',
-    featured: '주목할 곳',
+    featured: '에디터 추천 · 주목할 곳',
     morePlaces: '분류별 매장 목록',
     showMore: '더 보기',
     emptyTitle: '해당 조건에 맞는 업체가 아직 없습니다.',
@@ -301,7 +303,7 @@ export const ko = {
     deliveryModeDriver: '배달 기사 호출 (GrabExpress 등 매장 발송)',
     deliveryModePickup: '포장·픽업 및 메신저 주문',
     deliveryAreaLabel: '배달 가능 지역 / 조건 (선택)',
-    deliveryAreaPlaceholder: '예: 푸꾸옥·안푸 전역 (배달 조건 입력)',
+    deliveryAreaPlaceholder: '예: 푸꾸옥·안푸 전역, 30만동 이상 무료배달',
     phoneLabel: '매장 전화번호',
     sec3Title: '매장 사진 등록',
     photoHelp: '선명한 매장 사진 3~5장을 업로드해 주세요. 권장: 외관/간판, 내부 공간, 대표 메뉴/서비스, 분위기.',

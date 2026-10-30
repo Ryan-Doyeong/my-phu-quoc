@@ -1749,7 +1749,7 @@
   max-height: 1080px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .mapAspectBox {
     width: min(100%, calc(720px * 887 / 1774));
     max-height: 720px;

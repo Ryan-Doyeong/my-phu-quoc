@@ -93,20 +93,30 @@ export async function generateBusinessMetadata(
   }
   const supabase = createPublicClient()
   let b: any = null
+  let dbError = false
   try {
-    const { data } = await supabase
+    const { data, error } = await supabase
       .from('businesses')
       .select('*')
       .eq('slug', slug)
       .eq('status', 'published')
       .maybeSingle()
-    b = data
-  } catch {}
+    if (error) {
+      dbError = true
+    } else {
+      b = data
+    }
+  } catch {
+    dbError = true
+  }
+  // Supabase 장애(예외 또는 error) 시에만 로컬 선셋타운 JSON fallback 사용
+  // 정상 응답인데 결과가 없는 경우(data === null, error 없음) 선셋타운 fallback 미사용
+  if (!b && dbError) {
+    b = (businessesRegistry as any[]).find((x) => x.slug === slug && x.status === 'published') || null
+  }
+  // 켐비치 업체는 Supabase에 없으므로 khemBusinesses에서 published 상태인 업체 조회
   if (!b) {
-    b =
-      (businessesRegistry as any[]).find((x) => x.slug === slug) ||
-      (khemBusinesses as any[]).find((x) => x.slug === slug && x.status === 'published') ||
-      null
+    b = (khemBusinesses as any[]).find((x) => x.slug === slug && x.status === 'published') || null
   }
   if (!b) return {}
 
@@ -165,20 +175,30 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
   const dict = getDictionary(locale)
   const supabase = createPublicClient()
   let b: any = null
+  let dbError = false
   try {
-    const { data } = await supabase
+    const { data, error } = await supabase
       .from('businesses')
       .select('*')
       .eq('slug', slug)
       .eq('status', 'published')
       .maybeSingle()
-    b = data
-  } catch {}
+    if (error) {
+      dbError = true
+    } else {
+      b = data
+    }
+  } catch {
+    dbError = true
+  }
+  // Supabase 장애(예외 또는 error) 시에만 로컬 선셋타운 JSON fallback 사용
+  // 정상 응답인데 결과가 없는 경우(data === null, error 없음) 선셋타운 fallback 미사용
+  if (!b && dbError) {
+    b = (businessesRegistry as any[]).find((x) => x.slug === slug && x.status === 'published') || null
+  }
+  // 켐비치 업체는 Supabase에 없으므로 khemBusinesses에서 published 상태인 업체 조회
   if (!b) {
-    b =
-      (businessesRegistry as any[]).find((x) => x.slug === slug) ||
-      (khemBusinesses as any[]).find((x) => x.slug === slug && x.status === 'published') ||
-      null
+    b = (khemBusinesses as any[]).find((x) => x.slug === slug && x.status === 'published') || null
   }
   if (!b || b.slug === 'sunset-place-4' || b.slug === 'sunset-place-8' || b.id === 'local-sunset-139' || b.id === 'local-sunset-240') {
     if (DELETED_SLUG_REDIRECTS[slug]) {

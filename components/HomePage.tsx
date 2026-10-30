@@ -280,6 +280,7 @@ export function HomePage({
             {categoryLabel('hotels', locale)}
           </Link>
           <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
+          <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
         </nav>
         <div className="headerActions">
           <Link

@@ -3,6 +3,7 @@
 export const en = {
   nav: {
     home: 'Home',
+    zones: 'Sunset Town / Khem Beach',
     discover: 'Discover',
     news: 'News',
     newsAndBlog: 'News & Blog',
@@ -16,6 +17,7 @@ export const en = {
     directory: 'Directory',
     search: 'Search',
     menu: 'Menu',
+    about: 'About',
   },
   footer: {
     taglineLine1: 'Phu Quoc Sunset Town',
@@ -300,7 +302,7 @@ export const en = {
     deliveryModeDriver: 'Courier dispatch (GrabExpress, etc.)',
     deliveryModePickup: 'Takeaway / Pickup & messenger order',
     deliveryAreaLabel: 'Delivery area / notes (optional)',
-    deliveryAreaPlaceholder: 'e.g. Phu Quoc, An Phu (delivery terms)',
+    deliveryAreaPlaceholder: 'e.g. Phu Quoc, An Phu, free over 300k VND',
     phoneLabel: 'Phone',
     sec3Title: 'Photo intake',
     photoHelp: 'Upload between 3 and 5 clear business photos. Recommended: exterior/signage, interior, service/menu, and atmosphere.',

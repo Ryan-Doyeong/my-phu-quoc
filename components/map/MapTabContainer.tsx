@@ -1,0 +1,243 @@
+'use client'
+
+import React, { useState, useEffect } from 'react'
+import type { Locale } from '@/lib/i18n/config'
+import { SunsetIllustMap, type MapDataPayload } from '@/components/map/SunsetIllustMap'
+
+export interface MapTabLabels {
+  landmarks: string
+  dining: string
+  diningNeedsReview?: boolean
+}
+
+export const MAP_TAB_LABELS: Record<Locale, MapTabLabels> = {
+  ko: {
+    landmarks: '12대 관광 명소',
+    dining: '맛집 지도',
+  },
+  en: {
+    landmarks: '12 Iconic Landmarks',
+    dining: 'Dining Map',
+  },
+  zh: {
+    landmarks: '12大核心地标',
+    dining: '美食地图',
+  },
+  ja: {
+    landmarks: '12大ランドマーク',
+    dining: 'グルメマップ',
+  },
+  ru: {
+    landmarks: '12 достопримечательностей',
+    dining: 'Карта ресторанов и кафе',
+  },
+  hi: {
+    landmarks: '12 प्रमुख दर्शनीय स्थल',
+    dining: 'खाने-पीने की जगहों का नक्शा',
+  },
+  vi: {
+    landmarks: '12 điểm đến biểu tượng',
+    dining: 'Dining Map',
+  },
+}
+
+interface MapTabContainerProps {
+  locale: Locale
+  dynamicMapData: MapDataPayload
+  landmarksChild: React.ReactNode
+}
+
+export function MapTabContainer({
+  locale,
+  dynamicMapData,
+  landmarksChild,
+}: MapTabContainerProps) {
+  const [activeTab, setActiveTab] = useState<'landmarks' | 'dining'>('landmarks')
+  const [mounted, setMounted] = useState(false)
+
+  // URL 해시(#food) 감지 및 연동
+  useEffect(() => {
+    setMounted(true)
+    if (typeof window !== 'undefined' && window.location.hash === '#food') {
+      setActiveTab('dining')
+      setTimeout(() => {
+        window.dispatchEvent(new Event('resize'))
+      }, 50)
+    }
+
+    const handleHashChange = () => {
+      if (window.location.hash === '#food') {
+        setActiveTab('dining')
+        setTimeout(() => {
+          window.dispatchEvent(new Event('resize'))
+        }, 50)
+      } else {
+        setActiveTab('landmarks')
+      }
+    }
+
+    window.addEventListener('hashchange', handleHashChange)
+    return () => window.removeEventListener('hashchange', handleHashChange)
+  }, [])
+
+  const handleTabChange = (tab: 'landmarks' | 'dining') => {
+    setActiveTab(tab)
+    if (typeof window !== 'undefined') {
+      if (tab === 'dining') {
+        window.history.replaceState(null, '', `${window.location.pathname}#food`)
+        // 탭이 화면에 나타난 직후 너비 재측정을 보장하기 위한 리사이즈 이벤트 트리거
+        setTimeout(() => {
+          window.dispatchEvent(new Event('resize'))
+        }, 50)
+      } else {
+        window.history.replaceState(null, '', window.location.pathname)
+      }
+    }
+  }
+
+  const tabLabels = MAP_TAB_LABELS[locale] || MAP_TAB_LABELS.en
+  const totalVenues = dynamicMapData.summary.total_live_union || 85
+
+  return (
+    <div style={{ width: '100%' }}>
+      {/* 2대 탭 네비게이션 세그먼트 컨트롤 (모바일 390px 친화적 반응형 디자인) */}
+      <div
+        role="tablist"
+        aria-label="Map Mode Tabs"
+        style={{
+          display: 'grid',
+          gridTemplateColumns: '1fr 1fr',
+          gap: '6px',
+          maxWidth: '520px',
+          width: '100%',
+          margin: '0 auto 28px',
+          padding: '5px',
+          background: '#E2E8F0',
+          borderRadius: '16px',
+          boxShadow: 'inset 0 1px 3px rgba(0, 0, 0, 0.06)',
+          boxSizing: 'border-box',
+        }}
+      >
+        {/* 탭 1: 12대 관광 명소 */}
+        <button
+          type="button"
+          role="tab"
+          aria-selected={activeTab === 'landmarks'}
+          onClick={() => handleTabChange('landmarks')}
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '5px',
+            padding: '9px 8px',
+            fontSize: 'clamp(11.5px, 2.7vw, 14px)',
+            fontWeight: activeTab === 'landmarks' ? 800 : 600,
+            color: activeTab === 'landmarks' ? '#12333B' : '#64748B',
+            background: activeTab === 'landmarks' ? '#FFFFFF' : 'transparent',
+            border: 'none',
+            borderRadius: '12px',
+            cursor: 'pointer',
+            transition: 'all 0.18s ease-in-out',
+            boxShadow:
+              activeTab === 'landmarks'
+                ? '0 2px 8px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.04)'
+                : 'none',
+            minWidth: 0,
+            textAlign: 'center',
+          }}
+        >
+          <span style={{ fontSize: '15px', lineHeight: 1, flexShrink: 0 }}>🏛️</span>
+          <span
+            style={{
+              lineHeight: 1.25,
+              wordBreak: 'normal',
+              whiteSpace: 'normal',
+            }}
+          >
+            {tabLabels.landmarks}
+          </span>
+          <span
+            style={{
+              fontSize: '11px',
+              padding: '2px 5px',
+              borderRadius: '999px',
+              background: activeTab === 'landmarks' ? '#F1F5F9' : 'rgba(100, 116, 139, 0.12)',
+              color: activeTab === 'landmarks' ? '#0F766E' : '#64748B',
+              fontWeight: 700,
+              flexShrink: 0,
+            }}
+          >
+            12
+          </span>
+        </button>
+
+        {/* 탭 2: 맛집 지도 */}
+        <button
+          type="button"
+          role="tab"
+          aria-selected={activeTab === 'dining'}
+          onClick={() => handleTabChange('dining')}
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '5px',
+            padding: '9px 8px',
+            fontSize: 'clamp(11.5px, 2.7vw, 14px)',
+            fontWeight: activeTab === 'dining' ? 800 : 600,
+            color: activeTab === 'dining' ? '#12333B' : '#64748B',
+            background: activeTab === 'dining' ? '#FFFFFF' : 'transparent',
+            border: 'none',
+            borderRadius: '12px',
+            cursor: 'pointer',
+            transition: 'all 0.18s ease-in-out',
+            boxShadow:
+              activeTab === 'dining'
+                ? '0 2px 8px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.04)'
+                : 'none',
+            minWidth: 0,
+            textAlign: 'center',
+          }}
+        >
+          <span style={{ fontSize: '15px', lineHeight: 1, flexShrink: 0 }}>🍽️</span>
+          <span
+            style={{
+              lineHeight: 1.25,
+              wordBreak: 'normal',
+              whiteSpace: 'normal',
+            }}
+          >
+            {tabLabels.dining}
+          </span>
+          <span
+            style={{
+              fontSize: '11px',
+              padding: '2px 5px',
+              borderRadius: '999px',
+              background: activeTab === 'dining' ? '#FFF1E8' : 'rgba(100, 116, 139, 0.12)',
+              color: activeTab === 'dining' ? '#C86D2D' : '#64748B',
+              fontWeight: 700,
+              flexShrink: 0,
+            }}
+          >
+            {totalVenues}
+          </span>
+        </button>
+      </div>
+
+      {/* 탭 1 컨텐츠: 기존 12대 명소 가이드 맵 (기존 UI 100% 보존) */}
+      <div style={{ display: activeTab === 'landmarks' ? 'block' : 'none' }}>
+        {landmarksChild}
+      </div>
+
+      {/* 탭 2 컨텐츠: 맛집 & 편의시설 일러스트 지도 (85곳 DB 연동) */}
+      <div style={{ display: activeTab === 'dining' ? 'block' : 'none' }}>
+        <SunsetIllustMap
+          initialLocale={locale}
+          showLanguageSwitcher={false}
+          initialMapData={dynamicMapData}
+        />
+      </div>
+    </div>
+  )
+}
