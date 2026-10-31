@@ -3,6 +3,7 @@ import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
+import { ActivityYachtSection } from '@/components/ActivityYachtSection'
 
 interface ActivitiesLandingPageProps {
   locale?: Locale
@@ -184,6 +185,8 @@ export function ActivitiesLandingPage({ locale = 'ko' }: ActivitiesLandingPagePr
             </span>
           </div>
         </div>
+
+        <ActivityYachtSection locale={locale} />
 
         {/* 5 Planned Category Tiles (8px rounded) */}
         <section className="activitiesTilesSection">
