@@ -33,6 +33,11 @@ export interface LandmarkDistance {
   distance: string
 }
 
+export interface HotelReviewQuote {
+  text: string
+  source: string
+}
+
 export interface HotelItem {
   slug: string
   hotelId: string
@@ -64,6 +69,11 @@ export interface HotelItem {
   isFeatured?: boolean
   badgeText?: string
   highlightSummary?: string
+  reviewHighlight?: string
+  reviewPros?: string[]
+  reviewQuote?: HotelReviewQuote
+  googleRating?: number
+  googleReviewsCount?: number
   googleReviews?: HotelGoogleReview[]
   unverified?: string[]
 }

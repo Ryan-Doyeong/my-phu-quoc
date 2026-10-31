@@ -44,6 +44,23 @@ export interface HotelUiDictionary {
   roomFeatures: string
   operatedBy: string
   viewAllDirectory: string
+  accordionReviews: string
+  accordionRooms: string
+  accordionFacilities: string
+  accordionLocation: string
+  accordionPolicies: string
+  accordionGallery: string
+  subCleanliness: string
+  subService: string
+  subFacilities: string
+  subValue: string
+  subLocation: string
+  prosTitle: string
+  representativeQuoteTitle: string
+  viewFullReviews: string
+  collapseReviews: string
+  roomCheckAgoda: string
+  reviewHighlightLabel: string
 }
 
 export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
@@ -91,6 +108,23 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     roomFeatures: '객실 편의시설',
     operatedBy: '운영',
     viewAllDirectory: '선셋타운·켐비치 전체 숙소 디렉터리 보기 →',
+    accordionReviews: "고객 리뷰 요약",
+    accordionRooms: "객실",
+    accordionFacilities: "시설 및 서비스",
+    accordionLocation: "위치 및 주변",
+    accordionPolicies: "체크인 및 정책",
+    accordionGallery: "사진 갤러리",
+    subCleanliness: "청결도",
+    subService: "서비스",
+    subFacilities: "부대시설",
+    subValue: "가격 대비 만족도",
+    subLocation: "위치",
+    prosTitle: "투숙객이 꼽은 주요 장점",
+    representativeQuoteTitle: "대표 투숙객 한 줄 평",
+    viewFullReviews: "리뷰 전문 보기 (10건)",
+    collapseReviews: "리뷰 접기",
+    roomCheckAgoda: "실시간 객실 및 요금은 Agoda에서 확인하실 수 있습니다.",
+    reviewHighlightLabel: "고객 리뷰 요약",
   },
   en: {
     pageTitle: 'Sunset Town Hotels & Resorts',
@@ -136,6 +170,23 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     roomFeatures: 'Amenities',
     operatedBy: 'Operated by',
     viewAllDirectory: 'View All Sunset Town & Khem Beach Accommodations Directory →',
+    accordionReviews: "Guest Reviews Summary",
+    accordionRooms: "Rooms",
+    accordionFacilities: "Facilities & Services",
+    accordionLocation: "Location & Surroundings",
+    accordionPolicies: "Check-in & Policies",
+    accordionGallery: "Photo Gallery",
+    subCleanliness: "Cleanliness",
+    subService: "Service",
+    subFacilities: "Facilities",
+    subValue: "Value for Money",
+    subLocation: "Location",
+    prosTitle: "Key Highlights from Guests",
+    representativeQuoteTitle: "Representative Guest Review",
+    viewFullReviews: "View Full Reviews (10)",
+    collapseReviews: "Collapse Reviews",
+    roomCheckAgoda: "Check live room types and rates on Agoda.",
+    reviewHighlightLabel: "Review Highlight",
   },
   zh: {
     pageTitle: '富国岛日落小镇酒店一览',
@@ -181,6 +232,23 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     roomFeatures: '房间设施',
     operatedBy: '运营方',
     viewAllDirectory: '查看日落小镇与凯姆海滩完整住宿目录 →',
+    accordionReviews: "住客评价摘要",
+    accordionRooms: "客房",
+    accordionFacilities: "设施与服务",
+    accordionLocation: "位置与周边",
+    accordionPolicies: "入住与政策",
+    accordionGallery: "照片画廊",
+    subCleanliness: "清洁度",
+    subService: "服务",
+    subFacilities: "设施",
+    subValue: "性价比",
+    subLocation: "位置",
+    prosTitle: "住客好评亮点",
+    representativeQuoteTitle: "代表性住客短评",
+    viewFullReviews: "查看全部评价 (10条)",
+    collapseReviews: "收起评价",
+    roomCheckAgoda: "实时客房与价格请至 Agoda 查看。",
+    reviewHighlightLabel: "评价要点",
   },
   ja: {
     pageTitle: 'サンセットタウン ホテル＆リゾート',
@@ -226,6 +294,23 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     roomFeatures: '客室設備',
     operatedBy: '運営',
     viewAllDirectory: 'サンセットタウン・ケムビーチ全宿泊施設ディレクトリを見る →',
+    accordionReviews: "宿泊者レビュー要約",
+    accordionRooms: "客室",
+    accordionFacilities: "施設・サービス",
+    accordionLocation: "ロケーション・周辺",
+    accordionPolicies: "チェックイン・ポリシー",
+    accordionGallery: "写真ギャラリー",
+    subCleanliness: "清潔さ",
+    subService: "サービス",
+    subFacilities: "施設",
+    subValue: "コストパフォーマンス",
+    subLocation: "ロケーション",
+    prosTitle: "宿泊者が挙げた主なメリット",
+    representativeQuoteTitle: "代表的な宿泊者の声",
+    viewFullReviews: "レビュー全文を見る (10件)",
+    collapseReviews: "レビューを閉じる",
+    roomCheckAgoda: "リアルタイムの空室と料金は Agoda でご確認いただけます。",
+    reviewHighlightLabel: "レビュー要約",
   },
   ru: {
     pageTitle: 'Отели и курорты Сансет Тауна',
@@ -271,6 +356,23 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     roomFeatures: 'Удобства в номере',
     operatedBy: 'Управление',
     viewAllDirectory: 'Смотреть полный каталог всех отелей Сансет Тауна и Кем Бич →',
+    accordionReviews: "Отзывы гостей (Сводка)",
+    accordionRooms: "Номера",
+    accordionFacilities: "Удобства и услуги",
+    accordionLocation: "Расположение и окружение",
+    accordionPolicies: "Заезд и правила",
+    accordionGallery: "Фотогалерея",
+    subCleanliness: "Чистота",
+    subService: "Сервис",
+    subFacilities: "Удобства",
+    subValue: "Цена / качество",
+    subLocation: "Расположение",
+    prosTitle: "Главные плюсы по отзывам гостей",
+    representativeQuoteTitle: "Отзыв гостя",
+    viewFullReviews: "Читать все отзывы (10)",
+    collapseReviews: "Свернуть отзывы",
+    roomCheckAgoda: "Актуальные номера и цены доступны на Agoda.",
+    reviewHighlightLabel: "Сводка отзывов",
   },
   hi: {
     pageTitle: 'सनसेट टाउन होटल और रिसॉर्ट्स',
@@ -316,6 +418,23 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     roomFeatures: 'सुविधाएं',
     operatedBy: 'संचालक',
     viewAllDirectory: 'सनसेट टाउन और खेम बीच की सभी आवास निर्देशिका देखें →',
+    accordionReviews: "अतिथि समीक्षा सारांश",
+    accordionRooms: "कमरे",
+    accordionFacilities: "सुविधाएं और सेवाएं",
+    accordionLocation: "स्थान और आसपास",
+    accordionPolicies: "चेक-इन और नीतियां",
+    accordionGallery: "फोटो गैलरी",
+    subCleanliness: "स्वच्छता",
+    subService: "सेवा",
+    subFacilities: "सुविधाएं",
+    subValue: "मूल्य का मूल्य",
+    subLocation: "स्थान",
+    prosTitle: "अतिथियों द्वारा बताए गए मुख्य लाभ",
+    representativeQuoteTitle: "प्रतिनिधि अतिथि समीक्षा",
+    viewFullReviews: "पूरी समीक्षाएं देखें (10)",
+    collapseReviews: "समीक्षाएं समेटें",
+    roomCheckAgoda: "लाइव कमरे और दरें Agoda पर देखें।",
+    reviewHighlightLabel: "समीक्षा सारांश",
   },
   vi: {
     pageTitle: '선셋타운 호텔 한눈에 보기',
@@ -361,5 +480,22 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     roomFeatures: '편의시설',
     operatedBy: '운영',
     viewAllDirectory: '선셋타운·켐비치 전체 숙소 디렉터리 보기 →',
+    accordionReviews: "Tóm tắt đánh giá của khách",
+    accordionRooms: "Phòng nghỉ",
+    accordionFacilities: "Tiện nghi & Dịch vụ",
+    accordionLocation: "Vị trí & Xung quanh",
+    accordionPolicies: "Nhận phòng & Chính sách",
+    accordionGallery: "Bộ sưu tập ảnh",
+    subCleanliness: "Độ sạch sẽ",
+    subService: "Dịch vụ",
+    subFacilities: "Tiện nghi",
+    subValue: "Đáng giá tiền",
+    subLocation: "Vị trí",
+    prosTitle: "Điểm nổi bật từ khách lưu trú",
+    representativeQuoteTitle: "Đánh giá tiêu biểu của khách",
+    viewFullReviews: "Xem toàn bộ đánh giá (10 bài)",
+    collapseReviews: "Thu gọn đánh giá",
+    roomCheckAgoda: "Kiểm tra phòng và giá thời gian thực trên Agoda.",
+    reviewHighlightLabel: "Điểm nhấn đánh giá",
   },
 }
