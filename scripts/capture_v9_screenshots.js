@@ -90,7 +90,7 @@ async function main() {
 
   const artifactDir = '/Users/admin/.gemini/antigravity/brain/c656b9d7-a742-4e8c-803c-b1085768ce80';
   const driveDir = '/Users/admin/내 드라이브(namdo772@gmail.com)/PhuQuoc';
-  const baseUrl = 'http://localhost:3012';
+  const baseUrl = 'http://localhost:3013';
 
   const targets = [
     // 1. Roma Hotel (Standard hotel in Sunset Town)
