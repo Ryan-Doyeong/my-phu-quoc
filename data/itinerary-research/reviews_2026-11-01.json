@@ -1,0 +1,6401 @@
+[
+ {
+  "source_url": "https://brunch.co.kr/@lild/15",
+  "source_title": "푸꾸옥 4박 5일",
+  "source_type": "blog",
+  "language": "ko",
+  "published": "2023-09",
+  "trip_date": null,
+  "traveler_type": "family_kids",
+  "group_size": null,
+  "nights": 4,
+  "stays": [
+   {
+    "region": "north",
+    "area": "Vinpearl Wonderworld area",
+    "hotel": "Vinpearl Discovery Wonderworld",
+    "nights": 2
+   },
+   {
+    "region": "central",
+    "area": "Duong Dong / Long Beach side",
+    "hotel": "Novotel Phu Quoc",
+    "nights": 2
+   }
+  ],
+  "arrival_time": "morning",
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "early_morning",
+      "place": "Airport arrival + lounge wait (landed ~06:30)",
+      "category": "transport",
+      "region": "unknown",
+      "note": "Overnight flight from Korea, waited before spa"
+     },
+     {
+      "slot": "morning",
+      "place": "Delu Na spa",
+      "category": "massage",
+      "region": "north",
+      "note": "Pre-booked 8am spa used instead of waiting for check-in"
+     },
+     {
+      "slot": "lunch",
+      "place": "Bun Cha Ha Noi",
+      "category": "food",
+      "region": "unknown",
+      "note": "Lunch before checkin"
+     },
+     {
+      "slot": "afternoon",
+      "place": "King Kong Mart; Vinpearl Wonderworld check-in; Grand World",
+      "category": "shopping",
+      "region": "north",
+      "note": "Shopping then check-in and evening stroll"
+     },
+     {
+      "slot": "evening",
+      "place": "Bep Nha near fountain show",
+      "category": "food",
+      "region": "north",
+      "note": "Dinner near evening fountain show"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Vinpearl Safari",
+      "category": "tour",
+      "region": "north",
+      "note": "Bird show and giraffe feeding"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Vinpearl Wonderworld aquarium, rides, water park",
+      "category": "activity",
+      "region": "north",
+      "note": "Ate inside the aquarium cafeteria"
+     },
+     {
+      "slot": "evening",
+      "place": "Water show + casino",
+      "category": "show",
+      "region": "north",
+      "note": "Rain; dinner delivered"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Golf at Vinpearl, move to Novotel",
+      "category": "activity",
+      "region": "north",
+      "note": "Switched stay from north to central"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Dinh Cau Temple; rooftop sunset drinks",
+      "category": "sight",
+      "region": "central",
+      "note": "Sunset drinks at a rooftop bistro"
+     },
+     {
+      "slot": "evening",
+      "place": "Sonasea Red Street night market",
+      "category": "food",
+      "region": "central",
+      "note": "Squid stall dinner"
+     }
+    ]
+   },
+   {
+    "day": 4,
+    "items": [
+     {
+      "slot": "early_morning",
+      "place": "Sun World cable car to Hon Thom",
+      "category": "tour",
+      "region": "south",
+      "note": "Early start for south day"
+     },
+     {
+      "slot": "morning",
+      "place": "Aquatopia water park",
+      "category": "activity",
+      "region": "south",
+      "note": "Water park on Hon Thom"
+     },
+     {
+      "slot": "lunch",
+      "place": "Banh Xeo Cuoi No.2",
+      "category": "food",
+      "region": "central",
+      "note": "Lunch back in central"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Aiyas spa; Starbucks; King Kong Mart",
+      "category": "massage",
+      "region": "central",
+      "note": "Spa and shopping afternoon"
+     }
+    ]
+   },
+   {
+    "day": 5,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Banh Xeo Cuoi No.3, An Ba Cafe, airport",
+      "category": "food",
+      "region": "central",
+      "note": "Last meal then airport"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Good beaches, resorts and prices",
+   "Safari animal feeding up close",
+   "Aquarium restaurant with sea-life views",
+   "Frequent buses to north"
+  ],
+  "disliked": [
+   "Only two flights a day",
+   "Weekend crowds and long lines",
+   "North to south about 1.5h by car",
+   "Over-packed plan was tiring and changed",
+   "Rain on day 2"
+  ],
+  "tips": [
+   "Book tickets on Klook for slight discount and no queue",
+   "Split stay between north and central/south",
+   "Pre-book spa via KakaoTalk with airport pickup",
+   "Do Safari and Wonderworld on separate days with small kids"
+  ],
+  "satisfaction": "medium",
+  "satisfaction_basis": "Praised beaches and families features but called plan too tiring and listed several annoyances",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": true,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": true,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": true,
+   "safari_vinwonders": true
+  },
+  "prices_mentioned": [],
+  "id": "ko-001",
+  "detail": "rich",
+  "recency": "old",
+  "south_stay": false,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "source_url": "https://brunch.co.kr/@287619953c9c459/114",
+  "source_title": "푸꾸옥 가족 여행",
+  "source_type": "blog",
+  "language": "ko",
+  "published": "2025-02",
+  "trip_date": "2025-02",
+  "traveler_type": "family_kids",
+  "group_size": 5,
+  "nights": 4,
+  "stays": [
+   {
+    "region": "unknown",
+    "area": null,
+    "hotel": "Mercury Hotel & Villa",
+    "nights": 2
+   },
+   {
+    "region": "unknown",
+    "area": null,
+    "hotel": "Dusit Princess Hotel",
+    "nights": 2
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "evening",
+      "place": "Phu Quoc arrival with agency fast-track immigration",
+      "category": "transport",
+      "region": "unknown",
+      "note": "Flight delayed; fast-track made immigration quick"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Mercury resort breakfast, walk, restaurant pool",
+      "category": "rest",
+      "region": "unknown",
+      "note": "Beach parasols taken so used restaurant pool"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Beach with toddler, checkout",
+      "category": "beach",
+      "region": "unknown",
+      "note": "Beach time while packing"
+     },
+     {
+      "slot": "lunch",
+      "place": "Spa massage via free car, nearby Vietnamese lunch",
+      "category": "massage",
+      "region": "unknown",
+      "note": "40-min wait at famous restaurant, ate nearby"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Dusit Princess check-in and grounds",
+      "category": "checkin",
+      "region": "unknown",
+      "note": "Explored hotel boat area"
+     },
+     {
+      "slot": "evening",
+      "place": "Hotel restaurant dinner",
+      "category": "food",
+      "region": "unknown",
+      "note": "Planned fire-show BBQ closed on Mondays"
+     }
+    ]
+   },
+   {
+    "day": 4,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Beach rest",
+      "category": "rest",
+      "region": "unknown",
+      "note": "Relaxed morning"
+     },
+     {
+      "slot": "lunch",
+      "place": "Korean food via delivery app",
+      "category": "food",
+      "region": "unknown",
+      "note": "Ordered to hotel"
+     },
+     {
+      "slot": "sunset",
+      "place": "Sunset Town clock tower photos",
+      "category": "sight",
+      "region": "south",
+      "note": "Cable car had already closed by 5:30pm"
+     },
+     {
+      "slot": "evening",
+      "place": "Sunset Town dinner + night market",
+      "category": "food",
+      "region": "south",
+      "note": "Bought local goods at nearby mart"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Mercury resort layout felt ideal",
+   "Dusit sea views from every room and fair prices",
+   "Night market clean, mart cheap",
+   "Local photographer at Sunset Town gave good photos"
+  ],
+  "disliked": [
+   "Long waits at popular restaurants",
+   "Flight delay",
+   "Sunset Town entrance area sparse and unsold",
+   "Cable car closed earlier than expected",
+   "Language barrier"
+  ],
+  "tips": [
+   "Book agency fast-track for immigration",
+   "Check cable car closing time beforehand",
+   "Use translation app",
+   "Buy coffee, pepper, nuts at mart near night market"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "Called Mercury his most ideal overseas stay; complaints were minor",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": true,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": true,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": true,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [],
+  "id": "ko-002",
+  "verification": "2026-11-01 원문 대조 일치 (숙소 2곳·선셋타운·케이블카 마감)",
+  "detail": "rich",
+  "recency": "2024+",
+  "south_stay": false,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "source_url": "https://brunch.co.kr/@nextar/225",
+  "source_title": "3박 푸꾸옥 여행 가성비 숙소, 항공권, 꿀팁까지",
+  "source_type": "blog",
+  "language": "ko",
+  "published": "2026-03",
+  "trip_date": null,
+  "traveler_type": "unknown",
+  "group_size": null,
+  "nights": 3,
+  "stays": [
+   {
+    "region": "central",
+    "area": "Near airport (central-south)",
+    "hotel": "Crowne Plaza",
+    "nights": 3
+   }
+  ],
+  "arrival_time": "late",
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "night",
+      "place": "Night flight arrival, hotel transfer",
+      "category": "transport",
+      "region": "unknown",
+      "note": "Rested at hotel"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "early_morning",
+      "place": "Vinpearl Safari",
+      "category": "tour",
+      "region": "north",
+      "note": "Arrive early, crowded after 10am"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Water park and amusement park",
+      "category": "activity",
+      "region": "north",
+      "note": "Same-day theme park combo"
+     },
+     {
+      "slot": "evening",
+      "place": "Laser show",
+      "category": "show",
+      "region": "north",
+      "note": "Evening show"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Hon Thom cable car",
+      "category": "tour",
+      "region": "south",
+      "note": "Short or no lines; ticket includes water park"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Hon Thom water park",
+      "category": "activity",
+      "region": "south",
+      "note": "Used ticket-included water park"
+     },
+     {
+      "slot": "sunset",
+      "place": "Sunset Town Starbucks area",
+      "category": "sight",
+      "region": "south",
+      "note": "Watched sunset"
+     },
+     {
+      "slot": "evening",
+      "place": "Kiss of the Sea + night market",
+      "category": "show",
+      "region": "south",
+      "note": "Show then market"
+     }
+    ]
+   },
+   {
+    "day": 4,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Resort time, central restaurants, sunset, massage, airport transfer",
+      "category": "rest",
+      "region": "central",
+      "note": "Massage after checkout then shower before flight"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Relaxed beaches vs Da Nang or Nha Trang",
+   "Hon Thom had short lines",
+   "Crowne Plaza breakfast, pool and airport proximity",
+   "Sunset from Sunset Town"
+  ],
+  "disliked": [
+   "Vietjet seats tight and connections",
+   "Flight about 5.5h",
+   "3 nights felt tight, little resort time"
+  ],
+  "tips": [
+   "Book flights in March before April fuel surcharge",
+   "Visit safari early",
+   "Rainy season May-Oct; August was sunnier than expected",
+   "Get massage after checkout"
+  ],
+  "satisfaction": "medium",
+  "satisfaction_basis": "Enjoyed south day and hotel but said schedule was tight",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": true,
+   "hopping": false,
+   "cable_car": true,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": true,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": true,
+   "safari_vinwonders": true
+  },
+  "prices_mentioned": [
+   {
+    "item": "Vinpearl Safari entry (as written)",
+    "price": "8,500",
+    "currency": "KRW",
+    "as_of": "2026-03"
+   },
+   {
+    "item": "Crowne Plaza (unclear if per night)",
+    "price": "about 100,000 range",
+    "currency": "KRW",
+    "as_of": "2026-03"
+   }
+  ],
+  "id": "ko-003",
+  "detail": "rich",
+  "recency": "2024+",
+  "south_stay": false,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "source_url": "https://www.kko-kkuri.com/%ED%91%B8%EA%BE%B8%EC%98%A5-4%EB%B0%95-5%EC%9D%BC-%EC%9D%BC%EC%A0%95/",
+  "source_title": "베트남 푸꾸옥 4박 5일 일정 및 경비 - 1일차 (feat. 피크타임 페퍼스파 모닝투어)",
+  "source_type": "blog",
+  "language": "ko",
+  "published": "2023-08",
+  "trip_date": "2023-07",
+  "traveler_type": "unknown",
+  "group_size": 2,
+  "nights": 4,
+  "stays": [
+   {
+    "region": "north",
+    "area": "Vinpearl area",
+    "hotel": "Melia Vinpearl 1BR pool villa",
+    "nights": 4
+   }
+  ],
+  "arrival_time": "morning",
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "early_morning",
+      "place": "Airport arrival ~06:54, USD exchange",
+      "category": "transport",
+      "region": "unknown",
+      "note": "Landed early morning; exchanged money at airport"
+     },
+     {
+      "slot": "morning",
+      "place": "Pepper Spa 90-min massage (morning tour)",
+      "category": "massage",
+      "region": "unknown",
+      "note": "Tour bridged time before check-in"
+     },
+     {
+      "slot": "morning",
+      "place": "Banh xeo breakfast + King Kong Mart",
+      "category": "food",
+      "region": "unknown",
+      "note": "Tour stops included free items"
+     },
+     {
+      "slot": "lunch",
+      "place": "Vinpearl Safari",
+      "category": "tour",
+      "region": "north",
+      "note": "Felt rushed at about 2 hours"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Hotel check-in ~14:30, rest",
+      "category": "checkin",
+      "region": "north",
+      "note": "Relaxed afternoon after humid early arrival"
+     },
+     {
+      "slot": "evening",
+      "place": "Grand World dinner, tomato foot massage, fountain show",
+      "category": "show",
+      "region": "north",
+      "note": "Show started 30 min later than expected"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Spa private rooms",
+   "Tomato foot massage most refreshing",
+   "Morning tour freebies"
+  ],
+  "disliked": [
+   "Banh xeo place food/hygiene poor",
+   "Wholesale pearl shop stop pricey",
+   "Safari rushed"
+  ],
+  "tips": [
+   "Exchange cash at airport or lounge",
+   "Buy safari tram ticket at snack stand",
+   "Decline unwanted shop stops",
+   "Keep afternoon light after early arrival"
+  ],
+  "satisfaction": "medium",
+  "satisfaction_basis": "Only day 1 read; mixed likes and dislikes",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": true,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": false,
+   "safari_vinwonders": true
+  },
+  "prices_mentioned": [
+   {
+    "item": "Safari tram (2 people)",
+    "price": "200,000",
+    "currency": "VND",
+    "as_of": "2023-08"
+   },
+   {
+    "item": "Tomato foot massage (2 people, 60 min)",
+    "price": "1,100,000",
+    "currency": "VND",
+    "as_of": "2023-08"
+   },
+   {
+    "item": "Koi restaurant dinner",
+    "price": "352,000",
+    "currency": "VND",
+    "as_of": "2023-08"
+   },
+   {
+    "item": "100 USD exchange at airport",
+    "price": "2,180,000",
+    "currency": "VND",
+    "as_of": "2023-08"
+   }
+  ],
+  "id": "ko-004",
+  "detail": "partial",
+  "recency": "old",
+  "south_stay": false,
+  "south_visit": false,
+  "bias": null
+ },
+ {
+  "source_url": "https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=523",
+  "source_title": "푸꾸옥 여행 경비 4박5일 일정 프롤로그",
+  "source_type": "forum",
+  "language": "ko",
+  "published": "2023-05",
+  "trip_date": null,
+  "traveler_type": "family_kids",
+  "group_size": 3,
+  "nights": 4,
+  "stays": [
+   {
+    "region": "central",
+    "area": "Near airport / Duong Dong",
+    "hotel": "Best Western",
+    "nights": 2
+   },
+   {
+    "region": "south",
+    "area": "New World area",
+    "hotel": "New World Villa",
+    "nights": 2
+   }
+  ],
+  "arrival_time": "dawn",
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "early_morning",
+      "place": "Private van airport pickup (landing before 6am)",
+      "category": "transport",
+      "region": "unknown",
+      "note": "Morning tour used to fill time before check-in"
+     },
+     {
+      "slot": "morning",
+      "place": "Breakfast, temple, coconut coffee, 1h massage",
+      "category": "massage",
+      "region": "unknown",
+      "note": "Welcome tour covering morning"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Ho Quoc Pagoda and Sao Beach lunch",
+      "category": "sight",
+      "region": "south",
+      "note": "South stop on arrival day"
+     },
+     {
+      "slot": "sunset",
+      "place": "Sun World cable car and sunset beach",
+      "category": "tour",
+      "region": "south",
+      "note": "Order of this tour partly unclear"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Speedboat island hopping from An Thoi",
+      "category": "tour",
+      "region": "island",
+      "note": "Fishing, snorkeling, lunch, Mai Lat"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Pearl and pepper farms, Hon Thom cable car, water park",
+      "category": "tour",
+      "region": "south",
+      "note": "All-in-one private tour"
+     }
+    ]
+   },
+   {
+    "day": 4,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Starfish Beach, Vinpearl, Grand World",
+      "category": "tour",
+      "region": "north",
+      "note": "Laser show; arrive 1h early for spot"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Flexible private tours",
+   "Direct flight vs earlier connection",
+   "Massage, coconut coffee, cable car views",
+   "Grand World shows",
+   "New World Villa modern"
+  ],
+  "disliked": [
+   "Tide too high to see starfish",
+   "Earlier connecting route was tiring"
+  ],
+  "tips": [
+   "Book morning tour for dawn direct flight",
+   "Pay for exit-row seat",
+   "Plan a sunset spot each evening",
+   "Arrive early for Grand World laser show",
+   "Bring GoPro for snorkeling"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "Many positives, only minor complaint about tide",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": true,
+   "cable_car": true,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": true,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": false,
+   "safari_vinwonders": true
+  },
+  "prices_mentioned": [
+   {
+    "item": "Private welcome tour per person (group of 3)",
+    "price": "55",
+    "currency": "USD",
+    "as_of": "2023-05"
+   },
+   {
+    "item": "Island hopping joint tour",
+    "price": "35",
+    "currency": "USD",
+    "as_of": "2023-05"
+   },
+   {
+    "item": "All-in-one tour (1 person)",
+    "price": "50",
+    "currency": "USD",
+    "as_of": "2023-05"
+   }
+  ],
+  "id": "ko-005",
+  "detail": "partial",
+  "recency": "old",
+  "south_stay": true,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "source_url": "https://blog.tinyping.kr/%ED%91%B8%EA%BE%B8%EC%98%A5-%EC%8B%A0%ED%98%BC%EC%97%AC%ED%96%89-%EC%B4%88%EB%B3%B4%EB%8F%84-%EB%B0%98%ED%95%9C-%EB%B2%A0%ED%8A%B8%EB%82%A8-%ED%9B%84%EA%B8%B0/",
+  "source_title": "푸꾸옥 신혼여행! 초보도 반한 베트남 후기",
+  "source_type": "blog",
+  "language": "ko",
+  "published": "2025-06",
+  "trip_date": null,
+  "traveler_type": "couple",
+  "group_size": 2,
+  "nights": null,
+  "stays": [
+   {
+    "region": "central",
+    "area": "Duong Dong / Ong Lang suggested",
+    "hotel": null,
+    "nights": null
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "evening",
+      "place": "Duong Dong night market + seafood dinner",
+      "category": "food",
+      "region": "central",
+      "note": "Arrival day, check-in first"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Hon Thom cable car and Sun World water park",
+      "category": "tour",
+      "region": "south",
+      "note": "Full south-island day"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Starfish Beach and Grand World",
+      "category": "tour",
+      "region": "north",
+      "note": "North tour"
+     }
+    ]
+   },
+   {
+    "day": 4,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Pearl farm, coconut prison, Sao Beach",
+      "category": "tour",
+      "region": "south",
+      "note": "South tour"
+     }
+    ]
+   },
+   {
+    "day": 5,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Resort rest, massage, airport",
+      "category": "massage",
+      "region": "central",
+      "note": "Easy final day"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Scenery and sunsets",
+   "Marine activities",
+   "Resort atmosphere",
+   "Starfish Beach photos",
+   "Cable car views"
+  ],
+  "disliked": [],
+  "tips": [
+   "Arrive at sunset spots about 1h early",
+   "Exchange USD at home, little dong locally",
+   "Avoid Dec-Feb peak prices",
+   "Check visa-free eligibility"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "Only positives listed; note post has affiliate content",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": true,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": true,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": true,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [
+   {
+    "item": "General budget per person (FAQ estimate)",
+    "price": "about 800,000 budget; 1,500,000+ luxury",
+    "currency": "KRW",
+    "as_of": "2025-06"
+   }
+  ],
+  "id": "ko-006",
+  "detail": "partial",
+  "recency": "2024+",
+  "south_stay": false,
+  "south_visit": true,
+  "bias": "affiliate"
+ },
+ {
+  "source_url": "https://brunch.co.kr/@wissam/231",
+  "source_title": "푸꾸옥 밤의 선셋타운(Sunset Town)",
+  "source_type": "blog",
+  "language": "ko",
+  "published": "2025-02",
+  "trip_date": null,
+  "traveler_type": "family_kids",
+  "group_size": null,
+  "nights": null,
+  "stays": [],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Free hotel shuttle to Sunset Town (double-decker bus)",
+      "category": "sight",
+      "region": "south",
+      "note": "Daytime visit first, streets quiet"
+     },
+     {
+      "slot": "sunset",
+      "place": "Return at sunset, Kiss Bridge",
+      "category": "sight",
+      "region": "south",
+      "note": "Back for sunset and evening"
+     },
+     {
+      "slot": "evening",
+      "place": "Symphony of the Sea from paid shop viewpoint",
+      "category": "show",
+      "region": "south",
+      "note": "Needs entering paid-service shop"
+     },
+     {
+      "slot": "night",
+      "place": "Kiss of the Sea with fireworks",
+      "category": "show",
+      "region": "south",
+      "note": "Seats first-come, arrive about 30 min early"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Sunset and Kiss Bridge photo spot",
+   "Large sea shows with lasers and fireworks",
+   "Lively evening atmosphere",
+   "Free hotel shuttle"
+  ],
+  "disliked": [
+   "Empty closed shops by day",
+   "Artificial sea under bridge",
+   "Crowds at Kiss Bridge",
+   "Air pollution worry from fireworks"
+  ],
+  "tips": [
+   "Visit in the evening",
+   "Symphony viewing needs paid shop",
+   "Arrive 30 min early for Kiss of the Sea",
+   "Sit on top deck of shuttle"
+  ],
+  "satisfaction": "medium",
+  "satisfaction_basis": "Liked shows and sunset but several criticisms",
+  "mentions": {
+   "symphony_of_the_sea": true,
+   "kiss_of_the_sea": true,
+   "hopping": false,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": false,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [],
+  "id": "ko-007",
+  "detail": "partial",
+  "recency": "2024+",
+  "south_stay": false,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "source_url": "https://brunch.co.kr/@bullee/163",
+  "source_title": "아쉬움이 남은 푸꾸옥",
+  "source_type": "blog",
+  "language": "ko",
+  "published": "2023-09",
+  "trip_date": "2023-09",
+  "traveler_type": "couple",
+  "group_size": 2,
+  "nights": null,
+  "stays": [
+   {
+    "region": "unknown",
+    "area": null,
+    "hotel": null,
+    "nights": null
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "afternoon",
+      "place": "Arrived in rain, resort stay",
+      "category": "rest",
+      "region": "unknown",
+      "note": "Strong wind and rain"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "lunch",
+      "place": "Resort shuttle to town for local food",
+      "category": "food",
+      "region": "unknown",
+      "note": "Mostly stayed in room"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "sunset",
+      "place": "Rooftop sunset yoga at resort",
+      "category": "activity",
+      "region": "unknown",
+      "note": "Free class, only participants"
+     },
+     {
+      "slot": "morning",
+      "place": "Pool and pool bar",
+      "category": "rest",
+      "region": "unknown",
+      "note": "Rain stopped"
+     }
+    ]
+   },
+   {
+    "day": 5,
+    "items": [
+     {
+      "slot": "evening",
+      "place": "Night market before massage appointment",
+      "category": "food",
+      "region": "unknown",
+      "note": "Only 30 min planned, wished for more"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Pure rest focus",
+   "Free resort yoga",
+   "Fewer motorbikes than other cities",
+   "Beaches reachable anywhere"
+  ],
+  "disliked": [
+   "Rain and wind on arrival",
+   "Too little night market time",
+   "Biased by others' reviews"
+  ],
+  "tips": [
+   "Off-season is cheaper",
+   "Check free resort activities",
+   "Allow more night market time"
+  ],
+  "satisfaction": "medium",
+  "satisfaction_basis": "Title and text show leftover regret though rest goal met",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": true,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": true,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [],
+  "id": "ko-008",
+  "detail": "partial",
+  "recency": "old",
+  "south_stay": false,
+  "south_visit": false,
+  "bias": null
+ },
+ {
+  "source_url": "https://brunch.co.kr/@soyool/12",
+  "source_title": "TOP 3 안에 드는 푸꾸옥 리조트, 직접 다녀온 후기",
+  "source_type": "blog",
+  "language": "ko",
+  "published": "2025-07",
+  "trip_date": null,
+  "traveler_type": "group",
+  "group_size": 6,
+  "nights": 2,
+  "stays": [
+   {
+    "region": "north",
+    "area": "North Phu Quoc",
+    "hotel": "Melia Vinpearl Phu Quoc",
+    "nights": 2
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "afternoon",
+      "place": "Check-in, private-pool villa, main pool",
+      "category": "checkin",
+      "region": "north",
+      "note": "Villa with private pool"
+     },
+     {
+      "slot": "sunset",
+      "place": "Beach-side pool sunset",
+      "category": "beach",
+      "region": "north",
+      "note": "Sunset from pool area"
+     },
+     {
+      "slot": "evening",
+      "place": "Dinner buffet",
+      "category": "food",
+      "region": "north",
+      "note": "Disappointing"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Breakfast, buggy tour of resort photo spots",
+      "category": "activity",
+      "region": "north",
+      "note": "Buggy booked by phone or app"
+     },
+     {
+      "slot": "lunch",
+      "place": "Snacks and smoothies at resort",
+      "category": "food",
+      "region": "north",
+      "note": "Light lunch"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Breakfast and checkout",
+      "category": "checkin",
+      "region": "north",
+      "note": "Crowded checkout"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Large villa rooms with private pool",
+   "European-style architecture",
+   "Breakfast buffet",
+   "Sunset views and beach access"
+  ],
+  "disliked": [
+   "Rooms not new, some dust",
+   "Lizards under outdoor lights",
+   "Long waits at check-in and for buggies",
+   "Dinner buffet weak"
+  ],
+  "tips": [
+   "Pre-book buggy",
+   "Go to main pool late afternoon for sunset",
+   "Breakfast beats dinner",
+   "More Middle Eastern guests in Oct-Nov"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "Ranked it in author's top three of eight resorts; post includes affiliate promo",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": true,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": false,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [],
+  "id": "ko-009",
+  "detail": "partial",
+  "recency": "2024+",
+  "south_stay": false,
+  "south_visit": false,
+  "bias": "affiliate"
+ },
+ {
+  "source_url": "https://brunch.co.kr/@wonjue/980",
+  "source_title": "푸꾸옥 빈펄 리조트, 숙소 후기",
+  "source_type": "blog",
+  "language": "ko",
+  "published": "2024-02",
+  "trip_date": null,
+  "traveler_type": "family_kids",
+  "group_size": 4,
+  "nights": null,
+  "stays": [
+   {
+    "region": "north",
+    "area": "Vinpearl Wonderworld",
+    "hotel": "Vinpearl Wonderworld private pool villa",
+    "nights": null
+   }
+  ],
+  "arrival_time": "late",
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "night",
+      "place": "Delayed flight, reached villa about 1am",
+      "category": "checkin",
+      "region": "north",
+      "note": "Upgraded to 2nd-floor villa at check-in"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Resort breakfast with face-recognition entry",
+      "category": "food",
+      "region": "north",
+      "note": "Few kid-friendly choices"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Free sauna and gym, tuk-tuk shuttle around resort",
+      "category": "rest",
+      "region": "north",
+      "note": "Villas spread far apart"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Spacious villa, private pool, own bedrooms",
+   "Free uncrowded sauna and gym",
+   "Free upgrade for 3+ nights"
+  ],
+  "disliked": [
+   "Breakfast lacked kid options",
+   "Dated robes",
+   "Villas too far to walk",
+   "Delayed arrival exhausting"
+  ],
+  "tips": [
+   "Book 3+ nights for upgrade chance",
+   "Use tuk-tuk shuttle",
+   "Take face photo ahead for breakfast"
+  ],
+  "satisfaction": "medium",
+  "satisfaction_basis": "Strong villa praise offset by breakfast and logistics complaints",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": false,
+   "safari_vinwonders": true
+  },
+  "prices_mentioned": [],
+  "id": "ko-010",
+  "detail": "partial",
+  "recency": "2024+",
+  "south_stay": false,
+  "south_visit": false,
+  "bias": null
+ },
+ {
+  "source_url": "https://brunch.co.kr/@plc83/131",
+  "source_title": "10화 푸꾸옥 리조트의 조식 뷔페엔 짜파게티가 있다.",
+  "source_type": "blog",
+  "language": "ko",
+  "published": "2024-05",
+  "trip_date": null,
+  "traveler_type": "family_kids",
+  "group_size": 3,
+  "nights": 4,
+  "stays": [
+   {
+    "region": "unknown",
+    "area": null,
+    "hotel": null,
+    "nights": 4
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Resort breakfast, pool morning and evening, resort activities",
+      "category": "rest",
+      "region": "unknown",
+      "note": "Latte art, canvas painting, lantern making"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Massage outings (one or two)",
+      "category": "massage",
+      "region": "unknown",
+      "note": "Cheap massages"
+     },
+     {
+      "slot": "sunset",
+      "place": "Sunset watching",
+      "category": "sight",
+      "region": "unknown",
+      "note": "Found sunsets beautiful"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Short flight",
+   "Good-value resort",
+   "Korean dishes at breakfast",
+   "Cheap massage",
+   "Sunsets"
+  ],
+  "disliked": [
+   "Many Korean tourists, felt less abroad",
+   "Extreme heat",
+   "Hot sand burned feet",
+   "Doubts about water quality"
+  ],
+  "tips": [
+   "Keep boarding pass for immigration",
+   "Bring filter shower head",
+   "Dry season through April",
+   "Pool in morning and evening"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "Described restful stay with several positives; complaints mostly heat",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": true,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": false,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [],
+  "id": "ko-011",
+  "detail": "partial",
+  "recency": "2024+",
+  "south_stay": false,
+  "south_visit": false,
+  "bias": null
+ },
+ {
+  "source_url": "https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=1844",
+  "source_title": "푸꾸옥 3박 5일 자유 여행 코스 빈펄 사파리부터 멋진 레스토랑, 야시장, 마사지까지",
+  "source_type": "forum",
+  "language": "ko",
+  "published": "2026-10",
+  "trip_date": null,
+  "traveler_type": "unknown",
+  "group_size": null,
+  "nights": 3,
+  "stays": [
+   {
+    "region": "north",
+    "area": "North for safari",
+    "hotel": null,
+    "nights": null
+   },
+   {
+    "region": "central",
+    "area": "Central",
+    "hotel": null,
+    "nights": null
+   }
+  ],
+  "arrival_time": "late",
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "night",
+      "place": "Landed about 23:30 after 19:30 departure, head north",
+      "category": "transport",
+      "region": "north",
+      "note": "Went north first because of safari"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Vinpearl Safari",
+      "category": "tour",
+      "region": "north",
+      "note": "Main reason for north stay"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Return to central area",
+      "category": "transport",
+      "region": "central",
+      "note": "Moved on after safari"
+     }
+    ]
+   }
+  ],
+  "liked": [],
+  "disliked": [],
+  "tips": [
+   "Stay north first if safari is a priority"
+  ],
+  "satisfaction": "unknown",
+  "satisfaction_basis": "Excerpt covers only first days, no opinions",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": false,
+   "safari_vinwonders": true
+  },
+  "prices_mentioned": [],
+  "id": "ko-012",
+  "detail": "partial",
+  "recency": "2024+",
+  "south_stay": false,
+  "south_visit": false,
+  "bias": null
+ },
+ {
+  "source_url": "https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=1842",
+  "source_title": "베트남 푸꾸옥 자유여행 추천 코스 바구니배, 요리 교실",
+  "source_type": "forum",
+  "language": "ko",
+  "published": "2026-09",
+  "trip_date": null,
+  "traveler_type": "unknown",
+  "group_size": null,
+  "nights": 3,
+  "stays": [
+   {
+    "region": "unknown",
+    "area": null,
+    "hotel": "Grand Hotel",
+    "nights": 3
+   }
+  ],
+  "arrival_time": "morning",
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Airport arrival 11:00, drop bags at hotel",
+      "category": "checkin",
+      "region": "unknown",
+      "note": "Bags dropped before sightseeing"
+     },
+     {
+      "slot": "lunch",
+      "place": "Safari park",
+      "category": "tour",
+      "region": "north",
+      "note": "Giraffes, lions, elephants then a meal"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Wonderland park: aquarium, rides, water park",
+      "category": "activity",
+      "region": "north",
+      "note": "Same-day theme park"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Safari animal encounters",
+   "Aquarium, rides and water park",
+   "Detailed ornate building interior"
+  ],
+  "disliked": [],
+  "tips": [
+   "Include one local experience, not just resort"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "Only positives given but excerpt covers day 1 only",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": false,
+   "safari_vinwonders": true
+  },
+  "prices_mentioned": [],
+  "id": "ko-013",
+  "detail": "partial",
+  "recency": "2024+",
+  "south_stay": false,
+  "south_visit": false,
+  "bias": null
+ },
+ {
+  "source_url": "https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=1178",
+  "source_title": "베트남 푸꾸옥 여행 패키지 여행지 후기",
+  "source_type": "forum",
+  "language": "ko",
+  "published": "2023-09",
+  "trip_date": null,
+  "traveler_type": "unknown",
+  "group_size": null,
+  "nights": null,
+  "stays": [],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Vinpearl Resort relaxing",
+      "category": "rest",
+      "region": "north",
+      "note": "Sponsored private tour day starting 9am"
+     },
+     {
+      "slot": "lunch",
+      "place": "Seaside restaurant lunch",
+      "category": "food",
+      "region": "unknown",
+      "note": "Chosen by operator"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Coconut Prison",
+      "category": "sight",
+      "region": "south",
+      "note": "Guided history visit"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Hon Thom cable car + Sun World Aquatopia",
+      "category": "tour",
+      "region": "south",
+      "note": "Long sea cable car, short water park queues"
+     },
+     {
+      "slot": "sunset",
+      "place": "Ho Quoc Pagoda",
+      "category": "sight",
+      "region": "south",
+      "note": "Recommended around sunset"
+     },
+     {
+      "slot": "evening",
+      "place": "Beach seafood dinner at sunset",
+      "category": "food",
+      "region": "south",
+      "note": "Guide-recommended place"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Flexible private schedule",
+   "Cable car views",
+   "Short queues",
+   "Guided history explanations"
+  ],
+  "disliked": [],
+  "tips": [
+   "Visit pagoda around sunset",
+   "Use buggies at Sun World in heat",
+   "Pick restaurants with operator help"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "Sponsored tour, only positives stated",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": true,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": true,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": false,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [],
+  "id": "ko-014",
+  "detail": "partial",
+  "recency": "old",
+  "south_stay": false,
+  "south_visit": true,
+  "bias": "sponsored"
+ },
+ {
+  "source_url": "https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=1838",
+  "source_title": "푸꾸옥 3박 5일 여행 총 비용 항공권, 숙박, 식사, 마사지 실제 지출",
+  "source_type": "forum",
+  "language": "ko",
+  "published": "2026-09",
+  "trip_date": null,
+  "traveler_type": "couple",
+  "group_size": 2,
+  "nights": 3,
+  "stays": [],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [],
+  "liked": [
+   "Trip costs excluding shopping were reasonable"
+  ],
+  "disliked": [
+   "Shopping spend far above plan from pre-trip duty-free buying"
+  ],
+  "tips": [
+   "Keep shopping modest and pick cost-efficient hotel to reach about 2M KRW for two"
+  ],
+  "satisfaction": "medium",
+  "satisfaction_basis": "Cost-focused repost; reasonable costs but overspent on shopping",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": true,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": false,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [
+   {
+    "item": "Total 3N/5D for two incl. shopping",
+    "price": "about 2,600,000",
+    "currency": "KRW",
+    "as_of": "2026-09"
+   },
+   {
+    "item": "Estimate without heavy shopping",
+    "price": "about 2,000,000",
+    "currency": "KRW",
+    "as_of": "2026-09"
+   }
+  ],
+  "id": "ko-015",
+  "detail": "thin",
+  "recency": "2024+",
+  "south_stay": false,
+  "south_visit": false,
+  "bias": null
+ },
+ {
+  "source_url": "https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=1845",
+  "source_title": "베트남 푸꾸옥 여행: 자유 일정 및 리조트 숙박",
+  "source_type": "forum",
+  "language": "ko",
+  "published": "2026-10",
+  "trip_date": "2026-10",
+  "traveler_type": "solo",
+  "group_size": 1,
+  "nights": null,
+  "stays": [
+   {
+    "region": "central",
+    "area": "Near King Kong Mart, night markets",
+    "hotel": "La Hanna Resort",
+    "nights": null
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "afternoon",
+      "place": "Beach near hotel and motorbike ride",
+      "category": "beach",
+      "region": "central",
+      "note": "Author's own day; brother's trip is secondhand"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Hotel convenient to night markets and restaurants",
+   "No rain during solo trip"
+  ],
+  "disliked": [
+   "Beach water looked unclean"
+  ],
+  "tips": [],
+  "satisfaction": "unknown",
+  "satisfaction_basis": "Secondhand account with little detail",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": true,
+   "grab_taxi": false,
+   "night_market": true,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [],
+  "id": "ko-016",
+  "detail": "thin",
+  "recency": "2024+",
+  "south_stay": false,
+  "south_visit": false,
+  "bias": null
+ },
+ {
+  "id": "en-001",
+  "source_url": "https://2bearbear.com/?p=35201",
+  "source_title": "Phu Quoc Travel Itinerary Day 1-6 (2bearbear, Singapore couple)",
+  "source_type": "blog",
+  "language": "en",
+  "published": "2024-05",
+  "trip_date": "2023-12",
+  "traveler_type": "couple",
+  "group_size": 2,
+  "nights": 5,
+  "stays": [
+   {
+    "region": "north",
+    "area": "Vinpearl Resort & Spa (Bai Dai side, near Grand World)",
+    "hotel": "Vinpearl Resort & Spa Phu Quoc",
+    "nights": 2
+   },
+   {
+    "region": "central",
+    "area": "Duong Dong Town",
+    "hotel": "Seashells Phu Quoc Hotel & Spa",
+    "nights": 2
+   },
+   {
+    "region": "central",
+    "area": "Long Beach / Sonasea",
+    "hotel": "Novotel Phu Quoc Resort",
+    "nights": 1
+   }
+  ],
+  "arrival_time": "afternoon",
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "afternoon",
+      "place": "Phu Quoc Airport to Vinpearl via free resort shuttle",
+      "category": "transport",
+      "region": "north",
+      "note": "Landed 1:40pm; shuttle stop confusion sent them to the wrong park first"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Vinpearl Resort & Spa pool and private beach",
+      "category": "checkin",
+      "region": "north",
+      "note": "Checked in, used pool, beach and sunset cocktail"
+     },
+     {
+      "slot": "evening",
+      "place": "Grand World (Colours of Venice light show)",
+      "category": "show",
+      "region": "north",
+      "note": "Free light and fountain show, watched best from bridge"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Vinpearl Safari",
+      "category": "activity",
+      "region": "north",
+      "note": "Free resort shuttle; zoo walk, bird show, then safari bus"
+     },
+     {
+      "slot": "lunch",
+      "place": "Giraffe Restaurant",
+      "category": "food",
+      "region": "north",
+      "note": "Lunch beside giraffes; carrots bought to feed them"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Akoya Spa massage at resort",
+      "category": "massage",
+      "region": "north",
+      "note": "Ayurvedic massage; four-hands session not synchronised"
+     },
+     {
+      "slot": "evening",
+      "place": "Pepper Restaurant",
+      "category": "food",
+      "region": "north",
+      "note": "Preferred over the pricey hotel buffet"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Vinpearl private beach stroll and breakfast",
+      "category": "beach",
+      "region": "north",
+      "note": "Buffet breakfast with local dishes"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Move to Seashells Phu Quoc by public bus",
+      "category": "transport",
+      "region": "central",
+      "note": "Resort route bus then bus 17; cheaper than a transfer"
+     },
+     {
+      "slot": "evening",
+      "place": "Seashells seafood buffet and pool",
+      "category": "food",
+      "region": "central",
+      "note": "Infinity pool judged best of the trip; live band"
+     }
+    ]
+   },
+   {
+    "day": 4,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Seashells breakfast and beach walk",
+      "category": "rest",
+      "region": "central",
+      "note": "Hotel beach rocky; pool better for swimming"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Duong Dong harbour, Dinh Cau, Crab House, King Kong Mart",
+      "category": "shopping",
+      "region": "central",
+      "note": "Walked from hotel; craft beer lunch and souvenir shopping"
+     },
+     {
+      "slot": "evening",
+      "place": "Banh Xeo Cuoi dinner and hotel spa",
+      "category": "food",
+      "region": "central",
+      "note": "Delivery failed twice so they walked to the restaurant"
+     }
+    ]
+   },
+   {
+    "day": 5,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Grab to Novotel Phu Quoc Resort",
+      "category": "checkin",
+      "region": "central",
+      "note": "Early check-in impossible; room ready around 12:15"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Novotel pool, bicycles along beach",
+      "category": "rest",
+      "region": "central",
+      "note": "Suite upgrade through hotel loyalty status"
+     },
+     {
+      "slot": "sunset",
+      "place": "In Balance Spa massage and beach stroll",
+      "category": "massage",
+      "region": "central",
+      "note": "Happy-hour massage rebooked for 5pm"
+     },
+     {
+      "slot": "evening",
+      "place": "Sonasea shopping centre",
+      "category": "shopping",
+      "region": "central",
+      "note": "Takeaway dinner, manicure and snacks"
+     }
+    ]
+   },
+   {
+    "day": 6,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Novotel promenade jog and breakfast",
+      "category": "rest",
+      "region": "central",
+      "note": "Breakfast varied but generic"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Airport departure",
+      "category": "transport",
+      "region": "central",
+      "note": "Left hotel about noon"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Free Vinpearl airport shuttle and resort bus",
+   "Safari bus tour and giraffe lunch",
+   "Seashells infinity pool and live band",
+   "Novotel suite upgrade with pool and beach access",
+   "Grand World free light show"
+  ],
+  "disliked": [
+   "Hotel buffets expensive",
+   "Shuttle and bus timetables confusing and outdated online",
+   "Seashells beach rocky and rough sand",
+   "Early check-in not possible at Novotel",
+   "Grab Food orders failed"
+  ],
+  "tips": [
+   "Ask hotel concierge for free inter-resort buses",
+   "See safari zoo first in cool morning",
+   "Sit left side of safari bus",
+   "Book spa happy-hour slots early",
+   "Grab airport to Vinpearl roughly 25 SGD"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "Mostly positive day notes, minor logistics complaints, recommends visiting before prices rise",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": true,
+   "buggy": true,
+   "scooter": false,
+   "grab_taxi": true,
+   "night_market": false,
+   "safari_vinwonders": true
+  },
+  "prices_mentioned": [
+   {
+    "item": "Vinpearl Safari, 2 people after resort discount",
+    "price": "1,170,000",
+    "currency": "VND",
+    "as_of": "2023-12"
+   },
+   {
+    "item": "Akoya Spa 45-min Ayurvedic massage",
+    "price": "600,000",
+    "currency": "VND",
+    "as_of": "2023-12"
+   },
+   {
+    "item": "Vinpearl hotel buffet dinner per person",
+    "price": "730,000",
+    "currency": "VND",
+    "as_of": "2023-12"
+   },
+   {
+    "item": "Grab Duong Dong to Novotel",
+    "price": "125,000",
+    "currency": "VND",
+    "as_of": "2023-12"
+   },
+   {
+    "item": "Grab airport to Vinpearl",
+    "price": "25",
+    "currency": "SGD",
+    "as_of": "2023-12"
+   }
+  ],
+  "detail": "rich",
+  "recency": "2024+",
+  "south_stay": false,
+  "south_visit": false,
+  "bias": null
+ },
+ {
+  "id": "en-002",
+  "source_url": "https://www.trvlogue.com/en/phu-quoc-family-itinerary-2026",
+  "source_title": "Phu Quoc 4-Night Itinerary 2026: Family Trip with Two Kids",
+  "source_type": "blog",
+  "language": "en",
+  "published": "2026-09",
+  "trip_date": "2026-03",
+  "traveler_type": "family_kids",
+  "group_size": 4,
+  "nights": 4,
+  "stays": [
+   {
+    "region": "north",
+    "area": "Movenpick Resort Waverly (region inferred from safari access, unverified)",
+    "hotel": "Movenpick Resort Waverly Phu Quoc",
+    "nights": 2
+   },
+   {
+    "region": "north",
+    "area": "New World resort (region inferred, unverified)",
+    "hotel": "New World Phu Quoc Resort",
+    "nights": 2
+   },
+   {
+    "region": "central",
+    "area": "Long Beach area (day-use only)",
+    "hotel": "Palm Bay Resort",
+    "nights": 0
+   }
+  ],
+  "arrival_time": "dawn",
+  "departure_time": "dawn",
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "evening",
+      "place": "Incheon overnight flight to Phu Quoc",
+      "category": "transport",
+      "region": "unknown",
+      "note": "Departed 8:35pm; kids did not sleep as hoped"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "early_morning",
+      "place": "Phu Quoc Airport fast track and pre-booked pickup",
+      "category": "transport",
+      "region": "unknown",
+      "note": "Landed 12:50am; prebooked transfer made late arrival easy"
+     },
+     {
+      "slot": "early_morning",
+      "place": "Movenpick pool-access room",
+      "category": "checkin",
+      "region": "north",
+      "note": "Slept in, then pool time with toddler"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Movenpick Chocolate Happy Hour",
+      "category": "food",
+      "region": "north",
+      "note": "Kids enjoyed the 3:30pm chocolate buffet"
+     },
+     {
+      "slot": "evening",
+      "place": "Movenpick dinner",
+      "category": "food",
+      "region": "north",
+      "note": "Stayed in resort for easy evening"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Vinpearl Safari",
+      "category": "activity",
+      "region": "north",
+      "note": "Arrived 9am; fed elephants and monkeys up close"
+     },
+     {
+      "slot": "lunch",
+      "place": "Giraffe Restaurant",
+      "category": "food",
+      "region": "north",
+      "note": "Lunch among giraffes"
+     },
+     {
+      "slot": "evening",
+      "place": "Check in at New World resort",
+      "category": "checkin",
+      "region": "north",
+      "note": "Busiest day of trip"
+     }
+    ]
+   },
+   {
+    "day": 4,
+    "items": [
+     {
+      "slot": "afternoon",
+      "place": "New World beach and pools",
+      "category": "beach",
+      "region": "north",
+      "note": "Whole day at pool plus nap time"
+     },
+     {
+      "slot": "evening",
+      "place": "Sailing Club dinner and fire show",
+      "category": "show",
+      "region": "north",
+      "note": "Fire show was a highlight"
+     }
+    ]
+   },
+   {
+    "day": 5,
+    "items": [
+     {
+      "slot": "lunch",
+      "place": "Check out New World, move to Palm Bay for rest",
+      "category": "checkin",
+      "region": "central",
+      "note": "Cheap day-use room before 1:50am flight"
+     },
+     {
+      "slot": "evening",
+      "place": "Duong Dong Night Market and massage",
+      "category": "food",
+      "region": "central",
+      "note": "Light evening before midnight airport transfer"
+     }
+    ]
+   },
+   {
+    "day": 6,
+    "items": [
+     {
+      "slot": "early_morning",
+      "place": "Departure flight 1:50am",
+      "category": "transport",
+      "region": "central",
+      "note": "Arrived Incheon 9:30am"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Pool-access room suited toddler",
+   "Pre-booked fast track and pickup at 1am",
+   "Close animal contact at safari",
+   "Light pace with resort days",
+   "Palm Bay as cheap rest stop before late flight"
+  ],
+  "disliked": [
+   "Kids did not sleep on overnight flight",
+   "Day 3 was tiring and packed"
+  ],
+  "tips": [
+   "Prebook transfers for after-midnight landing",
+   "Pick pool-access room with young kids",
+   "Book a day-use room before very early flights",
+   "Keep schedule light"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "Author praises pace and resorts; no real complaints beyond flight tiredness",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": true,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": true,
+   "safari_vinwonders": true
+  },
+  "prices_mentioned": [],
+  "detail": "rich",
+  "recency": "2024+",
+  "south_stay": false,
+  "south_visit": false,
+  "bias": null
+ },
+ {
+  "id": "en-003",
+  "source_url": "https://www.trvlogue.com/en/phu-quoc-4-day-itinerary",
+  "source_title": "Phu Quoc 4-Day Itinerary 2026: Best Stays & Travel Tips (solo, May 2026)",
+  "source_type": "blog",
+  "language": "en",
+  "published": "2026-08",
+  "trip_date": "2026-05",
+  "traveler_type": "solo",
+  "group_size": 1,
+  "nights": 4,
+  "stays": [
+   {
+    "region": "central",
+    "area": "Duong Dong / central area",
+    "hotel": null,
+    "nights": 3
+   },
+   {
+    "region": "north",
+    "area": "Near Grand World",
+    "hotel": "VinHolidays Phu Quoc",
+    "nights": 1
+   }
+  ],
+  "arrival_time": "evening",
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "evening",
+      "place": "Duong Dong Night Market",
+      "category": "food",
+      "region": "central",
+      "note": "Arrived from Da Nang in evening, strolled market"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "afternoon",
+      "place": "Highlands Coffee remote work",
+      "category": "cafe",
+      "region": "central",
+      "note": "Rainy day spent working on laptop"
+     },
+     {
+      "slot": "evening",
+      "place": "King Kong Mart",
+      "category": "shopping",
+      "region": "central",
+      "note": "Browsed souvenirs"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Cloud Cafe co-working floor",
+      "category": "cafe",
+      "region": "central",
+      "note": "Full day of work with unlimited stay"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Local foot massage",
+      "category": "massage",
+      "region": "central",
+      "note": "Cheap foot massage"
+     }
+    ]
+   },
+   {
+    "day": 4,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Move to VinHolidays in the north",
+      "category": "checkin",
+      "region": "north",
+      "note": "Switched base to north"
+     },
+     {
+      "slot": "night",
+      "place": "Vinpearl Safari night tour",
+      "category": "tour",
+      "region": "north",
+      "note": "Animals active; giraffe feeding; Grab taxi"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Northern hotel pool and breakfast",
+   "Grand World a five-minute walk away",
+   "Night safari with active animals",
+   "Cheap mangoes and massages"
+  ],
+  "disliked": [
+   "Regretted three early nights in central area",
+   "Rain on three of four days"
+  ],
+  "tips": [
+   "Split stay between central and north",
+   "Prefer night safari to day tour",
+   "Book safari via Klook for slightly lower price",
+   "Do not overpack schedule"
+  ],
+  "satisfaction": "medium",
+  "satisfaction_basis": "Author regrets hotel split and rain but enjoyed north and safari",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": true,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": true,
+   "night_market": true,
+   "safari_vinwonders": true
+  },
+  "prices_mentioned": [
+   {
+    "item": "Vinpearl Safari night tour",
+    "price": "38",
+    "currency": "USD",
+    "as_of": "2026-05"
+   },
+   {
+    "item": "Cloud Cafe co-working all day with drink",
+    "price": "200,000",
+    "currency": "VND",
+    "as_of": "2026-05"
+   }
+  ],
+  "detail": "partial",
+  "recency": "2024+",
+  "south_stay": false,
+  "south_visit": false,
+  "bias": null
+ },
+ {
+  "id": "en-004",
+  "source_url": "https://www.trvlogue.com/en/kiss-sea-phu-quoc-review",
+  "source_title": "Kiss of the Sea Phu Quoc Review (family of seven) plus Hon Thom cable car guide from same author",
+  "source_type": "blog",
+  "language": "en",
+  "published": "2026-07",
+  "trip_date": null,
+  "traveler_type": "parents",
+  "group_size": 7,
+  "nights": null,
+  "stays": [
+   {
+    "region": "south",
+    "area": "Sunset Town area (hotel not named)",
+    "hotel": null,
+    "nights": null
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "afternoon",
+      "place": "Massage",
+      "category": "massage",
+      "region": "south",
+      "note": "Relaxing massage before the show"
+     },
+     {
+      "slot": "evening",
+      "place": "Sunset Town walk",
+      "category": "sight",
+      "region": "south",
+      "note": "Skipped pre-show dinner, just strolled"
+     },
+     {
+      "slot": "night",
+      "place": "Kiss of the Sea",
+      "category": "show",
+      "region": "south",
+      "note": "9pm show, about 30 minutes, big fireworks finale"
+     },
+     {
+      "slot": "night",
+      "place": "Steak dinner near hotel",
+      "category": "food",
+      "region": "south",
+      "note": "Ate after crowded exit"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Smooth entry with QR code",
+   "Trampoline acrobatics segment",
+   "Fireworks finale"
+  ],
+  "disliked": [
+   "Front rows too close and loud for parents",
+   "Flashing lights tiring for elders",
+   "Crowded exit after show",
+   "Little to see on Hon Thom if skipping water park"
+  ],
+  "tips": [
+   "Book online ahead",
+   "Arrive 30 minutes early",
+   "Sit middle-back, off-centre if noise-sensitive",
+   "Snacks allowed during show"
+  ],
+  "satisfaction": "medium",
+  "satisfaction_basis": "Enjoyed finale and ride but noise, crowds and simple story noted; affiliate links present",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": true,
+   "hopping": false,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": true,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": false,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [
+   {
+    "item": "Kiss of the Sea online ticket",
+    "price": "19",
+    "currency": "USD",
+    "as_of": "2026-07"
+   },
+   {
+    "item": "Kiss of the Sea at gate",
+    "price": "32",
+    "currency": "USD",
+    "as_of": "2026-07"
+   }
+  ],
+  "verification": "2026-11-01 원문 대조: 케이블카 내용은 원문에 없어 삭제",
+  "detail": "partial",
+  "recency": "2024+",
+  "south_stay": true,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "id": "en-005",
+  "source_url": "https://www.timeout.com/asia/news/i-visited-one-of-the-best-islands-in-asia-and-found-a-mediterranean-dreamscape-in-vietnam-120425",
+  "source_title": "Time Out: I visited one of the best islands in Asia (La Festa, Sunset Town)",
+  "source_type": "news",
+  "language": "en",
+  "published": "2025-12",
+  "trip_date": null,
+  "traveler_type": "unknown",
+  "group_size": null,
+  "nights": null,
+  "stays": [
+   {
+    "region": "south",
+    "area": "Sunset Town beachfront",
+    "hotel": "La Festa Phu Quoc, Curio Collection by Hilton",
+    "nights": null
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Hon Thom cable car and Aquatopia",
+      "category": "activity",
+      "region": "south",
+      "note": "Aquatopia best in morning before queues"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Il Salone coffee workshop",
+      "category": "cafe",
+      "region": "south",
+      "note": "Hotel-organised coffee class"
+     },
+     {
+      "slot": "evening",
+      "place": "Kiss Bridge and Kiss of the Sea",
+      "category": "show",
+      "region": "south",
+      "note": "Praised bridge and show"
+     },
+     {
+      "slot": "night",
+      "place": "Luna Folk drinks",
+      "category": "cafe",
+      "region": "south",
+      "note": "Evening drinks"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Uncrowded beach",
+   "Sunset Town architecture and atmosphere",
+   "Kiss of the Sea show",
+   "Variety of food"
+  ],
+  "disliked": [],
+  "tips": [
+   "Visit Aquatopia in morning, leave before 4pm cable car queue",
+   "Visa-free entry, many direct flights"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "Wholly positive, but reads as hosted or promotional content",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": true,
+   "hopping": false,
+   "cable_car": true,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": true,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": false,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [],
+  "detail": "partial",
+  "recency": "2024+",
+  "south_stay": true,
+  "south_visit": true,
+  "bias": "branded_content"
+ },
+ {
+  "id": "en-006",
+  "source_url": "https://www.lonelyplanet.com/articles/phu-quoc-week-itinerary",
+  "source_title": "Copy My Trip: A Phu Quoc Beach Escape (Lonely Planet editor, hosted trip)",
+  "source_type": "news",
+  "language": "en",
+  "published": "2024-07",
+  "trip_date": null,
+  "traveler_type": "unknown",
+  "group_size": null,
+  "nights": null,
+  "stays": [
+   {
+    "region": "south",
+    "area": "Sunset Town",
+    "hotel": "La Festa Phu Quoc",
+    "nights": null
+   },
+   {
+    "region": "south",
+    "area": "Khem Beach",
+    "hotel": "JW Marriott Phu Quoc Emerald Bay",
+    "nights": null
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "afternoon",
+      "place": "Flight from Saigon, Sunset Town walk",
+      "category": "transport",
+      "region": "south",
+      "note": "One-hour flight then explored Sunset Town"
+     },
+     {
+      "slot": "evening",
+      "place": "Kiss of the Sea and night market",
+      "category": "show",
+      "region": "south",
+      "note": "Show and fireworks, then Sunset Town night market"
+     },
+     {
+      "slot": "night",
+      "place": "Pink Pearl dinner",
+      "category": "food",
+      "region": "south",
+      "note": "Praised meal"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Hon Thom cable car and Sun World",
+      "category": "activity",
+      "region": "south",
+      "note": "Cable car plus sea walking"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "afternoon",
+      "place": "Khem Beach at JW Marriott",
+      "category": "beach",
+      "region": "south",
+      "note": "Beach time at end of Khem"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Sunset Town more authentic than expected",
+   "Both hotels' design",
+   "Khem Beach location",
+   "Cable car ride and Kiss of the Sea",
+   "Pink Pearl meal"
+  ],
+  "disliked": [],
+  "tips": [
+   "Split time between Duong Dong and southern beaches",
+   "Stay in Sunset Town mini hotels to save money",
+   "Look for bundles with show and Hon Thom day"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "Positive throughout, author initially doubtful then won over; hosted by Sun Group",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": true,
+   "hopping": false,
+   "cable_car": true,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": true,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [
+   {
+    "item": "Hon Thom day: cable car, park entry, buffet lunch (adult)",
+    "price": "1,000,000",
+    "currency": "VND",
+    "as_of": "2024-07"
+   }
+  ],
+  "detail": "partial",
+  "recency": "2024+",
+  "south_stay": true,
+  "south_visit": true,
+  "bias": "editorial"
+ },
+ {
+  "id": "en-007",
+  "source_url": "https://www.magnificentworld.com/things-to-do-in-phu-quoc/",
+  "source_title": "7 Interesting Things To Do in Phu Quoc (Polish couple, one week)",
+  "source_type": "blog",
+  "language": "en",
+  "published": null,
+  "trip_date": null,
+  "traveler_type": "couple",
+  "group_size": 2,
+  "nights": null,
+  "stays": [
+   {
+    "region": "central",
+    "area": "Long Beach",
+    "hotel": "Sonaga Beach Resort & Villas",
+    "nights": null
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "afternoon",
+      "place": "Hon Thom cable car (closed for maintenance)",
+      "category": "activity",
+      "region": "south",
+      "note": "Planned but unavailable"
+     },
+     {
+      "slot": "sunset",
+      "place": "Sunset Town",
+      "category": "sight",
+      "region": "south",
+      "note": "Italian-style architecture, beach and cafes"
+     },
+     {
+      "slot": "evening",
+      "place": "Grand World gondola, show, fountains",
+      "category": "show",
+      "region": "north",
+      "note": "Lights and fountains enjoyed"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Vinpearl Safari",
+      "category": "activity",
+      "region": "north",
+      "note": "Lions seen close from safari bus"
+     },
+     {
+      "slot": "afternoon",
+      "place": "VinWonders",
+      "category": "activity",
+      "region": "north",
+      "note": "Theme park, aquapark, oceanarium; hot and tiring"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Pepper farm tasting",
+      "category": "tour",
+      "region": "island",
+      "note": "Enjoyed tasting"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Starfish Beach",
+      "category": "beach",
+      "region": "north",
+      "note": "Clear water but rough road, dead starfish"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Scooter riding through villages",
+   "Pepper tasting",
+   "Safari bus with lions",
+   "Grand World lights",
+   "Hotel breakfast"
+  ],
+  "disliked": [
+   "Cable car closed",
+   "Bad road to Starfish Beach, about 1 hour for 10 km",
+   "Sunburn and heat",
+   "Tourists removing starfish"
+  ],
+  "tips": [
+   "Highest SPF and long sleeves for scooter",
+   "Use Grab",
+   "Dry season Dec-Mar",
+   "Free tourist buses to major sites",
+   "Seven days too short; plan 10-14"
+  ],
+  "satisfaction": "medium",
+  "satisfaction_basis": "Enjoyed most activities but cable car closed and week felt too short; day order is illustrative only",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": true,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": true,
+   "grab_taxi": true,
+   "night_market": true,
+   "safari_vinwonders": true
+  },
+  "prices_mentioned": [],
+  "detail": "partial",
+  "recency": "unknown",
+  "south_stay": false,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "id": "en-008",
+  "source_url": "https://explorertom.com/en/is-phu-quoc-worth-visiting/",
+  "source_title": "Is Phu Quoc Worth Visiting? My Honest Take After Two Trips",
+  "source_type": "blog",
+  "language": "en",
+  "published": "2026-10",
+  "trip_date": "2026-05",
+  "traveler_type": "solo",
+  "group_size": null,
+  "nights": 9,
+  "stays": [
+   {
+    "region": "central",
+    "area": "Long Beach / Duong Dong (hotel not named)",
+    "hotel": null,
+    "nights": null
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Sao Beach",
+      "category": "beach",
+      "region": "south",
+      "note": "Favourite beach, about an hour from Duong Dong"
+     },
+     {
+      "slot": "sunset",
+      "place": "Sunset Town",
+      "category": "sight",
+      "region": "south",
+      "note": "Evening livelier than on first visit"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "DT973 scooter ride and Suoi Tien trail",
+      "category": "activity",
+      "region": "north",
+      "note": "Quiet green road; trail slippery when wet"
+     },
+     {
+      "slot": "evening",
+      "place": "Duong Dong restaurants",
+      "category": "food",
+      "region": "central",
+      "note": "Convenient and reasonably priced"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Sao Beach sand and water",
+   "Quiet green DT973 ride",
+   "Free unplanned days",
+   "Sunset Town improved since 2023"
+  ],
+  "disliked": [
+   "Sunset Town and Grand World feel artificial",
+   "Paying separately for dinner trips from base",
+   "Slippery trail in wet weather"
+  ],
+  "tips": [
+   "Five days for first visit, week for more beach",
+   "Stay near Long Beach first time",
+   "Count usable days, late arrivals shorten stay",
+   "Arrange return transport for remote outings",
+   "Dry season Nov-Apr"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "Author says second trip was much more enjoyable; day split is loose, nights approximate from ten days",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": true,
+   "hopping": false,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": true,
+   "grab_taxi": true,
+   "night_market": false,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [],
+  "detail": "partial",
+  "recency": "2024+",
+  "south_stay": false,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "id": "en-009",
+  "source_url": "https://ph.trip.com/moments/poi-turtle-head-vpl-142892833",
+  "source_title": "Trip.com Moments: Phu Quoc Island 4 Days Living The Beach Life (user fhye)",
+  "source_type": "forum",
+  "language": "en",
+  "published": null,
+  "trip_date": null,
+  "traveler_type": "unknown",
+  "group_size": null,
+  "nights": 3,
+  "stays": [
+   {
+    "region": "south",
+    "area": "Sunset Town (a second, unnamed hotel was used later)",
+    "hotel": "Coastal Living Hotel Phu Quoc",
+    "nights": null
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "sunset",
+      "place": "Sunset Town golden hour",
+      "category": "sight",
+      "region": "south",
+      "note": "Photogenic streets at golden hour"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Hon Thom cable car",
+      "category": "activity",
+      "region": "south",
+      "note": "Aerial bay views"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "VinWonders and Vinpearl Safari",
+      "category": "activity",
+      "region": "north",
+      "note": "Aquarium tunnel and animals, a big yes"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Island hopping",
+      "category": "tour",
+      "region": "island",
+      "note": "Swimming and white-sand beach stops"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Helpful staff, early check-in easy",
+   "New clean rooms, some with fireworks views",
+   "Hotel close to cable car, Kiss Bridge, night market",
+   "Pho and fresh seafood"
+  ],
+  "disliked": [
+   "Some drivers did not know hotel location"
+  ],
+  "tips": [
+   "Check weather forecast",
+   "Book major attractions early",
+   "Give drivers exact hotel address",
+   "Consider switching hotels as sights are spread out"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "Enthusiastic post with only a minor driver complaint",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": true,
+   "cable_car": true,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": true,
+   "night_market": true,
+   "safari_vinwonders": true
+  },
+  "prices_mentioned": [],
+  "detail": "partial",
+  "recency": "unknown",
+  "south_stay": true,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "id": "en-010",
+  "source_url": "https://ph.trip.com/moments/poi-khem-beach-36232051",
+  "source_title": "Trip.com Moments: 3 days 4 nights north/south split plan (user Agarkova Anastasiia)",
+  "source_type": "forum",
+  "language": "en",
+  "published": null,
+  "trip_date": null,
+  "traveler_type": "unknown",
+  "group_size": null,
+  "nights": 3,
+  "stays": [
+   {
+    "region": "central",
+    "area": "Hotel with pool (not named)",
+    "hotel": null,
+    "nights": null
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": "afternoon",
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Vinpearl Safari",
+      "category": "activity",
+      "region": "north",
+      "note": "Giraffe feeding"
+     },
+     {
+      "slot": "evening",
+      "place": "Grand World fountain show",
+      "category": "show",
+      "region": "north",
+      "note": "Afternoon and evening at Grand World"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Hon Thom cable car and water park",
+      "category": "activity",
+      "region": "south",
+      "note": "Full south day"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Khem Beach",
+      "category": "beach",
+      "region": "south",
+      "note": "Beach before evening"
+     },
+     {
+      "slot": "evening",
+      "place": "Sunset Town night market and Kiss of the Sea",
+      "category": "show",
+      "region": "south",
+      "note": "Show not on Tuesdays"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Hotel pool",
+      "category": "rest",
+      "region": "central",
+      "note": "Relaxed morning"
+     },
+     {
+      "slot": "sunset",
+      "place": "Sunset Sanato",
+      "category": "beach",
+      "region": "central",
+      "note": "Sunset spot"
+     },
+     {
+      "slot": "evening",
+      "place": "Duong Dong Night Market",
+      "category": "food",
+      "region": "central",
+      "note": "Dinner and stalls"
+     }
+    ]
+   },
+   {
+    "day": 4,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "King Kong Mart shopping and massage",
+      "category": "shopping",
+      "region": "central",
+      "note": "Last-day shopping"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Airport",
+      "category": "transport",
+      "region": "central",
+      "note": "Departure"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Many photo spots",
+   "Dividing days by area"
+  ],
+  "disliked": [
+   "Long drives between areas"
+  ],
+  "tips": [
+   "Hire a driver for long transfer days",
+   "Kiss of the Sea does not run Tuesdays",
+   "Good weather reportedly Nov-Aug (hearsay)"
+  ],
+  "satisfaction": "medium",
+  "satisfaction_basis": "Positive on sights but notes long drives; short post, departure time inferred loosely",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": true,
+   "hopping": false,
+   "cable_car": true,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": true,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": true,
+   "safari_vinwonders": true
+  },
+  "prices_mentioned": [],
+  "detail": "rich",
+  "recency": "unknown",
+  "south_stay": false,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "id": "en-011",
+  "source_url": "https://ph.trip.com/moments/poi-khem-beach-36232051",
+  "source_title": "Trip.com Moments: Sunset Town 3-day plan (user Nara Travel Notes)",
+  "source_type": "forum",
+  "language": "en",
+  "published": null,
+  "trip_date": null,
+  "traveler_type": "unknown",
+  "group_size": null,
+  "nights": null,
+  "stays": [
+   {
+    "region": "south",
+    "area": "Sunset Town base",
+    "hotel": null,
+    "nights": null
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "afternoon",
+      "place": "Sunset Town walk",
+      "category": "sight",
+      "region": "south",
+      "note": "Wander streets"
+     },
+     {
+      "slot": "sunset",
+      "place": "Kiss Bridge",
+      "category": "sight",
+      "region": "south",
+      "note": "Sunset from bridge"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Hon Thom cable car",
+      "category": "activity",
+      "region": "south",
+      "note": "Go around 10:00 to 10:30"
+     },
+     {
+      "slot": "evening",
+      "place": "Evening shows in Sunset Town",
+      "category": "show",
+      "region": "south",
+      "note": "Shows after island day"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "afternoon",
+      "place": "Khem Beach",
+      "category": "beach",
+      "region": "south",
+      "note": "Beach time"
+     },
+     {
+      "slot": "night",
+      "place": "Symphony of the Sea",
+      "category": "show",
+      "region": "south",
+      "note": "Show to close trip"
+     }
+    ]
+   }
+  ],
+  "liked": [],
+  "disliked": [],
+  "tips": [
+   "Buy show tickets online ahead",
+   "Same poster later praised 3 nights at JW Marriott Emerald Bay: shell pool, free shuttle"
+  ],
+  "satisfaction": "unknown",
+  "satisfaction_basis": "Post is a plan outline without stated opinions on the plan",
+  "mentions": {
+   "symphony_of_the_sea": true,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": true,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": false,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [],
+  "detail": "partial",
+  "recency": "unknown",
+  "south_stay": true,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "id": "en-012",
+  "source_url": "https://ph.trip.com/moments/poi-khem-beach-36232051",
+  "source_title": "Trip.com Moments: southern Phu Quoc one-day pattern (user Daryavna)",
+  "source_type": "forum",
+  "language": "en",
+  "published": null,
+  "trip_date": null,
+  "traveler_type": "unknown",
+  "group_size": null,
+  "nights": null,
+  "stays": [
+   {
+    "region": "south",
+    "area": "Southern Phu Quoc (taxi back at night)",
+    "hotel": null,
+    "nights": null
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Khem Beach 11:00-14:00",
+      "category": "beach",
+      "region": "south",
+      "note": "Calm sea swim"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Rest break",
+      "category": "rest",
+      "region": "south",
+      "note": "Mid-day rest"
+     },
+     {
+      "slot": "sunset",
+      "place": "Sunset Town promenade",
+      "category": "sight",
+      "region": "south",
+      "note": "Mediterranean architecture at sunset"
+     },
+     {
+      "slot": "night",
+      "place": "Kiss of the Sea and fireworks 21:00",
+      "category": "show",
+      "region": "south",
+      "note": "Fireworks enjoyed; taxi back"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Calm sea at Khem",
+   "Mediterranean-style architecture",
+   "Fireworks"
+  ],
+  "disliked": [],
+  "tips": [
+   "Pre-book taxis in peak season",
+   "Waves stronger Nov-Feb, calmer Apr-Sep"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "Only positive remarks, no complaints",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": true,
+   "hopping": false,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": true,
+   "night_market": false,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [],
+  "detail": "partial",
+  "recency": "unknown",
+  "south_stay": true,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "id": "en-013",
+  "source_url": "https://ph.trip.com/moments/detail/long-beach-1445252-132160057",
+  "source_title": "Trip.com Moments: 3-day Regent / Sunset Town trip (user aidenriver)",
+  "source_type": "forum",
+  "language": "en",
+  "published": "2025-05",
+  "trip_date": null,
+  "traveler_type": "unknown",
+  "group_size": null,
+  "nights": 2,
+  "stays": [
+   {
+    "region": "central",
+    "area": "Long Beach",
+    "hotel": "Phu Quoc Regent Hotel",
+    "nights": null
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "afternoon",
+      "place": "Long Beach and hotel check-in",
+      "category": "checkin",
+      "region": "central",
+      "note": "Relaxed at beach and infinity pool"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Starfish Beach",
+      "category": "beach",
+      "region": "north",
+      "note": "Day trip out from Long Beach"
+     },
+     {
+      "slot": "evening",
+      "place": "Sunset Town and sea fireworks",
+      "category": "show",
+      "region": "south",
+      "note": "Free fireworks show"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Sunset Town return, cross-sea cable car",
+      "category": "activity",
+      "region": "south",
+      "note": "Visit before noon for deep blue sea"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Free sea fireworks",
+   "Cable car views",
+   "Hotel infinity pool and sea-view rooms",
+   "Breakfast with 270-degree view"
+  ],
+  "disliked": [],
+  "tips": [
+   "Visit Sunset Town before noon for blue sea photos",
+   "Rain showers brief in rainy season",
+   "Try squid hotpot at Nha Xua 68"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "Entirely positive post with no complaints",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": true,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": false,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [],
+  "detail": "partial",
+  "recency": "2024+",
+  "south_stay": false,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "id": "en-014",
+  "source_url": "https://uk.trip.com/moments/poi-teddy-bear-museum-137926082",
+  "source_title": "Trip.com Moments: 4D3N Malaysian family, Sunset Town then Grand World (user In2 the Journey)",
+  "source_type": "forum",
+  "language": "en",
+  "published": null,
+  "trip_date": null,
+  "traveler_type": "family_kids",
+  "group_size": null,
+  "nights": 3,
+  "stays": [
+   {
+    "region": "south",
+    "area": "Sunset Town area",
+    "hotel": "We Young Apartment by Hof's",
+    "nights": null
+   },
+   {
+    "region": "north",
+    "area": "Inside Grand World",
+    "hotel": "The Sol Homestay",
+    "nights": null
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Duong Dong Town and supermarket stop",
+      "category": "shopping",
+      "region": "central",
+      "note": "Passed through town and VuiFest"
+     },
+     {
+      "slot": "evening",
+      "place": "Sunset Town and Kiss Bridge",
+      "category": "sight",
+      "region": "south",
+      "note": "Watched 9:30pm fireworks from apartment balcony"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Hon Thom cable car and Aquatopia",
+      "category": "activity",
+      "region": "south",
+      "note": "Full day on Hon Thom"
+     },
+     {
+      "slot": "evening",
+      "place": "Grand World and night show",
+      "category": "show",
+      "region": "north",
+      "note": "Moved to homestay inside Grand World"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Fireworks from balcony",
+   "Walkable homestay inside Grand World"
+  ],
+  "disliked": [],
+  "tips": [
+   "Stay inside Grand World to walk to museum and show"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "Positive highlights, no complaints noted",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": true,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": true,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": true,
+   "night_market": false,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [
+   {
+    "item": "Cable car per person",
+    "price": "135.54",
+    "currency": "MYR",
+    "as_of": null
+   },
+   {
+    "item": "We Young Apartment per night",
+    "price": "277.27",
+    "currency": "MYR",
+    "as_of": null
+   },
+   {
+    "item": "Massage",
+    "price": "450,000",
+    "currency": "VND",
+    "as_of": null
+   }
+  ],
+  "detail": "partial",
+  "recency": "unknown",
+  "south_stay": true,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "id": "en-015",
+  "source_url": "https://uk.trip.com/moments/poi-teddy-bear-museum-137926082",
+  "source_title": "Trip.com Moments: 5D4N self-guided trip from Thailand (user VJEN. T)",
+  "source_type": "forum",
+  "language": "en",
+  "published": null,
+  "trip_date": "2026-07",
+  "traveler_type": "unknown",
+  "group_size": null,
+  "nights": 4,
+  "stays": [
+   {
+    "region": "north",
+    "area": "North zone",
+    "hotel": "The Sol Hotel",
+    "nights": null
+   },
+   {
+    "region": "south",
+    "area": "Near Hon Thom cable car station",
+    "hotel": "Lotus Home & Cafe",
+    "nights": null
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Free VinBus to VinWonders / Vinpearl Safari",
+      "category": "activity",
+      "region": "north",
+      "note": "Two-day pass covered park days"
+     },
+     {
+      "slot": "evening",
+      "place": "Grand World",
+      "category": "sight",
+      "region": "north",
+      "note": "Evening walk"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Hon Thom cable car",
+      "category": "activity",
+      "region": "south",
+      "note": "South days after moving hotels"
+     },
+     {
+      "slot": "evening",
+      "place": "Sunset Town, Kiss Bridge, VUI Fest",
+      "category": "sight",
+      "region": "south",
+      "note": "Evening in Sunset Town"
+     }
+    ]
+   },
+   {
+    "day": 5,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Central zone shopping",
+      "category": "shopping",
+      "region": "central",
+      "note": "Last-day shopping"
+     }
+    ]
+   }
+  ],
+  "liked": [],
+  "disliked": [],
+  "tips": [
+   "Use free VinBus in the north",
+   "Use Grab for transfers"
+  ],
+  "satisfaction": "unknown",
+  "satisfaction_basis": "Post only lists plan and costs, no opinions",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": true,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": true,
+   "night_market": false,
+   "safari_vinwonders": true
+  },
+  "prices_mentioned": [
+   {
+    "item": "Cable car per person",
+    "price": "797",
+    "currency": "THB",
+    "as_of": "2026-07"
+   },
+   {
+    "item": "Two-day park pass per person",
+    "price": "1,719",
+    "currency": "THB",
+    "as_of": "2026-07"
+   },
+   {
+    "item": "Total trip per person excluding shopping",
+    "price": "16,037",
+    "currency": "THB",
+    "as_of": "2026-07"
+   }
+  ],
+  "detail": "partial",
+  "recency": "2024+",
+  "south_stay": true,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "id": "en-016",
+  "source_url": "https://uk.trip.com/moments/poi-teddy-bear-museum-137926082",
+  "source_title": "Trip.com Moments: 5-day Crowne Plaza Star Bay trip (user E36***86)",
+  "source_type": "forum",
+  "language": "en",
+  "published": null,
+  "trip_date": null,
+  "traveler_type": "unknown",
+  "group_size": null,
+  "nights": 4,
+  "stays": [
+   {
+    "region": "north",
+    "area": "Northernmost coast",
+    "hotel": "Crowne Plaza Phu Quoc Starbay",
+    "nights": 4
+   }
+  ],
+  "arrival_time": "late",
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "night",
+      "place": "Squid pot dinner",
+      "category": "food",
+      "region": "north",
+      "note": "Late arrival dinner"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "afternoon",
+      "place": "Grand World and Teddy Bear Museum",
+      "category": "sight",
+      "region": "north",
+      "note": "Standard north day"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "lunch",
+      "place": "The Home Pizza",
+      "category": "food",
+      "region": "central",
+      "note": "Pizza praised"
+     },
+     {
+      "slot": "evening",
+      "place": "Night market and KingKong supermarket",
+      "category": "shopping",
+      "region": "central",
+      "note": "Evening shopping"
+     }
+    ]
+   },
+   {
+    "day": 4,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Sunset Town",
+      "category": "sight",
+      "region": "south",
+      "note": "Long transfer from far north"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Sun World cable car",
+      "category": "activity",
+      "region": "south",
+      "note": "Return queue crowded around 5pm"
+     }
+    ]
+   },
+   {
+    "day": 5,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Airport",
+      "category": "transport",
+      "region": "north",
+      "note": "Departure"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Clean rooms and sea view",
+   "Pizza, avocado smoothie, egg coffee"
+  ],
+  "disliked": [
+   "Remote north base, 30+ minute transfers each way",
+   "Cable car return queue near 5pm"
+  ],
+  "tips": [
+   "Buy attraction tickets on Trip.com for lower price",
+   "Last cable car at 17:30"
+  ],
+  "satisfaction": "medium",
+  "satisfaction_basis": "Liked room and food but complained about remote location and queues",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": true,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": true,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [
+   {
+    "item": "Hotel buffet dinner per person",
+    "price": "240",
+    "currency": "HKD",
+    "as_of": null
+   },
+   {
+    "item": "Massage per person",
+    "price": "200",
+    "currency": "HKD",
+    "as_of": null
+   }
+  ],
+  "detail": "partial",
+  "recency": "unknown",
+  "south_stay": false,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "id": "en-017",
+  "source_url": "https://www.goatsontheroad.com/?p=160562",
+  "source_title": "Goats on the Road: Phu Quoc area guide (Hannah Bull, three weeks in Sonasea)",
+  "source_type": "blog",
+  "language": "en",
+  "published": "2024-09",
+  "trip_date": "2024-09",
+  "traveler_type": "solo",
+  "group_size": 1,
+  "nights": 21,
+  "stays": [
+   {
+    "region": "central",
+    "area": "Sonasea (pet-sitting house)",
+    "hotel": null,
+    "nights": null
+   },
+   {
+    "region": "central",
+    "area": "Sonasea",
+    "hotel": "Kosmos Apart Hotel",
+    "nights": null
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "afternoon",
+      "place": "Speedboat island-hopping tour",
+      "category": "tour",
+      "region": "island",
+      "note": "Booked from Duong Dong"
+     },
+     {
+      "slot": "evening",
+      "place": "Dinh Cau Night Market",
+      "category": "food",
+      "region": "central",
+      "note": "Street food tour also done"
+     },
+     {
+      "slot": "evening",
+      "place": "Sonasea night market",
+      "category": "food",
+      "region": "central",
+      "note": "Ranked among favourite Vietnam night markets"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Clean calm Sonasea beaches",
+   "Sonasea night market with rock-bottom prices",
+   "Best Western Premier lobby for work"
+  ],
+  "disliked": [
+   "Few Western amenities, no big supermarkets",
+   "Most activities need transport from Sonasea",
+   "Busy resort streets in high season"
+  ],
+  "tips": [
+   "Buses and cheap taxis link the island",
+   "Do a food tour if menus lack English",
+   "Plan at least 3-5 days"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "Stayed three weeks and did not want to leave; day order is not chronological",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": true,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": true,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [],
+  "detail": "partial",
+  "recency": "2024+",
+  "south_stay": false,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "id": "vi-001",
+  "source_url": "https://cuongdulich.com/dia-diem/3033-du-lich-phu-quoc-3-ngay-2-dem.html",
+  "source_title": "Kinh nghiệm du lịch Phú Quốc 3 ngày 2 đêm đầy đủ và chi tiết nhất",
+  "source_type": "blog",
+  "language": "vi",
+  "published": null,
+  "trip_date": null,
+  "traveler_type": "group",
+  "group_size": 7,
+  "nights": 2,
+  "stays": [
+   {
+    "region": "north",
+    "area": "Grand World area (unnamed hotel/homestay)",
+    "hotel": null,
+    "nights": 1
+   },
+   {
+    "region": "central",
+    "area": "Mercury Resort (area not stated)",
+    "hotel": "Mercury Resort Phu Quoc",
+    "nights": 1
+   }
+  ],
+  "arrival_time": "morning",
+  "departure_time": "afternoon",
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Grand World",
+      "category": "sight",
+      "region": "north",
+      "note": "차량 대절 후 약 30분 짧게 들름"
+     },
+     {
+      "slot": "lunch",
+      "place": "VinWonders / Magic of Giza",
+      "category": "food",
+      "region": "north",
+      "note": "VinWonders 입장 후 세트 점심"
+     },
+     {
+      "slot": "evening",
+      "place": "Once show",
+      "category": "show",
+      "region": "north",
+      "note": "VinWonders 야간 공연 관람"
+     },
+     {
+      "slot": "night",
+      "place": "Grand World shows (Tinh Hoa Viet Nam, Venice)",
+      "category": "show",
+      "region": "north",
+      "note": "전동카트로 이동해 두 공연 연속 관람"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "early_morning",
+      "place": "An Thoi port -> Hon Thom cable car",
+      "category": "transport",
+      "region": "south",
+      "note": "07시 체크아웃 후 70분 이동, 케이블카 탑승"
+     },
+     {
+      "slot": "morning",
+      "place": "Island boat tour (Mong Tay, Gam Ghi, May Rut)",
+      "category": "tour",
+      "region": "island",
+      "note": "섬 5곳 보트투어, 감기 섬에서 스노클링"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Hon Thom water park",
+      "category": "activity",
+      "region": "south",
+      "note": "14:30경 도착, 16:15 퇴장해 막차 17시 탑승"
+     },
+     {
+      "slot": "evening",
+      "place": "Bun quay Kien Xay / night market",
+      "category": "food",
+      "region": "central",
+      "note": "리조트 복귀 전 쌀국수 저녁과 야시장"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Beach swim / ruoc collecting",
+      "category": "beach",
+      "region": "central",
+      "note": "아침 해변에서 수영과 작은 새우 채집"
+     },
+     {
+      "slot": "morning",
+      "place": "Ngoc Hien pearl farm, Sim Son wine shop",
+      "category": "shopping",
+      "region": "central",
+      "note": "체크아웃 후 진주농장과 시무화주 가게"
+     },
+     {
+      "slot": "lunch",
+      "place": "Hanh Nhung restaurant",
+      "category": "food",
+      "region": "central",
+      "note": "11:30 점심 후 13:30 공항으로 출발"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Tinh Hoa Viet Nam과 Once 공연이 좋았음",
+   "Gam Ghi 섬의 맑은 물과 산호",
+   "진주농장 방문이 만족스러움",
+   "분꿔이 식당 저렴하고 맛있음"
+  ],
+  "disliked": [
+   "Hon Thom 매표소가 하나라 수령이 느림",
+   "Grand World 숙박 조식이 비싸고 방이 좁음",
+   "보트 멀미 가능성"
+  ],
+  "tips": [
+   "성수기엔 숙소를 1~2주 전 예약",
+   "공연은 15~30분 일찍 가서 좋은 자리 확보",
+   "케이블카 티켓은 안터이에서 미리 수령",
+   "보트는 앞쪽 좌석이 빨리 내림"
+  ],
+  "satisfaction": "unknown",
+  "satisfaction_basis": "전체 평가 문장 없음, 좋았던 점 위주로 서술하고 불만은 소소함",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": true,
+   "cable_car": true,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": true,
+   "safari_vinwonders": true
+  },
+  "prices_mentioned": [
+   {
+    "item": "VinWonders adult",
+    "price": "950,000",
+    "currency": "VND",
+    "as_of": "2023"
+   },
+   {
+    "item": "Hon Thom cable car one way adult",
+    "price": "500,000",
+    "currency": "VND",
+    "as_of": "2023"
+   },
+   {
+    "item": "Tinh Hoa Viet Nam show adult",
+    "price": "300,000",
+    "currency": "VND",
+    "as_of": "2023"
+   }
+  ],
+  "detail": "rich",
+  "recency": "unknown",
+  "south_stay": false,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "id": "vi-002",
+  "source_url": "https://buiphuquoc.com/nam-dao-phu-quoc-co-gi/",
+  "source_title": "Nam đảo Phú Quốc có gì? Review 3 ngày vui chơi cực chill",
+  "source_type": "blog",
+  "language": "vi",
+  "published": "2025-07",
+  "trip_date": "2025-06",
+  "traveler_type": "friends",
+  "group_size": null,
+  "nights": 2,
+  "stays": [
+   {
+    "region": "south",
+    "area": "Near Sunset Town",
+    "hotel": null,
+    "nights": 2
+   }
+  ],
+  "arrival_time": "morning",
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "An Thoi market",
+      "category": "food",
+      "region": "south",
+      "note": "공항 픽업 후 10시경 해산물 국수와 커피"
+     },
+     {
+      "slot": "morning",
+      "place": "Phu Quoc Prison",
+      "category": "sight",
+      "region": "south",
+      "note": "옛 수용소 유적 방문"
+     },
+     {
+      "slot": "lunch",
+      "place": "An Thoi seafood lunch",
+      "category": "food",
+      "region": "south",
+      "note": "게, 오징어구이 등 해산물 점심"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Bai Sao",
+      "category": "beach",
+      "region": "south",
+      "note": "물이 잔잔하고 맑은 해변에서 휴식"
+     },
+     {
+      "slot": "sunset",
+      "place": "Sunset Town",
+      "category": "sight",
+      "region": "south",
+      "note": "17시경 도착해 사진 촬영과 저녁"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "early_morning",
+      "place": "Bai Khem sunrise",
+      "category": "sight",
+      "region": "south",
+      "note": "이른 아침 일출 감상"
+     },
+     {
+      "slot": "morning",
+      "place": "3-island boat tour (Mong Tay, Gam Ghi, May Rut)",
+      "category": "tour",
+      "region": "island",
+      "note": "스노클링과 섬 점심"
+     },
+     {
+      "slot": "sunset",
+      "place": "Kiss Bridge",
+      "category": "sight",
+      "region": "south",
+      "note": "오후 해질녘 키스 브릿지"
+     },
+     {
+      "slot": "evening",
+      "place": "Vui Fest night market + Kiss the Stars show",
+      "category": "show",
+      "region": "south",
+      "note": "야시장 후 공연과 불꽃놀이"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "early_morning",
+      "place": "Hon Thom cable car",
+      "category": "activity",
+      "region": "south",
+      "note": "이른 시간 케이블카 탑승"
+     },
+     {
+      "slot": "morning",
+      "place": "Aquatopia water park + beach",
+      "category": "activity",
+      "region": "island",
+      "note": "워터파크 후 카약, SUP"
+     },
+     {
+      "slot": "lunch",
+      "place": "Seafood buffet on Hon Thom",
+      "category": "food",
+      "region": "island",
+      "note": "섬에서 해산물 뷔페"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Fish sauce factory",
+      "category": "shopping",
+      "region": "central",
+      "note": "공항 가는 길 기념품 쇼핑"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Bai Sao의 맑은 물과 흰 모래",
+   "Gam Ghi 산호와 투명한 바다",
+   "케이블카 전망과 Hon Thom 해변",
+   "저렴하고 신선한 해산물"
+  ],
+  "disliked": [],
+  "tips": [
+   "오토바이 렌트 후 주유소가 적으니 미리 주유",
+   "섬투어와 케이블카는 하루 전 예약",
+   "비 오는 날은 수용소, 사원, Sunset Town 추천"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "불만 없이 전 일정을 긍정적으로 서술 (가이드 업체 작성이라 홍보성 주의)",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": true,
+   "hopping": true,
+   "cable_car": true,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": true,
+   "grab_taxi": false,
+   "night_market": true,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [
+   {
+    "item": "Motorbike rental per day",
+    "price": "150,000-200,000",
+    "currency": "VND",
+    "as_of": "2025-06"
+   }
+  ],
+  "detail": "rich",
+  "recency": "2024+",
+  "south_stay": true,
+  "south_visit": true,
+  "bias": "operator"
+ },
+ {
+  "id": "vi-003",
+  "source_url": "https://phuquocxanh.com/vi/di-du-lich-phu-quoc-2-ngay-1-dem-tu-tuc/",
+  "source_title": "REVIEW chuyến đi Phú Quốc 2 ngày của 1 người LẦN ĐẦU đi tự túc",
+  "source_type": "blog",
+  "language": "vi",
+  "published": "2019-08",
+  "trip_date": null,
+  "traveler_type": "solo",
+  "group_size": 1,
+  "nights": 1,
+  "stays": [
+   {
+    "region": "central",
+    "area": "Duong Dong night market area",
+    "hotel": "Hoa Cat Hotel",
+    "nights": 1
+   }
+  ],
+  "arrival_time": "morning",
+  "departure_time": "afternoon",
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Ha Tien boat arrival + motorbike rental",
+      "category": "transport",
+      "region": "central",
+      "note": "09:30 도착, 오토바이 빌리고 체크인"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Pearl showroom",
+      "category": "shopping",
+      "region": "south",
+      "note": "13시경 진주 매장 구경"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Bai Sao (My Lan section)",
+      "category": "beach",
+      "region": "south",
+      "note": "14:30 해변에서 휴식"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Phu Quoc Prison",
+      "category": "sight",
+      "region": "south",
+      "note": "16:30 수용소 유적 방문"
+     },
+     {
+      "slot": "sunset",
+      "place": "An Thoi sunset",
+      "category": "sight",
+      "region": "south",
+      "note": "17:30 일몰 감상"
+     },
+     {
+      "slot": "evening",
+      "place": "Seafood near Bai Sao",
+      "category": "food",
+      "region": "south",
+      "note": "18:20 현지 해산물 저녁"
+     },
+     {
+      "slot": "night",
+      "place": "Night market",
+      "category": "shopping",
+      "region": "central",
+      "note": "21:30 야시장과 야자당 음료"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Dinh Cau",
+      "category": "sight",
+      "region": "central",
+      "note": "08:00 사당 방문"
+     },
+     {
+      "slot": "morning",
+      "place": "Suoi Tranh",
+      "category": "sight",
+      "region": "central",
+      "note": "약 5km 걸어서 폭포, 물이 거의 없음"
+     },
+     {
+      "slot": "lunch",
+      "place": "Ham Ninh",
+      "category": "food",
+      "region": "central",
+      "note": "점심 후 13시 마지막 배로 출발"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "An Thoi 일몰이 좋았음",
+   "Bai Sao 특히 My Lan 쪽",
+   "관광지 밖 해산물이 저렴",
+   "느긋한 무계획 일정"
+  ],
+  "disliked": [
+   "건기라 Suoi Tranh 물이 적고 혼자 걷기 힘듦",
+   "Bai Sao 리조트 쪽 해산물이 비쌈",
+   "귀가길이 길고 피곤"
+  ],
+  "tips": [
+   "택시보다 오토바이 렌트가 유리",
+   "비수기엔 현장 숙소 구하기 쉬움",
+   "배표는 미리 구입",
+   "선크림 필수"
+  ],
+  "satisfaction": "medium",
+  "satisfaction_basis": "좋았던 점이 많지만 귀가 피로와 폭포 실망 등 불만도 서술",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": true,
+   "grab_taxi": false,
+   "night_market": true,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [
+   {
+    "item": "Total per person",
+    "price": "1,480,000",
+    "currency": "VND",
+    "as_of": "2019-08"
+   },
+   {
+    "item": "Motorbike per day",
+    "price": "150,000",
+    "currency": "VND",
+    "as_of": "2019-08"
+   }
+  ],
+  "detail": "rich",
+  "recency": "old",
+  "south_stay": false,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "id": "vi-004",
+  "source_url": "https://vnexpress.net/chuyen-di-phu-quoc-khien-toi-thay-du-lich-viet-chang-kem-thai-lan-4696195.html",
+  "source_title": "Chuyến đi Phú Quốc khiến tôi thấy du lịch Việt chẳng kém Thái Lan",
+  "source_type": "news",
+  "language": "vi",
+  "published": "2024-01",
+  "trip_date": null,
+  "traveler_type": "family_kids",
+  "group_size": null,
+  "nights": null,
+  "stays": [],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [],
+  "liked": [
+   "해변이 아름답고 서비스와 음식이 좋음",
+   "가족 모두 큰 문제 없이 즐김"
+  ],
+  "disliked": [
+   "성수기 혼잡으로 이동, 보트, 식당 대기 김",
+   "Duong Dong 시내 쓰레기 문제"
+  ],
+  "tips": [
+   "항공권은 일찍 예약",
+   "시내 말고 남부나 북부 리조트 숙박 권장",
+   "연휴 시즌은 가격이 높음"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "문제 없이 서비스와 음식에 만족했다고 서술 (일정표 없음, 가족 동행 여부만 확인)",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": true,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": false,
+   "safari_vinwonders": true
+  },
+  "prices_mentioned": [
+   {
+    "item": "Round-trip flight per person",
+    "price": "~3,000,000",
+    "currency": "VND",
+    "as_of": "2023-09"
+   }
+  ],
+  "detail": "thin",
+  "recency": "2024+",
+  "south_stay": false,
+  "south_visit": false,
+  "bias": null
+ },
+ {
+  "id": "ru-001",
+  "source_url": "https://tophotels.ru/review/2747555",
+  "source_title": "Отзыв о Novotel Phu Quoc Resort (TopHotels)",
+  "source_type": "review_site",
+  "language": "ru",
+  "published": "2025-12",
+  "trip_date": "2025-11",
+  "traveler_type": "couple",
+  "group_size": 2,
+  "nights": 11,
+  "stays": [
+   {
+    "region": "central",
+    "area": "South of Duong Dong, new development area",
+    "hotel": "Novotel Phu Quoc Resort",
+    "nights": 11
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": null,
+    "items": [
+     {
+      "slot": "evening",
+      "place": "Sunset Town",
+      "category": "sight",
+      "region": "south",
+      "note": "저녁 쇼와 불꽃놀이가 좋아 추천"
+     },
+     {
+      "slot": "morning",
+      "place": "Sightseeing tour (temple, shops)",
+      "category": "tour",
+      "region": "unknown",
+      "note": "쇼핑 위주라 시간 낭비로 느낌"
+     },
+     {
+      "slot": "morning",
+      "place": "Island tour (snorkeling, Pineapple Island)",
+      "category": "tour",
+      "region": "island",
+      "note": "스노클링 실망, 케이블카가 하이라이트"
+     },
+     {
+      "slot": "morning",
+      "place": "Safari park",
+      "category": "sight",
+      "region": "north",
+      "note": "동물 관리는 좋으나 시설은 낡음"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Spa",
+      "category": "massage",
+      "region": "unknown",
+      "note": "한 번 이용, 야외 마사지가 더 저렴"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "넓고 푸른 호텔 부지와 수영장",
+   "조식 만족",
+   "해변 입수가 완만",
+   "Sunset Town 저녁 공연"
+  ],
+  "disliked": [
+   "바닷물 탁하고 모래에 쓰레기",
+   "비투숙객이 선베드 사용",
+   "관광 투어가 부실하고 판매 압박",
+   "19번 버스가 느림"
+  ],
+  "tips": [
+   "조식만 예약",
+   "마사지는 호텔 밖이 가성비 좋음",
+   "11월 중순은 날씨 불안정"
+  ],
+  "satisfaction": "medium",
+  "satisfaction_basis": "호텔은 호평이나 해변과 투어에 실망한 불만도 뚜렷함",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": true,
+   "cable_car": true,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": true,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": false,
+   "safari_vinwonders": true
+  },
+  "prices_mentioned": [],
+  "detail": "partial",
+  "recency": "2024+",
+  "south_stay": false,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "id": "ru-002",
+  "source_url": "https://tonkosti.ru/otzyv/Ochen-hochu-syuda-vernutsya_—_o-Fukuoke-269271814",
+  "source_title": "Очень хочу сюда вернуться! Отзыв туриста о Фукуоке",
+  "source_type": "review_site",
+  "language": "ru",
+  "published": "2023-12",
+  "trip_date": "2023-11",
+  "traveler_type": "couple",
+  "group_size": 2,
+  "nights": null,
+  "stays": [
+   {
+    "region": "central",
+    "area": "Near beach, central Phu Quoc",
+    "hotel": "Brenta",
+    "nights": null
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": null,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Khem Beach",
+      "category": "beach",
+      "region": "south",
+      "note": "자유 일정으로 해변 방문"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Safari park",
+      "category": "sight",
+      "region": "north",
+      "note": "기린 먹이주기 체험"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Suoi Trang, Ho Quoc pagoda",
+      "category": "sight",
+      "region": "central",
+      "note": "조용한 폭포와 사원 방문"
+     },
+     {
+      "slot": "evening",
+      "place": "Night market",
+      "category": "shopping",
+      "region": "central",
+      "note": "상품이 반복적이라 아쉬움"
+     },
+     {
+      "slot": "morning",
+      "place": "Private full-day island car tour",
+      "category": "tour",
+      "region": "unknown",
+      "note": "개인 가이드와 관광객 적은 곳 위주"
+     },
+     {
+      "slot": "morning",
+      "place": "Snorkeling group boat",
+      "category": "tour",
+      "region": "island",
+      "note": "운영이 허술했음"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "해변과 맑은 물",
+   "호텔 위치와 음식",
+   "Suoi Trang과 조용한 사원",
+   "무료 공항 셔틀",
+   "개인 가이드 투어"
+  ],
+  "disliked": [
+   "Grand World가 조잡한 세트 같음",
+   "Sunset Sanato 혼잡과 입장료",
+   "야시장 상품 반복",
+   "단체 스노클링 운영 미흡",
+   "가이드 투어 견적이 비쌈"
+  ],
+  "tips": [
+   "여행사 투어는 거절하고 현지 업체 이용",
+   "Grand World보다 사파리 추천",
+   "공항 셔틀이 10~20분마다 운행"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "제목과 본문에서 다시 오고 싶다고 표현, 불만은 일부 시설에 한정",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": true,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": true,
+   "safari_vinwonders": true
+  },
+  "prices_mentioned": [
+   {
+    "item": "Sunset Sanato entry",
+    "price": "100,000",
+    "currency": "VND",
+    "as_of": "2023-11"
+   }
+  ],
+  "detail": "partial",
+  "recency": "old",
+  "south_stay": false,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "id": "ru-003",
+  "source_url": "https://ezdili-znaem.com/sunset-town-phu-quoc/",
+  "source_title": "Что не так с Сансет Тауном в 2026 году: ожидание и реальность",
+  "source_type": "blog",
+  "language": "ru",
+  "published": "2026-02",
+  "trip_date": null,
+  "traveler_type": "unknown",
+  "group_size": null,
+  "nights": null,
+  "stays": [
+   {
+    "region": "south",
+    "area": "Sunset Town",
+    "hotel": "La Festa Phu Quoc",
+    "nights": null
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": null,
+    "items": [
+     {
+      "slot": "afternoon",
+      "place": "Sunset Town streets",
+      "category": "sight",
+      "region": "south",
+      "note": "거리 산책, 건축이 생각보다 탄탄"
+     },
+     {
+      "slot": "sunset",
+      "place": "Sunset Town sunset",
+      "category": "sight",
+      "region": "south",
+      "note": "건물 사이로 보는 일몰"
+     },
+     {
+      "slot": "evening",
+      "place": "Vui Phet night market",
+      "category": "shopping",
+      "region": "south",
+      "note": "케밥 등 야시장 먹거리"
+     },
+     {
+      "slot": "night",
+      "place": "Shows and fireworks from hotel balcony",
+      "category": "show",
+      "region": "south",
+      "note": "호텔 발코니에서 공연과 불꽃놀이 관람"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "걷기 좋고 정돈된 거리",
+   "건축 분위기",
+   "발코니에서 본 불꽃놀이",
+   "조용한 골목과 모자이크 계단"
+  ],
+  "disliked": [
+   "인도에 세워진 오토바이",
+   "네온 간판이 유럽풍과 어울리지 않음",
+   "Kiss Bridge 혼잡과 줄",
+   "셔틀버스 운행 중단 소문"
+  ],
+  "tips": [
+   "바다 쪽 호텔을 잡아 불꽃놀이 감상",
+   "그랩이나 Xanh SM 이용",
+   "케이블카 막차는 17시 전후",
+   "쇼 끝나기 15분 전 택시 호출",
+   "야시장 끝 슈퍼가 더 쌈"
+  ],
+  "satisfaction": "medium",
+  "satisfaction_basis": "하루 계획이 며칠 체류로 늘었으나 불만 항목도 상당함 (제휴 링크 블로그)",
+  "mentions": {
+   "symphony_of_the_sea": true,
+   "kiss_of_the_sea": true,
+   "hopping": false,
+   "cable_car": true,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": true,
+   "grab_taxi": true,
+   "night_market": true,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [
+   {
+    "item": "Cable car adult",
+    "price": "850,000",
+    "currency": "VND",
+    "as_of": "2026"
+   },
+   {
+    "item": "Kiss of the Sea",
+    "price": "1,000,000-1,500,000",
+    "currency": "VND",
+    "as_of": "2026"
+   }
+  ],
+  "detail": "partial",
+  "recency": "2024+",
+  "south_stay": true,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "id": "ru-004",
+  "source_url": "https://otzovik.com/review_6085411.html",
+  "source_title": "Отзыв о Отдых на о. Фукуок (Вьетнам, Кьензянг)",
+  "source_type": "review_site",
+  "language": "ru",
+  "published": "2018-02",
+  "trip_date": "2018-01",
+  "traveler_type": "couple",
+  "group_size": 2,
+  "nights": null,
+  "stays": [
+   {
+    "region": "central",
+    "area": "Long Beach beachfront bungalow",
+    "hotel": null,
+    "nights": null
+   }
+  ],
+  "arrival_time": "afternoon",
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "afternoon",
+      "place": "Arrival on Phu Quoc",
+      "category": "transport",
+      "region": "central",
+      "note": "정오경 도착, 국내선 지연으로 고생"
+     }
+    ]
+   },
+   {
+    "day": null,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Long Beach",
+      "category": "beach",
+      "region": "central",
+      "note": "잔잔한 바다에서 해수욕과 해변 마사지"
+     },
+     {
+      "slot": "sunset",
+      "place": "Sunset cafes",
+      "category": "food",
+      "region": "central",
+      "note": "일몰 보며 해산물 식사"
+     },
+     {
+      "slot": "morning",
+      "place": "Safari park",
+      "category": "sight",
+      "region": "north",
+      "note": "하루 종일 방문"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Pepper farm, Suoi Tranh",
+      "category": "sight",
+      "region": "central",
+      "note": "후추농장 방문, 폭포는 건기라 말라 있음"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "고요하고 맑은 바다",
+   "일몰",
+   "사파리 방목형 운영",
+   "현지인 친절"
+  ],
+  "disliked": [
+   "관광 인프라가 덜 발달해 심심함",
+   "일부 해변이 지저분",
+   "대중교통이 없고 스쿠터 렌트 어려움",
+   "환율과 물가"
+  ],
+  "tips": [
+   "항공사 일정 변경 메일 확인",
+   "환전은 냐짱이나 호치민에서",
+   "푸꾸옥 입국 스탬프 체류 규정 확인"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "5점 만점에 4점 평가하고 지인에게 추천 (2018년 후기라 오래됨)",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": true,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": false,
+   "safari_vinwonders": true
+  },
+  "prices_mentioned": [
+   {
+    "item": "Safari Park",
+    "price": "600,000",
+    "currency": "VND",
+    "as_of": "2018-01"
+   }
+  ],
+  "detail": "partial",
+  "recency": "old",
+  "south_stay": false,
+  "south_visit": false,
+  "bias": null
+ },
+ {
+  "id": "ru-005",
+  "source_url": "https://tudam.ru/2018/08/11/puteshestvie-po-vetnamu-fukuok/",
+  "source_title": "Путешествие по Вьетнаму: Фукуок",
+  "source_type": "blog",
+  "language": "ru",
+  "published": "2018-08",
+  "trip_date": "2018-07",
+  "traveler_type": "friends",
+  "group_size": null,
+  "nights": null,
+  "stays": [
+   {
+    "region": "central",
+    "area": "Guesthouse village outside Duong Dong",
+    "hotel": "Phu Quoc Peace Resort",
+    "nights": null
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "afternoon",
+      "place": "Rach Gia ferry to Phu Quoc",
+      "category": "transport",
+      "region": "unknown",
+      "note": "버스 후 항구 대기, 배로 약 2.5시간"
+     },
+     {
+      "slot": "evening",
+      "place": "Taxi from remote pier to Duong Dong",
+      "category": "transport",
+      "region": "central",
+      "note": "대중교통 없어 택시로 이동"
+     }
+    ]
+   },
+   {
+    "day": null,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Duong Dong town beach, market, fishing port",
+      "category": "sight",
+      "region": "central",
+      "note": "매일 시장과 항구를 걸어 구경"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Long Beach walk",
+      "category": "beach",
+      "region": "central",
+      "note": "한적한 해변을 남쪽으로 산책"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "관광지 아닌 시골 마을 분위기",
+   "친절한 주인과 방갈로 정원",
+   "저렴한 물가",
+   "한적한 Long Beach"
+  ],
+  "disliked": [
+   "Duong Dong 공사로 먼지와 진흙",
+   "가까운 해변이 어선 주차장이라 지저분",
+   "항구 주변 냄새",
+   "도착 부두에 교통수단 없음"
+  ],
+  "tips": [
+   "라크자 출발 배는 8시와 12:30",
+   "도착 부두에서 택시를 미리 확보",
+   "숙소는 예약 전 직접 확인"
+  ],
+  "satisfaction": "medium",
+  "satisfaction_basis": "소박함은 좋았으나 환경과 공사에 대한 불만이 비슷하게 많음 (2018년, 일행 수 불명)",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": false,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [
+   {
+    "item": "Rach Gia ferry",
+    "price": "~15",
+    "currency": "USD",
+    "as_of": "2018-07"
+   },
+   {
+    "item": "Bungalow per night",
+    "price": "<10",
+    "currency": "USD",
+    "as_of": "2018-07"
+   }
+  ],
+  "detail": "partial",
+  "recency": "old",
+  "south_stay": false,
+  "south_visit": false,
+  "bias": null
+ },
+ {
+  "id": "ja-001",
+  "source_url": "https://4travel.jp/travelogue/11980757",
+  "source_title": "2024-2025年一家でベトナム・フーコックの旅（1）",
+  "source_type": "blog",
+  "language": "ja",
+  "published": null,
+  "trip_date": "2024-12",
+  "traveler_type": "family_kids",
+  "group_size": 4,
+  "nights": null,
+  "stays": [
+   {
+    "region": "south",
+    "area": "Sunset Town",
+    "hotel": "La Phan Phu Quoc Hillside Apartment",
+    "nights": null
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "night",
+      "place": "Airport taxi to Sunset Town",
+      "category": "transport",
+      "region": "south",
+      "note": "호치민 경유 야간 도착, 택시가 숙소 찾기 힘들어함"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Meet n' eat Homemade Foods",
+      "category": "food",
+      "region": "south",
+      "note": "숙소 근처 식당에서 아침"
+     },
+     {
+      "slot": "morning",
+      "place": "Sunset Town streets",
+      "category": "sight",
+      "region": "south",
+      "note": "이탈리아풍 거리와 종탑 산책"
+     },
+     {
+      "slot": "lunch",
+      "place": "Seafood fried rice shop",
+      "category": "food",
+      "region": "south",
+      "note": "해산물 볶음밥 점심 후 해변 산책"
+     },
+     {
+      "slot": "sunset",
+      "place": "Kiss Bridge",
+      "category": "sight",
+      "region": "south",
+      "note": "다리 방문, 유료 쇼는 울타리로 가려짐"
+     },
+     {
+      "slot": "evening",
+      "place": "Night market",
+      "category": "shopping",
+      "region": "south",
+      "note": "비가 와서 좌석 적고 붐비지 않음"
+     },
+     {
+      "slot": "night",
+      "place": "Fireworks from apartment balcony",
+      "category": "show",
+      "region": "south",
+      "note": "발코니에서 무료로 불꽃놀이 감상"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Dugong Mart supermarket",
+      "category": "shopping",
+      "region": "south",
+      "note": "슈퍼에서 후추 구입"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Former prison camp",
+      "category": "sight",
+      "region": "south",
+      "note": "섬 내 옛 수용소 방문"
+     },
+     {
+      "slot": "evening",
+      "place": "Hai Bot Quan",
+      "category": "food",
+      "region": "south",
+      "note": "게알새우 볶음밥이 훌륭"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "Hai Bot Quan 볶음밥과 오징어찜",
+   "넓은 아파트와 조용한 분위기",
+   "발코니 무료 불꽃놀이",
+   "야시장 길거리 음식"
+  ],
+  "disliked": [
+   "Sunset Town이 인공적이고 한산함",
+   "볶음밥에 딱딱한 쌀알",
+   "비 오는 야시장",
+   "택시 위치 찾기 어려움"
+  ],
+  "tips": [
+   "우기엔 야시장 자리 부족 주의",
+   "숙소에서 불꽃놀이를 보면 유료 쇼 절약",
+   "오징어가 해산물 중 가장 저렴",
+   "지도앱 위치가 틀릴 수 있음"
+  ],
+  "satisfaction": "medium",
+  "satisfaction_basis": "음식과 휴식은 만족했으나 마을 분위기와 날씨 등 아쉬움도 큼",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": true,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [
+   {
+    "item": "Seafood fried rice",
+    "price": "~650 JPY",
+    "currency": "JPY",
+    "as_of": "2024-12"
+   }
+  ],
+  "verification": "2026-11-01 원문 대조 일치 (숙소·발코니 불꽃·하이봇)",
+  "detail": "rich",
+  "recency": "2024+",
+  "south_stay": true,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "id": "ja-002",
+  "source_url": "https://4travel.jp/travelogue/12036056",
+  "source_title": "ベトナム・フーコック島 (by 空飛ぶドクター)",
+  "source_type": "blog",
+  "language": "ja",
+  "published": null,
+  "trip_date": "2026-01",
+  "traveler_type": "solo",
+  "group_size": 1,
+  "nights": 4,
+  "stays": [
+   {
+    "region": "central",
+    "area": "Main road with beach across (area not named)",
+    "hotel": null,
+    "nights": 4
+   }
+  ],
+  "arrival_time": "afternoon",
+  "departure_time": "afternoon",
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "afternoon",
+      "place": "Hotel check-in",
+      "category": "checkin",
+      "region": "central",
+      "note": "16시경 체크인 후 쌀국수와 발마사지"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Hotel pool and beach",
+      "category": "rest",
+      "region": "central",
+      "note": "조식 후 수영장과 해변"
+     },
+     {
+      "slot": "evening",
+      "place": "Oil massage",
+      "category": "massage",
+      "region": "central",
+      "note": "저녁에 오일 마사지 후 해산물 국수"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Seawalker + snorkeling (Xuong, Buom, Gam Ghi)",
+      "category": "tour",
+      "region": "island",
+      "note": "씨워커와 스노클링 체험"
+     },
+     {
+      "slot": "lunch",
+      "place": "May Rut Trong lunch",
+      "category": "food",
+      "region": "island",
+      "note": "섬에서 점심"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Cable car back to main island",
+      "category": "activity",
+      "region": "south",
+      "note": "세계 최장 케이블카로 귀환"
+     },
+     {
+      "slot": "night",
+      "place": "Corona Casino",
+      "category": "activity",
+      "region": "north",
+      "note": "그랩으로 이동해 카지노"
+     }
+    ]
+   },
+   {
+    "day": 4,
+    "items": [
+     {
+      "slot": "afternoon",
+      "place": "Hotel rest + Thai massage",
+      "category": "rest",
+      "region": "central",
+      "note": "호텔에서 쉬고 태국 마사지"
+     },
+     {
+      "slot": "evening",
+      "place": "Seafood restaurant",
+      "category": "food",
+      "region": "central",
+      "note": "바질 조개가 이번 여행 최고의 식사"
+     }
+    ]
+   },
+   {
+    "day": 5,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Lunch, foot massage",
+      "category": "food",
+      "region": "central",
+      "note": "체크아웃 후 점심과 마사지"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Grab to airport",
+      "category": "transport",
+      "region": "central",
+      "note": "그랩 20분, 16:50 방콕행 출발"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "저렴한 음식과 조개 요리",
+   "씨워커, 스노클링, 케이블카",
+   "할인되는 마사지",
+   "그랩 요금이 저렴"
+  ],
+  "disliked": [
+   "호텔이 가격 대비 평범하고 물이 탁함",
+   "멕시칸과 러시아 식당 실망",
+   "카지노 최소 베팅이 높음",
+   "수하물 스루체크 불가"
+  ],
+  "tips": [
+   "ATM은 Plus/Cirrus 마크 확인",
+   "마사지 카드 결제 3% 수수료",
+   "그랩 이용 (Uber 불가)",
+   "여권 사본 지참"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "종합 평점 5점 만점에 4.0으로 평가 (호텔만 3.5)",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": true,
+   "cable_car": true,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": true,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": true,
+   "night_market": false,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [
+   {
+    "item": "Hotel per night",
+    "price": "~25,000",
+    "currency": "JPY",
+    "as_of": "2026-01"
+   }
+  ],
+  "detail": "rich",
+  "recency": "2024+",
+  "south_stay": false,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "id": "ja-003",
+  "source_url": "https://4travel.jp/travelogue/12027126",
+  "source_title": "念願のフーコックとオマケのホーチミン",
+  "source_type": "blog",
+  "language": "ja",
+  "published": null,
+  "trip_date": "2026-01",
+  "traveler_type": "couple",
+  "group_size": 2,
+  "nights": 3,
+  "stays": [
+   {
+    "region": "central",
+    "area": "Phu Quoc resort, pool access room",
+    "hotel": "SOL by Melia Phu Quoc",
+    "nights": 3
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "evening",
+      "place": "Town shopping",
+      "category": "shopping",
+      "region": "central",
+      "note": "도착 후 시내에서 쇼핑"
+     },
+     {
+      "slot": "evening",
+      "place": "Bong Xinh Restaurant",
+      "category": "food",
+      "region": "central",
+      "note": "게살 볶음밥 저녁"
+     },
+     {
+      "slot": "night",
+      "place": "SELINA SPA lymph massage",
+      "category": "massage",
+      "region": "central",
+      "note": "림프 마사지"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Hotel pool",
+      "category": "rest",
+      "region": "central",
+      "note": "풀사이드에서 하루 휴식"
+     },
+     {
+      "slot": "evening",
+      "place": "Hotel Spanish restaurant",
+      "category": "food",
+      "region": "central",
+      "note": "파에야와 칼라마리 튀김"
+     },
+     {
+      "slot": "sunset",
+      "place": "Sunset viewing",
+      "category": "sight",
+      "region": "central",
+      "note": "일몰 감상 후 시내 피자"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Pool and hotel",
+      "category": "rest",
+      "region": "central",
+      "note": "전날과 비슷하게 휴식"
+     }
+    ]
+   },
+   {
+    "day": 4,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Hotel breakfast and checkout",
+      "category": "checkin",
+      "region": "central",
+      "note": "조식 후 택시로 공항"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Ho Chi Minh City sightseeing",
+      "category": "sight",
+      "region": "unknown",
+      "note": "호치민에서 시내 관광 후 야간 귀국편"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "넓은 수영장과 풀 바",
+   "일몰이 아름다움",
+   "현지 음식 맛있음",
+   "올인클루시브로 추가 지출 없음",
+   "Klook 패스트트랙"
+  ],
+  "disliked": [
+   "욕실 습식 공간에 문 없음",
+   "첫 피자집에서 주문 불가",
+   "체크아웃 방 점검에 10분 소요",
+   "벌레가 많음"
+  ],
+  "tips": [
+   "성수기엔 수영장 의자 일찍 확보",
+   "벌레 기피제 필수",
+   "호치민 2터미널 짐 보관은 현금만"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "종합 5.0점 만점 평가 (호텔, 음식, 동행자 전부 5.0)",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": true,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": true,
+   "night_market": false,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [
+   {
+    "item": "Fast track for 2",
+    "price": "~6,000 JPY",
+    "currency": "JPY",
+    "as_of": "2026-01"
+   }
+  ],
+  "detail": "rich",
+  "recency": "2024+",
+  "south_stay": false,
+  "south_visit": false,
+  "bias": null
+ },
+ {
+  "id": "ja-004",
+  "source_url": "https://4travel.jp/travelogue/12027764",
+  "source_title": "年越しフーコック③～ホントム島編",
+  "source_type": "blog",
+  "language": "ja",
+  "published": null,
+  "trip_date": "2025-12",
+  "traveler_type": "family_kids",
+  "group_size": 4,
+  "nights": 6,
+  "stays": [
+   {
+    "region": "south",
+    "area": "Sunset Town",
+    "hotel": "Roma Hotel Phu Quoc",
+    "nights": 2
+   },
+   {
+    "region": "central",
+    "area": "Long Beach, a bit south of airport",
+    "hotel": null,
+    "nights": 4
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Walk to cable car station",
+      "category": "transport",
+      "region": "south",
+      "note": "호텔에서 걸어서 역까지, 지도에 없는 지름길"
+     },
+     {
+      "slot": "morning",
+      "place": "Hon Thom cable car",
+      "category": "activity",
+      "region": "south",
+      "note": "9시경 탑승, 대기 약 15분, 20분 소요"
+     },
+     {
+      "slot": "morning",
+      "place": "Hon Thom water park",
+      "category": "activity",
+      "region": "island",
+      "note": "락커 줄과 슬라이드 30분 대기"
+     },
+     {
+      "slot": "lunch",
+      "place": "Sun Buns burgers",
+      "category": "food",
+      "region": "island",
+      "note": "풀사이드 버거"
+     },
+     {
+      "slot": "sunset",
+      "place": "Cable car back",
+      "category": "activity",
+      "region": "south",
+      "note": "17시경 40분 줄 후 일몰 전망"
+     },
+     {
+      "slot": "evening",
+      "place": "Kiss Bridge + Sun Kraft Beer Garden",
+      "category": "food",
+      "region": "south",
+      "note": "18시 쇼를 놓치고 다리와 저녁"
+     },
+     {
+      "slot": "night",
+      "place": "Kiss of the Sea show",
+      "category": "show",
+      "region": "south",
+      "note": "21시 공연, 마지막 불꽃놀이"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "케이블카 전망과 일몰",
+   "Kiss of the Sea 쇼 규모",
+   "아이들이 파도풀 즐김",
+   "비어가든 음식 가격"
+  ],
+  "disliked": [
+   "케이블카, 락커, 슬라이드 긴 줄",
+   "새치기",
+   "티켓 음료가 맥주로만 교환",
+   "18시 쇼 시간 착오",
+   "성수기에 Hon Thom은 비추"
+  ],
+  "tips": [
+   "핸드폰은 슬라이드 반입 불가",
+   "아이 키 140cm 근처면 증빙 지참",
+   "락커는 10시 직전 도착",
+   "Klook 패키지에 Kiss Bridge 입장 포함"
+  ],
+  "satisfaction": "medium",
+  "satisfaction_basis": "쇼와 전망은 만족했지만 성수기 혼잡으로 Hon Thom을 비추천",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": true,
+   "hopping": false,
+   "cable_car": true,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": false,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [
+   {
+    "item": "Cable car + water park adult (Klook)",
+    "price": "3,900 JPY",
+    "currency": "JPY",
+    "as_of": "2025-12"
+   },
+   {
+    "item": "Kiss of the Sea",
+    "price": "~3,500 JPY",
+    "currency": "JPY",
+    "as_of": "2025-12"
+   }
+  ],
+  "detail": "partial",
+  "recency": "2024+",
+  "south_stay": true,
+  "south_visit": true,
+  "bias": null
+ },
+ {
+  "id": "south-001",
+  "source_url": "https://www.yeogi.com/content/tripholic-ob-vn-phu-quoc-3-hotels-review",
+  "source_title": "여기어때 여행매거진 - 푸꾸옥 호텔 3곳(북부·남부·중부) 모녀 숙박 후기",
+  "source_type": "blog",
+  "language": "ko",
+  "published": null,
+  "trip_date": null,
+  "traveler_type": "family_kids",
+  "group_size": null,
+  "nights": 4,
+  "stays": [
+   {
+    "region": "north",
+    "area": "Crown Plaza Starbay (북부, 글에 명시)",
+    "hotel": "Crowne Plaza Phu Quoc Starbay",
+    "nights": 1
+   },
+   {
+    "region": "south",
+    "area": "Sunset Town",
+    "hotel": "La Festa Phu Quoc, Curio Collection by Hilton",
+    "nights": 2
+   },
+   {
+    "region": "central",
+    "area": "unknown",
+    "hotel": "Regent Phu Quoc",
+    "nights": 1
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "early_morning",
+      "place": "Airport massage",
+      "category": "massage",
+      "region": "unknown",
+      "note": "착륙 직후 공항 픽업 마사지로 바로 이동"
+     },
+     {
+      "slot": "morning",
+      "place": "Vinpearl Safari",
+      "category": "tour",
+      "region": "north",
+      "note": "동물을 가까이서 볼 수 있어 만족"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Crown Starbay check-in",
+      "category": "checkin",
+      "region": "north",
+      "note": "15시 체크인, 얼리 불가라 로비에서 대기"
+     },
+     {
+      "slot": "evening",
+      "place": "Grand World + fountain show",
+      "category": "show",
+      "region": "north",
+      "note": "무료 셔틀 이용, 분수쇼는 앞쪽 다리에서 관람"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "lunch",
+      "place": "La Festa check-in",
+      "category": "checkin",
+      "region": "south",
+      "note": "12시 반 도착, 얼리 체크인 가능했음"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Hon Thom cable car & water park",
+      "category": "tour",
+      "region": "south",
+      "note": "호텔에서 도보 5분, 체크인 직후 방문"
+     },
+     {
+      "slot": "evening",
+      "place": "Show in front of hotel + night market",
+      "category": "show",
+      "region": "south",
+      "note": "호텔 앞 공연 후 야시장 구경"
+     },
+     {
+      "slot": "night",
+      "place": "Fireworks from room",
+      "category": "rest",
+      "region": "south",
+      "note": "객실에서 불꽃놀이 관람"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Hotel breakfast",
+      "category": "food",
+      "region": "south",
+      "note": "호텔 조식 후 이동"
+     },
+     {
+      "slot": "afternoon",
+      "place": "Cam Beach (free hotel shuttle)",
+      "category": "beach",
+      "region": "unknown",
+      "note": "무료 셔틀로 이동, 복귀는 버기 이용"
+     }
+    ]
+   },
+   {
+    "day": 4,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Move to Regent",
+      "category": "transport",
+      "region": "central",
+      "note": "중부 리젠트로 이동해 리조트 시설 위주로 보냄"
+     }
+    ]
+   },
+   {
+    "day": 5,
+    "items": [
+     {
+      "slot": "early_morning",
+      "place": "Regent yoga + breakfast",
+      "category": "activity",
+      "region": "central",
+      "note": "7시 요가 후 조식, 이후 출국으로 추정"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "라페스타 얼리 체크인 가능",
+   "호텔에서 케이블카까지 도보 5분",
+   "유럽풍 디자인과 친절한 영어 응대",
+   "객실에서 불꽃놀이 감상"
+  ],
+  "disliked": [
+   "객실과 복도가 좁음",
+   "별관 이동이 잦아 아이 동반 시 불편",
+   "혼똠 샤워실이 좁고 냄새남",
+   "크라운은 얼리 체크인 불가"
+  ],
+  "tips": [
+   "착륙 직후 마사지는 미리 예약",
+   "밤에 그랜드월드에서 돌아올 땐 셔틀 대기 길어 그랩 이용",
+   "북부에서 남부 이동은 그랩 약 55만동",
+   "아이 동반이면 라페스타 대신 리조트형 검토"
+  ],
+  "satisfaction": "medium",
+  "satisfaction_basis": "숙소별 장단점을 균형 있게 서술, 라페스타 전반 호평이나 불편점도 명시. 매거진 게재 글이라 협찬 여부 미확인",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": false,
+   "cable_car": true,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": true,
+   "buggy": true,
+   "scooter": false,
+   "grab_taxi": true,
+   "night_market": true,
+   "safari_vinwonders": true
+  },
+  "prices_mentioned": [
+   {
+    "item": "Grab north to La Festa",
+    "price": "550,000",
+    "currency": "VND",
+    "as_of": null
+   },
+   {
+    "item": "Cam Beach buggy",
+    "price": "100,000",
+    "currency": "VND",
+    "as_of": null
+   },
+   {
+    "item": "La Festa room",
+    "price": "250,000-300,000",
+    "currency": "KRW",
+    "as_of": null
+   }
+  ],
+  "detail": "rich",
+  "recency": "unknown",
+  "south_stay": true,
+  "south_visit": true,
+  "bias": "promo_or_affiliate"
+ },
+ {
+  "id": "south-002",
+  "source_url": "https://www.yeogi.com/content/tripholic-ob-vn-phu-quoc-la-festa-hilton",
+  "source_title": "여기어때 여행매거진 - 라페스타 힐튼 푸꾸옥 숙박 후기",
+  "source_type": "blog",
+  "language": "ko",
+  "published": "2026-08",
+  "trip_date": null,
+  "traveler_type": "unknown",
+  "group_size": null,
+  "nights": null,
+  "stays": [
+   {
+    "region": "south",
+    "area": "Sunset Town",
+    "hotel": "La Festa Phu Quoc, Curio Collection by Hilton",
+    "nights": null
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "afternoon",
+      "place": "La Festa check-in (from New World)",
+      "category": "checkin",
+      "region": "south",
+      "note": "같은 날 뉴월드에서 체크아웃 후 이동"
+     },
+     {
+      "slot": "sunset",
+      "place": "Symphony of the Sea from room",
+      "category": "show",
+      "region": "south",
+      "note": "오션뷰 객실 발코니에서 무료로 관람"
+     },
+     {
+      "slot": "night",
+      "place": "Kiss of the Sea (hotel ticket)",
+      "category": "show",
+      "region": "south",
+      "note": "호텔 제공 티켓으로 두 번 관람"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Hotel breakfast & rooftop",
+      "category": "food",
+      "region": "south",
+      "note": "조식 만족, 옥상 라운지 바다 전망"
+     },
+     {
+      "slot": "morning",
+      "place": "Kiss Bridge photos",
+      "category": "sight",
+      "region": "south",
+      "note": "한적한 이른 시간대 촬영 추천"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "객실에서 심포니 오브 더 씨 무료 관람",
+   "숙박 혜택 키스 오브 더 씨 티켓",
+   "조식과 베트남 커피",
+   "직원 친절, 키스브릿지 정면 전망"
+  ],
+  "disliked": [
+   "샤워물이 누렇게 느껴짐",
+   "한낮 테라스는 매우 더움"
+  ],
+  "tips": [
+   "오션뷰 발코니 객실 예약",
+   "샤워 필터 지참",
+   "호텔 혜택은 변경될 수 있음",
+   "근처 스파 도보 거리"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "전반적 호평, 단 일정 상세 없는 호텔 후기이며 매거진 게재라 협찬 여부 미확인(숙박일·박수 불명)",
+  "mentions": {
+   "symphony_of_the_sea": true,
+   "kiss_of_the_sea": true,
+   "hopping": false,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": false,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [
+   {
+    "item": "Symphony of the Sea ticket value",
+    "price": "30,000+",
+    "currency": "KRW",
+    "as_of": "2026-08"
+   }
+  ],
+  "detail": "partial",
+  "recency": "2024+",
+  "south_stay": true,
+  "south_visit": true,
+  "bias": "promo_or_affiliate"
+ },
+ {
+  "id": "south-003",
+  "source_url": "https://www.trvlogue.com/en/la-festa-phu-quoc-review",
+  "source_title": "La Festa Phu Quoc Review 2026: 5-Star Stay in Sunset Town",
+  "source_type": "blog",
+  "language": "en",
+  "published": "2026-08",
+  "trip_date": null,
+  "traveler_type": "couple",
+  "group_size": 2,
+  "nights": 1,
+  "stays": [
+   {
+    "region": "south",
+    "area": "Sunset Town",
+    "hotel": "La Festa Phu Quoc, Curio Collection by Hilton",
+    "nights": 1
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "afternoon",
+      "place": "La Festa check-in",
+      "category": "checkin",
+      "region": "south",
+      "note": "직원이 불꽃놀이·수영장·조식 안내"
+     },
+     {
+      "slot": "night",
+      "place": "Kiss of the Sea (free hotel tickets)",
+      "category": "show",
+      "region": "south",
+      "note": "숙박 포함 무료 티켓으로 관람"
+     },
+     {
+      "slot": "night",
+      "place": "Fireworks from room",
+      "category": "rest",
+      "region": "south",
+      "note": "객실 창가에서 물쇼와 불꽃놀이 감상"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Hotel breakfast (pho, bread)",
+      "category": "food",
+      "region": "south",
+      "note": "조식 쌀국수와 빵 호평"
+     },
+     {
+      "slot": "morning",
+      "place": "Pool",
+      "category": "rest",
+      "region": "south",
+      "note": "조용하고 넓은 수영장 이용"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "키스브릿지·케이블카 근접",
+   "객실에서 불꽃놀이",
+   "넓은 객실과 강한 에어컨",
+   "조식 쌀국수"
+  ],
+  "disliked": [
+   "가격이 다소 높음",
+   "인피니티풀이 예상보다 깊음(1.2m)"
+  ],
+  "tips": [
+   "아고다 무료취소로 예약",
+   "샤워 필터 지참",
+   "불꽃놀이 보려면 선셋타운 숙박"
+  ],
+  "satisfaction": "high",
+  "satisfaction_basis": "불만 거의 없는 호평. 단 제휴 링크 다수(아고다 등), 협찬 표기 없음 - 제휴 성격 강함",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": true,
+   "hopping": false,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": false,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [
+   {
+    "item": "La Festa room (Agoda, one night)",
+    "price": "124",
+    "currency": "USD",
+    "as_of": "2026-09"
+   },
+   {
+    "item": "Kiss of the Sea included value per person",
+    "price": "24",
+    "currency": "USD",
+    "as_of": "2026-08"
+   }
+  ],
+  "detail": "partial",
+  "recency": "2024+",
+  "south_stay": true,
+  "south_visit": true,
+  "bias": "promo_or_affiliate"
+ },
+ {
+  "id": "south-004",
+  "source_url": "https://www.vietnamparadisetravel.com/blog/phu-quoc-5-day-itinerary-travel-guide",
+  "source_title": "Phu Quoc 5 Day Itinerary Travel Guide (Vietnam Paradise Travel)",
+  "source_type": "blog",
+  "language": "en",
+  "published": "2026-07",
+  "trip_date": "2026-06",
+  "traveler_type": "unknown",
+  "group_size": null,
+  "nights": 4,
+  "stays": [
+   {
+    "region": "south",
+    "area": "InterContinental 인근(저자 표기 남부, 추정 불확실)",
+    "hotel": null,
+    "nights": 4
+   }
+  ],
+  "arrival_time": null,
+  "departure_time": null,
+  "days": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "slot": "afternoon",
+      "place": "Hotel check-in & beach",
+      "category": "checkin",
+      "region": "south",
+      "note": "하노이에서 도착해 체크인 후 해변 휴식"
+     },
+     {
+      "slot": "evening",
+      "place": "Light dinner",
+      "category": "food",
+      "region": "unknown",
+      "note": "가벼운 저녁으로 마무리"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Dinh Cau, pearl showroom, Grand World, Prison",
+      "category": "sight",
+      "region": "central",
+      "note": "서부·북부 명소를 한 번에 순회"
+     },
+     {
+      "slot": "sunset",
+      "place": "Sunset Town & Kiss Bridge",
+      "category": "sight",
+      "region": "south",
+      "note": "저녁 무렵 키스브릿지 방문"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Speedboat An Thoi to Hon Xuong",
+      "category": "tour",
+      "region": "island",
+      "note": "편도 10-15달러, 양식장 방문과 수영"
+     },
+     {
+      "slot": "evening",
+      "place": "Sunset Town fireworks",
+      "category": "show",
+      "region": "south",
+      "note": "섬 투어 후 선셋타운 불꽃놀이로 마무리"
+     }
+    ]
+   },
+   {
+    "day": 4,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Vinpearl Safari & VinWonders",
+      "category": "activity",
+      "region": "north",
+      "note": "하루 종일 북부 테마파크"
+     }
+    ]
+   },
+   {
+    "day": 5,
+    "items": [
+     {
+      "slot": "morning",
+      "place": "Beach morning then airport",
+      "category": "beach",
+      "region": "unknown",
+      "note": "마지막 오전 해변 후 공항 이동"
+     }
+    ]
+   }
+  ],
+  "liked": [
+   "안토이 스피드보트 섬 투어",
+   "선셋타운 불꽃놀이"
+  ],
+  "disliked": [
+   "우기라 흐리고 비 잦음",
+   "식사가 평범했음",
+   "귀국 공항이 붐빔"
+  ],
+  "tips": [
+   "건기(11-3월) 추천",
+   "식당은 미리 조사",
+   "진주 매장은 품질 비교 후 구매"
+  ],
+  "satisfaction": "medium",
+  "satisfaction_basis": "우기 날씨와 식사에 아쉬움 언급. 투어 운영사 블로그라 홍보 성격, 호텔명 없음",
+  "mentions": {
+   "symphony_of_the_sea": false,
+   "kiss_of_the_sea": false,
+   "hopping": true,
+   "cable_car": false,
+   "squid_fishing": false,
+   "cruise_dinner": false,
+   "massage": false,
+   "buggy": false,
+   "scooter": false,
+   "grab_taxi": false,
+   "night_market": false,
+   "safari_vinwonders": false
+  },
+  "prices_mentioned": [
+   {
+    "item": "Speedboat An Thoi-Hon Xuong one way",
+    "price": "10-15",
+    "currency": "USD",
+    "as_of": "2026-06"
+   },
+   {
+    "item": "Vietjet Hanoi round trip",
+    "price": "150",
+    "currency": "USD",
+    "as_of": "2026-06"
+   }
+  ],
+  "detail": "rich",
+  "recency": "2024+",
+  "south_stay": true,
+  "south_visit": true,
+  "bias": "operator"
+ }
+]

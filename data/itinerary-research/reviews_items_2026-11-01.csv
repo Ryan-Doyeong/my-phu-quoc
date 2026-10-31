@@ -1,0 +1,323 @@
+﻿id,language,traveler_type,nights,south_stay,satisfaction,detail,bias,arrival_time,day,slot,place,category,region,note,source_url
+ko-001,ko,family_kids,4,False,medium,rich,,morning,1,early_morning,Airport arrival + lounge wait (landed ~06:30),transport,unknown,"Overnight flight from Korea, waited before spa",https://brunch.co.kr/@lild/15
+ko-001,ko,family_kids,4,False,medium,rich,,morning,1,morning,Delu Na spa,massage,north,Pre-booked 8am spa used instead of waiting for check-in,https://brunch.co.kr/@lild/15
+ko-001,ko,family_kids,4,False,medium,rich,,morning,1,lunch,Bun Cha Ha Noi,food,unknown,Lunch before checkin,https://brunch.co.kr/@lild/15
+ko-001,ko,family_kids,4,False,medium,rich,,morning,1,afternoon,King Kong Mart; Vinpearl Wonderworld check-in; Grand World,shopping,north,Shopping then check-in and evening stroll,https://brunch.co.kr/@lild/15
+ko-001,ko,family_kids,4,False,medium,rich,,morning,1,evening,Bep Nha near fountain show,food,north,Dinner near evening fountain show,https://brunch.co.kr/@lild/15
+ko-001,ko,family_kids,4,False,medium,rich,,morning,2,morning,Vinpearl Safari,tour,north,Bird show and giraffe feeding,https://brunch.co.kr/@lild/15
+ko-001,ko,family_kids,4,False,medium,rich,,morning,2,afternoon,"Vinpearl Wonderworld aquarium, rides, water park",activity,north,Ate inside the aquarium cafeteria,https://brunch.co.kr/@lild/15
+ko-001,ko,family_kids,4,False,medium,rich,,morning,2,evening,Water show + casino,show,north,Rain; dinner delivered,https://brunch.co.kr/@lild/15
+ko-001,ko,family_kids,4,False,medium,rich,,morning,3,morning,"Golf at Vinpearl, move to Novotel",activity,north,Switched stay from north to central,https://brunch.co.kr/@lild/15
+ko-001,ko,family_kids,4,False,medium,rich,,morning,3,afternoon,Dinh Cau Temple; rooftop sunset drinks,sight,central,Sunset drinks at a rooftop bistro,https://brunch.co.kr/@lild/15
+ko-001,ko,family_kids,4,False,medium,rich,,morning,3,evening,Sonasea Red Street night market,food,central,Squid stall dinner,https://brunch.co.kr/@lild/15
+ko-001,ko,family_kids,4,False,medium,rich,,morning,4,early_morning,Sun World cable car to Hon Thom,tour,south,Early start for south day,https://brunch.co.kr/@lild/15
+ko-001,ko,family_kids,4,False,medium,rich,,morning,4,morning,Aquatopia water park,activity,south,Water park on Hon Thom,https://brunch.co.kr/@lild/15
+ko-001,ko,family_kids,4,False,medium,rich,,morning,4,lunch,Banh Xeo Cuoi No.2,food,central,Lunch back in central,https://brunch.co.kr/@lild/15
+ko-001,ko,family_kids,4,False,medium,rich,,morning,4,afternoon,Aiyas spa; Starbucks; King Kong Mart,massage,central,Spa and shopping afternoon,https://brunch.co.kr/@lild/15
+ko-001,ko,family_kids,4,False,medium,rich,,morning,5,morning,"Banh Xeo Cuoi No.3, An Ba Cafe, airport",food,central,Last meal then airport,https://brunch.co.kr/@lild/15
+ko-002,ko,family_kids,4,False,high,rich,,,1,evening,Phu Quoc arrival with agency fast-track immigration,transport,unknown,Flight delayed; fast-track made immigration quick,https://brunch.co.kr/@287619953c9c459/114
+ko-002,ko,family_kids,4,False,high,rich,,,2,morning,"Mercury resort breakfast, walk, restaurant pool",rest,unknown,Beach parasols taken so used restaurant pool,https://brunch.co.kr/@287619953c9c459/114
+ko-002,ko,family_kids,4,False,high,rich,,,3,morning,"Beach with toddler, checkout",beach,unknown,Beach time while packing,https://brunch.co.kr/@287619953c9c459/114
+ko-002,ko,family_kids,4,False,high,rich,,,3,lunch,"Spa massage via free car, nearby Vietnamese lunch",massage,unknown,"40-min wait at famous restaurant, ate nearby",https://brunch.co.kr/@287619953c9c459/114
+ko-002,ko,family_kids,4,False,high,rich,,,3,afternoon,Dusit Princess check-in and grounds,checkin,unknown,Explored hotel boat area,https://brunch.co.kr/@287619953c9c459/114
+ko-002,ko,family_kids,4,False,high,rich,,,3,evening,Hotel restaurant dinner,food,unknown,Planned fire-show BBQ closed on Mondays,https://brunch.co.kr/@287619953c9c459/114
+ko-002,ko,family_kids,4,False,high,rich,,,4,morning,Beach rest,rest,unknown,Relaxed morning,https://brunch.co.kr/@287619953c9c459/114
+ko-002,ko,family_kids,4,False,high,rich,,,4,lunch,Korean food via delivery app,food,unknown,Ordered to hotel,https://brunch.co.kr/@287619953c9c459/114
+ko-002,ko,family_kids,4,False,high,rich,,,4,sunset,Sunset Town clock tower photos,sight,south,Cable car had already closed by 5:30pm,https://brunch.co.kr/@287619953c9c459/114
+ko-002,ko,family_kids,4,False,high,rich,,,4,evening,Sunset Town dinner + night market,food,south,Bought local goods at nearby mart,https://brunch.co.kr/@287619953c9c459/114
+ko-003,ko,unknown,3,False,medium,rich,,late,1,night,"Night flight arrival, hotel transfer",transport,unknown,Rested at hotel,https://brunch.co.kr/@nextar/225
+ko-003,ko,unknown,3,False,medium,rich,,late,2,early_morning,Vinpearl Safari,tour,north,"Arrive early, crowded after 10am",https://brunch.co.kr/@nextar/225
+ko-003,ko,unknown,3,False,medium,rich,,late,2,afternoon,Water park and amusement park,activity,north,Same-day theme park combo,https://brunch.co.kr/@nextar/225
+ko-003,ko,unknown,3,False,medium,rich,,late,2,evening,Laser show,show,north,Evening show,https://brunch.co.kr/@nextar/225
+ko-003,ko,unknown,3,False,medium,rich,,late,3,morning,Hon Thom cable car,tour,south,Short or no lines; ticket includes water park,https://brunch.co.kr/@nextar/225
+ko-003,ko,unknown,3,False,medium,rich,,late,3,afternoon,Hon Thom water park,activity,south,Used ticket-included water park,https://brunch.co.kr/@nextar/225
+ko-003,ko,unknown,3,False,medium,rich,,late,3,sunset,Sunset Town Starbucks area,sight,south,Watched sunset,https://brunch.co.kr/@nextar/225
+ko-003,ko,unknown,3,False,medium,rich,,late,3,evening,Kiss of the Sea + night market,show,south,Show then market,https://brunch.co.kr/@nextar/225
+ko-003,ko,unknown,3,False,medium,rich,,late,4,morning,"Resort time, central restaurants, sunset, massage, airport transfer",rest,central,Massage after checkout then shower before flight,https://brunch.co.kr/@nextar/225
+ko-004,ko,unknown,4,False,medium,partial,,morning,1,early_morning,"Airport arrival ~06:54, USD exchange",transport,unknown,Landed early morning; exchanged money at airport,https://www.kko-kkuri.com/%ED%91%B8%EA%BE%B8%EC%98%A5-4%EB%B0%95-5%EC%9D%BC-%EC%9D%BC%EC%A0%95/
+ko-004,ko,unknown,4,False,medium,partial,,morning,1,morning,Pepper Spa 90-min massage (morning tour),massage,unknown,Tour bridged time before check-in,https://www.kko-kkuri.com/%ED%91%B8%EA%BE%B8%EC%98%A5-4%EB%B0%95-5%EC%9D%BC-%EC%9D%BC%EC%A0%95/
+ko-004,ko,unknown,4,False,medium,partial,,morning,1,morning,Banh xeo breakfast + King Kong Mart,food,unknown,Tour stops included free items,https://www.kko-kkuri.com/%ED%91%B8%EA%BE%B8%EC%98%A5-4%EB%B0%95-5%EC%9D%BC-%EC%9D%BC%EC%A0%95/
+ko-004,ko,unknown,4,False,medium,partial,,morning,1,lunch,Vinpearl Safari,tour,north,Felt rushed at about 2 hours,https://www.kko-kkuri.com/%ED%91%B8%EA%BE%B8%EC%98%A5-4%EB%B0%95-5%EC%9D%BC-%EC%9D%BC%EC%A0%95/
+ko-004,ko,unknown,4,False,medium,partial,,morning,1,afternoon,"Hotel check-in ~14:30, rest",checkin,north,Relaxed afternoon after humid early arrival,https://www.kko-kkuri.com/%ED%91%B8%EA%BE%B8%EC%98%A5-4%EB%B0%95-5%EC%9D%BC-%EC%9D%BC%EC%A0%95/
+ko-004,ko,unknown,4,False,medium,partial,,morning,1,evening,"Grand World dinner, tomato foot massage, fountain show",show,north,Show started 30 min later than expected,https://www.kko-kkuri.com/%ED%91%B8%EA%BE%B8%EC%98%A5-4%EB%B0%95-5%EC%9D%BC-%EC%9D%BC%EC%A0%95/
+ko-005,ko,family_kids,4,True,high,partial,,dawn,1,early_morning,Private van airport pickup (landing before 6am),transport,unknown,Morning tour used to fill time before check-in,https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=523
+ko-005,ko,family_kids,4,True,high,partial,,dawn,1,morning,"Breakfast, temple, coconut coffee, 1h massage",massage,unknown,Welcome tour covering morning,https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=523
+ko-005,ko,family_kids,4,True,high,partial,,dawn,1,afternoon,Ho Quoc Pagoda and Sao Beach lunch,sight,south,South stop on arrival day,https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=523
+ko-005,ko,family_kids,4,True,high,partial,,dawn,1,sunset,Sun World cable car and sunset beach,tour,south,Order of this tour partly unclear,https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=523
+ko-005,ko,family_kids,4,True,high,partial,,dawn,2,morning,Speedboat island hopping from An Thoi,tour,island,"Fishing, snorkeling, lunch, Mai Lat",https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=523
+ko-005,ko,family_kids,4,True,high,partial,,dawn,3,morning,"Pearl and pepper farms, Hon Thom cable car, water park",tour,south,All-in-one private tour,https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=523
+ko-005,ko,family_kids,4,True,high,partial,,dawn,4,morning,"Starfish Beach, Vinpearl, Grand World",tour,north,Laser show; arrive 1h early for spot,https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=523
+ko-006,ko,couple,,False,high,partial,affiliate,,1,evening,Duong Dong night market + seafood dinner,food,central,"Arrival day, check-in first",https://blog.tinyping.kr/%ED%91%B8%EA%BE%B8%EC%98%A5-%EC%8B%A0%ED%98%BC%EC%97%AC%ED%96%89-%EC%B4%88%EB%B3%B4%EB%8F%84-%EB%B0%98%ED%95%9C-%EB%B2%A0%ED%8A%B8%EB%82%A8-%ED%9B%84%EA%B8%B0/
+ko-006,ko,couple,,False,high,partial,affiliate,,2,morning,Hon Thom cable car and Sun World water park,tour,south,Full south-island day,https://blog.tinyping.kr/%ED%91%B8%EA%BE%B8%EC%98%A5-%EC%8B%A0%ED%98%BC%EC%97%AC%ED%96%89-%EC%B4%88%EB%B3%B4%EB%8F%84-%EB%B0%98%ED%95%9C-%EB%B2%A0%ED%8A%B8%EB%82%A8-%ED%9B%84%EA%B8%B0/
+ko-006,ko,couple,,False,high,partial,affiliate,,3,morning,Starfish Beach and Grand World,tour,north,North tour,https://blog.tinyping.kr/%ED%91%B8%EA%BE%B8%EC%98%A5-%EC%8B%A0%ED%98%BC%EC%97%AC%ED%96%89-%EC%B4%88%EB%B3%B4%EB%8F%84-%EB%B0%98%ED%95%9C-%EB%B2%A0%ED%8A%B8%EB%82%A8-%ED%9B%84%EA%B8%B0/
+ko-006,ko,couple,,False,high,partial,affiliate,,4,morning,"Pearl farm, coconut prison, Sao Beach",tour,south,South tour,https://blog.tinyping.kr/%ED%91%B8%EA%BE%B8%EC%98%A5-%EC%8B%A0%ED%98%BC%EC%97%AC%ED%96%89-%EC%B4%88%EB%B3%B4%EB%8F%84-%EB%B0%98%ED%95%9C-%EB%B2%A0%ED%8A%B8%EB%82%A8-%ED%9B%84%EA%B8%B0/
+ko-006,ko,couple,,False,high,partial,affiliate,,5,morning,"Resort rest, massage, airport",massage,central,Easy final day,https://blog.tinyping.kr/%ED%91%B8%EA%BE%B8%EC%98%A5-%EC%8B%A0%ED%98%BC%EC%97%AC%ED%96%89-%EC%B4%88%EB%B3%B4%EB%8F%84-%EB%B0%98%ED%95%9C-%EB%B2%A0%ED%8A%B8%EB%82%A8-%ED%9B%84%EA%B8%B0/
+ko-007,ko,family_kids,,False,medium,partial,,,1,morning,Free hotel shuttle to Sunset Town (double-decker bus),sight,south,"Daytime visit first, streets quiet",https://brunch.co.kr/@wissam/231
+ko-007,ko,family_kids,,False,medium,partial,,,1,sunset,"Return at sunset, Kiss Bridge",sight,south,Back for sunset and evening,https://brunch.co.kr/@wissam/231
+ko-007,ko,family_kids,,False,medium,partial,,,1,evening,Symphony of the Sea from paid shop viewpoint,show,south,Needs entering paid-service shop,https://brunch.co.kr/@wissam/231
+ko-007,ko,family_kids,,False,medium,partial,,,1,night,Kiss of the Sea with fireworks,show,south,"Seats first-come, arrive about 30 min early",https://brunch.co.kr/@wissam/231
+ko-008,ko,couple,,False,medium,partial,,,1,afternoon,"Arrived in rain, resort stay",rest,unknown,Strong wind and rain,https://brunch.co.kr/@bullee/163
+ko-008,ko,couple,,False,medium,partial,,,2,lunch,Resort shuttle to town for local food,food,unknown,Mostly stayed in room,https://brunch.co.kr/@bullee/163
+ko-008,ko,couple,,False,medium,partial,,,3,sunset,Rooftop sunset yoga at resort,activity,unknown,"Free class, only participants",https://brunch.co.kr/@bullee/163
+ko-008,ko,couple,,False,medium,partial,,,3,morning,Pool and pool bar,rest,unknown,Rain stopped,https://brunch.co.kr/@bullee/163
+ko-008,ko,couple,,False,medium,partial,,,5,evening,Night market before massage appointment,food,unknown,"Only 30 min planned, wished for more",https://brunch.co.kr/@bullee/163
+ko-009,ko,group,2,False,high,partial,affiliate,,1,afternoon,"Check-in, private-pool villa, main pool",checkin,north,Villa with private pool,https://brunch.co.kr/@soyool/12
+ko-009,ko,group,2,False,high,partial,affiliate,,1,sunset,Beach-side pool sunset,beach,north,Sunset from pool area,https://brunch.co.kr/@soyool/12
+ko-009,ko,group,2,False,high,partial,affiliate,,1,evening,Dinner buffet,food,north,Disappointing,https://brunch.co.kr/@soyool/12
+ko-009,ko,group,2,False,high,partial,affiliate,,2,morning,"Breakfast, buggy tour of resort photo spots",activity,north,Buggy booked by phone or app,https://brunch.co.kr/@soyool/12
+ko-009,ko,group,2,False,high,partial,affiliate,,2,lunch,Snacks and smoothies at resort,food,north,Light lunch,https://brunch.co.kr/@soyool/12
+ko-009,ko,group,2,False,high,partial,affiliate,,3,morning,Breakfast and checkout,checkin,north,Crowded checkout,https://brunch.co.kr/@soyool/12
+ko-010,ko,family_kids,,False,medium,partial,,late,1,night,"Delayed flight, reached villa about 1am",checkin,north,Upgraded to 2nd-floor villa at check-in,https://brunch.co.kr/@wonjue/980
+ko-010,ko,family_kids,,False,medium,partial,,late,2,morning,Resort breakfast with face-recognition entry,food,north,Few kid-friendly choices,https://brunch.co.kr/@wonjue/980
+ko-010,ko,family_kids,,False,medium,partial,,late,2,afternoon,"Free sauna and gym, tuk-tuk shuttle around resort",rest,north,Villas spread far apart,https://brunch.co.kr/@wonjue/980
+ko-011,ko,family_kids,4,False,high,partial,,,1,morning,"Resort breakfast, pool morning and evening, resort activities",rest,unknown,"Latte art, canvas painting, lantern making",https://brunch.co.kr/@plc83/131
+ko-011,ko,family_kids,4,False,high,partial,,,1,afternoon,Massage outings (one or two),massage,unknown,Cheap massages,https://brunch.co.kr/@plc83/131
+ko-011,ko,family_kids,4,False,high,partial,,,1,sunset,Sunset watching,sight,unknown,Found sunsets beautiful,https://brunch.co.kr/@plc83/131
+ko-012,ko,unknown,3,False,unknown,partial,,late,1,night,"Landed about 23:30 after 19:30 departure, head north",transport,north,Went north first because of safari,https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=1844
+ko-012,ko,unknown,3,False,unknown,partial,,late,2,morning,Vinpearl Safari,tour,north,Main reason for north stay,https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=1844
+ko-012,ko,unknown,3,False,unknown,partial,,late,2,afternoon,Return to central area,transport,central,Moved on after safari,https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=1844
+ko-013,ko,unknown,3,False,high,partial,,morning,1,morning,"Airport arrival 11:00, drop bags at hotel",checkin,unknown,Bags dropped before sightseeing,https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=1842
+ko-013,ko,unknown,3,False,high,partial,,morning,1,lunch,Safari park,tour,north,"Giraffes, lions, elephants then a meal",https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=1842
+ko-013,ko,unknown,3,False,high,partial,,morning,1,afternoon,"Wonderland park: aquarium, rides, water park",activity,north,Same-day theme park,https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=1842
+ko-014,ko,unknown,,False,high,partial,sponsored,,1,morning,Vinpearl Resort relaxing,rest,north,Sponsored private tour day starting 9am,https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=1178
+ko-014,ko,unknown,,False,high,partial,sponsored,,1,lunch,Seaside restaurant lunch,food,unknown,Chosen by operator,https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=1178
+ko-014,ko,unknown,,False,high,partial,sponsored,,1,afternoon,Coconut Prison,sight,south,Guided history visit,https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=1178
+ko-014,ko,unknown,,False,high,partial,sponsored,,1,afternoon,Hon Thom cable car + Sun World Aquatopia,tour,south,"Long sea cable car, short water park queues",https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=1178
+ko-014,ko,unknown,,False,high,partial,sponsored,,1,sunset,Ho Quoc Pagoda,sight,south,Recommended around sunset,https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=1178
+ko-014,ko,unknown,,False,high,partial,sponsored,,1,evening,Beach seafood dinner at sunset,food,south,Guide-recommended place,https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=1178
+ko-016,ko,solo,,False,unknown,thin,,,1,afternoon,Beach near hotel and motorbike ride,beach,central,Author's own day; brother's trip is secondhand,https://vnguide.co.kr/bbs/board.php?bo_table=phuquoc&wr_id=1845
+en-001,en,couple,5,False,high,rich,,afternoon,1,afternoon,Phu Quoc Airport to Vinpearl via free resort shuttle,transport,north,Landed 1:40pm; shuttle stop confusion sent them to the wrong park first,https://2bearbear.com/?p=35201
+en-001,en,couple,5,False,high,rich,,afternoon,1,afternoon,Vinpearl Resort & Spa pool and private beach,checkin,north,"Checked in, used pool, beach and sunset cocktail",https://2bearbear.com/?p=35201
+en-001,en,couple,5,False,high,rich,,afternoon,1,evening,Grand World (Colours of Venice light show),show,north,"Free light and fountain show, watched best from bridge",https://2bearbear.com/?p=35201
+en-001,en,couple,5,False,high,rich,,afternoon,2,morning,Vinpearl Safari,activity,north,"Free resort shuttle; zoo walk, bird show, then safari bus",https://2bearbear.com/?p=35201
+en-001,en,couple,5,False,high,rich,,afternoon,2,lunch,Giraffe Restaurant,food,north,Lunch beside giraffes; carrots bought to feed them,https://2bearbear.com/?p=35201
+en-001,en,couple,5,False,high,rich,,afternoon,2,afternoon,Akoya Spa massage at resort,massage,north,Ayurvedic massage; four-hands session not synchronised,https://2bearbear.com/?p=35201
+en-001,en,couple,5,False,high,rich,,afternoon,2,evening,Pepper Restaurant,food,north,Preferred over the pricey hotel buffet,https://2bearbear.com/?p=35201
+en-001,en,couple,5,False,high,rich,,afternoon,3,morning,Vinpearl private beach stroll and breakfast,beach,north,Buffet breakfast with local dishes,https://2bearbear.com/?p=35201
+en-001,en,couple,5,False,high,rich,,afternoon,3,afternoon,Move to Seashells Phu Quoc by public bus,transport,central,Resort route bus then bus 17; cheaper than a transfer,https://2bearbear.com/?p=35201
+en-001,en,couple,5,False,high,rich,,afternoon,3,evening,Seashells seafood buffet and pool,food,central,Infinity pool judged best of the trip; live band,https://2bearbear.com/?p=35201
+en-001,en,couple,5,False,high,rich,,afternoon,4,morning,Seashells breakfast and beach walk,rest,central,Hotel beach rocky; pool better for swimming,https://2bearbear.com/?p=35201
+en-001,en,couple,5,False,high,rich,,afternoon,4,afternoon,"Duong Dong harbour, Dinh Cau, Crab House, King Kong Mart",shopping,central,Walked from hotel; craft beer lunch and souvenir shopping,https://2bearbear.com/?p=35201
+en-001,en,couple,5,False,high,rich,,afternoon,4,evening,Banh Xeo Cuoi dinner and hotel spa,food,central,Delivery failed twice so they walked to the restaurant,https://2bearbear.com/?p=35201
+en-001,en,couple,5,False,high,rich,,afternoon,5,morning,Grab to Novotel Phu Quoc Resort,checkin,central,Early check-in impossible; room ready around 12:15,https://2bearbear.com/?p=35201
+en-001,en,couple,5,False,high,rich,,afternoon,5,afternoon,"Novotel pool, bicycles along beach",rest,central,Suite upgrade through hotel loyalty status,https://2bearbear.com/?p=35201
+en-001,en,couple,5,False,high,rich,,afternoon,5,sunset,In Balance Spa massage and beach stroll,massage,central,Happy-hour massage rebooked for 5pm,https://2bearbear.com/?p=35201
+en-001,en,couple,5,False,high,rich,,afternoon,5,evening,Sonasea shopping centre,shopping,central,"Takeaway dinner, manicure and snacks",https://2bearbear.com/?p=35201
+en-001,en,couple,5,False,high,rich,,afternoon,6,morning,Novotel promenade jog and breakfast,rest,central,Breakfast varied but generic,https://2bearbear.com/?p=35201
+en-001,en,couple,5,False,high,rich,,afternoon,6,afternoon,Airport departure,transport,central,Left hotel about noon,https://2bearbear.com/?p=35201
+en-002,en,family_kids,4,False,high,rich,,dawn,1,evening,Incheon overnight flight to Phu Quoc,transport,unknown,Departed 8:35pm; kids did not sleep as hoped,https://www.trvlogue.com/en/phu-quoc-family-itinerary-2026
+en-002,en,family_kids,4,False,high,rich,,dawn,2,early_morning,Phu Quoc Airport fast track and pre-booked pickup,transport,unknown,Landed 12:50am; prebooked transfer made late arrival easy,https://www.trvlogue.com/en/phu-quoc-family-itinerary-2026
+en-002,en,family_kids,4,False,high,rich,,dawn,2,early_morning,Movenpick pool-access room,checkin,north,"Slept in, then pool time with toddler",https://www.trvlogue.com/en/phu-quoc-family-itinerary-2026
+en-002,en,family_kids,4,False,high,rich,,dawn,2,afternoon,Movenpick Chocolate Happy Hour,food,north,Kids enjoyed the 3:30pm chocolate buffet,https://www.trvlogue.com/en/phu-quoc-family-itinerary-2026
+en-002,en,family_kids,4,False,high,rich,,dawn,2,evening,Movenpick dinner,food,north,Stayed in resort for easy evening,https://www.trvlogue.com/en/phu-quoc-family-itinerary-2026
+en-002,en,family_kids,4,False,high,rich,,dawn,3,morning,Vinpearl Safari,activity,north,Arrived 9am; fed elephants and monkeys up close,https://www.trvlogue.com/en/phu-quoc-family-itinerary-2026
+en-002,en,family_kids,4,False,high,rich,,dawn,3,lunch,Giraffe Restaurant,food,north,Lunch among giraffes,https://www.trvlogue.com/en/phu-quoc-family-itinerary-2026
+en-002,en,family_kids,4,False,high,rich,,dawn,3,evening,Check in at New World resort,checkin,north,Busiest day of trip,https://www.trvlogue.com/en/phu-quoc-family-itinerary-2026
+en-002,en,family_kids,4,False,high,rich,,dawn,4,afternoon,New World beach and pools,beach,north,Whole day at pool plus nap time,https://www.trvlogue.com/en/phu-quoc-family-itinerary-2026
+en-002,en,family_kids,4,False,high,rich,,dawn,4,evening,Sailing Club dinner and fire show,show,north,Fire show was a highlight,https://www.trvlogue.com/en/phu-quoc-family-itinerary-2026
+en-002,en,family_kids,4,False,high,rich,,dawn,5,lunch,"Check out New World, move to Palm Bay for rest",checkin,central,Cheap day-use room before 1:50am flight,https://www.trvlogue.com/en/phu-quoc-family-itinerary-2026
+en-002,en,family_kids,4,False,high,rich,,dawn,5,evening,Duong Dong Night Market and massage,food,central,Light evening before midnight airport transfer,https://www.trvlogue.com/en/phu-quoc-family-itinerary-2026
+en-002,en,family_kids,4,False,high,rich,,dawn,6,early_morning,Departure flight 1:50am,transport,central,Arrived Incheon 9:30am,https://www.trvlogue.com/en/phu-quoc-family-itinerary-2026
+en-003,en,solo,4,False,medium,partial,,evening,1,evening,Duong Dong Night Market,food,central,"Arrived from Da Nang in evening, strolled market",https://www.trvlogue.com/en/phu-quoc-4-day-itinerary
+en-003,en,solo,4,False,medium,partial,,evening,2,afternoon,Highlands Coffee remote work,cafe,central,Rainy day spent working on laptop,https://www.trvlogue.com/en/phu-quoc-4-day-itinerary
+en-003,en,solo,4,False,medium,partial,,evening,2,evening,King Kong Mart,shopping,central,Browsed souvenirs,https://www.trvlogue.com/en/phu-quoc-4-day-itinerary
+en-003,en,solo,4,False,medium,partial,,evening,3,morning,Cloud Cafe co-working floor,cafe,central,Full day of work with unlimited stay,https://www.trvlogue.com/en/phu-quoc-4-day-itinerary
+en-003,en,solo,4,False,medium,partial,,evening,3,afternoon,Local foot massage,massage,central,Cheap foot massage,https://www.trvlogue.com/en/phu-quoc-4-day-itinerary
+en-003,en,solo,4,False,medium,partial,,evening,4,morning,Move to VinHolidays in the north,checkin,north,Switched base to north,https://www.trvlogue.com/en/phu-quoc-4-day-itinerary
+en-003,en,solo,4,False,medium,partial,,evening,4,night,Vinpearl Safari night tour,tour,north,Animals active; giraffe feeding; Grab taxi,https://www.trvlogue.com/en/phu-quoc-4-day-itinerary
+en-004,en,parents,,True,medium,partial,,,1,afternoon,Massage,massage,south,Relaxing massage before the show,https://www.trvlogue.com/en/kiss-sea-phu-quoc-review
+en-004,en,parents,,True,medium,partial,,,1,evening,Sunset Town walk,sight,south,"Skipped pre-show dinner, just strolled",https://www.trvlogue.com/en/kiss-sea-phu-quoc-review
+en-004,en,parents,,True,medium,partial,,,1,night,Kiss of the Sea,show,south,"9pm show, about 30 minutes, big fireworks finale",https://www.trvlogue.com/en/kiss-sea-phu-quoc-review
+en-004,en,parents,,True,medium,partial,,,1,night,Steak dinner near hotel,food,south,Ate after crowded exit,https://www.trvlogue.com/en/kiss-sea-phu-quoc-review
+en-005,en,unknown,,True,high,partial,branded_content,,1,morning,Hon Thom cable car and Aquatopia,activity,south,Aquatopia best in morning before queues,https://www.timeout.com/asia/news/i-visited-one-of-the-best-islands-in-asia-and-found-a-mediterranean-dreamscape-in-vietnam-120425
+en-005,en,unknown,,True,high,partial,branded_content,,1,afternoon,Il Salone coffee workshop,cafe,south,Hotel-organised coffee class,https://www.timeout.com/asia/news/i-visited-one-of-the-best-islands-in-asia-and-found-a-mediterranean-dreamscape-in-vietnam-120425
+en-005,en,unknown,,True,high,partial,branded_content,,1,evening,Kiss Bridge and Kiss of the Sea,show,south,Praised bridge and show,https://www.timeout.com/asia/news/i-visited-one-of-the-best-islands-in-asia-and-found-a-mediterranean-dreamscape-in-vietnam-120425
+en-005,en,unknown,,True,high,partial,branded_content,,1,night,Luna Folk drinks,cafe,south,Evening drinks,https://www.timeout.com/asia/news/i-visited-one-of-the-best-islands-in-asia-and-found-a-mediterranean-dreamscape-in-vietnam-120425
+en-006,en,unknown,,True,high,partial,editorial,,1,afternoon,"Flight from Saigon, Sunset Town walk",transport,south,One-hour flight then explored Sunset Town,https://www.lonelyplanet.com/articles/phu-quoc-week-itinerary
+en-006,en,unknown,,True,high,partial,editorial,,1,evening,Kiss of the Sea and night market,show,south,"Show and fireworks, then Sunset Town night market",https://www.lonelyplanet.com/articles/phu-quoc-week-itinerary
+en-006,en,unknown,,True,high,partial,editorial,,1,night,Pink Pearl dinner,food,south,Praised meal,https://www.lonelyplanet.com/articles/phu-quoc-week-itinerary
+en-006,en,unknown,,True,high,partial,editorial,,2,morning,Hon Thom cable car and Sun World,activity,south,Cable car plus sea walking,https://www.lonelyplanet.com/articles/phu-quoc-week-itinerary
+en-006,en,unknown,,True,high,partial,editorial,,3,afternoon,Khem Beach at JW Marriott,beach,south,Beach time at end of Khem,https://www.lonelyplanet.com/articles/phu-quoc-week-itinerary
+en-007,en,couple,,False,medium,partial,,,1,afternoon,Hon Thom cable car (closed for maintenance),activity,south,Planned but unavailable,https://www.magnificentworld.com/things-to-do-in-phu-quoc/
+en-007,en,couple,,False,medium,partial,,,1,sunset,Sunset Town,sight,south,"Italian-style architecture, beach and cafes",https://www.magnificentworld.com/things-to-do-in-phu-quoc/
+en-007,en,couple,,False,medium,partial,,,1,evening,"Grand World gondola, show, fountains",show,north,Lights and fountains enjoyed,https://www.magnificentworld.com/things-to-do-in-phu-quoc/
+en-007,en,couple,,False,medium,partial,,,2,morning,Vinpearl Safari,activity,north,Lions seen close from safari bus,https://www.magnificentworld.com/things-to-do-in-phu-quoc/
+en-007,en,couple,,False,medium,partial,,,2,afternoon,VinWonders,activity,north,"Theme park, aquapark, oceanarium; hot and tiring",https://www.magnificentworld.com/things-to-do-in-phu-quoc/
+en-007,en,couple,,False,medium,partial,,,3,morning,Pepper farm tasting,tour,island,Enjoyed tasting,https://www.magnificentworld.com/things-to-do-in-phu-quoc/
+en-007,en,couple,,False,medium,partial,,,3,afternoon,Starfish Beach,beach,north,"Clear water but rough road, dead starfish",https://www.magnificentworld.com/things-to-do-in-phu-quoc/
+en-008,en,solo,9,False,high,partial,,,1,morning,Sao Beach,beach,south,"Favourite beach, about an hour from Duong Dong",https://explorertom.com/en/is-phu-quoc-worth-visiting/
+en-008,en,solo,9,False,high,partial,,,1,sunset,Sunset Town,sight,south,Evening livelier than on first visit,https://explorertom.com/en/is-phu-quoc-worth-visiting/
+en-008,en,solo,9,False,high,partial,,,2,morning,DT973 scooter ride and Suoi Tien trail,activity,north,Quiet green road; trail slippery when wet,https://explorertom.com/en/is-phu-quoc-worth-visiting/
+en-008,en,solo,9,False,high,partial,,,2,evening,Duong Dong restaurants,food,central,Convenient and reasonably priced,https://explorertom.com/en/is-phu-quoc-worth-visiting/
+en-009,en,unknown,3,True,high,partial,,,1,sunset,Sunset Town golden hour,sight,south,Photogenic streets at golden hour,https://ph.trip.com/moments/poi-turtle-head-vpl-142892833
+en-009,en,unknown,3,True,high,partial,,,1,afternoon,Hon Thom cable car,activity,south,Aerial bay views,https://ph.trip.com/moments/poi-turtle-head-vpl-142892833
+en-009,en,unknown,3,True,high,partial,,,2,morning,VinWonders and Vinpearl Safari,activity,north,"Aquarium tunnel and animals, a big yes",https://ph.trip.com/moments/poi-turtle-head-vpl-142892833
+en-009,en,unknown,3,True,high,partial,,,3,morning,Island hopping,tour,island,Swimming and white-sand beach stops,https://ph.trip.com/moments/poi-turtle-head-vpl-142892833
+en-010,en,unknown,3,False,medium,rich,,,1,morning,Vinpearl Safari,activity,north,Giraffe feeding,https://ph.trip.com/moments/poi-khem-beach-36232051
+en-010,en,unknown,3,False,medium,rich,,,1,evening,Grand World fountain show,show,north,Afternoon and evening at Grand World,https://ph.trip.com/moments/poi-khem-beach-36232051
+en-010,en,unknown,3,False,medium,rich,,,2,morning,Hon Thom cable car and water park,activity,south,Full south day,https://ph.trip.com/moments/poi-khem-beach-36232051
+en-010,en,unknown,3,False,medium,rich,,,2,afternoon,Khem Beach,beach,south,Beach before evening,https://ph.trip.com/moments/poi-khem-beach-36232051
+en-010,en,unknown,3,False,medium,rich,,,2,evening,Sunset Town night market and Kiss of the Sea,show,south,Show not on Tuesdays,https://ph.trip.com/moments/poi-khem-beach-36232051
+en-010,en,unknown,3,False,medium,rich,,,3,morning,Hotel pool,rest,central,Relaxed morning,https://ph.trip.com/moments/poi-khem-beach-36232051
+en-010,en,unknown,3,False,medium,rich,,,3,sunset,Sunset Sanato,beach,central,Sunset spot,https://ph.trip.com/moments/poi-khem-beach-36232051
+en-010,en,unknown,3,False,medium,rich,,,3,evening,Duong Dong Night Market,food,central,Dinner and stalls,https://ph.trip.com/moments/poi-khem-beach-36232051
+en-010,en,unknown,3,False,medium,rich,,,4,morning,King Kong Mart shopping and massage,shopping,central,Last-day shopping,https://ph.trip.com/moments/poi-khem-beach-36232051
+en-010,en,unknown,3,False,medium,rich,,,4,afternoon,Airport,transport,central,Departure,https://ph.trip.com/moments/poi-khem-beach-36232051
+en-011,en,unknown,,True,unknown,partial,,,1,afternoon,Sunset Town walk,sight,south,Wander streets,https://ph.trip.com/moments/poi-khem-beach-36232051
+en-011,en,unknown,,True,unknown,partial,,,1,sunset,Kiss Bridge,sight,south,Sunset from bridge,https://ph.trip.com/moments/poi-khem-beach-36232051
+en-011,en,unknown,,True,unknown,partial,,,2,morning,Hon Thom cable car,activity,south,Go around 10:00 to 10:30,https://ph.trip.com/moments/poi-khem-beach-36232051
+en-011,en,unknown,,True,unknown,partial,,,2,evening,Evening shows in Sunset Town,show,south,Shows after island day,https://ph.trip.com/moments/poi-khem-beach-36232051
+en-011,en,unknown,,True,unknown,partial,,,3,afternoon,Khem Beach,beach,south,Beach time,https://ph.trip.com/moments/poi-khem-beach-36232051
+en-011,en,unknown,,True,unknown,partial,,,3,night,Symphony of the Sea,show,south,Show to close trip,https://ph.trip.com/moments/poi-khem-beach-36232051
+en-012,en,unknown,,True,high,partial,,,1,morning,Khem Beach 11:00-14:00,beach,south,Calm sea swim,https://ph.trip.com/moments/poi-khem-beach-36232051
+en-012,en,unknown,,True,high,partial,,,1,afternoon,Rest break,rest,south,Mid-day rest,https://ph.trip.com/moments/poi-khem-beach-36232051
+en-012,en,unknown,,True,high,partial,,,1,sunset,Sunset Town promenade,sight,south,Mediterranean architecture at sunset,https://ph.trip.com/moments/poi-khem-beach-36232051
+en-012,en,unknown,,True,high,partial,,,1,night,Kiss of the Sea and fireworks 21:00,show,south,Fireworks enjoyed; taxi back,https://ph.trip.com/moments/poi-khem-beach-36232051
+en-013,en,unknown,2,False,high,partial,,,1,afternoon,Long Beach and hotel check-in,checkin,central,Relaxed at beach and infinity pool,https://ph.trip.com/moments/detail/long-beach-1445252-132160057
+en-013,en,unknown,2,False,high,partial,,,2,morning,Starfish Beach,beach,north,Day trip out from Long Beach,https://ph.trip.com/moments/detail/long-beach-1445252-132160057
+en-013,en,unknown,2,False,high,partial,,,2,evening,Sunset Town and sea fireworks,show,south,Free fireworks show,https://ph.trip.com/moments/detail/long-beach-1445252-132160057
+en-013,en,unknown,2,False,high,partial,,,3,morning,"Sunset Town return, cross-sea cable car",activity,south,Visit before noon for deep blue sea,https://ph.trip.com/moments/detail/long-beach-1445252-132160057
+en-014,en,family_kids,3,True,high,partial,,,1,morning,Duong Dong Town and supermarket stop,shopping,central,Passed through town and VuiFest,https://uk.trip.com/moments/poi-teddy-bear-museum-137926082
+en-014,en,family_kids,3,True,high,partial,,,1,evening,Sunset Town and Kiss Bridge,sight,south,Watched 9:30pm fireworks from apartment balcony,https://uk.trip.com/moments/poi-teddy-bear-museum-137926082
+en-014,en,family_kids,3,True,high,partial,,,2,morning,Hon Thom cable car and Aquatopia,activity,south,Full day on Hon Thom,https://uk.trip.com/moments/poi-teddy-bear-museum-137926082
+en-014,en,family_kids,3,True,high,partial,,,2,evening,Grand World and night show,show,north,Moved to homestay inside Grand World,https://uk.trip.com/moments/poi-teddy-bear-museum-137926082
+en-015,en,unknown,4,True,unknown,partial,,,1,morning,Free VinBus to VinWonders / Vinpearl Safari,activity,north,Two-day pass covered park days,https://uk.trip.com/moments/poi-teddy-bear-museum-137926082
+en-015,en,unknown,4,True,unknown,partial,,,1,evening,Grand World,sight,north,Evening walk,https://uk.trip.com/moments/poi-teddy-bear-museum-137926082
+en-015,en,unknown,4,True,unknown,partial,,,3,morning,Hon Thom cable car,activity,south,South days after moving hotels,https://uk.trip.com/moments/poi-teddy-bear-museum-137926082
+en-015,en,unknown,4,True,unknown,partial,,,3,evening,"Sunset Town, Kiss Bridge, VUI Fest",sight,south,Evening in Sunset Town,https://uk.trip.com/moments/poi-teddy-bear-museum-137926082
+en-015,en,unknown,4,True,unknown,partial,,,5,morning,Central zone shopping,shopping,central,Last-day shopping,https://uk.trip.com/moments/poi-teddy-bear-museum-137926082
+en-016,en,unknown,4,False,medium,partial,,late,1,night,Squid pot dinner,food,north,Late arrival dinner,https://uk.trip.com/moments/poi-teddy-bear-museum-137926082
+en-016,en,unknown,4,False,medium,partial,,late,2,afternoon,Grand World and Teddy Bear Museum,sight,north,Standard north day,https://uk.trip.com/moments/poi-teddy-bear-museum-137926082
+en-016,en,unknown,4,False,medium,partial,,late,3,lunch,The Home Pizza,food,central,Pizza praised,https://uk.trip.com/moments/poi-teddy-bear-museum-137926082
+en-016,en,unknown,4,False,medium,partial,,late,3,evening,Night market and KingKong supermarket,shopping,central,Evening shopping,https://uk.trip.com/moments/poi-teddy-bear-museum-137926082
+en-016,en,unknown,4,False,medium,partial,,late,4,morning,Sunset Town,sight,south,Long transfer from far north,https://uk.trip.com/moments/poi-teddy-bear-museum-137926082
+en-016,en,unknown,4,False,medium,partial,,late,4,afternoon,Sun World cable car,activity,south,Return queue crowded around 5pm,https://uk.trip.com/moments/poi-teddy-bear-museum-137926082
+en-016,en,unknown,4,False,medium,partial,,late,5,morning,Airport,transport,north,Departure,https://uk.trip.com/moments/poi-teddy-bear-museum-137926082
+en-017,en,solo,21,False,high,partial,,,1,afternoon,Speedboat island-hopping tour,tour,island,Booked from Duong Dong,https://www.goatsontheroad.com/?p=160562
+en-017,en,solo,21,False,high,partial,,,1,evening,Dinh Cau Night Market,food,central,Street food tour also done,https://www.goatsontheroad.com/?p=160562
+en-017,en,solo,21,False,high,partial,,,1,evening,Sonasea night market,food,central,Ranked among favourite Vietnam night markets,https://www.goatsontheroad.com/?p=160562
+vi-001,vi,group,2,False,unknown,rich,,morning,1,morning,Grand World,sight,north,차량 대절 후 약 30분 짧게 들름,https://cuongdulich.com/dia-diem/3033-du-lich-phu-quoc-3-ngay-2-dem.html
+vi-001,vi,group,2,False,unknown,rich,,morning,1,lunch,VinWonders / Magic of Giza,food,north,VinWonders 입장 후 세트 점심,https://cuongdulich.com/dia-diem/3033-du-lich-phu-quoc-3-ngay-2-dem.html
+vi-001,vi,group,2,False,unknown,rich,,morning,1,evening,Once show,show,north,VinWonders 야간 공연 관람,https://cuongdulich.com/dia-diem/3033-du-lich-phu-quoc-3-ngay-2-dem.html
+vi-001,vi,group,2,False,unknown,rich,,morning,1,night,"Grand World shows (Tinh Hoa Viet Nam, Venice)",show,north,전동카트로 이동해 두 공연 연속 관람,https://cuongdulich.com/dia-diem/3033-du-lich-phu-quoc-3-ngay-2-dem.html
+vi-001,vi,group,2,False,unknown,rich,,morning,2,early_morning,An Thoi port -> Hon Thom cable car,transport,south,"07시 체크아웃 후 70분 이동, 케이블카 탑승",https://cuongdulich.com/dia-diem/3033-du-lich-phu-quoc-3-ngay-2-dem.html
+vi-001,vi,group,2,False,unknown,rich,,morning,2,morning,"Island boat tour (Mong Tay, Gam Ghi, May Rut)",tour,island,"섬 5곳 보트투어, 감기 섬에서 스노클링",https://cuongdulich.com/dia-diem/3033-du-lich-phu-quoc-3-ngay-2-dem.html
+vi-001,vi,group,2,False,unknown,rich,,morning,2,afternoon,Hon Thom water park,activity,south,"14:30경 도착, 16:15 퇴장해 막차 17시 탑승",https://cuongdulich.com/dia-diem/3033-du-lich-phu-quoc-3-ngay-2-dem.html
+vi-001,vi,group,2,False,unknown,rich,,morning,2,evening,Bun quay Kien Xay / night market,food,central,리조트 복귀 전 쌀국수 저녁과 야시장,https://cuongdulich.com/dia-diem/3033-du-lich-phu-quoc-3-ngay-2-dem.html
+vi-001,vi,group,2,False,unknown,rich,,morning,3,morning,Beach swim / ruoc collecting,beach,central,아침 해변에서 수영과 작은 새우 채집,https://cuongdulich.com/dia-diem/3033-du-lich-phu-quoc-3-ngay-2-dem.html
+vi-001,vi,group,2,False,unknown,rich,,morning,3,morning,"Ngoc Hien pearl farm, Sim Son wine shop",shopping,central,체크아웃 후 진주농장과 시무화주 가게,https://cuongdulich.com/dia-diem/3033-du-lich-phu-quoc-3-ngay-2-dem.html
+vi-001,vi,group,2,False,unknown,rich,,morning,3,lunch,Hanh Nhung restaurant,food,central,11:30 점심 후 13:30 공항으로 출발,https://cuongdulich.com/dia-diem/3033-du-lich-phu-quoc-3-ngay-2-dem.html
+vi-002,vi,friends,2,True,high,rich,operator,morning,1,morning,An Thoi market,food,south,공항 픽업 후 10시경 해산물 국수와 커피,https://buiphuquoc.com/nam-dao-phu-quoc-co-gi/
+vi-002,vi,friends,2,True,high,rich,operator,morning,1,morning,Phu Quoc Prison,sight,south,옛 수용소 유적 방문,https://buiphuquoc.com/nam-dao-phu-quoc-co-gi/
+vi-002,vi,friends,2,True,high,rich,operator,morning,1,lunch,An Thoi seafood lunch,food,south,"게, 오징어구이 등 해산물 점심",https://buiphuquoc.com/nam-dao-phu-quoc-co-gi/
+vi-002,vi,friends,2,True,high,rich,operator,morning,1,afternoon,Bai Sao,beach,south,물이 잔잔하고 맑은 해변에서 휴식,https://buiphuquoc.com/nam-dao-phu-quoc-co-gi/
+vi-002,vi,friends,2,True,high,rich,operator,morning,1,sunset,Sunset Town,sight,south,17시경 도착해 사진 촬영과 저녁,https://buiphuquoc.com/nam-dao-phu-quoc-co-gi/
+vi-002,vi,friends,2,True,high,rich,operator,morning,2,early_morning,Bai Khem sunrise,sight,south,이른 아침 일출 감상,https://buiphuquoc.com/nam-dao-phu-quoc-co-gi/
+vi-002,vi,friends,2,True,high,rich,operator,morning,2,morning,"3-island boat tour (Mong Tay, Gam Ghi, May Rut)",tour,island,스노클링과 섬 점심,https://buiphuquoc.com/nam-dao-phu-quoc-co-gi/
+vi-002,vi,friends,2,True,high,rich,operator,morning,2,sunset,Kiss Bridge,sight,south,오후 해질녘 키스 브릿지,https://buiphuquoc.com/nam-dao-phu-quoc-co-gi/
+vi-002,vi,friends,2,True,high,rich,operator,morning,2,evening,Vui Fest night market + Kiss the Stars show,show,south,야시장 후 공연과 불꽃놀이,https://buiphuquoc.com/nam-dao-phu-quoc-co-gi/
+vi-002,vi,friends,2,True,high,rich,operator,morning,3,early_morning,Hon Thom cable car,activity,south,이른 시간 케이블카 탑승,https://buiphuquoc.com/nam-dao-phu-quoc-co-gi/
+vi-002,vi,friends,2,True,high,rich,operator,morning,3,morning,Aquatopia water park + beach,activity,island,"워터파크 후 카약, SUP",https://buiphuquoc.com/nam-dao-phu-quoc-co-gi/
+vi-002,vi,friends,2,True,high,rich,operator,morning,3,lunch,Seafood buffet on Hon Thom,food,island,섬에서 해산물 뷔페,https://buiphuquoc.com/nam-dao-phu-quoc-co-gi/
+vi-002,vi,friends,2,True,high,rich,operator,morning,3,afternoon,Fish sauce factory,shopping,central,공항 가는 길 기념품 쇼핑,https://buiphuquoc.com/nam-dao-phu-quoc-co-gi/
+vi-003,vi,solo,1,False,medium,rich,,morning,1,morning,Ha Tien boat arrival + motorbike rental,transport,central,"09:30 도착, 오토바이 빌리고 체크인",https://phuquocxanh.com/vi/di-du-lich-phu-quoc-2-ngay-1-dem-tu-tuc/
+vi-003,vi,solo,1,False,medium,rich,,morning,1,afternoon,Pearl showroom,shopping,south,13시경 진주 매장 구경,https://phuquocxanh.com/vi/di-du-lich-phu-quoc-2-ngay-1-dem-tu-tuc/
+vi-003,vi,solo,1,False,medium,rich,,morning,1,afternoon,Bai Sao (My Lan section),beach,south,14:30 해변에서 휴식,https://phuquocxanh.com/vi/di-du-lich-phu-quoc-2-ngay-1-dem-tu-tuc/
+vi-003,vi,solo,1,False,medium,rich,,morning,1,afternoon,Phu Quoc Prison,sight,south,16:30 수용소 유적 방문,https://phuquocxanh.com/vi/di-du-lich-phu-quoc-2-ngay-1-dem-tu-tuc/
+vi-003,vi,solo,1,False,medium,rich,,morning,1,sunset,An Thoi sunset,sight,south,17:30 일몰 감상,https://phuquocxanh.com/vi/di-du-lich-phu-quoc-2-ngay-1-dem-tu-tuc/
+vi-003,vi,solo,1,False,medium,rich,,morning,1,evening,Seafood near Bai Sao,food,south,18:20 현지 해산물 저녁,https://phuquocxanh.com/vi/di-du-lich-phu-quoc-2-ngay-1-dem-tu-tuc/
+vi-003,vi,solo,1,False,medium,rich,,morning,1,night,Night market,shopping,central,21:30 야시장과 야자당 음료,https://phuquocxanh.com/vi/di-du-lich-phu-quoc-2-ngay-1-dem-tu-tuc/
+vi-003,vi,solo,1,False,medium,rich,,morning,2,morning,Dinh Cau,sight,central,08:00 사당 방문,https://phuquocxanh.com/vi/di-du-lich-phu-quoc-2-ngay-1-dem-tu-tuc/
+vi-003,vi,solo,1,False,medium,rich,,morning,2,morning,Suoi Tranh,sight,central,"약 5km 걸어서 폭포, 물이 거의 없음",https://phuquocxanh.com/vi/di-du-lich-phu-quoc-2-ngay-1-dem-tu-tuc/
+vi-003,vi,solo,1,False,medium,rich,,morning,2,lunch,Ham Ninh,food,central,점심 후 13시 마지막 배로 출발,https://phuquocxanh.com/vi/di-du-lich-phu-quoc-2-ngay-1-dem-tu-tuc/
+ru-001,ru,couple,11,False,medium,partial,,,,evening,Sunset Town,sight,south,저녁 쇼와 불꽃놀이가 좋아 추천,https://tophotels.ru/review/2747555
+ru-001,ru,couple,11,False,medium,partial,,,,morning,"Sightseeing tour (temple, shops)",tour,unknown,쇼핑 위주라 시간 낭비로 느낌,https://tophotels.ru/review/2747555
+ru-001,ru,couple,11,False,medium,partial,,,,morning,"Island tour (snorkeling, Pineapple Island)",tour,island,"스노클링 실망, 케이블카가 하이라이트",https://tophotels.ru/review/2747555
+ru-001,ru,couple,11,False,medium,partial,,,,morning,Safari park,sight,north,동물 관리는 좋으나 시설은 낡음,https://tophotels.ru/review/2747555
+ru-001,ru,couple,11,False,medium,partial,,,,afternoon,Spa,massage,unknown,"한 번 이용, 야외 마사지가 더 저렴",https://tophotels.ru/review/2747555
+ru-002,ru,couple,,False,high,partial,,,,morning,Khem Beach,beach,south,자유 일정으로 해변 방문,https://tonkosti.ru/otzyv/Ochen-hochu-syuda-vernutsya_—_o-Fukuoke-269271814
+ru-002,ru,couple,,False,high,partial,,,,afternoon,Safari park,sight,north,기린 먹이주기 체험,https://tonkosti.ru/otzyv/Ochen-hochu-syuda-vernutsya_—_o-Fukuoke-269271814
+ru-002,ru,couple,,False,high,partial,,,,afternoon,"Suoi Trang, Ho Quoc pagoda",sight,central,조용한 폭포와 사원 방문,https://tonkosti.ru/otzyv/Ochen-hochu-syuda-vernutsya_—_o-Fukuoke-269271814
+ru-002,ru,couple,,False,high,partial,,,,evening,Night market,shopping,central,상품이 반복적이라 아쉬움,https://tonkosti.ru/otzyv/Ochen-hochu-syuda-vernutsya_—_o-Fukuoke-269271814
+ru-002,ru,couple,,False,high,partial,,,,morning,Private full-day island car tour,tour,unknown,개인 가이드와 관광객 적은 곳 위주,https://tonkosti.ru/otzyv/Ochen-hochu-syuda-vernutsya_—_o-Fukuoke-269271814
+ru-002,ru,couple,,False,high,partial,,,,morning,Snorkeling group boat,tour,island,운영이 허술했음,https://tonkosti.ru/otzyv/Ochen-hochu-syuda-vernutsya_—_o-Fukuoke-269271814
+ru-003,ru,unknown,,True,medium,partial,,,,afternoon,Sunset Town streets,sight,south,"거리 산책, 건축이 생각보다 탄탄",https://ezdili-znaem.com/sunset-town-phu-quoc/
+ru-003,ru,unknown,,True,medium,partial,,,,sunset,Sunset Town sunset,sight,south,건물 사이로 보는 일몰,https://ezdili-znaem.com/sunset-town-phu-quoc/
+ru-003,ru,unknown,,True,medium,partial,,,,evening,Vui Phet night market,shopping,south,케밥 등 야시장 먹거리,https://ezdili-znaem.com/sunset-town-phu-quoc/
+ru-003,ru,unknown,,True,medium,partial,,,,night,Shows and fireworks from hotel balcony,show,south,호텔 발코니에서 공연과 불꽃놀이 관람,https://ezdili-znaem.com/sunset-town-phu-quoc/
+ru-004,ru,couple,,False,high,partial,,afternoon,1,afternoon,Arrival on Phu Quoc,transport,central,"정오경 도착, 국내선 지연으로 고생",https://otzovik.com/review_6085411.html
+ru-004,ru,couple,,False,high,partial,,afternoon,,morning,Long Beach,beach,central,잔잔한 바다에서 해수욕과 해변 마사지,https://otzovik.com/review_6085411.html
+ru-004,ru,couple,,False,high,partial,,afternoon,,sunset,Sunset cafes,food,central,일몰 보며 해산물 식사,https://otzovik.com/review_6085411.html
+ru-004,ru,couple,,False,high,partial,,afternoon,,morning,Safari park,sight,north,하루 종일 방문,https://otzovik.com/review_6085411.html
+ru-004,ru,couple,,False,high,partial,,afternoon,,afternoon,"Pepper farm, Suoi Tranh",sight,central,"후추농장 방문, 폭포는 건기라 말라 있음",https://otzovik.com/review_6085411.html
+ru-005,ru,friends,,False,medium,partial,,,1,afternoon,Rach Gia ferry to Phu Quoc,transport,unknown,"버스 후 항구 대기, 배로 약 2.5시간",https://tudam.ru/2018/08/11/puteshestvie-po-vetnamu-fukuok/
+ru-005,ru,friends,,False,medium,partial,,,1,evening,Taxi from remote pier to Duong Dong,transport,central,대중교통 없어 택시로 이동,https://tudam.ru/2018/08/11/puteshestvie-po-vetnamu-fukuok/
+ru-005,ru,friends,,False,medium,partial,,,,morning,"Duong Dong town beach, market, fishing port",sight,central,매일 시장과 항구를 걸어 구경,https://tudam.ru/2018/08/11/puteshestvie-po-vetnamu-fukuok/
+ru-005,ru,friends,,False,medium,partial,,,,afternoon,Long Beach walk,beach,central,한적한 해변을 남쪽으로 산책,https://tudam.ru/2018/08/11/puteshestvie-po-vetnamu-fukuok/
+ja-001,ja,family_kids,,True,medium,rich,,,1,night,Airport taxi to Sunset Town,transport,south,"호치민 경유 야간 도착, 택시가 숙소 찾기 힘들어함",https://4travel.jp/travelogue/11980757
+ja-001,ja,family_kids,,True,medium,rich,,,2,morning,Meet n' eat Homemade Foods,food,south,숙소 근처 식당에서 아침,https://4travel.jp/travelogue/11980757
+ja-001,ja,family_kids,,True,medium,rich,,,2,morning,Sunset Town streets,sight,south,이탈리아풍 거리와 종탑 산책,https://4travel.jp/travelogue/11980757
+ja-001,ja,family_kids,,True,medium,rich,,,2,lunch,Seafood fried rice shop,food,south,해산물 볶음밥 점심 후 해변 산책,https://4travel.jp/travelogue/11980757
+ja-001,ja,family_kids,,True,medium,rich,,,2,sunset,Kiss Bridge,sight,south,"다리 방문, 유료 쇼는 울타리로 가려짐",https://4travel.jp/travelogue/11980757
+ja-001,ja,family_kids,,True,medium,rich,,,2,evening,Night market,shopping,south,비가 와서 좌석 적고 붐비지 않음,https://4travel.jp/travelogue/11980757
+ja-001,ja,family_kids,,True,medium,rich,,,2,night,Fireworks from apartment balcony,show,south,발코니에서 무료로 불꽃놀이 감상,https://4travel.jp/travelogue/11980757
+ja-001,ja,family_kids,,True,medium,rich,,,3,morning,Dugong Mart supermarket,shopping,south,슈퍼에서 후추 구입,https://4travel.jp/travelogue/11980757
+ja-001,ja,family_kids,,True,medium,rich,,,3,afternoon,Former prison camp,sight,south,섬 내 옛 수용소 방문,https://4travel.jp/travelogue/11980757
+ja-001,ja,family_kids,,True,medium,rich,,,3,evening,Hai Bot Quan,food,south,게알새우 볶음밥이 훌륭,https://4travel.jp/travelogue/11980757
+ja-002,ja,solo,4,False,high,rich,,afternoon,1,afternoon,Hotel check-in,checkin,central,16시경 체크인 후 쌀국수와 발마사지,https://4travel.jp/travelogue/12036056
+ja-002,ja,solo,4,False,high,rich,,afternoon,2,morning,Hotel pool and beach,rest,central,조식 후 수영장과 해변,https://4travel.jp/travelogue/12036056
+ja-002,ja,solo,4,False,high,rich,,afternoon,2,evening,Oil massage,massage,central,저녁에 오일 마사지 후 해산물 국수,https://4travel.jp/travelogue/12036056
+ja-002,ja,solo,4,False,high,rich,,afternoon,3,morning,"Seawalker + snorkeling (Xuong, Buom, Gam Ghi)",tour,island,씨워커와 스노클링 체험,https://4travel.jp/travelogue/12036056
+ja-002,ja,solo,4,False,high,rich,,afternoon,3,lunch,May Rut Trong lunch,food,island,섬에서 점심,https://4travel.jp/travelogue/12036056
+ja-002,ja,solo,4,False,high,rich,,afternoon,3,afternoon,Cable car back to main island,activity,south,세계 최장 케이블카로 귀환,https://4travel.jp/travelogue/12036056
+ja-002,ja,solo,4,False,high,rich,,afternoon,3,night,Corona Casino,activity,north,그랩으로 이동해 카지노,https://4travel.jp/travelogue/12036056
+ja-002,ja,solo,4,False,high,rich,,afternoon,4,afternoon,Hotel rest + Thai massage,rest,central,호텔에서 쉬고 태국 마사지,https://4travel.jp/travelogue/12036056
+ja-002,ja,solo,4,False,high,rich,,afternoon,4,evening,Seafood restaurant,food,central,바질 조개가 이번 여행 최고의 식사,https://4travel.jp/travelogue/12036056
+ja-002,ja,solo,4,False,high,rich,,afternoon,5,morning,"Lunch, foot massage",food,central,체크아웃 후 점심과 마사지,https://4travel.jp/travelogue/12036056
+ja-002,ja,solo,4,False,high,rich,,afternoon,5,afternoon,Grab to airport,transport,central,"그랩 20분, 16:50 방콕행 출발",https://4travel.jp/travelogue/12036056
+ja-003,ja,couple,3,False,high,rich,,,1,evening,Town shopping,shopping,central,도착 후 시내에서 쇼핑,https://4travel.jp/travelogue/12027126
+ja-003,ja,couple,3,False,high,rich,,,1,evening,Bong Xinh Restaurant,food,central,게살 볶음밥 저녁,https://4travel.jp/travelogue/12027126
+ja-003,ja,couple,3,False,high,rich,,,1,night,SELINA SPA lymph massage,massage,central,림프 마사지,https://4travel.jp/travelogue/12027126
+ja-003,ja,couple,3,False,high,rich,,,2,morning,Hotel pool,rest,central,풀사이드에서 하루 휴식,https://4travel.jp/travelogue/12027126
+ja-003,ja,couple,3,False,high,rich,,,2,evening,Hotel Spanish restaurant,food,central,파에야와 칼라마리 튀김,https://4travel.jp/travelogue/12027126
+ja-003,ja,couple,3,False,high,rich,,,2,sunset,Sunset viewing,sight,central,일몰 감상 후 시내 피자,https://4travel.jp/travelogue/12027126
+ja-003,ja,couple,3,False,high,rich,,,3,morning,Pool and hotel,rest,central,전날과 비슷하게 휴식,https://4travel.jp/travelogue/12027126
+ja-003,ja,couple,3,False,high,rich,,,4,morning,Hotel breakfast and checkout,checkin,central,조식 후 택시로 공항,https://4travel.jp/travelogue/12027126
+ja-003,ja,couple,3,False,high,rich,,,4,afternoon,Ho Chi Minh City sightseeing,sight,unknown,호치민에서 시내 관광 후 야간 귀국편,https://4travel.jp/travelogue/12027126
+ja-004,ja,family_kids,6,True,medium,partial,,,1,morning,Walk to cable car station,transport,south,"호텔에서 걸어서 역까지, 지도에 없는 지름길",https://4travel.jp/travelogue/12027764
+ja-004,ja,family_kids,6,True,medium,partial,,,1,morning,Hon Thom cable car,activity,south,"9시경 탑승, 대기 약 15분, 20분 소요",https://4travel.jp/travelogue/12027764
+ja-004,ja,family_kids,6,True,medium,partial,,,1,morning,Hon Thom water park,activity,island,락커 줄과 슬라이드 30분 대기,https://4travel.jp/travelogue/12027764
+ja-004,ja,family_kids,6,True,medium,partial,,,1,lunch,Sun Buns burgers,food,island,풀사이드 버거,https://4travel.jp/travelogue/12027764
+ja-004,ja,family_kids,6,True,medium,partial,,,1,sunset,Cable car back,activity,south,17시경 40분 줄 후 일몰 전망,https://4travel.jp/travelogue/12027764
+ja-004,ja,family_kids,6,True,medium,partial,,,1,evening,Kiss Bridge + Sun Kraft Beer Garden,food,south,18시 쇼를 놓치고 다리와 저녁,https://4travel.jp/travelogue/12027764
+ja-004,ja,family_kids,6,True,medium,partial,,,1,night,Kiss of the Sea show,show,south,"21시 공연, 마지막 불꽃놀이",https://4travel.jp/travelogue/12027764
+south-001,ko,family_kids,4,True,medium,rich,promo_or_affiliate,,1,early_morning,Airport massage,massage,unknown,착륙 직후 공항 픽업 마사지로 바로 이동,https://www.yeogi.com/content/tripholic-ob-vn-phu-quoc-3-hotels-review
+south-001,ko,family_kids,4,True,medium,rich,promo_or_affiliate,,1,morning,Vinpearl Safari,tour,north,동물을 가까이서 볼 수 있어 만족,https://www.yeogi.com/content/tripholic-ob-vn-phu-quoc-3-hotels-review
+south-001,ko,family_kids,4,True,medium,rich,promo_or_affiliate,,1,afternoon,Crown Starbay check-in,checkin,north,"15시 체크인, 얼리 불가라 로비에서 대기",https://www.yeogi.com/content/tripholic-ob-vn-phu-quoc-3-hotels-review
+south-001,ko,family_kids,4,True,medium,rich,promo_or_affiliate,,1,evening,Grand World + fountain show,show,north,"무료 셔틀 이용, 분수쇼는 앞쪽 다리에서 관람",https://www.yeogi.com/content/tripholic-ob-vn-phu-quoc-3-hotels-review
+south-001,ko,family_kids,4,True,medium,rich,promo_or_affiliate,,2,lunch,La Festa check-in,checkin,south,"12시 반 도착, 얼리 체크인 가능했음",https://www.yeogi.com/content/tripholic-ob-vn-phu-quoc-3-hotels-review
+south-001,ko,family_kids,4,True,medium,rich,promo_or_affiliate,,2,afternoon,Hon Thom cable car & water park,tour,south,"호텔에서 도보 5분, 체크인 직후 방문",https://www.yeogi.com/content/tripholic-ob-vn-phu-quoc-3-hotels-review
+south-001,ko,family_kids,4,True,medium,rich,promo_or_affiliate,,2,evening,Show in front of hotel + night market,show,south,호텔 앞 공연 후 야시장 구경,https://www.yeogi.com/content/tripholic-ob-vn-phu-quoc-3-hotels-review
+south-001,ko,family_kids,4,True,medium,rich,promo_or_affiliate,,2,night,Fireworks from room,rest,south,객실에서 불꽃놀이 관람,https://www.yeogi.com/content/tripholic-ob-vn-phu-quoc-3-hotels-review
+south-001,ko,family_kids,4,True,medium,rich,promo_or_affiliate,,3,morning,Hotel breakfast,food,south,호텔 조식 후 이동,https://www.yeogi.com/content/tripholic-ob-vn-phu-quoc-3-hotels-review
+south-001,ko,family_kids,4,True,medium,rich,promo_or_affiliate,,3,afternoon,Cam Beach (free hotel shuttle),beach,unknown,"무료 셔틀로 이동, 복귀는 버기 이용",https://www.yeogi.com/content/tripholic-ob-vn-phu-quoc-3-hotels-review
+south-001,ko,family_kids,4,True,medium,rich,promo_or_affiliate,,4,morning,Move to Regent,transport,central,중부 리젠트로 이동해 리조트 시설 위주로 보냄,https://www.yeogi.com/content/tripholic-ob-vn-phu-quoc-3-hotels-review
+south-001,ko,family_kids,4,True,medium,rich,promo_or_affiliate,,5,early_morning,Regent yoga + breakfast,activity,central,"7시 요가 후 조식, 이후 출국으로 추정",https://www.yeogi.com/content/tripholic-ob-vn-phu-quoc-3-hotels-review
+south-002,ko,unknown,,True,high,partial,promo_or_affiliate,,1,afternoon,La Festa check-in (from New World),checkin,south,같은 날 뉴월드에서 체크아웃 후 이동,https://www.yeogi.com/content/tripholic-ob-vn-phu-quoc-la-festa-hilton
+south-002,ko,unknown,,True,high,partial,promo_or_affiliate,,1,sunset,Symphony of the Sea from room,show,south,오션뷰 객실 발코니에서 무료로 관람,https://www.yeogi.com/content/tripholic-ob-vn-phu-quoc-la-festa-hilton
+south-002,ko,unknown,,True,high,partial,promo_or_affiliate,,1,night,Kiss of the Sea (hotel ticket),show,south,호텔 제공 티켓으로 두 번 관람,https://www.yeogi.com/content/tripholic-ob-vn-phu-quoc-la-festa-hilton
+south-002,ko,unknown,,True,high,partial,promo_or_affiliate,,2,morning,Hotel breakfast & rooftop,food,south,"조식 만족, 옥상 라운지 바다 전망",https://www.yeogi.com/content/tripholic-ob-vn-phu-quoc-la-festa-hilton
+south-002,ko,unknown,,True,high,partial,promo_or_affiliate,,2,morning,Kiss Bridge photos,sight,south,한적한 이른 시간대 촬영 추천,https://www.yeogi.com/content/tripholic-ob-vn-phu-quoc-la-festa-hilton
+south-003,en,couple,1,True,high,partial,promo_or_affiliate,,1,afternoon,La Festa check-in,checkin,south,직원이 불꽃놀이·수영장·조식 안내,https://www.trvlogue.com/en/la-festa-phu-quoc-review
+south-003,en,couple,1,True,high,partial,promo_or_affiliate,,1,night,Kiss of the Sea (free hotel tickets),show,south,숙박 포함 무료 티켓으로 관람,https://www.trvlogue.com/en/la-festa-phu-quoc-review
+south-003,en,couple,1,True,high,partial,promo_or_affiliate,,1,night,Fireworks from room,rest,south,객실 창가에서 물쇼와 불꽃놀이 감상,https://www.trvlogue.com/en/la-festa-phu-quoc-review
+south-003,en,couple,1,True,high,partial,promo_or_affiliate,,2,morning,"Hotel breakfast (pho, bread)",food,south,조식 쌀국수와 빵 호평,https://www.trvlogue.com/en/la-festa-phu-quoc-review
+south-003,en,couple,1,True,high,partial,promo_or_affiliate,,2,morning,Pool,rest,south,조용하고 넓은 수영장 이용,https://www.trvlogue.com/en/la-festa-phu-quoc-review
+south-004,en,unknown,4,True,medium,rich,operator,,1,afternoon,Hotel check-in & beach,checkin,south,하노이에서 도착해 체크인 후 해변 휴식,https://www.vietnamparadisetravel.com/blog/phu-quoc-5-day-itinerary-travel-guide
+south-004,en,unknown,4,True,medium,rich,operator,,1,evening,Light dinner,food,unknown,가벼운 저녁으로 마무리,https://www.vietnamparadisetravel.com/blog/phu-quoc-5-day-itinerary-travel-guide
+south-004,en,unknown,4,True,medium,rich,operator,,2,morning,"Dinh Cau, pearl showroom, Grand World, Prison",sight,central,서부·북부 명소를 한 번에 순회,https://www.vietnamparadisetravel.com/blog/phu-quoc-5-day-itinerary-travel-guide
+south-004,en,unknown,4,True,medium,rich,operator,,2,sunset,Sunset Town & Kiss Bridge,sight,south,저녁 무렵 키스브릿지 방문,https://www.vietnamparadisetravel.com/blog/phu-quoc-5-day-itinerary-travel-guide
+south-004,en,unknown,4,True,medium,rich,operator,,3,morning,Speedboat An Thoi to Hon Xuong,tour,island,"편도 10-15달러, 양식장 방문과 수영",https://www.vietnamparadisetravel.com/blog/phu-quoc-5-day-itinerary-travel-guide
+south-004,en,unknown,4,True,medium,rich,operator,,3,evening,Sunset Town fireworks,show,south,섬 투어 후 선셋타운 불꽃놀이로 마무리,https://www.vietnamparadisetravel.com/blog/phu-quoc-5-day-itinerary-travel-guide
+south-004,en,unknown,4,True,medium,rich,operator,,4,morning,Vinpearl Safari & VinWonders,activity,north,하루 종일 북부 테마파크,https://www.vietnamparadisetravel.com/blog/phu-quoc-5-day-itinerary-travel-guide
+south-004,en,unknown,4,True,medium,rich,operator,,5,morning,Beach morning then airport,beach,unknown,마지막 오전 해변 후 공항 이동,https://www.vietnamparadisetravel.com/blog/phu-quoc-5-day-itinerary-travel-guide
