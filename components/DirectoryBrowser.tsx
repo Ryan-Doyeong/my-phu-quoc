@@ -1,5 +1,6 @@
 "use client"
 
+import { buildGoogleMapsUrl } from '@/lib/mapsLink'
 import Link from 'next/link'
 import { useMemo, useState } from 'react'
 import {
@@ -227,10 +228,8 @@ function BusinessCard({ b, locale }: { b: Business; locale: Locale }) {
                 onClick={(e) => {
                   e.preventDefault()
                   e.stopPropagation()
-                  const url =
-                    b.google_maps_url ||
-                    `https://www.google.com/maps/place/?q=place_id:${b.google_place_id}`
-                  window.open(url, '_blank', 'noopener,noreferrer')
+                  const url = buildGoogleMapsUrl(b)
+                  if (url) window.open(url, '_blank', 'noopener,noreferrer')
                 }}
               >
                 📍 {MAP_LINK_LABEL[locale] || MAP_LINK_LABEL.en}

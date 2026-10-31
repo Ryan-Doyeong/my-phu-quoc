@@ -1,4 +1,5 @@
 import { ContextCta } from '@/components/ContextCta'
+import { buildGoogleMapsUrl } from '@/lib/mapsLink'
 import Link from 'next/link'
 import { notFound, redirect } from 'next/navigation'
 import type { Metadata } from 'next'
@@ -764,7 +765,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
               <GoogleReviewAnalysisCard
                 analysis={reviewAnalysis}
                 businessName={businessDisplayName}
-                googleMapsUrl={b.google_maps_url}
+                googleMapsUrl={buildGoogleMapsUrl(b)}
                 locale={locale}
               />
             )}

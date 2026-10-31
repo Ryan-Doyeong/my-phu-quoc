@@ -1,4 +1,5 @@
 import React from 'react'
+import { buildGoogleMapsUrl } from '@/lib/mapsLink'
 import Link from 'next/link'
 import type { Locale } from '@/lib/i18n/config'
 import { localePath, dateLocaleFor } from '@/lib/i18n/config'
@@ -320,10 +321,10 @@ export function PracticalInfoCard({
       </div>
 
       {/* Google Maps Action Button */}
-      {b.google_maps_url && (
+      {buildGoogleMapsUrl(b) && (
         <a
           className="practicalMapBtn"
-          href={b.google_maps_url}
+          href={buildGoogleMapsUrl(b) as string}
           target="_blank"
           rel="noreferrer"
           data-analytics-type="business-map"
