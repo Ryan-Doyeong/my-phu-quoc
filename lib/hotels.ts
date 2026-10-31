@@ -6,6 +6,7 @@ export interface HotelRoom {
   bed?: string
   view?: string
   features?: string
+  photo?: string
 }
 
 export interface HotelSubRatings {
@@ -62,7 +63,7 @@ export interface HotelItem {
   photos: string[]
   agodaUrl: string
   isFeatured?: boolean
-  badgeText?: string
+  strengths?: string[]
   highlightSummary?: string
   googleReviews?: HotelGoogleReview[]
   unverified?: string[]

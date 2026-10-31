@@ -192,6 +192,74 @@
   color: #fef3c7;
 }
 
+.featuredStrengths {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+.featuredStrengthTag {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  padding: 4px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.roomPhotoCell {
+  width: 140px;
+}
+
+.roomPhotoWrap {
+  position: relative;
+  width: 124px;
+  height: 88px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f3f4f6;
+}
+
+.roomPhotoWrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photoSourceTag.roomPhotoSource {
+  bottom: 5px;
+  right: 5px;
+  font-size: 0.6875rem;
+  padding: 2px 6px;
+}
+
+@media (max-width: 640px) {
+  .featuredHeader {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .featuredStrengths {
+    justify-content: flex-start;
+  }
+
+  .roomsTable {
+    min-width: 640px;
+  }
+
+  .roomPhotoCell {
+    width: 96px;
+  }
+
+  .roomPhotoWrap {
+    width: 88px;
+    height: 64px;
+  }
+}
+
 .featuredBody {
   display: grid;
   grid-template-columns: 1.1fr 1fr;

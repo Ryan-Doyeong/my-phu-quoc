@@ -185,9 +185,17 @@ function HotelsPageInner({ hotels, locale = 'en' }: HotelsPageProps) {
           <section className="featuredHotelCard" id="featured-hotel">
             <div className="featuredHeader">
               <span className="featuredBadge">
-                👑 {featuredHotel.badgeText || '마이푸꾸옥 운영 호텔'}
+                👑 {t.featuredBadge}
               </span>
-              <span className="featuredTitleTag">{t.featuredTitle}</span>
+              {featuredHotel.strengths && featuredHotel.strengths.length > 0 ? (
+                <div className="featuredStrengths">
+                  {featuredHotel.strengths.map((s, i) => (
+                    <span key={i} className="featuredStrengthTag">{s}</span>
+                  ))}
+                </div>
+              ) : (
+                <span className="featuredTitleTag">{t.featuredTitle}</span>
+              )}
             </div>
 
             <div className="featuredBody">
@@ -297,6 +305,7 @@ function HotelsPageInner({ hotels, locale = 'en' }: HotelsPageProps) {
                     <table className="roomsTable">
                       <thead>
                         <tr>
+                          <th>{t.roomPhoto}</th>
                           <th>{t.roomName}</th>
                           <th>{t.roomSize}</th>
                           <th>{t.roomBed}</th>
@@ -307,6 +316,22 @@ function HotelsPageInner({ hotels, locale = 'en' }: HotelsPageProps) {
                       <tbody>
                         {featuredHotel.rooms.map((room, idx) => (
                           <tr key={idx}>
+                            <td className="roomPhotoCell">
+                              {room.photo && (
+                                <div className="roomPhotoWrap">
+                                  <img src={room.photo} alt={room.name} loading="lazy" />
+                                  <a
+                                    href={featuredHotel.agodaUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="photoSourceTag roomPhotoSource"
+                                    title={t.photoSource}
+                                  >
+                                    Agoda
+                                  </a>
+                                </div>
+                              )}
+                            </td>
                             <td className="roomNameHighlight">{room.name}</td>
                             <td>{room.size}</td>
                             <td>{room.bed}</td>
@@ -357,7 +382,7 @@ function HotelsPageInner({ hotels, locale = 'en' }: HotelsPageProps) {
                         <div>
                           <div className="reviewAuthorRow">
                             <span className="reviewAuthor">{rev.author}</span>
-                            <span className="reviewSourceTag">{rev.source}</span>
+                            <span className="reviewSourceTag">{t.sourceLabel}: {rev.source}</span>
                           </div>
                           <div className="reviewStars">{'★'.repeat(rev.rating || 5)}</div>
                           <p className="reviewText">{rev.text}</p>
@@ -525,7 +550,7 @@ function HotelsPageInner({ hotels, locale = 'en' }: HotelsPageProps) {
                 <span style={{ color: '#f59e0b', fontWeight: 800 }}>{'★'.repeat(selectedHotel.star)}</span>
                 <span className="cableBadge">🚡 케이블카 {selectedHotel.cable_m}m</span>
                 {selectedHotel.isFeatured && (
-                  <span className="featuredBadge">👑 {selectedHotel.badgeText}</span>
+                  <span className="featuredBadge">👑 {t.featuredBadge}</span>
                 )}
               </div>
 
