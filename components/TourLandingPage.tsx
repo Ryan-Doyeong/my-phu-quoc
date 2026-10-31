@@ -4,8 +4,10 @@ import { Logo } from '@/components/Logo'
 import { MobileMenu } from '@/components/MobileMenu'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { CONTACT_CONFIG } from '@/lib/contactConfig'
+import { buildTelLink, buildWhatsAppLink, buildZaloLink } from '@/lib/contactLinks'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
+import { NAV_ZONE_LABELS } from '@/lib/i18n/uiStrings'
 import { categoryLabel } from '@/lib/directory'
 
 interface TourPoint {
@@ -228,12 +230,12 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
   return (
     <div className="tourLandingWrap">
       {/* Site Header (Common) */}
-      <header className="siteHeader heroHeader">
+      <header className="siteHeader heroHeader tourSiteHeader">
         <Logo locale={locale} />
         <nav className="desktopNav">
           <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
-          <Link href={localePath(locale, '/zones/sunset-town')}>선셋타운</Link>
-          <Link href={localePath(locale, '/zones/khem-beach')}>켐비치</Link>
+          <Link href={localePath(locale, '/zones/sunset-town')}>{NAV_ZONE_LABELS.sunset[locale] || NAV_ZONE_LABELS.sunset.en}</Link>
+          <Link href={localePath(locale, '/zones/khem-beach')}>{NAV_ZONE_LABELS.khem[locale] || NAV_ZONE_LABELS.khem.en}</Link>
           <Link href={localePath(locale, '/directory/dining')}>{categoryLabel('dining', locale)}</Link>
           <Link href={localePath(locale, '/directory/bars')}>{categoryLabel('bars', locale)}</Link>
           <Link href={localePath(locale, '/hotels')}>{categoryLabel('hotels', locale)}</Link>
@@ -248,7 +250,7 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
           >
             ⌕
           </Link>
-          <LanguageSwitcher locale={locale} variant="hero" />
+          <LanguageSwitcher locale={locale} variant="light" />
           <MobileMenu locale={locale} />
         </div>
       </header>
@@ -321,17 +323,19 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
             <svg className="tourPhoneIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
             </svg>
-            <a href={`tel:${CONTACT_CONFIG.phoneNumber}`} className="tourPhoneNumber">
+            <a href={buildTelLink()} className="tourPhoneNumber" data-cta="tel" data-cta-source="tour-page">
               {CONTACT_CONFIG.phoneFormatted}
             </a>
           </div>
 
           <div className="tourContactButtonsLarge">
             <a
-              href={CONTACT_CONFIG.whatsappUrl}
+              href={buildWhatsAppLink()}
               target="_blank"
               rel="noopener noreferrer"
               className="tourBtnLarge tourBtnWhatsapp"
+              data-cta="whatsapp"
+              data-cta-source="tour-page"
             >
               <svg viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12.031 2c-5.509 0-9.989 4.479-9.989 9.988 0 1.758.459 3.473 1.332 4.988L2 22l5.176-1.357a9.96 9.96 0 0 0 4.855 1.258h.004c5.508 0 9.987-4.48 9.987-9.989 0-2.668-1.039-5.176-2.926-7.063A9.924 9.924 0 0 0 12.031 2zm0 18.293c-1.492 0-2.955-.401-4.23-1.159l-.303-.18-3.143.824.839-3.064-.198-.315a8.272 8.272 0 0 1-1.268-4.398c0-4.57 3.719-8.289 8.303-8.289 2.217 0 4.301.864 5.869 2.433a8.243 8.243 0 0 1 2.43 5.87c0 4.57-3.719 8.282-8.307 8.282zm4.555-6.208c-.25-.125-1.479-.73-1.708-.813-.23-.083-.396-.125-.563.125s-.646.813-.792.98c-.146.166-.292.187-.542.062s-1.058-.39-2.016-1.244c-.744-.664-1.246-1.485-1.392-1.735s-.016-.385.109-.51c.112-.112.25-.292.375-.438s.167-.25.25-.417.042-.313-.021-.438c-.063-.125-.563-1.354-.771-1.854-.203-.487-.409-.42-.563-.428-.146-.008-.313-.01-.479-.01s-.438.063-.667.313c-.23.25-.875.855-.875 2.084s.896 2.417 1.021 2.584c.125.166 1.764 2.693 4.274 3.777.597.258 1.063.412 1.427.528.6.19 1.146.163 1.577.099.48-.072 1.479-.604 1.688-1.188s.208-1.083.146-1.188c-.063-.104-.23-.166-.48-.291z" />
@@ -339,10 +343,12 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
               <span>{tourData.whatsappBtn}</span>
             </a>
             <a
-              href={CONTACT_CONFIG.zaloUrl}
+              href={buildZaloLink()}
               target="_blank"
               rel="noopener noreferrer"
               className="tourBtnLarge tourBtnZalo"
+              data-cta="zalo"
+              data-cta-source="tour-page"
             >
               <svg viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12 2C6.477 2 2 6.145 2 11.258c0 2.879 1.442 5.467 3.738 7.159V22l3.473-1.905c.895.247 1.834.382 2.789.382 5.523 0 10-4.145 10-9.258C22 6.145 17.523 2 12 2zm1.096 12.355h-4.39v-1.348l2.673-3.238H8.847V8.419h4.258v1.303l-2.673 3.284h2.664v1.349zm3.504 0h-1.528V8.419h1.528v6.336z" />
@@ -353,47 +359,15 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
         </div>
       </section>
 
-      {/* ⑤ Fixed Floating Contact Widget (Desktop) */}
-      <div className="tourDesktopFixedContact" role="complementary" aria-label="Quick contact">
-        <div className="tourFixedCardWidget">
-          <div className="tourFixedWidgetHeader">
-            <span className="tourFixedWidgetLabel">{tourData.fixedWidgetLabel}</span>
-            <span className="tourFixedWidgetPhone">{CONTACT_CONFIG.phoneFormatted}</span>
-          </div>
-          <div className="tourFixedBtnRow">
-            <a
-              href={CONTACT_CONFIG.whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="tourFixedBtn whatsapp"
-            >
-              <svg viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12.031 2c-5.509 0-9.989 4.479-9.989 9.988 0 1.758.459 3.473 1.332 4.988L2 22l5.176-1.357a9.96 9.96 0 0 0 4.855 1.258h.004c5.508 0 9.987-4.48 9.987-9.989 0-2.668-1.039-5.176-2.926-7.063A9.924 9.924 0 0 0 12.031 2zm0 18.293c-1.492 0-2.955-.401-4.23-1.159l-.303-.18-3.143.824.839-3.064-.198-.315a8.272 8.272 0 0 1-1.268-4.398c0-4.57 3.719-8.289 8.303-8.289 2.217 0 4.301.864 5.869 2.433a8.243 8.243 0 0 1 2.43 5.87c0 4.57-3.719 8.282-8.307 8.282zm4.555-6.208c-.25-.125-1.479-.73-1.708-.813-.23-.083-.396-.125-.563.125s-.646.813-.792.98c-.146.166-.292.187-.542.062s-1.058-.39-2.016-1.244c-.744-.664-1.246-1.485-1.392-1.735s-.016-.385.109-.51c.112-.112.25-.292.375-.438s.167-.25.25-.417.042-.313-.021-.438c-.063-.125-.563-1.354-.771-1.854-.203-.487-.409-.42-.563-.428-.146-.008-.313-.01-.479-.01s-.438.063-.667.313c-.23.25-.875.855-.875 2.084s.896 2.417 1.021 2.584c.125.166 1.764 2.693 4.274 3.777.597.258 1.063.412 1.427.528.6.19 1.146.163 1.577.099.48-.072 1.479-.604 1.688-1.188s.208-1.083.146-1.188c-.063-.104-.23-.166-.48-.291z" />
-              </svg>
-              <span>{tourData.whatsappBtn}</span>
-            </a>
-            <a
-              href={CONTACT_CONFIG.zaloUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="tourFixedBtn zalo"
-            >
-              <svg viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 2C6.477 2 2 6.145 2 11.258c0 2.879 1.442 5.467 3.738 7.159V22l3.473-1.905c.895.247 1.834.382 2.789.382 5.523 0 10-4.145 10-9.258C22 6.145 17.523 2 12 2zm1.096 12.355h-4.39v-1.348l2.673-3.238H8.847V8.419h4.258v1.303l-2.673 3.284h2.664v1.349zm3.504 0h-1.528V8.419h1.528v6.336z" />
-              </svg>
-              <span>{tourData.zaloBtn}</span>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      {/* ⑤ Fixed Bottom Bar (Mobile) */}
-      <div className="tourMobileFixedBar" role="region" aria-label="Mobile quick contact">
+      {/* ⑤ Fixed Bottom Bar (all viewports) */}
+      <div className="tourMobileFixedBar" role="region" aria-label="Quick contact">
         <a
-          href={CONTACT_CONFIG.whatsappUrl}
+          href={buildWhatsAppLink()}
           target="_blank"
           rel="noopener noreferrer"
           className="tourMobileFixedBtn whatsapp"
+          data-cta="whatsapp"
+          data-cta-source="tour-page"
         >
           <svg viewBox="0 0 24 24" fill="currentColor">
             <path d="M12.031 2c-5.509 0-9.989 4.479-9.989 9.988 0 1.758.459 3.473 1.332 4.988L2 22l5.176-1.357a9.96 9.96 0 0 0 4.855 1.258h.004c5.508 0 9.987-4.48 9.987-9.989 0-2.668-1.039-5.176-2.926-7.063A9.924 9.924 0 0 0 12.031 2zm0 18.293c-1.492 0-2.955-.401-4.23-1.159l-.303-.18-3.143.824.839-3.064-.198-.315a8.272 8.272 0 0 1-1.268-4.398c0-4.57 3.719-8.289 8.303-8.289 2.217 0 4.301.864 5.869 2.433a8.243 8.243 0 0 1 2.43 5.87c0 4.57-3.719 8.282-8.307 8.282zm4.555-6.208c-.25-.125-1.479-.73-1.708-.813-.23-.083-.396-.125-.563.125s-.646.813-.792.98c-.146.166-.292.187-.542.062s-1.058-.39-2.016-1.244c-.744-.664-1.246-1.485-1.392-1.735s-.016-.385.109-.51c.112-.112.25-.292.375-.438s.167-.25.25-.417.042-.313-.021-.438c-.063-.125-.563-1.354-.771-1.854-.203-.487-.409-.42-.563-.428-.146-.008-.313-.01-.479-.01s-.438.063-.667.313c-.23.25-.875.855-.875 2.084s.896 2.417 1.021 2.584c.125.166 1.764 2.693 4.274 3.777.597.258 1.063.412 1.427.528.6.19 1.146.163 1.577.099.48-.072 1.479-.604 1.688-1.188s.208-1.083.146-1.188c-.063-.104-.23-.166-.48-.291z" />
@@ -401,15 +375,29 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
           <span>{tourData.whatsappBtn}</span>
         </a>
         <a
-          href={CONTACT_CONFIG.zaloUrl}
+          href={buildZaloLink()}
           target="_blank"
           rel="noopener noreferrer"
           className="tourMobileFixedBtn zalo"
+          data-cta="zalo"
+          data-cta-source="tour-page"
         >
           <svg viewBox="0 0 24 24" fill="currentColor">
             <path d="M12 2C6.477 2 2 6.145 2 11.258c0 2.879 1.442 5.467 3.738 7.159V22l3.473-1.905c.895.247 1.834.382 2.789.382 5.523 0 10-4.145 10-9.258C22 6.145 17.523 2 12 2zm1.096 12.355h-4.39v-1.348l2.673-3.238H8.847V8.419h4.258v1.303l-2.673 3.284h2.664v1.349zm3.504 0h-1.528V8.419h1.528v6.336z" />
           </svg>
           <span>{tourData.zaloBtn}</span>
+        </a>
+        <a
+          href={buildTelLink()}
+          className="tourMobileFixedBtn tel"
+          data-cta="tel"
+          data-cta-source="tour-page"
+          aria-label={CONTACT_CONFIG.phoneFormatted}
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+          </svg>
+          <span className="tourMobileFixedPhone">{CONTACT_CONFIG.phoneFormatted}</span>
         </a>
       </div>
     </div>

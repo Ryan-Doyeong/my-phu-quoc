@@ -219,8 +219,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     ticketSlug: 'hon-thom-cable-car',
     ticketUrl: 'https://www.klook.com/en-US/activity/12871-sun-world-hon-thom-nature-park-cable-car-phu-quoc/?aid=MYPHUQUOC',
     description: {
-      ko: '혼똠섬으로 연결되는 7,899.9m 3선식 논스톱 해상 케이블카의 출발역. 로마 콜로세움을 모티브로 한 아치 건축과 폼페이 전사 동상이 있습니다.',
-      en: "Non-stop 3-rope ocean cable car (7,899.9m). Architectural tribute to Rome's Colosseum with gladiator statues.",
+      ko: '혼똠섬으로 연결되는 7,899m 3선식 논스톱 해상 케이블카의 출발역. 로마 콜로세움을 모티브로 한 아치 건축과 폼페이 전사 동상이 있습니다.',
+      en: "Non-stop 3-rope ocean cable car (7,899m). Architectural tribute to Rome's Colosseum with gladiator statues.",
       vi: 'Ga đi của tuyến cáp treo vượt biển 3 dây không dừng dài nhất thế giới (7.899,9m), thiết kế như Đấu trường La Mã Colosseum tráng lệ.',
       hi: 'गिनीज रिकॉर्ड वाली 7,899 मीटर लंबी समुद्री केबल कार का प्रारंभिक स्टेशन, रोमन कोलोसियम वास्तुकला।',
       zh: '吉尼斯世界纪录最长的3线跨海缆车(7,899米)起点站，重现古罗马斗兽场的宏伟圆拱外观。',

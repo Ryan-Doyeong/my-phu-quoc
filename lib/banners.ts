@@ -35,7 +35,7 @@ export const DEFAULT_SPONSOR_BANNERS: DefaultBanner[] = [
   },
   {
     slot_key: 'main-3',
-    title: 'My Phu Quoc Taxi Tour',
+    title: 'My Phu Quoc Vehicle Tour',
     subtitle: 'Island Sightseeing & Private Transfer',
     image_url: '/banners/phu-quoc-taxi-tour.webp',
     target_url: '#',

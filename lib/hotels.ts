@@ -66,6 +66,8 @@ export interface HotelItem {
   hotelId: string
   name_ko: string
   name_en: string
+  /** Localized display name set by localizeHotel (ko: name_ko, others: name_en). */
+  displayName?: string
   star: number
   officialStar?: number | null
   area?: HotelArea

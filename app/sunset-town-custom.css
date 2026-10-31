@@ -4013,3 +4013,92 @@
 .yachtSub { font-size: 13px; font-weight: 700; color: #111; margin: 12px 0 4px; }
 .yachtGroup { font-size: 13px; color: #0B6BCB; font-weight: 600; margin: 8px 0 2px; }
 .yachtNotice { font-size: 13px; color: #111; background: #F8FAFC; border: 1px solid #E5E7EB; border-radius: 8px; padding: 10px 12px; margin: 0 0 16px; line-height: 1.5; }
+
+/* ============================================================
+   UX PASS (floating contact, tour pages, home compaction)
+   ============================================================ */
+
+/* Tour page header: base .heroHeader is white-text/absolute; force readable dark-on-white */
+.tourLandingWrap .tourSiteHeader {
+  position: relative;
+  background: #FFFFFF;
+  color: #101418;
+  text-shadow: none;
+  border-bottom: 1px solid #E9ECEF;
+}
+.tourLandingWrap .tourSiteHeader .brandLockup,
+.tourLandingWrap .tourSiteHeader .desktopNav a,
+.tourLandingWrap .tourSiteHeader .searchGlyph { color: #101418; }
+.tourLandingWrap .tourSiteHeader .mobileMenu summary {
+  color: #101418;
+  border-color: #CED4DA;
+  background: #FFFFFF;
+  backdrop-filter: none;
+}
+
+/* Tour pages: bottom contact bar on all viewports (replaces floating widgets) */
+.tourDesktopFixedContact { display: none !important; }
+.tourMobileFixedBar {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #FFFFFF;
+  border-top: 1px solid #E9ECEF;
+  box-shadow: none;
+  padding: 10px 14px calc(10px + env(safe-area-inset-bottom, 0px));
+  gap: 8px;
+  justify-content: center;
+}
+.tourMobileFixedBar .tourMobileFixedBtn {
+  flex: 1 1 0;
+  max-width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 11px 8px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.tourMobileFixedBar .tourMobileFixedBtn.tel {
+  background: #FFFFFF;
+  color: #101418;
+  border: 1px solid #CED4DA;
+}
+.tourMobileFixedBar .tourMobileFixedBtn svg { width: 18px; height: 18px; flex-shrink: 0; }
+@media (max-width: 480px) {
+  .tourMobileFixedBar .tourMobileFixedBtn { font-size: 13px; padding: 11px 6px; }
+  .tourMobileFixedBar .tourMobileFixedBtn.tel .tourMobileFixedPhone { display: none; }
+  .tourMobileFixedBar .tourMobileFixedBtn.tel { flex: 0 0 48px; }
+}
+/* Keep content (and footer) clear of the fixed bar */
+body:has(.tourMobileFixedBar) { padding-bottom: calc(70px + env(safe-area-inset-bottom, 0px)); }
+.tourLandingWrap { padding-bottom: 0 !important; }
+
+/* Home: unified 16px card radius */
+:root { --card-radius: 16px; }
+.serviceCard,
+.categoryCardsFive article { border-radius: var(--card-radius); }
+.serviceCard .cardSub { margin-top: 1px; }
+
+/* Home: compact category cards */
+.categoryCardsFive article > img { height: 96px; }
+.categoryCardsFive article > p { min-height: 0; }
+@media (max-width: 760px) {
+  .categoryCardsFive { gap: 8px; margin-top: 14px; }
+  .categoryCardsFive article > img { height: 56px !important; }
+  .categoryCardsFive .categoryIconBadge { width: 36px; height: 36px; margin: -18px 0 0 12px; }
+  .categoryCardsFive article > span { display: none; }
+  .categoryCardsFive article > h3 { font-size: 18px; margin-top: 6px !important; margin-bottom: 2px; }
+  .categoryCardsFive article > p { display: none; }
+  .categoryCardsFive article > strong { display: none; }
+  .categoryCardsFive .categoryMiniTags { margin: 6px 12px 12px; gap: 4px; max-height: none; overflow: visible; }
+  .categoryCardsFive .categoryMiniTags em { font-size: 9px; padding: 4px 6px; }
+}

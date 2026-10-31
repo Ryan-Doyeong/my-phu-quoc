@@ -1,3 +1,4 @@
+// Translations: ko source; en/zh/ru/ja/hi drafted 2026-10-31 — ChatGPT 검수 대기
 'use client'
 
 import React, { useState, useMemo, useEffect, Suspense } from 'react'
@@ -9,7 +10,7 @@ import { SiteFooter } from '@/components/SiteFooter'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
 import { categoryLabel } from '@/lib/directory'
-import { HOTEL_TRANSLATIONS, type HotelUiDictionary } from '@/lib/i18n/hotelTranslations'
+import { HOTEL_TRANSLATIONS, localizeHotel, type HotelUiDictionary } from '@/lib/i18n/hotelTranslations'
 import type { HotelItem, HotelArea } from '@/lib/hotels'
 import '@/app/hotels/hotels.css'
 
@@ -89,7 +90,7 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
       <div className="cardImageWrap">
         <img
           src={hotel.photos[0] || '/images/default-hotel.jpg'}
-          alt={hotel.name_ko}
+          alt={hotel.displayName || hotel.name_ko}
           loading={isTopGrade || isFeatured ? 'eager' : 'lazy'}
         />
         {/* 공식 5성급 확인된 호텔만 5성급 표기, 더 룸 호텔은 부티크 호텔, 기타 미확인 성급은 숨김 */}
@@ -107,7 +108,7 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
           target="_blank"
           rel="noopener noreferrer"
           className="photoSourceTag"
-          title="Agoda 페이지에서 보기"
+          title={t.agodaPageTitle}
         >
           <span>{t.photoSource} ↗</span>
         </a>
@@ -121,7 +122,7 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
             <span className="cardScore">{hotel.rating.toFixed(1)} ★</span>
             <span className="cardReviews">({formatReviewLabel(hotel.reviewsCount, locale)})</span>
             {hotel.googleRating && (
-              <span className="googleScoreBadge">구글맵 {hotel.googleRating.toFixed(1)} ★ ({hotel.googleReviewsCount || 18})</span>
+              <span className="googleScoreBadge">{t.googleMapsLabel} {hotel.googleRating.toFixed(1)} ★ ({hotel.googleReviewsCount || 18})</span>
             )}
           </div>
           {isKhem ? (
@@ -132,8 +133,8 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
         </div>
 
         {/* 호텔명 (한글 / 영문) */}
-        <h3 className="cardTitle">{hotel.name_ko}</h3>
-        <div className="cardTitleEn">{hotel.name_en}</div>
+        <h3 className="cardTitle">{hotel.displayName || hotel.name_ko}</h3>
+        {locale === 'ko' && <div className="cardTitleEn">{hotel.name_en}</div>}
 
         {/* 위치·전망 핵심 한 줄 (데이터 있는 호텔만 노출) */}
         {hotel.insight && (hotel.insight.location || hotel.insight.view) && (
@@ -271,7 +272,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
         <div className="modalTopPhotoWrap">
           <img
             src={hotel.photos[modalPhotoIdx] || hotel.photos[0] || '/images/default-hotel.jpg'}
-            alt={hotel.name_ko}
+            alt={hotel.displayName || hotel.name_ko}
           />
           <div className="modalTopPhotoBadges">
             {hotel.officialStar === 5 && (
@@ -289,7 +290,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
             target="_blank"
             rel="noopener noreferrer"
             className="photoSourceTag"
-            title="Agoda 페이지에서 보기"
+            title={t.agodaPageTitle}
           >
             <span>{t.photoSource} ↗</span>
           </a>
@@ -305,7 +306,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                 <span className="modalScoreDivider" style={{ margin: '0 6px', color: '#cbd5e1' }}>·</span>
                 <span className="modalReviews">{formatReviewLabel(hotel.reviewsCount, locale)}</span>
                 {hotel.googleRating && (
-                  <span className="googleScoreBadge">구글맵 {hotel.googleRating.toFixed(1)} ★ ({hotel.googleReviewsCount || 18})</span>
+                  <span className="googleScoreBadge">{t.googleMapsLabel} {hotel.googleRating.toFixed(1)} ★ ({hotel.googleReviewsCount || 18})</span>
                 )}
               </div>
               {isKhem ? (
@@ -319,8 +320,8 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
               )}
             </div>
 
-            <h2 className="modalHotelTitle">{hotel.name_ko}</h2>
-            <div className="modalHotelTitleEn">{hotel.name_en}</div>
+            <h2 className="modalHotelTitle">{hotel.displayName || hotel.name_ko}</h2>
+            {locale === 'ko' && <div className="modalHotelTitleEn">{hotel.name_en}</div>}
 
             {/* 1~2줄 요약 (화면에는 summary만 사용, description 필드 절대 비노출) */}
             {summaryText && (
@@ -342,7 +343,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                   <div className="accordionTitle">
                     <span className="accordionIcon">📸</span>
                     <span>{t.accordionGallery}</span>
-                    <span className="accordionBadge">{hotel.photos.length}장</span>
+                    <span className="accordionBadge">{hotel.photos.length}{t.photoCountSuffix}</span>
                   </div>
                   <span className="accordionChevron">{openSections.gallery ? '▲' : '▼'}</span>
                 </button>
@@ -356,7 +357,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                           className={`galleryThumbItem ${modalPhotoIdx === idx ? 'active' : ''}`}
                           onClick={() => setModalPhotoIdx(idx)}
                         >
-                          <img src={src} alt={`${hotel.name_ko} ${idx + 1}`} loading="lazy" />
+                          <img src={src} alt={`${hotel.displayName || hotel.name_ko} ${idx + 1}`} loading="lazy" />
                         </div>
                       ))}
                     </div>
@@ -367,7 +368,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                         rel="noopener noreferrer"
                         style={{ fontSize: '0.8125rem', color: '#0B7A8A', fontWeight: 600, textDecoration: 'none' }}
                       >
-                        Agoda에서 고화질 사진 더보기 ↗
+                        {t.viewMorePhotosAgoda}
                       </a>
                     </div>
                   </div>
@@ -472,12 +473,15 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                         className="btnToggleGoogleReviews"
                         onClick={() => setShowFullReviews(!showFullReviews)}
                       >
-                        <span>📝 {showFullReviews ? t.collapseReviews : `${t.viewFullReviews} (${hotel.googleReviews.length}건)`}</span>
+                        <span>📝 {showFullReviews ? t.collapseReviews : t.viewFullReviews}</span>
                         <span>{showFullReviews ? '▲' : '▼'}</span>
                       </button>
 
                       {showFullReviews && (
                         <div className="googleReviewsFullList">
+                          {locale !== 'ko' && (
+                            <p className="googleReviewText" style={{ fontStyle: 'italic' }}>{t.translatedFromKorean}</p>
+                          )}
                           {hotel.googleReviews.map((rev, idx) => (
                             <div key={idx} className="googleReviewItem">
                               <div className="googleReviewHeader">
@@ -596,7 +600,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                   <div className="accordionTitle">
                     <span className="accordionIcon">🛏️</span>
                     <span>{t.accordionRooms}</span>
-                    <span className="accordionBadge">{hotel.rooms!.length}종</span>
+                    <span className="accordionBadge">{hotel.rooms!.length}{t.roomTypesSuffix}</span>
                   </div>
                   <span className="accordionChevron">{openSections.rooms ? '▲' : '▼'}</span>
                 </button>
@@ -656,7 +660,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                     </div>
                     {isKhem ? (
                       <div style={{ marginBottom: '8px' }}>
-                        <strong>🚗 {t.travelToSunsetTown}:</strong> {t.khemDistanceBadge} (약 6.5km)
+                        <strong>🚗 {t.travelToSunsetTown}:</strong> {t.khemDistanceBadge} ({t.approxKm})
                       </div>
                     ) : (
                       <div style={{ marginBottom: '8px' }}>
@@ -741,7 +745,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
           {/* 모달 하단 CTA */}
           <div className="modalFooterCta">
             <div style={{ fontSize: '0.8125rem', color: '#64748b' }}>
-              요금 및 빈 객실은 Agoda 실시간 예약 페이지에서 바로 확인 가능합니다.
+              {t.bookingFooterNote}
             </div>
             <a
               href={hotel.agodaUrl}
@@ -771,9 +775,11 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
      - 7곳 바이켐 럭셔리 리조트 & 부티크 호텔
      - 기본 등급순(order) 정렬 + 평점순 / 후기순 정렬
    ========================================================================= */
-function HotelsPageInner({ hotels, locale = 'en', initialArea }: HotelsPageProps) {
+function HotelsPageInner({ hotels: rawHotels, locale = 'en', initialArea }: HotelsPageProps) {
   const dict = getDictionary(locale)
   const t = HOTEL_TRANSLATIONS[locale] || HOTEL_TRANSLATIONS.en
+  // Korean-only data fields are swapped for locale text (locale -> en -> raw) so non-ko pages contain no Hangul
+  const hotels = useMemo(() => rawHotels.map(h => localizeHotel(h, locale)), [rawHotels, locale])
 
   const searchParams = useSearchParams()
   const areaParam = searchParams.get('area')
@@ -905,10 +911,10 @@ function HotelsPageInner({ hotels, locale = 'en', initialArea }: HotelsPageProps
           <nav>
             <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
             <Link href={localePath(locale, '/zones/sunset-town')}>
-              {locale === 'ko' ? '선셋타운' : 'Sunset Town'}
+              {t.areaSunsetTown}
             </Link>
             <Link href={localePath(locale, '/zones/khem-beach')}>
-              {locale === 'ko' ? '켐비치' : 'Khem Beach'}
+              {t.areaKhemBeach}
             </Link>
             <Link href={localePath(locale, '/directory/dining')}>
               {categoryLabel('dining', locale)}

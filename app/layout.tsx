@@ -3,6 +3,7 @@ import type { ReactNode } from 'react'
 import { headers } from 'next/headers'
 import './globals.css'
 import './sunset-town-custom.css'
+import { FloatingContact } from '@/components/FloatingContact'
 import { AnalyticsTracker } from '@/components/AnalyticsTracker'
 import { SiteFooter } from '@/components/SiteFooter'
 import { SITE_URL } from '@/lib/supabase/config'
@@ -24,6 +25,20 @@ export const viewport: Viewport = {
   colorScheme: 'light',
 }
 
+const CJK_FONT_FAMILY: Record<string, string> = {
+  ko: 'Noto+Sans+KR',
+  zh: 'Noto+Sans+SC',
+  ja: 'Noto+Sans+JP',
+  hi: 'Noto+Sans+Devanagari',
+}
+
+function fontsHref(lang: string): string {
+  const families = ['Noto+Sans:wght@400;700']
+  const extra = CJK_FONT_FAMILY[lang]
+  if (extra) families.push(`${extra}:wght@400;700`)
+  return `https://fonts.googleapis.com/css2?${families.map((f) => `family=${f}`).join('&')}&display=swap`
+}
+
 export default async function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
   let lang = 'en'
   try {
@@ -40,15 +55,13 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
         <link rel="dns-prefetch" href="https://images.unsplash.com" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+SC:wght@400;700&family=Noto+Sans+JP:wght@400;700&family=Noto+Sans+KR:wght@400;700&display=swap"
-        />
+        <link rel="stylesheet" href={fontsHref(lang)} />
       </head>
       <body>
         <AnalyticsTracker />
         {children}
         <SiteFooter />
+        <FloatingContact />
       </body>
     </html>
   )

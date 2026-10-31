@@ -1,0 +1,24 @@
+.floatingContact {
+  position: fixed;
+  right: calc(14px + env(safe-area-inset-right, 0px));
+  bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  z-index: 900;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.floatingContactBtn {
+  display: grid;
+  place-items: center;
+  color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.22);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.floatingContactBtn:active { transform: scale(0.95); }
+.floatingContactBtn svg { display: block; }
+.floatingContactBtn.whatsapp { width: 52px; height: 52px; background: #25D366; }
+.floatingContactBtn.whatsapp svg { width: 28px; height: 28px; }
+.floatingContactBtn.zalo { width: 44px; height: 44px; background: #0068FF; }
+.floatingContactBtn.zalo svg { width: 24px; height: 24px; }

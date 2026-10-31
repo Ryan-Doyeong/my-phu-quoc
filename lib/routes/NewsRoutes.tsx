@@ -26,25 +26,33 @@ import {
   type Locale,
 } from '@/lib/i18n/config'
 import { getDictionary, localizeStory } from '@/lib/i18n/dictionaries'
+import { JsonLd } from '@/components/JsonLd'
+import { NEWS_TITLE, sunsetKeyword, withKeyword } from '@/lib/seo/meta'
+import { breadcrumbJsonLd, graph, inLanguage, ORG_ID } from '@/lib/seo/jsonld'
 
 export async function generateNewsListMetadata(locale: Locale = 'en'): Promise<Metadata> {
   const dict = getDictionary(locale)
   const barePath = '/news'
   const canonicalUrl = localeUrl(locale, barePath)
   const alternates = buildAlternates(barePath)
+  const newsTitle = NEWS_TITLE[locale] || NEWS_TITLE.en
+  const newsDesc = withKeyword(dict.news.metaDesc, locale)
   return {
-    title: dict.news.metaTitle,
-    description: dict.news.metaDesc,
+    title: newsTitle,
+    description: newsDesc,
     alternates: {
       canonical: canonicalUrl,
       languages: alternates.languages,
     },
     openGraph: {
-      title: dict.news.metaTitle,
-      description: dict.news.metaDesc,
+      title: newsTitle,
+      description: newsDesc,
       url: canonicalUrl,
+      siteName: 'My Phu Quoc',
+      type: 'website',
       locale: ogLocaleFor(locale),
     },
+    twitter: { card: 'summary', title: newsTitle, description: newsDesc },
   }
 }
 
@@ -65,9 +73,24 @@ export async function renderNewsListRoute(locale: Locale = 'en') {
   )
   const allRaw = [...inRepoStories, ...(data || [])]
   const items = allRaw.map((raw) => localizeStory(raw, locale))
+  const listUrl = localeUrl(locale, '/news')
+  const listLd = graph(
+    {
+      '@type': 'CollectionPage',
+      name: NEWS_TITLE[locale] || NEWS_TITLE.en,
+      url: listUrl,
+      inLanguage: inLanguage(locale),
+      isPartOf: { '@type': 'WebSite', name: 'My Phu Quoc', url: localeUrl(locale, '/') },
+    },
+    breadcrumbJsonLd([
+      { name: dict.nav.home, url: localeUrl(locale, '/') },
+      { name: dict.nav.newsAndBlog, url: listUrl },
+    ])
+  )
 
   return (
     <main>
+      <JsonLd data={listLd} />
       <header className="detailNav">
         <Logo locale={locale} />
         <div className="detailNavRight">
@@ -162,7 +185,7 @@ export async function generateArticleMetadata(
 
   return {
     title: x.seo_title || `${x.title} | My Phu Quoc`,
-    description: x.seo_description || x.excerpt || undefined,
+    description: x.seo_description || x.excerpt || getDictionary(locale).news.metaDesc,
     robots: isSample
       ? {
           index: false,
@@ -179,6 +202,12 @@ export async function generateArticleMetadata(
       type: 'article',
       locale: ogLocaleFor(isUntranslatedFallback ? 'en' : locale),
       images: ogImageUrl ? [{ url: ogImageUrl, alt: x.title }] : undefined,
+    },
+    twitter: {
+      card: ogImageUrl ? 'summary_large_image' : 'summary',
+      title: x.seo_title || x.title,
+      description: x.seo_description || x.excerpt || undefined,
+      images: ogImageUrl ? [ogImageUrl] : undefined,
     },
     alternates: {
       canonical: canonicalUrl,
@@ -231,8 +260,9 @@ export async function renderArticleRoute(
     headline: x.title,
     inLanguage: isUntranslatedFallback ? 'en' : locale,
     author: { '@type': 'Organization', name: 'My Phu Quoc' },
-    publisher: { '@type': 'Organization', name: 'My Phu Quoc' },
-    mainEntityOfPage: articleUrl,
+    publisher: { '@type': 'Organization', '@id': ORG_ID, name: 'My Phu Quoc', url: baseUrl },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': articleUrl },
+    url: articleUrl,
   }
   if (x.seo_description || x.excerpt) articleLd.description = x.seo_description || x.excerpt
   if (absCoverImage) articleLd.image = absCoverImage
@@ -321,10 +351,7 @@ export async function renderArticleRoute(
 
   return (
     <main>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-      />
+      <JsonLd data={structuredData} />
       <header className="detailNav">
         <Logo locale={locale} />
         <div className="detailNavRight">
@@ -546,20 +573,24 @@ export async function generateEventsMetadata(locale: Locale = 'en'): Promise<Met
   const barePath = '/events'
   const canonicalUrl = localeUrl(locale, barePath)
   const alternates = buildAlternates(barePath)
-  const title = `${dict.news.eventsTitle} | My Phu Quoc`
+  const title = `${dict.news.eventsTitle} – ${sunsetKeyword(locale)} | My Phu Quoc`
+  const description = withKeyword(dict.news.eventsLead, locale)
   return {
     title,
-    description: dict.news.eventsLead,
+    description,
     alternates: {
       canonical: canonicalUrl,
       languages: alternates.languages,
     },
     openGraph: {
       title,
-      description: dict.news.eventsLead,
+      description,
       url: canonicalUrl,
+      siteName: 'My Phu Quoc',
+      type: 'website',
       locale: ogLocaleFor(locale),
     },
+    twitter: { card: 'summary', title, description },
   }
 }
 

@@ -3,6 +3,7 @@
 import {useEffect} from 'react'
 import {usePathname} from 'next/navigation'
 import {createPublicClient} from '@/lib/supabase/public'
+import {detectCtaType} from '@/lib/contactLinks'
 
 const PRIVATE_PREFIXES=['/admin','/editor','/login','/account','/auth','/api']
 const VISITOR_KEY='gl_analytics_visitor_v1'
@@ -58,8 +59,11 @@ export function AnalyticsTracker(){
       if(el.closest('[data-no-analytics="true"]'))return
       const a=el instanceof HTMLAnchorElement?el:null
       const target=a?safeTarget(a):`button:${(el.textContent||el.getAttribute('aria-label')||'button').trim().replace(/\s+/g,' ').slice(0,100)}`
-      const entity_type=el.dataset.analyticsType||null
-      const entity_id=el.dataset.analyticsId||null
+      // Contact CTA clicks (wa.me / zalo.me / tel:): record the CTA type in entity_type and the placement (data-cta-source) in entity_id.
+      const ctaType=el.dataset.cta||(a?detectCtaType(a.getAttribute('href')||a.href):null)
+      const ctaSource=el.dataset.ctaSource||'unknown'
+      const entity_type=el.dataset.analyticsType||(ctaType?`cta_${ctaType}`:null)
+      const entity_id=el.dataset.analyticsId||(ctaType?`${ctaSource}`:null)
       write({event_type:'click',path:pathname,target,entity_type,entity_id})
     }
     document.addEventListener('click',onClick,true)

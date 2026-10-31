@@ -18,7 +18,9 @@ import {
 import { normalizeZoneQuery, type MainZoneSlug } from '@/lib/zones'
 import { buildAlternates, localePath, localeUrl, ogLocaleFor, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
-import { tUi } from '@/lib/i18n/uiStrings'
+import { JsonLd } from '@/components/JsonLd'
+import { directoryTitle, withKeyword } from '@/lib/seo/meta'
+import { breadcrumbJsonLd, graph, inLanguage } from '@/lib/seo/jsonld'
 import businessesRegistry from '@/data/businesses-registry.json'
 import khemBusinesses from '@/data/khem-beach-businesses.json'
 import zoneAssignmentsJson from '@/data/zone-assignments.json'
@@ -35,13 +37,8 @@ export async function generateDirectoryMetadata(
   }
   if (!isDirectoryCategory(category)) return {}
   const label = categoryLabel(category, locale)
-  const description = categoryDescription(category, locale)
-  const title =
-    locale === 'vi'
-      ? `${label} tại Sunset Town & Bãi Khem | My Phu Quoc`
-      : locale === 'ko'
-      ? `선셋타운 & 켐비치 ${label} | 마이 푸꾸옥 (My Phu Quoc)`
-      : tUi('{category} in Sunset Town & Khem Beach | My Phu Quoc', locale).replace('{category}', label)
+  const description = withKeyword(categoryDescription(category, locale), locale)
+  const title = directoryTitle(label, locale)
   const barePath = `/directory/${category}`
   const canonicalUrl = localeUrl(locale, barePath)
   const alternates = buildAlternates(barePath)
@@ -57,8 +54,11 @@ export async function generateDirectoryMetadata(
       title,
       description,
       url: canonicalUrl,
+      siteName: 'My Phu Quoc',
+      type: 'website',
       locale: ogLocaleFor(locale),
     },
+    twitter: { card: 'summary', title, description },
   }
 }
 
@@ -141,8 +141,24 @@ export async function renderDirectoryRoute(
 
   const initialZone = normalizeZoneQuery(searchParams?.zone)
 
+  const directoryUrl = localeUrl(locale, `/directory/${category}`)
+  const jsonLd = graph(
+    {
+      '@type': 'CollectionPage',
+      name: label,
+      description,
+      url: directoryUrl,
+      inLanguage: inLanguage(locale),
+    },
+    breadcrumbJsonLd([
+      { name: dict.nav.home, url: localeUrl(locale, '/') },
+      { name: label, url: directoryUrl },
+    ])
+  )
+
   return (
     <main className="directoryPage">
+      <JsonLd data={jsonLd} />
       <header className="detailNav">
         <Logo locale={locale} />
         <div className="detailNavRight">
