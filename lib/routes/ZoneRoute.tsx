@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
+import { SunsetTownMap } from '@/components/SunsetTownMapClient'
 import {
   MAIN_ZONES,
   type MainZoneSlug,
@@ -132,6 +133,21 @@ function getCrossZoneLinkText(isSunset: boolean, locale: Locale): string {
       case 'hi': return '→ Sunset Town की विस्तृत जानकारी देखें'
       default: return '→ Explore Sunset Town Details'
     }
+  }
+}
+
+function getLandmarksGuideBtnText(locale: string) {
+  switch (locale) {
+    case 'ko': return '12대 핵심 명소 가이드 보기'
+    /* ChatGPT 검수 대기 */
+    case 'zh': return '查看12大核心景点指南'
+    /* ChatGPT 검수 대기 */
+    case 'ru': return 'Гид по 12 главным достопримечательностям'
+    /* ChatGPT 검수 대기 */
+    case 'ja': return '12大主要スポットガイドを見る'
+    /* ChatGPT 검수 대기 */
+    case 'hi': return '12 प्रमुख दर्शनीय स्थलों की गाइड देखें'
+    default: return 'View 12 Core Landmark Guides'
   }
 }
 
@@ -320,6 +336,22 @@ export async function renderZoneRoute(slug: string, locale: Locale = 'en') {
                 ))}
               </div>
             </div>
+
+            {/* Section 2.5: Interactive Map (Only for Sunset Town) */}
+            {isSunset && (
+              <div className="zoneMapSection">
+                <SunsetTownMap locale={locale} />
+                <div className="zoneMapGuideActionWrap">
+                  <Link
+                    href={localePath(locale, '/map')}
+                    className="zoneMapGuideBtn"
+                  >
+                    <span>{getLandmarksGuideBtnText(locale)}</span>
+                    <span>→</span>
+                  </Link>
+                </div>
+              </div>
+            )}
 
             {/* Section 3: Categories Filter Grid (Approved 8 tiles layout v9) */}
             <div>

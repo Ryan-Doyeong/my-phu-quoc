@@ -293,7 +293,7 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
       <section className="tourServiceGuideSection">
         <div className="tourSectionHeader">
           <div className="tourSectionEyebrow">{(tourData as any).guideEyebrow || 'Service Guide'}</div>
-          <h2 className="tourSectionTitle">{(tourData as any).guideTitle || (isBuggy ? '버기 투어 이용 안내' : '택시 투어 이용 안내')}</h2>
+          <h2 className="tourSectionTitle">{(tourData as any).guideTitle || (isBuggy ? '버기 투어 이용 안내' : '차량 투어 이용 안내')}</h2>
         </div>
 
         <div className={isBuggy ? 'tourGuideGrid buggyGrid' : 'tourGuideGrid taxiGrid'}>

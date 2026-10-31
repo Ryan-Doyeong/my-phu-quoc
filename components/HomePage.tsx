@@ -247,6 +247,7 @@ export function HomePage({
   const heroSubtitle = dict.home.heroSubtitle
   const heroDescription = dict.home.heroDescription
   const heroPrimaryCta = dict.home.heroPrimaryCta
+  const heroSecondaryCta = dict.home.heroSecondaryCta
 
   const purposeTitle = locale === 'en' ? homeSections.purpose.title : dict.home.purposeTitle
   const purposeDesc = locale === 'en' ? homeSections.purpose.description : dict.home.purposeDesc
@@ -275,10 +276,11 @@ export function HomePage({
 
   return (
     <div style={style} className="siteRoot">
-      <div className="heroHeaderWrap">
-        <header className="siteHeader heroHeader">
-          <Logo locale={locale} />
-          <nav className="desktopNav">
+      {/* 0. Top Header (White background, matching Zone page detailNav style) */}
+      <header className="detailNav">
+        <Logo locale={locale} />
+        <div className="detailNavRight">
+          <nav>
             <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
             <Link href={localePath(locale, '/zones/sunset-town')}>
               {HOME_NAV_SUNSET[locale] || HOME_NAV_SUNSET.en}
@@ -298,65 +300,132 @@ export function HomePage({
             <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
             <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
           </nav>
-          <div className="headerActions">
-            <Link
-              href={localePath(locale, '/search')}
-              className="searchGlyph"
-              aria-label={dict.nav.search}
-            >
-              ⌕
-            </Link>
-            <LanguageSwitcher locale={locale} variant="hero" />
-            <MobileMenu locale={locale} />
-          </div>
-        </header>
+          <LanguageSwitcher locale={locale} variant="light" />
+        </div>
+      </header>
 
-        {/* 메인 v6 A안: 상단 메뉴 바로 아래 마이리얼트립 스타일 메인 배너 */}
-        <MrtBannerCarousel locale={locale} />
-
-        <section className="heroSection">
-          <picture>
-            <source media="(max-width: 640px)" srcSet="/hero/02_kiss_bridge_aerial_640.webp" />
-            <source media="(max-width: 1280px)" srcSet="/hero/02_kiss_bridge_aerial_1280.webp" />
+      <div className="heroHeaderWrap">
+        {/* 1. Rounded Main Photo Box (12px, Sunset Town aerial photo) */}
+        <section className="heroPhotoSection">
+          <div className="heroImageBox">
             <img
               src="/hero/02_kiss_bridge_aerial_1920.webp"
-              alt="Phu Quoc Sunset Town Kiss Bridge aerial sunset view"
+              alt="푸꾸옥 선셋타운 키스브릿지 석양 항공 전경"
               className="heroImage"
               loading="eager"
               fetchPriority="high"
-              decoding="async"
-              width={1920}
-              height={1280}
             />
-          </picture>
-          <div className="heroOverlay" />
-          <div className="heroAttribution">
-            <span>Photo: <a href="https://commons.wikimedia.org/wiki/File:Kiss_Bridge_Phu_Quoc_aerial_sunset_view.jpg" target="_blank" rel="noopener noreferrer">Vivu Vietnam</a> · <a href="https://creativecommons.org/licenses/by/4.0" target="_blank" rel="noopener noreferrer">CC BY 4.0</a></span>
-          </div>
-          <div className="heroCopy">
-            <div className="topline">{heroTopline}</div>
-            <h1>
-              {heroTitle.split('\n').map((l, i, arr) => (
-                <span key={i}>
-                  {l}
-                  {i < arr.length - 1 && <br />}
-                </span>
-              ))}
-            </h1>
-            <h2>{heroSubtitle}</h2>
-            <p>{heroDescription}</p>
-            <HeroSearch locale={locale} />
-            <div className="heroButtons">
-              <a href="#south-glance" className="primaryButton heroPrimary amberCta">
-                {heroPrimaryCta}
-                <span>→</span>
-              </a>
-              <Link href={localePath(locale, '/news')} className="outlineButton">
-                {dict.home.heroSecondaryCta}
-              </Link>
+            <div className="photoCreditBadge">
+              <span>{locale === 'ko' ? '사진: Vivu Vietnam · CC BY 4.0' : 'Photo: Vivu Vietnam · CC BY 4.0'}</span>
             </div>
           </div>
         </section>
+
+        {/* 2. Quick Service Cards (Scroll-snap horizontal row right below photo) */}
+        <section className="quickServiceSection" id="quick-services">
+          <div className="cardScrollTrack" id="cardScrollTrack">
+            {/* Card 1: 환전 (Currency Exchange) - No link per spec */}
+            <div className="serviceCard disabled" id="card-exchange" title={locale === 'ko' ? '환전' : (dict.home.bannerSlide2Eyebrow || 'Exchange')}>
+              <div className="cardIconWrap iconWrapExchange">
+                <svg viewBox="0 0 36 36" fill="none" aria-hidden="true">
+                  <rect x="3" y="10" width="24" height="15" rx="3" fill="#10B981" />
+                  <rect x="5" y="12" width="20" height="11" rx="2" fill="#34D399" />
+                  <circle cx="15" cy="17.5" r="3.5" fill="#10B981" />
+                  <circle cx="25" cy="21" r="7" fill="#F59E0B" stroke="#D97706" strokeWidth="1.2" />
+                  <circle cx="25" cy="21" r="4.5" fill="#FBBF24" />
+                  <text x="25" y="24" textAnchor="middle" fontSize="7" fontWeight="900" fill="#92400E">₫</text>
+                  <circle cx="28.5" cy="14" r="4.5" fill="#FBBF24" stroke="#D97706" strokeWidth="1" />
+                  <circle cx="28.5" cy="14" r="2.8" fill="#FDE68A" />
+                </svg>
+              </div>
+              <div className="cardLabel">{locale === 'ko' ? '환전' : (dict.home.bannerSlide2Eyebrow || 'Exchange')}</div>
+              <div className="cardSub"></div>
+            </div>
+
+            {/* Card 2: 버기 투어 -> /buggy-tour */}
+            <Link href={localePath(locale, '/buggy-tour')} className="serviceCard" id="card-buggy" title={dict.home.bannerSlide3Title || '버기 투어'}>
+              <div className="cardIconWrap iconWrapBuggy">
+                <svg viewBox="0 0 36 36" fill="none" aria-hidden="true">
+                  <path d="M7 11h20a2.5 2.5 0 0 1 2.5 2.5v1H5v-1A2.5 2.5 0 0 1 7 11z" fill="#0284C7" />
+                  <path d="M8 14.5v5M25 14.5v5" stroke="#475569" strokeWidth="2" strokeLinecap="round" />
+                  <path d="M22 14.5l3.5 5" stroke="#38BDF8" strokeWidth="2.5" strokeLinecap="round" />
+                  <path d="M4 19.5h23.5l3.5 5H6l-2-5z" fill="#F59E0B" />
+                  <rect x="7" y="18.5" width="10" height="3" rx="1.5" fill="#FEF3C7" />
+                  <circle cx="10" cy="26" r="3.8" fill="#1E293B" />
+                  <circle cx="10" cy="26" r="1.5" fill="#CBD5E1" />
+                  <circle cx="23" cy="26" r="3.8" fill="#1E293B" />
+                  <circle cx="23" cy="26" r="1.5" fill="#CBD5E1" />
+                </svg>
+              </div>
+              <div className="cardLabel">{dict.home.bannerSlide3Title || '버기 투어'}</div>
+              <div className="cardSub">{locale === 'ko' ? '필수 사진 코스' : (locale === 'en' ? 'Photo Spots' : '')}</div>
+            </Link>
+
+            {/* Card 3: 차량 투어 -> /taxi-tour */}
+            <Link href={localePath(locale, '/taxi-tour')} className="serviceCard" id="card-taxi" title={locale === 'ko' ? '차량 투어' : (dict.home.bannerSlide4Title || 'Vehicle Tour')}>
+              <div className="cardIconWrap iconWrapTaxi">
+                <svg viewBox="0 0 36 36" fill="none" aria-hidden="true">
+                  <rect x="14" y="8" width="8" height="3" rx="1.2" fill="#F59E0B" stroke="#B45309" strokeWidth="1" />
+                  <path d="M6 18c0-3.5 2-5 5.5-5h13c3 0 5 1.8 6 5l1.5 5.5a2.5 2.5 0 0 1-2.5 3H7.5A2.5 2.5 0 0 1 5 23.5L6 18z" fill="#F97316" />
+                  <rect x="10" y="14.5" width="6.5" height="4.5" rx="1.5" fill="#BAE6FD" />
+                  <rect x="18" y="14.5" width="7.5" height="4.5" rx="1.5" fill="#BAE6FD" />
+                  <circle cx="27" cy="21.5" r="1.6" fill="#FEF08A" />
+                  <circle cx="11.5" cy="27" r="3.8" fill="#1E293B" />
+                  <circle cx="11.5" cy="27" r="1.5" fill="#CBD5E1" />
+                  <circle cx="23.5" cy="27" r="3.8" fill="#1E293B" />
+                  <circle cx="23.5" cy="27" r="1.5" fill="#CBD5E1" />
+                </svg>
+              </div>
+              <div className="cardLabel">{locale === 'ko' ? '차량 투어' : (dict.home.bannerSlide4Title || 'Vehicle Tour')}</div>
+              <div className="cardSub"></div>
+            </Link>
+
+            {/* Card 4: 불꽃쇼 -> /events */}
+            <Link href={localePath(locale, '/events')} className="serviceCard" id="card-fireworks" title={locale === 'ko' ? '불꽃쇼' : 'Fireworks'}>
+              <div className="cardIconWrap iconWrapEvent">
+                <svg viewBox="0 0 36 36" fill="none" aria-hidden="true">
+                  <path d="M18 7l2 5.5 5.5-2-2 5.5 5.5 2-5.5 2 2 5.5-5.5-2L18 29l-2-5.5-5.5 2 2-5.5-5.5-2 5.5-2-2-5.5 5.5 2L18 7z" fill="#A855F7" />
+                  <circle cx="18" cy="18" r="3.8" fill="#FDE047" stroke="#F59E0B" strokeWidth="1" />
+                  <circle cx="8" cy="9" r="1.8" fill="#F59E0B" />
+                  <circle cx="28" cy="9" r="1.8" fill="#EC4899" />
+                  <circle cx="27" cy="26" r="1.5" fill="#38BDF8" />
+                  <circle cx="8" cy="25" r="1.5" fill="#10B981" />
+                </svg>
+              </div>
+              <div className="cardLabel">{locale === 'ko' ? '불꽃쇼' : 'Fireworks'}</div>
+              <div className="cardSub"></div>
+            </Link>
+          </div>
+        </section>
+
+        {/* 3. Text, Search & Twin Buttons */}
+        <section className="heroTextSection">
+          <div className="heroTopline">{heroTopline}</div>
+          <h1 className="heroHeading">
+            {heroSubtitle || heroTitle}
+          </h1>
+          <p className="heroDesc">{heroDescription}</p>
+
+          <HeroSearch locale={locale} />
+
+          <div className="heroBtnRow">
+            <Link
+              href={localePath(locale, '/zones/sunset-town')}
+              className="heroTwinBtn btnSunsetOrange"
+            >
+              {heroPrimaryCta}
+            </Link>
+            <Link
+              href={localePath(locale, '/zones/khem-beach')}
+              className="heroTwinBtn btnKhemOcean"
+            >
+              {heroSecondaryCta}
+            </Link>
+          </div>
+        </section>
+
+        {/* Section Divider */}
+        <div className="mrtSectionDivider" />
       </div>
 
       <main>

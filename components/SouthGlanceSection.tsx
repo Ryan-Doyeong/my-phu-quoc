@@ -45,27 +45,21 @@ export function SouthGlanceSection({ locale = 'en' }: SouthGlanceSectionProps) {
             >
               <div className="markerLabelSunset">
                 <strong>{sg.southGlanceSunsetPinTitle}</strong>
-                <span>{sg.southGlanceSunsetPinSub}</span>
               </div>
               <div className="markerPinSunset" />
             </Link>
 
-            {/* Kem Beach Pin Overlay (Disabled -> Preparing state) */}
-            <div
+            {/* Kem Beach Pin Overlay (Clickable -> /zones/khem-beach) */}
+            <Link
+              href={localePath(locale, '/zones/khem-beach')}
               className="mapInteractiveItem markerKhem"
-              title={sg.southGlanceKhemCardPreparing}
+              title={sg.southGlanceKhemCardTitle}
             >
               <div className="markerLabelKhem">
-                <strong>
-                  {sg.southGlanceKhemPinTitle}{' '}
-                  <span className="statusPreparingBadge">
-                    {sg.southGlanceStatusPreparing}
-                  </span>
-                </strong>
-                <span>{sg.southGlanceKhemPinSub}</span>
+                <strong>{sg.southGlanceKhemPinTitle}</strong>
               </div>
               <div className="markerPinKhem" />
-            </div>
+            </Link>
 
             {/* Route Distance Badge Overlay */}
             <div className="routeDistanceBadge">
@@ -77,9 +71,6 @@ export function SouthGlanceSection({ locale = 'en' }: SouthGlanceSectionProps) {
         <div className="mapFooterNote">
           <div className="noteLeft">
             {sg.southGlanceNoteDistance}
-          </div>
-          <div className="noteRight">
-            <span>{sg.southGlanceNoteUnverified}</span>
           </div>
         </div>
       </div>
@@ -121,7 +112,7 @@ export function SouthGlanceSection({ locale = 'en' }: SouthGlanceSectionProps) {
           </div>
         </article>
 
-        {/* Kem Beach Card (Preparing State) */}
+        {/* Kem Beach Card (Active) */}
         <article className="zoneCard khem">
           <div className="zoneCardMedia">
             <img
@@ -132,7 +123,6 @@ export function SouthGlanceSection({ locale = 'en' }: SouthGlanceSectionProps) {
             />
             <div className="zoneMediaShade" />
             <span className="zoneCardBadge">{sg.southGlanceKhemCardBadge}</span>
-            <span className="zonePreparingBadge">{sg.southGlanceKhemCardPreparing}</span>
           </div>
           <div className="zoneCardBody">
             <div className="zoneTitleRow">
@@ -146,13 +136,13 @@ export function SouthGlanceSection({ locale = 'en' }: SouthGlanceSectionProps) {
               <span className="zoneChip">{sg.southGlanceKhemChip2}</span>
               <span className="zoneChip">{sg.southGlanceKhemChip3}</span>
             </div>
-            <div
-              className="zoneCtaBtn disabled"
-              title={sg.southGlanceKhemCtaDisabled}
+            <Link
+              href={localePath(locale, '/zones/khem-beach')}
+              className="zoneCtaBtn"
             >
-              <span>{sg.southGlanceKhemCtaDisabled}</span>
-              <span>🔒</span>
-            </div>
+              <span>{sg.southGlanceKhemCta || sg.southGlanceSunsetCta}</span>
+              <span>→</span>
+            </Link>
           </div>
         </article>
       </div>
