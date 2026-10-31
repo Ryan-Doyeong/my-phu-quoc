@@ -36,6 +36,32 @@ export const LOCALE_NATIVE_NAMES: Record<Locale, string> = {
   vi: 'Tiếng Việt',
 }
 
+/** 번체 중국어(홍콩·대만) 전용 URL 접두사 — 데이터 로케일이 아니라 /zh 를 OpenCC 로 변환해 서빙하는 라우트 (docs/i18n_traditional_chinese_tw.md) */
+export const HANT_PREFIX = '/tw'
+export const HANT_HREFLANG = 'zh-Hant'
+export const HANT_NATIVE_NAME = '繁體中文'
+
+export function hantPath(barePath: string = '/'): string {
+  const normalized =
+    !barePath || barePath === '/' ? '' : barePath.startsWith('/') ? barePath : `/${barePath}`
+  return `${HANT_PREFIX}${normalized}` || HANT_PREFIX
+}
+
+/** Accept-Language 가 번체(대만·홍콩·마카오·Hant)를 선호하는지 (첫 번째 중국어 태그 기준) */
+export function prefersTraditionalChinese(acceptLanguage: string | null | undefined): boolean {
+  if (!acceptLanguage) return false
+  const tags = acceptLanguage
+    .toLowerCase()
+    .split(',')
+    .map((t) => t.split(';')[0].trim())
+    .filter(Boolean)
+  const firstZh = tags.find((t) => t === 'zh' || t.startsWith('zh-'))
+  if (!firstZh) return false
+  // 중국어보다 앞선 비중국어 언어가 있으면 그 언어 우선 (기존 startsWith('zh') 동작과 동일하게 맨 앞일 때만)
+  if (tags[0] !== firstZh) return false
+  return /^zh-(tw|hk|mo|hant)(-|$)/.test(firstZh)
+}
+
 /** 브라우저 Accept-Language 헤더 분석하여 6개 지원 언어 중 최적 언어 판별 */
 export function detectPreferredLocale(acceptLanguage: string | null | undefined): Locale {
   if (!acceptLanguage) return DEFAULT_LOCALE
@@ -127,6 +153,9 @@ export function buildAlternates(
   const languages: Record<string, string> = {}
   for (const loc of availableLocales) {
     languages[HREFLANG[loc]] = localeUrl(loc, barePath, baseUrl)
+  }
+  if (availableLocales.includes('zh')) {
+    languages[HANT_HREFLANG] = `${(baseUrl || SITE_URL).replace(/\/+$/, '')}${hantPath(barePath)}`
   }
   if (availableLocales.includes('en')) {
     languages['x-default'] = localeUrl('en', barePath, baseUrl)

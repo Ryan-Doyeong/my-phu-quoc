@@ -2,6 +2,7 @@
 // Ratings are never stored or printed by us: the Google Maps embed shows them live.
 // Review highlights are our own summary of public Google reviews (no quotes, names or star numbers).
 
+import { buildGoogleMapsUrl } from '@/lib/mapsLink'
 import { dateLocaleFor, type Locale } from '@/lib/i18n/config'
 import { getDictionary, translateTerm } from '@/lib/i18n/dictionaries'
 
@@ -36,7 +37,7 @@ export function BusinessReviews({ b, locale = 'en' }: { b: any; locale?: Locale 
   if (!embed && !praised.length && !topics.length) return null
   const mapsLink = b.gmaps_query
     ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(b.gmaps_query)}`
-    : b.google_maps_url || null
+    : buildGoogleMapsUrl(b)
   const updated = updatedLabel(s.updated, locale)
   return (
     <section className="glReviews" aria-labelledby="gl-maps-title">

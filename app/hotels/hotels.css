@@ -1951,3 +1951,40 @@
     font-size: 0.8125rem;
   }
 }
+
+/* ===== 2026-10-31 데스크톱: 탑 그레이드·추천 호텔 카드 가로형 (사진 과확대 방지) ===== */
+@media (min-width: 900px) {
+  .hotelCard.hotelCardTopGrade,
+  .hotelCard.hotelCardFeatured {
+    display: grid;
+    grid-template-columns: minmax(0, 46%) minmax(0, 1fr);
+    grid-template-rows: auto 1fr;
+    align-items: stretch;
+  }
+  .hotelCard.hotelCardTopGrade .cardFeaturedHeader,
+  .hotelCard.hotelCardFeatured .cardFeaturedHeader {
+    grid-column: 1 / -1;
+  }
+  .hotelCard.hotelCardTopGrade .cardImageWrap,
+  .hotelCard.hotelCardFeatured .cardImageWrap {
+    aspect-ratio: auto;
+    min-height: 360px;
+    height: 100%;
+  }
+  .hotelCard.hotelCardTopGrade .cardBody,
+  .hotelCard.hotelCardFeatured .cardBody {
+    padding: 24px 28px;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .hotelCard.hotelCardTopGrade .cardBody > *,
+  .hotelCard.hotelCardFeatured .cardBody > * {
+    margin-top: 0 !important;
+  }
+}
+/* 데스크톱 넓은 화면: 일반 호텔 3열 */
+@media (min-width: 1100px) {
+  .hotelsGrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

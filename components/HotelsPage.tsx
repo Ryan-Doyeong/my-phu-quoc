@@ -1,6 +1,7 @@
 // Translations: ko source; en/zh/ru/ja/hi drafted 2026-10-31 — ChatGPT 검수 대기
 'use client'
 
+import { ContextCta } from '@/components/ContextCta'
 import React, { useState, useMemo, useEffect, Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
@@ -1044,6 +1045,7 @@ function HotelsPageInner({ hotels: rawHotels, locale = 'en', initialArea }: Hote
                     onOpenModal={setSelectedHotel}
                   />
                 ))}
+                <ContextCta locale={locale} variant="hotel" />
               </div>
             )}
 
@@ -1205,6 +1207,8 @@ function HotelsPageInner({ hotels: rawHotels, locale = 'en', initialArea }: Hote
             </div>
           </div>
         )}
+
+        <ContextCta locale={locale} variant="hotel" />
 
         {/* Bottom Notice */}
         <div className="bottomNoticeWrap">
