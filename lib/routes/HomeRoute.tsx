@@ -5,29 +5,70 @@ import { HomePage } from '@/components/HomePage'
 import { mergeDirectoryCategoryAppearance } from '@/lib/directory'
 import { mergeHomeSections } from '@/lib/homeSections'
 import { buildAlternates, localeUrl, ogLocaleFor, type Locale } from '@/lib/i18n/config'
-import { getDictionary } from '@/lib/i18n/dictionaries'
 import { DEFAULT_SPONSOR_BANNERS } from '@/lib/banners'
 import { PUBLISHED_EVENTS } from '@/lib/eventSamples'
+import { JsonLd } from '@/components/JsonLd'
+import { SITE_URL } from '@/lib/supabase/config'
+import { SUNSET_LANDMARKS } from '@/lib/sunsetMapData'
+import { INTER_ZONE_TRANSIT } from '@/lib/zones'
+import { HOME_DESCRIPTION, HOME_FAQ_Q, HOME_TITLE } from '@/lib/seo/meta'
+import { faqJsonLd, graph, organizationJsonLd, websiteJsonLd } from '@/lib/seo/jsonld'
 
 export async function generateHomeMetadata(locale: Locale = 'en'): Promise<Metadata> {
-  const dict = getDictionary(locale)
   const alternates = buildAlternates('/')
   const canonicalUrl = localeUrl(locale, '/')
-  const siteTitle = locale === 'ko' ? '마이 푸꾸옥' : 'My Phu Quoc'
+  const title = HOME_TITLE[locale] || HOME_TITLE.en
+  const description = HOME_DESCRIPTION[locale] || HOME_DESCRIPTION.en
+  const ogImage = `${SITE_URL}/hero/02_kiss_bridge_aerial_1920.webp`
   return {
-    title: siteTitle,
-    description: dict.home.heroDescription,
+    title: { absolute: title },
+    description,
     alternates: {
       canonical: canonicalUrl,
       languages: alternates.languages,
     },
     openGraph: {
-      title: siteTitle,
-      description: dict.home.heroDescription,
+      title,
+      description,
       url: canonicalUrl,
+      siteName: 'My Phu Quoc',
+      type: 'website',
       locale: ogLocaleFor(locale),
+      images: [{ url: ogImage, width: 1920, height: 1080, alt: title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [ogImage],
     },
   }
+}
+
+function buildHomeJsonLd(locale: Locale) {
+  const lm = (id: string) => SUNSET_LANDMARKS.find((l) => l.id === id)
+  const pickL = (m: Record<string, string> | undefined) => (m ? m[locale] || m.en : '')
+  const faq: { q: string; a: string }[] = []
+  faq.push({
+    q: pickL(HOME_FAQ_Q.distance),
+    a: `${pickL(INTER_ZONE_TRANSIT.headline as Record<string, string>)}. ${pickL(INTER_ZONE_TRANSIT.description as Record<string, string>)}`,
+  })
+  const show = lm('kiss-of-the-sea')
+  if (show) {
+    faq.push({
+      q: pickL(HOME_FAQ_Q.fireworks),
+      a: `${pickL(show.tips as Record<string, string>)} (${pickL({ en: 'Check the official schedule before you go.', ko: '방문 전 공식 일정을 확인하세요.', zh: '出行前请确认官方演出时间。', ru: 'Перед визитом уточните официальное расписание.', ja: '訪問前に公式日程をご確認ください。', hi: 'जाने से पहले आधिकारिक समय-सारिणी देखें।' })})`,
+    })
+  }
+  const cable = lm('cable-car-station')
+  if (cable) faq.push({ q: pickL(HOME_FAQ_Q.cable), a: pickL(cable.description as Record<string, string>) })
+  const bridge = lm('kiss-bridge')
+  if (bridge) faq.push({ q: pickL(HOME_FAQ_Q.bridge), a: pickL(bridge.description as Record<string, string>) })
+  return graph(
+    websiteJsonLd(locale),
+    organizationJsonLd(),
+    faqJsonLd(faq, locale)
+  )
 }
 
 export async function renderHomeRoute(locale: Locale = 'en') {
@@ -71,14 +112,17 @@ export async function renderHomeRoute(locale: Locale = 'en') {
   const effectiveEvent = eventRows?.[0] || defaultSunsetEvent || null
 
   return (
-    <HomePage
-      settings={settings}
-      categoryAppearance={categoryAppearance}
-      stories={stories || []}
-      banners={effectiveBanners}
-      event={effectiveEvent}
-      homeSections={homeSections}
-      locale={locale}
-    />
+    <>
+      <JsonLd data={buildHomeJsonLd(locale)} />
+      <HomePage
+        settings={settings}
+        categoryAppearance={categoryAppearance}
+        stories={stories || []}
+        banners={effectiveBanners}
+        event={effectiveEvent}
+        homeSections={homeSections}
+        locale={locale}
+      />
+    </>
   )
 }

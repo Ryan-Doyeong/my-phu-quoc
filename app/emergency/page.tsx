@@ -4,9 +4,9 @@ import { generateEmergencyMetadata, renderEmergencyRoute } from '@/lib/routes/Em
 export const revalidate = 300
 
 export async function generateMetadata(): Promise<Metadata> {
-  return generateEmergencyMetadata('ko')
+  return generateEmergencyMetadata('en')
 }
 
 export default async function EmergencyPage() {
-  return renderEmergencyRoute('ko')
+  return renderEmergencyRoute('en')
 }

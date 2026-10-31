@@ -14,6 +14,9 @@ import { SITE_URL } from '@/lib/supabase/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
 import { categoryLabel } from '@/lib/directory'
 import { tUi } from '@/lib/i18n/uiStrings'
+import { JsonLd } from '@/components/JsonLd'
+import { ZONE_TITLE, withZoneKeyword } from '@/lib/seo/meta'
+import { breadcrumbJsonLd, graph, inLanguage, PHU_QUOC_PLACE } from '@/lib/seo/jsonld'
 import khemBusinesses from '@/data/khem-beach-businesses.json'
 
 const ZONE_NAV_LABELS: {
@@ -161,13 +164,9 @@ export async function generateZoneMetadata(
 
   const name = zone.name[locale] || zone.name.en
   const summary = zone.summary[locale] || zone.summary.en
-  const rawEnTitle = `${zone.name.en} Travel Guide | My Phu Quoc`
-  const title =
-    locale === 'ko'
-      ? `${name} 여행 가이드 | 마이 푸꾸옥 (My Phu Quoc)`
-      : locale === 'en'
-      ? rawEnTitle
-      : tUi(rawEnTitle, locale)
+  const zoneKey = slug as MainZoneSlug
+  const title = ZONE_TITLE[zoneKey][locale] || ZONE_TITLE[zoneKey].en
+  const description = withZoneKeyword(summary, zoneKey, locale)
 
   const barePath = `/zones/${slug}`
   const canonicalUrl = localeUrl(locale, barePath)
@@ -178,15 +177,17 @@ export async function generateZoneMetadata(
 
   return {
     title,
-    description: summary,
+    description,
     alternates: {
       canonical: canonicalUrl,
       languages: alternates.languages,
     },
     openGraph: {
       title,
-      description: summary,
+      description,
       url: canonicalUrl,
+      siteName: 'My Phu Quoc',
+      type: 'website',
       locale: ogLocaleFor(locale),
       images: [
         {
@@ -196,6 +197,12 @@ export async function generateZoneMetadata(
           alt: zone.heroAlt[locale] || zone.heroAlt.en,
         },
       ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [heroAbsoluteUrl],
     },
   }
 }
@@ -221,9 +228,10 @@ export async function renderZoneRoute(slug: string, locale: Locale = 'en') {
     ? zone.heroImage
     : `${SITE_URL}${zone.heroImage}`
 
-  const jsonLd = {
-    '@context': 'https://schema.org',
+  const destination = {
     '@type': 'TouristDestination',
+    inLanguage: inLanguage(locale),
+    containedInPlace: PHU_QUOC_PLACE,
     name: name,
     alternateName: zone.nameLocal,
     description: summary,
@@ -236,15 +244,19 @@ export async function renderZoneRoute(slug: string, locale: Locale = 'en') {
       description: attr.description[locale] || attr.description.en,
     })),
   }
+  const jsonLd = graph(
+    destination,
+    breadcrumbJsonLd([
+      { name: dict.nav.home, url: localeUrl(locale, '/') },
+      { name, url: canonicalUrl },
+    ])
+  )
 
   const isSunset = slug === 'sunset-town'
 
   return (
     <main className="zoneDetailPage">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <JsonLd data={jsonLd} />
       {/* Top Header */}
       <header className="detailNav">
         <Logo locale={locale} />

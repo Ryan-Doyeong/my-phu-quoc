@@ -20,6 +20,9 @@ import { loadMenuForPlace } from '@/lib/menus'
 import businessesRegistry from '@/data/businesses-registry.json'
 import khemBusinesses from '@/data/khem-beach-businesses.json'
 import { categoryLabel, nearbyBadgeText, formatLocalizedAddress } from '@/lib/directory'
+import { JsonLd } from '@/components/JsonLd'
+import { businessTitle, withKeywordSuffix, sunsetKeyword, ZONE_KEYWORD } from '@/lib/seo/meta'
+import { businessJsonLd } from '@/lib/seo/businessJsonld'
 import { stockGalleryFor } from '@/lib/stockImages'
 import { imageUrl } from '@/lib/imageUrl'
 import {
@@ -121,9 +124,12 @@ export async function generateBusinessMetadata(
   if (!b) return {}
 
   const rawDesc = selectBusinessDescription(b, locale)
-  const description = rawDesc
-    ? rawDesc.slice(0, 150) + (rawDesc.length > 150 ? '...' : '')
+  const isKhemBiz = b.zone === 'khem-beach' || (b.id && String(b.id).startsWith('khem-'))
+  const kw = isKhemBiz ? ZONE_KEYWORD['khem-beach'][locale] || ZONE_KEYWORD['khem-beach'].en : sunsetKeyword(locale)
+  const baseDesc = rawDesc
+    ? rawDesc
     : `${categoryLabel(b.category, locale)} - ${formatLocalizedAddress(b.address, locale) || 'Phu Quoc'}`
+  const description = withKeywordSuffix(baseDesc, kw)
 
   const coverPhoto = getCoverPhoto(slug)
   const ogImage = coverPhoto
@@ -135,19 +141,28 @@ export async function generateBusinessMetadata(
   const canonicalUrl = localeUrl(locale, barePath)
   const alternates = buildAlternates(barePath)
   const businessName = displayBusinessName(b, locale)
+  const pageTitle = businessTitle(businessName, categoryLabel(b.category, locale), locale, Boolean(isKhemBiz))
 
   return {
-    title: `${businessName} | My Phu Quoc`,
+    title: pageTitle,
     description,
     alternates: {
       canonical: canonicalUrl,
       languages: alternates.languages,
     },
     openGraph: {
-      title: `${businessName} | My Phu Quoc`,
+      title: pageTitle,
       description,
       url: canonicalUrl,
+      siteName: 'My Phu Quoc',
+      type: 'website',
       locale: ogLocaleFor(locale),
+      images: ogImage ? [ogImage] : undefined,
+    },
+    twitter: {
+      card: ogImage ? 'summary_large_image' : 'summary',
+      title: pageTitle,
+      description,
       images: ogImage ? [ogImage] : undefined,
     },
   }
@@ -265,16 +280,8 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
   const categoryGuide = !isNameOnly && !isDiningOrFood && !isKhem ? getKnowledgeGuideForBusiness(b, menuData) : null
   const reviewAnalysis = !isNameOnly ? analyzeGoogleReviews(b, locale) : null
 
-  const jsonLd: any = {
-    '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
-    name: businessDisplayName,
-  }
-  if (b.address) jsonLd.address = b.address
-  if (b.phone) jsonLd.telephone = b.phone
-  if (b.website_url) jsonLd.url = b.website_url
+  const parsedHours: string[] = []
   if (b.opening_hours && typeof b.opening_hours === 'object' && !Array.isArray(b.opening_hours)) {
-    const parsedHours: string[] = []
     for (const [key, val] of Object.entries(b.opening_hours)) {
       if (!val) continue
       const k = key.trim()
@@ -302,17 +309,22 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
         parsedHours.push(candidate)
       }
     }
-    if (parsedHours.length > 0) {
-      jsonLd.openingHours = parsedHours
-    }
   }
+  const coverForLd = getCoverPhoto(slug)
+  const jsonLd = businessJsonLd({
+    b,
+    locale,
+    name: businessDisplayName,
+    description: !isNameOnly ? (selectBusinessDescription(b, locale) || '').slice(0, 300) || undefined : undefined,
+    imageUrl: coverForLd?.image_url || photos[0] || null,
+    openingHours: parsedHours,
+    categoryLabel: catLabel,
+    homeLabel: dict.nav.home,
+  })
 
   return (
     <main className="businessDetailPage">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <JsonLd data={jsonLd} />
       <header className="detailNav">
         <Logo locale={locale} />
         <div className="detailNavRight">

@@ -25,7 +25,7 @@ import {
   type DirectoryCategory,
 } from '@/lib/directory'
 import { STOCK_IMAGES } from '@/lib/stockImages'
-import { tUi } from '@/lib/i18n/uiStrings'
+import { tUi, HERO_IMAGE_ALT, QUICK_CARD_SUBLABELS, NAV_ZONE_LABELS, pickLocale } from '@/lib/i18n/uiStrings'
 import { imageUrl } from '@/lib/imageUrl'
 import type { HomeSections } from '@/lib/homeSections'
 import { localePath, dateLocaleFor, type Locale } from '@/lib/i18n/config'
@@ -33,24 +33,6 @@ import { getDictionary, localizeStory, translateTerm } from '@/lib/i18n/dictiona
 import { DEFAULT_SPONSOR_BANNERS } from '@/lib/banners'
 import { PUBLISHED_EVENTS } from '@/lib/eventSamples'
 import { SITE_CONFIG } from '@/lib/siteConfig'
-
-const HOME_NAV_SUNSET: Record<string, string> = {
-  ko: '선셋타운',
-  en: 'Sunset Town',
-  zh: 'Sunset Town',
-  ru: 'Sunset Town',
-  ja: 'Sunset Town',
-  hi: 'Sunset Town',
-}
-
-const HOME_NAV_KHEM: Record<string, string> = {
-  ko: '켐비치',
-  en: 'Khem Beach',
-  zh: 'Khem Beach',
-  ru: 'Khem Beach',
-  ja: 'Khem Beach',
-  hi: 'Khem Beach',
-}
 
 /* Quick Service Card Labels (Korean confirmed; other languages temporary English awaiting ChatGPT review) */
 /* ChatGPT 검수 대기 */
@@ -506,10 +488,10 @@ export function HomePage({
           <nav>
             <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
             <Link href={localePath(locale, '/zones/sunset-town')}>
-              {HOME_NAV_SUNSET[locale] || HOME_NAV_SUNSET.en}
+              {NAV_ZONE_LABELS.sunset[locale] || NAV_ZONE_LABELS.sunset.en}
             </Link>
             <Link href={localePath(locale, '/zones/khem-beach')}>
-              {HOME_NAV_KHEM[locale] || HOME_NAV_KHEM.en}
+              {NAV_ZONE_LABELS.khem[locale] || NAV_ZONE_LABELS.khem.en}
             </Link>
             <Link href={localePath(locale, '/directory/dining')}>
               {categoryLabel('dining', locale)}
@@ -533,7 +515,7 @@ export function HomePage({
           <div className="heroImageBox">
             <img
               src="/hero/02_kiss_bridge_aerial_1920.webp"
-              alt="푸꾸옥 선셋타운 키스브릿지 석양 항공 전경"
+              alt={((dict as any).home?.heroImageAlt as string | undefined) || pickLocale(HERO_IMAGE_ALT, locale)}
               className="heroImage"
               loading="eager"
               fetchPriority="high"
@@ -551,6 +533,7 @@ export function HomePage({
               const def = QUICK_SERVICES_REGISTRY[key]
               if (!def) return null
               const label = def.labels[locale] || def.labels.en
+              const subLabel = QUICK_CARD_SUBLABELS[key] ? pickLocale(QUICK_CARD_SUBLABELS[key], locale) : ''
 
               if (def.disabled || !def.href) {
                 return (
@@ -564,6 +547,7 @@ export function HomePage({
                       {def.renderIcon()}
                     </div>
                     <div className="cardLabel">{label}</div>
+                    {subLabel && <div className="cardSub">{subLabel}</div>}
                   </div>
                 )
               }
@@ -580,6 +564,7 @@ export function HomePage({
                     {def.renderIcon()}
                   </div>
                   <div className="cardLabel">{label}</div>
+                  {subLabel && <div className="cardSub">{subLabel}</div>}
                 </Link>
               )
             })}
@@ -919,7 +904,7 @@ export function HomePage({
                       <h3>{locLabel}</h3>
                       <p>{locDesc}</p>
                       <div className="categoryMiniTags">
-                        {c.subcategories.slice(0, 4).map((x) => (
+                        {c.subcategories.slice(0, 3).map((x) => (
                           <em key={x}>{translateTerm(x, locale)}</em>
                         ))}
                       </div>
@@ -1031,7 +1016,7 @@ export function HomePage({
                 </h2>
                 <p>{closingDesc}</p>
               </div>
-              <Link href={localePath(locale, '/impact')} className="outlineButton closingButton">
+              <Link href={localePath(locale, '/zones/sunset-town')} className="outlineButton closingButton">
                 {dict.home.closingCta} <span>→</span>
               </Link>
             </div>

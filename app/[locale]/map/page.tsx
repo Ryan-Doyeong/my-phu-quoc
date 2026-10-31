@@ -12,6 +12,11 @@ import { createPublicClient } from '@/lib/supabase/public'
 import baseMapJson from '@/data/sunset-illust-map-data.json'
 import type { MapDataPayload } from '@/components/map/SunsetIllustMap'
 import { MapTabContainer } from '@/components/map/MapTabContainer'
+import { JsonLd } from '@/components/JsonLd'
+import { SITE_URL } from '@/lib/supabase/config'
+import { buildAlternates, localeUrl, ogLocaleFor } from '@/lib/i18n/config'
+import { MAP_DESCRIPTION, MAP_TITLE } from '@/lib/seo/meta'
+import { mapPageJsonLd } from '@/lib/seo/mapJsonld'
 
 // Ryan 지시: Next.js ISR 300초(5분) 캐시 갱신
 export const revalidate = 300
@@ -22,14 +27,24 @@ interface MapPageProps {
 
 export async function generateMetadata({ params }: MapPageProps): Promise<Metadata> {
   const { locale } = await params
-  const isKo = locale === 'ko'
+  const title = MAP_TITLE[locale] || MAP_TITLE.en
+  const description = MAP_DESCRIPTION[locale] || MAP_DESCRIPTION.en
+  const canonical = localeUrl(locale, '/map')
+  const image = `${SITE_URL}/tickets/kiss-bridge.webp`
   return {
-    title: isKo
-      ? '선셋타운 안내 지도 — 거리별 명소 & 12대 랜드마크 안내 | My Phu Quoc'
-      : 'Sunset Town Guide Map — Street Navigation & 12 Iconic Landmarks | My Phu Quoc',
-    description: isKo
-      ? '선셋타운 마스터플랜 일러스트 지도를 기반으로 키스브릿지, 75m 시계탑, 해상 케이블카, 부이페스트 야시장, 6대 구역 및 주요 거리를 한눈에 탐색하세요.'
-      : 'Explore Sunset Town with our illustrated guide map, featuring Kiss Bridge, Clock Tower, 3-rope Cable Car, Vui-Fest Bazaar and 6 distinct quarters.',
+    title,
+    description,
+    alternates: { canonical, languages: buildAlternates('/map').languages },
+    openGraph: {
+      title,
+      description,
+      url: canonical,
+      siteName: 'My Phu Quoc',
+      type: 'website',
+      locale: ogLocaleFor(locale),
+      images: [{ url: image, alt: title }],
+    },
+    twitter: { card: 'summary_large_image', title, description, images: [image] },
   }
 }
 
@@ -166,6 +181,7 @@ export default async function MapPage({ params }: MapPageProps) {
 
   return (
     <div className="siteRoot" style={{ minHeight: '100vh', background: '#F8FAFC' }}>
+      <JsonLd data={mapPageJsonLd(locale, dict.nav.home)} />
       {/* 사이트 상단 공통 헤더 */}
       <header className="siteHeader" style={{ background: '#12333B', color: '#ffffff' }}>
         <Logo locale={locale} />
