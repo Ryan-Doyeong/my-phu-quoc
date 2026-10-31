@@ -17,6 +17,7 @@ export interface YachtClass {
   name: L
   deck: L
   priceVnd: number
+  note?: L
 }
 
 export interface YachtTour {
@@ -40,8 +41,8 @@ const SKY = { ko: '스카이 라운지', en: 'Sky Lounge' }
 const SKY_DECK = { ko: 'VIP 데크', en: 'VIP Deck' }
 
 const WEATHER: L = {
-  ko: '표시된 일정과 시간은 일반적인 기준입니다. 해상 상태·날씨·당일 운영 상황 등 여러 변수에 따라 정박 장소, 시간, 프로그램이 달라지거나 조정될 수 있습니다.',
-  en: 'Schedules and times shown are general guidelines. Anchorage locations, timings and programs may change or be adjusted depending on sea conditions, weather and other circumstances on the day.',
+  ko: '표시된 일정과 시간은 일반적인 기준입니다. 해상 상태·날씨·바람 계절·당일 운영 상황 등 여러 변수에 따라 출발 항구, 항로, 정박 장소, 시간, 프로그램이 달라지거나 조정될 수 있습니다. 액티비티는 날씨와 탑승객의 건강 상태가 안전할 때에만 진행됩니다.',
+  en: 'Schedules and times shown are general guidelines. Departure port, route, anchorage, timings and programs may change or be adjusted depending on sea conditions, weather, wind season and other circumstances on the day. Activities run only when weather and guests\' health allow safe operation.',
 }
 
 export const MARMORIS_YACHT_TOURS: YachtTour[] = [
@@ -64,8 +65,8 @@ export const MARMORIS_YACHT_TOURS: YachtTour[] = [
       { ko: 'BBQ 점심', en: 'BBQ Lunch' },
     ],
     classes: [
-      { name: OCEAN, deck: OCEAN_DECK, priceVnd: 1950000 },
-      { name: SKY, deck: SKY_DECK, priceVnd: 2450000 },
+      { name: OCEAN, deck: OCEAN_DECK, priceVnd: 1950000, note: { ko: '바나나보트 1회 무료 · 제트스키·스쿠버다이빙은 별도 요금', en: 'One free banana boat ride · Jet ski and scuba diving not included' } },
+      { name: SKY, deck: SKY_DECK, priceVnd: 2450000, note: { ko: '플라이브리지 전용석(360° 전망) · 제트스키·바나나보트·스쿠버다이빙 포함', en: 'Private Flybridge seating with 360° views · Jet ski, banana boat and scuba diving included' } },
     ],
     images: [
       '/activities/marmoris/tropical-1.webp',
@@ -80,8 +81,8 @@ export const MARMORIS_YACHT_TOURS: YachtTour[] = [
       { time: '12:30–13:30', title: { ko: '빈담 항으로 복귀', en: 'Cruise back to Vinh Dam Port' }, desc: { ko: '투어 종료', en: 'Concluding the journey' } },
     ],
     flow: {
-      ko: '각 호텔에서 픽업해 빈담 항에 모인 뒤, 보트를 타고 요트로 이동합니다. 픽업은 즈엉동 시내 중심 기준이며, 그 밖의 지역은 추가 교통비가 있을 수 있습니다.',
-      en: 'Guests are picked up at their hotels and gathered at Vinh Dam Port, then transferred by boat to the yacht. Pick-up is based on Duong Dong Town Center; other areas may incur an additional transportation charge.',
+      ko: '즈엉동·안터이 지역의 호텔에서 픽업해 빈담 항에 모인 뒤, 보트를 타고 요트로 이동합니다. 출발 항구와 항로는 날씨·바람 계절에 따라 변경될 수 있습니다.',
+      en: 'Guests are picked up at their hotels in the Duong Dong and An Thoi areas and gathered at Vinh Dam Port, then transferred by boat to the yacht. The departure port and route may change depending on weather and wind season.',
     },
     notes: [WEATHER],
   },
