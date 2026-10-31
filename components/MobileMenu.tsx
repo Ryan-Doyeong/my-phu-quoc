@@ -39,7 +39,10 @@ export function MobileMenu({ locale = 'en' }: { locale?: Locale }) {
         </Link>
         <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
         {DIRECTORY_CATEGORY_KEYS.map((key) => (
-          <Link href={localePath(locale, `/directory/${key}`)} key={key}>
+          <Link
+            href={key === 'hotels' ? localePath(locale, '/hotels') : localePath(locale, `/directory/${key}`)}
+            key={key}
+          >
             {categoryLabel(key, locale)}
           </Link>
         ))}

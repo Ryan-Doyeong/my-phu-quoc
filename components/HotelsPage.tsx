@@ -912,31 +912,6 @@ function HotelsPageInner({ hotels, locale = 'en' }: HotelsPageProps) {
           ))}
         </div>
 
-        {/* Directory Link */}
-        <div style={{ marginTop: '48px', textAlign: 'center' }}>
-          <Link
-            href={localePath(locale, '/directory/hotels')}
-            style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: '8px',
-              padding: '14px 28px',
-              background: '#ffffff',
-              border: '1.5px solid #cbd5e1',
-              borderRadius: '9999px',
-              color: '#0f172a',
-              fontSize: '0.9375rem',
-              fontWeight: 700,
-              textDecoration: 'none',
-              boxShadow: '0 2px 6px rgba(0, 0, 0, 0.04)',
-              transition: 'all 0.2s ease',
-            }}
-          >
-            <span>🏨</span>
-            <span>{t.viewAllDirectory}</span>
-          </Link>
-        </div>
-
         {/* Bottom Notice */}
         <div className="bottomNoticeWrap">
           <p>{t.footerNotice}</p>

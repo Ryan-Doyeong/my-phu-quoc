@@ -14,6 +14,7 @@ import { SITE_URL } from '@/lib/supabase/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
 import { categoryLabel } from '@/lib/directory'
 import { tUi } from '@/lib/i18n/uiStrings'
+import khemBusinesses from '@/data/khem-beach-businesses.json'
 
 const ZONE_NAV_LABELS: {
   sunset: Record<string, string>
@@ -362,19 +363,27 @@ export async function renderZoneRoute(slug: string, locale: Locale = 'en') {
               <div className="categoryGridSmall">
                 {zone.categories
                   .filter((cat) => cat.count > 0)
-                  .map((cat, idx) => (
-                  <Link
-                    href={`${localePath(locale, `/directory/${cat.categoryKey}`)}?zone=${slug}`}
-                    key={idx}
-                    className="catBtn"
-                  >
-                    <span className="icon">{cat.icon}</span>
-                    <span>{cat.name[locale] || cat.name.en}</span>
-                    <small>
-                      {getVenuesCountText(cat.count, locale)}
-                    </small>
-                  </Link>
-                ))}
+                  .map((cat, idx) => {
+                    const href =
+                      cat.categoryKey === 'hotels'
+                        ? isSunset
+                          ? localePath(locale, '/hotels')
+                          : '#khem-resorts'
+                        : `${localePath(locale, `/directory/${cat.categoryKey}`)}?zone=${slug}`
+                    return (
+                      <Link
+                        href={href}
+                        key={idx}
+                        className="catBtn"
+                      >
+                        <span className="icon">{cat.icon}</span>
+                        <span>{cat.name[locale] || cat.name.en}</span>
+                        <small>
+                          {getVenuesCountText(cat.count, locale)}
+                        </small>
+                      </Link>
+                    )
+                  })}
               </div>
 
               {/* Informational Note Banner */}
@@ -384,6 +393,68 @@ export async function renderZoneRoute(slug: string, locale: Locale = 'en') {
                 </div>
               ) : null}
             </div>
+
+            {/* Section 3.5: Khem Beach Resorts & Hotels (Preserved 6 Stays) */}
+            {!isSunset && (
+              <div id="khem-resorts" style={{ marginTop: '36px' }}>
+                <div className="contentSectionTitle">
+                  <span>
+                    {locale === 'ko'
+                      ? '켐비치 주요 리조트 & 호텔 (6곳)'
+                      : locale === 'vi'
+                      ? 'Resort & Khách sạn nổi bật tại Bãi Khem (6 địa điểm)'
+                      : locale === 'zh'
+                      ? '凯姆海滩核心度假酒店（6家）'
+                      : locale === 'ja'
+                      ? 'ケムビーチの主要リゾート＆ホテル（6軒）'
+                      : locale === 'ru'
+                      ? 'Курорты и отели пляжа Кхем (6)'
+                      : 'Featured Khem Beach Resorts & Hotels (6)'}
+                  </span>
+                  <span className="badge">
+                    {locale === 'ko' ? '현장 조사 등록 시설' : 'Verified Stays'}
+                  </span>
+                </div>
+                <div className="attractionList">
+                  {(khemBusinesses as any[])
+                    .filter(
+                      (b) =>
+                        b.category === 'hotels' &&
+                        (b.status === 'published' || b.verification_status === 'verified')
+                    )
+                    .slice(0, 6)
+                    .map((hotel, idx) => (
+                      <Link
+                        href={localePath(locale, `/business/${hotel.slug}`)}
+                        key={hotel.slug}
+                        className="attrCard"
+                        style={{ textDecoration: 'none', color: 'inherit', display: 'flex', alignItems: 'center' }}
+                      >
+                        <div className="attrLeft">
+                          <div className="attrNum" style={{ background: '#0B7A8A', color: '#fff' }}>
+                            {idx + 1}
+                          </div>
+                          <div>
+                            <strong>
+                              {locale === 'ko'
+                                ? hotel.public_name
+                                : hotel.name_local || hotel.public_name}
+                            </strong>
+                            <em>
+                              {locale === 'ko'
+                                ? hotel.verification_note || hotel.address
+                                : hotel.description_en || hotel.address}
+                            </em>
+                          </div>
+                        </div>
+                        <span className="attrTag" style={{ background: 'rgba(11, 122, 138, 0.1)', color: '#0B7A8A' }}>
+                          {locale === 'ko' ? '상세 안내 →' : 'Details →'}
+                        </span>
+                      </Link>
+                    ))}
+                </div>
+              </div>
+            )}
 
             {/* Section 4: Inter-Zone Transit Guide */}
             <div className={`transitGuideBox ${!isSunset ? 'oceanBorder' : ''}`}>

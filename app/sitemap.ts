@@ -16,7 +16,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/',
     '/zones/sunset-town',
     '/zones/khem-beach',
-    ...DIRECTORY_CATEGORY_KEYS.map((key) => `/directory/${key}`),
+    '/hotels',
+    ...DIRECTORY_CATEGORY_KEYS.filter((key) => key !== 'hotels').map((key) => `/directory/${key}`),
     '/news',
     '/events',
     '/about',
@@ -45,11 +46,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // 2) Published businesses exist in all all 7 locales with localized UI/curation
     const { data: businesses } = await supabase
       .from('businesses')
-      .select('slug, updated_at')
+      .select('slug, updated_at, category')
       .eq('status', 'published')
 
     if (businesses) {
       businesses.forEach((b: any) => {
+        // 사장님 지시: 호텔 카테고리 개별 업체 상세 페이지는 사이트맵에서 제외
+        if (b.category === 'hotels') return
         let bSlug = b.slug
         if (bSlug === "sunset-house-phu-quoc-buggy-sevices") bSlug = "sunset-house-phu-quoc-buggy-services"
         if (bSlug === "l-a-hillside-aparment-sunset-town-phu-quoc") bSlug = "l-a-hillside-apartment-sunset-town-phu-quoc"

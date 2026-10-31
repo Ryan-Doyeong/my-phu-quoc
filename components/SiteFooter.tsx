@@ -23,7 +23,10 @@ export function SiteFooter() {
       <Logo locale={locale} />
       <nav>
         {DIRECTORY_CATEGORY_KEYS.map((key) => (
-          <Link href={localePath(locale, `/directory/${key}`)} key={key}>
+          <Link
+            href={key === 'hotels' ? localePath(locale, '/hotels') : localePath(locale, `/directory/${key}`)}
+            key={key}
+          >
             {categoryLabel(key, locale)}
           </Link>
         ))}

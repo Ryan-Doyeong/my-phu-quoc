@@ -323,6 +323,10 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
               <Link href={localePath(locale, '/zones/khem-beach')}>
                 {dict.business.backTo(locale === 'ko' ? '켐비치' : 'Khem Beach')}
               </Link>
+            ) : b.category === 'hotels' ? (
+              <Link href={localePath(locale, '/hotels')}>
+                {dict.business.backTo(catLabel)}
+              </Link>
             ) : (
               <Link href={localePath(locale, `/directory/${b.category}`)}>
                 {dict.business.backTo(catLabel)}

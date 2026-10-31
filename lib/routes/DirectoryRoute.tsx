@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { notFound } from 'next/navigation'
+import { notFound, redirect } from 'next/navigation'
 import type { Metadata } from 'next'
 import { createPublicClient } from '@/lib/supabase/public'
 import { Logo } from '@/components/Logo'
@@ -28,6 +28,11 @@ export async function generateDirectoryMetadata(
   locale: Locale = 'en'
 ): Promise<Metadata> {
   const category = normalizeDirectoryCategory(rawCategory)
+  if (category === 'hotels') {
+    return {
+      robots: { index: false, follow: false },
+    }
+  }
   if (!isDirectoryCategory(category)) return {}
   const label = categoryLabel(category, locale)
   const description = categoryDescription(category, locale)
@@ -63,6 +68,9 @@ export async function renderDirectoryRoute(
   searchParams?: { zone?: string }
 ) {
   const category = normalizeDirectoryCategory(rawCategory)
+  if (category === 'hotels') {
+    redirect(locale === 'en' ? '/hotels' : `/${locale}/hotels`)
+  }
   if (!isDirectoryCategory(category)) notFound()
   const dict = getDictionary(locale)
   const label = categoryLabel(category, locale)
@@ -152,7 +160,7 @@ export async function renderDirectoryRoute(
             <Link href={localePath(locale, '/directory/bars')}>
               {categoryLabel('bars', locale)}
             </Link>
-            <Link href={localePath(locale, '/directory/hotels')}>
+            <Link href={localePath(locale, '/hotels')}>
               {categoryLabel('hotels', locale)}
             </Link>
             <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>

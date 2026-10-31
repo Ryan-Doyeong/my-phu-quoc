@@ -175,7 +175,10 @@ export default async function MapPage({ params }: MapPageProps) {
             🗺️ {isKo ? '선셋타운 지도' : 'Town Map'}
           </Link>
           {DIRECTORY_CATEGORY_KEYS.slice(0, 5).map((key) => (
-            <Link href={localePath(locale, `/directory/${key}`)} key={key}>
+            <Link
+              href={key === 'hotels' ? localePath(locale, '/hotels') : localePath(locale, `/directory/${key}`)}
+              key={key}
+            >
               {categoryLabel(key, locale)}
             </Link>
           ))}

@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { createPublicClient } from '@/lib/supabase/public'
+import khemBusinesses from '@/data/khem-beach-businesses.json'
 import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { DIRECTORY_CATEGORY_KEYS, categoryLabel, nearbyBadgeText, formatLocalizedAddress } from '@/lib/directory'
@@ -121,7 +122,13 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
     supabase.from('stories').select('*').eq('status', 'published').limit(100),
   ])
   const needle = q.toLowerCase()
-  const b = (businesses || []).filter(
+  const allBusinesses = [
+    ...(businesses || []),
+    ...(khemBusinesses as any[]).filter(
+      (x) => x.status === 'published' || x.verification_status === 'verified'
+    ),
+  ]
+  const b = allBusinesses.filter(
     (x: any) =>
       x.slug !== 'sunset-place-4' &&
       x.slug !== 'sunset-place-8' &&
@@ -130,20 +137,22 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
       (!needle ||
         [
           x.public_name,
-        displayBusinessName(x, locale),
-        x.category,
-        categoryLabel(x.category, locale),
-        x.subcategory,
-        x.subcategory ? translateTerm(x.subcategory, locale) : '',
-        x.address,
-        x.description_en,
-        x.description_vi,
-        x.description_ko,
-        ...(x.tags || []),
-        ...(x.tags || []).map((t: string) => translateTerm(t, locale)),
-        ...(x.badges || []),
-        nearbyBadgeText(x.address, x.tags, x.badges, locale) || '',
-      ].some((v) => text(v).includes(needle)))
+          x.name_local,
+          x.slug,
+          displayBusinessName(x, locale),
+          x.category,
+          categoryLabel(x.category, locale),
+          x.subcategory,
+          x.subcategory ? translateTerm(x.subcategory, locale) : '',
+          x.address,
+          x.description_en,
+          x.description_vi,
+          x.description_ko,
+          ...(x.tags || []),
+          ...(x.tags || []).map((t: string) => translateTerm(t, locale)),
+          ...(x.badges || []),
+          nearbyBadgeText(x.address, x.tags, x.badges, locale) || '',
+        ].some((v) => text(v).includes(needle)))
   )
   const dbStorySlugs = new Set((stories || []).map((row: any) => row.slug))
   const mergedStories = [
@@ -164,7 +173,10 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
           <nav>
             <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
             {DIRECTORY_CATEGORY_KEYS.map((key) => (
-              <Link href={localePath(locale, `/directory/${key}`)} key={key}>
+              <Link
+                href={key === 'hotels' ? localePath(locale, '/hotels') : localePath(locale, `/directory/${key}`)}
+                key={key}
+              >
                 {categoryLabel(key, locale)}
               </Link>
             ))}
