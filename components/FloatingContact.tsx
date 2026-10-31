@@ -7,7 +7,7 @@ import { FLOATING_CONTACT_LABELS, WHATSAPP_PREFILL, pickLocale } from '@/lib/i18
 import './floating-contact.css'
 
 const LOCALE_PREFIX = /^\/(ko|zh|ru|ja|hi|vi)(?=\/|$)/
-const HIDDEN_PREFIXES = ['/admin', '/editor', '/login', '/account', '/auth', '/api', '/buggy-tour', '/taxi-tour']
+const HIDDEN_PREFIXES = ['/admin', '/editor', '/login', '/account', '/auth', '/api', '/buggy-tour', '/taxi-tour', '/itineraries']
 
 function localeOf(pathname: string): string {
   const m = pathname.match(LOCALE_PREFIX)
