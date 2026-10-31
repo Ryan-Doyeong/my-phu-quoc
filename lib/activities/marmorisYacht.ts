@@ -30,6 +30,7 @@ export interface YachtTour {
   classes: YachtClass[]
   images: string[]
   steps: YachtStep[]
+  flow: L
   notes: L[]
 }
 
@@ -39,8 +40,8 @@ const SKY = { ko: '스카이 라운지', en: 'Sky Lounge' }
 const SKY_DECK = { ko: 'VIP 데크', en: 'VIP Deck' }
 
 const WEATHER: L = {
-  ko: '기상 상황에 따라 일정이 조정될 수 있습니다.',
-  en: 'The itinerary may be adjusted depending on weather conditions.',
+  ko: '표시된 일정과 시간은 일반적인 기준입니다. 해상 상태·날씨·당일 운영 상황 등 여러 변수에 따라 정박 장소, 시간, 프로그램이 달라지거나 조정될 수 있습니다.',
+  en: 'Schedules and times shown are general guidelines. Anchorage locations, timings and programs may change or be adjusted depending on sea conditions, weather and other circumstances on the day.',
 }
 
 export const MARMORIS_YACHT_TOURS: YachtTour[] = [
@@ -52,7 +53,7 @@ export const MARMORIS_YACHT_TOURS: YachtTour[] = [
     hours: '08:30 ~ 13:30',
     facts: [
       { ko: '약 5시간', en: 'About 5 hours' },
-      { ko: '빈담 항 출발', en: 'Departs Vinh Dam Port' },
+      { ko: '빈담 항 출발 (선셋타운에서 차로 약 10분)', en: 'Departs Vinh Dam Port (about 10 min by car from Sunset Town)' },
       { ko: '척당 최대 45명', en: 'Up to 45 guests per yacht' },
     ],
     tags: [
@@ -78,6 +79,10 @@ export const MARMORIS_YACHT_TOURS: YachtTour[] = [
       { time: '12:00', title: { ko: '요트 위 점심', en: 'Lunch on board' } },
       { time: '12:30–13:30', title: { ko: '빈담 항으로 복귀', en: 'Cruise back to Vinh Dam Port' }, desc: { ko: '투어 종료', en: 'Concluding the journey' } },
     ],
+    flow: {
+      ko: '각 호텔에서 픽업해 빈담 항에 모인 뒤, 보트를 타고 요트로 이동합니다. 픽업은 즈엉동 시내 중심 기준이며, 그 밖의 지역은 추가 교통비가 있을 수 있습니다.',
+      en: 'Guests are picked up at their hotels and gathered at Vinh Dam Port, then transferred by boat to the yacht. Pick-up is based on Duong Dong Town Center; other areas may incur an additional transportation charge.',
+    },
     notes: [WEATHER],
   },
   {
@@ -87,7 +92,7 @@ export const MARMORIS_YACHT_TOURS: YachtTour[] = [
     title: { ko: '선셋 칠링 요트 투어', en: 'Sunset Chilling Tour' },
     hours: '15:00 ~ 21:30',
     facts: [
-      { ko: '빈담 항 출발', en: 'Departs Vinh Dam Port' },
+      { ko: '빈담 항 출발 (선셋타운에서 차로 약 10분)', en: 'Departs Vinh Dam Port (about 10 min by car from Sunset Town)' },
       { ko: '키스브릿지 DJ·불꽃놀이', en: 'Kiss Bridge DJ & fireworks' },
       { ko: '척당 최대 45명', en: 'Up to 45 guests per yacht' },
     ],
@@ -118,6 +123,10 @@ export const MARMORIS_YACHT_TOURS: YachtTour[] = [
       { time: '19:45–20:00', title: { ko: '불꽃놀이 감상', en: 'Spectacular fireworks display' }, desc: { ko: '기상에 따라 변경될 수 있음', en: 'Schedule subject to change depending on weather conditions' } },
       { time: '20:00–21:30', title: { ko: '빈담 항으로 복귀', en: 'Cruise back to Vinh Dam Port' }, desc: { ko: '투어 종료', en: 'Concluding the journey' } },
     ],
+    flow: {
+      ko: '각 호텔에서 픽업해 빈담 항에 모인 뒤, 보트를 타고 요트로 이동합니다. 픽업은 즈엉동 시내 중심 기준이며, 그 밖의 지역은 추가 교통비가 있을 수 있습니다.',
+      en: 'Guests are picked up at their hotels and gathered at Vinh Dam Port, then transferred by boat to the yacht. Pick-up is based on Duong Dong Town Center; other areas may incur an additional transportation charge.',
+    },
     notes: [WEATHER],
   },
 ]

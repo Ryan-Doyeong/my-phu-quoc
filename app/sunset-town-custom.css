@@ -4010,3 +4010,4 @@
 .yachtClasses small { font-size: 11px; font-weight: 400; color: #64748B; margin-left: 4px; }
 .yachtSub { font-size: 13px; font-weight: 700; color: #111; margin: 12px 0 4px; }
 .yachtGroup { font-size: 13px; color: #0B6BCB; font-weight: 600; margin: 8px 0 2px; }
+.yachtNotice { font-size: 13px; color: #111; background: #F8FAFC; border: 1px solid #E5E7EB; border-radius: 8px; padding: 10px 12px; margin: 0 0 16px; line-height: 1.5; }

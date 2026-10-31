@@ -15,8 +15,8 @@ import type { Locale } from '@/lib/i18n/config'
 const pick = (l: L, locale: Locale) => (locale === 'ko' ? l.ko : l.en)
 
 const UI = {
-  ko: { section: '요트 투어', lead: '푸꾸옥 바다를 즐기는 프리미엄 요트 투어입니다. 가격과 일정은 파트너사 기준입니다.', partner: '파트너', per: '1인', from: '부터', schedule: '일정 보기', included: '포함 · 불포함', policy: '취소 · 아동 정책', extraPaid: '추가요금(별도)', excluded: '불포함', cancelTitle: '취소·환불', childTitle: '아동 요금', wa: 'WhatsApp 문의', za: 'Zalo 문의', credit: '사진 출처: Marmoris Yachting' },
-  en: { section: 'Yacht Tours', lead: 'Premium yacht tours on the waters of Phu Quoc. Prices and schedules are provided by our partner.', partner: 'Partner', per: 'per person', from: 'from', schedule: 'View schedule', included: 'Included · Excluded', policy: 'Cancellation · Children', extraPaid: 'Additional charge', excluded: 'Not included', cancelTitle: 'Cancellation', childTitle: 'Children', wa: 'WhatsApp', za: 'Zalo', credit: 'Photos: Marmoris Yachting' },
+  ko: { section: '요트 투어', lead: '푸꾸옥 바다를 즐기는 프리미엄 요트 투어입니다. 가격과 일정은 파트너사 기준입니다.', partner: '파트너', per: '1인', from: '부터', schedule: '일정 보기', included: '포함 · 불포함', policy: '취소 · 아동 정책', extraPaid: '추가요금(별도)', excluded: '불포함', cancelTitle: '취소·환불', childTitle: '아동 요금', wa: 'WhatsApp 문의', za: 'Zalo 문의', credit: '사진 출처: Marmoris Yachting', notice: '관광은 날씨와 해상 상태, 당일 상황 등 여러 변수의 영향을 받습니다. 아래 일정과 시간은 일반적인 기준이며, 실제 운영은 이를 감안해 조정될 수 있습니다.' },
+  en: { section: 'Yacht Tours', lead: 'Premium yacht tours on the waters of Phu Quoc. Prices and schedules are provided by our partner.', partner: 'Partner', per: 'per person', from: 'from', schedule: 'View schedule', included: 'Included · Excluded', policy: 'Cancellation · Children', extraPaid: 'Additional charge', excluded: 'Not included', cancelTitle: 'Cancellation', childTitle: 'Children', wa: 'WhatsApp', za: 'Zalo', credit: 'Photos: Marmoris Yachting', notice: 'Sightseeing depends on weather, sea conditions and other circumstances on the day. The schedules and times below are general guidelines and actual operations may be adjusted accordingly.' },
 } as const
 
 export function ActivityYachtSection({ locale = 'ko' }: { locale?: Locale }) {
@@ -25,6 +25,7 @@ export function ActivityYachtSection({ locale = 'ko' }: { locale?: Locale }) {
     <section className="yachtSection" id="yacht">
       <h2 className="activitiesSectionTitle">{ui.section}</h2>
       <p className="yachtLead">{ui.lead}</p>
+      <p className="yachtNotice">{ui.notice}</p>
       <div className="yachtGrid">
         {MARMORIS_YACHT_TOURS.map((t) => (
           <article key={t.id} className="yachtCard">
@@ -63,6 +64,7 @@ export function ActivityYachtSection({ locale = 'ko' }: { locale?: Locale }) {
 
               <details className="yachtDetails">
                 <summary>{ui.schedule}</summary>
+                <p className="yachtNote">{pick(t.flow, locale)}</p>
                 <ul className="yachtTimeline">
                   {t.steps.map((s) => (
                     <li key={s.time + s.title.en}>
