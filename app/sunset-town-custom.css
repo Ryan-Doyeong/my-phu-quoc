@@ -2963,12 +2963,13 @@
   height: 34px;
   display: block;
 }
-.iconWrapExchange  { background: #ECFDF5; }
-.iconWrapBuggy     { background: #FEF3C7; }
-.iconWrapTaxi      { background: #FFEDD5; }
-.iconWrapEvent     { background: #F3E8FF; }
-.iconWrapActivity  { background: #E0F2FE; }
-.iconWrapEmergency { background: #FEE2E2; }
+.iconWrapExchange    { background: #ECFDF5; }
+.iconWrapBuggy       { background: #FEF3C7; }
+.iconWrapTaxi        { background: #FFEDD5; }
+.iconWrapEvent       { background: #F3E8FF; }
+.iconWrapActivity    { background: #E0F2FE; }
+.iconWrapEmergency   { background: #FEE2E2; }
+.iconWrapItineraries { background: #FFF1F2; }
 
 .cardLabel {
   font-size: 13px;
@@ -3264,8 +3265,8 @@
   }
   .cardScrollTrack {
     display: grid !important;
-    grid-template-columns: repeat(6, 1fr) !important;
-    gap: 16px !important;
+    grid-template-columns: repeat(7, 1fr) !important;
+    gap: 12px !important;
     justify-content: stretch !important;
     padding: 4px 0 8px !important;
     width: 100% !important;
@@ -3275,15 +3276,19 @@
     flex: none !important;
     width: 100% !important;
     min-width: 0 !important;
-    padding: 16px 8px 14px !important;
+    padding: 14px 4px 12px !important;
   }
   .cardIconWrap {
-    width: 60px;
-    height: 60px;
+    width: 56px;
+    height: 56px;
   }
   .cardIconWrap svg {
-    width: 38px;
-    height: 38px;
+    width: 36px;
+    height: 36px;
+  }
+  .cardLabel {
+    font-size: 12px !important;
+    font-weight: 700;
   }
   .heroTextSection {
     width: 100%;
@@ -3801,6 +3806,147 @@
   .emergencyTitle {
     font-size: 32px;
   }
+  .itinerariesContainer {
+    padding: 32px 24px 72px;
+  }
+  .itinerariesHeaderBox {
+    padding: 36px 32px;
+  }
+  .itinerariesTitle {
+    font-size: 32px;
+  }
+}
+
+/* ============================================================
+   8. Itineraries Landing Page (MyRealTrip Style - White / 12px / 8px)
+   ============================================================ */
+.itinerariesPageRoot {
+  background: #FFFFFF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.itinerariesContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 16px 64px;
+  box-sizing: border-box;
+  flex: 1;
+}
+
+.itinerariesBreadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #64748B;
+  margin-bottom: 16px;
+}
+
+.itinerariesBreadcrumb a {
+  color: #64748B;
+  text-decoration: none;
+}
+
+.itinerariesBreadcrumb a:hover {
+  color: #0F172A;
+}
+
+.itinerariesBreadcrumb .current {
+  color: #0F172A;
+  font-weight: 600;
+}
+
+.itinerariesHeaderBox {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  padding: 28px 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  margin-bottom: 24px;
+}
+
+.itinerariesEyebrow {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: #E11D48;
+  margin-bottom: 6px;
+}
+
+.itinerariesTitle {
+  font-size: 26px;
+  font-weight: 800;
+  color: #0F172A;
+  margin: 0 0 8px;
+  letter-spacing: -0.5px;
+}
+
+.itinerariesSubtitle {
+  font-size: 14.5px;
+  color: #475569;
+  line-height: 1.5;
+  margin: 0 0 16px;
+  word-break: keep-all;
+}
+
+.itinerariesNoticeTag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #FFF1F2;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 12.5px;
+  color: #9F1239;
+}
+
+.itinerariesNoticeTag .noticeDot {
+  background: #E11D48;
+}
+
+.itinerariesTilesSection {
+  margin-bottom: 24px;
+}
+
+.itinerariesSectionTitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0F172A;
+  margin: 0 0 14px;
+}
+
+.itinerariesTilesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+}
+
+.itineraryCategoryTile {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  padding: 18px 16px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.itineraryCategoryTile:hover {
+  transform: translateY(-2px);
+  border-color: #E11D48;
+  box-shadow: 0 4px 12px rgba(225, 29, 72, 0.08);
+}
+
+.itinerariesCalloutBox {
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
 }
 
 

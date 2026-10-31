@@ -168,7 +168,9 @@ async function main() {
     path.join(V19_DIR, '홈_상단_데스크톱_1440.png')
   );
 
-  // Capture Desktop 6-Card Row (focus)
+  // Capture Desktop 7-Card Row (focus)
+  await captureElement('.quickServiceSection', path.join(V19_DIR, '홈_7개카드줄_데스크톱_1440.png'), 8);
+  // Keep compatibility name
   await captureElement('.quickServiceSection', path.join(V19_DIR, '홈_6개카드줄_데스크톱_1440.png'), 8);
 
   // --- 2. Audit Home Mobile (390px) ---
@@ -208,7 +210,8 @@ async function main() {
     path.join(V19_DIR, '홈_상단_모바일_390.png')
   );
 
-  // Capture Mobile 6-Card Row
+  // Capture Mobile 7-Card Row
+  await captureElement('.quickServiceSection', path.join(V19_DIR, '홈_7개카드줄_모바일_390.png'), 4);
   await captureElement('.quickServiceSection', path.join(V19_DIR, '홈_6개카드줄_모바일_390.png'), 4);
 
   // --- 3. Audit Activities Landing Page ---
@@ -230,6 +233,16 @@ async function main() {
   // Mobile
   await navigate(`${BASE_URL}/ko/emergency`, 390, 844, true);
   await captureFullPage(path.join(V19_DIR, '긴급상황_랜딩_모바일_390.png'));
+
+  // --- 5. Audit Itineraries Landing Page ---
+  console.log('\n=== Auditing Itineraries Landing Page ===');
+  // Desktop
+  await navigate(`${BASE_URL}/ko/itineraries`, 1440, 900, false);
+  await captureFullPage(path.join(V19_DIR, '추천테마일정_랜딩_데스크톱_1440.png'));
+
+  // Mobile
+  await navigate(`${BASE_URL}/ko/itineraries`, 390, 844, true);
+  await captureFullPage(path.join(V19_DIR, '추천테마일정_랜딩_모바일_390.png'));
 
   ws.close();
   chromeProcess.kill();
