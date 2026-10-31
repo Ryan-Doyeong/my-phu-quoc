@@ -3556,207 +3556,218 @@
   font-weight: 600;
 }
 
-.emergencyHeaderBox {
-  background: #FEF2F2;
-  border: 1px solid #FEE2E2;
+/* ============================================================
+   7. Emergency Landing Page Frame (Visual Wireframe / Slots)
+   ============================================================ */
+.emergencyMainNoticeBox {
+  background: #FFFFFF;
+  border: 2px solid #2B96ED;
   border-radius: 12px;
-  padding: 28px 24px;
-  margin-bottom: 24px;
+  padding: 32px 24px;
+  margin-bottom: 32px;
+  box-shadow: 0 4px 16px rgba(43, 150, 237, 0.08);
+  text-align: center;
 }
 
-.emergencyEyebrow {
-  font-size: 12px;
+.mainNoticeText {
+  font-size: 18px;
   font-weight: 800;
-  letter-spacing: 0.5px;
-  color: #DC2626;
-  margin-bottom: 6px;
-}
-
-.emergencyTitle {
-  font-size: 26px;
-  font-weight: 800;
-  color: #991B1B;
-  margin: 0 0 8px;
-  letter-spacing: -0.5px;
-}
-
-.emergencySubtitle {
-  font-size: 14.5px;
-  color: #7F1D1D;
+  color: #101418;
   line-height: 1.5;
   margin: 0;
   word-break: keep-all;
 }
 
-.emergencySection {
-  margin-bottom: 28px;
+.emergencyCentralSection {
+  margin-bottom: 36px;
 }
 
-.emergencySectionTitle {
-  font-size: 18px;
+.emergencySectionMainTitle {
+  font-size: 22px;
+  font-weight: 800;
+  color: #101418;
+  margin: 0 0 24px;
+}
+
+.slotGroup {
+  margin-bottom: 32px;
+}
+
+.slotGroupTitle {
+  font-size: 17px;
   font-weight: 700;
-  color: #0F172A;
+  color: #101418;
   margin: 0 0 14px;
+  border-left: 4px solid #2B96ED;
+  padding-left: 10px;
 }
 
-.emergencyHotlineGrid {
+.slotGrid3 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 12px;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 769px) {
+  .slotGrid3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .mainNoticeText {
+    font-size: 22px;
+  }
+  .emergencyMainNoticeBox {
+    padding: 40px 36px;
+  }
+}
+
+.slotCard {
+  background: #FFFFFF;
+  border: 1px solid #DEE2E6;
+  border-radius: 8px;
+  padding: 20px 18px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+}
+
+.slotCardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 12px;
 }
 
-.hotlineCard {
-  background: #FFFFFF;
-  border: 1px solid #E2E8F0;
+.slotBadge {
+  font-size: 12px;
+  font-weight: 700;
+  color: #2B96ED;
+  background: #EFF6FF;
+  border-radius: 4px;
+  padding: 3px 8px;
+}
+
+.slotPlaceholderTag {
+  font-size: 12px;
+  color: #94A3B8;
+  font-weight: 500;
+}
+
+.slotItemTitle {
+  font-size: 16px;
+  font-weight: 700;
+  color: #101418;
+  margin: 0 0 14px;
+}
+
+.slotMetaList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 18px;
+  flex: 1;
+}
+
+.slotMetaRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13.5px;
+}
+
+.slotMetaLabel {
+  color: #64748B;
+  font-weight: 600;
+}
+
+.slotMetaVal {
+  color: #94A3B8;
+}
+
+.slotBtnRow {
+  margin-top: auto;
+}
+
+.slotMapBtn {
+  width: 100%;
+  height: 40px;
   border-radius: 8px;
-  padding: 18px 16px;
-  text-align: center;
+  background: #F8FAFC;
+  border: 1px solid #CBD5E1;
+  color: #64748B;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: default;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emergencyConsularBox {
+  background: #FFFFFF;
+  border: 1px solid #DEE2E6;
+  border-radius: 12px;
+  padding: 24px 28px;
+  margin-bottom: 32px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
 }
 
-.hotlineCard.police { border-top: 4px solid #3B82F6; }
-.hotlineCard.fire   { border-top: 4px solid #F97316; }
-.hotlineCard.ambulance { border-top: 4px solid #EF4444; }
-
-.hotlineBadge {
-  font-size: 11px;
+.consularBoxTitle {
+  font-size: 17px;
   font-weight: 700;
-  color: #64748B;
-  margin-bottom: 6px;
+  color: #101418;
+  margin: 0 0 14px;
+  border-left: 4px solid #2B96ED;
+  padding-left: 10px;
 }
 
-.hotlineNumber {
-  font-size: 36px;
-  font-weight: 900;
-  color: #0F172A;
-  line-height: 1.1;
-  margin-bottom: 6px;
-  letter-spacing: 1px;
-}
-
-.hotlineDesc {
-  font-size: 12.5px;
-  color: #475569;
-}
-
-.emergencyTip {
-  font-size: 12.5px;
-  color: #475569;
+.consularSlotContent {
   background: #F8FAFC;
-  border-radius: 6px;
-  padding: 10px 14px;
-  line-height: 1.45;
-  margin: 0;
-}
-
-.hospitalList {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.hospitalCard {
-  background: #FFFFFF;
-  border: 1px solid #E2E8F0;
   border-radius: 8px;
-  padding: 18px 20px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  border: 1px dashed #CBD5E1;
+  padding: 16px 20px;
 }
 
-.hospitalCard.noticeOnly {
-  background: #F8FAFC;
-  border-style: dashed;
+.consularRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
 }
 
-.hospitalHeader {
+.consularLabel {
+  font-weight: 600;
+  color: #475569;
+}
+
+.consularValue {
+  color: #94A3B8;
+}
+
+.emergencyBottomWrap {
+  border-top: 1px solid #E2E8F0;
+  padding-top: 24px;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.emergencyHotlineSingleLine {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 8px;
-}
-
-.hospitalTag {
-  font-size: 11px;
-  font-weight: 700;
-  padding: 2.5px 8px;
-  border-radius: 4px;
-}
-
-.hospitalTag.primary {
-  background: #ECFDF5;
-  color: #059669;
-}
-
-.hospitalTag.international {
-  background: #EFF6FF;
-  color: #2563EB;
-}
-
-.hospitalTag.warning {
-  background: #FEF3C7;
-  color: #D97706;
-}
-
-.hospitalStatus {
-  font-size: 12px;
-  color: #64748B;
-}
-
-.hospitalName {
-  font-size: 16px;
-  font-weight: 700;
-  color: #0F172A;
-  margin: 0 0 6px;
-}
-
-.hospitalDesc {
-  font-size: 13.5px;
-  color: #475569;
-  line-height: 1.45;
-  margin: 0 0 10px;
-  word-break: keep-all;
-}
-
-.hospitalMeta {
-  font-size: 12.5px;
-  color: #64748B;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.consularGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 12px;
-}
-
-.consularCard {
-  background: #FFFFFF;
-  border: 1px solid #E2E8F0;
-  border-radius: 8px;
-  padding: 18px 20px;
-}
-
-.consularTitle {
-  font-size: 15px;
-  font-weight: 700;
-  color: #0F172A;
-  margin-bottom: 4px;
-}
-
-.consularSubtitle {
-  font-size: 12.5px;
-  color: #64748B;
-  margin-bottom: 10px;
-}
-
-.consularHotline {
+  justify-content: center;
+  gap: 14px;
   font-size: 14px;
-  font-weight: 700;
-  color: #DC2626;
-  margin-bottom: 4px;
+  color: #64748B;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.dotDivider {
+  color: #CBD5E1;
+}
+
+.emergencyDisclaimerLine {
+  font-size: 12.5px;
+  color: #94A3B8;
 }
 
 .consularInfo {
