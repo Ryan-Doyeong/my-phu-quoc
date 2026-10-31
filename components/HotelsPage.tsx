@@ -18,6 +18,15 @@ interface HotelsPageProps {
   locale?: Locale
 }
 
+function getLocalizedSummary(hotel: HotelItem, locale?: Locale): string {
+  if (locale === 'en' && hotel.summary_en) return hotel.summary_en
+  if (locale === 'zh' && hotel.summary_zh) return hotel.summary_zh
+  if (locale === 'ja' && hotel.summary_ja) return hotel.summary_ja
+  if (locale === 'ru' && hotel.summary_ru) return hotel.summary_ru
+  if (locale === 'vi' && hotel.summary_vi) return hotel.summary_vi
+  return hotel.summary
+}
+
 /* =========================================================================
    1. Unified Hotel Card Component (공통 호텔 카드 컴포넌트)
    - 모든 호텔(더 룸 호텔 및 일반 26곳)이 완벽히 동일한 틀·순서·디자인
@@ -26,11 +35,13 @@ interface HotelsPageProps {
 interface HotelCardProps {
   hotel: HotelItem
   t: HotelUiDictionary
+  locale?: Locale
   isFeatured?: boolean
   onOpenModal: (hotel: HotelItem) => void
 }
 
-function HotelCard({ hotel, t, isFeatured = false, onOpenModal }: HotelCardProps) {
+function HotelCard({ hotel, t, locale, isFeatured = false, onOpenModal }: HotelCardProps) {
+  const summaryText = getLocalizedSummary(hotel, locale)
   return (
     <div className={`hotelCard ${isFeatured ? 'hotelCardFeatured' : ''}`}>
       {/* Featured Header Badge (더 룸 호텔만 노출 - 단일 문구로 통일) */}
@@ -89,9 +100,9 @@ function HotelCard({ hotel, t, isFeatured = false, onOpenModal }: HotelCardProps
         <div className="cardTitleEn">{hotel.name_en}</div>
 
         {/* 한 줄 요약 (최대 40자) */}
-        {hotel.summary && (
+        {summaryText && (
           <p className="cardSummary">
-            {hotel.summary.length > 40 ? `${hotel.summary.slice(0, 39)}…` : hotel.summary}
+            {summaryText.length > 40 ? `${summaryText.slice(0, 39)}…` : summaryText}
           </p>
         )}
 
@@ -142,10 +153,11 @@ function HotelCard({ hotel, t, isFeatured = false, onOpenModal }: HotelCardProps
 interface HotelDetailModalProps {
   hotel: HotelItem
   t: HotelUiDictionary
+  locale?: Locale
   onClose: () => void
 }
 
-function HotelDetailModal({ hotel, t, onClose }: HotelDetailModalProps) {
+function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) {
   const [modalPhotoIdx, setModalPhotoIdx] = useState(0)
 
   // Accordion state: ① 고객 리뷰 요약만 기본 펼침 (true), 나머지 기본 접힘 (false)
@@ -223,7 +235,7 @@ function HotelDetailModal({ hotel, t, onClose }: HotelDetailModalProps) {
             <div className="modalHotelSubtitle">{hotel.name_en}</div>
 
             <p className="modalTopSummary">
-              {hotel.summary}
+              {getLocalizedSummary(hotel, locale)}
             </p>
             {hotel.isAiGeneratedIntro && (
               <div className="aiNoticeText">※ {t.aiIntroNotice}</div>
@@ -720,6 +732,10 @@ function HotelsPageInner({ hotels, locale = 'en' }: HotelsPageProps) {
     return hotels.find(h => h.isFeatured)
   }, [hotels])
 
+  const standardHotelsCount = useMemo(() => {
+    return hotels.filter(h => !h.isFeatured).length
+  }, [hotels])
+
   return (
     <div className="hotelsPageWrap">
       {/* 0. Top Header */}
@@ -772,7 +788,7 @@ function HotelsPageInner({ hotels, locale = 'en' }: HotelsPageProps) {
               className={`filterPill ${activeRating === 'ALL' ? 'active' : ''}`}
               onClick={() => setActiveRating('ALL')}
             >
-              {t.filterAll} ({hotels.length})
+              {t.filterAll} ({standardHotelsCount})
             </button>
             <button
               type="button"
@@ -823,6 +839,7 @@ function HotelsPageInner({ hotels, locale = 'en' }: HotelsPageProps) {
             <HotelCard
               hotel={featuredHotel}
               t={t}
+              locale={locale}
               isFeatured={true}
               onOpenModal={setSelectedHotel}
             />
@@ -832,7 +849,7 @@ function HotelsPageInner({ hotels, locale = 'en' }: HotelsPageProps) {
         {/* 26 Standard Hotels Grid (동일한 HotelCard 구조 사용) */}
         <div style={{ marginBottom: '24px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <h2 style={{ fontSize: '1.375rem', fontWeight: 800, color: '#0f172a' }}>
-            선셋타운 호텔 목록 <span style={{ fontSize: '1rem', color: '#64748b', fontWeight: 500 }}>({displayHotels.length}곳)</span>
+            {t.hotelListTitle} <span style={{ fontSize: '1rem', color: '#64748b', fontWeight: 500 }}>({displayHotels.length}{t.countSuffix})</span>
           </h2>
         </div>
 
@@ -842,6 +859,7 @@ function HotelsPageInner({ hotels, locale = 'en' }: HotelsPageProps) {
               key={hotel.slug}
               hotel={hotel}
               t={t}
+              locale={locale}
               isFeatured={false}
               onOpenModal={setSelectedHotel}
             />
@@ -884,6 +902,7 @@ function HotelsPageInner({ hotels, locale = 'en' }: HotelsPageProps) {
         <HotelDetailModal
           hotel={selectedHotel}
           t={t}
+          locale={locale}
           onClose={() => setSelectedHotel(null)}
         />
       )}

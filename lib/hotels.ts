@@ -51,6 +51,11 @@ export interface HotelItem {
   address: string
   landmarks?: LandmarkDistance[]
   summary: string
+  summary_en?: string
+  summary_zh?: string
+  summary_ja?: string
+  summary_ru?: string
+  summary_vi?: string
   description: string
   isAiGeneratedIntro?: boolean
   coreFacilities: string[]

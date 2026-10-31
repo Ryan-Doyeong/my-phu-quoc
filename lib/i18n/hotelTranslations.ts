@@ -62,6 +62,8 @@ export interface HotelUiDictionary {
   collapseReviews: string
   roomCheckAgoda: string
   reviewHighlightLabel: string
+  hotelListTitle: string
+  countSuffix: string
 }
 
 export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
@@ -127,6 +129,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     collapseReviews: "리뷰 접기",
     roomCheckAgoda: "실시간 객실 및 요금은 Agoda에서 확인하실 수 있습니다.",
     reviewHighlightLabel: "고객 리뷰 요약",
+    hotelListTitle: "선셋타운 호텔 목록",
+    countSuffix: "곳",
   },
   en: {
     pageTitle: 'Sunset Town Hotels & Resorts',
@@ -190,6 +194,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     collapseReviews: "Collapse Reviews",
     roomCheckAgoda: "Check live room types and rates on Agoda.",
     reviewHighlightLabel: "Review Highlight",
+    hotelListTitle: "Sunset Town Hotel List",
+    countSuffix: "",
   },
   zh: {
     pageTitle: '富国岛日落小镇酒店一览',
@@ -253,6 +259,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     collapseReviews: "收起评价",
     roomCheckAgoda: "实时客房与价格请至 Agoda 查看。",
     reviewHighlightLabel: "评价要点",
+    hotelListTitle: "日落小镇酒店列表",
+    countSuffix: "家",
   },
   ja: {
     pageTitle: 'サンセットタウン ホテル＆リゾート',
@@ -316,6 +324,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     collapseReviews: "レビューを閉じる",
     roomCheckAgoda: "リアルタイムの空室と料金は Agoda でご確認いただけます。",
     reviewHighlightLabel: "レビュー要約",
+    hotelListTitle: "サンセットタウン ホテル一覧",
+    countSuffix: "軒",
   },
   ru: {
     pageTitle: 'Отели и курорты Сансет Тауна',
@@ -379,6 +389,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     collapseReviews: "Свернуть отзывы",
     roomCheckAgoda: "Актуальные номера и цены доступны на Agoda.",
     reviewHighlightLabel: "Сводка отзывов",
+    hotelListTitle: "Список отелей Сансет Тауна",
+    countSuffix: "",
   },
   hi: {
     pageTitle: 'सनसेट टाउन होटल और रिसॉर्ट्स',
@@ -442,6 +454,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     collapseReviews: "समीक्षाएं समेटें",
     roomCheckAgoda: "लाइव कमरे और दरें Agoda पर देखें।",
     reviewHighlightLabel: "समीक्षा सारांश",
+    hotelListTitle: "सनसेट टाउन होटल सूची",
+    countSuffix: "",
   },
   vi: {
     pageTitle: '선셋타운 호텔 한눈에 보기',
@@ -505,5 +519,7 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     collapseReviews: "Thu gọn đánh giá",
     roomCheckAgoda: "Kiểm tra phòng và giá thời gian thực trên Agoda.",
     reviewHighlightLabel: "Điểm nhấn đánh giá",
+    hotelListTitle: "Danh sách khách sạn Sunset Town",
+    countSuffix: " nơi",
   },
 }

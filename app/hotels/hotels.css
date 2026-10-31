@@ -1016,12 +1016,39 @@
 
 .modalTopPhotoBadges {
   position: absolute;
-  top: 16px;
-  left: 16px;
+  top: 14px;
+  left: 14px;
+  right: 64px;
   display: flex;
   align-items: center;
   gap: 8px;
   flex-wrap: wrap;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.modalTopPhotoBadges > * {
+  pointer-events: auto;
+}
+
+.modalTopPhotoBadges .cardStarBadge {
+  position: static;
+  top: auto;
+  left: auto;
+  display: inline-flex;
+  align-items: center;
+}
+
+.modalTopPhotoBadges .cableBadge {
+  position: static;
+  display: inline-flex;
+  align-items: center;
+}
+
+.modalTopPhotoBadges .featuredBadge {
+  position: static;
+  display: inline-flex;
+  align-items: center;
 }
 
 .modalHeaderInfo {
