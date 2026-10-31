@@ -28,6 +28,15 @@ function getLocalizedSummary(hotel: HotelItem, locale?: Locale): string {
   return hotel.summary
 }
 
+function getKhemDistanceBadge(hotel: HotelItem, t: HotelUiDictionary): string {
+  const baseBadge = t.khemDistanceBadge
+  if (hotel.driveMinutesToSunsetTown && hotel.driveMinutesToSunsetTown !== '10~15분') {
+    const mins = hotel.driveMinutesToSunsetTown.replace('분', '')
+    return baseBadge.replace('10~15', mins).replace('10–15', mins)
+  }
+  return baseBadge
+}
+
 /* =========================================================================
    1. Unified Hotel Card Component (공통 호텔 카드 컴포넌트)
    - 모든 호텔(선셋타운 27곳 + 켐 비치 7곳)이 일관된 공통 컴포넌트 구조
@@ -106,7 +115,7 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
             )}
           </div>
           {isKhem ? (
-            <span className="khemDistBadge">🚗 {t.khemDistanceBadge}</span>
+            <span className="khemDistBadge">🚗 {getKhemDistanceBadge(hotel, t)}</span>
           ) : (
             <span className="cableBadge">🚡 {hotel.cable_m}m</span>
           )}
@@ -289,7 +298,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
               </div>
               {isKhem ? (
                 <span className="khemDistBadge" style={{ fontSize: '0.85rem', padding: '4px 10px' }}>
-                  🚗 {t.khemDistanceBadge}
+                  🚗 {getKhemDistanceBadge(hotel, t)}
                 </span>
               ) : (
                 <span className="cableBadge" style={{ fontSize: '0.85rem' }}>
@@ -633,7 +642,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                     </div>
                     {isKhem ? (
                       <div style={{ marginBottom: '8px' }}>
-                        <strong>🚗 선셋타운 이동:</strong> 선셋타운 및 혼똔섬 케이블카 탑승장까지 차량 약 14~18분 (약 13~16km)
+                        <strong>🚗 선셋타운 이동:</strong> 선셋타운 및 혼똔섬 케이블카 탑승장까지 {getKhemDistanceBadge(hotel, t)} (약 6.5~7km{hotel.slug === 'premier-village-phu-quoc-resort' ? ', 남단 곶 약 12km' : ''})
                       </div>
                     ) : (
                       <div style={{ marginBottom: '8px' }}>

@@ -70,6 +70,8 @@ export interface HotelItem {
   officialStar?: number | null
   area?: HotelArea
   tier?: HotelTier
+  driveMinutesToSunsetTown?: string
+  driveMinutesNote?: string
   order?: number
   rating: number
   reviewsCount: number
