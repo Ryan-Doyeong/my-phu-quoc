@@ -49,9 +49,16 @@ function HotelCard({ hotel, t, isFeatured = false, onOpenModal }: HotelCardProps
           alt={hotel.name_ko}
           loading={isFeatured ? 'eager' : 'lazy'}
         />
-        <div className="cardStarBadge">
-          {'★'.repeat(hotel.star)} {hotel.star}{t.stars} {isFeatured ? '부티크' : ''}
-        </div>
+        {/* 성급 표기 규칙: 공식 5성급인 라 페스타 힐튼만 '5성급' 표기, 더 룸 호텔은 '부티크 호텔', 기타 일반 호텔은 미검증 성급 숨김 */}
+        {hotel.slug === 'la-festa-phu-quoc-curio-collection-by-hilton' ? (
+          <div className="cardStarBadge">
+            {t.fiveStar}
+          </div>
+        ) : isFeatured ? (
+          <div className="cardStarBadge">
+            {t.boutiqueHotel}
+          </div>
+        ) : null}
         <a
           href={hotel.agodaUrl}
           target="_blank"
@@ -186,7 +193,13 @@ function HotelDetailModal({ hotel, t, onClose }: HotelDetailModalProps) {
             alt={hotel.name_ko}
           />
           <div className="modalTopPhotoBadges">
-            <span className="cardStarBadge">{'★'.repeat(hotel.star)} {hotel.star}{t.stars}</span>
+            {/* 공식 5성급인 라 페스타 힐튼만 '5성급' 표기, 더 룸 호텔은 '부티크 호텔', 기타 일반 호텔은 미검증 성급 숨김 */}
+            {hotel.slug === 'la-festa-phu-quoc-curio-collection-by-hilton' && (
+              <span className="cardStarBadge">{t.fiveStar}</span>
+            )}
+            {hotel.isFeatured && (
+              <span className="cardStarBadge">{t.boutiqueHotel}</span>
+            )}
             <span className="cableBadge">🚡 {t.cableCarDistance} {hotel.cable_m}m</span>
             {hotel.isFeatured && (
               <span className="featuredBadge">👑 {t.featuredBadge}</span>
@@ -666,7 +679,7 @@ function HotelsPageInner({ hotels, locale = 'en' }: HotelsPageProps) {
   const dict = getDictionary(locale)
   const t = HOTEL_TRANSLATIONS[locale] || HOTEL_TRANSLATIONS.en
 
-  const [activeStar, setActiveStar] = useState<'ALL' | 5 | 4 | 3>('ALL')
+  const [activeRating, setActiveRating] = useState<'ALL' | 9.0 | 8.5>('ALL')
   const [activeSort, setActiveSort] = useState<'nearest' | 'rating' | 'reviews'>('nearest')
   const [selectedHotel, setSelectedHotel] = useState<HotelItem | null>(null)
 
@@ -687,8 +700,10 @@ function HotelsPageInner({ hotels, locale = 'en' }: HotelsPageProps) {
   const displayHotels = useMemo(() => {
     let list = hotels.filter(h => !h.isFeatured)
 
-    if (activeStar !== 'ALL') {
-      list = list.filter(h => h.star === activeStar)
+    if (activeRating === 9.0) {
+      list = list.filter(h => h.rating >= 9.0)
+    } else if (activeRating === 8.5) {
+      list = list.filter(h => h.rating >= 8.5)
     }
 
     list.sort((a, b) => {
@@ -699,7 +714,7 @@ function HotelsPageInner({ hotels, locale = 'en' }: HotelsPageProps) {
     })
 
     return list
-  }, [hotels, activeStar, activeSort])
+  }, [hotels, activeRating, activeSort])
 
   const featuredHotel = useMemo(() => {
     return hotels.find(h => h.isFeatured)
@@ -754,31 +769,24 @@ function HotelsPageInner({ hotels, locale = 'en' }: HotelsPageProps) {
           <div className="starFilterGroup">
             <button
               type="button"
-              className={`filterPill ${activeStar === 'ALL' ? 'active' : ''}`}
-              onClick={() => setActiveStar('ALL')}
+              className={`filterPill ${activeRating === 'ALL' ? 'active' : ''}`}
+              onClick={() => setActiveRating('ALL')}
             >
               {t.filterAll} ({hotels.length})
             </button>
             <button
               type="button"
-              className={`filterPill ${activeStar === 5 ? 'active' : ''}`}
-              onClick={() => setActiveStar(5)}
+              className={`filterPill ${activeRating === 9.0 ? 'active' : ''}`}
+              onClick={() => setActiveRating(9.0)}
             >
-              ★ 5{t.stars}
+              ⭐ {t.filterRating9}
             </button>
             <button
               type="button"
-              className={`filterPill ${activeStar === 4 ? 'active' : ''}`}
-              onClick={() => setActiveStar(4)}
+              className={`filterPill ${activeRating === 8.5 ? 'active' : ''}`}
+              onClick={() => setActiveRating(8.5)}
             >
-              ★ 4{t.stars}
-            </button>
-            <button
-              type="button"
-              className={`filterPill ${activeStar === 3 ? 'active' : ''}`}
-              onClick={() => setActiveStar(3)}
-            >
-              ★ 3{t.stars}
+              ⭐ {t.filterRating85}
             </button>
           </div>
 
