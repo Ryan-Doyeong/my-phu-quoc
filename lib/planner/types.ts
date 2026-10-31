@@ -10,11 +10,12 @@ export type TimeBand = 'dawn' | 'morning' | 'afternoon' | 'evening' | 'late'
 export type Companion = 'kids' | 'parents' | 'couple' | 'friends' | 'solo'
 export type Purpose = 'relax' | 'activity' | 'food' | 'photo' | 'shopping'
 export type Pace = 'easy' | 'normal' | 'full'
-export type StayPlan = 'auto' | 'south_only' | 'south_first' | 'central_first'
+/** south_only = 남부만 여행 · south_first = 남부에서 시작 → 다른 지역 · other_first = 다른 지역 → 남부에서 마무리 */
+export type StayPlan = 'south_only' | 'south_first' | 'other_first'
 export type Tier = 'shared' | 'premium' | 'private'
 
 export interface PlannerInput {
-  /** 숙박 일수 (2~6) */
+  /** 남부 숙박 일수 (1~3, 남부 일정은 최대 3박 4일) */
   nights: number
   /** 여행 시작일 (YYYY-MM-DD, 선택) */
   startDate: string
@@ -26,8 +27,6 @@ export interface PlannerInput {
   pace: Pace
   adults: number
   children: number
-  /** 북부(테마파크·사파리 방면) 당일 다녀오기 */
-  northTrip: boolean
 }
 
 export type ProductKind = 'service' | 'tour' | 'ticket' | 'activity'
@@ -100,6 +99,8 @@ export interface Plan {
   days: PlanDay[]
   stays: StaySegment[]
   notes: L[]
+  /** 중부·북부 여행 조언 (일정은 짜지 않고 조언만) */
+  advice: L[]
   /** 이 일정에 포함된 예약 가능 상품 (기본 담기 후보) */
   productKeys: string[]
 }

@@ -5,7 +5,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { CONTACT_CONFIG } from '@/lib/contactConfig'
 import { buildWhatsAppLink, buildZaloLink } from '@/lib/contactLinks'
 import { localePath, type Locale } from '@/lib/i18n/config'
-import { PRODUCTS, REGION_DESC, REGION_LABEL, TIER_DESC, TIER_LABEL } from '@/lib/planner/catalog'
+import { PRODUCTS, REGION_LABEL, TIER_DESC, TIER_LABEL } from '@/lib/planner/catalog'
 import { BAND_LABEL, BAND_RANGE, generatePlan } from '@/lib/planner/generate'
 import type {
   Companion,
@@ -25,21 +25,24 @@ type Lang = 'ko' | 'en'
 const UI = {
   conditions: { ko: '여행 조건', en: 'Your trip' },
   conditionsHint: { ko: '고르는 즉시 일정이 다시 짜여요.', en: 'The plan updates as you choose.' },
-  length: { ko: '여행 기간', en: 'Length' },
+  length: { ko: '남부 일정 기간', en: 'Days in the south' },
+  lengthHint: { ko: '남부 일정은 최대 3박 4일까지 짜 드려요.', en: 'We plan up to 3 nights in the south.' },
   startDate: { ko: '출발 날짜 (선택)', en: 'Start date (optional)' },
   startDateHint: { ko: '날짜를 넣으면 요일·우기를 반영해요', en: 'Adds weekdays & season checks' },
   people: { ko: '인원', en: 'Travellers' },
   adults: { ko: '성인', en: 'Adults' },
   children: { ko: '아이', en: 'Children' },
-  arrival: { ko: '푸꾸옥 도착 시간대', en: 'Arrival time' },
-  departure: { ko: '푸꾸옥 출국 시간대', en: 'Departure time' },
-  stay: { ko: '어디서 묵을까요?', en: 'Where to stay' },
+  arrival: { ko: '남부 도착 시간대', en: 'Arrival in the south' },
+  departure: { ko: '남부에서 떠나는 시간대', en: 'Leaving the south' },
+  bandHint: { ko: '공항 또는 다른 지역에서 오가는 시간 기준', en: 'From/to the airport or another area' },
+  stay: { ko: '여행 형태', en: 'Trip shape' },
+  stayHint: { ko: '중부·북부는 일정 대신 이동 시간 등 조언으로 안내해요.', en: 'For the centre and north we give advice, not a schedule.' },
+  adviceTitle: { ko: '중부·북부도 가신다면', en: 'If you also visit the centre or north' },
+  otherArea: { ko: '다른 지역', en: 'Other area' },
   companion: { ko: '누구와 가세요?', en: 'Travelling with' },
   purpose: { ko: '여행 목적 (여러 개 선택)', en: 'Trip focus (pick any)' },
   pace: { ko: '여행 속도', en: 'Pace' },
-  north: { ko: '북부(테마파크·사파리) 당일 다녀오기', en: 'Add a north day trip (theme parks · safari)' },
-  northHint: { ko: '중부 숙박이 있을 때 넣을 수 있어요', en: 'Available when staying in the centre' },
-  nightsDays: { ko: (n: number) => `${n}박 ${n + 1}일`, en: (n: number) => `${n}N ${n + 1}D` },
+  nightsDays: { ko: (n: number) => `남부 ${n}박 ${n + 1}일`, en: (n: number) => `${n}N ${n + 1}D in the south` },
   sampleBadge: { ko: '샘플 일정', en: 'Sample plan' },
   myBadge: { ko: '내 맞춤 일정', en: 'Your plan' },
   howBuilt: { ko: '이렇게 짰어요', en: 'How we planned it' },
@@ -88,10 +91,9 @@ const KIND_LABEL: Record<ItemKind, L> = {
 }
 
 const STAY_OPTIONS: { id: StayPlan; label: L; desc: L }[] = [
-  { id: 'auto', label: { ko: '잘 모르겠어요 (추천대로)', en: 'Not sure — recommend' }, desc: { ko: '일정 길이에 맞게 정해 드려요', en: 'We decide by trip length' } },
-  { id: 'south_only', label: { ko: '남부에서만', en: 'South only' }, desc: { ko: '선셋타운·켐비치에 계속', en: 'Sunset Town · Khem Beach' } },
-  { id: 'south_first', label: { ko: '남부 먼저 → 중부', en: 'South → Centre' }, desc: { ko: '여행 시작을 남부에서', en: 'Start in the south' } },
-  { id: 'central_first', label: { ko: '중부 먼저 → 남부', en: 'Centre → South' }, desc: { ko: '여행 끝을 남부에서', en: 'Finish in the south' } },
+  { id: 'south_only', label: { ko: '남부만 여행', en: 'South only' }, desc: { ko: '공항 ↔ 남부, 선셋타운·켐비치에 계속', en: 'Airport ↔ south, whole stay' } },
+  { id: 'south_first', label: { ko: '남부에서 시작 → 다른 지역', en: 'South first → elsewhere' }, desc: { ko: '도착해서 남부부터, 끝은 중부·북부', en: 'Start south, end elsewhere' } },
+  { id: 'other_first', label: { ko: '다른 지역 → 남부에서 마무리', en: 'Elsewhere → finish south' }, desc: { ko: '중부·북부 다음 남부로, 남부에서 귀국', en: 'Finish your trip in the south' } },
 ]
 
 const COMPANIONS: { id: Companion; icon: string; label: L }[] = [
@@ -117,20 +119,19 @@ const PACES: { id: Pace; label: L; desc: L }[] = [
 ]
 
 const BANDS: TimeBand[] = ['dawn', 'morning', 'afternoon', 'evening', 'late']
-const NIGHTS = [2, 3, 4, 5, 6]
+const NIGHTS = [1, 2, 3]
 
 const DEFAULT_INPUT: PlannerInput = {
   nights: 3,
   startDate: '',
   arrival: 'afternoon',
   departure: 'afternoon',
-  stayPlan: 'auto',
+  stayPlan: 'south_only',
   companion: 'couple',
   purposes: ['photo'],
   pace: 'normal',
   adults: 2,
   children: 0,
-  northTrip: false,
 }
 
 const WEEKDAYS: Record<Lang, string[]> = {
@@ -218,8 +219,6 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
     update({ purposes: has ? input.purposes.filter((x) => x !== p) : [...input.purposes, p] })
   }
 
-  const hasCentral = plan.stays.some((s) => s.region === 'central')
-
   /** 화면에 실제로 보이는 아이템 (바꾸기 반영) */
   const resolved = (it: PlanItem): PlanItem => {
     const idx = swaps[it.key] ?? 0
@@ -277,9 +276,13 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
     return time
   }
 
-  const stayText = plan.stays
-    .map((s) => `${tx(REGION_LABEL[s.region])} ${s.nights}${lang === 'ko' ? '박' : 'N'}`)
-    .join(' → ')
+  const southText = `${tx(REGION_LABEL.south)} ${input.nights}${lang === 'ko' ? '박' : 'N'}`
+  const stayText =
+    input.stayPlan === 'south_first'
+      ? `${southText} → ${UI.otherArea[lang]}`
+      : input.stayPlan === 'other_first'
+        ? `${UI.otherArea[lang]} → ${southText}`
+        : southText
 
   const companionLabel = COMPANIONS.find((c) => c.id === input.companion)!.label
 
@@ -288,12 +291,13 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
     const ko = lang === 'ko'
     lines.push(ko ? '[마이 푸꾸옥 일정·예약 문의]' : '[My Phu Quoc trip inquiry]')
     if (name.trim()) lines.push(`${ko ? '이름' : 'Name'}: ${name.trim()}`)
+    lines.push(`${ko ? '여행 형태' : 'Trip shape'}: ${tx(STAY_OPTIONS.find((o) => o.id === input.stayPlan)!.label)}`)
     lines.push(
       `${ko ? '일정' : 'Trip'}: ${UI.nightsDays[lang](input.nights)}${input.startDate ? ` (${input.startDate} ${ko ? '출발' : 'start'})` : ''} / ${stayText}`,
     )
     lines.push(`${ko ? '인원' : 'Guests'}: ${ko ? '성인' : 'Adults'} ${input.adults}${input.children ? `, ${ko ? '아이' : 'Children'} ${input.children}` : ''}`)
     lines.push(
-      `${ko ? '도착' : 'Arrival'}: ${tx(BAND_LABEL[input.arrival])} (${BAND_RANGE[input.arrival]}) / ${ko ? '출국' : 'Departure'}: ${tx(BAND_LABEL[input.departure])} (${BAND_RANGE[input.departure]})`,
+      `${ko ? '남부 도착' : 'Arrive south'}: ${tx(BAND_LABEL[input.arrival])} (${BAND_RANGE[input.arrival]}) / ${ko ? '남부 출발' : 'Leave south'}: ${tx(BAND_LABEL[input.departure])} (${BAND_RANGE[input.departure]})`,
     )
     lines.push(
       `${ko ? '동행' : 'With'}: ${tx(companionLabel)}${input.purposes.length ? ` / ${ko ? '목적' : 'Focus'}: ${input.purposes.map((p) => tx(PURPOSES.find((x) => x.id === p)!.label)).join(', ')}` : ''}`,
@@ -366,6 +370,7 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
                 <input type="date" value={input.startDate} onChange={(e) => update({ startDate: e.target.value })} />
                 <small>{UI.startDateHint[lang]}</small>
               </label>
+              <p className="tpFieldHint">{UI.lengthHint[lang]}</p>
             </fieldset>
 
             <fieldset className="tpField">
@@ -396,6 +401,7 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
             {(['arrival', 'departure'] as const).map((k) => (
               <fieldset className="tpField" key={k}>
                 <legend>{UI[k][lang]}</legend>
+                <p className="tpFieldHint">{UI.bandHint[lang]}</p>
                 <div className="tpBands">
                   {BANDS.map((b) => (
                     <button key={b} type="button" className={chip(input[k] === b)} aria-pressed={input[k] === b} onClick={() => update({ [k]: b } as Partial<PlannerInput>)}>
@@ -417,11 +423,7 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
                   </button>
                 ))}
               </div>
-              <p className="tpRegionKey">
-                <span className="tpDot south" /> {tx(REGION_LABEL.south)} · {tx(REGION_DESC.south)}
-                <br />
-                <span className="tpDot central" /> {tx(REGION_LABEL.central)} · {tx(REGION_DESC.central)}
-              </p>
+              <p className="tpFieldHint">{UI.stayHint[lang]}</p>
             </fieldset>
 
             <fieldset className="tpField">
@@ -464,15 +466,6 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
               </div>
             </fieldset>
 
-            <label className={`tpSwitch${hasCentral ? '' : ' isDisabled'}`}>
-              <input type="checkbox" checked={input.northTrip && hasCentral} disabled={!hasCentral} onChange={(e) => update({ northTrip: e.target.checked })} />
-              <span className="tpSwitchTrack" aria-hidden="true" />
-              <span>
-                {UI.north[lang]}
-                {!hasCentral && <small>{UI.northHint[lang]}</small>}
-              </span>
-            </label>
-
             <button
               type="button"
               className="tpPanelDone"
@@ -501,19 +494,19 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
             <p className="tpSummaryMeta">
               {lang === 'ko' ? '성인' : 'Adults'} {input.adults}
               {input.children ? ` · ${lang === 'ko' ? '아이' : 'Children'} ${input.children}` : ''} · {tx(BAND_LABEL[input.arrival])} {lang === 'ko' ? '도착' : 'arrival'} · {tx(BAND_LABEL[input.departure])}{' '}
-              {lang === 'ko' ? '출국' : 'departure'}
+              {lang === 'ko' ? '출발' : 'departure'}
             </p>
 
             <div className="tpStayBar" role="img" aria-label={stayText}>
-              {plan.stays.map((s, i) => (
-                <div key={i} className={`tpStaySeg ${s.region}`} style={{ flexGrow: s.nights }}>
-                  <strong>{tx(REGION_LABEL[s.region])}</strong>
-                  <span>
-                    {s.nights}
-                    {lang === 'ko' ? '박' : 'N'}
-                  </span>
-                </div>
-              ))}
+              {input.stayPlan === 'other_first' && <div className="tpStaySeg other">{UI.otherArea[lang]}</div>}
+              <div className="tpStaySeg south" style={{ flexGrow: 3 }}>
+                <strong>{tx(REGION_LABEL.south)}</strong>
+                <span>
+                  {input.nights}
+                  {lang === 'ko' ? '박' : 'N'}
+                </span>
+              </div>
+              {input.stayPlan === 'south_first' && <div className="tpStaySeg other">{UI.otherArea[lang]}</div>}
             </div>
 
             <details className="tpNotes" open>
@@ -524,6 +517,17 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
                 ))}
               </ul>
             </details>
+
+            {plan.advice.length > 0 && (
+              <details className="tpNotes tpAdvice" open>
+                <summary>{UI.adviceTitle[lang]}</summary>
+                <ul>
+                  {plan.advice.map((n, i) => (
+                    <li key={i}>{tx(n)}</li>
+                  ))}
+                </ul>
+              </details>
+            )}
 
             <div className="tpDayJump">
               {plan.days.map((d) => (
@@ -589,7 +593,7 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
                           <div className="tpProduct">
                             <div className="tpProductMeta">
                               <span>{product.operator === 'direct' ? UI.direct[lang] : UI.partner[lang]}</span>
-                              {product.duration && <span>· {tx(product.duration)}</span>}
+                              {product.duration && it.kind !== 'move' && !it.title.ko.includes('체크인 전') && <span>· {tx(product.duration)}</span>}
                             </div>
 
                             {product.tiers && (
