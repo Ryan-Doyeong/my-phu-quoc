@@ -1,4 +1,22 @@
 import rawHotelData from '@/data/sunset_town_hotels.json'
+import rawHotelInsights from '@/data/hotel_insights.json'
+
+export interface HotelInsight {
+  location?: string
+  view?: string
+  condition?: string
+  staff?: string
+  pros?: string[]
+  cons?: string[]
+}
+
+export type HotelInsightsMap = Record<string, HotelInsight>
+
+export const HOTEL_INSIGHTS: HotelInsightsMap = rawHotelInsights as HotelInsightsMap
+
+export function getHotelInsight(slug: string): HotelInsight | undefined {
+  return HOTEL_INSIGHTS[slug]
+}
 
 export interface HotelRoom {
   name: string
@@ -81,10 +99,14 @@ export interface HotelItem {
   googleReviewsCount?: number
   googleReviews?: HotelGoogleReview[]
   unverified?: string[]
+  insight?: HotelInsight
 }
 
 export function getAllHotels(): HotelItem[] {
-  return (rawHotelData.hotels as unknown) as HotelItem[]
+  return (rawHotelData.hotels as unknown as HotelItem[]).map(h => ({
+    ...h,
+    insight: HOTEL_INSIGHTS[h.slug],
+  }))
 }
 
 export function getFeaturedHotel(): HotelItem | undefined {

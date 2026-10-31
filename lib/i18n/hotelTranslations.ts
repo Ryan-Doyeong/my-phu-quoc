@@ -64,6 +64,14 @@ export interface HotelUiDictionary {
   reviewHighlightLabel: string
   hotelListTitle: string
   countSuffix: string
+  accordionInsights: string
+  insightLocation: string
+  insightView: string
+  insightCondition: string
+  insightStaff: string
+  prosLabel: string
+  consLabel: string
+  viewAllFacilitiesAgoda: string
 }
 
 export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
@@ -131,6 +139,14 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     reviewHighlightLabel: "고객 리뷰 요약",
     hotelListTitle: "선셋타운 호텔 목록",
     countSuffix: "곳",
+    accordionInsights: "한눈에 보는 장단점",
+    insightLocation: "위치",
+    insightView: "전망",
+    insightCondition: "컨디션",
+    insightStaff: "직원 수준",
+    prosLabel: "주요 장점",
+    consLabel: "참고 사항 (아쉬운 점)",
+    viewAllFacilitiesAgoda: "Agoda에서 전체 시설 보기 ↗",
   },
   en: {
     pageTitle: 'Sunset Town Hotels & Resorts',
@@ -196,6 +212,14 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     reviewHighlightLabel: "Review Highlight",
     hotelListTitle: "Sunset Town Hotel List",
     countSuffix: "",
+    accordionInsights: "Key Points & Pros/Cons",
+    insightLocation: "Location",
+    insightView: "View",
+    insightCondition: "Condition",
+    insightStaff: "Staff & Service",
+    prosLabel: "Key Pros",
+    consLabel: "Things to Note (Cons)",
+    viewAllFacilitiesAgoda: "View All Facilities on Agoda ↗",
   },
   zh: {
     pageTitle: '富国岛日落小镇酒店一览',
@@ -261,6 +285,14 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     reviewHighlightLabel: "评价要点",
     hotelListTitle: "日落小镇酒店列表",
     countSuffix: "家",
+    accordionInsights: "核心亮点与优缺点",
+    insightLocation: "位置",
+    insightView: "景观",
+    insightCondition: "客房状况",
+    insightStaff: "服务水平",
+    prosLabel: "主要优势",
+    consLabel: "注意事项（不足之处）",
+    viewAllFacilitiesAgoda: "在 Agoda 查看全部设施 ↗",
   },
   ja: {
     pageTitle: 'サンセットタウン ホテル＆リゾート',
@@ -326,6 +358,14 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     reviewHighlightLabel: "レビュー要約",
     hotelListTitle: "サンセットタウン ホテル一覧",
     countSuffix: "軒",
+    accordionInsights: "一目でわかる長所・短所",
+    insightLocation: "立地",
+    insightView: "眺望",
+    insightCondition: "客室状態",
+    insightStaff: "スタッフ対応",
+    prosLabel: "主なメリット",
+    consLabel: "留意事項・注意点",
+    viewAllFacilitiesAgoda: "Agodaで全アメニティを見る ↗",
   },
   ru: {
     pageTitle: 'Отели и курорты Сансет Тауна',
@@ -391,6 +431,14 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     reviewHighlightLabel: "Сводка отзывов",
     hotelListTitle: "Список отелей Сансет Тауна",
     countSuffix: "",
+    accordionInsights: "Плюсы и минусы",
+    insightLocation: "Расположение",
+    insightView: "Вид",
+    insightCondition: "Состояние номеров",
+    insightStaff: "Персонал и сервис",
+    prosLabel: "Главные плюсы",
+    consLabel: "На что обратить внимание",
+    viewAllFacilitiesAgoda: "Все удобства на Agoda ↗",
   },
   hi: {
     pageTitle: 'सनसेट टाउन होटल और रिसॉर्ट्स',
@@ -456,6 +504,14 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     reviewHighlightLabel: "समीक्षा सारांश",
     hotelListTitle: "सनसेट टाउन होटल सूची",
     countSuffix: "",
+    accordionInsights: "मुख्य बिंदु और पक्ष-विपक्ष",
+    insightLocation: "स्थान",
+    insightView: "दृश्य",
+    insightCondition: "कमरे की स्थिति",
+    insightStaff: "कर्मचारी सेवा",
+    prosLabel: "मुख्य लाभ",
+    consLabel: "ध्यान देने योग्य बातें",
+    viewAllFacilitiesAgoda: "Agoda पर सभी सुविधाएं देखें ↗",
   },
   vi: {
     pageTitle: '선셋타운 호텔 한눈에 보기',
@@ -521,5 +577,13 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     reviewHighlightLabel: "Điểm nhấn đánh giá",
     hotelListTitle: "Danh sách khách sạn Sunset Town",
     countSuffix: " nơi",
+    accordionInsights: "Ưu & Nhược điểm nổi bật",
+    insightLocation: "Vị trí",
+    insightView: "Tầm nhìn",
+    insightCondition: "Tình trạng phòng",
+    insightStaff: "Thái độ nhân viên",
+    prosLabel: "Điểm cộng nổi bật",
+    consLabel: "Lưu ý trước khi đặt phòng",
+    viewAllFacilitiesAgoda: "Xem tất cả tiện nghi trên Agoda ↗",
   },
 }

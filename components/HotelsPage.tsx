@@ -99,6 +99,24 @@ function HotelCard({ hotel, t, locale, isFeatured = false, onOpenModal }: HotelC
         <h3 className="cardTitle">{hotel.name_ko}</h3>
         <div className="cardTitleEn">{hotel.name_en}</div>
 
+        {/* 위치·전망 핵심 한 줄 (데이터 있는 호텔만 노출) */}
+        {hotel.insight && (hotel.insight.location || hotel.insight.view) && (
+          <div className="cardInsightLine">
+            {hotel.insight.location && (
+              <div className="cardInsightItem">
+                <span className="insightIcon">📍</span>
+                <span className="insightText">{hotel.insight.location}</span>
+              </div>
+            )}
+            {hotel.insight.view && (
+              <div className="cardInsightItem">
+                <span className="insightIcon">🌅</span>
+                <span className="insightText">{hotel.insight.view}</span>
+              </div>
+            )}
+          </div>
+        )}
+
         {/* 한 줄 요약 (최대 40자) */}
         {summaryText && (
           <p className="cardSummary">
@@ -160,14 +178,16 @@ interface HotelDetailModalProps {
 function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) {
   const [modalPhotoIdx, setModalPhotoIdx] = useState(0)
 
-  // Accordion state: ① 고객 리뷰 요약만 기본 펼침 (true), 나머지 기본 접힘 (false)
+  // Accordion state:
+  // ① 사진 갤러리(기본 펼침) ② 고객 후기(기본 펼침) ③ 한눈에 보는 장단점(기본 펼침)
+  // ④ 객실 요약(접힘) ⑤ 위치·주변(접힘) ⑥ 시설·서비스(접힘)
   const [openSections, setOpenSections] = useState<Record<string, boolean>>({
+    gallery: true,
     reviews: true,
+    insights: true,
     rooms: false,
-    facilities: false,
     location: false,
-    policies: false,
-    gallery: false,
+    facilities: false,
   })
 
   // The Room Hotel 구글맵 10건 리뷰 전문 토글
@@ -186,9 +206,14 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
     (hotel.coreFacilities && hotel.coreFacilities.length > 0)
   )
 
-  // 정책 항목 확인 여부
-  const hasPolicies = Boolean(
-    hotel.checkIn || hotel.checkOut || hotel.builtYear || hotel.floors || hotel.policies?.childPolicy
+  // 한눈에 보는 장단점 확인 여부 (미확인 시 드롭다운 숨김)
+  const insight = hotel.insight
+  const hasInsights = Boolean(
+    insight && (
+      insight.location || insight.view || insight.condition || insight.staff ||
+      (insight.pros && insight.pros.length > 0) ||
+      (insight.cons && insight.cons.length > 0)
+    )
   )
 
   return (
@@ -242,9 +267,55 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
             )}
           </div>
 
-          {/* 6개 드롭다운 (아코디언) 그룹 */}
+          {/* 6개 드롭다운 (아코디언) 그룹: ① 사진 갤러리 ② 고객 후기 ③ 한눈에 보는 장단점 ④ 객실 요약 ⑤ 위치·주변 ⑥ 시설·서비스 */}
           <div className="accordionGroup">
-            {/* ① 고객 리뷰 요약 (맨 위, 기본 펼침) */}
+            {/* ① 사진 갤러리 (맨 위, 기본 펼침) */}
+            {hotel.photos && hotel.photos.length > 0 && (
+              <div className={`accordionItem ${openSections.gallery ? 'open' : ''}`}>
+                <button
+                  type="button"
+                  className="accordionHeader"
+                  onClick={() => toggleSection('gallery')}
+                  aria-expanded={openSections.gallery}
+                >
+                  <div className="accordionTitle">
+                    <span className="accordionIcon">🖼️</span>
+                    <span>{t.accordionGallery}</span>
+                    <span className="accordionBadge">{hotel.photos.length}장</span>
+                  </div>
+                  <span className="accordionChevron">{openSections.gallery ? '▲' : '▼'}</span>
+                </button>
+
+                {openSections.gallery && (
+                  <div className="accordionBody">
+                    <div className="galleryGridWrap">
+                      {hotel.photos.map((photo, idx) => (
+                        <div
+                          key={idx}
+                          className={`galleryThumbBox ${modalPhotoIdx === idx ? 'active' : ''}`}
+                          onClick={() => setModalPhotoIdx(idx)}
+                        >
+                          <img src={photo} alt={`${hotel.name_ko} ${idx + 1}`} />
+                        </div>
+                      ))}
+                    </div>
+                    <div style={{ marginTop: '12px', textAlign: 'right' }}>
+                      <a
+                        href={hotel.agodaUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="photoSourceTag"
+                        style={{ position: 'static', display: 'inline-flex' }}
+                      >
+                        <span>{t.photoSource} ↗</span>
+                      </a>
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* ② 고객 후기 (요약 + 더 룸 호텔은 구글맵 리뷰 전문 드롭다운, 기본 펼침) */}
             <div className={`accordionItem ${openSections.reviews ? 'open' : ''}`}>
               <button
                 type="button"
@@ -428,7 +499,84 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
               )}
             </div>
 
-            {/* ② 객실 (아고다 확인된 호텔만 노출, 미확인 호텔은 드롭다운 숨김) */}
+            {/* ③ '한눈에 보는 장단점' (위치·전망·컨디션·직원 4항목 + pros/cons, 기본 펼침) */}
+            {hasInsights && (
+              <div className={`accordionItem ${openSections.insights ? 'open' : ''}`}>
+                <button
+                  type="button"
+                  className="accordionHeader"
+                  onClick={() => toggleSection('insights')}
+                  aria-expanded={openSections.insights}
+                >
+                  <div className="accordionTitle">
+                    <span className="accordionIcon">🔍</span>
+                    <span>{t.accordionInsights}</span>
+                  </div>
+                  <span className="accordionChevron">{openSections.insights ? '▲' : '▼'}</span>
+                </button>
+
+                {openSections.insights && (
+                  <div className="accordionBody">
+                    {/* 4 핵심 항목 (위치, 전망, 컨디션, 직원 수준) - 값이 있는 항목만 표시, 없는 항목은 숨김 */}
+                    <div className="insightsGrid">
+                      {insight?.location && (
+                        <div className="insightItemCard">
+                          <div className="insightItemLabel">📍 {t.insightLocation}</div>
+                          <div className="insightItemValue">{insight.location}</div>
+                        </div>
+                      )}
+                      {insight?.view && (
+                        <div className="insightItemCard">
+                          <div className="insightItemLabel">🌅 {t.insightView}</div>
+                          <div className="insightItemValue">{insight.view}</div>
+                        </div>
+                      )}
+                      {insight?.condition && (
+                        <div className="insightItemCard">
+                          <div className="insightItemLabel">🛏️ {t.insightCondition}</div>
+                          <div className="insightItemValue">{insight.condition}</div>
+                        </div>
+                      )}
+                      {insight?.staff && (
+                        <div className="insightItemCard">
+                          <div className="insightItemLabel">👥 {t.insightStaff}</div>
+                          <div className="insightItemValue">{insight.staff}</div>
+                        </div>
+                      )}
+                    </div>
+
+                    {/* 장단점 목록 */}
+                    {((insight?.pros && insight.pros.length > 0) ||
+                      (insight?.cons && insight.cons.length > 0)) && (
+                      <div className="prosConsWrap">
+                        {insight?.pros && insight.pros.length > 0 && (
+                          <div className="prosBox">
+                            <div className="prosBoxTitle">✓ {t.prosLabel}</div>
+                            <ul className="prosListItems">
+                              {insight.pros.map((p, i) => (
+                                <li key={i}>{p}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+                        {insight?.cons && insight.cons.length > 0 && (
+                          <div className="consBox">
+                            <div className="consBoxTitle">⚠️ {t.consLabel}</div>
+                            <ul className="consListItems">
+                              {insight.cons.map((c, i) => (
+                                <li key={i}>{c}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* ④ 객실 요약 (아고다에서 확인된 객실 유형만 이름·면적·침대·전망 정도로 짧게, 접힘; 정보 없으면 숨김) */}
             {hasRooms && (
               <div className={`accordionItem ${openSections.rooms ? 'open' : ''}`}>
                 <button
@@ -455,71 +603,29 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                             <th>{t.roomSize}</th>
                             <th>{t.roomBed}</th>
                             <th>{t.roomView}</th>
-                            <th>{t.roomFeatures}</th>
                           </tr>
                         </thead>
                         <tbody>
                           {hotel.rooms!.map((room, idx) => (
                             <tr key={idx}>
                               <td className="roomNameHighlight">{room.name}</td>
-                              <td>{room.size}</td>
-                              <td>{room.bed}</td>
-                              <td>{room.view}</td>
-                              <td>{room.features}</td>
+                              <td>{room.size || '-'}</td>
+                              <td>{room.bed || '-'}</td>
+                              <td>{room.view || '-'}</td>
                             </tr>
                           ))}
                         </tbody>
                       </table>
+                    </div>
+                    <div style={{ marginTop: '12px', fontSize: '0.8125rem', color: '#64748b' }}>
+                      ※ {t.roomCheckAgoda}
                     </div>
                   </div>
                 )}
               </div>
             )}
 
-            {/* ③ 시설·서비스 (분류별) */}
-            {hasFacilities && (
-              <div className={`accordionItem ${openSections.facilities ? 'open' : ''}`}>
-                <button
-                  type="button"
-                  className="accordionHeader"
-                  onClick={() => toggleSection('facilities')}
-                  aria-expanded={openSections.facilities}
-                >
-                  <div className="accordionTitle">
-                    <span className="accordionIcon">✨</span>
-                    <span>{t.accordionFacilities}</span>
-                  </div>
-                  <span className="accordionChevron">{openSections.facilities ? '▲' : '▼'}</span>
-                </button>
-
-                {openSections.facilities && (
-                  <div className="accordionBody">
-                    {hotel.facilityCategories && hotel.facilityCategories.length > 0 ? (
-                      <div className="modalFacilityGrid">
-                        {hotel.facilityCategories.map((cat, idx) => (
-                          <div key={idx} className="modalFacilityCat">
-                            <div className="modalCatTitle">{cat.name}</div>
-                            <ul className="modalCatItems">
-                              {cat.items.slice(0, 8).map((item, i) => (
-                                <li key={i}>{item}</li>
-                              ))}
-                            </ul>
-                          </div>
-                        ))}
-                      </div>
-                    ) : (
-                      <div className="facilitiesTagList">
-                        {hotel.coreFacilities.map((f, i) => (
-                          <span key={i} className="facilityTag">✓ {f}</span>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                )}
-              </div>
-            )}
-
-            {/* ④ 위치·주변 */}
+            {/* ⑤ 위치·주변 (케이블카 거리, 주요 명소 거리 3개 이내, 체크인/아웃 한 줄, 접힘) */}
             <div className={`accordionItem ${openSections.location ? 'open' : ''}`}>
               <button
                 type="button"
@@ -537,19 +643,22 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
               {openSections.location && (
                 <div className="accordionBody">
                   <div className="locationDetailsBox">
-                    <div style={{ marginBottom: '10px' }}>
+                    <div style={{ marginBottom: '8px' }}>
                       <strong>📍 {t.accordionLocation}:</strong> {hotel.address}
                     </div>
-                    <div style={{ marginBottom: '10px' }}>
-                      <strong>🚡 케이블카 거리:</strong> 혼똔섬 케이블카 정류장까지 {hotel.cable_m}m
+                    <div style={{ marginBottom: '8px' }}>
+                      <strong>🚡 케이블카 거리:</strong> 혼똔섬 케이블카 탑승장까지 {hotel.cable_m}m
+                    </div>
+                    <div style={{ marginBottom: '12px', color: '#0f172a', fontWeight: 600 }}>
+                      🕒 {t.checkIn} {hotel.checkIn || '14:00'} · {t.checkOut} {hotel.checkOut || '12:00'}
                     </div>
                     {hotel.landmarks && hotel.landmarks.length > 0 && (
-                      <div style={{ marginTop: '12px' }}>
+                      <div style={{ marginTop: '12px', paddingTop: '10px', borderTop: '1px solid #e2e8f0' }}>
                         <div style={{ fontWeight: 700, marginBottom: '6px', color: '#0f172a' }}>
-                          주요 명소와의 거리
+                          {t.landmarksTitle}
                         </div>
-                        <ul style={{ paddingLeft: '20px', color: '#475569', lineHeight: 1.6 }}>
-                          {hotel.landmarks.map((lm, idx) => (
+                        <ul style={{ paddingLeft: '20px', color: '#475569', lineHeight: 1.6, margin: 0 }}>
+                          {hotel.landmarks.slice(0, 3).map((lm, idx) => (
                             <li key={idx}>{lm.name}: {lm.distance}</li>
                           ))}
                         </ul>
@@ -560,100 +669,37 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
               )}
             </div>
 
-            {/* ⑤ 체크인·정책 (빈 항목 자동 숨김) */}
-            {hasPolicies && (
-              <div className={`accordionItem ${openSections.policies ? 'open' : ''}`}>
+            {/* ⑥ 시설·서비스 (맨 마지막, 접힘, 핵심 시설만 최대 8~10개 태그, 상세 목록은 '아고다에서 전체 시설 보기' 링크) */}
+            {hasFacilities && (
+              <div className={`accordionItem ${openSections.facilities ? 'open' : ''}`}>
                 <button
                   type="button"
                   className="accordionHeader"
-                  onClick={() => toggleSection('policies')}
-                  aria-expanded={openSections.policies}
+                  onClick={() => toggleSection('facilities')}
+                  aria-expanded={openSections.facilities}
                 >
                   <div className="accordionTitle">
-                    <span className="accordionIcon">📋</span>
-                    <span>{t.accordionPolicies}</span>
+                    <span className="accordionIcon">✨</span>
+                    <span>{t.accordionFacilities}</span>
                   </div>
-                  <span className="accordionChevron">{openSections.policies ? '▲' : '▼'}</span>
+                  <span className="accordionChevron">{openSections.facilities ? '▲' : '▼'}</span>
                 </button>
 
-                {openSections.policies && (
+                {openSections.facilities && (
                   <div className="accordionBody">
-                    <div className="policiesGrid">
-                      {hotel.checkIn && (
-                        <div className="policyItem">
-                          <div className="policyLabel">{t.checkIn}</div>
-                          <div className="policyValue">{hotel.checkIn}</div>
-                        </div>
-                      )}
-                      {hotel.checkOut && (
-                        <div className="policyItem">
-                          <div className="policyLabel">{t.checkOut}</div>
-                          <div className="policyValue">{hotel.checkOut}</div>
-                        </div>
-                      )}
-                      {hotel.builtYear && (
-                        <div className="policyItem">
-                          <div className="policyLabel">{t.builtYear}</div>
-                          <div className="policyValue">{hotel.builtYear}년</div>
-                        </div>
-                      )}
-                      {hotel.floors && (
-                        <div className="policyItem">
-                          <div className="policyLabel">{t.floors}</div>
-                          <div className="policyValue">{hotel.floors}층</div>
-                        </div>
-                      )}
-                    </div>
-
-                    {hotel.policies?.childPolicy && (
-                      <div className="childPolicyBox">
-                        <strong>{t.childPolicy}:</strong> {hotel.policies.childPolicy}
-                      </div>
-                    )}
-                  </div>
-                )}
-              </div>
-            )}
-
-            {/* ⑥ 사진 갤러리 */}
-            {hotel.photos && hotel.photos.length > 0 && (
-              <div className={`accordionItem ${openSections.gallery ? 'open' : ''}`}>
-                <button
-                  type="button"
-                  className="accordionHeader"
-                  onClick={() => toggleSection('gallery')}
-                  aria-expanded={openSections.gallery}
-                >
-                  <div className="accordionTitle">
-                    <span className="accordionIcon">🖼️</span>
-                    <span>{t.accordionGallery}</span>
-                    <span className="accordionBadge">{hotel.photos.length}장</span>
-                  </div>
-                  <span className="accordionChevron">{openSections.gallery ? '▲' : '▼'}</span>
-                </button>
-
-                {openSections.gallery && (
-                  <div className="accordionBody">
-                    <div className="galleryGridWrap">
-                      {hotel.photos.map((photo, idx) => (
-                        <div
-                          key={idx}
-                          className={`galleryThumbBox ${modalPhotoIdx === idx ? 'active' : ''}`}
-                          onClick={() => setModalPhotoIdx(idx)}
-                        >
-                          <img src={photo} alt={`${hotel.name_ko} ${idx + 1}`} />
-                        </div>
+                    <div className="facilitiesTagList">
+                      {hotel.coreFacilities.slice(0, 10).map((f, i) => (
+                        <span key={i} className="facilityTag">✓ {f}</span>
                       ))}
                     </div>
-                    <div style={{ marginTop: '12px', textAlign: 'right' }}>
+                    <div style={{ marginTop: '16px', textAlign: 'center' }}>
                       <a
                         href={hotel.agodaUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="photoSourceTag"
-                        style={{ position: 'static', display: 'inline-flex' }}
+                        className="btnAgodaFacilities"
                       >
-                        <span>{t.photoSource} ↗</span>
+                        {t.viewAllFacilitiesAgoda}
                       </a>
                     </div>
                   </div>

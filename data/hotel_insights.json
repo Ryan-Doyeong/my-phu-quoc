@@ -1,0 +1,278 @@
+{
+  "the-room-hotel": {
+    "location": "혼똔섬 케이블카 610m, 야시장·스타벅스·한식당 도보 1~3분",
+    "view": "오션뷰 객실 발코니에서 야간 불꽃놀이 관람 가능 (시티뷰 객실 병행)",
+    "condition": "포근한 침구류 구비 및 청결한 객실 관리",
+    "staff": "체크인 전 사전 소통 및 친절한 직원·사장님 응대",
+    "pros": [
+      "오션뷰 객실 발코니에서 매일 밤 불꽃놀이 편안하게 관람",
+      "포근하고 편안한 침구류로 안락한 휴식",
+      "야시장, 스타벅스, 식당, 마트 도보 1~3분 인접",
+      "친절하고 세심한 사장님과 직원의 맞춤 응대"
+    ],
+    "cons": [
+      "한 층에 객실 3개 중 오션뷰 객실은 1개(예약 시 객실 유형 확인 필요)"
+    ]
+  },
+  "la-festa-phu-quoc-curio-collection-by-hilton": {
+    "location": "혼똔섬 케이블카 200m, 선셋타운 중심 광장 및 키스브릿지 인접",
+    "view": "키스브릿지 및 바다 조망 객실 보유",
+    "condition": "",
+    "staff": "",
+    "pros": [
+      "인피니티 풀에서 키스브릿지 일몰과 야간 불꽃놀이 조망",
+      "선셋타운 중심부에 위치해 도보 이동 편리"
+    ],
+    "cons": []
+  },
+  "roma-hotel-phu-quoc-h39560696": {
+    "location": "혼똔섬 케이블카 260m 거리",
+    "view": "루프탑 라운지에서 일몰 조망",
+    "condition": "",
+    "staff": "",
+    "pros": [
+      "루프탑 일몰 전망 및 스파 시설 완비"
+    ],
+    "cons": []
+  },
+  "times-corner-sorrento-boutique-hotel": {
+    "location": "혼똔섬 케이블카 370m, 소렌토 거리 위치(야시장 도보 3분)",
+    "view": "소렌토 거리 풍경 조망",
+    "condition": "",
+    "staff": "",
+    "pros": [
+      "부이페스트 야시장 도보 3분 접근성"
+    ],
+    "cons": []
+  },
+  "le-bonheur-hotel": {
+    "location": "혼똔섬 케이블카 탑승장 80m 거리",
+    "view": "옥상 선셋 라운지 조망",
+    "condition": "",
+    "staff": "",
+    "pros": [
+      "케이블카 탑승장 도보 1분 이내 접근성"
+    ],
+    "cons": []
+  },
+  "venice-hotel-phu-quoc": {
+    "location": "혼똔섬 케이블카 390m, 베니스 거리 중심",
+    "view": "오션뷰 발코니 객실 보유(키스브릿지 파노라마 뷰)",
+    "condition": "",
+    "staff": "",
+    "pros": [
+      "키스브릿지 파노라마 뷰 및 사우나·피트니스 부대시설"
+    ],
+    "cons": []
+  },
+  "coastal-living-hotel-phu-quoc": {
+    "location": "혼똔섬 케이블카 360m 거리",
+    "view": "",
+    "condition": "2025년 신축 시설",
+    "staff": "",
+    "pros": [
+      "신축 시설의 청결도 및 정돈된 인테리어"
+    ],
+    "cons": []
+  },
+  "roma-hotel-phu-qu-c": {
+    "location": "혼똔섬 케이블카 480m 거리, 선셋타운 중심",
+    "view": "",
+    "condition": "",
+    "staff": "",
+    "pros": [
+      "선셋타운 산책로 도보 이동 편리"
+    ],
+    "cons": []
+  },
+  "sakurakyo-hotel-spa-phu-quoc": {
+    "location": "혼똔섬 케이블카 120m 거리",
+    "view": "",
+    "condition": "2025년 신축 시설",
+    "staff": "",
+    "pros": [
+      "케이블카 120m 근접, 수영장 및 스파 완비"
+    ],
+    "cons": []
+  },
+  "times-corner-amalfi-hotel": {
+    "location": "혼똔섬 케이블카 140m 거리",
+    "view": "씨뷰 객실 불꽃놀이 조망",
+    "condition": "2025년 신축 시설",
+    "staff": "",
+    "pros": [
+      "씨뷰 객실 불꽃놀이 관람, 야외 수영장 및 풀사이드 바"
+    ],
+    "cons": []
+  },
+  "milan-hotel-coffee": {
+    "location": "혼똔섬 케이블카 390m 거리",
+    "view": "루프탑 풀 일몰 조망",
+    "condition": "",
+    "staff": "",
+    "pros": [
+      "옥상 수영장 및 1층 카페 편의"
+    ],
+    "cons": []
+  },
+  "kl-hotel-phu-quoc": {
+    "location": "혼똔섬 케이블카 탑승장 40m 거리",
+    "view": "",
+    "condition": "",
+    "staff": "",
+    "pros": [
+      "케이블카 탑승장 바로 앞 위치, 주변 상권 접근성"
+    ],
+    "cons": []
+  },
+  "casepia": {
+    "location": "혼똔섬 케이블카 350m, 해변 산책로 인접",
+    "view": "",
+    "condition": "",
+    "staff": "",
+    "pros": [
+      "해변 산책로 및 비치클럽 인접 입지"
+    ],
+    "cons": []
+  },
+  "solea-hotel-sunset-town-phu-quoc": {
+    "location": "혼똔섬 케이블카 240m 거리",
+    "view": "",
+    "condition": "2025년 신축 시설",
+    "staff": "",
+    "pros": [
+      "어린이 풀 포함 야외 수영장 및 피트니스 완비"
+    ],
+    "cons": []
+  },
+  "de-stefano-coffee-and-hotel": {
+    "location": "혼똔섬 케이블카 200m 거리",
+    "view": "",
+    "condition": "",
+    "staff": "",
+    "pros": [
+      "1층 카페 운영 및 조식 뷔페·공용 주방 완비"
+    ],
+    "cons": []
+  },
+  "khach-san-royal-phu-quoc": {
+    "location": "혼똔섬 케이블카 100m, 해변 산책로 인접",
+    "view": "",
+    "condition": "",
+    "staff": "",
+    "pros": [
+      "케이블카 100m 도보권 및 해변 산책로 인접"
+    ],
+    "cons": []
+  },
+  "cybele-hotel": {
+    "location": "혼똔섬 케이블카 380m, 포지타노 거리 위치",
+    "view": "",
+    "condition": "",
+    "staff": "",
+    "pros": [
+      "포지타노 거리의 정돈된 골목 분위기"
+    ],
+    "cons": []
+  },
+  "ca-che-p-boutique-house": {
+    "location": "혼똔섬 케이블카 250m 거리",
+    "view": "",
+    "condition": "",
+    "staff": "",
+    "pros": [
+      "케이블카 도보 이동 편리, 친절한 직원 서비스"
+    ],
+    "cons": []
+  },
+  "hoang-hon-hotel": {
+    "location": "혼똔섬 케이블카 370m 거리",
+    "view": "옥상 선셋 라운지 일몰 조망",
+    "condition": "",
+    "staff": "",
+    "pros": [
+      "옥상 선셋 라운지 및 24시간 프런트 서비스"
+    ],
+    "cons": []
+  },
+  "palo-santo-hotel-phu-quoc": {
+    "location": "혼똔섬 케이블카 430m 거리",
+    "view": "",
+    "condition": "",
+    "staff": "",
+    "pros": [
+      "스파 및 마사지 부대시설 완비, 24시간 프런트"
+    ],
+    "cons": []
+  },
+  "thala-hotel-sorrento": {
+    "location": "혼똔섬 케이블카 160m(도보 약 2분), 소렌토 구역",
+    "view": "",
+    "condition": "신축 시설",
+    "staff": "",
+    "pros": [
+      "케이블카 도보 2분 접근성 및 신축 객실 컨디션"
+    ],
+    "cons": []
+  },
+  "catarina-hotel-phu-quoc": {
+    "location": "혼똔섬 케이블카 230m 거리",
+    "view": "",
+    "condition": "",
+    "staff": "",
+    "pros": [
+      "주방 시설 완비 및 24시간 프런트 데스크 운영"
+    ],
+    "cons": []
+  },
+  "sunny-hotel": {
+    "location": "혼똔섬 케이블카 370m 거리",
+    "view": "",
+    "condition": "",
+    "staff": "",
+    "pros": [
+      "친절한 직원 서비스 및 사우나 시설 지원"
+    ],
+    "cons": []
+  },
+  "solaro-hotel-spa-h84816481": {
+    "location": "혼똔섬 케이블카 150m 거리",
+    "view": "",
+    "condition": "2026년 신축 시설",
+    "staff": "",
+    "pros": [
+      "실내외 수영장 및 대형 스파 부대시설 완비"
+    ],
+    "cons": []
+  },
+  "anna-hotel-free-cable-car-and-water-park-tickets": {
+    "location": "혼똔섬 케이블카 340m 거리",
+    "view": "인피니티 풀 조망",
+    "condition": "2024년 신축 시설",
+    "staff": "",
+    "pros": [
+      "인피니티 풀 및 피트니스·공용 주방 완비"
+    ],
+    "cons": []
+  },
+  "juliet-boutique-hotel": {
+    "location": "혼똔섬 케이블카 370m 거리",
+    "view": "",
+    "condition": "",
+    "staff": "",
+    "pros": [
+      "전용 해변 산책로 인접 및 조식 뷔페 제공"
+    ],
+    "cons": []
+  },
+  "hoa-ng-hon-ti-m-boutique-hotel": {
+    "location": "혼똔섬 케이블카 220m, 소렌토 거리 위치",
+    "view": "",
+    "condition": "",
+    "staff": "",
+    "pros": [
+      "소렌토 거리 위치 및 24시간 프런트 데스크 운영"
+    ],
+    "cons": []
+  }
+}

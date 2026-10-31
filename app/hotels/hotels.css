@@ -1459,6 +1459,133 @@
   gap: 4px;
 }
 
+/* Card Insight Line (위치·전망 한 줄 노출) */
+.cardInsightLine {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  border: 1px solid #e2e8f0;
+}
+
+.cardInsightItem {
+  color: #334155;
+  font-weight: 500;
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.cardInsightItem .insightIcon {
+  flex-shrink: 0;
+  font-size: 0.875rem;
+}
+
+/* Modal Insight Grid (한눈에 보는 장단점 4항목 + pros/cons) */
+.insightsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 640px) {
+  .insightsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.insightItemCard {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+
+.insightItemLabel {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: #0B7A8A;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.insightItemValue {
+  font-size: 0.875rem;
+  color: #1e293b;
+  line-height: 1.5;
+}
+
+.prosConsWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.prosBox {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.prosBoxTitle {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #166534;
+  margin-bottom: 8px;
+}
+
+.prosListItems, .consListItems {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 0.875rem;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+.consBox {
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.consBoxTitle {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #92400e;
+  margin-bottom: 8px;
+}
+
+.btnAgodaFacilities {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 20px;
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  color: #0f172a;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.btnAgodaFacilities:hover {
+  background: #e2e8f0;
+  color: #0B7A8A;
+  border-color: #0B7A8A;
+}
+
 .cardFeaturedHeader .featuredTitleTag {
   color: #fef3c7;
   font-size: 0.8125rem;
