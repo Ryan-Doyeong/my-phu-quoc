@@ -3305,3 +3305,154 @@
   }
 }
 
+/* ============================================================
+   Tour Landing Pages (Buggy & Taxi) White Header Styling
+   - Matches Home & Zone detailNav standards
+   - Clean white background, thin border, dark ink text
+   - Fixes white logo text, dark teal lang button, and grey menu button
+   ============================================================ */
+.tourHeader {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  height: 82px;
+  padding: 0 clamp(22px, 4vw, 58px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #FFFFFF !important;
+  border-bottom: 1px solid #E2E8F0 !important;
+  color: #12333B !important;
+  text-shadow: none !important;
+  box-sizing: border-box;
+}
+
+.tourHeader .brandLockup {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #12333B !important;
+  text-decoration: none;
+}
+
+.tourHeader .brandText,
+.tourHeader .brandText span {
+  color: #12333B !important;
+  font-family: Georgia, serif;
+}
+
+.tourHeader .sunMark circle {
+  fill: #C86D2D;
+}
+
+.tourHeader .sunMark path {
+  stroke: #12333B !important;
+}
+
+.tourHeader .desktopNav {
+  display: flex;
+  align-items: center;
+  gap: clamp(10px, 1.4vw, 18px);
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.tourHeader .desktopNav a {
+  color: #12333B !important;
+  opacity: 0.92;
+  text-decoration: none;
+  transition: color 0.15s ease, opacity 0.15s ease;
+}
+
+.tourHeader .desktopNav a:hover {
+  color: #0B7A8A !important;
+  opacity: 1;
+}
+
+.tourHeader .headerActions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tourHeader .searchGlyph {
+  color: #12333B !important;
+  font-size: 22px;
+  line-height: 1;
+  text-decoration: none;
+  padding: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.15s ease;
+}
+
+.tourHeader .searchGlyph:hover {
+  color: #0B7A8A !important;
+}
+
+.tourHeader .mobileMenu {
+  display: none;
+  position: relative;
+}
+
+.tourHeader .mobileMenu summary {
+  list-style: none;
+  cursor: pointer;
+  background: #FFFFFF !important;
+  border: 1px solid #CBD5E1 !important;
+  color: #12333B !important;
+  border-radius: 999px !important;
+  padding: 7px 13px !important;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12.5px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04) !important;
+  backdrop-filter: none !important;
+  text-shadow: none !important;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.tourHeader .mobileMenu summary:hover {
+  background: #F8FAFC !important;
+  border-color: #94A3B8 !important;
+}
+
+.tourHeader .mobileMenu summary em {
+  font-style: normal;
+  font-size: 12px;
+  color: #12333B !important;
+}
+
+.tourHeader .mobileMenu summary span {
+  font-size: 13px;
+  color: #12333B !important;
+}
+
+@media (max-width: 768px) {
+  .tourHeader {
+    height: 72px;
+    padding: 0 16px;
+  }
+  .tourHeader .desktopNav {
+    display: none !important;
+  }
+  .tourHeader .searchGlyph {
+    display: none !important;
+  }
+  .tourHeader .mobileMenu {
+    display: block !important;
+  }
+  .tourHeader .brandText {
+    font-size: 20px;
+  }
+  .tourHeader .brandText span {
+    font-size: 13px;
+  }
+}
+
+

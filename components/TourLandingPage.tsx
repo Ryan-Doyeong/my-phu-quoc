@@ -227,13 +227,17 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
 
   return (
     <div className="tourLandingWrap">
-      {/* Site Header (Common) */}
-      <header className="siteHeader heroHeader">
+      {/* Site Header (Common White Header Style) */}
+      <header className="tourHeader">
         <Logo locale={locale} />
         <nav className="desktopNav">
           <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
-          <Link href={localePath(locale, '/zones/sunset-town')}>선셋타운</Link>
-          <Link href={localePath(locale, '/zones/khem-beach')}>켐비치</Link>
+          <Link href={localePath(locale, '/zones/sunset-town')}>
+            {locale === 'ko' ? '선셋타운' : 'Sunset Town'}
+          </Link>
+          <Link href={localePath(locale, '/zones/khem-beach')}>
+            {locale === 'ko' ? '켐비치' : 'Khem Beach'}
+          </Link>
           <Link href={localePath(locale, '/directory/dining')}>{categoryLabel('dining', locale)}</Link>
           <Link href={localePath(locale, '/directory/bars')}>{categoryLabel('bars', locale)}</Link>
           <Link href={localePath(locale, '/directory/hotels')}>{categoryLabel('hotels', locale)}</Link>
@@ -248,7 +252,7 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
           >
             ⌕
           </Link>
-          <LanguageSwitcher locale={locale} variant="hero" />
+          <LanguageSwitcher locale={locale} variant="light" />
           <MobileMenu locale={locale} />
         </div>
       </header>
