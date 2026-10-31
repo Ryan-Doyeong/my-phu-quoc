@@ -227,7 +227,10 @@
       "summary_zh": "海景阳台观赏烟花 · 步行可达星巴克与夜市",
       "summary_ja": "オーシャンビュー客室のバルコニーで花火鑑賞 · スターバックス・ナイトマーケット徒歩圏内",
       "summary_ru": "Просмотр фейерверков с балкона с видом на океан · В пешей доступности от Starbucks и ночного рынка",
-      "summary_vi": "Xem pháo hoa từ ban công phòng view biển · Đi bộ tới Starbucks & Chợ đêm"
+      "summary_vi": "Xem pháo hoa từ ban công phòng view biển · Đi bộ tới Starbucks & Chợ đêm",
+      "area": "sunset-town",
+      "tier": "recommended",
+      "officialStar": null
     },
     {
       "slug": "la-festa-phu-quoc-curio-collection-by-hilton",
@@ -443,7 +446,11 @@
       "reviewQuote": {
         "text": "선셋타운 중심에 있어 위치가 탁월하고 수영장 전망과 조식이 훌륭합니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "top",
+      "officialStar": 5,
+      "badgeText": "마이 푸꾸옥 추천 호텔"
     },
     {
       "slug": "roma-hotel-phu-quoc-h39560696",
@@ -683,7 +690,10 @@
       "reviewQuote": {
         "text": "루프탑에서 바라보는 일몰 풍경이 멋지고 가성비가 좋습니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "times-corner-sorrento-boutique-hotel",
@@ -891,7 +901,10 @@
       "reviewQuote": {
         "text": "야시장과 광장이 바로 앞이라 이동하기 편하고 객실이 깨끗합니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "le-bonheur-hotel",
@@ -1064,7 +1077,10 @@
       "reviewQuote": {
         "text": "케이블카 탑승장이 바로 코앞이라 케이블카 이용 시 최적의 위치입니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "venice-hotel-phu-quoc",
@@ -1374,7 +1390,10 @@
       "reviewQuote": {
         "text": "발코니에서 바라보는 키스 브릿지 뷰가 인상적이고 조용하게 휴식하기 좋습니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "coastal-living-hotel-phu-quoc",
@@ -1567,7 +1586,10 @@
       "reviewQuote": {
         "text": "새로 지은 호텔이라 모든 것이 새것처럼 깨끗하고 직원들이 매우 친절합니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "roma-hotel-phu-qu-c",
@@ -1709,7 +1731,10 @@
       "reviewQuote": {
         "text": "부담 없는 가격에 깨끗한 룸에서 편안하게 잘 쉬었습니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "sakurakyo-hotel-spa-phu-quoc",
@@ -1947,7 +1972,10 @@
       "reviewQuote": {
         "text": "시설이 깔끔하고 스파와 수영장이 잘 갖추어져 있어 힐링하기 좋았습니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "times-corner-amalfi-hotel",
@@ -2120,7 +2148,10 @@
       "reviewQuote": {
         "text": "객실에서 불꽃놀이가 보이고 수영장이 예뻐서 만족스러웠습니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "milan-hotel-coffee",
@@ -2291,7 +2322,10 @@
       "reviewQuote": {
         "text": "루프탑 수영장에서 보는 일몰이 멋지고 카페 커피도 맛있었습니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "kl-hotel-phu-quoc",
@@ -2484,7 +2518,10 @@
       "reviewQuote": {
         "text": "케이블카 바로 앞이라 이동하기 너무 편하고 가성비 좋습니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "casepia",
@@ -2681,7 +2718,10 @@
       "reviewQuote": {
         "text": "바다와 산책로가 가까워 여유롭게 걷기 좋았고 룸 인테리어가 감각적입니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "solea-hotel-sunset-town-phu-quoc",
@@ -2917,7 +2957,10 @@
       "reviewQuote": {
         "text": "아이와 함께 수영장 이용하기 좋았고 위치도 이동하기 수월했습니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "de-stefano-coffee-and-hotel",
@@ -3055,7 +3098,10 @@
       "reviewQuote": {
         "text": "커피 향 가득한 1층 분위기와 친절한 직원 덕분에 편안히 묵었습니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "khach-san-royal-phu-quoc",
@@ -3294,7 +3340,10 @@
       "reviewQuote": {
         "text": "케이블카와 가까워 관광 동선이 편했고 방이 넓었습니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "cybele-hotel",
@@ -3511,7 +3560,10 @@
       "reviewQuote": {
         "text": "조용하게 지내기 좋고 가격 대비 부담 없이 머물기 좋은 숙소입니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "ca-che-p-boutique-house",
@@ -3715,7 +3767,10 @@
       "reviewQuote": {
         "text": "작지만 아늑하고 가격 대비 만족스러웠습니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "hoang-hon-hotel",
@@ -3838,7 +3893,10 @@
       "reviewQuote": {
         "text": "옥상에서 일몰을 편하게 바라볼 수 있어 좋았습니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "palo-santo-hotel-phu-quoc",
@@ -3999,7 +4057,10 @@
       "reviewQuote": {
         "text": "스파를 함께 즐길 수 있어서 여행 피로를 풀기에 아주 좋았습니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "thala-hotel-sorrento",
@@ -4178,7 +4239,10 @@
       "reviewQuote": {
         "text": "케이블카 타러 가기 편하고 주변에 먹거리도 많아서 좋았습니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "catarina-hotel-phu-quoc",
@@ -4331,7 +4395,10 @@
       "reviewQuote": {
         "text": "룸이 깔끔하고 주방 편의가 있어 가족끼리 머물기 편리했습니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "sunny-hotel",
@@ -4483,7 +4550,10 @@
       "reviewQuote": {
         "text": "직원들이 항상 웃는 얼굴로 친절하게 응대해 주어 기분 좋게 묵었습니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "solaro-hotel-spa-h84816481",
@@ -4851,7 +4921,10 @@
       "reviewQuote": {
         "text": "수영장과 스파가 잘 되어 있고 케이블카 탑승장과도 아주 가깝습니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "anna-hotel-free-cable-car-and-water-park-tickets",
@@ -5045,7 +5118,10 @@
       "reviewQuote": {
         "text": "인피니티 풀 전망이 시원하고 가격 대비 훌륭한 숙소입니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "juliet-boutique-hotel",
@@ -5244,7 +5320,10 @@
       "reviewQuote": {
         "text": "분위기가 아늑하고 조식이 맛있어 커플 여행에 추천합니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     },
     {
       "slug": "hoa-ng-hon-ti-m-boutique-hotel",
@@ -5400,7 +5479,10 @@
       "reviewQuote": {
         "text": "소렌토 거리가 예쁘고 주변 산책하기 좋은 아담한 호텔입니다.",
         "source": "Agoda"
-      }
+      },
+      "area": "sunset-town",
+      "tier": "standard",
+      "officialStar": null
     }
   ]
 }

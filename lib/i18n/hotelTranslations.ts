@@ -74,6 +74,16 @@ export interface HotelUiDictionary {
   viewAllFacilitiesAgoda: string
   viewOnGoogleMaps: string
   viewOnGoogleMapsShort: string
+  areaSunsetTown: string
+  areaKhemBeach: string
+  badgeTopGrade: string
+  sectionTopGrade: string
+  sectionRecommended: string
+  sectionStandard: string
+  sectionKhemResorts: string
+  sortResortGrade: string
+  khemDistanceBadge: string
+  khemHeroSubtitle: string
 }
 
 export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
@@ -151,6 +161,16 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     viewAllFacilitiesAgoda: "Agoda에서 전체 시설 보기 ↗",
     viewOnGoogleMaps: "구글맵에서 위치 보기",
     viewOnGoogleMapsShort: "구글맵",
+    areaSunsetTown: "선셋타운",
+    areaKhemBeach: "켐 비치",
+    badgeTopGrade: "탑 그레이드",
+    sectionTopGrade: "선셋타운 최고 등급 호텔",
+    sectionRecommended: "마이 푸꾸옥 추천 호텔",
+    sectionStandard: "선셋타운 호텔 목록",
+    sectionKhemResorts: "켐 비치 럭셔리 리조트 & 호텔",
+    sortResortGrade: "리조트 등급순",
+    khemDistanceBadge: "선셋타운 차량 15분",
+    khemHeroSubtitle: "고운 백사장과 에메랄드빛 바다가 펼쳐진 바이켐의 최고급 럭셔리 리조트와 부티크 호텔을 만나보세요.",
   },
   en: {
     pageTitle: 'Sunset Town Hotels & Resorts',
@@ -226,6 +246,16 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     viewAllFacilitiesAgoda: "View All Facilities on Agoda ↗",
     viewOnGoogleMaps: "View on Google Maps",
     viewOnGoogleMapsShort: "Google Maps",
+    areaSunsetTown: "Sunset Town",
+    areaKhemBeach: "Khem Beach",
+    badgeTopGrade: "Top Grade",
+    sectionTopGrade: "Sunset Town Top Luxury Hotel",
+    sectionRecommended: "My Phu Quoc Recommended Hotel",
+    sectionStandard: "Sunset Town Hotels",
+    sectionKhemResorts: "Khem Beach Luxury Resorts & Hotels",
+    sortResortGrade: "Resort Grade",
+    khemDistanceBadge: "15m to Sunset Town",
+    khemHeroSubtitle: "Discover world-class beachfront resorts and boutique stays along the pristine sands of Bai Khem.",
   },
   zh: {
     pageTitle: '富国岛日落小镇酒店一览',
@@ -301,6 +331,16 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     viewAllFacilitiesAgoda: "在 Agoda 查看全部设施 ↗",
     viewOnGoogleMaps: "在 Google 地图上查看位置",
     viewOnGoogleMapsShort: "Google 地图",
+    areaSunsetTown: "日落小镇",
+    areaKhemBeach: "凯姆海滩",
+    badgeTopGrade: "顶级精选",
+    sectionTopGrade: "日落小镇顶级豪华酒店",
+    sectionRecommended: "My Phu Quoc 推荐酒店",
+    sectionStandard: "日落小镇精选酒店",
+    sectionKhemResorts: "凯姆海滩豪华度假村与精品酒店",
+    sortResortGrade: "度假村级别",
+    khemDistanceBadge: "距日落小镇车程15分",
+    khemHeroSubtitle: "探索翡翠湾白沙滩上的顶级海滨奢华度假村与精选精品酒店。",
   },
   ja: {
     pageTitle: 'サンセットタウン ホテル＆リゾート',
@@ -376,6 +416,16 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     viewAllFacilitiesAgoda: "Agodaで全アメニティを見る ↗",
     viewOnGoogleMaps: "Googleマップで位置を見る",
     viewOnGoogleMapsShort: "Googleマップ",
+    areaSunsetTown: "サンセットタウン",
+    areaKhemBeach: "ケムビーチ",
+    badgeTopGrade: "トップグレード",
+    sectionTopGrade: "サンセットタウン最高級ホテル",
+    sectionRecommended: "My Phu Quoc おすすめホテル",
+    sectionStandard: "サンセットタウン ホテル一覧",
+    sectionKhemResorts: "ケムビーチ ラグジュアリーリゾート＆ホテル",
+    sortResortGrade: "リゾートグレード順",
+    khemDistanceBadge: "サンセットタウン車で15分",
+    khemHeroSubtitle: "エメラルドグリーンの海と白砂が広がるバイケムビーチの最高峰リゾート＆ブティックホテル。",
   },
   ru: {
     pageTitle: 'Отели и курорты Сансет Тауна',
@@ -451,6 +501,16 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     viewAllFacilitiesAgoda: "Все удобства на Agoda ↗",
     viewOnGoogleMaps: "Посмотреть на Google Картах",
     viewOnGoogleMapsShort: "Карта Google",
+    areaSunsetTown: "Сансет Таун",
+    areaKhemBeach: "Пляж Бай Кхем",
+    badgeTopGrade: "Топ-уровень",
+    sectionTopGrade: "Отель высшей категории в Сансет Тауне",
+    sectionRecommended: "Рекомендованный отель My Phu Quoc",
+    sectionStandard: "Отели Сансет Тауна",
+    sectionKhemResorts: "Люксовые курорты и отели пляжа Бай Кхем",
+    sortResortGrade: "По классу курорта",
+    khemDistanceBadge: "15 мин до Сансет Тауна",
+    khemHeroSubtitle: "Откройте для себя первоклассные курорты и бутик-отели на белоснежном пляже Бай Кхем.",
   },
   hi: {
     pageTitle: 'सनसेट टाउन होटल और रिसॉर्ट्स',
@@ -526,6 +586,16 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     viewAllFacilitiesAgoda: "Agoda पर सभी सुविधाएं देखें ↗",
     viewOnGoogleMaps: "Google मैप्स पर स्थान देखें",
     viewOnGoogleMapsShort: "Google मैप्स",
+    areaSunsetTown: "सनसेट टाउन",
+    areaKhemBeach: "खेम बीच",
+    badgeTopGrade: "टॉप ग्रेड",
+    sectionTopGrade: "सनसेट टाउन का शीर्ष लक्जरी होटल",
+    sectionRecommended: "My Phu Quoc अनुशंसित होटल",
+    sectionStandard: "सनसेट टाउन होटल सूची",
+    sectionKhemResorts: "खेम बीच लक्जरी रिसॉर्ट्स और होटल",
+    sortResortGrade: "रिसॉर्ट ग्रेड अनुसार",
+    khemDistanceBadge: "सनसेट टाउन से 15 मिनट",
+    khemHeroSubtitle: "बाई खेम के सफेद रेत वाले समुद्र तट पर विश्व स्तरीय रिसॉर्ट्स और बुटीक होटलों का अन्वेषण करें।",
   },
   vi: {
     pageTitle: '선셋타운 호텔 한눈에 보기',
@@ -601,5 +671,15 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     viewAllFacilitiesAgoda: "Xem tất cả tiện nghi trên Agoda ↗",
     viewOnGoogleMaps: "Xem vị trí trên Google Maps",
     viewOnGoogleMapsShort: "Google Maps",
+    areaSunsetTown: "Thị trấn Hoàng Hôn",
+    areaKhemBeach: "Bãi Khem",
+    badgeTopGrade: "Top Grade",
+    sectionTopGrade: "Khách sạn đẳng cấp nhất Sunset Town",
+    sectionRecommended: "Khách sạn đề xuất My Phu Quoc",
+    sectionStandard: "Danh sách khách sạn Sunset Town",
+    sectionKhemResorts: "Resort & Khách sạn cao cấp Bãi Khem",
+    sortResortGrade: "Hạng resort",
+    khemDistanceBadge: "Cách Sunset Town 15p",
+    khemHeroSubtitle: "Khám phá các resort nghỉ dưỡng cao cấp và khách sạn boutique tuyệt đẹp tại Bãi Khem.",
   },
 }

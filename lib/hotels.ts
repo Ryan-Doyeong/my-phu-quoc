@@ -1,4 +1,5 @@
-import rawHotelData from '@/data/sunset_town_hotels.json'
+import rawSunsetTownHotels from '@/data/sunset_town_hotels.json'
+import rawKhemBeachHotels from '@/data/khem_beach_hotels.json'
 import rawHotelInsights from '@/data/hotel_insights.json'
 
 export interface HotelInsight {
@@ -57,12 +58,19 @@ export interface HotelReviewQuote {
   source: string
 }
 
+export type HotelArea = 'sunset-town' | 'khem-beach'
+export type HotelTier = 'top' | 'recommended' | 'standard'
+
 export interface HotelItem {
   slug: string
   hotelId: string
   name_ko: string
   name_en: string
   star: number
+  officialStar?: number | null
+  area?: HotelArea
+  tier?: HotelTier
+  order?: number
   rating: number
   reviewsCount: number
   subRatings?: HotelSubRatings
@@ -104,19 +112,35 @@ export interface HotelItem {
   googleMapsUrl?: string
 }
 
+function mapHotelItem(raw: any, defaultArea: HotelArea): HotelItem {
+  const insight = HOTEL_INSIGHTS[raw.slug]
+  return {
+    ...raw,
+    area: raw.area || defaultArea,
+    insight,
+    googleMapsUrl: insight?.googleMapsUrl || raw.googleMapsUrl,
+  }
+}
+
+export function getSunsetTownHotels(): HotelItem[] {
+  return (rawSunsetTownHotels.hotels as any[]).map(h => mapHotelItem(h, 'sunset-town'))
+}
+
+export function getKhemBeachHotels(): HotelItem[] {
+  return (rawKhemBeachHotels.hotels as any[]).map(h => mapHotelItem(h, 'khem-beach'))
+}
+
 export function getAllHotels(): HotelItem[] {
-  return (rawHotelData.hotels as unknown as HotelItem[]).map(h => {
-    const insight = HOTEL_INSIGHTS[h.slug]
-    return {
-      ...h,
-      insight,
-      googleMapsUrl: insight?.googleMapsUrl || (h as any).googleMapsUrl,
-    }
-  })
+  return [...getSunsetTownHotels(), ...getKhemBeachHotels()]
+}
+
+export function getHotelsByArea(area: HotelArea): HotelItem[] {
+  if (area === 'khem-beach') return getKhemBeachHotels()
+  return getSunsetTownHotels()
 }
 
 export function getFeaturedHotel(): HotelItem | undefined {
-  return getAllHotels().find(h => h.isFeatured)
+  return getAllHotels().find(h => h.isFeatured || h.tier === 'recommended')
 }
 
 export function getHotelBySlug(slug: string): HotelItem | undefined {

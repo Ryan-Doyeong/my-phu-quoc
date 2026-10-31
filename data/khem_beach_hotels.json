@@ -1,0 +1,991 @@
+{
+  "_meta": {
+    "generated_at": "2026-10-31",
+    "total_hotels": 7,
+    "area": "khem-beach",
+    "source": "Agoda & Google Maps & Official Verified Data"
+  },
+  "hotels": [
+    {
+      "slug": "jw-marriott-phu-quoc-emerald-bay",
+      "hotelId": "khem-jw-marriott",
+      "name_ko": "JW 메리어트 푸꾸옥 에메랄드 베이 리조트 & 스파",
+      "name_en": "JW Marriott Phu Quoc Emerald Bay Resort & Spa",
+      "star": 5,
+      "officialStar": 5,
+      "area": "khem-beach",
+      "order": 1,
+      "tier": "standard",
+      "rating": 9.1,
+      "reviewsCount": 1852,
+      "subRatings": {
+        "cleanliness": 9.3,
+        "service": 9.4,
+        "facilities": 9.3,
+        "valueForMoney": 8.7,
+        "location": 9.2
+      },
+      "cable_m": 14500,
+      "address": "Khem Beach, An Thới, Phú Quốc, Kiên Giang 922280, Vietnam (바이켐 해변)",
+      "landmarks": [
+        {
+          "name": "바이켐 프라이빗 비치",
+          "distance": "도보 0분 (직결)"
+        },
+        {
+          "name": "선셋타운 & 케이블카",
+          "distance": "차량 15분 (14.5km)"
+        },
+        {
+          "name": "푸꾸옥 감옥",
+          "distance": "차량 7분 (5.5km)"
+        },
+        {
+          "name": "안터이 항구",
+          "distance": "차량 10분 (7.0km)"
+        },
+        {
+          "name": "푸꾸옥 국제공항",
+          "distance": "차량 22분 (19km)"
+        }
+      ],
+      "summary": "빌 벤슬리가 설계한 환상적인 대학교 콘셉트의 럭셔리 5성급 비치 프론트 리조트",
+      "summary_en": "Bill Bensley-designed Lamarck University concept 5-star luxury beachfront resort.",
+      "summary_zh": "比尔·本斯利打造的传奇拉马克大学主题五星级海滨奢华度假村。",
+      "summary_ja": "ビル・ベンズリー設計の架空大学コンセプト、白砂のバイケムに佇む最高峰5星リゾート。",
+      "summary_ru": "Роскошный 5-звездочный курорт на пляже Бай Кхем в стиле университета Ламарка.",
+      "summary_vi": "Khu nghỉ dưỡng 5 sao sang trọng bên Bãi Khem phong cách Đại học Lamarck độc đáo.",
+      "description": "바이켐 해변의 눈부신 백사장에 위치한 메리어트 인터내셔널의 최상위 럭셔리 리조트입니다. 세계적인 건축가 빌 벤슬리가 가상의 라마르크 대학교(Lamarck University) 콘셉트로 디자인하여 캠퍼스를 거니는 듯한 예술적인 분위기를 자랑합니다. 조개 모양의 쉘 풀을 포함한 3개의 야외 수영장, 미식의 정점을 선사하는 핑크 펄 프렌치 레스토랑, 샹터렐 스파 바이 JW를 완비하고 있습니다.",
+      "coreFacilities": [
+        "프라이빗 전용 비치",
+        "조개 모양 쉘 풀(수영장 3곳)",
+        "샹터렐 럭셔리 스파",
+        "핑크 펄 파인다이닝",
+        "피트니스 & 요가 파빌리온",
+        "키즈클럽",
+        "무료 Wi-Fi",
+        "카약 & 수상스포츠",
+        "24시간 룸서비스",
+        "공항 셔틀 연결"
+      ],
+      "facilityCategories": [
+        {
+          "name": "수영장 & 비치",
+          "items": [
+            "바이켐 전용 프라이빗 비치",
+            "Shell Pool (시그니처 조개풀)",
+            "Sun Pool (성인 풀)",
+            "Sand Pool (패밀리 풀)",
+            "비치 카바나 & 썬베드",
+            "카약·패들보드 장비 무료 대여"
+          ]
+        },
+        {
+          "name": "다이닝 & 바",
+          "items": [
+            "Pink Pearl (프렌치 파인다이닝)",
+            "Tempus Fugit (올데이 인터내셔널 뷔페)",
+            "Red Rum (해변 해산물 그릴)",
+            "French & Co. (프랑스 베이커리 카페)",
+            "Department of Chemistry Bar (화학 연구소 테마 칵테일 바)"
+          ]
+        },
+        {
+          "name": "스파 & 웰니스",
+          "items": [
+            "Chanterelle - Spa by JW",
+            "사우나 & 스팀룸",
+            "24시간 피트니스 센터",
+            "해변 요가 클래스",
+            "야외 러닝 트랙"
+          ]
+        },
+        {
+          "name": "투숙 편의",
+          "items": [
+            "24시간 버기 서비스",
+            "컨시어지 & 리조트 액티비티 투어",
+            "어린이 키즈클럽",
+            "공항 픽업/샌딩(유료 사전예약)"
+          ]
+        }
+      ],
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "builtYear": 2016,
+      "floors": 3,
+      "rooms": [
+        {
+          "name": "에메랄드 베이 뷰 룸 (킹/트윈)",
+          "size": "53㎡",
+          "bed": "킹 1개 또는 퀸 2개",
+          "view": "바이켐 바다 / 가든뷰",
+          "features": "발코니, 대리석 욕조, 전용 분리 샤워실, 고급 어메니티"
+        },
+        {
+          "name": "디럭스 에메랄드 베이 프론트 룸",
+          "size": "53㎡",
+          "bed": "킹 1개 또는 퀸 2개",
+          "view": "파노라마 오션뷰 (정면)",
+          "features": "백사장 바로 앞 최상급 조망, 테라스 소파, 캡슐 커피머신"
+        },
+        {
+          "name": "르 자르뎅 룸 (지상 정원 연결)",
+          "size": "53㎡",
+          "bed": "킹 1개",
+          "view": "프라이빗 가든뷰",
+          "features": "전용 야외 테라스 및 정원 직결, 야외 샤워 시설"
+        },
+        {
+          "name": "터콰이즈 프레지덴셜 스위트",
+          "size": "90㎡",
+          "bed": "킹 1개",
+          "view": "파노라마 오션뷰",
+          "features": "독립된 거실과 침실, 초대형 테라스, 고급 다이닝 공간"
+        },
+        {
+          "name": "1베드룸 / 2베드룸 풀빌라",
+          "size": "180~450㎡",
+          "bed": "킹 베드룸 + 트윈 베드룸",
+          "view": "프라이빗 정원 / 오션뷰",
+          "features": "단독 전용 야외 수영장, 버틀러 서비스, 프라이빗 다이닝 파빌리온"
+        }
+      ],
+      "photos": [
+        "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg",
+        "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-guestroom.jpg",
+        "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-pink-pearl.jpg",
+        "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-chanterelle-spa.jpg"
+      ],
+      "agodaUrl": "https://www.agoda.com/jw-marriott-phu-quoc-emerald-bay-resort-spa/hotel/phu-quoc-island-vn.html",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJLZPWxLiWpzERwrkgfIa1P8I",
+      "googleRating": 4.7,
+      "googleReviewsCount": 3543,
+      "reviewHighlight": "에메랄드빛 백사장과 환상적인 빌 벤슬리 건축 디자인 · 최고급 조식",
+      "reviewPros": [
+        "가상 대학 콘셉트의 독보적이고 감각적인 건축 및 인테리어",
+        "고운 백사장과 파도가 잔잔한 바이켐 프라이빗 전용 비치 직결",
+        "쉘 풀을 비롯한 3개의 넓고 쾌적한 야외 수영장",
+        "정성스럽고 다채로운 인터내셔널 뷔페 조식과 수준 높은 서비스"
+      ]
+    },
+    {
+      "slug": "premier-village-phu-quoc-resort",
+      "hotelId": "khem-premier-village",
+      "name_ko": "프리미어 빌리지 푸꾸옥 리조트 바이 아코르",
+      "name_en": "Premier Village Phu Quoc Resort Managed by Accor",
+      "star": 5,
+      "officialStar": 5,
+      "area": "khem-beach",
+      "order": 2,
+      "tier": "standard",
+      "rating": 9.0,
+      "reviewsCount": 1420,
+      "subRatings": {
+        "cleanliness": 9.2,
+        "service": 9.2,
+        "facilities": 9.1,
+        "valueForMoney": 8.8,
+        "location": 9.1
+      },
+      "cable_m": 16200,
+      "address": "Mũi Ông Đội, An Thới, Phú Quốc, Kiên Giang 922280, Vietnam (옹도이 곶 반도)",
+      "landmarks": [
+        {
+          "name": "옹도이 곶 동/서 해변 (일출·일몰)",
+          "distance": "도보 0분 (반도 양면 바다)"
+        },
+        {
+          "name": "바이켐 해변",
+          "distance": "차량 10분 (6.5km)"
+        },
+        {
+          "name": "선셋타운 & 케이블카",
+          "distance": "차량 18분 (16.2km)"
+        },
+        {
+          "name": "안터이 항구",
+          "distance": "차량 12분 (8.5km)"
+        },
+        {
+          "name": "푸꾸옥 국제공항",
+          "distance": "차량 28분 (24km)"
+        }
+      ],
+      "summary": "동쪽 일출과 서쪽 일몰을 한곳에서 보는 푸꾸옥 남단 곶 전 객실 프라이빗 풀빌라",
+      "summary_en": "Exclusive all-villa sanctuary capturing both sunrise and sunset at Mui Ong Doi.",
+      "summary_zh": "位于翁堆岬独一无二的双海湾半岛，独栋全私人泳池奢华别墅度假村。",
+      "summary_ja": "オンゾイ岬に位置し朝日と夕日の両方を望む全室プライベートプール付き極上ヴィラ。",
+      "summary_ru": "Уединенный курорт только с виллами на мысе Онг Дой с видами на рассвет и закат.",
+      "summary_vi": "Khu nghỉ dưỡng biệt thự biệt lập tại Mũi Ông Đội ngắm trọn bình minh và hoàng hôn.",
+      "description": "푸꾸옥 최남단 옹도이 곶(Mũi Ông Đội)의 천혜의 반도 지형에 자리한 아코르 계열 5성급 럭셔리 풀빌라 리조트입니다. 바다로 둘러싸인 독특한 지형 덕분에 한 자리에서 동쪽 바다의 일출과 서쪽 바다의 일몰을 모두 감상할 수 있습니다. 전 객실이 단독 개인 수영장을 갖춘 풀빌라로 구성되어 프라이빗한 휴양을 보장하며, 반도를 가로지르는 다단식 인피니티 풀과 플루메리아 스파를 갖추고 있습니다.",
+      "coreFacilities": [
+        "전 객실 단독 프라이빗 풀빌라",
+        "반도 양면 바다 직결 (일출/일몰)",
+        "다단식 멀티 인피니티 풀",
+        "플루메리아 스파",
+        "더 마켓 레스토랑 & 코라브 BBQ",
+        "피트니스 센터",
+        "무료 Wi-Fi",
+        "버기카 서비스",
+        "키즈클럽",
+        "카약 & 스노클링"
+      ],
+      "facilityCategories": [
+        {
+          "name": "수영장 & 해변",
+          "items": [
+            "반도를 가로지르는 계단식 인피니티 수영장",
+            "전 빌라 전용 개인 수영장",
+            "동쪽 비치(일출) & 서쪽 비치(일몰)",
+            "스노클링 & 카약 장비 무료 이용"
+          ]
+        },
+        {
+          "name": "다이닝",
+          "items": [
+            "The Market (올데이 다이닝 & 조식 뷔페)",
+            "Corallo (지중해식 해변 시푸드 레스토랑)",
+            "Pool Bar (트로피컬 칵테일 & 스낵)",
+            "빌라 내 프라이빗 BBQ 다이닝 서비스"
+          ]
+        },
+        {
+          "name": "스파 & 웰빙",
+          "items": [
+            "Plumeria Spa (언덕 위 파노라마 스파)",
+            "사우나 및 한증막",
+            "피트니스 센터",
+            "모닝 요가 클래스"
+          ]
+        },
+        {
+          "name": "서비스",
+          "items": [
+            "24시간 빌라 전용 버기카 픽업",
+            "컨시어지 투어 안내",
+            "자전거 무료 대여",
+            "공항 유료 리무진 서비스"
+          ]
+        }
+      ],
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "builtYear": 2018,
+      "floors": 2,
+      "rooms": [
+        {
+          "name": "아일랜드 빌라 (개인 수영장)",
+          "size": "350㎡",
+          "bed": "킹 침대 2개 또는 킹 1개+싱글 2개",
+          "view": "트로피컬 가든 / 풀뷰",
+          "features": "3~4베드룸, 단독 전용 수영장, 대형 거실, 주방 및 다이닝 시설"
+        },
+        {
+          "name": "오션뷰 힐사이드 빌라 (개인 수영장)",
+          "size": "400㎡",
+          "bed": "킹 침대 3개",
+          "view": "파노라마 오션뷰 (언덕 위)",
+          "features": "반도 바다가 내려다보이는 고지대 프라이빗 풀, 테라스 카바나"
+        },
+        {
+          "name": "비치프론트 빌라 (개인 수영장)",
+          "size": "450㎡",
+          "bed": "킹 침대 3개",
+          "view": "백사장 직결 오션프론트",
+          "features": "해변 모래사장까지 도보 5초 직결, 프라이빗 썬데크"
+        },
+        {
+          "name": "온 더 락 빌라 (절벽 위 럭셔리)",
+          "size": "600㎡",
+          "bed": "마스터 킹 4개",
+          "view": "절벽 파노라마 파도뷰",
+          "features": "절벽 위 독보적 입지, 웅장한 바다 전망, 전용 버틀러 지원 가능"
+        }
+      ],
+      "photos": [
+        "/zones/khem-beach/images/premier-village-phu-quoc-resort/premier-village-pool.jpg"
+      ],
+      "agodaUrl": "https://www.agoda.com/premier-village-phu-quoc-resort-managed-by-accor/hotel/phu-quoc-island-vn.html",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJr4pU6WmWpzERs3lqA96_P1I",
+      "googleRating": 4.7,
+      "googleReviewsCount": 3820,
+      "reviewHighlight": "곶 양쪽 바다를 품은 절경과 프라이빗 독채 풀빌라의 안락함",
+      "reviewPros": [
+        "전 객실이 개인 풀을 갖춘 대형 독채 빌라로 가족·연인 여행에 최적",
+        "일출과 일몰을 둘 다 감상할 수 있는 독보적인 옹도이 곶 입지",
+        "반도를 가로지르는 아름다운 계단식 멀티 인피니티 풀",
+        "버기 시스템이 잘 갖추어져 리조트 내 이동이 편리함"
+      ]
+    },
+    {
+      "slug": "premier-residences-phu-quoc-emerald-bay",
+      "hotelId": "khem-premier-residences",
+      "name_ko": "프리미어 레지던스 푸꾸옥 에메랄드 베이",
+      "name_en": "Premier Residences Phu Quoc Emerald Bay Managed by Accor",
+      "star": 5,
+      "officialStar": 5,
+      "area": "khem-beach",
+      "order": 3,
+      "tier": "standard",
+      "rating": 8.8,
+      "reviewsCount": 4210,
+      "subRatings": {
+        "cleanliness": 9.0,
+        "service": 8.9,
+        "facilities": 8.9,
+        "valueForMoney": 8.9,
+        "location": 9.1
+      },
+      "cable_m": 13800,
+      "address": "Khem Beach, An Thới, Phú Quốc, Kiên Giang 922280, Vietnam (바이켐 해변 중앙)",
+      "landmarks": [
+        {
+          "name": "바이켐 해변 & 백사장",
+          "distance": "도보 0분 (비치 직결)"
+        },
+        {
+          "name": "바이켐 숍하우스 상가거리",
+          "distance": "도보 3분"
+        },
+        {
+          "name": "선셋타운 & 케이블카",
+          "distance": "차량 14분 (13.8km)"
+        },
+        {
+          "name": "푸꾸옥 감옥",
+          "distance": "차량 6분 (5.0km)"
+        },
+        {
+          "name": "푸꾸옥 국제공항",
+          "distance": "차량 22분 (19km)"
+        }
+      ],
+      "summary": "5,000㎡ 계단식 대형 수영장과 주방 시설을 갖춘 가성비 최상급 5성급 콘도텔 리조트",
+      "summary_en": "Accor 5-star beachfront condotel featuring a 5,000m² multi-level pool and kitchenette suites.",
+      "summary_zh": "雅高旗下五星级海滨公寓式度假酒店，拥有5000㎡层叠泳池与完善厨房套房。",
+      "summary_ja": "5,000㎡の多段式プールと自炊キッチン付きスイートを備えた高コスパ5星ビーチリゾート。",
+      "summary_ru": "5-звездочный кондотель Accor на пляже Бай Кхем с каскадным бассейном 5000 кв.м.",
+      "summary_vi": "Khu nghỉ dưỡng condotel 5 sao Accor bên Bãi Khem với hồ bơi nhiều tầng 5.000m².",
+      "description": "바이켐 해변의 아름다운 백사장을 품은 아코르(Accor) 계열의 5성급 콘도텔형 리조트입니다. 총 629개의 현대적인 객실과 아파트먼트형 스위트로 구성되어 있으며, 일부 객실에는 간이 주방과 개인 플런지 풀이 구비되어 있어 가족 단위 여행객에게 특히 인기가 높습니다. 5,000㎡ 규모의 계단식 멀티 레벨 야외 수영장은 해변까지 자연스럽게 연결되며, 키즈클럽, 에메랄드 스파, 다양한 레스토랑을 갖추고 있습니다.",
+      "coreFacilities": [
+        "5,000㎡ 계단식 멀티 수영장",
+        "바이켐 전용 비치 직결",
+        "주방 시설 객실(아파트먼트)",
+        "에메랄드 스파",
+        "키즈클럽 & 슬라이드",
+        "머케토 뷔페 레스토랑",
+        "클럽하우스 비치 바",
+        "피트니스 센터",
+        "무료 Wi-Fi",
+        "카약 & 패들보드"
+      ],
+      "facilityCategories": [
+        {
+          "name": "수영장 & 해변",
+          "items": [
+            "5,000㎡ 계단식 멀티 수영장 (워터 슬라이드 완비)",
+            "바이켐 백사장 직결 프라이빗 비치",
+            "비치 타월 및 썬베드 무료 제공",
+            "카약 대여"
+          ]
+        },
+        {
+          "name": "다이닝",
+          "items": [
+            "Mercato (인터내셔널 뷔페 & 올데이 다이닝)",
+            "Clubhouse (해변가 버거 & 피자, BBQ 그릴)",
+            "Pool Bar (수영장 드링크 바)"
+          ]
+        },
+        {
+          "name": "패밀리 & 웰니스",
+          "items": [
+            "Emerald Spa (스파 & 사우나)",
+            "실내/야외 키즈클럽",
+            "피트니스 센터",
+            "탁구 및 당구대"
+          ]
+        },
+        {
+          "name": "편의 서비스",
+          "items": [
+            "세탁기/건조기 구비 객실 옵션",
+            "24시간 리셉션",
+            "공항 셔틀 서비스 (사전 예약)",
+            "숍하우스 상가 도보 이동"
+          ]
+        }
+      ],
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "builtYear": 2018,
+      "floors": 12,
+      "rooms": [
+        {
+          "name": "스탠다드 룸 (발코니)",
+          "size": "45㎡",
+          "bed": "킹 침대 1개 또는 트윈 2개",
+          "view": "발코니 가든뷰 / 풀뷰",
+          "features": "발코니, 레인 샤워부스, 스마트 TV, 무료 Wi-Fi"
+        },
+        {
+          "name": "수페리어 스위트 (1베드룸 / 2베드룸)",
+          "size": "65~105㎡",
+          "bed": "킹 침대 + 싱글 2개",
+          "view": "오션뷰 / 풀뷰",
+          "features": "독립된 거실, 간이 주방, 식탁, 대형 발코니"
+        },
+        {
+          "name": "아파트먼트 프라이빗 풀 스위트",
+          "size": "135㎡",
+          "bed": "마스터 킹 2개",
+          "view": "오션뷰",
+          "features": "발코니에 전용 프라이빗 플런지 풀 구비, 풀 키친"
+        },
+        {
+          "name": "펜트하우스 2베드룸 (전용 풀)",
+          "size": "256㎡",
+          "bed": "킹 침대 2개",
+          "view": "파노라마 에메랄드 베이 뷰",
+          "features": "최상층 펜트하우스, 루프탑 전용 인피니티 풀, 와이드 거실"
+        }
+      ],
+      "photos": [
+        "/zones/khem-beach/images/premier-residences-phu-quoc-emerald-bay/premier-residences-overview.jpg",
+        "/zones/khem-beach/images/premier-residences-phu-quoc-emerald-bay/premier-residences-apartment-pool.jpg",
+        "/zones/khem-beach/images/premier-residences-phu-quoc-emerald-bay/premier-residences-interior.jpg",
+        "/zones/khem-beach/images/premier-residences-phu-quoc-emerald-bay/premier-residences-emerald-spa.jpg"
+      ],
+      "agodaUrl": "https://www.agoda.com/premier-residences-phu-quoc-emerald-bay-managed-by-accor/hotel/phu-quoc-island-vn.html",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJn6kim_SXpzERd6rlRMQmpZc",
+      "googleRating": 4.8,
+      "googleReviewsCount": 10253,
+      "reviewHighlight": "압도적인 규모의 계단식 수영장과 가족 여행에 최적화된 아파트형 객실",
+      "reviewPros": [
+        "해변까지 시원하게 이어지는 5,000㎡ 초대형 계단식 수영장과 미끄럼틀",
+        "간이 주방과 넉넉한 공간을 갖춘 가성비 뛰어난 아파트먼트 스위트",
+        "바이켐 백사장과 바로 연결되어 해양 액티비티 즐기기 좋음",
+        "주변 숍하우스 식당가와 마사지샵을 도보로 이용할 수 있는 편의성"
+      ]
+    },
+    {
+      "slug": "new-world-phu-quoc-resort",
+      "hotelId": "khem-new-world",
+      "name_ko": "뉴월드 푸꾸옥 리조트",
+      "name_en": "New World Phu Quoc Resort",
+      "star": 5,
+      "officialStar": 5,
+      "area": "khem-beach",
+      "order": 4,
+      "tier": "standard",
+      "rating": 8.9,
+      "reviewsCount": 1160,
+      "subRatings": {
+        "cleanliness": 9.2,
+        "service": 9.1,
+        "facilities": 9.1,
+        "valueForMoney": 8.7,
+        "location": 9.0
+      },
+      "cable_m": 13500,
+      "address": "Khem Beach, An Thới, Phú Quốc, Kiên Giang 922280, Vietnam (바이켐 해변 남측)",
+      "landmarks": [
+        {
+          "name": "바이켐 해변 백사장",
+          "distance": "도보 0분 (비치 프론트)"
+        },
+        {
+          "name": "바이켐 숍하우스 거리",
+          "distance": "도보 5분"
+        },
+        {
+          "name": "선셋타운 & 케이블카",
+          "distance": "차량 14분 (13.5km)"
+        },
+        {
+          "name": "푸꾸옥 감옥",
+          "distance": "차량 6분 (4.8km)"
+        },
+        {
+          "name": "푸꾸옥 국제공항",
+          "distance": "차량 23분 (19.5km)"
+        }
+      ],
+      "summary": "베트남 전통 어촌 가옥 모티브의 전 객실 독채 프라이빗 풀빌라 & 120m 인피니티 풀",
+      "summary_en": "All-pool villa tropical sanctuary inspired by traditional Vietnamese fishing villages.",
+      "summary_zh": "以越南传统渔村为设计灵感的全独栋泳池别墅度假村，配备120米无边泳池。",
+      "summary_ja": "ベトナム伝統の漁村集落をイメージした全室プライベートプール付きヴィラと120mプール。",
+      "summary_ru": "Курорт только с виллами в стиле традиционной вьетнамской деревни со 120м бассейном.",
+      "summary_vi": "Khu nghỉ dưỡng 100% biệt thự hồ bơi riêng lấy cảm hứng từ làng chài truyền thống.",
+      "description": "바이켐 해변의 프라이빗한 모래사장에 자리잡은 럭셔리 전 객실 독채 풀빌라 리조트입니다. 베트남 전통 어촌 마을의 초가지붕과 목재 건축 양식을 현대적으로 재해석한 375채의 독채 풀빌라로만 이루어져 있습니다. 리조트 중앙에는 해변까지 쭉 뻗은 120미터 길이의 야외 인피니티 풀이 자리하며, 더 스파(The Spa), 바이켐 백사장, 키즈클럽, 고급 그릴 레스토랑을 갖추고 있어 온전한 프라이빗 휴양을 선사합니다.",
+      "coreFacilities": [
+        "전 객실 독채 프라이빗 풀빌라",
+        "120m 야외 대형 인피니티 풀",
+        "바이켐 프라이빗 비치 직결",
+        "더 스파(The Spa)",
+        "더 레스토랑 (올데이 뷔페)",
+        "루아 그릴 & 바 (Lúa Grill)",
+        "피트니스 & 요가 스튜디오",
+        "키즈클럽",
+        "카약 & 비치 배구",
+        "24시간 버기 서비스"
+      ],
+      "facilityCategories": [
+        {
+          "name": "수영장 & 비치",
+          "items": [
+            "120m 초대형 야외 인피니티 수영장",
+            "전 빌라 전용 야외 풀장 및 썬라운저",
+            "바이켐 백사장 프라이빗 비치",
+            "비치 발리볼 & 카약 무료 대여"
+          ]
+        },
+        {
+          "name": "레스토랑 & 바",
+          "items": [
+            "The Restaurant (조식 뷔페 및 아시안·서양 요리)",
+            "Lúa Grill & Bar (해산물 숯불 그릴 & 바비큐)",
+            "Pool Bar (칵테일 & 트로피컬 스낵)",
+            "빌라 내 프라이빗 인빌라 다이닝"
+          ]
+        },
+        {
+          "name": "스파 & 웰니스",
+          "items": [
+            "The Spa (독립 트리트먼트 빌라 스파)",
+            "사우나 및 힐링 풀",
+            "피트니스 스튜디오",
+            "모닝 요가 세션"
+          ]
+        },
+        {
+          "name": "가족 편의",
+          "items": [
+            "대형 키즈클럽 및 야외 놀이터",
+            "24시간 버기 서비스",
+            "리조트 내 자전거 대여",
+            "공항 유료 리무진 서비스"
+          ]
+        }
+      ],
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "builtYear": 2021,
+      "floors": 1,
+      "rooms": [
+        {
+          "name": "가든 풀빌라 (3베드룸)",
+          "size": "175㎡",
+          "bed": "킹 침대 2개 + 트윈 침대 2개",
+          "view": "프라이빗 정원 / 풀뷰",
+          "features": "단독 야외 수영장, 야외 썬데크, 독립 거실, 3개 침실 및 개별 욕실"
+        },
+        {
+          "name": "프리미엄 풀빌라 (3베드룸)",
+          "size": "261㎡",
+          "bed": "킹 침대 2개 + 트윈 2개",
+          "view": "가든 / 라군뷰",
+          "features": "더 넓은 거실과 다이닝 공간, 프라이빗 풀, 야외 샤워부스"
+        },
+        {
+          "name": "오션뷰 풀빌라 (3베드룸)",
+          "size": "261㎡",
+          "bed": "킹 침대 2개 + 트윈 2개",
+          "view": "바이켐 바다 전망",
+          "features": "해변 조망 전용 풀, 프라이빗 테라스 카바나, 프리미엄 어메니티"
+        },
+        {
+          "name": "비치프론트 풀빌라 (4베드룸)",
+          "size": "415㎡",
+          "bed": "마스터 킹 3개 + 트윈 2개",
+          "view": "백사장 바로 앞 오션뷰",
+          "features": "해변 모래사장 1초 직결, 초대형 프라이빗 수영장, 버틀러 서비스"
+        }
+      ],
+      "photos": [
+        "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-resort-overview.jpg",
+        "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-pool-villa.jpg",
+        "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-infinity-pool.jpg",
+        "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-the-spa.jpg"
+      ],
+      "agodaUrl": "https://www.agoda.com/new-world-phu-quoc-resort/hotel/phu-quoc-island-vn.html",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJy5uCwXCXpzERQSR2-hAgnuo",
+      "googleRating": 4.7,
+      "googleReviewsCount": 6093,
+      "reviewHighlight": "전 객실 프라이빗 풀빌라의 프라이버시와 환상적인 120m 인피니티 풀",
+      "reviewPros": [
+        "모든 객실이 독립된 수영장을 갖춘 단독 풀빌라로 사생활 보호 철저",
+        "해변까지 곧게 뻗은 120m 대형 인피니티 풀의 이국적인 경관",
+        "전통 어촌 가옥을 모티브로 한 아늑하고 고급스러운 인테리어",
+        "친절하고 신속한 버기 및 직원 서비스, 풍성한 조식"
+      ]
+    },
+    {
+      "slug": "paralia-khem-beach-phu-quoc-hotel",
+      "hotelId": "khem-paralia",
+      "name_ko": "파랄리아 켐비치 호텔 푸꾸옥",
+      "name_en": "Paralia Khem Beach Phu Quoc Hotel",
+      "star": 0,
+      "officialStar": null,
+      "area": "khem-beach",
+      "order": 5,
+      "tier": "standard",
+      "rating": 8.4,
+      "reviewsCount": 325,
+      "subRatings": {
+        "cleanliness": 8.5,
+        "service": 8.7,
+        "facilities": 8.2,
+        "valueForMoney": 8.6,
+        "location": 8.8
+      },
+      "cable_m": 13200,
+      "address": "D107 - D115 Sun Grand City New An Thoi, Bai Khem, An Thới, Phú Quốc, Vietnam (바이켐 숍하우스)",
+      "landmarks": [
+        {
+          "name": "바이켐 해변",
+          "distance": "도보 5분 (400m)"
+        },
+        {
+          "name": "바이켐 숍하우스 식당가",
+          "distance": "도보 1분"
+        },
+        {
+          "name": "선셋타운 & 케이블카",
+          "distance": "차량 14분 (13.2km)"
+        },
+        {
+          "name": "푸꾸옥 감옥",
+          "distance": "차량 5분 (4.5km)"
+        },
+        {
+          "name": "푸꾸옥 국제공항",
+          "distance": "차량 22분 (19km)"
+        }
+      ],
+      "summary": "바이켐 해변 도보 5분, 합리적인 가격에 실내 수영장과 조식을 갖춘 숍하우스 부티크 호텔",
+      "summary_en": "Value boutique hotel in Bai Khem shophouse area, 5-min walk to beach with indoor pool.",
+      "summary_zh": "白沙滩商业街高性价比精品酒店，步行5分钟至海滩，配室内泳池与早餐。",
+      "summary_ja": "バイケムビーチ徒歩5分、ショップハウス街に位置する高コスパなブティックホテル。",
+      "summary_ru": "Уютный бутик-отель в районе шопхаусов Бай Кхем в 5 минутах ходьбы от пляжа.",
+      "summary_vi": "Khách sạn boutique tiện nghi tại khu shophouse Bãi Khem, đi bộ 5 phút ra bãi biển.",
+      "description": "바이켐 썬 그랜드 시티 숍하우스 단지(D107-D115)에 자리한 부티크 호텔입니다. 최고급 대형 리조트들이 늘어선 바이켐 해변에서 부담 없는 가격대로 편안하게 머무를 수 있는 뛰어난 가성비가 장점입니다. 아름다운 바이켐 백사장까지 도보 5분 거리이며, 호텔 내 실내 수영장, 레스토랑, 테라스 라운지를 구비하고 있습니다.",
+      "coreFacilities": [
+        "바이켐 해변 도보 5분",
+        "실내 수영장",
+        "조식 레스토랑",
+        "무료 Wi-Fi",
+        "엘리베이터",
+        "24시간 리셉션",
+        "주변 식당·카페 도보권",
+        "투어 및 차량 예약 지원"
+      ],
+      "facilityCategories": [
+        {
+          "name": "주요 시설",
+          "items": [
+            "실내 수영장",
+            "조식 뷔페 레스토랑",
+            "루프탑 테라스",
+            "엘리베이터",
+            "무료 Wi-Fi"
+          ]
+        },
+        {
+          "name": "객실 편의",
+          "items": [
+            "개별 에어컨",
+            "평면 TV",
+            "미니 냉장고",
+            "전기 주전자",
+            "전용 욕실 & 온수 샤워"
+          ]
+        },
+        {
+          "name": "서비스",
+          "items": [
+            "24시간 프런트 데스크",
+            "수하물 보관",
+            "바이크 및 렌터카 알선",
+            "바이켐 해변 도보 이동 안내"
+          ]
+        }
+      ],
+      "checkIn": "14:00",
+      "checkOut": "12:00",
+      "builtYear": 2020,
+      "floors": 5,
+      "rooms": [
+        {
+          "name": "수페리어 더블룸",
+          "size": "22㎡",
+          "bed": "더블 침대 1개",
+          "view": "시티뷰 / 창문",
+          "features": "에어컨, 전용 욕실, 평면 TV, 무료 생수"
+        },
+        {
+          "name": "디럭스 발코니 룸",
+          "size": "26㎡",
+          "bed": "퀸 침대 1개",
+          "view": "숍하우스 스트리트 뷰",
+          "features": "개별 발코니, 휴식 의자, 쾌적한 채광"
+        },
+        {
+          "name": "패밀리 스위트 룸",
+          "size": "38㎡",
+          "bed": "더블 침대 2개",
+          "view": "시티뷰",
+          "features": "최대 4인 투숙 가능, 넓은 객실 공간, 가족 친화형"
+        }
+      ],
+      "photos": [
+        "/zones/khem-beach/images/paralia-khem-beach-phu-quoc-hotel/paralia-hotel-banner.jpg"
+      ],
+      "agodaUrl": "https://www.agoda.com/paralia-khem-beach-phu-quoc-hotel/hotel/phu-quoc-island-vn.html",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ--GCQXqXpzER7itlt0HX5Ps",
+      "googleRating": 4.2,
+      "googleReviewsCount": 383,
+      "reviewHighlight": "바이켐 해변 도보 이동이 편리하고 가성비 좋은 깔끔한 호텔",
+      "reviewPros": [
+        "바이켐 해변과 주변 상가(식당·카페·마트) 도보 접근성 우수",
+        "리조트 대비 합리적인 숙박 비용과 정갈한 객실 컨디션",
+        "친절한 직원들의 체크인 및 주변 관광 안내",
+        "기본 제공되는 조식과 실내 수영장 시설"
+      ]
+    },
+    {
+      "slug": "jm-boutique-hotel-phu-quoc",
+      "hotelId": "khem-jm-boutique",
+      "name_ko": "JM 부티크 호텔 푸꾸옥",
+      "name_en": "JM Boutique Hotel Phu Quoc",
+      "star": 0,
+      "officialStar": null,
+      "area": "khem-beach",
+      "order": 6,
+      "tier": "standard",
+      "rating": 8.9,
+      "reviewsCount": 485,
+      "subRatings": {
+        "cleanliness": 9.2,
+        "service": 9.3,
+        "facilities": 8.6,
+        "valueForMoney": 9.0,
+        "location": 8.8
+      },
+      "cable_m": 13300,
+      "address": "D2-7 Sun Grand City New An Thoi, Bai Khem, An Thới, Phú Quốc, Vietnam (바이켐 숍하우스)",
+      "landmarks": [
+        {
+          "name": "바이켐 해변",
+          "distance": "도보 5분 (450m)"
+        },
+        {
+          "name": "선셋타운 & 케이블카",
+          "distance": "차량 14분 (13.3km)"
+        },
+        {
+          "name": "푸꾸옥 감옥",
+          "distance": "차량 5분 (4.6km)"
+        },
+        {
+          "name": "푸꾸옥 국제공항",
+          "distance": "차량 22분 (19km)"
+        }
+      ],
+      "summary": "감각적인 친환경 인테리어와 정성스러운 브런치 조식, 친절한 서비스가 돋보이는 부티크",
+      "summary_en": "Charming eco-friendly boutique hotel known for delightful breakfasts and warm hospitality.",
+      "summary_zh": "格调优雅的环保精品酒店，以精致早餐与贴心温暖的服务广受好评。",
+      "summary_ja": "洗練されたエコデザインと手作りブレックファスト、温かい接客が人気の隠れ家ホテル。",
+      "summary_ru": "Стильный эко-бутик-отель с авторскими завтраками и теплым гостеприимством.",
+      "summary_vi": "Khách sạn boutique phong cách thân thiện môi trường, bữa sáng chu đáo và dịch vụ nhiệt tình.",
+      "description": "바이켐 숍하우스 구역(D2-7)에 위치한 감각적이고 아기자기한 친환경 부티크 호텔입니다. 세심한 인테리어와 자연 채광을 살린 객실 구조가 돋보이며, 정성 가득한 주문식 브런치 조식과 직원들의 따뜻하고 세심한 서비스로 높은 고객 만족도를 유지하고 있습니다. 바이켐 해변까지 걸어서 5분이면 닿을 수 있습니다.",
+      "coreFacilities": [
+        "바이켐 해변 도보 5분",
+        "정성스러운 오더메이드 조식",
+        "루프탑 휴식 라운지",
+        "무료 Wi-Fi",
+        "카페 & 베이커리",
+        "자전거 무료 대여",
+        "친환경 어메니티",
+        "개별 에어컨"
+      ],
+      "facilityCategories": [
+        {
+          "name": "주요 시설 & 서비스",
+          "items": [
+            "1층 카페 & 조식 브런치 레스토랑",
+            "루프탑 테라스 휴식 공간",
+            "자전거 무료 대여 서비스",
+            "엘리베이터",
+            "무료 Wi-Fi"
+          ]
+        },
+        {
+          "name": "객실 시설",
+          "items": [
+            "친환경 오가닉 어메니티",
+            "프리미엄 린넨 침구",
+            "스마트 평면 TV",
+            "개별 에어컨",
+            "무료 생수 및 티 세트"
+          ]
+        }
+      ],
+      "checkIn": "14:00",
+      "checkOut": "12:00",
+      "builtYear": 2020,
+      "floors": 5,
+      "rooms": [
+        {
+          "name": "코지 더블룸",
+          "size": "22㎡",
+          "bed": "퀸 침대 1개",
+          "view": "시티뷰",
+          "features": "원목 감성 인테리어, 샤워 부스, 포근한 침구"
+        },
+        {
+          "name": "발코니 디럭스 더블룸",
+          "size": "26㎡",
+          "bed": "킹 침대 1개",
+          "view": "발코니 거리뷰",
+          "features": "프라이빗 발코니, 따스한 자연 채광, 티 테이블"
+        },
+        {
+          "name": "패밀리 트리플/쿼드룸",
+          "size": "36㎡",
+          "bed": "퀸 침대 1개 + 싱글 1~2개",
+          "view": "시티뷰",
+          "features": "가족 투숙용 넓은 공간, 소파 공간"
+        }
+      ],
+      "photos": [
+        "/zones/khem-beach/images/jm-boutique-hotel-phu-quoc/jm-boutique-hotel-main.jpg"
+      ],
+      "agodaUrl": "https://www.agoda.com/jm-boutique-hotel/hotel/phu-quoc-island-vn.html",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJhfbFBaCXpzER-fkbP-fwDcI",
+      "googleRating": 4.6,
+      "googleReviewsCount": 567,
+      "reviewHighlight": "감성적인 인테리어와 정갈하고 맛있는 조식, 매우 친절한 직원들",
+      "reviewPros": [
+        "카페처럼 예쁘고 청결하게 관리되는 감각적인 객실 인테리어",
+        "정성스럽게 서빙되는 훌륭한 퀄리티의 수제 브런치 조식",
+        "친절하고 배려 깊은 스태프들의 세심한 맞춤 응대",
+        "바이켐 해변까지 평지를 따라 도보 5분으로 산책 이동 가능"
+      ]
+    },
+    {
+      "slug": "ann-hotel-spa-phu-quoc",
+      "hotelId": "khem-ann-hotel",
+      "name_ko": "앤 호텔 & 스파 푸꾸옥",
+      "name_en": "Ann Hotel & Spa Phu Quoc",
+      "star": 0,
+      "officialStar": null,
+      "area": "khem-beach",
+      "order": 7,
+      "tier": "standard",
+      "rating": 8.6,
+      "reviewsCount": 215,
+      "subRatings": {
+        "cleanliness": 8.8,
+        "service": 9.0,
+        "facilities": 8.3,
+        "valueForMoney": 8.8,
+        "location": 8.6
+      },
+      "cable_m": 13400,
+      "address": "D141 - D143 Sun Grand City New An Thoi, Bai Khem, An Thới, Phú Quốc, Vietnam (바이켐 숍하우스)",
+      "landmarks": [
+        {
+          "name": "바이켐 해변",
+          "distance": "도보 6분 (500m)"
+        },
+        {
+          "name": "선셋타운 & 케이블카",
+          "distance": "차량 14분 (13.4km)"
+        },
+        {
+          "name": "푸꾸옥 감옥",
+          "distance": "차량 5분 (4.7km)"
+        },
+        {
+          "name": "푸꾸옥 국제공항",
+          "distance": "차량 22분 (19km)"
+        }
+      ],
+      "summary": "호텔 내 전문 스파 마사지와 바이켐 해변 접근성을 겸비한 실속형 호텔",
+      "summary_en": "Comfortable value hotel in Bai Khem with on-site spa treatments and warm service.",
+      "summary_zh": "配备专业水疗按摩的白沙滩经济舒适型酒店，环境清幽温馨。",
+      "summary_ja": "館内スパマッサージ完備、バイケムビーチ徒歩圏内の快適なバリューホテル。",
+      "summary_ru": "Уютный и доступный отель со спа-салоном в шаговой доступности от пляжа Бай Кхем.",
+      "summary_vi": "Khách sạn tiện nghi kết hợp dịch vụ spa chuyên nghiệp tại khu vực Bãi Khem.",
+      "description": "바이켐 숍하우스 단지 D141-D143에 위치한 편안한 분위기의 호텔입니다. 호텔 1층과 전용 공간에서 전문적인 바디 & 풋 스파 마사지 프로그램을 운영하여 여행의 피로를 풀기에 최적입니다. 깔끔하고 모던한 객실 컨디션을 유지하며, 바이켐 해변과 주변 상점들을 편리하게 오갈 수 있습니다.",
+      "coreFacilities": [
+        "바이켐 해변 도보 6분",
+        "전문 스파 & 마사지",
+        "조식 서비스",
+        "무료 Wi-Fi",
+        "엘리베이터",
+        "개별 에어컨",
+        "공항 픽업 안내",
+        "24시간 응대"
+      ],
+      "facilityCategories": [
+        {
+          "name": "주요 시설 & 스파",
+          "items": [
+            "전문 힐링 스파 (아로마/핫스톤 마사지)",
+            "조식 레스토랑",
+            "엘리베이터",
+            "무료 Wi-Fi"
+          ]
+        },
+        {
+          "name": "객실 시설",
+          "items": [
+            "개별 냉난방 에어컨",
+            "평면 TV",
+            "미니 냉장고",
+            "전용 샤워 부스",
+            "무료 세면용품"
+          ]
+        }
+      ],
+      "checkIn": "14:00",
+      "checkOut": "12:00",
+      "builtYear": 2021,
+      "floors": 5,
+      "rooms": [
+        {
+          "name": "수페리어 룸",
+          "size": "24㎡",
+          "bed": "더블 침대 1개",
+          "view": "시티/창문",
+          "features": "원목 바닥, 샤워 부스, 무료 Wi-Fi"
+        },
+        {
+          "name": "디럭스 발코니 룸",
+          "size": "28㎡",
+          "bed": "퀸 침대 1개 또는 싱글 2개",
+          "view": "발코니 뷰",
+          "features": "전용 발코니, 테이블 및 체어, 자연 채광"
+        }
+      ],
+      "photos": [
+        "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-superior-room.jpg",
+        "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-deluxe-room.jpg"
+      ],
+      "agodaUrl": "https://www.agoda.com/ann-hotel-spa/hotel/phu-quoc-island-vn.html",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJpyMOH-WXpzERgb6Kly4H7QA",
+      "googleRating": 4.4,
+      "googleReviewsCount": 573,
+      "reviewHighlight": "합리적인 가격과 편리한 스파 마사지 시설, 친절하고 상냥한 서비스",
+      "reviewPros": [
+        "호텔 내에서 편안하게 즐길 수 있는 수준 높은 스파 마사지",
+        "합리적인 숙박 요금 대비 깨끗하고 안락한 침구와 룸 컨디션",
+        "투숙객의 요청에 즉각 응대해 주는 친절하고 따뜻한 스태프",
+        "바이켐 해변 산책로까지 도보로 수월하게 이동 가능"
+      ]
+    }
+  ]
+}
