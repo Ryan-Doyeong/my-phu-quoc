@@ -264,9 +264,10 @@ function runProgram(ctx: Ctx, id: ProgramId): ProgramResult {
         items: [
           productItem(ctx, 'cable_car', '09:30', 'south', {
             desc: t(
-              '바다를 건너는 케이블카로 혼똔섬에 가서 워터파크·놀이시설에서 하루를 보내요. 점심은 섬 안에서.',
-              'Cross the sea by cable car to Hon Thom for water park and rides. Lunch on the island.',
+              '바다를 건너는 케이블카로 혼똔섬에 가서 워터파크·놀이시설에서 하루를 보내요. 점심은 섬 안에서. 돌아오는 케이블카는 오후 늦게 줄이 길어 16시 전에 나오는 게 좋아요.',
+              'Cross the sea by cable car to Hon Thom for water park and rides. Lunch on the island. Head back before 16:00 — late-afternoon return queues are long.',
             ),
+            flags: [t('돌아오는 케이블카 마감 17시 전후 (확인 필요)', 'Last return cable car around 17:00 (check)')],
             alternatives: [productItem(ctx, 'hopping', '08:30', 'south')],
           }),
           spot(ctx, 'resortRest', '16:00', 'south', 'rest'),
@@ -519,7 +520,13 @@ export function generatePlan(input: PlannerInput): Plan {
                 'Rest over coffee at Maison Kayser or La Festa’s café (iL Salone).',
               ),
               flags: [hoursFlag],
-              alternatives: [spot(ctx, 'sunsetTown', dawn ? '09:30' : '12:00', 'south', 'spot', { title: dawn ? t('선셋타운 아침 산책', 'Morning walk in Sunset Town') : t('선셋타운 산책', 'Walk in Sunset Town') })],
+              alternatives: [
+                productItem(ctx, 'massage', dawn ? '09:30' : '12:00', 'south', {
+                  title: t('도착 후 마사지로 피로 풀기', 'Massage after landing'),
+                  desc: t('밤 비행 뒤 체크인 전에 씻고 마사지 받는 일정이 후기에서 만족도가 높아요. 미리 예약하면 픽업과 함께 잡을 수 있어요.', 'A shower and massage before check-in is a reviewer favourite after night flights. Pre-book it with your pick-up.'),
+                }),
+                spot(ctx, 'sunsetTown', dawn ? '09:30' : '12:00', 'south', 'spot', { title: dawn ? t('선셋타운 아침 산책', 'Morning walk in Sunset Town') : t('선셋타운 산책', 'Walk in Sunset Town') }),
+              ],
             }),
           )
           const groupSize = input.adults + input.children
@@ -698,6 +705,8 @@ export function generatePlan(input: PlannerInput): Plan {
           } else if (kd.getDay() === 2) {
             kissFlags.push(t('화요일 공연 — 휴무 여부를 꼭 확인하세요', 'Tuesday show — confirm it runs'))
           }
+          kissFlags.push(t('공연 30분 전 도착 권장', 'Arrive 30 min early'))
+          if (input.companion === 'parents') kissFlags.push(t('앞줄은 소리·조명이 강해요 — 중간~뒤쪽 좌석 추천', 'Front rows are loud and bright — sit middle to back'))
           if (input.companion === 'kids') kissFlags.push(t('21시 시작이라 아이가 피곤하면 바깥에서 불꽃만 봐도 좋아요', '21:00 start — with tired kids, just watch the fireworks outside'))
           items.push(
             item(ctx, 'kiss', '21:00', 'must', SPOT.kiss.title, 'south', {
