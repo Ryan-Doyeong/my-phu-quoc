@@ -92,6 +92,8 @@ export interface HotelUiDictionary {
   badgeKhemBeach: string
   travelToSunsetTown: string
   cableCarStationDistance: string
+  luxuryResortBadge: string
+  recommendedResortBadge: string
 }
 
 export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
@@ -187,6 +189,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     badgeKhemBeach: "Bai Khem Resorts & Hotels",
     travelToSunsetTown: "선셋타운 이동",
     cableCarStationDistance: "케이블카 거리",
+    luxuryResortBadge: "5성 특급 리조트",
+    recommendedResortBadge: "마이 푸꾸옥 추천 리조트",
   },
   en: {
     pageTitle: "Sunset Town Hotels at a Glance",
@@ -280,6 +284,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     badgeKhemBeach: "Bai Khem Resorts & Hotels",
     travelToSunsetTown: "To Sunset Town",
     cableCarStationDistance: "To Cable Car",
+    luxuryResortBadge: "5-Star Luxury Resort",
+    recommendedResortBadge: "My Phu Quoc Recommended Resort",
   },
   zh: {
     pageTitle: '富国岛日落小镇酒店一览',
@@ -373,6 +379,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     badgeKhemBeach: "Bai Khem Resorts & Hotels",
     travelToSunsetTown: "至日落小镇",
     cableCarStationDistance: "至缆车站",
+    luxuryResortBadge: "五星级奢华度假村",
+    recommendedResortBadge: "My Phu Quoc 推荐度假村",
   },
   ja: {
     pageTitle: "サンセットタウンのホテル一覧",
@@ -466,6 +474,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     badgeKhemBeach: "Bai Khem Resorts & Hotels",
     travelToSunsetTown: "サンセットタウンへのアクセス",
     cableCarStationDistance: "ケーブルカー駅まで",
+    luxuryResortBadge: "5つ星ラグジュアリーリゾート",
+    recommendedResortBadge: "My Phu Quoc おすすめリゾート",
   },
   ru: {
     pageTitle: "Обзор отелей Сансет Тауна",
@@ -559,6 +569,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     badgeKhemBeach: "Bai Khem Resorts & Hotels",
     travelToSunsetTown: "До Сансет Тауна",
     cableCarStationDistance: "До канатной дороги",
+    luxuryResortBadge: "Роскошный курорт 5 звезд",
+    recommendedResortBadge: "Курорт, рекомендованный My Phu Quoc",
   },
   hi: {
     pageTitle: "सनसेट टाउन के होटलों पर एक नज़र",
@@ -652,6 +664,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     badgeKhemBeach: "Bai Khem Resorts & Hotels",
     travelToSunsetTown: "सनसेट टाउन तक",
     cableCarStationDistance: "केबल कार तक",
+    luxuryResortBadge: "5 सितारा लक्ज़री रिसॉर्ट",
+    recommendedResortBadge: "My Phu Quoc अनुशंसित रिसॉर्ट",
   },
   vi: {
     pageTitle: "Sunset Town Hotels at a Glance",
@@ -745,5 +759,7 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     badgeKhemBeach: "Bai Khem Resorts & Hotels",
     travelToSunsetTown: "Tới Sunset Town",
     cableCarStationDistance: "Tới ga cáp treo",
+    luxuryResortBadge: "5-Star Luxury Resort",
+    recommendedResortBadge: "My Phu Quoc Recommended Resort",
   },
 }

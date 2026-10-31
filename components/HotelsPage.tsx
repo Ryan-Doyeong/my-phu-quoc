@@ -68,20 +68,28 @@ interface HotelCardProps {
 function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, onOpenModal }: HotelCardProps) {
   const summaryText = getLocalizedSummary(hotel, locale)
   const isKhem = hotel.area === 'khem-beach'
+  const isLuxuryResort = isKhem && (hotel.officialStar === 5 || ['jw-marriott-phu-quoc-emerald-bay', 'premier-village-phu-quoc-resort', 'premier-residences-phu-quoc-emerald-bay', 'new-world-phu-quoc-resort'].includes(hotel.slug))
+  const isRecommendedResort = isKhem && (hotel.slug === 'jw-marriott-phu-quoc-emerald-bay' || hotel.tier === 'recommended')
 
   return (
-    <div className={`hotelCard ${isTopGrade ? 'hotelCardTopGrade' : ''} ${isFeatured && !isTopGrade ? 'hotelCardFeatured' : ''}`}>
+    <div className={`hotelCard ${isTopGrade ? 'hotelCardTopGrade' : ''} ${(isFeatured || isRecommendedResort) && !isTopGrade ? 'hotelCardFeatured' : ''}`}>
       {/* Featured Header Badges */}
-      {(isTopGrade || isFeatured) && (
+      {(isTopGrade || isFeatured || isRecommendedResort) && (
         <div className="cardFeaturedHeader">
           {isTopGrade && (
             <span className="topGradeBadge">
               🏆 {t.badgeTopGrade}
             </span>
           )}
-          <span className="featuredBadge">
-            👑 {t.featuredBadge}
-          </span>
+          {isRecommendedResort ? (
+            <span className="featuredBadge">
+              👑 {t.recommendedResortBadge}
+            </span>
+          ) : isFeatured ? (
+            <span className="featuredBadge">
+              👑 {t.featuredBadge}
+            </span>
+          ) : null}
         </div>
       )}
 
@@ -92,8 +100,12 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
           alt={hotel.name_ko}
           loading={isTopGrade || isFeatured ? 'eager' : 'lazy'}
         />
-        {/* 공식 5성급 확인된 호텔만 5성급 표기, 더 룸 호텔은 부티크 호텔, 기타 미확인 성급은 숨김 */}
-        {hotel.officialStar === 5 ? (
+        {/* 공식 5성급 확인된 호텔만 5성급 표기, 켐 비치 4곳은 '5성 특급 리조트', 더 룸 호텔은 부티크 호텔, 기타 미확인 성급은 숨김 */}
+        {isLuxuryResort ? (
+          <div className="cardStarBadge luxuryResortStarBadge">
+            ⭐ {t.luxuryResortBadge}
+          </div>
+        ) : hotel.officialStar === 5 ? (
           <div className="cardStarBadge">
             {t.fiveStar}
           </div>
@@ -259,6 +271,8 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
   )
 
   const isKhem = hotel.area === 'khem-beach'
+  const isLuxuryResort = isKhem && (hotel.officialStar === 5 || ['jw-marriott-phu-quoc-emerald-bay', 'premier-village-phu-quoc-resort', 'premier-residences-phu-quoc-emerald-bay', 'new-world-phu-quoc-resort'].includes(hotel.slug))
+  const isRecommendedResort = isKhem && (hotel.slug === 'jw-marriott-phu-quoc-emerald-bay' || hotel.tier === 'recommended')
 
   return (
     <div className="modalBackdrop" onClick={onClose}>
@@ -274,14 +288,27 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
             alt={hotel.name_ko}
           />
           <div className="modalTopPhotoBadges">
-            {hotel.officialStar === 5 && (
-              <span className="cardStarBadge">{t.fiveStar}</span>
-            )}
-            {hotel.tier === 'top' && (
-              <span className="topGradeBadge">🏆 {t.badgeTopGrade}</span>
-            )}
-            {(hotel.slug === 'the-room-hotel' || hotel.tier === 'recommended') && (
-              <span className="cardStarBadge">{t.boutiqueHotel}</span>
+            {isKhem ? (
+              <>
+                {isRecommendedResort && (
+                  <span className="featuredBadge">👑 {t.recommendedResortBadge}</span>
+                )}
+                {isLuxuryResort && (
+                  <span className="cardStarBadge luxuryResortStarBadge">⭐ {t.luxuryResortBadge}</span>
+                )}
+              </>
+            ) : (
+              <>
+                {hotel.officialStar === 5 && (
+                  <span className="cardStarBadge">{t.fiveStar}</span>
+                )}
+                {hotel.tier === 'top' && (
+                  <span className="topGradeBadge">🏆 {t.badgeTopGrade}</span>
+                )}
+                {(hotel.slug === 'the-room-hotel' || hotel.tier === 'recommended') && (
+                  <span className="cardStarBadge">{t.boutiqueHotel}</span>
+                )}
+              </>
             )}
           </div>
           <a
@@ -1164,7 +1191,7 @@ function HotelsPageInner({ hotels, locale = 'en', initialArea }: HotelsPageProps
                   hotel={hotel}
                   t={t}
                   locale={locale}
-                  isFeatured={false}
+                  isFeatured={hotel.slug === 'jw-marriott-phu-quoc-emerald-bay' || hotel.tier === 'recommended'}
                   isTopGrade={false}
                   onOpenModal={setSelectedHotel}
                 />

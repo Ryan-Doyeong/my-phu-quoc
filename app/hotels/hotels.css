@@ -639,6 +639,16 @@
   font-weight: 700;
   padding: 4px 10px;
   border-radius: 6px;
+  z-index: 2;
+}
+
+.luxuryResortStarBadge {
+  background: rgba(15, 23, 42, 0.92);
+  color: #fbbf24;
+  border: 1px solid rgba(251, 191, 36, 0.45);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  font-weight: 800;
+  letter-spacing: -0.01em;
 }
 
 .cardBody {
@@ -1102,7 +1112,9 @@
   pointer-events: auto;
 }
 
-.modalTopPhotoBadges .cardStarBadge {
+.modalTopPhotoBadges .cardStarBadge,
+.modalTopPhotoBadges .topGradeBadge,
+.modalTopPhotoBadges .luxuryResortStarBadge {
   position: static;
   top: auto;
   left: auto;
@@ -1511,10 +1523,12 @@
 
 .cardFeaturedHeader {
   background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
-  padding: 10px 18px;
+  padding: 8px 14px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
   color: #ffffff;
 }
 

@@ -957,35 +957,6 @@
     "_deleted_claims": "(해당 없음)"
   },
   {
-    "id": "local-sunset-34",
-    "public_name": "Triland Hillside",
-    "slug": "triland-hillside",
-    "category": "hotels",
-    "subcategory": "residence",
-    "google_place_id": "ChIJOZ1p38-VpzERKC1kUSIrA4A",
-    "description_en": "Triland Hillside is a residence apartment located in Sunset Town, Phu Quoc.",
-    "description_ko": "Sun Grand City Hillside 고층 아파트먼트, 오션/불꽃놀이 뷰.",
-    "address": "thị trấn Hoàng Hôn, Phú Quốc, An Giang, Vietnam",
-    "google_maps_name": "Triland Hillside",
-    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJOZ1p38-VpzERKC1kUSIrA4A",
-    "phone": "+84 941 507 156",
-    "website_url": null,
-    "instagram_url": null,
-    "status": "published",
-    "verification_status": "ai_checked",
-    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
-    "google_rating": 4.8,
-    "google_review_count": 50,
-    "gallery_urls": [],
-    "tags": [
-      "residence",
-      "Sunset Town"
-    ],
-    "_deleted_snippet": "",
-    "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
-  },
-  {
     "id": "local-sunset-35",
     "public_name": "Royal Hotel Phu Quoc 2",
     "slug": "royal-hotel-phu-quoc-2",
@@ -1796,35 +1767,6 @@
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제 | 미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
-  },
-  {
-    "id": "local-sunset-63",
-    "public_name": "Luxury Hotel & Spa Milan 38 Sunset Town",
-    "slug": "luxury-hotel-spa-milan-38-sunset-town",
-    "category": "hotels",
-    "subcategory": "boutique_hotel",
-    "google_place_id": "ChIJUVANxM6XpzERxNQieCqMz1w",
-    "description_en": "Luxury Hotel & Spa Milan 38 Sunset Town is a boutique hotel located in Sunset Town, Phu Quoc.",
-    "description_ko": "선셋타운 지중해풍 부티크 호텔.",
-    "address": "38, Milan, Sunset Town, Phú Quốc, An Giang 92513, Vietnam",
-    "google_maps_name": "Luxury Hotel & Spa Milan 38 Sunset Town",
-    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJUVANxM6XpzERxNQieCqMz1w",
-    "phone": "+84 366 755 555",
-    "website_url": null,
-    "instagram_url": null,
-    "status": "published",
-    "verification_status": "ai_checked",
-    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
-    "google_rating": 4,
-    "google_review_count": 50,
-    "gallery_urls": [],
-    "tags": [
-      "boutique_hotel",
-      "Sunset Town"
-    ],
-    "_deleted_snippet": "",
-    "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-64",

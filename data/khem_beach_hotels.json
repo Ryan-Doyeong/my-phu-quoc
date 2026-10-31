@@ -15,7 +15,7 @@
       "officialStar": 5,
       "area": "khem-beach",
       "order": 1,
-      "tier": "standard",
+      "tier": "recommended",
       "rating": 9.1,
       "reviewsCount": 1852,
       "subRatings": {
@@ -169,7 +169,8 @@
       ],
       "driveMinutesToSunsetTown": 10,
       "driveMinutesNote": "사장님 확인 2026-10-31",
-      "agodaRawDescription": "바이켐 백사장에 위치한 메리어트 인터내셔널의 5성급 리조트입니다. 건축가 빌 벤슬리가 가상의 라마르크 대학교(Lamarck University) 콘셉트로 디자인하여 캠퍼스를 거니는 듯한 분위기를 제공합니다. 조개 모양의 쉘 풀을 포함한 3개의 야외 수영장, 핑크 펄 프렌치 레스토랑, 샹터렐 스파 바이 JW를 구비하고 있습니다."
+      "agodaRawDescription": "바이켐 백사장에 위치한 메리어트 인터내셔널의 5성급 리조트입니다. 건축가 빌 벤슬리가 가상의 라마르크 대학교(Lamarck University) 콘셉트로 디자인하여 캠퍼스를 거니는 듯한 분위기를 제공합니다. 조개 모양의 쉘 풀을 포함한 3개의 야외 수영장, 핑크 펄 프렌치 레스토랑, 샹터렐 스파 바이 JW를 구비하고 있습니다.",
+      "isFeatured": true
     },
     {
       "slug": "premier-village-phu-quoc-resort",
