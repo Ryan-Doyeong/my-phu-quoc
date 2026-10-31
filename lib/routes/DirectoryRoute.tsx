@@ -5,6 +5,7 @@ import { createPublicClient } from '@/lib/supabase/public'
 import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { DirectoryBrowser } from '@/components/DirectoryBrowser'
+import { BankingDirectory } from '@/components/BankingDirectory'
 import {
   DIRECTORY_CATEGORIES,
   DIRECTORY_CATEGORY_KEYS,
@@ -71,6 +72,9 @@ export async function renderDirectoryRoute(
   const category = normalizeDirectoryCategory(rawCategory)
   if (category === 'hotels') {
     redirect(locale === 'en' ? '/hotels' : `/${locale}/hotels`)
+  }
+  if (category === 'banking') {
+    return <BankingDirectory locale={locale} />
   }
   if (!isDirectoryCategory(category)) notFound()
   const dict = getDictionary(locale)
