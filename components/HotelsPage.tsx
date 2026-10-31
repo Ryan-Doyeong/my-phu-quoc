@@ -16,6 +16,7 @@ import '@/app/hotels/hotels.css'
 interface HotelsPageProps {
   hotels: HotelItem[]
   locale?: Locale
+  initialArea?: HotelArea
 }
 
 function getLocalizedSummary(hotel: HotelItem, locale?: Locale): string {
@@ -747,7 +748,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
      - 7곳 바이켐 럭셔리 리조트 & 부티크 호텔
      - 기본 등급순(order) 정렬 + 평점순 / 후기순 정렬
    ========================================================================= */
-function HotelsPageInner({ hotels, locale = 'en' }: HotelsPageProps) {
+function HotelsPageInner({ hotels, locale = 'en', initialArea }: HotelsPageProps) {
   const dict = getDictionary(locale)
   const t = HOTEL_TRANSLATIONS[locale] || HOTEL_TRANSLATIONS.en
 
@@ -755,9 +756,9 @@ function HotelsPageInner({ hotels, locale = 'en' }: HotelsPageProps) {
   const areaParam = searchParams.get('area')
   const hotelQuery = searchParams.get('hotel')
 
-  // Initial area from URL or default to 'sunset-town'
+  // Initial area from prop, URL or default to 'sunset-town'
   const [activeArea, setActiveArea] = useState<HotelArea>(
-    areaParam === 'khem-beach' ? 'khem-beach' : 'sunset-town'
+    initialArea || (areaParam === 'khem-beach' ? 'khem-beach' : 'sunset-town')
   )
 
   // Sunset Town Filter & Sort state
