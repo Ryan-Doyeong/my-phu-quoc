@@ -30,9 +30,9 @@ function getLocalizedSummary(hotel: HotelItem, locale?: Locale): string {
 
 function getKhemDistanceBadge(hotel: HotelItem, t: HotelUiDictionary): string {
   const baseBadge = t.khemDistanceBadge
-  if (hotel.driveMinutesToSunsetTown && hotel.driveMinutesToSunsetTown !== '10~15분') {
-    const mins = hotel.driveMinutesToSunsetTown.replace('분', '')
-    return baseBadge.replace('10~15', mins).replace('10–15', mins)
+  const mins = hotel.driveMinutesToSunsetTown != null ? String(hotel.driveMinutesToSunsetTown).replace('분', '') : '10'
+  if (mins !== '10') {
+    return baseBadge.replace('10', mins)
   }
   return baseBadge
 }
@@ -642,7 +642,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                     </div>
                     {isKhem ? (
                       <div style={{ marginBottom: '8px' }}>
-                        <strong>🚗 선셋타운 이동:</strong> 선셋타운 및 혼똔섬 케이블카 탑승장까지 {getKhemDistanceBadge(hotel, t)} (약 6.5~7km{hotel.slug === 'premier-village-phu-quoc-resort' ? ', 남단 곶 약 12km' : ''})
+                        <strong>🚗 선셋타운 이동:</strong> 선셋타운 및 혼똔섬 케이블카 탑승장까지 차량 약 {hotel.driveMinutesToSunsetTown ? `${String(hotel.driveMinutesToSunsetTown).replace('분', '')}분` : '10분'} (약 6.5~7km)
                       </div>
                     ) : (
                       <div style={{ marginBottom: '8px' }}>

@@ -34,7 +34,7 @@
         },
         {
           "name": "선셋타운 & 케이블카",
-          "distance": "차량 약 10~15분 (약 6.5km)"
+          "distance": "차량 약 10분 (약 6.5km)"
         },
         {
           "name": "푸꾸옥 감옥",
@@ -168,8 +168,8 @@
         "쉘 풀을 비롯한 3개의 넓고 쾌적한 야외 수영장",
         "정성스럽고 다채로운 인터내셔널 뷔페 조식과 수준 높은 서비스"
       ],
-      "driveMinutesToSunsetTown": "10~15분",
-      "driveMinutesNote": "사장님 확인 2026-10-31 (바이켐-선셋타운 도로 기준 약 6.5km, 차량 10~15분)"
+      "driveMinutesToSunsetTown": 10,
+      "driveMinutesNote": "사장님 확인 2026-10-31"
     },
     {
       "slug": "premier-village-phu-quoc-resort",
@@ -203,7 +203,7 @@
         },
         {
           "name": "선셋타운 & 케이블카",
-          "distance": "차량 약 18~20분 (약 12km)"
+          "distance": "차량 약 10분 (약 6.5km)"
         },
         {
           "name": "안터이 항구",
@@ -319,8 +319,8 @@
         "반도를 가로지르는 아름다운 계단식 멀티 인피니티 풀",
         "버기 시스템이 잘 갖추어져 리조트 내 이동이 편리함"
       ],
-      "driveMinutesToSunsetTown": "18~20분",
-      "driveMinutesNote": "사장님 확인 2026-10-31 (옹도이곶-선셋타운 도로 기준 약 12km, 차량 18~20분)"
+      "driveMinutesToSunsetTown": 10,
+      "driveMinutesNote": "사장님 확인 2026-10-31"
     },
     {
       "slug": "premier-residences-phu-quoc-emerald-bay",
@@ -354,7 +354,7 @@
         },
         {
           "name": "선셋타운 & 케이블카",
-          "distance": "차량 약 10~15분 (약 6.5km)"
+          "distance": "차량 약 10분 (약 6.5km)"
         },
         {
           "name": "푸꾸옥 감옥",
@@ -472,8 +472,8 @@
         "바이켐 백사장과 바로 연결되어 해양 액티비티 즐기기 좋음",
         "주변 숍하우스 식당가와 마사지샵을 도보로 이용할 수 있는 편의성"
       ],
-      "driveMinutesToSunsetTown": "10~15분",
-      "driveMinutesNote": "사장님 확인 2026-10-31 (바이켐-선셋타운 도로 기준 약 6.5km, 차량 10~15분)"
+      "driveMinutesToSunsetTown": 10,
+      "driveMinutesNote": "사장님 확인 2026-10-31"
     },
     {
       "slug": "new-world-phu-quoc-resort",
@@ -507,7 +507,7 @@
         },
         {
           "name": "선셋타운 & 케이블카",
-          "distance": "차량 약 10~15분 (약 6.5km)"
+          "distance": "차량 약 10분 (약 6.5km)"
         },
         {
           "name": "푸꾸옥 감옥",
@@ -626,8 +626,8 @@
         "전통 어촌 가옥을 모티브로 한 아늑하고 고급스러운 인테리어",
         "친절하고 신속한 버기 및 직원 서비스, 풍성한 조식"
       ],
-      "driveMinutesToSunsetTown": "10~15분",
-      "driveMinutesNote": "사장님 확인 2026-10-31 (바이켐-선셋타운 도로 기준 약 6.5km, 차량 10~15분)"
+      "driveMinutesToSunsetTown": 10,
+      "driveMinutesNote": "사장님 확인 2026-10-31"
     },
     {
       "slug": "paralia-khem-beach-phu-quoc-hotel",
@@ -661,7 +661,7 @@
         },
         {
           "name": "선셋타운 & 케이블카",
-          "distance": "차량 약 10~15분 (약 6.5km)"
+          "distance": "차량 약 10분 (약 6.5km)"
         },
         {
           "name": "푸꾸옥 감옥",
@@ -761,8 +761,8 @@
         "친절한 직원들의 체크인 및 주변 관광 안내",
         "기본 제공되는 조식과 실내 수영장 시설"
       ],
-      "driveMinutesToSunsetTown": "10~15분",
-      "driveMinutesNote": "사장님 확인 2026-10-31 (바이켐-선셋타운 도로 기준 약 6.5km, 차량 10~15분)"
+      "driveMinutesToSunsetTown": 10,
+      "driveMinutesNote": "사장님 확인 2026-10-31"
     },
     {
       "slug": "jm-boutique-hotel-phu-quoc",
@@ -792,7 +792,7 @@
         },
         {
           "name": "선셋타운 & 케이블카",
-          "distance": "차량 약 10~15분 (약 6.5km)"
+          "distance": "차량 약 10분 (약 6.5km)"
         },
         {
           "name": "푸꾸옥 감옥",
@@ -883,8 +883,8 @@
         "친절하고 배려 깊은 스태프들의 세심한 맞춤 응대",
         "바이켐 해변까지 평지를 따라 도보 5분으로 산책 이동 가능"
       ],
-      "driveMinutesToSunsetTown": "10~15분",
-      "driveMinutesNote": "사장님 확인 2026-10-31 (바이켐-선셋타운 도로 기준 약 6.5km, 차량 10~15분)"
+      "driveMinutesToSunsetTown": 10,
+      "driveMinutesNote": "사장님 확인 2026-10-31"
     },
     {
       "slug": "ann-hotel-spa-phu-quoc",
@@ -914,7 +914,7 @@
         },
         {
           "name": "선셋타운 & 케이블카",
-          "distance": "차량 약 10~15분 (약 6.5km)"
+          "distance": "차량 약 10분 (약 6.5km)"
         },
         {
           "name": "푸꾸옥 감옥",
@@ -998,8 +998,8 @@
         "투숙객의 요청에 즉각 응대해 주는 친절하고 따뜻한 스태프",
         "바이켐 해변 산책로까지 도보로 수월하게 이동 가능"
       ],
-      "driveMinutesToSunsetTown": "10~15분",
-      "driveMinutesNote": "사장님 확인 2026-10-31 (바이켐-선셋타운 도로 기준 약 6.5km, 차량 10~15분)"
+      "driveMinutesToSunsetTown": 10,
+      "driveMinutesNote": "사장님 확인 2026-10-31"
     }
   ]
 }
