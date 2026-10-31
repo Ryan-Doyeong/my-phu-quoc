@@ -1,13 +1,22 @@
 import { CONTACT_CONFIG } from '@/lib/contactConfig'
-import { MARMORIS_YACHT_TOURS, type L } from '@/lib/activities/marmorisYacht'
+import {
+  MARMORIS_YACHT_TOURS,
+  YACHT_CANCELLATION,
+  YACHT_CANCEL_NOTE,
+  YACHT_CHILD_POLICY,
+  YACHT_EXCLUDED,
+  YACHT_EXTRA_PAID,
+  YACHT_INCLUDED,
+  type L,
+} from '@/lib/activities/marmorisYacht'
 import type { Locale } from '@/lib/i18n/config'
 
 /* ko = 한국어 확정, 그 외 언어는 영어 원문 사용 (ChatGPT 검수 대기) */
 const pick = (l: L, locale: Locale) => (locale === 'ko' ? l.ko : l.en)
 
 const UI = {
-  ko: { section: '요트 투어', lead: '선셋타운 선착장에서 출발하는 프리미엄 요트입니다. 가격과 일정은 파트너사 기준입니다.', partner: '파트너', per: '1인', from: '부터', schedule: '일정 보기', included: '포함 · 추가요금', wa: 'WhatsApp 문의', za: 'Zalo 문의', credit: '사진 출처: Marmoris Yachting' },
-  en: { section: 'Yacht Tours', lead: 'Premium yachts departing from Sunset Town Pier. Prices and schedules are provided by our partner.', partner: 'Partner', per: 'per person', from: 'from', schedule: 'View schedule', included: 'Included · Extras', wa: 'WhatsApp', za: 'Zalo', credit: 'Photos: Marmoris Yachting' },
+  ko: { section: '요트 투어', lead: '푸꾸옥 바다를 즐기는 프리미엄 요트 투어입니다. 가격과 일정은 파트너사 기준입니다.', partner: '파트너', per: '1인', from: '부터', schedule: '일정 보기', included: '포함 · 불포함', policy: '취소 · 아동 정책', extraPaid: '추가요금(별도)', excluded: '불포함', cancelTitle: '취소·환불', childTitle: '아동 요금', wa: 'WhatsApp 문의', za: 'Zalo 문의', credit: '사진 출처: Marmoris Yachting' },
+  en: { section: 'Yacht Tours', lead: 'Premium yacht tours on the waters of Phu Quoc. Prices and schedules are provided by our partner.', partner: 'Partner', per: 'per person', from: 'from', schedule: 'View schedule', included: 'Included · Excluded', policy: 'Cancellation · Children', extraPaid: 'Additional charge', excluded: 'Not included', cancelTitle: 'Cancellation', childTitle: 'Children', wa: 'WhatsApp', za: 'Zalo', credit: 'Photos: Marmoris Yachting' },
 } as const
 
 export function ActivityYachtSection({ locale = 'ko' }: { locale?: Locale }) {
@@ -40,10 +49,17 @@ export function ActivityYachtSection({ locale = 'ko' }: { locale?: Locale }) {
               <div className="yachtTags">
                 {t.tags.map((g) => <span key={g.en}>{pick(g, locale)}</span>)}
               </div>
-              <div className="yachtPrice">
-                {t.priceVnd.toLocaleString('en-US')} ₫{locale === 'ko' ? '~' : '+'}
-                <small>{ui.per}</small>
-              </div>
+              <ul className="yachtClasses">
+                {t.classes.map((c) => (
+                  <li key={c.name.en}>
+                    <span>
+                      <b>{pick(c.name, locale)}</b>
+                      <em>{pick(c.deck, locale)}</em>
+                    </span>
+                    <strong>{c.priceVnd.toLocaleString('en-US')} ₫<small>{ui.per}</small></strong>
+                  </li>
+                ))}
+              </ul>
 
               <details className="yachtDetails">
                 <summary>{ui.schedule}</summary>
@@ -64,9 +80,34 @@ export function ActivityYachtSection({ locale = 'ko' }: { locale?: Locale }) {
               <details className="yachtDetails">
                 <summary>{ui.included}</summary>
                 <ul className="yachtList">
-                  {t.included.map((i) => <li key={i.en}>{pick(i, locale)}</li>)}
+                  {YACHT_INCLUDED.map((i) => <li key={i.en}>{pick(i, locale)}</li>)}
                 </ul>
-                <p className="yachtNote">{pick(t.extra, locale)}</p>
+                <p className="yachtSub">{ui.extraPaid}</p>
+                <ul className="yachtList">
+                  {YACHT_EXTRA_PAID.map((i) => <li key={i.en}>{pick(i, locale)}</li>)}
+                </ul>
+                <p className="yachtSub">{ui.excluded}</p>
+                <ul className="yachtList">
+                  {YACHT_EXCLUDED.map((i) => <li key={i.en}>{pick(i, locale)}</li>)}
+                </ul>
+              </details>
+
+              <details className="yachtDetails">
+                <summary>{ui.policy}</summary>
+                <p className="yachtSub">{ui.cancelTitle}</p>
+                {YACHT_CANCELLATION.map((g) => (
+                  <div key={g.title.en}>
+                    <p className="yachtGroup">{pick(g.title, locale)}</p>
+                    <ul className="yachtList">
+                      {g.rows.map((r) => <li key={r.en}>{pick(r, locale)}</li>)}
+                    </ul>
+                  </div>
+                ))}
+                <p className="yachtNote">{pick(YACHT_CANCEL_NOTE, locale)}</p>
+                <p className="yachtSub">{ui.childTitle}</p>
+                <ul className="yachtList">
+                  {YACHT_CHILD_POLICY.map((r) => <li key={r.en}>{pick(r, locale)}</li>)}
+                </ul>
               </details>
 
               <div className="yachtCta">

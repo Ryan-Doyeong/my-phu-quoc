@@ -1,8 +1,8 @@
 /**
- * 남부 해양 액티비티 — Marmoris Yachting (파트너 후보) 요트 2종
- * 출처: https://marmorisyacht.com/tours/phu-quoc-tropical-yachting-tour/
- *       https://marmorisyacht.com/tours/phu-quoc-sunset-chilling-tour/
- * 수집일 2026-10-31. 가격·일정은 원문 그대로. "미확인" 항목은 파트너 확인 후 note 제거.
+ * 남부 해양 액티비티 — Marmoris Yachting (파트너) 요트 2종
+ * 출처: Marmoris 파트너 안내문 + 공식 일정·포함·취소·아동 정책 (2026-10-31 수령)
+ * 보조: https://marmorisyacht.com/tours/phu-quoc-tropical-yachting-tour/ (사진)
+ * 가격은 공개 정가(retail)만 기재. 파트너 매입가(net)는 공개 저장소에 절대 넣지 말 것.
  * en = 원문(영어) 기준, 그 외 언어는 en 사용 (ChatGPT 검수 대기)
  */
 export type L = { ko: string; en: string }
@@ -13,6 +13,12 @@ export interface YachtStep {
   desc?: L
 }
 
+export interface YachtClass {
+  name: L
+  deck: L
+  priceVnd: number
+}
+
 export interface YachtTour {
   id: 'tropical' | 'sunset'
   operator: string
@@ -21,108 +27,149 @@ export interface YachtTour {
   hours: string
   facts: L[]
   tags: L[]
-  priceVnd: number
+  classes: YachtClass[]
   images: string[]
   steps: YachtStep[]
-  included: L[]
-  extra: L
   notes: L[]
+}
+
+const OCEAN = { ko: '오션 클래스', en: 'Ocean Class' }
+const OCEAN_DECK = { ko: '하층 데크', en: 'Lower Deck' }
+const SKY = { ko: '스카이 라운지', en: 'Sky Lounge' }
+const SKY_DECK = { ko: 'VIP 데크', en: 'VIP Deck' }
+
+const WEATHER: L = {
+  ko: '기상 상황에 따라 일정이 조정될 수 있습니다.',
+  en: 'The itinerary may be adjusted depending on weather conditions.',
 }
 
 export const MARMORIS_YACHT_TOURS: YachtTour[] = [
   {
     id: 'tropical',
     operator: 'Marmoris Yachting',
-    badge: { ko: '낮 · 점심 BBQ', en: 'Daytime · BBQ Lunch' },
+    badge: { ko: '오전 · 점심 BBQ', en: 'Morning · BBQ Lunch' },
     title: { ko: '트로피컬 요트 투어', en: 'Tropical Yachting Tour' },
-    hours: '09:00 ~ 14:00',
+    hours: '08:30 ~ 13:30',
     facts: [
-      { ko: '매일 운영', en: 'Daily' },
-      { ko: '감기섬 방문', en: 'Gam Ghi Island' },
+      { ko: '약 5시간', en: 'About 5 hours' },
+      { ko: '빈담 항 출발', en: 'Departs Vinh Dam Port' },
+      { ko: '척당 최대 45명', en: 'Up to 45 guests per yacht' },
     ],
     tags: [
       { ko: '스노클링', en: 'Snorkeling' },
       { ko: 'SUP', en: 'SUP' },
       { ko: '낚시', en: 'Fishing' },
-      { ko: '씨바이크', en: 'Sea Cycling' },
-      { ko: '워터슬라이드', en: 'Inflatable Slide' },
+      { ko: '워터사이클', en: 'Water cycling' },
       { ko: 'BBQ 점심', en: 'BBQ Lunch' },
     ],
-    priceVnd: 2990000,
+    classes: [
+      { name: OCEAN, deck: OCEAN_DECK, priceVnd: 1950000 },
+      { name: SKY, deck: SKY_DECK, priceVnd: 2450000 },
+    ],
     images: [
       '/activities/marmoris/tropical-1.webp',
       '/activities/marmoris/tropical-2.webp',
       '/activities/marmoris/tropical-3.webp',
     ],
     steps: [
-      { time: '09:00', title: { ko: '승선 환영', en: 'Welcome on board' }, desc: { ko: '크루 안내와 함께 승선', en: 'The crew warmly welcomes and guides guests onboard' } },
-      { time: '09:00–09:45', title: { ko: '섬 주변 크루즈', en: 'Cruising around islands' }, desc: { ko: '샴페인·열대과일 제공', en: 'Champagne and tropical fruits are served onboard' } },
-      { time: '09:45–10:45', title: { ko: '해변 자유시간', en: 'Free time on the beach' } },
-      { time: '10:45–11:45', title: { ko: '스노클링·낚시·SUP 자유시간', en: 'Free time for snorkeling, fishing, SUP paddling' }, desc: { ko: '감기섬: SUP, 씨바이크, 수영', en: 'Gam Ghi Island: SUP paddling, sea cycling, swimming' } },
-      { time: '11:45–13:00', title: { ko: '요트 BBQ 점심', en: 'BBQ lunch time on the yacht' }, desc: { ko: '프리미엄 요리', en: 'Savor premium dishes onboard' } },
-      { time: '13:00–14:00', title: { ko: '선착장 복귀', en: 'Back to the pier' } },
+      { time: '08:30', title: { ko: '빈담 항 출발', en: 'Depart from Vinh Dam Port' } },
+      { time: '08:30–09:45', title: { ko: '정박지로 크루즈', en: 'Cruise to the anchorage' }, desc: { ko: '날씨에 따라 혼러이 또는 혼즈어 정박', en: 'Hon Roi or Hon Dua, depending on weather conditions' } },
+      { time: '10:00–11:30', title: { ko: '워터스포츠 즐기기', en: 'Enjoy exciting water sports activities' } },
+      { time: '12:00', title: { ko: '요트 위 점심', en: 'Lunch on board' } },
+      { time: '12:30–13:30', title: { ko: '빈담 항으로 복귀', en: 'Cruise back to Vinh Dam Port' }, desc: { ko: '투어 종료', en: 'Concluding the journey' } },
     ],
-    included: [
-      { ko: '수영, 스노클링(장비 포함), 낚시, 씨바이크, 워터슬라이드, SUP', en: 'Swimming, snorkeling (gear included), fishing, sea cycling, inflatable slide, SUP' },
-      { ko: '환영 샴페인, 열대과일, 프리미엄 뷔페 점심', en: 'Welcome champagne, tropical fruits, premium buffet lunch' },
-      { ko: '맥주·청량음료·차·디톡스워터 무제한', en: 'Free-flow beer, soft drinks, tea, detox water' },
-      { ko: '빈백·트램폴린, 미니바, 화장실, 와이파이, 수건, 구명조끼', en: 'Bean bag & trampoline, minibar, restrooms, Wi-Fi, towels, life jackets' },
-    ],
-    extra: {
-      ko: '추가요금(선택): 제트스키 · 플라잉 바나나보트 · 스쿠버다이빙 각 690,000동',
-      en: 'Optional extras: Jet ski · Flying banana boat · Scuba diving, 690,000 VND each',
-    },
-    notes: [
-      { ko: '원문 상단은 08:30~13:30, 타임라인은 14:00까지로 표기됩니다. 확정 시간은 파트너 확인 중입니다.', en: 'Source header shows 08:30–13:30 while the timeline runs to 14:00. Final times are being confirmed with the partner.' },
-    ],
+    notes: [WEATHER],
   },
   {
     id: 'sunset',
     operator: 'Marmoris Yachting',
     badge: { ko: '저녁 · 불꽃놀이 · DJ', en: 'Evening · Fireworks · DJ' },
     title: { ko: '선셋 칠링 요트 투어', en: 'Sunset Chilling Tour' },
-    hours: '15:00 ~ 20:30',
+    hours: '15:00 ~ 21:30',
     facts: [
-      { ko: '매일 운영', en: 'Daily' },
-      { ko: '호텔 픽업 포함', en: 'Hotel transfer included' },
-      { ko: '선셋타운 선착장', en: 'Sunset Town Pier' },
+      { ko: '빈담 항 출발', en: 'Departs Vinh Dam Port' },
+      { ko: '키스브릿지 DJ·불꽃놀이', en: 'Kiss Bridge DJ & fireworks' },
+      { ko: '척당 최대 45명', en: 'Up to 45 guests per yacht' },
     ],
     tags: [
       { ko: '일몰', en: 'Sunset' },
       { ko: 'BBQ 디너', en: 'BBQ Dinner' },
       { ko: '불꽃놀이', en: 'Fireworks' },
-      { ko: 'DJ 파티', en: 'DJ Party' },
+      { ko: 'DJ', en: 'DJ' },
       { ko: '스노클링', en: 'Snorkeling' },
       { ko: 'SUP', en: 'SUP' },
     ],
-    priceVnd: 2990000,
+    classes: [
+      { name: OCEAN, deck: OCEAN_DECK, priceVnd: 2250000 },
+      { name: SKY, deck: SKY_DECK, priceVnd: 2750000 },
+    ],
     images: [
       '/activities/marmoris/sunset-1.webp',
       '/activities/marmoris/sunset-2.webp',
       '/activities/marmoris/sunset-3.webp',
     ],
     steps: [
-      { time: '15:00', title: { ko: '승선 환영', en: 'Welcome on board' }, desc: { ko: '호텔 → 선셋타운 선착장 기사 이동', en: 'Driver transfer from your hotel to Sunset Town Pier' } },
-      { time: '15:00–15:45', title: { ko: '섬 주변 크루즈', en: 'Cruising around islands' }, desc: { ko: '샴페인·열대과일 제공', en: 'Champagne and tropical fruits are served' } },
-      { time: '15:45–16:45', title: { ko: '해변 자유시간', en: 'Free time on the beach' } },
-      { time: '16:45–17:45', title: { ko: '스노클링·낚시·SUP 자유시간', en: 'Free time for snorkeling, fishing, SUP paddling' }, desc: { ko: '수영, 스노클링, 낚시, SUP, 일몰 사진', en: 'Swimming, snorkeling, fishing, SUP paddling & sunset photography' } },
-      { time: '17:45–18:00', title: { ko: '바다 위 일몰', en: 'Sunset on the sea' } },
-      { time: '18:00–19:00', title: { ko: '요트 BBQ 디너', en: 'BBQ dinner time on the yacht' }, desc: { ko: '프리미엄 요리', en: 'Savor premium dishes onboard' } },
-      { time: '20:00–20:15', title: { ko: '불꽃놀이 & DJ 파티', en: 'Fireworks & DJ party' }, desc: { ko: '프리미엄 음향·조명', en: 'Premium sound and lighting systems over the night sea' } },
-      { time: '20:15–20:30', title: { ko: '선셋타운 선착장 복귀', en: 'Back to Sunset Town Pier' } },
+      { time: '15:00', title: { ko: '빈담 항 출발', en: 'Depart from Vinh Dam Port' } },
+      { time: '16:00', title: { ko: '혼담응와이 정박지 도착', en: 'Arrive at the anchorage at Hon Dam Ngoai' } },
+      { time: '16:00–17:30', title: { ko: '워터스포츠 즐기기', en: 'Enjoy exciting water sports activities' } },
+      { time: '17:45', title: { ko: '푸꾸옥 일몰 감상', en: 'Admire the beautiful sunset over Phu Quoc' } },
+      { time: '18:00', title: { ko: '요트 위 디너', en: 'Dinner on board' } },
+      { time: '19:00', title: { ko: '키스브릿지로 이동, 라이브 DJ 공연', en: 'Cruise to Kiss Bridge for a live DJ performance' }, desc: { ko: '기상에 따라 변경될 수 있음', en: 'Schedule subject to change depending on weather conditions' } },
+      { time: '19:45–20:00', title: { ko: '불꽃놀이 감상', en: 'Spectacular fireworks display' }, desc: { ko: '기상에 따라 변경될 수 있음', en: 'Schedule subject to change depending on weather conditions' } },
+      { time: '20:00–21:30', title: { ko: '빈담 항으로 복귀', en: 'Cruise back to Vinh Dam Port' }, desc: { ko: '투어 종료', en: 'Concluding the journey' } },
     ],
-    included: [
-      { ko: '수영, 스노클링(장비 포함), 낚시, 씨바이크, 워터슬라이드, SUP, DJ 파티', en: 'Swimming, snorkeling (gear included), fishing, sea cycling, inflatable slide, SUP, DJ party' },
-      { ko: '환영 샴페인, 열대과일, 프리미엄 BBQ 디너', en: 'Welcome champagne, tropical fruits, premium BBQ dinner' },
-      { ko: '맥주·청량음료·차·디톡스워터 무제한', en: 'Free-flow beer, soft drinks, tea, detox water' },
-      { ko: '빈백·트램폴린, 미니바, 화장실, 와이파이, 수건, 구명조끼, 댄스플로어', en: 'Bean bag & trampoline, minibar, restrooms, Wi-Fi, towels, life jackets, dance floor' },
-    ],
-    extra: {
-      ko: '추가요금(선택): 제트스키 · 플라잉 바나나보트 각 690,000동',
-      en: 'Optional extras: Jet ski · Flying banana boat, 690,000 VND each',
-    },
-    notes: [
-      { ko: '원문 상단은 15:00~20:00, 타임라인은 20:30까지이며 19:00~20:00 구간은 비어 있습니다. 확정 시간은 파트너 확인 중입니다.', en: 'Source header shows 15:00–20:00 while the timeline runs to 20:30, with no entry for 19:00–20:00. Final times are being confirmed with the partner.' },
+    notes: [WEATHER],
+  },
+]
+
+/* 두 투어 공통 */
+export const YACHT_INCLUDED: L[] = [
+  { ko: '즈엉동 시내 중심에서 선착장까지 왕복 이동', en: 'Round-trip transportation from your location in Duong Dong Town Center to the pier' },
+  { ko: '환영 음료와 열대과일', en: 'Welcome drink and tropical fruits' },
+  { ko: '맥주·청량음료·디톡스 음료 무제한', en: 'Unlimited beer, soft drinks, and detox beverages' },
+  { ko: '스노클링, 낚시, 사진 촬영, SUP, 워터사이클, 수영', en: 'Snorkeling, fishing, photography, SUP, water cycling, swimming' },
+  { ko: '요트 위 BBQ 점심/디너', en: 'BBQ lunch/dinner served on board' },
+  { ko: '바텐더 서비스, DJ(오후 공유 투어)', en: 'Bartender service, DJ entertainment (shared afternoon tours)' },
+]
+
+export const YACHT_EXTRA_PAID: L[] = [
+  { ko: '제트스키', en: 'Jet skiing' },
+  { ko: '스쿠버다이빙', en: 'Scuba diving' },
+  { ko: '견인식 튜브 어트랙션(바나나보트 등)', en: 'Towable inflatable rides' },
+]
+
+export const YACHT_EXCLUDED: L[] = [
+  { ko: '패키지에 포함되지 않은 워터스포츠 및 선상 추가 비용', en: 'Water sports activities and any additional expenses on board not included in the package' },
+  { ko: '외부 음식·음료 반입 시 추가요금', en: 'Surcharges for bringing outside food and beverages on board' },
+  { ko: '시내 중심 밖 픽업·드롭 시 추가 교통비', en: 'Additional transportation charges for pick-up and drop-off outside the city center' },
+]
+
+export const YACHT_CANCELLATION: { title: L; rows: L[] }[] = [
+  {
+    title: { ko: '공유 투어', en: 'Shared tours' },
+    rows: [
+      { ko: '출발 48시간 전까지: 100% 환불', en: '48 hours or more before departure: 100% refund' },
+      { ko: '출발 24시간 전까지: 50% 환불', en: '24 hours or more before departure: 50% refund' },
+      { ko: '출발 24시간 이내: 환불 불가', en: 'Within 24 hours of departure: no refund' },
     ],
   },
+  {
+    title: { ko: '프라이빗 차터', en: 'Private charter' },
+    rows: [
+      { ko: '출발 7일 전까지: 100% 환불', en: '7 days or more before departure: 100% refund' },
+      { ko: '출발 3~6일 전: 50% 환불', en: '3–6 days before departure: 50% refund' },
+      { ko: '출발 48시간 이내: 환불 불가', en: 'Within 48 hours of departure: no refund' },
+    ],
+  },
+]
+
+export const YACHT_CANCEL_NOTE: L = {
+  ko: '이용하지 않은 서비스는 환불되지 않습니다.',
+  en: 'No refunds will be provided for unused services.',
+}
+
+export const YACHT_CHILD_POLICY: L[] = [
+  { ko: '0~3세: 무료', en: 'Ages 0–3: complimentary' },
+  { ko: '4세~11세 미만: 성인 요금의 50%', en: 'Ages 4 to under 11: 50% of the adult ticket price' },
+  { ko: '11세 이상: 성인 요금', en: 'Ages 11 and above: adult ticket price' },
 ]
