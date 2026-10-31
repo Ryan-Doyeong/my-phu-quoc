@@ -517,7 +517,7 @@ export function HomePage({
             <Link href={localePath(locale, '/directory/bars')}>
               {categoryLabel('bars', locale)}
             </Link>
-            <Link href={localePath(locale, '/directory/hotels')}>
+            <Link href={localePath(locale, '/hotels')}>
               {categoryLabel('hotels', locale)}
             </Link>
             <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>

@@ -43,6 +43,7 @@ export interface HotelUiDictionary {
   roomView: string
   roomFeatures: string
   operatedBy: string
+  viewAllDirectory: string
 }
 
 export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
@@ -89,6 +90,7 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     roomView: '전망',
     roomFeatures: '객실 편의시설',
     operatedBy: '운영',
+    viewAllDirectory: '선셋타운·켐비치 전체 숙소 디렉터리 보기 →',
   },
   en: {
     pageTitle: 'Sunset Town Hotels & Resorts',
@@ -133,6 +135,7 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     roomView: 'View',
     roomFeatures: 'Amenities',
     operatedBy: 'Operated by',
+    viewAllDirectory: 'View All Sunset Town & Khem Beach Accommodations Directory →',
   },
   zh: {
     pageTitle: '富国岛日落小镇酒店一览',
@@ -177,6 +180,7 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     roomView: '景观',
     roomFeatures: '房间设施',
     operatedBy: '运营方',
+    viewAllDirectory: '查看日落小镇与凯姆海滩完整住宿目录 →',
   },
   ja: {
     pageTitle: 'サンセットタウン ホテル＆リゾート',
@@ -221,6 +225,7 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     roomView: '眺望',
     roomFeatures: '客室設備',
     operatedBy: '運営',
+    viewAllDirectory: 'サンセットタウン・ケムビーチ全宿泊施設ディレクトリを見る →',
   },
   ru: {
     pageTitle: 'Отели и курорты Сансет Тауна',
@@ -265,6 +270,7 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     roomView: 'Ви드',
     roomFeatures: 'Удобства в номере',
     operatedBy: 'Управление',
+    viewAllDirectory: 'Смотреть полный каталог всех отелей Сансет Тауна и Кем Бич →',
   },
   hi: {
     pageTitle: 'सनसेट टाउन होटल और रिसॉर्ट्स',
@@ -309,6 +315,7 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     roomView: 'दृश्य',
     roomFeatures: 'सुविधाएं',
     operatedBy: 'संचालक',
+    viewAllDirectory: 'सनसेट टाउन और खेम बीच की सभी आवास निर्देशिका देखें →',
   },
   vi: {
     pageTitle: '선셋타운 호텔 한눈에 보기',
@@ -353,5 +360,6 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     roomView: '전망',
     roomFeatures: '편의시설',
     operatedBy: '운영',
+    viewAllDirectory: '선셋타운·켐비치 전체 숙소 디렉터리 보기 →',
   },
 }
