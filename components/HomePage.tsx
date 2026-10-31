@@ -276,10 +276,11 @@ export function HomePage({
 
   return (
     <div style={style} className="siteRoot">
-      <div className="heroHeaderWrap">
-        <header className="siteHeader heroHeader">
-          <Logo locale={locale} />
-          <nav className="desktopNav">
+      {/* 0. Top Header (White background, matching Zone page detailNav style) */}
+      <header className="detailNav">
+        <Logo locale={locale} />
+        <div className="detailNavRight">
+          <nav>
             <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
             <Link href={localePath(locale, '/zones/sunset-town')}>
               {HOME_NAV_SUNSET[locale] || HOME_NAV_SUNSET.en}
@@ -299,19 +300,11 @@ export function HomePage({
             <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
             <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
           </nav>
-          <div className="headerActions">
-            <Link
-              href={localePath(locale, '/search')}
-              className="searchGlyph"
-              aria-label={dict.nav.search}
-            >
-              ⌕
-            </Link>
-            <LanguageSwitcher locale={locale} variant="hero" />
-            <MobileMenu locale={locale} />
-          </div>
-        </header>
+          <LanguageSwitcher locale={locale} variant="light" />
+        </div>
+      </header>
 
+      <div className="heroHeaderWrap">
         {/* 1. Rounded Main Photo Box (12px, Sunset Town aerial photo) */}
         <section className="heroPhotoSection">
           <div className="heroImageBox">

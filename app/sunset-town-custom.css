@@ -2860,6 +2860,11 @@
    5. South Overview Section (Clean map overlay, 0 overlaps, active Khem card)
    ============================================================ */
 
+/* 0. Header Wrap (Clean white background, matching zone page style) */
+.heroHeaderWrap {
+  background: #FFFFFF !important;
+}
+
 /* 1. Rounded Main Photo Box */
 .heroPhotoSection {
   padding: 12px 16px 0;
@@ -2936,9 +2941,13 @@
   border-color: #2B96ED;
 }
 .serviceCard.disabled {
-  opacity: 0.65;
+  opacity: 1 !important;
   cursor: default;
-  background: #F8F9FA;
+  background: #FFFFFF !important;
+}
+.serviceCard.disabled:active {
+  transform: none !important;
+  border-color: #DEE2E6 !important;
 }
 .cardIconWrap {
   width: 52px;
@@ -3004,6 +3013,78 @@
   margin-bottom: 16px;
   word-break: keep-all;
 }
+
+/* Hero Search Bar (v10 Mockup specification) */
+.heroTextSection .heroSearch {
+  width: 100% !important;
+  max-width: 600px !important;
+  height: 48px !important;
+  display: flex !important;
+  align-items: center !important;
+  grid-template-columns: none !important;
+  background: #FFFFFF !important;
+  border: 1.5px solid #2B96ED !important;
+  border-radius: 12px !important;
+  padding: 0 6px 0 14px !important;
+  gap: 10px !important;
+  box-shadow: 0 2px 8px rgba(43, 150, 237, 0.08) !important;
+  margin-top: 0 !important;
+  margin-bottom: 14px !important;
+  box-sizing: border-box !important;
+}
+
+.heroTextSection .heroSearch > span {
+  display: block !important;
+  font-size: 18px !important;
+  color: #2B96ED !important;
+  font-weight: 700 !important;
+  flex-shrink: 0 !important;
+  line-height: 1 !important;
+}
+
+.heroTextSection .heroSearch input {
+  flex: 1 !important;
+  width: auto !important;
+  min-width: 0 !important;
+  border: none !important;
+  outline: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  font-size: 13px !important;
+  color: #101418 !important;
+  height: 100% !important;
+}
+
+.heroTextSection .heroSearch input::placeholder {
+  color: #868E96 !important;
+  font-size: 13px !important;
+}
+
+.heroTextSection .heroSearch button {
+  grid-column: auto !important;
+  width: auto !important;
+  height: 36px !important;
+  background: #2B96ED !important;
+  color: #FFFFFF !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 0 14px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  flex-shrink: 0 !important;
+  white-space: nowrap !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-shadow: none !important;
+  transition: background 0.15s ease !important;
+}
+
+.heroTextSection .heroSearch button:hover {
+  background: #1583DB !important;
+}
+
 .heroBtnRow {
   display: flex;
   gap: 8px;
@@ -3052,6 +3133,17 @@
 }
 
 /* 5. South Glance Section Overrides (Clean layout & 0 overlaps) */
+.southGlanceSection .sectionBadge {
+  color: #2B96ED !important;
+  background: #EBF5FF !important;
+  font-size: 11px !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.2px !important;
+  padding: 3px 8px !important;
+  border-radius: 6px !important;
+  text-transform: none !important;
+}
+
 .overviewMapWrap {
   border-radius: 12px !important;
   border: 1px solid #DEE2E6 !important;

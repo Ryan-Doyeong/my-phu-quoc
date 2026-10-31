@@ -139,9 +139,13 @@ function getCrossZoneLinkText(isSunset: boolean, locale: Locale): string {
 function getLandmarksGuideBtnText(locale: string) {
   switch (locale) {
     case 'ko': return '12대 핵심 명소 가이드 보기'
+    /* ChatGPT 검수 대기 */
     case 'zh': return '查看12大核心景点指南'
+    /* ChatGPT 검수 대기 */
     case 'ru': return 'Гид по 12 главным достопримечательностям'
+    /* ChatGPT 검수 대기 */
     case 'ja': return '12大主要スポットガイドを見る'
+    /* ChatGPT 검수 대기 */
     case 'hi': return '12 प्रमुख दर्शनीय स्थलों की गाइड देखें'
     default: return 'View 12 Core Landmark Guides'
   }
