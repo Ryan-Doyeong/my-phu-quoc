@@ -21,7 +21,7 @@ interface HotelsPageProps {
 /* =========================================================================
    1. Unified Hotel Card Component (공통 호텔 카드 컴포넌트)
    - 모든 호텔(더 룸 호텔 및 일반 26곳)이 완벽히 동일한 틀·순서·디자인
-   - 차이: 더 룸 호텔만 '마이푸꾸옥 운영 호텔' 배지 및 구글맵 5.0 평점 추가
+   - 차이: 더 룸 호텔만 '마이 푸꾸옥 추천 호텔' 배지 및 구글맵 5.0 평점 추가
    ========================================================================= */
 interface HotelCardProps {
   hotel: HotelItem
@@ -33,13 +33,12 @@ interface HotelCardProps {
 function HotelCard({ hotel, t, isFeatured = false, onOpenModal }: HotelCardProps) {
   return (
     <div className={`hotelCard ${isFeatured ? 'hotelCardFeatured' : ''}`}>
-      {/* Featured Header Badge (더 룸 호텔만 노출) */}
+      {/* Featured Header Badge (더 룸 호텔만 노출 - 단일 문구로 통일) */}
       {isFeatured && (
         <div className="cardFeaturedHeader">
           <span className="featuredBadge">
-            👑 {hotel.badgeText || t.featuredBadge}
+            👑 {t.featuredBadge}
           </span>
-          <span className="featuredTitleTag">{t.featuredTitle}</span>
         </div>
       )}
 
@@ -190,7 +189,7 @@ function HotelDetailModal({ hotel, t, onClose }: HotelDetailModalProps) {
             <span className="cardStarBadge">{'★'.repeat(hotel.star)} {hotel.star}{t.stars}</span>
             <span className="cableBadge">🚡 {t.cableCarDistance} {hotel.cable_m}m</span>
             {hotel.isFeatured && (
-              <span className="featuredBadge">👑 {hotel.badgeText || t.featuredBadge}</span>
+              <span className="featuredBadge">👑 {t.featuredBadge}</span>
             )}
           </div>
           <a
@@ -250,7 +249,7 @@ function HotelDetailModal({ hotel, t, onClose }: HotelDetailModalProps) {
                         </div>
                         {hotel.googleRating && (
                           <div className="googleRatingSubText">
-                            구글맵 {hotel.googleRating.toFixed(1)} ★ · 리뷰 {hotel.googleReviewsCount || 18}건 (마이푸꾸옥 운영 호텔)
+                            구글맵 {hotel.googleRating.toFixed(1)} ★ · 리뷰 {hotel.googleReviewsCount || 18}건 ({t.featuredBadge})
                           </div>
                         )}
                       </div>
