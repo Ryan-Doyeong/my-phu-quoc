@@ -9,6 +9,9 @@ import {
   localePath,
   stripLocalePrefix,
   detectPreferredLocale,
+  prefersTraditionalChinese,
+  HANT_PREFIX,
+  hantPath,
 } from '@/lib/i18n/config'
 
 const AUTH_PREFIXES = [
@@ -118,6 +121,22 @@ export async function proxy(request: NextRequest) {
     }
   }
 
+  // 2-b) /tw (번체) — 라우트 핸들러(app/tw)로 그대로 통과. /zh·/en 으로 재작성하지 않는다.
+  if (pathname === HANT_PREFIX || pathname.startsWith(`${HANT_PREFIX}/`)) {
+    return NextResponse.next()
+  }
+
+  // 2-c) ?lang=tw -> 쿠키 NEXT_LOCALE=tw 설정 후 /tw 경로로 301
+  if (searchParams.get('lang')?.toLowerCase() === 'tw') {
+    const { barePath } = stripLocalePrefix(pathname)
+    const url = request.nextUrl.clone()
+    url.pathname = hantPath(barePath)
+    url.searchParams.delete('lang')
+    const res = NextResponse.redirect(url, 301)
+    res.cookies.set(LOCALE_COOKIE_NAME, 'tw', { path: '/', maxAge: 31536000, sameSite: 'lax' })
+    return res
+  }
+
   // 3) ?lang=<locale> query parameter -> 301 redirect to path-based locale URL
   const langParam = searchParams.get('lang')?.toLowerCase()
   if (isValidLocale(langParam)) {
@@ -140,6 +159,11 @@ export async function proxy(request: NextRequest) {
 
       if (cookieLang) {
         // User explicitly picked a language earlier
+        if (cookieLang === 'tw') {
+          const url = request.nextUrl.clone()
+          url.pathname = HANT_PREFIX
+          return NextResponse.redirect(url, 307)
+        }
         if (isPrefixedLocale(cookieLang)) {
           const url = request.nextUrl.clone()
           url.pathname = `/${cookieLang}`
@@ -148,6 +172,11 @@ export async function proxy(request: NextRequest) {
       } else {
         // First visit: inspect Accept-Language
         const acceptLang = request.headers.get('accept-language')
+        if (prefersTraditionalChinese(acceptLang)) {
+          const url = request.nextUrl.clone()
+          url.pathname = HANT_PREFIX
+          return NextResponse.redirect(url, 307)
+        }
         const preferred = detectPreferredLocale(acceptLang)
         if (isPrefixedLocale(preferred)) {
           const url = request.nextUrl.clone()

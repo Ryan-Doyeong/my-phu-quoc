@@ -515,6 +515,10 @@ export function HomePage({
           <div className="heroImageBox">
             <img
               src="/hero/02_kiss_bridge_aerial_1920.webp"
+              srcSet="/hero/02_kiss_bridge_aerial_480.webp 480w, /hero/02_kiss_bridge_aerial_768.webp 768w, /hero/02_kiss_bridge_aerial_1200.webp 1200w, /hero/02_kiss_bridge_aerial_1920.webp 1920w"
+              sizes="(max-width: 480px) 100vw, (max-width: 1024px) 100vw, 1200px"
+              width={1920}
+              height={1279}
               alt={((dict as any).home?.heroImageAlt as string | undefined) || pickLocale(HERO_IMAGE_ALT, locale)}
               className="heroImage"
               loading="eager"

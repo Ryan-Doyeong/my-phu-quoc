@@ -1,3 +1,4 @@
+import { ContextCta } from '@/components/ContextCta'
 import Link from 'next/link'
 import { notFound, redirect } from 'next/navigation'
 import type { Metadata } from 'next'
@@ -770,6 +771,9 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
 
             {/* 5. Reviews & Community */}
             {!isNameOnly && <BusinessReviews b={b} locale={locale} />}
+
+            {/* 6. Contextual conversion CTA (buggy tour / WhatsApp) */}
+            <ContextCta locale={locale} variant="business" contextName={businessDisplayName} />
           </div>
 
           {/* Right Column: Practical information (Good Life 100% style) */}

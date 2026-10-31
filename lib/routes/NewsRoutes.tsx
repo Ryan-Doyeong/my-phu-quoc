@@ -1,3 +1,4 @@
+import { ContextCta } from '@/components/ContextCta'
 import Link from 'next/link'
 import { notFound, redirect } from 'next/navigation'
 import type { Metadata } from 'next'
@@ -563,6 +564,7 @@ export async function renderArticleRoute(
             )}
           </div>
         )}
+        <ContextCta locale={locale} variant="news" />
       </article>
     </main>
   )

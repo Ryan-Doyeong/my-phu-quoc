@@ -1,3 +1,4 @@
+import { ContextCta } from '@/components/ContextCta'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
@@ -365,6 +366,8 @@ export async function renderZoneRoute(slug: string, locale: Locale = 'en') {
                 </div>
               </div>
             )}
+
+            <ContextCta locale={locale} variant="zone" zone={isSunset ? 'sunset-town' : 'khem-beach'} />
 
             {/* Section 3: Categories Filter Grid (Approved 8 tiles layout v9) */}
             <div>

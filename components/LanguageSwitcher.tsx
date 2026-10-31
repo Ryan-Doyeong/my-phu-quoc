@@ -1,6 +1,6 @@
 "use client"
 
-import { Suspense, useEffect, useRef, useState } from 'react'
+import { Fragment, Suspense, useEffect, useRef, useState } from 'react'
 import { usePathname, useSearchParams } from 'next/navigation'
 import {
   LOCALES,
@@ -9,6 +9,9 @@ import {
   LEGACY_LOCALE_COOKIE_NAME,
   localePath,
   stripLocalePrefix,
+  HANT_PREFIX,
+  HANT_NATIVE_NAME,
+  hantPath,
   type Locale,
 } from '@/lib/i18n/config'
 
@@ -31,7 +34,9 @@ const SELECT_LANGUAGE_LABEL: Record<Locale, (cur: string) => string> = {
 function LanguageSwitcherInner({ locale, variant = 'light' }: { locale: Locale; variant?: Variant }) {
   const pathname = usePathname() || '/'
   const searchParams = useSearchParams()
-  const { barePath } = stripLocalePrefix(pathname)
+  // /tw 는 /zh 를 OpenCC 로 변환해 서빙하는 번체 경로 (데이터 로케일은 zh 그대로)
+  const isHant = pathname === HANT_PREFIX || pathname.startsWith(`${HANT_PREFIX}/`)
+  const barePath = isHant ? pathname.slice(HANT_PREFIX.length) || '/' : stripLocalePrefix(pathname).barePath
   const [isOpen, setIsOpen] = useState(searchParams.get('openLang') === '1')
   const dropdownRef = useRef<HTMLDivElement>(null)
 
@@ -39,7 +44,7 @@ function LanguageSwitcherInner({ locale, variant = 'light' }: { locale: Locale; 
   sp.delete('lang')
   const qs = sp.toString()
 
-  function handleSelect(targetLocale: Locale) {
+  function handleSelect(targetLocale: Locale | 'tw') {
     try {
       document.cookie = `${LOCALE_COOKIE_NAME}=${targetLocale}; path=/; max-age=31536000; SameSite=Lax`
       document.cookie = `${LEGACY_LOCALE_COOKIE_NAME}=${targetLocale}; path=/; max-age=31536000; SameSite=Lax`
@@ -65,7 +70,8 @@ function LanguageSwitcherInner({ locale, variant = 'light' }: { locale: Locale; 
     return qs ? `${baseTarget}?${qs}` : baseTarget
   }
 
-  const currentNativeName = LOCALE_NATIVE_NAMES[locale] || 'English'
+  const withQs = (target: string) => (qs ? `${target}?${qs}` : target)
+  const currentNativeName = isHant ? HANT_NATIVE_NAME : LOCALE_NATIVE_NAMES[locale] || 'English'
 
   return (
     <div className={rootClass(variant)} ref={dropdownRef}>
@@ -86,10 +92,10 @@ function LanguageSwitcherInner({ locale, variant = 'light' }: { locale: Locale; 
         {isOpen && (
           <div className="prominentLangMenu" role="listbox" aria-label="Languages">
             {LOCALES.map((loc) => {
-              const isActive = loc === locale
+              const isActive = loc === locale && !isHant
               return (
+                <Fragment key={loc}>
                 <a
-                  key={loc}
                   href={hrefFor(loc)}
                   hrefLang={loc}
                   lang={loc}
@@ -101,6 +107,21 @@ function LanguageSwitcherInner({ locale, variant = 'light' }: { locale: Locale; 
                   <span className="langOptionName">{LOCALE_NATIVE_NAMES[loc]}</span>
                   {isActive && <span className="langCheckMark" aria-hidden="true">✓</span>}
                 </a>
+                {loc === 'zh' && (
+                  <a
+                    href={withQs(hantPath(barePath))}
+                    hrefLang="zh-Hant"
+                    lang="zh-Hant"
+                    role="option"
+                    aria-selected={isHant}
+                    className={`prominentLangItem ${isHant ? 'active' : ''}`}
+                    onClick={() => handleSelect('tw')}
+                  >
+                    <span className="langOptionName">{HANT_NATIVE_NAME}</span>
+                    {isHant && <span className="langCheckMark" aria-hidden="true">✓</span>}
+                  </a>
+                )}
+                </Fragment>
               )
             })}
           </div>
