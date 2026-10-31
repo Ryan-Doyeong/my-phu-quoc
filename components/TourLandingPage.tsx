@@ -236,7 +236,7 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
           <Link href={localePath(locale, '/zones/khem-beach')}>켐비치</Link>
           <Link href={localePath(locale, '/directory/dining')}>{categoryLabel('dining', locale)}</Link>
           <Link href={localePath(locale, '/directory/bars')}>{categoryLabel('bars', locale)}</Link>
-          <Link href={localePath(locale, '/directory/hotels')}>{categoryLabel('hotels', locale)}</Link>
+          <Link href={localePath(locale, '/hotels')}>{categoryLabel('hotels', locale)}</Link>
           <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
           <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
         </nav>
