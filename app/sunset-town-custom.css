@@ -2963,10 +2963,12 @@
   height: 34px;
   display: block;
 }
-.iconWrapExchange { background: #ECFDF5; }
-.iconWrapBuggy    { background: #FEF3C7; }
-.iconWrapTaxi     { background: #FFEDD5; }
-.iconWrapEvent    { background: #F3E8FF; }
+.iconWrapExchange  { background: #ECFDF5; }
+.iconWrapBuggy     { background: #FEF3C7; }
+.iconWrapTaxi      { background: #FFEDD5; }
+.iconWrapEvent     { background: #F3E8FF; }
+.iconWrapActivity  { background: #E0F2FE; }
+.iconWrapEmergency { background: #FEE2E2; }
 
 .cardLabel {
   font-size: 13px;
@@ -3242,26 +3244,38 @@
 /* Desktop Styles */
 @media (min-width: 769px) {
   .heroPhotoSection {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 24px 24px 0;
+    box-sizing: border-box;
   }
   .heroImageBox {
-    height: 380px;
+    width: 100%;
+    height: 440px;
+    border-radius: 12px;
   }
   .quickServiceSection {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 24px;
+    box-sizing: border-box;
   }
   .cardScrollTrack {
-    justify-content: flex-start;
-    padding: 4px 0 8px;
-    gap: 16px;
+    display: grid !important;
+    grid-template-columns: repeat(6, 1fr) !important;
+    gap: 16px !important;
+    justify-content: stretch !important;
+    padding: 4px 0 8px !important;
+    width: 100% !important;
+    overflow-x: visible !important;
   }
   .serviceCard {
-    flex: 0 0 110px;
-    padding: 16px 10px 14px;
+    flex: none !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    padding: 16px 8px 14px !important;
   }
   .cardIconWrap {
     width: 60px;
@@ -3272,9 +3286,11 @@
     height: 38px;
   }
   .heroTextSection {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 16px 24px 36px;
+    box-sizing: border-box;
   }
   .heroHeading {
     font-size: 28px;
@@ -3304,4 +3320,487 @@
     gap: 16px !important;
   }
 }
+
+/* ============================================================
+   6. Activities Landing Page (MyRealTrip Style - White / 12px / 8px)
+   ============================================================ */
+.activitiesPageRoot {
+  background: #FFFFFF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.activitiesContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 16px 64px;
+  box-sizing: border-box;
+  flex: 1;
+}
+
+.activitiesBreadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #64748B;
+  margin-bottom: 16px;
+}
+
+.activitiesBreadcrumb a {
+  color: #64748B;
+  text-decoration: none;
+}
+
+.activitiesBreadcrumb a:hover {
+  color: #0F172A;
+}
+
+.activitiesBreadcrumb .current {
+  color: #0F172A;
+  font-weight: 600;
+}
+
+.activitiesHeaderBox {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  padding: 28px 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  margin-bottom: 24px;
+}
+
+.activitiesEyebrow {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: #2B96ED;
+  margin-bottom: 6px;
+}
+
+.activitiesTitle {
+  font-size: 26px;
+  font-weight: 800;
+  color: #0F172A;
+  margin: 0 0 8px;
+  letter-spacing: -0.5px;
+}
+
+.activitiesSubtitle {
+  font-size: 14.5px;
+  color: #475569;
+  line-height: 1.5;
+  margin: 0 0 16px;
+  word-break: keep-all;
+}
+
+.activitiesNoticeTag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #F1F5F9;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 12.5px;
+  color: #475569;
+}
+
+.noticeDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #2B96ED;
+}
+
+.activitiesTilesSection {
+  margin-bottom: 24px;
+}
+
+.activitiesSectionTitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0F172A;
+  margin: 0 0 14px;
+}
+
+.activitiesTilesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px;
+}
+
+.activityCategoryTile {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  padding: 18px 16px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.activityCategoryTile:hover {
+  transform: translateY(-2px);
+  border-color: #2B96ED;
+  box-shadow: 0 4px 12px rgba(43, 150, 237, 0.08);
+}
+
+.tileTopRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.tileIcon {
+  font-size: 28px;
+  line-height: 1;
+}
+
+.tileStatusPill {
+  font-size: 11px;
+  font-weight: 700;
+  color: #2563EB;
+  background: #EFF6FF;
+  border: 1px solid #DBEAFE;
+  padding: 2.5px 8px;
+  border-radius: 4px;
+}
+
+.tileTitle {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0F172A;
+  margin: 0 0 6px;
+}
+
+.tileDesc {
+  font-size: 13px;
+  color: #64748B;
+  line-height: 1.45;
+  margin: 0;
+  word-break: keep-all;
+}
+
+.activitiesCalloutBox {
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.calloutIcon {
+  font-size: 20px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.calloutTitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0F172A;
+  margin-bottom: 4px;
+}
+
+.calloutText {
+  font-size: 13px;
+  color: #64748B;
+  line-height: 1.5;
+  word-break: keep-all;
+}
+
+/* ============================================================
+   7. Emergency Landing Page
+   ============================================================ */
+.emergencyPageRoot {
+  background: #FFFFFF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.emergencyContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 16px 64px;
+  box-sizing: border-box;
+  flex: 1;
+}
+
+.emergencyBreadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #64748B;
+  margin-bottom: 16px;
+}
+
+.emergencyBreadcrumb a {
+  color: #64748B;
+  text-decoration: none;
+}
+
+.emergencyBreadcrumb .current {
+  color: #0F172A;
+  font-weight: 600;
+}
+
+.emergencyHeaderBox {
+  background: #FEF2F2;
+  border: 1px solid #FEE2E2;
+  border-radius: 12px;
+  padding: 28px 24px;
+  margin-bottom: 24px;
+}
+
+.emergencyEyebrow {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: #DC2626;
+  margin-bottom: 6px;
+}
+
+.emergencyTitle {
+  font-size: 26px;
+  font-weight: 800;
+  color: #991B1B;
+  margin: 0 0 8px;
+  letter-spacing: -0.5px;
+}
+
+.emergencySubtitle {
+  font-size: 14.5px;
+  color: #7F1D1D;
+  line-height: 1.5;
+  margin: 0;
+  word-break: keep-all;
+}
+
+.emergencySection {
+  margin-bottom: 28px;
+}
+
+.emergencySectionTitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0F172A;
+  margin: 0 0 14px;
+}
+
+.emergencyHotlineGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.hotlineCard {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  padding: 18px 16px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.hotlineCard.police { border-top: 4px solid #3B82F6; }
+.hotlineCard.fire   { border-top: 4px solid #F97316; }
+.hotlineCard.ambulance { border-top: 4px solid #EF4444; }
+
+.hotlineBadge {
+  font-size: 11px;
+  font-weight: 700;
+  color: #64748B;
+  margin-bottom: 6px;
+}
+
+.hotlineNumber {
+  font-size: 36px;
+  font-weight: 900;
+  color: #0F172A;
+  line-height: 1.1;
+  margin-bottom: 6px;
+  letter-spacing: 1px;
+}
+
+.hotlineDesc {
+  font-size: 12.5px;
+  color: #475569;
+}
+
+.emergencyTip {
+  font-size: 12.5px;
+  color: #475569;
+  background: #F8FAFC;
+  border-radius: 6px;
+  padding: 10px 14px;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.hospitalList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.hospitalCard {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  padding: 18px 20px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+.hospitalCard.noticeOnly {
+  background: #F8FAFC;
+  border-style: dashed;
+}
+
+.hospitalHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.hospitalTag {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2.5px 8px;
+  border-radius: 4px;
+}
+
+.hospitalTag.primary {
+  background: #ECFDF5;
+  color: #059669;
+}
+
+.hospitalTag.international {
+  background: #EFF6FF;
+  color: #2563EB;
+}
+
+.hospitalTag.warning {
+  background: #FEF3C7;
+  color: #D97706;
+}
+
+.hospitalStatus {
+  font-size: 12px;
+  color: #64748B;
+}
+
+.hospitalName {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0F172A;
+  margin: 0 0 6px;
+}
+
+.hospitalDesc {
+  font-size: 13.5px;
+  color: #475569;
+  line-height: 1.45;
+  margin: 0 0 10px;
+  word-break: keep-all;
+}
+
+.hospitalMeta {
+  font-size: 12.5px;
+  color: #64748B;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.consularGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 12px;
+}
+
+.consularCard {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  padding: 18px 20px;
+}
+
+.consularTitle {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0F172A;
+  margin-bottom: 4px;
+}
+
+.consularSubtitle {
+  font-size: 12.5px;
+  color: #64748B;
+  margin-bottom: 10px;
+}
+
+.consularHotline {
+  font-size: 14px;
+  font-weight: 700;
+  color: #DC2626;
+  margin-bottom: 4px;
+}
+
+.consularInfo {
+  font-size: 12.5px;
+  color: #475569;
+}
+
+.emergencyDisclaimerBox {
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-top: 20px;
+}
+
+.disclaimerTitle {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #64748B;
+  margin-bottom: 4px;
+}
+
+.disclaimerText {
+  font-size: 12px;
+  color: #64748B;
+  line-height: 1.5;
+  margin: 0;
+  word-break: keep-all;
+}
+
+@media (min-width: 769px) {
+  .activitiesContainer {
+    padding: 32px 24px 72px;
+  }
+  .activitiesHeaderBox {
+    padding: 36px 32px;
+  }
+  .activitiesTitle {
+    font-size: 32px;
+  }
+  .emergencyContainer {
+    padding: 32px 24px 72px;
+  }
+  .emergencyHeaderBox {
+    padding: 36px 32px;
+  }
+  .emergencyTitle {
+    font-size: 32px;
+  }
+}
+
 
