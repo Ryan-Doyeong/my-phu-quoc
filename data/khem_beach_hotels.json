@@ -173,6 +173,160 @@
       "isFeatured": true
     },
     {
+      "slug": "new-world-phu-quoc-resort",
+      "hotelId": "khem-new-world",
+      "name_ko": "뉴월드 푸꾸옥 리조트",
+      "name_en": "New World Phu Quoc Resort",
+      "star": 5,
+      "officialStar": 5,
+      "area": "khem-beach",
+      "order": 2,
+      "tier": "standard",
+      "rating": 8.9,
+      "reviewsCount": 1160,
+      "subRatings": {
+        "cleanliness": 9.2,
+        "service": 9.1,
+        "facilities": 9.1,
+        "valueForMoney": 8.7,
+        "location": 9.0
+      },
+      "cable_m": 13500,
+      "address": "Khem Beach, An Thới, Phú Quốc, Kiên Giang 922280, Vietnam (바이켐 해변 남측)",
+      "landmarks": [
+        {
+          "name": "바이켐 해변 백사장",
+          "distance": "도보 0분 (비치 프론트)"
+        },
+        {
+          "name": "바이켐 숍하우스 거리",
+          "distance": "도보 5분"
+        },
+        {
+          "name": "선셋타운 & 케이블카",
+          "distance": "차량 약 10분 (약 6.5km)"
+        },
+        {
+          "name": "푸꾸옥 감옥",
+          "distance": "차량 6분 (4.8km)"
+        },
+        {
+          "name": "푸꾸옥 국제공항",
+          "distance": "차량 23분 (19.5km)"
+        }
+      ],
+      "summary": "선셋타운까지 차량 10분, 전 객실 독채 프라이빗 풀빌라 및 120m 인피니티 풀. 평점·후기는 아고다 기준.",
+      "summary_en": "10 min by car to Sunset Town. all private pool villas and 120m infinity pool. Ratings and reviews from Agoda.",
+      "summary_zh": "至日落小镇车程约10分钟，全独栋私人泳池别墅与120米无边泳池。评分与评价基于Agoda数据。",
+      "summary_ja": "サンセットタウンまで車で約10分、全室プライベートプール付きヴィラと120mインフィニティプール。評価・クチコミはAgoda基準。",
+      "summary_ru": "10 мин на авто до Сансет Тауна, все виллы с бассейном и 120-метровый пейзажный бассейн. Оценки и отзывы по данным Agoda.",
+      "summary_vi": "Khoảng 10 phút đi xe tới Sunset Town, 100% biệt thự hồ bơi riêng và hồ bơi vô cực 120m. Đánh giá dựa trên dữ liệu Agoda.",
+      "coreFacilities": [
+        "전 객실 독채 프라이빗 풀빌라",
+        "120m 야외 대형 인피니티 풀",
+        "바이켐 프라이빗 비치 직결",
+        "더 스파(The Spa)",
+        "더 레스토랑 (올데이 뷔페)",
+        "루아 그릴 & 바 (Lúa Grill)",
+        "피트니스 & 요가 스튜디오",
+        "키즈클럽",
+        "카약 & 비치 배구",
+        "24시간 버기 서비스"
+      ],
+      "facilityCategories": [
+        {
+          "name": "수영장 & 비치",
+          "items": [
+            "120m 초대형 야외 인피니티 수영장",
+            "전 빌라 전용 야외 풀장 및 썬라운저",
+            "바이켐 백사장 프라이빗 비치",
+            "비치 발리볼 & 카약 무료 대여"
+          ]
+        },
+        {
+          "name": "레스토랑 & 바",
+          "items": [
+            "The Restaurant (조식 뷔페 및 아시안·서양 요리)",
+            "Lúa Grill & Bar (해산물 숯불 그릴 & 바비큐)",
+            "Pool Bar (칵테일 & 트로피컬 스낵)",
+            "빌라 내 프라이빗 인빌라 다이닝"
+          ]
+        },
+        {
+          "name": "스파 & 웰니스",
+          "items": [
+            "The Spa (독립 트리트먼트 빌라 스파)",
+            "사우나 및 힐링 풀",
+            "피트니스 스튜디오",
+            "모닝 요가 세션"
+          ]
+        },
+        {
+          "name": "가족 편의",
+          "items": [
+            "대형 키즈클럽 및 야외 놀이터",
+            "24시간 버기 서비스",
+            "리조트 내 자전거 대여",
+            "공항 유료 리무진 서비스"
+          ]
+        }
+      ],
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "builtYear": 2021,
+      "floors": 1,
+      "rooms": [
+        {
+          "name": "가든 풀빌라 (3베드룸)",
+          "size": "175㎡",
+          "bed": "킹 침대 2개 + 트윈 침대 2개",
+          "view": "프라이빗 정원 / 풀뷰",
+          "features": "단독 야외 수영장, 야외 썬데크, 독립 거실, 3개 침실 및 개별 욕실"
+        },
+        {
+          "name": "프리미엄 풀빌라 (3베드룸)",
+          "size": "261㎡",
+          "bed": "킹 침대 2개 + 트윈 2개",
+          "view": "가든 / 라군뷰",
+          "features": "더 넓은 거실과 다이닝 공간, 프라이빗 풀, 야외 샤워부스"
+        },
+        {
+          "name": "오션뷰 풀빌라 (3베드룸)",
+          "size": "261㎡",
+          "bed": "킹 침대 2개 + 트윈 2개",
+          "view": "바이켐 바다 전망",
+          "features": "해변 조망 전용 풀, 프라이빗 테라스 카바나, 프리미엄 어메니티"
+        },
+        {
+          "name": "비치프론트 풀빌라 (4베드룸)",
+          "size": "415㎡",
+          "bed": "마스터 킹 3개 + 트윈 2개",
+          "view": "백사장 바로 앞 오션뷰",
+          "features": "해변 모래사장 1초 직결, 초대형 프라이빗 수영장, 버틀러 서비스"
+        }
+      ],
+      "photos": [
+        "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-resort-overview.jpg",
+        "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-pool-villa.jpg",
+        "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-infinity-pool.jpg",
+        "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-the-spa.jpg"
+      ],
+      "agodaUrl": "https://www.agoda.com/new-world-phu-quoc-resort/hotel/phu-quoc-island-vn.html",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJy5uCwXCXpzERQSR2-hAgnuo",
+      "googleRating": 4.7,
+      "googleReviewsCount": 6093,
+      "reviewHighlight": "전 객실 프라이빗 풀빌라의 프라이버시와 환상적인 120m 인피니티 풀",
+      "reviewPros": [
+        "모든 객실이 독립된 수영장을 갖춘 단독 풀빌라로 사생활 보호 철저",
+        "해변까지 곧게 뻗은 120m 대형 인피니티 풀의 이국적인 경관",
+        "전통 어촌 가옥을 모티브로 한 아늑하고 고급스러운 인테리어",
+        "친절하고 신속한 버기 및 직원 서비스, 풍성한 조식"
+      ],
+      "driveMinutesToSunsetTown": 10,
+      "driveMinutesNote": "사장님 확인 2026-10-31",
+      "agodaRawDescription": "바이켐 해변의 모래사장에 자리잡은 전 객실 독채 풀빌라 리조트입니다. 베트남 전통 어촌 마을의 초가지붕과 목재 건축 양식을 현대적으로 재해석한 375채의 독채 풀빌라로만 이루어져 있습니다. 리조트 중앙에는 해변까지 이어진 120미터 길이의 야외 인피니티 풀이 자리하며, 더 스파(The Spa), 바이켐 백사장, 키즈클럽, 그릴 레스토랑을 갖추고 있습니다."
+    },
+    {
       "slug": "premier-village-phu-quoc-resort",
       "hotelId": "khem-premier-village",
       "name_ko": "프리미어 빌리지 푸꾸옥 리조트 바이 아코르",
@@ -180,7 +334,7 @@
       "star": 5,
       "officialStar": 5,
       "area": "khem-beach",
-      "order": 2,
+      "order": 3,
       "tier": "standard",
       "rating": 9.0,
       "reviewsCount": 1420,
@@ -331,7 +485,7 @@
       "star": 5,
       "officialStar": 5,
       "area": "khem-beach",
-      "order": 3,
+      "order": 4,
       "tier": "standard",
       "rating": 8.8,
       "reviewsCount": 4210,
@@ -475,160 +629,6 @@
       "driveMinutesToSunsetTown": 10,
       "driveMinutesNote": "사장님 확인 2026-10-31",
       "agodaRawDescription": "바이켐 해변의 백사장을 품은 아코르(Accor) 계열의 5성급 콘도텔형 리조트입니다. 총 629개의 현대적인 객실과 아파트먼트형 스위트로 구성되어 있으며, 일부 객실에는 간이 주방과 개인 플런지 풀이 구비되어 있어 가족 단위 여행객에게 인기가 높습니다. 5,000㎡ 규모의 계단식 멀티 레벨 야외 수영장은 해변까지 자연스럽게 연결되며, 키즈클럽, 에메랄드 스파, 다양한 레스토랑을 갖추고 있습니다."
-    },
-    {
-      "slug": "new-world-phu-quoc-resort",
-      "hotelId": "khem-new-world",
-      "name_ko": "뉴월드 푸꾸옥 리조트",
-      "name_en": "New World Phu Quoc Resort",
-      "star": 5,
-      "officialStar": 5,
-      "area": "khem-beach",
-      "order": 4,
-      "tier": "standard",
-      "rating": 8.9,
-      "reviewsCount": 1160,
-      "subRatings": {
-        "cleanliness": 9.2,
-        "service": 9.1,
-        "facilities": 9.1,
-        "valueForMoney": 8.7,
-        "location": 9.0
-      },
-      "cable_m": 13500,
-      "address": "Khem Beach, An Thới, Phú Quốc, Kiên Giang 922280, Vietnam (바이켐 해변 남측)",
-      "landmarks": [
-        {
-          "name": "바이켐 해변 백사장",
-          "distance": "도보 0분 (비치 프론트)"
-        },
-        {
-          "name": "바이켐 숍하우스 거리",
-          "distance": "도보 5분"
-        },
-        {
-          "name": "선셋타운 & 케이블카",
-          "distance": "차량 약 10분 (약 6.5km)"
-        },
-        {
-          "name": "푸꾸옥 감옥",
-          "distance": "차량 6분 (4.8km)"
-        },
-        {
-          "name": "푸꾸옥 국제공항",
-          "distance": "차량 23분 (19.5km)"
-        }
-      ],
-      "summary": "선셋타운까지 차량 10분, 전 객실 독채 프라이빗 풀빌라 및 120m 인피니티 풀. 평점·후기는 아고다 기준.",
-      "summary_en": "10 min by car to Sunset Town. all private pool villas and 120m infinity pool. Ratings and reviews from Agoda.",
-      "summary_zh": "至日落小镇车程约10分钟，全独栋私人泳池别墅与120米无边泳池。评分与评价基于Agoda数据。",
-      "summary_ja": "サンセットタウンまで車で約10分、全室プライベートプール付きヴィラと120mインフィニティプール。評価・クチコミはAgoda基準。",
-      "summary_ru": "10 мин на авто до Сансет Тауна, все виллы с бассейном и 120-метровый пейзажный бассейн. Оценки и отзывы по данным Agoda.",
-      "summary_vi": "Khoảng 10 phút đi xe tới Sunset Town, 100% biệt thự hồ bơi riêng và hồ bơi vô cực 120m. Đánh giá dựa trên dữ liệu Agoda.",
-      "coreFacilities": [
-        "전 객실 독채 프라이빗 풀빌라",
-        "120m 야외 대형 인피니티 풀",
-        "바이켐 프라이빗 비치 직결",
-        "더 스파(The Spa)",
-        "더 레스토랑 (올데이 뷔페)",
-        "루아 그릴 & 바 (Lúa Grill)",
-        "피트니스 & 요가 스튜디오",
-        "키즈클럽",
-        "카약 & 비치 배구",
-        "24시간 버기 서비스"
-      ],
-      "facilityCategories": [
-        {
-          "name": "수영장 & 비치",
-          "items": [
-            "120m 초대형 야외 인피니티 수영장",
-            "전 빌라 전용 야외 풀장 및 썬라운저",
-            "바이켐 백사장 프라이빗 비치",
-            "비치 발리볼 & 카약 무료 대여"
-          ]
-        },
-        {
-          "name": "레스토랑 & 바",
-          "items": [
-            "The Restaurant (조식 뷔페 및 아시안·서양 요리)",
-            "Lúa Grill & Bar (해산물 숯불 그릴 & 바비큐)",
-            "Pool Bar (칵테일 & 트로피컬 스낵)",
-            "빌라 내 프라이빗 인빌라 다이닝"
-          ]
-        },
-        {
-          "name": "스파 & 웰니스",
-          "items": [
-            "The Spa (독립 트리트먼트 빌라 스파)",
-            "사우나 및 힐링 풀",
-            "피트니스 스튜디오",
-            "모닝 요가 세션"
-          ]
-        },
-        {
-          "name": "가족 편의",
-          "items": [
-            "대형 키즈클럽 및 야외 놀이터",
-            "24시간 버기 서비스",
-            "리조트 내 자전거 대여",
-            "공항 유료 리무진 서비스"
-          ]
-        }
-      ],
-      "checkIn": "15:00",
-      "checkOut": "12:00",
-      "builtYear": 2021,
-      "floors": 1,
-      "rooms": [
-        {
-          "name": "가든 풀빌라 (3베드룸)",
-          "size": "175㎡",
-          "bed": "킹 침대 2개 + 트윈 침대 2개",
-          "view": "프라이빗 정원 / 풀뷰",
-          "features": "단독 야외 수영장, 야외 썬데크, 독립 거실, 3개 침실 및 개별 욕실"
-        },
-        {
-          "name": "프리미엄 풀빌라 (3베드룸)",
-          "size": "261㎡",
-          "bed": "킹 침대 2개 + 트윈 2개",
-          "view": "가든 / 라군뷰",
-          "features": "더 넓은 거실과 다이닝 공간, 프라이빗 풀, 야외 샤워부스"
-        },
-        {
-          "name": "오션뷰 풀빌라 (3베드룸)",
-          "size": "261㎡",
-          "bed": "킹 침대 2개 + 트윈 2개",
-          "view": "바이켐 바다 전망",
-          "features": "해변 조망 전용 풀, 프라이빗 테라스 카바나, 프리미엄 어메니티"
-        },
-        {
-          "name": "비치프론트 풀빌라 (4베드룸)",
-          "size": "415㎡",
-          "bed": "마스터 킹 3개 + 트윈 2개",
-          "view": "백사장 바로 앞 오션뷰",
-          "features": "해변 모래사장 1초 직결, 초대형 프라이빗 수영장, 버틀러 서비스"
-        }
-      ],
-      "photos": [
-        "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-resort-overview.jpg",
-        "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-pool-villa.jpg",
-        "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-infinity-pool.jpg",
-        "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-the-spa.jpg"
-      ],
-      "agodaUrl": "https://www.agoda.com/new-world-phu-quoc-resort/hotel/phu-quoc-island-vn.html",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJy5uCwXCXpzERQSR2-hAgnuo",
-      "googleRating": 4.7,
-      "googleReviewsCount": 6093,
-      "reviewHighlight": "전 객실 프라이빗 풀빌라의 프라이버시와 환상적인 120m 인피니티 풀",
-      "reviewPros": [
-        "모든 객실이 독립된 수영장을 갖춘 단독 풀빌라로 사생활 보호 철저",
-        "해변까지 곧게 뻗은 120m 대형 인피니티 풀의 이국적인 경관",
-        "전통 어촌 가옥을 모티브로 한 아늑하고 고급스러운 인테리어",
-        "친절하고 신속한 버기 및 직원 서비스, 풍성한 조식"
-      ],
-      "driveMinutesToSunsetTown": 10,
-      "driveMinutesNote": "사장님 확인 2026-10-31",
-      "agodaRawDescription": "바이켐 해변의 모래사장에 자리잡은 전 객실 독채 풀빌라 리조트입니다. 베트남 전통 어촌 마을의 초가지붕과 목재 건축 양식을 현대적으로 재해석한 375채의 독채 풀빌라로만 이루어져 있습니다. 리조트 중앙에는 해변까지 이어진 120미터 길이의 야외 인피니티 풀이 자리하며, 더 스파(The Spa), 바이켐 백사장, 키즈클럽, 그릴 레스토랑을 갖추고 있습니다."
     },
     {
       "slug": "paralia-khem-beach-phu-quoc-hotel",
