@@ -802,6 +802,14 @@ function HotelsPageInner({ hotels, locale = 'en' }: HotelsPageProps) {
     }
   }, [hotelQuery, hotels])
 
+  // Dynamically update document.title based on selected area
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      const pageTitle = activeArea === 'khem-beach' ? t.pageTitleKhemBeach : t.pageTitleSunsetTown
+      document.title = `${pageTitle} | MyPhuQuoc.NET`
+    }
+  }, [activeArea, t])
+
   // Partition Sunset Town hotels
   const sunsetHotels = useMemo(() => {
     return hotels.filter(h => h.area === 'sunset-town' || !h.area)
@@ -900,11 +908,13 @@ function HotelsPageInner({ hotels, locale = 'en' }: HotelsPageProps) {
         <div className="hotelsHeroContent">
           <div className="hotelsHeroBadge">
             <span>✨</span>
-            <span>{activeArea === 'khem-beach' ? 'Bai Khem Luxury Resorts' : 'Sunset Town Hotels & Resorts'}</span>
+            <span>{activeArea === 'khem-beach' ? t.badgeKhemBeach : t.badgeSunsetTown}</span>
           </div>
-          <h1 className="hotelsHeroTitle">{t.pageTitle}</h1>
+          <h1 className="hotelsHeroTitle">
+            {activeArea === 'khem-beach' ? t.pageTitleKhemBeach : t.pageTitleSunsetTown}
+          </h1>
           <p className="hotelsHeroSubtitle">
-            {activeArea === 'khem-beach' ? t.khemHeroSubtitle : t.pageSubtitle}
+            {activeArea === 'khem-beach' ? t.pageSubtitleKhemBeach : t.pageSubtitleSunsetTown}
           </p>
         </div>
       </section>
@@ -1059,7 +1069,7 @@ function HotelsPageInner({ hotels, locale = 'en' }: HotelsPageProps) {
         )}
 
         {/* =========================================================================
-            SECTION 2: KHEM BEACH VIEW (7곳 럭셔리 리조트 & 부티크 호텔)
+            SECTION 2: KHEM BEACH VIEW (7곳 리조트 & 부티크 호텔)
             ========================================================================= */}
         {activeArea === 'khem-beach' && (
           <div className="sectionBlock khemSection">
@@ -1068,7 +1078,7 @@ function HotelsPageInner({ hotels, locale = 'en' }: HotelsPageProps) {
                 🏖️ {t.sectionKhemResorts} <span className="sectionCount">({displayKhemHotels.length}{t.countSuffix})</span>
               </h2>
             </div>
-            <p className="sectionSubtitle">{t.khemHeroSubtitle}</p>
+            <p className="sectionSubtitle">{t.pageSubtitleKhemBeach}</p>
 
             {/* 켐 비치 필터 및 정렬 컨트롤 */}
             <div className="filterControlsWrap" style={{ margin: '0 0 24px 0' }}>
