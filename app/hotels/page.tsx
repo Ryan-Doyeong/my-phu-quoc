@@ -4,9 +4,9 @@ import { generateHotelsMetadata, renderHotelsRoute } from '@/lib/routes/HotelsRo
 export const revalidate = 300
 
 export async function generateMetadata(): Promise<Metadata> {
-  return generateHotelsMetadata('ko')
+  return generateHotelsMetadata('en')
 }
 
 export default async function HotelsPage() {
-  return renderHotelsRoute('ko')
+  return renderHotelsRoute('en')
 }
