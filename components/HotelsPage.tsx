@@ -139,7 +139,7 @@ function HotelCard({ hotel, t, locale, isFeatured = false, onOpenModal }: HotelC
           ))}
         </div>
 
-        {/* 상세 보기 / Agoda에서 예약 버튼 */}
+        {/* 상세 보기 / 구글맵 / Agoda에서 예약 버튼 */}
         <div className="cardActionRow">
           <button
             type="button"
@@ -148,6 +148,18 @@ function HotelCard({ hotel, t, locale, isFeatured = false, onOpenModal }: HotelC
           >
             {t.viewDetails}
           </button>
+          {hotel.googleMapsUrl && (
+            <a
+              href={hotel.googleMapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cardBtnGoogleMaps"
+              title={t.viewOnGoogleMaps}
+            >
+              <span>🗺️</span>
+              <span>{t.viewOnGoogleMapsShort}</span>
+            </a>
+          )}
           <a
             href={hotel.agodaUrl}
             target="_blank"
@@ -662,6 +674,22 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                             <li key={idx}>{lm.name}: {lm.distance}</li>
                           ))}
                         </ul>
+                      </div>
+                    )}
+
+                    {/* 구글맵에서 위치 보기 버튼 */}
+                    {hotel.googleMapsUrl && (
+                      <div style={{ marginTop: '16px', textAlign: 'center' }}>
+                        <a
+                          href={hotel.googleMapsUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btnGoogleMapsLocation"
+                        >
+                          <span>🗺️</span>
+                          <span>{t.viewOnGoogleMaps}</span>
+                          <span style={{ fontSize: '0.8rem', opacity: 0.8 }}>↗</span>
+                        </a>
                       </div>
                     )}
                   </div>

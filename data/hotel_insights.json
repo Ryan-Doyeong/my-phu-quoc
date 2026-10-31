@@ -12,7 +12,8 @@
     ],
     "cons": [
       "한 층에 객실 3개 중 오션뷰 객실은 1개(예약 시 객실 유형 확인 필요)"
-    ]
+    ],
+    "googleMapsUrl": "https://maps.app.goo.gl/kDva8BBXaBeUxBvi8"
   },
   "la-festa-phu-quoc-curio-collection-by-hilton": {
     "location": "혼똔섬 케이블카 200m, 선셋타운 중심 광장 및 키스브릿지 인접",
@@ -23,7 +24,8 @@
       "인피니티 풀에서 키스브릿지 일몰과 야간 불꽃놀이 조망",
       "선셋타운 중심부에 위치해 도보 이동 편리"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJc4_lgKCWpzERfX9ic42Xi-s"
   },
   "roma-hotel-phu-quoc-h39560696": {
     "location": "혼똔섬 케이블카 260m 거리",
@@ -33,7 +35,8 @@
     "pros": [
       "루프탑 일몰 전망 및 스파 시설 완비"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJjwfWKIqXpzERYsn-qQI_59o"
   },
   "times-corner-sorrento-boutique-hotel": {
     "location": "혼똔섬 케이블카 370m, 소렌토 거리 위치(야시장 도보 3분)",
@@ -43,7 +46,8 @@
     "pros": [
       "부이페스트 야시장 도보 3분 접근성"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJk9NfQm6XpzERAcfkxs2uJV8"
   },
   "le-bonheur-hotel": {
     "location": "혼똔섬 케이블카 탑승장 80m 거리",
@@ -53,7 +57,8 @@
     "pros": [
       "케이블카 탑승장 도보 1분 이내 접근성"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJPZ4-MRiXpzER0cBb6s2l0EI"
   },
   "venice-hotel-phu-quoc": {
     "location": "혼똔섬 케이블카 390m, 베니스 거리 중심",
@@ -63,7 +68,8 @@
     "pros": [
       "키스브릿지 파노라마 뷰 및 사우나·피트니스 부대시설"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJT1X9WkqVpzERe6nExGNSEYw"
   },
   "coastal-living-hotel-phu-quoc": {
     "location": "혼똔섬 케이블카 360m 거리",
@@ -73,7 +79,8 @@
     "pros": [
       "신축 시설의 청결도 및 정돈된 인테리어"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Coastal+Living+Hotel+Sunset+Town+Phu+Quoc"
   },
   "roma-hotel-phu-qu-c": {
     "location": "혼똔섬 케이블카 480m 거리, 선셋타운 중심",
@@ -83,7 +90,8 @@
     "pros": [
       "선셋타운 산책로 도보 이동 편리"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJSf1XiyqVpzERESXp2yD4RDI"
   },
   "sakurakyo-hotel-spa-phu-quoc": {
     "location": "혼똔섬 케이블카 120m 거리",
@@ -93,7 +101,8 @@
     "pros": [
       "케이블카 120m 근접, 수영장 및 스파 완비"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ5RnXOaiXpzER0QhbiBUJ6d8"
   },
   "times-corner-amalfi-hotel": {
     "location": "혼똔섬 케이블카 140m 거리",
@@ -103,7 +112,8 @@
     "pros": [
       "씨뷰 객실 불꽃놀이 관람, 야외 수영장 및 풀사이드 바"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJjRZrewCXpzERoLfxbMC-_ao"
   },
   "milan-hotel-coffee": {
     "location": "혼똔섬 케이블카 390m 거리",
@@ -113,7 +123,8 @@
     "pros": [
       "옥상 수영장 및 1층 카페 편의"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ8wmMbXaXpzERStmPml0_UD8"
   },
   "kl-hotel-phu-quoc": {
     "location": "혼똔섬 케이블카 탑승장 40m 거리",
@@ -123,7 +134,8 @@
     "pros": [
       "케이블카 탑승장 바로 앞 위치, 주변 상권 접근성"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=KL+Hotel+Phu+Quoc+Sunset+Town+An+Thoi"
   },
   "casepia": {
     "location": "혼똔섬 케이블카 350m, 해변 산책로 인접",
@@ -133,7 +145,8 @@
     "pros": [
       "해변 산책로 및 비치클럽 인접 입지"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJRxYLYomXpzERCi3mFgoiNp4"
   },
   "solea-hotel-sunset-town-phu-quoc": {
     "location": "혼똔섬 케이블카 240m 거리",
@@ -143,7 +156,8 @@
     "pros": [
       "어린이 풀 포함 야외 수영장 및 피트니스 완비"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJxbxyGNSXpzEREPa-cnK86aY"
   },
   "de-stefano-coffee-and-hotel": {
     "location": "혼똔섬 케이블카 200m 거리",
@@ -153,7 +167,8 @@
     "pros": [
       "1층 카페 운영 및 조식 뷔페·공용 주방 완비"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJCY_uEYqXpzERtNAHnYgN8rc"
   },
   "khach-san-royal-phu-quoc": {
     "location": "혼똔섬 케이블카 100m, 해변 산책로 인접",
@@ -163,7 +178,8 @@
     "pros": [
       "케이블카 100m 도보권 및 해변 산책로 인접"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJtc9o0lKXpzERaiJkBt3PCf0"
   },
   "cybele-hotel": {
     "location": "혼똔섬 케이블카 380m, 포지타노 거리 위치",
@@ -173,7 +189,8 @@
     "pros": [
       "포지타노 거리의 정돈된 골목 분위기"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJM3WdM8mVpzERaaspeat4G3I"
   },
   "ca-che-p-boutique-house": {
     "location": "혼똔섬 케이블카 250m 거리",
@@ -183,7 +200,8 @@
     "pros": [
       "케이블카 도보 이동 편리, 친절한 직원 서비스"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ca+Chep+Boutique+House+Sunset+Town+Phu+Quoc"
   },
   "hoang-hon-hotel": {
     "location": "혼똔섬 케이블카 370m 거리",
@@ -193,7 +211,8 @@
     "pros": [
       "옥상 선셋 라운지 및 24시간 프런트 서비스"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJufI0FqCVpzER1FiJropT03Y"
   },
   "palo-santo-hotel-phu-quoc": {
     "location": "혼똔섬 케이블카 430m 거리",
@@ -203,7 +222,8 @@
     "pros": [
       "스파 및 마사지 부대시설 완비, 24시간 프런트"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Palo+Santo+Hotel+Phu+Quoc+Sunset+Town"
   },
   "thala-hotel-sorrento": {
     "location": "혼똔섬 케이블카 160m(도보 약 2분), 소렌토 구역",
@@ -213,7 +233,8 @@
     "pros": [
       "케이블카 도보 2분 접근성 및 신축 객실 컨디션"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJhRYHJwCXpzERee2VZCGiccg"
   },
   "catarina-hotel-phu-quoc": {
     "location": "혼똔섬 케이블카 230m 거리",
@@ -223,7 +244,8 @@
     "pros": [
       "주방 시설 완비 및 24시간 프런트 데스크 운영"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Catarina+Hotel+Phu+Quoc+Sunset+Town"
   },
   "sunny-hotel": {
     "location": "혼똔섬 케이블카 370m 거리",
@@ -233,7 +255,8 @@
     "pros": [
       "친절한 직원 서비스 및 사우나 시설 지원"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJPxfJfpeXpzERMNfR5dHAXJE"
   },
   "solaro-hotel-spa-h84816481": {
     "location": "혼똔섬 케이블카 150m 거리",
@@ -243,7 +266,8 @@
     "pros": [
       "실내외 수영장 및 대형 스파 부대시설 완비"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Solaro+Hotel+Sunset+Town+Phu+Quoc"
   },
   "anna-hotel-free-cable-car-and-water-park-tickets": {
     "location": "혼똔섬 케이블카 340m 거리",
@@ -253,7 +277,8 @@
     "pros": [
       "인피니티 풀 및 피트니스·공용 주방 완비"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Anna+Hotel+Sunset+Town+Phu+Quoc"
   },
   "juliet-boutique-hotel": {
     "location": "혼똔섬 케이블카 370m 거리",
@@ -263,7 +288,8 @@
     "pros": [
       "전용 해변 산책로 인접 및 조식 뷔페 제공"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ5Z5ZTfmVpzERiSVXng2WHUY"
   },
   "hoa-ng-hon-ti-m-boutique-hotel": {
     "location": "혼똔섬 케이블카 220m, 소렌토 거리 위치",
@@ -273,6 +299,7 @@
     "pros": [
       "소렌토 거리 위치 및 24시간 프런트 데스크 운영"
     ],
-    "cons": []
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJe4CLfRKXpzERL0ZvGC778Bk"
   }
 }

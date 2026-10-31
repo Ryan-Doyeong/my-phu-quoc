@@ -438,6 +438,30 @@
   transform: translateY(-1px);
 }
 
+.featuredBtnGoogleMaps {
+  flex: 1;
+  background: #f8fafc;
+  border: 1.5px solid #cbd5e1;
+  color: #1e293b;
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  text-decoration: none;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+
+.featuredBtnGoogleMaps:hover {
+  background: #f1f5f9;
+  border-color: #0B7A8A;
+  color: #0B7A8A;
+}
+
 /* The Room Hotel Extra Content (Room Table & Google Reviews) */
 .theRoomExtras {
   border-top: 1px solid #f1f5f9;
@@ -742,6 +766,53 @@
 .cardBtnAgoda:hover {
   background: #2563eb;
   border-color: #2563eb;
+}
+
+.cardBtnGoogleMaps {
+  flex: 1;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  color: #334155;
+  padding: 10px 8px;
+  border-radius: 8px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.cardBtnGoogleMaps:hover {
+  background: #f1f5f9;
+  border-color: #0B7A8A;
+  color: #0B7A8A;
+}
+
+.btnGoogleMapsLocation {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #ffffff;
+  border: 1.5px solid #0B7A8A;
+  color: #0B7A8A;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.btnGoogleMapsLocation:hover {
+  background: #0B7A8A;
+  color: #ffffff;
 }
 
 /* Modal Styles */

@@ -72,6 +72,8 @@ export interface HotelUiDictionary {
   prosLabel: string
   consLabel: string
   viewAllFacilitiesAgoda: string
+  viewOnGoogleMaps: string
+  viewOnGoogleMapsShort: string
 }
 
 export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
@@ -147,6 +149,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     prosLabel: "주요 장점",
     consLabel: "참고 사항 (아쉬운 점)",
     viewAllFacilitiesAgoda: "Agoda에서 전체 시설 보기 ↗",
+    viewOnGoogleMaps: "구글맵에서 위치 보기",
+    viewOnGoogleMapsShort: "구글맵",
   },
   en: {
     pageTitle: 'Sunset Town Hotels & Resorts',
@@ -220,6 +224,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     prosLabel: "Key Pros",
     consLabel: "Things to Note (Cons)",
     viewAllFacilitiesAgoda: "View All Facilities on Agoda ↗",
+    viewOnGoogleMaps: "View on Google Maps",
+    viewOnGoogleMapsShort: "Google Maps",
   },
   zh: {
     pageTitle: '富国岛日落小镇酒店一览',
@@ -293,6 +299,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     prosLabel: "主要优势",
     consLabel: "注意事项（不足之处）",
     viewAllFacilitiesAgoda: "在 Agoda 查看全部设施 ↗",
+    viewOnGoogleMaps: "在 Google 地图上查看位置",
+    viewOnGoogleMapsShort: "Google 地图",
   },
   ja: {
     pageTitle: 'サンセットタウン ホテル＆リゾート',
@@ -366,6 +374,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     prosLabel: "主なメリット",
     consLabel: "留意事項・注意点",
     viewAllFacilitiesAgoda: "Agodaで全アメニティを見る ↗",
+    viewOnGoogleMaps: "Googleマップで位置を見る",
+    viewOnGoogleMapsShort: "Googleマップ",
   },
   ru: {
     pageTitle: 'Отели и курорты Сансет Тауна',
@@ -439,6 +449,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     prosLabel: "Главные плюсы",
     consLabel: "На что обратить внимание",
     viewAllFacilitiesAgoda: "Все удобства на Agoda ↗",
+    viewOnGoogleMaps: "Посмотреть на Google Картах",
+    viewOnGoogleMapsShort: "Карта Google",
   },
   hi: {
     pageTitle: 'सनसेट टाउन होटल और रिसॉर्ट्स',
@@ -512,6 +524,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     prosLabel: "मुख्य लाभ",
     consLabel: "ध्यान देने योग्य बातें",
     viewAllFacilitiesAgoda: "Agoda पर सभी सुविधाएं देखें ↗",
+    viewOnGoogleMaps: "Google मैप्स पर स्थान देखें",
+    viewOnGoogleMapsShort: "Google मैप्स",
   },
   vi: {
     pageTitle: '선셋타운 호텔 한눈에 보기',
@@ -585,5 +599,7 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     prosLabel: "Điểm cộng nổi bật",
     consLabel: "Lưu ý trước khi đặt phòng",
     viewAllFacilitiesAgoda: "Xem tất cả tiện nghi trên Agoda ↗",
+    viewOnGoogleMaps: "Xem vị trí trên Google Maps",
+    viewOnGoogleMapsShort: "Google Maps",
   },
 }
