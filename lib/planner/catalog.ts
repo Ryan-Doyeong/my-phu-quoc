@@ -219,6 +219,21 @@ export const PRODUCTS: Record<string, Product> = {
       en: 'A valid licence (e.g. IDP) is required in Vietnam; insurance may not cover unlicensed riders.',
     },
   },
+  morning_spa: {
+    id: 'morning_spa',
+    kind: 'service',
+    operator: 'partner',
+    name: { ko: '선셋타운 모닝 스파', en: 'Sunset Town morning spa' },
+    summary: {
+      ko: '이른 아침 도착한 단체가 체크인 전 씻고 쉬어 갈 수 있는 모닝 스파예요.',
+      en: 'Freshen up and relax before check-in — for groups arriving early.',
+    },
+    duration: { ko: '60~120분 (업데이트 예정)', en: '60–120 min (coming soon)' },
+    price: { base: null },
+    vendor: null,
+    // 차후 업체 확정 시 false로 바꾸면 4인 이상 이른 아침 도착 일정에 자동 노출됩니다.
+    hidden: true,
+  },
   symphony_ticket: {
     id: 'symphony_ticket',
     kind: 'ticket',
@@ -343,6 +358,27 @@ export const SPOT = {
     desc: {
       ko: '중부에서 차로 약 30분 이상. 테마파크·사파리 운영시간과 입장권은 미리 확인하세요.',
       en: '30+ min drive from the centre. Check opening hours and tickets beforehand.',
+    },
+  },
+  hoQuoc: {
+    title: { ko: '호국사 둘러보기', en: 'Ho Quoc Pagoda' },
+    desc: {
+      ko: '섬 동쪽 바다를 내려다보는 큰 사찰. 이른 아침에 조용히 둘러보기 좋아요. 짐이 있으면 차량으로 이동하는 게 편해요.',
+      en: 'A large pagoda overlooking the east coast — calm in the early morning. Easiest by car if you have luggage.',
+    },
+  },
+  phoBreakfast: {
+    title: { ko: '쌀국수 아침 (퍼 틴 · 하이봇)', en: 'Pho breakfast (Pho Thin · Haibot)' },
+    desc: {
+      ko: '선셋타운의 퍼 틴(Pho Thin), 하이봇(Haibot)에서 아침으로 쌀국수를 먹어요.',
+      en: 'Pho for breakfast at Pho Thin or Haibot in Sunset Town.',
+    },
+  },
+  bakery: {
+    title: { ko: '에릭 카이저 베이커리에서 커피', en: 'Coffee at Maison Kayser bakery' },
+    desc: {
+      ko: '선그룹이 운영하는 에릭 카이저(Maison Kayser) 빵집은 아침 일찍 문을 열어요. 빵과 커피로 쉬어 가요.',
+      en: 'The Sun Group–run Maison Kayser bakery opens early — bread and coffee.',
     },
   },
   lunch: {

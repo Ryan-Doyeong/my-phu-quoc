@@ -54,6 +54,8 @@ export interface Product {
   caution?: L
   /** 상세 소개 페이지가 있으면 경로 */
   link?: string
+  /** true면 일정에 노출하지 않음 (업체 확정 전 준비 상품) */
+  hidden?: boolean
 }
 
 export type ItemKind =

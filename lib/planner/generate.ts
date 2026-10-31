@@ -485,16 +485,65 @@ export function generatePlan(input: PlannerInput): Plan {
             ),
           }),
         )
-        if (input.arrival === 'dawn') {
-          items.push(spot(ctx, 'cafe', '08:00', region, 'spot', { desc: t('짐을 맡기고 카페에서 아침 먹으며 쉬어요.', 'Leave bags and have a slow breakfast.') }))
+        const dawn = input.arrival === 'dawn'
+        const hoursFlag = t('운영 시작 시간 확인 필요', 'Check opening hours')
+        if (region === 'south') {
+          /* 이른 도착: 체크인 전 '호국사 → 쌀국수 → 커피' 동선 (짐은 차량에 싣고 이동) */
+          items.push(
+            productItem(ctx, 'car_tour', dawn ? '06:30' : '09:00', 'south', {
+              title: t('짐 싣고 체크인 전 둘러보기 (차량)', 'Pre-check-in tour with luggage (car)'),
+              desc: t(
+                '공항에서 바로 짐을 싣고 호국사 → 쌀국수 → 카페 순서로 돌다가 숙소에 내려 드려요. 체크인 전 시간을 알차게 쓸 수 있어요.',
+                'Load your bags at the airport, visit the pagoda, have pho and coffee, then we drop you at your hotel.',
+              ),
+            }),
+          )
+          items.push(
+            spot(ctx, 'hoQuoc', dawn ? '07:00' : '09:30', 'south', 'spot', {
+              flags: [hoursFlag],
+              alternatives: [spot(ctx, 'khem', dawn ? '07:00' : '09:30', 'south', 'spot', { title: t('켐비치 아침 산책', 'Morning walk at Khem Beach') })],
+            }),
+          )
+          items.push(
+            spot(ctx, 'phoBreakfast', dawn ? '08:30' : '11:00', 'south', 'meal', {
+              title: dawn ? SPOT.phoBreakfast.title : t('쌀국수 브런치 (퍼 틴 · 하이봇)', 'Pho brunch (Pho Thin · Haibot)'),
+              flags: [hoursFlag],
+              alternatives: [spot(ctx, 'cafe', dawn ? '08:30' : '11:00', 'south', 'meal')],
+            }),
+          )
+          items.push(
+            spot(ctx, 'bakery', dawn ? '09:30' : '12:00', 'south', 'spot', {
+              title: t('카페에서 커피 한잔', 'Coffee break'),
+              desc: t(
+                '에릭 카이저(Maison Kayser) 빵집이나 라페스타 카페(iL Salone)에서 커피를 마시며 쉬어요.',
+                'Rest over coffee at Maison Kayser or La Festa’s café (iL Salone).',
+              ),
+              flags: [hoursFlag],
+              alternatives: [spot(ctx, 'sunsetTown', dawn ? '09:30' : '12:00', 'south', 'spot', { title: dawn ? t('선셋타운 아침 산책', 'Morning walk in Sunset Town') : t('선셋타운 산책', 'Walk in Sunset Town') })],
+            }),
+          )
+          const groupSize = input.adults + input.children
+          if (groupSize >= 4 && !PRODUCTS.morning_spa.hidden) {
+            items.push(productItem(ctx, 'morning_spa', dawn ? '10:30' : '12:00', 'south'))
+          }
+        } else if (dawn) {
+          items.push(spot(ctx, 'localMarket', '07:00', 'central', 'meal', { desc: t('짐을 맡기고 시장에서 쌀국수로 아침을 먹어요.', 'Drop bags and have pho at the market.') }))
+          items.push(spot(ctx, 'cafe', '09:00', 'central', 'spot', { title: t('카페에서 쉬어 가기', 'Café break'), desc: t('체크인 전까지 카페에서 쉬어요.', 'Relax at a café until check-in.') }))
         }
-        if (has('lunch')) items.push(spot(ctx, 'lunch', '12:00', region, 'meal'))
+        // 오전 도착 + 남부: 쌀국수가 브런치를 겸하므로 점심은 생략
+        if (has('lunch') && !(region === 'south' && !dawn)) items.push(spot(ctx, 'lunch', '12:00', region, 'meal'))
         if (has('afternoon')) {
-          if (region === 'south') {
+          if (region === 'south' && dawn) {
             items.push(
-              spot(ctx, 'sunsetTown', '15:30', 'south', 'spot', {
-                title: t('선셋타운 첫 산책', 'First walk in Sunset Town'),
-                desc: t('가볍게 동네를 익혀 둬요. 일몰은 키스 브릿지에서.', 'Get your bearings; sunset at Kiss Bridge.'),
+              spot(ctx, 'resortRest', '15:00', 'south', 'rest', {
+                title: t('체크인 후 낮잠·휴식', 'Nap after check-in'),
+                desc: t('새벽 비행 후에는 저녁 공연 전에 한숨 자 두는 게 좋아요.', 'After a night flight, rest before the evening show.'),
+              }),
+            )
+          } else if (region === 'south') {
+            items.push(
+              spot(ctx, 'resortRest', '15:00', 'south', 'rest', {
+                title: t('체크인 후 수영장·휴식', 'Pool time after check-in'),
                 alternatives: [productItem(ctx, 'buggy_tour', '15:30', 'south')],
               }),
             )
