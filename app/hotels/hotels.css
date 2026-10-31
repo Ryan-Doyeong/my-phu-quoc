@@ -913,3 +913,493 @@
   margin-top: 60px;
   line-height: 1.5;
 }
+
+/* Compact Featured Card Styles */
+.featuredBodyCompact {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 24px;
+  padding: 24px;
+}
+
+@media (max-width: 900px) {
+  .featuredBodyCompact {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 16px;
+  }
+}
+
+.featuredImageWrap {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #e2e8f0;
+}
+
+.featuredImageWrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.featuredImageWrap:hover img {
+  transform: scale(1.03);
+}
+
+.featuredInfoCompact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Review Highlight Badge (Card) */
+.cardReviewHighlight {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-left: 3px solid #0B7A8A;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8125rem;
+  color: #1e293b;
+  line-height: 1.4;
+}
+
+.featuredReviewHighlight {
+  background: #fefce8;
+  border-color: #fef08a;
+  border-left-color: #d97706;
+  color: #78350f;
+  font-weight: 500;
+}
+
+.reviewHighlightIcon {
+  font-size: 0.95rem;
+  flex-shrink: 0;
+}
+
+.reviewHighlightText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.googleScoreBadge {
+  background: #ecfdf5;
+  color: #047857;
+  border: 1px solid #a7f3d0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+/* Modal Top Summary */
+.modalTopPhotoWrap {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: #0f172a;
+  max-height: 380px;
+}
+
+.modalTopPhotoWrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modalTopPhotoBadges {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.modalHeaderInfo {
+  margin-bottom: 24px;
+}
+
+.modalHotelTitle {
+  font-size: 1.625rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 4px;
+}
+
+.modalHotelSubtitle {
+  font-size: 0.875rem;
+  color: #64748b;
+  margin-bottom: 12px;
+}
+
+.modalTopSummary {
+  font-size: 0.9375rem;
+  color: #334155;
+  line-height: 1.6;
+  background: #f8fafc;
+  border-left: 3px solid #0B7A8A;
+  padding: 12px 16px;
+  border-radius: 0 8px 8px 0;
+  margin-bottom: 12px;
+}
+
+/* 6-Accordion System */
+.accordionGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.accordionItem {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.accordionItem.open {
+  border-color: #cbd5e1;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.accordionHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  background: #ffffff;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.15s ease;
+}
+
+.accordionHeader:hover {
+  background: #f8fafc;
+}
+
+.accordionItem.open .accordionHeader {
+  background: #f8fafc;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.accordionTitle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.accordionIcon {
+  font-size: 1.2rem;
+}
+
+.accordionBadge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 9999px;
+  background: #e2e8f0;
+  color: #334155;
+}
+
+.accordionChevron {
+  font-size: 0.8125rem;
+  color: #64748b;
+  font-weight: 700;
+}
+
+.accordionBody {
+  padding: 20px;
+}
+
+/* ① Customer Reviews Summary */
+.reviewSummaryScoreCard {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.scoreBadgeRow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.bigRatingBadge {
+  background: #0f172a;
+  color: #ffffff;
+  font-size: 1.375rem;
+  font-weight: 800;
+  padding: 6px 14px;
+  border-radius: 8px;
+}
+
+.scoreSourceTitle {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.googleRatingSubText {
+  font-size: 0.8125rem;
+  color: #059669;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+/* Sub-ratings Bars */
+.subRatingsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px 18px;
+  padding-top: 12px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.subRatingItem {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.subRatingLabelRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8125rem;
+  color: #475569;
+  font-weight: 600;
+}
+
+.subRatingVal {
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.subRatingTrack {
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.subRatingFill {
+  height: 100%;
+  background: linear-gradient(90deg, #d97706, #f59e0b);
+  border-radius: 9999px;
+}
+
+/* Pros List */
+.prosSectionWrap {
+  margin-bottom: 16px;
+}
+
+.prosSectionTitle {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 8px;
+}
+
+.prosList {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.prosItem {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 0.875rem;
+  color: #334155;
+  background: #f8fafc;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.prosCheck {
+  color: #059669;
+  font-weight: 800;
+}
+
+.prosText {
+  line-height: 1.5;
+}
+
+/* Review Quote */
+.quoteSectionWrap {
+  margin-bottom: 16px;
+}
+
+.quoteSectionTitle {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #64748b;
+  margin-bottom: 6px;
+}
+
+.quoteCard {
+  background: #fffbeb;
+  border: 1px solid #fef3c7;
+  border-left: 3px solid #f59e0b;
+  border-radius: 0 8px 8px 0;
+  padding: 12px 16px;
+  margin: 0;
+}
+
+.quoteText {
+  font-size: 0.875rem;
+  color: #78350f;
+  font-style: italic;
+  line-height: 1.55;
+  margin-bottom: 6px;
+}
+
+.quoteSource {
+  font-size: 0.75rem;
+  color: #92400e;
+  font-weight: 600;
+  text-align: right;
+}
+
+/* Sub-accordion: Google Reviews */
+.subAccordionSection {
+  margin-top: 16px;
+  border-top: 1px dashed #cbd5e1;
+  padding-top: 14px;
+}
+
+.subAccordionToggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 0.875rem;
+  color: #1e293b;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.subAccordionToggle:hover {
+  background: #e2e8f0;
+}
+
+.subAccordionReviews {
+  margin-top: 14px;
+}
+
+.googleReviewsNote {
+  font-size: 0.75rem;
+  color: #64748b;
+  margin-bottom: 10px;
+}
+
+/* No Rooms Card */
+.noRoomsCard {
+  background: #f8fafc;
+  border: 1px dashed #cbd5e1;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+/* Location details */
+.locationDetailsBox {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 0.875rem;
+  color: #334155;
+}
+
+/* Policies Grid */
+.policiesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.policyItem {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.policyLabel {
+  font-size: 0.75rem;
+  color: #64748b;
+  margin-bottom: 4px;
+}
+
+.policyValue {
+  font-weight: 700;
+  color: #0f172a;
+  font-size: 0.9375rem;
+}
+
+.childPolicyBox {
+  font-size: 0.875rem;
+  color: #475569;
+  background: #f8fafc;
+  border-left: 3px solid #64748b;
+  padding: 12px 16px;
+  border-radius: 0 8px 8px 0;
+  line-height: 1.5;
+}
+
+/* Gallery Grid */
+.galleryGridWrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 10px;
+}
+
+.galleryThumbBox {
+  aspect-ratio: 1;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f1f5f9;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.15s ease;
+}
+
+.galleryThumbBox.active {
+  border-color: #d97706;
+}
+
+.galleryThumbBox:hover {
+  opacity: 0.9;
+}
+
+.galleryThumbBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
