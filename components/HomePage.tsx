@@ -52,6 +52,229 @@ const HOME_NAV_KHEM: Record<string, string> = {
   hi: 'Khem Beach',
 }
 
+/* Quick Service Card Labels (Korean confirmed; other languages temporary English awaiting ChatGPT review) */
+/* ChatGPT 검수 대기 */
+const QUICK_CARD_EXCHANGE: Record<string, string> = {
+  ko: '환전',
+  en: 'Currency Exchange',
+  zh: 'Currency Exchange',
+  ru: 'Currency Exchange',
+  ja: 'Currency Exchange',
+  hi: 'Currency Exchange',
+}
+
+const QUICK_CARD_BUGGY: Record<string, string> = {
+  ko: '버기 투어',
+  en: 'Buggy Tour',
+  zh: 'Buggy Tour',
+  ru: 'Buggy Tour',
+  ja: 'Buggy Tour',
+  hi: 'Buggy Tour',
+}
+
+const QUICK_CARD_TAXI: Record<string, string> = {
+  ko: '차량 투어',
+  en: 'Vehicle Tour',
+  zh: 'Vehicle Tour',
+  ru: 'Vehicle Tour',
+  ja: 'Vehicle Tour',
+  hi: 'Vehicle Tour',
+}
+
+const QUICK_CARD_EVENTS: Record<string, string> = {
+  ko: '이벤트',
+  en: 'Events',
+  zh: 'Events',
+  ru: 'Events',
+  ja: 'Events',
+  hi: 'Events',
+}
+
+const QUICK_CARD_ACTIVITIES: Record<string, string> = {
+  ko: '액티비티',
+  en: 'Activities',
+  zh: 'Activities',
+  ru: 'Activities',
+  ja: 'Activities',
+  hi: 'Activities',
+}
+
+const QUICK_CARD_EMERGENCY: Record<string, string> = {
+  ko: '긴급상황',
+  en: 'Emergency',
+  zh: 'Emergency',
+  ru: 'Emergency',
+  ja: 'Emergency',
+  hi: 'Emergency',
+}
+
+const QUICK_CARD_ITINERARIES: Record<string, string> = {
+  ko: '추천 테마 일정',
+  en: 'Theme Itineraries',
+  zh: 'Theme Itineraries',
+  ru: 'Theme Itineraries',
+  ja: 'Theme Itineraries',
+  hi: 'Theme Itineraries',
+}
+
+export type QuickServiceKey =
+  | 'exchange'
+  | 'buggy'
+  | 'taxi'
+  | 'events'
+  | 'activities'
+  | 'emergency'
+  | 'itineraries'
+
+/**
+ * [홈 서비스 카드 표시 순서 설정 - Single Source of Truth]
+ * 사용자가 카드 노출 순서를 한 곳에서 손쉽게 변경할 수 있는 설정 배열입니다.
+ * 아래 배열 요소의 순서를 변경하거나 추가/제거하면 홈 화면에 즉시 반영됩니다.
+ */
+export const QUICK_SERVICE_ORDER: QuickServiceKey[] = [
+  'exchange',     // 1. 환전 (링크 없음)
+  'buggy',        // 2. 버기 투어
+  'taxi',         // 3. 차량 투어
+  'events',       // 4. 이벤트
+  'activities',   // 5. 액티비티
+  'emergency',    // 6. 긴급상황
+  'itineraries',  // 7. 추천 테마 일정
+]
+
+interface QuickServiceDefinition {
+  key: QuickServiceKey
+  labels: Record<string, string>
+  href: string | null
+  iconWrapClass: string
+  disabled?: boolean
+  renderIcon: () => React.ReactNode
+}
+
+const QUICK_SERVICES_REGISTRY: Record<QuickServiceKey, QuickServiceDefinition> = {
+  exchange: {
+    key: 'exchange',
+    labels: QUICK_CARD_EXCHANGE,
+    href: null,
+    iconWrapClass: 'iconWrapExchange',
+    disabled: true,
+    renderIcon: () => (
+      <svg viewBox="0 0 36 36" fill="none" aria-hidden="true">
+        <rect x="3" y="10" width="24" height="15" rx="3" fill="#10B981" />
+        <rect x="5" y="12" width="20" height="11" rx="2" fill="#34D399" />
+        <circle cx="15" cy="17.5" r="3.5" fill="#10B981" />
+        <circle cx="25" cy="21" r="7" fill="#F59E0B" stroke="#D97706" strokeWidth="1.2" />
+        <circle cx="25" cy="21" r="4.5" fill="#FBBF24" />
+        <text x="25" y="24" textAnchor="middle" fontSize="7" fontWeight="900" fill="#92400E">₫</text>
+        <circle cx="28.5" cy="14" r="4.5" fill="#FBBF24" stroke="#D97706" strokeWidth="1" />
+        <circle cx="28.5" cy="14" r="2.8" fill="#FDE68A" />
+      </svg>
+    ),
+  },
+  buggy: {
+    key: 'buggy',
+    labels: QUICK_CARD_BUGGY,
+    href: '/buggy-tour',
+    iconWrapClass: 'iconWrapBuggy',
+    renderIcon: () => (
+      <svg viewBox="0 0 36 36" fill="none" aria-hidden="true">
+        <path d="M7 11h20a2.5 2.5 0 0 1 2.5 2.5v1H5v-1A2.5 2.5 0 0 1 7 11z" fill="#0284C7" />
+        <path d="M8 14.5v5M25 14.5v5" stroke="#475569" strokeWidth="2" strokeLinecap="round" />
+        <path d="M22 14.5l3.5 5" stroke="#38BDF8" strokeWidth="2.5" strokeLinecap="round" />
+        <path d="M4 19.5h23.5l3.5 5H6l-2-5z" fill="#F59E0B" />
+        <rect x="7" y="18.5" width="10" height="3" rx="1.5" fill="#FEF3C7" />
+        <circle cx="10" cy="26" r="3.8" fill="#1E293B" />
+        <circle cx="10" cy="26" r="1.5" fill="#CBD5E1" />
+        <circle cx="23" cy="26" r="3.8" fill="#1E293B" />
+        <circle cx="23" cy="26" r="1.5" fill="#CBD5E1" />
+      </svg>
+    ),
+  },
+  taxi: {
+    key: 'taxi',
+    labels: QUICK_CARD_TAXI,
+    href: '/taxi-tour',
+    iconWrapClass: 'iconWrapTaxi',
+    renderIcon: () => (
+      <svg viewBox="0 0 36 36" fill="none" aria-hidden="true">
+        <rect x="14" y="8" width="8" height="3" rx="1.2" fill="#F59E0B" stroke="#B45309" strokeWidth="1" />
+        <path d="M6 18c0-3.5 2-5 5.5-5h13c3 0 5 1.8 6 5l1.5 5.5a2.5 2.5 0 0 1-2.5 3H7.5A2.5 2.5 0 0 1 5 23.5L6 18z" fill="#F97316" />
+        <rect x="10" y="14.5" width="6.5" height="4.5" rx="1.5" fill="#BAE6FD" />
+        <rect x="18" y="14.5" width="7.5" height="4.5" rx="1.5" fill="#BAE6FD" />
+        <circle cx="27" cy="21.5" r="1.6" fill="#FEF08A" />
+        <circle cx="11.5" cy="27" r="3.8" fill="#1E293B" />
+        <circle cx="11.5" cy="27" r="1.5" fill="#CBD5E1" />
+        <circle cx="23.5" cy="27" r="3.8" fill="#1E293B" />
+        <circle cx="23.5" cy="27" r="1.5" fill="#CBD5E1" />
+      </svg>
+    ),
+  },
+  events: {
+    key: 'events',
+    labels: QUICK_CARD_EVENTS,
+    href: '/events',
+    iconWrapClass: 'iconWrapEvent',
+    renderIcon: () => (
+      <svg viewBox="0 0 36 36" fill="none" aria-hidden="true">
+        <rect x="6" y="8" width="24" height="21" rx="4" fill="#9333EA" />
+        <path d="M6 14h24" stroke="#7E22CE" strokeWidth="1.5" />
+        <rect x="11" y="5" width="2.5" height="5" rx="1.25" fill="#E9D5FF" />
+        <rect x="22.5" y="5" width="2.5" height="5" rx="1.25" fill="#E9D5FF" />
+        <circle cx="18" cy="21.5" r="4.5" fill="#FDE047" />
+        <path d="M18 18.5l.8 1.8 2 .3-1.4 1.4.3 2-1.7-.9-1.7.9.3-2-1.4-1.4 2-.3.8-1.8z" fill="#D97706" />
+      </svg>
+    ),
+  },
+  activities: {
+    key: 'activities',
+    labels: QUICK_CARD_ACTIVITIES,
+    href: '/activities',
+    iconWrapClass: 'iconWrapActivity',
+    renderIcon: () => (
+      <svg viewBox="0 0 36 36" fill="none" aria-hidden="true">
+        <path d="M17 7v13h8L17 7z" fill="#0284C7" />
+        <path d="M15 10v10H9l6-10z" fill="#38BDF8" />
+        <rect x="15" y="6" width="2" height="15" fill="#0369A1" />
+        <path d="M6 21.5h24l-3 4H9l-3-4z" fill="#F59E0B" />
+        <path d="M4 27c2.5-1 4.5-1 7 0s4.5 1 7 0 4.5-1 7 0 4.5 1 7 0" stroke="#0EA5E9" strokeWidth="2.2" strokeLinecap="round" />
+        <path d="M7 30.5c2.5-.8 4.5-.8 7 0s4.5.8 7 0 4.5-.8 7 0" stroke="#7DD3FC" strokeWidth="1.8" strokeLinecap="round" />
+      </svg>
+    ),
+  },
+  emergency: {
+    key: 'emergency',
+    labels: QUICK_CARD_EMERGENCY,
+    href: '/emergency',
+    iconWrapClass: 'iconWrapEmergency',
+    renderIcon: () => (
+      <svg viewBox="0 0 36 36" fill="none" aria-hidden="true">
+        <path d="M13 11a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v2h-10v-2z" fill="#EF4444" />
+        <rect x="15" y="10" width="6" height="3" rx="1" fill="#FEE2E2" />
+        <rect x="5" y="12" width="26" height="18" rx="4" fill="#DC2626" />
+        <rect x="6.5" y="13.5" width="23" height="15" rx="3" fill="#EF4444" />
+        <rect x="15.5" y="16.5" width="5" height="11" rx="1.2" fill="#FFFFFF" />
+        <rect x="12.5" y="19.5" width="11" height="5" rx="1.2" fill="#FFFFFF" />
+      </svg>
+    ),
+  },
+  itineraries: {
+    key: 'itineraries',
+    labels: QUICK_CARD_ITINERARIES,
+    href: '/itineraries',
+    iconWrapClass: 'iconWrapItineraries',
+    renderIcon: () => (
+      <svg viewBox="0 0 36 36" fill="none" aria-hidden="true">
+        <path d="M7 10.5l7-2.5 8 2.5 7-2.5v17l-7 2.5-8-2.5-7 2.5v-17z" fill="#FFE4E6" stroke="#FB7185" strokeWidth="1.2" strokeLinejoin="round" />
+        <path d="M14 8v17M22 10.5v17" stroke="#FDA4AF" strokeWidth="1.2" strokeDasharray="1.5 1.5" />
+        <path d="M10.5 21.5c2.5-3 4.5-1 6.5-4s3-1 5-3" stroke="#F43F5E" strokeWidth="1.8" strokeLinecap="round" strokeDasharray="2 1.5" />
+        <path d="M22 11c0-2.8 2.2-5 5-5s5 2.2 5 5c0 3.5-5 8-5 8s-5-4.5-5-8z" fill="#E11D48" />
+        <circle cx="27" cy="11" r="2" fill="#FFFFFF" />
+        <path d="M10 13.5l3-1.8L10 10v3.5z" fill="#F59E0B" />
+        <line x1="10" y1="9.5" x2="10" y2="15.5" stroke="#B45309" strokeWidth="1.2" strokeLinecap="round" />
+      </svg>
+    ),
+  },
+}
+
 const TWO_HUBS_EYEBROW: Record<string, string> = {
   ko: 'TWO HUBS · 2대 구역',
   en: 'TWO HUBS · DUAL ZONES',
@@ -321,80 +544,45 @@ export function HomePage({
           </div>
         </section>
 
-        {/* 2. Quick Service Cards (Scroll-snap horizontal row right below photo) */}
+        {/* 2. Quick Service Cards (Configurable order via QUICK_SERVICE_ORDER) */}
         <section className="quickServiceSection" id="quick-services">
           <div className="cardScrollTrack" id="cardScrollTrack">
-            {/* Card 1: 환전 (Currency Exchange) - No link per spec */}
-            <div className="serviceCard disabled" id="card-exchange" title={locale === 'ko' ? '환전' : (dict.home.bannerSlide2Eyebrow || 'Exchange')}>
-              <div className="cardIconWrap iconWrapExchange">
-                <svg viewBox="0 0 36 36" fill="none" aria-hidden="true">
-                  <rect x="3" y="10" width="24" height="15" rx="3" fill="#10B981" />
-                  <rect x="5" y="12" width="20" height="11" rx="2" fill="#34D399" />
-                  <circle cx="15" cy="17.5" r="3.5" fill="#10B981" />
-                  <circle cx="25" cy="21" r="7" fill="#F59E0B" stroke="#D97706" strokeWidth="1.2" />
-                  <circle cx="25" cy="21" r="4.5" fill="#FBBF24" />
-                  <text x="25" y="24" textAnchor="middle" fontSize="7" fontWeight="900" fill="#92400E">₫</text>
-                  <circle cx="28.5" cy="14" r="4.5" fill="#FBBF24" stroke="#D97706" strokeWidth="1" />
-                  <circle cx="28.5" cy="14" r="2.8" fill="#FDE68A" />
-                </svg>
-              </div>
-              <div className="cardLabel">{locale === 'ko' ? '환전' : (dict.home.bannerSlide2Eyebrow || 'Exchange')}</div>
-              <div className="cardSub"></div>
-            </div>
+            {QUICK_SERVICE_ORDER.map((key) => {
+              const def = QUICK_SERVICES_REGISTRY[key]
+              if (!def) return null
+              const label = def.labels[locale] || def.labels.en
 
-            {/* Card 2: 버기 투어 -> /buggy-tour */}
-            <Link href={localePath(locale, '/buggy-tour')} className="serviceCard" id="card-buggy" title={dict.home.bannerSlide3Title || '버기 투어'}>
-              <div className="cardIconWrap iconWrapBuggy">
-                <svg viewBox="0 0 36 36" fill="none" aria-hidden="true">
-                  <path d="M7 11h20a2.5 2.5 0 0 1 2.5 2.5v1H5v-1A2.5 2.5 0 0 1 7 11z" fill="#0284C7" />
-                  <path d="M8 14.5v5M25 14.5v5" stroke="#475569" strokeWidth="2" strokeLinecap="round" />
-                  <path d="M22 14.5l3.5 5" stroke="#38BDF8" strokeWidth="2.5" strokeLinecap="round" />
-                  <path d="M4 19.5h23.5l3.5 5H6l-2-5z" fill="#F59E0B" />
-                  <rect x="7" y="18.5" width="10" height="3" rx="1.5" fill="#FEF3C7" />
-                  <circle cx="10" cy="26" r="3.8" fill="#1E293B" />
-                  <circle cx="10" cy="26" r="1.5" fill="#CBD5E1" />
-                  <circle cx="23" cy="26" r="3.8" fill="#1E293B" />
-                  <circle cx="23" cy="26" r="1.5" fill="#CBD5E1" />
-                </svg>
-              </div>
-              <div className="cardLabel">{dict.home.bannerSlide3Title || '버기 투어'}</div>
-              <div className="cardSub">{locale === 'ko' ? '필수 사진 코스' : (locale === 'en' ? 'Photo Spots' : '')}</div>
-            </Link>
+              if (def.disabled || !def.href) {
+                return (
+                  <div
+                    key={key}
+                    className="serviceCard disabled"
+                    id={`card-${key}`}
+                    title={label}
+                  >
+                    <div className={`cardIconWrap ${def.iconWrapClass}`}>
+                      {def.renderIcon()}
+                    </div>
+                    <div className="cardLabel">{label}</div>
+                  </div>
+                )
+              }
 
-            {/* Card 3: 차량 투어 -> /taxi-tour */}
-            <Link href={localePath(locale, '/taxi-tour')} className="serviceCard" id="card-taxi" title={locale === 'ko' ? '차량 투어' : (dict.home.bannerSlide4Title || 'Vehicle Tour')}>
-              <div className="cardIconWrap iconWrapTaxi">
-                <svg viewBox="0 0 36 36" fill="none" aria-hidden="true">
-                  <rect x="14" y="8" width="8" height="3" rx="1.2" fill="#F59E0B" stroke="#B45309" strokeWidth="1" />
-                  <path d="M6 18c0-3.5 2-5 5.5-5h13c3 0 5 1.8 6 5l1.5 5.5a2.5 2.5 0 0 1-2.5 3H7.5A2.5 2.5 0 0 1 5 23.5L6 18z" fill="#F97316" />
-                  <rect x="10" y="14.5" width="6.5" height="4.5" rx="1.5" fill="#BAE6FD" />
-                  <rect x="18" y="14.5" width="7.5" height="4.5" rx="1.5" fill="#BAE6FD" />
-                  <circle cx="27" cy="21.5" r="1.6" fill="#FEF08A" />
-                  <circle cx="11.5" cy="27" r="3.8" fill="#1E293B" />
-                  <circle cx="11.5" cy="27" r="1.5" fill="#CBD5E1" />
-                  <circle cx="23.5" cy="27" r="3.8" fill="#1E293B" />
-                  <circle cx="23.5" cy="27" r="1.5" fill="#CBD5E1" />
-                </svg>
-              </div>
-              <div className="cardLabel">{locale === 'ko' ? '차량 투어' : (dict.home.bannerSlide4Title || 'Vehicle Tour')}</div>
-              <div className="cardSub"></div>
-            </Link>
-
-            {/* Card 4: 불꽃쇼 -> /events */}
-            <Link href={localePath(locale, '/events')} className="serviceCard" id="card-fireworks" title={locale === 'ko' ? '불꽃쇼' : 'Fireworks'}>
-              <div className="cardIconWrap iconWrapEvent">
-                <svg viewBox="0 0 36 36" fill="none" aria-hidden="true">
-                  <path d="M18 7l2 5.5 5.5-2-2 5.5 5.5 2-5.5 2 2 5.5-5.5-2L18 29l-2-5.5-5.5 2 2-5.5-5.5-2 5.5-2-2-5.5 5.5 2L18 7z" fill="#A855F7" />
-                  <circle cx="18" cy="18" r="3.8" fill="#FDE047" stroke="#F59E0B" strokeWidth="1" />
-                  <circle cx="8" cy="9" r="1.8" fill="#F59E0B" />
-                  <circle cx="28" cy="9" r="1.8" fill="#EC4899" />
-                  <circle cx="27" cy="26" r="1.5" fill="#38BDF8" />
-                  <circle cx="8" cy="25" r="1.5" fill="#10B981" />
-                </svg>
-              </div>
-              <div className="cardLabel">{locale === 'ko' ? '불꽃쇼' : 'Fireworks'}</div>
-              <div className="cardSub"></div>
-            </Link>
+              return (
+                <Link
+                  key={key}
+                  href={localePath(locale, def.href)}
+                  className="serviceCard"
+                  id={`card-${key}`}
+                  title={label}
+                >
+                  <div className={`cardIconWrap ${def.iconWrapClass}`}>
+                    {def.renderIcon()}
+                  </div>
+                  <div className="cardLabel">{label}</div>
+                </Link>
+              )
+            })}
           </div>
         </section>
 
