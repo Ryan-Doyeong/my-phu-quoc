@@ -50,7 +50,6 @@
         }
       ],
       "summary": "오션뷰 객실 발코니에서 불꽃놀이 관람 · 스타벅스·야시장 도보권",
-      "description": "선셋타운 중심가인 베니스 거리에 자리 잡아 오션뷰 객실 발코니에서 매일 밤 불꽃놀이를 편안히 관람할 수 있습니다. 포근한 침구류와 쾌적한 룸 컨디션을 갖추고 있으며, 야시장과 스타벅스가 도보 1~3분 거리에 인접해 여행이 편리합니다.",
       "isAiGeneratedIntro": false,
       "isFeatured": true,
       "badgeText": "마이 푸꾸옥 추천 호텔",
@@ -223,14 +222,15 @@
       },
       "googleRating": 5,
       "googleReviewsCount": 18,
-      "summary_en": "Watch fireworks from the ocean view balcony · Walking distance to Starbucks & Night Market",
-      "summary_zh": "海景阳台观赏烟花 · 步行可达星巴克与夜市",
-      "summary_ja": "オーシャンビュー客室のバルコニーで花火鑑賞 · スターバックス・ナイトマーケット徒歩圏内",
-      "summary_ru": "Просмотр фейерверков с балкона с видом на океан · В пешей доступности от Starbucks и ночного рынка",
-      "summary_vi": "Xem pháo hoa từ ban công phòng view biển · Đi bộ tới Starbucks & Chợ đêm",
+      "summary_en": "Fireworks view from ocean-facing balconies, walking distance to Starbucks and night market.",
+      "summary_zh": "部分海景阳台客房可观赏烟花，步行可达星巴克与日落夜市。",
+      "summary_ja": "オーシャンビュー客室バルコニーから花火鑑賞、スタバやナイトマーケット徒歩圏。",
+      "summary_ru": "Вид на фейерверки с балконов номеров с видом на море, пешком до Starbucks и ночного рынка.",
+      "summary_vi": "Ngắm pháo hoa từ ban công phòng hướng biển, đi bộ thuận tiện tới Starbucks và chợ đêm.",
       "area": "sunset-town",
       "tier": "recommended",
-      "officialStar": null
+      "officialStar": null,
+      "agodaRawDescription": "선셋타운 중심가인 베니스 거리에 자리 잡아 오션뷰 객실 발코니에서 매일 밤 불꽃놀이를 편안히 관람할 수 있습니다. 포근한 침구류와 쾌적한 룸 컨디션을 갖추고 있으며, 야시장과 스타벅스가 도보 1~3분 거리에 인접해 여행이 편리합니다."
     },
     {
       "slug": "la-festa-phu-quoc-curio-collection-by-hilton",
@@ -242,8 +242,7 @@
       "reviewsCount": 4762,
       "cable_m": 200,
       "address": "Sunset Town, An Thoi, Phu Quoc Island, Vietnam, 91000",
-      "summary": "선셋타운 중심의 5성급 힐튼 큐리오 컬렉션 리조트.",
-      "description": "선셋타운 중심 광장에 위치한 힐튼 큐리오 컬렉션 5성급 호텔입니다. 아말피 해안 건축 양식을 모티브로 디자인되었으며, 인피니티 풀에서 키스브릿지와 바다 일몰을 한눈에 조망할 수 있습니다. 케이블카 탑승장까지 도보 3분(200m) 거리에 자리합니다.",
+      "summary": "선셋타운 중심의 공식 5성급 힐튼 큐리오 컬렉션, 인피니티 풀과 고급 다이닝 완비.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "옥상 인피니티 풀",
@@ -480,7 +479,13 @@
           "view": "파노라마 오션뷰",
           "features": "독립 거실, 드레스룸, 초대형 테라스"
         }
-      ]
+      ],
+      "summary_en": "Official 5-star Curio Collection by Hilton in the center of Sunset Town, featuring infinity pool and fine dining.",
+      "summary_zh": "日落小镇中心的官方五星级希尔顿格芮精选酒店，配备无边泳池与高端餐饮。",
+      "summary_ja": "サンセットタウン中心の公式5星ヒルトン・キュリオ・コレクション、インフィニティプール完備。",
+      "summary_ru": "Официальный 5-звездочный отель Curio Collection by Hilton в центре Сансет Тауна с пейзажным бассейном.",
+      "summary_vi": "Khách sạn 5 sao Curio Collection by Hilton tại trung tâm Sunset Town với hồ bơi vô cực và ẩm thực cao cấp.",
+      "agodaRawDescription": "선셋타운 중심 광장에 위치한 힐튼 큐리오 컬렉션 5성급 호텔입니다. 아말피 해안 건축 양식을 모티브로 디자인되었으며, 인피니티 풀에서 키스브릿지와 바다 일몰을 한눈에 조망할 수 있습니다. 케이블카 탑승장까지 도보 3분(200m) 거리에 자리합니다."
     },
     {
       "slug": "roma-hotel-phu-quoc-h39560696",
@@ -492,8 +497,7 @@
       "reviewsCount": 2229,
       "cable_m": 260,
       "address": "Sorrento 312- 316, Sunset Town, Sun Primavera, An Thoi Ward, An Thoi, Phu Quoc Island, Vietnam, 92500",
-      "summary": "스파와 루프탑 라운지를 갖춘 부티크 호텔.",
-      "description": "선셋타운 중심부에 위치하여 혼똔섬 케이블카 탑승장까지 도보 3분(260m) 거리에 자리한 호텔입니다. 루프탑 라운지에서 아름다운 일몰을 감상할 수 있으며, 스파 시설과 깔끔한 객실 컨디션을 갖추고 있습니다.",
+      "summary": "케이블카 도보 260m, 스파 마사지 샵과 루프탑 전망 공간을 갖춘 부티크 호텔.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "스파·사우나·자쿠지",
@@ -746,7 +750,13 @@
           "view": "발코니 시티뷰",
           "features": "넓은 가족 공간, 프라이빗 발코니, 미니바"
         }
-      ]
+      ],
+      "summary_en": "Located 260m from cable car station, boutique hotel featuring spa massage and rooftop view lounge.",
+      "summary_zh": "距离缆车步行260米，配备水疗按摩和屋顶观景空间的精品酒店。",
+      "summary_ja": "ケーブルカー徒歩260m、スパマッサージやルーフトップラウンジを備えたブティックホテル。",
+      "summary_ru": "Бутик-отель в 260 м от канатной дороги со спа-услугами и лаунджем на крыше.",
+      "summary_vi": "Cách ga cáp treo 260m đi bộ, khách sạn boutique có dịch vụ spa và không gian tầng thượng.",
+      "agodaRawDescription": "선셋타운 중심부에 위치하여 혼똔섬 케이블카 탑승장까지 도보 3분(260m) 거리에 자리한 호텔입니다. 루프탑 라운지에서 아름다운 일몰을 감상할 수 있으며, 스파 시설과 깔끔한 객실 컨디션을 갖추고 있습니다."
     },
     {
       "slug": "times-corner-sorrento-boutique-hotel",
@@ -758,8 +768,7 @@
       "reviewsCount": 1267,
       "cable_m": 370,
       "address": "201 - 203 Sorrento, An Thoi, Phu Quoc Island, Vietnam, 92500",
-      "summary": "소렌토 거리에 위치, 야시장 도보 3분 거리.",
-      "description": "소렌토 거리에 위치하여 케이블카 탑승장까지 도보 4분(270m) 거리인 부티크 호텔입니다. 바다와 타운 전경을 조망할 수 있는 발코니 객실과 가족 전용 스위트를 갖추고 있으며, 무료 주차와 친절한 서비스를 제공합니다.",
+      "summary": "소렌토 거리에 위치, 야시장 도보 3분 및 케이블카 370m 거리의 편리한 접근성.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "24시간 룸서비스",
@@ -987,7 +996,13 @@
           "view": "오션뷰",
           "features": "고층 바다 전망, 안락한 침구, 프라이빗 테라스"
         }
-      ]
+      ],
+      "summary_en": "Located on Sorrento Street, 3 minutes walk to night market and 370m to cable car.",
+      "summary_zh": "位于索伦托街，步行3分钟达日落夜市，距缆车370米的便利酒店。",
+      "summary_ja": "ソレント通り沿い、ナイトマーケット徒歩3分・ケーブルカー370mのアクセス良好なホテル。",
+      "summary_ru": "Расположен на улице Сорренто, в 3 минутах пешком от ночного рынка и в 370 м от канатной дороги.",
+      "summary_vi": "Tọa lạc tại phố Sorrento, đi bộ 3 phút tới chợ đêm và cách cáp treo 370m.",
+      "agodaRawDescription": "소렌토 거리에 위치하여 케이블카 탑승장까지 도보 4분(270m) 거리인 부티크 호텔입니다. 바다와 타운 전경을 조망할 수 있는 발코니 객실과 가족 전용 스위트를 갖추고 있으며, 무료 주차와 친절한 서비스를 제공합니다."
     },
     {
       "slug": "le-bonheur-hotel",
@@ -999,8 +1014,7 @@
       "reviewsCount": 1024,
       "cable_m": 80,
       "address": "A32-34, Amalfi Street, Sun Grand City Hillside Residence, An Thoi, Phu Quoc, Kien Giang, An Thoi, Phu Quoc Island, Vietnam",
-      "summary": "케이블카 탑승장 80m 거리의 부티크 호텔.",
-      "description": "선셋타운 내에 위치하여 혼똔섬 케이블카 탑승장까지 280m 거리인 호텔입니다. 바다 전망과 시티 전망 객실을 고루 갖추고 있으며, 주변 카페와 레스토랑 접근성이 뛰어납니다.",
+      "summary": "혼똔섬 케이블카 탑승장 바로 앞 도보 80m 거리, 아담하고 청결한 부티크 호텔.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "24시간 룸서비스",
@@ -1186,7 +1200,13 @@
           "view": "시티/오션",
           "features": "넓은 휴식 공간, 소파 테이블, 티 세트"
         }
-      ]
+      ],
+      "summary_en": "Just 80m from the cable car station, offering cozy and clean boutique rooms in Sunset Town.",
+      "summary_zh": "距缆车站仅80米，提供温馨舒适整洁客房的日落小镇精品酒店。",
+      "summary_ja": "ケーブルカー駅すぐ徒歩80m、アットホームで清潔なブティックホテル。",
+      "summary_ru": "Всего в 80 м от канатной дороги, уютные и чистые бутик-номера в Сансет Тауне.",
+      "summary_vi": "Cách ga cáp treo chỉ 80m đi bộ, khách sạn boutique ấm cúng và sạch sẽ.",
+      "agodaRawDescription": "선셋타운 내에 위치하여 혼똔섬 케이블카 탑승장까지 280m 거리인 호텔입니다. 바다 전망과 시티 전망 객실을 고루 갖추고 있으며, 주변 카페와 레스토랑 접근성이 뛰어납니다."
     },
     {
       "slug": "venice-hotel-phu-quoc",
@@ -1198,8 +1218,7 @@
       "reviewsCount": 902,
       "cable_m": 390,
       "address": "9 - 17 Venice Street, Sunset Town, An Thoi Ward, An Thoi, Phu Quoc Island, Vietnam, 92500",
-      "summary": "베니스 거리 중심, 오션뷰 발코니 보유 숙소.",
-      "description": "베니스 거리에 위치하여 케이블카 탑승장까지 280m 거리인 호텔입니다. 이탈리아 베니스 감성의 인테리어와 오션뷰 발코니를 제공하며, 야시장과 해변 산책로를 도보로 이용할 수 있습니다.",
+      "summary": "베니스 거리 중심 위치, 오션뷰 발코니 객실과 공항 셔틀 서비스를 제공하는 호텔.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "24시간 룸서비스",
@@ -1522,7 +1541,13 @@
           "view": "시티/오션",
           "features": "3~4인 투숙 가능, 여유로운 거실 공간"
         }
-      ]
+      ],
+      "summary_en": "Located in Venice street, featuring sea-view balcony rooms and airport shuttle service.",
+      "summary_zh": "位于威尼斯街区中心，提供海景阳台客房和机场接送服务。",
+      "summary_ja": "ベニス地区中心に位置し、シービューバルコニー客室と空港送迎を提供するホテル。",
+      "summary_ru": "В центре квартала Венеция, номера с балконом и видом на море, трансфер из аэропорта.",
+      "summary_vi": "Khu vực phố Venice, cung cấp phòng có ban công hướng biển và dịch vụ đưa đón sân bay.",
+      "agodaRawDescription": "베니스 거리에 위치하여 케이블카 탑승장까지 280m 거리인 호텔입니다. 이탈리아 베니스 감성의 인테리어와 오션뷰 발코니를 제공하며, 야시장과 해변 산책로를 도보로 이용할 수 있습니다."
     },
     {
       "slug": "coastal-living-hotel-phu-quoc",
@@ -1534,8 +1559,7 @@
       "reviewsCount": 807,
       "cable_m": 360,
       "address": "17 Positano, An Thoi, Phu Quoc, Kien Giang, An Thoi, Phu Quoc Island, Vietnam, 92513",
-      "summary": "2025년 신축, 평점 9.5의 부티크 호텔.",
-      "description": "선셋타운 해안가 인근에 자리하여 케이블카 탑승장까지 도보 3분(230m) 거리인 부티크 호텔입니다. 모던하고 깔끔한 객실 분위기와 편안한 침구를 갖추고 있습니다.",
+      "summary": "케이블카 360m 거리, 모던한 인테리어와 높은 고객 만족도를 자랑하는 신축 부티크 호텔.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "24시간 룸서비스",
@@ -1741,7 +1765,13 @@
           "view": "오션뷰",
           "features": "바다 조망, 티 테이블, 프리미엄 린넨 침구"
         }
-      ]
+      ],
+      "summary_en": "360m from cable car, modern boutique hotel praised for stylish interior and high guest ratings.",
+      "summary_zh": "距缆车360米，拥有现代设计与高口碑评分的新建精品酒店。",
+      "summary_ja": "ケーブルカー360m、洗練されたモダンインテリアと高評価を誇るブティックホテル。",
+      "summary_ru": "В 360 м от канатной дороги, современный бутик-отель с высокими оценками гостей.",
+      "summary_vi": "Cách cáp treo 360m, khách sạn boutique hiện đại với đánh giá hài lòng cao.",
+      "agodaRawDescription": "선셋타운 해안가 인근에 자리하여 케이블카 탑승장까지 도보 3분(230m) 거리인 부티크 호텔입니다. 모던하고 깔끔한 객실 분위기와 편안한 침구를 갖추고 있습니다."
     },
     {
       "slug": "roma-hotel-phu-qu-c",
@@ -1753,8 +1783,7 @@
       "reviewsCount": 788,
       "cable_m": 480,
       "address": "41-43 Positano , Địa Trung Hải, KP6, An Thới, An Thoi, Phu Quoc Island, Vietnam, 92500",
-      "summary": "선셋타운 중심에 위치한 호텔.",
-      "description": "케이블카 탑승장까지 도보 4분(290m) 거리에 위치한 호텔입니다. 바다 전망을 품은 넓은 스위트 객실과 발코니를 갖추고 있어 여유로운 휴식을 선사합니다.",
+      "summary": "선셋타운 중심가 위치, 케이블카 480m 거리의 아늑하고 편안한 숙소.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "레스토랑",
@@ -1909,7 +1938,13 @@
           "view": "바다 조망",
           "features": "가족 투숙 최적화, 넉넉한 수납장, 무료 Wi-Fi"
         }
-      ]
+      ],
+      "summary_en": "Conveniently located in Sunset Town, 480m from the cable car station with comfortable rooms.",
+      "summary_zh": "位于日落小镇中心区域，距缆车480米，客房舒适温馨。",
+      "summary_ja": "サンセットタウン中心街に位置し、ケーブルカー480mの快適なホテル。",
+      "summary_ru": "Удобное расположение в Сансет Тауне в 480 м от канатной дороги, уютные номера.",
+      "summary_vi": "Vị trí trung tâm Sunset Town, cách cáp treo 480m với phòng nghỉ ấm cúng.",
+      "agodaRawDescription": "케이블카 탑승장까지 도보 4분(290m) 거리에 위치한 호텔입니다. 바다 전망을 품은 넓은 스위트 객실과 발코니를 갖추고 있어 여유로운 휴식을 선사합니다."
     },
     {
       "slug": "sakurakyo-hotel-spa-phu-quoc",
@@ -1921,8 +1956,7 @@
       "reviewsCount": 761,
       "cable_m": 120,
       "address": "A44-A46 Đ.Amalfi, Sunset Town, Sakurakyo Hotel & Spa Phu Quoc, An Thoi, Phu Quoc Island, Vietnam, 92500",
-      "summary": "2025년 신축, 스파와 수영장을 완비한 숙소.",
-      "description": "선셋타운 내 케이블카 탑승장 310m 거리에 자리한 호텔입니다. 호텔 내 스파 마사지 시설을 운영하며, 깔끔한 룸 컨디션과 친절한 직원 서비스를 자랑합니다.",
+      "summary": "케이블카 120m 초인접, 웰니스 스파 시설과 깔끔한 룸 컨디션을 갖춘 호텔.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "스파",
@@ -2173,7 +2207,13 @@
           "view": "시티/전망",
           "features": "넓은 가족실, 욕조 구비, 무료 세면도구"
         }
-      ]
+      ],
+      "summary_en": "Just 120m from cable car station, offering wellness spa facilities and clean modern rooms.",
+      "summary_zh": "紧邻缆车站仅120米，配备养生水疗与整洁现代客房。",
+      "summary_ja": "ケーブルカー乗り場へ120m、スパ施設と清潔な客室を備えたホテル。",
+      "summary_ru": "В 120 м от канатной дороги, спа-услуги и аккуратные современные номера.",
+      "summary_vi": "Cách ga cáp treo 120m, có dịch vụ spa chăm sóc sức khỏe và phòng ốc tinh tươm.",
+      "agodaRawDescription": "선셋타운 내 케이블카 탑승장 310m 거리에 자리한 호텔입니다. 호텔 내 스파 마사지 시설을 운영하며, 깔끔한 룸 컨디션과 친절한 직원 서비스를 자랑합니다."
     },
     {
       "slug": "times-corner-amalfi-hotel",
@@ -2185,8 +2225,7 @@
       "reviewsCount": 623,
       "cable_m": 140,
       "address": "48 - 54 Amalfi, Sunset Town, phường An Thới, An Thoi, Phu Quoc Island, Vietnam",
-      "summary": "2025년 신축, 씨뷰 객실 불꽃놀이 조망 숙소.",
-      "description": "아말피 거리에 위치하여 케이블카 탑승장까지 340m 거리인 호텔입니다. 파노라마 바다 전망 객실과 테라스를 보유하고 있으며, 일몰 감상에 최적화되어 있습니다.",
+      "summary": "아말피 구역 케이블카 140m 거리, 일부 객실에서 바다 전망과 불꽃놀이 조망 가능.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "수영장·풀사이드 바",
@@ -2372,7 +2411,13 @@
           "view": "오션뷰",
           "features": "바다 및 일몰 조망, 테라스, 고급 침구"
         }
-      ]
+      ],
+      "summary_en": "In Amalfi zone 140m from cable car, selected rooms offer sea and fireworks views.",
+      "summary_zh": "阿马尔菲街区距缆车140米，部分客房可眺望海景与烟花表演。",
+      "summary_ja": "アマルフィ地区ケーブルカー140m、一部客室から海や花火を望む好ロケーション。",
+      "summary_ru": "В квартале Амальфи в 140 м от канатной дороги, из некоторых номеров виден салют.",
+      "summary_vi": "Khu Amalfi cách cáp treo 140m, một số phòng có tầm nhìn ngắm biển và pháo hoa.",
+      "agodaRawDescription": "아말피 거리에 위치하여 케이블카 탑승장까지 340m 거리인 호텔입니다. 파노라마 바다 전망 객실과 테라스를 보유하고 있으며, 일몰 감상에 최적화되어 있습니다."
     },
     {
       "slug": "milan-hotel-coffee",
@@ -2384,8 +2429,7 @@
       "reviewsCount": 600,
       "cable_m": 390,
       "address": "No. M139, Milan Street, Ward 6, An Thoi Ward, Phu Quoc City, Kien Giang Province., An Thoi, Phu Quoc Island, Vietnam, 91000",
-      "summary": "옥상 수영장과 1층 카페를 갖춘 숙소.",
-      "description": "선셋타운 내 350m 거리에 자리한 호텔 겸 카페입니다. 1층에 카페를 운영하여 모닝 커피를 즐기기 좋으며, 조용하고 아늑한 객실 분위기를 제공합니다.",
+      "summary": "1층 감성 카페와 루프탑 수영장을 갖춘 선셋타운 부티크 호텔.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "옥상 수영장",
@@ -2569,7 +2613,13 @@
           "view": "오션뷰",
           "features": "바다 조망, 1층 카페 할인 연계, 냉장고"
         }
-      ]
+      ],
+      "summary_en": "Boutique hotel in Sunset Town featuring ground-floor coffee shop and rooftop dip pool.",
+      "summary_zh": "配有一楼咖啡吧与屋顶小泳池的日落小镇精品酒店。",
+      "summary_ja": "1階のカフェと屋上プールを備えたサンセットタウンのブティックホテル。",
+      "summary_ru": "Бутик-отель с уютным кафе на 1 этаже и небольшим бассейном на крыше.",
+      "summary_vi": "Khách sạn boutique tại Sunset Town với quán cà phê tầng trệt và hồ bơi tầng thượng.",
+      "agodaRawDescription": "선셋타운 내 350m 거리에 자리한 호텔 겸 카페입니다. 1층에 카페를 운영하여 모닝 커피를 즐기기 좋으며, 조용하고 아늑한 객실 분위기를 제공합니다."
     },
     {
       "slug": "kl-hotel-phu-quoc",
@@ -2581,8 +2631,7 @@
       "reviewsCount": 587,
       "cable_m": 40,
       "address": "amalfi street, An Thoi, Phu Quoc Island, Vietnam, 92513",
-      "summary": "케이블카 탑승장 40m 위치의 숙소.",
-      "description": "혼똔섬 케이블카 탑승장까지 350m 거리에 위치한 실속형 호텔입니다. 합리적인 숙박 요금에 정갈하고 청결한 객실을 제공하여 가성비 만족도가 높습니다.",
+      "summary": "혼똔섬 케이블카 탑승장 도보 40m 초근접 위치, 실속형 객실과 편의 시설을 갖춘 호텔.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "바",
@@ -2788,7 +2837,13 @@
           "view": "오션뷰",
           "features": "바다 전망, 안락한 침대, 무료 Wi-Fi"
         }
-      ]
+      ],
+      "summary_en": "Located just 40m from the Hon Thom Cable Car station, offering clean budget-friendly rooms in Sunset Town.",
+      "summary_zh": "距离太阳世界缆车站仅40米，提供整洁实惠客房的日落小镇便捷酒店。",
+      "summary_ja": "ホントム島ケーブルカー乗り場から徒歩40mの好立地、清潔でコスパの高いホテル。",
+      "summary_ru": "Отель в 40 м от канатной дороги Хон Тхом с чистыми и доступными номерами в Сансет Тауне.",
+      "summary_vi": "Vị trí đắc địa cách ga cáp treo Hòn Thơm chỉ 40m, phòng ốc sạch sẽ và giá cả hợp lý tại Sunset Town.",
+      "agodaRawDescription": "혼똔섬 케이블카 탑승장까지 350m 거리에 위치한 실속형 호텔입니다. 합리적인 숙박 요금에 정갈하고 청결한 객실을 제공하여 가성비 만족도가 높습니다."
     },
     {
       "slug": "casepia",
@@ -2800,8 +2855,7 @@
       "reviewsCount": 544,
       "cable_m": 350,
       "address": "302 - 304 đường Sorento, Sunset Town, Casepia Hotel, An Thoi, Phu Quoc Island, Vietnam",
-      "summary": "해변 산책로 및 케이블카 150m 인접 부티크 숙소.",
-      "description": "케이블카 탑승장 360m 거리에 위치한 감각적인 인테리어의 호텔입니다. 쾌적한 침구와 모던한 욕실을 갖추고 있으며, 여유로운 휴식을 즐기기에 적합합니다.",
+      "summary": "선셋타운 중심가 케이블카 350m, 감각적인 지중해풍 인테리어의 부티크 호텔.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "비치클럽",
@@ -3011,7 +3065,13 @@
           "view": "시티/전망",
           "features": "프리미엄 침구, 대형 스마트 TV, 티 테이블"
         }
-      ]
+      ],
+      "summary_en": "350m from cable car station, stylish Mediterranean-inspired boutique accommodation.",
+      "summary_zh": "距缆车站350米，充满地中海风情设计的精品住宿。",
+      "summary_ja": "ケーブルカー350m、地中海スタイルのインテリアが魅力のブティックホテル。",
+      "summary_ru": "В 350 м от канатной дороги, стильный бутик-отель в средиземноморском стиле.",
+      "summary_vi": "Cách cáp treo 350m, phong cách Địa Trung Hải tinh tế và ấm cúng.",
+      "agodaRawDescription": "케이블카 탑승장 360m 거리에 위치한 감각적인 인테리어의 호텔입니다. 쾌적한 침구와 모던한 욕실을 갖추고 있으며, 여유로운 휴식을 즐기기에 적합합니다."
     },
     {
       "slug": "solea-hotel-sunset-town-phu-quoc",
@@ -3023,8 +3083,7 @@
       "reviewsCount": 392,
       "cable_m": 240,
       "address": "M107-M109 Milan street, An Thoi, Phu Quoc Island, Vietnam, 92513",
-      "summary": "2025년 신축, 수영장과 피트니스를 갖춘 숙소.",
-      "description": "선셋타운 380m 거리에 자리 잡은 부티크 호텔입니다. 자연 채광이 좋은 넓은 객실과 세련된 디자인을 갖추고 있으며, 주변 상권 접근성이 좋습니다.",
+      "summary": "케이블카 240m 거리, 쾌적한 피트니스 공간과 깔끔한 룸 컨디션을 제공하는 호텔.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "수영장·아동 수영장",
@@ -3273,7 +3332,13 @@
           "view": "발코니/전망",
           "features": "개별 발코니, 넓은 휴식 공간, 미니바"
         }
-      ]
+      ],
+      "summary_en": "240m from cable car, offering fitness facilities and well-maintained modern rooms.",
+      "summary_zh": "距缆车240米，提供健身房与设施维护优良的客房。",
+      "summary_ja": "ケーブルカー240m、フィットネス設備と快適な客室を備えたホテル。",
+      "summary_ru": "В 240 м от канатной дороги, фитнес-зона и ухоженные современные номера.",
+      "summary_vi": "Cách cáp treo 240m, có phòng tập thể dục và phòng nghỉ tiện nghi hiện đại.",
+      "agodaRawDescription": "선셋타운 380m 거리에 자리 잡은 부티크 호텔입니다. 자연 채광이 좋은 넓은 객실과 세련된 디자인을 갖추고 있으며, 주변 상권 접근성이 좋습니다."
     },
     {
       "slug": "de-stefano-coffee-and-hotel",
@@ -3285,8 +3350,7 @@
       "reviewsCount": 386,
       "cable_m": 200,
       "address": "S34 Sorento 1 Street,  Sun premier Village Urban, An Thoi Ward, Phu Quoc City, S34, An Thoi, Phu Quoc Island, Vietnam, 92513",
-      "summary": "1층 카페와 조식 뷔페를 운영하는 숙소.",
-      "description": "케이블카 탑승장 400m 거리에 위치한 커피 & 부티크 호텔입니다. 향긋한 커피와 함께 아늑한 객실 공간을 제공하며 가족 단위 투숙에도 적합합니다.",
+      "summary": "케이블카 200m 거리, 1층 카페와 조식을 편안하게 이용할 수 있는 실속형 호텔.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "공용 주방",
@@ -3430,7 +3494,13 @@
           "view": "시티/발코니",
           "features": "4인 가족 최적화, 발코니, 소파 거실 공간"
         }
-      ]
+      ],
+      "summary_en": "200m from cable car, practical hotel featuring on-site cafe and morning breakfast.",
+      "summary_zh": "距缆车200米，配备一楼咖啡厅与早餐服务的实惠型酒店。",
+      "summary_ja": "ケーブルカー200m、1階カフェと朝食が便利な実力派ホテル。",
+      "summary_ru": "В 200 м от канатной дороги, удобный отель с кафе на первом этаже и завтраками.",
+      "summary_vi": "Cách cáp treo 200m, tiện lợi với quán cà phê tầng 1 và phục vụ bữa sáng.",
+      "agodaRawDescription": "케이블카 탑승장 400m 거리에 위치한 커피 & 부티크 호텔입니다. 향긋한 커피와 함께 아늑한 객실 공간을 제공하며 가족 단위 투숙에도 적합합니다."
     },
     {
       "slug": "khach-san-royal-phu-quoc",
@@ -3442,8 +3512,7 @@
       "reviewsCount": 383,
       "cable_m": 100,
       "address": "A20 ALMAFI ROAD, SUN GRAND CITY HILLSIDE RESIDENCE URBAN AREA - THE CENTER, GROUP 10, AREA 6, An Thoi, Phu Quoc Island, Vietnam, 92500",
-      "summary": "케이블카 100m, 해변 산책로 인접 숙소.",
-      "description": "선셋타운 420m 거리에 위치한 로얄 호텔입니다. 깔끔하고 쾌적한 객실 컨디션을 유지하며, 24시간 프런트 데스크 운영으로 체크인이 편리합니다.",
+      "summary": "케이블카 탑승장 도보 100m, 주요 명소와 식당가 접근성이 뛰어난 호텔.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "레스토랑·바",
@@ -3695,7 +3764,13 @@
           "view": "시티뷰",
           "features": "가족 투숙용 넓은 공간, 냉장고, 무료 Wi-Fi"
         }
-      ]
+      ],
+      "summary_en": "Just 100m from cable car station, excellent access to nearby restaurants and attractions.",
+      "summary_zh": "距缆车站仅100米，周边餐厅与观光景点举步可达。",
+      "summary_ja": "ケーブルカー駅徒歩100m、周辺レストランや名所へのアクセス抜群。",
+      "summary_ru": "В 100 м от канатной дороги, удобный доступ к ресторанам и достопримечательностям.",
+      "summary_vi": "Cách ga cáp treo 100m, tiếp cận nhanh chóng các nhà hàng và điểm tham quan.",
+      "agodaRawDescription": "선셋타운 420m 거리에 위치한 로얄 호텔입니다. 깔끔하고 쾌적한 객실 컨디션을 유지하며, 24시간 프런트 데스크 운영으로 체크인이 편리합니다."
     },
     {
       "slug": "cybele-hotel",
@@ -3707,8 +3782,7 @@
       "reviewsCount": 373,
       "cable_m": 380,
       "address": "Number 23 Positano Street, Sunset Town, An Thoi, Phu Quoc Island, Vietnam, 91000",
-      "summary": "포지타노 거리에 위치한 부티크 숙소.",
-      "description": "케이블카 탑승장 440m 거리에 자리한 키벨레 호텔입니다. 아담하고 정갈한 분위기 속에서 바다 전망과 발코니를 즐길 수 있는 실속형 숙소입니다.",
+      "summary": "포지타노 거리 위치, 케이블카 380m 거리의 차분하고 여유로운 부티크 숙소.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "레스토랑",
@@ -3938,7 +4012,13 @@
           "view": "오션뷰",
           "features": "바다 전망, 쾌적한 채광, 무료 Wi-Fi"
         }
-      ]
+      ],
+      "summary_en": "Located in Positano street 380m from cable car, offering quiet and relaxed boutique stay.",
+      "summary_zh": "位于波西塔诺街区距缆车380米，环境安静舒适的精品酒店。",
+      "summary_ja": "ポジターノ通り沿いケーブルカー380m、静かで落ち着いたブティックホテル。",
+      "summary_ru": "На улице Позитано в 380 м от канатной дороги, спокойный и комфортный бутик-отель.",
+      "summary_vi": "Phố Positano cách cáp treo 380m, không gian yên bình và thư thái.",
+      "agodaRawDescription": "케이블카 탑승장 440m 거리에 자리한 키벨레 호텔입니다. 아담하고 정갈한 분위기 속에서 바다 전망과 발코니를 즐길 수 있는 실속형 숙소입니다."
     },
     {
       "slug": "ca-che-p-boutique-house",
@@ -3950,8 +4030,7 @@
       "reviewsCount": 339,
       "cable_m": 250,
       "address": "House No: 277, Sorento 2 Street, Sunset Town - Dia Trung Hai Area, An Thoi, Phu Quoc Island, Vietnam, 92513",
-      "summary": "가격 대비 만족도 평점 8.8의 부티크 숙소.",
-      "description": "선셋타운 460m 거리에 위치한 부티크 하우스입니다. 감성적인 코트야드와 오션뷰 룸을 보유하여 차분하고 감각적인 분위기를 선사합니다.",
+      "summary": "케이블카 250m 거리, 가성비 뛰어난 숙박 요금과 친절한 서비스가 돋보이는 숙소.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "해변",
@@ -4161,7 +4240,13 @@
           "view": "오션뷰",
           "features": "바다 전망, 감성 인테리어, 테라스"
         }
-      ]
+      ],
+      "summary_en": "250m from cable car, highly rated for great value and welcoming hospitality.",
+      "summary_zh": "距缆车250米，以超高性价比与亲切服务获住客好评。",
+      "summary_ja": "ケーブルカー250m、コスパの良さと親切なもてなしが評判の宿。",
+      "summary_ru": "В 250 м от канатной дороги, отличные цены и приветливый персонал.",
+      "summary_vi": "Cách cáp treo 250m, được đánh giá cao về giá cả hợp lý và sự thân thiện.",
+      "agodaRawDescription": "선셋타운 460m 거리에 위치한 부티크 하우스입니다. 감성적인 코트야드와 오션뷰 룸을 보유하여 차분하고 감각적인 분위기를 선사합니다."
     },
     {
       "slug": "hoang-hon-hotel",
@@ -4173,8 +4258,7 @@
       "reviewsCount": 331,
       "cable_m": 370,
       "address": "02 Sorrento, Sunset town, An Thoi, An Thoi, Phu Quoc Island, Vietnam, 92513",
-      "summary": "옥상 선셋 라운지를 갖춘 부티크 숙소.",
-      "description": "혼똔섬 케이블카 480m 거리에 위치한 황혼 호텔입니다. 발코니에서 선셋타운의 노을을 감상하기 좋으며 편안한 침대와 깨끗한 욕실을 갖추고 있습니다.",
+      "summary": "케이블카 370m 거리, 옥상 테라스에서 선셋타운 전경을 감상할 수 있는 호텔.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "옥상 선셋 라운지",
@@ -4310,7 +4394,13 @@
           "view": "오션뷰",
           "features": "바다 조망, 안락한 침구, 무료 Wi-Fi"
         }
-      ]
+      ],
+      "summary_en": "370m from cable car, features a rooftop terrace with panoramic Sunset Town views.",
+      "summary_zh": "距缆车370米，屋顶露台可饱览日落小镇街景。",
+      "summary_ja": "ケーブルカー370m、屋上テラスから街並みを楽しめるホテル。",
+      "summary_ru": "В 370 м от канатной дороги, терраса на крыше с панорамой Сансет Тауна.",
+      "summary_vi": "Cách cáp treo 370m, có sân thượng ngắm toàn cảnh thị trấn Hoàng Hôn.",
+      "agodaRawDescription": "혼똔섬 케이블카 480m 거리에 위치한 황혼 호텔입니다. 발코니에서 선셋타운의 노을을 감상하기 좋으며 편안한 침대와 깨끗한 욕실을 갖추고 있습니다."
     },
     {
       "slug": "palo-santo-hotel-phu-quoc",
@@ -4322,8 +4412,7 @@
       "reviewsCount": 324,
       "cable_m": 430,
       "address": "Số 31,đường Positano,Sunset Town,An Thới, An Thoi, Phu Quoc Island, Vietnam, 92500",
-      "summary": "스파와 마사지 시설을 갖춘 숙소.",
-      "description": "선셋타운 510m 거리에 위치한 감성적인 부티크 호텔입니다. 아늑하고 편안한 인테리어와 세심한 서비스로 편안한 휴식을 제공합니다.",
+      "summary": "케이블카 430m 거리, 깔끔한 인테리어와 스파 트리트먼트를 이용할 수 있는 숙소.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "스파·마사지",
@@ -4497,7 +4586,13 @@
           "view": "발코니 뷰",
           "features": "프라이빗 발코니, 감성 조명, 냉장고"
         }
-      ]
+      ],
+      "summary_en": "430m from cable car, comfortable rooms with on-site spa treatment services.",
+      "summary_zh": "距缆车430米，客房整洁并配有水疗舒压服务。",
+      "summary_ja": "ケーブルカー430m、清潔な客室とスパマッサージが利用可能なホテル。",
+      "summary_ru": "В 430 м от канатной дороги, аккуратные номера и спа-процедуры.",
+      "summary_vi": "Cách cáp treo 430m, phòng nghỉ sạch sẽ và dịch vụ massage thư giãn.",
+      "agodaRawDescription": "선셋타운 510m 거리에 위치한 감성적인 부티크 호텔입니다. 아늑하고 편안한 인테리어와 세심한 서비스로 편안한 휴식을 제공합니다."
     },
     {
       "slug": "thala-hotel-sorrento",
@@ -4509,8 +4604,7 @@
       "reviewsCount": 314,
       "cable_m": 160,
       "address": " An Thoi Thala Hotel Sorrento, An Thoi, Phu Quoc Island, Vietnam, 92513",
-      "summary": "케이블카 160m 거리, 소렌토 구역 신축 숙소.",
-      "description": "소렌토 거리에 위치하여 케이블카 탑승장까지 520m 거리인 호텔입니다. 이국적인 거리 풍경과 바다를 함께 감상할 수 있는 발코니 룸을 구비하고 있습니다.",
+      "summary": "소렌토 구역 케이블카 160m 거리, 밝고 정갈한 룸 컨디션의 신축 부티크 숙소.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "레스토랑",
@@ -4702,7 +4796,13 @@
           "view": "시티뷰",
           "features": "트윈 베드, 여유로운 공간, 무료 Wi-Fi"
         }
-      ]
+      ],
+      "summary_en": "In Sorrento area 160m from cable car, bright and tidy boutique rooms.",
+      "summary_zh": "索伦托街区距缆车160米，采光充足整洁的精品客房。",
+      "summary_ja": "ソレント地区ケーブルカー160m、明るく整えられた清潔なブティックホテル。",
+      "summary_ru": "В районе Сорренто в 160 м от канатной дороги, светлые и опрятные номера.",
+      "summary_vi": "Khu Sorrento cách cáp treo 160m, phòng ốc sáng sủa và ngăn nắp.",
+      "agodaRawDescription": "소렌토 거리에 위치하여 케이블카 탑승장까지 520m 거리인 호텔입니다. 이국적인 거리 풍경과 바다를 함께 감상할 수 있는 발코니 룸을 구비하고 있습니다."
     },
     {
       "slug": "catarina-hotel-phu-quoc",
@@ -4714,8 +4814,7 @@
       "reviewsCount": 294,
       "cable_m": 230,
       "address": "Milan Street, Sunset Town, An Thoi, Phu Quoc Island, Vietnam, 92513",
-      "summary": "주방 시설과 24시간 프런트를 갖춘 숙소.",
-      "description": "선셋타운 550m 거리에 위치한 카타리나 호텔입니다. 넓은 객실 공간과 바다 전망을 제공하며 조용하고 쾌적한 휴식을 지원합니다.",
+      "summary": "케이블카 230m 거리, 24시간 프런트 데스크와 아늑한 객실을 갖춘 실속 호텔.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "24시간 프런트",
@@ -4874,7 +4973,13 @@
           "view": "오션뷰",
           "features": "바다 조망, 안락한 침구, 무료 생수"
         }
-      ]
+      ],
+      "summary_en": "230m from cable car station, 24-hour front desk and comfortable accommodations.",
+      "summary_zh": "距缆车230米，配备24小时前台与温馨舒适的客房。",
+      "summary_ja": "ケーブルカー230m、24時間フロント対応で安心の快適ホテル。",
+      "summary_ru": "В 230 м от канатной дороги, круглосуточная стойка регистрации и уютные номера.",
+      "summary_vi": "Cách cáp treo 230m, lễ tân 24 giờ và không gian phòng ấm cúng.",
+      "agodaRawDescription": "선셋타운 550m 거리에 위치한 카타리나 호텔입니다. 넓은 객실 공간과 바다 전망을 제공하며 조용하고 쾌적한 휴식을 지원합니다."
     },
     {
       "slug": "sunny-hotel",
@@ -4886,8 +4991,7 @@
       "reviewsCount": 274,
       "cable_m": 370,
       "address": "Venice 18, Sunset Town,  An Thoi Ward, Phu Quoc City, Kien Giang Province, Vietnam, An Thoi, Phu Quoc Island, Vietnam, 92500",
-      "summary": "서비스 평점 9.4, 위치 평점 9.3 기록 숙소.",
-      "description": "케이블카 탑승장 580m 거리에 위치한 써니 호텔입니다. 밝고 따뜻한 채광과 청결한 객실 컨디션을 자랑하며 가족 투숙객에게 인기가 높습니다.",
+      "summary": "케이블카 370m 거리, 친절한 고객 서비스와 청결한 객실 관리로 높은 평점 유지.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "스파",
@@ -5045,7 +5149,13 @@
           "view": "시티뷰",
           "features": "가족 투숙용 더블베드 2개, 냉장고, 무료 Wi-Fi"
         }
-      ]
+      ],
+      "summary_en": "370m from cable car, consistently praised for hospitable staff and clean rooms.",
+      "summary_zh": "距缆车370米，因热情的服务与干净的客房赢得优异评分。",
+      "summary_ja": "ケーブルカー370m、フレンドリーな接客と清潔な客室で高評価を獲得。",
+      "summary_ru": "В 370 м от канатной дороги, высокие оценки за чистоту и дружелюбный сервис.",
+      "summary_vi": "Cách cáp treo 370m, nhận nhiều đánh giá tốt về sự chu đáo và sạch sẽ.",
+      "agodaRawDescription": "케이블카 탑승장 580m 거리에 위치한 써니 호텔입니다. 밝고 따뜻한 채광과 청결한 객실 컨디션을 자랑하며 가족 투숙객에게 인기가 높습니다."
     },
     {
       "slug": "solaro-hotel-spa-h84816481",
@@ -5057,8 +5167,7 @@
       "reviewsCount": 265,
       "cable_m": 150,
       "address": "39 - 41 Milan Street, An Thoi, Phu Quoc Island, Vietnam, 91000",
-      "summary": "2026년 신축, 실내외 수영장과 스파 완비 숙소.",
-      "description": "선셋타운 600m 거리에 위치한 스파 부티크 호텔입니다. 여행의 피로를 풀어주는 스파 마사지 프로그램과 편안한 휴식 공간을 완비하고 있습니다.",
+      "summary": "케이블카 150m 거리, 스파 시설과 일부 객실에서 바다 및 불꽃놀이 조망 가능.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "실내·실외 수영장",
@@ -5439,7 +5548,13 @@
           "view": "오션뷰",
           "features": "바다 전망, 욕조 구비, 프리미엄 린넨"
         }
-      ]
+      ],
+      "summary_en": "150m from cable car, featuring spa facilities and selected rooms with sea or fireworks views.",
+      "summary_zh": "距缆车150米，配备水疗设施，部分客房可观赏海景或烟花。",
+      "summary_ja": "ケーブルカー150m、スパ施設完備で一部客室から海や花火を鑑賞可能。",
+      "summary_ru": "В 150 м от канатной дороги, спа-центр, вид на море и салют из ряда номеров.",
+      "summary_vi": "Cách cáp treo 150m, có tiện ích spa và phòng ngắm biển hoặc pháo hoa.",
+      "agodaRawDescription": "선셋타운 600m 거리에 위치한 스파 부티크 호텔입니다. 여행의 피로를 풀어주는 스파 마사지 프로그램과 편안한 휴식 공간을 완비하고 있습니다."
     },
     {
       "slug": "anna-hotel-free-cable-car-and-water-park-tickets",
@@ -5451,8 +5566,7 @@
       "reviewsCount": 248,
       "cable_m": 340,
       "address": "Số căn 131, đường Milan, Sunset Town, An Thới, Phú Quốc, An Giang, An Thoi, Phu Quoc Island, Vietnam, 91000",
-      "summary": "인피니티 풀을 갖춘 2024년 신축 숙소.",
-      "description": "케이블카 탑승장 620m 거리에 위치한 호텔입니다. 실속 있는 가격대에 쾌적한 객실과 친절한 투어 안내 서비스를 제공합니다.",
+      "summary": "케이블카 340m 거리, 루프탑 인피니티 풀에서 시원한 도심 뷰를 즐길 수 있는 호텔.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "인피니티 풀·아동 수영장",
@@ -5659,7 +5773,13 @@
           "view": "시티뷰",
           "features": "4인 가족용, 넉넉한 공간, 무료 Wi-Fi"
         }
-      ]
+      ],
+      "summary_en": "340m from cable car, featuring a rooftop infinity pool with town views.",
+      "summary_zh": "距缆车340米，拥有可赏城镇风光的屋顶无边泳池。",
+      "summary_ja": "ケーブルカー340m、屋上インフィニティプールから街並みを一望できるホテル.",
+      "summary_ru": "В 340 м от канатной дороги, панорамный бассейн на крыше с видом на город.",
+      "summary_vi": "Cách cáp treo 340m, hồ bơi vô cực trên tầng mái ngắm cảnh thị trấn.",
+      "agodaRawDescription": "케이블카 탑승장 620m 거리에 위치한 호텔입니다. 실속 있는 가격대에 쾌적한 객실과 친절한 투어 안내 서비스를 제공합니다."
     },
     {
       "slug": "juliet-boutique-hotel",
@@ -5671,8 +5791,7 @@
       "reviewsCount": 229,
       "cable_m": 370,
       "address": "Juliet Boutique Hotel, Ven07, Sunset Town, An Thới, Phú Quốc, Kiên Giang, An Thoi, Phu Quoc Island, Vietnam, 92500",
-      "summary": "전용 비치 구역과 조식 뷔페를 갖춘 부티크 호텔.",
-      "description": "선셋타운 630m 거리에 자리한 줄리엣 부티크 호텔입니다. 감각적인 인테리어와 시원한 바다 전망 스위트 객실을 보유하고 있습니다.",
+      "summary": "케이블카 370m 거리, 정성스러운 아침 식사와 쾌적한 객실을 제공하는 부티크 호텔.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "전용 해변",
@@ -5877,7 +5996,13 @@
           "view": "파노라마 오션뷰",
           "features": "거실 분리형 스위트, 소파 세트, 스마트 TV"
         }
-      ]
+      ],
+      "summary_en": "370m from cable car station, boutique hotel offering breakfast and comfortable rooms.",
+      "summary_zh": "距缆车370米，提供精致早餐与舒适整洁客房的精品酒店。",
+      "summary_ja": "ケーブルカー370m、朝食と居心地の良い客室を提供するブティックホテル。",
+      "summary_ru": "В 370 м от канатной дороги, вкусные завтраки и комфортные бутик-номера.",
+      "summary_vi": "Cách cáp treo 370m, phục vụ bữa sáng và phòng ốc tiện nghi dễ chịu.",
+      "agodaRawDescription": "선셋타운 630m 거리에 자리한 줄리엣 부티크 호텔입니다. 감각적인 인테리어와 시원한 바다 전망 스위트 객실을 보유하고 있습니다."
     },
     {
       "slug": "hoa-ng-hon-ti-m-boutique-hotel",
@@ -5889,8 +6014,7 @@
       "reviewsCount": 227,
       "cable_m": 220,
       "address": "House No: 334, Sorento 3 Street, Sunset Town - Dia Trung Hai Area, An Thoi, Phu Quoc Island, Vietnam, 92513",
-      "summary": "소렌토 거리에 위치한 부티크 호텔.",
-      "description": "소렌토 거리에 위치하여 케이블카 탑승장까지 220m 거리인 호텔입니다. 소렌토 골목의 이국적인 정취와 조용한 분위기 속에서 편안하게 머무를 수 있습니다.",
+      "summary": "소렌토 거리 케이블카 220m 위치, 깔끔한 실속형 룸 컨디션과 친절한 응대.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "24시간 룸서비스",
@@ -6052,7 +6176,13 @@
           "view": "오션뷰",
           "features": "바다 전망, 안락한 킹베드, 티 테이블"
         }
-      ]
+      ],
+      "summary_en": "On Sorrento street 220m from cable car, offering tidy budget-friendly rooms and helpful service.",
+      "summary_zh": "位于索伦托街距缆车220米，客房干净实惠，前台服务亲切。",
+      "summary_ja": "ソレント通りケーブルカー220m、清潔でお手頃な客室と温かいサービス。",
+      "summary_ru": "На улице Сорренто в 220 м от канатной дороги, недорогие чистые номера.",
+      "summary_vi": "Phố Sorrento cách cáp treo 220m, phòng sạch sẽ giá tốt và nhân viên nhiệt tình.",
+      "agodaRawDescription": "소렌토 거리에 위치하여 케이블카 탑승장까지 220m 거리인 호텔입니다. 소렌토 골목의 이국적인 정취와 조용한 분위기 속에서 편안하게 머무를 수 있습니다."
     }
   ]
 }

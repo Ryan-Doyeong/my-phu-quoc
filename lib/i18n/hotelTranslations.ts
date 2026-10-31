@@ -90,6 +90,8 @@ export interface HotelUiDictionary {
   pageSubtitleKhemBeach: string
   badgeSunsetTown: string
   badgeKhemBeach: string
+  travelToSunsetTown: string
+  cableCarStationDistance: string
 }
 
 export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
@@ -183,6 +185,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     pageSubtitleKhemBeach: "백사장과 바다를 낀 켐 비치의 리조트·호텔을 한눈에 비교해 보세요.",
     badgeSunsetTown: "Sunset Town Hotels & Resorts",
     badgeKhemBeach: "Bai Khem Resorts & Hotels",
+    travelToSunsetTown: "선셋타운 이동",
+    cableCarStationDistance: "케이블카 거리",
   },
   en: {
     pageTitle: 'Sunset Town Hotels & Resorts',
@@ -274,6 +278,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     pageSubtitleKhemBeach: "Discover and compare resorts and hotels along the white sand beach of Bai Khem.",
     badgeSunsetTown: "Sunset Town Hotels & Resorts",
     badgeKhemBeach: "Bai Khem Resorts & Hotels",
+    travelToSunsetTown: "To Sunset Town",
+    cableCarStationDistance: "To Cable Car",
   },
   zh: {
     pageTitle: '富国岛日落小镇酒店一览',
@@ -365,6 +371,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     pageSubtitleKhemBeach: "一览白沙滩与碧海环绕的凯姆海滩度假村与酒店。",
     badgeSunsetTown: "Sunset Town Hotels & Resorts",
     badgeKhemBeach: "Bai Khem Resorts & Hotels",
+    travelToSunsetTown: "至日落小镇",
+    cableCarStationDistance: "至缆车站",
   },
   ja: {
     pageTitle: 'サンセットタウン ホテル＆リゾート',
@@ -456,6 +464,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     pageSubtitleKhemBeach: "白砂と青い海に面したケムビーチのリゾート・ホテルを比較。",
     badgeSunsetTown: "Sunset Town Hotels & Resorts",
     badgeKhemBeach: "Bai Khem Resorts & Hotels",
+    travelToSunsetTown: "サンセットタウンへ",
+    cableCarStationDistance: "ケーブルカー駅まで",
   },
   ru: {
     pageTitle: 'Отели и курорты Сансет Тауна',
@@ -547,6 +557,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     pageSubtitleKhemBeach: "Сравните курорты и отели на белоснежном побережье пляжа Бай Кхем.",
     badgeSunsetTown: "Sunset Town Hotels & Resorts",
     badgeKhemBeach: "Bai Khem Resorts & Hotels",
+    travelToSunsetTown: "До Сансет Тауна",
+    cableCarStationDistance: "До канатной дороги",
   },
   hi: {
     pageTitle: 'सनसेट टाउन होटल और रिसॉर्ट्स',
@@ -638,6 +650,8 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     pageSubtitleKhemBeach: "सफेद रेत और समुद्र तट पर स्थित खेम बीच के रिसॉर्ट्स और होटलों की तुलना करें।",
     badgeSunsetTown: "Sunset Town Hotels & Resorts",
     badgeKhemBeach: "Bai Khem Resorts & Hotels",
+    travelToSunsetTown: "सनसेट टाउन तक",
+    cableCarStationDistance: "केबल कार तक",
   },
   vi: {
     pageTitle: '선셋타운 호텔 한눈에 보기',
@@ -729,5 +743,7 @@ export const HOTEL_TRANSLATIONS: Record<Locale, HotelUiDictionary> = {
     pageSubtitleKhemBeach: "So sánh các resort và khách sạn ven bãi biển cát trắng Bãi Khem.",
     badgeSunsetTown: "Sunset Town Hotels & Resorts",
     badgeKhemBeach: "Bai Khem Resorts & Hotels",
+    travelToSunsetTown: "Tới Sunset Town",
+    cableCarStationDistance: "Tới ga cáp treo",
   },
 }

@@ -85,7 +85,7 @@ export interface HotelItem {
   summary_ja?: string
   summary_ru?: string
   summary_vi?: string
-  description: string
+  agodaRawDescription?: string
   isAiGeneratedIntro?: boolean
   coreFacilities: string[]
   facilityCategories?: FacilityCategory[]

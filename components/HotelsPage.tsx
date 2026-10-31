@@ -37,6 +37,16 @@ function getKhemDistanceBadge(hotel: HotelItem, t: HotelUiDictionary): string {
   return baseBadge
 }
 
+function formatReviewLabel(count: number, locale?: Locale): string {
+  if (locale === 'en') return `${count.toLocaleString()} reviews`
+  if (locale === 'zh') return `${count.toLocaleString()}条评价`
+  if (locale === 'ja') return `${count.toLocaleString()}件のレビュー`
+  if (locale === 'ru') return `${count.toLocaleString()} отзывов`
+  if (locale === 'hi') return `${count.toLocaleString()} समीक्षाएं`
+  if (locale === 'vi') return `${count.toLocaleString()} đánh giá`
+  return `후기 ${count.toLocaleString()}건`
+}
+
 /* =========================================================================
    1. Unified Hotel Card Component (공통 호텔 카드 컴포넌트)
    - 모든 호텔(선셋타운 27곳 + 켐 비치 7곳)이 일관된 공통 컴포넌트 구조
@@ -109,7 +119,7 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
         <div className="cardMetaRow">
           <div className="cardRatingBox">
             <span className="cardScore">{hotel.rating.toFixed(1)} ★</span>
-            <span className="cardReviews">({hotel.reviewsCount.toLocaleString()})</span>
+            <span className="cardReviews">({formatReviewLabel(hotel.reviewsCount, locale)})</span>
             {hotel.googleRating && (
               <span className="googleScoreBadge">구글맵 {hotel.googleRating.toFixed(1)} ★ ({hotel.googleReviewsCount || 18})</span>
             )}
@@ -214,6 +224,7 @@ interface HotelDetailModalProps {
 
 function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) {
   const [modalPhotoIdx, setModalPhotoIdx] = useState(0)
+  const summaryText = getLocalizedSummary(hotel, locale)
 
   // Accordion state
   const [openSections, setOpenSections] = useState<Record<string, boolean>>({
@@ -291,7 +302,8 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
             <div className="modalHeaderMeta">
               <div className="modalRating">
                 <span className="modalScore">{hotel.rating.toFixed(1)} ★</span>
-                <span className="modalReviews">{hotel.reviewsCount.toLocaleString()}{t.reviews}</span>
+                <span className="modalScoreDivider" style={{ margin: '0 6px', color: '#cbd5e1' }}>·</span>
+                <span className="modalReviews">{formatReviewLabel(hotel.reviewsCount, locale)}</span>
                 {hotel.googleRating && (
                   <span className="googleScoreBadge">구글맵 {hotel.googleRating.toFixed(1)} ★ ({hotel.googleReviewsCount || 18})</span>
                 )}
@@ -310,8 +322,10 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
             <h2 className="modalHotelTitle">{hotel.name_ko}</h2>
             <div className="modalHotelTitleEn">{hotel.name_en}</div>
 
-            {/* 3줄 이내 요약 */}
-            <p className="modalShortIntro">{hotel.description}</p>
+            {/* 1~2줄 요약 (화면에는 summary만 사용, description 필드 절대 비노출) */}
+            {summaryText && (
+              <p className="modalShortIntro">{summaryText}</p>
+            )}
           </div>
 
           {/* 6개 아코디언 드롭다운 */}
@@ -384,7 +398,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                     <div className="overallScoreBox">
                       <span className="scoreBig">{hotel.rating.toFixed(1)}</span>
                       <span className="scoreTotal">/ 10</span>
-                      <div className="scoreCount">{hotel.reviewsCount.toLocaleString()}{t.reviews} (Agoda)</div>
+                      <div className="scoreCount">{formatReviewLabel(hotel.reviewsCount, locale)} (Agoda)</div>
                     </div>
 
                     {hotel.subRatings && (
@@ -642,11 +656,11 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                     </div>
                     {isKhem ? (
                       <div style={{ marginBottom: '8px' }}>
-                        <strong>🚗 선셋타운 이동:</strong> 선셋타운 및 혼똔섬 케이블카 탑승장까지 차량 약 {hotel.driveMinutesToSunsetTown ? `${String(hotel.driveMinutesToSunsetTown).replace('분', '')}분` : '10분'} (약 6.5~7km)
+                        <strong>🚗 {t.travelToSunsetTown}:</strong> {t.khemDistanceBadge} (약 6.5km)
                       </div>
                     ) : (
                       <div style={{ marginBottom: '8px' }}>
-                        <strong>🚡 케이블카 거리:</strong> 혼똔섬 케이블카 탑승장까지 {hotel.cable_m}m
+                        <strong>🚡 {t.cableCarStationDistance}:</strong> {hotel.cable_m}m
                       </div>
                     )}
                     <div style={{ marginBottom: '12px', color: '#0f172a', fontWeight: 600 }}>
