@@ -164,6 +164,10 @@ export const PRODUCTS: Record<string, Product> = {
     price: { base: null },
     vendor: null,
     link: '/buggy-tour',
+    caution: {
+      ko: '추천 시간: 석양 무렵이 가장 예쁘고, 번잡함을 피하려면 10~15시 (정오 전후는 햇빛이 강해요). 투어는 저희 파트너 업체와 미리 정한 스케줄로 움직여야 바가지·대기 없이 안전해요.',
+      en: 'Best at sunset; 10:00–15:00 is quietest (midday sun is strong). Tours run on a schedule fixed with our partner — no overcharging or waiting.',
+    },
   },
   car_tour: {
     id: 'car_tour',
@@ -372,8 +376,8 @@ export const SPOT = {
   sunsetTown: {
     title: { ko: '선셋타운 산책 · 키스 브릿지 일몰', en: 'Sunset Town walk · Kiss Bridge sunset' },
     desc: {
-      ko: '지중해풍 거리를 걷다가 키스 브릿지에서 해 지는 모습을 봐요.',
-      en: 'Stroll the Mediterranean-style streets and catch the sunset at Kiss Bridge.',
+      ko: '지중해풍 거리를 걷다가 키스 브릿지에서 해 지는 모습을 봐요. 16~18시는 피크 타임이라 도보 이동이 가장 편해요.',
+      en: 'Stroll the Mediterranean-style streets and catch the sunset at Kiss Bridge. 16:00–18:00 is peak — walking is easiest.',
     },
   },
   rooftop: {

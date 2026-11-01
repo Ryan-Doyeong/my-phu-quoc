@@ -97,6 +97,22 @@ interface Ctx {
   input: PlannerInput
   rainy: boolean
   dayIndex: number
+  /** 이 날 저녁에 공연(심포니/키스)이 잡혀 있으면 true — 석양 시간대 활동을 피함 */
+  showDay?: boolean
+}
+
+/** 버기 투어 시간대: 석양이 가장 좋고, 번잡함을 피하려면 10~15시. 정오 전후는 햇빛이 강함. */
+const BUGGY_TIME_FLAG: L = t('가장 예쁜 시간은 석양 무렵 · 한적한 시간은 10~15시 (정오 전후는 햇빛이 강해요)', 'Best at sunset · quietest 10:00–15:00 (midday sun is harsh)')
+function buggy(ctx: Ctx, extra: Partial<PlanItem> = {}, forceMorning = false): PlanItem {
+  const sunset = !ctx.showDay && !forceMorning
+  return productItem(ctx, 'buggy_tour', sunset ? '16:30' : '10:00', 'south', {
+    ...(sunset ? { title: t('석양 버기 투어 (필수 사진 코스)', 'Sunset buggy tour (photo course)') } : {}),
+    desc: sunset
+      ? t('해 질 무렵 빛이 가장 예뻐요. 선셋타운 포토 스팟을 돌고 그대로 저녁으로 이어가요.', 'Golden-hour light is the prettiest. Loop the photo spots and roll into dinner.')
+      : t('공연이 있는 날은 석양 대신 한적하고 덜 더운 오전 10시쯤이 좋아요.', 'On show days, go around 10:00 — quiet and before the heat.'),
+    flags: [BUGGY_TIME_FLAG],
+    ...extra,
+  })
 }
 
 function item(ctx: Ctx, id: string, time: string, kind: PlanItem['kind'], title: L, region: Region, extra: Partial<PlanItem> = {}): PlanItem {
@@ -215,9 +231,12 @@ function runProgram(ctx: Ctx, id: ProgramId): ProgramResult {
         theme: purposes.includes('photo') ? t('사진 남기는 날', 'Photo day') : t('선셋타운과 해변', 'Sunset Town & beach'),
         blocksAfternoon: false,
         items: [
-          productItem(ctx, 'buggy_tour', '09:30', 'south', { alternatives: [spot(ctx, 'cafe', '09:30', 'south')] }),
+          ...(ctx.showDay
+            ? [buggy(ctx, { alternatives: [spot(ctx, 'cafe', '10:00', 'south')] })]
+            : [spot(ctx, 'cafe', '10:00', 'south', 'spot', { alternatives: [spot(ctx, 'sunsetTown', '10:00', 'south')] })]),
           spot(ctx, 'lunch', '12:00', 'south', 'meal'),
           afternoon,
+          ...(ctx.showDay ? [] : [buggy(ctx)]),
         ],
       }
     }
@@ -231,7 +250,7 @@ function runProgram(ctx: Ctx, id: ProgramId): ProgramResult {
               '전용 차량으로 호국사·사오 비치 등 남부 명소를 무리 없이 돌아봐요. 걷는 거리가 적어 부모님과 함께하기 좋아요.',
               'Private car to Ho Quoc Pagoda, Sao Beach and other southern sights with little walking.',
             ),
-            alternatives: [productItem(ctx, 'buggy_tour', '09:30', 'south')],
+            alternatives: [buggy(ctx, { time: '10:00' }, true)],
           }),
           ...(PRODUCTS.local_guide.hidden ? [] : [productItem(ctx, 'local_guide', '08:45', 'south', { desc: t('부모님·아이와 함께라면 가이드가 동행해 설명하고 사진도 찍어 드려요. 시즌·인원에 따라 상담 후 견적.', 'A guide joins to explain, help and take photos. Quote after consultation.') })]),
           spot(ctx, 'lunch', '12:30', 'south', 'meal'),
@@ -305,7 +324,7 @@ export function generatePlan(input: PlannerInput): Plan {
   const rainyAny = info.some((x) => isRainySeason(x.date))
 
   for (let d = 0; d <= N; d++) {
-    const ctx: Ctx = { input, rainy: isRainySeason(info[d].date), dayIndex: d }
+    const ctx: Ctx = { input, rainy: isRainySeason(info[d].date), dayIndex: d, showDay: d < N && (d === symphonyDay || d === kissDay) }
     const has = (s: Slot) => info[d].slots.has(s)
     const items: PlanItem[] = []
     let theme: L = t('자유 일정', 'Free day')
@@ -413,7 +432,7 @@ export function generatePlan(input: PlannerInput): Plan {
                 })
               : spot(ctx, 'resortRest', '15:00', 'south', 'rest', {
                   title: t('체크인 후 수영장·휴식', 'Pool time after check-in'),
-                  alternatives: [productItem(ctx, 'buggy_tour', '15:30', 'south')],
+                  alternatives: [buggy(ctx, { time: ctx.showDay ? '15:00' : '16:30' })],
                 }),
           )
         }
@@ -566,6 +585,11 @@ export function generatePlan(input: PlannerInput): Plan {
           if (has('sunset') && (main.key.includes('bazaar') || main.key.includes('khemPub'))) {
             items.push(spot(ctx, 'sunsetTown', '17:30', 'south'))
           }
+          // 석양 버기(16:30)와 17시 출발 오징어 낚시가 겹치면 버기를 오전 10시로 옮김
+          if (main.productId === 'squid_fishing') {
+            const bi = items.findIndex((i) => i.productId === 'buggy_tour' && i.time === '16:30')
+            if (bi >= 0) items[bi] = buggy(ctx, { time: '10:30' }, true)
+          }
           items.push({ ...main, alternatives: alts.length ? alts : undefined })
         }
       }
@@ -612,6 +636,12 @@ export function generatePlan(input: PlannerInput): Plan {
   if (input.companion === 'kids' && input.children > 0) {
     notes.push(t('아이와 함께라 휴식 시간을 넉넉히 두고, 늦은 공연은 상황에 맞게 고르도록 했어요.', 'With kids: more rest time, and late shows are optional on the day.'))
   }
+  notes.push(
+    t(
+      '선셋타운 안 이동: 16~18시 피크 타임엔 인파가 많아 걸어서 다니는 게 가장 편해요. 지나다니는 버기는 아무거나 잡아 타면 되고 공식 요금은 1인 10,000₫이지만, 피크 땐 빈 버기가 거의 없어요.',
+      'Getting around Sunset Town: 16:00–18:00 is peak, so walking is easiest. Any passing buggy can be flagged (official fare 10,000₫ per person), but empty ones are rare at peak.',
+    ),
+  )
   notes.push(t('공연 시간·운영 시간·가격은 바뀔 수 있어요. 예약 전에 저희가 다시 확인해 드려요.', 'Show times, hours and prices can change — we re-check before booking.'))
 
   return {
