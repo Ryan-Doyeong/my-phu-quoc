@@ -113,6 +113,7 @@ export interface HotelItem {
   reviewQuote?: HotelReviewQuote
   googleRating?: number
   googleReviewsCount?: number
+  priceRange?: '$' | '$$' | '$$$'
   googleReviews?: HotelGoogleReview[]
   unverified?: string[]
   insight?: HotelInsight
@@ -126,6 +127,9 @@ function mapHotelItem(raw: any, defaultArea: HotelArea): HotelItem {
     area: raw.area || defaultArea,
     insight,
     googleMapsUrl: insight?.googleMapsUrl || raw.googleMapsUrl,
+    googleRating: raw.googleRating,
+    googleReviewsCount: raw.googleReviewsCount,
+    priceRange: raw.priceRange,
   }
 }
 

@@ -137,6 +137,11 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
             {hotel.googleRating && (
               <span className="googleScoreBadge">{t.googleMapsLabel} {hotel.googleRating.toFixed(1)} ★ ({hotel.googleReviewsCount || 18})</span>
             )}
+            {hotel.priceRange && (
+              <span className="cardPriceBadge" title={`아고다 기준 1박 요금대: ${hotel.priceRange} (조회일: 2026-11-01)`}>
+                {hotel.priceRange}
+              </span>
+            )}
           </div>
           {isKhem ? (
             <span className="khemDistBadge">🚗 {getKhemDistanceBadge(hotel, t)}</span>
@@ -335,6 +340,11 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                 <span className="modalReviews">{formatReviewLabel(hotel.reviewsCount, locale)}</span>
                 {hotel.googleRating && (
                   <span className="googleScoreBadge">{t.googleMapsLabel} {hotel.googleRating.toFixed(1)} ★ ({hotel.googleReviewsCount || 18})</span>
+                )}
+                {hotel.priceRange && (
+                  <span className="cardPriceBadge" style={{ marginLeft: '6px' }} title={`아고다 기준 1박 요금대: ${hotel.priceRange} (조회일: 2026-11-01)`}>
+                    {hotel.priceRange}
+                  </span>
                 )}
               </div>
               {isKhem ? (

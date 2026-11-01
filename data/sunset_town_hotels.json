@@ -25,28 +25,20 @@
       "address": "65 Đường Venice, An Thoi, Phu Quoc Island, Vietnam, 92513 (선셋타운 베니스 거리)",
       "landmarks": [
         {
-          "name": "혼똔섬 케이블카",
-          "distance": "610m"
+          "name": "선 바바리아 펍",
+          "distance": "240m (도보 3분)"
         },
         {
-          "name": "선셋타운 야시장",
-          "distance": "도보 3분"
+          "name": "야시장",
+          "distance": "420m (도보 5분)"
         },
         {
-          "name": "스타벅스 선셋타운",
-          "distance": "도보 1분"
+          "name": "키스 브릿지",
+          "distance": "480m (도보 6분)"
         },
         {
-          "name": "수라 한정식",
-          "distance": "도보 1분"
-        },
-        {
-          "name": "푸꾸옥 감옥",
-          "distance": "2.0km"
-        },
-        {
-          "name": "푸꾸옥 국제공항",
-          "distance": "14.6km"
+          "name": "케이블카",
+          "distance": "610m (도보 8분)"
         }
       ],
       "summary": "선셋타운 베니스 거리에 위치한 3성급 호텔. 전 객실 오션뷰 발코니에서 매일 밤 화려한 불꽃놀이를 편안하게 감상할 수 있으며, 편안한 침구와 친절한 서비스로 호평받고 있습니다.",
@@ -216,7 +208,10 @@
         "호텔 총 객실 수 (사장님 확인 필요)",
         "직접 예약 연락처 및 전용 링크",
         "조식 공식 표기 문구(인근 제휴 식당 제공 안내 문구)"
-      ]
+      ],
+      "priceRange": "$$",
+      "googleRating": 5.0,
+      "googleReviewsCount": 76
     },
     {
       "slug": "la-festa-phu-quoc-curio-collection-by-hilton",
@@ -414,7 +409,26 @@
         "/images/hotels/la-festa-phu-quoc-curio-collection-by-hilton/photo_06.jpg"
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/la-festa-phu-quoc-curio-collection-by-hilton/hotel/phu-quoc-island-vn.html",
-      "unverified": []
+      "unverified": [],
+      "landmarks": [
+        {
+          "name": "시계탑",
+          "distance": "160m (도보 2분)"
+        },
+        {
+          "name": "드래곤 계단",
+          "distance": "220m (도보 3분)"
+        },
+        {
+          "name": "케이블카",
+          "distance": "270m (도보 4분)"
+        },
+        {
+          "name": "시그니처 갤러리",
+          "distance": "280m (도보 4분)"
+        }
+      ],
+      "priceRange": "$$$"
     },
     {
       "slug": "roma-hotel-phu-quoc-h39560696",
@@ -636,7 +650,26 @@
       "agodaUrl": "https://www.agoda.com/ko-kr/roma-hotel-phu-quoc-h39560696/hotel/phu-quoc-island-vn.html",
       "unverified": [
         "층수 미확인"
-      ]
+      ],
+      "landmarks": [
+        {
+          "name": "케이블카",
+          "distance": "290m (도보 4분)"
+        },
+        {
+          "name": "키스 오브 더 씨",
+          "distance": "450m (도보 6분)"
+        },
+        {
+          "name": "시계탑",
+          "distance": "600m (도보 8분)"
+        },
+        {
+          "name": "키스 브릿지",
+          "distance": "700m (도보 9분)"
+        }
+      ],
+      "priceRange": "$$$"
     },
     {
       "slug": "times-corner-sorrento-boutique-hotel",
@@ -826,7 +859,28 @@
         "/images/hotels/times-corner-sorrento-boutique-hotel/photo_06.jpg"
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/times-corner-sorrento-boutique-hotel/hotel/phu-quoc-island-vn.html",
-      "unverified": []
+      "unverified": [],
+      "landmarks": [
+        {
+          "name": "케이블카",
+          "distance": "380m (도보 5분)"
+        },
+        {
+          "name": "키스 오브 더 씨",
+          "distance": "540m (도보 7분)"
+        },
+        {
+          "name": "시계탑",
+          "distance": "680m (도보 9분)"
+        },
+        {
+          "name": "키스 브릿지",
+          "distance": "780m (도보 10분)"
+        }
+      ],
+      "priceRange": "$",
+      "googleRating": 4.7,
+      "googleReviewsCount": 50
     },
     {
       "slug": "le-bonheur-hotel",
@@ -981,7 +1035,28 @@
         "/images/hotels/le-bonheur-hotel/photo_06.jpg"
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/le-bonheur-hotel/hotel/phu-quoc-island-vn.html",
-      "unverified": []
+      "unverified": [],
+      "landmarks": [
+        {
+          "name": "케이블카",
+          "distance": "210m (도보 3분)"
+        },
+        {
+          "name": "시계탑",
+          "distance": "240m (도보 3분)"
+        },
+        {
+          "name": "드래곤 계단",
+          "distance": "320m (도보 4분)"
+        },
+        {
+          "name": "키스 오브 더 씨",
+          "distance": "330m (도보 4분)"
+        }
+      ],
+      "priceRange": "$$",
+      "googleRating": 4.6,
+      "googleReviewsCount": 50
     },
     {
       "slug": "venice-hotel-phu-quoc",
@@ -1273,7 +1348,28 @@
       "unverified": [
         "건축 연도 미확인",
         "층수 미확인"
-      ]
+      ],
+      "landmarks": [
+        {
+          "name": "선 바바리아 펍",
+          "distance": "40m (도보 1분)"
+        },
+        {
+          "name": "시그니처 갤러리",
+          "distance": "260m (도보 3분)"
+        },
+        {
+          "name": "드래곤 계단",
+          "distance": "300m (도보 4분)"
+        },
+        {
+          "name": "시계탑",
+          "distance": "310m (도보 4분)"
+        }
+      ],
+      "priceRange": "$$$",
+      "googleRating": 4.8,
+      "googleReviewsCount": 50
     },
     {
       "slug": "coastal-living-hotel-phu-quoc",
@@ -1448,7 +1544,8 @@
         "/images/hotels/coastal-living-hotel-phu-quoc/photo_06.jpg"
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/coastal-living-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
-      "unverified": []
+      "unverified": [],
+      "priceRange": "$$"
     },
     {
       "slug": "roma-hotel-phu-qu-c",
@@ -1572,7 +1669,8 @@
       "unverified": [
         "건축 연도 미확인",
         "층수 미확인"
-      ]
+      ],
+      "priceRange": "$$$"
     },
     {
       "slug": "sakurakyo-hotel-spa-phu-quoc",
@@ -1792,7 +1890,28 @@
         "/images/hotels/sakurakyo-hotel-spa-phu-quoc/photo_06.jpg"
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/sakurakyo-hotel-spa-phu-quoc/hotel/phu-quoc-island-vn.html",
-      "unverified": []
+      "unverified": [],
+      "landmarks": [
+        {
+          "name": "시계탑",
+          "distance": "160m (도보 2분)"
+        },
+        {
+          "name": "드래곤 계단",
+          "distance": "220m (도보 3분)"
+        },
+        {
+          "name": "케이블카",
+          "distance": "270m (도보 4분)"
+        },
+        {
+          "name": "시그니처 갤러리",
+          "distance": "280m (도보 4분)"
+        }
+      ],
+      "priceRange": "$$$",
+      "googleRating": 4.9,
+      "googleReviewsCount": 50
     },
     {
       "slug": "times-corner-amalfi-hotel",
@@ -1947,7 +2066,28 @@
         "/images/hotels/times-corner-amalfi-hotel/photo_06.jpg"
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/times-corner-amalfi-hotel/hotel/phu-quoc-island-vn.html",
-      "unverified": []
+      "unverified": [],
+      "landmarks": [
+        {
+          "name": "시계탑",
+          "distance": "180m (도보 2분)"
+        },
+        {
+          "name": "드래곤 계단",
+          "distance": "230m (도보 3분)"
+        },
+        {
+          "name": "시그니처 갤러리",
+          "distance": "280m (도보 4분)"
+        },
+        {
+          "name": "케이블카",
+          "distance": "290m (도보 4분)"
+        }
+      ],
+      "priceRange": "$$$",
+      "googleRating": 4.6,
+      "googleReviewsCount": 50
     },
     {
       "slug": "milan-hotel-coffee",
@@ -2100,7 +2240,8 @@
         "/images/hotels/milan-hotel-coffee/photo_06.jpg"
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/milan-hotel-coffee/hotel/phu-quoc-island-vn.html",
-      "unverified": []
+      "unverified": [],
+      "priceRange": "$"
     },
     {
       "slug": "kl-hotel-phu-quoc",
@@ -2275,7 +2416,8 @@
       "agodaUrl": "https://www.agoda.com/ko-kr/kl-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
       "unverified": [
         "건축 연도 미확인"
-      ]
+      ],
+      "priceRange": "$"
     },
     {
       "slug": "casepia",
@@ -2454,7 +2596,28 @@
         "/images/hotels/casepia/photo_06.jpg"
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/casepia/hotel/phu-quoc-island-vn.html",
-      "unverified": []
+      "unverified": [],
+      "landmarks": [
+        {
+          "name": "케이블카",
+          "distance": "350m (도보 5분)"
+        },
+        {
+          "name": "키스 오브 더 씨",
+          "distance": "510m (도보 7분)"
+        },
+        {
+          "name": "시계탑",
+          "distance": "660m (도보 9분)"
+        },
+        {
+          "name": "키스 브릿지",
+          "distance": "740m (도보 10분)"
+        }
+      ],
+      "priceRange": "$$$",
+      "googleRating": 4.6,
+      "googleReviewsCount": 50
     },
     {
       "slug": "solea-hotel-sunset-town-phu-quoc",
@@ -2672,7 +2835,8 @@
         "/images/hotels/solea-hotel-sunset-town-phu-quoc/photo_06.jpg"
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/solea-hotel-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
-      "unverified": []
+      "unverified": [],
+      "priceRange": "$$"
     },
     {
       "slug": "de-stefano-coffee-and-hotel",
@@ -2792,7 +2956,26 @@
       "agodaUrl": "https://www.agoda.com/ko-kr/de-stefano-coffee-and-hotel/hotel/phu-quoc-island-vn.html",
       "unverified": [
         "정확한 체크인 시간 (Agoda 02:00 표기 오류 의심)"
-      ]
+      ],
+      "landmarks": [
+        {
+          "name": "드래곤 계단",
+          "distance": "190m (도보 3분)"
+        },
+        {
+          "name": "시계탑",
+          "distance": "210m (도보 3분)"
+        },
+        {
+          "name": "시그니처 갤러리",
+          "distance": "240m (도보 3분)"
+        },
+        {
+          "name": "케이블카",
+          "distance": "420m (도보 6분)"
+        }
+      ],
+      "priceRange": "$"
     },
     {
       "slug": "khach-san-royal-phu-quoc",
@@ -3013,7 +3196,26 @@
         "/images/hotels/khach-san-royal-phu-quoc/photo_06.jpg"
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/khach-san-royal-phu-quoc/hotel/phu-quoc-island-vn.html",
-      "unverified": []
+      "unverified": [],
+      "landmarks": [
+        {
+          "name": "케이블카",
+          "distance": "170m (도보 2분)"
+        },
+        {
+          "name": "시계탑",
+          "distance": "300m (도보 4분)"
+        },
+        {
+          "name": "키스 오브 더 씨",
+          "distance": "330m (도보 4분)"
+        },
+        {
+          "name": "드래곤 계단",
+          "distance": "390m (도보 5분)"
+        }
+      ],
+      "priceRange": "$$"
     },
     {
       "slug": "cybele-hotel",
@@ -3212,7 +3414,8 @@
       "agodaUrl": "https://www.agoda.com/ko-kr/cybele-hotel/hotel/phu-quoc-island-vn.html",
       "unverified": [
         "건축 연도 미확인"
-      ]
+      ],
+      "priceRange": "$$$"
     },
     {
       "slug": "ca-che-p-boutique-house",
@@ -3398,7 +3601,26 @@
         "/images/hotels/ca-che-p-boutique-house/photo_06.jpg"
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/ca-che-p-boutique-house/hotel/phu-quoc-island-vn.html",
-      "unverified": []
+      "unverified": [],
+      "landmarks": [
+        {
+          "name": "선 바바리아 펍",
+          "distance": "80m (도보 1분)"
+        },
+        {
+          "name": "시그니처 갤러리",
+          "distance": "200m (도보 3분)"
+        },
+        {
+          "name": "시계탑",
+          "distance": "220m (도보 3분)"
+        },
+        {
+          "name": "드래곤 계단",
+          "distance": "230m (도보 3분)"
+        }
+      ],
+      "priceRange": "$"
     },
     {
       "slug": "hoang-hon-hotel",
@@ -3503,7 +3725,8 @@
         "/images/hotels/hoang-hon-hotel/photo_06.jpg"
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/hoang-hon-hotel/hotel/phu-quoc-island-vn.html",
-      "unverified": []
+      "unverified": [],
+      "priceRange": "$"
     },
     {
       "slug": "palo-santo-hotel-phu-quoc",
@@ -3646,7 +3869,8 @@
       "unverified": [
         "건축 연도 미확인",
         "층수 미확인"
-      ]
+      ],
+      "priceRange": "$"
     },
     {
       "slug": "thala-hotel-sorrento",
@@ -3807,7 +4031,8 @@
         "/images/hotels/thala-hotel-sorrento/photo_06.jpg"
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/thala-hotel-sorrento/hotel/phu-quoc-island-vn.html",
-      "unverified": []
+      "unverified": [],
+      "priceRange": "$$"
     },
     {
       "slug": "catarina-hotel-phu-quoc",
@@ -3942,7 +4167,8 @@
       "unverified": [
         "건축 연도 미확인",
         "층수 미확인"
-      ]
+      ],
+      "priceRange": "$$$"
     },
     {
       "slug": "sunny-hotel",
@@ -4076,7 +4302,8 @@
       "unverified": [
         "건축 연도 미확인",
         "층수 미확인"
-      ]
+      ],
+      "priceRange": "$"
     },
     {
       "slug": "solaro-hotel-spa-h84816481",
@@ -4426,7 +4653,8 @@
         "/images/hotels/solaro-hotel-spa-h84816481/photo_06.jpg"
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/solaro-hotel-spa-h84816481/hotel/phu-quoc-island-vn.html",
-      "unverified": []
+      "unverified": [],
+      "priceRange": "$$$"
     },
     {
       "slug": "anna-hotel-free-cable-car-and-water-park-tickets",
@@ -4602,7 +4830,8 @@
         "/images/hotels/anna-hotel-free-cable-car-and-water-park-tickets/photo_06.jpg"
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/anna-hotel-free-cable-car-and-water-park-tickets/hotel/phu-quoc-island-vn.html",
-      "unverified": []
+      "unverified": [],
+      "priceRange": "$$$"
     },
     {
       "slug": "juliet-boutique-hotel",
@@ -4783,7 +5012,26 @@
         "/images/hotels/juliet-boutique-hotel/photo_06.jpg"
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/juliet-boutique-hotel/hotel/phu-quoc-island-vn.html",
-      "unverified": []
+      "unverified": [],
+      "landmarks": [
+        {
+          "name": "선 바바리아 펍",
+          "distance": "40m (도보 1분)"
+        },
+        {
+          "name": "시그니처 갤러리",
+          "distance": "240m (도보 3분)"
+        },
+        {
+          "name": "시계탑",
+          "distance": "280m (도보 4분)"
+        },
+        {
+          "name": "드래곤 계단",
+          "distance": "280m (도보 4분)"
+        }
+      ],
+      "priceRange": "$$"
     },
     {
       "slug": "hoa-ng-hon-ti-m-boutique-hotel",
@@ -4921,7 +5169,28 @@
         "/images/hotels/hoa-ng-hon-ti-m-boutique-hotel/photo_06.jpg"
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/hoa-ng-hon-ti-m-boutique-hotel/hotel/phu-quoc-island-vn.html",
-      "unverified": []
+      "unverified": [],
+      "landmarks": [
+        {
+          "name": "케이블카",
+          "distance": "180m (도보 2분)"
+        },
+        {
+          "name": "키스 오브 더 씨",
+          "distance": "350m (도보 5분)"
+        },
+        {
+          "name": "시계탑",
+          "distance": "490m (도보 7분)"
+        },
+        {
+          "name": "드래곤 계단",
+          "distance": "600m (도보 8분)"
+        }
+      ],
+      "priceRange": "$",
+      "googleRating": 4.3,
+      "googleReviewsCount": 50
     }
   ]
 }
