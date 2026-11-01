@@ -3587,7 +3587,9 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/antalya-turkish-cuisine-sunset-town/antalya-turkish-cuisine-sunset-town_menu_01.webp"
+    ],
     "tags": [
       "international",
       "Sunset Town"
@@ -3618,7 +3620,10 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/amritsar-grill-indian-restaurant/amritsar-grill-indian-restaurant_menu_01.webp",
+      "/images/businesses/amritsar-grill-indian-restaurant/amritsar-grill-indian-restaurant_menu_02.webp"
+    ],
     "tags": [
       "western",
       "Sunset Town"
@@ -3901,7 +3906,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/hai-bot-eatery-homestay-phu-quoc/hai-bot-eatery-homestay-phu-quoc_menu_01.webp",
+      "/images/businesses/hai-bot-eatery-homestay-phu-quoc/hai-bot-eatery-homestay-phu-quoc_menu_02.webp",
+      "/images/businesses/hai-bot-eatery-homestay-phu-quoc/hai-bot-eatery-homestay-phu-quoc_menu_03.webp",
+      "/images/businesses/hai-bot-eatery-homestay-phu-quoc/hai-bot-eatery-homestay-phu-quoc_menu_04.webp",
+      "/images/businesses/hai-bot-eatery-homestay-phu-quoc/hai-bot-eatery-homestay-phu-quoc_menu_05.webp"
+    ],
     "tags": [
       "vietnamese",
       "Sunset Town"
@@ -3932,7 +3943,9 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/h-corner-cho-dem-vuifest/h-corner-cho-dem-vuifest_menu_01.webp"
+    ],
     "tags": [
       "vietnamese",
       "Sunset Town"
@@ -3994,7 +4007,9 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/com-gia-dinh-viet-tay-ho-restaurant/com-gia-dinh-viet-tay-ho-restaurant_menu_01.webp"
+    ],
     "tags": [
       "vietnamese",
       "Sunset Town"
@@ -4337,7 +4352,9 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.2,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/green-tree-buffet-seafood/green-tree-buffet-seafood_menu_01.webp"
+    ],
     "tags": [
       "seafood",
       "Sunset Town"
