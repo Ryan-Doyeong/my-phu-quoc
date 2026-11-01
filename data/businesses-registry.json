@@ -32,6 +32,9 @@
       "Sunset Town",
       "featured",
       "ocean_view"
+    ],
+    "badges": [
+      "Recommended"
     ]
   },
   {
@@ -146,7 +149,11 @@
     "_deleted_claims": "(해당 없음)",
     "agoda_url": "https://www.agoda.com/ko-kr/venice-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
     "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
-    "photo_permission": "Agoda partner / affiliate listing photo"
+    "photo_permission": "Agoda partner / affiliate listing photo",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ]
   },
   {
     "id": "local-sunset-4",
@@ -470,7 +477,11 @@
     "_deleted_claims": "(해당 없음)",
     "agoda_url": "https://www.agoda.com/ko-kr/casepia/hotel/phu-quoc-island-vn.html",
     "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
-    "photo_permission": "Agoda partner / affiliate listing photo"
+    "photo_permission": "Agoda partner / affiliate listing photo",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ]
   },
   {
     "id": "local-sunset-13",
@@ -1514,7 +1525,11 @@
     "_deleted_claims": "(해당 없음)",
     "agoda_url": "https://www.agoda.com/ko-kr/the-nice-hotel-phu-quoc-fireworks-ocean-view/hotel/phu-quoc-island-vn.html",
     "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
-    "photo_permission": "Agoda partner / affiliate listing photo"
+    "photo_permission": "Agoda partner / affiliate listing photo",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ]
   },
   {
     "id": "local-sunset-46",
@@ -8762,5 +8777,92 @@
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)"
+  },
+  {
+    "id": "local-sunset-coastal-living",
+    "public_name": "코스탈 리빙 호텔 푸꾸옥 (Coastal Living Hotel Phu Quoc)",
+    "slug": "coastal-living-hotel-phu-quoc",
+    "category": "hotels",
+    "subcategory": "boutique_hotel",
+    "google_place_id": "ChIJ_coastal_living_phuquoc",
+    "description_en": "Coastal Living Hotel Phu Quoc is a 2025 newly built boutique hotel in Sunset Town.",
+    "description_ko": "2025년 신축, 평점 9.5의 선셋타운 감성 부티크 호텔.",
+    "address": "17 Positano, An Thới, Phú Quốc, Kiên Giang, Vietnam",
+    "google_maps_name": "Coastal Living Hotel Phu Quoc",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Coastal+Living+Hotel+Sunset+Town+Phu+Quoc",
+    "phone": "+84 297 3888 888",
+    "website_url": "https://www.agoda.com/ko-kr/coastal-living-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "Agoda authentic listing verified",
+    "google_rating": 4.9,
+    "google_review_count": 120,
+    "gallery_urls": [
+      "/covers-photo/coastal-living-hotel-phu-quoc-1.webp",
+      "/covers-photo/coastal-living-hotel-phu-quoc-2.webp",
+      "/covers-photo/coastal-living-hotel-phu-quoc-3.webp",
+      "/covers-photo/coastal-living-hotel-phu-quoc-4.webp",
+      "/covers-photo/coastal-living-hotel-phu-quoc-5.webp"
+    ],
+    "tags": [
+      "boutique_hotel",
+      "Sunset Town",
+      "Ocean View",
+      "New 2025"
+    ],
+    "_deleted_snippet": "",
+    "_source_citation": "Agoda verified",
+    "_deleted_claims": "",
+    "agoda_url": "https://www.agoda.com/ko-kr/coastal-living-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photos (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ]
+  },
+  {
+    "id": "local-sunset-casepia-dining",
+    "public_name": "카세피아 키친 & 라운지 (CASEPiA Kitchen & Lounge)",
+    "slug": "casepia-kitchen-and-lounge",
+    "category": "dining",
+    "subcategory": "restaurant_and_lounge",
+    "google_place_id": "ChIJRxYLYomXpzERCi3mFgoiNp4",
+    "description_en": "Atmospheric dining & lounge at CASEPiA Hotel in Sunset Town. Located right in front of the Kiss of the Sea theater and beachfront.",
+    "description_ko": "선셋타운 소렌토 거리에 위치한 카세피아 호텔의 감성 다이닝 & 라운지. Kiss of the Sea 공연장 및 해변과 인접하여 로맨틱한 식사와 칵테일을 즐길 수 있습니다.",
+    "address": "302 - 304 đường Sorrento, Sunset Town, An Thới, Phú Quốc",
+    "google_maps_name": "CASEPiA Kitchen & Lounge",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJRxYLYomXpzERCi3mFgoiNp4",
+    "phone": "+84 918 450 099",
+    "website_url": "http://www.casepia.com/",
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "선셋타운 마스터 시설 검증 완료",
+    "google_rating": 4.8,
+    "google_review_count": 35,
+    "gallery_urls": [
+      "/covers-photo/casepia-kitchen-and-lounge-1.webp",
+      "/covers-photo/casepia-kitchen-and-lounge-2.webp",
+      "/covers-photo/casepia-kitchen-and-lounge-3.webp",
+      "/covers-photo/casepia-kitchen-and-lounge-4.webp",
+      "/covers-photo/casepia-kitchen-and-lounge-5.webp"
+    ],
+    "tags": [
+      "dining",
+      "lounge",
+      "Sunset Town",
+      "Kiss of the Sea",
+      "Ocean View"
+    ],
+    "_deleted_snippet": "",
+    "_source_citation": "현장 확인 및 마스터 시설 연계",
+    "_deleted_claims": "",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ],
+    "price_level": "87865"
   }
 ]

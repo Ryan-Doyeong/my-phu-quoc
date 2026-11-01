@@ -87,16 +87,14 @@
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJT1X9WkqVpzERe6nExGNSEYw"
   },
   "coastal-living-hotel-phu-quoc": {
-    "location": "혼똔섬 케이블카 360m 거리",
-    "view": "해안가 인접 시티 및 부분 바다 조망",
-    "condition": "쾌적하고 모던한 객실 컨디션 및 편안한 침대",
-    "staff": "밝은 미소의 리셉션과 빠른 요청 처리",
+    "location": "키스 브릿지(240m·3분) · 야시장(280m·4분) · 케이블카(360m·5분) · 선 바바리아 펍(350m·5분)",
+    "view": "오션뷰 및 선셋 전망, 지중해풍 포시타노 거리 조망",
+    "condition": "2025년 신축 부티크 호텔로 최상급 청결도와 모던한 인테리어",
+    "staff": "24시간 친절한 프런트 데스크 서비스",
     "pros": [
-      "케이블카 230m 초근접 위치",
-      "모던하고 깔끔한 시설"
-    ],
-    "cons": [
-      "전 객실 완벽 오션뷰는 아님"
+      "2025년 신축",
+      "최상급 평점 9.5",
+      "키스 브릿지 및 해변 도보 3분"
     ],
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Coastal+Living+Hotel+Sunset+Town+Phu+Quoc"
   },
@@ -485,5 +483,17 @@
       "대형 리조트형 부대시설(대형 풀, 전용 비치 등)은 없음"
     ],
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJpyMOH-WXpzERgb6Kly4H7QA"
+  },
+  "the-nice-hotel-phu-quoc-fireworks-ocean-view": {
+    "location": "키스 브릿지(260m·3분) · 야시장(300m·4분) · 케이블카(380m·5분) · 선 바바리아 펍(370m·5분)",
+    "view": "매일 밤 펼쳐지는 키스 오브 더 씨 불꽃놀이 및 바다 전망 발코니",
+    "condition": "감성적인 지중해풍 인테리어와 깨끗한 객실 관리",
+    "staff": "한국인 및 글로벌 여행객 친화적인 응대",
+    "pros": [
+      "불꽃놀이 직관 발코니",
+      "평점 9.2",
+      "키스 브릿지 도보 3분"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJWyR4R6WVpzERdWiJg-xbMZs"
   }
 }

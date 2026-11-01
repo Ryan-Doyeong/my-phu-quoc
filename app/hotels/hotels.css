@@ -1968,9 +1968,23 @@
 }
 
 /* ===== 2026-10-31 데스크톱: 탑 그레이드·추천 호텔 카드 가로형 (사진 과확대 방지) ===== */
+.hotelCard.hotelCardTopGrade,
+.hotelCard.hotelCardFeatured {
+  grid-column: 1 / -1;
+  width: 100%;
+}
+
+.recommendedSection {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
 @media (min-width: 900px) {
   .hotelCard.hotelCardTopGrade,
   .hotelCard.hotelCardFeatured {
+    grid-column: 1 / -1;
+    width: 100%;
     display: grid;
     grid-template-columns: minmax(0, 46%) minmax(0, 1fr);
     grid-template-rows: auto 1fr;

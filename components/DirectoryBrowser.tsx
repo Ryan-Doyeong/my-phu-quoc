@@ -120,6 +120,7 @@ function imageFor(b: Business) {
   return stockPrimaryFor(b.category, b.subcategory, b.tags)
 }
 function badgeRank(b: Business) {
+  if (b.is_featured) return 0
   const badges = (b.badges || []).map((x) => x.toLowerCase())
   if (badges.includes('recommended')) return 0
   if (badges.includes('new')) return 1

@@ -211,7 +211,9 @@
       ],
       "priceRange": "$$",
       "googleRating": 5.0,
-      "googleReviewsCount": 76
+      "googleReviewsCount": 76,
+      "tier": "recommended",
+      "order": 1
     },
     {
       "slug": "la-festa-phu-quoc-curio-collection-by-hilton",
@@ -428,7 +430,9 @@
           "distance": "280m (도보 4분)"
         }
       ],
-      "priceRange": "$$$"
+      "priceRange": "$$$",
+      "tier": "standard",
+      "isFeatured": false
     },
     {
       "slug": "roma-hotel-phu-quoc-h39560696",
@@ -669,7 +673,9 @@
           "distance": "700m (도보 9분)"
         }
       ],
-      "priceRange": "$$$"
+      "priceRange": "$$$",
+      "tier": "standard",
+      "isFeatured": false
     },
     {
       "slug": "times-corner-sorrento-boutique-hotel",
@@ -880,7 +886,9 @@
       ],
       "priceRange": "$",
       "googleRating": 4.7,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "tier": "standard",
+      "isFeatured": false
     },
     {
       "slug": "le-bonheur-hotel",
@@ -1056,7 +1064,9 @@
       ],
       "priceRange": "$$",
       "googleRating": 4.6,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "tier": "standard",
+      "isFeatured": false
     },
     {
       "slug": "venice-hotel-phu-quoc",
@@ -1369,7 +1379,10 @@
       ],
       "priceRange": "$$$",
       "googleRating": 4.8,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "tier": "recommended",
+      "order": 2,
+      "isFeatured": true
     },
     {
       "slug": "coastal-living-hotel-phu-quoc",
@@ -1545,7 +1558,10 @@
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/coastal-living-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
       "unverified": [],
-      "priceRange": "$$"
+      "priceRange": "$$",
+      "tier": "recommended",
+      "order": 3,
+      "isFeatured": true
     },
     {
       "slug": "roma-hotel-phu-qu-c",
@@ -1670,7 +1686,9 @@
         "건축 연도 미확인",
         "층수 미확인"
       ],
-      "priceRange": "$$$"
+      "priceRange": "$$$",
+      "tier": "standard",
+      "isFeatured": false
     },
     {
       "slug": "sakurakyo-hotel-spa-phu-quoc",
@@ -1911,7 +1929,9 @@
       ],
       "priceRange": "$$$",
       "googleRating": 4.9,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "tier": "standard",
+      "isFeatured": false
     },
     {
       "slug": "times-corner-amalfi-hotel",
@@ -2087,7 +2107,9 @@
       ],
       "priceRange": "$$$",
       "googleRating": 4.6,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "tier": "standard",
+      "isFeatured": false
     },
     {
       "slug": "milan-hotel-coffee",
@@ -2241,7 +2263,9 @@
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/milan-hotel-coffee/hotel/phu-quoc-island-vn.html",
       "unverified": [],
-      "priceRange": "$"
+      "priceRange": "$",
+      "tier": "standard",
+      "isFeatured": false
     },
     {
       "slug": "kl-hotel-phu-quoc",
@@ -2417,7 +2441,9 @@
       "unverified": [
         "건축 연도 미확인"
       ],
-      "priceRange": "$"
+      "priceRange": "$",
+      "tier": "standard",
+      "isFeatured": false
     },
     {
       "slug": "casepia",
@@ -2617,7 +2643,10 @@
       ],
       "priceRange": "$$$",
       "googleRating": 4.6,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "tier": "recommended",
+      "order": 5,
+      "isFeatured": true
     },
     {
       "slug": "solea-hotel-sunset-town-phu-quoc",
@@ -2836,7 +2865,9 @@
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/solea-hotel-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
       "unverified": [],
-      "priceRange": "$$"
+      "priceRange": "$$",
+      "tier": "standard",
+      "isFeatured": false
     },
     {
       "slug": "de-stefano-coffee-and-hotel",
@@ -2975,7 +3006,9 @@
           "distance": "420m (도보 6분)"
         }
       ],
-      "priceRange": "$"
+      "priceRange": "$",
+      "tier": "standard",
+      "isFeatured": false
     },
     {
       "slug": "khach-san-royal-phu-quoc",
@@ -3215,7 +3248,9 @@
           "distance": "390m (도보 5분)"
         }
       ],
-      "priceRange": "$$"
+      "priceRange": "$$",
+      "tier": "standard",
+      "isFeatured": false
     },
     {
       "slug": "cybele-hotel",
@@ -3415,7 +3450,9 @@
       "unverified": [
         "건축 연도 미확인"
       ],
-      "priceRange": "$$$"
+      "priceRange": "$$$",
+      "tier": "standard",
+      "isFeatured": false
     },
     {
       "slug": "ca-che-p-boutique-house",
@@ -3620,7 +3657,9 @@
           "distance": "230m (도보 3분)"
         }
       ],
-      "priceRange": "$"
+      "priceRange": "$",
+      "tier": "standard",
+      "isFeatured": false
     },
     {
       "slug": "hoang-hon-hotel",
@@ -3726,7 +3765,9 @@
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/hoang-hon-hotel/hotel/phu-quoc-island-vn.html",
       "unverified": [],
-      "priceRange": "$"
+      "priceRange": "$",
+      "tier": "standard",
+      "isFeatured": false
     },
     {
       "slug": "palo-santo-hotel-phu-quoc",
@@ -3870,7 +3911,9 @@
         "건축 연도 미확인",
         "층수 미확인"
       ],
-      "priceRange": "$"
+      "priceRange": "$",
+      "tier": "standard",
+      "isFeatured": false
     },
     {
       "slug": "thala-hotel-sorrento",
@@ -4032,7 +4075,9 @@
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/thala-hotel-sorrento/hotel/phu-quoc-island-vn.html",
       "unverified": [],
-      "priceRange": "$$"
+      "priceRange": "$$",
+      "tier": "standard",
+      "isFeatured": false
     },
     {
       "slug": "catarina-hotel-phu-quoc",
@@ -4168,7 +4213,9 @@
         "건축 연도 미확인",
         "층수 미확인"
       ],
-      "priceRange": "$$$"
+      "priceRange": "$$$",
+      "tier": "standard",
+      "isFeatured": false
     },
     {
       "slug": "sunny-hotel",
@@ -4303,7 +4350,9 @@
         "건축 연도 미확인",
         "층수 미확인"
       ],
-      "priceRange": "$"
+      "priceRange": "$",
+      "tier": "standard",
+      "isFeatured": false
     },
     {
       "slug": "solaro-hotel-spa-h84816481",
@@ -4654,7 +4703,9 @@
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/solaro-hotel-spa-h84816481/hotel/phu-quoc-island-vn.html",
       "unverified": [],
-      "priceRange": "$$$"
+      "priceRange": "$$$",
+      "tier": "standard",
+      "isFeatured": false
     },
     {
       "slug": "anna-hotel-free-cable-car-and-water-park-tickets",
@@ -4831,7 +4882,9 @@
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/anna-hotel-free-cable-car-and-water-park-tickets/hotel/phu-quoc-island-vn.html",
       "unverified": [],
-      "priceRange": "$$$"
+      "priceRange": "$$$",
+      "tier": "standard",
+      "isFeatured": false
     },
     {
       "slug": "juliet-boutique-hotel",
@@ -5031,7 +5084,9 @@
           "distance": "280m (도보 4분)"
         }
       ],
-      "priceRange": "$$"
+      "priceRange": "$$",
+      "tier": "standard",
+      "isFeatured": false
     },
     {
       "slug": "hoa-ng-hon-ti-m-boutique-hotel",
@@ -5190,7 +5245,50 @@
       ],
       "priceRange": "$",
       "googleRating": 4.3,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "tier": "standard",
+      "isFeatured": false
+    },
+    {
+      "slug": "the-nice-hotel-phu-quoc-fireworks-ocean-view",
+      "hotelId": "the-nice-hotel-phu-quoc",
+      "name_ko": "더 나이스 호텔 푸꾸옥",
+      "name_en": "The Nice Hotel Phu Quoc - Fireworks & Ocean view",
+      "star": 3,
+      "rating": 9.2,
+      "reviewsCount": 150,
+      "cable_m": 380,
+      "address": "27 Đ. Positano, Sunset Town, An Thới, Phú Quốc, Kiên Giang, Vietnam",
+      "summary": "불꽃놀이 및 탁 트인 바다 전망 발코니를 갖춘 선셋타운 감성 부티크 호텔.",
+      "description": "The Nice Hotel Phu Quoc - Fireworks & Ocean view\n\n선셋타운 포시타노 거리에 위치한 더 나이스 호텔은 매일 밤 펼쳐지는 키스 오브 더 씨 불꽃놀이와 바다 전망을 감상할 수 있는 감성 부티크 호텔입니다. 키스 브릿지와 야시장, 주요 명소가 도보 거리에 위치해 편리한 관광을 즐기실 수 있습니다.",
+      "isAiGeneratedIntro": false,
+      "coreFacilities": [
+        "불꽃놀이 전망 발코니",
+        "전 객실 무료 Wi-Fi",
+        "24시간 프런트 데스크",
+        "에어컨"
+      ],
+      "checkIn": "14:00",
+      "checkOut": "12:00",
+      "builtYear": 2024,
+      "floors": 5,
+      "policies": {
+        "childPolicy": "기존 침대 사용 시 아동 무료 투숙 가능"
+      },
+      "photos": [
+        "/covers-photo/the-nice-hotel-phu-quoc-fireworks-ocean-view-1.webp",
+        "/covers-photo/the-nice-hotel-phu-quoc-fireworks-ocean-view-2.webp",
+        "/covers-photo/the-nice-hotel-phu-quoc-fireworks-ocean-view-3.webp",
+        "/covers-photo/the-nice-hotel-phu-quoc-fireworks-ocean-view-4.webp",
+        "/covers-photo/the-nice-hotel-phu-quoc-fireworks-ocean-view-5.webp"
+      ],
+      "agodaUrl": "https://www.agoda.com/ko-kr/the-nice-hotel-phu-quoc-fireworks-ocean-view/hotel/phu-quoc-island-vn.html",
+      "googleRating": 4.7,
+      "googleReviewsCount": 50,
+      "priceRange": "87861",
+      "tier": "recommended",
+      "order": 4,
+      "isFeatured": true
     }
   ]
 }

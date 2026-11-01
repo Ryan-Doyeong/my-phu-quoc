@@ -888,11 +888,13 @@ function HotelsPageInner({ hotels: rawHotels, locale = 'en', initialArea }: Hote
   }, [sunsetHotels])
 
   const sunsetRecommendedHotels = useMemo(() => {
-    return sunsetHotels.filter(h => h.tier === 'recommended')
+    return sunsetHotels
+      .filter(h => h.tier === 'recommended' || h.isFeatured)
+      .sort((a, b) => (a.order || 99) - (b.order || 99))
   }, [sunsetHotels])
 
   const sunsetStandardHotels = useMemo(() => {
-    return sunsetHotels.filter(h => h.tier !== 'top' && h.tier !== 'recommended')
+    return sunsetHotels.filter(h => h.tier !== 'top' && h.tier !== 'recommended' && !h.isFeatured)
   }, [sunsetHotels])
 
   // Filtered & Sorted Sunset Town Standard Hotels
