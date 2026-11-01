@@ -263,9 +263,6 @@ export function BankingDirectory({ locale }: BankingDirectoryProps) {
         <section style={{ marginBottom: '44px' }}>
           <div
             style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: '10px',
               marginBottom: '18px',
             }}
           >
@@ -280,18 +277,6 @@ export function BankingDirectory({ locale }: BankingDirectoryProps) {
             >
               {ui.atmSectionTitle}
             </h2>
-            <span
-              style={{
-                fontSize: '12px',
-                fontWeight: 600,
-                color: '#EA580C',
-                backgroundColor: '#FFEDD5',
-                padding: '2px 8px',
-                borderRadius: '12px',
-              }}
-            >
-              {BANKING_ATMS.length}
-            </span>
           </div>
 
           <div
@@ -311,9 +296,6 @@ export function BankingDirectory({ locale }: BankingDirectoryProps) {
         <section>
           <div
             style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: '10px',
               marginBottom: '18px',
             }}
           >
@@ -328,18 +310,6 @@ export function BankingDirectory({ locale }: BankingDirectoryProps) {
             >
               {ui.exchangeSectionTitle}
             </h2>
-            <span
-              style={{
-                fontSize: '12px',
-                fontWeight: 600,
-                color: '#EA580C',
-                backgroundColor: '#FFEDD5',
-                padding: '2px 8px',
-                borderRadius: '12px',
-              }}
-            >
-              {BANKING_EXCHANGES.length}
-            </span>
           </div>
 
           <div
