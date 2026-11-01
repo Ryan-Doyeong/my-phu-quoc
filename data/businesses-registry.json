@@ -7006,7 +7006,11 @@
     "_deleted_claims": "(해당 없음)",
     "agoda_url": "https://www.agoda.com/ko-kr/la-festa-phu-quoc-curio-collection-by-hilton/hotel/phu-quoc-island-vn.html",
     "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
-    "photo_permission": "Agoda partner / affiliate listing photo"
+    "photo_permission": "Agoda partner / affiliate listing photo",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ]
   },
   {
     "id": "local-sunset-230",

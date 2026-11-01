@@ -431,8 +431,9 @@
         }
       ],
       "priceRange": "$$$",
-      "tier": "standard",
-      "isFeatured": false
+      "tier": "recommended",
+      "isFeatured": true,
+      "order": 6
     },
     {
       "slug": "roma-hotel-phu-quoc-h39560696",
