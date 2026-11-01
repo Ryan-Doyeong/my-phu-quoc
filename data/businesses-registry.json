@@ -265,11 +265,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/royal-hotel-phu-quoc-1.webp",
-      "/covers-photo/royal-hotel-phu-quoc-2.webp",
-      "/covers-photo/royal-hotel-phu-quoc-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -279,7 +275,7 @@
     "_deleted_claims": "미검증 투어 데스크 문구 삭제",
     "lat": 10.0273346,
     "lng": 104.0084437,
-    "media_note": "Image source: http://royalphuquoc.com/",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (http://royalphuquoc.com/)"
   },
   {
@@ -475,10 +471,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/luna-sol-sunset-firework-signature-1.webp",
-      "/covers-photo/luna-sol-sunset-firework-signature-2.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
@@ -488,7 +481,7 @@
     "_deleted_claims": "한국인 맞춤/인기 표현 삭제 | 미검증 인피니티풀/짐/주방 삭제",
     "lat": 10.0275948,
     "lng": 104.0092636,
-    "media_note": "Image source: https://lunasol.vn/",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://lunasol.vn/)"
   },
   {
@@ -542,9 +535,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.4,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/starbucks-beach-house-sun-primavera-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "cafe",
       "Sunset Town"
@@ -554,7 +545,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.031831,
     "lng": 104.0042443,
-    "media_note": "Image source: https://www.facebook.com/starbucksvietnam",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://www.facebook.com/starbucksvietnam)"
   },
   {
@@ -1125,11 +1116,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/royal-hotel-phu-quoc-2-1.webp",
-      "/covers-photo/royal-hotel-phu-quoc-2-2.webp",
-      "/covers-photo/royal-hotel-phu-quoc-2-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -1139,7 +1126,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0346175,
     "lng": 104.0078472,
-    "media_note": "Image source: http://royalphuquoc.com/",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (http://royalphuquoc.com/)"
   },
   {
@@ -1193,9 +1180,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunny-side-hotel-phu-quoc-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -1205,7 +1190,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0382859,
     "lng": 104.0093969,
-    "media_note": "Image source: https://ndre.vn/sunny-side-hotel/",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://ndre.vn/sunny-side-hotel/)"
   },
   {
@@ -1391,11 +1376,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sole-casa-phu-quoc-1.webp",
-      "/covers-photo/sole-casa-phu-quoc-2.webp",
-      "/covers-photo/sole-casa-phu-quoc-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -1405,7 +1386,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0290612,
     "lng": 104.0098077,
-    "media_note": "Image source: http://solecasavn.com/",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (http://solecasavn.com/)"
   },
   {
@@ -2825,11 +2806,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/mediterran-sunset-town-greek-italian-restaurant-pizza-pasta-souvlaki-1.webp",
-      "/covers-photo/mediterran-sunset-town-greek-italian-restaurant-pizza-pasta-souvlaki-2.webp",
-      "/covers-photo/mediterran-sunset-town-greek-italian-restaurant-pizza-pasta-souvlaki-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "western",
       "Sunset Town"
@@ -2839,7 +2816,7 @@
     "_deleted_claims": "홈페이지 한국어 메뉴판 문구 삭제",
     "lat": 10.0378502,
     "lng": 104.0088581,
-    "media_note": "Image source: https://mediterran.vn/",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://mediterran.vn/)"
   },
   {
@@ -2862,9 +2839,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/finca-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "western",
       "Sunset Town"
@@ -2874,7 +2849,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0299198,
     "lng": 104.007791,
-    "media_note": "Image source: https://www.facebook.com/lafestaphuquoc",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://www.facebook.com/lafestaphuquoc)"
   },
   {
@@ -2897,9 +2872,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/seta-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "international",
       "Sunset Town"
@@ -2909,7 +2882,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0297674,
     "lng": 104.0078493,
-    "media_note": "Image source: https://www.facebook.com/lafestaphuquoc",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://www.facebook.com/lafestaphuquoc)"
   },
   {
@@ -3261,9 +3234,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/mare-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "western",
       "Sunset Town"
@@ -3273,7 +3244,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0290442,
     "lng": 104.0071259,
-    "media_note": "Image source: https://www.facebook.com/lafestaphuquoc",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://www.facebook.com/lafestaphuquoc)"
   },
   {
@@ -3296,11 +3267,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/pho-thin-phu-quoc-top-3-pho-hot-pot-1.webp",
-      "/covers-photo/pho-thin-phu-quoc-top-3-pho-hot-pot-2.webp",
-      "/covers-photo/pho-thin-phu-quoc-top-3-pho-hot-pot-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "vietnamese",
       "Sunset Town"
@@ -3310,7 +3277,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0313554,
     "lng": 104.0054307,
-    "media_note": "Image source: https://phothinhanoi.vn/",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://phothinhanoi.vn/)"
   },
   {
@@ -3362,10 +3329,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/the-gangs-sunset-1.webp",
-      "/covers-photo/the-gangs-sunset-2.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "seafood",
       "Sunset Town"
@@ -3375,7 +3339,7 @@
     "_deleted_claims": "인기 수식어 삭제",
     "lat": 10.0323601,
     "lng": 104.0039276,
-    "media_note": "Image source: https://thegangszone.com/",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://thegangszone.com/)"
   },
   {
@@ -3435,9 +3399,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/the-merchant-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "restaurant",
       "Sunset Town"
@@ -3447,7 +3409,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0293865,
     "lng": 104.0069611,
-    "media_note": "Image source: https://www.facebook.com/lafestaphuquoc",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://www.facebook.com/lafestaphuquoc)"
   },
   {
@@ -3672,11 +3634,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.1,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/nha-hang-com-nieu-viet-di-a-trung-hai-1.webp",
-      "/covers-photo/nha-hang-com-nieu-viet-di-a-trung-hai-2.webp",
-      "/covers-photo/nha-hang-com-nieu-viet-di-a-trung-hai-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "seafood",
       "Sunset Town"
@@ -3686,7 +3644,7 @@
     "_deleted_claims": "인기 수식어 삭제 | 미검증 휠체어 접근성 스펙 삭제",
     "lat": 10.0252774,
     "lng": 104.0073289,
-    "media_note": "Image source: https://comnieuviet.com.vn/",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://comnieuviet.com.vn/)"
   },
   {
@@ -4470,11 +4428,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.2,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/green-tree-buffet-seafood-1.webp",
-      "/covers-photo/green-tree-buffet-seafood-2.webp",
-      "/covers-photo/green-tree-buffet-seafood-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "seafood",
       "Sunset Town"
@@ -4484,7 +4438,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0252035,
     "lng": 104.0073369,
-    "media_note": "Image source: http://greentreerestaurant.vn/",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (http://greentreerestaurant.vn/)"
   },
   {
@@ -4716,9 +4670,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.4,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/highlands-coffee-cable-car-an-thoi-pq-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "cafe",
       "Sunset Town"
@@ -4728,7 +4680,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0278364,
     "lng": 104.0072559,
-    "media_note": "Image source: https://www.facebook.com/highlandscoffeevietnam",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://www.facebook.com/highlandscoffeevietnam)"
   },
   {
@@ -4933,9 +4885,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunset-tiger-tea-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "cafe",
       "Sunset Town"
@@ -4945,7 +4895,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0351314,
     "lng": 104.0028004,
-    "media_note": "Image source: https://www.facebook.com/profile.php?id=61553857376147",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://www.facebook.com/profile.php?id=61553857376147)"
   },
   {
@@ -5367,9 +5317,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/luna-folk-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "bar",
       "Sunset Town"
@@ -5379,7 +5327,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0299914,
     "lng": 104.0078033,
-    "media_note": "Image source: https://www.facebook.com/lafestaphuquoc",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://www.facebook.com/lafestaphuquoc)"
   },
   {
@@ -5402,9 +5350,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/il-salone-afternoon-tea-lounge-bar-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "bar",
       "Sunset Town"
@@ -5414,7 +5360,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.029538,
     "lng": 104.0074018,
-    "media_note": "Image source: https://www.facebook.com/lafestaphuquoc",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://www.facebook.com/lafestaphuquoc)"
   },
   {
@@ -5437,9 +5383,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/cielo-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "bar",
       "Sunset Town"
@@ -5449,7 +5393,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0294131,
     "lng": 104.0073472,
-    "media_note": "Image source: https://www.facebook.com/lafestaphuquoc",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://www.facebook.com/lafestaphuquoc)"
   },
   {
@@ -5503,11 +5447,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sun-bavaria-gastropub-1.webp",
-      "/covers-photo/sun-bavaria-gastropub-2.webp",
-      "/covers-photo/sun-bavaria-gastropub-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "bar",
       "Sunset Town"
@@ -5517,7 +5457,7 @@
     "_deleted_claims": "정통 수식어 삭제",
     "lat": 10.0302868,
     "lng": 104.0055156,
-    "media_note": "Image source: https://sunsettown.com.vn/",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://sunsettown.com.vn/)"
   },
   {
@@ -5571,9 +5511,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/draft-beer-sunset-town-phu-quoc-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "seafood",
       "Sunset Town"
@@ -5583,7 +5521,7 @@
     "_deleted_claims": "맛집 단어 -> 음식점/식당 중립화 | 인기 수식어 삭제",
     "lat": 10.0258125,
     "lng": 104.0072444,
-    "media_note": "Image source: http://www.facebook.com/draftbeervn",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (http://www.facebook.com/draftbeervn)"
   },
   {
@@ -5699,9 +5637,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.1,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/hien-nha-veranda-sunset-town-phu-quoc-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "bar",
       "Sunset Town"
@@ -5711,7 +5647,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0256377,
     "lng": 104.0072699,
-    "media_note": "Image source: https://www.facebook.com/veranda.vn",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://www.facebook.com/veranda.vn)"
   },
   {
@@ -5734,9 +5670,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.1,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/mango-mango-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "bar",
       "Sunset Town"
@@ -5746,7 +5680,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.027205,
     "lng": 104.0076944,
-    "media_note": "Image source: https://www.facebook.com/vietnamselect",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://www.facebook.com/vietnamselect)"
   },
   {
@@ -5798,9 +5732,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/long-beach-mini-mart-sunset-town-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "convenience_store",
       "Sunset Town"
@@ -5810,7 +5742,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0299064,
     "lng": 104.0086554,
-    "media_note": "Image source: https://longbeachmart.vn/",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://longbeachmart.vn/)"
   },
   {
@@ -5864,9 +5796,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/68mart-local-mart-for-tourists-dac-san-phu-quoc-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "convenience_store",
       "Sunset Town"
@@ -5876,7 +5806,7 @@
     "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
     "lat": 10.0335701,
     "lng": 104.0034002,
-    "media_note": "Image source: https://www.facebook.com/68martPQ",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://www.facebook.com/68martPQ)"
   },
   {
@@ -5899,9 +5829,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.4,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/vietnam-select-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "convenience_store",
       "Sunset Town"
@@ -5911,7 +5839,7 @@
     "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
     "lat": 10.0358003,
     "lng": 104.0027425,
-    "media_note": "Image source: https://www.facebook.com/vietnamselect",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://www.facebook.com/vietnamselect)"
   },
   {
@@ -6480,11 +6408,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/phong-kham-da-khoa-quoc-te-dng-co-so-an-thoi-1.webp",
-      "/covers-photo/phong-kham-da-khoa-quoc-te-dng-co-so-an-thoi-2.webp",
-      "/covers-photo/phong-kham-da-khoa-quoc-te-dng-co-so-an-thoi-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "clinic",
       "Sunset Town"
@@ -6494,7 +6418,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0362796,
     "lng": 104.0090037,
-    "media_note": "Image source: https://dngclinic.com/",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://dngclinic.com/)"
   },
   {
@@ -6546,9 +6470,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunset-place-5-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "clinic",
       "Sunset Town"
@@ -6558,7 +6480,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0188201,
     "lng": 104.01523069999999,
-    "media_note": "Image source: https://www.facebook.com/NhaThuocAnKhangcom",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://www.facebook.com/NhaThuocAnKhangcom)"
   },
   {
@@ -6581,9 +6503,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.3,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/nha-thuoc-fpt-long-chau-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "clinic",
       "Sunset Town"
@@ -6593,7 +6513,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0182266,
     "lng": 104.0146462,
-    "media_note": "Image source: https://www.facebook.com/Nhathuocfptlongchau",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://www.facebook.com/Nhathuocfptlongchau)"
   },
   {
@@ -7141,9 +7061,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/lumi-spa-massage-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "spa",
       "Sunset Town"
@@ -7153,7 +7071,7 @@
     "_deleted_claims": "가성비 수식어 삭제 | 유명 수식어 삭제",
     "lat": 10.032051899999999,
     "lng": 104.00435999999999,
-    "media_note": "Image source: https://www.facebook.com/lumispaphuquoc/",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://www.facebook.com/lumispaphuquoc/)"
   },
   {
@@ -7300,9 +7218,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunset-place-7-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "hotel",
       "Sunset Town"
@@ -7312,7 +7228,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.029571299999999,
     "lng": 104.007601,
-    "media_note": "Image source: https://www.facebook.com/lafestaphuquoc",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://www.facebook.com/lafestaphuquoc)"
   },
   {
@@ -7397,11 +7313,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunset-bloom-spa-1.webp",
-      "/covers-photo/sunset-bloom-spa-2.webp",
-      "/covers-photo/sunset-bloom-spa-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "spa",
       "Sunset Town"
@@ -7411,7 +7323,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0328438,
     "lng": 104.00388939999999,
-    "media_note": "Image source: https://www.facebook.com/share/19Na48CYSH/",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://www.facebook.com/share/19Na48CYSH/)"
   },
   {
@@ -7494,11 +7406,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/oasis-spa-massage-nail-sunset-town-phu-quoc-1.webp",
-      "/covers-photo/oasis-spa-massage-nail-sunset-town-phu-quoc-2.webp",
-      "/covers-photo/oasis-spa-massage-nail-sunset-town-phu-quoc-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "spa",
       "Sunset Town"
@@ -7508,7 +7416,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0276386,
     "lng": 104.0084828,
-    "media_note": "Image source: http://www.oasisspaphuquoc.com/",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (http://www.oasisspaphuquoc.com/)"
   },
   {
@@ -7657,11 +7565,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/hanz-sunset-spa-2-56-venice-sunset-town-1.webp",
-      "/covers-photo/hanz-sunset-spa-2-56-venice-sunset-town-2.webp",
-      "/covers-photo/hanz-sunset-spa-2-56-venice-sunset-town-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "spa",
       "Sunset Town"
@@ -7671,7 +7575,7 @@
     "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
     "lat": 10.0317908,
     "lng": 104.0048982,
-    "media_note": "Image source: http://hanzsunsetspa.com/",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (http://hanzsunsetspa.com/)"
   },
   {
@@ -7795,11 +7699,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/king-spa-massage-sunset-town-night-market-1.webp",
-      "/covers-photo/king-spa-massage-sunset-town-night-market-2.webp",
-      "/covers-photo/king-spa-massage-sunset-town-night-market-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "spa",
       "Sunset Town"
@@ -7809,7 +7709,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0335374,
     "lng": 104.0034065,
-    "media_note": "Image source: http://kingspaphuquoc.vn/",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (http://kingspaphuquoc.vn/)"
   },
   {
@@ -7926,9 +7826,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.4,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunset-spa-phu-quoc-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "spa",
       "Sunset Town"
@@ -7938,7 +7836,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0371504,
     "lng": 104.0101392,
-    "media_note": "Image source: https://www.facebook.com/sunsetspa.anthoiphuquoc/",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://www.facebook.com/sunsetspa.anthoiphuquoc/)"
   },
   {
@@ -8122,9 +8020,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/kiss-bridge-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "attraction",
       "Sunset Town"
@@ -8134,7 +8030,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0280346,
     "lng": 104.00378719999999,
-    "media_note": "Image source: https://www.facebook.com/SunWorldHonThom",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://www.facebook.com/SunWorldHonThom)"
   },
   {
@@ -8292,9 +8188,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/symphony-of-the-sea-show-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "attraction",
       "Sunset Town"
@@ -8304,7 +8198,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0289843,
     "lng": 104.0061609,
-    "media_note": "Image source: https://www.facebook.com/SunWorldHonThom",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://www.facebook.com/SunWorldHonThom)"
   },
   {
@@ -8517,9 +8411,7 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/exchange-money-sol-cosy-phu-quoc-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "attraction",
       "Sunset Town"
@@ -8529,7 +8421,7 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.036335399999999,
     "lng": 104.0069754,
-    "media_note": "Image source: https://phuquoccurrencyexchange.com/",
+    "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
     "photo_permission": "Official public media (https://phuquoccurrencyexchange.com/)"
   },
   {
