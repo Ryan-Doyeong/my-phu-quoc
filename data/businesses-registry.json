@@ -1133,7 +1133,7 @@
   },
   {
     "id": "local-sunset-36",
-    "public_name": "Hongkong Roast House|Halal kitchen Phu Quoc",
+    "public_name": "홍콩 로스트 하우스 (Hongkong Roast House | Halal kitchen Phu Quoc)",
     "slug": "hongkong-roast-house-halal-kitchen-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -1141,7 +1141,7 @@
     "description_en": "Hongkong Roast House|Halal kitchen Phu Quoc is a boutique hotel located in Sunset Town, Phu Quoc.",
     "description_ko": "선셋타운 지중해풍 부티크 호텔.",
     "address": "Sunset bazaar, Sunset town, Phú Quốc, An Giang 92516, Vietnam",
-    "google_maps_name": "Hongkong Roast House|Halal kitchen Phu Quoc",
+    "google_maps_name": "Hongkong Roast House | Halal kitchen Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJEwFlcSCXpzERdgAgbDFJ86A",
     "phone": "+84 835 777 655",
     "website_url": null,
@@ -2624,7 +2624,7 @@
   },
   {
     "id": "local-sunset-84",
-    "public_name": "Season Apartment Sunset Town",
+    "public_name": "선셋타운 아파트먼트 푸꾸옥 (Sunset Town Apartment Phu Quoc)",
     "slug": "sunset-town-apartment-phu-quoc",
     "category": "hotels",
     "subcategory": "residence",
@@ -2632,7 +2632,7 @@
     "description_en": "Sunset Town Apartment Phu Quoc is a residence apartment located in Sunset Town, Phu Quoc.",
     "description_ko": "Sun Grand City Hillside 고층 아파트먼트, 오션/불꽃놀이 뷰.",
     "address": "Phu Quoc, An Giang, Vietnam",
-    "google_maps_name": "Season Apartment Sunset Town",
+    "google_maps_name": "Sunset Town Apartment Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJg0OEO6CWpzERLcs9LETAtdI",
     "phone": null,
     "website_url": null,
@@ -3439,7 +3439,7 @@
   },
   {
     "id": "local-sunset-108",
-    "public_name": "투안 끼에우 2 해산물 그릴 전문 (Nhà hàng hải sản Thuận Kiều 2 | Seafood & Grill)",
+    "public_name": "투안 끼에우 2 해산물 식당 (Nhà hàng hải sản Thuận Kiều 2 | Seafood & Grill)",
     "slug": "nha-hang-hai-san-thuan-kieu-2-seafood-grill",
     "category": "dining",
     "subcategory": "seafood",
@@ -7347,7 +7347,7 @@
   },
   {
     "id": "local-sunset-231",
-    "public_name": "KING Spa & Massage Sunset Town Phú Quốc | Spa Phú Quốc | 푸꾸옥 마사지샵 (KING Spa & Massage Sunset Town Phú Quốc)",
+    "public_name": "킹 스파 & 마사지 (KING Spa & Massage Sunset Town Phú Quốc)",
     "slug": "king-spa-massage-sunset-town-phu-quoc-spa-phu-quoc",
     "category": "wellness",
     "subcategory": "spa",
@@ -7440,7 +7440,7 @@
   },
   {
     "id": "local-sunset-234",
-    "public_name": "Sakurakyo Spa Phu Quoc | Massage Body & Foot",
+    "public_name": "사쿠라쿄 스파 푸꾸옥 (Sakurakyo Spa Phu Quoc)",
     "slug": "sakurakyo-spa-phu-quoc-massage-body-massage-foot",
     "category": "wellness",
     "subcategory": "spa",
@@ -7448,7 +7448,7 @@
     "description_en": "Sakurakyo Spa Phu Quoc |フットマッサージ | スパマッサージ | Massage Body | Massage Foot is a spa & massage center located in Sunset Town, Phu Quoc.",
     "description_ko": "전신·발 마사지 및 네일 케어.",
     "address": "A44-A46 Đ. Amalfi, Sunset Town, Phú Quốc, An Giang 92500, Vietnam",
-    "google_maps_name": "Sakurakyo Spa Phu Quoc | Massage Body & Foot",
+    "google_maps_name": "Sakurakyo Spa Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJS9wjorOXpzERYSjKguaEmUY",
     "phone": "+84 899 108 308",
     "website_url": "https://skyethgroup.com/sakurakyo-spa/",
@@ -7471,7 +7471,7 @@
   },
   {
     "id": "local-sunset-235",
-    "public_name": "OASIS Spa Massage & Nail  마사지 및 네일 스파 按摩和美甲 (OASIS Spa Massage & Nail (Sunset Town Phu Quoc))",
+    "public_name": "오아시스 스파 (OASIS Spa Massage & Nail (Sunset Town Phu Quoc))",
     "slug": "oasis-spa-massage-nail-sunset-town-phu-quoc",
     "category": "wellness",
     "subcategory": "spa",
@@ -7860,7 +7860,7 @@
   },
   {
     "id": "local-sunset-248",
-    "public_name": "Miss Tiên Spa & Homestay Phu Quốc Sunset Town 按摩 마사지 (Miss Tiên Spa & Homestay Phú Quốc Sunset Town)",
+    "public_name": "미스 띠엔 스파 & 홈스테이 (Miss Tiên Spa & Homestay Phú Quốc Sunset Town)",
     "slug": "miss-tien-spa-homestay-phu-quoc-sunset-town",
     "category": "wellness",
     "subcategory": "spa",
@@ -8604,7 +8604,7 @@
   },
   {
     "id": "local-sunset-271",
-    "public_name": "EXMoney Sunset Town | Currency Exchange",
+    "public_name": "익스머니 환전소 (EXMoney Sunset Town | Currency Exchange)",
     "slug": "exmoney-sunset-town-currency-exchange",
     "category": "banking",
     "subcategory": "currency_exchange",

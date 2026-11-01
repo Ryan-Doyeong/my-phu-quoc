@@ -1,6 +1,6 @@
 --
 -- Supabase Migration: 030_cleanup_sns_and_google_maps_alignment_20261101.sql
--- 근거: Ryan 지시 (2026-11-01 14:19/14:57/14:58/15:01) 및 Claude 지침
+-- 근거: Ryan 지시 (2026-11-01 14:19/14:57/14:58/15:01) 및 Claude 지침 (검수 반영 v2)
 -- 목적: SNS 출처 배제, 구글맵 상호명 및 데이터 우선 정제, 미검증/SNS 의존 업체 비공개(unpublished) 처리
 -- ※ 규칙: 본 파일은 마이그레이션 정의 파일이며 직접 SQL 실행 금지 준수
 --
@@ -22,10 +22,18 @@ UPDATE public.businesses
 SET instagram_url = NULL, updated_at = NOW()
 WHERE slug IN ('starbucks-beach-house-sun-primavera', 'mediterran-sunset-town-greek-italian-restaurant-pizza-pasta-souvlaki', 'mare', 'pho-thin-phu-quoc-top-3-pho-hot-pot', 'the-merchant', 'il-salone-afternoon-tea-lounge-bar', 'cielo', 'sun-bavaria-gastropub', 'gion-bar', 'teatro-club-phu-quo-c', 'sunset-place-7', 'chip-s-spa-nail-58-venice-sunset-town-phu-quoc', 'sunset-place-10', 'sunworld-hon-thom-hon-thom-cable-car-phu-quoc', 'venice-hotel-phu-quoc', 'roma-hotel-phu-quoc');
 
--- 4. 번역 표기 차이 4개소 상호명 구글맵 일치 업데이트
+-- 4. 상호명 구글맵 일치 업데이트 (주요 정제 대상)
 UPDATE public.businesses SET public_name = '푸꾸옥 뚱보집 선셋타운 (Phu Quoc Ttungbojip Sunset Town)', google_maps_name = 'Phu Quoc Ttungbojip Sunset Town', updated_at = NOW() WHERE slug = 'sunset-place';
 UPDATE public.businesses SET public_name = '하이산캉 푸꾸옥 (Hải Sản Cảng Phú Quốc - Seafood Restaurant)', google_maps_name = 'Hải Sản Cảng Phú Quốc - Seafood Restaurant', updated_at = NOW() WHERE slug = 'sunset-place-1';
 UPDATE public.businesses SET public_name = '카페 루남 선셋타운 (RuNam Sunset Town)', google_maps_name = 'RuNam Sunset Town', updated_at = NOW() WHERE slug = 'sunset-place-2';
 UPDATE public.businesses SET public_name = '솔라나 스파 선셋타운 (SOLANA Spa Sunset Town Phú Quốc)', google_maps_name = 'SOLANA Spa Sunset Town Phú Quốc', updated_at = NOW() WHERE slug = 'sunset-place-9';
+UPDATE public.businesses SET public_name = '선셋타운 아파트먼트 푸꾸옥 (Sunset Town Apartment Phu Quoc)', google_maps_name = 'Sunset Town Apartment Phu Quoc', updated_at = NOW() WHERE slug = 'sunset-town-apartment-phu-quoc';
+UPDATE public.businesses SET public_name = '킹 스파 & 마사지 (KING Spa & Massage Sunset Town Phú Quốc)', google_maps_name = 'KING Spa & Massage Sunset Town Phú Quốc', updated_at = NOW() WHERE slug = 'king-spa-massage-sunset-town-phu-quoc-spa-phu-quoc';
+UPDATE public.businesses SET public_name = '사쿠라쿄 스파 푸꾸옥 (Sakurakyo Spa Phu Quoc)', google_maps_name = 'Sakurakyo Spa Phu Quoc', updated_at = NOW() WHERE slug = 'sakurakyo-spa-phu-quoc-massage-body-massage-foot';
+UPDATE public.businesses SET public_name = '오아시스 스파 (OASIS Spa Massage & Nail (Sunset Town Phu Quoc))', google_maps_name = 'OASIS Spa Massage & Nail (Sunset Town Phu Quoc)', updated_at = NOW() WHERE slug = 'oasis-spa-massage-nail-sunset-town-phu-quoc';
+UPDATE public.businesses SET public_name = '미스 띠엔 스파 & 홈스테이 (Miss Tiên Spa & Homestay Phú Quốc Sunset Town)', google_maps_name = 'Miss Tiên Spa & Homestay Phú Quốc Sunset Town', updated_at = NOW() WHERE slug = 'miss-tien-spa-homestay-phu-quoc-sunset-town';
+UPDATE public.businesses SET public_name = 'Kem Tràng Tiền - Milan, Thị Trấn Hoàng hôn', google_maps_name = 'Kem Tràng Tiền - Milan, Thị Trấn Hoàng hôn', updated_at = NOW() WHERE slug = 'kem-trang-tien-sunset-town-phu-quoc';
+UPDATE public.businesses SET public_name = 'Casa Limone Hotel & Café - Specialty Coffee & Matcha', google_maps_name = 'Casa Limone Hotel & Café - Specialty Coffee & Matcha', updated_at = NOW() WHERE slug = 'casa-limone-phu-quoc-hotel-cafe-specialty-coffee-matcha-bar';
+UPDATE public.businesses SET public_name = '투안 끼에우 2 해산물 식당 (Nhà hàng hải sản Thuận Kiều 2 | Seafood & Grill)', google_maps_name = 'Nhà hàng hải sản Thuận Kiều 2 | Seafood & Grill', updated_at = NOW() WHERE slug = 'nha-hang-hai-san-thuan-kieu-2-seafood-grill';
 
 COMMIT;
