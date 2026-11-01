@@ -483,6 +483,78 @@
   background: #475e4c;
 }
 
+.practicalAgodaBtn {
+  box-sizing: border-box;
+  background: #2563eb;
+  border-radius: 999px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 13px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: opacity 0.15s, background-color 0.2s;
+  display: flex;
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.25);
+  color: #fff !important;
+}
+
+.practicalAgodaBtn:hover {
+  opacity: 0.92;
+  background: #1d4ed8;
+}
+
+.hotelHeroActions {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+
+.hotelHeroAgodaBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #2563eb;
+  color: #ffffff !important;
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.22);
+  transition: all 0.2s ease;
+}
+
+.hotelHeroAgodaBtn:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+.hotelHeroMapBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #f1f5f9;
+  color: #1e293b !important;
+  border: 1px solid #cbd5e1;
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.hotelHeroMapBtn:hover {
+  background: #e2e8f0;
+  border-color: #94a3b8;
+  transform: translateY(-1px);
+}
+
 .practicalVerification {
   color: #6b786f;
   text-align: center;

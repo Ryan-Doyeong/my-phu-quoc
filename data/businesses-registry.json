@@ -12,25 +12,34 @@
     "google_maps_name": "NOSKA Hotel",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ9SwzZzeVpzERAz84CLvBLh8",
     "phone": "+84 981 385 163",
-    "website_url": "https://www.noskahotel.com/",
+    "website_url": "https://www.agoda.com/ko-kr/noska-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/noska-hotel-1.webp",
+      "/covers-photo/noska-hotel-2.webp",
+      "/covers-photo/noska-hotel-3.webp",
+      "/covers-photo/noska-hotel-4.webp",
+      "/covers-photo/noska-hotel-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "가성비 수식어 삭제"
+    "_deleted_claims": "가성비 수식어 삭제",
+    "agoda_url": "https://www.agoda.com/ko-kr/noska-hotel/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-2",
-    "public_name": "사쿠라쿄 호텔 & 스파 푸꾸옥 (Sakurakyo Hotel & Spa)",
+    "public_name": "사쿠라쿄 호텔 앤 스파 푸꾸옥 (Sakurakyo Hotel & Spa Phu Quoc - Spa Inclusive & Free Airport Shuttle)",
     "slug": "sakurakyo-hotel-spa-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -41,25 +50,34 @@
     "google_maps_name": "Sakurakyo Hotel & Spa Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5RnXOaiXpzER0QhbiBUJ6d8",
     "phone": "+84 899 913 916",
-    "website_url": "https://skyethgroup.com/sakurakyo-hotel-phu-quoc/",
+    "website_url": "https://www.agoda.com/ko-kr/sakurakyo-hotel-spa-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/sakurakyo-hotel-spa-phu-quoc-1.webp",
+      "/covers-photo/sakurakyo-hotel-spa-phu-quoc-2.webp",
+      "/covers-photo/sakurakyo-hotel-spa-phu-quoc-3.webp",
+      "/covers-photo/sakurakyo-hotel-spa-phu-quoc-4.webp",
+      "/covers-photo/sakurakyo-hotel-spa-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/sakurakyo-hotel-spa-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-3",
-    "public_name": "베니스 호텔 푸꾸옥 (Venice Hotel Phu Quoc)",
+    "public_name": "베니스 호텔 푸꾸옥 (Venice Hotel Phu Quoc - Free Airport Shuttle & Spa Inclusive)",
     "slug": "venice-hotel-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -70,25 +88,34 @@
     "google_maps_name": "Venice Hotel Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJT1X9WkqVpzERe6nExGNSEYw",
     "phone": "+84 898 522 528",
-    "website_url": "https://venicehotelphuquoc.com/",
+    "website_url": "https://www.agoda.com/ko-kr/venice-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": "https://skyethgroup.com/venice-hotel-phu-quoc/",
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/venice-hotel-phu-quoc-1.webp",
+      "/covers-photo/venice-hotel-phu-quoc-2.webp",
+      "/covers-photo/venice-hotel-phu-quoc-3.webp",
+      "/covers-photo/venice-hotel-phu-quoc-4.webp",
+      "/covers-photo/venice-hotel-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/venice-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-4",
-    "public_name": "로마 호텔 푸꾸옥 (Roma Hotel Phu Quoc)",
+    "public_name": "로마 호텔 푸꾸옥 (Roma Hotel Phu Quoc - Free Airport Shuttle & Spa Inclusive)",
     "slug": "roma-hotel-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -99,25 +126,34 @@
     "google_maps_name": "Roma Hotel Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJjwfWKIqXpzERYsn-qQI_59o",
     "phone": "+84 899 727 729",
-    "website_url": "https://romahotelphuquoc.com/",
+    "website_url": "https://www.agoda.com/ko-kr/roma-hotel-phu-quoc-h39560696/hotel/phu-quoc-island-vn.html",
     "instagram_url": "https://skyethgroup.com/roma-hotel-phu-quoc/",
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/roma-hotel-phu-quoc-1.webp",
+      "/covers-photo/roma-hotel-phu-quoc-2.webp",
+      "/covers-photo/roma-hotel-phu-quoc-3.webp",
+      "/covers-photo/roma-hotel-phu-quoc-4.webp",
+      "/covers-photo/roma-hotel-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/roma-hotel-phu-quoc-h39560696/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-5",
-    "public_name": "더 줄리엣 부티크 호텔 & 커피 Ven 07 (The Juliet Boutique Hotel)",
+    "public_name": "줄리엣 부티크 호텔 - 선셋 타운 (Juliet Boutique Hotel - Sunset Town)",
     "slug": "the-juliet-a-boutique-hotel-coffee-ven-07",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -128,21 +164,30 @@
     "google_maps_name": "The Juliet A Boutique Hotel & Coffee - Ven 07",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5Z5ZTfmVpzERiSVXng2WHUY",
     "phone": "+84 886 391 568",
-    "website_url": "http://thejuliethotel.vn/",
+    "website_url": "https://www.agoda.com/ko-kr/juliet-boutique-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/the-juliet-a-boutique-hotel-coffee-ven-07-1.webp",
+      "/covers-photo/the-juliet-a-boutique-hotel-coffee-ven-07-2.webp",
+      "/covers-photo/the-juliet-a-boutique-hotel-coffee-ven-07-3.webp",
+      "/covers-photo/the-juliet-a-boutique-hotel-coffee-ven-07-4.webp",
+      "/covers-photo/the-juliet-a-boutique-hotel-coffee-ven-07-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "| [카페] 커피·페이스트리 50,000~110,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "감각적인 수식어 삭제"
+    "_deleted_claims": "감각적인 수식어 삭제",
+    "agoda_url": "https://www.agoda.com/ko-kr/juliet-boutique-hotel/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-6",
@@ -175,7 +220,7 @@
   },
   {
     "id": "local-sunset-7",
-    "public_name": "타임즈 코너 소렌토 부티크 호텔 (Times Corner Sorrento)",
+    "public_name": "타임스 코너 소렌토 호텔 (Times Corner Sorrento Hotel)",
     "slug": "times-corner-sorrento-boutique-hotel",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -186,25 +231,34 @@
     "google_maps_name": "Times Corner Sorrento Boutique Hotel",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJk9NfQm6XpzERAcfkxs2uJV8",
     "phone": "+84 889 669 988",
-    "website_url": "https://timescornerphuquoc.com/sorrento",
+    "website_url": "https://www.agoda.com/ko-kr/times-corner-sorrento-boutique-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/times-corner-sorrento-boutique-hotel-1.webp",
+      "/covers-photo/times-corner-sorrento-boutique-hotel-2.webp",
+      "/covers-photo/times-corner-sorrento-boutique-hotel-3.webp",
+      "/covers-photo/times-corner-sorrento-boutique-hotel-4.webp",
+      "/covers-photo/times-corner-sorrento-boutique-hotel-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 루프탑 인피니티풀/스카이바 삭제"
+    "_deleted_claims": "미검증 루프탑 인피니티풀/스카이바 삭제",
+    "agoda_url": "https://www.agoda.com/ko-kr/times-corner-sorrento-boutique-hotel/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-8",
-    "public_name": "로얄 호텔 푸꾸옥 1 (Royal Hotel Phu Quoc)",
+    "public_name": "로얄 호텔 푸꾸옥 (Royal Hotel Phu Quoc)",
     "slug": "royal-hotel-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -215,21 +269,30 @@
     "google_maps_name": "ROYAL HOTEL PHU QUOC",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJtc9o0lKXpzERaiJkBt3PCf0",
     "phone": "+84 947 012 356",
-    "website_url": "http://royalphuquoc.com/",
+    "website_url": "https://www.agoda.com/ko-kr/khach-san-royal-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/royal-hotel-phu-quoc-1.webp",
+      "/covers-photo/royal-hotel-phu-quoc-2.webp",
+      "/covers-photo/royal-hotel-phu-quoc-3.webp",
+      "/covers-photo/royal-hotel-phu-quoc-4.webp",
+      "/covers-photo/royal-hotel-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 투어 데스크 문구 삭제"
+    "_deleted_claims": "미검증 투어 데스크 문구 삭제",
+    "agoda_url": "https://www.agoda.com/ko-kr/khach-san-royal-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-9",
@@ -244,25 +307,34 @@
     "google_maps_name": "FELLA HOTEL",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJjZ-YVl6XpzERBev66-X35uQ",
     "phone": "+84 297 3992 797",
-    "website_url": "http://fellahotel.vn/",
+    "website_url": "https://www.agoda.com/ko-kr/fella-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/fella-hotel-1.webp",
+      "/covers-photo/fella-hotel-2.webp",
+      "/covers-photo/fella-hotel-3.webp",
+      "/covers-photo/fella-hotel-4.webp",
+      "/covers-photo/fella-hotel-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/fella-hotel/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-10",
-    "public_name": "타임즈 코너 아말피 호텔 (Times Corner Amalfi Hotel)",
+    "public_name": "타임스 코너 아말피 호텔 (TIMES CORNER AMALFI HOTEL)",
     "slug": "times-corner-amalfi-hotel",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -273,21 +345,30 @@
     "google_maps_name": "Times Corner Amalfi Hotel",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJjRZrewCXpzERoLfxbMC-_ao",
     "phone": "+84 812 331 199",
-    "website_url": "https://timescornerphuquoc.com/amalfi",
+    "website_url": "https://www.agoda.com/ko-kr/times-corner-amalfi-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/times-corner-amalfi-hotel-1.webp",
+      "/covers-photo/times-corner-amalfi-hotel-2.webp",
+      "/covers-photo/times-corner-amalfi-hotel-3.webp",
+      "/covers-photo/times-corner-amalfi-hotel-4.webp",
+      "/covers-photo/times-corner-amalfi-hotel-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 도보 소요시간 삭제 | 미검증 수영장/다이닝 연계 삭제"
+    "_deleted_claims": "미검증 도보 소요시간 삭제 | 미검증 수영장/다이닝 연계 삭제",
+    "agoda_url": "https://www.agoda.com/ko-kr/times-corner-amalfi-hotel/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-11",
@@ -304,7 +385,7 @@
     "phone": "+84 387 330 559",
     "website_url": "https://rosievn.com/",
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
@@ -320,7 +401,7 @@
   },
   {
     "id": "local-sunset-12",
-    "public_name": "카세피아 호텔 푸꾸옥 (Casepia Hotel Phu Quoc)",
+    "public_name": "카세피아 (CASEPIA)",
     "slug": "casepia",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -331,25 +412,34 @@
     "google_maps_name": "CASEPiA",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJRxYLYomXpzERCi3mFgoiNp4",
     "phone": "+84 918 450 099",
-    "website_url": "http://www.casepia.com/",
+    "website_url": "https://www.agoda.com/ko-kr/casepia/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/casepia-1.webp",
+      "/covers-photo/casepia-2.webp",
+      "/covers-photo/casepia-3.webp",
+      "/covers-photo/casepia-4.webp",
+      "/covers-photo/casepia-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/casepia/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-13",
-    "public_name": "르 보뇌르 호텔 (Le Bonheur Hotel Sunset Town)",
+    "public_name": "르 보뇌르 호텔 (Le Bonheur Hotel)",
     "slug": "le-bonheur-hotel",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -360,21 +450,30 @@
     "google_maps_name": "Le Bonheur Hotel",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJPZ4-MRiXpzER0cBb6s2l0EI",
     "phone": "+84 368 680 899",
-    "website_url": "https://www.facebook.com/lebonheurhotel",
+    "website_url": "https://www.agoda.com/ko-kr/le-bonheur-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/le-bonheur-hotel-1.webp",
+      "/covers-photo/le-bonheur-hotel-2.webp",
+      "/covers-photo/le-bonheur-hotel-3.webp",
+      "/covers-photo/le-bonheur-hotel-4.webp",
+      "/covers-photo/le-bonheur-hotel-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/le-bonheur-hotel/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-14",
@@ -391,7 +490,7 @@
     "phone": "+84 947 981 998",
     "website_url": "https://lunasol.vn/",
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
@@ -407,7 +506,7 @@
   },
   {
     "id": "local-sunset-15",
-    "public_name": "드 스테파노 커피 앤 호텔 (De Stefano Coffee & Hotel)",
+    "public_name": "데 스테파노 호텔 앤 커피 (De Stefano Hotel & Coffee)",
     "slug": "de-stefano-hotel-coffee",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -418,21 +517,30 @@
     "google_maps_name": "De Stefano Hotel Coffee",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJCY_uEYqXpzERtNAHnYgN8rc",
     "phone": "+84 345 512 946",
-    "website_url": "http://destefano.vn/",
+    "website_url": "https://www.agoda.com/ko-kr/de-stefano-coffee-and-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/de-stefano-hotel-coffee-1.webp",
+      "/covers-photo/de-stefano-hotel-coffee-2.webp",
+      "/covers-photo/de-stefano-hotel-coffee-3.webp",
+      "/covers-photo/de-stefano-hotel-coffee-4.webp",
+      "/covers-photo/de-stefano-hotel-coffee-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "| [1층 카페] 커피·음료 55,000~95,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "가성비 수식어 삭제 | 유명 수식어 삭제 | 포토존 -> 명소 중립화"
+    "_deleted_claims": "가성비 수식어 삭제 | 유명 수식어 삭제 | 포토존 -> 명소 중립화",
+    "agoda_url": "https://www.agoda.com/ko-kr/de-stefano-coffee-and-hotel/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-16",
@@ -478,7 +586,7 @@
     "phone": "+84 907 885 776",
     "website_url": "https://elydayphuquoc.com/",
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.8,
@@ -494,7 +602,7 @@
   },
   {
     "id": "local-sunset-18",
-    "public_name": "Blue Hotel Sunset Town Phu Quoc",
+    "public_name": "블루 호텔 선셋타운 (Blue Hotel Sunset Town Phu Quoc)",
     "slug": "blue-hotel-sunset-town-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -505,21 +613,30 @@
     "google_maps_name": "Blue Hotel Sunset Town Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJkxnyzB-VpzERiqEaw7e2MHA",
     "phone": "+84 912 824 408",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/blue-hotel-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/blue-hotel-sunset-town-phu-quoc-1.webp",
+      "/covers-photo/blue-hotel-sunset-town-phu-quoc-2.webp",
+      "/covers-photo/blue-hotel-sunset-town-phu-quoc-3.webp",
+      "/covers-photo/blue-hotel-sunset-town-phu-quoc-4.webp",
+      "/covers-photo/blue-hotel-sunset-town-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/blue-hotel-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-19",
@@ -536,7 +653,7 @@
     "phone": "+84 363 555 898",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
@@ -552,7 +669,7 @@
   },
   {
     "id": "local-sunset-20",
-    "public_name": "Blue Home Sunset Town Phu Quoc",
+    "public_name": "블루 홈 푸꾸옥 선셋 타운 (Blue Home Sunset Town Phu Quoc)",
     "slug": "blue-home-sunset-town-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -563,21 +680,28 @@
     "google_maps_name": "Blue Home Sunset Town Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJLzWBN6KVpzERtskBmd6MwKw",
     "phone": "+84 965 826 489",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/blue-home-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/blue-home-sunset-town-phu-quoc-1.webp",
+      "/covers-photo/blue-home-sunset-town-phu-quoc-2.webp",
+      "/covers-photo/blue-home-sunset-town-phu-quoc-3.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/blue-home-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (3 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-21",
@@ -594,7 +718,7 @@
     "phone": "+84 373 732 525",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
@@ -623,7 +747,7 @@
     "phone": "+84 762 689 112",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
@@ -652,7 +776,7 @@
     "phone": "+84 988 315 555",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
@@ -681,7 +805,7 @@
     "phone": "+84 963 588 588",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
@@ -710,7 +834,7 @@
     "phone": "+84 869 155 247",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
@@ -739,7 +863,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
@@ -768,7 +892,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
@@ -797,7 +921,7 @@
     "phone": "+84 382 912 265",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
@@ -813,7 +937,7 @@
   },
   {
     "id": "local-sunset-29",
-    "public_name": "Milan Hotel",
+    "public_name": "밀란 호텔 앤 커피 (MILAN HOTEL & COFFEE)",
     "slug": "milan-hotel",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -824,25 +948,34 @@
     "google_maps_name": "Milan Hotel",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ8wmMbXaXpzERStmPml0_UD8",
     "phone": "+84 917 452 211",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/milan-hotel-coffee/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/milan-hotel-1.webp",
+      "/covers-photo/milan-hotel-2.webp",
+      "/covers-photo/milan-hotel-3.webp",
+      "/covers-photo/milan-hotel-4.webp",
+      "/covers-photo/milan-hotel-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/milan-hotel-coffee/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-30",
-    "public_name": "TH Luxury Hotel",
+    "public_name": "TH 럭셔리 호텔 (TH Luxury Hotel)",
     "slug": "th-luxury-hotel",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -853,21 +986,30 @@
     "google_maps_name": "TH Luxury Hotel",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJM7-eNwCXpzERplviN61yYmc",
     "phone": "+84 943 999 369",
-    "website_url": "http://thluxuryhotel.com/",
+    "website_url": "https://www.agoda.com/ko-kr/th-luxury-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/th-luxury-hotel-1.webp",
+      "/covers-photo/th-luxury-hotel-2.webp",
+      "/covers-photo/th-luxury-hotel-3.webp",
+      "/covers-photo/th-luxury-hotel-4.webp",
+      "/covers-photo/th-luxury-hotel-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/th-luxury-hotel/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-31",
@@ -884,7 +1026,7 @@
     "phone": null,
     "website_url": "https://www.facebook.com/sunsethome.pq/",
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
@@ -913,7 +1055,7 @@
     "phone": "+84 886 391 568",
     "website_url": "https://titanhomies.com/",
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
@@ -942,7 +1084,7 @@
     "phone": "+84 918 691 687",
     "website_url": "https://seasonshotel.vn/",
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
@@ -958,7 +1100,7 @@
   },
   {
     "id": "local-sunset-34",
-    "public_name": "Triland Hillside",
+    "public_name": "트라이랜드 힐사이드 (Triland Hillside)",
     "slug": "triland-hillside",
     "category": "hotels",
     "subcategory": "residence",
@@ -969,21 +1111,26 @@
     "google_maps_name": "Triland Hillside",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJOZ1p38-VpzERKC1kUSIrA4A",
     "phone": "+84 941 507 156",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/triland-hillside/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/triland-hillside-1.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
+    "agoda_url": "https://www.agoda.com/ko-kr/triland-hillside/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (1 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-35",
@@ -1000,7 +1147,7 @@
     "phone": "+84 947 012 356",
     "website_url": "http://royalphuquoc.com/",
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
@@ -1029,7 +1176,7 @@
     "phone": "+84 835 777 655",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
@@ -1058,7 +1205,7 @@
     "phone": "+84 931 897 435",
     "website_url": "https://ndre.vn/sunny-side-hotel/",
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
@@ -1087,7 +1234,7 @@
     "phone": "+84 944 411 325",
     "website_url": "https://www.seasunsethotel.com/",
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
@@ -1103,7 +1250,7 @@
   },
   {
     "id": "local-sunset-39",
-    "public_name": "Cybele Sunset Hotel Phú Quốc",
+    "public_name": "시벨레 선셋 호텔 푸꾸옥 (Cybele Sunset Hotel Phu Quoc)",
     "slug": "cybele-sunset-hotel-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -1114,21 +1261,30 @@
     "google_maps_name": "Cybele Sunset Hotel Phú Quốc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJM3WdM8mVpzERaaspeat4G3I",
     "phone": "+84 941 323 223",
-    "website_url": "https://cybelesunsethotel.com/",
+    "website_url": "https://www.agoda.com/ko-kr/cybele-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/cybele-sunset-hotel-phu-quoc-1.webp",
+      "/covers-photo/cybele-sunset-hotel-phu-quoc-2.webp",
+      "/covers-photo/cybele-sunset-hotel-phu-quoc-3.webp",
+      "/covers-photo/cybele-sunset-hotel-phu-quoc-4.webp",
+      "/covers-photo/cybele-sunset-hotel-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/cybele-hotel/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-40",
@@ -1145,7 +1301,7 @@
     "phone": "+84 888 197 759",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
@@ -1174,7 +1330,7 @@
     "phone": "+84 966 755 665",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
@@ -1190,7 +1346,7 @@
   },
   {
     "id": "local-sunset-42",
-    "public_name": "Rova 105 Hotel",
+    "public_name": "로바 호텔 푸꾸옥 (Rova Hotel Phú Quốc)",
     "slug": "rova-105-hotel",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -1201,25 +1357,34 @@
     "google_maps_name": "Rova 105 Hotel",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJSf1XiyqVpzERESXp2yD4RDI",
     "phone": "+84 828 606 886",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/roma-hotel-phu-qu-c/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/rova-105-hotel-1.webp",
+      "/covers-photo/rova-105-hotel-2.webp",
+      "/covers-photo/rova-105-hotel-3.webp",
+      "/covers-photo/rova-105-hotel-4.webp",
+      "/covers-photo/rova-105-hotel-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/roma-hotel-phu-qu-c/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-43",
-    "public_name": "Sole Casa Phu Quoc",
+    "public_name": "솔레 카사 푸꾸옥 (Sole Casa Phu Quoc)",
     "slug": "sole-casa-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -1230,21 +1395,30 @@
     "google_maps_name": "Sole Casa Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJCzU1h7OXpzER6BRzBKSqRks",
     "phone": "+84 931 023 335",
-    "website_url": "http://solecasavn.com/",
+    "website_url": "https://www.agoda.com/ko-kr/sole-casa-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/sole-casa-phu-quoc-1.webp",
+      "/covers-photo/sole-casa-phu-quoc-2.webp",
+      "/covers-photo/sole-casa-phu-quoc-3.webp",
+      "/covers-photo/sole-casa-phu-quoc-4.webp",
+      "/covers-photo/sole-casa-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/sole-casa-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-44",
@@ -1261,7 +1435,7 @@
     "phone": "+84 918 336 641",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
@@ -1277,7 +1451,7 @@
   },
   {
     "id": "local-sunset-45",
-    "public_name": "The Nice Hotel Phu Quoc - Fireworks & Ocean view",
+    "public_name": "더 나이스 호텔 푸꾸옥 (The Nice Hotel Phu Quoc - Fireworks & Ocean view)",
     "slug": "the-nice-hotel-phu-quoc-fireworks-ocean-view",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -1288,21 +1462,30 @@
     "google_maps_name": "The Nice Hotel Phu Quoc - Fireworks & Ocean view",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJWyR4R6WVpzERdWiJg-xbMZs",
     "phone": "+84 798 853 999",
-    "website_url": "http://facebook.com/thenicehotelphuquocvn",
+    "website_url": "https://www.agoda.com/ko-kr/the-nice-hotel-phu-quoc-fireworks-ocean-view/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/the-nice-hotel-phu-quoc-fireworks-ocean-view-1.webp",
+      "/covers-photo/the-nice-hotel-phu-quoc-fireworks-ocean-view-2.webp",
+      "/covers-photo/the-nice-hotel-phu-quoc-fireworks-ocean-view-3.webp",
+      "/covers-photo/the-nice-hotel-phu-quoc-fireworks-ocean-view-4.webp",
+      "/covers-photo/the-nice-hotel-phu-quoc-fireworks-ocean-view-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/the-nice-hotel-phu-quoc-fireworks-ocean-view/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-46",
@@ -1319,7 +1502,7 @@
     "phone": "+84 979 333 388",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
@@ -1335,7 +1518,7 @@
   },
   {
     "id": "local-sunset-47",
-    "public_name": "Sunny Hotel Phu Quoc- Ven 18 Sunset Town",
+    "public_name": "써니 호텔 (Sunny Hotel)",
     "slug": "sunny-hotel-phu-quoc-ven-18-sunset-town",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -1346,21 +1529,30 @@
     "google_maps_name": "Sunny Hotel Phu Quoc- Ven 18 Sunset Town",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJJyvaIBKXpzERPWxGoWlnWoc",
     "phone": "+84 817 778 862",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/sunny-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/sunny-hotel-phu-quoc-ven-18-sunset-town-1.webp",
+      "/covers-photo/sunny-hotel-phu-quoc-ven-18-sunset-town-2.webp",
+      "/covers-photo/sunny-hotel-phu-quoc-ven-18-sunset-town-3.webp",
+      "/covers-photo/sunny-hotel-phu-quoc-ven-18-sunset-town-4.webp",
+      "/covers-photo/sunny-hotel-phu-quoc-ven-18-sunset-town-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/sunny-hotel/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-48",
@@ -1377,7 +1569,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
@@ -1406,7 +1598,7 @@
     "phone": "+84 768 812 229",
     "website_url": "https://pearlvista.vn/",
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
@@ -1435,7 +1627,7 @@
     "phone": "+84 932 645 139",
     "website_url": "http://eirlyshomephuquoc.com/",
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
@@ -1451,7 +1643,7 @@
   },
   {
     "id": "local-sunset-51",
-    "public_name": "SOLÉA Hotels & Apartments Sunset Town",
+    "public_name": "솔레아 호텔 선셋타운 푸꾸옥 (Soléa Hotel Sunset Town Phu Quoc)",
     "slug": "solea-hotels-apartments-sunset-town",
     "category": "hotels",
     "subcategory": "residence",
@@ -1462,25 +1654,34 @@
     "google_maps_name": "SOLÉA Hotels & Apartments Sunset Town",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJxbxyGNSXpzEREPa-cnK86aY",
     "phone": "+84 297 7300 189",
-    "website_url": "http://soleahotel.vn/",
+    "website_url": "https://www.agoda.com/ko-kr/solea-hotel-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/solea-hotels-apartments-sunset-town-1.webp",
+      "/covers-photo/solea-hotels-apartments-sunset-town-2.webp",
+      "/covers-photo/solea-hotels-apartments-sunset-town-3.webp",
+      "/covers-photo/solea-hotels-apartments-sunset-town-4.webp",
+      "/covers-photo/solea-hotels-apartments-sunset-town-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
+    "agoda_url": "https://www.agoda.com/ko-kr/solea-hotel-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-52",
-    "public_name": "Lotus Home Hillside",
+    "public_name": "로터스 홈 힐사이드 (Lotus Home Hillside)",
     "slug": "lotus-home-hillside",
     "category": "hotels",
     "subcategory": "residence",
@@ -1491,21 +1692,30 @@
     "google_maps_name": "Lotus Home Hillside",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJC_zbaC2XpzERmmgdPCSvGy4",
     "phone": "+84 562 006 688",
-    "website_url": "https://www.lotushomephuquoc.com/",
+    "website_url": "https://www.agoda.com/ko-kr/lotus-home-hillside/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/lotus-home-hillside-1.webp",
+      "/covers-photo/lotus-home-hillside-2.webp",
+      "/covers-photo/lotus-home-hillside-3.webp",
+      "/covers-photo/lotus-home-hillside-4.webp",
+      "/covers-photo/lotus-home-hillside-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
+    "agoda_url": "https://www.agoda.com/ko-kr/lotus-home-hillside/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-53",
@@ -1522,7 +1732,7 @@
     "phone": "+84 888 909 916",
     "website_url": "http://seagallery.vn/",
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
@@ -1551,7 +1761,7 @@
     "phone": "+84 339 517 359",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
@@ -1580,7 +1790,7 @@
     "phone": "+84 913 753 999",
     "website_url": "https://www.facebook.com/profile.php?id=100064362120671&mibextid=LQQJ4d",
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
@@ -1609,7 +1819,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.3,
@@ -1625,7 +1835,7 @@
   },
   {
     "id": "local-sunset-57",
-    "public_name": "Hoàng Hôn Tím Boutique Hotel",
+    "public_name": "호앙 혼 팀 부티크 호텔 (Hoàng Hôn Tím Boutique Hotel)",
     "slug": "hoa-ng-hon-ti-m-boutique-hotel",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -1636,25 +1846,34 @@
     "google_maps_name": "Hoàng Hôn Tím Boutique Hotel",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJe4CLfRKXpzERL0ZvGC778Bk",
     "phone": "+84 947 980 904",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/hoa-ng-hon-ti-m-boutique-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.3,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/hoa-ng-hon-ti-m-boutique-hotel-1.webp",
+      "/covers-photo/hoa-ng-hon-ti-m-boutique-hotel-2.webp",
+      "/covers-photo/hoa-ng-hon-ti-m-boutique-hotel-3.webp",
+      "/covers-photo/hoa-ng-hon-ti-m-boutique-hotel-4.webp",
+      "/covers-photo/hoa-ng-hon-ti-m-boutique-hotel-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/hoa-ng-hon-ti-m-boutique-hotel/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-58",
-    "public_name": "Sunset Royal",
+    "public_name": "선셋 로얄 호텔 (Sunset Royal)",
     "slug": "sunset-royal",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -1665,21 +1884,30 @@
     "google_maps_name": "Sunset Royal",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJI__GdUGXpzERKX435iNiC3o",
     "phone": null,
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/sunset-royal/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.3,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/sunset-royal-1.webp",
+      "/covers-photo/sunset-royal-2.webp",
+      "/covers-photo/sunset-royal-3.webp",
+      "/covers-photo/sunset-royal-4.webp",
+      "/covers-photo/sunset-royal-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/sunset-royal/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-59",
@@ -1696,7 +1924,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.2,
@@ -1712,7 +1940,7 @@
   },
   {
     "id": "local-sunset-60",
-    "public_name": "Golden Sunset Hotel",
+    "public_name": "골든 선셋 호텔 푸꾸옥 (Golden Sunset Hotel)",
     "slug": "golden-sunset-hotel",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -1723,21 +1951,30 @@
     "google_maps_name": "Golden Sunset Hotel",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJLYZRqS2VpzERBkJetwNxgg8",
     "phone": "+84 981 779 868",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/golden-sunset-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.1,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/golden-sunset-hotel-1.webp",
+      "/covers-photo/golden-sunset-hotel-2.webp",
+      "/covers-photo/golden-sunset-hotel-3.webp",
+      "/covers-photo/golden-sunset-hotel-4.webp",
+      "/covers-photo/golden-sunset-hotel-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/golden-sunset-hotel/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-61",
@@ -1754,7 +1991,7 @@
     "phone": "+84 965 532 882",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.1,
@@ -1783,7 +2020,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.1,
@@ -1812,7 +2049,7 @@
     "phone": "+84 366 755 555",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4,
@@ -1828,7 +2065,7 @@
   },
   {
     "id": "local-sunset-64",
-    "public_name": "TK HOUSE PHU QUOC",
+    "public_name": "TK 하우스 푸꾸옥 (TK HOUSE PHU QUOC)",
     "slug": "tk-house-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -1839,25 +2076,34 @@
     "google_maps_name": "TK HOUSE PHU QUOC",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJvZLgZACVpzERuXVHXu51M80",
     "phone": "+84 974 149 719",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/tk-house-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/tk-house-phu-quoc-1.webp",
+      "/covers-photo/tk-house-phu-quoc-2.webp",
+      "/covers-photo/tk-house-phu-quoc-3.webp",
+      "/covers-photo/tk-house-phu-quoc-4.webp",
+      "/covers-photo/tk-house-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/tk-house-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-65",
-    "public_name": "CASA DEL MAR BOUTIQUE HOTEL",
+    "public_name": "카사 델 마르 호텔 앤 아파트먼트 (Casa Del Mar Hotel & Apartment - Sunset Town)",
     "slug": "casa-del-mar-boutique-hotel",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -1868,21 +2114,30 @@
     "google_maps_name": "CASA DEL MAR BOUTIQUE HOTEL",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJL0J55ZiXpzERbAGmlh0s12I",
     "phone": null,
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/casa-del-mar-boutique-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/casa-del-mar-boutique-hotel-1.webp",
+      "/covers-photo/casa-del-mar-boutique-hotel-2.webp",
+      "/covers-photo/casa-del-mar-boutique-hotel-3.webp",
+      "/covers-photo/casa-del-mar-boutique-hotel-4.webp",
+      "/covers-photo/casa-del-mar-boutique-hotel-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/casa-del-mar-boutique-hotel/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-66",
@@ -1899,7 +2154,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4,
@@ -1928,7 +2183,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4,
@@ -1957,7 +2212,7 @@
     "phone": "+84 835 388 003",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.9,
@@ -1986,7 +2241,7 @@
     "phone": "+84 989 598 589",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.8,
@@ -2002,7 +2257,7 @@
   },
   {
     "id": "local-sunset-70",
-    "public_name": "MERCI HOTEL SUNSET TOWN PHU QUOC",
+    "public_name": "메르시 호텔 선셋 타운 (Chuỗi căn hộ Merci Hotel Sunset Town)",
     "slug": "merci-hotel-sunset-town-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -2013,25 +2268,34 @@
     "google_maps_name": "MERCI HOTEL SUNSET TOWN PHU QUOC",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJh1FRPgCVpzERb673NoY0a2k",
     "phone": null,
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/merci-hotel-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.6,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/merci-hotel-sunset-town-phu-quoc-1.webp",
+      "/covers-photo/merci-hotel-sunset-town-phu-quoc-2.webp",
+      "/covers-photo/merci-hotel-sunset-town-phu-quoc-3.webp",
+      "/covers-photo/merci-hotel-sunset-town-phu-quoc-4.webp",
+      "/covers-photo/merci-hotel-sunset-town-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/merci-hotel-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-71",
-    "public_name": "The Fern Phu Quoc Hotel Sunset Town",
+    "public_name": "더 펀 호텔 - 선셋타운 (The Fern Hotel - Sunset Town)",
     "slug": "the-fern-phu-quoc-hotel-sunset-town",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -2042,21 +2306,30 @@
     "google_maps_name": "The Fern Phu Quoc Hotel Sunset Town",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJk3IxcACVpzERP5hIbpsfIUI",
     "phone": "+84 983 395 095",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/hotel/phu-quoc-island-vn.html?hotel_id=49927783",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/the-fern-phu-quoc-hotel-sunset-town-1.webp",
+      "/covers-photo/the-fern-phu-quoc-hotel-sunset-town-2.webp",
+      "/covers-photo/the-fern-phu-quoc-hotel-sunset-town-3.webp",
+      "/covers-photo/the-fern-phu-quoc-hotel-sunset-town-4.webp",
+      "/covers-photo/the-fern-phu-quoc-hotel-sunset-town-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/hotel/phu-quoc-island-vn.html?hotel_id=49927783",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-72",
@@ -2073,7 +2346,7 @@
     "phone": "+84 868 324 865",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.4,
@@ -2102,7 +2375,7 @@
     "phone": "+84 939 599 975",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.3,
@@ -2131,7 +2404,7 @@
     "phone": "+84 343 419 138",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.2,
@@ -2147,7 +2420,7 @@
   },
   {
     "id": "local-sunset-75",
-    "public_name": "La Phan Phu Quoc Hillside Apartment",
+    "public_name": "라 판 푸꾸옥 힐사이드 아파트먼트 (La Phan Phu Quoc Hillside Apartment)",
     "slug": "la-phan-phu-quoc-hillside-apartment",
     "category": "hotels",
     "subcategory": "residence",
@@ -2158,21 +2431,29 @@
     "google_maps_name": "La Phan Phu Quoc Hillside Apartment",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJizGVMi-XpzERx5BfQC3-v_Q",
     "phone": "+84 963 273 836",
-    "website_url": "https://www.facebook.com/laphanphuquoc",
+    "website_url": "https://www.agoda.com/ko-kr/la-phan-phu-quoc-hillside-apartment/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.1,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/la-phan-phu-quoc-hillside-apartment-1.webp",
+      "/covers-photo/la-phan-phu-quoc-hillside-apartment-2.webp",
+      "/covers-photo/la-phan-phu-quoc-hillside-apartment-3.webp",
+      "/covers-photo/la-phan-phu-quoc-hillside-apartment-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
+    "agoda_url": "https://www.agoda.com/ko-kr/la-phan-phu-quoc-hillside-apartment/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (4 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-76",
@@ -2189,7 +2470,7 @@
     "phone": "+84 916 888 049",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3,
@@ -2218,7 +2499,7 @@
     "phone": "+84 904 298 956",
     "website_url": "https://www.facebook.com/CrystalApartmentHillsidePhuQuoc",
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 2.6,
@@ -2234,7 +2515,7 @@
   },
   {
     "id": "local-sunset-78",
-    "public_name": "Dido Carthage Apartment Sunset Town, Phu Quoc Island",
+    "public_name": "디도 카르타고 아파트먼트 (Dido Carthage Apartment)",
     "slug": "dido-carthage-apartment-sunset-town-phu-quoc-island",
     "category": "hotels",
     "subcategory": "residence",
@@ -2245,25 +2526,34 @@
     "google_maps_name": "Dido Carthage Apartment Sunset Town, Phu Quoc Island",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJcWEuF12XpzERcz_lK7OYDlw",
     "phone": "+84 904 298 956",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/dido-carthage-apartment-sunset-town-phu-quoc-island/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 2.3,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/dido-carthage-apartment-sunset-town-phu-quoc-island-1.webp",
+      "/covers-photo/dido-carthage-apartment-sunset-town-phu-quoc-island-2.webp",
+      "/covers-photo/dido-carthage-apartment-sunset-town-phu-quoc-island-3.webp",
+      "/covers-photo/dido-carthage-apartment-sunset-town-phu-quoc-island-4.webp",
+      "/covers-photo/dido-carthage-apartment-sunset-town-phu-quoc-island-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
+    "agoda_url": "https://www.agoda.com/ko-kr/dido-carthage-apartment-sunset-town-phu-quoc-island/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-79",
-    "public_name": "JS Hotel Phu Quoc Sunset Town",
+    "public_name": "JS 호텔 푸꾸옥 선셋타운 (JS Hotel Phu Quoc Sunset Town)",
     "slug": "js-hotel-phu-quoc-sunset-town",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -2274,25 +2564,33 @@
     "google_maps_name": "JS Hotel Phu Quoc Sunset Town",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJRSic4YOXpzERfVMlKoCM9v8",
     "phone": "+84 983 586 592",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/js-hotel-phu-quoc-sunset-town/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/js-hotel-phu-quoc-sunset-town-1.webp",
+      "/covers-photo/js-hotel-phu-quoc-sunset-town-2.webp",
+      "/covers-photo/js-hotel-phu-quoc-sunset-town-3.webp",
+      "/covers-photo/js-hotel-phu-quoc-sunset-town-4.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/js-hotel-phu-quoc-sunset-town/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (4 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-80",
-    "public_name": "Haibot 12 Homestay Sunset Town Phu Quoc",
+    "public_name": "하이봇 12 홈스테이 선셋 타운 푸꾸옥 (Haibot 12 Homestay Sunset Town Phu Quoc)",
     "slug": "haibot-12-homestay-sunset-town-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -2303,21 +2601,30 @@
     "google_maps_name": "Haibot 12 Homestay Sunset Town Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJndpEdaCWpzERSJKUI11zKzo",
     "phone": "+84 353 346 568",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/haibot-12-homestay-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/haibot-12-homestay-sunset-town-phu-quoc-1.webp",
+      "/covers-photo/haibot-12-homestay-sunset-town-phu-quoc-2.webp",
+      "/covers-photo/haibot-12-homestay-sunset-town-phu-quoc-3.webp",
+      "/covers-photo/haibot-12-homestay-sunset-town-phu-quoc-4.webp",
+      "/covers-photo/haibot-12-homestay-sunset-town-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/haibot-12-homestay-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-81",
@@ -2334,7 +2641,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
@@ -2350,7 +2657,7 @@
   },
   {
     "id": "local-sunset-82",
-    "public_name": "Hillside Apartment in Sunset Town, Phu Quoc",
+    "public_name": "힐사이드 아파트먼트 인 선셋타운 푸꾸옥 (Hillside Apartment in Sunset Town, Phu Quoc)",
     "slug": "hillside-apartment-in-sunset-town-phu-quoc",
     "category": "hotels",
     "subcategory": "residence",
@@ -2361,25 +2668,34 @@
     "google_maps_name": "Hillside Apartment in Sunset Town, Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJO1D89qCWpzERs-4VpolXxCQ",
     "phone": null,
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/hillside-apartment-in-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/hillside-apartment-in-sunset-town-phu-quoc-1.webp",
+      "/covers-photo/hillside-apartment-in-sunset-town-phu-quoc-2.webp",
+      "/covers-photo/hillside-apartment-in-sunset-town-phu-quoc-3.webp",
+      "/covers-photo/hillside-apartment-in-sunset-town-phu-quoc-4.webp",
+      "/covers-photo/hillside-apartment-in-sunset-town-phu-quoc-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
+    "agoda_url": "https://www.agoda.com/ko-kr/hillside-apartment-in-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-83",
-    "public_name": "Hillside Sunset Town Phu Quoc",
+    "public_name": "힐사이드 선셋타운 푸꾸옥 (Hillside Sunset Town Phu Quoc)",
     "slug": "hillside-sunset-town-phu-quoc",
     "category": "hotels",
     "subcategory": "residence",
@@ -2390,21 +2706,30 @@
     "google_maps_name": "Hillside Sunset Town Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJgaHIR6CWpzERjGjAhK1qpYE",
     "phone": null,
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/hillside-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/hillside-sunset-town-phu-quoc-1.webp",
+      "/covers-photo/hillside-sunset-town-phu-quoc-2.webp",
+      "/covers-photo/hillside-sunset-town-phu-quoc-3.webp",
+      "/covers-photo/hillside-sunset-town-phu-quoc-4.webp",
+      "/covers-photo/hillside-sunset-town-phu-quoc-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
+    "agoda_url": "https://www.agoda.com/ko-kr/hillside-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-84",
@@ -2421,7 +2746,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
@@ -2437,7 +2762,7 @@
   },
   {
     "id": "local-sunset-85",
-    "public_name": "Casa Del Mar Hotel & Apartment - Sunset Town",
+    "public_name": "카사 델 마르 호텔 앤 아파트먼트 (Casa Del Mar Hotel & Apartment - Sunset Town)",
     "slug": "casa-del-mar-hotel-apartment-sunset-town",
     "category": "hotels",
     "subcategory": "residence",
@@ -2448,21 +2773,30 @@
     "google_maps_name": "Casa Del Mar Hotel & Apartment - Sunset Town",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJt7Y0Jx6UpzER635fflPTrNI",
     "phone": null,
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/casa-del-mar-hotel-apartment-sunset-town/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/casa-del-mar-hotel-apartment-sunset-town-1.webp",
+      "/covers-photo/casa-del-mar-hotel-apartment-sunset-town-2.webp",
+      "/covers-photo/casa-del-mar-hotel-apartment-sunset-town-3.webp",
+      "/covers-photo/casa-del-mar-hotel-apartment-sunset-town-4.webp",
+      "/covers-photo/casa-del-mar-hotel-apartment-sunset-town-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
+    "agoda_url": "https://www.agoda.com/ko-kr/casa-del-mar-hotel-apartment-sunset-town/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-86",
@@ -2479,7 +2813,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
@@ -6597,21 +6931,30 @@
     "google_maps_name": "라 페스타 푸끄옥 큐리오 컬렉션 바이 힐튼",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJc4_lgKCWpzERfX9ic42Xi-s",
     "phone": "+84 297 3525 555",
-    "website_url": "https://www.hilton.com/en/hotels/pqcpqqq-la-festa-phu-quoc/",
+    "website_url": "https://www.agoda.com/ko-kr/la-festa-phu-quoc-curio-collection-by-hilton/hotel/phu-quoc-island-vn.html",
     "instagram_url": "https://www.instagram.com/lafestaphuquoc/",
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/sunset-place-7-1.webp",
+      "/covers-photo/sunset-place-7-2.webp",
+      "/covers-photo/sunset-place-7-3.webp",
+      "/covers-photo/sunset-place-7-4.webp",
+      "/covers-photo/sunset-place-7-5.webp"
+    ],
     "tags": [
       "hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/la-festa-phu-quoc-curio-collection-by-hilton/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
   },
   {
     "id": "local-sunset-230",

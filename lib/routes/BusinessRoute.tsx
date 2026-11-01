@@ -549,6 +549,43 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                 })()}
               </div>
             )}
+            {/* Hotel Action Buttons: Agoda Booking & Google Maps */}
+            {(b.category === 'hotels' || b.agoda_url) && (
+              <div className="hotelHeroActions">
+                {(b.agoda_url || (b.website_url && b.website_url.includes('agoda.com'))) && (
+                  <a
+                    href={b.agoda_url || b.website_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hotelHeroAgodaBtn"
+                  >
+                    <span aria-hidden="true">🏨</span>
+                    <span>
+                      {locale === 'ko'
+                        ? '아고다 예약'
+                        : locale === 'vi'
+                        ? 'Đặt phòng trên Agoda'
+                        : locale === 'zh'
+                        ? '在 Agoda 预订'
+                        : locale === 'ja'
+                        ? 'Agodaで予約'
+                        : locale === 'ru'
+                        ? 'Забронировать на Agoda'
+                        : 'Book on Agoda'}
+                    </span>
+                  </a>
+                )}
+                <a
+                  href={b.google_maps_url || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(b.google_maps_name || b.public_name)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hotelHeroMapBtn"
+                >
+                  <span aria-hidden="true">🗺️</span>
+                  <span>{dict.business.viewOnGoogleMaps || (locale === 'vi' ? 'Xem trên Google Maps' : 'View on Google Maps')}</span>
+                </a>
+              </div>
+            )}
           </div>
           {!isNameOnly && (
             <SocialIcons

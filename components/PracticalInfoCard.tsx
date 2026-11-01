@@ -319,24 +319,53 @@ export function PracticalInfoCard({
           )}
       </div>
 
-      {/* Google Maps Action Button */}
-      {b.google_maps_url && (
-        <a
-          className="practicalMapBtn"
-          href={b.google_maps_url}
-          target="_blank"
-          rel="noreferrer"
-          data-analytics-type="business-map"
-          data-analytics-id={b.id}
-        >
-          <span aria-hidden="true">🗺️</span>
-          <span>
-            {(PRACTICAL_LABELS.googleMaps as Record<string, string>)[locale] ||
-              dict.business.viewOnGoogleMaps ||
-              (isVi ? 'Xem trên Google Maps' : 'View on Google Maps')}
-          </span>
-        </a>
-      )}
+      {/* Action Buttons: Agoda Booking & Google Maps */}
+      <div className="practicalActionBtns" style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '16px' }}>
+        {(b.category === 'hotels' || b.agoda_url) && (b.agoda_url || (b.website_url && b.website_url.includes('agoda.com'))) && (
+          <a
+            className="practicalAgodaBtn"
+            href={b.agoda_url || b.website_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            data-analytics-type="hotel-agoda-booking"
+            data-analytics-id={b.id}
+          >
+            <span aria-hidden="true">🏨</span>
+            <span>
+              {locale === 'ko'
+                ? '아고다 예약'
+                : locale === 'vi'
+                ? 'Đặt phòng trên Agoda'
+                : locale === 'zh'
+                ? '在 Agoda 预订'
+                : locale === 'ja'
+                ? 'Agodaで予約'
+                : locale === 'ru'
+                ? 'Забронировать на Agoda'
+                : 'Book on Agoda'}
+            </span>
+          </a>
+        )}
+
+        {b.google_maps_url && (
+          <a
+            className="practicalMapBtn"
+            href={b.google_maps_url}
+            target="_blank"
+            rel="noreferrer"
+            data-analytics-type="business-map"
+            data-analytics-id={b.id}
+            style={{ marginTop: 0 }}
+          >
+            <span aria-hidden="true">🗺️</span>
+            <span>
+              {(PRACTICAL_LABELS.googleMaps as Record<string, string>)[locale] ||
+                dict.business.viewOnGoogleMaps ||
+                (isVi ? 'Xem trên Google Maps' : 'View on Google Maps')}
+            </span>
+          </a>
+        )}
+      </div>
 
       {/* Verification Notice */}
       <div className="practicalVerification">
