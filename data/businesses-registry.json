@@ -5459,7 +5459,10 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/cielo/cielo_menu_01.webp",
+      "/images/businesses/cielo/cielo_menu_02.webp"
+    ],
     "tags": [
       "bar",
       "Sunset Town"

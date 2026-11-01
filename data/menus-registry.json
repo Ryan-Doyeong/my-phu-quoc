@@ -1075,51 +1075,37 @@
     ]
   },
   "ChIJzXtAVDKXpzER1cjjYNLZETM": {
-    "name_google": "Cielo",
-    "name_display": "씨엘로 루프탑 바 (Cielo Rooftop Bar - La Festa Hilton)",
-    "place_id": "ChIJzXtAVDKXpzER1cjjYNLZETM",
-    "master_category": "4. 바 & 펍 & 비치클럽",
-    "info_level": "B",
-    "status": "partial",
-    "menu_date": "2026-10",
-    "stale": false,
+    "google_place_id": "ChIJzXtAVDKXpzER1cjjYNLZETM",
+    "business_name": "씨엘로 루프탑 바 (Cielo Rooftop Bar - La Festa Hilton)",
+    "slug": "cielo",
+    "grade": "B",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "official_site",
-        "url": "https://hilton.com",
-        "accessed": "2026-10-25",
-        "note": "라 페스타 힐튼 씨엘로 루프탑 바 메뉴"
-      }
-    ],
+    "source": {
+      "type": "google_maps_photo_verified",
+      "accessed": "2026-11-01"
+    },
     "sections": [
       {
-        "section_original": "Skyline Cocktails / 스카이라인 선셋 칵테일",
-        "section_ko": "선셋 루프탑 시그니처 칵테일",
+        "category_id": "signature",
+        "category_name": "씨엘로 시그니처 루프탑 칵테일 (Cielo Cocktails)",
         "items": [
           {
-            "name_original": "Cielo Kiss of the Sea Cocktail",
+            "name": "Cielo Kiss of the Sea Cocktail",
             "name_ko": "씨엘로 키스 오브 더 씨 칵테일",
-            "description_original": "Sparkling prosecco layered with blue curacao, elderflower liqueur, and gold glitter",
-            "description_ko": "야간 불꽃놀이와 바다의 반짝임을 모티브로 프로세코와 엘더플라워로 빚어낸 칵테일",
             "price_vnd": 290000,
-            "tags": [
-              "칵테일",
-              "시그니처",
-              "불꽃놀이명당"
-            ],
-            "source_ref": "s1"
+            "price_text": "290,000 VND++",
+            "description_ko": "라 페스타 최상층에서 바다 불꽃놀이를 조망하며 즐기는 이탈리아풍 시그니처 칵테일"
+          },
+          {
+            "name": "Sunset Bellini Prosecco",
+            "name_ko": "선셋 벨리니 프로세코",
+            "price_vnd": 270000,
+            "price_text": "270,000 VND++",
+            "description_ko": "신선한 복숭아 퓨레와 이탈리아 스파클링 와인 프로세코의 상큼한 조화"
           }
         ]
       }
-    ],
-    "known_dishes": [],
-    "price_range": null,
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 F&B 확장 조사: 4. 바 & 펍 & 비치클럽 실측 핵심 메뉴 확보로 Grade B 등록."
+    ]
   },
   "ChIJS-IdAACVpzERrZzkY5r_-JQ": {
     "google_place_id": "ChIJS-IdAACVpzERrZzkY5r_-JQ",
@@ -2671,63 +2657,37 @@
     ]
   },
   "ChIJgdPeM-6VpzERp4qCP5Rftfc": {
-    "name_google": "Teatro Club Phú Quốc",
-    "name_display": "테아트로 클럽 푸꾸옥 (Teatro Club Phú Quốc)",
-    "place_id": "ChIJgdPeM-6VpzERp4qCP5Rftfc",
-    "master_category": "4. 바 & 펍 & 비치클럽",
-    "info_level": "B",
-    "status": "partial",
-    "menu_date": "2026-10",
-    "stale": false,
+    "google_place_id": "ChIJgdPeM-6VpzERp4qCP5Rftfc",
+    "business_name": "테아트로 클럽 푸꾸옥 (Teatro Club Phú Quốc)",
+    "slug": "teatro-club-phu-quo-c",
+    "grade": "B",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "official_site",
-        "url": "https://teatrovietnam.com/",
-        "accessed": "2026-10-25",
-        "note": "테아트로 클럽 공식 드링크 메뉴"
-      }
-    ],
+    "source": {
+      "type": "google_maps_photo_verified",
+      "accessed": "2026-11-01"
+    },
     "sections": [
       {
-        "section_original": "Cocktails & Spirits / 클럽 칵테일 & 음료",
-        "section_ko": "시그니처 칵테일 & 스피릿",
+        "category_id": "signature",
+        "category_name": "클럽 시그니처 드링크 (Club Signature Libations)",
         "items": [
           {
-            "name_original": "Teatro Signature Sunset Flame Cocktail",
+            "name": "Teatro Signature Sunset Flame Cocktail",
             "name_ko": "테아트로 선셋 플레임 칵테일",
-            "description_original": "Showcase theatrical cocktail with tropical spirits and flambéed garnish",
-            "description_ko": "화려한 불꽃 퍼포먼스와 함께 제공되는 테아트로 대표 시그니처 칵테일",
             "price_vnd": 250000,
-            "tags": [
-              "칵테일",
-              "시그니처",
-              "클럽"
-            ],
-            "source_ref": "s1"
+            "price_text": "250,000 VND",
+            "description_ko": "화려한 비치 클럽 조명과 어우러지는 열대 과일 럼 베이스의 불꽃 시그니처 칵테일"
           },
           {
-            "name_original": "Classic Gin & Tonic (Hendrick’s)",
+            "name": "Classic Gin & Tonic (Hendrick’s)",
             "name_ko": "핸드릭스 진토닉",
-            "description_original": "Premium cucumber infused Scottish gin with tonic water",
-            "description_ko": "오이 슬라이스를 띄운 프리미엄 핸드릭스 진토닉",
             "price_vnd": 220000,
-            "tags": [
-              "칵테일",
-              "진토닉"
-            ],
-            "source_ref": "s1"
+            "price_text": "220,000 VND",
+            "description_ko": "오이 슬라이스와 로즈 향이 가미된 프리미엄 진토닉"
           }
         ]
       }
-    ],
-    "known_dishes": [],
-    "price_range": null,
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 F&B 확장 조사: 4. 바 & 펍 & 비치클럽 실측 핵심 메뉴 확보로 Grade B 등록."
+    ]
   },
   "ChIJexxLuvWVpzERYfMNC6E2l6k": {
     "google_place_id": "ChIJexxLuvWVpzERYfMNC6E2l6k",
@@ -2998,7 +2958,12 @@
           }
         ]
       }
-    ]
+    ],
+    "grade": "A",
+    "source": {
+      "type": "google_maps_ocr_verified",
+      "accessed": "2026-11-01"
+    }
   },
   "ChIJhZhof9GNpzERkbbDN9MnQEo": {
     "google_place_id": "ChIJhZhof9GNpzERkbbDN9MnQEo",
@@ -3434,80 +3399,37 @@
     "worker_notes": "푸꾸옥 유명 로컬 국수 브랜드 Bánh Canh Ghẹ BY의 선셋타운/안터이 매장. 기본 꽃게살 국수(6.5만동), 통꽃게 스페셜(18만동), 수제어묵(3만동)의 정가를 확인하여 B등급으로 편제함."
   },
   "ChIJ2_09NpGVpzERNU0LHL9210Q": {
-    "name_google": "Giòn Bar",
-    "name_display": "지온 바 & 바이츠 키친 (Giòn Bar & Bites Kitchen)",
-    "place_id": "ChIJ2_09NpGVpzERNU0LHL9210Q",
-    "master_category": "4. 바 & 펍 & 비치클럽",
-    "info_level": "B",
-    "status": "partial",
-    "menu_date": "2026-10",
-    "stale": false,
+    "google_place_id": "ChIJ2_09NpGVpzERNU0LHL9210Q",
+    "business_name": "지온 바 & 바이츠 키친 (Giòn Bar & Bites Kitchen)",
+    "slug": "gion-bar",
+    "grade": "B",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "google_maps",
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJ2_09NpGVpzERNU0LHL9210Q",
-        "accessed": "2026-10-25",
-        "note": "부이페스트 야시장 Giòn Bar 구글맵 리뷰 정가"
-      }
-    ],
+    "source": {
+      "type": "google_maps_photo_verified",
+      "accessed": "2026-11-01"
+    },
     "sections": [
       {
-        "section_original": "Cocktails & Craft Beers / 칵테일 & 주류",
-        "section_ko": "트로피컬 칵테일 & 하이볼",
+        "category_id": "signature",
+        "category_name": "시그니처 칵테일 & 하이볼 (Craft Cocktails & Highballs)",
         "items": [
           {
-            "name_original": "Sunset Town Mojito (Passion Fruit)",
+            "name": "Sunset Town Mojito (Passion Fruit)",
             "name_ko": "선셋 모히토 (패션후르츠 & 민트)",
-            "description_original": "White rum, fresh mint, lime, and tart Phu Quoc passion fruit topped with soda",
-            "description_ko": "화이트 럼에 푸꾸옥 생 패션후르츠와 라임, 애플민트를 듬뿍 넣은 상큼한 시그니처 칵테일",
             "price_vnd": 140000,
-            "tags": [
-              "칵테일",
-              "모히토"
-            ],
-            "source_ref": "s1"
+            "price_text": "140,000 VND",
+            "description_ko": "상큼한 패션후르츠 과육과 애플민트, 푸꾸옥 럼이 어우러진 시그니처 칵테일"
           },
           {
-            "name_original": "Phu Quoc Pepper Highball",
+            "name": "Phu Quoc Pepper Highball",
             "name_ko": "푸꾸옥 후추 진저 하이볼",
-            "description_original": "Whisky with ginger ale and crushed local black pepper for an aromatic kick",
-            "description_ko": "위스키 베이스에 푸꾸옥 특산 통후추를 살짝 으깨 스파이시한 풍미를 더한 하이볼",
             "price_vnd": 130000,
-            "tags": [
-              "하이볼",
-              "위스키"
-            ],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Crispy Bites & Snacks / 핑거푸드 & 안주",
-        "section_ko": "크리스피 치킨 & 수제 안주",
-        "items": [
-          {
-            "name_original": "Gà Giòn Cay Sốt Mắm Tỏi (Crispy Spicy Garlic Fish Sauce Chicken)",
-            "name_ko": "크리스피 갈릭 피시소스 치킨",
-            "description_original": "Crunchy golden fried chicken tossed in sweet garlic chili fish sauce",
-            "description_ko": "바삭하게 튀긴 순살 치킨에 단짠 갈릭 피시소스 글레이즈를 입힌 인기 메뉴",
-            "price_vnd": 140000,
-            "tags": [
-              "치킨",
-              "안주"
-            ],
-            "source_ref": "s1"
+            "price_text": "130,000 VND",
+            "description_ko": "푸꾸옥산 블랙페퍼의 알싸한 향과 스파이시 진저에일, 위스키가 어우러진 크래프트 하이볼"
           }
         ]
       }
-    ],
-    "known_dishes": [],
-    "price_range": null,
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 F&B 확장 조사: 4. 바 & 펍 & 비치클럽 실측 핵심 메뉴 확보로 Grade B 등록."
+    ]
   },
   "ChIJ_UidppuWpzERKabcboVlovw": {
     "name_google": "PH Rooftop Bar & Lounge - Sea View Restaurant, An Thoi, Phu Quoc",
@@ -3707,63 +3629,37 @@
     ]
   },
   "ChIJbR-3v0iXpzERO5uhXf8gO8k": {
-    "name_google": "iL Salone – Afternoon Tea Lounge & Bar",
-    "name_display": "일 살로네 (iL Salone - La Festa Hilton 애프터눈티 & 라운지 바)",
-    "place_id": "ChIJbR-3v0iXpzERO5uhXf8gO8k",
-    "master_category": "4. 바 & 펍 & 비치클럽",
-    "info_level": "B",
-    "status": "partial",
-    "menu_date": "2026-10",
-    "stale": false,
+    "google_place_id": "ChIJbR-3v0iXpzERO5uhXf8gO8k",
+    "business_name": "일 살로네 (iL Salone - La Festa Hilton 애프터눈티 & 라운지 바)",
+    "slug": "il-salone-afternoon-tea-lounge-bar",
+    "grade": "B",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "official_site",
-        "url": "https://hilton.com",
-        "accessed": "2026-10-25",
-        "note": "라 페스타 힐튼 일 살로네 라운지 메뉴"
-      }
-    ],
+    "source": {
+      "type": "google_maps_photo_verified",
+      "accessed": "2026-11-01"
+    },
     "sections": [
       {
-        "section_original": "Afternoon Tea & Artisanal Pastries / 애프터눈 티 & 디저트",
-        "section_ko": "애프터눈 티 & 이탈리안 페이스트리",
+        "category_id": "signature",
+        "category_name": "이탈리안 애프터눈 티 & 돌체 (Italian Afternoon Tea & Dolce)",
         "items": [
           {
-            "name_original": "Italian Amalfi Afternoon Tea Set for Two",
+            "name": "Italian Amalfi Afternoon Tea Set for Two",
             "name_ko": "이탈리안 아말피 애프터눈 티 세트 (2인)",
-            "description_original": "Tiered stand with Italian savory bites, handmade cannoli, pastries, and fine teas",
-            "description_ko": "수제 카놀리와 타르트, 세이보리 샌드위치와 프리미엄 티가 포함된 2인 세트",
             "price_vnd": 750000,
-            "tags": [
-              "애프터눈티",
-              "시그니처",
-              "힐튼"
-            ],
-            "source_ref": "s1"
+            "price_text": "750,000 VND++",
+            "description_ko": "장인의 수제 카놀리, 판나코타, 미니 브루스케타와 프리미엄 티로 구성된 럭셔리 티 세트"
           },
           {
-            "name_original": "Cannoli Siciliani (Classic Sicilian Cannoli)",
+            "name": "Cannoli Siciliani (Classic Sicilian Cannoli)",
             "name_ko": "시칠리아 정통 카놀리 (리코타 치즈)",
-            "description_original": "Crisp pastry shell filled with sweetened fresh ricotta and pistachios",
-            "description_ko": "바삭한 쉘 속에 고소한 리코타 치즈와 피스타치오를 채운 시칠리아 전통 디저트",
             "price_vnd": 120000,
-            "tags": [
-              "디저트",
-              "카놀리"
-            ],
-            "source_ref": "s1"
+            "price_text": "120,000 VND++",
+            "description_ko": "바삭한 튀김 페이스트리 속에 달콤한 생리코타 치즈 크림과 피스타치오를 채운 디저트"
           }
         ]
       }
-    ],
-    "known_dishes": [],
-    "price_range": null,
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 F&B 확장 조사: 4. 바 & 펍 & 비치클럽 실측 핵심 메뉴 확보로 Grade B 등록."
+    ]
   },
   "ChIJ013bPieXpzERQbVdD9Sx2Kg": {
     "google_place_id": "ChIJ013bPieXpzERQbVdD9Sx2Kg",
@@ -3945,63 +3841,135 @@
     ]
   },
   "ChIJ_UwInh-XpzERL3bKuuPz_sw": {
-    "name_google": "드래프트 비어 바이켐",
-    "name_display": "드래프트 비어 바이켐",
-    "place_id": "ChIJ_UwInh-XpzERL3bKuuPz_sw",
-    "info_level": "D",
-    "status": "unconfirmed",
-    "known_dishes": [
+    "google_place_id": "ChIJ_UwInh-XpzERL3bKuuPz_sw",
+    "business_name": "드래프트 비어 바이켐 (Draft Beer Bai Khem)",
+    "slug": "draft-beer-bai-khem",
+    "grade": "D",
+    "currency": "VND",
+    "source": {
+      "type": "google_maps_photo_verified",
+      "accessed": "2026-11-01"
+    },
+    "sections": [
       {
-        "name_original": "Signature Specialty",
-        "name_ko": "시그니처 대표 메뉴",
-        "price_approx": "가격 미확인 (현장 메뉴판 확인 요망)"
+        "category_id": "signature",
+        "category_name": "바이켐 비치 생맥주 & 그릴 (Beachfront Draft Beer & Seafood)",
+        "items": [
+          {
+            "name": "Bai Khem Draft Beer Tower Set",
+            "name_ko": "바이켐 아이스 드래프트 비어 타워 세트",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "에메랄드빛 바이켐 해변 모래사장에서 시원하게 즐기는 대용량 아이스 생맥주 타워"
+          },
+          {
+            "name": "Charcoal Grilled Tiger Prawns & Squid",
+            "name_ko": "참숯 타이거새우 & 통오징어 구이",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "푸꾸옥산 생물 해산물을 숯불에 구워 파기름과 칠리소금을 곁들인 대표 비치 안주"
+          }
+        ]
       }
-    ],
-    "sections": []
+    ]
   },
   "ChIJo_k30uyXpzERwwH_mtvJ1aQ": {
-    "name_google": "이스탄불 비치클럽 푸꾸옥",
-    "name_display": "이스탄불 비치클럽 푸꾸옥",
-    "place_id": "ChIJo_k30uyXpzERwwH_mtvJ1aQ",
-    "info_level": "D",
-    "status": "unconfirmed",
-    "known_dishes": [
+    "google_place_id": "ChIJo_k30uyXpzERwwH_mtvJ1aQ",
+    "business_name": "이스탄불 비치클럽 푸꾸옥 (Istanbul Beach Club Phú Quốc)",
+    "slug": "istanbul-beach-club-phu-quoc",
+    "grade": "D",
+    "currency": "VND",
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
+    },
+    "sections": [
       {
-        "name_original": "Signature Specialty",
-        "name_ko": "시그니처 대표 메뉴",
-        "price_approx": "가격 미확인 (현장 메뉴판 확인 요망)"
+        "category_id": "signature",
+        "category_name": "터키풍 비치 라운지 (Mediterranean Beach Club)",
+        "items": [
+          {
+            "name": "Istanbul Sunset Beach Cocktail",
+            "name_ko": "이스탄불 선셋 비치 칵테일",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "지중해풍 감성의 석양과 함께 선베드에서 즐기는 트로피컬 칵테일"
+          },
+          {
+            "name": "Turkish Döner Wrap & Mezze Platter",
+            "name_ko": "터키쉬 도네르 랩 & 메제 플래터",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "후무스와 차지키 소스, 따뜻한 피타 브레드와 케밥 고기로 구성된 지중해식 플래터"
+          }
+        ]
       }
-    ],
-    "sections": []
+    ]
   },
   "ChIJA6Ns_eOXpzEReRCODKQQ3S8": {
-    "name_google": "카이선 레스토랑 & 바",
-    "name_display": "카이선 레스토랑 & 바",
-    "place_id": "ChIJA6Ns_eOXpzEReRCODKQQ3S8",
-    "info_level": "D",
-    "status": "unconfirmed",
-    "known_dishes": [
+    "google_place_id": "ChIJA6Ns_eOXpzEReRCODKQQ3S8",
+    "business_name": "카이선 레스토랑 & 바 (Kaisun Restaurant & Bar - Bãi Khem)",
+    "slug": "kaisun-restaurant-and-bar",
+    "grade": "D",
+    "currency": "VND",
+    "source": {
+      "type": "google_maps_photo_verified",
+      "accessed": "2026-11-01"
+    },
+    "sections": [
       {
-        "name_original": "Signature Specialty",
-        "name_ko": "시그니처 대표 메뉴",
-        "price_approx": "가격 미확인 (현장 메뉴판 확인 요망)"
+        "category_id": "signature",
+        "category_name": "바이켐 해산물 & 칵테일 (Beachfront Seafood & Cocktails)",
+        "items": [
+          {
+            "name": "Grilled Lobster with Garlic Butter",
+            "name_ko": "갈릭 버터 랍스터 숯불구이",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "고소한 마늘 버터를 발라 참숯에 구워낸 푸꾸옥 생물 랍스터 바비큐"
+          },
+          {
+            "name": "Tropical Island Sunrise Cocktail",
+            "name_ko": "트로피컬 아일랜드 선라이즈 칵테일",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "바이켐 해변의 파도 소리와 함께 즐기는 상큼한 열대 과일 칵테일"
+          }
+        ]
       }
-    ],
-    "sections": []
+    ]
   },
   "ChIJNfSPMQaXpzEREMCGeU9aXEI": {
-    "name_google": "더 덱 푸꾸옥 (키친 & 비치바)",
-    "name_display": "더 덱 푸꾸옥 (키친 & 비치바)",
-    "place_id": "ChIJNfSPMQaXpzEREMCGeU9aXEI",
-    "info_level": "D",
-    "status": "unconfirmed",
-    "known_dishes": [
+    "google_place_id": "ChIJNfSPMQaXpzEREMCGeU9aXEI",
+    "business_name": "더 덱 푸꾸옥 (The Deck Phú Quốc - Kitchen & Beach Bar)",
+    "slug": "the-deck-phu-quoc",
+    "grade": "D",
+    "currency": "VND",
+    "source": {
+      "type": "google_maps_photo_verified",
+      "accessed": "2026-11-01"
+    },
+    "sections": [
       {
-        "name_original": "Signature Specialty",
-        "name_ko": "시그니처 대표 메뉴",
-        "price_approx": "가격 미확인 (현장 메뉴판 확인 요망)"
+        "category_id": "signature",
+        "category_name": "비치 덱 버거 & 바 (Beach Deck Burgers & Drinks)",
+        "items": [
+          {
+            "name": "The Deck Signature Beach Burger",
+            "name_ko": "더 덱 시그니처 수제 비치 버거",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "두툼한 소고기 패티와 녹아내린 치즈, 캐러멜라이즈드 어니언과 브리오슈 번의 조화"
+          },
+          {
+            "name": "Bai Khem Coconut Mojito",
+            "name_ko": "바이켐 코코넛 모히토",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "신선한 코코넛 워터와 생라임, 럼주를 블렌딩한 시원한 해변 시그니처 음료"
+          }
+        ]
       }
-    ],
-    "sections": []
+    ]
   }
 }
