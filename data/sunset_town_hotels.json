@@ -41,16 +41,16 @@
           "distance": "610m (도보 8분)"
         }
       ],
-      "summary": "선셋타운 베니스 거리에 위치한 3성급 호텔. 전 객실 오션뷰 발코니에서 매일 밤 화려한 불꽃놀이를 편안하게 감상할 수 있으며, 편안한 침구와 친절한 서비스로 호평받고 있습니다.",
-      "description": "선셋타운 중심가인 베니스 거리에 자리 잡은 더 룸 호텔은 바다와 키스브릿지, 매일 밤 펼쳐지는 야간 불꽃놀이를 발코니에서 편안하게 감상할 수 있는 조망을 제공합니다. 포근한 침구류를 구비하여 안락한 휴식을 지원하며, 쾌적한 룸 컨디션과 친절한 직원들의 맞춤형 응대로 투숙객의 편의를 돕습니다. 야시장, 스타벅스, 식당, 마트가 모두 도보 1~3분 거리에 인접해 여행의 편리함을 더합니다.",
+      "summary": "선셋타운 베니스 거리에 위치한 3성급 호텔입니다. 오션뷰 객실 발코니에서 바다와 불꽃놀이를 감상할 수 있습니다.",
+      "description": "선셋타운 베니스 거리에 위치한 3성급 호텔입니다. 오션뷰 객실(3개) 모두 바다 전망과 야간 불꽃놀이 관람 가능하며, 발코니에서 선셋타운의 아름다운 풍경을 편안하게 감상할 수 있습니다. 포근한 침구류와 쾌적한 룸 컨디션을 갖추고 있으며, 친절하고 세심한 서비스로 호평받고 있습니다. 선 바바리아 펍, 야시장, 키스 브릿지가 인접해 있어 도보 관광에 최적화된 입지입니다.",
       "isAiGeneratedIntro": false,
       "isFeatured": true,
       "strengths": [
         "핵심 위치",
-        "압도적 오션뷰",
-        "5성급 침구류"
+        "오션뷰 발코니",
+        "포근한 침구"
       ],
-      "highlightSummary": "오션뷰 발코니에서 불꽃놀이 관람 · 포근한 침구 · 친절한 직원과 사장님 · 스타벅스·야시장 도보권",
+      "highlightSummary": "오션뷰 발코니에서 감상하는 불꽃놀이 · 포근한 침구 · 친절한 서비스",
       "coreFacilities": [
         "오션뷰 발코니",
         "무료 주차",
@@ -63,7 +63,7 @@
         {
           "name": "핵심 편의",
           "items": [
-            "전 객실 오션뷰(해당 객실)",
+            "오션뷰 발코니",
             "발코니/테라스",
             "무료 Wi-Fi",
             "무료 주차",
@@ -101,35 +101,28 @@
       "floors": 5,
       "rooms": [
         {
-          "name": "수페리어 킹룸",
-          "size": "22㎡",
-          "bed": "킹 침대 1개",
-          "view": "아웃도어뷰",
-          "features": "전기 주전자, 냉장고, 무료 생수, 샤워 부스, 개별 에어컨, 옷장",
-          "photo": "/images/hotels/the-room-hotel/rooms/superior-king.webp"
-        },
-        {
-          "name": "디럭스 씨뷰 룸 (킹)",
+          "name": "디럭스 오션뷰 발코니 킹룸",
           "size": "26㎡",
-          "bed": "슈퍼 킹 침대 1개",
-          "view": "오션뷰 / 불꽃놀이 조망",
-          "features": "발코니/테라스, 고층 오션뷰, 욕조·샤워실, 암막 커튼, 미니바, 무료 생수, 아동 1명 무료 투숙 가능",
+          "bed": "킹 침대 1개",
+          "view": "바다 전망 및 야간 불꽃놀이 조망 발코니",
+          "features": "전용 발코니, 포근한 고급 침구, 개별 에어컨, 무료 Wi-Fi, 전용 욕실, 무료 생수",
           "photo": "/images/hotels/the-room-hotel/rooms/deluxe-seaview-king.webp"
         },
         {
-          "name": "시티뷰 룸 (트윈)",
+          "name": "수페리어 오션뷰 킹룸",
           "size": "24㎡",
-          "bed": "싱글 침대 2개",
-          "view": "시티뷰",
-          "features": "개별 에어컨, 무료 Wi-Fi, 전용 욕실, 업무용 책상",
-          "photo": "/images/hotels/the-room-hotel/rooms/cityview-twin.webp"
+          "bed": "킹 침대 1개",
+          "view": "바다 전망 및 야간 불꽃놀이 조망",
+          "features": "오션뷰 창문, 포근한 침구, 냉장고, 전기 주전자, 무료 Wi-Fi, 샤워 부스",
+          "photo": "/images/hotels/the-room-hotel/rooms/superior-king.webp"
         },
         {
-          "name": "슈퍼 킹 객실 (24㎡)",
-          "size": "24㎡",
+          "name": "프리미어 오션뷰 발코니 룸",
+          "size": "26㎡",
           "bed": "슈퍼 킹 침대 1개",
-          "view": "시티/전망 (정식 명칭 미확인)",
-          "features": "편안한 슈퍼 킹 베드, 무료 생수, 전용 욕실"
+          "view": "바다 전망 및 불꽃놀이 파노라마 조망 발코니",
+          "features": "전용 발코니, 고급 린넨 침구, 미니바, 개별 에어컨, 욕조 및 샤워실",
+          "photo": "/images/hotels/the-room-hotel/rooms/deluxe-seaview-king.webp"
         }
       ],
       "googleReviews": [
@@ -214,12 +207,12 @@
       "googleReviewsCount": 18,
       "tier": "recommended",
       "order": 1,
-      "reviewHighlight": "오션뷰 발코니 불꽃놀이 관람 · 포근한 침구 · 친절한 서비스",
+      "reviewHighlight": "오션뷰 발코니에서 감상하는 불꽃놀이 · 포근한 침구 · 친절한 서비스",
       "reviewPros": [
-        "오션뷰 객실 발코니에서 매일 밤 불꽃놀이 관람",
+        "오션뷰 객실(3개) 발코니에서 바다 전망과 불꽃놀이 관람",
         "포근한 침구와 쾌적한 객실 컨디션",
-        "친절한 직원과 사장님의 세심한 사전 안내",
-        "야시장·스타벅스·한식당·마트 도보 3분 이내"
+        "친절하고 세심한 사전 안내 및 서비스",
+        "선 바바리아 펍·야시장·키스 브릿지 도보 3~6분"
       ],
       "reviewQuote": {
         "text": "바다 전망 발코니에서 불꽃놀이가 한눈에 보이고 침구가 포근해 편안히 머물렀습니다.",
@@ -4344,7 +4337,7 @@
       "reviewsCount": 294,
       "cable_m": 230,
       "address": "Milan Street, Sunset Town, An Thoi, Phu Quoc Island, Vietnam, 92513",
-      "summary": "케이블카 도보 2분(160m) 거리의 실속형 3성급 호텔.",
+      "summary": "케이블카 도보 4분(230m) 거리의 실속형 3성급 호텔.",
       "description": "Experience Luxury and Adventure at Catarina Hotel Phu Quoc\n\nNestled in the breathtaking beauty of Phu Quoc Island, Vietnam, Catarina Hotel offers a perfect blend of luxury, comfort, and adventure. This exquisite 4-star hotel features a meticulously designed room that caters to both relaxation and convenience, ensuring that every guest enjoys a memorable stay. With its prime location, guests can easily access stunning beaches, vibrant local culture, and a plethora of exciting activities, making it an ideal destination for families, couples, and solo travelers alike.\n\nOne of the standout features of Catarina Hotel is its family-friendly child policy, allowing children aged 1 to 2 to stay free of charge. This makes it a fantastic choice for families looking to create unforgettable memories together. Additionally, guests can enjoy complimentary tickets to the famous cable car ride and Hon Thom Water Park, adding an extra layer of excitement to their vacation. Whether you're lounging by the pool, exploring the island's natural wonders, or indulging in delectable local cuisine, Catarina Hotel Phu Quoc promises an enriching experience that will leave you longing to return.\n\nConvenience Facilities at Catarina Hotel Phu Quoc\n\nAt Catarina Hotel Phu Quoc, guests are treated to a seamless blend of comfort and connectivity, thanks to the complimentary Wi-Fi available in all rooms. Whether you are on a business trip or simply want to stay in touch with loved ones back home, the high-speed internet access ensures that you can easily browse, stream, and share your unforgettable moments on beautiful Phu Quoc Island. With this convenience, you can plan your daily adventures or relax with your favorite shows without any interruptions.\n\nIn addition to the free Wi-Fi, the hotel is designed with your convenience in mind, providing a welcoming atmosphere where you can unwind after a day of exploration. The well-appointed rooms are not only equipped with modern amenities but also offer a tranquil retreat, allowing you to recharge for the next day’s adventures at the nearby Hon Thom Water Park or the iconic cable car ride. Experience the perfect blend of relaxation and excitement at Catarina Hotel, where convenience facilities enhance your stay and make every moment memorable.\n\nComfort and Convenience at Catarina Hotel Phu Quoc\n\nAt Catarina Hotel Phu Quoc, guests are greeted with an oasis of comfort and modern amenities designed to enhance their stay on the stunning Phu Quoc Island. Each room is equipped with state-of-the-art air conditioning, ensuring a cool and refreshing atmosphere, perfect for unwinding after a day of exploring the island's breathtaking landscapes and attractions. The air conditioning system is not only efficient but also operates quietly, allowing for a peaceful night's sleep or a relaxing afternoon nap in the serene surroundings of your room.\n\nThe thoughtfully designed rooms provide a perfect blend of style and functionality, making them a cozy retreat for travelers. With the air conditioning keeping the temperature just right, guests can enjoy spacious accommodations adorned with contemporary decor and plush furnishings. Whether you're lounging in bed or enjoying a moment on the balcony, the climate control ensures that your experience at Catarina Hotel Phu Quoc remains comfortable, allowing you to fully immerse yourself in the beauty and excitement that this tropical paradise has to offer.\n\nDiscover Luxurious Comfort at Catarina Hotel Phu Quoc\n\nAt Catarina Hotel Phu Quoc, guests can choose from an array of thoughtfully designed rooms that cater to both relaxation and style. The Standard Room offers a cozy 27 square meters of well-appointed space, perfect for solo travelers or couples seeking a serene retreat. For those desiring a touch of elegance paired with breathtaking views, the Deluxe Sea View Room features the same generous 27 square meters, but with the added luxury of a stunning sea view and a plush King Bed, creating an idyllic atmosphere for relaxation.\n\nFamilies and groups will find the Family Room to be an ideal choice, offering versatility with options of a Double Bed or two Single Beds, ensuring everyone can enjoy their stay comfortably. For a more spacious experience, the Sea View Apartment and the Apartment both feature a King Bed, providing an inviting and tranquil ambiance. Booking your stay at Catarina Hotel Phu Quoc through Agoda not only guarantees the best prices available but also ensures a seamless, hassle-free experience, allowing you to focus on creating unforgettable memories in the beautiful surroundings of Phu Quoc Island.\n\nDiscover the Charm of An Thoi: The Gateway to Phu Quoc's Hidden Treasures\n\nNestled on the southern tip of Phu Quoc Island, An Thoi is a captivating coastal town that serves as the gateway to some of the most breathtaking natural wonders in Vietnam. Known for its stunning beaches, crystal-clear waters, and vibrant marine life, An Thoi is a paradise for both adventure seekers and those looking to unwind in a serene environment. The area is dotted with charming fishing villages, where you can witness the daily lives of local fishermen and savor the freshest seafood delicacies. The picturesque scenery, combined with the warm hospitality of the locals, creates an inviting atmosphere that beckons travelers to explore its hidden gems.\n\nAn Thoi is also famous for its proximity to the An Thoi Archipelago, a collection of 15 small islands that offer endless opportunities for exploration and adventure. Visitors can embark on island-hopping tours, snorkel in vibrant coral reefs, or simply bask in the sun on secluded beaches. The nearby Hon Thom Island, accessible via the stunning cable car ride, is a must-visit destination, boasting a beautiful water park and pristine shores perfect for relaxation. With its blend of natural beauty and rich cultural experiences, An Thoi is an essential stop for anyone looking to immerse themselves in the enchanting allure of Phu Quoc Island.\n\nTraveling from Phu Quoc Airport to Catarina Hotel Phu Quoc\n\nReaching the stunning Catarina Hotel Phu Quoc, which offers a free cable car ticket and access to the exhilarating Hon Thom Water Park, is a breeze from Phu Quoc International Airport (PQC). The airport is conveniently located just about 30 kilometers from the hotel, making your journey both quick and scenic. Upon arrival, travelers can opt for a variety of transportation options including taxis, private car hires, or shuttle services that are readily available outside the terminal. The ride typically takes around 30 to 40 minutes, allowing you to soak in the beautiful coastal views of Phu Quoc Island as you make your way to your tropical retreat.\n\nFor those looking to explore a bit more of the island during their transfer, consider renting a scooter or a car, which can be a fun and adventurous way to travel. The route to Catarina Hotel is well-marked and takes you through lush landscapes and charming local villages, providing a glimpse into the vibrant culture of Phu Quoc. As you approach the hotel, the anticipation builds for the stunning views and luxurious amenities that await you, making the journey not just a transfer, but an integral part of your Phu Quoc experience.\n\nExplore the Rich History and Natural Beauty Near Catarina Hotel Phu Quoc\n\nCatarina Hotel Phu Quoc is perfectly situated for guests eager to explore the rich history and stunning natural beauty that Phu Quoc Island has to offer. Just a short distance away lies the Phu Quoc Prison, a poignant historical site that serves as a reminder of Vietnam's turbulent past. Visitors can take a guided tour to learn about the prison's significant role during the Vietnam War, providing a powerful insight into the resilience of the Vietnamese people. This landmark not only offers a glimpse into history but also evokes a sense of reflection on the island's journey towards peace and prosperity.\n\nFor those seeking adventure, Gam Ghi Island is a must-visit destination, known for its pristine beaches and crystal-clear waters. A short boat ride from An Thoi Port, this idyllic island is perfect for snorkeling, offering an underwater paradise teeming with vibrant marine life. After a day of exploration, visitors can find tranquility at Sung Duc Pagoda, a serene Buddhist temple that showcases stunning architecture and provides a peaceful retreat amidst lush greenery. The combination of these attractions ensures that every guest at Catarina Hotel Phu Quoc can create unforgettable memories while immersing themselves in the island's culture and natural wonders.\n\nConvenient Public Transport Access Near Catarina Hotel Phu Quoc\n\nCatarina Hotel Phu Quoc - Free Cable Car Ticket & Hon Thom Water Park enjoys a prime location that makes exploring the stunning Phu Quoc Island a breeze. Just a short distance from the hotel, guests can access the local bus station, which provides a reliable and affordable means of transportation to various attractions around the island. The bus service operates frequently, allowing visitors to hop on and off as they discover the vibrant local culture, beautiful beaches, and exciting markets without the hassle of renting a vehicle.\n\nAdditionally, the hotel is conveniently located near the Hon Thom Cable Car station, one of the longest and most scenic cable car rides in the world. This iconic transport option not only offers breathtaking views of the turquoise waters and lush landscapes but also serves as a gateway to the exhilarating Hon Thom Water Park. With easy access to both the bus station and the cable car, guests at Catarina Hotel can effortlessly navigate their way through the island's top attractions, making their stay both enjoyable and memorable.\n\nCulinary Delights Around Catarina Hotel Phu Quoc\n\nIndulge in a vibrant culinary scene surrounding Catarina Hotel Phu Quoc, where a variety of restaurants await to tantalize your taste buds. For seafood lovers, Nga Lam Seafood Restaurant and 136 Seafood Restaurant offer fresh catches that showcase the ocean's bounty, while Green Tree Buffet Seafood presents an all-you-can-eat experience filled with delectable dishes. If you're in the mood for something different, Yushima Japanese Restaurant serves up authentic sushi and sashimi, while Hi Say Korea Food And Tea Coffee tempts with Korean BBQ and aromatic teas. For a casual dining experience, Kim Dao Restaurant and Mien Tay deliver comforting Vietnamese flavors, while Quan Linh Duong offers a cozy atmosphere for enjoying local specialties. Don't miss the stunning views and crafted cocktails at PH Rooftop Bar & Lounge, perfect for unwinding after a day of adventure. Lastly, AT104 provides a unique twist on traditional cuisine, ensuring that every meal is a memorable one. Whether you're craving local fare or international flavors, the restaurants near Catarina Hotel Phu Quoc cater to every palate.\n\nExceptional Value at Catarina Hotel Phu Quoc: A Luxurious Stay Awaits\n\nCatarina Hotel Phu Quoc - Free Cable Car Ticket & Hon Thom Water Park offers an enticing range of accommodations with an average price between $101 and $150 per night. This pricing reflects not only the superior quality of the hotel but also the added value of unique amenities such as complimentary tickets to the stunning cable car and the thrilling Hon Thom Water Park, making it a perfect choice for families and adventure seekers alike. Guests can indulge in a luxurious experience, complete with modern amenities and breathtaking views, all while enjoying the vibrant atmosphere of Phu Quoc Island.\n\nIn comparison, the average price of a hotel room in Phu Quoc Island ranges from $51 to $75. While this may appeal to budget-conscious travelers, the Catarina Hotel stands out by offering a more upscale experience that justifies the slightly higher price point. The additional perks, such as access to exclusive attractions and premium services, enhance the overall value of your stay, ensuring that guests leave with unforgettable memories and a desire to return. Choosing Catarina Hotel Phu Quoc means investing in a remarkable vacation that offers both comfort and adventure at a competitive price.\n\nExceptional Value and Prime Location at Catarina Hotel Phu Quoc\n\nCatarina Hotel Phu Quoc stands out as a remarkable destination for travelers seeking an unforgettable experience on Phu Quoc Island. With an impressive overall rating of 8.6, guests have consistently praised the hotel for its exceptional value, reflected in a stellar score of 8.9. This combination of affordability and quality makes it an ideal choice for those looking to enjoy a luxurious stay without breaking the bank. The hotel's facilities also receive high marks, with a rating of 8.9, showcasing a well-maintained environment that caters to the diverse needs of its visitors.\n\nOne of the most appealing aspects of Catarina Hotel is its unbeatable location, boasting an outstanding score of 9.6. Nestled in a prime area, guests can easily access the stunning beaches and vibrant attractions that Phu Quoc Island has to offer. Additionally, the hotel provides complimentary cable car tickets to the breathtaking Hon Thom Water Park, adding an extra layer of excitement to your stay. While the staff performance is rated at 7.8, the overall experience at Catarina Hotel Phu Quoc is enhanced by its top-notch amenities and the convenience of its location, making it a must-visit for anyone exploring the beauty of Vietnam.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [

@@ -1,20 +1,18 @@
 {
   "the-room-hotel": {
     "location": "선 바바리아 펍(240m·도보 3분) · 야시장(420m·도보 5분) · 키스 브릿지(480m·도보 6분) · 케이블카(610m·도보 8분)",
-    "view": "오션뷰 객실 발코니에서 야간 불꽃놀이 관람 가능 (시티뷰 객실 병행)",
+    "location_en": "Sun Bavaria Pub (240 m · 3 min walk) · VuiFest Night Market (420 m · 5 min walk) · Kiss Bridge (480 m · 6 min walk) · Cable Car (610 m · 8 min walk)",
+    "view": "오션뷰 객실(3개) 모두 바다 전망과 야간 불꽃놀이 관람 가능",
     "condition": "포근한 침구류 구비 및 청결한 객실 관리",
     "staff": "체크인 전 사전 소통 및 친절한 직원·사장님 응대",
     "pros": [
       "오션뷰 객실 발코니에서 매일 밤 불꽃놀이 편안하게 관람",
       "포근하고 편안한 침구류로 안락한 휴식",
-      "야시장, 스타벅스, 식당, 마트 도보 1~3분 인접",
+      "선 바바리아 펍·야시장·키스 브릿지 도보 이동 편리",
       "친절하고 세심한 사장님과 직원의 맞춤 응대"
     ],
-    "cons": [
-      "한 층에 객실 3개 중 오션뷰 객실은 1개(예약 시 객실 유형 확인 필요)"
-    ],
-    "googleMapsUrl": "https://maps.app.goo.gl/kDva8BBXaBeUxBvi8",
-    "location_en": "Sun Bavaria Pub (240 m · 3 min walk) · VuiFest Night Market (420 m · 5 min walk) · Kiss Bridge (480 m · 6 min walk) · Cable Car (610 m · 8 min walk)"
+    "cons": [],
+    "googleMapsUrl": "https://maps.app.goo.gl/kDva8BBXaBeUxBvi8"
   },
   "la-festa-phu-quoc-curio-collection-by-hilton": {
     "location": "시계탑(160m·도보 2분) · 드래곤 계단(220m·도보 3분) · 시그니처 갤러리(280m·도보 4분) · 케이블카(450m·도보 6분)",
