@@ -2737,7 +2737,9 @@
     "google_review_count": 50,
     "gallery_urls": [
       "/covers-photo/kadhai-indian-restaurant-sunset-town-phu-quoc-1.webp",
-      "/covers-photo/kadhai-indian-restaurant-sunset-town-phu-quoc-2.webp"
+      "/covers-photo/kadhai-indian-restaurant-sunset-town-phu-quoc-2.webp",
+      "/images/businesses/kadhai-indian-restaurant-sunset-town-phu-quoc/kadhai-indian-restaurant-sunset-town-phu-quoc_menu_01.webp",
+      "/images/businesses/kadhai-indian-restaurant-sunset-town-phu-quoc/kadhai-indian-restaurant-sunset-town-phu-quoc_menu_02.webp"
     ],
     "tags": [
       "international",
@@ -3282,7 +3284,9 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/pho-thin-phu-quoc-top-3-pho-hot-pot/pho-thin-phu-quoc-top-3-pho-hot-pot_menu_01.webp"
+    ],
     "tags": [
       "vietnamese",
       "Sunset Town"
@@ -3382,7 +3386,8 @@
     "gallery_urls": [
       "/covers-photo/caveman-smoked-ribs-craft-beer-1.webp",
       "/covers-photo/caveman-smoked-ribs-craft-beer-2.webp",
-      "/covers-photo/caveman-smoked-ribs-craft-beer-3.webp"
+      "/covers-photo/caveman-smoked-ribs-craft-beer-3.webp",
+      "/images/businesses/caveman-smoked-ribs-craft-beer/caveman-smoked-ribs-craft-beer_menu_01.webp"
     ],
     "tags": [
       "restaurant",
@@ -4700,7 +4705,9 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/cafe-green-sunset-town/cafe-green-sunset-town_menu_01.webp"
+    ],
     "tags": [
       "cafe",
       "Sunset Town"

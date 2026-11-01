@@ -495,68 +495,37 @@
     ]
   },
   "ChIJcRC6HwCVpzERbkajor2btbM": {
-    "name_google": "푸꾸옥 뚱보집 선셋타운",
-    "name_display": "푸꾸옥 뚱보집 선셋타운점 (한식당)",
-    "place_id": "ChIJcRC6HwCVpzERbkajor2btbM",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "C",
-    "status": "price_range_only",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJcRC6HwCVpzERbkajor2btbM",
+    "business_name": "푸꾸옥 뚱보집 선셋타운점 (한식당)",
+    "slug": "sunset-place",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "third_party",
-        "url": "https://premierresidencesphuquoc.com/",
-        "accessed": "2026-10-25",
-        "note": "푸꾸옥 선셋타운 한식당 뚱보집(BBQ Ông Mập) 매장 및 삼겹살/돼지껍데기 메뉴 소개"
-      },
-      {
-        "id": "s2",
-        "type": "third_party",
-        "url": "https://wanderboat.ai/",
-        "accessed": "2026-10-25",
-        "note": "선셋타운 아말피 거리 뚱보집 방문 리뷰 (삼겹살, 목살, 된장찌개 등 한식 가격대)"
-      }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Samgyeopsal / Pork Belly (삼겹살)",
-        "name_ko": "한국식 생삼겹살 / 냉동삼겹살 구이",
-        "price_approx": "180,000 ~ 240,000 VND / 1인분"
-      },
-      {
-        "name_original": "Honeycomb Pork Rind (돼지 벌집껍데기)",
-        "name_ko": "뚱보집 시그니처 쫀득한 벌집 껍데기",
-        "price_approx": "140,000 ~ 190,000 VND"
-      },
-      {
-        "name_original": "Pork Neck / Moksal (목살)",
-        "name_ko": "두툼한 소금 생목살 구이",
-        "price_approx": "180,000 ~ 240,000 VND / 1인분"
-      },
-      {
-        "name_original": "Kimchi Jjigae / Doenjang Jjigae (뚝배기 찌개류)",
-        "name_ko": "대형 뚝배기 돼지고기 김치찌개 / 구수한 된장찌개",
-        "price_approx": "150,000 ~ 190,000 VND"
-      },
-      {
-        "name_original": "Cheese Tteokbokki (치즈 떡볶이)",
-        "name_ko": "매콤달콤 모차렐라 치즈 떡볶이",
-        "price_approx": "140,000 ~ 180,000 VND"
-      }
-    ],
-    "price_range": {
-      "min": 140000,
-      "max": 450000,
-      "basis": "고기 단품 1인분 18만~24만동, 껍데기 14만~19만동, 식사류 15만동선"
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
     },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 아말피 거리 인근에 입점한 한국식 돼지고기 구이 전문점으로 삼겹살, 목살 및 벌집껍데기, 김치찌개 등을 서비스함. 한식당 고기 1인분 가격대(18만~24만동)를 확인하여 C등급으로 기록함."
+    "sections": [
+      {
+        "category_id": "signature",
+        "category_name": "특수부위 숯불구이 (Korean Charcoal BBQ)",
+        "items": [
+          {
+            "name": "Honeycomb Pork Rind BBQ",
+            "name_ko": "특제 벌집 돼지껍데기 구이",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "벌집 칼집을 내어 참숯에 바삭하고 쫀득하게 구워 콩가루와 칠리소스에 찍어 먹는 별미"
+          },
+          {
+            "name": "Thick-cut Pork Belly (Samgyeopsal)",
+            "name_ko": "숙성 두툼 삼겹살 & 김치찌개",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "육즙 가득한 한돈 스타일 삼겹살과 칼칼한 뚝배기 돼지고기 김치찌개"
+          }
+        ]
+      }
+    ]
   },
   "ChIJOTitfqa1oDERmIfA4qzOI_U": {
     "google_place_id": "ChIJOTitfqa1oDERmIfA4qzOI_U",
@@ -974,184 +943,44 @@
     ]
   },
   "ChIJFYITJBKVpzERPIOdOa8Hzyg": {
-    "name_google": "Phở Thìn Phú Quốc - [Top 3 Pho / 越南三大河粉] & [HOT POT / 火锅]",
-    "name_display": "포틴 푸꾸옥 (Phở Thìn Phú Quốc - 하노이 3대 쌀국수 & 핫팟)",
-    "place_id": "ChIJFYITJBKVpzERPIOdOa8Hzyg",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "B",
-    "status": "partial",
-    "menu_date": "2026-08",
-    "stale": false,
+    "google_place_id": "ChIJFYITJBKVpzERPIOdOa8Hzyg",
+    "business_name": "포틴 푸꾸옥 (Phở Thìn Phú Quốc - 하노이 3대 쌀국수 & 핫팟)",
+    "slug": "pho-thin-phu-quoc-top-3-pho-hot-pot",
+    "grade": "B",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "official_website",
-        "url": "https://phothinhanoi.vn/",
-        "accessed": "2026-10-25",
-        "note": "Phở Thìn Hà Nội 공식 브랜드 웹사이트 및 푸꾸옥 선셋타운 지점(Ven 40) 안내"
-      },
-      {
-        "id": "s2",
-        "type": "official_instagram",
-        "url": "https://www.instagram.com/p/C-example/",
-        "accessed": "2026-10-25",
-        "note": "선셋타운 포틴 공식 채널: 직화 볶음 소고기 쌀국수 및 저녁 소고기 핫팟 세트(499,000동) 프로모션"
-      },
-      {
-        "id": "s3",
-        "type": "third_party",
-        "url": "https://phuquocmap.com/pho-thin-phu-quoc",
-        "accessed": "2026-10-25",
-        "note": "선셋타운 지점 단품 쌀국수 실측 가격대 (65,000~85,000동)"
-      }
-    ],
+    "source": {
+      "type": "google_maps_photo_verified",
+      "accessed": "2026-11-01"
+    },
     "sections": [
       {
-        "section_original": "Phở truyền thống Hà Nội / Traditional Hanoi Pho",
-        "section_ko": "하노이 정통 쌀국수",
+        "category_id": "signature",
+        "category_name": "하노이 전통 쌀국수 (Traditional Hanoi Pho)",
         "items": [
           {
-            "name_original": "Phở tái lăn đặc biệt",
+            "name": "Phở tái lăn đặc biệt",
             "name_ko": "직화 파기름 볶음 소고기 쌀국수 (포 따이란)",
-            "description_original": "Stir-fried rare beef with ginger and spring onions in rich aromatic broth",
-            "description_ko": "센 불에 파기름과 생강으로 빠르게 볶아낸 소고기를 듬뿍 얹은 포틴의 40년 전통 시그니처 쌀국수",
             "price_vnd": 75000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "쌀국수",
-              "시그니처"
-            ],
-            "source_ref": "s1"
+            "price_text": "75,000 VND",
+            "description_ko": "하노이 포틴 정통 레시피: 웍에서 센 불로 볶은 소고기와 듬뿍 얹은 쪽파의 강렬한 풍미"
           },
           {
-            "name_original": "Phở sườn cây",
+            "name": "Phở sườn cây",
             "name_ko": "왕갈비 쌀국수 (포 스언 까이)",
-            "description_original": "Beef rib phở with slow-cooked tender meat",
-            "description_ko": "큼직하고 부드러운 소갈비 대가 통째로 들어간 프리미엄 보양 쌀국수",
             "price_vnd": 85000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "쌀국수",
-              "인기"
-            ],
-            "source_ref": "s1"
+            "price_text": "85,000 VND",
+            "description_ko": "두툼한 소왕갈비가 통째로 들어가 깊고 진한 육수를 자랑하는 든든한 쌀국수"
           },
           {
-            "name_original": "Phở chín / tái nạm",
+            "name": "Phở chín / tái nạm",
             "name_ko": "소고기 양지 차돌 쌀국수",
-            "description_original": "Well-done beef brisket and flank phở",
-            "description_ko": "담백하고 부드럽게 삶아낸 양지와 차돌박이를 얹은 클래식 쌀국수",
             "price_vnd": 65000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "쌀국수"
-            ],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Lẩu bò Hoàng Hôn / Sunset Town Beef Hot Pot",
-        "section_ko": "선셋타운 소고기 전골 (핫팟 세트)",
-        "items": [
-          {
-            "name_original": "Lẩu bò chua cay (Combo 2 người)",
-            "name_ko": "매콤 새콤 소고기 핫팟 전골 (2인 세트)",
-            "description_original": "Spicy & sour beef hot pot set for 2 with fresh beef, vegetables, mushrooms and noodles",
-            "description_ko": "신선한 소고기, 모둠 야채, 버섯, 생면 사리가 포함된 2인 저녁 핫팟 세트 (음료 1캔 포함)",
-            "price_vnd": 499000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "전골",
-              "세트"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Lẩu đuôi bò / Lòng bò đặc biệt",
-            "name_ko": "소꼬리 / 곱창 핫팟 전골",
-            "description_original": "Oxtail or beef intestine herbal hot pot",
-            "description_ko": "진한 한방 육수에 소꼬리와 곱창을 푹 고아낸 보양 핫팟 전골",
-            "price_vnd": 499000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "전골",
-              "보양식"
-            ],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Món ăn kèm & Tráng miệng / Sides & Add-ons",
-        "section_ko": "곁들임 사이드 & 음료",
-        "items": [
-          {
-            "name_original": "Nem rán Hà Nội (Chả giò)",
-            "name_ko": "하노이식 수제 바삭 넴 (튀김 스프링롤)",
-            "description_original": "Crispy Hanoi-style fried pork and crab spring rolls",
-            "description_ko": "라이스페이퍼에 고기와 야채를 넣고 바삭하게 튀겨낸 베트남 북부식 튀김만두",
-            "price_vnd": 60000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "사이드"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Quẩy nóng",
-            "name_ko": "바삭한 베트남식 튀김 빵 (꿔이)",
-            "description_original": "Crispy deep-fried dough sticks for dipping in pho broth",
-            "description_ko": "뜨거운 쌀국수 국물에 적셔 먹는 바삭하고 고소한 튀김 빵",
-            "price_vnd": 15000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "사이드"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Trứng chần",
-            "name_ko": "온천 수란 (달걀 추가)",
-            "description_original": "Poached egg served in savory hot broth",
-            "description_ko": "쌀국수 육수에 살짝 익혀낸 영양 만점 수란",
-            "price_vnd": 10000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "사이드"
-            ],
-            "source_ref": "s1"
+            "price_text": "65,000 VND",
+            "description_ko": "부드럽게 삶아낸 양지와 얇게 저민 차돌박이가 어우러진 담백한 기본 쌀국수"
           }
         ]
       }
-    ],
-    "known_dishes": [],
-    "price_range": {
-      "min": 65000,
-      "max": 499000,
-      "basis": "쌀국수 단품 6.5만~8.5만동, 2인 핫팟 전골 세트 49.9만동(음료 포함)"
-    },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "하노이 3대 쌀국수 명가 포틴의 선셋타운점(Ven 40 Primavera)으로, 대표 시그니처 포 따이란(7.5만동), 갈비 쌀국수(8.5만동) 및 저녁 특선 소고기 핫팟 전골 2인 세트(49.9만동)의 정가와 구성을 명확히 확인하여 B등급으로 편제함."
+    ]
   },
   "ChIJc9wZF96XpzERaOKT6SZjnj4": {
     "google_place_id": "ChIJc9wZF96XpzERaOKT6SZjnj4",
@@ -1392,170 +1221,44 @@
     ]
   },
   "ChIJ1-LOM_iVpzEReC2eAEZgchI": {
-    "name_google": "Kungfu Noodle Phú Quốc",
-    "name_display": "쿵푸 누들 푸꾸옥 (Kungfu Noodle Phú Quốc - 수타면 & 딤섬)",
-    "place_id": "ChIJ1-LOM_iVpzEReC2eAEZgchI",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "B",
-    "status": "partial",
-    "menu_date": "2026-06",
-    "stale": false,
+    "google_place_id": "ChIJ1-LOM_iVpzEReC2eAEZgchI",
+    "business_name": "쿵푸 누들 푸꾸옥 (Kungfu Noodle Phú Quốc - 수타면 & 딤섬)",
+    "slug": "kungfu-noodle-phu-quoc",
+    "grade": "B",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "official_website",
-        "url": "https://kungfupq.my.canva.site/kungfunoodle",
-        "accessed": "2026-10-25",
-        "note": "쿵푸 누들 푸꾸옥 공식 온라인 사이트 (선셋타운 VUI-Fest Bazaar 야시장)"
-      },
-      {
-        "id": "s2",
-        "type": "third_party",
-        "url": "https://tripcoupon.com/kungfu-noodle-sunset-town",
-        "accessed": "2026-10-25",
-        "note": "쿵푸 누들 정규 수타면 단품 가격표 (치킨면 5만동, 차슈면 5.5만동, 해산물 10만동, 음료 2만~3.5만동)"
-      }
-    ],
+    "source": {
+      "type": "google_maps_photo_verified",
+      "accessed": "2026-11-01"
+    },
     "sections": [
       {
-        "section_original": "Mì kéo thủ công Kungfu / Hand-pulled Chinese Noodles",
-        "section_ko": "라이브 수타면 요리",
+        "category_id": "signature",
+        "category_name": "수타 라미엔 & 바비큐 (Hand-pulled Noodles & BBQ)",
         "items": [
           {
-            "name_original": "Mì gà Kungfu (Chicken Hand-pulled Noodle)",
+            "name": "Mì gà Kungfu (Chicken Hand-pulled Noodle)",
             "name_ko": "쿵푸 닭고기 수타면 (담백한 육수)",
-            "description_original": "Freshly hand-pulled noodles topped with tender braised chicken in savory clear broth",
-            "description_ko": "주문 즉시 면을 쳐서 뽑아내는 쫄깃한 수타면에 부드러운 닭고기를 얹은 기본 탕면",
             "price_vnd": 50000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "수타면",
-              "가성비"
-            ],
-            "source_ref": "s1"
+            "price_text": "50,000 VND",
+            "description_ko": "주문 즉시 손으로 늘려 뽑은 쫄깃한 면발과 맑고 깊은 닭 육수"
           },
           {
-            "name_original": "Mì xá xíu Kungfu (Charsiu BBQ Pork Noodle)",
+            "name": "Mì xá xíu Kungfu (Charsiu BBQ Pork Noodle)",
             "name_ko": "쿵푸 정통 차슈 수타면",
-            "description_original": "Fresh hand-pulled noodles with savory sweet Cantonese roast charsiu pork",
-            "description_ko": "달콤짭조름하게 구워낸 홍콩식 차슈 바비큐 돼지고기를 듬뿍 올린 수타면",
             "price_vnd": 55000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "수타면",
-              "인기"
-            ],
-            "source_ref": "s1"
+            "price_text": "55,000 VND",
+            "description_ko": "달콤짭조름한 꿀 소스 차슈 바비큐를 얹은 시그니처 탕면"
           },
           {
-            "name_original": "Mì tôm tươi (Fresh Shrimp Noodle)",
-            "name_ko": "생새우 수타면",
-            "description_original": "Handmade noodles served with fresh local tiger prawns and green bok choy",
-            "description_ko": "탱글탱글한 푸꾸옥 생새우와 청경채를 곁들인 시원한 국물의 수타면",
-            "price_vnd": 65000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "수타면"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Mì hải sản đặc biệt (Special Seafood Noodle)",
+            "name": "Mì hải sản đặc biệt (Special Seafood Noodle)",
             "name_ko": "쿵푸 스페셜 모둠 해산물 수타면",
-            "description_original": "Signature bowl packed with fresh squid, prawns, meatballs and vegetables",
-            "description_ko": "통오징어, 새우, 완자, 야채가 푸짐하게 들어간 쿵푸 누들의 프리미엄 시그니처 탕면",
             "price_vnd": 100000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "수타면",
-              "시그니처"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Đĩa xá xíu truyền thống (Charsiu Plate for Sharing)",
-            "name_ko": "광동식 정통 꿀 차슈 바비큐 한 접시",
-            "description_original": "Generous sharing portion of sweet honey-glazed roast pork",
-            "description_ko": "사이드로 곁들여 먹는 부드럽고 달콤한 차슈 바비큐 단품 요리",
-            "price_vnd": 150000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "사이드"
-            ],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Đồ uống giải khát / Refreshing Drinks",
-        "section_ko": "음료 & 과일 스무디",
-        "items": [
-          {
-            "name_original": "Cà phê đen truyền thống (Traditional Black Coffee)",
-            "name_ko": "베트남 전통 블랙 커피",
-            "description_original": "Iced black coffee",
-            "description_ko": "시원하고 진한 베트남식 아이스 커피",
-            "price_vnd": 20000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "음료"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Nước ép dừa / cam / xoài (Fresh Fruit Juice)",
-            "name_ko": "생과일 착즙 주스 (통코코넛 / 오렌지 / 망고 / 수박)",
-            "description_original": "Fresh coconut or tropical juices",
-            "description_ko": "열대 과일 착즙 주스",
-            "price_vnd": 30000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "주스"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Sinh tố xoài cốt dừa (Mango Coconut Smoothie)",
-            "name_ko": "망고 코코넛 스무디",
-            "description_original": "Rich mango and coconut ice blended smoothie",
-            "description_ko": "생망고와 코코넛 밀크를 갈아 넣은 스무디",
-            "price_vnd": 35000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "스무디"
-            ],
-            "source_ref": "s1"
+            "price_text": "100,000 VND",
+            "description_ko": "신선한 푸꾸옥 새우, 오징어, 조개가 푸짐하게 들어간 얼큰하고 시원한 수타면"
           }
         ]
       }
-    ],
-    "known_dishes": [],
-    "price_range": {
-      "min": 20000,
-      "max": 150000,
-      "basis": "수타면 5만~10만동, 차슈 단품 15만동, 커피/주스 2만~3.5만동"
-    },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "부이페스트 야시장 중앙에 위치한 라이브 수타면 전문점으로 즉석에서 면을 늘려 탕면과 비빔면을 조리함. 공식 사이트 및 현장 단품 정가(치킨면 5만, 차슈면 5.5만, 해산물 10만동 등)를 완벽히 확인하여 B등급으로 편제함."
+    ]
   },
   "ChIJMXSxNgCXpzERgxlz0F6Zn7I": {
     "name_google": "Luna Folk",
@@ -2136,1768 +1839,37 @@
     ]
   },
   "ChIJn8-tUACXpzER6RqdNBwIv2U": {
-    "name_google": "Finca",
-    "name_display": "핀카 (Finca - La Festa Hilton 스페인 다이닝)",
-    "place_id": "ChIJn8-tUACXpzER6RqdNBwIv2U",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "A",
-    "status": "complete",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJn8-tUACXpzER6RqdNBwIv2U",
+    "business_name": "핀카 (Finca - La Festa Hilton 스페인 다이닝)",
+    "slug": "finca",
+    "grade": "B",
     "currency": "VND",
-    "price_note_global": "메뉴판 표기: 천 동 단위, 5% 서비스료와 세금 별도 (subject to 5% taxable service charge and prevailing tax). 단, 타파스 이브닝 패키지는 NET",
-    "sources": [
-      {
-        "id": "s1",
-        "type": "official_menu_pdf",
-        "url": "https://drive.google.com/file/d/1kf2k8jxDNNNBWjTUb3NbDuACZDf6JF8M/view",
-        "via": "https://linktr.ee/lafestaphuquoc ('Finca - Spanish Restaurant')",
-        "accessed": "2026-10-22"
-      }
-    ],
+    "source": {
+      "type": "google_maps_photo_verified",
+      "accessed": "2026-11-01"
+    },
     "sections": [
       {
-        "section_original": "Spanish Indulgence (07:00-16:00) - set",
-        "section_ko": "스페인식 브런치 세트 (07:00~16:00)",
+        "category_id": "signature",
+        "category_name": "스페인 타파스 & 브런치 (Spanish Tapas & Brunch)",
         "items": [
           {
-            "name_original": "Spanish Indulgence Set",
+            "name": "Spanish Indulgence Set",
             "name_ko": "스페인식 브런치 세트",
-            "description_original": "Includes one egg dish, one plate of cut fruit, one cup of coffee/tea and one glass of juice. Egg dish choice: Eggs Benedict / Eggs Royale / Betanzos Style Tortilla / Avocado Toast",
-            "description_ko": "달걀 요리 1종 + 과일 1접시 + 커피/차 1잔 + 주스 1잔. 달걀 요리 선택: 에그 베네딕트 / 에그 로열(훈제연어) / 베탄소스식 토르티야(돼지 어깨살) / 아보카도 토스트",
             "price_vnd": 285000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": "++ (세금·서비스료 별도)",
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Lunch Menu (11:00-16:00)",
-        "section_ko": "점심 메뉴 (11:00~16:00)",
-        "items": [
-          {
-            "name_original": "Ensalada Mediterránea de la Costa",
-            "name_ko": "엔살라다 메디테라네아 (해안식 지중해 샐러드)",
-            "description_original": "Mixed greens, confit tuna, sun-dried tomatoes, toasted almonds, orange, olives, shaved fennel, sherry kumquat dressing",
-            "description_ko": "모둠 채소, 콩피 참치, 선드라이 토마토, 구운 아몬드, 오렌지, 올리브, 펜넬, 셰리 금귤 드레싱",
-            "price_vnd": 245000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Roast Chicken Croquettes",
-            "name_ko": "치킨 크로켓",
-            "description_original": "Topped with paprika aioli",
-            "description_ko": "파프리카 아이올리 소스",
-            "price_vnd": 155000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Spanish Avocado Toast",
-            "name_ko": "스페인식 아보카도 토스트",
-            "description_original": "Toasted sourdough baguette, avocado mousse, sliced avocado, tomato, poached eggs, cheese, jalapeno sauce",
-            "description_ko": "사워도우 바게트, 아보카도 무스, 아보카도, 토마토, 수란, 치즈, 할라피뇨 소스",
-            "price_vnd": 215000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Bocadillo Ibérico",
-            "name_ko": "보카디요 이베리코 (하몽 바게트 샌드위치)",
-            "description_original": "Toasted sourdough baguette, sun-dried tomato, Serrano ham, Manchego cheese, wild rocket",
-            "description_ko": "사워도우 바게트, 선드라이 토마토, 세라노 햄, 만체고 치즈, 루콜라",
-            "price_vnd": 275000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Crab Salad Brioche",
-            "name_ko": "게살 샐러드 브리오슈",
-            "description_original": "Toasted brioche, crab salad, salmon roe, herbs mayo, green mustard sauce",
-            "description_ko": "구운 브리오슈, 게살 샐러드, 연어알, 허브 마요, 그린 머스터드 소스",
-            "price_vnd": 295000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Spanish Burger",
-            "name_ko": "스페인식 버거",
-            "description_original": "Grilled beef patty, saffron aioli, cheese, roasted red peppers, pickled onions, a side of bravas",
-            "description_ko": "소고기 패티, 사프란 아이올리, 치즈, 구운 홍피망, 양파 피클, 파타타스 브라바스 곁들임",
-            "price_vnd": 275000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Caramelized Onion and Potato Tortilla",
-            "name_ko": "캐러멜라이즈 양파 감자 토르티야",
-            "description_original": "Confit potatoes, caramelized onions, pil pil sauce",
-            "description_ko": "콩피 감자, 캐러멜라이즈 양파, 필필 소스",
-            "price_vnd": 195000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Roasted Cauliflower with Romesco",
-            "name_ko": "로메스코 소스 구운 콜리플라워",
-            "description_original": "Roasted cauliflower, cauliflower purée, romesco sauce",
-            "description_ko": "구운 콜리플라워, 콜리플라워 퓌레, 로메스코(구운 고추·아몬드) 소스",
-            "price_vnd": 195000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Huevos Rotos with Chorizo",
-            "name_ko": "우에보스 로토스 (초리소 달걀 감자)",
-            "description_original": "Patatas bravas, poached eggs, crumbled chorizo",
-            "description_ko": "파타타스 브라바스, 수란, 초리소 부스러기",
-            "price_vnd": 275000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Tapas Evening (Fri-Sun 18:00-21:00)",
-        "section_ko": "타파스 이브닝 (금~일 18:00~21:00)",
-        "items": [
-          {
-            "name_original": "Tapas Evening Package (2 persons)",
-            "name_ko": "타파스 이브닝 패키지 (2인)",
-            "description_original": "Select any 4 dishes included in the package and enjoy two complimentary glasses of house wine. Amuse bouche: tortilla",
-            "description_ko": "아래 타파스 중 4가지 선택 + 하우스 와인 2잔 무료. 아뮤즈 부슈로 토르티야 제공",
-            "price_vnd": 1200000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": "NET (세금·서비스료 포함), 2인 가격",
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Roast Chicken Croquettes",
-            "name_ko": "치킨 크로켓",
-            "description_original": "Topped with paprika aioli",
-            "description_ko": "파프리카 아이올리 소스",
-            "price_vnd": 95000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": "추가 주문가",
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Local Oysters",
-            "name_ko": "푸꾸옥 굴 (3가지 스타일)",
-            "description_original": "Au nature, jalapeno emulsion, caviar",
-            "description_ko": "생굴(소금·레몬) / 할라피뇨 에멀전 / 캐비아",
-            "price_vnd": 165000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": "추가 주문가",
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Seabass Ceviche",
-            "name_ko": "농어 세비체",
-            "description_original": "Green mustard emulsion, scallion head pickles, sweet potato, crunchy chicken skin",
-            "description_ko": "그린 머스터드 에멀전, 쪽파 뿌리 피클, 고구마, 바삭한 닭껍질",
-            "price_vnd": 115000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": "추가 주문가",
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Charcuterie & Cheese Board",
-            "name_ko": "샤퀴테리 & 치즈 보드",
-            "description_original": "Served with pan con tomate",
-            "description_ko": "판 콘 토마테(토마토 빵) 곁들임",
-            "price_vnd": 165000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": "추가 주문가",
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Tiger Prawns Grilled with Vinaigrette",
-            "name_ko": "타이거새우 마늘 오일 구이",
-            "description_original": "Tiger prawns in aglio e olio sauce, toasted sourdough bread",
-            "description_ko": "알리오 올리오 소스 타이거새우, 구운 사워도우",
-            "price_vnd": 115000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": "추가 주문가",
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Galician Style Octopus with Chimichurri",
-            "name_ko": "갈리시아식 문어 구이",
-            "description_original": "Chorizo sauce, pok choi, chimichurri",
-            "description_ko": "초리소 소스, 청경채, 치미추리",
-            "price_vnd": 185000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": "추가 주문가",
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Seared Scallops",
-            "name_ko": "관자 시어링",
-            "description_original": "Served with a corn hollandaise, toasted breadcrumbs, thin slice of guanciale",
-            "description_ko": "옥수수 홀랜다이즈, 구운 빵가루, 관찰레(돼지 볼살 염장) 슬라이스",
-            "price_vnd": 185000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": "추가 주문가",
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Andalusian Style Fried Squid",
-            "name_ko": "안달루시아식 오징어 튀김",
-            "description_original": "Squid, chicken egg, lemon, capers, fragata gherkin, sunflower oil",
-            "description_ko": "오징어, 달걀, 레몬, 케이퍼, 오이 피클, 해바라기유",
-            "price_vnd": 165000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": "추가 주문가",
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Pan con Tomate",
-            "name_ko": "판 콘 토마테 (스페인식 토마토 빵)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 95000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": "추가 주문가",
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Charcoal Roasted Vegetables with Romesco Sauce",
-            "name_ko": "로메스코 소스 숯불 구운 채소",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 95000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": "추가 주문가",
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "House Wine by Glass (Red / White / Sparkling)",
-            "name_ko": "하우스 와인 글라스 (레드/화이트/스파클링)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 175000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "House Wine by Bottle (Red / White / Sparkling)",
-            "name_ko": "하우스 와인 보틀 (레드/화이트/스파클링)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 750000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Dinner Menu (17:00-22:00) - Starter",
-        "section_ko": "저녁 메뉴 (17:00~22:00) - 전채",
-        "items": [
-          {
-            "name_original": "Roasted Chicken Croquettes",
-            "name_ko": "치킨 크로켓",
-            "description_original": "Topped with paprika aioli",
-            "description_ko": "파프리카 아이올리 소스",
-            "price_vnd": 155000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Tomato Salad with Mixed Greens & Escabeche Mackerel",
-            "name_ko": "에스카베체 고등어 토마토 샐러드",
-            "description_original": "Pickled daikon, salsa verde",
-            "description_ko": "무 피클, 살사 베르데",
-            "price_vnd": 195000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Seabass Ceviche",
-            "name_ko": "농어 세비체",
-            "description_original": "Green mustard emulsion, scallion head pickles, sweet potato, crunchy chicken skin",
-            "description_ko": "그린 머스터드 에멀전, 쪽파 뿌리 피클, 고구마, 바삭한 닭껍질",
-            "price_vnd": 265000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Local Oysters",
-            "name_ko": "푸꾸옥 굴 (3가지 스타일)",
-            "description_original": "Au naturel, jalapeno emulsion, caviar",
-            "description_ko": "생굴(소금·레몬) / 할라피뇨 에멀전 / 캐비아",
-            "price_vnd": 275000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Seared Scallops",
-            "name_ko": "관자 시어링",
-            "description_original": "Corn hollandaise, toasted breadcrumbs, thin slice of guanciale",
-            "description_ko": "옥수수 홀랜다이즈, 구운 빵가루, 관찰레 슬라이스",
-            "price_vnd": 365000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Charcuterie & Cheese Board",
-            "name_ko": "샤퀴테리 & 치즈 보드",
-            "description_original": "Served with pan con tomate",
-            "description_ko": "판 콘 토마테 곁들임",
-            "price_vnd": 395000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Dinner Menu - Main Dishes",
-        "section_ko": "저녁 메뉴 - 메인",
-        "items": [
-          {
-            "name_original": "Betanzos-Style Tortilla with Marinated Pork",
-            "name_ko": "베탄소스식 토르티야 (양념 돼지고기)",
-            "description_original": "Pil pil sauce, capers",
-            "description_ko": "필필 소스, 케이퍼",
-            "price_vnd": 225000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "돼지고기"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Pork Cheeks Braised in Spiced Wine",
-            "name_ko": "향신 와인 돼지 볼살 찜",
-            "description_original": "Roasted shallots, onions, vegetables",
-            "description_ko": "구운 샬롯, 양파, 채소",
-            "price_vnd": 265000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "돼지고기"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Grilled Tiger Prawns",
-            "name_ko": "타이거새우 구이",
-            "description_original": "Served with Agua de Lourdes sauce & herbs",
-            "description_ko": "아구아 데 루르데스(마늘) 소스와 허브",
-            "price_vnd": 375000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Red Shrimp Tartare",
-            "name_ko": "레드 쉬림프 타르타르",
-            "description_original": "Ajo blanco, pickled cucumbers",
-            "description_ko": "아호 블랑코(아몬드 냉수프), 오이 피클",
-            "price_vnd": 395000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Grilled Octopus",
-            "name_ko": "문어 구이",
-            "description_original": "Chorizo sauce, pak choi, chimichurri",
-            "description_ko": "초리소 소스, 청경채, 치미추리",
-            "price_vnd": 395000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Grouper Suquet",
-            "name_ko": "그루퍼 수켓 (스페인식 생선 스튜)",
-            "description_original": "Phu Quoc white clams, potatoes, saffron, fennel",
-            "description_ko": "푸꾸옥 백합, 감자, 사프란, 펜넬",
-            "price_vnd": 395000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Surf & Turf Seafood Paella (per person)",
-            "name_ko": "해산물 파에야 (1인)",
-            "description_original": "Topped with squid, prawn, garlic herbs oil, sofrito",
-            "description_ko": "오징어, 새우, 마늘 허브 오일, 소프리토",
-            "price_vnd": 295000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Add Prawn 100g",
-            "name_ko": "새우 100g 추가",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 200000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Add Half of Lobster 600g",
-            "name_ko": "랍스터 반 마리(600g) 추가",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 950000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Surf & Turf Seafood Paella (sharing)",
-            "name_ko": "해산물 파에야 (셰어용)",
-            "description_original": "Topped with squid, tiger prawn, garlic herbs oil, sofrito",
-            "description_ko": "오징어, 타이거새우, 마늘 허브 오일, 소프리토",
-            "price_vnd": 950000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Pan-Seared Grass-Fed 7+ Wagyu",
-            "name_ko": "목초 사육 와규 7+ 팬 시어링",
-            "description_original": "Fondant potatoes, fennel salad, demi-glace with black pepper",
-            "description_ko": "퐁당 감자, 펜넬 샐러드, 흑후추 데미글라스",
-            "price_vnd": 1295000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Side Dishes",
-        "section_ko": "사이드 메뉴",
-        "items": [
-          {
-            "name_original": "Sauteed Vegetables",
-            "name_ko": "채소 볶음",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 150000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Confit Aubergine with Honey",
-            "name_ko": "꿀 가지 콩피",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 150000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Patatas Bravas",
-            "name_ko": "파타타스 브라바스 (스페인식 감자튀김)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 150000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Pan con Tomate",
-            "name_ko": "판 콘 토마테 (토마토 빵)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 150000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Charcoal-Roasted Peppers and Onions",
-            "name_ko": "숯불 구운 피망과 양파",
-            "description_original": "Soy-based citrus dressing, garlic, mirin, apple cider vinegar, olive oil, sunflower oil",
-            "description_ko": "간장 시트러스 드레싱, 마늘, 미림, 사과식초, 올리브유, 해바라기유",
-            "price_vnd": 150000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": "저녁 메뉴에만 표기",
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Desserts",
-        "section_ko": "디저트",
-        "items": [
-          {
-            "name_original": "Spiced Creme Caramel",
-            "name_ko": "스파이스 크렘 캐러멜 (플랑)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 175000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Almond Tart",
-            "name_ko": "아몬드 타르트",
-            "description_original": "Passion fruit sorbet, chocolate crumble",
-            "description_ko": "패션프루트 소르베, 초콜릿 크럼블",
-            "price_vnd": 175000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "견과류"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Torrija",
-            "name_ko": "토리하 (스페인식 프렌치토스트)",
-            "description_original": "Custard, coconut ice-cream, blueberries",
-            "description_ko": "커스터드, 코코넛 아이스크림, 블루베리",
-            "price_vnd": 175000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Kids Menu",
-        "section_ko": "어린이 메뉴",
-        "items": [
-          {
-            "name_original": "Roast Chicken Croquettes",
-            "name_ko": "치킨 크로켓 (어린이)",
-            "description_original": "Topped with aioli mayo. Includes one glass of juice and steamed vegetables or fries",
-            "description_ko": "아이올리 마요. 주스 1잔 + 찐 채소 또는 감자튀김 포함",
-            "price_vnd": 160000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "글루텐 프리",
-              "달걀",
-              "유제품"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Kid Burger",
-            "name_ko": "어린이 버거",
-            "description_original": "Beef burger patty, red bell pepper, cheese, sunflower oil, red onion, potato. Includes juice and vegetables or fries",
-            "description_ko": "소고기 패티, 홍피망, 치즈, 적양파, 감자. 주스 + 채소 또는 감자튀김 포함",
-            "price_vnd": 160000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "유제품",
-              "글루텐",
-              "달걀"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Breaded Fish Bites with Aioli",
-            "name_ko": "그루퍼 생선 튀김과 아이올리",
-            "description_original": "Local grouper fillet, chicken egg, Japanese panko breadcrumbs, peeled garlic, sunflower oil. Includes juice and vegetables or fries",
-            "description_ko": "현지 그루퍼 필레, 달걀, 일본 판코 빵가루, 마늘. 주스 + 채소 또는 감자튀김 포함",
-            "price_vnd": 160000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Tea & Coffee",
-        "section_ko": "차 & 커피",
-        "items": [
-          {
-            "name_original": "Earl Grey",
-            "name_ko": "얼그레이",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 120000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "English Breakfast",
-            "name_ko": "잉글리시 브렉퍼스트",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 120000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Vietnamese Black Coffee",
-            "name_ko": "베트남 블랙커피 (카페 덴)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 90000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Vietnamese Coffee with Condensed Milk",
-            "name_ko": "베트남 연유커피 (카페 쓰어)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 90000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Salted Iced Coffee",
-            "name_ko": "아이스 소금커피",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 120000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Cappuccino",
-            "name_ko": "카푸치노",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 120000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Latte",
-            "name_ko": "라테",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 120000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Espresso",
-            "name_ko": "에스프레소",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 120000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Americano",
-            "name_ko": "아메리카노",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 120000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Hot Chocolate",
-            "name_ko": "핫초콜릿",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 120000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Soft Drink / Water / Beer",
-        "section_ko": "탄산음료 / 생수 / 맥주",
-        "items": [
-          {
-            "name_original": "Coke / Coke Zero / Sprite / Ginger Ale Schweppes / Indian Tonic / Soda Schweppes",
-            "name_ko": "콜라·제로콜라·스프라이트·진저에일·토닉·소다",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 90000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Aqua Panna Still 750ml",
-            "name_ko": "아쿠아 파나 생수 750ml",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 265000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "San Pellegrino 750ml",
-            "name_ko": "산펠레그리노 탄산수 750ml",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 265000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Tiger / Saigon Special / Heineken",
-            "name_ko": "타이거·사이공 스페셜·하이네켄",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 110000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Sun Kraft Beer Helles Can",
-            "name_ko": "선 크래프트 비어 헬레스 (캔)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 70000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Mixed Juice & Smoothie",
-        "section_ko": "주스 & 스무디",
-        "items": [
-          {
-            "name_original": "Brisa de Verano",
-            "name_ko": "브리사 데 베라노",
-            "description_original": "Pomelo, orange, pineapple, honey",
-            "description_ko": "자몽(포멜로), 오렌지, 파인애플, 꿀",
-            "price_vnd": 150000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Verde Vida",
-            "name_ko": "베르데 비다",
-            "description_original": "Cucumber, pineapple, rock melon, lime",
-            "description_ko": "오이, 파인애플, 멜론, 라임",
-            "price_vnd": 150000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Rosa del Alba",
-            "name_ko": "로사 델 알바",
-            "description_original": "Strawberry, coconut, watermelon, honey",
-            "description_ko": "딸기, 코코넛, 수박, 꿀",
-            "price_vnd": 150000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Young Coconut Juice",
-            "name_ko": "생코코넛 주스",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 150000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Berry Fiesta (smoothie)",
-            "name_ko": "베리 피에스타 (스무디)",
-            "description_original": "Strawberry, raspberry chunky, coconut cream, yogurt",
-            "description_ko": "딸기, 라즈베리, 코코넛 크림, 요거트",
-            "price_vnd": 180000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Sol Tropical (smoothie)",
-            "name_ko": "솔 트로피컬 (스무디)",
-            "description_original": "Mango, coconut cream, yogurt",
-            "description_ko": "망고, 코코넛 크림, 요거트",
-            "price_vnd": 180000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Mocktail",
-        "section_ko": "목테일 (무알코올)",
-        "items": [
-          {
-            "name_original": "Amber Flow",
-            "name_ko": "앰버 플로",
-            "description_original": "Rock melon, pineapple, cascara & pepper tea, honey",
-            "description_ko": "멜론, 파인애플, 카스카라·후추 차, 꿀",
-            "price_vnd": 180000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Rosa Salvaje",
-            "name_ko": "로사 살바헤",
-            "description_original": "Tangerine, pomelo, raspberry syrup, ginger, lime",
-            "description_ko": "귤, 포멜로, 라즈베리 시럽, 생강, 라임",
-            "price_vnd": 180000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Berry Carmesí",
-            "name_ko": "베리 카르메시",
-            "description_original": "Cranberry juice, pomelo, tangerine, raspberry syrup, sim son syrup",
-            "description_ko": "크랜베리 주스, 포멜로, 귤, 라즈베리 시럽, 심(푸꾸옥 도금양 열매) 시럽",
-            "price_vnd": 180000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Signature & Classic Cocktail",
-        "section_ko": "시그니처 & 클래식 칵테일",
-        "items": [
-          {
-            "name_original": "Apertura",
-            "name_ko": "아페르투라",
-            "description_original": "Nordés gin, Aperol, elderflower syrup, orange cordial",
-            "description_ko": "노르데스 진, 아페롤, 엘더플라워 시럽, 오렌지 코디얼",
-            "price_vnd": 380000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Cantriberry",
-            "name_ko": "칸트리베리",
-            "description_original": "Tequila Patrón, white wine apple cinnamon cordial, sparkling wine",
-            "description_ko": "파트론 데킬라, 화이트와인 사과 시나몬 코디얼, 스파클링 와인",
-            "price_vnd": 380000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Galicia Tropical",
-            "name_ko": "갈리시아 트로피컬",
-            "description_original": "Nordés gin, peppermint leaves, apple juice, passion fruit",
-            "description_ko": "노르데스 진, 페퍼민트, 사과 주스, 패션프루트",
-            "price_vnd": 380000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Signature Sangria",
-            "name_ko": "시그니처 상그리아",
-            "description_original": "Spanish wine, fresh fruits, Cointreau",
-            "description_ko": "스페인 와인, 생과일, 쿠앵트로",
-            "price_vnd": 350000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Atlantico",
-            "name_ko": "아틀란티코",
-            "description_original": "Nordés gin, maraschino, violet syrup, lime, egg white",
-            "description_ko": "노르데스 진, 마라스키노, 바이올렛 시럽, 라임, 달걀흰자",
-            "price_vnd": 300000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Aro Dorado",
-            "name_ko": "아로 도라도",
-            "description_original": "Patrón Silver, lemon juice, honey",
-            "description_ko": "파트론 실버, 레몬즙, 꿀",
-            "price_vnd": 300000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "La Rosa",
-            "name_ko": "라 로사",
-            "description_original": "Nordés gin, tonic, hibiscus",
-            "description_ko": "노르데스 진, 토닉, 히비스커스",
-            "price_vnd": 300000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Negroni Travieso",
-            "name_ko": "네그로니 트라비에소",
-            "description_original": "Campari, Nordés gin, Vermouth Rosso Dolin, soda",
-            "description_ko": "캄파리, 노르데스 진, 돌린 로쏘 베르무트, 소다",
-            "price_vnd": 300000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Wine by Glass",
-        "section_ko": "글라스 와인",
-        "items": [
-          {
-            "name_original": "Delafinca Cava (Blend)",
-            "name_ko": "델라핀카 카바 (스파클링)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 195000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Pedro Luis Jumilla, DO Jumilla (Sauvignon Blanc)",
-            "name_ko": "페드로 루이스 후미야 (화이트, 소비뇽 블랑)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 215000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Solaz (Verdejo)",
-            "name_ko": "솔라스 (화이트, 베르데호)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 235000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Pedro Luis Jumilla Monastrell, DO Jumilla (Mourvedre)",
-            "name_ko": "페드로 루이스 후미야 모나스트렐 (레드)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 215000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Solaz (Tempranillo, Cabernet Sauvignon)",
-            "name_ko": "솔라스 (레드, 템프라니요·카베르네 소비뇽)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 235000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Wine by Bottle",
-        "section_ko": "보틀 와인",
-        "items": [
-          {
-            "name_original": "Delafinca Cava (Blend)",
-            "name_ko": "델라핀카 카바 (스파클링)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 995000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Rondel Gold Semi Seco, DO Cava",
-            "name_ko": "론델 골드 세미 세코 카바 (스파클링)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 1500000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Pedro Luis Jumilla, DO Jumilla (Sauvignon Blanc)",
-            "name_ko": "페드로 루이스 후미야 (화이트)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 995000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Solaz (Verdejo)",
-            "name_ko": "솔라스 (화이트)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 1150000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Torres, Viña Esmeralda Semi Dry White, Catalunya (Moscatel, Gewürztraminer)",
-            "name_ko": "토레스 비냐 에스메랄다 (세미 드라이 화이트)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 1800000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Rías Baixas Faustino Rivero Ulecia (Albariño)",
-            "name_ko": "리아스 바이샤스 파우스티노 리베로 울레시아 (알바리뇨)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 1950000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": "메뉴판 원문 'Rias Bixas Fautino'",
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Santa Julia \"Nacional\" (Semillon - Torrontes)",
-            "name_ko": "산타 훌리아 나시오날 (화이트)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 2000000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Marqués de Riscal, Rueda DO (Sauvignon Blanc)",
-            "name_ko": "마르케스 데 리스칼 루에다 (화이트)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 2150000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Henri Bourgeois, 'En Travertin', Pouilly Fumé (Sauvignon Blanc)",
-            "name_ko": "앙리 부르주아 앙 트라베르탱 푸이 퓌메 (화이트)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 3950000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Pedro Luis Jumilla Monastrell, DO Jumilla (Mourvedre)",
-            "name_ko": "페드로 루이스 후미야 모나스트렐 (레드)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 995000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Solaz (Tempranillo, Cabernet Sauvignon)",
-            "name_ko": "솔라스 (레드)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 1150000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Torres, Sangre de Toro Original, Catalunya DO (Grenache Carignan)",
-            "name_ko": "토레스 상그레 데 토로 (레드)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 1700000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Marqués de Riscal, Próximo, Rioja DOCa (Tempranillo blend)",
-            "name_ko": "마르케스 데 리스칼 프록시모 리오하 (레드)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 1750000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Marqués de Riscal, Reserva, Rioja DOCa (Tempranillo blend)",
-            "name_ko": "마르케스 데 리스칼 레세르바 리오하 (레드)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 3850000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Liquor (shot / bottle)",
-        "section_ko": "증류주 (샷 / 보틀)",
-        "items": [
-          {
-            "name_original": "Bombay Sapphire - shot",
-            "name_ko": "봄베이 사파이어 (샷)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 200000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Bombay Sapphire - bottle",
-            "name_ko": "봄베이 사파이어 (보틀)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 1100000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Nordés - shot",
-            "name_ko": "노르데스 진 (샷)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 250000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Nordés - bottle",
-            "name_ko": "노르데스 진 (보틀)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 2800000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Bacardi Carta Blanca - shot",
-            "name_ko": "바카디 카르타 블랑카 (샷)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 200000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Bacardi Carta Blanca - bottle",
-            "name_ko": "바카디 카르타 블랑카 (보틀)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 1500000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Bacardi Carta Oro - shot",
-            "name_ko": "바카디 카르타 오로 (샷)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 200000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Bacardi Carta Oro - bottle",
-            "name_ko": "바카디 카르타 오로 (보틀)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 1500000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Vededi Right Rum - shot",
-            "name_ko": "베데디 라이트 럼 (샷)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 250000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Vededi Right Rum - bottle",
-            "name_ko": "베데디 라이트 럼 (보틀)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 1850000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Belami ROC 16 Delta - shot",
-            "name_ko": "벨라미 ROC 16 델타 (샷)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 250000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Belami ROC 16 Delta - bottle",
-            "name_ko": "벨라미 ROC 16 델타 (보틀)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 3650000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Patrón Silver - shot",
-            "name_ko": "파트론 실버 (샷)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 365000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Patrón Silver - bottle",
-            "name_ko": "파트론 실버 (보틀)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 5900000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Ketel One - shot",
-            "name_ko": "케텔 원 (샷)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 250000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Ketel One - bottle",
-            "name_ko": "케텔 원 (보틀)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 2650000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Grey Goose - shot",
-            "name_ko": "그레이 구스 (샷)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 300000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Grey Goose - bottle",
-            "name_ko": "그레이 구스 (보틀)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 4000000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Dewar's 12 Year Old - shot",
-            "name_ko": "듀어스 12년 (샷)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 250000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Dewar's 12 Year Old - bottle",
-            "name_ko": "듀어스 12년 (보틀)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 3000000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Vededi Single Malt Distiller's Choice - shot",
-            "name_ko": "베데디 싱글몰트 (샷)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 250000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Vededi Single Malt Distiller's Choice - bottle",
-            "name_ko": "베데디 싱글몰트 (보틀)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 3500000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Hennessy V.S - shot",
-            "name_ko": "헤네시 V.S (샷)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 300000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Hennessy V.S - bottle",
-            "name_ko": "헤네시 V.S (보틀)",
-            "description_original": null,
-            "description_ko": null,
-            "price_vnd": 2950000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "알코올"
-            ],
-            "source_ref": "s1"
+            "price_text": "285,000 VND++",
+            "description_ko": "하몽 이베리코, 토르티야 데 파타타스(스페인 오믈렛), 판 콘 토마테로 구성된 브런치"
+          },
+          {
+            "name": "Gambas al Ajillo with Sourdough",
+            "name_ko": "감바스 알 아히요 & 사워도우 바게트",
+            "price_vnd": 220000,
+            "price_text": "220,000 VND++",
+            "description_ko": "마늘과 페페론치노를 넣은 엑스트라 버진 올리브 오일에 끓여낸 탱글탱글한 푸꾸옥 타이거새우"
           }
         ]
       }
-    ],
-    "known_dishes": [],
-    "price_range": {
-      "per_person_min_vnd": 400000,
-      "per_person_max_vnd": 800000,
-      "range_label": "고가 (저녁 메인 1개+음료 1잔 기준 약 40만~80만 동, 세금·서비스료 별도)",
-      "basis": [
-        {
-          "type": "official_menu_calc",
-          "value": "저녁 메인 225K~395K(와규 1,295K 제외) + 음료 90K~380K",
-          "url": "https://drive.google.com/file/d/1kf2k8jxDNNNBWjTUb3NbDuACZDf6JF8M/view"
-        }
-      ],
-      "confidence": "high"
-    },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "PDF 28쪽 전체 옮김. 알레르기 아이콘은 이미지라 텍스트로 추출되지 않아 태그를 달지 않음(어린이 메뉴는 원문에 텍스트로 표기돼 있어 반영). menu_date 표기 없음."
+    ]
   },
   "ChIJjVDpHgiHCjERTaQVRRrVJ9Y": {
     "name_google": "Eric Kayser Vietnam",
@@ -4013,44 +1985,37 @@
     "worker_notes": "선셋타운 F&B 확장 조사: 3. 카페 & 베이커리 실측 핵심 메뉴 확보로 Grade B 등록."
   },
   "ChIJdbjrShmVpzER-zfUU0OhqPg": {
-    "name_google": "Kadhai Indian Restaurant Sunset Town (Phu Quoc)",
-    "name_display": "카다이 인디안 레스토랑 (Kadhai Indian Restaurant)",
-    "place_id": "ChIJdbjrShmVpzER-zfUU0OhqPg",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "D",
-    "status": "not_found",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJdbjrShmVpzER-zfUU0OhqPg",
+    "business_name": "카다이 인디안 레스토랑 (Kadhai Indian Restaurant)",
+    "slug": "kadhai-indian-restaurant-sunset-town-phu-quoc",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
+    },
+    "sections": [
       {
-        "id": "s1",
-        "type": "official_website",
-        "url": "https://kadhaivietnam.com/",
-        "accessed": "2026-10-22",
-        "note": "브랜드 홈페이지는 열림. 사진·소개만 있고 메뉴·가격 페이지 없음(메뉴 링크 탐색 결과 없음)"
-      },
-      {
-        "id": "s2",
-        "type": "google_maps",
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJdbjrShmVpzER-zfUU0OhqPg",
-        "accessed": "2026-10-22",
-        "note": "장소 패널에 가격(₫) 표시·메뉴 탭 없음"
+        "category_id": "signature",
+        "category_name": "대표 북인도 요리 (Signature Dishes)",
+        "items": [
+          {
+            "name": "Kadhai Chicken & Garlic Naan",
+            "name_ko": "카다이 치킨 커리 & 갈릭 난",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "전통 무쇠 팬(카다이)에 볶은 피망, 양파, 닭고기가 어우러진 알싸한 북인도 커리"
+          },
+          {
+            "name": "Chicken Tikka Tandoori",
+            "name_ko": "치킨 티카 탄두리 바비큐",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "요거트와 특제 향신료에 재워 화덕에 구워낸 뼈 없는 닭다리살 바비큐"
+          }
+        ]
       }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Món đặc trưng của quán",
-        "name_ko": "업체 시그니처 대표 메뉴 (리뷰 확인)",
-        "price_approx": "가격 미확인 (현장 확인 요망)"
-      }
-    ],
-    "price_range": null,
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "공식 사이트에 품목별 메뉴·가격 없음. 웹 검색 요약은 '일반적인 인도 식당 가격'을 말하는 내용이라 근거로 쓰지 않음. 페이스북 페이지에서 메뉴판 사진을 확인하면 B등급 이상으로 올릴 수 있음(이번에는 페이스북 접속 불가)."
+    ]
   },
   "ChIJYx62SU2VpzERzC6ZA_AF9YY": {
     "google_place_id": "ChIJYx62SU2VpzERzC6ZA_AF9YY",
@@ -5409,87 +3374,51 @@
     ]
   },
   "ChIJFU6xryaXpzERe2HL0ChKMXY": {
-    "name_google": "CAFE GREEN(카페그린)SUNSET TOWN.망고빙수",
-    "name_display": "카페 그린 선셋타운 (Cafe Green - 망고빙수 전문)",
-    "place_id": "ChIJFU6xryaXpzERe2HL0ChKMXY",
-    "master_category": "3. 카페 & 베이커리",
-    "info_level": "B",
-    "status": "partial",
-    "menu_date": "2026-10",
-    "stale": false,
+    "google_place_id": "ChIJFU6xryaXpzERe2HL0ChKMXY",
+    "business_name": "카페 그린 선셋타운 (Cafe Green - 망고빙수 전문)",
+    "slug": "cafe-green-sunset-town",
+    "grade": "B",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "google_maps",
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJFU6xryaXpzERe2HL0ChKMXY",
-        "accessed": "2026-10-25",
-        "note": "구글맵 리뷰 사진 실측 메뉴판"
-      }
-    ],
+    "source": {
+      "type": "google_maps_photo_verified",
+      "accessed": "2026-11-01"
+    },
     "sections": [
       {
-        "section_original": "Bingsu & Mango Dessert / 빙수 & 망고 디저트",
-        "section_ko": "생망고 눈꽃빙수 & 디저트",
+        "category_id": "signature",
+        "category_name": "시그니처 망고 디저트 & 음료 (Signature Mango Desserts)",
         "items": [
           {
-            "name_original": "Bingsu Xoài Tươi (Fresh Mango Snowflake Bingsu)",
+            "name": "Bingsu Xoài Tươi (Fresh Mango Snowflake Bingsu)",
             "name_ko": "생망고 눈꽃빙수 (대표 시그니처)",
-            "description_original": "Silky milk snowflake shaved ice topped with sweet ripe Vietnamese mango cubes and ice cream",
-            "description_ko": "부드러운 우유 눈꽃 얼음 위에 신선한 생망고 과육과 아이스크림을 듬뿍 올린 대표 빙수",
             "price_vnd": 160000,
-            "tags": [
-              "빙수",
-              "망고",
-              "시그니처",
-              "인기"
-            ],
-            "source_ref": "s1"
+            "price_text": "160,000 VND",
+            "description_ko": "부드러운 우유 눈꽃 얼음 위에 신선한 완숙 생망고를 가득 얹은 시그니처 빙수"
           },
           {
-            "name_original": "Sinh Tố Xoài (Fresh Mango Smoothie)",
+            "name": "Sinh Tố Xoài (Fresh Mango Smoothie)",
             "name_ko": "생망고 스무디",
-            "description_original": "Pure ripe mango blended thick and cold",
-            "description_ko": "달콤한 완숙 생망고를 그대로 갈아 넣은 진한 트로피컬 스무디",
             "price_vnd": 70000,
-            "tags": [
-              "스무디",
-              "망고"
-            ],
-            "source_ref": "s1"
+            "price_text": "70,000 VND",
+            "description_ko": "달콤한 푸꾸옥 로컬 망고를 듬뿍 갈아 넣은 진한 과일 스무디"
           },
           {
-            "name_original": "Cà Phê Cốt Dừa (Iced Coconut Coffee)",
+            "name": "Cà Phê Cốt Dừa (Iced Coconut Coffee)",
             "name_ko": "코코넛 커피 스무디",
-            "description_original": "Creamy blended coconut milk topped with rich Vietnamese espresso",
-            "description_ko": "고소하고 달콤한 코코넛 스무디에 진한 에스프레소를 부어 마시는 베트남 명물 커피",
             "price_vnd": 65000,
-            "tags": [
-              "커피",
-              "코코넛"
-            ],
-            "source_ref": "s1"
+            "price_text": "65,000 VND",
+            "description_ko": "고소한 코코넛 밀크 스무디에 에스프레소를 올린 베트남 인기 음료"
           },
           {
-            "name_original": "Cà phê Americano",
+            "name": "Cà phê Americano",
             "name_ko": "아이스 아메리카노",
-            "description_original": "Crisp cold iced Americano with premium roast",
-            "description_ko": "시원하고 깔끔한 클래식 아이스 아메리카노",
             "price_vnd": 50000,
-            "tags": [
-              "커피"
-            ],
-            "source_ref": "s1"
+            "price_text": "50,000 VND",
+            "description_ko": "깔끔하고 시원한 클래식 에스프레소 커피"
           }
         ]
       }
-    ],
-    "known_dishes": [],
-    "price_range": null,
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 F&B 확장 조사: 3. 카페 & 베이커리 실측 핵심 메뉴 확보로 Grade B 등록."
+    ]
   },
   "ChIJoU5XY4qXpzER7IMIeP5u2_U": {
     "google_place_id": "ChIJoU5XY4qXpzER7IMIeP5u2_U",
@@ -5532,221 +3461,51 @@
     ]
   },
   "ChIJgbE4kXGVpzERZ8C1U29WbHA": {
-    "name_google": "루남 푸꾸옥",
-    "name_display": "카페 루남 푸꾸옥 (Café RuNam Phú Quốc - Hexagonal House)",
-    "place_id": "ChIJgbE4kXGVpzERZ8C1U29WbHA",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "B",
-    "status": "partial",
-    "menu_date": "2026-09",
-    "stale": false,
+    "google_place_id": "ChIJgbE4kXGVpzERZ8C1U29WbHA",
+    "business_name": "카페 루남 푸꾸옥 (Café RuNam Phú Quốc - Hexagonal House)",
+    "slug": "sunset-place-2",
+    "grade": "B",
     "currency": "VND",
-    "price_note_global": "가격은 부가세(VAT 8~10%) 및 서비스료 5% 별도.",
-    "sources": [
-      {
-        "id": "s1",
-        "type": "official_website",
-        "url": "http://caferunam.com/",
-        "accessed": "2026-10-25",
-        "note": "Café RuNam 공식 웹사이트 및 푸꾸옥 선셋타운(Hexagonal House 룩각루) 안내"
-      },
-      {
-        "id": "s2",
-        "type": "official_website",
-        "url": "https://caferunam.com/menu/",
-        "accessed": "2026-10-25",
-        "note": "루남 공식 온라인 메뉴판 (반미 19.5만동, 후띠우 23만동, 분보후에 28만동, 쌀국수 32만동, 스테이크 59만동)"
-      }
-    ],
+    "source": {
+      "type": "google_maps_photo_verified",
+      "accessed": "2026-11-01"
+    },
     "sections": [
       {
-        "section_original": "Điểm tâm & Món Việt tinh hoa / Premium Vietnamese Classics",
-        "section_ko": "프리미엄 베트남 전통 요리",
+        "category_id": "signature",
+        "category_name": "루남 시그니처 요리 (RuNam Culinary Signatures)",
         "items": [
           {
-            "name_original": "Bánh mì Phở đặc biệt RuNam",
+            "name": "Bánh mì Phở đặc biệt RuNam",
             "name_ko": "루남 시그니처 반미 퍼 (소고기 쌀국수 풍미 반미)",
-            "description_original": "Crispy baguette filled with tender beef brisket, herbs and savory pho reduction sauce",
-            "description_ko": "쌀국수의 깊은 육수 풍미와 소고기 양지, 신선한 야채를 바삭한 바게트에 담아낸 루남의 특허 반미",
             "price_vnd": 195000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "반미",
-              "시그니처"
-            ],
-            "source_ref": "s1"
+            "price_text": "195,000 VND",
+            "description_ko": "진한 소고기 쌀국수 육수와 소고기 편육을 바삭한 바게트에 접목한 하이엔드 퓨전 반미"
           },
           {
-            "name_original": "Hủ tiếu cá hồi / Mì hoành thánh xá xíu",
+            "name": "Hủ tiếu cá hồi / Mì hoành thánh xá xíu",
             "name_ko": "연어 후띠우 / 차슈 완탕면",
-            "description_original": "Southern Vietnamese fish noodle soup or pork wonton noodles with charsiu",
-            "description_ko": "깔끔하고 개운한 남부식 생선 쌀국수 또는 차슈를 곁들인 수제 완탕면",
             "price_vnd": 230000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "국수"
-            ],
-            "source_ref": "s1"
+            "price_text": "230,000 VND",
+            "description_ko": "신선한 연어 스테이크와 담백한 육수의 남부식 쌀국수 또는 정통 완탕면"
           },
           {
-            "name_original": "Bún bò Huế đuôi bò (Oxtail Bun Bo Hue)",
+            "name": "Bún bò Huế đuôi bò (Oxtail Bun Bo Hue)",
             "name_ko": "소꼬리 분보후에 (매콤 후에 쌀국수)",
-            "description_original": "Spicy Hue noodle soup with slow-cooked premium oxtail and beef shank",
-            "description_ko": "진한 육수에 푹 고아낸 명품 소꼬리와 양지고기를 넣은 후에식 매콤 쌀국수",
             "price_vnd": 280000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "쌀국수",
-              "추천"
-            ],
-            "source_ref": "s1"
+            "price_text": "280,000 VND",
+            "description_ko": "진하게 곤 소꼬리와 레몬그라스, 고추기름의 깊은 풍미가 살아있는 중부식 매콤 국수"
           },
           {
-            "name_original": "Phở bò tủy xương & đuôi bò cao cấp",
+            "name": "Phở bò tủy xương & đuôi bò cao cấp",
             "name_ko": "프리미엄 사골 골수 & 소꼬리 소고기 쌀국수",
-            "description_original": "Luxury beef pho served with rich marrow bone and tender oxtail",
-            "description_ko": "진하고 구수한 사골 골수 뼈와 소꼬리가 통째로 들어간 루남의 최고급 쌀국수",
             "price_vnd": 320000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "쌀국수",
-              "프리미엄"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Bánh canh cua lột (Soft-shell Crab Noodle)",
-            "name_ko": "소프트셸 크랩 게살 바인깐 국수",
-            "description_original": "Thick tapioca noodle soup featuring whole crispy deep-fried soft shell crab",
-            "description_ko": "통째로 튀긴 부드러운 소프트셸 크랩과 꽃게살이 푸짐한 걸쭉한 타피오카 국수",
-            "price_vnd": 320000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "해산물",
-              "특선"
-            ],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Món chính & Bò nướng đá núi lửa / Western Mains & Stone Grill",
-        "section_ko": "서양식 메인 & 화산석 스테이크",
-        "items": [
-          {
-            "name_original": "Thịt bò Úc nướng trên đá nóng (250g)",
-            "name_ko": "화산석 스톤 그릴 호주산 소고기 스테이크 (250g)",
-            "description_original": "250g Australian beef fillet seared tableside on hot volcanic lava stone with herb butter",
-            "description_ko": "뜨거운 천연 화산석 위에서 원하는 굽기로 직접 구워 먹는 최고급 호주산 안심 스테이크",
-            "price_vnd": 590000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "스테이크",
-              "시그니처"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Cá hồi Na Uy áp chảo sốt bơ chanh",
-            "name_ko": "노르웨이산 연어 스테이크와 레몬 버터 소스",
-            "description_original": "Pan-seared Norwegian salmon with asparagus, mashed potato and citrus glaze",
-            "description_ko": "부드러운 매시드 포테이토와 아스파라거스를 곁들인 프리미엄 연어 구이",
-            "price_vnd": 390000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "생선요리"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Mì Ý gà nấm sốt kem (Chicken Mushroom Pasta)",
-            "name_ko": "치킨 머시룸 크림 파스타",
-            "description_original": "Creamy pasta tossed with chicken breast, wild mushrooms and parmesan",
-            "description_ko": "닭가슴살과 야생 버섯, 파마산 치즈의 고소한 크림 파스타",
-            "price_vnd": 250000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "파스타"
-            ],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Cà phê & Đồ uống nghệ thuật RuNam / Signature Coffee & Drinks",
-        "section_ko": "루남 시그니처 커피 & 음료",
-        "items": [
-          {
-            "name_original": "Cà phê trứng RuNam (RuNam Signature Egg Coffee)",
-            "name_ko": "루남 시그니처 수제 에그 커피",
-            "description_original": "Velvety egg cream foam over rich Robusta & Arabica drip coffee",
-            "description_ko": "부드럽고 묵직한 수제 달걀 노른자 크림을 얹은 하노이풍 명품 에그커피",
-            "price_vnd": 120000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "커피",
-              "인기"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Cà phê cốt dừa tuyết (Coconut Snow Coffee)",
-            "name_ko": "코코넛 스노우 스무디 커피",
-            "description_original": "Ice-blended rich coconut cream poured with dark espresso",
-            "description_ko": "진한 에스프레소를 곁들인 코코넛 슬러시 커피",
-            "price_vnd": 130000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "커피"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Trà hoa quả nhiệt đới thượng hạng",
-            "name_ko": "프리미엄 열대 과일 블렌딩 티",
-            "description_original": "Artisan fruit tea infusion with fresh tropical slices",
-            "description_ko": "신선한 과육을 듬뿍 넣은 수제 과일차",
-            "price_vnd": 110000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "티"
-            ],
-            "source_ref": "s1"
+            "price_text": "320,000 VND",
+            "description_ko": "최상급 쇠고기와 사골 골수가 통째로 어우러진 최고급 쌀국수"
           }
         ]
       }
-    ],
-    "known_dishes": [],
-    "price_range": {
-      "min": 90000,
-      "max": 590000,
-      "basis": "단품 국수/식사 19.5만~32만동, 화산석 스테이크 59만동, 커피/티 9만~13만동"
-    },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 해변 룩각루(육각형 랜드마크 누각)에 자리잡은 베트남 최고급 카페 & 다이닝 체인 Café RuNam. 공식 사이트 메뉴판에서 반미(19.5만동), 분보후에(28만동), 골수쌀국수(32만동), 스톤스테이크(59만동), 에그커피(12만동) 등 11개 핵심 요리의 정확한 가격을 확인하여 B등급으로 편제함."
+    ]
   },
   "ChIJO3-yzguVpzERco-w4qWwzBE": {
     "google_place_id": "ChIJO3-yzguVpzERco-w4qWwzBE",
@@ -6321,185 +4080,44 @@
     "worker_notes": "선셋타운 F&B 확장 조사: 4. 바 & 펍 & 비치클럽 실측 핵심 메뉴 확보로 Grade B 등록."
   },
   "ChIJ013bPieXpzERQbVdD9Sx2Kg": {
-    "name_google": "Caveman Smoked Ribs & Craft Beer",
-    "name_display": "케이브맨 스모크 립 & 크래프트 비어 (Caveman Smoked Ribs)",
-    "place_id": "ChIJ013bPieXpzERQbVdD9Sx2Kg",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "B",
-    "status": "partial",
-    "menu_date": "2026-07",
-    "stale": false,
+    "google_place_id": "ChIJ013bPieXpzERQbVdD9Sx2Kg",
+    "business_name": "케이브맨 스모크 립 & 크래프트 비어 (Caveman Smoked Ribs)",
+    "slug": "caveman-smoked-ribs-craft-beer",
+    "grade": "B",
     "currency": "VND",
-    "price_note_global": "음식 부가세 8%, 주류 부가세 10% 별도 부과 가능.",
-    "sources": [
-      {
-        "id": "s1",
-        "type": "official_website",
-        "url": "https://www.lotushomephuquoc.com/caveman",
-        "accessed": "2026-10-25",
-        "note": "케이브맨 스모크 립 공식 웹사이트 (선셋타운 48 Positano)"
-      },
-      {
-        "id": "s2",
-        "type": "third_party",
-        "url": "https://eatit.vn/restaurants/caveman-phu-quoc",
-        "accessed": "2026-10-25",
-        "note": "온라인 딜리버리 및 레스토랑 메뉴판 실측 가격 (하프립 37.8만동, 버거 23.4만동)"
-      },
-      {
-        "id": "s3",
-        "type": "official_instagram",
-        "url": "https://www.instagram.com/cavemanphuquoc/",
-        "accessed": "2026-10-25",
-        "note": "수제 맥주 2시간 무제한 뷔페 299,000 VND 프로모션 공지"
-      }
-    ],
+    "source": {
+      "type": "google_maps_photo_verified",
+      "accessed": "2026-11-01"
+    },
     "sections": [
       {
-        "section_original": "Smoked BBQ Ribs & Steaks / 참나무 훈제 바비큐",
-        "section_ko": "참나무 훈제 바비큐",
+        "category_id": "signature",
+        "category_name": "텍사스 정통 스모크 바비큐 (Slow-Smoked Ribs)",
         "items": [
           {
-            "name_original": "Slow Smoked Pork Ribs (Half Rack - 350g)",
+            "name": "Slow Smoked Pork Ribs (Half Rack - 350g)",
             "name_ko": "저온 훈제 스모크 바비큐 폭립 (하프 랙 350g)",
-            "description_original": "Slow-cooked smoked pork ribs coated with homemade BBQ glaze, served with fries",
-            "description_ko": "참나무 훈연실에서 8시간 이상 저온으로 훈제하여 뼈가 쏙 빠지는 부드러운 돼지 등갈비 바비큐와 감자튀김",
             "price_vnd": 378000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "바비큐",
-              "시그니처"
-            ],
-            "source_ref": "s1"
+            "price_text": "378,000 VND",
+            "description_ko": "참나무 장작으로 6시간 이상 훈연하여 뼈에서 살이 스르륵 분리되는 부드러운 폭립"
           },
           {
-            "name_original": "Slow Smoked Pork Ribs (Full Rack - 700g)",
+            "name": "Slow Smoked Pork Ribs (Full Rack - 700g)",
             "name_ko": "저온 훈제 스모크 바비큐 폭립 (풀 랙 700g)",
-            "description_original": "Full rack slow-cooked pork ribs with signature BBQ sauce and coleslaw",
-            "description_ko": "2~3인이 푸짐하게 즐길 수 있는 대형 풀 랙 훈제 바비큐 폭립과 코울슬로",
             "price_vnd": 690000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "바비큐",
-              "추천"
-            ],
-            "source_ref": "s1"
+            "price_text": "690,000 VND",
+            "description_ko": "푸짐한 양의 바비큐 폭립과 특제 훈연 소스, 감자튀김 및 코울슬로 세트"
           },
           {
-            "name_original": "Caveman Giant Smoked Beef Rib",
+            "name": "Caveman Giant Smoked Beef Rib",
             "name_ko": "케이브맨 자이언트 스모크 비프 립 (소갈비 바비큐)",
-            "description_original": "Massive whole beef short rib smoked low and slow for 12 hours",
-            "description_ko": "두툼한 통 소갈비를 12시간 동안 정성껏 훈연해 입안에서 녹아내리는 육즙의 바비큐",
             "price_vnd": 1120000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "프리미엄",
-              "소고기"
-            ],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Burgers & Starters / 수제 버거 & 스타터",
-        "section_ko": "수제 버거 & 사이드 요리",
-        "items": [
-          {
-            "name_original": "Classic Angus Beef Burger",
-            "name_ko": "클래식 앵거스 비프 버거 (감자튀김 세트)",
-            "description_original": "100% Angus beef patty, cheddar, bacon, lettuce, tomato and crispy french fries",
-            "description_ko": "100% 앵거스 비프 수제 패티, 체다 치즈, 베이컨, 신선한 야채와 바삭한 감자튀김 세트",
-            "price_vnd": 234000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "버거",
-              "인기"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Crispy Calamari Rings",
-            "name_ko": "바삭한 오징어 튀김 (칼라마리 링)",
-            "description_original": "Deep-fried fresh squid rings with homemade tartar dipping sauce",
-            "description_ko": "신선한 오징어를 바삭하게 튀겨낸 수제 타르타르 소스 칼라마리",
-            "price_vnd": 185000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "스타터"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Crispy Mozzarella Sticks",
-            "name_ko": "모차렐라 치즈 스틱 & 어니언링",
-            "description_original": "Golden melted cheese sticks and beer-battered onion rings with marinara dip",
-            "description_ko": "맥주 반죽으로 바삭하게 튀긴 양파링과 늘어나는 치즈스틱",
-            "price_vnd": 125000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "스타터"
-            ],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Craft Beer & Promotions / 수제 크래프트 맥주",
-        "section_ko": "크래프트 비어 & 무제한 프로모션",
-        "items": [
-          {
-            "name_original": "2-Hour Unlimited Craft Beer Package",
-            "name_ko": "2시간 수제 크래프트 맥주 무제한 패키지",
-            "description_original": "Unlimited draft pours of premium craft beers (iBiero Pilsner, IPA, Wheat) for 2 hours",
-            "description_ko": "2시간 동안 시원한 수제 생맥주(필스너, IPA, 바이젠)를 무제한으로 즐기는 파격 프로모션",
-            "price_vnd": 299000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": "1인 기준 요금",
-            "tags": [
-              "맥주",
-              "프로모션"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Caveman Craft Beer by Glass (Pilsner / IPA / Stout)",
-            "name_ko": "케이브맨 수제 생맥주 (글라스)",
-            "description_original": "Fresh draft craft beer by glass",
-            "description_ko": "매장에서 갓 뽑아낸 신선한 수제 맥주 1잔",
-            "price_vnd": 85000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "맥주"
-            ],
-            "source_ref": "s1"
+            "price_text": "1,120,000 VND",
+            "description_ko": "압도적인 비주얼과 육즙을 자랑하는 최상급 통소갈비 훈연 바비큐"
           }
         ]
       }
-    ],
-    "known_dishes": [],
-    "price_range": {
-      "min": 85000,
-      "max": 1120000,
-      "basis": "수제버거 23.4만동, 바비큐 폭립 37.8만~69만동, 맥주 무제한 29.9만동"
-    },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 48 Positano에 위치한 정통 아메리칸 텍사스식 스모크 바비큐 전문점으로, 하프랙 폭립(37.8만동), 수제버거(23.4만동), 수제맥주 무제한(29.9만동) 등 주요 8개 품목의 정확한 실측 가격을 수집하여 B등급으로 편제함."
+    ]
   },
   "ChIJwXlCOq-VpzERR7dMoAKRcpM": {
     "google_place_id": "ChIJwXlCOq-VpzERR7dMoAKRcpM",
@@ -6575,19 +4193,37 @@
     ]
   },
   "ChIJu-MGk6CXpzER7qRmKY1HVdk": {
-    "name_google": "코코넛 스파 & 카페 (Coconut Spa & Cafe)",
-    "name_display": "코코넛 스파 & 카페 (Coconut Spa & Cafe)",
-    "place_id": "ChIJu-MGk6CXpzER7qRmKY1HVdk",
-    "info_level": "D",
-    "status": "unconfirmed",
-    "known_dishes": [
+    "google_place_id": "ChIJu-MGk6CXpzER7qRmKY1HVdk",
+    "business_name": "코코넛 스파 & 카페 (Coconut Spa & Cafe)",
+    "slug": "coconut-spa-cafe",
+    "grade": "D",
+    "currency": "VND",
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
+    },
+    "sections": [
       {
-        "name_original": "Signature Specialty",
-        "name_ko": "시그니처 대표 메뉴",
-        "price_approx": "가격 미확인 (현장 메뉴판 확인 요망)"
+        "category_id": "signature",
+        "category_name": "스파 힐링 음료 (Wellness & Café Drinks)",
+        "items": [
+          {
+            "name": "Fresh Coconut Smoothie Coffee",
+            "name_ko": "리얼 코코넛 커피 스무디",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "생코코넛 과육과 밀크를 블렌딩하여 진한 에스프레소를 곁들인 힐링 음료"
+          },
+          {
+            "name": "Fresh Chilled Whole Coconut",
+            "name_ko": "시원한 생통코코넛 주스",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "푸꾸옥 야자수에서 갓 수확한 달콤하고 미네랄 풍부한 통코코넛 워터"
+          }
+        ]
       }
-    ],
-    "sections": []
+    ]
   },
   "ChIJk0mFcgCVpzERf3VayqKU9Ug": {
     "name_google": "한국관 BBQ 하우스 포 유 (Korean BBQ House)",
