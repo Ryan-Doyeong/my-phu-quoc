@@ -535,7 +535,9 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.4,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/starbucks-beach-house-sun-primavera/starbucks-beach-house-sun-primavera_menu_01.webp"
+    ],
     "tags": [
       "cafe",
       "Sunset Town"
@@ -2772,7 +2774,8 @@
     "gallery_urls": [
       "/covers-photo/maharaja-lounge-100-pure-veg-authentic-indian-restaurant-sunset-town-1.webp",
       "/covers-photo/maharaja-lounge-100-pure-veg-authentic-indian-restaurant-sunset-town-2.webp",
-      "/covers-photo/maharaja-lounge-100-pure-veg-authentic-indian-restaurant-sunset-town-3.webp"
+      "/covers-photo/maharaja-lounge-100-pure-veg-authentic-indian-restaurant-sunset-town-3.webp",
+      "/images/businesses/maharaja-lounge-100-pure-veg-authentic-indian-restaurant-sunset-town/maharaja-lounge-100-pure-veg-authentic-indian-restaurant-sunset-town_menu_01.webp"
     ],
     "tags": [
       "international",
@@ -2806,7 +2809,10 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/mediterran-sunset-town-greek-italian-restaurant-pizza-pasta-souvlaki/mediterran-sunset-town-greek-italian-restaurant-pizza-pasta-souvlaki_menu_01.webp",
+      "/images/businesses/mediterran-sunset-town-greek-italian-restaurant-pizza-pasta-souvlaki/mediterran-sunset-town-greek-italian-restaurant-pizza-pasta-souvlaki_menu_02.webp"
+    ],
     "tags": [
       "western",
       "Sunset Town"
@@ -2872,7 +2878,10 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/seta/seta_menu_01.webp",
+      "/images/businesses/seta/seta_menu_02.webp"
+    ],
     "tags": [
       "international",
       "Sunset Town"
@@ -5472,7 +5481,9 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/sultan-turkish-kebab-sunset-town-phu-quoc/sultan-turkish-kebab-sunset-town-phu-quoc_menu_01.webp"
+    ],
     "tags": [
       "international",
       "Sunset Town"
