@@ -390,3 +390,34 @@ export const SPOT = {
     desc: { ko: '공연 전 가볍게 저녁 먹기', en: 'Light dinner before the show' },
   },
 } satisfies Record<string, { title: L; desc: L }>
+
+/**
+ * 중부·북부 여행 조언 — 일정은 남부만 짜고, 다른 지역은 조언으로 안내 (2026-11-01 결정)
+ * 근거: data/itinerary-research/reviews_2026-11-01.json (후기 50건)
+ */
+export const OTHER_REGION_ADVICE: L[] = [
+  {
+    ko: '이동 시간: 공항 ↔ 남부 약 25~30분 · 공항 ↔ 중부(즈엉동) 약 10~20분 · 중부 ↔ 남부 약 40분 · 북부(사파리·그랜드월드 방면) ↔ 남부 약 1~1.5시간 (교통 상황에 따라 다름)',
+    en: 'Travel times: airport ↔ south 25–30 min · airport ↔ Duong Dong 10–20 min · Duong Dong ↔ south about 40 min · north (safari · Grand World) ↔ south about 1–1.5 h',
+  },
+  {
+    ko: '북부가 목적이라면 북부에 숙박을 따로 잡으세요. 남부에서 매일 오가면 왕복 2~3시간이 걸려 피곤하다는 후기가 많아요.',
+    en: 'If the north is a priority, stay there for a night or two — daily round trips from the south take 2–3 hours.',
+  },
+  {
+    ko: '사파리는 선선한 아침 일찍이나 나이트 사파리가 좋고, 아이와 함께라면 사파리와 테마파크는 다른 날로 나누세요.',
+    en: 'Do the safari early in the morning or at night, and split safari and theme park into separate days with kids.',
+  },
+  {
+    ko: '북부 리조트 구역에는 무료 셔틀이 다니지만 시간표가 바뀌곤 해요. 숙소 프런트에 최신 시간을 확인하세요.',
+    en: 'Free shuttles run in the northern resort area, but timetables change — check with your hotel.',
+  },
+  {
+    ko: '남부 공연(21시 키스 오브 더 씨)을 보고 북부로 돌아가면 밤늦게 도착해요. 귀가 차량은 미리 예약해 두면 편해요 (공연 직후엔 택시 잡기가 어려워요).',
+    en: 'After the 21:00 Kiss of the Sea show, getting back north is late and taxis are scarce — pre-book your ride.',
+  },
+  {
+    ko: '중부(즈엉동)는 야시장·시장·롱비치 일몰이 중심이고 공항이 가까워 마지막 날 묵기 편해요.',
+    en: 'Duong Dong (centre) has the night market, local market and Long Beach sunsets, and is close to the airport for your last night.',
+  },
+]

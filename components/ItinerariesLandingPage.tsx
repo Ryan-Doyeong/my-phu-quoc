@@ -24,10 +24,10 @@ const COPY = {
   ko: {
     breadcrumb: '추천 테마 일정',
     eyebrow: '여행 일정 자동 만들기',
-    title: '몇 가지만 고르면, 푸꾸옥 일정이 완성돼요',
+    title: '몇 가지만 고르면, 푸꾸옥 남부 일정이 완성돼요',
     subtitle:
-      '도착·출국 시간, 함께 가는 사람, 여행 목적에 맞춰 공연·바다·로컬 일정을 시간대별로 짜 드려요. 필요한 픽업과 투어는 담아서 한 번에 문의하세요.',
-    points: ['필수 공연 2개 자동 배치', '도착·출국 시간에 맞춘 첫날·마지막 날', 'WhatsApp·Zalo로 바로 견적 문의'],
+      '선셋타운·켐비치가 있는 푸꾸옥 남부 일정(최대 3박 4일)을 도착 시간, 함께 가는 사람, 여행 목적에 맞춰 시간대별로 짜 드려요. 필요한 픽업과 투어는 담아서 한 번에 문의하세요.',
+    points: ['필수 공연 2개 자동 배치', '이른 아침 도착도 체크인 전까지 알차게', '중부·북부는 이동 시간 조언', 'WhatsApp·Zalo로 바로 견적 문의'],
     policyTitle: '일정 안내 원칙',
     policyText:
       '공연 시간·이동 시간은 공식 안내와 현지 기준으로 넣었고, 확인되지 않은 정보는 "확인 필요"로 표시했어요. 가격은 업체 확인 후 안내하며, 예약 전에 저희가 일정과 운영 여부를 다시 확인해 드려요.',
@@ -35,7 +35,7 @@ const COPY = {
   en: {
     breadcrumb: 'Trip Planner',
     eyebrow: 'TRIP PLANNER',
-    title: 'Pick a few things — get your Phu Quoc plan',
+    title: 'Pick a few things — get your South Phu Quoc plan',
     subtitle:
       'We build an hour-by-hour plan around your flights, companions and interests. Add the pick-ups and tours you need and ask us in one go.',
     points: ['Two must-see shows placed for you', 'First & last day fit your flights', 'Ask for quotes on WhatsApp · Zalo'],
