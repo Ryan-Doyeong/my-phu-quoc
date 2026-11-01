@@ -56,7 +56,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/sakurakyo-hotel-spa-phu-quoc-1.webp",
+      "/covers-photo/sakurakyo-hotel-spa-phu-quoc-2.webp",
+      "/covers-photo/sakurakyo-hotel-spa-phu-quoc-3.webp",
+      "/covers-photo/sakurakyo-hotel-spa-phu-quoc-4.webp",
+      "/covers-photo/sakurakyo-hotel-spa-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -65,7 +71,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0285478,
-    "lng": 104.00832919999999
+    "lng": 104.00832919999999,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-3",
@@ -413,7 +421,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/casepia-1.webp",
+      "/covers-photo/casepia-2.webp",
+      "/covers-photo/casepia-3.webp",
+      "/covers-photo/casepia-4.webp",
+      "/covers-photo/casepia-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -422,7 +436,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0245108,
-    "lng": 104.00787
+    "lng": 104.00787,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-13",
@@ -444,7 +460,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/le-bonheur-hotel-1.webp",
+      "/covers-photo/le-bonheur-hotel-2.webp",
+      "/covers-photo/le-bonheur-hotel-3.webp",
+      "/covers-photo/le-bonheur-hotel-4.webp",
+      "/covers-photo/le-bonheur-hotel-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -453,7 +475,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0278922,
-    "lng": 104.0084608
+    "lng": 104.0084608,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-14",
@@ -511,7 +535,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/de-stefano-hotel-coffee-1.webp",
+      "/covers-photo/de-stefano-hotel-coffee-2.webp",
+      "/covers-photo/de-stefano-hotel-coffee-3.webp",
+      "/covers-photo/de-stefano-hotel-coffee-4.webp",
+      "/covers-photo/de-stefano-hotel-coffee-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -520,7 +550,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "가성비 수식어 삭제 | 유명 수식어 삭제 | 포토존 -> 명소 중립화",
     "lat": 10.026038999999999,
-    "lng": 104.00837639999999
+    "lng": 104.00837639999999,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-16",
@@ -612,7 +644,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/blue-hotel-sunset-town-phu-quoc-1.webp",
+      "/covers-photo/blue-hotel-sunset-town-phu-quoc-2.webp",
+      "/covers-photo/blue-hotel-sunset-town-phu-quoc-3.webp",
+      "/covers-photo/blue-hotel-sunset-town-phu-quoc-4.webp",
+      "/covers-photo/blue-hotel-sunset-town-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -621,7 +659,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0312716,
-    "lng": 104.0067887
+    "lng": 104.0067887,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-19",
@@ -643,7 +683,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/the-memory-hotel-sunset-town-phu-quoc-1.webp",
+      "/covers-photo/the-memory-hotel-sunset-town-phu-quoc-2.webp",
+      "/covers-photo/the-memory-hotel-sunset-town-phu-quoc-3.webp",
+      "/covers-photo/the-memory-hotel-sunset-town-phu-quoc-4.webp",
+      "/covers-photo/the-memory-hotel-sunset-town-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -652,7 +698,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.030367199999999,
-    "lng": 104.00577609999999
+    "lng": 104.00577609999999,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-20",
@@ -674,7 +722,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/blue-home-sunset-town-phu-quoc-1.webp",
+      "/covers-photo/blue-home-sunset-town-phu-quoc-2.webp",
+      "/covers-photo/blue-home-sunset-town-phu-quoc-3.webp",
+      "/covers-photo/blue-home-sunset-town-phu-quoc-4.webp",
+      "/covers-photo/blue-home-sunset-town-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -683,7 +737,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.031844,
-    "lng": 104.0052875
+    "lng": 104.0052875,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-21",
@@ -705,7 +761,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/sunset-town-hillside-apartment-1.webp",
+      "/covers-photo/sunset-town-hillside-apartment-2.webp",
+      "/covers-photo/sunset-town-hillside-apartment-3.webp",
+      "/covers-photo/sunset-town-hillside-apartment-4.webp",
+      "/covers-photo/sunset-town-hillside-apartment-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
@@ -714,7 +776,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.028582499999999,
-    "lng": 104.00942189999999
+    "lng": 104.00942189999999,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-22",
@@ -736,7 +800,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/the-sunset-seaview-phu-quoc-apartments-1.webp",
+      "/covers-photo/the-sunset-seaview-phu-quoc-apartments-2.webp",
+      "/covers-photo/the-sunset-seaview-phu-quoc-apartments-3.webp",
+      "/covers-photo/the-sunset-seaview-phu-quoc-apartments-4.webp",
+      "/covers-photo/the-sunset-seaview-phu-quoc-apartments-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
@@ -745,7 +815,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.0291112,
-    "lng": 104.009627
+    "lng": 104.009627,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-23",
@@ -767,7 +839,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/summer-homestay-phu-quoc-1.webp",
+      "/covers-photo/summer-homestay-phu-quoc-2.webp",
+      "/covers-photo/summer-homestay-phu-quoc-3.webp",
+      "/covers-photo/summer-homestay-phu-quoc-4.webp",
+      "/covers-photo/summer-homestay-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -776,7 +854,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.029397999999999,
-    "lng": 104.0095011
+    "lng": 104.0095011,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-24",
@@ -798,7 +878,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/sunset-home-airbnb-phu-quoc-1.webp",
+      "/covers-photo/sunset-home-airbnb-phu-quoc-2.webp",
+      "/covers-photo/sunset-home-airbnb-phu-quoc-3.webp",
+      "/covers-photo/sunset-home-airbnb-phu-quoc-4.webp",
+      "/covers-photo/sunset-home-airbnb-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -807,7 +893,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0307209,
-    "lng": 104.0057257
+    "lng": 104.0057257,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-25",
@@ -829,7 +917,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/tiny-house-phu-quoc-1.webp",
+      "/covers-photo/tiny-house-phu-quoc-2.webp",
+      "/covers-photo/tiny-house-phu-quoc-3.webp",
+      "/covers-photo/tiny-house-phu-quoc-4.webp",
+      "/covers-photo/tiny-house-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -838,7 +932,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0329251,
-    "lng": 104.00397609999999
+    "lng": 104.00397609999999,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-26",
@@ -891,7 +987,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/phu-quoc-sunset-1.webp",
+      "/covers-photo/phu-quoc-sunset-2.webp",
+      "/covers-photo/phu-quoc-sunset-3.webp",
+      "/covers-photo/phu-quoc-sunset-4.webp",
+      "/covers-photo/phu-quoc-sunset-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -900,7 +1002,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.026831399999999,
-    "lng": 104.0079423
+    "lng": 104.0079423,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-28",
@@ -922,7 +1026,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/rosy-hotel-phu-quoc-sunset-town-1.webp",
+      "/covers-photo/rosy-hotel-phu-quoc-sunset-town-2.webp",
+      "/covers-photo/rosy-hotel-phu-quoc-sunset-town-3.webp",
+      "/covers-photo/rosy-hotel-phu-quoc-sunset-town-4.webp",
+      "/covers-photo/rosy-hotel-phu-quoc-sunset-town-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -931,7 +1041,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.031522299999999,
-    "lng": 104.0066102
+    "lng": 104.0066102,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-29",
@@ -953,7 +1065,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/milan-hotel-1.webp",
+      "/covers-photo/milan-hotel-2.webp",
+      "/covers-photo/milan-hotel-3.webp",
+      "/covers-photo/milan-hotel-4.webp",
+      "/covers-photo/milan-hotel-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -962,7 +1080,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0312009,
-    "lng": 104.0072642
+    "lng": 104.0072642,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-30",
@@ -984,7 +1104,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/th-luxury-hotel-1.webp",
+      "/covers-photo/th-luxury-hotel-2.webp",
+      "/covers-photo/th-luxury-hotel-3.webp",
+      "/covers-photo/th-luxury-hotel-4.webp",
+      "/covers-photo/th-luxury-hotel-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -993,7 +1119,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0344722,
-    "lng": 104.0083889
+    "lng": 104.0083889,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-31",
@@ -1298,7 +1426,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/khach-san-bella-sunset-town-phu-quoc-1.webp",
+      "/covers-photo/khach-san-bella-sunset-town-phu-quoc-2.webp",
+      "/covers-photo/khach-san-bella-sunset-town-phu-quoc-3.webp",
+      "/covers-photo/khach-san-bella-sunset-town-phu-quoc-4.webp",
+      "/covers-photo/khach-san-bella-sunset-town-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -1307,7 +1441,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.024680499999999,
-    "lng": 104.0080534
+    "lng": 104.0080534,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-41",
@@ -1329,7 +1465,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/the-maris-apartment-hillside-phu-quoc-sunset-town-1.webp",
+      "/covers-photo/the-maris-apartment-hillside-phu-quoc-sunset-town-2.webp",
+      "/covers-photo/the-maris-apartment-hillside-phu-quoc-sunset-town-3.webp",
+      "/covers-photo/the-maris-apartment-hillside-phu-quoc-sunset-town-4.webp",
+      "/covers-photo/the-maris-apartment-hillside-phu-quoc-sunset-town-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
@@ -1338,7 +1480,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.0290957,
-    "lng": 104.0095664
+    "lng": 104.0095664,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-42",
@@ -1360,7 +1504,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/rova-105-hotel-1.webp",
+      "/covers-photo/rova-105-hotel-2.webp",
+      "/covers-photo/rova-105-hotel-3.webp",
+      "/covers-photo/rova-105-hotel-4.webp",
+      "/covers-photo/rova-105-hotel-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -1369,7 +1519,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.031465899999999,
-    "lng": 104.0056396
+    "lng": 104.0056396,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-43",
@@ -1428,7 +1580,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/oscar-seaview-apartment-1.webp",
+      "/covers-photo/oscar-seaview-apartment-2.webp",
+      "/covers-photo/oscar-seaview-apartment-3.webp",
+      "/covers-photo/oscar-seaview-apartment-4.webp",
+      "/covers-photo/oscar-seaview-apartment-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
@@ -1437,7 +1595,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.0295493,
-    "lng": 104.00923979999999
+    "lng": 104.00923979999999,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-45",
@@ -1494,7 +1654,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/sunset-sorento-phu-quoc-nang-bien-hotel-1.webp",
+      "/covers-photo/sunset-sorento-phu-quoc-nang-bien-hotel-2.webp",
+      "/covers-photo/sunset-sorento-phu-quoc-nang-bien-hotel-3.webp",
+      "/covers-photo/sunset-sorento-phu-quoc-nang-bien-hotel-4.webp",
+      "/covers-photo/sunset-sorento-phu-quoc-nang-bien-hotel-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -1503,7 +1669,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.024649799999999,
-    "lng": 104.0082221
+    "lng": 104.0082221,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-47",
@@ -1525,7 +1693,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/sunny-hotel-phu-quoc-ven-18-sunset-town-1.webp",
+      "/covers-photo/sunny-hotel-phu-quoc-ven-18-sunset-town-2.webp",
+      "/covers-photo/sunny-hotel-phu-quoc-ven-18-sunset-town-3.webp",
+      "/covers-photo/sunny-hotel-phu-quoc-ven-18-sunset-town-4.webp",
+      "/covers-photo/sunny-hotel-phu-quoc-ven-18-sunset-town-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -1534,7 +1708,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.03049,
-    "lng": 104.005862
+    "lng": 104.005862,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-48",
@@ -1556,7 +1732,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/sunset-house-phu-quoc-buggy-services-1.webp",
+      "/covers-photo/sunset-house-phu-quoc-buggy-services-2.webp",
+      "/covers-photo/sunset-house-phu-quoc-buggy-services-3.webp",
+      "/covers-photo/sunset-house-phu-quoc-buggy-services-4.webp",
+      "/covers-photo/sunset-house-phu-quoc-buggy-services-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -1565,7 +1747,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.032231399999999,
-    "lng": 104.00480999999999
+    "lng": 104.00480999999999,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-49",
@@ -1587,7 +1771,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/pearl-vista-luxury-service-apartments-seaview-fireworks-1.webp",
+      "/covers-photo/pearl-vista-luxury-service-apartments-seaview-fireworks-2.webp",
+      "/covers-photo/pearl-vista-luxury-service-apartments-seaview-fireworks-3.webp",
+      "/covers-photo/pearl-vista-luxury-service-apartments-seaview-fireworks-4.webp",
+      "/covers-photo/pearl-vista-luxury-service-apartments-seaview-fireworks-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
@@ -1596,7 +1786,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.028495999999999,
-    "lng": 104.0091546
+    "lng": 104.0091546,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-50",
@@ -1655,7 +1847,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/solea-hotels-apartments-sunset-town-1.webp",
+      "/covers-photo/solea-hotels-apartments-sunset-town-2.webp",
+      "/covers-photo/solea-hotels-apartments-sunset-town-3.webp",
+      "/covers-photo/solea-hotels-apartments-sunset-town-4.webp",
+      "/covers-photo/solea-hotels-apartments-sunset-town-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
@@ -1664,7 +1862,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.0298578,
-    "lng": 104.0083037
+    "lng": 104.0083037,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-52",
@@ -1756,7 +1956,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/minimalist-hillside-apartment-1.webp",
+      "/covers-photo/minimalist-hillside-apartment-2.webp",
+      "/covers-photo/minimalist-hillside-apartment-3.webp",
+      "/covers-photo/minimalist-hillside-apartment-4.webp",
+      "/covers-photo/minimalist-hillside-apartment-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
@@ -1765,7 +1971,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.0299015,
-    "lng": 104.0089311
+    "lng": 104.0089311,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-55",
@@ -1818,7 +2026,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.3,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/sunset-bay-retreat-phu-quoc-1.webp",
+      "/covers-photo/sunset-bay-retreat-phu-quoc-2.webp",
+      "/covers-photo/sunset-bay-retreat-phu-quoc-3.webp",
+      "/covers-photo/sunset-bay-retreat-phu-quoc-4.webp",
+      "/covers-photo/sunset-bay-retreat-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -1827,7 +2041,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.031749,
-    "lng": 104.00571529999999
+    "lng": 104.00571529999999,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-57",
@@ -1849,7 +2065,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.3,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/hoa-ng-hon-ti-m-boutique-hotel-1.webp",
+      "/covers-photo/hoa-ng-hon-ti-m-boutique-hotel-2.webp",
+      "/covers-photo/hoa-ng-hon-ti-m-boutique-hotel-3.webp",
+      "/covers-photo/hoa-ng-hon-ti-m-boutique-hotel-4.webp",
+      "/covers-photo/hoa-ng-hon-ti-m-boutique-hotel-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -1858,7 +2080,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0257322,
-    "lng": 104.00765489999999
+    "lng": 104.00765489999999,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-58",
@@ -1880,7 +2104,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.3,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/sunset-royal-1.webp",
+      "/covers-photo/sunset-royal-2.webp",
+      "/covers-photo/sunset-royal-3.webp",
+      "/covers-photo/sunset-royal-4.webp",
+      "/covers-photo/sunset-royal-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -1889,7 +2119,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0301414,
-    "lng": 104.0082927
+    "lng": 104.0082927,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-59",
@@ -1911,7 +2143,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.2,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/homestay-hillside-an-th-i-the-hill-h2-1.webp",
+      "/covers-photo/homestay-hillside-an-th-i-the-hill-h2-2.webp",
+      "/covers-photo/homestay-hillside-an-th-i-the-hill-h2-3.webp",
+      "/covers-photo/homestay-hillside-an-th-i-the-hill-h2-4.webp",
+      "/covers-photo/homestay-hillside-an-th-i-the-hill-h2-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
@@ -1920,7 +2158,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.0295205,
-    "lng": 104.0091515
+    "lng": 104.0091515,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-60",
@@ -1942,7 +2182,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.1,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/golden-sunset-hotel-1.webp",
+      "/covers-photo/golden-sunset-hotel-2.webp",
+      "/covers-photo/golden-sunset-hotel-3.webp",
+      "/covers-photo/golden-sunset-hotel-4.webp",
+      "/covers-photo/golden-sunset-hotel-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -1951,7 +2197,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0305882,
-    "lng": 104.0061444
+    "lng": 104.0061444,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-61",
@@ -1973,7 +2221,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.1,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/rova-hotel-spa-phu-quoc-1.webp",
+      "/covers-photo/rova-hotel-spa-phu-quoc-2.webp",
+      "/covers-photo/rova-hotel-spa-phu-quoc-3.webp",
+      "/covers-photo/rova-hotel-spa-phu-quoc-4.webp",
+      "/covers-photo/rova-hotel-spa-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -1982,7 +2236,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0314673,
-    "lng": 104.00561019999999
+    "lng": 104.00561019999999,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-62",
@@ -2035,7 +2291,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/tk-house-phu-quoc-1.webp",
+      "/covers-photo/tk-house-phu-quoc-2.webp",
+      "/covers-photo/tk-house-phu-quoc-3.webp",
+      "/covers-photo/tk-house-phu-quoc-4.webp",
+      "/covers-photo/tk-house-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -2044,7 +2306,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0319726,
-    "lng": 104.0054467
+    "lng": 104.0054467,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-65",
@@ -2066,7 +2330,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/casa-del-mar-boutique-hotel-1.webp",
+      "/covers-photo/casa-del-mar-boutique-hotel-2.webp",
+      "/covers-photo/casa-del-mar-boutique-hotel-3.webp",
+      "/covers-photo/casa-del-mar-boutique-hotel-4.webp",
+      "/covers-photo/casa-del-mar-boutique-hotel-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -2075,7 +2345,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0307485,
-    "lng": 104.0072895
+    "lng": 104.0072895,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-66",
@@ -2159,7 +2431,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.9,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/rova-hotel-apartment-amalfi-sunset-town-1.webp",
+      "/covers-photo/rova-hotel-apartment-amalfi-sunset-town-2.webp",
+      "/covers-photo/rova-hotel-apartment-amalfi-sunset-town-3.webp",
+      "/covers-photo/rova-hotel-apartment-amalfi-sunset-town-4.webp",
+      "/covers-photo/rova-hotel-apartment-amalfi-sunset-town-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
@@ -2168,7 +2446,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.031494799999999,
-    "lng": 104.00564059999999
+    "lng": 104.00564059999999,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-69",
@@ -2221,7 +2501,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.6,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/merci-hotel-sunset-town-phu-quoc-1.webp",
+      "/covers-photo/merci-hotel-sunset-town-phu-quoc-2.webp",
+      "/covers-photo/merci-hotel-sunset-town-phu-quoc-3.webp",
+      "/covers-photo/merci-hotel-sunset-town-phu-quoc-4.webp",
+      "/covers-photo/merci-hotel-sunset-town-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -2230,7 +2516,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0327418,
-    "lng": 104.00556329999999
+    "lng": 104.00556329999999,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-71",
@@ -2252,7 +2540,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/the-fern-phu-quoc-hotel-sunset-town-1.webp",
+      "/covers-photo/the-fern-phu-quoc-hotel-sunset-town-2.webp",
+      "/covers-photo/the-fern-phu-quoc-hotel-sunset-town-3.webp",
+      "/covers-photo/the-fern-phu-quoc-hotel-sunset-town-4.webp",
+      "/covers-photo/the-fern-phu-quoc-hotel-sunset-town-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -2261,7 +2555,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0321973,
-    "lng": 104.0056224
+    "lng": 104.0056224,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-72",
@@ -2283,7 +2579,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.4,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/l-a-hillside-apartment-sunset-town-phu-quoc-1.webp",
+      "/covers-photo/l-a-hillside-apartment-sunset-town-phu-quoc-2.webp",
+      "/covers-photo/l-a-hillside-apartment-sunset-town-phu-quoc-3.webp",
+      "/covers-photo/l-a-hillside-apartment-sunset-town-phu-quoc-4.webp",
+      "/covers-photo/l-a-hillside-apartment-sunset-town-phu-quoc-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
@@ -2292,7 +2594,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제 | 미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.0269813,
-    "lng": 104.0091097
+    "lng": 104.0091097,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-73",
@@ -2376,7 +2680,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.1,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/la-phan-phu-quoc-hillside-apartment-1.webp",
+      "/covers-photo/la-phan-phu-quoc-hillside-apartment-2.webp",
+      "/covers-photo/la-phan-phu-quoc-hillside-apartment-3.webp",
+      "/covers-photo/la-phan-phu-quoc-hillside-apartment-4.webp",
+      "/covers-photo/la-phan-phu-quoc-hillside-apartment-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
@@ -2385,7 +2695,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.0294984,
-    "lng": 104.0088997
+    "lng": 104.0088997,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-76",
@@ -2407,7 +2719,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/sunset-town-service-apartment-phu-quoc-1.webp",
+      "/covers-photo/sunset-town-service-apartment-phu-quoc-2.webp",
+      "/covers-photo/sunset-town-service-apartment-phu-quoc-3.webp",
+      "/covers-photo/sunset-town-service-apartment-phu-quoc-4.webp",
+      "/covers-photo/sunset-town-service-apartment-phu-quoc-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
@@ -2416,7 +2734,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.0290616,
-    "lng": 104.0096142
+    "lng": 104.0096142,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-77",
@@ -2473,7 +2793,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 2.3,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/dido-carthage-apartment-sunset-town-phu-quoc-island-1.webp",
+      "/covers-photo/dido-carthage-apartment-sunset-town-phu-quoc-island-2.webp",
+      "/covers-photo/dido-carthage-apartment-sunset-town-phu-quoc-island-3.webp",
+      "/covers-photo/dido-carthage-apartment-sunset-town-phu-quoc-island-4.webp",
+      "/covers-photo/dido-carthage-apartment-sunset-town-phu-quoc-island-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
@@ -2482,7 +2808,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.030641,
-    "lng": 104.00781309999999
+    "lng": 104.00781309999999,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-79",
@@ -2504,7 +2832,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/js-hotel-phu-quoc-sunset-town-1.webp",
+      "/covers-photo/js-hotel-phu-quoc-sunset-town-2.webp",
+      "/covers-photo/js-hotel-phu-quoc-sunset-town-3.webp",
+      "/covers-photo/js-hotel-phu-quoc-sunset-town-4.webp",
+      "/covers-photo/js-hotel-phu-quoc-sunset-town-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -2513,7 +2847,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0317854,
-    "lng": 104.00601309999999
+    "lng": 104.00601309999999,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-80",
@@ -2535,7 +2871,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/haibot-12-homestay-sunset-town-phu-quoc-1.webp",
+      "/covers-photo/haibot-12-homestay-sunset-town-phu-quoc-2.webp",
+      "/covers-photo/haibot-12-homestay-sunset-town-phu-quoc-3.webp",
+      "/covers-photo/haibot-12-homestay-sunset-town-phu-quoc-4.webp",
+      "/covers-photo/haibot-12-homestay-sunset-town-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -2544,7 +2886,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.027996,
-    "lng": 104.007283
+    "lng": 104.007283,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-81",
@@ -2566,7 +2910,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/sunset-hotel-sunset-town-phu-quoc-1.webp",
+      "/covers-photo/sunset-hotel-sunset-town-phu-quoc-2.webp",
+      "/covers-photo/sunset-hotel-sunset-town-phu-quoc-3.webp",
+      "/covers-photo/sunset-hotel-sunset-town-phu-quoc-4.webp",
+      "/covers-photo/sunset-hotel-sunset-town-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -2575,7 +2925,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.032979899999999,
-    "lng": 104.00470729999999
+    "lng": 104.00470729999999,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-82",
@@ -2597,7 +2949,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/hillside-apartment-in-sunset-town-phu-quoc-1.webp",
+      "/covers-photo/hillside-apartment-in-sunset-town-phu-quoc-2.webp",
+      "/covers-photo/hillside-apartment-in-sunset-town-phu-quoc-3.webp",
+      "/covers-photo/hillside-apartment-in-sunset-town-phu-quoc-4.webp",
+      "/covers-photo/hillside-apartment-in-sunset-town-phu-quoc-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
@@ -2606,7 +2964,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.0294218,
-    "lng": 104.00921629999999
+    "lng": 104.00921629999999,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-83",
@@ -2628,7 +2988,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/hillside-sunset-town-phu-quoc-1.webp",
+      "/covers-photo/hillside-sunset-town-phu-quoc-2.webp",
+      "/covers-photo/hillside-sunset-town-phu-quoc-3.webp",
+      "/covers-photo/hillside-sunset-town-phu-quoc-4.webp",
+      "/covers-photo/hillside-sunset-town-phu-quoc-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
@@ -2637,7 +3003,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.0279817,
-    "lng": 104.00933839999999
+    "lng": 104.00933839999999,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-84",
@@ -2659,7 +3027,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/sunset-town-apartment-phu-quoc-1.webp",
+      "/covers-photo/sunset-town-apartment-phu-quoc-2.webp",
+      "/covers-photo/sunset-town-apartment-phu-quoc-3.webp",
+      "/covers-photo/sunset-town-apartment-phu-quoc-4.webp",
+      "/covers-photo/sunset-town-apartment-phu-quoc-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
@@ -2668,7 +3042,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.029518099999999,
-    "lng": 104.00893409999999
+    "lng": 104.00893409999999,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-85",
@@ -2690,7 +3066,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/casa-del-mar-hotel-apartment-sunset-town-1.webp",
+      "/covers-photo/casa-del-mar-hotel-apartment-sunset-town-2.webp",
+      "/covers-photo/casa-del-mar-hotel-apartment-sunset-town-3.webp",
+      "/covers-photo/casa-del-mar-hotel-apartment-sunset-town-4.webp",
+      "/covers-photo/casa-del-mar-hotel-apartment-sunset-town-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
@@ -2699,7 +3081,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.0303326,
-    "lng": 104.0071258
+    "lng": 104.0071258,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-86",
@@ -2721,7 +3105,13 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/hillside-apartment-sunset-town-phu-quoc-apartment-with-sea-view-1.webp",
+      "/covers-photo/hillside-apartment-sunset-town-phu-quoc-apartment-with-sea-view-2.webp",
+      "/covers-photo/hillside-apartment-sunset-town-phu-quoc-apartment-with-sea-view-3.webp",
+      "/covers-photo/hillside-apartment-sunset-town-phu-quoc-apartment-with-sea-view-4.webp",
+      "/covers-photo/hillside-apartment-sunset-town-phu-quoc-apartment-with-sea-view-5.webp"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
@@ -2730,7 +3120,9 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.0426998,
-    "lng": 104.0130386
+    "lng": 104.0130386,
+    "photo_permission": "Google Maps photo capture (retouched WebP)",
+    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
   },
   {
     "id": "local-sunset-87",
