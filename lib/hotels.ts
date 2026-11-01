@@ -5,6 +5,7 @@ import rawHotelInsights from '@/data/hotel_insights.json'
 export interface HotelInsight {
   googleMapsUrl?: string
   location?: string
+  location_en?: string
   view?: string
   condition?: string
   staff?: string

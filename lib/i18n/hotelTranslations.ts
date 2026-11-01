@@ -1480,7 +1480,7 @@ export function localizeHotel(hotel: HotelItem, locale: Locale): HotelItem {
     insight: insight
       ? {
           ...insight,
-          location: insight.location ? L(insight.location) : insight.location,
+          location: (locale === 'en' && insight.location_en) ? insight.location_en : (insight.location ? L(insight.location) : insight.location),
           view: insight.view ? L(insight.view) : insight.view,
           condition: insight.condition ? L(insight.condition) : insight.condition,
           staff: insight.staff ? L(insight.staff) : insight.staff,

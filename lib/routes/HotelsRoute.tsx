@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { getAllHotels } from '@/lib/hotels'
 import { HotelsPage } from '@/components/HotelsPage'
 import type { Locale } from '@/lib/i18n/config'
-import { HOTEL_TRANSLATIONS } from '@/lib/i18n/hotelTranslations'
+import { HOTEL_TRANSLATIONS, localizeHotel } from '@/lib/i18n/hotelTranslations'
 import { SITE_URL } from '@/lib/supabase/config'
 
 export function generateHotelsMetadata(locale: Locale = 'en'): Metadata {
@@ -30,6 +30,6 @@ export function generateHotelsMetadata(locale: Locale = 'en'): Metadata {
 }
 
 export function renderHotelsRoute(locale: Locale = 'en') {
-  const hotels = getAllHotels()
+  const hotels = getAllHotels().map(h => localizeHotel(h, locale))
   return <HotelsPage hotels={hotels} locale={locale} />
 }
