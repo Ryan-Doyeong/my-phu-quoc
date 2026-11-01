@@ -12,6 +12,7 @@
  *   - 공항→선셋타운 약 25~30분, 즈엉동→안토이 약 40분
  */
 
+import { SUNSET_TOWN_TICKETS } from '@/lib/tickets'
 import type { L, Product, Region, Tier } from './types'
 
 export const REGION_LABEL: Record<Region, L> = {
@@ -38,6 +39,8 @@ export const TIER_DESC: Record<Tier, L> = {
   private: { ko: '우리 일행만 이용', en: 'Just your group' },
 }
 
+const klook = (id: string) => SUNSET_TOWN_TICKETS.find((t) => t.id === id)?.klookUrl
+
 export const PRODUCTS: Record<string, Product> = {
   airport_pickup: {
     id: 'airport_pickup',
@@ -45,12 +48,61 @@ export const PRODUCTS: Record<string, Product> = {
     operator: 'direct',
     name: { ko: '공항 픽업', en: 'Airport pick-up' },
     summary: {
-      ko: '푸꾸옥 공항에서 숙소까지 전용 차량으로 모셔다 드려요.',
-      en: 'Private car from Phu Quoc Airport to your hotel.',
+      ko: '푸꾸옥 공항에서 숙소까지 전용 차량으로 모셔다 드려요. 밤 도착·새벽 도착도 가능해요.',
+      en: 'Private car from Phu Quoc Airport to your hotel, late-night and dawn arrivals included.',
     },
     duration: { ko: '남부까지 약 25~30분', en: 'About 25–30 min to the south' },
     price: { base: null },
     vendor: null,
+    caution: {
+      ko: '현금(VND)이 필요하면 픽업 시 환전도 함께 문의하세요.',
+      en: 'Need VND cash? Ask about currency exchange when booking your pick-up.',
+    },
+  },
+  exchange: {
+    id: 'exchange',
+    kind: 'service',
+    operator: 'direct',
+    name: { ko: '환전 (원화·달러 → 동)', en: 'Currency exchange' },
+    summary: {
+      ko: '도착 직후 필요한 현금을 숙소 근처에서 합리적인 환율로 바꿔 드려요. 택시·야시장·마사지는 현금이 편해요.',
+      en: 'Change cash near your hotel at a fair rate. Taxis, night markets and massages are easier with cash.',
+    },
+    duration: { ko: '픽업 또는 숙소에서', en: 'At pick-up or your hotel' },
+    price: { base: null },
+    vendor: null,
+    caution: {
+      ko: '취급 통화와 환율은 문의 시 안내해요. 큰 금액은 미리 알려 주세요.',
+      en: 'Currencies and rates on request. Tell us in advance for larger amounts.',
+    },
+  },
+  show_return: {
+    id: 'show_return',
+    kind: 'service',
+    operator: 'direct',
+    name: { ko: '공연 후 귀가 차량', en: 'Ride home after the show' },
+    summary: {
+      ko: '21시 공연이 끝나면 택시 잡기가 가장 어려워요. 미리 예약해 두면 바로 숙소로 이동해요.',
+      en: 'Taxis are hardest to find after the 21:00 show. Book ahead and leave right away.',
+    },
+    duration: { ko: '선셋타운 → 숙소', en: 'Sunset Town → hotel' },
+    price: { base: null },
+    vendor: null,
+  },
+  local_guide: {
+    id: 'local_guide',
+    kind: 'service',
+    operator: 'direct',
+    name: { ko: '현지 가이드 동행', en: 'Local guide' },
+    summary: {
+      ko: '한국어·영어 가능한 현지 가이드가 반일 또는 종일 동행해요. 부모님·아이 동반, 첫 방문에 좋아요.',
+      en: 'A Korean/English-speaking local guide for half or full day. Great with parents, kids or first visits.',
+    },
+    duration: { ko: '반일 · 종일', en: 'Half / full day' },
+    price: { base: null },
+    vendor: null,
+    // 가이드 풀 확보 후 false로 바꾸면 부모님·아이 동반 일정에 자동 노출됩니다.
+    hidden: true,
   },
   airport_dropoff: {
     id: 'airport_dropoff',
@@ -107,7 +159,7 @@ export const PRODUCTS: Record<string, Product> = {
     tierNotes: {
       shared: { ko: '대형 보트 조인 투어', en: 'Big boat, join-in' },
       premium: { ko: '소그룹 스피드보트', en: 'Small-group speedboat' },
-      private: { ko: '전용 스피드보트', en: 'Private speedboat' },
+      private: { ko: '프라이빗 요트·스피드보트 (일행만)', en: 'Private yacht or speedboat' },
     },
     price: { shared: null, premium: null, private: null },
     vendor: null,
@@ -174,7 +226,8 @@ export const PRODUCTS: Record<string, Product> = {
   cable_car: {
     id: 'cable_car',
     kind: 'ticket',
-    operator: 'partner',
+    operator: 'klook',
+    klookUrl: klook('hon-thom-cable-car'),
     name: { ko: '혼똔섬 케이블카 · 선월드', en: 'Hon Thom cable car · Sun World' },
     summary: {
       ko: '바다를 건너는 케이블카를 타고 혼똔섬 테마파크에서 하루를 보내요.',
@@ -183,6 +236,10 @@ export const PRODUCTS: Record<string, Product> = {
     duration: { ko: '반일~종일 · 운영시간 확인 필요', en: 'Half to full day · check opening hours' },
     price: { base: null },
     vendor: null,
+    caution: {
+      ko: '티켓은 Klook에서 직접 예매하면 가장 편해요. 안토이 케이블카역까지 차량이 필요하면 문의하세요.',
+      en: 'Book tickets on Klook. Need a car to the An Thoi cable-car station? Ask us.',
+    },
   },
   massage: {
     id: 'massage',
@@ -237,11 +294,12 @@ export const PRODUCTS: Record<string, Product> = {
   symphony_ticket: {
     id: 'symphony_ticket',
     kind: 'ticket',
-    operator: 'partner',
+    operator: 'klook',
+    klookUrl: klook('south-all-in-one-combo'),
     name: { ko: '심포니 오브 더 씨 좌석·디너 콤보', en: 'Symphony of the Sea seats / dinner combo' },
     summary: {
-      ko: '쇼를 앞자리에서 보거나 해변 레스토랑 디너와 함께 즐기는 티켓이에요.',
-      en: 'Front seats or a beachfront dinner combo for the show.',
+      ko: '쇼를 앞자리에서 보거나 해변 레스토랑 디너와 함께 즐기는 티켓이에요. 무료 관람도 가능하니 좌석은 선택이에요.',
+      en: 'Front seats or a beachfront dinner combo. Watching for free is possible; seats are optional.',
     },
     price: { base: null },
     vendor: null,
@@ -249,11 +307,12 @@ export const PRODUCTS: Record<string, Product> = {
   kiss_ticket: {
     id: 'kiss_ticket',
     kind: 'ticket',
-    operator: 'partner',
+    operator: 'klook',
+    klookUrl: klook('kiss-of-the-sea'),
     name: { ko: '키스 오브 더 씨 좌석 티켓', en: 'Kiss of the Sea seat ticket' },
     summary: {
-      ko: '리조트 무료 티켓이 없을 때 좌석에서 보고 싶다면 예매를 도와드려요.',
-      en: 'If your resort does not provide free tickets, we can book seats for you.',
+      ko: '남부 리조트 투숙객은 무료 티켓을 먼저 확인하세요. 없으면 Klook에서 바로 예매할 수 있어요.',
+      en: 'South resort guests: check for free tickets first. Otherwise book instantly on Klook.',
     },
     price: { base: null },
     vendor: null,
@@ -419,5 +478,9 @@ export const OTHER_REGION_ADVICE: L[] = [
   {
     ko: '중부(즈엉동)는 야시장·시장·롱비치 일몰이 중심이고 공항이 가까워 마지막 날 묵기 편해요.',
     en: 'Duong Dong (centre) has the night market, local market and Long Beach sunsets, and is close to the airport for your last night.',
+  },
+  {
+    ko: '북부를 하루만 다녀오고 싶다면 전용 차량 종일 대절이 가장 편해요 (사파리·그랜드월드·즈엉동 순으로 돌고 남부 복귀). 부모님·아이 동반이면 가이드 동행도 문의할 수 있어요.',
+    en: 'For a single north day trip, a private car for the day is easiest (safari → Grand World → Duong Dong → back south). With parents or kids, a local guide can join too.',
   },
 ]

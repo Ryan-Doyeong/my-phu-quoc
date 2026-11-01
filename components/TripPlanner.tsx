@@ -56,6 +56,9 @@ const UI = {
   detail: { ko: '자세히', en: 'Details' },
   direct: { ko: '마이 푸꾸옥 직접 운영', en: 'Run by My Phu Quoc' },
   partner: { ko: '제휴 업체 연결', en: 'Partner operator' },
+  klook: { ko: 'Klook 제휴 예매', en: 'Book via Klook' },
+  klookBtn: { ko: 'Klook에서 예매', en: 'Book on Klook' },
+  klookPrice: { ko: 'Klook에서 가격 확인', en: 'See price on Klook' },
   cartBar: { ko: '문의 목록', en: 'Inquiry list' },
   cartEmpty: { ko: '마음에 드는 상품을 담아 한 번에 문의하세요', en: 'Add items and ask about them all at once' },
   openCart: { ko: '견적·예약 문의하기', en: 'Ask for a quote' },
@@ -592,7 +595,9 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
                         {product && bookable && (
                           <div className="tpProduct">
                             <div className="tpProductMeta">
-                              <span>{product.operator === 'direct' ? UI.direct[lang] : UI.partner[lang]}</span>
+                              <span className={product.operator === 'direct' ? 'tpOpDirect' : undefined}>
+                                {product.operator === 'direct' ? UI.direct[lang] : product.operator === 'klook' ? UI.klook[lang] : UI.partner[lang]}
+                              </span>
                               {product.duration && it.kind !== 'move' && !it.title.ko.includes('체크인 전') && <span>· {tx(product.duration)}</span>}
                             </div>
 
@@ -618,16 +623,31 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
                             {product.caution && <p className="tpCaution">{tx(product.caution)}</p>}
 
                             <div className="tpProductFoot">
-                              <span className="tpPrice">{priceText(product.id, product.tiers ? tier : undefined, lang)}</span>
+                              <span className="tpPrice">
+                                {product.operator === 'klook' && product.klookUrl ? UI.klookPrice[lang] : priceText(product.id, product.tiers ? tier : undefined, lang)}
+                              </span>
                               <div className="tpProductActions">
                                 {product.link && (
                                   <Link href={localePath(locale, product.link)} className="tpLink">
                                     {UI.detail[lang]}
                                   </Link>
                                 )}
-                                <button type="button" className={`tpAdd${entry ? ' isAdded' : ''}`} aria-pressed={!!entry} onClick={() => toggleCart(day.index, it)}>
-                                  {entry ? `✓ ${UI.added[lang]}` : `+ ${UI.add[lang]}`}
-                                </button>
+                                {product.operator === 'klook' && product.klookUrl ? (
+                                  <a
+                                    href={product.klookUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer sponsored"
+                                    className="tpAdd tpKlook"
+                                    data-cta="klook"
+                                    data-cta-source="trip-planner"
+                                  >
+                                    {UI.klookBtn[lang]} ↗
+                                  </a>
+                                ) : (
+                                  <button type="button" className={`tpAdd${entry ? ' isAdded' : ''}`} aria-pressed={!!entry} onClick={() => toggleCart(day.index, it)}>
+                                    {entry ? `✓ ${UI.added[lang]}` : `+ ${UI.add[lang]}`}
+                                  </button>
+                                )}
                               </div>
                             </div>
                           </div>

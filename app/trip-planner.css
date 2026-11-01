@@ -967,6 +967,19 @@
   transition: background 0.15s ease, color 0.15s ease;
 }
 
+.tpAdd.tpKlook {
+  background: #ff5722;
+  border-color: #ff5722;
+  color: #fff;
+  text-decoration: none;
+}
+.tpAdd.tpKlook:hover {
+  background: #e64a19;
+}
+.tpOpDirect {
+  color: #111;
+  font-weight: 700;
+}
 .tpAdd.isAdded {
   background: var(--tp-ink);
   color: #fff !important;

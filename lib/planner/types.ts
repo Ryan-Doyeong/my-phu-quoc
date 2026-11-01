@@ -34,8 +34,13 @@ export type ProductKind = 'service' | 'tour' | 'ticket' | 'activity'
 export interface Product {
   id: string
   kind: ProductKind
-  /** direct = 마이 푸꾸옥 직접 운영, partner = 제휴 업체 연결 */
-  operator: 'direct' | 'partner'
+  /**
+   * direct = 마이 푸꾸옥 직접 운영(수익 상품), partner = 제휴 업체 연결,
+   * klook = 티켓은 Klook 제휴 링크로 안내 (우리 수익 없음 → 편의 제공)
+   */
+  operator: 'direct' | 'partner' | 'klook'
+  /** operator가 klook일 때 예매 링크 (aid 포함) */
+  klookUrl?: string
   name: L
   summary: L
   duration?: L

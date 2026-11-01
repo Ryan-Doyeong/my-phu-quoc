@@ -228,6 +228,7 @@ function runProgram(ctx: Ctx, id: ProgramId): ProgramResult {
             ),
             alternatives: [productItem(ctx, 'buggy_tour', '09:30', 'south')],
           }),
+          ...(PRODUCTS.local_guide.hidden ? [] : [productItem(ctx, 'local_guide', '09:00', 'south')]),
           spot(ctx, 'lunch', '12:30', 'south', 'meal'),
           productItem(ctx, 'massage', '15:00', 'south', { alternatives: [spot(ctx, 'resortRest', '15:00', 'south', 'rest')] }),
         ],
@@ -324,6 +325,14 @@ export function generatePlan(input: PlannerInput): Plan {
         items.push(
           productItem(ctx, 'airport_pickup', arrLabel, 'south', {
             desc: t('공항 도착 후 남부 숙소까지 약 25~30분.', 'About 25–30 min from the airport to your southern hotel.'),
+          }),
+        )
+        items.push(
+          productItem(ctx, 'exchange', arrLabel, 'south', {
+            desc: t(
+              '공항 환전소는 환율이 불리해요. 픽업 기사에게 미리 말해 두면 숙소 근처에서 바꿀 수 있어요.',
+              'Airport counters give poor rates. Tell your driver in advance to exchange near your hotel.',
+            ),
           }),
         )
       }
@@ -508,6 +517,14 @@ export function generatePlan(input: PlannerInput): Plan {
           if (input.companion === 'parents') kissFlags.push(t('앞줄은 소리·조명이 강해요 — 중간~뒤쪽 좌석 추천', 'Front rows are loud and bright — sit middle to back'))
           if (input.companion === 'kids') kissFlags.push(t('21시 시작이라 아이가 피곤하면 바깥에서 불꽃만 봐도 좋아요', '21:00 start — with tired kids, just watch the fireworks outside'))
           items.push(item(ctx, 'kiss', '21:00', 'must', SPOT.kiss.title, 'south', { desc: SPOT.kiss.desc, productId: 'kiss_ticket', flags: kissFlags }))
+          items.push(
+            productItem(ctx, 'show_return', '21:45', 'south', {
+              desc: t(
+                '공연이 끝나면 수천 명이 한꺼번에 나와 택시·그랩이 잘 안 잡혀요. 숙소가 걸어갈 거리가 아니면 미리 잡아 두세요.',
+                'Thousands leave at once and taxis/Grab are scarce. Pre-book unless your hotel is within walking distance.',
+              ),
+            }),
+          )
         } else if (has('night')) {
           items.push(spot(ctx, 'bazaar', '20:15', 'south'))
         }
