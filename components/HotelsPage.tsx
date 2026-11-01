@@ -136,7 +136,10 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
             <span className="cardScore">{hotel.rating.toFixed(1)} ★</span>
             <span className="cardReviews">({formatReviewLabel(hotel.reviewsCount, locale)})</span>
             {hotel.googleRating && (
-              <span className="googleScoreBadge">{t.googleMapsLabel} {hotel.googleRating.toFixed(1)} ★ ({hotel.googleReviewsCount || 18})</span>
+              <span className="googleScoreBadge">
+                {t.googleMapsLabel} {hotel.googleRating.toFixed(1)} ★
+                {typeof hotel.googleReviewsCount === 'number' && hotel.googleReviewsCount > 0 ? ` (${hotel.googleReviewsCount})` : ''}
+              </span>
             )}
             <HotelPriceBadge priceRange={hotel.priceRange} />
           </div>
@@ -336,7 +339,10 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                 <span className="modalScoreDivider" style={{ margin: '0 6px', color: '#cbd5e1' }}>·</span>
                 <span className="modalReviews">{formatReviewLabel(hotel.reviewsCount, locale)}</span>
                 {hotel.googleRating && (
-                  <span className="googleScoreBadge">{t.googleMapsLabel} {hotel.googleRating.toFixed(1)} ★ ({hotel.googleReviewsCount || 18})</span>
+                  <span className="googleScoreBadge">
+                    {t.googleMapsLabel} {hotel.googleRating.toFixed(1)} ★
+                    {typeof hotel.googleReviewsCount === 'number' && hotel.googleReviewsCount > 0 ? ` (${hotel.googleReviewsCount})` : ''}
+                  </span>
                 )}
                 <HotelPriceBadge priceRange={hotel.priceRange} style={{ marginLeft: '6px' }} />
               </div>
