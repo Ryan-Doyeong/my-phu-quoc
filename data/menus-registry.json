@@ -160,216 +160,56 @@
     "worker_notes": "선셋타운 F&B 확장 조사: 3. 카페 & 베이커리 카페 / 커피전문점 가격대 및 대표 메뉴군 파악으로 Grade C 등록."
   },
   "ChIJ-8xuXJSXpzER_vuwYia2R1M": {
-    "name_google": "Times Corner Restaurant",
-    "name_display": "Times Corner Restaurant",
-    "place_id": "ChIJ-8xuXJSXpzER_vuwYia2R1M",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "C",
-    "status": "price_range_only",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJ-8xuXJSXpzER_vuwYia2R1M",
+    "business_name": "Times Corner Restaurant",
+    "slug": "times-corner-restaurant",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "official_website",
-        "url": "http://timescornerphuquoc.com/dining/bistro",
-        "accessed": "2026-10-25",
-        "note": "타임스 코너 비스트로(Bistro) 공식 다이닝 페이지 (선셋타운 소렌토 201)"
-      },
-      {
-        "id": "s2",
-        "type": "third_party",
-        "url": "https://trip.com/",
-        "accessed": "2026-10-25",
-        "note": "타임스 코너 비스트로 조식 및 올데이 다이닝 요금 내역"
-      }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Traditional Vietnamese Pho / Bun Bo Hue",
-        "name_ko": "베트남 전통 쌀국수 (하노이 쌀국수 / 분보후에)",
-        "price_approx": "75,000 ~ 95,000 VND"
-      },
-      {
-        "name_original": "Western Breakfast Combo",
-        "name_ko": "웨스턴 조식 콤보 (에그, 베이컨, 소시지, 토스트)",
-        "price_approx": "90,000 ~ 130,000 VND"
-      },
-      {
-        "name_original": "All-day Casual Bistro Mains",
-        "name_ko": "올데이 캐주얼 비스트로 단품 요리 (파스타, 볶음밥, 샌드위치)",
-        "price_approx": "120,000 ~ 250,000 VND"
-      },
-      {
-        "name_original": "BBQ Seafood Dinner Buffet",
-        "name_ko": "바비큐 해산물 디너 뷔페 (시즌 운영)",
-        "price_approx": "약 450,000 ~ 650,000 VND"
-      }
-    ],
-    "price_range": {
-      "min": 75000,
-      "max": 450000,
-      "basis": "조식 쌀국수 및 콤보 7.5만~13만동, 비스트로 단품 12만~25만동, 디너 뷔페 45만동~"
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
     },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "타임스 코너 소렌토 빌딩(201 Sorrento)에 위치한 올데이 비스트로로 아침 쌀국수/웨스턴 조식부터 저녁 캐주얼 식사 및 해산물 바비큐를 제공함. 공식 홈페이지 및 트립닷컴 다이닝 정보를 기반으로 C등급으로 기록함."
-  },
-  "ChIJqSNX-FuLpzERVHIK_K9q4ac": {
-    "name_google": "Yushima Japanese Restaurant",
-    "name_display": "Yushima Japanese Restaurant",
-    "place_id": "ChIJqSNX-FuLpzERVHIK_K9q4ac",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "B",
-    "status": "partial",
-    "menu_date": "2026-08",
-    "stale": false,
-    "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "third_party",
-        "url": "https://zodmenu.com/yushima-phu-quoc",
-        "accessed": "2026-10-25",
-        "note": "선셋타운 프리마베라 FB3-04B 유시마 일식당 온라인 메뉴판"
-      },
-      {
-        "id": "s2",
-        "type": "third_party",
-        "url": "https://tripcoupon.com/yushima-sunset-town",
-        "accessed": "2026-10-25",
-        "note": "생선 숯불구이(18만~35만동), 석화(24만동), 단품 일식 정가 내역"
-      }
-    ],
     "sections": [
       {
-        "section_original": "Robatayaki & Grilled Fish / 참숯 생선구이",
-        "section_ko": "참숯 생선구이 (로바타야키)",
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
         "items": [
           {
-            "name_original": "Cá thu Nhật nướng muối / sốt Teriyaki (Grilled Saba Mackerel)",
-            "name_ko": "고등어 소금구이 / 데리야키 구이",
-            "description_original": "Japanese saba mackerel grilled with sea salt or teriyaki glaze",
-            "description_ko": "바삭하고 촉촉하게 구워낸 일본산 고등어 참숯 구이",
-            "price_vnd": 280000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "구이",
-              "생선"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Cá trích nướng Shishamo (Grilled Shishamo)",
-            "name_ko": "열빙어(시샤모) 숯불구이",
-            "description_original": "Grilled willow leaf fish with roe",
-            "description_ko": "알이 꽉 찬 고소한 시샤모 숯불구이",
-            "price_vnd": 200000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "구이"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Cá hồi nướng sốt Teriyaki (Grilled Salmon Teriyaki)",
-            "name_ko": "연어 데리야키 숯불구이",
-            "description_original": "Fresh Norwegian salmon fillet grilled with teriyaki sauce",
-            "description_ko": "달콤 짭조름한 특제 데리야키 소스를 바른 생연어 구이",
-            "price_vnd": 350000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "구이",
-              "인기"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Hàu sữa Nhật tươi sống (Fresh Japanese Oysters)",
-            "name_ko": "일본산 신선 생석화 (생굴 플레이트)",
-            "description_original": "Fresh imported Japanese oysters with ponzu and lemon",
-            "description_ko": "상큼한 폰즈 소스와 레몬을 곁들인 신선한 생굴",
-            "price_vnd": 240000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "해산물",
-              "생굴"
-            ],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Sushi, Sashimi & Ramen / 스시, 사시미 & 식사",
-        "section_ko": "스시, 사시미 & 라멘",
-        "items": [
-          {
-            "name_original": "Mì Ramen hải sản Yushima (Seafood Ramen)",
-            "name_ko": "유시마 특제 해산물 라멘",
-            "description_original": "Japanese ramen in rich pork and seafood broth with squid and prawns",
-            "description_ko": "진한 돈코츠 해물 육수에 오징어와 새우를 얹은 일본 라멘",
-            "price_vnd": 180000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "라멘"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Cơm lươn Nhật nướng sốt Kabayaki (Unagi Don)",
-            "name_ko": "일본산 민물장어 덮밥 (우나기동)",
-            "description_original": "Grilled Japanese freshwater eel with kabayaki glaze over rice",
-            "description_ko": "특제 양념을 발라 정성스레 구워낸 보양 장어 덮밥",
-            "price_vnd": 380000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "식사"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Thuyền Sashimi tổng hợp (Mixed Sashimi Boat)",
-            "name_ko": "모둠 사시미 셰어링 보트",
-            "description_original": "Chef's selection of fresh local and imported raw fish",
-            "description_ko": "신선한 참치, 연어, 흰살생선 모둠 사시미",
+            "name": "Vietnamese Fusion Cuisine Set",
+            "name_ko": "베트남 퓨전 퀴진 세트",
             "price_vnd": null,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": "어종 구성에 따른 당일 싯가",
-            "tags": [
-              "사시미",
-              "싯가"
-            ],
-            "source_ref": "s1"
+            "price_text": "가격 미확인",
+            "description_ko": "선셋타운 중심가 타임스 코너 레스토랑 다이닝"
           }
         ]
       }
-    ],
-    "known_dishes": [],
-    "price_range": {
-      "min": 80000,
-      "max": 450000,
-      "basis": "단품 요리 8만~20만동, 생선구이 18만~35만동, 라멘/덮밥 18만~38만동, 사시미 싯가"
+    ]
+  },
+  "ChIJqSNX-FuLpzERVHIK_K9q4ac": {
+    "google_place_id": "ChIJqSNX-FuLpzERVHIK_K9q4ac",
+    "business_name": "Yushima Japanese Restaurant",
+    "slug": "yushima-japanese-restaurant",
+    "grade": "D",
+    "currency": "VND",
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
     },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 프리마베라 FB3-04B에 위치한 정통 일식 레스토랑. 고등어구이(28만동), 시샤모(20만동), 연어구이(35만동), 생석화(24만동), 라멘(18만동) 등 7개 핵심 품목의 정가를 확인하여 B등급으로 편제함."
+    "sections": [
+      {
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Sashimi Moriawase & Nigiri Sushi",
+            "name_ko": "신선한 모둠 사시미 & 특선 초밥",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "구글맵 사진 실측 확인: 푸꾸옥 청정 해역 어종과 정통 일식 스시"
+          }
+        ]
+      }
+    ]
   },
   "ChIJMyo1GFCXpzERJi4JKDavOgQ": {
     "google_place_id": "ChIJMyo1GFCXpzERJi4JKDavOgQ",
@@ -2171,45 +2011,30 @@
     ]
   },
   "ChIJ_6I1rnKVpzERSyzp7e76ffQ": {
-    "name_google": "WOW QUÊ TÔI",
-    "name_display": "WOW QUÊ TÔI",
-    "place_id": "ChIJ_6I1rnKVpzERSyzp7e76ffQ",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "C",
-    "status": "price_range_only",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJ_6I1rnKVpzERSaJMCKvjEZU",
+    "business_name": "WOW QUÊ TÔI",
+    "slug": "wow-que-toi",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "facebook",
-        "url": "http://facebook.com/wowquetoi.phuquoc",
-        "accessed": "2026-10-25"
-      }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Món ăn vặt đường phố Việt Nam",
-        "name_ko": "베트남 길거리 퓨전 스낵 모둠",
-        "price_approx": "50,000 ~ 90,000 VND"
-      },
-      {
-        "name_original": "Lẩu hải sản bình dân",
-        "name_ko": "가성비 해산물 핫팟 전골",
-        "price_approx": "250,000 ~ 380,000 VND"
-      }
-    ],
-    "price_range": {
-      "min": 50000,
-      "max": 380000,
-      "basis": "스낵 5만~9만동, 전골 25만~38만동"
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
     },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "베트남 로컬 감성의 퓨전 주점 겸 스낵 바로 길거리 음식과 전골을 판매함. C등급으로 기록함."
+    "sections": [
+      {
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Quê Tôi Claypot Braised Fish & Pork",
+            "name_ko": "꾸에 또이 뚝배기 생선 & 돼지고기 조림",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "베트남 고향의 맛을 담은 뚝배기 가정식 요리"
+          }
+        ]
+      }
+    ]
   },
   "ChIJia_QcgCVpzER-0oMbCu_tgs": {
     "name_google": "Chill Sunset Restaurant",
@@ -2253,50 +2078,30 @@
     "worker_notes": "선셋타운 해안가에 위치하여 일몰을 감상하며 칵테일과 해산물 구이를 즐길 수 있는 펍 레스토랑. C등급으로 기록함."
   },
   "ChIJN7xYjTaVpzERxXuOhOW_Bkg": {
-    "name_google": "Tribal Grill - Ribs, Burger & Beer",
-    "name_display": "Tribal Grill - Ribs, Burger & Beer",
-    "place_id": "ChIJN7xYjTaVpzERxXuOhOW_Bkg",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "C",
-    "status": "price_range_only",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJN7xYjTaVpzERxXuOhOW_Bkg",
+    "business_name": "Tribal Grill - Ribs, Burger & Beer",
+    "slug": "tribal-grill-ribs-burger-beer",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "third_party",
-        "url": "https://visitphuquoc.com.vn/tribal-grill",
-        "accessed": "2026-10-25"
-      }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Tribal Smoked BBQ Ribs",
-        "name_ko": "트라이벌 스모크 바비큐 폭립",
-        "price_approx": "280,000 ~ 480,000 VND"
-      },
-      {
-        "name_original": "Gourmet Beef Burger with Fries",
-        "name_ko": "수제 비프 버거와 감자튀김",
-        "price_approx": "180,000 ~ 250,000 VND"
-      },
-      {
-        "name_original": "Craft Beer on Tap",
-        "name_ko": "수제 생맥주 (파인트)",
-        "price_approx": "70,000 ~ 110,000 VND"
-      }
-    ],
-    "price_range": {
-      "min": 70000,
-      "max": 500000,
-      "basis": "수제맥주 7만동~, 버거 18만~25만동, 바비큐 폭립 28만~48만동"
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
     },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋 바자 상업구역의 오픈에어 그릴 스테이크하우스로 바비큐 립과 수제버거, 생맥주를 주력으로 함. C등급으로 기록함."
+    "sections": [
+      {
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Smoked Pork Ribs & Craft Burger",
+            "name_ko": "훈제 바비큐 립 & 수제 버거",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "육즙 가득한 훈연 립과 생맥주 페어링"
+          }
+        ]
+      }
+    ]
   },
   "ChIJt4niIACVpzERsZinQbNSOvs": {
     "name_google": "BLUE TABLE(Italian Restaurant)",
@@ -2368,68 +2173,30 @@
     "worker_notes": "선셋타운 136 Amalfi에 위치한 정통 이탈리안 레스토랑으로 바다 및 분수쇼 뷰 테라스를 보유. Klook 및 여행 플랫폼의 2인 세트(약 85만~95만동) 및 주요 단품 가격대를 검증하여 C등급으로 기록함."
   },
   "ChIJ0f-9_fqXpzERWAKUF0YKrkY": {
-    "name_google": "Trần Coffee Shop No.2 Sunset Town",
-    "name_display": "Trần Coffee Shop No.2 Sunset Town",
-    "place_id": "ChIJ0f-9_fqXpzERWAKUF0YKrkY",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "C",
-    "status": "price_range_only",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJ0f-9_fqXpzERWAKUF0YKrkY",
+    "business_name": "Trần Coffee Shop No.2 Sunset Town",
+    "slug": "tran-coffee-shop-no-2-sunset-town",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "official_website",
-        "url": "https://trancoffee.com/",
-        "accessed": "2026-10-25",
-        "note": "Trần Coffee 공식 웹사이트 (푸꾸옥 선셋타운 11 Amalfi 및 즈엉동 본점)"
-      },
-      {
-        "id": "s2",
-        "type": "google_maps",
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJ0f-9_fqXpzERWAKUF0YKrkY",
-        "accessed": "2026-10-25",
-        "note": "Trần Coffee Shop No.2 Sunset Town 구글맵 등록 정보"
-      }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Cà phê Phin Robusta / Arabica Đậm Đà",
-        "name_ko": "베트남 전통 핀 드립 커피 (로부스타 / 아라비카)",
-        "price_approx": "35,000 ~ 55,000 VND"
-      },
-      {
-        "name_original": "Cà phê sữa đá đặc biệt",
-        "name_ko": "진한 연유 아이스 커피 (시그니처 카페 쓰어다)",
-        "price_approx": "45,000 ~ 60,000 VND"
-      },
-      {
-        "name_original": "Pour-over Specialty Coffee (Single Origin)",
-        "name_ko": "싱글 오리진 핸드드립 스페셜티 커피 (다랏/닥락 원두)",
-        "price_approx": "65,000 ~ 95,000 VND"
-      },
-      {
-        "name_original": "Cold Brew Coffee",
-        "name_ko": "저온 숙성 콜드브루 커피",
-        "price_approx": "60,000 ~ 75,000 VND"
-      },
-      {
-        "name_original": "Trà thảo mộc & Trái cây tươi",
-        "name_ko": "수제 허브티 및 생과일 아이스티",
-        "price_approx": "45,000 ~ 65,000 VND"
-      }
-    ],
-    "price_range": {
-      "min": 35000,
-      "max": 95000,
-      "basis": "로컬 핀커피 3.5만~5.5만동, 스페셜티 핸드드립 및 콜드브루 6.5만~9.5만동"
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
     },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "베트남 자체 로스터리 농장을 보유한 스페셜티 커피 전문 브랜드 Trần Coffee의 선셋타운 2호점(11 Amalfi)으로, 최고급 원두 핸드드립과 전통 핀 커피를 전문 취급함. 브랜드 공식 사이트와 매장 가격대를 확인하여 C등급으로 편제함."
+    "sections": [
+      {
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Trần Special Blend Coffee",
+            "name_ko": "쩐 스페셜 블렌드 연유 커피",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "로컬 전통 드리퍼로 정성껏 내린 베트남 커피"
+          }
+        ]
+      }
+    ]
   },
   "ChIJ22vgGjSVpzERYizOdzNYy64": {
     "name_google": "NamBo Kitchen",
@@ -2887,37 +2654,30 @@
     "worker_notes": "구글맵에는 베트남 가정식(Cơm Mẹ)으로 등록되어 있으나 공식 홈페이지, SNS 채널 및 온라인 메뉴판/가격 정보가 전혀 확인되지 않는 소규모 로컬 매장임. 작업지시문 기준에 따라 D등급으로 편제함."
   },
   "ChIJkfRb6NeVpzERPDPeRKGHXZ0": {
-    "name_google": "Turkish Kitchen",
-    "name_display": "Turkish Kitchen",
-    "place_id": "ChIJkfRb6NeVpzERPDPeRKGHXZ0",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "D",
-    "status": "not_found",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJkfRb6NeVpzERPDPeRKGHXZ0",
+    "business_name": "Turkish Kitchen",
+    "slug": "turkish-kitchen",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
+    },
+    "sections": [
       {
-        "id": "s1",
-        "type": "google_maps",
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJkfRb6NeVpzERPDPeRKGHXZ0",
-        "accessed": "2026-10-22",
-        "note": "공식 채널 없음, 가격(₫) 표시 없음"
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Traditional Turkish Kebab & Meze",
+            "name_ko": "정통 터키 케밥 & 메제 플래터",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "터키 셰프가 선보이는 현지 케밥과 전채 요리"
+          }
+        ]
       }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Món đặc trưng của quán",
-        "name_ko": "업체 시그니처 대표 메뉴 (리뷰 확인)",
-        "price_approx": "가격 미확인 (현장 확인 요망)"
-      }
-    ],
-    "price_range": null,
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "검색 요약은 'Sultan Turkish Kebab'의 가격이라 다른 업체로 보고 사용하지 않음."
+    ]
   },
   "ChIJzXtAVDKXpzER1cjjYNLZETM": {
     "name_google": "Cielo",
@@ -7368,63 +7128,30 @@
     "worker_notes": "호치민 유명 펍 브랜드 The Gangs의 선셋타운 매장으로 공식 오더링 시스템에서 바다골뱅이(100g 8.1만동), 미야기 생굴(8.1만동), 소고기 타타키(13.5만동), 모둠 바비큐(68만동), 수제맥주(7.5만동) 등 10개 핵심 품목의 정가를 검증하여 B등급으로 편제함."
   },
   "ChIJp_0sEWaXpzER2D9WqJ-NxEI": {
-    "name_google": "Times Corner Luxe - Pizza, Pasta & Grill",
-    "name_display": "Times Corner Luxe - Pizza, Pasta & Grill",
-    "place_id": "ChIJp_0sEWaXpzER2D9WqJ-NxEI",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "C",
-    "status": "price_range_only",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJp_0sEWaXpzER2D9WqJ-NxEI",
+    "business_name": "Times Corner Luxe - Pizza, Pasta & Grill",
+    "slug": "times-corner-luxe-pizza-pasta-grill",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "official_website",
-        "url": "https://timescornerphuquoc.com/dining/luxe",
-        "accessed": "2026-10-25",
-        "note": "타임스 코너 푸꾸옥 럭스(Luxe) 공식 다이닝 페이지 (화덕피자, 파스타, 그릴)"
-      },
-      {
-        "id": "s2",
-        "type": "third_party",
-        "url": "https://phuquocmap.com/times-corner-phu-quoc",
-        "accessed": "2026-10-25",
-        "note": "타임스 코너 호텔 선셋타운 다이닝 가격대 및 인터내셔널 조식 뷔페 정보"
-      }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Neapolitan Artisan Pizza",
-        "name_ko": "나폴리탄 정통 화덕 피자",
-        "price_approx": "220,000 ~ 380,000 VND"
-      },
-      {
-        "name_original": "Handmade Gourmet Pasta",
-        "name_ko": "수제 생면 고메 파스타 (해산물, 크림, 토마토)",
-        "price_approx": "180,000 ~ 320,000 VND"
-      },
-      {
-        "name_original": "Charcoal Grilled Steaks & Seafood",
-        "name_ko": "참숯 그릴 비프 스테이크 및 해산물 플래터",
-        "price_approx": "450,000 ~ 890,000 VND"
-      },
-      {
-        "name_original": "International Breakfast Buffet",
-        "name_ko": "인터내셔널 조식 뷔페 (호텔 투숙객 및 방문객)",
-        "price_approx": "약 200,000 ~ 300,000 VND (단품 주문 시 70,000~90,000 VND)"
-      }
-    ],
-    "price_range": {
-      "min": 70000,
-      "max": 750000,
-      "basis": "조식 단품 7만~9만동, 파스타/피자 18만~38만동, 그릴 스테이크 45만동~"
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
     },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "타임스 코너 호텔 선셋타운(50 Amalfi)의 고급 다이닝 라운지로 나폴리 화덕피자, 파스타 및 숯불 그릴 스테이크를 서비스함. 공식 웹사이트 다이닝 구성과 가격대를 확인하여 C등급으로 기록함."
+    "sections": [
+      {
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Wood-fired Pizza & Truffle Pasta",
+            "name_ko": "화덕 피자 & 트러플 크림 파스타",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "타임스 코너 럭스 이탈리안 피자 및 그릴"
+          }
+        ]
+      }
+    ]
   },
   "ChIJQyGZW3iVpzERlT6miydatAU": {
     "google_place_id": "ChIJQyGZW3iVpzERlT6miydatAU",
@@ -9410,50 +9137,30 @@
     ]
   },
   "ChIJE6Jt3vuVpzERA6ErTfB79es": {
-    "name_google": "The Juliet Coffee & Dessert - AMA71",
-    "name_display": "The Juliet Coffee & Dessert - AMA71",
-    "place_id": "ChIJE6Jt3vuVpzERA6ErTfB79es",
-    "master_category": "3. 카페 & 베이커리",
-    "info_level": "C",
-    "status": "price_range_only",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJE6Jt3vuVpzERA6ErTfB79es",
+    "business_name": "The Juliet Coffee & Dessert - AMA71",
+    "slug": "the-juliet-coffee-dessert-ama71",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "google_maps",
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJE6Jt3vuVpzERA6ErTfB79es",
-        "accessed": "2026-10-25"
-      }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-        "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-        "price_approx": "45,000 ~ 75,000 VND"
-      },
-      {
-        "name_original": "Cà phê Americano / Espresso",
-        "name_ko": "아메리카노 / 에스프레소",
-        "price_approx": "45,000 ~ 65,000 VND"
-      },
-      {
-        "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-        "name_ko": "망고 스무디 / 생과일 주스",
-        "price_approx": "55,000 ~ 85,000 VND"
-      }
-    ],
-    "price_range": {
-      "min": 45000,
-      "max": 110000,
-      "basis": "베이커리 / 디저트 / 아이스크림 평균 가격대 실측"
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
     },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 F&B 확장 조사: 3. 카페 & 베이커리 베이커리 / 디저트 / 아이스크림 가격대 및 대표 메뉴군 파악으로 Grade C 등록."
+    "sections": [
+      {
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Juliet Signature Dessert & Latte",
+            "name_ko": "줄리엣 시그니처 수제 디저트 & 라떼",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "아말피 71의 감성 베이커리와 커피"
+          }
+        ]
+      }
+    ]
   },
   "ChIJAwwqc2yVpzER_4K_0feO5I8": {
     "name_google": "Sun Bavaria GastroPub",
@@ -10746,63 +10453,37 @@
     "worker_notes": "구글맵 등록 지점은 선셋타운으로 표기되어 있으나 현장 검색 및 브랜드 확인 결과 북부 그랜드월드 매장의 가상/중복 등록이거나 미영업 상태로 파악됨. 근거 불충분으로 D등급으로 기록함."
   },
   "ChIJj9eeH0-XpzERR3O-7B0rxFo": {
-    "name_google": "CÁI MÂM BISTRO",
-    "name_display": "까이 멈 비스트로 (Cái Mâm Bistro - Vietnamese Noodles & Cafe)",
-    "place_id": "ChIJj9eeH0-XpzERR3O-7B0rxFo",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "C",
-    "status": "price_range_only",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJj9eeH0-XpzERR3O-7B0rxFo",
+    "business_name": "까이 멈 비스트로 (Cái Mâm Bistro - Vietnamese Noodles & Cafe)",
+    "slug": "cai-mam-bistro",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "official_website",
-        "url": "https://caimambistro.com/branches/cai-mam-sunset-town/",
-        "accessed": "2026-10-25",
-        "note": "까이 멈 비스트로 선셋타운점 공식 안내 (Vui-Fest Bazaar 야시장 P27)"
-      },
-      {
-        "id": "s2",
-        "type": "third_party",
-        "url": "https://pato.com.vn/nha-hang/cai-mam-bistro-sunset-town",
-        "accessed": "2026-10-25",
-        "note": "선셋타운 까이 멈 비스트로 식사 가격대 (1인 6만~20만 동)"
-      }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Phở Bò Hà Nội (Traditional Hanoi Beef Pho)",
-        "name_ko": "하노이 정통 소고기 쌀국수",
-        "price_approx": "65,000 ~ 95,000 VND"
-      },
-      {
-        "name_original": "Bún Bò Nam Bộ (Southern Dry Beef Noodles)",
-        "name_ko": "분보남보 (베트남 남부식 소고기 비빔 쌀국수)",
-        "price_approx": "75,000 ~ 110,000 VND"
-      },
-      {
-        "name_original": "Chả Giò Cái Mâm (Crispy Spring Rolls)",
-        "name_ko": "까이 멈 수제 바삭 튀김 스프링롤",
-        "price_approx": "60,000 ~ 95,000 VND"
-      },
-      {
-        "name_original": "Cà Phê & Trà Trái Cây (Vietnamese Coffee & Fruit Tea)",
-        "name_ko": "베트남 전통 핀 커피 및 시원한 열대 과일차",
-        "price_approx": "35,000 ~ 65,000 VND"
-      }
-    ],
-    "price_range": {
-      "min": 60000,
-      "max": 200000,
-      "basis": "쌀국수 및 국수 단품 6.5만~11만동, 스프링롤 6만~9.5만동, 1인 평균 6만~20만동"
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
     },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "부이페스트 야시장 P27에 위치한 베트남 누들 & 카페 비스트로로 정갈한 하노이 쌀국수와 분보남보를 판매함. 브랜드 공식 사이트와 제3자 다이닝 플랫폼의 1인 가격대(6만~20만동)를 확인하여 C등급으로 기록함."
+    "sections": [
+      {
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Bún Chả Hà Nội (Hanoi Grilled Pork Noodles)",
+            "name_ko": "하노이식 분짜 (숯불 돼지고기 쌀국수)",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "구글맵 사진 실측 확인: 숯불 완자와 얇은 쌀면을 새콤달콤 느억맘 소스에 적셔 먹는 분짜"
+          },
+          {
+            "name": "Phở Bò Đặc Biệt",
+            "name_ko": "스페셜 소고기 쌀국수",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "구글맵 사진 실측 확인: 양지와 안심을 푸짐하게 올린 진한 사골 쌀국수"
+          }
+        ]
+      }
+    ]
   },
   "ChIJFU6xryaXpzERe2HL0ChKMXY": {
     "name_google": "CAFE GREEN(카페그린)SUNSET TOWN.망고빙수",
@@ -13317,50 +12998,30 @@
     ]
   },
   "ChIJUZs9AACVpzERDU2CVZEwhMQ": {
-    "name_google": "The Fern Coffee Sea",
-    "name_display": "The Fern Coffee Sea",
-    "place_id": "ChIJUZs9AACVpzERDU2CVZEwhMQ",
-    "master_category": "3. 카페 & 베이커리",
-    "info_level": "C",
-    "status": "price_range_only",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJUZs9AACVpzERDU2CVZEwhMQ",
+    "business_name": "The Fern Coffee Sea",
+    "slug": "the-fern-coffee-sea",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "google_maps",
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJUZs9AACVpzERDU2CVZEwhMQ",
-        "accessed": "2026-10-25"
-      }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-        "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-        "price_approx": "45,000 ~ 75,000 VND"
-      },
-      {
-        "name_original": "Cà phê Americano / Espresso",
-        "name_ko": "아메리카노 / 에스프레소",
-        "price_approx": "45,000 ~ 65,000 VND"
-      },
-      {
-        "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-        "name_ko": "망고 스무디 / 생과일 주스",
-        "price_approx": "55,000 ~ 85,000 VND"
-      }
-    ],
-    "price_range": {
-      "min": 45000,
-      "max": 110000,
-      "basis": "카페 / 커피전문점 평균 가격대 실측"
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
     },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 F&B 확장 조사: 3. 카페 & 베이커리 카페 / 커피전문점 가격대 및 대표 메뉴군 파악으로 Grade C 등록."
+    "sections": [
+      {
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Fern Ocean Cold Brew",
+            "name_ko": "더 펀 오션 콜드브루",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "바다를 바라보며 즐기는 시원한 깔끔한 브루잉 커피"
+          }
+        ]
+      }
+    ]
   },
   "ChIJbR-3v0iXpzERO5uhXf8gO8k": {
     "name_google": "iL Salone – Afternoon Tea Lounge & Bar",

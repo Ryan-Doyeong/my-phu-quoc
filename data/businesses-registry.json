@@ -3106,7 +3106,9 @@
     "gallery_urls": [
       "/covers-photo/cai-mam-bistro-1.webp",
       "/covers-photo/cai-mam-bistro-2.webp",
-      "/covers-photo/cai-mam-bistro-3.webp"
+      "/covers-photo/cai-mam-bistro-3.webp",
+      "/images/businesses/cai-mam-bistro/cai-mam-bistro_menu_01.webp",
+      "/images/businesses/cai-mam-bistro/cai-mam-bistro_menu_02.webp"
     ],
     "tags": [
       "cafe",
@@ -4265,7 +4267,9 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/yushima-japanese-restaurant/yushima-japanese-restaurant_menu_01.webp"
+    ],
     "tags": [
       "seafood",
       "Sunset Town"
@@ -5173,7 +5177,9 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/the-fern-coffee-sea/the-fern-coffee-sea_menu_01.webp"
+    ],
     "tags": [
       "cafe",
       "Sunset Town"
