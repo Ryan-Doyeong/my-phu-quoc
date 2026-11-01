@@ -8793,7 +8793,7 @@
     "description_ko": "2025년 신축, 평점 9.5의 선셋타운 감성 부티크 호텔.",
     "address": "17 Positano, An Thới, Phú Quốc, Kiên Giang, Vietnam",
     "google_maps_name": "Coastal Living Hotel Phu Quoc",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Coastal+Living+Hotel+Sunset+Town+Phu+Quoc",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Coastal+Living+Hotel+Phu+Quoc",
     "phone": "+84 297 3888 888",
     "website_url": "https://www.agoda.com/ko-kr/coastal-living-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
@@ -8824,7 +8824,9 @@
     "is_featured": true,
     "badges": [
       "Recommended"
-    ]
+    ],
+    "lat": 10.0268,
+    "lng": 104.0079
   },
   {
     "id": "local-sunset-casepia-dining",
