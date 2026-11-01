@@ -120,7 +120,6 @@ export const QUICK_SERVICE_ORDER: QuickServiceKey[] = [
   'events',       // 4. 이벤트
   'activities',   // 5. 액티비티
   'emergency',    // 6. 긴급상황
-  'itineraries',  // 7. 추천 테마 일정
 ]
 
 interface QuickServiceDefinition {
@@ -573,6 +572,33 @@ export function HomePage({
               )
             })}
           </div>
+
+          {/* 2-B. 추천 테마 일정 대형 세로 배너 (서비스 의뢰 입구 · 부제목은 임시 자리표시, 확정 문구 추후 반영) */}
+          {(() => {
+            const def = QUICK_SERVICES_REGISTRY.itineraries
+            if (!def) return null
+            const label = def.labels[locale] || def.labels.en
+            const subLabel = QUICK_CARD_SUBLABELS.itineraries
+              ? pickLocale(QUICK_CARD_SUBLABELS.itineraries, locale)
+              : ''
+
+            return (
+              <Link
+                href={localePath(locale, def.href || '/itineraries')}
+                className="itinerariesBannerCard"
+                id="card-itineraries"
+                title={label}
+              >
+                <div className={`cardIconWrap ${def.iconWrapClass} itinerariesBannerIconWrap`}>
+                  {def.renderIcon()}
+                </div>
+                <div className="itinerariesBannerBody">
+                  <div className="cardLabel itinerariesBannerTitle">{label}</div>
+                  {subLabel && <div className="cardSub itinerariesBannerSub">{subLabel}</div>}
+                </div>
+              </Link>
+            )
+          })()}
         </section>
 
         {/* 3. Text, Search & Twin Buttons */}

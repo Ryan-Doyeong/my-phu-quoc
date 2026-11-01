@@ -2900,28 +2900,30 @@
   pointer-events: none;
 }
 
-/* 2. Quick Service Cards (Scroll-snap Track) */
+/* 2. Quick Service Cards (Mobile 3x2 Grid, Desktop 6x1 Grid + Large Vertical Itineraries Banner) */
 .quickServiceSection {
   background: #FFFFFF;
-  padding: 16px 0 16px;
-  overflow: hidden;
+  padding: 16px 16px 12px;
+  box-sizing: border-box;
+  overflow: visible;
 }
 .cardScrollTrack {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 10px;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  padding: 4px 16px 8px;
-  scroll-padding: 0 16px;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
+  overflow-x: visible;
+  padding: 4px 0 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 .cardScrollTrack::-webkit-scrollbar {
   display: none;
 }
 .serviceCard {
-  flex: 0 0 96px;
-  scroll-snap-align: start;
+  flex: none;
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
   background: #FFFFFF;
   border: 1px solid #DEE2E6;
   border-radius: 8px;
@@ -2985,6 +2987,67 @@
   line-height: 1.2;
   min-height: 13px;
   word-break: keep-all;
+}
+
+/* 2-B. 추천 테마 일정 대형 세로 배너 (서비스 의뢰 입구) */
+.itinerariesBannerCard {
+  margin-top: 12px;
+  width: 100%;
+  min-height: 168px;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, #FFF5F6 0%, #FFFFFF 100%);
+  border: 1.5px solid #FECDD3;
+  border-radius: var(--card-radius, 16px);
+  padding: 26px 20px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: #101418;
+  box-shadow: 0 4px 14px rgba(225, 29, 72, 0.07);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+.itinerariesBannerCard:hover {
+  border-color: #FB7185;
+  box-shadow: 0 6px 20px rgba(225, 29, 72, 0.12);
+  transform: translateY(-1px);
+}
+.itinerariesBannerCard:active {
+  transform: scale(0.99);
+}
+.itinerariesBannerIconWrap {
+  width: 68px;
+  height: 68px;
+  border-radius: 18px;
+  margin-bottom: 12px;
+  background: #FFE4E6;
+  box-shadow: 0 2px 8px rgba(225, 29, 72, 0.1);
+}
+.itinerariesBannerIconWrap svg {
+  width: 42px;
+  height: 42px;
+}
+.itinerariesBannerBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.itinerariesBannerTitle {
+  font-size: 18px !important;
+  font-weight: 800 !important;
+  color: #101418;
+  line-height: 1.3;
+  margin-bottom: 0;
+}
+.itinerariesBannerSub {
+  font-size: 13.5px !important;
+  font-weight: 500;
+  color: #495057;
+  line-height: 1.45;
+  min-height: 0;
 }
 
 /* 3. Hero Text, Search & Twin Buttons */
@@ -3260,15 +3323,15 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 24px;
+    padding: 20px 24px 16px;
     box-sizing: border-box;
   }
   .cardScrollTrack {
     display: grid !important;
-    grid-template-columns: repeat(7, 1fr) !important;
+    grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
     gap: 12px !important;
     justify-content: stretch !important;
-    padding: 4px 0 8px !important;
+    padding: 4px 0 0 !important;
     width: 100% !important;
     overflow-x: visible !important;
   }
@@ -3287,8 +3350,29 @@
     height: 36px;
   }
   .cardLabel {
-    font-size: 12px !important;
+    font-size: 13px !important;
     font-weight: 700;
+  }
+  .itinerariesBannerCard {
+    margin-top: 14px;
+    min-height: 188px;
+    padding: 32px 28px 30px;
+  }
+  .itinerariesBannerIconWrap {
+    width: 76px;
+    height: 76px;
+    border-radius: 20px;
+    margin-bottom: 14px;
+  }
+  .itinerariesBannerIconWrap svg {
+    width: 46px;
+    height: 46px;
+  }
+  .itinerariesBannerTitle {
+    font-size: 21px !important;
+  }
+  .itinerariesBannerSub {
+    font-size: 14.5px !important;
   }
   .heroTextSection {
     width: 100%;
