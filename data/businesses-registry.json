@@ -9202,25 +9202,26 @@
     "description_ko": "Vietcombank, BIDV ATM — JW메리어트 푸꾸옥 에메랄드 베이 입구.",
     "address": "22PF+8V6 Jw Marriott, Phú Quốc, An Giang, Vietnam",
     "google_maps_name": "ATM Vietcombank, BIDV ATM",
-    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJHb8567mWpzER64OgWXrzHkc",
+    "google_maps_url": "https://www.google.com/maps?cid=5124801132809454571",
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "private",
+    "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 2.9,
     "google_review_count": 50,
     "gallery_urls": [],
     "tags": [
-      "attraction",
-      "Sunset Town"
+      "Khem Beach",
+      "atm"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.035788,
-    "lng": 104.024647
+    "lng": 104.024647,
+    "zone": "khem-beach"
   },
   {
     "id": "local-sunset-289",
@@ -9333,7 +9334,7 @@
     "status": "published",
     "verification_status": "verified",
     "verification_note": "마이푸꾸옥 공식 운영 / 추천 부티크 호텔",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 18,
     "is_featured": true,
     "gallery_urls": [
@@ -9503,5 +9504,25 @@
       "Recommended"
     ],
     "price_level": "87865"
+  },
+  {
+    "id": "khem-banking-king-kong",
+    "public_name": "King Kong Money Exchange - Khem Beach",
+    "slug": "king-kong-money-exchange-khem-beach",
+    "category": "banking",
+    "subcategory": "currency_exchange",
+    "address": "Kem Beach, 59 Diamond 1, Phú Quốc, Vietnam",
+    "google_maps_name": "King Kong Money Exchange - Khem Beach",
+    "google_maps_url": "https://www.google.com/maps?cid=7406987655171001539",
+    "zone": "khem-beach",
+    "status": "published",
+    "verification_status": "verified",
+    "tags": [
+      "Khem Beach",
+      "currency_exchange"
+    ],
+    "gallery_urls": [],
+    "lat": 10.0335,
+    "lng": 104.0285
   }
 ]

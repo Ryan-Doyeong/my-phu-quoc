@@ -8,8 +8,7 @@ import { localePath, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
 import { categoryLabel } from '@/lib/directory'
 import {
-  BANKING_ATMS,
-  BANKING_EXCHANGES,
+  BANKING_PLACES,
   BANKING_UI_STRINGS,
   type BankingItem,
 } from '@/lib/banking'
@@ -30,20 +29,20 @@ function BankingCard({ item, locale }: { item: BankingItem; locale: Locale }) {
         backgroundColor: '#FFFFFF',
         border: '1px solid #E5E7EB',
         borderRadius: '8px',
-        padding: '18px 20px',
+        padding: '16px 18px',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'space-between',
         boxShadow: '0 1px 3px rgba(0, 0, 0, 0.04)',
-        transition: 'border-color 0.15s ease, box-shadow 0.15s ease',
+        boxSizing: 'border-box',
       }}
     >
       <div>
         {/* 상호명 */}
         <h3
           style={{
-            margin: '0 0 8px 0',
-            fontSize: '17px',
+            margin: '0 0 6px 0',
+            fontSize: '16px',
             fontWeight: 700,
             color: '#111827',
             letterSpacing: '-0.01em',
@@ -59,15 +58,15 @@ function BankingCard({ item, locale }: { item: BankingItem; locale: Locale }) {
             display: 'flex',
             alignItems: 'center',
             gap: '6px',
-            fontSize: '13.5px',
+            fontSize: '13px',
             color: '#4B5563',
-            marginBottom: item.type === 'atm' ? '12px' : '16px',
+            marginBottom: item.type === 'atm' ? '10px' : '14px',
             lineHeight: 1.4,
           }}
         >
           <svg
-            width="15"
-            height="15"
+            width="14"
+            height="14"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -91,7 +90,7 @@ function BankingCard({ item, locale }: { item: BankingItem; locale: Locale }) {
               flexWrap: 'wrap',
               gap: '6px',
               fontSize: '12px',
-              marginBottom: '16px',
+              marginBottom: '14px',
               paddingTop: '6px',
               borderTop: '1px dashed #F3F4F6',
             }}
@@ -108,7 +107,7 @@ function BankingCard({ item, locale }: { item: BankingItem; locale: Locale }) {
                     color: '#334155',
                     padding: '2px 8px',
                     borderRadius: '4px',
-                    fontSize: '11.5px',
+                    fontSize: '11px',
                     fontWeight: 600,
                     letterSpacing: '0.01em',
                     border: '1px solid #E2E8F0',
@@ -132,7 +131,7 @@ function BankingCard({ item, locale }: { item: BankingItem; locale: Locale }) {
         )}
       </div>
 
-      {/* 구글맵 버튼 (좌표 링크) */}
+      {/* 구글맵 버튼 (CID 링크) */}
       <a
         href={googleMapsUrl}
         target="_blank"
@@ -143,7 +142,7 @@ function BankingCard({ item, locale }: { item: BankingItem; locale: Locale }) {
           justifyContent: 'center',
           gap: '6px',
           width: '100%',
-          padding: '9px 14px',
+          padding: '8px 12px',
           borderRadius: '6px',
           backgroundColor: '#F9FAFB',
           border: '1px solid #E5E7EB',
@@ -164,8 +163,8 @@ function BankingCard({ item, locale }: { item: BankingItem; locale: Locale }) {
         }}
       >
         <svg
-          width="14"
-          height="14"
+          width="13"
+          height="13"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
@@ -184,6 +183,21 @@ function BankingCard({ item, locale }: { item: BankingItem; locale: Locale }) {
 export function BankingDirectory({ locale }: BankingDirectoryProps) {
   const dict = getDictionary(locale)
   const ui = BANKING_UI_STRINGS[locale] || BANKING_UI_STRINGS.en
+
+  // 구역별 그룹핑
+  const sunsetAtms = BANKING_PLACES.filter(
+    (b) => b.zone === 'sunset-town' && b.type === 'atm'
+  )
+  const sunsetExchanges = BANKING_PLACES.filter(
+    (b) => b.zone === 'sunset-town' && b.type === 'exchange'
+  )
+
+  const khemAtms = BANKING_PLACES.filter(
+    (b) => b.zone === 'khem-beach' && b.type === 'atm'
+  )
+  const khemExchanges = BANKING_PLACES.filter(
+    (b) => b.zone === 'khem-beach' && b.type === 'exchange'
+  )
 
   return (
     <main style={{ minHeight: '100vh', backgroundColor: '#F9FAFB' }}>
@@ -214,115 +228,229 @@ export function BankingDirectory({ locale }: BankingDirectoryProps) {
         </div>
       </header>
 
-      {/* 단색 연한 오렌지 배너 */}
+      {/* 가로로 길고 얇은 띠 배너 (데스크톱 약 56~60px, 모바일 약 48px) */}
       <section
         style={{
           backgroundColor: '#FFF7ED',
           borderBottom: '1px solid #FFEDD5',
-          padding: '36px 20px',
-          textAlign: 'center',
+          padding: '12px 20px',
           boxSizing: 'border-box',
         }}
       >
-        <div style={{ maxWidth: '720px', margin: '0 auto' }}>
+        <div
+          style={{
+            maxWidth: '1040px',
+            margin: '0 auto',
+            display: 'flex',
+            alignItems: 'baseline',
+            flexWrap: 'wrap',
+            gap: '8px 12px',
+          }}
+        >
           <h1
             style={{
-              margin: '0 0 8px 0',
-              fontSize: '28px',
+              margin: 0,
+              fontSize: '18px',
               fontWeight: 800,
               color: '#9A3412',
               letterSpacing: '-0.02em',
+              lineHeight: 1.2,
             }}
           >
             {ui.bannerTitle}
           </h1>
-          <p
+          <span
             style={{
-              margin: 0,
-              fontSize: '15px',
-              color: '#7C2D12',
-              opacity: 0.9,
-              lineHeight: 1.5,
+              fontSize: '13px',
+              color: '#9A3412',
+              opacity: 0.85,
+              lineHeight: 1.2,
             }}
           >
             {ui.bannerSubtitle}
-          </p>
+          </span>
         </div>
       </section>
 
-      {/* 메인 리스트 컨테이너 */}
+      {/* 메인 리스트 컨테이너 (위아래 여백을 대폭 줄여 카드가 즉시 보이도록) */}
       <div
         style={{
           maxWidth: '1040px',
           margin: '0 auto',
-          padding: '36px 20px 80px',
+          padding: '24px 20px 60px',
           boxSizing: 'border-box',
         }}
       >
-        {/* 섹션 1: ATM 3곳 */}
-        <section style={{ marginBottom: '44px' }}>
+        {/* ==================== 구역 1: 선셋타운 ==================== */}
+        <section style={{ marginBottom: '40px' }}>
           <div
             style={{
-              marginBottom: '18px',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '8px',
+              paddingBottom: '10px',
+              borderBottom: '2px solid #E5E7EB',
+              marginBottom: '20px',
             }}
           >
             <h2
               style={{
                 margin: 0,
-                fontSize: '20px',
-                fontWeight: 700,
+                fontSize: '21px',
+                fontWeight: 800,
                 color: '#111827',
-                letterSpacing: '-0.015em',
+                letterSpacing: '-0.02em',
               }}
             >
-              {ui.atmSectionTitle}
+              {ui.sunsetTownTitle}
             </h2>
           </div>
 
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
-              gap: '16px',
-            }}
-          >
-            {BANKING_ATMS.map((atm) => (
-              <BankingCard key={atm.id} item={atm} locale={locale} />
-            ))}
-          </div>
+          {/* 선셋타운 ATM 3곳 */}
+          {sunsetAtms.length > 0 && (
+            <div style={{ marginBottom: '28px' }}>
+              <div style={{ marginBottom: '14px' }}>
+                <h3
+                  style={{
+                    margin: 0,
+                    fontSize: '16px',
+                    fontWeight: 700,
+                    color: '#374151',
+                    letterSpacing: '-0.01em',
+                  }}
+                >
+                  {ui.atmSectionTitle(sunsetAtms.length)}
+                </h3>
+              </div>
+              <div
+                style={{
+                  display: 'grid',
+                  gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
+                  gap: '14px',
+                }}
+              >
+                {sunsetAtms.map((atm) => (
+                  <BankingCard key={atm.id} item={atm} locale={locale} />
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* 선셋타운 환전소 5곳 */}
+          {sunsetExchanges.length > 0 && (
+            <div>
+              <div style={{ marginBottom: '14px' }}>
+                <h3
+                  style={{
+                    margin: 0,
+                    fontSize: '16px',
+                    fontWeight: 700,
+                    color: '#374151',
+                    letterSpacing: '-0.01em',
+                  }}
+                >
+                  {ui.exchangeSectionTitle(sunsetExchanges.length)}
+                </h3>
+              </div>
+              <div
+                style={{
+                  display: 'grid',
+                  gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
+                  gap: '14px',
+                }}
+              >
+                {sunsetExchanges.map((item) => (
+                  <BankingCard key={item.id} item={item} locale={locale} />
+                ))}
+              </div>
+            </div>
+          )}
         </section>
 
-        {/* 섹션 2: 환전소 5곳 */}
+        {/* ==================== 구역 2: 켐비치 ==================== */}
         <section>
           <div
             style={{
-              marginBottom: '18px',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '8px',
+              paddingBottom: '10px',
+              borderBottom: '2px solid #E5E7EB',
+              marginBottom: '20px',
             }}
           >
             <h2
               style={{
                 margin: 0,
-                fontSize: '20px',
-                fontWeight: 700,
+                fontSize: '21px',
+                fontWeight: 800,
                 color: '#111827',
-                letterSpacing: '-0.015em',
+                letterSpacing: '-0.02em',
               }}
             >
-              {ui.exchangeSectionTitle}
+              {ui.khemBeachTitle}
             </h2>
           </div>
 
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
-              gap: '16px',
-            }}
-          >
-            {BANKING_EXCHANGES.map((item) => (
-              <BankingCard key={item.id} item={item} locale={locale} />
-            ))}
-          </div>
+          {/* 켐비치 ATM 1곳 */}
+          {khemAtms.length > 0 && (
+            <div style={{ marginBottom: '28px' }}>
+              <div style={{ marginBottom: '14px' }}>
+                <h3
+                  style={{
+                    margin: 0,
+                    fontSize: '16px',
+                    fontWeight: 700,
+                    color: '#374151',
+                    letterSpacing: '-0.01em',
+                  }}
+                >
+                  {ui.atmSectionTitle(khemAtms.length)}
+                </h3>
+              </div>
+              <div
+                style={{
+                  display: 'grid',
+                  gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
+                  gap: '14px',
+                }}
+              >
+                {khemAtms.map((atm) => (
+                  <BankingCard key={atm.id} item={atm} locale={locale} />
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* 켐비치 환전소 1곳 */}
+          {khemExchanges.length > 0 && (
+            <div>
+              <div style={{ marginBottom: '14px' }}>
+                <h3
+                  style={{
+                    margin: 0,
+                    fontSize: '16px',
+                    fontWeight: 700,
+                    color: '#374151',
+                    letterSpacing: '-0.01em',
+                  }}
+                >
+                  {ui.exchangeSectionTitle(khemExchanges.length)}
+                </h3>
+              </div>
+              <div
+                style={{
+                  display: 'grid',
+                  gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
+                  gap: '14px',
+                }}
+              >
+                {khemExchanges.map((item) => (
+                  <BankingCard key={item.id} item={item} locale={locale} />
+                ))}
+              </div>
+            </div>
+          )}
         </section>
       </div>
     </main>
