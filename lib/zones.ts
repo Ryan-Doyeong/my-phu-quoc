@@ -796,11 +796,11 @@ export function isSunsetTownFacility(b: {
  */
 export const SUNSET_BEACH_NOTICE_TEXT: Record<Locale, string> = {
   ko: '선셋타운 해변은 공연을 위한 공간으로 운영되어 해수욕 등 바닷가 이용이 어렵습니다. 바다를 즐기고 싶다면 차로 약 10분 거리의 켐 비치로 가시거나, 배를 타고 섬으로 들어가는 액티비티를 이용해 주세요.',
-  en: 'Sunset Town Beach is used as a venue for performances, so swimming and other beach activities are not permitted. If you would like to enjoy the sea, please visit Khem Beach, about a 10-minute drive away, or join a boat trip to the islands.',
+  en: 'Sunset Town Beach is used as a venue for performances, so swimming and other beach activities are not available. If you would like to enjoy the sea, please visit Khem Beach, about a 10-minute drive away, or join a boat trip to the islands.',
   zh: '日落小镇（Sunset Town）的海滩用作演出场地，因此无法在此游泳或进行其他海滩活动。如果您想享受大海，可以前往车程约10分钟的凯姆海滩（Khem Beach），或参加乘船前往岛屿的游览活动。',
   ru: 'Пляж в Сансет-Тауне (Sunset Town) используется как площадка для проведения шоу, поэтому купание и другие виды пляжного отдыха здесь недоступны. Если вы хотите насладиться морем, отправляйтесь на пляж Кхем (Khem Beach), расположенный примерно в 10 минутах езды на автомобиле, или выберите экскурсию на острова на лодке.',
   ja: 'サンセットタウン（Sunset Town）のビーチは公演会場として使用されているため、海水浴などのビーチ利用はできません。海を楽しみたい方は、車で約10分のケムビーチ（Khem Beach）へお出かけいただくか、船で島へ渡るアクティビティをご利用ください。',
-  hi: 'सनसेट टाउन (Sunset Town) के समुद्र तट का उपयोग कार्यक्रमों और प्रस्तुतियों के आयोजन स्थल के रूप में किया जाता है, इसलिए यहाँ समुद्र में तैरने और समुद्र तट पर अन्य गतिविधियों की अनुमति नहीं है। यदि आप समुद्र का आनंद लेना चाहते हैं, तो कार से लगभग 10 मिनट की दूरी पर स्थित खेम बीच (Khem Beach) जाएँ या नाव से द्वीपों की यात्रा कराने वाली गतिविधियों में भाग लें।',
+  hi: 'सनसेट टाउन (Sunset Town) के समुद्र तट का उपयोग कार्यक्रमों और प्रस्तुतियों के आयोजन स्थल के रूप में किया जाता है, इसलिए यहाँ समुद्र में तैरना और समुद्र तट पर अन्य गतिविधियाँ संभव नहीं हैं। यदि आप समुद्र का आनंद लेना चाहते हैं, तो कार से लगभग 10 मिनट की दूरी पर स्थित खेम बीच (Khem Beach) जाएँ या नाव से द्वीपों की यात्रा कराने वाली गतिविधियों में भाग लें।',
   vi: 'Sunset Town Beach is used as a venue for performances, so swimming and other beach activities are not permitted. If you would like to enjoy the sea, please visit Khem Beach, about a 10-minute drive away, or join a boat trip to the islands.',
 }
 
