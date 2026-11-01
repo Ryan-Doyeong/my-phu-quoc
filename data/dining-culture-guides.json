@@ -468,531 +468,361 @@
   },
   "hai-san-ham-ninh": {
     "food_style": {
-      "ko": "푸꾸옥 로컬 베트남 가정식 & 현지 퀴진",
-      "en": "Phu Quoc Local Vietnamese Cuisine & Home Classics",
-      "vi": "Cơm gia đình & Ẩm thực truyền thống Việt Nam",
-      "zh": "富国岛地道越南家常菜与风味美食",
-      "ja": "フーコック地元ベトナム家庭料理＆名物料理",
-      "ru": "Традиционная вьетнамская домашняя кухня Фукуока",
-      "hi": "फू क्वोक स्थानीय वियतनामी घरेलू व्यंजन"
+      "ko": "함닌 어촌 직송 전통 해산물 찜 & 숯불구이",
+      "en": "Ham Ninh Fishing Village Fresh Steamed & Charcoal Grilled Seafood",
+      "vi": "Hải sản tươi sống Làng chài Hàm Ninh hấp & nướng than hoa",
+      "zh": "涵宁渔村直供传统蒸海鲜与炭烤海味",
+      "ja": "ハムニン漁村直送料理 蒸しガニ＆炭火焼きシーフード",
+      "ru": "Традиционные свежие морепродукты из рыбацкой деревни Хамнинь",
+      "hi": "हैम निन्ह मछली पकड़ने वाले गांव का ताज़ा उबला और ग्रिल्ड सीफ़ूड"
     },
     "culture_story": {
-      "ko": "작은 뚝배기에 코코넛 캐러멜 소스와 최상급 푸꾸옥 피시소스로 자작하게 졸여낸 생선·돼지고기 조림(Kho tộ)과 마늘 향 가득 볶아낸 공심채(모닝글로리), 시원한 국이 함께 오르는 베트남 정통 가정식 밥상입니다. 갓 지은 흰 쌀밥 위에 짭조름한 조림 국물을 비벼 먹고 신선한 채소를 곁들이는 소박하면서도 깊은 풍미의 식문화입니다.",
-      "en": "Vietnamese home-style dining brings together claypot-braised fish or pork in savory caramel fish sauce glaze (Kho tộ), wok-tossed morning glory greens with crisp garlic, and light comforting broth ladled over steaming jasmine rice."
+      "ko": "함닌 어촌의 신선한 해산물 요리는 자연 그대로의 단맛을 살리는 레몬그라스 찜과 은은한 숯불 직화구이가 핵심입니다. 푸꾸옥 굵은 통후추에 천일염과 라임을 짜 넣은 소스에 갓 쪄낸 꽃게살을 찍어 먹는 것이 섬 전통의 식문화입니다.",
+      "en": "Ham Ninh seafood celebrates raw sweetness through gentle lemongrass steaming and open-charcoal grilling. Fresh wild crabs dipped in crushed black pepper and calamansi lime reflect timeless island heritage."
     },
     "sauce_guide": {
-      "ko": "베트남 미식의 영혼: 푸꾸옥 전통 느억맘 (Nước Mắm Phú Quốc)",
-      "en": "Culinary Soul: Authentic Phu Quoc Island Fish Sauce",
-      "vi": "Linh hồn bữa cơm: Nước mắm cá cơm than truyền thống Phú Quốc",
-      "zh": "餐桌灵魂：富国岛特产纯正鱼露（Nước Mắm）",
-      "ja": "料理の魂：フーコック島伝統アンチョビ魚醤（ヌックマム）",
-      "ru": "Душа кухни: Традиционный фукуокский рыбный соус ныокмам",
-      "hi": "व्यंजनों की आत्मा: प्रसिद्ध फू क्वोक फिश सॉस"
+      "ko": "해산물 필수 소스: 무이 띠에우 짜인 (후추 소금 라임)",
+      "en": "Essential Dip: Muối Tiêu Chanh (Pepper, Salt & Lime)",
+      "vi": "Nước chấm linh hồn: Muối tiêu chanh Phú Quốc",
+      "zh": "海鲜灵魂蘸料：富国胡椒柠檬盐",
+      "ja": "伝統の調味料：胡椒ライム塩（Muối Tiêu Chanh）",
+      "ru": "Фирменный соус: Черный перец с морской солью и соком лайма",
+      "hi": "मुख्य डिप: काली मिर्च, नमक और नींबू का मिश्रण"
     },
     "sauce_details": {
-      "ko": "푸꾸옥 연안의 신선한 멸치(Cá cơm)를 소금과 함께 전통 나무통에서 1년 이상 자연 발효시킨 프리미엄 피시소스입니다. 매콤한 고추를 띄워 밥이나 조림 요리, 데친 채소에 곁들이면 깊고 진한 감칠맛이 살아납니다.",
-      "en": "Naturally barrel-fermented for over a year with wild black anchovies and island sea salt, this golden elixir adds unparalleled umami depth to rice, braised dishes, and crisp greens.",
-      "vi": "Được ủ chượp từ cá cơm tươi và muối biển trong thùng gỗ bời lời hơn 12 tháng, mang đến giọt nước mắm đậm đà hậu vị ngọt thanh tự nhiên.",
-      "zh": "富国岛纯正黑凤尾鱼于大木桶中发酵逾一年，滴滴浓郁醇厚，佐以红椒圈蘸食米饭与时蔬，鲜香久久回甘。",
-      "ja": "新鮮なアンチョビを木樽で1年以上じっくり熟成させたフーコック最高峰の魚醤です。唐辛子を少し浮かべてご飯や煮物にかけると、深いコクが広がります。",
-      "ru": "Натуральный соус годовой выдержки из свежих анчоусов в деревянных бочках придает блюдам неповторимую глубину вкуса умами.",
-      "hi": "प्राकृतिक रूप से किण्वित यह प्रामाणिक फिश सॉस चावल और सब्जियों के स्वाद को एक अनोखा तीखापन और गहराई देता है।"
+      "ko": "푸꾸옥산 햇후추의 톡 쏘는 향과 생라임의 산미가 갑각류의 단맛을 극대화합니다.",
+      "en": "Aromatic island pepper combined with acidic calamansi lime highlights the sweet tenderness of steamed crabs."
     },
     "eating_tips": [
       {
-        "title_ko": "1. 뚝배기 조림 국물에 따뜻한 밥 비벼 먹기",
-        "title_en": "1. Spoon Braised Claypot Gravy over Rice",
-        "desc_ko": "달콤 짭조름한 생선이나 돼지고기 조림 국물을 갓 지은 쌀밥 위에 듬뿍 얹어 비벼 드셔보세요.",
-        "desc_en": "Drizzle the caramelized, savory claypot sauce liberally over steaming white jasmine rice."
-      },
-      {
-        "title_ko": "2. 아삭한 마늘 공심채(모닝글로리) 곁들이기",
-        "title_en": "2. Pair with Crisp Stir-Fried Morning Glory",
-        "desc_ko": "기름진 조림 요리에는 마늘 향 솔솔 풍기는 라우몽 싸오 또이(공심채 볶음)가 필수적인 밸런스를 맞춰줍니다.",
-        "desc_en": "Crunchy wok-fried water spinach with garlic cuts through rich caramel braises seamlessly."
-      },
-      {
-        "title_ko": "3. 새콤달콤한 베트남식 국(Canh chua)으로 깔끔한 마무리",
-        "title_en": "3. Cleanse with Tangy Canh Chua Soup",
-        "desc_ko": "파인애플, 토마토, 숙주가 들어간 새콤한 국물을 함께 떠먹으면 입안이 개운하게 정돈됩니다.",
-        "desc_en": "Savor a bowl of tamarind sour soup with pineapple and okra to refresh the palate."
+        "title_ko": "1. 꽃게는 찜으로 담백하게 즐기기",
+        "title_en": "1. Savor steamed blue crab for pure ocean sweetness",
+        "desc_ko": "껍질이 얇은 제철 꽃게는 찜으로 즐길 때 단맛이 가장 조밀합니다.",
+        "desc_en": "Steaming preserves the delicate texture and sweetness of wild flower crabs."
       }
     ]
   },
   "hoi-quan-european-brasserie-bar-pastry": {
     "food_style": {
-      "ko": "푸꾸옥 로컬 베트남 가정식 & 현지 퀴진",
-      "en": "Phu Quoc Local Vietnamese Cuisine & Home Classics",
-      "vi": "Cơm gia đình & Ẩm thực truyền thống Việt Nam",
-      "zh": "富国岛地道越南家常菜与风味美食",
-      "ja": "フーコック地元ベトナム家庭料理＆名物料理",
-      "ru": "Традиционная вьетнамская домашняя кухня Фукуока",
-      "hi": "फू क्वोक स्थानीय वियतनामी घरेलू व्यंजन"
+      "ko": "유러피언 브라세리 & 크래프트 페이스트리",
+      "en": "European Waterfront Brasserie & Artisan Pastry",
+      "vi": "Nhà hàng Brasserie phong cách châu Âu & Bánh ngọt",
+      "zh": "欧式水岸啤酒馆西餐厅与法式糕点",
+      "ja": "ヨーロピアンブラッスリー＆手作りペストリー",
+      "ru": "Европейское брассери и авторская выпечка",
+      "hi": "यूरोपीय ब्रासरी और हस्तनिर्मित पेस्ट्री"
     },
     "culture_story": {
-      "ko": "작은 뚝배기에 코코넛 캐러멜 소스와 최상급 푸꾸옥 피시소스로 자작하게 졸여낸 생선·돼지고기 조림(Kho tộ)과 마늘 향 가득 볶아낸 공심채(모닝글로리), 시원한 국이 함께 오르는 베트남 정통 가정식 밥상입니다. 갓 지은 흰 쌀밥 위에 짭조름한 조림 국물을 비벼 먹고 신선한 채소를 곁들이는 소박하면서도 깊은 풍미의 식문화입니다.",
-      "en": "Vietnamese home-style dining brings together claypot-braised fish or pork in savory caramel fish sauce glaze (Kho tộ), wok-tossed morning glory greens with crisp garlic, and light comforting broth ladled over steaming jasmine rice."
+      "ko": "선셋타운 해안가에서 유럽식 캐주얼 다이닝과 갓 구운 페이스트리를 와인, 맥주와 함께 즐기는 브라세리 문화입니다. 섬세한 버터 풍미의 크루아상과 가벼운 타파스 요리가 어우러집니다.",
+      "en": "European brasserie culture brings casual waterfront dining, freshly baked croissants, and curated wines to the Mediterranean terraces of Sunset Town."
     },
     "sauce_guide": {
-      "ko": "베트남 미식의 영혼: 푸꾸옥 전통 느억맘 (Nước Mắm Phú Quốc)",
-      "en": "Culinary Soul: Authentic Phu Quoc Island Fish Sauce",
-      "vi": "Linh hồn bữa cơm: Nước mắm cá cơm than truyền thống Phú Quốc",
-      "zh": "餐桌灵魂：富国岛特产纯正鱼露（Nước Mắm）",
-      "ja": "料理の魂：フーコック島伝統アンチョビ魚醤（ヌックマム）",
-      "ru": "Душа кухни: Традиционный фукуокский рыбный соус ныокмам",
-      "hi": "व्यंजनों की आत्मा: प्रसिद्ध फू क्वोक फिश सॉस"
+      "ko": "페어링 가이드: 발사믹 올리브유 & 허브 버터",
+      "en": "Condiments: Aged Balsamic Olive Oil & Herb Butter",
+      "vi": "Gia vị kèm: Dầu ô liu giấm Balsamic & Bơ thảo mộc",
+      "zh": "佐餐搭配：经典黑醋橄榄油与香草黄油",
+      "ja": "相性抜群：バルサミコオリーブオイル＆ハーブバター",
+      "ru": "Подача: Бальзамический соус с оливковым маслом и пряное масло",
+      "hi": "विशेष डिप: बाल्समिक जैतून का तेल और हर्ब बटर"
     },
     "sauce_details": {
-      "ko": "푸꾸옥 연안의 신선한 멸치(Cá cơm)를 소금과 함께 전통 나무통에서 1년 이상 자연 발효시킨 프리미엄 피시소스입니다. 매콤한 고추를 띄워 밥이나 조림 요리, 데친 채소에 곁들이면 깊고 진한 감칠맛이 살아납니다.",
-      "en": "Naturally barrel-fermented for over a year with wild black anchovies and island sea salt, this golden elixir adds unparalleled umami depth to rice, braised dishes, and crisp greens.",
-      "vi": "Được ủ chượp từ cá cơm tươi và muối biển trong thùng gỗ bời lời hơn 12 tháng, mang đến giọt nước mắm đậm đà hậu vị ngọt thanh tự nhiên.",
-      "zh": "富国岛纯正黑凤尾鱼于大木桶中发酵逾一年，滴滴浓郁醇厚，佐以红椒圈蘸食米饭与时蔬，鲜香久久回甘。",
-      "ja": "新鮮なアンチョビを木樽で1年以上じっくり熟成させたフーコック最高峰の魚醤です。唐辛子を少し浮かべてご飯や煮物にかけると、深いコクが広がります。",
-      "ru": "Натуральный соус годовой выдержки из свежих анчоусов в деревянных бочках придает блюдам неповторимую глубину вкуса умами.",
-      "hi": "प्राकृतिक रूप से किण्वित यह प्रामाणिक फिश सॉस चावल और सब्जियों के स्वाद को एक अनोखा तीखापन और गहराई देता है।"
+      "ko": "바삭한 바게트와 페이스트리에 엑스트라 버진 올리브유와 숙성 발사믹을 곁들이면 깊은 풍미를 더해줍니다.",
+      "en": "Extra virgin olive oil paired with aged balsamic glaze enriches artisanal sourdough and warm crusty rolls."
     },
     "eating_tips": [
       {
-        "title_ko": "1. 뚝배기 조림 국물에 따뜻한 밥 비벼 먹기",
-        "title_en": "1. Spoon Braised Claypot Gravy over Rice",
-        "desc_ko": "달콤 짭조름한 생선이나 돼지고기 조림 국물을 갓 지은 쌀밥 위에 듬뿍 얹어 비벼 드셔보세요.",
-        "desc_en": "Drizzle the caramelized, savory claypot sauce liberally over steaming white jasmine rice."
-      },
-      {
-        "title_ko": "2. 아삭한 마늘 공심채(모닝글로리) 곁들이기",
-        "title_en": "2. Pair with Crisp Stir-Fried Morning Glory",
-        "desc_ko": "기름진 조림 요리에는 마늘 향 솔솔 풍기는 라우몽 싸오 또이(공심채 볶음)가 필수적인 밸런스를 맞춰줍니다.",
-        "desc_en": "Crunchy wok-fried water spinach with garlic cuts through rich caramel braises seamlessly."
-      },
-      {
-        "title_ko": "3. 새콤달콤한 베트남식 국(Canh chua)으로 깔끔한 마무리",
-        "title_en": "3. Cleanse with Tangy Canh Chua Soup",
-        "desc_ko": "파인애플, 토마토, 숙주가 들어간 새콤한 국물을 함께 떠먹으면 입안이 개운하게 정돈됩니다.",
-        "desc_en": "Savor a bowl of tamarind sour soup with pineapple and okra to refresh the palate."
+        "title_ko": "1. 일몰 시간대 테라스 와인 페어링",
+        "title_en": "1. Sunset wine pairing on the terrace",
+        "desc_ko": "해 질 녘 바다를 바라보며 시원한 화이트 와인과 핑거푸드를 즐겨보세요.",
+        "desc_en": "Enjoy crisp chilled white wine paired with light savory tapas as dusk settles."
       }
     ]
   },
   "ibiza-oyster-seafood-bar": {
     "food_style": {
-      "ko": "푸꾸옥 로컬 베트남 가정식 & 현지 퀴진",
-      "en": "Phu Quoc Local Vietnamese Cuisine & Home Classics",
-      "vi": "Cơm gia đình & Ẩm thực truyền thống Việt Nam",
-      "zh": "富国岛地道越南家常菜与风味美食",
-      "ja": "フーコック地元ベトナム家庭料理＆名物料理",
-      "ru": "Традиционная вьетнамская домашняя кухня Фукуока",
-      "hi": "फू क्वोक स्थानीय वियतनामी घरेलू व्यंजन"
+      "ko": "선셋 오션뷰 오이스터 바 & 해산물 타파스",
+      "en": "Sunset Ocean-view Oyster Bar & Seafood Tapas",
+      "vi": "Quầy Bar Hàu tươi sống & Tapas Hải sản Hoàng Hôn",
+      "zh": "落日海景生蚝吧与海鲜小食",
+      "ja": "サンセットオーシャンビュー・オイスターバー＆シーフードタパス",
+      "ru": "Устричный бар с видом на закат и тапас из морепродуктов",
+      "hi": "सनसेट ओशन-व्यू ऑयस्टर बार और सीफ़ूड तापस"
     },
     "culture_story": {
-      "ko": "작은 뚝배기에 코코넛 캐러멜 소스와 최상급 푸꾸옥 피시소스로 자작하게 졸여낸 생선·돼지고기 조림(Kho tộ)과 마늘 향 가득 볶아낸 공심채(모닝글로리), 시원한 국이 함께 오르는 베트남 정통 가정식 밥상입니다. 갓 지은 흰 쌀밥 위에 짭조름한 조림 국물을 비벼 먹고 신선한 채소를 곁들이는 소박하면서도 깊은 풍미의 식문화입니다.",
-      "en": "Vietnamese home-style dining brings together claypot-braised fish or pork in savory caramel fish sauce glaze (Kho tộ), wok-tossed morning glory greens with crisp garlic, and light comforting broth ladled over steaming jasmine rice."
+      "ko": "지중해 휴양지 이비자의 낭만을 담아 신선한 생굴과 치즈 그릴 굴, 해산물 핑거푸드를 칵테일과 함께 즐기는 라운지 바 문화입니다. 얼음 위에 올린 신선한 굴에 타바스코와 레몬즙을 곁들여 바다 내음을 만끽합니다.",
+      "en": "Inspired by Ibiza coastal glamour, diners enjoy freshly shucked island oysters, melted cheese grilled bivalves, and signature tropical cocktails."
     },
     "sauce_guide": {
-      "ko": "베트남 미식의 영혼: 푸꾸옥 전통 느억맘 (Nước Mắm Phú Quốc)",
-      "en": "Culinary Soul: Authentic Phu Quoc Island Fish Sauce",
-      "vi": "Linh hồn bữa cơm: Nước mắm cá cơm than truyền thống Phú Quốc",
-      "zh": "餐桌灵魂：富国岛特产纯正鱼露（Nước Mắm）",
-      "ja": "料理の魂：フーコック島伝統アンチョビ魚醤（ヌックマム）",
-      "ru": "Душа кухни: Традиционный фукуокский рыбный соус ныокмам",
-      "hi": "व्यंजनों की आत्मा: प्रसिद्ध फू क्वोक फिश सॉस"
+      "ko": "굴 요리의 핵심: 타바스코 & 샬롯 레드와인 비네거 (Mignonette)",
+      "en": "Oyster Pairing: Tabasco & French Mignonette Sauce",
+      "vi": "Sốt ăn kèm hàu: Sốt giấm vang đỏ hành tím & Tabasco",
+      "zh": "生蚝灵魂料汁：法式红酒醋洋葱汁（Mignonette）与塔巴斯科辣酱",
+      "ja": "生牡蠣の定番：ミニョネットソース（赤ワインビネガー）＆タバスコ",
+      "ru": "Классический соус: Миньонет на красном вине с луком-шалот и табаско",
+      "hi": "ऑयस्टर सॉस: लाल सिरका प्याज सॉस और तबास्को"
     },
     "sauce_details": {
-      "ko": "푸꾸옥 연안의 신선한 멸치(Cá cơm)를 소금과 함께 전통 나무통에서 1년 이상 자연 발효시킨 프리미엄 피시소스입니다. 매콤한 고추를 띄워 밥이나 조림 요리, 데친 채소에 곁들이면 깊고 진한 감칠맛이 살아납니다.",
-      "en": "Naturally barrel-fermented for over a year with wild black anchovies and island sea salt, this golden elixir adds unparalleled umami depth to rice, braised dishes, and crisp greens.",
-      "vi": "Được ủ chượp từ cá cơm tươi và muối biển trong thùng gỗ bời lời hơn 12 tháng, mang đến giọt nước mắm đậm đà hậu vị ngọt thanh tự nhiên.",
-      "zh": "富国岛纯正黑凤尾鱼于大木桶中发酵逾一年，滴滴浓郁醇厚，佐以红椒圈蘸食米饭与时蔬，鲜香久久回甘。",
-      "ja": "新鮮なアンチョビを木樽で1年以上じっくり熟成させたフーコック最高峰の魚醤です。唐辛子を少し浮かべてご飯や煮物にかけると、深いコクが広がります。",
-      "ru": "Натуральный соус годовой выдержки из свежих анчоусов в деревянных бочках придает блюдам неповторимую глубину вкуса умами.",
-      "hi": "प्राकृतिक रूप से किण्वित यह प्रामाणिक फिश सॉस चावल और सब्जियों के स्वाद को एक अनोखा तीखापन और गहराई देता है।"
+      "ko": "다진 샬롯과 레드와인 식초로 만든 미뇨네트 소스는 굴의 크리미한 감칠맛을 가장 산뜻하게 끌어올려 줍니다.",
+      "en": "Minced shallots in red wine vinegar provide bright acidity that cuts through rich, briny oyster creaminess."
     },
     "eating_tips": [
       {
-        "title_ko": "1. 뚝배기 조림 국물에 따뜻한 밥 비벼 먹기",
-        "title_en": "1. Spoon Braised Claypot Gravy over Rice",
-        "desc_ko": "달콤 짭조름한 생선이나 돼지고기 조림 국물을 갓 지은 쌀밥 위에 듬뿍 얹어 비벼 드셔보세요.",
-        "desc_en": "Drizzle the caramelized, savory claypot sauce liberally over steaming white jasmine rice."
-      },
-      {
-        "title_ko": "2. 아삭한 마늘 공심채(모닝글로리) 곁들이기",
-        "title_en": "2. Pair with Crisp Stir-Fried Morning Glory",
-        "desc_ko": "기름진 조림 요리에는 마늘 향 솔솔 풍기는 라우몽 싸오 또이(공심채 볶음)가 필수적인 밸런스를 맞춰줍니다.",
-        "desc_en": "Crunchy wok-fried water spinach with garlic cuts through rich caramel braises seamlessly."
-      },
-      {
-        "title_ko": "3. 새콤달콤한 베트남식 국(Canh chua)으로 깔끔한 마무리",
-        "title_en": "3. Cleanse with Tangy Canh Chua Soup",
-        "desc_ko": "파인애플, 토마토, 숙주가 들어간 새콤한 국물을 함께 떠먹으면 입안이 개운하게 정돈됩니다.",
-        "desc_en": "Savor a bowl of tamarind sour soup with pineapple and okra to refresh the palate."
+        "title_ko": "1. 생굴은 레몬즙을 살짝 짜서 한입에 호로록",
+        "title_en": "1. Slurp freshly shucked oyster with a squeeze of fresh lemon",
+        "desc_ko": "얼음 위에 놓인 생굴에 생레몬을 짜 넣고 바다의 짠맛과 함께 한입에 넘기세요.",
+        "desc_en": "Tipping the shell back allows cold oyster brine and sweet sea liqueur to blend seamlessly."
       }
     ]
   },
   "islander-phuquoc-handmade-gifts-coffee": {
     "food_style": {
-      "ko": "선셋타운 스페셜티 커피 & 감성 디저트",
-      "en": "Sunset Town Specialty Coffee & Artisanal Desserts",
-      "vi": "Cà phê đặc sản & Tráng miệng Sunset Town",
-      "zh": "日落小镇特调咖啡与精致甜点",
-      "ja": "サンセットタウン・スペシャリティコーヒー＆デザート",
-      "ru": "Спешелти кофе и десерты в Сансет Тауне",
-      "hi": "सनसेट टाउन स्पेशल कॉफ़ी और डेसर्ट"
+      "ko": "포지타노 감성 핸드메이드 소품 & 스페셜티 커피",
+      "en": "Positano Street Artisanal Gifts & Handcrafted Coffee",
+      "vi": "Đồ lưu niệm thủ công Positano & Cà phê hạt mộc",
+      "zh": "波西塔诺风情手工文创伴手礼与手冲咖啡",
+      "ja": "ポジターノ風ハンドメイドギフト＆自家焙煎コーヒー",
+      "ru": "Хэндмейд-сувениры и авторский кофе на улице Позитано",
+      "hi": "पॉजिटानो हस्तनिर्मित उपहार और विशेष कॉफ़ी"
     },
     "culture_story": {
-      "ko": "베트남 고유의 깊고 진한 로부스타 원두를 스테인리스 핀(Phin) 필터로 천천히 내려 달콤한 연유와 얼음을 섞어 마시는 ‘카페 쓰어다(Cà phê sữa đá)’는 베트남을 대표하는 일상 미식 문화입니다. 쌉싸름한 커피 원액과 녹진한 연유의 조화가 긴장을 풀어주며, 시원한 코코넛 밀크 스무디를 더한 코코넛 커피나 열대 과일 디저트 또한 현지에서 널리 사랑받습니다. 바쁜 일상에서 벗어나 커피 한 잔의 여유를 나누는 시간은 베트남 여행에서 누릴 수 있는 특별한 즐거움입니다.",
-      "en": "Vietnamese coffee culture is defined by Cà phê sữa đá—bold dark-roasted robusta coffee slow-dripped through an artisanal metal phin filter over sweetened condensed milk and ice. The velvety harmony of bittersweet coffee and chilled creaminess offers refreshing restoration, accompanied by icy coconut coffee smoothies and tropical treats."
+      "ko": "선셋타운 포지타노 골목에서 푸꾸옥 특산 진주와 핸드메이드 소품을 둘러보며 시원한 드립 커피와 열대 과일 티를 즐기는 여유로운 부티크 카페 문화입니다.",
+      "en": "Stroll along winding Positano Street to explore handmade Phu Quoc souvenirs while sipping cold brews and iced fruit teas."
     },
     "sauce_guide": {
-      "ko": "추천 페어링: 연유 드리즐 & 코코넛 크림 (Sữa đặc & Cốt dừa)",
-      "en": "Recommended Pairing: Sweet Condensed Milk & Coconut Cream",
-      "vi": "Hương vị hòa quyện: Sữa đặc & Cốt dừa béo ngậy",
-      "zh": "风味搭配：炼乳与浓郁椰浆",
-      "ja": "おすすめペアリング：練乳＆濃厚ココナッツクリーム",
-      "ru": "Идеальное сочетание: Сгущенное молоко и кокосовые сливки",
-      "hi": "अनुशंसित पेयरिंग: गाढ़ा मीठा दूध और नारियल की मलाई"
+      "ko": "달콤한 티 페어링: 야생 꿀 & 말린 라임 슬라이스",
+      "en": "Tea Garnish: Wild Island Honey & Dried Calamansi",
+      "vi": "Hương vị trà: Mật ong rừng Phú Quốc & Quất sấy khô",
+      "zh": "茶饮点缀：富国岛野生蜂蜜与风干青柠片",
+      "ja": "お茶のアクセント：天然ハチミツ＆ドライライム",
+      "ru": "Дополнение к чаю: Дикий островной мед и сушеный лайм",
+      "hi": "चाय के लिए गार्निश: जंगली शहद और सूखा नींबू"
     },
     "sauce_details": {
-      "ko": "진한 에스프레소 베이스에 묵직한 연유가 가라앉아 있어, 스푼으로 천천히 저어가며 기호에 맞는 달콤함을 조절해 드세요. 달콤쌉싸름한 맛의 균형이 여행의 피로를 부드럽게 녹여줍니다.",
-      "en": "Thick condensed milk settles beneath rich robusta coffee. Stir gently to calibrate sweetness to your liking for a velvety, energizing balance.",
-      "vi": "Lớp sữa đặc ngọt ngào hòa quyện cùng vị đắng đậm đà của cà phê nguyên chất, khuấy đều để cảm nhận trọn vẹn hương vị.",
-      "zh": "浓郁黑咖啡与底部炼乳分层呈现，用小勺均匀搅拌，在微苦与浓甜间寻找完美的平衡点。",
-      "ja": "底に沈んだ練乳をスプーンでゆっくり混ぜながら、お好みの甘さに調整してお召し上がりください。",
-      "ru": "Аккуратно перемешайте сгущенное молоко с крепким кофе, чтобы получить гармоничный насыщенный вкус.",
-      "hi": "कड़क कॉफ़ी और गाढ़े दूध को चम्मच से मिलाकर अपनी पसंद के अनुसार मिठास संतुलित करें।"
+      "ko": "푸꾸옥 원시림의 야생 꿀을 살짝 가미해 차의 쌉싸름함을 자연스럽고 깊은 단맛으로 감싸줍니다.",
+      "en": "Local honey adds mellow floral sweetness to brisk iced herbal and black fruit infusions."
     },
     "eating_tips": [
       {
-        "title_ko": "1. 핀 드리퍼의 마지막 한 방울까지 기다리는 여유",
-        "title_en": "1. Appreciate the Slow Phin Drip Ritual",
-        "desc_ko": "전통 핀 필터로 천천히 떨어지는 커피 방울을 바라보며 선셋타운의 여유로운 시간을 즐겨보세요.",
-        "desc_en": "Watching the slow drop of dark roast coffee through a traditional metal phin filter is a calming local ritual."
-      },
-      {
-        "title_ko": "2. 오후 일몰 타임에는 코코넛 스무디 추천",
-        "title_en": "2. Cool Down with Coconut Coffee at Sunset",
-        "desc_ko": "햇살이 부드러워지는 오후 5시경, 시원하고 달콤한 코코넛 커피와 함께 바다를 조망하기 좋습니다.",
-        "desc_en": "Around 5 PM as the golden hour arrives, an icy coconut coffee smoothie is refreshing and delightful."
-      },
-      {
-        "title_ko": "3. 달콤한 디저트와 블랙 커피의 조화",
-        "title_en": "3. Pair Pastries with Traditional Black Coffee",
-        "desc_ko": "달콤한 케이크나 디저트에는 묵직한 바디감의 카페 덴(블랙 커피)을 곁들이면 깔끔한 뒷맛을 느낄 수 있습니다.",
-        "desc_en": "Match rich pastries with bold Vietnamese black coffee (Cà phê đen) to cleanse the palate."
+        "title_ko": "1. 쇼핑 중간 시원한 과일 티로 힐링하기",
+        "title_en": "1. Refresh with chilled passion fruit tea during boutique shopping",
+        "desc_ko": "선셋 골목 산책 중 상큼한 패션후르츠 티로 섬의 열기를 식혀보세요.",
+        "desc_en": "Tart iced passion fruit tea offers immediate refreshment while browsing curated crafts."
       }
     ]
   },
   "kem-trang-tien-sunset-town-phu-quoc": {
     "food_style": {
-      "ko": "선셋타운 스페셜티 커피 & 감성 디저트",
-      "en": "Sunset Town Specialty Coffee & Artisanal Desserts",
-      "vi": "Cà phê đặc sản & Tráng miệng Sunset Town",
-      "zh": "日落小镇特调咖啡与精致甜点",
-      "ja": "サンセットタウン・スペシャリティコーヒー＆デザート",
-      "ru": "Спешелти кофе и десерты в Сансет Тауне",
-      "hi": "सनसेट टाउन स्पेशल कॉफ़ी और डेसर्ट"
+      "ko": "하노이 1958 전통 짱띠엔 수제 아이스크림",
+      "en": "Hanoi Heritage Since 1958 Tràng Tiền Artisan Ice Cream",
+      "vi": "Kem Tràng Tiền truyền thống Hà Nội từ năm 1958",
+      "zh": "河内1958年老字号长钱传统冰淇淋",
+      "ja": "ハノイ伝統・1958年創業 チャンティエン・アイスクリーム",
+      "ru": "Традиционное ханойское мороженое Чанг Тиен с 1958 года",
+      "hi": "1958 से हनोई की पारंपरिक ट्रांग तिएन कारीगर आइसक्रीम"
     },
     "culture_story": {
-      "ko": "베트남 고유의 깊고 진한 로부스타 원두를 스테인리스 핀(Phin) 필터로 천천히 내려 달콤한 연유와 얼음을 섞어 마시는 ‘카페 쓰어다(Cà phê sữa đá)’는 베트남을 대표하는 일상 미식 문화입니다. 쌉싸름한 커피 원액과 녹진한 연유의 조화가 긴장을 풀어주며, 시원한 코코넛 밀크 스무디를 더한 코코넛 커피나 열대 과일 디저트 또한 현지에서 널리 사랑받습니다. 바쁜 일상에서 벗어나 커피 한 잔의 여유를 나누는 시간은 베트남 여행에서 누릴 수 있는 특별한 즐거움입니다.",
-      "en": "Vietnamese coffee culture is defined by Cà phê sữa đá—bold dark-roasted robusta coffee slow-dripped through an artisanal metal phin filter over sweetened condensed milk and ice. The velvety harmony of bittersweet coffee and chilled creaminess offers refreshing restoration, accompanied by icy coconut coffee smoothies and tropical treats."
+      "ko": "1958년 하노이 짱띠엔 거리에서 시작된 켐 짱띠엔(Kem Tràng Tiền)은 베트남 전 세대가 사랑하는 국민 아이스크림입니다. 쫀득한 풋찹쌀(Cốm), 고소한 녹두(Đậu xanh), 달콤한 코코넛(Dừa)을 갈아 넣어 원재료 고유의 은은한 고소함과 쫀득한 식감이 돋보입니다.",
+      "en": "Dating back to 1958 in Hanoi, Kem Tràng Tiền is Vietnam's beloved national ice cream, famous for chewy young green rice (Cốm), sweet mung bean, and fragrant coconut."
     },
     "sauce_guide": {
-      "ko": "추천 페어링: 연유 드리즐 & 코코넛 크림 (Sữa đặc & Cốt dừa)",
-      "en": "Recommended Pairing: Sweet Condensed Milk & Coconut Cream",
-      "vi": "Hương vị hòa quyện: Sữa đặc & Cốt dừa béo ngậy",
-      "zh": "风味搭配：炼乳与浓郁椰浆",
-      "ja": "おすすめペアリング：練乳＆濃厚ココナッツクリーム",
-      "ru": "Идеальное сочетание: Сгущенное молоко и кокосовые сливки",
-      "hi": "अनुशंसित पेयरिंग: गाढ़ा मीठा दूध और नारियल की मलाई"
+      "ko": "클래식 토핑: 바삭한 코코넛 칩 & 구운 와플 콘",
+      "en": "Classic Accents: Toasted Coconut Chips & Crispy Waffle Cone",
+      "vi": "Topping cổ điển: Dừa sấy giòn rụm & Vỏ ốc quế quế",
+      "zh": "经典风味：香脆椰子片与现烤甜筒",
+      "ja": "伝統のトッピング：香ばしいココナッツチップ＆ワッフルコーン",
+      "ru": "Классические топпинги: Хрустящие кокосовые чипсы и вафельный рожок",
+      "hi": "क्लासिक टॉपिंग: टोस्टेड नारियल के टुकड़े और क्रिस्पी कोन"
     },
     "sauce_details": {
-      "ko": "진한 에스프레소 베이스에 묵직한 연유가 가라앉아 있어, 스푼으로 천천히 저어가며 기호에 맞는 달콤함을 조절해 드세요. 달콤쌉싸름한 맛의 균형이 여행의 피로를 부드럽게 녹여줍니다.",
-      "en": "Thick condensed milk settles beneath rich robusta coffee. Stir gently to calibrate sweetness to your liking for a velvety, energizing balance.",
-      "vi": "Lớp sữa đặc ngọt ngào hòa quyện cùng vị đắng đậm đà của cà phê nguyên chất, khuấy đều để cảm nhận trọn vẹn hương vị.",
-      "zh": "浓郁黑咖啡与底部炼乳分层呈现，用小勺均匀搅拌，在微苦与浓甜间寻找完美的平衡点。",
-      "ja": "底に沈んだ練乳をスプーンでゆっくり混ぜながら、お好みの甘さに調整してお召し上がりください。",
-      "ru": "Аккуратно перемешайте сгущенное молоко с крепким кофе, чтобы получить гармоничный насыщенный вкус.",
-      "hi": "कड़क कॉफ़ी और गाढ़े दूध को चम्मच से मिलाकर अपनी पसंद के अनुसार मिठास संतुलित करें।"
+      "ko": "인공 향료 대신 전통 곡물과 생 코코넛을 그대로 배합하여 달지 않고 담백하게 즐길 수 있습니다.",
+      "en": "Made with genuine pulses and coconut shreds rather than heavy artificial flavorings."
     },
     "eating_tips": [
       {
-        "title_ko": "1. 핀 드리퍼의 마지막 한 방울까지 기다리는 여유",
-        "title_en": "1. Appreciate the Slow Phin Drip Ritual",
-        "desc_ko": "전통 핀 필터로 천천히 떨어지는 커피 방울을 바라보며 선셋타운의 여유로운 시간을 즐겨보세요.",
-        "desc_en": "Watching the slow drop of dark roast coffee through a traditional metal phin filter is a calming local ritual."
-      },
-      {
-        "title_ko": "2. 오후 일몰 타임에는 코코넛 스무디 추천",
-        "title_en": "2. Cool Down with Coconut Coffee at Sunset",
-        "desc_ko": "햇살이 부드러워지는 오후 5시경, 시원하고 달콤한 코코넛 커피와 함께 바다를 조망하기 좋습니다.",
-        "desc_en": "Around 5 PM as the golden hour arrives, an icy coconut coffee smoothie is refreshing and delightful."
-      },
-      {
-        "title_ko": "3. 달콤한 디저트와 블랙 커피의 조화",
-        "title_en": "3. Pair Pastries with Traditional Black Coffee",
-        "desc_ko": "달콤한 케이크나 디저트에는 묵직한 바디감의 카페 덴(블랙 커피)을 곁들이면 깔끔한 뒷맛을 느낄 수 있습니다.",
-        "desc_en": "Match rich pastries with bold Vietnamese black coffee (Cà phê đen) to cleanse the palate."
+        "title_ko": "1. 풋찹쌀(Cốm) 아이스크림 바의 쫀득함 맛보기",
+        "title_en": "1. Bite into the chewy young green rice (Cốm) popsicle",
+        "desc_ko": "한입 베어 물면 찹쌀 알갱이가 씹히는 짱띠엔의 독창적인 시그니처 텍스처를 느껴보세요.",
+        "desc_en": "Green young rice grains embedded in the ice provide a uniquely pleasant chewiness."
       }
     ]
   },
   "la-isla-bistro-coffee": {
     "food_style": {
-      "ko": "선셋타운 스페셜티 커피 & 감성 디저트",
-      "en": "Sunset Town Specialty Coffee & Artisanal Desserts",
-      "vi": "Cà phê đặc sản & Tráng miệng Sunset Town",
-      "zh": "日落小镇特调咖啡与精致甜点",
-      "ja": "サンセットタウン・スペシャリティコーヒー＆デザート",
-      "ru": "Спешелти кофе и десерты в Сансет Тауне",
-      "hi": "सनसेट टाउन स्पेशल कॉफ़ी और डेसर्ट"
+      "ko": "지중해풍 감성 비스트로 & 파스타 & 에스프레소",
+      "en": "Mediterranean Waterfront Bistro, Pasta & Artisan Coffee",
+      "vi": "Bistro ấm cúng & Mì Ý thủ công & Cà phê rang mộc",
+      "zh": "地中海风情温情小馆、手工意面与意式浓缩",
+      "ja": "地中海風ビストロ＆手打ちパスタ＆エスプレッソ",
+      "ru": "Уютное средиземноморское бистро, паста и кофе",
+      "hi": "भूमध्यसागरीय वाटरफ्रंट बिस्ट्रो, पास्ता और कॉफ़ी"
     },
     "culture_story": {
-      "ko": "베트남 고유의 깊고 진한 로부스타 원두를 스테인리스 핀(Phin) 필터로 천천히 내려 달콤한 연유와 얼음을 섞어 마시는 ‘카페 쓰어다(Cà phê sữa đá)’는 베트남을 대표하는 일상 미식 문화입니다. 쌉싸름한 커피 원액과 녹진한 연유의 조화가 긴장을 풀어주며, 시원한 코코넛 밀크 스무디를 더한 코코넛 커피나 열대 과일 디저트 또한 현지에서 널리 사랑받습니다. 바쁜 일상에서 벗어나 커피 한 잔의 여유를 나누는 시간은 베트남 여행에서 누릴 수 있는 특별한 즐거움입니다.",
-      "en": "Vietnamese coffee culture is defined by Cà phê sữa đá—bold dark-roasted robusta coffee slow-dripped through an artisanal metal phin filter over sweetened condensed milk and ice. The velvety harmony of bittersweet coffee and chilled creaminess offers refreshing restoration, accompanied by icy coconut coffee smoothies and tropical treats."
+      "ko": "남부 이탈리아의 작은 해안 마을 비스트로에 온 듯한 감성으로, 신선한 올리브유와 마늘을 넣은 오일 파스타, 부드러운 리소토, 그리고 갓 추출한 커피를 즐기는 여유로운 식문화입니다.",
+      "en": "Evoking a seaside trattoria, La Isla pairs freshly made garlic pastas and risottos with fragrant espresso brews by the promenade."
     },
     "sauce_guide": {
-      "ko": "추천 페어링: 연유 드리즐 & 코코넛 크림 (Sữa đặc & Cốt dừa)",
-      "en": "Recommended Pairing: Sweet Condensed Milk & Coconut Cream",
-      "vi": "Hương vị hòa quyện: Sữa đặc & Cốt dừa béo ngậy",
-      "zh": "风味搭配：炼乳与浓郁椰浆",
-      "ja": "おすすめペアリング：練乳＆濃厚ココナッツクリーム",
-      "ru": "Идеальное сочетание: Сгущенное молоко и кокосовые сливки",
-      "hi": "अनुशंसित पेयरिंग: गाढ़ा मीठा दूध और नारियल की मलाई"
+      "ko": "비스트로 풍미: 엑스트라 버진 페페론치노 오일 & 파르미지아노",
+      "en": "Savory Accent: Peperoncino Infused Olive Oil & Parmigiano",
+      "vi": "Gia vị phong vị: Dầu ô liu ớt cay & Phô mai bào Parmigiano",
+      "zh": "风味点睛：辣椒橄榄油与现刨帕玛森干酪",
+      "ja": "味のアクセント：ペペロンチーノオイル＆パルミジャーノ",
+      "ru": "Приправа: Оливковое масло с острым перцем и тертый пармезан",
+      "hi": "विशेष फ्लेवर: मिर्च जैतून का तेल और कसा हुआ पनीर"
     },
     "sauce_details": {
-      "ko": "진한 에스프레소 베이스에 묵직한 연유가 가라앉아 있어, 스푼으로 천천히 저어가며 기호에 맞는 달콤함을 조절해 드세요. 달콤쌉싸름한 맛의 균형이 여행의 피로를 부드럽게 녹여줍니다.",
-      "en": "Thick condensed milk settles beneath rich robusta coffee. Stir gently to calibrate sweetness to your liking for a velvety, energizing balance.",
-      "vi": "Lớp sữa đặc ngọt ngào hòa quyện cùng vị đắng đậm đà của cà phê nguyên chất, khuấy đều để cảm nhận trọn vẹn hương vị.",
-      "zh": "浓郁黑咖啡与底部炼乳分层呈现，用小勺均匀搅拌，在微苦与浓甜间寻找完美的平衡点。",
-      "ja": "底に沈んだ練乳をスプーンでゆっくり混ぜながら、お好みの甘さに調整してお召し上がりください。",
-      "ru": "Аккуратно перемешайте сгущенное молоко с крепким кофе, чтобы получить гармоничный насыщенный вкус.",
-      "hi": "कड़क कॉफ़ी और गाढ़े दूध को चम्मच से मिलाकर अपनी पसंद के अनुसार मिठास संतुलित करें।"
+      "ko": "갓 삶아낸 알덴테 면에 매콤한 칠리 오일을 살짝 둘러 파스타 본연의 향과 감칠맛을 끌어올립니다.",
+      "en": "A drizzle of chili oil accents garlic and fresh herbs across al dente pasta creations."
     },
     "eating_tips": [
       {
-        "title_ko": "1. 핀 드리퍼의 마지막 한 방울까지 기다리는 여유",
-        "title_en": "1. Appreciate the Slow Phin Drip Ritual",
-        "desc_ko": "전통 핀 필터로 천천히 떨어지는 커피 방울을 바라보며 선셋타운의 여유로운 시간을 즐겨보세요.",
-        "desc_en": "Watching the slow drop of dark roast coffee through a traditional metal phin filter is a calming local ritual."
-      },
-      {
-        "title_ko": "2. 오후 일몰 타임에는 코코넛 스무디 추천",
-        "title_en": "2. Cool Down with Coconut Coffee at Sunset",
-        "desc_ko": "햇살이 부드러워지는 오후 5시경, 시원하고 달콤한 코코넛 커피와 함께 바다를 조망하기 좋습니다.",
-        "desc_en": "Around 5 PM as the golden hour arrives, an icy coconut coffee smoothie is refreshing and delightful."
-      },
-      {
-        "title_ko": "3. 달콤한 디저트와 블랙 커피의 조화",
-        "title_en": "3. Pair Pastries with Traditional Black Coffee",
-        "desc_ko": "달콤한 케이크나 디저트에는 묵직한 바디감의 카페 덴(블랙 커피)을 곁들이면 깔끔한 뒷맛을 느낄 수 있습니다.",
-        "desc_en": "Match rich pastries with bold Vietnamese black coffee (Cà phê đen) to cleanse the palate."
+        "title_ko": "1. 파스타는 식기 전에 치즈와 고루 섞어 먹기",
+        "title_en": "1. Toss hot pasta immediately with grated parmesan cheese",
+        "desc_ko": "뜨거운 면의 열기로 치즈가 녹아들며 크리미한 소스 막이 형성됩니다.",
+        "desc_en": "Warm pasta noodles melt grated hard cheese into a luscious, savory coating."
       }
     ]
   },
   "lotus-home-cafe": {
     "food_style": {
-      "ko": "선셋타운 스페셜티 커피 & 감성 디저트",
-      "en": "Sunset Town Specialty Coffee & Artisanal Desserts",
-      "vi": "Cà phê đặc sản & Tráng miệng Sunset Town",
-      "zh": "日落小镇特调咖啡与精致甜点",
-      "ja": "サンセットタウン・スペシャリティコーヒー＆デザート",
-      "ru": "Спешелти кофе и десерты в Сансет Тауне",
-      "hi": "सनसेट टाउन स्पेशल कॉफ़ी और डेसर्ट"
+      "ko": "베트남 전통 연꽃 씨앗 디저트 & 홈메이드 티 카페",
+      "en": "Vietnamese Traditional Lotus Seed Sweet Soup & Tea House",
+      "vi": "Trà hoa sen & Chè hạt sen nhãn nhục truyền thống",
+      "zh": "越南传统莲子甜品与芳香莲花茶馆",
+      "ja": "ベトナム伝統・蓮の実チェー＆ハスの花茶",
+      "ru": "Традиционный вьетнамский чайный дом и десерты из семян лотоса",
+      "hi": "पारंपरिक वियतनामी कमल के बीज का मीठा सूप और चाय घर"
     },
     "culture_story": {
-      "ko": "베트남 고유의 깊고 진한 로부스타 원두를 스테인리스 핀(Phin) 필터로 천천히 내려 달콤한 연유와 얼음을 섞어 마시는 ‘카페 쓰어다(Cà phê sữa đá)’는 베트남을 대표하는 일상 미식 문화입니다. 쌉싸름한 커피 원액과 녹진한 연유의 조화가 긴장을 풀어주며, 시원한 코코넛 밀크 스무디를 더한 코코넛 커피나 열대 과일 디저트 또한 현지에서 널리 사랑받습니다. 바쁜 일상에서 벗어나 커피 한 잔의 여유를 나누는 시간은 베트남 여행에서 누릴 수 있는 특별한 즐거움입니다.",
-      "en": "Vietnamese coffee culture is defined by Cà phê sữa đá—bold dark-roasted robusta coffee slow-dripped through an artisanal metal phin filter over sweetened condensed milk and ice. The velvety harmony of bittersweet coffee and chilled creaminess offers refreshing restoration, accompanied by icy coconut coffee smoothies and tropical treats."
+      "ko": "베트남의 국화인 연꽃(Hoa Sen)을 테마로, 은은한 향을 입힌 전통 연꽃 차와 밤처럼 포슬포슬하게 삶아낸 연꽃 씨앗 째(Chè Hạt Sen)를 음미하는 고요한 티 문화입니다.",
+      "en": "Centering on the national flower of Vietnam, this tranquil teahouse serves delicate lotus-scented green teas and tender sweetened lotus seed bowls."
     },
     "sauce_guide": {
-      "ko": "추천 페어링: 연유 드리즐 & 코코넛 크림 (Sữa đặc & Cốt dừa)",
-      "en": "Recommended Pairing: Sweet Condensed Milk & Coconut Cream",
-      "vi": "Hương vị hòa quyện: Sữa đặc & Cốt dừa béo ngậy",
-      "zh": "风味搭配：炼乳与浓郁椰浆",
-      "ja": "おすすめペアリング：練乳＆濃厚ココナッツクリーム",
-      "ru": "Идеальное сочетание: Сгущенное молоко и кокосовые сливки",
-      "hi": "अनुशंसित पेयरिंग: गाढ़ा मीठा दूध और नारियल की मलाई"
+      "ko": "디저트 단맛: 천연 코코넛 설탕 시럽 (Nước Đường Thốt Nốt)",
+      "en": "Gentle Sweetener: Natural Palm Sugar Syrup",
+      "vi": "Độ ngọt thanh: Nước đường thốt nốt nấu thanh long",
+      "zh": "清润甜味：天然棕榈糖浆",
+      "ja": "やさしい甘み：天然パームシュガーシロップ",
+      "ru": "Натуральная сладость: Сироп из пальмового сахара",
+      "hi": "प्राकृतिक मिठास: पाम शुगर सिरप"
     },
     "sauce_details": {
-      "ko": "진한 에스프레소 베이스에 묵직한 연유가 가라앉아 있어, 스푼으로 천천히 저어가며 기호에 맞는 달콤함을 조절해 드세요. 달콤쌉싸름한 맛의 균형이 여행의 피로를 부드럽게 녹여줍니다.",
-      "en": "Thick condensed milk settles beneath rich robusta coffee. Stir gently to calibrate sweetness to your liking for a velvety, energizing balance.",
-      "vi": "Lớp sữa đặc ngọt ngào hòa quyện cùng vị đắng đậm đà của cà phê nguyên chất, khuấy đều để cảm nhận trọn vẹn hương vị.",
-      "zh": "浓郁黑咖啡与底部炼乳分层呈现，用小勺均匀搅拌，在微苦与浓甜间寻找完美的平衡点。",
-      "ja": "底に沈んだ練乳をスプーンでゆっくり混ぜながら、お好みの甘さに調整してお召し上がりください。",
-      "ru": "Аккуратно перемешайте сгущенное молоко с крепким кофе, чтобы получить гармоничный насыщенный вкус.",
-      "hi": "कड़क कॉफ़ी और गाढ़े दूध को चम्मच से मिलाकर अपनी पसंद के अनुसार मिठास संतुलित करें।"
+      "ko": "자극적이지 않은 야자나무 당 시럽을 가미해 연꽃 씨앗 본연의 고소한 맛을 부드럽게 감싸줍니다.",
+      "en": "Unrefined palm sugar enhances lotus seeds without overpowering their delicate nutty aroma."
     },
     "eating_tips": [
       {
-        "title_ko": "1. 핀 드리퍼의 마지막 한 방울까지 기다리는 여유",
-        "title_en": "1. Appreciate the Slow Phin Drip Ritual",
-        "desc_ko": "전통 핀 필터로 천천히 떨어지는 커피 방울을 바라보며 선셋타운의 여유로운 시간을 즐겨보세요.",
-        "desc_en": "Watching the slow drop of dark roast coffee through a traditional metal phin filter is a calming local ritual."
-      },
-      {
-        "title_ko": "2. 오후 일몰 타임에는 코코넛 스무디 추천",
-        "title_en": "2. Cool Down with Coconut Coffee at Sunset",
-        "desc_ko": "햇살이 부드러워지는 오후 5시경, 시원하고 달콤한 코코넛 커피와 함께 바다를 조망하기 좋습니다.",
-        "desc_en": "Around 5 PM as the golden hour arrives, an icy coconut coffee smoothie is refreshing and delightful."
-      },
-      {
-        "title_ko": "3. 달콤한 디저트와 블랙 커피의 조화",
-        "title_en": "3. Pair Pastries with Traditional Black Coffee",
-        "desc_ko": "달콤한 케이크나 디저트에는 묵직한 바디감의 카페 덴(블랙 커피)을 곁들이면 깔끔한 뒷맛을 느낄 수 있습니다.",
-        "desc_en": "Match rich pastries with bold Vietnamese black coffee (Cà phê đen) to cleanse the palate."
+        "title_ko": "1. 따뜻한 연꽃 차로 먼저 향을 음미하기",
+        "title_en": "1. Inhale the floral fragrance of warm lotus blossom tea first",
+        "desc_ko": "잔을 들고 먼저 그윽한 연꽃 향기를 맡은 후 천천히 한 모금 넘겨보세요.",
+        "desc_en": "Cup the ceramic vessel to breathe in fragrant blossom tea before taking small sips."
       }
     ]
   },
   "madam-khanh-restaurant-phu-quoc-2": {
     "food_style": {
-      "ko": "푸꾸옥 로컬 베트남 가정식 & 현지 퀴진",
-      "en": "Phu Quoc Local Vietnamese Cuisine & Home Classics",
-      "vi": "Cơm gia đình & Ẩm thực truyền thống Việt Nam",
-      "zh": "富国岛地道越南家常菜与风味美食",
-      "ja": "フーコック地元ベトナム家庭料理＆名物料理",
-      "ru": "Традиционная вьетнамская домашняя кухня Фукуока",
-      "hi": "फू क्वोक स्थानीय वियतनामी घरेलू व्यंजन"
+      "ko": "호이안 50년 전통 마담칸 반미 & 베트남 로컬 퀴진",
+      "en": "Hoi An Legendary Madam Khánh The Bánh Mì Queen & Local Delights",
+      "vi": "Bánh Mì Madam Khánh Hội An nức tiếng & Ẩm thực Việt",
+      "zh": "会安传奇马丹汗法棍（Madam Khánh）与越式经典",
+      "ja": "ホイアン発・伝説のマダムカーン・バインミー＆ベトナム料理",
+      "ru": "Легендарный баньми от Мадам Кхань из Хойана и местная кухня",
+      "hi": "होई एन प्रसिद्ध मैडम खान बान्ह मील और स्थानीय व्यंजन"
     },
     "culture_story": {
-      "ko": "작은 뚝배기에 코코넛 캐러멜 소스와 최상급 푸꾸옥 피시소스로 자작하게 졸여낸 생선·돼지고기 조림(Kho tộ)과 마늘 향 가득 볶아낸 공심채(모닝글로리), 시원한 국이 함께 오르는 베트남 정통 가정식 밥상입니다. 갓 지은 흰 쌀밥 위에 짭조름한 조림 국물을 비벼 먹고 신선한 채소를 곁들이는 소박하면서도 깊은 풍미의 식문화입니다.",
-      "en": "Vietnamese home-style dining brings together claypot-braised fish or pork in savory caramel fish sauce glaze (Kho tộ), wok-tossed morning glory greens with crisp garlic, and light comforting broth ladled over steaming jasmine rice."
+      "ko": "호이안에서 ‘반미 퀸’으로 전 세계 여행자들의 찬사를 받아온 전통 레시피 그대로, 겉은 바삭하고 속은 부드러운 쌀 바게트에 특제 돼지 간 파테, 캐러멜 소스 차슈, 아삭한 절임 채소(Đồ Chua)를 꽉 채워내는 전설적인 스트리트 미식입니다.",
+      "en": "World-renowned as Hoi An's 'Bánh Mì Queen', Madam Khánh crafts crunchy-yet-airy baguettes loaded with rich liver pâté, savory roasted pork, and pickled papaya."
     },
     "sauce_guide": {
-      "ko": "베트남 미식의 영혼: 푸꾸옥 전통 느억맘 (Nước Mắm Phú Quốc)",
-      "en": "Culinary Soul: Authentic Phu Quoc Island Fish Sauce",
-      "vi": "Linh hồn bữa cơm: Nước mắm cá cơm than truyền thống Phú Quốc",
-      "zh": "餐桌灵魂：富国岛特产纯正鱼露（Nước Mắm）",
-      "ja": "料理の魂：フーコック島伝統アンチョビ魚醤（ヌックマム）",
-      "ru": "Душа кухни: Традиционный фукуокский рыбный соус ныокмам",
-      "hi": "व्यंजनों की आत्मा: प्रसिद्ध फू क्वोक फिश सॉस"
+      "ko": "반미 퀸의 비법 소스: 마담칸 특제 칠리 오일 소스 (Nước Sốt Độc Quyền)",
+      "en": "Secret Dressing: Madam Khánh Caramel Chili Gravy",
+      "vi": "Bí quyết gia truyền: Nước sốt thịt đậm đà & ớt rim Hội An",
+      "zh": "秘制酱汁：马丹汗秘方浓郁肉汁与会安油浸辣酱",
+      "ja": "秘伝のタレ：マダムカーン特製肉汁ソース＆チリオイル",
+      "ru": "Фирменный соус: Пикантная мясная подлива по рецепту Мадам Кхань",
+      "hi": "गुप्त सॉस: मैडम खान विशेष कारमेल चिली ग्रेवी"
     },
     "sauce_details": {
-      "ko": "푸꾸옥 연안의 신선한 멸치(Cá cơm)를 소금과 함께 전통 나무통에서 1년 이상 자연 발효시킨 프리미엄 피시소스입니다. 매콤한 고추를 띄워 밥이나 조림 요리, 데친 채소에 곁들이면 깊고 진한 감칠맛이 살아납니다.",
-      "en": "Naturally barrel-fermented for over a year with wild black anchovies and island sea salt, this golden elixir adds unparalleled umami depth to rice, braised dishes, and crisp greens.",
-      "vi": "Được ủ chượp từ cá cơm tươi và muối biển trong thùng gỗ bời lời hơn 12 tháng, mang đến giọt nước mắm đậm đà hậu vị ngọt thanh tự nhiên.",
-      "zh": "富国岛纯正黑凤尾鱼于大木桶中发酵逾一年，滴滴浓郁醇厚，佐以红椒圈蘸食米饭与时蔬，鲜香久久回甘。",
-      "ja": "新鮮なアンチョビを木樽で1年以上じっくり熟成させたフーコック最高峰の魚醤です。唐辛子を少し浮かべてご飯や煮物にかけると、深いコクが広がります。",
-      "ru": "Натуральный соус годовой выдержки из свежих анчоусов в деревянных бочках придает блюдам неповторимую глубину вкуса умами.",
-      "hi": "प्राकृतिक रूप से किण्वित यह प्रामाणिक फिश सॉस चावल और सब्जियों के स्वाद को एक अनोखा तीखापन और गहराई देता है।"
+      "ko": "고기를 조려낸 깊은 감칠맛의 육즙 소스와 매콤 달콤한 수제 칠리 잼이 빵 속 속재료들을 촉촉하게 하나로 묶어줍니다.",
+      "en": "A slow-reduced savory meat jus and house chili paste bind the crisp crust to succulent fillings."
     },
     "eating_tips": [
       {
-        "title_ko": "1. 뚝배기 조림 국물에 따뜻한 밥 비벼 먹기",
-        "title_en": "1. Spoon Braised Claypot Gravy over Rice",
-        "desc_ko": "달콤 짭조름한 생선이나 돼지고기 조림 국물을 갓 지은 쌀밥 위에 듬뿍 얹어 비벼 드셔보세요.",
-        "desc_en": "Drizzle the caramelized, savory claypot sauce liberally over steaming white jasmine rice."
-      },
-      {
-        "title_ko": "2. 아삭한 마늘 공심채(모닝글로리) 곁들이기",
-        "title_en": "2. Pair with Crisp Stir-Fried Morning Glory",
-        "desc_ko": "기름진 조림 요리에는 마늘 향 솔솔 풍기는 라우몽 싸오 또이(공심채 볶음)가 필수적인 밸런스를 맞춰줍니다.",
-        "desc_en": "Crunchy wok-fried water spinach with garlic cuts through rich caramel braises seamlessly."
-      },
-      {
-        "title_ko": "3. 새콤달콤한 베트남식 국(Canh chua)으로 깔끔한 마무리",
-        "title_en": "3. Cleanse with Tangy Canh Chua Soup",
-        "desc_ko": "파인애플, 토마토, 숙주가 들어간 새콤한 국물을 함께 떠먹으면 입안이 개운하게 정돈됩니다.",
-        "desc_en": "Savor a bowl of tamarind sour soup with pineapple and okra to refresh the palate."
+        "title_ko": "1. 바게트가 따뜻할 때 크게 베어 물기",
+        "title_en": "1. Take a deep, crunchy bite while the bread is oven-warm",
+        "desc_ko": "겉은 파사삭 부서지고 속은 풍부한 육즙과 파테가 퍼지는 식감의 대비를 즐기세요.",
+        "desc_en": "Bite through the crackling crust to experience contrasting textures of warm meats and crisp pickles."
       }
     ]
   },
   "mae-coffee": {
     "food_style": {
-      "ko": "선셋타운 스페셜티 커피 & 감성 디저트",
-      "en": "Sunset Town Specialty Coffee & Artisanal Desserts",
-      "vi": "Cà phê đặc sản & Tráng miệng Sunset Town",
-      "zh": "日落小镇特调咖啡与精致甜点",
-      "ja": "サンセットタウン・スペシャリティコーヒー＆デザート",
-      "ru": "Спешелти кофе и десерты в Сансет Тауне",
-      "hi": "सनसेट टाउन स्पेशल कॉफ़ी और डेसर्ट"
+      "ko": "모던 미니멀리즘 스페셜티 커피 & 코코넛 브루",
+      "en": "Modern Minimalist Specialty Coffee & Coconut Cold Brew",
+      "vi": "Cà phê pha lạnh Cold Brew & Cà phê cốt dừa hiện đại",
+      "zh": "极简风精品冷萃咖啡与生椰咖啡",
+      "ja": "モダンミニマリズム・スペシャリティコールドブリュー＆ココナッツコーヒー",
+      "ru": "Современный спешелти кофе и кокосовый колд-брю",
+      "hi": "आधुनिक मिनिमलिस्ट स्पेशलिटी कॉफ़ी और नारियल कोल्ड ब्रू"
     },
     "culture_story": {
-      "ko": "베트남 고유의 깊고 진한 로부스타 원두를 스테인리스 핀(Phin) 필터로 천천히 내려 달콤한 연유와 얼음을 섞어 마시는 ‘카페 쓰어다(Cà phê sữa đá)’는 베트남을 대표하는 일상 미식 문화입니다. 쌉싸름한 커피 원액과 녹진한 연유의 조화가 긴장을 풀어주며, 시원한 코코넛 밀크 스무디를 더한 코코넛 커피나 열대 과일 디저트 또한 현지에서 널리 사랑받습니다. 바쁜 일상에서 벗어나 커피 한 잔의 여유를 나누는 시간은 베트남 여행에서 누릴 수 있는 특별한 즐거움입니다.",
-      "en": "Vietnamese coffee culture is defined by Cà phê sữa đá—bold dark-roasted robusta coffee slow-dripped through an artisanal metal phin filter over sweetened condensed milk and ice. The velvety harmony of bittersweet coffee and chilled creaminess offers refreshing restoration, accompanied by icy coconut coffee smoothies and tropical treats."
+      "ko": "깔끔하고 세련된 미니멀 감성 속에서 원두 본연의 노트를 살린 콜드브루와 신선한 코코넛 밀크 슬러시를 결합한 모던 베트남 커피 문화를 선보입니다.",
+      "en": "MAE Coffee strips away distractions to present clean single-origin cold brews and modern frozen coconut coffee blends by the coastal avenues."
     },
     "sauce_guide": {
-      "ko": "추천 페어링: 연유 드리즐 & 코코넛 크림 (Sữa đặc & Cốt dừa)",
-      "en": "Recommended Pairing: Sweet Condensed Milk & Coconut Cream",
-      "vi": "Hương vị hòa quyện: Sữa đặc & Cốt dừa béo ngậy",
-      "zh": "风味搭配：炼乳与浓郁椰浆",
-      "ja": "おすすめペアリング：練乳＆濃厚ココナッツクリーム",
-      "ru": "Идеальное сочетание: Сгущенное молоко и кокосовые сливки",
-      "hi": "अनुशंसित पेयरिंग: गाढ़ा मीठा दूध और नारियल की मलाई"
+      "ko": "크리미 밸런스: 유기농 코코넛 크림 (Cốt Dừa Béo)",
+      "en": "Rich Layer: Organic Whipped Coconut Cream",
+      "vi": "Lớp kem mịn: Cốt dừa tươi sánh mịn",
+      "zh": "香浓层次：纯天然生椰乳雪顶",
+      "ja": "クリーミーな層：無添加ココナッツクリーム",
+      "ru": "Кремовый слой: Натуральные кокосовые взбитые сливки",
+      "hi": "क्रीमी लेयर: ऑर्गेनिक नारियल क्रीम"
     },
     "sauce_details": {
-      "ko": "진한 에스프레소 베이스에 묵직한 연유가 가라앉아 있어, 스푼으로 천천히 저어가며 기호에 맞는 달콤함을 조절해 드세요. 달콤쌉싸름한 맛의 균형이 여행의 피로를 부드럽게 녹여줍니다.",
-      "en": "Thick condensed milk settles beneath rich robusta coffee. Stir gently to calibrate sweetness to your liking for a velvety, energizing balance.",
-      "vi": "Lớp sữa đặc ngọt ngào hòa quyện cùng vị đắng đậm đà của cà phê nguyên chất, khuấy đều để cảm nhận trọn vẹn hương vị.",
-      "zh": "浓郁黑咖啡与底部炼乳分层呈现，用小勺均匀搅拌，在微苦与浓甜间寻找完美的平衡点。",
-      "ja": "底に沈んだ練乳をスプーンでゆっくり混ぜながら、お好みの甘さに調整してお召し上がりください。",
-      "ru": "Аккуратно перемешайте сгущенное молоко с крепким кофе, чтобы получить гармоничный насыщенный вкус.",
-      "hi": "कड़क कॉफ़ी और गाढ़े दूध को चम्मच से मिलाकर अपनी पसंद के अनुसार मिठास संतुलित करें।"
+      "ko": "섬에서 갓 짜낸 진한 코코넛 크림이 에스프레소의 다크 초콜릿 향과 매끄럽게 어우러집니다.",
+      "en": "Rich island coconut cream contrasts velvety texture against dark espresso notes."
     },
     "eating_tips": [
       {
-        "title_ko": "1. 핀 드리퍼의 마지막 한 방울까지 기다리는 여유",
-        "title_en": "1. Appreciate the Slow Phin Drip Ritual",
-        "desc_ko": "전통 핀 필터로 천천히 떨어지는 커피 방울을 바라보며 선셋타운의 여유로운 시간을 즐겨보세요.",
-        "desc_en": "Watching the slow drop of dark roast coffee through a traditional metal phin filter is a calming local ritual."
-      },
-      {
-        "title_ko": "2. 오후 일몰 타임에는 코코넛 스무디 추천",
-        "title_en": "2. Cool Down with Coconut Coffee at Sunset",
-        "desc_ko": "햇살이 부드러워지는 오후 5시경, 시원하고 달콤한 코코넛 커피와 함께 바다를 조망하기 좋습니다.",
-        "desc_en": "Around 5 PM as the golden hour arrives, an icy coconut coffee smoothie is refreshing and delightful."
-      },
-      {
-        "title_ko": "3. 달콤한 디저트와 블랙 커피의 조화",
-        "title_en": "3. Pair Pastries with Traditional Black Coffee",
-        "desc_ko": "달콤한 케이크나 디저트에는 묵직한 바디감의 카페 덴(블랙 커피)을 곁들이면 깔끔한 뒷맛을 느낄 수 있습니다.",
-        "desc_en": "Match rich pastries with bold Vietnamese black coffee (Cà phê đen) to cleanse the palate."
+        "title_ko": "1. 코코넛 커피는 숟가락으로 크림 먼저 맛보기",
+        "title_en": "1. Spoon the coconut cream foam before sipping cold brew",
+        "desc_ko": "위에 얹어진 부드러운 코코넛 폼을 한 스푼 맛본 뒤 서서히 저어 드세요.",
+        "desc_en": "Sample the cold sweet coconut foam directly before swirling into the iced coffee."
       }
     ]
   },
   "mai-huong-restaurant-sunset-town": {
     "food_style": {
-      "ko": "푸꾸옥 로컬 베트남 가정식 & 현지 퀴진",
-      "en": "Phu Quoc Local Vietnamese Cuisine & Home Classics",
-      "vi": "Cơm gia đình & Ẩm thực truyền thống Việt Nam",
-      "zh": "富国岛地道越南家常菜与风味美食",
-      "ja": "フーコック地元ベトナム家庭料理＆名物料理",
-      "ru": "Традиционная вьетнамская домашняя кухня Фукуока",
-      "hi": "फू क्वोक स्थानीय वियतनामी घरेलू व्यंजन"
+      "ko": "선셋타운 정통 해산물 바비큐 & 꽃게 핫팟",
+      "en": "Sunset Town Authentic Seafood BBQ & Crab Hotpot",
+      "vi": "Hải sản nướng than hoa & Lẩu hải sản Mai Hương",
+      "zh": "落日小镇正宗炭烤海鲜与海鲜砂锅火锅",
+      "ja": "サンセットタウン・海鮮炭火焼き＆カニ鍋（ラウ・ハイサン）",
+      "ru": "Аутентичные морепродукты на гриле и крабовый хотпот",
+      "hi": "सनसेट टाउन प्रामाणिक सीफ़ूड बारबेक्यू और केकड़ा हॉटपॉट"
     },
     "culture_story": {
-      "ko": "작은 뚝배기에 코코넛 캐러멜 소스와 최상급 푸꾸옥 피시소스로 자작하게 졸여낸 생선·돼지고기 조림(Kho tộ)과 마늘 향 가득 볶아낸 공심채(모닝글로리), 시원한 국이 함께 오르는 베트남 정통 가정식 밥상입니다. 갓 지은 흰 쌀밥 위에 짭조름한 조림 국물을 비벼 먹고 신선한 채소를 곁들이는 소박하면서도 깊은 풍미의 식문화입니다.",
-      "en": "Vietnamese home-style dining brings together claypot-braised fish or pork in savory caramel fish sauce glaze (Kho tộ), wok-tossed morning glory greens with crisp garlic, and light comforting broth ladled over steaming jasmine rice."
+      "ko": "푸꾸옥 현지 어항에서 공급받는 싱싱한 타이거 새우와 조개구이, 그리고 꽃게를 통째로 넣어 시원하게 끓여낸 핫팟 전골(Lẩu Hải Sản)이 일품인 로컬 해산물 명소입니다. 매콤한 칠리소금 양념을 얹어 숯불에 구워내는 대하 구이는 남녀노소 모두에게 사랑받습니다.",
+      "en": "Mai Hương shines with live charcoal-grilled tiger prawns dusted with chili salt, fresh oysters, and bubbling crab hotpots ladled over fresh rice noodles."
     },
     "sauce_guide": {
-      "ko": "베트남 미식의 영혼: 푸꾸옥 전통 느억맘 (Nước Mắm Phú Quốc)",
-      "en": "Culinary Soul: Authentic Phu Quoc Island Fish Sauce",
-      "vi": "Linh hồn bữa cơm: Nước mắm cá cơm than truyền thống Phú Quốc",
-      "zh": "餐桌灵魂：富国岛特产纯正鱼露（Nước Mắm）",
-      "ja": "料理の魂：フーコック島伝統アンチョビ魚醤（ヌックマム）",
-      "ru": "Душа кухни: Традиционный фукуокский рыбный соус ныокмам",
-      "hi": "व्यंजनों की आत्मा: प्रसिद्ध फू क्वोक फिश सॉस"
+      "ko": "구이 소스의 진수: 매콤 칠리 버터 & 푸꾸옥 흑후추 라임",
+      "en": "Grill Glaze: Spicy Chili Butter & Crushed Black Pepper Lime",
+      "vi": "Sốt nướng: Bơ tỏi ớt cay & Muối tiêu chanh",
+      "zh": "炭烤酱料：蒜香黄油辣酱与黑胡椒柠檬汁",
+      "ja": "焼きダレの極み：スパイシーチリバター＆黒胡椒ライム",
+      "ru": "Соус для гриля: Пряное сливочное масло с чили и перечно-лаймовая соль",
+      "hi": "ग्रिल ग्लेज: मसालेदार मिर्च मक्खन और काली मिर्च नींबू"
     },
     "sauce_details": {
-      "ko": "푸꾸옥 연안의 신선한 멸치(Cá cơm)를 소금과 함께 전통 나무통에서 1년 이상 자연 발효시킨 프리미엄 피시소스입니다. 매콤한 고추를 띄워 밥이나 조림 요리, 데친 채소에 곁들이면 깊고 진한 감칠맛이 살아납니다.",
-      "en": "Naturally barrel-fermented for over a year with wild black anchovies and island sea salt, this golden elixir adds unparalleled umami depth to rice, braised dishes, and crisp greens.",
-      "vi": "Được ủ chượp từ cá cơm tươi và muối biển trong thùng gỗ bời lời hơn 12 tháng, mang đến giọt nước mắm đậm đà hậu vị ngọt thanh tự nhiên.",
-      "zh": "富国岛纯正黑凤尾鱼于大木桶中发酵逾一年，滴滴浓郁醇厚，佐以红椒圈蘸食米饭与时蔬，鲜香久久回甘。",
-      "ja": "新鮮なアンチョビを木樽で1年以上じっくり熟成させたフーコック最高峰の魚醤です。唐辛子を少し浮かべてご飯や煮物にかけると、深いコクが広がります。",
-      "ru": "Натуральный соус годовой выдержки из свежих анчоусов в деревянных бочках придает блюдам неповторимую глубину вкуса умами.",
-      "hi": "प्राकृतिक रूप से किण्वित यह प्रामाणिक फिश सॉस चावल और सब्जियों के स्वाद को एक अनोखा तीखापन और गहराई देता है।"
+      "ko": "불판 위에서 녹아내리는 마늘 버터 칠리 소스가 새우 속살까지 스며들어 깊은 불맛을 완성합니다.",
+      "en": "Melted garlic chili butter seeps deep into shell cracks over roaring coals for intense flavor."
     },
     "eating_tips": [
       {
-        "title_ko": "1. 뚝배기 조림 국물에 따뜻한 밥 비벼 먹기",
-        "title_en": "1. Spoon Braised Claypot Gravy over Rice",
-        "desc_ko": "달콤 짭조름한 생선이나 돼지고기 조림 국물을 갓 지은 쌀밥 위에 듬뿍 얹어 비벼 드셔보세요.",
-        "desc_en": "Drizzle the caramelized, savory claypot sauce liberally over steaming white jasmine rice."
-      },
-      {
-        "title_ko": "2. 아삭한 마늘 공심채(모닝글로리) 곁들이기",
-        "title_en": "2. Pair with Crisp Stir-Fried Morning Glory",
-        "desc_ko": "기름진 조림 요리에는 마늘 향 솔솔 풍기는 라우몽 싸오 또이(공심채 볶음)가 필수적인 밸런스를 맞춰줍니다.",
-        "desc_en": "Crunchy wok-fried water spinach with garlic cuts through rich caramel braises seamlessly."
-      },
-      {
-        "title_ko": "3. 새콤달콤한 베트남식 국(Canh chua)으로 깔끔한 마무리",
-        "title_en": "3. Cleanse with Tangy Canh Chua Soup",
-        "desc_ko": "파인애플, 토마토, 숙주가 들어간 새콤한 국물을 함께 떠먹으면 입안이 개운하게 정돈됩니다.",
-        "desc_en": "Savor a bowl of tamarind sour soup with pineapple and okra to refresh the palate."
+        "title_ko": "1. 숯불 새우는 껍질째 바삭하게 즐기기",
+        "title_en": "1. Enjoy crispy chili-crusted prawn shells",
+        "desc_ko": "칠리소금이 바삭하게 구워진 껍질째 씹어 드시면 더욱 진한 고소함을 느낄 수 있습니다.",
+        "desc_en": "Charred seasoned shells add crunchy texture and smoky saltiness to the sweet prawn meat."
       }
     ]
   },

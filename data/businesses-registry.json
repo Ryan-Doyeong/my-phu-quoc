@@ -3776,7 +3776,9 @@
     "google_rating": 5,
     "google_review_count": 50,
     "gallery_urls": [
-      "/covers-photo/mai-huong-restaurant-sunset-town-1.webp"
+      "/covers-photo/mai-huong-restaurant-sunset-town-1.webp",
+      "/images/businesses/mai-huong-restaurant-sunset-town/mai-huong-restaurant-sunset-town_menu_01.webp",
+      "/images/businesses/mai-huong-restaurant-sunset-town/mai-huong-restaurant-sunset-town_menu_02.webp"
     ],
     "tags": [
       "seafood",
@@ -4134,7 +4136,9 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/hai-san-ham-ninh/hai-san-ham-ninh_menu_01.webp"
+    ],
     "tags": [
       "seafood",
       "Sunset Town"
@@ -4488,7 +4492,9 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.9,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/ibiza-oyster-seafood-bar/ibiza-oyster-seafood-bar_menu_01.webp"
+    ],
     "tags": [
       "seafood",
       "Sunset Town"
