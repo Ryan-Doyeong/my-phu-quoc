@@ -61,6 +61,33 @@ export interface HotelReviewQuote {
 
 export type HotelArea = 'sunset-town' | 'khem-beach'
 export type HotelTier = 'top' | 'recommended' | 'standard'
+export type HotelPriceRange = '$' | '$$' | '$$$' | '$$$$' | '$$$$$'
+
+export const PRICE_TIER_CONFIG = {
+  currency: 'USD',
+  checkInDate: '2026-11-16',
+  nights: 1,
+  occupancy: 'Adults 2, Room 1',
+  thresholds: [
+    { tier: '$' as const, level: 1, maxPrice: 39, label: '실속형 (Budget)', description: '하위 20% ($39 이하)' },
+    { tier: '$$' as const, level: 2, maxPrice: 45, label: '준실속 (Economy)', description: '20%~40% ($40 ~ $45)' },
+    { tier: '$$$' as const, level: 3, maxPrice: 55, label: '스탠다드·부티크 (Mid-range)', description: '40%~60% ($46 ~ $55)' },
+    { tier: '$$$$' as const, level: 4, maxPrice: 80, label: '고급·오션뷰 (Upscale)', description: '60%~80% ($56 ~ $80)' },
+    { tier: '$$$$$' as const, level: 5, maxPrice: Infinity, label: '프리미엄·특급 (Luxury)', description: '상위 20% ($81 이상)' },
+  ],
+} as const
+
+export function getPriceTierFromUsd(priceUsd: number): HotelPriceRange {
+  for (const t of PRICE_TIER_CONFIG.thresholds) {
+    if (priceUsd <= t.maxPrice) return t.tier
+  }
+  return '$$$$$'
+}
+
+export function getPriceTierLevel(tier?: string): number | null {
+  if (!tier) return null
+  return tier.length
+}
 
 export interface HotelItem {
   slug: string
@@ -113,7 +140,7 @@ export interface HotelItem {
   reviewQuote?: HotelReviewQuote
   googleRating?: number
   googleReviewsCount?: number
-  priceRange?: '$' | '$$' | '$$$'
+  priceRange?: HotelPriceRange
   googleReviews?: HotelGoogleReview[]
   unverified?: string[]
   insight?: HotelInsight

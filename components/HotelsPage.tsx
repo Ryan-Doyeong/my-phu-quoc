@@ -138,7 +138,7 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
               <span className="googleScoreBadge">{t.googleMapsLabel} {hotel.googleRating.toFixed(1)} ★ ({hotel.googleReviewsCount || 18})</span>
             )}
             {hotel.priceRange && (
-              <span className="cardPriceBadge" title={`아고다 기준 1박 요금대: ${hotel.priceRange} (조회일: 2026-11-01)`}>
+              <span className="cardPriceBadge" title={`아고다 기준 1박 요금대 (5단계 중 ${hotel.priceRange.length}단계), 조회일: 2026-11-01`}>
                 {hotel.priceRange}
               </span>
             )}
@@ -342,7 +342,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                   <span className="googleScoreBadge">{t.googleMapsLabel} {hotel.googleRating.toFixed(1)} ★ ({hotel.googleReviewsCount || 18})</span>
                 )}
                 {hotel.priceRange && (
-                  <span className="cardPriceBadge" style={{ marginLeft: '6px' }} title={`아고다 기준 1박 요금대: ${hotel.priceRange} (조회일: 2026-11-01)`}>
+                  <span className="cardPriceBadge" style={{ marginLeft: '6px' }} title={`아고다 기준 1박 요금대 (5단계 중 ${hotel.priceRange.length}단계), 조회일: 2026-11-01`}>
                     {hotel.priceRange}
                   </span>
                 )}

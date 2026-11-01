@@ -209,7 +209,7 @@
         "직접 예약 연락처 및 전용 링크",
         "조식 공식 표기 문구(인근 제휴 식당 제공 안내 문구)"
       ],
-      "priceRange": "$$",
+      "priceRange": "$$$",
       "googleRating": 5.0,
       "googleReviewsCount": 18,
       "tier": "recommended",
@@ -430,7 +430,7 @@
           "distance": "280m (도보 4분)"
         }
       ],
-      "priceRange": "$$$",
+      "priceRange": "$$$$$",
       "tier": "recommended",
       "isFeatured": true,
       "order": 6,
@@ -676,7 +676,7 @@
           "distance": "700m (도보 9분)"
         }
       ],
-      "priceRange": "$$$",
+      "priceRange": "$$$$$",
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.8,
@@ -889,7 +889,7 @@
           "distance": "780m (도보 10분)"
         }
       ],
-      "priceRange": "$",
+      "priceRange": "$$",
       "googleRating": 4.7,
       "googleReviewsCount": 50,
       "tier": "standard",
@@ -1382,7 +1382,7 @@
           "distance": "310m (도보 4분)"
         }
       ],
-      "priceRange": "$$$",
+      "priceRange": "$$$$$",
       "googleRating": 4.8,
       "googleReviewsCount": 50,
       "tier": "recommended",
@@ -1563,7 +1563,7 @@
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/coastal-living-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
       "unverified": [],
-      "priceRange": "$$",
+      "priceRange": "$$$",
       "tier": "recommended",
       "order": 3,
       "isFeatured": true,
@@ -1693,7 +1693,7 @@
         "건축 연도 미확인",
         "층수 미확인"
       ],
-      "priceRange": "$$$",
+      "priceRange": "$$$$",
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.7,
@@ -1936,7 +1936,7 @@
           "distance": "280m (도보 4분)"
         }
       ],
-      "priceRange": "$$$",
+      "priceRange": "$$$$$",
       "googleRating": 4.9,
       "googleReviewsCount": 50,
       "tier": "standard",
@@ -2114,7 +2114,7 @@
           "distance": "290m (도보 4분)"
         }
       ],
-      "priceRange": "$$$",
+      "priceRange": "$$$$",
       "googleRating": 4.6,
       "googleReviewsCount": 50,
       "tier": "standard",
@@ -2654,7 +2654,7 @@
           "distance": "740m (도보 10분)"
         }
       ],
-      "priceRange": "$$",
+      "priceRange": "$$$$",
       "googleRating": 4.6,
       "googleReviewsCount": 50,
       "tier": "recommended",
@@ -2878,7 +2878,7 @@
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/solea-hotel-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
       "unverified": [],
-      "priceRange": "$$",
+      "priceRange": "$$$",
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.5,
@@ -3021,7 +3021,7 @@
           "distance": "420m (도보 6분)"
         }
       ],
-      "priceRange": "$",
+      "priceRange": "$$",
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.5,
@@ -3265,7 +3265,7 @@
           "distance": "390m (도보 5분)"
         }
       ],
-      "priceRange": "$$",
+      "priceRange": "$$$",
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.7,
@@ -3469,7 +3469,7 @@
       "unverified": [
         "건축 연도 미확인"
       ],
-      "priceRange": "$$",
+      "priceRange": "$$$$",
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.7,
@@ -4242,7 +4242,7 @@
         "건축 연도 미확인",
         "층수 미확인"
       ],
-      "priceRange": "$$$",
+      "priceRange": "$$$$",
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.8,
@@ -4736,7 +4736,7 @@
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/solaro-hotel-spa-h84816481/hotel/phu-quoc-island-vn.html",
       "unverified": [],
-      "priceRange": "$$$",
+      "priceRange": "$$$$",
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.8,
@@ -4917,7 +4917,7 @@
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/anna-hotel-free-cable-car-and-water-park-tickets/hotel/phu-quoc-island-vn.html",
       "unverified": [],
-      "priceRange": "$$$",
+      "priceRange": "$$$$$",
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.7,
@@ -5282,7 +5282,7 @@
           "distance": "600m (도보 8분)"
         }
       ],
-      "priceRange": "$",
+      "priceRange": "$$",
       "googleRating": 4.3,
       "googleReviewsCount": 50,
       "tier": "standard",
@@ -5324,7 +5324,7 @@
       "agodaUrl": "https://www.agoda.com/ko-kr/the-nice-hotel-phu-quoc-fireworks-ocean-view/hotel/phu-quoc-island-vn.html",
       "googleRating": 4.7,
       "googleReviewsCount": 50,
-      "priceRange": "$$",
+      "priceRange": "$$$",
       "tier": "recommended",
       "order": 4,
       "isFeatured": true

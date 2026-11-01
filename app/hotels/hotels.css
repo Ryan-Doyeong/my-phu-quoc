@@ -681,12 +681,15 @@
   justify-content: space-between;
   margin-bottom: 12px;
   gap: 8px;
+  flex-wrap: wrap;
 }
 
 .cardRatingBox {
   display: flex;
   align-items: center;
   gap: 6px;
+  flex-wrap: wrap;
+  row-gap: 4px;
 }
 
 .cardScore {
@@ -1094,6 +1097,7 @@
   align-items: center;
   letter-spacing: 0.5px;
   line-height: 1.2;
+  white-space: nowrap;
 }
 
 /* Modal Top Summary */
