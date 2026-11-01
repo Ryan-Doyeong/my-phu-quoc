@@ -496,6 +496,7 @@ export const HIDDEN_BUSINESS_SLUGS = new Set<string>([
   'sunset-place-4',
   'sunset-place-6',
   'sunset-place-8',
+  'the-nice-hotel-phu-quoc-fireworks-ocean-view',
   'triland-hillside',
   'venice-spamedica-phu-quoc',
   'wave-cafe-pub-3f-sunset-town',
@@ -504,6 +505,7 @@ export const HIDDEN_BUSINESS_SLUGS = new Set<string>([
 
 export const HIDDEN_BUSINESS_IDS = new Set<string>([
   'local-sunset-018',
+  'local-sunset-45',
   'local-sunset-065',
   'local-sunset-139',
   'local-sunset-187',

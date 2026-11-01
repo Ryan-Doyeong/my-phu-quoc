@@ -437,7 +437,7 @@
       "priceRange": "$$$$$",
       "tier": "recommended",
       "isFeatured": true,
-      "order": 6,
+      "order": 5,
       "googleRating": 4.7,
       "reviewHighlight": "인피니티 풀에서 바라보는 키스브릿지 일몰과 불꽃놀이 조망",
       "reviewPros": [
@@ -2788,7 +2788,7 @@
       "priceRange": "$$$$",
       "googleRating": 4.6,
       "tier": "recommended",
-      "order": 5,
+      "order": 4,
       "isFeatured": true,
       "reviewHighlight": "비치클럽 인접 및 부티크 객실 인테리어",
       "reviewPros": [
@@ -5566,63 +5566,6 @@
         "text": "소렌토 거리가 예쁘고 주변 산책하기 좋은 아담한 호텔입니다.",
         "source": "Agoda"
       }
-    },
-    {
-      "slug": "the-nice-hotel-phu-quoc-fireworks-ocean-view",
-      "hotelId": "49635033",
-      "name_ko": "더 나이스 호텔 푸꾸옥",
-      "name_en": "The Nice Hotel Phu Quoc - Fireworks & Ocean view",
-      "star": 3,
-      "rating": 9.2,
-      "reviewsCount": 150,
-      "cable_m": 380,
-      "address": "27 Đ. Positano, Sunset Town, An Thới, Phú Quốc, Kiên Giang, Vietnam",
-      "summary": "불꽃놀이 및 탁 트인 바다 전망 발코니를 갖춘 선셋타운 감성 부티크 호텔.",
-      "description": "The Nice Hotel Phu Quoc - Fireworks & Ocean view\n\n선셋타운 포시타노 거리에 위치한 더 나이스 호텔은 매일 밤 펼쳐지는 키스 오브 더 씨 불꽃놀이와 바다 전망을 감상할 수 있는 감성 부티크 호텔입니다. 키스 브릿지와 야시장, 주요 명소가 도보 거리에 위치해 편리한 관광을 즐기실 수 있습니다.",
-      "isAiGeneratedIntro": false,
-      "coreFacilities": [
-        "불꽃놀이 전망 발코니",
-        "전 객실 무료 Wi-Fi",
-        "24시간 프런트 데스크",
-        "에어컨"
-      ],
-      "checkIn": "14:00",
-      "checkOut": "12:00",
-      "builtYear": 2024,
-      "floors": 5,
-      "policies": {
-        "childPolicy": "기존 침대 사용 시 아동 무료 투숙 가능"
-      },
-      "photos": [
-        "/covers-photo/the-nice-hotel-phu-quoc-fireworks-ocean-view-1.webp",
-        "/covers-photo/the-nice-hotel-phu-quoc-fireworks-ocean-view-2.webp",
-        "/covers-photo/the-nice-hotel-phu-quoc-fireworks-ocean-view-3.webp",
-        "/covers-photo/the-nice-hotel-phu-quoc-fireworks-ocean-view-4.webp",
-        "/covers-photo/the-nice-hotel-phu-quoc-fireworks-ocean-view-5.webp"
-      ],
-      "agodaUrl": "https://www.agoda.com/ko-kr/the-nice-hotel-phu-quoc-fireworks-ocean-view/hotel/phu-quoc-island-vn.html",
-      "googleRating": 4.7,
-      "tier": "recommended",
-      "order": 4,
-      "isFeatured": true,
-      "landmarks": [
-        {
-          "name": "키스 브릿지",
-          "distance": "260m (도보 3분)"
-        },
-        {
-          "name": "야시장",
-          "distance": "300m (도보 4분)"
-        },
-        {
-          "name": "케이블카",
-          "distance": "380m (도보 5분)"
-        },
-        {
-          "name": "선 바바리아 펍",
-          "distance": "370m (도보 5분)"
-        }
-      ]
     },
     {
       "slug": "noska-hotel",
