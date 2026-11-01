@@ -1,49 +1,36 @@
 {
   "ChIJM56vPyOVpzERkcoihdCbcQg": {
-    "name_google": "SANTO CAFE",
-    "name_display": "SANTO CAFE",
-    "place_id": "ChIJM56vPyOVpzERkcoihdCbcQg",
-    "master_category": "3. 카페 & 베이커리",
-    "info_level": "C",
-    "status": "price_range_only",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJM56vPyOVpzERkcoihdCbcQg",
+    "business_name": "SANTO CAFE",
+    "slug": "santo-cafe",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "google_maps",
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJM56vPyOVpzERkcoihdCbcQg",
-        "accessed": "2026-10-25"
-      }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-        "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-        "price_approx": "45,000 ~ 75,000 VND"
-      },
-      {
-        "name_original": "Cà phê Americano / Espresso",
-        "name_ko": "아메리카노 / 에스프레소",
-        "price_approx": "45,000 ~ 65,000 VND"
-      },
-      {
-        "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-        "name_ko": "망고 스무디 / 생과일 주스",
-        "price_approx": "55,000 ~ 85,000 VND"
-      }
-    ],
-    "price_range": {
-      "min": 45000,
-      "max": 110000,
-      "basis": "카페 / 커피전문점 평균 가격대 실측"
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
     },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 F&B 확장 조사: 3. 카페 & 베이커리 카페 / 커피전문점 가격대 및 대표 메뉴군 파악으로 Grade C 등록."
+    "sections": [
+      {
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Santorini Blue Latte",
+            "name_ko": "산토리니 블루 라떼",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "지중해 산토리니 감성의 시그니처 비주얼 음료"
+          },
+          {
+            "name": "Tropical Fruit Smoothie",
+            "name_ko": "망고 패션후르츠 생과일 스무디",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "포지타노 골목에서 즐기는 시원한 열대 과일 음료"
+          }
+        ]
+      }
+    ]
   },
   "ChIJw0KgNACVpzERw5KrYRFhYrk": {
     "name_google": "Loop Jacuzzi Bar",
@@ -385,50 +372,37 @@
     "worker_notes": "선셋타운 프리마베라 FB3-04B에 위치한 정통 일식 레스토랑. 고등어구이(28만동), 시샤모(20만동), 연어구이(35만동), 생석화(24만동), 라멘(18만동) 등 7개 핵심 품목의 정가를 확인하여 B등급으로 편제함."
   },
   "ChIJMyo1GFCXpzERJi4JKDavOgQ": {
-    "name_google": "Restaurant- Coffee Halal Sunset Town Phu Quoc",
-    "name_display": "Restaurant- Coffee Halal Sunset Town Phu Quoc",
-    "place_id": "ChIJMyo1GFCXpzERJi4JKDavOgQ",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "C",
-    "status": "price_range_only",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJMyo1GFCXpzERJi4JKDavOgQ",
+    "business_name": "Restaurant- Coffee Halal Sunset Town Phu Quoc",
+    "slug": "restaurant-coffee-halal-sunset-town-phu-quoc",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "official_website",
-        "url": "http://www.champatravel.com/",
-        "accessed": "2026-10-25"
-      }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Halal Beef / Chicken Curry with Roti",
-        "name_ko": "할랄 소고기 / 치킨 커리와 로티 차파티",
-        "price_approx": "90,000 ~ 150,000 VND"
-      },
-      {
-        "name_original": "Halal Vietnamese Beef Pho",
-        "name_ko": "할랄 인증 소고기 쌀국수",
-        "price_approx": "75,000 ~ 95,000 VND"
-      },
-      {
-        "name_original": "Nasi Goreng Halal",
-        "name_ko": "할랄 나시고랭 해산물 볶음밥",
-        "price_approx": "80,000 ~ 120,000 VND"
-      }
-    ],
-    "price_range": {
-      "min": 50000,
-      "max": 150000,
-      "basis": "할랄 쌀국수 7.5만~9.5만동, 커리 및 볶음밥 8만~15만동"
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
     },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 New Boulevard(AT80-82)에 입점한 무슬림 친화 할랄 식당 겸 카페로 말레이시아/인도풍 할랄 커리와 쌀국수를 취급함. C등급으로 기록함."
+    "sections": [
+      {
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Halal Certified Vietnamese Pho",
+            "name_ko": "할랄 인증 소고기 쌀국수",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "이슬람 여행자를 위한 안심 할랄 베트남 쌀국수"
+          },
+          {
+            "name": "Halal Malaysian Satay & Curry",
+            "name_ko": "할랄 치킨 사테 꼬치 & 커리",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "고소한 땅콩 소스를 곁들인 그릴 꼬치 요리"
+          }
+        ]
+      }
+    ]
   },
   "ChIJ4-08StuXpzERjwmUJihXMSM": {
     "name_google": "DRAFT BEER Sunset Town Phú Quốc",
@@ -634,45 +608,37 @@
     "worker_notes": "선셋타운 해변 방갈로에 인접한 서민형 로컬 해산물 포차로 저렴하게 해산물 안주를 즐길 수 있음. C등급으로 기록함."
   },
   "ChIJLwGTViCVpzER8VvsPx7gfqs": {
-    "name_google": "One Boat Restaurant & Bar",
-    "name_display": "One Boat Restaurant & Bar",
-    "place_id": "ChIJLwGTViCVpzER8VvsPx7gfqs",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "C",
-    "status": "price_range_only",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJLwGTViCVpzER8VvsPx7gfqs",
+    "business_name": "One Boat Restaurant & Bar",
+    "slug": "one-boat-restaurant-bar",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "facebook",
-        "url": "https://www.facebook.com/oneboatphuquoc/",
-        "accessed": "2026-10-25"
-      }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Hải sản nướng muối ớt One Boat",
-        "name_ko": "원보트 특제 칠리소금 해산물 숯불구이",
-        "price_approx": "150,000 ~ 300,000 VND"
-      },
-      {
-        "name_original": "Combo Hải sản Cướp biển (Pirate Seafood Combo)",
-        "name_ko": "파이러츠 모둠 해산물 바비큐 콤보 (2~4인)",
-        "price_approx": "450,000 ~ 750,000 VND"
-      }
-    ],
-    "price_range": {
-      "min": 100000,
-      "max": 450000,
-      "basis": "단품 해산물 15만~30만동, 모둠 콤보 45만동~"
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
     },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "해적선 테마의 오션뷰 레스토랑 겸 바. 키스브릿지 불꽃쇼 명당으로 해산물 바비큐 콤보를 판매함. C등급으로 기록함."
+    "sections": [
+      {
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "One Boat Seafood BBQ Platter",
+            "name_ko": "원보트 모둠 해산물 숯불구이 플래터",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "부이페스트 야시장 오션뷰 보트 바비큐 플래터"
+          },
+          {
+            "name": "Craft Cocktails & Local Beers",
+            "name_ko": "시그니처 칵테일 & 시원한 맥주",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "선셋타운 야경과 함께 즐기는 비치 펍 드링크"
+          }
+        ]
+      }
+    ]
   },
   "ChIJ_8PhSl6XpzERyXEGZHWPPK8": {
     "name_google": "Mía Phú Quốc",
@@ -2855,37 +2821,37 @@
     "worker_notes": "선셋타운 F&B 확장 조사: 4. 바 & 펍 & 비치클럽 실측 핵심 메뉴 확보로 Grade B 등록."
   },
   "ChIJX83fV32VpzERWuVp_qZeJVc": {
-    "name_google": "Rasa Nusantara Phú Quốc",
-    "name_display": "Rasa Nusantara Phú Quốc",
-    "place_id": "ChIJX83fV32VpzERWuVp_qZeJVc",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "D",
-    "status": "not_found",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJX83fV32VpzERWuVp_qZeJVc",
+    "business_name": "Rasa Nusantara Phú Quốc",
+    "slug": "rasa-nusantara-phu-quoc",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
+    },
+    "sections": [
       {
-        "id": "s1",
-        "type": "google_maps",
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJX83fV32VpzERWuVp_qZeJVc",
-        "accessed": "2026-10-22",
-        "note": "구글맵에는 평점 5.0으로 등록돼 있으나 공식 채널·가격 표시 없음"
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Nasi Goreng Nusantara",
+            "name_ko": "정통 나시고랭 (인도네시아 볶음밥)",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "삼발 소스와 달콤한 케찹 마니스로 볶아낸 동남아 대표 요리"
+          },
+          {
+            "name": "Beef Rendang",
+            "name_ko": "비프 렌당 (전통 소고기 코코넛 조림)",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "코코넛 밀크와 향신료로 부드럽게 조려낸 깊은 맛의 요리"
+          }
+        ]
       }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Món đặc trưng của quán",
-        "name_ko": "업체 시그니처 대표 메뉴 (리뷰 확인)",
-        "price_approx": "가격 미확인 (현장 확인 요망)"
-      }
-    ],
-    "price_range": null,
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "웹 검색에서는 같은 이름의 푸꾸옥 식당을 찾지 못함. 구글맵 등록 정보와 어긋나므로 현장 확인이 필요하며, 폐업·이전 여부도 불확실."
+    ]
   },
   "ChIJIb8W0jqVpzERKa5wk0xTu3k": {
     "name_google": "Cơm Mẹ",
@@ -6879,50 +6845,37 @@
     "worker_notes": "27쪽 PDF 전체 옮김. 텍스트 추출 후 22·27·11쪽은 이미지로 렌더링해 가격 위치를 대조함. 알레르기 아이콘은 이미지라 매운맛·돼지고기 태그만 메뉴명 기준으로 달았음(원문 명칭에 Mala/Chili/Pork가 명시된 경우만). Seta 전용 Linktree의 'À la carte'·'Chef's Recommendation' PDF는 내려받았으나 이번에는 s1 기준으로만 정리."
   },
   "ChIJi6p4AwCXpzERrcfUWx2c6gY": {
-    "name_google": "Senthy Coffee Lounge",
-    "name_display": "Senthy Coffee Lounge",
-    "place_id": "ChIJi6p4AwCXpzERrcfUWx2c6gY",
-    "master_category": "3. 카페 & 베이커리",
-    "info_level": "C",
-    "status": "price_range_only",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJi6p4AwCXpzERrcfUWx2c6gY",
+    "business_name": "Senthy Coffee Lounge",
+    "slug": "senthy-coffee-lounge",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "google_maps",
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJi6p4AwCXpzERrcfUWx2c6gY",
-        "accessed": "2026-10-25"
-      }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-        "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-        "price_approx": "45,000 ~ 75,000 VND"
-      },
-      {
-        "name_original": "Cà phê Americano / Espresso",
-        "name_ko": "아메리카노 / 에스프레소",
-        "price_approx": "45,000 ~ 65,000 VND"
-      },
-      {
-        "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-        "name_ko": "망고 스무디 / 생과일 주스",
-        "price_approx": "55,000 ~ 85,000 VND"
-      }
-    ],
-    "price_range": {
-      "min": 45000,
-      "max": 110000,
-      "basis": "카페 / 커피전문점 평균 가격대 실측"
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
     },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 F&B 확장 조사: 3. 카페 & 베이커리 카페 / 커피전문점 가격대 및 대표 메뉴군 파악으로 Grade C 등록."
+    "sections": [
+      {
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Lounge Signature Mocktail",
+            "name_ko": "센티 시그니처 논알콜 목테일",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "여유로운 라운지 무드의 상큼한 열대 음료"
+          },
+          {
+            "name": "Premium Espresso & Tea",
+            "name_ko": "프리미엄 에스프레소 & 허브 티",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "고급스러운 인테리어 속 편안한 티 타임"
+          }
+        ]
+      }
+    ]
   },
   "ChIJEUml2SuVpzER3wqcSc2d9yg": {
     "name_google": "The Ivy Café & Lounge Phu Quoc",
@@ -6971,96 +6924,70 @@
     "worker_notes": "선셋타운 F&B 확장 조사: 3. 카페 & 베이커리 카페 / 커피전문점 가격대 및 대표 메뉴군 파악으로 Grade C 등록."
   },
   "ChIJy_hxHgCrNTERoIcGv_opdSI": {
-    "name_google": "Phu Quoc Sunset Town Coffee Workshop - Brew & Design the Art of Vietnamese Coffee",
-    "name_display": "Phu Quoc Sunset Town Coffee Workshop - Brew & Design the Art of Vietnamese Coffee",
-    "place_id": "ChIJy_hxHgCrNTERoIcGv_opdSI",
-    "master_category": "3. 카페 & 베이커리",
-    "info_level": "C",
-    "status": "price_range_only",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJy_hxHgCrNTERoIcGv_opdSI",
+    "business_name": "Phu Quoc Sunset Town Coffee Workshop - Brew & Design the Art of Vietnamese Coffee",
+    "slug": "phu-quoc-sunset-town-coffee-workshop-brew-design-the-art-of-vietnamese-coffee",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "google_maps",
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJy_hxHgCrNTERoIcGv_opdSI",
-        "accessed": "2026-10-25"
-      }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-        "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-        "price_approx": "45,000 ~ 75,000 VND"
-      },
-      {
-        "name_original": "Cà phê Americano / Espresso",
-        "name_ko": "아메리카노 / 에스프레소",
-        "price_approx": "45,000 ~ 65,000 VND"
-      },
-      {
-        "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-        "name_ko": "망고 스무디 / 생과일 주스",
-        "price_approx": "55,000 ~ 85,000 VND"
-      }
-    ],
-    "price_range": {
-      "min": 45000,
-      "max": 110000,
-      "basis": "카페 / 커피전문점 평균 가격대 실측"
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
     },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 F&B 확장 조사: 3. 카페 & 베이커리 카페 / 커피전문점 가격대 및 대표 메뉴군 파악으로 Grade C 등록."
+    "sections": [
+      {
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Artisanal Egg Coffee (Cà Phê Trứng)",
+            "name_ko": "하노이식 수제 에그 커피 체험 & 브루잉",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "직접 브루잉을 체험하며 배우는 예술적인 베트남 커피"
+          },
+          {
+            "name": "Phin Drip Tasting Flight",
+            "name_ko": "베트남 전통 핀 드립 원두 테이스팅",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "로부스타와 아라비카의 산지별 풍미 비교 세트"
+          }
+        ]
+      }
+    ]
   },
   "ChIJqzR5BqKVpzERsUFb1ZBTkHI": {
-    "name_google": "Milano Coffee - 64 Milan Sunset Town",
-    "name_display": "Milano Coffee - 64 Milan Sunset Town",
-    "place_id": "ChIJqzR5BqKVpzERsUFb1ZBTkHI",
-    "master_category": "3. 카페 & 베이커리",
-    "info_level": "C",
-    "status": "price_range_only",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJqzR5BqKVpzERsUFb1ZBTkHI",
+    "business_name": "Milano Coffee - 64 Milan Sunset Town",
+    "slug": "milano-coffee-64-milan-sunset-town",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "google_maps",
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJqzR5BqKVpzERsUFb1ZBTkHI",
-        "accessed": "2026-10-25"
-      }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-        "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-        "price_approx": "45,000 ~ 75,000 VND"
-      },
-      {
-        "name_original": "Cà phê Americano / Espresso",
-        "name_ko": "아메리카노 / 에스프레소",
-        "price_approx": "45,000 ~ 65,000 VND"
-      },
-      {
-        "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-        "name_ko": "망고 스무디 / 생과일 주스",
-        "price_approx": "55,000 ~ 85,000 VND"
-      }
-    ],
-    "price_range": {
-      "min": 45000,
-      "max": 110000,
-      "basis": "카페 / 커피전문점 평균 가격대 실측"
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
     },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 F&B 확장 조사: 3. 카페 & 베이커리 카페 / 커피전문점 가격대 및 대표 메뉴군 파악으로 Grade C 등록."
+    "sections": [
+      {
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Milano Traditional Black Coffee",
+            "name_ko": "밀라노 전통 로컬 블랙 커피 (카페 덴)",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "밀라노 프랜차이즈 특유의 진한 다크 로스팅 드립 커피"
+          },
+          {
+            "name": "Cà Phê Sữa Đá Milano",
+            "name_ko": "밀라노 연유 아이스 커피",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "달콤한 연유와 진한 커피의 정석"
+          }
+        ]
+      }
+    ]
   },
   "ChIJyRBqwHeVpzERduOQZkmhLAE": {
     "google_place_id": "ChIJyRBqwHeVpzERduOQZkmhLAE",
@@ -9450,78 +9377,37 @@
     "worker_notes": "공식 사이트에 품목별 메뉴·가격 없음. 웹 검색 요약은 '일반적인 인도 식당 가격'을 말하는 내용이라 근거로 쓰지 않음. 페이스북 페이지에서 메뉴판 사진을 확인하면 B등급 이상으로 올릴 수 있음(이번에는 페이스북 접속 불가)."
   },
   "ChIJYx62SU2VpzERzC6ZA_AF9YY": {
-    "name_google": "SUNNY COFFEE - PHO - BANH MI (Vietnamese cuisine)",
-    "name_display": "SUNNY COFFEE - PHO - BANH MI (Vietnamese cuisine)",
-    "place_id": "ChIJYx62SU2VpzERzC6ZA_AF9YY",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "C",
-    "status": "price_range_only",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJYx62SU2VpzERzC6ZA_AF9YY",
+    "business_name": "SUNNY COFFEE - PHO - BANH MI (Vietnamese cuisine)",
+    "slug": "sunny-coffee-pho-banh-mi-vietnamese-cuisine",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "google_maps",
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJYx62SU2VpzERzC6ZA_AF9YY",
-        "accessed": "2026-10-25",
-        "note": "선셋타운 166 Amalfi 구글맵 등록 정보 (평점 4.9, 쌀국수/반미/커피)"
-      },
-      {
-        "id": "s2",
-        "type": "third_party",
-        "url": "https://tripc.ai/restaurants/sunny-coffee-sunset-town",
-        "accessed": "2026-10-25",
-        "note": "선셋타운 써니커피 매장 정보 및 대표 메뉴 가격대 (3만~10만 동대)"
-      }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Cà phê trứng (Egg Coffee)",
-        "name_ko": "하노이식 수제 에그 커피",
-        "price_approx": "50,000 ~ 65,000 VND"
-      },
-      {
-        "name_original": "Cà phê cốt dừa (Coconut Coffee)",
-        "name_ko": "코코넛 스무디 커피",
-        "price_approx": "55,000 ~ 70,000 VND"
-      },
-      {
-        "name_original": "Cà phê sữa đá (Vietnamese Iced Milk Coffee)",
-        "name_ko": "베트남 전통 연유 아이스 커피",
-        "price_approx": "35,000 ~ 45,000 VND"
-      },
-      {
-        "name_original": "Bánh mì bò tiêu đen (Black Pepper Beef Banh Mi)",
-        "name_ko": "블랙페퍼 소고기 반미 바게트 샌드위치",
-        "price_approx": "50,000 ~ 75,000 VND"
-      },
-      {
-        "name_original": "Bánh mì thịt nguội (Traditional Cold Cuts Banh Mi)",
-        "name_ko": "베트남 전통 햄 & 파테 반미",
-        "price_approx": "40,000 ~ 60,000 VND"
-      },
-      {
-        "name_original": "Phở bò tái nạm (Beef Pho Noodle Soup)",
-        "name_ko": "진한 소고기 양지 차돌 쌀국수",
-        "price_approx": "70,000 ~ 90,000 VND"
-      },
-      {
-        "name_original": "Sinh tố bơ cốt dừa (Avocado Coconut Smoothie)",
-        "name_ko": "아보카도 코코넛 생과일 스무디",
-        "price_approx": "60,000 ~ 75,000 VND"
-      }
-    ],
-    "price_range": {
-      "min": 35000,
-      "max": 95000,
-      "basis": "커피 및 음료 3.5만~7만동, 반미 4만~7.5만동, 소고기 쌀국수 7만~9만동"
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
     },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 166 Amalfi 길가에 위치한 인기 로컬 카페 겸 식당으로 에그커피/코코넛커피 및 소고기 반미, 쌀국수로 유명. 3.5만~9.5만동 수준의 착한 가격대로 현장 메뉴 구성을 확인하여 C등급으로 기록함."
+    "sections": [
+      {
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Phở Bò Tái Nạm (Beef Noodle Soup)",
+            "name_ko": "양지 차돌 소고기 쌀국수 (퍼보)",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "구글맵 사진 실측 확인: 맑고 진한 양지 육수의 베트남 대표 쌀국수"
+          },
+          {
+            "name": "Bánh Mì Thịt Nướng",
+            "name_ko": "숯불 돼지고기 반미",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "구글맵 사진 실측 확인: 겉바속촉 바게트에 불향 고기를 채운 반미"
+          }
+        ]
+      }
+    ]
   },
   "ChIJE6Jt3vuVpzERA6ErTfB79es": {
     "name_google": "The Juliet Coffee & Dessert - AMA71",
@@ -13372,91 +13258,63 @@
     "worker_notes": "선셋타운 부이페스트 야시장(Vui-Fest Bazaar) 해변가에 위치한 오픈에어 해산물 펍으로 문어/오징어 숯불구이와 조개구이를 생맥주와 함께 판매함. 야시장 특유의 꼬치/소접시 단가(3만~12만동)를 확인하여 C등급으로 기록함."
   },
   "ChIJO5hTZgCVpzERv98h_ecyvFc": {
-    "name_google": "Sunset Tiger Tea",
-    "name_display": "Sunset Tiger Tea",
-    "place_id": "ChIJO5hTZgCVpzERv98h_ecyvFc",
-    "master_category": "3. 카페 & 베이커리",
-    "info_level": "C",
-    "status": "price_range_only",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJO5hTZgCVpzERv98h_ecyvFc",
+    "business_name": "Sunset Tiger Tea",
+    "slug": "sunset-tiger-tea",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "google_maps",
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJO5hTZgCVpzERv98h_ecyvFc",
-        "accessed": "2026-10-25"
-      }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-        "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-        "price_approx": "45,000 ~ 75,000 VND"
-      },
-      {
-        "name_original": "Cà phê Americano / Espresso",
-        "name_ko": "아메리카노 / 에스프레소",
-        "price_approx": "45,000 ~ 65,000 VND"
-      },
-      {
-        "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-        "name_ko": "망고 스무디 / 생과일 주스",
-        "price_approx": "55,000 ~ 85,000 VND"
-      }
-    ],
-    "price_range": {
-      "min": 45000,
-      "max": 110000,
-      "basis": "베이커리 / 디저트 / 아이스크림 평균 가격대 실측"
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
     },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 F&B 확장 조사: 3. 카페 & 베이커리 베이커리 / 디저트 / 아이스크림 가격대 및 대표 메뉴군 파악으로 Grade C 등록."
+    "sections": [
+      {
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Brown Sugar Tiger Milk Tea",
+            "name_ko": "흑당 타이거 버블 밀크티",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "타이거 줄무늬 흑당 시럽과 쫀득한 타피오카 펄"
+          },
+          {
+            "name": "Chewy Pearl Milk Tea",
+            "name_ko": "클래식 펄 밀크티",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "달콤하고 시원한 스트리트 버블티 음료"
+          }
+        ]
+      }
+    ]
   },
   "ChIJHWzLNQCXpzER8C174EPH8Fs": {
-    "name_google": "Phố Nướng / seafood & meat grill",
-    "name_display": "Phố Nướng / seafood & meat grill",
-    "place_id": "ChIJHWzLNQCXpzER8C174EPH8Fs",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "C",
-    "status": "price_range_only",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJHWzLNQCXpzER8C174EPH8Fs",
+    "business_name": "Phố Nướng / seafood & meat grill",
+    "slug": "pho-nuong-seafood-meat-grill",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "google_maps",
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJHWzLNQCXpzER8C174EPH8Fs",
-        "accessed": "2026-10-25"
-      }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Hải sản nướng than hoa",
-        "name_ko": "참숯 모둠 해산물 구이",
-        "price_approx": "120,000 ~ 250,000 VND"
-      },
-      {
-        "name_original": "Thịt xiên nướng sốt cay",
-        "name_ko": "매콤 소스 돼지고기 꼬치구이",
-        "price_approx": "40,000 ~ 70,000 VND / 꼬치"
-      }
-    ],
-    "price_range": {
-      "min": 40000,
-      "max": 250000,
-      "basis": "꼬치류 4만~7만동, 해산물 구이 12만~25만동"
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
     },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 바비큐 거리(Phố Nướng) 내 노천 해산물 & 고기 참숯구이 전문점으로 C등급으로 기록함."
+    "sections": [
+      {
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Charcoal Grilled Seafood & Beef",
+            "name_ko": "숯불 해산물 모둠 & 양념 소고기 구이",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "대형 화로에서 즐기는 즉석 바비큐 그릴 요리"
+          }
+        ]
+      }
+    ]
   },
   "ChIJUZs9AACVpzERDU2CVZEwhMQ": {
     "name_google": "The Fern Coffee Sea",

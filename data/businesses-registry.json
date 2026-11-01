@@ -3843,7 +3843,10 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/sunny-coffee-pho-banh-mi-vietnamese-cuisine/sunny-coffee-pho-banh-mi-vietnamese-cuisine_menu_01.webp",
+      "/images/businesses/sunny-coffee-pho-banh-mi-vietnamese-cuisine/sunny-coffee-pho-banh-mi-vietnamese-cuisine_menu_02.webp"
+    ],
     "tags": [
       "cafe",
       "Sunset Town"
@@ -4825,7 +4828,9 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/milano-coffee-64-milan-sunset-town/milano-coffee-64-milan-sunset-town_menu_01.webp"
+    ],
     "tags": [
       "cafe",
       "Sunset Town"
