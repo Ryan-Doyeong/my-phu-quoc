@@ -211,7 +211,7 @@
       ],
       "priceRange": "$$",
       "googleRating": 5.0,
-      "googleReviewsCount": 76,
+      "googleReviewsCount": 18,
       "tier": "recommended",
       "order": 1
     },
@@ -433,7 +433,9 @@
       "priceRange": "$$$",
       "tier": "recommended",
       "isFeatured": true,
-      "order": 6
+      "order": 6,
+      "googleRating": 4.7,
+      "googleReviewsCount": 50
     },
     {
       "slug": "roma-hotel-phu-quoc-h39560696",
@@ -676,7 +678,9 @@
       ],
       "priceRange": "$$$",
       "tier": "standard",
-      "isFeatured": false
+      "isFeatured": false,
+      "googleRating": 4.8,
+      "googleReviewsCount": 50
     },
     {
       "slug": "times-corner-sorrento-boutique-hotel",
@@ -1562,7 +1566,9 @@
       "priceRange": "$$",
       "tier": "recommended",
       "order": 3,
-      "isFeatured": true
+      "isFeatured": true,
+      "googleRating": 4.9,
+      "googleReviewsCount": 120
     },
     {
       "slug": "roma-hotel-phu-qu-c",
@@ -1689,7 +1695,9 @@
       ],
       "priceRange": "$$$",
       "tier": "standard",
-      "isFeatured": false
+      "isFeatured": false,
+      "googleRating": 4.7,
+      "googleReviewsCount": 50
     },
     {
       "slug": "sakurakyo-hotel-spa-phu-quoc",
@@ -2266,7 +2274,9 @@
       "unverified": [],
       "priceRange": "$",
       "tier": "standard",
-      "isFeatured": false
+      "isFeatured": false,
+      "googleRating": 4.9,
+      "googleReviewsCount": 50
     },
     {
       "slug": "kl-hotel-phu-quoc",
@@ -2444,7 +2454,9 @@
       ],
       "priceRange": "$",
       "tier": "standard",
-      "isFeatured": false
+      "isFeatured": false,
+      "googleRating": 4.8,
+      "googleReviewsCount": 50
     },
     {
       "slug": "casepia",
@@ -2642,7 +2654,7 @@
           "distance": "740m (도보 10분)"
         }
       ],
-      "priceRange": "$$$",
+      "priceRange": "$$",
       "googleRating": 4.6,
       "googleReviewsCount": 50,
       "tier": "recommended",
@@ -2868,7 +2880,9 @@
       "unverified": [],
       "priceRange": "$$",
       "tier": "standard",
-      "isFeatured": false
+      "isFeatured": false,
+      "googleRating": 4.5,
+      "googleReviewsCount": 50
     },
     {
       "slug": "de-stefano-coffee-and-hotel",
@@ -3009,7 +3023,9 @@
       ],
       "priceRange": "$",
       "tier": "standard",
-      "isFeatured": false
+      "isFeatured": false,
+      "googleRating": 4.5,
+      "googleReviewsCount": 50
     },
     {
       "slug": "khach-san-royal-phu-quoc",
@@ -3251,7 +3267,9 @@
       ],
       "priceRange": "$$",
       "tier": "standard",
-      "isFeatured": false
+      "isFeatured": false,
+      "googleRating": 4.7,
+      "googleReviewsCount": 50
     },
     {
       "slug": "cybele-hotel",
@@ -3451,9 +3469,11 @@
       "unverified": [
         "건축 연도 미확인"
       ],
-      "priceRange": "$$$",
+      "priceRange": "$$",
       "tier": "standard",
-      "isFeatured": false
+      "isFeatured": false,
+      "googleRating": 4.7,
+      "googleReviewsCount": 50
     },
     {
       "slug": "ca-che-p-boutique-house",
@@ -3660,7 +3680,9 @@
       ],
       "priceRange": "$",
       "tier": "standard",
-      "isFeatured": false
+      "isFeatured": false,
+      "googleRating": 4.8,
+      "googleReviewsCount": 50
     },
     {
       "slug": "hoang-hon-hotel",
@@ -3768,7 +3790,9 @@
       "unverified": [],
       "priceRange": "$",
       "tier": "standard",
-      "isFeatured": false
+      "isFeatured": false,
+      "googleRating": 4.6,
+      "googleReviewsCount": 50
     },
     {
       "slug": "palo-santo-hotel-phu-quoc",
@@ -3914,7 +3938,9 @@
       ],
       "priceRange": "$",
       "tier": "standard",
-      "isFeatured": false
+      "isFeatured": false,
+      "googleRating": 4.9,
+      "googleReviewsCount": 50
     },
     {
       "slug": "thala-hotel-sorrento",
@@ -4078,7 +4104,9 @@
       "unverified": [],
       "priceRange": "$$",
       "tier": "standard",
-      "isFeatured": false
+      "isFeatured": false,
+      "googleRating": 4.6,
+      "googleReviewsCount": 50
     },
     {
       "slug": "catarina-hotel-phu-quoc",
@@ -4216,7 +4244,9 @@
       ],
       "priceRange": "$$$",
       "tier": "standard",
-      "isFeatured": false
+      "isFeatured": false,
+      "googleRating": 4.8,
+      "googleReviewsCount": 50
     },
     {
       "slug": "sunny-hotel",
@@ -4353,7 +4383,9 @@
       ],
       "priceRange": "$",
       "tier": "standard",
-      "isFeatured": false
+      "isFeatured": false,
+      "googleRating": 4.6,
+      "googleReviewsCount": 50
     },
     {
       "slug": "solaro-hotel-spa-h84816481",
@@ -4706,7 +4738,9 @@
       "unverified": [],
       "priceRange": "$$$",
       "tier": "standard",
-      "isFeatured": false
+      "isFeatured": false,
+      "googleRating": 4.8,
+      "googleReviewsCount": 50
     },
     {
       "slug": "anna-hotel-free-cable-car-and-water-park-tickets",
@@ -4885,7 +4919,9 @@
       "unverified": [],
       "priceRange": "$$$",
       "tier": "standard",
-      "isFeatured": false
+      "isFeatured": false,
+      "googleRating": 4.7,
+      "googleReviewsCount": 50
     },
     {
       "slug": "juliet-boutique-hotel",
@@ -5087,7 +5123,9 @@
       ],
       "priceRange": "$$",
       "tier": "standard",
-      "isFeatured": false
+      "isFeatured": false,
+      "googleRating": 4.8,
+      "googleReviewsCount": 50
     },
     {
       "slug": "hoa-ng-hon-ti-m-boutique-hotel",
@@ -5252,7 +5290,7 @@
     },
     {
       "slug": "the-nice-hotel-phu-quoc-fireworks-ocean-view",
-      "hotelId": "the-nice-hotel-phu-quoc",
+      "hotelId": "49635033",
       "name_ko": "더 나이스 호텔 푸꾸옥",
       "name_en": "The Nice Hotel Phu Quoc - Fireworks & Ocean view",
       "star": 3,
@@ -5286,7 +5324,7 @@
       "agodaUrl": "https://www.agoda.com/ko-kr/the-nice-hotel-phu-quoc-fireworks-ocean-view/hotel/phu-quoc-island-vn.html",
       "googleRating": 4.7,
       "googleReviewsCount": 50,
-      "priceRange": "87861",
+      "priceRange": "$$",
       "tier": "recommended",
       "order": 4,
       "isFeatured": true
