@@ -109,9 +109,8 @@ export async function generateBusinessMetadata(
   } catch {
     dbError = true
   }
-  // Supabase 장애(예외 또는 error) 시에만 로컬 선셋타운 JSON fallback 사용
-  // 정상 응답인데 결과가 없는 경우(data === null, error 없음) 선셋타운 fallback 미사용
-  if (!b && dbError) {
+  // Supabase에 데이터가 없거나 에러인 경우 로컬 선셋타운 JSON fallback 사용
+  if (!b) {
     b = (businessesRegistry as any[]).find((x) => x.slug === slug && x.status === 'published') || null
   }
   // 켐비치 업체는 Supabase에 없으므로 khemBusinesses에서 published 상태인 업체 조회
@@ -191,14 +190,28 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
   } catch {
     dbError = true
   }
-  // Supabase 장애(예외 또는 error) 시에만 로컬 선셋타운 JSON fallback 사용
-  // 정상 응답인데 결과가 없는 경우(data === null, error 없음) 선셋타운 fallback 미사용
-  if (!b && dbError) {
+  // Supabase에 데이터가 없거나 에러인 경우 로컬 선셋타운 JSON fallback 사용
+  if (!b) {
     b = (businessesRegistry as any[]).find((x) => x.slug === slug && x.status === 'published') || null
   }
   // 켐비치 업체는 Supabase에 없으므로 khemBusinesses에서 published 상태인 업체 조회
   if (!b) {
     b = (khemBusinesses as any[]).find((x) => x.slug === slug && x.status === 'published') || null
+  }
+  // 로컬 선셋타운 레지스트리 데이터 보강 (Supabase DB 미실행 상태에서도 Agoda 예약 링크, 정품 사진 노출)
+  const regItem = (businessesRegistry as any[]).find((x) => x.slug === slug)
+  if (b && regItem) {
+    if (regItem.agoda_url && !b.agoda_url) b.agoda_url = regItem.agoda_url
+    if (regItem.website_url && regItem.website_url.includes('agoda.com') && (!b.website_url || !b.website_url.includes('agoda.com'))) {
+      b.website_url = regItem.website_url
+    }
+    if (regItem.gallery_urls && regItem.gallery_urls.length > 0 && (!b.gallery_urls || b.gallery_urls.length === 0 || b.gallery_urls[0]?.includes('googleusercontent'))) {
+      b.gallery_urls = regItem.gallery_urls
+    }
+    if (b.category === 'hotels') {
+      if (regItem.public_name) b.public_name = regItem.public_name
+      if (regItem.google_maps_name) b.google_maps_name = regItem.google_maps_name
+    }
   }
   if (!b || b.slug === 'sunset-place-4' || b.slug === 'sunset-place-8' || b.id === 'local-sunset-139' || b.id === 'local-sunset-240') {
     if (DELETED_SLUG_REDIRECTS[slug]) {
