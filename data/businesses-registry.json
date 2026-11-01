@@ -39,7 +39,7 @@
   },
   {
     "id": "local-sunset-2",
-    "public_name": "사쿠라쿄 호텔 앤 스파 푸꾸옥 (Sakurakyo Hotel & Spa Phu Quoc - Spa Inclusive & Free Airport Shuttle)",
+    "public_name": "사쿠라쿄 호텔 & 스파 푸꾸옥 (Sakurakyo Hotel & Spa)",
     "slug": "sakurakyo-hotel-spa-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -77,7 +77,7 @@
   },
   {
     "id": "local-sunset-3",
-    "public_name": "베니스 호텔 푸꾸옥 (Venice Hotel Phu Quoc - Free Airport Shuttle & Spa Inclusive)",
+    "public_name": "베니스 호텔 푸꾸옥 (Venice Hotel Phu Quoc)",
     "slug": "venice-hotel-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -115,7 +115,7 @@
   },
   {
     "id": "local-sunset-4",
-    "public_name": "로마 호텔 푸꾸옥 (Roma Hotel Phu Quoc - Free Airport Shuttle & Spa Inclusive)",
+    "public_name": "로마 호텔 푸꾸옥 (Roma Hotel Phu Quoc)",
     "slug": "roma-hotel-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -153,7 +153,7 @@
   },
   {
     "id": "local-sunset-5",
-    "public_name": "줄리엣 부티크 호텔 - 선셋 타운 (Juliet Boutique Hotel - Sunset Town)",
+    "public_name": "더 줄리엣 부티크 호텔 & 커피 Ven 07 (The Juliet Boutique Hotel)",
     "slug": "the-juliet-a-boutique-hotel-coffee-ven-07",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -220,7 +220,7 @@
   },
   {
     "id": "local-sunset-7",
-    "public_name": "타임스 코너 소렌토 호텔 (Times Corner Sorrento Hotel)",
+    "public_name": "타임즈 코너 소렌토 부티크 호텔 (Times Corner Sorrento)",
     "slug": "times-corner-sorrento-boutique-hotel",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -258,7 +258,7 @@
   },
   {
     "id": "local-sunset-8",
-    "public_name": "로얄 호텔 푸꾸옥 (Royal Hotel Phu Quoc)",
+    "public_name": "로얄 호텔 푸꾸옥 1 (Royal Hotel Phu Quoc)",
     "slug": "royal-hotel-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -334,7 +334,7 @@
   },
   {
     "id": "local-sunset-10",
-    "public_name": "타임스 코너 아말피 호텔 (TIMES CORNER AMALFI HOTEL)",
+    "public_name": "타임즈 코너 아말피 호텔 (Times Corner Amalfi Hotel)",
     "slug": "times-corner-amalfi-hotel",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -401,7 +401,7 @@
   },
   {
     "id": "local-sunset-12",
-    "public_name": "카세피아 (CASEPIA)",
+    "public_name": "카세피아 호텔 푸꾸옥 (Casepia Hotel Phu Quoc)",
     "slug": "casepia",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -439,7 +439,7 @@
   },
   {
     "id": "local-sunset-13",
-    "public_name": "르 보뇌르 호텔 (Le Bonheur Hotel)",
+    "public_name": "르 보뇌르 호텔 (Le Bonheur Hotel Sunset Town)",
     "slug": "le-bonheur-hotel",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -506,7 +506,7 @@
   },
   {
     "id": "local-sunset-15",
-    "public_name": "데 스테파노 호텔 앤 커피 (De Stefano Hotel & Coffee)",
+    "public_name": "드 스테파노 커피 앤 호텔 (De Stefano Coffee & Hotel)",
     "slug": "de-stefano-hotel-coffee",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -602,7 +602,7 @@
   },
   {
     "id": "local-sunset-18",
-    "public_name": "블루 호텔 선셋타운 (Blue Hotel Sunset Town Phu Quoc)",
+    "public_name": "Blue Hotel Sunset Town Phu Quoc",
     "slug": "blue-hotel-sunset-town-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -669,7 +669,7 @@
   },
   {
     "id": "local-sunset-20",
-    "public_name": "블루 홈 푸꾸옥 선셋 타운 (Blue Home Sunset Town Phu Quoc)",
+    "public_name": "Blue Home Sunset Town Phu Quoc",
     "slug": "blue-home-sunset-town-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -937,7 +937,7 @@
   },
   {
     "id": "local-sunset-29",
-    "public_name": "밀란 호텔 앤 커피 (MILAN HOTEL & COFFEE)",
+    "public_name": "Milan Hotel",
     "slug": "milan-hotel",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -975,7 +975,7 @@
   },
   {
     "id": "local-sunset-30",
-    "public_name": "TH 럭셔리 호텔 (TH Luxury Hotel)",
+    "public_name": "TH Luxury Hotel",
     "slug": "th-luxury-hotel",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -1250,7 +1250,7 @@
   },
   {
     "id": "local-sunset-39",
-    "public_name": "시벨레 선셋 호텔 푸꾸옥 (Cybele Sunset Hotel Phu Quoc)",
+    "public_name": "Cybele Sunset Hotel Phú Quốc",
     "slug": "cybele-sunset-hotel-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -1346,7 +1346,7 @@
   },
   {
     "id": "local-sunset-42",
-    "public_name": "로바 호텔 푸꾸옥 (Rova Hotel Phú Quốc)",
+    "public_name": "Rova 105 Hotel",
     "slug": "rova-105-hotel",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -1384,7 +1384,7 @@
   },
   {
     "id": "local-sunset-43",
-    "public_name": "솔레 카사 푸꾸옥 (Sole Casa Phu Quoc)",
+    "public_name": "Sole Casa Phu Quoc",
     "slug": "sole-casa-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -1451,7 +1451,7 @@
   },
   {
     "id": "local-sunset-45",
-    "public_name": "더 나이스 호텔 푸꾸옥 (The Nice Hotel Phu Quoc - Fireworks & Ocean view)",
+    "public_name": "The Nice Hotel Phu Quoc - Fireworks & Ocean view",
     "slug": "the-nice-hotel-phu-quoc-fireworks-ocean-view",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -1518,7 +1518,7 @@
   },
   {
     "id": "local-sunset-47",
-    "public_name": "써니 호텔 (Sunny Hotel)",
+    "public_name": "Sunny Hotel Phu Quoc- Ven 18 Sunset Town",
     "slug": "sunny-hotel-phu-quoc-ven-18-sunset-town",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -1643,7 +1643,7 @@
   },
   {
     "id": "local-sunset-51",
-    "public_name": "솔레아 호텔 선셋타운 푸꾸옥 (Soléa Hotel Sunset Town Phu Quoc)",
+    "public_name": "SOLÉA Hotels & Apartments Sunset Town",
     "slug": "solea-hotels-apartments-sunset-town",
     "category": "hotels",
     "subcategory": "residence",
@@ -1681,7 +1681,7 @@
   },
   {
     "id": "local-sunset-52",
-    "public_name": "로터스 홈 힐사이드 (Lotus Home Hillside)",
+    "public_name": "Lotus Home Hillside",
     "slug": "lotus-home-hillside",
     "category": "hotels",
     "subcategory": "residence",
@@ -1835,7 +1835,7 @@
   },
   {
     "id": "local-sunset-57",
-    "public_name": "호앙 혼 팀 부티크 호텔 (Hoàng Hôn Tím Boutique Hotel)",
+    "public_name": "Hoàng Hôn Tím Boutique Hotel",
     "slug": "hoa-ng-hon-ti-m-boutique-hotel",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -1873,7 +1873,7 @@
   },
   {
     "id": "local-sunset-58",
-    "public_name": "선셋 로얄 호텔 (Sunset Royal)",
+    "public_name": "Sunset Royal",
     "slug": "sunset-royal",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -1940,7 +1940,7 @@
   },
   {
     "id": "local-sunset-60",
-    "public_name": "골든 선셋 호텔 푸꾸옥 (Golden Sunset Hotel)",
+    "public_name": "Golden Sunset Hotel",
     "slug": "golden-sunset-hotel",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -2065,7 +2065,7 @@
   },
   {
     "id": "local-sunset-64",
-    "public_name": "TK 하우스 푸꾸옥 (TK HOUSE PHU QUOC)",
+    "public_name": "TK HOUSE PHU QUOC",
     "slug": "tk-house-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -2103,7 +2103,7 @@
   },
   {
     "id": "local-sunset-65",
-    "public_name": "카사 델 마르 호텔 앤 아파트먼트 (Casa Del Mar Hotel & Apartment - Sunset Town)",
+    "public_name": "CASA DEL MAR BOUTIQUE HOTEL",
     "slug": "casa-del-mar-boutique-hotel",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -2257,7 +2257,7 @@
   },
   {
     "id": "local-sunset-70",
-    "public_name": "메르시 호텔 선셋 타운 (Chuỗi căn hộ Merci Hotel Sunset Town)",
+    "public_name": "MERCI HOTEL SUNSET TOWN PHU QUOC",
     "slug": "merci-hotel-sunset-town-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -2295,7 +2295,7 @@
   },
   {
     "id": "local-sunset-71",
-    "public_name": "더 펀 호텔 - 선셋타운 (The Fern Hotel - Sunset Town)",
+    "public_name": "The Fern Phu Quoc Hotel Sunset Town",
     "slug": "the-fern-phu-quoc-hotel-sunset-town",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -2420,7 +2420,7 @@
   },
   {
     "id": "local-sunset-75",
-    "public_name": "라 판 푸꾸옥 힐사이드 아파트먼트 (La Phan Phu Quoc Hillside Apartment)",
+    "public_name": "La Phan Phu Quoc Hillside Apartment",
     "slug": "la-phan-phu-quoc-hillside-apartment",
     "category": "hotels",
     "subcategory": "residence",
@@ -2515,7 +2515,7 @@
   },
   {
     "id": "local-sunset-78",
-    "public_name": "디도 카르타고 아파트먼트 (Dido Carthage Apartment)",
+    "public_name": "Dido Carthage Apartment Sunset Town, Phu Quoc Island",
     "slug": "dido-carthage-apartment-sunset-town-phu-quoc-island",
     "category": "hotels",
     "subcategory": "residence",
@@ -2553,7 +2553,7 @@
   },
   {
     "id": "local-sunset-79",
-    "public_name": "JS 호텔 푸꾸옥 선셋타운 (JS Hotel Phu Quoc Sunset Town)",
+    "public_name": "JS Hotel Phu Quoc Sunset Town",
     "slug": "js-hotel-phu-quoc-sunset-town",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -2590,7 +2590,7 @@
   },
   {
     "id": "local-sunset-80",
-    "public_name": "하이봇 12 홈스테이 선셋 타운 푸꾸옥 (Haibot 12 Homestay Sunset Town Phu Quoc)",
+    "public_name": "Haibot 12 Homestay Sunset Town Phu Quoc",
     "slug": "haibot-12-homestay-sunset-town-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -2657,7 +2657,7 @@
   },
   {
     "id": "local-sunset-82",
-    "public_name": "힐사이드 아파트먼트 인 선셋타운 푸꾸옥 (Hillside Apartment in Sunset Town, Phu Quoc)",
+    "public_name": "Hillside Apartment in Sunset Town, Phu Quoc",
     "slug": "hillside-apartment-in-sunset-town-phu-quoc",
     "category": "hotels",
     "subcategory": "residence",
@@ -2695,7 +2695,7 @@
   },
   {
     "id": "local-sunset-83",
-    "public_name": "힐사이드 선셋타운 푸꾸옥 (Hillside Sunset Town Phu Quoc)",
+    "public_name": "Hillside Sunset Town Phu Quoc",
     "slug": "hillside-sunset-town-phu-quoc",
     "category": "hotels",
     "subcategory": "residence",
@@ -2762,7 +2762,7 @@
   },
   {
     "id": "local-sunset-85",
-    "public_name": "카사 델 마르 호텔 앤 아파트먼트 (Casa Del Mar Hotel & Apartment - Sunset Town)",
+    "public_name": "Casa Del Mar Hotel & Apartment - Sunset Town",
     "slug": "casa-del-mar-hotel-apartment-sunset-town",
     "category": "hotels",
     "subcategory": "residence",
