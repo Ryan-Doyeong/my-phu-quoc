@@ -3142,7 +3142,9 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/com-me/com-me_menu_01.webp"
+    ],
     "tags": [
       "vietnamese",
       "Sunset Town"
@@ -3236,7 +3238,9 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/mare/mare_menu_01.webp"
+    ],
     "tags": [
       "western",
       "Sunset Town"
@@ -3331,7 +3335,9 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/the-gangs-sunset/the-gangs-sunset_menu_01.webp"
+    ],
     "tags": [
       "seafood",
       "Sunset Town"
@@ -3401,7 +3407,10 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/the-merchant/the-merchant_menu_01.webp",
+      "/images/businesses/the-merchant/the-merchant_menu_02.webp"
+    ],
     "tags": [
       "restaurant",
       "Sunset Town"
@@ -3581,7 +3590,8 @@
     "gallery_urls": [
       "/covers-photo/lagoon-bbq-vietnamese-cuisine-1.webp",
       "/covers-photo/lagoon-bbq-vietnamese-cuisine-2.webp",
-      "/covers-photo/lagoon-bbq-vietnamese-cuisine-3.webp"
+      "/covers-photo/lagoon-bbq-vietnamese-cuisine-3.webp",
+      "/images/businesses/lagoon-bbq-vietnamese-cuisine/lagoon-bbq-vietnamese-cuisine_menu_01.webp"
     ],
     "tags": [
       "vietnamese",
@@ -3615,7 +3625,9 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.1,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/sunset-place-3/sunset-place-3_menu_01.webp"
+    ],
     "tags": [
       "vietnamese",
       "Sunset Town"

@@ -245,166 +245,56 @@
     ]
   },
   "ChIJ4-08StuXpzERjwmUJihXMSM": {
-    "name_google": "DRAFT BEER Sunset Town Phú Quốc",
-    "name_display": "드래프트 비어 선셋타운 (Draft Beer Sunset Town Phú Quốc)",
-    "place_id": "ChIJ4-08StuXpzERjwmUJihXMSM",
-    "master_category": "4. 바 & 펍 & 비치클럽",
-    "info_level": "B",
-    "status": "partial",
-    "menu_date": "2026-10",
-    "stale": false,
+    "google_place_id": "ChIJ4-08StuXpzERjwmUJihXMSM",
+    "business_name": "드래프트 비어 선셋타운 (Draft Beer Sunset Town Phú Quốc)",
+    "slug": "draft-beer-sunset-town-phu-quoc",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "facebook",
-        "url": "http://www.facebook.com/draftbeervn",
-        "accessed": "2026-10-25",
-        "note": "드래프트 비어 공식 SNS 및 현장 메뉴판"
-      }
-    ],
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
+    },
     "sections": [
       {
-        "section_original": "Bia Tươi & Thức Uống / Draft Beer",
-        "section_ko": "생맥주 & 수제맥주",
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
         "items": [
           {
-            "name_original": "Bia Tươi Tiger Crystal / Heineken Cold",
-            "name_ko": "타이거 크리스탈 / 하이네켄 생맥주 (Pint)",
-            "description_original": "Extra chilled draft beer served fresh on tap",
-            "description_ko": "영하의 온도로 차갑게 추출되는 시원하고 청량한 프리미엄 생맥주",
-            "price_vnd": 65000,
-            "tags": [
-              "생맥주",
-              "맥주"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Bia Thủ Công Jasmine IPA (Pasteur Street)",
-            "name_ko": "파스퇴르 스트리트 자스민 IPA 수제맥주",
-            "description_original": "Award-winning Vietnamese craft IPA infused with local jasmine flowers",
-            "description_ko": "베트남산 자스민 꽃잎을 넣어 양조한 화사한 홉 향의 수제 IPA 맥주",
-            "price_vnd": 110000,
-            "tags": [
-              "수제맥주",
-              "IPA"
-            ],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Hải Sản Phú Quốc & Món Nướng / Seafood & Grills",
-        "section_ko": "푸꾸옥 해산물 & 바비큐",
-        "items": [
-          {
-            "name_original": "Gỏi Cá Trích Phú Quốc (Phu Quoc Herring Salad)",
-            "name_ko": "푸꾸옥 전통 청어회 샐러드 (고이까찍)",
-            "description_original": "Fresh raw herring tossed with shredded coconut, herbs, and crushed peanuts wrapped in rice paper",
-            "description_ko": "신선한 생청어에 코코넛 가루와 채소를 버무려 라이스페이퍼에 싸 먹는 푸꾸옥 대표 별미",
-            "price_vnd": 195000,
-            "tags": [
-              "해산물",
-              "시그니처",
-              "푸꾸옥특산"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Mực Trứng Nướng Muối Ớt (Grilled Egg Squid with Chili Salt)",
-            "name_ko": "알배기 한치(오징어) 숯불구이",
-            "description_original": "Fresh caught squid full of roe grilled over charcoal with spicy chili salt",
-            "description_ko": "알이 꽉 찬 신선한 한치를 매콤한 소금 양념에 숯불로 구워낸 안주",
-            "price_vnd": 260000,
-            "tags": [
-              "해산물",
-              "오징어",
-              "구이"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Sườn Heo Nướng Sốt BBQ (Grilled BBQ Pork Ribs)",
-            "name_ko": "특제 바비큐 폭립 (풀랙)",
-            "description_original": "Slow roasted pork ribs glazed with sweet and savory homemade BBQ sauce",
-            "description_ko": "부드럽게 조리한 뒤 달콤 짭조름한 특제 바비큐 소스를 발라 구운 돼지 등갈비",
-            "price_vnd": 380000,
-            "tags": [
-              "바비큐",
-              "폭립",
-              "고기"
-            ],
-            "source_ref": "s1"
+            "name": "Fresh Cold Draft Beer & Sausage",
+            "name_ko": "시원한 생맥주 & 수제 소시지 구이",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "선셋타운 바닷바람과 함께 마시는 시원한 생맥주"
           }
         ]
       }
-    ],
-    "known_dishes": [],
-    "price_range": null,
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 F&B 확장 조사: 4. 바 & 펍 & 비치클럽 실측 핵심 메뉴 확보로 Grade B 등록."
+    ]
   },
   "ChIJexQHMSaVpzERSr6zIxWjYDs": {
-    "name_google": "LAGOON BBQ & VIETNAMESE CUISINE",
-    "name_display": "라군 BBQ & 베트남 퀴진 (Lagoon BBQ & Vietnamese Cuisine)",
-    "place_id": "ChIJexQHMSaVpzERSr6zIxWjYDs",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "C",
-    "status": "price_range_only",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJexQHMSaVpzERSr6zIxWjYDs",
+    "business_name": "라군 BBQ & 베트남 퀴진 (Lagoon BBQ & Vietnamese Cuisine)",
+    "slug": "lagoon-bbq-vietnamese-cuisine",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "facebook",
-        "url": "https://www.facebook.com/lagooncuisinephuquoc/",
-        "accessed": "2026-10-25",
-        "note": "라군 BBQ & 베트남 퀴진 공식 페이스북 (선셋타운 베니스 05)"
-      },
-      {
-        "id": "s2",
-        "type": "third_party",
-        "url": "https://phuquocmap.com/lagoon-bbq-sunset-town",
-        "accessed": "2026-10-25",
-        "note": "선셋타운 키스브릿지 뷰 바비큐 & 전골 다이닝 가격대 (20만~100만 동)"
-      }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Combo Nướng Than Hoa Lagoon (Lagoon BBQ Platter)",
-        "name_ko": "라군 시그니처 숯불 고기 & 해산물 바비큐 플래터",
-        "price_approx": "450,000 ~ 850,000 VND"
-      },
-      {
-        "name_original": "Đĩa hải sản lạnh phong cách Pháp (Chilled Seafood Platter)",
-        "name_ko": "프랑스식 프리미엄 냉 해산물 플래터 (굴, 새우, 게살)",
-        "price_approx": "600,000 ~ 1,200,000 VND"
-      },
-      {
-        "name_original": "Lẩu hải sản Địa Trung Hải (Mediterranean Seafood Hot Pot)",
-        "name_ko": "지중해풍 토마토 해산물 핫팟 전골",
-        "price_approx": "380,000 ~ 650,000 VND"
-      },
-      {
-        "name_original": "Sườn heo nướng sốt BBQ",
-        "name_ko": "특제 바비큐 소스 돼지 등갈비 구이",
-        "price_approx": "250,000 ~ 380,000 VND"
-      }
-    ],
-    "price_range": {
-      "min": 200000,
-      "max": 1000000,
-      "basis": "단품 바비큐 25만~38만동, 플래터 및 전골 45만~85만동, 고급 해산물 100만동선"
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
     },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 베니스 05에 위치하여 키스브릿지와 야간 불꽃놀이를 정면에서 관람할 수 있는 오션뷰 바비큐 식당. 50여 종의 바비큐/해산물 단품 및 플래터 가격대를 확인하여 C등급으로 기록함."
+    "sections": [
+      {
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Lagoon Seafood Hotpot & Charcoal Grill",
+            "name_ko": "라군 모둠 해산물 전골 & 숯불구이",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "구글맵 사진 실측 확인: 해안가 테라스에서 즐기는 해산물 핫팟"
+          }
+        ]
+      }
+    ]
   },
   "ChIJufI0FqCVpzER1FiJropT03Y": {
     "name_google": "Quán Nhậu Bình Dân HOÀNG HÔN ( Hoàng Hôn Quán )",
@@ -527,1278 +417,82 @@
     "worker_notes": "선셋타운 F&B 확장 조사: 4. 바 & 펍 & 비치클럽 라운지 바 가격대 및 대표 메뉴군 파악으로 Grade C 등록."
   },
   "ChIJD-a4fwCVpzERA9KJ8gWE4cA": {
-    "name_google": "The Merchant",
-    "name_display": "더 머천트 (The Merchant - La Festa Hilton 올데이 다이닝)",
-    "place_id": "ChIJD-a4fwCVpzERA9KJ8gWE4cA",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "A",
-    "status": "complete",
-    "menu_date": "2026-10",
-    "stale": false,
+    "google_place_id": "ChIJD-a4fwCVpzERA9KJ8gWE4cA",
+    "business_name": "더 머천트 (The Merchant - La Festa Hilton 올데이 다이닝)",
+    "slug": "the-merchant",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": "가격은 천동(VND) 단위 기준. 5% 서비스료 및 정부 부가세(VAT) 별도(++).",
-    "sources": [
-      {
-        "id": "s1",
-        "type": "official_menu_pdf",
-        "url": "https://drive.google.com/file/d/1_merchant_example/view",
-        "via": "https://linktr.ee/lafestaphuquoc ('The Merchant - All Day Dining')",
-        "accessed": "2026-10-25",
-        "note": "La Festa Phu Quoc - Curio Collection by Hilton 올데이 다이닝 The Merchant 공식 메뉴판 PDF (menus/raw/lafesta/merchant.pdf)"
-      }
-    ],
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
+    },
     "sections": [
       {
-        "section_original": "Bữa sáng | Breakfast (07:00 - 11:00)",
-        "section_ko": "아침 식사 (조식 단품)",
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
         "items": [
           {
-            "name_original": "Coconut Chia Pudding & Fresh Fruits",
-            "name_ko": "코코넛 치아 푸딩 & 생과일",
-            "description_original": "Mixed Berries | 70% Dark Chocolate",
-            "description_ko": "믹스 베리, 70% 다크 초콜릿을 얹은 건강한 코코넛 치아시드 푸딩",
-            "price_vnd": 150000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Nutritious Breakfast Bowl",
-            "name_ko": "영양 가득 조식 볼",
-            "description_original": "Granola, Greek yogurt, tropical fruits, honey",
-            "description_ko": "수제 그래놀라, 그릭 요거트, 열대 과일과 푸꾸옥 꿀",
-            "price_vnd": 170000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Eggs Benedict / Royale",
-            "name_ko": "에그 베네딕트 / 에그 로열",
-            "description_original": "Poached eggs, hollandaise sauce, smoked ham or salmon on english muffin",
-            "description_ko": "수란, 홀랜다이즈 소스, 훈제 햄 또는 훈제 연어를 얹은 잉글리시 머핀",
-            "price_vnd": 220000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Vietnamese Breakfast Pho (Beef / Chicken)",
-            "name_ko": "베트남 전통 조식 쌀국수 (소고기 / 닭고기)",
-            "description_original": "Traditional morning pho noodle soup with herbs",
-            "description_ko": "깊고 진한 육수의 하노이식 아침 쌀국수",
-            "price_vnd": 210000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Khai vị & Xà lách | Appetizer & Salad",
-        "section_ko": "에피타이저 & 샐러드",
-        "items": [
-          {
-            "name_original": "Gỏi ngó sen tôm mực (Lotus Stem Salad with Prawn & Squid)",
-            "name_ko": "새우 오징어 연근줄기 샐러드 (고이 응오센)",
-            "description_original": "Prawn | Squid | Carrot | Coriander | Peanuts | Shallot | Hue Sour Shrimp | Sweet Sour Fish Sauce",
-            "description_ko": "통새우, 오징어, 아삭한 연근줄기, 후에식 절임새우, 땅콩과 새콤달콤 피시소스",
-            "price_vnd": 310000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Quinoa Salad",
-            "name_ko": "퀴노아 슈퍼푸드 샐러드",
-            "description_original": "Quinoa | Pineapple | Shallot | Avocado | Lime Honey Dressing",
-            "description_ko": "퀴노아, 파인애플, 샬롯, 아보카도, 라임 허니 드레싱",
-            "price_vnd": 240000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Phu Quoc Seafood Caesar Salad",
-            "name_ko": "푸꾸옥 해산물 시저 샐러드",
-            "description_original": "Romaine lettuce, grilled prawns, squid, parmesan, crispy bacon",
-            "description_ko": "로메인 레터스, 그릴드 새우와 오징어, 파마산 치즈, 바삭한 베이컨",
-            "price_vnd": 280000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Hương vị Phú Quốc & Món truyền thống | Phu Quoc Flavors & Vietnamese Heritage",
-        "section_ko": "푸꾸옥 로컬 특선 & 베트남 전통 요리",
-        "items": [
-          {
-            "name_original": "Bún hải sản làng chài (Phu Quoc Seafood Noodle Soup)",
-            "name_ko": "푸꾸옥 어촌 마을 해산물 쌀국수 (분 하이산)",
-            "description_original": "Squid | Tiger Prawn | Fresh Herb | Bean Sprouts | Red Chili | Chili Sauce",
-            "description_ko": "신선한 오징어, 타이거새우, 신선한 허브와 숙주를 듬뿍 넣은 푸꾸옥 해산물 국수",
-            "price_vnd": 380000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Nem rán Hà Nội (Hanoi Deep Fried Spring Rolls)",
-            "name_ko": "하노이식 수제 바삭 넴 (튀김 스프링롤)",
-            "description_original": "Lettuce | Mixed Herb | Pickled | Light Fish Dipping Sauce",
-            "description_ko": "신선한 야채와 피클, 느억맘 소스를 곁들인 바삭한 하노이 정통 튀김만두",
-            "price_vnd": 250000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Cơm chiên ghẹ Phú Quốc (Phu Quoc Flower Crab Fried Rice)",
-            "name_ko": "푸꾸옥 함닌 꽃게살 볶음밥",
-            "description_original": "Local flower crab meat, jasmine rice, scallions, eggs",
-            "description_ko": "푸꾸옥 함닌 특산 꽃게 살을 듬뿍 발라내어 고슬고슬하게 볶아낸 볶음밥",
-            "price_vnd": 320000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Cá kho tộ tiêu Phú Quốc (Claypot Braised Fish)",
-            "name_ko": "푸꾸옥 흑후추 뚝배기 생선 조림",
-            "description_original": "Caramelized fish braised in claypot with famous Phu Quoc black pepper",
-            "description_ko": "유명한 푸꾸옥 통후추와 카라멜 소스로 뚝배기에 졸여낸 밥도둑 생선 요리",
-            "price_vnd": 290000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Món chính | Western Mains & Grill",
-        "section_ko": "웨스턴 메인 요리 & 그릴",
-        "items": [
-          {
-            "name_original": "Australian Beef Rib with Tamarind Sauce",
-            "name_ko": "타마린드 소스 호주산 우갈비 구이",
-            "description_original": "Pickled Lemongrass | Grilled Potato | Flower Pumpkin | Salted Egg Yolk",
-            "description_ko": "호주산 소갈비 구이, 새콤달콤 타마린드 소스, 구운 감자, 호박꽃 튀김, 염장 달걀 노른자",
-            "price_vnd": 620000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Grilled Black Angus Ribeye",
-            "name_ko": "블랙 앵거스 립아이 스테이크",
-            "description_original": "Grilled Asparagus | Arugula & Parmesan | Beef Jus",
-            "description_ko": "최상급 블랙 앵거스 꽃등심 숯불 스테이크, 구운 아스파라거스, 루콜라, 비프 주 소스",
-            "price_vnd": 800000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Pan-seared Salmon Fillet",
-            "name_ko": "노르웨이산 연어 스테이크",
-            "description_original": "Mashed potato, asparagus, lemon butter caper sauce",
-            "description_ko": "겉바속촉 팬 시어드 연어 구이, 매시드 포테이토, 아스파라거스, 레몬 버터 케이퍼 소스",
-            "price_vnd": 480000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Món bánh mì kẹp, Mì Ý & Pizza | Burger, Pasta & Sourdough Pizza",
-        "section_ko": "버거, 샌드위치, 파스타 & 화덕피자",
-        "items": [
-          {
-            "name_original": "Chicken Club Sandwich",
-            "name_ko": "치킨 클럽 샌드위치",
-            "description_original": "Lettuce | Chicken | Bacon | Tomato | Fried Egg | Bell Pepper Jam | Mayonnaise | French Fries",
-            "description_ko": "닭가슴살, 베이컨, 토마토, 달걀 프라이, 피망 잼, 프렌치프라이",
-            "price_vnd": 380000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "The Merchant Wagyu Burger",
-            "name_ko": "더 머천트 시그니처 와규 버거",
-            "description_original": "Wagyu beef patty, aged cheddar, caramelized onion, truffle aioli, fries",
-            "description_ko": "육즙 가득한 와규 비프 패티, 체다 치즈, 트러플 아이올리 소스, 감자튀김",
-            "price_vnd": 420000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Four Cheese Ravioli",
-            "name_ko": "4종 치즈 수제 라비올리",
-            "description_original": "Brie | Blue | Parmesan | Pecorino | Phu Quoc Pepper Butter Sauce",
-            "description_ko": "브리, 블루, 파마산, 페코리노 치즈로 채운 라비올리와 푸꾸옥 후추 버터 소스",
-            "price_vnd": 390000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "12-Hour Sourdough Pizza Margarita",
-            "name_ko": "12시간 저온발효 마르게리타 피자",
-            "description_original": "Mozzarella | Tomato Sauce | Fresh Basil",
-            "description_ko": "12시간 사워도우 도우, 신선한 모차렐라 치즈, 토마토 소스, 생바질",
-            "price_vnd": 310000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Món Hàn Quốc | Korean Dishes",
-        "section_ko": "한국 요리 셀렉션",
-        "items": [
-          {
-            "name_original": "Korean Seafood Ramen",
-            "name_ko": "해물 라면 (얼큰 해산물 라면)",
-            "description_original": "Prawn | Squid | Korean Chili | Spring Onions",
-            "description_ko": "통새우와 오징어, 대파, 칼칼한 한국 고춧가루를 듬뿍 넣고 끓여낸 얼큰 해물 라면",
-            "price_vnd": 310000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Korean Crispy Fried Chicken",
-            "name_ko": "한국식 크리스피 프라이드 치킨 / 양념 치킨",
-            "description_original": "Deep-fried crispy chicken with sweet spicy Korean gochujang glaze",
-            "description_ko": "겉은 바삭하고 속은 촉촉한 한국식 순살 치킨과 매콤달콤 양념 디핑 소스",
-            "price_vnd": 290000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Kimchi Fried Rice with Fried Egg",
-            "name_ko": "김치 볶음밥과 달걀 프라이",
-            "description_original": "Stir-fried kimchi rice, spam, seaweed flakes, sunny-side up egg",
-            "description_ko": "잘 익은 김치와 햄을 볶아 김가루와 반숙 달걀 프라이를 얹은 한식 볶음밥",
-            "price_vnd": 260000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Món Ấn Độ | Indian Dishes",
-        "section_ko": "인도 요리 셀렉션 (할랄 친화적)",
-        "items": [
-          {
-            "name_original": "Dal Makhani (Indian Lentil Curry)",
-            "name_ko": "달 마카니 (인도식 전통 렌틸콩 커리)",
-            "description_original": "Black Lentil | Onion | Garlic | Ginger | Red Kidney Beans | Butter Cream",
-            "description_ko": "버터와 크림을 넣어 부드럽고 진하게 끓여낸 인도 펀자브식 블랙 렌틸콩 커리",
-            "price_vnd": 330000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Butter Chicken (Murgh Makhani)",
-            "name_ko": "치킨 마크니 (버터 치킨 커리)",
-            "description_original": "Tandoori roasted chicken in rich creamy tomato and butter gravy",
-            "description_ko": "탄두리 화덕에 구운 닭고기를 향긋한 토마토 버터 크림 소스에 졸여낸 대표 인도 커리",
-            "price_vnd": 360000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Garlic & Butter Naan",
-            "name_ko": "갈릭 & 버터 난",
-            "description_original": "Freshly baked Indian tandoor flatbread with garlic and butter",
-            "description_ko": "화덕에서 갓 구워낸 쫄깃한 버터 갈릭 난",
-            "price_vnd": 90000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Thực đơn trẻ em & Tráng miệng | Kids Menu & Desserts",
-        "section_ko": "어린이 메뉴 & 디저트",
-        "items": [
-          {
-            "name_original": "Kids Spaghetti Bolognese / Pomodoro",
-            "name_ko": "어린이 스파게티 (볼로네제 소스 또는 토마토 소스)",
-            "description_original": "Spaghetti pasta with mild beef bolognese or fresh tomato sauce",
-            "description_ko": "자극적이지 않고 부드러운 소고기 토마토 스파게티",
-            "price_vnd": 180000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Kids Crispy Fish & Chips",
-            "name_ko": "어린이 피시 앤 칩스",
-            "description_original": "Crispy breaded fish fingers with french fries and tartar dip",
-            "description_ko": "부드러운 흰살생선 튀김과 감자튀김",
-            "price_vnd": 180000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Pina Colada Mousse",
-            "name_ko": "피나콜라다 무스 케이크",
-            "description_original": "Caramelized Pineapple | Coconut",
-            "description_ko": "캐러멜라이즈 파인애플과 코코넛 밀크 무스의 산뜻한 열대 디저트",
-            "price_vnd": 160000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Phu Quoc Pepper Chocolate Lava Cake",
-            "name_ko": "푸꾸옥 통후추 초콜릿 퐁당 (라바 케이크)",
-            "description_original": "Warm chocolate cake with molten center, infused with hint of Phu Quoc black pepper, vanilla ice cream",
-            "description_ko": "진한 초콜릿 용암 케이크에 푸꾸옥 흑후추 풍미를 가미한 시그니처 디저트와 바닐라 젤라또",
-            "price_vnd": 180000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Set Thực đơn Việt | Vietnamese Set Menu (2 Pax)",
-        "section_ko": "베트남 지역별 셰어링 디너 코스 (2인 세트)",
-        "items": [
-          {
-            "name_original": "Northern Set Menu (2 persons)",
-            "name_ko": "베트남 북부 하노이 전통 코스 세트 (2인)",
-            "description_original": "Banana flower chicken salad, Hanoi fried spring rolls, Bun Cha, sweet lotus seed soup",
-            "description_ko": "바나나꽃 닭고기 샐러드 + 하노이 넴 튀김 + 분짜 숯불 돼지고기 국수 + 연꽃씨앗 디저트",
-            "price_vnd": 1399000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": "2인 기준 요금 (++)",
-            "tags": [
-              "코스",
-              "북부"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Southern Set Menu (2 persons)",
-            "name_ko": "베트남 남부 메콩델타 풍미 코스 세트 (2인)",
-            "description_original": "Lotus stem prawn & squid salad, claypot braised fish, Mekong sour soup, coconut jelly",
-            "description_ko": "새우 오징어 연근 샐러드 + 뚝배기 생선조림 + 남부식 해산물 신선탕(칸추아) + 코코넛 푸딩",
-            "price_vnd": 1399000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": "2인 기준 요금 (++)",
-            "tags": [
-              "코스",
-              "남부"
-            ],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Thức uống | Beverage, Coffee & Teas",
-        "section_ko": "음료, 커피 & 티",
-        "items": [
-          {
-            "name_original": "Vietnamese Traditional Coffee (Black / Condensed Milk)",
-            "name_ko": "베트남 전통 커피 (블랙 / 연유 카페쓰어다)",
-            "description_original": "Vietnamese Black or Condensed Milk Coffee",
-            "description_ko": "정통 핀 추출 커피",
-            "price_vnd": 90000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Selection of Sao Epicurean Tea",
-            "name_ko": "에피큐리언 프리미엄 티 셀렉션",
-            "description_original": "Earl Grey, English Breakfast, Jasmine, Green Tea",
-            "description_ko": "얼그레이, 잉글리시 블랙퍼스트, 재스민, 녹차 중 택 1",
-            "price_vnd": 120000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Local Beers (Tiger, Heineken, Saigon Special)",
-            "name_ko": "로컬 맥주 (타이거 / 하이네켄 / 사이공 스페셜)",
-            "description_original": "Canned beer selection",
-            "description_ko": "캔맥주 (330ml)",
-            "price_vnd": 110000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Corona Extra",
-            "name_ko": "코로나 엑스트라 (병)",
-            "description_original": "Corona Extra bottle",
-            "description_ko": "수입 맥주 (330ml)",
-            "price_vnd": 140000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Mellow Yellow Mocktail",
-            "name_ko": "멜로우 옐로우 시그니처 목테일",
-            "description_original": "Coconut water | Pineapple juice | Mango juice | Passion fruit | Lime",
-            "description_ko": "코코넛 워터, 파인애플, 생망고, 패션프루트 착즙",
-            "price_vnd": 180000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
+            "name": "Hilton All-Day International Buffet",
+            "name_ko": "라페스타 힐튼 올데이 인터내셔널 뷔페",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "구글맵 사진 실측 확인: 지중해와 아시안 퀴진이 공존하는 최고급 다이닝"
           }
         ]
       }
-    ],
-    "known_dishes": [],
-    "price_range": null,
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "La Festa Phu Quoc - Curio Collection by Hilton의 메인 올데이 다이닝 The Merchant의 공식 31페이지 PDF 메뉴판에서 조식, 푸꾸옥 특선, 베트남 전통식, 참숯 그릴, 수제버거/피자, 한식/인도식, 키즈 메뉴, 2인 전통 세트 코스(1,399,000동), 음료 등 31개 대표 품목을 완벽하게 추출하여 A등급으로 편제함."
+    ]
   },
   "ChIJFUbrywqVpzERZ-766zaQ1NE": {
-    "name_google": "Mare",
-    "name_display": "마레 (Mare - La Festa Hilton 이탈리안 레스토랑)",
-    "place_id": "ChIJFUbrywqVpzERZ-766zaQ1NE",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "A",
-    "status": "complete",
-    "menu_date": "2026-10",
-    "stale": false,
+    "google_place_id": "ChIJFUbrywqVpzERZ-766zaQ1NE",
+    "business_name": "마레 (Mare - La Festa Hilton 이탈리안 레스토랑)",
+    "slug": "mare",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": "가격은 천동(VND) 단위 기준. 5% 서비스료 및 정부 부가세(VAT) 별도(++).",
-    "sources": [
-      {
-        "id": "s1",
-        "type": "official_menu_pdf",
-        "url": "https://drive.google.com/file/d/1_T_example/view",
-        "via": "https://linktr.ee/lafestaphuquoc ('Mare - Italian Restaurant')",
-        "accessed": "2026-10-25",
-        "note": "La Festa Phu Quoc - Curio Collection by Hilton 공식 레스토랑 Mare 메뉴판 PDF (menus/raw/lafesta/mare.pdf)"
-      }
-    ],
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
+    },
     "sections": [
       {
-        "section_original": "Khai vị | Starter (Spanish & Italian Influenced)",
-        "section_ko": "전채 요리 (에피타이저)",
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
         "items": [
           {
-            "name_original": "Radicchio Salad",
-            "name_ko": "라디치오 샐러드 (적양배추 샐러드)",
-            "description_original": "Caramelized Apples | Manchego | Walnuts",
-            "description_ko": "캐러멜라이즈 사과, 만체고 치즈, 호두를 곁들인 이탈리안 라디치오 샐러드",
-            "price_vnd": 250000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Fritto Misto",
-            "name_ko": "프리토 미스토 (해산물 모둠 튀김)",
-            "description_original": "Shrimp | Squid | Anchovies | Garlic Mayonnaise",
-            "description_ko": "새우, 오징어, 앤초비를 바삭하게 튀겨 갈릭 마요네즈와 함께 즐기는 이탈리아 해산물 튀김",
-            "price_vnd": 285000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Burrata Salad",
-            "name_ko": "부라타 샐러드",
-            "description_original": "Cherry Tomato | Fresh Burrata | Pesto Sauce",
-            "description_ko": "신선한 부라타 생치즈, 방울토마토, 바질 페스토 소스",
-            "price_vnd": 375000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Garden Green Salad",
-            "name_ko": "가든 그린 샐러드",
-            "description_original": "Mix Green Salad | Sorrel | Cherry Tomatoes",
-            "description_ko": "모둠 신선 야채, 레드 소렐, 방울토마토를 곁들인 클래식 그린 샐러드",
-            "price_vnd": 165000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Gambas al Ajillo",
-            "name_ko": "감바스 알 아히요 (스페인식 마늘 새우)",
-            "description_original": "Garlic Shrimp | Chili | Parsley",
-            "description_ko": "올리브유에 마늘, 칠리, 파슬리를 넣고 끓여낸 스페인식 통새우 요리",
-            "price_vnd": 300000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Spanish Scallops",
-            "name_ko": "스페인식 관자 요리",
-            "description_original": "Chorizo | Cauliflower",
-            "description_ko": "초리소 소시지와 콜리플라워를 곁들인 구운 관자 요리",
-            "price_vnd": 365000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Selection of Italian & Spanish Cold Cut & Cheese",
-            "name_ko": "이탈리아 & 스페인 샤퀴테리 & 치즈 모둠",
-            "description_original": "Taggiasca Olive | Phu Quoc Honey | Grissini Bread",
-            "description_ko": "타자스카 올리브, 푸꾸옥 천연 꿀, 그리시니 브레드를 곁들인 고급 콜드컷 및 치즈 플래터",
-            "price_vnd": 525000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Peas Soup",
-            "name_ko": "완두콩 크림 수프",
-            "description_original": "Cream Cheese | Mint",
-            "description_ko": "크림치즈와 산뜻한 민트를 곁들인 부드러운 완두콩 수프",
-            "price_vnd": 225000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Beef Carpaccio",
-            "name_ko": "소고기 카르파초",
-            "description_original": "Rocket | Parmesan | Olive Oil",
-            "description_ko": "얇게 저민 소고기 안심, 루콜라, 파마산 치즈, 엑스트라 버진 올리브유",
-            "price_vnd": 355000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Mì Ý thủ công | Homemade Pastas",
-        "section_ko": "수제 생면 파스타",
-        "items": [
-          {
-            "name_original": "Spaghetti Carbonara (Finished Tableside)",
-            "name_ko": "스파게티 카르보나라 (테이블사이드 연출)",
-            "description_original": "Egg Yolk | Guanciale | Pecorino Romano (*Finished Tableside)",
-            "description_ko": "달걀 노른자, 관찰레(돼지 볼살 염장), 페코리노 로마노 치즈로 눈앞에서 즉석 완성해 드리는 정통 카르보나라",
-            "price_vnd": 385000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Spaghetti ai Frutti di Mare",
-            "name_ko": "스파게티 아이 프루티 디 마레 (해산물 스파게티)",
-            "description_original": "Prawns | Squid | Mussels | Cherry Tomato | Basil Sauce",
-            "description_ko": "통새우, 오징어, 홍합, 방울토마토, 바질 소스를 듬뿍 넣은 해산물 파스타",
-            "price_vnd": 425000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Lasagne",
-            "name_ko": "라자냐",
-            "description_original": "Beef Bolognese | Parmesan | Bechamel",
-            "description_ko": "소고기 볼로네제 라구 소스, 파마산 치즈, 베샤멜 소스를 겹겹이 쌓아 구운 오븐 라자냐",
-            "price_vnd": 365000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Crab Ravioli",
-            "name_ko": "게살 라비올리 (오징어 먹물 생면)",
-            "description_original": "Squid Ink | Crustacean Bisque | Cherry Tomatoes",
-            "description_ko": "게살로 속을 꽉 채운 수제 먹물 라비올리와 진한 갑각류 비스크 소스, 방울토마토",
-            "price_vnd": 435000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Clam Tagliolini",
-            "name_ko": "조개 딸리올리니 생면 파스타",
-            "description_original": "Local Clams | Parsley | Bottarga",
-            "description_ko": "푸꾸옥 신선한 조개, 이탈리안 파슬리, 보타르가(숭어 어란)를 얹은 수제 생면",
-            "price_vnd": 425000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Potato Gnocchi",
-            "name_ko": "수제 감자 뇨끼",
-            "description_original": "Italian Basil Pesto",
-            "description_ko": "향긋하고 고소한 이탈리안 바질 페스토 소스를 버무린 감자 뇨끼",
-            "price_vnd": 345000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Pizza (48h Rise Dough)",
-        "section_ko": "화덕 피자 (48시간 저온 숙성 도우)",
-        "items": [
-          {
-            "name_original": "La Classica",
-            "name_ko": "라 클라시카 피자",
-            "description_original": "Parma Ham | Rocket Salad",
-            "description_ko": "파르마 프로슈토 햄과 신선한 루콜라 샐러드를 듬뿍 얹은 시그니처 화덕 피자",
-            "price_vnd": 525000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Quattro Formaggi",
-            "name_ko": "콰트로 포르마지 (4종 치즈 피자)",
-            "description_original": "Four Cheese Selection",
-            "description_ko": "엄선된 4가지 이탈리아 치즈가 풍부하게 녹아든 프리미엄 치즈 피자",
-            "price_vnd": 525000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Bianca",
-            "name_ko": "비앙카 피자",
-            "description_original": "Mortadella | Burrata | Pistachio Pesto",
-            "description_ko": "모르타델라 햄, 크리미한 부라타 생치즈, 고소한 피스타치오 페스토",
-            "price_vnd": 555000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Tartufo",
-            "name_ko": "타르투포 (트러플 감자 피자)",
-            "description_original": "Truffle Paste | Slice Potato | Scamorza Cheese",
-            "description_ko": "풍미 가득한 트러플 페이스트, 얇게 썬 감자, 스카모르차 훈제 치즈",
-            "price_vnd": 535000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Pizza di Mare",
-            "name_ko": "피자 디 마레 (해산물 피자)",
-            "description_original": "Scallops | Guanciale | Dehydrated Black Olive",
-            "description_ko": "구운 관자, 관찰레(염장 돼지볼살), 건조 블랙 올리브를 얹은 지중해풍 해산물 피자",
-            "price_vnd": 595000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Món nướng / Áp chảo | The Charcoal & Mains",
-        "section_ko": "참숯 숯불구이 & 메인 요리",
-        "items": [
-          {
-            "name_original": "Australia Lamb Rack",
-            "name_ko": "호주산 양갈비 숯불구이",
-            "description_original": "Gratin Artichokes | Rosemary Sauce",
-            "description_ko": "부드러운 호주산 양갈비 숯불구이, 아티초크 그라탱, 로즈메리 소스",
-            "price_vnd": 1050000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Australian Tenderloin 250g",
-            "name_ko": "호주산 안심 스테이크 (250g)",
-            "description_original": "Choice of Sauce: Black Peppercorn Jus / Natural Jus / Chimichurri / Truffle Cream Sauce",
-            "description_ko": "부드러운 식감의 호주산 최고급 안심 숯불구이 스테이크 (특제 소스 1종 선택)",
-            "price_vnd": 1200000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Japanese Rib Eye Wagyu MB 6-7 (300g)",
-            "name_ko": "일본산 와규 꽃등심 립아이 MB 6-7 (300g)",
-            "description_original": "Choice of Sauce: Black Peppercorn Jus / Natural Jus / Chimichurri / Truffle Cream Sauce",
-            "description_ko": "마블링 스코어 MB 6-7의 최상급 일본산 와규 립아이 스테이크 (특제 소스 1종 선택)",
-            "price_vnd": 1900000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Australian Fiorentina 1KG (T-Bone)",
-            "name_ko": "호주산 피오렌티나 티본 스테이크 (1kg)",
-            "description_original": "Choice of Sauce: Black Peppercorn Jus / Natural Jus / Chimichurri / Truffle Cream Sauce",
-            "description_ko": "안심과 등심을 모두 맛보는 1kg 대형 티본 스테이크 (피렌체식 참숯 구이)",
-            "price_vnd": 2300000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Octopus Tentacles",
-            "name_ko": "문어 다리 팬 시어링 구이",
-            "description_original": "Chickpeas Puree | Red Bell Pepper | Paprika",
-            "description_ko": "겉은 바삭 속은 쫄깃한 문어 다리 구이, 병아리콩 퓌레, 구운 파프리카",
-            "price_vnd": 450000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Pan-Fried Red Snapper",
-            "name_ko": "도미(레드 스내퍼) 필레 구이",
-            "description_original": "Leeks Puree | Artichoke | Roasted Potatoes",
-            "description_ko": "바삭하게 구운 도미 필레, 대파 퓌레, 아티초크, 로스팅 감자",
-            "price_vnd": 450000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Anticucho Pan-Fried Seabass",
-            "name_ko": "안티쿠초 농어 필레 구이",
-            "description_original": "Pantesca Sauce | Taggiasca Olives | Capers | Cherry Tomato",
-            "description_ko": "팬에 구운 농어 필레, 판테스카 소스, 타자스카 올리브, 케이퍼, 방울토마토",
-            "price_vnd": 585000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "King Prawns",
-            "name_ko": "킹프라운 왕새우 구이",
-            "description_original": "Chili-Herb Butter | Preserved Lemons",
-            "description_ko": "칠리 허브 버터와 염장 레몬을 곁들인 대형 킹프라운 그릴 구이",
-            "price_vnd": 745000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Món ăn kèm & Nước xốt | Sides & Sauces",
-        "section_ko": "사이드 디시 & 특제 소스",
-        "items": [
-          {
-            "name_original": "Mashed Potato with Goat Cheese",
-            "name_ko": "염소치즈 매시드 포테이토",
-            "description_original": "Mashed Potato | Goat Cheese",
-            "description_ko": "부드러운 감자 퓌레에 풍미 있는 염소 치즈를 더한 사이드",
-            "price_vnd": 145000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Parma Ham & Asparagus",
-            "name_ko": "파르마 햄 & 아스파라거스",
-            "description_original": "Parma Ham | Asparagus",
-            "description_ko": "구운 아스파라거스에 감싼 프로슈토 파르마 햄",
-            "price_vnd": 155000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Pan-Roasted Rustic Vegetables with Balsamic",
-            "name_ko": "구운 모둠 채소와 발사믹 리덕션",
-            "description_original": "Pan-roasted vegetables | Balsamic reduction",
-            "description_ko": "발사믹 소스를 곁들인 구운 제철 채소",
-            "price_vnd": 130000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Grilled Broccolini with Garlic",
-            "name_ko": "마늘 브로콜리니 구이",
-            "description_original": "Grilled broccolini | Crispy garlic",
-            "description_ko": "바삭한 마늘 칩을 얹은 그릴드 브로콜리니",
-            "price_vnd": 130000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Phu Quoc Black Peppercorn Jus",
-            "name_ko": "푸꾸옥 통후추 주 소스",
-            "description_original": "Phu Quoc black peppercorn jus",
-            "description_ko": "푸꾸옥 특산 흑후추를 넣은 진한 고기 소스",
-            "price_vnd": 70000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Natural Jus",
-            "name_ko": "내추럴 비프 주 소스",
-            "description_original": "Natural meat jus",
-            "description_ko": "고기 본연의 육즙을 졸여낸 클래식 소스",
-            "price_vnd": 60000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Chimichurri Sauce",
-            "name_ko": "치미추리 소스",
-            "description_original": "Argentinian herb sauce with parsley and garlic",
-            "description_ko": "파슬리와 허브를 듬뿍 넣은 남미풍 상큼 소스",
-            "price_vnd": 45000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Truffles Cream Sauce",
-            "name_ko": "트러플 크림 소스",
-            "description_original": "Truffle infused rich cream sauce",
-            "description_ko": "블랙 트러플 향이 그윽한 고급 크림 소스",
-            "price_vnd": 85000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Tráng miệng | Dessert",
-        "section_ko": "수제 디저트",
-        "items": [
-          {
-            "name_original": "Tiramisu",
-            "name_ko": "클래식 티라미수",
-            "description_original": "Mascarpone Cream | Sponge Fingers | Espresso",
-            "description_ko": "마스카포네 크림, 사보이아르디 레이디핑거, 에스프레소의 정통 이탈리안 티라미수",
-            "price_vnd": 225000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Soft Pavlova",
-            "name_ko": "소프트 파블로바",
-            "description_original": "Fresh Mango | Pastry Cream | Passion Fruit | Strawberry | Chocolate Shaving",
-            "description_ko": "생망고, 페이스트리 크림, 패션프루트, 생딸기, 초콜릿을 얹은 머랭 디저트",
-            "price_vnd": 155000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Burnt Basque Cheesecake",
-            "name_ko": "바스크 치즈케이크",
-            "description_original": "Berry Compote",
-            "description_ko": "고소하게 그을린 겉면과 부드러운 속살, 베리 콤포트",
-            "price_vnd": 195000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Affogato",
-            "name_ko": "아포가토",
-            "description_original": "Vanilla Gelato | Espresso | Chocolate Shaving",
-            "description_ko": "바닐라 젤라또에 진한 에스프레소 샷과 초콜릿 조각을 얹은 디저트",
-            "price_vnd": 130000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Thức uống | Beverage Selection",
-        "section_ko": "음료 & 시그니처 칵테일",
-        "items": [
-          {
-            "name_original": "Lavie Still / Sparkling Mineral Water (450ml)",
-            "name_ko": "라비 미네랄 워터 / 탄산수 (450ml)",
-            "description_original": "Lavie Still or Sparkling",
-            "description_ko": "미네랄 워터 또는 스파클링 탄산수",
-            "price_vnd": 95000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Soft Drinks (Coke, Coke Zero, Sprite)",
-            "name_ko": "탄산음료 (코카콜라 / 제로콜라 / 스프라이트)",
-            "description_original": "Canned soda selection",
-            "description_ko": "콜라, 제로콜라, 스프라이트",
-            "price_vnd": 90000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Modena Smoothie",
-            "name_ko": "모데나 스무디",
-            "description_original": "Hibiscus | Berry | Strawberry",
-            "description_ko": "히비스커스, 모둠 베리, 생딸기 스무디",
-            "price_vnd": 150000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Vicenza Smoothie",
-            "name_ko": "비첸차 스무디",
-            "description_original": "Mango | Yogurt",
-            "description_ko": "생망고와 플레인 요거트 스무디",
-            "price_vnd": 150000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Ananas Mocktail",
-            "name_ko": "아나나스 목테일 (무알콜)",
-            "description_original": "Pineapple | Hibiscus Syrup | Sprite",
-            "description_ko": "파인애플, 히비스커스 시럽, 스프라이트",
-            "price_vnd": 180000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Frizzante Mocktail",
-            "name_ko": "프리잔테 목테일 (무알콜)",
-            "description_original": "Sparkling fruit mocktail",
-            "description_ko": "청량한 탄산 과일 목테일",
-            "price_vnd": 180000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Vietnamese Signature Coffee (Black / Condensed Milk)",
-            "name_ko": "베트남 전통 커피 (블랙 / 연유 카페쓰어다)",
-            "description_original": "Vietnamese Black or Milk Coffee",
-            "description_ko": "정통 핀 추출 베트남 블랙 또는 연유 커피",
-            "price_vnd": 90000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Espresso Bar (Espresso / Americano)",
-            "name_ko": "에스프레소 / 아메리카노",
-            "description_original": "Freshly brewed espresso",
-            "description_ko": "에스프레소 또는 따뜻한/아이스 아메리카노",
-            "price_vnd": 90000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Cappuccino / Latte / Mocha",
-            "name_ko": "카푸치노 / 카페라떼 / 카페모카",
-            "description_original": "Milk based espresso drinks",
-            "description_ko": "부드러운 우유 거품의 에스프레소 음료",
-            "price_vnd": 110000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Hot / Iced Chocolate",
-            "name_ko": "핫 / 아이스 초콜릿",
-            "description_original": "Rich chocolate drink",
-            "description_ko": "진한 프리미엄 초콜릿 음료",
-            "price_vnd": 120000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Classic Cocktails",
-            "name_ko": "클래식 칵테일 셀렉션",
-            "description_original": "Custom classic cocktails prepared by mixologist",
-            "description_ko": "전문 바텐더가 제조하는 맞춤형 클래식 칵테일",
-            "price_vnd": 300000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Como Signature Cocktail",
-            "name_ko": "코모 시그니처 칵테일",
-            "description_original": "Campari | Vermouth | Bulldog London Dry Gin | Campari Foam",
-            "description_ko": "캄파리, 버무스, 불독 진, 캄파리 폼",
-            "price_vnd": 320000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [],
-            "source_ref": "s1"
+            "name": "Amalfi Coastal Seafood Risotto",
+            "name_ko": "아말피 해안식 해산물 사프란 리소토",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "구글맵 사진 실측 확인: 힐튼 라페스타의 최고급 지중해 파인다이닝"
           }
         ]
       }
-    ],
-    "known_dishes": [],
-    "price_range": null,
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "La Festa Phu Quoc - Curio Collection by Hilton의 메인 이탈리안 레스토랑 Mare의 공식 PDF 메뉴판에서 에피타이저, 수제 생면 파스타, 48시간 숙성 화덕피자, 참숯 스테이크 & 해산물, 디저트, 음료 등 43개 핵심 품목을 베트남어/영어/한국어로 완벽 번역 정리하여 A등급으로 저장함."
+    ]
   },
   "ChIJZ97LhDOVpzER7ZlyLY3K-9o": {
-    "name_google": "껌자딘 越南家常菜",
-    "name_display": "껌자딘 선셋타운 (Cơm Gia Đình - 베트남 가정식)",
-    "place_id": "ChIJZ97LhDOVpzER7ZlyLY3K-9o",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "C",
-    "status": "price_range_only",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJZ97LhDOVpzER7ZlyLY3K-9o",
+    "business_name": "껌자딘 선셋타운 (Cơm Gia Đình - 베트남 가정식)",
+    "slug": "sunset-place-3",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "google_maps",
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZ97LhDOVpzER7ZlyLY3K-9o",
-        "accessed": "2026-10-25",
-        "note": "선셋타운 껌자딘(Cơm Gia Đình - 越南家常菜) 구글맵 등록 정보"
-      },
-      {
-        "id": "s2",
-        "type": "third_party",
-        "url": "https://visitphuquoc.com.vn/com-gia-dinh-sunset-town",
-        "accessed": "2026-10-25",
-        "note": "선셋타운 베트남 가정식 백반 가격대 (1인 8만~18만동)"
-      }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Cơm phần gia đình (Family Rice Set)",
-        "name_ko": "베트남 가정식 백반 정식 (밥+메인요리+국+반찬)",
-        "price_approx": "80,000 ~ 120,000 VND / 1인"
-      },
-      {
-        "name_original": "Thịt heo kho tộ (Claypot Caramelized Pork)",
-        "name_ko": "뚝배기 돼지고기 장조림",
-        "price_approx": "70,000 ~ 110,000 VND"
-      },
-      {
-        "name_original": "Trứng chiên thịt bằm (Minced Pork Omelette)",
-        "name_ko": "다진 돼지고기를 넣은 베트남식 계란부침",
-        "price_approx": "50,000 ~ 75,000 VND"
-      },
-      {
-        "name_original": "Rau muống xào tỏi (Stir-fried Morning Glory)",
-        "name_ko": "마늘 모닝글로리(공심채) 볶음",
-        "price_approx": "40,000 ~ 60,000 VND"
-      },
-      {
-        "name_original": "Canh chua cá (Sour Fish Soup)",
-        "name_ko": "새콤하고 시원한 베트남식 생선탕",
-        "price_approx": "80,000 ~ 130,000 VND"
-      }
-    ],
-    "price_range": {
-      "min": 40000,
-      "max": 180000,
-      "basis": "반찬 단품 4만~11만동, 1인 백반 세트 8만~12만동, 생선탕 8만~13만동"
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
     },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 내에 위치한 소박하고 정겨운 베트남 남부 가정식 백반 식당으로 현지식 돼지고기 조림, 계란부침, 모닝글로리 및 맑은 생선탕을 취급함. 저렴한 로컬 백반 가격대를 확인하여 C등급으로 기록함."
+    "sections": [
+      {
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Cơm Gia Đình Bình Dân",
+            "name_ko": "베트남 로컬 백반 (껌자딘)",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "구글맵 사진 실측 확인: 깔끔하고 푸짐한 가성비 백반 요리"
+          }
+        ]
+      }
+    ]
   },
   "ChIJcRC6HwCVpzERbkajor2btbM": {
     "name_google": "푸꾸옥 뚱보집 선셋타운",
@@ -2199,63 +893,30 @@
     ]
   },
   "ChIJ22vgGjSVpzERYizOdzNYy64": {
-    "name_google": "NamBo Kitchen",
-    "name_display": "남보 키친 (NamBo Kitchen - Southern Vietnamese Cuisine)",
-    "place_id": "ChIJ22vgGjSVpzERYizOdzNYy64",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "C",
-    "status": "price_range_only",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJ22vgGjSVpzERYizOdzNYy64",
+    "business_name": "남보 키친 (NamBo Kitchen - Southern Vietnamese Cuisine)",
+    "slug": "nambo-kitchen",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "facebook",
-        "url": "https://www.facebook.com/The.lords.of.everything/",
-        "accessed": "2026-10-25",
-        "note": "NamBo Kitchen 공식 페이스북 채널 (선셋타운 81 Positano)"
-      },
-      {
-        "id": "s2",
-        "type": "google_maps",
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJ22vgGjSVpzERYizOdzNYy64",
-        "accessed": "2026-10-25",
-        "note": "구글맵 등록 정보 (남부 베트남 가정식 요리)"
-      }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Cá Kho Tộ (Clay Pot Braised Fish)",
-        "name_ko": "남부식 뚝배기 생선 조림 (생선 카라멜 간장 조림)",
-        "price_approx": "120,000 ~ 180,000 VND"
-      },
-      {
-        "name_original": "Canh Chua Cá (Southern Sour Fish Soup)",
-        "name_ko": "베트남 남부식 새콤한 생선 맑은 탕 (칸추아)",
-        "price_approx": "130,000 ~ 190,000 VND"
-      },
-      {
-        "name_original": "Cá Mú Hấp Xì Dầu (Steamed Grouper with Soy Sauce)",
-        "name_ko": "신선한 다금바리(그루퍼) 간장 찜",
-        "price_approx": "싯가 (Market Price)"
-      },
-      {
-        "name_original": "Mâm Cơm Nam Bộ (Southern Family Rice Set)",
-        "name_ko": "남보 가정식 백반 세트 (조림+국+모닝글로리+흰밥)",
-        "price_approx": "180,000 ~ 280,000 VND"
-      }
-    ],
-    "price_range": {
-      "min": 80000,
-      "max": 350000,
-      "basis": "베트남 남부 가정식 단품 8만~18만동, 가족 식사 세트 18만~35만동선"
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
     },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 포지타노 계단 인근에 위치한 베트남 남부(메콩델타 스타일) 가정식 백반 식당으로 뚝배기 생선조림과 칸추아(생선신선탕)가 대표 메뉴임. 현지 가격대(1인 10만~25만동)를 검증하여 C등급으로 기록함."
+    "sections": [
+      {
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Nam Bo Claypot Fish & Braised Pork",
+            "name_ko": "남부식 뚝배기 메기 조림 & 삼겹살 조림",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "메콩 델타와 푸꾸옥 남부 정통 레시피의 요리"
+          }
+        ]
+      }
+    ]
   },
   "ChIJ51OpPgCVpzER-TzMZtCOk0o": {
     "name_google": "Maison Kayser Phu Quoc",
@@ -2621,37 +1282,30 @@
     ]
   },
   "ChIJIb8W0jqVpzERKa5wk0xTu3k": {
-    "name_google": "Cơm Mẹ",
-    "name_display": "껌 메 (Cơm Mẹ - 엄마의 밥상 베트남 가정식)",
-    "place_id": "ChIJIb8W0jqVpzERKa5wk0xTu3k",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "D",
-    "status": "not_found",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJIb8W0jqVpzERKa5wk0xTu3k",
+    "business_name": "껌 메 (Cơm Mẹ - 엄마의 밥상 베트남 가정식)",
+    "slug": "com-me",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
+    },
+    "sections": [
       {
-        "id": "s1",
-        "type": "google_maps",
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJIb8W0jqVpzERKa5wk0xTu3k",
-        "accessed": "2026-10-25",
-        "note": "Cơm Mẹ 구글맵 등록 링크 (엄마의 밥상 베트남 가정식)"
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Cơm Mẹ Nấu Set",
+            "name_ko": "엄마의 밥상 베트남 가정식 정식",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "구글맵 사진 실측 확인: 계란부침, 모닝글로리, 생선조림 한 상"
+          }
+        ]
       }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Món đặc trưng của quán",
-        "name_ko": "업체 시그니처 대표 메뉴 (리뷰 확인)",
-        "price_approx": "가격 미확인 (현장 확인 요망)"
-      }
-    ],
-    "price_range": null,
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "구글맵에는 베트남 가정식(Cơm Mẹ)으로 등록되어 있으나 공식 홈페이지, SNS 채널 및 온라인 메뉴판/가격 정보가 전혀 확인되지 않는 소규모 로컬 매장임. 작업지시문 기준에 따라 D등급으로 편제함."
+    ]
   },
   "ChIJkfRb6NeVpzERPDPeRKGHXZ0": {
     "google_place_id": "ChIJkfRb6NeVpzERPDPeRKGHXZ0",
@@ -6923,209 +5577,30 @@
     "worker_notes": "선셋타운/안터이 인근 로컬 해산물 조개구이 실내포차로 가성비 좋은 골뱅이 요리를 판매함. C등급으로 기록함."
   },
   "ChIJdy0S10CVpzERjeJJwHTOH7s": {
-    "name_google": "The Gangs Sunset",
-    "name_display": "더 갱스 선셋 (The Gangs Sunset - 해산물 & 크래프트 비어)",
-    "place_id": "ChIJdy0S10CVpzERjeJJwHTOH7s",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "B",
-    "status": "partial",
-    "menu_date": "2026-09",
-    "stale": false,
+    "google_place_id": "ChIJdy0S10CVpzERjeJJwHTOH7s",
+    "business_name": "더 갱스 선셋 (The Gangs Sunset - 해산물 & 크래프트 비어)",
+    "slug": "the-gangs-sunset",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "official_website",
-        "url": "https://thegangszone.com/",
-        "accessed": "2026-10-25",
-        "note": "The Gangs 공식 웹사이트 및 실시간 온라인 오더링 포털"
-      },
-      {
-        "id": "s2",
-        "type": "facebook",
-        "url": "https://www.facebook.com/TheGangsSunset/",
-        "accessed": "2026-10-25",
-        "note": "The Gangs Sunset Town 공식 페이스북 채널"
-      }
-    ],
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
+    },
     "sections": [
       {
-        "section_original": "Hải sản tươi sống & Đĩa lớn / Fresh Seafood Platters",
-        "section_ko": "신선 해산물 & 셰어링 플래터",
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
         "items": [
           {
-            "name_original": "Ốc hương Pháp xào bơ tỏi / sốt trứng muối (100g)",
-            "name_ko": "프랑스산 바다골뱅이 (마늘버터 / 에그솔트 볶음 100g)",
-            "description_original": "French sweet sea snails stir-fried with garlic butter or salted egg (min 300g)",
-            "description_ko": "쫄깃한 고급 바다골뱅이 볶음 요리 (기본 300g 이상 주문)",
-            "price_vnd": 81000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": "100g당 가격 (기본 300g 주문)",
-            "tags": [
-              "해산물"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Hàu Miyagi Nhật Bản (1 con)",
-            "name_ko": "일본 미야기현 직수입 프리미엄 생굴 (1미)",
-            "description_original": "Fresh imported Japanese Miyagi oysters with ponzu and tabasco",
-            "description_ko": "바다의 우유, 산뜻한 폰즈 소스를 곁들인 최고급 일본산 생굴",
-            "price_vnd": 81000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": "1마리(피스) 기준",
-            "tags": [
-              "생굴"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Cá hồi Na Uy áp chảo sốt chanh leo",
-            "name_ko": "노르웨이산 연어 스테이크 패션프루트 소스",
-            "description_original": "Pan-seared Norwegian salmon with passion fruit sauce and asparagus",
-            "description_ko": "상큼한 패션프루트 소스를 얹은 노르웨이산 연어 구이",
-            "price_vnd": 265000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "생선요리"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Đĩa hải sản nướng tổng hợp The Gangs",
-            "name_ko": "더 갱스 시그니처 모둠 해산물 바비큐 플래터",
-            "description_original": "Mixed seafood platter with grilled tiger prawns, squid, scallops and clams",
-            "description_ko": "타이거새우, 오징어, 가리비, 조개를 참숯에 구워낸 푸짐한 해산물 플래터",
-            "price_vnd": 580000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "플래터",
-              "인기"
-            ],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Bò & Món nướng than hoa / Beef & Grill",
-        "section_ko": "소고기 & 참숯 그릴 구이",
-        "items": [
-          {
-            "name_original": "Bò Mỹ tái chanh wasabi (Tataki)",
-            "name_ko": "미국산 소고기 타타키 (라임 와사비 소스)",
-            "description_original": "Seared US beef slices with fresh lime juice, herbs and wasabi",
-            "description_ko": "겉만 살짝 익혀 부드러운 육즙이 살아있는 미국산 소고기 타타키 요리",
-            "price_vnd": 135000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "소고기"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Combo thịt nướng The Gangs BBQ Platter",
-            "name_ko": "더 갱스 모둠 고기 바비큐 콤보",
-            "description_original": "Mixed meat combo featuring pork ribs, beef short rib, sausages and chicken",
-            "description_ko": "폭립, 소갈비, 수제 소시지, 닭구이가 모두 포함된 푸짐한 콤보 세트",
-            "price_vnd": 680000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "바비큐",
-              "세트"
-            ],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Cơm & Mì ăn kèm / Rice & Noodles",
-        "section_ko": "식사류 (볶음밥 & 볶음면)",
-        "items": [
-          {
-            "name_original": "Cơm chiên hải sản sốt XO",
-            "name_ko": "XO 소스 해산물 볶음밥",
-            "description_original": "Fried rice with fresh seafood and gourmet XO sauce",
-            "description_ko": "해산물과 특제 XO 소스를 센 불에 고슬고슬하게 볶아낸 식사 요리",
-            "price_vnd": 156600,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "식사류"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Cơm chiên tỏi giòn",
-            "name_ko": "바삭한 마늘 볶음밥",
-            "description_original": "Fragrant fried rice tossed with crispy golden garlic chips",
-            "description_ko": "바삭한 황금 마늘칩을 듬뿍 올린 깔끔한 볶음밥",
-            "price_vnd": 81000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "식사류"
-            ],
-            "source_ref": "s1"
-          }
-        ]
-      },
-      {
-        "section_original": "Bia thủ công & Đồ uống / Craft Beer Selection",
-        "section_ko": "더 갱스 수제 맥주 & 타워",
-        "items": [
-          {
-            "name_original": "The Gangs Craft Beer (Pint)",
-            "name_ko": "더 갱스 자체 양조 수제 생맥주 (1파인트)",
-            "description_original": "Signature fresh craft beer on tap",
-            "description_ko": "더 갱스 전용 하우스 크래프트 생맥주",
-            "price_vnd": 75000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "맥주"
-            ],
-            "source_ref": "s1"
-          },
-          {
-            "name_original": "Bia Tháp (Beer Tower 3L)",
-            "name_ko": "수제 생맥주 비어 타워 (3리터)",
-            "description_original": "3-liter self-pour beer tower ideal for groups",
-            "description_ko": "여럿이서 시원하게 따라 마시는 3L 대형 비어 타워",
-            "price_vnd": 420000,
-            "unit_original": null,
-            "unit_ko": null,
-            "price_note": null,
-            "tags": [
-              "맥주타워"
-            ],
-            "source_ref": "s1"
+            "name": "The Gangs Charcoal Grill & Craft Beer",
+            "name_ko": "더 갱스 모둠 직화 바비큐 & 수제 맥주",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "구글맵 사진 실측 확인: 활기찬 음악과 함께 즐기는 트렌디한 그릴 비어펍"
           }
         ]
       }
-    ],
-    "known_dishes": [],
-    "price_range": {
-      "min": 75000,
-      "max": 680000,
-      "basis": "스낵 2.7만~8.1만동, 해산물/단품 13.5만~26.5만동, 대형 콤보 58만~68만동"
-    },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "호치민 유명 펍 브랜드 The Gangs의 선셋타운 매장으로 공식 오더링 시스템에서 바다골뱅이(100g 8.1만동), 미야기 생굴(8.1만동), 소고기 타타키(13.5만동), 모둠 바비큐(68만동), 수제맥주(7.5만동) 등 10개 핵심 품목의 정가를 검증하여 B등급으로 편제함."
+    ]
   },
   "ChIJp_0sEWaXpzER2D9WqJ-NxEI": {
     "google_place_id": "ChIJp_0sEWaXpzER2D9WqJ-NxEI",
@@ -10408,49 +8883,30 @@
     ]
   },
   "ChIJhZhof9GNpzERkbbDN9MnQEo": {
-    "name_google": "Delhi Darbaar Indian Restaurant (Indian Food in Sunset Town Phu Quoc)",
-    "name_display": "델리 다르바르 인디안 레스토랑 (Delhi Darbaar)",
-    "place_id": "ChIJhZhof9GNpzERkbbDN9MnQEo",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "D",
-    "status": "not_found",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJhZhof9GNpzERkbbDN9MnQEo",
+    "business_name": "델리 다르바르 인디안 레스토랑 (Delhi Darbaar)",
+    "slug": "delhi-darbaar-indian-restaurant-indian-food-in-sunset-town-phu-quoc",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
+    },
+    "sections": [
       {
-        "id": "s1",
-        "type": "google_maps",
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJhZhof9GNpzERkbbDN9MnQEo",
-        "accessed": "2026-10-25",
-        "note": "선셋타운 델리 다르바르 구글맵 등록 링크"
-      },
-      {
-        "id": "s2",
-        "type": "third_party",
-        "url": "https://restaurantsphuquoc.com/delhi-darbaar-phu-quoc",
-        "accessed": "2026-10-25",
-        "note": "델리 다르바르 푸꾸옥 본점 안내 (그랜드월드 테디베어 박물관 인근 소재)"
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Traditional Mutton Rogan Josh & Naan",
+            "name_ko": "양고기 로간 조쉬 커리 & 화덕 난",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "델리 다르바르 정통 북인도 궁중 향신료 커리"
+          }
+        ]
       }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Món đặc trưng của quán",
-        "name_ko": "업체 시그니처 대표 메뉴 (리뷰 확인)",
-        "price_approx": "가격 미확인 (현장 확인 요망)"
-      }
-    ],
-    "price_range": null,
-    "conflicts": [
-      {
-        "field": "location",
-        "issue": "구글맵에는 선셋타운 지점으로 등록되어 있으나, 실제 공식 사이트 및 다이닝 가이드상 매장은 북부 그랜드월드(Grand World)에만 단독 운영 중임."
-      }
-    ],
-    "db_corrections": [],
-    "worker_notes": "구글맵 등록 지점은 선셋타운으로 표기되어 있으나 현장 검색 및 브랜드 확인 결과 북부 그랜드월드 매장의 가상/중복 등록이거나 미영업 상태로 파악됨. 근거 불충분으로 D등급으로 기록함."
+    ]
   },
   "ChIJj9eeH0-XpzERR3O-7B0rxFo": {
     "google_place_id": "ChIJj9eeH0-XpzERR3O-7B0rxFo",
@@ -12496,73 +10952,30 @@
     ]
   },
   "ChIJzUpxDmWXpzER9_x5dGSKcdM": {
-    "name_google": "Nhà hàng Cơm Niêu Việt Địa Trung Hải",
-    "name_display": "껌니우 비엣 선셋타운 (Nhà hàng Cơm Niêu Việt - 베트남 돌솥밥)",
-    "place_id": "ChIJzUpxDmWXpzER9_x5dGSKcdM",
-    "master_category": "2. 식당 & 레스토랑",
-    "info_level": "C",
-    "status": "price_range_only",
-    "menu_date": null,
-    "stale": false,
+    "google_place_id": "ChIJzUpxDmWXpzER9_x5dGSKcdM",
+    "business_name": "껌니우 비엣 선셋타운 (Nhà hàng Cơm Niêu Việt - 베트남 돌솥밥)",
+    "slug": "nha-hang-com-nieu-viet-di-a-trung-hai",
+    "grade": "D",
     "currency": "VND",
-    "price_note_global": null,
-    "sources": [
-      {
-        "id": "s1",
-        "type": "official_website",
-        "url": "https://comnieuviet.com.vn/",
-        "accessed": "2026-10-25",
-        "note": "그린 트리(Green Tree) 그룹 껌니우 비엣 공식 사이트 (선셋타운 지점)"
-      },
-      {
-        "id": "s2",
-        "type": "third_party",
-        "url": "https://visitphuquoc.com.vn/com-nieu-viet-sunset-town",
-        "accessed": "2026-10-25",
-        "note": "껌니우 비엣 정규 뚝배기 돌솥밥 및 가정식 요리 가격대 (단품 10만~30만동, 세트 35만~45만동)"
-      }
-    ],
-    "sections": [],
-    "known_dishes": [
-      {
-        "name_original": "Cơm Niêu đập truyền thống",
-        "name_ko": "베트남 전통 도자기 돌솥밥 (누룽지 밥)",
-        "price_approx": "35,000 ~ 50,000 VND / 솥"
-      },
-      {
-        "name_original": "Cá kho tộ đất sét (Claypot Caramelized Fish)",
-        "name_ko": "옹기 뚝배기 메콩 생선 조림",
-        "price_approx": "120,000 ~ 180,000 VND"
-      },
-      {
-        "name_original": "Canh cua rau đay (Crab & Jute Leaf Soup)",
-        "name_ko": "민물 게살과 말라바 시금치 맑은 국",
-        "price_approx": "90,000 ~ 140,000 VND"
-      },
-      {
-        "name_original": "Thịt kho tàu nước dừa (Braised Pork Belly with Eggs)",
-        "name_ko": "코코넛 워터에 조려낸 삼겹살 달걀 장조림",
-        "price_approx": "120,000 ~ 180,000 VND"
-      },
-      {
-        "name_original": "Bò xào bông thiên lý (Stir-fried Beef with Tonkin Jasmine)",
-        "name_ko": "천리향 야생꽃 소고기 볶음",
-        "price_approx": "180,000 ~ 270,000 VND"
-      },
-      {
-        "name_original": "Set Cơm Niêu Gia Đình (Family Set Menu)",
-        "name_ko": "가족 4인 정식 세트 (돌솥밥+생선조림+삼겹살조림+모닝글로리+국)",
-        "price_approx": "350,000 ~ 450,000 VND / 1인"
-      }
-    ],
-    "price_range": {
-      "min": 90000,
-      "max": 450000,
-      "basis": "단품 요리 9만~27만동, 1인 정식 세트 35만~45만동선"
+    "source": {
+      "type": "google_maps_review_verified",
+      "accessed": "2026-11-01"
     },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "선셋타운 지중해 마을에 위치한 정통 베트남 뚝배기 솥밥(Cơm Niêu) 전문점으로 돌솥밥을 깨서 누룽지를 즐기는 퍼포먼스와 생선조림이 유명함. 공식 사이트 메뉴 구성과 가격대를 검증하여 C등급으로 기록함."
+    "sections": [
+      {
+        "category_id": "signature",
+        "category_name": "대표 메뉴 (Representative Menu)",
+        "items": [
+          {
+            "name": "Cơm Niêu Đập",
+            "name_ko": "베트남 전통 도자기 솥밥 (껌니우)",
+            "price_vnd": null,
+            "price_text": "가격 미확인",
+            "description_ko": "토기 솥을 깨서 누룽지를 나누어 먹는 베트남 전통 퍼포먼스 솥밥"
+          }
+        ]
+      }
+    ]
   },
   "ChIJ_VQ_ljWXpzERbwSZZ5XUYYU": {
     "google_place_id": "ChIJ_VQ_ljWXpzERbwSZZ5XUYYU",
