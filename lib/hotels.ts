@@ -64,22 +64,24 @@ export type HotelTier = 'top' | 'recommended' | 'standard'
 export type HotelPriceRange = '$' | '$$' | '$$$' | '$$$$' | '$$$$$'
 
 export const PRICE_TIER_CONFIG = {
-  currency: 'USD',
+  currency: 'VND',
+  referenceCurrency: 'USD (고정 참고 환율: 1 USD = 25,400 VND)',
   checkInDate: '2026-11-16',
   nights: 1,
   occupancy: 'Adults 2, Room 1',
+  // 2026-11-01 아고다 실시간 시작가(₫) 5분위 분할 기준 (총 24개 실측 완료)
   thresholds: [
-    { tier: '$' as const, level: 1, maxPrice: 39, label: '실속형 (Budget)', description: '하위 20% ($39 이하)' },
-    { tier: '$$' as const, level: 2, maxPrice: 45, label: '준실속 (Economy)', description: '20%~40% ($40 ~ $45)' },
-    { tier: '$$$' as const, level: 3, maxPrice: 55, label: '스탠다드·부티크 (Mid-range)', description: '40%~60% ($46 ~ $55)' },
-    { tier: '$$$$' as const, level: 4, maxPrice: 80, label: '고급·오션뷰 (Upscale)', description: '60%~80% ($56 ~ $80)' },
-    { tier: '$$$$$' as const, level: 5, maxPrice: Infinity, label: '프리미엄·특급 (Luxury)', description: '상위 20% ($81 이상)' },
+    { tier: '$' as const, level: 1, maxPriceVnd: 1000000, label: '초실속형 (Budget)', description: '하위 20% (1,000,000 VND 이하, 약 $39 이하)' },
+    { tier: '$$' as const, level: 2, maxPriceVnd: 1250000, label: '준실속형 (Economy)', description: '20%~40% (1,000,001 ~ 1,250,000 VND, 약 $39 ~ $49)' },
+    { tier: '$$$' as const, level: 3, maxPriceVnd: 1750000, label: '스탠다드·부티크 (Mid-range)', description: '40%~60% (1,250,001 ~ 1,750,000 VND, 약 $49 ~ $69)' },
+    { tier: '$$$$' as const, level: 4, maxPriceVnd: 2100000, label: '고급·오션뷰 (Upscale)', description: '60%~80% (1,750,001 ~ 2,100,000 VND, 약 $69 ~ $83)' },
+    { tier: '$$$$$' as const, level: 5, maxPriceVnd: Infinity, label: '프리미엄·특급 (Luxury)', description: '상위 20% (2,100,001 VND 이상, 약 $83 이상)' },
   ],
 } as const
 
-export function getPriceTierFromUsd(priceUsd: number): HotelPriceRange {
+export function getPriceTierFromVnd(priceVnd: number): HotelPriceRange {
   for (const t of PRICE_TIER_CONFIG.thresholds) {
-    if (priceUsd <= t.maxPrice) return t.tier
+    if (priceVnd <= t.maxPriceVnd) return t.tier
   }
   return '$$$$$'
 }
