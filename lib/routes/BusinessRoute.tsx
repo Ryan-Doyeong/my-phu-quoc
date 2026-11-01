@@ -1,5 +1,3 @@
-import { ContextCta } from '@/components/ContextCta'
-import { buildGoogleMapsUrl } from '@/lib/mapsLink'
 import Link from 'next/link'
 import { notFound, redirect } from 'next/navigation'
 import type { Metadata } from 'next'
@@ -21,10 +19,7 @@ import { getCoverPhoto } from '@/lib/coverPhotos'
 import { loadMenuForPlace } from '@/lib/menus'
 import businessesRegistry from '@/data/businesses-registry.json'
 import khemBusinesses from '@/data/khem-beach-businesses.json'
-import { categoryLabel, nearbyBadgeText, formatLocalizedAddress, HIDDEN_BUSINESS_SLUGS, isHiddenBusiness } from '@/lib/directory'
-import { JsonLd } from '@/components/JsonLd'
-import { businessTitle, withKeywordSuffix, sunsetKeyword, ZONE_KEYWORD } from '@/lib/seo/meta'
-import { businessJsonLd } from '@/lib/seo/businessJsonld'
+import { categoryLabel, nearbyBadgeText, formatLocalizedAddress } from '@/lib/directory'
 import { stockGalleryFor } from '@/lib/stockImages'
 import { imageUrl } from '@/lib/imageUrl'
 import {
@@ -93,7 +88,7 @@ export async function generateBusinessMetadata(
   slug: string,
   locale: Locale = 'en'
 ): Promise<Metadata> {
-  if (DELETED_SLUG_REDIRECTS[slug] || HIDDEN_BUSINESS_SLUGS.has(slug)) {
+  if (DELETED_SLUG_REDIRECTS[slug]) {
     return {}
   }
   const supabase = createPublicClient()
@@ -123,32 +118,12 @@ export async function generateBusinessMetadata(
   if (!b) {
     b = (khemBusinesses as any[]).find((x) => x.slug === slug && x.status === 'published') || null
   }
-  if (!b || isHiddenBusiness(b)) return {}
-
-  const regItem = (businessesRegistry as any[]).find((x) => x.slug === b.slug)
-  if (regItem) {
-    b = {
-      ...b,
-      lat: regItem.lat ?? b.lat,
-      lng: regItem.lng ?? b.lng,
-      google_place_id: regItem.google_place_id ?? b.google_place_id,
-      google_maps_name: regItem.google_maps_name ?? b.google_maps_name,
-      gallery_urls:
-        Array.isArray(regItem.gallery_urls) && regItem.gallery_urls.length > 0
-          ? regItem.gallery_urls
-          : b.gallery_urls,
-      media_note: regItem.media_note ?? b.media_note,
-      photo_permission: regItem.photo_permission ?? b.photo_permission,
-    }
-  }
+  if (!b) return {}
 
   const rawDesc = selectBusinessDescription(b, locale)
-  const isKhemBiz = b.zone === 'khem-beach' || (b.id && String(b.id).startsWith('khem-'))
-  const kw = isKhemBiz ? ZONE_KEYWORD['khem-beach'][locale] || ZONE_KEYWORD['khem-beach'].en : sunsetKeyword(locale)
-  const baseDesc = rawDesc
-    ? rawDesc
+  const description = rawDesc
+    ? rawDesc.slice(0, 150) + (rawDesc.length > 150 ? '...' : '')
     : `${categoryLabel(b.category, locale)} - ${formatLocalizedAddress(b.address, locale) || 'Phu Quoc'}`
-  const description = withKeywordSuffix(baseDesc, kw)
 
   const coverPhoto = getCoverPhoto(slug)
   const ogImage = coverPhoto
@@ -160,28 +135,19 @@ export async function generateBusinessMetadata(
   const canonicalUrl = localeUrl(locale, barePath)
   const alternates = buildAlternates(barePath)
   const businessName = displayBusinessName(b, locale)
-  const pageTitle = businessTitle(businessName, categoryLabel(b.category, locale), locale, Boolean(isKhemBiz))
 
   return {
-    title: pageTitle,
+    title: `${businessName} | My Phu Quoc`,
     description,
     alternates: {
       canonical: canonicalUrl,
       languages: alternates.languages,
     },
     openGraph: {
-      title: pageTitle,
+      title: `${businessName} | My Phu Quoc`,
       description,
       url: canonicalUrl,
-      siteName: 'My Phu Quoc',
-      type: 'website',
       locale: ogLocaleFor(locale),
-      images: ogImage ? [ogImage] : undefined,
-    },
-    twitter: {
-      card: ogImage ? 'summary_large_image' : 'summary',
-      title: pageTitle,
-      description,
       images: ogImage ? [ogImage] : undefined,
     },
   }
@@ -234,28 +200,11 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
   if (!b) {
     b = (khemBusinesses as any[]).find((x) => x.slug === slug && x.status === 'published') || null
   }
-  if (!b || isHiddenBusiness(b)) {
+  if (!b || b.slug === 'sunset-place-4' || b.slug === 'sunset-place-8' || b.id === 'local-sunset-139' || b.id === 'local-sunset-240') {
     if (DELETED_SLUG_REDIRECTS[slug]) {
       redirect(localePath(locale, DELETED_SLUG_REDIRECTS[slug]))
     }
     notFound()
-  }
-
-  const regItem = (businessesRegistry as any[]).find((x) => x.slug === b.slug)
-  if (regItem) {
-    b = {
-      ...b,
-      lat: regItem.lat ?? b.lat,
-      lng: regItem.lng ?? b.lng,
-      google_place_id: regItem.google_place_id ?? b.google_place_id,
-      google_maps_name: regItem.google_maps_name ?? b.google_maps_name,
-      gallery_urls:
-        Array.isArray(regItem.gallery_urls) && regItem.gallery_urls.length > 0
-          ? regItem.gallery_urls
-          : b.gallery_urls,
-      media_note: regItem.media_note ?? b.media_note,
-      photo_permission: regItem.photo_permission ?? b.photo_permission,
-    }
   }
 
   const photos = (b.gallery_urls || []).length
@@ -316,8 +265,16 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
   const categoryGuide = !isNameOnly && !isDiningOrFood && !isKhem ? getKnowledgeGuideForBusiness(b, menuData) : null
   const reviewAnalysis = !isNameOnly ? analyzeGoogleReviews(b, locale) : null
 
-  const parsedHours: string[] = []
+  const jsonLd: any = {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: businessDisplayName,
+  }
+  if (b.address) jsonLd.address = b.address
+  if (b.phone) jsonLd.telephone = b.phone
+  if (b.website_url) jsonLd.url = b.website_url
   if (b.opening_hours && typeof b.opening_hours === 'object' && !Array.isArray(b.opening_hours)) {
+    const parsedHours: string[] = []
     for (const [key, val] of Object.entries(b.opening_hours)) {
       if (!val) continue
       const k = key.trim()
@@ -345,22 +302,17 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
         parsedHours.push(candidate)
       }
     }
+    if (parsedHours.length > 0) {
+      jsonLd.openingHours = parsedHours
+    }
   }
-  const coverForLd = getCoverPhoto(slug)
-  const jsonLd = businessJsonLd({
-    b,
-    locale,
-    name: businessDisplayName,
-    description: !isNameOnly ? (selectBusinessDescription(b, locale) || '').slice(0, 300) || undefined : undefined,
-    imageUrl: coverForLd?.image_url || photos[0] || null,
-    openingHours: parsedHours,
-    categoryLabel: catLabel,
-    homeLabel: dict.nav.home,
-  })
 
   return (
     <main className="businessDetailPage">
-      <JsonLd data={jsonLd} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <header className="detailNav">
         <Logo locale={locale} />
         <div className="detailNavRight">
@@ -370,10 +322,6 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
             {isKhem ? (
               <Link href={localePath(locale, '/zones/khem-beach')}>
                 {dict.business.backTo(locale === 'ko' ? '켐비치' : 'Khem Beach')}
-              </Link>
-            ) : b.category === 'hotels' ? (
-              <Link href={localePath(locale, '/hotels')}>
-                {dict.business.backTo(catLabel)}
               </Link>
             ) : (
               <Link href={localePath(locale, `/directory/${b.category}`)}>
@@ -799,16 +747,13 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
               <GoogleReviewAnalysisCard
                 analysis={reviewAnalysis}
                 businessName={businessDisplayName}
-                googleMapsUrl={buildGoogleMapsUrl(b)}
+                googleMapsUrl={b.google_maps_url}
                 locale={locale}
               />
             )}
 
             {/* 5. Reviews & Community */}
             {!isNameOnly && <BusinessReviews b={b} locale={locale} />}
-
-            {/* 6. Contextual conversion CTA (buggy tour / WhatsApp) */}
-            <ContextCta locale={locale} variant="business" contextName={businessDisplayName} />
           </div>
 
           {/* Right Column: Practical information (Good Life 100% style) */}

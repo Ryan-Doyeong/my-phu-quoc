@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { notFound, redirect } from 'next/navigation'
+import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import { createPublicClient } from '@/lib/supabase/public'
 import { Logo } from '@/components/Logo'
@@ -14,14 +14,11 @@ import {
   isDirectoryCategory,
   normalizeDirectoryCategory,
   mergeDirectoryCategoryAppearance,
-  isHiddenBusiness,
 } from '@/lib/directory'
 import { normalizeZoneQuery, type MainZoneSlug } from '@/lib/zones'
 import { buildAlternates, localePath, localeUrl, ogLocaleFor, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
-import { JsonLd } from '@/components/JsonLd'
-import { directoryTitle, withKeyword } from '@/lib/seo/meta'
-import { breadcrumbJsonLd, graph, inLanguage } from '@/lib/seo/jsonld'
+import { tUi } from '@/lib/i18n/uiStrings'
 import businessesRegistry from '@/data/businesses-registry.json'
 import khemBusinesses from '@/data/khem-beach-businesses.json'
 import zoneAssignmentsJson from '@/data/zone-assignments.json'
@@ -31,15 +28,15 @@ export async function generateDirectoryMetadata(
   locale: Locale = 'en'
 ): Promise<Metadata> {
   const category = normalizeDirectoryCategory(rawCategory)
-  if (category === 'hotels') {
-    return {
-      robots: { index: false, follow: false },
-    }
-  }
   if (!isDirectoryCategory(category)) return {}
   const label = categoryLabel(category, locale)
-  const description = withKeyword(categoryDescription(category, locale), locale)
-  const title = directoryTitle(label, locale)
+  const description = categoryDescription(category, locale)
+  const title =
+    locale === 'vi'
+      ? `${label} tại Sunset Town & Bãi Khem | My Phu Quoc`
+      : locale === 'ko'
+      ? `선셋타운 & 켐비치 ${label} | 마이 푸꾸옥 (My Phu Quoc)`
+      : tUi('{category} in Sunset Town & Khem Beach | My Phu Quoc', locale).replace('{category}', label)
   const barePath = `/directory/${category}`
   const canonicalUrl = localeUrl(locale, barePath)
   const alternates = buildAlternates(barePath)
@@ -55,11 +52,8 @@ export async function generateDirectoryMetadata(
       title,
       description,
       url: canonicalUrl,
-      siteName: 'My Phu Quoc',
-      type: 'website',
       locale: ogLocaleFor(locale),
     },
-    twitter: { card: 'summary', title, description },
   }
 }
 
@@ -69,9 +63,6 @@ export async function renderDirectoryRoute(
   searchParams?: { zone?: string }
 ) {
   const category = normalizeDirectoryCategory(rawCategory)
-  if (category === 'hotels') {
-    redirect(locale === 'en' ? '/hotels' : `/${locale}/hotels`)
-  }
   if (!isDirectoryCategory(category)) notFound()
   const dict = getDictionary(locale)
   const label = categoryLabel(category, locale)
@@ -97,25 +88,19 @@ export async function renderDirectoryRoute(
     { zone: MainZoneSlug; public_category: string; service_areas: string[] }
   >
 
-  const registryBySlug = new Map(
-    (businessesRegistry as any[]).map((b) => [b.slug, b])
-  )
-
   // Merge registry and verified Khem Beach data mapped to public 10 categories
   const combinedRegistry = [
-    ...(businessesRegistry as any[])
-      .filter((b) => b.status === 'published' && !isHiddenBusiness(b))
-      .map((b) => {
-        const a = assignments[b.id]
-        return {
-          ...b,
-          public_category: a?.public_category || b.category,
-          zone: a?.zone || 'sunset-town',
-          service_areas: a?.service_areas || ['sunset-town'],
-        }
-      }),
+    ...(businessesRegistry as any[]).map((b) => {
+      const a = assignments[b.id]
+      return {
+        ...b,
+        public_category: a?.public_category || b.category,
+        zone: a?.zone || 'sunset-town',
+        service_areas: a?.service_areas || ['sunset-town'],
+      }
+    }),
     ...(khemBusinesses as any[])
-      .filter((b) => b.status === 'published' && !isHiddenBusiness(b))
+      .filter((b) => b.status === 'published')
       .map((b) => {
       const a = assignments[b.id]
       return {
@@ -131,53 +116,25 @@ export async function renderDirectoryRoute(
     (b) => b.zone === 'khem-beach' && b.public_category === category
   )
 
-  const enrichedData = (data || []).map((b: any) => {
-    const reg = registryBySlug.get(b.slug)
-    if (!reg) return b
-    return {
-      ...b,
-      lat: reg.lat ?? b.lat,
-      lng: reg.lng ?? b.lng,
-      google_place_id: reg.google_place_id ?? b.google_place_id,
-      google_maps_name: reg.google_maps_name ?? b.google_maps_name,
-      gallery_urls:
-        Array.isArray(reg.gallery_urls) && reg.gallery_urls.length > 0
-          ? reg.gallery_urls
-          : b.gallery_urls,
-      media_note: reg.media_note ?? b.media_note,
-      photo_permission: reg.photo_permission ?? b.photo_permission,
-    }
-  })
-
   const items = [
-    ...(enrichedData.length > 0 && !['beaches', 'transport'].includes(category)
-      ? enrichedData
+    ...(data && data.length > 0 && !['beaches', 'transport'].includes(category)
+      ? data
       : combinedRegistry.filter(
           (b) => b.zone !== 'khem-beach' && b.public_category === category
         )),
     ...khemItems,
-  ].filter((b: any) => !isHiddenBusiness(b))
+  ].filter(
+    (b: any) =>
+      b.slug !== 'sunset-place-4' &&
+      b.slug !== 'sunset-place-8' &&
+      b.id !== 'local-sunset-139' &&
+      b.id !== 'local-sunset-240'
+  )
 
   const initialZone = normalizeZoneQuery(searchParams?.zone)
 
-  const directoryUrl = localeUrl(locale, `/directory/${category}`)
-  const jsonLd = graph(
-    {
-      '@type': 'CollectionPage',
-      name: label,
-      description,
-      url: directoryUrl,
-      inLanguage: inLanguage(locale),
-    },
-    breadcrumbJsonLd([
-      { name: dict.nav.home, url: localeUrl(locale, '/') },
-      { name: label, url: directoryUrl },
-    ])
-  )
-
   return (
     <main className="directoryPage">
-      <JsonLd data={jsonLd} />
       <header className="detailNav">
         <Logo locale={locale} />
         <div className="detailNavRight">
@@ -195,7 +152,7 @@ export async function renderDirectoryRoute(
             <Link href={localePath(locale, '/directory/bars')}>
               {categoryLabel('bars', locale)}
             </Link>
-            <Link href={localePath(locale, '/hotels')}>
+            <Link href={localePath(locale, '/directory/hotels')}>
               {categoryLabel('hotels', locale)}
             </Link>
             <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>

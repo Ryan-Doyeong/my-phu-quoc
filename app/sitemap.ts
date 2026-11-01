@@ -1,18 +1,13 @@
 import { MetadataRoute } from 'next'
-import { SITE_URL } from '@/lib/supabase/config'
 import { createPublicClient } from '@/lib/supabase/public'
-import { DIRECTORY_CATEGORY_KEYS, HIDDEN_BUSINESS_SLUGS } from '@/lib/directory'
+import { DIRECTORY_CATEGORY_KEYS } from '@/lib/directory'
 import { PUBLISHED_EVENTS } from '@/lib/eventSamples'
 import { storyAvailableLocales } from '@/lib/i18n/dictionaries'
-import { LOCALES, buildAlternates, localeUrl, hantPath, type Locale } from '@/lib/i18n/config'
+import { LOCALES, buildAlternates, localeUrl, type Locale } from '@/lib/i18n/config'
 
 // Rebuild hourly so newly published stories appear without a redeploy
 export const revalidate = 0
 export const dynamic = "force-dynamic"
-
-function hantUrl(barePath: string): string {
-  return `${SITE_URL.replace(/\/+$/, '')}${hantPath(barePath)}`
-}
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date()
@@ -21,8 +16,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/',
     '/zones/sunset-town',
     '/zones/khem-beach',
-    '/hotels',
-    ...DIRECTORY_CATEGORY_KEYS.filter((key) => key !== 'hotels').map((key) => `/directory/${key}`),
+    ...DIRECTORY_CATEGORY_KEYS.map((key) => `/directory/${key}`),
     '/news',
     '/events',
     '/about',
@@ -43,11 +37,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         },
       })
     }
-    routes.push({
-      url: hantUrl(barePath),
-      lastModified: now,
-      alternates: { languages: alternates.languages },
-    })
   }
 
   try {
@@ -56,17 +45,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // 2) Published businesses exist in all all 7 locales with localized UI/curation
     const { data: businesses } = await supabase
       .from('businesses')
-      .select('slug, updated_at, category')
+      .select('slug, updated_at')
       .eq('status', 'published')
 
     if (businesses) {
       businesses.forEach((b: any) => {
-        // 사장님 지시: 호텔 카테고리 개별 업체 상세 페이지는 사이트맵에서 제외
-        if (b.category === 'hotels') return
         let bSlug = b.slug
         if (bSlug === "sunset-house-phu-quoc-buggy-sevices") bSlug = "sunset-house-phu-quoc-buggy-services"
         if (bSlug === "l-a-hillside-aparment-sunset-town-phu-quoc") bSlug = "l-a-hillside-apartment-sunset-town-phu-quoc"
-        if (bSlug && !HIDDEN_BUSINESS_SLUGS.has(bSlug)) {
+        if (bSlug && bSlug !== 'sunset-place-4' && bSlug !== 'sunset-place-8') {
           const barePath = `/business/${bSlug}`
           const lastModified = b.updated_at ? new Date(b.updated_at) : now
           const alternates = buildAlternates(barePath, LOCALES)
@@ -79,11 +66,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
               },
             })
           }
-          routes.push({
-            url: hantUrl(barePath),
-            lastModified,
-            alternates: { languages: alternates.languages },
-          })
         }
       })
     }
@@ -122,13 +104,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
               alternates: {
                 languages: alternates.languages,
               },
-            })
-          }
-          if (availableLocales.includes('zh')) {
-            routes.push({
-              url: hantUrl(barePath),
-              lastModified,
-              alternates: { languages: alternates.languages },
             })
           }
         }

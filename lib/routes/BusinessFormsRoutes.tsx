@@ -6,7 +6,6 @@ import { ForBusinessesClient } from '@/components/ForBusinessesClient'
 import { buildAlternates, localePath, localeUrl, ogLocaleFor, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
 import { tUi } from '@/lib/i18n/uiStrings'
-import { isHiddenBusiness } from '@/lib/directory'
 
 export async function generateForBusinessesMetadata(locale: Locale = 'en'): Promise<Metadata> {
   const dict = getDictionary(locale)
@@ -89,7 +88,13 @@ export async function renderPartnersRoute(slot: string | undefined, locale: Loca
       .eq('status', 'published')
       .order('public_name')
     if (data) {
-      businesses = (data as any[]).filter((b) => !isHiddenBusiness(b))
+      businesses = (data as any[]).filter(
+        (b) =>
+          b.slug !== 'sunset-place-4' &&
+          b.slug !== 'sunset-place-8' &&
+          b.id !== 'local-sunset-139' &&
+          b.id !== 'local-sunset-240'
+      )
     }
   } catch {
     businesses = []

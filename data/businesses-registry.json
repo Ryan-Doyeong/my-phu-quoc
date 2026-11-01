@@ -19,22 +19,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/noska-hotel-1.webp",
-      "/covers-photo/noska-hotel-2.webp",
-      "/covers-photo/noska-hotel-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "가성비 수식어 삭제",
-    "lat": 10.0301732,
-    "lng": 104.00608539999999,
-    "media_note": "Image source: https://www.noskahotel.com/",
-    "photo_permission": "Official public media (https://www.noskahotel.com/)"
+    "_deleted_claims": "가성비 수식어 삭제"
   },
   {
     "id": "local-sunset-2",
@@ -56,24 +48,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sakurakyo-hotel-spa-phu-quoc-1.webp",
-      "/covers-photo/sakurakyo-hotel-spa-phu-quoc-2.webp",
-      "/covers-photo/sakurakyo-hotel-spa-phu-quoc-3.webp",
-      "/covers-photo/sakurakyo-hotel-spa-phu-quoc-4.webp",
-      "/covers-photo/sakurakyo-hotel-spa-phu-quoc-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0285478,
-    "lng": 104.00832919999999,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-3",
@@ -95,22 +77,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/venice-hotel-phu-quoc-1.webp",
-      "/covers-photo/venice-hotel-phu-quoc-2.webp",
-      "/covers-photo/venice-hotel-phu-quoc-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0305511,
-    "lng": 104.0056075,
-    "media_note": "Image source: https://venicehotelphuquoc.com/",
-    "photo_permission": "Official public media (https://venicehotelphuquoc.com/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-4",
@@ -132,22 +106,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/roma-hotel-phu-quoc-1.webp",
-      "/covers-photo/roma-hotel-phu-quoc-2.webp",
-      "/covers-photo/roma-hotel-phu-quoc-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.024936799999999,
-    "lng": 104.0077788,
-    "media_note": "Image source: https://romahotelphuquoc.com/",
-    "photo_permission": "Official public media (https://romahotelphuquoc.com/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-5",
@@ -159,7 +125,7 @@
     "description_en": "The Juliet A Boutique Hotel & Coffee - Ven 07 is a boutique hotel located in Sunset Town, Phu Quoc.",
     "description_ko": "베니스 거리 중심부, 디저트 카페 겸 부티크 호텔.",
     "address": "Ven07 Sunset Town, Phú Quốc, An Giang, Vietnam",
-    "google_maps_name": "The Juliet A Boutique Hotel & Coffee - Venice 07",
+    "google_maps_name": "The Juliet A Boutique Hotel & Coffee - Ven 07",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5Z5ZTfmVpzERiSVXng2WHUY",
     "phone": "+84 886 391 568",
     "website_url": "http://thejuliethotel.vn/",
@@ -169,22 +135,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/the-juliet-a-boutique-hotel-coffee-ven-07-1.webp",
-      "/covers-photo/the-juliet-a-boutique-hotel-coffee-ven-07-2.webp",
-      "/covers-photo/the-juliet-a-boutique-hotel-coffee-ven-07-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "| [카페] 커피·페이스트리 50,000~110,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "감각적인 수식어 삭제",
-    "lat": 10.030438199999999,
-    "lng": 104.0057465,
-    "media_note": "Image source: http://thejuliethotel.vn/",
-    "photo_permission": "Official public media (http://thejuliethotel.vn/)"
+    "_deleted_claims": "감각적인 수식어 삭제"
   },
   {
     "id": "local-sunset-6",
@@ -196,7 +154,7 @@
     "description_en": "BBQ House for You is a Korean restaurant located in Sunset Town, Phu Quoc.",
     "description_ko": "선셋타운 내 한국식 바비큐 및 한식 메뉴 제공.",
     "address": "Khu Sun Premier Village Primavera, FB2-04, Phú Quốc, An Giang, Vietnam",
-    "google_maps_name": "BBQ House for You",
+    "google_maps_name": "한국관 BBQ House for You",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJk0mFcgCVpzERf3VayqKU9Ug",
     "phone": "+84 888 279 988",
     "website_url": "https://www.facebook.com/profile.php?id=61576423002745",
@@ -213,9 +171,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 삼겹살, 목살, 소갈비, 김치찌개, 냉면, 한식 밑반찬 제공 | 180,000~400,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "정통 수식어 삭제",
-    "lat": 10.0317193,
-    "lng": 104.0043631
+    "_deleted_claims": "정통 수식어 삭제"
   },
   {
     "id": "local-sunset-7",
@@ -237,21 +193,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/times-corner-sorrento-boutique-hotel-1.webp",
-      "/covers-photo/times-corner-sorrento-boutique-hotel-2.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 루프탑 인피니티풀/스카이바 삭제",
-    "lat": 10.0243852,
-    "lng": 104.00808939999999,
-    "media_note": "Image source: https://timescornerphuquoc.com/sorrento",
-    "photo_permission": "Official public media (https://timescornerphuquoc.com/sorrento)"
+    "_deleted_claims": "미검증 루프탑 인피니티풀/스카이바 삭제"
   },
   {
     "id": "local-sunset-8",
@@ -273,22 +222,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/royal-hotel-phu-quoc-1.webp",
-      "/covers-photo/royal-hotel-phu-quoc-2.webp",
-      "/covers-photo/royal-hotel-phu-quoc-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 투어 데스크 문구 삭제",
-    "lat": 10.0273346,
-    "lng": 104.0084437,
-    "media_note": "Image source: http://royalphuquoc.com/",
-    "photo_permission": "Official public media (http://royalphuquoc.com/)"
+    "_deleted_claims": "미검증 투어 데스크 문구 삭제"
   },
   {
     "id": "local-sunset-9",
@@ -310,22 +251,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/fella-hotel-1.webp",
-      "/covers-photo/fella-hotel-2.webp",
-      "/covers-photo/fella-hotel-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0256867,
-    "lng": 104.0076622,
-    "media_note": "Image source: https://www.facebook.com/Fellahotel",
-    "photo_permission": "Official public media (https://www.facebook.com/Fellahotel)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-10",
@@ -347,22 +280,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/times-corner-amalfi-hotel-1.webp",
-      "/covers-photo/times-corner-amalfi-hotel-2.webp",
-      "/covers-photo/times-corner-amalfi-hotel-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 도보 소요시간 삭제 | 미검증 수영장/다이닝 연계 삭제",
-    "lat": 10.0286037,
-    "lng": 104.00853079999999,
-    "media_note": "Image source: https://timescornerphuquoc.com/amalfi",
-    "photo_permission": "Official public media (https://timescornerphuquoc.com/amalfi)"
+    "_deleted_claims": "미검증 도보 소요시간 삭제 | 미검증 수영장/다이닝 연계 삭제"
   },
   {
     "id": "local-sunset-11",
@@ -384,22 +309,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/rosie-hillside-phu-quoc-apartment-1.webp",
-      "/covers-photo/rosie-hillside-phu-quoc-apartment-2.webp",
-      "/covers-photo/rosie-hillside-phu-quoc-apartment-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "가성비 수식어 삭제 | 미검증 주방/세탁기/인피니티풀 삭제",
-    "lat": 10.0290251,
-    "lng": 104.00977449999999,
-    "media_note": "Image source: https://rosievn.com/",
-    "photo_permission": "Official public media (https://rosievn.com/)"
+    "_deleted_claims": "가성비 수식어 삭제 | 미검증 주방/세탁기/인피니티풀 삭제"
   },
   {
     "id": "local-sunset-12",
@@ -421,24 +338,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/casepia-1.webp",
-      "/covers-photo/casepia-2.webp",
-      "/covers-photo/casepia-3.webp",
-      "/covers-photo/casepia-4.webp",
-      "/covers-photo/casepia-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0245108,
-    "lng": 104.00787,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-13",
@@ -460,24 +367,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/le-bonheur-hotel-1.webp",
-      "/covers-photo/le-bonheur-hotel-2.webp",
-      "/covers-photo/le-bonheur-hotel-3.webp",
-      "/covers-photo/le-bonheur-hotel-4.webp",
-      "/covers-photo/le-bonheur-hotel-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0278922,
-    "lng": 104.0084608,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-14",
@@ -499,21 +396,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/luna-sol-sunset-firework-signature-1.webp",
-      "/covers-photo/luna-sol-sunset-firework-signature-2.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "한국인 맞춤/인기 표현 삭제 | 미검증 인피니티풀/짐/주방 삭제",
-    "lat": 10.0275948,
-    "lng": 104.0092636,
-    "media_note": "Image source: https://lunasol.vn/",
-    "photo_permission": "Official public media (https://lunasol.vn/)"
+    "_deleted_claims": "한국인 맞춤/인기 표현 삭제 | 미검증 인피니티풀/짐/주방 삭제"
   },
   {
     "id": "local-sunset-15",
@@ -535,24 +425,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/de-stefano-hotel-coffee-1.webp",
-      "/covers-photo/de-stefano-hotel-coffee-2.webp",
-      "/covers-photo/de-stefano-hotel-coffee-3.webp",
-      "/covers-photo/de-stefano-hotel-coffee-4.webp",
-      "/covers-photo/de-stefano-hotel-coffee-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "| [1층 카페] 커피·음료 55,000~95,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "가성비 수식어 삭제 | 유명 수식어 삭제 | 포토존 -> 명소 중립화",
-    "lat": 10.026038999999999,
-    "lng": 104.00837639999999,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "가성비 수식어 삭제 | 유명 수식어 삭제 | 포토존 -> 명소 중립화"
   },
   {
     "id": "local-sunset-16",
@@ -574,20 +454,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.4,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/starbucks-beach-house-sun-primavera-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "cafe",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 스타벅스 베트남 공식 웹사이트 & SNS | https://starbucks.vn/ | [접근성]: Google Maps attributes (Place ID: ChIJlXfNAn-VpzERPevvIKQTJiM)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.031831,
-    "lng": 104.0042443,
-    "media_note": "Image source: https://www.facebook.com/starbucksvietnam",
-    "photo_permission": "Official public media (https://www.facebook.com/starbucksvietnam)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-17",
@@ -609,20 +483,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/elyday-apartment-hillside-phu-quoc-sea-firework-view-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 루프탑 인피니티풀/스카이바 삭제 | 미검증 주방/세탁기 완비 삭제",
-    "lat": 10.029444,
-    "lng": 104.00897719999999,
-    "media_note": "Image source: https://www.facebook.com/elyday.apartment.village?mibextid=LQQJ4d",
-    "photo_permission": "Official public media (https://www.facebook.com/elyday.apartment.village?mibextid=LQQJ4d)"
+    "_deleted_claims": "미검증 루프탑 인피니티풀/스카이바 삭제 | 미검증 주방/세탁기 완비 삭제"
   },
   {
     "id": "local-sunset-18",
@@ -644,24 +512,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/blue-hotel-sunset-town-phu-quoc-1.webp",
-      "/covers-photo/blue-hotel-sunset-town-phu-quoc-2.webp",
-      "/covers-photo/blue-hotel-sunset-town-phu-quoc-3.webp",
-      "/covers-photo/blue-hotel-sunset-town-phu-quoc-4.webp",
-      "/covers-photo/blue-hotel-sunset-town-phu-quoc-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0312716,
-    "lng": 104.0067887,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-19",
@@ -683,24 +541,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/the-memory-hotel-sunset-town-phu-quoc-1.webp",
-      "/covers-photo/the-memory-hotel-sunset-town-phu-quoc-2.webp",
-      "/covers-photo/the-memory-hotel-sunset-town-phu-quoc-3.webp",
-      "/covers-photo/the-memory-hotel-sunset-town-phu-quoc-4.webp",
-      "/covers-photo/the-memory-hotel-sunset-town-phu-quoc-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.030367199999999,
-    "lng": 104.00577609999999,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-20",
@@ -722,24 +570,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/blue-home-sunset-town-phu-quoc-1.webp",
-      "/covers-photo/blue-home-sunset-town-phu-quoc-2.webp",
-      "/covers-photo/blue-home-sunset-town-phu-quoc-3.webp",
-      "/covers-photo/blue-home-sunset-town-phu-quoc-4.webp",
-      "/covers-photo/blue-home-sunset-town-phu-quoc-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.031844,
-    "lng": 104.0052875,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-21",
@@ -761,24 +599,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunset-town-hillside-apartment-1.webp",
-      "/covers-photo/sunset-town-hillside-apartment-2.webp",
-      "/covers-photo/sunset-town-hillside-apartment-3.webp",
-      "/covers-photo/sunset-town-hillside-apartment-4.webp",
-      "/covers-photo/sunset-town-hillside-apartment-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.028582499999999,
-    "lng": 104.00942189999999,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-22",
@@ -800,24 +628,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/the-sunset-seaview-phu-quoc-apartments-1.webp",
-      "/covers-photo/the-sunset-seaview-phu-quoc-apartments-2.webp",
-      "/covers-photo/the-sunset-seaview-phu-quoc-apartments-3.webp",
-      "/covers-photo/the-sunset-seaview-phu-quoc-apartments-4.webp",
-      "/covers-photo/the-sunset-seaview-phu-quoc-apartments-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.0291112,
-    "lng": 104.009627,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-23",
@@ -839,24 +657,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/summer-homestay-phu-quoc-1.webp",
-      "/covers-photo/summer-homestay-phu-quoc-2.webp",
-      "/covers-photo/summer-homestay-phu-quoc-3.webp",
-      "/covers-photo/summer-homestay-phu-quoc-4.webp",
-      "/covers-photo/summer-homestay-phu-quoc-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.029397999999999,
-    "lng": 104.0095011,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-24",
@@ -878,24 +686,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunset-home-airbnb-phu-quoc-1.webp",
-      "/covers-photo/sunset-home-airbnb-phu-quoc-2.webp",
-      "/covers-photo/sunset-home-airbnb-phu-quoc-3.webp",
-      "/covers-photo/sunset-home-airbnb-phu-quoc-4.webp",
-      "/covers-photo/sunset-home-airbnb-phu-quoc-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0307209,
-    "lng": 104.0057257,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-25",
@@ -917,24 +715,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/tiny-house-phu-quoc-1.webp",
-      "/covers-photo/tiny-house-phu-quoc-2.webp",
-      "/covers-photo/tiny-house-phu-quoc-3.webp",
-      "/covers-photo/tiny-house-phu-quoc-4.webp",
-      "/covers-photo/tiny-house-phu-quoc-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0329251,
-    "lng": 104.00397609999999,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-26",
@@ -963,9 +751,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.0295349,
-    "lng": 104.0091205
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-27",
@@ -987,24 +773,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/phu-quoc-sunset-1.webp",
-      "/covers-photo/phu-quoc-sunset-2.webp",
-      "/covers-photo/phu-quoc-sunset-3.webp",
-      "/covers-photo/phu-quoc-sunset-4.webp",
-      "/covers-photo/phu-quoc-sunset-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.026831399999999,
-    "lng": 104.0079423,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-28",
@@ -1026,24 +802,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/rosy-hotel-phu-quoc-sunset-town-1.webp",
-      "/covers-photo/rosy-hotel-phu-quoc-sunset-town-2.webp",
-      "/covers-photo/rosy-hotel-phu-quoc-sunset-town-3.webp",
-      "/covers-photo/rosy-hotel-phu-quoc-sunset-town-4.webp",
-      "/covers-photo/rosy-hotel-phu-quoc-sunset-town-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.031522299999999,
-    "lng": 104.0066102,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-29",
@@ -1065,24 +831,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/milan-hotel-1.webp",
-      "/covers-photo/milan-hotel-2.webp",
-      "/covers-photo/milan-hotel-3.webp",
-      "/covers-photo/milan-hotel-4.webp",
-      "/covers-photo/milan-hotel-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0312009,
-    "lng": 104.0072642,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-30",
@@ -1104,24 +860,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/th-luxury-hotel-1.webp",
-      "/covers-photo/th-luxury-hotel-2.webp",
-      "/covers-photo/th-luxury-hotel-3.webp",
-      "/covers-photo/th-luxury-hotel-4.webp",
-      "/covers-photo/th-luxury-hotel-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0344722,
-    "lng": 104.0083889,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-31",
@@ -1143,22 +889,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunset-home-apartment-phu-quoc-1.webp",
-      "/covers-photo/sunset-home-apartment-phu-quoc-2.webp",
-      "/covers-photo/sunset-home-apartment-phu-quoc-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.0295592,
-    "lng": 104.0092207,
-    "media_note": "Image source: https://www.facebook.com/sunsethome.pq/",
-    "photo_permission": "Official public media (https://www.facebook.com/sunsethome.pq/)"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-32",
@@ -1180,22 +918,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/the-juliet-a-boutique-hotel-coffee-ama-71-1.webp",
-      "/covers-photo/the-juliet-a-boutique-hotel-coffee-ama-71-2.webp",
-      "/covers-photo/the-juliet-a-boutique-hotel-coffee-ama-71-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0326826,
-    "lng": 104.0048769,
-    "media_note": "Image source: https://thejuliethotel.vn/",
-    "photo_permission": "Official public media (https://thejuliethotel.vn/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-33",
@@ -1217,21 +947,43 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/seasons-hotel-khach-san-sunset-town-phu-quoc-1.webp",
-      "/covers-photo/seasons-hotel-khach-san-sunset-town-phu-quoc-2.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0315312,
-    "lng": 104.00612059999999,
-    "media_note": "Image source: https://seasonshotel.vn/",
-    "photo_permission": "Official public media (https://seasonshotel.vn/)"
+    "_deleted_claims": "(해당 없음)"
+  },
+  {
+    "id": "local-sunset-34",
+    "public_name": "Triland Hillside",
+    "slug": "triland-hillside",
+    "category": "hotels",
+    "subcategory": "residence",
+    "google_place_id": "ChIJOZ1p38-VpzERKC1kUSIrA4A",
+    "description_en": "Triland Hillside is a residence apartment located in Sunset Town, Phu Quoc.",
+    "description_ko": "Sun Grand City Hillside 고층 아파트먼트, 오션/불꽃놀이 뷰.",
+    "address": "thị trấn Hoàng Hôn, Phú Quốc, An Giang, Vietnam",
+    "google_maps_name": "Triland Hillside",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJOZ1p38-VpzERKC1kUSIrA4A",
+    "phone": "+84 941 507 156",
+    "website_url": null,
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "ai_checked",
+    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
+    "google_rating": 4.8,
+    "google_review_count": 50,
+    "gallery_urls": [],
+    "tags": [
+      "residence",
+      "Sunset Town"
+    ],
+    "_deleted_snippet": "",
+    "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-35",
@@ -1253,22 +1005,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/royal-hotel-phu-quoc-2-1.webp",
-      "/covers-photo/royal-hotel-phu-quoc-2-2.webp",
-      "/covers-photo/royal-hotel-phu-quoc-2-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0346175,
-    "lng": 104.0078472,
-    "media_note": "Image source: http://royalphuquoc.com/",
-    "photo_permission": "Official public media (http://royalphuquoc.com/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-36",
@@ -1297,9 +1041,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0286838,
-    "lng": 104.0073254
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-37",
@@ -1321,20 +1063,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunny-side-hotel-phu-quoc-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0382859,
-    "lng": 104.0093969,
-    "media_note": "Image source: https://ndre.vn/sunny-side-hotel/",
-    "photo_permission": "Official public media (https://ndre.vn/sunny-side-hotel/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-38",
@@ -1356,20 +1092,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sea-sunset-hotel-phu-quoc-welcome-to-a-mixing-world-of-friends-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0321231,
-    "lng": 104.0051354,
-    "media_note": "Image source: https://www.seasunsethotel.com/",
-    "photo_permission": "Official public media (https://www.seasunsethotel.com/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-39",
@@ -1391,20 +1121,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/cybele-sunset-hotel-phu-quoc-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0306654,
-    "lng": 104.0060165,
-    "media_note": "Image source: https://cybelesunsethotel.com/",
-    "photo_permission": "Official public media (https://cybelesunsethotel.com/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-40",
@@ -1426,24 +1150,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/khach-san-bella-sunset-town-phu-quoc-1.webp",
-      "/covers-photo/khach-san-bella-sunset-town-phu-quoc-2.webp",
-      "/covers-photo/khach-san-bella-sunset-town-phu-quoc-3.webp",
-      "/covers-photo/khach-san-bella-sunset-town-phu-quoc-4.webp",
-      "/covers-photo/khach-san-bella-sunset-town-phu-quoc-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.024680499999999,
-    "lng": 104.0080534,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-41",
@@ -1465,24 +1179,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/the-maris-apartment-hillside-phu-quoc-sunset-town-1.webp",
-      "/covers-photo/the-maris-apartment-hillside-phu-quoc-sunset-town-2.webp",
-      "/covers-photo/the-maris-apartment-hillside-phu-quoc-sunset-town-3.webp",
-      "/covers-photo/the-maris-apartment-hillside-phu-quoc-sunset-town-4.webp",
-      "/covers-photo/the-maris-apartment-hillside-phu-quoc-sunset-town-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.0290957,
-    "lng": 104.0095664,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-42",
@@ -1504,24 +1208,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/rova-105-hotel-1.webp",
-      "/covers-photo/rova-105-hotel-2.webp",
-      "/covers-photo/rova-105-hotel-3.webp",
-      "/covers-photo/rova-105-hotel-4.webp",
-      "/covers-photo/rova-105-hotel-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.031465899999999,
-    "lng": 104.0056396,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-43",
@@ -1543,22 +1237,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sole-casa-phu-quoc-1.webp",
-      "/covers-photo/sole-casa-phu-quoc-2.webp",
-      "/covers-photo/sole-casa-phu-quoc-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0290612,
-    "lng": 104.0098077,
-    "media_note": "Image source: http://solecasavn.com/",
-    "photo_permission": "Official public media (http://solecasavn.com/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-44",
@@ -1580,24 +1266,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/oscar-seaview-apartment-1.webp",
-      "/covers-photo/oscar-seaview-apartment-2.webp",
-      "/covers-photo/oscar-seaview-apartment-3.webp",
-      "/covers-photo/oscar-seaview-apartment-4.webp",
-      "/covers-photo/oscar-seaview-apartment-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.0295493,
-    "lng": 104.00923979999999,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-45",
@@ -1619,20 +1295,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/the-nice-hotel-phu-quoc-fireworks-ocean-view-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0308909,
-    "lng": 104.0058689,
-    "media_note": "Image source: http://facebook.com/thenicehotelphuquocvn",
-    "photo_permission": "Official public media (http://facebook.com/thenicehotelphuquocvn)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-46",
@@ -1654,24 +1324,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunset-sorento-phu-quoc-nang-bien-hotel-1.webp",
-      "/covers-photo/sunset-sorento-phu-quoc-nang-bien-hotel-2.webp",
-      "/covers-photo/sunset-sorento-phu-quoc-nang-bien-hotel-3.webp",
-      "/covers-photo/sunset-sorento-phu-quoc-nang-bien-hotel-4.webp",
-      "/covers-photo/sunset-sorento-phu-quoc-nang-bien-hotel-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.024649799999999,
-    "lng": 104.0082221,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-47",
@@ -1693,24 +1353,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunny-hotel-phu-quoc-ven-18-sunset-town-1.webp",
-      "/covers-photo/sunny-hotel-phu-quoc-ven-18-sunset-town-2.webp",
-      "/covers-photo/sunny-hotel-phu-quoc-ven-18-sunset-town-3.webp",
-      "/covers-photo/sunny-hotel-phu-quoc-ven-18-sunset-town-4.webp",
-      "/covers-photo/sunny-hotel-phu-quoc-ven-18-sunset-town-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.03049,
-    "lng": 104.005862,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-48",
@@ -1732,24 +1382,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunset-house-phu-quoc-buggy-services-1.webp",
-      "/covers-photo/sunset-house-phu-quoc-buggy-services-2.webp",
-      "/covers-photo/sunset-house-phu-quoc-buggy-services-3.webp",
-      "/covers-photo/sunset-house-phu-quoc-buggy-services-4.webp",
-      "/covers-photo/sunset-house-phu-quoc-buggy-services-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.032231399999999,
-    "lng": 104.00480999999999,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-49",
@@ -1771,24 +1411,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/pearl-vista-luxury-service-apartments-seaview-fireworks-1.webp",
-      "/covers-photo/pearl-vista-luxury-service-apartments-seaview-fireworks-2.webp",
-      "/covers-photo/pearl-vista-luxury-service-apartments-seaview-fireworks-3.webp",
-      "/covers-photo/pearl-vista-luxury-service-apartments-seaview-fireworks-4.webp",
-      "/covers-photo/pearl-vista-luxury-service-apartments-seaview-fireworks-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.028495999999999,
-    "lng": 104.0091546,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-50",
@@ -1810,22 +1440,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/eirlys-home-apartment-phu-quoc-firework-ocean-view-1.webp",
-      "/covers-photo/eirlys-home-apartment-phu-quoc-firework-ocean-view-2.webp",
-      "/covers-photo/eirlys-home-apartment-phu-quoc-firework-ocean-view-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.0294303,
-    "lng": 104.0089904,
-    "media_note": "Image source: http://eirlyshomephuquoc.com/",
-    "photo_permission": "Official public media (http://eirlyshomephuquoc.com/)"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-51",
@@ -1847,24 +1469,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/solea-hotels-apartments-sunset-town-1.webp",
-      "/covers-photo/solea-hotels-apartments-sunset-town-2.webp",
-      "/covers-photo/solea-hotels-apartments-sunset-town-3.webp",
-      "/covers-photo/solea-hotels-apartments-sunset-town-4.webp",
-      "/covers-photo/solea-hotels-apartments-sunset-town-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.0298578,
-    "lng": 104.0083037,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-52",
@@ -1886,20 +1498,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/lotus-home-hillside-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.034174799999999,
-    "lng": 104.0043965,
-    "media_note": "Image source: https://www.lotushomephuquoc.com/",
-    "photo_permission": "Official public media (https://www.lotushomephuquoc.com/)"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-53",
@@ -1921,20 +1527,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sea-gallery-sunset-town-luxury-apartment-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.0278013,
-    "lng": 104.0093204,
-    "media_note": "Image source: http://seagallery.vn/",
-    "photo_permission": "Official public media (http://seagallery.vn/)"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-54",
@@ -1956,24 +1556,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/minimalist-hillside-apartment-1.webp",
-      "/covers-photo/minimalist-hillside-apartment-2.webp",
-      "/covers-photo/minimalist-hillside-apartment-3.webp",
-      "/covers-photo/minimalist-hillside-apartment-4.webp",
-      "/covers-photo/minimalist-hillside-apartment-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.0299015,
-    "lng": 104.0089311,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-55",
@@ -2002,9 +1592,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.03154,
-    "lng": 104.00605759999999
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-56",
@@ -2026,24 +1614,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.3,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunset-bay-retreat-phu-quoc-1.webp",
-      "/covers-photo/sunset-bay-retreat-phu-quoc-2.webp",
-      "/covers-photo/sunset-bay-retreat-phu-quoc-3.webp",
-      "/covers-photo/sunset-bay-retreat-phu-quoc-4.webp",
-      "/covers-photo/sunset-bay-retreat-phu-quoc-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.031749,
-    "lng": 104.00571529999999,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-57",
@@ -2065,24 +1643,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.3,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/hoa-ng-hon-ti-m-boutique-hotel-1.webp",
-      "/covers-photo/hoa-ng-hon-ti-m-boutique-hotel-2.webp",
-      "/covers-photo/hoa-ng-hon-ti-m-boutique-hotel-3.webp",
-      "/covers-photo/hoa-ng-hon-ti-m-boutique-hotel-4.webp",
-      "/covers-photo/hoa-ng-hon-ti-m-boutique-hotel-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0257322,
-    "lng": 104.00765489999999,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-58",
@@ -2104,24 +1672,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.3,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunset-royal-1.webp",
-      "/covers-photo/sunset-royal-2.webp",
-      "/covers-photo/sunset-royal-3.webp",
-      "/covers-photo/sunset-royal-4.webp",
-      "/covers-photo/sunset-royal-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0301414,
-    "lng": 104.0082927,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-59",
@@ -2143,24 +1701,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.2,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/homestay-hillside-an-th-i-the-hill-h2-1.webp",
-      "/covers-photo/homestay-hillside-an-th-i-the-hill-h2-2.webp",
-      "/covers-photo/homestay-hillside-an-th-i-the-hill-h2-3.webp",
-      "/covers-photo/homestay-hillside-an-th-i-the-hill-h2-4.webp",
-      "/covers-photo/homestay-hillside-an-th-i-the-hill-h2-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.0295205,
-    "lng": 104.0091515,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-60",
@@ -2182,24 +1730,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.1,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/golden-sunset-hotel-1.webp",
-      "/covers-photo/golden-sunset-hotel-2.webp",
-      "/covers-photo/golden-sunset-hotel-3.webp",
-      "/covers-photo/golden-sunset-hotel-4.webp",
-      "/covers-photo/golden-sunset-hotel-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0305882,
-    "lng": 104.0061444,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-61",
@@ -2221,24 +1759,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.1,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/rova-hotel-spa-phu-quoc-1.webp",
-      "/covers-photo/rova-hotel-spa-phu-quoc-2.webp",
-      "/covers-photo/rova-hotel-spa-phu-quoc-3.webp",
-      "/covers-photo/rova-hotel-spa-phu-quoc-4.webp",
-      "/covers-photo/rova-hotel-spa-phu-quoc-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0314673,
-    "lng": 104.00561019999999,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-62",
@@ -2267,9 +1795,36 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제 | 미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.0283359,
-    "lng": 104.0093021
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제 | 미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
+  },
+  {
+    "id": "local-sunset-63",
+    "public_name": "Luxury Hotel & Spa Milan 38 Sunset Town",
+    "slug": "luxury-hotel-spa-milan-38-sunset-town",
+    "category": "hotels",
+    "subcategory": "boutique_hotel",
+    "google_place_id": "ChIJUVANxM6XpzERxNQieCqMz1w",
+    "description_en": "Luxury Hotel & Spa Milan 38 Sunset Town is a boutique hotel located in Sunset Town, Phu Quoc.",
+    "description_ko": "선셋타운 지중해풍 부티크 호텔.",
+    "address": "38, Milan, Sunset Town, Phú Quốc, An Giang 92513, Vietnam",
+    "google_maps_name": "Luxury Hotel & Spa Milan 38 Sunset Town",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJUVANxM6XpzERxNQieCqMz1w",
+    "phone": "+84 366 755 555",
+    "website_url": null,
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "ai_checked",
+    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
+    "google_rating": 4,
+    "google_review_count": 50,
+    "gallery_urls": [],
+    "tags": [
+      "boutique_hotel",
+      "Sunset Town"
+    ],
+    "_deleted_snippet": "",
+    "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-64",
@@ -2291,24 +1846,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/tk-house-phu-quoc-1.webp",
-      "/covers-photo/tk-house-phu-quoc-2.webp",
-      "/covers-photo/tk-house-phu-quoc-3.webp",
-      "/covers-photo/tk-house-phu-quoc-4.webp",
-      "/covers-photo/tk-house-phu-quoc-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0319726,
-    "lng": 104.0054467,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-65",
@@ -2330,24 +1875,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/casa-del-mar-boutique-hotel-1.webp",
-      "/covers-photo/casa-del-mar-boutique-hotel-2.webp",
-      "/covers-photo/casa-del-mar-boutique-hotel-3.webp",
-      "/covers-photo/casa-del-mar-boutique-hotel-4.webp",
-      "/covers-photo/casa-del-mar-boutique-hotel-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0307485,
-    "lng": 104.0072895,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-66",
@@ -2376,9 +1911,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.0290926,
-    "lng": 104.0095753
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-67",
@@ -2407,9 +1940,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.0290701,
-    "lng": 104.00900639999999
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-68",
@@ -2431,24 +1962,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.9,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/rova-hotel-apartment-amalfi-sunset-town-1.webp",
-      "/covers-photo/rova-hotel-apartment-amalfi-sunset-town-2.webp",
-      "/covers-photo/rova-hotel-apartment-amalfi-sunset-town-3.webp",
-      "/covers-photo/rova-hotel-apartment-amalfi-sunset-town-4.webp",
-      "/covers-photo/rova-hotel-apartment-amalfi-sunset-town-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.031494799999999,
-    "lng": 104.00564059999999,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-69",
@@ -2477,9 +1998,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제 | 미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.0284905,
-    "lng": 104.0092999
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제 | 미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-70",
@@ -2501,24 +2020,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.6,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/merci-hotel-sunset-town-phu-quoc-1.webp",
-      "/covers-photo/merci-hotel-sunset-town-phu-quoc-2.webp",
-      "/covers-photo/merci-hotel-sunset-town-phu-quoc-3.webp",
-      "/covers-photo/merci-hotel-sunset-town-phu-quoc-4.webp",
-      "/covers-photo/merci-hotel-sunset-town-phu-quoc-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0327418,
-    "lng": 104.00556329999999,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-71",
@@ -2540,24 +2049,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/the-fern-phu-quoc-hotel-sunset-town-1.webp",
-      "/covers-photo/the-fern-phu-quoc-hotel-sunset-town-2.webp",
-      "/covers-photo/the-fern-phu-quoc-hotel-sunset-town-3.webp",
-      "/covers-photo/the-fern-phu-quoc-hotel-sunset-town-4.webp",
-      "/covers-photo/the-fern-phu-quoc-hotel-sunset-town-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0321973,
-    "lng": 104.0056224,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-72",
@@ -2579,24 +2078,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.4,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/l-a-hillside-apartment-sunset-town-phu-quoc-1.webp",
-      "/covers-photo/l-a-hillside-apartment-sunset-town-phu-quoc-2.webp",
-      "/covers-photo/l-a-hillside-apartment-sunset-town-phu-quoc-3.webp",
-      "/covers-photo/l-a-hillside-apartment-sunset-town-phu-quoc-4.webp",
-      "/covers-photo/l-a-hillside-apartment-sunset-town-phu-quoc-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제 | 미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.0269813,
-    "lng": 104.0091097,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제 | 미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-73",
@@ -2625,9 +2114,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.0297506,
-    "lng": 104.0088488
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-74",
@@ -2656,9 +2143,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.027983299999999,
-    "lng": 104.0092025
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-75",
@@ -2680,24 +2165,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.1,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/la-phan-phu-quoc-hillside-apartment-1.webp",
-      "/covers-photo/la-phan-phu-quoc-hillside-apartment-2.webp",
-      "/covers-photo/la-phan-phu-quoc-hillside-apartment-3.webp",
-      "/covers-photo/la-phan-phu-quoc-hillside-apartment-4.webp",
-      "/covers-photo/la-phan-phu-quoc-hillside-apartment-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.0294984,
-    "lng": 104.0088997,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-76",
@@ -2719,24 +2194,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunset-town-service-apartment-phu-quoc-1.webp",
-      "/covers-photo/sunset-town-service-apartment-phu-quoc-2.webp",
-      "/covers-photo/sunset-town-service-apartment-phu-quoc-3.webp",
-      "/covers-photo/sunset-town-service-apartment-phu-quoc-4.webp",
-      "/covers-photo/sunset-town-service-apartment-phu-quoc-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.0290616,
-    "lng": 104.0096142,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-77",
@@ -2758,20 +2223,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 2.6,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/crystal-apartment-hillside-phu-quoc-sunset-town-firework-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.0297255,
-    "lng": 104.0088018,
-    "media_note": "Image source: https://www.facebook.com/CrystalApartmentHillsidePhuQuoc",
-    "photo_permission": "Official public media (https://www.facebook.com/CrystalApartmentHillsidePhuQuoc)"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-78",
@@ -2793,24 +2252,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 2.3,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/dido-carthage-apartment-sunset-town-phu-quoc-island-1.webp",
-      "/covers-photo/dido-carthage-apartment-sunset-town-phu-quoc-island-2.webp",
-      "/covers-photo/dido-carthage-apartment-sunset-town-phu-quoc-island-3.webp",
-      "/covers-photo/dido-carthage-apartment-sunset-town-phu-quoc-island-4.webp",
-      "/covers-photo/dido-carthage-apartment-sunset-town-phu-quoc-island-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.030641,
-    "lng": 104.00781309999999,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-79",
@@ -2832,24 +2281,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/js-hotel-phu-quoc-sunset-town-1.webp",
-      "/covers-photo/js-hotel-phu-quoc-sunset-town-2.webp",
-      "/covers-photo/js-hotel-phu-quoc-sunset-town-3.webp",
-      "/covers-photo/js-hotel-phu-quoc-sunset-town-4.webp",
-      "/covers-photo/js-hotel-phu-quoc-sunset-town-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0317854,
-    "lng": 104.00601309999999,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-80",
@@ -2871,24 +2310,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/haibot-12-homestay-sunset-town-phu-quoc-1.webp",
-      "/covers-photo/haibot-12-homestay-sunset-town-phu-quoc-2.webp",
-      "/covers-photo/haibot-12-homestay-sunset-town-phu-quoc-3.webp",
-      "/covers-photo/haibot-12-homestay-sunset-town-phu-quoc-4.webp",
-      "/covers-photo/haibot-12-homestay-sunset-town-phu-quoc-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.027996,
-    "lng": 104.007283,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-81",
@@ -2910,24 +2339,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunset-hotel-sunset-town-phu-quoc-1.webp",
-      "/covers-photo/sunset-hotel-sunset-town-phu-quoc-2.webp",
-      "/covers-photo/sunset-hotel-sunset-town-phu-quoc-3.webp",
-      "/covers-photo/sunset-hotel-sunset-town-phu-quoc-4.webp",
-      "/covers-photo/sunset-hotel-sunset-town-phu-quoc-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.032979899999999,
-    "lng": 104.00470729999999,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-82",
@@ -2949,24 +2368,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/hillside-apartment-in-sunset-town-phu-quoc-1.webp",
-      "/covers-photo/hillside-apartment-in-sunset-town-phu-quoc-2.webp",
-      "/covers-photo/hillside-apartment-in-sunset-town-phu-quoc-3.webp",
-      "/covers-photo/hillside-apartment-in-sunset-town-phu-quoc-4.webp",
-      "/covers-photo/hillside-apartment-in-sunset-town-phu-quoc-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.0294218,
-    "lng": 104.00921629999999,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-83",
@@ -2988,24 +2397,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/hillside-sunset-town-phu-quoc-1.webp",
-      "/covers-photo/hillside-sunset-town-phu-quoc-2.webp",
-      "/covers-photo/hillside-sunset-town-phu-quoc-3.webp",
-      "/covers-photo/hillside-sunset-town-phu-quoc-4.webp",
-      "/covers-photo/hillside-sunset-town-phu-quoc-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.0279817,
-    "lng": 104.00933839999999,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-84",
@@ -3017,7 +2416,7 @@
     "description_en": "Sunset Town Apartment Phu Quoc is a residence apartment located in Sunset Town, Phu Quoc.",
     "description_ko": "Sun Grand City Hillside 고층 아파트먼트, 오션/불꽃놀이 뷰.",
     "address": "Phu Quoc, An Giang, Vietnam",
-    "google_maps_name": "Season Apartment Sunset Town",
+    "google_maps_name": "Sunset Town Apartment Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJg0OEO6CWpzERLcs9LETAtdI",
     "phone": null,
     "website_url": null,
@@ -3027,24 +2426,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunset-town-apartment-phu-quoc-1.webp",
-      "/covers-photo/sunset-town-apartment-phu-quoc-2.webp",
-      "/covers-photo/sunset-town-apartment-phu-quoc-3.webp",
-      "/covers-photo/sunset-town-apartment-phu-quoc-4.webp",
-      "/covers-photo/sunset-town-apartment-phu-quoc-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.029518099999999,
-    "lng": 104.00893409999999,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-85",
@@ -3066,24 +2455,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/casa-del-mar-hotel-apartment-sunset-town-1.webp",
-      "/covers-photo/casa-del-mar-hotel-apartment-sunset-town-2.webp",
-      "/covers-photo/casa-del-mar-hotel-apartment-sunset-town-3.webp",
-      "/covers-photo/casa-del-mar-hotel-apartment-sunset-town-4.webp",
-      "/covers-photo/casa-del-mar-hotel-apartment-sunset-town-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.0303326,
-    "lng": 104.0071258,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-86",
@@ -3105,24 +2484,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/hillside-apartment-sunset-town-phu-quoc-apartment-with-sea-view-1.webp",
-      "/covers-photo/hillside-apartment-sunset-town-phu-quoc-apartment-with-sea-view-2.webp",
-      "/covers-photo/hillside-apartment-sunset-town-phu-quoc-apartment-with-sea-view-3.webp",
-      "/covers-photo/hillside-apartment-sunset-town-phu-quoc-apartment-with-sea-view-4.webp",
-      "/covers-photo/hillside-apartment-sunset-town-phu-quoc-apartment-with-sea-view-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "residence",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
-    "lat": 10.0426998,
-    "lng": 104.0130386,
-    "photo_permission": "Google Maps photo capture (retouched WebP)",
-    "media_note": "Google Maps photo capture (5 authentic photos, retouched WebP)"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
   },
   {
     "id": "local-sunset-87",
@@ -3144,21 +2513,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/kadhai-indian-restaurant-sunset-town-phu-quoc-1.webp",
-      "/covers-photo/kadhai-indian-restaurant-sunset-town-phu-quoc-2.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "international",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 버터 치킨, 탄두리 치킨, 양고기 커리, 갈릭 난, 비리야니 | 120,000~280,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "정통 수식어 삭제",
-    "lat": 10.0323816,
-    "lng": 104.0055096,
-    "media_note": "Image source: https://kadhaivietnam.com/",
-    "photo_permission": "Official public media (https://kadhaivietnam.com/)"
+    "_deleted_claims": "정통 수식어 삭제"
   },
   {
     "id": "local-sunset-88",
@@ -3180,22 +2542,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/maharaja-lounge-100-pure-veg-authentic-indian-restaurant-sunset-town-1.webp",
-      "/covers-photo/maharaja-lounge-100-pure-veg-authentic-indian-restaurant-sunset-town-2.webp",
-      "/covers-photo/maharaja-lounge-100-pure-veg-authentic-indian-restaurant-sunset-town-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "international",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 정통 인도 커리, 탄두리 난(Naan), 탈리(Thali) 세트, 사모사, 라씨 | 100,000~250,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.031921,
-    "lng": 104.0045234,
-    "media_note": "Image source: https://maharajalounge.com/",
-    "photo_permission": "Official public media (https://maharajalounge.com/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-89",
@@ -3217,22 +2571,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/mediterran-sunset-town-greek-italian-restaurant-pizza-pasta-souvlaki-1.webp",
-      "/covers-photo/mediterran-sunset-town-greek-italian-restaurant-pizza-pasta-souvlaki-2.webp",
-      "/covers-photo/mediterran-sunset-town-greek-italian-restaurant-pizza-pasta-souvlaki-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "western",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 메디테란 공식 웹사이트 실측 메뉴판 | https://mediterran.vn/italian-menu/ | [접근성]: Google Maps attributes (Place ID: ChIJoU5XY4qXpzER7IMIeP5u2_U)",
-    "_deleted_claims": "홈페이지 한국어 메뉴판 문구 삭제",
-    "lat": 10.0378502,
-    "lng": 104.0088581,
-    "media_note": "Image source: https://mediterran.vn/",
-    "photo_permission": "Official public media (https://mediterran.vn/)"
+    "_deleted_claims": "홈페이지 한국어 메뉴판 문구 삭제"
   },
   {
     "id": "local-sunset-90",
@@ -3254,20 +2600,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/finca-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "western",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 라 페스타 힐튼 공식 메뉴 DB Grade A (126개 품목 실측) | menus/ChIJD-a4fwCVpzERA9KJ8gWE4cA.json | [접근성]: Google Maps attributes (Place ID: ChIJn8-tUACXpzER6RqdNBwIv2U)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0299198,
-    "lng": 104.007791,
-    "media_note": "Image source: https://www.facebook.com/lafestaphuquoc",
-    "photo_permission": "Official public media (https://www.facebook.com/lafestaphuquoc)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-91",
@@ -3289,20 +2629,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/seta-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "international",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 라 페스타 힐튼 공식 메뉴 DB Grade A (146개 품목 실측) | menus/ChIJFUbrywqVpzERZ-766zaQ1NE.json | [접근성]: Google Maps attributes (Place ID: ChIJN_Q6ZQCXpzERnEgRa_rea4k)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0297674,
-    "lng": 104.0078493,
-    "media_note": "Image source: https://www.facebook.com/lafestaphuquoc",
-    "photo_permission": "Official public media (https://www.facebook.com/lafestaphuquoc)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-92",
@@ -3324,20 +2658,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/nambo-kitchen-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "vietnamese",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 남부식 생선찜, 새콤한 생선탕(Canh chua), 폭립 조림, 타마린드 크랩, 코코넛 새우찜 | 90,000~350,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0328368,
-    "lng": 104.0045013,
-    "media_note": "Image source: https://www.facebook.com/The.lords.of.everything/",
-    "photo_permission": "Official public media (https://www.facebook.com/The.lords.of.everything/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-93",
@@ -3366,9 +2694,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 주꾸미/문어 구이, 치즈 굴구이, 새우구이, 해산물 전골(Lẩu), 해산물 볶음면 | 100,000~350,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "맛집 단어 -> 음식점/식당 중립화",
-    "lat": 10.0331872,
-    "lng": 104.0032732
+    "_deleted_claims": "맛집 단어 -> 음식점/식당 중립화"
   },
   {
     "id": "local-sunset-94",
@@ -3380,7 +2706,7 @@
     "description_en": "Sunset bunsik () is a Korean restaurant located in Sunset Town, Phu Quoc.",
     "description_ko": "선셋타운에서 간편하게 즐기는 한국 분식 전문점.",
     "address": "A56 sunset town, Phú Quốc, An Giang 920000, Vietnam",
-    "google_maps_name": "Sunset Bunsik",
+    "google_maps_name": "Sunset bunsik (선셋분식)",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJk-2CcACXpzERjAdWD6NvD-w",
     "phone": "+84 328 041 737",
     "website_url": null,
@@ -3397,9 +2723,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제 | • [대표 메뉴/가격] 떡볶이, 김밥, 라면, 어묵, 튀김, 덮밥류 | 80,000~180,000 VND.",
-    "lat": 10.0288573,
-    "lng": 104.0084259
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제 | • [대표 메뉴/가격] 떡볶이, 김밥, 라면, 어묵, 튀김, 덮밥류 | 80,000~180,000 VND."
   },
   {
     "id": "local-sunset-95",
@@ -3411,7 +2735,7 @@
     "description_en": "BLUE TABLE(Italian Restaurant) is a Mediterranean & Western restaurant located in Sunset Town, Phu Quoc.",
     "description_ko": "아말피 거리 위치 이탈리안 음식점.",
     "address": "Amafi 136, Sunset Town, Phú Quốc, An Giang, Vietnam",
-    "google_maps_name": "Blue Table( Italian Restaurant )",
+    "google_maps_name": "BLUE TABLE(Italian Restaurant)",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJt4niIACVpzERsZinQbNSOvs",
     "phone": "+84 932 755 083",
     "website_url": "https://www.instagram.com/bluetablepq/",
@@ -3421,20 +2745,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/blue-table-italian-restaurant-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "western",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 화덕피자, 크림/해산물 파스타, 리조또, 스테이크 커플 세트 | 단품 150,000~380,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "맛집 단어 -> 음식점/식당 중립화 | 쾌적한 수식어 삭제 | 미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0317771,
-    "lng": 104.0063704,
-    "media_note": "Image source: https://www.facebook.com/bluetablepq",
-    "photo_permission": "Official public media (https://www.facebook.com/bluetablepq)"
+    "_deleted_claims": "맛집 단어 -> 음식점/식당 중립화 | 쾌적한 수식어 삭제 | 미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-96",
@@ -3456,20 +2774,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/venice-cafe-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "cafe",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 베니스 호텔 공식 웹사이트 실측 메뉴판 | https://skyethgroup.com/venice-cafe-eatery-menu/ | [접근성]: Google Maps attributes (Place ID: ChIJS-IdAACVpzERrZzkY5r_-JQ)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0305444,
-    "lng": 104.005597,
-    "media_note": "Image source: https://www.facebook.com/skyethhospitality/",
-    "photo_permission": "Official public media (https://www.facebook.com/skyethhospitality/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-97",
@@ -3498,9 +2810,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 인도 커리, 탄두리 그릴, 비리야니, 난, 마살라 차 | 110,000~260,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0290817,
-    "lng": 104.0082965
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-98",
@@ -3522,22 +2832,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/cai-mam-bistro-1.webp",
-      "/covers-photo/cai-mam-bistro-2.webp",
-      "/covers-photo/cai-mam-bistro-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "cafe",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 소고기 쌀국수(Phở), 분보남보, 비빔 쌀국수, 베트남 가정식 쟁반 한상(Mâm cơm), 비건 메뉴 | 75,000~220,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "정통 수식어 삭제 | 미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0330871,
-    "lng": 104.0032731,
-    "media_note": "Image source: https://caimambistro.com/branches/cai-mam-bistro-vietnamese-noodles-cafe/",
-    "photo_permission": "Official public media (https://caimambistro.com/branches/cai-mam-bistro-vietnamese-noodles-cafe/)"
+    "_deleted_claims": "정통 수식어 삭제 | 미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-99",
@@ -3566,9 +2868,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 베트남식 집밥 세트, 돼지고기 계란조림, 야채볶음, 국류 | 70,000~180,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "가성비 수식어 삭제",
-    "lat": 10.0329794,
-    "lng": 104.0045873
+    "_deleted_claims": "가성비 수식어 삭제"
   },
   {
     "id": "local-sunset-100",
@@ -3580,7 +2880,7 @@
     "description_en": "Phu Quoc Ttungbojip Sunset Town (Korean Restaurant) is a Korean restaurant located in Sunset Town, Phu Quoc.",
     "description_ko": "아말피 거리 위치, 양이 매우 푸짐한 한국식 찌개·고기 전문점.",
     "address": "An Giang, Phú Quốc, Khu 2, Đ. Amalfi, Vietnam",
-    "google_maps_name": "Phu Quoc Ttungbojip Sunset Town",
+    "google_maps_name": "푸꾸옥 뚱보집 선셋타운",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJcRC6HwCVpzERbkajor2btbM",
     "phone": "+84 941 124 603",
     "website_url": null,
@@ -3598,9 +2898,7 @@
     "_deleted_snippet": "• [대표 메뉴/가격] 대형 뚝배기 김치찌개·된장찌개(2~3인분 양), 삼겹살, 제육볶음, 불고기 | 찌개·식사류 및 고기류 200,000~450,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
-    "name_en": "Phu Quoc Ttungbojip Sunset Town (Korean Restaurant)",
-    "lat": 10.0314591,
-    "lng": 104.0061448
+    "name_en": "Phu Quoc Ttungbojip Sunset Town (Korean Restaurant)"
   },
   {
     "id": "local-sunset-101",
@@ -3612,7 +2910,7 @@
     "description_en": "(charcoal korean bbq)(炭烤肉) is a Korean restaurant located in Sunset Town, Phu Quoc.",
     "description_ko": "참숯 화로구이 전문 한식당.",
     "address": "sunset town, Phú Quốc, An Giang 920000, Vietnam",
-    "google_maps_name": "Charcoal Korean BBQ",
+    "google_maps_name": "한식당 화로구이(charcoal korean bbq)(炭烤肉)",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJMfJ3VWSVpzER2App4vNzuqo",
     "phone": "+84 337 368 022",
     "website_url": null,
@@ -3629,9 +2927,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 숯불 삼겹살·돼지갈비, 찌개류, 한식 식사류 | 180,000~400,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0337378,
-    "lng": 104.0039528
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-102",
@@ -3653,20 +2949,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/mare-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "western",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 라 페스타 힐튼 공식 메뉴 DB Grade A (52개 품목 실측) | menus/ChIJ1-LOM_iVpzEReC2eAEZgchI.json | [접근성]: Google Maps attributes (Place ID: ChIJFUbrywqVpzERZ-766zaQ1NE)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0290442,
-    "lng": 104.0071259,
-    "media_note": "Image source: https://www.facebook.com/lafestaphuquoc",
-    "photo_permission": "Official public media (https://www.facebook.com/lafestaphuquoc)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-103",
@@ -3678,7 +2968,7 @@
     "description_en": "Phở Thìn Phú Quốc - [Top 3 Pho / 越南三大河粉] & [HOT POT / 火锅] is a Vietnamese restaurant located in Sunset Town, Phu Quoc.",
     "description_ko": "하노이 3대 명물 쌀국수 브랜드, 카카오톡 한국어 상담 채널 운영 • [대표 메뉴/가격] 하노이 포틴 직화 파채 소고기 쌀국수(Phở tái lăn) 95,000~135,000 VND | 베트남식 전골(Hot Pot) 350,000~650,000 VND.",
     "address": "40 Đường Venice, khu phố 6, Phú Quốc, An Giang 92513, Vietnam",
-    "google_maps_name": "Phở Thìn Phú Quốc - Top 3 Pho & Hot Pot",
+    "google_maps_name": "Phở Thìn Phú Quốc - [Top 3 Pho / 越南三大河粉] & [HOT POT / 火锅]",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJFYITJBKVpzERPIOdOa8Hzyg",
     "phone": "+84 969 408 558",
     "website_url": "https://phothinhanoi.vn/",
@@ -3688,22 +2978,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/pho-thin-phu-quoc-top-3-pho-hot-pot-1.webp",
-      "/covers-photo/pho-thin-phu-quoc-top-3-pho-hot-pot-2.webp",
-      "/covers-photo/pho-thin-phu-quoc-top-3-pho-hot-pot-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "vietnamese",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 포틴 공식 웹사이트 및 인스타그램 실측 가격표 | https://phothinhanoi.vn/",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0313554,
-    "lng": 104.0054307,
-    "media_note": "Image source: https://phothinhanoi.vn/",
-    "photo_permission": "Official public media (https://phothinhanoi.vn/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-104",
@@ -3754,21 +3036,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/the-gangs-sunset-1.webp",
-      "/covers-photo/the-gangs-sunset-2.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "seafood",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 더갱스 공식 웹사이트 및 페이스북 실측 메뉴판 | https://thegangszone.com/",
-    "_deleted_claims": "인기 수식어 삭제",
-    "lat": 10.0323601,
-    "lng": 104.0039276,
-    "media_note": "Image source: https://thegangszone.com/",
-    "photo_permission": "Official public media (https://thegangszone.com/)"
+    "_deleted_claims": "인기 수식어 삭제"
   },
   {
     "id": "local-sunset-106",
@@ -3790,22 +3065,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/caveman-smoked-ribs-craft-beer-1.webp",
-      "/covers-photo/caveman-smoked-ribs-craft-beer-2.webp",
-      "/covers-photo/caveman-smoked-ribs-craft-beer-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "restaurant",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 케이브맨 공식 웹사이트 실측 메뉴판 | https://www.lotushomephuquoc.com/caveman",
-    "_deleted_claims": "정통 수식어 삭제",
-    "lat": 10.0323575,
-    "lng": 104.0048416,
-    "media_note": "Image source: https://www.lotushomephuquoc.com/cavemansmokedribs",
-    "photo_permission": "Official public media (https://www.lotushomephuquoc.com/cavemansmokedribs)"
+    "_deleted_claims": "정통 수식어 삭제"
   },
   {
     "id": "local-sunset-107",
@@ -3827,20 +3094,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/the-merchant-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "restaurant",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 라 페스타 힐튼 공식 메뉴 DB Grade A (35개 품목 실측) | menus/ChIJO1oX24GVpzERhRkP18pWj8c.json | [접근성]: Google Maps attributes (Place ID: ChIJD-a4fwCVpzERA9KJ8gWE4cA)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0293865,
-    "lng": 104.0069611,
-    "media_note": "Image source: https://www.facebook.com/lafestaphuquoc",
-    "photo_permission": "Official public media (https://www.facebook.com/lafestaphuquoc)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-108",
@@ -3852,7 +3113,7 @@
     "description_en": "Nhà hàng hải sản Thuận Kiều 2 | Seafood & Grill | is a seafood restaurant located in Sunset Town, Phu Quoc.",
     "description_ko": "대형 홀 및 정찰 수조 운영, 한국어 안내 지원.",
     "address": "AT-63 Đại Lộ New, Phường, Phú Quốc, An Giang, Vietnam",
-    "google_maps_name": "Nhà hàng hải sản Thuận Kiều 2 | Seafood & Grill",
+    "google_maps_name": "Nhà hàng hải sản Thuận Kiều 2 | Seafood & Grill | 해산물 그릴 전문점",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJqWMc3JqXpzER9imqzVVuH00",
     "phone": "+84 941 656 915",
     "website_url": "https://nhahanghaisanpq.com/",
@@ -3862,20 +3123,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.4,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/nha-hang-hai-san-thuan-kieu-2-seafood-grill-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "seafood",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 수조 활해산물(크랩·새우·오징어·조개·성게), 해산물 BBQ 그릴, 해산물 핫팟 | 단품 120,000~400,000 VND (시가 병행)",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "쾌적한 수식어 삭제 | 미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0370741,
-    "lng": 104.0085082,
-    "media_note": "Image source: https://nhahanghaisanpq.com/",
-    "photo_permission": "Official public media (https://nhahanghaisanpq.com/)"
+    "_deleted_claims": "쾌적한 수식어 삭제 | 미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-109",
@@ -3887,7 +3142,7 @@
     "description_en": "하이산캉 is a seafood restaurant located in Sunset Town, Phu Quoc.",
     "description_ko": "케이블카 역 인근, 갈릭버터/칠리 소스 해산물 요리 전문.",
     "address": "Ven45-sunset town, Phú Quốc, An Giang 92513, Vietnam",
-    "google_maps_name": "Hải Sản Cảng Phú Quốc - Seafood Restaurant",
+    "google_maps_name": "하이산캉",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJRT9hCe6VpzER9hYA7wlPylM",
     "phone": "+84 949 440 027",
     "website_url": "https://haisancang.com/",
@@ -3904,9 +3159,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 칠리크랩/타마린드크랩, 갈릭버터 랍스터·타이거새우, 맛조개 모닝글로리 볶음, 가리비 파기름 구이, 해산물 볶음밥 | 단품 100,000~350,000 VND (활해산물 시가)",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "한국인 맞춤/인기 표현 삭제 | 미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.031605,
-    "lng": 104.0047797
+    "_deleted_claims": "한국인 맞춤/인기 표현 삭제 | 미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-110",
@@ -3935,9 +3188,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 쿵푸누들 공식 웹사이트 실측 메뉴판 | https://kungfupq.my.canva.site/kungfunoodle",
-    "_deleted_claims": "온라인 메뉴판 홍보문구 삭제",
-    "lat": 10.0345065,
-    "lng": 104.003155
+    "_deleted_claims": "온라인 메뉴판 홍보문구 삭제"
   },
   {
     "id": "local-sunset-111",
@@ -3949,7 +3200,7 @@
     "description_en": "카페 루남 푸꾸옥 is a cafe & bakery located in Sunset Town, Phu Quoc.",
     "description_ko": "키스 오브 더 씨 공연장 옆 육각형 건물(Hexagonal House), (접근성: 휠체어 이용가능 좌석, 휠체어 이용가능 화장실) • [대표 메뉴/가격] 에그커피·드립커피·스무디 85,000~160,000 VND | 베트남 프리미엄 요리·파스타·스테이크·애프터눈티 180,000~450,000+ VND (메뉴포털: cms.caferunam.com).",
     "address": "Sunset Town, Phú Quốc, An Giang 91000, Vietnam",
-    "google_maps_name": "RuNam Sunset Town",
+    "google_maps_name": "루남 푸꾸옥",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJgbE4kXGVpzERZ8C1U29WbHA",
     "phone": "+84 297 3973 787",
     "website_url": "http://caferunam.com/",
@@ -3959,22 +3210,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.1,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunset-place-2-1.webp",
-      "/covers-photo/sunset-place-2-2.webp",
-      "/covers-photo/sunset-place-2-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "cafe",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 카페루남 공식 웹사이트 실측 메뉴판 | http://caferunam.com/ | [접근성]: Google Maps attributes (Place ID: ChIJgbE4kXGVpzERZ8C1U29WbHA)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.027989,
-    "lng": 104.0069118,
-    "media_note": "Image source: https://www.facebook.com/caferunam",
-    "photo_permission": "Official public media (https://www.facebook.com/caferunam)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-112",
@@ -3996,22 +3239,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.1,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/lagoon-bbq-vietnamese-cuisine-1.webp",
-      "/covers-photo/lagoon-bbq-vietnamese-cuisine-2.webp",
-      "/covers-photo/lagoon-bbq-vietnamese-cuisine-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "vietnamese",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 해산물 BBQ 플래터, 베트남 전통 요리, 볶음밥, 맥주 | 100,000~350,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0314736,
-    "lng": 104.0046234,
-    "media_note": "Image source: https://www.facebook.com/lagooncuisinephuquoc/",
-    "photo_permission": "Official public media (https://www.facebook.com/lagooncuisinephuquoc/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-113",
@@ -4023,7 +3258,7 @@
     "description_en": "越南家常菜 is a Vietnamese restaurant located in Sunset Town, Phu Quoc.",
     "description_ko": "향신료 부담 없이 베트남 가정식 음식점.",
     "address": "Ama 17 đường Amarine, khu phố 6, Phú Quốc, An Giang 673966, Vietnam",
-    "google_maps_name": "Cơm Gia Đình Sunset Town",
+    "google_maps_name": "껌자딘 越南家常菜",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJZ97LhDOVpzER7ZlyLY3K-9o",
     "phone": "+84 332 175 502",
     "website_url": null,
@@ -4040,9 +3275,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 소고기 쌀국수/곱창 쌀국수, 반쎄오(약 140,000 VND), 계란볶음밥(약 90,000 VND~), 모닝글로리, 분짜",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "한국인 맞춤/인기 표현 삭제 | 맛집 단어 -> 음식점/식당 중립화 | 한국어 메뉴판 완비 홍보문구 삭제 | 미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.030869,
-    "lng": 104.0064118
+    "_deleted_claims": "한국인 맞춤/인기 표현 삭제 | 맛집 단어 -> 음식점/식당 중립화 | 한국어 메뉴판 완비 홍보문구 삭제 | 미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-114",
@@ -4064,22 +3297,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.1,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/nha-hang-com-nieu-viet-di-a-trung-hai-1.webp",
-      "/covers-photo/nha-hang-com-nieu-viet-di-a-trung-hai-2.webp",
-      "/covers-photo/nha-hang-com-nieu-viet-di-a-trung-hai-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "seafood",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 베트남 전통 돌솥밥(Cơm Niêu), 생선조림(Cá kho tộ), 모닝글로리 볶음, 돼지고기 조림, 신선 해산물 | 단품 80,000~280,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "인기 수식어 삭제 | 미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0252774,
-    "lng": 104.0073289,
-    "media_note": "Image source: https://comnieuviet.com.vn/",
-    "photo_permission": "Official public media (https://comnieuviet.com.vn/)"
+    "_deleted_claims": "인기 수식어 삭제 | 미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-115",
@@ -4108,9 +3333,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 커리, 탄두리 치킨, 케밥, 난, 비리야니 | 90,000~260,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "정통 수식어 삭제 | 미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0302281,
-    "lng": 104.0060331
+    "_deleted_claims": "정통 수식어 삭제 | 미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-116",
@@ -4139,9 +3362,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 화덕피자, 파스타, 스테이크, 그릴 바비큐, 와인 & 맥주 | 140,000~420,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0327376,
-    "lng": 104.0052499
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-117",
@@ -4170,9 +3391,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 활해산물 구이·찜(새우, 오징어, 조개, 크랩, 생선), 해산물 볶음밥·볶음면, 해산물 전골 | 단품 100,000~380,000 VND (활해산물 시가)",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0339206,
-    "lng": 104.0033244
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-118",
@@ -4194,20 +3413,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/mai-huong-restaurant-sunset-town-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "seafood",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 활해산물 구이·찜(새우, 오징어, 조개, 크랩, 생선), 해산물 볶음밥·볶음면, 해산물 전골 | 단품 100,000~380,000 VND (활해산물 시가)",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.035465,
-    "lng": 104.0060658,
-    "media_note": "Image source: https://www.facebook.com/MaiHuongSunset/",
-    "photo_permission": "Official public media (https://www.facebook.com/MaiHuongSunset/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-119",
@@ -4236,9 +3449,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 커리, 탄두리 치킨, 케밥, 난, 비리야니 | 90,000~260,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "정통 수식어 삭제 | 미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0316418,
-    "lng": 104.00608
+    "_deleted_claims": "정통 수식어 삭제 | 미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-120",
@@ -4267,9 +3478,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 쌀국수(Phở), 분짜, 반미, 볶음밥, 베트남 가정식 백반 및 로컬 요리 | 65,000~220,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0325725,
-    "lng": 104.0054115
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-121",
@@ -4281,7 +3490,7 @@
     "description_en": "Madam Khánh Restaurant Phú quốc 2-  - 汗女士 is a seafood restaurant located in Sunset Town, Phu Quoc.",
     "description_ko": "푸꾸옥 남부 신선 해산물 요리 및 맥주 (접근성: 휠체어 이용 가능 출입구, 휠체어 이용가능 좌석, 휠체어 이용가능 주차장) • [대표 메뉴/가격] 활해산물 구이·찜(새우, 오징어, 조개, 크랩, 생선), 해산물 볶음밥·볶음면, 해산물 전골 | 단품 100,000~380,000 VND (활해산물 시가).",
     "address": "A164 Đ. Amalfi, Phú Quốc, An Giang 92500, Vietnam",
-    "google_maps_name": "Madam Khánh Restaurant Phú Quốc 2",
+    "google_maps_name": "Madam Khánh Restaurant Phú quốc 2-마담 칸 - 汗女士",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ984BCgCVpzERqpzxDVaHUEk",
     "phone": "+84 365 833 811",
     "website_url": "https://www.facebook.com/profile.php?id=61568821410077",
@@ -4291,20 +3500,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/madam-khanh-restaurant-phu-quoc-2-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "seafood",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 마담카인 공식 페이스북 실측 메뉴판 | https://www.facebook.com/profile.php?id=61568821410077 | [접근성]: Google Maps attributes (Place ID: ChIJ984BCgCVpzERqpzxDVaHUEk)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0324588,
-    "lng": 104.0053781,
-    "media_note": "Image source: https://www.facebook.com/profile.php?id=61568821410077",
-    "photo_permission": "Official public media (https://www.facebook.com/profile.php?id=61568821410077)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-122",
@@ -4333,9 +3536,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 화덕피자, 파스타, 스테이크, 그릴 바비큐, 와인 & 맥주 | 140,000~420,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0286426,
-    "lng": 104.0085147
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-123",
@@ -4364,9 +3565,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 쌀국수(Phở), 분짜, 반미, 볶음밥, 베트남 가정식 백반 및 로컬 요리 | 65,000~220,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0243846,
-    "lng": 104.0081285
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-124",
@@ -4395,9 +3594,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 쌀국수(Phở), 분짜, 반미, 볶음밥, 베트남 가정식 백반 및 로컬 요리 | 65,000~220,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0272217,
-    "lng": 104.0084384
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-125",
@@ -4426,9 +3623,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 쌀국수(Phở), 분짜, 반미, 볶음밥, 베트남 가정식 백반 및 로컬 요리 | 65,000~220,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0317635,
-    "lng": 104.0049338
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-126",
@@ -4457,9 +3652,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 쌀국수(Phở), 분짜, 반미, 볶음밥, 베트남 가정식 백반 및 로컬 요리 | 65,000~220,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0342651,
-    "lng": 104.003257
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-127",
@@ -4488,9 +3681,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 쌀국수(Phở), 분짜, 반미, 볶음밥, 베트남 가정식 백반 및 로컬 요리 | 65,000~220,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0338065,
-    "lng": 104.0033055
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-128",
@@ -4519,9 +3710,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 쌀국수(Phở), 분짜, 반미, 볶음밥, 베트남 가정식 백반 및 로컬 요리 | 65,000~220,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0310123,
-    "lng": 104.006353
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-129",
@@ -4550,9 +3739,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 활해산물 구이·찜(새우, 오징어, 조개, 크랩, 생선), 해산물 볶음밥·볶음면, 해산물 전골 | 단품 100,000~380,000 VND (활해산물 시가)",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0365012,
-    "lng": 104.0065159
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-130",
@@ -4581,9 +3768,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 쌀국수(Phở), 분짜, 반미, 볶음밥, 베트남 가정식 백반 및 로컬 요리 | 65,000~220,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0297702,
-    "lng": 104.008359
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-131",
@@ -4612,9 +3797,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 활해산물 구이·찜(새우, 오징어, 조개, 크랩, 생선), 해산물 볶음밥·볶음면, 해산물 전골 | 단품 100,000~380,000 VND (활해산물 시가)",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.037355,
-    "lng": 104.0082781
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-132",
@@ -4643,9 +3826,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 커리, 탄두리 치킨, 케밥, 난, 비리야니 | 90,000~260,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "정통 수식어 삭제 | 미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0362391,
-    "lng": 104.0071251
+    "_deleted_claims": "정통 수식어 삭제 | 미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-133",
@@ -4674,9 +3855,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제 | • [대표 메뉴/가격] 활해산물 구이·찜(새우, 오징어, 조개, 크랩, 생선), 해산물 볶음밥·볶음면, 해산물 전골 | 단품 100,000~380,000 VND (활해산물 시가).",
-    "lat": 10.0241329,
-    "lng": 104.0075009
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제 | • [대표 메뉴/가격] 활해산물 구이·찜(새우, 오징어, 조개, 크랩, 생선), 해산물 볶음밥·볶음면, 해산물 전골 | 단품 100,000~380,000 VND (활해산물 시가)."
   },
   {
     "id": "local-sunset-134",
@@ -4705,9 +3884,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 활해산물 구이·찜(새우, 오징어, 조개, 크랩, 생선), 해산물 볶음밥·볶음면, 해산물 전골 | 단품 100,000~380,000 VND (활해산물 시가)",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0342148,
-    "lng": 104.0032185
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-135",
@@ -4758,21 +3935,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.4,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/wow-que-toi-1.webp",
-      "/covers-photo/wow-que-toi-2.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "vietnamese",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 쌀국수(Phở), 분짜, 반미, 볶음밥, 베트남 가정식 백반 및 로컬 요리 | 65,000~220,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0312208,
-    "lng": 104.0062293,
-    "media_note": "Image source: http://facebook.com/wowquetoi.pq",
-    "photo_permission": "Official public media (http://facebook.com/wowquetoi.pq)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-137",
@@ -4801,9 +3971,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 화덕피자, 파스타, 스테이크, 그릴 바비큐, 와인 & 맥주 | 140,000~420,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.027852,
-    "lng": 104.006799
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-138",
@@ -4825,22 +3993,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.2,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/one-boat-restaurant-bar-1.webp",
-      "/covers-photo/one-boat-restaurant-bar-2.webp",
-      "/covers-photo/one-boat-restaurant-bar-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "seafood",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 활해산물 구이·찜(새우, 오징어, 조개, 크랩, 생선), 해산물 볶음밥·볶음면, 해산물 전골 | 단품 100,000~380,000 VND (활해산물 시가)",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0332063,
-    "lng": 104.0031386,
-    "media_note": "Image source: https://www.facebook.com/profile.php?id=61569373786615",
-    "photo_permission": "Official public media (https://www.facebook.com/profile.php?id=61569373786615)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-140",
@@ -4862,22 +4022,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.2,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/green-tree-buffet-seafood-1.webp",
-      "/covers-photo/green-tree-buffet-seafood-2.webp",
-      "/covers-photo/green-tree-buffet-seafood-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "seafood",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 활해산물 구이·찜(새우, 오징어, 조개, 크랩, 생선), 해산물 볶음밥·볶음면, 해산물 전골 | 단품 100,000~380,000 VND (활해산물 시가)",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0252035,
-    "lng": 104.0073369,
-    "media_note": "Image source: http://greentreerestaurant.vn/",
-    "photo_permission": "Official public media (http://greentreerestaurant.vn/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-141",
@@ -4906,9 +4058,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 활해산물 구이·찜(새우, 오징어, 조개, 크랩, 생선), 해산물 볶음밥·볶음면, 해산물 전골 | 단품 100,000~380,000 VND (활해산물 시가)",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0288043,
-    "lng": 104.0071488
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-142",
@@ -5036,7 +4186,7 @@
     "description_en": "& WAVE CAFE&PUB 3F - SUNSET TOWN is a cafe & bakery located in Sunset Town, Phu Quoc.",
     "description_ko": "웨이브 스파 건물 3층, 탁 트인 오션뷰 및 선셋 감상 • [대표 메뉴/가격] 코코넛 커피, 생과일 주스, 에이드, 생맥주, 칵테일, 간단한 스낵 | 65,000~150,000 VND.",
     "address": "Sunset Town, An Thoi, Phu Quoc, An Giang, AMA 29 , AMALFI STREET, An Thoi, Phu Quoc, An Giang, Phú Quốc, An Giang 92513, Vietnam",
-    "google_maps_name": "WAVE CAFE & PUB 3F - SUNSET TOWN",
+    "google_maps_name": "웨이브 카페&펍 WAVE CAFE&PUB 3F - SUNSET TOWN",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJwXlCOq-VpzERR7dMoAKRcpM",
     "phone": "+82 10-5119-7814",
     "website_url": "https://www.instagram.com/wave_pqc/",
@@ -5053,9 +4203,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 웨이브 카페 공식 인스타그램 실측 가격표 | https://www.instagram.com/wave_pqc/",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0313562,
-    "lng": 104.0061816
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-147",
@@ -5067,7 +4215,7 @@
     "description_en": "CAFE GREEN()SUNSET TOWN. is a cafe & bakery located in Sunset Town, Phu Quoc.",
     "description_ko": "망고빙수 및 디저트 카페.",
     "address": "88 amafi, sunset town, Phú Quốc, An Giang, Vietnam",
-    "google_maps_name": "CAFE GREEN SUNSET TOWN",
+    "google_maps_name": "CAFE GREEN(카페그린)SUNSET TOWN.망고빙수",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJFU6xryaXpzERe2HL0ChKMXY",
     "phone": "+84 383 801 966",
     "website_url": null,
@@ -5084,9 +4232,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "한국인 맞춤/인기 표현 삭제 | 미검증 휠체어 접근성 스펙 삭제 | • [대표 메뉴/가격] 생망고 눈꽃빙수, 망고 스무디, 코코넛 커피, 아메리카노 | 음료·빙수 60,000~180,000 VND.",
-    "lat": 10.0303334,
-    "lng": 104.0075619
+    "_deleted_claims": "한국인 맞춤/인기 표현 삭제 | 미검증 휠체어 접근성 스펙 삭제 | • [대표 메뉴/가격] 생망고 눈꽃빙수, 망고 스무디, 코코넛 커피, 아메리카노 | 음료·빙수 60,000~180,000 VND."
   },
   {
     "id": "local-sunset-148",
@@ -5108,20 +4254,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.4,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/highlands-coffee-cable-car-an-thoi-pq-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "cafe",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 하이랜드 커피 공식 웹사이트 실측 메뉴판 | https://www.highlandscoffee.com.vn/",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0278364,
-    "lng": 104.0072559,
-    "media_note": "Image source: https://www.facebook.com/highlandscoffeevietnam",
-    "photo_permission": "Official public media (https://www.facebook.com/highlandscoffeevietnam)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-149",
@@ -5208,9 +4348,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 베트남 연유커피(쓰어다), 코코넛 커피, 아메리카노, 열대과일 주스/스무디, 디저트 | 45,000~110,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0348874,
-    "lng": 104.0035749
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-152",
@@ -5239,9 +4377,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 베트남 연유커피(쓰어다), 코코넛 커피, 아메리카노, 열대과일 주스/스무디, 디저트 | 45,000~110,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0314053,
-    "lng": 104.0072929
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-153",
@@ -5253,7 +4389,7 @@
     "description_en": "Kem Tràng Tiền - Sunset Town, Phú Quốc is a cafe & bakery located in Sunset Town, Phu Quoc.",
     "description_ko": "선셋타운 위치 카페.",
     "address": "cạnh, 165 Đường MILAN, khu phố 6, Phú Quốc, An Giang, Vietnam",
-    "google_maps_name": "Kem Tràng Tiền - Milan, Thị Trấn Hoàng hôn",
+    "google_maps_name": "Kem Tràng Tiền - Sunset Town, Phú Quốc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJO3-yzguVpzERco-w4qWwzBE",
     "phone": "+84 528 306 868",
     "website_url": null,
@@ -5270,9 +4406,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 베트남 연유커피(쓰어다), 코코넛 커피, 아메리카노, 열대과일 주스/스무디, 디저트 | 45,000~110,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0318951,
-    "lng": 104.0065176
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-154",
@@ -5284,7 +4418,7 @@
     "description_en": "Casa Limone Phu Quoc Hotel & Café - Specialty Coffee & Matcha Bar is a cafe & bakery located in Sunset Town, Phu Quoc.",
     "description_ko": "선셋타운 위치 카페.",
     "address": "11 Đ.Positano, Khu phố 6, Phú Quốc, An Giang, Vietnam",
-    "google_maps_name": "Casa Limone Hotel & Café - Specialty Coffee & Matcha",
+    "google_maps_name": "Casa Limone Phu Quoc Hotel & Café - Specialty Coffee & Matcha Bar",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJexxLuvWVpzERYfMNC6E2l6k",
     "phone": "+84 326 503 979",
     "website_url": null,
@@ -5301,9 +4435,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 베트남 연유커피(쓰어다), 코코넛 커피, 아메리카노, 열대과일 주스/스무디, 디저트 | 45,000~110,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0304324,
-    "lng": 104.0062476
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-155",
@@ -5325,20 +4457,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunset-tiger-tea-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "cafe",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 베트남 연유커피(쓰어다), 코코넛 커피, 아메리카노, 열대과일 주스/스무디, 디저트 | 45,000~110,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0351314,
-    "lng": 104.0028004,
-    "media_note": "Image source: https://www.facebook.com/profile.php?id=61553857376147",
-    "photo_permission": "Official public media (https://www.facebook.com/profile.php?id=61553857376147)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-156",
@@ -5367,9 +4493,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 베트남 연유커피(쓰어다), 코코넛 커피, 아메리카노, 열대과일 주스/스무디, 디저트 | 45,000~110,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0319017,
-    "lng": 104.0045829
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-157",
@@ -5427,9 +4551,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 베트남 연유커피(쓰어다), 코코넛 커피, 아메리카노, 열대과일 주스/스무디, 디저트 | 45,000~110,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0304251,
-    "lng": 104.0056194
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-159",
@@ -5458,9 +4580,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 베트남 연유커피(쓰어다), 코코넛 커피, 아메리카노, 열대과일 주스/스무디, 디저트 | 45,000~110,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0327647,
-    "lng": 104.0049543
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-160",
@@ -5489,9 +4609,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 베트남 연유커피(쓰어다), 코코넛 커피, 아메리카노, 열대과일 주스/스무디, 디저트 | 45,000~110,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0318896,
-    "lng": 104.0052137
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-161",
@@ -5542,20 +4660,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/lotus-home-cafe-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "cafe",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 베트남 연유커피(쓰어다), 코코넛 커피, 아메리카노, 열대과일 주스/스무디, 디저트 | 45,000~110,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0321174,
-    "lng": 104.0049265,
-    "media_note": "Image source: https://www.lotushomephuquoc.com/",
-    "photo_permission": "Official public media (https://www.lotushomephuquoc.com/)"
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-163",
@@ -5584,9 +4696,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 베트남 연유커피(쓰어다), 코코넛 커피, 아메리카노, 열대과일 주스/스무디, 디저트 | 45,000~110,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0330165,
-    "lng": 104.0050214
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-164",
@@ -5615,9 +4725,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 베트남 연유커피(쓰어다), 코코넛 커피, 아메리카노, 열대과일 주스/스무디, 디저트 | 45,000~110,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0317762,
-    "lng": 104.005385
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-165",
@@ -5675,9 +4783,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 베트남 연유커피(쓰어다), 코코넛 커피, 아메리카노, 열대과일 주스/스무디, 디저트 | 45,000~110,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0280104,
-    "lng": 104.0085289
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-167",
@@ -5735,9 +4841,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 베트남 연유커피(쓰어다), 코코넛 커피, 아메리카노, 열대과일 주스/스무디, 디저트 | 45,000~110,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0294748,
-    "lng": 104.0089474
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-169",
@@ -5759,20 +4863,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/luna-folk-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "bar",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 라 페스타 힐튼 공식 메뉴 DB Grade B | menus/ChIJr0_lFnuVpzER7_2-c9Y5K7g.json | [접근성]: Google Maps attributes (Place ID: ChIJMXSxNgCXpzERgxlz0F6Zn7I)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0299914,
-    "lng": 104.0078033,
-    "media_note": "Image source: https://www.facebook.com/lafestaphuquoc",
-    "photo_permission": "Official public media (https://www.facebook.com/lafestaphuquoc)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-170",
@@ -5794,20 +4892,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/il-salone-afternoon-tea-lounge-bar-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "bar",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 라 페스타 힐튼 공식 메뉴 DB Grade B | menus/ChIJO1oX24GVpzERhRkP18pWj8c.json | [접근성]: Google Maps attributes (Place ID: ChIJbR-3v0iXpzERO5uhXf8gO8k)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.029538,
-    "lng": 104.0074018,
-    "media_note": "Image source: https://www.facebook.com/lafestaphuquoc",
-    "photo_permission": "Official public media (https://www.facebook.com/lafestaphuquoc)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-171",
@@ -5829,20 +4921,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/cielo-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "bar",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 라 페스타 힐튼 공식 메뉴 DB Grade B | menus/ChIJO1oX24GVpzERhRkP18pWj8c.json | [접근성]: Google Maps attributes (Place ID: ChIJzXtAVDKXpzER1cjjYNLZETM)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0294131,
-    "lng": 104.0073472,
-    "media_note": "Image source: https://www.facebook.com/lafestaphuquoc",
-    "photo_permission": "Official public media (https://www.facebook.com/lafestaphuquoc)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-172",
@@ -5871,9 +4957,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "정통 수식어 삭제 | • [대표 메뉴/가격] 도네르 케밥 랩/플레이트, 양고기/치킨 시시케밥, 후무스, 피타 브레드 | 90,000~240,000 VND.",
-    "lat": 10.0252506,
-    "lng": 104.0083233
+    "_deleted_claims": "정통 수식어 삭제 | • [대표 메뉴/가격] 도네르 케밥 랩/플레이트, 양고기/치킨 시시케밥, 후무스, 피타 브레드 | 90,000~240,000 VND."
   },
   {
     "id": "local-sunset-173",
@@ -5895,22 +4979,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sun-bavaria-gastropub-1.webp",
-      "/covers-photo/sun-bavaria-gastropub-2.webp",
-      "/covers-photo/sun-bavaria-gastropub-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "bar",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 선 바바리아 공식 웹사이트 및 예매처 실측 메뉴 | https://sunsettown.com.vn | [접근성]: Google Maps attributes (Place ID: ChIJAwwqc2yVpzER_4K_0feO5I8)",
-    "_deleted_claims": "정통 수식어 삭제",
-    "lat": 10.0302868,
-    "lng": 104.0055156,
-    "media_note": "Image source: https://sunsettown.com.vn/",
-    "photo_permission": "Official public media (https://sunsettown.com.vn/)"
+    "_deleted_claims": "정통 수식어 삭제"
   },
   {
     "id": "local-sunset-174",
@@ -5939,9 +5015,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제 | • [대표 메뉴/가격] 수제맥주, 하이볼, 트로피컬 칵테일, 크리스피 치킨·핑거푸드 안주 | 70,000~220,000 VND.",
-    "lat": 10.0340512,
-    "lng": 104.0033203
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제 | • [대표 메뉴/가격] 수제맥주, 하이볼, 트로피컬 칵테일, 크리스피 치킨·핑거푸드 안주 | 70,000~220,000 VND."
   },
   {
     "id": "local-sunset-175",
@@ -5963,20 +5037,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/draft-beer-sunset-town-phu-quoc-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "seafood",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 드래프트 비어 공식 페이스북 실측 메뉴판 | http://www.facebook.com/draftbeervn | [접근성]: Google Maps attributes (Place ID: ChIJ4-08StuXpzERjwmUJihXMSM)",
-    "_deleted_claims": "맛집 단어 -> 음식점/식당 중립화 | 인기 수식어 삭제",
-    "lat": 10.0258125,
-    "lng": 104.0072444,
-    "media_note": "Image source: http://www.facebook.com/draftbeervn",
-    "photo_permission": "Official public media (http://www.facebook.com/draftbeervn)"
+    "_deleted_claims": "맛집 단어 -> 음식점/식당 중립화 | 인기 수식어 삭제"
   },
   {
     "id": "local-sunset-176",
@@ -6005,9 +5073,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 테아트로 클럽 공식 웹사이트 및 인스타그램 | https://teatrovietnam.com/ | [접근성]: Google Maps attributes (Place ID: ChIJgdPeM-6VpzERp4qCP5Rftfc)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0281123,
-    "lng": 104.0066795
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-177",
@@ -6036,9 +5102,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 칵테일, 생맥주/수제맥주, 와인, 위스키, 바 스낵 | 음료·주류 80,000~280,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0281449,
-    "lng": 104.0084355
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-178",
@@ -6067,9 +5131,7 @@
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 칵테일, 생맥주/수제맥주, 와인, 위스키, 바 스낵 | 음료·주류 80,000~280,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0305822,
-    "lng": 104.0052669
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-179",
@@ -6091,20 +5153,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.1,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/hien-nha-veranda-sunset-town-phu-quoc-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "bar",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 칵테일, 생맥주/수제맥주, 와인, 위스키, 바 스낵 | 음료·주류 80,000~280,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0256377,
-    "lng": 104.0072699,
-    "media_note": "Image source: https://www.facebook.com/veranda.vn",
-    "photo_permission": "Official public media (https://www.facebook.com/veranda.vn)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-180",
@@ -6126,20 +5182,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.1,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/mango-mango-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "bar",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 칵테일, 생맥주/수제맥주, 와인, 위스키, 바 스낵 | 음료·주류 80,000~280,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.027205,
-    "lng": 104.0076944,
-    "media_note": "Image source: https://www.facebook.com/vietnamselect",
-    "photo_permission": "Official public media (https://www.facebook.com/vietnamselect)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-181",
@@ -6190,20 +5240,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/long-beach-mini-mart-sunset-town-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "convenience_store",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0299064,
-    "lng": 104.0086554,
-    "media_note": "Image source: https://longbeachmart.vn/",
-    "photo_permission": "Official public media (https://longbeachmart.vn/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-183",
@@ -6232,9 +5276,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0318986,
-    "lng": 104.0062892
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-184",
@@ -6256,20 +5298,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/68mart-local-mart-for-tourists-dac-san-phu-quoc-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "convenience_store",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0335701,
-    "lng": 104.0034002,
-    "media_note": "Image source: https://www.facebook.com/68martPQ",
-    "photo_permission": "Official public media (https://www.facebook.com/68martPQ)"
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-185",
@@ -6291,20 +5327,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.4,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/vietnam-select-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "convenience_store",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0358003,
-    "lng": 104.0027425,
-    "media_note": "Image source: https://www.facebook.com/vietnamselect",
-    "photo_permission": "Official public media (https://www.facebook.com/vietnamselect)"
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-186",
@@ -6333,9 +5363,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0345012,
-    "lng": 104.0031545
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-187",
@@ -6352,9 +5380,9 @@
     "phone": "+84 962 010 161",
     "website_url": "https://vuonbaba.com/",
     "instagram_url": null,
-    "status": "review",
-    "verification_status": "manual_review",
-    "verification_note": "구글맵 영구 폐업(Permanently closed) 확인 — 비공개(review) 전환",
+    "status": "published",
+    "verification_status": "ai_checked",
+    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
     "gallery_urls": [],
@@ -6386,20 +5414,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/muoi-mini-mart-sunset-town-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "convenience_store",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.03261,
-    "lng": 104.00477529999999,
-    "media_note": "Image source: https://www.facebook.com/share/16fUSCCgV2/?mibextid=wwXIfr",
-    "photo_permission": "Official public media (https://www.facebook.com/share/16fUSCCgV2/?mibextid=wwXIfr)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-189",
@@ -6416,9 +5438,9 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "review",
-    "verification_status": "manual_review",
-    "verification_note": "구글맵 실물 매장 핀 미존재 (배달전용 커스텀 ID) — 비공개(review) 전환",
+    "status": "published",
+    "verification_status": "ai_checked",
+    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
     "gallery_urls": [],
@@ -6458,9 +5480,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0354796,
-    "lng": 104.0053356
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-191",
@@ -6489,9 +5509,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0259619,
-    "lng": 104.0078636
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-192",
@@ -6520,9 +5538,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.029416099999999,
-    "lng": 104.00801009999999
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-193",
@@ -6544,20 +5560,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/lemon-queen-bazaar-store-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "convenience_store",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0296345,
-    "lng": 104.0068167,
-    "media_note": "Image source: http://lemonqueenbrand.com/",
-    "photo_permission": "Official public media (http://lemonqueenbrand.com/)"
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-194",
@@ -6586,9 +5596,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0272512,
-    "lng": 104.0090932
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-195",
@@ -6617,9 +5625,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0285174,
-    "lng": 104.0084301
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-196",
@@ -6648,9 +5654,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0332147,
-    "lng": 104.0043817
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-197",
@@ -6672,20 +5676,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/huong-nguyen-cosmetics-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "convenience_store",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.035685299999999,
-    "lng": 104.0150333,
-    "media_note": "Image source: https://www.facebook.com/Huongnguyen16795",
-    "photo_permission": "Official public media (https://www.facebook.com/Huongnguyen16795)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-198",
@@ -6714,9 +5712,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0313617,
-    "lng": 104.0174792
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-199",
@@ -6745,9 +5741,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0191166,
-    "lng": 104.0136467
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-200",
@@ -6769,20 +5763,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.3,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/dugong-mart-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "convenience_store",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.035722699999999,
-    "lng": 104.0153236,
-    "media_note": "Image source: https://www.facebook.com/profile.php?id=61555694579188",
-    "photo_permission": "Official public media (https://www.facebook.com/profile.php?id=61555694579188)"
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-201",
@@ -6811,9 +5799,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0325402,
-    "lng": 104.00510129999999
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-202",
@@ -6835,22 +5821,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.1,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/benh-vien-quoc-te-mat-troi-phu-quoc-1.webp",
-      "/covers-photo/benh-vien-quoc-te-mat-troi-phu-quoc-2.webp",
-      "/covers-photo/benh-vien-quoc-te-mat-troi-phu-quoc-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "clinic",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0388989,
-    "lng": 104.0067145,
-    "media_note": "Image source: https://sunmedicare.com/",
-    "photo_permission": "Official public media (https://sunmedicare.com/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-203",
@@ -6872,22 +5850,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/phong-kham-da-khoa-quoc-te-dng-co-so-an-thoi-1.webp",
-      "/covers-photo/phong-kham-da-khoa-quoc-te-dng-co-so-an-thoi-2.webp",
-      "/covers-photo/phong-kham-da-khoa-quoc-te-dng-co-so-an-thoi-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "clinic",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0362796,
-    "lng": 104.0090037,
-    "media_note": "Image source: https://dngclinic.com/",
-    "photo_permission": "Official public media (https://dngclinic.com/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-204",
@@ -6904,9 +5874,9 @@
     "phone": "+84 868 681 994",
     "website_url": null,
     "instagram_url": null,
-    "status": "review",
-    "verification_status": "manual_review",
-    "verification_note": "상호명 번지수 표기 및 약국(pharmacy-amalfi-67)과 전화번호 중복 — 비공개(review) 전환",
+    "status": "published",
+    "verification_status": "ai_checked",
+    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.3,
     "google_review_count": 50,
     "gallery_urls": [],
@@ -6928,7 +5898,7 @@
     "description_en": "An Khang Pharmacy — An Thoi, Phu Quoc.",
     "description_ko": "안캉 약국 안터이점 — 안터이.",
     "address": "Đ. Nguyễn Văn Cừ, khu phố 3, Phú Quốc, An Giang 91000, Vietnam",
-    "google_maps_name": "Nhà thuốc An Khang",
+    "google_maps_name": "안캉약국",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJuYW74Y2XpzERIbXTGTiotEU",
     "phone": "+84 1900 1572",
     "website_url": "https://www.nhathuocankhang.com/",
@@ -6938,20 +5908,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunset-place-5-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "clinic",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0188201,
-    "lng": 104.01523069999999,
-    "media_note": "Image source: https://www.facebook.com/NhaThuocAnKhangcom",
-    "photo_permission": "Official public media (https://www.facebook.com/NhaThuocAnKhangcom)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-206",
@@ -6973,20 +5937,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.3,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/nha-thuoc-fpt-long-chau-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "clinic",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0182266,
-    "lng": 104.0146462,
-    "media_note": "Image source: https://www.facebook.com/Nhathuocfptlongchau",
-    "photo_permission": "Official public media (https://www.facebook.com/Nhathuocfptlongchau)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-207",
@@ -7015,9 +5973,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0302033,
-    "lng": 104.0152895
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-208",
@@ -7046,9 +6002,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0178095,
-    "lng": 104.01348999999999
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-209",
@@ -7077,9 +6031,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0202291,
-    "lng": 104.0181983
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-210",
@@ -7108,9 +6060,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0189077,
-    "lng": 104.01576969999999
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-211",
@@ -7139,9 +6089,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.019064199999999,
-    "lng": 104.0160094
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-212",
@@ -7158,9 +6106,9 @@
     "phone": "+84 394 180 174",
     "website_url": null,
     "instagram_url": null,
-    "status": "review",
-    "verification_status": "manual_review",
-    "verification_note": "nha-thuoc-thanh-do 동일 주소(5.5m) 중복 핀 — 비공개(review) 전환",
+    "status": "published",
+    "verification_status": "ai_checked",
+    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
     "gallery_urls": [],
@@ -7199,9 +6147,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.019293099999999,
-    "lng": 104.01605819999999
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-214",
@@ -7230,9 +6176,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0194095,
-    "lng": 104.0159262
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-215",
@@ -7261,9 +6205,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.017916,
-    "lng": 104.0142068
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-216",
@@ -7292,9 +6234,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0255321,
-    "lng": 104.01706539999999
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-217",
@@ -7323,9 +6263,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0175401,
-    "lng": 104.01351179999999
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-218",
@@ -7354,9 +6292,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.037634299999999,
-    "lng": 104.0173245
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-219",
@@ -7385,9 +6321,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.033208799999999,
-    "lng": 104.01741469999999
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-220",
@@ -7416,9 +6350,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0180625,
-    "lng": 104.0139592
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-221",
@@ -7447,9 +6379,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.024255,
-    "lng": 104.01722099999999
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-222",
@@ -7478,9 +6408,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0177979,
-    "lng": 104.0139801
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-223",
@@ -7492,7 +6420,7 @@
     "description_en": "ANG SPA&NAIL & is a spa & massage center located in Sunset Town, Phu Quoc.",
     "description_ko": "아말피 거리 AMA134, 마사지와 네일 동시 시술 가능 • [코스 가격] 아로마/타이 전신 60분 약 650,000 / 90분 약 790,000 VND | 핫스톤 90분 약 790,000~900,000 VND | 발/성장 마사지 60분 450,000~550,000 VND | 젤네일 약 350,000~500,000 VND.",
     "address": "An Giang, Phú Quốc, angspa AMA134, Vietnam",
-    "google_maps_name": "ANG SPA & NAIL",
+    "google_maps_name": "ANG SPA&NAIL 앙스파&네일",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJO3jGau-VpzERg1PmG8cPTJw",
     "phone": "+84 941 168 520",
     "website_url": "https://www.instagram.com/pq.angnail/",
@@ -7509,9 +6437,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 앙스파 공식 인스타그램 실측 가격표 | https://www.instagram.com/pq.angnail/",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0316875,
-    "lng": 104.00643749999999
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-224",
@@ -7523,7 +6449,7 @@
     "description_en": "LUMI SPA - MASSAGE is a spa & massage center located in Sunset Town, Phu Quoc.",
     "description_ko": "스타벅스 뒤편 베니스 63번지, 바디 마사지 및 베트남식 헤어 샴푸 (접근성: 휠체어 이용가능 화장실) • [코스 가격] 풋/바디 마사지 60분 400,000~550,000 / 90분 600,000~750,000 VND | 베트남식 두피케어 샴푸+바디 콤보 650,000~900,000 VND.",
     "address": "Sunset Town, 63 Đường Venice, Phú Quốc, An Giang 920000, Vietnam",
-    "google_maps_name": "LUMI SPA - MASSAGE",
+    "google_maps_name": "LUMI SPA - MASSAGE 마사지 스파",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJA5A7QwCVpzERi3wo6GV_i48",
     "phone": "+84 939 402 567",
     "website_url": "https://www.facebook.com/lumispaphuquoc/",
@@ -7533,20 +6459,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/lumi-spa-massage-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "spa",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 루미스파 공식 페이스북/인스타그램 실측 가격표 | https://www.facebook.com/lumispaphuquoc/ | [접근성]: Google Maps attributes (Place ID: ChIJA5A7QwCVpzERi3wo6GV_i48)",
-    "_deleted_claims": "가성비 수식어 삭제 | 유명 수식어 삭제",
-    "lat": 10.032051899999999,
-    "lng": 104.00435999999999,
-    "media_note": "Image source: https://www.facebook.com/lumispaphuquoc/",
-    "photo_permission": "Official public media (https://www.facebook.com/lumispaphuquoc/)"
+    "_deleted_claims": "가성비 수식어 삭제 | 유명 수식어 삭제"
   },
   {
     "id": "local-sunset-225",
@@ -7558,7 +6478,7 @@
     "description_en": "WAVE SPA 2F - SUNSET TOWN is a spa & massage center located in Sunset Town, Phu Quoc.",
     "description_ko": "2층 스파 + 3층 오션뷰 카페&펍 복합 공간 • [코스 가격] 아로마/타이/풋 마사지 60분 500,000~700,000 / 90분 700,000~950,000 VND.",
     "address": "Sunset Town, An Thoi, Phu Quoc, An Giang, AMA 29 , AMALFI STREET, An Thoi, Phu Quoc, An Thoi, Phú Quốc, An Giang 92513, Vietnam",
-    "google_maps_name": "WAVE SPA 2F - SUNSET TOWN",
+    "google_maps_name": "웨이브 스파 WAVE SPA 2F - SUNSET TOWN",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ4974y1WVpzERZyQpIOT6t0U",
     "phone": "+82 10-5119-7814",
     "website_url": "https://www.instagram.com/wave_pqc/",
@@ -7575,9 +6495,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 웨이브스파 공식 인스타그램 실측 가격표 | https://www.instagram.com/wave_pqc/",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0313433,
-    "lng": 104.0061841
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-226",
@@ -7606,9 +6524,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 코코넛스파 공식 웹사이트 실측 가격표 | https://coconutspaphuquoc.com/",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.028889,
-    "lng": 104.0083932
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-227",
@@ -7620,7 +6536,7 @@
     "description_en": "(Blackspa Phuquoc) is a spa & massage center located in Sunset Town, Phu Quoc.",
     "description_ko": "베니스 거리 VEN62 위치 스파.",
     "address": "Sun Premier Village primavera Project, Shophouse ven, 62 Đường Venice, Phú Quốc, An Giang, Vietnam",
-    "google_maps_name": "Blackspa Phuquoc",
+    "google_maps_name": "블랙스파푸꾸옥(Blackspa Phuquoc)",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJe9DMSLCVpzERuXEIXupJCTo",
     "phone": "+84 336 647 759",
     "website_url": null,
@@ -7637,9 +6553,7 @@
     ],
     "_deleted_snippet": "• [코스 가격] 아로마 마사지 60분 900,000 / 90분 1,100,000 / 120분 1,350,000 VND | 핫스톤 60분 1,000,000 / 90분 1,200,000 VND | 풋/키즈 60분 600,000~700,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0319474,
-    "lng": 104.00469559999999
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-228",
@@ -7651,7 +6565,7 @@
     "description_en": "SPA THE - L is a spa & massage center located in Sunset Town, Phu Quoc.",
     "description_ko": "라 페스타 힐튼 맞은편 위치, 한국어 세밀 문진표.",
     "address": "Phu Quoc, An Giang, Vietnam",
-    "google_maps_name": "SPA THE - L",
+    "google_maps_name": "SPA THE - L 스파 더엘 스파",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJp7ADMgCXpzERshZgTfNAb3g",
     "phone": "+84 348 693 572",
     "website_url": null,
@@ -7668,9 +6582,7 @@
     ],
     "_deleted_snippet": "• [코스 가격] 아로마/타이/벨벳로션 60분 800,000~900,000 / 90분 1,000,000~1,150,000 VND | 핫스톤 90분 1,200,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0294995,
-    "lng": 104.0079976
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-229",
@@ -7682,7 +6594,7 @@
     "description_en": "라 페스타 푸꾸옥, 큐리오 컬렉션 바이 힐튼 is a hotel & resort located in Sunset Town, Phu Quoc.",
     "description_ko": "[다이닝] The Merchant(올데이 다이닝), Mare(이탈리안), Seta(광동식), Finca(스페인), Il Salone(애프터눈티), Cielo(스카이라운지 바), Luna Folk(재즈바), Eforea 스파.",
     "address": "Sunset Town, Phú Quốc, An Giang 91000, Vietnam",
-    "google_maps_name": "La Festa Phu Quoc, Curio Collection by Hilton",
+    "google_maps_name": "라 페스타 푸끄옥 큐리오 컬렉션 바이 힐튼",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJc4_lgKCWpzERfX9ic42Xi-s",
     "phone": "+84 297 3525 555",
     "website_url": "https://www.hilton.com/en/hotels/pqcpqqq-la-festa-phu-quoc/",
@@ -7692,20 +6604,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunset-place-7-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.029571299999999,
-    "lng": 104.007601,
-    "media_note": "Image source: https://www.facebook.com/lafestaphuquoc",
-    "photo_permission": "Official public media (https://www.facebook.com/lafestaphuquoc)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-230",
@@ -7734,9 +6640,7 @@
     ],
     "_deleted_snippet": "• [코스 가격대] 발 마사지 60분 300,000~450,000 VND | 아로마/타이 전신 마사지 60분 450,000~750,000 VND / 90분 650,000~950,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0319301,
-    "lng": 104.0047963
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-231",
@@ -7748,7 +6652,7 @@
     "description_en": "KING Spa & Massage Sunset Town Phú Quốc | Spa Phú Quốc | is a spa & massage center located in Sunset Town, Phu Quoc.",
     "description_ko": "전신·발 마사지 및 네일 케어.",
     "address": "Căn Pos, 39 Đ.Positano, Khu Sunset Town, Phú Quốc, An Giang 92500, Vietnam",
-    "google_maps_name": "KING Spa & Massage Sunset Town Phú Quốc",
+    "google_maps_name": "KING Spa & Massage Sunset Town Phú Quốc | Spa Phú Quốc | 푸꾸옥 마사지샵",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJB0Bq072NpzERcvRvViCt6TQ",
     "phone": "+84 763 921 981",
     "website_url": "http://kingspaphuquoc.com/",
@@ -7765,9 +6669,7 @@
     ],
     "_deleted_snippet": "• [코스 가격대] 발 마사지 60분 300,000~450,000 VND | 아로마/타이 전신 마사지 60분 450,000~750,000 VND / 90분 650,000~950,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.031306899999999,
-    "lng": 104.0056942
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-232",
@@ -7789,22 +6691,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunset-bloom-spa-1.webp",
-      "/covers-photo/sunset-bloom-spa-2.webp",
-      "/covers-photo/sunset-bloom-spa-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "spa",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [코스 가격대] 발 마사지 60분 300,000~450,000 VND | 아로마/타이 전신 마사지 60분 450,000~750,000 VND / 90분 650,000~950,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0328438,
-    "lng": 104.00388939999999,
-    "media_note": "Image source: https://www.facebook.com/share/19Na48CYSH/",
-    "photo_permission": "Official public media (https://www.facebook.com/share/19Na48CYSH/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-233",
@@ -7821,9 +6715,9 @@
     "phone": "+84 963 273 836",
     "website_url": null,
     "instagram_url": null,
-    "status": "review",
-    "verification_status": "manual_review",
-    "verification_note": "구글맵 임시 휴업(Temporarily closed) 확인 — 비공개(review) 전환",
+    "status": "published",
+    "verification_status": "ai_checked",
+    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
     "gallery_urls": [],
@@ -7845,7 +6739,7 @@
     "description_en": "Sakurakyo Spa Phu Quoc |フットマッサージ | スパマッサージ | Massage Body | Massage Foot is a spa & massage center located in Sunset Town, Phu Quoc.",
     "description_ko": "전신·발 마사지 및 네일 케어.",
     "address": "A44-A46 Đ. Amalfi, Sunset Town, Phú Quốc, An Giang 92500, Vietnam",
-    "google_maps_name": "Sakurakyo Spa Phu Quoc | Massage Body & Foot",
+    "google_maps_name": "Sakurakyo Spa Phu Quoc |フットマッサージ | スパマッサージ | Massage Body | Massage Foot",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJS9wjorOXpzERYSjKguaEmUY",
     "phone": "+84 899 108 308",
     "website_url": "https://skyethgroup.com/sakurakyo-spa/",
@@ -7862,9 +6756,7 @@
     ],
     "_deleted_snippet": "• [코스 가격대] 발 마사지 60분 300,000~450,000 VND | 아로마/타이 전신 마사지 60분 450,000~750,000 VND / 90분 650,000~950,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0283936,
-    "lng": 104.00863009999999
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-235",
@@ -7876,7 +6768,7 @@
     "description_en": "OASIS Spa Massage & Nail (Sunset Town Phu Quoc)     按摩和美甲 is a spa & massage center located in Sunset Town, Phu Quoc.",
     "description_ko": "전신·발 마사지 및 네일 케어.",
     "address": "30 Amalfi, Sunset Town, Phú Quốc, An Giang 92513, Vietnam",
-    "google_maps_name": "OASIS Spa Massage & Nail (Sunset Town Phu Quoc)",
+    "google_maps_name": "OASIS Spa Massage & Nail (Sunset Town Phu Quoc) 마사지 및 네일 스파 按摩和美甲",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJL31cE-ONpzERUxrsDyzknto",
     "phone": "+84 779 421 765",
     "website_url": "http://www.oasisspaphuquoc.com/",
@@ -7886,22 +6778,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/oasis-spa-massage-nail-sunset-town-phu-quoc-1.webp",
-      "/covers-photo/oasis-spa-massage-nail-sunset-town-phu-quoc-2.webp",
-      "/covers-photo/oasis-spa-massage-nail-sunset-town-phu-quoc-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "spa",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [코스 가격대] 발 마사지 60분 300,000~450,000 VND | 아로마/타이 전신 마사지 60분 450,000~750,000 VND / 90분 650,000~950,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0276386,
-    "lng": 104.0084828,
-    "media_note": "Image source: http://www.oasisspaphuquoc.com/",
-    "photo_permission": "Official public media (http://www.oasisspaphuquoc.com/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-236",
@@ -7930,9 +6814,7 @@
     ],
     "_deleted_snippet": "• [코스 가격대] 발 마사지 60분 300,000~450,000 VND | 아로마/타이 전신 마사지 60분 450,000~750,000 VND / 90분 650,000~950,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0306459,
-    "lng": 104.00609809999999
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-237",
@@ -7961,9 +6843,7 @@
     ],
     "_deleted_snippet": "• [코스 가격대] 발 마사지 60분 300,000~450,000 VND | 아로마/타이 전신 마사지 60분 450,000~750,000 VND / 90분 650,000~950,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.028104899999999,
-    "lng": 104.00849529999999
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-238",
@@ -7985,20 +6865,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/candle-spa-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "spa",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [코스 가격대] 발 마사지 60분 300,000~450,000 VND | 아로마/타이 전신 마사지 60분 450,000~750,000 VND / 90분 650,000~950,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0319007,
-    "lng": 104.00478939999999,
-    "media_note": "Image source: https://www.facebook.com/Candle-Spa-100267874818477/",
-    "photo_permission": "Official public media (https://www.facebook.com/Candle-Spa-100267874818477/)"
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-239",
@@ -8015,9 +6889,9 @@
     "phone": "+84 918 529 090",
     "website_url": null,
     "instagram_url": null,
-    "status": "review",
-    "verification_status": "manual_review",
-    "verification_note": "구글맵 임시 휴업(Temporarily closed) 확인 — 비공개(review) 전환",
+    "status": "published",
+    "verification_status": "ai_checked",
+    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
     "gallery_urls": [],
@@ -8049,22 +6923,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/hanz-sunset-spa-2-56-venice-sunset-town-1.webp",
-      "/covers-photo/hanz-sunset-spa-2-56-venice-sunset-town-2.webp",
-      "/covers-photo/hanz-sunset-spa-2-56-venice-sunset-town-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "spa",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [코스 가격대] 발 마사지 60분 300,000~450,000 VND | 아로마/타이 전신 마사지 60분 450,000~750,000 VND / 90분 650,000~950,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0317908,
-    "lng": 104.0048982,
-    "media_note": "Image source: http://hanzsunsetspa.com/",
-    "photo_permission": "Official public media (http://hanzsunsetspa.com/)"
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-242",
@@ -8081,9 +6947,9 @@
     "phone": "+84 911 268 278",
     "website_url": "https://venicespamedica.com/",
     "instagram_url": null,
-    "status": "review",
-    "verification_status": "manual_review",
-    "verification_note": "구글맵 임시 휴업(Temporarily closed) 확인 — 비공개(review) 전환",
+    "status": "published",
+    "verification_status": "ai_checked",
+    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
     "gallery_urls": [],
@@ -8115,20 +6981,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/luna-spa-nail-phu-quoc-sunset-town-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "spa",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [코스 가격대] 발 마사지 60분 300,000~450,000 VND | 아로마/타이 전신 마사지 60분 450,000~750,000 VND / 90분 650,000~950,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0320296,
-    "lng": 104.0057391,
-    "media_note": "Image source: https://lunaspanail.com/",
-    "photo_permission": "Official public media (https://lunaspanail.com/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-244",
@@ -8150,22 +7010,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/hanz-sunset-spa-phu-quoc-massage-1.webp",
-      "/covers-photo/hanz-sunset-spa-phu-quoc-massage-2.webp",
-      "/covers-photo/hanz-sunset-spa-phu-quoc-massage-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "spa",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [코스 가격대] 발 마사지 60분 300,000~450,000 VND | 아로마/타이 전신 마사지 60분 450,000~750,000 VND / 90분 650,000~950,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0300428,
-    "lng": 104.0061434,
-    "media_note": "Image source: http://hanzsunsetspa.com/",
-    "photo_permission": "Official public media (http://hanzsunsetspa.com/)"
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-245",
@@ -8187,22 +7039,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/king-spa-massage-sunset-town-night-market-1.webp",
-      "/covers-photo/king-spa-massage-sunset-town-night-market-2.webp",
-      "/covers-photo/king-spa-massage-sunset-town-night-market-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "spa",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [코스 가격대] 발 마사지 60분 300,000~450,000 VND | 아로마/타이 전신 마사지 60분 450,000~750,000 VND / 90분 650,000~950,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0335374,
-    "lng": 104.0034065,
-    "media_note": "Image source: http://kingspaphuquoc.vn/",
-    "photo_permission": "Official public media (http://kingspaphuquoc.vn/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-246",
@@ -8214,7 +7058,7 @@
     "description_en": "SOLANA Spa Sunset Town Phú Quốc is a spa & massage center located in Sunset Town, Phu Quoc.",
     "description_ko": "전신·발 마사지 및 네일 케어.",
     "address": "Sunset town , Địa Trung Hải, A103 Amafi, Phú Quốc, An Giang 92513, Vietnam",
-    "google_maps_name": "SOLANA Spa Sunset Town Phú Quốc",
+    "google_maps_name": "솔라나 스파",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-yY2EeuVpzERZkC-0w4sM4A",
     "phone": "+84 866 565 628",
     "website_url": null,
@@ -8232,9 +7076,7 @@
     "_deleted_snippet": "• [코스 가격대] 발 마사지 60분 300,000~450,000 VND | 아로마/타이 전신 마사지 60분 450,000~750,000 VND / 90분 650,000~950,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
-    "name_en": "SOLANA Spa Sunset Town Phú Quốc",
-    "lat": 10.0340711,
-    "lng": 104.0037711
+    "name_en": "SOLANA Spa Sunset Town Phú Quốc"
   },
   {
     "id": "local-sunset-247",
@@ -8263,9 +7105,7 @@
     ],
     "_deleted_snippet": "• [코스 가격대] 발 마사지 60분 300,000~450,000 VND | 아로마/타이 전신 마사지 60분 450,000~750,000 VND / 90분 650,000~950,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.029954799999999,
-    "lng": 104.0063856
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-248",
@@ -8277,7 +7117,7 @@
     "description_en": "Miss Tiên Spa & Homestay Phu Quốc Sunset Town 按摩 is a spa & massage center located in Sunset Town, Phu Quoc.",
     "description_ko": "전신·발 마사지 및 네일 케어.",
     "address": "Căn 09 Positano Sunset Tower, Địa Trung Hải, Phú Quốc, An Giang 92500, Vietnam",
-    "google_maps_name": "Miss Tiên Spa & Homestay Phú Quốc Sunset Town",
+    "google_maps_name": "Miss Tiên Spa & Homestay Phu Quốc Sunset Town 按摩 마사지",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ7StT10WYdIERE7HOX3G1q7Q",
     "phone": "+84 907 890 905",
     "website_url": "https://misstienspa.com/",
@@ -8294,9 +7134,7 @@
     ],
     "_deleted_snippet": "• [코스 가격대] 발 마사지 60분 300,000~450,000 VND | 아로마/타이 전신 마사지 60분 450,000~750,000 VND / 90분 650,000~950,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.030357799999999,
-    "lng": 104.00629359999999
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-249",
@@ -8318,20 +7156,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.4,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunset-spa-phu-quoc-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "spa",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [코스 가격대] 발 마사지 60분 300,000~450,000 VND | 아로마/타이 전신 마사지 60분 450,000~750,000 VND / 90분 650,000~950,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0371504,
-    "lng": 104.0101392,
-    "media_note": "Image source: https://www.facebook.com/sunsetspa.anthoiphuquoc/",
-    "photo_permission": "Official public media (https://www.facebook.com/sunsetspa.anthoiphuquoc/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-250",
@@ -8353,22 +7185,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.4,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/em-spa-sunset-town-hair-wash-massage-body-foot-1.webp",
-      "/covers-photo/em-spa-sunset-town-hair-wash-massage-body-foot-2.webp",
-      "/covers-photo/em-spa-sunset-town-hair-wash-massage-body-foot-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "spa",
       "Sunset Town"
     ],
     "_deleted_snippet": "• [코스 가격대] 발 마사지 60분 300,000~450,000 VND | 아로마/타이 전신 마사지 60분 450,000~750,000 VND / 90분 650,000~950,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0296562,
-    "lng": 104.00848409999999,
-    "media_note": "Image source: https://phuquocparadise.com/",
-    "photo_permission": "Official public media (https://phuquocparadise.com/)"
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-251",
@@ -8397,9 +7221,7 @@
     ],
     "_deleted_snippet": "• [코스 가격대] 발 마사지 60분 300,000~450,000 VND | 아로마/타이 전신 마사지 60분 450,000~750,000 VND / 90분 650,000~950,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0310422,
-    "lng": 104.0071021
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-252",
@@ -8428,9 +7250,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0285625,
-    "lng": 104.0049375
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-253",
@@ -8459,9 +7279,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "포토존 -> 명소 중립화",
-    "lat": 10.029252699999999,
-    "lng": 104.0074202
+    "_deleted_claims": "포토존 -> 명소 중립화"
   },
   {
     "id": "local-sunset-254",
@@ -8490,9 +7308,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "포토존 -> 명소 중립화",
-    "lat": 10.0265838,
-    "lng": 104.00797709999999
+    "_deleted_claims": "포토존 -> 명소 중립화"
   },
   {
     "id": "local-sunset-255",
@@ -8514,20 +7330,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/kiss-bridge-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "attraction",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: Sun World Hon Thom 공식 예매처 실측 입장권 | https://honthom.sunworld.vn/",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0280346,
-    "lng": 104.00378719999999,
-    "media_note": "Image source: https://www.facebook.com/SunWorldHonThom",
-    "photo_permission": "Official public media (https://www.facebook.com/SunWorldHonThom)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-256",
@@ -8556,9 +7366,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "포토존 -> 명소 중립화",
-    "lat": 10.0300494,
-    "lng": 104.0077286
+    "_deleted_claims": "포토존 -> 명소 중립화"
   },
   {
     "id": "local-sunset-257",
@@ -8587,9 +7395,7 @@
     ],
     "_deleted_snippet": "• [가격대] 길거리 간식·꼬치·반미·해산물·과일주스·맥주 부스 30,000~250,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0356275,
-    "lng": 104.0031156
+    "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-258",
@@ -8601,7 +7407,7 @@
     "description_en": "키스 오브 더 씨 쇼 is an attraction & landmark located in Sunset Town, Phu Quoc.",
     "description_ko": "매일 저녁 21:00~21:30 공연(화요일 휴무 가능), 21:25경 대규모 고고도 해상 불꽃놀이 피날레 (접근성: 휠체어 이용 가능 출입구, 휠체어 이용가능 주차장, 휠체어 이용가능 화장실) • [티켓 가격] 스탠다드석 1,000,000 VND (온라인 사전예약/2인 커플권 구매 시 인당 약 650,000~850,000 VND) | VIP석 1,500,000~2,000,000 VND.",
     "address": "Sunset Town, Bãi Đất Đỏ, phường, Phú Quốc, An Giang, Vietnam",
-    "google_maps_name": "Kiss of the Sea Show - Nụ hôn của Biển Cả",
+    "google_maps_name": "키스 오브 더 씨 쇼",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJtSQ7ywmVpzERvzagy4sWZus",
     "phone": "+84 886 045 888",
     "website_url": "https://kissofthesea.com/",
@@ -8611,22 +7417,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunset-place-10-1.webp",
-      "/covers-photo/sunset-place-10-2.webp",
-      "/covers-photo/sunset-place-10-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "attraction",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 키스 오브 더 씨 쇼 공식 예매처 실측 티켓 | https://kissofthesea.com/ | [접근성]: Google Maps attributes (Place ID: ChIJtSQ7ywmVpzERvzagy4sWZus)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0276968,
-    "lng": 104.0060548,
-    "media_note": "Image source: https://kissofthesea.com/",
-    "photo_permission": "Official public media (https://kissofthesea.com/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-259",
@@ -8648,21 +7446,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunworld-hon-thom-hon-thom-cable-car-phu-quoc-1.webp",
-      "/covers-photo/sunworld-hon-thom-hon-thom-cable-car-phu-quoc-2.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "attraction",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: Sun World Hon Thom 공식 케이블카 요금표 | https://honthom.sunworld.vn/ | [접근성]: Google Maps attributes (Place ID: ChIJvxdKNoKWpzERAWSyG5rABsg)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.026972299999999,
-    "lng": 104.00723509999999,
-    "media_note": "Image source: https://honthom.sunworld.vn/",
-    "photo_permission": "Official public media (https://honthom.sunworld.vn/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-260",
@@ -8684,20 +7475,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/symphony-of-the-sea-show-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "attraction",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 선셋타운 공식 웹사이트 실측 공연 티켓 | https://sunsettown.com.vn/",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0289843,
-    "lng": 104.0061609,
-    "media_note": "Image source: https://www.facebook.com/SunWorldHonThom",
-    "photo_permission": "Official public media (https://www.facebook.com/SunWorldHonThom)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-261",
@@ -8719,22 +7504,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.2,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sun-signature-gallery-1.webp",
-      "/covers-photo/sun-signature-gallery-2.webp",
-      "/covers-photo/sun-signature-gallery-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "attraction",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "포토존 -> 명소 중립화 | 미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0304409,
-    "lng": 104.00689109999999,
-    "media_note": "Image source: https://sunsignaturegallery.com/",
-    "photo_permission": "Official public media (https://sunsignaturegallery.com/)"
+    "_deleted_claims": "포토존 -> 명소 중립화 | 미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-262",
@@ -8751,9 +7528,9 @@
     "phone": "+84 789 579 181",
     "website_url": null,
     "instagram_url": null,
-    "status": "review",
-    "verification_status": "manual_review",
-    "verification_note": "구글맵 영구 폐업(Permanently closed) 확인 — 비공개(review) 전환",
+    "status": "published",
+    "verification_status": "ai_checked",
+    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
     "gallery_urls": [],
@@ -8792,9 +7569,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0307205,
-    "lng": 104.00649639999999
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-264",
@@ -8806,7 +7581,7 @@
     "description_en": "Phu Quoc Laundry — Sunset Town, Phu Quoc.",
     "description_ko": "푸꾸옥 세탁소 — 선셋타운.",
     "address": "22J4+47P, Ấp 6, Phú Quốc, An Giang 92513, Vietnam",
-    "google_maps_name": "Phú Quốc Laundry (Giặt sấy)",
+    "google_maps_name": "Phú Quốc Laundry (Giặt sấy, 옷 세탁 및 건조)",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ3XnvB6WVpzERvfQlQF07n4c",
     "phone": "+84 989 939 960",
     "website_url": "https://www.facebook.com/share/7xWiKcSWhvJRgeJi/?mibextid=JRoKGi",
@@ -8823,9 +7598,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.032473999999999,
-    "lng": 104.0093385
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-265",
@@ -8854,9 +7627,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "포토존 -> 명소 중립화",
-    "lat": 10.0277098,
-    "lng": 104.0095542
+    "_deleted_claims": "포토존 -> 명소 중립화"
   },
   {
     "id": "local-sunset-266",
@@ -8885,9 +7656,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "포토존 -> 명소 중립화 | 미검증 휠체어 접근성 스펙 삭제",
-    "lat": 10.0289714,
-    "lng": 104.00642169999999
+    "_deleted_claims": "포토존 -> 명소 중립화 | 미검증 휠체어 접근성 스펙 삭제"
   },
   {
     "id": "local-sunset-267",
@@ -8909,20 +7678,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/exchange-money-sol-cosy-phu-quoc-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "attraction",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.036335399999999,
-    "lng": 104.0069754,
-    "media_note": "Image source: https://phuquoccurrencyexchange.com/",
-    "photo_permission": "Official public media (https://phuquoccurrencyexchange.com/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-268",
@@ -8939,9 +7702,9 @@
     "phone": "+84 93 965 5610 / +84 886 045 888",
     "website_url": "https://sunset-town.com/",
     "instagram_url": null,
-    "status": "review",
-    "verification_status": "manual_review",
-    "verification_note": "구글맵 독립 장소 핀 미존재 (이동 서비스 커스텀 ID) — 비공개(review) 전환",
+    "status": "published",
+    "verification_status": "ai_checked",
+    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
     "gallery_urls": [],
@@ -8980,9 +7743,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0285625,
-    "lng": 104.0083125
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-270",
@@ -9004,20 +7765,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/sunset-bazaar-phu-quoc-1.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "attraction",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "포토존 -> 명소 중립화",
-    "lat": 10.0294375,
-    "lng": 104.0071875,
-    "media_note": "Image source: https://www.facebook.com/SunsetBazaarPhuQuoc",
-    "photo_permission": "Official public media (https://www.facebook.com/SunsetBazaarPhuQuoc)"
+    "_deleted_claims": "포토존 -> 명소 중립화"
   },
   {
     "id": "local-sunset-271",
@@ -9046,9 +7801,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0311981,
-    "lng": 104.0062552
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-272",
@@ -9077,9 +7830,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "포토존 -> 명소 중립화",
-    "lat": 10.0298341,
-    "lng": 104.00833899999999
+    "_deleted_claims": "포토존 -> 명소 중립화"
   },
   {
     "id": "local-sunset-273",
@@ -9108,9 +7859,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0272951,
-    "lng": 104.0090891
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-274",
@@ -9122,7 +7871,7 @@
     "description_en": "Sunset Town Currency Exchange — 58 Amalfi, Sunset Town, Phu Quoc.",
     "description_ko": "선셋타운 환전소 — 선셋타운 아말피 거리 58번지.",
     "address": "A mafi 58. Sunsettown, Phú Quốc, An Giang 920000, Vietnam",
-    "google_maps_name": "Sunset Town Exchange",
+    "google_maps_name": "선셋타운 환전소(sunsettown exchange)",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJK4MK9QeXpzER3_XWA20nk4M",
     "phone": "+84 388 637 884",
     "website_url": null,
@@ -9139,9 +7888,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0289939,
-    "lng": 104.0083389
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-275",
@@ -9170,9 +7917,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "포토존 -> 명소 중립화",
-    "lat": 10.0281468,
-    "lng": 104.0071103
+    "_deleted_claims": "포토존 -> 명소 중립화"
   },
   {
     "id": "local-sunset-276",
@@ -9194,22 +7939,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.1,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/ao-may-phu-quoc-laundry-shoesspa-giat-say-nhanh-giat-hap-ve-sinh-giay-1.webp",
-      "/covers-photo/ao-may-phu-quoc-laundry-shoesspa-giat-say-nhanh-giat-hap-ve-sinh-giay-2.webp",
-      "/covers-photo/ao-may-phu-quoc-laundry-shoesspa-giat-say-nhanh-giat-hap-ve-sinh-giay-3.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "attraction",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0378466,
-    "lng": 104.01009839999999,
-    "media_note": "Image source: http://www.aomay.vn/",
-    "photo_permission": "Official public media (http://www.aomay.vn/)"
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-277",
@@ -9238,9 +7975,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0354681,
-    "lng": 104.0047262
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-278",
@@ -9269,9 +8004,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.027656799999999,
-    "lng": 104.0073166
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-279",
@@ -9300,9 +8033,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0356939,
-    "lng": 104.00309109999999
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-280",
@@ -9331,9 +8062,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0250817,
-    "lng": 104.01716479999999
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-281",
@@ -9362,9 +8091,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0306859,
-    "lng": 104.01474089999999
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-282",
@@ -9393,9 +8120,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.036431,
-    "lng": 104.0253525
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-283",
@@ -9424,9 +8149,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.03266,
-    "lng": 104.0173628
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-284",
@@ -9455,9 +8178,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.020944,
-    "lng": 104.017258
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-285",
@@ -9486,9 +8207,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0301332,
-    "lng": 104.01701279999999
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-286",
@@ -9517,9 +8236,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0276055,
-    "lng": 104.01704079999999
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-287",
@@ -9548,9 +8265,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.035903399999999,
-    "lng": 104.0177629
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-288",
@@ -9579,9 +8294,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.035788,
-    "lng": 104.024647
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-289",
@@ -9610,9 +8323,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.014685799999999,
-    "lng": 104.0117349
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-290",
@@ -9641,9 +8352,7 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0286105,
-    "lng": 104.0168714
+    "_deleted_claims": "(해당 없음)"
   },
   {
     "id": "local-sunset-291",
@@ -9672,8 +8381,6 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)",
-    "lat": 10.0201148,
-    "lng": 104.0165571
+    "_deleted_claims": "(해당 없음)"
   }
 ]

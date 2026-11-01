@@ -4,7 +4,6 @@ import { Logo } from '@/components/Logo'
 import Link from 'next/link'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
-import { HIDDEN_BUSINESS_SLUGS } from '@/lib/directory'
 import { SunsetIllustMap, type MapDataPayload } from '@/components/map/SunsetIllustMap'
 import { createPublicClient } from '@/lib/supabase/public'
 import baseMapJson from '@/data/sunset-illust-map-data.json'
@@ -58,9 +57,7 @@ export default async function MapPreviewPage({ params }: MapPreviewPageProps) {
 
   const publishedSlugs = new Set<string>()
   dbBusinesses.forEach((b: any) => {
-    if (b.slug && !HIDDEN_BUSINESS_SLUGS.has(b.slug)) {
-      publishedSlugs.add(b.slug)
-    }
+    publishedSlugs.add(b.slug)
   })
 
   // 2. 보조 정적 JSON 데이터와 DB published 목록 순수 결합

@@ -1,5 +1,3 @@
-import { JsonLd } from '@/components/JsonLd'
-import { withKeyword } from '@/lib/seo/meta'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { Logo } from '@/components/Logo'
@@ -239,24 +237,21 @@ export async function generateAboutMetadata(locale: Locale = 'en'): Promise<Meta
   const barePath = '/about'
   const canonicalUrl = localeUrl(locale, barePath)
   const alternates = buildAlternates(barePath)
-  const aboutDesc = withKeyword(content.seoDesc, locale)
 
   return {
     title: content.seoTitle,
-    description: aboutDesc,
+    description: content.seoDesc,
     alternates: {
       canonical: canonicalUrl,
       languages: alternates.languages,
     },
     openGraph: {
       title: content.seoTitle,
-      description: aboutDesc,
+      description: content.seoDesc,
       url: canonicalUrl,
-      siteName: 'My Phu Quoc',
       locale: ogLocaleFor(locale),
       type: 'website',
     },
-    twitter: { card: 'summary', title: content.seoTitle, description: aboutDesc },
   }
 }
 
@@ -273,6 +268,7 @@ export function renderAboutRoute(locale: Locale = 'en') {
       '@type': 'Organization',
       name: 'My Phu Quoc',
       url: baseUrl,
+      logo: `${baseUrl}/logo.png`,
       description: content.seoDesc,
       email: content.contactEmail,
     },
@@ -305,7 +301,10 @@ export function renderAboutRoute(locale: Locale = 'en') {
 
   return (
     <main className="aboutPageRoot">
-      <JsonLd data={structuredData} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
       <header className="detailNav">
         <Logo locale={locale} />
         <div className="detailNavRight">

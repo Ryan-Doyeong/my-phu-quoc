@@ -1,24 +1,4 @@
-import rawSunsetTownHotels from '@/data/sunset_town_hotels.json'
-import rawKhemBeachHotels from '@/data/khem_beach_hotels.json'
-import rawHotelInsights from '@/data/hotel_insights.json'
-
-export interface HotelInsight {
-  googleMapsUrl?: string
-  location?: string
-  view?: string
-  condition?: string
-  staff?: string
-  pros?: string[]
-  cons?: string[]
-}
-
-export type HotelInsightsMap = Record<string, HotelInsight>
-
-export const HOTEL_INSIGHTS: HotelInsightsMap = rawHotelInsights as HotelInsightsMap
-
-export function getHotelInsight(slug: string): HotelInsight | undefined {
-  return HOTEL_INSIGHTS[slug]
-}
+import rawHotelData from '@/data/sunset_town_hotels.json'
 
 export interface HotelRoom {
   name: string
@@ -26,6 +6,7 @@ export interface HotelRoom {
   bed?: string
   view?: string
   features?: string
+  photo?: string
 }
 
 export interface HotelSubRatings {
@@ -53,28 +34,12 @@ export interface LandmarkDistance {
   distance: string
 }
 
-export interface HotelReviewQuote {
-  text: string
-  source: string
-}
-
-export type HotelArea = 'sunset-town' | 'khem-beach'
-export type HotelTier = 'top' | 'recommended' | 'standard'
-
 export interface HotelItem {
   slug: string
   hotelId: string
   name_ko: string
   name_en: string
-  /** Localized display name set by localizeHotel (ko: name_ko, others: name_en). */
-  displayName?: string
   star: number
-  officialStar?: number | null
-  area?: HotelArea
-  tier?: HotelTier
-  driveMinutesToSunsetTown?: number | string
-  driveMinutesNote?: string
-  order?: number
   rating: number
   reviewsCount: number
   subRatings?: HotelSubRatings
@@ -82,12 +47,7 @@ export interface HotelItem {
   address: string
   landmarks?: LandmarkDistance[]
   summary: string
-  summary_en?: string
-  summary_zh?: string
-  summary_ja?: string
-  summary_ru?: string
-  summary_vi?: string
-  agodaRawDescription?: string
+  description: string
   isAiGeneratedIntro?: boolean
   coreFacilities: string[]
   facilityCategories?: FacilityCategory[]
@@ -103,48 +63,18 @@ export interface HotelItem {
   photos: string[]
   agodaUrl: string
   isFeatured?: boolean
-  badgeText?: string
+  strengths?: string[]
   highlightSummary?: string
-  reviewHighlight?: string
-  reviewPros?: string[]
-  reviewQuote?: HotelReviewQuote
-  googleRating?: number
-  googleReviewsCount?: number
   googleReviews?: HotelGoogleReview[]
   unverified?: string[]
-  insight?: HotelInsight
-  googleMapsUrl?: string
-}
-
-function mapHotelItem(raw: any, defaultArea: HotelArea): HotelItem {
-  const insight = HOTEL_INSIGHTS[raw.slug]
-  return {
-    ...raw,
-    area: raw.area || defaultArea,
-    insight,
-    googleMapsUrl: insight?.googleMapsUrl || raw.googleMapsUrl,
-  }
-}
-
-export function getSunsetTownHotels(): HotelItem[] {
-  return (rawSunsetTownHotels.hotels as any[]).map(h => mapHotelItem(h, 'sunset-town'))
-}
-
-export function getKhemBeachHotels(): HotelItem[] {
-  return (rawKhemBeachHotels.hotels as any[]).map(h => mapHotelItem(h, 'khem-beach'))
 }
 
 export function getAllHotels(): HotelItem[] {
-  return [...getSunsetTownHotels(), ...getKhemBeachHotels()]
-}
-
-export function getHotelsByArea(area: HotelArea): HotelItem[] {
-  if (area === 'khem-beach') return getKhemBeachHotels()
-  return getSunsetTownHotels()
+  return (rawHotelData.hotels as unknown) as HotelItem[]
 }
 
 export function getFeaturedHotel(): HotelItem | undefined {
-  return getAllHotels().find(h => h.isFeatured || h.tier === 'recommended')
+  return getAllHotels().find(h => h.isFeatured)
 }
 
 export function getHotelBySlug(slug: string): HotelItem | undefined {
