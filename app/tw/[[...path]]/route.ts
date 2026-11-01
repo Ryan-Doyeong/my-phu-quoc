@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
+// @ts-ignore
 import { Converter } from 'opencc-js/cn2t'
 import { SITE_URL } from '@/lib/supabase/config'
 
