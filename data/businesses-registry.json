@@ -9423,8 +9423,8 @@
     "category": "hotels",
     "subcategory": "boutique_hotel",
     "google_place_id": "ChIJ_coastal_living_phuquoc",
-    "description_en": "Coastal Living Hotel Phu Quoc is a 2025 newly built boutique hotel in Sunset Town.",
-    "description_ko": "2025년 신축, 평점 9.5의 선셋타운 감성 부티크 호텔.",
+    "description_en": "Boutique hotel in Sunset Town along Positano Street with high cleanliness and a 9.5 rating.",
+    "description_ko": "선셋타운 포지타노 거리에 위치한 감성 부티크 호텔. 청결한 시설과 평점 9.5의 높은 만족도.",
     "address": "17 Positano, An Thới, Phú Quốc, Kiên Giang, Vietnam",
     "google_maps_name": "Coastal Living Hotel Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Coastal+Living+Hotel+Phu+Quoc",
@@ -9446,8 +9446,7 @@
     "tags": [
       "boutique_hotel",
       "Sunset Town",
-      "Ocean View",
-      "New 2025"
+      "Ocean View"
     ],
     "_deleted_snippet": "",
     "_source_citation": "Agoda verified",
