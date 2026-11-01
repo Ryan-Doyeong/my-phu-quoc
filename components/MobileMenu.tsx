@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { DIRECTORY_CATEGORY_KEYS, categoryLabel } from '@/lib/directory'
+import { DIRECTORY_CATEGORY_KEYS, getCategoryPublishedCount, categoryLabel } from '@/lib/directory'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
 
@@ -38,9 +38,15 @@ export function MobileMenu({ locale = 'en' }: { locale?: Locale }) {
           {KHEM_MENU_LABELS[locale] || KHEM_MENU_LABELS.en}
         </Link>
         <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
-        {DIRECTORY_CATEGORY_KEYS.map((key) => (
+        {DIRECTORY_CATEGORY_KEYS.filter((key) => getCategoryPublishedCount(key) > 0).map((key) => (
           <Link
-            href={key === 'hotels' ? localePath(locale, '/hotels') : localePath(locale, `/directory/${key}`)}
+            href={
+              key === 'hotels'
+                ? localePath(locale, '/hotels')
+                : key === 'activities'
+                ? localePath(locale, '/activities')
+                : localePath(locale, `/directory/${key}`)
+            }
             key={key}
           >
             {categoryLabel(key, locale)}

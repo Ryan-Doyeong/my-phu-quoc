@@ -6,7 +6,7 @@ import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { MobileMenu } from '@/components/MobileMenu'
 import Link from 'next/link'
 import { localePath, type Locale } from '@/lib/i18n/config'
-import { DIRECTORY_CATEGORY_KEYS, categoryLabel, HIDDEN_BUSINESS_SLUGS } from '@/lib/directory'
+import { DIRECTORY_CATEGORY_KEYS, getCategoryPublishedCount, categoryLabel, HIDDEN_BUSINESS_SLUGS } from '@/lib/directory'
 import { getDictionary } from '@/lib/i18n/dictionaries'
 import { createPublicClient } from '@/lib/supabase/public'
 import baseMapJson from '@/data/sunset-illust-map-data.json'
@@ -192,9 +192,9 @@ export default async function MapPage({ params }: MapPageProps) {
           <Link href={localePath(locale, '/map')} style={{ color: '#C86D2D', fontWeight: 800 }}>
             🗺️ {isKo ? '선셋타운 지도' : 'Town Map'}
           </Link>
-          {DIRECTORY_CATEGORY_KEYS.slice(0, 5).map((key) => (
+          {DIRECTORY_CATEGORY_KEYS.filter((key) => getCategoryPublishedCount(key) > 0).slice(0, 5).map((key) => (
             <Link
-              href={key === 'hotels' ? localePath(locale, '/hotels') : localePath(locale, `/directory/${key}`)}
+              href={key === 'hotels' ? localePath(locale, '/hotels') : key === 'activities' ? localePath(locale, '/activities') : localePath(locale, `/directory/${key}`)}
               key={key}
             >
               {categoryLabel(key, locale)}

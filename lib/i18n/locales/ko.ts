@@ -98,7 +98,7 @@ export const ko = {
     impactBarDesc: '지역 돌봄, 자원봉사, 동네 이니셔티브 — 우리 동네가 이웃과 나누는 이야기와 소식을 확인하세요.',
     discoverEyebrow: '푸꾸옥 로컬 생활 탐색',
     discoverTitle: '오늘 필요한 것부터 찾아보세요.',
-    discoverDesc: '카테고리를 선택한 뒤 마사지·필라테스부터 일식·브런치·생활 서비스까지 원하는 조건으로 동네 공간을 살펴보세요.',
+    discoverDesc: '카테고리를 선택한 뒤 마사지·필라테스부터 일식·브런치까지 원하는 조건으로 동네 공간을 살펴보세요.',
     exploreCategory: (label: string) => `${label} 둘러보기 →`,
     storiesEyebrow: '지역 생활 정보',
     storiesTitle: '뉴스, 생활 가이드 & 스토리',

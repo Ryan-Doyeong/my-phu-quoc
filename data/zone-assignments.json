@@ -54,7 +54,7 @@
     "google_place_id": "ChIJk0mFcgCVpzERf3VayqKU9Ug",
     "name": "한국관 BBQ 하우스 포 유 (Korean BBQ House)",
     "zone": "sunset-town",
-    "public_category": "hotels",
+    "public_category": "beaches",
     "service_areas": [
       "sunset-town"
     ]
@@ -154,7 +154,7 @@
     "google_place_id": "ChIJlXfNAn-VpzERPevvIKQTJiM",
     "name": "스타벅스 비치 하우스 선셋타운점 (Starbucks Beach House Sun Primavera)",
     "zone": "sunset-town",
-    "public_category": "hotels",
+    "public_category": "beaches",
     "service_areas": [
       "sunset-town"
     ]
@@ -1044,7 +1044,7 @@
     "google_place_id": "ChIJdy0S10CVpzERjeJJwHTOH7s",
     "name": "더 갱스 선셋 (The Gangs Sunset - 해산물 & 크래프트 비어)",
     "zone": "sunset-town",
-    "public_category": "dining",
+    "public_category": "beaches",
     "service_areas": [
       "sunset-town"
     ]
@@ -1104,7 +1104,7 @@
     "google_place_id": "ChIJgbE4kXGVpzERZ8C1U29WbHA",
     "name": "카페 루남 푸꾸옥 (Café RuNam Phú Quốc - Hexagonal House)",
     "zone": "sunset-town",
-    "public_category": "dining",
+    "public_category": "beaches",
     "service_areas": [
       "sunset-town"
     ]
@@ -1114,7 +1114,7 @@
     "google_place_id": "ChIJexQHMSaVpzERSr6zIxWjYDs",
     "name": "라군 BBQ & 베트남 퀴진 (Lagoon BBQ & Vietnamese Cuisine)",
     "zone": "sunset-town",
-    "public_category": "dining",
+    "public_category": "beaches",
     "service_areas": [
       "sunset-town"
     ]
@@ -1134,7 +1134,7 @@
     "google_place_id": "ChIJzUpxDmWXpzER9_x5dGSKcdM",
     "name": "껌니우 비엣 선셋타운 (Nhà hàng Cơm Niêu Việt - 베트남 돌솥밥)",
     "zone": "sunset-town",
-    "public_category": "dining",
+    "public_category": "beaches",
     "service_areas": [
       "sunset-town"
     ]
@@ -1324,7 +1324,7 @@
     "google_place_id": "ChIJqSNX-FuLpzERVHIK_K9q4ac",
     "name": "Yushima Japanese Restaurant",
     "zone": "sunset-town",
-    "public_category": "dining",
+    "public_category": "beaches",
     "service_areas": [
       "sunset-town"
     ]
@@ -1384,7 +1384,7 @@
     "google_place_id": "ChIJNcEJoqmXpzERV_7N3lFq9sM",
     "name": "Green Tree Buffet SeaFood",
     "zone": "sunset-town",
-    "public_category": "dining",
+    "public_category": "beaches",
     "service_areas": [
       "sunset-town"
     ]
@@ -1714,7 +1714,7 @@
     "google_place_id": "ChIJAwwqc2yVpzER_4K_0feO5I8",
     "name": "선 바바리아 가스트로펍 (Sun Bavaria GastroPub - Sun KraftBeer)",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "beaches",
     "service_areas": [
       "sunset-town"
     ]
@@ -1734,7 +1734,7 @@
     "google_place_id": "ChIJ4-08StuXpzERjwmUJihXMSM",
     "name": "드래프트 비어 선셋타운 (Draft Beer Sunset Town Phú Quốc)",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "beaches",
     "service_areas": [
       "sunset-town"
     ]
@@ -1744,7 +1744,7 @@
     "google_place_id": "ChIJgdPeM-6VpzERp4qCP5Rftfc",
     "name": "테아트로 클럽 푸꾸옥 (Teatro Club Phú Quốc)",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "beaches",
     "service_areas": [
       "sunset-town"
     ]
@@ -1764,7 +1764,7 @@
     "google_place_id": "ChIJw0KgNACVpzERw5KrYRFhYrk",
     "name": "Loop Jacuzzi Bar",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "beaches",
     "service_areas": [
       "sunset-town"
     ]
@@ -1774,7 +1774,7 @@
     "google_place_id": "ChIJWemJxp-XpzER7U_LSFAw2FI",
     "name": "Hiên Nhà Veranda Sunset Town Phú Quốc",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "beaches",
     "service_areas": [
       "sunset-town"
     ]
@@ -3134,7 +3134,7 @@
     "google_place_id": "ChIJ_UwInh-XpzERL3bKuuPz_sw",
     "name": "드래프트 비어 바이켐",
     "zone": "khem-beach",
-    "public_category": "bars",
+    "public_category": "beaches",
     "service_areas": [
       "khem-beach"
     ]
@@ -3144,7 +3144,7 @@
     "google_place_id": "ChIJMwe2gsuXpzERYM-EJba18Po",
     "name": "앤 시푸드 레스토랑",
     "zone": "khem-beach",
-    "public_category": "dining",
+    "public_category": "beaches",
     "service_areas": [
       "khem-beach"
     ]
@@ -3154,7 +3154,7 @@
     "google_place_id": "ChIJo_k30uyXpzERwwH_mtvJ1aQ",
     "name": "이스탄불 비치클럽 푸꾸옥",
     "zone": "khem-beach",
-    "public_category": "bars",
+    "public_category": "beaches",
     "service_areas": [
       "khem-beach"
     ]
@@ -3164,7 +3164,7 @@
     "google_place_id": "ChIJA6Ns_eOXpzEReRCODKQQ3S8",
     "name": "카이선 레스토랑 & 바",
     "zone": "khem-beach",
-    "public_category": "bars",
+    "public_category": "beaches",
     "service_areas": [
       "khem-beach"
     ]
@@ -3174,7 +3174,7 @@
     "google_place_id": "ChIJNfSPMQaXpzEREMCGeU9aXEI",
     "name": "더 덱 푸꾸옥 (키친 & 비치바)",
     "zone": "khem-beach",
-    "public_category": "bars",
+    "public_category": "beaches",
     "service_areas": [
       "khem-beach"
     ]
@@ -3194,7 +3194,7 @@
     "google_place_id": "ChIJc94dJtyXpzERBMOqu0G8zDE",
     "name": "타잉 응아 꽌",
     "zone": "khem-beach",
-    "public_category": "dining",
+    "public_category": "beaches",
     "service_areas": [
       "khem-beach"
     ]

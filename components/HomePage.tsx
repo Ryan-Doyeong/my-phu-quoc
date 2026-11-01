@@ -17,6 +17,7 @@ import { SunsetTownMap } from '@/components/SunsetTownMapClient'
 import {
   DIRECTORY_CATEGORIES,
   DIRECTORY_CATEGORY_KEYS,
+  getCategoryPublishedCount,
   categoryLabel,
   categoryEyebrow,
   categoryDescription,
@@ -900,15 +901,21 @@ export function HomePage({
               </div>
             </div>
             <div className="categoryCards categoryCardsFive">
-              {DIRECTORY_CATEGORY_KEYS.map((key) => {
+              {DIRECTORY_CATEGORY_KEYS.filter((key) => getCategoryPublishedCount(key) > 0).map((key) => {
                 const c = DIRECTORY_CATEGORIES[key]
                 const icon = categoryAppearance[key]
                 const locLabel = categoryLabel(key, locale)
                 const locEyebrow = categoryEyebrow(key, locale)
                 const locDesc = categoryDescription(key, locale)
+                const href =
+                  key === 'hotels'
+                    ? localePath(locale, '/hotels')
+                    : key === 'activities'
+                    ? localePath(locale, '/activities')
+                    : localePath(locale, `/directory/${key}`)
                 return (
                   <Link
-                    href={localePath(locale, `/directory/${key}`)}
+                    href={href}
                     key={key}
                     data-analytics-type="category"
                     data-analytics-id={key}

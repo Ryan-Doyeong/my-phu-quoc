@@ -31,7 +31,7 @@ export async function generateDirectoryMetadata(
   locale: Locale = 'en'
 ): Promise<Metadata> {
   const category = normalizeDirectoryCategory(rawCategory)
-  if (category === 'hotels') {
+  if (category === 'hotels' || category === 'activities') {
     return {
       robots: { index: false, follow: false },
     }
@@ -72,6 +72,9 @@ export async function renderDirectoryRoute(
   if (category === 'hotels') {
     redirect(locale === 'en' ? '/hotels' : `/${locale}/hotels`)
   }
+  if (category === 'activities') {
+    redirect(locale === 'en' ? '/activities' : `/${locale}/activities`)
+  }
   if (!isDirectoryCategory(category)) notFound()
   const dict = getDictionary(locale)
   const label = categoryLabel(category, locale)
@@ -104,7 +107,7 @@ export async function renderDirectoryRoute(
   // Merge registry and verified Khem Beach data mapped to public 10 categories
   const combinedRegistry = [
     ...(businessesRegistry as any[])
-      .filter((b) => b.status === 'published' && !isHiddenBusiness(b))
+      .filter((b) => (!b.status || b.status === 'published') && !isHiddenBusiness(b))
       .map((b) => {
         const a = assignments[b.id]
         return {
@@ -131,23 +134,27 @@ export async function renderDirectoryRoute(
     (b) => b.zone === 'khem-beach' && b.public_category === category
   )
 
-  const enrichedData = (data || []).map((b: any) => {
-    const reg = registryBySlug.get(b.slug)
-    if (!reg) return b
-    return {
-      ...b,
-      lat: reg.lat ?? b.lat,
-      lng: reg.lng ?? b.lng,
-      google_place_id: reg.google_place_id ?? b.google_place_id,
-      google_maps_name: reg.google_maps_name ?? b.google_maps_name,
-      gallery_urls:
-        Array.isArray(reg.gallery_urls) && reg.gallery_urls.length > 0
-          ? reg.gallery_urls
-          : b.gallery_urls,
-      media_note: reg.media_note ?? b.media_note,
-      photo_permission: reg.photo_permission ?? b.photo_permission,
-    }
-  })
+  const enrichedData = (data || [])
+    .map((b: any) => {
+      const reg = registryBySlug.get(b.slug)
+      if (!reg) return b
+      return {
+        ...b,
+        status: reg.status ?? b.status,
+        category: reg.category ?? b.category,
+        lat: reg.lat ?? b.lat,
+        lng: reg.lng ?? b.lng,
+        google_place_id: reg.google_place_id ?? b.google_place_id,
+        google_maps_name: reg.google_maps_name ?? b.google_maps_name,
+        gallery_urls:
+          Array.isArray(reg.gallery_urls) && reg.gallery_urls.length > 0
+            ? reg.gallery_urls
+            : b.gallery_urls,
+        media_note: reg.media_note ?? b.media_note,
+        photo_permission: reg.photo_permission ?? b.photo_permission,
+      }
+    })
+    .filter((b: any) => b.category === category && (!b.status || b.status === 'published') && !isHiddenBusiness(b))
 
   const items = [
     ...(enrichedData.length > 0 && !['beaches', 'transport'].includes(category)

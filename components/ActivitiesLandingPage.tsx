@@ -4,6 +4,7 @@ import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
+import { MAIN_ZONES, SUNSET_BEACH_NOTICE_TEXT } from '@/lib/zones'
 import { ActivityYachtSection } from '@/components/ActivityYachtSection'
 
 interface ActivitiesLandingPageProps {
@@ -213,12 +214,30 @@ export function ActivitiesLandingPage({ locale = 'ko' }: ActivitiesLandingPagePr
           <p className="activitiesSubtitle">
             {t.subtitle}
           </p>
-          <div className="activitiesNoticeTag">
-            <span className="noticeDot" />
-            <span>
-              {t.notice}
-            </span>
-          </div>
+        </div>
+
+        <div
+          className="zoneNoteBanner amberNotice"
+          style={{
+            marginTop: '0',
+            marginBottom: '20px',
+            padding: '13px 16px',
+            fontSize: '13.5px',
+            lineHeight: 1.6,
+            display: 'flex',
+            flexWrap: 'wrap',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            gap: '8px 16px',
+          }}
+        >
+          <span>ℹ️ {SUNSET_BEACH_NOTICE_TEXT[locale] || SUNSET_BEACH_NOTICE_TEXT.en}</span>
+          <Link
+            href={localePath(locale, '/zones/khem-beach')}
+            style={{ color: '#0B7A8A', fontWeight: 700, textDecoration: 'underline', whiteSpace: 'nowrap' }}
+          >
+            {MAIN_ZONES['khem-beach'].ctaButton[locale] || MAIN_ZONES['khem-beach'].ctaButton.en}
+          </Link>
         </div>
 
         <ActivityYachtSection locale={locale} />

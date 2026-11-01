@@ -131,6 +131,8 @@ export async function generateBusinessMetadata(
   if (regItem) {
     b = {
       ...b,
+      status: regItem.status ?? b.status,
+      category: regItem.category ?? b.category,
       lat: regItem.lat ?? b.lat,
       lng: regItem.lng ?? b.lng,
       google_place_id: regItem.google_place_id ?? b.google_place_id,
@@ -143,6 +145,7 @@ export async function generateBusinessMetadata(
       photo_permission: regItem.photo_permission ?? b.photo_permission,
     }
   }
+  if (isHiddenBusiness(b)) return {}
 
   const rawDesc = selectBusinessDescription(b, locale)
   const isKhemBiz = b.zone === 'khem-beach' || (b.id && String(b.id).startsWith('khem-'))
@@ -247,6 +250,8 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
   if (regItem) {
     b = {
       ...b,
+      status: regItem.status ?? b.status,
+      category: regItem.category ?? b.category,
       lat: regItem.lat ?? b.lat,
       lng: regItem.lng ?? b.lng,
       google_place_id: regItem.google_place_id ?? b.google_place_id,
@@ -259,6 +264,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
       photo_permission: regItem.photo_permission ?? b.photo_permission,
     }
   }
+  if (isHiddenBusiness(b)) notFound()
 
   const photos = (b.gallery_urls || []).length
     ? b.gallery_urls
@@ -312,6 +318,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
       b.category === 'food' ||
       b.category === 'cafe' ||
       b.category === 'bars' ||
+      (b.category === 'beaches' && b.subcategory !== 'beach') ||
       Boolean(menuData))
 
   const foodGuide = isDiningOrFood ? getFoodGuideForBusiness(b, menuData) : null
@@ -375,6 +382,10 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
               </Link>
             ) : b.category === 'hotels' ? (
               <Link href={localePath(locale, '/hotels')}>
+                {dict.business.backTo(catLabel)}
+              </Link>
+            ) : b.category === 'activities' ? (
+              <Link href={localePath(locale, '/activities')}>
                 {dict.business.backTo(catLabel)}
               </Link>
             ) : (

@@ -5,6 +5,7 @@
  */
 
 import type { Locale } from '@/lib/i18n/config'
+import { getZoneCategoryPublishedCount } from '@/lib/directory'
 import zoneAssignmentsJson from '@/data/zone-assignments.json'
 
 export type MainZoneSlug = 'sunset-town' | 'khem-beach'
@@ -85,13 +86,13 @@ export const MAIN_ZONES: Record<MainZoneSlug, MainZoneInfo> = {
       vi: 'Khu vực Cầu Hôn, show pháo hoa Kiss of the Sea, cáp treo và chợ đêm VuiFest.',
     },
     homeDescription: {
-      ko: '선셋타운 중심 시설 251곳(식당·카페·호텔)과 안터이 인근 생활편의 40곳 (약국·은행 등)이 연결된 저녁·야경 중심 구역입니다.',
-      en: 'An area focused on evenings and night views, connecting 251 venues (restaurants, cafés, and hotels) in central Sunset Town with 40 nearby essential services (such as pharmacies and banks) in An Thoi.',
-      zh: '这是一个以傍晚活动和夜景为主的区域，连接日落小镇中心的251处设施（餐厅、咖啡馆和酒店）与安泰附近的40处生活便民设施（如药房、银行等）。',
-      ru: 'Район вечернего отдыха и ночных видов, объединяющий 251 объект в центре Сансет-Тауна (рестораны, кафе и отели) и 40 объектов повседневной инфраструктуры поблизости от Ан Тхоя (в том числе аптеки и банки).',
-      ja: 'サンセットタウン中心部の251施設（レストラン・カフェ・ホテル）と、アントイ周辺の生活利便施設40か所（薬局・銀行など）がつながる、夕方と夜景が中心のエリアです。',
-      hi: 'यह शाम और रात के नज़ारों के लिए प्रमुख क्षेत्र है, जो सनसेट टाउन के केंद्र में स्थित 251 स्थानों (रेस्तराँ, कैफ़े और होटल) को आन थोई के आसपास की 40 दैनिक सुविधा सेवाओं (जैसे फ़ार्मेसी और बैंक) से जोड़ता है।',
-      vi: 'Khu vực trọng điểm kết nối 251 cơ sở trung tâm Thị trấn Hoàng Hôn và 40 điểm tiện ích An Thới lân cận.',
+      ko: '선셋타운 중심 시설 215곳(식당·카페·호텔)이 모인 저녁·야경 중심 구역입니다.',
+      en: 'An area focused on evenings and night views, featuring 215 venues (restaurants, cafés, and hotels) in central Sunset Town.',
+      zh: '这是一个以傍晚活动和夜景为主的区域，汇聚日落小镇中心的215处设施（餐厅、咖啡馆和酒店）。',
+      ru: 'Район вечернего отдыха и ночных видов, объединяющий 215 объектов в центре Сансет-Тауна (рестораны, кафе и отели).',
+      ja: 'サンセットタウン中心部の215施設（レストラン・カフェ・ホテル）が集まる、夕方と夜景が中心のエリアです。',
+      hi: 'यह शाम और रात के नज़ारों के लिए प्रमुख क्षेत्र है, जहाँ सनसेट टाउन के केंद्र में 215 स्थान (रेस्तराँ, कैफ़े और होटल) स्थित हैं।',
+      vi: 'Khu vực trọng điểm quy tụ 215 cơ sở trung tâm Thị trấn Hoàng Hôn.',
     },
     overview: {
       ko: '선셋타운은 일몰 감상 지점과 야시장, 불꽃쇼 공연장이 있는 저녁·야경 중심 구역입니다.',
@@ -221,35 +222,27 @@ export const MAIN_ZONES: Record<MainZoneSlug, MainZoneInfo> = {
       },
     ],
     categories: [
-      { icon: '🍽️', name: { ko: '식당', en: 'Dining', zh: '餐饮', ru: 'Рестораны', ja: 'グルメ', hi: 'भोजन', vi: 'Ẩm thực' }, count: 55, categoryKey: 'dining' },
-      { icon: '🍹', name: { ko: '카페 & 바', en: 'Cafe & Bars', zh: '咖啡馆与酒吧', ru: 'Кафе и бары', ja: 'カフェ＆バー', hi: 'कैफ़े और बार', vi: 'Quán cà phê & Bar' }, count: 35, categoryKey: 'bars' },
-      { icon: '🏨', name: { ko: '호텔', en: 'Hotels', zh: '酒店', ru: 'Отели', ja: 'ホテル', hi: 'होटल', vi: 'Khách sạn' }, count: 85, categoryKey: 'hotels' },
-      { icon: '🛍️', name: { ko: '쇼핑', en: 'Shopping', zh: '购物', ru: 'Шопинг', ja: 'ショッピング', hi: 'खरीदारी', vi: 'Mua sắm' }, count: 15, categoryKey: 'shopping' },
-      { icon: '✦', name: { ko: '스파', en: 'Spa', zh: '水疗', ru: 'Спа', ja: 'スパ', hi: 'स्पा', vi: 'Spa & Wellness' }, count: 29, categoryKey: 'wellness' },
-      { icon: '🎡', name: { ko: '액티비티', en: 'Activities', zh: '活动与体验', ru: 'Активности', ja: 'アクティビティ', hi: 'गतिविधियाँ', vi: 'Điểm tham quan & Hoạt động' }, count: 13, categoryKey: 'activities' },
-      { icon: '🏖️', name: { ko: '해변', en: 'Beach', zh: '海滩', ru: 'Пляж', ja: 'ビーチ', hi: 'समुद्र तट', vi: 'Bãi biển' }, count: 0, categoryKey: 'beaches' },
-      { icon: '🏦', name: { ko: '환전·ATM·은행', en: 'Currency & ATM', zh: '兑换与ATM', ru: 'Обмен и банкоматы', ja: '両替・ATM・銀行', hi: 'मुद्रा विनिमय व एटीएम', vi: 'Đổi tiền & ATM' }, count: 8, categoryKey: 'banking' },
-      { icon: '🧭', name: { ko: '생활편의', en: 'Essentials', zh: '便民设施', ru: 'Полезные сервисы', ja: '生活便利', hi: 'आवश्यक सेवाएँ', vi: 'Tiện ích' }, count: 8, categoryKey: 'essentials' },
-      { icon: '🚖', name: { ko: '이동·교통', en: 'Transport', zh: '交通出行', ru: 'Транспорт', ja: '交通・アクセス', hi: 'यातायात', vi: 'Di chuyển' }, count: 3, categoryKey: 'transport' },
+      { icon: '🍽️', name: { ko: '식당', en: 'Dining', zh: '餐饮', ru: 'Рестораны', ja: 'グルメ', hi: 'भोजन', vi: 'Ẩm thực' }, count: getZoneCategoryPublishedCount('sunset-town', 'dining'), categoryKey: 'dining' },
+      { icon: '🍹', name: { ko: '카페 & 바', en: 'Cafe & Bars', zh: '咖啡馆与酒吧', ru: 'Кафе и бары', ja: 'カフェ＆バー', hi: 'कैफ़े और बार', vi: 'Quán cà phê & Bar' }, count: getZoneCategoryPublishedCount('sunset-town', 'bars'), categoryKey: 'bars' },
+      { icon: '🏖️', name: { ko: '비치', en: 'Beach', zh: '海滩', ru: 'Пляж', ja: 'ビーチ', hi: 'समुद्र तट', vi: 'Bãi biển' }, count: getZoneCategoryPublishedCount('sunset-town', 'beaches'), categoryKey: 'beaches' },
+      { icon: '🏨', name: { ko: '호텔', en: 'Hotels', zh: '酒店', ru: 'Отели', ja: 'ホテル', hi: 'होटल', vi: 'Khách sạn' }, count: getZoneCategoryPublishedCount('sunset-town', 'hotels'), categoryKey: 'hotels' },
+      { icon: '🛍️', name: { ko: '쇼핑', en: 'Shopping', zh: '购物', ru: 'Шопинг', ja: 'ショッピング', hi: 'खरीदारी', vi: 'Mua sắm' }, count: getZoneCategoryPublishedCount('sunset-town', 'shopping'), categoryKey: 'shopping' },
+      { icon: '✦', name: { ko: '스파', en: 'Spa', zh: '水疗', ru: 'Спа', ja: 'スパ', hi: 'स्पा', vi: 'Spa & Wellness' }, count: getZoneCategoryPublishedCount('sunset-town', 'wellness'), categoryKey: 'wellness' },
+      { icon: '🏦', name: { ko: '환전·ATM·은행', en: 'Currency & ATM', zh: '兑换与ATM', ru: 'Обмен и банкоматы', ja: '両替・ATM・銀行', hi: 'मुद्रा विनिमय व एटीएम', vi: 'Đổi tiền & ATM' }, count: getZoneCategoryPublishedCount('sunset-town', 'banking'), categoryKey: 'banking' },
+      { icon: '🎡', name: { ko: '액티비티', en: 'Activities', zh: '活动与体验', ru: 'Активности', ja: 'アクティビティ', hi: 'गतिविधियाँ', vi: 'Điểm tham quan & Hoạt động' }, count: getZoneCategoryPublishedCount('sunset-town', 'activities'), categoryKey: 'activities' },
+      { icon: '🧭', name: { ko: '생활편의', en: 'Essentials', zh: '便民设施', ru: 'Полезные сервисы', ja: '生活便利', hi: 'आवश्यक सेवाएँ', vi: 'Tiện ích' }, count: getZoneCategoryPublishedCount('sunset-town', 'essentials'), categoryKey: 'essentials' },
+      { icon: '🚖', name: { ko: '이동·교통', en: 'Transport', zh: '交通出行', ru: 'Транспорт', ja: '交通・アクセス', hi: 'यातायात', vi: 'Di chuyển' }, count: getZoneCategoryPublishedCount('sunset-town', 'transport'), categoryKey: 'transport' },
     ],
     categoryBadge: {
-      ko: '선셋타운 중심 251곳',
-      en: '251 Central Venues',
-      zh: '日落小镇核心251处',
-      ru: '251 заведение в центре',
-      ja: 'サンセットタウン中心251か所',
-      hi: '251 केंद्रीय स्थान',
-      vi: '251 cơ sở trung tâm',
+      ko: '선셋타운 중심 215곳',
+      en: '215 Central Venues',
+      zh: '日落小镇核心215处',
+      ru: '215 заведений в центре',
+      ja: 'サンセットタウン中心215か所',
+      hi: '215 केंद्रीय स्थान',
+      vi: '215 cơ sở trung tâm',
     },
-    noteBanner: {
-      ko: 'ℹ️ 안터이 인근 생활편의 (40곳): 안터이 시내의 약국 18곳, 은행·ATM 9곳(켐비치 입구 1곳 포함), 마트 4곳, 식당 4곳 등은 \'인근 편의시설\' 탭에서 별도 조회할 수 있습니다.',
-      en: 'ℹ️ Nearby An Thoi Services (40 locations): 18 pharmacies, 9 banks/ATMs (including 1 at the Khem Beach entrance), 4 marts, and 4 restaurants in An Thoi town, among other services, can be viewed separately under the \'Nearby Services\' tab.',
-      zh: 'ℹ️ 安泰周边生活便民设施（40处）：安泰市区的18家药房、9处银行及ATM（包括凯姆海滩入口处的1处）、4家超市、4家餐厅等，可在“周边便民设施”选项卡中单独查看。',
-      ru: 'ℹ️ Повседневные услуги поблизости от Ан Тхоя (40 мест): 18 аптек, 9 банков и банкоматов (включая 1 у въезда на пляж Кхем), 4 магазина и 4 ресторана в Ан Тхое, а также другие объекты можно отдельно посмотреть во вкладке «Услуги поблизости».',
-      ja: 'ℹ️ アントイ周辺の生活利便施設（40か所）：アントイ市街地の薬局18か所、銀行・ATM 9か所（ケムビーチ入口の1か所を含む）、マート4か所、飲食店4か所などは、「周辺施設」タブで別途確認できます。',
-      hi: 'ℹ️ आन थोई के आसपास की दैनिक सुविधाएँ (40 स्थान): आन थोई शहर में 18 फ़ार्मेसी, 9 बैंक/एटीएम (खेम बीच के प्रवेश द्वार पर स्थित 1 स्थान सहित), 4 मार्ट और 4 रेस्तरां आदि को \'नज़दीकी सुविधाएँ\' टैब में अलग से देखा जा सकता है।',
-      vi: 'ℹ️ Tiện ích lân cận An Thới (40 cơ sở): 18 nhà thuốc, 9 ngân hàng/ATM, 4 siêu thị và 4 quán ăn có thể tra cứu tại mục tiện ích lân cận.',
-    },
+    noteBanner: null,
     transitHeadline: {
       ko: '⇄ 켐비치(Bãi Khem) 이동 안내',
       en: 'Travel between the two areas: approx. 10 mins by car',
@@ -457,8 +450,22 @@ export const MAIN_ZONES: Record<MainZoneSlug, MainZoneInfo> = {
           hi: 'रिसॉर्ट्स',
           vi: 'Khu nghỉ dưỡng',
         },
-        count: 3,
+        count: getZoneCategoryPublishedCount('khem-beach', 'hotels'),
         categoryKey: 'hotels',
+      },
+      {
+        icon: '🏖️',
+        name: {
+          ko: '비치',
+          en: 'Beach',
+          zh: '海滩',
+          ru: 'Пляж',
+          ja: 'ビーチ',
+          hi: 'समुद्र तट',
+          vi: 'Bãi biển',
+        },
+        count: getZoneCategoryPublishedCount('khem-beach', 'beaches'),
+        categoryKey: 'beaches',
       },
       {
         icon: '🍹',
@@ -471,39 +478,25 @@ export const MAIN_ZONES: Record<MainZoneSlug, MainZoneInfo> = {
           hi: 'बीच पब और बार',
           vi: 'Quán bar bãi biển',
         },
-        count: 4,
+        count: getZoneCategoryPublishedCount('khem-beach', 'bars'),
         categoryKey: 'bars',
       },
-      {
-        icon: '🏖️',
-        name: {
-          ko: '해변',
-          en: 'Beach',
-          zh: '海滩',
-          ru: 'Пляж',
-          ja: 'ビーチ',
-          hi: 'समुद्र तट',
-          vi: 'Bãi biển',
-        },
-        count: 1,
-        categoryKey: 'beaches',
-      },
-      { icon: '🍽️', name: { ko: '식당', en: 'Dining', zh: '餐饮', ru: 'Рестораны', ja: 'グルメ', hi: 'भोजन', vi: 'Ẩm thực' }, count: 0, categoryKey: 'dining' },
-      { icon: '🛍️', name: { ko: '쇼핑', en: 'Shopping', zh: '购物', ru: 'Шопинг', ja: 'ショッピング', hi: 'खरीदारी', vi: 'Mua sắm' }, count: 0, categoryKey: 'shopping' },
-      { icon: '✦', name: { ko: '스파', en: 'Spa', zh: '水疗', ru: 'Спа', ja: 'スパ', hi: 'स्पा', vi: 'Spa & Wellness' }, count: 0, categoryKey: 'wellness' },
-      { icon: '🎡', name: { ko: '액티비티', en: 'Activities', zh: '活动与体验', ru: 'Активности', ja: 'アクティビティ', hi: 'गतिविधियाँ', vi: 'Điểm tham quan & Hoạt động' }, count: 0, categoryKey: 'activities' },
-      { icon: '🏦', name: { ko: '환전·ATM·은행', en: 'Currency & ATM', zh: '兑换与ATM', ru: 'Обмен и банкоматы', ja: '両替・ATM・銀行', hi: 'मुद्रा विनिमय व एटीएम', vi: 'Đổi tiền & ATM' }, count: 0, categoryKey: 'banking' },
-      { icon: '🧭', name: { ko: '생활편의', en: 'Essentials', zh: '便民设施', ru: 'Полезные сервисы', ja: '生活便利', hi: 'आवश्यक सेवाएँ', vi: 'Tiện ích' }, count: 0, categoryKey: 'essentials' },
-      { icon: '🚖', name: { ko: '이동·교통', en: 'Transport', zh: '交通出行', ru: 'Транспорт', ja: '交通・アクセス', hi: 'यातायात', vi: 'Di chuyển' }, count: 0, categoryKey: 'transport' },
+      { icon: '🍽️', name: { ko: '식당', en: 'Dining', zh: '餐饮', ru: 'Рестораны', ja: 'グルメ', hi: 'भोजन', vi: 'Ẩm thực' }, count: getZoneCategoryPublishedCount('khem-beach', 'dining'), categoryKey: 'dining' },
+      { icon: '🛍️', name: { ko: '쇼핑', en: 'Shopping', zh: '购物', ru: 'Шопинг', ja: 'ショッピング', hi: 'खरीदारी', vi: 'Mua sắm' }, count: getZoneCategoryPublishedCount('khem-beach', 'shopping'), categoryKey: 'shopping' },
+      { icon: '✦', name: { ko: '스파', en: 'Spa', zh: '水疗', ru: 'Спа', ja: 'スパ', hi: 'स्पा', vi: 'Spa & Wellness' }, count: getZoneCategoryPublishedCount('khem-beach', 'wellness'), categoryKey: 'wellness' },
+      { icon: '🎡', name: { ko: '액티비티', en: 'Activities', zh: '活动与体验', ru: 'Активности', ja: 'アクティビティ', hi: 'गतिविधियाँ', vi: 'Điểm tham quan & Hoạt động' }, count: getZoneCategoryPublishedCount('khem-beach', 'activities'), categoryKey: 'activities' },
+      { icon: '🏦', name: { ko: '환전·ATM·은행', en: 'Currency & ATM', zh: '兑换与ATM', ru: 'Обмен и банкоматы', ja: '両替・ATM・銀行', hi: 'मुद्रा विनिमय व एटीएम', vi: 'Đổi tiền & ATM' }, count: getZoneCategoryPublishedCount('khem-beach', 'banking'), categoryKey: 'banking' },
+      { icon: '🧭', name: { ko: '생활편의', en: 'Essentials', zh: '便民设施', ru: 'Полезные сервисы', ja: '生活便利', hi: 'आवश्यक सेवाएँ', vi: 'Tiện ích' }, count: getZoneCategoryPublishedCount('khem-beach', 'essentials'), categoryKey: 'essentials' },
+      { icon: '🚖', name: { ko: '이동·교통', en: 'Transport', zh: '交通出行', ru: 'Транспорт', ja: '交通・アクセス', hi: 'यातायात', vi: 'Di chuyển' }, count: getZoneCategoryPublishedCount('khem-beach', 'transport'), categoryKey: 'transport' },
     ],
     categoryBadge: {
-      ko: '등록 업체 7곳 (해변 제외)',
-      en: '7 Confirmed Businesses (excl. beach)',
-      zh: '经确认的7处商家（不含海滩）',
-      ru: '7 подтверждённых заведений (без пляжа)',
-      ja: '確認済み事業者7件（ビーチを除く）',
-      hi: 'पुष्टि किए गए 7 व्यवसाय (समुद्र तट छोड़कर)',
-      vi: '7 cơ sở đã xác minh (không gồm bãi biển)',
+      ko: '등록 업체 9곳 (해변 제외)',
+      en: '9 Confirmed Businesses (excl. beach)',
+      zh: '经确认的9处商家（不含海滩）',
+      ru: '9 подтверждённых заведений (без пляжа)',
+      ja: '確認済み事業者9件（ビーチを除く）',
+      hi: 'पुष्टि किए गए 9 व्यवसाय (समुद्र तट छोड़कर)',
+      vi: '9 cơ sở đã xác minh (không gồm bãi biển)',
     },
     noteBanner: {
       ko: '💡 켐비치 안내: 해변 펍 및 리조트 시설의 운영시간과 이용 조건은 기상 상황이나 현장 사정에 따라 변동될 수 있습니다.',
@@ -797,3 +790,17 @@ export function isSunsetTownFacility(b: {
   }
   return false
 }
+
+/**
+ * 선셋타운 해변 이용 불가 안내 문구 (6개 언어 최종 확정본 — ko 승인 원문 + en/zh/ru/ja/hi ChatGPT 검수본)
+ */
+export const SUNSET_BEACH_NOTICE_TEXT: Record<Locale, string> = {
+  ko: '선셋타운 해변은 공연을 위한 공간으로 운영되어 해수욕 등 바닷가 이용이 어렵습니다. 바다를 즐기고 싶다면 차로 약 10분 거리의 켐 비치로 가시거나, 배를 타고 섬으로 들어가는 액티비티를 이용해 주세요.',
+  en: 'Sunset Town Beach is used as a venue for performances, so swimming and other beach activities are not permitted. If you would like to enjoy the sea, please visit Khem Beach, about a 10-minute drive away, or join a boat trip to the islands.',
+  zh: '日落小镇（Sunset Town）的海滩用作演出场地，因此无法在此游泳或进行其他海滩活动。如果您想享受大海，可以前往车程约10分钟的凯姆海滩（Khem Beach），或参加乘船前往岛屿的游览活动。',
+  ru: 'Пляж в Сансет-Тауне (Sunset Town) используется как площадка для проведения шоу, поэтому купание и другие виды пляжного отдыха здесь недоступны. Если вы хотите насладиться морем, отправляйтесь на пляж Кхем (Khem Beach), расположенный примерно в 10 минутах езды на автомобиле, или выберите экскурсию на острова на лодке.',
+  ja: 'サンセットタウン（Sunset Town）のビーチは公演会場として使用されているため、海水浴などのビーチ利用はできません。海を楽しみたい方は、車で約10分のケムビーチ（Khem Beach）へお出かけいただくか、船で島へ渡るアクティビティをご利用ください。',
+  hi: 'सनसेट टाउन (Sunset Town) के समुद्र तट का उपयोग कार्यक्रमों और प्रस्तुतियों के आयोजन स्थल के रूप में किया जाता है, इसलिए यहाँ समुद्र में तैरने और समुद्र तट पर अन्य गतिविधियों की अनुमति नहीं है। यदि आप समुद्र का आनंद लेना चाहते हैं, तो कार से लगभग 10 मिनट की दूरी पर स्थित खेम बीच (Khem Beach) जाएँ या नाव से द्वीपों की यात्रा कराने वाली गतिविधियों में भाग लें।',
+  vi: 'Sunset Town Beach is used as a venue for performances, so swimming and other beach activities are not permitted. If you would like to enjoy the sea, please visit Khem Beach, about a 10-minute drive away, or join a boat trip to the islands.',
+}
+
