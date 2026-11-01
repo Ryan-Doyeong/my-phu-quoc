@@ -101,8 +101,42 @@ export const PRODUCTS: Record<string, Product> = {
     duration: { ko: '반일 · 종일', en: 'Half / full day' },
     price: { base: null },
     vendor: null,
-    // 가이드 풀 확보 후 false로 바꾸면 부모님·아이 동반 일정에 자동 노출됩니다.
-    hidden: true,
+    // 시즌·인원·언어에 따라 요금이 달라 상담 후 견적 (2026-11-01 결정)
+    consult: true,
+    consultFields: [
+      { ko: '희망 날짜·시간(반일/종일)', en: 'Date & hours (half/full day)' },
+      { ko: '언어(한국어/영어/중국어/러시아어)', en: 'Language' },
+      { ko: '인원·동행(부모님/아이)', en: 'Group size & who' },
+    ],
+    caution: {
+      ko: '시즌과 인원에 따라 요금이 달라져요. 문의 주시면 상담 후 견적을 드려요.',
+      en: 'Rates vary by season and group size — we quote after a short consultation.',
+    },
+  },
+  private_yacht: {
+    id: 'private_yacht',
+    kind: 'tour',
+    operator: 'direct',
+    name: { ko: '프라이빗 요트 투어', en: 'Private yacht tour' },
+    summary: {
+      ko: '우리 일행만 타는 요트로 남부 섬·일몰 코스를 원하는 대로 짜요. 프러포즈·기념일·단체 모임에 맞춰 식사와 이벤트도 준비해 드려요.',
+      en: 'A yacht just for your group — islands or sunset, your route. Meals and events for proposals, anniversaries or groups.',
+    },
+    duration: { ko: '2시간~종일 (협의)', en: '2 hours to full day (on request)' },
+    price: { base: null },
+    vendor: null,
+    consult: true,
+    consultFields: [
+      { ko: '희망 날짜·시간(출발/소요)', en: 'Date & time (start/duration)' },
+      { ko: '인원', en: 'Group size' },
+      { ko: '식사 포함 여부(점심/디너/BBQ)', en: 'Meals (lunch/dinner/BBQ)' },
+      { ko: '코스(섬 호핑/일몰/스노클링)', en: 'Route (islands/sunset/snorkel)' },
+      { ko: '이벤트(프러포즈·생일·기념일·촬영)', en: 'Event (proposal/birthday/photo)' },
+    ],
+    caution: {
+      ko: '시간·식사·코스·이벤트에 따라 견적이 달라져요. 원하는 내용을 적어 주시면 맞춤 견적을 드려요.',
+      en: 'Price depends on hours, meals, route and events — tell us what you want and we quote.',
+    },
   },
   airport_dropoff: {
     id: 'airport_dropoff',

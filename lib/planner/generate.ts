@@ -173,7 +173,12 @@ function runProgram(ctx: Ctx, id: ProgramId): ProgramResult {
               '안토이 항에서 출발해 남쪽 섬을 돌며 스노클링·해변 휴식·점심까지 (약 6~8시간). 하루 전에는 예약해 두세요.',
               'From An Thoi port: snorkelling, beach time and lunch around the southern islands (6–8 h). Book a day ahead.',
             ),
-            alternatives: [productItem(ctx, 'cable_car', '09:30', 'south'), productItem(ctx, 'ocean_activity', '09:30', 'south', { desc: SPOT.sao.desc })],
+            alternatives: [
+              // 커플·프러포즈·단체는 프라이빗 요트를 첫 대안으로
+              ...(companion === 'couple' || companion === 'friends' || companion === 'parents' ? [productItem(ctx, 'private_yacht', '09:00', 'south')] : []),
+              productItem(ctx, 'cable_car', '09:30', 'south'),
+              productItem(ctx, 'ocean_activity', '09:30', 'south', { desc: SPOT.sao.desc }),
+            ],
           }),
           spot(ctx, 'resortRest', '15:30', 'south', 'rest', {
             desc: t('투어를 마치고 숙소에서 씻고 쉬어요.', 'Freshen up and rest after the tour.'),
@@ -228,7 +233,7 @@ function runProgram(ctx: Ctx, id: ProgramId): ProgramResult {
             ),
             alternatives: [productItem(ctx, 'buggy_tour', '09:30', 'south')],
           }),
-          ...(PRODUCTS.local_guide.hidden ? [] : [productItem(ctx, 'local_guide', '09:00', 'south')]),
+          ...(PRODUCTS.local_guide.hidden ? [] : [productItem(ctx, 'local_guide', '08:45', 'south', { desc: t('부모님·아이와 함께라면 가이드가 동행해 설명하고 사진도 찍어 드려요. 시즌·인원에 따라 상담 후 견적.', 'A guide joins to explain, help and take photos. Quote after consultation.') })]),
           spot(ctx, 'lunch', '12:30', 'south', 'meal'),
           productItem(ctx, 'massage', '15:00', 'south', { alternatives: [spot(ctx, 'resortRest', '15:00', 'south', 'rest')] }),
         ],

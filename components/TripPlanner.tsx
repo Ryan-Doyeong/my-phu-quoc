@@ -59,6 +59,9 @@ const UI = {
   klook: { ko: 'Klook 제휴 예매', en: 'Book via Klook' },
   klookBtn: { ko: 'Klook에서 예매', en: 'Book on Klook' },
   klookPrice: { ko: 'Klook에서 가격 확인', en: 'See price on Klook' },
+  consultPrice: { ko: '상담 후 맞춤 견적', en: 'Custom quote after consultation' },
+  consultBtn: { ko: '상담 요청', en: 'Request consultation' },
+  consultAdded: { ko: '상담 요청 담김', en: 'Consultation added' },
   cartBar: { ko: '문의 목록', en: 'Inquiry list' },
   cartEmpty: { ko: '마음에 드는 상품을 담아 한 번에 문의하세요', en: 'Add items and ask about them all at once' },
   openCart: { ko: '견적·예약 문의하기', en: 'Ask for a quote' },
@@ -313,6 +316,10 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
         const p = PRODUCTS[c.productId]
         const tier = c.tier ? ` – ${tx(TIER_LABEL[c.tier])}` : ''
         lines.push(`${i + 1}) DAY ${c.day + 1} ${tx(p.name)}${tier}`)
+        if (p.consult && p.consultFields?.length) {
+          lines.push(`   ${ko ? '(상담 요청 — 아래를 채워 주세요)' : '(consultation — please fill in)'}`)
+          p.consultFields.forEach((f) => lines.push(`   - ${tx(f)}: `))
+        }
       })
     } else {
       lines.push(ko ? '■ 일정 상담 요청 (상품 미선택)' : '■ Plan consultation (no items yet)')
@@ -624,7 +631,11 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
 
                             <div className="tpProductFoot">
                               <span className="tpPrice">
-                                {product.operator === 'klook' && product.klookUrl ? UI.klookPrice[lang] : priceText(product.id, product.tiers ? tier : undefined, lang)}
+                                {product.operator === 'klook' && product.klookUrl
+                                  ? UI.klookPrice[lang]
+                                  : product.consult
+                                    ? UI.consultPrice[lang]
+                                    : priceText(product.id, product.tiers ? tier : undefined, lang)}
                               </span>
                               <div className="tpProductActions">
                                 {product.link && (
@@ -645,7 +656,9 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
                                   </a>
                                 ) : (
                                   <button type="button" className={`tpAdd${entry ? ' isAdded' : ''}`} aria-pressed={!!entry} onClick={() => toggleCart(day.index, it)}>
-                                    {entry ? `✓ ${UI.added[lang]}` : `+ ${UI.add[lang]}`}
+                                    {product.consult
+                                      ? entry ? `✓ ${UI.consultAdded[lang]}` : `💬 ${UI.consultBtn[lang]}`
+                                      : entry ? `✓ ${UI.added[lang]}` : `+ ${UI.add[lang]}`}
                                   </button>
                                 )}
                               </div>
@@ -720,7 +733,7 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
                           <strong>{tx(p.name)}</strong>
                           <small>
                             {c.tier ? `${tx(TIER_LABEL[c.tier])} · ` : ''}
-                            {priceText(p.id, p.tiers ? c.tier : undefined, lang)}
+                            {p.consult ? UI.consultPrice[lang] : priceText(p.id, p.tiers ? c.tier : undefined, lang)}
                           </small>
                         </div>
                         <button type="button" onClick={() => setCart((x) => x.filter((y) => y !== c))}>

@@ -60,6 +60,13 @@ export interface Product {
   link?: string
   /** true면 일정에 노출하지 않음 (업체 확정 전 준비 상품) */
   hidden?: boolean
+  /**
+   * 상담형 상품: 정가 없이 고객과 협의해 견적 (프라이빗 요트·현지 가이드).
+   * 화면에는 "상담 후 견적", 버튼은 "상담 요청"으로 표시되고
+   * 문의 메시지에 consultFields 항목이 빈칸으로 들어간다.
+   */
+  consult?: boolean
+  consultFields?: L[]
 }
 
 export type ItemKind =
