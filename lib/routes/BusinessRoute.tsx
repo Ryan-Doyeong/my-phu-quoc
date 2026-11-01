@@ -786,9 +786,10 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                 } : null
 
                 const cultureGuide = explicitGuide || fallbackGuide
+                // 핫픽스: 실제 고유 사진이 등록된 업체(b.gallery_urls)에만 사진 더 보기 갤러리를 노출하고, 그 외에는 빈 배열 전달하여 섹션 숨김
                 const enrichedPhotos = b.gallery_urls && b.gallery_urls.length > 0
                   ? b.gallery_urls
-                  : defaultImages(b.category, b.subcategory, b.tags)
+                  : []
 
                 return (
                   <EnrichedBusinessAccordions
