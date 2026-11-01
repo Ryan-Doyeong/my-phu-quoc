@@ -9,6 +9,8 @@ import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { SocialIcons } from '@/components/SocialIcons'
 import { BusinessReviews, BusinessInstagram } from '@/components/BusinessEnrichment'
 import { BusinessMenuSection } from '@/components/BusinessMenuSection'
+import { EnrichedBusinessAccordions } from '@/components/EnrichedBusinessAccordions'
+import diningCultureGuidesJson from '@/data/dining-culture-guides.json'
 import { PracticalInfoCard } from '@/components/PracticalInfoCard'
 import { FoodGuideSection } from '@/components/FoodGuideSection'
 import { CategoryKnowledgeSection } from '@/components/CategoryKnowledgeSection'
@@ -732,25 +734,43 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
               )}
             </article>
 
-            {/* 2. Menu & Prices (Good Life style standalone card) */}
-            {isDiningOrFood && (
-              <BusinessMenuSection
-                menuData={menuData}
-                locale={locale}
-                menuImages={menuData?.menuImages}
-              />
-            )}
+            {/* 2. Menu & Enriched Accordions (식음료 업체 전용 아코디언 3섹션) */}
+            {(() => {
+              if (isDiningOrFood) {
+                const explicitGuide = (diningCultureGuidesJson as Record<string, any>)[b.slug]
+                const fallbackGuide = foodGuide ? {
+                  food_style: { ko: foodGuide.eyebrow, en: foodGuide.eyebrow },
+                  culture_story: { ko: foodGuide.introText, en: foodGuide.introText },
+                  sauce_guide: null,
+                  sauce_details: null,
+                  eating_tips: foodGuide.sections.map(s => ({
+                    title_ko: s.ko?.subheading || s.title,
+                    title_en: s.en?.subheading || s.title,
+                    desc_ko: s.ko?.paragraphs?.[0] || '',
+                    desc_en: s.en?.paragraphs?.[0] || '',
+                  }))
+                } : null
 
-            {/* 3. Knowledge & Culture Guide (Good Life style cultural knowledge guide) */}
-            {foodGuide && (
-              <FoodGuideSection
-                eyebrow={foodGuide.eyebrow}
-                introText={foodGuide.introText}
-                sections={foodGuide.sections}
-                locale={locale}
-              />
-            )}
-            {categoryGuide && (
+                const cultureGuide = explicitGuide || fallbackGuide
+                const enrichedPhotos = b.gallery_urls && b.gallery_urls.length > 0
+                  ? b.gallery_urls
+                  : defaultImages(b.category, b.subcategory, b.tags)
+
+                return (
+                  <EnrichedBusinessAccordions
+                    business={b}
+                    menuData={menuData}
+                    locale={locale}
+                    cultureGuide={cultureGuide}
+                    photos={enrichedPhotos}
+                  />
+                )
+              }
+
+              return null
+            })()}
+
+            {!isDiningOrFood && categoryGuide && (
               <CategoryKnowledgeSection
                 eyebrow={categoryGuide.eyebrow}
                 title={categoryGuide.title}

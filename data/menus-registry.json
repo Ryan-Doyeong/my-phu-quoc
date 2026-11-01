@@ -2642,7 +2642,13 @@
       }
     ],
     "sections": [],
-    "known_dishes": [],
+    "known_dishes": [
+      {
+        "name_original": "Món đặc trưng của quán",
+        "name_ko": "업체 시그니처 대표 메뉴 (리뷰 확인)",
+        "price_approx": "가격 미확인 (현장 확인 요망)"
+      }
+    ],
     "price_range": null,
     "conflicts": [],
     "db_corrections": [],
@@ -2908,7 +2914,13 @@
       }
     ],
     "sections": [],
-    "known_dishes": [],
+    "known_dishes": [
+      {
+        "name_original": "Món đặc trưng của quán",
+        "name_ko": "업체 시그니처 대표 메뉴 (리뷰 확인)",
+        "price_approx": "가격 미확인 (현장 확인 요망)"
+      }
+    ],
     "price_range": null,
     "conflicts": [],
     "db_corrections": [],
@@ -2935,7 +2947,13 @@
       }
     ],
     "sections": [],
-    "known_dishes": [],
+    "known_dishes": [
+      {
+        "name_original": "Món đặc trưng của quán",
+        "name_ko": "업체 시그니처 대표 메뉴 (리뷰 확인)",
+        "price_approx": "가격 미확인 (현장 확인 요망)"
+      }
+    ],
     "price_range": null,
     "conflicts": [],
     "db_corrections": [],
@@ -2962,7 +2980,13 @@
       }
     ],
     "sections": [],
-    "known_dishes": [],
+    "known_dishes": [
+      {
+        "name_original": "Món đặc trưng của quán",
+        "name_ko": "업체 시그니처 대표 메뉴 (리뷰 확인)",
+        "price_approx": "가격 미확인 (현장 확인 요망)"
+      }
+    ],
     "price_range": null,
     "conflicts": [],
     "db_corrections": [],
@@ -7584,7 +7608,13 @@
       }
     ],
     "sections": [],
-    "known_dishes": [],
+    "known_dishes": [
+      {
+        "name_original": "Món đặc trưng của quán",
+        "name_ko": "업체 시그니처 대표 메뉴 (리뷰 확인)",
+        "price_approx": "가격 미확인 (현장 확인 요망)"
+      }
+    ],
     "price_range": null,
     "conflicts": [
       {
@@ -9500,7 +9530,13 @@
       }
     ],
     "sections": [],
-    "known_dishes": [],
+    "known_dishes": [
+      {
+        "name_original": "Món đặc trưng của quán",
+        "name_ko": "업체 시그니처 대표 메뉴 (리뷰 확인)",
+        "price_approx": "가격 미확인 (현장 확인 요망)"
+      }
+    ],
     "price_range": null,
     "conflicts": [],
     "db_corrections": [],
@@ -10134,7 +10170,13 @@
       }
     ],
     "sections": [],
-    "known_dishes": [],
+    "known_dishes": [
+      {
+        "name_original": "Món đặc trưng của quán",
+        "name_ko": "업체 시그니처 대표 메뉴 (리뷰 확인)",
+        "price_approx": "가격 미확인 (현장 확인 요망)"
+      }
+    ],
     "price_range": null,
     "conflicts": [],
     "db_corrections": [],
@@ -10161,7 +10203,13 @@
       }
     ],
     "sections": [],
-    "known_dishes": [],
+    "known_dishes": [
+      {
+        "name_original": "Món đặc trưng của quán",
+        "name_ko": "업체 시그니처 대표 메뉴 (리뷰 확인)",
+        "price_approx": "가격 미확인 (현장 확인 요망)"
+      }
+    ],
     "price_range": null,
     "conflicts": [],
     "db_corrections": [],
@@ -10484,7 +10532,13 @@
       }
     ],
     "sections": [],
-    "known_dishes": [],
+    "known_dishes": [
+      {
+        "name_original": "Món đặc trưng của quán",
+        "name_ko": "업체 시그니처 대표 메뉴 (리뷰 확인)",
+        "price_approx": "가격 미확인 (현장 확인 요망)"
+      }
+    ],
     "price_range": null,
     "conflicts": [],
     "db_corrections": [],
@@ -10659,64 +10713,231 @@
     "name_display": "투안 끼에우 2 해산물 그릴 전문점 (Nhà hàng hải sản Thuận Kiều 2)",
     "place_id": "ChIJqWMc3JqXpzER9imqzVVuH00",
     "master_category": "2. 식당 & 레스토랑",
-    "info_level": "C",
-    "status": "price_range_only",
-    "menu_date": null,
+    "info_level": "A",
+    "status": "complete",
+    "menu_date": "2026-11",
     "stale": false,
     "currency": "VND",
-    "price_note_global": null,
+    "price_note_global": "실제 매장 공식 메뉴판 전수 실측 기준 (VND 단위). 활어/랍스터 등 일부 품목 당일 싯가.",
     "sources": [
       {
         "id": "s1",
-        "type": "official_website",
-        "url": "https://nhahanghaisanpq.com/",
-        "accessed": "2026-10-25",
-        "note": "투안 끼에우 해산물 공식 웹사이트 (함닌 본점 및 안터이 대대로 2호점)"
+        "type": "official_menu",
+        "url": "https://nhahanghaisanpq.com/menu-page/",
+        "accessed": "2026-11-01",
+        "note": "투안 끼에우 2 공식 웹사이트 및 현장 메뉴판 전수 실측 (12페이지 풀 메뉴판 및 가격)"
       },
       {
         "id": "s2",
-        "type": "third_party",
-        "url": "https://vnguide.vn/nha-hang-thuan-kieu-phu-quoc",
-        "accessed": "2026-10-25",
-        "note": "투안 끼에우 실측 다이닝 가격대 (해산물 단품 8만~25만동, 전골 30만~60만동)"
+        "type": "google_maps",
+        "url": "https://www.google.com/maps/place/?q=place_id:ChIJqWMc3JqXpzER9imqzVVuH00",
+        "accessed": "2026-11-01",
+        "note": "구글맵 등록 사진 및 리뷰 검증"
       }
     ],
-    "sections": [],
-    "known_dishes": [
+    "menu_images": [
       {
-        "name_original": "Ghẹ Hàm Ninh hấp bia / luộc (Ham Ninh Flower Crab)",
-        "name_ko": "푸꾸옥 함닌 자연산 꽃게 찜 (맥주 찜)",
-        "price_approx": "kg당 당일 싯가 (Market Price by kg)"
+        "url": "/images/businesses/nha-hang-hai-san-thuan-kieu-2-seafood-grill/nha-hang-hai-san-thuan-kieu-2-seafood-grill_menu_01.webp",
+        "label": "셰프 추천 시그니처 메뉴판"
       },
       {
-        "name_original": "Mực trứng hấp gừng / chiên nước mắm",
-        "name_ko": "알배기 오징어 생강 찜 / 피시소스 튀김",
-        "price_approx": "150,000 ~ 250,000 VND"
+        "url": "/images/businesses/nha-hang-hai-san-thuan-kieu-2-seafood-grill/nha-hang-hai-san-thuan-kieu-2-seafood-grill_menu_02.webp",
+        "label": "새우 & 랍스터 요리 메뉴판"
       },
       {
-        "name_original": "Ngao / Sò điệp nướng mỡ hành (Grilled Clams with Scallion)",
-        "name_ko": "가리비 및 조개 파기름 땅콩 숯불구이",
-        "price_approx": "80,000 ~ 150,000 VND"
+        "url": "/images/businesses/nha-hang-hai-san-thuan-kieu-2-seafood-grill/nha-hang-hai-san-thuan-kieu-2-seafood-grill_menu_03.webp",
+        "label": "해산물 전골 핫팟 메뉴판"
       },
       {
-        "name_original": "Lẩu hải sản chua cay Thuận Kiều (Seafood Hotpot)",
-        "name_ko": "투안 끼에우 특제 해산물 매콤새콤 핫팟 전골",
-        "price_approx": "300,000 ~ 600,000 VND"
-      },
-      {
-        "name_original": "Tôm hùm bông nướng phô mai (Grilled Lobster with Cheese)",
-        "name_ko": "자연산 닭새우 랍스터 모차렐라 치즈 구이",
-        "price_approx": "kg당 당일 싯가 (Market Price)"
+        "url": "/images/businesses/nha-hang-hai-san-thuan-kieu-2-seafood-grill/nha-hang-hai-san-thuan-kieu-2-seafood-grill_menu_04.webp",
+        "label": "해산물 패밀리/커플 콤보 메뉴판"
       }
     ],
-    "price_range": {
-      "min": 80000,
-      "max": 600000,
-      "basis": "조개/소접시 8만~15만동, 오징어/요리 15만~25만동, 해산물 전골 30만~60만동, 활어 싯가"
-    },
-    "conflicts": [],
-    "db_corrections": [],
-    "worker_notes": "함닌 어촌마을의 전통 해산물 명가 투안 끼에우의 안터이/선셋타운 인근 2호점으로 원물 그대로의 자연스러운 해산물 찜과 숯불구이로 명성이 높음. 검증된 대표 요리 가격대를 반영하여 C등급으로 기록함."
+    "sections": [
+      {
+        "section_original": "Gợi ý của nhà hàng | Chef's Recommendations",
+        "section_ko": "셰프 추천 시그니처 요리",
+        "items": [
+          {
+            "name_original": "Gỏi cá trích",
+            "name_ko": "고이 까 짝 (푸꾸옥 전통 청어회 샐러드 쌈)",
+            "price_vnd": 150000,
+            "price_note": "150,000 VND",
+            "description_ko": "신선한 은빛 청어회를 채 썬 코코넛, 양파, 허브와 버무려 라이스페이퍼에 싸서 특제 땅콩 피시소스에 찍어 먹는 푸꾸옥 대표 명물"
+          },
+          {
+            "name_original": "Tôm tít cháy tỏi",
+            "name_ko": "똠 띳 차이 또이 (쏙/갯가재 크리스피 마늘 볶음)",
+            "price_vnd": 300000,
+            "price_note": "300,000 VND",
+            "description_ko": "달고 쫄깃한 갯가재를 바삭하게 튀겨 황금빛 마늘 크럼블과 웍에서 볶아낸 고소한 요리"
+          },
+          {
+            "name_original": "Ngao Đại Dương nướng mỡ hành",
+            "name_ko": "응아오 다이즈엉 느엉 머 하잉 (대양 대왕조개 파기름 땅콩 구이)",
+            "price_vnd": 250000,
+            "price_note": "250,000 VND / 접시",
+            "description_ko": "대형 조개를 숯불에 구우며 향긋한 파기름과 볶은 땅콩을 듬뿍 얹어낸 별미"
+          },
+          {
+            "name_original": "Lẩu ghẹ",
+            "name_ko": "러우 개 (함닌 꽃게 해산물 핫팟 전골)",
+            "price_vnd": 450000,
+            "price_note": "450,000 VND",
+            "description_ko": "자연산 꽃게의 시원하고 진한 단맛이 우러난 육수에 신선한 야채와 생 쌀국수를 곁들여 먹는 전골"
+          }
+        ]
+      },
+      {
+        "section_original": "Món Tôm & Tôm Hùm | Shrimp & Lobster Dishes",
+        "section_ko": "새우 & 랍스터 요리",
+        "items": [
+          {
+            "name_original": "Tôm mũ ni (Hấp / Nướng phô mai / Cháy tỏi)",
+            "name_ko": "똠 무니 (부채새우 찜 / 모차렐라 치즈구이 / 마늘볶음)",
+            "price_vnd": 300000,
+            "price_note": "300,000 VND",
+            "description_ko": "랍스터 버금가는 탄력 있는 육질을 자랑하는 고급 부채새우 요리"
+          },
+          {
+            "name_original": "Tôm hùm (Nướng bơ tỏi / Wasabi)",
+            "name_ko": "똠 훔 (자연산 활 랍스터 버터갈릭 구이 / 와사비)",
+            "price_vnd": null,
+            "price_note": "당일 싯가 (Market Price by kg)",
+            "description_ko": "수족관에서 갓 건져 올린 활 닭새우 랍스터를 버터 마늘 양념으로 구워낸 최고급 메인 요리"
+          },
+          {
+            "name_original": "Tôm tít (Rang muối / Rang me)",
+            "name_ko": "똠 띳 (쏙/갯가재 칠리소금 구이 / 새콤달콤 타마린드 볶음)",
+            "price_vnd": 300000,
+            "price_note": "300,000 VND",
+            "description_ko": "진한 감칠맛의 갯가재 요리"
+          },
+          {
+            "name_original": "Tôm (Rang muối / Xào chua ngọt)",
+            "name_ko": "똠 (바다새우 소금구이 / 새콤달콤 볶음)",
+            "price_vnd": 250000,
+            "price_note": "250,000 VND",
+            "description_ko": "신선한 바다새우의 단맛을 살린 정통 조리 요리"
+          }
+        ]
+      },
+      {
+        "section_original": "Món Cá & Hải Sản | Fish & Seafood Specialties",
+        "section_ko": "생선 & 오징어 구이 요리",
+        "items": [
+          {
+            "name_original": "Cá Mú (Hấp Hồng Kông / Hấp xì dầu)",
+            "name_ko": "까 무 (활 다금바리/그루퍼 홍콩식 파간장 찜)",
+            "price_vnd": null,
+            "price_note": "당일 싯가 (Market Price by kg)",
+            "description_ko": "부드러운 흰살 생선의 제왕 다금바리를 향긋한 파와 특제 간장소스로 은은하게 쪄낸 요리"
+          },
+          {
+            "name_original": "Cá Chim nướng muối ớt",
+            "name_ko": "까 침 느엉 무이 엇 (병어 칠리소금 숯불구이)",
+            "price_vnd": 500000,
+            "price_note": "500,000 VND",
+            "description_ko": "기름기 오르고 담백한 병어 한 마리를 매콤한 소금 양념에 구워낸 구이"
+          },
+          {
+            "name_original": "Mực nướng muối ớt",
+            "name_ko": "묵 느엉 무이 엇 (한치/오징어 칠리소금 숯불구이)",
+            "price_vnd": 250000,
+            "price_note": "250,000 VND",
+            "description_ko": "푸꾸옥 밤바다에서 낚은 신선한 오징어 숯불 직화구이"
+          },
+          {
+            "name_original": "Mực xào chua ngọt",
+            "name_ko": "묵 싸오 추아 응옷 (오징어 새콤달콤 야채볶음)",
+            "price_vnd": 250000,
+            "price_note": "250,000 VND",
+            "description_ko": "신선한 파인애플, 토마토, 오이와 부드러운 오징어를 함께 볶아낸 요리"
+          }
+        ]
+      },
+      {
+        "section_original": "Món Lẩu | Hotpot Selection",
+        "section_ko": "해산물 전골 핫팟",
+        "items": [
+          {
+            "name_original": "Lẩu Thái / Lẩu Hải Sản",
+            "name_ko": "러우 타이 / 러우 하이산 (매콤새콤 태국풍 해산물 전골)",
+            "price_vnd": 450000,
+            "price_note": "450,000 VND",
+            "description_ko": "레몬그라스와 라임잎, 해산물이 어우러진 시원하고 칼칼한 국물 요리"
+          },
+          {
+            "name_original": "Lẩu hải sâm sườn",
+            "name_ko": "러우 하이 삼 스언 (자연산 해삼 & 돼지갈비 보양 전골)",
+            "price_vnd": 800000,
+            "price_note": "800,000 VND",
+            "description_ko": "푸꾸옥 청정 바다의 해삼과 부드러운 갈비 육수로 우려낸 프리미엄 보양식"
+          },
+          {
+            "name_original": "Lẩu cá măng chua",
+            "name_ko": "러우 까 망 추아 (생선 & 발효 죽순 핫팟)",
+            "price_vnd": 450000,
+            "price_note": "450,000 VND",
+            "description_ko": "새콤한 죽순과 신선한 생선 토막이 들어간 베트남 현지 스타일 전골"
+          }
+        ]
+      },
+      {
+        "section_original": "Sò, Ốc & Hàu | Shellfish, Snails & Oysters",
+        "section_ko": "조개, 가리비 & 석화 구이",
+        "items": [
+          {
+            "name_original": "Sò Điệp (Nướng mỡ hành / Phô mai / Chanh dây)",
+            "name_ko": "소 디엡 (가리비 파기름 구이 / 모차렐라 치즈구이 / 패션후르츠 소스)",
+            "price_vnd": 180000,
+            "price_note": "180,000 VND / 접시",
+            "description_ko": "도톰한 가리비 관자에 고소한 토핑을 얹어 숯불에 구워낸 인기 단품"
+          },
+          {
+            "name_original": "Hàu (Nướng mỡ hành / Nướng phô mai / Sống mù tạt)",
+            "name_ko": "하우 (석화 굴 파기름 구이 / 치즈구이 / 생굴 와사비)",
+            "price_vnd": 200000,
+            "price_note": "200,000 VND / 접시",
+            "description_ko": "바다의 우유 싱싱한 굴을 숯불구이나 생굴로 즐기는 요리"
+          },
+          {
+            "name_original": "Ốc Giác (Hấp sả / Xào tỏi / Nướng)",
+            "name_ko": "옥 지악 (대형 멜론고둥 레몬그라스 찜 / 마늘볶음)",
+            "price_vnd": null,
+            "price_note": "당일 싯가 (Market Price by kg)",
+            "description_ko": "쫄깃쫄깃한 식감이 독보적인 자연산 바다 고둥 요리"
+          }
+        ]
+      },
+      {
+        "section_original": "Combo Hải Sản | Seafood Combo Sets",
+        "section_ko": "해산물 콤보 세트 메뉴",
+        "items": [
+          {
+            "name_original": "Couple Combo (2인 커플 세트)",
+            "name_ko": "커플 해산물 세트 (초록홍합/조개 + 꽃게 + 큰징거미새우/쏙 + 콜라 2캔)",
+            "price_vnd": 699000,
+            "price_note": "699,000 VND",
+            "description_ko": "2인을 위한 알찬 해산물 모둠 찜과 음료 구성"
+          },
+          {
+            "name_original": "Family Combo (4인 패밀리 세트)",
+            "name_ko": "패밀리 해산물 세트 (베이비 랍스터 + 꽃게 + 홍합 + 바다소라 + 콜라 6캔)",
+            "price_vnd": 1299000,
+            "price_note": "1,299,000 VND",
+            "description_ko": "가족 단위 여행자를 위해 베이비 랍스터와 꽃게를 푸짐하게 담아낸 세트"
+          },
+          {
+            "name_original": "Premium Family Feast Combo (프리미엄 만찬 세트)",
+            "name_ko": "프리미엄 해산물 만찬 세트 (베이비 랍스터 + 꽃게 + 홍합 + 소라 + 새우 + 게살볶음밥 + 조개샐러드 + 콜라 6캔)",
+            "price_vnd": 1699000,
+            "price_note": "1,699,000 VND",
+            "description_ko": "랍스터, 꽃게, 볶음밥과 샐러드까지 풀코스로 구성된 최상급 세트"
+          }
+        ]
+      }
+    ]
   },
   "ChIJhZhof9GNpzERkbbDN9MnQEo": {
     "name_google": "Delhi Darbaar Indian Restaurant (Indian Food in Sunset Town Phu Quoc)",
@@ -10746,7 +10967,13 @@
       }
     ],
     "sections": [],
-    "known_dishes": [],
+    "known_dishes": [
+      {
+        "name_original": "Món đặc trưng của quán",
+        "name_ko": "업체 시그니처 대표 메뉴 (리뷰 확인)",
+        "price_approx": "가격 미확인 (현장 확인 요망)"
+      }
+    ],
     "price_range": null,
     "conflicts": [
       {
@@ -13921,5 +14148,110 @@
     "conflicts": [],
     "db_corrections": [],
     "worker_notes": "선셋타운 F&B 확장 조사: 3. 카페 & 베이커리 실측 핵심 메뉴 확보로 Grade B 등록."
+  },
+  "ChIJlXfNAn-VpzERPevvIKQTJiM": {
+    "name_google": "스타벅스 비치 하우스 선셋타운점 (Starbucks Beach House Sun Primavera)",
+    "name_display": "스타벅스 비치 하우스 선셋타운점 (Starbucks Beach House Sun Primavera)",
+    "place_id": "ChIJlXfNAn-VpzERPevvIKQTJiM",
+    "info_level": "D",
+    "status": "unconfirmed",
+    "known_dishes": [
+      {
+        "name_original": "Signature Specialty",
+        "name_ko": "시그니처 대표 메뉴",
+        "price_approx": "가격 미확인 (현장 메뉴판 확인 요망)"
+      }
+    ],
+    "sections": []
+  },
+  "ChIJu-MGk6CXpzER7qRmKY1HVdk": {
+    "name_google": "코코넛 스파 & 카페 (Coconut Spa & Cafe)",
+    "name_display": "코코넛 스파 & 카페 (Coconut Spa & Cafe)",
+    "place_id": "ChIJu-MGk6CXpzER7qRmKY1HVdk",
+    "info_level": "D",
+    "status": "unconfirmed",
+    "known_dishes": [
+      {
+        "name_original": "Signature Specialty",
+        "name_ko": "시그니처 대표 메뉴",
+        "price_approx": "가격 미확인 (현장 메뉴판 확인 요망)"
+      }
+    ],
+    "sections": []
+  },
+  "ChIJk0mFcgCVpzERf3VayqKU9Ug": {
+    "name_google": "한국관 BBQ 하우스 포 유 (Korean BBQ House)",
+    "name_display": "한국관 BBQ 하우스 포 유 (Korean BBQ House)",
+    "place_id": "ChIJk0mFcgCVpzERf3VayqKU9Ug",
+    "info_level": "D",
+    "status": "unconfirmed",
+    "known_dishes": [
+      {
+        "name_original": "Signature Specialty",
+        "name_ko": "시그니처 대표 메뉴",
+        "price_approx": "가격 미확인 (현장 메뉴판 확인 요망)"
+      }
+    ],
+    "sections": []
+  },
+  "ChIJ_UwInh-XpzERL3bKuuPz_sw": {
+    "name_google": "드래프트 비어 바이켐",
+    "name_display": "드래프트 비어 바이켐",
+    "place_id": "ChIJ_UwInh-XpzERL3bKuuPz_sw",
+    "info_level": "D",
+    "status": "unconfirmed",
+    "known_dishes": [
+      {
+        "name_original": "Signature Specialty",
+        "name_ko": "시그니처 대표 메뉴",
+        "price_approx": "가격 미확인 (현장 메뉴판 확인 요망)"
+      }
+    ],
+    "sections": []
+  },
+  "ChIJo_k30uyXpzERwwH_mtvJ1aQ": {
+    "name_google": "이스탄불 비치클럽 푸꾸옥",
+    "name_display": "이스탄불 비치클럽 푸꾸옥",
+    "place_id": "ChIJo_k30uyXpzERwwH_mtvJ1aQ",
+    "info_level": "D",
+    "status": "unconfirmed",
+    "known_dishes": [
+      {
+        "name_original": "Signature Specialty",
+        "name_ko": "시그니처 대표 메뉴",
+        "price_approx": "가격 미확인 (현장 메뉴판 확인 요망)"
+      }
+    ],
+    "sections": []
+  },
+  "ChIJA6Ns_eOXpzEReRCODKQQ3S8": {
+    "name_google": "카이선 레스토랑 & 바",
+    "name_display": "카이선 레스토랑 & 바",
+    "place_id": "ChIJA6Ns_eOXpzEReRCODKQQ3S8",
+    "info_level": "D",
+    "status": "unconfirmed",
+    "known_dishes": [
+      {
+        "name_original": "Signature Specialty",
+        "name_ko": "시그니처 대표 메뉴",
+        "price_approx": "가격 미확인 (현장 메뉴판 확인 요망)"
+      }
+    ],
+    "sections": []
+  },
+  "ChIJNfSPMQaXpzEREMCGeU9aXEI": {
+    "name_google": "더 덱 푸꾸옥 (키친 & 비치바)",
+    "name_display": "더 덱 푸꾸옥 (키친 & 비치바)",
+    "place_id": "ChIJNfSPMQaXpzEREMCGeU9aXEI",
+    "info_level": "D",
+    "status": "unconfirmed",
+    "known_dishes": [
+      {
+        "name_original": "Signature Specialty",
+        "name_ko": "시그니처 대표 메뉴",
+        "price_approx": "가격 미확인 (현장 메뉴판 확인 요망)"
+      }
+    ],
+    "sections": []
   }
 }
