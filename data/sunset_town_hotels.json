@@ -213,7 +213,18 @@
       "googleRating": 5.0,
       "googleReviewsCount": 18,
       "tier": "recommended",
-      "order": 1
+      "order": 1,
+      "reviewHighlight": "오션뷰 발코니 불꽃놀이 관람 · 포근한 침구 · 친절한 서비스",
+      "reviewPros": [
+        "오션뷰 객실 발코니에서 매일 밤 불꽃놀이 관람",
+        "포근한 침구와 쾌적한 객실 컨디션",
+        "친절한 직원과 사장님의 세심한 사전 안내",
+        "야시장·스타벅스·한식당·마트 도보 3분 이내"
+      ],
+      "reviewQuote": {
+        "text": "바다 전망 발코니에서 불꽃놀이가 한눈에 보이고 침구가 포근해 편안히 머물렀습니다.",
+        "source": "Google 리뷰"
+      }
     },
     {
       "slug": "la-festa-phu-quoc-curio-collection-by-hilton",
@@ -435,7 +446,18 @@
       "isFeatured": true,
       "order": 6,
       "googleRating": 4.7,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "reviewHighlight": "인피니티 풀에서 바라보는 키스브릿지 일몰과 불꽃놀이 조망",
+      "reviewPros": [
+        "인피니티 풀과 객실에서 키스 브릿지 및 일몰 조망",
+        "아말피 해안 감성의 이탈리아풍 건축과 인테리어",
+        "케이블카 탑승장 200m 및 야시장 인접 입지",
+        "다양한 메뉴의 수준 높은 뷔페 조식"
+      ],
+      "reviewQuote": {
+        "text": "선셋타운 중심에 있어 위치가 탁월하고 수영장 전망과 조식이 훌륭합니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "roma-hotel-phu-quoc-h39560696",
@@ -680,7 +702,18 @@
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.8,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "reviewHighlight": "루프탑 일몰 전망과 스파 시설 완비",
+      "reviewPros": [
+        "루프탑에서 감상하는 선셋타운 전경 및 일몰",
+        "스파·사우나 등 편의 부대시설 구비",
+        "케이블카 탑승장 도보 260m 거리",
+        "친절한 직원 응대와 깔끔한 객실"
+      ],
+      "reviewQuote": {
+        "text": "루프탑에서 바라보는 일몰 풍경이 멋지고 가성비가 좋습니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "times-corner-sorrento-boutique-hotel",
@@ -893,7 +926,18 @@
       "googleRating": 4.7,
       "googleReviewsCount": 50,
       "tier": "standard",
-      "isFeatured": false
+      "isFeatured": false,
+      "reviewHighlight": "부이페스트 야시장 접근성과 청결한 객실 컨디션",
+      "reviewPros": [
+        "부이페스트 야시장 및 광장 도보 이동 편리",
+        "청결하고 아늑한 객실 및 포근한 침구",
+        "짐 보관 및 친절한 안내 데스크 지원",
+        "주변 다양한 카페와 레스토랑 인접"
+      ],
+      "reviewQuote": {
+        "text": "야시장과 광장이 바로 앞이라 이동하기 편하고 객실이 깨끗합니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "le-bonheur-hotel",
@@ -1071,7 +1115,18 @@
       "googleRating": 4.6,
       "googleReviewsCount": 50,
       "tier": "standard",
-      "isFeatured": false
+      "isFeatured": false,
+      "reviewHighlight": "케이블카 탑승장 80m 위치와 옥상 선셋 라운지",
+      "reviewPros": [
+        "혼똔섬 케이블카 탑승장 도보 80m 거리",
+        "옥상 선셋 라운지에서 바다 및 일몰 조망",
+        "프렌치 부티크 감성의 아늑한 객실",
+        "레스토랑과 24시간 룸서비스 운영"
+      ],
+      "reviewQuote": {
+        "text": "케이블카 탑승장이 바로 코앞이라 케이블카 이용 시 최적의 위치입니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "venice-hotel-phu-quoc",
@@ -1387,7 +1442,18 @@
       "googleReviewsCount": 50,
       "tier": "recommended",
       "order": 2,
-      "isFeatured": true
+      "isFeatured": true,
+      "reviewHighlight": "키스브릿지 파노라마 뷰와 사우나·피트니스 부대시설",
+      "reviewPros": [
+        "오션뷰 발코니에서 키스 브릿지와 바다 파노라마 조망",
+        "사우나, 스파, 피트니스 등充実한 부대시설",
+        "베니스 운하 거리 중심부의 편리한 위치",
+        "조용하고 쾌적한 휴식 환경"
+      ],
+      "reviewQuote": {
+        "text": "발코니에서 바라보는 키스 브릿지 뷰가 인상적이고 조용하게 휴식하기 좋습니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "coastal-living-hotel-phu-quoc",
@@ -1567,7 +1633,18 @@
       "order": 3,
       "isFeatured": true,
       "googleRating": 4.9,
-      "googleReviewsCount": 120
+      "googleReviewsCount": 120,
+      "reviewHighlight": "신축 시설의 청결도와 인테리어 평점 9.5 기록",
+      "reviewPros": [
+        "2025년 완공 신축 건물로 최상의 객실 청결도 유지",
+        "미니멀하고 세련된 인테리어 디자인",
+        "투숙객의 높은 서비스 만족도 (9.6점)",
+        "케이블카 및 주요 거리 도보 이동 가능"
+      ],
+      "reviewQuote": {
+        "text": "새로 지은 호텔이라 모든 것이 새것처럼 깨끗하고 직원들이 매우 친절합니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "roma-hotel-phu-qu-c",
@@ -1696,7 +1773,18 @@
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.7,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "reviewHighlight": "케이블카 660m 위치와 선셋타운 도보 접근성",
+      "reviewPros": [
+        "합리적인 숙박 요금과 실속 있는 객실 구성",
+        "선셋타운 거리 산책과 맛집 탐방 편리",
+        "가성비 만족도 높은 깔끔한 침구",
+        "24시간 프런트 데스크 응대"
+      ],
+      "reviewQuote": {
+        "text": "부담 없는 가격에 깨끗한 룸에서 편안하게 잘 쉬었습니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "sakurakyo-hotel-spa-phu-quoc",
@@ -1939,7 +2027,18 @@
       "googleRating": 4.9,
       "googleReviewsCount": 50,
       "tier": "standard",
-      "isFeatured": false
+      "isFeatured": false,
+      "reviewHighlight": "스파와 수영장 시설, 케이블카 120m 거리",
+      "reviewPros": [
+        "2025년 완공 신축의 쾌적한 시설",
+        "스파, 스팀룸, 사우나, 수영장 완비",
+        "케이블카 탑승장 120m 거리로 접근성 우수",
+        "세심하고 친절한 프런트 서비스"
+      ],
+      "reviewQuote": {
+        "text": "시설이 깔끔하고 스파와 수영장이 잘 갖추어져 있어 힐링하기 좋았습니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "times-corner-amalfi-hotel",
@@ -2117,7 +2216,18 @@
       "googleRating": 4.6,
       "googleReviewsCount": 50,
       "tier": "standard",
-      "isFeatured": false
+      "isFeatured": false,
+      "reviewHighlight": "씨뷰 객실 불꽃놀이 관람과 야외 수영장·풀사이드 바",
+      "reviewPros": [
+        "2025년 오픈한 아말피 스타일 신축 숙소",
+        "씨뷰 객실에서 저녁 불꽃놀이 관람 가능",
+        "야외 수영장 및 풀사이드 바 운영",
+        "케이블카 탑승장 도보 140m 입지"
+      ],
+      "reviewQuote": {
+        "text": "객실에서 불꽃놀이가 보이고 수영장이 예뻐서 만족스러웠습니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "milan-hotel-coffee",
@@ -2275,7 +2385,18 @@
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.9,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "reviewHighlight": "루프탑 풀 일몰 전망과 1층 카페 운영",
+      "reviewPros": [
+        "옥상 수영장 보유로 일몰 풍경 감상 가능",
+        "1층 카페 및 레스토랑 연계로 편리한 식음료",
+        "실속 있는 요금 대비 높은 만족도",
+        "깔끔하고 청결하게 관리되는 룸 컨디션"
+      ],
+      "reviewQuote": {
+        "text": "루프탑 수영장에서 보는 일몰이 멋지고 카페 커피도 맛있었습니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "kl-hotel-phu-quoc",
@@ -2455,7 +2576,18 @@
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.8,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "reviewHighlight": "케이블카 탑승장 40m 거리와 주변 상권 인접",
+      "reviewPros": [
+        "케이블카 탑승장까지 40m 최단 거리 위치",
+        "주변 식당가와 마트 접근성 우수",
+        "투어 일정 및 이동이 많은 여행객에게 적합",
+        "친절한 직원 응대와 짐 보관 서비스"
+      ],
+      "reviewQuote": {
+        "text": "케이블카 바로 앞이라 이동하기 너무 편하고 가성비 좋습니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "casepia",
@@ -2658,7 +2790,18 @@
       "googleReviewsCount": 50,
       "tier": "recommended",
       "order": 5,
-      "isFeatured": true
+      "isFeatured": true,
+      "reviewHighlight": "비치클럽 인접 및 부티크 객실 인테리어",
+      "reviewPros": [
+        "해변 산책로와 비치클럽 인접 부티크 숙소",
+        "감각적이고 세련된 객실 인테리어",
+        "카페와 레스토랑 편의 시설 완비",
+        "바다 산책과 일몰 감상에 좋은 환경"
+      ],
+      "reviewQuote": {
+        "text": "바다와 산책로가 가까워 여유롭게 걷기 좋았고 룸 인테리어가 감각적입니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "solea-hotel-sunset-town-phu-quoc",
@@ -2881,7 +3024,18 @@
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.5,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "reviewHighlight": "어린이 풀 포함 야외 수영장 및 피트니스 완비",
+      "reviewPros": [
+        "수영장 및 아동 전용 풀을 갖춘 숙소",
+        "피트니스 센터 및 레스토랑 완비",
+        "케이블카 240m로 도보 이동 용이",
+        "가족 단위 여행객에게 적합한 시설"
+      ],
+      "reviewQuote": {
+        "text": "아이와 함께 수영장 이용하기 좋았고 위치도 이동하기 수월했습니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "de-stefano-coffee-and-hotel",
@@ -3024,7 +3178,18 @@
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.5,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "reviewHighlight": "1층 카페 운영 및 조식·공용 주방 시설",
+      "reviewPros": [
+        "카페 분위기의 따뜻하고 아늑한 숙소",
+        "공용 주방 및 조식 제공",
+        "케이블카 200m 도보권 입지",
+        "친절한 직원 응대와 아늑한 휴식"
+      ],
+      "reviewQuote": {
+        "text": "커피 향 가득한 1층 분위기와 친절한 직원 덕분에 편안히 묵었습니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "khach-san-royal-phu-quoc",
@@ -3268,7 +3433,18 @@
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.7,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "reviewHighlight": "케이블카 도보 100m 위치와 객실 공간",
+      "reviewPros": [
+        "케이블카 탑승장 100m 인접 입지",
+        "해변 산책 및 야시장 이동 편리",
+        "넓은 객실과 쾌적한 룸 구조",
+        "레스토랑 및 셔틀 서비스 지원"
+      ],
+      "reviewQuote": {
+        "text": "케이블카와 가까워 관광 동선이 편했고 방이 넓었습니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "cybele-hotel",
@@ -3471,7 +3647,18 @@
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.7,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "reviewHighlight": "포지타노 거리 위치 및 케이블카 250m 거리",
+      "reviewPros": [
+        "포지타노 거리의 조용한 골목 정취",
+        "실속 있는 요금과 기본에 충실한 객실",
+        "24시간 룸서비스 지원",
+        "혼잡하지 않은 차분한 숙박 환경"
+      ],
+      "reviewQuote": {
+        "text": "조용하게 지내기 좋고 가격 대비 부담 없이 머물기 좋은 숙소입니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "ca-che-p-boutique-house",
@@ -3679,7 +3866,18 @@
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.8,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "reviewHighlight": "가성비 세부 평점 8.8 및 친절한 직원 서비스",
+      "reviewPros": [
+        "가성비 평점 8.8의 실속 부티크",
+        "아기자기한 분위기와 친절한 응대",
+        "해변 및 야시장 도보 산책 가능",
+        "깨끗한 침구와 실용적인 객실"
+      ],
+      "reviewQuote": {
+        "text": "작지만 아늑하고 가격 대비 만족스러웠습니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "hoang-hon-hotel",
@@ -3789,7 +3987,18 @@
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.6,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "reviewHighlight": "옥상 라운지 일몰 감상과 24시간 프런트 서비스",
+      "reviewPros": [
+        "옥상 선셋 라운지에서 일몰 감상 가능",
+        "선셋타운 거리 풍경과 어우러진 외관",
+        "24시간 프런트 데스크 운영",
+        "주변 식당 및 카페 도보 이동 용이"
+      ],
+      "reviewQuote": {
+        "text": "옥상에서 일몰을 편하게 바라볼 수 있어 좋았습니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "palo-santo-hotel-phu-quoc",
@@ -3937,7 +4146,18 @@
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.9,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "reviewHighlight": "스파 및 마사지 시설 완비, 24시간 프런트 서비스",
+      "reviewPros": [
+        "스파 및 마사지 부대시설 구비",
+        "향기롭고 편안한 웰니스 분위기",
+        "정성스러운 서비스와 깨끗한 침구",
+        "해변 및 주요 명소 접근성 양호"
+      ],
+      "reviewQuote": {
+        "text": "스파를 함께 즐길 수 있어서 여행 피로를 풀기에 아주 좋았습니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "thala-hotel-sorrento",
@@ -4103,7 +4323,18 @@
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.6,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "reviewHighlight": "케이블카 160m(도보 2분) 거리와 신축 객실 컨디션",
+      "reviewPros": [
+        "케이블카 160m 거리의 편리한 입지",
+        "소렌토 구역의 산뜻한 신축 건물",
+        "간결하고 실용적인 객실 구조",
+        "주변 맛집 및 편의시설 접근성"
+      ],
+      "reviewQuote": {
+        "text": "케이블카 타러 가기 편하고 주변에 먹거리도 많아서 좋았습니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "catarina-hotel-phu-quoc",
@@ -4243,7 +4474,18 @@
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.8,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "reviewHighlight": "가성비 평점 9.0 기록 및 주방 시설 완비",
+      "reviewPros": [
+        "가성비 만족도 9.0의 실속형 부티크",
+        "주방 시설과 24시간 프런트 구비",
+        "케이블카 230m 거리로 이동 용이",
+        "가족 단위 투숙객에게 실용적인 구성"
+      ],
+      "reviewQuote": {
+        "text": "룸이 깔끔하고 주방 편의가 있어 가족끼리 머물기 편리했습니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "sunny-hotel",
@@ -4382,7 +4624,18 @@
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.6,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "reviewHighlight": "친절한 직원 서비스 평점 9.4 및 사우나 시설 완비",
+      "reviewPros": [
+        "높은 서비스 및 위치 평점",
+        "사우나 및 스파 부대시설 지원",
+        "밝고 친절한 직원 서비스",
+        "깨끗하고 편안한 침구 관리"
+      ],
+      "reviewQuote": {
+        "text": "직원들이 항상 웃는 얼굴로 친절하게 응대해 주어 기분 좋게 묵었습니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "solaro-hotel-spa-h84816481",
@@ -4737,7 +4990,18 @@
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.8,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "reviewHighlight": "실내외 수영장과 대형 스파, 케이블카 150m 인접",
+      "reviewPros": [
+        "실내·실외 수영장 및 대형 스파 완비",
+        "케이블카 150m 인접 대형 부대시설 숙소",
+        "레스토랑 및 바 2곳 운영",
+        "넓고 쾌적한 객실 환경"
+      ],
+      "reviewQuote": {
+        "text": "수영장과 스파가 잘 되어 있고 케이블카 탑승장과도 아주 가깝습니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "anna-hotel-free-cable-car-and-water-park-tickets",
@@ -4918,7 +5182,18 @@
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.7,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "reviewHighlight": "인피니티 풀 전망 및 피트니스·공용 주방 시설",
+      "reviewPros": [
+        "인피니티 풀 및 아동 풀 보유",
+        "피트니스 센터 및 공용 주방 편의",
+        "가성비 좋은 신축 시설",
+        "케이블카 340m 도보권"
+      ],
+      "reviewQuote": {
+        "text": "인피니티 풀 전망이 시원하고 가격 대비 훌륭한 숙소입니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "juliet-boutique-hotel",
@@ -5122,7 +5397,18 @@
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.8,
-      "googleReviewsCount": 50
+      "googleReviewsCount": 50,
+      "reviewHighlight": "전용 해변 산책로 및 조식 제공",
+      "reviewPros": [
+        "전용 비치 구역 및 조식 제공",
+        "로맨틱한 분위기의 부티크 인테리어",
+        "야시장 및 중심가 도보 이동 가능",
+        "커플 및 휴양 여행객 추천"
+      ],
+      "reviewQuote": {
+        "text": "분위기가 아늑하고 조식이 맛있어 커플 여행에 추천합니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "hoa-ng-hon-ti-m-boutique-hotel",
@@ -5283,7 +5569,18 @@
       "googleRating": 4.3,
       "googleReviewsCount": 50,
       "tier": "standard",
-      "isFeatured": false
+      "isFeatured": false,
+      "reviewHighlight": "소렌토 거리 위치 및 24시간 프런트 데스크 운영",
+      "reviewPros": [
+        "소렌토 거리에 위치한 조용한 소규모 숙소",
+        "24시간 룸서비스 및 프런트 데스크",
+        "케이블카 220m 도보권",
+        "거리 산책하기 좋은 입지"
+      ],
+      "reviewQuote": {
+        "text": "소렌토 거리가 예쁘고 주변 산책하기 좋은 아담한 호텔입니다.",
+        "source": "Agoda"
+      }
     },
     {
       "slug": "the-nice-hotel-phu-quoc-fireworks-ocean-view",

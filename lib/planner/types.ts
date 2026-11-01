@@ -10,11 +10,12 @@ export type TimeBand = 'dawn' | 'morning' | 'afternoon' | 'evening' | 'late'
 export type Companion = 'kids' | 'parents' | 'couple' | 'friends' | 'solo'
 export type Purpose = 'relax' | 'activity' | 'food' | 'photo' | 'shopping'
 export type Pace = 'easy' | 'normal' | 'full'
-export type StayPlan = 'auto' | 'south_only' | 'south_first' | 'central_first'
+/** south_only = 남부만 여행 · south_first = 남부에서 시작 → 다른 지역 · other_first = 다른 지역 → 남부에서 마무리 */
+export type StayPlan = 'south_only' | 'south_first' | 'other_first'
 export type Tier = 'shared' | 'premium' | 'private'
 
 export interface PlannerInput {
-  /** 숙박 일수 (2~6) */
+  /** 남부 숙박 일수 (1~3, 남부 일정은 최대 3박 4일) */
   nights: number
   /** 여행 시작일 (YYYY-MM-DD, 선택) */
   startDate: string
@@ -26,8 +27,6 @@ export interface PlannerInput {
   pace: Pace
   adults: number
   children: number
-  /** 북부(테마파크·사파리 방면) 당일 다녀오기 */
-  northTrip: boolean
 }
 
 export type ProductKind = 'service' | 'tour' | 'ticket' | 'activity'
@@ -35,8 +34,13 @@ export type ProductKind = 'service' | 'tour' | 'ticket' | 'activity'
 export interface Product {
   id: string
   kind: ProductKind
-  /** direct = 마이 푸꾸옥 직접 운영, partner = 제휴 업체 연결 */
-  operator: 'direct' | 'partner'
+  /**
+   * direct = 마이 푸꾸옥 직접 운영(수익 상품), partner = 제휴 업체 연결,
+   * klook = 티켓은 Klook 제휴 링크로 안내 (우리 수익 없음 → 편의 제공)
+   */
+  operator: 'direct' | 'partner' | 'klook'
+  /** operator가 klook일 때 예매 링크 (aid 포함) */
+  klookUrl?: string
   name: L
   summary: L
   duration?: L
@@ -56,6 +60,13 @@ export interface Product {
   link?: string
   /** true면 일정에 노출하지 않음 (업체 확정 전 준비 상품) */
   hidden?: boolean
+  /**
+   * 상담형 상품: 정가 없이 고객과 협의해 견적 (프라이빗 요트·현지 가이드).
+   * 화면에는 "상담 후 견적", 버튼은 "상담 요청"으로 표시되고
+   * 문의 메시지에 consultFields 항목이 빈칸으로 들어간다.
+   */
+  consult?: boolean
+  consultFields?: L[]
 }
 
 export type ItemKind =
@@ -100,6 +111,8 @@ export interface Plan {
   days: PlanDay[]
   stays: StaySegment[]
   notes: L[]
+  /** 중부·북부 여행 조언 (일정은 짜지 않고 조언만) */
+  advice: L[]
   /** 이 일정에 포함된 예약 가능 상품 (기본 담기 후보) */
   productKeys: string[]
 }

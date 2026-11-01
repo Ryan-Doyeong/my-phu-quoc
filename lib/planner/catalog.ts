@@ -12,6 +12,7 @@
  *   - 공항→선셋타운 약 25~30분, 즈엉동→안토이 약 40분
  */
 
+import { SUNSET_TOWN_TICKETS } from '@/lib/tickets'
 import type { L, Product, Region, Tier } from './types'
 
 export const REGION_LABEL: Record<Region, L> = {
@@ -38,6 +39,8 @@ export const TIER_DESC: Record<Tier, L> = {
   private: { ko: '우리 일행만 이용', en: 'Just your group' },
 }
 
+const klook = (id: string) => SUNSET_TOWN_TICKETS.find((t) => t.id === id)?.klookUrl
+
 export const PRODUCTS: Record<string, Product> = {
   airport_pickup: {
     id: 'airport_pickup',
@@ -45,12 +48,95 @@ export const PRODUCTS: Record<string, Product> = {
     operator: 'direct',
     name: { ko: '공항 픽업', en: 'Airport pick-up' },
     summary: {
-      ko: '푸꾸옥 공항에서 숙소까지 전용 차량으로 모셔다 드려요.',
-      en: 'Private car from Phu Quoc Airport to your hotel.',
+      ko: '푸꾸옥 공항에서 숙소까지 전용 차량으로 모셔다 드려요. 밤 도착·새벽 도착도 가능해요.',
+      en: 'Private car from Phu Quoc Airport to your hotel, late-night and dawn arrivals included.',
     },
     duration: { ko: '남부까지 약 25~30분', en: 'About 25–30 min to the south' },
     price: { base: null },
     vendor: null,
+    caution: {
+      ko: '현금(VND)이 필요하면 픽업 시 환전도 함께 문의하세요.',
+      en: 'Need VND cash? Ask about currency exchange when booking your pick-up.',
+    },
+  },
+  exchange: {
+    id: 'exchange',
+    kind: 'service',
+    operator: 'direct',
+    name: { ko: '환전 (원화·달러 → 동)', en: 'Currency exchange' },
+    summary: {
+      ko: '도착 직후 필요한 현금을 숙소 근처에서 합리적인 환율로 바꿔 드려요. 택시·야시장·마사지는 현금이 편해요.',
+      en: 'Change cash near your hotel at a fair rate. Taxis, night markets and massages are easier with cash.',
+    },
+    duration: { ko: '픽업 또는 숙소에서', en: 'At pick-up or your hotel' },
+    price: { base: null },
+    vendor: null,
+    caution: {
+      ko: '취급 통화와 환율은 문의 시 안내해요. 큰 금액은 미리 알려 주세요.',
+      en: 'Currencies and rates on request. Tell us in advance for larger amounts.',
+    },
+  },
+  show_return: {
+    id: 'show_return',
+    kind: 'service',
+    operator: 'direct',
+    name: { ko: '공연 후 귀가 차량', en: 'Ride home after the show' },
+    summary: {
+      ko: '21시 공연이 끝나면 택시 잡기가 가장 어려워요. 미리 예약해 두면 바로 숙소로 이동해요.',
+      en: 'Taxis are hardest to find after the 21:00 show. Book ahead and leave right away.',
+    },
+    duration: { ko: '선셋타운 → 숙소', en: 'Sunset Town → hotel' },
+    price: { base: null },
+    vendor: null,
+  },
+  local_guide: {
+    id: 'local_guide',
+    kind: 'service',
+    operator: 'direct',
+    name: { ko: '현지 가이드 동행', en: 'Local guide' },
+    summary: {
+      ko: '한국어·영어 가능한 현지 가이드가 반일 또는 종일 동행해요. 부모님·아이 동반, 첫 방문에 좋아요.',
+      en: 'A Korean/English-speaking local guide for half or full day. Great with parents, kids or first visits.',
+    },
+    duration: { ko: '반일 · 종일', en: 'Half / full day' },
+    price: { base: null },
+    vendor: null,
+    // 시즌·인원·언어에 따라 요금이 달라 상담 후 견적 (2026-11-01 결정)
+    consult: true,
+    consultFields: [
+      { ko: '희망 날짜·시간(반일/종일)', en: 'Date & hours (half/full day)' },
+      { ko: '언어(한국어/영어/중국어/러시아어)', en: 'Language' },
+      { ko: '인원·동행(부모님/아이)', en: 'Group size & who' },
+    ],
+    caution: {
+      ko: '시즌과 인원에 따라 요금이 달라져요. 문의 주시면 상담 후 견적을 드려요.',
+      en: 'Rates vary by season and group size — we quote after a short consultation.',
+    },
+  },
+  private_yacht: {
+    id: 'private_yacht',
+    kind: 'tour',
+    operator: 'direct',
+    name: { ko: '프라이빗 요트 투어', en: 'Private yacht tour' },
+    summary: {
+      ko: '우리 일행만 타는 요트로 남부 섬·일몰 코스를 원하는 대로 짜요. 프러포즈·기념일·단체 모임에 맞춰 식사와 이벤트도 준비해 드려요.',
+      en: 'A yacht just for your group — islands or sunset, your route. Meals and events for proposals, anniversaries or groups.',
+    },
+    duration: { ko: '2시간~종일 (협의)', en: '2 hours to full day (on request)' },
+    price: { base: null },
+    vendor: null,
+    consult: true,
+    consultFields: [
+      { ko: '희망 날짜·시간(출발/소요)', en: 'Date & time (start/duration)' },
+      { ko: '인원', en: 'Group size' },
+      { ko: '식사 포함 여부(점심/디너/BBQ)', en: 'Meals (lunch/dinner/BBQ)' },
+      { ko: '코스(섬 호핑/일몰/스노클링)', en: 'Route (islands/sunset/snorkel)' },
+      { ko: '이벤트(프러포즈·생일·기념일·촬영)', en: 'Event (proposal/birthday/photo)' },
+    ],
+    caution: {
+      ko: '시간·식사·코스·이벤트에 따라 견적이 달라져요. 원하는 내용을 적어 주시면 맞춤 견적을 드려요.',
+      en: 'Price depends on hours, meals, route and events — tell us what you want and we quote.',
+    },
   },
   airport_dropoff: {
     id: 'airport_dropoff',
@@ -78,6 +164,10 @@ export const PRODUCTS: Record<string, Product> = {
     price: { base: null },
     vendor: null,
     link: '/buggy-tour',
+    caution: {
+      ko: '추천 시간: 석양 무렵이 가장 예쁘고, 번잡함을 피하려면 10~15시 (정오 전후는 햇빛이 강해요). 투어는 저희 파트너 업체와 미리 정한 스케줄로 움직여야 바가지·대기 없이 안전해요.',
+      en: 'Best at sunset; 10:00–15:00 is quietest (midday sun is strong). Tours run on a schedule fixed with our partner — no overcharging or waiting.',
+    },
   },
   car_tour: {
     id: 'car_tour',
@@ -107,7 +197,7 @@ export const PRODUCTS: Record<string, Product> = {
     tierNotes: {
       shared: { ko: '대형 보트 조인 투어', en: 'Big boat, join-in' },
       premium: { ko: '소그룹 스피드보트', en: 'Small-group speedboat' },
-      private: { ko: '전용 스피드보트', en: 'Private speedboat' },
+      private: { ko: '프라이빗 요트·스피드보트 (일행만)', en: 'Private yacht or speedboat' },
     },
     price: { shared: null, premium: null, private: null },
     vendor: null,
@@ -174,7 +264,8 @@ export const PRODUCTS: Record<string, Product> = {
   cable_car: {
     id: 'cable_car',
     kind: 'ticket',
-    operator: 'partner',
+    operator: 'klook',
+    klookUrl: klook('hon-thom-cable-car'),
     name: { ko: '혼똔섬 케이블카 · 선월드', en: 'Hon Thom cable car · Sun World' },
     summary: {
       ko: '바다를 건너는 케이블카를 타고 혼똔섬 테마파크에서 하루를 보내요.',
@@ -183,6 +274,10 @@ export const PRODUCTS: Record<string, Product> = {
     duration: { ko: '반일~종일 · 운영시간 확인 필요', en: 'Half to full day · check opening hours' },
     price: { base: null },
     vendor: null,
+    caution: {
+      ko: '티켓은 Klook에서 직접 예매하면 가장 편해요. 안토이 케이블카역까지 차량이 필요하면 문의하세요.',
+      en: 'Book tickets on Klook. Need a car to the An Thoi cable-car station? Ask us.',
+    },
   },
   massage: {
     id: 'massage',
@@ -237,11 +332,12 @@ export const PRODUCTS: Record<string, Product> = {
   symphony_ticket: {
     id: 'symphony_ticket',
     kind: 'ticket',
-    operator: 'partner',
+    operator: 'klook',
+    klookUrl: klook('south-all-in-one-combo'),
     name: { ko: '심포니 오브 더 씨 좌석·디너 콤보', en: 'Symphony of the Sea seats / dinner combo' },
     summary: {
-      ko: '쇼를 앞자리에서 보거나 해변 레스토랑 디너와 함께 즐기는 티켓이에요.',
-      en: 'Front seats or a beachfront dinner combo for the show.',
+      ko: '쇼를 앞자리에서 보거나 해변 레스토랑 디너와 함께 즐기는 티켓이에요. 무료 관람도 가능하니 좌석은 선택이에요.',
+      en: 'Front seats or a beachfront dinner combo. Watching for free is possible; seats are optional.',
     },
     price: { base: null },
     vendor: null,
@@ -249,11 +345,12 @@ export const PRODUCTS: Record<string, Product> = {
   kiss_ticket: {
     id: 'kiss_ticket',
     kind: 'ticket',
-    operator: 'partner',
+    operator: 'klook',
+    klookUrl: klook('kiss-of-the-sea'),
     name: { ko: '키스 오브 더 씨 좌석 티켓', en: 'Kiss of the Sea seat ticket' },
     summary: {
-      ko: '리조트 무료 티켓이 없을 때 좌석에서 보고 싶다면 예매를 도와드려요.',
-      en: 'If your resort does not provide free tickets, we can book seats for you.',
+      ko: '남부 리조트 투숙객은 무료 티켓을 먼저 확인하세요. 없으면 Klook에서 바로 예매할 수 있어요.',
+      en: 'South resort guests: check for free tickets first. Otherwise book instantly on Klook.',
     },
     price: { base: null },
     vendor: null,
@@ -279,8 +376,8 @@ export const SPOT = {
   sunsetTown: {
     title: { ko: '선셋타운 산책 · 키스 브릿지 일몰', en: 'Sunset Town walk · Kiss Bridge sunset' },
     desc: {
-      ko: '지중해풍 거리를 걷다가 키스 브릿지에서 해 지는 모습을 봐요.',
-      en: 'Stroll the Mediterranean-style streets and catch the sunset at Kiss Bridge.',
+      ko: '지중해풍 거리를 걷다가 키스 브릿지에서 해 지는 모습을 봐요. 16~18시는 피크 타임이라 도보 이동이 가장 편해요.',
+      en: 'Stroll the Mediterranean-style streets and catch the sunset at Kiss Bridge. 16:00–18:00 is peak — walking is easiest.',
     },
   },
   rooftop: {
@@ -390,3 +487,38 @@ export const SPOT = {
     desc: { ko: '공연 전 가볍게 저녁 먹기', en: 'Light dinner before the show' },
   },
 } satisfies Record<string, { title: L; desc: L }>
+
+/**
+ * 중부·북부 여행 조언 — 일정은 남부만 짜고, 다른 지역은 조언으로 안내 (2026-11-01 결정)
+ * 근거: data/itinerary-research/reviews_2026-11-01.json (후기 50건)
+ */
+export const OTHER_REGION_ADVICE: L[] = [
+  {
+    ko: '이동 시간: 공항 ↔ 남부 약 25~30분 · 공항 ↔ 중부(즈엉동) 약 10~20분 · 중부 ↔ 남부 약 40분 · 북부(사파리·그랜드월드 방면) ↔ 남부 약 1~1.5시간 (교통 상황에 따라 다름)',
+    en: 'Travel times: airport ↔ south 25–30 min · airport ↔ Duong Dong 10–20 min · Duong Dong ↔ south about 40 min · north (safari · Grand World) ↔ south about 1–1.5 h',
+  },
+  {
+    ko: '북부가 목적이라면 북부에 숙박을 따로 잡으세요. 남부에서 매일 오가면 왕복 2~3시간이 걸려 피곤하다는 후기가 많아요.',
+    en: 'If the north is a priority, stay there for a night or two — daily round trips from the south take 2–3 hours.',
+  },
+  {
+    ko: '사파리는 선선한 아침 일찍이나 나이트 사파리가 좋고, 아이와 함께라면 사파리와 테마파크는 다른 날로 나누세요.',
+    en: 'Do the safari early in the morning or at night, and split safari and theme park into separate days with kids.',
+  },
+  {
+    ko: '북부 리조트 구역에는 무료 셔틀이 다니지만 시간표가 바뀌곤 해요. 숙소 프런트에 최신 시간을 확인하세요.',
+    en: 'Free shuttles run in the northern resort area, but timetables change — check with your hotel.',
+  },
+  {
+    ko: '남부 공연(21시 키스 오브 더 씨)을 보고 북부로 돌아가면 밤늦게 도착해요. 귀가 차량은 미리 예약해 두면 편해요 (공연 직후엔 택시 잡기가 어려워요).',
+    en: 'After the 21:00 Kiss of the Sea show, getting back north is late and taxis are scarce — pre-book your ride.',
+  },
+  {
+    ko: '중부(즈엉동)는 야시장·시장·롱비치 일몰이 중심이고 공항이 가까워 마지막 날 묵기 편해요.',
+    en: 'Duong Dong (centre) has the night market, local market and Long Beach sunsets, and is close to the airport for your last night.',
+  },
+  {
+    ko: '북부를 하루만 다녀오고 싶다면 전용 차량 종일 대절이 가장 편해요 (사파리·그랜드월드·즈엉동 순으로 돌고 남부 복귀). 부모님·아이 동반이면 가이드 동행도 문의할 수 있어요.',
+    en: 'For a single north day trip, a private car for the day is easiest (safari → Grand World → Duong Dong → back south). With parents or kids, a local guide can join too.',
+  },
+]

@@ -1,5 +1,11 @@
 #!/usr/bin/env node
 /**
+ * [MANDATORY RULE 준수 - 2026-11-01, Ryan 지시 반영]
+ * - SNS(페이스북·인스타그램·틱톡·블로그 등) 출처 데이터 수집 전면 금지
+ * - 상호명 및 시설 기본 정보는 반드시 구글맵(Google Maps) 등록 정보 우선 준수
+ * - 임의의 SNS 링크 수집 시 validation warning 발생 및 null 처리 배제
+ */
+/**
  * scripts/generate_businesses_registry.js
  * 
  * 553개 시설의 정형화된 JSON 데이터를 생성하여
@@ -8,6 +14,16 @@
  */
 
 import { readFileSync, writeFileSync } from 'node:fs'
+
+function validateSourceUrl(url, fieldName, slug) {
+  if (!url) return null;
+  if (/facebook\.com|fb\.com|instagram\.com|tiktok\.com|blog\.|tistory\.com|naver\.com/i.test(url)) {
+    console.warn(`[DATA RULE VIOLATION] ${slug}: SNS source rejected for ${fieldName}: ${url}`);
+    return null; // SNS URL 전면 배제 및 null 처리
+  }
+  return url;
+}
+
 
 function slugify(text) {
   return text

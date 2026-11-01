@@ -967,6 +967,19 @@
   transition: background 0.15s ease, color 0.15s ease;
 }
 
+.tpAdd.tpKlook {
+  background: #ff5722;
+  border-color: #ff5722;
+  color: #fff;
+  text-decoration: none;
+}
+.tpAdd.tpKlook:hover {
+  background: #e64a19;
+}
+.tpOpDirect {
+  color: #111;
+  font-weight: 700;
+}
 .tpAdd.isAdded {
   background: var(--tp-ink);
   color: #fff !important;
@@ -1336,4 +1349,28 @@
 
 .tpHero .itinerariesTitle {
   word-break: keep-all;
+}
+
+.tpFieldHint {
+  font-size: 11.5px;
+  color: var(--tp-muted);
+  margin: -4px 0 10px;
+  line-height: 1.5;
+}
+
+.tpStaySeg.other {
+  flex: 1 1 0;
+  justify-content: center;
+  background: var(--tp-soft);
+  color: var(--tp-muted);
+  border: 1px dashed var(--tp-line);
+  font-weight: 700;
+}
+
+.tpAdvice {
+  background: #f0f9ff;
+}
+
+.tpAdvice summary {
+  color: var(--tp-central);
 }

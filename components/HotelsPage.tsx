@@ -55,7 +55,7 @@ function formatReviewLabel(count: number, locale?: Locale): string {
    - 차이점:
      - 탑 그레이드(라 페스타): '탑 그레이드' + '마이 푸꾸옥 추천 호텔' 배지 2개 노출
      - 추천 호텔(더 룸 호텔): '마이 푸꾸옥 추천 호텔' 배지 1개 노출
-     - 공식 5성급: '5성급' 배지 노출 (미확인 성급은 비노출)
+     - 5성급: '5성급' 배지 노출 (미확인 성급은 비노출)
      - 켐 비치: '선셋타운 차량 15분' 배지 (케이블카 배지와 분리)
    ========================================================================= */
 interface HotelCardProps {
@@ -102,7 +102,7 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
           alt={hotel.displayName || hotel.name_ko}
           loading={isTopGrade || isFeatured ? 'eager' : 'lazy'}
         />
-        {/* 공식 5성급 확인된 호텔만 5성급 표기, 켐 비치 4곳은 '5성 특급 리조트', 더 룸 호텔은 부티크 호텔, 기타 미확인 성급은 숨김 */}
+        {/* 5성급 확인된 호텔만 5성급 표기, 켐 비치 4곳은 '5성급 국제 브랜드 리조트', 더 룸 호텔은 부티크 호텔, 기타 미확인 성급은 숨김 */}
         {isLuxuryResort ? (
           <div className="cardStarBadge luxuryResortStarBadge">
             ⭐ {t.luxuryResortBadge}

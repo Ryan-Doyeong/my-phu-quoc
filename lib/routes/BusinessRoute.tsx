@@ -7,6 +7,8 @@ import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { SocialIcons } from '@/components/SocialIcons'
 import { BusinessReviews, BusinessInstagram } from '@/components/BusinessEnrichment'
 import { BusinessMenuSection } from '@/components/BusinessMenuSection'
+import { EnrichedBusinessAccordions } from '@/components/EnrichedBusinessAccordions'
+import diningCultureGuidesJson from '@/data/dining-culture-guides.json'
 import { PracticalInfoCard } from '@/components/PracticalInfoCard'
 import { FoodGuideSection } from '@/components/FoodGuideSection'
 import { CategoryKnowledgeSection } from '@/components/CategoryKnowledgeSection'
@@ -19,7 +21,11 @@ import { getCoverPhoto } from '@/lib/coverPhotos'
 import { loadMenuForPlace } from '@/lib/menus'
 import businessesRegistry from '@/data/businesses-registry.json'
 import khemBusinesses from '@/data/khem-beach-businesses.json'
-import { categoryLabel, nearbyBadgeText, formatLocalizedAddress } from '@/lib/directory'
+import { categoryLabel, nearbyBadgeText, formatLocalizedAddress, HIDDEN_BUSINESS_SLUGS, isHiddenBusiness } from '@/lib/directory'
+import { JsonLd } from '@/components/JsonLd'
+import { businessTitle, withKeywordSuffix, sunsetKeyword, ZONE_KEYWORD } from '@/lib/seo/meta'
+import { businessJsonLd } from '@/lib/seo/businessJsonld'
+import { getHotelBySlug, getHotelPriceRange, HotelPriceBadge } from '@/lib/hotels' 
 import { stockGalleryFor } from '@/lib/stockImages'
 import { imageUrl } from '@/lib/imageUrl'
 import {
@@ -88,7 +94,7 @@ export async function generateBusinessMetadata(
   slug: string,
   locale: Locale = 'en'
 ): Promise<Metadata> {
-  if (DELETED_SLUG_REDIRECTS[slug]) {
+  if (DELETED_SLUG_REDIRECTS[slug] || HIDDEN_BUSINESS_SLUGS.has(slug)) {
     return {}
   }
   const supabase = createPublicClient()
@@ -117,7 +123,24 @@ export async function generateBusinessMetadata(
   if (!b) {
     b = (khemBusinesses as any[]).find((x) => x.slug === slug && x.status === 'published') || null
   }
-  if (!b) return {}
+  if (!b || isHiddenBusiness(b)) return {}
+
+  const regItem = (businessesRegistry as any[]).find((x) => x.slug === b.slug)
+  if (regItem) {
+    b = {
+      ...b,
+      lat: regItem.lat ?? b.lat,
+      lng: regItem.lng ?? b.lng,
+      google_place_id: regItem.google_place_id ?? b.google_place_id,
+      google_maps_name: regItem.google_maps_name ?? b.google_maps_name,
+      gallery_urls:
+        Array.isArray(regItem.gallery_urls) && regItem.gallery_urls.length > 0
+          ? regItem.gallery_urls
+          : b.gallery_urls,
+      media_note: regItem.media_note ?? b.media_note,
+      photo_permission: regItem.photo_permission ?? b.photo_permission,
+    }
+  }
 
   const rawDesc = selectBusinessDescription(b, locale)
   const description = rawDesc
@@ -199,25 +222,42 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
     b = (khemBusinesses as any[]).find((x) => x.slug === slug && x.status === 'published') || null
   }
   // 로컬 선셋타운 레지스트리 데이터 보강 (Supabase DB 미실행 상태에서도 Agoda 예약 링크, 정품 사진 노출)
-  const regItem = (businessesRegistry as any[]).find((x) => x.slug === slug)
-  if (b && regItem) {
-    if (regItem.agoda_url && !b.agoda_url) b.agoda_url = regItem.agoda_url
-    if (regItem.website_url && regItem.website_url.includes('agoda.com') && (!b.website_url || !b.website_url.includes('agoda.com'))) {
-      b.website_url = regItem.website_url
+  const regItemForEnrich = (businessesRegistry as any[]).find((x) => x.slug === slug)
+  if (b && regItemForEnrich) {
+    if (regItemForEnrich.agoda_url && !b.agoda_url) b.agoda_url = regItemForEnrich.agoda_url
+    if (regItemForEnrich.website_url && regItemForEnrich.website_url.includes('agoda.com') && (!b.website_url || !b.website_url.includes('agoda.com'))) {
+      b.website_url = regItemForEnrich.website_url
     }
-    if (regItem.gallery_urls && regItem.gallery_urls.length > 0 && (!b.gallery_urls || b.gallery_urls.length === 0 || b.gallery_urls[0]?.includes('googleusercontent'))) {
-      b.gallery_urls = regItem.gallery_urls
+    if (regItemForEnrich.gallery_urls && regItemForEnrich.gallery_urls.length > 0 && (!b.gallery_urls || b.gallery_urls.length === 0 || b.gallery_urls[0]?.includes('googleusercontent'))) {
+      b.gallery_urls = regItemForEnrich.gallery_urls
     }
-    if (b.category === 'hotels') {
-      if (regItem.public_name) b.public_name = regItem.public_name
-      if (regItem.google_maps_name) b.google_maps_name = regItem.google_maps_name
+    if (b.category === 'hotels' || b.category === 'hotel') {
+      if (regItemForEnrich.public_name) b.public_name = regItemForEnrich.public_name
+      if (regItemForEnrich.google_maps_name) b.google_maps_name = regItemForEnrich.google_maps_name
     }
   }
-  if (!b || b.slug === 'sunset-place-4' || b.slug === 'sunset-place-8' || b.id === 'local-sunset-139' || b.id === 'local-sunset-240') {
+  if (!b || isHiddenBusiness(b) || b.slug === 'sunset-place-4' || b.slug === 'sunset-place-8' || b.id === 'local-sunset-139' || b.id === 'local-sunset-240') {
     if (DELETED_SLUG_REDIRECTS[slug]) {
       redirect(localePath(locale, DELETED_SLUG_REDIRECTS[slug]))
     }
     notFound()
+  }
+
+  const regItem = (businessesRegistry as any[]).find((x) => x.slug === b.slug)
+  if (regItem) {
+    b = {
+      ...b,
+      lat: regItem.lat ?? b.lat,
+      lng: regItem.lng ?? b.lng,
+      google_place_id: regItem.google_place_id ?? b.google_place_id,
+      google_maps_name: regItem.google_maps_name ?? b.google_maps_name,
+      gallery_urls:
+        Array.isArray(regItem.gallery_urls) && regItem.gallery_urls.length > 0
+          ? regItem.gallery_urls
+          : b.gallery_urls,
+      media_note: regItem.media_note ?? b.media_note,
+      photo_permission: regItem.photo_permission ?? b.photo_permission,
+    }
   }
 
   const photos = (b.gallery_urls || []).length
@@ -263,11 +303,11 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
       b.google_maps_url.match(/place_id=([A-Za-z0-9_-]+)/)
     : null
   const googlePlaceId = b.google_place_id || (placeIdMatch ? placeIdMatch[1] : null)
-  const menuData = loadMenuForPlace(googlePlaceId, locale)
+  const menuData = loadMenuForPlace(googlePlaceId, locale);
   const businessDisplayName = displayBusinessName(b, locale)
 
   const isDiningOrFood =
-    !isNameOnly &&
+    (!isNameOnly || Boolean(menuData)) &&
     (b.category === 'dining' ||
       b.category === 'food' ||
       b.category === 'cafe' ||
@@ -764,25 +804,44 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
               )}
             </article>
 
-            {/* 2. Menu & Prices (Good Life style standalone card) */}
-            {isDiningOrFood && (
-              <BusinessMenuSection
-                menuData={menuData}
-                locale={locale}
-                menuImages={menuData?.menuImages}
-              />
-            )}
+            {/* 2. Menu & Enriched Accordions (식음료 업체 전용 아코디언 3섹션) */}
+            {(() => {
+              if (isDiningOrFood) {
+                const explicitGuide = (diningCultureGuidesJson as Record<string, any>)[b.slug]
+                const fallbackGuide = foodGuide ? {
+                  food_style: { ko: foodGuide.eyebrow, en: foodGuide.eyebrow },
+                  culture_story: { ko: foodGuide.introText, en: foodGuide.introText },
+                  sauce_guide: null,
+                  sauce_details: null,
+                  eating_tips: foodGuide.sections.map(s => ({
+                    title_ko: s.ko?.subheading || s.title,
+                    title_en: s.en?.subheading || s.title,
+                    desc_ko: s.ko?.paragraphs?.[0] || '',
+                    desc_en: s.en?.paragraphs?.[0] || '',
+                  }))
+                } : null
 
-            {/* 3. Knowledge & Culture Guide (Good Life style cultural knowledge guide) */}
-            {foodGuide && (
-              <FoodGuideSection
-                eyebrow={foodGuide.eyebrow}
-                introText={foodGuide.introText}
-                sections={foodGuide.sections}
-                locale={locale}
-              />
-            )}
-            {categoryGuide && (
+                const cultureGuide = explicitGuide || fallbackGuide
+                // 핫픽스: 실제 고유 사진이 등록된 업체(b.gallery_urls)에만 사진 더 보기 갤러리를 노출하고, 그 외에는 빈 배열 전달하여 섹션 숨김
+                const enrichedPhotos = b.gallery_urls && b.gallery_urls.length > 0
+                  ? b.gallery_urls
+                  : []
+
+                return (
+                  <EnrichedBusinessAccordions
+                    business={b}
+                    menuData={menuData}
+                    locale={locale}
+                    cultureGuide={cultureGuide}
+                    photos={enrichedPhotos}
+                  />
+                )
+              }
+
+              return null
+            })()}
+
+            {!isDiningOrFood && categoryGuide && (
               <CategoryKnowledgeSection
                 eyebrow={categoryGuide.eyebrow}
                 title={categoryGuide.title}

@@ -14,6 +14,7 @@ import {
   isDirectoryCategory,
   normalizeDirectoryCategory,
   mergeDirectoryCategoryAppearance,
+  isHiddenBusiness,
 } from '@/lib/directory'
 import { normalizeZoneQuery, type MainZoneSlug } from '@/lib/zones'
 import { buildAlternates, localePath, localeUrl, ogLocaleFor, type Locale } from '@/lib/i18n/config'
@@ -88,19 +89,25 @@ export async function renderDirectoryRoute(
     { zone: MainZoneSlug; public_category: string; service_areas: string[] }
   >
 
+  const registryBySlug = new Map(
+    (businessesRegistry as any[]).map((b) => [b.slug, b])
+  )
+
   // Merge registry and verified Khem Beach data mapped to public 10 categories
   const combinedRegistry = [
-    ...(businessesRegistry as any[]).map((b) => {
-      const a = assignments[b.id]
-      return {
-        ...b,
-        public_category: a?.public_category || b.category,
-        zone: a?.zone || 'sunset-town',
-        service_areas: a?.service_areas || ['sunset-town'],
-      }
-    }),
+    ...(businessesRegistry as any[])
+      .filter((b) => b.status === 'published' && !isHiddenBusiness(b))
+      .map((b) => {
+        const a = assignments[b.id]
+        return {
+          ...b,
+          public_category: a?.public_category || b.category,
+          zone: a?.zone || 'sunset-town',
+          service_areas: a?.service_areas || ['sunset-town'],
+        }
+      }),
     ...(khemBusinesses as any[])
-      .filter((b) => b.status === 'published')
+      .filter((b) => b.status === 'published' && !isHiddenBusiness(b))
       .map((b) => {
       const a = assignments[b.id]
       return {
@@ -116,25 +123,37 @@ export async function renderDirectoryRoute(
     (b) => b.zone === 'khem-beach' && b.public_category === category
   )
 
+  const enrichedData = (data || []).map((b: any) => {
+    const reg = registryBySlug.get(b.slug)
+    if (!reg) return b
+    return {
+      ...b,
+      lat: reg.lat ?? b.lat,
+      lng: reg.lng ?? b.lng,
+      google_place_id: reg.google_place_id ?? b.google_place_id,
+      google_maps_name: reg.google_maps_name ?? b.google_maps_name,
+      gallery_urls:
+        Array.isArray(reg.gallery_urls) && reg.gallery_urls.length > 0
+          ? reg.gallery_urls
+          : b.gallery_urls,
+      media_note: reg.media_note ?? b.media_note,
+      photo_permission: reg.photo_permission ?? b.photo_permission,
+    }
+  })
+
   const dbSlugs = new Set((data || []).map((b: any) => b.slug))
   const unmigratedSunsetItems = combinedRegistry.filter(
     (b) => b.zone !== 'khem-beach' && b.public_category === category && !dbSlugs.has(b.slug)
   )
 
   const items = [
-    ...(data && data.length > 0 && !['beaches', 'transport'].includes(category)
-      ? [...data, ...unmigratedSunsetItems]
+    ...(enrichedData.length > 0 && !['beaches', 'transport'].includes(category)
+      ? [...enrichedData, ...unmigratedSunsetItems]
       : combinedRegistry.filter(
           (b) => b.zone !== 'khem-beach' && b.public_category === category
         )),
     ...khemItems,
-  ].filter(
-    (b: any) =>
-      b.slug !== 'sunset-place-4' &&
-      b.slug !== 'sunset-place-8' &&
-      b.id !== 'local-sunset-139' &&
-      b.id !== 'local-sunset-240'
-  )
+  ].filter((b: any) => !isHiddenBusiness(b))
 
   const initialZone = normalizeZoneQuery(searchParams?.zone)
 

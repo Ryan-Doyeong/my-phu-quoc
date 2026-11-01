@@ -459,3 +459,60 @@ export function formatLocalizedAddress(address?: string | null, locale: Locale =
   if (!addr) return suffix
   return `${addr}, ${suffix}`
 }
+
+/**
+ * 2026-10-31 구글맵 실존 검증 결과 비공개(review) 전환된 13개 업체 슬러그 및 레거시 ID 목록
+ */
+export const HIDDEN_BUSINESS_SLUGS = new Set<string>([
+  'ang-spa-nail',
+  'at-108-new-an-thoi',
+  'banh-canh-ghe-by-restaurant-seafood',
+  'bloom-spa-phu-quoc-sunset-town',
+  'draft-beer-sunset-town-phu-quoc',
+  'eric-kayser-vietnam',
+  'gl90s-phu-quoc-laundry-services-sunsetown-ama47-24-24',
+  'herbal-spa-nail-sunset-town',
+  'lumi-spa-massage',
+  'luxury-hotel-spa-milan-38-sunset-town',
+  'madam-khanh-restaurant-phu-quoc-2',
+  'mimi-fruits-mart',
+  'mixue-ice-cream-and-tea',
+  'nha-hang-com-nieu-viet-xua-an-thoi',
+  'oc-dao-an-thoi',
+  'quan-nhau-binh-dan-hoang-hon-hoang-hon-quan',
+  'sieu-thi-dat-phuong-nam',
+  'sorrento-restaurant-bar',
+  'sun-group-sunset-town-electric-buggy-service',
+  'sunset-place-4',
+  'sunset-place-6',
+  'sunset-place-8',
+  'triland-hillside',
+  'venice-spamedica-phu-quoc',
+  'wave-cafe-pub-3f-sunset-town',
+  'wave-spa-2f-sunset-town',
+])
+
+export const HIDDEN_BUSINESS_IDS = new Set<string>([
+  'local-sunset-018',
+  'local-sunset-065',
+  'local-sunset-139',
+  'local-sunset-187',
+  'local-sunset-189',
+  'local-sunset-204',
+  'local-sunset-212',
+  'local-sunset-233',
+  'local-sunset-239',
+  'local-sunset-240',
+  'local-sunset-242',
+  'local-sunset-262',
+  'local-sunset-268',
+])
+
+export function isHiddenBusiness(b: { slug?: string | null; id?: string | null; status?: string | null } | null | undefined): boolean {
+  if (!b) return true
+  if (b.status && b.status !== 'published') return true
+  if (b.slug && HIDDEN_BUSINESS_SLUGS.has(b.slug)) return true
+  if (b.id && HIDDEN_BUSINESS_IDS.has(String(b.id))) return true
+  return false
+}
+
