@@ -21,7 +21,7 @@ import { getCoverPhoto } from '@/lib/coverPhotos'
 import { loadMenuForPlace } from '@/lib/menus'
 import businessesRegistry from '@/data/businesses-registry.json'
 import khemBusinesses from '@/data/khem-beach-businesses.json'
-import { categoryLabel, nearbyBadgeText, formatLocalizedAddress } from '@/lib/directory'
+import { categoryLabel, nearbyBadgeText, formatLocalizedAddress, HIDDEN_BUSINESS_SLUGS, isHiddenBusiness } from '@/lib/directory'
 import { JsonLd } from '@/components/JsonLd'
 import { businessTitle, withKeywordSuffix, sunsetKeyword, ZONE_KEYWORD } from '@/lib/seo/meta'
 import { businessJsonLd } from '@/lib/seo/businessJsonld'
@@ -93,7 +93,7 @@ export async function generateBusinessMetadata(
   slug: string,
   locale: Locale = 'en'
 ): Promise<Metadata> {
-  if (DELETED_SLUG_REDIRECTS[slug]) {
+  if (DELETED_SLUG_REDIRECTS[slug] || HIDDEN_BUSINESS_SLUGS.has(slug)) {
     return {}
   }
   const supabase = createPublicClient()
@@ -123,7 +123,24 @@ export async function generateBusinessMetadata(
   if (!b) {
     b = (khemBusinesses as any[]).find((x) => x.slug === slug && x.status === 'published') || null
   }
-  if (!b) return {}
+  if (!b || isHiddenBusiness(b)) return {}
+
+  const regItem = (businessesRegistry as any[]).find((x) => x.slug === b.slug)
+  if (regItem) {
+    b = {
+      ...b,
+      lat: regItem.lat ?? b.lat,
+      lng: regItem.lng ?? b.lng,
+      google_place_id: regItem.google_place_id ?? b.google_place_id,
+      google_maps_name: regItem.google_maps_name ?? b.google_maps_name,
+      gallery_urls:
+        Array.isArray(regItem.gallery_urls) && regItem.gallery_urls.length > 0
+          ? regItem.gallery_urls
+          : b.gallery_urls,
+      media_note: regItem.media_note ?? b.media_note,
+      photo_permission: regItem.photo_permission ?? b.photo_permission,
+    }
+  }
 
   const rawDesc = selectBusinessDescription(b, locale)
   const isKhemBiz = b.zone === 'khem-beach' || (b.id && String(b.id).startsWith('khem-'))
@@ -217,11 +234,28 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
   if (!b) {
     b = (khemBusinesses as any[]).find((x) => x.slug === slug && x.status === 'published') || null
   }
-  if (!b || b.slug === 'sunset-place-4' || b.slug === 'sunset-place-8' || b.id === 'local-sunset-139' || b.id === 'local-sunset-240') {
+  if (!b || isHiddenBusiness(b)) {
     if (DELETED_SLUG_REDIRECTS[slug]) {
       redirect(localePath(locale, DELETED_SLUG_REDIRECTS[slug]))
     }
     notFound()
+  }
+
+  const regItem = (businessesRegistry as any[]).find((x) => x.slug === b.slug)
+  if (regItem) {
+    b = {
+      ...b,
+      lat: regItem.lat ?? b.lat,
+      lng: regItem.lng ?? b.lng,
+      google_place_id: regItem.google_place_id ?? b.google_place_id,
+      google_maps_name: regItem.google_maps_name ?? b.google_maps_name,
+      gallery_urls:
+        Array.isArray(regItem.gallery_urls) && regItem.gallery_urls.length > 0
+          ? regItem.gallery_urls
+          : b.gallery_urls,
+      media_note: regItem.media_note ?? b.media_note,
+      photo_permission: regItem.photo_permission ?? b.photo_permission,
+    }
   }
 
   const photos = (b.gallery_urls || []).length

@@ -4,7 +4,7 @@ import { createPublicClient } from '@/lib/supabase/public'
 import khemBusinesses from '@/data/khem-beach-businesses.json'
 import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
-import { DIRECTORY_CATEGORY_KEYS, categoryLabel, nearbyBadgeText, formatLocalizedAddress } from '@/lib/directory'
+import { DIRECTORY_CATEGORY_KEYS, categoryLabel, nearbyBadgeText, formatLocalizedAddress, isHiddenBusiness } from '@/lib/directory'
 import { PUBLISHED_EVENTS } from '@/lib/eventSamples'
 import { stockPrimaryFor } from '@/lib/stockImages'
 import { imageUrl } from '@/lib/imageUrl'
@@ -130,10 +130,7 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
   ]
   const b = allBusinesses.filter(
     (x: any) =>
-      x.slug !== 'sunset-place-4' &&
-      x.slug !== 'sunset-place-8' &&
-      x.id !== 'local-sunset-139' &&
-      x.id !== 'local-sunset-240' &&
+      !isHiddenBusiness(x) &&
       (!needle ||
         [
           x.public_name,
