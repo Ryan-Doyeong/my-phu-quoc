@@ -1,5 +1,40 @@
 [
   {
+    "id": "local-sunset-the-room-hotel",
+    "public_name": "더 룸 호텔 - 스타벅스 앤 파이어웍스 (The Room Hotel - Starbucks & FIREWORKS)",
+    "slug": "the-room-hotel",
+    "category": "hotels",
+    "subcategory": "boutique_hotel",
+    "google_place_id": "ChIJ_the_room_hotel_phu_quoc",
+    "description_en": "Boutique hotel in Sunset Town with ocean view balconies, close to Starbucks and night market.",
+    "description_ko": "선셋타운 중심가 베니스 거리에 위치한 부티크 호텔. 전 객실 오션뷰 발코니 및 스타벅스·야시장 도보권.",
+    "address": "65 Đường Venice, An Thới, Phú Quốc, Kiên Giang, Vietnam",
+    "google_maps_name": "The Room Hotel - Starbucks & FIREWORKS",
+    "google_maps_url": "https://maps.app.goo.gl/y2P9Vq8Z5Y8Z8",
+    "phone": "+84 90 799 41 88",
+    "website_url": "https://www.agoda.com/ko-kr/the-room-hotel/hotel/phu-quoc-island-vn.html",
+    "agoda_url": "https://www.agoda.com/ko-kr/the-room-hotel/hotel/phu-quoc-island-vn.html",
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "마이푸꾸옥 공식 운영 / 추천 부티크 호텔",
+    "google_rating": 5.0,
+    "google_review_count": 76,
+    "is_featured": true,
+    "gallery_urls": [
+      "/covers-photo/the-room-hotel-1.webp",
+      "/covers-photo/the-room-hotel-2.webp",
+      "/covers-photo/the-room-hotel-3.webp",
+      "/covers-photo/the-room-hotel-4.webp",
+      "/covers-photo/the-room-hotel-5.webp"
+    ],
+    "tags": [
+      "boutique_hotel",
+      "Sunset Town",
+      "featured",
+      "ocean_view"
+    ]
+  },
+  {
     "id": "local-sunset-1",
     "public_name": "노스카 호텔 선셋타운 (Noska Hotel Sunset Town Sea View & Fireworks)",
     "slug": "noska-hotel",
@@ -720,7 +755,7 @@
     "instagram_url": null,
     "status": "unlisted",
     "verification_status": "ai_checked",
-    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
+    "verification_note": "Toà The Sea (S1-S2) 일반 아파트 단지 핀 (크리스탈 아파트와 중복)",
     "google_rating": 5,
     "google_review_count": 50,
     "gallery_urls": [],
@@ -1359,18 +1394,12 @@
     "phone": "+84 828 606 886",
     "website_url": "https://www.agoda.com/ko-kr/roma-hotel-phu-qu-c/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
-    "status": "published",
+    "status": "unlisted",
     "verification_status": "ai_checked",
-    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
+    "verification_note": "ROVA 호텔 베니스 105호 분점 (본점 Positano 41-43 아고다 등록)",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [
-      "/covers-photo/rova-105-hotel-1.webp",
-      "/covers-photo/rova-105-hotel-2.webp",
-      "/covers-photo/rova-105-hotel-3.webp",
-      "/covers-photo/rova-105-hotel-4.webp",
-      "/covers-photo/rova-105-hotel-5.webp"
-    ],
+    "gallery_urls": [],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -1989,21 +2018,28 @@
     "google_maps_name": "ROVA HOTEL & SPA PHU QUOC",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJM6pVVcqVpzERvwPbu-fNL6w",
     "phone": "+84 965 532 882",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/roma-hotel-phu-qu-c/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
-    "status": "unlisted",
+    "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.1,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/rova-hotel-spa-phu-quoc-1.webp",
+      "/covers-photo/rova-hotel-spa-phu-quoc-2.webp",
+      "/covers-photo/rova-hotel-spa-phu-quoc-3.webp",
+      "/covers-photo/rova-hotel-spa-phu-quoc-4.webp",
+      "/covers-photo/rova-hotel-spa-phu-quoc-5.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "(해당 없음)"
+    "_deleted_claims": "(해당 없음)",
+    "agoda_url": "https://www.agoda.com/ko-kr/roma-hotel-phu-qu-c/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-62",
@@ -2497,11 +2533,11 @@
     "google_maps_name": "Crystal Apartment Hillside Phu Quoc - Sunset Town & Firework",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ320mYwCXpzER-9Vv3cMrOvk",
     "phone": "+84 904 298 956",
-    "website_url": "https://www.facebook.com/CrystalApartmentHillsidePhuQuoc",
+    "website_url": "https://www.agoda.com/ko-kr/hotel/phu-quoc-island-vn.html?hotel_id=86362561",
     "instagram_url": null,
     "status": "unlisted",
     "verification_status": "ai_checked",
-    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
+    "verification_note": "Agoda 등록 확인(URL 매칭 완료), 고화질 객실 사진 확보 대기",
     "google_rating": 2.6,
     "google_review_count": 50,
     "gallery_urls": [],
@@ -2511,7 +2547,8 @@
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
-    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리"
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
+    "agoda_url": "https://www.agoda.com/ko-kr/hotel/phu-quoc-island-vn.html?hotel_id=86362561"
   },
   {
     "id": "local-sunset-78",
@@ -2733,7 +2770,7 @@
   },
   {
     "id": "local-sunset-84",
-    "public_name": "Sunset Town Apartment Phu Quoc",
+    "public_name": "시즌 아파트먼트 선셋타운 (Season Apartment Sunset Town)",
     "slug": "sunset-town-apartment-phu-quoc",
     "category": "hotels",
     "subcategory": "residence",
@@ -2741,7 +2778,7 @@
     "description_en": "Sunset Town Apartment Phu Quoc is a residence apartment located in Sunset Town, Phu Quoc.",
     "description_ko": "Sun Grand City Hillside 고층 아파트먼트, 오션/불꽃놀이 뷰.",
     "address": "Phu Quoc, An Giang, Vietnam",
-    "google_maps_name": "Sunset Town Apartment Phu Quoc",
+    "google_maps_name": "Season Apartment Sunset Town",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJg0OEO6CWpzERLcs9LETAtdI",
     "phone": null,
     "website_url": null,
