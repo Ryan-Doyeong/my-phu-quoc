@@ -93,17 +93,17 @@
     "location_en": "Sun Bavaria Pub (40 m · 1 min walk) · Signature Gallery (260 m · 3 min walk) · Dragon Staircase (300 m · 4 min walk) · Clock Tower (310 m · 4 min walk)"
   },
   "coastal-living-hotel-phu-quoc": {
-    "location": "키스 브릿지(240m·도보 3분) · 야시장(280m·도보 4분) · 케이블카(360m·도보 5분) · 선 바바리아 펍(350m·도보 5분)",
+    "location": "키스 브릿지(240m·도보 3분) · 야시장(280m·도보 4분) · 선 바바리아 펍(350m·도보 5분) · 케이블카(360m·도보 5분)",
     "view": "오션뷰 및 선셋 전망, 지중해풍 포시타노 거리 조망",
-    "condition": "2025년 신축 부티크 호텔로 최상급 청결도와 모던한 인테리어",
+    "condition": "최상급 청결도와 모던하고 안락한 인테리어의 부티크 호텔",
     "staff": "24시간 친절한 프런트 데스크 서비스",
     "pros": [
-      "2025년 신축",
       "최상급 평점 9.5",
-      "키스 브릿지 및 해변 도보 3분"
+      "키스 브릿지 및 해변 도보 3분",
+      "쾌적하고 모던한 객실 컨디션"
     ],
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Coastal+Living+Hotel+Phu+Quoc",
-    "location_en": "Kiss Bridge (240 m · 3 min walk) · VuiFest Night Market (280 m · 4 min walk) · Cable Car (360 m · 5 min walk) · Sun Bavaria Pub (350 m · 5 min walk)"
+    "location_en": "Kiss Bridge (240 m · 3 min walk) · VuiFest Night Market (280 m · 4 min walk) · Sun Bavaria Pub (350 m · 5 min walk) · Cable Car (360 m · 5 min walk)"
   },
   "roma-hotel-phu-qu-c": {
     "location": "혼똔섬 케이블카 도보 약 480m (도보 7분)",

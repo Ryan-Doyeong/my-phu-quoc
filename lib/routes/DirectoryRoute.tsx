@@ -116,9 +116,14 @@ export async function renderDirectoryRoute(
     (b) => b.zone === 'khem-beach' && b.public_category === category
   )
 
+  const dbSlugs = new Set((data || []).map((b: any) => b.slug))
+  const unmigratedSunsetItems = combinedRegistry.filter(
+    (b) => b.zone !== 'khem-beach' && b.public_category === category && !dbSlugs.has(b.slug)
+  )
+
   const items = [
     ...(data && data.length > 0 && !['beaches', 'transport'].includes(category)
-      ? data
+      ? [...data, ...unmigratedSunsetItems]
       : combinedRegistry.filter(
           (b) => b.zone !== 'khem-beach' && b.public_category === category
         )),
