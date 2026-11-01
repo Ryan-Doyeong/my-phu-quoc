@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 import { SITE_URL } from '@/lib/supabase/config'
 import { createPublicClient } from '@/lib/supabase/public'
-import { DIRECTORY_CATEGORY_KEYS } from '@/lib/directory'
+import { DIRECTORY_CATEGORY_KEYS, HIDDEN_BUSINESS_SLUGS } from '@/lib/directory'
 import { PUBLISHED_EVENTS } from '@/lib/eventSamples'
 import { storyAvailableLocales } from '@/lib/i18n/dictionaries'
 import { LOCALES, buildAlternates, localeUrl, hantPath, type Locale } from '@/lib/i18n/config'
@@ -66,7 +66,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         let bSlug = b.slug
         if (bSlug === "sunset-house-phu-quoc-buggy-sevices") bSlug = "sunset-house-phu-quoc-buggy-services"
         if (bSlug === "l-a-hillside-aparment-sunset-town-phu-quoc") bSlug = "l-a-hillside-apartment-sunset-town-phu-quoc"
-        if (bSlug && bSlug !== 'sunset-place-4' && bSlug !== 'sunset-place-8') {
+        if (bSlug && !HIDDEN_BUSINESS_SLUGS.has(bSlug)) {
           const barePath = `/business/${bSlug}`
           const lastModified = b.updated_at ? new Date(b.updated_at) : now
           const alternates = buildAlternates(barePath, LOCALES)
