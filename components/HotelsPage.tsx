@@ -13,6 +13,7 @@ import { getDictionary } from '@/lib/i18n/dictionaries'
 import { categoryLabel } from '@/lib/directory'
 import { HOTEL_TRANSLATIONS, localizeHotel, type HotelUiDictionary } from '@/lib/i18n/hotelTranslations'
 import type { HotelItem, HotelArea } from '@/lib/hotels'
+import { HotelPriceBadge } from '@/components/HotelPriceBadge'
 import '@/app/hotels/hotels.css'
 
 interface HotelsPageProps {
@@ -137,11 +138,7 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
             {hotel.googleRating && (
               <span className="googleScoreBadge">{t.googleMapsLabel} {hotel.googleRating.toFixed(1)} ★ ({hotel.googleReviewsCount || 18})</span>
             )}
-            {hotel.priceRange && (
-              <span className="cardPriceBadge" title={`아고다 기준 1박 요금대 (5단계 중 ${hotel.priceRange.length}단계), 조회일: 2026-11-01`}>
-                {hotel.priceRange}
-              </span>
-            )}
+            <HotelPriceBadge priceRange={hotel.priceRange} />
           </div>
           {isKhem ? (
             <span className="khemDistBadge">🚗 {getKhemDistanceBadge(hotel, t)}</span>
@@ -341,11 +338,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                 {hotel.googleRating && (
                   <span className="googleScoreBadge">{t.googleMapsLabel} {hotel.googleRating.toFixed(1)} ★ ({hotel.googleReviewsCount || 18})</span>
                 )}
-                {hotel.priceRange && (
-                  <span className="cardPriceBadge" style={{ marginLeft: '6px' }} title={`아고다 기준 1박 요금대 (5단계 중 ${hotel.priceRange.length}단계), 조회일: 2026-11-01`}>
-                    {hotel.priceRange}
-                  </span>
-                )}
+                <HotelPriceBadge priceRange={hotel.priceRange} style={{ marginLeft: '6px' }} />
               </div>
               {isKhem ? (
                 <span className="khemDistBadge" style={{ fontSize: '0.85rem', padding: '4px 10px' }}>

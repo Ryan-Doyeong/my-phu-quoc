@@ -25,7 +25,7 @@ import { categoryLabel, nearbyBadgeText, formatLocalizedAddress, HIDDEN_BUSINESS
 import { JsonLd } from '@/components/JsonLd'
 import { businessTitle, withKeywordSuffix, sunsetKeyword, ZONE_KEYWORD } from '@/lib/seo/meta'
 import { businessJsonLd } from '@/lib/seo/businessJsonld'
-import { getHotelBySlug, getHotelPriceRange, HotelPriceBadge } from '@/lib/hotels' 
+import { getHotelPriceRangeForBusiness, HotelPriceBadge } from '@/lib/hotels' 
 import { stockGalleryFor } from '@/lib/stockImages'
 import { imageUrl } from '@/lib/imageUrl'
 import {
@@ -360,6 +360,9 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
     }
   }
 
+  const isHotel = b.category === 'hotel' || b.category === 'hotels'
+  const hotelPriceRange = isHotel ? getHotelPriceRangeForBusiness(b) : undefined
+
   return (
     <main className="businessDetailPage">
       <script
@@ -586,6 +589,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                   ) : null}
                 </>
               ) : null}
+              {hotelPriceRange && <HotelPriceBadge priceRange={hotelPriceRange} />}
               <span>{formatLocalizedAddress(b.address, locale)}</span>
             </div>
             {!isNameOnly && (

@@ -30,6 +30,7 @@ import {
   selectBusinessDescription,
   displayBusinessName,
 } from '@/lib/i18n/dictionaries'
+import { getHotelPriceRangeForBusiness, HotelPriceBadge } from '@/lib/hotels'
 
 const MAP_LINK_LABEL: Record<string, string> = {
   ko: '지도 보기 ↗',
@@ -148,6 +149,8 @@ function BusinessCard({ b, locale }: { b: Business; locale: Locale }) {
     ? translateTerm(b.subcategory, locale)
     : categoryLabel(b.category, locale)
   const coverPhoto = getCoverPhoto(b.slug)
+  const isHotel = (b.category as string) === 'hotel' || (b.category as string) === 'hotels'
+  const hotelPriceRange = isHotel ? getHotelPriceRangeForBusiness(b) : undefined
 
   return (
     <Link
@@ -209,7 +212,10 @@ function BusinessCard({ b, locale }: { b: Business; locale: Locale }) {
               {subLabel}
               {nearbyText ? ` · ${nearbyText}` : ''}
             </span>
-            {b.google_rating ? <strong>★ {Number(b.google_rating).toFixed(1)}</strong> : null}
+            <div style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
+              {hotelPriceRange && <HotelPriceBadge priceRange={hotelPriceRange} />}
+              {b.google_rating ? <strong>★ {Number(b.google_rating).toFixed(1)}</strong> : null}
+            </div>
           </div>
           <h3>{displayBusinessName(b, locale)}</h3>
           <div className="tagList compactTags">

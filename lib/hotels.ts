@@ -147,6 +147,7 @@ export interface HotelItem {
   unverified?: string[]
   insight?: HotelInsight
   googleMapsUrl?: string
+  googlePlaceId?: string
 }
 
 function mapHotelItem(raw: any, defaultArea: HotelArea): HotelItem {
@@ -156,6 +157,7 @@ function mapHotelItem(raw: any, defaultArea: HotelArea): HotelItem {
     area: raw.area || defaultArea,
     insight,
     googleMapsUrl: insight?.googleMapsUrl || raw.googleMapsUrl,
+    googlePlaceId: raw.googlePlaceId,
     googleRating: raw.googleRating,
     googleReviewsCount: raw.googleReviewsCount,
     priceRange: raw.priceRange,
@@ -186,3 +188,57 @@ export function getFeaturedHotel(): HotelItem | undefined {
 export function getHotelBySlug(slug: string): HotelItem | undefined {
   return getAllHotels().find(h => h.slug === slug)
 }
+
+/**
+ * Single Source of Truth lookup for Agoda 5-tier price range by business.
+ * Returns HotelPriceRange ('$' | '$$' | '$$$' | '$$$$' | '$$$$$') or undefined if unconfirmed/sold-out.
+ */
+export function getHotelPriceRangeForBusiness(b: {
+  slug?: string | null
+  google_place_id?: string | null
+  agoda_url?: string | null
+  website_url?: string | null
+  category?: string | null
+  id?: string | null
+} | null | undefined): HotelPriceRange | undefined {
+  if (!b) return undefined
+  const all = getAllHotels()
+
+  // 1. Direct slug match
+  if (b.slug) {
+    const found = all.find((h) => h.slug === b.slug)
+    if (found?.priceRange) return found.priceRange
+  }
+
+  // 2. Google Place ID match
+  if (b.google_place_id) {
+    const found = all.find((h) => h.googlePlaceId && h.googlePlaceId === b.google_place_id)
+    if (found?.priceRange) return found.priceRange
+  }
+
+  // 3. Agoda URL match
+  const testUrl = b.agoda_url || (b.website_url && b.website_url.includes('agoda.com') ? b.website_url : null)
+  if (testUrl) {
+    const m = testUrl.match(/agoda\.com\/(?:[a-z]{2}-[a-z]{2}\/)?([^/?#]+)\/hotel/i)
+    if (m) {
+      const agodaSlug = m[1].toLowerCase()
+      const found = all.find((h) => {
+        if (!h.agodaUrl) return false
+        const hm = h.agodaUrl.match(/agoda\.com\/(?:[a-z]{2}-[a-z]{2}\/)?([^/?#]+)\/hotel/i)
+        return hm && hm[1].toLowerCase() === agodaSlug
+      })
+      if (found?.priceRange) return found.priceRange
+    }
+  }
+
+  // 4. Special alias mappings
+  if (b.slug === 'sunset-place-7') {
+    const found = all.find((h) => h.slug.includes('la-festa'))
+    if (found?.priceRange) return found.priceRange
+  }
+
+  return undefined
+}
+
+export { HotelPriceBadge } from '@/components/HotelPriceBadge'
+
