@@ -211,7 +211,7 @@
       ],
       "reviewHighlight": "오션뷰 발코니 불꽃놀이 관람 · 포근한 침구 · 친절한 서비스",
       "reviewPros": [
-        "전 객실 오션뷰 발코니에서 매일 밤 불꽃놀이 관람",
+        "오션뷰 객실 발코니에서 매일 밤 불꽃놀이 관람",
         "포근한 침구와 쾌적한 객실 컨디션",
         "친절한 직원과 사장님의 세심한 사전 안내",
         "야시장·스타벅스·한식당·마트 도보 3분 이내"
@@ -242,7 +242,7 @@
       "reviewsCount": 4762,
       "cable_m": 200,
       "address": "Sunset Town, An Thoi, Phu Quoc Island, Vietnam, 91000",
-      "summary": "혼똔섬 케이블카까지 200m, 공식 5성급 힐튼 큐리오 컬렉션, 인피니티 풀 및 스파 구비. 평점·후기는 아고다 기준.",
+      "summary": "혼똔섬 케이블카까지 200m, 5성급 힐튼 큐리오 컬렉션, 인피니티 풀 및 스파 구비. 평점·후기는 아고다 기준.",
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "옥상 인피니티 풀",
@@ -440,7 +440,7 @@
         "인피니티 풀과 객실에서 키스 브릿지 및 일몰 조망",
         "아말피 해안 감성의 이탈리아풍 건축과 인테리어",
         "케이블카 탑승장 200m 및 야시장 인접 입지",
-        "다양한 메뉴의 수준 높은 조식 뷔페"
+        "다양한 메뉴의 수준 높은 뷔페 조식"
       ],
       "reviewQuote": {
         "text": "선셋타운 중심에 있어 위치가 탁월하고 수영장 전망과 조식이 훌륭합니다.",
@@ -480,10 +480,10 @@
           "features": "독립 거실, 드레스룸, 초대형 테라스"
         }
       ],
-      "summary_en": "200m to Hon Thom Cable Car. official 5-star Curio Collection by Hilton with infinity pool and spa. Ratings and reviews from Agoda.",
-      "summary_zh": "距太阳世界缆车站200米，官方五星级希尔顿格芮精选酒店，配备无边泳池与水疗。评分与评价基于Agoda数据。",
-      "summary_ja": "ホントム島ケーブルカー駅まで200m、公式5星ヒルトン・キュリオ・コレクション、インフィニティプール完備。評価・クチコミはAgoda基準。",
-      "summary_ru": "200 м до канатной дороги Хон Тхом, официальный 5-звездочный отель Curio Collection by Hilton с пейзажным бассейном. Оценки и отзывы по данным Agoda.",
+      "summary_en": "200m to Hon Thom Cable Car. 5-star Curio Collection by Hilton with infinity pool and spa. Ratings and reviews from Agoda.",
+      "summary_zh": "距太阳世界缆车站200米，五星级希尔顿格芮精选酒店，配备无边泳池与水疗。评分与评价基于Agoda数据。",
+      "summary_ja": "ホントム島ケーブルカー駅まで200m、5つ星ヒルトン・キュリオ・コレクション、インフィニティプール完備。評価・クチコミはAgoda基準。",
+      "summary_ru": "200 м до канатной дороги Хон Тхом, 5-звездочный отель Curio Collection by Hilton с пейзажным бассейном. Оценки и отзывы по данным Agoda.",
       "summary_vi": "Cách ga cáp treo Hòn Thơm 200m, khách sạn 5 sao Curio Collection by Hilton với hồ bơi vô cực và spa. Đánh giá dựa trên dữ liệu Agoda.",
       "agodaRawDescription": "선셋타운 중심 광장에 위치한 힐튼 큐리오 컬렉션 5성급 호텔입니다. 아말피 해안 건축 양식을 모티브로 디자인되었으며, 인피니티 풀에서 키스브릿지와 바다 일몰을 한눈에 조망할 수 있습니다. 케이블카 탑승장까지 도보 3분(200m) 거리에 자리합니다."
     },
@@ -2230,7 +2230,7 @@
       "coreFacilities": [
         "수영장·풀사이드 바",
         "레스토랑·바",
-        "조식 뷔페",
+        "조식 제공",
         "24시간 룸서비스",
         "무료 주차"
       ],
@@ -3354,7 +3354,7 @@
       "isAiGeneratedIntro": false,
       "coreFacilities": [
         "공용 주방",
-        "조식 뷔페",
+        "조식 제공",
         "룸서비스",
         "무료 주차"
       ],
@@ -3458,7 +3458,7 @@
       "unverified": [
         "정확한 체크인 시간 (Agoda 02:00 표기 오류 의심)"
       ],
-      "reviewHighlight": "1층 카페 운영 및 조식 뷔페·공용 주방 시설",
+      "reviewHighlight": "1층 카페 운영 및 조식·공용 주방 시설",
       "subRatings": {
         "cleanliness": 8.7,
         "service": 8.9,
@@ -3468,7 +3468,7 @@
       },
       "reviewPros": [
         "카페 분위기의 따뜻하고 아늑한 숙소",
-        "공용 주방 및 조식 뷔페 제공",
+        "공용 주방 및 조식 제공",
         "케이블카 200m 도보권 입지",
         "친절한 직원 응대와 아늑한 휴식"
       ],
@@ -5796,7 +5796,7 @@
       "coreFacilities": [
         "전용 해변",
         "레스토랑·바",
-        "조식 뷔페"
+        "조식 제공"
       ],
       "facilityCategories": [
         {
@@ -5960,7 +5960,7 @@
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/juliet-boutique-hotel/hotel/phu-quoc-island-vn.html",
       "unverified": [],
-      "reviewHighlight": "전용 해변 산책로 및 조식 뷔페 제공",
+      "reviewHighlight": "전용 해변 산책로 및 조식 제공",
       "subRatings": {
         "cleanliness": 8.8,
         "service": 8.9,
@@ -5969,7 +5969,7 @@
         "location": 9
       },
       "reviewPros": [
-        "전용 비치 구역 및 조식 뷔페 제공",
+        "전용 비치 구역 및 조식 제공",
         "로맨틱한 분위기의 부티크 인테리어",
         "야시장 및 중심가 도보 이동 가능",
         "커플 및 휴양 여행객 추천"
