@@ -22,11 +22,14 @@ export function SiteFooter() {
     <footer>
       <Logo locale={locale} />
       <nav>
-        {DIRECTORY_CATEGORY_KEYS.map((key) => (
-          <Link href={localePath(locale, `/directory/${key}`)} key={key}>
-            {categoryLabel(key, locale)}
-          </Link>
-        ))}
+        {DIRECTORY_CATEGORY_KEYS.map((key) => {
+          const href = key === 'hotels' ? '/hotels' : `/directory/${key}`
+          return (
+            <Link href={localePath(locale, href)} key={key}>
+              {categoryLabel(key, locale)}
+            </Link>
+          )
+        })}
         <Link href={localePath(locale, '/map')}>{locale === 'ko' ? '🗺️ 선셋타운 지도' : locale === 'vi' ? '🗺️ Bản đồ thị trấn' : tUi('🗺️  Town Map', locale)}</Link>
         <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
         <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>

@@ -891,9 +891,10 @@ export function HomePage({
                 const locLabel = categoryLabel(key, locale)
                 const locEyebrow = categoryEyebrow(key, locale)
                 const locDesc = categoryDescription(key, locale)
+                const href = key === 'hotels' ? '/hotels' : `/directory/${key}`
                 return (
                   <Link
-                    href={localePath(locale, `/directory/${key}`)}
+                    href={localePath(locale, href)}
                     key={key}
                     data-analytics-type="category"
                     data-analytics-id={key}

@@ -362,19 +362,24 @@ export async function renderZoneRoute(slug: string, locale: Locale = 'en') {
               <div className="categoryGridSmall">
                 {zone.categories
                   .filter((cat) => cat.count > 0)
-                  .map((cat, idx) => (
-                  <Link
-                    href={`${localePath(locale, `/directory/${cat.categoryKey}`)}?zone=${slug}`}
-                    key={idx}
-                    className="catBtn"
-                  >
-                    <span className="icon">{cat.icon}</span>
-                    <span>{cat.name[locale] || cat.name.en}</span>
-                    <small>
-                      {getVenuesCountText(cat.count, locale)}
-                    </small>
-                  </Link>
-                ))}
+                  .map((cat, idx) => {
+                    const href = cat.categoryKey === 'hotels'
+                      ? (slug === 'khem-beach' ? `${localePath(locale, '/hotels')}?area=khem-beach` : localePath(locale, '/hotels'))
+                      : `${localePath(locale, `/directory/${cat.categoryKey}`)}?zone=${slug}`
+                    return (
+                      <Link
+                        href={href}
+                        key={idx}
+                        className="catBtn"
+                      >
+                        <span className="icon">{cat.icon}</span>
+                        <span>{cat.name[locale] || cat.name.en}</span>
+                        <small>
+                          {getVenuesCountText(cat.count, locale)}
+                        </small>
+                      </Link>
+                    )
+                  })}
               </div>
 
               {/* Informational Note Banner */}

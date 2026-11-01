@@ -38,11 +38,14 @@ export function MobileMenu({ locale = 'en' }: { locale?: Locale }) {
           {KHEM_MENU_LABELS[locale] || KHEM_MENU_LABELS.en}
         </Link>
         <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
-        {DIRECTORY_CATEGORY_KEYS.map((key) => (
-          <Link href={localePath(locale, `/directory/${key}`)} key={key}>
-            {categoryLabel(key, locale)}
-          </Link>
-        ))}
+        {DIRECTORY_CATEGORY_KEYS.map((key) => {
+          const href = key === 'hotels' ? '/hotels' : `/directory/${key}`
+          return (
+            <Link href={localePath(locale, href)} key={key}>
+              {categoryLabel(key, locale)}
+            </Link>
+          )
+        })}
         <Link href={localePath(locale, '/news')}>{dict.nav.newsAndBlog}</Link>
         <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
       </div>

@@ -5621,6 +5621,526 @@
       "tier": "recommended",
       "order": 4,
       "isFeatured": true
+    },
+    {
+      "slug": "noska-hotel",
+      "hotelId": "81473410",
+      "name_ko": "노스카 호텔 선셋타운",
+      "name_en": "NOSKA Hotel",
+      "star": 3,
+      "rating": 9.0,
+      "reviewsCount": 56,
+      "cable_m": 840,
+      "address": "Shophouse Ven-06, Sun Premier Village Primavera, Phú Quốc",
+      "summary": "선셋타운 베니스 거리에 위치한 오션뷰 부티크 호텔.",
+      "description": "노스카 호텔 선셋타운(NOSKA Hotel)은 선셋타운 해안 라인인 베니스 거리에 위치하여 전 객실에서 아름다운 일몰과 야간 불꽃놀이를 감상할 수 있는 부티크 호텔입니다. 선 바바리아 펍과 부이페스트 야시장이 도보 2~5분 거리에 인접해 있어 식사와 나이트라이프를 즐기기에 최적의 입지를 갖추고 있습니다.",
+      "isAiGeneratedIntro": false,
+      "isFeatured": false,
+      "tier": "standard",
+      "coreFacilities": [
+        "오션뷰 객실",
+        "무료 Wi-Fi",
+        "에어컨",
+        "수하물 보관",
+        "24시간 프런트"
+      ],
+      "facilityCategories": [
+        {
+          "name": "핵심 편의",
+          "items": [
+            "전 객실 무료 Wi-Fi",
+            "에어컨",
+            "오션뷰 발코니",
+            "수하물 보관"
+          ]
+        },
+        {
+          "name": "객실 시설",
+          "items": [
+            "평면 TV",
+            "전기 주전자",
+            "미니바",
+            "헤어드라이어",
+            "전용 욕실"
+          ]
+        },
+        {
+          "name": "서비스",
+          "items": [
+            "24시간 프런트",
+            "투어 안내",
+            "매일 하우스키핑"
+          ]
+        }
+      ],
+      "checkIn": "14:00",
+      "checkOut": "12:00",
+      "builtYear": 2022,
+      "floors": 5,
+      "photos": [
+        "/covers-photo/noska-hotel-1.webp",
+        "/covers-photo/noska-hotel-2.webp",
+        "/covers-photo/noska-hotel-3.webp",
+        "/covers-photo/noska-hotel-4.webp",
+        "/covers-photo/noska-hotel-5.webp"
+      ],
+      "agodaUrl": "https://www.agoda.com/ko-kr/noska-hotel/hotel/phu-quoc-island-vn.html",
+      "landmarks": [
+        {
+          "name": "선 바바리아 펍",
+          "distance": "120m (도보 2분)"
+        },
+        {
+          "name": "야시장",
+          "distance": "350m (도보 5분)"
+        },
+        {
+          "name": "키스 브릿지",
+          "distance": "460m (도보 6분)"
+        },
+        {
+          "name": "케이블카",
+          "distance": "840m (도보 11분)"
+        }
+      ],
+      "priceRange": "$$$$$",
+      "googleRating": 4.9,
+      "googleReviewsCount": 50,
+      "googlePlaceId": "ChIJF_c9aMCXpzERt1r0W687Y4U",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJF_c9aMCXpzERt1r0W687Y4U",
+      "reviewHighlight": "베니스 거리 오션뷰와 친절한 서비스",
+      "reviewPros": [
+        "발코니에서 일몰과 불꽃놀이 관람",
+        "친절한 직원 응대와 쾌적한 룸 컨디션",
+        "야시장과 펍 도보 이동 편리"
+      ],
+      "reviewQuote": {
+        "text": "베니스 거리 위치가 정말 좋고 발코니에서 불꽃놀이가 정면으로 보입니다.",
+        "source": "Google 리뷰"
+      }
+    },
+    {
+      "slug": "fella-hotel",
+      "hotelId": "41508377",
+      "name_ko": "펠라 호텔 선셋타운",
+      "name_en": "FELLA HOTEL",
+      "star": 3,
+      "rating": 8.8,
+      "reviewsCount": 48,
+      "cable_m": 550,
+      "address": "Số 330, Khu Sun Premier Village Primavera, Đường Sorrento 3, Phú Quốc",
+      "summary": "소렌토 거리에 위치한 실속형 부티크 호텔.",
+      "description": "펠라 호텔(FELLA HOTEL)은 선셋타운 소렌토 거리에 위치한 실속형 부티크 호텔입니다. 키스브릿지 광장 및 시계탑까지 도보 3~4분 거리로 이동이 매우 편리하며, 깔끔한 인테리어와 합리적인 요금으로 여행객들의 높은 만족도를 얻고 있습니다.",
+      "isAiGeneratedIntro": false,
+      "isFeatured": false,
+      "tier": "standard",
+      "coreFacilities": [
+        "무료 Wi-Fi",
+        "에어컨",
+        "24시간 리셉션",
+        "수하물 보관"
+      ],
+      "facilityCategories": [
+        {
+          "name": "핵심 편의",
+          "items": [
+            "전 객실 무료 Wi-Fi",
+            "에어컨",
+            "수하물 보관"
+          ]
+        },
+        {
+          "name": "객실 시설",
+          "items": [
+            "평면 TV",
+            "전기 주전자",
+            "무료 생수",
+            "샤워실"
+          ]
+        },
+        {
+          "name": "서비스",
+          "items": [
+            "체크인 전 짐 보관",
+            "투어 안내"
+          ]
+        }
+      ],
+      "checkIn": "14:00",
+      "checkOut": "12:00",
+      "builtYear": 2022,
+      "floors": 5,
+      "photos": [
+        "/covers-photo/fella-hotel-1.webp",
+        "/covers-photo/fella-hotel-2.webp",
+        "/covers-photo/fella-hotel-3.webp"
+      ],
+      "agodaUrl": "https://www.agoda.com/ko-kr/fella-hotel/hotel/phu-quoc-island-vn.html",
+      "landmarks": [
+        {
+          "name": "키스 브릿지",
+          "distance": "260m (도보 3분)"
+        },
+        {
+          "name": "시계탑",
+          "distance": "280m (도보 4분)"
+        },
+        {
+          "name": "케이블카",
+          "distance": "550m (도보 7분)"
+        }
+      ],
+      "priceRange": "$",
+      "googleRating": 4.7,
+      "googleReviewsCount": 50,
+      "googlePlaceId": "ChIJ11j5_KeXpzERFq08eB1nJt4",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ11j5_KeXpzERFq08eB1nJt4",
+      "reviewHighlight": "키스브릿지 인접 입지와 가성비",
+      "reviewPros": [
+        "키스브릿지 및 광장 도보 3분 거리",
+        "청결한 침구류와 정갈한 룸 컨디션",
+        "합리적인 숙박 요금"
+      ],
+      "reviewQuote": {
+        "text": "가격 대비 위치가 훌륭하고 방도 깔끔하여 만족스러웠습니다.",
+        "source": "Google 리뷰"
+      }
+    },
+    {
+      "slug": "sole-casa-phu-quoc",
+      "hotelId": "68420040",
+      "name_ko": "솔레 카사 푸꾸옥",
+      "name_en": "Sole Casa Phu Quoc",
+      "star": 3,
+      "rating": 9.2,
+      "reviewsCount": 64,
+      "cable_m": 320,
+      "address": "H30101 Sun Grand City Hillside, Phú Quốc",
+      "summary": "케이블카 정류장 인근 포지타노 감성 호텔.",
+      "description": "솔레 카사 푸꾸옥(Sole Casa Phu Quoc)은 케이블카 승강장과 도보 4분 거리인 힐사이드 지역에 위치한 이탈리아풍 감성 호텔입니다. 바다와 선셋타운 전경이 내려다보이는 쾌적한 객실 컨디션과 감각적인 인테리어를 자랑합니다.",
+      "isAiGeneratedIntro": false,
+      "isFeatured": false,
+      "tier": "standard",
+      "coreFacilities": [
+        "오션뷰 객실",
+        "무료 Wi-Fi",
+        "발코니",
+        "에어컨"
+      ],
+      "facilityCategories": [
+        {
+          "name": "핵심 편의",
+          "items": [
+            "무료 Wi-Fi",
+            "에어컨",
+            "오션뷰 발코니"
+          ]
+        },
+        {
+          "name": "객실 시설",
+          "items": [
+            "스마트 TV",
+            "냉장고",
+            "전기 주전자",
+            "어메니티"
+          ]
+        }
+      ],
+      "checkIn": "14:00",
+      "checkOut": "12:00",
+      "builtYear": 2023,
+      "floors": 5,
+      "photos": [
+        "/covers-photo/sole-casa-phu-quoc-1.webp",
+        "/covers-photo/sole-casa-phu-quoc-2.webp",
+        "/covers-photo/sole-casa-phu-quoc-3.webp"
+      ],
+      "agodaUrl": "https://www.agoda.com/ko-kr/sole-casa/hotel/phu-quoc-island-vn.html",
+      "landmarks": [
+        {
+          "name": "케이블카",
+          "distance": "320m (도보 4분)"
+        },
+        {
+          "name": "키스 브릿지",
+          "distance": "360m (도보 5분)"
+        }
+      ],
+      "priceRange": "$$$$",
+      "googleRating": 4.7,
+      "googleReviewsCount": 50,
+      "googlePlaceId": "ChIJq2r4s86VpzER3e5p9a8K5jY",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJq2r4s86VpzER3e5p9a8K5jY",
+      "reviewHighlight": "케이블카 초근접 입지와 모던 인테리어",
+      "reviewPros": [
+        "케이블카 정류장 도보 4분 초인접",
+        "세련된 감성 인테리어와 청결한 객실"
+      ],
+      "reviewQuote": {
+        "text": "케이블카 타기 너무 편하고 인테리어가 예뻐서 머무는 내내 기분 좋았습니다.",
+        "source": "Google 리뷰"
+      }
+    },
+    {
+      "slug": "golden-sunset-hotel",
+      "hotelId": "78584481",
+      "name_ko": "골든 선셋 호텔",
+      "name_en": "Golden Sunset Hotel",
+      "star": 3,
+      "rating": 8.6,
+      "reviewsCount": 42,
+      "cable_m": 860,
+      "address": "19 Positano Tổ 10, Khu phố 6, Phú Quốc",
+      "summary": "선셋타운 포지타노 거리 실속 호텔.",
+      "description": "골든 선셋 호텔(Golden Sunset Hotel)은 포지타노 거리에 자리 잡아 조용하고 여유로운 휴식을 선사합니다. 키스브릿지와 도보 7분 거리이며, 합리적인 요금으로 편안한 숙박을 제공합니다.",
+      "isAiGeneratedIntro": false,
+      "isFeatured": false,
+      "tier": "standard",
+      "coreFacilities": [
+        "무료 Wi-Fi",
+        "에어컨",
+        "수하물 보관"
+      ],
+      "facilityCategories": [
+        {
+          "name": "핵심 편의",
+          "items": [
+            "무료 Wi-Fi",
+            "에어컨",
+            "전용 욕실"
+          ]
+        }
+      ],
+      "checkIn": "14:00",
+      "checkOut": "12:00",
+      "builtYear": 2022,
+      "floors": 4,
+      "photos": [
+        "/covers-photo/golden-sunset-hotel-1.webp",
+        "/covers-photo/golden-sunset-hotel-2.webp",
+        "/covers-photo/golden-sunset-hotel-3.webp"
+      ],
+      "agodaUrl": "https://www.agoda.com/ko-kr/golden-sunset-hotel/hotel/phu-quoc-island-vn.html",
+      "landmarks": [
+        {
+          "name": "키스 브릿지",
+          "distance": "500m (도보 7분)"
+        },
+        {
+          "name": "케이블카",
+          "distance": "860m (도보 12분)"
+        }
+      ],
+      "priceRange": "$",
+      "googleRating": 4.1,
+      "googleReviewsCount": 50,
+      "googlePlaceId": "ChIJN3vR_L6VpzER4o1cI_K00e8",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN3vR_L6VpzER4o1cI_K00e8",
+      "reviewHighlight": "포지타노 거리의 조용한 휴식처",
+      "reviewPros": [
+        "조용한 주변 환경",
+        "실속 있는 숙박 비용"
+      ],
+      "reviewQuote": {
+        "text": "가성비 좋고 주변 골목이 예쁩니다.",
+        "source": "Google 리뷰"
+      }
+    },
+    {
+      "slug": "casa-del-mar-boutique-hotel",
+      "hotelId": "84904512",
+      "name_ko": "카사 델 마르 부티크 호텔",
+      "name_en": "CASA DEL MAR BOUTIQUE HOTEL",
+      "star": 3,
+      "rating": 8.7,
+      "reviewsCount": 52,
+      "cable_m": 750,
+      "address": "Sunset Town, A104 Đ. Amalfi, An Thoi Quarter, Phú Quốc",
+      "summary": "아말피 거리의 아늑한 부티크 호텔.",
+      "description": "카사 델 마르 부티크 호텔(CASA DEL MAR BOUTIQUE HOTEL)은 아말피 거리에 위치하여 이탈리아 해안 마을 분위기를 느낄 수 있는 숙소입니다. 광장과 야시장까지 산책하듯 걸어갈 수 있는 입지를 자랑합니다.",
+      "isAiGeneratedIntro": false,
+      "isFeatured": false,
+      "tier": "standard",
+      "coreFacilities": [
+        "무료 Wi-Fi",
+        "에어컨",
+        "수하물 보관"
+      ],
+      "facilityCategories": [
+        {
+          "name": "핵심 편의",
+          "items": [
+            "무료 Wi-Fi",
+            "에어컨",
+            "전용 욕실"
+          ]
+        }
+      ],
+      "checkIn": "14:00",
+      "checkOut": "12:00",
+      "builtYear": 2022,
+      "floors": 4,
+      "photos": [
+        "/covers-photo/casa-del-mar-boutique-hotel-1.webp",
+        "/covers-photo/casa-del-mar-boutique-hotel-2.webp",
+        "/covers-photo/casa-del-mar-boutique-hotel-3.webp"
+      ],
+      "agodaUrl": "https://www.agoda.com/ko-kr/casa-del-mar-boutique-hotel/hotel/phu-quoc-island-vn.html",
+      "landmarks": [
+        {
+          "name": "키스 브릿지",
+          "distance": "480m (도보 6분)"
+        },
+        {
+          "name": "케이블카",
+          "distance": "750m (도보 10분)"
+        }
+      ],
+      "priceRange": "$",
+      "googleRating": 4.0,
+      "googleReviewsCount": 50,
+      "googlePlaceId": "ChIJz_xV0ceVpzERL_Q5j7K_c4E",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJz_xV0ceVpzERL_Q5j7K_c4E",
+      "reviewHighlight": "아말피 거리 감성과 산책 접근성",
+      "reviewPros": [
+        "이탈리아풍 아말피 거리 위치",
+        "주변 산책 코스 우수"
+      ],
+      "reviewQuote": {
+        "text": "골목 분위기가 좋고 객실이 편안합니다.",
+        "source": "Google 리뷰"
+      }
+    },
+    {
+      "slug": "js-hotel-phu-quoc-sunset-town",
+      "hotelId": "89978846",
+      "name_ko": "JS 호텔 푸꾸옥 선셋타운",
+      "name_en": "JS Hotel Phu Quoc Sunset Town",
+      "star": 3,
+      "rating": 9.0,
+      "reviewsCount": 38,
+      "cable_m": 980,
+      "address": "39 Đ. Amalfi, Phú Quốc",
+      "summary": "아말피 거리 뷰와 깔끔한 서비스를 갖춘 호텔.",
+      "description": "JS 호텔 푸꾸옥 선셋타운(JS Hotel Phu Quoc Sunset Town)은 아말피 거리에 위치하여 쾌적한 객실 컨디션과 친절한 직원 안내를 제공합니다. 선셋타운의 주요 관광 스팟들을 여유롭게 둘러보기에 적합합니다.",
+      "isAiGeneratedIntro": false,
+      "isFeatured": false,
+      "tier": "standard",
+      "coreFacilities": [
+        "무료 Wi-Fi",
+        "에어컨",
+        "엘리베이터"
+      ],
+      "facilityCategories": [
+        {
+          "name": "핵심 편의",
+          "items": [
+            "무료 Wi-Fi",
+            "에어컨",
+            "엘리베이터"
+          ]
+        }
+      ],
+      "checkIn": "14:00",
+      "checkOut": "12:00",
+      "builtYear": 2023,
+      "floors": 5,
+      "photos": [
+        "/covers-photo/js-hotel-phu-quoc-sunset-town-1.webp",
+        "/covers-photo/js-hotel-phu-quoc-sunset-town-2.webp",
+        "/covers-photo/js-hotel-phu-quoc-sunset-town-4.webp"
+      ],
+      "agodaUrl": "https://www.agoda.com/ko-kr/js-hotel-phu-quoc-sunset-town/hotel/phu-quoc-island-vn.html",
+      "landmarks": [
+        {
+          "name": "키스 브릿지",
+          "distance": "670m (도보 9분)"
+        },
+        {
+          "name": "케이블카",
+          "distance": "980m (도보 13분)"
+        }
+      ],
+      "priceRange": "$",
+      "googleRating": 4.8,
+      "googleReviewsCount": 50,
+      "googlePlaceId": "ChIJ92fL7_KVpzERx5f4P9A2j8k",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ92fL7_KVpzERx5f4P9A2j8k",
+      "reviewHighlight": "높은 평점과 친절한 직원",
+      "reviewPros": [
+        "깨끗하게 관리된 객실",
+        "신속하고 친절한 고객 응대"
+      ],
+      "reviewQuote": {
+        "text": "직원분들이 매우 친절하고 방이 깔끔해서 편히 쉬었습니다.",
+        "source": "Google 리뷰"
+      }
+    },
+    {
+      "slug": "triland-hillside",
+      "hotelId": "62525491",
+      "name_ko": "트라이랜드 힐사이드",
+      "name_en": "Triland Hillside",
+      "star": 3,
+      "rating": 9.1,
+      "reviewsCount": 45,
+      "cable_m": 300,
+      "address": "Hillside Residence, Sunset Town, Phú Quốc",
+      "summary": "힐사이드 고층 오션뷰 및 케이블카 인접 레지던스.",
+      "description": "트라이랜드 힐사이드(Triland Hillside)는 선셋타운 힐사이드 고층에 위치하여 탁 트인 바다 전망과 매일 밤 화려한 불꽃놀이를 조망할 수 있는 숙소입니다. 케이블카 승강장과 도보 4분 거리로 매우 가깝습니다.",
+      "isAiGeneratedIntro": false,
+      "isFeatured": false,
+      "tier": "standard",
+      "coreFacilities": [
+        "인피니티 풀 이용",
+        "오션뷰 발코니",
+        "무료 Wi-Fi",
+        "주방 시설"
+      ],
+      "facilityCategories": [
+        {
+          "name": "핵심 편의",
+          "items": [
+            "무료 Wi-Fi",
+            "에어컨",
+            "오션뷰 발코니",
+            "주방 시설"
+          ]
+        }
+      ],
+      "checkIn": "14:00",
+      "checkOut": "12:00",
+      "builtYear": 2023,
+      "floors": 18,
+      "photos": [
+        "/covers-photo/triland-hillside-1.webp"
+      ],
+      "agodaUrl": "https://www.agoda.com/ko-kr/triland-hillside/hotel/phu-quoc-island-vn.html",
+      "landmarks": [
+        {
+          "name": "케이블카",
+          "distance": "300m (도보 4분)"
+        },
+        {
+          "name": "키스 브릿지",
+          "distance": "420m (도보 6분)"
+        }
+      ],
+      "priceRange": "$$",
+      "googleRating": 4.8,
+      "googleReviewsCount": 50,
+      "googlePlaceId": "ChIJ_triland_hillside_phu_quoc",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ_triland_hillside_phu_quoc",
+      "reviewHighlight": "고층 파노라마 오션뷰와 불꽃놀이 명당",
+      "reviewPros": [
+        "고층에서 내려다보는 압도적인 바다 전망",
+        "발코니 불꽃놀이 명당",
+        "케이블카 도보 4분 초인접"
+      ],
+      "reviewQuote": {
+        "text": "고층에서 보는 불꽃놀이와 바다 뷰가 환상적입니다.",
+        "source": "Google 리뷰"
+      }
     }
   ]
 }

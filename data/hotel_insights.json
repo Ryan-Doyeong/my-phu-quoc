@@ -523,5 +523,92 @@
     ],
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJWyR4R6WVpzERdWiJg-xbMZs",
     "location_en": "Kiss Bridge (260 m · 3 min walk) · VuiFest Night Market (300 m · 4 min walk) · Cable Car (380 m · 5 min walk) · Sun Bavaria Pub (370 m · 5 min walk)"
+  },
+  "noska-hotel": {
+    "location": "선 바바리아 펍(120m·도보) · 야시장(350m·도보) · 키스 브릿지(460m·도보) · 케이블카(840m·도보)",
+    "view": "바다 및 선셋타운 조망",
+    "condition": "쾌적하고 청결한 객실 컨디션",
+    "staff": "친절한 직원 서비스",
+    "pros": [
+      "발코니에서 일몰과 불꽃놀이 관람",
+      "친절한 직원 응대와 쾌적한 룸 컨디션",
+      "야시장과 펍 도보 이동 편리"
+    ],
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJF_c9aMCXpzERt1r0W687Y4U"
+  },
+  "fella-hotel": {
+    "location": "키스 브릿지(260m·도보) · 시계탑(280m·도보) · 케이블카(550m·도보)",
+    "view": "바다 및 선셋타운 조망",
+    "condition": "쾌적하고 청결한 객실 컨디션",
+    "staff": "친절한 직원 서비스",
+    "pros": [
+      "키스브릿지 및 광장 도보 3분 거리",
+      "청결한 침구류와 정갈한 룸 컨디션",
+      "합리적인 숙박 요금"
+    ],
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ11j5_KeXpzERFq08eB1nJt4"
+  },
+  "sole-casa-phu-quoc": {
+    "location": "케이블카(320m·도보) · 키스 브릿지(360m·도보)",
+    "view": "바다 및 선셋타운 조망",
+    "condition": "쾌적하고 청결한 객실 컨디션",
+    "staff": "친절한 직원 서비스",
+    "pros": [
+      "케이블카 정류장 도보 4분 초인접",
+      "세련된 감성 인테리어와 청결한 객실"
+    ],
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJq2r4s86VpzER3e5p9a8K5jY"
+  },
+  "golden-sunset-hotel": {
+    "location": "키스 브릿지(500m·도보) · 케이블카(860m·도보)",
+    "view": "바다 및 선셋타운 조망",
+    "condition": "쾌적하고 청결한 객실 컨디션",
+    "staff": "친절한 직원 서비스",
+    "pros": [
+      "조용한 주변 환경",
+      "실속 있는 숙박 비용"
+    ],
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN3vR_L6VpzER4o1cI_K00e8"
+  },
+  "casa-del-mar-boutique-hotel": {
+    "location": "키스 브릿지(480m·도보) · 케이블카(750m·도보)",
+    "view": "바다 및 선셋타운 조망",
+    "condition": "쾌적하고 청결한 객실 컨디션",
+    "staff": "친절한 직원 서비스",
+    "pros": [
+      "이탈리아풍 아말피 거리 위치",
+      "주변 산책 코스 우수"
+    ],
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJz_xV0ceVpzERL_Q5j7K_c4E"
+  },
+  "js-hotel-phu-quoc-sunset-town": {
+    "location": "키스 브릿지(670m·도보) · 케이블카(980m·도보)",
+    "view": "바다 및 선셋타운 조망",
+    "condition": "쾌적하고 청결한 객실 컨디션",
+    "staff": "친절한 직원 서비스",
+    "pros": [
+      "깨끗하게 관리된 객실",
+      "신속하고 친절한 고객 응대"
+    ],
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ92fL7_KVpzERx5f4P9A2j8k"
+  },
+  "triland-hillside": {
+    "location": "케이블카(300m·도보) · 키스 브릿지(420m·도보)",
+    "view": "바다 및 선셋타운 조망",
+    "condition": "쾌적하고 청결한 객실 컨디션",
+    "staff": "친절한 직원 서비스",
+    "pros": [
+      "고층에서 내려다보는 압도적인 바다 전망",
+      "발코니 불꽃놀이 명당",
+      "케이블카 도보 4분 초인접"
+    ],
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ_triland_hillside_phu_quoc"
   }
 }

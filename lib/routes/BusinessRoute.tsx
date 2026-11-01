@@ -375,7 +375,11 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
           <nav>
             <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
             <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
-            {isKhem ? (
+            {isHotel ? (
+              <Link href={isKhem ? `${localePath(locale, '/hotels')}?area=khem-beach` : localePath(locale, '/hotels')}>
+                {dict.business.backTo(locale === 'ko' ? (isKhem ? '켐비치 호텔' : '선셋타운 호텔') : 'Hotels')}
+              </Link>
+            ) : isKhem ? (
               <Link href={localePath(locale, '/zones/khem-beach')}>
                 {dict.business.backTo(locale === 'ko' ? '켐비치' : 'Khem Beach')}
               </Link>
