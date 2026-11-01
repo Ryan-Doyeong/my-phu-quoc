@@ -3502,7 +3502,9 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.3,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/sunset-place-1/sunset-place-1_menu_01.webp"
+    ],
     "tags": [
       "seafood",
       "Sunset Town"
@@ -4738,7 +4740,9 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.4,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/highlands-coffee-cable-car-an-thoi-pq/highlands-coffee-cable-car-an-thoi-pq_menu_01.webp"
+    ],
     "tags": [
       "cafe",
       "Sunset Town"
@@ -5649,7 +5653,9 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/businesses/mia-phu-quoc/mia-phu-quoc_menu_01.webp"
+    ],
     "tags": [
       "bar",
       "Sunset Town"
