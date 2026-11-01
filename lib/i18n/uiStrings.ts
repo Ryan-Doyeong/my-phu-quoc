@@ -128,7 +128,12 @@ export const QUICK_CARD_SUBLABELS: Record<string, LocaleMap> = {
     en: 'Hospitals & pharmacies', ko: '병원 · 약국', zh: '医院与药店', ru: 'Больницы и аптеки', ja: '病院・薬局', hi: 'अस्पताल और फार्मेसी',
   },
   itineraries: {
-    en: 'Couples · Family · Friends', ko: '커플 · 가족 · 친구', zh: '情侣 · 家庭 · 朋友', ru: 'Пары · Семья · Друзья', ja: 'カップル · 家族 · 友人', hi: 'जोड़े · परिवार · दोस्त',
+    en: 'Request a custom itinerary for couples, families, or friends',
+    ko: '커플·가족·친구와 함께할 맞춤 일정을 의뢰해 보세요',
+    zh: '为情侣、家庭或朋友定制专属行程',
+    ru: 'Закажите индивидуальный маршрут для пары, семьи или друзей',
+    ja: 'カップル・ご家族・ご友人との旅に、オーダーメイドのプランをご依頼ください',
+    hi: 'जोड़ों, परिवार या दोस्तों के लिए अपनी पसंद के अनुसार यात्रा कार्यक्रम बनवाएँ',
   },
 }
 
