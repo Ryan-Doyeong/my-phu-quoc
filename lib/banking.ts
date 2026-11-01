@@ -6,6 +6,7 @@ export interface BankingItem {
   type: 'atm' | 'exchange'
   lat: number
   lng: number
+  googleMapsUrl: string
   location: Record<Locale, string>
   cards?: string[] | null // null or empty array indicates unconfirmed
 }
@@ -68,7 +69,7 @@ export const BANKING_UI_STRINGS: Record<Locale, BankingUiStrings> = {
   },
   hi: {
     bannerTitle: 'मुद्रा विनिमय · एटीएम',
-    bannerSubtitle: 'केवल सनसेट टाउन के भीतर सीधे सुलभ स्थान एकत्र किए गए हैं',
+    bannerSubtitle: 'केवल सनसेट टा운 के भीतर सीधे सुलभ स्थान एकत्र किए गए हैं',
     atmSectionTitle: '3 एटीएम',
     exchangeSectionTitle: '5 मुद्रा विनिमय केंद्र',
     cardLabel: 'कार्ड',
@@ -101,6 +102,7 @@ export const BANKING_ATMS: BankingItem[] = [
     type: 'atm',
     lat: 10.0354681,
     lng: 104.0047262,
+    googleMapsUrl: 'https://www.google.com/maps?cid=6440178889712391999',
     location: {
       ko: '뉴 안터이 대로, 24시간',
       en: 'New An Thoi Blvd, 24 Hours',
@@ -126,6 +128,7 @@ export const BANKING_ATMS: BankingItem[] = [
     type: 'atm',
     lat: 10.0356939,
     lng: 104.0030911,
+    googleMapsUrl: 'https://www.google.com/maps?cid=11580843206114582841',
     location: {
       ko: '선셋타운 7구역',
       en: 'Sunset Town Zone 7',
@@ -151,13 +154,14 @@ export const BANKING_ATMS: BankingItem[] = [
     type: 'atm',
     lat: 10.0276568,
     lng: 104.0073166,
+    googleMapsUrl: 'https://www.google.com/maps?cid=4069597228033058591',
     location: {
       ko: '아말피 남쪽 아케이드',
       en: 'Amalfi South Arcade',
       zh: '阿马尔菲南侧拱廊',
       ru: 'Южная аркада Амальфи',
       ja: 'アマルフィ南側アーケード',
-      hi: 'अमाल्फी साउथ आर्케ड',
+      hi: 'अमाल्फी साउथ आर्केड',
       vi: 'Hành lang phía Nam Amalfi',
     },
     cards: ['Visa', 'JCB', 'UnionPay'],
@@ -178,7 +182,8 @@ export const BANKING_EXCHANGES: BankingItem[] = [
     },
     type: 'exchange',
     lat: 10.0311981,
-    lng: 104.0062552, // 플러스코드 22J4+FG (마스터DB 실측 좌표 10.0311981,104.0062552)
+    lng: 104.0062552,
+    googleMapsUrl: 'https://www.google.com/maps?cid=4926815319696634130',
     location: {
       ko: '아말피 25번지',
       en: '25 Amalfi St',
@@ -203,6 +208,7 @@ export const BANKING_EXCHANGES: BankingItem[] = [
     type: 'exchange',
     lat: 10.0307205,
     lng: 104.0064964,
+    googleMapsUrl: 'https://www.google.com/maps?cid=13561394820020633960',
     location: {
       ko: '아말피 중심가',
       en: 'Central Amalfi',
@@ -227,6 +233,7 @@ export const BANKING_EXCHANGES: BankingItem[] = [
     type: 'exchange',
     lat: 10.0285625,
     lng: 104.0083125,
+    googleMapsUrl: 'https://www.google.com/maps?cid=17008406116662590211',
     location: {
       ko: '아말피 남쪽',
       en: 'South Amalfi',
@@ -243,7 +250,7 @@ export const BANKING_EXCHANGES: BankingItem[] = [
       ko: '선셋타운 환전소',
       en: 'Sunset Town Money Exchange',
       zh: '日落小镇货币兑换所',
-      ru: 'Обмен валюты Сансет Таун',
+      ru: 'Обмен валюты Сан셋 Таун',
       ja: 'サンセットタウン両替所',
       hi: 'सनसेट टाउन मुद्रा विनिमय',
       vi: 'Quầy đổi tiền Sunset Town',
@@ -251,6 +258,7 @@ export const BANKING_EXCHANGES: BankingItem[] = [
     type: 'exchange',
     lat: 10.0289939,
     lng: 104.0083389,
+    googleMapsUrl: 'https://www.google.com/maps?cid=9480964989714363871',
     location: {
       ko: '아말피 58번지',
       en: '58 Amalfi St',
@@ -275,6 +283,7 @@ export const BANKING_EXCHANGES: BankingItem[] = [
     type: 'exchange',
     lat: 10.0363354,
     lng: 104.0069754,
+    googleMapsUrl: 'https://www.google.com/maps?cid=11676667545235786167',
     location: {
       ko: '뉴 안터이 북쪽(AT 96)',
       en: 'North New An Thoi (AT 96)',

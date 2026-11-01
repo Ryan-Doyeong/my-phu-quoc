@@ -22,7 +22,7 @@ function BankingCard({ item, locale }: { item: BankingItem; locale: Locale }) {
   const ui = BANKING_UI_STRINGS[locale] || BANKING_UI_STRINGS.en
   const name = item.name[locale] || item.name.en || item.name.ko
   const location = item.location[locale] || item.location.en || item.location.ko
-  const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${item.lat},${item.lng}`
+  const googleMapsUrl = item.googleMapsUrl
 
   return (
     <div
