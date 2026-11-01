@@ -303,11 +303,11 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
       b.google_maps_url.match(/place_id=([A-Za-z0-9_-]+)/)
     : null
   const googlePlaceId = b.google_place_id || (placeIdMatch ? placeIdMatch[1] : null)
-  const menuData = loadMenuForPlace(googlePlaceId, locale)
+  const menuData = loadMenuForPlace(googlePlaceId, locale);
   const businessDisplayName = displayBusinessName(b, locale)
 
   const isDiningOrFood =
-    !isNameOnly &&
+    (!isNameOnly || Boolean(menuData)) &&
     (b.category === 'dining' ||
       b.category === 'food' ||
       b.category === 'cafe' ||

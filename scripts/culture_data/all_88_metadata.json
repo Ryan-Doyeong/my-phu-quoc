@@ -1,0 +1,2614 @@
+[
+  {
+    "index": 1,
+    "slug": "nha-hang-hai-san-thuan-kieu-2-seafood-grill",
+    "name": "투안 끼에우 2 해산물 그릴 전문점 (Nhà hàng hải sản Thuận Kiều 2)",
+    "cat": "dining",
+    "subcat": "seafood",
+    "current_food_style": {
+      "ko": "푸꾸옥 남부 정통 해산물 & 함닌 어촌 직송 요리",
+      "en": "Authentic Phu Quoc Seafood & Ham Ninh Fresh Catch",
+      "vi": "Hải sản tươi sống truyền thống Phú Quốc & Làng chài Hàm Ninh",
+      "zh": "富国岛南部正宗海鲜与涵宁渔村直送料理",
+      "ja": "フーコック南部伝統シーフード＆ハムニン漁村直送料理",
+      "ru": "Традиционные морепродукты Фукуока и улов из рыбацкой деревни Хамнинь",
+      "hi": "प्रामाणिक फू क्वोक सीफ़ूड और हैम निन्ह ताज़ा कैच"
+    },
+    "current_culture_story": {
+      "ko": "푸꾸옥 청정 해역에서 갓 잡은 신선한 해산물을 인위적인 양념 대신 원물 본연의 단맛을 살려 조리하는 베트남 전통 해산물 미식입니다. 은은한 레몬그라스 향을 입혀 쪄내는 찜(Hấp)과 숯불 직화구이(Nướng)가 중심을 이룹니다. 식사 시 푸꾸옥 특산 굵은 통후추와 천일염, 생라임을 즉석에서 짜 넣는 ‘무이 띠에우 짜인(Muối Tiêu Chanh)’ 소스를 곁들이면 바다의 감칠맛과 산뜻한 풍미가 극대화됩니다. 껍질이 얇고 살이 옹골찬 자연산 꽃게와 고소한 마늘 기름에 볶은 갯가재, 그리고 얼큰하고 시원한 꽃게 해산물 전골에 쌀국수 면을 적셔 먹는 방식이 현지에서 해산물을 즐기는 정통 코스입니다.",
+      "en": "Traditional Vietnamese island seafood focuses on natural sweetness without heavy seasoning, utilizing gentle steaming with lemongrass (Hấp) and live charcoal grilling (Nướng). The quintessential condiment is Muối Tiêu Chanh—a dip made of freshly cracked Phu Quoc black pepper, sea salt, squeezed calamansi lime, and chili. Diners savor wild flower crabs, garlic-tossed mantis shrimp, and conclude their feast with a simmering seafood hotpot broth ladled over fresh rice vermicelli."
+    },
+    "sauce_guide": {
+      "ko": "해산물 맛을 살리는 핵심 소스: 무이 띠에우 짜인 (Muối Tiêu Chanh)",
+      "en": "Signature Dipping Sauce: Muối Tiêu Chanh (Pepper, Salt & Lime)",
+      "vi": "Gia vị linh hồn: Muối tiêu chanh Phú Quốc",
+      "zh": "灵魂蘸料：富国岛胡椒青柠海盐（Muối Tiêu Chanh）",
+      "ja": "味の決め手：挽きたて胡椒ライム塩（Muối Tiêu Chanh）",
+      "ru": "Фирменный соус: Черный перец с солью и лаймом (Muối Tiêu Chanh)",
+      "hi": "विशेष डिपिंग सॉस: मुओई तिएउ चान्ह (काली मिर्च, नमक और नींबू)"
+    },
+    "sauce_details": {
+      "ko": "작은 종지에 푸꾸옥 특산 굵은 흑후추 가루와 천일염이 담겨 나옵니다. 식탁에 놓인 생 라임을 손으로 꽉 짜 즙을 붓고, 매콤한 맛을 원하시면 작은 베트남 고추(Ớt)를 으깨어 섞으세요. 담백한 게살이나 랍스터, 조개 찜을 찍어 드시면 비린내 없이 깊은 감칠맛을 즐기실 수 있습니다.",
+      "en": "Served with freshly cracked local black pepper and coarse sea salt. Squeeze half a fresh lime directly into the dish and crush a small red bird-eye chili into the mix for a kick. Dip steamed crab, prawns, or grilled shellfish for a burst of zesty flavor that cuts through the richness.",
+      "vi": "Hạt tiêu đen Phú Quốc thơm nồng kết hợp cùng muối hạt, vắt thêm chanh tươi mọng nước và dầm nhẹ ớt hiểm cay xé. Đây là thứ nước chấm kinh điển làm tôn trọn vị ngọt đậm đà của từng thớ thịt ghẹ và hải sản nướng.",
+      "zh": "小碟中盛有富国岛特级粗磨黑胡椒与海盐。亲手挤入半颗新鲜青柠汁，并根据喜好碾碎一粒朝天椒拌匀。清蒸花蟹、龙虾或烤贝类蘸取此汁，微酸微辣，瞬间激发出海味最纯粹的清甜。",
+      "ja": "小皿にフーコック島特産の粗挽き黒胡椒と天然塩が運ばれてきます。卓上の生ライムをたっぷり搾り、お好みで赤唐辛子を潰して混ぜ合わせます。蒸しガニやエビ、焼き貝につけると、素材の甘みがぐっと引き立ちます。",
+      "ru": "В небольшую розетку насыпают крупно молотый фукуокский черный перец и морскую соль. Выжмите сок свежего лайма и при желании разомните острый перчик чили. Идеальное дополнение к паровому крабу и морепродуктам на гриле.",
+      "hi": "फू क्वोक की काली मिर्च और समुद्री नमक में ताज़ा नींबू निचोड़ें और तीखापन के लिए मिर्च मिलाएं। यह उबले हुए केकड़े और ग्रिल्ड सीफ़ूड के स्वाद को दोगुना कर देता है।"
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 제철 함닌 꽃게(Ghẹ)는 찜(Hấp)으로 본연의 단맛 즐기기",
+        "title_en": "1. Savor Ham Ninh Crab Steamed for Natural Sweetness",
+        "desc_ko": "함닌 꽃게는 껍질이 단단하지 않고 육질이 조밀해 찜으로 먹을 때 풍미가 가장 좋습니다. 집게와 다리 살을 발라 후추 라임 소스에 살짝 찍어 드세요.",
+        "desc_en": "Ham Ninh blue flower crabs have thin shells and tightly packed, naturally sweet meat. Simple steaming reveals their pure ocean flavor."
+      },
+      {
+        "title_ko": "2. 쏙(갯가재/Tôm tít)은 크리스피 마늘볶음(Cháy tỏi) 추천",
+        "title_en": "2. Order Mantis Shrimp with Crispy Garlic (Cháy tỏi)",
+        "desc_ko": "바삭하게 튀겨낸 마늘 후레이크가 갯가재 껍질 사이사이 배어들어 고소함이 극대화됩니다. 현지 시원한 사이공/비비나 맥주와 최상의 궁합입니다.",
+        "desc_en": "Crisp fried garlic flakes coat the sweet mantis shrimp meat. It pairs wonderfully with cold local Saigon or Bivina beer."
+      },
+      {
+        "title_ko": "3. 마지막 마무리는 꽃게 해산물 핫팟(Lẩu ghẹ)과 쌀국수(Bún)",
+        "title_en": "3. Finish with Crab Hotpot (Lẩu ghẹ) and Rice Vermicelli",
+        "desc_ko": "해산물 구이와 찜을 드신 뒤, 깊은 해물 육수에 채소와 꽃게를 끓여낸 핫팟 전골을 주문해 생 쌀국수 사리를 적셔 드시는 것이 정통 코스입니다.",
+        "desc_en": "After grilled starters, islanders invariably order a hotpot. Ladle the simmering crab broth over fresh bún (rice noodles) for a satisfying finish."
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "slug": "amritsar-grill-indian-restaurant",
+    "name": "Amritsar Grill Indian Restaurant",
+    "cat": "dining",
+    "subcat": "western",
+    "current_food_style": {
+      "ko": "북인도 정통 탄두르 바비큐 & 마살라 커리",
+      "en": "North Indian Tandoori BBQ & Rich Masala Curry",
+      "vi": "Ẩm thực Bắc Ấn Độ nướng Tandoor & Cà ri Masala",
+      "zh": "北印度传统泥炉炭烤与浓郁马萨拉咖喱",
+      "ja": "北インド伝統タンドールバーベキュー＆マサラカレー",
+      "ru": "Североиндийское тандури-барбекю и насыщенное карри масала",
+      "hi": "उत्तर भारतीय प्रामाणिक तंदूरी बारबेक्यू और समृद्ध मसाला करी"
+    },
+    "current_culture_story": {
+      "ko": "인도 펀자브주 암리차르 전통 요리는 고온의 원통형 진흙 화덕인 탄두르(Tandoor)를 이용한 직화 구이와 버터, 크림, 가람 마살라를 풍성하게 쓰는 깊은 풍미의 커리가 특징입니다. 요거트와 코리앤더, 큐민 등 복합 향신료에 재워 구워낸 치킨 티카와 향긋한 갈릭 난은 인도 북부 미식의 정수를 보여줍니다.",
+      "en": "Traditional Amritsari cuisine from Punjab highlights high-heat clay tandoor grilling and rich curries laden with butter, cream, and freshly ground garam masala. Marinated meats like chicken tikka and fragrant garlic naan form the soul of this robust culinary heritage."
+    },
+    "sauce_guide": {
+      "ko": "풍미를 더하는 디핑 소스: 민트 요거트 처트니 & 망고 피클",
+      "en": "Essential Condiments: Mint Yogurt Chutney & Spiced Pickle",
+      "vi": "Gia vị kèm: Sốt sữa chua bạc hà & Dưa chua cay",
+      "zh": "风味蘸酱：薄荷酸奶酸辣酱与风味腌菜",
+      "ja": "味を引き締めるソース：ミントヨーグルトチャツネ＆スパイシーピクルス",
+      "ru": "Фирменные соусы: Мятный йогуртовый чатни и пикули",
+      "hi": "विशेष चटनी: पुदीना दही चटनी और मसालेदार अचार"
+    },
+    "sauce_details": {
+      "ko": "화덕 바비큐에는 시원한 생민트와 고수, 요거트를 갈아 만든 녹색의 민트 처트니가 함께 제공됩니다. 고기의 기름진 맛을 상큼하게 잡아주며, 매콤 짭조름한 인도식 피클(Achar)을 밥이나 난에 곁들이면 한층 깊은 감칠맛을 즐길 수 있습니다.",
+      "en": "Grilled meats are served with a cooling dip made from fresh mint, coriander, and churned yogurt. A small touch of spicy pickled mango or lime (Achar) balances the buttery notes of naan and curry."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 화덕에서 갓 구운 난을 손으로 찢어 커리에 찍어 먹기",
+        "title_en": "1. Tear fresh tandoori naan by hand and dip into rich curry",
+        "desc_ko": "탄두르 화덕 벽에 붙여 구워낸 겉바속촉 갈릭 난은 따뜻할 때 손으로 찢어 진한 치킨 티카 마살라 커리에 듬뿍 찍어 드세요.",
+        "desc_en": "Rip warm garlic naan straight from the oven and scoop generous amounts of butter chicken or masala sauce."
+      },
+      {
+        "title_ko": "2. 매콤한 바비큐에는 시원한 민트 처트니 곁들이기",
+        "title_en": "2. Pair fiery grilled skewers with cooling mint chutney",
+        "desc_ko": "스파이스 마리네이드로 구워낸 직화 구이에 상큼한 민트 요거트 소스를 찍으면 매운맛을 부드럽게 감싸줍니다.",
+        "desc_en": "Cooling herb chutney tempers the robust spices of charcoal-grilled tandoori delicacies."
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "slug": "antalya-turkish-cuisine-sunset-town",
+    "name": "Antalya Turkish Cuisine-Sunset Town",
+    "cat": "dining",
+    "subcat": "international",
+    "current_food_style": {
+      "ko": "지중해풍 정통 터키식 숯불 케밥 & 피데",
+      "en": "Mediterranean Authentic Turkish Charcoal Kebabs & Pide",
+      "vi": "Thịt nướng Kebab Địa Trung Hải & Bánh Pide Thổ Nhĩ Kỳ",
+      "zh": "地中海风味正宗土耳其炭烤烤肉与皮蝶面包",
+      "ja": "地中海風正統派トルコ炭火ケバブ＆ピデ",
+      "ru": "Средиземноморские турецкие кебабы на углях и пиде",
+      "hi": "भूमध्यसागरीय प्रामाणिक तुर्की चारकोल कबाब और पिडे"
+    },
+    "current_culture_story": {
+      "ko": "터키 안탈리아는 지중해 연안의 신선한 올리브유와 허브, 풍부한 육류를 결합한 독창적인 식문화를 자랑합니다. 수직 회전 그릴에서 육즙을 보존하며 얇게 썰어내는 되네르(Döner) 케밥과 숯불 꼬치에 구운 시시(Şiş) 케밥, 쫄깃한 보트 모양 도우에 치즈와 고기를 얹은 전통 피데(Pide)가 대표적입니다.",
+      "en": "Antalya cuisine embodies the breezy Turkish Mediterranean, blending cold-pressed olive oils, fragrant herbs, and wood-fired meats. Vertical-rotisserie döner and boat-shaped baked pide flatbreads are hallmarks of this convivial culinary culture."
+    },
+    "sauce_guide": {
+      "ko": "케밥의 완벽한 짝꿍: 수제 갈릭 요거트 & 하리사 칠리 소스",
+      "en": "Signature Sauces: Garlic Herb Yogurt & Spicy Harissa Dip",
+      "vi": "Sốt chấm đặc trưng: Sốt sữa chua tỏi & Sốt ớt cay Harissa",
+      "zh": "烤肉灵魂蘸酱：蒜香酸奶酱与哈里萨辣酱",
+      "ja": "ケバブの決め手：自家製ガーリックヨーグルト＆ハリッサチリ",
+      "ru": "Фирменные соусы: Чесночный йогурт с травами и острая харисса",
+      "hi": "विशेष सॉस: लहसुन दही डिप और मसालेदार हरीसा"
+    },
+    "sauce_details": {
+      "ko": "터키 요리에서 요거트는 단순한 디저트가 아닌 주요 양념입니다. 으깬 마늘과 오이, 올리브유를 섞은 자지키(Cacık) 스타일 요거트 소스는 숯불 고기의 기름기를 말끔히 씻어주며, 붉은 고추 페이스트로 만든 알싸한 소스는 감칠맛을 배가합니다.",
+      "en": "Thick strained yogurt blended with garlic, olive oil, and mint refreshes the palate between savory bites of roasted meat and warm bread."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 얇은 플랫브레드에 고기와 구운 채소를 넣어 롤로 싸 먹기",
+        "title_en": "1. Wrap sliced meat and grilled vegetables in lavash bread",
+        "desc_ko": "되네르 고기를 얇은 라바시 빵 위에 올리고 구운 토마토와 양파, 요거트 소스를 넣어 돌돌 말아 드세요.",
+        "desc_en": "Fold thinly sliced döner or kebab skewers into soft flatbread with sumac onions and garlic cream."
+      },
+      {
+        "title_ko": "2. 식사 후에는 달콤한 바클라바와 터키 차이로 마무리",
+        "title_en": "2. Conclude with sweet pistachio baklava and hot Turkish tea",
+        "desc_ko": "바삭한 페이스트리에 피스타치오와 꿀을 적신 바클라바 한 조각에 따뜻한 홍차 차이(Çay)를 곁들이는 것이 정통입니다.",
+        "desc_en": "A glass of brewed black tea cuts through the honeyed layers of pistachio pastry for an authentic finish."
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "slug": "cafe-juliet-pastries",
+    "name": "Cafe Juliet & Pastries",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": {
+      "ko": "유러피언 에스프레소 & 베트남 로부스타 커피 & 수제 베이커리",
+      "en": "European Espresso, Vietnamese Robusta Coffee & Pastries",
+      "vi": "Cà phê Espresso phong cách châu Âu & Bánh ngọt thủ công",
+      "zh": "欧式浓缩咖啡、越南罗布斯塔咖啡与手工烘焙甜点",
+      "ja": "ヨーロピアンエスプレッソ＆ベトナムロブスタコーヒー＆ペストリー",
+      "ru": "Европейский эспрессо, вьетнамский кофе робуста и выпечка",
+      "hi": "यूरोपीय एस्प्रेसो, वियतनामी रोबस्टा कॉफ़ी और हस्तनिर्मित पेस्ट्री"
+    },
+    "current_culture_story": {
+      "ko": "베트남은 세계 2위의 커피 생산국으로 특유의 묵직한 바디감을 가진 로부스타 원두와 진한 달콤함의 연유가 만난 카페 쓰어다(Cà Phê Sữa Đá)로 세계적인 명성을 얻었습니다. 선셋타운의 에스프레소 바에서는 현대적인 에스프레소 추출 기술과 유럽식 버터 페이스트리가 어우러져 섬의 여유로운 오후를 채워줍니다.",
+      "en": "Vietnam is famed for bold robusta beans sweetened with condensed milk. Sunset Town cafés merge high-pressure espresso brewing with French pastry traditions, offering a relaxed waterfront café lifestyle."
+    },
+    "sauce_guide": {
+      "ko": "커피와 디저트의 황금 밸런스: 스위트 연유 & 바닐라 크림",
+      "en": "Sweet Balance: Condensed Milk & Vanilla Bean Cream",
+      "vi": "Hương vị hài hòa: Sữa đặc ngọt béo & Kem vani",
+      "zh": "风味平衡：醇厚炼乳与香草奶油",
+      "ja": "黄金比の甘み：濃厚練乳＆バニラクリーム",
+      "ru": "Сладкий акцент: Сгущенное молоко и ванильный крем",
+      "hi": "मीठा संतुलन: गाढ़ा मीठा दूध और वेनिला क्रीम"
+    },
+    "sauce_details": {
+      "ko": "진한 다크 로스팅 에스프레소 샷 아래 묵직한 달콤함의 연유를 넉넉히 깔아 쌉싸름함과 부드러운 고소함이 단계별로 혀끝에 감돌도록 서빙됩니다.",
+      "en": "A dense layer of sweetened condensed milk sits at the bottom of the iced glass, waiting to be swirled into the dark, aromatic coffee roast."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 연유 커피는 얼음과 함께 10회 이상 골고루 저어 마시기",
+        "title_en": "1. Stir condensed milk vigorously with crushed ice",
+        "desc_ko": "바닥에 깔린 진한 연유가 차가운 얼음 사이로 완전히 녹아들도록 긴 스푼으로 고르게 저어 드셔야 최상의 밸런스가 완성됩니다.",
+        "desc_en": "Use the tall spoon to thoroughly combine the heavy condensed milk with the espresso and melting ice."
+      },
+      {
+        "title_ko": "2. 버터 크루아상은 에스프레소에 살짝 찍어 즐기기",
+        "title_en": "2. Dip warm butter croissant into hot espresso",
+        "desc_ko": "갓 구워낸 결이 살아있는 크루아상을 쌉싸름한 에스프레소 크레마에 살짝 적셔 드시면 고소함이 한층 돋보입니다.",
+        "desc_en": "Crisp flaky pastry absorbs the aromatic crema of freshly extracted coffee."
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "slug": "cap-tr-phu-quoc",
+    "name": "Cap'tr Phú Quốc",
+    "cat": "dining",
+    "subcat": "seafood",
+    "current_food_style": {
+      "ko": "선셋타운 케이블카 라운지 & 트로피컬 리프레시 음료",
+      "en": "Sunset Town Cable Car Lounge & Tropical Refreshments",
+      "vi": "Đồ uống giải khát nhiệt đới & Trạm Cáp treo Hoàng Hôn",
+      "zh": "落日小镇缆车站热带清凉饮品与休闲小食",
+      "ja": "サンセットタウン・ケーブルカーラウンジ＆トロピカルドリンク",
+      "ru": "Освежающие тропические напитки у канатной дороги",
+      "hi": "केबल कार स्टेशन ट्रॉपिकल रिफ्रेशमेंट और स्नैक्स"
+    },
+    "current_culture_story": {
+      "ko": "세계 최장 해상 케이블카 탑승장 주변에서는 바닷바람과 남국의 햇살 아래 갈증을 달래주는 신선한 열대 음료를 즐길 수 있습니다. 베트남 남부 해안에서 매일 수확하는 차가운 생 코코넛 워터는 미네랄과 전해질이 풍부하여 여행 중 빠른 수분 보충에 으뜸입니다.",
+      "en": "Near the famous sea-crossing cable car, visitors pause to rehydrate with freshly cleaved young coconuts and iced tropical juices under the tropical sun."
+    },
+    "sauce_guide": {
+      "ko": "열대 과일의 감칠맛 포인트: 칠리 솔트 (Muối Ớt)",
+      "en": "Tropical Fruit Dip: Vietnamese Chili Salt (Muối Ớt)",
+      "vi": "Gia vị ăn kèm: Muối ớt chấm hoa quả tươi",
+      "zh": "水果灵魂蘸粉：越南辣椒盐（Muối Ớt）",
+      "ja": "フルーツを引き立てる調味料：チリソルト（Muối Ớt）",
+      "ru": "Вьетнамская острая соль для фруктов (Muối Ớt)",
+      "hi": "फलों के लिए खास मसाला: वियतनामी चिली सॉल्ट"
+    },
+    "sauce_details": {
+      "ko": "베트남 현지에서는 덜 익은 망고나 구아바 등 과일을 먹을 때 매콤 짭짤한 칠리소금을 찍어 과일의 단맛과 산미를 드라마틱하게 끌어올립니다.",
+      "en": "A pinch of savory chili sea salt highlights the crisp, tangy sweetness of freshly sliced tropical fruits."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 생 코코넛은 과육까지 긁어 먹기",
+        "title_en": "1. Spoon out tender coconut jelly flesh",
+        "desc_ko": "시원한 코코넛 워터를 마신 후 안쪽 벽면의 말랑하고 고소한 흰 과육을 스푼으로 긁어 드셔보세요.",
+        "desc_en": "Scrape the soft, translucent jelly-like meat inside the shell after drinking the chilled water."
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "slug": "casa-limone-phu-quoc-hotel-cafe-specialty-coffee-matcha-bar",
+    "name": "Casa Limone Phu Quoc Hotel & Café - Specialty Coffee & Matcha Bar",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": {
+      "ko": "지중해풍 스페셜티 핸드드립 & 프리미엄 말차 바",
+      "en": "Mediterranean Vibe Specialty Drip Coffee & Premium Matcha Bar",
+      "vi": "Cà phê Specialty pha thủ công & Quầy Matcha cao cấp",
+      "zh": "地中海风情精品手冲咖啡与宇治抹茶吧",
+      "ja": "地中海風スペシャリティハンドドリップ＆プレミアム抹茶バー",
+      "ru": "Спешелти фильтр-кофе и премиальный матча-бар",
+      "hi": "भूमध्यसागरीय स्पेशलिटी ड्रिप कॉफ़ी और प्रीमियम माचा बार"
+    },
+    "current_culture_story": {
+      "ko": "스페셜티 커피는 산지 고유의 떼루아와 섬세한 가공 방식을 거쳐 원두 본연의 꽃향기, 과일 산미, 깔끔한 클린컵을 선사합니다. 여기에 맷돌로 곱게 갈아낸 프리미엄 말차를 격불하여 만든 말차 라떼는 싱그러운 풋내음과 부드러운 우유의 단맛이 완벽한 밸런스를 이룹니다.",
+      "en": "Specialty coffee celebrates single-origin terroirs through precise hand-pour brewing. Paired with stone-ground ceremonial matcha whisked to order, Casa Limone offers an artisanal sanctuary in Sunset Town."
+    },
+    "sauce_guide": {
+      "ko": "부드러운 음미: 마다가스카르 바닐라 & 폼 밀크",
+      "en": "Flavor Accent: Madagascar Vanilla & Microfoam Milk",
+      "vi": "Hương vị điểm nhấn: Vani nguyên chất & Bọt sữa mịn",
+      "zh": "风味点缀：马达加斯加香草与绵密奶泡",
+      "ja": "風味のアクセント：マダガスカルバニラ＆きめ細かなフォームミルク",
+      "ru": "Акцент вкуса: Натуральная ваниль и шелковистая молочная пенка",
+      "hi": "विशेष स्वाद: मेडागास्कर वेनिला और मखमली दूध का झाग"
+    },
+    "sauce_details": {
+      "ko": "고급 말차의 쌉싸름함을 자연스러운 단맛으로 감싸주는 천연 바닐라 시럽과 미세 벨벳 폼 밀크가 조화를 이룹니다.",
+      "en": "Silky microfoam balances the grassy, umami depth of matcha without masking its distinctive character."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 핸드드립 필터 커피의 온도 변화 음미하기",
+        "title_en": "1. Taste hand-drip coffee as it gently cools",
+        "desc_ko": "첫 모금의 화사한 꽃향기와 살짝 식은 후 살아나는 복숭아, 베리류의 단맛을 단계별로 느껴보세요.",
+        "desc_en": "Notice delicate floral top notes while hot, giving way to bright stone-fruit sweetness at room temperature."
+      },
+      {
+        "title_ko": "2. 말차 라떼는 섞기 전 크림 폼 먼저 맛보기",
+        "title_en": "2. Sip the velvety matcha foam before stirring",
+        "desc_ko": "음료 상단의 진한 초록빛 말차 거품을 한 모금 먼저 머금어 쌉싸름한 원물 본연의 향을 느껴보세요.",
+        "desc_en": "Experience the vibrant, concentrated matcha aroma floating on top before blending with milk."
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "slug": "com-gia-dinh-viet-tay-ho-restaurant",
+    "name": "Cơm Gia Đình Việt - Tây Hồ Restaurant",
+    "cat": "dining",
+    "subcat": "vietnamese",
+    "current_food_style": {
+      "ko": "하노이 서호식 정통 베트남 가정식 백반 (Cơm Gia Đình)",
+      "en": "Hanoi West Lake Style Authentic Vietnamese Home-cooked Meal",
+      "vi": "Cơm Gia Đình chuẩn vị Tây Hồ Hà Nội truyền thống",
+      "zh": "河内西湖传统正宗越式家常菜便当套餐",
+      "ja": "ハノイ西湖風正統派ベトナム家庭料理（コム・ザー・ディン）",
+      "ru": "Традиционный ханойский домашний обед (Cơm Gia Đình)",
+      "hi": "हनोई वेस्ट लेक शैली प्रामाणिक वियतनामी घरेलू भोजन"
+    },
+    "current_culture_story": {
+      "ko": "베트남 가정식(Cơm Gia Đình)은 쌀밥을 중심으로 찌개(Canh), 조림(Kho), 볶음(Xào), 야채(Rau)가 한 상에 조화롭게 오르는 식문화입니다. 코코넛 워터와 피시소스에 푹 삶아 숟가락만 대도 부서지는 삼겹살 장조림(Thịt Kho)과 타마린드의 기분 좋은 산미가 돋보이는 깐추아(Canh Chua)는 베트남인들의 진정한 소울푸드입니다.",
+      "en": "Cơm Gia Đình captures the soul of Vietnamese family tables: fragrant jasmine rice balanced by a savory braised dish (Kho), clear soup (Canh), stir-fry, and herbs. Pork belly simmered in coconut water and tamarind sour fish soup provide comfort and warmth."
+    },
+    "sauce_guide": {
+      "ko": "가정식 밥상의 영혼: 순수 피시소스 & 홍고추 (Nước Mắm Cốt)",
+      "en": "Table Staple: Pure Fish Sauce with Bird-eye Chili",
+      "vi": "Linh hồn bữa cơm: Nước mắm cốt nhĩ cá cơm & Ớt xiêm",
+      "zh": "家常灵魂：富国纯正鱼露与红朝天椒（Nước Mắm）",
+      "ja": "食卓の魂：伝統ヌックマム（魚醤）＆生唐辛子",
+      "ru": "Душа вьетнамской трапезы: Рыбный соус ныокмам с острым чили",
+      "hi": "भोजन का मुख्य सार: शुद्ध मछली सॉस और तीखी लाल मिर्च"
+    },
+    "sauce_details": {
+      "ko": "푸꾸옥산 프리미엄 멸치 어장 직송 느억맘에 생 홍고추 몇 조각을 띄워 밥상 중앙에 놓습니다. 데친 채소를 찍거나 밥 위에 몇 방울 뿌려 비벼 먹습니다.",
+      "en": "First-press anchovy fish sauce dotted with sliced chili accompanies steamed greens, boiled pork, and fried tofu."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 삼겹살 장조림 국물을 밥에 쓱쓱 비벼 먹기",
+        "title_en": "1. Drizzle caramelized pork braising sauce over rice",
+        "desc_ko": "갈색빛 윤기가 흐르는 고소한 장조림 양념을 흰 쌀밥에 끼얹고 으깬 메추리알과 함께 비벼 드세요.",
+        "desc_en": "Spoon savory-sweet caramel braising reduction over warm rice and mash soft quail eggs into the grain."
+      },
+      {
+        "title_ko": "2. 새콤한 깐추아 수프로 입가심하기",
+        "title_en": "2. Refresh palate with tamarind sour fish broth",
+        "desc_ko": "파인애플과 토마토가 빚어낸 새콤달콤한 국물을 한 모금 마시면 입안의 기름진 맛이 개운하게 씻깁니다.",
+        "desc_en": "The tangy tamarind and pineapple broth cleanses the palate between rich bites of braised meats."
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "slug": "dao-vi-vuifest-bazaar",
+    "name": "Đảo Vị VuiFest Bazaar",
+    "cat": "dining",
+    "subcat": "vietnamese",
+    "current_food_style": {
+      "ko": "부이페스트 야시장 숯불 바비큐 꼬치 & 칠리소금 해산물",
+      "en": "VuiFest Night Bazaar Charcoal Skewers & Chili Salt Seafood",
+      "vi": "Xiên nướng than hoa & Hải sản nướng muối ớt Chợ đêm VuiFest",
+      "zh": "落日夜市炭火烤串与辣椒盐烤海鲜",
+      "ja": "ブイフェスト夜市 炭火焼き串＆チリソルトシーフード",
+      "ru": "Шашлычки на углях и морепродукты с солью и чили на ночном рынке",
+      "hi": "वीफ़ेस्ट नाइट बाज़ार चारकोल कटार और चिली सॉल्ट सीफ़ूड"
+    },
+    "current_culture_story": {
+      "ko": "베트남 남부 야시장 문화의 꽃은 숯불 직화 구이입니다. 특히 푸꾸옥의 특산물인 굵은 바다 소금에 매운 홍고추를 함께 빻아 만든 칠리소금(Muối Ớt)을 두툼한 오징어와 새우에 듬뿍 발라 센 불에 빠르게 구워내면 겉은 바삭하고 속은 촉촉한 최상의 식감이 완성됩니다.",
+      "en": "At VuiFest Bazaar, open-air grills sizzle with tiger prawns, skewered meats, and whole squid brushed with spicy sea salt, delivering smoky street-side vibrancy by the ocean."
+    },
+    "sauce_guide": {
+      "ko": "직화 구이의 단짝: 매콤새콤 칠리 라임 디핑 (Muối Ớt Xanh)",
+      "en": "Night Market Signature: Green Chili Lime Dip (Muối Ớt Xanh)",
+      "vi": "Nước chấm thần thánh: Muối ớt xanh chua ngọt",
+      "zh": "烤串神仙蘸料：青椒酸辣青柠酱（Muối Ớt Xanh）",
+      "ja": "炭火焼きにぴったり：青唐辛子ライムソルトソース（Muối Ớt Xanh）",
+      "ru": "Фирменный соус: Зеленый соус с чили и лаймом (Muối Ớt Xanh)",
+      "hi": "नाइट मार्केट डिप: हरी मिर्च और नींबू सॉस"
+    },
+    "sauce_details": {
+      "ko": "청고추와 연유, 설탕, 라임을 갈아 만든 크리미한 초록빛 소스로, 숯불에 구운 오징어나 꼬치의 탄내와 기름기를 완벽하게 잡아줍니다.",
+      "en": "A creamy emulsified blend of green chilies, condensed milk, sea salt, and fresh calamansi lime that cuts through smoky char."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 숯불 오징어 구이는 뜨거울 때 라임 즙 뿌려 먹기",
+        "title_en": "1. Squeeze fresh lime over sizzling grilled squid",
+        "desc_ko": "불판에서 갓 내려온 오징어에 생라임을 살짝 짠 뒤 칠리소스를 듬뿍 찍어 드세요.",
+        "desc_en": "Bright citrus juice cuts the rich smoky crust of squid rings while preserving tender juiciness."
+      },
+      {
+        "title_ko": "2. 시원한 현지 생맥주와 함께 즐기기",
+        "title_en": "2. Pair with cold local craft beer or lager",
+        "desc_ko": "짭조름하고 매콤한 꼬치구이는 차가운 라거 맥주와 환상적인 조화를 이룹니다.",
+        "desc_en": "Spicy char-kissed skewers are the ultimate companion to ice-cold beachfront beers."
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "slug": "green-tree-buffet-seafood",
+    "name": "Green Tree Buffet SeaFood",
+    "cat": "dining",
+    "subcat": "seafood",
+    "current_food_style": {
+      "ko": "선셋타운 대형 디너 해산물 바비큐 & 핫팟 뷔페",
+      "en": "Sunset Town Grand Dinner Seafood BBQ & Hotpot Buffet",
+      "vi": "Đại tiệc Buffet Hải Sản Nướng & Lẩu Hoàng Hôn",
+      "zh": "落日小镇大型海鲜烧烤与火锅晚市自助餐",
+      "ja": "サンセットタウン大型ディナー海鮮BBQ＆鍋ビュッフェ",
+      "ru": "Гранд-буфет морепродуктов на гриле и хотпот на закате",
+      "hi": "सनसेट टाउन भव्य डिनर सीफ़ूड बारबेक्यू और हॉटपॉट बुफे"
+    },
+    "current_culture_story": {
+      "ko": "푸꾸옥의 풍요로운 해역은 살이 꽉 찬 꽃게(Ghẹ Hàm Ninh), 타이거 새우, 다채로운 조개류로 유명합니다. 베트남식 해산물 뷔페에서는 신선한 어패류를 숯불에 파기름과 땅콩을 얹어 구워내는 모하인(Mỡ Hành) 방식과 타마린드·레몬그라스 육수에 데쳐 먹는 러(Lẩu) 핫팟 방식으로 다양하게 즐길 수 있습니다.",
+      "en": "Green Tree Buffet celebrates Phu Quoc's island bounty: fresh wild crabs, prawns, scallops, and oysters cooked live over open charcoal pits or simmered in aromatic herbal hotpots."
+    },
+    "sauce_guide": {
+      "ko": "해산물 뷔페 소스 바: 느억맘 칠리 & 볶은 땅콩 파기름 (Mỡ Hành)",
+      "en": "Buffet Sauce Bar: Classic Nước Mắm & Scallion Oil with Peanuts",
+      "vi": "Gia vị truyền thống: Nước mắm gừng ớt & Mỡ hành đậu phộng",
+      "zh": "自助调料台：姜汁朝天椒鱼露与葱油碎花生",
+      "ja": "ビュッフェの特製ダレ：生姜唐辛子ヌックマム＆ネギ油ピーナッツ",
+      "ru": "Фирменная станция соусов: Ныокмам с чили и ароматное луковое масло",
+      "hi": "बुफे सॉस बार: क्लासिक मछली सॉस और मूंगफली प्याज का तेल"
+    },
+    "sauce_details": {
+      "ko": "조개구이 위에 즉석에서 끼얹는 향긋한 대파 기름과 고소한 땅콩 분태, 그리고 굴 구이에 올리는 매콤한 칠리 페이스트를 자유롭게 배합해 드실 수 있습니다.",
+      "en": "Ladle warm scallion-infused oil and toasted peanuts over grilled scallops, or drizzle garlic lime fish sauce over steamed crabs."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 숯불 조개구이는 끓어오를 때 파기름 얹기",
+        "title_en": "1. Add scallion oil as shellfish bubbles on the grill",
+        "desc_ko": "가리비와 백합이 입을 벌릴 때 대파 기름을 한 스푼 얹어 자글자글 끓여 드시면 고소함이 배가됩니다.",
+        "desc_en": "Spoon scallion oil directly onto browning scallops as they bubble over live coals."
+      },
+      {
+        "title_ko": "2. 해산물 샤브샤브 국물에 쌀국수 면 끓여 마무리",
+        "title_en": "2. Cook fresh noodles in simmering seafood broth",
+        "desc_ko": "해산물을 충분히 우려낸 깊은 핫팟 국물에 생면 국수와 채소를 넣어 따뜻하게 식사를 마무리하세요.",
+        "desc_en": "Drop fresh rice noodles into the rich, bubbling crab broth to create a deeply flavorful noodle bowl."
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "slug": "h-corner-cho-dem-vuifest",
+    "name": "H Corner Chợ đêm Vuifest",
+    "cat": "dining",
+    "subcat": "vietnamese",
+    "current_food_style": {
+      "ko": "부이페스트 야시장 홍콩식 에그 버블와플 & 젤라또 & 디저트 티",
+      "en": "VuiFest Hong Kong Egg Bubble Waffle, Gelato & Dessert Tea",
+      "vi": "Bánh quế trứng gà non Hồng Kông & Kem Gelato Chợ đêm",
+      "zh": "落日夜市港式鸡蛋仔、意式冰淇淋与鲜果茶",
+      "ja": "ブイフェスト夜市 香港エッグワッフル＆ジェラート＆デザートティー",
+      "ru": "Гонконгские вафли, джелато и фруктовые чаи на ночном рынке",
+      "hi": "वीफ़ेस्ट हांगकांग एग बबल वफ़ल, जिलेटो और डिज़र्ट टी"
+    },
+    "current_culture_story": {
+      "ko": "올록볼록한 달걀 모양의 버블 와플인 가이단자이(鷄蛋仔)는 겉은 얇고 바삭하며 속은 쫄깃한 반전 식감으로 사랑받는 디저트입니다. 갓 구워낸 따끈한 와플을 반으로 접어 차가운 젤라또 아이스크림과 다양한 과일 시럽을 채우면 야시장의 낭만을 더해주는 완벽한 길거리 스위츠가 됩니다.",
+      "en": "Golden, spherical bubble waffles (Gai Daan Tsai) offer a crisp shell and soft, chewy center. Folded like a cone and filled with gelato and tropical sauces, they are an iconic night market indulgence."
+    },
+    "sauce_guide": {
+      "ko": "달콤한 토핑: 벨지안 초콜릿 & 제철 망고 시럽",
+      "en": "Sweet Drizzles: Belgian Chocolate & Tropical Mango Drizzle",
+      "vi": "Topping ngọt ngào: Sốt socola Bỉ & Sốt xoài nhiệt đới",
+      "zh": "甜蜜淋酱：比利时浓郁巧克力酱与芒果果蓉",
+      "ja": "スイートトッピング：ベルギーチョコレート＆マンゴーシロップ",
+      "ru": "Сладкие топпинги: Бельгийский шоколад и манговый сироп",
+      "hi": "मीठा टॉपिंग: बेल्जियन चॉकलेट और ताज़ा आम का सिरप"
+    },
+    "sauce_details": {
+      "ko": "따끈한 와플 표면에 흘러내리는 진한 초콜릿 가나슈와 새콤달콤한 생망고 퓨레가 아이스크림과 어우러집니다.",
+      "en": "Warm chocolate ganache and fruit reductions contrast deliciously against chilled scoops of gelato."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 와플 버블 알갱이를 하나씩 뜯어 아이스크림에 찍어 먹기",
+        "title_en": "1. Pluck warm waffle bubbles and dip into cold gelato",
+        "desc_ko": "손으로 올록볼록한 와플 알갱이를 하나씩 떼어내 젤라또 아이스크림에 퐁듀처럼 푹 찍어 드세요.",
+        "desc_en": "Tear individual airy bubbles while still warm and scoop up cold gelato for temperature contrast."
+      },
+      {
+        "title_ko": "2. 상큼한 열대 과일 티로 개운하게 마무리",
+        "title_en": "2. Sip iced passion fruit tea between sweet bites",
+        "desc_ko": "달콤한 디저트 와플에는 패션후르츠나 복숭아가 들어간 시원한 과일 차를 함께 드시면 끝까지 깔끔합니다.",
+        "desc_en": "Tart fruit tea balances rich chocolate and waffle sweetness under the island evening breeze."
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "slug": "hai-bot-eatery-homestay-phu-quoc",
+    "name": "Hai Bột Eatery & Homestay Phu Quoc",
+    "cat": "dining",
+    "subcat": "vietnamese",
+    "current_food_style": {
+      "ko": "선셋타운 베니스 비스트로: 시그니처 꽃게 쌀국수 & 비프 스테이크",
+      "en": "Sunset Town Venice Bistro: Signature Crab Noodle Soup & Beef Steak",
+      "vi": "Bánh Canh Cua đặc sản & Bít tết bò sốt bơ tỏi Venice",
+      "zh": "落日小镇威尼斯小馆：招牌蟹肉粗米粉与蒜香牛排",
+      "ja": "サンセットタウン・ベニス風ビストロ：極上カニ肉うどん風米粉麺＆ステーキ",
+      "ru": "Бистро в Венецианском квартале: Суп с крабом банькань и стейк",
+      "hi": "सनसेट टाउन वेनिस बिस्ट्रो: सिग्नेचर केकड़ा नूडल सूप और बीफ़ स्टेक"
+    },
+    "current_culture_story": {
+      "ko": "바인깐(Bánh Canh)은 타피오카 전분과 쌀가루를 배합해 우동처럼 굵고 쫀득한 식감을 자랑하는 전통 면 요리입니다. 통통한 꽃게살과 메추리알을 얹고 장시간 우려낸 걸쭉한 게살 육수를 부어 먹는 바인깐 꾸아(Bánh Canh Cua)는 현지인들이 아침과 저녁을 가리지 않고 찾는 베트남의 대표 힐링 푸드입니다.",
+      "en": "Bánh Canh features thick, chewy tapioca-rice noodles served in a rich crab broth simmered for hours. Topped with sweet shredded crab meat and quail eggs, it represents Southern Vietnamese comfort food at its finest."
+    },
+    "sauce_guide": {
+      "ko": "국물의 깊이를 더하는: 라임 고추 느억맘 & 굵은 후추",
+      "en": "Broth Accompaniment: Crushed Chili Lime Fish Sauce & Black Pepper",
+      "vi": "Gia vị tinh túy: Nước mắm ớt chanh & Tiêu Phú Quốc xay",
+      "zh": "提鲜佐料：青柠朝天椒鱼露与粗磨黑胡椒",
+      "ja": "スープを深める薬味：ライム唐辛子魚醤＆粗挽き胡椒",
+      "ru": "Традиционная приправа: Рыбный соус с лаймом и чили, черный перец",
+      "hi": "सूप का स्वाद बढ़ाने वाला: नींबू मिर्च मछली सॉस और काली मिर्च"
+    },
+    "sauce_details": {
+      "ko": "걸쭉한 게살 국물에 생라임 반 조각을 짜 넣고 굵은 푸꾸옥 흑후추를 뿌리면 바다의 풍미가 한층 깊어지며, 매운 칠리를 더해 얼큰하게 즐길 수 있습니다.",
+      "en": "A squeeze of fresh lime cuts through the viscous broth, while ground island pepper brings aromatic heat."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 바삭한 꿔이(Quẩy) 도넛을 게살 국물에 푹 적셔 먹기",
+        "title_en": "1. Dip crispy fried crullers (Quẩy) into the crab broth",
+        "desc_ko": "바삭하게 튀겨낸 베트남식 도넛 꿔이를 뜨거운 게살 국물에 담가 국물이 빵 속으로 촉촉하게 스며들었을 때 드셔보세요.",
+        "desc_en": "Let golden fried dough soak up the savory crab reduction until soft and flavorful."
+      },
+      {
+        "title_ko": "2. 두툼한 비프 스테이크는 마늘 버터 소스와 함께",
+        "title_en": "2. Enjoy thick-cut beef steak with garlic butter reduction",
+        "desc_ko": "지글지글 철판에 구워낸 부드러운 스테이크는 마늘 풍미의 버터 소스를 듬뿍 묻혀 갓 구운 바게트와 곁들이면 일품입니다.",
+        "desc_en": "Pair sizzling steak slices with fragrant melted garlic butter alongside crusty bread."
+      }
+    ]
+  },
+  {
+    "index": 12,
+    "slug": "hai-san-ham-ninh",
+    "name": "Hải Sản Hàm Ninh",
+    "cat": "dining",
+    "subcat": "seafood",
+    "current_food_style": {
+      "ko": "함닌 어촌 직송 전통 해산물 찜 & 숯불구이",
+      "en": "Ham Ninh Fishing Village Fresh Steamed & Charcoal Grilled Seafood",
+      "vi": "Hải sản tươi sống Làng chài Hàm Ninh hấp & nướng than hoa",
+      "zh": "涵宁渔村直供传统蒸海鲜与炭烤海味",
+      "ja": "ハムニン漁村直送料理 蒸しガニ＆炭火焼きシーフード",
+      "ru": "Традиционные свежие морепродукты из рыбацкой деревни Хамнинь",
+      "hi": "हैम निन्ह मछली पकड़ने वाले गांव का ताज़ा उबला और ग्रिल्ड सीफ़ूड"
+    },
+    "current_culture_story": {
+      "ko": "함닌 어촌의 신선한 해산물 요리는 자연 그대로의 단맛을 살리는 레몬그라스 찜과 은은한 숯불 직화구이가 핵심입니다. 푸꾸옥 굵은 통후추에 천일염과 라임을 짜 넣은 소스에 갓 쪄낸 꽃게살을 찍어 먹는 것이 섬 전통의 식문화입니다.",
+      "en": "Ham Ninh seafood celebrates raw sweetness through gentle lemongrass steaming and open-charcoal grilling. Fresh wild crabs dipped in crushed black pepper and calamansi lime reflect timeless island heritage."
+    },
+    "sauce_guide": {
+      "ko": "해산물 필수 소스: 무이 띠에우 짜인 (후추 소금 라임)",
+      "en": "Essential Dip: Muối Tiêu Chanh (Pepper, Salt & Lime)",
+      "vi": "Nước chấm linh hồn: Muối tiêu chanh Phú Quốc",
+      "zh": "海鲜灵魂蘸料：富国胡椒柠檬盐",
+      "ja": "伝統の調味料：胡椒ライム塩（Muối Tiêu Chanh）",
+      "ru": "Фирменный соус: Черный перец с морской солью и соком лайма",
+      "hi": "मुख्य डिप: काली मिर्च, नमक और नींबू का मिश्रण"
+    },
+    "sauce_details": {
+      "ko": "푸꾸옥산 햇후추의 톡 쏘는 향과 생라임의 산미가 갑각류의 단맛을 극대화합니다.",
+      "en": "Aromatic island pepper combined with acidic calamansi lime highlights the sweet tenderness of steamed crabs."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 꽃게는 찜으로 담백하게 즐기기",
+        "title_en": "1. Savor steamed blue crab for pure ocean sweetness",
+        "desc_ko": "껍질이 얇은 제철 꽃게는 찜으로 즐길 때 단맛이 가장 조밀합니다.",
+        "desc_en": "Steaming preserves the delicate texture and sweetness of wild flower crabs."
+      }
+    ]
+  },
+  {
+    "index": 13,
+    "slug": "hoi-quan-european-brasserie-bar-pastry",
+    "name": "Hội Quán - European Brasserie • Bar • Pastry",
+    "cat": "dining",
+    "subcat": "vietnamese",
+    "current_food_style": {
+      "ko": "유러피언 브라세리 & 크래프트 페이스트리",
+      "en": "European Waterfront Brasserie & Artisan Pastry",
+      "vi": "Nhà hàng Brasserie phong cách châu Âu & Bánh ngọt",
+      "zh": "欧式水岸啤酒馆西餐厅与法式糕点",
+      "ja": "ヨーロピアンブラッスリー＆手作りペストリー",
+      "ru": "Европейское брассери и авторская выпечка",
+      "hi": "यूरोपीय ब्रासरी और हस्तनिर्मित पेस्ट्री"
+    },
+    "current_culture_story": {
+      "ko": "선셋타운 해안가에서 유럽식 캐주얼 다이닝과 갓 구운 페이스트리를 와인, 맥주와 함께 즐기는 브라세리 문화입니다. 섬세한 버터 풍미의 크루아상과 가벼운 타파스 요리가 어우러집니다.",
+      "en": "European brasserie culture brings casual waterfront dining, freshly baked croissants, and curated wines to the Mediterranean terraces of Sunset Town."
+    },
+    "sauce_guide": {
+      "ko": "페어링 가이드: 발사믹 올리브유 & 허브 버터",
+      "en": "Condiments: Aged Balsamic Olive Oil & Herb Butter",
+      "vi": "Gia vị kèm: Dầu ô liu giấm Balsamic & Bơ thảo mộc",
+      "zh": "佐餐搭配：经典黑醋橄榄油与香草黄油",
+      "ja": "相性抜群：バルサミコオリーブオイル＆ハーブバター",
+      "ru": "Подача: Бальзамический соус с оливковым маслом и пряное масло",
+      "hi": "विशेष डिप: बाल्समिक जैतून का तेल और हर्ब बटर"
+    },
+    "sauce_details": {
+      "ko": "바삭한 바게트와 페이스트리에 엑스트라 버진 올리브유와 숙성 발사믹을 곁들이면 깊은 풍미를 더해줍니다.",
+      "en": "Extra virgin olive oil paired with aged balsamic glaze enriches artisanal sourdough and warm crusty rolls."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 일몰 시간대 테라스 와인 페어링",
+        "title_en": "1. Sunset wine pairing on the terrace",
+        "desc_ko": "해 질 녘 바다를 바라보며 시원한 화이트 와인과 핑거푸드를 즐겨보세요.",
+        "desc_en": "Enjoy crisp chilled white wine paired with light savory tapas as dusk settles."
+      }
+    ]
+  },
+  {
+    "index": 14,
+    "slug": "ibiza-oyster-seafood-bar",
+    "name": "IBIZA - Oyster & Seafood Bar",
+    "cat": "dining",
+    "subcat": "seafood",
+    "current_food_style": {
+      "ko": "선셋 오션뷰 오이스터 바 & 해산물 타파스",
+      "en": "Sunset Ocean-view Oyster Bar & Seafood Tapas",
+      "vi": "Quầy Bar Hàu tươi sống & Tapas Hải sản Hoàng Hôn",
+      "zh": "落日海景生蚝吧与海鲜小食",
+      "ja": "サンセットオーシャンビュー・オイスターバー＆シーフードタパス",
+      "ru": "Устричный бар с видом на закат и тапас из морепродуктов",
+      "hi": "सनसेट ओशन-व्यू ऑयस्टर बार और सीफ़ूड तापस"
+    },
+    "current_culture_story": {
+      "ko": "지중해 휴양지 이비자의 낭만을 담아 신선한 생굴과 치즈 그릴 굴, 해산물 핑거푸드를 칵테일과 함께 즐기는 라운지 바 문화입니다. 얼음 위에 올린 신선한 굴에 타바스코와 레몬즙을 곁들여 바다 내음을 만끽합니다.",
+      "en": "Inspired by Ibiza coastal glamour, diners enjoy freshly shucked island oysters, melted cheese grilled bivalves, and signature tropical cocktails."
+    },
+    "sauce_guide": {
+      "ko": "굴 요리의 핵심: 타바스코 & 샬롯 레드와인 비네거 (Mignonette)",
+      "en": "Oyster Pairing: Tabasco & French Mignonette Sauce",
+      "vi": "Sốt ăn kèm hàu: Sốt giấm vang đỏ hành tím & Tabasco",
+      "zh": "生蚝灵魂料汁：法式红酒醋洋葱汁（Mignonette）与塔巴斯科辣酱",
+      "ja": "生牡蠣の定番：ミニョネットソース（赤ワインビネガー）＆タバスコ",
+      "ru": "Классический соус: Миньонет на красном вине с луком-шалот и табаско",
+      "hi": "ऑयस्टर सॉस: लाल सिरका प्याज सॉस और तबास्को"
+    },
+    "sauce_details": {
+      "ko": "다진 샬롯과 레드와인 식초로 만든 미뇨네트 소스는 굴의 크리미한 감칠맛을 가장 산뜻하게 끌어올려 줍니다.",
+      "en": "Minced shallots in red wine vinegar provide bright acidity that cuts through rich, briny oyster creaminess."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 생굴은 레몬즙을 살짝 짜서 한입에 호로록",
+        "title_en": "1. Slurp freshly shucked oyster with a squeeze of fresh lemon",
+        "desc_ko": "얼음 위에 놓인 생굴에 생레몬을 짜 넣고 바다의 짠맛과 함께 한입에 넘기세요.",
+        "desc_en": "Tipping the shell back allows cold oyster brine and sweet sea liqueur to blend seamlessly."
+      }
+    ]
+  },
+  {
+    "index": 15,
+    "slug": "islander-phuquoc-handmade-gifts-coffee",
+    "name": "Islander PhuQuoc Handmade Gifts & Coffee",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": {
+      "ko": "포지타노 감성 핸드메이드 소품 & 스페셜티 커피",
+      "en": "Positano Street Artisanal Gifts & Handcrafted Coffee",
+      "vi": "Đồ lưu niệm thủ công Positano & Cà phê hạt mộc",
+      "zh": "波西塔诺风情手工文创伴手礼与手冲咖啡",
+      "ja": "ポジターノ風ハンドメイドギフト＆自家焙煎コーヒー",
+      "ru": "Хэндмейд-сувениры и авторский кофе на улице Позитано",
+      "hi": "पॉजिटानो हस्तनिर्मित उपहार और विशेष कॉफ़ी"
+    },
+    "current_culture_story": {
+      "ko": "선셋타운 포지타노 골목에서 푸꾸옥 특산 진주와 핸드메이드 소품을 둘러보며 시원한 드립 커피와 열대 과일 티를 즐기는 여유로운 부티크 카페 문화입니다.",
+      "en": "Stroll along winding Positano Street to explore handmade Phu Quoc souvenirs while sipping cold brews and iced fruit teas."
+    },
+    "sauce_guide": {
+      "ko": "달콤한 티 페어링: 야생 꿀 & 말린 라임 슬라이스",
+      "en": "Tea Garnish: Wild Island Honey & Dried Calamansi",
+      "vi": "Hương vị trà: Mật ong rừng Phú Quốc & Quất sấy khô",
+      "zh": "茶饮点缀：富国岛野生蜂蜜与风干青柠片",
+      "ja": "お茶のアクセント：天然ハチミツ＆ドライライム",
+      "ru": "Дополнение к чаю: Дикий островной мед и сушеный лайм",
+      "hi": "चाय के लिए गार्निश: जंगली शहद और सूखा नींबू"
+    },
+    "sauce_details": {
+      "ko": "푸꾸옥 원시림의 야생 꿀을 살짝 가미해 차의 쌉싸름함을 자연스럽고 깊은 단맛으로 감싸줍니다.",
+      "en": "Local honey adds mellow floral sweetness to brisk iced herbal and black fruit infusions."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 쇼핑 중간 시원한 과일 티로 힐링하기",
+        "title_en": "1. Refresh with chilled passion fruit tea during boutique shopping",
+        "desc_ko": "선셋 골목 산책 중 상큼한 패션후르츠 티로 섬의 열기를 식혀보세요.",
+        "desc_en": "Tart iced passion fruit tea offers immediate refreshment while browsing curated crafts."
+      }
+    ]
+  },
+  {
+    "index": 16,
+    "slug": "kem-trang-tien-sunset-town-phu-quoc",
+    "name": "Kem Tràng Tiền - Sunset Town, Phú Quốc",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": {
+      "ko": "하노이 1958 전통 짱띠엔 수제 아이스크림",
+      "en": "Hanoi Heritage Since 1958 Tràng Tiền Artisan Ice Cream",
+      "vi": "Kem Tràng Tiền truyền thống Hà Nội từ năm 1958",
+      "zh": "河内1958年老字号长钱传统冰淇淋",
+      "ja": "ハノイ伝統・1958年創業 チャンティエン・アイスクリーム",
+      "ru": "Традиционное ханойское мороженое Чанг Тиен с 1958 года",
+      "hi": "1958 से हनोई की पारंपरिक ट्रांग तिएन कारीगर आइसक्रीम"
+    },
+    "current_culture_story": {
+      "ko": "1958년 하노이 짱띠엔 거리에서 시작된 켐 짱띠엔(Kem Tràng Tiền)은 베트남 전 세대가 사랑하는 국민 아이스크림입니다. 쫀득한 풋찹쌀(Cốm), 고소한 녹두(Đậu xanh), 달콤한 코코넛(Dừa)을 갈아 넣어 원재료 고유의 은은한 고소함과 쫀득한 식감이 돋보입니다.",
+      "en": "Dating back to 1958 in Hanoi, Kem Tràng Tiền is Vietnam's beloved national ice cream, famous for chewy young green rice (Cốm), sweet mung bean, and fragrant coconut."
+    },
+    "sauce_guide": {
+      "ko": "클래식 토핑: 바삭한 코코넛 칩 & 구운 와플 콘",
+      "en": "Classic Accents: Toasted Coconut Chips & Crispy Waffle Cone",
+      "vi": "Topping cổ điển: Dừa sấy giòn rụm & Vỏ ốc quế quế",
+      "zh": "经典风味：香脆椰子片与现烤甜筒",
+      "ja": "伝統のトッピング：香ばしいココナッツチップ＆ワッフルコーン",
+      "ru": "Классические топпинги: Хрустящие кокосовые чипсы и вафельный рожок",
+      "hi": "क्लासिक टॉपिंग: टोस्टेड नारियल के टुकड़े और क्रिस्पी कोन"
+    },
+    "sauce_details": {
+      "ko": "인공 향료 대신 전통 곡물과 생 코코넛을 그대로 배합하여 달지 않고 담백하게 즐길 수 있습니다.",
+      "en": "Made with genuine pulses and coconut shreds rather than heavy artificial flavorings."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 풋찹쌀(Cốm) 아이스크림 바의 쫀득함 맛보기",
+        "title_en": "1. Bite into the chewy young green rice (Cốm) popsicle",
+        "desc_ko": "한입 베어 물면 찹쌀 알갱이가 씹히는 짱띠엔의 독창적인 시그니처 텍스처를 느껴보세요.",
+        "desc_en": "Green young rice grains embedded in the ice provide a uniquely pleasant chewiness."
+      }
+    ]
+  },
+  {
+    "index": 17,
+    "slug": "la-isla-bistro-coffee",
+    "name": "La isla Bistro & coffee",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": {
+      "ko": "지중해풍 감성 비스트로 & 파스타 & 에스프레소",
+      "en": "Mediterranean Waterfront Bistro, Pasta & Artisan Coffee",
+      "vi": "Bistro ấm cúng & Mì Ý thủ công & Cà phê rang mộc",
+      "zh": "地中海风情温情小馆、手工意面与意式浓缩",
+      "ja": "地中海風ビストロ＆手打ちパスタ＆エスプレッソ",
+      "ru": "Уютное средиземноморское бистро, паста и кофе",
+      "hi": "भूमध्यसागरीय वाटरफ्रंट बिस्ट्रो, पास्ता और कॉफ़ी"
+    },
+    "current_culture_story": {
+      "ko": "남부 이탈리아의 작은 해안 마을 비스트로에 온 듯한 감성으로, 신선한 올리브유와 마늘을 넣은 오일 파스타, 부드러운 리소토, 그리고 갓 추출한 커피를 즐기는 여유로운 식문화입니다.",
+      "en": "Evoking a seaside trattoria, La Isla pairs freshly made garlic pastas and risottos with fragrant espresso brews by the promenade."
+    },
+    "sauce_guide": {
+      "ko": "비스트로 풍미: 엑스트라 버진 페페론치노 오일 & 파르미지아노",
+      "en": "Savory Accent: Peperoncino Infused Olive Oil & Parmigiano",
+      "vi": "Gia vị phong vị: Dầu ô liu ớt cay & Phô mai bào Parmigiano",
+      "zh": "风味点睛：辣椒橄榄油与现刨帕玛森干酪",
+      "ja": "味のアクセント：ペペロンチーノオイル＆パルミジャーノ",
+      "ru": "Приправа: Оливковое масло с острым перцем и тертый пармезан",
+      "hi": "विशेष फ्लेवर: मिर्च जैतून का तेल और कसा हुआ पनीर"
+    },
+    "sauce_details": {
+      "ko": "갓 삶아낸 알덴테 면에 매콤한 칠리 오일을 살짝 둘러 파스타 본연의 향과 감칠맛을 끌어올립니다.",
+      "en": "A drizzle of chili oil accents garlic and fresh herbs across al dente pasta creations."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 파스타는 식기 전에 치즈와 고루 섞어 먹기",
+        "title_en": "1. Toss hot pasta immediately with grated parmesan cheese",
+        "desc_ko": "뜨거운 면의 열기로 치즈가 녹아들며 크리미한 소스 막이 형성됩니다.",
+        "desc_en": "Warm pasta noodles melt grated hard cheese into a luscious, savory coating."
+      }
+    ]
+  },
+  {
+    "index": 18,
+    "slug": "lotus-home-cafe",
+    "name": "Lotus Home & Cafe",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": {
+      "ko": "베트남 전통 연꽃 씨앗 디저트 & 홈메이드 티 카페",
+      "en": "Vietnamese Traditional Lotus Seed Sweet Soup & Tea House",
+      "vi": "Trà hoa sen & Chè hạt sen nhãn nhục truyền thống",
+      "zh": "越南传统莲子甜品与芳香莲花茶馆",
+      "ja": "ベトナム伝統・蓮の実チェー＆ハスの花茶",
+      "ru": "Традиционный вьетнамский чайный дом и десерты из семян лотоса",
+      "hi": "पारंपरिक वियतनामी कमल के बीज का मीठा सूप और चाय घर"
+    },
+    "current_culture_story": {
+      "ko": "베트남의 국화인 연꽃(Hoa Sen)을 테마로, 은은한 향을 입힌 전통 연꽃 차와 밤처럼 포슬포슬하게 삶아낸 연꽃 씨앗 째(Chè Hạt Sen)를 음미하는 고요한 티 문화입니다.",
+      "en": "Centering on the national flower of Vietnam, this tranquil teahouse serves delicate lotus-scented green teas and tender sweetened lotus seed bowls."
+    },
+    "sauce_guide": {
+      "ko": "디저트 단맛: 천연 코코넛 설탕 시럽 (Nước Đường Thốt Nốt)",
+      "en": "Gentle Sweetener: Natural Palm Sugar Syrup",
+      "vi": "Độ ngọt thanh: Nước đường thốt nốt nấu thanh long",
+      "zh": "清润甜味：天然棕榈糖浆",
+      "ja": "やさしい甘み：天然パームシュガーシロップ",
+      "ru": "Натуральная сладость: Сироп из пальмового сахара",
+      "hi": "प्राकृतिक मिठास: पाम शुगर सिरप"
+    },
+    "sauce_details": {
+      "ko": "자극적이지 않은 야자나무 당 시럽을 가미해 연꽃 씨앗 본연의 고소한 맛을 부드럽게 감싸줍니다.",
+      "en": "Unrefined palm sugar enhances lotus seeds without overpowering their delicate nutty aroma."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 따뜻한 연꽃 차로 먼저 향을 음미하기",
+        "title_en": "1. Inhale the floral fragrance of warm lotus blossom tea first",
+        "desc_ko": "잔을 들고 먼저 그윽한 연꽃 향기를 맡은 후 천천히 한 모금 넘겨보세요.",
+        "desc_en": "Cup the ceramic vessel to breathe in fragrant blossom tea before taking small sips."
+      }
+    ]
+  },
+  {
+    "index": 19,
+    "slug": "madam-khanh-restaurant-phu-quoc-2",
+    "name": "Madam Khánh Restaurant Phú quốc 2-마담 칸 - 汗女士",
+    "cat": "dining",
+    "subcat": "seafood",
+    "current_food_style": {
+      "ko": "호이안 50년 전통 마담칸 반미 & 베트남 로컬 퀴진",
+      "en": "Hoi An Legendary Madam Khánh The Bánh Mì Queen & Local Delights",
+      "vi": "Bánh Mì Madam Khánh Hội An nức tiếng & Ẩm thực Việt",
+      "zh": "会安传奇马丹汗法棍（Madam Khánh）与越式经典",
+      "ja": "ホイアン発・伝説のマダムカーン・バインミー＆ベトナム料理",
+      "ru": "Легендарный баньми от Мадам Кхань из Хойана и местная кухня",
+      "hi": "होई एन प्रसिद्ध मैडम खान बान्ह मील और स्थानीय व्यंजन"
+    },
+    "current_culture_story": {
+      "ko": "호이안에서 ‘반미 퀸’으로 전 세계 여행자들의 찬사를 받아온 전통 레시피 그대로, 겉은 바삭하고 속은 부드러운 쌀 바게트에 특제 돼지 간 파테, 캐러멜 소스 차슈, 아삭한 절임 채소(Đồ Chua)를 꽉 채워내는 전설적인 스트리트 미식입니다.",
+      "en": "World-renowned as Hoi An's 'Bánh Mì Queen', Madam Khánh crafts crunchy-yet-airy baguettes loaded with rich liver pâté, savory roasted pork, and pickled papaya."
+    },
+    "sauce_guide": {
+      "ko": "반미 퀸의 비법 소스: 마담칸 특제 칠리 오일 소스 (Nước Sốt Độc Quyền)",
+      "en": "Secret Dressing: Madam Khánh Caramel Chili Gravy",
+      "vi": "Bí quyết gia truyền: Nước sốt thịt đậm đà & ớt rim Hội An",
+      "zh": "秘制酱汁：马丹汗秘方浓郁肉汁与会安油浸辣酱",
+      "ja": "秘伝のタレ：マダムカーン特製肉汁ソース＆チリオイル",
+      "ru": "Фирменный соус: Пикантная мясная подлива по рецепту Мадам Кхань",
+      "hi": "गुप्त सॉस: मैडम खान विशेष कारमेल चिली ग्रेवी"
+    },
+    "sauce_details": {
+      "ko": "고기를 조려낸 깊은 감칠맛의 육즙 소스와 매콤 달콤한 수제 칠리 잼이 빵 속 속재료들을 촉촉하게 하나로 묶어줍니다.",
+      "en": "A slow-reduced savory meat jus and house chili paste bind the crisp crust to succulent fillings."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 바게트가 따뜻할 때 크게 베어 물기",
+        "title_en": "1. Take a deep, crunchy bite while the bread is oven-warm",
+        "desc_ko": "겉은 파사삭 부서지고 속은 풍부한 육즙과 파테가 퍼지는 식감의 대비를 즐기세요.",
+        "desc_en": "Bite through the crackling crust to experience contrasting textures of warm meats and crisp pickles."
+      }
+    ]
+  },
+  {
+    "index": 20,
+    "slug": "mae-coffee",
+    "name": "MAE Coffee",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": {
+      "ko": "모던 미니멀리즘 스페셜티 커피 & 코코넛 브루",
+      "en": "Modern Minimalist Specialty Coffee & Coconut Cold Brew",
+      "vi": "Cà phê pha lạnh Cold Brew & Cà phê cốt dừa hiện đại",
+      "zh": "极简风精品冷萃咖啡与生椰咖啡",
+      "ja": "モダンミニマリズム・スペシャリティコールドブリュー＆ココナッツコーヒー",
+      "ru": "Современный спешелти кофе и кокосовый колд-брю",
+      "hi": "आधुनिक मिनिमलिस्ट स्पेशलिटी कॉफ़ी और नारियल कोल्ड ब्रू"
+    },
+    "current_culture_story": {
+      "ko": "깔끔하고 세련된 미니멀 감성 속에서 원두 본연의 노트를 살린 콜드브루와 신선한 코코넛 밀크 슬러시를 결합한 모던 베트남 커피 문화를 선보입니다.",
+      "en": "MAE Coffee strips away distractions to present clean single-origin cold brews and modern frozen coconut coffee blends by the coastal avenues."
+    },
+    "sauce_guide": {
+      "ko": "크리미 밸런스: 유기농 코코넛 크림 (Cốt Dừa Béo)",
+      "en": "Rich Layer: Organic Whipped Coconut Cream",
+      "vi": "Lớp kem mịn: Cốt dừa tươi sánh mịn",
+      "zh": "香浓层次：纯天然生椰乳雪顶",
+      "ja": "クリーミーな層：無添加ココナッツクリーム",
+      "ru": "Кремовый слой: Натуральные кокосовые взбитые сливки",
+      "hi": "क्रीमी लेयर: ऑर्गेनिक नारियल क्रीम"
+    },
+    "sauce_details": {
+      "ko": "섬에서 갓 짜낸 진한 코코넛 크림이 에스프레소의 다크 초콜릿 향과 매끄럽게 어우러집니다.",
+      "en": "Rich island coconut cream contrasts velvety texture against dark espresso notes."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 코코넛 커피는 숟가락으로 크림 먼저 맛보기",
+        "title_en": "1. Spoon the coconut cream foam before sipping cold brew",
+        "desc_ko": "위에 얹어진 부드러운 코코넛 폼을 한 스푼 맛본 뒤 서서히 저어 드세요.",
+        "desc_en": "Sample the cold sweet coconut foam directly before swirling into the iced coffee."
+      }
+    ]
+  },
+  {
+    "index": 21,
+    "slug": "mai-huong-restaurant-sunset-town",
+    "name": "Mai Hương Restaurant - Sunset Town",
+    "cat": "dining",
+    "subcat": "seafood",
+    "current_food_style": {
+      "ko": "선셋타운 정통 해산물 바비큐 & 꽃게 핫팟",
+      "en": "Sunset Town Authentic Seafood BBQ & Crab Hotpot",
+      "vi": "Hải sản nướng than hoa & Lẩu hải sản Mai Hương",
+      "zh": "落日小镇正宗炭烤海鲜与海鲜砂锅火锅",
+      "ja": "サンセットタウン・海鮮炭火焼き＆カニ鍋（ラウ・ハイサン）",
+      "ru": "Аутентичные морепродукты на гриле и крабовый хотпот",
+      "hi": "सनसेट टाउन प्रामाणिक सीफ़ूड बारबेक्यू और केकड़ा हॉटपॉट"
+    },
+    "current_culture_story": {
+      "ko": "푸꾸옥 현지 어항에서 공급받는 싱싱한 타이거 새우와 조개구이, 그리고 꽃게를 통째로 넣어 시원하게 끓여낸 핫팟 전골(Lẩu Hải Sản)이 일품인 로컬 해산물 명소입니다. 매콤한 칠리소금 양념을 얹어 숯불에 구워내는 대하 구이는 남녀노소 모두에게 사랑받습니다.",
+      "en": "Mai Hương shines with live charcoal-grilled tiger prawns dusted with chili salt, fresh oysters, and bubbling crab hotpots ladled over fresh rice noodles."
+    },
+    "sauce_guide": {
+      "ko": "구이 소스의 진수: 매콤 칠리 버터 & 푸꾸옥 흑후추 라임",
+      "en": "Grill Glaze: Spicy Chili Butter & Crushed Black Pepper Lime",
+      "vi": "Sốt nướng: Bơ tỏi ớt cay & Muối tiêu chanh",
+      "zh": "炭烤酱料：蒜香黄油辣酱与黑胡椒柠檬汁",
+      "ja": "焼きダレの極み：スパイシーチリバター＆黒胡椒ライム",
+      "ru": "Соус для гриля: Пряное сливочное масло с чили и перечно-лаймовая соль",
+      "hi": "ग्रिल ग्लेज: मसालेदार मिर्च मक्खन और काली मिर्च नींबू"
+    },
+    "sauce_details": {
+      "ko": "불판 위에서 녹아내리는 마늘 버터 칠리 소스가 새우 속살까지 스며들어 깊은 불맛을 완성합니다.",
+      "en": "Melted garlic chili butter seeps deep into shell cracks over roaring coals for intense flavor."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 숯불 새우는 껍질째 바삭하게 즐기기",
+        "title_en": "1. Enjoy crispy chili-crusted prawn shells",
+        "desc_ko": "칠리소금이 바삭하게 구워진 껍질째 씹어 드시면 더욱 진한 고소함을 느낄 수 있습니다.",
+        "desc_en": "Charred seasoned shells add crunchy texture and smoky saltiness to the sweet prawn meat."
+      }
+    ]
+  },
+  {
+    "index": 22,
+    "slug": "milano-coffee-64-milan-sunset-town",
+    "name": "Milano Coffee - 64 Milan Sunset Town",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": {
+      "ko": "베트남 정통 로컬 밀라노 커피 & 다크 로스팅 원두",
+      "en": "Traditional Vietnamese Milano Dark Roast Coffee",
+      "vi": "Cà phê Milano truyền thống rang đậm đậm đà",
+      "zh": "越南经典米兰深烘焙黑咖啡与炼乳咖啡",
+      "ja": "ベトナム伝統・ミラノダークローストコーヒー",
+      "ru": "Традиционный вьетнамский крепкий кофе Милано",
+      "hi": "पारंपरिक वियतनामी मिलानो डार्क रोस्ट कॉफ़ी"
+    },
+    "current_culture_story": {
+      "ko": "밀라노 커피는 베트남 현지인들의 일상에 깊숙이 자리 잡은 대표적인 로컬 커피 브랜드입니다. 강하게 볶아낸 로부스타 원두의 쌉쌀하고 구수한 맛이 얼음, 달콤한 연유와 만나 남부 베트남의 활기찬 에너지를 채워줍니다.",
+      "en": "Milano Coffee represents Vietnam's authentic street-corner brew culture, famous for intensely roasted robusta beans swirled with sweet condensed milk."
+    },
+    "sauce_guide": {
+      "ko": "로컬 커피의 황금비율: 진한 연유 & 얼음 (Sữa Đặc & Đá)",
+      "en": "Golden Ratio: Sweetened Condensed Milk & Crushed Ice",
+      "vi": "Tỉ lệ vàng: Sữa đặc ngọt béo & Đá mát lạnh",
+      "zh": "黄金搭配：香浓炼乳与碎冰",
+      "ja": "黄金比：濃厚練乳＆クラッシュアイス",
+      "ru": "Классическое сочетание: Сгущенка и колотый лед",
+      "hi": "गोल्डन रेश्यो: गाढ़ा दूध और बर्फ"
+    },
+    "sauce_details": {
+      "ko": "다크 로스팅 커피의 강렬한 쓴맛을 부드러운 단맛으로 중화시키는 연유가 핵심입니다.",
+      "en": "Rich condensed milk smooths the smoky edge of heavy-bodied robusta."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 얼음이 살짝 녹을 때까지 천천히 음미하기",
+        "title_en": "1. Let ice melt slightly to soften intensity",
+        "desc_ko": "농도가 짙은 로컬 커피는 얼음이 조금씩 녹아내리며 가장 맛있는 밸런스를 만듭니다.",
+        "desc_en": "Melting ice gradually opens up deeper roasted cocoa and caramel undertones."
+      }
+    ]
+  },
+  {
+    "index": 23,
+    "slug": "one-boat-restaurant-bar",
+    "name": "One Boat Restaurant & Bar",
+    "cat": "dining",
+    "subcat": "seafood",
+    "current_food_style": {
+      "ko": "부이페스트 야시장 보트 바비큐 & 오션뷰 펍",
+      "en": "VuiFest Night Bazaar Boat BBQ & Oceanfront Pub",
+      "vi": "Hải sản nướng Thuyền & Quầy bar bãi biển VuiFest",
+      "zh": "落日夜市海鲜游艇烧烤与海景酒吧",
+      "ja": "ブイフェスト夜市 ボートシーフードBBQ＆パブ",
+      "ru": "Барбекю из морепродуктов на ночном рынке и бар у моря",
+      "hi": "वीफ़ेस्ट नाइट बाज़ार बोट बारबेक्यू और पब"
+    },
+    "current_culture_story": {
+      "ko": "부이페스트 야시장 해안선에 자리하여 바다를 바라보며 신선한 해산물 모둠 구이와 칵테일을 즐기는 활기찬 나이트 마켓 다이닝 문화입니다.",
+      "en": "Situated along the VuiFest promenade, guests dine on charcoal seafood platters and tropical cocktails against starry sunset panoramas."
+    },
+    "sauce_guide": {
+      "ko": "디핑 소스: 푸꾸옥 칠리 라임 느억맘",
+      "en": "Seafood Dip: Island Chili Lime Fish Sauce",
+      "vi": "Nước chấm: Nước mắm chua ngọt ớt tỏi",
+      "zh": "佐餐蘸汁：海岛青柠辣椒鱼露",
+      "ja": "特製ダレ：青唐辛子ライム魚醤",
+      "ru": "Соус для морепродуктов: Ныокмам с лаймом и чили",
+      "hi": "सीफ़ूड डिप: आइलैंड चिली लाइम फिश सॉस"
+    },
+    "sauce_details": {
+      "ko": "숯불에 구운 새우와 오징어를 새콤달콤한 마늘 고추 피시소스에 찍어 먹습니다.",
+      "en": "Bright citrus and garlic chili notes elevate flame-licked seafood skewers."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 선셋 불꽃놀이와 함께 즐기기",
+        "title_en": "1. Dine during the evening ocean fireworks show",
+        "desc_ko": "밤하늘을 수놓는 불꽃놀이를 감상하며 시원한 맥주와 바비큐를 만끽하세요.",
+        "desc_en": "Time your platter to enjoy panoramic views of the nightly bay fireworks."
+      }
+    ]
+  },
+  {
+    "index": 24,
+    "slug": "pho-nuong-seafood-meat-grill",
+    "name": "Phố Nướng / seafood & meat grill",
+    "cat": "dining",
+    "subcat": "seafood",
+    "current_food_style": {
+      "ko": "대형 직화 숯불구이 & 모둠 해산물 고기 구이",
+      "en": "Open Flame Charcoal Seafood & Meat Street Grill",
+      "vi": "Phố Nướng hải sản than hoa & Bò nướng tảng",
+      "zh": "炭火烤肉街市、海鲜拼盘与特制牛肉烧烤",
+      "ja": "炭火直火焼き・海鮮＆肉グリル（フォー・ヌオン）",
+      "ru": "Уличный гриль на углях: мясо и морепродукты",
+      "hi": "चारकोल सीफ़ूड और मीट स्ट्रीट ग्रिल"
+    },
+    "current_culture_story": {
+      "ko": "지글지글 달궈진 석쇠 위에 두툼한 소고기와 싱싱한 해산물을 올려 굽는 베트남 특유의 길거리 바비큐 문화로, 시끌벅적하고 정겨운 야외 모임에 제격입니다.",
+      "en": "Capturing Vietnam's boisterous street BBQ tradition, guests grill marinated cuts of beef and seasonal shellfish right at the table."
+    },
+    "sauce_guide": {
+      "ko": "비법 양념: 사테 칠리 오일 & 볶은 소금 (Sa Tế & Muối Ớt)",
+      "en": "Grill Rub: Spicy Lemongrass Sa Tế & Roasted Salt",
+      "vi": "Gia vị ướp: Sa tế tôm sả cay nồng & Muối ớt rang",
+      "zh": "秘制烤肉料：沙茶虾米辣椒油与椒盐",
+      "ja": "特製スパイス：サテチリオイル＆焼き唐辛子塩",
+      "ru": "Маринад: Острый лемонграсс сате и жареная соль с чили",
+      "hi": "ग्रिल मसाला: मसालेदार लेमनग्रास साते और भुना हुआ नमक"
+    },
+    "sauce_details": {
+      "ko": "레몬그라스와 건새우로 볶아낸 매콤한 사테 소스가 구이 요리의 잡내를 없애고 진한 불향을 입혀줍니다.",
+      "en": "Lemongrass chili oil infuses deep aromatics into charred meats and prawns."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 신선한 허브 쌈 채소와 함께 싸서 먹기",
+        "title_en": "1. Wrap sizzling grilled cuts in fresh herbs and lettuce",
+        "desc_ko": "상추에 향긋한 고수와 민트를 올리고 고기와 구운 채소를 쌈으로 즐기세요.",
+        "desc_en": "Crisp herbs and lettuce leaves provide a crunchy counterbalance to rich meats."
+      }
+    ]
+  },
+  {
+    "index": 25,
+    "slug": "phu-quoc-sunset-town-coffee-workshop-brew-design-the-art-of-vietnamese-coffee",
+    "name": "Phu Quoc Sunset Town Coffee Workshop - Brew & Design the Art of Vietnamese Coffee",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": {
+      "ko": "베트남 전통 에그 커피 & 핸드 브루잉 아카데미",
+      "en": "Artisanal Vietnamese Egg Coffee & Craft Brewing Academy",
+      "vi": "Xưởng pha chế Cà phê Trứng nghệ thuật & Cà phê Phin",
+      "zh": "越南传统手作蛋黄咖啡与滴漏咖啡美学体验馆",
+      "ja": "ベトナム伝統エッグコーヒー＆ハンドドリップ体験",
+      "ru": "Мастерская традиционного вьетнамского яичного кофе и ручной заварки",
+      "hi": "कारीगर वियतनामी एग कॉफ़ी और क्राफ्ट ब्रूइंग कार्यशाला"
+    },
+    "current_culture_story": {
+      "ko": "신선한 달걀노른자를 설탕, 연유와 함께 휘핑해 커스터드 크림처럼 얹어낸 하노이의 명물 에그 커피(Cà Phê Trứng)를 직접 추출하고 맛보는 예술적인 커피 체험 공간입니다.",
+      "en": "Discover Hanoi's historic egg coffee, where velvety whipped yolks and condensed milk create a rich custard foam poured over intense dark phin coffee."
+    },
+    "sauce_guide": {
+      "ko": "커피의 감미: 달걀노른자 커스터드 폼 (Kem Trứng Béo Ngậy)",
+      "en": "Signature Foam: Whipped Golden Egg Custard",
+      "vi": "Lớp kem linh hồn: Kem trứng đánh bông mịn màng",
+      "zh": "灵魂滋味：金黄打发蛋黄奶霜",
+      "ja": "極上の泡：ふわふわ濃厚卵黄カスタード",
+      "ru": "Нежная пенка: Взбитый яичный заварной крем",
+      "hi": "सिग्नेचर फोम: मखमली अंडा कस्टर्ड फोम"
+    },
+    "sauce_details": {
+      "ko": "비린내 없이 달콤하고 쫀득한 에그 폼이 쌉싸름한 핫 커피를 따뜻하게 감싸 안습니다.",
+      "en": "Whipped to ribbon stage, the warm yolk cream floats gracefully atop strong robusta."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 작은 스푼으로 달걀 크림을 먼저 디저트처럼 떠먹기",
+        "title_en": "1. Spoon warm custard foam like a dessert before sipping",
+        "desc_ko": "위쪽의 부드러운 크림을 맛본 후 커피와 함께 기울여 드시면 티라미수 같은 풍미를 느낄 수 있습니다.",
+        "desc_en": "Savor the top custard layer with a teaspoon before allowing warm coffee to pierce through."
+      }
+    ]
+  },
+  {
+    "index": 26,
+    "slug": "rasa-nusantara-phu-quoc",
+    "name": "Rasa Nusantara Phú Quốc",
+    "cat": "dining",
+    "subcat": "seafood",
+    "current_food_style": {
+      "ko": "정통 인도네시아 & 말레이시아 누산타라 미식",
+      "en": "Authentic Indonesian & Malaysian Nusantara Flavors",
+      "vi": "Ẩm thực truyền thống Indonesia & Malaysia Nusantara",
+      "zh": "正宗印度尼西亚与马来群岛传统风味",
+      "ja": "正統派インドネシア＆マレーシア・ヌサンタラ料理",
+      "ru": "Аутентичная индонезийская и малайзийская кухня Нусантара",
+      "hi": "प्रामाणिक इंडोनेशियाई और मलेशियाई नुसंतारा व्यंजन"
+    },
+    "current_culture_story": {
+      "ko": "향신료의 섬 인도네시아의 풍부한 맛을 담아 삼발(Sambal) 소스의 강렬한 감칠맛과 코코넛 밀크로 장시간 조려낸 비프 렌당(Rendang), 불향 가득한 나시고랭을 선보입니다.",
+      "en": "Nusantara cuisine weaves aromatic galangal, lemongrass, and rich coconut curries like beef rendang into complex culinary tapestries."
+    },
+    "sauce_guide": {
+      "ko": "누산타라의 심장: 매콤한 삼발 바자크 (Sambal Bajak)",
+      "en": "Flavor Anchor: Indonesian Caramelized Sambal Chili",
+      "vi": "Linh hồn món ăn: Ớt Sambal cay nồng Indonesia",
+      "zh": "群岛灵魂：传统印尼辣椒酱（Sambal）",
+      "ja": "味の決め手：サンバルチリペースト（Sambal）",
+      "ru": "Основа вкуса: Острая индонезийская паста самбал",
+      "hi": "स्वाद की जान: इंडोनेशियाई कारमेलाइज़्ड संबल मिर्च"
+    },
+    "sauce_details": {
+      "ko": "샬롯과 마늘, 칠리를 기름에 볶아낸 삼발 소스는 모든 밥 요리와 고기에 깊은 매운맛을 더합니다.",
+      "en": "Slow-fried shallot chili relish brings savory depth and smoky heat to rice."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 렌당 고기를 결대로 찢어 밥과 비벼 먹기",
+        "title_en": "1. Shred tender beef rendang into warm fragrant rice",
+        "desc_ko": "오랜 시간 졸여 부드러운 소고기를 양념과 함께 쌀밥에 비벼 드세요.",
+        "desc_en": "Tender caramelized beef melts effortlessly into fluffy jasmine rice."
+      }
+    ]
+  },
+  {
+    "index": 27,
+    "slug": "restaurant-coffee-halal-sunset-town-phu-quoc",
+    "name": "Restaurant- Coffee Halal Sunset Town Phu Quoc",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": {
+      "ko": "선셋타운 공식 할랄 인증 베트남 & 동남아 퀴진",
+      "en": "Certified Halal Vietnamese & Southeast Asian Cuisine",
+      "vi": "Nhà hàng & Cà phê chứng nhận Halal Sunset Town",
+      "zh": "落日小镇清真认证越式及东南亚料理",
+      "ja": "ハラール認証・ベトナム＆東南アジア料理",
+      "ru": "Сертифицированная халяльная вьетнамская кухня",
+      "hi": "प्रमाणित हलाल वियतनामी और दक्षिण पूर्व एशियाई भोजन"
+    },
+    "current_culture_story": {
+      "ko": "무슬림 여행자들도 안심하고 베트남의 대표 미식을 즐길 수 있도록 정통 할랄 규격에 맞춰 조리한 소고기 쌀국수와 동남아 커리 요리를 정갈하게 대접합니다.",
+      "en": "Dedicated to Muslim travelers, this kitchen prepares certified Halal pho noodle soups and vibrant Southeast Asian classics."
+    },
+    "sauce_guide": {
+      "ko": "깔끔한 풍미: 무살충 생 라임 & 맑은 칠리 소스",
+      "en": "Condiments: Fresh Lime Wedges & Clear Chili Dip",
+      "vi": "Gia vị ăn kèm: Chanh tươi & Tương ớt chua cay",
+      "zh": "佐餐良伴：新鲜青柠与特制辣酱",
+      "ja": "さっぱり薬味：生ライム＆チリソース",
+      "ru": "Приправы: Свежий лайм и ароматный соус чили",
+      "hi": "ताज़ा मसाले: नींबू के टुकड़े और स्पष्ट मिर्च डिप"
+    },
+    "sauce_details": {
+      "ko": "맑은 소고기 육수에 생라임 즙을 짜 넣으면 기름기를 정돈하며 산뜻한 깊은 맛을 냅니다.",
+      "en": "A twist of lime clarifies the beef broth while balancing warm star anise aromas."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 따뜻한 육수에 숙주를 먼저 넣어 숨 죽이기",
+        "title_en": "1. Submerge fresh bean sprouts under piping-hot soup broth",
+        "desc_ko": "국수가 나오자마자 아삭한 숙주를 그릇 바닥 깊숙이 넣어 살짝 익혀 드세요.",
+        "desc_en": "Plunging crisp bean sprouts into steaming broth softens them while preserving crunch."
+      }
+    ]
+  },
+  {
+    "index": 28,
+    "slug": "santo-cafe",
+    "name": "SANTO CAFE",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": {
+      "ko": "지중해 산토리니 감성 오션 테라스 카페 & 스무디",
+      "en": "Santorini-inspired Ocean Terrace Café & Tropical Smoothies",
+      "vi": "Quán cà phê phong cách Santorini Địa Trung Hải",
+      "zh": "圣托里尼风情海景露台咖啡馆与热带冰沙",
+      "ja": "サントリーニ風オーシャンテラスカフェ＆スムージー",
+      "ru": "Кафе с атмосферой Санторини и тропическими смузи",
+      "hi": "सेंटोरिनी-प्रेरित ओशन टेरेस कैफ़े और ट्रॉपिकल स्मूदी"
+    },
+    "current_culture_story": {
+      "ko": "화이트와 블루 톤의 청량한 지중해 산토리니 건축을 배경으로, 푸른 바다를 내려다보며 시원한 생과일 스무디와 에스프레소를 즐기는 감성 포토스팟 카페입니다.",
+      "en": "Gleaming white walls and cerulean blue domes overlook the sea as visitors cool down with blended mango-passion smoothies and espresso."
+    },
+    "sauce_guide": {
+      "ko": "트로피컬 가니시: 달콤한 패션후르츠 퓨레",
+      "en": "Tropical Drizzle: Fresh Passion Fruit Reduction",
+      "vi": "Vị chua ngọt: Sốt chanh dây nhiệt đới tươi",
+      "zh": "热带淋酱：天然百香果纯果酱",
+      "ja": "トロピカルトッピング：フレッシュパッションフルーツソース",
+      "ru": "Тропический штрих: Свежее пюре из маракуйи",
+      "hi": "ट्रॉपिकल ड्रिज़ल: ताज़ा पैशन फ्रूट प्यूरी"
+    },
+    "sauce_details": {
+      "ko": "달콤한 스무디 위에 얹어진 생 패션후르츠의 톡톡 씹히는 씨앗과 상큼한 산미가 청량감을 줍니다.",
+      "en": "Crunchy passion fruit seeds deliver bursts of clean tropical acidity against creamy ice."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 야외 테라스에서 일몰과 함께 음료 즐기기",
+        "title_en": "1. Enjoy chilled drinks during golden hour on the sea terrace",
+        "desc_ko": "노을이 바다를 황금빛으로 물들이는 순간 시원한 스무디 한 잔으로 힐링해 보세요.",
+        "desc_en": "Sunset light bouncing off white walls provides an idyllic backdrop for evening drinks."
+      }
+    ]
+  },
+  {
+    "index": 29,
+    "slug": "senthy-coffee-lounge",
+    "name": "Senthy Coffee Lounge",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": {
+      "ko": "럭셔리 무드 모던 커피 라운지 & 수제 목테일",
+      "en": "Luxurious Modern Coffee Lounge & Craft Mocktails",
+      "vi": "Không gian Lounge cà phê sang trọng & Mocktail",
+      "zh": "轻奢风现代咖啡休闲酒廊与无酒精特调",
+      "ja": "ラグジュアリーモダン・コーヒーラウンジ＆モクテル",
+      "ru": "Элегантный кофейный лаундж и безалкогольные коктейли",
+      "hi": "आलीशान आधुनिक कॉफ़ी लाउंज और मॉकटेल"
+    },
+    "current_culture_story": {
+      "ko": "아늑하고 고급스러운 소파 공간에서 여유롭게 휴식을 취하며 정성스럽게 블렌딩한 시그니처 목테일과 프리미엄 스페셜티 커피를 음미하는 라운지 문화입니다.",
+      "en": "Plush lounge seating invites slow afternoons sipping layered tropical mocktails and handcrafted espresso elixirs in elegant air-conditioned comfort."
+    },
+    "sauce_guide": {
+      "ko": "라떼 페어링: 천연 카라멜 시럽 & 헤이즐넛 크림",
+      "en": "Sweet Accent: Artisanal Caramel & Hazelnut Cream",
+      "vi": "Hương vị ngọt ngào: Sốt caramel nấu thủ công & Kem hạt phỉ",
+      "zh": "甜香风味：手作焦糖酱与榛果鲜奶油",
+      "ja": "スイートアクセント：自家製キャラメル＆ヘーゼルナッツクリーム",
+      "ru": "Сладкий акцент: Домашняя карамель и крем из фундука",
+      "hi": "मीठा स्वाद: हस्तनिर्मित कारमेल और हेज़लनट क्रीम"
+    },
+    "sauce_details": {
+      "ko": "직접 끓여낸 은은한 소금 카라멜 시럽이 커피의 고소한 바디감을 부드럽게 감쌉니다.",
+      "en": "House-made salted caramel provides velvety contrast to darker roasted beans."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 나른한 오후 여유롭게 독서나 휴식 취하기",
+        "title_en": "1. Unwind during mid-afternoon with a chilled signature mocktail",
+        "desc_ko": "조용하고 차분한 음악 속에서 시원한 라운지 음료와 함께 충전의 시간을 가져보세요.",
+        "desc_en": "A calm ambient playlist and chilled drinks make this an ideal island respite."
+      }
+    ]
+  },
+  {
+    "index": 30,
+    "slug": "sunny-coffee-pho-banh-mi-vietnamese-cuisine",
+    "name": "SUNNY COFFEE - PHO - BANH MI (Vietnamese cuisine)",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": {
+      "ko": "선셋타운 아말피 거리 정통 소고기 쌀국수 & 수제 반미",
+      "en": "Amalfi Street Authentic Beef Phở & Crispy Bánh Mì",
+      "vi": "Phở Bò gia truyền & Bánh Mì kẹp thịt nướng đường Amalfi",
+      "zh": "阿玛菲街道传统牛肉米粉与现烤法棍面包",
+      "ja": "アマルフィ通り・伝統牛肉フォー＆焼きたてバインミー",
+      "ru": "Традиционный фо бо с говядиной и хрустящий баньми на улице Амальфи",
+      "hi": "अमाल्फी स्ट्रीट प्रामाणिक बीफ़ फ़ो और क्रिस्पी बान्ह मी"
+    },
+    "current_culture_story": {
+      "ko": "베트남을 대표하는 두 가지 소울푸드인 깊고 맑은 양지 차돌 쌀국수(Phở Bò)와 바삭한 바게트 속에 숯불 돼지고기와 생채소를 가득 채운 반미(Bánh Mì)를 현지 전통 손맛 그대로 선보입니다.",
+      "en": "Sunny Coffee brings classic comfort food to Amalfi Street: aromatic beef pho simmered with cinnamon and star anise alongside crusty pork bánh mì."
+    },
+    "sauce_guide": {
+      "ko": "쌀국수 소스 듀오: 호이신 해선장 & 스리라차 칠리",
+      "en": "Pho Condiment Duo: Sweet Hoisin & Garlic Sriracha",
+      "vi": "Gia vị phở: Tương đen ngọt & Tương ớt cay nồng",
+      "zh": "米粉双绝：经典甜海鲜酱与是拉差辣椒酱",
+      "ja": "フォーの定番調味料：海鮮醤（ホイシン）＆シラチャーチリ",
+      "ru": "Классический дуэт для фо: Соус хойсин и острая шрирача",
+      "hi": "फ़ो मसाला जोड़ी: मीठा होइसिन और लहसुन श्रीराचा"
+    },
+    "sauce_details": {
+      "ko": "종지에 해선장과 칠리소스를 반반씩 짜서 부드러운 양지 소고기를 찍어 드시면 풍미가 배가됩니다.",
+      "en": "Blend sweet hoisin and tangy garlic chili in a small dipping saucer for sliced brisket."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 쌀국수 국물에 생라임 즙과 다진 홍고추 넣기",
+        "title_en": "1. Squeeze fresh calamansi lime and toss sliced red chili into broth",
+        "desc_ko": "맑은 육수에 라임 한 조각을 짜 넣으면 은은한 향신료의 국물 맛이 더욱 깊어집니다.",
+        "desc_en": "A squeeze of fresh citrus cuts richness and brightens fragrant beef broth."
+      },
+      {
+        "title_ko": "2. 반미는 쌀국수 국물에 살짝 찍어 먹어도 별미",
+        "title_en": "2. Dip warm bánh mì crust briefly into hot pho soup",
+        "desc_ko": "바삭한 바게트 끝부분을 뜨거운 고기 육수에 살짝 담가 촉촉하게 즐겨보세요.",
+        "desc_en": "Crisp crust soaks up savory broth in a delightful cross-cultural breakfast ritual."
+      }
+    ]
+  },
+  {
+    "index": 31,
+    "slug": "sunset-tiger-tea",
+    "name": "Sunset Tiger Tea",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": {
+      "ko": "선셋타운 대만식 흑당 버블 밀크티 & 펄 디저트",
+      "en": "Taiwanese Brown Sugar Tiger Pearl Milk Tea & Desserts",
+      "vi": "Trà sữa trân châu đường đen Hổ vằn Sunset Town",
+      "zh": "落日黑糖虎纹珍珠奶茶与手作甜饮",
+      "ja": "サンセットタウン・黒糖タイガーボバミルクティー",
+      "ru": "Тайваньский чай с молоком и карамельным жемчугом тапиоки",
+      "hi": "ताइवानी ब्राउन शुगर टाइगर पर्ल मिल्क टी और डिज़र्ट"
+    },
+    "current_culture_story": {
+      "ko": "진한 흑당 시럽을 컵 벽면에 흘려 호랑이 줄무늬를 연출한 비주얼과 매일 갓 삶아내는 쫀득한 타피오카 펄이 신선한 우유와 만나 달콤한 힐링을 선사하는 버블티 문화입니다.",
+      "en": "Tiger-striped cups coated with sticky caramelized brown sugar syrup cradle warm tapioca pearls topped with chilled fresh milk and cream."
+    },
+    "sauce_guide": {
+      "ko": "달콤함의 비밀: 오키나와식 비정제 흑당 시럽 (Đường Đen Nấu)",
+      "en": "Sweet Core: Slow-simmered Dark Cane Sugar Reduction",
+      "vi": "Độ ngọt đậm: Siro đường đen nấu thủ công",
+      "zh": "灵魂甜度：传统慢熬黑糖浆",
+      "ja": "こだわりの甘み：じっくり煮詰めた特製黒糖シロップ",
+      "ru": "Секрет вкуса: Медленно уваренный тростниковый сироп",
+      "hi": "मीठा सार: धीमी आंच पर पकाया गया डार्क केन शुगर सिरप"
+    },
+    "sauce_details": {
+      "ko": "따끈한 흑당 펄의 쫀득함과 차가운 우유의 온도 대비가 흑당 밀크티의 진정한 묘미입니다.",
+      "en": "Warm chewy boba pearls contrast against icy milk for comforting texture play."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 굵은 스트로우를 바닥에 꽂아 펄과 시럽을 먼저 맛보기",
+        "title_en": "1. Plunge wide straw to bottom for warm brown sugar pearls first",
+        "desc_ko": "빨대로 바닥의 따끈한 펄을 먼저 흡입한 뒤 컵을 10번 흔들어 섞어 드세요.",
+        "desc_en": "Sip warm sweet pearls from the bottom before shaking vigorously to marry layers."
+      }
+    ]
+  },
+  {
+    "index": 32,
+    "slug": "the-fern-coffee-sea",
+    "name": "The Fern Coffee Sea",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": {
+      "ko": "선셋 오션뷰 테라스 & 시원한 콜드브루 커피",
+      "en": "Sunset Ocean View Terrace & Chilled Cold Brew Coffee",
+      "vi": "Quán cà phê ngắm biển Hoàng Hôn & Cà phê pha lạnh",
+      "zh": "海景日落露台咖啡厅与冰滴冷萃",
+      "ja": "サンセットオーシャンビュー・コールドブリューカフェ",
+      "ru": "Терраса с видом на море и освежающий колд-брю",
+      "hi": "सनसेट ओशन व्यू टेरेस और कोल्ड ब्रू कॉफ़ी"
+    },
+    "current_culture_story": {
+      "ko": "선셋타운 절벽 해안선에서 탁 트인 바다 전망과 함께 원두의 산뜻한 과일향을 살린 저온 추출 콜드브루를 즐기는 여유로운 오션뷰 힐링 문화입니다.",
+      "en": "Perched along the coastal cliffside, The Fern presents slowly steeped cold brew coffees pairing refreshing berry notes with expansive sunset vistas."
+    },
+    "sauce_guide": {
+      "ko": "과일 노트: 베트남 오렌지 슬라이스 (Cam Sành)",
+      "en": "Citrus Accent: Fresh Island Orange Slice",
+      "vi": "Hương vị điểm nhấn: Cam sành mọng nước",
+      "zh": "风味点缀：新鲜越南绿橙片",
+      "ja": "アクセント：フレッシュオレンジスライス",
+      "ru": "Фруктовый акцент: Долька свежего вьетнамского апельсина",
+      "hi": "सिट्रस स्वाद: ताज़ा संतरे का टुकड़ा"
+    },
+    "sauce_details": {
+      "ko": "산미 있는 콜드브루에 생 오렌지를 띄워 커피의 청량감을 극대화합니다.",
+      "en": "Local sweet-tart citrus releases aromatic oils that highlight bright coffee acidity."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 일몰 1시간 전 야외 테라스 좌석 잡기",
+        "title_en": "1. Secure ocean terrace seats an hour before sunset",
+        "desc_ko": "하늘이 주황빛으로 물드는 골든 아워에 시원한 커피를 마시며 여유를 즐기세요.",
+        "desc_en": "Golden hour casts mesmerizing reflections across the bay from the terrace."
+      }
+    ]
+  },
+  {
+    "index": 33,
+    "slug": "the-juliet-coffee-dessert-ama71",
+    "name": "The Juliet Coffee & Dessert - AMA71",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": {
+      "ko": "아말피 71 감성 베이커리 & 스페셜티 디저트",
+      "en": "Amalfi 71 Artisanal Pastry, Bakery & Dessert Lounge",
+      "vi": "Tiệm bánh ngọt & Cà phê phong cách Amalfi 71",
+      "zh": "阿玛菲71号意式手工甜品与精品烘焙",
+      "ja": "アマルフィ71・手作りスイーツ＆デザートラウンジ",
+      "ru": "Авторские десерты и кофейня на улице Амальфи 71",
+      "hi": "अमाल्फी 71 कारीगर पेस्ट्री, बेकरी और डिज़र्ट लाउंज"
+    },
+    "current_culture_story": {
+      "ko": "이탈리아 아말피 해안의 색채를 품은 공간에서 갓 구운 버터 크루아상과 진한 마스카포네 티라미수를 부드러운 라떼와 함께 즐기는 유럽풍 디저트 문화입니다.",
+      "en": "Blending pastel coastal charm with buttery croissants and espresso, The Juliet offers a serene sanctuary for afternoon treats."
+    },
+    "sauce_guide": {
+      "ko": "디저트 페어링: 마다가스카르 바닐라 크림",
+      "en": "Sweet Accent: Madagascar Vanilla Bean Cream",
+      "vi": "Vị ngọt thanh: Kem vani tự nhiên",
+      "zh": "甜点搭配：马达加斯加天然香草奶油",
+      "ja": "極上の甘み：マダガスカルバニラクリーム",
+      "ru": "Сладкий акцент: Натуральный ванильный крем",
+      "hi": "मीठा स्वाद: मेडागास्कर वेनिला बीन क्रीम"
+    },
+    "sauce_details": {
+      "ko": "풍미 가득한 바닐라 크림이 쌉싸름한 에스프레소와 훌륭한 앙상블을 이룹니다.",
+      "en": "Rich custard foam complements dark espresso roasts."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 따뜻한 라떼와 함께 티라미수 음미하기",
+        "title_en": "1. Pair velvety tiramisu with hot microfoam latte",
+        "desc_ko": "코코아 파우더가 얹어진 티라미수를 한 스푼 떠서 부드러운 우유 거품과 함께 드셔보세요.",
+        "desc_en": "Cocoa dust and mascarpone cream melt into steaming latte foam."
+      }
+    ]
+  },
+  {
+    "index": 34,
+    "slug": "times-corner-luxe-pizza-pasta-grill",
+    "name": "Times Corner Luxe - Pizza, Pasta & Grill",
+    "cat": "dining",
+    "subcat": "western",
+    "current_food_style": {
+      "ko": "화덕 직화 피자 & 수제 생면 파스타 & 프리미엄 그릴",
+      "en": "Wood-fired Pizza, Fresh Handmade Pasta & Premium Grill",
+      "vi": "Pizza nướng củi, Mì Ý thủ công & Bò bít tết cao cấp",
+      "zh": "柴窑烤披萨、手工新鲜意面与精选牛排",
+      "ja": "薪窯ピッツァ＆手打ち生パスタ＆極上グリル",
+      "ru": "Дровяная пицца, домашняя паста и стейки на гриле",
+      "hi": "लकड़ी की भट्टी का पिज़्ज़ा, हस्तनिर्मित पास्ता और प्रीमियम ग्रिल"
+    },
+    "current_culture_story": {
+      "ko": "참나무 장작 화덕에서 고온으로 빠르게 구워내 겉은 바삭하고 속은 쫄깃한 나폴리식 피자와 신선한 해산물을 듬뿍 넣은 링귀니 파스타를 즐기는 정통 이탈리안 다이닝입니다.",
+      "en": "Times Corner Luxe bakes blistered Neapolitan pizzas in wood-fired ovens alongside fresh island seafood pastas and aged grilled steaks."
+    },
+    "sauce_guide": {
+      "ko": "피자의 풍미: 트러플 올리브유 & 매콤 페페론치노",
+      "en": "Pizza Finish: Black Truffle Olive Oil & Peperoncino",
+      "vi": "Gia vị pizza: Dầu ô liu nấm Truffle & Ớt cay Ý",
+      "zh": "披萨点睛：黑松露橄榄油与意式辣椒碎",
+      "ja": "ピッツァの仕上げ：黒トリュフオイル＆ペペロンチーノ",
+      "ru": "Приправа к пицце: Трюфельное оливковое масло и острый перчик",
+      "hi": "पिज़्ज़ा फ़िनिश: ब्लैक ट्रफ़ल जैतून का तेल और मिर्च"
+    },
+    "sauce_details": {
+      "ko": "화덕에서 갓 꺼낸 도우 위에 트러플 오일 몇 방울을 떨어뜨려 그윽한 향기를 더합니다.",
+      "en": "A drizzle of truffle oil over charred crust awakens bubbling mozzarella."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 피자 크러스트는 손으로 반 접어 먹기",
+        "title_en": "1. Fold slice lengthwise by hand to lock in toppings",
+        "desc_ko": "쫄깃한 나폴리 도우를 반으로 살짝 접어 토핑과 치즈가 흘러내리지 않게 드세요.",
+        "desc_en": "Folding preserves melted cheese juices within the blistered crust."
+      }
+    ]
+  },
+  {
+    "index": 35,
+    "slug": "times-corner-restaurant",
+    "name": "Times Corner Restaurant",
+    "cat": "dining",
+    "subcat": "vietnamese",
+    "current_food_style": {
+      "ko": "선셋타운 중심가 베트남 컨템포러리 다이닝",
+      "en": "Sunset Town Downtown Vietnamese Contemporary Dining",
+      "vi": "Ẩm thực Việt Nam đương đại Trung tâm Hoàng Hôn",
+      "zh": "落日小镇中心越南现代融合创意餐厅",
+      "ja": "サンセットタウン中心街・現代風ベトナム料理",
+      "ru": "Современная вьетнамская кухня в центре Сансет Тауна",
+      "hi": "सनसेट टाउन समकालीन वियतनामी भोजन"
+    },
+    "current_culture_story": {
+      "ko": "베트남 고유의 전통 식재료를 현대적인 플레이팅과 정제된 조리법으로 재해석하여 섬의 저녁을 풍성하게 채워주는 세련된 레스토랑 문화입니다.",
+      "en": "Presenting Vietnamese ingredients through sophisticated culinary lens, Times Corner serves elevated regional specialties."
+    },
+    "sauce_guide": {
+      "ko": "시그니처 드레싱: 패션후르츠 느억맘 글레이즈",
+      "en": "Glaze: Tart Passion Fruit Fish Sauce Reduction",
+      "vi": "Sốt chấm: Nước mắm chanh dây rim chua ngọt",
+      "zh": "招牌酱汁：百香果浓缩鱼露汁",
+      "ja": "特製ソース：パッションフルーツ魚醤グレーズ",
+      "ru": "Фирменный соус: Глазурь из маракуйи и рыбного соуса",
+      "hi": "सिग्नेचर ड्रेसिंग: पैशन फ्रूट फ़िश सॉस रिडक्शन"
+    },
+    "sauce_details": {
+      "ko": "열대 과일의 산미와 어장의 깊은 감칠맛이 어우러져 해산물과 고기 요리에 산뜻함을 부여합니다.",
+      "en": "Tropical fruit sweetness balances aged savory fish sauce notes."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 코스 요리 순서대로 와인과 즐기기",
+        "title_en": "1. Pair multi-course specialties with sommelier wines",
+        "desc_ko": "전채부터 메인 해산물 요리까지 순서에 맞춰 시원한 와인과 함께 음미하세요.",
+        "desc_en": "Light seafood courses transition smoothly into richer braised meats."
+      }
+    ]
+  },
+  {
+    "index": 36,
+    "slug": "tran-coffee-shop-no-2-sunset-town",
+    "name": "Trần Coffee Shop No.2 Sunset Town",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": {
+      "ko": "정통 베트남 핀 드리퍼 로컬 커피 & 연유 음료",
+      "en": "Authentic Vietnamese Phin Filter Coffee & Condensed Milk",
+      "vi": "Cà phê Phin truyền thống Trần No.2 Sunset Town",
+      "zh": "陈记传统铝壶滴漏咖啡与醇厚炼乳咖啡",
+      "ja": "伝統アルミフィルター抽出・チャンコーヒーNo.2",
+      "ru": "Традиционный вьетнамский капельный кофе фин Чан No.2",
+      "hi": "प्रामाणिक वियतनामी फिन फ़िल्टर कॉफ़ी और गाढ़ा दूध"
+    },
+    "current_culture_story": {
+      "ko": "알루미늄 핀(Phin) 드리퍼에서 똑똑 떨어지는 커피 방울을 바라보며 느림의 미학을 경험하는 베트남 전통 커피 문화입니다. 진한 에스프레소에 달콤한 연유를 타서 마십니다.",
+      "en": "Watching dark robusta slowly drip drop by drop through traditional metal phin filters captures the unhurried rhythm of Vietnamese coffee houses."
+    },
+    "sauce_guide": {
+      "ko": "클래식 배합: 굵은 얼음 & 달콤한 연유 (Đá Bi & Sữa Ông Thọ)",
+      "en": "Classic Balance: Crushed Ice & Sweet Condensed Milk",
+      "vi": "Tỉ lệ truyền thống: Sữa Ông Thọ sánh mịn & Đá bi",
+      "zh": "经典配方：香浓炼乳与清凉圆冰",
+      "ja": "黄金比率：濃厚練乳＆クラッシュアイス",
+      "ru": "Классика: Плотная сгущенка и колотый лед",
+      "hi": "क्लासिक मिश्रण: बर्फ और गाढ़ा मीठा दूध"
+    },
+    "sauce_details": {
+      "ko": "천천히 녹아드는 연유의 단맛이 로부스타의 쌉싸름함을 감싸며 완벽한 풍미를 완성합니다.",
+      "en": "Heavy sweetened milk cradles intense roasted chocolate bitterness."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 드리퍼의 마지막 한 방울까지 기다렸다가 젓기",
+        "title_en": "1. Wait for the final drip before stirring ice and milk",
+        "desc_ko": "추출이 완전히 끝난 후 핀 뚜껑을 받침 삼아 내려놓고 얼음과 연유를 섞으세요.",
+        "desc_en": "Let extraction complete fully before vigorously stirring the layers."
+      }
+    ]
+  },
+  {
+    "index": 37,
+    "slug": "tribal-grill-ribs-burger-beer",
+    "name": "Tribal Grill - Ribs, Burger & Beer",
+    "cat": "dining",
+    "subcat": "western",
+    "current_food_style": {
+      "ko": "아메리칸 스모크하우스 립 & 수제 버거 & 크래프트 맥주",
+      "en": "American Smokehouse BBQ Ribs, Craft Burger & Beer",
+      "vi": "Sườn nướng khói kiểu Mỹ, Burger thủ công & Bia tươi",
+      "zh": "美式烟熏烤肋排、多汁手作汉堡与精酿生啤",
+      "ja": "アメリカン・スモークハウスBBQバックリブ＆クラフトバーガー",
+      "ru": "Американские ребрышки барбекю, крафтовые бургеры и пиво",
+      "hi": "अमेरिकन स्मोकहाउस पसलियां, बर्गर और बीयर"
+    },
+    "current_culture_story": {
+      "ko": "저온 훈연 방식으로 장시간 익혀 뼈에서 살이 저절로 발라져 나오는 부드러운 스페어 립과 두툼한 패티의 수제 버거를 시원한 크래프트 생맥주와 즐기는 정통 바비큐 문화입니다.",
+      "en": "Low-and-slow wood smoking yields fall-off-the-bone ribs coated in sticky caramelized glaze, served alongside towering burgers and fresh tap brews."
+    },
+    "sauce_guide": {
+      "ko": "스모크하우스 소스: 히코리 바비큐 & 허니 머스터드",
+      "en": "House Glaze: Hickory Smoked BBQ Sauce & Honey Mustard",
+      "vi": "Sốt sườn: Sốt BBQ khói đậm đà & Mù tạt mật ong",
+      "zh": "经典烤肉酱：美式烟熏烧烤酱与蜂蜜芥末酱",
+      "ja": "特製BBQソース：ヒッコリースモーキーBBQ＆ハニーマスタード",
+      "ru": "Соус барбекю: Дымный соус хикори и медовая горчица",
+      "hi": "हाउस ग्लेज: हिकॉरी स्मोक्ड बीबीक्यू सॉस और हनी मस्टर्ड"
+    },
+    "sauce_details": {
+      "ko": "달콤 짭조름한 훈제 바비큐 소스가 고기 표면에 캐러멜라이징되어 씹을 때마다 깊은 풍미가 폭발합니다.",
+      "en": "Sticky molasses and vinegar notes glaze tender meat ribbons."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 립은 손으로 잡고 뼈째 뜯어 먹기",
+        "title_en": "1. Hold ribs with two hands and eat straight off bone",
+        "desc_ko": "부드럽게 분리되는 육즙 가득한 갈빗살을 양념과 함께 손으로 뜯어 드세요.",
+        "desc_en": "Tender ribs pull cleanly away from the bone with each bite."
+      }
+    ]
+  },
+  {
+    "index": 38,
+    "slug": "turkish-kitchen",
+    "name": "Turkish Kitchen",
+    "cat": "dining",
+    "subcat": "international",
+    "current_food_style": {
+      "ko": "정통 오스만 터키식 숯불 케밥 & 홈메이드 메제",
+      "en": "Authentic Ottoman Turkish Charcoal Kebabs & Meze",
+      "vi": "Thịt nướng Kebab Ottoman Thổ Nhĩ Kỳ & Khai vị Meze",
+      "zh": "正宗奥斯曼土耳其炭火烤肉与特色冷盘前菜",
+      "ja": "正統派オスマン・トルコ炭火ケバブ＆手作りメゼ",
+      "ru": "Традиционная османская турецкая кухня и кебабы на углях",
+      "hi": "प्रामाणिक तुर्की चारकोल कबाब और मेज़े"
+    },
+    "current_culture_story": {
+      "ko": "동서양의 교차로 터키의 풍성한 미식 전통을 따라, 숯불에 구워낸 양고기 시시 케밥과 부드러운 병아리콩 후무스, 그리고 화덕 빵 라바시를 곁들이는 이국적인 만찬 문화입니다.",
+      "en": "Celebrating Turkish culinary history, skewers of marinated lamb and chicken roast over live embers alongside creamy hummus and freshly baked lavash."
+    },
+    "sauce_guide": {
+      "ko": "터키식 양념: 수제 훔무스 & 요거트 갈릭 소스",
+      "en": "Meze Dip: Silky Chickpea Hummus & Garlic Yogurt Sauce",
+      "vi": "Sốt chấm: Sốt đậu gà Hummus & Sữa chua tỏi",
+      "zh": "地道蘸酱：细腻鹰嘴豆泥（Hummus）与蒜香酸奶",
+      "ja": "伝統のディップ：ひよこ豆フムス＆ガーリックヨーグルト",
+      "ru": "Соус: Нежный хумус из нута и чесночный йогурт",
+      "hi": "तुर्की डिप: रेशमी छोले का हम्मस और लहसुन दही सॉस"
+    },
+    "sauce_details": {
+      "ko": "올리브유를 듬뿍 뿌린 후무스를 따뜻한 화덕 빵에 바르고 고기를 얹어 먹으면 최고의 조화를 이룹니다.",
+      "en": "Creamy tahini hummus spread over warm flatbread enhances charcoal-grilled cuts."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 화덕 빵으로 고기와 후무스를 함께 감싸 먹기",
+        "title_en": "1. Scoop hummus and hot kebab pieces together in fresh flatbread",
+        "desc_ko": "얇은 화덕 빵을 뜯어 후무스를 듬뿍 바른 후 구운 고기와 함께 싸서 드세요.",
+        "desc_en": "Tear a warm piece of bread to scoop savory meat and tangy dip simultaneously."
+      }
+    ]
+  },
+  {
+    "index": 39,
+    "slug": "wow-que-toi",
+    "name": "WOW QUÊ TÔI",
+    "cat": "dining",
+    "subcat": "vietnamese",
+    "current_food_style": {
+      "ko": "베트남 고향의 밥상: 뚝배기 생선 조림 & 가정식 백반",
+      "en": "Authentic Vietnamese Homestyle Claypot Braised Delights",
+      "vi": "Cơm Quê Tôi & Cá kho tộ niêu đất chuẩn vị miền quê",
+      "zh": "越式故乡味道：砂锅焖鱼与地道农家便当",
+      "ja": "ベトナム故郷の味・土鍋魚の煮込み＆家庭料理定食",
+      "ru": "Домашняя вьетнамская кухня: рыба в глиняном горшочке",
+      "hi": "वियतनामी घरेलू भोजन: मिट्टी के बर्तन में पकी मछली"
+    },
+    "current_culture_story": {
+      "ko": "‘와우 궤 또이(내 고향)’라는 이름처럼, 흙 뚝배기에 진한 코코넛 워터와 피시소스를 넣고 자글자글 졸여낸 메기 생선 조림(Cá Kho Tộ)과 바삭한 누룽지 밥을 나누어 먹는 베트남인들의 따뜻한 정이 담긴 밥상입니다.",
+      "en": "Wow Quê Tôi ('My Hometown') serves comforting claypot caramel fish, simmered until rich and tender, paired with crispy scorched rice and steamed vegetables."
+    },
+    "sauce_guide": {
+      "ko": "밥도둑 조림장: 캐러멜 코코넛 느억맘 소스 (Nước Kho Quẹt)",
+      "en": "Claypot Glaze: Caramelized Coconut Fish Sauce Gravy",
+      "vi": "Nước kho đậm đà: Kho quẹt tôm thịt tóp mỡ giòn rụm",
+      "zh": "下饭神器：焦糖椰水浓缩鱼露汁（Kho Quẹt）",
+      "ja": "ご飯が進むタレ：豚脂入り濃厚キャラメル魚醤ダレ（コー・クエット）",
+      "ru": "Подлива: Карамельный рыбный соус с хрустящими шкварками",
+      "hi": "विशेष ग्रेवी: कारमेलाइज़्ड नारियल मछली सॉस"
+    },
+    "sauce_details": {
+      "ko": "뚝배기 바닥에 눌어붙은 진득한 갈색 양념을 숟가락으로 긁어 흰 쌀밥에 비벼 먹으면 감칠맛이 일품입니다.",
+      "en": "Thick savory-sweet sauce reduction coats scorched rice beautifully."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 데친 채소를 뚝배기 조림 소스에 푹 찍어 먹기",
+        "title_en": "1. Dip steamed boiled greens directly into claypot sauce",
+        "desc_ko": "오크라와 공심채 등 데친 야채를 뚝배기 양념에 찍어 아삭한 식감과 감칠맛을 즐기세요.",
+        "desc_en": "Blanched okra and morning glory pick up rich savory caramel flavors."
+      }
+    ]
+  },
+  {
+    "index": 40,
+    "slug": "yushima-japanese-restaurant",
+    "name": "Yushima Japanese Restaurant",
+    "cat": "dining",
+    "subcat": "seafood",
+    "current_food_style": {
+      "ko": "정통 일식 사시미 모리아와세 & 스시 & 나베",
+      "en": "Authentic Japanese Sashimi Moriawase, Nigiri Sushi & Nabe",
+      "vi": "Ẩm thực Nhật Bản truyền thống Yushima: Sashimi & Sushi tươi sống",
+      "zh": "正宗日式海鲜刺身拼盘、手握寿司与日式火锅",
+      "ja": "正統派日本料理・湯島：旬の刺身盛り合わせ＆握り寿司",
+      "ru": "Традиционная японская кухня: сашими, суши и горячие набэ",
+      "hi": "प्रामाणिक जापानी साशिमी, निगिरी सुशी और नाबे"
+    },
+    "current_culture_story": {
+      "ko": "푸꾸옥 청정 바다의 신선한 횟감과 일본 정통 장인의 숙성 기술이 만나, 입안에서 사르르 녹는 참치와 연어 사시미, 섬세하게 쥔 니기리 스시, 따뜻한 우동과 나베를 제공하는 정통 일식 다이닝입니다.",
+      "en": "Yushima marries fresh island catches with time-honored Japanese knife work, crafting glistening platters of sashimi, nigiri, and steaming seasonal hotpots."
+    },
+    "sauce_guide": {
+      "ko": "사시미의 기본: 생 와사비 & 양조 간장 (Nama Wasabi & Shoyu)",
+      "en": "Sashimi Essentials: Fresh Grated Wasabi & Brewed Soy Sauce",
+      "vi": "Gia vị ăn kèm: Mù tạt Wasabi tươi & Nước tương Nhật Bản",
+      "zh": "刺身良伴：现磨生山葵与日式本酿造酱油",
+      "ja": "寿司の基本：生おろしワサビ＆本醸造醤油",
+      "ru": "Классика: Свежий васаби и японский соевый соус",
+      "hi": "साशिमी मसाले: ताज़ा कसा हुआ वसाबी और जापानी सोया सॉस"
+    },
+    "sauce_details": {
+      "ko": "간장에 와사비를 풀지 않고 사시미 위에 생와사비를 소량 얹은 뒤 간장을 살짝 찍어 드셔야 본연의 단맛미를 유지합니다.",
+      "en": "Place a dab of wasabi directly atop fish before dipping gently into soy sauce."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 흰살생선부터 붉은살 생선 순서로 맛보기",
+        "title_en": "1. Taste delicate white fish first before moving to fatty cuts",
+        "desc_ko": "담백한 흰살 생선으로 시작해 기름진 연어와 참치 순서로 드시면 맛의 스펙트럼이 풍부해집니다.",
+        "desc_en": "Progressing from lean white catches to richer fatty fish preserves palate nuance."
+      }
+    ]
+  },
+  {
+    "index": 41,
+    "slug": "cai-mam-bistro",
+    "name": "까이 멈 비스트로 (Cái Mâm Bistro - Vietnamese Noodles & Cafe)",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": {
+      "ko": "선셋타운 하노이 전통 분짜 & 스페셜 소고기 쌀국수",
+      "en": "Hanoi Traditional Bún Chả & Special Beef Phở Bistro",
+      "vi": "Bún Chả Hà Nội nướng than & Phở Bò đặc biệt Cái Mâm",
+      "zh": "河内炭烤猪肉米线（分扎）与特选牛肉河粉",
+      "ja": "ハノイ伝統・炭火豚肉つけ麺（ブンチャー）＆牛肉フォー",
+      "ru": "Традиционная ханойская бун ча и наваристый фо бо",
+      "hi": "पारंपरिक हनोई बुन चा और स्पेशल बीफ़ फ़ो"
+    },
+    "current_culture_story": {
+      "ko": "하노이의 유서 깊은 식문화를 대표하는 ‘까이 멈(나무 쟁반)’ 비스트로로, 숯불에 노릇하게 구워낸 돼지고기 완자와 삼겹살을 새콤달콤한 따뜻한 느억맘 육수에 담가 생 쌀국수 면(Bún)과 신선한 허브를 적셔 먹는 전통 분짜(Bún Chả)의 정수를 경험할 수 있습니다.",
+      "en": "Cái Mâm ('The Round Wooden Tray') honors Northern Vietnamese culinary customs with smoky charcoal-grilled pork patties floating in warm sweet-sour broth paired with fresh vermicelli and garden herbs."
+    },
+    "sauce_guide": {
+      "ko": "분짜의 생명: 따뜻한 파파야 당근 느억맘 육수 (Nước Chấm Bún Chả)",
+      "en": "Heart of Bún Chả: Warm Papaya & Carrot Dipping Broth",
+      "vi": "Linh hồn 분짜: Nước chấm ấm nóng đu đủ cà rốt ngâm",
+      "zh": "分扎灵魂：温热青木瓜胡萝卜酸甜鱼露汤",
+      "ja": "ブンチャーの命：温かい青パパイヤ人参入り甘酸っぱいタレ",
+      "ru": "Основа бун ча: Теплый кисло-сладкий соус с папайей и морковью",
+      "hi": "बुन चा की आत्मा: पपीता और गाजर के साथ गर्म मछली सॉस"
+    },
+    "sauce_details": {
+      "ko": "숯불 고기의 불향이 배어든 달콤새콤한 피시소스 국물에 아삭하게 절인 청파파야가 어우러져 느끼함을 말끔히 잡아줍니다.",
+      "en": "Crisp green papaya slices in warm dipping broth cut effortlessly through charcoal pork char."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 쌀국수 면과 허브를 육수에 듬뿍 적셔 고기와 함께 먹기",
+        "title_en": "1. Submerge vermicelli and mint into warm broth, taking meat with each mouthful",
+        "desc_ko": "한입 크기의 쌀면을 집어 숯불 완자가 담긴 국물에 담근 뒤 향긋한 민트와 함께 건져 드세요.",
+        "desc_en": "Dip individual portions of cold noodles and herbs into the warm pork bowl."
+      }
+    ]
+  },
+  {
+    "index": 42,
+    "slug": "com-me",
+    "name": "껌 메 (Cơm Mẹ - 엄마의 밥상 베트남 가정식)",
+    "cat": "dining",
+    "subcat": "vietnamese",
+    "current_food_style": {
+      "ko": "엄마의 손맛 베트남 전통 가정식 백반 (Cơm Mẹ)",
+      "en": "Heartwarming Vietnamese Mom's Homestyle Rice Meal",
+      "vi": "Cơm Mẹ nấu ấm cúng chuẩn vị truyền thống gia đình",
+      "zh": "妈妈的滋味：越式传统温馨家庭料理便当",
+      "ja": "お母さんの手料理・ベ트ナム伝統家庭料理定食",
+      "ru": "Домашняя вьетнамская кухня по маминым рецептам",
+      "hi": "मां के हाथों का स्वाद वियतनामी घरेलू भोजन"
+    },
+    "current_culture_story": {
+      "ko": "‘꼼 메(엄마의 밥상)’라는 이름처럼, 조미료를 배제하고 신선한 채소와 뚝배기 조림, 시원한 깐추아 국물로 어머니의 따뜻한 정성을 담아낸 가정식 밥상입니다.",
+      "en": "Cơm Mẹ ('Mom's Cooked Rice') honors home kitchens with unpretentious claypot fish, gentle vegetable broths, and blanched greens touched with fish sauce."
+    },
+    "sauce_guide": {
+      "ko": "가정식의 영혼: 순수 피시소스 & 홍고추",
+      "en": "Table Dip: First-press Anchovy Fish Sauce & Fresh Chili",
+      "vi": "Gia vị linh hồn: Nước mắm cốt nguyên chất & ớt tươi",
+      "zh": "家庭灵魂：纯正初榨鱼露配朝天椒",
+      "ja": "家庭の基本：一番搾り魚醤＆生唐辛子",
+      "ru": "Основа стола: Рыбный соус первого отжима с чили",
+      "hi": "भोजन का मुख्य सार: शुद्ध मछली सॉस और ताज़ा मिर्च"
+    },
+    "sauce_details": {
+      "ko": "따끈한 흰 쌀밥에 고기 조림 국물을 끼얹고 데친 공심채를 느억맘에 찍어 드세요.",
+      "en": "Spoon savory braising juices over rice and dip crisp water spinach into savory sauce."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 조림 국물과 밥을 비벼 먹기",
+        "title_en": "1. Mix braised caramel sauce directly into jasmine rice",
+        "desc_ko": "뚝배기 밑바닥의 고소하고 짭조름한 양념이 밥알에 배어들면 밥 한 공기가 순식간에 비워집니다.",
+        "desc_en": "Savory reduction from braised claypots transforms plain rice into pure comfort."
+      }
+    ]
+  },
+  {
+    "index": 43,
+    "slug": "nha-hang-com-nieu-viet-di-a-trung-hai",
+    "name": "껌니우 비엣 선셋타운 (Nhà hàng Cơm Niêu Việt - 베트남 돌솥밥)",
+    "cat": "dining",
+    "subcat": "seafood",
+    "current_food_style": {
+      "ko": "베트남 전통 토기 솥밥 퍼포먼스 & 가마솥 누룽지 (Cơm Niêu)",
+      "en": "Traditional Vietnamese Terracotta Pot Rice (Cơm Niêu)",
+      "vi": "Cơm Niêu đập giòn rụm & Đặc sản đồng quê Việt",
+      "zh": "传统越式瓦罐陶锅饭与脆皮锅巴非遗体验",
+      "ja": "ベトナム伝統・土鍋ご飯（コム・ニエウ）＆おこげ料理",
+      "ru": "Традиционный рис в глиняных горшочках ком ньеу",
+      "hi": "पारंपरिक वियतनामी मिट्टी के बर्तन का चावल (कोम नियू)"
+    },
+    "current_culture_story": {
+      "ko": "흙으로 빚은 도자기 솥(Niêu)에 밥을 지어 겉은 바삭한 누룽지를 만들고, 손님 앞에서 토기를 깨서 공중으로 날려 받는 극적인 퍼포먼스로 유명한 베트남 전통 솥밥 문화입니다.",
+      "en": "Cơm Niêu bakes rice in porous clay pots until golden crackling forms around the edges, famously broken tableside with theatrical flair."
+    },
+    "sauce_guide": {
+      "ko": "누룽지 전용 양념: 건새우 돼지비계 조림장 (Kho Quẹt)",
+      "en": "Scorched Rice Dip: Caramelized Pork Crackling & Dried Shrimp",
+      "vi": "Nước chấm kho quẹt: Tôm khô tóp mỡ tiêu đen sánh đặc",
+      "zh": "锅巴神仙蘸酱：焦糖虾干油渣浓汁（Kho Quẹt）",
+      "ja": "おこげ専用ダレ：干しエビと豚脂の濃厚キャラメル魚醤ダレ",
+      "ru": "Соус для хрустящего риса: Густая карамельная подлива со шкварками",
+      "hi": "क्रिस्पी राइस डिप: सूखी झींगा और कुरकुरी पोर्क ग्रेवी"
+    },
+    "sauce_details": {
+      "ko": "바삭바삭한 누룽지 조각을 진하고 끈적한 코 꿱(Kho Quẹt) 양념에 찍으면 최고의 별미가 됩니다.",
+      "en": "Crunchy golden rice shards scoop up rich, savory-sweet caramelized shrimp relish."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 솥밥 퍼포먼스 관람 후 누룽지 맛보기",
+        "title_en": "1. Watch the pot-breaking ritual before crunching into golden rice",
+        "desc_ko": "직원이 토기를 깨서 건네주는 노릇한 누룽지를 먼저 손으로 집어 양념장에 찍어 드세요.",
+        "desc_en": "Break the golden crust into bite-sized chips and dip into warm savory pots."
+      }
+    ]
+  },
+  {
+    "index": 44,
+    "slug": "sunset-place-3",
+    "name": "껌자딘 선셋타운 (Cơm Gia Đình - 베트남 가정식)",
+    "cat": "dining",
+    "subcat": "vietnamese",
+    "current_food_style": {
+      "ko": "선셋타운 로컬 백반 & 매일 바뀌는 계절 반찬 (Cơm Gia Đình)",
+      "en": "Sunset Town Casual Vietnamese Daily Set Meal",
+      "vi": "Cơm Gia Đình bình dân thực đơn đổi mới mỗi ngày",
+      "zh": "落日小镇平价越式便当、每日精选家常小炒",
+      "ja": "サンセットタウン・日替わりおかずの庶民派ベトナム定食",
+      "ru": "Повседневный вьетнамский обед с сезонными блюдами",
+      "hi": "सनसेट टाउन कैज़ुअल वियतनामी दैनिक थाली"
+    },
+    "current_culture_story": {
+      "ko": "여행 중 부담 없는 가격으로 신선한 생선구이, 돼지고기 볶음, 맑은 수프를 갓 지은 밥과 함께 든든하게 즐길 수 있는 선셋타운의 착한 로컬 백반집입니다.",
+      "en": "Providing affordable comfort meals, guests pick from fried whole fish, lemongrass pork, and light vegetable soups served alongside hot rice."
+    },
+    "sauce_guide": {
+      "ko": "백반의 친구: 고추 마늘 간장 & 느억맘",
+      "en": "Simple Dips: Chili Garlic Soy Sauce & Classic Fish Sauce",
+      "vi": "Gia vị quen thuộc: Nước tương ớt tỏi & Nước mắm tỏi ớt",
+      "zh": "家常佐味：蒜蓉辣椒生抽与经典鱼露",
+      "ja": "定番のタレ：唐辛子ニンニク醤油＆ヌックマム",
+      "ru": "Простые соусы: Соевый соус с чесноком и рыбный соус с чили",
+      "hi": "सरल डिप: मिर्च लहसुन सोया सॉस और मछली सॉस"
+    },
+    "sauce_details": {
+      "ko": "계란프라이나 생선살 위에 고추 간장을 몇 방울 떨어뜨리면 감칠맛이 살아납니다.",
+      "en": "Drizzling spicy garlic soy over crispy fried eggs elevates comforting rice bowls."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 여러 반찬을 골고루 나누어 먹기",
+        "title_en": "1. Share multiple dishes family-style across the table",
+        "desc_ko": "생선, 고기, 야채 반찬을 고루 주문해 밥상 중앙에 두고 함께 즐겨보세요.",
+        "desc_en": "Balancing savory fish, stir-fried greens, and clear soup mirrors local dining."
+      }
+    ]
+  },
+  {
+    "index": 45,
+    "slug": "nambo-kitchen",
+    "name": "남보 키친 (NamBo Kitchen - Southern Vietnamese Cuisine)",
+    "cat": "dining",
+    "subcat": "vietnamese",
+    "current_food_style": {
+      "ko": "메콩 델타와 푸꾸옥을 잇는 정통 남부 베트남 퀴진",
+      "en": "Authentic Southern Vietnamese & Mekong Delta Cuisine",
+      "vi": "Ẩm thực Nam Bộ chuẩn vị sông nước miệt vườn",
+      "zh": "正宗越式南部湄公河三角洲水乡经典美馔",
+      "ja": "メコンデルタの伝統・南部ベトナム料理（ナムボーキッチン）",
+      "ru": "Аутентичная южновьетнамская кухня дельты Меконга",
+      "hi": "प्रामाणिक दक्षिणी वियतनामी और मेकांग डेल्टा व्यंजन"
+    },
+    "current_culture_story": {
+      "ko": "베트남 남부 요리 특유의 달콤하고 풍부한 코코넛 밀크 풍미, 그리고 신선한 민물 생선과 해산물을 풍성한 열대 허브와 결합한 다채로운 남부 미식을 선보입니다.",
+      "en": "Southern cuisine balances coconut sweetness with tangy herbs, presenting rich fish stews, sizzling banh xeo crepes, and seasonal seafood."
+    },
+    "sauce_guide": {
+      "ko": "남부의 맛: 달콤새콤한 당근 파파야 느억쩜 (Nước Chấm)",
+      "en": "Southern Dip: Sweet-Sour Carrot Papaya Fish Sauce",
+      "vi": "Nước chấm Nam Bộ: Nước mắm chua ngọt đồ chua giòn",
+      "zh": "南越灵魂：酸甜胡萝卜青木瓜鱼露蘸汁",
+      "ja": "南部秘伝の味：大根人参入り甘酸っぱい特製ヌックチャム",
+      "ru": "Южный соус: Кисло-сладкий рыбный соус с морковью и папайей",
+      "hi": "दक्षिणी डिप: मीठा-खट्टा गाजर पपीता मछली सॉस"
+    },
+    "sauce_details": {
+      "ko": "바삭한 반쎄오나 고기 쌈을 찍어 먹을 때 기름기를 씻어주며 개운한 산미를 선사합니다.",
+      "en": "Light sweetness cuts through crisp fried crepes and rich grilled rolls."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 풍성한 야채 쌈으로 건강하게 즐기기",
+        "title_en": "1. Wrap dishes generously with mustard greens and fresh herbs",
+        "desc_ko": "알싸한 겨자잎과 허브를 겹쳐 요리를 싸서 소스에 푹 찍어 드세요.",
+        "desc_en": "Mustard leaves and mint add herbal freshness to every mouthful."
+      }
+    ]
+  },
+  {
+    "index": 46,
+    "slug": "the-gangs-sunset",
+    "name": "더 갱스 선셋 (The Gangs Sunset - 해산물 & 크래프트 비어)",
+    "cat": "dining",
+    "subcat": "seafood",
+    "current_food_style": {
+      "ko": "선셋타운 힙 & 트렌디 그릴 비어펍 & 크래프트 맥주",
+      "en": "Trendy Sunset Oceanfront Grill, BBQ & Craft Beer Pub",
+      "vi": "Quán nướng bia tươi phong cách trẻ trung The Gangs",
+      "zh": "落日潮流露天炭火烧烤酒场与精酿啤酒",
+      "ja": "トレンディ・オーシャンフロントBBQ＆クラフトビールパブ",
+      "ru": "Модный гриль-паб на набережной с крафтовым пивом",
+      "hi": "ट्रेंडी सनसेट वाटरफ्रंट ग्रिल और क्राफ्ट बीयर पब"
+    },
+    "current_culture_story": {
+      "ko": "신나는 음악과 감각적인 인테리어 속에서 숯불 직화 모둠 바비큐와 시원한 수제 생맥주를 즐기는 사이공의 핫플레이스 문화를 선셋타운 해안가로 옮겨왔습니다.",
+      "en": "Bringing Saigon's energetic nightlife to Phu Quoc shores, The Gangs serves sizzling charcoal meats, fresh seafood skewers, and flowing craft brews."
+    },
+    "sauce_guide": {
+      "ko": "더 갱스 시그니처: 스파이시 그린 칠리 잼",
+      "en": "Gangs Dip: Fiery Green Chili Emulsion & Roasted Salt",
+      "vi": "Sốt độc quyền: Muối ớt xanh cay nồng chấm thịt nướng",
+      "zh": "独家秘制：爆辣青椒酱与秘制香料盐",
+      "ja": "特製ディップ：激辛青唐辛子ペースト＆焼き塩",
+      "ru": "Фирменный соус: Острый зеленый соус чили и ароматная соль",
+      "hi": "सिग्नेचर डिप: मसालेदार हरी मिर्च और भुना हुआ नमक"
+    },
+    "sauce_details": {
+      "ko": "두툼한 소고기 스테이크와 닭구이에 알싸한 매운 소스를 곁들이면 맥주 안주로 최상입니다.",
+      "en": "Sharp green chili heat cuts through rich grilled cuts perfectly."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 지글지글 뜨거운 철판 요리를 맥주와 건배",
+        "title_en": "1. Toast with ice-cold craft beers over sizzling platters",
+        "desc_ko": "화려한 불꽃놀이와 바다 전망을 감상하며 활기찬 저녁 시간을 만끽하세요.",
+        "desc_en": "High-energy beats and ocean breezes accompany cold lagers and grilled meats."
+      }
+    ]
+  },
+  {
+    "index": 47,
+    "slug": "the-merchant",
+    "name": "더 머천트 (The Merchant - La Festa Hilton 올데이 다이닝)",
+    "cat": "dining",
+    "subcat": "restaurant",
+    "current_food_style": {
+      "ko": "라페스타 힐튼 올데이 인터내셔널 파인다이닝 & 뷔페",
+      "en": "La Festa Hilton All-Day International Fine Buffet Dining",
+      "vi": "Nhà hàng buffet quốc tế cao cấp The Merchant - La Festa Hilton",
+      "zh": "希尔顿格芮精选酒店全日制奢华国际自助美馔",
+      "ja": "ラ・フェスタ・ヒルトン・オールデイ国際高級ビュッフェ",
+      "ru": "Роскошный международный шведский стол в La Festa Hilton",
+      "hi": "ला फेस्टा हिल्टन ऑल-डे इंटरनेशनल बुफे डाइनिंग"
+    },
+    "current_culture_story": {
+      "ko": "고대 지중해 무역상의 여정을 테마로, 유럽 장인의 정통 그릴 요리와 베트남 섬의 신선한 해산물이 공존하는 5성급 럭셔리 올데이 다이닝입니다.",
+      "en": "Inspired by ancient Mediterranean spice routes, The Merchant curates global culinary stations from artisan pastas to live island seafood."
+    },
+    "sauce_guide": {
+      "ko": "셰프의 특제 드레싱: 트러플 발사믹 & 허브 인퓨전 오일",
+      "en": "Chef's Finish: White Truffle Balsamic & Herb Oil",
+      "vi": "Sốt cao cấp: Giấm đen balsamic nấm truffle thượng hạng",
+      "zh": "主厨特调：白松露黑醋浓汁与特级香草冷榨油",
+      "ja": "シェフ特製：白トリュフバルサミコ＆ハーブオイル",
+      "ru": "Шеф-соус: Белый трюфель с выдержанным бальзамиком",
+      "hi": "शेफ स्पेशल: ट्रफ़ल बाल्समिक और हर्ब इन्फ्यूज्ड ऑयल"
+    },
+    "sauce_details": {
+      "ko": "최상급 엑스트라 버진 오일에 신선한 로즈메리와 마늘을 인퓨징하여 모든 그릴 요리의 품격을 높입니다.",
+      "en": "Cold-pressed olive oils infused with garden herbs grace carved meats and seafood."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 라이브 쿠킹 스테이션에서 갓 구운 요리 즐기기",
+        "title_en": "1. Request fresh-grilled cuts directly from live stations",
+        "desc_ko": "오픈 키친에서 셰프가 즉석으로 조리해 주는 해산물과 고기 요리를 따뜻하게 즐기세요.",
+        "desc_en": "Chefs sear seasonal cuts to order right before your eyes."
+      }
+    ]
+  },
+  {
+    "index": 48,
+    "slug": "delhi-darbaar-indian-restaurant-indian-food-in-sunset-town-phu-quoc",
+    "name": "델리 다르바르 인디안 레스토랑 (Delhi Darbaar)",
+    "cat": "dining",
+    "subcat": "international",
+    "current_food_style": {
+      "ko": "북인도 정통 궁중 무굴 요리 & 탄두리 케밥",
+      "en": "North Indian Royal Mughlai Cuisine & Tandoori Delights",
+      "vi": "Ẩm thực hoàng gia Bắc Ấn Độ Delhi Darbaar & Bánh Naan",
+      "zh": "正宗北印度德里宫廷咖喱、香料羊肉与炭烤烤饼",
+      "ja": "北インド正統派ムガル宮廷料理・デリーダルバール",
+      "ru": "Североиндийская королевская кухня моголов и тандури",
+      "hi": "उत्तर भारतीय शाही मुगलाई व्यंजन और तंदूरी कबाब"
+    },
+    "current_culture_story": {
+      "ko": "인도 델리의 궁중 요리 전통을 이어받아 정통 탄두르 화덕에서 갓 구워낸 쫄깃한 난과 30여 가지 향신료를 배합해 끓여낸 깊고 진한 머턴 로간 조쉬(Mutton Rogan Josh)를 선보입니다.",
+      "en": "Rooted in Delhi's royal Mughlai heritage, Delhi Darbaar simmers complex mutton curries with cardamom and saffron alongside pillowy tandoori breads."
+    },
+    "sauce_guide": {
+      "ko": "궁중 소스: 민트 코리앤더 라이타 (Raita & Chutney)",
+      "en": "Cooling Chutney: Spiced Mint-Coriander Yogurt Raita",
+      "vi": "Sốt chấm Ấn Độ: Sốt sữa chua dưa chuột Raita thanh mát",
+      "zh": "宫廷蘸酱：清爽黄瓜薄荷酸奶（Raita）",
+      "ja": "伝統のチャツネ：ミントヨーグルトライタ（Raita）",
+      "ru": "Традиционный соус: Освежающая мятная райта с йогуртом",
+      "hi": "शाही डिप: पुदीना धनिया रायता और चटनी"
+    },
+    "sauce_details": {
+      "ko": "오이와 큐민을 넣은 시원한 요거트 라이타가 향신료의 강렬한 자극을 편안하게 감싸줍니다.",
+      "en": "Cool cucumber raita tempers bold garam masala warmth effortlessly."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 버터 난을 찢어 양고기 커리에 듬뿍 찍어 먹기",
+        "title_en": "1. Tear warm butter naan to scoop tender mutton curry",
+        "desc_ko": "화덕에서 갓 구워 버터가 윤기 나게 발린 난으로 고기와 진한 커리를 감싸 드세요.",
+        "desc_en": "Soft naan scoops up tender meat chunks and rich spiced gravy."
+      }
+    ]
+  },
+  {
+    "index": 49,
+    "slug": "draft-beer-sunset-town-phu-quoc",
+    "name": "드래프트 비어 선셋타운 (Draft Beer Sunset Town Phú Quốc)",
+    "cat": "dining",
+    "subcat": "seafood",
+    "current_food_style": {
+      "ko": "선셋타운 오션프론트 수제 생맥주 & 핑거푸드 바",
+      "en": "Sunset Town Oceanfront Fresh Draft Beer & Bites",
+      "vi": "Quán bia tươi ven biển Sunset Town Phú Quốc",
+      "zh": "落日海滨鲜爽生啤、烤香肠与海鲜小吃",
+      "ja": "サンセットタウン・生ビールパブ＆ソーセージグリル",
+      "ru": "Разливное пиво на набережной и закуски к пиву",
+      "hi": "सनसेट टाउन वाटरफ्रंट ताज़ा ड्राफ्ट बीयर और स्नैक्स"
+    },
+    "current_culture_story": {
+      "ko": "바다 바로 앞에서 파도 소리를 들으며 냉각 시스템으로 완벽한 온도를 유지한 시원한 생맥주와 바삭한 독일식 소시지, 마른안주를 즐기는 비치 펍 문화입니다.",
+      "en": "Quench tropical thirst along the promenade with precisely chilled draft lagers, grilled sausages, and crispy bar bites."
+    },
+    "sauce_guide": {
+      "ko": "맥주 안주 소스: 디종 머스터드 & 매콤 칠리",
+      "en": "Beer Condiment: Whole-grain Dijon Mustard & Chili Dip",
+      "vi": "Sốt chấm xúc xích: Mù tạt vàng hạt & Tương ớt cay",
+      "zh": "佐酒良伴：法式第戎芥末酱与香辣酱",
+      "ja": "ビールに最適：粒マスタード＆スパイシーチリ",
+      "ru": "К пиву: Зернистая дижонская горчица и острый соус",
+      "hi": "बीयर स्नैक डिप: डिजॉन मस्टर्ड और चिली डिप"
+    },
+    "sauce_details": {
+      "ko": "알싸한 겨자씨가 톡톡 터지는 머스터드가 구운 소시지의 육즙과 최고의 페어링을 만듭니다.",
+      "en": "Whole-grain mustard cuts cleanly through savory sausage juices."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 맥주 거품이 꺼지기 전 시원하게 들이켜기",
+        "title_en": "1. Drink while the thick foam collar is crisp and cold",
+        "desc_ko": "서빙 직후 풍성한 거품이 있을 때 첫 모금을 들이켜 탄산의 청량감을 느껴보세요.",
+        "desc_en": "Chilled draft beer is best enjoyed fresh from the tap with a foamy crown."
+      }
+    ]
+  },
+  {
+    "index": 50,
+    "slug": "lagoon-bbq-vietnamese-cuisine",
+    "name": "라군 BBQ & 베트남 퀴진 (Lagoon BBQ & Vietnamese Cuisine)",
+    "cat": "dining",
+    "subcat": "vietnamese",
+    "current_food_style": {
+      "ko": "해안가 라군 해산물 숯불 바비큐 & 전골 핫팟",
+      "en": "Coastal Lagoon Seafood Charcoal BBQ & Hotpot",
+      "vi": "Hải sản nướng than hoa & Lẩu hải sản biển Lagoon",
+      "zh": "水岸拉贡炭火海鲜烧烤与招牌海鲜火锅",
+      "ja": "ラグーン・海鮮炭火BBQ＆海鮮鍋料理（ラウ）",
+      "ru": "Морепродукты на углях у лагуны и горячий хотпот",
+      "hi": "कोस्टल लैगून सीफ़ूड चारकोल बारबेक्यू और हॉटपॉट"
+    },
+    "current_culture_story": {
+      "ko": "시원한 바닷바람이 불어오는 야외 테라스에서 꽃게와 왕새우를 숯불에 구워 먹고, 푸짐한 해산물 전골 국물에 야채를 데쳐 먹는 베트남 남부 전통 바비큐 만찬입니다.",
+      "en": "Dining under swaying palms, guests enjoy live-grilled tiger prawns and rich seafood hotpots bubbling with fresh aromatic herbs."
+    },
+    "sauce_guide": {
+      "ko": "핫팟의 영혼: 레몬그라스 칠리 피시소스",
+      "en": "Hotpot Dip: Lemongrass Chili Nuoc Mam",
+      "vi": "Nước chấm lẩu: Nước mắm gừng sả ớt hiểm",
+      "zh": "火锅灵魂：柠檬草姜汁辣椒鱼露",
+      "ja": "鍋料理のタレ：レモングラス生姜唐辛子魚醤",
+      "ru": "Соус для хотпота: Рыбный соус с лемонграссом, имбирем и чили",
+      "hi": "हॉटपॉट सॉस: लेमनग्रास चिली फ़िश सॉस"
+    },
+    "sauce_details": {
+      "ko": "향긋한 레몬그라스와 생강을 다져 넣은 피시소스가 익힌 해산물의 잡내를 잡아줍니다.",
+      "en": "Minced lemongrass and ginger in fish sauce accentuate sweet poached seafood."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 전골 국물이 우러날수록 깊어지는 감칠맛 음미",
+        "title_en": "1. Let hotpot broth simmer deeply with crab shells before serving",
+        "desc_ko": "갑각류를 충분히 끓여 국물에 바다 단맛이 푹 배어났을 때 국수를 넣어 드세요.",
+        "desc_en": "Allow simmering seafood shells to enrich the herbal broth before ladling noodles."
+      }
+    ]
+  },
+  {
+    "index": 51,
+    "slug": "mare",
+    "name": "마레 (Mare - La Festa Hilton 이탈리안 레스토랑)",
+    "cat": "dining",
+    "subcat": "western",
+    "current_food_style": {
+      "ko": "라페스타 힐튼 최상급 지중해 아말피 파인다이닝",
+      "en": "La Festa Hilton Premium Mediterranean Amalfi Fine Dining",
+      "vi": "Nhà hàng ẩm thực Ý cao cấp Mare - La Festa Hilton",
+      "zh": "希尔顿格芮精选酒店MARE奢华意式阿玛菲高级餐厅",
+      "ja": "ラ・フェスタ・ヒルトン極上イタリアン・マーレ（MARE）",
+      "ru": "Высокая итальянская кухня Mare в La Festa Hilton",
+      "hi": "ला फेस्टा हिल्टन प्रीमियम भूमध्यसागरीय अमाल्फी फाइन डाइनिंग"
+    },
+    "current_culture_story": {
+      "ko": "이탈리아 남부 아말피 해안의 정취를 그대로 재현한 힐튼 라페스타의 대표 이탈리안 레스토랑으로, 지중해 최상급 올리브유와 푸꾸옥 신선한 해산물이 만난 예술적인 파인다이닝을 선사합니다.",
+      "en": "Celebrating the refined cuisine of the Amalfi Coast, Mare crafts handmade pastas, saffron seafood risottos, and delicate crudos overlooking the sea."
+    },
+    "sauce_guide": {
+      "ko": "파인다이닝의 정점: 시칠리아산 올리브유 & 레몬 제스트",
+      "en": "Fine Dressing: Cold-pressed Sicilian Olive Oil & Calamansi Zest",
+      "vi": "Gia vị thượng hạng: Dầu ô liu vùng Sicilia & vỏ chanh vàng",
+      "zh": "奢华调味：西西里特级初榨橄榄油与新鲜柠檬皮碎",
+      "ja": "極上の仕上げ：シチリア産オリーブオイル＆レモンピール",
+      "ru": "Изысканная заправка: Сицилийское оливковое масло и цедра лимона",
+      "hi": "फाइन ड्रेसिंग: सिसिलियन जैतून का तेल और नींबू का छिलका"
+    },
+    "sauce_details": {
+      "ko": "신선한 사시미 크루도 위에 향긋한 레몬 오일과 바다 소금을 가미해 섬세한 미각을 깨웁니다.",
+      "en": "Fruity olive oil and citrus zest awaken delicate raw seafood textures."
+    },
+    "eating_tips": [
+      {
+        "title_ko": "1. 바다 전망 테라스에서 와인 페어링 코스 경험하기",
+        "title_en": "1. Savor sunset wine pairing alongside coastal tasting menu",
+        "desc_ko": "소믈리에가 추천하는 이탈리아 와인과 함께 황홀한 일몰을 감상하며 정통 코스를 즐기세요.",
+        "desc_en": "Sip curated Italian varietals as twilight settles across the Mediterranean façade."
+      }
+    ]
+  },
+  {
+    "index": 52,
+    "slug": "maharaja-lounge-100-pure-veg-authentic-indian-restaurant-sunset-town",
+    "name": "마하라자 라운지 선셋타운 (Maharaja Lounge - 인도 채식 레스토랑)",
+    "cat": "dining",
+    "subcat": "international",
+    "current_food_style": "인도 정통 채식 & 탄두리 (Authentic Indian Pure Vegetarian)",
+    "current_culture_story": "인도의 식문화에서 채식(Pure Vegetarian)은 단순한 식습관을 넘어 깊은 영적 존중과 아유르베다 지혜가 담긴 전통입니다. 고기류를 일체 배제하고 파니르(인도식 코티지 치즈), 병아리콩, 렌틸콩, 신선한 채소와 각종 향신료를 정교하게 배합하여 깊은 풍미를 완성합니다. 선셋타운의 이국적인 해안가에서 향긋한 가람 마살라와 큐민의 향연을 즐기실 수 있습니다.",
+    "sauce_guide": "민트 처트니(Mint Chutney), 타마린드 소스(Tamarind Sauce), 믹스 피클(Achar)",
+    "sauce_details": "알싸하고 상쾌한 민트 처트니는 사모사나 튀김 요리의 기름기를 깔끔하게 잡아주며, 새콤달콤한 타마린드 소스는 입맛을 돋웁니다. 매콤짭조름한 아차르는 밥이나 난에 곁들여 강렬한 감칠맛을 더합니다.",
+    "eating_tips": "화덕에서 갓 구워 나온 따뜻한 난을 손으로 한 입 크기로 찢어 진한 파니르 커리에 듬뿍 찍어 드세요. 탈리(Thali) 세트는 달(렌틸콩 스프)과 커리를 밥에 번갈아 비벼가며 다채로운 향미의 조화를 경험하는 것이 정석입니다."
+  },
+  {
+    "index": 53,
+    "slug": "mediterran-sunset-town-greek-italian-restaurant-pizza-pasta-souvlaki",
+    "name": "메디테란 선셋타운 (MEDITERRAN - 그리스 & 이탈리안 레스토랑)",
+    "cat": "dining",
+    "subcat": "western",
+    "current_food_style": "그리스 수블라키 & 이탈리안 화덕 피자 (Mediterranean Greek & Italian)",
+    "current_culture_story": "지중해식 다이닝은 올리브 오일, 오레가노, 레몬, 마늘 등 자연 식재료 본연의 풍미를 극대화하는 건강한 미식입니다. 그리스 대표 길거리 음식이자 전통 꼬치 요리인 수블라키(Souvlaki)는 숯불 향을 입힌 부드러운 고기에 신선한 채소와 시원한 차지키 소스를 곁들여 먹으며, 이탈리안 화덕 피자는 겉은 바삭하고 속은 쫄깃한 도우가 일품입니다.",
+    "sauce_guide": "차지키 소스(Tzatziki), 엑스트라 버진 올리브 오일 & 발사믹",
+    "sauce_details": "그리스 정통 요거트에 오이와 마늘, 올리브 오일을 넣은 차지키 소스는 고기 요리의 묵직함을 상큼하게 감싸주며, 품질 좋은 올리브 오일은 피자 크러스트나 샐러드의 감칠맛을 배가합니다.",
+    "eating_tips": "수블라키는 구운 피타 브레드 위에 고기와 양파, 토마토를 얹고 차지키 소스를 듬뿍 얹어 쌈처럼 싸서 드시면 가장 맛있습니다. 피자는 테두리 크러스트까지 올리브 오일에 찍어 즐겨보세요."
+  },
+  {
+    "index": 54,
+    "slug": "venice-cafe",
+    "name": "베니스 카페 & 이터리 (Venice Café & Eatery)",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": "유러피안 브런치 & 오션뷰 조식 뷔페 (European Oceanfront Brunch)",
+    "current_culture_story": "선셋타운의 이탈리아풍 건축 양식과 조화를 이루는 유러피안 카페 스타일 다이닝입니다. 갓 구운 크루아상과 페이스트리, 신선한 열대 과일과 함께 베트남 전통 쌀국수까지 아우르는 든든한 조식 뷔페를 제공하며, 바다 너머 키스브릿지를 바라보며 여유로운 아침을 즐기는 리조트 라이프스타일을 대변합니다.",
+    "sauce_guide": "베트남 피시소스(Nước mắm), 발사믹 글레이즈, 생라임과 칠리",
+    "sauce_details": "쌀국수 국물에는 라임과 생칠리를 곁들여 개운한 맛을 내고, 신선한 베이커리와 샐러드에는 고급 버터와 발사믹이 조화롭습니다.",
+    "eating_tips": "야외 테라스 석에 자리 잡고 따뜻한 쌀국수로 속을 먼저 푼 뒤, 바삭한 페이스트리와 진한 베트남식 연유 커피(Cà phê sữa đá)로 아침 식사를 달콤하게 마무리하세요."
+  },
+  {
+    "index": 55,
+    "slug": "blue-table-italian-restaurant",
+    "name": "블루 테이블 (Blue Table - 이탈리안 레스토랑)",
+    "cat": "dining",
+    "subcat": "western",
+    "current_food_style": "정통 이탈리안 파스타 & 해산물 요리 (Authentic Italian Pasta & Seafood)",
+    "current_culture_story": "이탈리아 남부 아말피 해안의 정취를 푸꾸옥 선셋타운의 푸른 바다 앞에 재현한 레스토랑입니다. 엄선된 듀럼밀 세몰리나 파스타와 신선한 올리브 오일, 푸꾸옥 앞바다에서 잡은 싱싱한 조개·새우·오징어를 결합하여 재료 본연의 바다 내음과 깊은 토마토 소스의 산미를 섬세하게 조화시킵니다.",
+    "sauce_guide": "마늘 고추 올리브 오일(Aglio Olio), 포모도로 토마토 소스, 파르미지아노 레지아노",
+    "sauce_details": "알리오 올리오 베이스는 해산물의 풍미를 가장 투명하게 살려주며, 장시간 뭉근하게 끓여낸 산 마르차노 토마토 소스는 감칠맛을 완성합니다.",
+    "eating_tips": "파스타 면은 알 덴테(Al dente)의 탄력 있는 식감이 살아있을 때 빠르게 소스와 유화(Emulsion)시켜 드시는 것이 좋습니다. 빵으로 접시에 남은 소스를 닦아 먹는 '스카르페타(Scarpetta)'를 즐겨보세요."
+  },
+  {
+    "index": 56,
+    "slug": "sunset-bunsik",
+    "name": "선셋분식 (Sunset Bunsik)",
+    "cat": "dining",
+    "subcat": "korean",
+    "current_food_style": "한국 길거리 분식 & 소울푸드 (Korean Street Bunsik & Soul Food)",
+    "current_culture_story": "바삭하고 고소한 참기름 내음이 가득한 김밥과 매콤달콤한 떡볶이는 한국인들의 영원한 소울푸드이자 간편식 문화의 정수입니다. 남녀노소 누구나 부담 없이 즐길 수 있는 분식 요리는 푸꾸옥 여행 중 한국 고유의 친숙하고 정겨운 매운맛을 찾으시는 분들에게 든든한 휴식을 선사합니다.",
+    "sauce_guide": "태양초 고추장 떡볶이 양념, 참기름 소금장, 단무지 & 국물",
+    "sauce_details": "진하게 우려낸 멸치 다시마 육수에 칼칼한 고추장과 고춧가루를 풀어 끓여낸 떡볶이 국물은 특유의 감칠맛으로 튀김이나 김밥 찍어 먹기에 제격입니다.",
+    "eating_tips": "김밥 꼬투리부터 한입에 맛보고, 갓 말아낸 김밥을 떡볶이 국물에 푹 적셔 드시면 매콤함과 고소함이 입안 가득 환상적으로 어우러집니다."
+  },
+  {
+    "index": 57,
+    "slug": "seta",
+    "name": "세타 (Seta - La Festa Hilton 광동식 파인다이닝)",
+    "cat": "dining",
+    "subcat": "international",
+    "current_food_style": "광동식 럭셔리 파인다이닝 & 수제 딤섬 (Cantonese Fine Dining & Dim Sum)",
+    "current_culture_story": "라 페스타 힐튼 호텔 내에 자리한 세타(Seta)는 고전 광동 요리의 엄격한 기법과 현대적 파인다이닝 미학이 만난 레스토랑입니다. 식재료 본연의 신선함과 투명한 육수, 섬세한 딤섬 반죽(하가우, 샤오마이)은 한 입 베어 물었을 때 육즙이 터져 나오는 정교한 맛을 선사합니다.",
+    "sauce_guide": "홍유 소스(Chili Oil), 생강 채 간장, XO 해산물 소스",
+    "sauce_details": "광동 요리에서는 풍미를 덮지 않고 살리는 것이 원칙입니다. 딤섬에는 얇게 썬 생강을 띄운 고급 초간장을 곁들이고, 육류 요리에는 말린 가리비와 건새우로 볶아낸 매콤한 XO 소스를 곁들입니다.",
+    "eating_tips": "딤섬은 숟가락 위에 올린 뒤 젓가락으로 피를 살짝 터뜨려 육즙을 먼저 맛보고, 초간장에 적신 생강 채를 올려 한입에 드세요."
+  },
+  {
+    "index": 58,
+    "slug": "sultan-turkish-kebab-sunset-town-phu-quoc",
+    "name": "술탄 터키쉬 케밥 선셋타운 (Sultan Turkish Kebab)",
+    "cat": "dining",
+    "subcat": "international",
+    "current_food_style": "터키식 도네르 케밥 & 할랄 스트리트 푸드 (Authentic Turkish Döner Kebab)",
+    "current_culture_story": "거대한 수직 회전 꼬치에서 천천히 직화로 구워 기름기를 쏙 뺀 얇은 고기를 썰어내는 도네르 케밥(Döner Kebab)은 터키 오스만 제국부터 이어진 세계적인 미식입니다. 큐민, 오레가노, 파프리카 파우더로 숙성한 부드러운 소고기와 닭고기를 신선한 토마토, 양파와 함께 또르띠아에 둥글게 말아 즐깁니다.",
+    "sauce_guide": "터키쉬 갈릭 요거트 소스, 매콤한 토마토 칠리 살사",
+    "sauce_details": "진한 요거트에 마늘을 갈아 넣은 터키 전통 소스는 불맛 나는 고기와 환상적인 궁합을 자랑하며, 칼칼한 칠리 소스가 이국적인 매콤함을 더합니다.",
+    "eating_tips": "포장지를 살짝 아래로 말아가며 고기와 신선한 채소, 소스가 한 입에 골고루 씹히도록 드세요. 취향에 따라 매운 소스를 추가하면 더욱 매력적입니다."
+  },
+  {
+    "index": 59,
+    "slug": "starbucks-beach-house-sun-primavera",
+    "name": "스타벅스 비치 하우스 선셋타운점 (Starbucks Beach House Sun Primavera)",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": "글로벌 스페셜티 커피 & 비치 하우스 테라스 (Coastal Specialty Coffee)",
+    "current_culture_story": "선셋타운 프리마베라 해변가에 자리한 독특한 지중해풍 비치 하우스 컨셉트의 스타벅스 매장입니다. 최고급 아라비카 원두로 추출한 에스프레소 베이스 음료와 베트남 현지 특색을 담은 아시안 돌체 라떼 등 휴양지에 어울리는 시원한 수제 음료를 석양과 함께 즐기실 수 있습니다.",
+    "sauce_guide": "바닐라 시럽, 카라멜 드리즐, 스위트 연유 베이스",
+    "sauce_details": "스타벅스 시그니처 카라멜 드리즐은 부드러운 우유 거품 위에 달콤한 풍미를 더하며, 연유 베이스는 쌉싸름한 에스프레소와 묵직한 조화를 이룹니다.",
+    "eating_tips": "테라스 좌석에서 바다로 지는 석양을 배경으로 음료를 음미해 보세요. 달콤하고 시원한 돌체 라떼나 프라푸치노는 한낮의 열기를 식히기에 최적입니다."
+  },
+  {
+    "index": 60,
+    "slug": "octopus-island-restaurant-night-market-sunset-town",
+    "name": "옥토퍼스 아일랜드 레스토랑 (Octopus Island - 부이페스트 야시장)",
+    "cat": "dining",
+    "subcat": "seafood",
+    "current_food_style": "부이페스트 야시장 숯불 문어구이 & 로컬 해산물 (Night Market Grilled Seafood)",
+    "current_culture_story": "푸꾸옥 부이페스트(Vui-Fest) 야시장의 활기찬 밤을 상징하는 길거리 해산물 요리입니다. 달궈진 숯불 화로 위에서 붉은 베트남 사테(Sa Tế) 칠리 소스를 듬뿍 발라 구워내는 통문어는 겉은 숯불 향이 그윽하고 속은 탱글탱글하고 쫄깃하여 야시장 맥주 안주로 손꼽힙니다.",
+    "sauce_guide": "무이띠에우짜인(소금·후추·라임), 칠리 사테 오일, 느억맘 딥",
+    "sauce_details": "푸꾸옥 특산 굵은 바다소금과 갓 빻은 검은 후추에 생라임즙을 짜 넣은 소스는 해산물의 비린 맛을 완전히 잡고 감칠맛을 폭발시킵니다.",
+    "eating_tips": "가위로 먹기 좋게 자른 따끈한 문어 다리를 라임 소금장에 살짝 찍고, 베트남 민트(Rau răm) 잎을 한두 장 곁들여 드시면 개운함이 배가됩니다."
+  },
+  {
+    "index": 61,
+    "slug": "wave-cafe-pub-3f-sunset-town",
+    "name": "웨이브 카페 & 펍 3F (Wave Cafe & Pub - 웨이브스파 3층)",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": "루프탑 트로피컬 음료 & 오션 테라스 펍 (Rooftop Tropical Café & Terrace)",
+    "current_culture_story": "웨이브 스파 건물 3층에 위치하여 선셋타운의 드넓은 바다와 석양을 조망할 수 있는 전망 명소입니다. 베트남 특유의 진한 에스프레소에 달콤하고 고소한 코코넛 밀크 스무디를 얹은 코코넛 커피와 상큼한 열대 과일 티, 저녁 무렵의 시원한 수제 맥주까지 편안한 힐링 분위기를 선사합니다.",
+    "sauce_guide": "코코넛 연유 크림, 열대 과일 퓨레, 허니 시럽",
+    "sauce_details": "직접 갈아 만든 고소한 코코넛 스무디의 질감이 진한 로컬 로스팅 커피의 쌉싸름함을 부드럽게 감싸줍니다.",
+    "eating_tips": "코코넛 커피는 빨대로 섞지 않고 숟가락으로 차가운 코코넛 스무디 층을 먼저 맛본 뒤, 에스프레소와 층을 이루어 자연스럽게 마시는 것을 추천합니다."
+  },
+  {
+    "index": 62,
+    "slug": "kadhai-indian-restaurant-sunset-town-phu-quoc",
+    "name": "카다이 인디안 레스토랑 (Kadhai Indian Restaurant)",
+    "cat": "dining",
+    "subcat": "international",
+    "current_food_style": "정통 북인도 카다이 커리 & 탄두리 (North Indian Kadhai Cuisine)",
+    "current_culture_story": "카다이(Kadhai)는 인도 전통의 깊은 둥근 무쇠 팬을 뜻하며, 높은 열에서 갓 빻은 통향신료(코리앤더 씨드, 큐민, 건고추)를 기름에 볶아 강렬한 아로마를 이끌어내는 북인도 펀자브 지방의 조리법입니다. 큼직하게 썬 피망과 양파의 아삭한 식감과 매콤알싸한 토마토 마살라 소스가 닭고기에 진하게 배어듭니다.",
+    "sauce_guide": "민트 요거트 소스, 망고 처트니, 믹스드 피클(Achar)",
+    "sauce_details": "민트 소스는 탄두리 바비큐의 훈연 향을 산뜻하게 돋워주며, 알싸한 망고 처트니는 단짠의 매력을 더합니다.",
+    "eating_tips": "화덕 벽에 붙여 구워낸 버터 난이나 갈릭 난을 뜯어 두툼한 고기와 매콤한 카다이 마살라 소스를 듬뿍 얹어 싸서 드세요."
+  },
+  {
+    "index": 63,
+    "slug": "cafe-green-sunset-town",
+    "name": "카페 그린 선셋타운 (Cafe Green - 망고빙수 전문)",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": "생망고 스노우 빙수 & 열대 과일 카페 (Fresh Mango Desserts & Bingsu)",
+    "current_culture_story": "푸꾸옥의 풍부한 일조량 아래 잘 익은 달콤한 생망고를 아낌없이 담아내는 디저트 카페입니다. 고운 우유 얼음을 곱게 갈아 만든 눈꽃 빙수 위에 갓 썰어낸 신선한 황금빛 망고 큐브와 진한 망고 퓨레, 바닐라 아이스크림을 얹어 열대 휴양지의 완벽한 달콤함을 완성합니다.",
+    "sauce_guide": "리얼 망고 과육 퓨레, 프리미엄 연유 시럽",
+    "sauce_details": "인공 색소 없이 순수 망고 과육으로 끓여낸 퓨레는 우유 눈꽃의 은은한 단맛을 과일 본연의 산뜻한 풍미로 가득 채워줍니다.",
+    "eating_tips": "빙수를 처음부터 섞지 마시고, 숟가락으로 부드러운 우유 눈꽃 얼음과 큼직한 망고 과육을 함께 떠서 드세요. 절반쯤 드신 후 연유를 추가하면 마지막까지 촉촉합니다."
+  },
+  {
+    "index": 64,
+    "slug": "sunset-place-2",
+    "name": "카페 루남 푸꾸옥 (Café RuNam Phú Quốc - Hexagonal House)",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": "아티잔 베트남 퀴진 & 프리미엄 루남 커피 (Artisanal Vietnamese & RuNam Bistro)",
+    "current_culture_story": "선셋타운 해안가 육각형 파빌리온(Hexagonal House)에 자리한 카페 루남은 베트남 전통 길거리 음식과 정통 커피 문화를 모던 럭셔리로 승화시킨 플래그십 비스트로입니다. 하노이 쌀국수의 진한 풍미를 바삭한 바게트와 육수 딥으로 재해석한 '반미 퍼(Bánh mì Phở)'와 고급 원두를 황동 핀(Phin) 드리퍼로 내리는 정통 드립 커피를 선보입니다.",
+    "sauce_guide": "농축 사골 쌀국수 딥 육수, 홈메이드 칠리 잼, 베트남 특화 디핑",
+    "sauce_details": "반미 퍼 주문 시 제공되는 맑고 진한 쌀국수 육수는 바게트를 적셔 먹을 때 풍미를 극대화하며, 루남 특제 칠리 잼은 매콤달콤한 악센트를 줍니다.",
+    "eating_tips": "반미 퍼는 갓 구워낸 바게트를 사골 육수에 살짝 찍어 한입 베어 물고, 식후에는 특유의 황동 드리퍼에서 한 방울씩 떨어지는 루남 에스프레소를 음미하세요."
+  },
+  {
+    "index": 65,
+    "slug": "caveman-smoked-ribs-craft-beer",
+    "name": "케이브맨 스모크 립 & 크래프트 비어 (Caveman Smoked Ribs)",
+    "cat": "dining",
+    "subcat": "restaurant",
+    "current_food_style": "텍사스 정통 저온 훈연 바비큐 & 로컬 수제 맥주 (Texas Smoked Ribs & Craft Beer)",
+    "current_culture_story": "두꺼운 무쇠 스모커에서 천연 참나무와 과일나무 장작만을 사용하여 110℃ 안팎의 저온에서 6시간 이상 은근하게 구워내는 정통 미국식 '로우 앤 슬로우(Low & Slow)' 바비큐 전문점입니다. 고기 표면에 형성되는 붉은 훈연 링(Smoke Ring)과 캐러멜라이즈된 특제 럽(Dry Rub)은 입안에서 사르르 녹아내리는 육즙과 깊은 스모키 풍미를 자랑합니다.",
+    "sauce_guide": "스위트 & 스모키 BBQ 소스, 매콤 캐롤라이나 머스터드, 수제 피클",
+    "sauce_details": "흑설탕과 사과 식초 베이스의 바비큐 소스는 돼지갈비의 고소한 지방질을 완벽하게 감싸며, 톡 쏘는 머스터드가 끝 맛을 개운하게 정돈합니다.",
+    "eating_tips": "나이프를 쓰지 않아도 뼈가 쏙 빠질 만큼 부드럽습니다. 뼈째 손으로 잡고 특제 소스를 덧발라 베어 문 뒤, 차가운 IPA나 수제 맥주로 목을 축여보세요."
+  },
+  {
+    "index": 66,
+    "slug": "coconut-spa-cafe",
+    "name": "코코넛 스파 & 카페 (Coconut Spa & Cafe)",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": "코코넛 웰니스 음료 & 트로피컬 스파 티 (Coconut Wellness & Relaxing Café)",
+    "current_culture_story": "선셋타운에서 스파 마사지와 함께 신선한 열대 코코넛 음료를 즐길 수 있는 웰니스 휴식 공간입니다. 인공 첨가물 없이 푸꾸옥 야자수에서 갓 딴 달콤한 생코코넛 워터와 생과육을 곱게 갈아 만든 시그니처 코코넛 커피 스무디는 지친 여행자의 몸과 마음에 상쾌한 활력을 불어넣어 줍니다.",
+    "sauce_guide": "생코코넛 과육 퓨레, 천연 팜슈가 시럽",
+    "sauce_details": "은은한 단맛의 천연 코코넛 과육 크림이 진하고 구수한 베트남식 로브스타 에스프레소와 부드럽게 융합됩니다.",
+    "eating_tips": "스파 테라피를 마친 후 야외 바람을 쐬며 차가운 생코코넛 스무디나 통코코넛 워터를 천천히 들이켜며 수분을 보충하세요."
+  },
+  {
+    "index": 67,
+    "slug": "kungfu-noodle-phu-quoc",
+    "name": "쿵푸 누들 푸꾸옥 (Kungfu Noodle Phú Quốc - 수타면 & 딤섬)",
+    "cat": "dining",
+    "subcat": "international",
+    "current_food_style": "정통 수타 라미엔 & 광동식 바비큐 (Hand-pulled Kungfu Noodles)",
+    "current_culture_story": "밀가루 반죽을 쉴 새 없이 허공에 내리치며 탄력 있는 면발을 뽑아내는 중국 전통 수타면(라미엔) 전문점입니다. 주문 즉시 뽑아 삶아낸 쫄깃하고 차진 면발과 장시간 푹 고아낸 맑은 닭 육수, 꿀과 오향(五香) 양념을 발라 윤기 나게 구워낸 광동식 붉은 차슈 바비큐가 푸짐하게 어우러집니다.",
+    "sauce_guide": "사천식 특제 고추기름(라유), 흑식초(칭키앙), 다진 마늘 소스",
+    "sauce_details": "맑은 국물에 알싸한 흑식초 두 방울과 직접 볶은 고추기름을 살짝 두르면 느끼함이 사라지고 국물의 깊은 감칠맛이 폭발합니다.",
+    "eating_tips": "수타면 특유의 쫄깃한 식감을 위해 면이 불기 전 먼저 면발을 건져 맛보세요. 달콤한 차슈 고기를 면과 함께 싸서 후루룩 넘기는 것이 정석입니다."
+  },
+  {
+    "index": 68,
+    "slug": "pho-thin-phu-quoc-top-3-pho-hot-pot",
+    "name": "포틴 푸꾸옥 (Phở Thìn Phú Quốc - 하노이 3대 쌀국수 & 핫팟)",
+    "cat": "dining",
+    "subcat": "vietnamese",
+    "current_food_style": "하노이 정통 직화 파기름 볶음 쌀국수 (Hanoi Stir-fried Phở Tái Lăn)",
+    "current_culture_story": "하노이 3대 쌀국수 명가 포틴(Phở Thìn Lò Đúc)의 독보적인 전통 비법을 선셋타운에서 선보입니다. 얇게 썬 소고기를 센 불에서 생강, 마늘, 쪽파와 함께 빠르게 볶아내어 그윽한 불맛과 파기름의 진한 감칠맛을 우려낸 뒤, 진한 사골 육수를 붓고 그릇 가득 초록빛 파를 수북하게 덮어내는 것이 고유의 상징입니다.",
+    "sauce_guide": "마늘 식초(Dấm tỏi), 하노이 특제 칠리소스(Tương ớt), 꿔이(Quẩy)",
+    "sauce_details": "하노이식 쌀국수에는 숙주나 라임 대신 생마늘을 절인 마늘 식초와 칠리소스를 넣어 국물의 기름진 고소함을 개운하게 잡아줍니다.",
+    "eating_tips": "먼저 파와 고기, 국물을 떠서 직화의 불향을 음미한 후, 마늘 식초 한 스푼을 둘러보세요. 바삭한 튀김빵 꿔이(Quẩy)를 국물에 푹 적셔 먹는 것이 하노이언의 진짜 먹는 법입니다."
+  },
+  {
+    "index": 69,
+    "slug": "sunset-place",
+    "name": "푸꾸옥 뚱보집 선셋타운점 (한식당)",
+    "cat": "dining",
+    "subcat": "korean",
+    "current_food_style": "한국 전통 참숯 직화 벌집껍데기 & 삼겹살 (Korean Charcoal BBQ)",
+    "current_culture_story": "정밀하게 다이아몬드 벌집 칼집을 낸 두툼한 돼지껍데기를 달궈진 무쇠 석쇠 위에서 묵직한 누름판으로 눌러가며 참숯 향을 입혀 굽는 한국식 구이 전문점입니다. 겉은 과자처럼 바삭바삭하고 속은 젤리처럼 쫀득쫀득한 식감의 껍데기에 고소한 콩가루와 특제 매운 양념을 곁들여 한국 직화 바비큐의 진수를 선사합니다.",
+    "sauce_guide": "고소한 볶음 콩가루, 매콤 칠리 디핑 소스, 카레 가루, 쌈장",
+    "sauce_details": "노릇하게 구워진 껍데기를 매콤한 소스에 먼저 찍은 뒤 고소한 콩가루를 듬뿍 묻히면 쫄깃함과 고소함이 극대화됩니다.",
+    "eating_tips": "누름판으로 바짝 눌러 노릇노릇 구워진 껍데기를 한 입 크기로 잘라 콩가루에 찍어 드세요. 칼칼한 돼지고기 김치찌개와 공깃밥을 곁들이면 최고의 한 상입니다."
+  },
+  {
+    "index": 70,
+    "slug": "finca",
+    "name": "핀카 (Finca - La Festa Hilton 스페인 다이닝)",
+    "cat": "dining",
+    "subcat": "western",
+    "current_food_style": "스페인 안달루시아 타파스 & 브런치 (Spanish Andalusian Tapas)",
+    "current_culture_story": "라 페스타 푸꾸옥 힐튼 호텔의 품격을 담은 스페인 지중해 다이닝입니다. 스페인 전통 하몽 이베리코의 짙은 풍미와 바삭한 판 콘 토마테(Pan con Tomate), 신선한 푸꾸옥 새우에 마늘과 올리브 오일 향을 듬뿍 입힌 감바스 알 아히요(Gambas al Ajillo) 등 활기차고 세련된 이베리아 미식을 선보입니다.",
+    "sauce_guide": "알리올리 소스(Alioli), 훈제 파프리카 오일, 엑스트라 버진 올리브 오일",
+    "sauce_details": "알싸하고 크리미한 마늘 마요네즈 알리올리는 해산물과 구운 빵에 환상적이며, 피멘톤(Pimentón) 파프리카 오일은 감칠맛을 배가합니다.",
+    "eating_tips": "감바스는 끓는 올리브 오일에 사워도우 바게트를 푹 적셔 새우와 마늘 편을 얹어 드시고, 시원하고 달콤한 샹그리아를 곁들여보세요."
+  },
+  {
+    "index": 71,
+    "slug": "highlands-coffee-cable-car-an-thoi-pq",
+    "name": "하이랜드 커피 안터이 케이블카역점 (Highlands Coffee Cable Car An Thới)",
+    "cat": "dining",
+    "subcat": "cafe",
+    "current_food_style": "베트남 전통 핀 드립 커피 & 티 (Vietnamese Phin Drip Coffee)",
+    "current_culture_story": "베트남 현대 커피 문화를 상징하는 대표 브랜드로, 안터이 케이블카 역사의 멋진 전망과 함께합니다. 베트남 고원지대(달랏·부온마투옷)의 로브스타 원두를 알루미늄 필터인 '핀(Phin)'으로 한 방울씩 진하게 추출하여 달콤한 연유와 얼음을 섞어 마시는 핀 쓰어다(Phin Sữa Đá)는 하루의 활력을 깨우는 베트남의 국민 음료입니다.",
+    "sauce_guide": "스위트 연유, 크리미 밀크폼, 연꽃씨 콩피",
+    "sauce_details": "진한 로브스타 원두 특유의 쌉쌀하고 구수한 카카오 풍미를 달콤한 연유가 묵직하고 부드럽게 감싸줍니다.",
+    "eating_tips": "연유가 바닥에 깔려 나오므로 빨대로 바닥까지 충분히 저어 황금빛 갈색이 되었을 때 얼음과 함께 시원하게 들이켜세요."
+  },
+  {
+    "index": 72,
+    "slug": "sunset-place-1",
+    "name": "하이산캉 (Hải Sản Cảng Phú Quốc - 해산물 전문점)",
+    "cat": "dining",
+    "subcat": "seafood",
+    "current_food_style": "선셋타운 항구식 해산물 핫팟 & 활어 직화구이 (Portside Fresh Seafood)",
+    "current_culture_story": "푸꾸옥 남부 안터이 항구의 어부들이 갓 잡아 올린 신선한 해산물을 바다 앞에서 조리해 내는 로컬 해산물 식당입니다. 살아 숨 쉬는 꽃게, 갯가재, 부채새우, 소라를 취향대로 골라 숯불에 굽거나, 레몬그라스와 파인애플을 넣고 새콤달콤하게 끓여내는 남부식 해물탕(Lẩu Hải Sản)을 여럿이 둘러앉아 즐깁니다.",
+    "sauce_guide": "무이띠에우짜인(소금·후추·라임), 초록 고추 소금장(Muối ớt xanh)",
+    "sauce_details": "초록 고추와 연유, 라임을 갈아 넣은 녹색 디핑 소스는 해산물의 단맛을 극대화하고 특유의 갯내를 깔끔하게 지워줍니다.",
+    "eating_tips": "해물탕 육수가 팔팔 끓어오르면 얇은 쌀국수 분(Bún)을 그릇에 담고 뜨거운 해물 국물과 야채를 끼얹어 면과 함께 후루룩 드세요."
+  },
+  {
+    "index": 73,
+    "slug": "bbq-house-for-you",
+    "name": "한국관 BBQ 하우스 포 유 (Korean BBQ House)",
+    "cat": "dining",
+    "subcat": "korean",
+    "current_food_style": "한국 정통 숯불 양념갈비 & 삼겹살 (Authentic Korean Charcoal BBQ)",
+    "current_culture_story": "푸꾸옥 선셋타운에서 한국 전통 숯불구이의 깊은 정취를 느낄 수 있는 한식당입니다. 엄선한 돼지갈비를 특제 비법 간장 소스에 저온 숙성하여 은은한 참숯 불길에 구워내어 부드러운 육질과 달콤짭조름한 풍미가 밥과 냉면을 부릅니다.",
+    "sauce_guide": "전통 쌈장, 양파 절임 간장 소스, 참기름 소금장",
+    "sauce_details": "아삭한 양파 슬라이스를 띄운 간장 소스는 고기의 기름진 맛을 산뜻하게 덜어주며, 쌈장은 마늘 고추와 환상적인 궁합을 이룹니다.",
+    "eating_tips": "노릇하게 구워진 갈비 한 점을 상추 위에 올리고 마늘, 쌈장, 밥 한 숟갈을 얹어 푸짐하게 쌈으로 싸서 한입에 드세요."
+  },
+  {
+    "index": 74,
+    "slug": "charcoal-korean-bbq",
+    "name": "한식당 화로구이 (Charcoal Korean BBQ)",
+    "cat": "dining",
+    "subcat": "korean",
+    "current_food_style": "프리미엄 화로 숯불 직화구이 (Charcoal Hearth Grilled Meat)",
+    "current_culture_story": "달궈진 백탄 참숯을 담은 묵직한 개인 화로에서 최상급 소고기와 와규를 즉석에서 정성껏 구워내는 고급 한식 화로구이 다이닝입니다. 센 숯불의 복사열로 겉면을 빠르게 시어링하여 풍부한 마블링의 육즙을 가두고, 참숯 특유의 은은한 훈연 향을 입혀 입안 가득 감미로운 육향을 선사합니다.",
+    "sauce_guide": "생와사비, 히말라야 핑크솔트, 숙성 참소스, 특제 쌈장",
+    "sauce_details": "기름진 최고급 소고기에는 미네랄 핑크솔트와 알싸한 생와사비 한 점만 곁들여도 고기 본연의 고소한 육즙이 폭발합니다.",
+    "eating_tips": "소고기는 미디엄 레어로 살짝 구워 소금만 찍어 첫 점을 음미하고, 이어서 생와사비를 얹어 질리지 않고 깔끔하게 즐기세요."
+  },
+  {
+    "index": 75,
+    "slug": "hien-nha-veranda-sunset-town-phu-quoc",
+    "name": "Hiên Nhà Veranda Sunset Town Phú Quốc",
+    "cat": "bars",
+    "subcat": "bar",
+    "current_food_style": "선셋 베란다 오션 테라스 펍 & 로컬 핑거푸드 (Breezy Veranda Ocean Pub)",
+    "current_culture_story": "선셋타운의 황금빛 석양과 바닷바람을 마주하는 아늑한 베란다 테라스 바입니다. 서서히 물드는 노을을 바라보며 시원한 트로피컬 럼 칵테일과 크래프트 생맥주, 바삭하게 튀겨낸 한치와 로컬 감자튀김 등 가벼운 핑거푸드를 곁들여 휴식의 낭만을 만끽할 수 있습니다.",
+    "sauce_guide": "칠리 마요네즈, 스위트 칠리 딥, 생라임 웨지",
+    "sauce_details": "매콤한 스리라차와 부드러운 마요네즈를 배합한 칠리 마요는 바삭한 해산물 튀김의 고소한 맛을 배가합니다.",
+    "eating_tips": "일몰 30분 전 야외 베란다 자리를 잡고, 시원한 칵테일 한 잔을 기울이며 바다 위로 펼쳐지는 환상적인 석양을 감상하세요."
+  },
+  {
+    "index": 76,
+    "slug": "loop-jacuzzi-bar",
+    "name": "Loop Jacuzzi Bar",
+    "cat": "bars",
+    "subcat": "bar",
+    "current_food_style": "루프탑 자쿠지 라운지 & 풀사이드 칵테일 (Rooftop Jacuzzi Lounge)",
+    "current_culture_story": "따뜻한 자쿠지 풀에 몸을 담그고 선셋타운과 바다 전경을 360도로 조망할 수 있는 이색 루프탑 바입니다. 시원한 블루 라군 칵테일과 모히토, 샴페인을 즐기며 환상적인 키스 오브 더 씨 불꽃놀이까지 감상할 수 있는 감각적인 나이트라이프 스팟입니다.",
+    "sauce_guide": "트로피컬 패션프루트 시럽, 민트 모히토 믹스",
+    "sauce_details": "신선한 라임과 애플민트를 빻아 넣은 모히토 베이스는 한낮의 더위를 잊게 하는 청량감을 선사합니다.",
+    "eating_tips": "수영복 차림으로 자쿠지 풀사이드에 기대어 칵테일 잔을 들고, 밤바다 위로 터지는 화려한 불꽃놀이를 즐겨보세요."
+  },
+  {
+    "index": 77,
+    "slug": "mango-mango",
+    "name": "Mango Mango",
+    "cat": "bars",
+    "subcat": "bar",
+    "current_food_style": "비치프론트 망고 칵테일 & 트로피컬 바 (Mango Beach Cocktails)",
+    "current_culture_story": "푸꾸옥의 싱그러운 생망고를 테마로 한 비치프론트 칵테일 바입니다. 황금빛으로 잘 익은 로컬 망고 과육을 듬뿍 갈아 넣은 프로즌 망고 다이키리와 달콤상큼한 망고 모히토는 선셋타운의 활기찬 해변 산책로와 완벽하게 어우러집니다.",
+    "sauce_guide": "생망고 퓨레, 칠리 솔트 림(Chili Salt Rim), 라임 주스",
+    "sauce_details": "잔 테두리에 살짝 묻힌 매콤달콤한 칠리 솔트는 망고의 달콤함을 극대화하고 이국적인 킥을 더합니다.",
+    "eating_tips": "잔 입구의 매콤한 소금과 달콤하고 차가운 프로즌 망고 다이키리를 함께 들이켜 단짠의 황홀한 조화를 즐기세요."
+  },
+  {
+    "index": 78,
+    "slug": "mia-phu-quoc",
+    "name": "Mía Phú Quốc",
+    "cat": "bars",
+    "subcat": "bar",
+    "current_food_style": "사탕수수 크래프트 칵테일 & 비치 라운지 (Artisanal Sugarcane Bar)",
+    "current_culture_story": "베트남의 전통 갈증 해소 음료인 사탕수수 주스(Nước Mía)를 세련된 크래프트 믹솔로지로 재해석한 비치 바입니다. 줄기째 갓 압착한 신선한 사탕수수 즙에 생라임, 깔라만시, 푸꾸옥 로컬 럼주를 블렌딩하여 자연 그대로의 건강한 천연 단맛과 청량함을 선사합니다.",
+    "sauce_guide": "천연 사탕수수 즙, 생라임 과즙, 민트 스프리그",
+    "sauce_details": "인공 당분을 전혀 쓰지 않고 사탕수수 본연의 맑은 단맛과 감귤류의 산미가 만들어내는 청량감이 탁월합니다.",
+    "eating_tips": "주문 즉시 압착 기계에서 짜낸 거품 가득한 신선한 사탕수수 음료를 얼음과 함께 바로 마시는 것이 가장 맛있습니다."
+  },
+  {
+    "index": 79,
+    "slug": "luna-folk",
+    "name": "루나 포크 (Luna Folk - La Festa Hilton 재즈 & 칵테일 바)",
+    "cat": "bars",
+    "subcat": "bar",
+    "current_food_style": "라 페스타 힐튼 아말피풍 재즈 & 칵테일 라운지 (Amalfi Jazz & Mixology)",
+    "current_culture_story": "라 페스타 푸꾸옥 힐튼의 세련된 이탈리아 아말피 감성을 담은 라이브 재즈 & 칵테일 바입니다. 황혼이 깃들면 감미로운 라이브 선율과 함께 리몬첼로를 가미한 시그니처 칵테일, 엄선된 싱글 몰트 위스키와 부티크 와인을 맛보며 품격 있는 밤을 완성합니다.",
+    "sauce_guide": "수제 아말피 리몬첼로, 아로마틱 비터스, 마라스키노 체리",
+    "sauce_details": "상큼하고 쌉싸름한 이탈리아 남부 레몬 리큐어가 스모키한 버번 위스키에 밝고 우아한 생기를 불어넣습니다.",
+    "eating_tips": "소믈리에와 믹솔로지스트가 추천하는 시그니처 칵테일을 주문하고, 재즈 보컬의 라이브 공연에 귀 기울이며 감미로운 밤을 즐겨보세요."
+  },
+  {
+    "index": 80,
+    "slug": "sun-bavaria-gastropub",
+    "name": "선 바바리아 가스트로펍 (Sun Bavaria GastroPub - Sun KraftBeer)",
+    "cat": "bars",
+    "subcat": "bar",
+    "current_food_style": "독일 바이에른 크래프트 브루어리 & 슈바인학센 (Bavarian Brewery & Schweinshaxe)",
+    "current_culture_story": "선셋타운 해안가에서 독일 뮌헨의 전통 맥주 축제 분위기를 구현한 정통 가스트로펍입니다. 1516년 독일 맥주 순수령을 준수하여 홉과 몰트, 효모, 물만으로 현지에서 직접 양조한 선 크래프트비어(Sun KraftBeer)와 겉은 바삭하고 속은 촉촉한 족발 요리 슈바인학센(Schweinshaxe), 수제 소시지를 푸짐하게 즐길 수 있습니다.",
+    "sauce_guide": "디종 머스터드, 맥주 비어 그레이비, 사우어크라우트(절임양배추)",
+    "sauce_details": "새콤하게 발효된 독일 전통 사우어크라우트와 톡 쏘는 머스터드는 학센의 기름진 육즙을 깔끔하게 잡아줍니다.",
+    "eating_tips": "슈바인학센의 바삭한 껍질을 나이프로 썰어 사우어크라우트와 머스터드를 듬뿍 얹어 맛본 뒤, 시원한 500ml 헬레스 라거 생맥주를 들이키며 독일식 축배를 외쳐보세요."
+  },
+  {
+    "index": 81,
+    "slug": "cielo",
+    "name": "씨엘로 루프탑 바 (Cielo Rooftop Bar - La Festa Hilton)",
+    "cat": "bars",
+    "subcat": "bar",
+    "current_food_style": "아말피풍 럭셔리 루프탑 라운지 바 & 믹솔로지 (Amalfi Luxury Rooftop)",
+    "current_culture_story": "라 페스타 푸꾸옥 힐튼의 최고층에 자리하여 선셋타운과 에메랄드빛 바다, 키스브릿지 전체를 파노라마로 내려다보는 최정상 루프탑 라운지 바입니다. 밤마다 펼쳐지는 '키스 오브 더 씨' 미디어 쇼와 불꽃놀이를 칵테일 잔을 기울이며 가장 가까이서 감상할 수 있는 독보적인 나이트라이프 명소입니다.",
+    "sauce_guide": "프로세코 스파클링, 아말피 리몬첼로 시럽, 트로피컬 퓨레",
+    "sauce_details": "이탈리아 베네토산 프로세코의 섬세한 기포와 신선한 복숭아 퓨레가 어우러져 우아한 청량감을 극대화합니다.",
+    "eating_tips": "불꽃놀이 시작 30분 전 야외 오션뷰 테라스 석을 예약하여 시그니처 칵테일과 함께 화려한 야경을 감상하세요."
+  },
+  {
+    "index": 82,
+    "slug": "il-salone-afternoon-tea-lounge-bar",
+    "name": "일 살로네 (iL Salone - La Festa Hilton 애프터눈티 & 라운지 바)",
+    "cat": "bars",
+    "subcat": "bar",
+    "current_food_style": "이탈리안 아말피 애프터눈 티 & 아페리티보 라운지 (Amalfi Afternoon Tea)",
+    "current_culture_story": "고대 이탈리아 살롱의 웅장한 아치형 천장과 클래식한 인테리어를 자랑하는 힐튼 호텔 로비 라운지입니다. 오후에는 은제 트레이에 담겨 나오는 시칠리아 정통 카놀리, 티라미수, 과일 타르트와 프리미엄 블렌딩 티를 즐기고, 해 질 녘에는 네그로니와 아페롤 스프리츠로 시작하는 이탈리안 아페리티보(Aperitivo) 문화를 체험할 수 있습니다.",
+    "sauce_guide": "신선한 리코타 치즈 필링, 피스타치오 크런치, 다크 초콜릿 칩",
+    "sauce_details": "바삭하게 튀겨낸 얇은 쉘 속에 꿀과 오렌지 껍질 향을 가미한 생리코타 치즈 크림이 꽉 차 있어 고급스러운 단맛을 냅니다.",
+    "eating_tips": "카놀리는 손으로 들고 바삭한 쉘과 부드러운 리코타 크림을 한 번에 베어 물어 식감의 대비를 즐기세요. 쌉싸름한 에스프레소나 얼그레이 티와 완벽히 어울립니다."
+  },
+  {
+    "index": 83,
+    "slug": "gion-bar",
+    "name": "지온 바 & 바이츠 키친 (Giòn Bar & Bites Kitchen)",
+    "cat": "bars",
+    "subcat": "bar",
+    "current_food_style": "선셋 오션 테라스 크래프트 칵테일 & 크리스피 바이츠 (Cocktails & Bites)",
+    "current_culture_story": "선셋타운 해안 산책로를 따라 바닷바람이 스치는 활기찬 오픈 테라스 바입니다. 푸꾸옥 특산물인 알싸한 블랙페퍼를 인퓨징한 시그니처 하이볼과 열대 패션후르츠 모히토를 제공하며, 주문 즉시 튀겨내는 바삭바삭한 크리스피 핑거푸드(Giòn은 베트남어로 '바삭하다'는 뜻)를 곁들여 캐주얼한 밤을 만끽할 수 있습니다.",
+    "sauce_guide": "스파이시 타르타르 소스, 스위트 칠리 딥, 생라임 웨지",
+    "sauce_details": "고소한 마요네즈에 피클과 케이퍼, 푸꾸옥 고추를 다져 넣은 타르타르 소스는 바삭한 튀김의 기름기를 산뜻하게 잡아줍니다.",
+    "eating_tips": "선셋 무렵 테라스에 앉아 바삭한 크리스피 한치 튀김을 타르타르 소스에 듬뿍 찍고, 톡 쏘는 푸꾸옥 페퍼 하이볼을 들이켜보세요."
+  },
+  {
+    "index": 84,
+    "slug": "teatro-club-phu-quo-c",
+    "name": "테아트로 클럽 푸꾸옥 (Teatro Club Phú Quốc)",
+    "cat": "bars",
+    "subcat": "bar",
+    "current_food_style": "비치프론트 럭셔리 EDM 클럽 & 시그니처 칵테일 (Beachfront Luxury Club)",
+    "current_culture_story": "선셋타운 해변 바로 앞에 위치한 최고급 비치프론트 EDM 클럽입니다. 세계적인 DJ들의 열정적인 라이브 공연과 최첨단 조명 시스템, 모래사장 위에서 펼쳐지는 화려한 불쇼를 감상하며 프리미엄 샴페인과 시그니처 불꽃 칵테일을 즐기는 푸꾸옥 밤 문화의 최고조를 경험할 수 있습니다.",
+    "sauce_guide": "프리미엄 보드카 & 진 베이스, 트로피컬 패션프루트 시럽",
+    "sauce_details": "신선한 라임과 열대 과일 퓨레가 어우러져 한밤의 뜨거운 비트 속에서도 지치지 않는 청량한 에너지를 제공합니다.",
+    "eating_tips": "자정 무렵 비치 스테이지의 파이어 댄스 퍼포먼스를 관람하며 얼음 가득한 시그니처 칵테일을 손에 들고 비트에 몸을 맡겨보세요."
+  },
+  {
+    "index": 85,
+    "slug": "draft-beer-bai-khem",
+    "name": "드래프트 비어 바이켐",
+    "cat": "bars",
+    "subcat": "beach_pub",
+    "current_food_style": "바이켐 해변 생맥주 & 해산물 바비큐 (Bai Khem Beach Draft Beer)",
+    "current_culture_story": "푸꾸옥 최고의 백사장으로 꼽히는 바이켐(Bãi Khem)의 에메랄드빛 바다 바로 앞에서 시원한 얼음 생맥주를 즐길 수 있는 비치 펍입니다. 하얀 모래사장 위 파라솔 아래에서 갓 구워낸 타이거새우와 오징어 버터구이를 곁들이며 여유로운 해변 피크닉을 즐기기에 안성맞춤입니다.",
+    "sauce_guide": "푸꾸옥 초록 고추 소금장(Muối ớt xanh), 칠리 사테 오일, 생라임",
+    "sauce_details": "달콤짭조름하고 매콤한 녹색 고추 소금장은 숯불에 구운 통통한 새우 살과 환상의 궁합을 이룹니다.",
+    "eating_tips": "바다 수영을 마친 후 모래사장에 발을 묻고 차가운 비어 타워에서 따른 생맥주를 들이켜며 갓 구운 해산물 안주를 곁들이세요."
+  },
+  {
+    "index": 86,
+    "slug": "istanbul-beach-club-phu-quoc",
+    "name": "이스탄불 비치클럽 푸꾸옥",
+    "cat": "bars",
+    "subcat": "beach-club",
+    "current_food_style": "지중해 터키풍 비치 라운지 & 시샤 칵테일 (Turkish Mediterranean Beach Club)",
+    "current_culture_story": "바이켐 해변의 파도 소리와 함께 이스탄불 오리엔탈 감성을 만끽할 수 있는 이국적인 비치 라운지입니다. 터키 전통 물담배(시샤)와 트로피컬 칵테일, 신선한 후무스와 차지키를 곁들인 도네르 케밥 플래터를 안락한 해변 카바나에서 즐길 수 있습니다.",
+    "sauce_guide": "터키식 갈릭 요거트 차지키, 매콤 토마토 에즈메(Ezme)",
+    "sauce_details": "신선한 요거트에 간 마늘과 민트를 넣은 전통 소스는 바다의 열기를 식히고 고기 요리를 담백하게 감싸줍니다.",
+    "eating_tips": "해변 카바나 빈백에 기대어 향긋한 시샤 연기를 음미하며, 시원한 칵테일과 따뜻한 피타 브레드 랩을 여유롭게 맛보세요."
+  },
+  {
+    "index": 87,
+    "slug": "kaisun-restaurant-and-bar",
+    "name": "카이선 레스토랑 & 바",
+    "cat": "bars",
+    "subcat": "beach_pub",
+    "current_food_style": "바이켐 백사장 랍스터 그릴 & 트로피컬 비치 바 (White Sand Seafood & Bar)",
+    "current_culture_story": "부드러운 바이켐 백사장에 발을 딛고 신선한 랍스터와 해산물 바비큐를 맛볼 수 있는 비치프론트 레스토랑 & 바입니다. 푸꾸옥 근해에서 갓 잡아 올린 통통한 랍스터에 고소한 갈릭 버터를 발라 숯불에 노릇하게 구워내며, 화려한 열대 과일 칵테일과 함께 낭만적인 휴양지의 식사를 완성합니다.",
+    "sauce_guide": "갈릭 버터 소스, 무이띠에우짜인(소금·후추·라임), 칠리 살사",
+    "sauce_details": "진한 버터 향과 알싸한 마늘이 랍스터의 달콤하고 탄력 있는 살에 배어들어 깊은 감칠맛을 냅니다.",
+    "eating_tips": "나이프로 랍스터 꼬리 살을 큼직하게 발라내어 마늘 버터 즙에 듬뿍 적신 뒤 라임즙을 살짝 뿌려 드세요."
+  },
+  {
+    "index": 88,
+    "slug": "the-deck-phu-quoc",
+    "name": "더 덱 푸꾸옥 (키친 & 비치바)",
+    "cat": "bars",
+    "subcat": "beach-bar",
+    "current_food_style": "하이엔드 비치프론트 덱 버거 & 선셋 라운지 (Artisanal Beach Deck)",
+    "current_culture_story": "바이켐 해변의 파노라마 오션뷰를 감상할 수 있는 감각적인 비치 덱 라운지입니다. 숯불에 직화로 구워 육즙이 뚝뚝 떨어지는 두툼한 수제 비프 패티와 녹아내린 치즈를 얹은 시그니처 비치 버거, 신선한 트로피컬 패션프루트 모히토를 즐기며 여유로운 비치 라이프를 만끽할 수 있습니다.",
+    "sauce_guide": "스모키 바비큐 아이올리, 트로피컬 칠리 렐리시, 감자튀김 트러플 마요",
+    "sauce_details": "깊은 스모키 풍미의 수제 아이올리 소스는 겉을 바삭하게 구운 브리오슈 번과 두툼한 패티의 고소함을 완벽히 조화시킵니다.",
+    "eating_tips": "버거를 양손으로 쥐고 한입 가득 베어 물어 흘러나오는 육즙과 치즈의 풍미를 맛본 뒤, 시원한 코코넛 모히토로 상쾌함을 더하세요."
+  }
+]

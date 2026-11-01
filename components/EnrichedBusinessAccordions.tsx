@@ -95,12 +95,33 @@ export function EnrichedBusinessAccordions({
     return isKo ? `사진 ${index + 1}` : `Photo ${index + 1}`
   }
 
-  // 문화 가이드 텍스트
-  const foodStyle = cultureGuide?.food_style?.[locale] || cultureGuide?.food_style?.ko || ''
-  const cultureStory = cultureGuide?.culture_story?.[locale] || cultureGuide?.culture_story?.ko || ''
-  const sauceGuideTitle = cultureGuide?.sauce_guide?.[locale] || cultureGuide?.sauce_guide?.ko || ''
-  const sauceDetails = cultureGuide?.sauce_details?.[locale] || cultureGuide?.sauce_details?.ko || ''
-  const eatingTips = cultureGuide?.eating_tips || []
+  // 문화 가이드 텍스트 (다국어 지원: locale이 ko면 최상위 필드, 그 외는 translations[locale] 우선)
+  const locGuide = locale === 'ko'
+    ? cultureGuide
+    : (cultureGuide?.translations?.[locale] || cultureGuide)
+
+  const foodStyle =
+    (typeof locGuide?.food_style === 'string'
+      ? locGuide.food_style
+      : locGuide?.food_style?.[locale] || cultureGuide?.food_style?.ko || cultureGuide?.food_style) || ''
+
+  const cultureStory =
+    (typeof locGuide?.culture_story === 'string'
+      ? locGuide.culture_story
+      : locGuide?.culture_story?.[locale] || cultureGuide?.culture_story?.ko || cultureGuide?.culture_story) || ''
+
+  const sauceGuideTitle =
+    (typeof locGuide?.sauce_guide === 'string'
+      ? locGuide.sauce_guide
+      : locGuide?.sauce_guide?.[locale] || cultureGuide?.sauce_guide?.ko || cultureGuide?.sauce_guide) || ''
+
+  const sauceDetails =
+    (typeof locGuide?.sauce_details === 'string'
+      ? locGuide.sauce_details
+      : locGuide?.sauce_details?.[locale] || cultureGuide?.sauce_details?.ko || cultureGuide?.sauce_details) || ''
+
+  const rawEatingTips = locGuide?.eating_tips || cultureGuide?.eating_tips || []
+  const eatingTips = typeof rawEatingTips === 'string' ? [{ desc_ko: rawEatingTips, desc_en: rawEatingTips }] : rawEatingTips
 
   // 수정 1 & 수정 2: 고객용 메뉴 요약줄 계산 (Grade 문자열 완전 제거)
   const getMenuSummaryText = () => {
