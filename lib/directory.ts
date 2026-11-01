@@ -283,12 +283,14 @@ export const DIRECTORY_CATEGORIES: Record<DirectoryCategory, CategoryDef & {labe
 export const DIRECTORY_CATEGORY_KEYS = Object.keys(CATEGORY_DEFS) as DirectoryCategory[]
 
 export function isDirectoryCategory(value: string): value is DirectoryCategory {
-  if (value === 'beach') return true
+  if (value === 'beach' || value === 'hotel' || value === 'bar') return true
   return DIRECTORY_CATEGORY_KEYS.includes(value as DirectoryCategory)
 }
 
 export function normalizeDirectoryCategory(value: string): DirectoryCategory {
   if (value === 'beach') return 'beaches'
+  if (value === 'hotel') return 'hotels'
+  if (value === 'bar') return 'bars'
   if (isDirectoryCategory(value)) return value
   return 'dining'
 }
