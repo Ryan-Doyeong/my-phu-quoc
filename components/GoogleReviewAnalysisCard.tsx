@@ -141,6 +141,56 @@ export function GoogleReviewAnalysisCard({
         </div>
       </div>
 
+      {/* Real Visitor Review Snippets from Google Maps */}
+      {analysis.sampleReviews && analysis.sampleReviews.length > 0 && (
+        <div
+          style={{
+            marginTop: '16px',
+            padding: '14px 16px',
+            borderRadius: '10px',
+            backgroundColor: '#f8fafc',
+            border: '1px solid #e2e8f0',
+          }}
+        >
+          <h4
+            style={{
+              margin: '0 0 8px 0',
+              fontSize: '13px',
+              fontWeight: 700,
+              color: '#0f172a',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
+            }}
+          >
+            <span aria-hidden="true">💬</span>
+            <span>
+              {isKo
+                ? '구글맵 실제 방문자 리뷰 발췌'
+                : isVi
+                ? 'Trích dẫn đánh giá thực tế trên Google Maps'
+                : 'Verified Visitor Review Excerpts'}
+            </span>
+          </h4>
+          <ul
+            style={{
+              margin: 0,
+              paddingLeft: '18px',
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '6px',
+              fontSize: '13px',
+              lineHeight: 1.55,
+              color: '#334155',
+            }}
+          >
+            {analysis.sampleReviews.slice(0, 3).map((quote, qIdx) => (
+              <li key={qIdx}>“{quote}”</li>
+            ))}
+          </ul>
+        </div>
+      )}
+
       {/* Footer link to live google maps */}
       <div className="reviewFooterAction">
         <small>

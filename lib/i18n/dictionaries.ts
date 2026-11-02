@@ -58,7 +58,7 @@ export function translateBadge(badge: string, locale: Locale = 'en'): string {
   return BADGE_MAP[key]?.[locale] || badge
 }
 
-const PHOTO_BADGES: Record<'illustration' | 'official' | 'representative', { en: string } & LocalizedText> = {
+const PHOTO_BADGES: Record<'illustration' | 'official' | 'google_maps' | 'representative', { en: string } & LocalizedText> = {
   illustration: {
     en: 'Representative illustration',
     vi: 'Hình minh họa đại diện',
@@ -76,6 +76,15 @@ const PHOTO_BADGES: Record<'illustration' | 'official' | 'representative', { en:
     ru: 'Фото: официальный сайт',
     ko: '사진 출처: 공식 웹사이트',
     ja: '写真：公式サイト',
+  },
+  google_maps: {
+    en: 'Photo: Google Maps',
+    vi: 'Ảnh: Google Maps',
+    hi: 'फ़ोटो: Google Maps',
+    zh: '图片来源：Google Maps',
+    ru: 'Фото: Google Maps',
+    ko: '사진 출처: 구글맵',
+    ja: '写真：Google マップ',
   },
   representative: {
     en: 'Representative photo',
@@ -99,6 +108,7 @@ export function getPhotoBadgeText(mediaNote: string | null, locale: Locale = 'en
     (mediaNote && /illustrat/i.test(mediaNote)) ||
     (img && (img.includes('/beauty__') || img.includes('/services__') || img.includes('/market__')))
   if (isIllustrative) return pickBadge('illustration', locale)
+  if (mediaNote && /google\s*maps|구글맵/i.test(mediaNote)) return pickBadge('google_maps', locale)
   if (mediaNote?.startsWith('Image source:')) return pickBadge('official', locale)
   if (!mediaNote) return null
   return pickBadge('representative', locale)

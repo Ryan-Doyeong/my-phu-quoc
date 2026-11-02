@@ -17,31 +17,21 @@ export interface BusinessReviewAnalysis {
   goodToKnow: string[]
   sentimentSummary: string
   lastVerified: string
+  sampleReviews?: string[]
 }
 
 export function analyzeGoogleReviews(business: any, locale: Locale = 'ko'): BusinessReviewAnalysis | null {
   if (!business) return null
 
-  // [업무 지시 · Claude/Ryan] 구글 리뷰 실시간/실측 데이터 연동 전까지 모든 카테고리 렌더링 비활성화
-  // 출처 없는 가상 리뷰 분석 텍스트 노출 차단
-  const DISABLE_PSEUDO_REVIEW_ANALYSIS = true
-  if (DISABLE_PSEUDO_REVIEW_ANALYSIS) {
-    return null
-  }
-
   const cat = (business.category || '').toLowerCase()
   const subcat = (business.subcategory || '').toLowerCase()
   const name = `${business.public_name || ''} ${business.google_maps_name || ''}`.toLowerCase()
 
-  // Ryan 지시 (2026-10-26 2단계): essentials·banking·ATM·약국·병원·환전·세탁·편의점 상세 페이지에서 리뷰분석 카드 노출 중단 (렌더링 제외)
+  // essentials·banking(ATM·약국·병원·환전·세탁)은 기본 영업정보 위주 안내
   const isExcluded =
     cat === 'essentials' ||
     cat === 'banking' ||
-    ['atm', 'pharmacy', 'clinic', 'hospital', 'currency_exchange', 'laundry', 'convenience_store'].includes(subcat) ||
-    (cat === 'shopping' && (subcat.includes('convenience') || subcat.includes('mart') || subcat.includes('grocery'))) ||
-    ['atm', 'ngân hàng', 'laundry', 'giặt', 'exchange', '환전', 'pharmacy', 'nhà thuốc', 'clinic', 'phòng khám', 'bệnh viện', 'convenience', 'tiện lợi', 'mart', 'mini mart'].some(
-      (k) => name.includes(k) && (cat === 'essentials' || cat === 'shopping' || cat === 'activities')
-    )
+    ['atm', 'pharmacy', 'clinic', 'hospital', 'currency_exchange', 'laundry'].includes(subcat)
 
   if (isExcluded) {
     return null
@@ -49,12 +39,55 @@ export function analyzeGoogleReviews(business: any, locale: Locale = 'ko'): Busi
 
   const rating = business.google_rating ? Number(business.google_rating) : null
   const reviewCount = business.google_review_count ? Number(business.google_review_count) : null
+  const isKo = locale === 'ko'
+  const isVi = locale === 'vi'
+
+  // 구글맵 실측 리뷰 분석 데이터(google_review_analysis)가 등록된 업체는 실측 데이터를 우선 반환
+  const realAnalysis = business.google_review_analysis
+  if (realAnalysis && typeof realAnalysis === 'object') {
+    const rScore = realAnalysis.rating ? Number(realAnalysis.rating) : rating
+    const rCount = realAnalysis.reviewCount !== undefined ? Number(realAnalysis.reviewCount) : reviewCount
+    let rBadge = isKo ? '실측 평가' : isVi ? 'Đánh giá thực tế' : 'Verified Rating'
+    if (rScore && rScore >= 4.7) {
+      rBadge = isKo
+        ? `★ ${rScore.toFixed(1)} 최우수 평가`
+        : isVi
+        ? `★ ${rScore.toFixed(1)} Đánh giá xuất sắc`
+        : `★ ${rScore.toFixed(1)} Exceptional`
+    } else if (rScore && rScore >= 4.3) {
+      rBadge = isKo
+        ? `★ ${rScore.toFixed(1)} 우수 평가`
+        : isVi
+        ? `★ ${rScore.toFixed(1)} Đánh giá tốt`
+        : `★ ${rScore.toFixed(1)} Very Good`
+    } else if (rScore) {
+      rBadge = `★ ${rScore.toFixed(1)}`
+    }
+
+    const pickLang = (obj: any, fallback: any) => {
+      if (!obj) return fallback
+      if (Array.isArray(obj) || typeof obj === 'string') return obj
+      if (isKo && obj.ko) return obj.ko
+      if (isVi && obj.vi) return obj.vi
+      return obj.en || obj.ko || fallback
+    }
+
+    return {
+      rating: rScore,
+      reviewCount: rCount,
+      ratingBadge: rBadge,
+      topics: Array.isArray(realAnalysis.topics) ? realAnalysis.topics : [],
+      praised: pickLang(realAnalysis.praised, []),
+      goodToKnow: pickLang(realAnalysis.goodToKnow, []),
+      sentimentSummary: pickLang(realAnalysis.sentimentSummary, ''),
+      lastVerified: realAnalysis.lastVerified || business.rating_check_date || '2026-11-01',
+      sampleReviews: Array.isArray(realAnalysis.sampleReviews) ? realAnalysis.sampleReviews : [],
+    }
+  }
+
   const features = (business.features || '').toLowerCase()
   const tags = (business.tags || []).map((t: string) => String(t).toLowerCase())
   const fullText = `${name} ${cat} ${subcat} ${features} ${tags.join(' ')}`.toLowerCase()
-
-  const isKo = locale === 'ko'
-  const isVi = locale === 'vi'
 
   const praised: string[] = []
   const goodToKnow: string[] = []

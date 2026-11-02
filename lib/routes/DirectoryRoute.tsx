@@ -145,10 +145,17 @@ export async function renderDirectoryRoute(
     if (!reg) return b
     return {
       ...b,
+      status: reg.status ?? b.status,
+      public_name: reg.public_name ?? b.public_name,
       lat: reg.lat ?? b.lat,
       lng: reg.lng ?? b.lng,
       google_place_id: reg.google_place_id ?? b.google_place_id,
       google_maps_name: reg.google_maps_name ?? b.google_maps_name,
+      google_rating: reg.google_rating ?? b.google_rating,
+      google_review_count: reg.google_review_count ?? b.google_review_count,
+      rating_check_date: reg.rating_check_date ?? b.rating_check_date,
+      google_review_analysis: reg.google_review_analysis ?? b.google_review_analysis,
+      services: reg.services ?? b.services,
       gallery_urls:
         Array.isArray(reg.gallery_urls) && reg.gallery_urls.length > 0
           ? reg.gallery_urls
