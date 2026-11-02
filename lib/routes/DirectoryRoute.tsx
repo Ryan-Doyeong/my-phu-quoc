@@ -90,7 +90,6 @@ export async function renderDirectoryRoute(
       .from('businesses')
       .select('*')
       .eq('status', 'published')
-      .eq('category', category)
       .order('google_review_count', { ascending: false, nullsFirst: false }),
     supabase.from('site_settings').select('value').eq('key', 'directory_categories').maybeSingle(),
   ])
@@ -146,7 +145,11 @@ export async function renderDirectoryRoute(
         ...b,
         status: reg.status ?? b.status,
         category: reg.category ?? b.category,
+        subcategory: reg.subcategory ?? b.subcategory,
         public_name: reg.public_name ?? b.public_name,
+        description_ko: reg.description_ko ?? b.description_ko,
+        description_en: reg.description_en ?? b.description_en,
+        tags: reg.tags ?? b.tags,
         lat: reg.lat ?? b.lat,
         lng: reg.lng ?? b.lng,
         google_place_id: reg.google_place_id ?? b.google_place_id,

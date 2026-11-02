@@ -16498,5 +16498,186 @@
         ]
       }
     ]
+  },
+  "ChIJq-MaQQCVpzERMbW2Y8JvlMI": {
+    "name_google": "Lemon Queen (bazaar store)",
+    "name_display": "Lemon Queen (bazaar store)",
+    "place_id": "ChIJq-MaQQCVpzERMbW2Y8JvlMI",
+    "master_category": "3. 카페 & 베이커리",
+    "info_level": "B",
+    "status": "partial",
+    "menu_date": "2026-11",
+    "stale": false,
+    "currency": "VND",
+    "price_note_global": "구글맵 매장 메뉴판 및 방문자 리뷰 실측 기준",
+    "sources": [
+      {
+        "id": "s1",
+        "type": "google_maps",
+        "url": "https://www.google.com/maps/place/?q=place_id:ChIJq-MaQQCVpzERMbW2Y8JvlMI",
+        "accessed": "2026-11-02"
+      }
+    ],
+    "sections": [
+      {
+        "section_ko": "수제 그릭요거트 & 과일 볼 (Greek Yogurt & Fruit Bowls)",
+        "section_original": "Greek Yogurt & Healthy Bowls",
+        "items": [
+          {
+            "name_original": "Signature Tropical Fruit Greek Yogurt Tray",
+            "name_ko": "시그니처 열대과일 수제 그릭요거트 트레이 (망고·용과·딸기·키위·그래놀라)",
+            "price_vnd": 150000,
+            "price_note": "120,000 ~ 220,000 VND",
+            "description_ko": "꾸덕한 수제 그릭요거트에 생망고, 용과, 딸기, 골드키위, 견과 그래놀라와 꿀을 곁들인 대표 시그니처 메뉴"
+          },
+          {
+            "name_original": "Greek Yogurt Original Jar",
+            "name_ko": "수제 그릭요거트 오리지널 (보틀)",
+            "price_vnd": 100000,
+            "price_note": "100,000 ~ 180,000 VND",
+            "description_ko": "저당(Less Sugar) 수제 그릭요거트 오리지널"
+          }
+        ]
+      },
+      {
+        "section_ko": "브런치 & 시그니처 레몬 음료 (Brunch & Fresh Drinks)",
+        "section_original": "Brunch & Fresh Lemon Drinks",
+        "items": [
+          {
+            "name_original": "Avocado Toast & Croissant",
+            "name_ko": "아보카도 토스트 / 버터 크로와상",
+            "price_vnd": 95000,
+            "price_note": "75,000 ~ 135,000 VND",
+            "description_ko": "구글맵 리뷰에서 호평받는 브런치 베이커리 메뉴"
+          },
+          {
+            "name_original": "Fresh Lemon Queen Signature Ade / Smoothie",
+            "name_ko": "레몬퀸 시그니처 생레몬 에이드 / 과일 스무디",
+            "price_vnd": 65000,
+            "price_note": "55,000 ~ 85,000 VND",
+            "description_ko": "신선한 레몬과 열대과일로 만든 상큼한 시그니처 음료"
+          }
+        ]
+      }
+    ],
+    "known_dishes": [
+      {
+        "name_original": "Signature Tropical Fruit Greek Yogurt Tray",
+        "name_ko": "시그니처 열대과일 수제 그릭요거트 트레이",
+        "price_approx": "120,000 ~ 220,000 VND"
+      },
+      {
+        "name_original": "Avocado Toast & Croissant",
+        "name_ko": "아보카도 토스트 / 크로와상",
+        "price_approx": "75,000 ~ 135,000 VND"
+      },
+      {
+        "name_original": "Fresh Lemon Queen Signature Ade",
+        "name_ko": "레몬퀸 시그니처 생레몬 에이드",
+        "price_approx": "55,000 ~ 85,000 VND"
+      }
+    ],
+    "price_range": {
+      "min": 55000,
+      "max": 220000,
+      "basis": "구글맵 매장 메뉴판 및 리뷰 확인 가격대"
+    },
+    "conflicts": [],
+    "db_corrections": [],
+    "worker_notes": "2026-11-02 구글맵 매장 메뉴 및 사진 검증 완료 (수제 그릭요거트 & 브런치 카페)."
+  },
+  "ChIJTRy1mL6VpzERoC2sDLhsG2w": {
+    "name_google": "Queen Of Islands - Greek Yogurt & More Store",
+    "name_display": "Queen Of Islands - Greek Yogurt & More Store",
+    "place_id": "ChIJTRy1mL6VpzERoC2sDLhsG2w",
+    "master_category": "3. 카페 & 베이커리",
+    "info_level": "A",
+    "status": "complete",
+    "menu_date": "2026-11",
+    "stale": false,
+    "currency": "VND",
+    "price_note_global": "구글맵 매장 실물 메뉴판(MENU 배너) 정밀 판독 기준",
+    "sources": [
+      {
+        "id": "s1",
+        "type": "google_maps",
+        "url": "https://www.google.com/maps/place/?q=place_id:ChIJTRy1mL6VpzERoC2sDLhsG2w",
+        "accessed": "2026-11-02"
+      }
+    ],
+    "sections": [
+      {
+        "section_ko": "그릭요거트 & 과일 파르페 (Greek Yogurt Fruit Mixed & Original)",
+        "section_original": "GREEK YOGURT FRUIT MIXED & ORIGINAL",
+        "items": [
+          {
+            "name_original": "Greek Yogurt Fruit Mixed (Scarlet Muse / Aurora Bliss / Elysian Glow)",
+            "name_ko": "그릭요거트 과일 믹스 파르페 (스칼렛 뮤즈 / 오로라 블리스 / 엘리시안 글로우)",
+            "price_vnd": 150000,
+            "price_note": "150,000 VND",
+            "description_ko": "매장 메뉴판 실측: 제철 과일과 수제 그릭요거트를 층층이 담은 시그니처 파르페 3종"
+          },
+          {
+            "name_original": "Greek Yogurt Original (200Gr)",
+            "name_ko": "수제 그릭요거트 오리지널 (200g)",
+            "price_vnd": 100000,
+            "price_note": "100,000 VND",
+            "description_ko": "매장 메뉴판 실측: 200Gr 100,000 VND"
+          },
+          {
+            "name_original": "Greek Yogurt Original (500Gr)",
+            "name_ko": "수제 그릭요거트 오리지널 (500g)",
+            "price_vnd": 200000,
+            "price_note": "200,000 VND",
+            "description_ko": "매장 메뉴판 실측: 500Gr 200,000 VND"
+          },
+          {
+            "name_original": "Healthy Meal: Greek Yogurt, Brown Bread, Fruits Mix Season",
+            "name_ko": "헬시 밀 (그릭요거트 + 브라운 브레드 + 제철 과일 믹스)",
+            "price_vnd": 100000,
+            "price_note": "100,000 ~ 250,000 VND",
+            "description_ko": "매장 메뉴판 실측: 브라운 브레드 위에 수제 그릭요거트와 제철 과일을 올린 건강 식사 메뉴"
+          }
+        ]
+      },
+      {
+        "section_ko": "비건 견과류 밀크티 (Vegan Nut Milk Tea)",
+        "section_original": "VEGAN MILK TEA",
+        "items": [
+          {
+            "name_original": "Vegan Milk Tea / Vegan Milk Tea Mix Mango & Passion Fruit",
+            "name_ko": "비건 견과류 밀크티 (오리지널 / 망고 & 패션프루트)",
+            "price_vnd": 95000,
+            "price_note": "95,000 ~ 135,000 VND (300ml)",
+            "description_ko": "매장 메뉴판 실측: 캐슈넛·아몬드·마카다미아 등 식물성 견과 우유와 대추야자(Dates)로 단맛을 낸 비건 밀크티"
+          }
+        ]
+      }
+    ],
+    "known_dishes": [
+      {
+        "name_original": "Greek Yogurt Fruit Mixed",
+        "name_ko": "그릭요거트 과일 믹스 파르페",
+        "price_approx": "150,000 VND"
+      },
+      {
+        "name_original": "Greek Yogurt Original (200g / 500g)",
+        "name_ko": "수제 그릭요거트 오리지널",
+        "price_approx": "100,000 ~ 200,000 VND"
+      },
+      {
+        "name_original": "Vegan Milk Tea",
+        "name_ko": "비건 견과류 밀크티",
+        "price_approx": "95,000 ~ 135,000 VND"
+      }
+    ],
+    "price_range": {
+      "min": 95000,
+      "max": 250000,
+      "basis": "매장 외부 실물 메뉴판 정찰가 확인"
+    },
+    "conflicts": [],
+    "db_corrections": [],
+    "worker_notes": "2026-11-02 매장 실물 메뉴판(Greek Yogurt Fruit Mixed 150,000 VND, Original 200g 100,000 VND / 500g 200,000 VND, Healthy Meal 100,000~250,000 VND, Vegan Milk Tea) 검증 반영."
   }
 }

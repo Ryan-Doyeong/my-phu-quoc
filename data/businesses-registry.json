@@ -12555,7 +12555,9 @@
     "gallery_urls": [
       "/covers-photo/tony-mart-cn3-sieu-thi-tien-ich-24h-1.webp",
       "/covers-photo/tony-mart-cn3-sieu-thi-tien-ich-24h-2.webp",
-      "/covers-photo/tony-mart-cn3-sieu-thi-tien-ich-24h-3.webp"
+      "/covers-photo/tony-mart-cn3-sieu-thi-tien-ich-24h-3.webp",
+      "/covers-photo/tony-mart-cn3-sieu-thi-tien-ich-24h-4.webp",
+      "/covers-photo/tony-mart-cn3-sieu-thi-tien-ich-24h-5.webp"
     ],
     "tags": [
       "convenience_store",
@@ -12625,6 +12627,16 @@
       },
       {
         "image_url": "/covers-photo/tony-mart-cn3-sieu-thi-tien-ich-24h-3.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJ--rCzyWVpzERa9vsKRhIrxk"
+      },
+      {
+        "image_url": "/covers-photo/tony-mart-cn3-sieu-thi-tien-ich-24h-4.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJ--rCzyWVpzERa9vsKRhIrxk"
+      },
+      {
+        "image_url": "/covers-photo/tony-mart-cn3-sieu-thi-tien-ich-24h-5.webp",
         "credit_text": "Google Maps",
         "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJ--rCzyWVpzERa9vsKRhIrxk"
       }
@@ -12779,11 +12791,11 @@
     "id": "local-sunset-186",
     "public_name": "Queen Of Islands - Greek Yogurt & More Store",
     "slug": "queen-of-islands-greek-yogurt-more-store",
-    "category": "shopping",
-    "subcategory": "convenience_store",
+    "category": "bars",
+    "subcategory": "cafe",
     "google_place_id": "ChIJTRy1mL6VpzERoC2sDLhsG2w",
-    "description_en": "Queen Of Islands - Greek Yogurt & More Store is a convenience store & market located in Sunset Town, Phu Quoc.",
-    "description_ko": "여행자 생필품 및 간식·기념품 구매처 • [주요 취급 품목] 생수, 맥주·음료, 컵라면·스낵, 열대과일, 일회용품, 푸꾸옥 특산품(후추·땅콩·커피) 및 기념품.",
+    "description_en": "Queen Of Islands - Greek Yogurt & More Store is a specialty handmade Greek yogurt, fruit parfait, and vegan nut milk tea cafe in Sunset Town, Phu Quoc.",
+    "description_ko": "선셋타운 수제 그릭요거트 & 비건 너트 밀크티 디저트 카페 • [대표 메뉴] 오리지널·과일 믹스 수제 그릭요거트(Scarlet Muse, Aurora Bliss, Elysian Glow), 비건 견과류 밀크티(Vegan Milk Tea), 브라운 브레드 헬시 밀.",
     "address": "P02 Night Market, VuiFest Bazaar, Sunset Town, Phú Quốc, An Giang 91000, Vietnam",
     "google_maps_name": "Queen Of Islands - Greek Yogurt & More Store",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJTRy1mL6VpzERoC2sDLhsG2w",
@@ -12799,10 +12811,13 @@
       "/covers-photo/queen-of-islands-greek-yogurt-more-store-1.webp",
       "/covers-photo/queen-of-islands-greek-yogurt-more-store-2.webp",
       "/covers-photo/queen-of-islands-greek-yogurt-more-store-3.webp",
-      "/covers-photo/queen-of-islands-greek-yogurt-more-store-4.webp"
+      "/covers-photo/queen-of-islands-greek-yogurt-more-store-4.webp",
+      "/covers-photo/queen-of-islands-greek-yogurt-more-store-5.webp"
     ],
     "tags": [
-      "convenience_store",
+      "Cafe",
+      "Dessert Cafe",
+      "Greek Yogurt",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
@@ -12814,44 +12829,52 @@
     "google_review_analysis": {
       "rating": 5.0,
       "reviewCount": 405,
-      "lastVerified": "2026-11-01",
+      "lastVerified": "2026-11-02",
       "topics": [
-        "convenience_store",
-        "Sunset Town"
+        "디저트 (9)",
+        "식물성 밀크 (4)",
+        "건강 (4)",
+        "밀크티 (3)",
+        "견과 (2)"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 405건(평점 ★5.0) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
-          "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
+          "구글맵 실측 리뷰 405건(평점 ★5.0 만점)에서 수제 그릭요거트 파르페와 비건 견과류 밀크티의 깊고 건강한 맛이 극찬받고 있습니다.",
+          "방문객에게 친절하게 시식을 제공하고 메뉴를 상세히 안내해 주는 사장님과 직원의 서비스가 인상적입니다.",
+          "유리병에 담긴 감각적인 플레이팅과 캔들·플라워 테이블 세팅으로 매장 분위기가 아늑하고 예쁩니다."
         ],
         "en": [
-          "Verified venue with 405 Google Maps reviews (★5.0) in Sunset Town & Khem Beach.",
-          "Conveniently accessible along main traveler routes with consistent visitor satisfaction."
+          "Rated a perfect ★5.0 across 405 Google Maps reviews for artisan Greek yogurt fruit parfaits and rich vegan nut milk teas.",
+          "Visitors consistently praise the warm hospitality and complimentary tastings offered by the owner.",
+          "Charming candlelit presentation and glass-jar packaging make it a standout healthy dessert stop in Sunset Town."
         ],
         "vi": [
-          "Địa điểm đã xác thực với 405 đánh giá Google Maps (★5.0) tại Sunset Town & Bãi Khem.",
-          "Vị trí thuận tiện trên trục di chuyển chính của du khách, mức độ hài lòng ổn định."
+          "Đạt điểm tuyệt đối ★5.0 qua 405 đánh giá trên Google Maps nhờ sữa chua Hy Lạp микs trái cây và trà sữa hạt thuần chay thơm ngon, tốt cho sức khỏe.",
+          "Chủ quán thân thiện, nhiệt tình mời khách dùng thử trước khi chọn món.",
+          "Không gian bày trí nến và hoa ấm cúng, hũ thủy tinh xinh xắn rất được du khách yêu thích."
         ]
       },
       "goodToKnow": {
         "ko": [
-          "방문 전 구글맵 최신 영업시간과 피크 시간대 혼잡도를 확인하시기 바랍니다."
+          "수제 소량 생산 방식으로 운영되어 저녁 늦은 시간에는 인기 플레이버가 조기 소진될 수 있습니다."
         ],
         "en": [
-          "Check current operating hours and peak visiting times on Google Maps before heading out."
+          "Crafted in small batches daily; popular yogurt flavors and vegan milk teas may sell out late in the evening."
         ],
         "vi": [
-          "Vui lòng kiểm tra giờ mở cửa hiện tại trên Google Maps trước khi ghé thăm."
+          "Sản phẩm làm thủ công theo mẻ nhỏ mỗi ngày nên các vị bán chạy có thể hết sớm vào cuối buổi tối."
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★5.0점(방문자 리뷰 405개)을 기록 중이며, 실제 방문객 리뷰에서 'convenience_store, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
-        "en": "Rated ★5.0 across 405 verified Google Maps reviews, frequently highlighted for convenience_store, Sunset Town.",
-        "vi": "Đạt ★5.0 trên 405 đánh giá thực tế Google Maps, nổi bật với convenience_store, Sunset Town."
+        "ko": "구글맵 실측 평점 ★5.0점(방문자 리뷰 405개)을 기록 중이며, 실제 방문객 리뷰에서 '수제 그릭요거트, 비건 견과류 밀크티, 친절한 시식 서비스' 등이 주요 강점으로 꼽힙니다.",
+        "en": "Rated ★5.0 across 405 verified Google Maps reviews, frequently highlighted for artisan Greek yogurt, vegan nut milk tea, and warm hospitality.",
+        "vi": "Đạt ★5.0 trên 405 đánh giá thực tế Google Maps, nổi bật với sữa chua Hy Lạp thủ công, trà sữa hạt thuần chay và dịch vụ chu đáo."
       },
       "sampleReviews": [
-        "너무너무 맛있어요 남부에있는 이틀동만 매일 와서 사먹는중이예요",
-        "새로운 맛이에요. 사장님이 예쁘고 친절해요."
+        "너무너무 맛있어요 남부에있는 이틀동안 매일 와서 사먹는중이예요",
+        "새로운 맛이에요. 사장님이 예쁘고 친절해요.",
+        "사장님 이쁘고 친절하고 무료로 먹게 해주셔서 좋앗어요! 맛이 신기하고 좋앗습니다",
+        "완전 건강한 맛! 맛있는 밀크티입니다. 엄청 맛있어요!!!!!"
       ]
     },
     "media_note": "Google Maps",
@@ -12874,6 +12897,11 @@
       },
       {
         "image_url": "/covers-photo/queen-of-islands-greek-yogurt-more-store-4.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJTRy1mL6VpzERoC2sDLhsG2w"
+      },
+      {
+        "image_url": "/covers-photo/queen-of-islands-greek-yogurt-more-store-5.webp",
         "credit_text": "Google Maps",
         "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJTRy1mL6VpzERoC2sDLhsG2w"
       }
@@ -13073,7 +13101,8 @@
       "/covers-photo/ssmart-24h-1.webp",
       "/covers-photo/ssmart-24h-2.webp",
       "/covers-photo/ssmart-24h-3.webp",
-      "/covers-photo/ssmart-24h-4.webp"
+      "/covers-photo/ssmart-24h-4.webp",
+      "/covers-photo/ssmart-24h-5.webp"
     ],
     "tags": [
       "convenience_store",
@@ -13149,6 +13178,11 @@
       },
       {
         "image_url": "/covers-photo/ssmart-24h-4.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJrZVSrMGVpzERwEKKl8CoFhY"
+      },
+      {
+        "image_url": "/covers-photo/ssmart-24h-5.webp",
         "credit_text": "Google Maps",
         "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJrZVSrMGVpzERwEKKl8CoFhY"
       }
@@ -13380,11 +13414,11 @@
     "id": "local-sunset-193",
     "public_name": "Lemon Queen (bazaar store)",
     "slug": "lemon-queen-bazaar-store",
-    "category": "shopping",
-    "subcategory": "convenience_store",
+    "category": "bars",
+    "subcategory": "cafe",
     "google_place_id": "ChIJq-MaQQCVpzERMbW2Y8JvlMI",
-    "description_en": "Lemon Queen (bazaar store) is a convenience store & market located in Sunset Town, Phu Quoc.",
-    "description_ko": "여행자 생필품 및 간식·기념품 구매처 • [주요 취급 품목] 생수, 맥주·음료, 컵라면·스낵, 열대과일, 일회용품, 푸꾸옥 특산품(후추·땅콩·커피) 및 기념품.",
+    "description_en": "Lemon Queen (bazaar store) is a specialty Greek yogurt, fresh fruit bowl, and healthy dessert cafe in Sunset Bazaar, Sunset Town, Phu Quoc.",
+    "description_ko": "선셋타운 바자 구역의 수제 그릭요거트 & 헬시 디저트 카페 • [대표 메뉴] 수제 그릭요거트 & 열대과일 볼(망고·드래곤프루트·딸기·키위·블루베리), 크로와상·아보카도 토스트, 수제 레몬에이드 및 헬시 스무디.",
     "address": "sunset bazaar, Phú Quốc, An Giang 92000, Vietnam",
     "google_maps_name": "Lemon Queen (bazaar store)",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJq-MaQQCVpzERMbW2Y8JvlMI",
@@ -13404,7 +13438,9 @@
       "/covers-photo/lemon-queen-bazaar-store-5.webp"
     ],
     "tags": [
-      "convenience_store",
+      "Cafe",
+      "Dessert Cafe",
+      "Greek Yogurt",
       "Sunset Town"
     ],
     "_deleted_snippet": "",
@@ -13418,42 +13454,51 @@
     "google_review_analysis": {
       "rating": 4.6,
       "reviewCount": 1076,
-      "lastVerified": "2026-11-01",
+      "lastVerified": "2026-11-02",
       "topics": [
-        "convenience_store",
-        "Sunset Town"
+        "그릭요거트 (10)",
+        "크로와상 (18)",
+        "아보카도 토스트 (9)",
+        "일몰 (20)",
+        "불꽃놀이 (7)"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 1,076건(평점 ★4.6) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
-          "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
+          "구글맵 실측 리뷰 1,076건(평점 ★4.6)에서 꾸덕한 수제 그릭요거트와 신선한 열대과일(망고·용과·딸기·키위) 토핑, 크로와상·아보카도 토스트가 호평받고 있습니다.",
+          "레몬 트리 콘셉트의 화사한 옐로우·그린 인테리어와 야외 테라스 좌석이 예뻐 사진 촬영과 휴식에 좋습니다.",
+          "선셋 바자 중심에 위치해 일몰 산책 및 야간 불꽃놀이 전후에 들르기 편리합니다."
         ],
         "en": [
-          "Verified venue with 1,076 Google Maps reviews (★4.6) in Sunset Town & Khem Beach.",
-          "Conveniently accessible along main traveler routes with consistent visitor satisfaction."
+          "Praised across 1,076 Google Maps reviews (★4.6) for thick homemade Greek yogurt bowls topped with fresh mango, dragon fruit, strawberries, and granola, plus croissants and avocado toast.",
+          "Bright lemon-tree themed interior and terrace seating make it a popular photo and refreshment spot in Sunset Bazaar.",
+          "Conveniently located along the Sunset Town promenade for sunset walks and evening shows."
         ],
         "vi": [
-          "Địa điểm đã xác thực với 1,076 đánh giá Google Maps (★4.6) tại Sunset Town & Bãi Khem.",
-          "Vị trí thuận tiện trên trục di chuyển chính của du khách, mức độ hài lòng ổn định."
+          "Được đánh giá cao qua 1,076 nhận xét trên Google Maps (★4.6) nhờ sữa chua Hy Lạp nhà làm sánh mịn kết hợp trái cây nhiệt đới tươi, bánh sừng bò và bánh mì bơ.",
+          "Không gian trang trí cây chanh vàng rực rỡ, thoáng mát, rất hợp chụp ảnh và nghỉ chân tại Sunset Bazaar.",
+          "Vị trí thuận tiện ngay trung tâm Sunset Town để ghé thưởng thức trước hoặc sau giờ ngắm hoàng hôn."
         ]
       },
       "goodToKnow": {
         "ko": [
-          "방문 전 구글맵 최신 영업시간과 피크 시간대 혼잡도를 확인하시기 바랍니다."
+          "저녁 피크 시간대(18:00~21:00)에는 야시장 산책객이 많아 야외 테라스 좌석이 빠르게 만석이 될 수 있습니다."
         ],
         "en": [
-          "Check current operating hours and peak visiting times on Google Maps before heading out."
+          "Evening peak hours (18:00–21:00) can get busy with promenade visitors; indoor and terrace tables fill up quickly."
         ],
         "vi": [
-          "Vui lòng kiểm tra giờ mở cửa hiện tại trên Google Maps trước khi ghé thăm."
+          "Khung giờ tối (18:00–21:00) thường đông khách dạo phố, bàn ngoài trời có thể nhanh kín chỗ."
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.6점(방문자 리뷰 1,076개)을 기록 중이며, 실제 방문객 리뷰에서 'convenience_store, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
-        "en": "Rated ★4.6 across 1,076 verified Google Maps reviews, frequently highlighted for convenience_store, Sunset Town.",
-        "vi": "Đạt ★4.6 trên 1,076 đánh giá thực tế Google Maps, nổi bật với convenience_store, Sunset Town."
+        "ko": "구글맵 실측 평점 ★4.6점(방문자 리뷰 1,076개)을 기록 중이며, 실제 방문객 리뷰에서 '수제 그릭요거트, 신선한 과일 볼, 크로와상, 아보카도 토스트' 등이 주요 강점으로 꼽힙니다.",
+        "en": "Rated ★4.6 across 1,076 verified Google Maps reviews, frequently highlighted for homemade Greek yogurt bowls, fresh tropical fruit, croissants, and avocado toast.",
+        "vi": "Đạt ★4.6 trên 1,076 đánh giá thực tế Google Maps, nổi bật với sữa chua Hy Lạp, trái cây tươi, bánh sừng bò và bánh mì bơ."
       },
-      "sampleReviews": []
+      "sampleReviews": [
+        "선셋타운과 연결되어 있어 깨끗하고 경치가 좋습니다. 산책하며 상큼한 그릭요거트와 과일 디저트를 즐기기에 아주 좋습니다.",
+        "레몬 인테리어가 정말 상큼하고 예뻐요! 과일이 듬뿍 올라간 그릭요거트 트레이가 사진도 잘 나오고 건강하게 맛있습니다."
+      ]
     },
     "image_credits": [
       {
@@ -16924,7 +16969,9 @@
     "gallery_urls": [
       "/covers-photo/sunset-place-9-1.webp",
       "/covers-photo/sunset-place-9-2.webp",
-      "/covers-photo/sunset-place-9-3.webp"
+      "/covers-photo/sunset-place-9-3.webp",
+      "/covers-photo/sunset-place-9-4.webp",
+      "/covers-photo/sunset-place-9-5.webp"
     ],
     "tags": [
       "spa",
@@ -17005,6 +17052,16 @@
       },
       {
         "image_url": "/covers-photo/sunset-place-9-3.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-yY2EeuVpzERZkC-0w4sM4A"
+      },
+      {
+        "image_url": "/covers-photo/sunset-place-9-4.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-yY2EeuVpzERZkC-0w4sM4A"
+      },
+      {
+        "image_url": "/covers-photo/sunset-place-9-5.webp",
         "credit_text": "Google Maps",
         "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-yY2EeuVpzERZkC-0w4sM4A"
       }
@@ -18017,7 +18074,8 @@
       "/covers-photo/thang-rong-1.webp",
       "/covers-photo/thang-rong-2.webp",
       "/covers-photo/thang-rong-3.webp",
-      "/covers-photo/thang-rong-4.webp"
+      "/covers-photo/thang-rong-4.webp",
+      "/covers-photo/thang-rong-5.webp"
     ],
     "tags": [
       "attraction",
@@ -18093,6 +18151,11 @@
       },
       {
         "image_url": "/covers-photo/thang-rong-4.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJlxCWdMWXpzER1uHLQ3OpVkI"
+      },
+      {
+        "image_url": "/covers-photo/thang-rong-5.webp",
         "credit_text": "Google Maps",
         "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJlxCWdMWXpzER1uHLQ3OpVkI"
       }
@@ -19492,7 +19555,8 @@
       "/covers-photo/phu-quoc-brew-house-1.webp",
       "/covers-photo/phu-quoc-brew-house-2.webp",
       "/covers-photo/phu-quoc-brew-house-3.webp",
-      "/covers-photo/phu-quoc-brew-house-4.webp"
+      "/covers-photo/phu-quoc-brew-house-4.webp",
+      "/covers-photo/phu-quoc-brew-house-5.webp"
     ],
     "tags": [
       "attraction",
@@ -19568,6 +19632,11 @@
       },
       {
         "image_url": "/covers-photo/phu-quoc-brew-house-4.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJNQRxBrKVpzERhBI9igVrm6k"
+      },
+      {
+        "image_url": "/covers-photo/phu-quoc-brew-house-5.webp",
         "credit_text": "Google Maps",
         "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJNQRxBrKVpzERhBI9igVrm6k"
       }
@@ -19709,7 +19778,9 @@
     "gallery_urls": [
       "/covers-photo/bidv-atm-machine-1.webp",
       "/covers-photo/bidv-atm-machine-2.webp",
-      "/covers-photo/bidv-atm-machine-3.webp"
+      "/covers-photo/bidv-atm-machine-3.webp",
+      "/covers-photo/bidv-atm-machine-4.webp",
+      "/covers-photo/bidv-atm-machine-5.webp"
     ],
     "tags": [
       "attraction",
@@ -19779,6 +19850,16 @@
       },
       {
         "image_url": "/covers-photo/bidv-atm-machine-3.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps?cid=4069597228033058591"
+      },
+      {
+        "image_url": "/covers-photo/bidv-atm-machine-4.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps?cid=4069597228033058591"
+      },
+      {
+        "image_url": "/covers-photo/bidv-atm-machine-5.webp",
         "credit_text": "Google Maps",
         "source_page_url": "https://www.google.com/maps?cid=4069597228033058591"
       }

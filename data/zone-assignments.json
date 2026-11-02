@@ -1844,7 +1844,7 @@
     "google_place_id": "ChIJTRy1mL6VpzERoC2sDLhsG2w",
     "name": "Queen Of Islands - Greek Yogurt & More Store",
     "zone": "sunset-town",
-    "public_category": "shopping",
+    "public_category": "bars",
     "service_areas": [
       "sunset-town"
     ]
@@ -1914,7 +1914,7 @@
     "google_place_id": "ChIJq-MaQQCVpzERMbW2Y8JvlMI",
     "name": "Lemon Queen (bazaar store)",
     "zone": "sunset-town",
-    "public_category": "shopping",
+    "public_category": "bars",
     "service_areas": [
       "sunset-town"
     ]
