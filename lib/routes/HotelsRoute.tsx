@@ -19,7 +19,7 @@ export function generateHotelsMetadata(locale: Locale = 'en'): Metadata {
       url: `${SITE_URL}/hotels`,
       images: [
         {
-          url: '/images/hotels/the-room-hotel/photo_01.jpg',
+          url: '/images/hotels/the-room-hotel/the-room-hotel-oceanview-room.jpg',
           width: 1024,
           height: 768,
           alt: 'Sunset Town Hotels Phu Quoc',
