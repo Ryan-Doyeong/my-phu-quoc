@@ -9514,14 +9514,14 @@
     "google_maps_name": "King Kong Money Exchange - Khem Beach",
     "google_maps_url": "https://www.google.com/maps?cid=7406987655171001539",
     "zone": "khem-beach",
-    "status": "published",
+    "status": "private",
     "verification_status": "verified",
     "tags": [
       "Khem Beach",
       "currency_exchange"
     ],
     "gallery_urls": [],
-    "lat": 10.0335,
-    "lng": 104.0285
+    "lat": 10.038,
+    "lng": 104.032
   }
 ]

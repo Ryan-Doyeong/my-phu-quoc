@@ -12,6 +12,7 @@ export interface BankingItem {
   googleMapsUrl: string
   location: Record<Locale, string>
   cards?: string[] | null // null or empty array indicates unconfirmed
+  status?: 'published' | 'private'
 }
 
 export interface BankingUiStrings {
@@ -379,5 +380,6 @@ export const BANKING_PLACES: BankingItem[] = [
       hi: 'Kem Beach, 59 Diamond 1',
       vi: 'Kem Beach, 59 Diamond 1',
     },
+    status: 'private',
   },
 ]
