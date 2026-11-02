@@ -6,7 +6,7 @@ import khemBusinesses from '@/data/khem-beach-businesses.json'
 import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { DIRECTORY_CATEGORY_KEYS, getCategoryPublishedCount, categoryLabel, nearbyBadgeText, formatLocalizedAddress, isHiddenBusiness } from '@/lib/directory'
-import { PUBLISHED_EVENTS } from '@/lib/eventSamples'
+import { PUBLISHED_EVENTS, SAMPLE_EVENTS } from '@/lib/eventSamples'
 import { stockPrimaryFor } from '@/lib/stockImages'
 import { getCoverPhoto } from '@/lib/coverPhotos'
 import { getHotelBySlug } from '@/lib/hotels'
@@ -222,15 +222,20 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
           : x.gallery_urls,
     }
   })
+  const seenDbSlugs = new Set(syncedBusinesses.map((x: any) => x.slug))
+  const missingRegBusinesses = regList.filter(
+    (r) => r.status === 'published' && !seenDbSlugs.has(r.slug)
+  )
   const khemSlugs = new Set((khemBusinesses as any[]).map((k) => k.slug))
   const allBusinesses = [
     ...syncedBusinesses,
+    ...missingRegBusinesses,
     ...(khemBusinesses as any[]).filter(
       (x) => x.status === 'published'
     ),
   ]
   const b = allBusinesses.filter((x: any) => {
-    if (isHiddenBusiness(x) || x.category === 'activities') return false
+    if (isHiddenBusiness(x) || (!needle && x.category === 'activities')) return false
     if (!needle) return true
     const fields = [
       x.slug,
@@ -260,11 +265,15 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
   const mergedStories = [
     ...(stories || []),
     ...PUBLISHED_EVENTS.filter((e) => !dbStorySlugs.has(e.slug)),
+    ...SAMPLE_EVENTS.filter((e) => !dbStorySlugs.has(e.slug) && !PUBLISHED_EVENTS.some((pe) => pe.slug === e.slug)),
   ]
   const localizedStories = mergedStories.map((raw: any) => localizeStory(raw, locale))
   const s = localizedStories.filter(
     (x: any) =>
-      !needle || [x.title, x.category, x.excerpt, x.content_type].some((v) => text(v).includes(needle))
+      !needle ||
+      [x.title, x.title_en, x.slug, x.category, x.excerpt, x.content_type].some(
+        (v) => text(v).includes(needle) || (normNeedle && normalizeSearch(v).includes(normNeedle))
+      )
   )
 
   return (

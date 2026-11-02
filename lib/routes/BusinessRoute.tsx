@@ -139,6 +139,10 @@ export async function generateBusinessMetadata(
       lng: regItem.lng ?? b.lng,
       google_place_id: regItem.google_place_id ?? b.google_place_id,
       google_maps_name: regItem.google_maps_name ?? b.google_maps_name,
+      google_rating: regItem.google_rating ?? b.google_rating,
+      google_review_count: regItem.google_review_count ?? b.google_review_count,
+      rating_check_date: regItem.rating_check_date ?? b.rating_check_date,
+      review_summary: 'review_summary' in regItem ? regItem.review_summary : b.review_summary,
       tags: regItem.tags ?? b.tags,
       aliases: regItem.aliases ?? b.aliases,
       gallery_urls:
@@ -270,6 +274,10 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
       lng: regItem.lng ?? b.lng,
       google_place_id: regItem.google_place_id ?? b.google_place_id,
       google_maps_name: regItem.google_maps_name ?? b.google_maps_name,
+      google_rating: regItem.google_rating ?? b.google_rating,
+      google_review_count: regItem.google_review_count ?? b.google_review_count,
+      rating_check_date: regItem.rating_check_date ?? b.rating_check_date,
+      review_summary: 'review_summary' in regItem ? regItem.review_summary : b.review_summary,
       tags: regItem.tags ?? b.tags,
       aliases: regItem.aliases ?? b.aliases,
       gallery_urls:
