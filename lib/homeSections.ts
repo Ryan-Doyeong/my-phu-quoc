@@ -46,13 +46,13 @@ export const DEFAULT_HOME_SECTIONS: HomeSections = {
   },
   discover: {
     visible: true,
-    title: 'Start with what you want to do.',
-    description: 'Choose a category, then explore local places by what you’re looking for — from massage and Pilates to Japanese dining, brunch and more.'
+    title: 'Find the travel information you need.',
+    description: 'From restaurants and cafés to massages, spas, attractions and everyday essentials. Browse by category to find the places you’re looking for.'
   },
   stories: {
     visible: true,
     title: 'News, Blog & Stories',
-    description: 'Useful information for residents, neighborhood stories and foreign-resident updates.'
+    description: 'Discover the latest news from Phu Quoc and useful local tips for your trip.'
   },
   newsletter: {
     visible: false,

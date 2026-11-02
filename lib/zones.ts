@@ -114,7 +114,7 @@ export const MAIN_ZONES: Record<MainZoneSlug, MainZoneInfo> = {
       vi: 'Toàn cảnh Cầu Hôn Thị trấn Hoàng Hôn',
     },
     ctaButton: {
-      ko: '선셋타운 페이지 가기 →',
+      ko: '선셋타운 자세히 보기 →',
       en: 'Explore Sunset Town →',
       zh: '前往 Sunset Town 专页 →',
       ru: 'Перейти к Sunset Town →',
@@ -144,7 +144,7 @@ export const MAIN_ZONES: Record<MainZoneSlug, MainZoneInfo> = {
           vi: 'Cầu Hôn (Kiss Bridge)',
         },
         description: {
-          ko: '바다 위 마주보는 형태의 보행교',
+          ko: '바다 위에서 두 다리가 마주 보는 상징적인 인도교',
           en: 'Pedestrian bridge with two sections facing each other above the sea',
           zh: '两段桥体在海上相向而立的步行桥',
           ru: 'Пешеходный мост с двумя обращёнными друг к другу частями над морем',
@@ -166,7 +166,7 @@ export const MAIN_ZONES: Record<MainZoneSlug, MainZoneInfo> = {
           vi: 'Kiss of the Sea & Pháo hoa',
         },
         description: {
-          ko: '해상 무대 공연 및 야간 불꽃 연출',
+          ko: '해상 멀티미디어 공연과 화려한 야간 불꽃쇼',
           en: 'Performance on a stage over the sea with nighttime fireworks effects',
           zh: '海上舞台表演及夜间烟花演出',
           ru: 'Представление на сцене над морем и вечерние фейерверки',
@@ -179,7 +179,7 @@ export const MAIN_ZONES: Record<MainZoneSlug, MainZoneInfo> = {
       {
         number: 3,
         name: {
-          ko: '선월드 혼톰 케이블카 승강장',
+          ko: '선월드 혼톰섬 케이블카 탑승장',
           en: 'Sun World Hon Thom Cable Car Station',
           zh: 'Sun World 香岛缆车站',
           ru: 'Станция канатной дороги Sun World на Хон Тхом',
@@ -188,7 +188,7 @@ export const MAIN_ZONES: Record<MainZoneSlug, MainZoneInfo> = {
           vi: 'Ga Cáp treo Hòn Thơm Sun World',
         },
         description: {
-          ko: '혼톰섬 방면 해상 케이블카 탑승지',
+          ko: '세계 최장 해상 케이블카를 타고 혼톰섬으로 출발하는 탑승장',
           en: 'Boarding point for the oversea cable car to Hon Thom Island',
           zh: '前往香岛的跨海缆车乘车点',
           ru: 'Место посадки на канатную дорогу над морем, ведущую на остров Хон Тхом',
