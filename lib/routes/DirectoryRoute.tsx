@@ -150,6 +150,7 @@ export async function renderDirectoryRoute(
         description_ko: reg.description_ko ?? b.description_ko,
         description_en: reg.description_en ?? b.description_en,
         tags: reg.tags ?? b.tags,
+        aliases: reg.aliases ?? b.aliases,
         lat: reg.lat ?? b.lat,
         lng: reg.lng ?? b.lng,
         google_place_id: reg.google_place_id ?? b.google_place_id,

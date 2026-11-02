@@ -207,7 +207,7 @@
   },
   {
     "id": "local-sunset-6",
-    "public_name": "한국관 BBQ 하우스 포 유 (BBQ House for You)",
+    "public_name": "한국관 BBQ House for You",
     "slug": "bbq-house-for-you",
     "category": "beaches",
     "subcategory": "korean",
@@ -215,7 +215,7 @@
     "description_en": "BBQ House for You is a Korean restaurant located in Sunset Town, Phu Quoc.",
     "description_ko": "선셋타운 내 한국식 바비큐 및 한식 메뉴 제공.",
     "address": "Khu Sun Premier Village Primavera, FB2-04, Phú Quốc, An Giang, Vietnam",
-    "google_maps_name": "BBQ House for You",
+    "google_maps_name": "한국관 BBQ House for You",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJk0mFcgCVpzERf3VayqKU9Ug",
     "phone": "+84 888 279 988",
     "website_url": null,
@@ -234,7 +234,9 @@
     ],
     "tags": [
       "korean",
-      "Sunset Town"
+      "Sunset Town",
+      "한국관",
+      "BBQ House"
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 삼겹살, 목살, 소갈비, 김치찌개, 냉면, 한식 밑반찬 제공 | 180,000~400,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
@@ -320,6 +322,11 @@
         "credit_text": "Google Maps",
         "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJk0mFcgCVpzERf3VayqKU9Ug"
       }
+    ],
+    "aliases": [
+      "한국관 BBQ 하우스 포 유 (BBQ House for You)",
+      "BBQ House for You",
+      "한국관 BBQ 하우스 포 유"
     ]
   },
   {
@@ -3740,7 +3747,7 @@
   },
   {
     "id": "local-sunset-94",
-    "public_name": "선셋분식 (Sunset Bunsik)",
+    "public_name": "Sunset bunsik (선셋분식)",
     "slug": "sunset-bunsik",
     "category": "dining",
     "subcategory": "korean",
@@ -3748,7 +3755,7 @@
     "description_en": "Sunset bunsik () is a Korean restaurant located in Sunset Town, Phu Quoc.",
     "description_ko": "선셋타운에서 간편하게 즐기는 한국 분식 전문점.",
     "address": "A56 sunset town, Phú Quốc, An Giang 920000, Vietnam",
-    "google_maps_name": "Sunset Bunsik",
+    "google_maps_name": "Sunset bunsik (선셋분식)",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJk-2CcACXpzERjAdWD6NvD-w",
     "phone": "+84 328 041 737",
     "website_url": null,
@@ -3767,7 +3774,9 @@
     ],
     "tags": [
       "korean",
-      "Sunset Town"
+      "Sunset Town",
+      "선셋분식",
+      "Sunset bunsik"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
@@ -3859,11 +3868,16 @@
         "credit_text": "Google Maps",
         "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJk-2CcACXpzERjAdWD6NvD-w"
       }
+    ],
+    "aliases": [
+      "선셋분식 (Sunset Bunsik)",
+      "Sunset Bunsik",
+      "선셋분식"
     ]
   },
   {
     "id": "local-sunset-95",
-    "public_name": "블루 테이블 (BLUE TABLE(Italian Restaurant))",
+    "public_name": "BLUE TABLE(Italian Restaurant)",
     "slug": "blue-table-italian-restaurant",
     "category": "dining",
     "subcategory": "western",
@@ -3890,7 +3904,10 @@
     ],
     "tags": [
       "western",
-      "Sunset Town"
+      "Sunset Town",
+      "블루 테이블",
+      "Blue Table",
+      "Italian Restaurant"
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 화덕피자, 크림/해산물 파스타, 리조또, 스테이크 커플 세트 | 단품 150,000~380,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
@@ -3980,6 +3997,11 @@
         "credit_text": "Google Maps",
         "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJt4niIACVpzERsZinQbNSOvs"
       }
+    ],
+    "aliases": [
+      "블루 테이블 (BLUE TABLE(Italian Restaurant))",
+      "블루 테이블",
+      "Blue Table"
     ]
   },
   {
@@ -4292,7 +4314,7 @@
   },
   {
     "id": "local-sunset-100",
-    "public_name": "푸꾸옥 뚱보집 선셋타운 (Phu Quoc Ttungbojip Sunset Town)",
+    "public_name": "푸꾸옥 뚱보집 선셋타운",
     "slug": "sunset-place",
     "category": "dining",
     "subcategory": "korean",
@@ -4300,7 +4322,7 @@
     "description_en": "Phu Quoc Ttungbojip Sunset Town (Korean Restaurant) is a Korean restaurant located in Sunset Town, Phu Quoc.",
     "description_ko": "아말피 거리 위치, 양이 매우 푸짐한 한국식 찌개·고기 전문점.",
     "address": "An Giang, Phú Quốc, Khu 2, Đ. Amalfi, Vietnam",
-    "google_maps_name": "Phu Quoc Ttungbojip Sunset Town",
+    "google_maps_name": "푸꾸옥 뚱보집 선셋타운",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJcRC6HwCVpzERbkajor2btbM",
     "phone": "+84 941 124 603",
     "website_url": null,
@@ -4319,7 +4341,9 @@
     ],
     "tags": [
       "korean",
-      "Sunset Town"
+      "Sunset Town",
+      "뚱보집",
+      "Phu Quoc Ttungbojip"
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 대형 뚝배기 김치찌개·된장찌개(2~3인분 양), 삼겹살, 제육볶음, 불고기 | 찌개·식사류 및 고기류 200,000~450,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
@@ -4412,6 +4436,11 @@
         "credit_text": "Google Maps",
         "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJcRC6HwCVpzERbkajor2btbM"
       }
+    ],
+    "aliases": [
+      "푸꾸옥 뚱보집 선셋타운 (Phu Quoc Ttungbojip Sunset Town)",
+      "Phu Quoc Ttungbojip Sunset Town",
+      "뚱보집"
     ]
   },
   {
@@ -4443,7 +4472,9 @@
     ],
     "tags": [
       "korean",
-      "Sunset Town"
+      "Sunset Town",
+      "화로구이",
+      "한식당 화로구이"
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 숯불 삼겹살·돼지갈비, 찌개류, 한식 식사류 | 180,000~400,000 VND",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
@@ -4535,6 +4566,11 @@
         "credit_text": "Google Maps",
         "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJMfJ3VWSVpzER2App4vNzuqo"
       }
+    ],
+    "aliases": [
+      "한식당 화로구이",
+      "Charcoal Korean BBQ",
+      "화로구이"
     ]
   },
   {
@@ -4686,7 +4722,9 @@
     ],
     "tags": [
       "vietnamese",
-      "Sunset Town"
+      "Sunset Town",
+      "포틴",
+      "포틴 푸꾸옥"
     ],
     "_deleted_snippet": "",
     "_source_citation": "[메뉴/가격]: 포틴 공식 웹사이트 및 인스타그램 실측 가격표 | https://phothinhanoi.vn/",
@@ -4778,6 +4816,11 @@
         "credit_text": "Google Maps",
         "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJFYITJBKVpzERPIOdOa8Hzyg"
       }
+    ],
+    "aliases": [
+      "포틴 푸꾸옥",
+      "Phở Thìn Phú Quốc",
+      "포틴"
     ]
   },
   {
@@ -5297,7 +5340,7 @@
   },
   {
     "id": "local-sunset-109",
-    "public_name": "하이산캉 푸꾸옥 (Hải Sản Cảng Phú Quốc - Seafood Restaurant)",
+    "public_name": "하이산캉",
     "slug": "sunset-place-1",
     "category": "dining",
     "subcategory": "seafood",
@@ -5305,7 +5348,7 @@
     "description_en": "Hải Sản Cảng Phú Quốc - Seafood Restaurant is a seafood restaurant located in Sunset Town, Phu Quoc.",
     "description_ko": "케이블카 역 인근, 갈릭버터/칠리 소스 해산물 요리 전문.",
     "address": "Ven45-sunset town, Phú Quốc, An Giang 92513, Vietnam",
-    "google_maps_name": "Hải Sản Cảng Phú Quốc - Seafood Restaurant",
+    "google_maps_name": "하이산캉",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJRT9hCe6VpzER9hYA7wlPylM",
     "phone": "+84 949 440 027",
     "website_url": "https://haisancang.com/",
@@ -5324,7 +5367,10 @@
     ],
     "tags": [
       "seafood",
-      "Sunset Town"
+      "Sunset Town",
+      "하이산캉",
+      "Hải Sản Cảng",
+      "Hai San Cang"
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 칠리크랩/타마린드크랩, 갈릭버터 랍스터·타이거새우, 맛조개 모닝글로리 볶음, 가리비 파기름 구이, 해산물 볶음밥 | 단품 100,000~350,000 VND (활해산물 시가)",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
@@ -5413,6 +5459,12 @@
         "credit_text": "Google Maps",
         "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJRT9hCe6VpzER9hYA7wlPylM"
       }
+    ],
+    "aliases": [
+      "하이산캉 푸꾸옥 (Hải Sản Cảng Phú Quốc - Seafood Restaurant)",
+      "Hải Sản Cảng Phú Quốc - Seafood Restaurant",
+      "하이산캉 푸꾸옥",
+      "Hải Sản Cảng"
     ]
   },
   {
@@ -5798,7 +5850,9 @@
     ],
     "tags": [
       "vietnamese",
-      "Sunset Town"
+      "Sunset Town",
+      "껌자딘",
+      "껌자딘 선셋타운"
     ],
     "_deleted_snippet": "• [대표 메뉴/가격] 소고기 쌀국수/곱창 쌀국수, 반쎄오(약 140,000 VND), 계란볶음밥(약 90,000 VND~), 모닝글로리, 분짜",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
@@ -5890,6 +5944,11 @@
         "credit_text": "Google Maps",
         "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJZ97LhDOVpzER7ZlyLY3K-9o"
       }
+    ],
+    "aliases": [
+      "껌자딘 선셋타운",
+      "Cơm Gia Đình Sunset Town",
+      "껌자딘"
     ]
   },
   {
