@@ -1044,7 +1044,7 @@
     "google_place_id": "ChIJdy0S10CVpzERjeJJwHTOH7s",
     "name": "더 갱스 선셋 (The Gangs Sunset - 해산물 & 크래프트 비어)",
     "zone": "sunset-town",
-    "public_category": "beaches",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1104,7 +1104,7 @@
     "google_place_id": "ChIJgbE4kXGVpzERZ8C1U29WbHA",
     "name": "카페 루남 푸꾸옥 (Café RuNam Phú Quốc - Hexagonal House)",
     "zone": "sunset-town",
-    "public_category": "beaches",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1744,7 +1744,7 @@
     "google_place_id": "ChIJgdPeM-6VpzERp4qCP5Rftfc",
     "name": "테아트로 클럽 푸꾸옥 (Teatro Club Phú Quốc)",
     "zone": "sunset-town",
-    "public_category": "beaches",
+    "public_category": "bars",
     "service_areas": [
       "sunset-town"
     ]
