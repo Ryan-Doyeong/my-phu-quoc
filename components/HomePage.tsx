@@ -38,84 +38,92 @@ import { SITE_CONFIG } from '@/lib/siteConfig'
 const HOME_NAV_SUNSET: Record<string, string> = {
   ko: '선셋타운',
   en: 'Sunset Town',
-  zh: 'Sunset Town',
-  ru: 'Sunset Town',
-  ja: 'Sunset Town',
-  hi: 'Sunset Town',
+  zh: '日落小镇',
+  ru: 'Сансет-Таун',
+  ja: 'サンセットタウン',
+  hi: 'सनसेट टाउन',
+  vi: 'Thị trấn Hoàng Hôn',
 }
 
 const HOME_NAV_KHEM: Record<string, string> = {
   ko: '켐비치',
   en: 'Khem Beach',
-  zh: 'Khem Beach',
-  ru: 'Khem Beach',
-  ja: 'Khem Beach',
-  hi: 'Khem Beach',
+  zh: '柯姆海滩',
+  ru: 'Пляж Кхем',
+  ja: 'ケムビーチ',
+  hi: 'खेम बीच',
+  vi: 'Bãi Khem',
 }
 
-/* Quick Service Card Labels (Korean confirmed; other languages temporary English awaiting ChatGPT review) */
-/* ChatGPT 검수 대기 */
+/* Quick Service Card Labels (ChatGPT 검수 완료) */
 const QUICK_CARD_EXCHANGE: Record<string, string> = {
   ko: '환전',
   en: 'Currency Exchange',
-  zh: 'Currency Exchange',
-  ru: 'Currency Exchange',
-  ja: 'Currency Exchange',
-  hi: 'Currency Exchange',
+  zh: '货币兑换',
+  ru: 'Обмен валют',
+  ja: '両替',
+  hi: 'मुद्रा विनिमय',
+  vi: 'Đổi tiền',
 }
 
 const QUICK_CARD_BUGGY: Record<string, string> = {
   ko: '버기 투어',
-  en: 'Buggy Tour',
-  zh: 'Buggy Tour',
-  ru: 'Buggy Tour',
-  ja: 'Buggy Tour',
-  hi: 'Buggy Tour',
+  en: 'Buggy Tours',
+  zh: '电瓶车游览',
+  ru: 'Туры на электрокарах',
+  ja: 'バギーツアー',
+  hi: 'बग्गी टूर',
+  vi: 'Tour xe điện',
 }
 
 const QUICK_CARD_TAXI: Record<string, string> = {
   ko: '차량 투어',
-  en: 'Vehicle Tour',
-  zh: 'Vehicle Tour',
-  ru: 'Vehicle Tour',
-  ja: 'Vehicle Tour',
-  hi: 'Vehicle Tour',
+  en: 'Car Tours',
+  zh: '包车游览',
+  ru: 'Автомобильные туры',
+  ja: '貸切車ツアー',
+  hi: 'कार टूर',
+  vi: 'Tour tham quan bằng ô tô',
 }
 
 const QUICK_CARD_EVENTS: Record<string, string> = {
   ko: '이벤트',
   en: 'Events',
-  zh: 'Events',
-  ru: 'Events',
-  ja: 'Events',
-  hi: 'Events',
+  zh: '活动资讯',
+  ru: 'Мероприятия',
+  ja: 'イベント',
+  hi: 'कार्यक्रम',
+  vi: 'Sự kiện',
 }
 
 const QUICK_CARD_ACTIVITIES: Record<string, string> = {
   ko: '액티비티',
   en: 'Activities',
-  zh: 'Activities',
-  ru: 'Activities',
-  ja: 'Activities',
-  hi: 'Activities',
+  zh: '游玩体验',
+  ru: 'Развлечения',
+  ja: 'アクティビティ',
+  hi: 'गतिविधियाँ',
+  vi: 'Hoạt động trải nghiệm',
 }
 
 const QUICK_CARD_EMERGENCY: Record<string, string> = {
   ko: '긴급상황',
   en: 'Emergency',
-  zh: 'Emergency',
-  ru: 'Emergency',
-  ja: 'Emergency',
-  hi: 'Emergency',
+  zh: '紧急求助',
+  ru: 'Экстренная помощь',
+  ja: '緊急時の案内',
+  hi: 'आपातकालीन सहायता',
+  vi: 'Hỗ trợ khẩn cấp',
 }
 
 const QUICK_CARD_ITINERARIES: Record<string, string> = {
   ko: '추천 테마 일정',
-  en: 'Theme Itineraries',
-  zh: 'Theme Itineraries',
-  ru: 'Theme Itineraries',
-  ja: 'Theme Itineraries',
-  hi: 'Theme Itineraries',
+  en: 'Themed Itineraries',
+  zh: '主题行程推荐',
+  ru: 'Тематические маршруты',
+  ja: 'テーマ別おすすめプラン',
+  hi: 'थीम आधारित यात्रा कार्यक्रम',
+  vi: 'Lịch trình gợi ý theo chủ đề',
 }
 
 export type QuickServiceKey =

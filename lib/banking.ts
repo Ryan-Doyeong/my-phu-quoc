@@ -30,7 +30,7 @@ export interface BankingUiStrings {
 export const BANKING_UI_STRINGS: Record<Locale, BankingUiStrings> = {
   ko: {
     bannerTitle: '환전 · ATM',
-    bannerSubtitle: '바로 갈 수 있는 곳만 모았어요',
+    bannerSubtitle: '바로 갈 수 있는 곳만 모았습니다.',
     sunsetTownTitle: '선셋타운',
     khemBeachTitle: '켐비치',
     atmSectionTitle: (c: number) => `ATM ${c}곳`,
