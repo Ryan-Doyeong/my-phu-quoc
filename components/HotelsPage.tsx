@@ -972,7 +972,17 @@ function HotelsPageInner({ hotels: rawHotels, locale = 'en', initialArea }: Hote
       </header>
 
       {/* Hero Section */}
-      <section className="hotelsHero">
+      <section
+        className="hotelsHero"
+        style={{
+          backgroundImage: `linear-gradient(180deg, rgba(8, 20, 36, 0.50) 0%, rgba(8, 20, 36, 0.72) 100%), url('${
+            activeArea === 'khem-beach' ? '/categories/beach.webp' : '/categories/hotels.webp'
+          }')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+        }}
+      >
         <div className="hotelsHeroOverlay" />
         <div className="hotelsHeroContent">
           <div className="hotelsHeroBadge">

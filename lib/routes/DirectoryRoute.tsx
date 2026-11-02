@@ -215,25 +215,39 @@ export async function renderDirectoryRoute(
       <section
         className={`directoryHero categoryDirectoryHero theme-${theme}`}
         style={{
-          background:
-            theme === 'amber'
-              ? 'linear-gradient(135deg, #9C4511 0%, #C86D2D 45%, #D47A3A 100%)'
-              : 'linear-gradient(135deg, #06353E 0%, #0B7A8A 45%, #1693A5 100%)',
+          background: '#0F172A',
           color: '#FFFFFF',
-          minHeight: '260px',
+          minHeight: '300px',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
           position: 'relative',
-          padding: '48px 24px',
+          padding: '56px 24px',
           boxSizing: 'border-box',
           overflow: 'hidden',
         }}
       >
+        <img
+          src={rawConfig?.image || '/categories/dining.webp'}
+          alt={label}
+          style={{
+            position: 'absolute',
+            inset: 0,
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover',
+            objectPosition: 'center',
+            zIndex: 0,
+          }}
+        />
         <div
           className="directoryHeroShade"
           style={{
-            background: 'radial-gradient(circle at center, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.35) 100%)',
+            position: 'absolute',
+            inset: 0,
+            zIndex: 1,
+            background:
+              'linear-gradient(180deg, rgba(8, 20, 32, 0.45) 0%, rgba(8, 20, 32, 0.68) 100%)',
           }}
         />
         <article

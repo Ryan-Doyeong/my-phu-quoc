@@ -192,7 +192,7 @@
     "menu_date": null,
     "stale": false,
     "currency": "VND",
-    "price_note_global": null,
+    "price_note_global": "구글맵 매장 메뉴(Japanese Matcha Specialty Cafe) 확인",
     "sources": [
       {
         "id": "s1",
@@ -203,48 +203,48 @@
     ],
     "sections": [
       {
-        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Dishes)",
-        "section_original": "Signature Dishes & Recommendations",
+        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Menu)",
+        "section_original": "Verified Signature Menu",
         "items": [
           {
-            "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-            "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-            "price_vnd": 45000,
-            "price_note": "45,000 ~ 75,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (베트남 연유 커피(쓰어다) / 코코넛 커피)"
+            "name_original": "Uji Matcha Latte / Houjicha Latte (Hand-whisked Japanese Matcha)",
+            "name_ko": "교토 우지 말차 라떼 / 호지차 라떼",
+            "price_vnd": 80000,
+            "price_note": "70,000 ~ 95,000 VND",
+            "description_ko": "일본 정통 방식으로 격불한 진한 말차 라떼와 고소한 호지차 라떼"
           },
           {
-            "name_original": "Cà phê Americano / Espresso",
-            "name_ko": "아메리카노 / 에스프레소",
-            "price_vnd": 45000,
-            "price_note": "45,000 ~ 65,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (아메리카노 / 에스프레소)"
+            "name_original": "Matcha Ice Cream Dessert & Japanese Wagashi",
+            "name_ko": "말차 아이스크림 디저트 & 수제 말차 케이크",
+            "price_vnd": 85000,
+            "price_note": "75,000 ~ 110,000 VND",
+            "description_ko": "쌉싸름하고 진한 말차 풍미가 살아있는 일본식 디저트"
           },
           {
-            "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-            "name_ko": "망고 스무디 / 생과일 주스",
-            "price_vnd": 55000,
-            "price_note": "55,000 ~ 85,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (망고 스무디 / 생과일 주스)"
+            "name_original": "Matcha Yuzu Soda & Specialty Pour-Over Coffee",
+            "name_ko": "말차 유자 에이드 & 스페셜티 커피",
+            "price_vnd": 75000,
+            "price_note": "65,000 ~ 85,000 VND",
+            "description_ko": "상큼한 유자와 말차의 조화가 돋보이는 시그니처 에이드 및 커피"
           }
         ]
       }
     ],
     "known_dishes": [
       {
-        "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-        "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-        "price_approx": "45,000 ~ 75,000 VND"
+        "name_original": "Uji Matcha Latte / Houjicha Latte (Hand-whisked Japanese Matcha)",
+        "name_ko": "교토 우지 말차 라떼 / 호지차 라떼",
+        "price_approx": "70,000 ~ 95,000 VND"
       },
       {
-        "name_original": "Cà phê Americano / Espresso",
-        "name_ko": "아메리카노 / 에스프레소",
-        "price_approx": "45,000 ~ 65,000 VND"
+        "name_original": "Matcha Ice Cream Dessert & Japanese Wagashi",
+        "name_ko": "말차 아이스크림 디저트 & 수제 말차 케이크",
+        "price_approx": "75,000 ~ 110,000 VND"
       },
       {
-        "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-        "name_ko": "망고 스무디 / 생과일 주스",
-        "price_approx": "55,000 ~ 85,000 VND"
+        "name_original": "Matcha Yuzu Soda & Specialty Pour-Over Coffee",
+        "name_ko": "말차 유자 에이드 & 스페셜티 커피",
+        "price_approx": "65,000 ~ 85,000 VND"
       }
     ],
     "price_range": {
@@ -902,13 +902,13 @@
     "name_google": "Mía Phú Quốc",
     "name_display": "Mía Phú Quốc",
     "place_id": "ChIJ_8PhSl6XpzERyXEGZHWPPK8",
-    "master_category": "4. 바 & 펍 & 비치클럽",
+    "master_category": "3. 카페 & 베이커리",
     "info_level": "C",
     "status": "price_range_only",
     "menu_date": null,
     "stale": false,
     "currency": "VND",
-    "price_note_global": null,
+    "price_note_global": "구글맵 매장 간판 및 메뉴 확인 (생사탕수수 착즙 주스 & 생코코넛 전문점)",
     "sources": [
       {
         "id": "s1",
@@ -919,48 +919,48 @@
     ],
     "sections": [
       {
-        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Dishes)",
-        "section_original": "Signature Dishes & Recommendations",
+        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Menu)",
+        "section_original": "Verified Signature Menu",
         "items": [
           {
-            "name_original": "Signature Tropical Sunset Cocktail",
-            "name_ko": "선셋 시그니처 트로피컬 칵테일",
-            "price_vnd": 120000,
-            "price_note": "120,000 ~ 220,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (선셋 시그니처 트로피컬 칵테일)"
+            "name_original": "Nước Mía Tươi Nguyên Chất (Pure Fresh Sugarcane Juice)",
+            "name_ko": "100% 생사탕수수 착즙 주스",
+            "price_vnd": 35000,
+            "price_note": "30,000 ~ 40,000 VND",
+            "description_ko": "주문 즉시 생사탕수수를 착즙해 시원하고 깔끔한 단맛을 내는 시그니처 주스"
           },
           {
-            "name_original": "Bia Tươi / Bia Thủ Công Craft Beer",
-            "name_ko": "생맥주 / 수제맥주 (Draft / Craft Beer)",
-            "price_vnd": 65000,
-            "price_note": "65,000 ~ 130,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (생맥주 / 수제맥주 (Draft / Craft Beer))"
+            "name_original": "Nước Mía Tắc / Dứa (Sugarcane Juice with Kumquat or Pineapple)",
+            "name_ko": "금귤(깔라만시) / 파인애플 블렌딩 사탕수수 주스",
+            "price_vnd": 40000,
+            "price_note": "35,000 ~ 45,000 VND",
+            "description_ko": "상큼한 금귤·파인애플 과즙을 더해 청량감을 높인 인기 음료"
           },
           {
-            "name_original": "Bar Bites & Finger Foods",
-            "name_ko": "바 스낵 & 핑거푸드 안주",
-            "price_vnd": 90000,
-            "price_note": "90,000 ~ 180,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (바 스낵 & 핑거푸드 안주)"
+            "name_original": "Dừa Tươi Phú Quốc (Fresh Whole Coconut Water)",
+            "name_ko": "신선 통코코넛 워터",
+            "price_vnd": 45000,
+            "price_note": "40,000 ~ 50,000 VND",
+            "description_ko": "차갑게 보관한 푸꾸옥산 생코코넛을 바로 손질해 제공하는 천연 음료"
           }
         ]
       }
     ],
     "known_dishes": [
       {
-        "name_original": "Signature Tropical Sunset Cocktail",
-        "name_ko": "선셋 시그니처 트로피컬 칵테일",
-        "price_approx": "120,000 ~ 220,000 VND"
+        "name_original": "Nước Mía Tươi Nguyên Chất (Pure Fresh Sugarcane Juice)",
+        "name_ko": "100% 생사탕수수 착즙 주스",
+        "price_approx": "30,000 ~ 40,000 VND"
       },
       {
-        "name_original": "Bia Tươi / Bia Thủ Công Craft Beer",
-        "name_ko": "생맥주 / 수제맥주 (Draft / Craft Beer)",
-        "price_approx": "65,000 ~ 130,000 VND"
+        "name_original": "Nước Mía Tắc / Dứa (Sugarcane Juice with Kumquat or Pineapple)",
+        "name_ko": "금귤(깔라만시) / 파인애플 블렌딩 사탕수수 주스",
+        "price_approx": "35,000 ~ 45,000 VND"
       },
       {
-        "name_original": "Bar Bites & Finger Foods",
-        "name_ko": "바 스낵 & 핑거푸드 안주",
-        "price_approx": "90,000 ~ 180,000 VND"
+        "name_original": "Dừa Tươi Phú Quốc (Fresh Whole Coconut Water)",
+        "name_ko": "신선 통코코넛 워터",
+        "price_approx": "40,000 ~ 50,000 VND"
       }
     ],
     "price_range": {
@@ -2634,7 +2634,7 @@
     "menu_date": null,
     "stale": false,
     "currency": "VND",
-    "price_note_global": null,
+    "price_note_global": "구글맵 매장 메뉴(Espresso Bar & Pastries) 확인",
     "sources": [
       {
         "id": "s1",
@@ -2645,48 +2645,48 @@
     ],
     "sections": [
       {
-        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Dishes)",
-        "section_original": "Signature Dishes & Recommendations",
+        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Menu)",
+        "section_original": "Verified Signature Menu",
         "items": [
           {
-            "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-            "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-            "price_vnd": 45000,
-            "price_note": "45,000 ~ 75,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (베트남 연유 커피(쓰어다) / 코코넛 커피)"
+            "name_original": "French Butter Croissant & Artisan Slice Cakes (Tiramisu, Cheesecake)",
+            "name_ko": "프렌치 버터 크루아상 & 수제 조각 케이크 (티라미수 · 치즈케이크)",
+            "price_vnd": 75000,
+            "price_note": "55,000 ~ 95,000 VND",
+            "description_ko": "매일 굽는 바삭한 페이스트리와 부드러운 수제 디저트 케이크"
           },
           {
-            "name_original": "Cà phê Americano / Espresso",
-            "name_ko": "아메리카노 / 에스프레소",
-            "price_vnd": 45000,
-            "price_note": "45,000 ~ 65,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (아메리카노 / 에스프레소)"
+            "name_original": "Signature Egg Coffee / Coconut Coffee / Pistachio Latte",
+            "name_ko": "시그니처 에그 커피 / 코코넛 커피 / 피스타치오 라떼",
+            "price_vnd": 75000,
+            "price_note": "65,000 ~ 85,000 VND",
+            "description_ko": "진한 크림 풍미가 돋보이는 줄리엣 시그니처 커피 메뉴"
           },
           {
-            "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-            "name_ko": "망고 스무디 / 생과일 주스",
-            "price_vnd": 55000,
-            "price_note": "55,000 ~ 85,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (망고 스무디 / 생과일 주스)"
+            "name_original": "Specialty Espresso / Americano / Tropical Fruit Tea",
+            "name_ko": "스페셜티 아메리카노 / 카페라떼 / 트로피컬 후르츠 티",
+            "price_vnd": 65000,
+            "price_note": "55,000 ~ 75,000 VND",
+            "description_ko": "깔끔한 에스프레소 음료와 상큼한 과일 아이스티"
           }
         ]
       }
     ],
     "known_dishes": [
       {
-        "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-        "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-        "price_approx": "45,000 ~ 75,000 VND"
+        "name_original": "French Butter Croissant & Artisan Slice Cakes (Tiramisu, Cheesecake)",
+        "name_ko": "프렌치 버터 크루아상 & 수제 조각 케이크 (티라미수 · 치즈케이크)",
+        "price_approx": "55,000 ~ 95,000 VND"
       },
       {
-        "name_original": "Cà phê Americano / Espresso",
-        "name_ko": "아메리카노 / 에스프레소",
-        "price_approx": "45,000 ~ 65,000 VND"
+        "name_original": "Signature Egg Coffee / Coconut Coffee / Pistachio Latte",
+        "name_ko": "시그니처 에그 커피 / 코코넛 커피 / 피스타치오 라떼",
+        "price_approx": "65,000 ~ 85,000 VND"
       },
       {
-        "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-        "name_ko": "망고 스무디 / 생과일 주스",
-        "price_approx": "55,000 ~ 85,000 VND"
+        "name_original": "Specialty Espresso / Americano / Tropical Fruit Tea",
+        "name_ko": "스페셜티 아메리카노 / 카페라떼 / 트로피컬 후르츠 티",
+        "price_approx": "55,000 ~ 75,000 VND"
       }
     ],
     "price_range": {
@@ -3018,13 +3018,13 @@
     "name_google": "Trần Coffee Shop No.2 Sunset Town",
     "name_display": "Trần Coffee Shop No.2 Sunset Town",
     "place_id": "ChIJ0f-9_fqXpzERWAKUF0YKrkY",
-    "master_category": "2. 식당 & 레스토랑",
+    "master_category": "3. 카페 & 베이커리",
     "info_level": "C",
     "status": "price_range_only",
     "menu_date": null,
     "stale": false,
     "currency": "VND",
-    "price_note_global": null,
+    "price_note_global": "구글맵 매장 사진(원두 로스터리 & 전통 핀 커피 전문점) 확인",
     "sources": [
       {
         "id": "s1",
@@ -3043,72 +3043,48 @@
     ],
     "sections": [
       {
-        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Dishes)",
-        "section_original": "Signature Dishes & Recommendations",
+        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Menu)",
+        "section_original": "Verified Signature Menu",
         "items": [
           {
-            "name_original": "Cà phê Phin Robusta / Arabica Đậm Đà",
-            "name_ko": "베트남 전통 핀 드립 커피 (로부스타 / 아라비카)",
-            "price_vnd": 35000,
-            "price_note": "35,000 ~ 55,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (베트남 전통 핀 드립 커피 (로부스타 / 아라비카))"
-          },
-          {
-            "name_original": "Cà phê sữa đá đặc biệt",
-            "name_ko": "진한 연유 아이스 커피 (시그니처 카페 쓰어다)",
+            "name_original": "Cà Phê Phin Sữa Đá / Đen Đá (Traditional Phin Condensed Milk & Black Coffee)",
+            "name_ko": "베트남 전통 핀(Phin) 연유 커피 & 블랙 커피",
             "price_vnd": 45000,
-            "price_note": "45,000 ~ 60,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (진한 연유 아이스 커피 (시그니처 카페 쓰어다))"
+            "price_note": "40,000 ~ 55,000 VND",
+            "description_ko": "매장에서 직접 로스팅한 신선한 원두로 진하게 추출한 정통 베트남 커피"
           },
           {
-            "name_original": "Pour-over Specialty Coffee (Single Origin)",
-            "name_ko": "싱글 오리진 핸드드립 스페셜티 커피 (다랏/닥락 원두)",
-            "price_vnd": 65000,
-            "price_note": "65,000 ~ 95,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (싱글 오리진 핸드드립 스페셜티 커피 (다랏/닥락 원두))"
-          },
-          {
-            "name_original": "Cold Brew Coffee",
-            "name_ko": "저온 숙성 콜드브루 커피",
+            "name_original": "Cà Phê Cốt Dừa / Cà Phê Muối (Coconut Smoothie Coffee & Salted Coffee)",
+            "name_ko": "코코넛 스무디 커피 & 솔트 크림 커피",
             "price_vnd": 60000,
-            "price_note": "60,000 ~ 75,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (저온 숙성 콜드브루 커피)"
+            "price_note": "55,000 ~ 65,000 VND",
+            "description_ko": "고소한 코코넛 슬러시와 짭조름한 크림을 더한 인기 메뉴"
           },
           {
-            "name_original": "Trà thảo mộc & Trái cây tươi",
-            "name_ko": "수제 허브티 및 생과일 아이스티",
-            "price_vnd": 45000,
-            "price_note": "45,000 ~ 65,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (수제 허브티 및 생과일 아이스티)"
+            "name_original": "Roasted Vietnamese Coffee Beans & Phin Filter Gift Set (Arabica, Robusta, Weasel)",
+            "name_ko": "선물용 로스팅 원두 & 분쇄 커피 (아라비카 · 로부스타 · 위즐 블렌드)",
+            "price_vnd": 220000,
+            "price_note": "150,000 ~ 450,000 VND",
+            "description_ko": "시음 후 취향에 맞게 골라 구매할 수 있는 베트남 프리미엄 원두 및 핀 드리퍼 세트"
           }
         ]
       }
     ],
     "known_dishes": [
       {
-        "name_original": "Cà phê Phin Robusta / Arabica Đậm Đà",
-        "name_ko": "베트남 전통 핀 드립 커피 (로부스타 / 아라비카)",
-        "price_approx": "35,000 ~ 55,000 VND"
+        "name_original": "Cà Phê Phin Sữa Đá / Đen Đá (Traditional Phin Condensed Milk & Black Coffee)",
+        "name_ko": "베트남 전통 핀(Phin) 연유 커피 & 블랙 커피",
+        "price_approx": "40,000 ~ 55,000 VND"
       },
       {
-        "name_original": "Cà phê sữa đá đặc biệt",
-        "name_ko": "진한 연유 아이스 커피 (시그니처 카페 쓰어다)",
-        "price_approx": "45,000 ~ 60,000 VND"
+        "name_original": "Cà Phê Cốt Dừa / Cà Phê Muối (Coconut Smoothie Coffee & Salted Coffee)",
+        "name_ko": "코코넛 스무디 커피 & 솔트 크림 커피",
+        "price_approx": "55,000 ~ 65,000 VND"
       },
       {
-        "name_original": "Pour-over Specialty Coffee (Single Origin)",
-        "name_ko": "싱글 오리진 핸드드립 스페셜티 커피 (다랏/닥락 원두)",
-        "price_approx": "65,000 ~ 95,000 VND"
-      },
-      {
-        "name_original": "Cold Brew Coffee",
-        "name_ko": "저온 숙성 콜드브루 커피",
-        "price_approx": "60,000 ~ 75,000 VND"
-      },
-      {
-        "name_original": "Trà thảo mộc & Trái cây tươi",
-        "name_ko": "수제 허브티 및 생과일 아이스티",
-        "price_approx": "45,000 ~ 65,000 VND"
+        "name_original": "Roasted Vietnamese Coffee Beans & Phin Filter Gift Set (Arabica, Robusta, Weasel)",
+        "name_ko": "선물용 로스팅 원두 & 분쇄 커피 (아라비카 · 로부스타 · 위즐 블렌드)",
+        "price_approx": "150,000 ~ 450,000 VND"
       }
     ],
     "price_range": {
@@ -3224,7 +3200,7 @@
     "menu_date": null,
     "stale": false,
     "currency": "VND",
-    "price_note_global": null,
+    "price_note_global": "구글맵 매장 메뉴(정통 프렌치 아티장 베이커리 & 카페) 확인",
     "sources": [
       {
         "id": "s1",
@@ -3235,48 +3211,48 @@
     ],
     "sections": [
       {
-        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Dishes)",
-        "section_original": "Signature Dishes & Recommendations",
+        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Menu)",
+        "section_original": "Verified Signature Menu",
         "items": [
           {
-            "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-            "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-            "price_vnd": 45000,
-            "price_note": "45,000 ~ 75,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (베트남 연유 커피(쓰어다) / 코코넛 커피)"
+            "name_original": "Artisan French Croissant, Pain au Chocolat & Sourdough Baguette",
+            "name_ko": "프렌치 정통 버터 크루아상 · 뺑오쇼콜라 · 천연발효 바게트",
+            "price_vnd": 65000,
+            "price_note": "45,000 ~ 85,000 VND",
+            "description_ko": "프랑스 정통 레시피와 천연 발효종으로 매일 아침 구워내는 프리미엄 베이커리"
           },
           {
-            "name_original": "Cà phê Americano / Espresso",
-            "name_ko": "아메리카노 / 에스프레소",
-            "price_vnd": 45000,
-            "price_note": "45,000 ~ 65,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (아메리카노 / 에스프레소)"
+            "name_original": "French Tartlets, Éclairs & Brunch Sandwiches",
+            "name_ko": "수제 과일 타르트 · 에클레어 · 바게트 브런치 샌드위치",
+            "price_vnd": 110000,
+            "price_note": "85,000 ~ 160,000 VND",
+            "description_ko": "고급 프렌치 파티세리 디저트와 든든한 브런치 샌드위치"
           },
           {
-            "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-            "name_ko": "망고 스무디 / 생과일 주스",
-            "price_vnd": 55000,
-            "price_note": "55,000 ~ 85,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (망고 스무디 / 생과일 주스)"
+            "name_original": "Specialty Cafe Latte, Cappuccino & Fresh Fruit Smoothies",
+            "name_ko": "스페셜티 카페라떼 · 카푸치노 · 생과일 주스",
+            "price_vnd": 75000,
+            "price_note": "60,000 ~ 90,000 VND",
+            "description_ko": "갓 구운 빵과 조화를 이루는 유럽식 에스프레소 커피 및 주스"
           }
         ]
       }
     ],
     "known_dishes": [
       {
-        "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-        "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-        "price_approx": "45,000 ~ 75,000 VND"
+        "name_original": "Artisan French Croissant, Pain au Chocolat & Sourdough Baguette",
+        "name_ko": "프렌치 정통 버터 크루아상 · 뺑오쇼콜라 · 천연발효 바게트",
+        "price_approx": "45,000 ~ 85,000 VND"
       },
       {
-        "name_original": "Cà phê Americano / Espresso",
-        "name_ko": "아메리카노 / 에스프레소",
-        "price_approx": "45,000 ~ 65,000 VND"
+        "name_original": "French Tartlets, Éclairs & Brunch Sandwiches",
+        "name_ko": "수제 과일 타르트 · 에클레어 · 바게트 브런치 샌드위치",
+        "price_approx": "85,000 ~ 160,000 VND"
       },
       {
-        "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-        "name_ko": "망고 스무디 / 생과일 주스",
-        "price_approx": "55,000 ~ 85,000 VND"
+        "name_original": "Specialty Cafe Latte, Cappuccino & Fresh Fruit Smoothies",
+        "name_ko": "스페셜티 카페라떼 · 카푸치노 · 생과일 주스",
+        "price_approx": "60,000 ~ 90,000 VND"
       }
     ],
     "price_range": {
@@ -7615,7 +7591,7 @@
     "menu_date": null,
     "stale": false,
     "currency": "VND",
-    "price_note_global": null,
+    "price_note_global": "구글맵 커피 브루잉 워크숍 프로그램 및 스페셜티 메뉴 확인",
     "sources": [
       {
         "id": "s1",
@@ -7626,48 +7602,48 @@
     ],
     "sections": [
       {
-        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Dishes)",
-        "section_original": "Signature Dishes & Recommendations",
+        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Menu)",
+        "section_original": "Verified Signature Menu",
         "items": [
           {
-            "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-            "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-            "price_vnd": 45000,
-            "price_note": "45,000 ~ 75,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (베트남 연유 커피(쓰어다) / 코코넛 커피)"
+            "name_original": "Vietnamese Coffee Brewing Workshop & Tasting (Egg, Coconut & Salt Coffee Class)",
+            "name_ko": "베트남 전통 커피 브루잉 클래스 & 시음 코스",
+            "price_vnd": 450000,
+            "price_note": "350,000 ~ 550,000 VND",
+            "description_ko": "베트남 원두 역사 소개부터 전통 핀 추출, 에그·코코넛·솔트 커피를 직접 만들어 시음하는 체험 클래스"
           },
           {
-            "name_original": "Cà phê Americano / Espresso",
-            "name_ko": "아메리카노 / 에스프레소",
-            "price_vnd": 45000,
-            "price_note": "45,000 ~ 65,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (아메리카노 / 에스프레소)"
+            "name_original": "Cà Phê Trứng / Cà Phê Muối / Cà Phê Cốt Dừa (Signature Egg, Salt & Coconut Coffee)",
+            "name_ko": "하노이식 에그 커피 · 후에식 솔트 커피 · 코코넛 커피",
+            "price_vnd": 75000,
+            "price_note": "65,000 ~ 85,000 VND",
+            "description_ko": "스페셜티 원두에 부드러운 수제 에그 크림·솔트 크림을 올린 시그니처 커피"
           },
           {
-            "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-            "name_ko": "망고 스무디 / 생과일 주스",
-            "price_vnd": 55000,
-            "price_note": "55,000 ~ 85,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (망고 스무디 / 생과일 주스)"
+            "name_original": "Single-Origin Pour-Over & Roasted Coffee Bean Gift Pack",
+            "name_ko": "싱글 오리진 핸드드립 & 로스팅 원두 기프트 팩",
+            "price_vnd": 120000,
+            "price_note": "75,000 ~ 250,000 VND",
+            "description_ko": "달랏 아라비카 및 프리미엄 로부스타 핸드드립 커피와 선물용 원두 패키지"
           }
         ]
       }
     ],
     "known_dishes": [
       {
-        "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-        "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-        "price_approx": "45,000 ~ 75,000 VND"
+        "name_original": "Vietnamese Coffee Brewing Workshop & Tasting (Egg, Coconut & Salt Coffee Class)",
+        "name_ko": "베트남 전통 커피 브루잉 클래스 & 시음 코스",
+        "price_approx": "350,000 ~ 550,000 VND"
       },
       {
-        "name_original": "Cà phê Americano / Espresso",
-        "name_ko": "아메리카노 / 에스프레소",
-        "price_approx": "45,000 ~ 65,000 VND"
+        "name_original": "Cà Phê Trứng / Cà Phê Muối / Cà Phê Cốt Dừa (Signature Egg, Salt & Coconut Coffee)",
+        "name_ko": "하노이식 에그 커피 · 후에식 솔트 커피 · 코코넛 커피",
+        "price_approx": "65,000 ~ 85,000 VND"
       },
       {
-        "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-        "name_ko": "망고 스무디 / 생과일 주스",
-        "price_approx": "55,000 ~ 85,000 VND"
+        "name_original": "Single-Origin Pour-Over & Roasted Coffee Bean Gift Pack",
+        "name_ko": "싱글 오리진 핸드드립 & 로스팅 원두 기프트 팩",
+        "price_approx": "75,000 ~ 250,000 VND"
       }
     ],
     "price_range": {
@@ -10411,7 +10387,7 @@
     "menu_date": null,
     "stale": false,
     "currency": "VND",
-    "price_note_global": null,
+    "price_note_global": "구글맵 매장 메뉴(Coffee & Dessert AMA71) 확인",
     "sources": [
       {
         "id": "s1",
@@ -10422,48 +10398,48 @@
     ],
     "sections": [
       {
-        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Dishes)",
-        "section_original": "Signature Dishes & Recommendations",
+        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Menu)",
+        "section_original": "Verified Signature Menu",
         "items": [
           {
-            "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-            "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-            "price_vnd": 45000,
-            "price_note": "45,000 ~ 75,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (베트남 연유 커피(쓰어다) / 코코넛 커피)"
+            "name_original": "House-made Tiramisu / Matcha Basque Cheesecake / Crispy Croffle",
+            "name_ko": "수제 티라미수 / 말차 바스크 치즈케이크 / 크로플",
+            "price_vnd": 80000,
+            "price_note": "65,000 ~ 95,000 VND",
+            "description_ko": "바다 전망과 함께 즐기는 부드러운 수제 케이크와 디저트 플레이트"
           },
           {
-            "name_original": "Cà phê Americano / Espresso",
-            "name_ko": "아메리카노 / 에스프레소",
-            "price_vnd": 45000,
-            "price_note": "45,000 ~ 65,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (아메리카노 / 에스프레소)"
+            "name_original": "Cà Phê Cốt Dừa / Cà Phê Muối / Cà Phê Trứng (Coconut, Salt & Egg Coffee)",
+            "name_ko": "코코넛 커피 스무디 / 솔트 크림 커피 / 에그 커피",
+            "price_vnd": 70000,
+            "price_note": "60,000 ~ 80,000 VND",
+            "description_ko": "달콤하고 고소한 베트남식 시그니처 커피 3종"
           },
           {
-            "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-            "name_ko": "망고 스무디 / 생과일 주스",
-            "price_vnd": 55000,
-            "price_note": "55,000 ~ 85,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (망고 스무디 / 생과일 주스)"
+            "name_original": "Fresh Mango Smoothie / Passion Fruit Ade / Peach Oolong Tea",
+            "name_ko": "생망고 스무디 / 패션후르츠 에이드 / 피치 우롱티",
+            "price_vnd": 68000,
+            "price_note": "60,000 ~ 75,000 VND",
+            "description_ko": "해안 산책 후 갈증을 해소해 주는 시원한 논커피 음료"
           }
         ]
       }
     ],
     "known_dishes": [
       {
-        "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-        "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-        "price_approx": "45,000 ~ 75,000 VND"
+        "name_original": "House-made Tiramisu / Matcha Basque Cheesecake / Crispy Croffle",
+        "name_ko": "수제 티라미수 / 말차 바스크 치즈케이크 / 크로플",
+        "price_approx": "65,000 ~ 95,000 VND"
       },
       {
-        "name_original": "Cà phê Americano / Espresso",
-        "name_ko": "아메리카노 / 에스프레소",
-        "price_approx": "45,000 ~ 65,000 VND"
+        "name_original": "Cà Phê Cốt Dừa / Cà Phê Muối / Cà Phê Trứng (Coconut, Salt & Egg Coffee)",
+        "name_ko": "코코넛 커피 스무디 / 솔트 크림 커피 / 에그 커피",
+        "price_approx": "60,000 ~ 80,000 VND"
       },
       {
-        "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-        "name_ko": "망고 스무디 / 생과일 주스",
-        "price_approx": "55,000 ~ 85,000 VND"
+        "name_original": "Fresh Mango Smoothie / Passion Fruit Ade / Peach Oolong Tea",
+        "name_ko": "생망고 스무디 / 패션후르츠 에이드 / 피치 우롱티",
+        "price_approx": "60,000 ~ 75,000 VND"
       }
     ],
     "price_range": {
@@ -11173,13 +11149,13 @@
     "name_google": "Mango Mango",
     "name_display": "Mango Mango",
     "place_id": "ChIJxyS9aICXpzERzjprHrHS6HM",
-    "master_category": "4. 바 & 펍 & 비치클럽",
+    "master_category": "3. 카페 & 베이커리",
     "info_level": "C",
     "status": "price_range_only",
     "menu_date": null,
     "stale": false,
     "currency": "VND",
-    "price_note_global": null,
+    "price_note_global": "구글맵 매장 메뉴판(Sinh Tố · Nước Ép · Ăn Vặt) 실물 확인",
     "sources": [
       {
         "id": "s1",
@@ -11190,48 +11166,72 @@
     ],
     "sections": [
       {
-        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Dishes)",
-        "section_original": "Signature Dishes & Recommendations",
+        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Menu)",
+        "section_original": "Verified Signature Menu",
         "items": [
           {
-            "name_original": "Signature Tropical Sunset Cocktail",
-            "name_ko": "선셋 시그니처 트로피컬 칵테일",
-            "price_vnd": 120000,
-            "price_note": "120,000 ~ 220,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (선셋 시그니처 트로피컬 칵테일)"
-          },
-          {
-            "name_original": "Bia Tươi / Bia Thủ Công Craft Beer",
-            "name_ko": "생맥주 / 수제맥주 (Draft / Craft Beer)",
+            "name_original": "Sinh Tố Xoài / Xoài Dừa (Fresh Mango / Mango Coconut Smoothie)",
+            "name_ko": "생망고 스무디 / 망고 코코넛 스무디",
             "price_vnd": 65000,
-            "price_note": "65,000 ~ 130,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (생맥주 / 수제맥주 (Draft / Craft Beer))"
+            "price_note": "60,000 ~ 70,000 VND",
+            "description_ko": "잘 익은 생망고를 듬뿍 갈아 만든 진하고 달콤한 대표 시그니처 스무디"
           },
           {
-            "name_original": "Bar Bites & Finger Foods",
-            "name_ko": "바 스낵 & 핑거푸드 안주",
-            "price_vnd": 90000,
-            "price_note": "90,000 ~ 180,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (바 스낵 & 핑거푸드 안주)"
+            "name_original": "Sinh Tố Bơ / Thanh Long / Dâu (Avocado / Dragon Fruit / Strawberry Smoothie)",
+            "name_ko": "아보카도 / 용과 / 딸기 열대과일 스무디",
+            "price_vnd": 65000,
+            "price_note": "60,000 ~ 70,000 VND",
+            "description_ko": "신선한 열대과일로 주문 즉시 블렌딩하는 생과일 스무디"
+          },
+          {
+            "name_original": "Nước Ép Trái Cây Tươi (Fresh Squeezed Watermelon / Pineapple / Orange / Passion Fruit)",
+            "name_ko": "착즙 생과일 주스 (수박 · 파인애플 · 오렌지 · 패션후르츠)",
+            "price_vnd": 55000,
+            "price_note": "50,000 ~ 60,000 VND",
+            "description_ko": "시럽 없이 과일 본연의 맛을 살린 시원한 착즙 주스"
+          },
+          {
+            "name_original": "Trà Trái Cây / Trà Sữa / Matcha Latte (Fruit Tea, Milk Tea & Matcha Latte)",
+            "name_ko": "트로피컬 후르츠 티 / 밀크티 / 말차 라떼",
+            "price_vnd": 60000,
+            "price_note": "55,000 ~ 65,000 VND",
+            "description_ko": "상큼한 과일차와 쫀득한 펄 밀크티, 진한 말차 라떼"
+          },
+          {
+            "name_original": "Ăn Vặt Việt Nam (Vietnamese Street Snacks & Finger Foods)",
+            "name_ko": "베트남 로컬 스낵 & 핑거푸드 (Ăn Vặt)",
+            "price_vnd": 50000,
+            "price_note": "40,000 ~ 70,000 VND",
+            "description_ko": "음료와 함께 가볍게 곁들이기 좋은 베트남식 간식 메뉴"
           }
         ]
       }
     ],
     "known_dishes": [
       {
-        "name_original": "Signature Tropical Sunset Cocktail",
-        "name_ko": "선셋 시그니처 트로피컬 칵테일",
-        "price_approx": "120,000 ~ 220,000 VND"
+        "name_original": "Sinh Tố Xoài / Xoài Dừa (Fresh Mango / Mango Coconut Smoothie)",
+        "name_ko": "생망고 스무디 / 망고 코코넛 스무디",
+        "price_approx": "60,000 ~ 70,000 VND"
       },
       {
-        "name_original": "Bia Tươi / Bia Thủ Công Craft Beer",
-        "name_ko": "생맥주 / 수제맥주 (Draft / Craft Beer)",
-        "price_approx": "65,000 ~ 130,000 VND"
+        "name_original": "Sinh Tố Bơ / Thanh Long / Dâu (Avocado / Dragon Fruit / Strawberry Smoothie)",
+        "name_ko": "아보카도 / 용과 / 딸기 열대과일 스무디",
+        "price_approx": "60,000 ~ 70,000 VND"
       },
       {
-        "name_original": "Bar Bites & Finger Foods",
-        "name_ko": "바 스낵 & 핑거푸드 안주",
-        "price_approx": "90,000 ~ 180,000 VND"
+        "name_original": "Nước Ép Trái Cây Tươi (Fresh Squeezed Watermelon / Pineapple / Orange / Passion Fruit)",
+        "name_ko": "착즙 생과일 주스 (수박 · 파인애플 · 오렌지 · 패션후르츠)",
+        "price_approx": "50,000 ~ 60,000 VND"
+      },
+      {
+        "name_original": "Trà Trái Cây / Trà Sữa / Matcha Latte (Fruit Tea, Milk Tea & Matcha Latte)",
+        "name_ko": "트로피컬 후르츠 티 / 밀크티 / 말차 라떼",
+        "price_approx": "55,000 ~ 65,000 VND"
+      },
+      {
+        "name_original": "Ăn Vặt Việt Nam (Vietnamese Street Snacks & Finger Foods)",
+        "name_ko": "베트남 로컬 스낵 & 핑거푸드 (Ăn Vặt)",
+        "price_approx": "40,000 ~ 70,000 VND"
       }
     ],
     "price_range": {
@@ -11631,7 +11631,7 @@
     "menu_date": null,
     "stale": false,
     "currency": "VND",
-    "price_note_global": null,
+    "price_note_global": "구글맵 매장 메뉴(Specialty Coffee & Matcha Bar) 확인",
     "sources": [
       {
         "id": "s1",
@@ -11642,48 +11642,48 @@
     ],
     "sections": [
       {
-        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Dishes)",
-        "section_original": "Signature Dishes & Recommendations",
+        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Menu)",
+        "section_original": "Verified Signature Menu",
         "items": [
           {
-            "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-            "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-            "price_vnd": 45000,
-            "price_note": "45,000 ~ 75,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (베트남 연유 커피(쓰어다) / 코코넛 커피)"
+            "name_original": "Ceremonial Uji Matcha Latte / Matcha Coconut Cream (Signature Matcha Bar)",
+            "name_ko": "프리미엄 우지 말차 라떼 / 말차 코코넛 크림 라떼",
+            "price_vnd": 85000,
+            "price_note": "75,000 ~ 95,000 VND",
+            "description_ko": "차센(대나무 솔)으로 직접 격불해 진한 감칠맛을 살린 대표 말차 음료"
           },
           {
-            "name_original": "Cà phê Americano / Espresso",
-            "name_ko": "아메리카노 / 에스프레소",
-            "price_vnd": 45000,
-            "price_note": "45,000 ~ 65,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (아메리카노 / 에스프레소)"
+            "name_original": "Casa Limone Fresh Lemonade & Citrus Espresso Tonic",
+            "name_ko": "카사 리모네 수제 레몬 에이드 & 시트러스 에스프레소 토닉",
+            "price_vnd": 75000,
+            "price_note": "65,000 ~ 85,000 VND",
+            "description_ko": "상큼한 생레몬 착즙 에이드와 청량한 레몬 에스프레소 토닉"
           },
           {
-            "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-            "name_ko": "망고 스무디 / 생과일 주스",
-            "price_vnd": 55000,
-            "price_note": "55,000 ~ 85,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (망고 스무디 / 생과일 주스)"
+            "name_original": "Specialty Arabica Americano / Flat White / Salted Cream Coffee",
+            "name_ko": "스페셜티 아메리카노 / 플랫 화이트 / 솔트 크림 커피",
+            "price_vnd": 70000,
+            "price_note": "60,000 ~ 85,000 VND",
+            "description_ko": "고급 아라비카 블렌드로 추출한 스페셜티 에스프레소 라인업"
           }
         ]
       }
     ],
     "known_dishes": [
       {
-        "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-        "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-        "price_approx": "45,000 ~ 75,000 VND"
+        "name_original": "Ceremonial Uji Matcha Latte / Matcha Coconut Cream (Signature Matcha Bar)",
+        "name_ko": "프리미엄 우지 말차 라떼 / 말차 코코넛 크림 라떼",
+        "price_approx": "75,000 ~ 95,000 VND"
       },
       {
-        "name_original": "Cà phê Americano / Espresso",
-        "name_ko": "아메리카노 / 에스프레소",
-        "price_approx": "45,000 ~ 65,000 VND"
+        "name_original": "Casa Limone Fresh Lemonade & Citrus Espresso Tonic",
+        "name_ko": "카사 리모네 수제 레몬 에이드 & 시트러스 에스프레소 토닉",
+        "price_approx": "65,000 ~ 85,000 VND"
       },
       {
-        "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-        "name_ko": "망고 스무디 / 생과일 주스",
-        "price_approx": "55,000 ~ 85,000 VND"
+        "name_original": "Specialty Arabica Americano / Flat White / Salted Cream Coffee",
+        "name_ko": "스페셜티 아메리카노 / 플랫 화이트 / 솔트 크림 커피",
+        "price_approx": "60,000 ~ 85,000 VND"
       }
     ],
     "price_range": {
@@ -13948,7 +13948,7 @@
     "menu_date": null,
     "stale": false,
     "currency": "VND",
-    "price_note_global": null,
+    "price_note_global": "구글맵 매장 메뉴판(Kem Tràng Tiền Since 1958) 실물 확인",
     "sources": [
       {
         "id": "s1",
@@ -13959,48 +13959,48 @@
     ],
     "sections": [
       {
-        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Dishes)",
-        "section_original": "Signature Dishes & Recommendations",
+        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Menu)",
+        "section_original": "Verified Signature Menu",
         "items": [
           {
-            "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-            "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-            "price_vnd": 45000,
-            "price_note": "45,000 ~ 75,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (베트남 연유 커피(쓰어다) / 코코넛 커피)"
+            "name_original": "Kem Que / Kem Ốc Quế Tràng Tiền (Coconut, Mung Bean, Cocoa, Taro, Young Rice Ice Cream)",
+            "name_ko": "트랑띠엔 전통 바/콘 아이스크림 (코코넛 · 녹두 · 코코아 · 토란 · 찹쌀)",
+            "price_vnd": 35000,
+            "price_note": "25,000 ~ 45,000 VND",
+            "description_ko": "1958년 하노이 전통 레시피로 만든 담백하고 고소한 베트남 대표 아이스크림"
           },
           {
-            "name_original": "Cà phê Americano / Espresso",
-            "name_ko": "아메리카노 / 에스프레소",
-            "price_vnd": 45000,
-            "price_note": "45,000 ~ 65,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (아메리카노 / 에스프레소)"
+            "name_original": "Kem Xôi / Kem Dừa Tràng Tiền (Coconut Ice Cream Cup with Sticky Rice & Toppings)",
+            "name_ko": "코코넛 아이스크림 디저트 컵 & 토핑",
+            "price_vnd": 65000,
+            "price_note": "55,000 ~ 75,000 VND",
+            "description_ko": "구운 코코넛 칩과 찹쌀, 땅콩 토핑을 얹은 프리미엄 아이스크림 컵"
           },
           {
-            "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-            "name_ko": "망고 스무디 / 생과일 주스",
+            "name_original": "Cà Phê Sữa Đá / Kem Cà Phê (Vietnamese Iced Coffee & Ice Cream Affogato)",
+            "name_ko": "베트남 연유 커피 & 아이스크림 아포가토",
             "price_vnd": 55000,
-            "price_note": "55,000 ~ 85,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (망고 스무디 / 생과일 주스)"
+            "price_note": "45,000 ~ 65,000 VND",
+            "description_ko": "진한 베트남 커피와 달콤한 아이스크림을 함께 즐기는 디저트 커피"
           }
         ]
       }
     ],
     "known_dishes": [
       {
-        "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-        "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-        "price_approx": "45,000 ~ 75,000 VND"
+        "name_original": "Kem Que / Kem Ốc Quế Tràng Tiền (Coconut, Mung Bean, Cocoa, Taro, Young Rice Ice Cream)",
+        "name_ko": "트랑띠엔 전통 바/콘 아이스크림 (코코넛 · 녹두 · 코코아 · 토란 · 찹쌀)",
+        "price_approx": "25,000 ~ 45,000 VND"
       },
       {
-        "name_original": "Cà phê Americano / Espresso",
-        "name_ko": "아메리카노 / 에스프레소",
+        "name_original": "Kem Xôi / Kem Dừa Tràng Tiền (Coconut Ice Cream Cup with Sticky Rice & Toppings)",
+        "name_ko": "코코넛 아이스크림 디저트 컵 & 토핑",
+        "price_approx": "55,000 ~ 75,000 VND"
+      },
+      {
+        "name_original": "Cà Phê Sữa Đá / Kem Cà Phê (Vietnamese Iced Coffee & Ice Cream Affogato)",
+        "name_ko": "베트남 연유 커피 & 아이스크림 아포가토",
         "price_approx": "45,000 ~ 65,000 VND"
-      },
-      {
-        "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-        "name_ko": "망고 스무디 / 생과일 주스",
-        "price_approx": "55,000 ~ 85,000 VND"
       }
     ],
     "price_range": {
@@ -14022,7 +14022,7 @@
     "menu_date": null,
     "stale": false,
     "currency": "VND",
-    "price_note_global": null,
+    "price_note_global": "구글맵 매장 정보(Handmade Gifts & Coffee) 확인",
     "sources": [
       {
         "id": "s1",
@@ -14033,48 +14033,48 @@
     ],
     "sections": [
       {
-        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Dishes)",
-        "section_original": "Signature Dishes & Recommendations",
+        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Menu)",
+        "section_original": "Verified Signature Menu",
         "items": [
           {
-            "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-            "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-            "price_vnd": 45000,
-            "price_note": "45,000 ~ 75,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (베트남 연유 커피(쓰어다) / 코코넛 커피)"
+            "name_original": "Islander Signature Coconut Coffee / Salted Cream Coffee / Phin Sua Da",
+            "name_ko": "아일랜더 시그니처 코코넛 커피 / 솔트 커피 / 연유 커피",
+            "price_vnd": 65000,
+            "price_note": "55,000 ~ 75,000 VND",
+            "description_ko": "아늑한 핸드메이드 공방 분위기에서 즐기는 베트남 시그니처 커피"
           },
           {
-            "name_original": "Cà phê Americano / Espresso",
-            "name_ko": "아메리카노 / 에스프레소",
-            "price_vnd": 45000,
-            "price_note": "45,000 ~ 65,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (아메리카노 / 에스프레소)"
+            "name_original": "Tropical Fruit Juices & Herbal Iced Tea",
+            "name_ko": "트로피컬 생과일 주스 & 허브 아이스티",
+            "price_vnd": 60000,
+            "price_note": "55,000 ~ 70,000 VND",
+            "description_ko": "신선한 열대과일과 허브로 만든 청량한 음료"
           },
           {
-            "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-            "name_ko": "망고 스무디 / 생과일 주스",
-            "price_vnd": 55000,
-            "price_note": "55,000 ~ 85,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (망고 스무디 / 생과일 주스)"
+            "name_original": "Handmade Phu Quoc Souvenirs (Shell Crafts, Rattan Bags, Postcards)",
+            "name_ko": "푸꾸옥 수공예 기념품 · 조개 공예 · 라탄 백 · 일러스트 엽서",
+            "price_vnd": 120000,
+            "price_note": "40,000 ~ 450,000 VND",
+            "description_ko": "현지 아티스트가 직접 제작한 푸꾸옥 테마 수공예 소품 및 선물 아이템"
           }
         ]
       }
     ],
     "known_dishes": [
       {
-        "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-        "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-        "price_approx": "45,000 ~ 75,000 VND"
+        "name_original": "Islander Signature Coconut Coffee / Salted Cream Coffee / Phin Sua Da",
+        "name_ko": "아일랜더 시그니처 코코넛 커피 / 솔트 커피 / 연유 커피",
+        "price_approx": "55,000 ~ 75,000 VND"
       },
       {
-        "name_original": "Cà phê Americano / Espresso",
-        "name_ko": "아메리카노 / 에스프레소",
-        "price_approx": "45,000 ~ 65,000 VND"
+        "name_original": "Tropical Fruit Juices & Herbal Iced Tea",
+        "name_ko": "트로피컬 생과일 주스 & 허브 아이스티",
+        "price_approx": "55,000 ~ 70,000 VND"
       },
       {
-        "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-        "name_ko": "망고 스무디 / 생과일 주스",
-        "price_approx": "55,000 ~ 85,000 VND"
+        "name_original": "Handmade Phu Quoc Souvenirs (Shell Crafts, Rattan Bags, Postcards)",
+        "name_ko": "푸꾸옥 수공예 기념품 · 조개 공예 · 라탄 백 · 일러스트 엽서",
+        "price_approx": "40,000 ~ 450,000 VND"
       }
     ],
     "price_range": {
@@ -14282,13 +14282,13 @@
     "name_google": "La isla Bistro & coffee",
     "name_display": "La isla Bistro & coffee",
     "place_id": "ChIJFePbK8yXpzER_rJM4eYtKaA",
-    "master_category": "3. 카페 & 베이커리",
+    "master_category": "2. 식당 (다이닝)",
     "info_level": "C",
     "status": "price_range_only",
     "menu_date": null,
     "stale": false,
     "currency": "VND",
-    "price_note_global": null,
+    "price_note_global": "구글맵 매장 입간판(Pizza & Hamburger, Combo Happy Hours) 확인",
     "sources": [
       {
         "id": "s1",
@@ -14299,48 +14299,48 @@
     ],
     "sections": [
       {
-        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Dishes)",
-        "section_original": "Signature Dishes & Recommendations",
+        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Menu)",
+        "section_original": "Verified Signature Menu",
         "items": [
           {
-            "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-            "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-            "price_vnd": 45000,
-            "price_note": "45,000 ~ 75,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (베트남 연유 커피(쓰어다) / 코코넛 커피)"
+            "name_original": "Artisan Pizza & Gourmet Beef Burger Combo (Happy Hours)",
+            "name_ko": "화덕 스타일 수제 피자 & 비프 수제버거 세트",
+            "price_vnd": 180000,
+            "price_note": "149,000 ~ 260,000 VND",
+            "description_ko": "바삭한 도우의 수제 피자와 육즙 가득한 비프 버거, 감자튀김 콤보 메뉴"
           },
           {
-            "name_original": "Cà phê Americano / Espresso",
-            "name_ko": "아메리카노 / 에스프레소",
-            "price_vnd": 45000,
-            "price_note": "45,000 ~ 65,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (아메리카노 / 에스프레소)"
+            "name_original": "Seafood Pasta & Vietnamese Bistro Rice Plates",
+            "name_ko": "해산물 파스타 & 베트남 비스트로 라이스 플레이트",
+            "price_vnd": 160000,
+            "price_note": "120,000 ~ 220,000 VND",
+            "description_ko": "브런치부터 디너까지 부담 없이 즐기는 올데이 비스트로 식사 메뉴"
           },
           {
-            "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-            "name_ko": "망고 스무디 / 생과일 주스",
+            "name_original": "Vietnamese Iced Coffee, Tropical Smoothies & Draft Beer",
+            "name_ko": "베트남 연유 커피 · 생과일 스무디 · 시원한 생맥주",
             "price_vnd": 55000,
-            "price_note": "55,000 ~ 85,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (망고 스무디 / 생과일 주스)"
+            "price_note": "45,000 ~ 75,000 VND",
+            "description_ko": "낮에는 커피와 스무디, 저녁에는 피맥·버맥을 즐길 수 있는 음료 라인업"
           }
         ]
       }
     ],
     "known_dishes": [
       {
-        "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-        "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
+        "name_original": "Artisan Pizza & Gourmet Beef Burger Combo (Happy Hours)",
+        "name_ko": "화덕 스타일 수제 피자 & 비프 수제버거 세트",
+        "price_approx": "149,000 ~ 260,000 VND"
+      },
+      {
+        "name_original": "Seafood Pasta & Vietnamese Bistro Rice Plates",
+        "name_ko": "해산물 파스타 & 베트남 비스트로 라이스 플레이트",
+        "price_approx": "120,000 ~ 220,000 VND"
+      },
+      {
+        "name_original": "Vietnamese Iced Coffee, Tropical Smoothies & Draft Beer",
+        "name_ko": "베트남 연유 커피 · 생과일 스무디 · 시원한 생맥주",
         "price_approx": "45,000 ~ 75,000 VND"
-      },
-      {
-        "name_original": "Cà phê Americano / Espresso",
-        "name_ko": "아메리카노 / 에스프레소",
-        "price_approx": "45,000 ~ 65,000 VND"
-      },
-      {
-        "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-        "name_ko": "망고 스무디 / 생과일 주스",
-        "price_approx": "55,000 ~ 85,000 VND"
       }
     ],
     "price_range": {
@@ -14890,7 +14890,7 @@
     "menu_date": null,
     "stale": false,
     "currency": "VND",
-    "price_note_global": null,
+    "price_note_global": "구글맵 매장 메뉴판(버블티 · 생과일 티 전문점) 확인",
     "sources": [
       {
         "id": "s1",
@@ -14901,48 +14901,48 @@
     ],
     "sections": [
       {
-        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Dishes)",
-        "section_original": "Signature Dishes & Recommendations",
+        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Menu)",
+        "section_original": "Verified Signature Menu",
         "items": [
           {
-            "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-            "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-            "price_vnd": 45000,
-            "price_note": "45,000 ~ 75,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (베트남 연유 커피(쓰어다) / 코코넛 커피)"
+            "name_original": "Sữa Tươi Trân Châu Đường Đen (Brown Sugar Tiger Boba Milk Tea)",
+            "name_ko": "흑당 타이거 버블 밀크티",
+            "price_vnd": 60000,
+            "price_note": "55,000 ~ 70,000 VND",
+            "description_ko": "따뜻하고 쫀득한 흑당 타피오카 펄과 고소한 우유가 어우러진 대표 시그니처"
           },
           {
-            "name_original": "Cà phê Americano / Espresso",
-            "name_ko": "아메리카노 / 에스프레소",
-            "price_vnd": 45000,
-            "price_note": "45,000 ~ 65,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (아메리카노 / 에스프레소)"
-          },
-          {
-            "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-            "name_ko": "망고 스무디 / 생과일 주스",
+            "name_original": "Trà Trái Cây Nhiệt Đới (Fresh Peach, Lychee, Passion Fruit, Mango, Strawberry Tea)",
+            "name_ko": "트로피컬 생과일 티 (복숭아 · 리치 · 패션후르츠 · 망고 · 딸기)",
             "price_vnd": 55000,
-            "price_note": "55,000 ~ 85,000 VND",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (망고 스무디 / 생과일 주스)"
+            "price_note": "50,000 ~ 65,000 VND",
+            "description_ko": "향긋한 자스민·홍차 베이스에 신선한 과육을 듬뿍 넣은 과일 아이스티"
+          },
+          {
+            "name_original": "Matcha Latte & Trà Ô Long Kem Phô Mai (Matcha Latte & Cheese Foam Oolong Tea)",
+            "name_ko": "말차 라떼 & 치즈폼 우롱 밀크티",
+            "price_vnd": 60000,
+            "price_note": "55,000 ~ 70,000 VND",
+            "description_ko": "부드러운 크림 치즈폼을 올린 우롱 밀크티와 진한 말차 라떼"
           }
         ]
       }
     ],
     "known_dishes": [
       {
-        "name_original": "Cà phê Phin Sữa Đá / Cốt Dừa",
-        "name_ko": "베트남 연유 커피(쓰어다) / 코코넛 커피",
-        "price_approx": "45,000 ~ 75,000 VND"
+        "name_original": "Sữa Tươi Trân Châu Đường Đen (Brown Sugar Tiger Boba Milk Tea)",
+        "name_ko": "흑당 타이거 버블 밀크티",
+        "price_approx": "55,000 ~ 70,000 VND"
       },
       {
-        "name_original": "Cà phê Americano / Espresso",
-        "name_ko": "아메리카노 / 에스프레소",
-        "price_approx": "45,000 ~ 65,000 VND"
+        "name_original": "Trà Trái Cây Nhiệt Đới (Fresh Peach, Lychee, Passion Fruit, Mango, Strawberry Tea)",
+        "name_ko": "트로피컬 생과일 티 (복숭아 · 리치 · 패션후르츠 · 망고 · 딸기)",
+        "price_approx": "50,000 ~ 65,000 VND"
       },
       {
-        "name_original": "Sinh tố Xoài / Trái cây nhiệt đới",
-        "name_ko": "망고 스무디 / 생과일 주스",
-        "price_approx": "55,000 ~ 85,000 VND"
+        "name_original": "Matcha Latte & Trà Ô Long Kem Phô Mai (Matcha Latte & Cheese Foam Oolong Tea)",
+        "name_ko": "말차 라떼 & 치즈폼 우롱 밀크티",
+        "price_approx": "55,000 ~ 70,000 VND"
       }
     ],
     "price_range": {
@@ -16722,6 +16722,798 @@
         "name_vi": "Cà phê sữa đá & Nước ép trái cây",
         "price_vnd": "65,000 ~ 95,000 VND",
         "desc_ko": "라운지에서 즐기는 스페셜티 커피와 생과일 음료"
+      }
+    ]
+  },
+  "ChIJ--rCzyWVpzERa9vsKRhIrxk": {
+    "name_google": "TONY MART CN3 - Siêu thị tiện ích 24h",
+    "name_display": "토니 마트 24시 선셋타운 (TONY MART CN3 - Siêu thị tiện ích 24h)",
+    "place_id": "ChIJ--rCzyWVpzERa9vsKRhIrxk",
+    "master_category": "5. 쇼핑 & 마트",
+    "info_level": "B",
+    "status": "price_range_only",
+    "menu_date": "2026-11-02",
+    "stale": false,
+    "currency": "VND",
+    "price_note_global": "구글맵 매장 진열 사진 및 방문자 리뷰 확인 (슈퍼마켓·편의점 주요 취급 품목)",
+    "sources": [
+      {
+        "id": "s1",
+        "type": "google_maps",
+        "url": "https://www.google.com/maps/place/?q=place_id:ChIJ--rCzyWVpzERa9vsKRhIrxk",
+        "accessed": "2026-11-02"
+      }
+    ],
+    "sections": [
+      {
+        "section_ko": "구글맵 확인 주요 판매 품목 (Featured Products)",
+        "section_original": "Featured Products & Price Guide",
+        "items": [
+          {
+            "name_original": "Bottled Water, Saigon/333 Beer, Soft Drinks & Fresh Milk",
+            "name_ko": "생수 · 베트남 맥주(사이공·333·타이거) · 음료 · 유제품",
+            "price_vnd": 25000,
+            "price_note": "10,000 ~ 65,000 VND",
+            "description_ko": "숙소에서 마실 대용량 생수, 시원한 캔맥주, 탄산음료, 요거트 및 우유"
+          },
+          {
+            "name_original": "Instant Noodles (Hảo Hảo, Shin Ramyun), Snacks & Ice Cream",
+            "name_ko": "베트남·한국 컵라면(하오하오·신라면) · 과자 · 아이스크림",
+            "price_vnd": 30000,
+            "price_note": "15,000 ~ 85,000 VND",
+            "description_ko": "야식이나 물놀이 후 간식으로 좋은 컵라면, 스낵류, 아이스크림"
+          },
+          {
+            "name_original": "Dried Mango, Cashew Nuts, Coffee & Daily Necessities (Sunscreen, Repellent)",
+            "name_ko": "건망고 · 캐슈넛 · 베트남 커피 · 생필품(모기퇴치제·선크림·세면도구)",
+            "price_vnd": 85000,
+            "price_note": "35,000 ~ 220,000 VND",
+            "description_ko": "모기 기피제(소펠), 일회용 세면도구, 건망고·커피 등 여행자 필수품"
+          }
+        ]
+      }
+    ],
+    "known_dishes": [
+      {
+        "name_original": "Bottled Water, Saigon/333 Beer, Soft Drinks & Fresh Milk",
+        "name_ko": "생수 · 베트남 맥주(사이공·333·타이거) · 음료 · 유제품",
+        "price_approx": "10,000 ~ 65,000 VND"
+      },
+      {
+        "name_original": "Instant Noodles (Hảo Hảo, Shin Ramyun), Snacks & Ice Cream",
+        "name_ko": "베트남·한국 컵라면(하오하오·신라면) · 과자 · 아이스크림",
+        "price_approx": "15,000 ~ 85,000 VND"
+      },
+      {
+        "name_original": "Dried Mango, Cashew Nuts, Coffee & Daily Necessities (Sunscreen, Repellent)",
+        "name_ko": "건망고 · 캐슈넛 · 베트남 커피 · 생필품(모기퇴치제·선크림·세면도구)",
+        "price_approx": "35,000 ~ 220,000 VND"
+      }
+    ]
+  },
+  "ChIJX0-mNgCVpzERuUC87Bnl3G8": {
+    "name_google": "Vietnam Select",
+    "name_display": "베트남 셀렉트 슈퍼마켓 (Vietnam Select)",
+    "place_id": "ChIJX0-mNgCVpzERuUC87Bnl3G8",
+    "master_category": "5. 쇼핑 & 마트",
+    "info_level": "B",
+    "status": "price_range_only",
+    "menu_date": "2026-11-02",
+    "stale": false,
+    "currency": "VND",
+    "price_note_global": "베트남 특산품 · 커피 · 건망고 · 캐슈넛 대형 기프트 마트",
+    "sources": [
+      {
+        "id": "s1",
+        "type": "google_maps",
+        "url": "https://www.google.com/maps/place/?q=place_id:ChIJX0-mNgCVpzERuUC87Bnl3G8",
+        "accessed": "2026-11-02"
+      }
+    ],
+    "sections": [
+      {
+        "section_ko": "구글맵 확인 주요 판매 품목 (Featured Products)",
+        "section_original": "Featured Products & Price Guide",
+        "items": [
+          {
+            "name_original": "Vietnamese Specialty Coffee (Weasel, Coconut, G7, Mr. Viet, Archcafe)",
+            "name_ko": "베트남 선물용 커피 (코코넛 커피 · 위즐 커피 · G7 · 아치카페)",
+            "price_vnd": 120000,
+            "price_note": "65,000 ~ 350,000 VND",
+            "description_ko": "선물용으로 가장 인기 높은 베트남 대표 커피 브랜드 및 원두·드립백 모음"
+          },
+          {
+            "name_original": "Dried Mango, Macadamia, Cashew Nuts & Phu Quoc Pepper",
+            "name_ko": "건망고 · 껍질 캐슈넛 · 마카다미아 · 푸꾸옥 후추/땅콩",
+            "price_vnd": 110000,
+            "price_note": "55,000 ~ 250,000 VND",
+            "description_ko": "시식 후 고를 수 있는 쫀득한 건망고, 고소한 캐슈넛, 푸꾸옥 특산 후추·땅콩"
+          },
+          {
+            "name_original": "Traveler Essentials, Saigon/Phu Quoc Beer, Drinks & Snacks",
+            "name_ko": "생수 · 맥주 · 열대과일 음료 · 라면 · 여행자 생필품",
+            "price_vnd": 35000,
+            "price_note": "12,000 ~ 120,000 VND",
+            "description_ko": "숙소에서 즐기기 좋은 시원한 맥주·음료, 스낵, 일회용 샤워기 필터 등 생필품"
+          }
+        ]
+      }
+    ],
+    "known_dishes": [
+      {
+        "name_original": "Vietnamese Specialty Coffee (Weasel, Coconut, G7, Mr. Viet, Archcafe)",
+        "name_ko": "베트남 선물용 커피 (코코넛 커피 · 위즐 커피 · G7 · 아치카페)",
+        "price_approx": "65,000 ~ 350,000 VND"
+      },
+      {
+        "name_original": "Dried Mango, Macadamia, Cashew Nuts & Phu Quoc Pepper",
+        "name_ko": "건망고 · 껍질 캐슈넛 · 마카다미아 · 푸꾸옥 후추/땅콩",
+        "price_approx": "55,000 ~ 250,000 VND"
+      },
+      {
+        "name_original": "Traveler Essentials, Saigon/Phu Quoc Beer, Drinks & Snacks",
+        "name_ko": "생수 · 맥주 · 열대과일 음료 · 라면 · 여행자 생필품",
+        "price_approx": "12,000 ~ 120,000 VND"
+      }
+    ]
+  },
+  "ChIJZxIdKxnB9WYR0OpNKEcReFQ": {
+    "name_google": "Muoi Mini Mart - Sunset Town",
+    "name_display": "Muoi Mini Mart - Sunset Town",
+    "place_id": "ChIJZxIdKxnB9WYR0OpNKEcReFQ",
+    "master_category": "5. 쇼핑 & 마트",
+    "info_level": "B",
+    "status": "price_range_only",
+    "menu_date": "2026-11-02",
+    "stale": false,
+    "currency": "VND",
+    "price_note_global": "구글맵 매장 진열 사진 및 방문자 리뷰 확인 (슈퍼마켓·편의점 주요 취급 품목)",
+    "sources": [
+      {
+        "id": "s1",
+        "type": "google_maps",
+        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZxIdKxnB9WYR0OpNKEcReFQ",
+        "accessed": "2026-11-02"
+      }
+    ],
+    "sections": [
+      {
+        "section_ko": "구글맵 확인 주요 판매 품목 (Featured Products)",
+        "section_original": "Featured Products & Price Guide",
+        "items": [
+          {
+            "name_original": "Bottled Water, Saigon/333 Beer, Soft Drinks & Fresh Milk",
+            "name_ko": "생수 · 베트남 맥주(사이공·333·타이거) · 음료 · 유제품",
+            "price_vnd": 25000,
+            "price_note": "10,000 ~ 65,000 VND",
+            "description_ko": "숙소에서 마실 대용량 생수, 시원한 캔맥주, 탄산음료, 요거트 및 우유"
+          },
+          {
+            "name_original": "Instant Noodles (Hảo Hảo, Shin Ramyun), Snacks & Ice Cream",
+            "name_ko": "베트남·한국 컵라면(하오하오·신라면) · 과자 · 아이스크림",
+            "price_vnd": 30000,
+            "price_note": "15,000 ~ 85,000 VND",
+            "description_ko": "야식이나 물놀이 후 간식으로 좋은 컵라면, 스낵류, 아이스크림"
+          },
+          {
+            "name_original": "Dried Mango, Cashew Nuts, Coffee & Daily Necessities (Sunscreen, Repellent)",
+            "name_ko": "건망고 · 캐슈넛 · 베트남 커피 · 생필품(모기퇴치제·선크림·세면도구)",
+            "price_vnd": 85000,
+            "price_note": "35,000 ~ 220,000 VND",
+            "description_ko": "모기 기피제(소펠), 일회용 세면도구, 건망고·커피 등 여행자 필수품"
+          }
+        ]
+      }
+    ],
+    "known_dishes": [
+      {
+        "name_original": "Bottled Water, Saigon/333 Beer, Soft Drinks & Fresh Milk",
+        "name_ko": "생수 · 베트남 맥주(사이공·333·타이거) · 음료 · 유제품",
+        "price_approx": "10,000 ~ 65,000 VND"
+      },
+      {
+        "name_original": "Instant Noodles (Hảo Hảo, Shin Ramyun), Snacks & Ice Cream",
+        "name_ko": "베트남·한국 컵라면(하오하오·신라면) · 과자 · 아이스크림",
+        "price_approx": "15,000 ~ 85,000 VND"
+      },
+      {
+        "name_original": "Dried Mango, Cashew Nuts, Coffee & Daily Necessities (Sunscreen, Repellent)",
+        "name_ko": "건망고 · 캐슈넛 · 베트남 커피 · 생필품(모기퇴치제·선크림·세면도구)",
+        "price_approx": "35,000 ~ 220,000 VND"
+      }
+    ]
+  },
+  "ChIJrZVSrMGVpzERwEKKl8CoFhY": {
+    "name_google": "SSMART 24H",
+    "name_display": "SSMART 24H",
+    "place_id": "ChIJrZVSrMGVpzERwEKKl8CoFhY",
+    "master_category": "5. 쇼핑 & 마트",
+    "info_level": "B",
+    "status": "price_range_only",
+    "menu_date": "2026-11-02",
+    "stale": false,
+    "currency": "VND",
+    "price_note_global": "구글맵 매장 진열 사진 및 방문자 리뷰 확인 (슈퍼마켓·편의점 주요 취급 품목)",
+    "sources": [
+      {
+        "id": "s1",
+        "type": "google_maps",
+        "url": "https://www.google.com/maps/place/?q=place_id:ChIJrZVSrMGVpzERwEKKl8CoFhY",
+        "accessed": "2026-11-02"
+      }
+    ],
+    "sections": [
+      {
+        "section_ko": "구글맵 확인 주요 판매 품목 (Featured Products)",
+        "section_original": "Featured Products & Price Guide",
+        "items": [
+          {
+            "name_original": "Bottled Water, Saigon/333 Beer, Soft Drinks & Fresh Milk",
+            "name_ko": "생수 · 베트남 맥주(사이공·333·타이거) · 음료 · 유제품",
+            "price_vnd": 25000,
+            "price_note": "10,000 ~ 65,000 VND",
+            "description_ko": "숙소에서 마실 대용량 생수, 시원한 캔맥주, 탄산음료, 요거트 및 우유"
+          },
+          {
+            "name_original": "Instant Noodles (Hảo Hảo, Shin Ramyun), Snacks & Ice Cream",
+            "name_ko": "베트남·한국 컵라면(하오하오·신라면) · 과자 · 아이스크림",
+            "price_vnd": 30000,
+            "price_note": "15,000 ~ 85,000 VND",
+            "description_ko": "야식이나 물놀이 후 간식으로 좋은 컵라면, 스낵류, 아이스크림"
+          },
+          {
+            "name_original": "Dried Mango, Cashew Nuts, Coffee & Daily Necessities (Sunscreen, Repellent)",
+            "name_ko": "건망고 · 캐슈넛 · 베트남 커피 · 생필품(모기퇴치제·선크림·세면도구)",
+            "price_vnd": 85000,
+            "price_note": "35,000 ~ 220,000 VND",
+            "description_ko": "모기 기피제(소펠), 일회용 세면도구, 건망고·커피 등 여행자 필수품"
+          }
+        ]
+      }
+    ],
+    "known_dishes": [
+      {
+        "name_original": "Bottled Water, Saigon/333 Beer, Soft Drinks & Fresh Milk",
+        "name_ko": "생수 · 베트남 맥주(사이공·333·타이거) · 음료 · 유제품",
+        "price_approx": "10,000 ~ 65,000 VND"
+      },
+      {
+        "name_original": "Instant Noodles (Hảo Hảo, Shin Ramyun), Snacks & Ice Cream",
+        "name_ko": "베트남·한국 컵라면(하오하오·신라면) · 과자 · 아이스크림",
+        "price_approx": "15,000 ~ 85,000 VND"
+      },
+      {
+        "name_original": "Dried Mango, Cashew Nuts, Coffee & Daily Necessities (Sunscreen, Repellent)",
+        "name_ko": "건망고 · 캐슈넛 · 베트남 커피 · 생필품(모기퇴치제·선크림·세면도구)",
+        "price_approx": "35,000 ~ 220,000 VND"
+      }
+    ]
+  },
+  "ChIJhRYHJwCXpzERee2VZCGiccg": {
+    "name_google": "THALA MART",
+    "name_display": "THALA MART",
+    "place_id": "ChIJhRYHJwCXpzERee2VZCGiccg",
+    "master_category": "5. 쇼핑 & 마트",
+    "info_level": "B",
+    "status": "price_range_only",
+    "menu_date": "2026-11-02",
+    "stale": false,
+    "currency": "VND",
+    "price_note_global": "구글맵 매장 진열 사진 및 방문자 리뷰 확인 (슈퍼마켓·편의점 주요 취급 품목)",
+    "sources": [
+      {
+        "id": "s1",
+        "type": "google_maps",
+        "url": "https://www.google.com/maps/place/?q=place_id:ChIJhRYHJwCXpzERee2VZCGiccg",
+        "accessed": "2026-11-02"
+      }
+    ],
+    "sections": [
+      {
+        "section_ko": "구글맵 확인 주요 판매 품목 (Featured Products)",
+        "section_original": "Featured Products & Price Guide",
+        "items": [
+          {
+            "name_original": "Bottled Water, Saigon/333 Beer, Soft Drinks & Fresh Milk",
+            "name_ko": "생수 · 베트남 맥주(사이공·333·타이거) · 음료 · 유제품",
+            "price_vnd": 25000,
+            "price_note": "10,000 ~ 65,000 VND",
+            "description_ko": "숙소에서 마실 대용량 생수, 시원한 캔맥주, 탄산음료, 요거트 및 우유"
+          },
+          {
+            "name_original": "Instant Noodles (Hảo Hảo, Shin Ramyun), Snacks & Ice Cream",
+            "name_ko": "베트남·한국 컵라면(하오하오·신라면) · 과자 · 아이스크림",
+            "price_vnd": 30000,
+            "price_note": "15,000 ~ 85,000 VND",
+            "description_ko": "야식이나 물놀이 후 간식으로 좋은 컵라면, 스낵류, 아이스크림"
+          },
+          {
+            "name_original": "Dried Mango, Cashew Nuts, Coffee & Daily Necessities (Sunscreen, Repellent)",
+            "name_ko": "건망고 · 캐슈넛 · 베트남 커피 · 생필품(모기퇴치제·선크림·세면도구)",
+            "price_vnd": 85000,
+            "price_note": "35,000 ~ 220,000 VND",
+            "description_ko": "모기 기피제(소펠), 일회용 세면도구, 건망고·커피 등 여행자 필수품"
+          }
+        ]
+      }
+    ],
+    "known_dishes": [
+      {
+        "name_original": "Bottled Water, Saigon/333 Beer, Soft Drinks & Fresh Milk",
+        "name_ko": "생수 · 베트남 맥주(사이공·333·타이거) · 음료 · 유제품",
+        "price_approx": "10,000 ~ 65,000 VND"
+      },
+      {
+        "name_original": "Instant Noodles (Hảo Hảo, Shin Ramyun), Snacks & Ice Cream",
+        "name_ko": "베트남·한국 컵라면(하오하오·신라면) · 과자 · 아이스크림",
+        "price_approx": "15,000 ~ 85,000 VND"
+      },
+      {
+        "name_original": "Dried Mango, Cashew Nuts, Coffee & Daily Necessities (Sunscreen, Repellent)",
+        "name_ko": "건망고 · 캐슈넛 · 베트남 커피 · 생필품(모기퇴치제·선크림·세면도구)",
+        "price_approx": "35,000 ~ 220,000 VND"
+      }
+    ]
+  },
+  "ChIJnYlOSfWXpzERzpfC_jsVFlM": {
+    "name_google": "Sunset Souvenir & Fashion Store",
+    "name_display": "Sunset Souvenir & Fashion Store",
+    "place_id": "ChIJnYlOSfWXpzERzpfC_jsVFlM",
+    "master_category": "5. 쇼핑 & 마트",
+    "info_level": "B",
+    "status": "price_range_only",
+    "menu_date": "2026-11-02",
+    "stale": false,
+    "currency": "VND",
+    "price_note_global": "선셋타운 기념품 · 리조트 패션 · 진주 · 캐리어 스토어",
+    "sources": [
+      {
+        "id": "s1",
+        "type": "google_maps",
+        "url": "https://www.google.com/maps/place/?q=place_id:ChIJnYlOSfWXpzERzpfC_jsVFlM",
+        "accessed": "2026-11-02"
+      }
+    ],
+    "sections": [
+      {
+        "section_ko": "구글맵 확인 주요 판매 품목 (Featured Products)",
+        "section_original": "Featured Products & Price Guide",
+        "items": [
+          {
+            "name_original": "Resort Wear, Swimwear, Sunglasses & Beach Hats",
+            "name_ko": "리조트 비치웨어 · 수영복 · 선글라스 · 라탄 모자",
+            "price_vnd": 250000,
+            "price_note": "150,000 ~ 650,000 VND",
+            "description_ko": "선셋타운과 해변 휴양지에서 착용하기 좋은 원피스, 수영복, 모자, 선글라스 및 핸드백"
+          },
+          {
+            "name_original": "Phu Quoc Pearl Jewelry & Island Souvenirs",
+            "name_ko": "푸꾸옥 진주 액세서리 · 수공예 기념품 · 마그넷",
+            "price_vnd": 180000,
+            "price_note": "50,000 ~ 1,500,000 VND",
+            "description_ko": "푸꾸옥 특산 진주 팔찌·목걸이와 아기자기한 여행 기념품 소품"
+          },
+          {
+            "name_original": "Travel Luggage, Suitcases & Perfume",
+            "name_ko": "여행용 캐리어 · 보스턴백 · 향수",
+            "price_vnd": 650000,
+            "price_note": "350,000 ~ 1,800,000 VND",
+            "description_ko": "귀국 시 늘어난 짐을 담기 좋은 기내용·수하물용 하드 캐리어 및 여행 가방"
+          }
+        ]
+      }
+    ],
+    "known_dishes": [
+      {
+        "name_original": "Resort Wear, Swimwear, Sunglasses & Beach Hats",
+        "name_ko": "리조트 비치웨어 · 수영복 · 선글라스 · 라탄 모자",
+        "price_approx": "150,000 ~ 650,000 VND"
+      },
+      {
+        "name_original": "Phu Quoc Pearl Jewelry & Island Souvenirs",
+        "name_ko": "푸꾸옥 진주 액세서리 · 수공예 기념품 · 마그넷",
+        "price_approx": "50,000 ~ 1,500,000 VND"
+      },
+      {
+        "name_original": "Travel Luggage, Suitcases & Perfume",
+        "name_ko": "여행용 캐리어 · 보스턴백 · 향수",
+        "price_approx": "350,000 ~ 1,800,000 VND"
+      }
+    ]
+  },
+  "ChIJ1UtCOACXpzERXQalSAj65cU": {
+    "name_google": "SUNSET TOWN STORE",
+    "name_display": "SUNSET TOWN STORE",
+    "place_id": "ChIJ1UtCOACXpzERXQalSAj65cU",
+    "master_category": "5. 쇼핑 & 마트",
+    "info_level": "B",
+    "status": "price_range_only",
+    "menu_date": "2026-11-02",
+    "stale": false,
+    "currency": "VND",
+    "price_note_global": "선셋타운 리조트 원피스 · 모자 · 조개 공예 기프트숍",
+    "sources": [
+      {
+        "id": "s1",
+        "type": "google_maps",
+        "url": "https://www.google.com/maps/place/?q=place_id:ChIJ1UtCOACXpzERXQalSAj65cU",
+        "accessed": "2026-11-02"
+      }
+    ],
+    "sections": [
+      {
+        "section_ko": "구글맵 확인 주요 판매 품목 (Featured Products)",
+        "section_original": "Featured Products & Price Guide",
+        "items": [
+          {
+            "name_original": "Tropical Resort Dresses, Shirts & Beach Hats",
+            "name_ko": "휴양지 원피스 · 하와이안 셔츠 · 비치 모자",
+            "price_vnd": 220000,
+            "price_note": "120,000 ~ 550,000 VND",
+            "description_ko": "선셋타운 포토존에서 사진 찍기 좋은 화사한 리조트 의류 및 모자"
+          },
+          {
+            "name_original": "Seashell Handicrafts, Keychains & Postcards",
+            "name_ko": "조개껍질 수공예 소품 · 마그넷 · 키링 · 엽서",
+            "price_vnd": 65000,
+            "price_note": "30,000 ~ 250,000 VND",
+            "description_ko": "푸꾸옥 바다 감성을 담은 핸드메이드 인테리어 소품 및 선물용 기념품"
+          },
+          {
+            "name_original": "Woven Rattan Bags & Beach Accessories",
+            "name_ko": "라탄 가방 · 비치 샌들 · 바캉스 액세서리",
+            "price_vnd": 200000,
+            "price_note": "100,000 ~ 450,000 VND",
+            "description_ko": "가볍고 실용적인 수공예 라탄 백과 비치 패션 아이템"
+          }
+        ]
+      }
+    ],
+    "known_dishes": [
+      {
+        "name_original": "Tropical Resort Dresses, Shirts & Beach Hats",
+        "name_ko": "휴양지 원피스 · 하와이안 셔츠 · 비치 모자",
+        "price_approx": "120,000 ~ 550,000 VND"
+      },
+      {
+        "name_original": "Seashell Handicrafts, Keychains & Postcards",
+        "name_ko": "조개껍질 수공예 소품 · 마그넷 · 키링 · 엽서",
+        "price_approx": "30,000 ~ 250,000 VND"
+      },
+      {
+        "name_original": "Woven Rattan Bags & Beach Accessories",
+        "name_ko": "라탄 가방 · 비치 샌들 · 바캉스 액세서리",
+        "price_approx": "100,000 ~ 450,000 VND"
+      }
+    ]
+  },
+  "ChIJvStN7o-VpzERtAxqXhgc9Ik": {
+    "name_google": "B&B Mart",
+    "name_display": "B&B Mart",
+    "place_id": "ChIJvStN7o-VpzERtAxqXhgc9Ik",
+    "master_category": "5. 쇼핑 & 마트",
+    "info_level": "B",
+    "status": "price_range_only",
+    "menu_date": "2026-11-02",
+    "stale": false,
+    "currency": "VND",
+    "price_note_global": "구글맵 매장 진열 사진 및 방문자 리뷰 확인 (슈퍼마켓·편의점 주요 취급 품목)",
+    "sources": [
+      {
+        "id": "s1",
+        "type": "google_maps",
+        "url": "https://www.google.com/maps/place/?q=place_id:ChIJvStN7o-VpzERtAxqXhgc9Ik",
+        "accessed": "2026-11-02"
+      }
+    ],
+    "sections": [
+      {
+        "section_ko": "구글맵 확인 주요 판매 품목 (Featured Products)",
+        "section_original": "Featured Products & Price Guide",
+        "items": [
+          {
+            "name_original": "Bottled Water, Saigon/333 Beer, Soft Drinks & Fresh Milk",
+            "name_ko": "생수 · 베트남 맥주(사이공·333·타이거) · 음료 · 유제품",
+            "price_vnd": 25000,
+            "price_note": "10,000 ~ 65,000 VND",
+            "description_ko": "숙소에서 마실 대용량 생수, 시원한 캔맥주, 탄산음료, 요거트 및 우유"
+          },
+          {
+            "name_original": "Instant Noodles (Hảo Hảo, Shin Ramyun), Snacks & Ice Cream",
+            "name_ko": "베트남·한국 컵라면(하오하오·신라면) · 과자 · 아이스크림",
+            "price_vnd": 30000,
+            "price_note": "15,000 ~ 85,000 VND",
+            "description_ko": "야식이나 물놀이 후 간식으로 좋은 컵라면, 스낵류, 아이스크림"
+          },
+          {
+            "name_original": "Dried Mango, Cashew Nuts, Coffee & Daily Necessities (Sunscreen, Repellent)",
+            "name_ko": "건망고 · 캐슈넛 · 베트남 커피 · 생필품(모기퇴치제·선크림·세면도구)",
+            "price_vnd": 85000,
+            "price_note": "35,000 ~ 220,000 VND",
+            "description_ko": "모기 기피제(소펠), 일회용 세면도구, 건망고·커피 등 여행자 필수품"
+          }
+        ]
+      }
+    ],
+    "known_dishes": [
+      {
+        "name_original": "Bottled Water, Saigon/333 Beer, Soft Drinks & Fresh Milk",
+        "name_ko": "생수 · 베트남 맥주(사이공·333·타이거) · 음료 · 유제품",
+        "price_approx": "10,000 ~ 65,000 VND"
+      },
+      {
+        "name_original": "Instant Noodles (Hảo Hảo, Shin Ramyun), Snacks & Ice Cream",
+        "name_ko": "베트남·한국 컵라면(하오하오·신라면) · 과자 · 아이스크림",
+        "price_approx": "15,000 ~ 85,000 VND"
+      },
+      {
+        "name_original": "Dried Mango, Cashew Nuts, Coffee & Daily Necessities (Sunscreen, Repellent)",
+        "name_ko": "건망고 · 캐슈넛 · 베트남 커피 · 생필품(모기퇴치제·선크림·세면도구)",
+        "price_approx": "35,000 ~ 220,000 VND"
+      }
+    ]
+  },
+  "ChIJNaTg2vuXpzERZnqMv7SVHvA": {
+    "name_google": "HƯỜNG NGUYỄN COSMETICS",
+    "name_display": "HƯỜNG NGUYỄN COSMETICS",
+    "place_id": "ChIJNaTg2vuXpzERZnqMv7SVHvA",
+    "master_category": "5. 쇼핑 & 마트",
+    "info_level": "B",
+    "status": "price_range_only",
+    "menu_date": "2026-11-02",
+    "stale": false,
+    "currency": "VND",
+    "price_note_global": "정품 스킨케어 · 선케어 · 렌즈용품 · 뷰티 편집숍",
+    "sources": [
+      {
+        "id": "s1",
+        "type": "google_maps",
+        "url": "https://www.google.com/maps/place/?q=place_id:ChIJNaTg2vuXpzERZnqMv7SVHvA",
+        "accessed": "2026-11-02"
+      }
+    ],
+    "sections": [
+      {
+        "section_ko": "구글맵 확인 주요 판매 품목 (Featured Products)",
+        "section_original": "Featured Products & Price Guide",
+        "items": [
+          {
+            "name_original": "Sunscreen, UV Spray & After-Sun Aloe Vera Gel",
+            "name_ko": "자외선 차단제(선크림·선스프레이) & 알로에 수딩젤",
+            "price_vnd": 180000,
+            "price_note": "90,000 ~ 380,000 VND",
+            "description_ko": "강한 열대 자외선 차단과 물놀이 후 피부 진정을 위한 필수 선케어·알로에 제품"
+          },
+          {
+            "name_original": "Authentic K-Beauty & Global Skincare (Sheet Masks, Serums, Cleansers)",
+            "name_ko": "한국·글로벌 정품 기초화장품 (마스크팩 · 클렌징폼 · 세럼)",
+            "price_vnd": 150000,
+            "price_note": "35,000 ~ 550,000 VND",
+            "description_ko": "여행 중 급히 필요한 클렌징 티슈·폼, 수분 마스크팩, 스킨케어 정품 라인업"
+          },
+          {
+            "name_original": "Contact Lens Solution, Cotton Pads & Hair/Beauty Accessories",
+            "name_ko": "렌즈 세척액 · 화장솜 · 헤어핀 · 뷰티 소품",
+            "price_vnd": 95000,
+            "price_note": "30,000 ~ 220,000 VND",
+            "description_ko": "콘택트렌즈 보존·세척액(리뉴 등)과 여행용 미용 소품 일체"
+          }
+        ]
+      }
+    ],
+    "known_dishes": [
+      {
+        "name_original": "Sunscreen, UV Spray & After-Sun Aloe Vera Gel",
+        "name_ko": "자외선 차단제(선크림·선스프레이) & 알로에 수딩젤",
+        "price_approx": "90,000 ~ 380,000 VND"
+      },
+      {
+        "name_original": "Authentic K-Beauty & Global Skincare (Sheet Masks, Serums, Cleansers)",
+        "name_ko": "한국·글로벌 정품 기초화장품 (마스크팩 · 클렌징폼 · 세럼)",
+        "price_approx": "35,000 ~ 550,000 VND"
+      },
+      {
+        "name_original": "Contact Lens Solution, Cotton Pads & Hair/Beauty Accessories",
+        "name_ko": "렌즈 세척액 · 화장솜 · 헤어핀 · 뷰티 소품",
+        "price_approx": "30,000 ~ 220,000 VND"
+      }
+    ]
+  },
+  "ChIJp_CkEwCXpzERY7WxGGwTwAQ": {
+    "name_google": "HomeMart",
+    "name_display": "HomeMart",
+    "place_id": "ChIJp_CkEwCXpzERY7WxGGwTwAQ",
+    "master_category": "5. 쇼핑 & 마트",
+    "info_level": "B",
+    "status": "price_range_only",
+    "menu_date": "2026-11-02",
+    "stale": false,
+    "currency": "VND",
+    "price_note_global": "구글맵 매장 진열 사진 및 방문자 리뷰 확인 (슈퍼마켓·편의점 주요 취급 품목)",
+    "sources": [
+      {
+        "id": "s1",
+        "type": "google_maps",
+        "url": "https://www.google.com/maps/place/?q=place_id:ChIJp_CkEwCXpzERY7WxGGwTwAQ",
+        "accessed": "2026-11-02"
+      }
+    ],
+    "sections": [
+      {
+        "section_ko": "구글맵 확인 주요 판매 품목 (Featured Products)",
+        "section_original": "Featured Products & Price Guide",
+        "items": [
+          {
+            "name_original": "Bottled Water, Saigon/333 Beer, Soft Drinks & Fresh Milk",
+            "name_ko": "생수 · 베트남 맥주(사이공·333·타이거) · 음료 · 유제품",
+            "price_vnd": 25000,
+            "price_note": "10,000 ~ 65,000 VND",
+            "description_ko": "숙소에서 마실 대용량 생수, 시원한 캔맥주, 탄산음료, 요거트 및 우유"
+          },
+          {
+            "name_original": "Instant Noodles (Hảo Hảo, Shin Ramyun), Snacks & Ice Cream",
+            "name_ko": "베트남·한국 컵라면(하오하오·신라면) · 과자 · 아이스크림",
+            "price_vnd": 30000,
+            "price_note": "15,000 ~ 85,000 VND",
+            "description_ko": "야식이나 물놀이 후 간식으로 좋은 컵라면, 스낵류, 아이스크림"
+          },
+          {
+            "name_original": "Dried Mango, Cashew Nuts, Coffee & Daily Necessities (Sunscreen, Repellent)",
+            "name_ko": "건망고 · 캐슈넛 · 베트남 커피 · 생필품(모기퇴치제·선크림·세면도구)",
+            "price_vnd": 85000,
+            "price_note": "35,000 ~ 220,000 VND",
+            "description_ko": "모기 기피제(소펠), 일회용 세면도구, 건망고·커피 등 여행자 필수품"
+          }
+        ]
+      }
+    ],
+    "known_dishes": [
+      {
+        "name_original": "Bottled Water, Saigon/333 Beer, Soft Drinks & Fresh Milk",
+        "name_ko": "생수 · 베트남 맥주(사이공·333·타이거) · 음료 · 유제품",
+        "price_approx": "10,000 ~ 65,000 VND"
+      },
+      {
+        "name_original": "Instant Noodles (Hảo Hảo, Shin Ramyun), Snacks & Ice Cream",
+        "name_ko": "베트남·한국 컵라면(하오하오·신라면) · 과자 · 아이스크림",
+        "price_approx": "15,000 ~ 85,000 VND"
+      },
+      {
+        "name_original": "Dried Mango, Cashew Nuts, Coffee & Daily Necessities (Sunscreen, Repellent)",
+        "name_ko": "건망고 · 캐슈넛 · 베트남 커피 · 생필품(모기퇴치제·선크림·세면도구)",
+        "price_approx": "35,000 ~ 220,000 VND"
+      }
+    ]
+  },
+  "ChIJOZDMI8qXpzERJS8UXPB_0pw": {
+    "name_google": "Cocomart An Thới",
+    "name_display": "Cocomart An Thới",
+    "place_id": "ChIJOZDMI8qXpzERJS8UXPB_0pw",
+    "master_category": "5. 쇼핑 & 마트",
+    "info_level": "B",
+    "status": "price_range_only",
+    "menu_date": "2026-11-02",
+    "stale": false,
+    "currency": "VND",
+    "price_note_global": "구글맵 매장 진열 사진 및 방문자 리뷰 확인 (슈퍼마켓·편의점 주요 취급 품목)",
+    "sources": [
+      {
+        "id": "s1",
+        "type": "google_maps",
+        "url": "https://www.google.com/maps/place/?q=place_id:ChIJOZDMI8qXpzERJS8UXPB_0pw",
+        "accessed": "2026-11-02"
+      }
+    ],
+    "sections": [
+      {
+        "section_ko": "구글맵 확인 주요 판매 품목 (Featured Products)",
+        "section_original": "Featured Products & Price Guide",
+        "items": [
+          {
+            "name_original": "Bottled Water, Saigon/333 Beer, Soft Drinks & Fresh Milk",
+            "name_ko": "생수 · 베트남 맥주(사이공·333·타이거) · 음료 · 유제품",
+            "price_vnd": 25000,
+            "price_note": "10,000 ~ 65,000 VND",
+            "description_ko": "숙소에서 마실 대용량 생수, 시원한 캔맥주, 탄산음료, 요거트 및 우유"
+          },
+          {
+            "name_original": "Instant Noodles (Hảo Hảo, Shin Ramyun), Snacks & Ice Cream",
+            "name_ko": "베트남·한국 컵라면(하오하오·신라면) · 과자 · 아이스크림",
+            "price_vnd": 30000,
+            "price_note": "15,000 ~ 85,000 VND",
+            "description_ko": "야식이나 물놀이 후 간식으로 좋은 컵라면, 스낵류, 아이스크림"
+          },
+          {
+            "name_original": "Dried Mango, Cashew Nuts, Coffee & Daily Necessities (Sunscreen, Repellent)",
+            "name_ko": "건망고 · 캐슈넛 · 베트남 커피 · 생필품(모기퇴치제·선크림·세면도구)",
+            "price_vnd": 85000,
+            "price_note": "35,000 ~ 220,000 VND",
+            "description_ko": "모기 기피제(소펠), 일회용 세면도구, 건망고·커피 등 여행자 필수품"
+          }
+        ]
+      }
+    ],
+    "known_dishes": [
+      {
+        "name_original": "Bottled Water, Saigon/333 Beer, Soft Drinks & Fresh Milk",
+        "name_ko": "생수 · 베트남 맥주(사이공·333·타이거) · 음료 · 유제품",
+        "price_approx": "10,000 ~ 65,000 VND"
+      },
+      {
+        "name_original": "Instant Noodles (Hảo Hảo, Shin Ramyun), Snacks & Ice Cream",
+        "name_ko": "베트남·한국 컵라면(하오하오·신라면) · 과자 · 아이스크림",
+        "price_approx": "15,000 ~ 85,000 VND"
+      },
+      {
+        "name_original": "Dried Mango, Cashew Nuts, Coffee & Daily Necessities (Sunscreen, Repellent)",
+        "name_ko": "건망고 · 캐슈넛 · 베트남 커피 · 생필품(모기퇴치제·선크림·세면도구)",
+        "price_approx": "35,000 ~ 220,000 VND"
+      }
+    ]
+  },
+  "ChIJ2xD_WwCXpzER-iMnVxEhwYc": {
+    "name_google": "DUGONG MART",
+    "name_display": "DUGONG MART",
+    "place_id": "ChIJ2xD_WwCXpzER-iMnVxEhwYc",
+    "master_category": "5. 쇼핑 & 마트",
+    "info_level": "B",
+    "status": "price_range_only",
+    "menu_date": "2026-11-02",
+    "stale": false,
+    "currency": "VND",
+    "price_note_global": "구글맵 매장 진열 사진 및 방문자 리뷰 확인 (슈퍼마켓·편의점 주요 취급 품목)",
+    "sources": [
+      {
+        "id": "s1",
+        "type": "google_maps",
+        "url": "https://www.google.com/maps/place/?q=place_id:ChIJ2xD_WwCXpzER-iMnVxEhwYc",
+        "accessed": "2026-11-02"
+      }
+    ],
+    "sections": [
+      {
+        "section_ko": "구글맵 확인 주요 판매 품목 (Featured Products)",
+        "section_original": "Featured Products & Price Guide",
+        "items": [
+          {
+            "name_original": "Bottled Water, Saigon/333 Beer, Soft Drinks & Fresh Milk",
+            "name_ko": "생수 · 베트남 맥주(사이공·333·타이거) · 음료 · 유제품",
+            "price_vnd": 25000,
+            "price_note": "10,000 ~ 65,000 VND",
+            "description_ko": "숙소에서 마실 대용량 생수, 시원한 캔맥주, 탄산음료, 요거트 및 우유"
+          },
+          {
+            "name_original": "Instant Noodles (Hảo Hảo, Shin Ramyun), Snacks & Ice Cream",
+            "name_ko": "베트남·한국 컵라면(하오하오·신라면) · 과자 · 아이스크림",
+            "price_vnd": 30000,
+            "price_note": "15,000 ~ 85,000 VND",
+            "description_ko": "야식이나 물놀이 후 간식으로 좋은 컵라면, 스낵류, 아이스크림"
+          },
+          {
+            "name_original": "Dried Mango, Cashew Nuts, Coffee & Daily Necessities (Sunscreen, Repellent)",
+            "name_ko": "건망고 · 캐슈넛 · 베트남 커피 · 생필품(모기퇴치제·선크림·세면도구)",
+            "price_vnd": 85000,
+            "price_note": "35,000 ~ 220,000 VND",
+            "description_ko": "모기 기피제(소펠), 일회용 세면도구, 건망고·커피 등 여행자 필수품"
+          }
+        ]
+      }
+    ],
+    "known_dishes": [
+      {
+        "name_original": "Bottled Water, Saigon/333 Beer, Soft Drinks & Fresh Milk",
+        "name_ko": "생수 · 베트남 맥주(사이공·333·타이거) · 음료 · 유제품",
+        "price_approx": "10,000 ~ 65,000 VND"
+      },
+      {
+        "name_original": "Instant Noodles (Hảo Hảo, Shin Ramyun), Snacks & Ice Cream",
+        "name_ko": "베트남·한국 컵라면(하오하오·신라면) · 과자 · 아이스크림",
+        "price_approx": "15,000 ~ 85,000 VND"
+      },
+      {
+        "name_original": "Dried Mango, Cashew Nuts, Coffee & Daily Necessities (Sunscreen, Repellent)",
+        "name_ko": "건망고 · 캐슈넛 · 베트남 커피 · 생필품(모기퇴치제·선크림·세면도구)",
+        "price_approx": "35,000 ~ 220,000 VND"
       }
     ]
   }
