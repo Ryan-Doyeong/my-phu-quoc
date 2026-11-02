@@ -25,7 +25,7 @@ import { categoryLabel, nearbyBadgeText, formatLocalizedAddress, HIDDEN_BUSINESS
 import { JsonLd } from '@/components/JsonLd'
 import { businessTitle, withKeywordSuffix, sunsetKeyword, ZONE_KEYWORD } from '@/lib/seo/meta'
 import { businessJsonLd } from '@/lib/seo/businessJsonld'
-import { getHotelPriceRangeForBusiness, HotelPriceBadge } from '@/lib/hotels' 
+import { getHotelPriceRangeForBusiness, getHotelBySlug, HotelPriceBadge } from '@/lib/hotels' 
 import { stockGalleryFor } from '@/lib/stockImages'
 import { imageUrl } from '@/lib/imageUrl'
 import {
@@ -299,6 +299,17 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
     notFound()
   }
 
+  if (!Array.isArray(b.gallery_urls) || b.gallery_urls.length === 0) {
+    const hotelMatch =
+      getHotelBySlug(b.slug) ||
+      (b.slug === 'sunset-place-7'
+        ? getHotelBySlug('la-festa-phu-quoc-curio-collection-by-hilton')
+        : undefined)
+    if (hotelMatch?.photos && hotelMatch.photos.length > 0) {
+      b.gallery_urls = hotelMatch.photos
+    }
+  }
+
   const photos = (b.gallery_urls || []).length
     ? b.gallery_urls
     : defaultImages(b.category, b.subcategory, b.tags)
@@ -453,11 +464,30 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
             `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(b.google_maps_name || b.public_name)}`
 
           if ((b.gallery_urls || []).length > 0) {
+            const gCount = b.gallery_urls.slice(0, 8).length
+            const gridStyle: React.CSSProperties | undefined =
+              gCount === 1
+                ? { gridTemplateColumns: '1fr', gridTemplateRows: '420px' }
+                : gCount === 2
+                ? { gridTemplateColumns: '1.2fr 1fr', gridTemplateRows: '210px 210px' }
+                : gCount === 3
+                ? { gridTemplateColumns: '1.4fr 1fr', gridTemplateRows: '210px 210px' }
+                : undefined
             return (
               <div className="galleryContainer">
-                <div className="photoGallery">
+                <div className="photoGallery" style={gridStyle}>
                   {b.gallery_urls.slice(0, 8).map((p: string, i: number) => (
-                    <div key={i} className={i === 0 ? 'galleryTile main' : 'galleryTile'}>
+                    <div
+                      key={i}
+                      className={i === 0 ? 'galleryTile main' : 'galleryTile'}
+                      style={
+                        gCount === 2 && i === 1
+                          ? { gridRow: 'span 2' }
+                          : gCount === 4 && i === 3
+                          ? { gridColumn: 'span 2' }
+                          : undefined
+                      }
+                    >
                       <img
                         src={imageUrl(p, i === 0 ? 1400 : 760, i === 0 ? 76 : 70)}
                         alt={`${businessDisplayName} image ${i + 1}`}

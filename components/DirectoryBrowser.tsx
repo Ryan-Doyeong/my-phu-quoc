@@ -33,6 +33,7 @@ import {
   displayBusinessName,
 } from '@/lib/i18n/dictionaries'
 import { getHotelPriceRangeForBusiness, HotelPriceBadge } from '@/lib/hotels'
+import { buildGoogleMapsUrl } from '@/lib/mapsLink'
 
 const MAP_LINK_LABEL: Record<string, string> = {
   ko: '지도 보기 ↗',
@@ -238,6 +239,7 @@ function BusinessCard({ b, locale }: { b: Business; locale: Locale }) {
                   e.preventDefault()
                   e.stopPropagation()
                   const url =
+                    buildGoogleMapsUrl(b) ||
                     b.google_maps_url ||
                     `https://www.google.com/maps/place/?q=place_id:${b.google_place_id}`
                   window.open(url, '_blank', 'noopener,noreferrer')

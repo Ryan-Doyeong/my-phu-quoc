@@ -500,7 +500,6 @@ export const HIDDEN_BUSINESS_SLUGS = new Set<string>([
   'banh-canh-ghe-by-restaurant-seafood',
   'bloom-spa-phu-quoc-sunset-town',
   'cap-tr-phu-quoc',
-  'casepia-kitchen-and-lounge',
   'chill-sunset-restaurant',
   'com-me',
   'delhi-darbaar-indian-restaurant-indian-food-in-sunset-town-phu-quoc',
@@ -600,7 +599,6 @@ export const HIDDEN_BUSINESS_IDS = new Set<string>([
   'local-sunset-251',
   'local-sunset-262',
   'local-sunset-268',
-  'local-sunset-casepia-dining',
   ...REGISTRY_BUSINESSES.filter((b) => Boolean(b.status && b.status !== 'published')).map((b) => String(b.id)),
   ...KHEM_BUSINESSES.filter((b) => Boolean(b.status && b.status !== 'published')).map((b) => String(b.id)),
 ])

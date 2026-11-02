@@ -1444,7 +1444,7 @@
     "google_place_id": "ChIJwXlCOq-VpzERR7dMoAKRcpM",
     "name": "웨이브 카페 & 펍 3F (Wave Cafe & Pub - 웨이브스파 3층)",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1454,7 +1454,7 @@
     "google_place_id": "ChIJFU6xryaXpzERe2HL0ChKMXY",
     "name": "카페 그린 선셋타운 (Cafe Green - 망고빙수 전문)",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1464,7 +1464,7 @@
     "google_place_id": "ChIJhwN-oSqXpzERgUhhE4tiYRE",
     "name": "하이랜드 커피 안터이 케이블카역점 (Highlands Coffee Cable Car An Thới)",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1474,7 +1474,7 @@
     "google_place_id": "ChIJjVDpHgiHCjERTaQVRRrVJ9Y",
     "name": "에릭 케제르 푸꾸옥 (Maison Eric Kayser Sunset Town)",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1484,7 +1484,7 @@
     "google_place_id": "ChIJVUPC1uyXpzERD5yoNJTu_-w",
     "name": "미쉐 아이스크림 & 티 선셋타운점 (MIXUE)",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1494,7 +1494,7 @@
     "google_place_id": "ChIJy_hxHgCrNTERoIcGv_opdSI",
     "name": "Phu Quoc Sunset Town Coffee Workshop - Brew & Design the Art of Vietnamese Coffee",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1504,7 +1504,7 @@
     "google_place_id": "ChIJqzR5BqKVpzERsUFb1ZBTkHI",
     "name": "Milano Coffee - 64 Milan Sunset Town",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1514,7 +1514,7 @@
     "google_place_id": "ChIJO3-yzguVpzERco-w4qWwzBE",
     "name": "Kem Tràng Tiền - Sunset Town, Phú Quốc",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1524,7 +1524,7 @@
     "google_place_id": "ChIJexxLuvWVpzERYfMNC6E2l6k",
     "name": "Casa Limone Phu Quoc Hotel & Café - Specialty Coffee & Matcha Bar",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1534,7 +1534,7 @@
     "google_place_id": "ChIJO5hTZgCVpzERv98h_ecyvFc",
     "name": "Sunset Tiger Tea",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1544,7 +1544,7 @@
     "google_place_id": "ChIJi6p4AwCXpzERrcfUWx2c6gY",
     "name": "Senthy Coffee Lounge",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1554,7 +1554,7 @@
     "google_place_id": "ChIJybaGwLWXpzER0vqLL6QiWjE",
     "name": "Tsunagari Phu Quoc - Japanese matcha in the island",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1564,7 +1564,7 @@
     "google_place_id": "ChIJTdwiKNmVpzER1knXm_zr2zA",
     "name": "Cafe Juliet & Pastries",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1574,7 +1574,7 @@
     "google_place_id": "ChIJE6Jt3vuVpzERA6ErTfB79es",
     "name": "The Juliet Coffee & Dessert - AMA71",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1584,7 +1584,7 @@
     "google_place_id": "ChIJ4XRWXwCVpzER4TmxHDp0HaI",
     "name": "Islander PhuQuoc Handmade Gifts & Coffee",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1594,7 +1594,7 @@
     "google_place_id": "ChIJEUml2SuVpzER3wqcSc2d9yg",
     "name": "The Ivy Café & Lounge Phu Quoc",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1604,7 +1604,7 @@
     "google_place_id": "ChIJHfkAZ4WVpzERmME-KkMKRrI",
     "name": "Lotus Home & Cafe",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1614,7 +1614,7 @@
     "google_place_id": "ChIJUZs9AACVpzERDU2CVZEwhMQ",
     "name": "The Fern Coffee Sea",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1624,7 +1624,7 @@
     "google_place_id": "ChIJM56vPyOVpzERkcoihdCbcQg",
     "name": "SANTO CAFE",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1634,7 +1634,7 @@
     "google_place_id": "ChIJ51OpPgCVpzER-TzMZtCOk0o",
     "name": "Maison Kayser Phu Quoc",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1644,7 +1644,7 @@
     "google_place_id": "ChIJVef0-G6XpzERfRGPWSjnMSM",
     "name": "MAE Coffee",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1654,7 +1654,7 @@
     "google_place_id": "ChIJk8rbTrmXpzERJtmse_K7fYA",
     "name": "Apollo Cafe Phu Quoc",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1664,7 +1664,7 @@
     "google_place_id": "ChIJFePbK8yXpzER_rJM4eYtKaA",
     "name": "La isla Bistro & coffee",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1704,7 +1704,7 @@
     "google_place_id": "ChIJc9wZF96XpzERaOKT6SZjnj4",
     "name": "술탄 터키쉬 케밥 선셋타운 (Sultan Turkish Kebab)",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1794,7 +1794,7 @@
     "google_place_id": "ChIJ_UidppuWpzERKabcboVlovw",
     "name": "PH Rooftop Bar & Lounge - Sea View Restaurant, An Thoi, Phu Quoc",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town-adjacent"
     ]
@@ -2244,7 +2244,7 @@
     "google_place_id": "ChIJu-MGk6CXpzER7qRmKY1HVdk",
     "name": "코코넛 스파 & 카페 (Coconut Spa & Cafe)",
     "zone": "sunset-town",
-    "public_category": "wellness",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -2274,7 +2274,7 @@
     "google_place_id": "ChIJc4_lgKCWpzERfX9ic42Xi-s",
     "name": "라 페스타 푸꾸옥, 큐리오 컬렉션 바이 힐튼 (La Festa Phu Quoc, Curio Collection by Hilton)",
     "zone": "sunset-town",
-    "public_category": "wellness",
+    "public_category": "hotels",
     "service_areas": [
       "sunset-town"
     ]
@@ -2624,7 +2624,7 @@
     "google_place_id": "ChIJp9ZcOsKXpzERDLEPwP3e9JE",
     "name": "Phú Quốc Go",
     "zone": "sunset-town",
-    "public_category": "transport",
+    "public_category": "activities",
     "service_areas": [
       "sunset-town"
     ]
@@ -2654,7 +2654,7 @@
     "google_place_id": "buggy_service_sunset_town",
     "name": "선셋타운 공식 전동 버기카 & 무료 셔틀버스 (Electric Buggy)",
     "zone": "sunset-town",
-    "public_category": "transport",
+    "public_category": "activities",
     "service_areas": [
       "sunset-town"
     ]
@@ -2694,7 +2694,7 @@
     "google_place_id": "ChIJk-jMi4iXpzERM3xMhvCmdVE",
     "name": "Sunset Town Motorbike & Scooter Rental",
     "zone": "sunset-town",
-    "public_category": "transport",
+    "public_category": "activities",
     "service_areas": [
       "sunset-town"
     ]

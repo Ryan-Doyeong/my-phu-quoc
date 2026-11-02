@@ -460,7 +460,11 @@
       }
     },
     "gallery_urls": [
-      "/zones/khem-beach/images/paralia-khem-beach-phu-quoc-hotel/paralia-hotel-banner.jpg"
+      "/zones/khem-beach/images/paralia-khem-beach-phu-quoc-hotel/paralia-hotel-banner.jpg",
+      "/covers-photo/paralia-khem-beach-phu-quoc-hotel-1.webp",
+      "/covers-photo/paralia-khem-beach-phu-quoc-hotel-2.webp",
+      "/covers-photo/paralia-khem-beach-phu-quoc-hotel-3.webp",
+      "/covers-photo/paralia-khem-beach-phu-quoc-hotel-4.webp"
     ],
     "source_urls": [
       "http://paraliaphuquoc.com/",
@@ -539,7 +543,11 @@
       }
     },
     "gallery_urls": [
-      "/zones/khem-beach/images/jm-boutique-hotel-phu-quoc/jm-boutique-hotel-main.jpg"
+      "/zones/khem-beach/images/jm-boutique-hotel-phu-quoc/jm-boutique-hotel-main.jpg",
+      "/covers-photo/jm-boutique-hotel-phu-quoc-1.webp",
+      "/covers-photo/jm-boutique-hotel-phu-quoc-2.webp",
+      "/covers-photo/jm-boutique-hotel-phu-quoc-3.webp",
+      "/covers-photo/jm-boutique-hotel-phu-quoc-4.webp"
     ],
     "source_urls": [
       "https://jmhotel.vn/",
@@ -615,7 +623,10 @@
     },
     "gallery_urls": [
       "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-superior-room.jpg",
-      "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-deluxe-room.jpg"
+      "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-deluxe-room.jpg",
+      "/covers-photo/ann-hotel-spa-phu-quoc-1.webp",
+      "/covers-photo/ann-hotel-spa-phu-quoc-2.webp",
+      "/covers-photo/ann-hotel-spa-phu-quoc-3.webp"
     ],
     "source_urls": [
       "https://annhotelphuquoc.com/",
@@ -1451,7 +1462,7 @@
       "dining",
       "beer-pub"
     ],
-    "display_mode": "name_only",
+    "display_mode": "full",
     "internal_verified": {
       "google_rating": 3.5,
       "google_review_count": 835,
@@ -1547,7 +1558,9 @@
       ]
     },
     "media_note": "Google Maps",
-    "photo_permission": "google_maps_verified"
+    "photo_permission": "google_maps_verified",
+    "phone": "+84 889 777 077",
+    "hours": "10:00 - 23:00"
   },
   {
     "id": "khem-draft-013",
@@ -1663,7 +1676,7 @@
       "bars",
       "beach-club"
     ],
-    "display_mode": "name_only",
+    "display_mode": "full",
     "internal_verified": {
       "google_rating": 4.8,
       "google_review_count": 4056,
@@ -1759,7 +1772,9 @@
       ]
     },
     "media_note": "Google Maps",
-    "photo_permission": "google_maps_verified"
+    "photo_permission": "google_maps_verified",
+    "phone": "+84 949 440 144",
+    "hours": "08:00 - 23:45"
   },
   {
     "id": "khem-draft-034",
@@ -1825,7 +1840,7 @@
       "dining",
       "restaurant-bar"
     ],
-    "display_mode": "name_only",
+    "display_mode": "full",
     "internal_verified": {
       "google_rating": 4.7,
       "google_review_count": 1022,
@@ -1880,16 +1895,12 @@
       "topics": [
         "해변 (135)",
         "직원 (30)",
-        "단백석 (17)",
-        "석류석 (13)",
-        "페리도트 (12)",
-        "루비 (11)",
-        "진주 (9)",
-        "청금석 (7)"
+        "해변 오션뷰",
+        "신선한 해산물"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 1,046건(평점 ★4.7) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 1,046건에서 '해변, 직원, 해변 오션뷰' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -1913,7 +1924,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.7점(방문자 리뷰 1,046개)을 기록 중이며, 실제 방문객 리뷰에서 '해변, 직원, 단백석' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '해변, 직원, 해변 오션뷰' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.7 across 1,046 verified Google Maps reviews, frequently highlighted for 해변, 직원, 단백석.",
         "vi": "Đạt ★4.7 trên 1,046 đánh giá thực tế Google Maps, nổi bật với 해변, 직원, 단백석."
       },
@@ -1924,7 +1935,9 @@
       ]
     },
     "media_note": "Google Maps",
-    "photo_permission": "google_maps_verified"
+    "photo_permission": "google_maps_verified",
+    "phone": "+84 98 948 11 88",
+    "hours": "09:00 - 22:30"
   },
   {
     "id": "khem-draft-033",
@@ -1990,7 +2003,7 @@
       "bars",
       "beach-bar"
     ],
-    "display_mode": "name_only",
+    "display_mode": "full",
     "internal_verified": {
       "google_rating": 4.6,
       "google_review_count": 1515,
@@ -2085,7 +2098,9 @@
       ]
     },
     "media_note": "Google Maps",
-    "photo_permission": "google_maps_verified"
+    "photo_permission": "google_maps_verified",
+    "phone": "+84 94 246 22 88",
+    "hours": "09:00 - 21:00"
   },
   {
     "id": "khem-draft-031",
@@ -2269,13 +2284,14 @@
       "reviewCount": 2194,
       "lastVerified": "2026-11-01",
       "topics": [
-        "Khem Beach",
-        "beaches",
-        "beach"
+        "에메랄드빛 바다",
+        "고운 백사장",
+        "조용한 휴양",
+        "해변 산책"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 2,194건(평점 ★4.4) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 2,194건에서 '에메랄드빛 바다, 고운 백사장, 조용한 휴양' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -2299,7 +2315,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.4점(방문자 리뷰 2,194개)을 기록 중이며, 실제 방문객 리뷰에서 'Khem Beach, beaches, beach' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '에메랄드빛 바다, 고운 백사장, 조용한 휴양' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.4 across 2,194 verified Google Maps reviews, frequently highlighted for Khem Beach, beaches, beach.",
         "vi": "Đạt ★4.4 trên 2,194 đánh giá thực tế Google Maps, nổi bật với Khem Beach, beaches, beach."
       },

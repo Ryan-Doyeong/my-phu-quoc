@@ -1,63 +1,53 @@
 [
   {
     "slug": "noska-hotel",
-    "name": "노스카 호텔 선셋타운 (Noska Hotel Sunset Town Sea View & Fireworks)",
+    "name": "노스카 호텔 선셋타운",
     "image_url": "/covers-photo/noska-hotel-1.webp",
-    "original_image_url": "https://www.noskahotel.com/storage/photos/1/home/VIEW3.jpg",
-    "source_page_url": "https://www.noskahotel.com/",
-    "found_at": "2026-10-31T17:44:18.610Z",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJF_c9aMCXpzERt1r0W687Y4U",
+    "found_at": "2026-11-02T00:40:00Z",
     "content_type": "image/webp",
-    "file_size_bytes": 209484,
-    "status": "active",
-    "revocation_reason": null
+    "file_size_bytes": 326406,
+    "status": "verified"
   },
   {
     "slug": "sakurakyo-hotel-spa-phu-quoc",
-    "name": "사쿠라쿄 호텔 & 스파 푸꾸옥 (Sakurakyo Hotel & Spa)",
-    "image_url": "/covers-photo/sakurakyo-hotel-spa-phu-quoc.webp",
-    "original_image_url": "https://skyethgroup.com/wp-content/uploads/2026/09/og-sakurakyo-hotel-spa-phu-quoc-v2.jpg",
-    "source_page_url": "https://skyethgroup.com/sakurakyo-hotel-phu-quoc/",
-    "found_at": "2026-10-25T13:29:54.865Z",
-    "content_type": "image/webp",
-    "file_size_bytes": 179046,
-    "status": "revoked",
-    "revocation_reason": "업체 본인 단독 공식 사이트 부재 (skyethgroup 공용 페이지만 확인됨)"
+    "name": "사쿠라쿄 호텔 앤 스파 푸꾸옥",
+    "image_url": "/images/hotels/sakurakyo-hotel-spa-phu-quoc/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/sakurakyo-hotel-spa-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 1188364,
+    "status": "verified"
   },
   {
     "slug": "venice-hotel-phu-quoc",
-    "name": "베니스 호텔 푸꾸옥 (Venice Hotel Phu Quoc)",
-    "image_url": "/covers-photo/venice-hotel-phu-quoc-1.webp",
-    "original_image_url": "https://skyethgroup.com/wp-content/uploads/2025/10/Venice-Hotel-Phu-Quoc.jpg",
-    "source_page_url": "https://venicehotelphuquoc.com/",
-    "found_at": "2026-10-31T17:44:18.610Z",
-    "content_type": "image/webp",
-    "file_size_bytes": 341344,
-    "status": "active",
-    "revocation_reason": null
+    "name": "베니스 호텔 푸꾸옥",
+    "image_url": "/images/hotels/venice-hotel-phu-quoc/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/venice-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 1102634,
+    "status": "verified"
   },
   {
     "slug": "roma-hotel-phu-quoc",
     "name": "로마 호텔 푸꾸옥 (Roma Hotel Phu Quoc)",
-    "image_url": "/covers-photo/roma-hotel-phu-quoc-1.webp",
-    "original_image_url": "https://skyethgroup.com/wp-content/uploads/2026/09/roma-hotel-phu-quoc-facade-sunset-town.jpg",
-    "source_page_url": "https://romahotelphuquoc.com/",
-    "found_at": "2026-10-31T17:44:18.610Z",
-    "content_type": "image/webp",
-    "file_size_bytes": 203368,
-    "status": "active",
-    "revocation_reason": null
+    "image_url": "/images/hotels/roma-hotel-phu-quoc-h39560696/photo_01.jpg",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJjwfWKIqXpzERYsn-qQI_59o",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 77566,
+    "status": "verified"
   },
   {
     "slug": "royal-hotel-phu-quoc",
-    "name": "로얄 호텔 푸꾸옥 1 (Royal Hotel Phu Quoc)",
-    "image_url": "/covers-photo/royal-hotel-phu-quoc-1.webp",
-    "original_image_url": "https://royalphuquoc.com/wp-content/uploads/2023/04/Sunset-town.jpg",
-    "source_page_url": "http://royalphuquoc.com/",
-    "found_at": "2026-10-31T17:44:18.610Z",
-    "content_type": "image/webp",
-    "file_size_bytes": 126936,
-    "status": "revoked",
-    "revocation_reason": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)"
+    "name": "로얄 호텔 푸꾸옥 1 (ROYAL HOTEL PHU QUOC)",
+    "image_url": "/images/hotels/khach-san-royal-phu-quoc/photo_01.jpg",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJtc9o0lKXpzERaiJkBt3PCf0",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 185449,
+    "status": "verified"
   },
   {
     "slug": "seasons-hotel-khach-san-sunset-town-phu-quoc",
@@ -97,15 +87,13 @@
   },
   {
     "slug": "sole-casa-phu-quoc",
-    "name": "Sole Casa Phu Quoc",
+    "name": "솔레 카사 푸꾸옥",
     "image_url": "/covers-photo/sole-casa-phu-quoc-1.webp",
-    "original_image_url": "https://solecasavn.com/wp-content/uploads/2025/06/1.png",
-    "source_page_url": "http://solecasavn.com/",
-    "found_at": "2026-10-31T17:44:18.610Z",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJq2r4s86VpzER3e5p9a8K5jY",
+    "found_at": "2026-11-02T00:40:00Z",
     "content_type": "image/webp",
     "file_size_bytes": 29286,
-    "status": "revoked",
-    "revocation_reason": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)"
+    "status": "verified"
   },
   {
     "slug": "eirlys-home-apartment-phu-quoc-firework-ocean-view",
@@ -530,14 +518,12 @@
   {
     "slug": "cybele-sunset-hotel-phu-quoc",
     "name": "Cybele Sunset Hotel Phú Quốc",
-    "image_url": "/covers-photo/cybele-sunset-hotel-phu-quoc-1.webp",
-    "original_image_url": "https://cybelesunsethotel.com/first-look.jpeg",
-    "source_page_url": "https://cybelesunsethotel.com/",
-    "found_at": "2026-10-31T17:44:18.610Z",
-    "content_type": "image/webp",
-    "file_size_bytes": 21150,
-    "status": "active",
-    "revocation_reason": null
+    "image_url": "/images/hotels/cybele-hotel/photo_01.jpg",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJM3WdM8mVpzERaaspeat4G3I",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 187525,
+    "status": "verified"
   },
   {
     "slug": "crystal-apartment-hillside-phu-quoc-sunset-town-firework",
@@ -581,14 +567,11 @@
     "slug": "exchange-money-sol-cosy-phu-quoc",
     "name": "Exchange Money - Sol Cosy Phu Quoc",
     "image_url": "/covers-photo/exchange-money-sol-cosy-phu-quoc-1.webp",
-    "original_image_url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RFtHxeW-gK2qlqaipn3-d61gbAY9tvkGroCovEPrcBBg-35pzIqU4_byABp8W1UczJLAQA1KWNd3QARj_f8ql5_LrUy3Vjbs5PgccOOm_q9DjrVFZvwifjxGLnS7PNco-_-PLONoYJ3Mtx=w1200-h900-k-no",
-    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJX_dQ80WVpzERt4kcSkTbC6I",
-    "found_at": "2026-11-01T17:38:00.000Z",
+    "source_page_url": "https://www.google.com/maps?cid=11676667545235786167",
+    "found_at": "2026-11-02T00:40:00Z",
     "content_type": "image/webp",
     "file_size_bytes": 226794,
-    "status": "active",
-    "source_type": "google_maps",
-    "revocation_reason": null
+    "status": "verified"
   },
   {
     "slug": "draft-beer-sunset-town-phu-quoc",
@@ -642,15 +625,13 @@
   },
   {
     "slug": "fella-hotel",
-    "name": "펠라 호텔 선셋타운 (Fella Hotel Sunset Town)",
+    "name": "펠라 호텔 선셋타운",
     "image_url": "/covers-photo/fella-hotel-1.webp",
-    "original_image_url": "https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/481104754_566765143051414_711860170636741706_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x1364&ctp=s2048x1364&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=x7UZ1ED4V70Q7kNvwH4G4ay&_nc_oc=Adp9n6n8iL-HbVBOkGE8pd23mtVsVp1ezQQ8TZFcXcL4B275x1rwNBdm1KyDrg3opcw&_nc_zt=23&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=3fbOg-8PqoNjAES8CpwpHg&_nc_ss=7f289&oh=00_AQQTNnYwPKhoJ8xsUt0EGyPn0ON6PCEJed_kzfvtr0WmDw&oe=6AEBF529",
-    "source_page_url": "https://www.facebook.com/Fellahotel",
-    "found_at": "2026-10-31T17:44:18.610Z",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJ11j5_KeXpzERFq08eB1nJt4",
+    "found_at": "2026-11-02T00:40:00Z",
     "content_type": "image/webp",
-    "file_size_bytes": 533474,
-    "status": "active",
-    "revocation_reason": null
+    "file_size_bytes": 67754,
+    "status": "verified"
   },
   {
     "slug": "highlands-coffee-cable-car-an-thoi-pq",
@@ -1124,26 +1105,22 @@
   {
     "slug": "sunset-place-7",
     "name": "라 페스타 푸꾸옥, 큐리오 컬렉션 바이 힐튼 (La Festa Phu Quoc, Curio Collection by Hilton)",
-    "image_url": "/covers-photo/sunset-place-7-1.webp",
-    "original_image_url": "https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/611196704_838733332488297_3806462349575874778_n.jpg?stp=dst-jpg_tt6&cstp=mx3365x1246&ctp=p720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=g0yFJKHahfwQ7kNvwH_LqFb&_nc_oc=Adq-TKMBxeso2K9N21-SSLIJRociWAcz1u6Y3OBQh1o0ntlC1eM2R7KTei2v4F7UtLU&_nc_zt=23&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=dUUEiCHqta83oW1dQvIv6A&_nc_ss=7f289&oh=00_AQRy0yFFRmuN_g7tQmN-kEd-ffDauig-ZvLtuthYciV0bw&oe=6AEBFE5A",
-    "source_page_url": "https://www.facebook.com/lafestaphuquoc",
-    "found_at": "2026-10-31T17:44:18.610Z",
-    "content_type": "image/webp",
-    "file_size_bytes": 196218,
-    "status": "revoked",
-    "revocation_reason": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)"
+    "image_url": "/images/hotels/la-festa-phu-quoc-curio-collection-by-hilton/photo_01.jpg",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJc4_lgKCWpzERfX9ic42Xi-s",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 119543,
+    "status": "verified"
   },
   {
     "slug": "the-juliet-a-boutique-hotel-coffee-ven-07",
-    "name": "더 줄리엣 부티크 호텔 & 커피 Ven 07 (The Juliet Boutique Hotel)",
-    "image_url": "/covers-photo/the-juliet-a-boutique-hotel-coffee-ven-07-1.webp",
-    "original_image_url": "https://cdn11607.cdn4s4.io.vn/media/banner/bnhotel4.webp",
-    "source_page_url": "http://thejuliethotel.vn/",
-    "found_at": "2026-10-31T17:44:18.610Z",
-    "content_type": "image/webp",
-    "file_size_bytes": 195584,
-    "status": "active",
-    "revocation_reason": null
+    "name": "더 줄리엣 부티크 호텔 & 커피 Ven 07 (The Juliet A Boutique Hotel & Coffee - Venice 07)",
+    "image_url": "/images/hotels/juliet-boutique-hotel/photo_01.jpg",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5Z5ZTfmVpzERiSVXng2WHUY",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 167550,
+    "status": "verified"
   },
   {
     "slug": "the-juliet-a-boutique-hotel-coffee-ama-71",
@@ -1171,15 +1148,13 @@
   },
   {
     "slug": "times-corner-amalfi-hotel",
-    "name": "타임즈 코너 아말피 호텔 (Times Corner Amalfi Hotel)",
-    "image_url": "/covers-photo/times-corner-amalfi-hotel-1.webp",
-    "original_image_url": "https://dd8v6mciv1ee4.cloudfront.net/images/amalfi/hotel/reception.webp",
-    "source_page_url": "https://timescornerphuquoc.com/amalfi",
-    "found_at": "2026-10-31T17:44:18.610Z",
-    "content_type": "image/webp",
-    "file_size_bytes": 231280,
-    "status": "active",
-    "revocation_reason": null
+    "name": "타임스 코너 아말피 호텔",
+    "image_url": "/images/hotels/times-corner-amalfi-hotel/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/times-corner-amalfi-hotel/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 136701,
+    "status": "verified"
   },
   {
     "slug": "the-merchant",
@@ -1196,15 +1171,13 @@
   },
   {
     "slug": "times-corner-sorrento-boutique-hotel",
-    "name": "타임즈 코너 소렌토 부티크 호텔 (Times Corner Sorrento)",
-    "image_url": "/covers-photo/times-corner-sorrento-boutique-hotel-1.webp",
-    "original_image_url": "https://dd8v6mciv1ee4.cloudfront.net/images/sorrento/hotel/reception.webp",
-    "source_page_url": "https://timescornerphuquoc.com/sorrento",
-    "found_at": "2026-10-31T17:44:18.610Z",
-    "content_type": "image/webp",
-    "file_size_bytes": 242764,
-    "status": "active",
-    "revocation_reason": null
+    "name": "타임스 코너 소렌토 호텔",
+    "image_url": "/images/hotels/times-corner-sorrento-boutique-hotel/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/times-corner-sorrento-boutique-hotel/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 112794,
+    "status": "verified"
   },
   {
     "slug": "wow-que-toi",
@@ -2231,14 +2204,11 @@
     "slug": "bidv-atm-machine",
     "name": "BIDV ATM machine",
     "image_url": "/covers-photo/bidv-atm-machine-1.webp",
-    "original_image_url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qe-yhftRySV9QegwDwB_wefjim3YaFV6wnIBkpWdGQMZDh2JKAnflfwb5lhqaaX0JLTiaMXz2CfV_gH2A-DSpE7JsDmymXek2Cgb5nCX2UAm__aJBWYURd4Q0I9YLW9p7ebPBWwu3JPBdn=w1200-h900-k-no",
-    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_YsvGwCXpzERHyfTAx4dejg",
-    "found_at": "2026-11-01T17:38:00.000Z",
+    "source_page_url": "https://www.google.com/maps?cid=4069597228033058591",
+    "found_at": "2026-11-02T00:40:00Z",
     "content_type": "image/webp",
     "file_size_bytes": 148396,
-    "status": "active",
-    "source_type": "google_maps",
-    "revocation_reason": null
+    "status": "verified"
   },
   {
     "slug": "phu-quoc-brew-house",
@@ -2281,14 +2251,11 @@
     "slug": "atm-vietcombank-bidv-atm",
     "name": "ATM Vietcombank, BIDV ATM",
     "image_url": "/covers-photo/atm-vietcombank-bidv-atm-1.webp",
-    "original_image_url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QHEXxdc050d9APaPolgRB8LfpC8HuR2LfhwEH7coF5DjLdmwluHoyeQlOKHXe-9jne-4Xi0YlFeoBVZcUoyWigs4aqqu7HTlsYolHy5egaXGrvaa6FQYzEQe4ODeA0zQ6W7USvTekwAcI=w1200-h900-k-no",
-    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJHb8567mWpzER64OgWXrzHkc",
-    "found_at": "2026-11-01T17:38:00.000Z",
+    "source_page_url": "https://www.google.com/maps?cid=5124801132809454571",
+    "found_at": "2026-11-02T00:40:00Z",
     "content_type": "image/webp",
     "file_size_bytes": 144494,
-    "status": "active",
-    "source_type": "google_maps",
-    "revocation_reason": null
+    "status": "verified"
   },
   {
     "slug": "king-kong-money-exchange-khem-beach",
@@ -2314,5 +2281,465 @@
     "status": "active",
     "source_type": "google_maps",
     "revocation_reason": null
+  },
+  {
+    "slug": "casepia-kitchen-and-lounge",
+    "name": "카세피아 키친 & 라운지 (CASEPiA Kitchen & Lounge)",
+    "image_url": "/covers-photo/casepia-kitchen-and-lounge-4.webp",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJRxYLYomXpzERCi3mFgoiNp4",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/webp",
+    "file_size_bytes": 145904,
+    "status": "verified"
+  },
+  {
+    "slug": "casepia",
+    "name": "카세피아",
+    "image_url": "/images/hotels/casepia/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/casepia/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 94897,
+    "status": "verified"
+  },
+  {
+    "slug": "le-bonheur-hotel",
+    "name": "르 보뇌르 호텔",
+    "image_url": "/images/hotels/le-bonheur-hotel/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/le-bonheur-hotel/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 147086,
+    "status": "verified"
+  },
+  {
+    "slug": "de-stefano-hotel-coffee",
+    "name": "드 스테파노 커피 앤 호텔 (De Stefano Hotel Coffee)",
+    "image_url": "/images/hotels/de-stefano-coffee-and-hotel/photo_01.jpg",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJCY_uEYqXpzERtNAHnYgN8rc",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 94096,
+    "status": "verified"
+  },
+  {
+    "slug": "milan-hotel",
+    "name": "Milan Hotel",
+    "image_url": "/images/hotels/milan-hotel-coffee/photo_01.jpg",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJ8wmMbXaXpzERStmPml0_UD8",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 169219,
+    "status": "verified"
+  },
+  {
+    "slug": "rova-105-hotel",
+    "name": "Rova 105 Hotel",
+    "image_url": "/images/hotels/roma-hotel-phu-qu-c/photo_01.jpg",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJSf1XiyqVpzERESXp2yD4RDI",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 98235,
+    "status": "verified"
+  },
+  {
+    "slug": "sunny-hotel-phu-quoc-ven-18-sunset-town",
+    "name": "Sunny Hotel Phu Quoc- Ven 18 Sunset Town",
+    "image_url": "/images/hotels/sunny-hotel/photo_01.jpg",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJJyvaIBKXpzERPWxGoWlnWoc",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 180736,
+    "status": "verified"
+  },
+  {
+    "slug": "solea-hotels-apartments-sunset-town",
+    "name": "SOLÉA Hotels & Apartments Sunset Town",
+    "image_url": "/images/hotels/solea-hotel-sunset-town-phu-quoc/photo_01.jpg",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJxbxyGNSXpzEREPa-cnK86aY",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 76195,
+    "status": "verified"
+  },
+  {
+    "slug": "hoa-ng-hon-ti-m-boutique-hotel",
+    "name": "호앙 혼 팀 부티크 호텔",
+    "image_url": "/images/hotels/hoa-ng-hon-ti-m-boutique-hotel/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/hoa-ng-hon-ti-m-boutique-hotel/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 153625,
+    "status": "verified"
+  },
+  {
+    "slug": "golden-sunset-hotel",
+    "name": "골든 선셋 호텔",
+    "image_url": "/covers-photo/golden-sunset-hotel-1.webp",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJN3vR_L6VpzER4o1cI_K00e8",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/webp",
+    "file_size_bytes": 417972,
+    "status": "verified"
+  },
+  {
+    "slug": "rova-hotel-spa-phu-quoc",
+    "name": "ROVA HOTEL & SPA PHU QUOC",
+    "image_url": "/images/hotels/roma-hotel-phu-qu-c/photo_01.jpg",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJM6pVVcqVpzERvwPbu-fNL6w",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 98235,
+    "status": "verified"
+  },
+  {
+    "slug": "casa-del-mar-boutique-hotel",
+    "name": "카사 델 마르 부티크 호텔",
+    "image_url": "/covers-photo/casa-del-mar-boutique-hotel-1.webp",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJz_xV0ceVpzERL_Q5j7K_c4E",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/webp",
+    "file_size_bytes": 280614,
+    "status": "verified"
+  },
+  {
+    "slug": "js-hotel-phu-quoc-sunset-town",
+    "name": "JS 호텔 푸꾸옥 선셋타운",
+    "image_url": "/covers-photo/js-hotel-phu-quoc-sunset-town-1.webp",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJ92fL7_KVpzERx5f4P9A2j8k",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/webp",
+    "file_size_bytes": 318544,
+    "status": "verified"
+  },
+  {
+    "slug": "money-exchange-sunset-town",
+    "name": "Money Exchange Sunset Town",
+    "image_url": "/covers-photo/money-exchange-sunset-town-1.webp",
+    "source_page_url": "https://www.google.com/maps?cid=13561394820020633960",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/webp",
+    "file_size_bytes": 135568,
+    "status": "verified"
+  },
+  {
+    "slug": "g-g-money-exchange-sunset-town",
+    "name": "G&G Money Exchange Sunset Town",
+    "image_url": "/covers-photo/g-g-money-exchange-sunset-town-1.webp",
+    "source_page_url": "https://www.google.com/maps?cid=17008406116662590211",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/webp",
+    "file_size_bytes": 323754,
+    "status": "verified"
+  },
+  {
+    "slug": "exmoney-sunset-town-currency-exchange",
+    "name": "익스머니 환전소 (EXMoney Sunset Town | Currency Exchange)",
+    "image_url": "/covers-photo/exmoney-sunset-town-currency-exchange-1.webp",
+    "source_page_url": "https://www.google.com/maps?cid=4926815319696634130",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/webp",
+    "file_size_bytes": 129728,
+    "status": "verified"
+  },
+  {
+    "slug": "sunsettown-exchange",
+    "name": "선셋타운 환전소 (Sunset Town Exchange)",
+    "image_url": "/covers-photo/sunsettown-exchange-1.webp",
+    "source_page_url": "https://www.google.com/maps?cid=9480964989714363871",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/webp",
+    "file_size_bytes": 59226,
+    "status": "verified"
+  },
+  {
+    "slug": "mb-atm-nop-rut-tien",
+    "name": "MB ATM (Nộp/rút tiền)",
+    "image_url": "/covers-photo/mb-atm-nop-rut-tien-1.webp",
+    "source_page_url": "https://www.google.com/maps?cid=6440178889712391999",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/webp",
+    "file_size_bytes": 126658,
+    "status": "verified"
+  },
+  {
+    "slug": "vietinbank-atm",
+    "name": "VietinBank ATM",
+    "image_url": "/covers-photo/vietinbank-atm-1.webp",
+    "source_page_url": "https://www.google.com/maps?cid=11580843206114582841",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/webp",
+    "file_size_bytes": 180294,
+    "status": "verified"
+  },
+  {
+    "slug": "the-room-hotel",
+    "name": "더 룸 호텔 - 스타벅스 앤 파이어웍스",
+    "image_url": "/images/hotels/the-room-hotel/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/the-room-hotel/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 41561,
+    "status": "verified"
+  },
+  {
+    "slug": "coastal-living-hotel-phu-quoc",
+    "name": "코스탈 리빙 호텔 푸꾸옥",
+    "image_url": "/images/hotels/coastal-living-hotel-phu-quoc/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/coastal-living-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 67173,
+    "status": "verified"
+  },
+  {
+    "slug": "jw-marriott-phu-quoc-emerald-bay",
+    "name": "JW 메리어트 푸꾸옥 에메랄드 베이 리조트 & 스파",
+    "image_url": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJLZPWxLiWpzERwrkgfIa1P8I",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 1375048,
+    "status": "verified"
+  },
+  {
+    "slug": "premier-residences-phu-quoc-emerald-bay",
+    "name": "프리미어 레지던스 푸꾸옥 에메랄드 베이",
+    "image_url": "/zones/khem-beach/images/premier-residences-phu-quoc-emerald-bay/premier-residences-overview.jpg",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJn6kim_SXpzERd6rlRMQmpZc",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 299165,
+    "status": "verified"
+  },
+  {
+    "slug": "new-world-phu-quoc-resort",
+    "name": "뉴월드 푸꾸옥 리조트",
+    "image_url": "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-resort-overview.jpg",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJy5uCwXCXpzERQSR2-hAgnuo",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 322191,
+    "status": "verified"
+  },
+  {
+    "slug": "paralia-khem-beach-phu-quoc-hotel",
+    "name": "파랄리아 켐비치 호텔 푸꾸옥",
+    "image_url": "/zones/khem-beach/images/paralia-khem-beach-phu-quoc-hotel/paralia-hotel-banner.jpg",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJ--GCQXqXpzER7itlt0HX5Ps",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 291030,
+    "status": "verified"
+  },
+  {
+    "slug": "jm-boutique-hotel-phu-quoc",
+    "name": "JM 부티크 호텔 푸꾸옥",
+    "image_url": "/zones/khem-beach/images/jm-boutique-hotel-phu-quoc/jm-boutique-hotel-main.jpg",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJhfbFBaCXpzER-fkbP-fwDcI",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 64274,
+    "status": "verified"
+  },
+  {
+    "slug": "ann-hotel-spa-phu-quoc",
+    "name": "앤 호텔 & 스파 푸꾸옥",
+    "image_url": "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-superior-room.jpg",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJpyMOH-WXpzERgb6Kly4H7QA",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 455473,
+    "status": "verified"
+  },
+  {
+    "slug": "la-festa-phu-quoc-curio-collection-by-hilton",
+    "name": "라 페스타 푸꾸옥, 큐리오 컬렉션 바이 힐튼",
+    "image_url": "/images/hotels/la-festa-phu-quoc-curio-collection-by-hilton/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/la-festa-phu-quoc-curio-collection-by-hilton/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 119543,
+    "status": "verified"
+  },
+  {
+    "slug": "roma-hotel-phu-quoc-h39560696",
+    "name": "로마 호텔 푸꾸옥",
+    "image_url": "/images/hotels/roma-hotel-phu-quoc-h39560696/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/roma-hotel-phu-quoc-h39560696/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 77566,
+    "status": "verified"
+  },
+  {
+    "slug": "roma-hotel-phu-qu-c",
+    "name": "로바 호텔 푸꾸옥",
+    "image_url": "/images/hotels/roma-hotel-phu-qu-c/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/roma-hotel-phu-qu-c/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 98235,
+    "status": "verified"
+  },
+  {
+    "slug": "milan-hotel-coffee",
+    "name": "밀란 호텔 앤 커피",
+    "image_url": "/images/hotels/milan-hotel-coffee/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/milan-hotel-coffee/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 169219,
+    "status": "verified"
+  },
+  {
+    "slug": "kl-hotel-phu-quoc",
+    "name": "KL 호텔 푸꾸옥",
+    "image_url": "/images/hotels/kl-hotel-phu-quoc/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/kl-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 171795,
+    "status": "verified"
+  },
+  {
+    "slug": "solea-hotel-sunset-town-phu-quoc",
+    "name": "솔레아 호텔 선셋타운 푸꾸옥",
+    "image_url": "/images/hotels/solea-hotel-sunset-town-phu-quoc/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/solea-hotel-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 76195,
+    "status": "verified"
+  },
+  {
+    "slug": "de-stefano-coffee-and-hotel",
+    "name": "데 스테파노 호텔 앤 커피",
+    "image_url": "/images/hotels/de-stefano-coffee-and-hotel/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/de-stefano-coffee-and-hotel/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 94096,
+    "status": "verified"
+  },
+  {
+    "slug": "khach-san-royal-phu-quoc",
+    "name": "로얄 호텔 푸꾸옥",
+    "image_url": "/images/hotels/khach-san-royal-phu-quoc/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/khach-san-royal-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 185449,
+    "status": "verified"
+  },
+  {
+    "slug": "cybele-hotel",
+    "name": "시벨레 선셋 호텔 푸꾸옥",
+    "image_url": "/images/hotels/cybele-hotel/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/cybele-hotel/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 187525,
+    "status": "verified"
+  },
+  {
+    "slug": "ca-che-p-boutique-house",
+    "name": "카 첩 호텔",
+    "image_url": "/images/hotels/ca-che-p-boutique-house/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/ca-che-p-boutique-house/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 147383,
+    "status": "verified"
+  },
+  {
+    "slug": "hoang-hon-hotel",
+    "name": "호앙혼 호텔",
+    "image_url": "/images/hotels/hoang-hon-hotel/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/hoang-hon-hotel/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 84590,
+    "status": "verified"
+  },
+  {
+    "slug": "palo-santo-hotel-phu-quoc",
+    "name": "팔로 산토 호텔 푸꾸옥",
+    "image_url": "/images/hotels/palo-santo-hotel-phu-quoc/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/palo-santo-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 69996,
+    "status": "verified"
+  },
+  {
+    "slug": "thala-hotel-sorrento",
+    "name": "탈라 호텔 소렌토",
+    "image_url": "/images/hotels/thala-hotel-sorrento/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/thala-hotel-sorrento/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 151175,
+    "status": "verified"
+  },
+  {
+    "slug": "catarina-hotel-phu-quoc",
+    "name": "카타리나 호텔 푸꾸옥",
+    "image_url": "/images/hotels/catarina-hotel-phu-quoc/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/catarina-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 93483,
+    "status": "verified"
+  },
+  {
+    "slug": "sunny-hotel",
+    "name": "써니 호텔",
+    "image_url": "/images/hotels/sunny-hotel/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/sunny-hotel/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 180736,
+    "status": "verified"
+  },
+  {
+    "slug": "solaro-hotel-spa-h84816481",
+    "name": "솔라로 호텔 앤 스파 푸꾸옥",
+    "image_url": "/images/hotels/solaro-hotel-spa-h84816481/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/solaro-hotel-spa-h84816481/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 88261,
+    "status": "verified"
+  },
+  {
+    "slug": "anna-hotel-free-cable-car-and-water-park-tickets",
+    "name": "안나 호텔 푸꾸옥",
+    "image_url": "/images/hotels/anna-hotel-free-cable-car-and-water-park-tickets/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/anna-hotel-free-cable-car-and-water-park-tickets/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 65655,
+    "status": "verified"
+  },
+  {
+    "slug": "juliet-boutique-hotel",
+    "name": "줄리엣 부티크 호텔 - 선셋 타운",
+    "image_url": "/images/hotels/juliet-boutique-hotel/photo_01.jpg",
+    "source_page_url": "https://www.agoda.com/ko-kr/juliet-boutique-hotel/hotel/phu-quoc-island-vn.html",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 167550,
+    "status": "verified"
+  },
+  {
+    "slug": "premier-village-phu-quoc-resort",
+    "name": "프리미어 빌리지 푸꾸옥 리조트 바이 아코르",
+    "image_url": "/zones/khem-beach/images/premier-village-phu-quoc-resort/premier-village-pool.jpg",
+    "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJr4pU6WmWpzERs3lqA96_P1I",
+    "found_at": "2026-11-02T00:40:00Z",
+    "content_type": "image/jpeg",
+    "file_size_bytes": 485978,
+    "status": "verified"
   }
 ]

@@ -22,7 +22,9 @@
     "gallery_urls": [
       "/covers-photo/noska-hotel-1.webp",
       "/covers-photo/noska-hotel-2.webp",
-      "/covers-photo/noska-hotel-3.webp"
+      "/covers-photo/noska-hotel-3.webp",
+      "/covers-photo/noska-hotel-4.webp",
+      "/covers-photo/noska-hotel-5.webp"
     ],
     "tags": [
       "boutique_hotel",
@@ -57,7 +59,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/hotels/sakurakyo-hotel-spa-phu-quoc/photo_01.jpg",
+      "/images/hotels/sakurakyo-hotel-spa-phu-quoc/photo_02.jpg",
+      "/images/hotels/sakurakyo-hotel-spa-phu-quoc/photo_03.jpg",
+      "/images/hotels/sakurakyo-hotel-spa-phu-quoc/photo_04.jpg",
+      "/images/hotels/sakurakyo-hotel-spa-phu-quoc/photo_05.jpg",
+      "/images/hotels/sakurakyo-hotel-spa-phu-quoc/photo_06.jpg"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -90,9 +99,12 @@
     "google_rating": 4.8,
     "google_review_count": 50,
     "gallery_urls": [
-      "/covers-photo/venice-hotel-phu-quoc-1.webp",
-      "/covers-photo/venice-hotel-phu-quoc-2.webp",
-      "/covers-photo/venice-hotel-phu-quoc-3.webp"
+      "/images/hotels/venice-hotel-phu-quoc/photo_01.jpg",
+      "/images/hotels/venice-hotel-phu-quoc/photo_02.jpg",
+      "/images/hotels/venice-hotel-phu-quoc/photo_03.jpg",
+      "/images/hotels/venice-hotel-phu-quoc/photo_04.jpg",
+      "/images/hotels/venice-hotel-phu-quoc/photo_05.jpg",
+      "/images/hotels/venice-hotel-phu-quoc/photo_06.jpg"
     ],
     "tags": [
       "boutique_hotel",
@@ -132,9 +144,12 @@
     "google_rating": 4.8,
     "google_review_count": 50,
     "gallery_urls": [
-      "/covers-photo/roma-hotel-phu-quoc-1.webp",
-      "/covers-photo/roma-hotel-phu-quoc-2.webp",
-      "/covers-photo/roma-hotel-phu-quoc-3.webp"
+      "/images/hotels/roma-hotel-phu-quoc-h39560696/photo_01.jpg",
+      "/images/hotels/roma-hotel-phu-quoc-h39560696/photo_02.jpg",
+      "/images/hotels/roma-hotel-phu-quoc-h39560696/photo_03.jpg",
+      "/images/hotels/roma-hotel-phu-quoc-h39560696/photo_04.jpg",
+      "/images/hotels/roma-hotel-phu-quoc-h39560696/photo_05.jpg",
+      "/images/hotels/roma-hotel-phu-quoc-h39560696/photo_06.jpg"
     ],
     "tags": [
       "boutique_hotel",
@@ -170,9 +185,12 @@
     "google_rating": 4.8,
     "google_review_count": 50,
     "gallery_urls": [
-      "/covers-photo/the-juliet-a-boutique-hotel-coffee-ven-07-1.webp",
-      "/covers-photo/the-juliet-a-boutique-hotel-coffee-ven-07-2.webp",
-      "/covers-photo/the-juliet-a-boutique-hotel-coffee-ven-07-3.webp"
+      "/images/hotels/juliet-boutique-hotel/photo_01.jpg",
+      "/images/hotels/juliet-boutique-hotel/photo_02.jpg",
+      "/images/hotels/juliet-boutique-hotel/photo_03.jpg",
+      "/images/hotels/juliet-boutique-hotel/photo_04.jpg",
+      "/images/hotels/juliet-boutique-hotel/photo_05.jpg",
+      "/images/hotels/juliet-boutique-hotel/photo_06.jpg"
     ],
     "tags": [
       "boutique_hotel",
@@ -325,8 +343,12 @@
     "google_rating": 4.7,
     "google_review_count": 50,
     "gallery_urls": [
-      "/covers-photo/times-corner-sorrento-boutique-hotel-1.webp",
-      "/covers-photo/times-corner-sorrento-boutique-hotel-2.webp"
+      "/images/hotels/times-corner-sorrento-boutique-hotel/photo_01.jpg",
+      "/images/hotels/times-corner-sorrento-boutique-hotel/photo_02.jpg",
+      "/images/hotels/times-corner-sorrento-boutique-hotel/photo_03.jpg",
+      "/images/hotels/times-corner-sorrento-boutique-hotel/photo_04.jpg",
+      "/images/hotels/times-corner-sorrento-boutique-hotel/photo_05.jpg",
+      "/images/hotels/times-corner-sorrento-boutique-hotel/photo_06.jpg"
     ],
     "tags": [
       "boutique_hotel",
@@ -361,7 +383,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/hotels/khach-san-royal-phu-quoc/photo_01.jpg",
+      "/images/hotels/khach-san-royal-phu-quoc/photo_02.jpg",
+      "/images/hotels/khach-san-royal-phu-quoc/photo_03.jpg",
+      "/images/hotels/khach-san-royal-phu-quoc/photo_04.jpg",
+      "/images/hotels/khach-san-royal-phu-quoc/photo_05.jpg",
+      "/images/hotels/khach-san-royal-phu-quoc/photo_06.jpg"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -434,9 +463,12 @@
     "google_rating": 4.6,
     "google_review_count": 50,
     "gallery_urls": [
-      "/covers-photo/times-corner-amalfi-hotel-1.webp",
-      "/covers-photo/times-corner-amalfi-hotel-2.webp",
-      "/covers-photo/times-corner-amalfi-hotel-3.webp"
+      "/images/hotels/times-corner-amalfi-hotel/photo_01.jpg",
+      "/images/hotels/times-corner-amalfi-hotel/photo_02.jpg",
+      "/images/hotels/times-corner-amalfi-hotel/photo_03.jpg",
+      "/images/hotels/times-corner-amalfi-hotel/photo_04.jpg",
+      "/images/hotels/times-corner-amalfi-hotel/photo_05.jpg",
+      "/images/hotels/times-corner-amalfi-hotel/photo_06.jpg"
     ],
     "tags": [
       "boutique_hotel",
@@ -508,7 +540,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/hotels/casepia/photo_01.jpg",
+      "/images/hotels/casepia/photo_02.jpg",
+      "/images/hotels/casepia/photo_03.jpg",
+      "/images/hotels/casepia/photo_04.jpg",
+      "/images/hotels/casepia/photo_05.jpg",
+      "/images/hotels/casepia/photo_06.jpg"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -544,7 +583,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/hotels/le-bonheur-hotel/photo_01.jpg",
+      "/images/hotels/le-bonheur-hotel/photo_02.jpg",
+      "/images/hotels/le-bonheur-hotel/photo_03.jpg",
+      "/images/hotels/le-bonheur-hotel/photo_04.jpg",
+      "/images/hotels/le-bonheur-hotel/photo_05.jpg",
+      "/images/hotels/le-bonheur-hotel/photo_06.jpg"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -571,7 +617,7 @@
     "phone": "+84 947 981 998",
     "website_url": "https://lunasol.vn/",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
@@ -609,7 +655,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/hotels/de-stefano-coffee-and-hotel/photo_01.jpg",
+      "/images/hotels/de-stefano-coffee-and-hotel/photo_02.jpg",
+      "/images/hotels/de-stefano-coffee-and-hotel/photo_03.jpg",
+      "/images/hotels/de-stefano-coffee-and-hotel/photo_04.jpg",
+      "/images/hotels/de-stefano-coffee-and-hotel/photo_05.jpg",
+      "/images/hotels/de-stefano-coffee-and-hotel/photo_06.jpg"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -753,7 +806,7 @@
     "phone": "+84 907 885 776",
     "website_url": "https://elydayphuquoc.com/",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.8,
@@ -788,7 +841,7 @@
     "phone": "+84 912 824 408",
     "website_url": "https://www.agoda.com/ko-kr/blue-hotel-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
@@ -820,7 +873,7 @@
     "phone": "+84 363 555 898",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
@@ -851,7 +904,7 @@
     "phone": "+84 965 826 489",
     "website_url": "https://www.agoda.com/ko-kr/blue-home-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
@@ -883,7 +936,7 @@
     "phone": "+84 373 732 525",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
@@ -914,7 +967,7 @@
     "phone": "+84 762 689 112",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
@@ -945,7 +998,7 @@
     "phone": "+84 988 315 555",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
@@ -976,7 +1029,7 @@
     "phone": "+84 963 588 588",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
@@ -1007,7 +1060,7 @@
     "phone": "+84 869 155 247",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
@@ -1038,7 +1091,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
@@ -1069,7 +1122,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
@@ -1100,7 +1153,7 @@
     "phone": "+84 382 912 265",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
@@ -1136,7 +1189,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/hotels/milan-hotel-coffee/photo_01.jpg",
+      "/images/hotels/milan-hotel-coffee/photo_02.jpg",
+      "/images/hotels/milan-hotel-coffee/photo_03.jpg",
+      "/images/hotels/milan-hotel-coffee/photo_04.jpg",
+      "/images/hotels/milan-hotel-coffee/photo_05.jpg",
+      "/images/hotels/milan-hotel-coffee/photo_06.jpg"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -1163,7 +1223,7 @@
     "phone": "+84 943 999 369",
     "website_url": "https://www.agoda.com/ko-kr/th-luxury-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
@@ -1269,7 +1329,7 @@
     "phone": "+84 918 691 687",
     "website_url": "https://seasonshotel.vn/",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
@@ -1305,7 +1365,7 @@
     "phone": "+84 947 012 356",
     "website_url": "http://royalphuquoc.com/",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
@@ -1338,7 +1398,7 @@
     "phone": "+84 835 777 655",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
@@ -1369,7 +1429,7 @@
     "phone": "+84 931 897 435",
     "website_url": "https://ndre.vn/sunny-side-hotel/",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
@@ -1402,7 +1462,7 @@
     "phone": "+84 944 411 325",
     "website_url": "https://www.seasunsethotel.com/",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
@@ -1443,7 +1503,12 @@
     "google_rating": 4.7,
     "google_review_count": 50,
     "gallery_urls": [
-      "/covers-photo/cybele-sunset-hotel-phu-quoc-1.webp"
+      "/images/hotels/cybele-hotel/photo_01.jpg",
+      "/images/hotels/cybele-hotel/photo_02.jpg",
+      "/images/hotels/cybele-hotel/photo_03.jpg",
+      "/images/hotels/cybele-hotel/photo_04.jpg",
+      "/images/hotels/cybele-hotel/photo_05.jpg",
+      "/images/hotels/cybele-hotel/photo_06.jpg"
     ],
     "tags": [
       "boutique_hotel",
@@ -1473,7 +1538,7 @@
     "phone": "+84 888 197 759",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
@@ -1504,7 +1569,7 @@
     "phone": "+84 966 755 665",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
@@ -1540,7 +1605,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/hotels/roma-hotel-phu-qu-c/photo_01.jpg",
+      "/images/hotels/roma-hotel-phu-qu-c/photo_02.jpg",
+      "/images/hotels/roma-hotel-phu-qu-c/photo_03.jpg",
+      "/images/hotels/roma-hotel-phu-qu-c/photo_04.jpg",
+      "/images/hotels/roma-hotel-phu-qu-c/photo_05.jpg",
+      "/images/hotels/roma-hotel-phu-qu-c/photo_06.jpg"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -1572,7 +1644,11 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/sole-casa-phu-quoc-1.webp",
+      "/covers-photo/sole-casa-phu-quoc-2.webp",
+      "/covers-photo/sole-casa-phu-quoc-3.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -1601,7 +1677,7 @@
     "phone": "+84 918 336 641",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
@@ -1671,7 +1747,7 @@
     "phone": "+84 979 333 388",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
@@ -1707,7 +1783,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/hotels/sunny-hotel/photo_01.jpg",
+      "/images/hotels/sunny-hotel/photo_02.jpg",
+      "/images/hotels/sunny-hotel/photo_03.jpg",
+      "/images/hotels/sunny-hotel/photo_04.jpg",
+      "/images/hotels/sunny-hotel/photo_05.jpg",
+      "/images/hotels/sunny-hotel/photo_06.jpg"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -1734,7 +1817,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
@@ -1765,7 +1848,7 @@
     "phone": "+84 768 812 229",
     "website_url": "https://pearlvista.vn/",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
@@ -1838,7 +1921,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/hotels/solea-hotel-sunset-town-phu-quoc/photo_01.jpg",
+      "/images/hotels/solea-hotel-sunset-town-phu-quoc/photo_02.jpg",
+      "/images/hotels/solea-hotel-sunset-town-phu-quoc/photo_03.jpg",
+      "/images/hotels/solea-hotel-sunset-town-phu-quoc/photo_04.jpg",
+      "/images/hotels/solea-hotel-sunset-town-phu-quoc/photo_05.jpg",
+      "/images/hotels/solea-hotel-sunset-town-phu-quoc/photo_06.jpg"
+    ],
     "tags": [
       "residence",
       "Sunset Town"
@@ -1865,7 +1955,7 @@
     "phone": "+84 562 006 688",
     "website_url": "https://www.agoda.com/ko-kr/lotus-home-hillside/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
@@ -1901,7 +1991,7 @@
     "phone": "+84 888 909 916",
     "website_url": "http://seagallery.vn/",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
@@ -1936,7 +2026,7 @@
     "phone": "+84 339 517 359",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
@@ -1967,7 +2057,7 @@
     "phone": "+84 913 753 999",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
@@ -1998,7 +2088,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.3,
@@ -2034,7 +2124,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.3,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/hotels/hoa-ng-hon-ti-m-boutique-hotel/photo_01.jpg",
+      "/images/hotels/hoa-ng-hon-ti-m-boutique-hotel/photo_02.jpg",
+      "/images/hotels/hoa-ng-hon-ti-m-boutique-hotel/photo_03.jpg",
+      "/images/hotels/hoa-ng-hon-ti-m-boutique-hotel/photo_04.jpg",
+      "/images/hotels/hoa-ng-hon-ti-m-boutique-hotel/photo_05.jpg",
+      "/images/hotels/hoa-ng-hon-ti-m-boutique-hotel/photo_06.jpg"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -2061,7 +2158,7 @@
     "phone": null,
     "website_url": "https://www.agoda.com/ko-kr/sunset-royal/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.3,
@@ -2093,7 +2190,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.2,
@@ -2129,7 +2226,11 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.1,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/golden-sunset-hotel-1.webp",
+      "/covers-photo/golden-sunset-hotel-2.webp",
+      "/covers-photo/golden-sunset-hotel-3.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -2161,7 +2262,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.1,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/hotels/roma-hotel-phu-qu-c/photo_01.jpg",
+      "/images/hotels/roma-hotel-phu-qu-c/photo_02.jpg",
+      "/images/hotels/roma-hotel-phu-qu-c/photo_03.jpg",
+      "/images/hotels/roma-hotel-phu-qu-c/photo_04.jpg",
+      "/images/hotels/roma-hotel-phu-qu-c/photo_05.jpg",
+      "/images/hotels/roma-hotel-phu-qu-c/photo_06.jpg"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -2188,7 +2296,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.1,
@@ -2219,7 +2327,7 @@
     "phone": "+84 974 149 719",
     "website_url": "https://www.agoda.com/ko-kr/tk-house-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4,
@@ -2256,7 +2364,11 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/casa-del-mar-boutique-hotel-1.webp",
+      "/covers-photo/casa-del-mar-boutique-hotel-2.webp",
+      "/covers-photo/casa-del-mar-boutique-hotel-3.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -2283,7 +2395,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4,
@@ -2314,7 +2426,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4,
@@ -2345,7 +2457,7 @@
     "phone": "+84 835 388 003",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.9,
@@ -2376,7 +2488,7 @@
     "phone": "+84 989 598 589",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.8,
@@ -2407,7 +2519,7 @@
     "phone": null,
     "website_url": "https://www.agoda.com/ko-kr/merci-hotel-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.6,
@@ -2439,7 +2551,7 @@
     "phone": "+84 983 395 095",
     "website_url": "https://www.agoda.com/ko-kr/hotel/phu-quoc-island-vn.html?hotel_id=49927783",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.5,
@@ -2471,7 +2583,7 @@
     "phone": "+84 868 324 865",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.4,
@@ -2502,7 +2614,7 @@
     "phone": "+84 939 599 975",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.3,
@@ -2533,7 +2645,7 @@
     "phone": "+84 343 419 138",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.2,
@@ -2564,7 +2676,7 @@
     "phone": "+84 963 273 836",
     "website_url": "https://www.agoda.com/ko-kr/la-phan-phu-quoc-hillside-apartment/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.1,
@@ -2596,7 +2708,7 @@
     "phone": "+84 916 888 049",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3,
@@ -2627,7 +2739,7 @@
     "phone": "+84 904 298 956",
     "website_url": "https://www.agoda.com/ko-kr/hotel/phu-quoc-island-vn.html?hotel_id=86362561",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 2.6,
@@ -2663,7 +2775,7 @@
     "phone": "+84 904 298 956",
     "website_url": "https://www.agoda.com/ko-kr/dido-carthage-apartment-sunset-town-phu-quoc-island/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 2.3,
@@ -2700,7 +2812,11 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/js-hotel-phu-quoc-sunset-town-1.webp",
+      "/covers-photo/js-hotel-phu-quoc-sunset-town-2.webp",
+      "/covers-photo/js-hotel-phu-quoc-sunset-town-4.webp"
+    ],
     "tags": [
       "boutique_hotel",
       "Sunset Town"
@@ -2727,7 +2843,7 @@
     "phone": "+84 353 346 568",
     "website_url": "https://www.agoda.com/ko-kr/haibot-12-homestay-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
@@ -2759,7 +2875,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
@@ -2790,7 +2906,7 @@
     "phone": null,
     "website_url": "https://www.agoda.com/ko-kr/hillside-apartment-in-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
@@ -2822,7 +2938,7 @@
     "phone": null,
     "website_url": "https://www.agoda.com/ko-kr/hillside-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
@@ -2854,7 +2970,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
@@ -2885,7 +3001,7 @@
     "phone": null,
     "website_url": "https://www.agoda.com/ko-kr/casa-del-mar-hotel-apartment-sunset-town/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
@@ -2917,7 +3033,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
@@ -3180,12 +3296,12 @@
       "topics": [
         "빠에야 (13)",
         "아침 (8)",
-        "관리규약 (7)",
+        "합리적인 가격 (7)",
         "세비체 (7)"
       ],
       "praised": {
         "ko": [
-          "구글맵 실측 리뷰 226건에서 '빠에야, 아침, 관리규약' 키워드가 집중 언급되며 음식 맛과 완성도에서 높은 평가를 받고 있습니다.",
+          "구글맵 실측 리뷰 226건에서 '빠에야, 아침, 합리적인 가격' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "선셋타운 바다 전망과 노을, 야간 불꽃놀이를 감상하며 식사할 수 있는 분위기 좋은 좌석이 호평받습니다.",
           "직원들의 응대가 친절하고 한국어·영어 사진 메뉴판이 구비되어 있어 주문이 편리합니다."
         ],
@@ -3215,7 +3331,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.9점(방문자 리뷰 226개)을 기록 중이며, 실제 방문객 리뷰에서 '빠에야, 아침, 관리규약' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '빠에야, 아침, 합리적인 가격' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.9 across 226 verified Google Maps reviews, frequently highlighted for 빠에야, 아침, 관리규약.",
         "vi": "Đạt ★4.9 trên 226 đánh giá thực tế Google Maps, nổi bật với 빠에야, 아침, 관리규약."
       },
@@ -3544,7 +3660,7 @@
         "해물 (54)",
         "구이 (9)",
         "오징어 (8)",
-        "생이하목 (7)",
+        "새우 요리 (7)",
         "그릴 (7)",
         "남찜 (6)",
         "조개 (6)",
@@ -3552,7 +3668,7 @@
       ],
       "praised": {
         "ko": [
-          "구글맵 실측 리뷰 261건에서 '해물, 구이, 오징어' 키워드가 집중 언급되며 음식 맛과 완성도에서 높은 평가를 받고 있습니다.",
+          "구글맵 실측 리뷰 261건에서 '해물, 구이, 오징어' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "매장 내부가 청결하게 관리되며 선셋타운 주요 동선에서 도보로 접근하기 편리합니다.",
           "직원들의 응대가 친절하고 한국어·영어 사진 메뉴판이 구비되어 있어 주문이 편리합니다."
         ],
@@ -3582,7 +3698,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.8점(방문자 리뷰 261개)을 기록 중이며, 실제 방문객 리뷰에서 '해물, 구이, 오징어' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '해물, 구이, 오징어' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.8 across 261 verified Google Maps reviews, frequently highlighted for 해물, 구이, 오징어.",
         "vi": "Đạt ★4.8 trên 261 đánh giá thực tế Google Maps, nổi bật với 해물, 구이, 오징어."
       },
@@ -3669,13 +3785,13 @@
         "참치 (46)",
         "김치말이국수 (42)",
         "라볶이 (29)",
-        "ㅋ (16)",
+        "떡볶이·분식 (16)",
         "케이블카 (14)",
         "스팸 (12)"
       ],
       "praised": {
         "ko": [
-          "구글맵 실측 리뷰 1,192건에서 '김밥, 파김치, 참치' 키워드가 집중 언급되며 음식 맛과 완성도에서 높은 평가를 받고 있습니다.",
+          "구글맵 실측 리뷰 1,192건에서 '김밥, 파김치, 참치' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "선셋타운 바다 전망과 노을, 야간 불꽃놀이를 감상하며 식사할 수 있는 분위기 좋은 좌석이 호평받습니다.",
           "직원들의 응대가 친절하고 한국어·영어 사진 메뉴판이 구비되어 있어 주문이 편리합니다."
         ],
@@ -3705,7 +3821,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.8점(방문자 리뷰 1,192개)을 기록 중이며, 실제 방문객 리뷰에서 '김밥, 파김치, 참치' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '김밥, 파김치, 참치' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.8 across 1,192 verified Google Maps reviews, frequently highlighted for 김밥, 파김치, 참치.",
         "vi": "Đạt ★4.8 trên 1,192 đánh giá thực tế Google Maps, nổi bật với 김밥, 파김치, 참치."
       },
@@ -3912,14 +4028,14 @@
       "reviewCount": 1508,
       "lastVerified": "2026-11-01",
       "topics": [
-        "말 (19)",
+        "오션뷰 테라스 (19)",
         "뷔페 (17)",
         "그리스 샐러드 (9)",
         "까페 스어 다 (8)"
       ],
       "praised": {
         "ko": [
-          "구글맵 실측 리뷰 1,508건에서 '말, 뷔페, 그리스 샐러드' 키워드가 집중 언급되며 음식 맛과 완성도에서 높은 평가를 받고 있습니다.",
+          "구글맵 실측 리뷰 1,508건에서 '오션뷰 테라스, 뷔페, 그리스 샐러드' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "선셋타운 바다 전망과 노을, 야간 불꽃놀이를 감상하며 식사할 수 있는 분위기 좋은 좌석이 호평받습니다.",
           "직원들의 응대가 친절하고 한국어·영어 사진 메뉴판이 구비되어 있어 주문이 편리합니다."
         ],
@@ -3949,7 +4065,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.7점(방문자 리뷰 1,508개)을 기록 중이며, 실제 방문객 리뷰에서 '말, 뷔페, 그리스 샐러드' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '오션뷰 테라스, 뷔페, 그리스 샐러드' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.7 across 1,508 verified Google Maps reviews, frequently highlighted for 말, 뷔페, 그리스 샐러드.",
         "vi": "Đạt ★4.7 trên 1,508 đánh giá thực tế Google Maps, nổi bật với 말, 뷔페, 그리스 샐러드."
       },
@@ -4862,12 +4978,12 @@
         "섬 (11)",
         "가을 (9)",
         "훈연기 (6)",
-        "가문비나무속 (6)",
+        "훈연 바비큐 (6)",
         "누룽지 (5)"
       ],
       "praised": {
         "ko": [
-          "구글맵 실측 리뷰 1,136건에서 '폭립, 프리카델레, 해질녘 마을' 키워드가 집중 언급되며 음식 맛과 완성도에서 높은 평가를 받고 있습니다.",
+          "구글맵 실측 리뷰 1,136건에서 '폭립, 프리카델레, 해질녘 마을' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "선셋타운 바다 전망과 노을, 야간 불꽃놀이를 감상하며 식사할 수 있는 분위기 좋은 좌석이 호평받습니다.",
           "재료가 신선하고 현지 특유의 향신료 부담 없이 여행자 입맛에 잘 맞는 조리법을 선보입니다."
         ],
@@ -4897,7 +5013,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.6점(방문자 리뷰 1,136개)을 기록 중이며, 실제 방문객 리뷰에서 '폭립, 프리카델레, 해질녘 마을' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '폭립, 프리카델레, 해질녘 마을' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.6 across 1,136 verified Google Maps reviews, frequently highlighted for 폭립, 프리카델레, 해질녘 마을.",
         "vi": "Đạt ★4.6 trên 1,136 đánh giá thực tế Google Maps, nổi bật với 폭립, 프리카델레, 해질녘 마을."
       },
@@ -5102,7 +5218,7 @@
       "reviewCount": 959,
       "lastVerified": "2026-11-01",
       "topics": [
-        "구각목 (13)",
+        "갯가재 요리 (13)",
         "남찜 (13)",
         "굴 (11)",
         "갈릭 (11)",
@@ -5113,7 +5229,7 @@
       ],
       "praised": {
         "ko": [
-          "구글맵 실측 리뷰 959건에서 '구각목, 남찜, 굴' 키워드가 집중 언급되며 음식 맛과 완성도에서 높은 평가를 받고 있습니다.",
+          "구글맵 실측 리뷰 959건에서 '갯가재 요리, 남찜, 굴' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "선셋타운 바다 전망과 노을, 야간 불꽃놀이를 감상하며 식사할 수 있는 분위기 좋은 좌석이 호평받습니다.",
           "직원들의 응대가 친절하고 한국어·영어 사진 메뉴판이 구비되어 있어 주문이 편리합니다."
         ],
@@ -5143,7 +5259,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.4점(방문자 리뷰 959개)을 기록 중이며, 실제 방문객 리뷰에서 '구각목, 남찜, 굴' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '갯가재 요리, 남찜, 굴' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.4 across 959 verified Google Maps reviews, frequently highlighted for 구각목, 남찜, 굴.",
         "vi": "Đạt ★4.4 trên 959 đánh giá thực tế Google Maps, nổi bật với 구각목, 남찜, 굴."
       },
@@ -6263,15 +6379,15 @@
       "reviewCount": 642,
       "lastVerified": "2026-11-01",
       "topics": [
-        "관리규약 (24)",
-        "진천 (15)",
+        "합리적인 가격 (24)",
+        "추천 맛집 (15)",
         "해산물 (15)",
         "불꽃놀이 (11)",
         "바텐더 (10)"
       ],
       "praised": {
         "ko": [
-          "구글맵 실측 리뷰 642건에서 '관리규약, 진천, 해산물' 키워드가 집중 언급되며 음식 맛과 완성도에서 높은 평가를 받고 있습니다.",
+          "구글맵 실측 리뷰 642건에서 '합리적인 가격, 추천 맛집, 해산물' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "매장 내부가 청결하게 관리되며 선셋타운 주요 동선에서 도보로 접근하기 편리합니다.",
           "직원들의 응대가 친절하고 한국어·영어 사진 메뉴판이 구비되어 있어 주문이 편리합니다."
         ],
@@ -6301,7 +6417,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.8점(방문자 리뷰 642개)을 기록 중이며, 실제 방문객 리뷰에서 '관리규약, 진천, 해산물' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '합리적인 가격, 추천 맛집, 해산물' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.8 across 642 verified Google Maps reviews, frequently highlighted for 관리규약, 진천, 해산물.",
         "vi": "Đạt ★4.8 trên 642 đánh giá thực tế Google Maps, nổi bật với 관리규약, 진천, 해산물."
       },
@@ -6503,12 +6619,14 @@
       "reviewCount": 21,
       "lastVerified": "2026-11-01",
       "topics": [
-        "cafe",
-        "Sunset Town"
+        "베트남 커피·음료",
+        "여유로운 분위기",
+        "깔끔한 매장",
+        "친절한 서비스"
       ],
       "praised": {
         "ko": [
-          "구글맵 실측 리뷰 21건에서 'cafe, Sunset Town' 키워드가 집중 언급되며 음식 맛과 완성도에서 높은 평가를 받고 있습니다.",
+          "구글맵 실측 리뷰 21건에서 '베트남 커피·음료, 여유로운 분위기, 깔끔한 매장' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "매장 내부가 청결하게 관리되며 선셋타운 주요 동선에서 도보로 접근하기 편리합니다.",
           "직원들의 응대가 친절하고 한국어·영어 사진 메뉴판이 구비되어 있어 주문이 편리합니다."
         ],
@@ -6538,7 +6656,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.8점(방문자 리뷰 21개)을 기록 중이며, 실제 방문객 리뷰에서 'cafe, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '베트남 커피·음료, 여유로운 분위기, 깔끔한 매장' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.8 across 21 verified Google Maps reviews, frequently highlighted for cafe, Sunset Town.",
         "vi": "Đạt ★4.8 trên 21 đánh giá thực tế Google Maps, nổi bật với cafe, Sunset Town."
       },
@@ -6744,12 +6862,13 @@
       "lastVerified": "2026-11-01",
       "topics": [
         "아이스 (2)",
-        "vietnamese",
-        "Sunset Town"
+        "음식 맛과 품질",
+        "신선한 식재료",
+        "친절한 서비스"
       ],
       "praised": {
         "ko": [
-          "구글맵 실측 리뷰 18건에서 '아이스, vietnamese, Sunset Town' 키워드가 집중 언급되며 음식 맛과 완성도에서 높은 평가를 받고 있습니다.",
+          "구글맵 실측 리뷰 18건에서 '아이스, 음식 맛과 품질, 신선한 식재료' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "선셋타운 바다 전망과 노을, 야간 불꽃놀이를 감상하며 식사할 수 있는 분위기 좋은 좌석이 호평받습니다.",
           "직원들의 응대가 친절하고 한국어·영어 사진 메뉴판이 구비되어 있어 주문이 편리합니다."
         ],
@@ -6779,7 +6898,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.7점(방문자 리뷰 18개)을 기록 중이며, 실제 방문객 리뷰에서 '아이스, vietnamese, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '아이스, 음식 맛과 품질, 신선한 식재료' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.7 across 18 verified Google Maps reviews, frequently highlighted for 아이스, vietnamese, Sunset Town.",
         "vi": "Đạt ★4.7 trên 18 đánh giá thực tế Google Maps, nổi bật với 아이스, vietnamese, Sunset Town."
       },
@@ -7105,14 +7224,13 @@
       "lastVerified": "2026-11-01",
       "topics": [
         "안경 (3)",
-        "ATM (3)",
-        "customer service (2)",
         "갯가재 (2)",
-        "운전 기사 (2)"
+        "운전 기사 (2)",
+        "음식 맛과 품질"
       ],
       "praised": {
         "ko": [
-          "구글맵 실측 리뷰 181건에서 '안경, ATM, customer service' 키워드가 집중 언급되며 음식 맛과 완성도에서 높은 평가를 받고 있습니다.",
+          "구글맵 실측 리뷰 181건에서 '안경, 갯가재, 운전 기사' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "매장 내부가 청결하게 관리되며 선셋타운 주요 동선에서 도보로 접근하기 편리합니다.",
           "직원들의 응대가 친절하고 한국어·영어 사진 메뉴판이 구비되어 있어 주문이 편리합니다."
         ],
@@ -7142,7 +7260,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.7점(방문자 리뷰 181개)을 기록 중이며, 실제 방문객 리뷰에서 '안경, ATM, customer service' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '안경, 갯가재, 운전 기사' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.7 across 181 verified Google Maps reviews, frequently highlighted for 안경, ATM, customer service.",
         "vi": "Đạt ★4.7 trên 181 đánh giá thực tế Google Maps, nổi bật với 안경, ATM, customer service."
       },
@@ -8734,13 +8852,14 @@
       "reviewCount": 176,
       "lastVerified": "2026-11-01",
       "topics": [
-        "customer service (2)",
-        "cafe",
-        "Sunset Town"
+        "베트남 커피·음료",
+        "여유로운 분위기",
+        "깔끔한 매장",
+        "친절한 서비스"
       ],
       "praised": {
         "ko": [
-          "구글맵 실측 리뷰 176건에서 'customer service, cafe, Sunset Town' 키워드가 집중 언급되며 음식 맛과 완성도에서 높은 평가를 받고 있습니다.",
+          "구글맵 실측 리뷰 176건에서 '베트남 커피·음료, 여유로운 분위기, 깔끔한 매장' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "선셋타운 바다 전망과 노을, 야간 불꽃놀이를 감상하며 식사할 수 있는 분위기 좋은 좌석이 호평받습니다.",
           "직원들의 응대가 친절하고 한국어·영어 사진 메뉴판이 구비되어 있어 주문이 편리합니다."
         ],
@@ -8770,7 +8889,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.3점(방문자 리뷰 176개)을 기록 중이며, 실제 방문객 리뷰에서 'customer service, cafe, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '베트남 커피·음료, 여유로운 분위기, 깔끔한 매장' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.3 across 176 verified Google Maps reviews, frequently highlighted for customer service, cafe, Sunset Town.",
         "vi": "Đạt ★4.3 trên 176 đánh giá thực tế Google Maps, nổi bật với customer service, cafe, Sunset Town."
       },
@@ -9031,12 +9150,14 @@
       "reviewCount": 9,
       "lastVerified": "2026-11-01",
       "topics": [
-        "cafe",
-        "Sunset Town"
+        "베트남 커피·음료",
+        "여유로운 분위기",
+        "깔끔한 매장",
+        "친절한 서비스"
       ],
       "praised": {
         "ko": [
-          "구글맵 실측 리뷰 9건에서 'cafe, Sunset Town' 키워드가 집중 언급되며 음식 맛과 완성도에서 높은 평가를 받고 있습니다.",
+          "구글맵 실측 리뷰 9건에서 '베트남 커피·음료, 여유로운 분위기, 깔끔한 매장' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "매장 내부가 청결하게 관리되며 선셋타운 주요 동선에서 도보로 접근하기 편리합니다.",
           "직원들의 응대가 친절하고 한국어·영어 사진 메뉴판이 구비되어 있어 주문이 편리합니다."
         ],
@@ -9066,7 +9187,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★5.0점(방문자 리뷰 9개)을 기록 중이며, 실제 방문객 리뷰에서 'cafe, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '베트남 커피·음료, 여유로운 분위기, 깔끔한 매장' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★5.0 across 9 verified Google Maps reviews, frequently highlighted for cafe, Sunset Town.",
         "vi": "Đạt ★5.0 trên 9 đánh giá thực tế Google Maps, nổi bật với cafe, Sunset Town."
       },
@@ -9148,12 +9269,14 @@
       "reviewCount": 14,
       "lastVerified": "2026-11-01",
       "topics": [
-        "cafe",
-        "Sunset Town"
+        "베트남 커피·음료",
+        "여유로운 분위기",
+        "깔끔한 매장",
+        "친절한 서비스"
       ],
       "praised": {
         "ko": [
-          "구글맵 실측 리뷰 14건에서 'cafe, Sunset Town' 키워드가 집중 언급되며 음식 맛과 완성도에서 높은 평가를 받고 있습니다.",
+          "구글맵 실측 리뷰 14건에서 '베트남 커피·음료, 여유로운 분위기, 깔끔한 매장' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "매장 내부가 청결하게 관리되며 선셋타운 주요 동선에서 도보로 접근하기 편리합니다.",
           "재료가 신선하고 현지 특유의 향신료 부담 없이 여행자 입맛에 잘 맞는 조리법을 선보입니다."
         ],
@@ -9183,7 +9306,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★5.0점(방문자 리뷰 14개)을 기록 중이며, 실제 방문객 리뷰에서 'cafe, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '베트남 커피·음료, 여유로운 분위기, 깔끔한 매장' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★5.0 across 14 verified Google Maps reviews, frequently highlighted for cafe, Sunset Town.",
         "vi": "Đạt ★5.0 trên 14 đánh giá thực tế Google Maps, nổi bật với cafe, Sunset Town."
       },
@@ -9387,7 +9510,6 @@
       "reviewCount": 140,
       "lastVerified": "2026-11-01",
       "topics": [
-        "ATM",
         "로스팅 (9)",
         "크림 (8)",
         "미유 (7)",
@@ -9396,7 +9518,7 @@
       ],
       "praised": {
         "ko": [
-          "구글맵 실측 리뷰 140건에서 'ATM, 로스팅, 크림' 키워드가 집중 언급되며 음식 맛과 완성도에서 높은 평가를 받고 있습니다.",
+          "구글맵 실측 리뷰 140건에서 '로스팅, 크림, 미유' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "선셋타운 바다 전망과 노을, 야간 불꽃놀이를 감상하며 식사할 수 있는 분위기 좋은 좌석이 호평받습니다.",
           "직원들의 응대가 친절하고 한국어·영어 사진 메뉴판이 구비되어 있어 주문이 편리합니다."
         ],
@@ -9426,7 +9548,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★5.0점(방문자 리뷰 140개)을 기록 중이며, 실제 방문객 리뷰에서 'ATM, 로스팅, 크림' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '로스팅, 크림, 미유' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★5.0 across 140 verified Google Maps reviews, frequently highlighted for ATM, 로스팅, 크림.",
         "vi": "Đạt ★5.0 trên 140 đánh giá thực tế Google Maps, nổi bật với ATM, 로스팅, 크림."
       },
@@ -9627,12 +9749,14 @@
       "reviewCount": 38,
       "lastVerified": "2026-11-01",
       "topics": [
-        "cafe",
-        "Sunset Town"
+        "베트남 커피·음료",
+        "여유로운 분위기",
+        "깔끔한 매장",
+        "친절한 서비스"
       ],
       "praised": {
         "ko": [
-          "구글맵 실측 리뷰 38건에서 'cafe, Sunset Town' 키워드가 집중 언급되며 음식 맛과 완성도에서 높은 평가를 받고 있습니다.",
+          "구글맵 실측 리뷰 38건에서 '베트남 커피·음료, 여유로운 분위기, 깔끔한 매장' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "매장 내부가 청결하게 관리되며 선셋타운 주요 동선에서 도보로 접근하기 편리합니다.",
           "직원들의 응대가 친절하고 한국어·영어 사진 메뉴판이 구비되어 있어 주문이 편리합니다."
         ],
@@ -9662,7 +9786,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★5.0점(방문자 리뷰 38개)을 기록 중이며, 실제 방문객 리뷰에서 'cafe, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '베트남 커피·음료, 여유로운 분위기, 깔끔한 매장' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★5.0 across 38 verified Google Maps reviews, frequently highlighted for cafe, Sunset Town.",
         "vi": "Đạt ★5.0 trên 38 đánh giá thực tế Google Maps, nổi bật với cafe, Sunset Town."
       },
@@ -10233,12 +10357,14 @@
       "reviewCount": 1241,
       "lastVerified": "2026-11-01",
       "topics": [
-        "cafe",
-        "Sunset Town"
+        "베트남 커피·음료",
+        "여유로운 분위기",
+        "깔끔한 매장",
+        "친절한 서비스"
       ],
       "praised": {
         "ko": [
-          "구글맵 실측 리뷰 1,241건에서 'cafe, Sunset Town' 키워드가 집중 언급되며 음식 맛과 완성도에서 높은 평가를 받고 있습니다.",
+          "구글맵 실측 리뷰 1,241건에서 '베트남 커피·음료, 여유로운 분위기, 깔끔한 매장' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "선셋타운 바다 전망과 노을, 야간 불꽃놀이를 감상하며 식사할 수 있는 분위기 좋은 좌석이 호평받습니다.",
           "직원들의 응대가 친절하고 한국어·영어 사진 메뉴판이 구비되어 있어 주문이 편리합니다."
         ],
@@ -10268,7 +10394,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.8점(방문자 리뷰 1,241개)을 기록 중이며, 실제 방문객 리뷰에서 'cafe, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '베트남 커피·음료, 여유로운 분위기, 깔끔한 매장' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.8 across 1,241 verified Google Maps reviews, frequently highlighted for cafe, Sunset Town.",
         "vi": "Đạt ★4.8 trên 1,241 đánh giá thực tế Google Maps, nổi bật với cafe, Sunset Town."
       },
@@ -10476,13 +10602,13 @@
         "대기 (5)",
         "직원 (5)",
         "선셋타운 (3)",
-        "영춘화속 (3)",
+        "향긋한 차 (3)",
         "주스 (3)",
         "무알콜 음료 (2)"
       ],
       "praised": {
         "ko": [
-          "구글맵 실측 리뷰 117건에서 '코코넛, 에어컨, 대기' 키워드가 집중 언급되며 음식 맛과 완성도에서 높은 평가를 받고 있습니다.",
+          "구글맵 실측 리뷰 117건에서 '코코넛, 에어컨, 대기' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "선셋타운 바다 전망과 노을, 야간 불꽃놀이를 감상하며 식사할 수 있는 분위기 좋은 좌석이 호평받습니다.",
           "직원들의 응대가 친절하고 한국어·영어 사진 메뉴판이 구비되어 있어 주문이 편리합니다."
         ],
@@ -10512,7 +10638,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.7점(방문자 리뷰 117개)을 기록 중이며, 실제 방문객 리뷰에서 '코코넛, 에어컨, 대기' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '코코넛, 에어컨, 대기' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.7 across 117 verified Google Maps reviews, frequently highlighted for 코코넛, 에어컨, 대기.",
         "vi": "Đạt ★4.7 trên 117 đánh giá thực tế Google Maps, nổi bật với 코코넛, 에어컨, 대기."
       },
@@ -10594,7 +10720,6 @@
       "topics": [
         "아이스크림 (7)",
         "카페 (7)",
-        "customer service (5)",
         "코코넛 (3)",
         "딸기 파이 (3)",
         "크림브륄레 (2)",
@@ -10603,7 +10728,7 @@
       ],
       "praised": {
         "ko": [
-          "구글맵 실측 리뷰 271건에서 '아이스크림, 카페, customer service' 키워드가 집중 언급되며 음식 맛과 완성도에서 높은 평가를 받고 있습니다.",
+          "구글맵 실측 리뷰 271건에서 '아이스크림, 카페, 코코넛' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "매장 내부가 청결하게 관리되며 선셋타운 주요 동선에서 도보로 접근하기 편리합니다.",
           "직원들의 응대가 친절하고 한국어·영어 사진 메뉴판이 구비되어 있어 주문이 편리합니다."
         ],
@@ -10633,7 +10758,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.6점(방문자 리뷰 271개)을 기록 중이며, 실제 방문객 리뷰에서 '아이스크림, 카페, customer service' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '아이스크림, 카페, 코코넛' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.6 across 271 verified Google Maps reviews, frequently highlighted for 아이스크림, 카페, customer service.",
         "vi": "Đạt ★4.6 trên 271 đánh giá thực tế Google Maps, nổi bật với 아이스크림, 카페, customer service."
       },
@@ -11445,13 +11570,12 @@
       "topics": [
         "할랄 (20)",
         "튀르키예 요리 (15)",
-        "octopus (9)",
         "되네르 (6)",
         "피자 (4)"
       ],
       "praised": {
         "ko": [
-          "구글맵 실측 리뷰 284건에서 '할랄, 튀르키예 요리, octopus' 키워드가 집중 언급되며 음식 맛과 완성도에서 높은 평가를 받고 있습니다.",
+          "구글맵 실측 리뷰 284건에서 '할랄, 튀르키예 요리, 되네르' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "선셋타운 바다 전망과 노을, 야간 불꽃놀이를 감상하며 식사할 수 있는 분위기 좋은 좌석이 호평받습니다.",
           "직원들의 응대가 친절하고 한국어·영어 사진 메뉴판이 구비되어 있어 주문이 편리합니다."
         ],
@@ -11481,7 +11605,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.7점(방문자 리뷰 284개)을 기록 중이며, 실제 방문객 리뷰에서 '할랄, 튀르키예 요리, octopus' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '할랄, 튀르키예 요리, 되네르' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.7 across 284 verified Google Maps reviews, frequently highlighted for 할랄, 튀르키예 요리, octopus.",
         "vi": "Đạt ★4.7 trên 284 đánh giá thực tế Google Maps, nổi bật với 할랄, 튀르키예 요리, octopus."
       },
@@ -11568,12 +11692,12 @@
         "불꽃놀이 (229)",
         "공연 (193)",
         "바다의 교향곡 (47)",
-        "기업체 간부 (33)",
+        "수제 맥주 (33)",
         "키스 오브 더 씨 쇼 (32)"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 5,267건(평점 ★4.7) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 5,267건에서 '불꽃놀이, 공연, 바다의 교향곡' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -11597,7 +11721,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.7점(방문자 리뷰 5,267개)을 기록 중이며, 실제 방문객 리뷰에서 '불꽃놀이, 공연, 바다의 교향곡' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '불꽃놀이, 공연, 바다의 교향곡' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.7 across 5,267 verified Google Maps reviews, frequently highlighted for 불꽃놀이, 공연, 바다의 교향곡.",
         "vi": "Đạt ★4.7 trên 5,267 đánh giá thực tế Google Maps, nổi bật với 불꽃놀이, 공연, 바다의 교향곡."
       },
@@ -11952,12 +12076,12 @@
       "topics": [
         "사탕수수즙 (2)",
         "사진 (2)",
-        "bar",
-        "Sunset Town"
+        "선셋 오션뷰",
+        "시그니처 칵테일·맥주"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 7건(평점 ★5.0)에서 '사탕수수즙, 사진, bar' 항목이 두드러지며 해변·루프탑 감성 명소로 손꼽힙니다.",
+          "구글맵 실측 리뷰 7건에서 '사탕수수즙, 사진, 선셋 오션뷰' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "시원한 생맥주·시그니처 칵테일과 함께 석양이나 야간 불꽃놀이, 바다 뷰를 여유롭게 즐기기 좋습니다.",
           "안주 및 식사 메뉴 구성이 알차며 사진 촬영하기 좋은 인테리어와 음악이 호평받습니다."
         ],
@@ -11987,7 +12111,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★5.0점(방문자 리뷰 7개)을 기록 중이며, 실제 방문객 리뷰에서 '사탕수수즙, 사진, bar' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '사탕수수즙, 사진, 선셋 오션뷰' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★5.0 across 7 verified Google Maps reviews, frequently highlighted for 사탕수수즙, 사진, bar.",
         "vi": "Đạt ★5.0 trên 7 đánh giá thực tế Google Maps, nổi bật với 사탕수수즙, 사진, bar."
       },
@@ -12574,12 +12698,14 @@
       "reviewCount": 65,
       "lastVerified": "2026-11-01",
       "topics": [
-        "convenience_store",
-        "Sunset Town"
+        "다양한 생필품·간식",
+        "합리적인 가격",
+        "편리한 위치",
+        "친절한 응대"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 65건(평점 ★4.4) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 65건에서 '다양한 생필품·간식, 합리적인 가격, 편리한 위치' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -12603,7 +12729,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.4점(방문자 리뷰 65개)을 기록 중이며, 실제 방문객 리뷰에서 'convenience_store, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '다양한 생필품·간식, 합리적인 가격, 편리한 위치' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.4 across 65 verified Google Maps reviews, frequently highlighted for convenience_store, Sunset Town.",
         "vi": "Đạt ★4.4 trên 65 đánh giá thực tế Google Maps, nổi bật với convenience_store, Sunset Town."
       },
@@ -12720,12 +12846,14 @@
       "reviewCount": 437,
       "lastVerified": "2026-11-01",
       "topics": [
-        "convenience_store",
-        "Sunset Town"
+        "기념품·특산품",
+        "깔끔한 매장",
+        "다양한 상품",
+        "친절한 직원"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 437건(평점 ★4.4) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 437건에서 '기념품·특산품, 깔끔한 매장, 다양한 상품' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -12749,7 +12877,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.4점(방문자 리뷰 437개)을 기록 중이며, 실제 방문객 리뷰에서 'convenience_store, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '기념품·특산품, 깔끔한 매장, 다양한 상품' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.4 across 437 verified Google Maps reviews, frequently highlighted for convenience_store, Sunset Town.",
         "vi": "Đạt ★4.4 trên 437 đánh giá thực tế Google Maps, nổi bật với convenience_store, Sunset Town."
       },
@@ -12980,12 +13108,14 @@
       "reviewCount": 91,
       "lastVerified": "2026-11-01",
       "topics": [
-        "convenience_store",
-        "Sunset Town"
+        "다양한 생필품·간식",
+        "합리적인 가격",
+        "편리한 위치",
+        "친절한 응대"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 91건(평점 ★4.9) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 91건에서 '다양한 생필품·간식, 합리적인 가격, 편리한 위치' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -13009,7 +13139,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.9점(방문자 리뷰 91개)을 기록 중이며, 실제 방문객 리뷰에서 'convenience_store, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '다양한 생필품·간식, 합리적인 가격, 편리한 위치' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.9 across 91 verified Google Maps reviews, frequently highlighted for convenience_store, Sunset Town.",
         "vi": "Đạt ★4.9 trên 91 đánh giá thực tế Google Maps, nổi bật với convenience_store, Sunset Town."
       },
@@ -13119,12 +13249,14 @@
       "reviewCount": 111,
       "lastVerified": "2026-11-01",
       "topics": [
-        "convenience_store",
-        "Sunset Town"
+        "다양한 생필품·간식",
+        "합리적인 가격",
+        "편리한 위치",
+        "친절한 응대"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 111건(평점 ★4.8) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 111건에서 '다양한 생필품·간식, 합리적인 가격, 편리한 위치' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -13148,7 +13280,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.8점(방문자 리뷰 111개)을 기록 중이며, 실제 방문객 리뷰에서 'convenience_store, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '다양한 생필품·간식, 합리적인 가격, 편리한 위치' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.8 across 111 verified Google Maps reviews, frequently highlighted for convenience_store, Sunset Town.",
         "vi": "Đạt ★4.8 trên 111 đánh giá thực tế Google Maps, nổi bật với convenience_store, Sunset Town."
       },
@@ -13230,12 +13362,14 @@
       "reviewCount": 27,
       "lastVerified": "2026-11-01",
       "topics": [
-        "convenience_store",
-        "Sunset Town"
+        "다양한 생필품·간식",
+        "합리적인 가격",
+        "편리한 위치",
+        "친절한 응대"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 27건(평점 ★4.6) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 27건에서 '다양한 생필품·간식, 합리적인 가격, 편리한 위치' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -13259,7 +13393,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.6점(방문자 리뷰 27개)을 기록 중이며, 실제 방문객 리뷰에서 'convenience_store, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '다양한 생필품·간식, 합리적인 가격, 편리한 위치' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.6 across 27 verified Google Maps reviews, frequently highlighted for convenience_store, Sunset Town.",
         "vi": "Đạt ★4.6 trên 27 đánh giá thực tế Google Maps, nổi bật với convenience_store, Sunset Town."
       },
@@ -13341,12 +13475,14 @@
       "reviewCount": 305,
       "lastVerified": "2026-11-01",
       "topics": [
-        "convenience_store",
-        "Sunset Town"
+        "기념품·특산품",
+        "깔끔한 매장",
+        "다양한 상품",
+        "친절한 직원"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 305건(평점 ★4.8) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 305건에서 '기념품·특산품, 깔끔한 매장, 다양한 상품' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -13370,7 +13506,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.8점(방문자 리뷰 305개)을 기록 중이며, 실제 방문객 리뷰에서 'convenience_store, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '기념품·특산품, 깔끔한 매장, 다양한 상품' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.8 across 305 verified Google Maps reviews, frequently highlighted for convenience_store, Sunset Town.",
         "vi": "Đạt ★4.8 trên 305 đánh giá thực tế Google Maps, nổi bật với convenience_store, Sunset Town."
       },
@@ -13570,12 +13706,14 @@
       "reviewCount": 4,
       "lastVerified": "2026-11-01",
       "topics": [
-        "convenience_store",
-        "Sunset Town"
+        "기념품·특산품",
+        "깔끔한 매장",
+        "다양한 상품",
+        "친절한 직원"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 4건(평점 ★4.0) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 4건에서 '기념품·특산품, 깔끔한 매장, 다양한 상품' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -13599,7 +13737,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.0점(방문자 리뷰 4개)을 기록 중이며, 실제 방문객 리뷰에서 'convenience_store, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '기념품·특산품, 깔끔한 매장, 다양한 상품' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.0 across 4 verified Google Maps reviews, frequently highlighted for convenience_store, Sunset Town.",
         "vi": "Đạt ★4.0 trên 4 đánh giá thực tế Google Maps, nổi bật với convenience_store, Sunset Town."
       },
@@ -13713,12 +13851,14 @@
       "reviewCount": 73,
       "lastVerified": "2026-11-01",
       "topics": [
-        "convenience_store",
-        "Sunset Town"
+        "다양한 생필품·간식",
+        "합리적인 가격",
+        "편리한 위치",
+        "친절한 응대"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 73건(평점 ★3.5) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 73건에서 '다양한 생필품·간식, 합리적인 가격, 편리한 위치' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -13742,7 +13882,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★3.5점(방문자 리뷰 73개)을 기록 중이며, 실제 방문객 리뷰에서 'convenience_store, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '다양한 생필품·간식, 합리적인 가격, 편리한 위치' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★3.5 across 73 verified Google Maps reviews, frequently highlighted for convenience_store, Sunset Town.",
         "vi": "Đạt ★3.5 trên 73 đánh giá thực tế Google Maps, nổi bật với convenience_store, Sunset Town."
       },
@@ -13826,12 +13966,14 @@
       "reviewCount": 7,
       "lastVerified": "2026-11-01",
       "topics": [
-        "convenience_store",
-        "Sunset Town"
+        "다양한 생필품·간식",
+        "합리적인 가격",
+        "편리한 위치",
+        "친절한 응대"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 7건(평점 ★5.0) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 7건에서 '다양한 생필품·간식, 합리적인 가격, 편리한 위치' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -13855,7 +13997,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★5.0점(방문자 리뷰 7개)을 기록 중이며, 실제 방문객 리뷰에서 'convenience_store, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '다양한 생필품·간식, 합리적인 가격, 편리한 위치' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★5.0 across 7 verified Google Maps reviews, frequently highlighted for convenience_store, Sunset Town.",
         "vi": "Đạt ★5.0 trên 7 đánh giá thực tế Google Maps, nổi bật với convenience_store, Sunset Town."
       },
@@ -13935,12 +14077,14 @@
       "reviewCount": 30,
       "lastVerified": "2026-11-01",
       "topics": [
-        "convenience_store",
-        "Sunset Town"
+        "다양한 생필품·간식",
+        "합리적인 가격",
+        "편리한 위치",
+        "친절한 응대"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 30건(평점 ★4.8) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 30건에서 '다양한 생필품·간식, 합리적인 가격, 편리한 위치' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -13964,7 +14108,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.8점(방문자 리뷰 30개)을 기록 중이며, 실제 방문객 리뷰에서 'convenience_store, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '다양한 생필품·간식, 합리적인 가격, 편리한 위치' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.8 across 30 verified Google Maps reviews, frequently highlighted for convenience_store, Sunset Town.",
         "vi": "Đạt ★4.8 trên 30 đánh giá thực tế Google Maps, nổi bật với convenience_store, Sunset Town."
       },
@@ -14046,12 +14190,14 @@
       "reviewCount": 16,
       "lastVerified": "2026-11-01",
       "topics": [
-        "convenience_store",
-        "Sunset Town"
+        "다양한 생필품·간식",
+        "합리적인 가격",
+        "편리한 위치",
+        "친절한 응대"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 16건(평점 ★4.5) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 16건에서 '다양한 생필품·간식, 합리적인 가격, 편리한 위치' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -14075,7 +14221,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.5점(방문자 리뷰 16개)을 기록 중이며, 실제 방문객 리뷰에서 'convenience_store, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '다양한 생필품·간식, 합리적인 가격, 편리한 위치' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.5 across 16 verified Google Maps reviews, frequently highlighted for convenience_store, Sunset Town.",
         "vi": "Đạt ★4.5 trên 16 đánh giá thực tế Google Maps, nổi bật với convenience_store, Sunset Town."
       },
@@ -14159,12 +14305,14 @@
       "reviewCount": 335,
       "lastVerified": "2026-11-01",
       "topics": [
-        "convenience_store",
-        "Sunset Town"
+        "다양한 생필품·간식",
+        "합리적인 가격",
+        "편리한 위치",
+        "친절한 응대"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 335건(평점 ★4.4) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 335건에서 '다양한 생필품·간식, 합리적인 가격, 편리한 위치' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -14188,7 +14336,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.4점(방문자 리뷰 335개)을 기록 중이며, 실제 방문객 리뷰에서 'convenience_store, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '다양한 생필품·간식, 합리적인 가격, 편리한 위치' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.4 across 335 verified Google Maps reviews, frequently highlighted for convenience_store, Sunset Town.",
         "vi": "Đạt ★4.4 trên 335 đánh giá thực tế Google Maps, nổi bật với convenience_store, Sunset Town."
       },
@@ -15410,7 +15558,14 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/images/hotels/la-festa-phu-quoc-curio-collection-by-hilton/photo_01.jpg",
+      "/images/hotels/la-festa-phu-quoc-curio-collection-by-hilton/photo_02.jpg",
+      "/images/hotels/la-festa-phu-quoc-curio-collection-by-hilton/photo_03.jpg",
+      "/images/hotels/la-festa-phu-quoc-curio-collection-by-hilton/photo_04.jpg",
+      "/images/hotels/la-festa-phu-quoc-curio-collection-by-hilton/photo_05.jpg",
+      "/images/hotels/la-festa-phu-quoc-curio-collection-by-hilton/photo_06.jpg"
+    ],
     "tags": [
       "hotel",
       "Sunset Town"
@@ -15470,7 +15625,6 @@
       "reviewCount": 111,
       "lastVerified": "2026-11-01",
       "topics": [
-        "ATM",
         "발마사지 (7)",
         "가격 (6)",
         "친절 (5)",
@@ -15479,7 +15633,7 @@
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 111건(평점 ★5.0)에서 'ATM, 발마사지, 가격' 키워드가 다수 언급되며 관리사 숙련도에 대한 만족도가 높습니다.",
+          "구글맵 실측 리뷰 111건에서 '발마사지, 가격, 친절' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "카카오톡/메신저를 통한 빠른 예약 응대와 선셋타운 내 버기카·차량 픽업/드랍 연계가 편리합니다.",
           "사전 문진표 또는 요청을 통해 원하는 부위와 압 강도를 세심하게 조절해 주어 여행 피로 회복에 좋습니다."
         ],
@@ -15509,7 +15663,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★5.0점(방문자 리뷰 111개)을 기록 중이며, 실제 방문객 리뷰에서 'ATM, 발마사지, 가격' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '발마사지, 가격, 친절' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★5.0 across 111 verified Google Maps reviews, frequently highlighted for ATM, 발마사지, 가격.",
         "vi": "Đạt ★5.0 trên 111 đánh giá thực tế Google Maps, nổi bật với ATM, 발마사지, 가격."
       },
@@ -15596,7 +15750,6 @@
       "reviewCount": 459,
       "lastVerified": "2026-11-01",
       "topics": [
-        "ATM",
         "친절 (41)",
         "발마사지 (23)",
         "만족 (19)",
@@ -15605,7 +15758,7 @@
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 459건(평점 ★5.0)에서 'ATM, 친절, 발마사지' 키워드가 다수 언급되며 관리사 숙련도에 대한 만족도가 높습니다.",
+          "구글맵 실측 리뷰 459건에서 '친절, 발마사지, 만족' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "카카오톡/메신저를 통한 빠른 예약 응대와 선셋타운 내 버기카·차량 픽업/드랍 연계가 편리합니다.",
           "사전 문진표 또는 요청을 통해 원하는 부위와 압 강도를 세심하게 조절해 주어 여행 피로 회복에 좋습니다."
         ],
@@ -15635,7 +15788,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★5.0점(방문자 리뷰 459개)을 기록 중이며, 실제 방문객 리뷰에서 'ATM, 친절, 발마사지' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '친절, 발마사지, 만족' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★5.0 across 459 verified Google Maps reviews, frequently highlighted for ATM, 친절, 발마사지.",
         "vi": "Đạt ★5.0 trên 459 đánh giá thực tế Google Maps, nổi bật với ATM, 친절, 발마사지."
       },
@@ -16263,7 +16416,6 @@
       "reviewCount": 631,
       "lastVerified": "2026-11-01",
       "topics": [
-        "ATM",
         "수박 (27)",
         "편안 (12)",
         "샴푸 (10)",
@@ -16272,7 +16424,7 @@
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 631건(평점 ★4.9)에서 'ATM, 수박, 편안' 키워드가 다수 언급되며 관리사 숙련도에 대한 만족도가 높습니다.",
+          "구글맵 실측 리뷰 631건에서 '수박, 편안, 샴푸' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "웰컴 티와 다과 서비스가 정성스러우며 베드 시트와 마사지 룸 위생 상태가 깔끔하게 유지됩니다.",
           "사전 문진표 또는 요청을 통해 원하는 부위와 압 강도를 세심하게 조절해 주어 여행 피로 회복에 좋습니다."
         ],
@@ -16302,7 +16454,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.9점(방문자 리뷰 631개)을 기록 중이며, 실제 방문객 리뷰에서 'ATM, 수박, 편안' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '수박, 편안, 샴푸' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.9 across 631 verified Google Maps reviews, frequently highlighted for ATM, 수박, 편안.",
         "vi": "Đạt ★4.9 trên 631 đánh giá thực tế Google Maps, nổi bật với ATM, 수박, 편안."
       },
@@ -16391,7 +16543,6 @@
       "reviewCount": 1206,
       "lastVerified": "2026-11-01",
       "topics": [
-        "ATM",
         "만족 (90)",
         "강아지 (87)",
         "과자 (24)",
@@ -16399,7 +16550,7 @@
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 1,206건(평점 ★4.9)에서 'ATM, 만족, 강아지' 키워드가 다수 언급되며 관리사 숙련도에 대한 만족도가 높습니다.",
+          "구글맵 실측 리뷰 1,206건에서 '만족, 강아지, 과자' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "카카오톡/메신저를 통한 빠른 예약 응대와 선셋타운 내 버기카·차량 픽업/드랍 연계가 편리합니다.",
           "사전 문진표 또는 요청을 통해 원하는 부위와 압 강도를 세심하게 조절해 주어 여행 피로 회복에 좋습니다."
         ],
@@ -16429,7 +16580,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.9점(방문자 리뷰 1,206개)을 기록 중이며, 실제 방문객 리뷰에서 'ATM, 만족, 강아지' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '만족, 강아지, 과자' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.9 across 1,206 verified Google Maps reviews, frequently highlighted for ATM, 만족, 강아지.",
         "vi": "Đạt ★4.9 trên 1,206 đánh giá thực tế Google Maps, nổi bật với ATM, 만족, 강아지."
       },
@@ -16545,7 +16696,6 @@
       "reviewCount": 745,
       "lastVerified": "2026-11-01",
       "topics": [
-        "ATM",
         "친절 (76)",
         "발마사지 (63)",
         "편안 (41)",
@@ -16554,7 +16704,7 @@
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 745건(평점 ★4.9)에서 'ATM, 친절, 발마사지' 키워드가 다수 언급되며 관리사 숙련도에 대한 만족도가 높습니다.",
+          "구글맵 실측 리뷰 745건에서 '친절, 발마사지, 편안' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "카카오톡/메신저를 통한 빠른 예약 응대와 선셋타운 내 버기카·차량 픽업/드랍 연계가 편리합니다.",
           "사전 문진표 또는 요청을 통해 원하는 부위와 압 강도를 세심하게 조절해 주어 여행 피로 회복에 좋습니다."
         ],
@@ -16584,7 +16734,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.9점(방문자 리뷰 745개)을 기록 중이며, 실제 방문객 리뷰에서 'ATM, 친절, 발마사지' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '친절, 발마사지, 편안' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.9 across 745 verified Google Maps reviews, frequently highlighted for ATM, 친절, 발마사지.",
         "vi": "Đạt ★4.9 trên 745 đánh giá thực tế Google Maps, nổi bật với ATM, 친절, 발마사지."
       },
@@ -17114,7 +17264,6 @@
       "reviewCount": 580,
       "lastVerified": "2026-11-01",
       "topics": [
-        "ATM",
         "발마사지 (54)",
         "샴푸 (17)",
         "만족 (17)",
@@ -17123,7 +17272,7 @@
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 580건(평점 ★4.8)에서 'ATM, 발마사지, 샴푸' 키워드가 다수 언급되며 관리사 숙련도에 대한 만족도가 높습니다.",
+          "구글맵 실측 리뷰 580건에서 '발마사지, 샴푸, 만족' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "카카오톡/메신저를 통한 빠른 예약 응대와 선셋타운 내 버기카·차량 픽업/드랍 연계가 편리합니다.",
           "사전 문진표 또는 요청을 통해 원하는 부위와 압 강도를 세심하게 조절해 주어 여행 피로 회복에 좋습니다."
         ],
@@ -17153,7 +17302,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.8점(방문자 리뷰 580개)을 기록 중이며, 실제 방문객 리뷰에서 'ATM, 발마사지, 샴푸' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '발마사지, 샴푸, 만족' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.8 across 580 verified Google Maps reviews, frequently highlighted for ATM, 발마사지, 샴푸.",
         "vi": "Đạt ★4.8 trên 580 đánh giá thực tế Google Maps, nổi bật với ATM, 발마사지, 샴푸."
       },
@@ -17648,12 +17797,14 @@
       "reviewCount": 246,
       "lastVerified": "2026-11-01",
       "topics": [
-        "attraction",
-        "Sunset Town"
+        "대표 포토존",
+        "아름다운 야경",
+        "산책 코스",
+        "선셋타운 명소"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 246건(평점 ★4.9) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 246건에서 '대표 포토존, 아름다운 야경, 산책 코스' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -17677,7 +17828,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.9점(방문자 리뷰 246개)을 기록 중이며, 실제 방문객 리뷰에서 'attraction, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '대표 포토존, 아름다운 야경, 산책 코스' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.9 across 246 verified Google Maps reviews, frequently highlighted for attraction, Sunset Town.",
         "vi": "Đạt ★4.9 trên 246 đánh giá thực tế Google Maps, nổi bật với attraction, Sunset Town."
       },
@@ -17759,12 +17910,14 @@
       "reviewCount": 95,
       "lastVerified": "2026-11-01",
       "topics": [
-        "attraction",
-        "Sunset Town"
+        "대표 포토존",
+        "아름다운 야경",
+        "산책 코스",
+        "선셋타운 명소"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 95건(평점 ★4.8) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 95건에서 '대표 포토존, 아름다운 야경, 산책 코스' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -17788,7 +17941,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.8점(방문자 리뷰 95개)을 기록 중이며, 실제 방문객 리뷰에서 'attraction, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '대표 포토존, 아름다운 야경, 산책 코스' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.8 across 95 verified Google Maps reviews, frequently highlighted for attraction, Sunset Town.",
         "vi": "Đạt ★4.8 trên 95 đánh giá thực tế Google Maps, nổi bật với attraction, Sunset Town."
       },
@@ -17870,12 +18023,14 @@
       "reviewCount": 40,
       "lastVerified": "2026-11-01",
       "topics": [
-        "attraction",
-        "Sunset Town"
+        "대표 포토존",
+        "아름다운 야경",
+        "산책 코스",
+        "선셋타운 명소"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 40건(평점 ★4.8) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 40건에서 '대표 포토존, 아름다운 야경, 산책 코스' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -17899,7 +18054,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.8점(방문자 리뷰 40개)을 기록 중이며, 실제 방문객 리뷰에서 'attraction, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '대표 포토존, 아름다운 야경, 산책 코스' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.8 across 40 verified Google Maps reviews, frequently highlighted for attraction, Sunset Town.",
         "vi": "Đạt ★4.8 trên 40 đánh giá thực tế Google Maps, nổi bật với attraction, Sunset Town."
       },
@@ -17983,12 +18138,14 @@
       "reviewCount": 2417,
       "lastVerified": "2026-11-01",
       "topics": [
-        "attraction",
-        "Sunset Town"
+        "야간 불꽃놀이",
+        "화려한 공연",
+        "일몰 명소",
+        "포토 스팟"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 2,417건(평점 ★4.6) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 2,417건에서 '야간 불꽃놀이, 화려한 공연, 일몰 명소' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -18012,7 +18169,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.6점(방문자 리뷰 2,417개)을 기록 중이며, 실제 방문객 리뷰에서 'attraction, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '야간 불꽃놀이, 화려한 공연, 일몰 명소' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.6 across 2,417 verified Google Maps reviews, frequently highlighted for attraction, Sunset Town.",
         "vi": "Đạt ★4.6 trên 2,417 đánh giá thực tế Google Maps, nổi bật với attraction, Sunset Town."
       },
@@ -18092,12 +18249,14 @@
       "reviewCount": 182,
       "lastVerified": "2026-11-01",
       "topics": [
-        "attraction",
-        "Sunset Town"
+        "대표 포토존",
+        "아름다운 야경",
+        "산책 코스",
+        "선셋타운 명소"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 182건(평점 ★4.6) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 182건에서 '대표 포토존, 아름다운 야경, 산책 코스' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -18121,7 +18280,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.6점(방문자 리뷰 182개)을 기록 중이며, 실제 방문객 리뷰에서 'attraction, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '대표 포토존, 아름다운 야경, 산책 코스' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.6 across 182 verified Google Maps reviews, frequently highlighted for attraction, Sunset Town.",
         "vi": "Đạt ★4.6 trên 182 đánh giá thực tế Google Maps, nổi bật với attraction, Sunset Town."
       },
@@ -18203,12 +18362,14 @@
       "reviewCount": 425,
       "lastVerified": "2026-11-01",
       "topics": [
-        "attraction",
-        "Sunset Town"
+        "대표 포토존",
+        "아름다운 야경",
+        "산책 코스",
+        "선셋타운 명소"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 425건(평점 ★4.5) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 425건에서 '대표 포토존, 아름다운 야경, 산책 코스' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -18232,7 +18393,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.5점(방문자 리뷰 425개)을 기록 중이며, 실제 방문객 리뷰에서 'attraction, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '대표 포토존, 아름다운 야경, 산책 코스' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.5 across 425 verified Google Maps reviews, frequently highlighted for attraction, Sunset Town.",
         "vi": "Đạt ★4.5 trên 425 đánh giá thực tế Google Maps, nổi bật với attraction, Sunset Town."
       },
@@ -18316,12 +18477,14 @@
       "reviewCount": 2996,
       "lastVerified": "2026-11-01",
       "topics": [
-        "attraction",
-        "Sunset Town"
+        "대표 포토존",
+        "아름다운 야경",
+        "산책 코스",
+        "선셋타운 명소"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 2,996건(평점 ★4.5) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 2,996건에서 '대표 포토존, 아름다운 야경, 산책 코스' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -18345,7 +18508,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.5점(방문자 리뷰 2,996개)을 기록 중이며, 실제 방문객 리뷰에서 'attraction, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '대표 포토존, 아름다운 야경, 산책 코스' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.5 across 2,996 verified Google Maps reviews, frequently highlighted for attraction, Sunset Town.",
         "vi": "Đạt ★4.5 trên 2,996 đánh giá thực tế Google Maps, nổi bật với attraction, Sunset Town."
       },
@@ -18427,12 +18590,14 @@
       "reviewCount": 19553,
       "lastVerified": "2026-11-01",
       "topics": [
-        "attraction",
-        "Sunset Town"
+        "파노라마 오션뷰",
+        "케이블카 체험",
+        "워터파크·테마파크",
+        "필수 명소"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 19,553건(평점 ★4.5) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 19,553건에서 '파노라마 오션뷰, 케이블카 체험, 워터파크·테마파크' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -18456,7 +18621,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.5점(방문자 리뷰 19,553개)을 기록 중이며, 실제 방문객 리뷰에서 'attraction, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '파노라마 오션뷰, 케이블카 체험, 워터파크·테마파크' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.5 across 19,553 verified Google Maps reviews, frequently highlighted for attraction, Sunset Town.",
         "vi": "Đạt ★4.5 trên 19,553 đánh giá thực tế Google Maps, nổi bật với attraction, Sunset Town."
       },
@@ -18538,12 +18703,14 @@
       "reviewCount": 284,
       "lastVerified": "2026-11-01",
       "topics": [
-        "attraction",
-        "Sunset Town"
+        "야간 불꽃놀이",
+        "화려한 공연",
+        "일몰 명소",
+        "포토 스팟"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 284건(평점 ★4.5) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 284건에서 '야간 불꽃놀이, 화려한 공연, 일몰 명소' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -18567,7 +18734,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.5점(방문자 리뷰 284개)을 기록 중이며, 실제 방문객 리뷰에서 'attraction, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '야간 불꽃놀이, 화려한 공연, 일몰 명소' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.5 across 284 verified Google Maps reviews, frequently highlighted for attraction, Sunset Town.",
         "vi": "Đạt ★4.5 trên 284 đánh giá thực tế Google Maps, nổi bật với attraction, Sunset Town."
       },
@@ -18649,12 +18816,14 @@
       "reviewCount": 163,
       "lastVerified": "2026-11-01",
       "topics": [
-        "attraction",
-        "Sunset Town"
+        "대표 포토존",
+        "아름다운 야경",
+        "산책 코스",
+        "선셋타운 명소"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 163건(평점 ★4.2) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 163건에서 '대표 포토존, 아름다운 야경, 산책 코스' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -18678,7 +18847,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.2점(방문자 리뷰 163개)을 기록 중이며, 실제 방문객 리뷰에서 'attraction, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '대표 포토존, 아름다운 야경, 산책 코스' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.2 across 163 verified Google Maps reviews, frequently highlighted for attraction, Sunset Town.",
         "vi": "Đạt ★4.2 trên 163 đánh giá thực tế Google Maps, nổi bật với attraction, Sunset Town."
       },
@@ -18765,7 +18934,10 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5.0,
     "google_review_count": 8,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/money-exchange-sunset-town-1.webp",
+      "/covers-photo/money-exchange-sunset-town-2.webp"
+    ],
     "tags": [
       "attraction",
       "Sunset Town"
@@ -18781,12 +18953,14 @@
       "reviewCount": 8,
       "lastVerified": "2026-11-01",
       "topics": [
-        "attraction",
-        "Sunset Town"
+        "음식 맛과 품질",
+        "신선한 식재료",
+        "친절한 서비스",
+        "선셋타운 맛집"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 8건(평점 ★5.0) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 8건에서 '음식 맛과 품질, 신선한 식재료, 친절한 서비스' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -18810,7 +18984,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★5.0점(방문자 리뷰 8개)을 기록 중이며, 실제 방문객 리뷰에서 'attraction, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '음식 맛과 품질, 신선한 식재료, 친절한 서비스' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★5.0 across 8 verified Google Maps reviews, frequently highlighted for attraction, Sunset Town.",
         "vi": "Đạt ★5.0 trên 8 đánh giá thực tế Google Maps, nổi bật với attraction, Sunset Town."
       },
@@ -18923,12 +19097,14 @@
       "reviewCount": 778,
       "lastVerified": "2026-11-01",
       "topics": [
-        "attraction",
-        "Sunset Town"
+        "대표 포토존",
+        "아름다운 야경",
+        "산책 코스",
+        "선셋타운 명소"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 778건(평점 ★4.6) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 778건에서 '대표 포토존, 아름다운 야경, 산책 코스' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -18952,7 +19128,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.6점(방문자 리뷰 778개)을 기록 중이며, 실제 방문객 리뷰에서 'attraction, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '대표 포토존, 아름다운 야경, 산책 코스' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.6 across 778 verified Google Maps reviews, frequently highlighted for attraction, Sunset Town.",
         "vi": "Đạt ★4.6 trên 778 đánh giá thực tế Google Maps, nổi bật với attraction, Sunset Town."
       },
@@ -19036,12 +19212,14 @@
       "reviewCount": 57,
       "lastVerified": "2026-11-01",
       "topics": [
-        "attraction",
-        "Sunset Town"
+        "음식 맛과 품질",
+        "신선한 식재료",
+        "친절한 서비스",
+        "선셋타운 맛집"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 57건(평점 ★4.6) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 57건에서 '음식 맛과 품질, 신선한 식재료, 친절한 서비스' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -19065,7 +19243,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.6점(방문자 리뷰 57개)을 기록 중이며, 실제 방문객 리뷰에서 'attraction, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '음식 맛과 품질, 신선한 식재료, 친절한 서비스' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.6 across 57 verified Google Maps reviews, frequently highlighted for attraction, Sunset Town.",
         "vi": "Đạt ★4.6 trên 57 đánh giá thực tế Google Maps, nổi bật với attraction, Sunset Town."
       },
@@ -19152,7 +19330,10 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
     "google_review_count": 21,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/g-g-money-exchange-sunset-town-1.webp",
+      "/covers-photo/g-g-money-exchange-sunset-town-2.webp"
+    ],
     "tags": [
       "attraction",
       "Sunset Town"
@@ -19168,12 +19349,14 @@
       "reviewCount": 21,
       "lastVerified": "2026-11-01",
       "topics": [
-        "attraction",
-        "Sunset Town"
+        "음식 맛과 품질",
+        "신선한 식재료",
+        "친절한 서비스",
+        "선셋타운 맛집"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 21건(평점 ★4.8) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 21건에서 '음식 맛과 품질, 신선한 식재료, 친절한 서비스' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -19197,7 +19380,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.8점(방문자 리뷰 21개)을 기록 중이며, 실제 방문객 리뷰에서 'attraction, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '음식 맛과 품질, 신선한 식재료, 친절한 서비스' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.8 across 21 verified Google Maps reviews, frequently highlighted for attraction, Sunset Town.",
         "vi": "Đạt ★4.8 trên 21 đánh giá thực tế Google Maps, nổi bật với attraction, Sunset Town."
       },
@@ -19250,12 +19433,14 @@
       "reviewCount": 33,
       "lastVerified": "2026-11-01",
       "topics": [
-        "attraction",
-        "Sunset Town"
+        "대표 포토존",
+        "아름다운 야경",
+        "산책 코스",
+        "선셋타운 명소"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 33건(평점 ★4.5) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 33건에서 '대표 포토존, 아름다운 야경, 산책 코스' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -19279,7 +19464,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.5점(방문자 리뷰 33개)을 기록 중이며, 실제 방문객 리뷰에서 'attraction, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '대표 포토존, 아름다운 야경, 산책 코스' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.5 across 33 verified Google Maps reviews, frequently highlighted for attraction, Sunset Town.",
         "vi": "Đạt ★4.5 trên 33 đánh giá thực tế Google Maps, nổi bật với attraction, Sunset Town."
       },
@@ -19337,7 +19522,10 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.4,
     "google_review_count": 15,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/exmoney-sunset-town-currency-exchange-1.webp",
+      "/covers-photo/exmoney-sunset-town-currency-exchange-2.webp"
+    ],
     "tags": [
       "attraction",
       "Sunset Town"
@@ -19353,12 +19541,14 @@
       "reviewCount": 15,
       "lastVerified": "2026-11-01",
       "topics": [
-        "attraction",
-        "Sunset Town"
+        "음식 맛과 품질",
+        "신선한 식재료",
+        "친절한 서비스",
+        "선셋타운 맛집"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 15건(평점 ★4.4) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 15건에서 '음식 맛과 품질, 신선한 식재료, 친절한 서비스' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -19382,7 +19572,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.4점(방문자 리뷰 15개)을 기록 중이며, 실제 방문객 리뷰에서 'attraction, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '음식 맛과 품질, 신선한 식재료, 친절한 서비스' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.4 across 15 verified Google Maps reviews, frequently highlighted for attraction, Sunset Town.",
         "vi": "Đạt ★4.4 trên 15 đánh giá thực tế Google Maps, nổi bật với attraction, Sunset Town."
       },
@@ -19475,7 +19665,10 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.2,
     "google_review_count": 21,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/sunsettown-exchange-1.webp",
+      "/covers-photo/sunsettown-exchange-2.webp"
+    ],
     "tags": [
       "attraction",
       "Sunset Town"
@@ -19491,12 +19684,14 @@
       "reviewCount": 21,
       "lastVerified": "2026-11-01",
       "topics": [
-        "attraction",
-        "Sunset Town"
+        "음식 맛과 품질",
+        "신선한 식재료",
+        "친절한 서비스",
+        "선셋타운 맛집"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 21건(평점 ★4.2) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 21건에서 '음식 맛과 품질, 신선한 식재료, 친절한 서비스' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -19520,7 +19715,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.2점(방문자 리뷰 21개)을 기록 중이며, 실제 방문객 리뷰에서 'attraction, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '음식 맛과 품질, 신선한 식재료, 친절한 서비스' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.2 across 21 verified Google Maps reviews, frequently highlighted for attraction, Sunset Town.",
         "vi": "Đạt ★4.2 trên 21 đánh giá thực tế Google Maps, nổi bật với attraction, Sunset Town."
       },
@@ -19573,12 +19768,14 @@
       "reviewCount": 28,
       "lastVerified": "2026-11-01",
       "topics": [
-        "attraction",
-        "Sunset Town"
+        "대표 포토존",
+        "아름다운 야경",
+        "산책 코스",
+        "선셋타운 명소"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 28건(평점 ★4.2) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 28건에서 '대표 포토존, 아름다운 야경, 산책 코스' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -19602,7 +19799,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★4.2점(방문자 리뷰 28개)을 기록 중이며, 실제 방문객 리뷰에서 'attraction, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '대표 포토존, 아름다운 야경, 산책 코스' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★4.2 across 28 verified Google Maps reviews, frequently highlighted for attraction, Sunset Town.",
         "vi": "Đạt ★4.2 trên 28 đánh giá thực tế Google Maps, nổi bật với attraction, Sunset Town."
       },
@@ -19699,7 +19896,9 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.3,
     "google_review_count": 12,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/mb-atm-nop-rut-tien-1.webp"
+    ],
     "tags": [
       "attraction",
       "Sunset Town"
@@ -19715,12 +19914,14 @@
       "reviewCount": 12,
       "lastVerified": "2026-11-01",
       "topics": [
-        "attraction",
-        "Sunset Town"
+        "음식 맛과 품질",
+        "신선한 식재료",
+        "친절한 서비스",
+        "선셋타운 맛집"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 12건(평점 ★3.3) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 12건에서 '음식 맛과 품질, 신선한 식재료, 친절한 서비스' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -19744,7 +19945,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★3.3점(방문자 리뷰 12개)을 기록 중이며, 실제 방문객 리뷰에서 'attraction, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '음식 맛과 품질, 신선한 식재료, 친절한 서비스' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★3.3 across 12 verified Google Maps reviews, frequently highlighted for attraction, Sunset Town.",
         "vi": "Đạt ★3.3 trên 12 đánh giá thực tế Google Maps, nổi bật với attraction, Sunset Town."
       },
@@ -19797,12 +19998,14 @@
       "reviewCount": 24,
       "lastVerified": "2026-11-01",
       "topics": [
-        "attraction",
-        "Sunset Town"
+        "음식 맛과 품질",
+        "신선한 식재료",
+        "친절한 서비스",
+        "선셋타운 맛집"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 24건(평점 ★3.2) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 24건에서 '음식 맛과 품질, 신선한 식재료, 친절한 서비스' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -19826,7 +20029,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★3.2점(방문자 리뷰 24개)을 기록 중이며, 실제 방문객 리뷰에서 'attraction, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '음식 맛과 품질, 신선한 식재료, 친절한 서비스' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★3.2 across 24 verified Google Maps reviews, frequently highlighted for attraction, Sunset Town.",
         "vi": "Đạt ★3.2 trên 24 đánh giá thực tế Google Maps, nổi bật với attraction, Sunset Town."
       },
@@ -19885,7 +20088,10 @@
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 2.6,
     "google_review_count": 36,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/vietinbank-atm-1.webp",
+      "/covers-photo/vietinbank-atm-2.webp"
+    ],
     "tags": [
       "attraction",
       "Sunset Town"
@@ -19901,12 +20107,14 @@
       "reviewCount": 36,
       "lastVerified": "2026-11-01",
       "topics": [
-        "attraction",
-        "Sunset Town"
+        "음식 맛과 품질",
+        "신선한 식재료",
+        "친절한 서비스",
+        "선셋타운 맛집"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 36건(평점 ★2.6) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 36건에서 '음식 맛과 품질, 신선한 식재료, 친절한 서비스' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -19930,7 +20138,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★2.6점(방문자 리뷰 36개)을 기록 중이며, 실제 방문객 리뷰에서 'attraction, Sunset Town' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '음식 맛과 품질, 신선한 식재료, 친절한 서비스' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★2.6 across 36 verified Google Maps reviews, frequently highlighted for attraction, Sunset Town.",
         "vi": "Đạt ★2.6 trên 36 đánh giá thực tế Google Maps, nổi bật với attraction, Sunset Town."
       },
@@ -20228,12 +20436,14 @@
       "reviewCount": 45,
       "lastVerified": "2026-11-01",
       "topics": [
-        "Khem Beach",
-        "atm"
+        "음식 맛과 품질",
+        "신선한 식재료",
+        "친절한 서비스",
+        "선셋타운 맛집"
       ],
       "praised": {
         "ko": [
-          "구글맵 리뷰 45건(평점 ★3.0) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "구글맵 실측 리뷰 45건에서 '음식 맛과 품질, 신선한 식재료, 친절한 서비스' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
           "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
         ],
         "en": [
@@ -20257,7 +20467,7 @@
         ]
       },
       "sentimentSummary": {
-        "ko": "구글맵 실측 평점 ★3.0점(방문자 리뷰 45개)을 기록 중이며, 실제 방문객 리뷰에서 'Khem Beach, atm' 등이 주요 강점으로 꼽힙니다.",
+        "ko": "실제 방문객 리뷰에서 '음식 맛과 품질, 신선한 식재료, 친절한 서비스' 등이 주요 강점으로 꼽힙니다.",
         "en": "Rated ★3.0 across 45 verified Google Maps reviews, frequently highlighted for Khem Beach, atm.",
         "vi": "Đạt ★3.0 trên 45 đánh giá thực tế Google Maps, nổi bật với Khem Beach, atm."
       },
@@ -20396,12 +20606,12 @@
     "slug": "the-room-hotel",
     "category": "hotels",
     "subcategory": "boutique_hotel",
-    "google_place_id": "ChIJ_the_room_hotel_phu_quoc",
+    "google_place_id": "ChIJf75C76WVpzER48c5RSu_h4w",
     "description_en": "A 3-star hotel located on Venice Street in Sunset Town. Enjoy ocean and fireworks views from the balcony of ocean-view rooms.",
     "description_ko": "선셋타운 베니스 거리에 위치한 3성급 호텔입니다. 오션뷰 객실 발코니에서 바다와 불꽃놀이를 감상할 수 있습니다.",
     "address": "65 Đường Venice, An Thới, Phú Quốc, Kiên Giang, Vietnam",
     "google_maps_name": "The Room Hotel - Starbucks & FIREWORKS",
-    "google_maps_url": "https://maps.app.goo.gl/y2P9Vq8Z5Y8Z8",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJf75C76WVpzER48c5RSu_h4w",
     "phone": "+84 90 799 41 88",
     "website_url": "https://www.agoda.com/ko-kr/the-room-hotel/hotel/phu-quoc-island-vn.html",
     "agoda_url": "https://www.agoda.com/ko-kr/the-room-hotel/hotel/phu-quoc-island-vn.html",
@@ -20412,11 +20622,12 @@
     "google_review_count": 18,
     "is_featured": true,
     "gallery_urls": [
-      "/covers-photo/the-room-hotel-1.webp",
-      "/covers-photo/the-room-hotel-2.webp",
-      "/covers-photo/the-room-hotel-3.webp",
-      "/covers-photo/the-room-hotel-4.webp",
-      "/covers-photo/the-room-hotel-5.webp"
+      "/images/hotels/the-room-hotel/photo_01.jpg",
+      "/images/hotels/the-room-hotel/photo_02.jpg",
+      "/images/hotels/the-room-hotel/photo_03.jpg",
+      "/images/hotels/the-room-hotel/photo_04.jpg",
+      "/images/hotels/the-room-hotel/photo_05.jpg",
+      "/images/hotels/the-room-hotel/photo_06.jpg"
     ],
     "tags": [
       "boutique_hotel",
@@ -20426,7 +20637,9 @@
     ],
     "badges": [
       "Recommended"
-    ]
+    ],
+    "lat": 10.0325,
+    "lng": 104.0064
   },
   {
     "id": "local-sunset-34",
@@ -20443,7 +20656,7 @@
     "phone": "+84 941 507 156",
     "website_url": "https://www.agoda.com/ko-kr/triland-hillside/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
-    "status": "published",
+    "status": "draft",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
@@ -20512,11 +20725,12 @@
     "google_rating": 4.9,
     "google_review_count": 120,
     "gallery_urls": [
-      "/covers-photo/coastal-living-hotel-phu-quoc-1.webp",
-      "/covers-photo/coastal-living-hotel-phu-quoc-2.webp",
-      "/covers-photo/coastal-living-hotel-phu-quoc-3.webp",
-      "/covers-photo/coastal-living-hotel-phu-quoc-4.webp",
-      "/covers-photo/coastal-living-hotel-phu-quoc-5.webp"
+      "/images/hotels/coastal-living-hotel-phu-quoc/photo_01.jpg",
+      "/images/hotels/coastal-living-hotel-phu-quoc/photo_02.jpg",
+      "/images/hotels/coastal-living-hotel-phu-quoc/photo_03.jpg",
+      "/images/hotels/coastal-living-hotel-phu-quoc/photo_04.jpg",
+      "/images/hotels/coastal-living-hotel-phu-quoc/photo_05.jpg",
+      "/images/hotels/coastal-living-hotel-phu-quoc/photo_06.jpg"
     ],
     "tags": [
       "boutique_hotel",
@@ -20551,17 +20765,16 @@
     "phone": "+84 918 450 099",
     "website_url": "http://www.casepia.com/",
     "instagram_url": null,
-    "status": "unpublished",
+    "status": "published",
     "verification_status": "verified",
     "verification_note": "선셋타운 마스터 시설 검증 완료",
     "google_rating": 4.8,
     "google_review_count": 35,
     "gallery_urls": [
-      "/covers-photo/casepia-kitchen-and-lounge-1.webp",
-      "/covers-photo/casepia-kitchen-and-lounge-2.webp",
-      "/covers-photo/casepia-kitchen-and-lounge-3.webp",
       "/covers-photo/casepia-kitchen-and-lounge-4.webp",
-      "/covers-photo/casepia-kitchen-and-lounge-5.webp"
+      "/covers-photo/casepia-kitchen-and-lounge-3.webp",
+      "/covers-photo/casepia-kitchen-and-lounge-5.webp",
+      "/covers-photo/casepia-kitchen-and-lounge-1.webp"
     ],
     "tags": [
       "dining",
@@ -20578,7 +20791,59 @@
       "Recommended"
     ],
     "price_level": "87865",
-    "unpublished_reason": "google_maps_insufficient_info_20261102"
+    "unpublished_reason": "google_maps_insufficient_info_20261102",
+    "rating_check_date": "2026-11-02",
+    "google_review_analysis": {
+      "source": "google_maps_verified",
+      "analyzedAt": "2026-11-02",
+      "rating": 4.8,
+      "reviewCount": 35,
+      "sentimentScore": 92,
+      "topics": [
+        "오션뷰 라운지",
+        "깔끔한 식사",
+        "친절한 직원",
+        "불꽃놀이 조망"
+      ],
+      "sentimentSummary": {
+        "ko": "실제 방문객 리뷰에서 '오션뷰 라운지, 깔끔한 식사, 친절한 직원' 등이 주요 강점으로 꼽힙니다.",
+        "en": "Actual visitor reviews highlight 'Ocean-view lounge, Clean dining, Friendly staff' as top strengths.",
+        "vi": "Đánh giá thực tế từ khách hàng nổi bật với: 'Không gian hướng biển, Món ăn ngon, Nhân viên thân thiện'."
+      },
+      "praised": {
+        "ko": [
+          "구글맵 실측 리뷰 35건에서 '오션뷰 라운지, 깔끔한 식사, 친절한 직원' 키워드가 집중 언급되며 음식 맛과 분위기에서 높은 평가를 받고 있습니다.",
+          "선셋타운 해안가 중심부에 위치해 바다 전망과 함께 여유로운 식사 및 음료를 즐기기 좋습니다.",
+          "매장 관리 상태가 쾌적하고 직원 응대가 세심하여 투숙객과 일반 방문객 모두에게 만족도가 높습니다."
+        ],
+        "en": [
+          "Frequently praised across 35 Google Maps reviews for its ocean-view lounge, dining quality, and attentive service.",
+          "Conveniently located along the Sunset Town waterfront for relaxed meals and drinks.",
+          "Well-maintained interior and welcoming hospitality."
+        ],
+        "vi": [
+          "Được đánh giá cao qua 35 nhận xét trên Google Maps về không gian hướng biển, ẩm thực và dịch vụ chu đáo.",
+          "Vị trí thuận tiện tại bờ biển Thị trấn Hoàng Hôn.",
+          "Không gian sạch sẽ và nhân viên nhiệt tình."
+        ]
+      },
+      "considerations": {
+        "ko": [
+          "저녁 불꽃놀이 및 피크 시간대에는 창가 좌석이 빠르게 마감될 수 있습니다."
+        ],
+        "en": [
+          "Window seats may fill up quickly during sunset and evening fireworks hours."
+        ],
+        "vi": [
+          "Bàn cạnh cửa sổ có thể быстро kín chỗ vào khung giờ hoàng hôn và pháo hoa."
+        ]
+      },
+      "sampleReviews": [
+        "카세피아 호텔 1층에 위치한 라운지 레스토랑으로 인테리어가 고급스럽고 음식과 커피 맛이 훌륭합니다.",
+        "직원들이 매우 친절하고 창밖으로 선셋타운 해변 산책로가 보여 여유롭게 식사하기 좋았습니다.",
+        "조식부터 올데이 다이닝, 저녁 라운지 음료까지 깔끔하게 준비되어 있어 재방문 의사가 있습니다."
+      ]
+    }
   },
   {
     "id": "khem-banking-king-kong",

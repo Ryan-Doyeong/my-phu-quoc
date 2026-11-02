@@ -16679,5 +16679,50 @@
     "conflicts": [],
     "db_corrections": [],
     "worker_notes": "2026-11-02 매장 실물 메뉴판(Greek Yogurt Fruit Mixed 150,000 VND, Original 200g 100,000 VND / 500g 200,000 VND, Healthy Meal 100,000~250,000 VND, Vegan Milk Tea) 검증 반영."
+  },
+  "casepia-kitchen-and-lounge": {
+    "slug": "casepia-kitchen-and-lounge",
+    "business_name": "카세피아 키친 & 라운지 (CASEPiA Kitchen & Lounge)",
+    "category": "dining",
+    "menu_grade": "C",
+    "price_level": "$$",
+    "price_range_vnd": "80,000 ~ 350,000 VND",
+    "last_verified": "2026-11-02",
+    "source": "Google Maps Menu & Visitor Reviews",
+    "summary": {
+      "ko": "카세피아 부티크 호텔 직영 올데이 다이닝 & 라운지로 베트남 전통 면·미식 요리와 웨스턴 브런치, 스페셜티 커피 및 칵테일을 제공합니다.",
+      "en": "All-day dining and lounge at CASEPiA Boutique Hotel serving Vietnamese classics, Western brunch, specialty coffee, and cocktails.",
+      "vi": "Nhà hàng & lounge tại khách sạn CASEPiA phục vụ món Việt, bữa sáng kiểu Âu, cà phê đặc sản và cocktail."
+    },
+    "signature_dishes": [
+      {
+        "name_ko": "베트남 전통 소고기 쌀국수 (Phở Bò)",
+        "name_en": "Vietnamese Beef Pho",
+        "name_vi": "Phở bò truyền thống",
+        "price_vnd": "120,000 VND",
+        "desc_ko": "진한 육수와 부드러운 소고기를 곁들인 대표 식사 메뉴"
+      },
+      {
+        "name_ko": "해산물 볶음면 & 볶음밥",
+        "name_en": "Seafood Fried Noodles & Rice",
+        "name_vi": "Mì xào & Cơm chiên hải sản",
+        "price_vnd": "150,000 VND",
+        "desc_ko": "푸꾸옥산 신선한 해산물로 맛을 낸 한 끼 식사"
+      },
+      {
+        "name_ko": "아메리칸 브런치 & 에그 플래터",
+        "name_en": "All-Day Brunch Platter",
+        "name_vi": "Set bữa sáng kiểu Âu",
+        "price_vnd": "160,000 VND",
+        "desc_ko": "베이컨, 소시지, 달걀 요리와 구운 빵 구성"
+      },
+      {
+        "name_ko": "베트남 연유 커피 & 트로피컬 주스",
+        "name_en": "Vietnamese Iced Milk Coffee & Fresh Juice",
+        "name_vi": "Cà phê sữa đá & Nước ép trái cây",
+        "price_vnd": "65,000 ~ 95,000 VND",
+        "desc_ko": "라운지에서 즐기는 스페셜티 커피와 생과일 음료"
+      }
+    ]
   }
 }

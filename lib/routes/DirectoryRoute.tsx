@@ -115,7 +115,7 @@ export async function renderDirectoryRoute(
         const a = assignments[b.id]
         return {
           ...b,
-          public_category: a?.public_category || b.category,
+          public_category: b.category || a?.public_category,
           zone: a?.zone || 'sunset-town',
           service_areas: a?.service_areas || ['sunset-town'],
         }
@@ -126,7 +126,7 @@ export async function renderDirectoryRoute(
       const a = assignments[b.id]
       return {
         ...b,
-        public_category: a?.public_category || b.category,
+        public_category: b.category || a?.public_category,
         zone: a?.zone || 'khem-beach',
         service_areas: a?.service_areas || ['khem-beach'],
       }
