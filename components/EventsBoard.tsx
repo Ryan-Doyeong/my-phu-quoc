@@ -48,10 +48,92 @@ interface EventsBoardProps {
 
 const DEFAULT_PAGE_SIZE = 10
 
+type StatusFilter = 'all' | 'active' | 'ended'
+
+const BOARD_FILTER_LABELS: Record<
+  Locale,
+  {
+    all: string
+    active: string
+    ended: string
+    dateLabel: string
+    clearDate: string
+    guidesNotice: string
+    guidesCta: string
+  }
+> = {
+  ko: {
+    all: '전체 행사',
+    active: '진행·예정 행사',
+    ended: '종료된 행사',
+    dateLabel: '방문 날짜별 조회',
+    clearDate: '날짜 초기화',
+    guidesNotice: '맛집·카페 소개, 추천 산책 코스, 공연 관람 팁 등 일반 여행 정보는 가이드 게시판에서 확인하실 수 있습니다.',
+    guidesCta: '뉴스 & 여행 가이드 보기 →',
+  },
+  en: {
+    all: 'All Events',
+    active: 'Ongoing & Upcoming',
+    ended: 'Past / Ended',
+    dateLabel: 'Filter by Visit Date',
+    clearDate: 'Clear Date',
+    guidesNotice: 'Looking for dining introductions, walking routes, and viewing tips? Browse our Travel Guides & News section.',
+    guidesCta: 'View Travel Guides & News →',
+  },
+  vi: {
+    all: 'Tất cả sự kiện',
+    active: 'Đang & Sắp diễn ra',
+    ended: 'Đã kết thúc',
+    dateLabel: 'Lọc theo ngày tham quan',
+    clearDate: 'Xóa ngày',
+    guidesNotice: 'Xem giới thiệu nhà hàng, quán cà phê và cẩm nang lịch trình tại chuyên mục Tin tức & Cẩm nang.',
+    guidesCta: 'Xem Tin tức & Cẩm nang →',
+  },
+  zh: {
+    all: '全部活动',
+    active: '进行中 / 即将开始',
+    ended: '已结束',
+    dateLabel: '按到访日期筛选',
+    clearDate: '清除日期',
+    guidesNotice: '餐厅与咖啡馆介绍、漫步路线及观演贴士等常规旅游资讯，请前往新闻与指南专区查阅。',
+    guidesCta: '查看新闻与旅游指南 →',
+  },
+  ja: {
+    all: 'すべてのイベント',
+    active: '開催中・開催予定',
+    ended: '終了したイベント',
+    dateLabel: '訪問日で絞り込む',
+    clearDate: '日付クリア',
+    guidesNotice: 'レストラン・カフェ紹介、散策コース、観賞のコツなどの一般観光情報はニュース＆ガイド一覧でご確認いただけます。',
+    guidesCta: 'ニュース＆旅行ガイドを見る →',
+  },
+  ru: {
+    all: 'Все события',
+    active: 'Текущие и будущие',
+    ended: 'Завершённые',
+    dateLabel: 'Фильтр по дате визита',
+    clearDate: 'Сбросить дату',
+    guidesNotice: 'Обзоры ресторанов и кафе, прогулочные маршруты и советы путешественникам доступны в разделе «Новости и гиды».',
+    guidesCta: 'Перейти к новостям и гидам →',
+  },
+  hi: {
+    all: 'सभी कार्यक्रम',
+    active: 'जारी और आगामी',
+    ended: 'समाप्त कार्यक्रम',
+    dateLabel: 'यात्रा तिथि के अनुसार फ़िल्टर करें',
+    clearDate: 'तिथि साफ़ करें',
+    guidesNotice: 'रेस्तरां परिचय, वॉकिंग रूट और दर्शक टिप्स जैसी सामान्य यात्रा जानकारी के लिए समाचार और गाइड अनुभाग देखें।',
+    guidesCta: 'समाचार और यात्रा गाइड देखें →',
+  },
+}
+
 export function EventsBoard({ items, locale }: EventsBoardProps) {
   const dict = getDictionary(locale)
+  const ui = BOARD_FILTER_LABELS[locale] || BOARD_FILTER_LABELS.en
   const [inputValue, setInputValue] = useState('')
   const [activeQuery, setActiveQuery] = useState('')
+  const [statusFilter, setStatusFilter] = useState<StatusFilter>('all')
+  const [selectedDate, setSelectedDate] = useState('')
   const [pageSize, setPageSize] = useState(DEFAULT_PAGE_SIZE)
   const [visibleCount, setVisibleCount] = useState(DEFAULT_PAGE_SIZE)
 
@@ -101,26 +183,69 @@ export function EventsBoard({ items, locale }: EventsBoardProps) {
   const handleClear = () => {
     setInputValue('')
     setActiveQuery('')
+    setStatusFilter('all')
+    setSelectedDate('')
     setVisibleCount(pageSize)
     updateUrlQuery('')
   }
 
-  // Sort newest-first (published_at desc, fallback event_date desc)
+  // Sort active/upcoming events first, then newest-first
   const sortedItems = useMemo(() => {
     return [...items].sort((a, b) => {
-      const aTime = new Date(a.published_at || a.event_date || 0).getTime()
-      const bTime = new Date(b.published_at || b.event_date || 0).getTime()
+      const aEnd = a.event_end_date || a.effective_date || null
+      const bEnd = b.event_end_date || b.effective_date || null
+      const aStatus = getEventProgressStatus(a.event_date, aEnd)
+      const bStatus = getEventProgressStatus(b.event_date, bEnd)
+      const aEnded = aStatus === 'ended' ? 1 : 0
+      const bEnded = bStatus === 'ended' ? 1 : 0
+      if (aEnded !== bEnded) return aEnded - bEnded
+
+      const aTime = new Date(a.event_date || a.published_at || 0).getTime()
+      const bTime = new Date(b.event_date || b.published_at || 0).getTime()
       return bTime - aTime
     })
   }, [items])
 
-  // Multilingual keyword search across Title + Body + Excerpt + Category + Tags + Location (EN / VI / KO)
+  // Multilingual keyword + status + visit date filter
   const filteredItems = useMemo(() => {
     const q = activeQuery.trim().toLowerCase()
-    if (!q) return sortedItems
+    const tokens = q ? q.split(/\s+/).filter(Boolean) : []
 
-    const tokens = q.split(/\s+/).filter(Boolean)
     return sortedItems.filter((item) => {
+      const endDate = item.event_end_date || item.effective_date || null
+      const progressStatus = getEventProgressStatus(item.event_date, endDate)
+
+      if (statusFilter === 'active' && progressStatus === 'ended') return false
+      if (statusFilter === 'ended' && progressStatus !== 'ended') return false
+
+      if (selectedDate) {
+        const visitDayStart = new Date(`${selectedDate}T00:00:00+07:00`)
+        const visitDayEnd = new Date(`${selectedDate}T23:59:59+07:00`)
+        if (!Number.isNaN(visitDayStart.getTime())) {
+          // Check Tuesday off-day for Kiss of the Sea regular show
+          if (
+            item.slug === 'kiss-of-the-sea-nightly-multimedia-show' &&
+            visitDayStart.getDay() === 2
+          ) {
+            return false
+          }
+          if (item.event_date) {
+            const evStart = new Date(item.event_date)
+            if (!Number.isNaN(evStart.getTime()) && evStart.getTime() > visitDayEnd.getTime()) {
+              return false
+            }
+          }
+          if (endDate) {
+            const evEnd = new Date(endDate)
+            if (!Number.isNaN(evEnd.getTime()) && evEnd.getTime() < visitDayStart.getTime()) {
+              return false
+            }
+          }
+        }
+      }
+
+      if (tokens.length === 0) return true
+
       const searchableBlob = [
         item.title,
         item.title_en,
@@ -147,7 +272,7 @@ export function EventsBoard({ items, locale }: EventsBoardProps) {
 
       return tokens.every((tok) => searchableBlob.includes(tok))
     })
-  }, [sortedItems, activeQuery])
+  }, [sortedItems, activeQuery, statusFilter, selectedDate])
 
   const visibleItems = filteredItems.slice(0, visibleCount)
   const hasMore = visibleCount < filteredItems.length
@@ -203,6 +328,97 @@ export function EventsBoard({ items, locale }: EventsBoardProps) {
           </button>
         </form>
 
+        {/* Status Tabs + Visit Date Filter Bar */}
+        <div
+          className="eventFilterControlsBar"
+          style={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            gap: '10px',
+            marginBottom: '14px',
+            padding: '10px 12px',
+            background: '#f8fafc',
+            border: '1px solid #e2e8f0',
+            borderRadius: '10px',
+          }}
+        >
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }} role="tablist">
+            {(['all', 'active', 'ended'] as StatusFilter[]).map((tab) => {
+              const isSelected = statusFilter === tab
+              const label = tab === 'all' ? ui.all : tab === 'active' ? ui.active : ui.ended
+              return (
+                <button
+                  key={tab}
+                  type="button"
+                  role="tab"
+                  aria-selected={isSelected}
+                  onClick={() => {
+                    setStatusFilter(tab)
+                    setVisibleCount(pageSize)
+                  }}
+                  style={{
+                    padding: '6px 12px',
+                    borderRadius: '999px',
+                    fontSize: '0.82rem',
+                    fontWeight: isSelected ? 700 : 500,
+                    border: isSelected ? '1px solid #0f766e' : '1px solid #cbd5e1',
+                    background: isSelected ? '#0f766e' : '#ffffff',
+                    color: isSelected ? '#ffffff' : '#334155',
+                    cursor: 'pointer',
+                  }}
+                >
+                  {label}
+                </button>
+              )
+            })}
+          </div>
+
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
+            <label
+              htmlFor="event-visit-date"
+              style={{ fontSize: '0.82rem', fontWeight: 600, color: '#334155' }}
+            >
+              📅 {ui.dateLabel}
+            </label>
+            <input
+              id="event-visit-date"
+              type="date"
+              value={selectedDate}
+              onChange={(e) => {
+                setSelectedDate(e.target.value)
+                setVisibleCount(pageSize)
+              }}
+              style={{
+                padding: '5px 10px',
+                borderRadius: '8px',
+                border: '1px solid #cbd5e1',
+                fontSize: '0.82rem',
+                background: '#ffffff',
+                color: '#0f172a',
+              }}
+            />
+            {selectedDate && (
+              <button
+                type="button"
+                onClick={() => setSelectedDate('')}
+                style={{
+                  padding: '4px 8px',
+                  borderRadius: '6px',
+                  border: '1px solid #cbd5e1',
+                  background: '#ffffff',
+                  fontSize: '0.76rem',
+                  color: '#475569',
+                  cursor: 'pointer',
+                }}
+              >
+                {ui.clearDate}
+              </button>
+            )}
+          </div>
+        </div>
+
         {/* Sample preview notice banner (shown when sample items are present) */}
         {hasSampleItems && (
           <div className="eventSampleNoticeBar" role="note">
@@ -229,7 +445,12 @@ export function EventsBoard({ items, locale }: EventsBoardProps) {
               const endDate = item.event_end_date || item.effective_date || null
               const progressStatus = getEventProgressStatus(item.event_date, endDate)
               const statusLabel = getEventStatusLabel(progressStatus, locale)
-              const displayDate = formatRowDate(item.event_date || item.published_at)
+              const startText = formatRowDate(item.event_date || item.published_at)
+              const endText = endDate ? formatRowDate(endDate) : ''
+              const displayDate =
+                startText && endText && startText !== endText
+                  ? `${startText} ~ ${endText}`
+                  : startText
               const categoryText = item.category || 'Event'
 
               return (
@@ -237,6 +458,7 @@ export function EventsBoard({ items, locale }: EventsBoardProps) {
                   <Link
                     href={localePath(locale, `/events/${item.slug}`)}
                     className="eventDcRow"
+                    style={progressStatus === 'ended' ? { opacity: 0.78 } : undefined}
                   >
                     {/* Left Square Thumbnail (object-fit: cover, lazy loading for non-LCP) */}
                     <div className="eventDcThumbWrap">
@@ -290,8 +512,18 @@ export function EventsBoard({ items, locale }: EventsBoardProps) {
                               className="eventDcDate"
                               dateTime={item.event_date || item.published_at || undefined}
                             >
-                              {displayDate}
+                              📅 {displayDate}
                             </time>
+                          )}
+                          {item.event_location && (
+                            <>
+                              <span className="eventDcDot" aria-hidden="true">
+                                {' · '}
+                              </span>
+                              <span className="eventDcLocation" style={{ color: '#0f766e', fontWeight: 500 }}>
+                                📍 {item.event_location}
+                              </span>
+                            </>
                           )}
                         </span>
                       </div>
@@ -304,9 +536,11 @@ export function EventsBoard({ items, locale }: EventsBoardProps) {
         ) : (
           <div className="eventEmptyState" role="status">
             <p className="eventEmptyTitle">
-              {activeQuery ? dict.news.eventsEmptySearchTitle : dict.news.eventsEmptyListTitle}
+              {activeQuery || selectedDate || statusFilter !== 'all'
+                ? dict.news.eventsEmptySearchTitle
+                : dict.news.eventsEmptyListTitle}
             </p>
-            {activeQuery && (
+            {(activeQuery || selectedDate || statusFilter !== 'all') && (
               <>
                 <p className="eventEmptyDesc">{dict.news.eventsEmptySearchDesc}</p>
                 <button type="button" onClick={handleClear} className="eventResetBtn">
@@ -316,6 +550,38 @@ export function EventsBoard({ items, locale }: EventsBoardProps) {
             )}
           </div>
         )}
+
+        {/* Guide & Travel Tips cross-navigation banner */}
+        <div
+          style={{
+            marginTop: '18px',
+            padding: '14px 16px',
+            borderRadius: '12px',
+            background: '#f0fdfa',
+            border: '1px solid #99f6e4',
+            display: 'flex',
+            flexWrap: 'wrap',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            gap: '10px',
+          }}
+        >
+          <span style={{ fontSize: '0.86rem', color: '#134e4a', lineHeight: 1.5 }}>
+            💡 {ui.guidesNotice}
+          </span>
+          <Link
+            href={localePath(locale, '/news')}
+            style={{
+              fontSize: '0.84rem',
+              fontWeight: 700,
+              color: '#0f766e',
+              textDecoration: 'none',
+              whiteSpace: 'nowrap',
+            }}
+          >
+            {ui.guidesCta}
+          </Link>
+        </div>
 
         {/* Pagination / Load More Footer */}
         {filteredItems.length > 0 && (

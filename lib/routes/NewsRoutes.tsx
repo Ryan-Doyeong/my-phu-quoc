@@ -575,7 +575,9 @@ export async function renderEventsRoute(locale: Locale = 'en') {
 
   const dbEvents = data || []
   const dbSlugs = new Set(dbEvents.map((row: any) => row.slug))
-  const publishedStaticEvents = PUBLISHED_EVENTS.filter((e) => !dbSlugs.has(e.slug))
+  const publishedStaticEvents = PUBLISHED_EVENTS.filter(
+    (e) => e.status === 'published' && e.content_type === 'event' && !dbSlugs.has(e.slug)
+  )
   const mergedRaw = isSampleEventsEnabled()
     ? [
         ...dbEvents,

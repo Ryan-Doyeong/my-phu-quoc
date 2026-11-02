@@ -12,6 +12,7 @@
  *   - 공항→선셋타운 약 25~30분, 즈엉동→안토이 약 40분
  */
 
+import { SHOW_SCHEDULES } from '@/lib/shows'
 import { SUNSET_TOWN_TICKETS } from '@/lib/tickets'
 import type { L, Product, Region, Tier } from './types'
 
@@ -39,7 +40,7 @@ export const TIER_DESC: Record<Tier, L> = {
   private: { ko: '우리 일행만 이용', en: 'Just your group' },
 }
 
-const klook = (id: string) => SUNSET_TOWN_TICKETS.find((t) => t.id === id)?.klookUrl
+const klook = (id: string) => SUNSET_TOWN_TICKETS.find((t) => t.id === id)?.klookUrl ?? undefined
 
 export const PRODUCTS: Record<string, Product> = {
   airport_pickup: {
@@ -360,17 +361,17 @@ export const PRODUCTS: Record<string, Product> = {
 /** 일정에 쓰는 장소·이벤트 문구 */
 export const SPOT = {
   symphony: {
-    title: { ko: '심포니 오브 더 씨', en: 'Symphony of the Sea' },
+    title: { ko: '심포니 오브 더 씨 (해상 제트스키·불꽃 쇼)', en: 'Symphony of the Sea (Jet Ski & Fireworks Show)' },
     desc: {
-      ko: '선셋타운 앞바다에서 펼쳐지는 제트스키·플라이보드·불꽃 쇼. 매일 19:30 시작 (공식 안내 기준).',
-      en: 'Jet ski, flyboard and fireworks show off Sunset Town. Daily from 19:30 (official info).',
+      ko: `선셋타운 앞바다에서 펼쳐지는 제트스키·플라이보드·불꽃 쇼 (${SHOW_SCHEDULES['symphony-of-the-sea'].scheduleLabel.ko}).`,
+      en: `Jet ski, flyboard and fireworks show off Sunset Town (${SHOW_SCHEDULES['symphony-of-the-sea'].scheduleLabel.en}).`,
     },
   },
   kiss: {
-    title: { ko: '키스 오브 더 씨', en: 'Kiss of the Sea' },
+    title: { ko: '키스 오브 더 씨 (멀티미디어 쇼 & 불꽃놀이)', en: 'Kiss of the Sea (Multimedia Show & Fireworks)' },
     desc: {
-      ko: '바다 위 무대의 물·불·레이저 공연과 불꽃. 남부 리조트 투숙객은 무료 티켓을 받는 경우가 많으니 먼저 확인하세요. 티켓이 없어도 바깥에서 불꽃은 볼 수 있어요.',
-      en: 'Water, fire and laser show on a sea stage, ending with fireworks. Many southern resorts give guests free tickets — check first. Fireworks are visible from outside too.',
+      ko: `바다 위 무대의 물·불·레이저 공연과 피날레 불꽃놀이 (${SHOW_SCHEDULES['kiss-of-the-sea'].scheduleLabel.ko}). 남부 리조트 투숙객은 무료 티켓 포함 여부를 먼저 확인하세요.`,
+      en: `Water, fire and laser show on a sea stage ending with fireworks (${SHOW_SCHEDULES['kiss-of-the-sea'].scheduleLabel.en}). Check if your southern resort includes tickets.`,
     },
   },
   sunsetTown: {

@@ -176,6 +176,10 @@ const TERM_GLOSSARY: Record<string, LocalizedText> = {
   grill: { vi: 'Đồ nướng (Grill)', ko: '그릴 · 바비큐' },
   pizza: { vi: 'Pizza', ko: '피자' },
   restaurant: { vi: 'Nhà hàng', ko: '레스토랑' },
+  restaurant_and_lounge: { vi: 'Nhà hàng & Lounge', ko: '레스토랑 & 라운지' },
+  'restaurant and lounge': { vi: 'Nhà hàng & Lounge', ko: '레스토랑 & 라운지' },
+  'restaurant & lounge': { vi: 'Nhà hàng & Lounge', ko: '레스토랑 & 라운지' },
+  restaurant_lounge: { vi: 'Nhà hàng & Lounge', ko: '레스토랑 & 라운지' },
 
   cafe: { vi: 'Quán cà phê', ko: '카페' },
   'specialty coffee': { vi: 'Cà phê đặc sản (Specialty)', ko: '스페셜티 커피' },
@@ -342,14 +346,21 @@ export function translateTerm(term: string | null | undefined, locale: Locale = 
   const subcat = translateSubcategory(term, locale)
   if (subcat && subcat.toLowerCase() !== term.toLowerCase()) return subcat
   if (locale === 'en') {
-    return subcat || term
+    if (subcat) return subcat
+    if (term.includes('_')) {
+      return term
+        .replace(/_/g, ' ')
+        .replace(/\b\w/g, (c) => c.toUpperCase())
+    }
+    return term
   }
   const normalized = term.trim().toLowerCase()
-  const entry = TERM_GLOSSARY[normalized]
+  const entry = TERM_GLOSSARY[normalized] || TERM_GLOSSARY[normalized.replace(/_/g, ' ')]
   if (entry?.[locale]) return entry[locale]!
   const ui = tUi(term, locale)
   if (ui && ui !== term) return ui
-  return subcat || term
+  if (subcat) return subcat
+  return term.includes('_') ? term.replace(/_/g, ' ') : term
 }
 
 // 3. 페이지별 전체 UI 사전 — 언어별 파일은 ./locales/*.ts (베트남어 vi 사전 보존)
@@ -487,6 +498,7 @@ export function localizeStory(story: any, locale: Locale = 'en') {
       updated_at: null,
       effective_date: null,
       event_date: null,
+      event_end_date: null,
       event_location: null,
       author_name: null,
       source_name: null,
@@ -592,7 +604,7 @@ export function localizeStory(story: any, locale: Locale = 'en') {
     subtitle: story.subtitle || null,
     excerpt,
     excerpt_en: excerptEn,
-    body: story.body_en || '',
+    body: story.body || story.body_en || '',
     category,
     category_en: categoryEn,
     seo_title: seoTitle,

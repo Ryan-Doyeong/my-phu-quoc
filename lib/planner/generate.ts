@@ -15,6 +15,7 @@
  *  6. 동행·여행 목적·여행 속도에 따라 프로그램 순서와 기본 등급이 달라짐.
  */
 
+import { checkShowAvailability, SHOW_SCHEDULES } from '@/lib/shows'
 import { OTHER_REGION_ADVICE, PRODUCTS, SPOT } from './catalog'
 import type { Companion, L, Plan, PlanDay, PlanItem, PlannerInput, Region, Tier, TimeBand } from './types'
 
@@ -290,32 +291,73 @@ export function generatePlan(input: PlannerInput): Plan {
     return { slots: new Set(slots), date: start ? addDays(start, d) : null }
   })
 
-  /* 2) 필수 공연 배치 */
+  /* 2) 필수 공연 배치 (공연별 운영 요일 · 시즌 시작일 검증) */
   const evenings = info.map((_, d) => d).filter((d) => d < N && info[d].slots.has('evening'))
-  const isTuesday = (d: number) => info[d].date?.getDay() === 2
-  let symphonyDay: number | null = evenings[0] ?? null
+  const symValidEvenings = evenings.filter((d) => checkShowAvailability('symphony-of-the-sea', info[d].date).available)
+  const kissValidEvenings = evenings.filter((d) => checkShowAvailability('kiss-of-the-sea', info[d].date).available)
+
+  let symphonyDay: number | null = symValidEvenings[0] ?? null
   let kissDay: number | null = null
-  if (evenings.length >= 2) {
-    const candidates = evenings.filter((d) => d !== symphonyDay)
-    kissDay = candidates.find((d) => !isTuesday(d)) ?? candidates[0]
-    if (kissDay !== null && isTuesday(kissDay) && symphonyDay !== null && !isTuesday(symphonyDay)) {
-      ;[symphonyDay, kissDay] = [kissDay, symphonyDay]
+
+  if (kissValidEvenings.length > 0) {
+    // 심포니와 다른 날을 우선 선택하되, 가능한 날이 하루뿐이면 같은 날 배치
+    const diffDay = kissValidEvenings.find((d) => d !== symphonyDay)
+    kissDay = diffDay !== undefined ? diffDay : kissValidEvenings[0]
+    // 만약 심포니가 화요일이 아닌 날을 차지해서 키스가 같은 날로 몰렸는데, 심포니를 화요일(키스 휴무일)로 옮길 수 있다면 스왑
+    if (
+      kissDay === symphonyDay &&
+      symValidEvenings.length >= 2
+    ) {
+      const altSym = symValidEvenings.find((d) => d !== kissDay)
+      if (altSym !== undefined) {
+        symphonyDay = altSym
+      }
     }
-  } else if (evenings.length === 1) {
-    kissDay = symphonyDay
   }
-  if (symphonyDay === null) {
+
+  if (!start) {
+    notes.push(
+      t(
+        '출발 날짜가 아직 선택되지 않아 임시 예시 일정으로 표시 중이에요. 출발 날짜를 선택하시면 키스 오브 더 씨 휴연일(매주 화요일)과 심포니 오브 더 씨 시즌 3 개막일(2026년 11월 10일 예정)을 자동 검증해 실제 관람 가능한 공연만 배치해 드려요.',
+        'No start date selected yet — showing a tentative sample schedule. Pick your travel date to automatically validate show dark days (Kiss of the Sea closed Tuesdays) and season dates (Symphony of the Sea Season 3 opens Nov 10, 2026).',
+      ),
+    )
+  }
+
+  if (evenings.length === 0) {
     notes.push(
       t(
         '도착·출발 시간 때문에 남부에서 저녁 공연을 볼 수 있는 날이 없어요. 남부 숙박을 늘리거나 시간대를 바꿔 보세요.',
         'No free evening in the south for the shows — add a night or change times.',
       ),
     )
-  } else if (symphonyDay === kissDay) {
-    notes.push(t('남부 저녁이 하루뿐이라 두 공연을 같은 날 연달아 보도록 넣었어요 (19:30 → 21:00).', 'Only one evening — both shows back to back (19:30 → 21:00).'))
-  }
-  if (kissDay !== null && isTuesday(kissDay)) {
-    notes.push(t('키스 오브 더 씨가 화요일에 잡혔어요. 화요일 휴무 여부는 확인이 필요해요.', 'Kiss of the Sea falls on a Tuesday — closure needs checking.'))
+  } else {
+    if (start && symValidEvenings.length === 0) {
+      notes.push(
+        t(
+          SHOW_SCHEDULES['symphony-of-the-sea'].seasonNotice?.ko ??
+            '심포니 오브 더 씨 시즌 3는 2026년 11월 10일 개막 예정이어서, 선택하신 날짜에는 선셋타운 야경·야시장 산책 일정으로 대체했어요.',
+          SHOW_SCHEDULES['symphony-of-the-sea'].seasonNotice?.en ??
+            'Symphony of the Sea Season 3 opens on Nov 10, 2026. For earlier dates, we substituted a Sunset Town evening stroll & bazaar visit.',
+        ),
+      )
+    }
+    if (start && kissValidEvenings.length === 0) {
+      notes.push(
+        t(
+          '선택하신 남부 숙박 저녁이 화요일(키스 오브 더 씨 정기 휴연일)이어서 해당 공연을 추천에서 제외하고 선셋타운 야경·야시장 코스로 대체했어요.',
+          'Your free evening in the south falls on a Tuesday (Kiss of the Sea weekly dark day), so we excluded the show and arranged a Sunset Town evening & night market course instead.',
+        ),
+      )
+    }
+    if (symphonyDay !== null && symphonyDay === kissDay) {
+      notes.push(
+        t(
+          '두 공연 모두 관람 가능한 저녁에 맞춰 같은 날 연달아 보도록 구성했어요 (19:30 심포니 → 21:00 키스 오브 더 씨).',
+          'Both shows are arranged back to back on your available evening (19:30 Symphony → 21:00 Kiss of the Sea).',
+        ),
+      )
+    }
   }
 
   /* 3) 날짜별 일정 */
@@ -524,20 +566,45 @@ export function generatePlan(input: PlannerInput): Plan {
         }
         if (isSym) {
           items.push(spot(ctx, 'dinner', '18:30', 'south', 'meal'))
-          items.push(item(ctx, 'symphony', '19:30', 'must', SPOT.symphony.title, 'south', { desc: SPOT.symphony.desc, productId: 'symphony_ticket' }))
+          const symFlags: L[] = []
+          if (!info[d].date) {
+            symFlags.push(
+              t(
+                '날짜 미확정(임시 배치) · 시즌 3 개막일(2026.11.10 예정) 이후 관람 가능',
+                'Date not set (tentative) · Available from Season 3 opening (Nov 10, 2026)',
+              ),
+            )
+          } else {
+            symFlags.push(
+              t(
+                '공연 약 30분 소요 (19:30~20:00) · 해변 관람 구역 15분 전 도착 권장',
+                'Approx. 30 min show (19:30–20:00) · Arrive 15 min early at beachfront viewing zone',
+              ),
+            )
+          }
+          items.push(
+            item(ctx, 'symphony', '19:30', 'must', SPOT.symphony.title, 'south', {
+              desc: SPOT.symphony.desc,
+              productId: 'symphony_ticket',
+              flags: symFlags,
+            }),
+          )
         }
         if (isKiss) {
           if (!isSym) {
-            items.push(spot(ctx, 'dinner', '19:00', 'south', 'meal', { desc: t('공연장에는 20시 15분쯤 도착하면 여유로워요.', 'Aim to reach the venue by about 20:15.') }))
+            items.push(spot(ctx, 'dinner', '19:00', 'south', 'meal', { desc: t('공연장에는 20시 30분쯤 도착하면 여유로워요.', 'Aim to reach the venue by about 20:30.') }))
           }
           const kissFlags: L[] = []
           const kd = info[d].date
           if (!kd) {
-            kissFlags.push(t('화요일 휴무 여부 확인 필요 · 여행 날짜를 넣으면 화요일을 피해 배치해요', 'Tuesday closure unconfirmed · add dates to avoid Tuesdays'))
-          } else if (kd.getDay() === 2) {
-            kissFlags.push(t('화요일 공연 — 휴무 여부를 꼭 확인하세요', 'Tuesday show — confirm it runs'))
+            kissFlags.push(
+              t(
+                '날짜 미확정(임시 배치) · 매주 화요일 정기 휴무이므로 날짜 선택 시 화요일을 피해 배치해요',
+                'Date not set (tentative) · Closed every Tuesday; select dates to auto-avoid Tuesdays',
+              ),
+            )
           }
-          kissFlags.push(t('공연 30분 전 도착 권장', 'Arrive 30 min early'))
+          kissFlags.push(t('공연 약 30분 소요 (21:00~21:30, 21:25 불꽃놀이) · 30분 전 입장 권장', 'Approx. 30 min show (21:00–21:30, 21:25 fireworks) · Arrive 30 min early'))
           if (input.companion === 'parents') kissFlags.push(t('앞줄은 소리·조명이 강해요 — 중간~뒤쪽 좌석 추천', 'Front rows are loud and bright — sit middle to back'))
           if (input.companion === 'kids') kissFlags.push(t('21시 시작이라 아이가 피곤하면 바깥에서 불꽃만 봐도 좋아요', '21:00 start — with tired kids, just watch the fireworks outside'))
           items.push(item(ctx, 'kiss', '21:00', 'must', SPOT.kiss.title, 'south', { desc: SPOT.kiss.desc, productId: 'kiss_ticket', flags: kissFlags }))
@@ -610,6 +677,18 @@ export function generatePlan(input: PlannerInput): Plan {
       return Number.isFinite(h) ? h + (m || 0) / 60 : 50
     }
     items.sort((a, b) => order(a.time) - order(b.time))
+    // 동일 시간대 중복 활동 방지 (HH:MM 충돌 시 +30분 순차 조정)
+    for (let i = 1; i < items.length; i++) {
+      const prev = items[i - 1].time
+      const curr = items[i].time
+      if (/^\d{2}:\d{2}$/.test(prev) && prev === curr) {
+        const [h, m] = curr.split(':').map(Number)
+        const totalMin = h * 60 + m + 30
+        const nh = String(Math.floor(totalMin / 60) % 24).padStart(2, '0')
+        const nm = String(totalMin % 60).padStart(2, '0')
+        items[i] = { ...items[i], time: `${nh}:${nm}` }
+      }
+    }
     days.push({ index: d, date: info[d].date, sleepRegion: d < N ? 'south' : null, theme, items })
   }
 

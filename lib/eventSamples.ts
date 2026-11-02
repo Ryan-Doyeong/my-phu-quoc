@@ -16,9 +16,68 @@ export type EventSampleStory = {
  */
 export const PUBLISHED_EVENTS: EventSampleStory[] = [
   {
+    "id": "event-kiss-of-the-sea-nightly-multimedia-show",
+    "slug": "kiss-of-the-sea-nightly-multimedia-show",
+    "content_type": "event",
+    "status": "published",
+    "is_sample": false,
+    "category": "Nightly Show & Fireworks",
+    "category_ko": "상설 야간 공연 & 불꽃쇼",
+    "category_zh": "常设夜间大秀与烟花",
+    "category_ru": "Вечернее шоу и фейерверк",
+    "category_ja": "常設ナイトショー＆花火",
+    "category_hi": "रात्रिकालीन शो और आतिशबाजी",
+    "category_vi": "Show diễn đêm & Pháo hoa",
+    "cover_image_url": "/stock/kiss-of-the-sea-night-fireworks-cover.webp",
+    "published_at": "2026-10-30T09:00:00+07:00",
+    "updated_at": "2026-11-02T09:00:00+07:00",
+    "event_date": "2026-01-01T21:00:00+07:00",
+    "event_end_date": "2026-12-31T21:30:00+07:00",
+    "effective_date": "2026-12-31T21:30:00+07:00",
+    "event_location": "Kiss of the Sea Theater, Sunset Town (21:00–21:30 Wed–Mon; Closed Tue)",
+    "event_location_ko": "선셋타운 키스 오브 더 씨 공연장 (수~월 21:00–21:30 · 화요일 휴연)",
+    "event_location_zh": "日落小镇《海洋之吻》剧场（周三至周一 21:00–21:30 · 周二休演）",
+    "event_location_ru": "Театр Kiss of the Sea, Сансет Таун (ср–пн 21:00–21:30 · вт выходной)",
+    "event_location_ja": "サンセットタウン Kiss of the Sea 劇場（水〜月 21:00–21:30・火曜休演）",
+    "event_location_hi": "किस ऑफ द सी थिएटर, सनसेट टाउन (बुध–सोम 21:00–21:30 · मंगलवार बंद)",
+    "event_location_vi": "Nhà hát Kiss of the Sea, Thị trấn Hoàng Hôn (21:00–21:30 Thứ 4–Thứ 2; Nghỉ Thứ 3)",
+    "title": "Kiss of the Sea Nightly Show & 21:25 Fireworks Finale (Wed–Mon)",
+    "title_ko": "키스 오브 더 씨(Kiss of the Sea) 상설 야간 멀티미디어 쇼 & 불꽃놀이 (수~월 21:00)",
+    "title_zh": "《海洋之吻》(Kiss of the Sea) 常设夜间多媒体大秀与海上烟花（周三至周一 21:00）",
+    "title_ru": "Вечернее мультимедийное шоу «Kiss of the Sea» и салют (ср–пн 21:00)",
+    "title_ja": "「キス・オブ・ザ・シー」常設ナイトマルチメディアショー＆海上花火（水〜月 21:00）",
+    "title_hi": "'किस ऑफ द सी' रात्रिकालीन मल्टीमीडिया शो और आतिशबाजी (बुध–सोम 21:00)",
+    "title_vi": "Show diễn đêm Kiss of the Sea & Pháo hoa nghệ thuật (21:00 Thứ 4–Thứ 2)",
+    "seo_title": "Kiss of the Sea Nightly Show & Fireworks Schedule | My Phu Quoc",
+    "seo_title_ko": "키스 오브 더 씨 상설 야간 공연 시간표·휴연일 안내 | My Phu Quoc",
+    "seo_title_zh": "富国岛《海洋之吻》夜间大秀演出时间与休演日指南 | My Phu Quoc",
+    "seo_title_ru": "Шоу «Kiss of the Sea» на Фукуоке: расписание и выходные дни | My Phu Quoc",
+    "seo_title_ja": "フーコック島「キス・オブ・ザ・シー」公演時間・休演日案内 | My Phu Quoc",
+    "seo_title_hi": "किस ऑफ द सी शो समय-सारणी और साप्ताहिक अवकाश गाइड | My Phu Quoc",
+    "seo_description": "Regular nightly multimedia performance in Sunset Town, Phu Quoc running 21:00–21:30 (Wed–Mon, closed Tuesdays) with a maritime fireworks finale around 21:25.",
+    "seo_description_ko": "푸꾸옥 선셋타운 상설 야간 공연 '키스 오브 더 씨' 일정 안내. 매주 수~월요일 21:00–21:30 진행(화요일 정기 휴연), 21:25경 해상 불꽃놀이 피날레.",
+    "seo_description_zh": "富国岛日落小镇常设夜间大秀《海洋之吻》日程说明：每周三至周一 21:00–21:30 演出（周二定期休演），约 21:25 上演海上烟花压轴。",
+    "seo_description_ru": "Регулярное вечернее мультимедийное шоу в Сансет Тауне: со среды по понедельник с 21:00 до 21:30 (вторник — выходной), морской фейерверк около 21:25.",
+    "seo_description_ja": "サンセットタウンの常設ナイトショー「キス・オブ・ザ・シー」スケジュール案内。水〜月曜 21:00–21:30 上演（火曜定期休演）、21:25頃に海上花火フィナーレ。",
+    "seo_description_hi": "सनसेट टाउन में नियमित रात्रिकालीन मल्टीमीडिया शो: बुधवार से सोमवार 21:00–21:30 (मंगलवार बंद), लगभग 21:25 बजे समुद्री आतिशबाजी फिनाले।",
+    "excerpt": "Regular nightly multimedia show at Sunset Town Theater from 21:00 to 21:30 (Wed–Mon; closed Tuesdays), concluding with an ocean fireworks finale around 21:25.",
+    "excerpt_ko": "선셋타운 전용 해상 극장에서 매주 수~월요일 21:00–21:30(화요일 정기 휴연)에 열리는 상설 멀티미디어 쇼 및 21:25 해상 불꽃놀이 피날레 일정 안내.",
+    "excerpt_zh": "在日落小镇海上剧场每周三至周一 21:00–21:30（周二定期休演）上演的常设多媒体大秀，约 21:25 迎来海上烟花压轴。",
+    "excerpt_ru": "Регулярное мультимедийное представление в амфитеатре Сансет Тауна (ср–пн 21:00–21:30, вторник — выходной) с морским салютом около 21:25.",
+    "excerpt_ja": "サンセットタウン海上劇場にて毎週水〜月曜 21:00–21:30（火曜休演）に開催される常設マルチメディアショーと 21:25 海上花火フィナーレのご案内。",
+    "excerpt_hi": "सनसेट टाउन थिएटर में बुधवार से सोमवार रात 21:00–21:30 बजे (मंगलवार बंद) तक आयोजित होने वाला मल्टीमीडिया शो और 21:25 बजे आतिशबाजी फिनाले।",
+    "body": "## Schedule & Venue\n\n- **Operating Days**: Wednesday – Monday (Closed every Tuesday)\n- **Showtime**: 21:00 – 21:30 (Fireworks finale around 21:25)\n- **Venue**: [Kiss of the Sea Theater](/business/sunset-place-10), Sunset Town, An Thoi, Phu Quoc\n- **Tickets**: Available via [Sun World Official Booking](https://booking.sunworld.vn) and authorized partner Klook.\n\nFor detailed viewing tips and suggested evening routes, see our [Kiss of the Sea Viewing Guide](/news/kiss-of-the-sea-fireworks-viewing-tips).",
+    "body_ko": "## 공연 일시 및 장소\n\n- **운영 요일**: 매주 수요일 ~ 월요일 (**매주 화요일 정기 휴연**)\n- **공연 시간**: 21:00 – 21:30 (21:25경 해상 불꽃놀이 피날레)\n- **공연 장소**: 푸꾸옥 남부 선셋타운 [키스 오브 더 씨 전용 해상 극장](/ko/business/sunset-place-10)\n- **예매 안내**: [선월드 공식 예약 페이지](https://booking.sunworld.vn) 또는 공식 제휴처(Klook)에서 예매 가능\n\n상세 관람 명당과 저녁 추천 동선은 [키스 오브 더 씨 관람 팁 가이드](/ko/news/kiss-of-the-sea-fireworks-viewing-tips)에서 확인하실 수 있습니다.",
+    "body_zh": "## 演出时间与地点\n\n- **运营日期**：每周三至周一（**每周二定期休演**）\n- **演出时间**：21:00 – 21:30（约 21:25 海上烟花压轴）\n- **演出地点**：富国岛南部日落小镇 [《海洋之吻》专属剧场](/zh/business/sunset-place-10)\n- **购票方式**：可通过 [Sun World 官方预订页面](https://booking.sunworld.vn) 或官方合作伙伴 Klook 预订。\n\n详细观演贴士与晚间推荐路线请参阅[《海洋之吻》观演指南](/zh/news/kiss-of-the-sea-fireworks-viewing-tips)。",
+    "body_ru": "## Расписание и место проведения\n\n- **Дни показа**: среда – понедельник (**вторник — выходной день**)\n- **Время**: 21:00 – 21:30 (морской салют около 21:25)\n- **Площадка**: [Амфитеатр Kiss of the Sea](/ru/business/sunset-place-10), Сансет Таун, Фукуок\n- **Билеты**: доступны на [официальном сайте Sun World](https://booking.sunworld.vn) и на Klook.\n\nПодробные советы зрителям читайте в [гиде по просмотру Kiss of the Sea](/ru/news/kiss-of-the-sea-fireworks-viewing-tips).",
+    "body_ja": "## 公演日時・会場\n\n- **開催曜日**：毎週水曜〜月曜（**毎週火曜は定期休演**）\n- **公演時間**：21:00 – 21:30（21:25頃に海上花火フィナーレ）\n- **会場**：フーコック島南部サンセットタウン [Kiss of the Sea 海上劇場](/ja/business/sunset-place-10)\n- **チケット予約**：[Sun World 公式予約サイト](https://booking.sunworld.vn) または公式提携先 Klook にて予約可能\n\n詳しい観賞スポットや夕方からのモデルコースは[キス・オブ・ザ・シー観賞ガイド](/ja/news/kiss-of-the-sea-fireworks-viewing-tips)をご覧ください。",
+    "body_hi": "## समय-सारणी और स्थान\n\n- **संचालन दिवस**: बुधवार – सोमवार (**प्रत्येक मंगलवार साप्ताहिक अवकाश**)\n- **शो का समय**: 21:00 – 21:30 (लगभग 21:25 बजे समुद्री आतिशबाजी फिनाले)\n- **स्थान**: [किस ऑफ द सी थिएटर](/hi/business/sunset-place-10), सनसेट टाउन, फू क्वोक\n- **टिकट**: [सन वर्ल्ड आधिकारिक बुकिंग](https://booking.sunworld.vn) और Klook पर उपलब्ध।\n\nविस्तृत दर्शक टिप्स के लिए [किस ऑफ द सी दर्शक गाइड](/hi/news/kiss-of-the-sea-fireworks-viewing-tips) देखें।",
+    "tags": ["kiss-of-the-sea", "fireworks", "sunset-town", "show", "키스오브더씨", "불꽃쇼"]
+  },
+  {
     "id": "news-phu-quoc-halloween-sunset-town-hon-thom",
     "slug": "phu-quoc-halloween-sunset-town-hon-thom",
-    "content_type": "news",
+    "content_type": "event",
     "status": "published",
     "is_sample": false,
     "category": "Event & Festival",
@@ -30,6 +89,16 @@ export const PUBLISHED_EVENTS: EventSampleStory[] = [
     "cover_image_url": "/stock/phu-quoc-halloween-sunset-town-cover.webp",
     "published_at": "2026-10-29T10:05:00+07:00",
     "updated_at": "2026-10-29T15:45:00+07:00",
+    "event_date": "2026-10-25T16:00:00+07:00",
+    "event_end_date": "2026-10-31T22:00:00+07:00",
+    "effective_date": "2026-10-31T22:00:00+07:00",
+    "event_location": "Sunset Town & Sun World Hon Thom, Phu Quoc (16:00–22:00)",
+    "event_location_ko": "푸꾸옥 선셋타운 & 선월드 혼텀(Hòn Thơm) 체크인 포인트 (16:00–22:00)",
+    "event_location_zh": "富国岛日落小镇 & 太阳世界香岛打卡点 (16:00–22:00)",
+    "event_location_ru": "Сансет Таун и остров Хон Тхом, Фукуок (16:00–22:00)",
+    "event_location_ja": "サンセットタウン＆サンワールド・ホントム島 (16:00–22:00)",
+    "event_location_hi": "सनसेट टाउन और सन वर्ल्ड होन थोम, फू क्वोक (16:00–22:00)",
+    "event_location_vi": "Thị trấn Hoàng Hôn & Sun World Hòn Thơm, Phú Quốc (16:00–22:00)",
     "title": "Phu Quoc Halloween 2026: Sunset Town & Hon Thom Check-In Points",
     "title_ko": "푸꾸옥 핼러윈 2026: 선셋타운·혼텀 체크인 포인트 안내",
     "title_zh": "富国岛万圣节2026：日落小镇与香岛拍照打卡点指南",
@@ -578,7 +647,7 @@ export const PUBLISHED_EVENTS: EventSampleStory[] = [
   {
   "id": "news-symphony-of-the-sea-season-3-opening",
   "slug": "symphony-of-the-sea-season-3-opening",
-  "content_type": "news",
+  "content_type": "event",
   "status": "published",
   "is_sample": false,
   "category": "Event & Show",
@@ -590,6 +659,16 @@ export const PUBLISHED_EVENTS: EventSampleStory[] = [
   "cover_image_url": "/stock/symphony-of-the-sea-season-3-cover.webp",
   "published_at": "2026-10-27T08:00:00+07:00",
   "updated_at": "2026-10-28T19:00:00+07:00",
+  "event_date": "2026-11-10T19:30:00+07:00",
+  "event_end_date": "2027-04-30T20:00:00+07:00",
+  "effective_date": "2027-04-30T20:00:00+07:00",
+  "event_location": "Sunset Town Bay & Kiss Bridge, Phu Quoc (Daily 19:30–20:00)",
+  "event_location_ko": "푸꾸옥 선셋타운 해변 & 키스브릿지 해상 (매일 19:30–20:00)",
+  "event_location_zh": "富国岛日落小镇海湾与亲吻桥海域（每日 19:30–20:00）",
+  "event_location_ru": "Акватория Сансет Тауна и мост Kiss Bridge (ежедневно 19:30–20:00)",
+  "event_location_ja": "サンセットタウン湾＆キスブリッジ沖（毎日 19:30–20:00）",
+  "event_location_hi": "सनसेट टाउन खाड़ी और किस ब्रिज, फू क्वोक (प्रतिदिन 19:30–20:00)",
+  "event_location_vi": "Vịnh Thị trấn Hoàng Hôn & Cầu Hôn, Phú Quốc (Hàng ngày 19:30–20:00)",
   "title": "Phu Quoc Symphony of the Sea Season 3 Opening Guide — Official Announcement Overview",
   "title_ko": "푸꾸옥 심포니 오브 더 씨 시즌 3 개막 총정리 — 공식 발표 기준 안내",
   "title_zh": "富国岛《海洋交响乐》第3季开幕前瞻 — 依据官方发布信息",
@@ -1065,47 +1144,78 @@ export function getSampleEventBySlug(slug: string): EventSampleStory | null {
 }
 
 /**
- * 이벤트 종료일(effective_date 또는 event_end_date) 기준 진행 상태 계산
- * - 종료일이 있으면 현재 시각과 비교하여 'ongoing'(진행중) 또는 'ended'(종료) 반환
- * - 종료일이 없으면 null 반환
+ * 이벤트 시작일(event_date) 및 종료일(effective_date 또는 event_end_date) 기준 진행 상태 계산
+ * - 종료일이 현재 시각 이전이면 'ended'(종료)
+ * - 시작일이 현재 시각 이후이면 'upcoming'(예정)
+ * - 그 외 진행 기간 내이면 'ongoing'(진행중)
  */
 export function getEventProgressStatus(
   storyOrStart?:
-    | { effective_date?: string | null; event_end_date?: string | null }
+    | { effective_date?: string | null; event_end_date?: string | null; event_date?: string | null }
     | string
     | null,
   endDateOrNow?: string | Date | null
-): 'ongoing' | 'ended' | null {
+): 'upcoming' | 'ongoing' | 'ended' | null {
+  let startRaw: string | null | undefined = null
   let endRaw: string | null | undefined = null
   let now = new Date()
 
   if (typeof storyOrStart === 'object' && storyOrStart !== null) {
-    endRaw = storyOrStart.event_end_date || storyOrStart.effective_date
+    startRaw = storyOrStart.event_date
+    endRaw = storyOrStart.event_end_date || storyOrStart.effective_date || storyOrStart.event_date
     if (endDateOrNow instanceof Date) {
       now = endDateOrNow
     }
   } else {
-    endRaw = typeof endDateOrNow === 'string' ? endDateOrNow : null
+    startRaw = typeof storyOrStart === 'string' ? storyOrStart : null
+    endRaw = typeof endDateOrNow === 'string' ? endDateOrNow : startRaw
   }
 
-  if (!endRaw) return null
-  const endDate = new Date(endRaw)
-  if (Number.isNaN(endDate.getTime())) return null
-  return endDate.getTime() >= now.getTime() ? 'ongoing' : 'ended'
+  if (!endRaw && !startRaw) return null
+  if (endRaw) {
+    const endDate = new Date(endRaw)
+    if (!Number.isNaN(endDate.getTime()) && endDate.getTime() < now.getTime()) {
+      return 'ended'
+    }
+  }
+  if (startRaw) {
+    const startDate = new Date(startRaw)
+    if (!Number.isNaN(startDate.getTime()) && startDate.getTime() > now.getTime()) {
+      return 'upcoming'
+    }
+  }
+  return 'ongoing'
 }
 
 export function getEventStatusLabel(
-  status: 'ongoing' | 'ended' | null | undefined,
+  status: 'upcoming' | 'ongoing' | 'ended' | null | undefined,
   locale: Locale = 'en'
 ): string | null {
   if (!status) return null
+  if (status === 'upcoming') {
+    if (locale === 'vi') return 'Sắp diễn ra'
+    if (locale === 'ko') return '예정'
+    if (locale === 'zh') return '即将开始'
+    if (locale === 'ja') return '開催予定'
+    if (locale === 'ru') return 'Скоро'
+    if (locale === 'hi') return 'आगामी'
+    return 'Upcoming'
+  }
   if (status === 'ongoing') {
     if (locale === 'vi') return 'Đang diễn ra'
     if (locale === 'ko') return '진행중'
+    if (locale === 'zh') return '进行中'
+    if (locale === 'ja') return '開催中'
+    if (locale === 'ru') return 'Идёт сейчас'
+    if (locale === 'hi') return 'जारी'
     return 'Ongoing'
   }
   if (locale === 'vi') return 'Đã kết thúc'
   if (locale === 'ko') return '종료'
+  if (locale === 'zh') return '已结束'
+  if (locale === 'ja') return '終了'
+  if (locale === 'ru') return 'Завершено'
+  if (locale === 'hi') return 'समाप्त'
   return 'Ended'
 }
 

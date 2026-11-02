@@ -127,6 +127,75 @@ const PRACTICAL_LABELS = {
   },
 }
 
+function formatVerifiedPriceLevel(raw: unknown, locale: Locale): string | null {
+  if (!raw) return null
+  const val = String(raw).trim()
+  if (!val) return null
+  // Reject bare unverified numbers without currency or tier symbols (e.g. "87865")
+  if (/^\d[\d,.\s]*$/.test(val)) return null
+
+  if (/^\$+$/.test(val)) {
+    const count = val.length
+    const tierDesc: Record<number, Record<Locale, string>> = {
+      1: {
+        ko: '합리적 가격대 · 1인 기준',
+        en: 'Budget-friendly · per person',
+        vi: 'Bình dân · mỗi người',
+        zh: '实惠价位 · 人均',
+        ja: 'リーズナブル・1名目安',
+        ru: 'Бюджетно · на человека',
+        hi: 'किफायती · प्रति व्यक्ति',
+      },
+      2: {
+        ko: '중간 가격대 · 1인 기준',
+        en: 'Moderate · per person',
+        vi: 'Tầm trung · mỗi người',
+        zh: '中等价位 · 人均',
+        ja: '標準価格帯・1名目安',
+        ru: 'Средний уровень · на человека',
+        hi: 'मध्यम · प्रति व्यक्ति',
+      },
+      3: {
+        ko: '레스토랑·다이닝 가격대 · 1인 기준',
+        en: 'Mid-to-upscale · per person',
+        vi: 'Khá cao · mỗi người',
+        zh: '中高价位 · 人均',
+        ja: 'やや高め・1名目安',
+        ru: 'Выше среднего · на человека',
+        hi: 'प्रीमियम · प्रति व्यक्ति',
+      },
+      4: {
+        ko: '프리미엄 가격대 · 1인/1박 기준',
+        en: 'Upscale · per person / night',
+        vi: 'Cao cấp · mỗi người / đêm',
+        zh: '高端价位 · 人均/每晚',
+        ja: '高級価格帯・1名/1泊目安',
+        ru: 'Премиум · на чел./ночь',
+        hi: 'लक्ज़री · प्रति व्यक्ति/रात',
+      },
+      5: {
+        ko: '럭셔리 가격대 · 1인/1박 기준',
+        en: 'Luxury · per person / night',
+        vi: 'Sang trọng · mỗi người / đêm',
+        zh: '奢华价位 · 人均/每晚',
+        ja: 'ラグジュアリー・1名/1泊目安',
+        ru: 'Люкс · на чел./ночь',
+        hi: 'अल्ट्रा-लक्ज़री · प्रति व्यक्ति/रात',
+      },
+    }
+    const labelMap = tierDesc[Math.min(5, Math.max(1, count))]
+    const desc = labelMap ? labelMap[locale] || labelMap.en : ''
+    return desc ? `${val} (${desc})` : val
+  }
+
+  // Only allow strings that contain an explicit currency unit (VND, ₫, USD, KRW, 원)
+  if (/(VND|₫|USD|KRW|원)/i.test(val)) {
+    return val
+  }
+
+  return null
+}
+
 export function PracticalInfoCard({
   business: b,
   locale,
@@ -264,7 +333,7 @@ export function PracticalInfoCard({
         )}
 
         {/* 5. Price range */}
-        {!isNameOnly && b.price_level && (
+        {!isNameOnly && formatVerifiedPriceLevel(b.price_level, locale) && (
           <div className="practicalInfoRow">
             <div className="practicalInfoIcon">💰</div>
             <div className="practicalInfoBody">
@@ -273,7 +342,7 @@ export function PracticalInfoCard({
                   dict.business.price ||
                   (isVi ? 'Mức giá' : 'Price level')}
               </div>
-              <div className="practicalInfoValue">{b.price_level}</div>
+              <div className="practicalInfoValue">{formatVerifiedPriceLevel(b.price_level, locale)}</div>
             </div>
           </div>
         )}
@@ -365,6 +434,36 @@ export function PracticalInfoCard({
                 (isVi ? 'Xem trên Google Maps' : 'View on Google Maps')}
             </span>
           </a>
+        )}
+
+        {!isKhem && (
+          <Link
+            className="practicalMapBtn"
+            href={localePath(locale, '/map')}
+            style={{
+              marginTop: 0,
+              backgroundColor: '#F1F8F7',
+              color: '#0B7A8A',
+              border: '1px solid #C6E2DE',
+            }}
+          >
+            <span aria-hidden="true">🧭</span>
+            <span>
+              {locale === 'ko'
+                ? '선셋타운 가이드 맵 보기'
+                : locale === 'vi'
+                ? 'Xem Bản đồ Sunset Town'
+                : locale === 'zh'
+                ? '查看日落小镇导览地图'
+                : locale === 'ja'
+                ? 'サンセットタウン案内マップ'
+                : locale === 'ru'
+                ? 'Карта-гид по Сансет-Тауну'
+                : locale === 'hi'
+                ? 'सनसेट टाउन गाइड मैप देखें'
+                : 'Sunset Town Guide Map'}
+            </span>
+          </Link>
         )}
       </div>
 

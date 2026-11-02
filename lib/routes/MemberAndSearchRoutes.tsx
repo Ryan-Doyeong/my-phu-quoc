@@ -116,6 +116,75 @@ function text(v: unknown) {
   return String(v || '').toLowerCase()
 }
 
+function normalizeSearch(v: unknown) {
+  return String(v || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/đ/g, 'd')
+    .trim()
+}
+
+const ZONE_BADGE_LABELS: Record<Locale, { sunset: string; khem: string }> = {
+  ko: { sunset: '선셋타운', khem: '켐비치' },
+  en: { sunset: 'Sunset Town', khem: 'Khem Beach' },
+  vi: { sunset: 'Thị trấn Hoàng Hôn', khem: 'Bãi Khem' },
+  zh: { sunset: '日落小镇', khem: 'Khem海滩' },
+  ja: { sunset: 'サンセットタウン', khem: 'ケムビーチ' },
+  ru: { sunset: 'Сансет-Таун', khem: 'Пляж Кхем' },
+  hi: { sunset: 'सनसेट टाउन', khem: 'खेम बीच' },
+}
+
+const SEARCH_SUGGESTIONS: Record<Locale, { label: string; q: string }[]> = {
+  ko: [
+    { label: '키스브릿지', q: 'Kiss Bridge' },
+    { label: '케이블카', q: 'Cable Car' },
+    { label: '씨푸드 맛집', q: 'seafood' },
+    { label: '루프탑 바', q: 'rooftop' },
+    { label: '마사지·스파', q: 'spa' },
+    { label: '환전·ATM', q: 'ATM' },
+  ],
+  en: [
+    { label: 'Kiss Bridge', q: 'Kiss Bridge' },
+    { label: 'Cable Car', q: 'Cable Car' },
+    { label: 'Seafood', q: 'seafood' },
+    { label: 'Rooftop Bar', q: 'rooftop' },
+    { label: 'Spa & Massage', q: 'spa' },
+    { label: 'ATM & Banking', q: 'ATM' },
+  ],
+  vi: [
+    { label: 'Cầu Hôn', q: 'Cau Hon' },
+    { label: 'Cáp treo', q: 'Cap treo' },
+    { label: 'Hải sản', q: 'seafood' },
+    { label: 'Chợ đêm VuiFest', q: 'VuiFest' },
+    { label: 'Spa & Massage', q: 'spa' },
+  ],
+  zh: [
+    { label: '接吻桥', q: 'Kiss Bridge' },
+    { label: '跨海缆车', q: 'Cable Car' },
+    { label: '海鲜餐厅', q: 'seafood' },
+    { label: '水疗按摩', q: 'spa' },
+  ],
+  ja: [
+    { label: 'キスブリッジ', q: 'Kiss Bridge' },
+    { label: 'ケーブルカー', q: 'Cable Car' },
+    { label: 'シーフード', q: 'seafood' },
+    { label: 'スパ・マッサージ', q: 'spa' },
+  ],
+  ru: [
+    { label: 'Мост Поцелуев', q: 'Kiss Bridge' },
+    { label: 'Канатная дорога', q: 'Cable Car' },
+    { label: 'Морепродукты', q: 'seafood' },
+    { label: 'Спа и массаж', q: 'spa' },
+  ],
+  hi: [
+    { label: 'किस ब्रिज', q: 'Kiss Bridge' },
+    { label: 'केबल कार', q: 'Cable Car' },
+    { label: 'सीफूड', q: 'seafood' },
+    { label: 'स्पा और मसाज', q: 'spa' },
+  ],
+}
+
 export async function renderSearchRoute(qRaw: string | undefined, locale: Locale = 'en') {
   const dict = getDictionary(locale)
   const q = (qRaw || '').trim()
@@ -125,6 +194,7 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
     supabase.from('stories').select('*').eq('status', 'published').limit(100),
   ])
   const needle = q.toLowerCase()
+  const normNeedle = normalizeSearch(q)
   const regList: any[] = Array.isArray(businessesRegistryJson)
     ? (businessesRegistryJson as any[])
     : (businessesRegistryJson as any).businesses || []
@@ -138,6 +208,7 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
       category: reg.category ?? x.category,
       subcategory: reg.subcategory ?? x.subcategory,
       public_name: reg.public_name ?? x.public_name,
+      name_local: reg.name_local ?? x.name_local,
       description_ko: reg.description_ko ?? x.description_ko,
       description_en: reg.description_en ?? x.description_en,
       tags: reg.tags ?? x.tags,
@@ -151,36 +222,40 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
           : x.gallery_urls,
     }
   })
+  const khemSlugs = new Set((khemBusinesses as any[]).map((k) => k.slug))
   const allBusinesses = [
     ...syncedBusinesses,
     ...(khemBusinesses as any[]).filter(
       (x) => x.status === 'published'
     ),
   ]
-  const b = allBusinesses.filter(
-    (x: any) =>
-      !isHiddenBusiness(x) &&
-      x.category !== 'activities' &&
-      (!needle ||
-        [
-          x.public_name,
-        displayBusinessName(x, locale),
-        x.google_maps_name,
-        ...(x.aliases || []),
-        x.category,
-        categoryLabel(x.category, locale),
-        x.subcategory,
-        x.subcategory ? translateTerm(x.subcategory, locale) : '',
-        x.address,
-        x.description_en,
-        x.description_vi,
-        x.description_ko,
-        ...(x.tags || []),
-        ...(x.tags || []).map((t: string) => translateTerm(t, locale)),
-        ...(x.badges || []),
-        nearbyBadgeText(x.address, x.tags, x.badges, locale) || '',
-      ].some((v) => text(v).includes(needle)))
-  )
+  const b = allBusinesses.filter((x: any) => {
+    if (isHiddenBusiness(x) || x.category === 'activities') return false
+    if (!needle) return true
+    const fields = [
+      x.slug,
+      x.public_name,
+      x.name_local,
+      displayBusinessName(x, locale),
+      x.google_maps_name,
+      ...(x.aliases || []),
+      x.category,
+      categoryLabel(x.category, locale),
+      x.subcategory,
+      x.subcategory ? translateTerm(x.subcategory, locale) : '',
+      x.address,
+      x.description_en,
+      x.description_vi,
+      x.description_ko,
+      ...(x.tags || []),
+      ...(x.tags || []).map((t: string) => translateTerm(t, locale)),
+      ...(x.badges || []),
+      nearbyBadgeText(x.address, x.tags, x.badges, locale) || '',
+    ]
+    return fields.some(
+      (v) => text(v).includes(needle) || (normNeedle && normalizeSearch(v).includes(normNeedle))
+    )
+  })
   const dbStorySlugs = new Set((stories || []).map((row: any) => row.slug))
   const mergedStories = [
     ...(stories || []),
@@ -240,10 +315,12 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
               const subLabel = x.subcategory
                 ? translateTerm(x.subcategory, locale)
                 : categoryLabel(x.category, locale)
+              const zLabels = ZONE_BADGE_LABELS[locale] || ZONE_BADGE_LABELS.en
+              const zoneBadge = khemSlugs.has(x.slug) ? zLabels.khem : zLabels.sunset
               return (
                 <Link
                   href={localePath(locale, `/business/${x.slug}`)}
-                  key={x.id}
+                  key={x.id || x.slug}
                   className="compactBusinessLink"
                 >
                   <article className="directoryResult compactDirectoryCard">
@@ -276,7 +353,7 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
                     <div className="compactBusinessBody">
                       <div className="resultMeta">
                         <span>
-                          {subLabel}
+                          📍 {zoneBadge} · {subLabel}
                           {nearbyText ? ` · ${nearbyText}` : ''}
                         </span>
                         {x.google_rating && <strong>★ {Number(x.google_rating).toFixed(1)}</strong>}
@@ -295,7 +372,30 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
               )
             })}
           </div>
-          {!b.length && <p className="muted">{dict.search.noPlace}</p>}
+          {!b.length && (
+            <div style={{ marginTop: '12px' }}>
+              <p className="muted">{dict.search.noPlace}</p>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginTop: '10px' }}>
+                {(SEARCH_SUGGESTIONS[locale] || SEARCH_SUGGESTIONS.en).map((sug) => (
+                  <Link
+                    key={sug.q}
+                    href={`${localePath(locale, '/search')}?q=${encodeURIComponent(sug.q)}`}
+                    style={{
+                      padding: '6px 12px',
+                      borderRadius: '999px',
+                      background: '#f0fdfa',
+                      border: '1px solid #99f6e4',
+                      color: '#0f766e',
+                      fontSize: '0.84rem',
+                      fontWeight: 600,
+                    }}
+                  >
+                    🔍 {sug.label}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
         <div className="searchResultSection">
           <div className="directoryHeading">
@@ -303,7 +403,13 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
           </div>
           <div className="storyGrid">
             {s.slice(0, 12).map((x: any) => (
-              <Link href={localePath(locale, `/news/${x.slug}`)} key={x.id}>
+              <Link
+                href={localePath(
+                  locale,
+                  `/${x.content_type === 'event' ? 'events' : 'news'}/${x.slug}`
+                )}
+                key={x.id || x.slug}
+              >
                 <article className="storyCard">
                   {x.cover_image_url && (
                     <img

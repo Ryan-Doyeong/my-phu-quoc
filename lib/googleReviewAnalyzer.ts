@@ -619,142 +619,142 @@ export function analyzeGoogleReviews(business: any, locale: Locale = 'ko'): Busi
   const catKey = getCategoryKey(business)
   const pack = CATEGORY_PACKS[catKey][locale] || CATEGORY_PACKS[catKey].en
 
-  // 구글맵 실측 리뷰 분석 데이터(google_review_analysis)가 등록된 업체
+  // 구글맵 실측 리뷰 분석 데이터(google_review_analysis)가 등록된 업체만 표시 (미확보·데이터 부족 시 비노출)
   const realAnalysis = business.google_review_analysis
-  if (realAnalysis && typeof realAnalysis === 'object') {
-    const rScore = realAnalysis.rating ? Number(realAnalysis.rating) : rating
-    const rCount = realAnalysis.reviewCount !== undefined ? Number(realAnalysis.reviewCount) : reviewCount
-    const rBadge = formatBadge(rScore, locale)
+  if (!realAnalysis || typeof realAnalysis !== 'object') {
+    return null
+  }
 
-    // Localize topics: on ko use realAnalysis.topics (if valid), on non-ko use localized topics if available or category pack topics without Hangul
-    const rawTopics: string[] = Array.isArray(realAnalysis.topics) ? realAnalysis.topics : []
-    const cleanNonKoTopics = rawTopics.filter((t) => !hasHangul(String(t)))
-    const localizedTopics = isKo
-      ? (rawTopics.length > 0 ? rawTopics : pack.topics)
-      : (Array.isArray(realAnalysis.topics_by_locale?.[locale])
-          ? realAnalysis.topics_by_locale[locale]
-          : cleanNonKoTopics.length > 0
-            ? cleanNonKoTopics
-            : pack.topics)
+  const rScore = realAnalysis.rating ? Number(realAnalysis.rating) : rating
+  const rCount = realAnalysis.reviewCount !== undefined ? Number(realAnalysis.reviewCount) : reviewCount
+  if (!rScore || !rCount || rCount < 5) {
+    return null
+  }
 
-    const topicSummaryStr = localizedTopics
-      .slice(0, 3)
-      .map((t: string) => String(t).replace(/\s*\(\d+\)\s*$/, ''))
-      .join(', ')
+  const rBadge = formatBadge(rScore, locale)
+  const goodSource = realAnalysis.goodToKnow || realAnalysis.considerations || {}
 
-    // Praised & GoodToKnow & SentimentSummary per locale
-    let praisedList: string[] = []
-    let goodToKnowList: string[] = []
-    let sentimentStr = ''
+  // Localize topics: on ko use realAnalysis.topics, on non-ko use localized topics if available
+  const rawTopics: string[] = Array.isArray(realAnalysis.topics) ? realAnalysis.topics : []
+  const cleanNonKoTopics = rawTopics.filter((t) => !hasHangul(String(t)))
+  const localizedTopics: string[] = isKo
+    ? rawTopics
+    : Array.isArray(realAnalysis.topics_by_locale?.[locale])
+    ? realAnalysis.topics_by_locale[locale]
+    : Array.isArray(realAnalysis.topics_by_locale?.en)
+    ? realAnalysis.topics_by_locale.en
+    : cleanNonKoTopics
 
-    if (isKo) {
-      praisedList = Array.isArray(realAnalysis.praised?.ko) && realAnalysis.praised.ko.length > 0
-        ? realAnalysis.praised.ko
-        : pack.praised
-      goodToKnowList = Array.isArray(realAnalysis.goodToKnow?.ko) && realAnalysis.goodToKnow.ko.length > 0
-        ? realAnalysis.goodToKnow.ko
-        : pack.goodToKnow
-      sentimentStr = typeof realAnalysis.sentimentSummary?.ko === 'string' && realAnalysis.sentimentSummary.ko
+  const topicSummaryStr = localizedTopics
+    .slice(0, 3)
+    .map((t: string) => String(t).replace(/\s*\(\d+\)\s*$/, ''))
+    .join(', ')
+
+  let praisedList: string[] = []
+  let goodToKnowList: string[] = []
+  let sentimentStr = ''
+
+  if (isKo) {
+    praisedList = Array.isArray(realAnalysis.praised?.ko) ? realAnalysis.praised.ko : []
+    goodToKnowList = Array.isArray(goodSource?.ko) ? goodSource.ko : []
+    sentimentStr =
+      typeof realAnalysis.sentimentSummary?.ko === 'string' && realAnalysis.sentimentSummary.ko
         ? realAnalysis.sentimentSummary.ko
-        : rScore && rCount
-          ? REAL_TPL.sentimentSummary.ko
-              .replace('{count}', rCount.toLocaleString())
-              .replace('{score}', rScore.toFixed(1))
-              .replace('{topics}', topicSummaryStr)
-          : pack.praised[0]
-    } else if ((locale === 'en' || locale === 'vi') && realAnalysis.praised?.[locale]) {
-      const candidatePraised: string[] = Array.isArray(realAnalysis.praised[locale])
-        ? realAnalysis.praised[locale].filter((s: string) => !hasHangul(String(s)))
-        : []
-      const candidateGood: string[] = Array.isArray(realAnalysis.goodToKnow?.[locale])
-        ? realAnalysis.goodToKnow[locale].filter((s: string) => !hasHangul(String(s)))
-        : []
-      const candidateSummary: string = typeof realAnalysis.sentimentSummary?.[locale] === 'string' && !hasHangul(realAnalysis.sentimentSummary[locale])
-        ? realAnalysis.sentimentSummary[locale]
-        : ''
-
-      const tplLang = REAL_TPL.sentimentSummary[locale] ? locale : 'en'
-      praisedList = candidatePraised.length >= 2
-        ? candidatePraised
-        : [
-            ...(rScore && rCount
-              ? [REAL_TPL.praisedRating[tplLang].replace('{count}', rCount.toLocaleString()).replace('{score}', rScore.toFixed(1))]
-              : []),
-            ...pack.praised.slice(0, 2),
-          ]
-      goodToKnowList = candidateGood.length > 0 ? candidateGood : pack.goodToKnow
-      sentimentStr = candidateSummary || (
-        rScore && rCount
-          ? REAL_TPL.sentimentSummary[tplLang]
-              .replace('{count}', rCount.toLocaleString())
-              .replace('{score}', rScore.toFixed(1))
-              .replace('{topics}', topicSummaryStr)
-          : pack.praised[0]
-      )
-    } else {
-      // zh, ja, ru, hi (or fallback when en/vi had Hangul)
-      const tplLang = (REAL_TPL.sentimentSummary as Record<string, string>)[locale] ? locale : 'en'
-      praisedList = [
-        ...(rScore && rCount
-          ? [
-              (REAL_TPL.praisedRating as Record<string, string>)[tplLang]
-                .replace('{count}', rCount.toLocaleString())
-                .replace('{score}', rScore.toFixed(1)),
-            ]
-          : []),
-        (REAL_TPL.praisedTopic as Record<string, string>)[tplLang].replace('{topics}', topicSummaryStr),
-        ...pack.praised.slice(0, 2),
-      ].slice(0, 3)
-
-      goodToKnowList = [
-        ...pack.goodToKnow.slice(0, 2),
-        (REAL_TPL.goodToKnowHours as Record<string, string>)[tplLang],
-      ]
-
-      sentimentStr = rScore && rCount
-        ? (REAL_TPL.sentimentSummary as Record<string, string>)[tplLang]
+        : topicSummaryStr
+        ? REAL_TPL.sentimentSummary.ko
             .replace('{count}', rCount.toLocaleString())
             .replace('{score}', rScore.toFixed(1))
             .replace('{topics}', topicSummaryStr)
-        : pack.praised[0]
-    }
+        : REAL_TPL.praisedRating.ko
+            .replace('{count}', rCount.toLocaleString())
+            .replace('{score}', rScore.toFixed(1))
+  } else if ((locale === 'en' || locale === 'vi') && realAnalysis.praised?.[locale]) {
+    const candidatePraised: string[] = Array.isArray(realAnalysis.praised[locale])
+      ? realAnalysis.praised[locale].filter((s: string) => !hasHangul(String(s)))
+      : []
+    const candidateGood: string[] = Array.isArray(goodSource?.[locale])
+      ? goodSource[locale].filter((s: string) => !hasHangul(String(s)))
+      : []
+    const candidateSummary: string =
+      typeof realAnalysis.sentimentSummary?.[locale] === 'string' &&
+      !hasHangul(realAnalysis.sentimentSummary[locale])
+        ? realAnalysis.sentimentSummary[locale]
+        : ''
 
-    const rawSamples: string[] = Array.isArray(realAnalysis.sampleReviews) ? realAnalysis.sampleReviews : []
-    const sampleReviews = isKo ? rawSamples : rawSamples.filter((s) => !hasHangul(String(s)))
+    const tplLang = REAL_TPL.sentimentSummary[locale] ? locale : 'en'
+    praisedList =
+      candidatePraised.length > 0
+        ? candidatePraised
+        : [
+            REAL_TPL.praisedRating[tplLang]
+              .replace('{count}', rCount.toLocaleString())
+              .replace('{score}', rScore.toFixed(1)),
+            ...(topicSummaryStr
+              ? [REAL_TPL.praisedTopic[tplLang].replace('{topics}', topicSummaryStr)]
+              : []),
+          ]
+    goodToKnowList = candidateGood
+    sentimentStr =
+      candidateSummary ||
+      (topicSummaryStr
+        ? REAL_TPL.sentimentSummary[tplLang]
+            .replace('{count}', rCount.toLocaleString())
+            .replace('{score}', rScore.toFixed(1))
+            .replace('{topics}', topicSummaryStr)
+        : REAL_TPL.praisedRating[tplLang]
+            .replace('{count}', rCount.toLocaleString())
+            .replace('{score}', rScore.toFixed(1)))
+  } else {
+    const tplLang = (REAL_TPL.sentimentSummary as Record<string, string>)[locale] ? locale : 'en'
+    const candidateLocalePraised: string[] = Array.isArray(realAnalysis.praised?.[locale])
+      ? realAnalysis.praised[locale].filter((s: string) => !hasHangul(String(s)))
+      : []
+    const candidateLocaleGood: string[] = Array.isArray(goodSource?.[locale])
+      ? goodSource[locale].filter((s: string) => !hasHangul(String(s)))
+      : Array.isArray(goodSource?.en)
+      ? goodSource.en.filter((s: string) => !hasHangul(String(s)))
+      : []
 
-    return {
-      rating: rScore,
-      reviewCount: rCount,
-      ratingBadge: rBadge,
-      topics: localizedTopics,
-      praised: praisedList,
-      goodToKnow: goodToKnowList,
-      sentimentSummary: sentimentStr,
-      lastVerified: realAnalysis.lastVerified || business.rating_check_date || '2026-11-02',
-      sampleReviews,
-    }
+    praisedList =
+      candidateLocalePraised.length > 0
+        ? candidateLocalePraised
+        : [
+            (REAL_TPL.praisedRating as Record<string, string>)[tplLang]
+              .replace('{count}', rCount.toLocaleString())
+              .replace('{score}', rScore.toFixed(1)),
+            ...(topicSummaryStr
+              ? [(REAL_TPL.praisedTopic as Record<string, string>)[tplLang].replace('{topics}', topicSummaryStr)]
+              : []),
+          ]
+
+    goodToKnowList = candidateLocaleGood
+
+    sentimentStr = topicSummaryStr
+      ? (REAL_TPL.sentimentSummary as Record<string, string>)[tplLang]
+          .replace('{count}', rCount.toLocaleString())
+          .replace('{score}', rScore.toFixed(1))
+          .replace('{topics}', topicSummaryStr)
+      : (REAL_TPL.praisedRating as Record<string, string>)[tplLang]
+          .replace('{count}', rCount.toLocaleString())
+          .replace('{score}', rScore.toFixed(1))
   }
 
-  // Fallback category analysis when google_review_analysis is not present
-  const ratingBadge = formatBadge(rating, locale)
-  const tplLang = (REAL_TPL.sentimentSummary as Record<string, string>)[locale] ? locale : 'en'
-  const topicSummaryStr = pack.topics.slice(0, 3).join(', ')
-  const sentimentSummary =
-    rating && reviewCount
-      ? (REAL_TPL.sentimentSummary as Record<string, string>)[tplLang]
-          .replace('{count}', reviewCount.toLocaleString())
-          .replace('{score}', rating.toFixed(1))
-          .replace('{topics}', topicSummaryStr)
-      : pack.praised[0]
+  if (praisedList.length === 0) {
+    return null
+  }
+
+  const rawSamples: string[] = Array.isArray(realAnalysis.sampleReviews) ? realAnalysis.sampleReviews : []
+  const sampleReviews = isKo ? rawSamples : rawSamples.filter((s) => !hasHangul(String(s)))
 
   return {
-    rating,
-    reviewCount,
-    ratingBadge,
-    topics: pack.topics,
-    praised: pack.praised,
-    goodToKnow: pack.goodToKnow,
-    sentimentSummary,
-    lastVerified: '2026-11-02',
+    rating: rScore,
+    reviewCount: rCount,
+    ratingBadge: rBadge,
+    topics: localizedTopics,
+    praised: praisedList,
+    goodToKnow: goodToKnowList,
+    sentimentSummary: sentimentStr,
+    lastVerified: business.rating_check_date || realAnalysis.lastVerified || realAnalysis.analyzedAt || '2026-11-01',
+    sampleReviews,
   }
 }
