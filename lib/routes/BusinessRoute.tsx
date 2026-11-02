@@ -234,6 +234,10 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
   // 로컬 선셋타운 레지스트리 데이터 보강 (Supabase DB 미실행 상태에서도 Agoda 예약 링크, 정품 사진 노출)
   const regItemForEnrich = (businessesRegistry as any[]).find((x) => x.slug === slug)
   if (b && regItemForEnrich) {
+    if (regItemForEnrich.subcategory) b.subcategory = regItemForEnrich.subcategory
+    if ('price_level' in regItemForEnrich) b.price_level = regItemForEnrich.price_level
+    if (regItemForEnrich.description_ko) b.description_ko = regItemForEnrich.description_ko
+    if (regItemForEnrich.description_en) b.description_en = regItemForEnrich.description_en
     if (regItemForEnrich.agoda_url && !b.agoda_url) b.agoda_url = regItemForEnrich.agoda_url
     if (regItemForEnrich.website_url && regItemForEnrich.website_url.includes('agoda.com') && (!b.website_url || !b.website_url.includes('agoda.com'))) {
       b.website_url = regItemForEnrich.website_url
