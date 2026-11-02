@@ -134,20 +134,24 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
         {/* 평점, 후기 수, 이동 거리 */}
         <div className="cardMetaRow">
           <div className="cardRatingBox">
-            <span className="cardScore">{hotel.rating.toFixed(1)} ★</span>
+            <span className="cardScore" title="Agoda 10-point guest rating">
+              Agoda {hotel.rating.toFixed(1)} / 10
+            </span>
             <span className="cardReviews">({formatReviewLabel(hotel.reviewsCount, locale)})</span>
             {hotel.googleRating && (
-              <span className="googleScoreBadge">
-                {t.googleMapsLabel} {hotel.googleRating.toFixed(1)} ★
+              <span className="googleScoreBadge" title="Google Maps 5-point rating">
+                {t.googleMapsLabel} {hotel.googleRating.toFixed(1)} / 5
                 {typeof hotel.googleReviewsCount === 'number' && hotel.googleReviewsCount > 0 ? ` (${hotel.googleReviewsCount})` : ''}
               </span>
             )}
-            <HotelPriceBadge priceRange={hotel.priceRange} />
+            <HotelPriceBadge priceRange={hotel.priceRange} locale={locale} />
           </div>
           {isKhem ? (
             <span className="khemDistBadge">🚗 {getKhemDistanceBadge(hotel, t)}</span>
           ) : (
-            <span className="cableBadge">🚡 {hotel.cable_m}m</span>
+            <span className="cableBadge" title={`${t.cableCarStationDistance}: ${hotel.cable_m}m`}>
+              🚡 {t.cableCarDistance} {hotel.cable_m}m
+            </span>
           )}
         </div>
 
@@ -336,16 +340,16 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
           <div className="modalHeaderBlock">
             <div className="modalHeaderMeta">
               <div className="modalRating">
-                <span className="modalScore">{hotel.rating.toFixed(1)} ★</span>
+                <span className="modalScore">Agoda {hotel.rating.toFixed(1)} / 10</span>
                 <span className="modalScoreDivider" style={{ margin: '0 6px', color: '#cbd5e1' }}>·</span>
                 <span className="modalReviews">{formatReviewLabel(hotel.reviewsCount, locale)}</span>
                 {hotel.googleRating && (
                   <span className="googleScoreBadge">
-                    {t.googleMapsLabel} {hotel.googleRating.toFixed(1)} ★
+                    {t.googleMapsLabel} {hotel.googleRating.toFixed(1)} / 5
                     {typeof hotel.googleReviewsCount === 'number' && hotel.googleReviewsCount > 0 ? ` (${hotel.googleReviewsCount})` : ''}
                   </span>
                 )}
-                <HotelPriceBadge priceRange={hotel.priceRange} style={{ marginLeft: '6px' }} />
+                <HotelPriceBadge priceRange={hotel.priceRange} locale={locale} style={{ marginLeft: '6px' }} />
               </div>
               {isKhem ? (
                 <span className="khemDistBadge" style={{ fontSize: '0.85rem', padding: '4px 10px' }}>
@@ -353,7 +357,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                 </span>
               ) : (
                 <span className="cableBadge" style={{ fontSize: '0.85rem' }}>
-                  🚡 {t.cableCarDistance} {hotel.cable_m}m
+                  🚡 {t.cableCarStationDistance} {hotel.cable_m}m
                 </span>
               )}
             </div>

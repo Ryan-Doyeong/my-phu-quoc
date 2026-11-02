@@ -2,12 +2,71 @@
 
 import React, { useState, useEffect, useRef } from 'react'
 import Image from 'next/image'
-import type { Locale } from '@/lib/i18n/config'
+import Link from 'next/link'
+import { localePath, type Locale } from '@/lib/i18n/config'
 import {
   SUNSET_LANDMARKS,
   getSunsetMapImage,
   type MapLandmark,
 } from '@/lib/sunsetMapData'
+
+const LANDMARK_BUSINESS_SLUG: Record<string, string> = {
+  'kiss-bridge': 'kiss-bridge',
+  'kiss-of-the-sea': 'sunset-place-10',
+  'vui-fest-bazaar': 'cho-dem-vui-fest-bazaar-sunset-town',
+  'cable-car-station': 'sunworld-hon-thom-hon-thom-cable-car-phu-quoc',
+  'clock-tower': 'sunset-place-9',
+  'la-festa-hilton': 'sunset-place-7',
+  'sun-bavaria': 'sun-bavaria-gastropub',
+  'sunset-beach': 'sunset-place-11',
+  'roma-arena': 'sunset-place-8',
+  'dragon-stairs': 'sunset-place-6',
+}
+
+const MAP_EXTRA_TEXTS: Record<
+  Locale,
+  {
+    viewDetailBtn: string
+    scopeNotice: string
+    browseAllSunsetCta: string
+  }
+> = {
+  ko: {
+    viewDetailBtn: '업체·명소 상세 보기',
+    scopeNotice: '본 일러스트 지도는 선셋타운 12대 핵심 랜드마크를 표시합니다. 선셋타운 전체 127곳(맛집·카페·호텔·바·편의시설)은 구역 안내 페이지에서 카테고리별로 확인하실 수 있습니다.',
+    browseAllSunsetCta: '선셋타운 전체 127곳 업체 목록 보기 →',
+  },
+  en: {
+    viewDetailBtn: 'View Venue Details',
+    scopeNotice: 'This illustrated guide map highlights the 12 core landmarks of Sunset Town. Browse all 127 verified Sunset Town restaurants, cafés, bars, hotels, and services in the zone directory.',
+    browseAllSunsetCta: 'Browse All 127 Sunset Town Venues →',
+  },
+  vi: {
+    viewDetailBtn: 'Xem chi tiết địa điểm',
+    scopeNotice: 'Bản đồ minh họa này hiển thị 12 điểm đến biểu tượng. Xem toàn bộ 127 nhà hàng, quán cà phê, khách sạn và dịch vụ tại Thị trấn Hoàng Hôn trong danh bạ khu vực.',
+    browseAllSunsetCta: 'Xem tất cả 127 địa điểm Sunset Town →',
+  },
+  zh: {
+    viewDetailBtn: '查看地点详情',
+    scopeNotice: '本手绘导览图展示日落小镇12大核心地标。如需浏览日落小镇全部127家餐厅、咖啡馆、酒吧、酒店与便利设施，请前往区域名录页面。',
+    browseAllSunsetCta: '查看日落小镇全部127家设施 →',
+  },
+  ja: {
+    viewDetailBtn: 'スポット詳細を見る',
+    scopeNotice: 'このイラストマップはサンセットタウンの12大名所を表示しています。レストラン・カフェ・ホテルなど全127施設はエリア案内ページでカテゴリ別にご覧いただけます。',
+    browseAllSunsetCta: 'サンセットタウン全127施設を見る →',
+  },
+  ru: {
+    viewDetailBtn: 'Подробнее о месте',
+    scopeNotice: 'На этой иллюстрированной карте отмечены 12 главных достопримечательностей Сансет-Тауна. Все 127 заведений (рестораны, кафе, бары, отели) доступны в каталоге района.',
+    browseAllSunsetCta: 'Все 127 мест в Сансет-Тауне →',
+  },
+  hi: {
+    viewDetailBtn: 'विवरण देखें',
+    scopeNotice: 'यह सचित्र मानचित्र सनसेट टाउन के 12 प्रमुख स्थलों को दर्शाता है। सभी 127 रेस्तरां, कैफे, होटल और सेवाओं को देखने के लिए ज़ोन डायरेक्टरी देखें।',
+    browseAllSunsetCta: 'सनसेट टाउन के सभी 127 स्थान देखें →',
+  },
+}
 
 interface Props {
   locale?: Locale
@@ -516,8 +575,18 @@ export function SunsetTownMap({ locale }: Props) {
                     </div>
                   )}
 
-                  {/* 카드 액션: 「구글맵 길찾기」 + 「할인 티켓 예매」 */}
+                  {/* 카드 액션: 「상세 보기」 + 「구글맵 길찾기」 + 「할인 티켓 예매」 */}
                   <div className="landmarkCardActions">
+                    {LANDMARK_BUSINESS_SLUG[lm.id] && (
+                      <Link
+                        href={localePath(loc, `/business/${LANDMARK_BUSINESS_SLUG[lm.id]}`)}
+                        className="outlineDark landmarkCardBtn"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        <span>📖</span>
+                        <span>{(MAP_EXTRA_TEXTS[loc] || MAP_EXTRA_TEXTS.en).viewDetailBtn}</span>
+                      </Link>
+                    )}
                     <a
                       href={mapUrl}
                       target="_blank"
@@ -545,6 +614,33 @@ export function SunsetTownMap({ locale }: Props) {
               </article>
             )
           })}
+        </div>
+
+        {/* 12대 랜드마크 vs 전체 127곳 디렉토리 범위 안내 배너 */}
+        <div
+          style={{
+            marginTop: '24px',
+            padding: '16px 20px',
+            borderRadius: '14px',
+            background: '#f0fdfa',
+            border: '1px solid #99f6e4',
+            display: 'flex',
+            flexWrap: 'wrap',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            gap: '12px',
+          }}
+        >
+          <p style={{ margin: 0, fontSize: '0.9rem', color: '#134e4a', lineHeight: 1.55, flex: '1 1 320px' }}>
+            ℹ️ {(MAP_EXTRA_TEXTS[loc] || MAP_EXTRA_TEXTS.en).scopeNotice}
+          </p>
+          <Link
+            href={localePath(loc, '/zones/sunset-town')}
+            className="primaryButton"
+            style={{ padding: '10px 18px', fontSize: '0.88rem', whiteSpace: 'nowrap' }}
+          >
+            {(MAP_EXTRA_TEXTS[loc] || MAP_EXTRA_TEXTS.en).browseAllSunsetCta}
+          </Link>
         </div>
       </div>
 

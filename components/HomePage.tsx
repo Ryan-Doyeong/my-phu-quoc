@@ -162,9 +162,9 @@ const QUICK_SERVICES_REGISTRY: Record<QuickServiceKey, QuickServiceDefinition> =
   exchange: {
     key: 'exchange',
     labels: QUICK_CARD_EXCHANGE,
-    href: null,
+    href: '/directory/banking',
     iconWrapClass: 'iconWrapExchange',
-    disabled: true,
+    disabled: false,
     renderIcon: () => (
       <svg viewBox="0 0 36 36" fill="none" aria-hidden="true">
         <rect x="3" y="10" width="24" height="15" rx="3" fill="#10B981" />
@@ -467,8 +467,11 @@ export function HomePage({
     null
   const localizedEvent = activeEvent ? localizeStory(activeEvent, locale) : null
   const eventHref = localizedEvent?.slug
-    ? localePath(locale, `/news/${localizedEvent.slug}`)
-    : localePath(locale, '/news')
+    ? localePath(
+        locale,
+        `/${localizedEvent.content_type === 'event' ? 'events' : 'news'}/${localizedEvent.slug}`
+      )
+    : localePath(locale, '/events')
 
   const heroImage = '/hero/02_kiss_bridge_aerial_1920.webp'
 

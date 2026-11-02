@@ -352,9 +352,158 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
 
   return (
     <div className="tpRoot">
+      {/* 3-Step Guided Flow Header */}
+      <nav
+        aria-label={lang === 'ko' ? '일정 생성 3단계 안내' : '3-Step Trip Planning Flow'}
+        style={{
+          maxWidth: '1200px',
+          margin: '0 auto 18px',
+          padding: '12px 16px',
+          background: '#f8fafc',
+          border: '1px solid #e2e8f0',
+          borderRadius: '14px',
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))',
+          gap: '10px',
+        }}
+      >
+        <button
+          type="button"
+          onClick={() => {
+            setPanelOpen(true)
+            document.getElementById('tp-step-1')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+          }}
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+            padding: '10px 12px',
+            borderRadius: '10px',
+            border: '1px solid #cbd5e1',
+            background: '#ffffff',
+            textAlign: 'left',
+            cursor: 'pointer',
+          }}
+        >
+          <span
+            style={{
+              width: '26px',
+              height: '26px',
+              borderRadius: '50%',
+              background: '#0f766e',
+              color: '#fff',
+              fontWeight: 700,
+              fontSize: '0.8rem',
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              flexShrink: 0,
+            }}
+          >
+            1
+          </span>
+          <div>
+            <strong style={{ display: 'block', fontSize: '0.86rem', color: '#0f172a' }}>
+              {lang === 'ko' ? 'Step 1. 여행 조건 선택' : 'Step 1. Trip Conditions'}
+            </strong>
+            <small style={{ fontSize: '0.76rem', color: '#64748b' }}>
+              {lang === 'ko' ? '방문 날짜 · 인원 · 숙소 구역' : 'Dates · Guests · Stay Area'}
+            </small>
+          </div>
+        </button>
+
+        <button
+          type="button"
+          onClick={() => {
+            resultRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+          }}
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+            padding: '10px 12px',
+            borderRadius: '10px',
+            border: '1px solid #cbd5e1',
+            background: '#ffffff',
+            textAlign: 'left',
+            cursor: 'pointer',
+          }}
+        >
+          <span
+            style={{
+              width: '26px',
+              height: '26px',
+              borderRadius: '50%',
+              background: '#0f766e',
+              color: '#fff',
+              fontWeight: 700,
+              fontSize: '0.8rem',
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              flexShrink: 0,
+            }}
+          >
+            2
+          </span>
+          <div>
+            <strong style={{ display: 'block', fontSize: '0.86rem', color: '#0f172a' }}>
+              {lang === 'ko' ? 'Step 2. 추천 일정 확인·교체' : 'Step 2. Review & Customize'}
+            </strong>
+            <small style={{ fontSize: '0.76rem', color: '#64748b' }}>
+              {lang === 'ko' ? '시간대별 동선 · 공연 휴연일 검증' : 'Time-by-time route & show validation'}
+            </small>
+          </div>
+        </button>
+
+        <button
+          type="button"
+          onClick={() => setSheetOpen(true)}
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+            padding: '10px 12px',
+            borderRadius: '10px',
+            border: '1px solid #0f766e',
+            background: '#f0fdfa',
+            textAlign: 'left',
+            cursor: 'pointer',
+          }}
+        >
+          <span
+            style={{
+              width: '26px',
+              height: '26px',
+              borderRadius: '50%',
+              background: '#0f766e',
+              color: '#fff',
+              fontWeight: 700,
+              fontSize: '0.8rem',
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              flexShrink: 0,
+            }}
+          >
+            3
+          </span>
+          <div>
+            <strong style={{ display: 'block', fontSize: '0.86rem', color: '#0f766e' }}>
+              {lang === 'ko'
+                ? `Step 3. 예약·견적 문의 (${cart.length})`
+                : `Step 3. Book & Inquire (${cart.length})`}
+            </strong>
+            <small style={{ fontSize: '0.76rem', color: '#115e59' }}>
+              {lang === 'ko' ? 'WhatsApp · Zalo · 일정 복사' : 'WhatsApp · Zalo · Copy Plan'}
+            </small>
+          </div>
+        </button>
+      </nav>
+
       <div className="tpLayout">
         {/* ============ 조건 패널 ============ */}
-        <aside className={`tpPanel${panelOpen ? ' isOpen' : ''}`} aria-label={UI.conditions[lang]}>
+        <aside id="tp-step-1" className={`tpPanel${panelOpen ? ' isOpen' : ''}`} aria-label={UI.conditions[lang]}>
           <div className="tpPanelHead">
             <div>
               <h2 className="tpPanelTitle">{UI.conditions[lang]}</h2>

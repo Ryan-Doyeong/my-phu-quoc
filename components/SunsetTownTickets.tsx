@@ -180,19 +180,19 @@ export function SunsetTownTickets({ locale = 'en' }: SunsetTownTicketsProps) {
                     marginBottom: 16,
                   }}
                 >
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 8 }}>
                     <span style={{ fontSize: '0.8rem', color: '#0B7A8A', fontWeight: 700 }}>
-                      {t(UI_TEXT.klookBadge)}
+                      {ticket.priceLabel ? t(ticket.priceLabel) : t(UI_TEXT.klookBadge)}
                     </span>
-                    <div>
-                      <strong style={{ fontSize: '1.25rem', color: '#C86D2D', fontWeight: 800 }}>
+                    <div style={{ textAlign: 'right' }}>
+                      <strong style={{ fontSize: '1.15rem', color: '#C86D2D', fontWeight: 800 }}>
                         {locale === 'ko' ? ticket.klookPrice.krw : ticket.klookPrice.vnd}
                       </strong>
                     </div>
                   </div>
-                  <div style={{ fontSize: '0.75rem', color: '#7D9D9F', marginTop: 4 }}>
-                    {t(UI_TEXT.officialGate)}{' '}
-                    <span style={{ textDecoration: 'line-through' }}>
+                  <div style={{ fontSize: '0.75rem', color: '#527982', marginTop: 4 }}>
+                    {ticket.gateLabel ? t(ticket.gateLabel) : t(UI_TEXT.officialGate)}{' '}
+                    <span style={{ textDecoration: ticket.gateLabel ? 'none' : 'line-through', fontWeight: ticket.gateLabel ? 600 : 400 }}>
                       {locale === 'ko' ? ticket.officialPrice.krw : ticket.officialPrice.vnd}
                     </span>
                   </div>
@@ -220,25 +220,27 @@ export function SunsetTownTickets({ locale = 'en' }: SunsetTownTicketsProps) {
                 </div>
 
                 <div style={{ display: 'flex', gap: 8, marginTop: 'auto' }}>
-                  <a
-                    href={ticket.klookUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{
-                      flex: 2,
-                      textAlign: 'center',
-                      backgroundColor: '#0B7A8A',
-                      color: '#ffffff',
-                      padding: '10px 14px',
-                      borderRadius: 8,
-                      fontSize: '0.85rem',
-                      fontWeight: 700,
-                      textDecoration: 'none',
-                      transition: 'background-color 0.2s',
-                    }}
-                  >
-                    {t(UI_TEXT.bookOnKlook)}
-                  </a>
+                  {ticket.klookUrl ? (
+                    <a
+                      href={ticket.klookUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{
+                        flex: 2,
+                        textAlign: 'center',
+                        backgroundColor: '#0B7A8A',
+                        color: '#ffffff',
+                        padding: '10px 14px',
+                        borderRadius: 8,
+                        fontSize: '0.85rem',
+                        fontWeight: 700,
+                        textDecoration: 'none',
+                        transition: 'background-color 0.2s',
+                      }}
+                    >
+                      {ticket.klookCtaLabel ? t(ticket.klookCtaLabel) : t(UI_TEXT.bookOnKlook)}
+                    </a>
+                  ) : null}
                   <a
                     href={ticket.officialUrl}
                     target="_blank"
@@ -255,7 +257,7 @@ export function SunsetTownTickets({ locale = 'en' }: SunsetTownTicketsProps) {
                       textDecoration: 'none',
                     }}
                   >
-                    {t(UI_TEXT.officialSite)}
+                    {ticket.officialCtaLabel ? t(ticket.officialCtaLabel) : t(UI_TEXT.officialSite)}
                   </a>
                 </div>
               </div>

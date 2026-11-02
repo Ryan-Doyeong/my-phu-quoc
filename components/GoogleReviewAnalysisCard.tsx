@@ -152,7 +152,10 @@ export function GoogleReviewAnalysisCard({
       )}
 
       {/* Pros & Cons Columns Grid */}
-      <div className="reviewColsGrid">
+      <div
+        className="reviewColsGrid"
+        style={analysis.goodToKnow.length === 0 ? { gridTemplateColumns: '1fr' } : undefined}
+      >
         {/* Pros (+) */}
         <div className="reviewProsBox">
           <h3>
@@ -169,21 +172,23 @@ export function GoogleReviewAnalysisCard({
           </ul>
         </div>
 
-        {/* Cons & Good to Know (-) */}
-        <div className="reviewConsBox">
-          <h3>
-            <span aria-hidden="true">💡</span>
-            <span>{L.consTitle}</span>
-          </h3>
-          <ul className="reviewPointsList">
-            {analysis.goodToKnow.map((point, idx) => (
-              <li key={idx}>
-                <b aria-hidden="true">-</b>
-                <span>{point}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
+        {/* Cons & Good to Know (-) — Only displayed when verified review considerations exist */}
+        {analysis.goodToKnow.length > 0 && (
+          <div className="reviewConsBox">
+            <h3>
+              <span aria-hidden="true">💡</span>
+              <span>{L.consTitle}</span>
+            </h3>
+            <ul className="reviewPointsList">
+              {analysis.goodToKnow.map((point, idx) => (
+                <li key={idx}>
+                  <b aria-hidden="true">-</b>
+                  <span>{point}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
 
       {/* Real Visitor Review Snippets from Google Maps */}

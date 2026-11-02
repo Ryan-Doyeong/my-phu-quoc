@@ -72,6 +72,24 @@ export const SUBCATEGORY_DICTIONARY: Record<string, LocalizedSubcategory> = {
     ko: '레스토랑 · 식당',
     ja: 'レストラン',
   },
+  restaurant_and_lounge: {
+    en: 'Restaurant & Lounge',
+    vi: 'Nhà hàng & Lounge',
+    hi: 'रेस्तरां और लाउंज',
+    zh: '餐厅与酒廊',
+    ru: 'Ресторан и лаунж',
+    ko: '레스토랑 & 라운지',
+    ja: 'レストラン＆ラウンジ',
+  },
+  restaurant_lounge: {
+    en: 'Restaurant & Lounge',
+    vi: 'Nhà hàng & Lounge',
+    hi: 'रेस्तरां और लाउंज',
+    zh: '餐厅与酒廊',
+    ru: 'Ресторан и лаунж',
+    ko: '레스토랑 & 라운지',
+    ja: 'レストラン＆ラウンジ',
+  },
   fast_food: {
     en: 'Fast Food',
     vi: 'Thức ăn nhanh',
@@ -856,8 +874,15 @@ export const SUBCATEGORY_DICTIONARY: Record<string, LocalizedSubcategory> = {
  */
 export function translateSubcategory(subcat: string | null | undefined, locale: Locale = 'en'): string {
   if (!subcat) return ''
-  const key = subcat.trim().toLowerCase().replaceAll('-', '_').replaceAll('&', '').replaceAll(' ', '_').replace(/_+/g, '_')
-  const item = SUBCATEGORY_DICTIONARY[key]
-  if (!item) return subcat
+  const key = subcat.trim().toLowerCase().replaceAll('-', '_').replaceAll('&', 'and').replaceAll(' ', '_').replace(/_+/g, '_')
+  const altKey = subcat.trim().toLowerCase().replaceAll('-', '_').replaceAll('&', '').replaceAll(' ', '_').replace(/_+/g, '_')
+  const item = SUBCATEGORY_DICTIONARY[key] || SUBCATEGORY_DICTIONARY[altKey]
+  if (!item) {
+    return subcat
+      .replace(/_/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .replace(/\b\w/g, (c) => c.toUpperCase())
+  }
   return item[locale] || item.en || subcat
 }

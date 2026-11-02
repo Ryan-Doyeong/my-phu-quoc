@@ -226,6 +226,15 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
         },
       ]
 
+  const whatsappPrefillText = isBuggy
+    ? locale === 'ko'
+      ? '안녕하세요! 마이푸꾸옥 선셋타운 전동 버기 투어 예약·견적 문의드립니다. (방문 날짜 / 인원 / 희망 시간대): '
+      : 'Hello! I would like to inquire about the Sunset Town Private Buggy Tour on My Phu Quoc. (Date / Guests / Preferred Time): '
+    : locale === 'ko'
+      ? '안녕하세요! 마이푸꾸옥 전용 차량(택시) 투어 예약·견적 문의드립니다. (방문 날짜 / 인원 / 코스): '
+      : 'Hello! I would like to inquire about the Private Car/Taxi Tour on My Phu Quoc. (Date / Guests / Route): '
+  const whatsappTourUrl = `${CONTACT_CONFIG.whatsappUrl}?text=${encodeURIComponent(whatsappPrefillText)}`
+
   return (
     <div className="tourLandingWrap">
       {/* Site Header (Common) */}
@@ -329,7 +338,7 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
 
           <div className="tourContactButtonsLarge">
             <a
-              href={CONTACT_CONFIG.whatsappUrl}
+              href={whatsappTourUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="tourBtnLarge tourBtnWhatsapp"
@@ -363,7 +372,7 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
           </div>
           <div className="tourFixedBtnRow">
             <a
-              href={CONTACT_CONFIG.whatsappUrl}
+              href={whatsappTourUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="tourFixedBtn whatsapp"
@@ -391,7 +400,7 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
       {/* ⑤ Fixed Bottom Bar (Mobile) */}
       <div className="tourMobileFixedBar" role="region" aria-label="Mobile quick contact">
         <a
-          href={CONTACT_CONFIG.whatsappUrl}
+          href={whatsappTourUrl}
           target="_blank"
           rel="noopener noreferrer"
           className="tourMobileFixedBtn whatsapp"

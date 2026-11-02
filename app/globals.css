@@ -2440,4 +2440,28 @@ html[lang="hi"] .sectionIntro h2, html[lang="hi"] .businessPrimaryTitle {
   white-space: nowrap;
 }
 
+/* Modern Web Guidance: Defer rendering of offscreen below-the-fold sections & ensure mobile touch ergonomics */
+.stories,
+.newsletterBand,
+.participation,
+.closing,
+.landmarksGrid {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 500px;
+}
+
+@media (max-width: 760px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  .serviceCard,
+  .heroTwinBtn,
+  .landmarkCardBtn,
+  .eventSearchSubmitBtn {
+    min-height: 44px;
+    touch-action: manipulation;
+  }
+}
+
+
 
