@@ -17,6 +17,7 @@ import { SunsetTownMap } from '@/components/SunsetTownMapClient'
 import {
   DIRECTORY_CATEGORIES,
   DIRECTORY_CATEGORY_KEYS,
+  getCategoryPublishedCount,
   categoryLabel,
   categoryEyebrow,
   categoryDescription,
@@ -25,7 +26,7 @@ import {
   type DirectoryCategory,
 } from '@/lib/directory'
 import { STOCK_IMAGES } from '@/lib/stockImages'
-import { tUi } from '@/lib/i18n/uiStrings'
+import { tUi, HERO_IMAGE_ALT, QUICK_CARD_SUBLABELS, NAV_ZONE_LABELS, pickLocale } from '@/lib/i18n/uiStrings'
 import { imageUrl } from '@/lib/imageUrl'
 import type { HomeSections } from '@/lib/homeSections'
 import { localePath, dateLocaleFor, type Locale } from '@/lib/i18n/config'
@@ -138,7 +139,6 @@ export const QUICK_SERVICE_ORDER: QuickServiceKey[] = [
   'events',       // 4. 이벤트
   'activities',   // 5. 액티비티
   'emergency',    // 6. 긴급상황
-  'itineraries',  // 7. 추천 테마 일정
 ]
 
 interface QuickServiceDefinition {
@@ -584,6 +584,33 @@ export function HomePage({
               )
             })}
           </div>
+
+          {/* 2-B. 추천 테마 일정 대형 세로 배너 (서비스 의뢰 입구 · 부제목은 임시 자리표시, 확정 문구 추후 반영) */}
+          {(() => {
+            const def = QUICK_SERVICES_REGISTRY.itineraries
+            if (!def) return null
+            const label = def.labels[locale] || def.labels.en
+            const subLabel = QUICK_CARD_SUBLABELS.itineraries
+              ? pickLocale(QUICK_CARD_SUBLABELS.itineraries, locale)
+              : ''
+
+            return (
+              <Link
+                href={localePath(locale, def.href || '/itineraries')}
+                className="itinerariesBannerCard"
+                id="card-itineraries"
+                title={label}
+              >
+                <div className={`cardIconWrap ${def.iconWrapClass} itinerariesBannerIconWrap`}>
+                  {def.renderIcon()}
+                </div>
+                <div className="itinerariesBannerBody">
+                  <div className="cardLabel itinerariesBannerTitle">{label}</div>
+                  {subLabel && <div className="cardSub itinerariesBannerSub">{subLabel}</div>}
+                </div>
+              </Link>
+            )
+          })()}
         </section>
 
         {/* 3. Text, Search & Twin Buttons */}
@@ -885,16 +912,21 @@ export function HomePage({
               </div>
             </div>
             <div className="categoryCards categoryCardsFive">
-              {DIRECTORY_CATEGORY_KEYS.map((key) => {
+              {DIRECTORY_CATEGORY_KEYS.filter((key) => getCategoryPublishedCount(key) > 0).map((key) => {
                 const c = DIRECTORY_CATEGORIES[key]
                 const icon = categoryAppearance[key]
                 const locLabel = categoryLabel(key, locale)
                 const locEyebrow = categoryEyebrow(key, locale)
                 const locDesc = categoryDescription(key, locale)
-                const href = key === 'hotels' ? '/hotels' : `/directory/${key}`
+                const href =
+                  key === 'hotels'
+                    ? localePath(locale, '/hotels')
+                    : key === 'activities'
+                    ? localePath(locale, '/activities')
+                    : localePath(locale, `/directory/${key}`)
                 return (
                   <Link
-                    href={localePath(locale, href)}
+                    href={href}
                     key={key}
                     data-analytics-type="category"
                     data-analytics-id={key}

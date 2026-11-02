@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next'
 import { createPublicClient } from '@/lib/supabase/public'
-import { DIRECTORY_CATEGORY_KEYS, HIDDEN_BUSINESS_SLUGS } from '@/lib/directory'
+import { DIRECTORY_CATEGORY_KEYS, getCategoryPublishedCount, HIDDEN_BUSINESS_SLUGS } from '@/lib/directory'
 import { PUBLISHED_EVENTS } from '@/lib/eventSamples'
 import { storyAvailableLocales } from '@/lib/i18n/dictionaries'
 import { LOCALES, buildAlternates, localeUrl, type Locale } from '@/lib/i18n/config'
@@ -16,7 +16,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/',
     '/zones/sunset-town',
     '/zones/khem-beach',
-    ...DIRECTORY_CATEGORY_KEYS.map((key) => `/directory/${key}`),
+    '/hotels',
+    ...DIRECTORY_CATEGORY_KEYS.filter((key) => key !== 'hotels' && getCategoryPublishedCount(key) > 0).map((key) =>
+      key === 'activities' ? '/activities' : `/directory/${key}`
+    ),
     '/news',
     '/events',
     '/about',
@@ -45,11 +48,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // 2) Published businesses exist in all all 7 locales with localized UI/curation
     const { data: businesses } = await supabase
       .from('businesses')
-      .select('slug, updated_at')
+      .select('slug, updated_at, category')
       .eq('status', 'published')
 
     if (businesses) {
       businesses.forEach((b: any) => {
+        // 사장님 지시: 호텔 카테고리 개별 업체 상세 페이지 및 개별 액티비티 15곳은 사이트맵에서 제외
+        if (b.category === 'hotels' || b.category === 'activities') return
         let bSlug = b.slug
         if (bSlug === "sunset-house-phu-quoc-buggy-sevices") bSlug = "sunset-house-phu-quoc-buggy-services"
         if (bSlug === "l-a-hillside-aparment-sunset-town-phu-quoc") bSlug = "l-a-hillside-apartment-sunset-town-phu-quoc"

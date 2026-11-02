@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { Logo } from './Logo'
-import { DIRECTORY_CATEGORY_KEYS, categoryLabel } from '@/lib/directory'
+import { DIRECTORY_CATEGORY_KEYS, getCategoryPublishedCount, categoryLabel } from '@/lib/directory'
 import { localePath, stripLocalePrefix } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
 import { tUi } from '@/lib/i18n/uiStrings'
@@ -22,14 +22,20 @@ export function SiteFooter() {
     <footer>
       <Logo locale={locale} />
       <nav>
-        {DIRECTORY_CATEGORY_KEYS.map((key) => {
-          const href = key === 'hotels' ? '/hotels' : `/directory/${key}`
-          return (
-            <Link href={localePath(locale, href)} key={key}>
-              {categoryLabel(key, locale)}
-            </Link>
-          )
-        })}
+        {DIRECTORY_CATEGORY_KEYS.filter((key) => getCategoryPublishedCount(key) > 0).map((key) => (
+          <Link
+            href={
+              key === 'hotels'
+                ? localePath(locale, '/hotels')
+                : key === 'activities'
+                ? localePath(locale, '/activities')
+                : localePath(locale, `/directory/${key}`)
+            }
+            key={key}
+          >
+            {categoryLabel(key, locale)}
+          </Link>
+        ))}
         <Link href={localePath(locale, '/map')}>{locale === 'ko' ? '🗺️ 선셋타운 지도' : locale === 'vi' ? '🗺️ Bản đồ thị trấn' : tUi('🗺️  Town Map', locale)}</Link>
         <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
         <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
