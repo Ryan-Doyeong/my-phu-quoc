@@ -1,3 +1,10 @@
+/**
+ * [MANDATORY RULE 준수 - 2026-11-01, Ryan 지시 반영]
+ * - SNS(페이스북·인스타그램·틱톡·블로그 등) 출처 데이터 수집 전면 금지
+ * - 상호명 및 시설 기본 정보는 반드시 구글맵(Google Maps) 등록 정보 우선 준수
+ * - 임의의 SNS 링크 수집 시 validation warning 발생 및 null 처리 배제
+ */
+
 // scripts/collect_cover_photos.mjs
 // Ryan 결정 및 Claude 수정 지시 3차 준수:
 // 1순위: 업체 공식 홈페이지(website_url) 또는 공식 SNS(instagram_url 등)에 이미 올라와 있는 실제 사진을 타이틀 사진으로 사용.

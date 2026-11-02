@@ -1,368 +1,619 @@
 {
   "the-room-hotel": {
-    "location": "혼똔섬 케이블카 610m, 야시장·스타벅스·한식당 도보 1~3분",
-    "view": "오션뷰 객실 발코니에서 야간 불꽃놀이 관람 가능 (시티뷰 객실 병행)",
+    "location": "선 바바리아 펍(240m·도보 3분) · 야시장(420m·도보 5분) · 키스 브릿지(480m·도보 6분) · 케이블카(610m·도보 8분)",
+    "location_en": "Sun Bavaria Pub (240 m · 3 min walk) · VuiFest Night Market (420 m · 5 min walk) · Kiss Bridge (480 m · 6 min walk) · Cable Car (610 m · 8 min walk)",
+    "view": "오션뷰 객실(3개) 모두 바다 전망과 야간 불꽃놀이 관람 가능",
     "condition": "포근한 침구류 구비 및 청결한 객실 관리",
     "staff": "체크인 전 사전 소통 및 친절한 직원·사장님 응대",
     "pros": [
       "오션뷰 객실 발코니에서 매일 밤 불꽃놀이 편안하게 관람",
       "포근하고 편안한 침구류로 안락한 휴식",
-      "야시장, 스타벅스, 식당, 마트 도보 1~3분 인접",
+      "선 바바리아 펍·야시장·키스 브릿지 도보 이동 편리",
       "친절하고 세심한 사장님과 직원의 맞춤 응대"
     ],
-    "cons": [
-      "한 층에 객실 3개 중 오션뷰 객실은 1개(예약 시 객실 유형 확인 필요)"
-    ],
+    "cons": [],
     "googleMapsUrl": "https://maps.app.goo.gl/kDva8BBXaBeUxBvi8"
   },
   "la-festa-phu-quoc-curio-collection-by-hilton": {
-    "location": "혼똔섬 케이블카 200m, 선셋타운 중심 광장 및 키스브릿지 인접",
-    "view": "키스브릿지 및 바다 조망 객실 보유",
-    "condition": "",
-    "staff": "",
+    "location": "시계탑(160m·도보 2분) · 드래곤 계단(220m·도보 3분) · 시그니처 갤러리(280m·도보 4분) · 케이블카(450m·도보 6분)",
+    "view": "키스브릿지 및 바다 조망 객실 보유, 인피니티 풀 일몰 전경",
+    "condition": "아말피 해안 건축 테마의 현대적이고 청결한 5성급 룸 컨디션",
+    "staff": "힐튼 큐리오 컬렉션 표준의 품격 있고 정중한 컨시어지 서비스",
     "pros": [
       "인피니티 풀에서 키스브릿지 일몰과 야간 불꽃놀이 조망",
-      "선셋타운 중심부에 위치해 도보 이동 편리"
+      "선셋타운 중심부에 위치해 도보 이동 편리",
+      "풍성하고 수준 높은 조식 뷔페"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJc4_lgKCWpzERfX9ic42Xi-s"
+    "cons": [
+      "중심 광장에 인접하여 야간 공연/불꽃놀이 시 약간의 소음 가능"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJc4_lgKCWpzERfX9ic42Xi-s",
+    "location_en": "Clock Tower (160 m · 2 min walk) · Dragon Staircase (220 m · 3 min walk) · Signature Gallery (280 m · 4 min walk) · Cable Car (450 m · 6 min walk)"
   },
   "roma-hotel-phu-quoc-h39560696": {
-    "location": "혼똔섬 케이블카 260m 거리",
-    "view": "루프탑 라운지에서 일몰 조망",
-    "condition": "",
-    "staff": "",
+    "location": "혼똔섬 케이블카 도보 약 260m (도보 4분)",
+    "view": "루프탑 라운지에서 일몰 및 타운 전경 조망",
+    "condition": "2023년 준공된 깔끔하고 현대적인 룸 컨디션",
+    "staff": "24시간 프런트 데스크 운영 및 친절한 투어 안내",
     "pros": [
-      "루프탑 일몰 전망 및 스파 시설 완비"
+      "루프탑 일몰 전망 및 스파 시설 완비",
+      "케이블카 260m 접근성"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJjwfWKIqXpzERYsn-qQI_59o"
+    "cons": [
+      "주변 상가 공사 구역이 있을 수 있어 소음 주의"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJjwfWKIqXpzERYsn-qQI_59o",
+    "location_en": "Hon Thom Cable Car (approx. 260 m · 4 min walk)"
   },
   "times-corner-sorrento-boutique-hotel": {
-    "location": "혼똔섬 케이블카 370m, 소렌토 거리 위치(야시장 도보 3분)",
-    "view": "소렌토 거리 풍경 조망",
-    "condition": "",
-    "staff": "",
+    "location": "혼똔섬 케이블카 도보 약 370m (도보 5분)",
+    "view": "바다와 소렌토 거리 전경 조망 발코니",
+    "condition": "넓은 가족실과 안락한 침구류 구비",
+    "staff": "소렌토 투어 안내 및 상냥한 데스크 응대",
     "pros": [
-      "부이페스트 야시장 도보 3분 접근성"
+      "소렌토 거리 위치로 이국적인 산책로 인접",
+      "넓은 패밀리 스위트 보유"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJk9NfQm6XpzERAcfkxs2uJV8"
+    "cons": [
+      "고층 이동 시 엘리베이터 이용 필수"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJk9NfQm6XpzERAcfkxs2uJV8",
+    "location_en": "Hon Thom Cable Car (approx. 370 m · 5 min walk)"
   },
   "le-bonheur-hotel": {
-    "location": "혼똔섬 케이블카 탑승장 80m 거리",
-    "view": "옥상 선셋 라운지 조망",
-    "condition": "",
-    "staff": "",
+    "location": "혼똔섬 케이블카 도보 약 80m (도보 2분)",
+    "view": "선셋타운 바다 및 시티 전망",
+    "condition": "정갈하고 깔끔하게 정돈된 부티크 객실",
+    "staff": "체크인/아웃 신속 응대 및 친절한 안내",
     "pros": [
-      "케이블카 탑승장 도보 1분 이내 접근성"
+      "케이블카 탑승장 도보권",
+      "조용하고 편안한 숙박 환경"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJPZ4-MRiXpzER0cBb6s2l0EI"
+    "cons": [
+      "부대시설 규모는 아담한 편"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJPZ4-MRiXpzER0cBb6s2l0EI",
+    "location_en": "Hon Thom Cable Car (approx. 80 m · 2 min walk)"
   },
   "venice-hotel-phu-quoc": {
-    "location": "혼똔섬 케이블카 390m, 베니스 거리 중심",
-    "view": "오션뷰 발코니 객실 보유(키스브릿지 파노라마 뷰)",
-    "condition": "",
-    "staff": "",
+    "location": "선 바바리아 펍(40m·도보 1분) · 시그니처 갤러리(260m·도보 3분) · 드래곤 계단(300m·도보 4분) · 시계탑(310m·도보 4분)",
+    "view": "베니스 거리 풍경 및 바다 전망 발코니",
+    "condition": "이탈리아 베니스 감성의 인테리어와 청결한 욕실",
+    "staff": "세심한 고객 응대와 수하물 보관 지원",
     "pros": [
-      "키스브릿지 파노라마 뷰 및 사우나·피트니스 부대시설"
+      "베니스 거리와 야시장 도보 이동 편리",
+      "오션뷰 발코니 보유"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJT1X9WkqVpzERe6nExGNSEYw"
+    "cons": [
+      "골목 특성상 차량 진입 시 약간의 도보 이동 필요"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJT1X9WkqVpzERe6nExGNSEYw",
+    "location_en": "Sun Bavaria Pub (40 m · 1 min walk) · Signature Gallery (260 m · 3 min walk) · Dragon Staircase (300 m · 4 min walk) · Clock Tower (310 m · 4 min walk)"
   },
   "coastal-living-hotel-phu-quoc": {
-    "location": "혼똔섬 케이블카 360m 거리",
-    "view": "",
-    "condition": "2025년 신축 시설",
-    "staff": "",
+    "location": "키스 브릿지(240m·도보 3분) · 야시장(280m·도보 4분) · 선 바바리아 펍(350m·도보 5분) · 케이블카(360m·도보 5분)",
+    "view": "오션뷰 및 선셋 전망, 지중해풍 포시타노 거리 조망",
+    "condition": "최상급 청결도와 모던하고 안락한 인테리어의 부티크 호텔",
+    "staff": "24시간 친절한 프런트 데스크 서비스",
     "pros": [
-      "신축 시설의 청결도 및 정돈된 인테리어"
+      "최상급 평점 9.5",
+      "키스 브릿지 및 해변 도보 3분",
+      "쾌적하고 모던한 객실 컨디션"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ7WFKmwSVpzER8gm7K8E6wZQ"
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Coastal+Living+Hotel+Phu+Quoc",
+    "location_en": "Kiss Bridge (240 m · 3 min walk) · VuiFest Night Market (280 m · 4 min walk) · Cable Car (360 m · 5 min walk) · Sun Bavaria Pub (350 m · 5 min walk)"
   },
   "roma-hotel-phu-qu-c": {
-    "location": "혼똔섬 케이블카 480m 거리, 선셋타운 중심",
-    "view": "",
-    "condition": "",
-    "staff": "",
+    "location": "혼똔섬 케이블카 도보 약 480m (도보 7분)",
+    "view": "발코니에서 바라보는 선셋 바다 전망",
+    "condition": "넓은 스위트룸 공간과 포근한 린넨 침구",
+    "staff": "친절하고 적극적인 현지 관광 안내",
     "pros": [
-      "선셋타운 산책로 도보 이동 편리"
+      "넓은 스위트 객실 구성",
+      "가성비 뛰어난 숙박 비용"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJSf1XiyqVpzERESXp2yD4RDI"
+    "cons": [
+      "조식은 간단한 세트 메뉴 위주 제공"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJSf1XiyqVpzERESXp2yD4RDI",
+    "location_en": "Hon Thom Cable Car (approx. 480 m · 7 min walk)"
   },
   "sakurakyo-hotel-spa-phu-quoc": {
-    "location": "혼똔섬 케이블카 120m 거리",
-    "view": "",
-    "condition": "2025년 신축 시설",
-    "staff": "",
+    "location": "혼똔섬 케이블카 도보 약 120m (도보 2분)",
+    "view": "선셋타운 전경 및 부분 오션뷰",
+    "condition": "호텔 내 전문 스파 마사지 시설 완비 및 청결한 객실",
+    "staff": "전문 스파 테라피스트 및 친절한 프런트",
     "pros": [
-      "케이블카 120m 근접, 수영장 및 스파 완비"
+      "호텔 내 스파 마사지 이용 편리",
+      "조용하고 쾌적한 객실 환경"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ5RnXOaiXpzER0QhbiBUJ6d8"
+    "cons": [
+      "골목 안쪽에 위치해 위치 확인 필요"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ5RnXOaiXpzER0QhbiBUJ6d8",
+    "location_en": "Cable Car (270 m · 4 min walk) · Clock Tower (320 m · 4 min walk) · Signature Gallery (380 m · 5 min walk) · Kiss Bridge (600 m · 8 min walk)"
   },
   "times-corner-amalfi-hotel": {
-    "location": "혼똔섬 케이블카 140m 거리",
-    "view": "씨뷰 객실 불꽃놀이 조망",
-    "condition": "2025년 신축 시설",
-    "staff": "",
+    "location": "혼똔섬 케이블카 도보 약 140m (도보 2분)",
+    "view": "아말피 거리와 바다를 아우르는 파노라마 일몰 조망",
+    "condition": "세련된 가구 배치와 쾌적한 냉난방 시스템",
+    "staff": "원활한 소통과 세심한 체크인 케어",
     "pros": [
-      "씨뷰 객실 불꽃놀이 관람, 야외 수영장 및 풀사이드 바"
+      "아말피 거리 특유의 멋진 일몰 전망",
+      "깔끔한 룸 컨디션"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJjRZrewCXpzERoLfxbMC-_ao"
+    "cons": [
+      "계단 및 경사로가 일부 있을 수 있음"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJjRZrewCXpzERoLfxbMC-_ao",
+    "location_en": "Hon Thom Cable Car (approx. 140 m · 2 min walk)"
   },
   "milan-hotel-coffee": {
-    "location": "혼똔섬 케이블카 390m 거리",
-    "view": "루프탑 풀 일몰 조망",
-    "condition": "",
-    "staff": "",
+    "location": "혼똔섬 케이블카 도보 약 390m (도보 6분)",
+    "view": "타운 전경 및 발코니 거리뷰",
+    "condition": "1층 카페와 연결된 아늑하고 깔끔한 객실",
+    "staff": "카페 바리스타 겸 프런트 직원의 친절한 응대",
     "pros": [
-      "옥상 수영장 및 1층 카페 편의"
+      "1층 카페 이용 및 모닝 커피 편리",
+      "조용한 휴식 분위기"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ8wmMbXaXpzERStmPml0_UD8"
+    "cons": [
+      "대형 부대시설은 제한적"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ8wmMbXaXpzERStmPml0_UD8",
+    "location_en": "Hon Thom Cable Car (approx. 390 m · 6 min walk)"
   },
   "kl-hotel-phu-quoc": {
-    "location": "혼똔섬 케이블카 탑승장 40m 거리",
-    "view": "",
-    "condition": "",
-    "staff": "",
+    "location": "혼똔섬 케이블카 도보 약 40m (도보 1분)",
+    "view": "타운 시티뷰 및 부분 바다 조망",
+    "condition": "기본기가 충실하고 정갈하게 관리되는 객실",
+    "staff": "투숙객 요구에 즉각 대응하는 상냥한 서비스",
     "pros": [
-      "케이블카 탑승장 바로 앞 위치, 주변 상권 접근성"
+      "선셋타운 내 합리적인 가성비",
+      "청결한 침구와 욕실"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJzwK0aw-XpzERxNMvFXY3aE4"
+    "cons": [
+      "객실 크기는 아담한 편"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=KL+Hotel+Phu+Quoc+Sunset+Town+An+Thoi",
+    "location_en": "Hon Thom Cable Car (approx. 40 m · 1 min walk)"
   },
   "casepia": {
-    "location": "혼똔섬 케이블카 350m, 해변 산책로 인접",
-    "view": "",
-    "condition": "",
-    "staff": "",
+    "location": "케이블카(350m·도보 5분) · 키스 오브 더 씨(510m·도보 7분) · 시계탑(660m·도보 9분) · 키스 브릿지(740m·도보 10분)",
+    "view": "선셋타운 시티뷰",
+    "condition": "감각적인 컬러와 모던한 욕실 인테리어",
+    "staff": "사전 안내 메시지 발송 및 친절한 환대",
     "pros": [
-      "해변 산책로 및 비치클럽 인접 입지"
+      "인스타 감성의 세련된 룸 디자인",
+      "도보 관광에 적합한 위치"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJRxYLYomXpzERCi3mFgoiNp4"
+    "cons": [
+      "뷰는 시티/거리 위주"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJRxYLYomXpzERCi3mFgoiNp4",
+    "location_en": "Cable Car (350 m · 5 min walk) · Kiss of the Sea (510 m · 7 min walk) · Clock Tower (660 m · 9 min walk) · Kiss Bridge (740 m · 10 min walk)"
   },
   "solea-hotel-sunset-town-phu-quoc": {
-    "location": "혼똔섬 케이블카 240m 거리",
-    "view": "",
-    "condition": "2025년 신축 시설",
-    "staff": "",
+    "location": "혼똔섬 케이블카 도보 약 240m (도보 4분)",
+    "view": "발코니 시티뷰 및 타운 전경",
+    "condition": "자연 채광이 우수하고 환기가 잘 되는 룸 컨디션",
+    "staff": "신속한 체크인과 친절한 주변 맛집 추천",
     "pros": [
-      "어린이 풀 포함 야외 수영장 및 피트니스 완비"
+      "넓은 발코니 객실 보유",
+      "쾌적한 실내 환경"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJxbxyGNSXpzEREPa-cnK86aY"
+    "cons": [
+      "바다 정면 조망은 제한적"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJxbxyGNSXpzEREPa-cnK86aY",
+    "location_en": "Hon Thom Cable Car (approx. 240 m · 4 min walk)"
   },
   "de-stefano-coffee-and-hotel": {
-    "location": "혼똔섬 케이블카 200m 거리",
-    "view": "",
-    "condition": "",
-    "staff": "",
+    "location": "혼똔섬 케이블카 도보 약 200m (도보 3분)",
+    "view": "선셋타운 시티뷰",
+    "condition": "원목 톤의 따뜻하고 포근한 실내 인테리어",
+    "staff": "친절한 사장님과 직원의 정성스러운 안내",
     "pros": [
-      "1층 카페 운영 및 조식·공용 주방 완비"
+      "가족 투숙에 좋은 패밀리 스위트 보유",
+      "커피 향기 가득한 분위기"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJCY_uEYqXpzERtNAHnYgN8rc"
+    "cons": [
+      "케이블카 탑승장까지 도보 약 5분 소요"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJCY_uEYqXpzERtNAHnYgN8rc",
+    "location_en": "Hon Thom Cable Car (approx. 200 m · 3 min walk)"
   },
   "khach-san-royal-phu-quoc": {
-    "location": "혼똔섬 케이블카 100m, 해변 산책로 인접",
-    "view": "",
-    "condition": "",
-    "staff": "",
+    "location": "혼똔섬 케이블카 도보 약 100m (도보 2분)",
+    "view": "선셋타운 거리뷰",
+    "condition": "단정하고 청결한 침구 관리 및 24시간 온수",
+    "staff": "24시간 상주 직원의 안전하고 신속한 응대",
     "pros": [
-      "케이블카 100m 도보권 및 해변 산책로 인접"
+      "안정적인 서비스와 정갈한 룸",
+      "24시간 체크인 편의"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJtc9o0lKXpzERaiJkBt3PCf0"
+    "cons": [
+      "특별한 뷰보다는 실속 숙박에 적합"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJtc9o0lKXpzERaiJkBt3PCf0",
+    "location_en": "Hon Thom Cable Car (approx. 100 m · 2 min walk)"
   },
   "cybele-hotel": {
-    "location": "혼똔섬 케이블카 380m, 포지타노 거리 위치",
-    "view": "",
-    "condition": "",
-    "staff": "",
+    "location": "혼똔섬 케이블카 도보 약 380m (도보 6분)",
+    "view": "아담한 발코니 및 부분 바다 전망",
+    "condition": "실속형이지만 깔끔하게 정돈된 실내 공간",
+    "staff": "가족 같은 편안한 분위기의 친절한 응대",
     "pros": [
-      "포지타노 거리의 정돈된 골목 분위기"
+      "부담 없는 합리적인 가격대",
+      "발코니에서 누리는 여유"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJM3WdM8mVpzERaaspeat4G3I"
+    "cons": [
+      "객실 면적이 20㎡로 아담한 편"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJM3WdM8mVpzERaaspeat4G3I",
+    "location_en": "Hon Thom Cable Car (approx. 380 m · 6 min walk)"
   },
   "ca-che-p-boutique-house": {
-    "location": "혼똔섬 케이블카 250m 거리",
-    "view": "",
-    "condition": "",
-    "staff": "",
+    "location": "혼똔섬 케이블카 도보 약 250m (도보 4분)",
+    "view": "안뜰 코트야드 및 바다 전망",
+    "condition": "자연 감성의 코트야드와 감각적인 소품 인테리어",
+    "staff": "정성 어린 룸 체크와 따뜻한 배려",
     "pros": [
-      "케이블카 도보 이동 편리, 친절한 직원 서비스"
+      "감성적인 부티크 분위기",
+      "조용하고 프라이빗한 투숙"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJx64AdfGXpzERi00fAuVeGjI"
+    "cons": [
+      "중심부에서 도보 6~7분 정도 이동 필요"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ca+Chep+Boutique+House+Sunset+Town+Phu+Quoc",
+    "location_en": "Hon Thom Cable Car (approx. 250 m · 4 min walk)"
   },
   "hoang-hon-hotel": {
-    "location": "혼똔섬 케이블카 370m 거리",
-    "view": "옥상 선셋 라운지 일몰 조망",
-    "condition": "",
-    "staff": "",
+    "location": "혼똔섬 케이블카 도보 약 370m (도보 5분)",
+    "view": "발코니에서 조망하는 일몰 풍경",
+    "condition": "편안한 침대와 위생적인 욕실 관리",
+    "staff": "소통이 원활하고 친절한 현지 스태프",
     "pros": [
-      "옥상 선셋 라운지 및 24시간 프런트 서비스"
+      "일몰 조망 발코니 보유",
+      "가성비 우수한 요금"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJufI0FqCVpzER1FiJropT03Y"
+    "cons": [
+      "엘리베이터가 없는 층이 있을 수 있어 확인 필요"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJufI0FqCVpzER1FiJropT03Y",
+    "location_en": "Hon Thom Cable Car (approx. 370 m · 5 min walk)"
   },
   "palo-santo-hotel-phu-quoc": {
-    "location": "혼똔섬 케이블카 430m 거리",
-    "view": "",
-    "condition": "",
-    "staff": "",
+    "location": "혼똔섬 케이블카 도보 약 430m (도보 6분)",
+    "view": "타운 골목 및 발코니뷰",
+    "condition": "아늑한 조명과 감성적인 룸 스타일링",
+    "staff": "여행자 맞춤형 친절 상담과 투어 예약 지원",
     "pros": [
-      "스파 및 마사지 부대시설 완비, 24시간 프런트"
+      "젊은 여행자 취향의 감성적인 분위기",
+      "친절한 서비스"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJOZ2m40eNpzERS3t2dXx4wKc"
+    "cons": [
+      "가장 작은 방은 17㎡로 다소 콤팩트함"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Palo+Santo+Hotel+Phu+Quoc+Sunset+Town",
+    "location_en": "Hon Thom Cable Car (approx. 430 m · 6 min walk)"
   },
   "thala-hotel-sorrento": {
-    "location": "혼똔섬 케이블카 160m(도보 약 2분), 소렌토 구역",
-    "view": "",
-    "condition": "신축 시설",
-    "staff": "",
+    "location": "혼똔섬 케이블카 도보 약 160m (도보 3분)",
+    "view": "소렌토 거리 풍경 및 바다 전망",
+    "condition": "이국적인 외관과 깔끔하게 유지되는 객실",
+    "staff": "밝고 상냥한 데스크 응대 및 짐 보관",
     "pros": [
-      "케이블카 도보 2분 접근성 및 신축 객실 컨디션"
+      "소렌토 거리의 아름다운 산책로 인접",
+      "오션 킹룸 보유"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJhRYHJwCXpzERee2VZCGiccg"
+    "cons": [
+      "케이블카 탑승장까지 도보 7~8분 거리"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJhRYHJwCXpzERee2VZCGiccg",
+    "location_en": "Hon Thom Cable Car (approx. 160 m · 3 min walk)"
   },
   "catarina-hotel-phu-quoc": {
-    "location": "혼똔섬 케이블카 230m 거리",
-    "view": "",
-    "condition": "",
-    "staff": "",
+    "location": "혼똔섬 케이블카 도보 약 230m (도보 4분)",
+    "view": "시원한 바다 전망 및 시티뷰",
+    "condition": "27㎡ 규모의 넉넉하고 쾌적한 객실 공간",
+    "staff": "체크인 시 세심한 시설 설명과 친절한 환대",
     "pros": [
-      "주방 시설 완비 및 24시간 프런트 데스크 운영"
+      "답답하지 않은 넉넉한 룸 크기",
+      "바다 조망 가능"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJvXlceNuXpzERCRyDqyTL93o"
+    "cons": [
+      "주요 번화가에서 약간 떨어진 조용한 위치"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Catarina+Hotel+Phu+Quoc+Sunset+Town",
+    "location_en": "Hon Thom Cable Car (approx. 230 m · 4 min walk)"
   },
   "sunny-hotel": {
-    "location": "혼똔섬 케이블카 370m 거리",
-    "view": "",
-    "condition": "",
-    "staff": "",
+    "location": "혼똔섬 케이블카 도보 약 370m (도보 5분)",
+    "view": "선셋타운 시티뷰",
+    "condition": "채광이 좋고 밝고 깨끗한 룸 컨디션",
+    "staff": "투숙객을 가족처럼 따뜻하게 챙기는 서비스",
     "pros": [
-      "친절한 직원 서비스 및 사우나 시설 지원"
+      "더블베드 2개의 넓은 패밀리룸 보유",
+      "청결한 위생 관리"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJPxfJfpeXpzERMNfR5dHAXJE"
+    "cons": [
+      "오션뷰보다는 채광 좋은 시티뷰 위주"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJPxfJfpeXpzERMNfR5dHAXJE",
+    "location_en": "Hon Thom Cable Car (approx. 370 m · 5 min walk)"
   },
   "solaro-hotel-spa-h84816481": {
-    "location": "혼똔섬 케이블카 150m 거리",
-    "view": "",
-    "condition": "2026년 신축 시설",
-    "staff": "",
+    "location": "혼똔섬 케이블카 도보 약 150m (도보 2분)",
+    "view": "오션뷰 스위트 및 발코니 전망",
+    "condition": "스파 시설과 연계된 쾌적하고 릴랙스한 객실",
+    "staff": "전문 스파 테라피스트 및 데스크의 정중한 케어",
     "pros": [
-      "실내외 수영장 및 대형 스파 부대시설 완비"
+      "호텔 내 스파 마사지 프로그램 운영",
+      "오션뷰 스위트 보유"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJk3JMmVKXpzERdcBhMd_k9KY"
+    "cons": [
+      "케이블카 탑승장까지 도보 약 8~9분 거리"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Solaro+Hotel+Sunset+Town+Phu+Quoc",
+    "location_en": "Hon Thom Cable Car (approx. 150 m · 2 min walk)"
   },
   "anna-hotel-free-cable-car-and-water-park-tickets": {
-    "location": "혼똔섬 케이블카 340m 거리",
-    "view": "인피니티 풀 조망",
-    "condition": "2024년 신축 시설",
-    "staff": "",
+    "location": "혼똔섬 케이블카 도보 약 340m (도보 5분)",
+    "view": "선셋타운 거리뷰 및 발코니뷰",
+    "condition": "실속형 가족 여행객을 위한 깔끔한 객실",
+    "staff": "케이블카 및 관광지 정보 친절 안내",
     "pros": [
-      "인피니티 풀 및 피트니스·공용 주방 완비"
+      "패밀리 쿼드룸 보유로 4인 가족 투숙 용이",
+      "가성비 뛰어남"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJxTnMPKCWpzERg7paQsHm-00"
+    "cons": [
+      "중심 번화가까지 도보 이동 필요"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Anna+Hotel+Sunset+Town+Phu+Quoc",
+    "location_en": "Hon Thom Cable Car (approx. 340 m · 5 min walk)"
   },
   "juliet-boutique-hotel": {
-    "location": "혼똔섬 케이블카 370m 거리",
-    "view": "",
-    "condition": "",
-    "staff": "",
+    "location": "혼똔섬 케이블카 도보 약 370m (도보 5분)",
+    "view": "40㎡ 이상 넓은 바다 전망 테라스",
+    "condition": "감각적이고 로맨틱한 분위기의 스위트 룸 컨디션",
+    "staff": "사려 깊고 세심한 커플·가족 맞춤형 안내",
     "pros": [
-      "전용 해변 산책로 인접 및 조식 제공"
+      "시원한 바다 전망과 널찍한 객실 면적",
+      "로맨틱한 인테리어"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ5Z5ZTfmVpzERiSVXng2WHUY"
+    "cons": [
+      "케이블카 탑승장까지 도보 약 9분 소요"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ5Z5ZTfmVpzERiSVXng2WHUY",
+    "location_en": "Hon Thom Cable Car (approx. 370 m · 5 min walk)"
   },
   "hoa-ng-hon-ti-m-boutique-hotel": {
-    "location": "혼똔섬 케이블카 220m, 소렌토 거리 위치",
-    "view": "",
-    "condition": "",
-    "staff": "",
+    "location": "혼똔섬 케이블카 도보 약 220m (도보 3분)",
+    "view": "소렌토 골목의 이국적인 전경 및 주니어 스위트 바다 조망",
+    "condition": "30㎡ 이상의 넉넉한 객실과 청결한 룸 컨디션",
+    "staff": "24시간 룸서비스 및 세심한 프런트 데스크 응대",
     "pros": [
-      "소렌토 거리 위치 및 24시간 프런트 데스크 운영"
+      "케이블카 220m 도보 3분 초근접",
+      "소렌토 거리의 조용하고 아담한 분위기"
     ],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJe4CLfRKXpzERL0ZvGC778Bk"
+    "cons": [
+      "소규모 부티크 호텔로 전용 수영장 등은 없음"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJe4CLfRKXpzERL0ZvGC778Bk",
+    "location_en": "Hon Thom Cable Car (approx. 220 m · 3 min walk)"
   },
   "jw-marriott-phu-quoc-emerald-bay": {
     "location": "바이켐 해변 위치, 선셋타운 차량 10분",
-    "view": "",
-    "condition": "",
-    "staff": "",
-    "pros": [],
-    "cons": [],
+    "view": "에메랄드 베이 파노라마 오션뷰 및 조개 모양 쉘 풀 전망",
+    "condition": "빌 벤슬리가 설계한 예술적 대학교 콘셉트 인테리어와 5성급 관리",
+    "staff": "메리어트 계열의 전문적인 5성 서비스",
+    "pros": [
+      "바이켐 전용 프라이빗 비치와 3개 대형 수영장",
+      "독보적인 Lamarck 대학교 스토리텔링 인테리어",
+      "수준 높은 조식 뷔페와 핑크 펄 프렌치 레스토랑"
+    ],
+    "cons": [
+      "리조트 단지 규모가 매우 커서 도보 이동 거리가 다소 멂",
+      "선셋타운 및 외부 관광지 이동 시 차량/택시 필수"
+    ],
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJLZPWxLiWpzERwrkgfIa1P8I"
-  },
-  "new-world-phu-quoc-resort": {
-    "location": "바이켐 해변 위치, 선셋타운 차량 10분",
-    "view": "",
-    "condition": "",
-    "staff": "",
-    "pros": [],
-    "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJy5uCwXCXpzERQSR2-hAgnuo"
   },
   "premier-village-phu-quoc-resort": {
     "location": "바이켐 해변 위치, 선셋타운 차량 10분",
-    "view": "",
-    "condition": "",
-    "staff": "",
-    "pros": [],
-    "cons": [],
+    "view": "한 장소에서 감상하는 동쪽 일출과 서쪽 일몰의 파노라마",
+    "condition": "전 객실 프라이빗 개인 수영장을 갖춘 단독 독채 풀빌라",
+    "staff": "24시간 빌라 버기 지원 및 아코르 매니지먼트",
+    "pros": [
+      "일출과 일몰을 동시에 볼 수 있는 푸꾸옥 유일의 반도 입지",
+      "전 객실 단독 독채 풀빌라로 독립된 프라이버시 보장",
+      "반도를 가로지르는 계단식 인피니티 풀"
+    ],
+    "cons": [
+      "곶 끝자락에 위치해 외부 상권으로 나가려면 버기 및 차량 필요"
+    ],
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJr4pU6WmWpzERs3lqA96_P1I"
   },
   "premier-residences-phu-quoc-emerald-bay": {
     "location": "바이켐 해변 위치, 선셋타운 차량 10분",
-    "view": "",
-    "condition": "",
-    "staff": "",
-    "pros": [],
-    "cons": [],
+    "view": "에메랄드빛 바다 및 5,000㎡ 초대형 계단식 수영장 전경",
+    "condition": "주방 및 발코니를 갖춘 현대적인 아파트먼트형 콘도텔",
+    "staff": "아코르 표준에 따른 친절하고 체계적인 고객 응대",
+    "pros": [
+      "5,000㎡에 달하는 초대형 다단식 수영장과 워터 슬라이드",
+      "취사 가능한 간이 주방과 넓은 거실 공간(가족 단위 추천)",
+      "주변 상가 식당가 및 마사지샵 도보 이동 용이"
+    ],
+    "cons": [
+      "대형 리조트로 성수기 체크인 시간대 대기 발생 가능"
+    ],
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJn6kim_SXpzERd6rlRMQmpZc"
+  },
+  "new-world-phu-quoc-resort": {
+    "location": "바이켐 해변 위치, 선셋타운 차량 10분",
+    "view": "바이켐 바다 조망 및 트로피컬 정원 풀빌라 뷰",
+    "condition": "베트남 전통 어촌 가옥 모티브의 375채 단독 독채 풀빌라",
+    "staff": "신속한 버기 배차와 세심하고 정중한 리조트 직원 응대",
+    "pros": [
+      "전 객실 단독 개인 풀빌라 구성으로 가족·연인 휴양에 최적",
+      "해변까지 뻗은 120m 초대형 야외 인피니티 풀",
+      "전통 어촌 감성의 아늑하고 평화로운 리조트 분위기"
+    ],
+    "cons": [
+      "빌라 단지가 넓어 식당이나 비치 이동 시 버기 호출 필수"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJy5uCwXCXpzERQSR2-hAgnuo"
   },
   "paralia-khem-beach-phu-quoc-hotel": {
     "location": "바이켐 해변 위치, 선셋타운 차량 10분",
-    "view": "",
-    "condition": "",
-    "staff": "",
-    "pros": [],
-    "cons": [],
+    "view": "숍하우스 거리 및 시티 전경",
+    "condition": "실내 수영장과 깔끔한 기본기를 갖춘 실속형 호텔",
+    "staff": "영어 소통이 가능하며 주변 관광 및 액티비티 친절 안내",
+    "pros": [
+      "바이켐 해변과 주변 로컬 식당가를 걸어서 이용 가능한 위치",
+      "바이켐 리조트 대비 합리적이고 부담 없는 숙박 비용",
+      "실내 수영장 및 조식 뷔페 제공"
+    ],
+    "cons": [
+      "오션뷰 객실이 없고 리조트급 전용 부대시설은 제한적"
+    ],
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ--GCQXqXpzER7itlt0HX5Ps"
   },
   "jm-boutique-hotel-phu-quoc": {
     "location": "바이켐 해변 위치, 선셋타운 차량 10분",
-    "view": "",
-    "condition": "",
-    "staff": "",
-    "pros": [],
-    "cons": [],
+    "view": "숍하우스 감성 거리뷰 및 루프탑 전경",
+    "condition": "감각적이고 아늑한 친환경 원목 인테리어",
+    "staff": "투숙객 한 명 한 명을 세심하게 챙기는 매우 친절한 스태프",
+    "pros": [
+      "정성스럽게 주문 조리되는 수제 브런치 조식 퀄리티",
+      "카페 감성의 감각적이고 청결한 객실 인테리어",
+      "도보 5분 바이켐 해변 접근성 및 자전거 무료 대여"
+    ],
+    "cons": [
+      "규모가 작은 부티크 호텔로 대형 수영장 등 부대시설 없음"
+    ],
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJhfbFBaCXpzER-fkbP-fwDcI"
   },
   "ann-hotel-spa-phu-quoc": {
     "location": "바이켐 해변 위치, 선셋타운 차량 10분",
-    "view": "",
-    "condition": "",
-    "staff": "",
-    "pros": [],
-    "cons": [],
+    "view": "숍하우스 스트리트 전경",
+    "condition": "모던하고 정갈한 룸 컨디션과 편안한 침구",
+    "staff": "밝은 미소의 리셉션과 전문 테라피스트의 친절한 케어",
+    "pros": [
+      "호텔 1층에서 바로 이용할 수 있는 수준 높은 스파 마사지",
+      "가성비 뛰어난 숙박 요금 대비 깨끗하고 안락한 침구와 룸 컨디션",
+      "투숙객의 요청에 즉각 응대해 주는 친절하고 따뜻한 스태프"
+    ],
+    "cons": [
+      "대형 리조트형 부대시설(대형 풀, 전용 비치 등)은 없음"
+    ],
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJpyMOH-WXpzERgb6Kly4H7QA"
+  },
+  "the-nice-hotel-phu-quoc-fireworks-ocean-view": {
+    "location": "키스 브릿지(260m·도보 3분) · 야시장(300m·도보 4분) · 케이블카(380m·도보 5분) · 선 바바리아 펍(370m·도보 5분)",
+    "view": "매일 밤 펼쳐지는 키스 오브 더 씨 불꽃놀이 및 바다 전망 발코니",
+    "condition": "감성적인 지중해풍 인테리어와 깨끗한 객실 관리",
+    "staff": "한국인 및 글로벌 여행객 친화적인 응대",
+    "pros": [
+      "불꽃놀이 직관 발코니",
+      "평점 9.2",
+      "키스 브릿지 도보 3분"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJWyR4R6WVpzERdWiJg-xbMZs",
+    "location_en": "Kiss Bridge (260 m · 3 min walk) · VuiFest Night Market (300 m · 4 min walk) · Cable Car (380 m · 5 min walk) · Sun Bavaria Pub (370 m · 5 min walk)"
+  },
+  "noska-hotel": {
+    "location": "선 바바리아 펍(120m·도보 2분) · 야시장(350m·도보 5분) · 키스 브릿지(460m·도보 6분) · 케이블카(840m·도보 11분)",
+    "location_en": "Sun Bavaria Pub (120 m · 2 min walk) · VuiFest Night Market (350 m · 5 min walk) · Kiss Bridge (460 m · 6 min walk) · Cable Car (840 m · 11 min walk)",
+    "view": "발코니 정면 일몰 및 불꽃놀이 파노라마 오션뷰",
+    "condition": "한국인 여행객 선호 발코니 객실 및 쾌적한 룸 컨디션",
+    "staff": "친절한 체크인 응대 및 전동 버기카 이동 지원",
+    "pros": [
+      "발코니에서 일몰과 불꽃놀이 관람",
+      "친절한 직원 응대와 쾌적한 룸 컨디션",
+      "야시장과 펍 도보 이동 편리"
+    ],
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJF_c9aMCXpzERt1r0W687Y4U"
+  },
+  "fella-hotel": {
+    "location": "키스 브릿지(260m·도보 4분) · 시계탑(280m·도보 4분) · 케이블카(550m·도보 8분)",
+    "location_en": "Kiss Bridge (260 m · 4 min walk) · Clock Tower (280 m · 4 min walk) · Cable Car (550 m · 8 min walk)",
+    "view": "선셋타운 소렌토 거리 타운뷰",
+    "condition": "소렌토 거리에 위치한 모던하고 정갈한 실속형 객실",
+    "staff": "신속하고 따뜻한 24시간 리셉션 서비스",
+    "pros": [
+      "키스브릿지 및 광장 도보 이동 편리",
+      "청결한 침구류와 정갈한 룸 컨디션",
+      "합리적인 숙박 요금"
+    ],
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ11j5_KeXpzERFq08eB1nJt4"
+  },
+  "sole-casa-phu-quoc": {
+    "location": "케이블카(320m·도보 4분) · 키스 브릿지(360m·도보 5분)",
+    "location_en": "Cable Car (320 m · 4 min walk) · Kiss Bridge (360 m · 5 min walk)",
+    "view": "케이블카 승강장 및 힐사이드 오션뷰",
+    "condition": "이탈리아 남부 감성의 감각적이고 세련된 인테리어",
+    "staff": "밝고 친절한 현지 투어 및 관광 안내",
+    "pros": [
+      "케이블카 정류장 도보 4분 초인접",
+      "세련된 감성 인테리어와 청결한 객실"
+    ],
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJq2r4s86VpzER3e5p9a8K5jY"
+  },
+  "golden-sunset-hotel": {
+    "location": "키스 브릿지(500m·도보 7분) · 케이블카(860m·도보 12분)",
+    "location_en": "Kiss Bridge (500 m · 7 min walk) · Cable Car (860 m · 12 min walk)",
+    "view": "포지타노 거리 조용한 타운뷰",
+    "condition": "부담 없는 가격대의 아늑하고 실속 있는 객실",
+    "staff": "편안하고 차분한 24시간 프런트 서비스",
+    "pros": [
+      "조용한 주변 환경",
+      "실속 있는 숙박 비용"
+    ],
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN3vR_L6VpzER4o1cI_K00e8"
+  },
+  "casa-del-mar-boutique-hotel": {
+    "location": "키스 브릿지(480m·도보 6분) · 케이블카(750m·도보 10분)",
+    "location_en": "Kiss Bridge (480 m · 6 min walk) · Cable Car (750 m · 10 min walk)",
+    "view": "아말피 거리 이탈리아풍 테라스 전망",
+    "condition": "지중해풍 인테리어와 깔끔한 침구 세팅",
+    "staff": "정성스러운 룸 케어 및 친절한 안내",
+    "pros": [
+      "이탈리아풍 아말피 거리 위치",
+      "주변 산책 코스 우수"
+    ],
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJz_xV0ceVpzERL_Q5j7K_c4E"
+  },
+  "js-hotel-phu-quoc-sunset-town": {
+    "location": "키스 브릿지(670m·도보 9분) · 케이블카(980m·도보 13분)",
+    "location_en": "Kiss Bridge (670 m · 9 min walk) · Cable Car (980 m · 13 min walk)",
+    "view": "아말피 거리 시티뷰",
+    "condition": "엘리베이터가 완비된 쾌적하고 편리한 객실",
+    "staff": "한국인 여행객 후기에서 호평받은 친절한 직원 응대",
+    "pros": [
+      "깨끗하게 관리된 객실",
+      "신속하고 친절한 고객 응대"
+    ],
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ92fL7_KVpzERx5f4P9A2j8k"
+  },
+  "triland-hillside": {
+    "location": "케이블카(300m·도보 4분) · 키스 브릿지(420m·도보 6분)",
+    "location_en": "Cable Car (300 m · 4 min walk) · Kiss Bridge (420 m · 6 min walk)",
+    "view": "선셋타운 힐사이드 고층 파노라마 바다 및 불꽃놀이 조망",
+    "condition": "인피니티 풀 및 주방 시설을 갖춘 레지던스형 객실",
+    "staff": "세심한 체크인 안내와 시설 이용 지원",
+    "pros": [
+      "고층에서 내려다보는 압도적인 바다 전망",
+      "발코니 불꽃놀이 명당",
+      "케이블카 도보 4분 초인접"
+    ],
+    "cons": [],
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ_triland_hillside_phu_quoc"
   }
 }

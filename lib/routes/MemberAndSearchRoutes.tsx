@@ -123,9 +123,10 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
     supabase.from('stories').select('*').eq('status', 'published').limit(100),
   ])
   const needle = q.toLowerCase()
-  const regMap = new Map<string, any>(
-    (((businessesRegistryJson as any).businesses || []) as any[]).map((r) => [r.slug, r])
-  )
+  const regList: any[] = Array.isArray(businessesRegistryJson)
+    ? (businessesRegistryJson as any[])
+    : (businessesRegistryJson as any).businesses || []
+  const regMap = new Map<string, any>(regList.map((r) => [r.slug, r]))
   const syncedBusinesses = (businesses || []).map((x: any) => {
     const reg = regMap.get(x.slug)
     if (!reg) return x
@@ -148,22 +149,20 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
       (!needle ||
         [
           x.public_name,
-          x.name_local,
-          x.slug,
-          displayBusinessName(x, locale),
-          x.category,
-          categoryLabel(x.category, locale),
-          x.subcategory,
-          x.subcategory ? translateTerm(x.subcategory, locale) : '',
-          x.address,
-          x.description_en,
-          x.description_vi,
-          x.description_ko,
-          ...(x.tags || []),
-          ...(x.tags || []).map((t: string) => translateTerm(t, locale)),
-          ...(x.badges || []),
-          nearbyBadgeText(x.address, x.tags, x.badges, locale) || '',
-        ].some((v) => text(v).includes(needle)))
+        displayBusinessName(x, locale),
+        x.category,
+        categoryLabel(x.category, locale),
+        x.subcategory,
+        x.subcategory ? translateTerm(x.subcategory, locale) : '',
+        x.address,
+        x.description_en,
+        x.description_vi,
+        x.description_ko,
+        ...(x.tags || []),
+        ...(x.tags || []).map((t: string) => translateTerm(t, locale)),
+        ...(x.badges || []),
+        nearbyBadgeText(x.address, x.tags, x.badges, locale) || '',
+      ].some((v) => text(v).includes(needle)))
   )
   const dbStorySlugs = new Set((stories || []).map((row: any) => row.slug))
   const mergedStories = [

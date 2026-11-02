@@ -1,18 +1,13 @@
 import { MetadataRoute } from 'next'
-import { SITE_URL } from '@/lib/supabase/config'
 import { createPublicClient } from '@/lib/supabase/public'
 import { DIRECTORY_CATEGORY_KEYS, getCategoryPublishedCount, HIDDEN_BUSINESS_SLUGS } from '@/lib/directory'
 import { PUBLISHED_EVENTS } from '@/lib/eventSamples'
 import { storyAvailableLocales } from '@/lib/i18n/dictionaries'
-import { LOCALES, buildAlternates, localeUrl, hantPath, type Locale } from '@/lib/i18n/config'
+import { LOCALES, buildAlternates, localeUrl, type Locale } from '@/lib/i18n/config'
 
 // Rebuild hourly so newly published stories appear without a redeploy
 export const revalidate = 0
 export const dynamic = "force-dynamic"
-
-function hantUrl(barePath: string): string {
-  return `${SITE_URL.replace(/\/+$/, '')}${hantPath(barePath)}`
-}
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date()
@@ -45,11 +40,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         },
       })
     }
-    routes.push({
-      url: hantUrl(barePath),
-      lastModified: now,
-      alternates: { languages: alternates.languages },
-    })
   }
 
   try {
@@ -81,11 +71,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
               },
             })
           }
-          routes.push({
-            url: hantUrl(barePath),
-            lastModified,
-            alternates: { languages: alternates.languages },
-          })
         }
       })
     }
@@ -124,13 +109,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
               alternates: {
                 languages: alternates.languages,
               },
-            })
-          }
-          if (availableLocales.includes('zh')) {
-            routes.push({
-              url: hantUrl(barePath),
-              lastModified,
-              alternates: { languages: alternates.languages },
             })
           }
         }

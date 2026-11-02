@@ -295,12 +295,14 @@ export const DIRECTORY_CATEGORIES: Record<DirectoryCategory, CategoryDef & {labe
 export const DIRECTORY_CATEGORY_KEYS = Object.keys(CATEGORY_DEFS) as DirectoryCategory[]
 
 export function isDirectoryCategory(value: string): value is DirectoryCategory {
-  if (value === 'beach') return true
+  if (value === 'beach' || value === 'hotel' || value === 'bar') return true
   return DIRECTORY_CATEGORY_KEYS.includes(value as DirectoryCategory)
 }
 
 export function normalizeDirectoryCategory(value: string): DirectoryCategory {
   if (value === 'beach') return 'beaches'
+  if (value === 'hotel') return 'hotels'
+  if (value === 'bar') return 'bars'
   if (isDirectoryCategory(value)) return value
   return 'dining'
 }
@@ -487,38 +489,48 @@ const ZONE_ASSIGNMENTS: Record<string, { service_areas?: string[]; zone?: string
   (zoneAssignmentsJson as any) || {}
 
 export const HIDDEN_BUSINESS_SLUGS = new Set<string>([
-  'mimi-fruits-mart',
-  'sun-group-sunset-town-electric-buggy-service',
-  'gl90s-phu-quoc-laundry-services-sunsetown-ama47-24-24',
-  'sieu-thi-dat-phuong-nam',
-  'bloom-spa-phu-quoc-sunset-town',
-  'herbal-spa-nail-sunset-town',
-  'venice-spamedica-phu-quoc',
-  'sunset-place-4',
-  'sunset-place-8',
-  'sunset-place-6',
-  'triland-hillside',
-  'luxury-hotel-spa-milan-38-sunset-town',
+  'ang-spa-nail',
   'at-108-new-an-thoi',
-  'sorrento-restaurant-bar',
-  'chill-sunset-restaurant',
-  'banh-canh-ghe-by-restaurant-seafood',
-  'oc-dao-an-thoi',
-  'quan-nhau-binh-dan-hoang-hon-hoang-hon-quan',
-  'nha-hang-com-nieu-viet-xua-an-thoi',
-  'eric-kayser-vietnam',
-  'mixue-ice-cream-and-tea',
-  'tsunagari-phu-quoc-japanese-matcha-in-the-island',
-  'the-ivy-cafe-lounge-phu-quoc',
-  'maison-kayser-phu-quoc',
+  'ang-spa-nail',
   'apollo-cafe-phu-quoc',
+  'at-108-new-an-thoi',
+  'banh-canh-ghe-by-restaurant-seafood',
+  'bloom-spa-phu-quoc-sunset-town',
+  'chill-sunset-restaurant',
+  'draft-beer-sunset-town-phu-quoc',
+  'eric-kayser-vietnam',
+  'gl90s-phu-quoc-laundry-services-sunsetown-ama47-24-24',
+  'herbal-spa-nail-sunset-town',
+  'lumi-spa-massage',
+  'luxury-hotel-spa-milan-38-sunset-town',
+  'madam-khanh-restaurant-phu-quoc-2',
+  'maison-kayser-phu-quoc',
+  'mimi-fruits-mart',
+  'mixue-ice-cream-and-tea',
+  'nha-hang-com-nieu-viet-xua-an-thoi',
+  'oc-dao-an-thoi',
   'ph-rooftop-bar-lounge-sea-view-restaurant-an-thoi-phu-quoc',
+  'quan-nhau-binh-dan-hoang-hon-hoang-hon-quan',
+  'sieu-thi-dat-phuong-nam',
+  'sorrento-restaurant-bar',
+  'sun-group-sunset-town-electric-buggy-service',
+  'sunset-place-4',
+  'sunset-place-6',
+  'sunset-place-8',
+  'the-ivy-cafe-lounge-phu-quoc',
+  'the-nice-hotel-phu-quoc-fireworks-ocean-view',
+  'triland-hillside',
+  'tsunagari-phu-quoc-japanese-matcha-in-the-island',
+  'venice-spamedica-phu-quoc',
+  'wave-cafe-pub-3f-sunset-town',
+  'wave-spa-2f-sunset-town',
   ...REGISTRY_BUSINESSES.filter((b) => Boolean(b.status && b.status !== 'published')).map((b) => String(b.slug)),
   ...KHEM_BUSINESSES.filter((b) => Boolean(b.status && b.status !== 'published')).map((b) => String(b.slug)),
 ])
 
 export const HIDDEN_BUSINESS_IDS = new Set<string>([
   'local-sunset-018',
+  'local-sunset-45',
   'local-sunset-065',
   'local-sunset-139',
   'local-sunset-187',

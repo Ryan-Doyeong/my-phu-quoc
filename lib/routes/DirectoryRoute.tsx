@@ -20,9 +20,7 @@ import {
 import { normalizeZoneQuery, type MainZoneSlug } from '@/lib/zones'
 import { buildAlternates, localePath, localeUrl, ogLocaleFor, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
-import { JsonLd } from '@/components/JsonLd'
-import { directoryTitle, withKeyword } from '@/lib/seo/meta'
-import { breadcrumbJsonLd, graph, inLanguage } from '@/lib/seo/jsonld'
+import { tUi } from '@/lib/i18n/uiStrings'
 import businessesRegistry from '@/data/businesses-registry.json'
 import khemBusinesses from '@/data/khem-beach-businesses.json'
 import zoneAssignmentsJson from '@/data/zone-assignments.json'
@@ -32,15 +30,20 @@ export async function generateDirectoryMetadata(
   locale: Locale = 'en'
 ): Promise<Metadata> {
   const category = normalizeDirectoryCategory(rawCategory)
-  if (category === 'hotels' || category === 'activities') {
+  if (category === 'hotels' || rawCategory === 'hotels' || rawCategory === 'hotel' || category === 'activities') {
     return {
       robots: { index: false, follow: false },
     }
   }
   if (!isDirectoryCategory(category)) return {}
   const label = categoryLabel(category, locale)
-  const description = withKeyword(categoryDescription(category, locale), locale)
-  const title = directoryTitle(label, locale)
+  const description = categoryDescription(category, locale)
+  const title =
+    locale === 'vi'
+      ? `${label} tại Sunset Town & Bãi Khem | My Phu Quoc`
+      : locale === 'ko'
+      ? `선셋타운 & 켐비치 ${label} | 마이 푸꾸옥 (My Phu Quoc)`
+      : tUi('{category} in Sunset Town & Khem Beach | My Phu Quoc', locale).replace('{category}', label)
   const barePath = `/directory/${category}`
   const canonicalUrl = localeUrl(locale, barePath)
   const alternates = buildAlternates(barePath)
@@ -56,11 +59,8 @@ export async function generateDirectoryMetadata(
       title,
       description,
       url: canonicalUrl,
-      siteName: 'My Phu Quoc',
-      type: 'website',
       locale: ogLocaleFor(locale),
     },
-    twitter: { card: 'summary', title, description },
   }
 }
 
@@ -70,11 +70,11 @@ export async function renderDirectoryRoute(
   searchParams?: { zone?: string }
 ) {
   const category = normalizeDirectoryCategory(rawCategory)
-  if (category === 'hotels') {
-    redirect(locale === 'en' ? '/hotels' : `/${locale}/hotels`)
+  if (category === 'hotels' || rawCategory === 'hotels' || rawCategory === 'hotel') {
+    redirect(localePath(locale, '/hotels'))
   }
   if (category === 'activities') {
-    redirect(locale === 'en' ? '/activities' : `/${locale}/activities`)
+    redirect(localePath(locale, '/activities'))
   }
   if (category === 'banking') {
     return <BankingDirectory locale={locale} />
@@ -160,9 +160,14 @@ export async function renderDirectoryRoute(
     })
     .filter((b: any) => b.category === category && (!b.status || b.status === 'published') && !isHiddenBusiness(b))
 
+  const dbSlugs = new Set((data || []).map((b: any) => b.slug))
+  const unmigratedSunsetItems = combinedRegistry.filter(
+    (b) => b.zone !== 'khem-beach' && b.public_category === category && !dbSlugs.has(b.slug)
+  )
+
   const items = [
     ...(enrichedData.length > 0 && !['beaches', 'transport'].includes(category)
-      ? enrichedData
+      ? [...enrichedData, ...unmigratedSunsetItems]
       : combinedRegistry.filter(
           (b) => b.zone !== 'khem-beach' && b.public_category === category
         )),
@@ -171,24 +176,8 @@ export async function renderDirectoryRoute(
 
   const initialZone = normalizeZoneQuery(searchParams?.zone)
 
-  const directoryUrl = localeUrl(locale, `/directory/${category}`)
-  const jsonLd = graph(
-    {
-      '@type': 'CollectionPage',
-      name: label,
-      description,
-      url: directoryUrl,
-      inLanguage: inLanguage(locale),
-    },
-    breadcrumbJsonLd([
-      { name: dict.nav.home, url: localeUrl(locale, '/') },
-      { name: label, url: directoryUrl },
-    ])
-  )
-
   return (
     <main className="directoryPage">
-      <JsonLd data={jsonLd} />
       <header className="detailNav">
         <Logo locale={locale} />
         <div className="detailNavRight">

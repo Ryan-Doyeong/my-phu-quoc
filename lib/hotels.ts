@@ -5,6 +5,7 @@ import rawHotelInsights from '@/data/hotel_insights.json'
 export interface HotelInsight {
   googleMapsUrl?: string
   location?: string
+  location_en?: string
   view?: string
   condition?: string
   staff?: string
@@ -26,6 +27,7 @@ export interface HotelRoom {
   bed?: string
   view?: string
   features?: string
+  photo?: string
 }
 
 export interface HotelSubRatings {
@@ -60,6 +62,35 @@ export interface HotelReviewQuote {
 
 export type HotelArea = 'sunset-town' | 'khem-beach'
 export type HotelTier = 'top' | 'recommended' | 'standard'
+export type HotelPriceRange = '$' | '$$' | '$$$' | '$$$$' | '$$$$$'
+
+export const PRICE_TIER_CONFIG = {
+  currency: 'VND',
+  referenceCurrency: 'USD (고정 참고 환율: 1 USD = 25,400 VND)',
+  checkInDate: '2026-11-16',
+  nights: 1,
+  occupancy: 'Adults 2, Room 1',
+  // 2026-11-01 아고다 실시간 시작가(₫) 5분위 분할 기준 (총 24개 실측 완료)
+  thresholds: [
+    { tier: '$' as const, level: 1, maxPriceVnd: 1000000, label: '초실속형 (Budget)', description: '하위 20% (1,000,000 VND 이하, 약 $39 이하)' },
+    { tier: '$$' as const, level: 2, maxPriceVnd: 1250000, label: '준실속형 (Economy)', description: '20%~40% (1,000,001 ~ 1,250,000 VND, 약 $39 ~ $49)' },
+    { tier: '$$$' as const, level: 3, maxPriceVnd: 1750000, label: '스탠다드·부티크 (Mid-range)', description: '40%~60% (1,250,001 ~ 1,750,000 VND, 약 $49 ~ $69)' },
+    { tier: '$$$$' as const, level: 4, maxPriceVnd: 2100000, label: '고급·오션뷰 (Upscale)', description: '60%~80% (1,750,001 ~ 2,100,000 VND, 약 $69 ~ $83)' },
+    { tier: '$$$$$' as const, level: 5, maxPriceVnd: Infinity, label: '프리미엄·특급 (Luxury)', description: '상위 20% (2,100,001 VND 이상, 약 $83 이상)' },
+  ],
+} as const
+
+export function getPriceTierFromVnd(priceVnd: number): HotelPriceRange {
+  for (const t of PRICE_TIER_CONFIG.thresholds) {
+    if (priceVnd <= t.maxPriceVnd) return t.tier
+  }
+  return '$$$$$'
+}
+
+export function getPriceTierLevel(tier?: string): number | null {
+  if (!tier) return null
+  return tier.length
+}
 
 export interface HotelItem {
   slug: string
@@ -82,6 +113,7 @@ export interface HotelItem {
   address: string
   landmarks?: LandmarkDistance[]
   summary: string
+  description?: string
   summary_en?: string
   summary_zh?: string
   summary_ja?: string
@@ -103,6 +135,7 @@ export interface HotelItem {
   photos: string[]
   agodaUrl: string
   isFeatured?: boolean
+  strengths?: string[]
   badgeText?: string
   highlightSummary?: string
   reviewHighlight?: string
@@ -110,10 +143,12 @@ export interface HotelItem {
   reviewQuote?: HotelReviewQuote
   googleRating?: number
   googleReviewsCount?: number
+  priceRange?: HotelPriceRange
   googleReviews?: HotelGoogleReview[]
   unverified?: string[]
   insight?: HotelInsight
   googleMapsUrl?: string
+  googlePlaceId?: string
 }
 
 function mapHotelItem(raw: any, defaultArea: HotelArea): HotelItem {
@@ -123,6 +158,10 @@ function mapHotelItem(raw: any, defaultArea: HotelArea): HotelItem {
     area: raw.area || defaultArea,
     insight,
     googleMapsUrl: insight?.googleMapsUrl || raw.googleMapsUrl,
+    googlePlaceId: raw.googlePlaceId,
+    googleRating: raw.googleRating,
+    googleReviewsCount: raw.googleReviewsCount,
+    priceRange: raw.priceRange,
   }
 }
 
@@ -150,3 +189,57 @@ export function getFeaturedHotel(): HotelItem | undefined {
 export function getHotelBySlug(slug: string): HotelItem | undefined {
   return getAllHotels().find(h => h.slug === slug)
 }
+
+/**
+ * Single Source of Truth lookup for Agoda 5-tier price range by business.
+ * Returns HotelPriceRange ('$' | '$$' | '$$$' | '$$$$' | '$$$$$') or undefined if unconfirmed/sold-out.
+ */
+export function getHotelPriceRangeForBusiness(b: {
+  slug?: string | null
+  google_place_id?: string | null
+  agoda_url?: string | null
+  website_url?: string | null
+  category?: string | null
+  id?: string | null
+} | null | undefined): HotelPriceRange | undefined {
+  if (!b) return undefined
+  const all = getAllHotels()
+
+  // 1. Direct slug match
+  if (b.slug) {
+    const found = all.find((h) => h.slug === b.slug)
+    if (found?.priceRange) return found.priceRange
+  }
+
+  // 2. Google Place ID match
+  if (b.google_place_id) {
+    const found = all.find((h) => h.googlePlaceId && h.googlePlaceId === b.google_place_id)
+    if (found?.priceRange) return found.priceRange
+  }
+
+  // 3. Agoda URL match
+  const testUrl = b.agoda_url || (b.website_url && b.website_url.includes('agoda.com') ? b.website_url : null)
+  if (testUrl) {
+    const m = testUrl.match(/agoda\.com\/(?:[a-z]{2}-[a-z]{2}\/)?([^/?#]+)\/hotel/i)
+    if (m) {
+      const agodaSlug = m[1].toLowerCase()
+      const found = all.find((h) => {
+        if (!h.agodaUrl) return false
+        const hm = h.agodaUrl.match(/agoda\.com\/(?:[a-z]{2}-[a-z]{2}\/)?([^/?#]+)\/hotel/i)
+        return hm && hm[1].toLowerCase() === agodaSlug
+      })
+      if (found?.priceRange) return found.priceRange
+    }
+  }
+
+  // 4. Special alias mappings
+  if (b.slug === 'sunset-place-7') {
+    const found = all.find((h) => h.slug.includes('la-festa'))
+    if (found?.priceRange) return found.priceRange
+  }
+
+  return undefined
+}
+
+export { HotelPriceBadge } from '@/components/HotelPriceBadge'
+

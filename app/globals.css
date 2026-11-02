@@ -2423,3 +2423,21 @@ html[lang="hi"] .sectionIntro h2, html[lang="hi"] .businessPrimaryTitle {
   }
 }
 
+/* Agoda 5-tier Hotel Price Badge ($ ~ $$$$$) */
+.cardPriceBadge {
+  background: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fde68a;
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 2px 7px;
+  border-radius: 6px;
+  cursor: help;
+  display: inline-flex;
+  align-items: center;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+

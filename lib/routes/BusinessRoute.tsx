@@ -1,5 +1,3 @@
-import { ContextCta } from '@/components/ContextCta'
-import { buildGoogleMapsUrl } from '@/lib/mapsLink'
 import Link from 'next/link'
 import { notFound, redirect } from 'next/navigation'
 import type { Metadata } from 'next'
@@ -27,6 +25,7 @@ import { categoryLabel, nearbyBadgeText, formatLocalizedAddress, HIDDEN_BUSINESS
 import { JsonLd } from '@/components/JsonLd'
 import { businessTitle, withKeywordSuffix, sunsetKeyword, ZONE_KEYWORD } from '@/lib/seo/meta'
 import { businessJsonLd } from '@/lib/seo/businessJsonld'
+import { getHotelPriceRangeForBusiness, HotelPriceBadge } from '@/lib/hotels' 
 import { stockGalleryFor } from '@/lib/stockImages'
 import { imageUrl } from '@/lib/imageUrl'
 import {
@@ -89,6 +88,7 @@ const PHOTO_REQUEST_LINK: Record<string, string> = {
 const DELETED_SLUG_REDIRECTS: Record<string, string> = {
   'sunset-place-4': '/directory/dining',
   'sunset-place-8': '/directory/wellness',
+  'the-nice-hotel-phu-quoc-fireworks-ocean-view': '/hotels',
 }
 
 export async function generateBusinessMetadata(
@@ -116,9 +116,8 @@ export async function generateBusinessMetadata(
   } catch {
     dbError = true
   }
-  // Supabase 장애(예외 또는 error) 시에만 로컬 선셋타운 JSON fallback 사용
-  // 정상 응답인데 결과가 없는 경우(data === null, error 없음) 선셋타운 fallback 미사용
-  if (!b && dbError) {
+  // Supabase에 데이터가 없거나 에러인 경우 로컬 선셋타운 JSON fallback 사용
+  if (!b) {
     b = (businessesRegistry as any[]).find((x) => x.slug === slug && x.status === 'published') || null
   }
   // 켐비치 업체는 Supabase에 없으므로 khemBusinesses에서 published 상태인 업체 조회
@@ -148,12 +147,9 @@ export async function generateBusinessMetadata(
   if (isHiddenBusiness(b)) return {}
 
   const rawDesc = selectBusinessDescription(b, locale)
-  const isKhemBiz = b.zone === 'khem-beach' || (b.id && String(b.id).startsWith('khem-'))
-  const kw = isKhemBiz ? ZONE_KEYWORD['khem-beach'][locale] || ZONE_KEYWORD['khem-beach'].en : sunsetKeyword(locale)
-  const baseDesc = rawDesc
-    ? rawDesc
+  const description = rawDesc
+    ? rawDesc.slice(0, 150) + (rawDesc.length > 150 ? '...' : '')
     : `${categoryLabel(b.category, locale)} - ${formatLocalizedAddress(b.address, locale) || 'Phu Quoc'}`
-  const description = withKeywordSuffix(baseDesc, kw)
 
   const coverPhoto = getCoverPhoto(slug)
   const ogImage = coverPhoto
@@ -165,28 +161,19 @@ export async function generateBusinessMetadata(
   const canonicalUrl = localeUrl(locale, barePath)
   const alternates = buildAlternates(barePath)
   const businessName = displayBusinessName(b, locale)
-  const pageTitle = businessTitle(businessName, categoryLabel(b.category, locale), locale, Boolean(isKhemBiz))
 
   return {
-    title: pageTitle,
+    title: `${businessName} | My Phu Quoc`,
     description,
     alternates: {
       canonical: canonicalUrl,
       languages: alternates.languages,
     },
     openGraph: {
-      title: pageTitle,
+      title: `${businessName} | My Phu Quoc`,
       description,
       url: canonicalUrl,
-      siteName: 'My Phu Quoc',
-      type: 'website',
       locale: ogLocaleFor(locale),
-      images: ogImage ? [ogImage] : undefined,
-    },
-    twitter: {
-      card: ogImage ? 'summary_large_image' : 'summary',
-      title: pageTitle,
-      description,
       images: ogImage ? [ogImage] : undefined,
     },
   }
@@ -230,16 +217,30 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
   } catch {
     dbError = true
   }
-  // Supabase 장애(예외 또는 error) 시에만 로컬 선셋타운 JSON fallback 사용
-  // 정상 응답인데 결과가 없는 경우(data === null, error 없음) 선셋타운 fallback 미사용
-  if (!b && dbError) {
+  // Supabase에 데이터가 없거나 에러인 경우 로컬 선셋타운 JSON fallback 사용
+  if (!b) {
     b = (businessesRegistry as any[]).find((x) => x.slug === slug && x.status === 'published') || null
   }
   // 켐비치 업체는 Supabase에 없으므로 khemBusinesses에서 published 상태인 업체 조회
   if (!b) {
     b = (khemBusinesses as any[]).find((x) => x.slug === slug && x.status === 'published') || null
   }
-  if (!b || isHiddenBusiness(b)) {
+  // 로컬 선셋타운 레지스트리 데이터 보강 (Supabase DB 미실행 상태에서도 Agoda 예약 링크, 정품 사진 노출)
+  const regItemForEnrich = (businessesRegistry as any[]).find((x) => x.slug === slug)
+  if (b && regItemForEnrich) {
+    if (regItemForEnrich.agoda_url && !b.agoda_url) b.agoda_url = regItemForEnrich.agoda_url
+    if (regItemForEnrich.website_url && regItemForEnrich.website_url.includes('agoda.com') && (!b.website_url || !b.website_url.includes('agoda.com'))) {
+      b.website_url = regItemForEnrich.website_url
+    }
+    if (regItemForEnrich.gallery_urls && regItemForEnrich.gallery_urls.length > 0 && (!b.gallery_urls || b.gallery_urls.length === 0 || b.gallery_urls[0]?.includes('googleusercontent'))) {
+      b.gallery_urls = regItemForEnrich.gallery_urls
+    }
+    if (b.category === 'hotels' || b.category === 'hotel') {
+      if (regItemForEnrich.public_name) b.public_name = regItemForEnrich.public_name
+      if (regItemForEnrich.google_maps_name) b.google_maps_name = regItemForEnrich.google_maps_name
+    }
+  }
+  if (!b || isHiddenBusiness(b) || b.slug === 'sunset-place-4' || b.slug === 'sunset-place-8' || b.id === 'local-sunset-139' || b.id === 'local-sunset-240') {
     if (DELETED_SLUG_REDIRECTS[slug]) {
       redirect(localePath(locale, DELETED_SLUG_REDIRECTS[slug]))
     }
@@ -325,8 +326,16 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
   const categoryGuide = !isNameOnly && !isDiningOrFood && !isKhem ? getKnowledgeGuideForBusiness(b, menuData) : null
   const reviewAnalysis = !isNameOnly ? analyzeGoogleReviews(b, locale) : null
 
-  const parsedHours: string[] = []
+  const jsonLd: any = {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: businessDisplayName,
+  }
+  if (b.address) jsonLd.address = b.address
+  if (b.phone) jsonLd.telephone = b.phone
+  if (b.website_url) jsonLd.url = b.website_url
   if (b.opening_hours && typeof b.opening_hours === 'object' && !Array.isArray(b.opening_hours)) {
+    const parsedHours: string[] = []
     for (const [key, val] of Object.entries(b.opening_hours)) {
       if (!val) continue
       const k = key.trim()
@@ -354,35 +363,33 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
         parsedHours.push(candidate)
       }
     }
+    if (parsedHours.length > 0) {
+      jsonLd.openingHours = parsedHours
+    }
   }
-  const coverForLd = getCoverPhoto(slug)
-  const jsonLd = businessJsonLd({
-    b,
-    locale,
-    name: businessDisplayName,
-    description: !isNameOnly ? (selectBusinessDescription(b, locale) || '').slice(0, 300) || undefined : undefined,
-    imageUrl: coverForLd?.image_url || photos[0] || null,
-    openingHours: parsedHours,
-    categoryLabel: catLabel,
-    homeLabel: dict.nav.home,
-  })
+
+  const isHotel = b.category === 'hotel' || b.category === 'hotels'
+  const hotelPriceRange = isHotel ? getHotelPriceRangeForBusiness(b) : undefined
 
   return (
     <main className="businessDetailPage">
-      <JsonLd data={jsonLd} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <header className="detailNav">
         <Logo locale={locale} />
         <div className="detailNavRight">
           <nav>
             <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
             <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
-            {isKhem ? (
+            {isHotel ? (
+              <Link href={isKhem ? `${localePath(locale, '/hotels')}?area=khem-beach` : localePath(locale, '/hotels')}>
+                {dict.business.backTo(locale === 'ko' ? (isKhem ? '켐비치 호텔' : '선셋타운 호텔') : 'Hotels')}
+              </Link>
+            ) : isKhem ? (
               <Link href={localePath(locale, '/zones/khem-beach')}>
                 {dict.business.backTo(locale === 'ko' ? '켐비치' : 'Khem Beach')}
-              </Link>
-            ) : b.category === 'hotels' ? (
-              <Link href={localePath(locale, '/hotels')}>
-                {dict.business.backTo(catLabel)}
               </Link>
             ) : b.category === 'activities' ? (
               <Link href={localePath(locale, '/activities')}>
@@ -598,6 +605,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                   ) : null}
                 </>
               ) : null}
+              {hotelPriceRange && <HotelPriceBadge priceRange={hotelPriceRange} />}
               <span>{formatLocalizedAddress(b.address, locale)}</span>
             </div>
             {!isNameOnly && (
@@ -612,6 +620,43 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                   })
                   return tagsToRender.map((t: string) => <span key={t}>{t}</span>)
                 })()}
+              </div>
+            )}
+            {/* Hotel Action Buttons: Agoda Booking & Google Maps */}
+            {(b.category === 'hotels' || b.agoda_url) && (
+              <div className="hotelHeroActions">
+                {(b.agoda_url || (b.website_url && b.website_url.includes('agoda.com'))) && (
+                  <a
+                    href={b.agoda_url || b.website_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hotelHeroAgodaBtn"
+                  >
+                    <span aria-hidden="true">🏨</span>
+                    <span>
+                      {locale === 'ko'
+                        ? '아고다 예약'
+                        : locale === 'vi'
+                        ? 'Đặt phòng trên Agoda'
+                        : locale === 'zh'
+                        ? '在 Agoda 预订'
+                        : locale === 'ja'
+                        ? 'Agodaで予約'
+                        : locale === 'ru'
+                        ? 'Забронировать на Agoda'
+                        : 'Book on Agoda'}
+                    </span>
+                  </a>
+                )}
+                <a
+                  href={b.google_maps_url || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(b.google_maps_name || b.public_name)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hotelHeroMapBtn"
+                >
+                  <span aria-hidden="true">🗺️</span>
+                  <span>{dict.business.viewOnGoogleMaps || (locale === 'vi' ? 'Xem trên Google Maps' : 'View on Google Maps')}</span>
+                </a>
               </div>
             )}
           </div>
@@ -831,16 +876,13 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
               <GoogleReviewAnalysisCard
                 analysis={reviewAnalysis}
                 businessName={businessDisplayName}
-                googleMapsUrl={buildGoogleMapsUrl(b)}
+                googleMapsUrl={b.google_maps_url}
                 locale={locale}
               />
             )}
 
             {/* 5. Reviews & Community */}
             {!isNameOnly && <BusinessReviews b={b} locale={locale} />}
-
-            {/* 6. Contextual conversion CTA (buggy tour / WhatsApp) */}
-            <ContextCta locale={locale} variant="business" contextName={businessDisplayName} />
           </div>
 
           {/* Right Column: Practical information (Good Life 100% style) */}

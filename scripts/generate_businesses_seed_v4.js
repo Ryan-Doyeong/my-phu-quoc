@@ -1,5 +1,11 @@
 #!/usr/bin/env node
 /**
+ * [MANDATORY RULE 준수 - 2026-11-01, Ryan 지시 반영]
+ * - SNS(페이스북·인스타그램·틱톡·블로그 등) 출처 데이터 수집 전면 금지
+ * - 상호명 및 시설 기본 정보는 반드시 구글맵(Google Maps) 등록 정보 우선 준수
+ * - 임의의 SNS 링크 수집 시 validation warning 발생 및 null 처리 배제
+ */
+/**
  * scripts/generate_businesses_seed_v4.js
  * 
  * 2차 지시서 반영:

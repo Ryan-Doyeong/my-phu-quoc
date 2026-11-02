@@ -13,6 +13,7 @@ import { getDictionary } from '@/lib/i18n/dictionaries'
 import { categoryLabel } from '@/lib/directory'
 import { HOTEL_TRANSLATIONS, localizeHotel, type HotelUiDictionary } from '@/lib/i18n/hotelTranslations'
 import type { HotelItem, HotelArea } from '@/lib/hotels'
+import { HotelPriceBadge } from '@/components/HotelPriceBadge'
 import '@/app/hotels/hotels.css'
 
 interface HotelsPageProps {
@@ -135,8 +136,12 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
             <span className="cardScore">{hotel.rating.toFixed(1)} ★</span>
             <span className="cardReviews">({formatReviewLabel(hotel.reviewsCount, locale)})</span>
             {hotel.googleRating && (
-              <span className="googleScoreBadge">{t.googleMapsLabel} {hotel.googleRating.toFixed(1)} ★ ({hotel.googleReviewsCount || 18})</span>
+              <span className="googleScoreBadge">
+                {t.googleMapsLabel} {hotel.googleRating.toFixed(1)} ★
+                {typeof hotel.googleReviewsCount === 'number' && hotel.googleReviewsCount > 0 ? ` (${hotel.googleReviewsCount})` : ''}
+              </span>
             )}
+            <HotelPriceBadge priceRange={hotel.priceRange} />
           </div>
           {isKhem ? (
             <span className="khemDistBadge">🚗 {getKhemDistanceBadge(hotel, t)}</span>
@@ -334,8 +339,12 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                 <span className="modalScoreDivider" style={{ margin: '0 6px', color: '#cbd5e1' }}>·</span>
                 <span className="modalReviews">{formatReviewLabel(hotel.reviewsCount, locale)}</span>
                 {hotel.googleRating && (
-                  <span className="googleScoreBadge">{t.googleMapsLabel} {hotel.googleRating.toFixed(1)} ★ ({hotel.googleReviewsCount || 18})</span>
+                  <span className="googleScoreBadge">
+                    {t.googleMapsLabel} {hotel.googleRating.toFixed(1)} ★
+                    {typeof hotel.googleReviewsCount === 'number' && hotel.googleReviewsCount > 0 ? ` (${hotel.googleReviewsCount})` : ''}
+                  </span>
                 )}
+                <HotelPriceBadge priceRange={hotel.priceRange} style={{ marginLeft: '6px' }} />
               </div>
               {isKhem ? (
                 <span className="khemDistBadge" style={{ fontSize: '0.85rem', padding: '4px 10px' }}>
@@ -878,11 +887,13 @@ function HotelsPageInner({ hotels: rawHotels, locale = 'en', initialArea }: Hote
   }, [sunsetHotels])
 
   const sunsetRecommendedHotels = useMemo(() => {
-    return sunsetHotels.filter(h => h.tier === 'recommended')
+    return sunsetHotels
+      .filter(h => h.tier === 'recommended' || h.isFeatured)
+      .sort((a, b) => (a.order || 99) - (b.order || 99))
   }, [sunsetHotels])
 
   const sunsetStandardHotels = useMemo(() => {
-    return sunsetHotels.filter(h => h.tier !== 'top' && h.tier !== 'recommended')
+    return sunsetHotels.filter(h => h.tier !== 'top' && h.tier !== 'recommended' && !h.isFeatured)
   }, [sunsetHotels])
 
   // Filtered & Sorted Sunset Town Standard Hotels

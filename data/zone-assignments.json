@@ -3208,5 +3208,25 @@
     "service_areas": [
       "khem-beach"
     ]
+  },
+  "local-sunset-coastal-living": {
+    "place_id": "local-sunset-coastal-living",
+    "google_place_id": "ChIJ_coastal_living_phuquoc",
+    "name": "코스탈 리빙 호텔 푸꾸옥 (Coastal Living Hotel Phu Quoc)",
+    "zone": "sunset-town",
+    "public_category": "hotels",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-casepia-dining": {
+    "place_id": "local-sunset-casepia-dining",
+    "google_place_id": "ChIJRxYLYomXpzERCi3mFgoiNp4",
+    "name": "카세피아 키친 & 라운지 (CASEPiA Kitchen & Lounge)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
   }
 }

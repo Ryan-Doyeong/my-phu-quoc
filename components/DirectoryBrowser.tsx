@@ -1,6 +1,5 @@
 "use client"
 
-import { buildGoogleMapsUrl } from '@/lib/mapsLink'
 import Link from 'next/link'
 import { useMemo, useState } from 'react'
 import {
@@ -33,6 +32,7 @@ import {
   selectBusinessDescription,
   displayBusinessName,
 } from '@/lib/i18n/dictionaries'
+import { getHotelPriceRangeForBusiness, HotelPriceBadge } from '@/lib/hotels'
 
 const MAP_LINK_LABEL: Record<string, string> = {
   ko: '지도 보기 ↗',
@@ -123,6 +123,7 @@ function imageFor(b: Business) {
   return stockPrimaryFor(b.category, b.subcategory, b.tags)
 }
 function badgeRank(b: Business) {
+  if (b.is_featured) return 0
   const badges = (b.badges || []).map((x) => x.toLowerCase())
   if (badges.includes('recommended')) return 0
   if (badges.includes('new')) return 1
@@ -150,6 +151,8 @@ function BusinessCard({ b, locale }: { b: Business; locale: Locale }) {
     ? translateTerm(b.subcategory, locale)
     : categoryLabel(b.category, locale)
   const coverPhoto = getCoverPhoto(b.slug)
+  const isHotel = (b.category as string) === 'hotel' || (b.category as string) === 'hotels'
+  const hotelPriceRange = isHotel ? getHotelPriceRangeForBusiness(b) : undefined
 
   return (
     <Link
@@ -211,7 +214,10 @@ function BusinessCard({ b, locale }: { b: Business; locale: Locale }) {
               {subLabel}
               {nearbyText ? ` · ${nearbyText}` : ''}
             </span>
-            {b.google_rating ? <strong>★ {Number(b.google_rating).toFixed(1)}</strong> : null}
+            <div style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
+              {hotelPriceRange && <HotelPriceBadge priceRange={hotelPriceRange} />}
+              {b.google_rating ? <strong>★ {Number(b.google_rating).toFixed(1)}</strong> : null}
+            </div>
           </div>
           <h3>{displayBusinessName(b, locale)}</h3>
           <div className="tagList compactTags">
@@ -230,8 +236,10 @@ function BusinessCard({ b, locale }: { b: Business; locale: Locale }) {
                 onClick={(e) => {
                   e.preventDefault()
                   e.stopPropagation()
-                  const url = buildGoogleMapsUrl(b)
-                  if (url) window.open(url, '_blank', 'noopener,noreferrer')
+                  const url =
+                    b.google_maps_url ||
+                    `https://www.google.com/maps/place/?q=place_id:${b.google_place_id}`
+                  window.open(url, '_blank', 'noopener,noreferrer')
                 }}
               >
                 📍 {MAP_LINK_LABEL[locale] || MAP_LINK_LABEL.en}

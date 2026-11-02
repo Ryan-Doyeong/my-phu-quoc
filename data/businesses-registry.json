@@ -1,7 +1,7 @@
 [
   {
     "id": "local-sunset-1",
-    "public_name": "노스카 호텔 선셋타운 (Noska Hotel Sunset Town Sea View & Fireworks)",
+    "public_name": "노스카 호텔 선셋타운 (NOSKA Hotel)",
     "slug": "noska-hotel",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -12,7 +12,7 @@
     "google_maps_name": "NOSKA Hotel",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ9SwzZzeVpzERAz84CLvBLh8",
     "phone": "+84 981 385 163",
-    "website_url": "https://www.noskahotel.com/",
+    "website_url": "https://www.agoda.com/ko-kr/noska-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -34,11 +34,12 @@
     "lat": 10.0301732,
     "lng": 104.00608539999999,
     "media_note": "Image source: https://www.noskahotel.com/",
-    "photo_permission": "Official public media (https://www.noskahotel.com/)"
+    "photo_permission": "Official public media (https://www.noskahotel.com/)",
+    "agoda_url": "https://www.agoda.com/ko-kr/noska-hotel/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-2",
-    "public_name": "사쿠라쿄 호텔 & 스파 푸꾸옥 (Sakurakyo Hotel & Spa)",
+    "public_name": "사쿠라쿄 호텔 & 스파 푸꾸옥 (Sakurakyo Hotel & Spa Phu Quoc)",
     "slug": "sakurakyo-hotel-spa-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -49,7 +50,7 @@
     "google_maps_name": "Sakurakyo Hotel & Spa Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5RnXOaiXpzER0QhbiBUJ6d8",
     "phone": "+84 899 913 916",
-    "website_url": "https://skyethgroup.com/sakurakyo-hotel-phu-quoc/",
+    "website_url": "https://www.agoda.com/ko-kr/sakurakyo-hotel-spa-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -65,7 +66,8 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0285478,
-    "lng": 104.00832919999999
+    "lng": 104.00832919999999,
+    "agoda_url": "https://www.agoda.com/ko-kr/sakurakyo-hotel-spa-phu-quoc/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-3",
@@ -80,8 +82,8 @@
     "google_maps_name": "Venice Hotel Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJT1X9WkqVpzERe6nExGNSEYw",
     "phone": "+84 898 522 528",
-    "website_url": "https://venicehotelphuquoc.com/",
-    "instagram_url": "https://skyethgroup.com/venice-hotel-phu-quoc/",
+    "website_url": "https://www.agoda.com/ko-kr/venice-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
@@ -102,7 +104,12 @@
     "lat": 10.0305511,
     "lng": 104.0056075,
     "media_note": "Image source: https://venicehotelphuquoc.com/",
-    "photo_permission": "Official public media (https://venicehotelphuquoc.com/)"
+    "photo_permission": "Official public media (https://venicehotelphuquoc.com/)",
+    "agoda_url": "https://www.agoda.com/ko-kr/venice-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ]
   },
   {
     "id": "local-sunset-4",
@@ -117,8 +124,8 @@
     "google_maps_name": "Roma Hotel Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJjwfWKIqXpzERYsn-qQI_59o",
     "phone": "+84 899 727 729",
-    "website_url": "https://romahotelphuquoc.com/",
-    "instagram_url": "https://skyethgroup.com/roma-hotel-phu-quoc/",
+    "website_url": "https://www.agoda.com/ko-kr/roma-hotel-phu-quoc-h39560696/hotel/phu-quoc-island-vn.html",
+    "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
@@ -139,11 +146,12 @@
     "lat": 10.024936799999999,
     "lng": 104.0077788,
     "media_note": "Image source: https://romahotelphuquoc.com/",
-    "photo_permission": "Official public media (https://romahotelphuquoc.com/)"
+    "photo_permission": "Official public media (https://romahotelphuquoc.com/)",
+    "agoda_url": "https://www.agoda.com/ko-kr/roma-hotel-phu-quoc-h39560696/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-5",
-    "public_name": "더 줄리엣 부티크 호텔 & 커피 Ven 07 (The Juliet Boutique Hotel)",
+    "public_name": "더 줄리엣 부티크 호텔 & 커피 Ven 07 (The Juliet A Boutique Hotel & Coffee - Venice 07)",
     "slug": "the-juliet-a-boutique-hotel-coffee-ven-07",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -154,7 +162,7 @@
     "google_maps_name": "The Juliet A Boutique Hotel & Coffee - Venice 07",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5Z5ZTfmVpzERiSVXng2WHUY",
     "phone": "+84 886 391 568",
-    "website_url": "http://thejuliethotel.vn/",
+    "website_url": "https://www.agoda.com/ko-kr/juliet-boutique-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -176,11 +184,12 @@
     "lat": 10.030438199999999,
     "lng": 104.0057465,
     "media_note": "Image source: http://thejuliethotel.vn/",
-    "photo_permission": "Official public media (http://thejuliethotel.vn/)"
+    "photo_permission": "Official public media (http://thejuliethotel.vn/)",
+    "agoda_url": "https://www.agoda.com/ko-kr/juliet-boutique-hotel/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-6",
-    "public_name": "한국관 BBQ 하우스 포 유 (Korean BBQ House)",
+    "public_name": "한국관 BBQ 하우스 포 유 (BBQ House for You)",
     "slug": "bbq-house-for-you",
     "category": "beaches",
     "subcategory": "korean",
@@ -191,7 +200,7 @@
     "google_maps_name": "BBQ House for You",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJk0mFcgCVpzERf3VayqKU9Ug",
     "phone": "+84 888 279 988",
-    "website_url": "https://www.facebook.com/profile.php?id=61576423002745",
+    "website_url": null,
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -211,7 +220,7 @@
   },
   {
     "id": "local-sunset-7",
-    "public_name": "타임즈 코너 소렌토 부티크 호텔 (Times Corner Sorrento)",
+    "public_name": "타임즈 코너 소렌토 부티크 호텔 (Times Corner Sorrento Boutique Hotel)",
     "slug": "times-corner-sorrento-boutique-hotel",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -222,7 +231,7 @@
     "google_maps_name": "Times Corner Sorrento Boutique Hotel",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJk9NfQm6XpzERAcfkxs2uJV8",
     "phone": "+84 889 669 988",
-    "website_url": "https://timescornerphuquoc.com/sorrento",
+    "website_url": "https://www.agoda.com/ko-kr/times-corner-sorrento-boutique-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -243,11 +252,12 @@
     "lat": 10.0243852,
     "lng": 104.00808939999999,
     "media_note": "Image source: https://timescornerphuquoc.com/sorrento",
-    "photo_permission": "Official public media (https://timescornerphuquoc.com/sorrento)"
+    "photo_permission": "Official public media (https://timescornerphuquoc.com/sorrento)",
+    "agoda_url": "https://www.agoda.com/ko-kr/times-corner-sorrento-boutique-hotel/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-8",
-    "public_name": "로얄 호텔 푸꾸옥 1 (Royal Hotel Phu Quoc)",
+    "public_name": "로얄 호텔 푸꾸옥 1 (ROYAL HOTEL PHU QUOC)",
     "slug": "royal-hotel-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -258,7 +268,7 @@
     "google_maps_name": "ROYAL HOTEL PHU QUOC",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJtc9o0lKXpzERaiJkBt3PCf0",
     "phone": "+84 947 012 356",
-    "website_url": "http://royalphuquoc.com/",
+    "website_url": "https://www.agoda.com/ko-kr/khach-san-royal-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -276,11 +286,12 @@
     "lat": 10.0273346,
     "lng": 104.0084437,
     "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
-    "photo_permission": "Official public media (http://royalphuquoc.com/)"
+    "photo_permission": "Official public media (http://royalphuquoc.com/)",
+    "agoda_url": "https://www.agoda.com/ko-kr/khach-san-royal-phu-quoc/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-9",
-    "public_name": "펠라 호텔 선셋타운 (Fella Hotel Sunset Town)",
+    "public_name": "펠라 호텔 선셋타운 (FELLA HOTEL)",
     "slug": "fella-hotel",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -291,7 +302,7 @@
     "google_maps_name": "FELLA HOTEL",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJjZ-YVl6XpzERBev66-X35uQ",
     "phone": "+84 297 3992 797",
-    "website_url": "http://fellahotel.vn/",
+    "website_url": "https://www.agoda.com/ko-kr/fella-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -313,7 +324,8 @@
     "lat": 10.0256867,
     "lng": 104.0076622,
     "media_note": "Image source: https://www.facebook.com/Fellahotel",
-    "photo_permission": "Official public media (https://www.facebook.com/Fellahotel)"
+    "photo_permission": "Official public media (https://www.facebook.com/Fellahotel)",
+    "agoda_url": "https://www.agoda.com/ko-kr/fella-hotel/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-10",
@@ -328,7 +340,7 @@
     "google_maps_name": "Times Corner Amalfi Hotel",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJjRZrewCXpzERoLfxbMC-_ao",
     "phone": "+84 812 331 199",
-    "website_url": "https://timescornerphuquoc.com/amalfi",
+    "website_url": "https://www.agoda.com/ko-kr/times-corner-amalfi-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -350,11 +362,12 @@
     "lat": 10.0286037,
     "lng": 104.00853079999999,
     "media_note": "Image source: https://timescornerphuquoc.com/amalfi",
-    "photo_permission": "Official public media (https://timescornerphuquoc.com/amalfi)"
+    "photo_permission": "Official public media (https://timescornerphuquoc.com/amalfi)",
+    "agoda_url": "https://www.agoda.com/ko-kr/times-corner-amalfi-hotel/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-11",
-    "public_name": "로지 힐사이드 시뷰 아파트먼트 (Rosie Hillside Seaview Apartment)",
+    "public_name": "로지 힐사이드 시뷰 아파트먼트 (Rosie Hillside Phu Quoc apartment)",
     "slug": "rosie-hillside-phu-quoc-apartment",
     "category": "hotels",
     "subcategory": "residence",
@@ -391,7 +404,7 @@
   },
   {
     "id": "local-sunset-12",
-    "public_name": "카세피아 호텔 푸꾸옥 (Casepia Hotel Phu Quoc)",
+    "public_name": "카세피아 호텔 푸꾸옥 (CASEPiA)",
     "slug": "casepia",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -402,7 +415,7 @@
     "google_maps_name": "CASEPiA",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJRxYLYomXpzERCi3mFgoiNp4",
     "phone": "+84 918 450 099",
-    "website_url": "http://www.casepia.com/",
+    "website_url": "https://www.agoda.com/ko-kr/casepia/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -418,11 +431,16 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0245108,
-    "lng": 104.00787
+    "lng": 104.00787,
+    "agoda_url": "https://www.agoda.com/ko-kr/casepia/hotel/phu-quoc-island-vn.html",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ]
   },
   {
     "id": "local-sunset-13",
-    "public_name": "르 보뇌르 호텔 (Le Bonheur Hotel Sunset Town)",
+    "public_name": "르 보뇌르 호텔 (Le Bonheur Hotel)",
     "slug": "le-bonheur-hotel",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -433,7 +451,7 @@
     "google_maps_name": "Le Bonheur Hotel",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJPZ4-MRiXpzER0cBb6s2l0EI",
     "phone": "+84 368 680 899",
-    "website_url": "https://www.facebook.com/lebonheurhotel",
+    "website_url": "https://www.agoda.com/ko-kr/le-bonheur-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -449,11 +467,12 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0278922,
-    "lng": 104.0084608
+    "lng": 104.0084608,
+    "agoda_url": "https://www.agoda.com/ko-kr/le-bonheur-hotel/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-14",
-    "public_name": "루나 솔 선셋 & 파이어웍스 시그니처 (Luna Sol Hillside Apartment)",
+    "public_name": "루나 솔 선셋 & 파이어웍스 시그니처 (Luna Sol Sunset & Firework Signature)",
     "slug": "luna-sol-sunset-firework-signature",
     "category": "hotels",
     "subcategory": "residence",
@@ -486,7 +505,7 @@
   },
   {
     "id": "local-sunset-15",
-    "public_name": "드 스테파노 커피 앤 호텔 (De Stefano Coffee & Hotel)",
+    "public_name": "드 스테파노 커피 앤 호텔 (De Stefano Hotel Coffee)",
     "slug": "de-stefano-hotel-coffee",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -497,7 +516,7 @@
     "google_maps_name": "De Stefano Hotel Coffee",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJCY_uEYqXpzERtNAHnYgN8rc",
     "phone": "+84 345 512 946",
-    "website_url": "http://destefano.vn/",
+    "website_url": "https://www.agoda.com/ko-kr/de-stefano-coffee-and-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -513,11 +532,12 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "가성비 수식어 삭제 | 유명 수식어 삭제 | 포토존 -> 명소 중립화",
     "lat": 10.026038999999999,
-    "lng": 104.00837639999999
+    "lng": 104.00837639999999,
+    "agoda_url": "https://www.agoda.com/ko-kr/de-stefano-coffee-and-hotel/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-16",
-    "public_name": "스타벅스 비치 하우스 선셋타운점 (Starbucks Beach House Sun Primavera)",
+    "public_name": "스타벅스 비치 하우스 선셋타운 (Starbucks Beach House Sun Primavera)",
     "slug": "starbucks-beach-house-sun-primavera",
     "category": "beaches",
     "subcategory": "cafe",
@@ -529,7 +549,7 @@
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJlXfNAn-VpzERPevvIKQTJiM",
     "phone": "+84 297 3667 179",
     "website_url": "https://starbucks.vn/",
-    "instagram_url": "https://www.instagram.com/starbucksvietnam/",
+    "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
@@ -552,7 +572,7 @@
   },
   {
     "id": "local-sunset-17",
-    "public_name": "엘리데이 아파트먼트 힐사이드 푸꾸옥 (Elyday Apartment Hillside)",
+    "public_name": "엘리데이 아파트먼트 힐사이드 푸꾸옥 (Elyday Apartment Hillside Phu Quoc - Sea & Firework view)",
     "slug": "elyday-apartment-hillside-phu-quoc-sea-firework-view",
     "category": "hotels",
     "subcategory": "residence",
@@ -598,7 +618,7 @@
     "google_maps_name": "Blue Hotel Sunset Town Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJkxnyzB-VpzERiqEaw7e2MHA",
     "phone": "+84 912 824 408",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/blue-hotel-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -614,7 +634,8 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0312716,
-    "lng": 104.0067887
+    "lng": 104.0067887,
+    "agoda_url": "https://www.agoda.com/ko-kr/blue-hotel-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-19",
@@ -660,7 +681,7 @@
     "google_maps_name": "Blue Home Sunset Town Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJLzWBN6KVpzERtskBmd6MwKw",
     "phone": "+84 965 826 489",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/blue-home-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -676,7 +697,8 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.031844,
-    "lng": 104.0052875
+    "lng": 104.0052875,
+    "agoda_url": "https://www.agoda.com/ko-kr/blue-home-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-21",
@@ -939,7 +961,7 @@
     "google_maps_name": "Milan Hotel",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ8wmMbXaXpzERStmPml0_UD8",
     "phone": "+84 917 452 211",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/milan-hotel-coffee/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -955,7 +977,8 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0312009,
-    "lng": 104.0072642
+    "lng": 104.0072642,
+    "agoda_url": "https://www.agoda.com/ko-kr/milan-hotel-coffee/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-30",
@@ -970,7 +993,7 @@
     "google_maps_name": "TH Luxury Hotel",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJM7-eNwCXpzERplviN61yYmc",
     "phone": "+84 943 999 369",
-    "website_url": "http://thluxuryhotel.com/",
+    "website_url": "https://www.agoda.com/ko-kr/th-luxury-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -986,7 +1009,8 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0344722,
-    "lng": 104.0083889
+    "lng": 104.0083889,
+    "agoda_url": "https://www.agoda.com/ko-kr/th-luxury-hotel/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-31",
@@ -1133,7 +1157,7 @@
   },
   {
     "id": "local-sunset-36",
-    "public_name": "Hongkong Roast House|Halal kitchen Phu Quoc",
+    "public_name": "홍콩 로스트 하우스 (Hongkong Roast House | Halal kitchen Phu Quoc)",
     "slug": "hongkong-roast-house-halal-kitchen-phu-quoc",
     "category": "hotels",
     "subcategory": "boutique_hotel",
@@ -1141,7 +1165,7 @@
     "description_en": "Hongkong Roast House|Halal kitchen Phu Quoc is a boutique hotel located in Sunset Town, Phu Quoc.",
     "description_ko": "선셋타운 지중해풍 부티크 호텔.",
     "address": "Sunset bazaar, Sunset town, Phú Quốc, An Giang 92516, Vietnam",
-    "google_maps_name": "Hongkong Roast House|Halal kitchen Phu Quoc",
+    "google_maps_name": "Hongkong Roast House | Halal kitchen Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJEwFlcSCXpzERdgAgbDFJ86A",
     "phone": "+84 835 777 655",
     "website_url": null,
@@ -1243,7 +1267,7 @@
     "google_maps_name": "Cybele Sunset Hotel Phú Quốc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJM3WdM8mVpzERaaspeat4G3I",
     "phone": "+84 941 323 223",
-    "website_url": "https://cybelesunsethotel.com/",
+    "website_url": "https://www.agoda.com/ko-kr/cybele-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -1263,7 +1287,8 @@
     "lat": 10.0306654,
     "lng": 104.0060165,
     "media_note": "Image source: https://cybelesunsethotel.com/",
-    "photo_permission": "Official public media (https://cybelesunsethotel.com/)"
+    "photo_permission": "Official public media (https://cybelesunsethotel.com/)",
+    "agoda_url": "https://www.agoda.com/ko-kr/cybele-hotel/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-40",
@@ -1340,7 +1365,7 @@
     "google_maps_name": "Rova 105 Hotel",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJSf1XiyqVpzERESXp2yD4RDI",
     "phone": "+84 828 606 886",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/roma-hotel-phu-qu-c/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -1356,7 +1381,8 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.031465899999999,
-    "lng": 104.0056396
+    "lng": 104.0056396,
+    "agoda_url": "https://www.agoda.com/ko-kr/roma-hotel-phu-qu-c/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-43",
@@ -1371,7 +1397,7 @@
     "google_maps_name": "Sole Casa Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJCzU1h7OXpzER6BRzBKSqRks",
     "phone": "+84 931 023 335",
-    "website_url": "http://solecasavn.com/",
+    "website_url": "https://www.agoda.com/ko-kr/sole-casa-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -1389,7 +1415,8 @@
     "lat": 10.0290612,
     "lng": 104.0098077,
     "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
-    "photo_permission": "Official public media (http://solecasavn.com/)"
+    "photo_permission": "Official public media (http://solecasavn.com/)",
+    "agoda_url": "https://www.agoda.com/ko-kr/sole-casa-phu-quoc/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-44",
@@ -1435,11 +1462,11 @@
     "google_maps_name": "The Nice Hotel Phu Quoc - Fireworks & Ocean view",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJWyR4R6WVpzERdWiJg-xbMZs",
     "phone": "+84 798 853 999",
-    "website_url": "http://facebook.com/thenicehotelphuquocvn",
+    "website_url": "https://www.agoda.com/ko-kr/the-nice-hotel-phu-quoc-fireworks-ocean-view/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
-    "status": "published",
-    "verification_status": "ai_checked",
-    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
+    "status": "draft",
+    "verification_status": "unverified",
+    "verification_note": "비공개 처리 2026-11-01: 아고다 URL 301 리디렉션(도시목록), 타 숙소(더 룸 호텔)와 별칭 혼선 가능성, 현장 미확인",
     "google_rating": 4.7,
     "google_review_count": 50,
     "gallery_urls": [
@@ -1455,7 +1482,11 @@
     "lat": 10.0308909,
     "lng": 104.0058689,
     "media_note": "Image source: http://facebook.com/thenicehotelphuquocvn",
-    "photo_permission": "Official public media (http://facebook.com/thenicehotelphuquocvn)"
+    "photo_permission": "Official public media (http://facebook.com/thenicehotelphuquocvn)",
+    "agoda_url": "https://www.agoda.com/ko-kr/the-nice-hotel-phu-quoc-fireworks-ocean-view/hotel/phu-quoc-island-vn.html",
+    "is_featured": false,
+    "badges": [],
+    "is_published": false
   },
   {
     "id": "local-sunset-46",
@@ -1501,7 +1532,7 @@
     "google_maps_name": "Sunny Hotel Phu Quoc- Ven 18 Sunset Town",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJJyvaIBKXpzERPWxGoWlnWoc",
     "phone": "+84 817 778 862",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/sunny-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -1517,7 +1548,8 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.03049,
-    "lng": 104.005862
+    "lng": 104.005862,
+    "agoda_url": "https://www.agoda.com/ko-kr/sunny-hotel/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-48",
@@ -1631,7 +1663,7 @@
     "google_maps_name": "SOLÉA Hotels & Apartments Sunset Town",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJxbxyGNSXpzEREPa-cnK86aY",
     "phone": "+84 297 7300 189",
-    "website_url": "http://soleahotel.vn/",
+    "website_url": "https://www.agoda.com/ko-kr/solea-hotel-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -1647,7 +1679,8 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.0298578,
-    "lng": 104.0083037
+    "lng": 104.0083037,
+    "agoda_url": "https://www.agoda.com/ko-kr/solea-hotel-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-52",
@@ -1662,7 +1695,7 @@
     "google_maps_name": "Lotus Home Hillside",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJC_zbaC2XpzERmmgdPCSvGy4",
     "phone": "+84 562 006 688",
-    "website_url": "https://www.lotushomephuquoc.com/",
+    "website_url": "https://www.agoda.com/ko-kr/lotus-home-hillside/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -1682,7 +1715,8 @@
     "lat": 10.034174799999999,
     "lng": 104.0043965,
     "media_note": "Image source: https://www.lotushomephuquoc.com/",
-    "photo_permission": "Official public media (https://www.lotushomephuquoc.com/)"
+    "photo_permission": "Official public media (https://www.lotushomephuquoc.com/)",
+    "agoda_url": "https://www.agoda.com/ko-kr/lotus-home-hillside/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-53",
@@ -1763,7 +1797,7 @@
     "google_maps_name": "Trung nguyên E coffee - JENBEN HOTEL",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJqVgIBfGVpzERic6Fg2JP45o",
     "phone": "+84 913 753 999",
-    "website_url": "https://www.facebook.com/profile.php?id=100064362120671&mibextid=LQQJ4d",
+    "website_url": null,
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -1825,7 +1859,7 @@
     "google_maps_name": "Hoàng Hôn Tím Boutique Hotel",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJe4CLfRKXpzERL0ZvGC778Bk",
     "phone": "+84 947 980 904",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/hoa-ng-hon-ti-m-boutique-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -1841,7 +1875,8 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0257322,
-    "lng": 104.00765489999999
+    "lng": 104.00765489999999,
+    "agoda_url": "https://www.agoda.com/ko-kr/hoa-ng-hon-ti-m-boutique-hotel/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-58",
@@ -1856,7 +1891,7 @@
     "google_maps_name": "Sunset Royal",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJI__GdUGXpzERKX435iNiC3o",
     "phone": null,
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/sunset-royal/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -1872,7 +1907,8 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0301414,
-    "lng": 104.0082927
+    "lng": 104.0082927,
+    "agoda_url": "https://www.agoda.com/ko-kr/sunset-royal/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-59",
@@ -1918,7 +1954,7 @@
     "google_maps_name": "Golden Sunset Hotel",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJLYZRqS2VpzERBkJetwNxgg8",
     "phone": "+84 981 779 868",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/golden-sunset-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -1934,7 +1970,8 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0305882,
-    "lng": 104.0061444
+    "lng": 104.0061444,
+    "agoda_url": "https://www.agoda.com/ko-kr/golden-sunset-hotel/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-61",
@@ -1949,7 +1986,7 @@
     "google_maps_name": "ROVA HOTEL & SPA PHU QUOC",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJM6pVVcqVpzERvwPbu-fNL6w",
     "phone": "+84 965 532 882",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/roma-hotel-phu-qu-c/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -1965,7 +2002,8 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0314673,
-    "lng": 104.00561019999999
+    "lng": 104.00561019999999,
+    "agoda_url": "https://www.agoda.com/ko-kr/roma-hotel-phu-qu-c/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-62",
@@ -2011,7 +2049,7 @@
     "google_maps_name": "TK HOUSE PHU QUOC",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJvZLgZACVpzERuXVHXu51M80",
     "phone": "+84 974 149 719",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/tk-house-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -2027,7 +2065,8 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0319726,
-    "lng": 104.0054467
+    "lng": 104.0054467,
+    "agoda_url": "https://www.agoda.com/ko-kr/tk-house-phu-quoc/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-65",
@@ -2042,7 +2081,7 @@
     "google_maps_name": "CASA DEL MAR BOUTIQUE HOTEL",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJL0J55ZiXpzERbAGmlh0s12I",
     "phone": null,
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/casa-del-mar-boutique-hotel/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -2058,7 +2097,8 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0307485,
-    "lng": 104.0072895
+    "lng": 104.0072895,
+    "agoda_url": "https://www.agoda.com/ko-kr/casa-del-mar-boutique-hotel/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-66",
@@ -2197,7 +2237,7 @@
     "google_maps_name": "MERCI HOTEL SUNSET TOWN PHU QUOC",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJh1FRPgCVpzERb673NoY0a2k",
     "phone": null,
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/merci-hotel-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -2213,7 +2253,8 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0327418,
-    "lng": 104.00556329999999
+    "lng": 104.00556329999999,
+    "agoda_url": "https://www.agoda.com/ko-kr/merci-hotel-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-71",
@@ -2228,7 +2269,7 @@
     "google_maps_name": "The Fern Phu Quoc Hotel Sunset Town",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJk3IxcACVpzERP5hIbpsfIUI",
     "phone": "+84 983 395 095",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/hotel/phu-quoc-island-vn.html?hotel_id=49927783",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -2244,7 +2285,8 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0321973,
-    "lng": 104.0056224
+    "lng": 104.0056224,
+    "agoda_url": "https://www.agoda.com/ko-kr/hotel/phu-quoc-island-vn.html?hotel_id=49927783"
   },
   {
     "id": "local-sunset-72",
@@ -2352,7 +2394,7 @@
     "google_maps_name": "La Phan Phu Quoc Hillside Apartment",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJizGVMi-XpzERx5BfQC3-v_Q",
     "phone": "+84 963 273 836",
-    "website_url": "https://www.facebook.com/laphanphuquoc",
+    "website_url": "https://www.agoda.com/ko-kr/la-phan-phu-quoc-hillside-apartment/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -2368,7 +2410,8 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.0294984,
-    "lng": 104.0088997
+    "lng": 104.0088997,
+    "agoda_url": "https://www.agoda.com/ko-kr/la-phan-phu-quoc-hillside-apartment/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-76",
@@ -2414,7 +2457,7 @@
     "google_maps_name": "Crystal Apartment Hillside Phu Quoc - Sunset Town & Firework",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ320mYwCXpzER-9Vv3cMrOvk",
     "phone": "+84 904 298 956",
-    "website_url": "https://www.facebook.com/CrystalApartmentHillsidePhuQuoc",
+    "website_url": "https://www.agoda.com/ko-kr/hotel/phu-quoc-island-vn.html?hotel_id=86362561",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -2434,7 +2477,8 @@
     "lat": 10.0297255,
     "lng": 104.0088018,
     "media_note": "Image source: https://www.facebook.com/CrystalApartmentHillsidePhuQuoc",
-    "photo_permission": "Official public media (https://www.facebook.com/CrystalApartmentHillsidePhuQuoc)"
+    "photo_permission": "Official public media (https://www.facebook.com/CrystalApartmentHillsidePhuQuoc)",
+    "agoda_url": "https://www.agoda.com/ko-kr/hotel/phu-quoc-island-vn.html?hotel_id=86362561"
   },
   {
     "id": "local-sunset-78",
@@ -2449,7 +2493,7 @@
     "google_maps_name": "Dido Carthage Apartment Sunset Town, Phu Quoc Island",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJcWEuF12XpzERcz_lK7OYDlw",
     "phone": "+84 904 298 956",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/dido-carthage-apartment-sunset-town-phu-quoc-island/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -2465,7 +2509,8 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.030641,
-    "lng": 104.00781309999999
+    "lng": 104.00781309999999,
+    "agoda_url": "https://www.agoda.com/ko-kr/dido-carthage-apartment-sunset-town-phu-quoc-island/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-79",
@@ -2480,7 +2525,7 @@
     "google_maps_name": "JS Hotel Phu Quoc Sunset Town",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJRSic4YOXpzERfVMlKoCM9v8",
     "phone": "+84 983 586 592",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/js-hotel-phu-quoc-sunset-town/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -2496,7 +2541,8 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0317854,
-    "lng": 104.00601309999999
+    "lng": 104.00601309999999,
+    "agoda_url": "https://www.agoda.com/ko-kr/js-hotel-phu-quoc-sunset-town/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-80",
@@ -2511,7 +2557,7 @@
     "google_maps_name": "Haibot 12 Homestay Sunset Town Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJndpEdaCWpzERSJKUI11zKzo",
     "phone": "+84 353 346 568",
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/haibot-12-homestay-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -2527,7 +2573,8 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "(해당 없음)",
     "lat": 10.027996,
-    "lng": 104.007283
+    "lng": 104.007283,
+    "agoda_url": "https://www.agoda.com/ko-kr/haibot-12-homestay-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-81",
@@ -2573,7 +2620,7 @@
     "google_maps_name": "Hillside Apartment in Sunset Town, Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJO1D89qCWpzERs-4VpolXxCQ",
     "phone": null,
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/hillside-apartment-in-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -2589,7 +2636,8 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.0294218,
-    "lng": 104.00921629999999
+    "lng": 104.00921629999999,
+    "agoda_url": "https://www.agoda.com/ko-kr/hillside-apartment-in-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-83",
@@ -2604,7 +2652,7 @@
     "google_maps_name": "Hillside Sunset Town Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJgaHIR6CWpzERjGjAhK1qpYE",
     "phone": null,
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/hillside-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -2620,11 +2668,12 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.0279817,
-    "lng": 104.00933839999999
+    "lng": 104.00933839999999,
+    "agoda_url": "https://www.agoda.com/ko-kr/hillside-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-84",
-    "public_name": "Sunset Town Apartment Phu Quoc",
+    "public_name": "선셋타운 아파트먼트 푸꾸옥 (Sunset Town Apartment Phu Quoc)",
     "slug": "sunset-town-apartment-phu-quoc",
     "category": "hotels",
     "subcategory": "residence",
@@ -2632,7 +2681,7 @@
     "description_en": "Sunset Town Apartment Phu Quoc is a residence apartment located in Sunset Town, Phu Quoc.",
     "description_ko": "Sun Grand City Hillside 고층 아파트먼트, 오션/불꽃놀이 뷰.",
     "address": "Phu Quoc, An Giang, Vietnam",
-    "google_maps_name": "Season Apartment Sunset Town",
+    "google_maps_name": "Sunset Town Apartment Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJg0OEO6CWpzERLcs9LETAtdI",
     "phone": null,
     "website_url": null,
@@ -2666,7 +2715,7 @@
     "google_maps_name": "Casa Del Mar Hotel & Apartment - Sunset Town",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJt7Y0Jx6UpzER635fflPTrNI",
     "phone": null,
-    "website_url": null,
+    "website_url": "https://www.agoda.com/ko-kr/casa-del-mar-hotel-apartment-sunset-town/hotel/phu-quoc-island-vn.html",
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -2682,7 +2731,8 @@
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
     "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
     "lat": 10.0303326,
-    "lng": 104.0071258
+    "lng": 104.0071258,
+    "agoda_url": "https://www.agoda.com/ko-kr/casa-del-mar-hotel-apartment-sunset-town/hotel/phu-quoc-island-vn.html"
   },
   {
     "id": "local-sunset-86",
@@ -2717,7 +2767,7 @@
   },
   {
     "id": "local-sunset-87",
-    "public_name": "카다이 인디안 레스토랑 (Kadhai Indian Restaurant)",
+    "public_name": "카다이 인디안 레스토랑 (Kadhai Indian Restaurant Sunset Town (Phu Quoc))",
     "slug": "kadhai-indian-restaurant-sunset-town-phu-quoc",
     "category": "dining",
     "subcategory": "international",
@@ -2755,7 +2805,7 @@
   },
   {
     "id": "local-sunset-88",
-    "public_name": "마하라자 라운지 선셋타운 (Maharaja Lounge - 인도 채식 레스토랑)",
+    "public_name": "마하라자 라운지 선셋타운 (Maharaja Lounge - 100% Pure Veg Authentic Indian Restaurant Sunset Town)",
     "slug": "maharaja-lounge-100-pure-veg-authentic-indian-restaurant-sunset-town",
     "category": "dining",
     "subcategory": "international",
@@ -2793,7 +2843,7 @@
   },
   {
     "id": "local-sunset-89",
-    "public_name": "메디테란 선셋타운 (MEDITERRAN - 그리스 & 이탈리안 레스토랑)",
+    "public_name": "메디테란 선셋타운 (MEDITERRAN Sunset Town (Greek & Italian Restaurant) pizza, pasta & souvlaki)",
     "slug": "mediterran-sunset-town-greek-italian-restaurant-pizza-pasta-souvlaki",
     "category": "dining",
     "subcategory": "western",
@@ -2805,7 +2855,7 @@
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJoU5XY4qXpzER7IMIeP5u2_U",
     "phone": "+84 931 068 931",
     "website_url": "https://mediterran.vn/",
-    "instagram_url": "https://www.instagram.com/mediterran.vn/",
+    "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
@@ -2829,7 +2879,7 @@
   },
   {
     "id": "local-sunset-90",
-    "public_name": "핀카 (Finca - La Festa Hilton 스페인 다이닝)",
+    "public_name": "핀카 (Finca)",
     "slug": "finca",
     "category": "dining",
     "subcategory": "western",
@@ -2862,7 +2912,7 @@
   },
   {
     "id": "local-sunset-91",
-    "public_name": "세타 (Seta - La Festa Hilton 광동식 파인다이닝)",
+    "public_name": "세타 (Seta)",
     "slug": "seta",
     "category": "dining",
     "subcategory": "international",
@@ -2898,7 +2948,7 @@
   },
   {
     "id": "local-sunset-92",
-    "public_name": "남보 키친 (NamBo Kitchen - Southern Vietnamese Cuisine)",
+    "public_name": "남보 키친 (NamBo Kitchen)",
     "slug": "nambo-kitchen",
     "category": "dining",
     "subcategory": "vietnamese",
@@ -2909,7 +2959,7 @@
     "google_maps_name": "NamBo Kitchen",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ22vgGjSVpzERYizOdzNYy64",
     "phone": "+84 562 006 688",
-    "website_url": "https://www.facebook.com/The.lords.of.everything/",
+    "website_url": null,
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -2928,12 +2978,12 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0328368,
     "lng": 104.0045013,
-    "media_note": "Image source: https://www.facebook.com/The.lords.of.everything/",
-    "photo_permission": "Official public media (https://www.facebook.com/The.lords.of.everything/)"
+    "media_note": "Photo: Google Maps (contributor photo) — verified 2026-11-01",
+    "photo_permission": "Google Maps public listing photo"
   },
   {
     "id": "local-sunset-93",
-    "public_name": "옥토퍼스 아일랜드 레스토랑 (Octopus Island - 부이페스트 야시장)",
+    "public_name": "옥토퍼스 아일랜드 레스토랑 (Octopus Island Restaurant - Night Market Sunset town)",
     "slug": "octopus-island-restaurant-night-market-sunset-town",
     "category": "dining",
     "subcategory": "seafood",
@@ -2995,7 +3045,7 @@
   },
   {
     "id": "local-sunset-95",
-    "public_name": "블루 테이블 (Blue Table - 이탈리안 레스토랑)",
+    "public_name": "블루 테이블 (Blue Table( Italian Restaurant ))",
     "slug": "blue-table-italian-restaurant",
     "category": "dining",
     "subcategory": "western",
@@ -3006,7 +3056,7 @@
     "google_maps_name": "Blue Table( Italian Restaurant )",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJt4niIACVpzERsZinQbNSOvs",
     "phone": "+84 932 755 083",
-    "website_url": "https://www.instagram.com/bluetablepq/",
+    "website_url": null,
     "instagram_url": "https://www.instagram.com/bluetablepq/",
     "status": "published",
     "verification_status": "ai_checked",
@@ -3025,12 +3075,12 @@
     "_deleted_claims": "맛집 단어 -> 음식점/식당 중립화 | 쾌적한 수식어 삭제 | 미검증 휠체어 접근성 스펙 삭제",
     "lat": 10.0317771,
     "lng": 104.0063704,
-    "media_note": "Image source: https://www.facebook.com/bluetablepq",
-    "photo_permission": "Official public media (https://www.facebook.com/bluetablepq)"
+    "media_note": "Photo: Google Maps (contributor photo) — verified 2026-11-01",
+    "photo_permission": "Google Maps public listing photo"
   },
   {
     "id": "local-sunset-96",
-    "public_name": "베니스 카페 & 이터리 (Venice Café & Eatery)",
+    "public_name": "베니스 카페 & 이터리 (Venice Cafe)",
     "slug": "venice-cafe",
     "category": "dining",
     "subcategory": "cafe",
@@ -3060,12 +3110,12 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0305444,
     "lng": 104.005597,
-    "media_note": "Image source: https://www.facebook.com/skyethhospitality/",
-    "photo_permission": "Official public media (https://www.facebook.com/skyethhospitality/)"
+    "media_note": "Photo: Google Maps (contributor photo) — verified 2026-11-01",
+    "photo_permission": "Google Maps public listing photo"
   },
   {
     "id": "local-sunset-97",
-    "public_name": "델리 다르바르 인디안 레스토랑 (Delhi Darbaar)",
+    "public_name": "델리 다르바르 인디안 레스토랑 (Delhi Darbaar Indian Restaurant (Indian Food in Sunset Town Phu Quoc))",
     "slug": "delhi-darbaar-indian-restaurant-indian-food-in-sunset-town-phu-quoc",
     "category": "dining",
     "subcategory": "international",
@@ -3076,7 +3126,7 @@
     "google_maps_name": "Delhi Darbaar Indian Restaurant (Indian Food in Sunset Town Phu Quoc)",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJhZhof9GNpzERkbbDN9MnQEo",
     "phone": "+84 886 099 952",
-    "website_url": "https://www.instagram.com/delhi_darbaar_restaurant",
+    "website_url": null,
     "instagram_url": "https://www.instagram.com/delhi_darbaar_restaurant",
     "status": "published",
     "verification_status": "ai_checked",
@@ -3096,7 +3146,7 @@
   },
   {
     "id": "local-sunset-98",
-    "public_name": "까이 멈 비스트로 (Cái Mâm Bistro - Vietnamese Noodles & Cafe)",
+    "public_name": "까이 멈 비스트로 (CÁI MÂM BISTRO)",
     "slug": "cai-mam-bistro",
     "category": "dining",
     "subcategory": "cafe",
@@ -3135,7 +3185,7 @@
   },
   {
     "id": "local-sunset-99",
-    "public_name": "껌 메 (Cơm Mẹ - 엄마의 밥상 베트남 가정식)",
+    "public_name": "껌 메 (Cơm Mẹ)",
     "slug": "com-me",
     "category": "dining",
     "subcategory": "vietnamese",
@@ -3168,7 +3218,7 @@
   },
   {
     "id": "local-sunset-100",
-    "public_name": "푸꾸옥 뚱보집 선셋타운점 (한식당)",
+    "public_name": "푸꾸옥 뚱보집 선셋타운 (Phu Quoc Ttungbojip Sunset Town)",
     "slug": "sunset-place",
     "category": "dining",
     "subcategory": "korean",
@@ -3231,7 +3281,7 @@
   },
   {
     "id": "local-sunset-102",
-    "public_name": "마레 (Mare - La Festa Hilton 이탈리안 레스토랑)",
+    "public_name": "마레 (Mare)",
     "slug": "mare",
     "category": "dining",
     "subcategory": "western",
@@ -3243,7 +3293,7 @@
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJFUbrywqVpzERZ-766zaQ1NE",
     "phone": "+84 297 3525 555",
     "website_url": "https://www.hilton.com/en/hotels/pqcpqqq-la-festa-phu-quoc/dining/mare/",
-    "instagram_url": "https://www.instagram.com/lafestaphuquoc/",
+    "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
@@ -3266,7 +3316,7 @@
   },
   {
     "id": "local-sunset-103",
-    "public_name": "포틴 푸꾸옥 (Phở Thìn Phú Quốc - 하노이 3대 쌀국수 & 핫팟)",
+    "public_name": "포틴 푸꾸옥 (Phở Thìn Phú Quốc - Top 3 Pho & Hot Pot)",
     "slug": "pho-thin-phu-quoc-top-3-pho-hot-pot",
     "category": "dining",
     "subcategory": "vietnamese",
@@ -3278,7 +3328,7 @@
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJFYITJBKVpzERPIOdOa8Hzyg",
     "phone": "+84 969 408 558",
     "website_url": "https://phothinhanoi.vn/",
-    "instagram_url": "http://instagram.com/phothin.phuquoc",
+    "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
@@ -3314,7 +3364,7 @@
     "phone": null,
     "website_url": "https://facebook.com/sorrentophuquoc",
     "instagram_url": null,
-    "status": "published",
+    "status": "unpublished",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.6,
@@ -3330,7 +3380,7 @@
   },
   {
     "id": "local-sunset-105",
-    "public_name": "더 갱스 선셋 (The Gangs Sunset - 해산물 & 크래프트 비어)",
+    "public_name": "더 갱스 선셋 (The Gangs Sunset)",
     "slug": "the-gangs-sunset",
     "category": "beaches",
     "subcategory": "seafood",
@@ -3365,7 +3415,7 @@
   },
   {
     "id": "local-sunset-106",
-    "public_name": "케이브맨 스모크 립 & 크래프트 비어 (Caveman Smoked Ribs)",
+    "public_name": "케이브맨 스모크 립 & 크래프트 비어 (Caveman Smoked Ribs & Craft Beer)",
     "slug": "caveman-smoked-ribs-craft-beer",
     "category": "dining",
     "subcategory": "restaurant",
@@ -3403,7 +3453,7 @@
   },
   {
     "id": "local-sunset-107",
-    "public_name": "더 머천트 (The Merchant - La Festa Hilton 올데이 다이닝)",
+    "public_name": "더 머천트 (The Merchant)",
     "slug": "the-merchant",
     "category": "dining",
     "subcategory": "restaurant",
@@ -3415,7 +3465,7 @@
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJD-a4fwCVpzERA9KJ8gWE4cA",
     "phone": "+84 297 3525 555",
     "website_url": "https://www.hilton.com/en/hotels/pqcpqqq-la-festa-phu-quoc/dining/the-merchant/",
-    "instagram_url": "https://www.instagram.com/lafestaphuquoc/",
+    "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
@@ -3439,7 +3489,7 @@
   },
   {
     "id": "local-sunset-108",
-    "public_name": "투안 끼에우 2 해산물 그릴 전문점 (Nhà hàng hải sản Thuận Kiều 2)",
+    "public_name": "투안 끼에우 2 해산물 식당 (Nhà hàng hải sản Thuận Kiều 2 | Seafood & Grill)",
     "slug": "nha-hang-hai-san-thuan-kieu-2-seafood-grill",
     "category": "dining",
     "subcategory": "seafood",
@@ -3484,7 +3534,7 @@
   },
   {
     "id": "local-sunset-109",
-    "public_name": "하이산캉 (Hải Sản Cảng Phú Quốc - 해산물 전문점)",
+    "public_name": "하이산캉 푸꾸옥 (Hải Sản Cảng Phú Quốc - Seafood Restaurant)",
     "slug": "sunset-place-1",
     "category": "dining",
     "subcategory": "seafood",
@@ -3517,7 +3567,7 @@
   },
   {
     "id": "local-sunset-110",
-    "public_name": "쿵푸 누들 푸꾸옥 (Kungfu Noodle Phú Quốc - 수타면 & 딤섬)",
+    "public_name": "쿵푸 누들 푸꾸옥 (Kungfu Noodle Phú Quốc)",
     "slug": "kungfu-noodle-phu-quoc",
     "category": "dining",
     "subcategory": "international",
@@ -3548,7 +3598,7 @@
   },
   {
     "id": "local-sunset-111",
-    "public_name": "카페 루남 푸꾸옥 (Café RuNam Phú Quốc - Hexagonal House)",
+    "public_name": "카페 루남 선셋타운 (RuNam Sunset Town)",
     "slug": "sunset-place-2",
     "category": "beaches",
     "subcategory": "cafe",
@@ -3585,7 +3635,7 @@
   },
   {
     "id": "local-sunset-112",
-    "public_name": "라군 BBQ & 베트남 퀴진 (Lagoon BBQ & Vietnamese Cuisine)",
+    "public_name": "라군 BBQ & 베트남 퀴진 (LAGOON BBQ & VIETNAMESE CUISINE)",
     "slug": "lagoon-bbq-vietnamese-cuisine",
     "category": "beaches",
     "subcategory": "vietnamese",
@@ -3596,7 +3646,7 @@
     "google_maps_name": "LAGOON BBQ & VIETNAMESE CUISINE",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJexQHMSaVpzERSr6zIxWjYDs",
     "phone": "+84 944 112 655",
-    "website_url": "https://www.facebook.com/lagooncuisinephuquoc/",
+    "website_url": null,
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -3618,12 +3668,12 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0314736,
     "lng": 104.0046234,
-    "media_note": "Image source: https://www.facebook.com/lagooncuisinephuquoc/",
-    "photo_permission": "Official public media (https://www.facebook.com/lagooncuisinephuquoc/)"
+    "media_note": "Photo: Google Maps (contributor photo) — verified 2026-11-01",
+    "photo_permission": "Google Maps public listing photo"
   },
   {
     "id": "local-sunset-113",
-    "public_name": "껌자딘 선셋타운 (Cơm Gia Đình - 베트남 가정식)",
+    "public_name": "껌자딘 선셋타운 (Cơm Gia Đình Sunset Town)",
     "slug": "sunset-place-3",
     "category": "dining",
     "subcategory": "vietnamese",
@@ -3656,7 +3706,7 @@
   },
   {
     "id": "local-sunset-114",
-    "public_name": "껌니우 비엣 선셋타운 (Nhà hàng Cơm Niêu Việt - 베트남 돌솥밥)",
+    "public_name": "껌니우 비엣 선셋타운 (Nhà hàng Cơm Niêu Việt Địa Trung Hải)",
     "slug": "nha-hang-com-nieu-viet-di-a-trung-hai",
     "category": "beaches",
     "subcategory": "seafood",
@@ -3798,7 +3848,7 @@
     "google_maps_name": "Mai Hương Restaurant - Sunset Town",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ1SUXRwCVpzERK21wkH1D7nM",
     "phone": "+84 387 778 989",
-    "website_url": "https://www.facebook.com/MaiHuongSunset/",
+    "website_url": null,
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -3819,8 +3869,8 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.035465,
     "lng": 104.0060658,
-    "media_note": "Image source: https://www.facebook.com/MaiHuongSunset/",
-    "photo_permission": "Official public media (https://www.facebook.com/MaiHuongSunset/)"
+    "media_note": "Photo: Google Maps (contributor photo) — verified 2026-11-01",
+    "photo_permission": "Google Maps public listing photo"
   },
   {
     "id": "local-sunset-119",
@@ -3902,7 +3952,7 @@
     "phone": "+84 365 833 811",
     "website_url": "https://www.facebook.com/profile.php?id=61568821410077",
     "instagram_url": null,
-    "status": "published",
+    "status": "unpublished",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
@@ -4162,7 +4212,7 @@
     "google_maps_name": "Hải Sản Hàm Ninh",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJr-c8ZACVpzER41yqzYEUGAE",
     "phone": "+84 396 557 008",
-    "website_url": "https://www.facebook.com/share/18YWEGe34F/?mibextid=wwXIfr",
+    "website_url": null,
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -4381,7 +4431,7 @@
     "google_maps_name": "WOW QUÊ TÔI",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_6I1rnKVpzERSyzp7e76ffQ",
     "phone": "+84 987 318 766",
-    "website_url": "http://facebook.com/wowquetoi.pq",
+    "website_url": null,
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -4401,8 +4451,8 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0312208,
     "lng": 104.0062293,
-    "media_note": "Image source: http://facebook.com/wowquetoi.pq",
-    "photo_permission": "Official public media (http://facebook.com/wowquetoi.pq)"
+    "media_note": "Photo: Google Maps (contributor photo) — verified 2026-11-01",
+    "photo_permission": "Google Maps public listing photo"
   },
   {
     "id": "local-sunset-137",
@@ -4448,7 +4498,7 @@
     "google_maps_name": "One Boat Restaurant & Bar",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJLwGTViCVpzER8VvsPx7gfqs",
     "phone": "+84 769 751 626",
-    "website_url": "https://www.facebook.com/profile.php?id=61569373786615",
+    "website_url": null,
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -4469,8 +4519,8 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.0332063,
     "lng": 104.0031386,
-    "media_note": "Image source: https://www.facebook.com/profile.php?id=61569373786615",
-    "photo_permission": "Official public media (https://www.facebook.com/profile.php?id=61569373786615)"
+    "media_note": "Photo: Google Maps (contributor photo) — verified 2026-11-01",
+    "photo_permission": "Google Maps public listing photo"
   },
   {
     "id": "local-sunset-140",
@@ -4555,7 +4605,7 @@
     "phone": "+84 979 912 912",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unpublished",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.8,
@@ -4584,7 +4634,7 @@
     "phone": "+84 385 496 727",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unpublished",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.5,
@@ -4613,7 +4663,7 @@
     "phone": "+84 989 338 712",
     "website_url": "https://www.facebook.com/hoanghonquan123",
     "instagram_url": null,
-    "status": "published",
+    "status": "unpublished",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4,
@@ -4642,7 +4692,7 @@
     "phone": "+84 971 981 234",
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unpublished",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.9,
@@ -4671,7 +4721,7 @@
     "phone": "+82 10-5119-7814",
     "website_url": "https://www.instagram.com/wave_pqc/",
     "instagram_url": "https://www.instagram.com/wave_pqc/",
-    "status": "published",
+    "status": "unpublished",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
@@ -4689,7 +4739,7 @@
   },
   {
     "id": "local-sunset-147",
-    "public_name": "카페 그린 선셋타운 (Cafe Green - 망고빙수 전문)",
+    "public_name": "카페 그린 선셋타운 (CAFE GREEN SUNSET TOWN)",
     "slug": "cafe-green-sunset-town",
     "category": "dining",
     "subcategory": "cafe",
@@ -4722,7 +4772,7 @@
   },
   {
     "id": "local-sunset-148",
-    "public_name": "하이랜드 커피 안터이 케이블카역점 (Highlands Coffee Cable Car An Thới)",
+    "public_name": "하이랜드 커피 안터이 케이블카역 (Highlands Coffee Cable Car An Thới PQ)",
     "slug": "highlands-coffee-cable-car-an-thoi-pq",
     "category": "dining",
     "subcategory": "cafe",
@@ -4770,7 +4820,7 @@
     "phone": null,
     "website_url": "https://www.facebook.com/EricKayserVietnam",
     "instagram_url": null,
-    "status": "published",
+    "status": "unpublished",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.3,
@@ -4799,7 +4849,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "published",
+    "status": "unpublished",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 3.3,
@@ -4879,7 +4929,7 @@
   },
   {
     "id": "local-sunset-153",
-    "public_name": "Kem Tràng Tiền - Sunset Town, Phú Quốc",
+    "public_name": "Kem Tràng Tiền - Milan, Thị Trấn Hoàng hôn",
     "slug": "kem-trang-tien-sunset-town-phu-quoc",
     "category": "dining",
     "subcategory": "cafe",
@@ -4910,7 +4960,7 @@
   },
   {
     "id": "local-sunset-154",
-    "public_name": "Casa Limone Phu Quoc Hotel & Café - Specialty Coffee & Matcha Bar",
+    "public_name": "Casa Limone Hotel & Café - Specialty Coffee & Matcha",
     "slug": "casa-limone-phu-quoc-hotel-cafe-specialty-coffee-matcha-bar",
     "category": "dining",
     "subcategory": "cafe",
@@ -4952,7 +5002,7 @@
     "google_maps_name": "Sunset Tiger Tea",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJO5hTZgCVpzERv98h_ecyvFc",
     "phone": "+84 974 618 285",
-    "website_url": "https://www.facebook.com/profile.php?id=61553857376147",
+    "website_url": null,
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -5202,7 +5252,7 @@
     "google_maps_name": "The Fern Coffee Sea",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJUZs9AACVpzERDU2CVZEwhMQ",
     "phone": "+84 888 211 440",
-    "website_url": "https://www.facebook.com/people/The-Fern-Coffee-Sea-Phu-Quoc/61579059610627/",
+    "website_url": null,
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -5235,7 +5285,7 @@
     "google_maps_name": "SANTO CAFE",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJM56vPyOVpzERkcoihdCbcQg",
     "phone": "+84 907 548 130",
-    "website_url": "https://www.facebook.com/Thesantocafe",
+    "website_url": null,
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -5375,7 +5425,7 @@
   },
   {
     "id": "local-sunset-169",
-    "public_name": "루나 포크 (Luna Folk - La Festa Hilton 재즈 & 칵테일 바)",
+    "public_name": "루나 포크 (Luna Folk)",
     "slug": "luna-folk",
     "category": "bars",
     "subcategory": "bar",
@@ -5408,7 +5458,7 @@
   },
   {
     "id": "local-sunset-170",
-    "public_name": "일 살로네 (iL Salone - La Festa Hilton 애프터눈티 & 라운지 바)",
+    "public_name": "일 살로네 (iL Salone – Afternoon Tea Lounge & Bar)",
     "slug": "il-salone-afternoon-tea-lounge-bar",
     "category": "bars",
     "subcategory": "bar",
@@ -5420,7 +5470,7 @@
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJbR-3v0iXpzERO5uhXf8gO8k",
     "phone": "+84 297 3525 555",
     "website_url": "https://www.hilton.com/en/hotels/pqcpqqq-la-festa-phu-quoc/dining/il-salone/",
-    "instagram_url": "https://www.instagram.com/lafestaphuquoc/",
+    "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
@@ -5441,7 +5491,7 @@
   },
   {
     "id": "local-sunset-171",
-    "public_name": "씨엘로 루프탑 바 (Cielo Rooftop Bar - La Festa Hilton)",
+    "public_name": "씨엘로 루프탑 바 (Cielo)",
     "slug": "cielo",
     "category": "bars",
     "subcategory": "bar",
@@ -5453,7 +5503,7 @@
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJzXtAVDKXpzER1cjjYNLZETM",
     "phone": "+84 297 3525 555",
     "website_url": "https://www.hilton.com/en/hotels/pqcpqqq-la-festa-phu-quoc/dining/cielo/",
-    "instagram_url": "https://www.instagram.com/lafestaphuquoc/",
+    "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
@@ -5477,7 +5527,7 @@
   },
   {
     "id": "local-sunset-172",
-    "public_name": "술탄 터키쉬 케밥 선셋타운 (Sultan Turkish Kebab)",
+    "public_name": "술탄 터키쉬 케밥 선셋타운 (Sultan Turkish Kebab – Sunset Town Phu Quoc)",
     "slug": "sultan-turkish-kebab-sunset-town-phu-quoc",
     "category": "dining",
     "subcategory": "international",
@@ -5510,7 +5560,7 @@
   },
   {
     "id": "local-sunset-173",
-    "public_name": "선 바바리아 가스트로펍 (Sun Bavaria GastroPub - Sun KraftBeer)",
+    "public_name": "선 바바리아 가스트로펍 (Sun Bavaria GastroPub)",
     "slug": "sun-bavaria-gastropub",
     "category": "beaches",
     "subcategory": "bar",
@@ -5522,7 +5572,7 @@
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJAwwqc2yVpzER_4K_0feO5I8",
     "phone": "+84 914 144 066",
     "website_url": "https://sunsettown.com.vn/",
-    "instagram_url": "https://www.instagram.com/sunbavariagastropub/",
+    "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
@@ -5543,7 +5593,7 @@
   },
   {
     "id": "local-sunset-174",
-    "public_name": "지온 바 & 바이츠 키친 (Giòn Bar & Bites Kitchen)",
+    "public_name": "지온 바 & 바이츠 키친 (Giòn Bar)",
     "slug": "gion-bar",
     "category": "bars",
     "subcategory": "bar",
@@ -5555,7 +5605,7 @@
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ2_09NpGVpzERNU0LHL9210Q",
     "phone": "+84 915 451 828",
     "website_url": "https://gionbarpq.kiotvietweb.vn/",
-    "instagram_url": "https://www.instagram.com/gionphuquoc/",
+    "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
@@ -5587,7 +5637,7 @@
     "phone": "+84 297 3906 059",
     "website_url": "http://www.facebook.com/draftbeervn",
     "instagram_url": null,
-    "status": "published",
+    "status": "unpublished",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4,
@@ -5607,7 +5657,7 @@
   },
   {
     "id": "local-sunset-176",
-    "public_name": "테아트로 클럽 푸꾸옥 (Teatro Club Phú Quốc)",
+    "public_name": "테아트로 클럽 푸꾸옥 (Teatro Club Phú Quốc)",
     "slug": "teatro-club-phu-quo-c",
     "category": "beaches",
     "subcategory": "bar",
@@ -5619,7 +5669,7 @@
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJgdPeM-6VpzERp4qCP5Rftfc",
     "phone": "+84 793 445 555",
     "website_url": "https://teatrovietnam.com/",
-    "instagram_url": "https://www.instagram.com/teatroclubphuquoc/",
+    "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
@@ -5713,7 +5763,7 @@
     "google_maps_name": "Hiên Nhà Veranda Sunset Town Phú Quốc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJWemJxp-XpzER7U_LSFAw2FI",
     "phone": "+84 297 3906 059",
-    "website_url": "https://www.facebook.com/veranda.vn",
+    "website_url": null,
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -5746,7 +5796,7 @@
     "google_maps_name": "Mango Mango",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJxyS9aICXpzERzjprHrHS6HM",
     "phone": "+84 367 450 995",
-    "website_url": "https://www.facebook.com/vietnamselect",
+    "website_url": null,
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -5797,7 +5847,7 @@
   },
   {
     "id": "local-sunset-182",
-    "public_name": "롱비치 미니마트 선셋타운 (Long Beach Mini Mart)",
+    "public_name": "롱비치 미니마트 선셋타운 (Long Beach Mini Mart Sunset Town)",
     "slug": "long-beach-mini-mart-sunset-town",
     "category": "shopping",
     "subcategory": "convenience_store",
@@ -5830,7 +5880,7 @@
   },
   {
     "id": "local-sunset-183",
-    "public_name": "토니 마트 24시 선셋타운 (Tony Mart 24h - The Center)",
+    "public_name": "토니 마트 24시 선셋타운 (TONY MART CN3 - Siêu thị tiện ích 24h)",
     "slug": "tony-mart-cn3-sieu-thi-tien-ich-24h",
     "category": "shopping",
     "subcategory": "convenience_store",
@@ -5861,7 +5911,7 @@
   },
   {
     "id": "local-sunset-184",
-    "public_name": "68마트 (68Mart - 여행자 마트 & 푸꾸옥 특산품)",
+    "public_name": "68마트 (68Mart – Local Mart for Tourists | Đặc sản Phú Quốc)",
     "slug": "68mart-local-mart-for-tourists-dac-san-phu-quoc",
     "category": "shopping",
     "subcategory": "convenience_store",
@@ -5872,7 +5922,7 @@
     "google_maps_name": "68Mart – Local Mart for Tourists | Đặc sản Phú Quốc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJt72kKACVpzER02fxBgKfwjM",
     "phone": "+84 877 049 387",
-    "website_url": "https://www.facebook.com/68martPQ",
+    "website_url": null,
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -5894,7 +5944,7 @@
   },
   {
     "id": "local-sunset-185",
-    "public_name": "베트남 셀렉트 슈퍼마켓 (Siêu thị Vietnam Select - 선셋타운 최대 대형마트)",
+    "public_name": "베트남 셀렉트 슈퍼마켓 (Vietnam Select)",
     "slug": "vietnam-select",
     "category": "shopping",
     "subcategory": "convenience_store",
@@ -5971,7 +6021,7 @@
     "phone": "+84 962 010 161",
     "website_url": "https://vuonbaba.com/",
     "instagram_url": null,
-    "status": "review",
+    "status": "unpublished",
     "verification_status": "manual_review",
     "verification_note": "구글맵 영구 폐업(Permanently closed) 확인 — 비공개(review) 전환",
     "google_rating": 5,
@@ -5998,7 +6048,7 @@
     "google_maps_name": "Muoi Mini Mart - Sunset Town",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJZxIdKxnB9WYR0OpNKEcReFQ",
     "phone": "+84 902 278 885",
-    "website_url": "https://www.facebook.com/share/16fUSCCgV2/?mibextid=wwXIfr",
+    "website_url": null,
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -6017,8 +6067,8 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.03261,
     "lng": 104.00477529999999,
-    "media_note": "Image source: https://www.facebook.com/share/16fUSCCgV2/?mibextid=wwXIfr",
-    "photo_permission": "Official public media (https://www.facebook.com/share/16fUSCCgV2/?mibextid=wwXIfr)"
+    "media_note": "Photo: Google Maps (contributor photo) — verified 2026-11-01",
+    "photo_permission": "Google Maps public listing photo"
   },
   {
     "id": "local-sunset-189",
@@ -6035,7 +6085,7 @@
     "phone": null,
     "website_url": null,
     "instagram_url": null,
-    "status": "review",
+    "status": "unpublished",
     "verification_status": "manual_review",
     "verification_note": "구글맵 실물 매장 핀 미존재 (배달전용 커스텀 ID) — 비공개(review) 전환",
     "google_rating": 4.9,
@@ -6284,7 +6334,7 @@
     "google_maps_name": "HƯỜNG NGUYỄN COSMETICS",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJNaTg2vuXpzERZnqMv7SVHvA",
     "phone": "+84 932 045 452",
-    "website_url": "https://www.facebook.com/Huongnguyen16795",
+    "website_url": null,
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -6303,8 +6353,8 @@
     "_deleted_claims": "(해당 없음)",
     "lat": 10.035685299999999,
     "lng": 104.0150333,
-    "media_note": "Image source: https://www.facebook.com/Huongnguyen16795",
-    "photo_permission": "Official public media (https://www.facebook.com/Huongnguyen16795)"
+    "media_note": "Photo: Google Maps (contributor photo) — verified 2026-11-01",
+    "photo_permission": "Google Maps public listing photo"
   },
   {
     "id": "local-sunset-198",
@@ -6381,7 +6431,7 @@
     "google_maps_name": "DUGONG MART",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ2xD_WwCXpzER-iMnVxEhwYc",
     "phone": "+84 798 307 979",
-    "website_url": "https://www.facebook.com/profile.php?id=61555694579188",
+    "website_url": null,
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -6400,12 +6450,12 @@
     "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
     "lat": 10.035722699999999,
     "lng": 104.0153236,
-    "media_note": "Image source: https://www.facebook.com/profile.php?id=61555694579188",
-    "photo_permission": "Official public media (https://www.facebook.com/profile.php?id=61555694579188)"
+    "media_note": "Photo: Google Maps (contributor photo) — verified 2026-11-01",
+    "photo_permission": "Google Maps public listing photo"
   },
   {
     "id": "local-sunset-201",
-    "public_name": "아말피 67 약국 (Pharmacy Amalfi 67 Sunset Town)",
+    "public_name": "아말피 67 약국 (Pharmacy Amalfi 67 sunset town phường an thới đặc khu phú quốc)",
     "slug": "pharmacy-amalfi-67-sunset-town-phuong-an-thoi-dac-khu-phu-quoc",
     "category": "essentials",
     "subcategory": "pharmacy",
@@ -6416,7 +6466,7 @@
     "google_maps_name": "Pharmacy Amalfi 67 sunset town phường an thới đặc khu phú quốc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJgeZqD5SVpzERoy7NGQ43Sy8",
     "phone": "+84 868 681 994",
-    "website_url": "https://www.facebook.com/share/17FLzD5kgx/?mibextid=wwXIfr",
+    "website_url": null,
     "instagram_url": null,
     "status": "review",
     "verification_status": "ai_checked",
@@ -6436,7 +6486,7 @@
   },
   {
     "id": "local-sunset-202",
-    "public_name": "선 국제병원 푸꾸옥 (Bệnh viện Quốc tế Mặt Trời - Sun Serenia Hospital)",
+    "public_name": "선 국제병원 푸꾸옥 (Bệnh viện Quốc tế Mặt Trời Phú Quốc)",
     "slug": "benh-vien-quoc-te-mat-troi-phu-quoc",
     "category": "essentials",
     "subcategory": "clinic",
@@ -6473,7 +6523,7 @@
   },
   {
     "id": "local-sunset-203",
-    "public_name": "DNG 국제 종합 클리닉 안터이점 (Phòng Khám Đa Khoa Quốc Tế DNG)",
+    "public_name": "DNG 국제 종합 클리닉 안터이 (Phòng Khám Đa Khoa Quốc Tế DNG (Cơ Sở An Thới))",
     "slug": "phong-kham-da-khoa-quoc-te-dng-co-so-an-thoi",
     "category": "essentials",
     "subcategory": "clinic",
@@ -6519,7 +6569,7 @@
     "phone": "+84 868 681 994",
     "website_url": null,
     "instagram_url": null,
-    "status": "review",
+    "status": "unpublished",
     "verification_status": "manual_review",
     "verification_note": "상호명 번지수 표기 및 약국(pharmacy-amalfi-67)과 전화번호 중복 — 비공개(review) 전환",
     "google_rating": 4.3,
@@ -6535,7 +6585,7 @@
   },
   {
     "id": "local-sunset-205",
-    "public_name": "안캉 약국 안터이점 (Nhà Thuốc An Khang - 대형 체인 약국)",
+    "public_name": "안캉 약국 안터이 (Nhà thuốc An Khang)",
     "slug": "sunset-place-5",
     "category": "essentials",
     "subcategory": "pharmacy",
@@ -6568,7 +6618,7 @@
   },
   {
     "id": "local-sunset-206",
-    "public_name": "FPT 롱쩌우 약국 안터이점 (Nhà Thuốc FPT Long Châu)",
+    "public_name": "FPT 롱쩌우 약국 안터이 (Nhà Thuốc FPT Long Châu)",
     "slug": "nha-thuoc-fpt-long-chau",
     "category": "essentials",
     "subcategory": "pharmacy",
@@ -6769,7 +6819,7 @@
     "phone": "+84 394 180 174",
     "website_url": null,
     "instagram_url": null,
-    "status": "review",
+    "status": "unpublished",
     "verification_status": "manual_review",
     "verification_note": "nha-thuoc-thanh-do 동일 주소(5.5m) 중복 핀 — 비공개(review) 전환",
     "google_rating": 5,
@@ -7108,7 +7158,7 @@
     "phone": "+84 941 168 520",
     "website_url": "https://www.instagram.com/pq.angnail/",
     "instagram_url": "https://www.instagram.com/pq.angnail/",
-    "status": "published",
+    "status": "unpublished",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 5,
@@ -7139,7 +7189,7 @@
     "phone": "+84 939 402 567",
     "website_url": "https://www.facebook.com/lumispaphuquoc/",
     "instagram_url": "https://www.instagram.com/lumispa.phuquoc/",
-    "status": "published",
+    "status": "unpublished",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
@@ -7172,7 +7222,7 @@
     "phone": "+82 10-5119-7814",
     "website_url": "https://www.instagram.com/wave_pqc/",
     "instagram_url": "https://www.instagram.com/wave_pqc/",
-    "status": "published",
+    "status": "unpublished",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
     "google_rating": 4.9,
@@ -7190,7 +7240,7 @@
   },
   {
     "id": "local-sunset-226",
-    "public_name": "코코넛 스파 & 카페 (Coconut Spa & Cafe)",
+    "public_name": "코코넛 스파 & 카페 (Coconut Spa&Cafe)",
     "slug": "coconut-spa-cafe",
     "category": "dining",
     "subcategory": "cafe",
@@ -7221,7 +7271,7 @@
   },
   {
     "id": "local-sunset-227",
-    "public_name": "블랙스파 푸꾸옥 (Black Spa Phu Quoc)",
+    "public_name": "블랙스파 푸꾸옥 (Blackspa Phuquoc)",
     "slug": "blackspa-phuquoc",
     "category": "wellness",
     "subcategory": "spa",
@@ -7294,8 +7344,8 @@
     "google_maps_name": "La Festa Phu Quoc, Curio Collection by Hilton",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJc4_lgKCWpzERfX9ic42Xi-s",
     "phone": "+84 297 3525 555",
-    "website_url": "https://www.hilton.com/en/hotels/pqcpqqq-la-festa-phu-quoc/",
-    "instagram_url": "https://www.instagram.com/lafestaphuquoc/",
+    "website_url": "https://www.agoda.com/ko-kr/la-festa-phu-quoc-curio-collection-by-hilton/hotel/phu-quoc-island-vn.html",
+    "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
@@ -7312,7 +7362,12 @@
     "lat": 10.029571299999999,
     "lng": 104.007601,
     "media_note": "QA 2026-11-01: 업체 실제 모습이 아닌 홍보 배너·로고·타지역 광고·문서/초상 사진 — 대표 사진에서 제외(카테고리 기본 이미지로 대체)",
-    "photo_permission": "Official public media (https://www.facebook.com/lafestaphuquoc)"
+    "photo_permission": "Official public media (https://www.facebook.com/lafestaphuquoc)",
+    "agoda_url": "https://www.agoda.com/ko-kr/la-festa-phu-quoc-curio-collection-by-hilton/hotel/phu-quoc-island-vn.html",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ]
   },
   {
     "id": "local-sunset-230",
@@ -7328,7 +7383,7 @@
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJebcgOgCVpzERju4UV3vLlHw",
     "phone": "+84 907 902 369",
     "website_url": null,
-    "instagram_url": "https://www.instagram.com/chipsspanail",
+    "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
@@ -7347,7 +7402,7 @@
   },
   {
     "id": "local-sunset-231",
-    "public_name": "KING Spa & Massage Sunset Town Phú Quốc | Spa Phú Quốc | 푸꾸옥 마사지샵",
+    "public_name": "킹 스파 & 마사지 (KING Spa & Massage Sunset Town Phú Quốc)",
     "slug": "king-spa-massage-sunset-town-phu-quoc-spa-phu-quoc",
     "category": "wellness",
     "subcategory": "spa",
@@ -7389,7 +7444,7 @@
     "google_maps_name": "SUNSET BLOOM SPA",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ7VnT_3uVpzER4yazXSkfeG8",
     "phone": "+84 867 525 879",
-    "website_url": "https://www.facebook.com/share/19Na48CYSH/",
+    "website_url": null,
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -7424,7 +7479,7 @@
     "phone": "+84 963 273 836",
     "website_url": null,
     "instagram_url": null,
-    "status": "review",
+    "status": "unpublished",
     "verification_status": "manual_review",
     "verification_note": "구글맵 임시 휴업(Temporarily closed) 확인 — 비공개(review) 전환",
     "google_rating": 5,
@@ -7440,7 +7495,7 @@
   },
   {
     "id": "local-sunset-234",
-    "public_name": "Sakurakyo Spa Phu Quoc |フットマッサージ | スパマッサージ | Massage Body | Massage Foot",
+    "public_name": "사쿠라쿄 스파 푸꾸옥 (Sakurakyo Spa Phu Quoc)",
     "slug": "sakurakyo-spa-phu-quoc-massage-body-massage-foot",
     "category": "wellness",
     "subcategory": "spa",
@@ -7448,7 +7503,7 @@
     "description_en": "Sakurakyo Spa Phu Quoc |フットマッサージ | スパマッサージ | Massage Body | Massage Foot is a spa & massage center located in Sunset Town, Phu Quoc.",
     "description_ko": "전신·발 마사지 및 네일 케어.",
     "address": "A44-A46 Đ. Amalfi, Sunset Town, Phú Quốc, An Giang 92500, Vietnam",
-    "google_maps_name": "Sakurakyo Spa Phu Quoc | Massage Body & Foot",
+    "google_maps_name": "Sakurakyo Spa Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJS9wjorOXpzERYSjKguaEmUY",
     "phone": "+84 899 108 308",
     "website_url": "https://skyethgroup.com/sakurakyo-spa/",
@@ -7471,7 +7526,7 @@
   },
   {
     "id": "local-sunset-235",
-    "public_name": "OASIS Spa Massage & Nail (Sunset Town Phu Quoc) 마사지 및 네일 스파 按摩和美甲",
+    "public_name": "오아시스 스파 (OASIS Spa Massage & Nail (Sunset Town Phu Quoc))",
     "slug": "oasis-spa-massage-nail-sunset-town-phu-quoc",
     "category": "wellness",
     "subcategory": "spa",
@@ -7577,7 +7632,7 @@
     "google_maps_name": "Candle Spa",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJAXBY4QaNpzERRzRNokHlSgY",
     "phone": "+84 337 777 334",
-    "website_url": "https://www.facebook.com/Candle-Spa-100267874818477/",
+    "website_url": null,
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -7596,8 +7651,8 @@
     "_deleted_claims": "미검증 휠체어 접근성 스펙 삭제",
     "lat": 10.0319007,
     "lng": 104.00478939999999,
-    "media_note": "Image source: https://www.facebook.com/Candle-Spa-100267874818477/",
-    "photo_permission": "Official public media (https://www.facebook.com/Candle-Spa-100267874818477/)"
+    "media_note": "Photo: Google Maps (contributor photo) — verified 2026-11-01",
+    "photo_permission": "Google Maps public listing photo"
   },
   {
     "id": "local-sunset-239",
@@ -7614,7 +7669,7 @@
     "phone": "+84 918 529 090",
     "website_url": null,
     "instagram_url": null,
-    "status": "review",
+    "status": "unpublished",
     "verification_status": "manual_review",
     "verification_note": "구글맵 임시 휴업(Temporarily closed) 확인 — 비공개(review) 전환",
     "google_rating": 4.9,
@@ -7676,7 +7731,7 @@
     "phone": "+84 911 268 278",
     "website_url": "https://venicespamedica.com/",
     "instagram_url": null,
-    "status": "review",
+    "status": "unpublished",
     "verification_status": "manual_review",
     "verification_note": "구글맵 임시 휴업(Temporarily closed) 확인 — 비공개(review) 전환",
     "google_rating": 4.9,
@@ -7797,7 +7852,7 @@
   },
   {
     "id": "local-sunset-246",
-    "public_name": "솔라나 스파",
+    "public_name": "솔라나 스파 선셋타운 (SOLANA Spa Sunset Town Phú Quốc)",
     "slug": "sunset-place-9",
     "category": "wellness",
     "subcategory": "spa",
@@ -7860,7 +7915,7 @@
   },
   {
     "id": "local-sunset-248",
-    "public_name": "Miss Tiên Spa & Homestay Phu Quốc Sunset Town 按摩 마사지",
+    "public_name": "미스 띠엔 스파 & 홈스테이 (Miss Tiên Spa & Homestay Phú Quốc Sunset Town)",
     "slug": "miss-tien-spa-homestay-phu-quoc-sunset-town",
     "category": "wellness",
     "subcategory": "spa",
@@ -7902,7 +7957,7 @@
     "google_maps_name": "Sunset Spa Phú Quốc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJO4Xsb_qNpzER-PmClNP5660",
     "phone": "+84 819 860 168",
-    "website_url": "https://www.facebook.com/sunsetspa.anthoiphuquoc/",
+    "website_url": null,
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -7992,7 +8047,7 @@
   },
   {
     "id": "local-sunset-252",
-    "public_name": "어웨이큰 씨 쇼 (Awaken Sea - 일몰 수상 스포츠 쇼)",
+    "public_name": "어웨이큰 씨 쇼 (Awaken Sea)",
     "slug": "awaken-sea",
     "category": "activities",
     "subcategory": "attraction",
@@ -8023,7 +8078,7 @@
   },
   {
     "id": "local-sunset-253",
-    "public_name": "선셋타운 시계탑 (Clock Tower / Tháp Đồng Hồ)",
+    "public_name": "선셋타운 시계탑 (Tháp Đồng Hồ)",
     "slug": "thap-dong-ho",
     "category": "activities",
     "subcategory": "attraction",
@@ -8054,7 +8109,7 @@
   },
   {
     "id": "local-sunset-254",
-    "public_name": "고대 폼페이 유적 기둥 (Pompeii Ruins)",
+    "public_name": "고대 폼페이 유적 기둥 (Cột Đá Cổ Pompeii - Ancient Pompeii)",
     "slug": "cot-da-co-pompeii-ancient-pompeii",
     "category": "activities",
     "subcategory": "attraction",
@@ -8085,7 +8140,7 @@
   },
   {
     "id": "local-sunset-255",
-    "public_name": "키스 브릿지 (Kiss Bridge / Cầu Hôn)",
+    "public_name": "키스 브릿지 (Kiss Bridge)",
     "slug": "kiss-bridge",
     "category": "activities",
     "subcategory": "attraction",
@@ -8118,7 +8173,7 @@
   },
   {
     "id": "local-sunset-256",
-    "public_name": "드래곤 계단 (Dragon Staircase / Thang Rồng)",
+    "public_name": "드래곤 계단 (Thang Rồng)",
     "slug": "thang-rong",
     "category": "activities",
     "subcategory": "attraction",
@@ -8149,7 +8204,7 @@
   },
   {
     "id": "local-sunset-257",
-    "public_name": "부이페스트 바자 야시장 (VUI-Fest Bazaar Night Market)",
+    "public_name": "부이페스트 바자 야시장 (Chợ Đêm Vui-Fest Bazaar Sunset Town)",
     "slug": "cho-dem-vui-fest-bazaar-sunset-town",
     "category": "activities",
     "subcategory": "attraction",
@@ -8160,7 +8215,7 @@
     "google_maps_name": "Chợ Đêm Vui-Fest Bazaar Sunset Town",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJe-XGILOVpzERFUpU0tLXMoY",
     "phone": "+84 886 045 888",
-    "website_url": "https://www.facebook.com/VuiFest.Bazaar",
+    "website_url": null,
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -8180,7 +8235,7 @@
   },
   {
     "id": "local-sunset-258",
-    "public_name": "키스 오브 더 씨 쇼 (Kiss of the Sea Show & 불꽃놀이)",
+    "public_name": "키스 오브 더 씨 쇼 (Kiss of the Sea Show - Nụ hôn của Biển Cả)",
     "slug": "sunset-place-10",
     "category": "activities",
     "subcategory": "attraction",
@@ -8192,7 +8247,7 @@
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJtSQ7ywmVpzERvzagy4sWZus",
     "phone": "+84 886 045 888",
     "website_url": "https://kissofthesea.com/",
-    "instagram_url": "https://www.instagram.com/kissoftheseashow/",
+    "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
@@ -8217,7 +8272,7 @@
   },
   {
     "id": "local-sunset-259",
-    "public_name": "선월드 혼똔섬 케이블카 탑승장 (Hon Thom Cable Car - 안즈엉역)",
+    "public_name": "선월드 혼똔섬 케이블카 탑승장 (Sunworld Hòn Thơm - Hon Thom Cable Car Phu Quoc)",
     "slug": "sunworld-hon-thom-hon-thom-cable-car-phu-quoc",
     "category": "activities",
     "subcategory": "attraction",
@@ -8229,7 +8284,7 @@
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJvxdKNoKWpzERAWSyG5rABsg",
     "phone": null,
     "website_url": "https://honthom.sunworld.vn/",
-    "instagram_url": "https://www.instagram.com/sunworldhonthomnaturepark/",
+    "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
     "verification_note": "Master DB 수집 2026-10, 현장 미확인",
@@ -8253,7 +8308,7 @@
   },
   {
     "id": "local-sunset-260",
-    "public_name": "심포니 오브 더 씨 쇼 (Symphony of the Sea)",
+    "public_name": "심포니 오브 더 씨 쇼 (Symphony of the sea show)",
     "slug": "symphony-of-the-sea-show",
     "category": "activities",
     "subcategory": "attraction",
@@ -8336,7 +8391,7 @@
     "phone": "+84 789 579 181",
     "website_url": null,
     "instagram_url": null,
-    "status": "review",
+    "status": "unpublished",
     "verification_status": "manual_review",
     "verification_note": "구글맵 영구 폐업(Permanently closed) 확인 — 비공개(review) 전환",
     "google_rating": 4.8,
@@ -8383,7 +8438,7 @@
   },
   {
     "id": "local-sunset-264",
-    "public_name": "Phú Quốc Laundry (Giặt sấy, 옷 세탁 및 건조)",
+    "public_name": "Phú Quốc Laundry (Giặt sấy)",
     "slug": "phu-quoc-laundry-giat-say",
     "category": "essentials",
     "subcategory": "laundry",
@@ -8394,7 +8449,7 @@
     "google_maps_name": "Phú Quốc Laundry (Giặt sấy)",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ3XnvB6WVpzERvfQlQF07n4c",
     "phone": "+84 989 939 960",
-    "website_url": "https://www.facebook.com/share/7xWiKcSWhvJRgeJi/?mibextid=JRoKGi",
+    "website_url": null,
     "instagram_url": null,
     "status": "review",
     "verification_status": "ai_checked",
@@ -8522,7 +8577,7 @@
     "phone": "+84 93 965 5610 / +84 886 045 888",
     "website_url": "https://sunset-town.com/",
     "instagram_url": null,
-    "status": "review",
+    "status": "unpublished",
     "verification_status": "manual_review",
     "verification_note": "구글맵 독립 장소 핀 미존재 (이동 서비스 커스텀 ID) — 비공개(review) 전환",
     "google_rating": 4.6,
@@ -8580,7 +8635,7 @@
     "google_maps_name": "Sunset Bazaar Phú Quốc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJPZGZytL1MjERhJRt3am-myo",
     "phone": "+84 939 626 510",
-    "website_url": "https://www.facebook.com/SunsetBazaarPhuQuoc",
+    "website_url": null,
     "instagram_url": null,
     "status": "published",
     "verification_status": "ai_checked",
@@ -8599,12 +8654,12 @@
     "_deleted_claims": "포토존 -> 명소 중립화",
     "lat": 10.0294375,
     "lng": 104.0071875,
-    "media_note": "Image source: https://www.facebook.com/SunsetBazaarPhuQuoc",
-    "photo_permission": "Official public media (https://www.facebook.com/SunsetBazaarPhuQuoc)"
+    "media_note": "Photo: Google Maps (contributor photo) — verified 2026-11-01",
+    "photo_permission": "Google Maps public listing photo"
   },
   {
     "id": "local-sunset-271",
-    "public_name": "EXMoney Sunset Town | Currency Exchange",
+    "public_name": "익스머니 환전소 (EXMoney Sunset Town | Currency Exchange)",
     "slug": "exmoney-sunset-town-currency-exchange",
     "category": "banking",
     "subcategory": "currency_exchange",
@@ -8697,7 +8752,7 @@
   },
   {
     "id": "local-sunset-274",
-    "public_name": "선셋타운 환전소(sunsettown exchange)",
+    "public_name": "선셋타운 환전소 (Sunset Town Exchange)",
     "slug": "sunsettown-exchange",
     "category": "banking",
     "subcategory": "currency_exchange",
@@ -9157,8 +9212,8 @@
     "google_review_count": 50,
     "gallery_urls": [],
     "tags": [
-      "attraction",
-      "Sunset Town"
+      "Khem Beach",
+      "atm"
     ],
     "_deleted_snippet": "",
     "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
@@ -9261,15 +9316,211 @@
     "lng": 104.0165571
   },
   {
+    "id": "local-sunset-the-room-hotel",
+    "public_name": "더 룸 호텔 - 스타벅스 앤 파이어웍스 (The Room Hotel - Starbucks & FIREWORKS)",
+    "slug": "the-room-hotel",
+    "category": "hotels",
+    "subcategory": "boutique_hotel",
+    "google_place_id": "ChIJ_the_room_hotel_phu_quoc",
+    "description_en": "A 3-star hotel located on Venice Street in Sunset Town. Enjoy ocean and fireworks views from the balcony of ocean-view rooms.",
+    "description_ko": "선셋타운 베니스 거리에 위치한 3성급 호텔입니다. 오션뷰 객실 발코니에서 바다와 불꽃놀이를 감상할 수 있습니다.",
+    "address": "65 Đường Venice, An Thới, Phú Quốc, Kiên Giang, Vietnam",
+    "google_maps_name": "The Room Hotel - Starbucks & FIREWORKS",
+    "google_maps_url": "https://maps.app.goo.gl/y2P9Vq8Z5Y8Z8",
+    "phone": "+84 90 799 41 88",
+    "website_url": "https://www.agoda.com/ko-kr/the-room-hotel/hotel/phu-quoc-island-vn.html",
+    "agoda_url": "https://www.agoda.com/ko-kr/the-room-hotel/hotel/phu-quoc-island-vn.html",
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "마이푸꾸옥 공식 운영 / 추천 부티크 호텔",
+    "google_rating": 5,
+    "google_review_count": 18,
+    "is_featured": true,
+    "gallery_urls": [
+      "/covers-photo/the-room-hotel-1.webp",
+      "/covers-photo/the-room-hotel-2.webp",
+      "/covers-photo/the-room-hotel-3.webp",
+      "/covers-photo/the-room-hotel-4.webp",
+      "/covers-photo/the-room-hotel-5.webp"
+    ],
+    "tags": [
+      "boutique_hotel",
+      "Sunset Town",
+      "featured",
+      "ocean_view"
+    ],
+    "badges": [
+      "Recommended"
+    ]
+  },
+  {
+    "id": "local-sunset-34",
+    "public_name": "트라이랜드 힐사이드 (Triland Hillside)",
+    "slug": "triland-hillside",
+    "category": "hotels",
+    "subcategory": "residence",
+    "google_place_id": "ChIJOZ1p38-VpzERKC1kUSIrA4A",
+    "description_en": "Triland Hillside is a residence apartment located in Sunset Town, Phu Quoc.",
+    "description_ko": "Sun Grand City Hillside 고층 아파트먼트, 오션/불꽃놀이 뷰.",
+    "address": "thị trấn Hoàng Hôn, Phú Quốc, An Giang, Vietnam",
+    "google_maps_name": "Triland Hillside",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJOZ1p38-VpzERKC1kUSIrA4A",
+    "phone": "+84 941 507 156",
+    "website_url": "https://www.agoda.com/ko-kr/triland-hillside/hotel/phu-quoc-island-vn.html",
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "ai_checked",
+    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
+    "google_rating": 4.8,
+    "google_review_count": 50,
+    "gallery_urls": [
+      "/covers-photo/triland-hillside-1.webp"
+    ],
+    "tags": [
+      "residence",
+      "Sunset Town"
+    ],
+    "_deleted_snippet": "",
+    "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
+    "agoda_url": "https://www.agoda.com/ko-kr/triland-hillside/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photo (1 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo"
+  },
+  {
+    "id": "local-sunset-63",
+    "public_name": "Luxury Hotel & Spa Milan 38 Sunset Town",
+    "slug": "luxury-hotel-spa-milan-38-sunset-town",
+    "category": "hotels",
+    "subcategory": "boutique_hotel",
+    "google_place_id": "ChIJUVANxM6XpzERxNQieCqMz1w",
+    "description_en": "Luxury Hotel & Spa Milan 38 Sunset Town is a boutique hotel located in Sunset Town, Phu Quoc.",
+    "description_ko": "선셋타운 지중해풍 부티크 호텔.",
+    "address": "38, Milan, Sunset Town, Phú Quốc, An Giang 92513, Vietnam",
+    "google_maps_name": "Luxury Hotel & Spa Milan 38 Sunset Town",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJUVANxM6XpzERxNQieCqMz1w",
+    "phone": "+84 366 755 555",
+    "website_url": null,
+    "instagram_url": null,
+    "status": "unlisted",
+    "verification_status": "ai_checked",
+    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
+    "google_rating": 4,
+    "google_review_count": 50,
+    "gallery_urls": [],
+    "tags": [
+      "boutique_hotel",
+      "Sunset Town"
+    ],
+    "_deleted_snippet": "",
+    "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
+    "_deleted_claims": "(해당 없음)"
+  },
+  {
+    "id": "local-sunset-coastal-living",
+    "public_name": "코스탈 리빙 호텔 푸꾸옥 (Coastal Living Hotel Phu Quoc)",
+    "slug": "coastal-living-hotel-phu-quoc",
+    "category": "hotels",
+    "subcategory": "boutique_hotel",
+    "google_place_id": "ChIJ_coastal_living_phuquoc",
+    "description_en": "Boutique hotel in Sunset Town along Positano Street with high cleanliness and a 9.5 rating.",
+    "description_ko": "선셋타운 포지타노 거리에 위치한 감성 부티크 호텔. 청결한 시설과 평점 9.5의 높은 만족도.",
+    "address": "17 Positano, An Thới, Phú Quốc, Kiên Giang, Vietnam",
+    "google_maps_name": "Coastal Living Hotel Phu Quoc",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Coastal+Living+Hotel+Phu+Quoc",
+    "phone": "+84 297 3888 888",
+    "website_url": "https://www.agoda.com/ko-kr/coastal-living-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "Agoda authentic listing verified",
+    "google_rating": 4.9,
+    "google_review_count": 120,
+    "gallery_urls": [
+      "/covers-photo/coastal-living-hotel-phu-quoc-1.webp",
+      "/covers-photo/coastal-living-hotel-phu-quoc-2.webp",
+      "/covers-photo/coastal-living-hotel-phu-quoc-3.webp",
+      "/covers-photo/coastal-living-hotel-phu-quoc-4.webp",
+      "/covers-photo/coastal-living-hotel-phu-quoc-5.webp"
+    ],
+    "tags": [
+      "boutique_hotel",
+      "Sunset Town",
+      "Ocean View"
+    ],
+    "_deleted_snippet": "",
+    "_source_citation": "Agoda verified",
+    "_deleted_claims": "",
+    "agoda_url": "https://www.agoda.com/ko-kr/coastal-living-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "media_note": "Agoda authentic photos (5 photos, retouched WebP)",
+    "photo_permission": "Agoda partner / affiliate listing photo",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ],
+    "lat": 10.0268,
+    "lng": 104.0079
+  },
+  {
+    "id": "local-sunset-casepia-dining",
+    "public_name": "카세피아 키친 & 라운지 (CASEPiA Kitchen & Lounge)",
+    "slug": "casepia-kitchen-and-lounge",
+    "category": "dining",
+    "subcategory": "restaurant_and_lounge",
+    "google_place_id": "ChIJRxYLYomXpzERCi3mFgoiNp4",
+    "description_en": "Atmospheric dining & lounge at CASEPiA Hotel in Sunset Town. Located right in front of the Kiss of the Sea theater and beachfront.",
+    "description_ko": "선셋타운 소렌토 거리에 위치한 카세피아 호텔의 감성 다이닝 & 라운지. Kiss of the Sea 공연장 및 해변과 인접하여 로맨틱한 식사와 칵테일을 즐길 수 있습니다.",
+    "address": "302 - 304 đường Sorrento, Sunset Town, An Thới, Phú Quốc",
+    "google_maps_name": "CASEPiA Kitchen & Lounge",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJRxYLYomXpzERCi3mFgoiNp4",
+    "phone": "+84 918 450 099",
+    "website_url": "http://www.casepia.com/",
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "verified",
+    "verification_note": "선셋타운 마스터 시설 검증 완료",
+    "google_rating": 4.8,
+    "google_review_count": 35,
+    "gallery_urls": [
+      "/covers-photo/casepia-kitchen-and-lounge-1.webp",
+      "/covers-photo/casepia-kitchen-and-lounge-2.webp",
+      "/covers-photo/casepia-kitchen-and-lounge-3.webp",
+      "/covers-photo/casepia-kitchen-and-lounge-4.webp",
+      "/covers-photo/casepia-kitchen-and-lounge-5.webp"
+    ],
+    "tags": [
+      "dining",
+      "lounge",
+      "Sunset Town",
+      "Kiss of the Sea",
+      "Ocean View"
+    ],
+    "_deleted_snippet": "",
+    "_source_citation": "현장 확인 및 마스터 시설 연계",
+    "_deleted_claims": "",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ],
+    "price_level": "87865"
+  },
+  {
     "id": "khem-banking-king-kong",
+    "public_name": "King Kong Money Exchange - Khem Beach",
     "slug": "king-kong-money-exchange-khem-beach",
-    "name": "King Kong Money Exchange - Khem Beach",
     "category": "banking",
-    "subcategory": "exchange",
+    "subcategory": "currency_exchange",
+    "address": "Kem Beach, 59 Diamond 1, Phú Quốc, Vietnam",
+    "google_maps_name": "King Kong Money Exchange - Khem Beach",
+    "google_maps_url": "https://www.google.com/maps?cid=7406987655171001539",
     "zone": "khem-beach",
     "status": "private",
-    "google_maps_url": "https://www.google.com/maps?cid=7406987655171001539",
-    "address": "Kem Beach, 59 Diamond 1",
+    "verification_status": "verified",
+    "tags": [
+      "Khem Beach",
+      "currency_exchange"
+    ],
+    "gallery_urls": [],
     "lat": 10.038,
     "lng": 104.032
   }
