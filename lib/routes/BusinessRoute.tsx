@@ -66,13 +66,13 @@ const PHOTO_SOURCE_LABEL: Record<string, string> = {
 }
 
 const PHOTO_SOURCE_TARGET: Record<string, string> = {
-  ko: '업체 공식 홈페이지/SNS',
-  en: 'Official Website / Social Media',
-  vi: 'Website / Mạng xã hội chính thức của quán',
-  zh: '商家官方网站／社交媒体',
-  ru: 'Официальный сайт и соцсети заведения',
-  ja: '店舗公式サイト・SNS',
-  hi: 'व्यवसाय की आधिकारिक वेबसाइट / सोशल मीडिया',
+  ko: 'Google Maps',
+  en: 'Google Maps',
+  vi: 'Google Maps',
+  zh: 'Google Maps',
+  ru: 'Google Maps',
+  ja: 'Google Maps',
+  hi: 'Google Maps',
 }
 
 const PHOTO_REQUEST_LINK: Record<string, string> = {
@@ -145,6 +145,7 @@ export async function generateBusinessMetadata(
           : b.gallery_urls,
       media_note: regItem.media_note ?? b.media_note,
       photo_permission: regItem.photo_permission ?? b.photo_permission,
+      image_credits: regItem.image_credits ?? b.image_credits,
     }
   }
   if (isHiddenBusiness(b)) return {}
@@ -269,6 +270,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
           : b.gallery_urls,
       media_note: regItem.media_note ?? b.media_note,
       photo_permission: regItem.photo_permission ?? b.photo_permission,
+      image_credits: regItem.image_credits ?? b.image_credits,
     }
   }
   if (isHiddenBusiness(b)) notFound()
@@ -413,8 +415,82 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
       </header>
       <section className="shell businessDetail">
         {(() => {
+          if ((b.gallery_urls || []).length > 0) {
+            const isHotelAgoda =
+              (b.category === 'hotels' || b.category === 'hotel') &&
+              (b.agoda_url || (b.website_url && b.website_url.includes('agoda.com')))
+            const sourceHref = isHotelAgoda
+              ? b.agoda_url || b.website_url
+              : b.google_maps_url ||
+                `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(b.google_maps_name || b.public_name)}`
+            const sourceText = isHotelAgoda ? 'Agoda' : 'Google Maps'
+
+            return (
+              <div className="galleryContainer">
+                <div className="photoGallery">
+                  {b.gallery_urls.slice(0, 8).map((p: string, i: number) => (
+                    <div key={i} className={i === 0 ? 'galleryTile main' : 'galleryTile'}>
+                      <img
+                        src={imageUrl(p, i === 0 ? 1400 : 760, i === 0 ? 76 : 70)}
+                        alt={`${businessDisplayName} image ${i + 1}`}
+                        loading={i === 0 ? 'eager' : 'lazy'}
+                        decoding="async"
+                      />
+                      {badgeText && <span>{badgeText}</span>}
+                    </div>
+                  ))}
+                </div>
+                <div className="galleryCreditsFooter">
+                  <span>
+                    {locale === 'ko'
+                      ? '사진 출처:'
+                      : locale === 'zh'
+                      ? '图片来源:'
+                      : locale === 'ja'
+                      ? '写真出典:'
+                      : locale === 'ru'
+                      ? 'Источник фото:'
+                      : locale === 'hi'
+                      ? 'फोटो स्रोत:'
+                      : locale === 'vi'
+                      ? 'Nguồn ảnh:'
+                      : 'Photo source:'}
+                  </span>{' '}
+                  <a
+                    href={sourceHref}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="galleryCreditItem"
+                  >
+                    {sourceText} ↗
+                  </a>
+                  <span style={{ opacity: 0.5, margin: '0 6px' }}>·</span>
+                  <Link
+                    href={localePath(
+                      locale,
+                      `/for-businesses?public_name=${encodeURIComponent(b.public_name)}&slug=${encodeURIComponent(b.slug)}#claim`
+                    )}
+                    style={{ textDecoration: 'underline', color: 'inherit' }}
+                  >
+                    {PHOTO_REQUEST_LINK[locale] || PHOTO_REQUEST_LINK.en}
+                  </Link>
+                </div>
+              </div>
+            )
+          }
+
           const coverPhoto = getCoverPhoto(b.slug)
           if (coverPhoto) {
+            const isHotelAgoda =
+              (b.category === 'hotels' || b.category === 'hotel') &&
+              (b.agoda_url || (b.website_url && b.website_url.includes('agoda.com')))
+            const sourceHref = isHotelAgoda
+              ? b.agoda_url || b.website_url
+              : coverPhoto.source_page_url ||
+                b.google_maps_url ||
+                `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(b.google_maps_name || b.public_name)}`
+            const sourceText = isHotelAgoda ? 'Agoda' : 'Google Maps'
+
             return (
               <div style={{ marginBottom: '28px' }}>
                 <div
@@ -453,12 +529,12 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                 >
                   <span>{PHOTO_SOURCE_LABEL[locale] || PHOTO_SOURCE_LABEL.en}</span>
                   <a
-                    href={coverPhoto.source_page_url}
+                    href={sourceHref}
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ textDecoration: 'underline', color: 'inherit' }}
                   >
-                    {PHOTO_SOURCE_TARGET[locale] || PHOTO_SOURCE_TARGET.en}
+                    {sourceText} ↗
                   </a>
                   <span style={{ opacity: 0.5 }}>·</span>
                   <Link
@@ -471,125 +547,6 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                     {PHOTO_REQUEST_LINK[locale] || PHOTO_REQUEST_LINK.en}
                   </Link>
                 </div>
-              </div>
-            )
-          }
-
-          if ((b.gallery_urls || []).length > 0) {
-            const hasCredits = Array.isArray(b.image_credits) && b.image_credits.length > 0
-            return (
-              <div className="galleryContainer">
-                <div className="photoGallery">
-                  {b.gallery_urls.slice(0, 8).map((p: string, i: number) => (
-                    <div key={i} className={i === 0 ? 'galleryTile main' : 'galleryTile'}>
-                      <img
-                        src={imageUrl(p, i === 0 ? 1400 : 760, i === 0 ? 76 : 70)}
-                        alt={`${businessDisplayName} image ${i + 1}`}
-                        loading={i === 0 ? 'eager' : 'lazy'}
-                        decoding="async"
-                      />
-                      {badgeText && <span>{badgeText}</span>}
-                    </div>
-                  ))}
-                </div>
-                {hasCredits ? (
-                  <div className="galleryCreditsFooter">
-                    <span>
-                      {locale === 'ko'
-                        ? '사진 출처:'
-                        : locale === 'zh'
-                        ? '图片来源:'
-                        : locale === 'ja'
-                        ? '写真出典:'
-                        : locale === 'ru'
-                        ? 'Источник фото:'
-                        : locale === 'hi'
-                        ? 'फोटो स्रोत:'
-                        : locale === 'vi'
-                        ? 'Nguồn ảnh:'
-                        : 'Photo source:'}
-                    </span>{' '}
-                    {(() => {
-                      const seen = new Set<string>()
-                      const formatCredit = (raw: string) => {
-                        return (raw || '').replace(/^Image:\s*/i, '').trim()
-                      }
-                      const uniqueCredits = (b.image_credits as any[]).filter((c) => {
-                        const cleaned = formatCredit(c?.credit_text)
-                        if (!cleaned) return false
-                        if (seen.has(cleaned)) return false
-                        seen.add(cleaned)
-                        return true
-                      })
-                      return uniqueCredits.map((c: any, ci: number) => {
-                        const displayText = formatCredit(c.credit_text)
-                        return (
-                          <span key={ci} className="galleryCreditItem">
-                            {c.source_page_url && c.source_page_url !== '미확인' ? (
-                              <a href={c.source_page_url} target="_blank" rel="noopener noreferrer">
-                                {displayText}
-                              </a>
-                            ) : (
-                              <span>{displayText}</span>
-                            )}
-                            {ci < uniqueCredits.length - 1 ? ' · ' : ''}
-                          </span>
-                        )
-                      })
-                    })()}
-                  </div>
-                ) : (
-                  <div className="galleryCreditsFooter">
-                    <span>
-                      {locale === 'ko'
-                        ? '사진 출처:'
-                        : locale === 'zh'
-                        ? '图片来源:'
-                        : locale === 'ja'
-                        ? '写真出典:'
-                        : locale === 'ru'
-                        ? 'Источник фото:'
-                        : locale === 'hi'
-                        ? 'फोटो स्रोत:'
-                        : locale === 'vi'
-                        ? 'Nguồn ảnh:'
-                        : 'Photo source:'}
-                    </span>{' '}
-                    {(() => {
-                      const isHotelAgoda =
-                        (b.category === 'hotels' || b.category === 'hotel') &&
-                        (b.agoda_url || (b.website_url && b.website_url.includes('agoda.com')))
-                      const sourceHref = isHotelAgoda
-                        ? b.agoda_url || b.website_url
-                        : b.google_maps_url ||
-                          `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(b.google_maps_name || b.public_name)}`
-                      const sourceText = isHotelAgoda ? 'Agoda' : 'Google Maps'
-
-                      return (
-                        <>
-                          <a
-                            href={sourceHref}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="galleryCreditItem"
-                          >
-                            {sourceText} ↗
-                          </a>
-                          <span style={{ opacity: 0.5, margin: '0 6px' }}>·</span>
-                          <Link
-                            href={localePath(
-                              locale,
-                              `/for-businesses?public_name=${encodeURIComponent(b.public_name)}&slug=${encodeURIComponent(b.slug)}#claim`
-                            )}
-                            style={{ textDecoration: 'underline', color: 'inherit' }}
-                          >
-                            {PHOTO_REQUEST_LINK[locale] || PHOTO_REQUEST_LINK.en}
-                          </Link>
-                        </>
-                      )
-                    })()}
-                  </div>
-                )}
               </div>
             )
           }
