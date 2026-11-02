@@ -141,6 +141,8 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
       description_ko: reg.description_ko ?? x.description_ko,
       description_en: reg.description_en ?? x.description_en,
       tags: reg.tags ?? x.tags,
+      aliases: reg.aliases ?? x.aliases,
+      google_maps_name: reg.google_maps_name ?? x.google_maps_name,
       google_rating: reg.google_rating ?? x.google_rating,
       google_review_count: reg.google_review_count ?? x.google_review_count,
       gallery_urls:
@@ -163,6 +165,8 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
         [
           x.public_name,
         displayBusinessName(x, locale),
+        x.google_maps_name,
+        ...(x.aliases || []),
         x.category,
         categoryLabel(x.category, locale),
         x.subcategory,

@@ -688,8 +688,12 @@ function cleanBusinessName(raw: string): string {
 
 const SPECIAL_VENUE_NAMES: Record<string, { en: string; ko: string }> = {
   'sunset-place': {
-    ko: '푸꾸옥 뚱보집 선셋타운점 (한식당)',
-    en: 'Phu Quoc Ttungbojip Sunset Town (Korean Restaurant)',
+    ko: '푸꾸옥 뚱보집 선셋타운',
+    en: 'Phu Quoc Ttungbojip Sunset Town',
+  },
+  'sunset-place-1': {
+    ko: '하이산캉',
+    en: 'Hai San Cang (Hải Sản Cảng)',
   },
   'mimi-fruits-mart': {
     ko: '미미프루츠 & 미미편의점 (선셋타운 전 구역 배달)',

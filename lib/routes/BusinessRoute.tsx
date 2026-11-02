@@ -130,12 +130,15 @@ export async function generateBusinessMetadata(
   if (regItem) {
     b = {
       ...b,
+      public_name: regItem.public_name ?? b.public_name,
       status: regItem.status ?? b.status,
       category: regItem.category ?? b.category,
       lat: regItem.lat ?? b.lat,
       lng: regItem.lng ?? b.lng,
       google_place_id: regItem.google_place_id ?? b.google_place_id,
       google_maps_name: regItem.google_maps_name ?? b.google_maps_name,
+      tags: regItem.tags ?? b.tags,
+      aliases: regItem.aliases ?? b.aliases,
       gallery_urls:
         Array.isArray(regItem.gallery_urls) && regItem.gallery_urls.length > 0
           ? regItem.gallery_urls
@@ -251,12 +254,15 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
   if (regItem) {
     b = {
       ...b,
+      public_name: regItem.public_name ?? b.public_name,
       status: regItem.status ?? b.status,
       category: regItem.category ?? b.category,
       lat: regItem.lat ?? b.lat,
       lng: regItem.lng ?? b.lng,
       google_place_id: regItem.google_place_id ?? b.google_place_id,
       google_maps_name: regItem.google_maps_name ?? b.google_maps_name,
+      tags: regItem.tags ?? b.tags,
+      aliases: regItem.aliases ?? b.aliases,
       gallery_urls:
         Array.isArray(regItem.gallery_urls) && regItem.gallery_urls.length > 0
           ? regItem.gallery_urls
