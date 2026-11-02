@@ -92,7 +92,29 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       'spooky-halloween-mask-making-kids-thao-dien',
       'sample-thao-dien-weekend-farmers-craft-market',
       'sample-riverside-morning-yoga-breathwork-session',
+      'kiss-of-the-sea-fireworks-guide',
     ])
+
+    // Ensure all 10 published editorial articles are always present in sitemap even if Supabase is offline
+    const EDITORIAL_FALLBACKS: any[] = [
+      {
+        slug: 'hon-thom-cable-car-day-trip',
+        content_type: 'guide',
+        status: 'published',
+        updated_at: '2026-10-26T00:00:00Z',
+      },
+      {
+        slug: 'vui-fest-bazaar-night-market-food',
+        content_type: 'guide',
+        status: 'published',
+        updated_at: '2026-10-26T00:00:00Z',
+      },
+    ]
+    for (const fb of EDITORIAL_FALLBACKS) {
+      if (!allStories.some((s) => s.slug === fb.slug)) {
+        allStories.push(fb)
+      }
+    }
 
     if (allStories.length > 0) {
       allStories.forEach((s: any) => {

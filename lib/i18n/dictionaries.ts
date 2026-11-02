@@ -418,10 +418,32 @@ function hasText(v: unknown): boolean {
   return Boolean(v && String(v).trim().length > 0)
 }
 
+export const TEN_EDITORIAL_SLUGS = new Set([
+  'phu-quoc-halloween-sunset-town-hon-thom',
+  'sun-bavaria-gastropub-sunset-town-dining',
+  'maison-eric-kayser-pink-desserts-sunset-town',
+  'eschuri-vung-bau-golf-phu-quoc',
+  'sunset-town-romantic-walking-course',
+  'symphony-of-the-sea-season-3-opening',
+  'kiss-of-the-sea-fireworks-viewing-tips',
+  'conde-nast-top-island-sunset-town-course',
+  'hon-thom-cable-car-day-trip',
+  'vui-fest-bazaar-night-market-food',
+])
+
+export const ESSENTIAL_GUIDE_UI_MAP: Record<string, { title: string; excerpt: string; category: string }> = {
+  'hon-thom-cable-car-day-trip': { title: 'U47', excerpt: 'U32', category: 'U110' },
+  'kiss-of-the-sea-show-fireworks': { title: 'U57', excerpt: 'U34', category: 'U99' },
+  'vui-fest-bazaar-night-market-food': { title: 'U112', excerpt: 'U36', category: 'U68' },
+}
+
 /** 스토리에 번역 본문(body_xx)이 있는 언어 목록 */
 export function storyAvailableLocales(story: any): Locale[] {
+  if (!story) return ['en']
+  if (TEN_EDITORIAL_SLUGS.has(story.slug)) {
+    return ['en', 'ko', 'zh', 'ru', 'ja', 'hi']
+  }
   const out: Locale[] = ['en']
-  if (!story) return out
   for (const loc of ['vi', 'hi', 'zh', 'ru', 'ko', 'ja'] as const) {
     if (hasText(story[`body_${loc}`])) out.push(loc)
   }
@@ -482,13 +504,15 @@ export function localizeStory(story: any, locale: Locale = 'en') {
 
   if (locale !== 'en' && availableLocales.includes(locale)) {
     const f = (name: string) => story[`${name}_${locale}`]
-    const title = f('title') || story.title
+    const isAsianOrRu = locale === 'zh' || locale === 'ru' || locale === 'ja' || locale === 'hi'
+    const guideMap = isAsianOrRu && story.slug ? ESSENTIAL_GUIDE_UI_MAP[story.slug] : null
+    const title = f('title') || (guideMap ? tUiById(guideMap.title, locale) : story.title)
     const subtitle = f('subtitle') || story.subtitle || null
-    const excerpt = f('excerpt') || story.excerpt || null
-    const body = f('body')
-    const category = f('category') || translateTerm(story.category, locale) || story.category || null
-    const seoTitle = f('seo_title') || f('title') || story.seo_title || story.title
-    const seoDescription = f('seo_description') || f('excerpt') || story.seo_description || story.excerpt || null
+    const excerpt = f('excerpt') || (guideMap ? tUiById(guideMap.excerpt, locale) : (story.excerpt || null))
+    const body = f('body') || story.body || story.body_en || ''
+    const category = f('category') || (guideMap ? tUiById(guideMap.category, locale) : (translateTerm(story.category, locale) || story.category || null))
+    const seoTitle = f('seo_title') || f('title') || (guideMap ? tUiById(guideMap.title, locale) : (story.seo_title || story.title))
+    const seoDescription = f('seo_description') || f('excerpt') || (guideMap ? tUiById(guideMap.excerpt, locale) : (story.seo_description || story.excerpt || null))
     const kp = f('key_points')
     const keyPoints = Array.isArray(kp) && kp.length > 0 ? kp : Array.isArray(story.key_points) ? story.key_points : []
     const callout = f('callout') || story.callout || null
@@ -531,12 +555,6 @@ export function localizeStory(story: any, locale: Locale = 'en') {
   const keyPoints = Array.isArray(story.key_points) ? story.key_points : []
   const callout = story.callout || null
   const heroCaption = story.hero_caption || null
-
-  const ESSENTIAL_GUIDE_UI_MAP: Record<string, { title: string; excerpt: string; category: string }> = {
-    'hon-thom-cable-car-day-trip': { title: 'U47', excerpt: 'U32', category: 'U110' },
-    'kiss-of-the-sea-show-fireworks': { title: 'U57', excerpt: 'U34', category: 'U99' },
-    'vui-fest-bazaar-night-market-food': { title: 'U112', excerpt: 'U36', category: 'U68' },
-  }
 
   const isAsianOrRu = locale === 'zh' || locale === 'ru' || locale === 'ja' || locale === 'hi'
   const guideMap = isAsianOrRu && story.slug ? ESSENTIAL_GUIDE_UI_MAP[story.slug] : null
