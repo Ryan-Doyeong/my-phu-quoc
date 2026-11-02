@@ -342,13 +342,8 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
     (b.category === 'dining' ||
       b.category === 'food' ||
       b.category === 'cafe' ||
-<<<<<<< HEAD
-      b.category === 'bars')
-=======
       b.category === 'bars' ||
-      (b.category === 'beaches' && b.subcategory !== 'beach') ||
-      Boolean(menuData))
->>>>>>> origin/main
+      (b.category === 'beaches' && b.subcategory !== 'beach'))
 
   const foodGuide = isDiningOrFood ? getFoodGuideForBusiness(b, menuData) : null
   const categoryGuide = !isNameOnly && !isDiningOrFood && !isKhem ? getKnowledgeGuideForBusiness(b, menuData) : null
