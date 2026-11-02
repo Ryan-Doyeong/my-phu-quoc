@@ -290,14 +290,20 @@ export function loadMenuForPlace(
       return null
     }
 
-    const grade: MenuGrade = (raw.info_level || 'C').toUpperCase() as MenuGrade
+    const grade: MenuGrade = (raw.info_level || raw.grade || 'C').toUpperCase() as MenuGrade
     const info = GRADE_INFO[grade] || GRADE_INFO.C
-    const verifiedDate = raw.menu_date || (raw.sources && raw.sources[0]?.accessed) || '2026-10'
+    const verifiedDate =
+      raw.menu_date ||
+      (raw.source && raw.source.accessed) ||
+      (raw.sources && raw.sources[0]?.accessed) ||
+      '2026-11'
     let sourcesSummary =
       (raw.sources || [])
         .map((s: any) => s.note || s.url)
         .filter(Boolean)
-        .join(', ') || 'Sunset Town Master Menu DB'
+        .join(', ') ||
+      (raw.source && (raw.source.note || raw.source.type)) ||
+      'Google Maps & Sunset Town Master Menu DB'
 
     // 12차 D 지시: 비-ko 로케일에서는 formatMenuMetaHeader/formatMenuFooter에서 로케일별 고정 문구를 사용하므로
     // 원본 sourcesSummary는 한국어(ko) 환경 및 데이터 보존 목적으로 그대로 유지
@@ -307,8 +313,8 @@ export function loadMenuForPlace(
     // 1. Process sections if present
     if (raw.sections && raw.sections.length > 0) {
       for (const sec of raw.sections) {
-        const secKo = sec.section_ko || sec.name_ko || null
-        const secOrig = sec.section_original || sec.name_original || ''
+        const secKo = sec.section_ko || sec.name_ko || sec.category_name || null
+        const secOrig = sec.section_original || sec.name_original || sec.category_name || ''
         const splitSec = splitViEn(secOrig)
 
         const title_ko = secKo || secOrig || '기타 메뉴'
@@ -321,7 +327,7 @@ export function loadMenuForPlace(
         const title_vi = splitSec.vi || secOrig || 'Thực đơn'
 
         const items: MenuItem[] = (sec.items || []).map((it: any) => {
-          const orig = it.name_original || it.name_ko || 'Dish'
+          const orig = it.name_original || it.name || it.name_ko || 'Dish'
           const splitItem = splitViEn(orig)
           return {
             name_original: orig,
@@ -330,7 +336,9 @@ export function loadMenuForPlace(
             name_vi: splitItem.vi || orig,
             price_vnd: it.price_vnd ? Number(it.price_vnd) : null,
             price_text:
-              it.price_note || (it.price_vnd ? `${Number(it.price_vnd).toLocaleString()} VND` : null),
+              it.price_note ||
+              it.price_text ||
+              (it.price_vnd ? `${Number(it.price_vnd).toLocaleString()} VND` : null),
             grade,
             description_original: it.description_original || null,
             description_ko: it.description_ko || null,

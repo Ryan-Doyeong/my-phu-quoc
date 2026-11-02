@@ -8,6 +8,8 @@ import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { DIRECTORY_CATEGORY_KEYS, getCategoryPublishedCount, categoryLabel, nearbyBadgeText, formatLocalizedAddress, isHiddenBusiness } from '@/lib/directory'
 import { PUBLISHED_EVENTS } from '@/lib/eventSamples'
 import { stockPrimaryFor } from '@/lib/stockImages'
+import { getCoverPhoto } from '@/lib/coverPhotos'
+import { getHotelBySlug } from '@/lib/hotels'
 import { imageUrl } from '@/lib/imageUrl'
 import { buildAlternates, localePath, localeUrl, ogLocaleFor, type Locale } from '@/lib/i18n/config'
 import {
@@ -134,6 +136,17 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
       ...x,
       status: reg.status ?? x.status,
       category: reg.category ?? x.category,
+      subcategory: reg.subcategory ?? x.subcategory,
+      public_name: reg.public_name ?? x.public_name,
+      description_ko: reg.description_ko ?? x.description_ko,
+      description_en: reg.description_en ?? x.description_en,
+      tags: reg.tags ?? x.tags,
+      google_rating: reg.google_rating ?? x.google_rating,
+      google_review_count: reg.google_review_count ?? x.google_review_count,
+      gallery_urls:
+        Array.isArray(reg.gallery_urls) && reg.gallery_urls.length > 0
+          ? reg.gallery_urls
+          : x.gallery_urls,
     }
   })
   const allBusinesses = [
@@ -233,7 +246,10 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
                     <div className="resultImageWrap">
                       <img
                         src={imageUrl(
-                          x.gallery_urls?.[0] || stockPrimaryFor(x.category, x.subcategory, x.tags),
+                          x.gallery_urls?.[0] ||
+                            getCoverPhoto(x.slug)?.image_url ||
+                            getHotelBySlug(x.slug)?.photos?.[0] ||
+                            stockPrimaryFor(x.category, x.subcategory, x.tags),
                           620,
                           68
                         )}

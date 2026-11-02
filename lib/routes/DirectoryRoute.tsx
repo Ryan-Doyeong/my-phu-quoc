@@ -90,7 +90,6 @@ export async function renderDirectoryRoute(
       .from('businesses')
       .select('*')
       .eq('status', 'published')
-      .eq('category', category)
       .order('google_review_count', { ascending: false, nullsFirst: false }),
     supabase.from('site_settings').select('value').eq('key', 'directory_categories').maybeSingle(),
   ])
@@ -116,7 +115,7 @@ export async function renderDirectoryRoute(
         const a = assignments[b.id]
         return {
           ...b,
-          public_category: a?.public_category || b.category,
+          public_category: b.category || a?.public_category,
           zone: a?.zone || 'sunset-town',
           service_areas: a?.service_areas || ['sunset-town'],
         }
@@ -127,7 +126,7 @@ export async function renderDirectoryRoute(
       const a = assignments[b.id]
       return {
         ...b,
-        public_category: a?.public_category || b.category,
+        public_category: b.category || a?.public_category,
         zone: a?.zone || 'khem-beach',
         service_areas: a?.service_areas || ['khem-beach'],
       }
@@ -146,10 +145,20 @@ export async function renderDirectoryRoute(
         ...b,
         status: reg.status ?? b.status,
         category: reg.category ?? b.category,
+        subcategory: reg.subcategory ?? b.subcategory,
+        public_name: reg.public_name ?? b.public_name,
+        description_ko: reg.description_ko ?? b.description_ko,
+        description_en: reg.description_en ?? b.description_en,
+        tags: reg.tags ?? b.tags,
         lat: reg.lat ?? b.lat,
         lng: reg.lng ?? b.lng,
         google_place_id: reg.google_place_id ?? b.google_place_id,
         google_maps_name: reg.google_maps_name ?? b.google_maps_name,
+        google_rating: reg.google_rating ?? b.google_rating,
+        google_review_count: reg.google_review_count ?? b.google_review_count,
+        rating_check_date: reg.rating_check_date ?? b.rating_check_date,
+        google_review_analysis: reg.google_review_analysis ?? b.google_review_analysis,
+        services: reg.services ?? b.services,
         gallery_urls:
           Array.isArray(reg.gallery_urls) && reg.gallery_urls.length > 0
             ? reg.gallery_urls
@@ -206,25 +215,39 @@ export async function renderDirectoryRoute(
       <section
         className={`directoryHero categoryDirectoryHero theme-${theme}`}
         style={{
-          background:
-            theme === 'amber'
-              ? 'linear-gradient(135deg, #9C4511 0%, #C86D2D 45%, #D47A3A 100%)'
-              : 'linear-gradient(135deg, #06353E 0%, #0B7A8A 45%, #1693A5 100%)',
+          background: '#0F172A',
           color: '#FFFFFF',
-          minHeight: '260px',
+          minHeight: '300px',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
           position: 'relative',
-          padding: '48px 24px',
+          padding: '56px 24px',
           boxSizing: 'border-box',
           overflow: 'hidden',
         }}
       >
+        <img
+          src={rawConfig?.image || '/categories/dining.webp'}
+          alt={label}
+          style={{
+            position: 'absolute',
+            inset: 0,
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover',
+            objectPosition: 'center',
+            zIndex: 0,
+          }}
+        />
         <div
           className="directoryHeroShade"
           style={{
-            background: 'radial-gradient(circle at center, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.35) 100%)',
+            position: 'absolute',
+            inset: 0,
+            zIndex: 1,
+            background:
+              'linear-gradient(180deg, rgba(8, 20, 32, 0.45) 0%, rgba(8, 20, 32, 0.68) 100%)',
           }}
         />
         <article

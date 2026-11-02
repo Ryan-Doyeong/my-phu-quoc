@@ -228,47 +228,72 @@ export function BankingDirectory({ locale }: BankingDirectoryProps) {
         </div>
       </header>
 
-      {/* 가로로 길고 얇은 띠 배너 (데스크톱 약 56~60px, 모바일 약 48px) */}
+      {/* 상단 히어로 배너 (카테고리 페이지 통일 사진 배경) */}
       <section
         style={{
-          backgroundColor: '#FFF7ED',
-          borderBottom: '1px solid #FFEDD5',
-          padding: '12px 20px',
+          position: 'relative',
+          minHeight: '240px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          padding: '44px 24px',
           boxSizing: 'border-box',
+          overflow: 'hidden',
+          backgroundImage:
+            "linear-gradient(180deg, rgba(8, 20, 32, 0.52) 0%, rgba(8, 20, 32, 0.74) 100%), url('/categories/essentials.webp')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          color: '#FFFFFF',
+          textAlign: 'center',
         }}
       >
         <div
           style={{
-            maxWidth: '1040px',
+            maxWidth: '820px',
             margin: '0 auto',
-            display: 'flex',
-            alignItems: 'baseline',
-            flexWrap: 'wrap',
-            gap: '8px 12px',
+            position: 'relative',
+            zIndex: 2,
           }}
         >
+          <span
+            style={{
+              display: 'inline-block',
+              color: 'rgba(255,255,255,0.9)',
+              fontSize: '12.5px',
+              fontWeight: 800,
+              letterSpacing: '0.08em',
+              textTransform: 'uppercase',
+              marginBottom: '8px',
+              textShadow: '0 1px 3px rgba(0,0,0,0.35)',
+            }}
+          >
+            DIRECTORY · BANKING & ATM
+          </span>
           <h1
             style={{
-              margin: 0,
-              fontSize: '18px',
+              margin: '0 0 12px 0',
+              fontSize: 'clamp(28px, 4.5vw, 40px)',
               fontWeight: 800,
-              color: '#9A3412',
+              color: '#FFFFFF',
               letterSpacing: '-0.02em',
               lineHeight: 1.2,
+              textShadow: '0 2px 10px rgba(0,0,0,0.4)',
             }}
           >
             {ui.bannerTitle}
           </h1>
-          <span
+          <p
             style={{
-              fontSize: '13px',
-              color: '#9A3412',
-              opacity: 0.85,
-              lineHeight: 1.2,
+              margin: '0 auto',
+              maxWidth: '640px',
+              fontSize: '15.5px',
+              color: 'rgba(255,255,255,0.94)',
+              lineHeight: 1.55,
+              textShadow: '0 1px 4px rgba(0,0,0,0.3)',
             }}
           >
             {ui.bannerSubtitle}
-          </span>
+          </p>
         </div>
       </section>
 

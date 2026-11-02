@@ -4,6 +4,7 @@ import type { Locale } from '@/lib/i18n/config'
 import { localePath, dateLocaleFor } from '@/lib/i18n/config'
 import { getDictionary, translateTerm } from '@/lib/i18n/dictionaries'
 import { formatLocalizedAddress } from '@/lib/directory'
+import { buildGoogleMapsUrl } from '@/lib/mapsLink'
 
 interface PracticalInfoCardProps {
   business: any
@@ -347,10 +348,10 @@ export function PracticalInfoCard({
           </a>
         )}
 
-        {b.google_maps_url && (
+        {(b.google_maps_url || b.google_place_id) && (
           <a
             className="practicalMapBtn"
-            href={b.google_maps_url}
+            href={buildGoogleMapsUrl(b) || b.google_maps_url}
             target="_blank"
             rel="noreferrer"
             data-analytics-type="business-map"

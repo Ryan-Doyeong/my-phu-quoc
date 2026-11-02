@@ -205,13 +205,36 @@ export function ActivitiesLandingPage({ locale = 'ko' }: ActivitiesLandingPagePr
           <span className="current">{t.activities}</span>
         </div>
 
-        {/* Hero Title Box (12px rounded, white background) */}
-        <div className="activitiesHeaderBox">
-          <div className="activitiesEyebrow">EXPERIENCES & TOURS</div>
-          <h1 className="activitiesTitle">
+        {/* Hero Title Box with Background Photo */}
+        <div
+          className="activitiesHeaderBox"
+          style={{
+            backgroundImage:
+              "linear-gradient(180deg, rgba(8, 22, 36, 0.45) 0%, rgba(8, 22, 36, 0.72) 100%), url('/categories/activities.webp')",
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            color: '#FFFFFF',
+            padding: '48px 28px',
+            border: 'none',
+            textAlign: 'center',
+          }}
+        >
+          <div
+            className="activitiesEyebrow"
+            style={{ color: '#7DD3FC', textShadow: '0 1px 3px rgba(0,0,0,0.35)' }}
+          >
+            EXPERIENCES & TOURS
+          </div>
+          <h1
+            className="activitiesTitle"
+            style={{ color: '#FFFFFF', fontSize: 'clamp(28px, 4.5vw, 38px)', textShadow: '0 2px 10px rgba(0,0,0,0.4)' }}
+          >
             {t.activities}
           </h1>
-          <p className="activitiesSubtitle">
+          <p
+            className="activitiesSubtitle"
+            style={{ color: 'rgba(255,255,255,0.94)', maxWidth: '640px', margin: '0 auto', textShadow: '0 1px 4px rgba(0,0,0,0.3)' }}
+          >
             {t.subtitle}
           </p>
         </div>

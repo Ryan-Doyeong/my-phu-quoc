@@ -1234,7 +1234,7 @@
     "google_place_id": "ChIJ0f-9_fqXpzERWAKUF0YKrkY",
     "name": "Trần Coffee Shop No.2 Sunset Town",
     "zone": "sunset-town",
-    "public_category": "dining",
+    "public_category": "bars",
     "service_areas": [
       "sunset-town"
     ]
@@ -1324,7 +1324,7 @@
     "google_place_id": "ChIJqSNX-FuLpzERVHIK_K9q4ac",
     "name": "Yushima Japanese Restaurant",
     "zone": "sunset-town",
-    "public_category": "beaches",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1444,7 +1444,7 @@
     "google_place_id": "ChIJwXlCOq-VpzERR7dMoAKRcpM",
     "name": "웨이브 카페 & 펍 3F (Wave Cafe & Pub - 웨이브스파 3층)",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1474,7 +1474,7 @@
     "google_place_id": "ChIJjVDpHgiHCjERTaQVRRrVJ9Y",
     "name": "에릭 케제르 푸꾸옥 (Maison Eric Kayser Sunset Town)",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1484,7 +1484,7 @@
     "google_place_id": "ChIJVUPC1uyXpzERD5yoNJTu_-w",
     "name": "미쉐 아이스크림 & 티 선셋타운점 (MIXUE)",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1664,7 +1664,7 @@
     "google_place_id": "ChIJFePbK8yXpzER_rJM4eYtKaA",
     "name": "La isla Bistro & coffee",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1704,7 +1704,7 @@
     "google_place_id": "ChIJc9wZF96XpzERaOKT6SZjnj4",
     "name": "술탄 터키쉬 케밥 선셋타운 (Sultan Turkish Kebab)",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town"
     ]
@@ -1794,7 +1794,7 @@
     "google_place_id": "ChIJ_UidppuWpzERKabcboVlovw",
     "name": "PH Rooftop Bar & Lounge - Sea View Restaurant, An Thoi, Phu Quoc",
     "zone": "sunset-town",
-    "public_category": "bars",
+    "public_category": "dining",
     "service_areas": [
       "sunset-town-adjacent"
     ]
@@ -1844,7 +1844,7 @@
     "google_place_id": "ChIJTRy1mL6VpzERoC2sDLhsG2w",
     "name": "Queen Of Islands - Greek Yogurt & More Store",
     "zone": "sunset-town",
-    "public_category": "shopping",
+    "public_category": "bars",
     "service_areas": [
       "sunset-town"
     ]
@@ -1914,7 +1914,7 @@
     "google_place_id": "ChIJq-MaQQCVpzERMbW2Y8JvlMI",
     "name": "Lemon Queen (bazaar store)",
     "zone": "sunset-town",
-    "public_category": "shopping",
+    "public_category": "bars",
     "service_areas": [
       "sunset-town"
     ]
@@ -2274,7 +2274,7 @@
     "google_place_id": "ChIJc4_lgKCWpzERfX9ic42Xi-s",
     "name": "라 페스타 푸꾸옥, 큐리오 컬렉션 바이 힐튼 (La Festa Phu Quoc, Curio Collection by Hilton)",
     "zone": "sunset-town",
-    "public_category": "wellness",
+    "public_category": "hotels",
     "service_areas": [
       "sunset-town"
     ]
@@ -2624,7 +2624,7 @@
     "google_place_id": "ChIJp9ZcOsKXpzERDLEPwP3e9JE",
     "name": "Phú Quốc Go",
     "zone": "sunset-town",
-    "public_category": "transport",
+    "public_category": "activities",
     "service_areas": [
       "sunset-town"
     ]
@@ -2654,7 +2654,7 @@
     "google_place_id": "buggy_service_sunset_town",
     "name": "선셋타운 공식 전동 버기카 & 무료 셔틀버스 (Electric Buggy)",
     "zone": "sunset-town",
-    "public_category": "transport",
+    "public_category": "activities",
     "service_areas": [
       "sunset-town"
     ]
@@ -2694,7 +2694,7 @@
     "google_place_id": "ChIJk-jMi4iXpzERM3xMhvCmdVE",
     "name": "Sunset Town Motorbike & Scooter Rental",
     "zone": "sunset-town",
-    "public_category": "transport",
+    "public_category": "activities",
     "service_areas": [
       "sunset-town"
     ]

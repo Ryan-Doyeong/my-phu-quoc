@@ -460,7 +460,11 @@
       }
     },
     "gallery_urls": [
-      "/zones/khem-beach/images/paralia-khem-beach-phu-quoc-hotel/paralia-hotel-banner.jpg"
+      "/zones/khem-beach/images/paralia-khem-beach-phu-quoc-hotel/paralia-hotel-banner.jpg",
+      "/covers-photo/paralia-khem-beach-phu-quoc-hotel-1.webp",
+      "/covers-photo/paralia-khem-beach-phu-quoc-hotel-2.webp",
+      "/covers-photo/paralia-khem-beach-phu-quoc-hotel-3.webp",
+      "/covers-photo/paralia-khem-beach-phu-quoc-hotel-4.webp"
     ],
     "source_urls": [
       "http://paraliaphuquoc.com/",
@@ -539,7 +543,11 @@
       }
     },
     "gallery_urls": [
-      "/zones/khem-beach/images/jm-boutique-hotel-phu-quoc/jm-boutique-hotel-main.jpg"
+      "/zones/khem-beach/images/jm-boutique-hotel-phu-quoc/jm-boutique-hotel-main.jpg",
+      "/covers-photo/jm-boutique-hotel-phu-quoc-1.webp",
+      "/covers-photo/jm-boutique-hotel-phu-quoc-2.webp",
+      "/covers-photo/jm-boutique-hotel-phu-quoc-3.webp",
+      "/covers-photo/jm-boutique-hotel-phu-quoc-4.webp"
     ],
     "source_urls": [
       "https://jmhotel.vn/",
@@ -615,7 +623,10 @@
     },
     "gallery_urls": [
       "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-superior-room.jpg",
-      "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-deluxe-room.jpg"
+      "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-deluxe-room.jpg",
+      "/covers-photo/ann-hotel-spa-phu-quoc-1.webp",
+      "/covers-photo/ann-hotel-spa-phu-quoc-2.webp",
+      "/covers-photo/ann-hotel-spa-phu-quoc-3.webp"
     ],
     "source_urls": [
       "https://annhotelphuquoc.com/",
@@ -1389,11 +1400,11 @@
   },
   {
     "id": "khem-draft-032",
-    "public_name": "드래프트 비어 바이켐",
+    "public_name": "드래프트 비어 바이켐 (Draft Beer Bai Khem Phu Quoc)",
     "name_local": "Draft Beer Bai Khem Phu Quoc",
     "slug": "draft-beer-bai-khem",
     "category": "beaches",
-    "subcategory": "beach_pub",
+    "subcategory": "seafood",
     "address": "Bãi Khem, Phú Quốc, An Giang, Vietnam",
     "google_maps_name": "Draft Beer Bai Khem Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_UwInh-XpzERL3bKuuPz_sw",
@@ -1401,14 +1412,17 @@
     "lat": 10.0362806,
     "lng": 104.0305404,
     "website_url": "미확인",
-    "rating_check_date": "2026-10-30",
+    "rating_check_date": "2026-11-01",
     "status": "published",
     "verification_status": "verified",
-    "description_ko": "상세 정보 준비 중",
-    "description_en": "Details coming soon",
+    "description_ko": "켐비치 백사장 바로 앞에서 에메랄드빛 바다를 바라보며 살아있는 신선한 해산물 요리(갈릭 버터 타이거 새우, 오징어·생선 구이)와 시원한 생맥주를 즐길 수 있는 오션프론트 대형 레스토랑입니다.",
+    "description_en": "Spacious oceanfront restaurant right on Khem Beach serving live local seafood—including garlic butter tiger prawns and grilled squid—paired with ice-cold draft beer.",
     "gallery_urls": [
-      "/zones/khem-beach-hero.webp",
-      "/images/businesses/draft-beer-bai-khem/draft-beer-bai-khem_menu_01.webp"
+      "/covers-photo/draft-beer-bai-khem-1.webp",
+      "/covers-photo/draft-beer-bai-khem-2.webp",
+      "/covers-photo/draft-beer-bai-khem-3.webp",
+      "/covers-photo/draft-beer-bai-khem-4.webp",
+      "/covers-photo/draft-beer-bai-khem-5.webp"
     ],
     "source_urls": [
       "https://www.google.com/maps/place/?q=place_id:ChIJ_UwInh-XpzERL3bKuuPz_sw"
@@ -1417,9 +1431,29 @@
     "zone": "khem-beach",
     "image_credits": [
       {
-        "file": "/zones/khem-beach-hero.webp",
-        "credit_text": "Photo by Vivu Vietnam on Unsplash (Kem Beach, Phu Quoc)",
-        "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-with-palm-trees-and-umbrellas-6_Q8uFjJpms"
+        "image_url": "/covers-photo/draft-beer-bai-khem-1.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_UwInh-XpzERL3bKuuPz_sw"
+      },
+      {
+        "image_url": "/covers-photo/draft-beer-bai-khem-2.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_UwInh-XpzERL3bKuuPz_sw"
+      },
+      {
+        "image_url": "/covers-photo/draft-beer-bai-khem-3.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_UwInh-XpzERL3bKuuPz_sw"
+      },
+      {
+        "image_url": "/covers-photo/draft-beer-bai-khem-4.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_UwInh-XpzERL3bKuuPz_sw"
+      },
+      {
+        "image_url": "/covers-photo/draft-beer-bai-khem-5.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_UwInh-XpzERL3bKuuPz_sw"
       }
     ],
     "google_place_id": "ChIJ_UwInh-XpzERL3bKuuPz_sw",
@@ -1428,7 +1462,7 @@
       "dining",
       "beer-pub"
     ],
-    "display_mode": "name_only",
+    "display_mode": "full",
     "internal_verified": {
       "google_rating": 3.5,
       "google_review_count": 835,
@@ -1473,7 +1507,60 @@
         }
       },
       "address_raw": "22PJ+H6 Draft Beer Bai Khem Phu Quoc, Phú Quốc, An Giang, Vietnam"
-    }
+    },
+    "google_rating": 3.5,
+    "google_review_count": 836,
+    "google_review_analysis": {
+      "rating": 3.5,
+      "reviewCount": 836,
+      "lastVerified": "2026-11-01",
+      "topics": [
+        "해변 (96)",
+        "볶음밥 (14)",
+        "피자 (9)",
+        "코코넛 (8)",
+        "스프링롤 (6)"
+      ],
+      "praised": {
+        "ko": [
+          "구글맵 리뷰 836건(평점 ★3.5) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
+        ],
+        "en": [
+          "Verified venue with 836 Google Maps reviews (★3.5) in Sunset Town & Khem Beach.",
+          "Conveniently accessible along main traveler routes with consistent visitor satisfaction."
+        ],
+        "vi": [
+          "Địa điểm đã xác thực với 836 đánh giá Google Maps (★3.5) tại Sunset Town & Bãi Khem.",
+          "Vị trí thuận tiện trên trục di chuyển chính của du khách, mức độ hài lòng ổn định."
+        ]
+      },
+      "goodToKnow": {
+        "ko": [
+          "방문 전 구글맵 최신 영업시간과 피크 시간대 혼잡도를 확인하시기 바랍니다."
+        ],
+        "en": [
+          "Check current operating hours and peak visiting times on Google Maps before heading out."
+        ],
+        "vi": [
+          "Vui lòng kiểm tra giờ mở cửa hiện tại trên Google Maps trước khi ghé thăm."
+        ]
+      },
+      "sentimentSummary": {
+        "ko": "구글맵 실측 평점 ★3.5점(방문자 리뷰 836개)을 기록 중이며, 실제 방문객 리뷰에서 '해변, 볶음밥, 피자' 등이 주요 강점으로 꼽힙니다.",
+        "en": "Rated ★3.5 across 836 verified Google Maps reviews, frequently highlighted for 해변, 볶음밥, 피자.",
+        "vi": "Đạt ★3.5 trên 836 đánh giá thực tế Google Maps, nổi bật với 해변, 볶음밥, 피자."
+      },
+      "sampleReviews": [
+        "직원들이 핸드폰만 보고 있고 너무 불친절해요...음식이라도 맛이있으면 괜찮을지 모르지만 음식또한 맛이없어서 푸꾸욱에 오면 절대 가지않을 음식점입니다. 기분 좋게 왔지만 기분이 다 상하게하네요....",
+        "볶음밥을 먹으러 왔습니다. 일주일쯤 푸꾸옥에 머물고 있으니 밥이 땡겨서 뉴월드에서 가까운 곳을 찾아 왔습니다. 볶음밥. 양이 엄청납니다. 저희 가족은 4명인데 볶음밥 두개 시켜서 남겼어요. 아삭아삭 씹히는 무언가가 매력이고, 제 입맛엔 살짝 싱거웠지만 추천할만합니...",
+        "켐비치에서 놀다가 비도오고 점심먹으러 들렸어요.해산물 잡채 ,볶음밥,오징어 다 맛있었어요.볶음밥은 꼭 드셔보세요.추천해요!입짧은 아이... 베트남와서 잘 못 먹었는데 점심 맛있다고 해산물이랑 볶음밥이랑 배부르게 먹었어요.비치쪽에 있어서 놀다가 바로 방문하기 좋아요..."
+      ]
+    },
+    "media_note": "Google Maps",
+    "photo_permission": "google_maps_verified",
+    "phone": "+84 889 777 077",
+    "hours": "10:00 - 23:00"
   },
   {
     "id": "khem-draft-013",
@@ -1494,7 +1581,7 @@
     "google_rating": 4.8,
     "google_review_count": 4199,
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "unpublished",
     "verification_status": "verified",
     "description_ko": "바이켐 숍하우스 구역에 위치한 해산물 전문 식당으로 다양한 현지 해산물 메뉴를 조리하여 제공합니다.",
     "description_en": "A seafood restaurant located in the Bai Khem area offering local seafood preparations.",
@@ -1522,15 +1609,16 @@
     ],
     "facilities_en": "Fresh seafood display tanks, grilled seafood, air-conditioned and open seating",
     "display_mode": "name_only",
-    "address_raw": "Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam"
+    "address_raw": "Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
+    "unpublished_reason": "google_maps_insufficient_info_20261102"
   },
   {
     "id": "khem-draft-016",
-    "public_name": "이스탄불 비치클럽 푸꾸옥",
+    "public_name": "이스탄불 비치클럽 푸꾸옥 (Istanbul Bai Kem)",
     "name_local": "Istanbul Bai Kem",
     "slug": "istanbul-beach-club-phu-quoc",
     "category": "beaches",
-    "subcategory": "beach-club",
+    "subcategory": "beach_club",
     "address": "Lo06, Bãi Khem, Phú Quốc, An Giang 920000, Vietnam",
     "google_maps_name": "Istanbul Bai Kem",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJo_k30uyXpzERwwH_mtvJ1aQ",
@@ -1538,13 +1626,17 @@
     "lat": 10.0379402,
     "lng": 104.0313019,
     "website_url": "미확인",
-    "rating_check_date": "2026-10-30",
+    "rating_check_date": "2026-11-01",
     "status": "published",
     "verification_status": "verified",
-    "description_ko": "상세 정보 준비 중",
-    "description_en": "Details coming soon",
+    "description_ko": "켐비치 해변의 야자수와 선베드를 갖춘 이국적인 비치 클럽 & 레스토랑으로, 정통 터키식 그릴 케밥·화덕 피자·파스타부터 트로피컬 칵테일과 생맥주까지 해수욕과 함께 하루 종일 즐기기 좋습니다.",
+    "description_en": "Exotic beachfront club and restaurant on Khem Beach featuring palm-shaded sunbeds, Turkish grilled kebabs, wood-fired pizzas, tropical cocktails, and cold beers.",
     "gallery_urls": [
-      "/zones/khem-beach-hero.webp"
+      "/covers-photo/istanbul-beach-club-phu-quoc-1.webp",
+      "/covers-photo/istanbul-beach-club-phu-quoc-2.webp",
+      "/covers-photo/istanbul-beach-club-phu-quoc-3.webp",
+      "/covers-photo/istanbul-beach-club-phu-quoc-4.webp",
+      "/covers-photo/istanbul-beach-club-phu-quoc-5.webp"
     ],
     "source_urls": [
       "https://www.google.com/maps/place/?q=place_id:ChIJo_k30uyXpzERwwH_mtvJ1aQ"
@@ -1553,9 +1645,29 @@
     "zone": "khem-beach",
     "image_credits": [
       {
-        "file": "/zones/khem-beach-hero.webp",
-        "credit_text": "Photo by Vivu Vietnam on Unsplash (Kem Beach, Phu Quoc)",
-        "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-with-palm-trees-and-umbrellas-6_Q8uFjJpms"
+        "image_url": "/covers-photo/istanbul-beach-club-phu-quoc-1.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJo_k30uyXpzERwwH_mtvJ1aQ"
+      },
+      {
+        "image_url": "/covers-photo/istanbul-beach-club-phu-quoc-2.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJo_k30uyXpzERwwH_mtvJ1aQ"
+      },
+      {
+        "image_url": "/covers-photo/istanbul-beach-club-phu-quoc-3.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJo_k30uyXpzERwwH_mtvJ1aQ"
+      },
+      {
+        "image_url": "/covers-photo/istanbul-beach-club-phu-quoc-4.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJo_k30uyXpzERwwH_mtvJ1aQ"
+      },
+      {
+        "image_url": "/covers-photo/istanbul-beach-club-phu-quoc-5.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJo_k30uyXpzERwwH_mtvJ1aQ"
       }
     ],
     "google_place_id": "ChIJo_k30uyXpzERwwH_mtvJ1aQ",
@@ -1564,7 +1676,7 @@
       "bars",
       "beach-club"
     ],
-    "display_mode": "name_only",
+    "display_mode": "full",
     "internal_verified": {
       "google_rating": 4.8,
       "google_review_count": 4056,
@@ -1609,15 +1721,68 @@
         }
       },
       "address_raw": "Lo06, Bai Khem, Phú Quốc, An Giang 920000 베트남"
-    }
+    },
+    "google_rating": 4.8,
+    "google_review_count": 4062,
+    "google_review_analysis": {
+      "rating": 4.8,
+      "reviewCount": 4062,
+      "lastVerified": "2026-11-01",
+      "topics": [
+        "해변 (498)",
+        "할랄 (132)",
+        "트롤리 (95)",
+        "물담배 (66)",
+        "튀르키예 요리 (46)"
+      ],
+      "praised": {
+        "ko": [
+          "구글맵 리뷰 4,062건(평점 ★4.8) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
+        ],
+        "en": [
+          "Verified venue with 4,062 Google Maps reviews (★4.8) in Sunset Town & Khem Beach.",
+          "Conveniently accessible along main traveler routes with consistent visitor satisfaction."
+        ],
+        "vi": [
+          "Địa điểm đã xác thực với 4,062 đánh giá Google Maps (★4.8) tại Sunset Town & Bãi Khem.",
+          "Vị trí thuận tiện trên trục di chuyển chính của du khách, mức độ hài lòng ổn định."
+        ]
+      },
+      "goodToKnow": {
+        "ko": [
+          "방문 전 구글맵 최신 영업시간과 피크 시간대 혼잡도를 확인하시기 바랍니다."
+        ],
+        "en": [
+          "Check current operating hours and peak visiting times on Google Maps before heading out."
+        ],
+        "vi": [
+          "Vui lòng kiểm tra giờ mở cửa hiện tại trên Google Maps trước khi ghé thăm."
+        ]
+      },
+      "sentimentSummary": {
+        "ko": "구글맵 실측 평점 ★4.8점(방문자 리뷰 4,062개)을 기록 중이며, 실제 방문객 리뷰에서 '해변, 할랄, 트롤리' 등이 주요 강점으로 꼽힙니다.",
+        "en": "Rated ★4.8 across 4,062 verified Google Maps reviews, frequently highlighted for 해변, 할랄, 트롤리.",
+        "vi": "Đạt ★4.8 trên 4,062 đánh giá thực tế Google Maps, nổi bật với 해변, 할랄, 트롤리."
+      },
+      "sampleReviews": [
+        "서비스와 분위기는 좋았어요. 야자수 사이로 바다가 보이는 자리에서 식사할 수 있어서 뷰는 정말 만족스러웠습니다. 다만 음식은 기대에 못 미쳤어요. 마르게리타 피자가 맛있다는 평이 많아서 주문했는데, 왜 그런 평이 있었는지 솔직히 모르겠습니다. 치즈가 소스에…",
+        "별점이 높아서 방문한 이스탄불 비치클럽 오메르!!! 서버님이 한국말도 잘하고 친절했어요 마르게리타 피자랑 망고쥬스 맛있어요…",
+        "피자. 치킨 👍 👍 👍 👍 👍 스테이크사진은 없지만너무 맛있습니다 ㅋ 빈샨씨 너무 친절하세요~ 모기약이 필요했는데 말안해도 가져다 주셔서 너무 고마워요 ~…"
+      ]
+    },
+    "media_note": "Google Maps",
+    "photo_permission": "google_maps_verified",
+    "phone": "+84 949 440 144",
+    "hours": "08:00 - 23:45"
   },
   {
     "id": "khem-draft-034",
-    "public_name": "카이선 레스토랑 & 바",
+    "public_name": "카이선 레스토랑 & 바 (Kaisun Restaurant & Bar)",
     "name_local": "Kaisun Restaurant & Bar",
     "slug": "kaisun-restaurant-and-bar",
     "category": "beaches",
-    "subcategory": "beach_pub",
+    "subcategory": "seafood",
     "address": "Bãi Khem, Phú Quốc, An Giang 922288, Vietnam",
     "google_maps_name": "Kaisun Restaurant & Bar",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJA6Ns_eOXpzEReRCODKQQ3S8",
@@ -1625,15 +1790,17 @@
     "lat": 10.0374233,
     "lng": 104.0311396,
     "website_url": "미확인",
-    "rating_check_date": "2026-10-30",
+    "rating_check_date": "2026-11-01",
     "status": "published",
     "verification_status": "verified",
-    "description_ko": "상세 정보 준비 중",
-    "description_en": "Details coming soon",
+    "description_ko": "켐비치 중심 해변가에 자리한 캐주얼 씨푸드 레스토랑 & 바로, 푸꾸옥 특산 해산물 볶음·그릴 요리와 베트남 전통 식사, 시원한 열대과일 스무디와 칵테일을 합리적인 가격에 선보입니다.",
+    "description_en": "Casual beachfront seafood restaurant and bar on Khem Beach offering fresh Phu Quoc seafood dishes, classic Vietnamese fare, tropical smoothies, and cocktails.",
     "gallery_urls": [
-      "/zones/khem-beach-hero.webp",
-      "/images/businesses/kaisun-restaurant-and-bar/kaisun-restaurant-and-bar_menu_01.webp",
-      "/images/businesses/kaisun-restaurant-and-bar/kaisun-restaurant-and-bar_menu_02.webp"
+      "/covers-photo/kaisun-restaurant-and-bar-1.webp",
+      "/covers-photo/kaisun-restaurant-and-bar-2.webp",
+      "/covers-photo/kaisun-restaurant-and-bar-3.webp",
+      "/covers-photo/kaisun-restaurant-and-bar-4.webp",
+      "/covers-photo/kaisun-restaurant-and-bar-5.webp"
     ],
     "source_urls": [
       "https://www.google.com/maps/place/?q=place_id:ChIJA6Ns_eOXpzEReRCODKQQ3S8"
@@ -1642,9 +1809,29 @@
     "zone": "khem-beach",
     "image_credits": [
       {
-        "file": "/zones/khem-beach-hero.webp",
-        "credit_text": "Photo by Vivu Vietnam on Unsplash (Kem Beach, Phu Quoc)",
-        "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-with-palm-trees-and-umbrellas-6_Q8uFjJpms"
+        "image_url": "/covers-photo/kaisun-restaurant-and-bar-1.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJA6Ns_eOXpzEReRCODKQQ3S8"
+      },
+      {
+        "image_url": "/covers-photo/kaisun-restaurant-and-bar-2.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJA6Ns_eOXpzEReRCODKQQ3S8"
+      },
+      {
+        "image_url": "/covers-photo/kaisun-restaurant-and-bar-3.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJA6Ns_eOXpzEReRCODKQQ3S8"
+      },
+      {
+        "image_url": "/covers-photo/kaisun-restaurant-and-bar-4.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJA6Ns_eOXpzEReRCODKQQ3S8"
+      },
+      {
+        "image_url": "/covers-photo/kaisun-restaurant-and-bar-5.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJA6Ns_eOXpzEReRCODKQQ3S8"
       }
     ],
     "google_place_id": "ChIJA6Ns_eOXpzEReRCODKQQ3S8",
@@ -1653,7 +1840,7 @@
       "dining",
       "restaurant-bar"
     ],
-    "display_mode": "name_only",
+    "display_mode": "full",
     "internal_verified": {
       "google_rating": 4.7,
       "google_review_count": 1022,
@@ -1698,15 +1885,67 @@
         }
       },
       "address_raw": "22PJ+XF Phu Quoc, 안장 성 베트남"
-    }
+    },
+    "google_rating": 4.7,
+    "google_review_count": 1046,
+    "google_review_analysis": {
+      "rating": 4.7,
+      "reviewCount": 1046,
+      "lastVerified": "2026-11-01",
+      "topics": [
+        "해변 (135)",
+        "직원 (30)",
+        "해변 오션뷰",
+        "신선한 해산물"
+      ],
+      "praised": {
+        "ko": [
+          "구글맵 실측 리뷰 1,046건에서 '해변, 직원, 해변 오션뷰' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
+          "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
+        ],
+        "en": [
+          "Verified venue with 1,046 Google Maps reviews (★4.7) in Sunset Town & Khem Beach.",
+          "Conveniently accessible along main traveler routes with consistent visitor satisfaction."
+        ],
+        "vi": [
+          "Địa điểm đã xác thực với 1,046 đánh giá Google Maps (★4.7) tại Sunset Town & Bãi Khem.",
+          "Vị trí thuận tiện trên trục di chuyển chính của du khách, mức độ hài lòng ổn định."
+        ]
+      },
+      "goodToKnow": {
+        "ko": [
+          "방문 전 구글맵 최신 영업시간과 피크 시간대 혼잡도를 확인하시기 바랍니다."
+        ],
+        "en": [
+          "Check current operating hours and peak visiting times on Google Maps before heading out."
+        ],
+        "vi": [
+          "Vui lòng kiểm tra giờ mở cửa hiện tại trên Google Maps trước khi ghé thăm."
+        ]
+      },
+      "sentimentSummary": {
+        "ko": "실제 방문객 리뷰에서 '해변, 직원, 해변 오션뷰' 등이 주요 강점으로 꼽힙니다.",
+        "en": "Rated ★4.7 across 1,046 verified Google Maps reviews, frequently highlighted for 해변, 직원, 단백석.",
+        "vi": "Đạt ★4.7 trên 1,046 đánh giá thực tế Google Maps, nổi bật với 해변, 직원, 단백석."
+      },
+      "sampleReviews": [
+        "아침에 오픈런해서 볶음밥이랑 스프링롤 모닝글로리 먹었어요😋 담당 여자 서버가 매우 친절해요. 음식이 너무 맛있고 좋아서 썬배드도 빌려서 수영복도 없이 해변에 들어가서 놀았어요🍹…",
+        "음식이 너무 맛있습니다. 가격은 바닷가 관광지라고 생각하면 납득할만 합니다. 뷰도 너무 좋으며, 특히 여성 직원분이 너무 친절합니다. 다시 오고 싶네요^^",
+        "홍보나 광고가 너무 많아 구글 리뷰는 이용을 안했었지만 혼자만 알기엔 너무 아까운 장소라 후기 남겨 봅니다. 푸꾸옥에서 제일 아름답다는 해변에서 걷다가 리뷰 검색 없이 느낌만으로 선택한 가게인데 너무 만족합니다.…"
+      ]
+    },
+    "media_note": "Google Maps",
+    "photo_permission": "google_maps_verified",
+    "phone": "+84 98 948 11 88",
+    "hours": "09:00 - 22:30"
   },
   {
     "id": "khem-draft-033",
-    "public_name": "더 덱 푸꾸옥 (키친 & 비치바)",
+    "public_name": "더 덱 푸꾸옥 (The Deck Phu Quoc - Kitchen & Beach Bar)",
     "name_local": "The Deck Phu Quoc - Kitchen & Beach Bar",
     "slug": "the-deck-phu-quoc",
     "category": "beaches",
-    "subcategory": "beach-bar",
+    "subcategory": "western",
     "address": "22, Bãi Khem, Phú Quốc, An Giang 91000, Vietnam",
     "google_maps_name": "The Deck Phu Quoc - Kitchen & Beach Bar",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJNfSPMQaXpzEREMCGeU9aXEI",
@@ -1714,14 +1953,17 @@
     "lat": 10.0369743,
     "lng": 104.0308526,
     "website_url": "미확인",
-    "rating_check_date": "2026-10-30",
+    "rating_check_date": "2026-11-01",
     "status": "published",
     "verification_status": "verified",
-    "description_ko": "상세 정보 준비 중",
-    "description_en": "Details coming soon",
+    "description_ko": "켐비치의 잔잔한 파도 소리를 들으며 태국·베트남 아시안 퀴진과 유러피안 비스트로 메뉴, 신선한 해산물 플레이트 및 선셋 칵테일을 로맨틱하게 즐길 수 있는 해변 다이닝 레스토랑 & 바입니다.",
+    "description_en": "Romantic beachfront dining deck on Khem Beach serving Thai-Vietnamese Asian fusion, Western bistro plates, fresh local seafood, and sunset cocktails by the water.",
     "gallery_urls": [
-      "/zones/khem-beach-hero.webp",
-      "/images/businesses/the-deck-phu-quoc/the-deck-phu-quoc_menu_01.webp"
+      "/covers-photo/the-deck-phu-quoc-1.webp",
+      "/covers-photo/the-deck-phu-quoc-2.webp",
+      "/covers-photo/the-deck-phu-quoc-3.webp",
+      "/covers-photo/the-deck-phu-quoc-4.webp",
+      "/covers-photo/the-deck-phu-quoc-5.webp"
     ],
     "source_urls": [
       "https://www.google.com/maps/place/?q=place_id:ChIJNfSPMQaXpzEREMCGeU9aXEI"
@@ -1730,9 +1972,29 @@
     "zone": "khem-beach",
     "image_credits": [
       {
-        "file": "/zones/khem-beach-hero.webp",
-        "credit_text": "Photo by Vivu Vietnam on Unsplash (Kem Beach, Phu Quoc)",
-        "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-with-palm-trees-and-umbrellas-6_Q8uFjJpms"
+        "image_url": "/covers-photo/the-deck-phu-quoc-1.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJNfSPMQaXpzEREMCGeU9aXEI"
+      },
+      {
+        "image_url": "/covers-photo/the-deck-phu-quoc-2.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJNfSPMQaXpzEREMCGeU9aXEI"
+      },
+      {
+        "image_url": "/covers-photo/the-deck-phu-quoc-3.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJNfSPMQaXpzEREMCGeU9aXEI"
+      },
+      {
+        "image_url": "/covers-photo/the-deck-phu-quoc-4.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJNfSPMQaXpzEREMCGeU9aXEI"
+      },
+      {
+        "image_url": "/covers-photo/the-deck-phu-quoc-5.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJNfSPMQaXpzEREMCGeU9aXEI"
       }
     ],
     "google_place_id": "ChIJNfSPMQaXpzEREMCGeU9aXEI",
@@ -1741,7 +2003,7 @@
       "bars",
       "beach-bar"
     ],
-    "display_mode": "name_only",
+    "display_mode": "full",
     "internal_verified": {
       "google_rating": 4.6,
       "google_review_count": 1515,
@@ -1786,7 +2048,59 @@
         }
       },
       "address_raw": "The Deck Phu Quoc - Kitchen & Beach Bar, PJ + R88, 22, Bãi Khem, Phú Quốc, An Giang 91000, Vietnam"
-    }
+    },
+    "google_rating": 4.6,
+    "google_review_count": 1523,
+    "google_review_analysis": {
+      "rating": 4.6,
+      "reviewCount": 1523,
+      "lastVerified": "2026-11-01",
+      "topics": [
+        "해피아워 (51)",
+        "피자 (22)",
+        "똠얌 (14)",
+        "까르보나라 (12)"
+      ],
+      "praised": {
+        "ko": [
+          "구글맵 리뷰 1,523건(평점 ★4.6) 기반으로 검증된 선셋타운·바이켐 주요 방문처입니다.",
+          "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
+        ],
+        "en": [
+          "Verified venue with 1,523 Google Maps reviews (★4.6) in Sunset Town & Khem Beach.",
+          "Conveniently accessible along main traveler routes with consistent visitor satisfaction."
+        ],
+        "vi": [
+          "Địa điểm đã xác thực với 1,523 đánh giá Google Maps (★4.6) tại Sunset Town & Bãi Khem.",
+          "Vị trí thuận tiện trên trục di chuyển chính của du khách, mức độ hài lòng ổn định."
+        ]
+      },
+      "goodToKnow": {
+        "ko": [
+          "방문 전 구글맵 최신 영업시간과 피크 시간대 혼잡도를 확인하시기 바랍니다."
+        ],
+        "en": [
+          "Check current operating hours and peak visiting times on Google Maps before heading out."
+        ],
+        "vi": [
+          "Vui lòng kiểm tra giờ mở cửa hiện tại trên Google Maps trước khi ghé thăm."
+        ]
+      },
+      "sentimentSummary": {
+        "ko": "구글맵 실측 평점 ★4.6점(방문자 리뷰 1,523개)을 기록 중이며, 실제 방문객 리뷰에서 '해피아워, 피자, 똠얌' 등이 주요 강점으로 꼽힙니다.",
+        "en": "Rated ★4.6 across 1,523 verified Google Maps reviews, frequently highlighted for 해피아워, 피자, 똠얌.",
+        "vi": "Đạt ★4.6 trên 1,523 đánh giá thực tế Google Maps, nổi bật với 해피아워, 피자, 똠얌."
+      },
+      "sampleReviews": [
+        "새롭게 건물 올리고 인테리어를 다시하고 새 모습으로 재탄생한 켐비치 맛집 중에서 고르고 골라 더 덱 비치바를 방문했어요..…",
+        "주문했던 음식 모두 맛있었고,직원분들도 엄청 친절하셨어요. 카드 결제도 가능하고, 해피아워 시간대 이용해서 칵테일도 드셔보시길 추천합니다. 제가 방문했을때 영업종료가 9시였어서 남은 음식은 포장해 왔으니 5~6시 방문하시면 좋을 것 같습니다!",
+        "컵이 얼어서 나오는데 해수욕하고 살얼음맥주라니!! 점심시간엔 1+1 메뉴도 있어서 beef buger먹었는데 너무 맛있어요!! 감자튀김도 정말 맛있네요 추천입니다~~"
+      ]
+    },
+    "media_note": "Google Maps",
+    "photo_permission": "google_maps_verified",
+    "phone": "+84 94 246 22 88",
+    "hours": "09:00 - 21:00"
   },
   {
     "id": "khem-draft-031",
@@ -1855,7 +2169,7 @@
     "google_rating": 4.2,
     "google_review_count": 553,
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "unpublished",
     "verification_status": "verified",
     "description_ko": "바이켐 해변 북단에 위치한 현지 로컬 해산물 식당으로 해산물 조리 메뉴를 제공합니다.",
     "description_en": "Local seafood beach restaurant situated on northern Bai Khem serving seafood dishes.",
@@ -1883,11 +2197,12 @@
     ],
     "facilities_en": "Beachfront seafood restaurant, local Phu Quoc seafood specialties",
     "display_mode": "name_only",
-    "address_raw": "Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam"
+    "address_raw": "Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
+    "unpublished_reason": "google_maps_insufficient_info_20261102"
   },
   {
     "id": "khem-draft-023",
-    "public_name": "바이켐 해변",
+    "public_name": "바이켐 해변 (Khem Beach)",
     "name_local": "Bãi Khem Beach (Kem Beach)",
     "slug": "bai-khem-beach",
     "category": "beaches",
@@ -1902,8 +2217,8 @@
     "website_url": "미확인",
     "hours": "연중무휴 상시 개방",
     "google_rating": 4.4,
-    "google_review_count": 2187,
-    "rating_check_date": "2026-10-30",
+    "google_review_count": 2194,
+    "rating_check_date": "2026-11-01",
     "status": "published",
     "verification_status": "verified",
     "verification_note": "실제 방문·체크인 POI 핀은 ChIJ677owMeWpzERsRurcR7BOYE(좌표 10.0366839, 104.0310431, 리뷰 2,187개). 구역 지리적 폴리곤 ID인 ChIJyT4u7LmXpzER6gZ0yq3HBAA(좌표 10.0298533, 104.0322303)와 교차 확인 완료.",
@@ -1913,7 +2228,11 @@
       "beach_access": "공공 해변 개방"
     },
     "gallery_urls": [
-      "/zones/khem-beach-hero.webp"
+      "/covers-photo/bai-khem-beach-1.webp",
+      "/covers-photo/bai-khem-beach-2.webp",
+      "/covers-photo/bai-khem-beach-3.webp",
+      "/covers-photo/bai-khem-beach-4.webp",
+      "/covers-photo/bai-khem-beach-5.webp"
     ],
     "source_urls": [
       "https://www.google.com/maps/place/?q=place_id:ChIJ677owMeWpzERsRurcR7BOYE"
@@ -1922,9 +2241,29 @@
     "zone": "khem-beach",
     "image_credits": [
       {
-        "file": "/zones/khem-beach-hero.webp",
-        "credit_text": "Photo by Vivu Vietnam on Unsplash (Kem Beach, Phu Quoc)",
-        "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-with-palm-trees-and-umbrellas-6_Q8uFjJpms"
+        "image_url": "/covers-photo/bai-khem-beach-1.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJ677owMeWpzERsRurcR7BOYE"
+      },
+      {
+        "image_url": "/covers-photo/bai-khem-beach-2.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJ677owMeWpzERsRurcR7BOYE"
+      },
+      {
+        "image_url": "/covers-photo/bai-khem-beach-3.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJ677owMeWpzERsRurcR7BOYE"
+      },
+      {
+        "image_url": "/covers-photo/bai-khem-beach-4.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJ677owMeWpzERsRurcR7BOYE"
+      },
+      {
+        "image_url": "/covers-photo/bai-khem-beach-5.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJ677owMeWpzERsRurcR7BOYE"
       }
     ],
     "internal_notes": "구글맵 교차 검증: POI 핀 ChIJ677owMeWpzERsRurcR7BOYE, 지리적 구역 폴리곤 ChIJyT4u7LmXpzER6gZ0yq3HBAA",
@@ -1939,7 +2278,55 @@
     },
     "internal_verified": {
       "address_raw": "Khem Beach, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam"
-    }
+    },
+    "google_review_analysis": {
+      "rating": 4.4,
+      "reviewCount": 2194,
+      "lastVerified": "2026-11-01",
+      "topics": [
+        "에메랄드빛 바다",
+        "고운 백사장",
+        "조용한 휴양",
+        "해변 산책"
+      ],
+      "praised": {
+        "ko": [
+          "구글맵 실측 리뷰 2,194건에서 '에메랄드빛 바다, 고운 백사장, 조용한 휴양' 키워드가 집중 언급되며 방문객 만족도가 높게 나타나고 있습니다.",
+          "여행자 동선에서 접근성이 뛰어나며 현장 이용객들의 만족도가 안정적으로 유지되고 있습니다."
+        ],
+        "en": [
+          "Verified venue with 2,194 Google Maps reviews (★4.4) in Sunset Town & Khem Beach.",
+          "Conveniently accessible along main traveler routes with consistent visitor satisfaction."
+        ],
+        "vi": [
+          "Địa điểm đã xác thực với 2,194 đánh giá Google Maps (★4.4) tại Sunset Town & Bãi Khem.",
+          "Vị trí thuận tiện trên trục di chuyển chính của du khách, mức độ hài lòng ổn định."
+        ]
+      },
+      "goodToKnow": {
+        "ko": [
+          "방문 전 구글맵 최신 영업시간과 피크 시간대 혼잡도를 확인하시기 바랍니다."
+        ],
+        "en": [
+          "Check current operating hours and peak visiting times on Google Maps before heading out."
+        ],
+        "vi": [
+          "Vui lòng kiểm tra giờ mở cửa hiện tại trên Google Maps trước khi ghé thăm."
+        ]
+      },
+      "sentimentSummary": {
+        "ko": "실제 방문객 리뷰에서 '에메랄드빛 바다, 고운 백사장, 조용한 휴양' 등이 주요 강점으로 꼽힙니다.",
+        "en": "Rated ★4.4 across 2,194 verified Google Maps reviews, frequently highlighted for Khem Beach, beaches, beach.",
+        "vi": "Đạt ★4.4 trên 2,194 đánh giá thực tế Google Maps, nổi bật với Khem Beach, beaches, beach."
+      },
+      "sampleReviews": [
+        "​비 오는 날의 켐비치, 아쉬움이 크지만 운치는 있었어요 ​에메랄드빛 바다로 유명하다고 해서 기대를 가득 안고 방문했는데, 하필 비가 내리는 바람에 켐비치 특유의 예쁜 뷰를 보지 못해 너무 아쉬웠습니다.…",
+        "사오비치가지말고 여기가세요 스노클링 할정도는 아니더라도 해수욕 하기 딱 좋아요 정돈된 해변 샤워시설도 싸서 제대로 물놀이하고왔습니다",
+        "푸꾸옥 남부 켐 비치는 발끝에 닿는 모래의 질감부터가 남다릅니다 밀가루처럼 고운 하얀 모래가 발가락 사이를 간지럽히는데 그 부드러움이 마음까지 말랑하게 만들어주는 기분이 듭니다 에메랄드 베이라는 이름이 아깝지 않을 만큼 바다색은 투명하고 잔잔해서 가만히 바라보고..."
+      ]
+    },
+    "media_note": "Google Maps",
+    "photo_permission": "google_maps_verified"
   },
   {
     "id": "khem-draft-024",

@@ -33,6 +33,7 @@ import {
   displayBusinessName,
 } from '@/lib/i18n/dictionaries'
 import { getHotelPriceRangeForBusiness, HotelPriceBadge } from '@/lib/hotels'
+import { buildGoogleMapsUrl } from '@/lib/mapsLink'
 
 const MAP_LINK_LABEL: Record<string, string> = {
   ko: '지도 보기 ↗',
@@ -143,14 +144,15 @@ function randomScore(b: Business, seed: string) {
 }
 
 function BusinessCard({ b, locale }: { b: Business; locale: Locale }) {
-  const img = b.gallery_urls?.[0] || imageFor(b)
+  const coverPhoto = getCoverPhoto(b.slug)
+  const cardPhotoUrl = b.gallery_urls?.[0] || coverPhoto?.image_url || null
+  const img = cardPhotoUrl || imageFor(b)
   const badgeText = getPhotoBadgeText(b.media_note, locale, img)
   const nearbyText = nearbyBadgeText(b.address, b.tags, b.badges, locale)
   const desc = selectBusinessDescription(b, locale)
   const subLabel = b.subcategory
     ? translateTerm(b.subcategory, locale)
     : categoryLabel(b.category, locale)
-  const coverPhoto = getCoverPhoto(b.slug)
   const isHotel = (b.category as string) === 'hotel' || (b.category as string) === 'hotels'
   const hotelPriceRange = isHotel ? getHotelPriceRangeForBusiness(b) : undefined
 
@@ -163,7 +165,7 @@ function BusinessCard({ b, locale }: { b: Business; locale: Locale }) {
     >
       <article className="directoryResult compactDirectoryCard">
         <div className="resultImageWrap">
-          {coverPhoto ? (
+          {cardPhotoUrl ? (
             <div
               className="officialCoverCard"
               style={{
@@ -175,7 +177,7 @@ function BusinessCard({ b, locale }: { b: Business; locale: Locale }) {
               }}
             >
               <img
-                src={coverPhoto.image_url}
+                src={cardPhotoUrl}
                 alt={displayBusinessName(b, locale)}
                 style={{
                   width: '100%',
@@ -237,6 +239,7 @@ function BusinessCard({ b, locale }: { b: Business; locale: Locale }) {
                   e.preventDefault()
                   e.stopPropagation()
                   const url =
+                    buildGoogleMapsUrl(b) ||
                     b.google_maps_url ||
                     `https://www.google.com/maps/place/?q=place_id:${b.google_place_id}`
                   window.open(url, '_blank', 'noopener,noreferrer')
