@@ -1568,7 +1568,7 @@
     "google_rating": 4.8,
     "google_review_count": 4199,
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "unpublished",
     "verification_status": "verified",
     "description_ko": "바이켐 숍하우스 구역에 위치한 해산물 전문 식당으로 다양한 현지 해산물 메뉴를 조리하여 제공합니다.",
     "description_en": "A seafood restaurant located in the Bai Khem area offering local seafood preparations.",
@@ -1596,7 +1596,8 @@
     ],
     "facilities_en": "Fresh seafood display tanks, grilled seafood, air-conditioned and open seating",
     "display_mode": "name_only",
-    "address_raw": "Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam"
+    "address_raw": "Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
+    "unpublished_reason": "google_maps_insufficient_info_20261102"
   },
   {
     "id": "khem-draft-016",
@@ -2153,7 +2154,7 @@
     "google_rating": 4.2,
     "google_review_count": 553,
     "rating_check_date": "2026-10-30",
-    "status": "published",
+    "status": "unpublished",
     "verification_status": "verified",
     "description_ko": "바이켐 해변 북단에 위치한 현지 로컬 해산물 식당으로 해산물 조리 메뉴를 제공합니다.",
     "description_en": "Local seafood beach restaurant situated on northern Bai Khem serving seafood dishes.",
@@ -2181,7 +2182,8 @@
     ],
     "facilities_en": "Beachfront seafood restaurant, local Phu Quoc seafood specialties",
     "display_mode": "name_only",
-    "address_raw": "Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam"
+    "address_raw": "Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
+    "unpublished_reason": "google_maps_insufficient_info_20261102"
   },
   {
     "id": "khem-draft-023",
