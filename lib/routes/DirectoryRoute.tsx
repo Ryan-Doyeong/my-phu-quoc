@@ -30,14 +30,9 @@ export async function generateDirectoryMetadata(
   locale: Locale = 'en'
 ): Promise<Metadata> {
   const category = normalizeDirectoryCategory(rawCategory)
-  if (category === 'hotels' || rawCategory === 'hotels' || rawCategory === 'hotel') {
-    const barePath = '/hotels'
+  if (category === 'hotels' || rawCategory === 'hotels' || rawCategory === 'hotel' || category === 'activities') {
     return {
-      title: locale === 'ko' ? '선셋타운 & 켐비치 호텔 | 마이 푸꾸옥 (My Phu Quoc)' : 'Hotels in Sunset Town & Khem Beach | My Phu Quoc',
-      alternates: {
-        canonical: localeUrl(locale, barePath),
-        languages: buildAlternates(barePath).languages,
-      },
+      robots: { index: false, follow: false },
     }
   }
   if (!isDirectoryCategory(category)) return {}
@@ -78,6 +73,9 @@ export async function renderDirectoryRoute(
   if (category === 'hotels' || rawCategory === 'hotels' || rawCategory === 'hotel') {
     redirect(localePath(locale, '/hotels'))
   }
+  if (category === 'activities') {
+    redirect(localePath(locale, '/activities'))
+  }
   if (category === 'banking') {
     return <BankingDirectory locale={locale} />
   }
@@ -113,7 +111,7 @@ export async function renderDirectoryRoute(
   // Merge registry and verified Khem Beach data mapped to public 10 categories
   const combinedRegistry = [
     ...(businessesRegistry as any[])
-      .filter((b) => b.status === 'published' && !isHiddenBusiness(b))
+      .filter((b) => (!b.status || b.status === 'published') && !isHiddenBusiness(b))
       .map((b) => {
         const a = assignments[b.id]
         return {
@@ -140,30 +138,33 @@ export async function renderDirectoryRoute(
     (b) => b.zone === 'khem-beach' && b.public_category === category
   )
 
-  const enrichedData = (data || []).map((b: any) => {
-    const reg = registryBySlug.get(b.slug)
-    if (!reg) return b
-    return {
-      ...b,
-      status: reg.status ?? b.status,
-      public_name: reg.public_name ?? b.public_name,
-      lat: reg.lat ?? b.lat,
-      lng: reg.lng ?? b.lng,
-      google_place_id: reg.google_place_id ?? b.google_place_id,
-      google_maps_name: reg.google_maps_name ?? b.google_maps_name,
-      google_rating: reg.google_rating ?? b.google_rating,
-      google_review_count: reg.google_review_count ?? b.google_review_count,
-      rating_check_date: reg.rating_check_date ?? b.rating_check_date,
-      google_review_analysis: reg.google_review_analysis ?? b.google_review_analysis,
-      services: reg.services ?? b.services,
-      gallery_urls:
-        Array.isArray(reg.gallery_urls) && reg.gallery_urls.length > 0
-          ? reg.gallery_urls
-          : b.gallery_urls,
-      media_note: reg.media_note ?? b.media_note,
-      photo_permission: reg.photo_permission ?? b.photo_permission,
-    }
-  })
+  const enrichedData = (data || [])
+    .map((b: any) => {
+      const reg = registryBySlug.get(b.slug)
+      if (!reg) return b
+      return {
+        ...b,
+        status: reg.status ?? b.status,
+        category: reg.category ?? b.category,
+        public_name: reg.public_name ?? b.public_name,
+        lat: reg.lat ?? b.lat,
+        lng: reg.lng ?? b.lng,
+        google_place_id: reg.google_place_id ?? b.google_place_id,
+        google_maps_name: reg.google_maps_name ?? b.google_maps_name,
+        google_rating: reg.google_rating ?? b.google_rating,
+        google_review_count: reg.google_review_count ?? b.google_review_count,
+        rating_check_date: reg.rating_check_date ?? b.rating_check_date,
+        google_review_analysis: reg.google_review_analysis ?? b.google_review_analysis,
+        services: reg.services ?? b.services,
+        gallery_urls:
+          Array.isArray(reg.gallery_urls) && reg.gallery_urls.length > 0
+            ? reg.gallery_urls
+            : b.gallery_urls,
+        media_note: reg.media_note ?? b.media_note,
+        photo_permission: reg.photo_permission ?? b.photo_permission,
+      }
+    })
+    .filter((b: any) => b.category === category && (!b.status || b.status === 'published') && !isHiddenBusiness(b))
 
   const dbSlugs = new Set((data || []).map((b: any) => b.slug))
   const unmigratedSunsetItems = combinedRegistry.filter(

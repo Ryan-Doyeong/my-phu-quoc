@@ -134,6 +134,7 @@ export async function generateBusinessMetadata(
     b = {
       ...b,
       status: regItem.status ?? b.status,
+      category: regItem.category ?? b.category,
       public_name: regItem.public_name ?? b.public_name,
       lat: regItem.lat ?? b.lat,
       lng: regItem.lng ?? b.lng,
@@ -153,6 +154,7 @@ export async function generateBusinessMetadata(
       image_credits: regItem.image_credits ?? b.image_credits,
     }
   }
+  if (isHiddenBusiness(b)) return {}
 
   const rawDesc = selectBusinessDescription(b, locale)
   const description = rawDesc
@@ -263,6 +265,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
     b = {
       ...b,
       status: regItem.status ?? b.status,
+      category: regItem.category ?? b.category,
       public_name: regItem.public_name ?? b.public_name,
       lat: regItem.lat ?? b.lat,
       lng: regItem.lng ?? b.lng,
@@ -282,6 +285,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
       image_credits: regItem.image_credits ?? b.image_credits,
     }
   }
+  if (isHiddenBusiness(b)) notFound()
 
   if (isHiddenBusiness(b)) {
     notFound()
@@ -338,7 +342,13 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
     (b.category === 'dining' ||
       b.category === 'food' ||
       b.category === 'cafe' ||
+<<<<<<< HEAD
       b.category === 'bars')
+=======
+      b.category === 'bars' ||
+      (b.category === 'beaches' && b.subcategory !== 'beach') ||
+      Boolean(menuData))
+>>>>>>> origin/main
 
   const foodGuide = isDiningOrFood ? getFoodGuideForBusiness(b, menuData) : null
   const categoryGuide = !isNameOnly && !isDiningOrFood && !isKhem ? getKnowledgeGuideForBusiness(b, menuData) : null
@@ -408,6 +418,10 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
             ) : isKhem ? (
               <Link href={localePath(locale, '/zones/khem-beach')}>
                 {dict.business.backTo(locale === 'ko' ? '켐비치' : 'Khem Beach')}
+              </Link>
+            ) : b.category === 'activities' ? (
+              <Link href={localePath(locale, '/activities')}>
+                {dict.business.backTo(catLabel)}
               </Link>
             ) : (
               <Link href={localePath(locale, `/directory/${b.category}`)}>

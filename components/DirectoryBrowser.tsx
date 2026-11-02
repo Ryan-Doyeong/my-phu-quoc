@@ -11,6 +11,8 @@ import {
   type DirectoryCategory,
 } from '@/lib/directory'
 import {
+  MAIN_ZONES,
+  SUNSET_BEACH_NOTICE_TEXT,
   SUNSET_ZONE_KEYS,
   zoneLabel,
   detectSunsetZone,
@@ -414,6 +416,39 @@ export function DirectoryBrowser({
 
   return (
     <>
+      {category === 'beaches' && zoneFilter !== 'khem-beach' && (
+        <div
+          className="zoneNoteBanner amberNotice"
+          style={{
+            marginTop: '0',
+            marginBottom: '20px',
+            padding: '13px 16px',
+            fontSize: '13.5px',
+            lineHeight: 1.6,
+            display: 'flex',
+            flexWrap: 'wrap',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            gap: '8px 16px',
+          }}
+        >
+          <span>ℹ️ {SUNSET_BEACH_NOTICE_TEXT[activeLocale] || SUNSET_BEACH_NOTICE_TEXT.en}</span>
+          <span style={{ display: 'inline-flex', flexWrap: 'wrap', gap: '12px', fontWeight: 700 }}>
+            <Link
+              href={localePath(activeLocale, '/zones/khem-beach')}
+              style={{ color: '#0B7A8A', textDecoration: 'underline' }}
+            >
+              {MAIN_ZONES['khem-beach'].ctaButton[activeLocale] || MAIN_ZONES['khem-beach'].ctaButton.en}
+            </Link>
+            <Link
+              href={localePath(activeLocale, '/activities')}
+              style={{ color: '#C86D2D', textDecoration: 'underline' }}
+            >
+              {dict.home.exploreCategory(categoryLabel('activities', activeLocale))}
+            </Link>
+          </span>
+        </div>
+      )}
       <div className="directoryToolbar">
         <label className="directorySearch">
           <span>⌕</span>

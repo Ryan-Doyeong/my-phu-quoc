@@ -1,5 +1,9 @@
 import {STOCK_IMAGES} from '@/lib/stockImages'
 import type {Locale} from '@/lib/i18n/config'
+import businessesRegistryJson from '@/data/businesses-registry.json'
+import khemBusinessesJson from '@/data/khem-beach-businesses.json'
+import zoneAssignmentsJson from '@/data/zone-assignments.json'
+import {MARMORIS_YACHT_TOURS} from '@/lib/activities/marmorisYacht'
 
 /** 카테고리 테마: ocean = 낮·바다, amber = 저녁·선셋 */
 export type CategoryTheme = 'ocean' | 'amber'
@@ -177,27 +181,27 @@ const CATEGORY_DEFS = {
   },
   beaches: {
     theme: 'ocean',
-    label: {en: 'Beaches', vi: 'Bãi biển', hi: 'समुद्र तट', zh: '海滩', ru: 'Пляжи', ko: '해변', ja: 'ビーチ'},
+    label: {en: 'Beach', vi: 'Bãi biển', hi: 'समुद्र तट', zh: '海滩', ru: 'Пляж', ko: '비치', ja: 'ビーチ'},
     eyebrow: {
-      en: 'BEACHES · SUN LOUNGERS · GOLF · YOGA',
-      vi: 'BÃI BIỂN · GHẾ NẰM · GOLF · YOGA',
-      hi: 'समुद्र तट · सन लाउंजर · गोल्फ़ · योग',
-      zh: '海滩 · 躺椅 · 高尔夫 · 瑜伽',
-      ru: 'ПЛЯЖИ · ШЕЗЛОНГИ · ГОЛЬФ · ЙОГА',
-      ko: '해변 · 선베드 라운지 · 골프 · 요가',
-      ja: 'ビーチ · サンラウンジャー · ゴルフ · ヨガ',
+      en: 'BEACHFRONT DINING · BEACH PUBS · CAFES · BEACHES',
+      vi: 'NHÀ HÀNG VEN BIỂN · BEACH PUB · CAFE · BÃI BIỂN',
+      hi: 'बीचफ़्रंट डाइनिंग · बीच पब · कैफ़े · समुद्र तट',
+      zh: '海滨餐厅 · 海滩酒吧 · 咖啡馆 · 海滩',
+      ru: 'РЕСТОРАНЫ У МОРЯ · ПЛЯЖНЫЕ БАРЫ · КАФЕ · ПЛЯЖИ',
+      ko: '바닷가 식당 · 비치 펍 · 카페 · 해변',
+      ja: '海辺のレストラン · ビーチパブ · カフェ · ビーチ',
     },
     description: {
-      en: 'Khem Beach and nearby beaches, sun-lounger spots, golf and beach yoga.',
-      vi: 'Bãi Khem và các bãi biển lân cận, điểm ghế nằm, golf và yoga trên biển.',
-      hi: 'खेम बीच और आसपास के समुद्र तट, सन-लाउंजर स्थल, गोल्फ़ और बीच योग।',
-      zh: '凯姆海滩及周边海滩、躺椅区、高尔夫和海滩瑜伽。',
-      ru: 'Пляж Кхем и ближайшие пляжи, шезлонги, гольф и йога на пляже.',
-      ko: '켐비치와 주변 해변, 선베드 라운지, 골프, 비치 요가.',
-      ja: 'ケムビーチと周辺のビーチ、サンラウンジャー、ゴルフ、ビーチヨガ。',
+      en: 'Beachfront restaurants, beach pubs, cafes and beaches across Sunset Town and Khem Beach.',
+      vi: 'Nhà hàng ven biển, quán bar bãi biển, quán cà phê và bãi biển tại Sunset Town và Bãi Khem.',
+      hi: 'सनसेट टाउन और खेम बीच के समुद्र तटीय रेस्तरां, बीच पब, कैफ़े और समुद्र तट।',
+      zh: '日落小镇与凯姆海滩的海滨餐厅、海滩酒吧、咖啡馆与海滩。',
+      ru: 'Прибрежные рестораны, пляжные пабы, кафе и пляжи в Сансет-Тауне и на пляже Кхем.',
+      ko: '선셋타운과 켐비치 바닷가 쪽 식당, 비치 펍, 카페 및 해변 안내.',
+      ja: 'サンセットタウンとケムビーチの海辺のレストラン、ビーチパブ、カフェ、ビーチ。',
     },
     image: '/categories/beach.webp',
-    subcategories: ['Beach','Sun Lounger','Golf','Yoga','Water Sports'],
+    subcategories: ['Beach','Seafood','Bar','Beach Club','Cafe','Korean'],
   },
   banking: {
     theme: 'ocean',
@@ -220,16 +224,16 @@ const CATEGORY_DEFS = {
       ja: 'ATM · 両替所',
     },
     description: {
-      en: 'Only places directly accessible within Sunset Town.',
-      vi: 'Chỉ các địa điểm trong Thị trấn Hoàng Hôn có thể đến trực tiếp.',
-      hi: 'केवल सनसेट टाउन के भीतर सीधे सुलभ स्थान एकत्र किए गए हैं।',
-      zh: '仅收录日落小镇内可直接到达的地点。',
-      ru: 'Собраны только места, доступные прямо в Сансет Тауне.',
-      ko: '선셋타운 안에서 바로 갈 수 있는 곳만 모았어요.',
-      ja: 'サンセットタウン内ですぐに行ける場所だけを集めました。',
+      en: 'Only places directly accessible within Sunset Town and Khem Beach.',
+      vi: 'Chỉ các địa điểm trong Thị trấn Hoàng Hôn và Bãi Khem có thể đến trực tiếp.',
+      hi: 'सनसेट टाउन और खेम बीच के भीतर सीधे सुलभ स्थान।',
+      zh: '仅收录日落小镇与凯姆海滩内可直接到达的地点。',
+      ru: 'Собраны места, доступные прямо в Сансет Тауне и на пляже Кхем.',
+      ko: '선셋타운과 켐비치 안에서 바로 갈 수 있는 곳만 모았어요.',
+      ja: 'サンセットタウンとケムビーチ内ですぐに行ける場所だけを集めました。',
     },
     image: '/categories/essentials.webp',
-    subcategories: ['ATM','Currency Exchange','Bank'],
+    subcategories: ['ATM','Currency Exchange'],
   },
   essentials: {
     theme: 'ocean',
@@ -472,7 +476,18 @@ export function formatLocalizedAddress(address?: string | null, locale: Locale =
 
 /**
  * 2026-10-31 ~ 2026-11-02 구글맵 실존·정보충분성(사진 3장 이상, 메뉴·리뷰 검증) 전수 감사 결과 비공개 전환된 업체 슬러그 및 레거시 ID 목록
+ * + 레지스트리(businesses-registry.json, khem-beach-businesses.json) 기반 비공개(status !== 'published') 동적 수집
+ * - 나중에 레지스트리에서 status가 'published'로 전환되면 자동으로 비공개 목록에서 해제되고 카운트가 반영됨
  */
+const REGISTRY_BUSINESSES: any[] = Array.isArray(businessesRegistryJson)
+  ? (businessesRegistryJson as any[])
+  : (businessesRegistryJson as any).businesses || []
+const KHEM_BUSINESSES: any[] = Array.isArray(khemBusinessesJson)
+  ? (khemBusinessesJson as any[])
+  : []
+const ZONE_ASSIGNMENTS: Record<string, { service_areas?: string[]; zone?: string }> =
+  (zoneAssignmentsJson as any) || {}
+
 export const HIDDEN_BUSINESS_SLUGS = new Set<string>([
   '68mart-local-mart-for-tourists-dac-san-phu-quoc',
   'amritsar-grill-indian-restaurant',
@@ -480,11 +495,13 @@ export const HIDDEN_BUSINESS_SLUGS = new Set<string>([
   'an-thoi-polyclinics',
   'ang-spa-nail',
   'antalya-turkish-cuisine-sunset-town',
+  'apollo-cafe-phu-quoc',
   'at-108-new-an-thoi',
   'banh-canh-ghe-by-restaurant-seafood',
   'bloom-spa-phu-quoc-sunset-town',
   'cap-tr-phu-quoc',
   'casepia-kitchen-and-lounge',
+  'chill-sunset-restaurant',
   'com-me',
   'delhi-darbaar-indian-restaurant-indian-food-in-sunset-town-phu-quoc',
   'draft-beer-sunset-town-phu-quoc',
@@ -499,6 +516,7 @@ export const HIDDEN_BUSINESS_SLUGS = new Set<string>([
   'madam-khanh-restaurant-phu-quoc-2',
   'maharaja-lounge-100-pure-veg-authentic-indian-restaurant-sunset-town',
   'mai-huong-restaurant-sunset-town',
+  'maison-kayser-phu-quoc',
   'mimi-fruits-mart',
   'mixue-ice-cream-and-tea',
   'nha-hang-com-nieu-viet-xua-an-thoi',
@@ -512,6 +530,7 @@ export const HIDDEN_BUSINESS_SLUGS = new Set<string>([
   'nha-thuoc-thanh-khoe',
   'nha-thuoc-truong-thi',
   'oc-dao-an-thoi',
+  'ph-rooftop-bar-lounge-sea-view-restaurant-an-thoi-phu-quoc',
   'phong-kham-30-4-an-thoi',
   'phong-kham-da-khoa-sos-an-thoi-phu-quoc',
   'qua-y-thuo-c-huong-thom',
@@ -525,12 +544,16 @@ export const HIDDEN_BUSINESS_SLUGS = new Set<string>([
   'sunset-place-4',
   'sunset-place-6',
   'sunset-place-8',
+  'the-ivy-cafe-lounge-phu-quoc',
   'the-nice-hotel-phu-quoc-fireworks-ocean-view',
   'triland-hillside',
+  'tsunagari-phu-quoc-japanese-matcha-in-the-island',
   'turkish-kitchen',
   'venice-spamedica-phu-quoc',
   'wave-cafe-pub-3f-sunset-town',
   'wave-spa-2f-sunset-town',
+  ...REGISTRY_BUSINESSES.filter((b) => Boolean(b.status && b.status !== 'published')).map((b) => String(b.slug)),
+  ...KHEM_BUSINESSES.filter((b) => Boolean(b.status && b.status !== 'published')).map((b) => String(b.slug)),
 ])
 
 export const HIDDEN_BUSINESS_IDS = new Set<string>([
@@ -578,6 +601,8 @@ export const HIDDEN_BUSINESS_IDS = new Set<string>([
   'local-sunset-262',
   'local-sunset-268',
   'local-sunset-casepia-dining',
+  ...REGISTRY_BUSINESSES.filter((b) => Boolean(b.status && b.status !== 'published')).map((b) => String(b.id)),
+  ...KHEM_BUSINESSES.filter((b) => Boolean(b.status && b.status !== 'published')).map((b) => String(b.id)),
 ])
 
 export function isHiddenBusiness(b: { slug?: string | null; id?: string | null; status?: string | null } | null | undefined): boolean {
@@ -587,4 +612,54 @@ export function isHiddenBusiness(b: { slug?: string | null; id?: string | null; 
   if (b.id && HIDDEN_BUSINESS_IDS.has(String(b.id))) return true
   return false
 }
+
+/**
+ * 카테고리별 현재 공개 업체 수(count) 동적 계산
+ * - count === 0인 카테고리(현재 essentials, transport)는 홈·메뉴·푸터·검색 등에서 자동으로 숨겨지며,
+ *   추후 업체가 공개(status: 'published')되면 자동으로 count > 0이 되어 다시 노출됨.
+ * - activities는 통합 페이지(/activities)의 공개 요트 프로그램(MARMORIS_YACHT_TOURS) 기준으로 집계.
+ */
+export function getCategoryPublishedCount(key: DirectoryCategory): number {
+  if (key === 'activities') {
+    return MARMORIS_YACHT_TOURS.length
+  }
+  const sunsetCount = REGISTRY_BUSINESSES.filter(
+    (b) => b.category === key && (!b.status || b.status === 'published') && !isHiddenBusiness(b)
+  ).length
+  const khemCount = KHEM_BUSINESSES.filter(
+    (b) => b.category === key && b.status === 'published' && !isHiddenBusiness(b)
+  ).length
+  return sunsetCount + khemCount
+}
+
+/**
+ * 구역별(sunset-town / khem-beach) 카테고리 공개 업체 수 동적 계산
+ * - 액티비티(activities)는 구역 구분 없이 /activities로 통합되었으므로 구역 타일에서는 0 유지
+ * - 선셋타운 banking은 선셋타운 코어(ATM 3 + 환전소 5 = 8곳, 안터이 외곽 ATM 제외) 기준
+ */
+export function getZoneCategoryPublishedCount(
+  zone: 'sunset-town' | 'khem-beach',
+  key: DirectoryCategory
+): number {
+  if (key === 'activities') return 0
+  if (zone === 'khem-beach') {
+    return KHEM_BUSINESSES.filter(
+      (b) => b.category === key && b.status === 'published' && !isHiddenBusiness(b)
+    ).length
+  }
+  return REGISTRY_BUSINESSES.filter((b) => {
+    if (b.category !== key || (b.status && b.status !== 'published') || isHiddenBusiness(b)) return false
+    if (key === 'banking') {
+      const assignment = b.id ? ZONE_ASSIGNMENTS[String(b.id)] : undefined
+      if (assignment?.service_areas?.includes('sunset-town-adjacent')) {
+        return false
+      }
+      if (String(b.subcategory || '').toLowerCase() === 'atm' && isNearbyArea(b.address, b.tags, b.badges)) {
+        return false
+      }
+    }
+    return true
+  }).length
+}
+
 

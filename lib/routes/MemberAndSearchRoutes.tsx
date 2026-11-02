@@ -1,9 +1,11 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { createPublicClient } from '@/lib/supabase/public'
+import businessesRegistryJson from '@/data/businesses-registry.json'
+import khemBusinesses from '@/data/khem-beach-businesses.json'
 import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
-import { DIRECTORY_CATEGORY_KEYS, categoryLabel, nearbyBadgeText, formatLocalizedAddress, isHiddenBusiness } from '@/lib/directory'
+import { DIRECTORY_CATEGORY_KEYS, getCategoryPublishedCount, categoryLabel, nearbyBadgeText, formatLocalizedAddress, isHiddenBusiness } from '@/lib/directory'
 import { PUBLISHED_EVENTS } from '@/lib/eventSamples'
 import { stockPrimaryFor } from '@/lib/stockImages'
 import { imageUrl } from '@/lib/imageUrl'
@@ -121,9 +123,29 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
     supabase.from('stories').select('*').eq('status', 'published').limit(100),
   ])
   const needle = q.toLowerCase()
-  const b = (businesses || []).filter(
+  const regList: any[] = Array.isArray(businessesRegistryJson)
+    ? (businessesRegistryJson as any[])
+    : (businessesRegistryJson as any).businesses || []
+  const regMap = new Map<string, any>(regList.map((r) => [r.slug, r]))
+  const syncedBusinesses = (businesses || []).map((x: any) => {
+    const reg = regMap.get(x.slug)
+    if (!reg) return x
+    return {
+      ...x,
+      status: reg.status ?? x.status,
+      category: reg.category ?? x.category,
+    }
+  })
+  const allBusinesses = [
+    ...syncedBusinesses,
+    ...(khemBusinesses as any[]).filter(
+      (x) => x.status === 'published'
+    ),
+  ]
+  const b = allBusinesses.filter(
     (x: any) =>
       !isHiddenBusiness(x) &&
+      x.category !== 'activities' &&
       (!needle ||
         [
           x.public_name,
@@ -160,8 +182,17 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
         <div className="detailNavRight">
           <nav>
             <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
-            {DIRECTORY_CATEGORY_KEYS.map((key) => (
-              <Link href={localePath(locale, `/directory/${key}`)} key={key}>
+            {DIRECTORY_CATEGORY_KEYS.filter((key) => getCategoryPublishedCount(key) > 0).map((key) => (
+              <Link
+                href={
+                  key === 'hotels'
+                    ? localePath(locale, '/hotels')
+                    : key === 'activities'
+                    ? localePath(locale, '/activities')
+                    : localePath(locale, `/directory/${key}`)
+                }
+                key={key}
+              >
                 {categoryLabel(key, locale)}
               </Link>
             ))}

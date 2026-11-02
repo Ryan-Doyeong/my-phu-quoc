@@ -184,19 +184,19 @@ export function BankingDirectory({ locale }: BankingDirectoryProps) {
   const dict = getDictionary(locale)
   const ui = BANKING_UI_STRINGS[locale] || BANKING_UI_STRINGS.en
 
-  // 구역별 그룹핑
+  // 구역별 그룹핑 (비공개 private 항목 제외)
   const sunsetAtms = BANKING_PLACES.filter(
-    (b) => b.zone === 'sunset-town' && b.type === 'atm'
+    (b) => b.zone === 'sunset-town' && b.type === 'atm' && b.status !== 'private'
   )
   const sunsetExchanges = BANKING_PLACES.filter(
-    (b) => b.zone === 'sunset-town' && b.type === 'exchange'
+    (b) => b.zone === 'sunset-town' && b.type === 'exchange' && b.status !== 'private'
   )
 
   const khemAtms = BANKING_PLACES.filter(
-    (b) => b.zone === 'khem-beach' && b.type === 'atm'
+    (b) => b.zone === 'khem-beach' && b.type === 'atm' && b.status !== 'private'
   )
   const khemExchanges = BANKING_PLACES.filter(
-    (b) => b.zone === 'khem-beach' && b.type === 'exchange'
+    (b) => b.zone === 'khem-beach' && b.type === 'exchange' && b.status !== 'private'
   )
 
   return (
