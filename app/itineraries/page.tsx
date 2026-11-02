@@ -4,9 +4,9 @@ import { generateItinerariesMetadata, renderItinerariesRoute } from '@/lib/route
 export const revalidate = 300
 
 export async function generateMetadata(): Promise<Metadata> {
-  return generateItinerariesMetadata('ko')
+  return generateItinerariesMetadata('en')
 }
 
 export default async function ItinerariesPage() {
-  return renderItinerariesRoute('ko')
+  return renderItinerariesRoute('en')
 }

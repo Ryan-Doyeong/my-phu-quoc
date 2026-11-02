@@ -5,7 +5,15 @@
  * 가격은 공개 정가(retail)만 기재. 파트너 매입가(net)는 공개 저장소에 절대 넣지 말 것.
  * en = 원문(영어) 기준, 그 외 언어는 en 사용 (ChatGPT 검수 대기)
  */
-export type L = { ko: string; en: string }
+export type L = {
+  ko: string
+  en: string
+  zh?: string
+  ja?: string
+  ru?: string
+  hi?: string
+  vi?: string
+}
 
 export interface YachtStep {
   time: string
@@ -35,10 +43,42 @@ export interface YachtTour {
   notes: L[]
 }
 
-const OCEAN = { ko: '오션 클래스', en: 'Ocean Class' }
-const OCEAN_DECK = { ko: '하층 데크', en: 'Lower Deck' }
-const SKY = { ko: '스카이 라운지', en: 'Sky Lounge' }
-const SKY_DECK = { ko: 'VIP 데크', en: 'VIP Deck' }
+const OCEAN: L = {
+  ko: '오션 클래스',
+  en: 'Ocean Class',
+  zh: 'Ocean Class（海洋舱）',
+  ja: 'オーシャンクラス',
+  ru: 'Ocean Class',
+  hi: 'ओशन क्लास',
+  vi: 'Ocean Class',
+}
+const OCEAN_DECK: L = {
+  ko: '하층 데크',
+  en: 'Lower Deck',
+  zh: '下层甲板',
+  ja: '下層デッキ',
+  ru: 'Нижняя палуба',
+  hi: 'निचला डेक',
+  vi: 'Boong dưới',
+}
+const SKY: L = {
+  ko: '스카이 라운지',
+  en: 'Sky Lounge',
+  zh: 'Sky Lounge（天空休息区）',
+  ja: 'スカイラウンジ',
+  ru: 'Sky Lounge',
+  hi: 'स्काई लाउंज',
+  vi: 'Sky Lounge',
+}
+const SKY_DECK: L = {
+  ko: 'VIP 데크',
+  en: 'VIP Deck',
+  zh: 'VIP 甲板',
+  ja: 'VIPデッキ',
+  ru: 'VIP-палуба',
+  hi: 'वीआईपी डेक',
+  vi: 'Boong VIP',
+}
 
 const WEATHER: L = {
   ko: '표시된 일정과 시간은 일반적인 기준입니다. 해상 상태·날씨·바람 계절·당일 운영 상황 등 여러 변수에 따라 출발 항구, 항로, 정박 장소, 시간, 프로그램이 달라지거나 조정될 수 있습니다. 액티비티는 날씨와 탑승객의 건강 상태가 안전할 때에만 진행됩니다.',
@@ -49,8 +89,24 @@ export const MARMORIS_YACHT_TOURS: YachtTour[] = [
   {
     id: 'tropical',
     operator: 'Marmoris Yachting',
-    badge: { ko: '오전 · 점심 BBQ', en: 'Morning · BBQ Lunch' },
-    title: { ko: '트로피컬 요트 투어', en: 'Tropical Yachting Tour' },
+    badge: {
+      ko: '오전 · 점심 BBQ',
+      en: 'Morning · BBQ Lunch',
+      zh: '上午出发 · BBQ 午餐',
+      ja: '午前出発 · BBQランチ',
+      ru: 'Утренний тур · BBQ на обед',
+      hi: 'सुबह का टूर · BBQ लंच',
+      vi: 'Buổi sáng · BBQ bữa trưa',
+    },
+    title: {
+      ko: '트로피컬 요트 투어',
+      en: 'Tropical Yachting Tour',
+      zh: '热带风情游艇之旅',
+      ja: 'トロピカルヨットツアー',
+      ru: 'Тропический яхтенный тур',
+      hi: 'ट्रॉपिकल यॉट टूर',
+      vi: 'Tour du thuyền Tropical',
+    },
     hours: '08:30 ~ 13:30',
     facts: [
       { ko: '약 5시간', en: 'About 5 hours' },
@@ -89,8 +145,24 @@ export const MARMORIS_YACHT_TOURS: YachtTour[] = [
   {
     id: 'sunset',
     operator: 'Marmoris Yachting',
-    badge: { ko: '저녁 · 불꽃놀이 · DJ', en: 'Evening · Fireworks · DJ' },
-    title: { ko: '선셋 칠링 요트 투어', en: 'Sunset Chilling Tour' },
+    badge: {
+      ko: '저녁 · 불꽃놀이(수~월 21:25경, 화요일 휴무) · DJ',
+      en: 'Evening · Fireworks (Wed–Mon, around 21:25; closed Tue) · DJ',
+      zh: '傍晚 · 烟花（周三至周一约21:25，周二停演）· DJ',
+      ja: '夕方 · 花火（水～月 21:25頃、火曜休演）· DJ',
+      ru: 'Вечер · Фейерверк (ср.–пн., около 21:25; вт. — выходной) · DJ',
+      hi: 'शाम · आतिशबाज़ी (बुध–सोम लगभग 21:25, मंगलवार बंद) · DJ',
+      vi: 'Buổi tối · Pháo hoa (Thứ Tư–Thứ Hai, khoảng 21:25; nghỉ Thứ Ba) · DJ',
+    },
+    title: {
+      ko: '선셋 칠링 요트 투어',
+      en: 'Sunset Chilling Tour',
+      zh: '日落休闲游艇之旅',
+      ja: 'サンセット・チリングツアー',
+      ru: 'Вечерний яхтенный тур Sunset Chilling',
+      hi: 'सनसेट चिलिंग यॉट टूर',
+      vi: 'Tour du thuyền Sunset Chilling',
+    },
     hours: '15:00 ~ 21:30',
     facts: [
       { ko: '빈담 항 출발 (선셋타운에서 차로 약 10분)', en: 'Departs Vinh Dam Port (about 10 min by car from Sunset Town)' },

@@ -53,6 +53,96 @@ const PHOTO_CREDIT_TEXT: Record<string, string> = {
   hi: 'फ़ोटो: Google Maps के आधार पर संपादित',
 }
 
+const ACCORDION_UI: Record<string, {
+  close: string
+  expand: string
+  menuUnconfirmed: string
+  menuWithPricesTpl: string
+  menuNoPricesTpl: string
+  photoCountTpl: string
+  tipsHeading: string
+  photoIdxTpl: string
+  menuBadge: string
+}> = {
+  ko: {
+    close: '접기',
+    expand: '펼치기',
+    menuUnconfirmed: '대표 메뉴 현장 확인 · 가격 미확인',
+    menuWithPricesTpl: '메뉴 {n}개 확인 · 가격 포함',
+    menuNoPricesTpl: '대표 메뉴 {n}개 확인 · 가격 미확인',
+    photoCountTpl: '현장에서 확인한 음식·매장 사진 총 {n}장',
+    tipsHeading: '💡 현지인처럼 맛있게 즐기는 팁',
+    photoIdxTpl: '사진 {n}',
+    menuBadge: '메뉴판',
+  },
+  en: {
+    close: 'Collapse',
+    expand: 'Expand',
+    menuUnconfirmed: 'Menu items checked on-site · Prices unconfirmed',
+    menuWithPricesTpl: '{n} menu items checked · Prices included',
+    menuNoPricesTpl: '{n} menu items checked · Prices unconfirmed',
+    photoCountTpl: '{n} on-site photos of food & venue',
+    tipsHeading: '💡 Tips for Eating Like a Local',
+    photoIdxTpl: 'Photo {n}',
+    menuBadge: 'Menu',
+  },
+  zh: {
+    close: '收起',
+    expand: '展开',
+    menuUnconfirmed: '代表性菜品已现场核实 · 价格待确认',
+    menuWithPricesTpl: '已核实 {n} 道菜品 · 含价格信息',
+    menuNoPricesTpl: '已核实 {n} 道代表性菜品 · 价格待确认',
+    photoCountTpl: '共 {n} 张现场拍摄的菜品及店铺照片',
+    tipsHeading: '💡 像当地人一样享用美食的小贴士',
+    photoIdxTpl: '照片 {n}',
+    menuBadge: '菜单',
+  },
+  ja: {
+    close: '閉じる',
+    expand: '展開する',
+    menuUnconfirmed: '主なメニューは現地で確認済み · 価格は未確認',
+    menuWithPricesTpl: '{n}品目を確認済み · 価格情報あり',
+    menuNoPricesTpl: '主なメニュー{n}品目を確認済み · 価格は未確認',
+    photoCountTpl: '現地で撮影・確認した料理・店舗の写真 全{n}枚',
+    tipsHeading: '💡 地元流の楽しみ方',
+    photoIdxTpl: '写真 {n}',
+    menuBadge: 'メニュー',
+  },
+  ru: {
+    close: 'Свернуть',
+    expand: 'Развернуть',
+    menuUnconfirmed: 'Основные блюда проверены на месте · Цены не подтверждены',
+    menuWithPricesTpl: 'Проверено позиций меню: {n} · Цены указаны',
+    menuNoPricesTpl: 'Проверено позиций меню: {n} · Цены не подтверждены',
+    photoCountTpl: 'Фото блюд и заведения, сделанные на месте: {n}',
+    tipsHeading: '💡 Советы: как попробовать блюда по-местному',
+    photoIdxTpl: 'Фото {n}',
+    menuBadge: 'Меню',
+  },
+  hi: {
+    close: 'समेटें',
+    expand: 'विस्तार से देखें',
+    menuUnconfirmed: 'प्रमुख व्यंजनों की मौके पर पुष्टि · कीमतों की पुष्टि नहीं',
+    menuWithPricesTpl: '{n} मेन्यू आइटम की पुष्टि · कीमतें उपलब्ध',
+    menuNoPricesTpl: '{n} प्रमुख मेन्यू आइटम की पुष्टि · कीमतों की पुष्टि नहीं',
+    photoCountTpl: 'भोजन और स्थान की मौके पर ली गईं {n} तस्वीरें',
+    tipsHeading: '💡 स्थानीय लोगों की तरह खाने के सुझाव',
+    photoIdxTpl: 'फ़ोटो {n}',
+    menuBadge: 'मेन्यू',
+  },
+  vi: {
+    close: 'Thu gọn',
+    expand: 'Mở rộng',
+    menuUnconfirmed: 'Đã xác nhận món tiêu biểu tại chỗ · Chưa xác nhận giá',
+    menuWithPricesTpl: 'Đã xác nhận {n} món · Có thông tin giá',
+    menuNoPricesTpl: 'Đã xác nhận {n} món tiêu biểu · Chưa xác nhận giá',
+    photoCountTpl: 'Tổng cộng {n} ảnh món ăn và địa điểm chụp tại chỗ',
+    tipsHeading: '💡 Mẹo thưởng thức món ăn như người địa phương',
+    photoIdxTpl: 'Ảnh {n}',
+    menuBadge: 'Thực đơn',
+  },
+}
+
 export function EnrichedBusinessAccordions({
   business,
   menuData,
@@ -78,7 +168,7 @@ export function EnrichedBusinessAccordions({
   }
 
   const isKo = locale === 'ko'
-  const isEn = locale === 'en'
+  const ui = ACCORDION_UI[locale] || ACCORDION_UI.en
 
   // 사진 캡션 헬퍼
   const getImageCaption = (url: string, index: number) => {
@@ -92,48 +182,48 @@ export function EnrichedBusinessAccordions({
     if (url.includes('menu_08')) return isKo ? '푸꾸옥 대표 해산물 모둠 요리' : 'Phu Quoc Signature Seafood Platter'
     if (url.includes('menu_09')) return isKo ? '살아있는 활 랍스터 및 해산물 수족관' : 'Live Seafood & Lobster Tanks'
     if (url.includes('menu_10')) return isKo ? '선셋타운 바다 전망 야외 테라스 다이닝' : 'Sunset Sea View Outdoor Dining Terrace'
-    return isKo ? `사진 ${index + 1}` : `Photo ${index + 1}`
+    return ui.photoIdxTpl.replace('{n}', String(index + 1))
   }
 
   // 문화 가이드 텍스트 (다국어 지원: locale이 ko면 최상위 필드, 그 외는 translations[locale] 우선)
   const locGuide = locale === 'ko'
     ? cultureGuide
-    : (cultureGuide?.translations?.[locale] || cultureGuide)
+    : (cultureGuide?.translations?.[locale] || cultureGuide?.translations?.en || cultureGuide)
 
   const foodStyle =
     (typeof locGuide?.food_style === 'string'
       ? locGuide.food_style
-      : locGuide?.food_style?.[locale] || cultureGuide?.food_style?.ko || cultureGuide?.food_style) || ''
+      : locGuide?.food_style?.[locale] || locGuide?.food_style?.en || (isKo ? cultureGuide?.food_style?.ko || cultureGuide?.food_style : '')) || ''
 
   const cultureStory =
     (typeof locGuide?.culture_story === 'string'
       ? locGuide.culture_story
-      : locGuide?.culture_story?.[locale] || cultureGuide?.culture_story?.ko || cultureGuide?.culture_story) || ''
+      : locGuide?.culture_story?.[locale] || locGuide?.culture_story?.en || (isKo ? cultureGuide?.culture_story?.ko || cultureGuide?.culture_story : '')) || ''
 
   const sauceGuideTitle =
     (typeof locGuide?.sauce_guide === 'string'
       ? locGuide.sauce_guide
-      : locGuide?.sauce_guide?.[locale] || cultureGuide?.sauce_guide?.ko || cultureGuide?.sauce_guide) || ''
+      : locGuide?.sauce_guide?.[locale] || locGuide?.sauce_guide?.en || (isKo ? cultureGuide?.sauce_guide?.ko || cultureGuide?.sauce_guide : '')) || ''
 
   const sauceDetails =
     (typeof locGuide?.sauce_details === 'string'
       ? locGuide.sauce_details
-      : locGuide?.sauce_details?.[locale] || cultureGuide?.sauce_details?.ko || cultureGuide?.sauce_details) || ''
+      : locGuide?.sauce_details?.[locale] || locGuide?.sauce_details?.en || (isKo ? cultureGuide?.sauce_details?.ko || cultureGuide?.sauce_details : '')) || ''
 
-  const rawEatingTips = locGuide?.eating_tips || cultureGuide?.eating_tips || []
+  const rawEatingTips = locGuide?.eating_tips || (isKo ? cultureGuide?.eating_tips : []) || []
   const eatingTips = typeof rawEatingTips === 'string' ? [{ desc_ko: rawEatingTips, desc_en: rawEatingTips }] : rawEatingTips
 
-  // 수정 1 & 수정 2: 고객용 메뉴 요약줄 계산 (Grade 문자열 완전 제거)
+  // 고객용 메뉴 요약줄 계산 (7개 국어 지원)
   const getMenuSummaryText = () => {
     if (!menuData || menuData.totalItems === 0) {
-      return isKo ? '대표 메뉴 현장 확인 · 가격 미확인' : 'Representative Menu · Price Unconfirmed'
+      return ui.menuUnconfirmed
     }
     const hasPrices = menuData.sections?.some(s => s.items?.some(i => i.price_vnd !== null || (i.price_text && !i.price_text.includes('미확인'))))
-    const total = menuData.totalItems
+    const total = String(menuData.totalItems)
     if (hasPrices) {
-      return isKo ? `메뉴 ${total}개 확인 · 가격 포함` : `${total} items verified · Official prices`
+      return ui.menuWithPricesTpl.replace('{n}', total)
     } else {
-      return isKo ? `대표 메뉴 ${total}개 확인 · 가격 미확인` : `${total} dishes verified · Price unconfirmed`
+      return ui.menuNoPricesTpl.replace('{n}', total)
     }
   }
 
@@ -201,7 +291,7 @@ export function EnrichedBusinessAccordions({
                 borderRadius: '999px',
               }}
             >
-              {openSections.menu ? (isKo ? '접기' : 'Close') : isKo ? '펼치기' : 'Expand'}
+              {openSections.menu ? ui.close : ui.expand}
             </span>
             <svg
               width="20"
@@ -304,7 +394,7 @@ export function EnrichedBusinessAccordions({
                   borderRadius: '999px',
                 }}
               >
-                {openSections.culture ? (isKo ? '접기' : 'Close') : isKo ? '펼치기' : 'Expand'}
+                {openSections.culture ? ui.close : ui.expand}
               </span>
               <svg
                 width="20"
@@ -405,7 +495,7 @@ export function EnrichedBusinessAccordions({
                       color: '#1f2937',
                     }}
                   >
-                    {isKo ? '💡 현지인처럼 맛있게 먹는 법' : '💡 Tips to Enjoy Like a Local'}
+                    {ui.tipsHeading}
                   </h3>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
                     {eatingTips.map((tip: any, idx: number) => (
@@ -426,7 +516,7 @@ export function EnrichedBusinessAccordions({
                             color: '#111827',
                           }}
                         >
-                          {tip[`title_${locale}`] || tip.title_ko || tip.title_en}
+                          {tip[`title_${locale}`] || (isKo ? tip.title_ko : tip.title_en) || tip.title_en}
                         </h4>
                         <p
                           style={{
@@ -437,7 +527,7 @@ export function EnrichedBusinessAccordions({
                             wordBreak: 'keep-all',
                           }}
                         >
-                          {tip[`desc_${locale}`] || tip.desc_ko || tip.desc_en}
+                          {tip[`desc_${locale}`] || (isKo ? tip.desc_ko : tip.desc_en) || tip.desc_en}
                         </p>
                       </div>
                     ))}
@@ -495,7 +585,7 @@ export function EnrichedBusinessAccordions({
                   {SECTION_TITLES.photos[locale] || SECTION_TITLES.photos.en}
                 </h2>
                 <span style={{ fontSize: '13px', color: '#6b7280', marginTop: '2px', display: 'block' }}>
-                  {isKo ? `총 ${photos.length}장의 실측 음식 & 메뉴판 사진` : `${photos.length} verified photos & menu boards`}
+                  {ui.photoCountTpl.replace('{n}', String(photos.length))}
                 </span>
               </div>
             </div>
@@ -510,7 +600,7 @@ export function EnrichedBusinessAccordions({
                   borderRadius: '999px',
                 }}
               >
-                {openSections.photos ? (isKo ? '접기' : 'Close') : isKo ? '펼치기' : 'Expand'}
+                {openSections.photos ? ui.close : ui.expand}
               </span>
               <svg
                 width="20"
@@ -620,7 +710,7 @@ export function EnrichedBusinessAccordions({
                             borderRadius: '4px',
                           }}
                         >
-                          {isKo ? '메뉴판' : 'Menu'}
+                          {ui.menuBadge}
                         </span>
                       )}
                     </div>

@@ -4,9 +4,9 @@ import { generateActivitiesMetadata, renderActivitiesRoute } from '@/lib/routes/
 export const revalidate = 300
 
 export async function generateMetadata(): Promise<Metadata> {
-  return generateActivitiesMetadata('ko')
+  return generateActivitiesMetadata('en')
 }
 
 export default async function ActivitiesPage() {
-  return renderActivitiesRoute('ko')
+  return renderActivitiesRoute('en')
 }

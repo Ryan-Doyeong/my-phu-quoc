@@ -6,6 +6,7 @@ import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { CONTACT_CONFIG } from '@/lib/contactConfig'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
+import { NAV_ZONE_LABELS } from '@/lib/i18n/uiStrings'
 import { categoryLabel } from '@/lib/directory'
 
 interface TourPoint {
@@ -232,8 +233,8 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
         <Logo locale={locale} />
         <nav className="desktopNav">
           <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
-          <Link href={localePath(locale, '/zones/sunset-town')}>선셋타운</Link>
-          <Link href={localePath(locale, '/zones/khem-beach')}>켐비치</Link>
+          <Link href={localePath(locale, '/zones/sunset-town')}>{NAV_ZONE_LABELS.sunset[locale] || NAV_ZONE_LABELS.sunset.en}</Link>
+          <Link href={localePath(locale, '/zones/khem-beach')}>{NAV_ZONE_LABELS.khem[locale] || NAV_ZONE_LABELS.khem.en}</Link>
           <Link href={localePath(locale, '/directory/dining')}>{categoryLabel('dining', locale)}</Link>
           <Link href={localePath(locale, '/directory/bars')}>{categoryLabel('bars', locale)}</Link>
           <Link href={localePath(locale, '/hotels')}>{categoryLabel('hotels', locale)}</Link>

@@ -23,12 +23,13 @@ interface HotelsPageProps {
 }
 
 function getLocalizedSummary(hotel: HotelItem, locale?: Locale): string {
+  if (!locale || locale === 'ko') return hotel.summary
   if (locale === 'en' && hotel.summary_en) return hotel.summary_en
   if (locale === 'zh' && hotel.summary_zh) return hotel.summary_zh
   if (locale === 'ja' && hotel.summary_ja) return hotel.summary_ja
   if (locale === 'ru' && hotel.summary_ru) return hotel.summary_ru
   if (locale === 'vi' && hotel.summary_vi) return hotel.summary_vi
-  return hotel.summary
+  return hotel.summary_en || hotel.summary
 }
 
 function getKhemDistanceBadge(hotel: HotelItem, t: HotelUiDictionary): string {

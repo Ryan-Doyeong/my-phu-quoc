@@ -1,3 +1,4 @@
+// Translations: 7개 국어 (ko, en, zh, ja, ru, hi, vi) ChatGPT 원어민 전수 검수 완료 (2026-11-02)
 import React from 'react'
 import type { BusinessReviewAnalysis } from '@/lib/googleReviewAnalyzer'
 import type { Locale } from '@/lib/i18n/config'
@@ -9,69 +10,113 @@ interface GoogleReviewAnalysisCardProps {
   locale?: Locale
 }
 
+interface ReviewCardLabels {
+  eyebrow: string
+  title: string
+  reviewCountTpl: string
+  prosTitle: string
+  consTitle: string
+  sampleTitle: string
+  dateLabel: string
+  sourceLabel: string
+  liveLinkText: string
+}
+
+const LABELS: Record<string, ReviewCardLabels> = {
+  ko: {
+    eyebrow: '구글맵 리뷰 분석',
+    title: '방문자 리뷰 분석: 장점과 참고할 점',
+    reviewCountTpl: '리뷰 {n}개 분석',
+    prosTitle: '방문객들이 꼽은 장점 (+)',
+    consTitle: '방문 전 알아둘 점 (-)',
+    sampleTitle: '구글맵 방문자 리뷰 발췌',
+    dateLabel: '분석 기준일',
+    sourceLabel: '출처: 구글맵 공개 리뷰 종합',
+    liveLinkText: '구글맵에서 전체 리뷰 보기 →',
+  },
+  en: {
+    eyebrow: 'Google Maps Review Analysis',
+    title: 'Visitor Review Insights: Pros & Cons',
+    reviewCountTpl: 'Based on {n} reviews',
+    prosTitle: 'What Visitors Like (+)',
+    consTitle: 'Things to Consider (-)',
+    sampleTitle: 'Excerpts from Google Maps Reviews',
+    dateLabel: 'Analysis Date',
+    sourceLabel: 'Source: Public Google Maps Reviews',
+    liveLinkText: 'See All Reviews on Google Maps →',
+  },
+  zh: {
+    eyebrow: 'Google 地图评价分析',
+    title: '游客评价分析：优点与注意事项',
+    reviewCountTpl: '基于 {n} 条评价的分析',
+    prosTitle: '游客认可的优点 (+)',
+    consTitle: '到访前需要注意的事项 (-)',
+    sampleTitle: 'Google 地图游客评价摘录',
+    dateLabel: '分析日期',
+    sourceLabel: '来源：Google 地图公开评价',
+    liveLinkText: '在 Google 地图查看全部评价 →',
+  },
+  ja: {
+    eyebrow: 'Google マップの口コミ分析',
+    title: '訪問者の口コミ分析：良い点と気になる点',
+    reviewCountTpl: '{n}件の口コミをもとに分析',
+    prosTitle: '訪問者が評価したポイント (+)',
+    consTitle: '訪問前に知っておきたい点 (-)',
+    sampleTitle: 'Google マップの口コミ抜粋',
+    dateLabel: '分析基準日',
+    sourceLabel: '出典：Google マップの公開口コミ',
+    liveLinkText: 'Google マップですべての口コミを見る →',
+  },
+  ru: {
+    eyebrow: 'Анализ отзывов Google Карт',
+    title: 'Анализ отзывов посетителей: плюсы и минусы',
+    reviewCountTpl: 'На основе {n} отзывов',
+    prosTitle: 'Что нравится посетителям (+)',
+    consTitle: 'На что стоит обратить внимание (-)',
+    sampleTitle: 'Выдержки из отзывов на Google Картах',
+    dateLabel: 'Дата анализа',
+    sourceLabel: 'Источник: публичные отзывы на Google Картах',
+    liveLinkText: 'Все отзывы на Google Картах →',
+  },
+  hi: {
+    eyebrow: 'Google Maps समीक्षाओं का विश्लेषण',
+    title: 'आगंतुक समीक्षाओं का विश्लेषण: खूबियाँ और कमियाँ',
+    reviewCountTpl: '{n} समीक्षाओं के आधार पर',
+    prosTitle: 'आगंतुकों को क्या पसंद आया (+)',
+    consTitle: 'जाने से पहले ध्यान देने योग्य बातें (-)',
+    sampleTitle: 'Google Maps समीक्षाओं के अंश',
+    dateLabel: 'विश्लेषण की तारीख',
+    sourceLabel: 'स्रोत: Google Maps पर सार्वजनिक समीक्षाएँ',
+    liveLinkText: 'Google Maps पर सभी समीक्षाएँ देखें →',
+  },
+  vi: {
+    eyebrow: 'Phân tích đánh giá trên Google Maps',
+    title: 'Phân tích đánh giá của khách: Ưu và nhược điểm',
+    reviewCountTpl: 'Dựa trên {n} đánh giá',
+    prosTitle: 'Những điểm khách đánh giá cao (+)',
+    consTitle: 'Những điều cần lưu ý trước khi đến (-)',
+    sampleTitle: 'Trích dẫn đánh giá từ Google Maps',
+    dateLabel: 'Ngày phân tích',
+    sourceLabel: 'Nguồn: Đánh giá công khai trên Google Maps',
+    liveLinkText: 'Xem tất cả đánh giá trên Google Maps →',
+  },
+}
+
 export function GoogleReviewAnalysisCard({
   analysis,
   businessName,
   googleMapsUrl,
   locale = 'ko',
 }: GoogleReviewAnalysisCardProps) {
-  const isKo = locale === 'ko'
-  const isVi = locale === 'vi'
-
-  const title = isKo
-    ? '방문자 리뷰 분석 & 장단점 평가'
-    : isVi
-    ? 'Đánh giá & Phân tích ưu nhược điểm'
-    : 'Visitor Review Insights: Pros & Cons'
-
-  const eyebrow = isKo
-    ? '구글맵 빅데이터 분석'
-    : isVi
-    ? 'Phân tích dữ liệu Google Maps'
-    : 'Verified Google Maps Review Analysis'
-
+  const L = LABELS[locale] || LABELS.en
   const reviewCountLabel = analysis.reviewCount
-    ? isKo
-      ? `실측 리뷰 ${analysis.reviewCount.toLocaleString()}개 기반`
-      : isVi
-      ? `Dựa trên ${analysis.reviewCount.toLocaleString()} đánh giá thực tế`
-      : `Based on ${analysis.reviewCount.toLocaleString()} reviews`
+    ? L.reviewCountTpl.replace('{n}', analysis.reviewCount.toLocaleString())
     : null
-
-  const prosTitle = isKo
-    ? '방문객들이 칭찬하는 장점 (Pros)'
-    : isVi
-    ? 'Điểm cộng nổi bật (Ưu điểm)'
-    : 'What People Like (+)'
-
-  const consTitle = isKo
-    ? '방문 전 알아둘 점 & 주의사항 (Cons)'
-    : isVi
-    ? 'Lưu ý trước khi đến (Nhược điểm & Mẹo)'
-    : 'Good to Know & Cons (-)'
-
-  const dateLabel = isKo
-    ? '분석 기준일'
-    : isVi
-    ? 'Cập nhật'
-    : 'Analysis updated'
-
-  const sourceLabel = isKo
-    ? '출처: 구글맵 공개 방문자 평가 종합'
-    : isVi
-    ? 'Nguồn: Tổng hợp đánh giá công khai trên Google Maps'
-    : 'Source: Public Google Maps Reviews'
-
-  const liveLinkText = isKo
-    ? '구글맵에서 실시간 리뷰 전체보기 →'
-    : isVi
-    ? 'Xem toàn bộ đánh giá trên Google Maps →'
-    : 'See all reviews on Google Maps →'
 
   return (
     <section className="detailCard reviewAnalysisCard" id="review-analysis">
-      <span className="eyebrow">{eyebrow}</span>
-      <h2>{title}</h2>
+      <span className="eyebrow">{L.eyebrow}</span>
+      <h2>{L.title}</h2>
 
       {/* Rating & Review Count Header Bar */}
       <div className="reviewScoreBar">
@@ -112,7 +157,7 @@ export function GoogleReviewAnalysisCard({
         <div className="reviewProsBox">
           <h3>
             <span aria-hidden="true">👍</span>
-            <span>{prosTitle}</span>
+            <span>{L.prosTitle}</span>
           </h3>
           <ul className="reviewPointsList">
             {analysis.praised.map((point, idx) => (
@@ -128,7 +173,7 @@ export function GoogleReviewAnalysisCard({
         <div className="reviewConsBox">
           <h3>
             <span aria-hidden="true">💡</span>
-            <span>{consTitle}</span>
+            <span>{L.consTitle}</span>
           </h3>
           <ul className="reviewPointsList">
             {analysis.goodToKnow.map((point, idx) => (
@@ -164,13 +209,7 @@ export function GoogleReviewAnalysisCard({
             }}
           >
             <span aria-hidden="true">💬</span>
-            <span>
-              {isKo
-                ? '구글맵 실제 방문자 리뷰 발췌'
-                : isVi
-                ? 'Trích dẫn đánh giá thực tế trên Google Maps'
-                : 'Verified Visitor Review Excerpts'}
-            </span>
+            <span>{L.sampleTitle}</span>
           </h4>
           <ul
             style={{
@@ -194,11 +233,11 @@ export function GoogleReviewAnalysisCard({
       {/* Footer link to live google maps */}
       <div className="reviewFooterAction">
         <small>
-          {dateLabel}: {analysis.lastVerified} · {sourceLabel}
+          {L.dateLabel}: {analysis.lastVerified} · {L.sourceLabel}
         </small>
         {googleMapsUrl && (
           <a href={googleMapsUrl} target="_blank" rel="noreferrer">
-            {liveLinkText}
+            {L.liveLinkText}
           </a>
         )}
       </div>

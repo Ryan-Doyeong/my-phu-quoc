@@ -7,7 +7,7 @@ import { MobileMenu } from '@/components/MobileMenu'
 import Link from 'next/link'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { DIRECTORY_CATEGORY_KEYS, getCategoryPublishedCount, categoryLabel, HIDDEN_BUSINESS_SLUGS } from '@/lib/directory'
-import { getDictionary } from '@/lib/i18n/dictionaries'
+import { getDictionary, displayBusinessName } from '@/lib/i18n/dictionaries'
 import { createPublicClient } from '@/lib/supabase/public'
 import baseMapJson from '@/data/sunset-illust-map-data.json'
 import type { MapDataPayload } from '@/components/map/SunsetIllustMap'
@@ -140,11 +140,12 @@ export default async function MapPage({ params }: MapPageProps) {
 
   // 2. 보조 정적 JSON 데이터와 DB published 목록 순수 결합 (화이트리스트 방식)
   const rawBase = baseMapJson as any
-  const filteredVenues = (rawBase.venues || []).filter((v: any) => publishedSlugs.has(v.slug))
-  const filteredOutside = (rawBase.outside || []).filter((ov: any) => publishedSlugs.has(ov.slug))
+  const localizeVenue = (v: any) => (isKo ? v : { ...v, name: displayBusinessName(v.name || '', locale) })
+  const filteredVenues = (rawBase.venues || []).filter((v: any) => publishedSlugs.has(v.slug)).map(localizeVenue)
+  const filteredOutside = (rawBase.outside || []).filter((ov: any) => publishedSlugs.has(ov.slug)).map(localizeVenue)
   const filteredBlocks = (rawBase.blocks || []).map((b: any) => ({
     ...b,
-    venues: (b.venues || []).filter((v: any) => publishedSlugs.has(v.slug)),
+    venues: (b.venues || []).filter((v: any) => publishedSlugs.has(v.slug)).map(localizeVenue),
   }))
 
   const diningInside = filteredVenues.filter((v: any) => v.cat === 'dining').length

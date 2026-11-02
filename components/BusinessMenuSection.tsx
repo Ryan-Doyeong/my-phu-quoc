@@ -25,6 +25,30 @@ const PRICE_ON_REQUEST: Record<string, string> = {
   en: 'Price on Request',
 }
 
+const MARKET_PRICE: Record<string, string> = {
+  ko: '싯가',
+  vi: 'Theo thời giá',
+  zh: '时价',
+  ru: 'По рыночной цене',
+  ja: '時価',
+  hi: 'बाज़ार भाव के अनुसार',
+  en: 'Market Price',
+}
+
+function localizePriceText(rawPriceText: string | null | undefined, locale: string): string {
+  const fallback = PRICE_ON_REQUEST[locale] || PRICE_ON_REQUEST.en
+  if (!rawPriceText) return fallback
+  if (locale === 'ko' || !/[가-힣]/.test(rawPriceText)) return rawPriceText
+  if (/싯가|Market Price/i.test(rawPriceText)) {
+    return MARKET_PRICE[locale] || MARKET_PRICE.en
+  }
+  const vndMatch = rawPriceText.match(/[\d,]+\s*(?:~\s*[\d,]+\s*)?VND/i)
+  if (vndMatch) {
+    return vndMatch[0]
+  }
+  return fallback
+}
+
 function getItemCountText(count: number, locale: Locale): string {
   switch (locale) {
     case 'ko':
@@ -335,7 +359,7 @@ export function BusinessMenuSection({
                       if (isKo) {
                         primaryName = item.name_ko || item.name_original
                       } else if (isVi) {
-                        primaryName = item.name_vi || item.name_original
+                        primaryName = item.name_vi || item.name_en || item.name_original
                       } else {
                         // en / zh / ru / ja / hi: 교정 번역본 우선 → 없으면 en → 없으면 name_original
                         const tr = (menuNamesTranslations as Record<string, Record<string, string>>)[item.name_original]
@@ -344,6 +368,10 @@ export function BusinessMenuSection({
                           tr?.en ||
                           item.name_en ||
                           item.name_original
+                      }
+                      if (!isKo && primaryName && /[가-힣]/.test(primaryName)) {
+                        const stripped = primaryName.replace(/\s*\([^)]*[가-힣][^)]*\)/g, '').trim()
+                        primaryName = stripped && !/[가-힣]/.test(stripped) ? stripped : (item.name_en || stripped)
                       }
 
                       // 풍부한 일반적 음식 설명 보충 (접속 언어 1개로만 단일 제공)
@@ -370,6 +398,9 @@ export function BusinessMenuSection({
                       } else {
                         displayDesc = enriched.descEn
                       }
+                      if (!isKo && displayDesc && /[가-힣]/.test(displayDesc)) {
+                        displayDesc = enriched.descEn && !/[가-힣]/.test(enriched.descEn) ? enriched.descEn : null
+                      }
 
                       return (
                         <li key={iIdx} className="menuItem">
@@ -380,7 +411,7 @@ export function BusinessMenuSection({
                             <span className="menuPrice">
                               {item.price_vnd !== null
                                 ? `${item.price_vnd.toLocaleString()} `
-                                : item.price_text || (PRICE_ON_REQUEST[locale] || PRICE_ON_REQUEST.en)}
+                                : localizePriceText(item.price_text, locale)}
                               {item.price_vnd !== null && <small>VND</small>}
                             </span>
                           </div>
@@ -428,7 +459,11 @@ export function BusinessMenuSection({
                   loading="lazy"
                   decoding="async"
                 />
-                <span>{img.label}</span>
+                <span>
+                  {!isKo && /[가-힣]/.test(img.label || '')
+                    ? `${MENU_IMAGES_TITLE[locale] || MENU_IMAGES_TITLE.en} #${idx + 1}`
+                    : img.label}
+                </span>
               </a>
             ))}
           </div>
