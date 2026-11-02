@@ -45,6 +45,29 @@ export interface MainZoneInfo {
   transitDescription: Record<Locale, string>
 }
 
+const ZONE_TILE_CATEGORY_KEYS = [
+  'dining',
+  'bars',
+  'beaches',
+  'hotels',
+  'shopping',
+  'wellness',
+  'banking',
+  'activities',
+  'essentials',
+  'transport',
+] as const
+
+const SUNSET_TOWN_TOTAL_COUNT = ZONE_TILE_CATEGORY_KEYS.reduce(
+  (sum, key) => sum + getZoneCategoryPublishedCount('sunset-town', key),
+  0
+)
+
+const KHEM_BEACH_TOTAL_COUNT = ZONE_TILE_CATEGORY_KEYS.reduce(
+  (sum, key) => sum + getZoneCategoryPublishedCount('khem-beach', key),
+  0
+)
+
 export const MAIN_ZONES: Record<MainZoneSlug, MainZoneInfo> = {
   'sunset-town': {
     slug: 'sunset-town',
@@ -234,13 +257,13 @@ export const MAIN_ZONES: Record<MainZoneSlug, MainZoneInfo> = {
       { icon: '🚖', name: { ko: '이동·교통', en: 'Transport', zh: '交通出行', ru: 'Транспорт', ja: '交通・アクセス', hi: 'यातायात', vi: 'Di chuyển' }, count: getZoneCategoryPublishedCount('sunset-town', 'transport'), categoryKey: 'transport' },
     ],
     categoryBadge: {
-      ko: '선셋타운 중심 215곳',
-      en: '215 Central Venues',
-      zh: '日落小镇核心215处',
-      ru: '215 заведений в центре',
-      ja: 'サンセットタウン中心215か所',
-      hi: '215 केंद्रीय स्थान',
-      vi: '215 cơ sở trung tâm',
+      ko: `선셋타운 중심 ${SUNSET_TOWN_TOTAL_COUNT}곳`,
+      en: `${SUNSET_TOWN_TOTAL_COUNT} Central Venues`,
+      zh: `日落小镇核心${SUNSET_TOWN_TOTAL_COUNT}处`,
+      ru: `${SUNSET_TOWN_TOTAL_COUNT} заведений в центре`,
+      ja: `サンセットタウン中心${SUNSET_TOWN_TOTAL_COUNT}か所`,
+      hi: `${SUNSET_TOWN_TOTAL_COUNT} केंद्रीय स्थान`,
+      vi: `${SUNSET_TOWN_TOTAL_COUNT} cơ sở trung tâm`,
     },
     noteBanner: null,
     transitHeadline: {
@@ -490,13 +513,13 @@ export const MAIN_ZONES: Record<MainZoneSlug, MainZoneInfo> = {
       { icon: '🚖', name: { ko: '이동·교통', en: 'Transport', zh: '交通出行', ru: 'Транспорт', ja: '交通・アクセス', hi: 'यातायात', vi: 'Di chuyển' }, count: getZoneCategoryPublishedCount('khem-beach', 'transport'), categoryKey: 'transport' },
     ],
     categoryBadge: {
-      ko: '등록 업체 10곳',
-      en: '10 Confirmed Businesses',
-      zh: '经确认的10处商家',
-      ru: '10 подтверждённых заведений',
-      ja: '確認済み事業者10件',
-      hi: 'पुष्टि किए गए 10 व्यवसाय',
-      vi: '10 cơ sở đã xác minh',
+      ko: `등록 업체 ${KHEM_BEACH_TOTAL_COUNT}곳`,
+      en: `${KHEM_BEACH_TOTAL_COUNT} Confirmed Businesses`,
+      zh: `经确认的${KHEM_BEACH_TOTAL_COUNT}处商家`,
+      ru: `${KHEM_BEACH_TOTAL_COUNT} подтверждённых заведений`,
+      ja: `確認済み事業者${KHEM_BEACH_TOTAL_COUNT}件`,
+      hi: `पुष्टि किए गए ${KHEM_BEACH_TOTAL_COUNT} व्यवसाय`,
+      vi: `${KHEM_BEACH_TOTAL_COUNT} cơ sở đã xác minh`,
     },
     noteBanner: {
       ko: '💡 켐비치 안내: 해변 펍 및 리조트 시설의 운영시간과 이용 조건은 기상 상황이나 현장 사정에 따라 변동될 수 있습니다.',
