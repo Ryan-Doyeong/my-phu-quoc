@@ -25,7 +25,7 @@ import { categoryLabel, nearbyBadgeText, formatLocalizedAddress, HIDDEN_BUSINESS
 import { JsonLd } from '@/components/JsonLd'
 import { businessTitle, withKeywordSuffix, sunsetKeyword, ZONE_KEYWORD } from '@/lib/seo/meta'
 import { businessJsonLd } from '@/lib/seo/businessJsonld'
-import { getHotelPriceRangeForBusiness, getHotelBySlug, HotelPriceBadge } from '@/lib/hotels' 
+import { getHotelPriceRangeForBusiness, HotelPriceBadge } from '@/lib/hotels' 
 import { stockGalleryFor } from '@/lib/stockImages'
 import { imageUrl } from '@/lib/imageUrl'
 import {
@@ -126,36 +126,22 @@ export async function generateBusinessMetadata(
   }
   if (!b || isHiddenBusiness(b)) return {}
 
-  const regItem =
-    (businessesRegistry as any[]).find((x) => x.slug === b.slug) ||
-    (khemBusinesses as any[]).find((x) => x.slug === b.slug)
+  const regItem = (businessesRegistry as any[]).find((x) => x.slug === b.slug)
   if (regItem) {
-    if (regItem.status && regItem.status !== 'published') return {}
     b = {
       ...b,
       status: regItem.status ?? b.status,
       category: regItem.category ?? b.category,
-      subcategory: regItem.subcategory ?? b.subcategory,
-      public_name: regItem.public_name ?? b.public_name,
-      description_ko: regItem.description_ko ?? b.description_ko,
-      description_en: regItem.description_en ?? b.description_en,
-      tags: regItem.tags ?? b.tags,
       lat: regItem.lat ?? b.lat,
       lng: regItem.lng ?? b.lng,
       google_place_id: regItem.google_place_id ?? b.google_place_id,
       google_maps_name: regItem.google_maps_name ?? b.google_maps_name,
-      google_rating: regItem.google_rating ?? b.google_rating,
-      google_review_count: regItem.google_review_count ?? b.google_review_count,
-      rating_check_date: regItem.rating_check_date ?? b.rating_check_date,
-      google_review_analysis: regItem.google_review_analysis ?? b.google_review_analysis,
-      services: regItem.services ?? b.services,
       gallery_urls:
         Array.isArray(regItem.gallery_urls) && regItem.gallery_urls.length > 0
           ? regItem.gallery_urls
           : b.gallery_urls,
       media_note: regItem.media_note ?? b.media_note,
       photo_permission: regItem.photo_permission ?? b.photo_permission,
-      image_credits: regItem.image_credits ?? b.image_credits,
     }
   }
   if (isHiddenBusiness(b)) return {}
@@ -261,54 +247,25 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
     notFound()
   }
 
-  const regItem =
-    (businessesRegistry as any[]).find((x) => x.slug === b.slug) ||
-    (khemBusinesses as any[]).find((x) => x.slug === b.slug)
+  const regItem = (businessesRegistry as any[]).find((x) => x.slug === b.slug)
   if (regItem) {
-    if (regItem.status && regItem.status !== 'published') notFound()
     b = {
       ...b,
       status: regItem.status ?? b.status,
       category: regItem.category ?? b.category,
-      subcategory: regItem.subcategory ?? b.subcategory,
-      public_name: regItem.public_name ?? b.public_name,
-      description_ko: regItem.description_ko ?? b.description_ko,
-      description_en: regItem.description_en ?? b.description_en,
-      tags: regItem.tags ?? b.tags,
       lat: regItem.lat ?? b.lat,
       lng: regItem.lng ?? b.lng,
       google_place_id: regItem.google_place_id ?? b.google_place_id,
       google_maps_name: regItem.google_maps_name ?? b.google_maps_name,
-      google_rating: regItem.google_rating ?? b.google_rating,
-      google_review_count: regItem.google_review_count ?? b.google_review_count,
-      rating_check_date: regItem.rating_check_date ?? b.rating_check_date,
-      google_review_analysis: regItem.google_review_analysis ?? b.google_review_analysis,
-      services: regItem.services ?? b.services,
       gallery_urls:
         Array.isArray(regItem.gallery_urls) && regItem.gallery_urls.length > 0
           ? regItem.gallery_urls
           : b.gallery_urls,
       media_note: regItem.media_note ?? b.media_note,
       photo_permission: regItem.photo_permission ?? b.photo_permission,
-      image_credits: regItem.image_credits ?? b.image_credits,
     }
   }
   if (isHiddenBusiness(b)) notFound()
-
-  if (isHiddenBusiness(b)) {
-    notFound()
-  }
-
-  if (!Array.isArray(b.gallery_urls) || b.gallery_urls.length === 0) {
-    const hotelMatch =
-      getHotelBySlug(b.slug) ||
-      (b.slug === 'sunset-place-7'
-        ? getHotelBySlug('la-festa-phu-quoc-curio-collection-by-hilton')
-        : undefined)
-    if (hotelMatch?.photos && hotelMatch.photos.length > 0) {
-      b.gallery_urls = hotelMatch.photos
-    }
-  }
 
   const photos = (b.gallery_urls || []).length
     ? b.gallery_urls
@@ -357,12 +314,13 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
   const businessDisplayName = displayBusinessName(b, locale)
 
   const isDiningOrFood =
-    !isNameOnly &&
+    (!isNameOnly || Boolean(menuData)) &&
     (b.category === 'dining' ||
       b.category === 'food' ||
       b.category === 'cafe' ||
       b.category === 'bars' ||
-      (b.category === 'beaches' && b.subcategory !== 'beach'))
+      (b.category === 'beaches' && b.subcategory !== 'beach') ||
+      Boolean(menuData))
 
   const foodGuide = isDiningOrFood ? getFoodGuideForBusiness(b, menuData) : null
   const categoryGuide = !isNameOnly && !isDiningOrFood && !isKhem ? getKnowledgeGuideForBusiness(b, menuData) : null
@@ -450,89 +408,6 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
       <section className="shell businessDetail">
         {(() => {
           const coverPhoto = getCoverPhoto(b.slug)
-          const isGmapsMedia =
-            (b.media_note && /google\s*maps|구글맵/i.test(b.media_note)) ||
-            (coverPhoto && coverPhoto.source_page_url && coverPhoto.source_page_url.includes('google.com/maps'))
-          const sourceLabelText = isGmapsMedia
-            ? locale === 'ko'
-              ? '구글맵 (Google Maps)'
-              : 'Google Maps'
-            : PHOTO_SOURCE_TARGET[locale] || PHOTO_SOURCE_TARGET.en
-          const sourceHref =
-            (coverPhoto && coverPhoto.source_page_url) ||
-            b.google_maps_url ||
-            `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(b.google_maps_name || b.public_name)}`
-
-          if ((b.gallery_urls || []).length > 0) {
-            const gCount = b.gallery_urls.slice(0, 8).length
-            const gridStyle: React.CSSProperties | undefined =
-              gCount === 1
-                ? { gridTemplateColumns: '1fr', gridTemplateRows: '420px' }
-                : gCount === 2
-                ? { gridTemplateColumns: '1.2fr 1fr', gridTemplateRows: '210px 210px' }
-                : gCount === 3
-                ? { gridTemplateColumns: '1.4fr 1fr', gridTemplateRows: '210px 210px' }
-                : undefined
-            return (
-              <div className="galleryContainer">
-                <div className="photoGallery" style={gridStyle}>
-                  {b.gallery_urls.slice(0, 8).map((p: string, i: number) => (
-                    <div
-                      key={i}
-                      className={i === 0 ? 'galleryTile main' : 'galleryTile'}
-                      style={
-                        gCount === 2 && i === 1
-                          ? { gridRow: 'span 2' }
-                          : gCount === 4 && i === 3
-                          ? { gridColumn: 'span 2' }
-                          : undefined
-                      }
-                    >
-                      <img
-                        src={imageUrl(p, i === 0 ? 1400 : 760, i === 0 ? 76 : 70)}
-                        alt={`${businessDisplayName} image ${i + 1}`}
-                        loading={i === 0 ? 'eager' : 'lazy'}
-                        decoding="async"
-                      />
-                      {badgeText && <span>{badgeText}</span>}
-                    </div>
-                  ))}
-                </div>
-                <div
-                  style={{
-                    marginTop: '10px',
-                    fontSize: '12px',
-                    color: 'var(--ink-muted, #71717a)',
-                    display: 'flex',
-                    alignItems: 'center',
-                    flexWrap: 'wrap',
-                    gap: '6px',
-                  }}
-                >
-                  <span>{PHOTO_SOURCE_LABEL[locale] || PHOTO_SOURCE_LABEL.en}</span>
-                  <a
-                    href={sourceHref}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ textDecoration: 'underline', color: 'inherit' }}
-                  >
-                    {sourceLabelText}
-                  </a>
-                  <span style={{ opacity: 0.5 }}>·</span>
-                  <Link
-                    href={localePath(
-                      locale,
-                      `/for-businesses?public_name=${encodeURIComponent(b.public_name)}&slug=${encodeURIComponent(b.slug)}#claim`
-                    )}
-                    style={{ textDecoration: 'underline', color: 'inherit' }}
-                  >
-                    {PHOTO_REQUEST_LINK[locale] || PHOTO_REQUEST_LINK.en}
-                  </Link>
-                </div>
-              </div>
-            )
-          }
-
           if (coverPhoto) {
             return (
               <div style={{ marginBottom: '28px' }}>
@@ -577,7 +452,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                     rel="noopener noreferrer"
                     style={{ textDecoration: 'underline', color: 'inherit' }}
                   >
-                    {sourceLabelText}
+                    {PHOTO_SOURCE_TARGET[locale] || PHOTO_SOURCE_TARGET.en}
                   </a>
                   <span style={{ opacity: 0.5 }}>·</span>
                   <Link
@@ -590,6 +465,125 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                     {PHOTO_REQUEST_LINK[locale] || PHOTO_REQUEST_LINK.en}
                   </Link>
                 </div>
+              </div>
+            )
+          }
+
+          if ((b.gallery_urls || []).length > 0) {
+            const hasCredits = Array.isArray(b.image_credits) && b.image_credits.length > 0
+            return (
+              <div className="galleryContainer">
+                <div className="photoGallery">
+                  {b.gallery_urls.slice(0, 8).map((p: string, i: number) => (
+                    <div key={i} className={i === 0 ? 'galleryTile main' : 'galleryTile'}>
+                      <img
+                        src={imageUrl(p, i === 0 ? 1400 : 760, i === 0 ? 76 : 70)}
+                        alt={`${businessDisplayName} image ${i + 1}`}
+                        loading={i === 0 ? 'eager' : 'lazy'}
+                        decoding="async"
+                      />
+                      {badgeText && <span>{badgeText}</span>}
+                    </div>
+                  ))}
+                </div>
+                {hasCredits ? (
+                  <div className="galleryCreditsFooter">
+                    <span>
+                      {locale === 'ko'
+                        ? '사진 출처:'
+                        : locale === 'zh'
+                        ? '图片来源:'
+                        : locale === 'ja'
+                        ? '写真出典:'
+                        : locale === 'ru'
+                        ? 'Источник фото:'
+                        : locale === 'hi'
+                        ? 'फोटो स्रोत:'
+                        : locale === 'vi'
+                        ? 'Nguồn ảnh:'
+                        : 'Photo source:'}
+                    </span>{' '}
+                    {(() => {
+                      const seen = new Set<string>()
+                      const formatCredit = (raw: string) => {
+                        return (raw || '').replace(/^Image:\s*/i, '').trim()
+                      }
+                      const uniqueCredits = (b.image_credits as any[]).filter((c) => {
+                        const cleaned = formatCredit(c?.credit_text)
+                        if (!cleaned) return false
+                        if (seen.has(cleaned)) return false
+                        seen.add(cleaned)
+                        return true
+                      })
+                      return uniqueCredits.map((c: any, ci: number) => {
+                        const displayText = formatCredit(c.credit_text)
+                        return (
+                          <span key={ci} className="galleryCreditItem">
+                            {c.source_page_url && c.source_page_url !== '미확인' ? (
+                              <a href={c.source_page_url} target="_blank" rel="noopener noreferrer">
+                                {displayText}
+                              </a>
+                            ) : (
+                              <span>{displayText}</span>
+                            )}
+                            {ci < uniqueCredits.length - 1 ? ' · ' : ''}
+                          </span>
+                        )
+                      })
+                    })()}
+                  </div>
+                ) : (
+                  <div className="galleryCreditsFooter">
+                    <span>
+                      {locale === 'ko'
+                        ? '사진 출처:'
+                        : locale === 'zh'
+                        ? '图片来源:'
+                        : locale === 'ja'
+                        ? '写真出典:'
+                        : locale === 'ru'
+                        ? 'Источник фото:'
+                        : locale === 'hi'
+                        ? 'फोटो स्रोत:'
+                        : locale === 'vi'
+                        ? 'Nguồn ảnh:'
+                        : 'Photo source:'}
+                    </span>{' '}
+                    {(() => {
+                      const isHotelAgoda =
+                        (b.category === 'hotels' || b.category === 'hotel') &&
+                        (b.agoda_url || (b.website_url && b.website_url.includes('agoda.com')))
+                      const sourceHref = isHotelAgoda
+                        ? b.agoda_url || b.website_url
+                        : b.google_maps_url ||
+                          `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(b.google_maps_name || b.public_name)}`
+                      const sourceText = isHotelAgoda ? 'Agoda' : 'Google Maps'
+
+                      return (
+                        <>
+                          <a
+                            href={sourceHref}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="galleryCreditItem"
+                          >
+                            {sourceText} ↗
+                          </a>
+                          <span style={{ opacity: 0.5, margin: '0 6px' }}>·</span>
+                          <Link
+                            href={localePath(
+                              locale,
+                              `/for-businesses?public_name=${encodeURIComponent(b.public_name)}&slug=${encodeURIComponent(b.slug)}#claim`
+                            )}
+                            style={{ textDecoration: 'underline', color: 'inherit' }}
+                          >
+                            {PHOTO_REQUEST_LINK[locale] || PHOTO_REQUEST_LINK.en}
+                          </Link>
+                        </>
+                      )
+                    })()}
+                  </div>
+                )}
               </div>
             )
           }
@@ -917,10 +911,6 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
 
               return null
             })()}
-
-            {!isDiningOrFood && menuData && !menuData.isUnconfirmed && (
-              <BusinessMenuSection menuData={menuData} locale={locale} />
-            )}
 
             {!isDiningOrFood && categoryGuide && (
               <CategoryKnowledgeSection
