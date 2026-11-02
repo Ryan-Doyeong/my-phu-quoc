@@ -8,6 +8,19 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 <!-- END:nextjs-agent-rules -->
 
+<!-- BEGIN: github-ai-review-workflow -->
+## GitHub 중심 ChatGPT ↔ Antigravity 협업 (2026-11)
+
+**작업 시작 전 필독:** [docs/AI_COLLABORATION_WORKFLOW.md](docs/AI_COLLABORATION_WORKFLOW.md)
+
+- 매 작업 시작 시 GitHub의 열린 Issues/PR과 **PR 일반 댓글·코드 리뷰 댓글**을 확인한다.
+- ChatGPT는 GitHub Issue/PR 댓글로 검토·지시를 남기고, Antigravity는 GitHub를 읽어 구현·테스트 후 **같은 PR에 커밋과 결과 댓글**을 남긴다.
+- 과거 문서의 '사용자가 지시서/보고서를 두 AI 사이에 복사하여 전달' 단계는 **GitHub 공유 절차로 대체**한다. 나머지 기술·보안·DB·브랜치 규칙은 그대로 유지한다.
+- 사용자 명시 승인 없이 `main` 병합·운영 배포·운영 데이터 초기화/변경 금지.
+- 댓글 작성만으로 Antigravity가 자동 실행되지는 않는다. 실행 중인 Antigravity가 작업 시작 시 GitHub를 확인해야 한다.
+
+<!-- END: github-ai-review-workflow -->
+
 
 # My Phu Quoc — 사이트 제작 공통 데이터 & 메뉴 표준 준수 규칙 (MANDATORY)
 
