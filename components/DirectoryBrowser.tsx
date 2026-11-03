@@ -578,9 +578,21 @@ export function DirectoryBrowser({
       <div className="nearbySortBar" style={{ margin: '0 0 16px', display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '10px 14px' }}>
         <button
           type="button"
-          className={`outlineButton nearbySortBtn ${geoStatus === 'active' ? 'active' : ''}`}
+          className={`nearbySortBtn ${geoStatus === 'active' ? 'active' : ''}`}
           onClick={requestLocation}
           disabled={geoStatus === 'loading'}
+          style={{
+            border: '1.5px solid #0A4F5C',
+            borderRadius: '999px',
+            padding: '11px 20px',
+            minHeight: '44px',
+            fontSize: '14px',
+            fontWeight: 700,
+            cursor: geoStatus === 'loading' ? 'wait' : 'pointer',
+            background: geoStatus === 'active' ? '#0A4F5C' : '#fff',
+            color: geoStatus === 'active' ? '#fff' : '#0A4F5C',
+            boxShadow: '0 2px 8px rgba(10,79,92,.15)',
+          }}
         >
           {geoStatus === 'loading' ? nearby.loading : nearby.button}
         </button>
