@@ -95,8 +95,38 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       'kiss-of-the-sea-fireworks-guide',
     ])
 
-    // Ensure all 10 published editorial articles are always present in sitemap even if Supabase is offline
+    // Ensure all published editorial articles are always present in sitemap even if Supabase is offline
     const EDITORIAL_FALLBACKS: any[] = [
+      {
+        slug: 'sun-signature-gallery-sunset-town-bill-bensley',
+        content_type: 'news',
+        status: 'published',
+        updated_at: '2026-11-03T00:00:00Z',
+      },
+      {
+        slug: 'korean-families-winter-top-destination-agoda-phu-quoc',
+        content_type: 'news',
+        status: 'published',
+        updated_at: '2026-11-03T00:00:00Z',
+      },
+      {
+        slug: 'phu-quoc-south-island-family-pool-villas',
+        content_type: 'news',
+        status: 'published',
+        updated_at: '2026-11-03T00:00:00Z',
+      },
+      {
+        slug: 'vietnam-culture-day-nov-24-sunset-town',
+        content_type: 'news',
+        status: 'published',
+        updated_at: '2026-11-03T00:00:00Z',
+      },
+      {
+        slug: 'phu-quoc-architecture-vietnamese-heritage',
+        content_type: 'news',
+        status: 'published',
+        updated_at: '2026-11-03T00:00:00Z',
+      },
       {
         slug: 'hon-thom-cable-car-day-trip',
         content_type: 'guide',
