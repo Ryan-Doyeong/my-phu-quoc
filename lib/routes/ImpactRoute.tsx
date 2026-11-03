@@ -78,7 +78,7 @@ export async function renderImpactRoute(topic: string | undefined, locale: Local
         <Logo locale={locale} />
         <div className="detailNavRight">
           <nav>
-            <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
+            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
             <Link href={localePath(locale, '/news')}>{dict.nav.newsAndBlog}</Link>
             <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
             <Link href={localePath(locale, '/impact')}>{dict.nav.impact}</Link>

@@ -174,7 +174,7 @@ export function PartnersClient({ initialLang, initialSlot, businesses }: Props) 
         <Logo locale={lang} />
         <div className="partnersNavRight">
           <nav className="partnersNavLinks">
-            <Link href={localePath(lang, '/')}>{dict.nav.home}</Link>
+            <Link href={localePath(lang, '/about')}>{dict.nav.about || 'About'}</Link>
             <Link href={localePath(lang, '/news')}>{dict.nav.news}</Link>
             <Link href={localePath(lang, '/for-businesses')}>{dict.nav.forBusinesses}</Link>
           </nav>

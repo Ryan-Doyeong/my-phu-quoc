@@ -241,14 +241,13 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
       <header className="siteHeader heroHeader">
         <Logo locale={locale} />
         <nav className="desktopNav">
-          <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
+          <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
           <Link href={localePath(locale, '/zones/sunset-town')}>{NAV_ZONE_LABELS.sunset[locale] || NAV_ZONE_LABELS.sunset.en}</Link>
           <Link href={localePath(locale, '/zones/khem-beach')}>{NAV_ZONE_LABELS.khem[locale] || NAV_ZONE_LABELS.khem.en}</Link>
           <Link href={localePath(locale, '/directory/dining')}>{categoryLabel('dining', locale)}</Link>
           <Link href={localePath(locale, '/directory/bars')}>{categoryLabel('bars', locale)}</Link>
           <Link href={localePath(locale, '/hotels')}>{categoryLabel('hotels', locale)}</Link>
           <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
-          <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
         </nav>
         <div className="headerActions">
           <Link

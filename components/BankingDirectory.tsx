@@ -248,7 +248,7 @@ export function BankingDirectory({ locale }: BankingDirectoryProps) {
         <Logo locale={locale} />
         <div className="detailNavRight">
           <nav>
-            <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
+            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
             <Link href={localePath(locale, '/zones/sunset-town')}>
               {locale === 'ko' ? '선셋타운' : 'Sunset Town'}
             </Link>

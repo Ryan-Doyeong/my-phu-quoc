@@ -569,7 +569,7 @@ export function EmergencyLandingPage({ locale = 'en' }: EmergencyLandingPageProp
         <Logo locale={locale} />
         <div className="detailNavRight">
           <nav>
-            <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
+            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
             <Link href={localePath(locale, '/zones/sunset-town')}>
               {NAV_ZONE_LABELS.sunset[locale] || NAV_ZONE_LABELS.sunset.en}
             </Link>
@@ -582,7 +582,6 @@ export function EmergencyLandingPage({ locale = 'en' }: EmergencyLandingPageProp
             <Link href={localePath(locale, '/itineraries')}>
               {c.itineraries}
             </Link>
-            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
           </nav>
           <LanguageSwitcher locale={locale} variant="light" />
         </div>
