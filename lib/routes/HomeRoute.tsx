@@ -39,6 +39,7 @@ export async function renderHomeRoute(locale: Locale = 'en') {
     { data: stories },
     { data: banners },
     { data: eventRows },
+    { data: latestEventRows },
   ] = await Promise.all([
     supabase.from('site_settings').select('value').eq('key', 'appearance').maybeSingle(),
     supabase.from('site_settings').select('value').eq('key', 'directory_categories').maybeSingle(),
@@ -47,9 +48,9 @@ export async function renderHomeRoute(locale: Locale = 'en') {
       .from('stories')
       .select('*')
       .eq('status', 'published')
-      .neq('content_type', 'event')
+      .not('content_type', 'in', '(event,guide)')
       .order('published_at', { ascending: false })
-      .limit(4),
+      .limit(3),
     supabase
       .from('sponsor_banners')
       .select('slot_key,title,subtitle,image_url,target_url,size,sort_order')
@@ -62,7 +63,27 @@ export async function renderHomeRoute(locale: Locale = 'en') {
       .eq('content_type', 'event')
       .order('event_date', { ascending: true })
       .limit(1),
+    supabase
+      .from('stories')
+      .select('*')
+      .eq('status', 'published')
+      .eq('content_type', 'event')
+      .order('published_at', { ascending: false })
+      .limit(3),
   ])
+  // 홈 하단 피드: DB + 저장소 내 게시물을 합쳐 최신순 3개
+  const latestOf = (rows: any[] | null, inRepo: (t: string) => boolean) => {
+    const dbRows = rows || []
+    const slugs = new Set(dbRows.map((r: any) => r.slug))
+    return [
+      ...dbRows,
+      ...PUBLISHED_EVENTS.filter((e) => e.status === 'published' && inRepo(e.content_type) && !slugs.has(e.slug)),
+    ]
+      .sort((a: any, b: any) => +new Date(b.published_at || 0) - +new Date(a.published_at || 0))
+      .slice(0, 3)
+  }
+  const homeNews = latestOf(stories, (t) => t !== 'event' && t !== 'guide')
+  const homeEvents = latestOf(latestEventRows, (t) => t === 'event')
   const settings = { ...defaultSettings, ...((settingRow?.value || {}) as Partial<SiteSettings>) }
   const categoryAppearance = mergeDirectoryCategoryAppearance(categorySettingRow?.value)
   const homeSections = mergeHomeSections(homeSectionsRow?.value)
@@ -74,7 +95,8 @@ export async function renderHomeRoute(locale: Locale = 'en') {
     <HomePage
       settings={settings}
       categoryAppearance={categoryAppearance}
-      stories={stories || []}
+      stories={homeNews}
+      events={homeEvents}
       banners={effectiveBanners}
       event={effectiveEvent}
       homeSections={homeSections}
