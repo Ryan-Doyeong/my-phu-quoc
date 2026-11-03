@@ -2021,3 +2021,128 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+
+/* =========================================================================
+   2026-11-03 호텔 카테고리 탭(가격순 5개) + 2열 그리드 + 1박 요금 범위
+   ========================================================================= */
+.categorySelectorWrap {
+  max-width: 1120px;
+}
+.categorySelectorInner {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 6px;
+}
+.categoryTabBtn {
+  padding: 12px 10px;
+  font-size: 0.95rem;
+  flex-direction: column;
+  gap: 4px;
+  line-height: 1.2;
+  text-align: center;
+}
+.categoryTabBtn .areaTabIcon {
+  font-size: 1.3rem;
+}
+.categoryTabBtn .areaTabName {
+  font-size: 0.9rem;
+  word-break: keep-all;
+}
+@media (max-width: 900px) {
+  .categorySelectorWrap {
+    padding: 0 8px;
+  }
+  .categorySelectorInner {
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    scroll-snap-type: x proximity;
+  }
+  .categorySelectorInner::-webkit-scrollbar {
+    display: none;
+  }
+  .categoryTabBtn {
+    flex: 0 0 auto;
+    min-width: 128px;
+    padding: 10px 12px;
+    scroll-snap-align: start;
+  }
+  .categoryTabBtn .areaTabName {
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+}
+
+/* 카테고리 목록은 항상 2열 (모바일 1열) — 추천 호텔 카드도 가로 확장 없이 동일 카드 */
+.hotelsGrid.hotelsGridTwoCol {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+@media (max-width: 640px) {
+  .hotelsGrid.hotelsGridTwoCol {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
+@media (min-width: 900px) {
+  .hotelsGridTwoCol .hotelCard.hotelCardTopGrade,
+  .hotelsGridTwoCol .hotelCard.hotelCardFeatured {
+    grid-column: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .hotelsGridTwoCol .hotelCard.hotelCardTopGrade .cardImageWrap,
+  .hotelsGridTwoCol .hotelCard.hotelCardFeatured .cardImageWrap {
+    aspect-ratio: 16 / 10;
+    min-height: 0;
+    height: auto;
+  }
+  .hotelsGridTwoCol .hotelCard.hotelCardTopGrade .cardBody,
+  .hotelsGridTwoCol .hotelCard.hotelCardFeatured .cardBody {
+    padding: 18px 20px;
+  }
+}
+
+.categorySection .sectionSubtitle {
+  margin: -6px 0 18px;
+  color: #64748b;
+  font-size: 0.95rem;
+}
+
+.cardPriceRange {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+  margin: 6px 0 2px;
+  cursor: help;
+}
+.cardPriceRangeMain {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #b45309;
+  letter-spacing: -0.01em;
+}
+.cardPriceRangeSub {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #94a3b8;
+}
+.cardPriceRangeUnverified {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #94a3b8;
+}
+
+.priceNoteLine {
+  margin: 20px 0 0;
+  font-size: 0.8rem;
+  color: #94a3b8;
+  line-height: 1.5;
+}
+.emptyCategoryNotice {
+  padding: 40px 16px;
+  text-align: center;
+  color: #94a3b8;
+  font-size: 0.95rem;
+}

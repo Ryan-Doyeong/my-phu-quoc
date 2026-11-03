@@ -206,7 +206,7 @@
       "googleRating": 5.0,
       "googleReviewsCount": 18,
       "tier": "recommended",
-      "order": 1,
+      "order": 4,
       "reviewHighlight": "오션뷰 발코니에서 감상하는 불꽃놀이 · 포근한 침구 · 친절한 서비스",
       "reviewPros": [
         "오션뷰 객실(3개) 발코니에서 바다 전망과 불꽃놀이 관람",
@@ -437,7 +437,7 @@
       "priceRange": "$$$$$",
       "tier": "recommended",
       "isFeatured": true,
-      "order": 5,
+      "order": 1,
       "googleRating": 4.7,
       "reviewHighlight": "인피니티 풀에서 바라보는 키스브릿지 일몰과 불꽃놀이 조망",
       "reviewPros": [
@@ -1618,7 +1618,7 @@
       "agodaUrl": "https://www.agoda.com/ko-kr/coastal-living-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
       "unverified": [],
       "tier": "recommended",
-      "order": 3,
+      "order": 5,
       "isFeatured": true,
       "googleRating": 4.9,
       "reviewHighlight": "쾌적한 시설의 청결도와 세련된 인테리어",
@@ -2788,7 +2788,7 @@
       "priceRange": "$$$$",
       "googleRating": 4.6,
       "tier": "recommended",
-      "order": 4,
+      "order": 3,
       "isFeatured": true,
       "reviewHighlight": "비치클럽 인접 및 부티크 객실 인테리어",
       "reviewPros": [
