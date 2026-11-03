@@ -6,6 +6,10 @@
     "slug": "jw-marriott-phu-quoc-emerald-bay",
     "category": "hotels",
     "subcategory": "resort",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ],
     "address": "Khem Beach, An Thới, Phú Quốc, An Giang 922280, Vietnam",
     "google_maps_name": "JW Marriott Phu Quoc Emerald Bay Resort & Spa",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJLZPWxLiWpzERwrkgfIa1P8I",
@@ -285,6 +289,10 @@
     "slug": "new-world-phu-quoc-resort",
     "category": "hotels",
     "subcategory": "resort",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ],
     "address": "Khem Beach, An Thới, Phú Quốc, An Giang 920000, Vietnam",
     "google_maps_name": "Khu nghỉ dưỡng New World Phú Quốc",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJy5uCwXCXpzERQSR2-hAgnuo",
@@ -675,6 +683,10 @@
     "slug": "pink-pearl",
     "category": "dining",
     "subcategory": "fine-dining",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ],
     "address": "JW Marriott Phu Quoc, Bãi Khem, An Thới, Phú Quốc, Kiên Giang 922280, Vietnam",
     "google_maps_name": "Pink Pearl by Olivier E. - JW Marriott Phu Quoc Emerald Bay Resort & Spa",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJp_ryeK-XpzERKtgeuSUzPMk",
@@ -724,6 +736,10 @@
     "slug": "tempus-fugit",
     "category": "dining",
     "subcategory": "international",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ],
     "address": "JW Marriott Phu Quoc, Bãi Khem, An Thới, Phú Quốc, Kiên Giang 922280, Vietnam",
     "google_maps_name": "Tempus Fugit - JW Marriott Phu Quoc Emerald Bay Resort & Spa",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJeZJAoFGXpzEREV_d11IUwpo",
@@ -773,6 +789,10 @@
     "slug": "red-rum",
     "category": "dining",
     "subcategory": "seafood",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ],
     "address": "JW Marriott Phu Quoc, Bãi Khem, An Thới, Phú Quốc, Kiên Giang 922280, Vietnam",
     "google_maps_name": "Red Rum - JW Marriott Phu Quoc Emerald Bay Resort & Spa",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJnSaU6pOXpzERmJbwp953evg",
@@ -822,6 +842,10 @@
     "slug": "french-and-co",
     "category": "bars",
     "subcategory": "cafe",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ],
     "address": "JW Marriott Phu Quoc, Bãi Khem, An Thới, Phú Quốc, Kiên Giang 922280, Vietnam",
     "google_maps_name": "French ＆ Co. - JW Marriott Phu Quoc Emerald Bay Resort & Spa",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJBR2AMf2XpzERKaMeLRIfAdk",
@@ -871,6 +895,10 @@
     "slug": "department-of-chemistry-bar",
     "category": "bars",
     "subcategory": "cocktail-bar",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ],
     "address": "JW Marriott Phu Quoc, Bãi Khem, An Thới, Phú Quốc, Kiên Giang 922280, Vietnam",
     "google_maps_name": "Department of Chemistry Bar",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJlRtyQYOXpzEROqImw3nAJF0",
@@ -1163,6 +1191,10 @@
     "slug": "the-bay-kitchen",
     "category": "dining",
     "subcategory": "international",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ],
     "address": "New World Phu Quoc Resort, Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
     "google_maps_name": "The Bay Kitchen Restaurant",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJDTtRkEeXpzER0YWCULD-TeA",
@@ -1212,6 +1244,10 @@
     "slug": "lua-grill-and-bar",
     "category": "dining",
     "subcategory": "grill",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ],
     "address": "New World Phu Quoc Resort, Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
     "google_maps_name": "LỬA Grill & Bar",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJjVU-q62XpzERMLgQeXaY4S0",
@@ -1261,6 +1297,10 @@
     "slug": "the-lounge-new-world",
     "category": "bars",
     "subcategory": "lounge",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ],
     "address": "New World Phu Quoc Resort, Bãi Khem, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam",
     "google_maps_name": "The Lounge (구글맵 개별 핀 미분리)",
     "google_maps_url": "https://phuquoc.newworldhotels.com/en/dining/the-lounge/",

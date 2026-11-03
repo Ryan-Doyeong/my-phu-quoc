@@ -144,6 +144,11 @@ export async function generateBusinessMetadata(
       rating_check_date: regItem.rating_check_date ?? b.rating_check_date,
       review_summary: 'review_summary' in regItem ? regItem.review_summary : b.review_summary,
       tags: regItem.tags ?? b.tags,
+      badges:
+        Array.isArray(regItem.badges) && regItem.badges.length > 0
+          ? regItem.badges
+          : b.badges,
+      is_featured: regItem.is_featured ?? b.is_featured,
       aliases: regItem.aliases ?? b.aliases,
       gallery_urls:
         Array.isArray(regItem.gallery_urls) && regItem.gallery_urls.length > 0
@@ -279,6 +284,11 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
       rating_check_date: regItem.rating_check_date ?? b.rating_check_date,
       review_summary: 'review_summary' in regItem ? regItem.review_summary : b.review_summary,
       tags: regItem.tags ?? b.tags,
+      badges:
+        Array.isArray(regItem.badges) && regItem.badges.length > 0
+          ? regItem.badges
+          : b.badges,
+      is_featured: regItem.is_featured ?? b.is_featured,
       aliases: regItem.aliases ?? b.aliases,
       gallery_urls:
         Array.isArray(regItem.gallery_urls) && regItem.gallery_urls.length > 0
