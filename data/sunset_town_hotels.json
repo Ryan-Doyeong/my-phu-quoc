@@ -3642,6 +3642,7 @@
       "unverified": [
         "건축 연도 미확인"
       ],
+      "priceRange": "$$",
       "tier": "standard",
       "isFeatured": false,
       "googleRating": 4.7,
