@@ -89,16 +89,7 @@ const DELETED_SLUG_REDIRECTS: Record<string, string> = {
   'sunset-place-4': '/directory/dining',
   'sunset-place-8': '/directory/wellness',
   'the-nice-hotel-phu-quoc-fireworks-ocean-view': '/hotels',
-  'rosie-hillside-phu-quoc-apartment': '/hotels',
-  'sunset-home-apartment-phu-quoc': '/hotels',
-  'the-juliet-a-boutique-hotel-coffee-ama-71': '/hotels',
-  'eirlys-home-apartment-phu-quoc-firework-ocean-view': '/hotels',
-  'blue-hotel-sunset-town-phu-quoc': '/hotels',
   'th-luxury-hotel': '/hotels',
-  'merci-hotel-sunset-town-phu-quoc': '/hotels',
-  'the-fern-phu-quoc-hotel-sunset-town': '/hotels',
-  'crystal-apartment-hillside-phu-quoc-sunset-town-firework': '/hotels',
-  'dido-carthage-apartment-sunset-town-phu-quoc-island': '/hotels',
 }
 
 export async function generateBusinessMetadata(
