@@ -246,7 +246,7 @@ export async function renderZoneRoute(slug: string, locale: Locale = 'en') {
         <Logo locale={locale} />
         <div className="detailNavRight">
           <nav>
-            <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
+            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
             <Link
               href={localePath(locale, '/zones/sunset-town')}
               className={slug === 'sunset-town' ? 'active' : ''}

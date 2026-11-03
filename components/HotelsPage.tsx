@@ -951,7 +951,7 @@ function HotelsPageInner({ hotels: rawHotels, locale = 'en', initialArea }: Hote
         <Logo locale={locale} />
         <div className="detailNavRight">
           <nav>
-            <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
+            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
             <Link href={localePath(locale, '/zones/sunset-town')}>
               {t.areaSunsetTown}
             </Link>
@@ -968,7 +968,6 @@ function HotelsPageInner({ hotels: rawHotels, locale = 'en', initialArea }: Hote
               {categoryLabel('hotels', locale)}
             </Link>
             <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
-            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
           </nav>
           <LanguageSwitcher locale={locale} variant="light" />
         </div>

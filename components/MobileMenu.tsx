@@ -30,7 +30,7 @@ export function MobileMenu({ locale = 'en' }: { locale?: Locale }) {
         <em>{dict.nav.menu}</em>
       </summary>
       <div className="mobileMenuPanel">
-        <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
+        <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
         <Link href={localePath(locale, '/zones/sunset-town')}>
           {SUNSET_MENU_LABELS[locale] || SUNSET_MENU_LABELS.en}
         </Link>

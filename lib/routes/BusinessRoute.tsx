@@ -405,7 +405,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
         <Logo locale={locale} />
         <div className="detailNavRight">
           <nav>
-            <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
+            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
             <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
             {isHotel ? (
               <Link href={isKhem ? `${localePath(locale, '/hotels')}?area=khem-beach` : localePath(locale, '/hotels')}>

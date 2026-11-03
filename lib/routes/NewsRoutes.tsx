@@ -78,7 +78,7 @@ export async function renderNewsListRoute(locale: Locale = 'en', category: Exclu
         <Logo locale={locale} />
         <div className="detailNavRight">
           <nav>
-            <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
+            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
             <Link href={localePath(locale, '/news')}>{dict.nav.newsAndBlog}</Link>
             <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
             <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
@@ -336,7 +336,7 @@ export async function renderArticleRoute(
         <Logo locale={locale} />
         <div className="detailNavRight">
           <nav>
-            <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
+            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
             <Link href={localePath(locale, '/news')}>{dict.nav.newsAndBlog}</Link>
             <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
             <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
@@ -601,7 +601,7 @@ export async function renderEventsRoute(locale: Locale = 'en') {
         <Logo locale={locale} />
         <div className="detailNavRight">
           <nav>
-            <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
+            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
             <Link href={localePath(locale, '/news')}>{dict.nav.newsAndBlog}</Link>
             <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
             <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>

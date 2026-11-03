@@ -182,7 +182,7 @@ export function ActivitiesLandingPage({ locale = 'ko' }: ActivitiesLandingPagePr
         <Logo locale={locale} />
         <div className="detailNavRight">
           <nav>
-            <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
+            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
             <Link href={localePath(locale, '/zones/sunset-town')}>
               {t.sunsetTown}
             </Link>
@@ -190,7 +190,6 @@ export function ActivitiesLandingPage({ locale = 'ko' }: ActivitiesLandingPagePr
               {t.khemBeach}
             </Link>
             <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
-            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
           </nav>
           <LanguageSwitcher locale={locale} variant="light" />
         </div>
