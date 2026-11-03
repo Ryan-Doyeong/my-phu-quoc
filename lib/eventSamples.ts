@@ -1,4 +1,5 @@
 import type { Locale } from '@/lib/i18n/config'
+import sunWorldEditorial from '@/data/sun-world-editorial-20261104.json'
 
 export type EventSampleStory = {
   id: string
@@ -15,6 +16,7 @@ export type EventSampleStory = {
  * - 날짜(effective_date) 경과 시 자동으로 Ended / Đã kết thúc / 종료 배지로 전환됨
  */
 export const PUBLISHED_EVENTS: EventSampleStory[] = [
+  ...(sunWorldEditorial as EventSampleStory[]),
   {
     "id": "news-sun-signature-gallery-sunset-town-bill-bensley",
     "slug": "sun-signature-gallery-sunset-town-bill-bensley",
