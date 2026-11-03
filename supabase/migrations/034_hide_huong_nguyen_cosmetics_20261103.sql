@@ -10,3 +10,10 @@ SET status = 'private', updated_at = NOW()
 WHERE slug = 'huong-nguyen-cosmetics';
 
 COMMIT;
+
+-- 추가 (2026-11-03): Em Spa Sunset Town — 사진이 스파와 맞지 않아 비공개 (삭제 아님)
+BEGIN;
+UPDATE public.businesses
+SET status = 'private', updated_at = NOW()
+WHERE slug = 'em-spa-sunset-town-hair-wash-massage-body-foot';
+COMMIT;
