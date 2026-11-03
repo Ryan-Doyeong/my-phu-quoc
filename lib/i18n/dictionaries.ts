@@ -440,6 +440,11 @@ function hasText(v: unknown): boolean {
 }
 
 export const TEN_EDITORIAL_SLUGS = new Set([
+  'sun-signature-gallery-sunset-town-bill-bensley',
+  'korean-families-winter-top-destination-agoda-phu-quoc',
+  'phu-quoc-south-island-family-pool-villas',
+  'vietnam-culture-day-nov-24-sunset-town',
+  'phu-quoc-architecture-vietnamese-heritage',
   'phu-quoc-halloween-sunset-town-hon-thom',
   'sun-bavaria-gastropub-sunset-town-dining',
   'maison-eric-kayser-pink-desserts-sunset-town',
