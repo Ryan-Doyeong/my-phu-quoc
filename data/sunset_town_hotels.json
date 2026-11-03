@@ -206,7 +206,7 @@
       "googleRating": 5.0,
       "googleReviewsCount": 18,
       "tier": "recommended",
-      "order": 1,
+      "order": 5,
       "reviewHighlight": "오션뷰 발코니에서 감상하는 불꽃놀이 · 포근한 침구 · 친절한 서비스",
       "reviewPros": [
         "오션뷰 객실(3개) 발코니에서 바다 전망과 불꽃놀이 관람",
@@ -437,7 +437,7 @@
       "priceRange": "$$$$$",
       "tier": "recommended",
       "isFeatured": true,
-      "order": 5,
+      "order": 1,
       "googleRating": 4.7,
       "reviewHighlight": "인피니티 풀에서 바라보는 키스브릿지 일몰과 불꽃놀이 조망",
       "reviewPros": [
@@ -913,7 +913,7 @@
           "distance": "780m (도보 10분)"
         }
       ],
-      "priceRange": "$$",
+      "priceRange": "$$$$",
       "googleRating": 4.7,
       "tier": "standard",
       "isFeatured": false,
@@ -1426,10 +1426,10 @@
           "distance": "310m (도보 4분)"
         }
       ],
-      "priceRange": "$$$$$",
+      "priceRange": "$$$$",
       "googleRating": 4.8,
       "tier": "recommended",
-      "order": 2,
+      "order": 4,
       "isFeatured": true,
       "reviewHighlight": "키스브릿지 파노라마 뷰와 사우나·피트니스 부대시설",
       "reviewPros": [
@@ -1618,7 +1618,7 @@
       "agodaUrl": "https://www.agoda.com/ko-kr/coastal-living-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
       "unverified": [],
       "tier": "recommended",
-      "order": 3,
+      "order": 6,
       "isFeatured": true,
       "googleRating": 4.9,
       "reviewHighlight": "쾌적한 시설의 청결도와 세련된 인테리어",
@@ -1649,7 +1649,8 @@
           "name": "선 바바리아 펍",
           "distance": "350m (도보 5분)"
         }
-      ]
+      ],
+      "priceRange": "$$$"
     },
     {
       "slug": "roma-hotel-phu-qu-c",
@@ -2027,10 +2028,10 @@
           "distance": "280m (도보 4분)"
         }
       ],
-      "priceRange": "$$$$$",
+      "priceRange": "$$$$",
       "googleRating": 4.9,
-      "tier": "standard",
-      "isFeatured": false,
+      "tier": "recommended",
+      "isFeatured": true,
       "reviewHighlight": "스파와 수영장 시설, 케이블카 120m 거리",
       "reviewPros": [
         "쾌적하고 깔끔한 최신 객실 시설",
@@ -2041,7 +2042,8 @@
       "reviewQuote": {
         "text": "시설이 깔끔하고 스파와 수영장이 잘 갖추어져 있어 힐링하기 좋았습니다.",
         "source": "Agoda"
-      }
+      },
+      "order": 2
     },
     {
       "slug": "times-corner-amalfi-hotel",
@@ -2788,7 +2790,7 @@
       "priceRange": "$$$$",
       "googleRating": 4.6,
       "tier": "recommended",
-      "order": 4,
+      "order": 3,
       "isFeatured": true,
       "reviewHighlight": "비치클럽 인접 및 부티크 객실 인테리어",
       "reviewPros": [

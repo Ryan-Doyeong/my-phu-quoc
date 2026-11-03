@@ -92,6 +92,68 @@ export function getPriceTierLevel(tier?: string): number | null {
   return tier.length
 }
 
+/** 고정 참고 환율 (PRICE_TIER_CONFIG.referenceCurrency 와 동일) */
+export const VND_PER_USD = 25400
+
+export interface PriceTierBand {
+  level: number
+  /** null = 하한 없음 ($ 등급) */
+  minVnd: number | null
+  /** null = 상한 없음 ($$$$$ 등급) */
+  maxVnd: number | null
+  minUsd: number | null
+  maxUsd: number | null
+}
+
+/**
+ * 아고다 5단계 요금대 → 실제 1박 가격 범위(VND/USD).
+ * 2026-11-01 아고다 실측 5분위 기준(PRICE_TIER_CONFIG) 그대로 사용.
+ */
+export function getPriceTierBand(priceRange?: HotelPriceRange | string | null): PriceTierBand | null {
+  const level = getPriceTierLevel(priceRange || undefined)
+  if (!level) return null
+  const thresholds = PRICE_TIER_CONFIG.thresholds
+  const idx = Math.min(Math.max(level, 1), thresholds.length) - 1
+  const cur = thresholds[idx]
+  const prev = idx > 0 ? thresholds[idx - 1] : null
+  const minVnd = prev ? prev.maxPriceVnd : null
+  const maxVnd = Number.isFinite(cur.maxPriceVnd) ? (cur.maxPriceVnd as number) : null
+  const toUsd = (v: number | null) => (v == null ? null : Math.round(v / VND_PER_USD))
+  return { level, minVnd, maxVnd, minUsd: toUsd(minVnd), maxUsd: toUsd(maxVnd) }
+}
+
+/**
+ * 호텔 목록 상단 카테고리 (가격 순).
+ * - recommended: 마이 푸꾸옥 추천 호텔 모음
+ * - luxury:     특급 ~ 4성급 (아고다 요금대 $$$$$ · $$$$)
+ * - boutique:   3성 부티크 ($$$ · $$)
+ * - guesthouse: 게스트하우스·실속형 ($)
+ * - khem-beach: 켐 비치 리조트
+ */
+export type HotelCategory = 'recommended' | 'luxury' | 'boutique' | 'guesthouse' | 'khem-beach'
+export const HOTEL_CATEGORY_ORDER: HotelCategory[] = ['recommended', 'luxury', 'boutique', 'guesthouse', 'khem-beach']
+
+export type HotelPriceCategory = Exclude<HotelCategory, 'recommended' | 'khem-beach'>
+
+/**
+ * 가격 카테고리 판정. 아고다 요금대가 있으면 요금대 기준,
+ * 요금대 미확인이면 아고다 표시 성급으로 임시 분류 (4성 이상 → luxury, 그 외 → boutique).
+ */
+export function getHotelPriceCategory(hotel: { priceRange?: HotelPriceRange | string | null; star?: number }): HotelPriceCategory {
+  const level = getPriceTierLevel(hotel.priceRange || undefined)
+  if (level) {
+    if (level >= 4) return 'luxury'
+    if (level >= 2) return 'boutique'
+    return 'guesthouse'
+  }
+  if ((hotel.star || 0) >= 4) return 'luxury'
+  return 'boutique'
+}
+
+export function isRecommendedHotel(hotel: { tier?: HotelTier; isFeatured?: boolean; slug?: string }): boolean {
+  return hotel.tier === 'top' || hotel.tier === 'recommended' || Boolean(hotel.isFeatured) || hotel.slug === 'jw-marriott-phu-quoc-emerald-bay'
+}
+
 export interface HotelItem {
   slug: string
   hotelId: string
