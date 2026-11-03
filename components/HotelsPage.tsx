@@ -921,6 +921,12 @@ function HotelsPageInner({ hotels: rawHotels, locale = 'en', initialArea }: Hote
 
     const priceLevel = (h: HotelItem) => getPriceTierLevel(h.priceRange) || 0
     list.sort((a, b) => {
+      // 3성급 호텔 탭: 더 룸 호텔(마이 푸꾸옥 추천)을 어떤 정렬에서도 맨 위에 고정
+      if (activeCategory === 'boutique') {
+        const pinA = a.slug === 'the-room-hotel' ? 0 : 1
+        const pinB = b.slug === 'the-room-hotel' ? 0 : 1
+        if (pinA !== pinB) return pinA - pinB
+      }
       if (activeSort === 'priceHigh') return priceLevel(b) - priceLevel(a) || b.rating - a.rating
       if (activeSort === 'priceLow') return priceLevel(a) - priceLevel(b) || b.rating - a.rating
       if (activeSort === 'rating') return b.rating - a.rating
