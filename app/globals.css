@@ -2465,3 +2465,16 @@ html[lang="hi"] .sectionIntro h2, html[lang="hi"] .businessPrimaryTitle {
 
 
 
+
+/* 콘텐츠 카테고리 탭 (뉴스 / 이벤트 / 가이드) */
+.contentCategoryTabs{display:flex;gap:8px;padding:18px 0 0;flex-wrap:wrap}
+.contentCategoryTabs a{padding:9px 18px;border:1px solid var(--line);border-radius:999px;background:#fff;color:#444;font-size:14px;font-weight:600}
+.contentCategoryTabs a.active{background:#111;border-color:#111;color:#fff}
+
+/* 홈 하단 이벤트 / 뉴스 최신 3개 */
+.homeFeed{padding-top:28px;padding-bottom:20px}
+.homeFeedHead{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:16px}
+.homeFeedHead h2{font-family:var(--font-pretendard);font-size:24px;font-weight:700;letter-spacing:-.02em;margin:0}
+.storyGrid.storyGrid3{grid-template-columns:repeat(3,1fr)}
+@media(max-width:1050px){.storyGrid.storyGrid3{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:760px){.storyGrid.storyGrid3{grid-template-columns:1fr!important}}

@@ -31,6 +31,7 @@ import { imageUrl } from '@/lib/imageUrl'
 import type { HomeSections } from '@/lib/homeSections'
 import { localePath, dateLocaleFor, type Locale } from '@/lib/i18n/config'
 import { getDictionary, localizeStory, translateTerm } from '@/lib/i18n/dictionaries'
+import { HOME_FEED_TITLES, VIEW_ALL_LABELS } from '@/lib/contentCategories'
 import { DEFAULT_SPONSOR_BANNERS } from '@/lib/banners'
 import { PUBLISHED_EVENTS } from '@/lib/eventSamples'
 import { SITE_CONFIG } from '@/lib/siteConfig'
@@ -405,10 +406,65 @@ function sanitizeFireworksTiming(text: string, locale: Locale = 'en'): string {
   return t
 }
 
+type FeedItem = { title: string; category: string; excerpt: string; image: string | null | undefined; slug: string }
+
+function HomeFeedSection({
+  id,
+  title,
+  viewAllHref,
+  viewAllLabel,
+  items,
+  itemBase,
+}: {
+  id: string
+  title: string
+  viewAllHref: string
+  viewAllLabel: string
+  items: FeedItem[]
+  itemBase: string
+}) {
+  return (
+    <section className="shell stories homeFeed" id={id}>
+      <div className="homeFeedHead">
+        <h2>{title}</h2>
+        <Link className="viewAll" href={viewAllHref}>
+          {viewAllLabel}
+        </Link>
+      </div>
+      <div className="storyGrid storyGrid3">
+        {items.map((s, i) => (
+          <Link href={s.slug.startsWith('fallback-') ? '#' : `${itemBase}/${s.slug}`} key={`${s.slug}-${i}`}>
+            <article className="storyCard">
+              <div className="storyCardImage">
+                {s.image && (
+                  <img
+                    src={imageUrl(s.image, 640, 70)}
+                    alt=""
+                    loading="lazy"
+                    decoding="async"
+                    width={640}
+                    height={426}
+                  />
+                )}
+              </div>
+              <div className="storyCardBody">
+                <span className="storyCategory">{s.category}</span>
+                <h3>{s.title}</h3>
+                <p>{s.excerpt}</p>
+              </div>
+            </article>
+          </Link>
+        ))}
+      </div>
+    </section>
+  )
+}
+
 export function HomePage({
   settings,
   categoryAppearance,
   stories,
+  events = [],
   banners,
   event,
   homeSections,
@@ -417,6 +473,7 @@ export function HomePage({
   settings: SiteSettings
   categoryAppearance: Record<DirectoryCategory, DirectoryCategoryAppearance>
   stories: Story[]
+  events?: Story[]
   banners: Banner[]
   event: Story | null
   homeSections: HomeSections
@@ -433,7 +490,7 @@ export function HomePage({
   } as CSSProperties
 
   const storyItems = stories.length
-    ? stories.slice(0, 4).map((raw, i) => {
+    ? stories.slice(0, 3).map((raw, i) => {
         const s = localizeStory(raw, locale)
         return {
           title: sanitizeFireworksTiming(s.title, locale),
@@ -449,6 +506,18 @@ export function HomePage({
         excerpt: sanitizeFireworksTiming(x.excerpt, locale),
         slug: `fallback-${i}`,
       }))
+
+  const eventItems = events.slice(0, 3).map((raw) => {
+    const s = localizeStory(raw, locale)
+    return {
+      title: sanitizeFireworksTiming(s.title, locale),
+      category: s.category || '',
+      excerpt: sanitizeFireworksTiming(s.excerpt || '', locale),
+      image: s.cover_image_url,
+      slug: s.slug,
+    }
+  })
+  const viewAllLabel = VIEW_ALL_LABELS[locale] || VIEW_ALL_LABELS.en
 
   const activeBanners = banners && banners.length > 0 ? banners : DEFAULT_SPONSOR_BANNERS
   const mainBanners = activeBanners
@@ -979,47 +1048,26 @@ export function HomePage({
         <SunsetTownTickets locale={locale} />
 
         {homeSections.stories.visible && (
-          <section className="shell stories" id="stories">
-            <div className="sectionIntro storyIntro">
-              <div>
-                <span className="eyebrow">{dict.home.storiesEyebrow}</span>
-                <h2>{storiesTitle}</h2>
-                <p>{storiesDesc}</p>
-              </div>
-              <Link className="viewAll" href={localePath(locale, '/news')}>
-                {dict.home.viewAll}
-              </Link>
-            </div>
-            <div className="storyGrid">
-              {storyItems.map((s, i) => (
-                <Link
-                  href={s.slug.startsWith('fallback-') ? '#' : localePath(locale, `/news/${s.slug}`)}
-                  key={`${s.title}-${i}`}
-                >
-                  <article className="storyCard">
-                    <div className="storyCardImage">
-                      {s.image && (
-                        <img
-                          src={imageUrl(s.image, 640, 70)}
-                          alt=""
-                          loading="lazy"
-                          decoding="async"
-                          width={640}
-                          height={426}
-                        />
-                      )}
-                    </div>
-                    <div className="storyCardBody">
-                      <span className="storyCategory">{s.category}</span>
-                      <h3>{s.title}</h3>
-                      <p>{s.excerpt}</p>
-                      <small className="storyPhotoCredit">Photo: Vivu Vietnam · CC BY-SA 4.0</small>
-                    </div>
-                  </article>
-                </Link>
-              ))}
-            </div>
-          </section>
+          <>
+            {eventItems.length > 0 && (
+              <HomeFeedSection
+                id="home-events"
+                title={HOME_FEED_TITLES.event[locale] || HOME_FEED_TITLES.event.en}
+                viewAllHref={localePath(locale, '/events')}
+                viewAllLabel={viewAllLabel}
+                items={eventItems}
+                itemBase={localePath(locale, '/events')}
+              />
+            )}
+            <HomeFeedSection
+              id="home-news"
+              title={HOME_FEED_TITLES.news[locale] || HOME_FEED_TITLES.news.en}
+              viewAllHref={localePath(locale, '/news')}
+              viewAllLabel={viewAllLabel}
+              items={storyItems}
+              itemBase={localePath(locale, '/news')}
+            />
+          </>
         )}
 
         {homeSections.newsletter.visible && (
