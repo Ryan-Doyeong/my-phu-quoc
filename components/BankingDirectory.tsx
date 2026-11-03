@@ -1,6 +1,6 @@
 'use client'
 
-import React from 'react'
+import React, { useMemo, useState } from 'react'
 import Link from 'next/link'
 import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
@@ -12,12 +12,23 @@ import {
   BANKING_UI_STRINGS,
   type BankingItem,
 } from '@/lib/banking'
+import { NearbySortBar, type GeoStatus } from '@/components/NearbySortBar'
+import { distanceKm, formatDistance, nearbyCopy, type UserPos } from '@/lib/nearbySort'
+
+const BANK_ACTIVE_MSG: Partial<Record<Locale, string>> = {
+  ko: '내 위치에서 가까운 순(직선거리)으로 정렬했어요.',
+  en: 'Sorted by straight-line distance from your location.',
+  zh: '已按距离您当前位置的直线距离由近到远排序。',
+  ru: 'Отсортировано по расстоянию по прямой от вашего местоположения.',
+  ja: '現在地からの直線距離が近い順に並べています。',
+  hi: 'आपकी लोकेशन से सीधी दूरी के अनुसार नज़दीक से दूर क्रम में।',
+}
 
 interface BankingDirectoryProps {
   locale: Locale
 }
 
-function BankingCard({ item, locale }: { item: BankingItem; locale: Locale }) {
+function BankingCard({ item, locale, distanceKmValue }: { item: BankingItem; locale: Locale; distanceKmValue?: number }) {
   const ui = BANKING_UI_STRINGS[locale] || BANKING_UI_STRINGS.en
   const name = item.name[locale] || item.name.en || item.name.ko
   const location = item.location[locale] || item.location.en || item.location.ko
@@ -80,6 +91,11 @@ function BankingCard({ item, locale }: { item: BankingItem; locale: Locale }) {
           </svg>
           <span>{location}</span>
         </div>
+        {distanceKmValue != null && (
+          <div style={{ fontSize: '13px', fontWeight: 700, color: '#0B7A8A', margin: '-4px 0 10px' }}>
+            📍 {nearbyCopy(locale).away} {formatDistance(distanceKmValue)}
+          </div>
+        )}
 
         {/* ATM 전용 카드 칩 줄 */}
         {item.type === 'atm' && (
@@ -184,20 +200,46 @@ export function BankingDirectory({ locale }: BankingDirectoryProps) {
   const dict = getDictionary(locale)
   const ui = BANKING_UI_STRINGS[locale] || BANKING_UI_STRINGS.en
 
-  // 구역별 그룹핑 (비공개 private 항목 제외)
-  const sunsetAtms = BANKING_PLACES.filter(
-    (b) => b.zone === 'sunset-town' && b.type === 'atm' && b.status !== 'private'
-  )
-  const sunsetExchanges = BANKING_PLACES.filter(
-    (b) => b.zone === 'sunset-town' && b.type === 'exchange' && b.status !== 'private'
-  )
+  const [userPos, setUserPos] = useState<UserPos | null>(null)
+  const [geoStatus, setGeoStatus] = useState<GeoStatus>('idle')
+  const requestLocation = () => {
+    if (typeof navigator === 'undefined' || !navigator.geolocation) {
+      setGeoStatus('error')
+      return
+    }
+    setGeoStatus('loading')
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        setUserPos({ lat: pos.coords.latitude, lng: pos.coords.longitude })
+        setGeoStatus('active')
+      },
+      (err) => setGeoStatus(err.code === 1 ? 'denied' : 'error'),
+      { enableHighAccuracy: false, timeout: 10000, maximumAge: 60000 }
+    )
+  }
+  const distances = useMemo(() => {
+    if (!userPos) return null
+    const m = new Map<string, number>()
+    for (const b of BANKING_PLACES) m.set(b.id, distanceKm(userPos, { lat: b.lat, lng: b.lng }))
+    return m
+  }, [userPos])
+  const byDistance = (list: BankingItem[]) =>
+    distances ? [...list].sort((a, b) => (distances.get(a.id) ?? Infinity) - (distances.get(b.id) ?? Infinity)) : list
 
-  const khemAtms = BANKING_PLACES.filter(
+  // 구역별 그룹핑 (비공개 private 항목 제외)
+  const sunsetAtms = byDistance(BANKING_PLACES.filter(
+    (b) => b.zone === 'sunset-town' && b.type === 'atm' && b.status !== 'private'
+  ))
+  const sunsetExchanges = byDistance(BANKING_PLACES.filter(
+    (b) => b.zone === 'sunset-town' && b.type === 'exchange' && b.status !== 'private'
+  ))
+
+  const khemAtms = byDistance(BANKING_PLACES.filter(
     (b) => b.zone === 'khem-beach' && b.type === 'atm' && b.status !== 'private'
-  )
-  const khemExchanges = BANKING_PLACES.filter(
+  ))
+  const khemExchanges = byDistance(BANKING_PLACES.filter(
     (b) => b.zone === 'khem-beach' && b.type === 'exchange' && b.status !== 'private'
-  )
+  ))
 
   return (
     <main style={{ minHeight: '100vh', backgroundColor: '#F9FAFB' }}>
@@ -306,6 +348,12 @@ export function BankingDirectory({ locale }: BankingDirectoryProps) {
           boxSizing: 'border-box',
         }}
       >
+        <NearbySortBar
+          locale={locale}
+          status={geoStatus}
+          onRequest={requestLocation}
+          activeMessage={BANK_ACTIVE_MSG[locale] || BANK_ACTIVE_MSG.en}
+        />
         {/* ==================== 구역 1: 선셋타운 ==================== */}
         <section style={{ marginBottom: '40px' }}>
           <div
@@ -355,7 +403,7 @@ export function BankingDirectory({ locale }: BankingDirectoryProps) {
                 }}
               >
                 {sunsetAtms.map((atm) => (
-                  <BankingCard key={atm.id} item={atm} locale={locale} />
+                  <BankingCard key={atm.id} item={atm} locale={locale} distanceKmValue={distances?.get(atm.id)} />
                 ))}
               </div>
             </div>
@@ -385,7 +433,7 @@ export function BankingDirectory({ locale }: BankingDirectoryProps) {
                 }}
               >
                 {sunsetExchanges.map((item) => (
-                  <BankingCard key={item.id} item={item} locale={locale} />
+                  <BankingCard key={item.id} item={item} locale={locale} distanceKmValue={distances?.get(item.id)} />
                 ))}
               </div>
             </div>
@@ -441,7 +489,7 @@ export function BankingDirectory({ locale }: BankingDirectoryProps) {
                 }}
               >
                 {khemAtms.map((atm) => (
-                  <BankingCard key={atm.id} item={atm} locale={locale} />
+                  <BankingCard key={atm.id} item={atm} locale={locale} distanceKmValue={distances?.get(atm.id)} />
                 ))}
               </div>
             </div>
@@ -471,7 +519,7 @@ export function BankingDirectory({ locale }: BankingDirectoryProps) {
                 }}
               >
                 {khemExchanges.map((item) => (
-                  <BankingCard key={item.id} item={item} locale={locale} />
+                  <BankingCard key={item.id} item={item} locale={locale} distanceKmValue={distances?.get(item.id)} />
                 ))}
               </div>
             </div>
