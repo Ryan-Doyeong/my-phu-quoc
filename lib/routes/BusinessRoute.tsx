@@ -89,6 +89,7 @@ const DELETED_SLUG_REDIRECTS: Record<string, string> = {
   'sunset-place-4': '/directory/dining',
   'sunset-place-8': '/directory/wellness',
   'the-nice-hotel-phu-quoc-fireworks-ocean-view': '/hotels',
+  'th-luxury-hotel': '/hotels',
 }
 
 export async function generateBusinessMetadata(

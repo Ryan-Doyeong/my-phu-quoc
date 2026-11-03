@@ -545,6 +545,7 @@ export const HIDDEN_BUSINESS_SLUGS = new Set<string>([
   'sunset-place-8',
   'the-ivy-cafe-lounge-phu-quoc',
   'the-nice-hotel-phu-quoc-fireworks-ocean-view',
+  'th-luxury-hotel',
   'triland-hillside',
   'tsunagari-phu-quoc-japanese-matcha-in-the-island',
   'turkish-kitchen',

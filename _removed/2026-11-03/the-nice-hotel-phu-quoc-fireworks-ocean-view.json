@@ -1,0 +1,49 @@
+{
+  "removal_date": "2026-11-03",
+  "removal_reason": "도시 목록 리디렉션",
+  "agoda_audit_result": {
+    "status": "unregistered",
+    "httpStatus": 301,
+    "redirectTarget": "https://www.agoda.com/ko-kr/city/phu-quoc-island-vn.html",
+    "reason": "도시 목록 리디렉션"
+  },
+  "business_registry_data": {
+    "id": "local-sunset-45",
+    "public_name": "The Nice Hotel Phu Quoc - Fireworks & Ocean view",
+    "slug": "the-nice-hotel-phu-quoc-fireworks-ocean-view",
+    "category": "hotels",
+    "subcategory": "boutique_hotel",
+    "google_place_id": "ChIJWyR4R6WVpzERdWiJg-xbMZs",
+    "description_en": "The Nice Hotel Phu Quoc - Fireworks & Ocean view is a boutique hotel located in Sunset Town, Phu Quoc.",
+    "description_ko": "선셋타운 지중해풍 부티크 호텔.",
+    "address": "Sunset Town (Địa Trung Hải, 27 Đ.Positano, Phú Quốc, An Giang 92513, Vietnam",
+    "google_maps_name": "The Nice Hotel Phu Quoc - Fireworks & Ocean view",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJWyR4R6WVpzERdWiJg-xbMZs",
+    "phone": "+84 798 853 999",
+    "website_url": "https://www.agoda.com/ko-kr/the-nice-hotel-phu-quoc-fireworks-ocean-view/hotel/phu-quoc-island-vn.html",
+    "instagram_url": null,
+    "status": "draft",
+    "verification_status": "unverified",
+    "verification_note": "비공개 처리 2026-11-01: 아고다 URL 301 리디렉션(도시목록), 타 숙소(더 룸 호텔)와 별칭 혼선 가능성, 현장 미확인",
+    "google_rating": 4.7,
+    "google_review_count": 50,
+    "gallery_urls": [
+      "/covers-photo/the-nice-hotel-phu-quoc-fireworks-ocean-view-1.webp"
+    ],
+    "tags": [
+      "boutique_hotel",
+      "Sunset Town"
+    ],
+    "_deleted_snippet": "",
+    "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
+    "_deleted_claims": "(해당 없음)",
+    "lat": 10.0308909,
+    "lng": 104.0058689,
+    "media_note": "Image source: http://facebook.com/thenicehotelphuquocvn",
+    "photo_permission": "Official public media (http://facebook.com/thenicehotelphuquocvn)",
+    "agoda_url": "https://www.agoda.com/ko-kr/the-nice-hotel-phu-quoc-fireworks-ocean-view/hotel/phu-quoc-island-vn.html",
+    "is_featured": false,
+    "badges": [],
+    "is_published": false
+  }
+}

@@ -1,7 +1,7 @@
 {
   "_meta": {
     "generated_at": "2026-10-31",
-    "total_hotels": 27,
+    "total_hotels": 42,
     "featured_hotel": "the-room-hotel",
     "source": "Agoda & Google Reviews"
   },
@@ -203,7 +203,7 @@
         "조식 공식 표기 문구(인근 제휴 식당 제공 안내 문구)"
       ],
       "priceRange": "$$",
-      "googleRating": 5.0,
+      "googleRating": 5,
       "googleReviewsCount": 18,
       "tier": "recommended",
       "order": 5,
@@ -5576,7 +5576,7 @@
       "name_ko": "노스카 호텔 선셋타운",
       "name_en": "NOSKA Hotel",
       "star": 3,
-      "rating": 9.0,
+      "rating": 9,
       "reviewsCount": 56,
       "cable_m": 840,
       "address": "Shophouse Ven-06, Sun Premier Village Primavera, Phú Quốc",
@@ -5947,7 +5947,7 @@
         }
       ],
       "priceRange": "$",
-      "googleRating": 4.0,
+      "googleRating": 4,
       "googlePlaceId": "ChIJz_xV0ceVpzERL_Q5j7K_c4E",
       "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJz_xV0ceVpzERL_Q5j7K_c4E",
       "reviewHighlight": "아말피 거리 감성과 산책 접근성",
@@ -5966,7 +5966,7 @@
       "name_ko": "JS 호텔 푸꾸옥 선셋타운",
       "name_en": "JS Hotel Phu Quoc Sunset Town",
       "star": 3,
-      "rating": 9.0,
+      "rating": 9,
       "reviewsCount": 38,
       "cable_m": 980,
       "address": "39 Đ. Amalfi, Phú Quốc",
@@ -6024,6 +6024,416 @@
       "reviewQuote": {
         "text": "직원분들이 매우 친절하고 방이 깔끔해서 편히 쉬었습니다.",
         "source": "Google 리뷰"
+      }
+    },
+    {
+      "slug": "merci-hotel-sunset-town-phu-quoc",
+      "name_ko": "MERCI HOTEL SUNSET TOWN PHU QUOC",
+      "name_en": "MERCI HOTEL SUNSET TOWN PHU QUOC",
+      "displayName": "MERCI HOTEL SUNSET TOWN PHU QUOC",
+      "star": 3,
+      "officialStar": 3,
+      "area": "sunset-town",
+      "tier": "standard",
+      "order": 34,
+      "rating": 8,
+      "reviewsCount": 381,
+      "address": "167 Đường MILAN, Sunset Town, Phú Quốc, An Giang, Vietnam",
+      "summary": "MERCI HOTEL SUNSET TOWN PHU QUOC은(는) 선셋타운에 위치한 숙소입니다.",
+      "isAiGeneratedIntro": false,
+      "coreFacilities": [
+        "무료 Wi-Fi",
+        "에어컨"
+      ],
+      "photos": [
+        "/images/hotels/merci-hotel-sunset-town-phu-quoc/photo_01.jpg",
+        "/images/hotels/merci-hotel-sunset-town-phu-quoc/photo_02.jpg",
+        "/images/hotels/merci-hotel-sunset-town-phu-quoc/photo_03.jpg",
+        "/images/hotels/merci-hotel-sunset-town-phu-quoc/photo_04.jpg"
+      ],
+      "agodaUrl": "https://www.agoda.com/ko-kr/chu-i-can-h-merci-hotel-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJh1FRPgCVpzERb673NoY0a2k",
+      "googlePlaceId": "ChIJh1FRPgCVpzERb673NoY0a2k",
+      "googleRating": 3.6,
+      "googleReviewsCount": null,
+      "unverified": [
+        "아고다 11/16 1박 시작가 (미확인 -> 가격 배지 숨김)",
+        "케이블카 도보 실측 거리 (미확인 -> 거리 숨김)",
+        "객실별 세부 편의시설 및 사진"
+      ],
+      "cable_m": 530,
+      "subRatings": {
+        "cleanliness": 8.2,
+        "service": 7.9,
+        "location": 8.8,
+        "facilities": 7.9,
+        "value": 8.6
+      }
+    },
+    {
+      "slug": "blue-hotel-sunset-town-phu-quoc",
+      "name_ko": "Blue Hotel Sunset Town Phu Quoc",
+      "name_en": "Blue Hotel Sunset Town Phu Quoc",
+      "displayName": "Blue Hotel Sunset Town Phu Quoc",
+      "star": 3,
+      "officialStar": 3,
+      "area": "sunset-town",
+      "tier": "standard",
+      "order": 35,
+      "rating": 10,
+      "reviewsCount": 1,
+      "address": "A118 Đ. Amalfi, sunset town, Phú Quốc, An Giang 92513, Vietnam",
+      "summary": "Blue Hotel Sunset Town Phu Quoc은(는) 선셋타운에 위치한 숙소입니다.",
+      "isAiGeneratedIntro": false,
+      "coreFacilities": [
+        "무료 Wi-Fi",
+        "에어컨"
+      ],
+      "photos": [
+        "/images/hotels/blue-hotel-sunset-town-phu-quoc/photo_01.jpg",
+        "/images/hotels/blue-hotel-sunset-town-phu-quoc/photo_02.jpg",
+        "/images/hotels/blue-hotel-sunset-town-phu-quoc/photo_03.jpg",
+        "/images/hotels/blue-hotel-sunset-town-phu-quoc/photo_04.jpg",
+        "/images/hotels/blue-hotel-sunset-town-phu-quoc/photo_05.jpg",
+        "/images/hotels/blue-hotel-sunset-town-phu-quoc/photo_06.jpg"
+      ],
+      "agodaUrl": "https://www.agoda.com/ko-kr/blue-hotel-spa-phu-quoc/hotel/phu-quoc-island-vn.html",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJkxnyzB-VpzERiqEaw7e2MHA",
+      "googlePlaceId": "ChIJkxnyzB-VpzERiqEaw7e2MHA",
+      "googleRating": 5,
+      "googleReviewsCount": null,
+      "unverified": [
+        "아고다 11/16 1박 시작가 (미확인 -> 가격 배지 숨김)",
+        "케이블카 도보 실측 거리 (미확인 -> 거리 숨김)",
+        "객실별 세부 편의시설 및 사진"
+      ],
+      "cable_m": 960,
+      "subRatings": {
+        "cleanliness": 10,
+        "service": 10,
+        "location": 10,
+        "facilities": 10,
+        "value": 10
+      }
+    },
+    {
+      "slug": "the-fern-phu-quoc-hotel-sunset-town",
+      "name_ko": "The Fern Phu Quoc Hotel Sunset Town",
+      "name_en": "The Fern Phu Quoc Hotel Sunset Town",
+      "displayName": "The Fern Phu Quoc Hotel Sunset Town",
+      "star": 3,
+      "officialStar": 3,
+      "area": "sunset-town",
+      "tier": "standard",
+      "order": 36,
+      "rating": 7,
+      "reviewsCount": 155,
+      "address": "51 Đ. Amalfi, Phú Quốc, An Giang 92500, Vietnam",
+      "summary": "The Fern Phu Quoc Hotel Sunset Town은(는) 선셋타운에 위치한 숙소입니다.",
+      "isAiGeneratedIntro": false,
+      "coreFacilities": [
+        "무료 Wi-Fi",
+        "에어컨"
+      ],
+      "photos": [
+        "/images/hotels/the-fern-phu-quoc-hotel-sunset-town/photo_01.jpg",
+        "/images/hotels/the-fern-phu-quoc-hotel-sunset-town/photo_02.jpg",
+        "/images/hotels/the-fern-phu-quoc-hotel-sunset-town/photo_03.jpg",
+        "/images/hotels/the-fern-phu-quoc-hotel-sunset-town/photo_04.jpg",
+        "/images/hotels/the-fern-phu-quoc-hotel-sunset-town/photo_05.jpg",
+        "/images/hotels/the-fern-phu-quoc-hotel-sunset-town/photo_06.jpg"
+      ],
+      "agodaUrl": "https://www.agoda.com/ko-kr/the-fern-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJk3IxcACVpzERP5hIbpsfIUI",
+      "googlePlaceId": "ChIJk3IxcACVpzERP5hIbpsfIUI",
+      "googleRating": 3.5,
+      "googleReviewsCount": null,
+      "unverified": [
+        "아고다 11/16 1박 시작가 (미확인 -> 가격 배지 숨김)",
+        "케이블카 도보 실측 거리 (미확인 -> 거리 숨김)",
+        "객실별 세부 편의시설 및 사진"
+      ],
+      "cable_m": 520,
+      "subRatings": {
+        "cleanliness": 6.4,
+        "service": 6.7,
+        "location": 8.2,
+        "facilities": 6.7,
+        "value": 7.2
+      }
+    },
+    {
+      "slug": "dido-carthage-apartment-sunset-town-phu-quoc-island",
+      "name_ko": "Dido Carthage Apartment Sunset Town, Phu Quoc Island",
+      "name_en": "Dido Carthage Apartment Sunset Town, Phu Quoc Island",
+      "displayName": "Dido Carthage Apartment Sunset Town, Phu Quoc Island",
+      "star": 5,
+      "officialStar": 5,
+      "area": "sunset-town",
+      "tier": "standard",
+      "order": 37,
+      "rating": 7.8,
+      "reviewsCount": 101,
+      "address": "Milan, Phú Quốc, An Giang 91000, Vietnam",
+      "summary": "Dido Carthage Apartment Sunset Town, Phu Quoc Island은(는) 선셋타운에 위치한 숙소입니다.",
+      "isAiGeneratedIntro": false,
+      "coreFacilities": [
+        "무료 Wi-Fi",
+        "에어컨"
+      ],
+      "photos": [
+        "/images/hotels/dido-carthage-apartment-sunset-town-phu-quoc-island/photo_01.jpg",
+        "/images/hotels/dido-carthage-apartment-sunset-town-phu-quoc-island/photo_02.jpg",
+        "/images/hotels/dido-carthage-apartment-sunset-town-phu-quoc-island/photo_03.jpg",
+        "/images/hotels/dido-carthage-apartment-sunset-town-phu-quoc-island/photo_04.jpg",
+        "/images/hotels/dido-carthage-apartment-sunset-town-phu-quoc-island/photo_05.jpg"
+      ],
+      "agodaUrl": "https://www.agoda.com/ko-kr/dido-carthage-aparment-sunset-town/hotel/phu-quoc-island-vn.html",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJcWEuF12XpzERcz_lK7OYDlw",
+      "googlePlaceId": "ChIJcWEuF12XpzERcz_lK7OYDlw",
+      "googleRating": 2.3,
+      "googleReviewsCount": null,
+      "unverified": [
+        "아고다 11/16 1박 시작가 (미확인 -> 가격 배지 숨김)",
+        "케이블카 도보 실측 거리 (미확인 -> 거리 숨김)",
+        "객실별 세부 편의시설 및 사진"
+      ],
+      "cable_m": 150,
+      "subRatings": {
+        "cleanliness": 8.4,
+        "service": 8.4,
+        "location": 9.1,
+        "facilities": 8.4,
+        "value": 7.9
+      }
+    },
+    {
+      "slug": "crystal-apartment-hillside-phu-quoc-sunset-town-firework",
+      "name_ko": "Crystal Apartment Hillside Phu Quoc - Sunset Town & Firework",
+      "name_en": "Crystal Apartment Hillside Phu Quoc - Sunset Town & Firework",
+      "displayName": "Crystal Apartment Hillside Phu Quoc - Sunset Town & Firework",
+      "star": 4,
+      "officialStar": 4,
+      "area": "sunset-town",
+      "tier": "standard",
+      "order": 38,
+      "rating": 8,
+      "reviewsCount": 196,
+      "address": "Hillside Residence, Khu pho 6 An Thoi (TH1, Sungrand City, Phú Quốc, An Giang 92513, Vietnam",
+      "summary": "Crystal Apartment Hillside Phu Quoc - Sunset Town & Firework은(는) 선셋타운에 위치한 숙소입니다.",
+      "isAiGeneratedIntro": false,
+      "coreFacilities": [
+        "무료 Wi-Fi",
+        "에어컨"
+      ],
+      "photos": [
+        "/images/hotels/crystal-apartment-hillside-phu-quoc-sunset-town-firework/photo_01.jpg",
+        "/images/hotels/crystal-apartment-hillside-phu-quoc-sunset-town-firework/photo_02.jpg",
+        "/images/hotels/crystal-apartment-hillside-phu-quoc-sunset-town-firework/photo_03.jpg",
+        "/images/hotels/crystal-apartment-hillside-phu-quoc-sunset-town-firework/photo_04.jpg",
+        "/images/hotels/crystal-apartment-hillside-phu-quoc-sunset-town-firework/photo_05.jpg",
+        "/images/hotels/crystal-apartment-hillside-phu-quoc-sunset-town-firework/photo_06.jpg"
+      ],
+      "agodaUrl": "https://www.agoda.com/ko-kr/crystal-apartment-hillside-phu-quoc/hotel/phu-quoc-island-vn.html",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ320mYwCXpzER-9Vv3cMrOvk",
+      "googlePlaceId": "ChIJ320mYwCXpzER-9Vv3cMrOvk",
+      "googleRating": 2.6,
+      "googleReviewsCount": null,
+      "unverified": [
+        "아고다 11/16 1박 시작가 (미확인 -> 가격 배지 숨김)",
+        "케이블카 도보 실측 거리 (미확인 -> 거리 숨김)",
+        "객실별 세부 편의시설 및 사진"
+      ],
+      "cable_m": 260,
+      "subRatings": {
+        "cleanliness": 8,
+        "service": 8.3,
+        "location": 8.9,
+        "facilities": 8.3,
+        "value": 8.1
+      }
+    },
+    {
+      "slug": "rosie-hillside-phu-quoc-apartment",
+      "name_ko": "Rosie Hillside Phu Quoc apartment",
+      "name_en": "Rosie Hillside Phu Quoc apartment",
+      "displayName": "Rosie Hillside Phu Quoc apartment",
+      "star": 5,
+      "officialStar": 5,
+      "area": "sunset-town",
+      "tier": "standard",
+      "order": 39,
+      "rating": 8.6,
+      "reviewsCount": 2822,
+      "address": "the Hill, Hillside Residence, Đường Burano, Sunset town, Phú Quốc, An Giang 920000, Vietnam",
+      "summary": "Rosie Hillside Phu Quoc apartment은(는) 선셋타운에 위치한 숙소입니다.",
+      "isAiGeneratedIntro": false,
+      "coreFacilities": [
+        "무료 Wi-Fi",
+        "에어컨"
+      ],
+      "photos": [
+        "/images/hotels/rosie-hillside-phu-quoc-apartment/photo_01.jpg",
+        "/images/hotels/rosie-hillside-phu-quoc-apartment/photo_02.jpg",
+        "/images/hotels/rosie-hillside-phu-quoc-apartment/photo_03.jpg",
+        "/images/hotels/rosie-hillside-phu-quoc-apartment/photo_04.jpg",
+        "/images/hotels/rosie-hillside-phu-quoc-apartment/photo_05.jpg",
+        "/images/hotels/rosie-hillside-phu-quoc-apartment/photo_06.jpg"
+      ],
+      "agodaUrl": "https://www.agoda.com/ko-kr/rosie-amie-hillside-luxury-phu-quoc-apartment/hotel/phu-quoc-island-vn.html",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJHdlM6--XpzERU4FcoKO7V3k",
+      "googlePlaceId": "ChIJHdlM6--XpzERU4FcoKO7V3k",
+      "googleRating": 4.6,
+      "googleReviewsCount": null,
+      "unverified": [
+        "아고다 11/16 1박 시작가 (미확인 -> 가격 배지 숨김)",
+        "케이블카 도보 실측 거리 (미확인 -> 거리 숨김)",
+        "객실별 세부 편의시설 및 사진"
+      ],
+      "cable_m": null,
+      "subRatings": {
+        "cleanliness": 8.6,
+        "service": 8.6,
+        "location": 9.2,
+        "facilities": 8.6,
+        "value": 8.9
+      }
+    },
+    {
+      "slug": "sunset-home-apartment-phu-quoc",
+      "name_ko": "Sunset Home - Apartment Phu Quoc",
+      "name_en": "Sunset Home - Apartment Phu Quoc",
+      "displayName": "Sunset Home - Apartment Phu Quoc",
+      "star": 5,
+      "officialStar": 5,
+      "area": "sunset-town",
+      "tier": "standard",
+      "order": 40,
+      "rating": 8.7,
+      "reviewsCount": 7,
+      "address": "Burano, Phú Quốc, An Giang 92513, Vietnam",
+      "summary": "Sunset Home - Apartment Phu Quoc은(는) 선셋타운에 위치한 숙소입니다.",
+      "isAiGeneratedIntro": false,
+      "coreFacilities": [
+        "무료 Wi-Fi",
+        "에어컨"
+      ],
+      "photos": [
+        "/images/hotels/sunset-home-apartment-phu-quoc/photo_01.jpg",
+        "/images/hotels/sunset-home-apartment-phu-quoc/photo_02.jpg",
+        "/images/hotels/sunset-home-apartment-phu-quoc/photo_03.jpg",
+        "/images/hotels/sunset-home-apartment-phu-quoc/photo_04.jpg",
+        "/images/hotels/sunset-home-apartment-phu-quoc/photo_05.jpg",
+        "/images/hotels/sunset-home-apartment-phu-quoc/photo_06.jpg"
+      ],
+      "agodaUrl": "https://www.agoda.com/ko-kr/sunset-home-with-sea-view-phu-qu-c/hotel/phu-quoc-island-vn.html",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJRReqm0iXpzERKSxB7jzof78",
+      "googlePlaceId": "ChIJRReqm0iXpzERKSxB7jzof78",
+      "googleRating": 4.9,
+      "googleReviewsCount": null,
+      "unverified": [
+        "아고다 11/16 1박 시작가 (미확인 -> 가격 배지 숨김)",
+        "케이블카 도보 실측 거리 (미확인 -> 거리 숨김)",
+        "객실별 세부 편의시설 및 사진"
+      ],
+      "cable_m": 150,
+      "subRatings": {
+        "cleanliness": 9.6,
+        "service": 9.2,
+        "location": 10,
+        "facilities": 9.2,
+        "value": 10
+      }
+    },
+    {
+      "slug": "the-juliet-a-boutique-hotel-coffee-ama-71",
+      "name_ko": "The Juliet A Boutique Hotel & Coffee - Ama 71",
+      "name_en": "The Juliet A Boutique Hotel & Coffee - Ama 71",
+      "displayName": "The Juliet A Boutique Hotel & Coffee - Ama 71",
+      "star": 3,
+      "officialStar": 3,
+      "area": "sunset-town",
+      "tier": "standard",
+      "order": 41,
+      "rating": 8.5,
+      "reviewsCount": 124,
+      "address": "Ama71, Sunset Town, Phú Quốc, An Giang 91000, Vietnam",
+      "summary": "The Juliet A Boutique Hotel & Coffee - Ama 71은(는) 선셋타운에 위치한 숙소입니다.",
+      "isAiGeneratedIntro": false,
+      "coreFacilities": [
+        "무료 Wi-Fi",
+        "에어컨"
+      ],
+      "photos": [
+        "/images/hotels/the-juliet-a-boutique-hotel-coffee-ama-71/photo_01.jpg",
+        "/images/hotels/the-juliet-a-boutique-hotel-coffee-ama-71/photo_02.jpg",
+        "/images/hotels/the-juliet-a-boutique-hotel-coffee-ama-71/photo_03.jpg",
+        "/images/hotels/the-juliet-a-boutique-hotel-coffee-ama-71/photo_04.jpg",
+        "/images/hotels/the-juliet-a-boutique-hotel-coffee-ama-71/photo_05.jpg"
+      ],
+      "agodaUrl": "https://www.agoda.com/ko-kr/juliet-s-boutique-hotel-h40212970/hotel/phu-quoc-island-vn.html",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ1yTVrpyVpzER3zYlS4ZhGqA",
+      "googlePlaceId": "ChIJ1yTVrpyVpzER3zYlS4ZhGqA",
+      "googleRating": 4.9,
+      "googleReviewsCount": null,
+      "unverified": [
+        "아고다 11/16 1박 시작가 (미확인 -> 가격 배지 숨김)",
+        "케이블카 도보 실측 거리 (미확인 -> 거리 숨김)",
+        "객실별 세부 편의시설 및 사진"
+      ],
+      "cable_m": 630,
+      "subRatings": {
+        "cleanliness": 8.7,
+        "service": 8.8,
+        "location": 8.6,
+        "facilities": 8,
+        "value": 8.4
+      }
+    },
+    {
+      "slug": "eirlys-home-apartment-phu-quoc-firework-ocean-view",
+      "name_ko": "Eirlys Home Apartment Phu Quoc - Firework & Ocean View",
+      "name_en": "Eirlys Home Apartment Phu Quoc - Firework & Ocean View",
+      "displayName": "Eirlys Home Apartment Phu Quoc - Firework & Ocean View",
+      "star": 3,
+      "officialStar": 3,
+      "area": "sunset-town",
+      "tier": "standard",
+      "order": 42,
+      "rating": 8.8,
+      "reviewsCount": 202,
+      "address": "Căn hộ Hillside, Sunset Town Khu căn hộ Sun Grand City Hillside Residence, khu phố 6, Phú Quốc, An Giang 92500, Vietnam",
+      "summary": "Eirlys Home Apartment Phu Quoc - Firework & Ocean View은(는) 선셋타운에 위치한 숙소입니다.",
+      "isAiGeneratedIntro": false,
+      "coreFacilities": [
+        "무료 Wi-Fi",
+        "에어컨"
+      ],
+      "photos": [
+        "/images/hotels/eirlys-home-apartment-phu-quoc-firework-ocean-view/photo_01.jpg",
+        "/images/hotels/eirlys-home-apartment-phu-quoc-firework-ocean-view/photo_02.jpg",
+        "/images/hotels/eirlys-home-apartment-phu-quoc-firework-ocean-view/photo_03.jpg",
+        "/images/hotels/eirlys-home-apartment-phu-quoc-firework-ocean-view/photo_04.jpg",
+        "/images/hotels/eirlys-home-apartment-phu-quoc-firework-ocean-view/photo_05.jpg",
+        "/images/hotels/eirlys-home-apartment-phu-quoc-firework-ocean-view/photo_06.jpg"
+      ],
+      "agodaUrl": "https://www.agoda.com/ko-kr/eirlys-home-h48118274/hotel/phu-quoc-island-vn.html",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJFxI3_P-XpzERuMb9xcsPfq0",
+      "googlePlaceId": "ChIJFxI3_P-XpzERuMb9xcsPfq0",
+      "googleRating": 4.6,
+      "googleReviewsCount": null,
+      "unverified": [
+        "아고다 11/16 1박 시작가 (미확인 -> 가격 배지 숨김)",
+        "케이블카 도보 실측 거리 (미확인 -> 거리 숨김)",
+        "객실별 세부 편의시설 및 사진"
+      ],
+      "cable_m": null,
+      "subRatings": {
+        "cleanliness": 9,
+        "service": 9,
+        "location": 9.5,
+        "facilities": 9,
+        "value": 9.2
       }
     }
   ]
