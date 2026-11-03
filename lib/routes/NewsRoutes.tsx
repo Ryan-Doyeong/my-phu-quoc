@@ -6,6 +6,8 @@ import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { ArticleBody } from '@/components/ArticleBody'
 import { EventsBoard } from '@/components/EventsBoard'
+import { ContentCategoryTabs } from '@/components/ContentCategoryTabs'
+import { type ContentCategory } from '@/lib/contentCategories'
 import { imageUrl } from '@/lib/imageUrl'
 import {
   PUBLISHED_EVENTS,
@@ -48,22 +50,26 @@ export async function generateNewsListMetadata(locale: Locale = 'en'): Promise<M
   }
 }
 
-export async function renderNewsListRoute(locale: Locale = 'en') {
+export async function renderNewsListRoute(locale: Locale = 'en', category: Exclude<ContentCategory, 'event'> = 'news') {
   const dict = getDictionary(locale)
   const supabase = createPublicClient()
-  const { data } = await supabase
-    .from('stories')
-    .select('*')
-    .eq('status', 'published')
-    .neq('content_type', 'event') // 이벤트는 /events 게시판에서만 보여준다
-    .order('published_at', { ascending: false })
-    .limit(60)
+  // 카테고리: guide → 가이드만, news → 이벤트·가이드를 제외한 나머지. 이벤트는 /events 게시판에서만 보여준다
+  let query = supabase.from('stories').select('*').eq('status', 'published')
+  query =
+    category === 'guide'
+      ? query.eq('content_type', 'guide')
+      : query.not('content_type', 'in', '(event,guide)')
+  const { data } = await query.order('published_at', { ascending: false }).limit(60)
 
   const dbSlugs = new Set((data || []).map((s: any) => s.slug))
+  const inCategory = (t: string | undefined) =>
+    category === 'guide' ? t === 'guide' : t !== 'event' && t !== 'guide'
   const inRepoStories = PUBLISHED_EVENTS.filter(
-    (e) => e.status === 'published' && e.content_type !== 'event' && !dbSlugs.has(e.slug)
+    (e) => e.status === 'published' && inCategory(e.content_type) && !dbSlugs.has(e.slug)
   )
-  const allRaw = [...inRepoStories, ...(data || [])]
+  const allRaw = [...inRepoStories, ...(data || [])].sort(
+    (a: any, b: any) => +new Date(b.published_at || 0) - +new Date(a.published_at || 0)
+  )
   const items = allRaw.map((raw) => localizeStory(raw, locale))
 
   return (
@@ -87,6 +93,7 @@ export async function renderNewsListRoute(locale: Locale = 'en') {
           <p className="lead">{dict.news.lead}</p>
         </div>
       </section>
+      <ContentCategoryTabs locale={locale} active={category} />
       <section className="shell newsListing">
         <div className="newsGridOnline">
           {items.map((x, i) => (
@@ -609,6 +616,7 @@ export async function renderEventsRoute(locale: Locale = 'en') {
           <p className="lead">{dict.news.eventsLead}</p>
         </div>
       </section>
+      <ContentCategoryTabs locale={locale} active="event" />
       <EventsBoard items={items} locale={locale} />
     </main>
   )

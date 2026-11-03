@@ -385,7 +385,7 @@
   align-items: center;
   gap: 8px;
   margin: 0 0 16px;
-  font-family: Georgia, serif;
+  font-family: var(--font-pretendard);
   font-size: 20px;
   font-weight: 700;
   display: flex;
@@ -605,7 +605,7 @@
 .businessMenuCard h2,
 .foodGuideCard h2 {
   margin-top: 6px;
-  font-family: Georgia, serif;
+  font-family: var(--font-pretendard);
   font-size: 28px;
   letter-spacing: -0.02em;
   color: #1a251e;
@@ -947,7 +947,7 @@
 
 .foodGuideSection > h3 {
   margin: 0 0 14px;
-  font-family: Georgia, serif;
+  font-family: var(--font-pretendard);
   font-size: 24px;
   color: #1e2d24;
 }
@@ -1026,7 +1026,7 @@
 }
 
 .reviewAnalysisCard h2 {
-  font-family: Georgia, serif;
+  font-family: var(--font-pretendard);
   font-size: 26px;
   margin: 6px 0 10px;
   color: #1a251e;
@@ -4169,3 +4169,15 @@
 .yachtSub { font-size: 13px; font-weight: 700; color: #111; margin: 12px 0 4px; }
 .yachtGroup { font-size: 13px; color: #0B6BCB; font-weight: 600; margin: 8px 0 2px; }
 .yachtNotice { font-size: 13px; color: #111; background: #F8FAFC; border: 1px solid #E5E7EB; border-radius: 8px; padding: 10px 12px; margin: 0 0 16px; line-height: 1.5; }
+
+/* 선셋타운 가이드 맵 버튼: 연한 배경 + 진한 글자 (기본 흰 글자 !important 덮어쓰기) */
+.practicalMapBtn.practicalMapBtnGuide {
+  background: #F1F8F7;
+  border: 1px solid #C6E2DE;
+  color: #0B6B79 !important;
+  box-shadow: none;
+}
+.practicalMapBtn.practicalMapBtnGuide:hover {
+  background: #E3F1EF;
+  opacity: 1;
+}

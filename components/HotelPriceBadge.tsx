@@ -1,5 +1,48 @@
 import React from 'react'
-import { HotelPriceRange, getPriceTierLevel } from '@/lib/hotels'
+import { HotelPriceRange, getPriceTierLevel, getPriceTierBand } from '@/lib/hotels'
+import { getHotelCategoryLabels } from '@/lib/i18n/hotelCategoryLabels'
+import type { Locale } from '@/lib/i18n/config'
+
+export interface HotelPriceRangeTextProps {
+  priceRange?: HotelPriceRange | string | null
+  locale?: Locale
+  /** 요금대가 없을 때 '요금 미확인' 표시 여부 (기본 true) */
+  showUnverified?: boolean
+  className?: string
+}
+
+const fmtVnd = (v: number) => `₫${v.toLocaleString('en-US')}`
+
+/**
+ * 아고다 5단계 요금대 → 실제 1박 가격 범위 텍스트.
+ * 예) "1박 약 $49~69 · ₫1,250,000~1,750,000" / "1박 약 $39 이하" / "1박 약 $83 이상"
+ */
+export function HotelPriceRangeText({ priceRange, locale = 'ko', showUnverified = true, className = 'cardPriceRange' }: HotelPriceRangeTextProps) {
+  const labels = getHotelCategoryLabels(locale)
+  const band = getPriceTierBand(priceRange)
+  if (!band) {
+    if (!showUnverified) return null
+    return <span className={`${className} cardPriceRangeUnverified`}>💲 {labels.priceUnverified}</span>
+  }
+  let usd: string
+  let vnd: string
+  if (band.minVnd == null && band.maxVnd != null) {
+    usd = `$${band.maxUsd} ${labels.orLess}`
+    vnd = `${fmtVnd(band.maxVnd)} ${labels.orLess}`
+  } else if (band.maxVnd == null && band.minVnd != null) {
+    usd = `$${band.minUsd} ${labels.orMore}`
+    vnd = `${fmtVnd(band.minVnd)} ${labels.orMore}`
+  } else {
+    usd = `$${band.minUsd}~${band.maxUsd}`
+    vnd = `${fmtVnd(band.minVnd as number)}~${fmtVnd(band.maxVnd as number)}`
+  }
+  return (
+    <span className={className} title={labels.priceNote}>
+      <span className="cardPriceRangeMain">💲 {labels.perNight} {usd}</span>
+      <span className="cardPriceRangeSub">{vnd}</span>
+    </span>
+  )
+}
 
 export interface HotelPriceBadgeProps {
   priceRange?: HotelPriceRange | string | null

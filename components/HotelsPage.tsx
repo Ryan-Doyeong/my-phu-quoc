@@ -7,13 +7,14 @@ import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
-import { SiteFooter } from '@/components/SiteFooter'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
 import { categoryLabel } from '@/lib/directory'
 import { HOTEL_TRANSLATIONS, localizeHotel, type HotelUiDictionary } from '@/lib/i18n/hotelTranslations'
-import type { HotelItem, HotelArea } from '@/lib/hotels'
-import { HotelPriceBadge } from '@/components/HotelPriceBadge'
+import type { HotelItem, HotelArea, HotelCategory } from '@/lib/hotels'
+import { HOTEL_CATEGORY_ORDER, getHotelPriceCategory, getPriceTierLevel, isRecommendedHotel } from '@/lib/hotels'
+import { getHotelCategoryLabels } from '@/lib/i18n/hotelCategoryLabels'
+import { HotelPriceBadge, HotelPriceRangeText } from '@/components/HotelPriceBadge'
 import '@/app/hotels/hotels.css'
 
 interface HotelsPageProps {
@@ -114,10 +115,6 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
           <div className="cardStarBadge">
             {t.fiveStar}
           </div>
-        ) : hotel.slug === 'the-room-hotel' || hotel.tier === 'recommended' ? (
-          <div className="cardStarBadge">
-            {t.boutiqueHotel}
-          </div>
         ) : null}
         <a
           href={hotel.agodaUrl}
@@ -163,6 +160,9 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
         {/* 호텔명 (한글 / 영문) */}
         <h3 className="cardTitle">{hotel.displayName || hotel.name_ko}</h3>
         {locale === 'ko' && <div className="cardTitleEn">{hotel.name_en}</div>}
+
+        {/* 아고다 1박 요금 범위 (선셋타운: 미확인 시 '요금 미확인', 켐 비치: 요금대 있을 때만) */}
+        <HotelPriceRangeText priceRange={hotel.priceRange} locale={locale} showUnverified={!isKhem} />
 
         {/* 위치·전망 핵심 한 줄 (데이터 있는 호텔만 노출) */}
         {hotel.insight && (hotel.insight.location || hotel.insight.view) && (
@@ -323,9 +323,6 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                 )}
                 {hotel.tier === 'top' && (
                   <span className="topGradeBadge">🏆 {t.badgeTopGrade}</span>
-                )}
-                {(hotel.slug === 'the-room-hotel' || hotel.tier === 'recommended') && (
-                  <span className="cardStarBadge">{t.boutiqueHotel}</span>
                 )}
               </>
             )}
@@ -846,36 +843,42 @@ function HotelsPageInner({ hotels: rawHotels, locale = 'en', initialArea }: Hote
   const areaParam = searchParams.get('area')
   const hotelQuery = searchParams.get('hotel')
 
-  // Initial area from prop, URL or default to 'sunset-town'
-  const [activeArea, setActiveArea] = useState<HotelArea>(
-    initialArea || (areaParam === 'khem-beach' ? 'khem-beach' : 'sunset-town')
-  )
+  const catLabels = getHotelCategoryLabels(locale)
 
-  // Sunset Town Filter & Sort state
-  const [activeRatingST, setActiveRatingST] = useState<'ALL' | 9.0 | 8.5>('ALL')
-  const [activeSortST, setActiveSortST] = useState<'nearest' | 'rating' | 'reviews'>('nearest')
+  // Initial category from prop, URL (?cat= / legacy ?area=khem-beach) or default 'recommended'
+  const catParam = searchParams.get('cat')
+  const resolveInitialCategory = (): HotelCategory => {
+    if (catParam && (HOTEL_CATEGORY_ORDER as string[]).includes(catParam)) return catParam as HotelCategory
+    if (initialArea === 'khem-beach' || areaParam === 'khem-beach') return 'khem-beach'
+    return 'recommended'
+  }
+  const [activeCategory, setActiveCategory] = useState<HotelCategory>(resolveInitialCategory)
+  const activeArea: HotelArea = activeCategory === 'khem-beach' ? 'khem-beach' : 'sunset-town'
 
-  // Khem Beach Filter & Sort state
-  const [activeRatingKB, setActiveRatingKB] = useState<'ALL' | 9.0 | 8.5>('ALL')
-  const [activeSortKB, setActiveSortKB] = useState<'grade' | 'rating' | 'reviews'>('grade')
+  // Filter & Sort state (가격 카테고리·켐 비치 공통)
+  const [activeRating, setActiveRating] = useState<'ALL' | 9.0 | 8.5>('ALL')
+  const [activeSort, setActiveSort] = useState<'default' | 'priceHigh' | 'priceLow' | 'rating' | 'reviews' | 'nearest'>('default')
 
   const [selectedHotel, setSelectedHotel] = useState<HotelItem | null>(null)
 
   // Sync state if URL query parameter changes
   useEffect(() => {
-    if (areaParam === 'khem-beach') {
-      setActiveArea('khem-beach')
-    } else if (areaParam === 'sunset-town') {
-      setActiveArea('sunset-town')
+    if (catParam && (HOTEL_CATEGORY_ORDER as string[]).includes(catParam)) {
+      setActiveCategory(catParam as HotelCategory)
+    } else if (areaParam === 'khem-beach') {
+      setActiveCategory('khem-beach')
     }
-  }, [areaParam])
+  }, [catParam, areaParam])
 
-  // Handle area switch with shallow URL update (supports deep linking)
-  const handleAreaChange = (newArea: HotelArea) => {
-    setActiveArea(newArea)
+  // Handle category switch with shallow URL update (supports deep linking)
+  const handleCategoryChange = (cat: HotelCategory) => {
+    setActiveCategory(cat)
+    setActiveRating('ALL')
+    setActiveSort('default')
     if (typeof window !== 'undefined') {
       const url = new URL(window.location.href)
-      url.searchParams.set('area', newArea)
+      url.searchParams.set('cat', cat)
+      url.searchParams.delete('area')
       window.history.pushState({}, '', url.toString())
     }
   }
@@ -886,9 +889,9 @@ function HotelsPageInner({ hotels: rawHotels, locale = 'en', initialArea }: Hote
       const match = hotels.find(h => h.slug === hotelQuery)
       if (match) {
         setSelectedHotel(match)
-        if (match.area && match.area !== activeArea) {
-          setActiveArea(match.area)
-        }
+        if (match.area === 'khem-beach') setActiveCategory('khem-beach')
+        else if (isRecommendedHotel(match)) setActiveCategory('recommended')
+        else setActiveCategory(getHotelPriceCategory(match))
       }
     }
   }, [hotelQuery, hotels])
@@ -901,69 +904,64 @@ function HotelsPageInner({ hotels: rawHotels, locale = 'en', initialArea }: Hote
     }
   }, [activeArea, t])
 
-  // Partition Sunset Town hotels
-  const sunsetHotels = useMemo(() => {
-    return hotels.filter(h => h.area === 'sunset-town' || !h.area)
-  }, [hotels])
+  // Partition hotels by category
+  const sunsetHotels = useMemo(() => hotels.filter(h => h.area === 'sunset-town' || !h.area), [hotels])
+  const khemHotels = useMemo(() => hotels.filter(h => h.area === 'khem-beach'), [hotels])
 
-  const sunsetTopHotel = useMemo(() => {
-    return sunsetHotels.find(h => h.tier === 'top')
-  }, [sunsetHotels])
-
-  const sunsetRecommendedHotels = useMemo(() => {
-    return sunsetHotels
-      .filter(h => h.tier === 'recommended' || h.isFeatured)
-      .sort((a, b) => (a.order || 99) - (b.order || 99))
-  }, [sunsetHotels])
-
-  const sunsetStandardHotels = useMemo(() => {
-    return sunsetHotels.filter(h => h.tier !== 'top' && h.tier !== 'recommended' && !h.isFeatured)
-  }, [sunsetHotels])
-
-  // Filtered & Sorted Sunset Town Standard Hotels
-  const displaySunsetStandardHotels = useMemo(() => {
-    let list = [...sunsetStandardHotels]
-
-    if (activeRatingST === 9.0) {
-      list = list.filter(h => h.rating >= 9.0)
-    } else if (activeRatingST === 8.5) {
-      list = list.filter(h => h.rating >= 8.5)
+  const hotelsByCategory = useMemo<Record<HotelCategory, HotelItem[]>>(() => {
+    // 추천 호텔: 선셋타운 추천 + 켐 비치 추천(JW 메리어트), order 오름차순 = 규모 큰 호텔부터
+    // 선셋타운 추천 호텔을 먼저(규모순), 켐 비치 추천 리조트(JW 메리어트)는 그 뒤에
+    const recommended = hotels
+      .filter(isRecommendedHotel)
+      .sort((a, b) => {
+        const areaRank = (h: HotelItem) => (h.area === 'khem-beach' ? 1 : 0)
+        return areaRank(a) - areaRank(b) || (a.order || 99) - (b.order || 99)
+      })
+    const luxury: HotelItem[] = []
+    const boutique: HotelItem[] = []
+    const guesthouse: HotelItem[] = []
+    for (const h of sunsetHotels) {
+      const cat = getHotelPriceCategory(h)
+      if (cat === 'luxury') luxury.push(h)
+      else if (cat === 'boutique') boutique.push(h)
+      else guesthouse.push(h)
     }
+    return { recommended, luxury, boutique, guesthouse, 'khem-beach': khemHotels }
+  }, [hotels, sunsetHotels, khemHotels])
 
+  const categoryHotels = hotelsByCategory[activeCategory]
+
+  // Filtered & Sorted list for the active category
+  const displayHotels = useMemo(() => {
+    let list = [...categoryHotels]
+
+    if (activeRating === 9.0) list = list.filter(h => h.rating >= 9.0)
+    else if (activeRating === 8.5) list = list.filter(h => h.rating >= 8.5)
+
+    const priceLevel = (h: HotelItem) => getPriceTierLevel(h.priceRange) || 0
     list.sort((a, b) => {
-      if (activeSortST === 'nearest') return (a.cable_m ?? 99999) - (b.cable_m ?? 99999)
-      if (activeSortST === 'rating') return (b.rating ?? 0) - (a.rating ?? 0)
-      if (activeSortST === 'reviews') return (b.reviewsCount ?? 0) - (a.reviewsCount ?? 0)
-      return 0
+      // 3성급 호텔 탭: 더 룸 호텔(마이 푸꾸옥 추천)을 어떤 정렬에서도 맨 위에 고정
+      if (activeCategory === 'boutique') {
+        const pinA = a.slug === 'the-room-hotel' ? 0 : 1
+        const pinB = b.slug === 'the-room-hotel' ? 0 : 1
+        if (pinA !== pinB) return pinA - pinB
+      }
+      if (activeSort === 'priceHigh') return priceLevel(b) - priceLevel(a) || (b.rating ?? 0) - (a.rating ?? 0)
+      if (activeSort === 'priceLow') return priceLevel(a) - priceLevel(b) || (b.rating ?? 0) - (a.rating ?? 0)
+      if (activeSort === 'rating') return (b.rating ?? 0) - (a.rating ?? 0)
+      if (activeSort === 'reviews') return (b.reviewsCount ?? 0) - (a.reviewsCount ?? 0)
+      if (activeSort === 'nearest') return (a.cable_m ?? 99999) - (b.cable_m ?? 99999)
+      // default
+      if (activeCategory === 'recommended' || activeCategory === 'khem-beach') return categoryHotels.indexOf(a) - categoryHotels.indexOf(b)
+      // 가격 카테고리 기본: 가격 높은순 → 평점순
+      return priceLevel(b) - priceLevel(a) || (b.rating ?? 0) - (a.rating ?? 0)
     })
 
     return list
-  }, [sunsetStandardHotels, activeRatingST, activeSortST])
+  }, [categoryHotels, activeRating, activeSort, activeCategory])
 
-  // Partition Khem Beach hotels
-  const khemHotels = useMemo(() => {
-    return hotels.filter(h => h.area === 'khem-beach')
-  }, [hotels])
-
-  // Filtered & Sorted Khem Beach Hotels
-  const displayKhemHotels = useMemo(() => {
-    let list = [...khemHotels]
-
-    if (activeRatingKB === 9.0) {
-      list = list.filter(h => h.rating >= 9.0)
-    } else if (activeRatingKB === 8.5) {
-      list = list.filter(h => h.rating >= 8.5)
-    }
-
-    list.sort((a, b) => {
-      if (activeSortKB === 'grade') return (a.order || 99) - (b.order || 99)
-      if (activeSortKB === 'rating') return (b.rating ?? 0) - (a.rating ?? 0)
-      if (activeSortKB === 'reviews') return (b.reviewsCount ?? 0) - (a.reviewsCount ?? 0)
-      return 0
-    })
-
-    return list
-  }, [khemHotels, activeRatingKB, activeSortKB])
+  const isSunsetTopHotel = (h: HotelItem) => h.slug === 'la-festa-phu-quoc-curio-collection-by-hilton' || h.tier === 'top'
+  const activeCat = catLabels.categories[activeCategory]
 
   return (
     <div className="hotelsPageWrap">
@@ -1022,237 +1020,143 @@ function HotelsPageInner({ hotels: rawHotels, locale = 'en', initialArea }: Hote
         </div>
       </section>
 
-      {/* Area Selector Tabs (선셋타운 | 켐 비치) */}
-      <div className="areaSelectorWrap">
-        <div className="areaSelectorInner">
-          <button
-            type="button"
-            className={`areaTabBtn ${activeArea === 'sunset-town' ? 'active' : ''}`}
-            onClick={() => handleAreaChange('sunset-town')}
-          >
-            <span className="areaTabIcon">🌅</span>
-            <span className="areaTabName">{t.areaSunsetTown}</span>
-            <span className="areaTabCount">{sunsetHotels.length}</span>
-          </button>
-          <button
-            type="button"
-            className={`areaTabBtn ${activeArea === 'khem-beach' ? 'active' : ''}`}
-            onClick={() => handleAreaChange('khem-beach')}
-          >
-            <span className="areaTabIcon">🏖️</span>
-            <span className="areaTabName">{t.areaKhemBeach}</span>
-            <span className="areaTabCount">{khemHotels.length}</span>
-          </button>
+      {/* Category Selector Tabs (추천 | 특급~4성 | 3성 부티크 | 게스트하우스 | 켐 비치) */}
+      <div className="areaSelectorWrap categorySelectorWrap">
+        <div className="areaSelectorInner categorySelectorInner" role="tablist">
+          {HOTEL_CATEGORY_ORDER.map(cat => {
+            const c = catLabels.categories[cat]
+            return (
+              <button
+                key={cat}
+                type="button"
+                role="tab"
+                aria-selected={activeCategory === cat}
+                className={`areaTabBtn categoryTabBtn ${activeCategory === cat ? 'active' : ''}`}
+                onClick={() => handleCategoryChange(cat)}
+              >
+                <span className="areaTabIcon">{c.icon}</span>
+                <span className="areaTabName">{c.name}</span>
+                <span className="areaTabCount">{hotelsByCategory[cat].length}</span>
+              </button>
+            )
+          })}
         </div>
       </div>
 
       <div className="hotelsContainer">
-        {/* =========================================================================
-            SECTION 1: SUNSET TOWN VIEW
-            ========================================================================= */}
-        {activeArea === 'sunset-town' && (
-          <>
-            {/* ① 선셋타운 최상단: 라 페스타 푸꾸옥 힐튼 (탑 그레이드 + 추천 호텔 + 5성급) */}
-            {sunsetTopHotel && (
-              <div className="sectionBlock topGradeSection">
-                <div className="sectionHeaderRow">
-                  <h2 className="sectionTitle">
-                    🏆 {t.sectionTopGrade}
-                  </h2>
-                </div>
-                <HotelCard
-                  hotel={sunsetTopHotel}
-                  t={t}
-                  locale={locale}
-                  isFeatured={true}
-                  isTopGrade={true}
-                  onOpenModal={setSelectedHotel}
-                />
-              </div>
-            )}
+        <div className={`sectionBlock categorySection category-${activeCategory}`}>
+          <div className="sectionHeaderRow">
+            <h2 className="sectionTitle">
+              {activeCat.icon} {activeCat.name} <span className="sectionCount">({displayHotels.length}{t.countSuffix})</span>
+            </h2>
+          </div>
+          <p className="sectionSubtitle">{activeCat.desc}</p>
 
-            {/* ② 마이 푸꾸옥 추천 호텔 섹션: 더 룸 호텔 */}
-            {sunsetRecommendedHotels.length > 0 && (
-              <div className="sectionBlock recommendedSection">
-                <div className="sectionHeaderRow">
-                  <h2 className="sectionTitle">
-                    👑 {t.sectionRecommended}
-                  </h2>
-                </div>
-                {sunsetRecommendedHotels.map(h => (
-                  <HotelCard
-                    key={h.slug}
-                    hotel={h}
-                    t={t}
-                    locale={locale}
-                    isFeatured={true}
-                    isTopGrade={false}
-                    onOpenModal={setSelectedHotel}
-                  />
-                ))}
-                <ContextCta locale={locale} variant="hotel" />
-              </div>
-            )}
-
-            {/* ③ 일반 호텔 섹션: 25곳 + 필터 및 정렬 */}
-            <div className="sectionBlock standardSection">
-              <div className="sectionHeaderRow">
-                <h2 className="sectionTitle">
-                  {t.sectionStandard} <span className="sectionCount">({displaySunsetStandardHotels.length}{t.countSuffix})</span>
-                </h2>
+          {/* 필터 및 정렬 컨트롤 */}
+          <div className="filterControlsWrap" style={{ margin: '0 0 24px 0' }}>
+            <div className="filterControlsInner">
+              <div className="starFilterGroup">
+                <button
+                  type="button"
+                  className={`filterPill ${activeRating === 'ALL' ? 'active' : ''}`}
+                  onClick={() => setActiveRating('ALL')}
+                >
+                  {t.filterAll} ({categoryHotels.length})
+                </button>
+                <button
+                  type="button"
+                  className={`filterPill ${activeRating === 9.0 ? 'active' : ''}`}
+                  onClick={() => setActiveRating(9.0)}
+                >
+                  ⭐ {t.filterRating9}
+                </button>
+                <button
+                  type="button"
+                  className={`filterPill ${activeRating === 8.5 ? 'active' : ''}`}
+                  onClick={() => setActiveRating(8.5)}
+                >
+                  ⭐ {t.filterRating85}
+                </button>
               </div>
 
-              {/* 필터 및 정렬 컨트롤 (일반 호텔에만 적용) */}
-              <div className="filterControlsWrap" style={{ margin: '0 0 24px 0' }}>
-                <div className="filterControlsInner">
-                  <div className="starFilterGroup">
+              <div className="sortGroup">
+                {activeCategory !== 'khem-beach' && (
+                  <>
                     <button
                       type="button"
-                      className={`filterPill ${activeRatingST === 'ALL' ? 'active' : ''}`}
-                      onClick={() => setActiveRatingST('ALL')}
+                      className={`sortBtn ${activeSort === 'priceHigh' ? 'active' : ''}`}
+                      onClick={() => setActiveSort('priceHigh')}
                     >
-                      {t.filterAll} ({sunsetStandardHotels.length})
+                      💲 {catLabels.sortPrice}
                     </button>
                     <button
                       type="button"
-                      className={`filterPill ${activeRatingST === 9.0 ? 'active' : ''}`}
-                      onClick={() => setActiveRatingST(9.0)}
+                      className={`sortBtn ${activeSort === 'priceLow' ? 'active' : ''}`}
+                      onClick={() => setActiveSort('priceLow')}
                     >
-                      ⭐ {t.filterRating9}
+                      💲 {catLabels.sortPriceLow}
                     </button>
-                    <button
-                      type="button"
-                      className={`filterPill ${activeRatingST === 8.5 ? 'active' : ''}`}
-                      onClick={() => setActiveRatingST(8.5)}
-                    >
-                      ⭐ {t.filterRating85}
-                    </button>
-                  </div>
-
-                  <div className="sortGroup">
-                    <button
-                      type="button"
-                      className={`sortBtn ${activeSortST === 'nearest' ? 'active' : ''}`}
-                      onClick={() => setActiveSortST('nearest')}
-                    >
-                      🚡 {t.sortNearest}
-                    </button>
-                    <button
-                      type="button"
-                      className={`sortBtn ${activeSortST === 'rating' ? 'active' : ''}`}
-                      onClick={() => setActiveSortST('rating')}
-                    >
-                      ⭐ {t.sortRating}
-                    </button>
-                    <button
-                      type="button"
-                      className={`sortBtn ${activeSortST === 'reviews' ? 'active' : ''}`}
-                      onClick={() => setActiveSortST('reviews')}
-                    >
-                      💬 {t.sortReviews}
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              <div className="hotelsGrid">
-                {displaySunsetStandardHotels.map(hotel => (
-                  <HotelCard
-                    key={hotel.slug}
-                    hotel={hotel}
-                    t={t}
-                    locale={locale}
-                    isFeatured={false}
-                    isTopGrade={false}
-                    onOpenModal={setSelectedHotel}
-                  />
-                ))}
-              </div>
-            </div>
-          </>
-        )}
-
-        {/* =========================================================================
-            SECTION 2: KHEM BEACH VIEW (7곳 리조트 & 부티크 호텔)
-            ========================================================================= */}
-        {activeArea === 'khem-beach' && (
-          <div className="sectionBlock khemSection">
-            <div className="sectionHeaderRow">
-              <h2 className="sectionTitle">
-                🏖️ {t.sectionKhemResorts} <span className="sectionCount">({displayKhemHotels.length}{t.countSuffix})</span>
-              </h2>
-            </div>
-            <p className="sectionSubtitle">{t.pageSubtitleKhemBeach}</p>
-
-            {/* 켐 비치 필터 및 정렬 컨트롤 */}
-            <div className="filterControlsWrap" style={{ margin: '0 0 24px 0' }}>
-              <div className="filterControlsInner">
-                <div className="starFilterGroup">
+                  </>
+                )}
+                {activeCategory === 'khem-beach' && (
                   <button
                     type="button"
-                    className={`filterPill ${activeRatingKB === 'ALL' ? 'active' : ''}`}
-                    onClick={() => setActiveRatingKB('ALL')}
-                  >
-                    {t.filterAll} ({khemHotels.length})
-                  </button>
-                  <button
-                    type="button"
-                    className={`filterPill ${activeRatingKB === 9.0 ? 'active' : ''}`}
-                    onClick={() => setActiveRatingKB(9.0)}
-                  >
-                    ⭐ {t.filterRating9}
-                  </button>
-                  <button
-                    type="button"
-                    className={`filterPill ${activeRatingKB === 8.5 ? 'active' : ''}`}
-                    onClick={() => setActiveRatingKB(8.5)}
-                  >
-                    ⭐ {t.filterRating85}
-                  </button>
-                </div>
-
-                <div className="sortGroup">
-                  <button
-                    type="button"
-                    className={`sortBtn ${activeSortKB === 'grade' ? 'active' : ''}`}
-                    onClick={() => setActiveSortKB('grade')}
+                    className={`sortBtn ${activeSort === 'default' ? 'active' : ''}`}
+                    onClick={() => setActiveSort('default')}
                   >
                     🏆 {t.sortResortGrade}
                   </button>
+                )}
+                <button
+                  type="button"
+                  className={`sortBtn ${activeSort === 'rating' ? 'active' : ''}`}
+                  onClick={() => setActiveSort('rating')}
+                >
+                  ⭐ {t.sortRating}
+                </button>
+                <button
+                  type="button"
+                  className={`sortBtn ${activeSort === 'reviews' ? 'active' : ''}`}
+                  onClick={() => setActiveSort('reviews')}
+                >
+                  💬 {t.sortReviews}
+                </button>
+                {activeCategory !== 'khem-beach' && (
                   <button
                     type="button"
-                    className={`sortBtn ${activeSortKB === 'rating' ? 'active' : ''}`}
-                    onClick={() => setActiveSortKB('rating')}
+                    className={`sortBtn ${activeSort === 'nearest' ? 'active' : ''}`}
+                    onClick={() => setActiveSort('nearest')}
                   >
-                    ⭐ {t.sortRating}
+                    🚡 {t.sortNearest}
                   </button>
-                  <button
-                    type="button"
-                    className={`sortBtn ${activeSortKB === 'reviews' ? 'active' : ''}`}
-                    onClick={() => setActiveSortKB('reviews')}
-                  >
-                    💬 {t.sortReviews}
-                  </button>
-                </div>
+                )}
               </div>
             </div>
+          </div>
 
-            <div className="hotelsGrid">
-              {displayKhemHotels.map(hotel => (
+          {/* 2열 그리드 (모바일 1열) */}
+          {displayHotels.length > 0 ? (
+            <div className="hotelsGrid hotelsGridTwoCol">
+              {displayHotels.map(hotel => (
                 <HotelCard
                   key={hotel.slug}
                   hotel={hotel}
                   t={t}
                   locale={locale}
-                  isFeatured={hotel.slug === 'jw-marriott-phu-quoc-emerald-bay' || hotel.tier === 'recommended'}
-                  isTopGrade={false}
+                  isFeatured={isRecommendedHotel(hotel)}
+                  isTopGrade={hotel.area !== 'khem-beach' && isSunsetTopHotel(hotel)}
                   onOpenModal={setSelectedHotel}
                 />
               ))}
             </div>
-          </div>
-        )}
+          ) : (
+            <p className="emptyCategoryNotice">{catLabels.emptyCategory}</p>
+          )}
 
+          {activeCategory !== 'khem-beach' && (
+            <p className="priceNoteLine">{catLabels.priceNote}</p>
+          )}
+        </div>
         <ContextCta locale={locale} variant="hotel" />
 
         {/* Bottom Notice */}
@@ -1271,8 +1175,7 @@ function HotelsPageInner({ hotels: rawHotels, locale = 'en', initialArea }: Hote
         />
       )}
 
-      {/* Site Footer */}
-      <SiteFooter />
+      {/* Site Footer 는 app/layout.tsx 에서 전역 렌더링 — 페이지 중복 렌더링 제거 (2026-11-03) */}
     </div>
   )
 }
