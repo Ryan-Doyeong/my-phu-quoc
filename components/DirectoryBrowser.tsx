@@ -34,6 +34,7 @@ import {
 } from '@/lib/i18n/dictionaries'
 import { getHotelPriceRangeForBusiness, HotelPriceBadge } from '@/lib/hotels'
 import { buildGoogleMapsUrl } from '@/lib/mapsLink'
+import { businessPos, distanceKm, formatDistance, nearbyCopy, type UserPos } from '@/lib/nearbySort'
 
 const MAP_LINK_LABEL: Record<string, string> = {
   ko: '지도 보기 ↗',
@@ -143,7 +144,7 @@ function randomScore(b: Business, seed: string) {
   return hash(`${seed}|${b.id}`)
 }
 
-function BusinessCard({ b, locale }: { b: Business; locale: Locale }) {
+function BusinessCard({ b, locale, distanceKmValue }: { b: Business; locale: Locale; distanceKmValue?: number }) {
   const coverPhoto = getCoverPhoto(b.slug)
   const cardPhotoUrl = b.gallery_urls?.[0] || coverPhoto?.image_url || null
   const img = cardPhotoUrl || imageFor(b)
@@ -222,6 +223,11 @@ function BusinessCard({ b, locale }: { b: Business; locale: Locale }) {
             </div>
           </div>
           <h3>{displayBusinessName(b, locale)}</h3>
+          {distanceKmValue != null && (
+            <div className="nearbyDistance" style={{ fontSize: '13px', fontWeight: 700, color: '#0B7A8A', margin: '2px 0 6px' }}>
+              📍 {nearbyCopy(locale).away} {formatDistance(distanceKmValue)}
+            </div>
+          )}
           <div className="tagList compactTags">
             {(b.tags || []).slice(0, 3).map((t) => (
               <span key={t}>{translateTerm(t, locale)}</span>
@@ -261,12 +267,14 @@ function BusinessListSection({
   items,
   className,
   locale,
+  distances,
 }: {
   title: string
   subtitle: string
   items: Business[]
   className?: string
   locale: Locale
+  distances?: Map<string, number> | null
 }) {
   const dict = getDictionary(locale)
   const [prevItems, setPrevItems] = useState(items)
@@ -287,7 +295,7 @@ function BusinessListSection({
       </div>
       <div className="fullBusinessGrid compactBusinessGrid">
         {visibleItems.map((b) => (
-          <BusinessCard b={b} locale={locale} key={b.id} />
+          <BusinessCard b={b} locale={locale} key={b.id} distanceKmValue={distances?.get(b.id)} />
         ))}
       </div>
       {visible < items.length && (
@@ -327,6 +335,33 @@ export function DirectoryBrowser({
   const [labelFilter, setLabelFilter] = useState<LabelFilter>('All')
   const [zoneFilter, setZoneFilter] = useState<SunsetZoneKey>(initialZone || 'all')
   const [priceFilter, setPriceFilter] = useState<string>('All')
+  const [userPos, setUserPos] = useState<UserPos | null>(null)
+  const [geoStatus, setGeoStatus] = useState<'idle' | 'loading' | 'active' | 'denied' | 'error'>('idle')
+  const nearby = nearbyCopy(activeLocale)
+  const requestLocation = () => {
+    if (typeof navigator === 'undefined' || !navigator.geolocation) {
+      setGeoStatus('error')
+      return
+    }
+    setGeoStatus('loading')
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        setUserPos({ lat: pos.coords.latitude, lng: pos.coords.longitude })
+        setGeoStatus('active')
+      },
+      (err) => setGeoStatus(err.code === 1 ? 'denied' : 'error'),
+      { enableHighAccuracy: false, timeout: 10000, maximumAge: 60000 }
+    )
+  }
+  const distances = useMemo(() => {
+    if (!userPos) return null
+    const m = new Map<string, number>()
+    for (const b of items) {
+      const p = businessPos(b)
+      if (p) m.set(b.id, distanceKm(userPos, p))
+    }
+    return m
+  }, [userPos, items])
   const config = DIRECTORY_CATEGORIES[category]
   const catLabel = categoryLabel(category, activeLocale)
   const catEyebrow = categoryEyebrow(category, activeLocale)
@@ -370,9 +405,20 @@ export function DirectoryBrowser({
           const sunsetA = isSunsetTownFacility(a) ? 0 : 1
           const sunsetB = isSunsetTownFacility(b) ? 0 : 1
           if (sunsetA !== sunsetB) return sunsetA - sunsetB
+          if (distances) {
+            // 마이푸꾸옥 추천(rank 0)은 상단 고정, 나머지는 내 위치에서 가까운 순(좌표 없는 업체는 맨 뒤)
+            const recA = badgeRank(a) === 0
+            const recB = badgeRank(b) === 0
+            if (recA !== recB) return recA ? -1 : 1
+            if (!recA) {
+              const dA = distances.get(a.id) ?? Infinity
+              const dB = distances.get(b.id) ?? Infinity
+              if (dA !== dB) return dA < dB ? -1 : 1
+            }
+          }
           return badgeRank(a) - badgeRank(b) || randomScore(a, shuffleSeed) - randomScore(b, shuffleSeed)
         }),
-    [items, q, filter, labelFilter, zoneFilter, priceFilter, shuffleSeed, activeLocale]
+    [items, q, filter, labelFilter, zoneFilter, priceFilter, shuffleSeed, activeLocale, distances]
   )
 
   const showEditorialHighlights = filter === 'All' && labelFilter === 'All'
@@ -529,6 +575,21 @@ export function DirectoryBrowser({
           </div>
         </div>
       </div>
+      <div className="nearbySortBar" style={{ margin: '0 0 16px', display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '10px 14px' }}>
+        <button
+          type="button"
+          className={`outlineButton nearbySortBtn ${geoStatus === 'active' ? 'active' : ''}`}
+          onClick={requestLocation}
+          disabled={geoStatus === 'loading'}
+        >
+          {geoStatus === 'loading' ? nearby.loading : nearby.button}
+        </button>
+        {geoStatus !== 'idle' && geoStatus !== 'loading' && (
+          <span style={{ fontSize: '13px', lineHeight: 1.5, color: geoStatus === 'active' ? '#0B7A8A' : '#8a5a00' }}>
+            {geoStatus === 'active' ? nearby.active : geoStatus === 'denied' ? nearby.denied : nearby.error}
+          </span>
+        )}
+      </div>
       <div className="directorySummary">
         <div>
           <span className="eyebrow">{catEyebrow}</span>
@@ -545,6 +606,7 @@ export function DirectoryBrowser({
             title={translateBadge(bucket.name, activeLocale)}
             items={bucket.items}
             locale={activeLocale}
+            distances={distances}
           />
         ))}
         {groups.map((group) => (
@@ -554,6 +616,7 @@ export function DirectoryBrowser({
             title={translateTerm(group.name, activeLocale)}
             items={group.items}
             locale={activeLocale}
+            distances={distances}
           />
         ))}
         {!filtered.length && (
