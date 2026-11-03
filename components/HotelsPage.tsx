@@ -114,10 +114,6 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
           <div className="cardStarBadge">
             {t.fiveStar}
           </div>
-        ) : hotel.slug === 'the-room-hotel' || hotel.tier === 'recommended' ? (
-          <div className="cardStarBadge">
-            {t.boutiqueHotel}
-          </div>
         ) : null}
         <a
           href={hotel.agodaUrl}
@@ -320,9 +316,6 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                 )}
                 {hotel.tier === 'top' && (
                   <span className="topGradeBadge">🏆 {t.badgeTopGrade}</span>
-                )}
-                {(hotel.slug === 'the-room-hotel' || hotel.tier === 'recommended') && (
-                  <span className="cardStarBadge">{t.boutiqueHotel}</span>
                 )}
               </>
             )}

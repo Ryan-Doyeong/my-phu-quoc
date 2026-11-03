@@ -21,8 +21,8 @@ export const HOTEL_CATEGORY_LABELS: Record<Locale, HotelCategoryDictionary> = {
   ko: {
     categories: {
       recommended: { name: '추천 호텔 모음', desc: '마이 푸꾸옥이 직접 확인해 추천하는 호텔 — 규모가 큰 호텔부터 차례로 소개합니다.', icon: '👑' },
-      luxury: { name: '특급 ~ 4성 호텔', desc: '아고다 1박 요금 상위 등급($$$$ · $$$$$)의 특급·고급 호텔입니다.', icon: '🏆' },
-      boutique: { name: '3성 부티크 호텔', desc: '합리적인 가격($$ · $$$)의 부티크 호텔 — 선셋타운 숙소의 중심 등급입니다.', icon: '🏨' },
+      luxury: { name: '특급~4성 호텔', desc: '아고다 1박 요금 상위 등급($$$$ · $$$$$)의 특급·고급 호텔입니다.', icon: '🏆' },
+      boutique: { name: '3성급 호텔', desc: '합리적인 가격($$ · $$$)의 3성급 호텔 — 선셋타운 숙소의 중심 등급입니다.', icon: '🏨' },
       guesthouse: { name: '게스트하우스', desc: '가장 실속 있는 가격($)의 소형 호텔·게스트하우스입니다.', icon: '🏠' },
       'khem-beach': { name: '켐 비치 리조트', desc: '선셋타운에서 차량 약 10분, 해변 이용이 가능한 켐 비치의 리조트·호텔입니다.', icon: '🏖️' },
     },
@@ -39,7 +39,7 @@ export const HOTEL_CATEGORY_LABELS: Record<Locale, HotelCategoryDictionary> = {
     categories: {
       recommended: { name: 'Recommended Hotels', desc: 'Hotels personally checked and recommended by My Phu Quoc, listed from the largest property down.', icon: '👑' },
       luxury: { name: 'Luxury – 4-Star Hotels', desc: 'Top Agoda price tiers ($$$$ · $$$$$): luxury and upscale hotels.', icon: '🏆' },
-      boutique: { name: '3-Star Boutique Hotels', desc: 'Well-priced boutique hotels ($$ · $$$) — the core of Sunset Town stays.', icon: '🏨' },
+      boutique: { name: '3-Star Hotels', desc: 'Well-priced 3-star hotels ($$ · $$$) — the core of Sunset Town stays.', icon: '🏨' },
       guesthouse: { name: 'Guesthouses', desc: 'The most affordable small hotels and guesthouses ($).', icon: '🏠' },
       'khem-beach': { name: 'Khem Beach Resorts', desc: 'Beachfront resorts and hotels on Khem Beach, about 10 minutes by car from Sunset Town.', icon: '🏖️' },
     },
@@ -56,7 +56,7 @@ export const HOTEL_CATEGORY_LABELS: Record<Locale, HotelCategoryDictionary> = {
     categories: {
       recommended: { name: '推荐酒店精选', desc: 'My Phu Quoc 亲自确认并推荐的酒店，按规模从大到小排列。', icon: '👑' },
       luxury: { name: '豪华～四星酒店', desc: 'Agoda 房价高档位（$$$$ · $$$$$）的豪华及高端酒店。', icon: '🏆' },
-      boutique: { name: '三星精品酒店', desc: '价格合理（$$ · $$$）的精品酒店，是日落小镇住宿的主力档次。', icon: '🏨' },
+      boutique: { name: '三星酒店', desc: '价格合理（$$ · $$$）的三星酒店，是日落小镇住宿的主力档次。', icon: '🏨' },
       guesthouse: { name: '民宿·客栈', desc: '价格最实惠（$）的小型酒店与民宿。', icon: '🏠' },
       'khem-beach': { name: '坎海滩度假村', desc: '距日落小镇车程约10分钟、可直接下海的坎海滩度假村与酒店。', icon: '🏖️' },
     },
@@ -73,7 +73,7 @@ export const HOTEL_CATEGORY_LABELS: Record<Locale, HotelCategoryDictionary> = {
     categories: {
       recommended: { name: 'おすすめホテル集', desc: 'My Phu Quoc が実際に確認しておすすめするホテルを、規模の大きい順にご紹介します。', icon: '👑' },
       luxury: { name: '高級～4つ星ホテル', desc: 'アゴダ料金帯の上位（$$$$ · $$$$$）にあたる高級・アップスケールホテルです。', icon: '🏆' },
-      boutique: { name: '3つ星ブティックホテル', desc: '手頃な価格（$$ · $$$）のブティックホテル。サンセットタウン宿泊の中心クラスです。', icon: '🏨' },
+      boutique: { name: '3つ星ホテル', desc: '手頃な価格（$$ · $$$）の3つ星ホテル。サンセットタウン宿泊の中心クラスです。', icon: '🏨' },
       guesthouse: { name: 'ゲストハウス', desc: '最もリーズナブルな価格（$）の小規模ホテル・ゲストハウスです。', icon: '🏠' },
       'khem-beach': { name: 'ケムビーチ リゾート', desc: 'サンセットタウンから車で約10分、ビーチが利用できるケムビーチのリゾート・ホテルです。', icon: '🏖️' },
     },
@@ -90,7 +90,7 @@ export const HOTEL_CATEGORY_LABELS: Record<Locale, HotelCategoryDictionary> = {
     categories: {
       recommended: { name: 'Рекомендуемые отели', desc: 'Отели, лично проверенные и рекомендованные My Phu Quoc, — от самых крупных к небольшим.', icon: '👑' },
       luxury: { name: 'Люкс – 4-звёздочные отели', desc: 'Верхние ценовые категории Agoda ($$$$ · $$$$$): люксовые и премиальные отели.', icon: '🏆' },
-      boutique: { name: '3-звёздочные бутик-отели', desc: 'Бутик-отели по разумной цене ($$ · $$$) — основной класс размещения в Сансет Тауне.', icon: '🏨' },
+      boutique: { name: '3-звёздочные отели', desc: '3-звёздочные отели по разумной цене ($$ · $$$) — основной класс размещения в Сансет Тауне.', icon: '🏨' },
       guesthouse: { name: 'Гестхаусы', desc: 'Самые доступные небольшие отели и гестхаусы ($).', icon: '🏠' },
       'khem-beach': { name: 'Курорты Кхем-Бич', desc: 'Пляжные курорты и отели Кхем-Бич, около 10 минут на машине от Сансет Тауна.', icon: '🏖️' },
     },
@@ -107,7 +107,7 @@ export const HOTEL_CATEGORY_LABELS: Record<Locale, HotelCategoryDictionary> = {
     categories: {
       recommended: { name: 'अनुशंसित होटल संग्रह', desc: 'My Phu Quoc द्वारा स्वयं जाँचे और अनुशंसित होटल — सबसे बड़े होटल से क्रम में।', icon: '👑' },
       luxury: { name: 'लक्ज़री – 4-स्टार होटल', desc: 'Agoda के शीर्ष मूल्य स्तर ($$$$ · $$$$$) के लक्ज़री और प्रीमियम होटल।', icon: '🏆' },
-      boutique: { name: '3-स्टार बुटीक होटल', desc: 'उचित दाम ($$ · $$$) के बुटीक होटल — सनसेट टाउन ठहराव का मुख्य वर्ग।', icon: '🏨' },
+      boutique: { name: '3-स्टार होटल', desc: 'उचित दाम ($$ · $$$) के 3-स्टार होटल — सनसेट टाउन ठहराव का मुख्य वर्ग।', icon: '🏨' },
       guesthouse: { name: 'गेस्टहाउस', desc: 'सबसे किफ़ायती ($) छोटे होटल और गेस्टहाउस।', icon: '🏠' },
       'khem-beach': { name: 'खेम बीच रिसॉर्ट', desc: 'सनसेट टाउन से कार द्वारा लगभग 10 मिनट, समुद्र तट के पास खेम बीच के रिसॉर्ट और होटल।', icon: '🏖️' },
     },
@@ -124,7 +124,7 @@ export const HOTEL_CATEGORY_LABELS: Record<Locale, HotelCategoryDictionary> = {
     categories: {
       recommended: { name: 'Khách sạn đề xuất', desc: 'Các khách sạn được My Phu Quoc trực tiếp kiểm tra và đề xuất, xếp từ quy mô lớn đến nhỏ.', icon: '👑' },
       luxury: { name: 'Khách sạn cao cấp – 4 sao', desc: 'Các khách sạn cao cấp thuộc mức giá cao nhất trên Agoda ($$$$ · $$$$$).', icon: '🏆' },
-      boutique: { name: 'Khách sạn boutique 3 sao', desc: 'Khách sạn boutique giá hợp lý ($$ · $$$) — phân khúc chính tại Sunset Town.', icon: '🏨' },
+      boutique: { name: 'Khách sạn 3 sao', desc: 'Khách sạn 3 sao giá hợp lý ($$ · $$$) — phân khúc chính tại Sunset Town.', icon: '🏨' },
       guesthouse: { name: 'Nhà nghỉ', desc: 'Khách sạn nhỏ và nhà nghỉ có giá tiết kiệm nhất ($).', icon: '🏠' },
       'khem-beach': { name: 'Resort Bãi Khem', desc: 'Resort và khách sạn ven biển tại Bãi Khem, cách Sunset Town khoảng 10 phút đi xe.', icon: '🏖️' },
     },

@@ -2050,26 +2050,32 @@
 @media (max-width: 900px) {
   .categorySelectorWrap {
     padding: 0 8px;
+    margin-top: -24px;
   }
+  /* 5개 탭이 가로 스크롤 없이 한 화면에 전부 보이도록 5등분 */
   .categorySelectorInner {
-    display: flex;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    scroll-snap-type: x proximity;
-  }
-  .categorySelectorInner::-webkit-scrollbar {
-    display: none;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 2px;
+    padding: 4px;
   }
   .categoryTabBtn {
-    flex: 0 0 auto;
-    min-width: 128px;
-    padding: 10px 12px;
-    scroll-snap-align: start;
+    padding: 8px 1px;
+    gap: 3px;
+    border-radius: 10px;
+  }
+  .categoryTabBtn .areaTabIcon {
+    font-size: 1.1rem;
   }
   .categoryTabBtn .areaTabName {
-    font-size: 0.85rem;
-    white-space: nowrap;
+    font-size: 0.68rem;
+    letter-spacing: -0.04em;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+    line-height: 1.25;
+  }
+  .categoryTabBtn .areaTabCount {
+    font-size: 0.68rem;
+    padding: 1px 6px;
   }
 }
 
