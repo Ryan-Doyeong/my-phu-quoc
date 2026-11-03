@@ -16525,6 +16525,11 @@
     "id": "local-sunset-255",
     "public_name": "키스 브릿지 (Kiss Bridge)",
     "slug": "kiss-bridge",
+    "aliases": [
+      "Cầu Hôn",
+      "Cau Hon",
+      "키스브릿지"
+    ],
     "category": "activities",
     "subcategory": "attraction",
     "google_place_id": "ChIJG-HZ4ZaRpzERhjtO1_1kObg",
