@@ -385,7 +385,7 @@
   align-items: center;
   gap: 8px;
   margin: 0 0 16px;
-  font-family: Georgia, serif;
+  font-family: var(--font-pretendard);
   font-size: 20px;
   font-weight: 700;
   display: flex;
@@ -605,7 +605,7 @@
 .businessMenuCard h2,
 .foodGuideCard h2 {
   margin-top: 6px;
-  font-family: Georgia, serif;
+  font-family: var(--font-pretendard);
   font-size: 28px;
   letter-spacing: -0.02em;
   color: #1a251e;
@@ -947,7 +947,7 @@
 
 .foodGuideSection > h3 {
   margin: 0 0 14px;
-  font-family: Georgia, serif;
+  font-family: var(--font-pretendard);
   font-size: 24px;
   color: #1e2d24;
 }
@@ -1026,7 +1026,7 @@
 }
 
 .reviewAnalysisCard h2 {
-  font-family: Georgia, serif;
+  font-family: var(--font-pretendard);
   font-size: 26px;
   margin: 6px 0 10px;
   color: #1a251e;

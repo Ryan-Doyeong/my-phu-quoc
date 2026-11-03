@@ -1,0 +1,310 @@
+/* app/editorial-typography.css
+   뉴스&가이드 · 이벤트 · 기사 상세 타이포그래피
+   기준: 마이리얼트립 상품 페이지 (Pretendard, H1 22px / H2 20px / H3 18px / 본문 15px, 행간 1.24~1.45)
+   layout.tsx 에서 가장 마지막에 import 하여 기존 규칙을 덮어씀 */
+
+/* ---------- 공통 ---------- */
+.newsHero,
+.newsListing,
+.onlineArticle,
+.eventBoardSection,
+.eventDetailBackRow {
+  font-family: var(--font-pretendard);
+  letter-spacing: -0.01em;
+}
+
+/* ---------- 목록 페이지 상단 (뉴스&가이드 / 이벤트) ---------- */
+.newsHero,
+.directoryHero,
+.intakeHero {
+  padding: 40px 0 30px;
+}
+.newsHero .eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+}
+.newsHero h1,
+.directoryHero h1,
+.intakeHero h1,
+.eventsHeroCompact h1 {
+  font-family: var(--font-pretendard) !important;
+  font-size: 26px !important;
+  line-height: 1.3 !important;
+  letter-spacing: -0.02em !important;
+  font-weight: 700 !important;
+  margin: 6px 0 8px !important;
+}
+.newsHero p,
+.newsHero .lead,
+.directoryHero p,
+.intakeHero p,
+.eventsHeroCompact .lead {
+  font-size: 15px !important;
+  line-height: 1.5 !important;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* ---------- 뉴스&가이드 카드 ---------- */
+.newsListing {
+  padding: 28px 0 60px;
+}
+.newsGridOnline article > div {
+  padding: 18px 20px;
+}
+.newsGridOnline span,
+.newsCardOnline span {
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+}
+.newsGridOnline h2,
+.newsCardOnline h2,
+.eventList h2,
+.impactNewsGrid h2 {
+  font-family: var(--font-pretendard) !important;
+  font-size: 18px !important;
+  line-height: 1.35 !important;
+  letter-spacing: -0.02em !important;
+  font-weight: 700 !important;
+  margin: 6px 0 8px !important;
+  word-break: keep-all;
+}
+.newsGridOnline p,
+.newsCardOnline p,
+.eventList p,
+.impactNewsGrid p {
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+  margin: 0 0 10px;
+  word-break: keep-all;
+}
+.newsGridOnline small,
+.newsCardOnline small,
+.eventList small,
+.impactNewsGrid small {
+  font-size: 12px;
+}
+
+/* ---------- 기사 · 이벤트 상세 ---------- */
+.onlineArticle {
+  max-width: 760px;
+  padding: 40px 24px 80px;
+}
+.onlineArticle h1,
+.richArticle h1 {
+  font-family: var(--font-pretendard) !important;
+  font-size: 26px !important;
+  line-height: 1.35 !important;
+  letter-spacing: -0.02em !important;
+  font-weight: 700 !important;
+  margin: 8px 0 10px !important;
+  word-break: keep-all;
+}
+.articleSubtitle {
+  font-family: var(--font-pretendard) !important;
+  font-size: 17px !important;
+  line-height: 1.5 !important;
+  font-weight: 500;
+  color: #3E6168;
+  margin: 0 0 12px;
+}
+.articleDeck {
+  font-family: var(--font-pretendard) !important;
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+  color: #4c5b50;
+  word-break: keep-all;
+}
+.articleMeta,
+.articleMetaRow {
+  font-size: 13px;
+  margin: 14px 0 22px;
+}
+.articleCopy {
+  font-family: var(--font-pretendard) !important;
+  font-size: 16px !important;
+  line-height: 1.75 !important;
+  margin-top: 26px;
+  word-break: keep-all;
+}
+.articleCopy p,
+.richArticle p {
+  font-size: 16px;
+  line-height: 1.75;
+  margin: 0 0 18px;
+}
+.articleCopy h2,
+.richArticle h2 {
+  font-family: var(--font-pretendard) !important;
+  font-size: 20px !important;
+  line-height: 1.35 !important;
+  letter-spacing: -0.02em;
+  font-weight: 700 !important;
+  margin: 34px 0 12px !important;
+}
+.articleCopy h3,
+.richArticle h3 {
+  font-family: var(--font-pretendard) !important;
+  font-size: 18px !important;
+  line-height: 1.4 !important;
+  font-weight: 700 !important;
+  margin: 26px 0 10px !important;
+}
+.articleCopy h4,
+.richArticle h4 {
+  font-size: 16px !important;
+  line-height: 1.45 !important;
+  font-weight: 700 !important;
+  margin: 20px 0 8px !important;
+}
+.articleCopy li,
+.richArticle li {
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 4px 0;
+}
+.articleCopy table,
+.richArticle table {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.articleCallout {
+  font-family: var(--font-pretendard) !important;
+  font-size: 15px !important;
+  line-height: 1.6 !important;
+  padding: 14px 18px;
+  margin: 20px 0;
+}
+.keyPointsBox {
+  font-size: 15px;
+}
+.keyPointsBox li {
+  line-height: 1.6;
+}
+.sourcePanel {
+  font-size: 14px;
+  line-height: 1.55;
+}
+.sourcePanel p {
+  margin: 4px 0;
+}
+.eventDetailInfoBox {
+  font-size: 14px;
+}
+.eventDetailInfoItem {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.eventDetailInfoItem strong {
+  font-size: 11px;
+}
+.articleTags span,
+.tagList span {
+  font-size: 12px;
+}
+
+/* ---------- 이벤트 목록 ---------- */
+.eventDcTitle {
+  font-family: var(--font-pretendard) !important;
+  font-size: 16px !important;
+  line-height: 1.4 !important;
+  letter-spacing: -0.02em;
+  font-weight: 700 !important;
+}
+.eventDcMeta,
+.eventDcMetaText,
+.eventDcDate,
+.eventDcLocation {
+  font-size: 13px;
+  line-height: 1.4;
+}
+.eventDcCategory {
+  font-size: 12px;
+}
+.eventCountMeta,
+.eventSearchStatusRow {
+  font-size: 13px;
+}
+.eventEmptyTitle {
+  font-size: 18px;
+  font-weight: 700;
+}
+.eventEmptyDesc {
+  font-size: 14px;
+}
+
+/* ---------- 모바일 ---------- */
+@media (max-width: 760px) {
+  .newsHero,
+  .directoryHero,
+  .intakeHero {
+    padding: 28px 0 22px;
+  }
+  .newsHero h1,
+  .directoryHero h1,
+  .intakeHero h1,
+  .eventsHeroCompact h1 {
+    font-size: 22px !important;
+  }
+  .newsHero p,
+  .newsHero .lead,
+  .directoryHero p,
+  .intakeHero p,
+  .eventsHeroCompact .lead {
+    font-size: 14px !important;
+  }
+  .newsGridOnline h2,
+  .newsCardOnline h2,
+  .eventList h2,
+  .impactNewsGrid h2 {
+    font-size: 16px !important;
+    line-height: 1.4 !important;
+  }
+  .newsGridOnline p,
+  .newsCardOnline p {
+    font-size: 13px !important;
+  }
+  .onlineArticle {
+    padding: 28px 18px 60px;
+  }
+  .onlineArticle h1,
+  .richArticle h1 {
+    font-size: 22px !important;
+    line-height: 1.4 !important;
+  }
+  .articleSubtitle {
+    font-size: 16px !important;
+  }
+  .articleDeck {
+    font-size: 15px !important;
+  }
+  .articleCopy,
+  .articleCopy p,
+  .richArticle p,
+  .articleCopy li,
+  .richArticle li {
+    font-size: 15px !important;
+    line-height: 1.7 !important;
+  }
+  .articleCopy h2,
+  .richArticle h2 {
+    font-size: 18px !important;
+  }
+  .articleCopy h3,
+  .richArticle h3 {
+    font-size: 16px !important;
+  }
+  .articleCallout {
+    font-size: 14px !important;
+  }
+  .eventDcTitle {
+    font-size: 15px !important;
+    white-space: normal;
+  }
+  .eventDcMeta,
+  .eventDcMetaText {
+    font-size: 12px;
+  }
+}
