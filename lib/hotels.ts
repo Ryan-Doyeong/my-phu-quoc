@@ -136,16 +136,50 @@ export const HOTEL_CATEGORY_ORDER: HotelCategory[] = ['recommended', 'luxury', '
 export type HotelPriceCategory = Exclude<HotelCategory, 'recommended' | 'khem-beach'>
 
 /**
- * 가격 카테고리 판정. 아고다 요금대가 있으면 요금대 기준,
- * 요금대 미확인이면 아고다 표시 성급으로 임시 분류 (4성 이상 → luxury, 그 외 → boutique).
+ * 가격 카테고리 판정 (Ryan 지시 2026-11-03):
+ * 1. 아파트·홈스테이 성격의 숙소 유형은 '게스트하우스' 탭으로 배치.
+ * 2. 아고다 요금대(priceRange)가 있으면 요금대 기준 (level >= 4: luxury, level >= 2: boutique, level === 1: guesthouse).
+ * 3. 요금대 미확인 시 성급/평점 기준 (4성 이상 → luxury, 그 외 → boutique).
  */
-export function getHotelPriceCategory(hotel: { priceRange?: HotelPriceRange | string | null; star?: number }): HotelPriceCategory {
+export function getHotelPriceCategory(hotel: {
+  priceRange?: HotelPriceRange | string | null
+  star?: number
+  slug?: string
+  name_ko?: string
+  name_en?: string
+  propertyType?: string
+}): HotelPriceCategory {
+  // 1. 아파트·홈스테이 성격은 '게스트하우스' 탭
+  if (
+    hotel.propertyType === 'apartment' ||
+    hotel.propertyType === 'homestay' ||
+    hotel.propertyType === 'guesthouse'
+  ) {
+    return 'guesthouse'
+  }
+  const slug = (hotel.slug || '').toLowerCase()
+  const name = ((hotel.name_ko || '') + ' ' + (hotel.name_en || '')).toLowerCase()
+  if (
+    slug.includes('apartment') ||
+    slug.includes('homestay') ||
+    slug.includes('home-apartment') ||
+    name.includes('apartment') ||
+    name.includes('아파트') ||
+    name.includes('homestay') ||
+    name.includes('홈스테이')
+  ) {
+    return 'guesthouse'
+  }
+
+  // 2. 아고다 요금대 기준
   const level = getPriceTierLevel(hotel.priceRange || undefined)
   if (level) {
     if (level >= 4) return 'luxury'
     if (level >= 2) return 'boutique'
     return 'guesthouse'
   }
+
+  // 3. 요금대 미확인 시 성급/평점 기준 (4성 이상 → luxury, 그 외 → boutique)
   if ((hotel.star || 0) >= 4) return 'luxury'
   return 'boutique'
 }
@@ -164,6 +198,7 @@ export interface HotelItem {
   star: number
   officialStar?: number | null
   area?: HotelArea
+  propertyType?: string
   tier?: HotelTier
   driveMinutesToSunsetTown?: number | string
   driveMinutesNote?: string
