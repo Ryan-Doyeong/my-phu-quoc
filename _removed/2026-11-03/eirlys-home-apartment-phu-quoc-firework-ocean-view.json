@@ -1,0 +1,45 @@
+{
+  "removal_date": "2026-11-03",
+  "removal_reason": "URL 없음",
+  "agoda_audit_result": {
+    "status": "none",
+    "reason": "URL 없음"
+  },
+  "business_registry_data": {
+    "id": "local-sunset-50",
+    "public_name": "Eirlys Home Apartment Phu Quoc - Firework & Ocean View",
+    "slug": "eirlys-home-apartment-phu-quoc-firework-ocean-view",
+    "category": "hotels",
+    "subcategory": "residence",
+    "google_place_id": "ChIJFxI3_P-XpzERuMb9xcsPfq0",
+    "description_en": "Eirlys Home Apartment Phu Quoc - Firework & Ocean View is a residence apartment located in Sunset Town, Phu Quoc.",
+    "description_ko": "Sun Grand City Hillside 고층 아파트먼트, 오션/불꽃놀이 뷰.",
+    "address": "Căn hộ Hillside, Sunset Town Khu căn hộ Sun Grand City Hillside Residence, khu phố 6, Phú Quốc, An Giang 92500, Vietnam",
+    "google_maps_name": "Eirlys Home Apartment Phu Quoc - Firework & Ocean View",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJFxI3_P-XpzERuMb9xcsPfq0",
+    "phone": "+84 932 645 139",
+    "website_url": "http://eirlyshomephuquoc.com/",
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "ai_checked",
+    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
+    "google_rating": 4.6,
+    "google_review_count": 50,
+    "gallery_urls": [
+      "/covers-photo/eirlys-home-apartment-phu-quoc-firework-ocean-view-1.webp",
+      "/covers-photo/eirlys-home-apartment-phu-quoc-firework-ocean-view-2.webp",
+      "/covers-photo/eirlys-home-apartment-phu-quoc-firework-ocean-view-3.webp"
+    ],
+    "tags": [
+      "residence",
+      "Sunset Town"
+    ],
+    "_deleted_snippet": "",
+    "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
+    "lat": 10.0294303,
+    "lng": 104.0089904,
+    "media_note": "Image source: http://eirlyshomephuquoc.com/",
+    "photo_permission": "Official public media (http://eirlyshomephuquoc.com/)"
+  }
+}

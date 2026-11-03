@@ -1,0 +1,42 @@
+{
+  "removal_date": "2026-11-03",
+  "removal_reason": "도시 목록 리디렉션",
+  "agoda_audit_result": {
+    "status": "unregistered",
+    "httpStatus": 301,
+    "redirectTarget": "https://www.agoda.com/ko-kr/city/phu-quoc-island-vn.html",
+    "reason": "도시 목록 리디렉션"
+  },
+  "business_registry_data": {
+    "id": "local-sunset-18",
+    "public_name": "Blue Hotel Sunset Town Phu Quoc",
+    "slug": "blue-hotel-sunset-town-phu-quoc",
+    "category": "hotels",
+    "subcategory": "boutique_hotel",
+    "google_place_id": "ChIJkxnyzB-VpzERiqEaw7e2MHA",
+    "description_en": "Blue Hotel Sunset Town Phu Quoc is a boutique hotel located in Sunset Town, Phu Quoc.",
+    "description_ko": "선셋타운 지중해풍 부티크 호텔.",
+    "address": "A118 Đ. Amalfi, sunset town, Phú Quốc, An Giang 92513, Vietnam",
+    "google_maps_name": "Blue Hotel Sunset Town Phu Quoc",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJkxnyzB-VpzERiqEaw7e2MHA",
+    "phone": "+84 912 824 408",
+    "website_url": "https://www.agoda.com/ko-kr/blue-hotel-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html",
+    "instagram_url": null,
+    "status": "draft",
+    "verification_status": "ai_checked",
+    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
+    "google_rating": 5,
+    "google_review_count": 50,
+    "gallery_urls": [],
+    "tags": [
+      "boutique_hotel",
+      "Sunset Town"
+    ],
+    "_deleted_snippet": "",
+    "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
+    "_deleted_claims": "(해당 없음)",
+    "lat": 10.0312716,
+    "lng": 104.0067887,
+    "agoda_url": "https://www.agoda.com/ko-kr/blue-hotel-sunset-town-phu-quoc/hotel/phu-quoc-island-vn.html"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "removal_date": "2026-11-03",
+  "removal_reason": "URL 없음",
+  "agoda_audit_result": {
+    "status": "none",
+    "reason": "URL 없음"
+  },
+  "business_registry_data": {
+    "id": "local-sunset-32",
+    "public_name": "The Juliet A Boutique Hotel & Coffee - Ama 71",
+    "slug": "the-juliet-a-boutique-hotel-coffee-ama-71",
+    "category": "hotels",
+    "subcategory": "boutique_hotel",
+    "google_place_id": "ChIJ1yTVrpyVpzER3zYlS4ZhGqA",
+    "description_en": "The Juliet A Boutique Hotel & Coffee - Ama 71 is a boutique hotel located in Sunset Town, Phu Quoc.",
+    "description_ko": "선셋타운 지중해풍 부티크 호텔.",
+    "address": "Ama71, Sunset Town, Phú Quốc, An Giang 91000, Vietnam",
+    "google_maps_name": "The Juliet A Boutique Hotel & Coffee - Ama 71",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ1yTVrpyVpzER3zYlS4ZhGqA",
+    "phone": "+84 886 391 568",
+    "website_url": "https://titanhomies.com/",
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "ai_checked",
+    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
+    "google_rating": 4.9,
+    "google_review_count": 50,
+    "gallery_urls": [
+      "/covers-photo/the-juliet-a-boutique-hotel-coffee-ama-71-1.webp",
+      "/covers-photo/the-juliet-a-boutique-hotel-coffee-ama-71-2.webp",
+      "/covers-photo/the-juliet-a-boutique-hotel-coffee-ama-71-3.webp"
+    ],
+    "tags": [
+      "boutique_hotel",
+      "Sunset Town"
+    ],
+    "_deleted_snippet": "",
+    "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
+    "_deleted_claims": "(해당 없음)",
+    "lat": 10.0326826,
+    "lng": 104.0048769,
+    "media_note": "Image source: https://thejuliethotel.vn/",
+    "photo_permission": "Official public media (https://thejuliethotel.vn/)"
+  }
+}

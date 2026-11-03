@@ -1,0 +1,42 @@
+{
+  "removal_date": "2026-11-03",
+  "removal_reason": "도시 목록 리디렉션",
+  "agoda_audit_result": {
+    "status": "unregistered",
+    "httpStatus": 301,
+    "redirectTarget": "https://www.agoda.com/ko-kr/city/phu-quoc-island-vn.html",
+    "reason": "도시 목록 리디렉션"
+  },
+  "business_registry_data": {
+    "id": "local-sunset-78",
+    "public_name": "Dido Carthage Apartment Sunset Town, Phu Quoc Island",
+    "slug": "dido-carthage-apartment-sunset-town-phu-quoc-island",
+    "category": "hotels",
+    "subcategory": "residence",
+    "google_place_id": "ChIJcWEuF12XpzERcz_lK7OYDlw",
+    "description_en": "Dido Carthage Apartment Sunset Town, Phu Quoc Island is a residence apartment located in Sunset Town, Phu Quoc.",
+    "description_ko": "Sun Grand City Hillside 고층 아파트먼트, 오션/불꽃놀이 뷰.",
+    "address": "Milan, Phú Quốc, An Giang 91000, Vietnam",
+    "google_maps_name": "Dido Carthage Apartment Sunset Town, Phu Quoc Island",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJcWEuF12XpzERcz_lK7OYDlw",
+    "phone": "+84 904 298 956",
+    "website_url": "https://www.agoda.com/ko-kr/dido-carthage-apartment-sunset-town-phu-quoc-island/hotel/phu-quoc-island-vn.html",
+    "instagram_url": null,
+    "status": "draft",
+    "verification_status": "ai_checked",
+    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
+    "google_rating": 2.3,
+    "google_review_count": 50,
+    "gallery_urls": [],
+    "tags": [
+      "residence",
+      "Sunset Town"
+    ],
+    "_deleted_snippet": "",
+    "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
+    "_deleted_claims": "미검증 주방/세탁기/수영장 삭제 | 객실별 확인 문구 정리",
+    "lat": 10.030641,
+    "lng": 104.00781309999999,
+    "agoda_url": "https://www.agoda.com/ko-kr/dido-carthage-apartment-sunset-town-phu-quoc-island/hotel/phu-quoc-island-vn.html"
+  }
+}

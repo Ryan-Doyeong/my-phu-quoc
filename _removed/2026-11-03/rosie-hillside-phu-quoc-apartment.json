@@ -1,0 +1,45 @@
+{
+  "removal_date": "2026-11-03",
+  "removal_reason": "URL 없음",
+  "agoda_audit_result": {
+    "status": "none",
+    "reason": "URL 없음"
+  },
+  "business_registry_data": {
+    "id": "local-sunset-11",
+    "public_name": "로지 힐사이드 시뷰 아파트먼트 (Rosie Hillside Phu Quoc apartment)",
+    "slug": "rosie-hillside-phu-quoc-apartment",
+    "category": "hotels",
+    "subcategory": "residence",
+    "google_place_id": "ChIJHdlM6--XpzERU4FcoKO7V3k",
+    "description_en": "Rosie Hillside Phu Quoc apartment is a residence apartment located in Sunset Town, Phu Quoc.",
+    "description_ko": "다인원 가족용 2~3베드룸.",
+    "address": "the Hill, Hillside Residence, Đường Burano, Sunset town, Phú Quốc, An Giang 920000, Vietnam",
+    "google_maps_name": "Rosie Hillside Phu Quoc apartment",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJHdlM6--XpzERU4FcoKO7V3k",
+    "phone": "+84 387 330 559",
+    "website_url": "https://rosievn.com/",
+    "instagram_url": null,
+    "status": "published",
+    "verification_status": "ai_checked",
+    "verification_note": "Master DB 수집 2026-10, 현장 미확인",
+    "google_rating": 4.6,
+    "google_review_count": 50,
+    "gallery_urls": [
+      "/covers-photo/rosie-hillside-phu-quoc-apartment-1.webp",
+      "/covers-photo/rosie-hillside-phu-quoc-apartment-2.webp",
+      "/covers-photo/rosie-hillside-phu-quoc-apartment-3.webp"
+    ],
+    "tags": [
+      "residence",
+      "Sunset Town"
+    ],
+    "_deleted_snippet": "",
+    "_source_citation": "해당 없음 (기본 마스터 DB 등록 사실)",
+    "_deleted_claims": "가성비 수식어 삭제 | 미검증 주방/세탁기/인피니티풀 삭제",
+    "lat": 10.0290251,
+    "lng": 104.00977449999999,
+    "media_note": "Image source: https://rosievn.com/",
+    "photo_permission": "Official public media (https://rosievn.com/)"
+  }
+}
