@@ -438,14 +438,9 @@ export function PracticalInfoCard({
 
         {!isKhem && (
           <Link
-            className="practicalMapBtn"
+            className="practicalMapBtn practicalMapBtnGuide"
             href={localePath(locale, '/map')}
-            style={{
-              marginTop: 0,
-              backgroundColor: '#F1F8F7',
-              color: '#0B7A8A',
-              border: '1px solid #C6E2DE',
-            }}
+            style={{ marginTop: 0 }}
           >
             <span aria-hidden="true">🧭</span>
             <span>
