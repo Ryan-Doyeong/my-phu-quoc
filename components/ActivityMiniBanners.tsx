@@ -16,6 +16,7 @@ type BannerKey =
   | 'yacht';
 
 const BANNERS: { key: BannerKey; icon: string; ko: string; en: string }[] = [
+  { key: 'yacht', icon: '⛵', ko: '프리미엄 요트', en: 'Premium Yacht' },
   { key: 'hopping', icon: '🏝️', ko: '호핑·스노클링', en: 'Island Hopping' },
   { key: 'cablecar', icon: '🚡', ko: '케이블카', en: 'Cable Car' },
   { key: 'fishing', icon: '🎣', ko: '낚시', en: 'Fishing' },
@@ -23,7 +24,6 @@ const BANNERS: { key: BannerKey; icon: string; ko: string; en: string }[] = [
   { key: 'diving', icon: '🤿', ko: '다이빙·씨워커', en: 'Diving' },
   { key: 'land', icon: '🚌', ko: '육상 투어', en: 'Land Tours' },
   { key: 'camping', icon: '⛺', ko: '캠핑·글램핑', en: 'Camping' },
-  { key: 'yacht', icon: '⛵', ko: '요트 투어', en: 'Yacht' },
 ];
 
 export function ActivityMiniBanners({ locale = 'ko' }: { locale?: Locale }) {
