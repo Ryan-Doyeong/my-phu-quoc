@@ -1,0 +1,462 @@
+import { CONTACT_CONFIG } from '@/lib/contactConfig'
+import type { Locale } from './config'
+
+export interface ServiceItemCopy {
+  tag: string
+  title: string
+  body: string
+  priceLabel: string
+  ctaLabel: string
+  zaloLabel: string
+  callLabel: string
+  detailLabel: string
+  prefillMessage: string
+}
+
+export interface BookingServiceCopy {
+  commonIntro: {
+    eyebrow: string
+    title: string
+    body: string
+  }
+  buggyTour: ServiceItemCopy
+  carTour: ServiceItemCopy
+  transfer: ServiceItemCopy
+  activities: ServiceItemCopy
+  commonHelp: {
+    eyebrow: string
+    title: string
+    body: string
+    ctaLabel: string
+    zaloLabel: string
+    callLabel: string
+    prefillMessage: string
+  }
+}
+
+export const BOOKING_SERVICE_COPY: Record<Locale, BookingServiceCopy> = {
+  ko: {
+    commonIntro: {
+      eyebrow: '마이 푸꾸옥 현지 안내 · 예약 도우미',
+      title: '여행 준비부터 현지에서 필요한 도움까지',
+      body: '선셋타운 버기 투어, 차량 이동과 투어, 다양한 액티비티 예약을 도와드립니다. 원하시는 일정과 인원을 알려주시면 이용 가능한 프로그램과 요금, 진행 조건을 확인해 안내해 드립니다.',
+    },
+    buggyTour: {
+      tag: '버기 투어',
+      title: '선셋타운 한 바퀴, 사진으로 남기는 여행',
+      body: '선셋타운의 명물 버기를 타고 주요 명소와 사진 찍기 좋은 곳을 편하게 둘러보세요. 예약 전 방문 지점과 이용 시간, 요금을 안내하고, 약속한 일정에 맞춰 이용하실 수 있도록 예약을 도와드립니다.',
+      priceLabel: '프로그램·요금: 문의',
+      ctaLabel: '버기 투어 문의하기',
+      zaloLabel: 'Zalo 문의',
+      callLabel: '전화 문의',
+      detailLabel: '상세 안내 보기',
+      prefillMessage: '안녕하세요! 마이 푸꾸옥을 보고 [버기 투어] 프로그램·요금 문의드립니다. (희망 날짜 / 시간대 / 인원): ',
+    },
+    carTour: {
+      tag: '차량 투어',
+      title: '이동 걱정을 덜고, 원하는 일정대로',
+      body: '인원과 여행 일정에 맞는 차량 투어 예약을 도와드립니다. 예약 전 차량 종류와 이용 시간, 방문 일정, 포함 사항과 요금을 확인해 안내합니다. 이용 중 요청이나 불편이 생기면 업체와의 소통을 돕습니다.',
+      priceLabel: '프로그램·요금: 문의',
+      ctaLabel: '차량 투어 문의하기',
+      zaloLabel: 'Zalo 문의',
+      callLabel: '전화 문의',
+      detailLabel: '상세 안내 보기',
+      prefillMessage: '안녕하세요! 마이 푸꾸옥을 보고 [차량 투어] 프로그램·요금 문의드립니다. (희망 날짜 / 방문 일정 / 인원): ',
+    },
+    transfer: {
+      tag: '택시·공항 이동',
+      title: '여행 중 필요한 이동, 미리 준비하세요',
+      body: '공항이나 숙소에서 이동할 차량이 필요하신가요? 출발지와 도착지, 인원과 짐을 알려주시면 이용 요금과 픽업 방법을 확인하고 예약을 도와드립니다.',
+      priceLabel: '요금: 문의',
+      ctaLabel: '이동 차량 문의하기',
+      zaloLabel: 'Zalo 문의',
+      callLabel: '전화 문의',
+      detailLabel: '상세 안내 보기',
+      prefillMessage: '안녕하세요! 마이 푸꾸옥을 보고 [택시·공항 이동] 차량 요금·픽업 문의드립니다. (출발지 / 도착지 / 날짜·시간 / 인원·짐): ',
+    },
+    activities: {
+      tag: '액티비티',
+      title: '푸꾸옥에서 하고 싶은 경험을 알려주세요',
+      body: '여행 일정과 취향에 맞는 액티비티 예약을 도와드립니다. 참여 시간과 포함 사항, 이동 방법, 이용 조건을 확인하고 안내해 드립니다.',
+      priceLabel: '프로그램·요금: 문의',
+      ctaLabel: '액티비티 문의하기',
+      zaloLabel: 'Zalo 문의',
+      callLabel: '전화 문의',
+      detailLabel: '상세 안내 보기',
+      prefillMessage: '안녕하세요! 마이 푸꾸옥을 보고 [액티비티] 프로그램·요금 문의드립니다. (희망 액티비티 / 날짜 / 인원): ',
+    },
+    commonHelp: {
+      eyebrow: '마이 푸꾸옥 현지 안내',
+      title: '도움이 필요하시면 언제든 연락해 주세요.',
+      body: '예약이나 이동이 궁금할 때, 가까운 병원·약국을 찾기 어려울 때 마이 푸꾸옥에 연락해 주세요. 현지에서 필요한 정보를 확인하고 소통을 도와드리겠습니다.',
+      ctaLabel: '도움 요청하기',
+      zaloLabel: 'Zalo로 연락하기',
+      callLabel: '전화로 연락하기',
+      prefillMessage: '안녕하세요! 마이 푸꾸옥을 통해 현지 안내 및 소통 도움을 요청드립니다. (문의 내용): ',
+    },
+  },
+  en: {
+    commonIntro: {
+      eyebrow: 'My Phu Quoc · Local Guidance & Booking Support',
+      title: 'From Trip Preparation to On-the-Ground Help',
+      body: 'We help you arrange Sunset Town buggy tours, car transfers and tours, and various local activities. Let us know your preferred schedule and group size, and we will check available programs, rates, and terms to guide you in advance.',
+    },
+    buggyTour: {
+      tag: 'Buggy Tour',
+      title: 'Around Sunset Town, Captured in Photos',
+      body: 'Ride Sunset Town’s signature electric buggy to comfortably explore key landmarks and scenic photo spots. Before you book, we guide you through the stops, duration, and rates, and help arrange your ride to match your agreed schedule.',
+      priceLabel: 'Program & Rates: On Request',
+      ctaLabel: 'Inquire About Buggy Tour',
+      zaloLabel: 'Zalo Inquiry',
+      callLabel: 'Call Us',
+      detailLabel: 'View Details',
+      prefillMessage: 'Hello! I am contacting My Phu Quoc to inquire about the [Buggy Tour] program and rates. (Preferred date / time / group size): ',
+    },
+    carTour: {
+      tag: 'Private Car Tour',
+      title: 'Ease Your Transport Worries, Travel on Your Schedule',
+      body: 'We help book private car tours tailored to your group size and itinerary. Before booking, we confirm and share the vehicle type, hours, route, inclusions, and fare. If any requests or issues come up during your trip, we assist in communicating with the operator.',
+      priceLabel: 'Program & Rates: On Request',
+      ctaLabel: 'Inquire About Car Tour',
+      zaloLabel: 'Zalo Inquiry',
+      callLabel: 'Call Us',
+      detailLabel: 'View Details',
+      prefillMessage: 'Hello! I am contacting My Phu Quoc to inquire about the [Private Car Tour] program and rates. (Preferred date / itinerary / group size): ',
+    },
+    transfer: {
+      tag: 'Taxi & Airport Transfer',
+      title: 'Plan Your Essential Transfers Ahead of Time',
+      body: 'Need a ride from the airport or your hotel? Share your pickup and drop-off points, number of passengers, and luggage details—we will check the fare and pickup instructions and help arrange your transfer.',
+      priceLabel: 'Rates: On Request',
+      ctaLabel: 'Inquire About Transfer',
+      zaloLabel: 'Zalo Inquiry',
+      callLabel: 'Call Us',
+      detailLabel: 'View Details',
+      prefillMessage: 'Hello! I am contacting My Phu Quoc to inquire about [Taxi & Airport Transfer] rates and pickup. (Pickup / Drop-off / Date & Time / Passengers & Luggage): ',
+    },
+    activities: {
+      tag: 'Activities',
+      title: 'Tell Us What You Want to Experience in Phu Quoc',
+      body: 'We help you book activities suited to your schedule and preferences. We check and guide you through session times, inclusions, transfers, and booking terms in advance.',
+      priceLabel: 'Program & Rates: On Request',
+      ctaLabel: 'Inquire About Activities',
+      zaloLabel: 'Zalo Inquiry',
+      callLabel: 'Call Us',
+      detailLabel: 'View Details',
+      prefillMessage: 'Hello! I am contacting My Phu Quoc to inquire about [Activities] programs and rates. (Activity / Date / Group size): ',
+    },
+    commonHelp: {
+      eyebrow: 'My Phu Quoc Local Support',
+      title: 'Feel Free to Reach Out Anytime You Need Help.',
+      body: 'When you have questions about bookings or transport, or when you need help finding a nearby hospital or pharmacy, contact My Phu Quoc. We will check the local information you need and help with communication.',
+      ctaLabel: 'Request Help',
+      zaloLabel: 'Contact via Zalo',
+      callLabel: 'Call Directly',
+      prefillMessage: 'Hello! I am reaching out to My Phu Quoc for local information and communication support. (Details): ',
+    },
+  },
+  zh: {
+    commonIntro: {
+      eyebrow: 'My Phu Quoc · 当地向导与预订协助',
+      title: '从行前准备到当地所需的贴心协助',
+      body: '我们协助预订日落小镇电动车（Buggy）游览、包车接送与游览以及各类当地活动。只需告知您的期望日程与人数，我们将为您提前核实可选项目、费用及使用条件并详细说明。',
+    },
+    buggyTour: {
+      tag: '电动车游览 (Buggy Tour)',
+      title: '环游日落小镇，用照片定格旅程',
+      body: '乘坐日落小镇特色电动车（Buggy），轻松游览主要景点与拍照打卡处。预订前我们会说明途经地点、使用时长与费用，并协助您按约定时间顺利用车。',
+      priceLabel: '项目与费用：咨询确认',
+      ctaLabel: '咨询电动车游览',
+      zaloLabel: 'Zalo 咨询',
+      callLabel: '电话咨询',
+      detailLabel: '查看详情',
+      prefillMessage: '您好！我在 My Phu Quoc 看到【日落小镇电动车游览 (Buggy Tour)】，想咨询项目与费用。（期望日期 / 时间 / 人数）：',
+    },
+    carTour: {
+      tag: '包车游览',
+      title: '省去交通烦恼，按您的日程自由出行',
+      body: '我们协助预订符合您人数与行程的包车游览。预订前为您确认并说明车型、使用时长、游览路线、包含项目及费用；行程中如有需求或不便，我们协助与车队沟通。',
+      priceLabel: '项目与费用：咨询确认',
+      ctaLabel: '咨询包车游览',
+      zaloLabel: 'Zalo 咨询',
+      callLabel: '电话咨询',
+      detailLabel: '查看详情',
+      prefillMessage: '您好！我在 My Phu Quoc 看到【包车游览】，想咨询项目与费用。（期望日期 / 行程 / 人数）：',
+    },
+    transfer: {
+      tag: '出租车·机场接送',
+      title: '旅途所需用车，提前从容准备',
+      body: '需要往返机场或酒店的接送车辆吗？请告知出发地与目的地、人数及行李数量，我们将为您核实费用与接车方式并协助预订。',
+      priceLabel: '费用：咨询确认',
+      ctaLabel: '咨询接送用车',
+      zaloLabel: 'Zalo 咨询',
+      callLabel: '电话咨询',
+      detailLabel: '查看详情',
+      prefillMessage: '您好！我在 My Phu Quoc 看到【出租车·机场接送】，想咨询费用与接送安排。（出发地 / 目的地 / 日期时间 / 人数与行李）：',
+    },
+    activities: {
+      tag: '当地活动',
+      title: '告诉我们您在富国岛想体验的活动',
+      body: '我们协助预订符合您旅行日程与喜好的当地活动，提前为您核实并说明参与时间、包含内容、交通方式与使用条件。',
+      priceLabel: '项目与费用：咨询确认',
+      ctaLabel: '咨询当地活动',
+      zaloLabel: 'Zalo 咨询',
+      callLabel: '电话咨询',
+      detailLabel: '查看详情',
+      prefillMessage: '您好！我在 My Phu Quoc 看到【当地活动】，想咨询项目与费用。（期望活动 / 日期 / 人数）：',
+    },
+    commonHelp: {
+      eyebrow: 'My Phu Quoc 当地协助',
+      title: '如需帮助，欢迎随时联系我们。',
+      body: '当您对预订或交通有疑问，或难以找到附近的医院、药店时，请联系 My Phu Quoc。我们将为您核实当地所需信息并协助沟通。',
+      ctaLabel: '请求协助',
+      zaloLabel: '通过 Zalo 联系',
+      callLabel: '拨打电话',
+      prefillMessage: '您好！我通过 My Phu Quoc 请求当地信息核实与沟通协助。（咨询内容）：',
+    },
+  },
+  ru: {
+    commonIntro: {
+      eyebrow: 'My Phu Quoc · Местный гид и помощь с бронированием',
+      title: 'От подготовки к поездке до помощи на месте',
+      body: 'Мы помогаем организовать туры на багги по Сансет-Тауну, трансферы и поездки на автомобиле, а также бронирование развлечений. Сообщите желаемые даты и количество человек — мы заранее уточним доступные программы, стоимость и условия проведения.',
+    },
+    buggyTour: {
+      tag: 'Тур на багги',
+      title: 'Прогулка по Сансет-Тауну и яркие фотографии',
+      body: 'Прокатитесь на знаменитом багги по главным достопримечательностям и лучшим фотолокациям Сансет-Тауна. Перед бронированием мы сообщим маршрут, время поездки и стоимость, а также поможем организовать выезд к назначенному времени.',
+      priceLabel: 'Программа и стоимость: по запросу',
+      ctaLabel: 'Узнать о туре на багги',
+      zaloLabel: 'Написать в Zalo',
+      callLabel: 'Позвонить',
+      detailLabel: 'Подробнее',
+      prefillMessage: 'Здравствуйте! Пишу с сайта My Phu Quoc по поводу [Тура на багги]: хочу уточнить программу и стоимость. (Дата / время / количество человек): ',
+    },
+    carTour: {
+      tag: 'Автомобильный тур',
+      title: 'Без забот о транспорте — по вашему маршруту',
+      body: 'Помогаем забронировать автомобиль с водителем под ваш состав и расписание. Заранее уточняем и сообщаем тип автомобиля, время аренды, маршрут, что включено в цену и итоговую стоимость. При возникновении вопросов в поездке помогаем связаться с перевозчиком.',
+      priceLabel: 'Программа и стоимость: по запросу',
+      ctaLabel: 'Узнать об автотуре',
+      zaloLabel: 'Написать в Zalo',
+      callLabel: 'Позвонить',
+      detailLabel: 'Подробнее',
+      prefillMessage: 'Здравствуйте! Пишу с сайта My Phu Quoc по поводу [Автомобильного тура]: хочу уточнить программу и стоимость. (Дата / маршрут / количество человек): ',
+    },
+    transfer: {
+      tag: 'Такси и трансфер в аэропорт',
+      title: 'Заранее подготовьте нужные поездки по острову',
+      body: 'Нужна машина из аэропорта или отеля? Сообщите точки отправления и назначения, число пассажиров и количество багажа — мы уточним стоимость, способ встречи и поможем с бронированием.',
+      priceLabel: 'Стоимость: по запросу',
+      ctaLabel: 'Заказать трансфер',
+      zaloLabel: 'Написать в Zalo',
+      callLabel: 'Позвонить',
+      detailLabel: 'Подробнее',
+      prefillMessage: 'Здравствуйте! Пишу с сайта My Phu Quoc по поводу [Такси / трансфера в аэропорт]: хочу уточнить стоимость и подачу авто. (Откуда / куда / дата и время / пассажиры и багаж): ',
+    },
+    activities: {
+      tag: 'Экскурсии и развлечения',
+      title: 'Расскажите, какие впечатления вы ищете на Фукуоке',
+      body: 'Помогаем подобрать и забронировать морские прогулки и активный отдых под ваше расписание. Заранее проверяем и сообщаем время проведения, что включено, трансфер и условия участия.',
+      priceLabel: 'Программа и стоимость: по запросу',
+      ctaLabel: 'Узнать о развлечениях',
+      zaloLabel: 'Написать в Zalo',
+      callLabel: 'Позвонить',
+      detailLabel: 'Подробнее',
+      prefillMessage: 'Здравствуйте! Пишу с сайта My Phu Quoc по поводу [Экскурсий и развлечений]: хочу уточнить программу и стоимость. (Экскурсия / дата / количество человек): ',
+    },
+    commonHelp: {
+      eyebrow: 'Поддержка My Phu Quoc',
+      title: 'Обращайтесь в любое время, если нужна помощь.',
+      body: 'Если у вас есть вопросы по бронированию или трансферу, либо сложно найти ближайшую больницу или аптеку — свяжитесь с My Phu Quoc. Мы проверим нужную информацию на месте и поможем с переводом и общением.',
+      ctaLabel: 'Попросить о помощи',
+      zaloLabel: 'Связаться в Zalo',
+      callLabel: 'Позвонить',
+      prefillMessage: 'Здравствуйте! Обращаюсь в My Phu Quoc за местной информацией и помощью в общении. (Вопрос): ',
+    },
+  },
+  ja: {
+    commonIntro: {
+      eyebrow: 'My Phu Quoc · 現地案内・予約サポート',
+      title: '旅行の準備から現地で必要なサポートまで',
+      body: 'サンセットタウンのバギーツアー、車両移動・チャーターツアー、各種アクティビティのご予約をお手伝いします。ご希望の日程と人数をお知らせいただければ、利用可能なプログラムや料金、ご利用条件を事前に確認してご案内いたします。',
+    },
+    buggyTour: {
+      tag: 'バギーツアー',
+      title: 'サンセットタウン一周、写真に残す旅',
+      body: 'サンセットタウン名物の電動バギーに乗って、主要スポットや写真映えする場所を快適に巡りましょう。ご予約前に訪問地点・所要時間・料金をご案内し、お約束した日程に合わせてご利用いただけるよう手配をお手伝いします。',
+      priceLabel: 'プログラム・料金：お問い合わせ',
+      ctaLabel: 'バギーツアーを問い合わせる',
+      zaloLabel: 'Zaloで問い合わせ',
+      callLabel: '電話で問い合わせ',
+      detailLabel: '詳細を見る',
+      prefillMessage: 'こんにちは！My Phu Quocを見て【バギーツアー】のプログラム・料金について問い合わせます。（ご希望日 / 時間帯 / 人数）：',
+    },
+    carTour: {
+      tag: 'チャーター車両ツアー',
+      title: '移動の心配を減らし、ご希望のスケジュールで',
+      body: '人数やご旅行日程に合わせた車両ツアーのご予約をお手伝いします。ご予約前に車種・利用時間・訪問スケジュール・含まれる内容と料金を確認してご案内し、ご利用中のご要望やお困りごとがあれば運行会社とのやり取りをサポートします。',
+      priceLabel: 'プログラム・料金：お問い合わせ',
+      ctaLabel: '車両ツアーを問い合わせる',
+      zaloLabel: 'Zaloで問い合わせ',
+      callLabel: '電話で問い合わせ',
+      detailLabel: '詳細を見る',
+      prefillMessage: 'こんにちは！My Phu Quocを見て【車両ツアー】のプログラム・料金について問い合わせます。（ご希望日 / 訪問予定 / 人数）：',
+    },
+    transfer: {
+      tag: 'タクシー・空港送迎',
+      title: '旅行中に必要な移動、事前に準備しましょう',
+      body: '空港やホテルからの移動車両が必要ですか？出発地と目的地、人数とお荷物の量をお知らせいただければ、利用料金とピックアップ方法を確認してご予約をお手伝いします。',
+      priceLabel: '料金：お問い合わせ',
+      ctaLabel: '移動車両を問い合わせる',
+      zaloLabel: 'Zaloで問い合わせ',
+      callLabel: '電話で問い合わせ',
+      detailLabel: '詳細を見る',
+      prefillMessage: 'こんにちは！My Phu Quocを見て【タクシー・空港送迎】の料金・ピックアップについて問い合わせます。（出発地 / 目的地 / 日時 / 人数・荷物）：',
+    },
+    activities: {
+      tag: 'アクティビティ',
+      title: 'フーコックで体験したいことを教えてください',
+      body: 'ご旅行日程やお好みに合わせたアクティビティ予約をお手伝いします。参加時間や含まれる内容、移動方法、ご利用条件を事前に確認してご案内いたします。',
+      priceLabel: 'プログラム・料金：お問い合わせ',
+      ctaLabel: 'アクティビティを問い合わせる',
+      zaloLabel: 'Zaloで問い合わせ',
+      callLabel: '電話で問い合わせ',
+      detailLabel: '詳細を見る',
+      prefillMessage: 'こんにちは！My Phu Quocを見て【アクティビティ】のプログラム・料金について問い合わせます。（ご希望内容 / 日程 / 人数）：',
+    },
+    commonHelp: {
+      eyebrow: 'My Phu Quoc 現地サポート',
+      title: 'お困りの際はいつでもご連絡ください。',
+      body: 'ご予約や移動について知りたいとき、近くの病院・薬局が見つからないときは、My Phu Quocにご連絡ください。現地で必要な情報を確認し、コミュニケーションをお手伝いいたします。',
+      ctaLabel: 'サポートを依頼する',
+      zaloLabel: 'Zaloで連絡する',
+      callLabel: '電話で連絡する',
+      prefillMessage: 'こんにちは！My Phu Quocに現地情報の確認・コミュニケーションのサポートをお願いします。（ご相談内容）：',
+    },
+  },
+  hi: {
+    commonIntro: {
+      eyebrow: 'My Phu Quoc · स्थानीय मार्गदर्शन और बुकिंग सहायता',
+      title: 'यात्रा की तैयारी से लेकर स्थानीय सहायता तक',
+      body: 'हम सनसेट टाउन बग्गी टूर, कार ट्रांसफ़र व टूर, और विभिन्न एक्टिविटी बुकिंग में आपकी मदद करते हैं। अपनी पसंदीदा तारीख और लोगों की संख्या बताएं—हम उपलब्ध प्रोग्राम, शुल्क और उपयोग की शर्तों की पहले से जाँच कर आपको जानकारी देंगे।',
+    },
+    buggyTour: {
+      tag: 'बग्गी टूर',
+      title: 'सनसेट टाउन का एक चक्कर, यादगार तस्वीरों के साथ',
+      body: 'सनसेट टाउन की प्रसिद्ध इलेक्ट्रिक बग्गी में बैठकर मुख्य आकर्षणों और बेहतरीन फ़ोटो स्पॉट्स को आराम से देखें। बुकिंग से पहले हम रुकने के स्थानों, समय और शुल्क की जानकारी देते हैं और तय समय के अनुसार आपकी बुकिंग में मदद करते हैं।',
+      priceLabel: 'प्रोग्राम और शुल्क: पूछताछ करें',
+      ctaLabel: 'बग्गी टूर के लिए पूछताछ करें',
+      zaloLabel: 'Zalo पर पूछें',
+      callLabel: 'कॉल करें',
+      detailLabel: 'विवरण देखें',
+      prefillMessage: 'नमस्ते! मैं My Phu Quoc पर [बग्गी टूर] के प्रोग्राम और शुल्क के बारे में जानकारी चाहता/चाहती हूँ। (तारीख / समय / लोगों की संख्या): ',
+    },
+    carTour: {
+      tag: 'कार टूर',
+      title: 'आवागमन की चिंता छोड़ें, अपनी पसंद के शेड्यूल पर घूमें',
+      body: 'हम आपके ग्रुप के आकार और यात्रा कार्यक्रम के अनुसार कार टूर बुक करने में मदद करते हैं। बुकिंग से पहले गाड़ी के प्रकार, समय, यात्रा मार्ग, शामिल सुविधाओं और शुल्क की पुष्टि कर जानकारी दी जाती है। यात्रा के दौरान किसी भी आवश्यकता में हम ऑपरेटर से संवाद में मदद करते हैं।',
+      priceLabel: 'प्रोग्राम और शुल्क: पूछताछ करें',
+      ctaLabel: 'कार टूर के लिए पूछताछ करें',
+      zaloLabel: 'Zalo पर पूछें',
+      callLabel: 'कॉल करें',
+      detailLabel: 'विवरण देखें',
+      prefillMessage: 'नमस्ते! मैं My Phu Quoc पर [कार टूर] के प्रोग्राम और शुल्क के बारे में जानकारी चाहता/चाहती हूँ। (तारीख / मार्ग / लोगों की संख्या): ',
+    },
+    transfer: {
+      tag: 'टैक्सी और एयरपोर्ट ट्रांसफ़र',
+      title: 'यात्रा के दौरान ज़रूरी वाहन पहले से तैयार रखें',
+      body: 'क्या आपको एयरपोर्ट या होटल से आने-जाने के लिए गाड़ी चाहिए? प्रस्थान और गंतव्य स्थान, यात्रियों की संख्या और सामान की जानकारी बताएं—हम किराया और पिकअप तरीका जाँचकर बुकिंग में मदद करेंगे।',
+      priceLabel: 'शुल्क: पूछताछ करें',
+      ctaLabel: 'ट्रांसफ़र वाहन के लिए पूछताछ करें',
+      zaloLabel: 'Zalo पर पूछें',
+      callLabel: 'कॉल करें',
+      detailLabel: 'विवरण देखें',
+      prefillMessage: 'नमस्ते! मैं My Phu Quoc पर [टैक्सी / एयरपोर्ट ट्रांसफ़र] के शुल्क और पिकअप के बारे में पूछना चाहता/चाहती हूँ। (कहाँ से / कहाँ तक / तारीख व समय / यात्री और सामान): ',
+    },
+    activities: {
+      tag: 'एक्टिविटीज़',
+      title: 'बताएं कि आप फ़ू क्वोक में क्या अनुभव करना चाहते हैं',
+      body: 'हम आपके यात्रा कार्यक्रम और पसंद के अनुसार एक्टिविटी बुक करने में मदद करते हैं। हम समय, शामिल सेवाओं, आने-जाने के तरीके और शर्तों की जाँच कर आपको पहले से जानकारी देते हैं।',
+      priceLabel: 'प्रोग्राम और शुल्क: पूछताछ करें',
+      ctaLabel: 'एक्टिविटी के लिए पूछताछ करें',
+      zaloLabel: 'Zalo पर पूछें',
+      callLabel: 'कॉल करें',
+      detailLabel: 'विवरण देखें',
+      prefillMessage: 'नमस्ते! मैं My Phu Quoc पर [एक्टिविटी] के प्रोग्राम और शुल्क के बारे में जानकारी चाहता/चाहती हूँ। (पसंदीदा एक्टिविटी / तारीख / लोगों की संख्या): ',
+    },
+    commonHelp: {
+      eyebrow: 'My Phu Quoc स्थानीय सहायता',
+      title: 'जब भी सहायता की आवश्यकता हो, बेझिझक संपर्क करें।',
+      body: 'जब बुकिंग या वाहन के बारे में कोई सवाल हो, या नज़दीकी अस्पताल या फ़ार्मेसी ढूँढना मुश्किल हो, तो My Phu Quoc से संपर्क करें। हम स्थानीय जानकारी की पुष्टि करेंगे और संवाद में आपकी मदद करेंगे।',
+      ctaLabel: 'सहायता का अनुरोध करें',
+      zaloLabel: 'Zalo से संपर्क करें',
+      callLabel: 'फ़ोन करें',
+      prefillMessage: 'नमस्ते! मुझे My Phu Quoc से स्थानीय जानकारी और संवाद सहायता चाहिए। (विवरण): ',
+    },
+  },
+  vi: {
+    commonIntro: {
+      eyebrow: 'My Phu Quoc · Hướng dẫn địa phương & Hỗ trợ đặt dịch vụ',
+      title: 'Từ bước chuẩn bị chuyến đi đến hỗ trợ tại địa phương',
+      body: 'Chúng tôi hỗ trợ đặt tour xe điện buggy Thị trấn Hoàng Hôn, xe đưa đón và tham quan, cùng nhiều hoạt động trải nghiệm đa dạng. Hãy cho biết lịch trình mong muốn và số lượng khách, chúng tôi sẽ kiểm tra trước chương trình khả dụng, chi phí và điều kiện áp dụng để hướng dẫn chi tiết cho bạn.',
+    },
+    buggyTour: {
+      tag: 'Tour xe điện Buggy',
+      title: 'Một vòng Thị trấn Hoàng Hôn, lưu giữ hành trình qua từng khung hình',
+      body: 'Ngồi xe điện buggy đặc trưng của Thị trấn Hoàng Hôn để thoải mái dạo quanh các điểm tham quan chính và góc chụp ảnh đẹp. Trước khi đặt, chúng tôi thông báo rõ điểm dừng, thời lượng và chi phí, đồng thời hỗ trợ đặt xe đúng theo khung giờ đã hẹn.',
+      priceLabel: 'Chương trình · Chi phí: Liên hệ',
+      ctaLabel: 'Liên hệ đặt tour Buggy',
+      zaloLabel: 'Nhắn Zalo',
+      callLabel: 'Gọi điện',
+      detailLabel: 'Xem chi tiết',
+      prefillMessage: 'Xin chào! Tôi xem My Phu Quoc và muốn hỏi thông tin chương trình · chi phí [Tour xe điện Buggy]. (Ngày / khung giờ / số khách): ',
+    },
+    carTour: {
+      tag: 'Tour xe riêng',
+      title: 'Bớt nỗi lo di chuyển, chủ động theo lịch trình bạn muốn',
+      body: 'Chúng tôi hỗ trợ đặt xe tham quan phù hợp với số lượng khách và lịch trình của bạn. Trước khi đặt, chúng tôi kiểm tra và thông báo loại xe, thời gian sử dụng, lịch trình điểm đến, các mục bao gồm và chi phí. Nếu có yêu cầu hoặc bất tiện trong quá trình sử dụng, chúng tôi hỗ trợ trao đổi với nhà xe.',
+      priceLabel: 'Chương trình · Chi phí: Liên hệ',
+      ctaLabel: 'Liên hệ đặt xe tham quan',
+      zaloLabel: 'Nhắn Zalo',
+      callLabel: 'Gọi điện',
+      detailLabel: 'Xem chi tiết',
+      prefillMessage: 'Xin chào! Tôi xem My Phu Quoc và muốn hỏi thông tin chương trình · chi phí [Tour xe riêng]. (Ngày / lịch trình / số khách): ',
+    },
+    transfer: {
+      tag: 'Taxi · Đưa đón sân bay',
+      title: 'Chuẩn bị trước phương tiện di chuyển cần thiết trong chuyến đi',
+      body: 'Bạn cần xe di chuyển từ sân bay hoặc khách sạn? Hãy cho biết điểm đón, điểm đến, số lượng khách và hành lý—chúng tôi sẽ kiểm tra chi phí, cách thức đón và hỗ trợ đặt xe cho bạn.',
+      priceLabel: 'Chi phí: Liên hệ',
+      ctaLabel: 'Liên hệ đặt xe di chuyển',
+      zaloLabel: 'Nhắn Zalo',
+      callLabel: 'Gọi điện',
+      detailLabel: 'Xem chi tiết',
+      prefillMessage: 'Xin chào! Tôi xem My Phu Quoc và muốn hỏi chi phí · cách đón [Taxi · Đưa đón sân bay]. (Điểm đón / điểm đến / ngày giờ / số khách & hành lý): ',
+    },
+    activities: {
+      tag: 'Hoạt động & Trải nghiệm',
+      title: 'Hãy cho biết trải nghiệm bạn muốn thử tại Phú Quốc',
+      body: 'Chúng tôi hỗ trợ đặt các hoạt động trải nghiệm phù hợp với lịch trình và sở thích của bạn. Thời gian tham gia, hạng mục bao gồm, phương tiện di chuyển và điều kiện áp dụng đều được kiểm tra và thông báo trước.',
+      priceLabel: 'Chương trình · Chi phí: Liên hệ',
+      ctaLabel: 'Liên hệ đặt hoạt động',
+      zaloLabel: 'Nhắn Zalo',
+      callLabel: 'Gọi điện',
+      detailLabel: 'Xem chi tiết',
+      prefillMessage: 'Xin chào! Tôi xem My Phu Quoc và muốn hỏi chương trình · chi phí [Hoạt động trải nghiệm]. (Hoạt động mong muốn / ngày / số khách): ',
+    },
+    commonHelp: {
+      eyebrow: 'Hỗ trợ địa phương My Phu Quoc',
+      title: 'Bất cứ khi nào cần hỗ trợ, hãy liên hệ với chúng tôi.',
+      body: 'Khi bạn thắc mắc về việc đặt dịch vụ hay di chuyển, hoặc khi khó tìm bệnh viện, phòng khám hay nhà thuốc gần nhất, hãy liên hệ My Phu Quoc. Chúng tôi sẽ kiểm tra thông tin cần thiết tại địa phương và hỗ trợ kết nối, giao tiếp.',
+      ctaLabel: 'Yêu cầu hỗ trợ',
+      zaloLabel: 'Liên hệ qua Zalo',
+      callLabel: 'Gọi điện trực tiếp',
+      prefillMessage: 'Xin chào! Tôi liên hệ My Phu Quoc để nhờ kiểm tra thông tin địa phương và hỗ trợ giao tiếp. (Nội dung cần hỗ trợ): ',
+    },
+  },
+}
+
+export function buildServiceWhatsappUrl(prefillMessage: string): string {
+  return `${CONTACT_CONFIG.whatsappUrl}?text=${encodeURIComponent(prefillMessage)}`
+}

@@ -1,14 +1,6 @@
 import { CONTACT_CONFIG } from '@/lib/contactConfig'
-import {
-  MARMORIS_YACHT_TOURS,
-  YACHT_CANCELLATION,
-  YACHT_CANCEL_NOTE,
-  YACHT_CHILD_POLICY,
-  YACHT_EXCLUDED,
-  YACHT_EXTRA_PAID,
-  YACHT_INCLUDED,
-  type L,
-} from '@/lib/activities/marmorisYacht'
+import { MARMORIS_YACHT_TOURS, type L } from '@/lib/activities/marmorisYacht'
+import { BOOKING_SERVICE_COPY } from '@/lib/i18n/bookingServiceCopy'
 import type { Locale } from '@/lib/i18n/config'
 
 /* ChatGPT 7개 국어 검수 완료 (2026-11-02) */
@@ -156,11 +148,12 @@ const UI: Record<string, YachtUiCopy> = {
 
 export function ActivityYachtSection({ locale = 'ko' }: { locale?: Locale }) {
   const ui = UI[locale] ?? UI.en
+  const booking = BOOKING_SERVICE_COPY[locale].activities
   return (
     <section className="yachtSection" id="yacht">
       <h2 className="activitiesSectionTitle">{ui.section}</h2>
-      <p className="yachtLead">{ui.lead}</p>
-      <p className="yachtNotice">{ui.notice}</p>
+      <p className="yachtLead">{booking.body}</p>
+      <p className="yachtNotice">{booking.priceLabel}</p>
       <div className="yachtGrid">
         {MARMORIS_YACHT_TOURS.map((t) => (
           <article key={t.id} className="yachtCard">
@@ -178,80 +171,17 @@ export function ActivityYachtSection({ locale = 'ko' }: { locale?: Locale }) {
             <div className="yachtBody">
               <p className="yachtOp">{ui.partner} · {t.operator}</p>
               <h3 className="yachtTitle">{pick(t.title, locale)}</h3>
-              <div className="yachtMeta">
-                <span>{t.hours}</span>
-                {t.facts.map((f) => <span key={f.en}>{pick(f, locale)}</span>)}
-              </div>
-              <div className="yachtTags">
-                {t.tags.map((g) => <span key={g.en}>{pick(g, locale)}</span>)}
-              </div>
-              <ul className="yachtClasses">
-                {t.classes.map((c) => (
-                  <li key={c.name.en}>
-                    <div className="yachtClassMain">
-                      <span>
-                        <b>{pick(c.name, locale)}</b>
-                        <em>{pick(c.deck, locale)}</em>
-                      </span>
-                      <strong>{c.priceVnd.toLocaleString('en-US')} ₫<small>{ui.per}</small></strong>
-                    </div>
-                    {c.note && <p className="yachtClassNote">{pick(c.note, locale)}</p>}
-                  </li>
-                ))}
-              </ul>
-
-              <details className="yachtDetails">
-                <summary>{ui.schedule}</summary>
-                <p className="yachtNote">{pick(t.flow, locale)}</p>
-                <ul className="yachtTimeline">
-                  {t.steps.map((s) => (
-                    <li key={s.time + s.title.en}>
-                      <time>{s.time}</time>
-                      <div>
-                        <b>{pick(s.title, locale)}</b>
-                        {s.desc && <span>{pick(s.desc, locale)}</span>}
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-                {t.notes.map((n) => <p key={n.en} className="yachtNote">{pick(n, locale)}</p>)}
-              </details>
-
-              <details className="yachtDetails">
-                <summary>{ui.included}</summary>
-                <ul className="yachtList">
-                  {YACHT_INCLUDED.map((i) => <li key={i.en}>{pick(i, locale)}</li>)}
-                </ul>
-                <p className="yachtSub">{ui.extraPaid}</p>
-                <ul className="yachtList">
-                  {YACHT_EXTRA_PAID.map((i) => <li key={i.en}>{pick(i, locale)}</li>)}
-                </ul>
-                <p className="yachtSub">{ui.excluded}</p>
-                <ul className="yachtList">
-                  {YACHT_EXCLUDED.map((i) => <li key={i.en}>{pick(i, locale)}</li>)}
-                </ul>
-              </details>
-
-              <details className="yachtDetails">
-                <summary>{ui.policy}</summary>
-                <p className="yachtSub">{ui.cancelTitle}</p>
-                {YACHT_CANCELLATION.map((g) => (
-                  <div key={g.title.en}>
-                    <p className="yachtGroup">{pick(g.title, locale)}</p>
-                    <ul className="yachtList">
-                      {g.rows.map((r) => <li key={r.en}>{pick(r, locale)}</li>)}
-                    </ul>
-                  </div>
-                ))}
-                <p className="yachtNote">{pick(YACHT_CANCEL_NOTE, locale)}</p>
-                <p className="yachtSub">{ui.childTitle}</p>
-                <ul className="yachtList">
-                  {YACHT_CHILD_POLICY.map((r) => <li key={r.en}>{pick(r, locale)}</li>)}
-                </ul>
-              </details>
+              <p className="yachtNote">{booking.priceLabel}</p>
 
               <div className="yachtCta">
-                <a href={CONTACT_CONFIG.whatsappUrl} target="_blank" rel="noopener noreferrer" className="yachtCtaPrimary">{ui.wa}</a>
+                <a
+                  href={`${CONTACT_CONFIG.whatsappUrl}?text=${encodeURIComponent(`${booking.prefillMessage} [${pick(t.title, locale)}] `)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="yachtCtaPrimary"
+                >
+                  {ui.wa}
+                </a>
                 <a href={CONTACT_CONFIG.zaloUrl} target="_blank" rel="noopener noreferrer" className="yachtCtaGhost">{ui.za}</a>
               </div>
             </div>

@@ -89,6 +89,7 @@ const DELETED_SLUG_REDIRECTS: Record<string, string> = {
   'sunset-place-4': '/directory/dining',
   'sunset-place-8': '/directory/wellness',
   'the-nice-hotel-phu-quoc-fireworks-ocean-view': '/hotels',
+  'th-luxury-hotel': '/hotels',
 }
 
 export async function generateBusinessMetadata(
@@ -142,6 +143,8 @@ export async function generateBusinessMetadata(
       google_rating: regItem.google_rating ?? b.google_rating,
       google_review_count: regItem.google_review_count ?? b.google_review_count,
       rating_check_date: regItem.rating_check_date ?? b.rating_check_date,
+      google_review_analysis:
+        'google_review_analysis' in regItem ? regItem.google_review_analysis : b.google_review_analysis,
       review_summary: 'review_summary' in regItem ? regItem.review_summary : b.review_summary,
       tags: regItem.tags ?? b.tags,
       badges:
@@ -282,6 +285,8 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
       google_rating: regItem.google_rating ?? b.google_rating,
       google_review_count: regItem.google_review_count ?? b.google_review_count,
       rating_check_date: regItem.rating_check_date ?? b.rating_check_date,
+      google_review_analysis:
+        'google_review_analysis' in regItem ? regItem.google_review_analysis : b.google_review_analysis,
       review_summary: 'review_summary' in regItem ? regItem.review_summary : b.review_summary,
       tags: regItem.tags ?? b.tags,
       badges:
@@ -415,7 +420,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
         <Logo locale={locale} />
         <div className="detailNavRight">
           <nav>
-            <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
+            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
             <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
             {isHotel ? (
               <Link href={isKhem ? `${localePath(locale, '/hotels')}?area=khem-beach` : localePath(locale, '/hotels')}>

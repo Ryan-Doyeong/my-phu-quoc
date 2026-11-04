@@ -115,16 +115,16 @@ export const QUICK_CARD_SUBLABELS: Record<string, LocaleMap> = {
     en: 'Coming soon', ko: '준비 중', zh: '即将推出', ru: 'Скоро', ja: '近日公開', hi: 'जल्द आ रहा है', vi: 'Sắp ra mắt',
   },
   buggy: {
-    en: 'Up to 8 people · Photo stops', ko: '최대 8명 · 사진 촬영 명소', zh: '最多8人 · 拍照打卡点', ru: 'До 8 человек · Остановки для фото', ja: '最大8名 · 撮影スポット', hi: 'अधिकतम 8 लोग · फोटो स्टॉप', vi: 'Tối đa 8 người · Điểm chụp ảnh',
+    en: 'Landmarks & photo spots · Rates on request', ko: '명소·포토존 · 프로그램·요금 문의', zh: '景点与拍照点 · 项目与费用咨询', ru: 'Локации для фото · Стоимость по запросу', ja: '名所・撮影スポット · 料金お問い合わせ', hi: 'प्रमुख स्थल व फ़ोटो · शुल्क पूछताछ', vi: 'Điểm đẹp chụp ảnh · Chi phí liên hệ',
   },
   taxi: {
-    en: 'Private car · Custom route', ko: '전용 차량 · 맞춤 경로', zh: '专车接送 · 定制路线', ru: 'Частный автомобиль · Маршрут на заказ', ja: '専用車 · ご希望に合わせたルート', hi: 'निजी कार · पसंद के अनुसार मार्ग', vi: 'Xe riêng · Lộ trình tùy chỉnh',
+    en: 'Car tour & airport transfer · Rates on request', ko: '차량 투어·공항 이동 · 요금 문의', zh: '包车游览·机场接送 · 费用咨询', ru: 'Автотур и трансфер · Стоимость по запросу', ja: '車両ツアー・空港送迎 · 料金お問い合わせ', hi: 'कार टूर व एयरपोर्ट ट्रांसफ़र · शुल्क पूछताछ', vi: 'Tour xe riêng & đưa đón · Chi phí liên hệ',
   },
   events: {
     en: 'Fireworks · Shows', ko: '불꽃놀이 · 공연', zh: '烟花表演 · 精彩演出', ru: 'Фейерверки · Шоу', ja: '花火 · ショー', hi: 'आतिशबाज़ी · शो', vi: 'Pháo hoa · Biểu diễn',
   },
   activities: {
-    en: 'Yachts · Islands · Sea', ko: '요트 · 섬 · 바다', zh: '游艇 · 海岛 · 海上活动', ru: 'Яхты · Острова · Море', ja: 'ヨット · 島 · 海', hi: 'यॉट · द्वीप · समुद्र', vi: 'Du thuyền · Đảo · Biển',
+    en: 'Custom activity booking · Rates on request', ko: '일정·취향 맞춤 예약 · 요금 문의', zh: '按日程与喜好预订 · 费用咨询', ru: 'Подбор развлечений · Стоимость по запросу', ja: '日程・好みに合わせた予約 · 料金お問い合わせ', hi: 'पसंद के अनुसार बुकिंग · शुल्क पूछताछ', vi: 'Đặt trải nghiệm theo lịch · Chi phí liên hệ',
   },
   emergency: {
     en: 'Hospitals · Pharmacies', ko: '병원 · 약국', zh: '医院 · 药店', ru: 'Больницы · Аптеки', ja: '病院 · 薬局', hi: 'अस्पताल · दवा की दुकानें', vi: 'Bệnh viện · Nhà thuốc',

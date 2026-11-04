@@ -42,7 +42,8 @@ function getKhemDistanceBadge(hotel: HotelItem, t: HotelUiDictionary): string {
   return baseBadge
 }
 
-function formatReviewLabel(count: number, locale?: Locale): string {
+function formatReviewLabel(count: number | null | undefined, locale?: Locale): string {
+  if (count == null || isNaN(count)) return ''
   if (locale === 'en') return `${count.toLocaleString()} reviews`
   if (locale === 'zh') return `${count.toLocaleString()}条评价`
   if (locale === 'ja') return `${count.toLocaleString()}件のレビュー`
@@ -131,11 +132,15 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
         {/* 평점, 후기 수, 이동 거리 */}
         <div className="cardMetaRow">
           <div className="cardRatingBox">
-            <span className="cardScore" title="Agoda 10-point guest rating">
-              Agoda {hotel.rating.toFixed(1)} / 10
-            </span>
-            <span className="cardReviews">({formatReviewLabel(hotel.reviewsCount, locale)})</span>
-            {hotel.googleRating && (
+            {hotel.rating != null && (
+              <span className="cardScore" title="Agoda 10-point guest rating">
+                Agoda {hotel.rating.toFixed(1)} / 10
+              </span>
+            )}
+            {hotel.reviewsCount != null && hotel.reviewsCount > 0 ? (
+              <span className="cardReviews">({formatReviewLabel(hotel.reviewsCount, locale)})</span>
+            ) : null}
+            {hotel.googleRating != null && (
               <span className="googleScoreBadge" title="Google Maps 5-point rating">
                 {t.googleMapsLabel} {hotel.googleRating.toFixed(1)} / 5
                 {typeof hotel.googleReviewsCount === 'number' && hotel.googleReviewsCount > 0 ? ` (${hotel.googleReviewsCount})` : ''}
@@ -145,11 +150,11 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
           </div>
           {isKhem ? (
             <span className="khemDistBadge">🚗 {getKhemDistanceBadge(hotel, t)}</span>
-          ) : (
+          ) : hotel.cable_m != null ? (
             <span className="cableBadge" title={`${t.cableCarStationDistance}: ${hotel.cable_m}m`}>
               🚡 {t.cableCarDistance} {hotel.cable_m}m
             </span>
-          )}
+          ) : null}
         </div>
 
         {/* 호텔명 (한글 / 영문) */}
@@ -193,11 +198,13 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
         )}
 
         {/* 시설 아이콘 (최대 4개) */}
-        <div className="cardFacilities">
-          {hotel.coreFacilities.slice(0, 4).map((f, i) => (
-            <span key={i} className="cardFacilityTag">✓ {f}</span>
-          ))}
-        </div>
+        {hotel.coreFacilities && hotel.coreFacilities.length > 0 && (
+          <div className="cardFacilities">
+            {hotel.coreFacilities.slice(0, 4).map((f, i) => (
+              <span key={i} className="cardFacilityTag">✓ {f}</span>
+            ))}
+          </div>
+        )}
 
         {/* 상세 보기 / 구글맵 / Agoda에서 예약 버튼 */}
         <div className="cardActionRow">
@@ -337,10 +344,16 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
           <div className="modalHeaderBlock">
             <div className="modalHeaderMeta">
               <div className="modalRating">
-                <span className="modalScore">Agoda {hotel.rating.toFixed(1)} / 10</span>
-                <span className="modalScoreDivider" style={{ margin: '0 6px', color: '#cbd5e1' }}>·</span>
-                <span className="modalReviews">{formatReviewLabel(hotel.reviewsCount, locale)}</span>
-                {hotel.googleRating && (
+                {hotel.rating != null && (
+                  <span className="modalScore">Agoda {hotel.rating.toFixed(1)} / 10</span>
+                )}
+                {hotel.rating != null && hotel.reviewsCount != null && hotel.reviewsCount > 0 && (
+                  <span className="modalScoreDivider" style={{ margin: '0 6px', color: '#cbd5e1' }}>·</span>
+                )}
+                {hotel.reviewsCount != null && hotel.reviewsCount > 0 && (
+                  <span className="modalReviews">{formatReviewLabel(hotel.reviewsCount, locale)}</span>
+                )}
+                {hotel.googleRating != null && (
                   <span className="googleScoreBadge">
                     {t.googleMapsLabel} {hotel.googleRating.toFixed(1)} / 5
                     {typeof hotel.googleReviewsCount === 'number' && hotel.googleReviewsCount > 0 ? ` (${hotel.googleReviewsCount})` : ''}
@@ -352,11 +365,11 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                 <span className="khemDistBadge" style={{ fontSize: '0.85rem', padding: '4px 10px' }}>
                   🚗 {getKhemDistanceBadge(hotel, t)}
                 </span>
-              ) : (
+              ) : hotel.cable_m != null ? (
                 <span className="cableBadge" style={{ fontSize: '0.85rem' }}>
                   🚡 {t.cableCarStationDistance} {hotel.cable_m}m
                 </span>
-              )}
+              ) : null}
             </div>
 
             <h2 className="modalHotelTitle">{hotel.displayName || hotel.name_ko}</h2>
@@ -426,7 +439,9 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                 <div className="accordionTitle">
                   <span className="accordionIcon">⭐</span>
                   <span>{t.accordionReviews}</span>
-                  <span className="accordionBadge">{hotel.rating.toFixed(1)} / 10</span>
+                  <span className="accordionBadge">
+                    {hotel.rating != null ? `${hotel.rating.toFixed(1)} / 10` : ''}
+                  </span>
                 </div>
                 <span className="accordionChevron">{openSections.reviews ? '▲' : '▼'}</span>
               </button>
@@ -435,11 +450,15 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                 <div className="accordionBody">
                   {/* 총평 & 세부 평점 막대 그래프 */}
                   <div className="reviewSummaryTop">
-                    <div className="overallScoreBox">
-                      <span className="scoreBig">{hotel.rating.toFixed(1)}</span>
-                      <span className="scoreTotal">/ 10</span>
-                      <div className="scoreCount">{formatReviewLabel(hotel.reviewsCount, locale)} (Agoda)</div>
-                    </div>
+                    {hotel.rating != null && (
+                      <div className="overallScoreBox">
+                        <span className="scoreBig">{hotel.rating.toFixed(1)}</span>
+                        <span className="scoreTotal">/ 10</span>
+                        {hotel.reviewsCount != null && hotel.reviewsCount > 0 && (
+                          <div className="scoreCount">{formatReviewLabel(hotel.reviewsCount, locale)} (Agoda)</div>
+                        )}
+                      </div>
+                    )}
 
                     {hotel.subRatings && (
                       <div className="subRatingsList">
@@ -921,15 +940,21 @@ function HotelsPageInner({ hotels: rawHotels, locale = 'en', initialArea }: Hote
 
     const priceLevel = (h: HotelItem) => getPriceTierLevel(h.priceRange) || 0
     list.sort((a, b) => {
-      if (activeSort === 'priceHigh') return priceLevel(b) - priceLevel(a) || b.rating - a.rating
-      if (activeSort === 'priceLow') return priceLevel(a) - priceLevel(b) || b.rating - a.rating
-      if (activeSort === 'rating') return b.rating - a.rating
-      if (activeSort === 'reviews') return b.reviewsCount - a.reviewsCount
-      if (activeSort === 'nearest') return a.cable_m - b.cable_m
+      // 3성급 호텔 탭: 더 룸 호텔(마이 푸꾸옥 추천)을 어떤 정렬에서도 맨 위에 고정
+      if (activeCategory === 'boutique') {
+        const pinA = a.slug === 'the-room-hotel' ? 0 : 1
+        const pinB = b.slug === 'the-room-hotel' ? 0 : 1
+        if (pinA !== pinB) return pinA - pinB
+      }
+      if (activeSort === 'priceHigh') return priceLevel(b) - priceLevel(a) || (b.rating ?? 0) - (a.rating ?? 0)
+      if (activeSort === 'priceLow') return priceLevel(a) - priceLevel(b) || (b.rating ?? 0) - (a.rating ?? 0)
+      if (activeSort === 'rating') return (b.rating ?? 0) - (a.rating ?? 0)
+      if (activeSort === 'reviews') return (b.reviewsCount ?? 0) - (a.reviewsCount ?? 0)
+      if (activeSort === 'nearest') return (a.cable_m ?? 99999) - (b.cable_m ?? 99999)
       // default
       if (activeCategory === 'recommended' || activeCategory === 'khem-beach') return categoryHotels.indexOf(a) - categoryHotels.indexOf(b)
       // 가격 카테고리 기본: 가격 높은순 → 평점순
-      return priceLevel(b) - priceLevel(a) || b.rating - a.rating
+      return priceLevel(b) - priceLevel(a) || (b.rating ?? 0) - (a.rating ?? 0)
     })
 
     return list
@@ -945,7 +970,7 @@ function HotelsPageInner({ hotels: rawHotels, locale = 'en', initialArea }: Hote
         <Logo locale={locale} />
         <div className="detailNavRight">
           <nav>
-            <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
+            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
             <Link href={localePath(locale, '/zones/sunset-town')}>
               {t.areaSunsetTown}
             </Link>
@@ -962,7 +987,6 @@ function HotelsPageInner({ hotels: rawHotels, locale = 'en', initialArea }: Hote
               {categoryLabel('hotels', locale)}
             </Link>
             <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
-            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
           </nav>
           <LanguageSwitcher locale={locale} variant="light" />
         </div>

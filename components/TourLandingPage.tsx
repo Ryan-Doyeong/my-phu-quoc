@@ -3,10 +3,12 @@ import type { ReactNode } from 'react'
 import { Logo } from '@/components/Logo'
 import { MobileMenu } from '@/components/MobileMenu'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
+import { BookingCommonIntroCallout, CommonHelpSection } from '@/components/BookingServiceSections'
 import { CONTACT_CONFIG } from '@/lib/contactConfig'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
 import { NAV_ZONE_LABELS } from '@/lib/i18n/uiStrings'
+import { BOOKING_SERVICE_COPY, buildServiceWhatsappUrl } from '@/lib/i18n/bookingServiceCopy'
 import { categoryLabel } from '@/lib/directory'
 
 interface TourPoint {
@@ -30,8 +32,11 @@ interface TourLandingPageProps {
 
 export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
   const dict = getDictionary(locale)
+  const copy = BOOKING_SERVICE_COPY[locale] ?? BOOKING_SERVICE_COPY.en
   const isBuggy = type === 'buggy'
   const tourData = isBuggy ? dict.buggyTour : dict.taxiTour
+  const primaryService = isBuggy ? copy.buggyTour : copy.carTour
+  const transferService = copy.transfer
 
   const heroImage = isBuggy
     ? '/banners/phu_quoc_buggy_tour_v5.webp'
@@ -111,22 +116,30 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
   const guides: TourGuideItem[] = isBuggy
     ? [
         {
-          label: (tourData as any).guide1Label || '탑승 정원',
-          title: (tourData as any).guide1Title || '최대 8명 탑승',
-          desc: (tourData as any).guide1Desc || '한 번에 최대 8명까지 여유롭게 함께 탑승하실 수 있습니다.',
+          label: (tourData as any).guide1Label,
+          title: (tourData as any).guide1Title,
+          desc: (tourData as any).guide1Desc,
           icon: (
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-              <circle cx="9" cy="7" r="4" />
-              <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
-              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+              <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
             </svg>
           ),
         },
         {
-          label: (tourData as any).guide2Label || '미팅 장소',
-          title: (tourData as any).guide2Title || '맞춤 승하차 미팅',
-          desc: (tourData as any).guide2Desc || '고객님이 계신 장소에 맞춰 편리하게 승하차를 진행합니다.',
+          label: (tourData as any).guide2Label,
+          title: (tourData as any).guide2Title,
+          desc: (tourData as any).guide2Desc,
+          icon: (
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <polyline points="12 6 12 12 16 14" />
+            </svg>
+          ),
+        },
+        {
+          label: (tourData as any).guide3Label,
+          title: (tourData as any).guide3Title,
+          desc: (tourData as any).guide3Desc,
           icon: (
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
@@ -135,38 +148,21 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
           ),
         },
         {
-          label: (tourData as any).guide3Label || '결제 방식',
-          title: (tourData as any).guide3Title || '현금 · 카드 · 계좌이체',
-          desc: (tourData as any).guide3Desc || '현금뿐만 아니라 신용카드 및 계좌이체 결제가 모두 가능합니다.',
+          label: (tourData as any).guide4Label,
+          title: (tourData as any).guide4Title,
+          desc: (tourData as any).guide4Desc,
           icon: (
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <rect x="1" y="4" width="22" height="16" rx="2" ry="2" />
-              <line x1="1" y1="10" x2="23" y2="10" />
-            </svg>
-          ),
-        },
-        {
-          label: (tourData as any).guide4Label || '날씨 정책',
-          title: (tourData as any).guide4Title || '우천 시 변경 및 취소',
-          desc: (tourData as any).guide4Desc || '비가 올 경우 예약 일정 변경 및 무료 취소가 가능합니다.',
-          icon: (
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25" />
-              <line x1="8" y1="19" x2="8" y2="21" />
-              <line x1="8" y1="13" x2="8" y2="15" />
-              <line x1="16" y1="19" x2="16" y2="21" />
-              <line x1="16" y1="13" x2="16" y2="15" />
-              <line x1="12" y1="21" x2="12" y2="23" />
-              <line x1="12" y1="15" x2="12" y2="17" />
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
             </svg>
           ),
         },
       ]
     : [
         {
-          label: (tourData as any).guide1Label || '차량 옵션',
-          title: (tourData as any).guide1Title || '다양한 차량 제공',
-          desc: (tourData as any).guide1Desc || '탑승 인원과 여행 목적에 맞춰 다양한 차량을 제공해 드립니다.',
+          label: (tourData as any).guide1Label,
+          title: (tourData as any).guide1Title,
+          desc: (tourData as any).guide1Desc,
           icon: (
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
@@ -177,9 +173,9 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
           ),
         },
         {
-          label: (tourData as any).guide2Label || '투어 코스',
-          title: (tourData as any).guide2Title || '보편적 코스 & 맞춤 투어',
-          desc: (tourData as any).guide2Desc || '보편적인 추천 코스는 물론, 개인 상황과 일정에 맞춘 자유 투어가 가능합니다.',
+          label: (tourData as any).guide2Label,
+          title: (tourData as any).guide2Title,
+          desc: (tourData as any).guide2Desc,
           icon: (
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6" />
@@ -189,9 +185,9 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
           ),
         },
         {
-          label: (tourData as any).guide3Label || '요금 정책',
-          title: (tourData as any).guide3Title || '일괄 포함 요금',
-          desc: (tourData as any).guide3Desc || '복잡한 추가 비용 없이 깔끔한 일괄 포함 요금으로 안내해 드립니다.',
+          label: (tourData as any).guide3Label,
+          title: (tourData as any).guide3Title,
+          desc: (tourData as any).guide3Desc,
           icon: (
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
@@ -199,9 +195,9 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
           ),
         },
         {
-          label: (tourData as any).guide4Label || '소통 안내',
-          title: (tourData as any).guide4Title || '편리한 기사 소통',
-          desc: (tourData as any).guide4Desc || '기사님이 기본 투어 일정을 잘 이해하고 있으며, 번역기를 사용하여 원활하게 소통합니다.',
+          label: (tourData as any).guide4Label,
+          title: (tourData as any).guide4Title,
+          desc: (tourData as any).guide4Desc,
           icon: (
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
@@ -209,9 +205,9 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
           ),
         },
         {
-          label: (tourData as any).guide5Label || '날씨 정책',
-          title: (tourData as any).guide5Title || '우천 시 변경 및 취소',
-          desc: (tourData as any).guide5Desc || '비가 올 경우 예약 일정 변경 및 취소가 가능합니다.',
+          label: (tourData as any).guide5Label,
+          title: (tourData as any).guide5Title,
+          desc: (tourData as any).guide5Desc,
           icon: (
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25" />
@@ -226,14 +222,8 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
         },
       ]
 
-  const whatsappPrefillText = isBuggy
-    ? locale === 'ko'
-      ? '안녕하세요! 마이푸꾸옥 선셋타운 전동 버기 투어 예약·견적 문의드립니다. (방문 날짜 / 인원 / 희망 시간대): '
-      : 'Hello! I would like to inquire about the Sunset Town Private Buggy Tour on My Phu Quoc. (Date / Guests / Preferred Time): '
-    : locale === 'ko'
-      ? '안녕하세요! 마이푸꾸옥 전용 차량(택시) 투어 예약·견적 문의드립니다. (방문 날짜 / 인원 / 코스): '
-      : 'Hello! I would like to inquire about the Private Car/Taxi Tour on My Phu Quoc. (Date / Guests / Route): '
-  const whatsappTourUrl = `${CONTACT_CONFIG.whatsappUrl}?text=${encodeURIComponent(whatsappPrefillText)}`
+  const whatsappTourUrl = buildServiceWhatsappUrl(primaryService.prefillMessage)
+  const whatsappTransferUrl = buildServiceWhatsappUrl(transferService.prefillMessage)
 
   return (
     <div className="tourLandingWrap">
@@ -241,14 +231,13 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
       <header className="siteHeader heroHeader">
         <Logo locale={locale} />
         <nav className="desktopNav">
-          <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
+          <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
           <Link href={localePath(locale, '/zones/sunset-town')}>{NAV_ZONE_LABELS.sunset[locale] || NAV_ZONE_LABELS.sunset.en}</Link>
           <Link href={localePath(locale, '/zones/khem-beach')}>{NAV_ZONE_LABELS.khem[locale] || NAV_ZONE_LABELS.khem.en}</Link>
           <Link href={localePath(locale, '/directory/dining')}>{categoryLabel('dining', locale)}</Link>
           <Link href={localePath(locale, '/directory/bars')}>{categoryLabel('bars', locale)}</Link>
           <Link href={localePath(locale, '/hotels')}>{categoryLabel('hotels', locale)}</Link>
           <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
-          <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
         </nav>
         <div className="headerActions">
           <Link
@@ -267,17 +256,132 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
       <section className="tourHeroSection">
         <img
           src={heroImage}
-          alt={tourData.heroTitle}
+          alt={primaryService.title}
           className="tourHeroImg"
           loading="eager"
           decoding="async"
         />
         <div className="tourHeroOverlay" />
         <div className="tourHeroContent">
-          <div className="tourHeroBadge">{tourData.heroBadge}</div>
-          <h1 className="tourHeroTitle">{tourData.heroTitle}</h1>
-          <p className="tourHeroSubtitle">{tourData.heroSubtitle}</p>
+          <div className="tourHeroBadge">{primaryService.tag} · {primaryService.priceLabel}</div>
+          <h1 className="tourHeroTitle">{primaryService.title}</h1>
+          <p className="tourHeroSubtitle">{primaryService.body}</p>
+          <div className="tourHeroActions">
+            <a
+              href={whatsappTourUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="tourHeroPrimaryCta"
+            >
+              {primaryService.ctaLabel}
+            </a>
+            <a
+              href={CONTACT_CONFIG.zaloUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="tourHeroSecondaryCta"
+            >
+              {primaryService.zaloLabel}
+            </a>
+          </div>
         </div>
+      </section>
+
+      {/* ①-2 Common Service Intro ([공통 소개]) */}
+      <section className="tourCommonIntroWrap">
+        <BookingCommonIntroCallout locale={locale} />
+      </section>
+
+      {/* ①-3 Dedicated Service Cards (Buggy OR Car Tour + Taxi/Airport Transfer) */}
+      <section className="tourServiceMainCardsSection">
+        {isBuggy ? (
+          <div className="tourServiceSplitGrid single">
+            <article className="tourServicePrimaryCard">
+              <div className="tourServiceCardHeader">
+                <span className="tourServiceTagBadge">{primaryService.tag}</span>
+                <span className="tourServicePricePill">{primaryService.priceLabel}</span>
+              </div>
+              <h2 className="tourServiceCardTitle">{primaryService.title}</h2>
+              <p className="tourServiceCardBody">{primaryService.body}</p>
+              <div className="tourServiceCardBtnGroup">
+                <a
+                  href={whatsappTourUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="tourBtnLarge tourBtnWhatsapp"
+                >
+                  <span>{primaryService.ctaLabel}</span>
+                </a>
+                <a
+                  href={CONTACT_CONFIG.zaloUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="tourBtnLarge tourBtnZalo"
+                >
+                  <span>{primaryService.zaloLabel}</span>
+                </a>
+              </div>
+            </article>
+          </div>
+        ) : (
+          <div className="tourServiceSplitGrid dual">
+            {/* [차량 투어] */}
+            <article className="tourServicePrimaryCard" id="car-tour-service">
+              <div className="tourServiceCardHeader">
+                <span className="tourServiceTagBadge">{primaryService.tag}</span>
+                <span className="tourServicePricePill">{primaryService.priceLabel}</span>
+              </div>
+              <h2 className="tourServiceCardTitle">{primaryService.title}</h2>
+              <p className="tourServiceCardBody">{primaryService.body}</p>
+              <div className="tourServiceCardBtnGroup">
+                <a
+                  href={whatsappTourUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="tourBtnLarge tourBtnWhatsapp"
+                >
+                  <span>{primaryService.ctaLabel}</span>
+                </a>
+                <a
+                  href={CONTACT_CONFIG.zaloUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="tourBtnLarge tourBtnZalo"
+                >
+                  <span>{primaryService.zaloLabel}</span>
+                </a>
+              </div>
+            </article>
+
+            {/* [택시·공항 이동] */}
+            <article className="tourServicePrimaryCard" id="transfer-service">
+              <div className="tourServiceCardHeader">
+                <span className="tourServiceTagBadge">{transferService.tag}</span>
+                <span className="tourServicePricePill">{transferService.priceLabel}</span>
+              </div>
+              <h2 className="tourServiceCardTitle">{transferService.title}</h2>
+              <p className="tourServiceCardBody">{transferService.body}</p>
+              <div className="tourServiceCardBtnGroup">
+                <a
+                  href={whatsappTransferUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="tourBtnLarge tourBtnWhatsapp"
+                >
+                  <span>{transferService.ctaLabel}</span>
+                </a>
+                <a
+                  href={CONTACT_CONFIG.zaloUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="tourBtnLarge tourBtnZalo"
+                >
+                  <span>{transferService.zaloLabel}</span>
+                </a>
+              </div>
+            </article>
+          </div>
+        )}
       </section>
 
       {/* ② Advantage Cards (3 Highlights) */}
@@ -302,8 +406,8 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
       {/* ②-2. Service Guide (이용 안내) */}
       <section className="tourServiceGuideSection">
         <div className="tourSectionHeader">
-          <div className="tourSectionEyebrow">{(tourData as any).guideEyebrow || 'Service Guide'}</div>
-          <h2 className="tourSectionTitle">{(tourData as any).guideTitle || (isBuggy ? '버기 투어 이용 안내' : '차량 투어 이용 안내')}</h2>
+          <div className="tourSectionEyebrow">{(tourData as any).guideEyebrow || 'Before You Book'}</div>
+          <h2 className="tourSectionTitle">{(tourData as any).guideTitle}</h2>
         </div>
 
         <div className={isBuggy ? 'tourGuideGrid buggyGrid' : 'tourGuideGrid taxiGrid'}>
@@ -323,7 +427,7 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
       {/* ③ Contact Section (Main Body Box) */}
       <section className="tourContactSection">
         <div className="tourContactBox">
-          <span className="tourContactBoxTag">{tourData.contactTag}</span>
+          <span className="tourContactBoxTag">{primaryService.priceLabel}</span>
           <h2 className="tourContactBoxTitle">{tourData.contactTitle}</h2>
           <p className="tourContactBoxDesc">{tourData.contactDesc}</p>
 
@@ -346,8 +450,21 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
               <svg viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12.031 2c-5.509 0-9.989 4.479-9.989 9.988 0 1.758.459 3.473 1.332 4.988L2 22l5.176-1.357a9.96 9.96 0 0 0 4.855 1.258h.004c5.508 0 9.987-4.48 9.987-9.989 0-2.668-1.039-5.176-2.926-7.063A9.924 9.924 0 0 0 12.031 2zm0 18.293c-1.492 0-2.955-.401-4.23-1.159l-.303-.18-3.143.824.839-3.064-.198-.315a8.272 8.272 0 0 1-1.268-4.398c0-4.57 3.719-8.289 8.303-8.289 2.217 0 4.301.864 5.869 2.433a8.243 8.243 0 0 1 2.43 5.87c0 4.57-3.719 8.282-8.307 8.282zm4.555-6.208c-.25-.125-1.479-.73-1.708-.813-.23-.083-.396-.125-.563.125s-.646.813-.792.98c-.146.166-.292.187-.542.062s-1.058-.39-2.016-1.244c-.744-.664-1.246-1.485-1.392-1.735s-.016-.385.109-.51c.112-.112.25-.292.375-.438s.167-.25.25-.417.042-.313-.021-.438c-.063-.125-.563-1.354-.771-1.854-.203-.487-.409-.42-.563-.428-.146-.008-.313-.01-.479-.01s-.438.063-.667.313c-.23.25-.875.855-.875 2.084s.896 2.417 1.021 2.584c.125.166 1.764 2.693 4.274 3.777.597.258 1.063.412 1.427.528.6.19 1.146.163 1.577.099.48-.072 1.479-.604 1.688-1.188s.208-1.083.146-1.188c-.063-.104-.23-.166-.48-.291z" />
               </svg>
-              <span>{tourData.whatsappBtn}</span>
+              <span>{primaryService.ctaLabel}</span>
             </a>
+            {!isBuggy && (
+              <a
+                href={whatsappTransferUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="tourBtnLarge tourBtnWhatsapp"
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.031 2c-5.509 0-9.989 4.479-9.989 9.988 0 1.758.459 3.473 1.332 4.988L2 22l5.176-1.357a9.96 9.96 0 0 0 4.855 1.258h.004c5.508 0 9.987-4.48 9.987-9.989 0-2.668-1.039-5.176-2.926-7.063A9.924 9.924 0 0 0 12.031 2zm0 18.293c-1.492 0-2.955-.401-4.23-1.159l-.303-.18-3.143.824.839-3.064-.198-.315a8.272 8.272 0 0 1-1.268-4.398c0-4.57 3.719-8.289 8.303-8.289 2.217 0 4.301.864 5.869 2.433a8.243 8.243 0 0 1 2.43 5.87c0 4.57-3.719 8.282-8.307 8.282zm4.555-6.208c-.25-.125-1.479-.73-1.708-.813-.23-.083-.396-.125-.563.125s-.646.813-.792.98c-.146.166-.292.187-.542.062s-1.058-.39-2.016-1.244c-.744-.664-1.246-1.485-1.392-1.735s-.016-.385.109-.51c.112-.112.25-.292.375-.438s.167-.25.25-.417.042-.313-.021-.438c-.063-.125-.563-1.354-.771-1.854-.203-.487-.409-.42-.563-.428-.146-.008-.313-.01-.479-.01s-.438.063-.667.313c-.23.25-.875.855-.875 2.084s.896 2.417 1.021 2.584c.125.166 1.764 2.693 4.274 3.777.597.258 1.063.412 1.427.528.6.19 1.146.163 1.577.099.48-.072 1.479-.604 1.688-1.188s.208-1.083.146-1.188c-.063-.104-.23-.166-.48-.291z" />
+                </svg>
+                <span>{transferService.ctaLabel}</span>
+              </a>
+            )}
             <a
               href={CONTACT_CONFIG.zaloUrl}
               target="_blank"
@@ -357,17 +474,20 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
               <svg viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12 2C6.477 2 2 6.145 2 11.258c0 2.879 1.442 5.467 3.738 7.159V22l3.473-1.905c.895.247 1.834.382 2.789.382 5.523 0 10-4.145 10-9.258C22 6.145 17.523 2 12 2zm1.096 12.355h-4.39v-1.348l2.673-3.238H8.847V8.419h4.258v1.303l-2.673 3.284h2.664v1.349zm3.504 0h-1.528V8.419h1.528v6.336z" />
               </svg>
-              <span>{tourData.zaloBtn}</span>
+              <span>{primaryService.zaloLabel}</span>
             </a>
           </div>
         </div>
       </section>
 
+      {/* ④ Common Help Section ([4. 공통 도움 안내]) */}
+      <CommonHelpSection locale={locale} />
+
       {/* ⑤ Fixed Floating Contact Widget (Desktop) */}
       <div className="tourDesktopFixedContact" role="complementary" aria-label="Quick contact">
         <div className="tourFixedCardWidget">
           <div className="tourFixedWidgetHeader">
-            <span className="tourFixedWidgetLabel">{tourData.fixedWidgetLabel}</span>
+            <span className="tourFixedWidgetLabel">{primaryService.priceLabel}</span>
             <span className="tourFixedWidgetPhone">{CONTACT_CONFIG.phoneFormatted}</span>
           </div>
           <div className="tourFixedBtnRow">
@@ -380,7 +500,7 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
               <svg viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12.031 2c-5.509 0-9.989 4.479-9.989 9.988 0 1.758.459 3.473 1.332 4.988L2 22l5.176-1.357a9.96 9.96 0 0 0 4.855 1.258h.004c5.508 0 9.987-4.48 9.987-9.989 0-2.668-1.039-5.176-2.926-7.063A9.924 9.924 0 0 0 12.031 2zm0 18.293c-1.492 0-2.955-.401-4.23-1.159l-.303-.18-3.143.824.839-3.064-.198-.315a8.272 8.272 0 0 1-1.268-4.398c0-4.57 3.719-8.289 8.303-8.289 2.217 0 4.301.864 5.869 2.433a8.243 8.243 0 0 1 2.43 5.87c0 4.57-3.719 8.282-8.307 8.282zm4.555-6.208c-.25-.125-1.479-.73-1.708-.813-.23-.083-.396-.125-.563.125s-.646.813-.792.98c-.146.166-.292.187-.542.062s-1.058-.39-2.016-1.244c-.744-.664-1.246-1.485-1.392-1.735s-.016-.385.109-.51c.112-.112.25-.292.375-.438s.167-.25.25-.417.042-.313-.021-.438c-.063-.125-.563-1.354-.771-1.854-.203-.487-.409-.42-.563-.428-.146-.008-.313-.01-.479-.01s-.438.063-.667.313c-.23.25-.875.855-.875 2.084s.896 2.417 1.021 2.584c.125.166 1.764 2.693 4.274 3.777.597.258 1.063.412 1.427.528.6.19 1.146.163 1.577.099.48-.072 1.479-.604 1.688-1.188s.208-1.083.146-1.188c-.063-.104-.23-.166-.48-.291z" />
               </svg>
-              <span>{tourData.whatsappBtn}</span>
+              <span>{primaryService.ctaLabel}</span>
             </a>
             <a
               href={CONTACT_CONFIG.zaloUrl}
@@ -391,7 +511,7 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
               <svg viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12 2C6.477 2 2 6.145 2 11.258c0 2.879 1.442 5.467 3.738 7.159V22l3.473-1.905c.895.247 1.834.382 2.789.382 5.523 0 10-4.145 10-9.258C22 6.145 17.523 2 12 2zm1.096 12.355h-4.39v-1.348l2.673-3.238H8.847V8.419h4.258v1.303l-2.673 3.284h2.664v1.349zm3.504 0h-1.528V8.419h1.528v6.336z" />
               </svg>
-              <span>{tourData.zaloBtn}</span>
+              <span>{primaryService.zaloLabel}</span>
             </a>
           </div>
         </div>
@@ -408,7 +528,7 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
           <svg viewBox="0 0 24 24" fill="currentColor">
             <path d="M12.031 2c-5.509 0-9.989 4.479-9.989 9.988 0 1.758.459 3.473 1.332 4.988L2 22l5.176-1.357a9.96 9.96 0 0 0 4.855 1.258h.004c5.508 0 9.987-4.48 9.987-9.989 0-2.668-1.039-5.176-2.926-7.063A9.924 9.924 0 0 0 12.031 2zm0 18.293c-1.492 0-2.955-.401-4.23-1.159l-.303-.18-3.143.824.839-3.064-.198-.315a8.272 8.272 0 0 1-1.268-4.398c0-4.57 3.719-8.289 8.303-8.289 2.217 0 4.301.864 5.869 2.433a8.243 8.243 0 0 1 2.43 5.87c0 4.57-3.719 8.282-8.307 8.282zm4.555-6.208c-.25-.125-1.479-.73-1.708-.813-.23-.083-.396-.125-.563.125s-.646.813-.792.98c-.146.166-.292.187-.542.062s-1.058-.39-2.016-1.244c-.744-.664-1.246-1.485-1.392-1.735s-.016-.385.109-.51c.112-.112.25-.292.375-.438s.167-.25.25-.417.042-.313-.021-.438c-.063-.125-.563-1.354-.771-1.854-.203-.487-.409-.42-.563-.428-.146-.008-.313-.01-.479-.01s-.438.063-.667.313c-.23.25-.875.855-.875 2.084s.896 2.417 1.021 2.584c.125.166 1.764 2.693 4.274 3.777.597.258 1.063.412 1.427.528.6.19 1.146.163 1.577.099.48-.072 1.479-.604 1.688-1.188s.208-1.083.146-1.188c-.063-.104-.23-.166-.48-.291z" />
           </svg>
-          <span>{tourData.whatsappBtn}</span>
+          <span>{primaryService.ctaLabel}</span>
         </a>
         <a
           href={CONTACT_CONFIG.zaloUrl}
@@ -419,7 +539,7 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
           <svg viewBox="0 0 24 24" fill="currentColor">
             <path d="M12 2C6.477 2 2 6.145 2 11.258c0 2.879 1.442 5.467 3.738 7.159V22l3.473-1.905c.895.247 1.834.382 2.789.382 5.523 0 10-4.145 10-9.258C22 6.145 17.523 2 12 2zm1.096 12.355h-4.39v-1.348l2.673-3.238H8.847V8.419h4.258v1.303l-2.673 3.284h2.664v1.349zm3.504 0h-1.528V8.419h1.528v6.336z" />
           </svg>
-          <span>{tourData.zaloBtn}</span>
+          <span>{primaryService.zaloLabel}</span>
         </a>
       </div>
     </div>

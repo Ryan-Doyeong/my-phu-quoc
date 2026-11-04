@@ -157,6 +157,7 @@
         "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-chanterelle-spa.jpg"
       ],
       "agodaUrl": "https://www.agoda.com/jw-marriott-phu-quoc-emerald-bay-resort-spa/hotel/phu-quoc-island-vn.html",
+      "priceRange": "$$$$$",
       "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJLZPWxLiWpzERwrkgfIa1P8I",
       "googleRating": 4.7,
       "googleReviewsCount": 3543,
@@ -311,7 +312,7 @@
         "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-infinity-pool.jpg",
         "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-the-spa.jpg"
       ],
-      "agodaUrl": "https://www.agoda.com/new-world-phu-quoc-resort/hotel/phu-quoc-island-vn.html",
+      "agodaUrl": "https://www.agoda.com/ko-kr/new-world-phu-quoc-resort-h25124946/hotel/phu-quoc-island-vn.html",
       "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJy5uCwXCXpzERQSR2-hAgnuo",
       "googleRating": 4.7,
       "googleReviewsCount": 6093,
@@ -325,7 +326,8 @@
       "driveMinutesToSunsetTown": 10,
       "driveMinutesNote": "사장님 확인 2026-10-31",
       "agodaRawDescription": "바이켐 해변의 모래사장에 자리잡은 전 객실 독채 풀빌라 리조트입니다. 베트남 전통 어촌 마을의 초가지붕과 목재 건축 양식을 현대적으로 재해석한 375채의 독채 풀빌라로만 이루어져 있습니다. 리조트 중앙에는 해변까지 이어진 120미터 길이의 야외 인피니티 풀이 자리하며, 더 스파(The Spa), 바이켐 백사장, 키즈클럽, 그릴 레스토랑을 갖추고 있습니다.",
-      "isFeatured": true
+      "isFeatured": true,
+      "priceRange": "$$$$$"
     },
     {
       "slug": "premier-village-phu-quoc-resort",
@@ -467,6 +469,7 @@
         "/covers-photo/premier-village-phu-quoc-resort-3.webp"
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/premier-village-phu-quoc-resort-managed-by-accorhotels/hotel/phu-quoc-island-vn.html",
+      "priceRange": "$$$$$",
       "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJr4pU6WmWpzERs3lqA96_P1I",
       "googleRating": 4.7,
       "googleReviewsCount": 3820,
@@ -621,6 +624,7 @@
         "/zones/khem-beach/images/premier-residences-phu-quoc-emerald-bay/premier-residences-emerald-spa.jpg"
       ],
       "agodaUrl": "https://www.agoda.com/premier-residences-phu-quoc-emerald-bay-managed-by-accor/hotel/phu-quoc-island-vn.html",
+      "priceRange": "$$$$$",
       "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJn6kim_SXpzERd6rlRMQmpZc",
       "googleRating": 4.8,
       "googleReviewsCount": 10253,
@@ -760,6 +764,7 @@
         "/covers-photo/paralia-khem-beach-phu-quoc-hotel-4.webp"
       ],
       "agodaUrl": "https://www.agoda.com/paralia-khem-beach-phu-quoc-hotel/hotel/phu-quoc-island-vn.html",
+      "priceRange": "$$$",
       "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ--GCQXqXpzER7itlt0HX5Ps",
       "googleRating": 4.2,
       "googleReviewsCount": 383,
@@ -886,6 +891,7 @@
         "/covers-photo/jm-boutique-hotel-phu-quoc-4.webp"
       ],
       "agodaUrl": "https://www.agoda.com/jm-boutique-hotel/hotel/phu-quoc-island-vn.html",
+      "priceRange": "$$$$$",
       "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJhfbFBaCXpzER-fkbP-fwDcI",
       "googleRating": 4.6,
       "googleReviewsCount": 567,
@@ -1004,6 +1010,7 @@
         "/covers-photo/ann-hotel-spa-phu-quoc-3.webp"
       ],
       "agodaUrl": "https://www.agoda.com/ann-hotel-spa/hotel/phu-quoc-island-vn.html",
+      "priceRange": "$$$",
       "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJpyMOH-WXpzERgb6Kly4H7QA",
       "googleRating": 4.4,
       "googleReviewsCount": 573,

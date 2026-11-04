@@ -50,7 +50,7 @@ export function renderMemberRoute(locale: Locale = 'en') {
         <Logo locale={locale} />
         <div className="detailNavRight">
           <nav>
-            <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
+            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
             <Link href={localePath(locale, '/search')}>{dict.nav.directory}</Link>
             <Link href={localePath(locale, '/news')}>{dict.nav.newsAndBlog}</Link>
           </nav>
@@ -287,7 +287,7 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
         <Logo locale={locale} />
         <div className="detailNavRight">
           <nav>
-            <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
+            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
             {DIRECTORY_CATEGORY_KEYS.filter((key) => getCategoryPublishedCount(key) > 0).map((key) => (
               <Link
                 href={

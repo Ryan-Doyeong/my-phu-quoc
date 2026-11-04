@@ -385,7 +385,7 @@
   align-items: center;
   gap: 8px;
   margin: 0 0 16px;
-  font-family: Georgia, serif;
+  font-family: var(--font-pretendard);
   font-size: 20px;
   font-weight: 700;
   display: flex;
@@ -605,7 +605,7 @@
 .businessMenuCard h2,
 .foodGuideCard h2 {
   margin-top: 6px;
-  font-family: Georgia, serif;
+  font-family: var(--font-pretendard);
   font-size: 28px;
   letter-spacing: -0.02em;
   color: #1a251e;
@@ -947,7 +947,7 @@
 
 .foodGuideSection > h3 {
   margin: 0 0 14px;
-  font-family: Georgia, serif;
+  font-family: var(--font-pretendard);
   font-size: 24px;
   color: #1e2d24;
 }
@@ -1026,7 +1026,7 @@
 }
 
 .reviewAnalysisCard h2 {
-  font-family: Georgia, serif;
+  font-family: var(--font-pretendard);
   font-size: 26px;
   margin: 6px 0 10px;
   color: #1a251e;
@@ -4169,3 +4169,991 @@
 .yachtSub { font-size: 13px; font-weight: 700; color: #111; margin: 12px 0 4px; }
 .yachtGroup { font-size: 13px; color: #0B6BCB; font-weight: 600; margin: 8px 0 2px; }
 .yachtNotice { font-size: 13px; color: #111; background: #F8FAFC; border: 1px solid #E5E7EB; border-radius: 8px; padding: 10px 12px; margin: 0 0 16px; line-height: 1.5; }
+
+/* 선셋타운 가이드 맵 버튼: 연한 배경 + 진한 글자 (기본 흰 글자 !important 덮어쓰기) */
+.practicalMapBtn.practicalMapBtnGuide {
+  background: #F1F8F7;
+  border: 1px solid #C6E2DE;
+  color: #0B6B79 !important;
+  box-shadow: none;
+}
+.practicalMapBtn.practicalMapBtnGuide:hover {
+  background: #E3F1EF;
+  opacity: 1;
+}
+
+/* ==========================================================================
+   예약 서비스 안내 문구 개편 & 공통 도움 안내 & 긴급상황 페이지 보강 (2026-11)
+   ========================================================================== */
+
+.mpqServiceIntroCallout {
+  max-width: 1180px;
+  margin: 24px auto 12px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.mpqServiceIntroInner {
+  background: linear-gradient(135deg, #f8fafc 0%, #f0f9fa 100%);
+  border: 1px solid #d5e8eb;
+  border-radius: 16px;
+  padding: 20px 24px;
+  box-shadow: 0 4px 14px rgba(11, 122, 138, 0.05);
+}
+
+.mpqServiceIntroEyebrow,
+.mpqCommonHelpEyebrow {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #0b7a8a;
+  margin-bottom: 6px;
+}
+
+.mpqServiceIntroTitle {
+  font-size: 1.18rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 8px;
+  line-height: 1.35;
+}
+
+.mpqServiceIntroBody {
+  font-size: 0.96rem;
+  color: #334155;
+  margin: 0;
+  line-height: 1.65;
+}
+
+/* 홈 및 개요용 예약 서비스 4종 섹션 */
+.mpqServiceOverviewSection {
+  max-width: 1180px;
+  margin: 28px auto 36px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.mpqServiceOverviewContainer {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 28px 24px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
+}
+
+.mpqServiceOverviewHeader {
+  margin-bottom: 22px;
+  text-align: left;
+}
+
+.mpqServiceOverviewTitle {
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 8px;
+  line-height: 1.3;
+}
+
+.mpqServiceOverviewDesc,
+.mpqServiceOverviewLead {
+  font-size: 0.98rem;
+  color: #475569;
+  margin: 0;
+  line-height: 1.65;
+}
+
+.mpqServiceOverviewGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.mpqServiceOverviewCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 20px;
+  min-width: 0;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mpqServiceOverviewCard:hover {
+  border-color: #0b7a8a;
+  box-shadow: 0 6px 18px rgba(11, 122, 138, 0.08);
+}
+
+.mpqServiceCardTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.mpqServiceTag,
+.mpqServiceCardTag {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #e6f4f1;
+  color: #0b7a8a;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.mpqServicePriceBadge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #fff7ed;
+  border: 1px solid #fed7aa;
+  color: #c2410c;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.mpqServiceCardTitle {
+  font-size: 1.12rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 8px;
+  line-height: 1.35;
+}
+
+.mpqServiceCardTitle a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.mpqServiceCardTitle a:hover {
+  color: #0b7a8a;
+  text-decoration: underline;
+}
+
+.mpqServiceCardBody,
+.mpqServiceCardDesc {
+  font-size: 0.92rem;
+  color: #334155;
+  margin: 0 0 16px;
+  line-height: 1.6;
+  flex: 1;
+}
+
+.mpqServiceCardActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.mpqServiceSubActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.mpqServiceInquiryBtn,
+.mpqServiceBtnPrimary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  min-height: 42px;
+  border-radius: 10px;
+  background: #0b7a8a;
+  color: #ffffff !important;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition: background 0.2s ease;
+}
+
+.mpqServiceInquiryBtn:hover,
+.mpqServiceBtnPrimary:hover {
+  background: #096270;
+}
+
+.mpqServiceZaloLink,
+.mpqServiceBtnGhost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 14px;
+  min-height: 42px;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  color: #0f172a !important;
+  font-size: 0.86rem;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+.mpqServiceZaloLink:hover,
+.mpqServiceBtnGhost:hover {
+  border-color: #0b7a8a;
+  color: #0b7a8a !important;
+}
+
+.mpqServiceBtnLink {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #0b7a8a !important;
+  text-decoration: none !important;
+  padding: 6px 4px;
+}
+
+.mpqServiceBtnLink:hover {
+  text-decoration: underline !important;
+}
+
+/* 공통 도움 안내 박스 (하단) */
+.mpqCommonHelpSection {
+  max-width: 1180px;
+  margin: 32px auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.mpqCommonHelpSection--emergency {
+  max-width: 100%;
+  padding: 0;
+  margin: 28px 0;
+}
+
+.mpqCommonHelpCard,
+.mpqCommonHelpBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  background: linear-gradient(135deg, #f0f9fa 0%, #fff7ed 100%);
+  border: 1px solid #cbd5e1;
+  border-radius: 18px;
+  padding: 24px 28px;
+}
+
+.mpqCommonHelpTextWrap {
+  flex: 1 1 420px;
+  min-width: 0;
+}
+
+.mpqCommonHelpTitle {
+  font-size: 1.22rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 4px;
+  line-height: 1.35;
+}
+
+.mpqCommonHelpBody {
+  font-size: 0.95rem;
+  color: #334155;
+  margin: 0 0 6px;
+  line-height: 1.65;
+}
+
+.mpqCommonHelpActionWrap,
+.mpqCommonHelpActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.mpqCommonHelpBtn,
+.mpqCommonHelpBtnPrimary,
+.mpqCommonHelpBtnSecondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  min-height: 44px;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  font-weight: 800;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.mpqCommonHelpBtn--primary,
+.mpqCommonHelpBtnPrimary {
+  background: #c86d2d;
+  color: #ffffff !important;
+}
+
+.mpqCommonHelpBtn--primary:hover,
+.mpqCommonHelpBtnPrimary:hover {
+  background: #b05c22;
+}
+
+.mpqCommonHelpBtn--secondary,
+.mpqCommonHelpBtnSecondary {
+  background: #ffffff;
+  border: 1px solid #0b7a8a;
+  color: #0b7a8a !important;
+}
+
+/* 투어 상세 페이지 (버기 투어 / 차량 투어 / 택시·공항 이동) 추가 스타일 */
+.tourHeroActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.tourHeroPrimaryBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 22px;
+  min-height: 46px;
+  border-radius: 999px;
+  background: #c86d2d;
+  color: #ffffff !important;
+  font-size: 0.98rem;
+  font-weight: 800;
+  text-decoration: none !important;
+  box-shadow: 0 4px 14px rgba(200, 109, 45, 0.35);
+}
+
+.tourHeroSecondaryBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  min-height: 46px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  color: #0f172a !important;
+  font-size: 0.94rem;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.tourServiceMainCardsSection {
+  max-width: 1180px;
+  margin: 20px auto 28px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.tourServiceSplitGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.tourServiceDetailCard,
+.tourServiceSingleCard {
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 0;
+}
+
+.tourServiceCardBadgeRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.tourServiceTag {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: #e6f4f1;
+  color: #0b7a8a;
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+.tourServicePriceStatus {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: #fff7ed;
+  border: 1px solid #fed7aa;
+  color: #c2410c;
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+.tourServiceCardTitle {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 10px;
+  line-height: 1.35;
+}
+
+.tourServiceCardBody {
+  font-size: 0.96rem;
+  color: #334155;
+  margin: 0 0 18px;
+  line-height: 1.65;
+}
+
+.tourServiceCardActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.tourServiceInquiryBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 18px;
+  min-height: 44px;
+  border-radius: 10px;
+  background: #0b7a8a;
+  color: #ffffff !important;
+  font-size: 0.92rem;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.tourServiceZaloBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  min-height: 44px;
+  border-radius: 10px;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  color: #0f172a !important;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+.courseCardInquiryRow {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px dashed #e2e8f0;
+}
+
+.courseCardInquiryLink {
+  display: inline-flex;
+  align-items: center;
+  color: #0b7a8a;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.courseCardInquiryLink:hover {
+  text-decoration: underline;
+}
+
+/* 액티비티 페이지 추가 스타일 */
+.activitiesHeroBadgeRow {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.activitiesPriceStatusBadge {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgba(255, 247, 237, 0.95);
+  border: 1px solid #fed7aa;
+  color: #c2410c;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.activitiesHeroCtaRow {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.activitiesHeroInquiryBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 22px;
+  min-height: 46px;
+  border-radius: 999px;
+  background: #c86d2d;
+  color: #ffffff !important;
+  font-size: 0.96rem;
+  font-weight: 800;
+  text-decoration: none !important;
+}
+
+.activitiesHeroZaloBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 18px;
+  min-height: 46px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  color: #0f172a !important;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.tileActionRow {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: auto;
+  width: 100%;
+}
+
+.tileInquiryBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 12px;
+  min-height: 40px;
+  border-radius: 8px;
+  background: #f0f9fa;
+  border: 1px solid #0b7a8a;
+  color: #0b7a8a !important;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.tileInquiryBtn:hover {
+  background: #0b7a8a;
+  color: #ffffff !important;
+}
+
+/* 긴급상황 페이지 상세 카드 및 안내 박스 */
+.emergencyQuickHotlineRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.emergencyHotlinePill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 16px;
+  min-height: 42px;
+  border-radius: 999px;
+  color: #ffffff !important;
+  font-weight: 800;
+  font-size: 0.92rem;
+  text-decoration: none !important;
+}
+
+.emergencyHotlinePill--ambulance {
+  background-color: #dc2626;
+}
+
+.emergencyHotlinePill--police {
+  background-color: #0b7a8a;
+}
+
+.emergencyHotlinePill--fire {
+  background-color: #c86d2d;
+}
+
+.emergencySectionSubText {
+  font-size: 0.96rem;
+  color: #475569;
+  margin: -8px 0 16px;
+  line-height: 1.6;
+}
+
+.emergencyTravelTimeNoticeBox {
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  border-left: 4px solid #d97706;
+  border-radius: 12px;
+  padding: 16px 18px;
+  margin-bottom: 24px;
+}
+
+.emergencyTravelTimeHeader {
+  font-size: 0.98rem;
+  color: #92400e;
+  margin-bottom: 6px;
+  line-height: 1.45;
+}
+
+.emergencyTravelTimeDetail {
+  font-size: 0.88rem;
+  color: #78350f;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.emergencyCardStack {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.emergencyDetailCard {
+  padding: 22px !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 16px !important;
+  background: #ffffff !important;
+  min-width: 0;
+}
+
+.emergencyCardHeaderRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.emergencyKindBadge--hospital {
+  background: #fee2e2 !important;
+  color: #b91c1c !important;
+}
+
+.emergencyKindBadge--clinic {
+  background: #e0f2fe !important;
+  color: #0369a1 !important;
+}
+
+.emergencyKindBadge--pharmacy {
+  background: #dcfce7 !important;
+  color: #15803d !important;
+}
+
+.emergencyAreaTag {
+  background: #f1f5f9 !important;
+  color: #334155 !important;
+  font-weight: 700 !important;
+}
+
+.emergencyOfficialTitle {
+  font-size: 1.22rem !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
+  margin: 0 0 4px !important;
+  line-height: 1.35 !important;
+  overflow-wrap: anywhere;
+}
+
+.emergencyLocalizedSubTitle {
+  font-size: 0.96rem;
+  font-weight: 600;
+  color: #0b7a8a;
+  margin: 0 0 6px;
+}
+
+.emergencyFormerNameNote {
+  font-size: 0.85rem;
+  color: #64748b;
+  background: #f8fafc;
+  padding: 6px 10px;
+  border-radius: 8px;
+  margin: 0 0 12px;
+}
+
+.emergencyPhotoWrap {
+  margin: 12px 0 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #f8fafc;
+}
+
+.emergencyFacilityImg {
+  display: block;
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.emergencyPhotoCaption {
+  padding: 10px 14px;
+  font-size: 0.82rem;
+  color: #475569;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.emergencyPhotoVerifiedTag {
+  display: inline-flex;
+  align-self: flex-start;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #dcfce7;
+  color: #166534;
+  font-weight: 700;
+  font-size: 0.78rem;
+}
+
+.emergencyPhotoSourceText {
+  margin: 0;
+  line-height: 1.45;
+}
+
+.emergencyInlineMapPhotoLink {
+  color: #0b7a8a;
+  font-weight: 700;
+  text-decoration: underline;
+  align-self: flex-start;
+}
+
+.emergencyPhotoFallbackBox {
+  margin: 12px 0 16px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: #f8fafc;
+  border: 1px dashed #cbd5e1;
+}
+
+.emergencyPhotoFallbackTitle {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 4px;
+}
+
+.emergencyPhotoFallbackDesc {
+  font-size: 0.84rem;
+  color: #475569;
+  margin: 0 0 10px;
+  line-height: 1.5;
+}
+
+.emergencyMapPhotoBtn {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 14px;
+  border-radius: 8px;
+  background: #ffffff;
+  border: 1px solid #0b7a8a;
+  color: #0b7a8a !important;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.emergencyVerifiedBadgesWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0 0 14px;
+}
+
+.emergencyConfirmedItem {
+  padding: 9px 12px;
+  border-radius: 10px;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.emergencyConfirmedItem--care {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #991b1b;
+}
+
+.emergencyConfirmedItem--lang {
+  background: #f0f9ff;
+  border: 1px solid #bae6fd;
+  color: #075985;
+}
+
+.emergencyMetaList {
+  margin-bottom: 16px !important;
+}
+
+.emergencyCoordsBadge {
+  font-size: 0.8rem;
+  color: #64748b;
+}
+
+.emergencyRouteText {
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.emergencyPhoneLink {
+  color: #c86d2d;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.emergencyProsCautionsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.emergencyInfoSubBox {
+  padding: 12px 14px;
+  border-radius: 10px;
+  min-width: 0;
+}
+
+.emergencyInfoSubBox--pros {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+}
+
+.emergencyInfoSubBox--cautions {
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+}
+
+.emergencyInfoSubTitle {
+  font-size: 0.88rem;
+  font-weight: 800;
+  margin: 0 0 8px;
+  color: #0f172a;
+}
+
+.emergencyInfoParagraph {
+  margin: 0;
+  font-size: 0.86rem;
+  color: #334155;
+  line-height: 1.55;
+}
+
+.emergencyBulletList {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 0.86rem;
+  color: #334155;
+  line-height: 1.55;
+}
+
+.emergencyBulletList li + li {
+  margin-top: 5px;
+}
+
+.emergencyCardActionRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.emergencyActionBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 16px;
+  min-height: 44px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.emergencyActionBtn--call {
+  background: #c86d2d;
+  color: #ffffff !important;
+  font-weight: 800;
+}
+
+.emergencyActionBtn--dir {
+  background: #0b7a8a;
+  color: #ffffff !important;
+}
+
+.emergencyActionBtn--pin {
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  color: #0f172a !important;
+}
+
+.emergencyActionBtn--web {
+  background: #ffffff;
+  border: 1px solid #0b7a8a;
+  color: #0b7a8a !important;
+}
+
+.emergencyReferenceGroup {
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 2px dashed #cbd5e1;
+}
+
+.emergencyReferenceSub {
+  font-size: 0.9rem;
+  color: #475569;
+  margin: -4px 0 16px;
+  line-height: 1.6;
+}
+
+.emergencyExcludedBox {
+  margin-top: 24px;
+  padding: 18px 20px;
+  border-radius: 14px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+.emergencyExcludedTitle {
+  font-size: 0.98rem;
+  font-weight: 800;
+  color: #1e293b;
+  margin: 0 0 10px;
+}
+
+@media (max-width: 768px) {
+  .mpqServiceOverviewGrid,
+  .tourServiceSplitGrid,
+  .emergencyProsCautionsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .mpqServiceOverviewContainer,
+  .mpqCommonHelpCard,
+  .tourServiceDetailCard,
+  .tourServiceSingleCard,
+  .emergencyDetailCard {
+    padding: 18px 16px !important;
+  }
+
+  .emergencyCardActionRow .emergencyActionBtn {
+    width: 100%;
+  }
+}

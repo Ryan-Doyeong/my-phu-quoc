@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { TripPlanner } from '@/components/TripPlanner'
+import { BookingCommonIntroCallout, CommonHelpSection } from '@/components/BookingServiceSections'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
 
@@ -156,12 +157,11 @@ export function ItinerariesLandingPage({ locale = 'ko' }: ItinerariesLandingPage
         <Logo locale={locale} />
         <div className="detailNavRight">
           <nav>
-            <Link href={localePath(locale, '/')}>{dict.nav.home}</Link>
+            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
             <Link href={localePath(locale, '/zones/sunset-town')}>{nav.sunsetTown}</Link>
             <Link href={localePath(locale, '/zones/khem-beach')}>{nav.khemBeach}</Link>
             <Link href={localePath(locale, '/activities')}>{nav.activities}</Link>
             <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
-            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
           </nav>
           <LanguageSwitcher locale={locale} variant="light" />
         </div>
@@ -185,6 +185,8 @@ export function ItinerariesLandingPage({ locale = 'ko' }: ItinerariesLandingPage
           </ul>
         </div>
 
+        <BookingCommonIntroCallout locale={locale} />
+
         <TripPlanner locale={locale} />
 
         <div className="itinerariesCalloutBox">
@@ -194,6 +196,8 @@ export function ItinerariesLandingPage({ locale = 'ko' }: ItinerariesLandingPage
             <div className="calloutText">{c.policyText}</div>
           </div>
         </div>
+
+        <CommonHelpSection locale={locale} />
       </main>
     </div>
   )
