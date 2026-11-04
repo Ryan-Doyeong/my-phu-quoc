@@ -150,6 +150,11 @@ export async function renderDirectoryRoute(
         description_ko: reg.description_ko ?? b.description_ko,
         description_en: reg.description_en ?? b.description_en,
         tags: reg.tags ?? b.tags,
+        badges:
+          Array.isArray(reg.badges) && reg.badges.length > 0
+            ? reg.badges
+            : b.badges,
+        is_featured: reg.is_featured ?? b.is_featured,
         aliases: reg.aliases ?? b.aliases,
         lat: reg.lat ?? b.lat,
         lng: reg.lng ?? b.lng,

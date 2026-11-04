@@ -3254,6 +3254,10 @@
     "slug": "finca",
     "category": "dining",
     "subcategory": "western",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ],
     "google_place_id": "ChIJn8-tUACXpzER6RqdNBwIv2U",
     "description_en": "Finca is a Mediterranean & Western restaurant located in Sunset Town, Phu Quoc.",
     "description_ko": "라 페스타 힐튼 내 스페인 지중해식 다이닝 (접근성: 휠체어 이용 가능 출입구, 휠체어 이용가능 좌석, 휠체어 이용가능 화장실, 휠체어 이용가능 주차장) • [대표 메뉴/가격] 스페인 타파스(Tapas), 빠에야(Paella), 이베리코 하몽, 상그리아 | 250,000~900,000+ VND.",
@@ -3366,6 +3370,10 @@
     "slug": "seta",
     "category": "dining",
     "subcategory": "international",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ],
     "google_place_id": "ChIJN_Q6ZQCXpzERnEgRa_rea4k",
     "description_en": "Seta is an international restaurant located in Sunset Town, Phu Quoc.",
     "description_ko": "라 페스타 힐튼 내 모던 차이니즈 & 딤섬 레스토랑 (접근성: 휠체어 이용 가능 출입구, 휠체어 이용가능 좌석, 휠체어 이용가능 화장실, 휠체어 이용가능 주차장) • [대표 메뉴/가격] 수제 딤섬, 북경오리/광동식 로스트, 활해산물 중식 요리 | 220,000~1,200,000+ VND.",
@@ -4450,6 +4458,10 @@
     "slug": "mare",
     "category": "dining",
     "subcategory": "western",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ],
     "google_place_id": "ChIJFUbrywqVpzERZ-766zaQ1NE",
     "description_en": "Mare is a Mediterranean & Western restaurant located in Sunset Town, Phu Quoc.",
     "description_ko": "라 페스타 힐튼 내 지중해풍 이탈리안 다이닝 (접근성: 휠체어 이용 가능 출입구, 휠체어 이용가능 좌석, 휠체어 이용가능 화장실, 휠체어 이용가능 주차장) • [대표 메뉴/가격] 수제 생면 파스타, 화덕 피자, 지중해식 해산물 및 스테이크, 이탈리안 와인 | 단품 280,000~950,000+ VND.",
@@ -4987,6 +4999,10 @@
     "slug": "the-merchant",
     "category": "dining",
     "subcategory": "restaurant",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ],
     "google_place_id": "ChIJD-a4fwCVpzERA9KJ8gWE4cA",
     "description_en": "The Merchant is a restaurant located in Sunset Town, Phu Quoc.",
     "description_ko": "라 페스타 힐튼 메인 레스토랑, 오픈 키친 구성 (접근성: 휠체어 이용 가능 출입구, 휠체어 이용가능 좌석, 휠체어 이용가능 화장실, 휠체어 이용가능 주차장) • [대표 메뉴/가격] 인터내셔널 뷔페, 베트남 및 웨스턴 올데이 단품/코스 | 250,000~1,200,000 VND.",
@@ -10536,6 +10552,10 @@
     "slug": "luna-folk",
     "category": "bars",
     "subcategory": "bar",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ],
     "google_place_id": "ChIJMXSxNgCXpzERgxlz0F6Zn7I",
     "description_en": "Luna Folk is a sunset bar & lounge located in Sunset Town, Phu Quoc.",
     "description_ko": "라 페스타 힐튼 라이브 재즈 & 칵테일 바 (접근성: 휠체어 이용 가능 출입구, 휠체어 이용가능 좌석, 휠체어 이용가능 화장실, 휠체어 이용가능 주차장) • [대표 메뉴/가격] 크래프트 칵테일, 싱글몰트 위스키, 와인, 바 스낵 | 220,000~450,000+ VND.",
@@ -10643,6 +10663,10 @@
     "slug": "il-salone-afternoon-tea-lounge-bar",
     "category": "bars",
     "subcategory": "bar",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ],
     "google_place_id": "ChIJbR-3v0iXpzERO5uhXf8gO8k",
     "description_en": "iL Salone – Afternoon Tea Lounge & Bar is a sunset bar & lounge located in Sunset Town, Phu Quoc.",
     "description_ko": "라 페스타 힐튼 로비 라운지 (접근성: 휠체어 이용 가능 출입구, 휠체어 이용가능 좌석, 휠체어 이용가능 화장실, 휠체어 이용가능 주차장) • [대표 메뉴/가격] 이탈리안 애프터눈 티 세트, 아티산 페이스트리, 스페셜티 커피, 칵테일 | 음료 120,000~250,000 VND, 애프터눈티 세트 약 650,000~950,000 VND.",
@@ -10754,6 +10778,10 @@
     "slug": "cielo",
     "category": "bars",
     "subcategory": "bar",
+    "is_featured": true,
+    "badges": [
+      "Recommended"
+    ],
     "google_place_id": "ChIJzXtAVDKXpzER1cjjYNLZETM",
     "description_en": "Cielo is a sunset bar & lounge located in Sunset Town, Phu Quoc.",
     "description_ko": "라 페스타 힐튼 최상층 스카이 라운지 (접근성: 휠체어 이용 가능 출입구, 휠체어 이용가능 좌석, 휠체어 이용가능 화장실, 휠체어 이용가능 주차장) • [대표 메뉴/가격] 시그니처 선셋 칵테일, 와인, 샴페인, 타파스 스낵 | 220,000~450,000+ VND.",

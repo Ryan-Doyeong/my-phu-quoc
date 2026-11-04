@@ -125,7 +125,7 @@ export function getPriceTierBand(priceRange?: HotelPriceRange | string | null): 
 /**
  * 호텔 목록 상단 카테고리 (가격 순).
  * - recommended: 마이 푸꾸옥 추천 호텔 모음
- * - luxury:     특급 ~ 4성급 (아고다 요금대 $$$$$ · $$$$)
+ * - luxury:     4성급 (아고다 요금대 $$$$$ · $$$$)
  * - boutique:   3성 부티크 ($$$ · $$)
  * - guesthouse: 게스트하우스·실속형 ($)
  * - khem-beach: 켐 비치 리조트

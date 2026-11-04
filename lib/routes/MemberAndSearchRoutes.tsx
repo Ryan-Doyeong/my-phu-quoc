@@ -212,6 +212,11 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
       description_ko: reg.description_ko ?? x.description_ko,
       description_en: reg.description_en ?? x.description_en,
       tags: reg.tags ?? x.tags,
+      badges:
+        Array.isArray(reg.badges) && reg.badges.length > 0
+          ? reg.badges
+          : x.badges,
+      is_featured: reg.is_featured ?? x.is_featured,
       aliases: reg.aliases ?? x.aliases,
       google_maps_name: reg.google_maps_name ?? x.google_maps_name,
       google_rating: reg.google_rating ?? x.google_rating,

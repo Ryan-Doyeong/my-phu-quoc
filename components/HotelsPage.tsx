@@ -1019,7 +1019,7 @@ function HotelsPageInner({ hotels: rawHotels, locale = 'en', initialArea }: Hote
         </div>
       </section>
 
-      {/* Category Selector Tabs (추천 | 특급~4성 | 3성 부티크 | 게스트하우스 | 켐 비치) */}
+      {/* Category Selector Tabs (추천 | 4성급 | 3성 부티크 | 게스트하우스 | 켐 비치) */}
       <div className="areaSelectorWrap categorySelectorWrap">
         <div className="areaSelectorInner categorySelectorInner" role="tablist">
           {HOTEL_CATEGORY_ORDER.map(cat => {
