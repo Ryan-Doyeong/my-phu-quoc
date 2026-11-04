@@ -90,23 +90,14 @@
   border: 1px solid #e5e7eb;
 }
 
-/* 카드 그리드: 모바일 1열 / 태블릿 2열 / 데스크톱 3열 */
+/* 카드 그리드: 모든 화면 1열(상세 펼침 시 가로폭 확보) */
 .grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   gap: 1rem;
-}
-
-@media (min-width: 640px) {
-  .grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (min-width: 1024px) {
-  .grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* 개별 투어 카드 */
