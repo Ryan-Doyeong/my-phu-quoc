@@ -261,7 +261,6 @@ export function ActivityYachtSection({ locale = 'ko' }: { locale?: Locale }) {
                 >
                   {ui.wa}
                 </a>
-                <a href={CONTACT_CONFIG.zaloUrl} target="_blank" rel="noopener noreferrer" className="yachtCtaGhost">{ui.za}</a>
               </div>
             </div>
           </article>

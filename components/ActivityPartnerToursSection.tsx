@@ -2,7 +2,6 @@
 
 import React, { useState, useMemo, useEffect } from 'react';
 import type { Locale } from '@/lib/i18n/config';
-import { CONTACT_CONFIG } from '@/lib/contactConfig';
 import {
   buildServiceWhatsappUrl,
   BOOKING_SERVICE_COPY,
@@ -24,6 +23,8 @@ import styles from './ActivityPartnerToursSection.module.css';
 // 존스 투어 여행 정보는 한국어만 제공한다(다른 언어는 번역 전까지 미표시).
 const DETAIL_COPY_KO = {
   includedExcluded: '포함 · 불포함',
+  partner: '파트너',
+  operator: "John's Tours",
   itinerary: '일정',
   included: '포함',
   excluded: '불포함',
@@ -66,6 +67,13 @@ const OPERATORS: PartnerOperator[] = ['johns', 'redriver'];
 function pick(l: L | undefined, locale: Locale): string {
   if (!l) return '';
   return l[locale] ?? l.en;
+}
+
+// 일정 문장에서 맨 앞 시간(예: "08:15~08:30", "[1일차] 12:00")을 분리해 요트 카드와 같은 시간 열로 표시한다.
+function splitStep(text: string): { time: string; body: string } {
+  const m = text.match(/^(\[[^\]]+\]\s*)?(\d{1,2}:\d{2}(?:~\d{1,2}:\d{2})?)\s+(.*)$/);
+  if (m) return { time: `${m[1] ?? ''}${m[2]}`.trim(), body: m[3] };
+  return { time: '', body: text };
 }
 
 function formatVnd(amount: number): string {
@@ -324,6 +332,11 @@ export function ActivityPartnerToursSection({
                     </span>
                   </div>
 
+                  {detail && (
+                    <p className={styles.tourOp}>
+                      {DETAIL_COPY_KO.partner} · {DETAIL_COPY_KO.operator}
+                    </p>
+                  )}
                   <h3 className={styles.cardTitle}>{tourTitle}</h3>
                   <p className={styles.cardSummary}>{tourSummary}</p>
 
@@ -365,10 +378,18 @@ export function ActivityPartnerToursSection({
                       <details className={styles.tourDetail}>
                         <summary>{DETAIL_COPY_KO.itinerary}</summary>
                         <p className={styles.tourNote}>{detail.description}</p>
-                        <ul className={styles.tourList}>
-                          {detail.itinerary.map((it, i) => (
-                            <li key={i}>{it}</li>
-                          ))}
+                        <ul className={styles.tourTimeline}>
+                          {detail.itinerary.map((it, i) => {
+                            const st = splitStep(it);
+                            return (
+                              <li key={i}>
+                                <time>{st.time}</time>
+                                <div>
+                                  <b>{st.body}</b>
+                                </div>
+                              </li>
+                            );
+                          })}
                         </ul>
                       </details>
                       <details className={styles.tourDetail}>
@@ -403,14 +424,6 @@ export function ActivityPartnerToursSection({
                     className={styles.ctaPrimary}
                   >
                     {bookingCopy.ctaLabel}
-                  </a>
-                  <a
-                    href={CONTACT_CONFIG.zaloUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.ctaSecondary}
-                  >
-                    {bookingCopy.zaloLabel}
                   </a>
                 </div>
                 {detail && (

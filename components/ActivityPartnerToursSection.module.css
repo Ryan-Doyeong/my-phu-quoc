@@ -592,3 +592,10 @@
 .ctaPrimary:hover { background: #111; color: #fff; opacity: .88; }
 .ctaSecondary { border: 1px solid #111; color: #111; background: #fff; }
 .ctaSecondary:hover { background: #fff; border-color: #111; color: #111; opacity: .88; }
+
+.tourOp { font-size: 12px; color: #64748B; margin: 0; }
+.tourTimeline { list-style: none; margin: 0; padding: 0 0 4px; }
+.tourTimeline li { display: flex; gap: 12px; padding: 8px 0; border-bottom: 1px dashed #E5E7EB; font-size: 14px; word-break: keep-all; }
+.tourTimeline li:last-child { border: 0; }
+.tourTimeline time { flex: 0 0 96px; color: #0B6BCB; font-weight: 600; font-size: 13px; }
+.tourTimeline b { display: block; font-weight: 600; color: #111; }
