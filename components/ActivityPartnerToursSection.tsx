@@ -15,7 +15,22 @@ import {
   type PartnerTourCategory,
   type PickupSurchargeItem,
 } from '@/lib/activities/partnerTours';
+import {
+  PARTNER_TOUR_DETAILS_KO,
+  getPartnerTourPhoto,
+} from '@/lib/activities/partnerTourDetails';
 import styles from './ActivityPartnerToursSection.module.css';
+
+// 존스 투어 여행 정보는 한국어만 제공한다(다른 언어는 번역 전까지 미표시).
+const DETAIL_COPY_KO = {
+  toggle: '일정·포함 사항 보기',
+  itinerary: '일정',
+  included: '포함',
+  excluded: '불포함',
+  notice:
+    '일정·시간은 일반적인 기준이며, 날씨·해상 상태·당일 상황에 따라 변경될 수 있습니다.',
+  credit: '사진: 존스 투어(phuquoctrip.com)',
+};
 
 export interface ActivityPartnerToursSectionProps {
   locale?: Locale;
@@ -262,12 +277,19 @@ export function ActivityPartnerToursSection({
               `${bookingCopy.prefillMessage}[${tourTitle}] `
             );
 
+            const detail =
+              locale === 'ko' ? PARTNER_TOUR_DETAILS_KO[tour.id] : undefined;
+
             return (
               <article key={tour.id} className={styles.card}>
                 <div className={styles.cardMedia}>
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src={`/activities/partner/${tour.category}.webp`}
+                    src={
+                      detail
+                        ? getPartnerTourPhoto(tour.id, 1)
+                        : `/activities/partner/${tour.category}.webp`
+                    }
                     alt={tourTitle}
                     loading="lazy"
                     width={640}
@@ -321,6 +343,57 @@ export function ActivityPartnerToursSection({
                       );
                     })}
                   </div>
+
+                  {detail && (
+                    <details className={styles.tourDetail}>
+                      <summary className={styles.tourDetailSummary}>
+                        {DETAIL_COPY_KO.toggle}
+                      </summary>
+                      <div className={styles.tourDetailBody}>
+                        <p className={styles.tourDetailDesc}>
+                          {detail.description}
+                        </p>
+                        <div className={styles.tourDetailPhotos}>
+                          {[2, 3].map((n) => (
+                            // eslint-disable-next-line @next/next/no-img-element
+                            <img
+                              key={n}
+                              src={getPartnerTourPhoto(tour.id, n)}
+                              alt={`${tourTitle} ${n}`}
+                              loading="lazy"
+                              width={480}
+                              height={360}
+                            />
+                          ))}
+                        </div>
+                        <p className={styles.tourDetailCredit}>
+                          {DETAIL_COPY_KO.credit}
+                        </p>
+                        <h4 className={styles.tourDetailHeading}>
+                          {DETAIL_COPY_KO.itinerary}
+                        </h4>
+                        <ul className={styles.tourDetailList}>
+                          {detail.itinerary.map((it, i) => (
+                            <li key={i}>{it}</li>
+                          ))}
+                        </ul>
+                        <h4 className={styles.tourDetailHeading}>
+                          {DETAIL_COPY_KO.included}
+                        </h4>
+                        <p className={styles.tourDetailText}>{detail.included}</p>
+                        <h4 className={styles.tourDetailHeading}>
+                          {DETAIL_COPY_KO.excluded}
+                        </h4>
+                        <p className={styles.tourDetailText}>{detail.excluded}</p>
+                      </div>
+                    </details>
+                  )}
+
+                  {detail && (
+                    <p className={styles.tourDetailNotice}>
+                      ⚠️ {DETAIL_COPY_KO.notice}
+                    </p>
+                  )}
 
                   {tour.notes && tour.notes.length > 0 && (
                     <ul className={styles.tourNotesList}>
