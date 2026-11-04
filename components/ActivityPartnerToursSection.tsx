@@ -26,6 +26,16 @@ type FilterKey =
   | `op:${PartnerOperator}`
   | `cat:${PartnerTourCategory}`;
 
+const CATEGORY_ICON: Record<PartnerTourCategory, string> = {
+  hopping: '🏝️',
+  cablecar: '🚡',
+  fishing: '🎣',
+  sunset: '🌅',
+  diving: '🤿',
+  land: '🚌',
+  camping: '⛺',
+};
+
 const CATEGORIES: PartnerTourCategory[] = [
   'hopping',
   'cablecar',
@@ -230,6 +240,7 @@ export function ActivityPartnerToursSection({
                 aria-pressed={isSelected}
                 onClick={() => setActiveFilter(key)}
               >
+                <span aria-hidden="true">{CATEGORY_ICON[cat]}</span>{' '}
                 {ui.categoryChip[cat]}{' '}
                 <span className={styles.chipCount}>
                   {PARTNER_TOURS.filter((t) => t.category === cat).length}
