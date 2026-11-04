@@ -2,7 +2,7 @@
 
 import { usePathname } from 'next/navigation'
 import type { MouseEvent } from 'react'
-import { buildWhatsAppLink, buildZaloLink } from '@/lib/contactLinks'
+import { buildWhatsAppLink } from '@/lib/contactLinks'
 import { FLOATING_CONTACT_LABELS, WHATSAPP_PREFILL, pickLocale } from '@/lib/i18n/uiStrings'
 import './floating-contact.css'
 
@@ -33,19 +33,6 @@ export function FloatingContact() {
 
   return (
     <div className="floatingContact" role="complementary" aria-label={pickLocale(FLOATING_CONTACT_LABELS.open, locale)}>
-      <a
-        href={buildZaloLink()}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="floatingContactBtn zalo"
-        aria-label="Zalo"
-        data-cta="zalo"
-        data-cta-source="floating"
-      >
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M12 2C6.477 2 2 6.145 2 11.258c0 2.879 1.442 5.467 3.738 7.159V22l3.473-1.905c.895.247 1.834.382 2.789.382 5.523 0 10-4.145 10-9.258C22 6.145 17.523 2 12 2zm1.096 12.355h-4.39v-1.348l2.673-3.238H8.847V8.419h4.258v1.303l-2.673 3.284h2.664v1.349zm3.504 0h-1.528V8.419h1.528v6.336z" />
-        </svg>
-      </a>
       <a
         href={buildWhatsAppLink()}
         target="_blank"

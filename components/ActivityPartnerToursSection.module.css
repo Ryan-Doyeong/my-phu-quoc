@@ -90,23 +90,14 @@
   border: 1px solid #e5e7eb;
 }
 
-/* 카드 그리드: 모바일 1열 / 태블릿 2열 / 데스크톱 3열 */
+/* 카드 그리드: 모든 화면 1열(상세 펼침 시 가로폭 확보) */
 .grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   gap: 1rem;
-}
-
-@media (min-width: 640px) {
-  .grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (min-width: 1024px) {
-  .grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* 개별 투어 카드 */
@@ -543,27 +534,6 @@
 .mediaOperator { left: 0.4rem; }
 .mediaCode { right: 0.4rem; background: rgba(255, 255, 255, 0.92); color: #0369a1; max-width: 38%; }
 
-@media (max-width: 1023px) {
-  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.625rem; }
-}
-@media (max-width: 639px) {
-  .section { padding: 1.5rem 0.75rem; }
-  .cardBody { padding: 0.55rem 0.55rem 0.5rem; }
-  .categoryTagRow { display: none; }
-  .cardTitle { font-size: 0.8125rem; line-height: 1.3; margin: 0 0 0.35rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.6em; }
-  .cardSummary, .tourNotesList, .childNoteText { display: none; }
-  .variantsList { gap: 0.3rem; padding-top: 0.4rem; }
-  .variantItem { padding: 0.3rem 0.4rem; }
-  .variantHeader { flex-direction: column; align-items: flex-start; gap: 0.05rem; }
-  .variantLabel { font-size: 0.6875rem; }
-  .variantPrices { flex-direction: column; align-items: flex-start; gap: 0; font-size: 0.75rem; }
-  .priceDivider { display: none; }
-  .childPrice { font-size: 0.6875rem; }
-  .cardFooter { grid-template-columns: 1fr; padding: 0.4rem 0.55rem 0.55rem; border-top: 0; }
-  .ctaSecondary { display: none; }
-  .ctaPrimary { font-size: 0.75rem; padding: 0.45rem 0.3rem; }
-}
-
 /* 카테고리 탭: 모바일에서는 줄바꿈으로 한눈에 */
 .filterScrollWrap { overflow-x: visible; }
 .filterBar { flex-wrap: wrap; min-width: 0; gap: 0.4rem; }
@@ -586,3 +556,46 @@
 .chipCount { display: inline-block; min-width: 1.3rem; padding: 0 0.35rem; border-radius: 999px; background: rgba(2, 132, 199, 0.12); font-size: 0.75rem; opacity: 1; margin-left: 0.1rem; }
 .chipActive .chipCount { background: rgba(255, 255, 255, 0.25); }
 @media (min-width: 640px) { .filterBar { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+
+/* ===== 요트 투어 카드와 동일한 글자 스타일(1열, 모든 화면) ===== */
+.cardMedia { aspect-ratio: 16 / 10; }
+.cardBody { padding: 14px 16px 16px; }
+.categoryTag { font-size: 12px; }
+.cardTitle { font-size: 18px; font-weight: 700; color: #111; line-height: 1.4; margin: 2px 0 6px; }
+.cardSummary { font-size: 13px; color: #64748B; line-height: 1.5; }
+.variantLabel { font-size: 12px; color: #64748B; }
+.variantPrices { font-size: 13px; }
+.adultPrice { font-size: 20px; font-weight: 700; color: #111; }
+.childPrice { font-size: 12px; color: #64748B; }
+.childNoteText { font-size: 12px; color: #64748B; }
+.tourNotesList { font-size: 12px; color: #64748B; }
+.cardFooter { display: flex; gap: 8px; padding: 0 16px 16px; border-top: 0; }
+.ctaPrimary, .ctaSecondary { flex: 1; font-size: 14px; font-weight: 600; padding: 12px; border-radius: 8px; }
+
+/* 존스 투어 상세 정보 — 요트 카드(.yachtThumbs/.yachtDetails 등)와 동일 구조·스타일 */
+.tourThumbs { display: flex; gap: 6px; padding: 8px 12px 0; }
+.tourThumbs img { width: calc(50% - 3px); height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 6px; }
+.tourDetail { border-top: 1px solid #E5E7EB; margin-top: 14px; }
+.tourDetail + .tourDetail { margin-top: 0; }
+.tourDetail summary { cursor: pointer; font-size: 14px; font-weight: 600; padding: 10px 0; list-style: none; display: flex; justify-content: space-between; color: #111; }
+.tourDetail summary::-webkit-details-marker { display: none; }
+.tourDetail summary::after { content: '＋'; color: #64748B; }
+.tourDetail[open] summary::after { content: '－'; }
+.tourDetail summary:focus-visible { outline: 2px solid #0284c7; outline-offset: 2px; }
+.tourList { margin: 0; padding: 0 0 4px 18px; font-size: 14px; color: #111; word-break: keep-all; }
+.tourText { margin: 0 0 8px; font-size: 14px; color: #111; line-height: 1.6; word-break: keep-all; }
+.tourNote { font-size: 12px; color: #64748B; background: #FAFAFA; border-radius: 6px; padding: 8px 10px; margin: 8px 0; line-height: 1.55; word-break: keep-all; }
+.tourSub { font-size: 13px; font-weight: 700; color: #111; margin: 12px 0 4px; }
+.tourCredit { font-size: 11px; color: #94A3B8; margin: 0; padding: 0 16px 14px; }
+.tourDetailNotice { word-break: keep-all; font-size: 13px; color: #111; background: #F8FAFC; border: 1px solid #E5E7EB; border-radius: 8px; padding: 10px 12px; margin: 12px 0 0; line-height: 1.5; }
+.ctaPrimary { background: #111; color: #fff; border: 1px solid #111; }
+.ctaPrimary:hover { background: #111; color: #fff; opacity: .88; }
+.ctaSecondary { border: 1px solid #111; color: #111; background: #fff; }
+.ctaSecondary:hover { background: #fff; border-color: #111; color: #111; opacity: .88; }
+
+.tourOp { font-size: 12px; color: #64748B; margin: 0; }
+.tourTimeline { list-style: none; margin: 0; padding: 0 0 4px; }
+.tourTimeline li { display: flex; gap: 12px; padding: 8px 0; border-bottom: 1px dashed #E5E7EB; font-size: 14px; word-break: keep-all; }
+.tourTimeline li:last-child { border: 0; }
+.tourTimeline time { flex: 0 0 96px; color: #0B6BCB; font-weight: 600; font-size: 13px; }
+.tourTimeline b { display: block; font-weight: 600; color: #111; }

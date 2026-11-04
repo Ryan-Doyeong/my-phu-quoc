@@ -71,14 +71,6 @@ export function BookingServiceOverviewSection({ locale = 'ko' }: { locale?: Loca
                 {card.data.ctaLabel}
               </a>
               <div className="mpqServiceSubActions">
-                <a
-                  href={CONTACT_CONFIG.zaloUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mpqServiceBtnGhost"
-                >
-                  {card.data.zaloLabel}
-                </a>
                 <Link href={card.href} className="mpqServiceBtnLink">
                   {card.data.detailLabel} →
                 </Link>
@@ -111,14 +103,6 @@ export function CommonHelpSection({ locale = 'ko' }: { locale?: Locale }) {
             className="mpqCommonHelpBtnPrimary"
           >
             {copy.commonHelp.ctaLabel}
-          </a>
-          <a
-            href={CONTACT_CONFIG.zaloUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mpqCommonHelpBtnSecondary"
-          >
-            {copy.commonHelp.zaloLabel}
           </a>
           <a
             href={`tel:${CONTACT_CONFIG.phoneNumber}`}

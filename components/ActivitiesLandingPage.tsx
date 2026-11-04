@@ -2,7 +2,6 @@ import Link from 'next/link'
 import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { BookingCommonIntroCallout, CommonHelpSection } from '@/components/BookingServiceSections'
-import { CONTACT_CONFIG } from '@/lib/contactConfig'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
 import { BOOKING_SERVICE_COPY, buildServiceWhatsappUrl } from '@/lib/i18n/bookingServiceCopy'
@@ -297,14 +296,6 @@ export function ActivitiesLandingPage({ locale = 'ko' }: ActivitiesLandingPagePr
               className="activitiesHeroPrimaryBtn"
             >
               {actCopy.ctaLabel}
-            </a>
-            <a
-              href={CONTACT_CONFIG.zaloUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="activitiesHeroSecondaryBtn"
-            >
-              {actCopy.zaloLabel}
             </a>
           </div>
         </div>
