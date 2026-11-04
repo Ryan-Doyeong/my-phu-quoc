@@ -10,6 +10,9 @@ import { MAIN_ZONES, SUNSET_BEACH_NOTICE_TEXT } from '@/lib/zones'
 import { ActivityYachtSection } from '@/components/ActivityYachtSection'
 import { ActivityPartnerToursSection } from '@/components/ActivityPartnerToursSection'
 
+// 문의형 5개 카테고리 타일은 비공개 (2026-11-04, 파트너 공시가 투어 섹션으로 대체). 다시 열려면 true.
+const SHOW_CATEGORY_TILES = false
+
 interface ActivitiesLandingPageProps {
   locale?: Locale
 }
@@ -333,6 +336,7 @@ export function ActivitiesLandingPage({ locale = 'ko' }: ActivitiesLandingPagePr
         </div>
 
         {/* 5 Activity Category Tiles (프로그램·요금: 문의 + 액티비티 문의하기) */}
+        {SHOW_CATEGORY_TILES && (
         <section className="activitiesTilesSection">
           <h2 className="activitiesSectionTitle">{t.categories}</h2>
           <div className="activitiesTilesGrid">
@@ -365,6 +369,7 @@ export function ActivitiesLandingPage({ locale = 'ko' }: ActivitiesLandingPagePr
             })}
           </div>
         </section>
+        )}
 
         <ActivityYachtSection locale={locale} />
         <ActivityPartnerToursSection locale={locale} />
