@@ -26,10 +26,10 @@ export const en = {
     osmLink: 'OpenStreetMap contributors',
   },
   home: {
-    heroTopline: 'SUNSET TOWN · KISS BRIDGE · FIREWORKS',
+    heroTopline: 'Sunset Town · Kiss Bridge · Fireworks',
     heroTitle: 'My\nPhu Quoc',
-    heroSubtitle: 'Charming streets, Kiss Bridge and fireworks lighting up the night sky in Sunset Town.',
-    heroDescription: "From the Mediterranean-inspired streets of Primavera to Kiss Bridge, evening fireworks (check official announcements for schedules) and local dining. Explore Sunset Town's main attractions and travel tips.",
+    heroSubtitle: 'South Phu Quoc Travel Guide: Kiss Bridge, dazzling night fireworks shows, and verified dining, cafes & hotels.',
+    heroDescription: 'From Mediterranean-style alleys to Kiss Bridge, night fireworks shows (check official schedules), and curated dining—explore all essential Sunset Town information at a glance.',
     heroPrimaryCta: 'Explore Sunset Town',
     heroSecondaryCta: 'Explore Khem Beach',
     heroNote: 'Nightly 21:00\nFireworks Show ♥',
