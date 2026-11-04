@@ -1,8 +1,14 @@
 .wrap { max-width: 1200px; margin: 0 auto; padding: 0.75rem 0 1rem; box-sizing: border-box; }
-.grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.4rem; }
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.5rem; margin-top: 0.5rem; }
 .banner { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.2rem; min-height: 3.6rem; padding: 0.45rem 0.2rem; border: 1px solid #e5e7eb; border-radius: 10px; background: #ffffff; color: #111827; cursor: pointer; transition: background-color 0.15s ease, border-color 0.15s ease; }
 .banner:hover { background: #f0f9ff; border-color: #7dd3fc; }
 .banner:focus-visible { outline: 2px solid #0284c7; outline-offset: 2px; }
 .icon { font-size: 1.15rem; line-height: 1; }
 .label { font-size: 0.6875rem; font-weight: 600; line-height: 1.25; text-align: center; word-break: keep-all; color: #111827; }
 @media (min-width: 640px) { .grid { gap: 0.6rem; } .banner { flex-direction: row; gap: 0.5rem; min-height: 3.25rem; } .label { font-size: 0.9rem; } .icon { font-size: 1.25rem; } }
+
+.bannerWide { display: flex; align-items: center; justify-content: center; gap: 0.6rem; width: 100%; min-height: 5rem; padding: 0.9rem 1rem; border: 1px solid #0c4a6e; border-radius: 12px; background: linear-gradient(135deg, #0c4a6e, #0284c7); color: #ffffff; cursor: pointer; box-sizing: border-box; transition: opacity 0.15s ease; }
+.bannerWide:hover { opacity: 0.92; }
+.bannerWide:focus-visible { outline: 2px solid #0284c7; outline-offset: 2px; }
+.iconWide { font-size: 1.6rem; line-height: 1; }
+.labelWide { font-size: 1.125rem; font-weight: 700; word-break: keep-all; }
