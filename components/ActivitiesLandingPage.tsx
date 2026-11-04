@@ -1,9 +1,11 @@
-// Translations: ko source; en/zh/ru/ja/hi drafted 2026-10-31 — ChatGPT 검수 대기
 import Link from 'next/link'
 import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
+import { BookingCommonIntroCallout, CommonHelpSection } from '@/components/BookingServiceSections'
+import { CONTACT_CONFIG } from '@/lib/contactConfig'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
+import { BOOKING_SERVICE_COPY, buildServiceWhatsappUrl } from '@/lib/i18n/bookingServiceCopy'
 import { MAIN_ZONES, SUNSET_BEACH_NOTICE_TEXT } from '@/lib/zones'
 import { ActivityYachtSection } from '@/components/ActivityYachtSection'
 
@@ -14,12 +16,10 @@ interface ActivitiesLandingPageProps {
 interface ActivityCategoryItem {
   id: string
   icon: string
-  title: Record<string, string>
-  desc: Record<string, string>
+  title: Record<Locale, string>
+  desc: Record<Locale, string>
 }
 
-/* Category definitions for Southern Phu Quoc Activities */
-// vi is not an active locale; it falls back to en.
 const ACTIVITY_CATEGORIES: ActivityCategoryItem[] = [
   {
     id: 'hon-thom',
@@ -27,18 +27,20 @@ const ACTIVITY_CATEGORIES: ActivityCategoryItem[] = [
     title: {
       ko: '혼똔섬 아일랜드',
       en: 'Hon Thom Island',
-      zh: 'Hon Thom 岛',
+      zh: '香岛 (Hon Thom Island)',
       ru: 'Остров Хон Том',
       ja: 'ホントム島',
       hi: 'हॉन थॉम द्वीप',
+      vi: 'Đảo Hòn Thơm',
     },
     desc: {
       ko: '해상 케이블카 · 아쿠아토피아 워터파크 · 테마파크',
       en: 'Sea Cable Car · Aquatopia Water Park · Theme Park',
-      zh: '海上缆车 · Aquatopia 水上乐园 · 主题公园',
+      zh: '跨海缆车 · Aquatopia 水上乐园 · 主题公园',
       ru: 'Морская канатная дорога · Аквапарк Aquatopia · Тематический парк',
       ja: '海上ケーブルカー · アクアトピア ウォーターパーク · テーマパーク',
       hi: 'समुद्री केबल कार · Aquatopia वाटर पार्क · थीम पार्क',
+      vi: 'Cáp treo vượt biển · Công viên nước Aquatopia · Công viên chủ đề',
     },
   },
   {
@@ -46,11 +48,12 @@ const ACTIVITY_CATEGORIES: ActivityCategoryItem[] = [
     icon: '⛵',
     title: {
       ko: '호핑 투어',
-      en: 'Hopping Tour',
-      zh: '跳岛游',
+      en: 'Island Hopping Tour',
+      zh: '南部跳岛游',
       ru: 'Тур по островам',
       ja: 'アイランドホッピングツアー',
       hi: 'आइलैंड हॉपिंग टूर',
+      vi: 'Tour cano khám phá đảo',
     },
     desc: {
       ko: '남부 3섬·4섬 스노클링 · 선셋 크루즈',
@@ -59,6 +62,7 @@ const ACTIVITY_CATEGORIES: ActivityCategoryItem[] = [
       ru: 'Снорклинг на 3 и 4 островах юга · Закатный круиз',
       ja: '南部3島・4島スノーケリング · サンセットクルーズ',
       hi: 'दक्षिण के 3-द्वीप और 4-द्वीप स्नॉर्कलिंग · सनसेट क्रूज़',
+      vi: 'Lặn ngắm san hô 3 đảo · 4 đảo Nam Phú Quốc · Du thuyền hoàng hôn',
     },
   },
   {
@@ -71,26 +75,29 @@ const ACTIVITY_CATEGORIES: ActivityCategoryItem[] = [
       ru: 'Частный яхт-тур',
       ja: 'プライベートヨットツアー',
       hi: 'प्राइवेट याट टूर',
+      vi: 'Tour du thuyền riêng',
     },
     desc: {
-      ko: '단독 대절 요트 · 일몰 세일링 · 프라이빗 파티',
-      en: 'Exclusive Charter Yacht · Sunset Sailing · Private Party',
-      zh: '包船游艇 · 日落航行 · 私人派对',
-      ru: 'Яхта в единоличную аренду · Парусная прогулка на закате · Частная вечеринка',
-      ja: '貸切ヨット · サンセットセーリング · プライベートパーティー',
-      hi: 'निजी चार्टर याट · सनसेट सेलिंग · प्राइवेट पार्टी',
+      ko: '단독 대절 요트 · 일몰 세일링 · 맞춤 일정 상담',
+      en: 'Exclusive Charter Yacht · Sunset Sailing · Custom Schedule',
+      zh: '包船游艇 · 日落航行 · 定制日程咨询',
+      ru: 'Индивидуальная аренда яхты · Закатный круиз · Индивидуальный маршрут',
+      ja: '貸切ヨット · サンセットセーリング · オーダーメイド日程相談',
+      hi: 'निजी चार्टर याट · सनसेट सेलिंग · कस्टम शेड्यूल',
+      vi: 'Thuê trọn du thuyền · Ngắm hoàng hôn · Lịch trình theo yêu cầu',
     },
   },
   {
     id: 'fishing',
     icon: '🎣',
     title: {
-      ko: '낚시',
-      en: 'Fishing',
-      zh: '钓鱼',
-      ru: 'Рыбалка',
-      ja: '釣り',
-      hi: 'मछली पकड़ना',
+      ko: '낚시 체험',
+      en: 'Fishing Experience',
+      zh: '海钓与夜钓鱿鱼',
+      ru: 'Морская рыбалка',
+      ja: '釣り体験',
+      hi: 'मछली पकड़ने का अनुभव',
+      vi: 'Trải nghiệm câu cá · câu mực',
     },
     desc: {
       ko: '야간 오징어 낚시 · 바다 낚시 체험',
@@ -99,18 +106,20 @@ const ACTIVITY_CATEGORIES: ActivityCategoryItem[] = [
       ru: 'Ночная ловля кальмаров · Морская рыбалка',
       ja: '夜のイカ釣り · 海釣り体験',
       hi: 'रात में स्क्विड फिशिंग · समुद्री मछली पकड़ने का अनुभव',
+      vi: 'Câu mực đêm · Trải nghiệm câu cá biển',
     },
   },
   {
     id: 'others',
     icon: '🏄',
     title: {
-      ko: '기타',
-      en: 'Other Activities',
-      zh: '其他',
-      ru: 'Другое',
-      ja: 'その他',
-      hi: 'अन्य',
+      ko: '기타 해양 스포츠·체험',
+      en: 'Other Water Sports & Experiences',
+      zh: '其他水上运动与体验',
+      ru: 'Другие водные развлечения',
+      ja: 'その他のマリンスポーツ・体験',
+      hi: 'अन्य जल क्रीड़ाएँ और अनुभव',
+      vi: 'Thể thao biển & Trải nghiệm khác',
     },
     desc: {
       ko: '패러세일링 · 제트스키 · 카약 · 해양 스포츠',
@@ -119,83 +128,110 @@ const ACTIVITY_CATEGORIES: ActivityCategoryItem[] = [
       ru: 'Парасейлинг · Гидроцикл · Каяк · Водные виды спорта',
       ja: 'パラセーリング · ジェットスキー · カヤック · マリンスポーツ',
       hi: 'पैरासेलिंग · जेट स्की · कयाक · जल क्रीड़ाएँ',
+      vi: 'Dù lượn · Mô tô nước · Chèo kayak · Thể thao biển',
     },
   },
 ]
 
-const T: Record<string, {
-  sunsetTown: string; khemBeach: string; activities: string; categories: string; soon: string
-  subtitle: string; notice: string; policyTitle: string; policyText: string
-}> = {
+const T: Record<
+  Locale,
+  {
+    sunsetTown: string
+    khemBeach: string
+    activities: string
+    categories: string
+    policyTitle: string
+    policyText: string
+  }
+> = {
   ko: {
-    sunsetTown: '선셋타운', khemBeach: '켐비치', activities: '액티비티', categories: '주요 카테고리', soon: '준비 중',
-    subtitle: '푸꾸옥 남부 선셋타운과 켐비치에서 즐길 수 있는 대표 해양 액티비티 및 투어 프로그램 안내입니다.',
-    notice: '콘텐츠 준비 중입니다. 공식 일정 및 세부 프로그램 정보가 순차적으로 업데이트됩니다.',
-    policyTitle: '투어 및 액티비티 안내 기준',
-    policyText: '마이 푸꾸옥은 공식 확인된 검증 정보만을 제공합니다. 임의의 가격이나 일정을 게시하지 않으며, 제휴 및 정식 운영 프로그램이 확정되는 대로 정식 오픈될 예정입니다.',
+    sunsetTown: '선셋타운',
+    khemBeach: '켐비치',
+    activities: '액티비티',
+    categories: '상담 가능한 액티비티 분야 (프로그램·요금: 문의)',
+    policyTitle: '액티비티 사전 안내 및 예약 도우미 원칙',
+    policyText:
+      '마이 푸꾸옥은 여행 일정과 취향에 맞는 액티비티 예약을 도와드립니다. 예약 전 참여 시간과 포함 사항, 이동 방법, 이용 조건과 요금을 확인해 안내해 드리며, 확인되지 않은 임의의 상품·일정·가격을 게시하지 않습니다.',
   },
   en: {
-    sunsetTown: 'Sunset Town', khemBeach: 'Khem Beach', activities: 'Activities', categories: 'Categories', soon: 'Coming Soon',
-    subtitle: 'Discover top ocean activities and tour experiences across Southern Phu Quoc.',
-    notice: 'Content is being prepared. Verified program schedules and details will be updated soon.',
-    policyTitle: 'Activity Information Policy',
-    policyText: 'My Phu Quoc publishes verified official information only. We do not post arbitrary prices or schedules; programs will officially open as soon as partnerships and official operations are confirmed.',
+    sunsetTown: 'Sunset Town',
+    khemBeach: 'Khem Beach',
+    activities: 'Activities',
+    categories: 'Activity Categories Available for Inquiry (Program & Rates: On Request)',
+    policyTitle: 'Activity Guidance & Booking Support Principles',
+    policyText:
+      'My Phu Quoc helps you arrange activities suited to your schedule and preferences. Before booking, we check and explain session times, inclusions, transfers, terms, and rates. We never post unverified or arbitrary products, schedules, or prices.',
   },
   zh: {
-    sunsetTown: '日落小镇', khemBeach: '凯姆海滩', activities: '活动体验', categories: '主要类别', soon: '筹备中',
-    subtitle: '为您介绍富国岛南部日落小镇和 凯姆海滩一带的代表性海上活动与旅游项目。',
-    notice: '内容筹备中。官方日程及详细项目信息将陆续更新。',
-    policyTitle: '旅游与活动信息说明',
-    policyText: 'My Phu Quoc 只提供经官方确认的核实信息。我们不会随意发布价格或日程，待合作及正式运营项目确定后将正式上线。',
+    sunsetTown: '日落小镇',
+    khemBeach: '凯姆海滩',
+    activities: '活动体验',
+    categories: '可咨询的活动类别（项目与费用：咨询确认）',
+    policyTitle: '活动提前说明与预订协助原则',
+    policyText:
+      'My Phu Quoc 协助预订符合您旅行日程与喜好的当地活动。预订前为您核实并说明参与时间、包含内容、交通方式、使用条件与费用，绝不发布未经核实的随意项目、日程或价格。',
   },
   ru: {
-    sunsetTown: 'Сансет Таун', khemBeach: 'Пляж Бай Кхем', activities: 'Активности', categories: 'Основные категории', soon: 'Скоро',
-    subtitle: 'Обзор основных морских активностей и туров, доступных в Сансет Тауне и на пляже Бай Кхем на юге Фукуока.',
-    notice: 'Контент в стадии подготовки. Официальное расписание и подробная информация о программах будут обновляться постепенно.',
-    policyTitle: 'Правила публикации информации о турах и активностях',
-    policyText: 'My Phu Quoc публикует только официально подтверждённую информацию. Мы не размещаем произвольные цены и расписания; программы откроются официально сразу после подтверждения партнёрства и официальной работы.',
+    sunsetTown: 'Сансет-Таун',
+    khemBeach: 'Пляж Кхем',
+    activities: 'Экскурсии и развлечения',
+    categories: 'Категории развлечений по запросу (Программа и стоимость: по запросу)',
+    policyTitle: 'Принципы информирования и помощи с бронированием',
+    policyText:
+      'My Phu Quoc помогает подобрать и забронировать развлечения под ваше расписание. Перед бронированием мы проверяем и сообщаем время проведения, что включено, трансфер, условия и стоимость, не публикуя произвольных цен или непроверенных программ.',
   },
   ja: {
-    sunsetTown: 'サンセットタウン', khemBeach: 'ケムビーチ', activities: 'アクティビティ', categories: '主なカテゴリー', soon: '準備中',
-    subtitle: 'フーコック島南部のサンセットタウンとケムビーチで楽しめる、代表的なマリンアクティビティとツアープログラムのご案内です。',
-    notice: 'コンテンツは準備中です。公式の日程や詳細なプログラム情報は順次更新されます。',
-    policyTitle: 'ツアー・アクティビティ情報の掲載基準',
-    policyText: 'マイ・フーコックは、公式に確認された検証済みの情報のみを提供します。根拠のない料金や日程は掲載せず、提携および正式な運営プログラムが確定次第、正式にオープンする予定です。',
+    sunsetTown: 'サンセットタウン',
+    khemBeach: 'ケムビーチ',
+    activities: 'アクティビティ',
+    categories: 'ご相談可能なアクティビティ分野（プログラム・料金：お問い合わせ）',
+    policyTitle: 'アクティビティ事前案内・予約サポートの原則',
+    policyText:
+      'My Phu Quocはご旅行日程やお好みに合わせたアクティビティ予約をお手伝いします。ご予約前に参加時間・含まれる内容・移動方法・ご利用条件と料金を確認してご案内し、未確認のプログラムや任意の価格・日程は掲載いたしません。',
   },
   hi: {
-    sunsetTown: 'सनसेट टाउन', khemBeach: 'खेम बीच', activities: 'गतिविधियाँ', categories: 'मुख्य श्रेणियाँ', soon: 'जल्द आ रहा है',
-    subtitle: 'फु क्वोक के दक्षिण में सनसेट टाउन और खेम बीच पर आनंद लेने योग्य प्रमुख समुद्री गतिविधियों और टूर कार्यक्रमों की जानकारी।',
-    notice: 'सामग्री तैयार की जा रही है। आधिकारिक कार्यक्रम और विस्तृत जानकारी क्रमशः अपडेट की जाएगी।',
-    policyTitle: 'टूर और गतिविधि जानकारी नीति',
-    policyText: 'My Phu Quoc केवल आधिकारिक रूप से सत्यापित जानकारी ही प्रदान करता है। हम मनमाने मूल्य या कार्यक्रम प्रकाशित नहीं करते; साझेदारी और आधिकारिक संचालन तय होते ही कार्यक्रम औपचारिक रूप से शुरू किए जाएंगे।',
+    sunsetTown: 'सनसेट टाउन',
+    khemBeach: 'खेम बीच',
+    activities: 'एक्टिविटीज़',
+    categories: 'पूछताछ के लिए उपलब्ध एक्टिविटी श्रेणियाँ (प्रोग्राम और शुल्क: पूछताछ करें)',
+    policyTitle: 'एक्टिविटी पूर्व-मार्गदर्शन और बुकिंग सहायता सिद्धांत',
+    policyText:
+      'My Phu Quoc आपके शेड्यूल और पसंद के अनुसार एक्टिविटी बुक करने में मदद करता है। बुकिंग से पहले हम समय, शामिल सेवाओं, आने-जाने के तरीके, शर्तों और शुल्क की पुष्टि कर जानकारी देते हैं और बिना पुष्टि के कोई मनमाना कार्यक्रम या कीमत प्रकाशित नहीं करते।',
+  },
+  vi: {
+    sunsetTown: 'Thị trấn Hoàng Hôn',
+    khemBeach: 'Bãi Khem',
+    activities: 'Hoạt động & Trải nghiệm',
+    categories: 'Các nhóm hoạt động hỗ trợ tư vấn (Chương trình · Chi phí: Liên hệ)',
+    policyTitle: 'Nguyên tắc hướng dẫn trước & hỗ trợ đặt hoạt động',
+    policyText:
+      'My Phu Quoc hỗ trợ đặt các hoạt động trải nghiệm phù hợp với lịch trình và sở thích của bạn. Trước khi đặt, chúng tôi kiểm tra và thông báo thời gian tham gia, hạng mục bao gồm, phương tiện di chuyển, điều kiện áp dụng và chi phí; tuyệt đối không đăng tải sản phẩm, lịch trình hay mức giá tùy ý chưa xác nhận.',
   },
 }
 
 export function ActivitiesLandingPage({ locale = 'ko' }: ActivitiesLandingPageProps) {
   const dict = getDictionary(locale)
   const t = T[locale] ?? T.en
+  const copy = BOOKING_SERVICE_COPY[locale] ?? BOOKING_SERVICE_COPY.en
+  const actCopy = copy.activities
+  const mainWhatsappUrl = buildServiceWhatsappUrl(actCopy.prefillMessage)
 
   return (
     <div className="activitiesPageRoot">
-      {/* 0. Top Header (White background matching detailNav style) */}
+      {/* 0. Top Header */}
       <header className="detailNav">
         <Logo locale={locale} />
         <div className="detailNavRight">
           <nav>
             <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
-            <Link href={localePath(locale, '/zones/sunset-town')}>
-              {t.sunsetTown}
-            </Link>
-            <Link href={localePath(locale, '/zones/khem-beach')}>
-              {t.khemBeach}
-            </Link>
+            <Link href={localePath(locale, '/zones/sunset-town')}>{t.sunsetTown}</Link>
+            <Link href={localePath(locale, '/zones/khem-beach')}>{t.khemBeach}</Link>
             <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
           </nav>
           <LanguageSwitcher locale={locale} variant="light" />
         </div>
       </header>
 
-      {/* Main Container (White MyRealTrip style, 12px frame, 8px tiles) */}
       <main className="activitiesContainer">
         {/* Breadcrumb */}
         <div className="activitiesBreadcrumb">
@@ -204,12 +240,12 @@ export function ActivitiesLandingPage({ locale = 'ko' }: ActivitiesLandingPagePr
           <span className="current">{t.activities}</span>
         </div>
 
-        {/* Hero Title Box with Background Photo */}
+        {/* Hero Title Box ([액티비티]) */}
         <div
           className="activitiesHeaderBox"
           style={{
             backgroundImage:
-              "linear-gradient(180deg, rgba(8, 22, 36, 0.45) 0%, rgba(8, 22, 36, 0.72) 100%), url('/categories/activities.webp')",
+              "linear-gradient(180deg, rgba(8, 22, 36, 0.52) 0%, rgba(8, 22, 36, 0.78) 100%), url('/categories/activities.webp')",
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             color: '#FFFFFF',
@@ -222,21 +258,54 @@ export function ActivitiesLandingPage({ locale = 'ko' }: ActivitiesLandingPagePr
             className="activitiesEyebrow"
             style={{ color: '#7DD3FC', textShadow: '0 1px 3px rgba(0,0,0,0.35)' }}
           >
-            EXPERIENCES & TOURS
+            {actCopy.tag} · {actCopy.priceLabel}
           </div>
           <h1
             className="activitiesTitle"
-            style={{ color: '#FFFFFF', fontSize: 'clamp(28px, 4.5vw, 38px)', textShadow: '0 2px 10px rgba(0,0,0,0.4)' }}
+            style={{
+              color: '#FFFFFF',
+              fontSize: 'clamp(26px, 4.2vw, 36px)',
+              textShadow: '0 2px 10px rgba(0,0,0,0.4)',
+            }}
           >
-            {t.activities}
+            {actCopy.title}
           </h1>
           <p
             className="activitiesSubtitle"
-            style={{ color: 'rgba(255,255,255,0.94)', maxWidth: '640px', margin: '0 auto', textShadow: '0 1px 4px rgba(0,0,0,0.3)' }}
+            style={{
+              color: 'rgba(255,255,255,0.94)',
+              maxWidth: '680px',
+              margin: '0 auto 20px',
+              textShadow: '0 1px 4px rgba(0,0,0,0.3)',
+            }}
           >
-            {t.subtitle}
+            {actCopy.body}
           </p>
+          <div className="activitiesHeroBadgeRow">
+            <span className="activitiesHeroPriceBadge">{actCopy.priceLabel}</span>
+          </div>
+          <div className="activitiesHeroCtaRow">
+            <a
+              href={mainWhatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="activitiesHeroPrimaryBtn"
+            >
+              {actCopy.ctaLabel}
+            </a>
+            <a
+              href={CONTACT_CONFIG.zaloUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="activitiesHeroSecondaryBtn"
+            >
+              {actCopy.zaloLabel}
+            </a>
+          </div>
         </div>
+
+        {/* [공통 소개] */}
+        <BookingCommonIntroCallout locale={locale} />
 
         <div
           className="zoneNoteBanner amberNotice"
@@ -262,47 +331,53 @@ export function ActivitiesLandingPage({ locale = 'ko' }: ActivitiesLandingPagePr
           </Link>
         </div>
 
-        <ActivityYachtSection locale={locale} />
-
-        {/* 5 Planned Category Tiles (8px rounded) */}
+        {/* 5 Activity Category Tiles (프로그램·요금: 문의 + 액티비티 문의하기) */}
         <section className="activitiesTilesSection">
-          <h2 className="activitiesSectionTitle">
-            {t.categories}
-          </h2>
+          <h2 className="activitiesSectionTitle">{t.categories}</h2>
           <div className="activitiesTilesGrid">
             {ACTIVITY_CATEGORIES.map((cat) => {
               const catTitle = cat.title[locale] || cat.title.en
               const catDesc = cat.desc[locale] || cat.desc.en
+              const catWhatsappUrl = buildServiceWhatsappUrl(`${actCopy.prefillMessage}[${catTitle}] `)
               return (
                 <div key={cat.id} className="activityCategoryTile">
                   <div className="tileTopRow">
                     <span className="tileIcon" aria-hidden="true">
                       {cat.icon}
                     </span>
-                    <span className="tileStatusPill">
-                      {t.soon}
-                    </span>
+                    <span className="tileStatusPill">{actCopy.priceLabel}</span>
                   </div>
                   <h3 className="tileTitle">{catTitle}</h3>
                   <p className="tileDesc">{catDesc}</p>
+                  <div className="tileActionRow">
+                    <a
+                      href={catWhatsappUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="tileInquiryBtn"
+                    >
+                      {actCopy.ctaLabel}
+                    </a>
+                  </div>
                 </div>
               )
             })}
           </div>
         </section>
 
-        {/* Information & Partnership Callout (12px rounded) */}
+        <ActivityYachtSection locale={locale} />
+
+        {/* Information & Partnership Callout */}
         <div className="activitiesCalloutBox">
           <div className="calloutIcon">ℹ️</div>
           <div className="calloutBody">
-            <div className="calloutTitle">
-              {t.policyTitle}
-            </div>
-            <div className="calloutText">
-              {t.policyText}
-            </div>
+            <div className="calloutTitle">{t.policyTitle}</div>
+            <div className="calloutText">{t.policyText}</div>
           </div>
         </div>
+
+        {/* [4. 공통 도움 안내] */}
+        <CommonHelpSection locale={locale} />
       </main>
     </div>
   )

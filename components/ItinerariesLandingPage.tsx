@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { TripPlanner } from '@/components/TripPlanner'
+import { BookingCommonIntroCallout, CommonHelpSection } from '@/components/BookingServiceSections'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
 
@@ -184,6 +185,8 @@ export function ItinerariesLandingPage({ locale = 'ko' }: ItinerariesLandingPage
           </ul>
         </div>
 
+        <BookingCommonIntroCallout locale={locale} />
+
         <TripPlanner locale={locale} />
 
         <div className="itinerariesCalloutBox">
@@ -193,6 +196,8 @@ export function ItinerariesLandingPage({ locale = 'ko' }: ItinerariesLandingPage
             <div className="calloutText">{c.policyText}</div>
           </div>
         </div>
+
+        <CommonHelpSection locale={locale} />
       </main>
     </div>
   )

@@ -251,7 +251,14 @@ export function ActivityYachtSection({ locale = 'ko' }: { locale?: Locale }) {
               </details>
 
               <div className="yachtCta">
-                <a href={CONTACT_CONFIG.whatsappUrl} target="_blank" rel="noopener noreferrer" className="yachtCtaPrimary">{ui.wa}</a>
+                <a
+                  href={`${CONTACT_CONFIG.whatsappUrl}?text=${encodeURIComponent(`[${pick(t.title, locale)}] `)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="yachtCtaPrimary"
+                >
+                  {ui.wa}
+                </a>
                 <a href={CONTACT_CONFIG.zaloUrl} target="_blank" rel="noopener noreferrer" className="yachtCtaGhost">{ui.za}</a>
               </div>
             </div>

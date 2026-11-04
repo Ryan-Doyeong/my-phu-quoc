@@ -6,6 +6,7 @@ import { Logo } from '@/components/Logo'
 import { SponsorCarousel } from '@/components/SponsorCarousel'
 import { MrtBannerCarousel } from '@/components/MrtBannerCarousel'
 import { SouthGlanceSection } from '@/components/SouthGlanceSection'
+import { BookingServiceOverviewSection } from '@/components/BookingServiceSections'
 import { NewsletterForm } from '@/components/NewsletterForm'
 import { HeroSearch } from '@/components/SiteSearch'
 import { MobileMenu } from '@/components/MobileMenu'
@@ -723,6 +724,9 @@ export function HomePage({
       </div>
 
       <main>
+        {/* 예약·이동 안내 서비스 ([공통 소개] 및 버기·차량·이동·액티비티 안내 카드) */}
+        <BookingServiceOverviewSection locale={locale} />
+
         {/* Ryan 지시: 시안대로 홈의 스폰서 영역은 미사용 (컴포넌트는 보존) */}
         {false && <SponsorCarousel main={mainBanners} small={smallBanners} locale={locale} />}
 
