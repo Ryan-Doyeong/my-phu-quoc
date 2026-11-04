@@ -6,7 +6,6 @@ import { CONTACT_CONFIG } from '@/lib/contactConfig'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
 import { BOOKING_SERVICE_COPY, buildServiceWhatsappUrl } from '@/lib/i18n/bookingServiceCopy'
-import { MAIN_ZONES, SUNSET_BEACH_NOTICE_TEXT } from '@/lib/zones'
 import { ActivityYachtSection } from '@/components/ActivityYachtSection'
 import { ActivityOperatorNotice } from '@/components/ActivityOperatorNotice'
 import { ActivityMiniBanners } from '@/components/ActivityMiniBanners'
@@ -315,30 +314,6 @@ export function ActivitiesLandingPage({ locale = 'ko' }: ActivitiesLandingPagePr
 
         {/* [공통 소개] */}
         <BookingCommonIntroCallout locale={locale} />
-
-        <div
-          className="zoneNoteBanner amberNotice"
-          style={{
-            marginTop: '0',
-            marginBottom: '20px',
-            padding: '13px 16px',
-            fontSize: '13.5px',
-            lineHeight: 1.6,
-            display: 'flex',
-            flexWrap: 'wrap',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            gap: '8px 16px',
-          }}
-        >
-          <span>ℹ️ {SUNSET_BEACH_NOTICE_TEXT[locale] || SUNSET_BEACH_NOTICE_TEXT.en}</span>
-          <Link
-            href={localePath(locale, '/zones/khem-beach')}
-            style={{ color: '#0B7A8A', fontWeight: 700, textDecoration: 'underline', whiteSpace: 'nowrap' }}
-          >
-            {MAIN_ZONES['khem-beach'].ctaButton[locale] || MAIN_ZONES['khem-beach'].ctaButton.en}
-          </Link>
-        </div>
 
         {/* 5 Activity Category Tiles (프로그램·요금: 문의 + 액티비티 문의하기) */}
         {SHOW_CATEGORY_TILES && (

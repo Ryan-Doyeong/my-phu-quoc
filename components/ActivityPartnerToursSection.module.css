@@ -576,3 +576,13 @@
   .mediaCode { display: none; }
   .mediaOperator { max-width: 90%; }
 }
+
+/* 카테고리 탭: 눈에 띄는 작은 배너형 */
+.filterBar { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.5rem; }
+.chip { display: flex; align-items: center; justify-content: center; gap: 0.35rem; min-height: 2.75rem; padding: 0.5rem 0.6rem; border: 1.5px solid #7dd3fc; border-radius: 10px; background: #f0f9ff; color: #0c4a6e; font-size: 0.875rem; font-weight: 700; white-space: normal; text-align: center; line-height: 1.2; }
+.chip:hover { background: #e0f2fe; border-color: #38bdf8; color: #075985; }
+.chipActive { background: #0284c7; border-color: #0284c7; color: #ffffff; box-shadow: 0 2px 6px rgba(2, 132, 199, 0.3); }
+.chipActive .chipCount { opacity: 0.9; }
+.chipCount { display: inline-block; min-width: 1.3rem; padding: 0 0.35rem; border-radius: 999px; background: rgba(2, 132, 199, 0.12); font-size: 0.75rem; opacity: 1; margin-left: 0.1rem; }
+.chipActive .chipCount { background: rgba(255, 255, 255, 0.25); }
+@media (min-width: 640px) { .filterBar { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
