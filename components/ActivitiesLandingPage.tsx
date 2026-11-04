@@ -8,6 +8,7 @@ import { getDictionary } from '@/lib/i18n/dictionaries'
 import { BOOKING_SERVICE_COPY, buildServiceWhatsappUrl } from '@/lib/i18n/bookingServiceCopy'
 import { MAIN_ZONES, SUNSET_BEACH_NOTICE_TEXT } from '@/lib/zones'
 import { ActivityYachtSection } from '@/components/ActivityYachtSection'
+import { ActivityOperatorNotice } from '@/components/ActivityOperatorNotice'
 import { ActivityMiniBanners } from '@/components/ActivityMiniBanners'
 import { ActivityPartnerToursSection } from '@/components/ActivityPartnerToursSection'
 
@@ -310,6 +311,7 @@ export function ActivitiesLandingPage({ locale = 'ko' }: ActivitiesLandingPagePr
         </div>
 
         <ActivityMiniBanners locale={locale} />
+        <ActivityOperatorNotice locale={locale} />
 
         {/* [공통 소개] */}
         <BookingCommonIntroCallout locale={locale} />
