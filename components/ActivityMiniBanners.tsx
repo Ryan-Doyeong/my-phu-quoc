@@ -35,8 +35,14 @@ export function ActivityMiniBanners({ locale = 'ko' }: { locale?: Locale }) {
 
   return (
     <nav className={styles.wrap} aria-label={locale === 'ko' ? '액티비티 카테고리' : 'Activity categories'}>
+      {BANNERS.filter((b) => b.key === 'yacht').map((b) => (
+        <button key={b.key} type="button" className={styles.bannerWide} onClick={() => go(b.key)}>
+          <span className={styles.iconWide} aria-hidden="true">{b.icon}</span>
+          <span className={styles.labelWide}>{locale === 'ko' ? b.ko : b.en}</span>
+        </button>
+      ))}
       <div className={styles.grid}>
-        {BANNERS.map((b) => (
+        {BANNERS.filter((b) => b.key !== 'yacht').map((b) => (
           <button key={b.key} type="button" className={styles.banner} onClick={() => go(b.key)}>
             <span className={styles.icon} aria-hidden="true">{b.icon}</span>
             <span className={styles.label}>{locale === 'ko' ? b.ko : b.en}</span>
