@@ -51,8 +51,6 @@ interface EmergencyCopy {
   officialSiteBtn: string
   majorHospitalsTitle: string
   majorHospitalsSub: string
-  excludedNoticeTitle: string
-  excludedNoticeItems: string[]
   consularTitle: string
   consularSub: string
   hotlinePolice: string
@@ -70,13 +68,13 @@ const COPY: Record<Locale, EmergencyCopy> = {
       '위급한 상황에서는 즉시 현지 긴급전화(115 구급차 · 113 경찰 · 114 소방) 또는 아래 의료기관으로 직접 전화하세요. 호텔에 머무르고 계신다면 프런트에도 알려 구급차 호출과 병원 안내 도움을 받으세요.',
     sectionTitle: '선셋타운·안터이 병원·의원·약국 안내',
     sectionSub:
-      '선셋타운 시계탑(Clock Tower) 기준 자동차 약 10분 이내(실제 북측 출구 도로 기준)의 병원·의원·약국을 공식 정보와 교차 확인하여 안내합니다.',
+      "선셋타운·안터이의 병원·의원·약국과 푸꾸옥 내 추가 병원을 안내합니다. 확인 수준과 현재 경로를 확인하고 방문 전 직접 연락해 주세요.",
     travelTimeNoticeTitle: '이동 시간 및 경로 안내',
     travelTimeNoticeQuote: '선셋타운 시계탑 출발 기준이며 교통 상황에 따라 달라질 수 있습니다.',
     travelTimeNoticeDetail:
-      '선셋타운 내부 약국(Amalfi 67)은 차로 약 3분 거리이며, 선셋타운 북측 게이트(Đường Cáp Treo)·안터이 중심가 의료기관은 실제 도로 주행 시 약 4~10분(1.5~4.8km) 거리입니다. 단, 구글맵 자동 길찾기에서는 선셋타운 북측 게이트 일부 구간이 공사 통제로 표시되어 남측 우회로(ĐT 975 경유, 약 26~32분)로 계산될 수 있으니 각 카드의 두 경로 안내를 함께 확인해 주세요.',
-    groupHospitalClinic: '1. 선셋타운·안터이 병원 및 의원 (자동차 약 4~7분 / 구글맵 우회 표기 병기)',
-    groupPharmacy: '2. 선셋타운·안터이 약국 (자동차 약 3~10분)',
+      "2026-11-04 구글맵 자동차 경로를 직접 확인했습니다. 북측 도로의 현재 통행 가능 여부는 미확인이며, 지도에는 도로 폐쇄 우회 및 통행 제한·사유지 경고가 표시됩니다. 짧은 직결 경로 또는 10분 이내 병원 도착을 확정하지 않습니다. 출발 전 최신 경로와 현장 통행 여부를 기사·의료기관에 확인해 주세요.",
+    groupHospitalClinic: "1. 선셋타운·안터이 병원 및 의원",
+    groupPharmacy: "2. 선셋타운·안터이 약국",
     kindLabels: {
       hospital: '병원 (Hospital)',
       clinic: '의원·클리닉 (Clinic)',
@@ -92,26 +90,19 @@ const COPY: Record<Locale, EmergencyCopy> = {
     foreignLangBadgePrefix: '외국어 응대 확인:',
     prosTitle: '이용상 장점',
     cautionsTitle: '이용상 유의점',
-    verifiedDateLabel: '정보 확인 날짜',
+    verifiedDateLabel: "정보 재검토 날짜",
     photoOfficialBadge: '공식 외관 사진 확인됨',
-    photoUnavailableTitle: '공식 외관 사진 미확보 (지도 사진 링크 제공)',
+    photoUnavailableTitle: "지도에서 장소·사진 확인",
     photoUnavailableDesc:
-      '구글맵 이용자 사진을 무단으로 내려받아 재게시하지 않는 원칙에 따라, 실제 외관·간판·입구 사진은 아래 구글맵 사진 보기 링크에서 바로 확인하실 수 있습니다.',
+      "재게시 사용 조건이 확인되지 않은 사진은 싣지 않았습니다. 아래 링크로 구글맵 장소를 열어 사진을 확인해 주세요.",
     viewMapPhotosBtn: '구글맵에서 외관·간판 사진 보기',
     callNowBtn: '전화하기',
     directionsBtn: '구글맵 길찾기',
     mapPinBtn: '지도 핀 보기',
     officialSiteBtn: '공식 안내 페이지',
-    majorHospitalsTitle: '3. [별도 안내] 구글맵 기준 확인된 24시간 종합병원·응급의료센터 (중증·야간 응급 대비)',
+    majorHospitalsTitle: "3. 푸꾸옥 내 추가 병원 안내",
     majorHospitalsSub:
-      '구글맵 자동 길찾기에서 선셋타운 북측 출구 공사 표기로 인해 안터이 병원이 26분 이상으로 안내되거나, 야간·중증 응급 처치가 필요한 경우를 대비해 푸꾸옥 내 공식 확인된 24시간 종합병원·의료센터를 별도로 안내합니다.',
-    excludedNoticeTitle: '조사 후 게시에서 제외한 후보 및 미확인 사항 안내',
-    excludedNoticeItems: [
-      'Phòng khám Đa khoa Quốc tế Sài Gòn – Phú Quốc, An Thới: 현재 동일 주소(S259-S354, Sun Grand City New An Thới)에서 "Phòng khám Đa khoa Quốc tế DNG – Cơ sở An Thới"로 명칭이 변경되어 운영 중임을 교차 확인하여 현행 공식 명칭(구 명칭 병기)으로 게시했습니다.',
-      'Nhà thuốc Amalfi 65 (선셋타운 내): 구글맵에 핀이 존재하나 전화번호·운영시간·공식 운영 여부가 확인되지 않아 게시에서 제외했습니다 (바로 옆 Amalfi 67 약국 이용 권장).',
-      'An Thoi Polyclinics (120 ĐT46) / Phòng khám 30/4 An Thới: 구글맵상 전화번호·운영시간·실제 외관 및 진료 여부가 공식 확인되지 않아 게시에서 제외했습니다.',
-      '의원·약국의 응급진료 및 외국어 상시 통역 여부: 공식 출처에서 확인되지 않은 사항은 추정하여 표기하지 않았습니다.',
-    ],
+      "선셋타운에서 거리가 있는 병원입니다. 각 기관의 응급진료 확인 수준과 이동 시간을 확인하고 직접 연락하세요.",
     consularTitle: '심각한 상황에서는 대사관·총영사관에 연락하세요',
     consularSub:
       '푸꾸옥(끼엔장성)은 호치민 주재 각국 총영사관 관할 구역입니다. 여권 분실·사건·사고 시 아래 직통 번호로 연락하세요.',
@@ -128,14 +119,14 @@ const COPY: Record<Locale, EmergencyCopy> = {
       'In an emergency, call local emergency services immediately (115 Ambulance · 113 Police · 114 Fire) or call the medical facilities below directly. If staying at a hotel, also inform the front desk for help calling an ambulance or finding a hospital.',
     sectionTitle: 'Hospitals, Clinics & Pharmacies (Sunset Town · An Thoi)',
     sectionSub:
-      'Cross-verified hospitals, clinics, and pharmacies within ~10 minutes by car from the Sunset Town Clock Tower (via direct road).',
+      "Find hospitals, clinics and pharmacies in Sunset Town and An Thoi, plus other hospitals on Phu Quoc. Check the verification notes and current route, and contact the facility before visiting.",
     travelTimeNoticeTitle: 'Travel Time & Route Notice',
     travelTimeNoticeQuote:
       'Based on departure from the Sunset Town Clock Tower and may vary depending on traffic conditions.',
     travelTimeNoticeDetail:
-      'Pharmacy Amalfi 67 inside Sunset Town is ~3 minutes by car, and medical facilities at the Sunset Town North Gate (Đường Cáp Treo) and An Thới town are ~4–10 minutes (1.5–4.8 km) by direct road. Note that Google Maps auto-routing currently flags a short road-work segment at the North Gate and may calculate a southern detour via ĐT 975 (~26–32 min); both figures are shown on each card.',
-    groupHospitalClinic: '1. Hospitals & Clinics Near Sunset Town · An Thới (~4–7 min direct road)',
-    groupPharmacy: '2. Pharmacies Near Sunset Town · An Thới (~3–10 min by car)',
+      "Driving routes were checked directly in Google Maps on 2026-11-04. North-road access remains unconfirmed; Maps shows closure detours and restricted-access/private-road warnings. A short direct route or hospital arrival within ten minutes is not confirmed. Check the latest route and access with your driver and the facility before departure.",
+    groupHospitalClinic: "1. Hospitals and clinics in Sunset Town and An Thoi",
+    groupPharmacy: "2. Pharmacies in Sunset Town and An Thoi",
     kindLabels: {
       hospital: 'Hospital',
       clinic: 'Clinic / Polyclinic',
@@ -151,26 +142,19 @@ const COPY: Record<Locale, EmergencyCopy> = {
     foreignLangBadgePrefix: 'Confirmed Language Support:',
     prosTitle: 'Advantages',
     cautionsTitle: 'Good to Know & Cautions',
-    verifiedDateLabel: 'Verified Date',
+    verifiedDateLabel: "Information reviewed",
     photoOfficialBadge: 'Official Exterior Photo Verified',
-    photoUnavailableTitle: 'Official Exterior Photo Not Held (Map Photo Link Provided)',
+    photoUnavailableTitle: "View the place and photos on Maps",
     photoUnavailableDesc:
-      'In compliance with copyright rules against downloading and reposting Google Maps user photos without permission, you can view real exterior, storefront, and entrance photos directly via the Google Maps photo link below.',
+      "Photos without verified republication permission are not reproduced. Open the Google Maps place below to browse its photos.",
     viewMapPhotosBtn: 'View Exterior & Signboard Photos on Google Maps',
     callNowBtn: 'Call Now',
     directionsBtn: 'Google Maps Directions',
     mapPinBtn: 'View Map Pin',
     officialSiteBtn: 'Official Info Page',
-    majorHospitalsTitle: '3. [Separate Guide] Closest Confirmed 24/7 Major Hospitals in Phu Quoc',
+    majorHospitalsTitle: "3. Other hospitals on Phu Quoc",
     majorHospitalsSub:
-      'Provided separately in case Google Maps routes around the North Gate construction (26+ min) or if 24-hour / severe emergency hospital care is required.',
-    excludedNoticeTitle: 'Excluded Candidates & Unconfirmed Items',
-    excludedNoticeItems: [
-      'Phòng khám Đa khoa Quốc tế Sài Gòn – Phú Quốc, An Thới: Cross-verified that the clinic at S259-S354, Sun Grand City New An Thới now operates under the name "Phòng khám Đa khoa Quốc tế DNG – Cơ sở An Thới" (listed above with its former name noted).',
-      'Nhà thuốc Amalfi 65 (Sunset Town): Excluded because phone number, operating hours, and active operation could not be verified (use Pharmacy Amalfi 67 next door).',
-      'An Thoi Polyclinics (120 ĐT46) / Phòng khám 30/4 An Thới: Excluded due to unverified phone numbers, hours, and active clinical status.',
-      'Emergency care and foreign-language interpretation at clinics/pharmacies: Only officially confirmed capabilities are badged; unconfirmed items are never assumed.',
-    ],
+      "These hospitals are farther from Sunset Town. Check each facility’s emergency-care verification and journey time, and call directly.",
     consularTitle: 'For Serious Situations, Contact Your Embassy or Consulate',
     consularSub:
       'Phu Quoc (Kien Giang Province) falls under the jurisdiction of Consulates General in Ho Chi Minh City. Tap any number below to call directly.',
@@ -188,13 +172,13 @@ const COPY: Record<Locale, EmergencyCopy> = {
       '遇到紧急情况，请立即拨打当地紧急救援电话（115 急救 · 113 报警 · 114 消防）或直接拨打下方医疗机构电话。如入住酒店，也请告知前台协助呼叫救护车或指引附近医院。',
     sectionTitle: '日落小镇与安泰区医院·诊所·药房指南',
     sectionSub:
-      '为您整理从日落小镇钟楼（Clock Tower）出发约10分钟车程内（按实际道路）并经官方渠道交叉核实的医院、诊所与药房信息。',
+      "以下介绍日落小镇、安泰的医院、诊所、药房及岛内其他医院。请查看核实说明及当前路线，并在到访前直接联系。",
     travelTimeNoticeTitle: '车程时间与路线说明',
     travelTimeNoticeQuote: '以日落小镇钟楼出发为准，实际时间可能因交通状况而异。',
     travelTimeNoticeDetail:
-      '日落小镇内部药房（Amalfi 67）车程约3分钟；北侧出口（Đường Cáp Treo）及安泰镇医疗机构按实际主干道行驶约4~10分钟（1.5~4.8公里）。由于 Google 地图自动导航目前将北门一小段道路标记为施工管制，可能会按南侧绕行路线（经 ĐT 975，约26~32分钟）计算，每张卡片均同时标明两种数据供参考。',
-    groupHospitalClinic: '1. 日落小镇·安泰区医院与诊所（实际车程约4~7分钟）',
-    groupPharmacy: '2. 日落小镇·安泰区药房（车程约3~10分钟）',
+      "已于2026-11-04直接核查Google 地图驾车路线。北侧道路通行情况未确认，地图显示封路绕行及限行或私人道路警告。未确认可走短途直连路线或十分钟内到院。出发前请向司机及机构确认最新路线和通行情况。",
+    groupHospitalClinic: "1. 日落小镇及安泰医院与诊所",
+    groupPharmacy: "2. 日落小镇及安泰药房",
     kindLabels: {
       hospital: '医院 (Hospital)',
       clinic: '诊所·门诊 (Clinic)',
@@ -210,26 +194,19 @@ const COPY: Record<Locale, EmergencyCopy> = {
     foreignLangBadgePrefix: '已确认外语服务：',
     prosTitle: '就诊优势',
     cautionsTitle: '注意事项',
-    verifiedDateLabel: '信息核实日期',
+    verifiedDateLabel: "信息复核日期",
     photoOfficialBadge: '已核实官方外观照片',
-    photoUnavailableTitle: '暂无官方授权外观照片（提供地图照片链接）',
+    photoUnavailableTitle: "在地图查看地点及照片",
     photoUnavailableDesc:
-      '为严格遵守不擅自下载及转载 Google 地图用户上传照片的原则，您可通过下方链接直接在 Google 地图查看实景外观、招牌与入口照片。',
+      "未转载使用许可未确认的照片。请打开下方Google 地图地点查看照片。",
     viewMapPhotosBtn: '在 Google 地图查看外观与招牌照片',
     callNowBtn: '拨打电话',
     directionsBtn: 'Google 地图导航',
     mapPinBtn: '查看地图定位',
     officialSiteBtn: '官方介绍页面',
-    majorHospitalsTitle: '3. 【另行说明】富国岛已核实24小时综合医院与急诊中心',
+    majorHospitalsTitle: "3. 富国岛其他医院",
     majorHospitalsSub:
-      '针对 Google 地图绕行显示超过10分钟，或需要夜间及重症急诊救治的情况，另行提供富国岛内已确认的24小时综合医院信息。',
-    excludedNoticeTitle: '经调查未收录的候选地点与未确认事项说明',
-    excludedNoticeItems: [
-      'Phòng khám Đa khoa Quốc tế Sài Gòn – Phú Quốc, An Thới：经交叉核实，同一地址（S259-S354, Sun Grand City New An Thới）现以“Phòng khám Đa khoa Quốc tế DNG – Cơ sở An Thới”名称运营，已按现行官方名称（附注曾用名）发布。',
-      'Nhà thuốc Amalfi 65（日落小镇内）：地图虽有定位，但无电话、营业时间及营业状态确认，故不予收录（建议使用相邻的 Amalfi 67 药房）。',
-      'An Thoi Polyclinics (120 ĐT46) / Phòng khám 30/4 An Thới：因缺少电话号码、营业时间及官方核实信息，未予收录。',
-      '普通诊所及药房的急诊与外语服务：凡未经官方渠道确认的信息均不做推测标注。',
-    ],
+      "这些医院距日落小镇较远，请查看各院急诊核实情况及车程，并直接致电。",
     consularTitle: '情况严重时，请联系本国大使馆或领事馆',
     consularSub:
       '富国岛（坚江省）属各国驻胡志明市总领事馆领区。如遇护照遗失或重大事故，请点击下方电话直接拨打。',
@@ -246,13 +223,13 @@ const COPY: Record<Locale, EmergencyCopy> = {
       '緊急時は、現地の緊急通報先（115 救急車・113 警察・114 消防）または下記の医療機関へ直接お電話ください。ホテルに滞在中の場合は、フロントにもお知らせいただくと救急車の手配や病院案内を受けやすくなります。',
     sectionTitle: 'サンセットタウン・アントイの病院・クリニック・薬局案内',
     sectionSub:
-      'サンセットタウン時計塔（Clock Tower）から車で約10分以内（実道路基準）の病院・クリニック・薬局を公式情報と照合して掲載しています。',
+      "Здесь указаны больницы, клиники и аптеки Сансет-Тауна и Антхоя, а также другие больницы острова. Проверьте примечания и маршрут и свяжитесь с учреждением заранее.",
     travelTimeNoticeTitle: '移動時間およびルートのご案内',
     travelTimeNoticeQuote: 'サンセットタウン時計塔出発基準であり、交通状況によって異なる場合があります。',
     travelTimeNoticeDetail:
-      'サンセットタウン内の薬局（Amalfi 67）は車で約3分、北側ゲート（Đường Cáp Treo）・アントイ中心部の医療機関は実道路で約4〜10分（1.5〜4.8km）です。ただしGoogleマップの自動ルート検索では現在、北側ゲートの一部区間が工事規制と表示され南側迂回ルート（ĐT 975経由、約26〜32分）で算出される場合があるため、両方の数値を併記しています。',
-    groupHospitalClinic: '1. サンセットタウン・アントイの病院・クリニック（実道路 約4〜7分）',
-    groupPharmacy: '2. サンセットタウン・アントイの薬局（車で約3〜10分）',
+      "Автомобильные маршруты проверены в Google Картах 2026-11-04. Проезд по северной дороге не подтверждён; показаны объезды закрытий и предупреждения об ограничениях или частных дорогах. Короткий прямой проезд и прибытие в больницу за десять минут не подтверждены. Перед выездом уточните маршрут у водителя и учреждения.",
+    groupHospitalClinic: "1. Больницы и клиники Сансет-Тауна и Антхоя",
+    groupPharmacy: "2. Аптеки Сансет-Тауна и Антхоя",
     kindLabels: {
       hospital: '病院 (Hospital)',
       clinic: 'クリニック・医院 (Clinic)',
@@ -268,26 +245,19 @@ const COPY: Record<Locale, EmergencyCopy> = {
     foreignLangBadgePrefix: '外国語対応の確認:',
     prosTitle: '利用上のメリット',
     cautionsTitle: '利用上の留意点',
-    verifiedDateLabel: '情報確認日',
+    verifiedDateLabel: "Дата проверки сведений",
     photoOfficialBadge: '公式外観写真 確認済み',
-    photoUnavailableTitle: '公式外観写真 未保有（地図写真リンクを提供）',
+    photoUnavailableTitle: "Место и фотографии на карте",
     photoUnavailableDesc:
-      'Googleマップのユーザー投稿写真を無断転載しない方針に基づき、外観・看板・入口の写真は以下のGoogleマップ写真リンクから直接ご確認いただけます。',
+      "Фотографии без подтверждённого разрешения на перепубликацию не размещены. Откройте место на Google Картах, чтобы посмотреть фото.",
     viewMapPhotosBtn: 'Googleマップで外観・看板の写真を見る',
     callNowBtn: '電話をかける',
     directionsBtn: 'Googleマップ経路案内',
     mapPinBtn: '地図ピンを見る',
     officialSiteBtn: '公式案内ページ',
-    majorHospitalsTitle: '3. 【別枠案内】フーコック島内の確認済み24時間総合病院・救急医療センター',
+    majorHospitalsTitle: "3. Другие больницы Фукуока",
     majorHospitalsSub:
-      'Googleマップで北側ゲート工事により迂回案内（26分以上）となる場合や、夜間・重症救急が必要な場合に備え、島内で確認された24時間総合病院を別枠でご案内します。',
-    excludedNoticeTitle: '調査後に掲載から除外した候補および未確認事項',
-    excludedNoticeItems: [
-      'Phòng khám Đa khoa Quốc tế Sài Gòn – Phú Quốc, An Thới：同一住所（S259-S354, Sun Grand City New An Thới）にて現在「Phòng khám Đa khoa Quốc tế DNG – Cơ sở An Thới」として運営されていることを確認し、現行の公式名称（旧名称併記）で掲載しました。',
-      'Nhà thuốc Amalfi 65（サンセットタウン内）：電話番号・営業時間・営業実態が確認できないため掲載から除外しました（隣のAmalfi 67薬局をご利用ください）。',
-      'An Thoi Polyclinics (120 ĐT46) / Phòng khám 30/4 An Thới：電話番号・営業時間・公式情報が確認できないため掲載から除外しました。',
-      'クリニック・薬局の救急診療および外国語対応：公式情報で確認できた項目のみ表示し、未確認の事項は推測で記載していません。',
-    ],
+      "Эти больницы дальше от Сансет-Тауна. Проверьте подтверждение экстренной помощи и время в пути и позвоните напрямую.",
     consularTitle: '深刻な事態では大使館・総領事館にご連絡ください',
     consularSub:
       'フーコック島（キエンザン省）は在ホーチミン総領事館の管轄区域です。パスポート紛失や緊急時は以下の番号をタップして発信できます。',
@@ -305,14 +275,14 @@ const COPY: Record<Locale, EmergencyCopy> = {
       'В экстренной ситуации немедленно звоните в местные экстренные службы (115 Скорая · 113 Полиция · 114 Пожарная) или напрямую в медицинские учреждения ниже. Если вы остановились в отеле, сообщите на ресепшен для помощи с вызовом скорой.',
     sectionTitle: 'Больницы, клиники и аптеки (Сансет-Таун · Ан Тхой)',
     sectionSub:
-      'Проверенные больницы, клиники и аптеки в пределах ~10 минут езды на автомобиле от Часовой башни Сансет-Тауна (по прямой дороге).',
+      "サンセットタウン・アントイの病院・クリニック・薬局と島内の追加病院をご案内します。確認状況と現在のルートを確認し、訪問前に直接連絡してください。",
     travelTimeNoticeTitle: 'Информация о времени в пути и маршрутах',
     travelTimeNoticeQuote:
       'Расчёт от Часовой башни Сансет-Тауна; время в пути может меняться в зависимости от дорожной обстановки.',
     travelTimeNoticeDetail:
-      'Аптека Amalfi 67 внутри Сансет-Тауна находится в ~3 минутах езды, а медучреждения у северных ворот (Đường Cáp Treo) и в районе Ан Тхой — в ~4–10 минутах (1,5–4,8 км) по прямой дороге. Поскольку автопрокладка Google Карт сейчас отмечает короткий участок у северных ворот как закрытый на ремонт, навигатор может строить южный объезд через ĐT 975 (~26–32 мин); в карточках указаны оба значения.',
-    groupHospitalClinic: '1. Больницы и клиники (Сансет-Таун · Ан Тхой, ~4–7 мин по прямой дороге)',
-    groupPharmacy: '2. Аптеки (Сансет-Таун · Ан Тхой, ~3–10 мин на авто)',
+      "2026-11-04にGoogleマップの車ルートを直接確認しました。北側道路の通行可否は未確認で、通行止め迂回・通行制限・私道の警告があります。短い直結ルートや10分以内の病院到着は確認できていません。出発前に運転手や施設へ最新ルートと通行状況を確認してください。",
+    groupHospitalClinic: "1. サンセットタウン・アントイの病院・クリニック",
+    groupPharmacy: "2. サンセットタウン・アントイの薬局",
     kindLabels: {
       hospital: 'Больница (Hospital)',
       clinic: 'Клиника / поликлиника (Clinic)',
@@ -328,26 +298,19 @@ const COPY: Record<Locale, EmergencyCopy> = {
     foreignLangBadgePrefix: 'Подтверждённая языковая поддержка:',
     prosTitle: 'Преимущества',
     cautionsTitle: 'Что важно учитывать',
-    verifiedDateLabel: 'Дата проверки информации',
+    verifiedDateLabel: "情報再確認日",
     photoOfficialBadge: 'Официальное фото фасада подтверждено',
-    photoUnavailableTitle: 'Официальное фото фасада отсутствует (доступна ссылка на фото в картах)',
+    photoUnavailableTitle: "地図で施設・写真を確認",
     photoUnavailableDesc:
-      'Мы не скачиваем и не публикуем пользовательские фотографии из Google Карт без разрешения. Реальные фото фасада, вывески и входа можно посмотреть по прямой ссылке ниже.',
+      "再掲載の使用条件を確認できない写真は掲載していません。下のGoogleマップの施設ページで写真をご確認ください。",
     viewMapPhotosBtn: 'Смотреть фото фасада и вывески в Google Картах',
     callNowBtn: 'Позвонить',
     directionsBtn: 'Маршрут в Google Картах',
     mapPinBtn: 'Точка на карте',
     officialSiteBtn: 'Официальная страница',
-    majorHospitalsTitle: '3. [Отдельная справка] Ближайшие подтверждённые круглосуточные больницы Фукуока',
+    majorHospitalsTitle: "3. フーコック島内のその他の病院",
     majorHospitalsSub:
-      'Информация о крупных круглосуточных больницах острова на случай ночного обращения, серьёзных неотложных состояний или объездного маршрута в Google Картах.',
-    excludedNoticeTitle: 'Исключённые из списка кандидаты и неподтверждённые данные',
-    excludedNoticeItems: [
-      'Phòng khám Đa khoa Quốc tế Sài Gòn – Phú Quốc, An Thới: по этому же адресу (S259-S354, Sun Grand City New An Thới) сейчас работает клиника под названием «Phòng khám Đa khoa Quốc tế DNG – Cơ sở An Thới» (указана выше с пометкой прежнего названия).',
-      'Nhà thuốc Amalfi 65 (Сансет-Таун): исключена из-за отсутствия подтверждённого телефона и часов работы (рекомендуем соседнюю аптеку Amalfi 67).',
-      'An Thoi Polyclinics (120 ĐT46) / Phòng khám 30/4 An Thới: исключены из-за отсутствия подтверждённых телефонов, часов работы и официальных данных.',
-      'Экстренная помощь и иностранные языки в клиниках и аптеках: указаны только официально подтверждённые сведения.',
-    ],
+      "サンセットタウンから距離があります。各施設の救急対応の確認状況と移動時間を確認し、直接電話してください。",
     consularTitle: 'В серьёзной ситуации свяжитесь с посольством или консульством',
     consularSub:
       'Остров Фукуок относится к консульскому округу Генеральных консульств в г. Хошимине. Нажмите на номер для вызова.',
@@ -365,14 +328,14 @@ const COPY: Record<Locale, EmergencyCopy> = {
       'आपात स्थिति में तुरंत स्थानीय आपातकालीन सेवा (115 एम्बुलेंस · 113 पुलिस · 114 अग्निशमन) या नीचे दिए गए चिकित्सा केंद्रों को सीधे कॉल करें। यदि आप होटल में ठहरे हैं, तो एम्बुलेंस या अस्पताल की जानकारी के लिए रिसेप्शन को भी सूचित करें।',
     sectionTitle: 'अस्पताल, क्लिनिक और फार्मेसी (सनसेट टाउन · आन थोई)',
     sectionSub:
-      'सनसेट टाउन क्लॉक टॉवर से कार द्वारा लगभग 10 मिनट के भीतर (सीधी सड़क मार्ग से) सत्यापित अस्पताल, क्लिनिक और दवा की दुकानें।',
+      "सनसेट टाउन और अन थोई के अस्पताल, क्लिनिक और फ़ार्मेसी तथा द्वीप के अन्य अस्पताल यहाँ देखें। पुष्टि संबंधी जानकारी और वर्तमान मार्ग जाँचें और जाने से पहले सीधे संपर्क करें।",
     travelTimeNoticeTitle: 'यात्रा समय और मार्ग सूचना',
     travelTimeNoticeQuote:
       'यह समय सनसेट टाउन क्लॉक टॉवर से प्रस्थान पर आधारित है और यातायात की स्थिति के अनुसार बदल सकता है।',
     travelTimeNoticeDetail:
-      'सनसेट टाउन के अंदर फार्मेसी (Amalfi 67) कार से ~3 मिनट की दूरी पर है, और नॉर्थ गेट (Đường Cáp Treo) व आन थोई क्षेत्र के चिकित्सा केंद्र सीधी सड़क से ~4–10 मिनट (1.5–4.8 किमी) की दूरी पर हैं। चूँकि Google Maps ऑटो-रूटिंग वर्तमान में नॉर्थ गेट के पास सड़क निर्माण दिखाता है, इसलिए वह दक्षिण की ओर ĐT 975 से (~26–32 मिनट) लंबा मार्ग दिखा सकता है; प्रत्येक कार्ड में दोनों जानकारी दी गई है।',
-    groupHospitalClinic: '1. सनसेट टाउन · आन थोई के अस्पताल और क्लिनिक (~4–7 मिनट सीधी सड़क)',
-    groupPharmacy: '2. सनसेट टाउन · आन थोई की फार्मेसी (~3–10 मिनट कार द्वारा)',
+      "2026-11-04 को Google Maps में कार मार्ग सीधे जाँचे गए। उत्तरी सड़क पर आवागमन अपुष्ट है; Maps पर बंद सड़क के वैकल्पिक मार्ग और प्रतिबंधित या निजी सड़क की चेतावनियाँ हैं। छोटे सीधे मार्ग या दस मिनट में अस्पताल पहुँचने की पुष्टि नहीं है। निकलने से पहले चालक और संस्था से वर्तमान मार्ग की पुष्टि करें।",
+    groupHospitalClinic: "1. सनसेट टाउन और अन थोई के अस्पताल और क्लिनिक",
+    groupPharmacy: "2. सनसेट टाउन और अन थोई की फ़ार्मेसी",
     kindLabels: {
       hospital: 'अस्पताल (Hospital)',
       clinic: 'क्लिनिक / पॉलीक्लिनिक (Clinic)',
@@ -388,26 +351,19 @@ const COPY: Record<Locale, EmergencyCopy> = {
     foreignLangBadgePrefix: 'पुष्ट विदेशी भाषा सहायता:',
     prosTitle: 'उपयोग के लाभ',
     cautionsTitle: 'ध्यान देने योग्य बातें',
-    verifiedDateLabel: 'जानकारी सत्यापन तिथि',
+    verifiedDateLabel: "जानकारी की समीक्षा",
     photoOfficialBadge: 'आधिकारिक बाहरी फ़ोटो सत्यापित',
-    photoUnavailableTitle: 'आधिकारिक बाहरी फ़ोटो उपलब्ध नहीं (मैप फ़ोटो लिंक दिया गया है)',
+    photoUnavailableTitle: "Maps पर स्थान और फ़ोटो देखें",
     photoUnavailableDesc:
-      'Google Maps उपयोगकर्ताओं की फ़ोटो को बिना अनुमति डाउनलोड कर पुनः पोस्ट न करने की नीति के अनुसार, आप नीचे दिए गए लिंक से सीधे बाहरी इमारत, साइनबोर्ड और प्रवेश द्वार की फ़ोटो देख सकते हैं।',
+      "पुनर्प्रकाशन की अनुमति अपुष्ट होने पर फ़ोटो यहाँ नहीं लगाई गई हैं। नीचे Google Maps का स्थान खोलकर फ़ोटो देखें।",
     viewMapPhotosBtn: 'Google Maps पर बाहरी और साइनबोर्ड फ़ोटो देखें',
     callNowBtn: 'कॉल करें',
     directionsBtn: 'Google Maps दिशा-निर्देश',
     mapPinBtn: 'मैप पिन देखें',
     officialSiteBtn: 'आधिकारिक वेबसाइट',
-    majorHospitalsTitle: '3. [अलग जानकारी] फू क्वोक के निकटतम पुष्ट 24/7 प्रमुख अस्पताल',
+    majorHospitalsTitle: "3. फ़ू क्वोक के अन्य अस्पताल",
     majorHospitalsSub:
-      'यदि रात्रि कालीन या गंभीर आपातकालीन उपचार की आवश्यकता हो, या Google Maps डायवर्जन 10 मिनट से अधिक दिखाए, तो फू क्वोक के पुष्ट 24 घंटे चलने वाले प्रमुख अस्पताल नीचे दिए गए हैं।',
-    excludedNoticeTitle: 'जाँच के बाद सूची से हटाए गए स्थान और अपुष्ट विवरण',
-    excludedNoticeItems: [
-      'Phòng khám Đa khoa Quốc tế Sài Gòn – Phú Quốc, An Thới: सत्यापन में पाया गया कि इसी पते (S259-S354, Sun Grand City New An Thới) पर अब "Phòng khám Đa khoa Quốc tế DNG – Cơ sở An Thới" नाम से क्लिनिक संचालित है (पूर्व नाम सहित ऊपर सूचीबद्ध)।',
-      'Nhà thuốc Amalfi 65 (सनसेट टाउन): फ़ोन नंबर और खुलने का समय सत्यापित न होने के कारण सूची से हटाया गया (बगल में स्थित Amalfi 67 फार्मेसी का उपयोग करें)।',
-      'An Thoi Polyclinics (120 ĐT46) / Phòng khám 30/4 An Thới: फ़ोन नंबर, समय और संचालन की आधिकारिक पुष्टि न होने के कारण हटाया गया।',
-      'आपातकालीन देखभाल और विदेशी भाषा सहायता: केवल आधिकारिक रूप से पुष्ट जानकारी ही दर्शाई गई है।',
-    ],
+      "ये अस्पताल सनसेट टाउन से दूर हैं। प्रत्येक की आपातकालीन सेवा की पुष्टि और यात्रा का समय देखें और सीधे कॉल करें।",
     consularTitle: 'गंभीर स्थिति में अपने दूतावास या वाणिज्य दूतावास से संपर्क करें',
     consularSub:
       'फू क्वोक हो ची मिन्ह सिटी में स्थित महावाणिज्य दूतावासों के अधिकार क्षेत्र में आता है। कॉल करने के लिए नंबर पर टैप करें।',
@@ -425,14 +381,14 @@ const COPY: Record<Locale, EmergencyCopy> = {
       'Trong trường hợp khẩn cấp, hãy gọi ngay số điện thoại khẩn cấp tại địa phương (115 Cấp cứu · 113 Công an · 114 Cứu hỏa) hoặc gọi trực tiếp cho cơ sở y tế bên dưới. Nếu đang lưu trú tại khách sạn, hãy báo lễ tân để được hỗ trợ gọi xe cấp cứu và hướng dẫn bệnh viện gần nhất.',
     sectionTitle: 'Bệnh viện, Phòng khám & Nhà thuốc (Sunset Town · An Thới)',
     sectionSub:
-      'Danh sách bệnh viện, phòng khám và nhà thuốc trong khoảng 10 phút đi ô tô từ Tháp Đồng Hồ Sunset Town (theo trục đường thực tế), đã được đối chiếu với thông tin chính thức.',
+      "Thông tin bệnh viện, phòng khám, nhà thuốc tại Thị trấn Hoàng Hôn, An Thới và các bệnh viện khác trên đảo. Xem ghi chú xác minh, tuyến đường hiện tại và liên hệ trực tiếp trước khi đến.",
     travelTimeNoticeTitle: 'Lưu ý về thời gian di chuyển và lộ trình',
     travelTimeNoticeQuote:
       'Tính từ điểm xuất phát Tháp Đồng Hồ Sunset Town và có thể thay đổi tùy theo tình hình giao thông.',
     travelTimeNoticeDetail:
-      'Nhà thuốc Amalfi 67 trong nội khu Sunset Town cách khoảng 3 phút đi xe; các cơ sở y tế tại cổng Bắc Sunset Town (Đường Cáp Treo) và trung tâm An Thới cách khoảng 4–10 phút (1,5–4,8 km) theo đường thực tế. Lưu ý: chỉ đường tự động trên Google Maps hiện gắn cờ rào chắn công trường tại một đoạn ngắn ở cổng Bắc nên có thể tính lộ trình vòng phía Nam qua ĐT 975 (~26–32 phút); cả hai thông tin đều được ghi rõ trên từng thẻ.',
-    groupHospitalClinic: '1. Bệnh viện & Phòng khám gần Sunset Town · An Thới (~4–7 phút đường thực tế)',
-    groupPharmacy: '2. Nhà thuốc gần Sunset Town · An Thới (~3–10 phút đi ô tô)',
+      "Đã kiểm tra trực tiếp tuyến ô tô trên Google Maps ngày 2026-11-04. Chưa xác nhận khả năng lưu thông đường phía bắc; Maps hiển thị đường vòng tránh đường đóng và cảnh báo hạn chế hoặc đường riêng. Chưa xác nhận đường nối ngắn hay khả năng đến bệnh viện trong mười phút. Hỏi tài xế và cơ sở về tuyến hiện tại trước khi đi.",
+    groupHospitalClinic: "1. Bệnh viện và phòng khám tại Thị trấn Hoàng Hôn, An Thới",
+    groupPharmacy: "2. Nhà thuốc tại Thị trấn Hoàng Hôn, An Thới",
     kindLabels: {
       hospital: 'Bệnh viện (Hospital)',
       clinic: 'Phòng khám (Clinic)',
@@ -448,26 +404,19 @@ const COPY: Record<Locale, EmergencyCopy> = {
     foreignLangBadgePrefix: 'Hỗ trợ ngoại ngữ đã xác nhận:',
     prosTitle: 'Ưu điểm khi sử dụng',
     cautionsTitle: 'Lưu ý khi sử dụng',
-    verifiedDateLabel: 'Ngày xác minh thông tin',
+    verifiedDateLabel: "Ngày rà soát thông tin",
     photoOfficialBadge: 'Ảnh mặt tiền chính thức đã xác minh',
-    photoUnavailableTitle: 'Chưa có ảnh mặt tiền chính thức (Cung cấp liên kết xem ảnh bản đồ)',
+    photoUnavailableTitle: "Xem địa điểm và ảnh trên Maps",
     photoUnavailableDesc:
-      'Tuân thủ nguyên tắc không tự ý tải xuống và đăng lại ảnh do người dùng Google Maps tải lên, bạn có thể xem trực tiếp ảnh mặt tiền, biển hiệu và lối vào qua liên kết Google Maps bên dưới.',
+      "Không đăng lại ảnh khi chưa xác nhận quyền sử dụng. Mở địa điểm trên Google Maps bên dưới để xem ảnh.",
     viewMapPhotosBtn: 'Xem ảnh mặt tiền & biển hiệu trên Google Maps',
     callNowBtn: 'Gọi điện',
     directionsBtn: 'Chỉ đường Google Maps',
     mapPinBtn: 'Xem ghim bản đồ',
     officialSiteBtn: 'Trang thông tin chính thức',
-    majorHospitalsTitle: '3. [Hướng dẫn riêng] Bệnh viện đa khoa & Trung tâm y tế trực cấp cứu 24/24 tại Phú Quốc',
+    majorHospitalsTitle: "3. Các bệnh viện khác tại Phú Quốc",
     majorHospitalsSub:
-      'Thông tin riêng về các bệnh viện tuyến chính trực cấp cứu 24/24 trên đảo Phú Quốc để dự phòng trường hợp cấp cứu ban đêm, ca nặng hoặc khi lộ trình Google Maps báo绕 đường trên 10 phút.',
-    excludedNoticeTitle: 'Các địa điểm loại khỏi danh sách sau khảo sát & thông tin chưa xác minh',
-    excludedNoticeItems: [
-      'Phòng khám Đa khoa Quốc tế Sài Gòn – Phú Quốc, An Thới: Đã đối chiếu tại cùng địa chỉ (S259-S354, Sun Grand City New An Thới) hiện hoạt động với tên chính thức "Phòng khám Đa khoa Quốc tế DNG – Cơ sở An Thới" (đã đăng ở trên kèm ghi chú tên cũ).',
-      'Nhà thuốc Amalfi 65 (trong Sunset Town): Có ghim trên bản đồ nhưng không có số điện thoại, giờ mở cửa và xác nhận hoạt động nên loại khỏi danh sách (khuyến khích dùng Nhà thuốc Amalfi 67 kế bên).',
-      'An Thoi Polyclinics (120 ĐT46) / Phòng khám 30/4 An Thới: Không xác minh được số điện thoại, giờ mở cửa và tình trạng hoạt động chính thức nên không đăng tải.',
-      'Khả năng cấp cứu và hỗ trợ ngoại ngữ tại phòng khám/nhà thuốc: Chỉ hiển thị các thông tin đã được xác nhận chính thức, tuyệt đối không suy đoán.',
-    ],
+      "Các bệnh viện này ở xa Thị trấn Hoàng Hôn hơn. Xem mức độ xác minh cấp cứu, thời gian di chuyển và gọi trực tiếp.",
     consularTitle: 'Trong tình huống nghiêm trọng, hãy liên hệ đại sứ quán hoặc lãnh sự quán',
     consularSub:
       'Phú Quốc (Kiên Giang) thuộc khu vực lãnh sự của các Tổng Lãnh sự quán tại TP. Hồ Chí Minh. Chạm vào số điện thoại để gọi trực tiếp.',
@@ -627,6 +576,39 @@ export function EmergencyLandingPage({ locale = 'en' }: EmergencyLandingPageProp
           </p>
         )}
 
+        {/* Action Buttons — Direct Call FIRST per instructions */}
+        <div className="slotBtnRow emergencyCardActionRow">
+          <a href={`tel:${item.phoneTel}`} className="emergencyActionBtn emergencyActionBtn--call">
+            📞 {c.callNowBtn} ({item.phoneDisplay})
+          </a>
+          <a
+            href={item.googleMapsDirUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="emergencyActionBtn emergencyActionBtn--dir"
+          >
+            🚗 {c.directionsBtn}
+          </a>
+          <a
+            href={item.googleMapsPlaceUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="emergencyActionBtn emergencyActionBtn--pin"
+          >
+            📍 {c.mapPinBtn}
+          </a>
+          {item.officialWebsiteUrl && (
+            <a
+              href={item.officialWebsiteUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="emergencyActionBtn emergencyActionBtn--web"
+            >
+              🔗 {c.officialSiteBtn}
+            </a>
+          )}
+        </div>
+
         {/* Photo or Official Map Photo Link */}
         {item.officialPhotoUrl ? (
           <div className="emergencyPhotoWrap">
@@ -685,6 +667,8 @@ export function EmergencyLandingPage({ locale = 'en' }: EmergencyLandingPageProp
           </div>
         )}
 
+        <p className="emergencyInfoParagraph">{item.languageNote[locale]}</p>
+
         {/* Meta Info Table */}
         <div className="slotMetaList emergencyMetaList">
           <div className="slotMetaRow">
@@ -698,7 +682,7 @@ export function EmergencyLandingPage({ locale = 'en' }: EmergencyLandingPageProp
           </div>
           <div className="slotMetaRow">
             <span className="slotMetaLabel">{c.routeLabel}</span>
-            <span className="slotMetaVal emergencyRouteText">{routeSummary}</span>
+            <span className="slotMetaVal emergencyRouteText">{routeSummary}<br />{item.routeEvidence[locale]}</span>
           </div>
           <div className="slotMetaRow">
             <span className="slotMetaLabel">{c.hoursLabel}</span>
@@ -730,38 +714,7 @@ export function EmergencyLandingPage({ locale = 'en' }: EmergencyLandingPageProp
           </div>
         </div>
 
-        {/* Action Buttons — Direct Call FIRST per instructions */}
-        <div className="slotBtnRow emergencyCardActionRow">
-          <a href={`tel:${item.phoneTel}`} className="emergencyActionBtn emergencyActionBtn--call">
-            📞 {c.callNowBtn} ({item.phoneDisplay})
-          </a>
-          <a
-            href={item.googleMapsDirUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="emergencyActionBtn emergencyActionBtn--dir"
-          >
-            🚗 {c.directionsBtn}
-          </a>
-          <a
-            href={item.googleMapsPlaceUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="emergencyActionBtn emergencyActionBtn--pin"
-          >
-            📍 {c.mapPinBtn}
-          </a>
-          {item.officialWebsiteUrl && (
-            <a
-              href={item.officialWebsiteUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="emergencyActionBtn emergencyActionBtn--web"
-            >
-              🔗 {c.officialSiteBtn}
-            </a>
-          )}
-        </div>
+
       </article>
     )
   }
@@ -852,14 +805,7 @@ export function EmergencyLandingPage({ locale = 'en' }: EmergencyLandingPageProp
           </div>
 
           {/* 조사 후 게시 제외 및 미확인 사항 안내 */}
-          <div className="emergencyExcludedBox">
-            <h3 className="emergencyExcludedTitle">ℹ️ {c.excludedNoticeTitle}</h3>
-            <ul className="emergencyBulletList">
-              {c.excludedNoticeItems.map((item, idx) => (
-                <li key={idx}>{item}</li>
-              ))}
-            </ul>
-          </div>
+
         </section>
 
         {/* ③ 심각한 상황이면 영사관 박스 */}
