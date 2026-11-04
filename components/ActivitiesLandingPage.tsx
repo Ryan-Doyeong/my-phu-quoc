@@ -8,6 +8,7 @@ import { getDictionary } from '@/lib/i18n/dictionaries'
 import { BOOKING_SERVICE_COPY, buildServiceWhatsappUrl } from '@/lib/i18n/bookingServiceCopy'
 import { MAIN_ZONES, SUNSET_BEACH_NOTICE_TEXT } from '@/lib/zones'
 import { ActivityYachtSection } from '@/components/ActivityYachtSection'
+import { ActivityPartnerToursSection } from '@/components/ActivityPartnerToursSection'
 
 interface ActivitiesLandingPageProps {
   locale?: Locale
@@ -366,6 +367,7 @@ export function ActivitiesLandingPage({ locale = 'ko' }: ActivitiesLandingPagePr
         </section>
 
         <ActivityYachtSection locale={locale} />
+        <ActivityPartnerToursSection locale={locale} />
 
         {/* Information & Partnership Callout */}
         <div className="activitiesCalloutBox">
