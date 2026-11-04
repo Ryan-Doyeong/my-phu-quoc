@@ -15,15 +15,15 @@ type BannerKey =
   | 'camping'
   | 'yacht';
 
-const BANNERS: { key: BannerKey; image: string; ko: string; en: string }[] = [
-  { key: 'hopping', image: '/activities/partner/hopping.webp', ko: '호핑·스노클링', en: 'Island Hopping' },
-  { key: 'cablecar', image: '/activities/partner/cablecar.webp', ko: '케이블카', en: 'Cable Car' },
-  { key: 'fishing', image: '/activities/partner/fishing.webp', ko: '낚시', en: 'Fishing' },
-  { key: 'sunset', image: '/activities/partner/sunset.webp', ko: '일몰·야간', en: 'Sunset & Night' },
-  { key: 'diving', image: '/activities/partner/diving.webp', ko: '다이빙·씨워커', en: 'Diving' },
-  { key: 'land', image: '/activities/partner/land.webp', ko: '육상 투어', en: 'Land Tours' },
-  { key: 'camping', image: '/activities/partner/camping.webp', ko: '캠핑·글램핑', en: 'Camping' },
-  { key: 'yacht', image: '/activities/marmoris/sunset-1.webp', ko: '요트 투어', en: 'Yacht' },
+const BANNERS: { key: BannerKey; icon: string; ko: string; en: string }[] = [
+  { key: 'hopping', icon: '🏝️', ko: '호핑·스노클링', en: 'Island Hopping' },
+  { key: 'cablecar', icon: '🚡', ko: '케이블카', en: 'Cable Car' },
+  { key: 'fishing', icon: '🎣', ko: '낚시', en: 'Fishing' },
+  { key: 'sunset', icon: '🌅', ko: '일몰·야간', en: 'Sunset & Night' },
+  { key: 'diving', icon: '🤿', ko: '다이빙·씨워커', en: 'Diving' },
+  { key: 'land', icon: '🚌', ko: '육상 투어', en: 'Land Tours' },
+  { key: 'camping', icon: '⛺', ko: '캠핑·글램핑', en: 'Camping' },
+  { key: 'yacht', icon: '⛵', ko: '요트 투어', en: 'Yacht' },
 ];
 
 export function ActivityMiniBanners({ locale = 'ko' }: { locale?: Locale }) {
@@ -41,8 +41,7 @@ export function ActivityMiniBanners({ locale = 'ko' }: { locale?: Locale }) {
       <div className={styles.grid}>
         {BANNERS.map((b) => (
           <button key={b.key} type="button" className={styles.banner} onClick={() => go(b.key)}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={b.image} alt="" loading="lazy" width={320} height={240} />
+            <span className={styles.icon} aria-hidden="true">{b.icon}</span>
             <span className={styles.label}>{locale === 'ko' ? b.ko : b.en}</span>
           </button>
         ))}

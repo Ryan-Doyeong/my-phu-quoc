@@ -309,6 +309,8 @@ export function ActivitiesLandingPage({ locale = 'ko' }: ActivitiesLandingPagePr
           </div>
         </div>
 
+        <ActivityMiniBanners locale={locale} />
+
         {/* [공통 소개] */}
         <BookingCommonIntroCallout locale={locale} />
 
@@ -335,8 +337,6 @@ export function ActivitiesLandingPage({ locale = 'ko' }: ActivitiesLandingPagePr
             {MAIN_ZONES['khem-beach'].ctaButton[locale] || MAIN_ZONES['khem-beach'].ctaButton.en}
           </Link>
         </div>
-
-        <ActivityMiniBanners locale={locale} />
 
         {/* 5 Activity Category Tiles (프로그램·요금: 문의 + 액티비티 문의하기) */}
         {SHOW_CATEGORY_TILES && (
