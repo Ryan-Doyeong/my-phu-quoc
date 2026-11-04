@@ -571,3 +571,8 @@
 @media (max-width: 639px) {
   .chip { padding: 0.4rem 0.6rem; font-size: 0.75rem; }
 }
+
+@media (max-width: 639px) {
+  .mediaCode { display: none; }
+  .mediaOperator { max-width: 90%; }
+}

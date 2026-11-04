@@ -254,7 +254,7 @@ export function ActivityPartnerToursSection({
                     height={480}
                   />
                   <span className={styles.mediaOperator}>
-                    {ui.operatorBanner[tour.operator]}
+                    {ui.operatorChip[tour.operator]}
                   </span>
                   <span className={styles.mediaCode}>{tour.code}</span>
                 </div>
