@@ -36,6 +36,8 @@ export interface PartnerTour {
   variants: PartnerTourVariant[];
   priceAsOf: string;
   notes?: L[];
+  /** true면 사이트에 노출하지 않음(데이터는 보존) */
+  hidden?: boolean;
 }
 
 export interface PickupSurchargeItem {
@@ -408,7 +410,7 @@ export const PARTNER_INFO: Record<PartnerOperator, PartnerOperatorInfo> = {
   },
 };
 
-export const PARTNER_TOURS: PartnerTour[] = [
+const ALL_PARTNER_TOURS: PartnerTour[] = [
   // ==========================================
   // John's Tours Phú Quốc (가격 기준일: 2025-04-16)
   // ==========================================
@@ -513,6 +515,7 @@ export const PARTNER_TOURS: PartnerTour[] = [
   },
   {
     id: 'johns-option-2',
+    hidden: true, // 2026-11-04 비공개: PDF와 상품 구성 불일치 확인 전까지
     operator: 'johns',
     code: 'Option 2',
     category: 'sunset',
@@ -645,6 +648,7 @@ export const PARTNER_TOURS: PartnerTour[] = [
   },
   {
     id: 'johns-luxury-trip',
+    hidden: true, // 2026-11-04 비공개: PDF와 상품 구성 불일치 확인 전까지
     operator: 'johns',
     code: 'Luxury trip',
     category: 'hopping',
@@ -1430,3 +1434,8 @@ export const PARTNER_TOURS: PartnerTour[] = [
     priceAsOf: '2026-10-04',
   },
 ];
+
+/** 사이트에 노출되는 투어(hidden 제외) */
+export const PARTNER_TOURS: PartnerTour[] = ALL_PARTNER_TOURS.filter(
+  (t) => !t.hidden
+);
