@@ -9,7 +9,7 @@ import {
 } from '@/lib/i18n/bookingServiceCopy';
 import {
   PARTNER_INFO,
-  PARTNER_TOURS,
+  PARTNER_TOURS as ALL_PARTNER_TOURS,
   type L,
   type PartnerOperator,
   type PartnerTourCategory,
@@ -36,15 +36,14 @@ const CATEGORY_ICON: Record<PartnerTourCategory, string> = {
   camping: '⛺',
 };
 
-const CATEGORIES: PartnerTourCategory[] = [
-  'hopping',
-  'cablecar',
-  'fishing',
-  'sunset',
-  'diving',
-  'land',
-  'camping',
-];
+// 비공개 카테고리 (2026-11-04): 데이터는 유지하고 화면에서만 숨김. 다시 공개하려면 목록에서 제거.
+export const HIDDEN_PARTNER_CATEGORIES: PartnerTourCategory[] = ['cablecar', 'land', 'camping'];
+
+const PARTNER_TOURS = ALL_PARTNER_TOURS.filter(
+  (t) => !HIDDEN_PARTNER_CATEGORIES.includes(t.category),
+);
+
+const CATEGORIES: PartnerTourCategory[] = ['hopping', 'fishing', 'sunset', 'diving'];
 
 const OPERATORS: PartnerOperator[] = ['johns', 'redriver'];
 
