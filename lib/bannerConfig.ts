@@ -1,31 +1,74 @@
+import type { Locale } from '@/lib/i18n/config'
+
 /**
- * 홈 마이리얼트립 스타일 메인 배너 설정 (단일 출처)
- * 
- * 사용자(Ryan) 지시:
- * - 홈 배너는 3장: ① 선셋타운 이벤트 ② 버기 투어 ③ 택시 투어
- * - 비엣 트래블 환전(외부 업체) 배너는 숨김 처리 (플래그로 꺼두기, 데이터는 보존)
- * - 광고 라벨은 화면에 나오지 않게 숨김 (플래그로 꺼두기)
- * - 자동 전환 1초 (1000ms)
+ * 홈 이벤트·공지 3단 슬라이드 배너 및 메인 배너 설정 (Single Source of Truth)
+ *
+ * - 작은 서비스 배너 영역(추천 테마 일정 포함) 바로 아래에 3개의 이벤트·공지 슬라이드 배너를 노출합니다.
+ * - 기존 검증된 이벤트·공지(PUBLISHED_EVENTS / DB stories) 콘텐츠를 우선 연동하며,
+ *   추후 배너 교체가 필요할 때 아래 HOME_EVENT_BANNERS_CONFIG 배열의 storySlug 또는
+ *   개별 덮어쓰기 필드(image, targetUrl, titleOverride 등)만 수정하면 즉시 반영됩니다.
  */
 
 export interface BannerItemConfig {
   id: string
   slotKey: string
   image: string
-  targetUrl: string | null // null이면 클릭 이동 없음 (static)
+  targetUrl: string | null
   isExternal?: boolean
   showAdBadge?: boolean
   enabled: boolean
 }
 
+export interface EventBannerSlideConfig {
+  id: string
+  slotKey: string
+  /** PUBLISHED_EVENTS 또는 DB 게시물의 slug (지정 시 다국어 제목·카테고리·요약·커버 이미지·상세 링크 자동 연동) */
+  storySlug?: string
+  /** 개별 이미지 덮어쓰기 (선택) */
+  image?: string
+  /** 개별 상세 링크 덮어쓰기 (선택, 예: '/events/slug' 또는 '/news/slug') */
+  targetUrl?: string
+  /** 언어별 상단 배지(eyebrow) 덮어쓰기 (선택) */
+  eyebrowOverride?: Partial<Record<Locale, string>>
+  /** 언어별 제목 덮어쓰기 (선택) */
+  titleOverride?: Partial<Record<Locale, string>>
+  /** 언어별 요약 문구 덮어쓰기 (선택) */
+  subtitleOverride?: Partial<Record<Locale, string>>
+  enabled: boolean
+}
+
 export const BANNER_SETTINGS = {
-  autoplayIntervalMs: 1000, // 1초 자동 전환
-  showAdBadge: false, // 광고 라벨 표시 플래그 (현재 숨김)
-  enableExchangeBanner: false, // 비엣 트래블 환전 배너 표시 플래그 (현재 숨김)
+  autoplayIntervalMs: 5000, // 5초 자동 전환 (터치·스와이프·호버 시 일시정지)
+  showAdBadge: false,
+  enableExchangeBanner: false,
 } as const
 
+/**
+ * 홈 이벤트·공지 슬라이드 배너 3개 설정 (교체 가능 구조)
+ * - 기본값: 현재 게시 중인 공식 이벤트·공지 3건 연동
+ */
+export const HOME_EVENT_BANNERS_CONFIG: EventBannerSlideConfig[] = [
+  {
+    id: 'event-banner-1',
+    slotKey: 'event-slot-1',
+    storySlug: 'sun-world-spa-anniversary-offers-november-2026',
+    enabled: true,
+  },
+  {
+    id: 'event-banner-2',
+    slotKey: 'event-slot-2',
+    storySlug: 'kiss-of-the-sea-nightly-multimedia-show',
+    enabled: true,
+  },
+  {
+    id: 'event-banner-3',
+    slotKey: 'event-slot-3',
+    storySlug: 'symphony-of-the-sea-season-3-opening',
+    enabled: true,
+  },
+]
+
 export const HOME_BANNERS_CONFIG: BannerItemConfig[] = [
-  // 1. 선셋타운 야간 공연 이벤트
   {
     id: 'sunset-event',
     slotKey: 'main-event',
@@ -33,7 +76,6 @@ export const HOME_BANNERS_CONFIG: BannerItemConfig[] = [
     targetUrl: '/events',
     enabled: true,
   },
-  // 2. 비엣 트래블 환전 (외부 업체 - 현재 숨김 처리)
   {
     id: 'viet-travel-exchange',
     slotKey: 'main-exchange',
@@ -42,7 +84,6 @@ export const HOME_BANNERS_CONFIG: BannerItemConfig[] = [
     showAdBadge: true,
     enabled: BANNER_SETTINGS.enableExchangeBanner,
   },
-  // 3. 버기 투어
   {
     id: 'buggy-tour',
     slotKey: 'main-buggy',
@@ -50,7 +91,6 @@ export const HOME_BANNERS_CONFIG: BannerItemConfig[] = [
     targetUrl: '/buggy-tour',
     enabled: true,
   },
-  // 4. 택시 투어
   {
     id: 'taxi-tour',
     slotKey: 'main-taxi',

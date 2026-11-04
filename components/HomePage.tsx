@@ -608,7 +608,7 @@ export function HomePage({
       </header>
 
       <div className="heroHeaderWrap">
-        {/* 1. Rounded Main Photo Box (12px, Sunset Town aerial photo) */}
+        {/* 1. 메인 사진 및 소개 문구 + 2. 검색 영역 */}
         <section className="heroPhotoSection">
           <div className="heroImageBox">
             <img
@@ -624,7 +624,32 @@ export function HomePage({
           </div>
         </section>
 
-        {/* 2. Quick Service Cards (Configurable order via QUICK_SERVICE_ORDER) */}
+        <section className="heroTextSection">
+          <div className="heroTopline">{heroTopline}</div>
+          <h1 className="heroHeading">
+            {heroSubtitle || heroTitle}
+          </h1>
+          <p className="heroDesc">{heroDescription}</p>
+
+          <HeroSearch locale={locale} />
+
+          <div className="heroBtnRow">
+            <Link
+              href={localePath(locale, '/zones/sunset-town')}
+              className="heroTwinBtn btnSunsetOrange"
+            >
+              {heroPrimaryCta}
+            </Link>
+            <Link
+              href={localePath(locale, '/zones/khem-beach')}
+              className="heroTwinBtn btnKhemOcean"
+            >
+              {heroSecondaryCta}
+            </Link>
+          </div>
+        </section>
+
+        {/* 3. 작은 서비스 배너 영역 (환전, 버기 투어, 차량 투어 등 + 추천 테마 일정) */}
         <section className="quickServiceSection" id="quick-services">
           <div className="cardScrollTrack" id="cardScrollTrack">
             {QUICK_SERVICE_ORDER.map((key) => {
@@ -665,7 +690,7 @@ export function HomePage({
             })}
           </div>
 
-          {/* 2-B. 추천 테마 일정 대형 세로 배너 (서비스 의뢰 입구 · 부제목은 임시 자리표시, 확정 문구 추후 반영) */}
+          {/* 3-B. 추천 테마 일정 배너 */}
           {(() => {
             const def = QUICK_SERVICES_REGISTRY.itineraries
             if (!def) return null
@@ -693,40 +718,14 @@ export function HomePage({
           })()}
         </section>
 
-        {/* 3. Text, Search & Twin Buttons */}
-        <section className="heroTextSection">
-          <div className="heroTopline">{heroTopline}</div>
-          <h1 className="heroHeading">
-            {heroSubtitle || heroTitle}
-          </h1>
-          <p className="heroDesc">{heroDescription}</p>
-
-          <HeroSearch locale={locale} />
-
-          <div className="heroBtnRow">
-            <Link
-              href={localePath(locale, '/zones/sunset-town')}
-              className="heroTwinBtn btnSunsetOrange"
-            >
-              {heroPrimaryCta}
-            </Link>
-            <Link
-              href={localePath(locale, '/zones/khem-beach')}
-              className="heroTwinBtn btnKhemOcean"
-            >
-              {heroSecondaryCta}
-            </Link>
-          </div>
-        </section>
+        {/* 4. 이벤트·공지 슬라이드 배너 (3개) */}
+        <MrtBannerCarousel locale={locale} events={events} />
 
         {/* Section Divider */}
         <div className="mrtSectionDivider" />
       </div>
 
       <main>
-        {/* 예약·이동 안내 서비스 ([공통 소개] 및 버기·차량·이동·액티비티 안내 카드) */}
-        <BookingServiceOverviewSection locale={locale} />
-
         {/* Ryan 지시: 시안대로 홈의 스폰서 영역은 미사용 (컴포넌트는 보존) */}
         {false && <SponsorCarousel main={mainBanners} small={smallBanners} locale={locale} />}
 
@@ -767,8 +766,77 @@ export function HomePage({
           </section>
         )}
 
-        {/* 메인 v6 시안: 신규 남부 한눈에 (개요 지도 도식 + 구역 카드 2장) */}
+        {/* 5. 푸꾸옥 로컬 생활 탐색 (비치 제외, 모바일 3열 컴팩트 구성) */}
+        {homeSections.discover.visible && (
+          <section className="shell discover" id="discover">
+            <div className="sectionIntro">
+              <div>
+                <span className="eyebrow">{dict.home.discoverEyebrow}</span>
+                <h2>{discoverTitle}</h2>
+                <p>{discoverDesc}</p>
+              </div>
+            </div>
+            <div className="categoryCards categoryCardsFive">
+              {DIRECTORY_CATEGORY_KEYS.filter(
+                (key) => key !== 'beaches' && getCategoryPublishedCount(key) > 0
+              ).map((key) => {
+                const c = DIRECTORY_CATEGORIES[key]
+                const icon = categoryAppearance[key]
+                const locLabel = categoryLabel(key, locale)
+                const locEyebrow = categoryEyebrow(key, locale)
+                const locDesc = categoryDescription(key, locale)
+                const href =
+                  key === 'hotels'
+                    ? localePath(locale, '/hotels')
+                    : key === 'activities'
+                    ? localePath(locale, '/activities')
+                    : localePath(locale, `/directory/${key}`)
+                return (
+                  <Link
+                    href={href}
+                    key={key}
+                    data-analytics-type="category"
+                    data-analytics-id={key}
+                    data-theme={categoryTheme(key)}
+                  >
+                    <article>
+                      <img
+                        src={imageUrl(c.image, 480, 72)}
+                        alt=""
+                        loading="lazy"
+                        decoding="async"
+                        width={480}
+                        height={320}
+                      />
+                      <div className="categoryIconBadge">
+                        {icon.icon_url ? (
+                          <img src={icon.icon_url} alt={`${locLabel} icon`} />
+                        ) : (
+                          <span>{icon.icon_text}</span>
+                        )}
+                      </div>
+                      <span>{locEyebrow}</span>
+                      <h3>{locLabel}</h3>
+                      <p>{locDesc}</p>
+                      <div className="categoryMiniTags">
+                        {c.subcategories.slice(0, 4).map((x) => (
+                          <em key={x}>{translateTerm(x, locale)}</em>
+                        ))}
+                      </div>
+                      <strong>{dict.home.exploreCategory(locLabel)}</strong>
+                    </article>
+                  </Link>
+                )
+              })}
+            </div>
+          </section>
+        )}
+
+        {/* 6. 푸꾸옥 남부 핵심 가이드 (개요 지도 도식 + 선셋타운·켐비치 소개 카드 2장) */}
         <SouthGlanceSection locale={locale} />
+
+        {/* 예약·이동 안내 서비스 ([공통 소개] 및 버기·차량·이동·액티비티 안내 카드) */}
+        <BookingServiceOverviewSection locale={locale} />
 
         {/* Claude 5차/6차: 타오디엔 레거시 섹션 비활성화 */
         false && homeSections.purpose.visible && (
@@ -984,69 +1052,6 @@ export function HomePage({
             )
           })()}
         </section>
-
-        {homeSections.discover.visible && (
-          <section className="shell discover" id="discover">
-            <div className="sectionIntro">
-              <div>
-                <span className="eyebrow">{dict.home.discoverEyebrow}</span>
-                <h2>{discoverTitle}</h2>
-                <p>{discoverDesc}</p>
-              </div>
-            </div>
-            <div className="categoryCards categoryCardsFive">
-              {DIRECTORY_CATEGORY_KEYS.filter((key) => getCategoryPublishedCount(key) > 0).map((key) => {
-                const c = DIRECTORY_CATEGORIES[key]
-                const icon = categoryAppearance[key]
-                const locLabel = categoryLabel(key, locale)
-                const locEyebrow = categoryEyebrow(key, locale)
-                const locDesc = categoryDescription(key, locale)
-                const href =
-                  key === 'hotels'
-                    ? localePath(locale, '/hotels')
-                    : key === 'activities'
-                    ? localePath(locale, '/activities')
-                    : localePath(locale, `/directory/${key}`)
-                return (
-                  <Link
-                    href={href}
-                    key={key}
-                    data-analytics-type="category"
-                    data-analytics-id={key}
-                    data-theme={categoryTheme(key)}
-                  >
-                    <article>
-                      <img
-                        src={imageUrl(c.image, 480, 72)}
-                        alt=""
-                        loading="lazy"
-                        decoding="async"
-                        width={480}
-                        height={320}
-                      />
-                      <div className="categoryIconBadge">
-                        {icon.icon_url ? (
-                          <img src={icon.icon_url} alt={`${locLabel} icon`} />
-                        ) : (
-                          <span>{icon.icon_text}</span>
-                        )}
-                      </div>
-                      <span>{locEyebrow}</span>
-                      <h3>{locLabel}</h3>
-                      <p>{locDesc}</p>
-                      <div className="categoryMiniTags">
-                        {c.subcategories.slice(0, 4).map((x) => (
-                          <em key={x}>{translateTerm(x, locale)}</em>
-                        ))}
-                      </div>
-                      <strong>{dict.home.exploreCategory(locLabel)}</strong>
-                    </article>
-                  </Link>
-                )
-              })}
-            </div>
-          </section>
-        )}
 
         <SunsetTownTickets locale={locale} />
 

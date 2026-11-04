@@ -1,28 +1,156 @@
 "use client"
 
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import Link from 'next/link'
 import { localePath, type Locale } from '@/lib/i18n/config'
-import { getDictionary } from '@/lib/i18n/dictionaries'
-import { BANNER_SETTINGS, HOME_BANNERS_CONFIG, type BannerItemConfig } from '@/lib/bannerConfig'
+import { localizeStory } from '@/lib/i18n/dictionaries'
+import { PUBLISHED_EVENTS } from '@/lib/eventSamples'
+import {
+  BANNER_SETTINGS,
+  HOME_EVENT_BANNERS_CONFIG,
+  type EventBannerSlideConfig,
+} from '@/lib/bannerConfig'
+
+type BannerStoryInput = {
+  id?: string
+  slug: string
+  title?: string
+  category?: string | null
+  excerpt?: string | null
+  cover_image_url?: string | null
+  content_type?: string | null
+  [key: string]: any
+}
 
 interface MrtBannerCarouselProps {
   locale?: Locale
+  events?: BannerStoryInput[]
 }
 
-export function MrtBannerCarousel({ locale = 'en' }: MrtBannerCarouselProps) {
-  const dict = getDictionary(locale)
+interface ResolvedSlide {
+  slotKey: string
+  eyebrow: string
+  title: string
+  subtitle: string
+  image: string
+  href: string
+}
 
-  // 활성화된 배너만 필터링 (Ryan 지시: 환전 배너 숨김으로 기본 3장)
-  const activeBanners = HOME_BANNERS_CONFIG.filter((b) => b.enabled)
-  const totalSlides = activeBanners.length
+const DEFAULT_EYEBROW: Record<Locale, string> = {
+  ko: '이벤트 · 공지',
+  en: 'Event & Notice',
+  zh: '活动与公告',
+  ru: 'События и объявления',
+  ja: 'イベント・お知らせ',
+  hi: 'इवेंट और सूचना',
+  vi: 'Sự kiện & Thông báo',
+}
+
+const CAROUSEL_ARIA_LABEL: Record<Locale, string> = {
+  ko: '이벤트·공지 슬라이드 배너',
+  en: 'Events and Notices Banner Carousel',
+  zh: '活动与公告轮播横幅',
+  ru: 'Карусель баннеров событий и объявлений',
+  ja: 'イベント・お知らせスライドバナー',
+  hi: 'इवेंट और सूचना स्लाइड बैनर',
+  vi: 'Banner sự kiện và thông báo',
+}
+
+export function MrtBannerCarousel({ locale = 'en', events = [] }: MrtBannerCarouselProps) {
+  const slides: ResolvedSlide[] = useMemo(() => {
+    const storyPool: BannerStoryInput[] = [...events, ...PUBLISHED_EVENTS]
+    const seenSlugs = new Set<string>()
+    const resolved: ResolvedSlide[] = []
+
+    const activeConfigs = HOME_EVENT_BANNERS_CONFIG.filter((cfg) => cfg.enabled).slice(0, 3)
+
+    for (const cfg of activeConfigs) {
+      const matchedRaw = cfg.storySlug
+        ? storyPool.find((item) => item.slug === cfg.storySlug)
+        : undefined
+      const localized = matchedRaw ? localizeStory(matchedRaw, locale) : null
+
+      if (matchedRaw?.slug) {
+        seenSlugs.add(matchedRaw.slug)
+      }
+
+      const contentType = matchedRaw?.content_type || 'event'
+      const defaultPath = matchedRaw?.slug
+        ? `/${contentType === 'event' ? 'events' : 'news'}/${matchedRaw.slug}`
+        : '/events'
+
+      const rawTarget = cfg.targetUrl || defaultPath
+      const href = localePath(locale, rawTarget)
+      const image =
+        cfg.image ||
+        localized?.cover_image_url ||
+        matchedRaw?.cover_image_url ||
+        '/banners/event_nightlife.webp'
+
+      const eyebrow =
+        cfg.eyebrowOverride?.[locale] ||
+        cfg.eyebrowOverride?.en ||
+        localized?.category ||
+        DEFAULT_EYEBROW[locale] ||
+        DEFAULT_EYEBROW.en
+
+      const title =
+        cfg.titleOverride?.[locale] ||
+        cfg.titleOverride?.en ||
+        localized?.title ||
+        ''
+
+      const subtitle =
+        cfg.subtitleOverride?.[locale] ||
+        cfg.subtitleOverride?.en ||
+        localized?.excerpt ||
+        ''
+
+      if (title) {
+        resolved.push({
+          slotKey: cfg.slotKey,
+          eyebrow,
+          title,
+          subtitle,
+          image,
+          href,
+        })
+      }
+    }
+
+    // 설정된 슬라이드가 3개 미만일 경우 기존 이벤트·공지 풀에서 보충
+    if (resolved.length < 3) {
+      for (const raw of storyPool) {
+        if (resolved.length >= 3) break
+        if (!raw.slug || seenSlugs.has(raw.slug)) continue
+        seenSlugs.add(raw.slug)
+        const localized = localizeStory(raw, locale)
+        const contentType = raw.content_type || 'event'
+        resolved.push({
+          slotKey: `fallback-${raw.slug}`,
+          eyebrow: localized.category || DEFAULT_EYEBROW[locale] || DEFAULT_EYEBROW.en,
+          title: localized.title,
+          subtitle: localized.excerpt || '',
+          image: localized.cover_image_url || '/banners/event_nightlife.webp',
+          href: localePath(locale, `/${contentType === 'event' ? 'events' : 'news'}/${raw.slug}`),
+        })
+      }
+    }
+
+    return resolved.slice(0, 3)
+  }, [events, locale])
+
+  const totalSlides = slides.length
 
   const [currentSlide, setCurrentSlide] = useState(0)
   const [isPlaying, setIsPlaying] = useState(true)
   const [isDragging, setIsDragging] = useState(false)
   const startXRef = useRef<number>(0)
+  const startYRef = useRef<number>(0)
   const currentXRef = useRef<number>(0)
+  const currentYRef = useRef<number>(0)
   const isPointerDownRef = useRef<boolean>(false)
+  const didSwipeRef = useRef<boolean>(false)
 
   const nextSlide = useCallback(() => {
     if (totalSlides < 2) return
@@ -34,7 +162,6 @@ export function MrtBannerCarousel({ locale = 'en' }: MrtBannerCarouselProps) {
     setCurrentSlide((prev) => (prev - 1 + totalSlides) % totalSlides)
   }, [totalSlides])
 
-  // 자동 전환 (1초 주기, 호버 또는 드래그 시 일시정지)
   useEffect(() => {
     if (!isPlaying || isDragging || totalSlides < 2) return
     const timer = setInterval(() => {
@@ -44,25 +171,35 @@ export function MrtBannerCarousel({ locale = 'en' }: MrtBannerCarouselProps) {
     return () => clearInterval(timer)
   }, [isPlaying, isDragging, totalSlides])
 
-  // 터치 이벤트 핸들러
   const handleTouchStart = (e: React.TouchEvent) => {
     setIsPlaying(false)
     setIsDragging(true)
+    didSwipeRef.current = false
     startXRef.current = e.touches[0].clientX
+    startYRef.current = e.touches[0].clientY
     currentXRef.current = startXRef.current
+    currentYRef.current = startYRef.current
   }
 
   const handleTouchMove = (e: React.TouchEvent) => {
     if (!isDragging) return
     currentXRef.current = e.touches[0].clientX
+    currentYRef.current = e.touches[0].clientY
+    const diffX = Math.abs(startXRef.current - currentXRef.current)
+    const diffY = Math.abs(startYRef.current - currentYRef.current)
+    if (diffX > 12 && diffX > diffY) {
+      didSwipeRef.current = true
+    }
   }
 
   const handleTouchEnd = () => {
     if (!isDragging) return
     setIsDragging(false)
-    const diff = startXRef.current - currentXRef.current
-    if (Math.abs(diff) > 35) {
-      if (diff > 0) {
+    const diffX = startXRef.current - currentXRef.current
+    const diffY = startYRef.current - currentYRef.current
+    if (Math.abs(diffX) > 30 && Math.abs(diffX) > Math.abs(diffY)) {
+      didSwipeRef.current = true
+      if (diffX > 0) {
         nextSlide()
       } else {
         prevSlide()
@@ -71,11 +208,11 @@ export function MrtBannerCarousel({ locale = 'en' }: MrtBannerCarouselProps) {
     setIsPlaying(true)
   }
 
-  // 마우스 드래그 핸들러
   const handleMouseDown = (e: React.MouseEvent) => {
     setIsPlaying(false)
     isPointerDownRef.current = true
     setIsDragging(true)
+    didSwipeRef.current = false
     startXRef.current = e.clientX
     currentXRef.current = startXRef.current
   }
@@ -83,6 +220,9 @@ export function MrtBannerCarousel({ locale = 'en' }: MrtBannerCarouselProps) {
   const handleMouseMove = (e: React.MouseEvent) => {
     if (!isPointerDownRef.current) return
     currentXRef.current = e.clientX
+    if (Math.abs(startXRef.current - currentXRef.current) > 10) {
+      didSwipeRef.current = true
+    }
   }
 
   const handleMouseUp = () => {
@@ -91,6 +231,7 @@ export function MrtBannerCarousel({ locale = 'en' }: MrtBannerCarouselProps) {
     setIsDragging(false)
     const diff = startXRef.current - currentXRef.current
     if (Math.abs(diff) > 35) {
+      didSwipeRef.current = true
       if (diff > 0) {
         nextSlide()
       } else {
@@ -112,46 +253,21 @@ export function MrtBannerCarousel({ locale = 'en' }: MrtBannerCarouselProps) {
     setIsPlaying(true)
   }
 
-  // 배너 아이템 콘텐츠 생성 헬퍼
-  const getBannerDetails = (banner: BannerItemConfig) => {
-    switch (banner.id) {
-      case 'sunset-event':
-        return {
-          eyebrow: dict.home.bannerSlide1Eyebrow,
-          title: dict.home.bannerSlide1Title,
-          showAd: false,
-        }
-      case 'viet-travel-exchange':
-        return {
-          eyebrow: dict.home.bannerSlide2Eyebrow,
-          title: dict.home.bannerSlide2Title,
-          showAd: BANNER_SETTINGS.showAdBadge,
-        }
-      case 'buggy-tour':
-        return {
-          eyebrow: null,
-          title: dict.home.bannerSlide3Title,
-          showAd: false,
-        }
-      case 'taxi-tour':
-        return {
-          eyebrow: null,
-          title: dict.home.bannerSlide4Title,
-          showAd: false,
-        }
-      default:
-        return {
-          eyebrow: null,
-          title: '',
-          showAd: false,
-        }
+  const handleSlideClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (didSwipeRef.current) {
+      e.preventDefault()
+      didSwipeRef.current = false
     }
   }
 
   if (totalSlides === 0) return null
 
   return (
-    <section className="mrtBannerSection mode-A" id="mrt-banner-section" aria-label="Main Banners">
+    <section
+      className="mrtBannerSection mode-A"
+      id="mrt-banner-section"
+      aria-label={CAROUSEL_ARIA_LABEL[locale] || CAROUSEL_ARIA_LABEL.en}
+    >
       <div
         className="mrtBannerContainer"
         id="mrtBannerContainer"
@@ -171,64 +287,60 @@ export function MrtBannerCarousel({ locale = 'en' }: MrtBannerCarouselProps) {
             transform: `translateX(-${currentSlide * 100}%)`,
           }}
         >
-          {activeBanners.map((banner, index) => {
-            const details = getBannerDetails(banner)
-            const targetHref = banner.targetUrl ? localePath(locale, banner.targetUrl) : null
-
-            const slideInner = (
-              <>
-                <img
-                  src={banner.image}
-                  alt={details.title}
-                  className="mrtSlideImg"
-                  loading={index === 0 ? 'eager' : 'lazy'}
-                  decoding="async"
-                />
-                <div className="mrtSlideOverlay" />
-                <div className="mrtSlideContent">
-                  {details.showAd && (
-                    <span className="mrtAdBadge" id="adBadge">
-                      {dict.home.bannerSlide2AdBadge}
-                    </span>
-                  )}
-                  {details.eyebrow && (
-                    <div className="mrtSlideEyebrow">{details.eyebrow}</div>
-                  )}
-                  <div className="mrtSlideTitle">{details.title}</div>
-                </div>
-              </>
-            )
-
-            if (!targetHref) {
-              return (
-                <div
-                  key={banner.slotKey}
-                  className="mrtSlide is-static"
-                  data-index={index + 1}
-                >
-                  {slideInner}
-                </div>
-              )
-            }
-
-            return (
-              <Link
-                key={banner.slotKey}
-                href={targetHref}
-                className="mrtSlide"
-                data-index={index + 1}
-                title={details.title}
-              >
-                {slideInner}
-              </Link>
-            )
-          })}
+          {slides.map((slide, index) => (
+            <Link
+              key={slide.slotKey}
+              href={slide.href}
+              className="mrtSlide"
+              data-index={index + 1}
+              title={slide.title}
+              draggable={false}
+              onClick={handleSlideClick}
+            >
+              <img
+                src={slide.image}
+                alt={slide.title}
+                className="mrtSlideImg"
+                loading={index === 0 ? 'eager' : 'lazy'}
+                decoding="async"
+                draggable={false}
+              />
+              <div className="mrtSlideOverlay" />
+              <div className="mrtSlideContent">
+                {slide.eyebrow && (
+                  <div className="mrtSlideEyebrow">{slide.eyebrow}</div>
+                )}
+                <div className="mrtSlideTitle">{slide.title}</div>
+                {slide.subtitle && (
+                  <div className="mrtSlideSub">{slide.subtitle}</div>
+                )}
+              </div>
+            </Link>
+          ))}
         </div>
 
         {/* Count Indicator Pill (Right Bottom: 1 / 3) */}
         <div className="mrtCounterPill" id="mrtCounterPill" aria-live="polite">
           <span id="currentSlideNum">{currentSlide + 1}</span> / {totalSlides}
         </div>
+      </div>
+
+      {/* 현재 위치를 보여주는 표시점 3개 (Indicator Dots) */}
+      <div className="mrtDots" role="tablist" aria-label="Slide Indicator">
+        {slides.map((slide, index) => (
+          <button
+            key={slide.slotKey}
+            type="button"
+            role="tab"
+            aria-selected={index === currentSlide}
+            aria-label={`Slide ${index + 1}: ${slide.title}`}
+            className={`mrtDot ${index === currentSlide ? 'active' : ''}`}
+            onClick={() => {
+              setCurrentSlide(index)
+              setIsPlaying(false)
+            }}
+          />
+        ))}
       </div>
     </section>
   )
