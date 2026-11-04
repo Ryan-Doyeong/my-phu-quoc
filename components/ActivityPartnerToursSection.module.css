@@ -572,18 +572,23 @@
 .cardFooter { display: flex; gap: 8px; padding: 0 16px 16px; border-top: 0; }
 .ctaPrimary, .ctaSecondary { flex: 1; font-size: 14px; font-weight: 600; padding: 12px; border-radius: 8px; }
 
-/* 존스 투어 상세 정보(일정·포함/불포함·사진) — 요트 상세보기와 동일 스타일 */
+/* 존스 투어 상세 정보 — 요트 카드(.yachtThumbs/.yachtDetails 등)와 동일 구조·스타일 */
+.tourThumbs { display: flex; gap: 6px; padding: 8px 12px 0; }
+.tourThumbs img { width: calc(50% - 3px); height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 6px; }
 .tourDetail { border-top: 1px solid #E5E7EB; margin-top: 14px; }
-.tourDetailSummary { cursor: pointer; font-size: 14px; font-weight: 600; padding: 10px 0; list-style: none; display: flex; justify-content: space-between; color: #111; }
-.tourDetailSummary::-webkit-details-marker { display: none; }
-.tourDetailSummary::after { content: '＋'; color: #64748B; }
-.tourDetail[open] .tourDetailSummary::after { content: '－'; }
-.tourDetailSummary:focus-visible { outline: 2px solid #0284c7; outline-offset: 2px; }
-.tourDetailBody { word-break: keep-all; font-size: 14px; line-height: 1.6; color: #111; }
-.tourDetailDesc, .tourDetailText { margin: 0 0 8px; font-size: 14px; color: #111; }
-.tourDetailPhotos { display: flex; gap: 6px; padding: 0 0 8px; }
-.tourDetailPhotos img { width: calc(50% - 3px); height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 6px; }
-.tourDetailCredit { font-size: 11px; color: #94A3B8; margin: 0 0 8px; }
-.tourDetailHeading { font-size: 13px; font-weight: 700; color: #111; margin: 12px 0 4px; }
-.tourDetailList { margin: 0; padding: 0 0 4px 18px; font-size: 14px; color: #111; }
+.tourDetail + .tourDetail { margin-top: 0; }
+.tourDetail summary { cursor: pointer; font-size: 14px; font-weight: 600; padding: 10px 0; list-style: none; display: flex; justify-content: space-between; color: #111; }
+.tourDetail summary::-webkit-details-marker { display: none; }
+.tourDetail summary::after { content: '＋'; color: #64748B; }
+.tourDetail[open] summary::after { content: '－'; }
+.tourDetail summary:focus-visible { outline: 2px solid #0284c7; outline-offset: 2px; }
+.tourList { margin: 0; padding: 0 0 4px 18px; font-size: 14px; color: #111; word-break: keep-all; }
+.tourText { margin: 0 0 8px; font-size: 14px; color: #111; line-height: 1.6; word-break: keep-all; }
+.tourNote { font-size: 12px; color: #64748B; background: #FAFAFA; border-radius: 6px; padding: 8px 10px; margin: 8px 0; line-height: 1.55; word-break: keep-all; }
+.tourSub { font-size: 13px; font-weight: 700; color: #111; margin: 12px 0 4px; }
+.tourCredit { font-size: 11px; color: #94A3B8; margin: 0; padding: 0 16px 14px; }
 .tourDetailNotice { word-break: keep-all; font-size: 13px; color: #111; background: #F8FAFC; border: 1px solid #E5E7EB; border-radius: 8px; padding: 10px 12px; margin: 12px 0 0; line-height: 1.5; }
+.ctaPrimary { background: #111; color: #fff; border: 1px solid #111; }
+.ctaPrimary:hover { background: #111; color: #fff; opacity: .88; }
+.ctaSecondary { border: 1px solid #111; color: #111; background: #fff; }
+.ctaSecondary:hover { background: #fff; border-color: #111; color: #111; opacity: .88; }
