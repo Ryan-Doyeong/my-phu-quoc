@@ -28,6 +28,7 @@ const UI = {
   length: { ko: '남부 일정 기간', en: 'Days in the south' },
   lengthHint: { ko: '남부 일정은 최대 3박 4일까지 짜 드려요.', en: 'We plan up to 3 nights in the south.' },
   startDate: { ko: '출발 날짜 (선택)', en: 'Start date (optional)' },
+  clearDate: { ko: '날짜 지우기', en: 'Clear date' },
   startDateHint: { ko: '날짜를 넣으면 요일·우기를 반영해요', en: 'Adds weekdays & season checks' },
   people: { ko: '인원', en: 'Travellers' },
   adults: { ko: '성인', en: 'Adults' },
@@ -185,7 +186,6 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
   const tx = (l: L) => l[lang]
 
   const [input, setInput] = useState<PlannerInput>(DEFAULT_INPUT)
-  const [touched, setTouched] = useState(false)
   const [swaps, setSwaps] = useState<Record<string, number>>({})
   const [cart, setCart] = useState<CartEntry[]>([])
   const [sheetOpen, setSheetOpen] = useState(false)
@@ -214,11 +214,65 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
     }
   }, [sheetOpen])
 
+  useEffect(() => {
+    if (!panelOpen) return
+    const mq = window.matchMedia('(max-width: 999px)')
+    if (!mq.matches) return
+    const onKey = (e: KeyboardEvent) => e.key === 'Escape' && setPanelOpen(false)
+    window.addEventListener('keydown', onKey)
+    document.body.style.overflow = 'hidden'
+    return () => {
+      window.removeEventListener('keydown', onKey)
+      document.body.style.overflow = ''
+    }
+  }, [panelOpen])
+
+  // 조건이 바뀌면 문의 목록을 현재 일정과 맞춘다 (사라진 날/상품 제거, 이동한 상품은 날짜 재배치)
+  useEffect(() => {
+    setCart((prev) => {
+      if (!prev.length) return prev
+      const activeIds = (dayIndex: number) =>
+        new Map(
+          (plan.days[dayIndex]?.items ?? []).map((raw) => {
+            const it = resolved(raw)
+            return [it.productId, it] as const
+          }),
+        )
+      const next: CartEntry[] = []
+      for (const entry of prev) {
+        let day = entry.day
+        let it = activeIds(day).get(entry.productId)
+        if (!it) {
+          const other = plan.days.find(
+            (d) =>
+              !prev.some((p) => p !== entry && p.day === d.index && p.productId === entry.productId) &&
+              !next.some((n) => n.day === d.index && n.productId === entry.productId) &&
+              activeIds(d.index).has(entry.productId),
+          )
+          if (!other) continue
+          day = other.index
+          it = activeIds(day).get(entry.productId)
+        }
+        if (!it) continue
+        const tiers = PRODUCTS[entry.productId]?.tiers
+        const tier = entry.tier && tiers?.includes(entry.tier) ? entry.tier : it.defaultTier
+        next.push({ key: `${day}-${entry.productId}`, day, productId: entry.productId, tier })
+      }
+      const same = next.length === prev.length && next.every((n, i) => n.key === prev[i].key && n.tier === prev[i].tier)
+      return same ? prev : next
+    })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [plan, swaps])
+
   const update = (patch: Partial<PlannerInput>) => {
-    setTouched(true)
     setSwaps({}) // 조건이 바뀌면 바꿔 놓은 선택지는 초기화
     setInput((prev) => ({ ...prev, ...patch }))
   }
+
+  const isCustom = useMemo(
+    () => Object.keys(swaps).length > 0 || JSON.stringify(input) !== JSON.stringify(DEFAULT_INPUT),
+    [input, swaps],
+  )
 
   const togglePurpose = (p: Purpose) => {
     const has = input.purposes.includes(p)
@@ -276,6 +330,11 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
     return `${base} · ${date.getMonth() + 1}/${date.getDate()} (${WEEKDAYS[lang][date.getDay()]})`
   }
 
+  const cartDayText = (day: number) => {
+    const d = plan.days[day]?.date
+    return d ? `DAY ${day + 1} (${d.getMonth() + 1}/${d.getDate()} ${WEEKDAYS[lang][d.getDay()]})` : `DAY ${day + 1}`
+  }
+
   const timeText = (time: string) => {
     if (time.startsWith('arr-')) return lang === 'ko' ? `${BAND_LABEL[time.slice(4) as TimeBand].ko} 도착` : 'Arrive'
     if (time.startsWith('dep-')) return lang === 'ko' ? `${BAND_LABEL[time.slice(4) as TimeBand].ko} 출발` : 'Depart'
@@ -315,7 +374,7 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
       sorted.forEach((c, i) => {
         const p = PRODUCTS[c.productId]
         const tier = c.tier ? ` – ${tx(TIER_LABEL[c.tier])}` : ''
-        lines.push(`${i + 1}) DAY ${c.day + 1} ${tx(p.name)}${tier}`)
+        lines.push(`${i + 1}) ${cartDayText(c.day)} ${tx(p.name)}${tier}`)
         if (p.consult && p.consultFields?.length) {
           lines.push(`   ${ko ? '(상담 요청 — 아래를 채워 주세요)' : '(consultation — please fill in)'}`)
           p.consultFields.forEach((f) => lines.push(`   - ${tx(f)}: `))
@@ -353,151 +412,34 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
   return (
     <div className="tpRoot">
       {/* 3-Step Guided Flow Header */}
-      <nav
-        aria-label={lang === 'ko' ? '일정 생성 3단계 안내' : '3-Step Trip Planning Flow'}
-        style={{
-          maxWidth: '1200px',
-          margin: '0 auto 18px',
-          padding: '12px 16px',
-          background: '#f8fafc',
-          border: '1px solid #e2e8f0',
-          borderRadius: '14px',
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))',
-          gap: '10px',
-        }}
-      >
+      <nav className="tpStepNav" aria-label={lang === 'ko' ? '일정 생성 3단계 안내' : '3-Step Trip Planning Flow'}>
         <button
           type="button"
+          className="tpStepBtn"
           onClick={() => {
             setPanelOpen(true)
             document.getElementById('tp-step-1')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
           }}
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '10px',
-            padding: '10px 12px',
-            borderRadius: '10px',
-            border: '1px solid #cbd5e1',
-            background: '#ffffff',
-            textAlign: 'left',
-            cursor: 'pointer',
-          }}
         >
-          <span
-            style={{
-              width: '26px',
-              height: '26px',
-              borderRadius: '50%',
-              background: '#0f766e',
-              color: '#fff',
-              fontWeight: 700,
-              fontSize: '0.8rem',
-              display: 'inline-flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              flexShrink: 0,
-            }}
-          >
-            1
+          <span className="tpStepNum">1</span>
+          <span className="tpStepText">
+            <strong>{lang === 'ko' ? 'Step 1. 여행 조건 선택' : 'Step 1. Trip Conditions'}</strong>
+            <small>{lang === 'ko' ? '방문 날짜 · 인원 · 숙소 구역' : 'Dates · Guests · Stay Area'}</small>
           </span>
-          <div>
-            <strong style={{ display: 'block', fontSize: '0.86rem', color: '#0f172a' }}>
-              {lang === 'ko' ? 'Step 1. 여행 조건 선택' : 'Step 1. Trip Conditions'}
-            </strong>
-            <small style={{ fontSize: '0.76rem', color: '#64748b' }}>
-              {lang === 'ko' ? '방문 날짜 · 인원 · 숙소 구역' : 'Dates · Guests · Stay Area'}
-            </small>
-          </div>
         </button>
-
-        <button
-          type="button"
-          onClick={() => {
-            resultRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-          }}
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '10px',
-            padding: '10px 12px',
-            borderRadius: '10px',
-            border: '1px solid #cbd5e1',
-            background: '#ffffff',
-            textAlign: 'left',
-            cursor: 'pointer',
-          }}
-        >
-          <span
-            style={{
-              width: '26px',
-              height: '26px',
-              borderRadius: '50%',
-              background: '#0f766e',
-              color: '#fff',
-              fontWeight: 700,
-              fontSize: '0.8rem',
-              display: 'inline-flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              flexShrink: 0,
-            }}
-          >
-            2
+        <button type="button" className="tpStepBtn" onClick={() => resultRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
+          <span className="tpStepNum">2</span>
+          <span className="tpStepText">
+            <strong>{lang === 'ko' ? 'Step 2. 추천 일정 확인·교체' : 'Step 2. Review & Customize'}</strong>
+            <small>{lang === 'ko' ? '시간대별 동선 · 공연 휴연일 검증' : 'Time-by-time route & show validation'}</small>
           </span>
-          <div>
-            <strong style={{ display: 'block', fontSize: '0.86rem', color: '#0f172a' }}>
-              {lang === 'ko' ? 'Step 2. 추천 일정 확인·교체' : 'Step 2. Review & Customize'}
-            </strong>
-            <small style={{ fontSize: '0.76rem', color: '#64748b' }}>
-              {lang === 'ko' ? '시간대별 동선 · 공연 휴연일 검증' : 'Time-by-time route & show validation'}
-            </small>
-          </div>
         </button>
-
-        <button
-          type="button"
-          onClick={() => setSheetOpen(true)}
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '10px',
-            padding: '10px 12px',
-            borderRadius: '10px',
-            border: '1px solid #0f766e',
-            background: '#f0fdfa',
-            textAlign: 'left',
-            cursor: 'pointer',
-          }}
-        >
-          <span
-            style={{
-              width: '26px',
-              height: '26px',
-              borderRadius: '50%',
-              background: '#0f766e',
-              color: '#fff',
-              fontWeight: 700,
-              fontSize: '0.8rem',
-              display: 'inline-flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              flexShrink: 0,
-            }}
-          >
-            3
+        <button type="button" className="tpStepBtn isPrimary" onClick={() => setSheetOpen(true)}>
+          <span className="tpStepNum">3</span>
+          <span className="tpStepText">
+            <strong>{lang === 'ko' ? `Step 3. 예약·견적 문의 (${cart.length})` : `Step 3. Book & Inquire (${cart.length})`}</strong>
+            <small>{lang === 'ko' ? 'WhatsApp · Zalo · 일정 복사' : 'WhatsApp · Zalo · Copy Plan'}</small>
           </span>
-          <div>
-            <strong style={{ display: 'block', fontSize: '0.86rem', color: '#0f766e' }}>
-              {lang === 'ko'
-                ? `Step 3. 예약·견적 문의 (${cart.length})`
-                : `Step 3. Book & Inquire (${cart.length})`}
-            </strong>
-            <small style={{ fontSize: '0.76rem', color: '#115e59' }}>
-              {lang === 'ko' ? 'WhatsApp · Zalo · 일정 복사' : 'WhatsApp · Zalo · Copy Plan'}
-            </small>
-          </div>
         </button>
       </nav>
 
@@ -526,7 +468,17 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
               </div>
               <label className="tpDate">
                 <span>{UI.startDate[lang]}</span>
-                <input type="date" value={input.startDate} onChange={(e) => update({ startDate: e.target.value })} />
+                <input
+                  type="date"
+                  value={input.startDate}
+                  onChange={(e) => update({ startDate: e.target.value })}
+                  onInput={(e) => update({ startDate: (e.target as HTMLInputElement).value })}
+                />
+                {input.startDate && (
+                  <button type="button" className="tpGhostBtn tpDateClear" onClick={() => update({ startDate: '' })}>
+                    {UI.clearDate[lang]}
+                  </button>
+                )}
                 <small>{UI.startDateHint[lang]}</small>
               </label>
               <p className="tpFieldHint">{UI.lengthHint[lang]}</p>
@@ -642,7 +594,7 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
         <section className="tpResult" ref={resultRef} aria-live="polite">
           <div className="tpSummary">
             <div className="tpSummaryTop">
-              <span className={`tpBadge${touched ? ' isMine' : ''}`}>{touched ? UI.myBadge[lang] : UI.sampleBadge[lang]}</span>
+              <span className={`tpBadge${isCustom ? ' isMine' : ''}`}>{isCustom ? UI.myBadge[lang] : UI.sampleBadge[lang]}</span>
               <button type="button" className="tpGhostBtn tpOnlyMobile" onClick={() => setPanelOpen(true)}>
                 {UI.showConditions[lang]}
               </button>
@@ -877,7 +829,7 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
                     const p = PRODUCTS[c.productId]
                     return (
                       <li key={c.key}>
-                        <span className="tpSheetDay">DAY {c.day + 1}</span>
+                        <span className="tpSheetDay">{cartDayText(c.day)}</span>
                         <div>
                           <strong>{tx(p.name)}</strong>
                           <small>
