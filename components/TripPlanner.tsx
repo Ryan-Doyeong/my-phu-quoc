@@ -7,6 +7,7 @@ import { buildWhatsAppLink, buildZaloLink } from '@/lib/contactLinks'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { PRODUCTS, REGION_LABEL, TIER_DESC, TIER_LABEL } from '@/lib/planner/catalog'
 import { BAND_LABEL, BAND_RANGE, generatePlan } from '@/lib/planner/generate'
+import { checkShowAvailability, SHOW_SCHEDULES } from '@/lib/shows'
 import type {
   Companion,
   ItemKind,
@@ -253,7 +254,7 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
           day = other.index
           it = activeIds(day).get(entry.productId)
         }
-        if (!it) continue
+        if (!it || next.some((n) => n.day === day && n.productId === entry.productId)) continue
         const tiers = PRODUCTS[entry.productId]?.tiers
         const tier = entry.tier && tiers?.includes(entry.tier) ? entry.tier : it.defaultTier
         next.push({ key: `${day}-${entry.productId}`, day, productId: entry.productId, tier })
@@ -295,10 +296,11 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
   const inCart = (day: number, productId: string) => cart.find((c) => c.day === day && c.productId === productId)
 
   const toggleCart = (day: number, it: PlanItem) => {
-    if (!it.productId) return
-    const existing = inCart(day, it.productId)
-    if (existing) setCart((c) => c.filter((x) => x !== existing))
-    else setCart((c) => [...c, { key: `${day}-${it.productId}`, day, productId: it.productId!, tier: it.defaultTier }])
+    const productId = it.productId
+    if (!productId) return
+    setCart((current) => current.some((entry) => entry.day === day && entry.productId === productId)
+      ? current.filter((entry) => entry.day !== day || entry.productId !== productId)
+      : [...current, { key: `${day}-${productId}`, day, productId, tier: it.defaultTier }])
   }
 
   const setTier = (day: number, productId: string, tier: Tier) => {
@@ -626,6 +628,10 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
                 {plan.notes.map((n, i) => (
                   <li key={i}>{tx(n)}</li>
                 ))}
+                {plan.days.some((day) => checkShowAvailability('kiss-of-the-sea', day.date).reason === 'off_day') &&
+                  plan.days.some((day) => day.items.some((item) => item.productId === 'kiss_ticket')) && (
+                    <li>{SHOW_SCHEDULES['kiss-of-the-sea'].offDayNotice[lang]}</li>
+                  )}
               </ul>
             </details>
 
