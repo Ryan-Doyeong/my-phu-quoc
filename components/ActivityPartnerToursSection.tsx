@@ -156,7 +156,7 @@ const UI_COPY: { ko: UiLabels; en: UiLabels } = {
 export function ActivityPartnerToursSection({
   locale = 'ko',
 }: ActivityPartnerToursSectionProps) {
-  const [activeFilter, setActiveFilter] = useState<FilterKey>('all');
+  const [activeFilter, setActiveFilter] = useState<FilterKey>(`cat:${CATEGORIES[0]}`);
 
   const ui: UiLabels = locale === 'ko' ? UI_COPY.ko : UI_COPY.en;
   const bookingCopy =
@@ -208,35 +208,6 @@ export function ActivityPartnerToursSection({
         aria-label={ui.filterAriaLabel}
       >
         <div className={styles.filterBar}>
-          <button
-            type="button"
-            className={`${styles.chip} ${
-              activeFilter === 'all' ? styles.chipActive : ''
-            }`}
-            aria-pressed={activeFilter === 'all'}
-            onClick={() => setActiveFilter('all')}
-          >
-            {ui.filterAll}
-          </button>
-
-          {OPERATORS.map((op) => {
-            const key: FilterKey = `op:${op}`;
-            const isSelected = activeFilter === key;
-            return (
-              <button
-                key={key}
-                type="button"
-                className={`${styles.chip} ${
-                  isSelected ? styles.chipActive : ''
-                }`}
-                aria-pressed={isSelected}
-                onClick={() => setActiveFilter(key)}
-              >
-                {ui.operatorChip[op]}
-              </button>
-            );
-          })}
-
           {CATEGORIES.map((cat) => {
             const key: FilterKey = `cat:${cat}`;
             const isSelected = activeFilter === key;
@@ -250,7 +221,10 @@ export function ActivityPartnerToursSection({
                 aria-pressed={isSelected}
                 onClick={() => setActiveFilter(key)}
               >
-                {ui.categoryChip[cat]}
+                {ui.categoryChip[cat]}{' '}
+                <span className={styles.chipCount}>
+                  {PARTNER_TOURS.filter((t) => t.category === cat).length}
+                </span>
               </button>
             );
           })}
@@ -270,11 +244,19 @@ export function ActivityPartnerToursSection({
 
             return (
               <article key={tour.id} className={styles.card}>
-                <div className={styles.cardBanner}>
-                  <span className={styles.bannerOperatorText}>
+                <div className={styles.cardMedia}>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={`/activities/partner/${tour.category}.webp`}
+                    alt={tourTitle}
+                    loading="lazy"
+                    width={640}
+                    height={480}
+                  />
+                  <span className={styles.mediaOperator}>
                     {ui.operatorBanner[tour.operator]}
                   </span>
-                  <span className={styles.bannerCodeBadge}>{tour.code}</span>
+                  <span className={styles.mediaCode}>{tour.code}</span>
                 </div>
 
                 <div className={styles.cardBody}>

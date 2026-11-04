@@ -507,3 +507,67 @@
     grid-template-columns: 1fr;
   }
 }
+
+
+/* ===== 이미지 카드 + 모바일 2열 컴팩트 ===== */
+.cardMedia {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  background: linear-gradient(135deg, #e0f2fe, #f0f9ff);
+  overflow: hidden;
+}
+.cardMedia img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.mediaOperator,
+.mediaCode {
+  position: absolute;
+  bottom: 0.4rem;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 0.25rem 0.4rem;
+  border-radius: 6px;
+  background: rgba(17, 24, 39, 0.68);
+  color: #fff;
+  max-width: 62%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.mediaOperator { left: 0.4rem; }
+.mediaCode { right: 0.4rem; background: rgba(255, 255, 255, 0.92); color: #0369a1; max-width: 38%; }
+
+@media (max-width: 1023px) {
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.625rem; }
+}
+@media (max-width: 639px) {
+  .section { padding: 1.5rem 0.75rem; }
+  .cardBody { padding: 0.55rem 0.55rem 0.5rem; }
+  .categoryTagRow { display: none; }
+  .cardTitle { font-size: 0.8125rem; line-height: 1.3; margin: 0 0 0.35rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.6em; }
+  .cardSummary, .tourNotesList, .childNoteText { display: none; }
+  .variantsList { gap: 0.3rem; padding-top: 0.4rem; }
+  .variantItem { padding: 0.3rem 0.4rem; }
+  .variantHeader { flex-direction: column; align-items: flex-start; gap: 0.05rem; }
+  .variantLabel { font-size: 0.6875rem; }
+  .variantPrices { flex-direction: column; align-items: flex-start; gap: 0; font-size: 0.75rem; }
+  .priceDivider { display: none; }
+  .childPrice { font-size: 0.6875rem; }
+  .cardFooter { grid-template-columns: 1fr; padding: 0.4rem 0.55rem 0.55rem; border-top: 0; }
+  .ctaSecondary { display: none; }
+  .ctaPrimary { font-size: 0.75rem; padding: 0.45rem 0.3rem; }
+}
+
+/* 카테고리 탭: 모바일에서는 줄바꿈으로 한눈에 */
+.filterScrollWrap { overflow-x: visible; }
+.filterBar { flex-wrap: wrap; min-width: 0; gap: 0.4rem; }
+.chipCount { opacity: 0.6; font-weight: 500; margin-left: 0.1rem; }
+@media (max-width: 639px) {
+  .chip { padding: 0.4rem 0.6rem; font-size: 0.75rem; }
+}
