@@ -15,6 +15,7 @@ import {
   type PartnerTourCategory,
   type PickupSurchargeItem,
 } from '@/lib/activities/partnerTours';
+import { JOHNS_TOUR_DETAILS } from '@/lib/activities/johnsTourDetails';
 import styles from './ActivityPartnerToursSection.module.css';
 
 export interface ActivityPartnerToursSectionProps {
@@ -70,6 +71,12 @@ interface UiLabels {
   unverifiedTitle: string;
   perPerson: string;
   emptyResult: string;
+  tourDetailToggle: string;
+  tourTimeLabel: string;
+  tourTransportLabel: string;
+  tourItineraryTitle: string;
+  tourNotesTitle: string;
+  tourPhotoCredit: string;
 }
 
 const UI_COPY: { ko: UiLabels; en: UiLabels } = {
@@ -111,6 +118,12 @@ const UI_COPY: { ko: UiLabels; en: UiLabels } = {
     unverifiedTitle: '미확인 항목 안내',
     perPerson: '/ 1인',
     emptyResult: '선택한 조건에 해당하는 투어가 없습니다.',
+    tourDetailToggle: '투어 상세 보기 (일정 · 포함/불포함)',
+    tourTimeLabel: '소요 시간',
+    tourTransportLabel: '이동 수단',
+    tourItineraryTitle: '일정',
+    tourNotesTitle: '참고',
+    tourPhotoCredit: '사진·투어 내용 제공: 존스 투어. 일정과 시간은 일반 기준이며 날씨·해상 상태·당일 사정에 따라 달라질 수 있습니다.',
   },
   en: {
     sectionTitle: 'Marine & Tour Activities',
@@ -150,6 +163,12 @@ const UI_COPY: { ko: UiLabels; en: UiLabels } = {
     unverifiedTitle: 'Unverified Details',
     perPerson: '/ person',
     emptyResult: 'No tours match the selected filter.',
+    tourDetailToggle: 'Tour details (itinerary · inclusions)',
+    tourTimeLabel: 'Duration',
+    tourTransportLabel: 'Transport',
+    tourItineraryTitle: 'Itinerary',
+    tourNotesTitle: 'Notes',
+    tourPhotoCredit: 'Photos and tour details courtesy of John\'s Tours. Schedules and times are typical and may change with weather, sea conditions and daily circumstances.',
   },
 };
 
@@ -247,6 +266,8 @@ export function ActivityPartnerToursSection({
           {filteredTours.map((tour) => {
             const tourTitle = pick(tour.title, locale);
             const tourSummary = pick(tour.summary, locale);
+            const detail =
+              tour.operator === 'johns' ? JOHNS_TOUR_DETAILS[tour.id] : undefined;
             const whatsappHref = buildServiceWhatsappUrl(
               `${bookingCopy.prefillMessage}[${tourTitle}] `
             );
@@ -256,7 +277,7 @@ export function ActivityPartnerToursSection({
                 <div className={styles.cardMedia}>
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src={`/activities/partner/${tour.category}.webp`}
+                    src={detail?.images[0] ?? `/activities/partner/${tour.category}.webp`}
                     alt={tourTitle}
                     loading="lazy"
                     width={640}
@@ -319,6 +340,71 @@ export function ActivityPartnerToursSection({
                         </li>
                       ))}
                     </ul>
+                  )}
+
+                  {detail && (
+                    <details className={styles.tourDetail}>
+                      <summary className={styles.tourDetailSummary}>
+                        <span>{ui.tourDetailToggle}</span>
+                        <span aria-hidden="true">▾</span>
+                      </summary>
+                      <div className={styles.tourDetailBody}>
+                        <div className={styles.tourGallery}>
+                          {detail.images.map((src, i) => (
+                            // eslint-disable-next-line @next/next/no-img-element
+                            <img
+                              key={src}
+                              src={src}
+                              alt={`${tourTitle} ${i + 1}`}
+                              loading="lazy"
+                              width={640}
+                              height={480}
+                            />
+                          ))}
+                        </div>
+                        <p className={styles.tourMeta}>
+                          <strong>{ui.tourTimeLabel}</strong> {pick(detail.time, locale)}
+                          {detail.transport && (
+                            <>
+                              {' · '}
+                              <strong>{ui.tourTransportLabel}</strong>{' '}
+                              {pick(detail.transport, locale)}
+                            </>
+                          )}
+                        </p>
+                        <h4 className={styles.policyHeading}>{ui.tourItineraryTitle}</h4>
+                        <ol className={styles.tourItinerary}>
+                          {detail.itinerary.map((it, i) => (
+                            <li key={i}>{pick(it, locale)}</li>
+                          ))}
+                        </ol>
+                        <div className={styles.tourIncExc}>
+                          <div>
+                            <h4 className={styles.policyHeading}>{ui.includedTitle}</h4>
+                            <ul className={styles.policyList}>
+                              {detail.included.map((it, i) => (
+                                <li key={i} className={styles.policyListItem}>{pick(it, locale)}</li>
+                              ))}
+                            </ul>
+                          </div>
+                          <div>
+                            <h4 className={styles.policyHeading}>{ui.excludedTitle}</h4>
+                            <ul className={styles.policyList}>
+                              {detail.excluded.map((it, i) => (
+                                <li key={i} className={styles.policyListItem}>{pick(it, locale)}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        </div>
+                        <h4 className={styles.policyHeading}>{ui.tourNotesTitle}</h4>
+                        <ul className={styles.policyList}>
+                          {detail.notes.map((it, i) => (
+                            <li key={i} className={styles.policyListItem}>{pick(it, locale)}</li>
+                          ))}
+                        </ul>
+                        <p className={styles.tourCredit}>{ui.tourPhotoCredit}</p>
+                      </div>
+                    </details>
                   )}
                 </div>
 
