@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import type { Locale } from '@/lib/i18n/config';
 import { CONTACT_CONFIG } from '@/lib/contactConfig';
 import {
@@ -158,6 +158,15 @@ export function ActivityPartnerToursSection({
 }: ActivityPartnerToursSectionProps) {
   const [activeFilter, setActiveFilter] = useState<FilterKey>(`cat:${CATEGORIES[0]}`);
 
+  useEffect(() => {
+    const onCat = (e: Event) => {
+      const cat = (e as CustomEvent<PartnerTourCategory>).detail;
+      if (CATEGORIES.includes(cat)) setActiveFilter(`cat:${cat}`);
+    };
+    window.addEventListener('partner-tour-category', onCat);
+    return () => window.removeEventListener('partner-tour-category', onCat);
+  }, []);
+
   const ui: UiLabels = locale === 'ko' ? UI_COPY.ko : UI_COPY.en;
   const bookingCopy =
     (BOOKING_SERVICE_COPY[locale] ?? BOOKING_SERVICE_COPY.en).activities;
@@ -194,7 +203,7 @@ export function ActivityPartnerToursSection({
   };
 
   return (
-    <section className={styles.section} aria-labelledby="partner-tours-heading">
+    <section id="partner-tours" className={styles.section} aria-labelledby="partner-tours-heading">
       <div className={styles.header}>
         <h2 id="partner-tours-heading" className={styles.title}>
           {ui.sectionTitle}
