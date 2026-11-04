@@ -507,21 +507,6 @@ export function DirectoryBrowser({
           />
         </label>
         <div>
-          <div className="directoryFilterLabel">{dict.directory.browseByType}</div>
-          <div className="directoryFilters" aria-label={`${catLabel} concepts`}>
-            {filters.map((x) => (
-              <button
-                type="button"
-                key={x}
-                className={filter === x ? 'active' : ''}
-                onClick={() => setFilter(x)}
-              >
-                {translateTerm(x, activeLocale)}
-              </button>
-            ))}
-          </div>
-        </div>
-        <div>
           <div className="directoryFilterLabel">
             {EXPLORE_BY_ZONE_LABEL[activeLocale] || EXPLORE_BY_ZONE_LABEL.en}
           </div>
@@ -538,6 +523,21 @@ export function DirectoryBrowser({
                 onClick={() => setZoneFilter(key as SunsetZoneKey)}
               >
                 {label}
+              </button>
+            ))}
+          </div>
+        </div>
+        <div>
+          <div className="directoryFilterLabel">{dict.directory.browseByType}</div>
+          <div className="directoryFilters typeFilters" aria-label={`${catLabel} concepts`}>
+            {filters.map((x) => (
+              <button
+                type="button"
+                key={x}
+                className={filter === x ? 'active' : ''}
+                onClick={() => setFilter(x)}
+              >
+                {translateTerm(x, activeLocale)}
               </button>
             ))}
           </div>

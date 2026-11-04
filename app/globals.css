@@ -2485,3 +2485,5 @@ html:lang(ja) body * {
   word-break: normal;
   overflow-wrap: anywhere;
 }
+
+@media(max-width:760px){.directoryFilters.typeFilters{flex-wrap:wrap;overflow-x:visible;margin-left:0;margin-right:0;padding-left:0;padding-right:0;gap:6px}.directoryFilters.typeFilters button{min-height:36px;padding:7px 11px}}
