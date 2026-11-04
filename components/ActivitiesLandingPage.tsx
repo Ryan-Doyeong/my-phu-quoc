@@ -8,6 +8,7 @@ import { getDictionary } from '@/lib/i18n/dictionaries'
 import { BOOKING_SERVICE_COPY, buildServiceWhatsappUrl } from '@/lib/i18n/bookingServiceCopy'
 import { MAIN_ZONES, SUNSET_BEACH_NOTICE_TEXT } from '@/lib/zones'
 import { ActivityYachtSection } from '@/components/ActivityYachtSection'
+import { ActivityMiniBanners } from '@/components/ActivityMiniBanners'
 import { ActivityPartnerToursSection } from '@/components/ActivityPartnerToursSection'
 
 // 문의형 5개 카테고리 타일은 비공개 (2026-11-04, 파트너 공시가 투어 섹션으로 대체). 다시 열려면 true.
@@ -335,6 +336,8 @@ export function ActivitiesLandingPage({ locale = 'ko' }: ActivitiesLandingPagePr
           </Link>
         </div>
 
+        <ActivityMiniBanners locale={locale} />
+
         {/* 5 Activity Category Tiles (프로그램·요금: 문의 + 액티비티 문의하기) */}
         {SHOW_CATEGORY_TILES && (
         <section className="activitiesTilesSection">
@@ -371,7 +374,9 @@ export function ActivitiesLandingPage({ locale = 'ko' }: ActivitiesLandingPagePr
         </section>
         )}
 
-        <ActivityYachtSection locale={locale} />
+        <div id="yacht-tours">
+          <ActivityYachtSection locale={locale} />
+        </div>
         <ActivityPartnerToursSection locale={locale} />
 
         {/* Information & Partnership Callout */}
