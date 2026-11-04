@@ -548,7 +548,7 @@ export const FOOD_KNOWLEDGE_ENTRIES: Record<string, FoodGuideSectionData> = {
       ],
       list: [
         'Peak Hours: Sunset and showtimes often see higher customer volumes; reservations are recommended where available.',
-        'Delivery: Order via GrabFood, WhatsApp, or Zalo directly to your hotel lobby.',
+        'Delivery: Order via GrabFood or WhatsApp directly to your hotel lobby.',
         'Payment: Cash (VND), international credit cards (Visa/Mastercard), and VietQR payments are widely accepted.',
       ],
     },

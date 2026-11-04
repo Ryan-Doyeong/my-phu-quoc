@@ -42,7 +42,7 @@ const COPY: Record<string, ItineraryCopy> = {
       '주요 공연 2개 일정에 자동 반영',
       '항공편에 맞춘 첫날·마지막 날 일정',
       '푸꾸옥 중부·북부 이동 시간 안내',
-      'WhatsApp·Zalo로 바로 견적 문의',
+      'WhatsApp으로 바로 견적 문의',
     ],
     policyTitle: '일정 안내 원칙',
     policyText:
@@ -58,7 +58,7 @@ const COPY: Record<string, ItineraryCopy> = {
       'Two key shows added to your plan',
       'First and last days planned around your flights',
       'Travel time guidance for Central & North Phu Quoc',
-      'Request quotes via WhatsApp · Zalo',
+      'Request quotes via WhatsApp',
     ],
     policyTitle: 'How We Plan Your Trip',
     policyText:
@@ -74,7 +74,7 @@ const COPY: Record<string, ItineraryCopy> = {
       '自动安排两场主要演出',
       '根据航班时间安排首日和最后一天的行程',
       '提供前往富国岛中部和北部的交通时间建议',
-      '通过 WhatsApp · Zalo 咨询报价',
+      '通过 WhatsApp 咨询报价',
     ],
     policyTitle: '行程规划说明',
     policyText:
@@ -90,7 +90,7 @@ const COPY: Record<string, ItineraryCopy> = {
       '主なショー2公演を自動で組み込み',
       'フライト時間に合わせて初日・最終日を調整',
       'フーコック島中部・北部への移動時間もご案内',
-      'WhatsApp・Zaloでお見積もりを依頼',
+      'WhatsAppでお見積もりを依頼',
     ],
     policyTitle: '旅行プラン作成の方針',
     policyText:
@@ -106,7 +106,7 @@ const COPY: Record<string, ItineraryCopy> = {
       'Два основных шоу автоматически включены в план',
       'Первый и последний дни с учётом времени рейсов',
       'Рекомендации по времени в пути до центра и севера Фукуока',
-      'Запрос стоимости через WhatsApp · Zalo',
+      'Запрос стоимости через WhatsApp',
     ],
     policyTitle: 'Принципы планирования маршрута',
     policyText:
@@ -122,7 +122,7 @@ const COPY: Record<string, ItineraryCopy> = {
       'दो प्रमुख शो अपने आप यात्रा कार्यक्रम में शामिल',
       'फ़्लाइट के समय के अनुसार पहले और आख़िरी दिन की योजना',
       'मध्य और उत्तरी फु क्वोक तक पहुँचने के समय की जानकारी',
-      'WhatsApp · Zalo पर कीमत की जानकारी माँगें',
+      'WhatsApp पर कीमत की जानकारी माँगें',
     ],
     policyTitle: 'यात्रा योजना के दिशानिर्देश',
     policyText:
@@ -138,7 +138,7 @@ const COPY: Record<string, ItineraryCopy> = {
       'Tự động sắp xếp 2 chương trình biểu diễn chính',
       'Sắp xếp ngày đầu và ngày cuối theo giờ bay',
       'Gợi ý thời gian di chuyển đến Trung và Bắc Phú Quốc',
-      'Yêu cầu báo giá qua WhatsApp · Zalo',
+      'Yêu cầu báo giá qua WhatsApp',
     ],
     policyTitle: 'Nguyên tắc lên lịch trình',
     policyText:

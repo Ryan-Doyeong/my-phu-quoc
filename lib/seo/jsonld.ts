@@ -118,7 +118,6 @@ export function serviceJsonLd(opts: {
     areaServed: 'Sunset Town, Phu Quoc',
     availableChannel: [
       { '@type': 'ServiceChannel', name: 'WhatsApp', serviceUrl: CONTACT_CONFIG.whatsappUrl },
-      { '@type': 'ServiceChannel', name: 'Zalo', serviceUrl: CONTACT_CONFIG.zaloUrl },
     ],
   })
 }

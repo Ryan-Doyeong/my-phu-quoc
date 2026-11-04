@@ -28,7 +28,6 @@ interface YachtUiCopy {
   cancelTitle: string
   childTitle: string
   wa: string
-  za: string
   credit: string
   notice: string
 }
@@ -47,7 +46,6 @@ const UI: Record<string, YachtUiCopy> = {
     cancelTitle: '취소·환불',
     childTitle: '아동 요금',
     wa: 'WhatsApp 문의',
-    za: 'Zalo 문의',
     credit: '사진 출처: Marmoris Yachting',
     notice: '해상 관광은 날씨와 바다 상태, 당일 운영 상황 등 여러 요인의 영향을 받습니다. 아래 일정과 시간은 일반적인 안내 기준이며, 실제 운영 시 변경될 수 있습니다.',
   },
@@ -64,7 +62,6 @@ const UI: Record<string, YachtUiCopy> = {
     cancelTitle: 'Cancellation & Refunds',
     childTitle: "Children's Rates",
     wa: 'Enquire via WhatsApp',
-    za: 'Enquire via Zalo',
     credit: 'Photos: Marmoris Yachting',
     notice: 'Yacht tours are subject to weather, sea conditions, and other circumstances on the day. The schedules and times below are general guidelines and may change depending on actual operating conditions.',
   },
@@ -81,7 +78,6 @@ const UI: Record<string, YachtUiCopy> = {
     cancelTitle: '取消与退款',
     childTitle: '儿童票价',
     wa: '通过 WhatsApp 咨询',
-    za: '通过 Zalo 咨询',
     credit: '图片来源：Marmoris Yachting',
     notice: '游艇观光活动受天气、海况及当天实际运营情况等多种因素影响。以下行程和时间仅供参考，实际安排可能有所调整。',
   },
@@ -98,7 +94,6 @@ const UI: Record<string, YachtUiCopy> = {
     cancelTitle: 'キャンセル・返金',
     childTitle: '子ども料金',
     wa: 'WhatsAppで問い合わせる',
-    za: 'Zaloで問い合わせる',
     credit: '写真提供：Marmoris Yachting',
     notice: '海上観光は、天候や海の状況、当日の運営状況などによって影響を受けます。以下のスケジュールと時間は目安であり、実際の運航状況により変更される場合があります。',
   },
@@ -115,7 +110,6 @@ const UI: Record<string, YachtUiCopy> = {
     cancelTitle: 'Отмена и возврат средств',
     childTitle: 'Тарифы для детей',
     wa: 'Написать в WhatsApp',
-    za: 'Написать в Zalo',
     credit: 'Фото: Marmoris Yachting',
     notice: 'Морские экскурсии зависят от погоды, состояния моря и других обстоятельств в день поездки. Указанные ниже время и расписание являются ориентировочными и могут меняться в зависимости от фактических условий проведения тура.',
   },
@@ -132,7 +126,6 @@ const UI: Record<string, YachtUiCopy> = {
     cancelTitle: 'रद्दीकरण और रिफ़ंड',
     childTitle: 'बच्चों के लिए शुल्क',
     wa: 'WhatsApp पर पूछताछ करें',
-    za: 'Zalo पर पूछताछ करें',
     credit: 'फ़ोटो स्रोत: Marmoris Yachting',
     notice: 'यॉट टूर मौसम, समुद्र की स्थिति और यात्रा के दिन की अन्य परिस्थितियों पर निर्भर करते हैं। नीचे दिया गया कार्यक्रम और समय केवल सामान्य मार्गदर्शन के लिए है। वास्तविक संचालन की परिस्थितियों के अनुसार इनमें बदलाव हो सकता है।',
   },
@@ -149,7 +142,6 @@ const UI: Record<string, YachtUiCopy> = {
     cancelTitle: 'Hủy và hoàn tiền',
     childTitle: 'Giá vé trẻ em',
     wa: 'Liên hệ qua WhatsApp',
-    za: 'Liên hệ qua Zalo',
     credit: 'Nguồn ảnh: Marmoris Yachting',
     notice: 'Hoạt động tham quan trên biển phụ thuộc vào thời tiết, điều kiện biển và các yếu tố phát sinh trong ngày. Lịch trình và thời gian dưới đây chỉ mang tính tham khảo và có thể thay đổi tùy theo điều kiện vận hành thực tế.',
   },

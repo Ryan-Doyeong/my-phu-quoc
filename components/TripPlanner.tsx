@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { CONTACT_CONFIG } from '@/lib/contactConfig'
-import { buildWhatsAppLink, buildZaloLink } from '@/lib/contactLinks'
+import { buildWhatsAppLink } from '@/lib/contactLinks'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { PRODUCTS, REGION_LABEL, TIER_DESC, TIER_LABEL } from '@/lib/planner/catalog'
 import { BAND_LABEL, BAND_RANGE, generatePlan } from '@/lib/planner/generate'
@@ -76,9 +76,8 @@ const UI = {
   requestPh: { ko: '예) 아이 카시트 필요, 호텔 이름, 항공편명 등', en: 'e.g. child seat, hotel name, flight number' },
   name: { ko: '이름 (선택)', en: 'Name (optional)' },
   sendWa: { ko: 'WhatsApp으로 보내기', en: 'Send via WhatsApp' },
-  sendZalo: { ko: 'Zalo로 문의 (문구 복사 후 열기)', en: 'Ask on Zalo (copies text)' },
   copy: { ko: '문의 문구 복사', en: 'Copy message' },
-  copied: { ko: '복사됐어요. Zalo 대화창에 붙여 넣어 주세요.', en: 'Copied — paste it into Zalo.' },
+  copied: { ko: '복사됐어요. WhatsApp 대화창에 붙여 넣어 주세요.', en: 'Copied — paste it into WhatsApp.' },
   copiedPlain: { ko: '복사됐어요.', en: 'Copied.' },
   remove: { ko: '빼기', en: 'Remove' },
   close: { ko: '닫기', en: 'Close' },
@@ -396,12 +395,6 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
     window.open(buildWhatsAppLink(buildMessage()), '_blank', 'noopener,noreferrer')
   }
 
-  const sendZalo = async () => {
-    const ok = await copyText(buildMessage())
-    setToast(ok ? UI.copied[lang] : UI.copiedPlain[lang])
-    window.open(buildZaloLink(), '_blank', 'noopener,noreferrer')
-  }
-
   const copyOnly = async () => {
     const ok = await copyText(buildMessage())
     if (ok) setToast(UI.copiedPlain[lang])
@@ -440,7 +433,7 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
           <span className="tpStepNum">3</span>
           <span className="tpStepText">
             <strong>{lang === 'ko' ? `Step 3. 예약·견적 문의 (${cart.length})` : `Step 3. Book & Inquire (${cart.length})`}</strong>
-            <small>{lang === 'ko' ? 'WhatsApp · Zalo · 일정 복사' : 'WhatsApp · Zalo · Copy Plan'}</small>
+            <small>{lang === 'ko' ? 'WhatsApp · 일정 복사' : 'WhatsApp · Copy Plan'}</small>
           </span>
         </button>
       </nav>
@@ -782,7 +775,7 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
 
           <div className="tpBottomContact">
             <p>
-              {UI.phoneLine[lang]} <a href={`tel:${CONTACT_CONFIG.phoneNumber}`}>{CONTACT_CONFIG.phoneFormatted}</a> · WhatsApp · Zalo
+              {UI.phoneLine[lang]} <a href={`tel:${CONTACT_CONFIG.phoneNumber}`}>{CONTACT_CONFIG.phoneFormatted}</a> · WhatsApp
             </p>
             <button type="button" className="tpGhostBtn" onClick={() => setSheetOpen(true)}>
               {UI.generalAsk[lang]}
@@ -866,9 +859,6 @@ export function TripPlanner({ locale = 'ko' }: { locale?: Locale }) {
             <div className="tpSheetActions">
               <button type="button" className="tpSend wa" data-cta="whatsapp" data-cta-source="trip-planner" onClick={sendWhatsApp}>
                 {UI.sendWa[lang]}
-              </button>
-              <button type="button" className="tpSend zalo" data-cta="zalo" data-cta-source="trip-planner" onClick={sendZalo}>
-                {UI.sendZalo[lang]}
               </button>
               <button type="button" className="tpGhostBtn" onClick={copyOnly}>
                 {UI.copy[lang]}
