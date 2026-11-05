@@ -1228,5 +1228,161 @@
   },
   "vodka, Kahlúa, milk": {
     "vi": "Vodka, Kahlúa, sữa."
+  },
+  "rum, gin, vodka, tequila, triple sec, Coke": {
+    "vi": "Rum, gin, vodka, tequila, triple sec, Coke."
+  },
+  "Bacardi rum, Malibu, pineapple, coconut": {
+    "vi": "Rum Bacardi, Malibu, dứa, dừa."
+  },
+  "Jim Beam, lime, Angostura, egg white": {
+    "vi": "Jim Beam, chanh, Angostura, lòng trắng trứng."
+  },
+  "tequila, orange, grenadine": {
+    "vi": "Tequila, cam, grenadine."
+  },
+  "Bacardi rum, lime, sugar": {
+    "vi": "Rum Bacardi, chanh, đường."
+  },
+  "Gordon's gin, Martini Dry extra": {
+    "vi": "Gin Gordon's, Martini Dry Extra."
+  },
+  "Tequila, triple sec, lime, salt": {
+    "vi": "Tequila, triple sec, chanh, muối."
+  },
+  "Crispy baguette filled with tender beef brisket, herbs and savory pho reduction sauce": {
+    "vi": "Baguette giòn kẹp nạm bò mềm, rau thơm và sốt phở cô đặc đậm vị."
+  },
+  "Southern Vietnamese fish noodle soup or pork wonton noodles with charsiu": {
+    "vi": "Bún cá miền Nam hoặc mì hoành thánh thịt heo với xá xíu."
+  },
+  "Spicy Hue noodle soup with slow-cooked premium oxtail and beef shank": {
+    "vi": "Bún bò Huế cay với đuôi bò và bắp bò hầm mềm."
+  },
+  "Luxury beef pho served with rich marrow bone and tender oxtail": {
+    "vi": "Phở bò đặc biệt với xương tủy béo và đuôi bò mềm."
+  },
+  "Thick tapioca noodle soup featuring whole crispy deep-fried soft shell crab": {
+    "vi": "Bánh canh bột năng sánh với cua lột nguyên con chiên giòn."
+  },
+  "250g Australian beef fillet seared tableside on hot volcanic lava stone with herb butter": {
+    "vi": "Phi lê bò Úc 250g áp chảo tại bàn trên đá núi lửa nóng, ăn cùng bơ rau thơm."
+  },
+  "Pan-seared Norwegian salmon with asparagus, mashed potato and citrus glaze": {
+    "vi": "Cá hồi Na Uy áp chảo cùng măng tây, khoai tây nghiền và sốt cam chanh."
+  },
+  "Creamy pasta tossed with chicken breast, wild mushrooms and parmesan": {
+    "vi": "Mì Ý sốt kem với ức gà, nấm rừng và parmesan."
+  },
+  "Velvety egg cream foam over rich Robusta & Arabica drip coffee": {
+    "vi": "Lớp kem trứng mềm mịn phủ trên cà phê phin Robusta và Arabica đậm vị."
+  },
+  "Ice-blended rich coconut cream poured with dark espresso": {
+    "vi": "Kem dừa béo xay với espresso đen rót lên trên."
+  },
+  "Artisan fruit tea infusion with fresh tropical slices": {
+    "vi": "Trà trái cây thủ công với lát trái cây nhiệt đới tươi."
+  },
+  "Thick tapioca noodles in savory rich crab broth topped with peeled flower crab meat": {
+    "vi": "Bánh canh bột năng với nước dùng cua đậm đà, phủ thịt ghẹ bóc sẵn."
+  },
+  "Premium crab noodle soup featuring a whole fresh local flower crab and quail eggs": {
+    "vi": "Bánh canh ghẹ với một con ghẹ địa phương tươi nguyên và trứng cút."
+  },
+  "Tapioca noodles with fresh local prawns and tender squid": {
+    "vi": "Bánh canh bột năng với tôm và mực tươi địa phương."
+  },
+  "Traditional fried fish cakes served with dipping chili sauce": {
+    "vi": "Chả cá chiên truyền thống ăn với tương ớt."
+  },
+  "White rum, fresh mint, lime, and tart Phu Quoc passion fruit topped with soda": {
+    "vi": "Rum trắng, bạc hà tươi, chanh và chanh dây Phú Quốc chua nhẹ, thêm soda."
+  },
+  "Whisky with ginger ale and crushed local black pepper for an aromatic kick": {
+    "vi": "Whisky pha ginger ale và tiêu đen địa phương giã dập thơm nồng."
+  },
+  "Crunchy golden fried chicken tossed in sweet garlic chili fish sauce": {
+    "vi": "Gà chiên vàng giòn phủ nước mắm tỏi ớt ngọt."
+  },
+  "Clams cooked in Thai style, steamed with lemongrass or Madam Khanh sauce": {
+    "vi": "Nghêu chế biến kiểu Thái, hấp sả hoặc sốt Madam Khanh."
+  },
+  "Razor clams fried with crispy garlic or stir-fried with water spinach": {
+    "vi": "Ốc móng tay chiên tỏi giòn hoặc xào rau muống."
+  },
+  "Seafood fried rice with prawns, squid and vegetables": {
+    "vi": "Cơm chiên hải sản với tôm, mực và rau củ."
+  },
+  "Stir-fried morning glory with garlic": {
+    "vi": "Rau muống xào tỏi."
+  },
+  "Live Grouper steamed HK style or grilled with chili salt": {
+    "vi": "Cá mú sống hấp kiểu Hồng Kông hoặc nướng muối ớt."
+  },
+  "Grilled scallops and oysters with scallion oil and peanuts": {
+    "vi": "Sò điệp và hàu nướng mỡ hành, đậu phộng."
+  },
+  "Sweet snails stir-fried with garlic butter or salted egg sauce": {
+    "vi": "Ốc hương xào bơ tỏi hoặc sốt trứng muối."
+  },
+  "Live Abalone grilled with cheese or XO sauce": {
+    "vi": "Bào ngư sống nướng phô mai hoặc sốt XO."
+  },
+  "Tiered stand with Italian savory bites, handmade cannoli, pastries, and fine teas": {
+    "vi": "Khay nhiều tầng gồm món mặn kiểu Ý, cannoli làm thủ công, bánh ngọt và trà chọn lọc."
+  },
+  "Crisp pastry shell filled with sweetened fresh ricotta and pistachios": {
+    "vi": "Vỏ bánh giòn nhồi ricotta tươi đánh ngọt và hạt dẻ cười."
+  },
+  "Slow-cooked smoked pork ribs coated with homemade BBQ glaze, served with fries": {
+    "vi": "Sườn heo hun khói nấu chậm phủ sốt BBQ nhà làm, dùng với khoai tây chiên."
+  },
+  "Full rack slow-cooked pork ribs with signature BBQ sauce and coleslaw": {
+    "vi": "Nguyên dẻ sườn heo nấu chậm với sốt BBQ đặc trưng và salad bắp cải."
+  },
+  "Massive whole beef short rib smoked low and slow for 12 hours": {
+    "vi": "Nguyên miếng sườn bò lớn hun khói chậm trong 12 giờ."
+  },
+  "100% Angus beef patty, cheddar, bacon, lettuce, tomato and crispy french fries": {
+    "vi": "Thịt bò Angus xay 100%, cheddar, thịt xông khói, xà lách, cà chua và khoai tây chiên giòn."
+  },
+  "Deep-fried fresh squid rings with homemade tartar dipping sauce": {
+    "vi": "Mực tươi cắt khoanh chiên giòn với sốt tartar nhà làm."
+  },
+  "Golden melted cheese sticks and beer-battered onion rings with marinara dip": {
+    "vi": "Phô mai que tan chảy chiên vàng và hành tây vòng tẩm bột bia, ăn với sốt marinara."
+  },
+  "Unlimited draft pours of premium craft beers (iBiero Pilsner, IPA, Wheat) for 2 hours": {
+    "vi": "Uống bia thủ công tươi không giới hạn (iBiero Pilsner, IPA, Wheat) trong 2 giờ."
+  },
+  "Fresh draft craft beer by glass": {
+    "vi": "Bia thủ công tươi theo ly."
+  },
+  "Rich coconut smoothie with espresso float and ocean view presentation": {
+    "vi": "Sinh tố dừa đậm vị với espresso phủ trên, trình bày cùng tầm nhìn ra biển."
+  },
+  "100% fresh squeezed tropical fruit juice": {
+    "vi": "Nước ép trái cây nhiệt đới tươi nguyên chất 100%."
+  },
+  "Crisp cold draft beer served in chilled glass": {
+    "vi": "Bia tươi lạnh rót vào ly ướp lạnh."
+  },
+  "Cleaned and parboiled beef small intestine grilled to crispy exterior and rich, savory nutty center.": {
+    "vi": "Ruột non bò làm sạch, chần sơ và nướng giòn bên ngoài, béo bùi bên trong."
+  },
+  "Beef large intestine boasting luscious richness, melt-in-your-mouth tenderness, and charred edges.": {
+    "vi": "Ruột già bò béo đậm, mềm và có lớp ngoài nướng xém."
+  },
+  "Spicy skillet stew combining tender octopus, beef intestines, and plump shrimp, spooned over hot rice.": {
+    "vi": "Lẩu cay trên chảo gồm bạch tuộc mềm, lòng bò và tôm lớn, ăn kèm cơm nóng."
+  },
+  "Phu Quoc signature stirred noodles with freshly pressed rice vermicelli, quick-cooked shrimp paste, and DIY calamansi dipping emulsion.": {
+    "vi": "Bún quậy đặc trưng Phú Quốc với bún gạo tươi ép, chả tôm chín nhanh và nước chấm tắc tự pha."
+  },
+  "Smoky charcoal-grilled pork patties and belly in warm tangy fish sauce broth, paired with rice vermicelli and leafy herbs.": {
+    "vi": "Chả thịt heo và ba chỉ nướng than thơm khói, ăn với bún, rau sống và nước mắm chua ngọt ấm."
+  },
+  "Crispy turmeric rice crepe filled with shrimp, pork, and bean sprouts, wrapped in leafy greens and dipped in fish sauce.": {
+    "vi": "Bánh xèo nghệ giòn nhân tôm, thịt heo và giá, cuốn rau xanh chấm nước mắm."
   }
 }
