@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { CONTACT_CONFIG } from '@/lib/contactConfig'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { BOOKING_SERVICE_COPY, buildServiceWhatsappUrl } from '@/lib/i18n/bookingServiceCopy'
+import { ServiceIcon, type ServiceIconKey } from '@/components/ServiceIcons'
 
 export function BookingCommonIntroCallout({ locale = 'ko' }: { locale?: Locale }) {
   const copy = BOOKING_SERVICE_COPY[locale] ?? BOOKING_SERVICE_COPY.en
@@ -54,6 +55,9 @@ export function BookingServiceOverviewSection({ locale = 'ko' }: { locale?: Loca
       <div className="mpqServiceOverviewGrid">
         {cards.map((card) => (
           <Link key={card.key} href={card.href} className="mpqServiceOverviewCard">
+            <span className="mpqServiceIconWrap">
+              <ServiceIcon name={card.key as ServiceIconKey} />
+            </span>
             <span className="mpqServiceCardTag">{card.data.tag}</span>
             <h3 className="mpqServiceCardTitle">{card.data.title}</h3>
             <span className="mpqServiceBtnLink">{card.data.detailLabel} →</span>

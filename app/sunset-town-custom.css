@@ -4433,6 +4433,22 @@ a.mpqServiceOverviewCard .mpqServiceCardTag {
   align-self: flex-start;
 }
 
+.mpqServiceIconWrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: #e6f4f1;
+  color: #0b7a8a;
+}
+
+.mpqServiceIcon {
+  width: 26px;
+  height: 26px;
+}
+
 a.mpqServiceOverviewCard .mpqServiceCardTitle {
   font-size: 0.98rem;
   margin: 0;
@@ -4465,6 +4481,17 @@ a.mpqServiceOverviewCard .mpqServiceBtnLink {
   a.mpqServiceOverviewCard {
     padding: 12px;
     border-radius: 12px;
+  }
+
+  .mpqServiceIconWrap {
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+  }
+
+  .mpqServiceIcon {
+    width: 26px;
+    height: 26px;
   }
 
   a.mpqServiceOverviewCard .mpqServiceCardTag {
