@@ -27,10 +27,10 @@ export const vi = {
     osmLink: 'OpenStreetMap contributors',
   },
   home: {
-    heroTopline: 'THỊ TRẤN HOÀNG HÔN · CẦU HÔN · PHÁO HOA',
+    heroTopline: 'Thị trấn Hoàng Hôn · Cầu Hôn · Lễ hội Pháo hoa',
     heroTitle: 'My\nPhu Quoc',
-    heroSubtitle: 'Những con phố lãng mạn ở Thị trấn Hoàng Hôn, Cầu Hôn và màn pháo hoa rực sáng bầu trời đêm.',
-    heroDescription: 'Từ những con phố Primavera mang phong cách Địa Trung Hải đến Cầu Hôn, màn trình diễn pháo hoa buổi tối (vui lòng kiểm tra lịch theo thông báo chính thức) và các quán ăn địa phương. Khám phá những điểm tham quan nổi bật cùng thông tin du lịch hữu ích tại Thị trấn Hoàng Hôn.',
+    heroSubtitle: 'Cẩm nang du lịch Nam Phú Quốc: Cầu Hôn, pháo hoa đêm rực rỡ cùng thông tin nhà hàng, quán cà phê và khách sạn đã xác thực.',
+    heroDescription: 'Từ những con hẻm phong cách Địa Trung Hải đến Cầu Hôn, trình diễn pháo hoa ban đêm (vui lòng kiểm tra lịch chính thức) và ẩm thực tuyển chọn—xem trọn thông tin cốt lõi về Thị trấn Hoàng Hôn trong tầm mắt.',
     heroPrimaryCta: 'Khám phá ngay',
     heroSecondaryCta: 'Khám phá Bãi Khem',
     heroNote: 'Pháo hoa Thị trấn Hoàng Hôn\n(Xem lịch trình chính thức) ♥',

@@ -27,10 +27,10 @@ export const zh = {
     osmLink: 'OpenStreetMap 贡献者',
   },
   home: {
-    heroTopline: '日落小镇 · 亲吻桥 · 烟花秀',
+    heroTopline: '日落小镇 · 亲吻桥 · 烟花庆典',
     heroTitle: 'My\nPhu Quoc',
-    heroSubtitle: '漫步日落小镇的浪漫街道，欣赏亲吻桥与点亮夜空的烟花表演。',
-    heroDescription: '从充满地中海风情的普里马韦拉街区，到亲吻桥、夜间烟花表演（具体时间请以官方公告为准）和当地美食。带你了解日落小镇的主要景点与实用旅行资讯。',
+    heroSubtitle: '富国岛南部旅行指南：亲吻桥、璀璨夜间烟花秀，以及经核实的美食、咖啡馆与酒店信息。',
+    heroDescription: '从地中海风情街巷到亲吻桥、夜间烟花秀（请务必确认官方日程）与精选餐饮，一站式掌握日落小镇的核心资讯。',
     heroPrimaryCta: '探索日落小镇',
     heroSecondaryCta: '探索凯姆海滩',
     heroNote: '周三至周一 21:00\n烟花秀 (周二休演) ♥',
