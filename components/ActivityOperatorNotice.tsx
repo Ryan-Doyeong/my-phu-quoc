@@ -10,6 +10,10 @@ const COPY: Record<string, { title: string; body: string }> = {
     title: 'Booking notice',
     body: 'My Phu Quoc only helps you arrange bookings. Each tour is operated by the partner company, which is responsible for the actual service, safety, schedule changes, cancellations and refunds.',
   },
+  vi: {
+    title: 'Lưu ý khi đặt tour',
+    body: 'My Phu Quoc chỉ hỗ trợ sắp xếp đặt tour. Đơn vị đối tác trực tiếp tổ chức tour và chịu trách nhiệm về dịch vụ thực tế, an toàn, thay đổi lịch trình, hủy tour và hoàn tiền.',
+  },
 };
 
 export function ActivityOperatorNotice({ locale = 'ko' }: { locale?: Locale }) {

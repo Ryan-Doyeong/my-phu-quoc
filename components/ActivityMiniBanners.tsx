@@ -15,15 +15,17 @@ type BannerKey =
   | 'camping'
   | 'yacht';
 
-const BANNERS: { key: BannerKey; icon: string; ko: string; en: string }[] = [
-  { key: 'yacht', icon: '⛵', ko: '프리미엄 요트', en: 'Premium Yacht' },
-  { key: 'hopping', icon: '🏝️', ko: '호핑·스노클링', en: 'Island Hopping' },
-  { key: 'fishing', icon: '🎣', ko: '낚시', en: 'Fishing' },
-  { key: 'sunset', icon: '🌅', ko: '일몰·야간', en: 'Sunset & Night' },
-  { key: 'diving', icon: '🤿', ko: '다이빙·씨워커', en: 'Diving' },
+const BANNERS: { key: BannerKey; icon: string; ko: string; en: string; vi?: string }[] = [
+  { key: 'yacht', icon: '⛵', ko: '프리미엄 요트', en: 'Premium Yacht', vi: 'Du thuyền cao cấp' },
+  { key: 'hopping', icon: '🏝️', ko: '호핑·스노클링', en: 'Island Hopping', vi: 'Khám phá các đảo' },
+  { key: 'fishing', icon: '🎣', ko: '낚시', en: 'Fishing', vi: 'Câu cá' },
+  { key: 'sunset', icon: '🌅', ko: '일몰·야간', en: 'Sunset & Night', vi: 'Ngắm hoàng hôn & tour đêm' },
+  { key: 'diving', icon: '🤿', ko: '다이빙·씨워커', en: 'Diving', vi: 'Lặn biển' },
 ];
 
 export function ActivityMiniBanners({ locale = 'ko' }: { locale?: Locale }) {
+  const labelOf = (b: (typeof BANNERS)[number]) =>
+    locale === 'ko' ? b.ko : locale === 'vi' ? (b.vi ?? b.en) : b.en;
   const go = (key: BannerKey) => {
     if (key === 'yacht') {
       document.getElementById('yacht-tours')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -34,18 +36,18 @@ export function ActivityMiniBanners({ locale = 'ko' }: { locale?: Locale }) {
   };
 
   return (
-    <nav className={styles.wrap} aria-label={locale === 'ko' ? '액티비티 카테고리' : 'Activity categories'}>
+    <nav className={styles.wrap} aria-label={locale === 'ko' ? '액티비티 카테고리' : locale === 'vi' ? 'Danh mục hoạt động' : 'Activity categories'}>
       {BANNERS.filter((b) => b.key === 'yacht').map((b) => (
         <button key={b.key} type="button" className={styles.bannerWide} onClick={() => go(b.key)}>
           <span className={styles.iconWide} aria-hidden="true">{b.icon}</span>
-          <span className={styles.labelWide}>{locale === 'ko' ? b.ko : b.en}</span>
+          <span className={styles.labelWide}>{labelOf(b)}</span>
         </button>
       ))}
       <div className={styles.grid}>
         {BANNERS.filter((b) => b.key !== 'yacht').map((b) => (
           <button key={b.key} type="button" className={styles.banner} onClick={() => go(b.key)}>
             <span className={styles.icon} aria-hidden="true">{b.icon}</span>
-            <span className={styles.label}>{locale === 'ko' ? b.ko : b.en}</span>
+            <span className={styles.label}>{labelOf(b)}</span>
           </button>
         ))}
       </div>
