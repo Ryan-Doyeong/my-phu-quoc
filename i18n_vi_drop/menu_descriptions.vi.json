@@ -928,5 +928,305 @@
   },
   "Traditional Parisian flaky croissant made with pure French butter": {
     "vi": "Bánh croissant truyền thống Paris nhiều lớp giòn, làm bằng bơ Pháp nguyên chất."
+  },
+  "Flaky pastry filled with rich French dark chocolate batons": {
+    "vi": "Bánh ngọt nhiều lớp giòn với nhân sô cô la đen Pháp đậm vị."
+  },
+  "Eric Kayser signature sourdough baguette with crisp crust": {
+    "vi": "Baguette men chua đặc trưng của Eric Kayser, vỏ giòn."
+  },
+  "Tangy fresh lemon curd topped with caramelized fluffy meringue": {
+    "vi": "Kem chanh tươi chua dịu phủ meringue bông xốp nướng caramel."
+  },
+  "Rich espresso with creamy steamed milk and fine foam": {
+    "vi": "Espresso đậm với sữa đánh nóng mịn và lớp bọt mỏng."
+  },
+  "Double shot espresso balanced with pure water": {
+    "vi": "Espresso đôi pha cân bằng với nước lọc."
+  },
+  "Crispy baguette sandwich stuffed with savory meat, rich pâté, pickled daikon-carrot, and fresh cilantro.": {
+    "vi": "Bánh baguette giòn kẹp thịt đậm đà, pa tê, đồ chua củ cải trắng và cà rốt, ngò rí tươi."
+  },
+  "Crisp golden Bavarian lager brewed in accordance with German purity law": {
+    "vi": "Bia lager Bavaria màu vàng giòn vị, ủ theo luật tinh khiết bia Đức."
+  },
+  "Unfiltered Bavarian wheat beer with banana and clove notes": {
+    "vi": "Bia lúa mì Bavaria không lọc, có hương chuối và đinh hương."
+  },
+  "Roasted malt dark lager with caramel and chocolate undertones": {
+    "vi": "Bia lager đen từ mạch nha rang, thoảng vị caramel và sô cô la."
+  },
+  "Crispy roasted pork knuckle served with sauerkraut and beer mustard gravy": {
+    "vi": "Giò heo quay giòn với bắp cải muối chua và nước sốt mù tạt bia."
+  },
+  "Grilled artisanal bratwurst, bockwurst, and cheese kransky with mustard": {
+    "vi": "Xúc xích bratwurst, bockwurst và kransky phô mai thủ công nướng, ăn với mù tạt."
+  },
+  "International buffet with free-flow Sun KraftBeer and VIP show seats": {
+    "vi": "Buffet quốc tế với bia Sun KraftBeer rót không giới hạn và ghế VIP xem show."
+  },
+  "Traditional Vietnamese dark roast dripped through phin filter served with condensed milk over ice": {
+    "vi": "Cà phê rang đậm kiểu Việt pha phin, dùng với sữa đặc và đá."
+  },
+  "Rich Vietnamese black coffee with ice": {
+    "vi": "Cà phê đen Việt đậm vị, dùng với đá."
+  },
+  "Mild coffee layered with fresh milk and condensed milk": {
+    "vi": "Cà phê vị nhẹ với sữa tươi và sữa đặc."
+  },
+  "Oolong tea with sweet lotus seeds and cheese cream topping": {
+    "vi": "Trà ô long với hạt sen ngọt và lớp kem phô mai."
+  },
+  "Refreshing black tea with peach slices and chewy jelly": {
+    "vi": "Hồng trà thanh mát với lát đào và thạch dai."
+  },
+  "Matcha green tea blended ice with grass jelly and whipped cream": {
+    "vi": "Matcha trà xanh đá xay với sương sáo và kem tươi."
+  },
+  "Phin coffee blended with caramel and rich whipped cream": {
+    "vi": "Cà phê phin đá xay cùng caramel và kem tươi."
+  },
+  "Crisp Vietnamese baguette with grilled savory pork and pickles": {
+    "vi": "Baguette Việt giòn với thịt heo nướng và đồ chua."
+  },
+  "Crispy thin-sliced pork belly stir-fried with fragrant fermented shrimp paste and lemongrass": {
+    "vi": "Ba chỉ heo thái mỏng xào giòn với mắm tôm và sả thơm."
+  },
+  "Traditional claypot braised fish in savory caramelized pepper sauce": {
+    "vi": "Cá kho niêu truyền thống với nước màu và sốt tiêu đậm vị."
+  },
+  "Tender sliced beef wok-tossed with fresh seasonal greens and garlic": {
+    "vi": "Bò thái lát mềm xào lửa lớn với rau theo mùa và tỏi."
+  },
+  "Boiled pork belly served with pickled Thai eggplants and fermented shrimp dip": {
+    "vi": "Ba chỉ heo luộc ăn với cà pháo muối và mắm tôm."
+  },
+  "Single portion claypot rice with golden crispy bottom layer": {
+    "vi": "Cơm niêu một phần với lớp cháy vàng giòn dưới đáy."
+  },
+  "Refreshing soup with fresh field crab meat and tender greens": {
+    "vi": "Canh thanh mát nấu thịt cua đồng và rau xanh mềm."
+  },
+  "Southern style tamarind sour soup with fresh river fish and pineapple": {
+    "vi": "Canh chua me miền Nam với cá sông tươi và dứa."
+  },
+  "Showcase theatrical cocktail with tropical spirits and flambéed garnish": {
+    "vi": "Cocktail trình diễn với rượu mạnh nhiệt đới và trang trí đốt lửa."
+  },
+  "Premium cucumber infused Scottish gin with tonic water": {
+    "vi": "Gin Scotland ngâm dưa leo, pha cùng tonic."
+  },
+  "Silky milk snowflake shaved ice topped with sweet ripe Vietnamese mango cubes and ice cream": {
+    "vi": "Bingsu sữa đá bào mịn với xoài Việt chín ngọt và kem."
+  },
+  "Pure ripe mango blended thick and cold": {
+    "vi": "Xoài chín nguyên chất xay đặc và lạnh."
+  },
+  "Creamy blended coconut milk topped with rich Vietnamese espresso": {
+    "vi": "Sữa dừa xay béo mịn với espresso đậm rót lên trên."
+  },
+  "Crisp cold iced Americano with premium roast": {
+    "vi": "Americano đá mát lạnh làm từ hạt cà phê rang chọn lọc."
+  },
+  "Grilled eggplant, cherry tomatoes, cucumber, red onion, bell pepper, olive oil, lemon juice, dried oregano, salt and pepper": {
+    "vi": "Cà tím nướng, cà chua bi, dưa leo, hành tím, ớt chuông, dầu ô liu, nước chanh, oregano khô, muối và tiêu."
+  },
+  "Fresh mozzarella, tomatoes, fresh basil, olive oil, balsamic vinegar, salt, pepper": {
+    "vi": "Mozzarella tươi, cà chua, húng quế tươi, dầu ô liu, giấm balsamic, muối, tiêu."
+  },
+  "Baby octopus, olive oil, lemon juice, garlic, fresh salad, cherry tomatoes, red onion, salt, pepper": {
+    "vi": "Bạch tuộc con, dầu ô liu, nước chanh, tỏi, salad tươi, cà chua bi, hành tím, muối, tiêu."
+  },
+  "burrata cheese, prosciutto crudo, cherry tomatoes, arugula, olive oil, balsamic glaze, salt, black pepper": {
+    "vi": "Burrata, jambon sống prosciutto crudo, cà chua bi, rau rocket, dầu ô liu, sốt balsamic, muối, tiêu đen."
+  },
+  "fresh scallops, cherry tomatoes, lemon juice, chili olive oil, sea salt, black pepper": {
+    "vi": "Sò điệp tươi, cà chua bi, nước chanh, dầu ô liu ớt, muối biển, tiêu đen."
+  },
+  "Bread, tomatoes, prosciutto crudo, smoked salmon, fresh basil, cheese, garlic, olive oil, balsamic vinegar, salt, pepper, parmesan cheese": {
+    "vi": "Bánh mì, cà chua, prosciutto crudo, cá hồi xông khói, húng quế, phô mai, tỏi, dầu ô liu, giấm balsamic, muối, tiêu, parmesan."
+  },
+  "Fish, shellfish, seafood, olive oil, garlic, onion, tomatoes, white wine, fresh parsley, salt, pepper, fresh basil": {
+    "vi": "Cá, nghêu sò, hải sản, dầu ô liu, tỏi, hành tây, cà chua, vang trắng, ngò tây, muối, tiêu, húng quế."
+  },
+  "Vegetable broth, tomatoes, carrots, celery, zucchini, beans, potato, onion, garlic, pasta, olive oil, fresh parsley, salt, pepper": {
+    "vi": "Nước dùng rau củ, cà chua, cà rốt, cần tây, bí ngòi, đậu, khoai tây, hành, tỏi, mì Ý, dầu ô liu, ngò tây, muối, tiêu."
+  },
+  "Beef, spinach, onion, garlic, carrots, celery, tomatoes, olive oil, salt, pepper": {
+    "vi": "Thịt bò, cải bó xôi, hành, tỏi, cà rốt, cần tây, cà chua, dầu ô liu, muối, tiêu."
+  },
+  "Tomato sauce, mozzarella cheese, fresh basil, olive oil": {
+    "vi": "Sốt cà chua, mozzarella, húng quế tươi, dầu ô liu."
+  },
+  "Tomato sauce, mozzarella cheese, spicy salami, chili peppers": {
+    "vi": "Sốt cà chua, mozzarella, xúc xích salami cay, ớt."
+  },
+  "Tomato sauce, mozzarella cheese, gorgonzola cheese, cheddar cheese, parmesan cheese": {
+    "vi": "Sốt cà chua, mozzarella, gorgonzola, cheddar, parmesan."
+  },
+  "Tomato sauce, mozzarella cheese, prosciutto, mushrooms": {
+    "vi": "Sốt cà chua, mozzarella, jambon prosciutto, nấm."
+  },
+  "Tomato sauce, mozzarella cheese, shrimp, squid, clams, garlic, olive oil, parsley": {
+    "vi": "Sốt cà chua, mozzarella, tôm, mực, nghêu, tỏi, dầu ô liu, ngò tây."
+  },
+  "Tomato sauce, mozzarella cheese, olive oil, prosciutto crudo, arugula, parmesan cheese": {
+    "vi": "Sốt cà chua, mozzarella, dầu ô liu, prosciutto crudo, rau rocket, parmesan."
+  },
+  "smoked salmon, cream cheese, mozzarella, dill, onion, olive oil, black pepper, lemon zest": {
+    "vi": "Cá hồi xông khói, kem phô mai, mozzarella, thì là, hành tây, dầu ô liu, tiêu đen, vỏ chanh bào."
+  },
+  "Mozzarella cheese, spicy chili sauce, marinated chicken, lemongrass, scallions, cilantro, olive oil": {
+    "vi": "Mozzarella, sốt ớt cay, gà ướp, sả, hành lá, ngò rí, dầu ô liu."
+  },
+  "burrata cheese, basil pesto, parmesan cheese, arugula, mushroom, olive oil, salt, black pepper": {
+    "vi": "Burrata, pesto húng quế, parmesan, rau rocket, nấm, dầu ô liu, muối, tiêu đen."
+  },
+  "arborio rice, shrimp, squid, butter, garlic, onion, white wine, seafood broth, parsley, parmesan cheese, salt, black pepper": {
+    "vi": "Gạo arborio, tôm, mực, bơ, tỏi, hành, vang trắng, nước dùng hải sản, ngò tây, parmesan, muối, tiêu đen."
+  },
+  "arborio rice, butter, onion, white wine, vegetable broth, parmesan cheese, salt, black pepper": {
+    "vi": "Gạo arborio, bơ, hành, vang trắng, nước dùng rau củ, parmesan, muối, tiêu đen."
+  },
+  "arborio rice, mushrooms, butter, onion, garlic, white wine, vegetable broth, parmesan cheese, parsley, salt, black pepper": {
+    "vi": "Gạo arborio, nấm, bơ, hành, tỏi, vang trắng, nước dùng rau củ, parmesan, ngò tây, muối, tiêu đen."
+  },
+  "tomato sauce, garlic, onion, olive oil, basil, oregano, salt, black pepper": {
+    "vi": "Sốt cà chua, tỏi, hành, dầu ô liu, húng quế, oregano, muối, tiêu đen."
+  },
+  "garlic, olive oil, chili flakes, parsley, salt, black pepper": {
+    "vi": "Tỏi, dầu ô liu, ớt khô, ngò tây, muối, tiêu đen."
+  },
+  "Bacon, eggs, parmesan cheese, cream, salt, black pepper": {
+    "vi": "Thịt xông khói, trứng, parmesan, kem, muối, tiêu đen."
+  },
+  "Shrimp, zucchini, garlic, olive oil, parsley, salt, black pepper": {
+    "vi": "Tôm, bí ngòi, tỏi, dầu ô liu, ngò tây, muối, tiêu đen."
+  },
+  "Shrimp, mussels/clams, calamari, white wine, parsley, salt, black pepper": {
+    "vi": "Tôm, vẹm/nghêu, mực, vang trắng, ngò tây, muối, tiêu đen."
+  },
+  "Parmesan, gorgonzola, cheddar, scamorza (gouda), butter, salt, black pepper": {
+    "vi": "Parmesan, gorgonzola, cheddar, scamorza (gouda), bơ, muối, tiêu đen."
+  },
+  "Prosciutto, mushrooms, parmesan, olive oil, butter, salt, black pepper": {
+    "vi": "Prosciutto, nấm, parmesan, dầu ô liu, bơ, muối, tiêu đen."
+  },
+  "Minced beef, onion, carrot, celery, parmesan, red wine, salt, black pepper": {
+    "vi": "Bò băm, hành, cà rốt, cần tây, parmesan, vang đỏ, muối, tiêu đen."
+  },
+  "fresh tuna, olive oil, garlic, lemon juice, sea salt, black pepper, herbs, mixed vegetables": {
+    "vi": "Cá ngừ tươi, dầu ô liu, tỏi, nước chanh, muối biển, tiêu đen, rau thơm và rau củ hỗn hợp."
+  },
+  "Tuna fillet, pistachio, breadcrumbs, parmesan, egg, lemon zest, olive oil, salt, black pepper": {
+    "vi": "Phi lê cá ngừ, hạt dẻ cười, vụn bánh mì, parmesan, trứng, vỏ chanh bào, dầu ô liu, muối, tiêu đen."
+  },
+  "Tuna, avocado, red onion, lime juice, olive oil, arugula & cherry tomatoes, fresh herbs": {
+    "vi": "Cá ngừ, bơ, hành tím, nước chanh, dầu ô liu, rau rocket, cà chua bi và rau thơm."
+  },
+  "Ladyfingers, mascarpone cheese, espresso, cocoa powder, whipped cream, liqueur": {
+    "vi": "Bánh ladyfinger, mascarpone, espresso, bột ca cao, kem tươi đánh bông, rượu mùi."
+  },
+  "Whipping cream, mango puree, whipped cream, condensed milk, fresh ripe mango": {
+    "vi": "Kem tươi, xoài nghiền, kem đánh bông, sữa đặc, xoài chín tươi."
+  },
+  "Hazelnut and almond sbrisolona with chocolate ganache and cassis": {
+    "vi": "Bánh sbrisolona hạt phỉ và hạnh nhân với ganache sô cô la và quả lý chua đen."
+  },
+  "Feta cheese, Kalamata olives, olive oil, red wine vinegar, cucumbers, tomatoes, red onion, bell peppers, dried oregano, salt and pepper": {
+    "vi": "Phô mai feta, ô liu Kalamata, dầu ô liu, giấm vang đỏ, dưa leo, cà chua, hành tím, ớt chuông, oregano khô, muối, tiêu."
+  },
+  "Kalamata olives, cherry tomatoes, cucumber, red onion, bell pepper, olive oil, lemon juice, dried oregano, salt and pepper": {
+    "vi": "Ô liu Kalamata, cà chua bi, dưa leo, hành tím, ớt chuông, dầu ô liu, nước chanh, oregano khô, muối, tiêu."
+  },
+  "Chickpeas, tahini, lemon juice, garlic, olive oil, pita bread, salt, pepper, cumin, parsley": {
+    "vi": "Đậu gà, tahini, nước chanh, tỏi, dầu ô liu, bánh pita, muối, tiêu, thì là Ai Cập, ngò tây."
+  },
+  "Eggplant, garlic, olive oil, lemon juice, pita bread, fresh parsley, salt, pepper": {
+    "vi": "Cà tím, tỏi, dầu ô liu, nước chanh, bánh pita, ngò tây, muối, tiêu."
+  },
+  "Pita bread, Greek yogurt, cucumber (grated), garlic (minced), olive oil, lemon juice, fresh dill (chopped), salt, pepper": {
+    "vi": "Bánh pita, sữa chua Hy Lạp, dưa leo bào, tỏi băm, dầu ô liu, nước chanh, thì là tươi, muối, tiêu."
+  },
+  "Ground meat (beef & pork), bread crumbs, pita bread, tomatoes, onion, cucumber, red pepper, garlic, fresh parsley, egg, oregano, salt, pepper": {
+    "vi": "Thịt xay (bò và heo), vụn bánh mì, pita, cà chua, hành, dưa leo, ớt đỏ, tỏi, ngò tây, trứng, oregano, muối, tiêu."
+  },
+  "Zucchini (thin sliced), flour, eggs, bread crumbs, tzatziki, salt, pepper": {
+    "vi": "Bí ngòi thái mỏng, bột mì, trứng, vụn bánh mì, sốt tzatziki, muối, tiêu."
+  },
+  "Mushrooms, cheese, fresh herbs (parsley, dill), garlic (minced), pita bread, breadcrumbs, olive oil, salt, pepper": {
+    "vi": "Nấm, phô mai, rau thơm (ngò tây, thì là), tỏi băm, pita, vụn bánh mì, dầu ô liu, muối, tiêu."
+  },
+  "Marinated meat, French fries, pita bread, tzatziki, tomatoes, onion, cucumber, red pepper": {
+    "vi": "Thịt ướp, khoai tây chiên, pita, tzatziki, cà chua, hành, dưa leo, ớt đỏ."
+  },
+  "Lamb chops with fat, French fries, olive oil, lemon juice, garlic, oregano, salt, pepper, pita bread, tomatoes, onion, cucumber, red pepper": {
+    "vi": "Sườn cừu còn mỡ, khoai tây chiên, dầu ô liu, nước chanh, tỏi, oregano, muối, tiêu, pita, cà chua, hành, dưa leo, ớt đỏ."
+  },
+  "Pork sausages, olive oil, French fries, pita bread, tomatoes, onion, cucumber, red pepper": {
+    "vi": "Xúc xích heo, dầu ô liu, khoai tây chiên, pita, cà chua, hành, dưa leo, ớt đỏ."
+  },
+  "Beef T-bone, olive oil, garlic, lemon juice, oregano, rosemary, asparagus & mushrooms, cherry tomatoes, wedges potato or pita bread": {
+    "vi": "Bò T-bone, dầu ô liu, tỏi, nước chanh, oregano, hương thảo, măng tây, nấm, cà chua bi, khoai tây múi cau hoặc pita."
+  },
+  "Ground meat (pork & beef), garlic (minced), pita bread & fries, mustard sauce, thyme, salt, pepper, tomatoes, onion, cucumber, red pepper": {
+    "vi": "Thịt xay (heo và bò), tỏi băm, pita, khoai tây chiên, sốt mù tạt, cỏ xạ hương, muối, tiêu, cà chua, hành, dưa leo, ớt đỏ."
+  },
+  "Pita bread, mussels, tomatoes (diced), feta cheese, garlic (minced), olive oil, basil, oregano, parsley": {
+    "vi": "Bánh pita, vẹm, cà chua thái hạt lựu, feta, tỏi băm, dầu ô liu, húng quế, oregano, ngò tây."
+  },
+  "Calamari, feta cheese, tomatoes, fresh herbs (parsley, dill), onion (chopped), olive oil, salt, pepper": {
+    "vi": "Mực, feta, cà chua, rau thơm (ngò tây, thì là), hành băm, dầu ô liu, muối, tiêu."
+  },
+  "Pita bread, shrimp, tomatoes (diced), feta cheese, garlic (minced), olive oil, basil, oregano, parsley": {
+    "vi": "Bánh pita, tôm, cà chua thái hạt lựu, feta, tỏi băm, dầu ô liu, húng quế, oregano, ngò tây."
+  },
+  "Swedish sauce: mayonnaise, dill, lemon, honey": {
+    "vi": "Sốt Thụy Điển: mayonnaise, thì là, chanh, mật ong."
+  },
+  "Baklava me sokolata kai maskarpon me siropi kafe": {
+    "vi": "Baklava me sokolata kai maskarpon me siropi kafe."
+  },
+  "peach syrup, orange, lemongrass, kumquat": {
+    "vi": "Si rô đào, cam, sả, tắc."
+  },
+  "lemongrass, ginger, lime, Lipton": {
+    "vi": "Sả, gừng, chanh, trà Lipton."
+  },
+  "celery, green apple, lime, ginger, honey": {
+    "vi": "Cần tây, táo xanh, chanh, gừng, mật ong."
+  },
+  "pineapple, carrot, beetroot, ginger": {
+    "vi": "Dứa, cà rốt, củ dền, gừng."
+  },
+  "mango, pineapple, passionfruit, honey": {
+    "vi": "Xoài, dứa, chanh dây, mật ong."
+  },
+  "orange, carrot, ginger, honey": {
+    "vi": "Cam, cà rốt, gừng, mật ong."
+  },
+  "banana, mango, milk, ginger, cinnamon": {
+    "vi": "Chuối, xoài, sữa, gừng, quế."
+  },
+  "lime, milk, condensed milk": {
+    "vi": "Chanh, sữa, sữa đặc."
+  },
+  "mango, passion fruit, milk": {
+    "vi": "Xoài, chanh dây, sữa."
+  },
+  "banana, chocolate, milk, cocoa powder": {
+    "vi": "Chuối, sô cô la, sữa, bột ca cao."
+  },
+  "Bacardi rum, lime, mint": {
+    "vi": "Rum Bacardi, chanh, bạc hà."
+  },
+  "Gordon's gin, Martini Rosso, Campari": {
+    "vi": "Gin Gordon's, Martini Rosso, Campari."
+  },
+  "Cachaça rum, lime": {
+    "vi": "Rum cachaça, chanh."
+  },
+  "vodka, Kahlúa, milk": {
+    "vi": "Vodka, Kahlúa, sữa."
   }
 }
