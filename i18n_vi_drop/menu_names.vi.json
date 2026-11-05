@@ -1,0 +1,632 @@
+{
+  "Cà phê Phin Sữa Đá / Cốt Dừa": {
+    "vi": "Cà phê Phin Sữa Đá / Cốt Dừa"
+  },
+  "Cà phê Americano / Espresso": {
+    "vi": "Cà phê Americano / Espresso"
+  },
+  "Sinh tố Xoài / Trái cây nhiệt đới": {
+    "vi": "Sinh tố Xoài / Trái cây nhiệt đới"
+  },
+  "Signature Tropical Sunset Cocktail": {
+    "vi": "Cocktail Tropical Sunset đặc trưng"
+  },
+  "Bia Tươi / Bia Thủ Công Craft Beer": {
+    "vi": "Bia Tươi / Bia Thủ Công Craft Beer"
+  },
+  "Bar Bites & Finger Foods": {
+    "vi": "Món nhắm tại quầy bar & đồ ăn cầm tay"
+  },
+  "Traditional Vietnamese Pho / Bun Bo Hue": {
+    "vi": "Phở truyền thống / Bún bò Huế"
+  },
+  "Western Breakfast Combo": {
+    "vi": "Combo bữa sáng kiểu Âu"
+  },
+  "All-day Casual Bistro Mains": {
+    "vi": "Món chính bistro phục vụ cả ngày"
+  },
+  "BBQ Seafood Dinner Buffet": {
+    "vi": "Buffet tối hải sản BBQ"
+  },
+  "Cá thu Nhật nướng muối / sốt Teriyaki (Grilled Saba Mackerel)": {
+    "vi": "Cá thu Nhật nướng muối / sốt Teriyaki"
+  },
+  "Cá trích nướng Shishamo (Grilled Shishamo)": {
+    "vi": "Cá trích nướng Shishamo"
+  },
+  "Cá hồi nướng sốt Teriyaki (Grilled Salmon Teriyaki)": {
+    "vi": "Cá hồi nướng sốt Teriyaki"
+  },
+  "Hàu sữa Nhật tươi sống (Fresh Japanese Oysters)": {
+    "vi": "Hàu sữa Nhật tươi sống"
+  },
+  "Mì Ramen hải sản Yushima (Seafood Ramen)": {
+    "vi": "Mì Ramen hải sản Yushima"
+  },
+  "Cơm lươn Nhật nướng sốt Kabayaki (Unagi Don)": {
+    "vi": "Cơm lươn Nhật nướng sốt Kabayaki"
+  },
+  "Thuyền Sashimi tổng hợp (Mixed Sashimi Boat)": {
+    "vi": "Thuyền Sashimi tổng hợp (Mixed Sashimi Boat)"
+  },
+  "Halal Beef / Chicken Curry with Roti": {
+    "vi": "Cà ri bò / gà halal với bánh roti"
+  },
+  "Halal Vietnamese Beef Pho": {
+    "vi": "Phở bò halal Việt Nam"
+  },
+  "Nasi Goreng Halal": {
+    "vi": "Cơm chiên nasi goreng halal"
+  },
+  "Bia Tươi Tiger Crystal / Heineken Cold": {
+    "vi": "Bia Tươi Tiger Crystal / Heineken Cold"
+  },
+  "Bia Thủ Công Jasmine IPA (Pasteur Street)": {
+    "vi": "Bia Thủ Công Jasmine IPA"
+  },
+  "Gỏi Cá Trích Phú Quốc (Phu Quoc Herring Salad)": {
+    "vi": "Gỏi Cá Trích Phú Quốc"
+  },
+  "Mực Trứng Nướng Muối Ớt (Grilled Egg Squid with Chili Salt)": {
+    "vi": "Mực Trứng Nướng Muối Ớt"
+  },
+  "Sườn Heo Nướng Sốt BBQ (Grilled BBQ Pork Ribs)": {
+    "vi": "Sườn Heo Nướng Sốt BBQ"
+  },
+  "Combo Nướng Than Hoa Lagoon (Lagoon BBQ Platter)": {
+    "vi": "Combo Nướng Than Hoa Lagoon"
+  },
+  "Đĩa hải sản lạnh phong cách Pháp (Chilled Seafood Platter)": {
+    "vi": "Đĩa hải sản lạnh phong cách Pháp"
+  },
+  "Lẩu hải sản Địa Trung Hải (Mediterranean Seafood Hot Pot)": {
+    "vi": "Lẩu hải sản Địa Trung Hải"
+  },
+  "Sườn heo nướng sốt BBQ": {
+    "vi": "Sườn heo nướng sốt BBQ"
+  },
+  "Mực trứng chiên mắm / nướng": {
+    "vi": "Mực trứng chiên mắm / nướng"
+  },
+  "Lẩu hải sản chua cay bình dân": {
+    "vi": "Lẩu hải sản chua cay bình dân"
+  },
+  "Hải sản nướng muối ớt One Boat": {
+    "vi": "Hải sản nướng muối ớt One Boat"
+  },
+  "Combo Hải sản Cướp biển (Pirate Seafood Combo)": {
+    "vi": "Combo Hải sản Cướp biển"
+  },
+  "Coconut Chia Pudding & Fresh Fruits": {
+    "vi": "Pudding dừa hạt chia & trái cây tươi"
+  },
+  "Nutritious Breakfast Bowl": {
+    "vi": "Tô ăn sáng dinh dưỡng"
+  },
+  "Eggs Benedict / Royale": {
+    "vi": "Trứng Benedict / Royale"
+  },
+  "Vietnamese Breakfast Pho (Beef / Chicken)": {
+    "vi": "Phở sáng Việt Nam (bò / gà)"
+  },
+  "Gỏi ngó sen tôm mực (Lotus Stem Salad with Prawn & Squid)": {
+    "vi": "Gỏi ngó sen tôm mực"
+  },
+  "Quinoa Salad": {
+    "vi": "Salad hạt quinoa"
+  },
+  "Phu Quoc Seafood Caesar Salad": {
+    "vi": "Salad Caesar hải sản Phú Quốc"
+  },
+  "Bún hải sản làng chài (Phu Quoc Seafood Noodle Soup)": {
+    "vi": "Bún hải sản làng chài"
+  },
+  "Nem rán Hà Nội (Hanoi Deep Fried Spring Rolls)": {
+    "vi": "Nem rán Hà Nội"
+  },
+  "Cơm chiên ghẹ Phú Quốc (Phu Quoc Flower Crab Fried Rice)": {
+    "vi": "Cơm chiên ghẹ Phú Quốc"
+  },
+  "Cá kho tộ tiêu Phú Quốc (Claypot Braised Fish)": {
+    "vi": "Cá kho tộ tiêu Phú Quốc"
+  },
+  "Australian Beef Rib with Tamarind Sauce": {
+    "vi": "Sườn bò Úc sốt me"
+  },
+  "Grilled Black Angus Ribeye": {
+    "vi": "Bít tết thăn lưng Black Angus nướng"
+  },
+  "Pan-seared Salmon Fillet": {
+    "vi": "Phi lê cá hồi áp chảo"
+  },
+  "Chicken Club Sandwich": {
+    "vi": "Sandwich gà kiểu club"
+  },
+  "The Merchant Wagyu Burger": {
+    "vi": "Burger bò Wagyu The Merchant"
+  },
+  "Four Cheese Ravioli": {
+    "vi": "Ravioli bốn loại phô mai"
+  },
+  "12-Hour Sourdough Pizza Margarita": {
+    "vi": "Pizza Margherita đế men chua ủ 12 giờ"
+  },
+  "Korean Seafood Ramen": {
+    "vi": "Mì ramen hải sản Hàn Quốc"
+  },
+  "Korean Crispy Fried Chicken": {
+    "vi": "Gà chiên giòn kiểu Hàn"
+  },
+  "Kimchi Fried Rice with Fried Egg": {
+    "vi": "Cơm chiên kimchi với trứng ốp la"
+  },
+  "Dal Makhani (Indian Lentil Curry)": {
+    "vi": "Cà ri đậu lăng Ấn Độ Dal Makhani"
+  },
+  "Butter Chicken (Murgh Makhani)": {
+    "vi": "Cà ri gà bơ (Murgh Makhani)"
+  },
+  "Garlic & Butter Naan": {
+    "vi": "Bánh naan bơ tỏi"
+  },
+  "Kids Spaghetti Bolognese / Pomodoro": {
+    "vi": "Mì Ý trẻ em sốt bò băm / cà chua"
+  },
+  "Kids Crispy Fish & Chips": {
+    "vi": "Cá chiên giòn & khoai tây chiên cho trẻ em"
+  },
+  "Pina Colada Mousse": {
+    "vi": "Mousse piña colada"
+  },
+  "Phu Quoc Pepper Chocolate Lava Cake": {
+    "vi": "Bánh sô cô la nhân chảy với tiêu Phú Quốc"
+  },
+  "Northern Set Menu (2 persons)": {
+    "vi": "Set món Bắc cho 2 người"
+  },
+  "Southern Set Menu (2 persons)": {
+    "vi": "Set món Nam cho 2 người"
+  },
+  "Vietnamese Traditional Coffee (Black / Condensed Milk)": {
+    "vi": "Cà phê Việt truyền thống (đen / sữa đặc)"
+  },
+  "Selection of Sao Epicurean Tea": {
+    "vi": "Các loại trà Sao Epicurean"
+  },
+  "Local Beers (Tiger, Heineken, Saigon Special)": {
+    "vi": "Bia địa phương (Tiger, Heineken, Saigon Special)"
+  },
+  "Corona Extra": {
+    "vi": "Bia Corona Extra"
+  },
+  "Mellow Yellow Mocktail": {
+    "vi": "Mocktail Mellow Yellow"
+  },
+  "Radicchio Salad": {
+    "vi": "Salad radicchio"
+  },
+  "Fritto Misto": {
+    "vi": "Hải sản tẩm bột chiên hỗn hợp Fritto Misto"
+  },
+  "Burrata Salad": {
+    "vi": "Salad burrata"
+  },
+  "Garden Green Salad": {
+    "vi": "Salad rau xanh"
+  },
+  "Gambas al Ajillo": {
+    "vi": "Tôm xào tỏi Gambas al Ajillo"
+  },
+  "Spanish Scallops": {
+    "vi": "Sò điệp kiểu Tây Ban Nha"
+  },
+  "Selection of Italian & Spanish Cold Cut & Cheese": {
+    "vi": "Đĩa thịt nguội & phô mai Ý và Tây Ban Nha"
+  },
+  "Peas Soup": {
+    "vi": "Súp đậu Hà Lan"
+  },
+  "Beef Carpaccio": {
+    "vi": "Bò thái lát mỏng Carpaccio"
+  },
+  "Spaghetti Carbonara (Finished Tableside)": {
+    "vi": "Mì spaghetti carbonara hoàn thiện tại bàn"
+  },
+  "Spaghetti ai Frutti di Mare": {
+    "vi": "Mì spaghetti hải sản"
+  },
+  "Lasagne": {
+    "vi": "Mì lasagne"
+  },
+  "Crab Ravioli": {
+    "vi": "Ravioli cua"
+  },
+  "Clam Tagliolini": {
+    "vi": "Mì tagliolini nghêu"
+  },
+  "Potato Gnocchi": {
+    "vi": "Bánh khoai tây gnocchi"
+  },
+  "La Classica": {
+    "vi": "Pizza La Classica"
+  },
+  "Quattro Formaggi": {
+    "vi": "Pizza Quattro Formaggi (bốn loại phô mai)"
+  },
+  "Bianca": {
+    "vi": "Pizza Bianca"
+  },
+  "Tartufo": {
+    "vi": "Pizza Tartufo"
+  },
+  "Pizza di Mare": {
+    "vi": "Pizza hải sản di Mare"
+  },
+  "Australia Lamb Rack": {
+    "vi": "Sườn cừu Úc nướng"
+  },
+  "Australian Tenderloin 250g": {
+    "vi": "Bít tết thăn bò Úc 250g"
+  },
+  "Japanese Rib Eye Wagyu MB 6-7 (300g)": {
+    "vi": "Bít tết ribeye bò Wagyu Nhật MB 6-7 (300g)"
+  },
+  "Australian Fiorentina 1KG (T-Bone)": {
+    "vi": "Bít tết T-bone Fiorentina Úc 1KG"
+  },
+  "Octopus Tentacles": {
+    "vi": "Râu bạch tuộc"
+  },
+  "Pan-Fried Red Snapper": {
+    "vi": "Cá hồng áp chảo"
+  },
+  "Anticucho Pan-Fried Seabass": {
+    "vi": "Cá chẽm áp chảo sốt anticucho"
+  },
+  "King Prawns": {
+    "vi": "Tôm sú lớn"
+  },
+  "Mashed Potato with Goat Cheese": {
+    "vi": "Khoai tây nghiền phô mai dê"
+  },
+  "Parma Ham & Asparagus": {
+    "vi": "Jambon Parma & măng tây"
+  },
+  "Pan-Roasted Rustic Vegetables with Balsamic": {
+    "vi": "Rau củ áp chảo sốt balsamic"
+  },
+  "Grilled Broccolini with Garlic": {
+    "vi": "Bông cải xanh non nướng tỏi"
+  },
+  "Phu Quoc Black Peppercorn Jus": {
+    "vi": "Sốt thịt tiêu đen Phú Quốc"
+  },
+  "Natural Jus": {
+    "vi": "Nước sốt thịt tự nhiên"
+  },
+  "Chimichurri Sauce": {
+    "vi": "Sốt chimichurri"
+  },
+  "Truffles Cream Sauce": {
+    "vi": "Sốt kem truffle"
+  },
+  "Tiramisu": {
+    "vi": "Tiramisu"
+  },
+  "Soft Pavlova": {
+    "vi": "Bánh pavlova mềm"
+  },
+  "Burnt Basque Cheesecake": {
+    "vi": "Cheesecake Basque cháy mặt"
+  },
+  "Affogato": {
+    "vi": "Affogato"
+  },
+  "Lavie Still / Sparkling Mineral Water (450ml)": {
+    "vi": "Nước khoáng Lavie không ga / có ga (450ml)"
+  },
+  "Soft Drinks (Coke, Coke Zero, Sprite)": {
+    "vi": "Nước ngọt (Coke, Coke Zero, Sprite)"
+  },
+  "Modena Smoothie": {
+    "vi": "Sinh tố Modena"
+  },
+  "Vicenza Smoothie": {
+    "vi": "Sinh tố Vicenza"
+  },
+  "Ananas Mocktail": {
+    "vi": "Mocktail Ananas"
+  },
+  "Frizzante Mocktail": {
+    "vi": "Mocktail Frizzante"
+  },
+  "Vietnamese Signature Coffee (Black / Condensed Milk)": {
+    "vi": "Cà phê Việt đặc trưng (đen / sữa đặc)"
+  },
+  "Espresso Bar (Espresso / Americano)": {
+    "vi": "Espresso bar (espresso / americano)"
+  },
+  "Cappuccino / Latte / Mocha": {
+    "vi": "Cappuccino / Latte / Mocha"
+  },
+  "Hot / Iced Chocolate": {
+    "vi": "Sô cô la nóng / đá"
+  },
+  "Classic Cocktails": {
+    "vi": "Các loại cocktail cổ điển"
+  },
+  "Como Signature Cocktail": {
+    "vi": "Cocktail đặc trưng Como"
+  },
+  "Cơm phần gia đình (Family Rice Set)": {
+    "vi": "Cơm phần gia đình"
+  },
+  "Thịt heo kho tộ (Claypot Caramelized Pork)": {
+    "vi": "Thịt heo kho tộ"
+  },
+  "Trứng chiên thịt bằm (Minced Pork Omelette)": {
+    "vi": "Trứng chiên thịt bằm"
+  },
+  "Rau muống xào tỏi (Stir-fried Morning Glory)": {
+    "vi": "Rau muống xào tỏi"
+  },
+  "Canh chua cá (Sour Fish Soup)": {
+    "vi": "Canh chua cá"
+  },
+  "Samgyeopsal / Pork Belly (삼겹살)": {
+    "vi": "Ba chỉ heo nướng Hàn Quốc (samgyeopsal)"
+  },
+  "Honeycomb Pork Rind (돼지 벌집껍데기)": {
+    "vi": "Da heo nướng kiểu tổ ong"
+  },
+  "Pork Neck / Moksal (목살)": {
+    "vi": "Nạc vai heo nướng Hàn Quốc (moksal)"
+  },
+  "Kimchi Jjigae / Doenjang Jjigae (뚝배기 찌개류)": {
+    "vi": "Canh kimchi / canh tương đậu Hàn Quốc"
+  },
+  "Cheese Tteokbokki (치즈 떡볶이)": {
+    "vi": "Bánh gạo cay phô mai Hàn Quốc"
+  },
+  "Hong Kong Bubble Waffle with Ice Cream": {
+    "vi": "Bánh trứng bong bóng Hồng Kông với kem"
+  },
+  "Matcha / Chocolate Bubble Waffle": {
+    "vi": "Bánh trứng bong bóng matcha / sô cô la"
+  },
+  "Cà phê sữa đá & Trà trái cây": {
+    "vi": "Cà phê sữa đá & Trà trái cây"
+  },
+  "Trà đào cam sả (Peach Orange Lemongrass Tea)": {
+    "vi": "Trà đào cam sả"
+  },
+  "Cơm gia đình Hà Nội (Hanoi Family Set)": {
+    "vi": "Cơm gia đình Hà Nội"
+  },
+  "Thịt kho tàu & Canh chua": {
+    "vi": "Thịt kho tàu & Canh chua"
+  },
+  "Món ăn vặt đường phố Việt Nam": {
+    "vi": "Món ăn vặt đường phố Việt Nam"
+  },
+  "Lẩu hải sản bình dân": {
+    "vi": "Lẩu hải sản bình dân"
+  },
+  "Cocktail Hoàng Hôn (Sunset Chill Cocktail)": {
+    "vi": "Cocktail Hoàng Hôn"
+  },
+  "Đĩa hải sản nướng & Bia lạnh": {
+    "vi": "Đĩa hải sản nướng & Bia lạnh"
+  },
+  "Tribal Smoked BBQ Ribs": {
+    "vi": "Sườn BBQ hun khói Tribal"
+  },
+  "Gourmet Beef Burger with Fries": {
+    "vi": "Burger bò với khoai tây chiên"
+  },
+  "Craft Beer on Tap": {
+    "vi": "Bia thủ công rót tại vòi"
+  },
+  "Neapolitan Wood-fired Pizza": {
+    "vi": "Pizza Napoli nướng lò củi"
+  },
+  "Handmade Pasta & Risotto": {
+    "vi": "Mì Ý và risotto thủ công"
+  },
+  "Grilled Scallops with Lime Butter": {
+    "vi": "Sò điệp nướng bơ chanh"
+  },
+  "Octopus Carpaccio": {
+    "vi": "Carpaccio bạch tuộc"
+  },
+  "Premium Beef Steak": {
+    "vi": "Bít tết bò cao cấp"
+  },
+  "Romantic Sunset 2-Person Set Menu": {
+    "vi": "Set ăn tối hoàng hôn lãng mạn cho 2 người"
+  },
+  "Cà phê Phin Robusta / Arabica Đậm Đà": {
+    "vi": "Cà phê Phin Robusta / Arabica Đậm Đà"
+  },
+  "Cà phê sữa đá đặc biệt": {
+    "vi": "Cà phê sữa đá đặc biệt"
+  },
+  "Pour-over Specialty Coffee (Single Origin)": {
+    "vi": "Cà phê đặc sản pour-over một nguồn gốc"
+  },
+  "Cold Brew Coffee": {
+    "vi": "Cà phê ủ lạnh Cold Brew"
+  },
+  "Trà thảo mộc & Trái cây tươi": {
+    "vi": "Trà thảo mộc & Trái cây tươi"
+  },
+  "Cá Kho Tộ (Clay Pot Braised Fish)": {
+    "vi": "Cá Kho Tộ"
+  },
+  "Canh Chua Cá (Southern Sour Fish Soup)": {
+    "vi": "Canh Chua Cá"
+  },
+  "Cá Mú Hấp Xì Dầu (Steamed Grouper with Soy Sauce)": {
+    "vi": "Cá Mú Hấp Xì Dầu"
+  },
+  "Mâm Cơm Nam Bộ (Southern Family Rice Set)": {
+    "vi": "Mâm Cơm Nam Bộ"
+  },
+  "Phở tái lăn đặc biệt": {
+    "vi": "Phở tái lăn đặc biệt"
+  },
+  "Phở sườn cây": {
+    "vi": "Phở sườn cây"
+  },
+  "Phở chín / tái nạm": {
+    "vi": "Phở chín / tái nạm"
+  },
+  "Lẩu bò chua cay (Combo 2 người)": {
+    "vi": "Lẩu bò chua cay"
+  },
+  "Lẩu đuôi bò / Lòng bò đặc biệt": {
+    "vi": "Lẩu đuôi bò / Lòng bò đặc biệt"
+  },
+  "Nem rán Hà Nội (Chả giò)": {
+    "vi": "Nem rán Hà Nội"
+  },
+  "Quẩy nóng": {
+    "vi": "Quẩy nóng"
+  },
+  "Trứng chần": {
+    "vi": "Trứng chần"
+  },
+  "Döner Kebab Bò (Beef Döner Kebab Wrap)": {
+    "vi": "Döner Kebab Bò"
+  },
+  "Döner Kebab Gà (Chicken Döner Kebab Wrap)": {
+    "vi": "Döner Kebab Gà"
+  },
+  "Cielo Kiss of the Sea Cocktail": {
+    "vi": "Cielo Kiss of the Sea Cocktail"
+  },
+  "Daily Breakfast Buffet": {
+    "vi": "Buffet sáng hằng ngày"
+  },
+  "Tomato Soup": {
+    "vi": "Súp cà chua"
+  },
+  "Prawn Pumpkin Soup": {
+    "vi": "Súp bí đỏ tôm"
+  },
+  "Chicken Caesar Salad": {
+    "vi": "Salad Caesar gà"
+  },
+  "Greek Salad": {
+    "vi": "Salad Hy Lạp"
+  },
+  "Inter Cold Cuts Banh Mi": {
+    "vi": "Bánh mì thịt nguội quốc tế"
+  },
+  "Cheese Burger": {
+    "vi": "Burger phô mai"
+  },
+  "Chicken Burger": {
+    "vi": "Burger gà"
+  },
+  "Club Sandwich": {
+    "vi": "Sandwich kiểu club"
+  },
+  "Rib-Eye Steak": {
+    "vi": "Bít tết ribeye"
+  },
+  "Striploin Steak": {
+    "vi": "Bít tết thăn lưng"
+  },
+  "Grilled Salmon": {
+    "vi": "Cá hồi nướng"
+  },
+  "Grilled Seabass": {
+    "vi": "Cá chẽm nướng"
+  },
+  "Crispy Chicken Wings with Buffalo Sauce": {
+    "vi": "Cánh gà giòn sốt Buffalo"
+  },
+  "Grilled Chicken Breast": {
+    "vi": "Ức gà nướng"
+  },
+  "Stewed Beef with Red Wine": {
+    "vi": "Bò hầm rượu vang đỏ"
+  },
+  "Smoked Duck Breast with Orange Sauce": {
+    "vi": "Ức vịt xông khói sốt cam"
+  },
+  "Smoked Pork Rib with BBQ Sauce": {
+    "vi": "Sườn heo xông khói sốt BBQ"
+  },
+  "Spaghetti Carbonara": {
+    "vi": "Mì Ý carbonara"
+  },
+  "Spaghetti with Seafood Tomyum Sauce": {
+    "vi": "Mì Ý hải sản sốt tom yum"
+  },
+  "Spaghetti with Truffle Mushroom": {
+    "vi": "Mì Ý nấm truffle"
+  },
+  "Spaghetti with Seafood": {
+    "vi": "Mì Ý hải sản"
+  },
+  "Spaghetti Bolognese": {
+    "vi": "Mì Ý sốt bò băm bolognese"
+  },
+  "Spaghetti Arrabbiata": {
+    "vi": "Mì Ý sốt cà chua cay arrabbiata"
+  },
+  "Campanola Pizza": {
+    "vi": "Pizza Campanola"
+  },
+  "Diavola Pizza": {
+    "vi": "Pizza Diavola"
+  },
+  "Margherita Pizza": {
+    "vi": "Pizza Margherita"
+  },
+  "Hawaiian Pizza": {
+    "vi": "Pizza Hawaii"
+  },
+  "Frutti di Mare Pizza": {
+    "vi": "Pizza hải sản Frutti di Mare"
+  },
+  "Quattro Formaggi Pizza": {
+    "vi": "Pizza bốn loại phô mai"
+  },
+  "Panna Cotta Strawberry": {
+    "vi": "Panna cotta dâu tây"
+  },
+  "Tropical Yoghurt": {
+    "vi": "Sữa chua trái cây nhiệt đới"
+  },
+  "Ice Cream": {
+    "vi": "Kem"
+  },
+  "Le Triporteur Rouge IGP, Rhône (vang đỏ)": {
+    "vi": "Le Triporteur Rouge IGP, Rhône"
+  },
+  "Signore Giuseppe Bardolino, Veneto (vang đỏ)": {
+    "vi": "Signore Giuseppe Bardolino, Veneto"
+  },
+  "Château Platon, Bordeaux (vang đỏ)": {
+    "vi": "Château Platon, Bordeaux"
+  },
+  "Deakin Estate, Victoria (vang đỏ)": {
+    "vi": "Deakin Estate, Victoria"
+  },
+  "Velenosi, Abruzzo (vang đỏ)": {
+    "vi": "Velenosi, Abruzzo"
+  },
+  "Château Pas de l’Âne, Saint-Émilion (vang đỏ)": {
+    "vi": "Château Pas de l’Âne, Saint-Émilion"
+  },
+  "Mouton Cadet Classic Rosé (vang hồng)": {
+    "vi": "Mouton Cadet Classic Rosé"
+  },
+  "Le Triporteur IGP, Rhône (vang trắng)": {
+    "vi": "Le Triporteur IGP, Rhône"
+  }
+}
