@@ -5850,7 +5850,8 @@
         "location": 8.8,
         "facilities": 7.9,
         "value": 8.6
-      }
+      },
+      "propertyType": "hotel"
     },
     {
       "slug": "blue-hotel-sunset-town-phu-quoc",
@@ -5896,7 +5897,8 @@
         "location": 10,
         "facilities": 10,
         "value": 10
-      }
+      },
+      "propertyType": "hotel"
     },
     {
       "slug": "the-fern-phu-quoc-hotel-sunset-town",
@@ -5942,7 +5944,8 @@
         "location": 8.2,
         "facilities": 6.7,
         "value": 7.2
-      }
+      },
+      "propertyType": "hotel"
     },
     {
       "slug": "dido-carthage-apartment-sunset-town-phu-quoc-island",
@@ -5987,7 +5990,8 @@
         "location": 9.1,
         "facilities": 8.4,
         "value": 7.9
-      }
+      },
+      "propertyType": "apartment"
     },
     {
       "slug": "crystal-apartment-hillside-phu-quoc-sunset-town-firework",
@@ -6033,7 +6037,8 @@
         "location": 8.9,
         "facilities": 8.3,
         "value": 8.1
-      }
+      },
+      "propertyType": "apartment"
     },
     {
       "slug": "rosie-hillside-phu-quoc-apartment",
@@ -6079,7 +6084,8 @@
         "location": 9.2,
         "facilities": 8.6,
         "value": 8.9
-      }
+      },
+      "propertyType": "apartment"
     },
     {
       "slug": "sunset-home-apartment-phu-quoc",
@@ -6125,7 +6131,8 @@
         "location": 10,
         "facilities": 9.2,
         "value": 10
-      }
+      },
+      "propertyType": "apartment"
     },
     {
       "slug": "the-juliet-a-boutique-hotel-coffee-ama-71",
@@ -6170,7 +6177,8 @@
         "location": 8.6,
         "facilities": 8,
         "value": 8.4
-      }
+      },
+      "propertyType": "hotel"
     },
     {
       "slug": "eirlys-home-apartment-phu-quoc-firework-ocean-view",
@@ -6216,7 +6224,8 @@
         "location": 9.5,
         "facilities": 9,
         "value": 9.2
-      }
+      },
+      "propertyType": "apartment"
     }
   ]
 }
