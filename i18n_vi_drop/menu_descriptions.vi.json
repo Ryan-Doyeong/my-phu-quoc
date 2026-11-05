@@ -1,0 +1,632 @@
+{
+  "Crafted with carefully selected local ingredients.": {
+    "vi": "Chế biến từ nguyên liệu địa phương được lựa chọn kỹ."
+  },
+  "Wok-fried jasmine rice tossed with fresh seafood or meat, eggs, and crisp vegetables over high heat.": {
+    "vi": "Cơm gạo lài xào lửa lớn với hải sản hoặc thịt tươi, trứng và rau củ giòn."
+  },
+  "Japanese saba mackerel grilled with sea salt or teriyaki glaze": {
+    "vi": "Cá saba Nhật nướng muối biển hoặc phủ sốt teriyaki."
+  },
+  "Grilled willow leaf fish with roe": {
+    "vi": "Cá trứng nướng."
+  },
+  "Fresh Norwegian salmon fillet grilled with teriyaki sauce": {
+    "vi": "Phi lê cá hồi Na Uy tươi nướng sốt teriyaki."
+  },
+  "Fresh imported Japanese oysters with ponzu and lemon": {
+    "vi": "Hàu Nhật nhập khẩu tươi ăn cùng sốt ponzu và chanh."
+  },
+  "Japanese ramen in rich pork and seafood broth with squid and prawns": {
+    "vi": "Mì ramen Nhật với nước dùng thịt heo và hải sản đậm vị, kèm mực và tôm."
+  },
+  "Grilled Japanese freshwater eel with kabayaki glaze over rice": {
+    "vi": "Lươn nước ngọt Nhật nướng sốt kabayaki ăn với cơm."
+  },
+  "Chef's selection of fresh local and imported raw fish": {
+    "vi": "Các loại cá sống tươi địa phương và nhập khẩu do bếp trưởng lựa chọn."
+  },
+  "Traditional flat rice noodle soup in an aromatic simmered beef bone broth topped with tender beef slices and herbs.": {
+    "vi": "Phở truyền thống với nước dùng xương bò hầm thơm, thịt bò mềm thái lát và rau thơm."
+  },
+  "Extra chilled draft beer served fresh on tap": {
+    "vi": "Bia tươi rót trực tiếp từ vòi, phục vụ thật lạnh."
+  },
+  "Award-winning Vietnamese craft IPA infused with local jasmine flowers": {
+    "vi": "Bia thủ công IPA Việt Nam từng đoạt giải, ủ với hoa nhài địa phương."
+  },
+  "Fresh raw herring tossed with shredded coconut, herbs, and crushed peanuts wrapped in rice paper": {
+    "vi": "Gỏi cá trích tươi trộn dừa nạo, rau thơm và đậu phộng giã, cuốn bánh tráng."
+  },
+  "Fresh caught squid full of roe grilled over charcoal with spicy chili salt": {
+    "vi": "Mực trứng tươi nướng than với muối ớt cay."
+  },
+  "Slow roasted pork ribs glazed with sweet and savory homemade BBQ sauce": {
+    "vi": "Sườn heo nướng chậm phủ sốt BBQ nhà làm mặn ngọt."
+  },
+  "Fresh local squid caught in surrounding island waters, cooked to tender perfection with lime and pepper salt.": {
+    "vi": "Mực tươi đánh bắt quanh đảo, chế biến mềm và dùng với chanh, muối tiêu."
+  },
+  "Mixed Berries | 70% Dark Chocolate": {
+    "vi": "Các loại quả mọng hỗn hợp | Sô cô la đen 70%"
+  },
+  "Granola, Greek yogurt, tropical fruits, honey": {
+    "vi": "Granola, sữa chua Hy Lạp, trái cây nhiệt đới, mật ong"
+  },
+  "Poached eggs, hollandaise sauce, smoked ham or salmon on english muffin": {
+    "vi": "Trứng chần, sốt hollandaise, jambon hoặc cá hồi xông khói trên bánh muffin Anh"
+  },
+  "Traditional morning pho noodle soup with herbs": {
+    "vi": "Phở sáng truyền thống với rau thơm"
+  },
+  "Prawn | Squid | Carrot | Coriander | Peanuts | Shallot | Hue Sour Shrimp | Sweet Sour Fish Sauce": {
+    "vi": "Tôm | Mực | Cà rốt | Ngò rí | Đậu phộng | Hành tím | Tôm chua Huế | Nước mắm chua ngọt"
+  },
+  "Quinoa | Pineapple | Shallot | Avocado | Lime Honey Dressing": {
+    "vi": "Hạt quinoa | Dứa | Hành tím | Bơ | Sốt mật ong chanh"
+  },
+  "Romaine lettuce, grilled prawns, squid, parmesan, crispy bacon": {
+    "vi": "Xà lách romaine, tôm nướng, mực, parmesan, thịt xông khói giòn"
+  },
+  "Squid | Tiger Prawn | Fresh Herb | Bean Sprouts | Red Chili | Chili Sauce": {
+    "vi": "Mực | Tôm sú | Rau thơm | Giá đỗ | Ớt đỏ | Tương ớt"
+  },
+  "Lettuce | Mixed Herb | Pickled | Light Fish Dipping Sauce": {
+    "vi": "Xà lách | Rau thơm hỗn hợp | Đồ chua | Nước mắm chấm vị nhẹ"
+  },
+  "Local flower crab meat, jasmine rice, scallions, eggs": {
+    "vi": "Thịt ghẹ địa phương, cơm gạo lài, hành lá, trứng"
+  },
+  "Caramelized fish braised in claypot with famous Phu Quoc black pepper": {
+    "vi": "Cá kho niêu với tiêu đen Phú Quốc và nước màu."
+  },
+  "Pickled Lemongrass | Grilled Potato | Flower Pumpkin | Salted Egg Yolk": {
+    "vi": "Sả ngâm chua | Khoai tây nướng | Bông bí | Lòng đỏ trứng muối"
+  },
+  "Grilled Asparagus | Arugula & Parmesan | Beef Jus": {
+    "vi": "Măng tây nướng | Rau rocket & parmesan | Nước sốt thịt bò"
+  },
+  "Mashed potato, asparagus, lemon butter caper sauce": {
+    "vi": "Khoai tây nghiền, măng tây, sốt bơ chanh và nụ bạch hoa"
+  },
+  "Lettuce | Chicken | Bacon | Tomato | Fried Egg | Bell Pepper Jam | Mayonnaise | French Fries": {
+    "vi": "Xà lách | Gà | Thịt xông khói | Cà chua | Trứng chiên | Mứt ớt chuông | Mayonnaise | Khoai tây chiên"
+  },
+  "Wagyu beef patty, aged cheddar, caramelized onion, truffle aioli, fries": {
+    "vi": "Thịt bò Wagyu xay, cheddar ủ chín, hành tây caramel, sốt aioli truffle, khoai tây chiên"
+  },
+  "Brie | Blue | Parmesan | Pecorino | Phu Quoc Pepper Butter Sauce": {
+    "vi": "Brie | Phô mai xanh | Parmesan | Pecorino | Sốt bơ tiêu Phú Quốc"
+  },
+  "Mozzarella | Tomato Sauce | Fresh Basil": {
+    "vi": "Mozzarella | Sốt cà chua | Húng quế tươi"
+  },
+  "Prawn | Squid | Korean Chili | Spring Onions": {
+    "vi": "Tôm | Mực | Ớt Hàn Quốc | Hành lá"
+  },
+  "Deep-fried crispy chicken with sweet spicy Korean gochujang glaze": {
+    "vi": "Gà chiên giòn phủ sốt gochujang Hàn Quốc cay ngọt."
+  },
+  "Stir-fried kimchi rice, spam, seaweed flakes, sunny-side up egg": {
+    "vi": "Cơm chiên kimchi, thịt hộp spam, rong biển vụn, trứng ốp la."
+  },
+  "Black Lentil | Onion | Garlic | Ginger | Red Kidney Beans | Butter Cream": {
+    "vi": "Đậu lăng đen | Hành tây | Tỏi | Gừng | Đậu đỏ | Bơ và kem"
+  },
+  "Tandoori roasted chicken in rich creamy tomato and butter gravy": {
+    "vi": "Gà nướng tandoori với sốt cà chua, bơ và kem đậm vị."
+  },
+  "Freshly baked Indian tandoor flatbread with garlic and butter": {
+    "vi": "Bánh mì dẹt tandoor Ấn Độ mới nướng với tỏi và bơ."
+  },
+  "Spaghetti pasta with mild beef bolognese or fresh tomato sauce": {
+    "vi": "Mì spaghetti với sốt bò bolognese dịu vị hoặc sốt cà chua tươi."
+  },
+  "Crispy breaded fish fingers with french fries and tartar dip": {
+    "vi": "Cá tẩm bột chiên giòn ăn kèm khoai tây chiên và sốt tartar."
+  },
+  "Caramelized Pineapple | Coconut": {
+    "vi": "Dứa áp chảo caramel | Dừa"
+  },
+  "Warm chocolate cake with molten center, infused with hint of Phu Quoc black pepper, vanilla ice cream": {
+    "vi": "Bánh sô cô la nóng với nhân chảy, chút tiêu đen Phú Quốc và kem vani."
+  },
+  "Banana flower chicken salad, Hanoi fried spring rolls, Bun Cha, sweet lotus seed soup": {
+    "vi": "Gỏi gà hoa chuối, nem rán Hà Nội, bún chả, chè hạt sen."
+  },
+  "Lotus stem prawn & squid salad, claypot braised fish, Mekong sour soup, coconut jelly": {
+    "vi": "Gỏi ngó sen tôm mực, cá kho niêu, canh chua miền Tây, rau câu dừa."
+  },
+  "Vietnamese Black or Condensed Milk Coffee": {
+    "vi": "Cà phê đen hoặc cà phê sữa đặc Việt Nam"
+  },
+  "Earl Grey, English Breakfast, Jasmine, Green Tea": {
+    "vi": "Earl Grey, English Breakfast, trà lài, trà xanh"
+  },
+  "Canned beer selection": {
+    "vi": "Các loại bia lon"
+  },
+  "Corona Extra bottle": {
+    "vi": "Bia chai Corona Extra"
+  },
+  "Coconut water | Pineapple juice | Mango juice | Passion fruit | Lime": {
+    "vi": "Nước dừa | Nước dứa | Nước xoài | Chanh dây | Chanh"
+  },
+  "Caramelized Apples | Manchego | Walnuts": {
+    "vi": "Táo caramel | Phô mai Manchego | Óc chó"
+  },
+  "Shrimp | Squid | Anchovies | Garlic Mayonnaise": {
+    "vi": "Tôm | Mực | Cá cơm | Sốt mayonnaise tỏi"
+  },
+  "Cherry Tomato | Fresh Burrata | Pesto Sauce": {
+    "vi": "Cà chua bi | Burrata tươi | Sốt pesto"
+  },
+  "Mix Green Salad | Sorrel | Cherry Tomatoes": {
+    "vi": "Salad rau xanh | Rau chua sorrel | Cà chua bi"
+  },
+  "Garlic Shrimp | Chili | Parsley": {
+    "vi": "Tôm xào tỏi | Ớt | Ngò tây"
+  },
+  "Chorizo | Cauliflower": {
+    "vi": "Xúc xích chorizo | Súp lơ"
+  },
+  "Taggiasca Olive | Phu Quoc Honey | Grissini Bread": {
+    "vi": "Ô liu Taggiasca | Mật ong Phú Quốc | Bánh mì que grissini"
+  },
+  "Cream Cheese | Mint": {
+    "vi": "Phô mai kem | Bạc hà"
+  },
+  "Rocket | Parmesan | Olive Oil": {
+    "vi": "Rau rocket | Parmesan | Dầu ô liu"
+  },
+  "Egg Yolk | Guanciale | Pecorino Romano (*Finished Tableside)": {
+    "vi": "Lòng đỏ trứng | Guanciale | Pecorino Romano (hoàn thiện tại bàn)"
+  },
+  "Prawns | Squid | Mussels | Cherry Tomato | Basil Sauce": {
+    "vi": "Tôm | Mực | Vẹm | Cà chua bi | Sốt húng quế"
+  },
+  "Beef Bolognese | Parmesan | Bechamel": {
+    "vi": "Sốt bò bolognese | Parmesan | Sốt béchamel"
+  },
+  "Squid Ink | Crustacean Bisque | Cherry Tomatoes": {
+    "vi": "Mực đen | Súp kem giáp xác bisque | Cà chua bi"
+  },
+  "Local Clams | Parsley | Bottarga": {
+    "vi": "Nghêu địa phương | Ngò tây | Bottarga"
+  },
+  "Italian Basil Pesto": {
+    "vi": "Sốt pesto húng quế Ý"
+  },
+  "Parma Ham | Rocket Salad": {
+    "vi": "Jambon Parma | Rau rocket"
+  },
+  "Four Cheese Selection": {
+    "vi": "Bốn loại phô mai"
+  },
+  "Mortadella | Burrata | Pistachio Pesto": {
+    "vi": "Mortadella | Burrata | Pesto hạt dẻ cười"
+  },
+  "Truffle Paste | Slice Potato | Scamorza Cheese": {
+    "vi": "Sốt nấm truffle | Khoai tây thái lát | Phô mai scamorza"
+  },
+  "Scallops | Guanciale | Dehydrated Black Olive": {
+    "vi": "Sò điệp | Guanciale | Ô liu đen sấy khô"
+  },
+  "Gratin Artichokes | Rosemary Sauce": {
+    "vi": "Atisô đút lò | Sốt hương thảo"
+  },
+  "Choice of Sauce: Black Peppercorn Jus / Natural Jus / Chimichurri / Truffle Cream Sauce": {
+    "vi": "Chọn sốt: Tiêu đen / Nước sốt thịt tự nhiên / Chimichurri / Sốt kem truffle"
+  },
+  "Chickpeas Puree | Red Bell Pepper | Paprika": {
+    "vi": "Đậu gà nghiền | Ớt chuông đỏ | Bột paprika"
+  },
+  "Leeks Puree | Artichoke | Roasted Potatoes": {
+    "vi": "Tỏi tây nghiền | Atisô | Khoai tây nướng"
+  },
+  "Pantesca Sauce | Taggiasca Olives | Capers | Cherry Tomato": {
+    "vi": "Sốt pantesca | Ô liu Taggiasca | Nụ bạch hoa | Cà chua bi"
+  },
+  "Chili-Herb Butter | Preserved Lemons": {
+    "vi": "Bơ ớt và rau thơm | Chanh muối"
+  },
+  "Mashed Potato | Goat Cheese": {
+    "vi": "Khoai tây nghiền | Phô mai dê"
+  },
+  "Parma Ham | Asparagus": {
+    "vi": "Jambon Parma | Măng tây"
+  },
+  "Pan-roasted vegetables | Balsamic reduction": {
+    "vi": "Rau củ áp chảo | Sốt giấm balsamic cô đặc"
+  },
+  "Grilled broccolini | Crispy garlic": {
+    "vi": "Bông cải xanh non nướng | Tỏi giòn"
+  },
+  "Phu Quoc black peppercorn jus": {
+    "vi": "Sốt thịt tiêu đen Phú Quốc"
+  },
+  "Natural meat jus": {
+    "vi": "Nước sốt thịt tự nhiên"
+  },
+  "Argentinian herb sauce with parsley and garlic": {
+    "vi": "Sốt rau thơm Argentina với ngò tây và tỏi"
+  },
+  "Truffle infused rich cream sauce": {
+    "vi": "Sốt kem đậm vị hương nấm truffle"
+  },
+  "Mascarpone Cream | Sponge Fingers | Espresso": {
+    "vi": "Kem mascarpone | Bánh ladyfinger | Espresso"
+  },
+  "Fresh Mango | Pastry Cream | Passion Fruit | Strawberry | Chocolate Shaving": {
+    "vi": "Xoài tươi | Kem bánh ngọt | Chanh dây | Dâu tây | Sô cô la bào"
+  },
+  "Berry Compote": {
+    "vi": "Sốt quả mọng nấu"
+  },
+  "Vanilla Gelato | Espresso | Chocolate Shaving": {
+    "vi": "Kem gelato vani | Espresso | Sô cô la bào"
+  },
+  "Lavie Still or Sparkling": {
+    "vi": "Nước Lavie không ga hoặc có ga"
+  },
+  "Canned soda selection": {
+    "vi": "Các loại nước ngọt lon"
+  },
+  "Hibiscus | Berry | Strawberry": {
+    "vi": "Hoa bụp giấm | Quả mọng | Dâu tây"
+  },
+  "Mango | Yogurt": {
+    "vi": "Xoài | Sữa chua"
+  },
+  "Pineapple | Hibiscus Syrup | Sprite": {
+    "vi": "Dứa | Si rô hoa bụp giấm | Sprite"
+  },
+  "Sparkling fruit mocktail": {
+    "vi": "Mocktail trái cây có ga"
+  },
+  "Vietnamese Black or Milk Coffee": {
+    "vi": "Cà phê đen hoặc cà phê sữa Việt Nam"
+  },
+  "Freshly brewed espresso": {
+    "vi": "Espresso mới pha"
+  },
+  "Milk based espresso drinks": {
+    "vi": "Các món cà phê espresso pha sữa"
+  },
+  "Rich chocolate drink": {
+    "vi": "Đồ uống sô cô la đậm vị"
+  },
+  "Custom classic cocktails prepared by mixologist": {
+    "vi": "Cocktail cổ điển pha theo yêu cầu bởi bartender"
+  },
+  "Campari | Vermouth | Bulldog London Dry Gin | Campari Foam": {
+    "vi": "Campari | Vermouth | Gin Bulldog London Dry | Bọt Campari"
+  },
+  "Stir-fried rare beef with ginger and spring onions in rich aromatic broth": {
+    "vi": "Thịt bò tái xào gừng và hành lá, dùng với nước dùng thơm đậm vị."
+  },
+  "Beef rib phở with slow-cooked tender meat": {
+    "vi": "Phở sườn bò với thịt hầm mềm."
+  },
+  "Well-done beef brisket and flank phở": {
+    "vi": "Phở nạm và gầu bò chín."
+  },
+  "Spicy & sour beef hot pot set for 2 with fresh beef, vegetables, mushrooms and noodles": {
+    "vi": "Lẩu bò chua cay cho 2 người gồm thịt bò tươi, rau, nấm và mì."
+  },
+  "Oxtail or beef intestine herbal hot pot": {
+    "vi": "Lẩu thảo mộc đuôi bò hoặc lòng bò."
+  },
+  "Crispy Hanoi-style fried pork and crab spring rolls": {
+    "vi": "Nem rán Hà Nội nhân thịt heo và cua giòn."
+  },
+  "Crispy deep-fried dough sticks for dipping in pho broth": {
+    "vi": "Quẩy chiên giòn chấm nước phở."
+  },
+  "Poached egg served in savory hot broth": {
+    "vi": "Trứng chần dùng trong nước dùng nóng đậm đà."
+  },
+  "Shaved seasoned spit-roasted beef wrapped in fresh flatbread with garlic yogurt sauce": {
+    "vi": "Thịt bò nướng trục xoay bào mỏng cuộn bánh mì dẹt tươi, ăn cùng sốt sữa chua tỏi."
+  },
+  "Spiced chicken döner with crisp cabbage, tomatoes, and tahini sauce": {
+    "vi": "Gà döner ướp gia vị ăn cùng bắp cải giòn, cà chua và sốt tahini."
+  },
+  "Sparkling prosecco layered with blue curacao, elderflower liqueur, and gold glitter": {
+    "vi": "Prosecco có ga phối với blue curaçao, rượu mùi hoa cơm cháy và nhũ vàng."
+  },
+  "Venice Café & Eatery serves a breakfast buffet daily from 6:30 to 10:00 AM, open to hotel guests and visitors alike at 300,000 VND per guest. Guests staying at Venice, Roma and Sakurakyo receive 10 percent off.": {
+    "vi": "Venice Café & Eatery phục vụ buffet sáng mỗi ngày từ 6:30 đến 10:00, dành cho khách lưu trú và khách ngoài với giá 300,000 VND/người. Khách lưu trú tại Venice, Roma và Sakurakyo được giảm 10 phần trăm."
+  },
+  "Súp cà chua: cà chua, húng quế, dầu ô liu, hành, nước dùng rau củ": {
+    "vi": "Súp cà chua: cà chua, húng quế, dầu ô liu, hành, nước dùng rau củ"
+  },
+  "Súp bí đỏ tôm: bí đỏ, tôm, hành, lá nguyệt quế, bơ, kem, bánh mì nướng": {
+    "vi": "Súp bí đỏ tôm: bí đỏ, tôm, hành, lá nguyệt quế, bơ, kem, bánh mì nướng"
+  },
+  "Salad Caesar gà nướng, xà lách romaine, thịt xông khói, cà chua bi, phô mai Parmesan": {
+    "vi": "Salad Caesar gà nướng, xà lách romaine, thịt xông khói, cà chua bi, phô mai Parmesan"
+  },
+  "Salad Hy Lạp: cà chua bi, hành, dưa leo, ớt chuông, ô liu, phô mai Feta, sốt Ý": {
+    "vi": "Salad Hy Lạp: cà chua bi, hành, dưa leo, ớt chuông, ô liu, phô mai Feta, sốt Ý"
+  },
+  "Bánh mì thịt nguội: baguette, jambon, pepperoni, dưa leo, dưa muối, ngò rí, hành lá, bơ, pate gan heo": {
+    "vi": "Bánh mì thịt nguội: baguette, jambon, pepperoni, dưa leo, dưa muối, ngò rí, hành lá, bơ, pate gan heo"
+  },
+  "Burger bò Úc phô mai: bò xay Úc, hành, thịt xông khói, cà chua, xà lách, phô mai Cheddar, khoai tây chiên": {
+    "vi": "Burger bò Úc phô mai: bò xay Úc, hành, thịt xông khói, cà chua, xà lách, phô mai Cheddar, khoai tây chiên"
+  },
+  "Burger gà chiên: ức gà chiên giòn, hành, thịt xông khói, trứng, cà chua, xà lách, phô mai Cheddar, khoai tây chiên": {
+    "vi": "Burger gà chiên: ức gà chiên giòn, hành, thịt xông khói, trứng, cà chua, xà lách, phô mai Cheddar, khoai tây chiên"
+  },
+  "Sandwich gà nướng, cà chua, thịt xông khói, trứng, phô mai Cheddar, xà lách, hành, khoai tây chiên": {
+    "vi": "Sandwich gà nướng, cà chua, thịt xông khói, trứng, phô mai Cheddar, xà lách, hành, khoai tây chiên"
+  },
+  "Bò rib-eye, khoai tây nghiền, măng tây, bí ngòi, cà rốt, hành, húng quế": {
+    "vi": "Bò rib-eye, khoai tây nghiền, măng tây, bí ngòi, cà rốt, hành, húng quế"
+  },
+  "Bò thăn lưng, khoai tây nghiền, măng tây, bí ngòi, cà rốt, hành, húng quế": {
+    "vi": "Bò thăn lưng, khoai tây nghiền, măng tây, bí ngòi, cà rốt, hành, húng quế"
+  },
+  "Cá hồi Na Uy nướng, ớt chuông, hành, bí ngòi, khoai tây nghiền": {
+    "vi": "Cá hồi Na Uy nướng, ớt chuông, hành, bí ngòi, khoai tây nghiền"
+  },
+  "Cá chẽm nướng, ớt chuông, hành, bí ngòi, khoai tây nghiền": {
+    "vi": "Cá chẽm nướng, ớt chuông, hành, bí ngòi, khoai tây nghiền"
+  },
+  "Cánh gà chiên giòn sốt Buffalo: Tabasco, bơ, mật ong, tỏi, sốt ớt": {
+    "vi": "Cánh gà chiên giòn sốt Buffalo: Tabasco, bơ, mật ong, tỏi, sốt ớt"
+  },
+  "Ức gà nướng, măng tây, ớt chuông, cà rốt, hành, khoai tây múi cau": {
+    "vi": "Ức gà nướng, măng tây, ớt chuông, cà rốt, hành, khoai tây múi cau"
+  },
+  "Bò hầm rượu vang đỏ, khoai tây nghiền, bí ngòi, cà rốt bao tử, măng tây": {
+    "vi": "Bò hầm rượu vang đỏ, khoai tây nghiền, bí ngòi, cà rốt bao tử, măng tây"
+  },
+  "Ức vịt xông khói sốt cam, khoai tây nghiền, cam tươi, rau củ luộc": {
+    "vi": "Ức vịt xông khói sốt cam, khoai tây nghiền, cam tươi, rau củ luộc"
+  },
+  "Sườn heo xông khói sốt BBQ, bắp nướng, khoai tây nướng, rau củ nướng": {
+    "vi": "Sườn heo xông khói sốt BBQ, bắp nướng, khoai tây nướng, rau củ nướng"
+  },
+  "Mì Ý Carbonara: hành, nấm, thịt xông khói, kem, sữa tươi, phô mai bào": {
+    "vi": "Mì Ý Carbonara: hành, nấm, thịt xông khói, kem, sữa tươi, phô mai bào"
+  },
+  "Mì Ý hải sản sốt Tomyum: tôm, mực, hành, ngò, nấm, húng quế, nước mắm, kem": {
+    "vi": "Mì Ý hải sản sốt Tomyum: tôm, mực, hành, ngò, nấm, húng quế, nước mắm, kem"
+  },
+  "Mì Ý nấm truffle: hành, nấm, sốt truffle, kem, sữa, phô mai bào": {
+    "vi": "Mì Ý nấm truffle: hành, nấm, sốt truffle, kem, sữa, phô mai bào"
+  },
+  "Mì Ý hải sản: tôm, sò điệp, mực, sốt cà chua, húng quế, vang trắng": {
+    "vi": "Mì Ý hải sản: tôm, sò điệp, mực, sốt cà chua, húng quế, vang trắng"
+  },
+  "Mì Ý bò bằm: hành, cần tây, cà rốt, bò xay Úc, tỏi tây, cà chua, húng quế, vang đỏ": {
+    "vi": "Mì Ý bò bằm: hành, cần tây, cà rốt, bò xay Úc, tỏi tây, cà chua, húng quế, vang đỏ"
+  },
+  "Mì Ý sốt cà chua cay: cà chua, hương thảo, húng quế, ớt, phô mai Pecorino": {
+    "vi": "Mì Ý sốt cà chua cay: cà chua, hương thảo, húng quế, ớt, phô mai Pecorino"
+  },
+  "Ớt chuông, măng tây, hành, nấm, ô liu, sốt cà chua, húng quế, phô mai Mozzarella": {
+    "vi": "Ớt chuông, măng tây, hành, nấm, ô liu, sốt cà chua, húng quế, phô mai Mozzarella"
+  },
+  "Pepperoni, sốt cà chua, húng quế, oregano, phô mai Mozzarella": {
+    "vi": "Pepperoni, sốt cà chua, húng quế, oregano, phô mai Mozzarella"
+  },
+  "Cà chua bi, sốt cà chua, húng quế, oregano, phô mai Mozzarella": {
+    "vi": "Cà chua bi, sốt cà chua, húng quế, oregano, phô mai Mozzarella"
+  },
+  "Dứa, jambon, hành, sốt cà chua, húng quế, phô mai Mozzarella": {
+    "vi": "Dứa, jambon, hành, sốt cà chua, húng quế, phô mai Mozzarella"
+  },
+  "Pizza hải sản: tôm, sò điệp, mực, sốt cà chua, húng quế, phô mai Mozzarella": {
+    "vi": "Pizza hải sản: tôm, sò điệp, mực, sốt cà chua, húng quế, phô mai Mozzarella"
+  },
+  "Pizza bốn loại phô mai: Cheddar, Parmesan, Pecorino, Mozzarella, cà chua, oregano": {
+    "vi": "Pizza bốn loại phô mai: Cheddar, Parmesan, Pecorino, Mozzarella, cà chua, oregano"
+  },
+  "Panna cotta dâu tây: sữa, kem tươi, dâu, si rô dâu": {
+    "vi": "Panna cotta dâu tây: sữa, kem tươi, dâu, si rô dâu"
+  },
+  "Sữa chua trái cây nhiệt đới, hạt chia": {
+    "vi": "Sữa chua trái cây nhiệt đới, hạt chia"
+  },
+  "Kem: chocolate, dâu hoặc vani": {
+    "vi": "Kem: chocolate, dâu hoặc vani"
+  },
+  "Grenache, Syrah": {
+    "vi": "Grenache, Syrah"
+  },
+  "Corvina Veronese, Rondinella": {
+    "vi": "Corvina Veronese, Rondinella"
+  },
+  "Cabernet Sauvignon, Cabernet Franc, Merlot": {
+    "vi": "Cabernet Sauvignon, Cabernet Franc, Merlot"
+  },
+  "Shiraz": {
+    "vi": "Shiraz"
+  },
+  "Montepulciano": {
+    "vi": "Montepulciano"
+  },
+  "Merlot, Cabernet Franc": {
+    "vi": "Merlot, Cabernet Franc"
+  },
+  "Merlot, Cabernet Franc, Cabernet Sauvignon": {
+    "vi": "Merlot, Cabernet Franc, Cabernet Sauvignon"
+  },
+  "Grenache, Bourboulenc": {
+    "vi": "Grenache, Bourboulenc"
+  },
+  "Riesling": {
+    "vi": "Riesling"
+  },
+  "Pinot Grigio": {
+    "vi": "Pinot Grigio"
+  },
+  "Chardonnay": {
+    "vi": "Chardonnay"
+  },
+  "Sauvignon Blanc": {
+    "vi": "Sauvignon Blanc"
+  },
+  "Macabeo, Chardonnay": {
+    "vi": "Macabeo, Chardonnay"
+  },
+  "Glera": {
+    "vi": "Glera"
+  },
+  "Rum, Aperol, bưởi, hoa hồng, chanh": {
+    "vi": "Rum, Aperol, bưởi, hoa hồng, chanh"
+  },
+  "Rum, Blue Curaçao, chanh dây, dứa": {
+    "vi": "Rum, Blue Curaçao, chanh dây, dứa"
+  },
+  "Malibu, cam, dứa, grenadine": {
+    "vi": "Malibu, cam, dứa, grenadine"
+  },
+  "Vodka, si rô vải, cam, chanh, trứng": {
+    "vi": "Vodka, si rô vải, cam, chanh, trứng"
+  },
+  "Vodka, si rô hoa cơm cháy, trà xanh, chanh": {
+    "vi": "Vodka, si rô hoa cơm cháy, trà xanh, chanh"
+  },
+  "Vodka, si rô đào, chanh, soda": {
+    "vi": "Vodka, si rô đào, chanh, soda"
+  },
+  "Tequila, cam, si rô đường, muối, Angostura bitter": {
+    "vi": "Tequila, cam, si rô đường, muối, Angostura bitter"
+  },
+  "Gin, si rô hoa hồng, chanh, dưa hấu, si rô đường": {
+    "vi": "Gin, si rô hoa hồng, chanh, dưa hấu, si rô đường"
+  },
+  "Gin, si rô dâu, dứa, mật ong, chanh": {
+    "vi": "Gin, si rô dâu, dứa, mật ong, chanh"
+  },
+  "Gin, Martini Rosso, Campari": {
+    "vi": "Gin, Martini Rosso, Campari"
+  },
+  "Rum, đường nâu, chanh, bạc hà, soda, đá": {
+    "vi": "Rum, đường nâu, chanh, bạc hà, soda, đá"
+  },
+  "Tequila, vodka, gin, rum, Cointreau, chanh, coke": {
+    "vi": "Tequila, vodka, gin, rum, Cointreau, chanh, coke"
+  },
+  "Rum, Malibu, kem dừa, nước dứa, chanh": {
+    "vi": "Rum, Malibu, kem dừa, nước dứa, chanh"
+  },
+  "Cam, chanh dây, grenadine, quế, đường": {
+    "vi": "Cam, chanh dây, grenadine, quế, đường"
+  },
+  "Nước ổi, nước cam, bạc hà, chanh": {
+    "vi": "Nước ổi, nước cam, bạc hà, chanh"
+  },
+  "Xoài, dứa, chanh, grenadine": {
+    "vi": "Xoài, dứa, chanh, grenadine"
+  },
+  "Dứa, kem dừa, đường, chanh": {
+    "vi": "Dứa, kem dừa, đường, chanh"
+  },
+  "Chanh dây, đường, bạc hà, soda": {
+    "vi": "Chanh dây, đường, bạc hà, soda"
+  },
+  "Blue Curaçao, nước dưa leo, bạc hà, chanh, soda": {
+    "vi": "Blue Curaçao, nước dưa leo, bạc hà, chanh, soda"
+  },
+  "Dâu, chanh, ginger ale, bạc hà": {
+    "vi": "Dâu, chanh, ginger ale, bạc hà"
+  },
+  "Espresso, sữa đặc, kem muối": {
+    "vi": "Espresso, sữa đặc, kem muối"
+  },
+  "Cà phê phô mai tiramisu: cà phê, kem phô mai, cacao": {
+    "vi": "Cà phê phô mai tiramisu: cà phê, kem phô mai, cacao"
+  },
+  "Kakao vị tiramisu: cacao đá với kem tiramisu": {
+    "vi": "Kakao vị tiramisu: cacao đá với kem tiramisu"
+  },
+  "Cà phê cốt dừa: sữa dừa, cà phê, dừa sấy": {
+    "vi": "Cà phê cốt dừa: sữa dừa, cà phê, dừa sấy"
+  },
+  "Cà phê sữa chua: cà phê, xoài tươi": {
+    "vi": "Cà phê sữa chua: cà phê, xoài tươi"
+  },
+  "Cà phê trứng: trứng, sữa đặc, espresso, cacao": {
+    "vi": "Cà phê trứng: trứng, sữa đặc, espresso, cacao"
+  },
+  "Cà phê truyền thống: cà phê đen Việt Nam với sữa đặc": {
+    "vi": "Cà phê truyền thống: cà phê đen Việt Nam với sữa đặc"
+  },
+  "Cà phê Ý": {
+    "vi": "Cà phê Ý"
+  },
+  "Sô cô la nóng hoặc đá: cacao, kem, sữa đặc": {
+    "vi": "Sô cô la nóng hoặc đá: cacao, kem, sữa đặc"
+  },
+  "Trà anh đào cam: cam tươi, anh đào, trà xanh": {
+    "vi": "Trà anh đào cam: cam tươi, anh đào, trà xanh"
+  },
+  "Trà xoài nhiệt đới: xoài tươi, cam, chanh, trà xanh": {
+    "vi": "Trà xoài nhiệt đới: xoài tươi, cam, chanh, trà xanh"
+  },
+  "Trà dâu, kiwi, nha đam, trà xanh": {
+    "vi": "Trà dâu, kiwi, nha đam, trà xanh"
+  },
+  "Trà dưa hấu vải: si rô dưa hấu, vải, chanh, soda, trà xanh": {
+    "vi": "Trà dưa hấu vải: si rô dưa hấu, vải, chanh, soda, trà xanh"
+  },
+  "Trà táo xanh hoa hồi: quế, chanh, si rô táo xanh, đường, trà xanh": {
+    "vi": "Trà táo xanh hoa hồi: quế, chanh, si rô táo xanh, đường, trà xanh"
+  },
+  "Nước ép trái cây Venice: cam, dâu, si rô hoa hồng": {
+    "vi": "Nước ép trái cây Venice: cam, dâu, si rô hoa hồng"
+  },
+  "Gừng mật ong sả nóng": {
+    "vi": "Gừng mật ong sả nóng"
+  },
+  "Nước dừa nha đam": {
+    "vi": "Nước dừa nha đam"
+  },
+  "Chanh sả lá nếp nha đam": {
+    "vi": "Chanh sả lá nếp nha đam"
+  },
+  "Nước ép cam, dứa, ổi, dưa hấu hoặc dừa tươi": {
+    "vi": "Nước ép cam, dứa, ổi, dưa hấu hoặc dừa tươi"
+  },
+  "Matcha chanh mật ong": {
+    "vi": "Matcha chanh mật ong"
+  },
+  "Chanh dây thơm đào, hạt chia": {
+    "vi": "Chanh dây thơm đào, hạt chia"
+  },
+  "Sữa chua xoài chanh dây": {
+    "vi": "Sữa chua xoài chanh dây"
+  },
+  "Dâu tây đá xay nha đam": {
+    "vi": "Dâu tây đá xay nha đam"
+  },
+  "Xoài, kem dừa, sữa tươi, sữa đặc": {
+    "vi": "Xoài, kem dừa, sữa tươi, sữa đặc"
+  },
+  "Chocolate đá xay": {
+    "vi": "Chocolate đá xay"
+  },
+  "Trà xanh đá xay": {
+    "vi": "Trà xanh đá xay"
+  },
+  "Sữa chua caramel": {
+    "vi": "Sữa chua caramel"
+  },
+  "Bia Bivina, Sài Gòn, Tiger Crystal": {
+    "vi": "Bia Bivina, Sài Gòn, Tiger Crystal"
+  },
+  "Bia Sapporo tươi": {
+    "vi": "Bia Sapporo tươi"
+  },
+  "Nước khoáng Perrier, Evian": {
+    "vi": "Nước khoáng Perrier, Evian"
+  },
+  "Nước có ga: Coke, Diet Coke, Coke Zero, Sprite, Tonic, Soda": {
+    "vi": "Nước có ga: Coke, Diet Coke, Coke Zero, Sprite, Tonic, Soda"
+  }
+}
