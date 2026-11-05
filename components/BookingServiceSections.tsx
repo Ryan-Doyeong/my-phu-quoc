@@ -49,34 +49,15 @@ export function BookingServiceOverviewSection({ locale = 'ko' }: { locale?: Loca
         <h2 id="mpq-service-overview-heading" className="mpqServiceOverviewTitle">
           {copy.commonIntro.title}
         </h2>
-        <p className="mpqServiceOverviewLead">{copy.commonIntro.body}</p>
       </div>
 
       <div className="mpqServiceOverviewGrid">
         {cards.map((card) => (
-          <article key={card.key} className="mpqServiceOverviewCard">
-            <div className="mpqServiceCardTop">
-              <span className="mpqServiceCardTag">{card.data.tag}</span>
-              <span className="mpqServicePriceBadge">{card.data.priceLabel}</span>
-            </div>
+          <Link key={card.key} href={card.href} className="mpqServiceOverviewCard">
+            <span className="mpqServiceCardTag">{card.data.tag}</span>
             <h3 className="mpqServiceCardTitle">{card.data.title}</h3>
-            <p className="mpqServiceCardDesc">{card.data.body}</p>
-            <div className="mpqServiceCardActions">
-              <a
-                href={buildServiceWhatsappUrl(card.data.prefillMessage)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mpqServiceBtnPrimary"
-              >
-                {card.data.ctaLabel}
-              </a>
-              <div className="mpqServiceSubActions">
-                <Link href={card.href} className="mpqServiceBtnLink">
-                  {card.data.detailLabel} →
-                </Link>
-              </div>
-            </div>
-          </article>
+            <span className="mpqServiceBtnLink">{card.data.detailLabel} →</span>
+          </Link>
         ))}
       </div>
     </section>
