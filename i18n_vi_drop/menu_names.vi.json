@@ -1258,5 +1258,575 @@
   },
   "Grey Goose - bottle": {
     "vi": "Grey Goose — chai"
+  },
+  "Nordés - glass": {
+    "vi": "Nordés - glass"
+  },
+  "Nordés - bottle": {
+    "vi": "Nordés - bottle"
+  },
+  "Hendrick's - bottle": {
+    "vi": "Hendrick's — chai"
+  },
+  "Bombay Sapphire - glass": {
+    "vi": "Bombay Sapphire — ly"
+  },
+  "Bombay Sapphire - bottle": {
+    "vi": "Bombay Sapphire — chai"
+  },
+  "Myers's Original Dark Rum - glass": {
+    "vi": "Myers's Original Dark Rum — ly"
+  },
+  "Myers's Original Dark Rum - bottle": {
+    "vi": "Myers's Original Dark Rum — chai"
+  },
+  "Bacardi Carta Blanca - glass": {
+    "vi": "Bacardi Carta Blanca — ly"
+  },
+  "Bacardi Carta Blanca - bottle": {
+    "vi": "Bacardi Carta Blanca — chai"
+  },
+  "Fresh & Baked Oysters Selection": {
+    "vi": "Các loại hàu tươi & hàu nướng"
+  },
+  "Seafood Tapas & Sparkling Wine": {
+    "vi": "Tapas hải sản & rượu vang sủi"
+  },
+  "Xiên nướng hải sản chợ đêm": {
+    "vi": "Xiên nướng hải sản chợ đêm"
+  },
+  "Mực nướng muối ớt": {
+    "vi": "Mực nướng muối ớt"
+  },
+  "Buffet Hải Sản Nướng & Lẩu Hoàng Hôn": {
+    "vi": "Buffet Hải Sản Nướng & Lẩu Hoàng Hôn"
+  },
+  "Bánh canh cua Hai Bột (Signature Crab Noodle Soup)": {
+    "vi": "Bánh canh cua Hai Bột"
+  },
+  "Bò bít tết sốt bơ tỏi đặc biệt (Beef Steak with Garlic Butter)": {
+    "vi": "Bò bít tết sốt bơ tỏi đặc biệt"
+  },
+  "Bột chiên & Chả giò truyền thống": {
+    "vi": "Bột chiên & Chả giò truyền thống"
+  },
+  "Lẩu hải sản Hai Bột (Seafood Hot Pot)": {
+    "vi": "Lẩu hải sản Hai Bột"
+  },
+  "Cà phê & Trà trái cây tươi": {
+    "vi": "Cà phê & Trà trái cây tươi"
+  },
+  "Ốc hương xào bơ tỏi / me": {
+    "vi": "Ốc hương xào bơ tỏi / me"
+  },
+  "Sò lông nướng mỡ hành": {
+    "vi": "Sò lông nướng mỡ hành"
+  },
+  "Ốc hương Pháp xào bơ tỏi / sốt trứng muối (100g)": {
+    "vi": "Ốc hương Pháp xào bơ tỏi / sốt trứng muối"
+  },
+  "Hàu Miyagi Nhật Bản (1 con)": {
+    "vi": "Hàu Miyagi Nhật Bản"
+  },
+  "Cá hồi Na Uy áp chảo sốt chanh leo": {
+    "vi": "Cá hồi Na Uy áp chảo sốt chanh leo"
+  },
+  "Đĩa hải sản nướng tổng hợp The Gangs": {
+    "vi": "Đĩa hải sản nướng tổng hợp The Gangs"
+  },
+  "Bò Mỹ tái chanh wasabi (Tataki)": {
+    "vi": "Bò Mỹ tái chanh wasabi"
+  },
+  "Combo thịt nướng The Gangs BBQ Platter": {
+    "vi": "Combo thịt nướng The Gangs BBQ Platter"
+  },
+  "Cơm chiên hải sản sốt XO": {
+    "vi": "Cơm chiên hải sản sốt XO"
+  },
+  "Cơm chiên tỏi giòn": {
+    "vi": "Cơm chiên tỏi giòn"
+  },
+  "The Gangs Craft Beer (Pint)": {
+    "vi": "The Gangs Craft Beer (Pint)"
+  },
+  "Bia Tháp (Beer Tower 3L)": {
+    "vi": "Bia Tháp"
+  },
+  "Neapolitan Artisan Pizza": {
+    "vi": "Pizza Napoli thủ công"
+  },
+  "Handmade Gourmet Pasta": {
+    "vi": "Mì Ý đặc sản làm thủ công"
+  },
+  "Charcoal Grilled Steaks & Seafood": {
+    "vi": "Bít tết & hải sản nướng than"
+  },
+  "International Breakfast Buffet": {
+    "vi": "Buffet sáng quốc tế"
+  },
+  "Spanish Indulgence Set": {
+    "vi": "Set Spanish Indulgence"
+  },
+  "Ensalada Mediterránea de la Costa": {
+    "vi": "Salad Địa Trung Hải ven biển"
+  },
+  "Roast Chicken Croquettes": {
+    "vi": "Croquette gà quay"
+  },
+  "Spanish Avocado Toast": {
+    "vi": "Bánh mì nướng bơ kiểu Tây Ban Nha"
+  },
+  "Bocadillo Ibérico": {
+    "vi": "Sandwich bocadillo Ibérico"
+  },
+  "Crab Salad Brioche": {
+    "vi": "Bánh brioche salad cua"
+  },
+  "Spanish Burger": {
+    "vi": "Burger kiểu Tây Ban Nha"
+  },
+  "Caramelized Onion and Potato Tortilla": {
+    "vi": "Trứng tortilla khoai tây và hành caramel"
+  },
+  "Roasted Cauliflower with Romesco": {
+    "vi": "Súp lơ nướng sốt romesco"
+  },
+  "Huevos Rotos with Chorizo": {
+    "vi": "Trứng Huevos Rotos với chorizo"
+  },
+  "Tapas Evening Package (2 persons)": {
+    "vi": "Gói tapas buổi tối cho 2 người"
+  },
+  "Local Oysters": {
+    "vi": "Hàu địa phương"
+  },
+  "Seabass Ceviche": {
+    "vi": "Ceviche cá chẽm"
+  },
+  "Charcuterie & Cheese Board": {
+    "vi": "Đĩa thịt nguội & phô mai"
+  },
+  "Tiger Prawns Grilled with Vinaigrette": {
+    "vi": "Tôm sú nướng sốt giấm dầu"
+  },
+  "Galician Style Octopus with Chimichurri": {
+    "vi": "Bạch tuộc kiểu Galicia sốt chimichurri"
+  },
+  "Seared Scallops": {
+    "vi": "Sò điệp áp chảo"
+  },
+  "Andalusian Style Fried Squid": {
+    "vi": "Mực chiên kiểu Andalucía"
+  },
+  "Pan con Tomate": {
+    "vi": "Bánh mì cà chua Pan con Tomate"
+  },
+  "Charcoal Roasted Vegetables with Romesco Sauce": {
+    "vi": "Rau củ nướng than sốt romesco"
+  },
+  "House Wine by Glass (Red / White / Sparkling)": {
+    "vi": "Rượu vang nhà hàng theo ly (đỏ / trắng / sủi)"
+  },
+  "House Wine by Bottle (Red / White / Sparkling)": {
+    "vi": "Rượu vang nhà hàng theo chai (đỏ / trắng / sủi)"
+  },
+  "Roasted Chicken Croquettes": {
+    "vi": "Croquette gà quay"
+  },
+  "Tomato Salad with Mixed Greens & Escabeche Mackerel": {
+    "vi": "Salad cà chua, rau xanh và cá thu escabeche"
+  },
+  "Betanzos-Style Tortilla with Marinated Pork": {
+    "vi": "Trứng tortilla kiểu Betanzos với thịt heo ướp"
+  },
+  "Pork Cheeks Braised in Spiced Wine": {
+    "vi": "Má heo hầm vang gia vị"
+  },
+  "Grilled Tiger Prawns": {
+    "vi": "Tôm sú nướng"
+  },
+  "Red Shrimp Tartare": {
+    "vi": "Tartare tôm đỏ"
+  },
+  "Grilled Octopus": {
+    "vi": "Bạch tuộc nướng"
+  },
+  "Grouper Suquet": {
+    "vi": "Cá mú hầm kiểu Suquet"
+  },
+  "Surf & Turf Seafood Paella (per person)": {
+    "vi": "Cơm paella hải sản và thịt (mỗi người)"
+  },
+  "Add Prawn 100g": {
+    "vi": "Thêm tôm 100g"
+  },
+  "Add Half of Lobster 600g": {
+    "vi": "Thêm nửa con tôm hùm 600g"
+  },
+  "Surf & Turf Seafood Paella (sharing)": {
+    "vi": "Cơm paella hải sản và thịt (phần dùng chung)"
+  },
+  "Pan-Seared Grass-Fed 7+ Wagyu": {
+    "vi": "Bò Wagyu nuôi cỏ cấp 7+ áp chảo"
+  },
+  "Sauteed Vegetables": {
+    "vi": "Rau củ xào"
+  },
+  "Confit Aubergine with Honey": {
+    "vi": "Cà tím confit với mật ong"
+  },
+  "Patatas Bravas": {
+    "vi": "Khoai tây Patatas Bravas"
+  },
+  "Charcoal-Roasted Peppers and Onions": {
+    "vi": "Ớt chuông và hành nướng than"
+  },
+  "Spiced Creme Caramel": {
+    "vi": "Kem caramel gia vị"
+  },
+  "Almond Tart": {
+    "vi": "Bánh tart hạnh nhân"
+  },
+  "Torrija": {
+    "vi": "Bánh Torrija"
+  },
+  "Kid Burger": {
+    "vi": "Burger trẻ em"
+  },
+  "Breaded Fish Bites with Aioli": {
+    "vi": "Cá tẩm bột chiên giòn với sốt aioli"
+  },
+  "Earl Grey": {
+    "vi": "Trà Earl Grey"
+  },
+  "English Breakfast": {
+    "vi": "Trà English Breakfast"
+  },
+  "Vietnamese Coffee with Condensed Milk": {
+    "vi": "Cà phê Việt pha sữa đặc"
+  },
+  "Coke / Coke Zero / Sprite / Ginger Ale Schweppes / Indian Tonic / Soda Schweppes": {
+    "vi": "Coke / Coke Zero / Sprite / Ginger Ale Schweppes / Indian Tonic / Soda Schweppes"
+  },
+  "San Pellegrino 750ml": {
+    "vi": "San Pellegrino 750ml"
+  },
+  "Tiger / Saigon Special / Heineken": {
+    "vi": "Tiger / Saigon Special / Heineken"
+  },
+  "Sun Kraft Beer Helles Can": {
+    "vi": "Sun Kraft Beer Helles Can"
+  },
+  "Brisa de Verano": {
+    "vi": "Brisa de Verano"
+  },
+  "Verde Vida": {
+    "vi": "Verde Vida"
+  },
+  "Rosa del Alba": {
+    "vi": "Rosa del Alba"
+  },
+  "Young Coconut Juice": {
+    "vi": "Nước dừa tươi"
+  },
+  "Berry Fiesta (smoothie)": {
+    "vi": "Sinh tố Berry Fiesta"
+  },
+  "Sol Tropical (smoothie)": {
+    "vi": "Sinh tố Sol Tropical"
+  },
+  "Amber Flow": {
+    "vi": "Amber Flow"
+  },
+  "Rosa Salvaje": {
+    "vi": "Rosa Salvaje"
+  },
+  "Berry Carmesí": {
+    "vi": "Berry Carmesí"
+  },
+  "Apertura": {
+    "vi": "Apertura"
+  },
+  "Cantriberry": {
+    "vi": "Cantriberry"
+  },
+  "Galicia Tropical": {
+    "vi": "Galicia Tropical"
+  },
+  "Signature Sangria": {
+    "vi": "Sangria đặc trưng"
+  },
+  "Atlantico": {
+    "vi": "Atlantico"
+  },
+  "Aro Dorado": {
+    "vi": "Aro Dorado"
+  },
+  "La Rosa": {
+    "vi": "La Rosa"
+  },
+  "Negroni Travieso": {
+    "vi": "Negroni Travieso"
+  },
+  "Delafinca Cava (Blend)": {
+    "vi": "Rượu vang sủi Delafinca Cava (Blend)"
+  },
+  "Pedro Luis Jumilla, DO Jumilla (Sauvignon Blanc)": {
+    "vi": "Rượu vang Pedro Luis Jumilla, DO Jumilla (Sauvignon Blanc)"
+  },
+  "Solaz (Verdejo)": {
+    "vi": "Rượu vang Solaz (Verdejo)"
+  },
+  "Pedro Luis Jumilla Monastrell, DO Jumilla (Mourvedre)": {
+    "vi": "Rượu vang Pedro Luis Jumilla Monastrell, DO Jumilla (Mourvedre)"
+  },
+  "Solaz (Tempranillo, Cabernet Sauvignon)": {
+    "vi": "Rượu vang Solaz (Tempranillo, Cabernet Sauvignon)"
+  },
+  "Rondel Gold Semi Seco, DO Cava": {
+    "vi": "Rượu vang sủi Rondel Gold Semi Seco, DO Cava"
+  },
+  "Torres, Viña Esmeralda Semi Dry White, Catalunya (Moscatel, Gewürztraminer)": {
+    "vi": "Rượu vang Torres, Viña Esmeralda Semi Dry White, Catalunya (Moscatel, Gewürztraminer)"
+  },
+  "Rías Baixas Faustino Rivero Ulecia (Albariño)": {
+    "vi": "Rượu vang Rías Baixas Faustino Rivero Ulecia (Albariño)"
+  },
+  "Santa Julia \"Nacional\" (Semillon - Torrontes)": {
+    "vi": "Rượu vang Santa Julia \"Nacional\" (Semillon - Torrontes)"
+  },
+  "Marqués de Riscal, Rueda DO (Sauvignon Blanc)": {
+    "vi": "Rượu vang Marqués de Riscal, Rueda DO (Sauvignon Blanc)"
+  },
+  "Henri Bourgeois, 'En Travertin', Pouilly Fumé (Sauvignon Blanc)": {
+    "vi": "Rượu vang Henri Bourgeois, 'En Travertin', Pouilly Fumé (Sauvignon Blanc)"
+  },
+  "Torres, Sangre de Toro Original, Catalunya DO (Grenache Carignan)": {
+    "vi": "Rượu vang Torres, Sangre de Toro Original, Catalunya DO (Grenache Carignan)"
+  },
+  "Marqués de Riscal, Próximo, Rioja DOCa (Tempranillo blend)": {
+    "vi": "Rượu vang Marqués de Riscal, Próximo, Rioja DOCa (Tempranillo blend)"
+  },
+  "Marqués de Riscal, Reserva, Rioja DOCa (Tempranillo blend)": {
+    "vi": "Rượu vang Marqués de Riscal, Reserva, Rioja DOCa (Tempranillo blend)"
+  },
+  "Bombay Sapphire - shot": {
+    "vi": "Bombay Sapphire — shot"
+  },
+  "Nordés - shot": {
+    "vi": "Nordés - shot"
+  },
+  "Bacardi Carta Blanca - shot": {
+    "vi": "Bacardi Carta Blanca — shot"
+  },
+  "Bacardi Carta Oro - shot": {
+    "vi": "Bacardi Carta Oro — shot"
+  },
+  "Bacardi Carta Oro - bottle": {
+    "vi": "Bacardi Carta Oro — chai"
+  },
+  "Vededi Right Rum - shot": {
+    "vi": "Vededi Right Rum — shot"
+  },
+  "Vededi Right Rum - bottle": {
+    "vi": "Vededi Right Rum — chai"
+  },
+  "Belami ROC 16 Delta - shot": {
+    "vi": "Belami ROC 16 Delta — shot"
+  },
+  "Belami ROC 16 Delta - bottle": {
+    "vi": "Belami ROC 16 Delta — chai"
+  },
+  "Patrón Silver - shot": {
+    "vi": "Patrón Silver - shot"
+  },
+  "Ketel One - shot": {
+    "vi": "Ketel One — shot"
+  },
+  "Ketel One - bottle": {
+    "vi": "Ketel One — chai"
+  },
+  "Grey Goose - shot": {
+    "vi": "Grey Goose — shot"
+  },
+  "Dewar's 12 Year Old - shot": {
+    "vi": "Dewar's 12 Year Old — shot"
+  },
+  "Dewar's 12 Year Old - bottle": {
+    "vi": "Dewar's 12 Year Old — chai"
+  },
+  "Vededi Single Malt Distiller's Choice - shot": {
+    "vi": "Vededi Single Malt Distiller's Choice — shot"
+  },
+  "Vededi Single Malt Distiller's Choice - bottle": {
+    "vi": "Vededi Single Malt Distiller's Choice — chai"
+  },
+  "Hennessy V.S - shot": {
+    "vi": "Hennessy V.S — shot"
+  },
+  "Hennessy V.S - bottle": {
+    "vi": "Hennessy V.S — chai"
+  },
+  "Croissant au Beurre (French Butter Croissant)": {
+    "vi": "Croissant bơ Pháp (Croissant au Beurre)"
+  },
+  "Pain au Chocolat": {
+    "vi": "Bánh pain au chocolat"
+  },
+  "Baguette Monge (Artisanal Monge Baguette)": {
+    "vi": "Baguette Monge thủ công"
+  },
+  "Tarte au Citron Meringuée (Lemon Meringue Tart)": {
+    "vi": "Tart chanh phủ meringue (Tarte au Citron Meringuée)"
+  },
+  "Café Latte / Cappuccino": {
+    "vi": "Cà phê latte / cappuccino"
+  },
+  "Americano (Hot / Iced)": {
+    "vi": "Americano nóng / đá"
+  },
+  "Cà phê trứng (Egg Coffee)": {
+    "vi": "Cà phê trứng"
+  },
+  "Cà phê cốt dừa (Coconut Coffee)": {
+    "vi": "Cà phê cốt dừa"
+  },
+  "Cà phê sữa đá (Vietnamese Iced Milk Coffee)": {
+    "vi": "Cà phê sữa đá"
+  },
+  "Bánh mì bò tiêu đen (Black Pepper Beef Banh Mi)": {
+    "vi": "Bánh mì bò tiêu đen"
+  },
+  "Bánh mì thịt nguội (Traditional Cold Cuts Banh Mi)": {
+    "vi": "Bánh mì thịt nguội"
+  },
+  "Phở bò tái nạm (Beef Pho Noodle Soup)": {
+    "vi": "Phở bò tái nạm"
+  },
+  "Sinh tố bơ cốt dừa (Avocado Coconut Smoothie)": {
+    "vi": "Sinh tố bơ cốt dừa"
+  },
+  "Sun KraftBeer Munich Helles (Lager)": {
+    "vi": "Bia Sun KraftBeer Munich Helles (lager)"
+  },
+  "Sun KraftBeer Weizen (Wheat Beer)": {
+    "vi": "Bia Sun KraftBeer Weizen (bia lúa mì)"
+  },
+  "Sun KraftBeer Dark Dunkel": {
+    "vi": "Bia Sun KraftBeer Dark Dunkel"
+  },
+  "Đùi Heo Muối Chiên Giòn (Crispy Bavarian Schweinshaxe)": {
+    "vi": "Đùi Heo Muối Chiên Giòn"
+  },
+  "Xúc Xích Đức Tổng Hợp (Assorted German Sausages Platter)": {
+    "vi": "Xúc Xích Đức Tổng Hợp"
+  },
+  "Gói Buffet Tối + Xem Show Symphony of the Sea (Dinner Buffet & Show)": {
+    "vi": "Gói Buffet Tối + Xem Show Symphony of the Sea"
+  },
+  "Chả giò hoàng hôn (Sunset Spring Rolls)": {
+    "vi": "Chả giò hoàng hôn"
+  },
+  "Lẩu nấm tràm Phú Quốc (Melaleuca Mushroom Hot Pot)": {
+    "vi": "Lẩu nấm tràm Phú Quốc"
+  },
+  "Lẩu ghẹ Hàm Ninh (Ham Ninh Flower Crab Hot Pot)": {
+    "vi": "Lẩu ghẹ Hàm Ninh"
+  },
+  "Tôm sú sốt bơ tỏi (Garlic Butter Black Tiger Prawns)": {
+    "vi": "Tôm sú sốt bơ tỏi"
+  },
+  "Rượu vang Ý & Cocktail Địa Trung Hải": {
+    "vi": "Rượu vang Ý & Cocktail Địa Trung Hải"
+  },
+  "Ghẹ Hàm Ninh hấp (Steamed Ham Ninh Crab)": {
+    "vi": "Ghẹ Hàm Ninh hấp"
+  },
+  "Mực trứng nướng sa tế": {
+    "vi": "Mực trứng nướng sa tế"
+  },
+  "Ngao 2 còi hấp sả": {
+    "vi": "Ngao 2 còi hấp sả"
+  },
+  "Phin Sữa Đá (Iced Coffee with Condensed Milk)": {
+    "vi": "Phin Sữa Đá"
+  },
+  "Phin Đen Đá (Iced Black Coffee)": {
+    "vi": "Phin Đen Đá"
+  },
+  "Bạc Xỉu Đá (White Coffee with Extra Milk)": {
+    "vi": "Bạc Xỉu Đá"
+  },
+  "Trà Sen Vàng (Golden Lotus Seed Tea)": {
+    "vi": "Trà Sen Vàng"
+  },
+  "Trà Thạch Đào (Peach Jelly Tea)": {
+    "vi": "Trà Thạch Đào"
+  },
+  "Freeze Trà Xanh (Green Tea Freeze)": {
+    "vi": "Freeze Trà Xanh"
+  },
+  "Caramel Phin Freeze": {
+    "vi": "Caramel Phin Freeze"
+  },
+  "Bánh Mì Thịt Nướng (Grilled Pork Banh Mi)": {
+    "vi": "Bánh Mì Thịt Nướng"
+  },
+  "Tôm sú sốt cay ngọt (Steamed Sweet & Spicy Prawns)": {
+    "vi": "Tôm sú sốt cay ngọt"
+  },
+  "Mì xào hải sản / Cơm chiên hải sản": {
+    "vi": "Mì xào hải sản / Cơm chiên hải sản"
+  },
+  "Cá mú sống hấp Hồng Kông (Live Grouper HK Style)": {
+    "vi": "Cá mú sống hấp Hồng Kông"
+  },
+  "Hàu nướng phô mai / mỡ hành": {
+    "vi": "Hàu nướng phô mai / mỡ hành"
+  },
+  "Bia Tiger / Nước suối": {
+    "vi": "Bia Tiger / Nước suối"
+  },
+  "Ba chỉ rang mắm tép (Fried Pork Belly with Shrimp Paste)": {
+    "vi": "Ba chỉ rang mắm tép"
+  },
+  "Cá bống kho tộ (Claypot Braised Goby Fish)": {
+    "vi": "Cá bống kho tộ"
+  },
+  "Bò xào rau củ theo mùa (Stir-fried Beef with Vegetables)": {
+    "vi": "Bò xào rau củ theo mùa"
+  },
+  "Thịt ba chỉ luộc chấm cà pháo mắm tôm": {
+    "vi": "Thịt ba chỉ luộc chấm cà pháo mắm tôm"
+  },
+  "Cơm niêu cháy giòn (Crispy Claypot Rice)": {
+    "vi": "Cơm niêu cháy giòn"
+  },
+  "Canh cua đồng mồng tơi (Field Crab & Spinach Soup)": {
+    "vi": "Canh cua đồng mồng tơi"
+  },
+  "Canh chua cá lăng (Sour Catfish Soup)": {
+    "vi": "Canh chua cá lăng"
+  },
+  "Charcoal Grilled Samgyeopsal (숯불 삼겹살)": {
+    "vi": "Ba chỉ heo nướng than (samgyeopsal)"
+  },
+  "Charcoal Beef Ribs (소갈비살 구이)": {
+    "vi": "Sườn bò nướng than"
+  },
+  "Kimchi Stew & Steamed Rice (김치찌개와 공깃밥)": {
+    "vi": "Canh kimchi & cơm trắng"
+  },
+  "Cold Naengmyeon (물냉면 / 비빔냉면)": {
+    "vi": "Mì lạnh naengmyeon (nước / trộn cay)"
+  },
+  "Teatro Signature Sunset Flame Cocktail": {
+    "vi": "Cocktail lửa hoàng hôn đặc trưng Teatro"
+  },
+  "Classic Gin & Tonic (Hendrick’s)": {
+    "vi": "Gin & tonic cổ điển (Hendrick’s)"
+  },
+  "Ghẹ Hàm Ninh hấp bia / luộc (Ham Ninh Flower Crab)": {
+    "vi": "Ghẹ Hàm Ninh hấp bia / luộc"
   }
 }
