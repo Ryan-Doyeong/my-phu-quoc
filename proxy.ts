@@ -84,13 +84,7 @@ export async function proxy(request: NextRequest) {
     return NextResponse.redirect(url, 301)
   }
 
-  // 1-b) Deactivated /vi prefix -> redirect to unprefixed path (301)
-  if (pathname === '/vi' || pathname.startsWith('/vi/')) {
-    const barePath = pathname === '/vi' ? '/' : pathname.slice(3) || '/'
-    const url = request.nextUrl.clone()
-    url.pathname = barePath
-    return NextResponse.redirect(url, 301)
-  }
+  // 1-b) (2026-11-05) /vi 접두어 리다이렉트 제거 — 베트남어가 다시 활성 언어이므로 /vi 는 정상 경로
 
   // 1-c) Ryan 15차 지시: /partners, /for-businesses 6개 언어 홈으로 임시 리다이렉트 (307)
   {
