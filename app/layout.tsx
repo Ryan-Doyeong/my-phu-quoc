@@ -7,6 +7,7 @@ import './trip-planner.css'
 import './editorial-typography.css'
 import { AnalyticsTracker } from '@/components/AnalyticsTracker'
 import { SiteFooter } from '@/components/SiteFooter'
+import { WebMcpTools } from '@/components/WebMcpTools'
 import { SITE_URL } from '@/lib/supabase/config'
 import { normalizeLocale } from '@/lib/i18n/config'
 
@@ -49,6 +50,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
       </head>
       <body>
         <AnalyticsTracker />
+        <WebMcpTools />
         {children}
         <SiteFooter />
       </body>

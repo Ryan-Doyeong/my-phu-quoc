@@ -44,6 +44,18 @@ export async function proxy(request: NextRequest) {
 
   const { pathname, searchParams } = request.nextUrl
 
+  // 에이전트가 Accept: text/markdown 으로 요청하면 Markdown 렌더 라우트로 rewrite
+  if (request.method === 'GET' && !pathname.startsWith('/md') && !pathname.startsWith('/api')) {
+    const accept = request.headers.get('accept') || ''
+    const mdPos = accept.indexOf('text/markdown')
+    const htmlPos = accept.indexOf('text/html')
+    if (mdPos !== -1 && (htmlPos === -1 || mdPos < htmlPos)) {
+      const url = request.nextUrl.clone()
+      url.pathname = pathname === '/' ? '/md' : `/md${pathname}`
+      return NextResponse.rewrite(url)
+    }
+  }
+
   // 0-a) Permanently deleted out-of-region events -> HTTP 410 Gone
   for (const deletedSlug of PERMANENTLY_DELETED_EVENT_SLUGS) {
     if (pathname.includes(`/events/${deletedSlug}`)) {
