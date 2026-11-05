@@ -292,6 +292,7 @@ const TWO_HUBS_EYEBROW: Record<string, string> = {
   ru: 'Две основные зоны',
   ja: '2つの主要エリア',
   hi: 'दो प्रमुख क्षेत्र',
+  vi: 'HAI ĐIỂM ĐẾN · HAI KHU VỰC',
 }
 
 const TWO_HUBS_TITLE: Record<string, string> = {
@@ -301,6 +302,7 @@ const TWO_HUBS_TITLE: Record<string, string> = {
   ru: 'Sunset Town и Khem Beach',
   ja: 'Sunset TownとKhem Beach',
   hi: 'Sunset Town और Khem Beach',
+  vi: 'Sunset Town & Khem Beach',
 }
 
 const TWO_HUBS_DESC: Record<string, string> = {
@@ -310,6 +312,7 @@ const TWO_HUBS_DESC: Record<string, string> = {
   ru: 'Sunset Town — для вечернего отдыха и ночных видов, а Khem Beach — для дневного отдыха на пляже. Между ними около 10 минут на машине.',
   ja: '夕方と夜景が中心の Sunset Town と、昼間のビーチでのんびり過ごせる Khem Beach。両エリア間は車で約10分です。',
   hi: 'Sunset Town शाम और रात के नज़ारों के लिए, जबकि Khem Beach दिन में समुद्र तट पर आराम करने के लिए है। दोनों के बीच कार से लगभग 10 मिनट लगते हैं।',
+  vi: 'Sunset Town phù hợp để dạo chơi buổi tối và ngắm cảnh đêm, còn Bãi Khem thích hợp để thư giãn trên biển ban ngày. Hai nơi cách nhau khoảng 10 phút đi ô tô.',
 }
 
 type Story = {

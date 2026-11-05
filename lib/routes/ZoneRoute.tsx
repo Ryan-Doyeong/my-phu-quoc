@@ -27,6 +27,7 @@ const ZONE_NAV_LABELS: {
     ru: 'Sunset Town',
     ja: 'Sunset Town',
     hi: 'Sunset Town',
+    vi: 'Sunset Town',
   },
   khem: {
     ko: '켐비치',
@@ -35,6 +36,7 @@ const ZONE_NAV_LABELS: {
     ru: 'Khem Beach',
     ja: 'Khem Beach',
     hi: 'Khem Beach',
+    vi: 'Khem Beach',
   },
 }
 
@@ -45,6 +47,7 @@ function getOverviewTitle(locale: Locale): string {
     case 'ru': return 'Обзор района'
     case 'ja': return 'エリア概要'
     case 'hi': return 'क्षेत्र का परिचय'
+    case 'vi': return 'Tổng quan khu vực'
     default: return 'Zone Overview'
   }
 }
@@ -56,6 +59,7 @@ function getLocalNameBadge(local: string, locale: Locale): string {
     case 'ru': return `Местное название: ${local}`
     case 'ja': return `現地名：${local}`
     case 'hi': return `स्थानीय नाम: ${local}`
+    case 'vi': return `Tên địa phương: ${local}`
     default: return `Local name: ${local}`
   }
 }
@@ -67,6 +71,7 @@ function getTopAttractionsTitle(locale: Locale): string {
     case 'ru': return 'Основные достопримечательности'
     case 'ja': return '主な観光スポット'
     case 'hi': return 'प्रमुख दर्शनीय स्थल'
+    case 'vi': return 'Các điểm tham quan nổi bật'
     default: return 'Top Attractions'
   }
 }
@@ -78,6 +83,7 @@ function getKeyHighlightsBadge(isSunset: boolean, locale: Locale): string {
     case 'ru': return 'Ключевые места'
     case 'ja': return '主要スポット'
     case 'hi': return 'प्रमुख स्थान'
+    case 'vi': return 'Địa điểm chính'
     default: return 'Key Highlights'
   }
 }
@@ -89,6 +95,7 @@ function getCategoriesSectionTitle(name: string, isSunset: boolean, locale: Loca
     case 'ru': return `${name}: категории`
     case 'ja': return `${name}のカテゴリー`
     case 'hi': return `${name} की श्रेणियाँ`
+    case 'vi': return `${name}: danh mục`
     default: return `${name} Categories`
   }
 }
@@ -100,6 +107,7 @@ function getVenuesCountText(count: number, locale: Locale): string {
     case 'ru': return `${count} объектов`
     case 'ja': return `${count}か所`
     case 'hi': return `${count} स्थान`
+    case 'vi': return `${count} địa điểm`
     default: return `${count} venues`
   }
 }
@@ -111,6 +119,7 @@ function getTransportLabel(locale: Locale): string {
     case 'ru': return 'Как добраться:'
     case 'ja': return 'アクセス案内：'
     case 'hi': return 'आवागमन की जानकारी:'
+    case 'vi': return 'Cách di chuyển:'
     default: return 'Transport:'
   }
 }
@@ -123,6 +132,7 @@ function getCrossZoneLinkText(isSunset: boolean, locale: Locale): string {
       case 'ru': return '→ Подробнее о Khem Beach (Bãi Khem)'
       case 'ja': return '→ Khem Beach（Bãi Khem）の詳細を見る'
       case 'hi': return '→ Khem Beach (Bãi Khem) की विस्तृत जानकारी देखें'
+      case 'vi': return '→ Tìm hiểu thêm về Khem Beach (Bãi Khem)'
       default: return '→ Explore Khem Beach Details'
     }
   } else {
@@ -132,6 +142,7 @@ function getCrossZoneLinkText(isSunset: boolean, locale: Locale): string {
       case 'ru': return '→ Подробнее о Sunset Town'
       case 'ja': return '→ Sunset Town の詳細を見る'
       case 'hi': return '→ Sunset Town की विस्तृत जानकारी देखें'
+      case 'vi': return '→ Tìm hiểu thêm về Sunset Town'
       default: return '→ Explore Sunset Town Details'
     }
   }
@@ -144,6 +155,7 @@ function getLandmarksGuideBtnText(locale: string) {
     case 'ru': return 'Путеводитель по 12 главным достопримечательностям'
     case 'ja': return '主要観光スポット12か所のガイドを見る'
     case 'hi': return '12 प्रमुख दर्शनीय स्थलों की गाइड देखें'
+    case 'vi': return 'Cẩm nang 12 điểm tham quan nổi bật'
     default: return 'Explore 12 Must-See Landmarks'
   }
 }

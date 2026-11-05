@@ -395,6 +395,7 @@ const T2_ADDRESS_SUFFIX: Partial<Record<Locale, string>> = {
   ru: 'Фукуок, Вьетнам',
   ja: 'ベトナム・フーコック',
   hi: 'फु क्वोक, वियतनाम',
+  vi: 'Phú Quốc, Việt Nam',
 }
 
 export function formatLocalizedAddress(address?: string | null, locale: Locale = 'en'): string {

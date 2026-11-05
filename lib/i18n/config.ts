@@ -1,9 +1,9 @@
 import { SITE_URL } from '@/lib/supabase/config'
 
 // My Phu Quoc — 6개 언어 (2026-10-25 4차 수정 지시 확정: 한국어·영어·중국어·러시아어·일본어·힌디어)
-// 베트남어(vi)는 제외하되 관련 사전·코드는 복구 가능하도록 비활성화 보존
+// 2026-11-05: 베트남어(vi) 재활성화 — 7개 언어(한·영·중·러·일·힌디·베트남어)
 export const ALL_HISTORICAL_LOCALES = ['en', 'vi', 'hi', 'zh', 'ru', 'ko', 'ja'] as const
-export const SUPPORTED_LOCALES = ['en', 'ko', 'zh', 'ru', 'ja', 'hi'] as const
+export const SUPPORTED_LOCALES = ['en', 'ko', 'zh', 'ru', 'ja', 'hi', 'vi'] as const
 export const LOCALES = SUPPORTED_LOCALES
 export type HistoricalLocale = (typeof ALL_HISTORICAL_LOCALES)[number]
 export type Locale = HistoricalLocale
@@ -62,12 +62,17 @@ export function detectPreferredLocale(acceptLanguage: string | null | undefined)
     return 'hi'
   }
 
+  // vi-VN, vi -> vi
+  if (clean.includes('vi-vn') || clean.startsWith('vi')) {
+    return 'vi'
+  }
+
   // 기본은 영어
   return 'en'
 }
 
 /** hi/zh/ru/ja 는 처음에 "AI 검수 완료 / 원어민 미확인" 상태 (내부 관리용, 방문자 비노출) */
-export const AI_REVIEWED_LOCALES: readonly Locale[] = ['hi', 'zh', 'ru', 'ja']
+export const AI_REVIEWED_LOCALES: readonly Locale[] = ['hi', 'zh', 'ru', 'ja', 'vi']
 
 export function isValidLocale(value: unknown): value is ActiveLocale {
   return typeof value === 'string' && (SUPPORTED_LOCALES as readonly string[]).includes(value)

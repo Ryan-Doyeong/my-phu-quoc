@@ -300,7 +300,9 @@ export function BusinessMenuSection({
             const sectionTitle = (() => {
               if (isKo) return section.title_ko || section.title
               if (isVi) {
-                const rawVi = section.title_vi || section.title_en || section.title
+                const viKey = SECTION_CANONICAL_EN_MAP[section.title_en || ''] || section.title_en || ''
+                const viTr = (sectionTitlesTranslations as Record<string, Record<string, string>>)[viKey]?.vi
+                const rawVi = section.title_vi || viTr || section.title_en || section.title
                 // 비-ko 화면에 한글 섹션 제목이 절대 나오지 않게 방어
                 return /[\uac00-\ud7a3]/.test(rawVi) ? (section.title_en || 'Thực đơn') : rawVi
               }
@@ -359,7 +361,14 @@ export function BusinessMenuSection({
                       if (isKo) {
                         primaryName = item.name_ko || item.name_original
                       } else if (isVi) {
-                        primaryName = item.name_vi || item.name_en || item.name_original
+                        // 베트남어: name_vi → 번역본 vi → 베트남어 원문(한글 아님) → 영어
+                        const viTr = (menuNamesTranslations as Record<string, Record<string, string>>)[item.name_original]?.vi
+                        primaryName =
+                          item.name_vi ||
+                          viTr ||
+                          (item.name_original && !/[\uac00-\ud7a3]/.test(item.name_original) ? item.name_original : '') ||
+                          item.name_en ||
+                          item.name_original
                       } else {
                         // en / zh / ru / ja / hi: 교정 번역본 우선 → 없으면 en → 없으면 name_original
                         const tr = (menuNamesTranslations as Record<string, Record<string, string>>)[item.name_original]
@@ -385,7 +394,11 @@ export function BusinessMenuSection({
                       if (isKo) {
                         displayDesc = enriched.descKo
                       } else if (isVi) {
-                        displayDesc = item.description_original || enriched.descEn
+                        displayDesc =
+                          item.description_original ||
+                          (enriched.descEn
+                            ? (menuDescriptionsTranslations as Record<string, Record<string, string>>)[enriched.descEn.trim()]?.vi || enriched.descEn
+                            : null)
                       } else if (locale === 'zh' || locale === 'ru' || locale === 'ja' || locale === 'hi') {
                         const descEn = enriched.descEn
                         if (descEn) {

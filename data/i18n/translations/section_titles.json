@@ -4,811 +4,927 @@
     "zh": "炉端烧与炭烤鱼",
     "ru": "Робатаяки и рыба на углях",
     "ja": "炉端焼き＆炭火焼き魚",
-    "hi": "रोबाटायाकी और चारकोल ग्रिल्ड फिश"
+    "hi": "रोबाटायाकी और चारकोल ग्रिल्ड फिश",
+    "vi": "Robatayaki & cá nướng than"
   },
   "Sushi, Sashimi & Ramen": {
     "en": "Sushi, Sashimi & Ramen",
     "zh": "寿司、刺身与拉面",
     "ru": "Суши, сашими и рамен",
     "ja": "寿司・刺身・ラーメン",
-    "hi": "सुशी, साशिमी और रामेन"
+    "hi": "सुशी, साशिमी और रामेन",
+    "vi": "Sushi, sashimi & ramen"
   },
   "Draft Beer & Craft Beer": {
     "en": "Draft Beer & Craft Beer",
     "zh": "生啤与精酿啤酒",
     "ru": "Разливное и крафтовое пиво",
     "ja": "生ビール＆クラフトビール",
-    "hi": "ड्राफ्ट बीयर और क्राफ्ट बीयर"
+    "hi": "ड्राफ्ट बीयर और क्राफ्ट बीयर",
+    "vi": "Bia tươi & bia thủ công"
   },
   "Phu Quoc Seafood & Grills": {
     "en": "Phu Quoc Seafood & Grills",
     "zh": "富国岛海鲜与烧烤",
     "ru": "Морепродукты Фукуока и блюда на гриле",
     "ja": "フーコックのシーフード＆グリル",
-    "hi": "फू क्वोक सीफूड और ग्रिल्ड व्यंजन"
+    "hi": "फू क्वोक सीफूड और ग्रिल्ड व्यंजन",
+    "vi": "Hải sản Phú Quốc & món nướng"
   },
   "Breakfast (07:00–11:00)": {
     "en": "Breakfast (07:00–11:00)",
     "zh": "早餐（07:00–11:00）",
     "ru": "Завтрак (07:00–11:00)",
     "ja": "朝食（07:00～11:00）",
-    "hi": "नाश्ता (07:00–11:00)"
+    "hi": "नाश्ता (07:00–11:00)",
+    "vi": "Bữa sáng (07:00–11:00)"
   },
   "Appetizers & Salads": {
     "en": "Appetizers & Salads",
     "zh": "前菜与沙拉",
     "ru": "Закуски и салаты",
     "ja": "前菜＆サラダ",
-    "hi": "स्टार्टर्स और सलाद"
+    "hi": "स्टार्टर्स और सलाद",
+    "vi": "Khai vị & salad"
   },
   "Phu Quoc Specialties & Traditional Vietnamese Cuisine": {
     "en": "Phu Quoc Specialties & Traditional Vietnamese Cuisine",
     "zh": "富国岛特色菜与越南传统美食",
     "ru": "Блюда Фукуока и традиционная вьетнамская кухня",
     "ja": "フーコック名物＆ベトナム伝統料理",
-    "hi": "फू क्वोक के विशेष व्यंजन और पारंपरिक वियतनामी भोजन"
+    "hi": "फू क्वोक के विशेष व्यंजन और पारंपरिक वियतनामी भोजन",
+    "vi": "Đặc sản Phú Quốc & món Việt truyền thống"
   },
   "Western Main Courses & Grills": {
     "en": "Western Main Courses & Grills",
     "zh": "西式主菜与烧烤",
     "ru": "Западные основные блюда и гриль",
     "ja": "洋食メイン料理＆グリル",
-    "hi": "वेस्टर्न मेन कोर्स और ग्रिल्ड व्यंजन"
+    "hi": "वेस्टर्न मेन कोर्स और ग्रिल्ड व्यंजन",
+    "vi": "Món chính Âu & món nướng"
   },
   "Burgers, Pasta & Sourdough Pizza": {
     "en": "Burgers, Pasta & Sourdough Pizza",
     "zh": "汉堡、意面与酸面团披萨",
     "ru": "Бургеры, паста и пицца на закваске",
     "ja": "バーガー・パスタ・サワードウピザ",
-    "hi": "बर्गर, पास्ता और सावरडो पिज्जा"
+    "hi": "बर्गर, पास्ता और सावरडो पिज्जा",
+    "vi": "Burger, mì Ý & pizza đế chua"
   },
   "Korean Dishes": {
     "en": "Korean Dishes",
     "zh": "韩国料理",
     "ru": "Корейские блюда",
     "ja": "韓国料理",
-    "hi": "कोरियाई व्यंजन"
+    "hi": "कोरियाई व्यंजन",
+    "vi": "Món Hàn Quốc"
   },
   "Indian Dishes": {
     "en": "Indian Dishes",
     "zh": "印度料理",
     "ru": "Индийские блюда",
     "ja": "インド料理",
-    "hi": "भारतीय व्यंजन"
+    "hi": "भारतीय व्यंजन",
+    "vi": "Món Ấn Độ"
   },
   "Kids' Menu & Desserts": {
     "en": "Kids' Menu & Desserts",
     "zh": "儿童菜单与甜点",
     "ru": "Детское меню и десерты",
     "ja": "キッズメニュー＆デザート",
-    "hi": "बच्चों का मेन्यू और डेजर्ट"
+    "hi": "बच्चों का मेन्यू और डेजर्ट",
+    "vi": "Thực đơn trẻ em & tráng miệng"
   },
   "Vietnamese Set Menu (2 People)": {
     "en": "Vietnamese Set Menu (2 People)",
     "zh": "越南套餐（2人份）",
     "ru": "Вьетнамское сет-меню (на 2 персоны)",
     "ja": "ベトナム料理セット（2名様）",
-    "hi": "वियतनामी सेट मेन्यू (2 लोगों के लिए)"
+    "hi": "वियतनामी सेट मेन्यू (2 लोगों के लिए)",
+    "vi": "Thực đơn món Việt cho 2 người"
   },
   "Beverages, Coffee & Tea": {
     "en": "Beverages, Coffee & Tea",
     "zh": "饮品、咖啡与茶",
     "ru": "Напитки, кофе и чай",
     "ja": "ドリンク・コーヒー・紅茶",
-    "hi": "पेय पदार्थ, कॉफी और चाय"
+    "hi": "पेय पदार्थ, कॉफी और चाय",
+    "vi": "Đồ uống, cà phê & trà"
   },
   "Starters (Spanish & Italian Influences)": {
     "en": "Starters (Spanish & Italian Influences)",
     "zh": "前菜（西班牙与意大利风味）",
     "ru": "Закуски с испанскими и итальянскими мотивами",
     "ja": "前菜（スペイン・イタリア風）",
-    "hi": "स्टार्टर्स (स्पेनिश और इटालियन शैली)"
+    "hi": "स्टार्टर्स (स्पेनिश और इटालियन शैली)",
+    "vi": "Món khai vị phong cách Tây Ban Nha & Ý"
   },
   "Homemade Pasta": {
     "en": "Homemade Pasta",
     "zh": "自制意大利面",
     "ru": "Домашняя паста",
     "ja": "自家製パスタ",
-    "hi": "घर पर बना पास्ता"
+    "hi": "घर पर बना पास्ता",
+    "vi": "Mì Ý nhà làm"
   },
   "Pizza with 48-Hour Fermented Dough": {
     "en": "Pizza with 48-Hour Fermented Dough",
     "zh": "48小时发酵面团披萨",
     "ru": "Пицца на тесте 48-часовой ферментации",
     "ja": "48時間発酵生地のピザ",
-    "hi": "48 घंटे फर्मेंट किए गए आटे से बना पिज्जा"
+    "hi": "48 घंटे फर्मेंट किए गए आटे से बना पिज्जा",
+    "vi": "Pizza ủ bột 48 giờ"
   },
   "Charcoal Grills & Main Courses": {
     "en": "Charcoal Grills & Main Courses",
     "zh": "炭火烧烤与主菜",
     "ru": "Блюда на углях и основные блюда",
     "ja": "炭火焼き＆メイン料理",
-    "hi": "चारकोल ग्रिल और मेन कोर्स"
+    "hi": "चारकोल ग्रिल और मेन कोर्स",
+    "vi": "Món nướng than & món chính"
   },
   "Sides & Sauces": {
     "en": "Sides & Sauces",
     "zh": "配菜与酱汁",
     "ru": "Гарниры и соусы",
     "ja": "サイドディッシュ＆ソース",
-    "hi": "साइड डिश और सॉस"
+    "hi": "साइड डिश और सॉस",
+    "vi": "Món ăn kèm & nước xốt"
   },
   "Desserts": {
     "en": "Desserts",
     "zh": "甜点",
     "ru": "Десерты",
     "ja": "デザート",
-    "hi": "डेजर्ट"
+    "hi": "डेजर्ट",
+    "vi": "Món tráng miệng"
   },
   "Beverage Selection": {
     "en": "Beverage Selection",
     "zh": "精选饮品",
     "ru": "Ассортимент напитков",
     "ja": "ドリンクセレクション",
-    "hi": "पेय पदार्थों का चयन"
+    "hi": "पेय पदार्थों का चयन",
+    "vi": "Các loại đồ uống"
   },
   "Traditional Hanoi Pho": {
     "en": "Traditional Hanoi Pho",
     "zh": "传统河内河粉",
     "ru": "Традиционный ханойский фо",
     "ja": "伝統的なハノイのフォー",
-    "hi": "पारंपरिक हनोई फो"
+    "hi": "पारंपरिक हनोई फो",
+    "vi": "Phở Hà Nội truyền thống"
   },
   "Sunset Town Beef Hot Pot": {
     "en": "Sunset Town Beef Hot Pot",
     "zh": "Sunset Town 牛肉火锅",
     "ru": "Говяжий хот-пот Sunset Town",
     "ja": "Sunset Town 牛肉鍋",
-    "hi": "Sunset Town बीफ हॉटपॉट"
+    "hi": "Sunset Town बीफ हॉटपॉट",
+    "vi": "Lẩu bò Thị trấn Hoàng Hôn"
   },
   "Sides, Add-ons & Desserts": {
     "en": "Sides, Add-ons & Desserts",
     "zh": "配菜、加点与甜点",
     "ru": "Гарниры, добавки и десерты",
     "ja": "サイドメニュー・追加メニュー・デザート",
-    "hi": "साइड डिश, अतिरिक्त आइटम और डेजर्ट"
+    "hi": "साइड डिश, अतिरिक्त आइटम और डेजर्ट",
+    "vi": "Món ăn kèm, món gọi thêm & tráng miệng"
   },
   "Döner Kebab & Turkish Specialties": {
     "en": "Döner Kebab & Turkish Specialties",
     "zh": "土耳其旋转烤肉与特色菜",
     "ru": "Дёнер-кебаб и турецкие блюда",
     "ja": "ドネルケバブ＆トルコ料理",
-    "hi": "डोनर कबाब और तुर्की विशेष व्यंजन"
+    "hi": "डोनर कबाब और तुर्की विशेष व्यंजन",
+    "vi": "Kebab Döner & đặc sản Thổ Nhĩ Kỳ"
   },
   "Skyline Sunset Cocktails": {
     "en": "Skyline Sunset Cocktails",
     "zh": "Skyline 日落鸡尾酒",
     "ru": "Закатные коктейли Skyline",
     "ja": "Skyline サンセットカクテル",
-    "hi": "Skyline सनसेट कॉकटेल"
+    "hi": "Skyline सनसेट कॉकटेल",
+    "vi": "Cocktail ngắm hoàng hôn"
   },
   "Daily Breakfast Buffet": {
     "en": "Daily Breakfast Buffet",
     "zh": "每日自助早餐",
     "ru": "Ежедневный завтрак «шведский стол»",
     "ja": "毎日の朝食ビュッフェ",
-    "hi": "रोजाना ब्रेकफास्ट बुफे"
+    "hi": "रोजाना ब्रेकफास्ट बुफे",
+    "vi": "Buffet sáng hằng ngày"
   },
   "Appetizers": {
     "en": "Appetizers",
     "zh": "前菜",
     "ru": "Закуски",
     "ja": "前菜",
-    "hi": "स्टार्टर्स"
+    "hi": "स्टार्टर्स",
+    "vi": "Món khai vị"
   },
   "Sandwiches & Burgers": {
     "en": "Sandwiches & Burgers",
     "zh": "三明治与汉堡",
     "ru": "Сэндвичи и бургеры",
     "ja": "サンドイッチ＆バーガー",
-    "hi": "सैंडविच और बर्गर"
+    "hi": "सैंडविच और बर्गर",
+    "vi": "Sandwich & burger"
   },
   "Meat & Fish": {
     "en": "Meat & Fish",
     "zh": "肉类与鱼类料理",
     "ru": "Мясо и рыба",
     "ja": "肉料理＆魚料理",
-    "hi": "मांस और मछली के व्यंजन"
+    "hi": "मांस और मछली के व्यंजन",
+    "vi": "Món thịt & cá"
   },
   "Spaghetti": {
     "en": "Spaghetti",
     "zh": "意大利细面",
     "ru": "Спагетти",
     "ja": "スパゲッティ",
-    "hi": "स्पेगेटी"
+    "hi": "स्पेगेटी",
+    "vi": "Mì spaghetti"
   },
   "Pizza": {
     "en": "Pizza",
     "zh": "披萨",
     "ru": "Пицца",
     "ja": "ピザ",
-    "hi": "पिज्जा"
+    "hi": "पिज्जा",
+    "vi": "Pizza"
   },
   "Wine": {
     "en": "Wine",
     "zh": "葡萄酒",
     "ru": "Вино",
     "ja": "ワイン",
-    "hi": "वाइन"
+    "hi": "वाइन",
+    "vi": "Rượu vang"
   },
   "Classic & Fancy Cocktails": {
     "en": "Classic & Fancy Cocktails",
     "zh": "经典与创意鸡尾酒",
     "ru": "Классические и оригинальные коктейли",
     "ja": "クラシック＆創作カクテル",
-    "hi": "क्लासिक और खास कॉकटेल"
+    "hi": "क्लासिक और खास कॉकटेल",
+    "vi": "Cocktail cổ điển & sáng tạo"
   },
   "Non-Alcoholic Cocktails": {
     "en": "Non-Alcoholic Cocktails",
     "zh": "无酒精鸡尾酒",
     "ru": "Безалкогольные коктейли",
     "ja": "ノンアルコールカクテル",
-    "hi": "नॉन-अल्कोहलिक कॉकटेल"
+    "hi": "नॉन-अल्कोहलिक कॉकटेल",
+    "vi": "Cocktail không cồn"
   },
   "Coffee": {
     "en": "Coffee",
     "zh": "咖啡",
     "ru": "Кофе",
     "ja": "コーヒー",
-    "hi": "कॉफी"
+    "hi": "कॉफी",
+    "vi": "Cà phê"
   },
   "Refreshing Tea": {
     "en": "Refreshing Tea",
     "zh": "清爽茶饮",
     "ru": "Освежающий чай",
     "ja": "リフレッシュティー",
-    "hi": "रिफ्रेशिंग टी"
+    "hi": "रिफ्रेशिंग टी",
+    "vi": "Các loại trà thanh mát"
   },
   "Fresh Juices & Healthy Drinks": {
     "en": "Fresh Juices & Healthy Drinks",
     "zh": "鲜榨果汁与健康饮品",
     "ru": "Свежевыжатые соки и полезные напитки",
     "ja": "フレッシュジュース＆ヘルシードリンク",
-    "hi": "ताजा जूस और हेल्दी ड्रिंक्स"
+    "hi": "ताजा जूस और हेल्दी ड्रिंक्स",
+    "vi": "Nước ép tươi & đồ uống tốt cho sức khỏe"
   },
   "Smoothies & Ice-Blended Drinks": {
     "en": "Smoothies & Ice-Blended Drinks",
     "zh": "果昔与冰沙饮品",
     "ru": "Смузи и напитки со льдом",
     "ja": "スムージー＆フローズンドリンク",
-    "hi": "स्मूदी और आइस-ब्लेंडेड ड्रिंक्स"
+    "hi": "स्मूदी और आइस-ब्लेंडेड ड्रिंक्स",
+    "vi": "Sinh tố & đồ uống đá xay"
   },
   "Beer & Soft Drinks": {
     "en": "Beer & Soft Drinks",
     "zh": "啤酒与软饮料",
     "ru": "Пиво и безалкогольные напитки",
     "ja": "ビール＆ソフトドリンク",
-    "hi": "बीयर और सॉफ्ट ड्रिंक्स"
+    "hi": "बीयर और सॉफ्ट ड्रिंक्स",
+    "vi": "Bia & nước ngọt"
   },
   "Kimbap": {
     "en": "Kimbap",
     "zh": "韩式紫菜包饭",
     "ru": "Кимбап",
     "ja": "キンパ",
-    "hi": "किम्बाप"
+    "hi": "किम्बाप",
+    "vi": "Kimbap"
   },
   "Korean Street Food & Noodles": {
     "en": "Korean Street Food & Noodles",
     "zh": "韩式街头小吃与面食",
     "ru": "Корейские уличные закуски и лапша",
     "ja": "韓国屋台料理＆麺類",
-    "hi": "कोरियाई स्ट्रीट फूड और नूडल्स"
+    "hi": "कोरियाई स्ट्रीट फूड और नूडल्स",
+    "vi": "Món ăn đường phố Hàn Quốc & mì"
   },
   "Rice Meals & Korean Stews": {
     "en": "Rice Meals & Korean Stews",
     "zh": "韩式饭食与炖汤",
     "ru": "Блюда с рисом и корейские супы-ччигэ",
     "ja": "ご飯もの＆チゲ",
-    "hi": "चावल के व्यंजन और कोरियाई स्ट्यू"
+    "hi": "चावल के व्यंजन और कोरियाई स्ट्यू",
+    "vi": "Cơm & món hầm Hàn Quốc"
   },
   "Kungfu Hand-Pulled Noodles": {
     "en": "Kungfu Hand-Pulled Noodles",
     "zh": "功夫手工拉面",
     "ru": "Лапша ручной вытяжки Kungfu",
     "ja": "Kungfu 手打ち麺",
-    "hi": "Kungfu हाथ से खींचे हुए नूडल्स"
+    "hi": "Kungfu हाथ से खींचे हुए नूडल्स",
+    "vi": "Mì kéo tay Kungfu"
   },
   "Refreshing Drinks": {
     "en": "Refreshing Drinks",
     "zh": "清爽饮品",
     "ru": "Освежающие напитки",
     "ja": "リフレッシュドリンク",
-    "hi": "ताजगी देने वाले पेय"
+    "hi": "ताजगी देने वाले पेय",
+    "vi": "Đồ uống giải khát"
   },
   "Speakeasy Cocktails": {
     "en": "Speakeasy Cocktails",
     "zh": "Speakeasy 风格鸡尾酒",
     "ru": "Коктейли в стиле спикизи",
     "ja": "スピークイージー・カクテル",
-    "hi": "स्पीकईज़ी कॉकटेल"
+    "hi": "स्पीकईज़ी कॉकटेल",
+    "vi": "Cocktail phong cách speakeasy"
   },
   "Ice Cream & Tea": {
     "en": "Ice Cream & Tea",
     "zh": "冰淇淋与茶饮",
     "ru": "Мороженое и чай",
     "ja": "アイスクリーム＆ティー",
-    "hi": "आइसक्रीम और चाय"
+    "hi": "आइसक्रीम और चाय",
+    "vi": "Kem & trà"
   },
   "Chef Victor Ho's Recommended Set": {
     "en": "Chef Victor Ho's Recommended Set",
     "zh": "Victor Ho 主厨推荐套餐",
     "ru": "Рекомендованный сет от шеф-повара Victor Ho",
     "ja": "Victor Ho シェフおすすめセット",
-    "hi": "शेफ Victor Ho का सुझाया सेट"
+    "hi": "शेफ Victor Ho का सुझाया सेट",
+    "vi": "Thực đơn gợi ý của bếp trưởng Victor Ho"
   },
   "Dim Sum": {
     "en": "Dim Sum",
     "zh": "点心",
     "ru": "Димсам",
     "ja": "点心",
-    "hi": "डिम सम"
+    "hi": "डिम सम",
+    "vi": "Dim sum"
   },
   "Soups (20-Minute Preparation)": {
     "en": "Soups (20-Minute Preparation)",
     "zh": "汤品（制作需20分钟）",
     "ru": "Супы (приготовление 20 минут)",
     "ja": "スープ（調理時間20分）",
-    "hi": "सूप (तैयारी में 20 मिनट)"
+    "hi": "सूप (तैयारी में 20 मिनट)",
+    "vi": "Món súp (chuẩn bị trong 20 phút)"
   },
   "Local Seafood": {
     "en": "Local Seafood",
     "zh": "当地海鲜",
     "ru": "Местные морепродукты",
     "ja": "地元のシーフード",
-    "hi": "स्थानीय सीफूड"
+    "hi": "स्थानीय सीफूड",
+    "vi": "Hải sản địa phương"
   },
   "Meat & Poultry": {
     "en": "Meat & Poultry",
     "zh": "肉类与禽类",
     "ru": "Мясо и птица",
     "ja": "肉料理＆鶏・家禽料理",
-    "hi": "मांस और पोल्ट्री"
+    "hi": "मांस और पोल्ट्री",
+    "vi": "Thịt & gia cầm"
   },
   "Barbecued Dishes": {
     "en": "Barbecued Dishes",
     "zh": "烧腊与烧烤",
     "ru": "Блюда барбекю",
     "ja": "バーベキュー料理",
-    "hi": "बारबेक्यू व्यंजन"
+    "hi": "बारबेक्यू व्यंजन",
+    "vi": "Món nướng BBQ"
   },
   "Vegetables": {
     "en": "Vegetables",
     "zh": "蔬菜",
     "ru": "Овощи",
     "ja": "野菜料理",
-    "hi": "सब्जियां"
+    "hi": "सब्जियां",
+    "vi": "Rau củ"
   },
   "Noodles, Rice & Congee": {
     "en": "Noodles, Rice & Congee",
     "zh": "面食、米饭与粥",
     "ru": "Лапша, рис и рисовая каша",
     "ja": "麺類・ご飯・お粥",
-    "hi": "नूडल्स, चावल और कॉन्जी"
+    "hi": "नूडल्स, चावल और कॉन्जी",
+    "vi": "Mì, cơm & cháo"
   },
   "Vegetarian Dishes": {
     "en": "Vegetarian Dishes",
     "zh": "素食料理",
     "ru": "Вегетарианские блюда",
     "ja": "ベジタリアン料理",
-    "hi": "शाकाहारी व्यंजन"
+    "hi": "शाकाहारी व्यंजन",
+    "vi": "Món chay"
   },
   "Signature & Classic Cocktails": {
     "en": "Signature & Classic Cocktails",
     "zh": "招牌与经典鸡尾酒",
     "ru": "Фирменные и классические коктейли",
     "ja": "シグネチャー＆クラシックカクテル",
-    "hi": "सिग्नेचर और क्लासिक कॉकटेल"
+    "hi": "सिग्नेचर और क्लासिक कॉकटेल",
+    "vi": "Cocktail đặc trưng & cổ điển"
   },
   "Mocktails": {
     "en": "Mocktails",
     "zh": "无酒精鸡尾酒",
     "ru": "Безалкогольные коктейли",
     "ja": "モクテル",
-    "hi": "मॉकटेल"
+    "hi": "मॉकटेल",
+    "vi": "Mocktail"
   },
   "Beer, Soft Drinks & Water": {
     "en": "Beer, Soft Drinks & Water",
     "zh": "啤酒、软饮料与饮用水",
     "ru": "Пиво, безалкогольные напитки и вода",
     "ja": "ビール・ソフトドリンク・ミネラルウォーター",
-    "hi": "बीयर, सॉफ्ट ड्रिंक्स और पानी"
+    "hi": "बीयर, सॉफ्ट ड्रिंक्स और पानी",
+    "vi": "Bia, nước ngọt & nước lọc"
   },
   "Smoothies & Juices": {
     "en": "Smoothies & Juices",
     "zh": "果昔与果汁",
     "ru": "Смузи и соки",
     "ja": "スムージー＆ジュース",
-    "hi": "स्मूदी और जूस"
+    "hi": "स्मूदी और जूस",
+    "vi": "Sinh tố & nước ép"
   },
   "Tea & Coffee": {
     "en": "Tea & Coffee",
     "zh": "茶与咖啡",
     "ru": "Чай и кофе",
     "ja": "紅茶・お茶＆コーヒー",
-    "hi": "चाय और कॉफी"
+    "hi": "चाय और कॉफी",
+    "vi": "Trà & cà phê"
   },
   "Maotai": {
     "en": "Maotai",
     "zh": "茅台酒",
     "ru": "Маотай",
     "ja": "茅台酒",
-    "hi": "माओताई"
+    "hi": "माओताई",
+    "vi": "Rượu Mao Đài"
   },
   "Wine by the Glass": {
     "en": "Wine by the Glass",
     "zh": "杯装葡萄酒",
     "ru": "Вино по бокалам",
     "ja": "グラスワイン",
-    "hi": "ग्लास के हिसाब से वाइन"
+    "hi": "ग्लास के हिसाब से वाइन",
+    "vi": "Rượu vang theo ly"
   },
   "Wine by the Bottle": {
     "en": "Wine by the Bottle",
     "zh": "瓶装葡萄酒",
     "ru": "Вино по бутылкам",
     "ja": "ボトルワイン",
-    "hi": "बोतल के हिसाब से वाइन"
+    "hi": "बोतल के हिसाब से वाइन",
+    "vi": "Rượu vang nguyên chai"
   },
   "Spirits (Glass / Bottle)": {
     "en": "Spirits (Glass / Bottle)",
     "zh": "烈酒（杯装／瓶装）",
     "ru": "Крепкий алкоголь (бокал / бутылка)",
     "ja": "スピリッツ（グラス／ボトル）",
-    "hi": "स्पिरिट्स (ग्लास / बोतल)"
+    "hi": "स्पिरिट्स (ग्लास / बोतल)",
+    "vi": "Rượu mạnh (ly / chai)"
   },
   "Fresh Seafood & Sharing Platters": {
     "en": "Fresh Seafood & Sharing Platters",
     "zh": "鲜活海鲜与分享拼盘",
     "ru": "Свежие морепродукты и большие ассорти",
     "ja": "新鮮なシーフード＆シェアプレート",
-    "hi": "ताजा सीफूड और शेयरिंग प्लैटर"
+    "hi": "ताजा सीफूड और शेयरिंग प्लैटर",
+    "vi": "Hải sản tươi & phần ăn chia sẻ"
   },
   "Beef & Charcoal Grills": {
     "en": "Beef & Charcoal Grills",
     "zh": "牛肉与炭火烧烤",
     "ru": "Говядина и блюда на углях",
     "ja": "牛肉料理＆炭火焼き",
-    "hi": "बीफ और चारकोल ग्रिल"
+    "hi": "बीफ और चारकोल ग्रिल",
+    "vi": "Thịt bò & món nướng than"
   },
   "Rice & Noodles": {
     "en": "Rice & Noodles",
     "zh": "米饭与面食",
     "ru": "Рис и лапша",
     "ja": "ご飯もの＆麺類",
-    "hi": "चावल और नूडल्स"
+    "hi": "चावल और नूडल्स",
+    "vi": "Cơm & mì"
   },
   "Craft Beer & Drinks": {
     "en": "Craft Beer & Drinks",
     "zh": "精酿啤酒与饮品",
     "ru": "Крафтовое пиво и напитки",
     "ja": "クラフトビール＆ドリンク",
-    "hi": "क्राफ्ट बीयर और पेय पदार्थ"
+    "hi": "क्राफ्ट बीयर और पेय पदार्थ",
+    "vi": "Bia thủ công & đồ uống"
   },
   "Spanish Indulgence Brunch Set (07:00–16:00)": {
     "en": "Spanish Indulgence Brunch Set (07:00–16:00)",
     "zh": "Spanish Indulgence 西班牙早午餐套餐（07:00–16:00）",
     "ru": "Бранч-сет Spanish Indulgence (07:00–16:00)",
     "ja": "Spanish Indulgence ブランチセット（07:00～16:00）",
-    "hi": "Spanish Indulgence ब्रंच सेट (07:00–16:00)"
+    "hi": "Spanish Indulgence ब्रंच सेट (07:00–16:00)",
+    "vi": "Set brunch Spanish Indulgence (07:00–16:00)"
   },
   "Lunch Menu (11:00–16:00)": {
     "en": "Lunch Menu (11:00–16:00)",
     "zh": "午餐菜单（11:00–16:00）",
     "ru": "Обеденное меню (11:00–16:00)",
     "ja": "ランチメニュー（11:00～16:00）",
-    "hi": "लंच मेन्यू (11:00–16:00)"
+    "hi": "लंच मेन्यू (11:00–16:00)",
+    "vi": "Thực đơn trưa (11:00–16:00)"
   },
   "Tapas Evening (Fri–Sun, 18:00–21:00)": {
     "en": "Tapas Evening (Fri–Sun, 18:00–21:00)",
     "zh": "塔帕斯之夜（周五至周日，18:00–21:00）",
     "ru": "Вечер тапас (пт.–вс., 18:00–21:00)",
     "ja": "タパスナイト（金～日 18:00～21:00）",
-    "hi": "टापस ईवनिंग (शुक्रवार–रविवार, 18:00–21:00)"
+    "hi": "टापस ईवनिंग (शुक्रवार–रविवार, 18:00–21:00)",
+    "vi": "Tapas buổi tối (Thứ Sáu–Chủ Nhật, 18:00–21:00)"
   },
   "Dinner Menu (17:00–22:00) – Starters": {
     "en": "Dinner Menu (17:00–22:00) – Starters",
     "zh": "晚餐菜单（17:00–22:00）— 前菜",
     "ru": "Ужин (17:00–22:00) — закуски",
     "ja": "ディナーメニュー（17:00～22:00）― 前菜",
-    "hi": "डिनर मेन्यू (17:00–22:00) – स्टार्टर्स"
+    "hi": "डिनर मेन्यू (17:00–22:00) – स्टार्टर्स",
+    "vi": "Thực đơn tối (17:00–22:00) – Khai vị"
   },
   "Dinner Menu – Main Courses": {
     "en": "Dinner Menu – Main Courses",
     "zh": "晚餐菜单 — 主菜",
     "ru": "Ужин — основные блюда",
     "ja": "ディナーメニュー ― メイン料理",
-    "hi": "डिनर मेन्यू – मेन कोर्स"
+    "hi": "डिनर मेन्यू – मेन कोर्स",
+    "vi": "Thực đơn tối – Món chính"
   },
   "Side Dishes": {
     "en": "Side Dishes",
     "zh": "配菜",
     "ru": "Гарниры",
     "ja": "サイドディッシュ",
-    "hi": "साइड डिश"
+    "hi": "साइड डिश",
+    "vi": "Món ăn kèm"
   },
   "Kids' Menu": {
     "en": "Kids' Menu",
     "zh": "儿童菜单",
     "ru": "Детское меню",
     "ja": "キッズメニュー",
-    "hi": "बच्चों का मेन्यू"
+    "hi": "बच्चों का मेन्यू",
+    "vi": "Thực đơn trẻ em"
   },
   "Soft Drinks, Water & Beer": {
     "en": "Soft Drinks, Water & Beer",
     "zh": "软饮料、饮用水与啤酒",
     "ru": "Безалкогольные напитки, вода и пиво",
     "ja": "ソフトドリンク・水・ビール",
-    "hi": "सॉफ्ट ड्रिंक्स, पानी और बीयर"
+    "hi": "सॉफ्ट ड्रिंक्स, पानी और बीयर",
+    "vi": "Nước ngọt, nước lọc & bia"
   },
   "Mixed Juices & Smoothies": {
     "en": "Mixed Juices & Smoothies",
     "zh": "混合果汁与果昔",
     "ru": "Смешанные соки и смузи",
     "ja": "ミックスジュース＆スムージー",
-    "hi": "मिक्स्ड जूस और स्मूदी"
+    "hi": "मिक्स्ड जूस और स्मूदी",
+    "vi": "Nước ép phối vị & sinh tố"
   },
   "Spirits (Shot / Bottle)": {
     "en": "Spirits (Shot / Bottle)",
     "zh": "烈酒（单杯／整瓶）",
     "ru": "Крепкий алкоголь (шот / бутылка)",
     "ja": "スピリッツ（ショット／ボトル）",
-    "hi": "स्पिरिट्स (शॉट / बोतल)"
+    "hi": "स्पिरिट्स (शॉट / बोतल)",
+    "vi": "Rượu mạnh (shot / chai)"
   },
   "Viennoiserie & Artisanal Bread": {
     "en": "Viennoiserie & Artisanal Bread",
     "zh": "法式酥皮糕点与手工面包",
     "ru": "Французская выпечка и ремесленный хлеб",
     "ja": "ヴィエノワズリー＆職人仕込みのパン",
-    "hi": "फ्रेंच पेस्ट्री और आर्टिजन ब्रेड"
+    "hi": "फ्रेंच पेस्ट्री और आर्टिजन ब्रेड",
+    "vi": "Bánh ngọt kiểu Âu & bánh mì thủ công"
   },
   "Coffee & Drinks": {
     "en": "Coffee & Drinks",
     "zh": "咖啡与饮品",
     "ru": "Кофе и напитки",
     "ja": "コーヒー＆ドリンク",
-    "hi": "कॉफी और पेय पदार्थ"
+    "hi": "कॉफी और पेय पदार्थ",
+    "vi": "Cà phê & đồ uống"
   },
   "Sun KraftBeer – German Craft Beer": {
     "en": "Sun KraftBeer – German Craft Beer",
     "zh": "Sun KraftBeer 德式精酿啤酒",
     "ru": "Sun KraftBeer — немецкое крафтовое пиво",
     "ja": "Sun KraftBeer ドイツ風クラフトビール",
-    "hi": "Sun KraftBeer – जर्मन क्राफ्ट बीयर"
+    "hi": "Sun KraftBeer – जर्मन क्राफ्ट बीयर",
+    "vi": "Sun KraftBeer – Bia thủ công Đức"
   },
   "Traditional German Dishes & Seafood": {
     "en": "Traditional German Dishes & Seafood",
     "zh": "传统德国料理与海鲜",
     "ru": "Традиционные немецкие блюда и морепродукты",
     "ja": "伝統的なドイツ料理＆シーフード",
-    "hi": "पारंपरिक जर्मन व्यंजन और सीफूड"
+    "hi": "पारंपरिक जर्मन व्यंजन और सीफूड",
+    "vi": "Món Đức truyền thống & hải sản"
   },
   "Traditional Vietnamese Phin Coffee": {
     "en": "Traditional Vietnamese Phin Coffee",
     "zh": "传统越南滴漏咖啡",
     "ru": "Традиционный вьетнамский кофе через фильтр фин",
     "ja": "伝統的なベトナム式フィンコーヒー",
-    "hi": "पारंपरिक वियतनामी फिन कॉफी"
+    "hi": "पारंपरिक वियतनामी फिन कॉफी",
+    "vi": "Cà phê phin Việt Nam truyền thống"
   },
   "Tea & Ice-Blended Drinks": {
     "en": "Tea & Ice-Blended Drinks",
     "zh": "茶饮与冰沙饮品",
     "ru": "Чай и напитки со льдом",
     "ja": "ティー＆フローズンドリンク",
-    "hi": "चाय और आइस-ब्लेंडेड ड्रिंक्स"
+    "hi": "चाय और आइस-ब्लेंडेड ड्रिंक्स",
+    "vi": "Trà & đồ uống đá xay"
   },
   "Banh Mi & Pastries": {
     "en": "Banh Mi & Pastries",
     "zh": "越南法棍三明治与糕点",
     "ru": "Баньми и выпечка",
     "ja": "バインミー＆ペストリー",
-    "hi": "बान्ह मी और पेस्ट्री"
+    "hi": "बान्ह मी और पेस्ट्री",
+    "vi": "Bánh mì & bánh ngọt"
   },
   "Savory Vietnamese Dishes to Accompany Rice": {
     "en": "Savory Vietnamese Dishes to Accompany Rice",
     "zh": "越南传统下饭菜",
     "ru": "Вьетнамские основные блюда к рису",
     "ja": "ご飯に合うベトナムのおかず",
-    "hi": "चावल के साथ परोसे जाने वाले वियतनामी नमकीन व्यंजन"
+    "hi": "चावल के साथ परोसे जाने वाले वियतनामी नमकीन व्यंजन",
+    "vi": "Món mặn Việt Nam ăn kèm cơm"
   },
   "Claypot Rice & Traditional Soups": {
     "en": "Claypot Rice & Traditional Soups",
     "zh": "砂锅饭与传统汤品",
     "ru": "Рис в глиняном горшочке и традиционные супы",
     "ja": "土鍋ご飯＆伝統スープ",
-    "hi": "क्ले-पॉट राइस और पारंपरिक सूप"
+    "hi": "क्ले-पॉट राइस और पारंपरिक सूप",
+    "vi": "Cơm niêu & canh truyền thống"
   },
   "Cocktails & Spirits": {
     "en": "Cocktails & Spirits",
     "zh": "鸡尾酒与烈酒",
     "ru": "Коктейли и крепкий алкоголь",
     "ja": "カクテル＆スピリッツ",
-    "hi": "कॉकटेल और स्पिरिट्स"
+    "hi": "कॉकटेल और स्पिरिट्स",
+    "vi": "Cocktail & rượu mạnh"
   },
   "Bingsu & Mango Desserts": {
     "en": "Bingsu & Mango Desserts",
     "zh": "韩式刨冰与芒果甜点",
     "ru": "Бингсу и десерты с манго",
     "ja": "ピンス＆マンゴーデザート",
-    "hi": "बिंगसू और आम के डेजर्ट"
+    "hi": "बिंगसू और आम के डेजर्ट",
+    "vi": "Bingsu & món tráng miệng từ xoài"
   },
   "Soups (Subject to Availability)": {
     "en": "Soups (Subject to Availability)",
     "zh": "汤品（视供应情况而定）",
     "ru": "Супы (при наличии ингредиентов)",
     "ja": "スープ（食材の入荷状況によります）",
-    "hi": "सूप (उपलब्धता के अनुसार)"
+    "hi": "सूप (उपलब्धता के अनुसार)",
+    "vi": "Món súp (tùy tình trạng phục vụ)"
   },
   "Extra Pizza Toppings": {
     "en": "Extra Pizza Toppings",
     "zh": "披萨加料",
     "ru": "Дополнительные топпинги для пиццы",
     "ja": "ピザの追加トッピング",
-    "hi": "पिज्जा के अतिरिक्त टॉपिंग"
+    "hi": "पिज्जा के अतिरिक्त टॉपिंग",
+    "vi": "Nhân pizza thêm"
   },
   "Risotto": {
     "en": "Risotto",
     "zh": "意大利烩饭",
     "ru": "Ризотто",
     "ja": "リゾット",
-    "hi": "रिसोट्टो"
+    "hi": "रिसोट्टो",
+    "vi": "Cơm risotto"
   },
   "Pasta": {
     "en": "Pasta",
     "zh": "意大利面",
     "ru": "Паста",
     "ja": "パスタ",
-    "hi": "पास्ता"
+    "hi": "पास्ता",
+    "vi": "Mì Ý"
   },
   "Seafood": {
     "en": "Seafood",
     "zh": "海鲜料理",
     "ru": "Морепродукты",
     "ja": "シーフード料理",
-    "hi": "सीफूड"
+    "hi": "सीफूड",
+    "vi": "Hải sản"
   },
   "Dinos Greek Taverna": {
     "en": "Dinos Greek Taverna",
     "zh": "Dinos Greek Taverna",
     "ru": "Dinos Greek Taverna",
     "ja": "Dinos Greek Taverna",
-    "hi": "Dinos Greek Taverna"
+    "hi": "Dinos Greek Taverna",
+    "vi": "Dinos Greek Taverna"
   },
   "Side Dishes & Extras": {
     "en": "Side Dishes & Extras",
     "zh": "配菜与加点",
     "ru": "Гарниры и дополнения",
     "ja": "サイドディッシュ＆追加メニュー",
-    "hi": "साइड डिश और अतिरिक्त आइटम"
+    "hi": "साइड डिश और अतिरिक्त आइटम",
+    "vi": "Món ăn kèm & món thêm"
   },
   "Coffee & Tea": {
     "en": "Coffee & Tea",
     "zh": "咖啡与茶",
     "ru": "Кофе и чай",
     "ja": "コーヒー＆ティー",
-    "hi": "कॉफी और चाय"
+    "hi": "कॉफी और चाय",
+    "vi": "Cà phê & trà"
   },
   "Iced Tea": {
     "en": "Iced Tea",
     "zh": "冰茶",
     "ru": "Холодный чай",
     "ja": "アイスティー",
-    "hi": "आइस्ड टी"
+    "hi": "आइस्ड टी",
+    "vi": "Trà đá"
   },
   "Fruit Juice": {
     "en": "Fruit Juice",
     "zh": "果汁",
     "ru": "Фруктовые соки",
     "ja": "フルーツジュース",
-    "hi": "फ्रूट जूस"
+    "hi": "फ्रूट जूस",
+    "vi": "Nước ép trái cây"
   },
   "Smoothies": {
     "en": "Smoothies",
     "zh": "果昔",
     "ru": "Смузи",
     "ja": "スムージー",
-    "hi": "स्मूदी"
+    "hi": "स्मूदी",
+    "vi": "Sinh tố"
   },
   "Beer & Drinks": {
     "en": "Beer & Drinks",
     "zh": "啤酒与饮品",
     "ru": "Пиво и напитки",
     "ja": "ビール＆ドリンク",
-    "hi": "बीयर और पेय पदार्थ"
+    "hi": "बीयर और पेय पदार्थ",
+    "vi": "Bia & đồ uống"
   },
   "Classic Cocktails": {
     "en": "Classic Cocktails",
     "zh": "经典鸡尾酒",
     "ru": "Классические коктейли",
     "ja": "クラシックカクテル",
-    "hi": "क्लासिक कॉकटेल"
+    "hi": "क्लासिक कॉकटेल",
+    "vi": "Cocktail cổ điển"
   },
   "Premium Vietnamese Classics": {
     "en": "Premium Vietnamese Classics",
     "zh": "精选越南传统料理",
     "ru": "Изысканные традиционные вьетнамские блюда",
     "ja": "上質なベトナム伝統料理",
-    "hi": "प्रीमियम पारंपरिक वियतनामी व्यंजन"
+    "hi": "प्रीमियम पारंपरिक वियतनामी व्यंजन",
+    "vi": "Món Việt truyền thống cao cấp"
   },
   "Western Main Courses & Hot Stone Grills": {
     "en": "Western Main Courses & Hot Stone Grills",
     "zh": "西式主菜与热石烤肉",
     "ru": "Западные основные блюда и мясо на горячем камне",
     "ja": "洋食メイン料理＆ホットストーングリル",
-    "hi": "वेस्टर्न मेन कोर्स और हॉट स्टोन ग्रिल"
+    "hi": "वेस्टर्न मेन कोर्स और हॉट स्टोन ग्रिल",
+    "vi": "Món chính Âu & món nướng đá nóng"
   },
   "RuNam Signature Coffee & Drinks": {
     "en": "RuNam Signature Coffee & Drinks",
     "zh": "RuNam 招牌咖啡与饮品",
     "ru": "Фирменный кофе и напитки RuNam",
     "ja": "RuNam シグネチャーコーヒー＆ドリンク",
-    "hi": "RuNam सिग्नेचर कॉफी और ड्रिंक्स"
+    "hi": "RuNam सिग्नेचर कॉफी और ड्रिंक्स",
+    "vi": "Cà phê & đồ uống đặc trưng RuNam"
   },
   "Phu Quoc Flower Crab Banh Canh Noodles": {
     "en": "Phu Quoc Flower Crab Banh Canh Noodles",
     "zh": "富国岛花蟹越南粗米粉汤（Bánh Canh）",
     "ru": "Банькань с цветочным крабом Фукуока",
     "ja": "フーコック産ワタリガニのバインカン",
-    "hi": "फू क्वोक फ्लावर क्रैब बान्ह कान नूडल्स"
+    "hi": "फू क्वोक फ्लावर क्रैब बान्ह कान नूडल्स",
+    "vi": "Bánh canh ghẹ Phú Quốc"
   },
   "Cocktails & Craft Beers": {
     "en": "Cocktails & Craft Beers",
     "zh": "鸡尾酒与精酿啤酒",
     "ru": "Коктейли и крафтовое пиво",
     "ja": "カクテル＆クラフトビール",
-    "hi": "कॉकटेल और क्राफ्ट बीयर"
+    "hi": "कॉकटेल और क्राफ्ट बीयर",
+    "vi": "Cocktail & bia thủ công"
   },
   "Crispy Bites & Snacks": {
     "en": "Crispy Bites & Snacks",
     "zh": "香脆小食与零食",
     "ru": "Хрустящие закуски и снеки",
     "ja": "クリスピースナック＆軽食",
-    "hi": "क्रिस्पी बाइट्स और स्नैक्स"
+    "hi": "क्रिस्पी बाइट्स और स्नैक्स",
+    "vi": "Món giòn ăn nhẹ"
   },
   "Fixed-Price Seafood": {
     "en": "Fixed-Price Seafood",
     "zh": "固定价格海鲜料理",
     "ru": "Морепродукты по фиксированной цене",
     "ja": "定額シーフード料理",
-    "hi": "निश्चित कीमत वाले सीफूड व्यंजन"
+    "hi": "निश्चित कीमत वाले सीफूड व्यंजन",
+    "vi": "Hải sản giá niêm yết"
   },
   "Market Price": {
     "en": "Market Price",
     "zh": "时价",
     "ru": "По рыночной цене",
     "ja": "時価",
-    "hi": "बाजार भाव"
+    "hi": "बाजार भाव",
+    "vi": "Giá theo thị trường"
   },
   "Afternoon Tea & Artisanal Pastries": {
     "en": "Afternoon Tea & Artisanal Pastries",
     "zh": "下午茶与手工糕点",
     "ru": "Послеобеденный чай и ремесленная выпечка",
     "ja": "アフタヌーンティー＆手作りペストリー",
-    "hi": "आफ्टरनून टी और आर्टिजन पेस्ट्री"
+    "hi": "आफ्टरनून टी और आर्टिजन पेस्ट्री",
+    "vi": "Trà chiều & bánh ngọt thủ công"
   },
   "Smoked BBQ Ribs & Steaks": {
     "en": "Smoked BBQ Ribs & Steaks",
     "zh": "烟熏烧烤排骨与牛排",
     "ru": "Копченые ребрышки барбекю и стейки",
     "ja": "スモークBBQリブ＆ステーキ",
-    "hi": "स्मोक्ड BBQ रिब्स और स्टेक"
+    "hi": "स्मोक्ड BBQ रिब्स और स्टेक",
+    "vi": "Sườn BBQ hun khói & bít tết"
   },
   "Burgers & Starters": {
     "en": "Burgers & Starters",
     "zh": "汉堡与前菜",
     "ru": "Бургеры и закуски",
     "ja": "バーガー＆前菜",
-    "hi": "बर्गर और स्टार्टर्स"
+    "hi": "बर्गर और स्टार्टर्स",
+    "vi": "Burger & khai vị"
   },
   "Craft Beer & Promotions": {
     "en": "Craft Beer & Promotions",
     "zh": "精酿啤酒与优惠活动",
     "ru": "Крафтовое пиво и акции",
     "ja": "クラフトビール＆プロモーション",
-    "hi": "क्राफ्ट बीयर और प्रमोशन"
+    "hi": "क्राफ्ट बीयर और प्रमोशन",
+    "vi": "Bia thủ công & ưu đãi"
   },
   "Café & Tropical Drinks": {
     "en": "Café & Tropical Drinks",
     "zh": "咖啡与热带饮品",
     "ru": "Кофе и тропические напитки",
     "ja": "カフェ＆トロピカルドリンク",
-    "hi": "कैफे और ट्रॉपिकल ड्रिंक्स"
+    "hi": "कैफे और ट्रॉपिकल ड्रिंक्स",
+    "vi": "Cà phê & đồ uống nhiệt đới"
   }
 }

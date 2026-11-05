@@ -11,10 +11,11 @@ export const SUNSET_KEYWORD: L = {
   ja: 'フーコック サンセットタウン',
   ru: 'Сансет Таун Фукуок',
   hi: 'सनसेट टाउन फू क्वोक',
+  vi: 'Sunset Town Phú Quốc',
 }
 export const sunsetKeyword = (locale: Locale) => pick(SUNSET_KEYWORD, locale)
 
-export const BRAND: L = { en: 'My Phu Quoc', ko: '마이 푸꾸옥', zh: 'My Phu Quoc', ru: 'My Phu Quoc', ja: 'My Phu Quoc', hi: 'My Phu Quoc' }
+export const BRAND: L = { en: 'My Phu Quoc', ko: '마이 푸꾸옥', zh: 'My Phu Quoc', ru: 'My Phu Quoc', ja: 'My Phu Quoc', hi: 'My Phu Quoc', vi: 'My Phu Quoc' }
 export const brandName = (locale: Locale) => pick(BRAND, locale)
 
 export const HOME_TITLE: L = {
@@ -24,6 +25,7 @@ export const HOME_TITLE: L = {
   ru: 'Сансет Таун Фукуок 2026 – карта, салют, отели, багги | My Phu Quoc',
   ja: 'フーコック サンセットタウン案内2026 – 地図・花火・ホテル・バギー | My Phu Quoc',
   hi: 'सनसेट टाउन फू क्वोक गाइड 2026 – नक्शा, आतिशबाजी, होटल | My Phu Quoc',
+  vi: 'Cẩm nang Sunset Town Phú Quốc 2026 – Bản đồ, pháo hoa, khách sạn, tour buggy | My Phu Quoc',
 }
 
 export const HOME_DESCRIPTION: L = {
@@ -33,6 +35,7 @@ export const HOME_DESCRIPTION: L = {
   ru: 'Сансет Таун Фукуок: карта, Мост поцелуев, салют (расписание уточняйте), отели, рестораны и багги-туры.',
   ja: 'フーコック サンセットタウン案内：地図、キスブリッジ、花火ショー（日程は公式案内）、ホテル、グルメ、バギーツアー。',
   hi: 'सनसेट टाउन फू क्वोक गाइड: नक्शा, किस ब्रिज, आतिशबाजी शो (आधिकारिक समय देखें), होटल, रेस्तरां और बग्गी टूर।',
+  vi: 'Khám phá Sunset Town Phú Quốc: bản đồ, Cầu Hôn (Kiss Bridge), màn trình diễn pháo hoa (kiểm tra lịch chính thức), khách sạn, ăn uống và tour buggy.',
 }
 
 export const MAP_TITLE: L = {
@@ -42,6 +45,7 @@ export const MAP_TITLE: L = {
   ru: 'Карта Сансет Таун Фукуок – 12 мест, Мост поцелуев | My Phu Quoc',
   ja: 'フーコック サンセットタウン地図 – 12大名所・キスブリッジ | My Phu Quoc',
   hi: 'सनसेट टाउन फू क्वोक नक्शा – 12 प्रमुख स्थल | My Phu Quoc',
+  vi: 'Bản đồ Sunset Town Phú Quốc – 12 địa danh, Cầu Hôn & cáp treo | My Phu Quoc',
 }
 export const MAP_DESCRIPTION: L = {
   en: 'Illustrated Sunset Town Phu Quoc map: Kiss Bridge, Clock Tower, cable car station, Vui-Fest Bazaar and 12 key landmarks with tips.',
@@ -50,6 +54,7 @@ export const MAP_DESCRIPTION: L = {
   ru: 'Карта Сансет Таун Фукуок: Мост поцелуев, часовая башня, канатная дорога, Vui-Fest и 12 главных мест с советами.',
   ja: 'フーコック サンセットタウンのイラストマップ：キスブリッジ、時計塔、ロープウェイ駅など12大名所をご案内。',
   hi: 'सनसेट टाउन फू क्वोक का सचित्र नक्शा: किस ब्रिज, क्लॉक टावर, केबल कार स्टेशन और 12 प्रमुख स्थल।',
+  vi: 'Bản đồ minh họa Sunset Town Phú Quốc với Cầu Hôn (Kiss Bridge), Tháp Đồng Hồ, ga cáp treo, chợ đêm Vui-Fest Bazaar và 12 địa danh nổi bật kèm thông tin hữu ích.',
 }
 
 export const HOME_FAQ_Q: Record<'distance' | 'fireworks' | 'cable' | 'bridge', L> = {
@@ -60,6 +65,7 @@ export const HOME_FAQ_Q: Record<'distance' | 'fireworks' | 'cable' | 'bridge', L
     ru: 'Сколько ехать от Сансет Тауна до Khem Beach?',
     ja: 'サンセットタウンからケムビーチまでの所要時間は？',
     hi: 'सनसेट टाउन से Khem Beach कितनी दूर है?',
+    vi: 'Sunset Town cách Khem Beach bao xa?',
   },
   fireworks: {
     en: 'When is the Sunset Town fireworks show?',
@@ -68,6 +74,7 @@ export const HOME_FAQ_Q: Record<'distance' | 'fireworks' | 'cable' | 'bridge', L
     ru: 'Когда проходит шоу с салютом в Сансет Тауне?',
     ja: 'サンセットタウンの花火ショーはいつ？',
     hi: 'सनसेट टाउन में आतिशबाजी शो कब होता है?',
+    vi: 'Màn trình diễn pháo hoa ở Sunset Town diễn ra khi nào?',
   },
   cable: {
     en: 'How long is the Hon Thom cable car?',
@@ -76,6 +83,7 @@ export const HOME_FAQ_Q: Record<'distance' | 'fireworks' | 'cable' | 'bridge', L
     ru: 'Какова длина канатной дороги на Хон Тхом?',
     ja: 'ホントム島ケーブルカーの長さは？',
     hi: 'होन थॉम केबल कार कितनी लंबी है?',
+    vi: 'Tuyến cáp treo Hòn Thơm dài bao nhiêu?',
   },
   bridge: {
     en: 'What is Kiss Bridge in Sunset Town?',
@@ -84,6 +92,7 @@ export const HOME_FAQ_Q: Record<'distance' | 'fireworks' | 'cable' | 'bridge', L
     ru: 'Что такое Мост поцелуев в Сансет Тауне?',
     ja: 'サンセットタウンのキスブリッジとは？',
     hi: 'सनसेट टाउन का किस ब्रिज क्या है?',
+    vi: 'Cầu Hôn (Kiss Bridge) ở Sunset Town là gì?',
   },
 }
 
@@ -110,6 +119,7 @@ export const ZONE_TITLE: Record<'sunset-town' | 'khem-beach', L> = {
     ru: 'Сансет Таун Фукуок – Мост поцелуев, салют, кафе | My Phu Quoc',
     ja: 'フーコック サンセットタウン案内 – キスブリッジ・花火 | My Phu Quoc',
     hi: 'सनसेट टाउन फू क्वोक गाइड – किस ब्रिज, आतिशबाजी | My Phu Quoc',
+    vi: 'Cẩm nang Sunset Town Phú Quốc – Cầu Hôn, pháo hoa, ăn uống | My Phu Quoc',
   },
   'khem-beach': {
     en: 'Khem Beach Phu Quoc Guide – Resorts, Beach & Dining | My Phu Quoc',
@@ -118,6 +128,7 @@ export const ZONE_TITLE: Record<'sunset-town' | 'khem-beach', L> = {
     ru: 'Пляж Кхем Фукуок – курорты, пляж, кафе | My Phu Quoc',
     ja: 'フーコック ケムビーチ案内 – リゾート・ビーチ・グルメ | My Phu Quoc',
     hi: 'खेम बीच फू क्वोक गाइड – रिसॉर्ट, बीच, रेस्तरां | My Phu Quoc',
+    vi: 'Cẩm nang Khem Beach Phú Quốc – Khu nghỉ dưỡng, bãi biển, ăn uống | My Phu Quoc',
   },
 }
 
@@ -130,6 +141,7 @@ export const ZONE_KEYWORD: Record<'sunset-town' | 'khem-beach', L> = {
     ru: 'Пляж Кхем Фукуок',
     ja: 'フーコック ケムビーチ',
     hi: 'खेम बीच फू क्वोक',
+    vi: 'Khem Beach Phú Quốc',
   },
 }
 
@@ -149,6 +161,7 @@ export const HOTELS_TITLE: Record<'sunset-town' | 'khem-beach', L> = {
     ru: 'Отели и курорты Сансет Таун Фукуок – сравнение | My Phu Quoc',
     ja: 'フーコック サンセットタウンのホテル・リゾート比較 | My Phu Quoc',
     hi: 'सनसेट टाउन फू क्वोक होटल व रिसॉर्ट – तुलना | My Phu Quoc',
+    vi: 'Khách sạn & khu nghỉ dưỡng Sunset Town Phú Quốc – So sánh nơi lưu trú | My Phu Quoc',
   },
   'khem-beach': {
     en: 'Khem Beach Phu Quoc Resorts & Hotels – Compare Stays | My Phu Quoc',
@@ -157,6 +170,7 @@ export const HOTELS_TITLE: Record<'sunset-town' | 'khem-beach', L> = {
     ru: 'Курорты и отели пляжа Кхем Фукуок – сравнение | My Phu Quoc',
     ja: 'フーコック ケムビーチのリゾート・ホテル比較 | My Phu Quoc',
     hi: 'खेम बीच फू क्वोक रिसॉर्ट व होटल – तुलना | My Phu Quoc',
+    vi: 'Khu nghỉ dưỡng & khách sạn Khem Beach Phú Quốc – So sánh nơi lưu trú | My Phu Quoc',
   },
 }
 
@@ -168,6 +182,7 @@ export const TOUR_TITLE: Record<'buggy' | 'taxi', L> = {
     ru: 'Багги-тур по Сансет Тауну, Фукуок | My Phu Quoc',
     ja: 'フーコック サンセットタウン バギーツアー | My Phu Quoc',
     hi: 'सनसेट टाउन बग्गी टूर, फू क्वोक | My Phu Quoc',
+    vi: 'Tour xe buggy Sunset Town Phú Quốc – Các lộ trình cố định | My Phu Quoc',
   },
   taxi: {
     en: 'Vehicle Tour Phu Quoc – Private Car & Custom Route | My Phu Quoc',
@@ -176,6 +191,7 @@ export const TOUR_TITLE: Record<'buggy' | 'taxi', L> = {
     ru: 'Тур на такси по Фукуоку | My Phu Quoc',
     ja: 'フーコック タクシーツアー | My Phu Quoc',
     hi: 'फू क्वोक टैक्सी टूर | My Phu Quoc',
+    vi: 'Tour xe riêng Phú Quốc – Xe riêng & lộ trình tùy chỉnh | My Phu Quoc',
   },
 }
 
@@ -187,6 +203,7 @@ export function directoryTitle(label: string, locale: Locale): string {
     case 'ru': return `${label}: Сансет Таун и Кхем, Фукуок | My Phu Quoc`
     case 'ja': return `フーコック サンセットタウン・ケムビーチの${label} | My Phu Quoc`
     case 'hi': return `${label}: सनसेट टाउन और खेम बीच, फू क्वोक | My Phu Quoc`
+    case 'vi': return `${label}: Sunset Town và Bãi Khem, Phú Quốc | My Phu Quoc`
     default: return `${label} in Sunset Town Phu Quoc & Khem Beach | My Phu Quoc`
   }
 }
@@ -198,6 +215,7 @@ export const NEWS_TITLE: L = {
   ru: 'Сансет Таун Фукуок: новости и гиды | My Phu Quoc',
   ja: 'フーコック サンセットタウン ニュース・ガイド | My Phu Quoc',
   hi: 'सनसेट टाउन फू क्वोक समाचार व गाइड | My Phu Quoc',
+  vi: 'Tin tức, sự kiện & cẩm nang địa phương Sunset Town Phú Quốc | My Phu Quoc',
 }
 
 /** Keep the real description first and append the keyword if it is missing (total <= max). */
@@ -219,6 +237,7 @@ export function businessTitle(name: string, category: string, locale: Locale, is
     case 'ru': return `${name} – ${category}, ${place} | My Phu Quoc`
     case 'ja': return `${name} – ${place}の${category} | My Phu Quoc`
     case 'hi': return `${name} – ${place} में ${category} | My Phu Quoc`
+    case 'vi': return `${name} – ${category}, ${place} | My Phu Quoc`
     default: return `${name} – ${category} in ${place} | My Phu Quoc`
   }
 }
