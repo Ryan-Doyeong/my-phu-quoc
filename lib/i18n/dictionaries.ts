@@ -411,7 +411,7 @@ export function getDictionary(locale: Locale = 'en'): Dictionary {
     locale === 'en' ? en : deepMerge(base, DICTIONARIES[locale] as Record<string, unknown> | undefined)
   ) as unknown as Dictionary
 
-  if (locale === 'zh' || locale === 'ru' || locale === 'ja' || locale === 'hi') {
+  if (locale === 'zh' || locale === 'ru' || locale === 'ja' || locale === 'hi' || locale === 'vi') {
     merged = translateDictionaryTree(merged, locale) as Dictionary
     if (merged.intake) {
       const origPhotoSelected = merged.intake.photoSelected
@@ -424,6 +424,7 @@ export function getDictionary(locale: Locale = 'en'): Dictionary {
             if (locale === 'ru') return `Выбрано: ${n}`
             if (locale === 'ja') return `${n}枚 選択中`
             if (locale === 'hi') return `${n} फ़ोटो चुनी गई`
+            if (locale === 'vi') return `Đã chọn ${n} ảnh`
             return origPhotoSelected ? origPhotoSelected(n) : `${n} selected`
           },
         },
@@ -467,7 +468,7 @@ export const ESSENTIAL_GUIDE_UI_MAP: Record<string, { title: string; excerpt: st
 export function storyAvailableLocales(story: any): Locale[] {
   if (!story) return ['en']
   if (TEN_EDITORIAL_SLUGS.has(story.slug)) {
-    return ['en', 'ko', 'zh', 'ru', 'ja', 'hi']
+    return ['en', 'ko', 'zh', 'ru', 'ja', 'hi', 'vi']
   }
   const out: Locale[] = ['en']
   for (const loc of ['vi', 'hi', 'zh', 'ru', 'ko', 'ja'] as const) {
@@ -531,7 +532,7 @@ export function localizeStory(story: any, locale: Locale = 'en') {
 
   if (locale !== 'en' && availableLocales.includes(locale)) {
     const f = (name: string) => story[`${name}_${locale}`]
-    const isAsianOrRu = locale === 'zh' || locale === 'ru' || locale === 'ja' || locale === 'hi'
+    const isAsianOrRu = locale === 'zh' || locale === 'ru' || locale === 'ja' || locale === 'hi' || locale === 'vi'
     const guideMap = isAsianOrRu && story.slug ? ESSENTIAL_GUIDE_UI_MAP[story.slug] : null
     const title = f('title') || (guideMap ? tUiById(guideMap.title, locale) : story.title)
     const subtitle = f('subtitle') || story.subtitle || null
@@ -583,7 +584,7 @@ export function localizeStory(story: any, locale: Locale = 'en') {
   const callout = story.callout || null
   const heroCaption = story.hero_caption || null
 
-  const isAsianOrRu = locale === 'zh' || locale === 'ru' || locale === 'ja' || locale === 'hi'
+  const isAsianOrRu = locale === 'zh' || locale === 'ru' || locale === 'ja' || locale === 'hi' || locale === 'vi'
   const guideMap = isAsianOrRu && story.slug ? ESSENTIAL_GUIDE_UI_MAP[story.slug] : null
 
   const title = guideMap
@@ -631,13 +632,13 @@ export function localizeStory(story: any, locale: Locale = 'en') {
 }
 
 // 업체(Business) 소개글 선택 헬퍼
-// - zh/ru/ja/hi: translations/biz_desc[b.slug][locale] 우선 → 없으면 description_en. 비한국어 locale에서 description_ko 로 폴백하지 않음(한글 노출 금지).
+// - zh/ru/ja/hi/vi: translations/biz_desc[b.slug][locale] 우선 → 없으면 description_en. 비한국어 locale에서 description_ko 로 폴백하지 않음(한글 노출 금지).
 // - ko/en/vi: 기존 동작 유지
 export function selectBusinessDescription(b: any, locale: Locale = 'en'): string | null {
   if (!b) return null
 
   // 1. zh / ru / ja / hi: 교정 번역본 우선 → 없으면 description_en (description_ko 폴백 금지)
-  if (locale === 'zh' || locale === 'ru' || locale === 'ja' || locale === 'hi') {
+  if (locale === 'zh' || locale === 'ru' || locale === 'ja' || locale === 'hi' || locale === 'vi') {
     const slug = b.slug
     if (slug) {
       const trans = (bizDescTranslations as Record<string, Record<string, string>>)[slug]?.[locale]

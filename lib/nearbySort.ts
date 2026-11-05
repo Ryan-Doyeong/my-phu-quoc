@@ -83,6 +83,14 @@ export const NEARBY_COPY: Record<string, Copy> = {
     error: 'आपकी लोकेशन नहीं मिल सकी। सामान्य क्रम दिखाया जा रहा है।',
     away: 'आपसे',
   },
+  vi: {
+    button: '📍 Sắp xếp theo khoảng cách từ vị trí của tôi',
+    loading: 'Đang xác định vị trí của bạn…',
+    active: 'Các địa điểm My Phu Quoc đề xuất vẫn ở đầu danh sách; những địa điểm còn lại được sắp xếp theo khoảng cách đường thẳng từ vị trí của bạn.',
+    denied: 'Bạn chưa cho phép chia sẻ vị trí nên danh sách được hiển thị theo thứ tự mặc định. Hãy cho phép truy cập vị trí trong trình duyệt để sắp xếp theo khoảng cách.',
+    error: 'Không thể xác định vị trí của bạn. Đang hiển thị thứ tự mặc định.',
+    away: 'từ vị trí của bạn',
+  },
 }
 
 export function nearbyCopy(locale: Locale): Copy {

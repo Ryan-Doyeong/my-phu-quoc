@@ -22,6 +22,7 @@ const BANK_ACTIVE_MSG: Partial<Record<Locale, string>> = {
   ru: 'Отсортировано по расстоянию по прямой от вашего местоположения.',
   ja: '現在地からの直線距離が近い順に並べています。',
   hi: 'आपकी लोकेशन से सीधी दूरी के अनुसार नज़दीक से दूर क्रम में।',
+  vi: 'Sắp xếp theo khoảng cách đường thẳng từ vị trí của bạn.',
 }
 
 interface BankingDirectoryProps {

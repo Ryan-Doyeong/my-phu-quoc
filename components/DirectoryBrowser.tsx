@@ -43,6 +43,7 @@ const MAP_LINK_LABEL: Record<string, string> = {
   ru: 'Google Карты ↗',
   ja: 'Google マップ ↗',
   hi: 'Google मैप्स ↗',
+  vi: 'Google Maps ↗',
 }
 
 const EXPLORE_BY_ZONE_LABEL: Record<string, string> = {
@@ -52,6 +53,7 @@ const EXPLORE_BY_ZONE_LABEL: Record<string, string> = {
   ru: 'Поиск по районам',
   ja: 'エリアから探す',
   hi: 'क्षेत्र के अनुसार खोजें',
+  vi: 'Khám phá theo khu vực',
 }
 
 const ALL_ZONES_LABEL: Record<string, string> = {
@@ -61,6 +63,7 @@ const ALL_ZONES_LABEL: Record<string, string> = {
   ru: 'Все районы',
   ja: 'すべてのエリア',
   hi: 'सभी क्षेत्र',
+  vi: 'Tất cả khu vực',
 }
 
 const ZONE_FILTER_SUNSET: Record<string, string> = {
@@ -70,6 +73,7 @@ const ZONE_FILTER_SUNSET: Record<string, string> = {
   ru: 'Sunset Town',
   ja: 'Sunset Town',
   hi: 'Sunset Town',
+  vi: 'Sunset Town',
 }
 
 const ZONE_FILTER_KHEM: Record<string, string> = {
@@ -79,6 +83,7 @@ const ZONE_FILTER_KHEM: Record<string, string> = {
   ru: 'Khem Beach',
   ja: 'Khem Beach',
   hi: 'Khem Beach',
+  vi: 'Khem Beach',
 }
 
 const PRICE_LEVEL_LABEL: Record<string, string> = {
@@ -88,6 +93,7 @@ const PRICE_LEVEL_LABEL: Record<string, string> = {
   ru: 'Ценовая категория',
   ja: '価格帯',
   hi: 'मूल्य श्रेणी',
+  vi: 'Mức giá',
 }
 
 const ALL_PRICES_LABEL: Record<string, string> = {
@@ -97,6 +103,7 @@ const ALL_PRICES_LABEL: Record<string, string> = {
   ru: 'Все ценовые категории',
   ja: 'すべての価格帯',
   hi: 'सभी मूल्य श्रेणियाँ',
+  vi: 'Tất cả mức giá',
 }
 
 type Business = {

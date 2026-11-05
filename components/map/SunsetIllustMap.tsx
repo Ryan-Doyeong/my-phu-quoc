@@ -5,7 +5,7 @@ import Link from 'next/link'
 import styles from './SunsetIllustMap.module.css'
 import mapDataJson from '@/data/sunset-illust-map-data.json'
 
-export type MapLanguage = 'ko' | 'en' | 'zh' | 'ru' | 'ja' | 'hi'
+export type MapLanguage = 'ko' | 'en' | 'zh' | 'ru' | 'ja' | 'hi' | 'vi'
 
 export interface MapDataPayload {
   summary: any
@@ -71,6 +71,16 @@ const DISTRICT_NAME_OVERRIDES: Partial<Record<MapLanguage, Record<string, string
     FB2: 'किस ब्रिज नॉर्थ बीच प्लाज़ा के रेस्तरां और कैफ़े',
     AMA_MID_1: 'सन सिग्नेचर गैलरी',
     MILAN_HILLSIDE: 'Milan Street / Hillside',
+  },
+  vi: {
+    VEN_NORTH: 'Đường Venice (phía Bắc)',
+    VEN_SOUTH: 'Đường Venice (phía Nam)',
+    AMA_NORTH: 'Đường Amalfi (phía Bắc)',
+    AMA_SOUTH: 'Đường Amalfi (phía Nam)',
+    POS_NORTH: 'Đường Positano (phía Bắc)',
+    POS_SOUTH: 'Đường Positano (phía Nam)',
+    FB2: 'Nhà hàng và quán cà phê tại quảng trường gần bãi biển phía Bắc Cầu Hôn (Kiss Bridge)',
+    MILAN_HILLSIDE: 'Đường Milan / Hillside',
   },
 }
 
@@ -205,6 +215,8 @@ const MAP_IMAGES: Record<MapLanguage, string> = {
   ru: '/map/sunset-town-map-ru-v2.webp',
   ja: '/map/sunset-town-map-ja-v2.webp',
   hi: '/map/sunset-town-map-hi-v2.webp',
+  // vi: 베트남어 지도 이미지는 아직 없어 영어판 지도 이미지를 사용 (TODO: vi 라벨 이미지 제작)
+  vi: '/map/sunset-town-map-en-v2.webp',
 }
 
 // Translations for UI text across 6 languages
@@ -390,6 +402,32 @@ const I18N: Record<MapLanguage, {
     diningBadge: 'रेस्तरां',
     barsBadge: 'बार',
   },
+  vi: {
+    langName: 'Tiếng Việt',
+    title: 'Bản đồ minh họa ẩm thực Sunset Town',
+    subtitle: 'Nhà hàng, quán cà phê và quán bar được chọn lọc theo từng khu',
+    tabAll: 'Tất cả',
+    tabDining: 'Ăn uống',
+    tabBars: 'Bar & Pub',
+    noticeTag: 'Lưu ý',
+    noticeText: 'Thước tỷ lệ trên bản đồ minh họa chỉ mang tính tham khảo, không phản ánh khoảng cách thực tế',
+    seeAll: 'Xem tất cả',
+    recommendedHeading: 'Ăn uống & Bar tại Sunset Town',
+    districtListHeading: 'Địa điểm tại Sunset Town theo khu vực',
+    venueCountSuffix: ' địa điểm',
+    showMore: 'Xem thêm',
+    showLess: 'Thu gọn',
+    walkPrefix: '',
+    walkSuffix: ' phút đi bộ từ Tháp Đồng Hồ',
+    walkCarOnly: 'Cần đi xe (ngoài khu vực thị trấn)',
+    detailBtn: 'Chi tiết →',
+    outsideTitle: 'Địa điểm vùng ven / Phố cổ An Thới',
+    levelExact: 'Đã xác minh',
+    levelEst: 'Ước tính',
+    levelUnconfirmed: 'Chưa xác nhận',
+    diningBadge: 'Ăn uống',
+    barsBadge: 'Bar & Pub',
+  },
 }
 
 // 결함 2 수정: 하드코딩된 '92'를 제거하고 실제 노출되는 총 업체 수로 동적 생성
@@ -407,6 +445,8 @@ const getDynamicSubtitle = (lang: MapLanguage, count: number): string => {
       return `厳選${count}店舗のレストラン・カフェ・バー（ブロック別）`
     case 'hi':
       return `ब्लॉक द्वारा ${count} क्यूरेटेड रेस्तरां, कैफे और बार`
+    case 'vi':
+      return `${count} nhà hàng, quán cà phê và quán bar được chọn lọc theo từng khu`
     default:
       return `${count} Curated Restaurants, Cafes & Bars by Block`
   }
@@ -456,7 +496,7 @@ export function SunsetIllustMap({
   initialMapData,
 }: SunsetIllustMapProps) {
   // Normalize initial locale (only 6 supported languages, fall back to 'ko')
-  const validLocales: MapLanguage[] = ['ko', 'en', 'zh', 'ru', 'ja', 'hi']
+  const validLocales: MapLanguage[] = ['ko', 'en', 'zh', 'ru', 'ja', 'hi', 'vi']
   const defaultLang: MapLanguage = validLocales.includes(initialLocale as MapLanguage)
     ? (initialLocale as MapLanguage)
     : 'ko'

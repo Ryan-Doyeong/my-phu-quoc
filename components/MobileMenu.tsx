@@ -10,6 +10,7 @@ const SUNSET_MENU_LABELS: Record<string, string> = {
   ru: 'Sunset Town',
   ja: 'Sunset Town',
   hi: 'Sunset Town',
+  vi: 'Sunset Town',
 }
 
 const KHEM_MENU_LABELS: Record<string, string> = {
@@ -19,6 +20,7 @@ const KHEM_MENU_LABELS: Record<string, string> = {
   ru: 'Khem Beach',
   ja: 'Khem Beach',
   hi: 'Khem Beach',
+  vi: 'Khem Beach',
 }
 
 export function MobileMenu({ locale = 'en' }: { locale?: Locale }) {

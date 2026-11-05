@@ -9,6 +9,7 @@ interface UiStringEntry {
   ru?: string
   ja?: string
   hi?: string
+  vi?: string
   [key: string]: string | undefined
 }
 
@@ -35,7 +36,7 @@ for (const [id, entry] of Object.entries(UI_DATA)) {
  */
 export function tUi(enText: string, locale: Locale = 'en'): string {
   if (!enText) return ''
-  if (locale === 'en' || locale === 'ko' || locale === 'vi') {
+  if (locale === 'en' || locale === 'ko') {
     return enText
   }
 
@@ -56,7 +57,7 @@ export function tUi(enText: string, locale: Locale = 'en'): string {
 export function tUiById(id: string, locale: Locale = 'en'): string {
   const entry = UI_DATA[id]
   if (!entry) return ''
-  if (locale === 'en' || locale === 'ko' || locale === 'vi') {
+  if (locale === 'en' || locale === 'ko') {
     return entry.en || ''
   }
   const val = entry[locale]
