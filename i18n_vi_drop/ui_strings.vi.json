@@ -1,0 +1,719 @@
+{
+  "U1": {
+    "vi": "(không bắt buộc — chúng tôi tự tạo link tìm kiếm từ địa chỉ nếu để trống)"
+  },
+  "U2": {
+    "vi": "+ Thêm phần giới thiệu bằng ngôn ngữ khác (Không bắt buộc — EN / KO / VI)"
+  },
+  "U3": {
+    "vi": "1 vị trí nổi bật và 4 vị trí theo danh mục (Ẩm thực · Thể hình · Cà phê · Cộng đồng)"
+  },
+  "U4": {
+    "vi": "Chỉ có 5 vị trí"
+  },
+  "U5": {
+    "vi": "Doanh nghiệp đồng hành cùng cộng đồng là cơ sở địa phương gắn bó với khu vực này."
+  },
+  "U6": {
+    "vi": "Phù hợp với cộng đồng địa phương."
+  },
+  "U7": {
+    "vi": "Nhãn bổ sung / điểm đặc trưng"
+  },
+  "U8": {
+    "vi": "Tất cả"
+  },
+  "U9": {
+    "vi": "Luôn có nhãn phân biệt rõ ràng."
+  },
+  "U10": {
+    "vi": "Thông tin được duyệt sẽ được đăng trong danh bạ bằng ngôn ngữ gốc bạn cung cấp."
+  },
+  "U11": {
+    "vi": "Ảnh banner (không bắt buộc, JPG/PNG/WebP)"
+  },
+  "U12": {
+    "vi": "Làm đẹp & chăm sóc da"
+  },
+  "U13": {
+    "vi": "Trở thành Đối tác Cộng đồng →"
+  },
+  "U14": {
+    "vi": "Trở thành đơn vị đồng hành đầu tiên"
+  },
+  "U15": {
+    "vi": "Giá combo ưu đãi"
+  },
+  "U16": {
+    "vi": "Loại hình chi tiết *"
+  },
+  "U17": {
+    "vi": "Giới thiệu doanh nghiệp (ngôn ngữ bạn chọn)"
+  },
+  "U19": {
+    "vi": "DOANH NGHIỆP ĐỒNG HÀNH CỘNG ĐỒNG"
+  },
+  "U20": {
+    "vi": "Tôi có thể đổi ảnh banner không?"
+  },
+  "U21": {
+    "vi": "Tôi có thể chọn vị trí hiển thị không?"
+  },
+  "U22": {
+    "vi": "Chọn 3–5 ảnh"
+  },
+  "U23": {
+    "vi": "Chọn vị trí này →"
+  },
+  "U24": {
+    "vi": "Chọn vị trí hiển thị"
+  },
+  "U25": {
+    "vi": "Doanh nghiệp đồng hành cùng cộng đồng — My Phu Quoc"
+  },
+  "U26": {
+    "vi": "Email liên hệ *"
+  },
+  "U27": {
+    "vi": "Tạo bản nháp tiếng Anh bằng AI"
+  },
+  "U29": {
+    "vi": "Tùy chọn giao hàng (Không bắt buộc — dành cho nhà hàng, cà phê & cửa hàng)"
+  },
+  "U30": {
+    "vi": "Mỗi ảnh tối đa 10 MB. Hỗ trợ JPG, PNG, WebP và HEIC."
+  },
+  "U31": {
+    "vi": "Mỗi lượt hiển thị kéo dài một tháng"
+  },
+  "U32": {
+    "vi": "Thông tin cần biết khi đi cáp treo kỷ lục Guinness dài 7,899m từ ga Thị trấn Hoàng Hôn đến Sun World Hòn Thơm Nature Park."
+  },
+  "U33": {
+    "vi": "Mọi vị trí quảng bá có trả phí đều được gắn nhãn QUẢNG CÁO."
+  },
+  "U34": {
+    "vi": "Thông tin về chương trình biểu diễn nước và laser trị giá hàng triệu đô la, cùng các vị trí xem pháo hoa lúc 21:30 có phí và miễn phí."
+  },
+  "U35": {
+    "vi": "Khám phá Thị trấn Hoàng Hôn qua bản đồ minh họa: Cầu Hôn, Tháp Đồng Hồ, cáp treo 3 dây, Vui-Fest Bazaar và 6 khu phố."
+  },
+  "U36": {
+    "vi": "Khám phá chợ đêm sáng tạo ven biển đầu tiên tại Việt Nam với bao bì thân thiện môi trường, món ngon địa phương và biểu diễn đường phố."
+  },
+  "U37": {
+    "vi": "TÌM KIẾM PHÚ QUỐC"
+  },
+  "U38": {
+    "vi": "Cùng nhau vì một Phú Quốc tươi đẹp."
+  },
+  "U39": {
+    "vi": "Các đơn vị đồng hành đầu tiên — miễn phí 3 tháng"
+  },
+  "U40": {
+    "vi": "CẨM NANG · Chợ đêm & ẩm thực"
+  },
+  "U41": {
+    "vi": "CẨM NANG · Biểu diễn & giải trí"
+  },
+  "U42": {
+    "vi": "CẨM NANG · Tour & cáp treo"
+  },
+  "U43": {
+    "vi": "Láng giềng thân thiện, cuộc sống tốt đẹp."
+  },
+  "U44": {
+    "vi": "Link Google Maps"
+  },
+  "U45": {
+    "vi": "Tên trên Google Maps"
+  },
+  "U46": {
+    "vi": "CÁCH THỨC HOẠT ĐỘNG"
+  },
+  "U47": {
+    "vi": "Cáp treo Hòn Thơm: Kinh nghiệm đi tuyến cáp treo vượt biển dài nhất thế giới"
+  },
+  "U48": {
+    "vi": "Ưu tiên thông tin trung thực."
+  },
+  "U49": {
+    "vi": "Cách tham gia"
+  },
+  "U50": {
+    "vi": "Tôi chưa có ảnh banner."
+  },
+  "U51": {
+    "vi": "Tôi đã đọc và đồng ý với các cam kết dành cho đơn vị đồng hành *"
+  },
+  "U52": {
+    "vi": "Nếu cần làm rõ thông tin, chúng tôi có thể liên hệ để cập nhật."
+  },
+  "U53": {
+    "vi": "JW Marriott Phu Quoc Emerald Bay Resort"
+  },
+  "U54": {
+    "vi": "Tham gia My Phu Quoc với tư cách đơn vị đồng hành đầu tiên. Chỉ 5 vị trí, miễn phí 3 tháng — cùng nhau vì một Phú Quốc tươi đẹp."
+  },
+  "U55": {
+    "vi": "Link KakaoTalk OpenChat (không bắt buộc)"
+  },
+  "U57": {
+    "vi": "Cẩm nang trọn bộ: Show Kiss of the Sea và màn pháo hoa kết thúc"
+  },
+  "U58": {
+    "vi": "Cẩm nang trọn bộ: Show Kiss of the Sea và pháo hoa hằng đêm"
+  },
+  "U59": {
+    "vi": "Đăng thông tin doanh nghiệp"
+  },
+  "U60": {
+    "vi": "Danh bạ độc lập với quảng cáo tài trợ"
+  },
+  "U61": {
+    "vi": "Thông tin địa phương đã được xác minh."
+  },
+  "U62": {
+    "vi": "Địa chỉ, danh mục & giới thiệu"
+  },
+  "U63": {
+    "vi": "BẢN ĐỒ & 12 ĐỊA DANH"
+  },
+  "U64": {
+    "vi": "Link Messenger / WhatsApp / IG DM (không bắt buộc)"
+  },
+  "U65": {
+    "vi": "My Phu Quoc ra đời để ghi lại những khoảnh khắc ấy — mang đến thông tin trung thực về những cơ sở quan tâm đến cộng đồng, tin tức hữu ích cho người dân và những đóng góp thầm lặng giúp Phú Quốc thêm thân thiện mỗi ngày."
+  },
+  "U66": {
+    "vi": "Doanh nghiệp của tôi chưa có trong danh bạ"
+  },
+  "U68": {
+    "vi": "Chợ đêm & ẩm thực"
+  },
+  "U69": {
+    "vi": "Không cần cung cấp thông tin thanh toán."
+  },
+  "U70": {
+    "vi": "Không sao. Chúng tôi có thể tạo banner đơn giản từ ảnh cơ sở của bạn."
+  },
+  "U71": {
+    "vi": "Chưa có trong danh bạ? Bạn vẫn có thể đăng ký. Chúng tôi sẽ xem xét thông tin doanh nghiệp và đề nghị đồng hành cùng lúc."
+  },
+  "U72": {
+    "vi": "Chúng tôi không bao giờ tự động thu phí. Trước khi có bất kỳ thay đổi nào, chúng tôi sẽ trao đổi với bạn."
+  },
+  "U73": {
+    "vi": "Chương trình xác minh và ưu tiên danh mục hiện áp dụng cho doanh nghiệp tại    và khu vực lân cận    (được gắn nhãn Lân cận (An Phu / An Khanh)). Doanh nghiệp ngoài các khu vực này vẫn có thể gửi thông tin để vào danh sách chờ mở rộng."
+  },
+  "U74": {
+    "vi": "Mỗi vị trí chỉ dành cho một doanh nghiệp"
+  },
+  "U75": {
+    "vi": "Chỉ các doanh nghiệp tại Phú Quốc đã được chúng tôi xem xét và xác nhận mới có thể tham gia."
+  },
+  "U76": {
+    "vi": "Giờ mở cửa (không bắt buộc)"
+  },
+  "U77": {
+    "vi": "Thông tin liên hệ & tên cơ sở"
+  },
+  "U78": {
+    "vi": "Việc đồng hành không ảnh hưởng đến thứ tự danh bạ, các nhãn như Đề xuất, Mới hoặc HOT, hay nội dung tin tức."
+  },
+  "U79": {
+    "vi": "Dán link đầy đủ hoặc @username. Hỗ trợ thêm Zalo, KakaoTalk hoặc Messenger (không bắt buộc)."
+  },
+  "U80": {
+    "vi": "Điện thoại / Zalo / WhatsApp *"
+  },
+  "U82": {
+    "vi": "Ảnh: Vivu Vietnam · CC BY-SA 4.0"
+  },
+  "U83": {
+    "vi": "Phú Quốc là nơi nhiều cuộc đời gặp nhau — từ những gia đình gắn bó qua nhiều thế hệ đến người mới đến từ khắp nơi, từ quán cà phê góc phố đến tiệm nhỏ cuối đường. Mong rằng những người chung khu phố sẽ hiểu nhau hơn và cùng sống hòa thuận."
+  },
+  "U85": {
+    "vi": "Thông báo khu vực thử nghiệm:"
+  },
+  "U86": {
+    "vi": "Vị trí mong muốn * — Nổi bật / Ẩm thực / Thể hình / Cà phê / Cộng đồng"
+  },
+  "U87": {
+    "vi": "Vui lòng tạo banner giúp tôi"
+  },
+  "U88": {
+    "vi": "Tháng bắt đầu mong muốn"
+  },
+  "U89": {
+    "vi": "Địa chỉ công khai *"
+  },
+  "U90": {
+    "vi": "Tên hiển thị của doanh nghiệp *"
+  },
+  "U91": {
+    "vi": "6 KHU PHỐ TẠI THỊ TRẤN HOÀNG HÔN"
+  },
+  "U92": {
+    "vi": "BẢN ĐỒ MINH HỌA THỊ TRẤN HOÀNG HÔN"
+  },
+  "U93": {
+    "vi": "SUNSET TOWN PHU QUOC · TRAVEL & DISTRICT GUIDE"
+  },
+  "U94": {
+    "vi": "Chọn loại hình"
+  },
+  "U95": {
+    "vi": "Phân cách các nhãn bằng dấu phẩy. Các nhãn như Đề xuất, Mới và HOT có thể được biên tập viên thêm sau khi duyệt."
+  },
+  "U96": {
+    "vi": "Tìm kiếm địa điểm, dịch vụ và thông tin địa phương tại Phú Quốc."
+  },
+  "U97": {
+    "vi": "Chia sẻ thông tin cơ sở và 3–5 hình ảnh rõ nét. Chúng tôi sẽ xem xét trước khi đăng tải lên danh bạ."
+  },
+  "U99": {
+    "vi": "Biểu diễn & giải trí"
+  },
+  "U100": {
+    "vi": "Giá ưu đãi trực tuyến"
+  },
+  "U101": {
+    "vi": "Vị trí tài trợ không ảnh hưởng đến thứ tự hiển thị tự nhiên hay các nhãn biên tập."
+  },
+  "U102": {
+    "vi": "Gửi thông tin doanh nghiệp"
+  },
+  "U105": {
+    "vi": "Bản đồ Thị trấn Hoàng Hôn — Hướng dẫn đường đi & 12 địa danh nổi bật | My Phu Quoc"
+  },
+  "U107": {
+    "vi": "Tìm địa điểm và thông tin địa phương."
+  },
+  "U108": {
+    "vi": "Cảm ơn bạn đã góp phần để Phú Quốc luôn là nơi mọi người cảm thấy được chào đón."
+  },
+  "U109": {
+    "vi": "Ổ bánh mì quen mỗi sáng. Nụ cười thân thuộc ở quán cà phê. Người hàng xóm vẫy tay khi đi ngang. Chính những điều nhỏ bé ấy khiến một nơi trở thành nhà."
+  },
+  "U110": {
+    "vi": "Tour & cáp treo"
+  },
+  "U111": {
+    "vi": "Tải lên từ 3 đến 5 ảnh rõ nét. Gợi ý: mặt tiền/bảng hiệu, không gian bên trong, sản phẩm/dịch vụ."
+  },
+  "U112": {
+    "vi": "VUI-Fest Bazaar: Chợ đêm ven biển, ẩm thực đường phố & trải nghiệm"
+  },
+  "U113": {
+    "vi": "Giới thiệu bằng tiếng Việt (không bắt buộc)"
+  },
+  "U114": {
+    "vi": "Lối vào chợ đêm Vui-Fest / Tháp Đồng Hồ / Ga cáp treo / Điểm dừng trên sườn đồi"
+  },
+  "U115": {
+    "vi": "Bạn muốn đồng hành cùng khu phố?"
+  },
+  "U116": {
+    "vi": "Chúng tôi đang dành 5 vị trí đầu tiên cho các doanh nghiệp đồng hành từ ngày đầu."
+  },
+  "U117": {
+    "vi": "Chúng tôi có thể từ chối những đăng ký không phù hợp với định hướng cộng đồng."
+  },
+  "U118": {
+    "vi": "Chúng tôi không dịch tự động thông tin doanh nghiệp. Nếu muốn tự cung cấp bản giới thiệu bằng nhiều ngôn ngữ, bạn có thể nhập thêm bên dưới (không bắt buộc)."
+  },
+  "U119": {
+    "vi": "Chúng tôi xem xét và liên hệ lại"
+  },
+  "U120": {
+    "vi": "Chúng tôi kiểm tra thông tin doanh nghiệp, hình ảnh và các đường dẫn công khai."
+  },
+  "U121": {
+    "vi": "Chúng tôi sẽ liên hệ trước khi hết thời gian miễn phí. Bạn có thể dừng bất cứ lúc nào."
+  },
+  "U122": {
+    "vi": "Website, mạng xã hội & kênh liên hệ"
+  },
+  "U123": {
+    "vi": "Điều gì xảy ra sau ba tháng?"
+  },
+  "U124": {
+    "vi": "Quy trình tiếp theo"
+  },
+  "U125": {
+    "vi": "Ý nghĩa của việc đồng hành cùng cộng đồng"
+  },
+  "U126": {
+    "vi": "Vị trí hiển thị của bạn"
+  },
+  "U127": {
+    "vi": "Dù sống ở đây lâu dài hay chỉ một mùa, mong bạn tìm thấy những gì mình cần gần nơi ở, ủng hộ các cơ sở có đóng góp cho cộng đồng và luôn cảm thấy mình thuộc về nơi này."
+  },
+  "U128": {
+    "vi": "Vì sao chúng tôi có mặt"
+  },
+  "U129": {
+    "vi": "Có — Nhận giao hàng"
+  },
+  "U130": {
+    "vi": "Có, nếu vị trí đó vẫn còn. Mỗi vị trí dành cho một doanh nghiệp tại một thời điểm."
+  },
+  "U131": {
+    "vi": "Có, chỉ cần báo cho chúng tôi."
+  },
+  "U132": {
+    "vi": "Banner của bạn xuất hiện trong khu vực Doanh nghiệp đồng hành gần đầu trang chủ, có nhãn QUẢNG CÁO rõ ràng. Khách nhấn vào sẽ đến trang doanh nghiệp trong danh bạ."
+  },
+  "U133": {
+    "vi": "Banner của bạn được hiển thị"
+  },
+  "U134": {
+    "vi": "Doanh nghiệp của bạn *"
+  },
+  "U135": {
+    "vi": "Tên của bạn *"
+  },
+  "U136": {
+    "vi": "Sự đồng hành của bạn giúp My Phu Quoc tiếp tục miễn phí, trung thực và phát triển, đồng thời tạo điều kiện cho các hoạt động đóng góp cộng đồng."
+  },
+  "U137": {
+    "vi": "Số điện thoại Zalo (không bắt buộc)"
+  },
+  "U138": {
+    "vi": "và gửi đơn đăng ký ngắn bên dưới."
+  },
+  "U139": {
+    "vi": "và ba tháng đầu tiên được miễn phí"
+  },
+  "U140": {
+    "vi": "ưu tiên người đăng ký trước sau khi được xét duyệt"
+  },
+  "U141": {
+    "vi": "mỗi lần một tháng; chúng tôi sẽ liên hệ với bạn hằng tháng."
+  },
+  "U143": {
+    "vi": "thường trong vài ngày."
+  },
+  "U164": {
+    "vi": "— Chọn vị trí —"
+  },
+  "U165": {
+    "vi": "— Chọn tháng bắt đầu (không bắt buộc) —"
+  },
+  "U166": {
+    "vi": "— Chọn doanh nghiệp trong danh bạ —"
+  },
+  "U167": {
+    "vi": "ℹ️  ※ Giá vé, lịch hoạt động và dịch vụ đi kèm có thể thay đổi theo Sun World và đơn vị vận hành. Đã xác minh tháng 10/2026."
+  },
+  "U188": {
+    "vi": "🗺️  Bản đồ thị trấn"
+  },
+  "T1": {
+    "vi": "{category} tại Thị trấn Hoàng Hôn & Bãi Khem | My Phu Quoc"
+  },
+  "T2": {
+    "vi": "Phú Quốc, Việt Nam"
+  },
+  "G1": {
+    "vi": "Cẩm nang ẩm thực Phú Quốc & món Việt"
+  },
+  "G2": {
+    "vi": "🦀 Hải sản Phú Quốc & ghẹ Hàm Ninh"
+  },
+  "G3": {
+    "vi": "Người địa phương thường chế biến đơn giản như hấp sả hoặc nướng than để giữ vị ngọt tự nhiên của hải sản."
+  },
+  "G4": {
+    "vi": "Ghẹ hấp: Hấp cùng sả, thịt chắc và ngọt."
+  },
+  "G5": {
+    "vi": "Sò điệp nướng mỡ hành: Rắc đậu phộng rang và hành phi thơm."
+  },
+  "G6": {
+    "vi": "Tôm sốt bơ tỏi: Tôm lớn địa phương áo sốt bơ tỏi thơm."
+  },
+  "G7": {
+    "vi": "Gia vị chấm đặc trưng: Muối tiêu chanh"
+  },
+  "G8": {
+    "vi": "Chấm ghẹ, tôm hoặc mực vừa bóc để làm nổi bật vị ngọt tự nhiên."
+  },
+  "G9": {
+    "vi": "📜 Nguồn gốc & văn hóa ẩm thực Phú Quốc"
+  },
+  "G10": {
+    "vi": "Nằm trong vịnh Thái Lan, đảo Phú Quốc có nét ẩm thực riêng nhờ nguồn hải sản ven bờ, nông sản địa phương và phương pháp chế biến truyền thống."
+  },
+  "G11": {
+    "vi": "Nước mắm Phú Quốc: Nước mắm truyền thống ủ trong thùng gỗ từ cá cơm và muối biển theo cách làm trên đảo."
+  },
+  "G12": {
+    "vi": "Tiêu Phú Quốc: Có hương thơm đặc trưng và vị cay ấm, được dùng phổ biến trong các món Việt."
+  },
+  "G13": {
+    "vi": "Thói quen ăn tối ngắm hoàng hôn: Thưởng thức hải sản tươi bên đường dạo ven biển khi chiều buông."
+  },
+  "G14": {
+    "vi": "🍳 Cách ăn như người địa phương & cẩm nang nước chấm"
+  },
+  "G15": {
+    "vi": "Bữa ăn Việt thường có nhiều rau thơm, ớt hiểm, chanh và nước chấm để mọi người tự nêm theo khẩu vị."
+  },
+  "G16": {
+    "vi": "Đĩa rau thơm: Dùng tay ngắt húng quế và ngò gai cho vào món nước nóng để dậy hương."
+  },
+  "G17": {
+    "vi": "Mẹo & cách ứng xử khi ăn uống tại địa phương"
+  },
+  "G18": {
+    "vi": "Uống bia với đá: Người địa phương thường cho đá viên lớn vào ly bia để giữ mát trong thời tiết nhiệt đới."
+  },
+  "G19": {
+    "vi": "Phú Quốc có khí hậu nhiệt đới ấm quanh năm. Hãy lưu ý những điều đơn giản sau khi ăn uống."
+  },
+  "G20": {
+    "vi": "Ăn chín: Bảo đảm nghêu sò, tôm và mực được nấu chín kỹ trước khi ăn."
+  },
+  "G21": {
+    "vi": "🛵 Đặt món, giao hàng & mẹo tại Thị trấn Hoàng Hôn"
+  },
+  "G22": {
+    "vi": "Nhiều nhà hàng tại Thị trấn Hoàng Hôn phục vụ ăn tại chỗ, mang đi và giao đến khách sạn hoặc biệt thự gần đó."
+  },
+  "G23": {
+    "vi": "Giờ cao điểm: Lúc hoàng hôn và giờ diễn ra show thường đông khách; nên đặt bàn trước nếu có thể."
+  },
+  "G24": {
+    "vi": "Giao hàng: Đặt qua GrabFood, WhatsApp hoặc Zalo và nhận tại sảnh khách sạn."
+  },
+  "G25": {
+    "vi": "Thanh toán: Tiền mặt (VND), thẻ quốc tế (Visa/Mastercard) và VietQR được chấp nhận tại nhiều nơi."
+  },
+  "G26": {
+    "vi": "Cẩm nang lưu trú tại Thị trấn Hoàng Hôn"
+  },
+  "G27": {
+    "vi": "Mẹo khi lưu trú tại Thị trấn Hoàng Hôn"
+  },
+  "G28": {
+    "vi": "🏨 Khách sạn boutique hay căn hộ trên đồi: Chọn thế nào?"
+  },
+  "G29": {
+    "vi": "Thị trấn Hoàng Hôn có hai kiểu lưu trú chính, phù hợp với nhu cầu khác nhau."
+  },
+  "G30": {
+    "vi": "Khách sạn boutique ven biển: Có lễ tân và dọn phòng, nằm gần khu chợ đêm. Bữa sáng và tiện nghi tùy theo gói đặt phòng; hãy kiểm tra thông tin phòng."
+  },
+  "G31": {
+    "vi": "Căn hộ trên đồi (The Hill / The Sky): Thường có bếp và máy giặt, phù hợp với gia đình hoặc khách ở dài ngày. Hồ bơi và tiện ích tùy tòa nhà; hãy kiểm tra quy định nhận phòng."
+  },
+  "G32": {
+    "vi": "🎆 Mẹo chọn phòng xem pháo hoa & di chuyển bằng xe buggy điện"
+  },
+  "G33": {
+    "vi": "Thị trấn Hoàng Hôn có màn pháo hoa kết thúc show Kiss of the Sea (Thứ Tư–Thứ Hai, khoảng 21:25 trên biển; nghỉ Thứ Ba)."
+  },
+  "G34": {
+    "vi": "Phòng ban công xem pháo hoa: Chọn phòng có ghi rõ “Fireworks View” để xem từ ban công riêng (tầm nhìn tùy hướng phòng)."
+  },
+  "G35": {
+    "vi": "Xe buggy: Địa hình lát đá và nhiều dốc, nên hỏi trước nơi lưu trú về xe buggy chở khách, hành lý và mức phí."
+  },
+  "G36": {
+    "vi": "Tiền đặt cọc: Khi nhận phòng, một số cơ sở có thể yêu cầu đặt cọc bằng thẻ hoặc tiền mặt. Hãy xem lại xác nhận đặt phòng."
+  },
+  "G37": {
+    "vi": "🌉 Mẹo tham quan Cầu Hôn & xem show Kiss of the Sea"
+  },
+  "G38": {
+    "vi": "Công trình biểu tượng và chương trình trình diễn đa phương tiện buổi tối."
+  },
+  "G39": {
+    "vi": "Cầu Hôn: Hai nhánh cầu đi bộ vươn ra biển, gần chạm nhau và là điểm ngắm hoàng hôn."
+  },
+  "G40": {
+    "vi": "Show Kiss of the Sea: Trình diễn đa phương tiện trên biển và pháo hoa hằng đêm (Thứ Tư–Thứ Hai, show 21:00, pháo hoa khoảng 21:25; nghỉ Thứ Ba)."
+  },
+  "G41": {
+    "vi": "Cẩm nang ẩm thực Hàn Quốc"
+  },
+  "G42": {
+    "vi": "🥩 Lòng bò Hàn Quốc (so-gopchang) & BBQ là gì?"
+  },
+  "G43": {
+    "vi": "Gopchang là ruột non bò, món ăn được yêu thích trong ẩm thực Hàn Quốc nhờ vị béo bùi và độ dai đặc trưng."
+  },
+  "G44": {
+    "vi": "Lòng được làm sạch kỹ, chần sơ rồi nướng trên chảo nóng cùng hành tây, khoai tây, kimchi và hẹ tẩm gia vị."
+  },
+  "G45": {
+    "vi": "So-gopchang: Ruột non bò, có phần mỡ béo đậm vị gọi là “gop”."
+  },
+  "G46": {
+    "vi": "Daechang: Ruột già bò, béo mọng và mềm."
+  },
+  "G47": {
+    "vi": "Makchang: Dạ múi khế của bò (dạ dày thứ tư), có độ dai giòn đặc trưng."
+  },
+  "G48": {
+    "vi": "Bokkeum-bap: Cuối bữa, người Hàn thường rang cơm với rong biển và kimchi trong phần nước mỡ còn lại trên chảo."
+  },
+  "G49": {
+    "vi": "Cách thưởng thức & mẹo pha nước chấm"
+  },
+  "G50": {
+    "vi": "Chấm với nước tương chua ngọt mặn có tỏi băm và ớt (Cham-sauce)."
+  },
+  "G51": {
+    "vi": "Áo một lớp mỏng bột đậu nành rang để thêm vị bùi."
+  },
+  "G52": {
+    "vi": "Rất hợp khi dùng cùng bia lạnh hoặc soju Hàn Quốc."
+  },
+  "G53": {
+    "vi": "Cẩm nang tham quan Thị trấn Hoàng Hôn"
+  },
+  "G54": {
+    "vi": "Khám phá các điểm nổi bật ở Thị trấn Hoàng Hôn"
+  },
+  "G55": {
+    "vi": "🚡 Cẩm nang cáp treo Hòn Thơm & công viên nước Aquatopia"
+  },
+  "G56": {
+    "vi": "Tuyến cáp treo 3 dây dài 7,899 mét vượt biển xanh, nối Thị trấn Hoàng Hôn với Hòn Thơm Nature Park."
+  },
+  "G57": {
+    "vi": "Nghỉ giữa ngày: Cáp treo thường tạm dừng bảo trì từ 11:30 đến 13:30; hãy sắp xếp lịch đi phù hợp."
+  },
+  "G58": {
+    "vi": "Cảnh quan: Ngắm toàn cảnh Thị trấn Hoàng Hôn và biển từ trên cao trong suốt chuyến đi."
+  },
+  "G59": {
+    "vi": "Nằm giữa vịnh Thái Lan, Phú Quốc có nhiều loại hải sản tự nhiên. Đặc biệt, ghẹ Hàm Ninh nổi tiếng với thịt chắc, ngọt và giàu dinh dưỡng."
+  },
+  "G60": {
+    "vi": "Pha muối tiêu đen hoặc tiêu hồng Phú Quốc (muối tiêu) với nước cốt chanh tươi."
+  },
+  "G61": {
+    "vi": "Ẩm thực đảo nổi bật với hải sản tươi, nước mắm ủ thùng truyền thống và tiêu đen phơi nắng thơm nồng."
+  },
+  "G62": {
+    "vi": "Nước mắm chấm: Nước mắm pha chua ngọt, mặn cay dùng chấm cuốn, thịt và bún."
+  },
+  "G63": {
+    "vi": "Muối tiêu chanh: Muối, tiêu Phú Quốc giã dập và nước cốt chanh — gia vị quen thuộc cho hải sản hấp."
+  },
+  "G64": {
+    "vi": "Khăn lạnh: Nhiều quán đặt sẵn khăn ướt đóng gói trên bàn và có thể tính một khoản phí nhỏ tùy quy định."
+  },
+  "G65": {
+    "vi": "❄️ Độ tươi thực phẩm & an toàn ăn uống"
+  },
+  "G66": {
+    "vi": "Đồ mang đi: Nên dùng bánh mì, xiên nướng hoặc các món mang đi trong vòng 2 giờ từ khi mua."
+  },
+  "G67": {
+    "vi": "Nước đóng chai: Trà đá thường được phục vụ; người có bụng nhạy cảm có thể chọn nước khoáng đóng chai còn niêm phong."
+  },
+  "X1": {
+    "vi": "Thị trấn Hoàng Hôn & Bãi Khem"
+  },
+  "X2": {
+    "vi": "Cẩm nang du lịch Thị trấn Hoàng Hôn | My Phu Quoc"
+  },
+  "X3": {
+    "vi": "Cẩm nang du lịch Bãi Khem | My Phu Quoc"
+  },
+  "X4": {
+    "vi": "6 KHU PHỐ TẠI THỊ TRẤN HOÀNG HÔN"
+  },
+  "X5": {
+    "vi": "Doanh nghiệp đồng hành cùng cộng đồng — My Phu Quoc"
+  },
+  "X6": {
+    "vi": "Tìm kiếm | My Phu Quoc"
+  },
+  "X7": {
+    "vi": "Nếu cần làm rõ thông tin, chúng tôi có thể liên hệ để cập nhật."
+  },
+  "X8": {
+    "vi": "Thông tin được duyệt sẽ được đăng trong danh bạ bằng ngôn ngữ gốc bạn cung cấp."
+  },
+  "X9": {
+    "vi": "Tìm kiếm | My Phu Quoc"
+  },
+  "X10": {
+    "vi": "TÌM KIẾM PHÚ QUỐC"
+  },
+  "X11": {
+    "vi": "Tìm địa điểm và thông tin địa phương."
+  },
+  "X12": {
+    "vi": "Chia sẻ thông tin cơ sở và 3–5 hình ảnh rõ nét. Chúng tôi sẽ xem xét trước khi đăng tải lên danh bạ."
+  },
+  "X13": {
+    "vi": "Ý nghĩa của huy hiệu"
+  },
+  "X14": {
+    "vi": "“Thành viên Good Life Phú Quốc” là doanh nghiệp địa phương có cam kết thiết thực với khu phố vượt lên trên mục đích quảng bá thương mại thông thường."
+  },
+  "X15": {
+    "vi": "Tham gia hoạt động cộng đồng hoặc tình nguyện"
+  },
+  "X16": {
+    "vi": "Ủng hộ các sáng kiến đóng góp cho địa phương"
+  },
+  "X17": {
+    "vi": "Kinh doanh có trách nhiệm, thân thiện với cư dân xung quanh"
+  },
+  "X18": {
+    "vi": "Đóng góp tích cực cho cộng đồng thông tin địa phương"
+  },
+  "X19": {
+    "vi": "Huy hiệu này không phải là gì"
+  },
+  "X20": {
+    "vi": "Huy hiệu không phải thứ hạng trả phí, không phải cam kết bảo증 chất lượng dịch vụ hay thay thế cho đánh giá độc lập. Đề xuất (Recommended), Mới (New) và HOT là các nhãn biên tập riêng biệt."
+  },
+  "X21": {
+    "vi": "My Phu Quoc có thể cập nhật hoặc gỡ huy hiệu nếu doanh nghiệp không còn đáp ứng tiêu chuẩn đồng hành cùng cộng đồng."
+  },
+  "X22": {
+    "vi": "Tìm huy hiệu thành viên trong danh mục."
+  },
+  "X23": {
+    "vi": "Bạn cũng có thể lọc trên từng trang danh mục để tìm các doanh nghiệp thành viên."
+  },
+  "X24": {
+    "vi": "Xem danh bạ doanh nghiệp →"
+  },
+  "X25": {
+    "vi": "Mở cửa mỗi tối dọc đại lộ ven biển, VUI-Fest Bazaar quy tụ hàng chục quầy ẩm thực thủ công, sản phẩm địa phương cùng các tiết mục xiếc và âm nhạc ngẫu hứng."
+  },
+  "X26": {
+    "vi": "Điểm nổi bật: Xiên hải sản Phú Quốc nướng, bia thủ công và show xiếc đường phố Loang Xoang."
+  },
+  "X27": {
+    "vi": "Cáp treo Hòn Thơm: Kinh nghiệm đi tuyến cáp treo vượt biển dài nhất thế giới"
+  },
+  "X28": {
+    "vi": "Xuất phát từ Ga An Thới lấy cảm hứng kiến trúc La Mã tại Thị trấn Hoàng Hôn, cáp treo Hòn Thơm dài 7,899.9 mét vượt biển."
+  },
+  "X29": {
+    "vi": "Kiểm tra lịch giờ hoạt động trước khi khởi hành."
+  },
+  "X30": {
+    "vi": "Vé bao gồm Công viên nước Aquatopia và Công viên chủ đề Exotica."
+  },
+  "X31": {
+    "vi": "Thời điểm chụp ảnh đẹp: Ngồi phía tây trên chuyến về lúc 16:30 để ngắm nắng vàng."
+  },
+  "X32": {
+    "vi": "còn chỗ"
+  },
+  "X33": {
+    "vi": "BẢN ĐỒ TƯƠNG TÁC"
+  }
+}
