@@ -1,6 +1,7 @@
 import { SITE_URL } from '@/lib/supabase/config'
 import { CONTACT_CONFIG } from '@/lib/contactConfig'
 import { HREFLANG, localeUrl, type Locale } from '@/lib/i18n/config'
+import { SAME_AS_PROFILES, SITE_CONTACT, SUPPORTED_LANGUAGES } from '@/lib/siteAgent'
 
 type Json = Record<string, unknown>
 
@@ -44,10 +45,19 @@ export function organizationJsonLd(): Json {
     '@id': ORG_ID,
     name: 'My Phu Quoc',
     url: SITE_URL,
+    description:
+      'Independent travel guide to Sunset Town and southern Phu Quoc, Vietnam: hotels, dining, activities, events and a town map in 6 languages.',
+    email: SITE_CONTACT.email,
+    telephone: SITE_CONTACT.telephone,
+    areaServed: { '@type': 'Place', name: 'Sunset Town, Phu Quoc, Vietnam' },
+    knowsLanguage: SUPPORTED_LANGUAGES,
+    sameAs: SAME_AS_PROFILES,
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+84907994188',
+      telephone: SITE_CONTACT.telephone,
+      email: SITE_CONTACT.email,
       contactType: 'customer service',
+      availableLanguage: ['English', 'Korean', 'Chinese', 'Russian', 'Japanese', 'Hindi'],
     },
   })
 }

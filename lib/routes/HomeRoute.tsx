@@ -8,6 +8,8 @@ import { buildAlternates, localeUrl, ogLocaleFor, type Locale } from '@/lib/i18n
 import { getDictionary } from '@/lib/i18n/dictionaries'
 import { DEFAULT_SPONSOR_BANNERS } from '@/lib/banners'
 import { PUBLISHED_EVENTS } from '@/lib/eventSamples'
+import { JsonLd } from '@/components/JsonLd'
+import { homeJsonLd } from '@/lib/seo/homeJsonld'
 
 export async function generateHomeMetadata(locale: Locale = 'en'): Promise<Metadata> {
   const dict = getDictionary(locale)
@@ -92,15 +94,18 @@ export async function renderHomeRoute(locale: Locale = 'en') {
   const effectiveEvent = eventRows?.[0] || defaultSunsetEvent || null
 
   return (
-    <HomePage
-      settings={settings}
-      categoryAppearance={categoryAppearance}
-      stories={homeNews}
-      events={homeEvents}
-      banners={effectiveBanners}
-      event={effectiveEvent}
-      homeSections={homeSections}
-      locale={locale}
-    />
+    <>
+      <JsonLd data={homeJsonLd(locale, getDictionary(locale).home.heroDescription)} />
+      <HomePage
+        settings={settings}
+        categoryAppearance={categoryAppearance}
+        stories={homeNews}
+        events={homeEvents}
+        banners={effectiveBanners}
+        event={effectiveEvent}
+        homeSections={homeSections}
+        locale={locale}
+      />
+    </>
   )
 }

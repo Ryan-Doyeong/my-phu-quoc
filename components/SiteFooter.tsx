@@ -6,6 +6,7 @@ import { DIRECTORY_CATEGORY_KEYS, getCategoryPublishedCount, categoryLabel } fro
 import { localePath, stripLocalePrefix } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
 import { tUi } from '@/lib/i18n/uiStrings'
+import { SITE_CONTACT } from '@/lib/siteAgent'
 
 export function SiteFooter() {
   const pathname = usePathname()
@@ -40,12 +41,19 @@ export function SiteFooter() {
         <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
         <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
         <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
+        <Link href={localePath(locale, '/contact')}>{locale === 'ko' ? '문의하기' : 'Contact'}</Link>
+        <Link href={localePath(locale, '/terms')}>{locale === 'ko' ? '이용약관' : 'Terms'}</Link>
       </nav>
       <div className="footerLegal">
         <p>
           {dict.footer.taglineLine1}
           <br />
           {dict.footer.taglineLine2}
+        </p>
+        <p>
+          <a href={`mailto:${SITE_CONTACT.email}`}>{SITE_CONTACT.email}</a>
+          {' · '}
+          <a href={`tel:${SITE_CONTACT.telephone}`}>{SITE_CONTACT.telephoneDisplay}</a>
         </p>
         <p className="osm-attribution">
           {dict.footer.osmPrefix}{' '}
