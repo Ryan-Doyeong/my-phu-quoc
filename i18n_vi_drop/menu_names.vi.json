@@ -628,5 +628,635 @@
   },
   "Le Triporteur IGP, Rhône (vang trắng)": {
     "vi": "Le Triporteur IGP, Rhône"
+  },
+  "Gustave Lorentz, Alsace (vang trắng)": {
+    "vi": "Gustave Lorentz, Alsace (vang trắng)"
+  },
+  "Santa Cristina, Veneto (vang trắng)": {
+    "vi": "Santa Cristina, Veneto (vang trắng)"
+  },
+  "Deakin Estate, Victoria (vang trắng)": {
+    "vi": "Deakin Estate, Victoria (vang trắng)"
+  },
+  "Allan Scott, Marlborough (vang trắng)": {
+    "vi": "Allan Scott, Marlborough (vang trắng)"
+  },
+  "Cava Vega Medien Semi-Sec (vang sủi)": {
+    "vi": "Cava Vega Medien Semi-Sec"
+  },
+  "Tommasi Filodora Prosecco (vang sủi)": {
+    "vi": "Tommasi Filodora Prosecco"
+  },
+  "Venice Cocktail": {
+    "vi": "Venice Cocktail"
+  },
+  "Pearl Island Sunny": {
+    "vi": "Pearl Island Sunny"
+  },
+  "Florence Sunset": {
+    "vi": "Florence Sunset"
+  },
+  "Ly Chỉ Kiss": {
+    "vi": "Ly Chỉ Kiss"
+  },
+  "Cold Smoke": {
+    "vi": "Cold Smoke"
+  },
+  "Peachy Breeze": {
+    "vi": "Peachy Breeze"
+  },
+  "Salted Sol": {
+    "vi": "Salted Sol"
+  },
+  "Melon Mist": {
+    "vi": "Melon Mist"
+  },
+  "Midnight": {
+    "vi": "Midnight"
+  },
+  "Negroni": {
+    "vi": "Negroni"
+  },
+  "Classic Mojito": {
+    "vi": "Mojito cổ điển"
+  },
+  "Long Island Iced Tea": {
+    "vi": "Trà đá Long Island (cocktail)"
+  },
+  "Pina Colada": {
+    "vi": "Piña colada"
+  },
+  "Venice Sunset": {
+    "vi": "Venice Sunset"
+  },
+  "Guava Detox": {
+    "vi": "Guava Detox"
+  },
+  "Phu Quoc Tropical": {
+    "vi": "Phu Quoc Tropical"
+  },
+  "Island Dream": {
+    "vi": "Island Dream"
+  },
+  "Passion Virgin Mojito": {
+    "vi": "Passion Virgin Mojito"
+  },
+  "Blue Ocean": {
+    "vi": "Blue Ocean"
+  },
+  "Gingerberry Fizz": {
+    "vi": "Gingerberry Fizz"
+  },
+  "Venice’s Signature Coffee": {
+    "vi": "Cà phê đặc trưng Venice"
+  },
+  "Tiramisu Cheese Coffee": {
+    "vi": "Cà phê kem phô mai tiramisu"
+  },
+  "Cocoa Tiramisu": {
+    "vi": "Ca cao tiramisu"
+  },
+  "Coconut Coffee": {
+    "vi": "Cà phê dừa"
+  },
+  "Yogurt Coffee": {
+    "vi": "Cà phê sữa chua"
+  },
+  "Egg Coffee": {
+    "vi": "Cà phê trứng"
+  },
+  "Traditional Coffee": {
+    "vi": "Cà phê truyền thống"
+  },
+  "Espresso, Americano, Latte, Matcha Latte, Cara Latte, Cappuccino": {
+    "vi": "Espresso, Americano, Latte, Matcha Latte, Cara Latte, Cappuccino"
+  },
+  "Hot or Iced Chocolate": {
+    "vi": "Sô cô la nóng hoặc đá"
+  },
+  "Tropical Tea": {
+    "vi": "Trà trái cây nhiệt đới"
+  },
+  "Be-A-Mangozing": {
+    "vi": "Be-A-Mangozing"
+  },
+  "Summer Strawberry": {
+    "vi": "Summer Strawberry"
+  },
+  "Love Sunny": {
+    "vi": "Love Sunny"
+  },
+  "The Smell of the Sunshine": {
+    "vi": "The Smell of the Sunshine"
+  },
+  "Venice Juice": {
+    "vi": "Nước ép Venice"
+  },
+  "Golden Roots Elixir": {
+    "vi": "Golden Roots Elixir"
+  },
+  "Beach Bum": {
+    "vi": "Beach Bum"
+  },
+  "Summer in Venice": {
+    "vi": "Summer in Venice"
+  },
+  "Fresh Juice": {
+    "vi": "Nước ép tươi"
+  },
+  "Green Zen Energy": {
+    "vi": "Green Zen Energy"
+  },
+  "Passion Healthy": {
+    "vi": "Passion Healthy"
+  },
+  "Passionate Smoothie": {
+    "vi": "Passionate Smoothie"
+  },
+  "Love Formula": {
+    "vi": "Love Formula"
+  },
+  "Coma Tango": {
+    "vi": "Coma Tango"
+  },
+  "Choco Blended": {
+    "vi": "Sô cô la đá xay"
+  },
+  "Matcha Blended": {
+    "vi": "Matcha đá xay"
+  },
+  "Caramel Mix": {
+    "vi": "Caramel đá xay"
+  },
+  "Beer 330 ml": {
+    "vi": "Bia lon 330 ml"
+  },
+  "Sapporo Draft": {
+    "vi": "Bia tươi Sapporo"
+  },
+  "Mineral Water": {
+    "vi": "Nước khoáng"
+  },
+  "Soft Drinks": {
+    "vi": "Nước ngọt"
+  },
+  "Sunset Kimbap": {
+    "vi": "Kimbap Sunset"
+  },
+  "Tuna Kimbap": {
+    "vi": "Kimbap cá ngừ"
+  },
+  "Spicy Chili Kimbap": {
+    "vi": "Kimbap ớt cay"
+  },
+  "Tteokbokki / Rabokki": {
+    "vi": "Bánh gạo cay / rabokki"
+  },
+  "Kimchi Cold Noodles": {
+    "vi": "Mì lạnh kimchi"
+  },
+  "Korean Ramen": {
+    "vi": "Mì ramen Hàn Quốc"
+  },
+  "Spam Kimchi Cup Rice": {
+    "vi": "Cơm cốc spam kimchi"
+  },
+  "Kimchi Jjigae": {
+    "vi": "Canh kimchi (kimchi jjigae)"
+  },
+  "Mì gà Kungfu (Chicken Hand-pulled Noodle)": {
+    "vi": "Mì gà Kungfu"
+  },
+  "Mì xá xíu Kungfu (Charsiu BBQ Pork Noodle)": {
+    "vi": "Mì xá xíu Kungfu"
+  },
+  "Mì tôm tươi (Fresh Shrimp Noodle)": {
+    "vi": "Mì tôm tươi"
+  },
+  "Mì hải sản đặc biệt (Special Seafood Noodle)": {
+    "vi": "Mì hải sản đặc biệt"
+  },
+  "Đĩa xá xíu truyền thống (Charsiu Plate for Sharing)": {
+    "vi": "Đĩa xá xíu truyền thống"
+  },
+  "Cà phê đen truyền thống (Traditional Black Coffee)": {
+    "vi": "Cà phê đen truyền thống"
+  },
+  "Nước ép dừa / cam / xoài (Fresh Fruit Juice)": {
+    "vi": "Nước ép dừa / cam / xoài"
+  },
+  "Sinh tố xoài cốt dừa (Mango Coconut Smoothie)": {
+    "vi": "Sinh tố xoài cốt dừa"
+  },
+  "The Amalfi Old Fashioned": {
+    "vi": "The Amalfi Old Fashioned"
+  },
+  "Negroni Classico": {
+    "vi": "Negroni Classico"
+  },
+  "Kem Ốc Quế (Crispy Soft Serve Cone)": {
+    "vi": "Kem Ốc Quế (Crispy Soft Serve Cone)"
+  },
+  "Nước Chanh Tươi (Fresh Lemon Water)": {
+    "vi": "Nước Chanh Tươi"
+  },
+  "Trà Sữa Trân Châu (Pearl Milk Tea)": {
+    "vi": "Trà Sữa Trân Châu"
+  },
+  "Trà Đào Bốn Mùa (Four Seasons Peach Tea)": {
+    "vi": "Trà Đào Bốn Mùa"
+  },
+  "Chef Victor's Curated Selection": {
+    "vi": "Set tuyển chọn của bếp trưởng Victor"
+  },
+  "Imperial Dimsum Basket (5 pieces)": {
+    "vi": "Giỏ dim sum Hoàng Gia (5 miếng)"
+  },
+  "Steamed Spinach Dumpling (3 pieces)": {
+    "vi": "Há cảo rau bina hấp (3 miếng)"
+  },
+  "Steamed Shrimp Dumpling - Ha Gao (3 pieces)": {
+    "vi": "Há cảo tôm hấp (3 miếng)"
+  },
+  "Steamed Pork & Shrimp with Mushroom - Siew Mai (3 pieces)": {
+    "vi": "Xíu mại thịt heo, tôm và nấm hấp (3 miếng)"
+  },
+  "Steamed Barbecue Pork Buns (2 pieces)": {
+    "vi": "Bánh bao xá xíu hấp (2 cái)"
+  },
+  "Village-Style Chicken Feet": {
+    "vi": "Chân gà kiểu làng"
+  },
+  "Steamed Pork Ribs with Black Bean Sauce": {
+    "vi": "Sườn heo hấp tàu xì"
+  },
+  "Charcoal Custard Bun (3 pieces)": {
+    "vi": "Bánh bao than tre nhân kem sữa (3 cái)"
+  },
+  "Chili Oil Dumplings (3 pieces)": {
+    "vi": "Sủi cảo dầu ớt (3 cái)"
+  },
+  "Baked Pineapple Buns with BBQ Pork (3 pieces)": {
+    "vi": "Bánh dứa nướng nhân xá xíu (3 cái)"
+  },
+  "Lotus Leaf Sticky Rice with Chicken": {
+    "vi": "Xôi gà lá sen"
+  },
+  "Prawn Toast with XO Sauce": {
+    "vi": "Bánh mì tôm chiên sốt XO"
+  },
+  "Sichuan Mala Braised Beef Shank": {
+    "vi": "Bắp bò om mala Tứ Xuyên"
+  },
+  "Chilled French Beans with Sesame Sauce": {
+    "vi": "Đậu que lạnh sốt mè"
+  },
+  "Chilled Marinated Jelly Fish": {
+    "vi": "Sứa ngâm lạnh"
+  },
+  "Century Egg with Ginger-Scallion Dressing": {
+    "vi": "Trứng bắc thảo sốt gừng hành lá"
+  },
+  "Braised Chicken Soup with Morel Mushrooms & Cabbage (per person)": {
+    "vi": "Canh gà hầm nấm bụng dê và cải thảo (mỗi người)"
+  },
+  "Hokkaido Scallop Hot & Sour Soup (per person)": {
+    "vi": "Súp chua cay sò điệp Hokkaido (mỗi người)"
+  },
+  "Wok-Fried Typhoon Shelter-Style Tiger Prawn (3 pieces)": {
+    "vi": "Tôm sú xào kiểu Typhoon Shelter (3 con)"
+  },
+  "Steamed Tofu with Japanese Scallops in Black Bean Sauce (3 pieces)": {
+    "vi": "Đậu hũ hấp sò điệp Nhật sốt tàu xì (3 miếng)"
+  },
+  "Stir-Fried Beef with 3 Types of Onion": {
+    "vi": "Bò xào ba loại hành"
+  },
+  "Typhoon Shelter-Style New Zealand Lamb Chops (3 pieces)": {
+    "vi": "Sườn cừu New Zealand kiểu Typhoon Shelter (3 miếng)"
+  },
+  "Sweet & Sour Sauce Crispy Pork Fillet with Pineapple & Bell Pepper": {
+    "vi": "Phi lê heo chiên giòn sốt chua ngọt với dứa và ớt chuông"
+  },
+  "Marinated Chicken with Salt, Spices and Minced Spring Onion (quarter)": {
+    "vi": "Gà ướp muối, gia vị và hành lá băm (1/4 con)"
+  },
+  "Marinated Chicken with Salt, Spices and Minced Spring Onion (half)": {
+    "vi": "Gà ướp muối, gia vị và hành lá băm (1/2 con)"
+  },
+  "Crispy Roasted Pork Belly": {
+    "vi": "Ba chỉ heo quay giòn"
+  },
+  "Honey-Glazed Char Siu Pork Belly": {
+    "vi": "Ba chỉ heo xá xíu sốt mật ong"
+  },
+  "Cantonese-Style Sesame Grilled Chicken (quarter)": {
+    "vi": "Gà nướng mè kiểu Quảng Đông (1/4 con)"
+  },
+  "Cantonese-Style Sesame Grilled Chicken (half)": {
+    "vi": "Gà nướng mè kiểu Quảng Đông (1/2 con)"
+  },
+  "Caramelized Smoked Duck Breast": {
+    "vi": "Ức vịt xông khói sốt caramel"
+  },
+  "Local Seasonal Green (poached / stir-fried with oil / with minced garlic / with \"Lao Gan Ma\")": {
+    "vi": "Rau xanh theo mùa (chần / xào dầu / xào tỏi / xào Lao Gan Ma)"
+  },
+  "Additional with Crab Meat": {
+    "vi": "Gọi thêm thịt cua"
+  },
+  "Additional with Dried Scallop": {
+    "vi": "Gọi thêm sò điệp khô"
+  },
+  "Hong Kong-Style Fried Flat Rice Noodles with Beef": {
+    "vi": "Hủ tiếu xào bò kiểu Hồng Kông"
+  },
+  "Wok-Fried Rice with Crab Meat, Ginger & Egg White": {
+    "vi": "Cơm chiên cua, gừng và lòng trắng trứng"
+  },
+  "Lotus Leaf Fried Rice with Diced Roasted Duck, Chicken, Crab Meat & Dried Scallop (per person)": {
+    "vi": "Cơm chiên lá sen với vịt quay, gà, cua và sò điệp khô (mỗi người)"
+  },
+  "White Rice": {
+    "vi": "Cơm trắng"
+  },
+  "Vegetarian Crystal Dumpling (3 pieces)": {
+    "vi": "Há cảo pha lê chay (3 miếng)"
+  },
+  "Spinach Dumpling (3 pieces)": {
+    "vi": "Há cảo rau bina (3 miếng)"
+  },
+  "Fried Vegetarian Spring Roll (3 pieces)": {
+    "vi": "Chả giò chay chiên (3 cuốn)"
+  },
+  "Chinese Bun - Steamed or Deep Fried (3 pieces)": {
+    "vi": "Bánh bao Trung Hoa hấp hoặc chiên (3 cái)"
+  },
+  "Sweet and Sour Radish Roll (3 pieces)": {
+    "vi": "Củ cải cuộn chua ngọt (3 cuốn)"
+  },
+  "Stir-fried Green Beans in Sesame Dressing": {
+    "vi": "Đậu que xào sốt mè"
+  },
+  "Deep Fried Salt and Pepper Beancurd": {
+    "vi": "Đậu hũ chiên muối tiêu"
+  },
+  "Vegetarian Hot and Sour Soup": {
+    "vi": "Súp chua cay chay"
+  },
+  "Pumpkin Soup with Black Truffle": {
+    "vi": "Súp bí đỏ nấm truffle đen"
+  },
+  "Stir Fried Eggplant with Typhoon Shelter Style": {
+    "vi": "Cà tím xào kiểu Typhoon Shelter"
+  },
+  "Steamed Eggplant with Garlic Dressing": {
+    "vi": "Cà tím hấp sốt tỏi"
+  },
+  "Stir Fried Mixed Vegetable with Bell Pepper and Black Pepper": {
+    "vi": "Rau củ xào ớt chuông và tiêu đen"
+  },
+  "Braised Baby Chinese Cabbage with Enoki Mushrooms in Pumpkin Sauce": {
+    "vi": "Cải thảo non hầm nấm kim châm sốt bí đỏ"
+  },
+  "Braised Tofu with Morel Mushrooms": {
+    "vi": "Đậu hũ hầm nấm bụng dê"
+  },
+  "Sweet and Sour Gourd Ball": {
+    "vi": "Viên bầu chua ngọt"
+  },
+  "Stir Fried Potato Ball with Kung Pao Sauce": {
+    "vi": "Viên khoai tây xào sốt cung bảo"
+  },
+  "Wok Fried Rice with Avocado and Cashew Nut": {
+    "vi": "Cơm chiên bơ và hạt điều"
+  },
+  "Braised Ee Fu Noodles with Mushrooms, Onion and Black Pepper": {
+    "vi": "Mì ee fu om nấm, hành và tiêu đen"
+  },
+  "Glutinous Rice Balls in Wolfberry Ginger Tea": {
+    "vi": "Bánh trôi nước trà gừng kỷ tử"
+  },
+  "Lemongrass Jelly with Lime Sorbet": {
+    "vi": "Thạch sả với sorbet chanh"
+  },
+  "Mango Puree with Pomelo & Sago": {
+    "vi": "Chè xoài bưởi sago"
+  },
+  "Baked Egg Tart": {
+    "vi": "Bánh tart trứng nướng"
+  },
+  "Longevity Peach Buns (3 pieces)": {
+    "vi": "Bánh bao đào trường thọ (3 cái)"
+  },
+  "Sesame Balls with Red Bean (3 pieces)": {
+    "vi": "Bánh mè nhân đậu đỏ (3 cái)"
+  },
+  "Senado Silk": {
+    "vi": "Senado Silk"
+  },
+  "Lan Kwai Fong Breeze": {
+    "vi": "Lan Kwai Fong Breeze"
+  },
+  "Donghu Drift": {
+    "vi": "Donghu Drift"
+  },
+  "Classic Cocktail (ask our mixologist)": {
+    "vi": "Cocktail cổ điển (hỏi bartender)"
+  },
+  "Cat Street Spice": {
+    "vi": "Cat Street Spice"
+  },
+  "Canton Road Citrus": {
+    "vi": "Canton Road Citrus"
+  },
+  "Shamian Spice": {
+    "vi": "Shamian Spice"
+  },
+  "Sun Kraft Kiss Bridge Helles Lager | Sunset Town Dry Hop Pale Ale - can": {
+    "vi": "Bia lon Sun Kraft Kiss Bridge Helles Lager | Sunset Town Dry Hop Pale Ale"
+  },
+  "Sun Kraft (as above) - glass 330ml": {
+    "vi": "Bia Sun Kraft (như trên) — ly 330ml"
+  },
+  "Sun Kraft (as above) - glass 500ml": {
+    "vi": "Bia Sun Kraft (như trên) — ly 500ml"
+  },
+  "Tsing Tao - can": {
+    "vi": "Bia Tsing Tao lon"
+  },
+  "Tsing Tao - bottle": {
+    "vi": "Bia Tsing Tao chai"
+  },
+  "Tiger / Saigon Special / Heineken / Heineken Zero": {
+    "vi": "Tiger / Saigon Special / Heineken / Heineken Zero"
+  },
+  "Coke / Coke Zero / Sprite / Ginger Ale / Tonic / Soda Schweppes": {
+    "vi": "Coke / Coke Zero / Sprite / Ginger Ale / Tonic / Soda Schweppes"
+  },
+  "Aqua Panna Still 750ml": {
+    "vi": "Aqua Panna Still 750ml"
+  },
+  "San Pellegrino Sparkling 750ml": {
+    "vi": "San Pellegrino Sparkling 750ml"
+  },
+  "Sai Kung Sunset": {
+    "vi": "Sai Kung Sunset"
+  },
+  "Fuxing Blend": {
+    "vi": "Fuxing Blend"
+  },
+  "Huaihai Glow": {
+    "vi": "Huaihai Glow"
+  },
+  "Wukang Whisper": {
+    "vi": "Wukang Whisper"
+  },
+  "Tai Ping Green": {
+    "vi": "Tai Ping Green"
+  },
+  "Yellow Buds Tea": {
+    "vi": "Trà búp vàng"
+  },
+  "Rising Stars Tea": {
+    "vi": "Trà Rising Stars"
+  },
+  "Imperial Pu-Erh": {
+    "vi": "Trà Phổ Nhĩ hoàng gia"
+  },
+  "Tie Guan Yin": {
+    "vi": "Trà Thiết Quan Âm"
+  },
+  "Pai Mu Tan": {
+    "vi": "Trà bạch mẫu đơn"
+  },
+  "Chamomile": {
+    "vi": "Trà hoa cúc"
+  },
+  "Salted Iced Coffee": {
+    "vi": "Cà phê muối đá"
+  },
+  "Vietnamese Black Coffee": {
+    "vi": "Cà phê đen Việt Nam"
+  },
+  "Vietnamese Milk Coffee": {
+    "vi": "Cà phê sữa Việt Nam"
+  },
+  "Hot Chocolate": {
+    "vi": "Sô cô la nóng"
+  },
+  "Cappuccino": {
+    "vi": "Cappuccino"
+  },
+  "Latte": {
+    "vi": "Latte"
+  },
+  "Espresso": {
+    "vi": "Espresso"
+  },
+  "Americano": {
+    "vi": "Americano"
+  },
+  "Maotai Cun 53% 50cl": {
+    "vi": "Maotai Cun 53% 50cl"
+  },
+  "Maotai Prince 53% 50cl": {
+    "vi": "Maotai Prince 53% 50cl"
+  },
+  "Maotai Yingbin 53% 50cl": {
+    "vi": "Maotai Yingbin 53% 50cl"
+  },
+  "Maison Castel, Merlot, IGP d'Oc": {
+    "vi": "Maison Castel, Merlot, IGP d'Oc"
+  },
+  "Banfi, Placido Chianti DOCG": {
+    "vi": "Banfi, Placido Chianti DOCG"
+  },
+  "Château Haut-Meyreau, Nu Comme Un Verre, AOP Bordeaux 2023": {
+    "vi": "Château Haut-Meyreau, Nu Comme Un Verre, AOP Bordeaux 2023"
+  },
+  "Kono Marlborough Sauvignon Blanc": {
+    "vi": "Kono Marlborough Sauvignon Blanc"
+  },
+  "Moulin de Gassac, Figaro Rosé, IGP Pays d'Hérault": {
+    "vi": "Moulin de Gassac, Figaro Rosé, IGP Pays d'Hérault"
+  },
+  "Bottega il Vino Dei Poeti Brut Bianco, Prosecco DOC": {
+    "vi": "Bottega il Vino Dei Poeti Brut Bianco, Prosecco DOC"
+  },
+  "Silver Heights Ningxia Pinot Noir (Chinese red wine)": {
+    "vi": "Silver Heights Ningxia Pinot Noir (vang đỏ Trung Quốc)"
+  },
+  "Guigal, Crozes-Hermitage": {
+    "vi": "Guigal, Crozes-Hermitage"
+  },
+  "Edouard Delaunay, Septembre, Pinot Noir": {
+    "vi": "Edouard Delaunay, Septembre, Pinot Noir"
+  },
+  "d'Arenberg, The Custodian, Grenache, McLaren Vale": {
+    "vi": "d'Arenberg, The Custodian, Grenache, McLaren Vale"
+  },
+  "Silver Heights Family Reserve Chardonnay (Chinese white wine)": {
+    "vi": "Silver Heights Family Reserve Chardonnay (vang trắng Trung Quốc)"
+  },
+  "Henri Bourgeois, Les Baronnes, Sancerre Sauvignon Blanc": {
+    "vi": "Henri Bourgeois, Les Baronnes, Sancerre Sauvignon Blanc"
+  },
+  "Von Winning Estate, Win Win, Dry Riesling": {
+    "vi": "Von Winning Estate, Win Win, Dry Riesling"
+  },
+  "Villa Maria, Private Bin Pinot Gris, Marlborough": {
+    "vi": "Villa Maria, Private Bin Pinot Gris, Marlborough"
+  },
+  "Champagne Taittinger, Brut Réserve": {
+    "vi": "Champagne Taittinger, Brut Réserve"
+  },
+  "Macallan 18 yrs Double Cask - bottle": {
+    "vi": "Macallan 18 năm Double Cask — chai"
+  },
+  "Macallan 12 yrs Double Cask - bottle": {
+    "vi": "Macallan 12 năm Double Cask — chai"
+  },
+  "Royal Salute 21 yrs - bottle": {
+    "vi": "Royal Salute 21 năm — chai"
+  },
+  "Glenlivet 18 yrs - bottle": {
+    "vi": "Glenlivet 18 năm — chai"
+  },
+  "Glenlivet 12 yrs - bottle": {
+    "vi": "Glenlivet 12 năm — chai"
+  },
+  "Dewar's 12 yrs - glass": {
+    "vi": "Dewar's 12 yrs — ly"
+  },
+  "Dewar's 12 yrs - bottle": {
+    "vi": "Dewar's 12 yrs — chai"
+  },
+  "Jim Beam White - glass": {
+    "vi": "Jim Beam White — ly"
+  },
+  "Jim Beam White - bottle": {
+    "vi": "Jim Beam White — chai"
+  },
+  "Hennessy XO - bottle": {
+    "vi": "Hennessy XO — chai"
+  },
+  "Hennessy VSOP - bottle": {
+    "vi": "Hennessy VSOP — chai"
+  },
+  "Patrón Reposado - bottle": {
+    "vi": "Patrón Reposado - bottle"
+  },
+  "Patrón Silver - glass": {
+    "vi": "Patrón Silver - glass"
+  },
+  "Patrón Silver - bottle": {
+    "vi": "Patrón Silver - bottle"
+  },
+  "Grey Goose - glass": {
+    "vi": "Grey Goose — ly"
+  },
+  "Grey Goose - bottle": {
+    "vi": "Grey Goose — chai"
   }
 }
