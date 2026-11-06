@@ -21,7 +21,7 @@ export const hi = {
     about: 'हमारे बारे में',
   },
   footer: {
-    taglineLine1: 'फू क्वोक सनसेट टाउन',
+    taglineLine1: 'फू क्वोक (Phu Quoc) सनसेट टाउन',
     taglineLine2: 'यात्रा और स्थानीय जानकारी, सब एक ही जगह।',
     osmPrefix: 'व्यावसायिक डेटा साभार © ',
     osmLink: 'OpenStreetMap योगदानकर्ता',
@@ -85,7 +85,7 @@ export const hi = {
     southGlanceKhemChip3: 'समुद्र तट विश्राम',
     southGlanceKhemCta: 'Explore Zone',
     southGlanceKhemCtaDisabled: 'Explore Zone',
-    eventEyebrow: 'फू क्वोक कार्यक्रम',
+    eventEyebrow: 'फू क्वोक (Phu Quoc) कार्यक्रम',
     eventUpcoming: 'आगामी',
     eventCta: 'कार्यक्रम घोषणाएं देखें →',
     purposeEyebrow: 'एक साथ मजबूत समुदाय',
@@ -138,7 +138,7 @@ export const hi = {
     volunteerSuccess: 'धन्यवाद! आपका स्वयंसेवक आवेदन प्राप्त हुआ।',
   },
   directory: {
-    heroEyebrowPrefix: 'फू क्वोक डायरेक्टरी',
+    heroEyebrowPrefix: 'फू क्वोक (Phu Quoc) डायरेक्टरी',
     heroDescSuffix: 'सूची को संक्षिप्त करने के लिए नीचे दिए गए लेबल का चयन करें।',
     searchPlaceholder: (cat: string) => `${cat} में स्थान खोजें…`,
     browseByType: 'प्रकार के अनुसार खोजें',
@@ -204,7 +204,7 @@ export const hi = {
   news: {
     metaTitle: 'ब्लॉग और समाचार | My Phu Quoc',
     metaDesc: 'फू क्वोक अपडेट, आगंतुकों के लिए व्यावहारिक जानकारी और स्थानीय कहानियां।',
-    eyebrow: 'स्थानीय जानकारी · फू क्वोक',
+    eyebrow: 'स्थानीय जानकारी · फू क्वोक (Phu Quoc)',
     title: 'ब्लॉग और समाचार',
     lead: 'फू क्वोक समाचार, व्यावहारिक गाइड और स्थानीय कार्यक्रम — प्रामाणिक स्रोतों के साथ।',
     sourcePrefix: 'स्रोत',
@@ -240,7 +240,7 @@ export const hi = {
   search: {
     metaTitle: 'खोजें | My Phu Quoc',
     metaDesc: 'फू क्वोक में स्थान, सेवाएं और स्थानीय जानकारी खोजें।',
-    eyebrow: 'फू क्वोक समग्र खोज',
+    eyebrow: 'फू क्वोक (Phu Quoc) समग्र खोज',
     title: 'स्थान और जानकारी खोजें',
     placeholder: 'रेस्तराँ, कैफ़े, मसाज, होटल, दर्शनीय स्थल खोजें…',
     button: 'खोजें',
