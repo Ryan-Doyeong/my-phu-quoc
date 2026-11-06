@@ -29,8 +29,8 @@ export const VEHICLE_FARES: VehicleFareTable[] = [
   {
     seats: 4,
     south: {
-      airportToSouth: 350_000,
-      southToAirport: 290_000,
+      airportToSouth: 300_000,
+      southToAirport: 300_000,
       southToCenterOneWay: 460_000,
       southToCenterRoundTrip: 810_000,
       southToNorthOneWay: 750_000,
@@ -39,7 +39,7 @@ export const VEHICLE_FARES: VehicleFareTable[] = [
     },
     north: {
       airportToNorth: 520_000,
-      northToAirport: 460_000,
+      northToAirport: 520_000,
       northToCenter: 350_000,
       northToSouthOneWay: 750_000,
       northToSouthRoundTrip: 1_380_000,
@@ -50,7 +50,7 @@ export const VEHICLE_FARES: VehicleFareTable[] = [
     seats: 7,
     south: {
       airportToSouth: 410_000,
-      southToAirport: 350_000,
+      southToAirport: 410_000,
       southToCenterOneWay: 520_000,
       southToCenterRoundTrip: 920_000,
       southToNorthOneWay: 810_000,
@@ -59,7 +59,7 @@ export const VEHICLE_FARES: VehicleFareTable[] = [
     },
     north: {
       airportToNorth: 580_000,
-      northToAirport: 520_000,
+      northToAirport: 580_000,
       northToCenter: 410_000,
       northToSouthOneWay: 810_000,
       northToSouthRoundTrip: 1_500_000,
