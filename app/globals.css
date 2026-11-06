@@ -2651,3 +2651,16 @@ html:lang(ja) body * {
 .noOverchargeCta{flex:0 0 auto;padding:13px 22px;border-radius:999px;background:#C86D2D;color:#fff;font-weight:800;font-size:14px}
 .mustDoBadge{display:inline-flex;align-items:center;gap:4px;padding:5px 11px;border-radius:999px;background:#C86D2D;color:#fff;font-size:12px;font-weight:800;letter-spacing:.02em}
 @media(max-width:760px){.noOverchargeBox{padding:18px}.noOverchargeTitle{font-size:19px}.noOverchargeCta{width:100%;text-align:center}}
+
+/* ===== 차량 투어 기사님 소개 (2026-11-06) ===== */
+.driverShowcase{max-width:1100px;margin:36px auto;padding:28px clamp(16px,4vw,36px);background:#fff;border:1px solid var(--line);border-radius:24px;box-shadow:var(--shadow)}
+.driverShowcaseTitle{margin:0 0 6px;font-size:clamp(22px,3vw,30px);line-height:1.3;font-weight:800;color:var(--ink);word-break:keep-all}
+.driverShowcaseSub{margin:0 0 18px;color:var(--muted);font-size:15px}
+.driverShowcaseGrid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.driverShowcaseGrid img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:14px}
+.driverShowcasePoints{list-style:none;margin:20px 0 0;padding:0;display:grid;gap:8px}
+.driverShowcasePoints li{font-weight:800;font-size:16px;color:var(--ocean-deep)}
+.driverShowcasePoints li span{display:inline-grid;place-items:center;width:22px;height:22px;margin-right:6px;border-radius:50%;background:var(--ocean);color:#fff;font-size:13px}
+.driverShowcaseReport{margin:18px 0 0;padding:14px 16px;background:var(--amber-soft);border-radius:14px;color:#7A3F12;font-size:15px;line-height:1.6;word-break:keep-all}
+.driverShowcaseReport a{display:inline-block;margin-left:6px;color:#fff;background:var(--amber);padding:6px 14px;border-radius:999px;font-weight:800;font-size:13px}
+@media(min-width:820px){.driverShowcaseGrid{grid-template-columns:repeat(4,1fr)}}
