@@ -83,7 +83,7 @@ const VI: VehiclePricingCopy = {
 }
 
 // 한국어·중국어·러시아어·일본어·힌디어: Gemini 초안 → ChatGPT 감수 반영.
-// 'Sim wine'(심 와인) 시설 표기는 원문에 포도 등 원료 표현이 없어 중립 표기 유지 — 현지 표기 미확인.
+// 'Sim wine'(심와인) 시설 표기는 원문에 포도 등 원료 표현이 없어 중립 표기 유지 — 현지 표기 미확인.
 const TRANSLATED: Partial<Record<Locale, VehiclePricingCopy>> = {
   ko: {
     eyebrow: "차량 요금",
@@ -108,7 +108,7 @@ const TRANSLATED: Partial<Record<Locale, VehiclePricingCopy>> = {
       northToSouthOneWay: "북부 → 남부 (편도)",
       northToSouthRoundTrip: "북부 → 남부 (왕복, 8시간)",
     },
-    tourIncludes: "남부 관광 투어 포함 사항: 피시소스 공장, 푸꾸옥 특산품 쇼핑센터, 제비집 및 침향 공방, 실크 및 가구 수공예 공방, 응옥히엔(Ngoc Hien) 진주 농장, 후추 농장, 심 와인 양조장, 식사 장소 왕복 이동 지원.",
+    tourIncludes: "남부 관광 투어 포함 사항: 피시소스 공장, 푸꾸옥 특산품 쇼핑센터, 제비집 및 침향 공방, 실크 및 가구 수공예 공방, 응옥히엔(Ngoc Hien) 진주 농장, 후추 농장, 심와인 양조장, 식사 장소 왕복 이동 지원.",
     roundTripNote: "왕복 투어 요금에는 최대 8시간의 차량 이용이 포함되어 있습니다.",
     overtimeNote: (priceLabel) => `시간 초과 요금: 이용 시간 초과 시 시간당 ${priceLabel} 추가.`,
     extraNote: "요금은 차량 1대 기준입니다. 예약 가능 여부와 픽업 세부 사항을 확인하려면 문의해 주세요.",
