@@ -477,7 +477,7 @@ export const ko = {
     guide1Title: '프로그램·요금: 문의',
     guide1Desc: '인원과 여행 일정에 맞는 차량 종류, 이용 시간, 방문 일정, 포함 사항과 요금을 사전 안내합니다.',
     guide2Label: '택시·공항 이동',
-    guide2Title: '요금: 문의 (출발지·도착지 기준)',
+    guide2Title: '노선별 공시 요금',
     guide2Desc: '출발지와 도착지, 인원과 짐을 알려주시면 이용 요금과 픽업 방법을 확인해 안내합니다.',
     guide3Label: '포함 사항 확인',
     guide3Title: '이용 조건 및 포함 사항 사전 안내',

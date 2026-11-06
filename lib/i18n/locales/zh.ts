@@ -327,7 +327,7 @@ export const zh = {
     guide1Title: '项目与费用：咨询确认',
     guide1Desc: '提前为您核实并说明符合人数与行程的车型、使用时长、路线、包含项目与费用。',
     guide2Label: '出租车·机场接送',
-    guide2Title: '费用：咨询确认（按路线核实）',
+    guide2Title: '各路线公示价格',
     guide2Desc: '告知出发地与目的地、人数及行李数量，为您核实费用与接车方式。',
     guide3Label: '包含项目',
     guide3Title: '提前说明使用条件与包含内容',
