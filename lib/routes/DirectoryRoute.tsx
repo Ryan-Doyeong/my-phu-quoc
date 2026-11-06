@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { SiteHeader } from '@/components/SiteHeader'
 import { notFound, redirect } from 'next/navigation'
 import type { Metadata } from 'next'
 import { createPublicClient } from '@/lib/supabase/public'
@@ -193,31 +194,7 @@ export async function renderDirectoryRoute(
 
   return (
     <main className="directoryPage">
-      <header className="detailNav">
-        <Logo locale={locale} />
-        <div className="detailNavRight">
-          <nav>
-            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
-            <Link href={localePath(locale, '/zones/sunset-town')}>
-              {locale === 'ko' ? '선셋타운' : 'Sunset Town'}
-            </Link>
-            <Link href={localePath(locale, '/zones/khem-beach')}>
-              {locale === 'ko' ? '켐비치' : 'Khem Beach'}
-            </Link>
-            <Link href={localePath(locale, '/directory/dining')}>
-              {categoryLabel('dining', locale)}
-            </Link>
-            <Link href={localePath(locale, '/directory/bars')}>
-              {categoryLabel('bars', locale)}
-            </Link>
-            <Link href={localePath(locale, '/hotels')}>
-              {categoryLabel('hotels', locale)}
-            </Link>
-            <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
-          </nav>
-          <LanguageSwitcher locale={locale} variant="light" />
-        </div>
-      </header>
+      <SiteHeader locale={locale} />
       <section
         className={`directoryHero categoryDirectoryHero theme-${theme}`}
         style={{

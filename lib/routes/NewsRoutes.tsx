@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { SiteHeader } from '@/components/SiteHeader'
 import { notFound, redirect } from 'next/navigation'
 import type { Metadata } from 'next'
 import { createPublicClient } from '@/lib/supabase/public'
@@ -74,18 +75,7 @@ export async function renderNewsListRoute(locale: Locale = 'en', category: Exclu
 
   return (
     <main>
-      <header className="detailNav">
-        <Logo locale={locale} />
-        <div className="detailNavRight">
-          <nav>
-            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
-            <Link href={localePath(locale, '/news')}>{dict.nav.newsAndBlog}</Link>
-            <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
-            <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
-          </nav>
-          <LanguageSwitcher locale={locale} variant="light" />
-        </div>
-      </header>
+      <SiteHeader locale={locale} />
       <section className="newsHero">
         <div className="shell">
           <span className="eyebrow">{dict.news.eyebrow}</span>
@@ -332,18 +322,7 @@ export async function renderArticleRoute(
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <header className="detailNav">
-        <Logo locale={locale} />
-        <div className="detailNavRight">
-          <nav>
-            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
-            <Link href={localePath(locale, '/news')}>{dict.nav.newsAndBlog}</Link>
-            <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
-            <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
-          </nav>
-          <LanguageSwitcher locale={locale} variant="light" />
-        </div>
-      </header>
+      <SiteHeader locale={locale} />
       <article className="onlineArticle richArticle">
         {isEvent && (
           <div className="eventDetailBackRow">
@@ -597,18 +576,7 @@ export async function renderEventsRoute(locale: Locale = 'en') {
 
   return (
     <main>
-      <header className="detailNav">
-        <Logo locale={locale} />
-        <div className="detailNavRight">
-          <nav>
-            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
-            <Link href={localePath(locale, '/news')}>{dict.nav.newsAndBlog}</Link>
-            <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
-            <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
-          </nav>
-          <LanguageSwitcher locale={locale} variant="light" />
-        </div>
-      </header>
+      <SiteHeader locale={locale} />
       <section className="newsHero eventsHeroCompact">
         <div className="shell">
           <span className="eyebrow">{dict.news.eventsEyebrow}</span>

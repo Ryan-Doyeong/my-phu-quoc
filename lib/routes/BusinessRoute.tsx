@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { SiteHeader } from '@/components/SiteHeader'
 import { notFound, redirect } from 'next/navigation'
 import type { Metadata } from 'next'
 import { createPublicClient } from '@/lib/supabase/public'
@@ -416,34 +417,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <header className="detailNav">
-        <Logo locale={locale} />
-        <div className="detailNavRight">
-          <nav>
-            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
-            <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
-            {isHotel ? (
-              <Link href={isKhem ? `${localePath(locale, '/hotels')}?area=khem-beach` : localePath(locale, '/hotels')}>
-                {dict.business.backTo(locale === 'ko' ? (isKhem ? '켐비치 호텔' : '선셋타운 호텔') : 'Hotels')}
-              </Link>
-            ) : isKhem ? (
-              <Link href={localePath(locale, '/zones/khem-beach')}>
-                {dict.business.backTo(locale === 'ko' ? '켐비치' : 'Khem Beach')}
-              </Link>
-            ) : b.category === 'activities' ? (
-              <Link href={localePath(locale, '/activities')}>
-                {dict.business.backTo(catLabel)}
-              </Link>
-            ) : (
-              <Link href={localePath(locale, `/directory/${b.category}`)}>
-                {dict.business.backTo(catLabel)}
-              </Link>
-            )}
-            <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
-          </nav>
-          <LanguageSwitcher locale={locale} variant="light" />
-        </div>
-      </header>
+      <SiteHeader locale={locale} />
       <section className="shell businessDetail">
         {(() => {
           if ((b.gallery_urls || []).length > 0) {
