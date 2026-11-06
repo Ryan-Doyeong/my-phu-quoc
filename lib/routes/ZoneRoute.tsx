@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { SiteHeader } from '@/components/SiteHeader'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import { Logo } from '@/components/Logo'
@@ -254,37 +255,7 @@ export async function renderZoneRoute(slug: string, locale: Locale = 'en') {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       {/* Top Header */}
-      <header className="detailNav">
-        <Logo locale={locale} />
-        <div className="detailNavRight">
-          <nav>
-            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
-            <Link
-              href={localePath(locale, '/zones/sunset-town')}
-              className={slug === 'sunset-town' ? 'active' : ''}
-            >
-              {ZONE_NAV_LABELS.sunset[locale] || ZONE_NAV_LABELS.sunset.en}
-            </Link>
-            <Link
-              href={localePath(locale, '/zones/khem-beach')}
-              className={slug === 'khem-beach' ? 'active' : ''}
-            >
-              {ZONE_NAV_LABELS.khem[locale] || ZONE_NAV_LABELS.khem.en}
-            </Link>
-            <Link href={localePath(locale, '/directory/dining')}>
-              {categoryLabel('dining', locale)}
-            </Link>
-            <Link href={localePath(locale, '/directory/bars')}>
-              {categoryLabel('bars', locale)}
-            </Link>
-            <Link href={localePath(locale, '/hotels')}>
-              {categoryLabel('hotels', locale)}
-            </Link>
-            <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
-          </nav>
-          <LanguageSwitcher locale={locale} variant="light" />
-        </div>
-      </header>
+      <SiteHeader locale={locale} />
 
       {/* Main Container */}
       <div className="zoneDetailContainer">

@@ -1,6 +1,7 @@
 "use client"
 
 import { useRef, useState, useEffect } from 'react'
+import { SiteHeader } from '@/components/SiteHeader'
 import Link from 'next/link'
 import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
@@ -112,17 +113,7 @@ export function ForBusinessesClient({ locale = 'en' }: { locale?: Locale }) {
 
   return (
     <main className="businessIntakePage">
-      <header className="detailNav">
-        <Logo locale={locale} />
-        <div className="detailNavRight">
-          <nav>
-            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
-            <Link href={localePath(locale, '/directory/wellness')}>{dict.nav.directory}</Link>
-            <Link href={localePath(locale, '/partners')}>{dict.nav.partners}</Link>
-          </nav>
-          <LanguageSwitcher locale={locale} variant="light" />
-        </div>
-      </header>
+      <SiteHeader locale={locale} />
       <section className="intakeHero">
         <div>
           <span className="eyebrow">{dict.intake.eyebrow}</span>

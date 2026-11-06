@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { SiteHeader } from '@/components/SiteHeader'
 import type { Metadata } from 'next'
 import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
@@ -73,10 +74,7 @@ export function renderLegalRoute(page: Page, locale: Locale = 'en') {
   const all = t(locale)
   return (
     <>
-      <header className="detailNav">
-        <Logo locale={locale} />
-        <div className="detailNavRight"><LanguageSwitcher locale={locale} variant="light" /></div>
-      </header>
+      <SiteHeader locale={locale} />
       <main style={{ maxWidth: 760, margin: '0 auto', padding: '32px 20px' }}>
         <p><Link href={localePath(locale, '/')}>← My Phu Quoc</Link></p>
         {page === 'contact' ? (

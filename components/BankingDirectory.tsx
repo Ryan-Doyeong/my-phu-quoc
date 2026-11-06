@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useMemo, useState } from 'react'
+import { SiteHeader } from '@/components/SiteHeader'
 import Link from 'next/link'
 import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
@@ -245,31 +246,7 @@ export function BankingDirectory({ locale }: BankingDirectoryProps) {
   return (
     <main style={{ minHeight: '100vh', backgroundColor: '#F9FAFB' }}>
       {/* 헤더 네비게이션 */}
-      <header className="detailNav">
-        <Logo locale={locale} />
-        <div className="detailNavRight">
-          <nav>
-            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
-            <Link href={localePath(locale, '/zones/sunset-town')}>
-              {locale === 'ko' ? '선셋타운' : 'Sunset Town'}
-            </Link>
-            <Link href={localePath(locale, '/zones/khem-beach')}>
-              {locale === 'ko' ? '켐비치' : 'Khem Beach'}
-            </Link>
-            <Link href={localePath(locale, '/directory/dining')}>
-              {categoryLabel('dining', locale)}
-            </Link>
-            <Link href={localePath(locale, '/directory/bars')}>
-              {categoryLabel('bars', locale)}
-            </Link>
-            <Link href={localePath(locale, '/hotels')}>
-              {categoryLabel('hotels', locale)}
-            </Link>
-            <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
-          </nav>
-          <LanguageSwitcher locale={locale} variant="light" />
-        </div>
-      </header>
+      <SiteHeader locale={locale} />
 
       {/* 상단 히어로 배너 (카테고리 페이지 통일 사진 배경) */}
       <section

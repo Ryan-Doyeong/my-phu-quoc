@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from 'react';
+import { SiteHeader } from '@/components/SiteHeader'
 import Link from 'next/link';
 import { Logo } from '@/components/Logo';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher';
@@ -170,17 +171,7 @@ export function PartnersClient({ initialLang, initialSlot, businesses }: Props) 
   return (
     <div className="partnersPage">
       {/* Navigation Header */}
-      <header className="detailNav partnersNav">
-        <Logo locale={lang} />
-        <div className="partnersNavRight">
-          <nav className="partnersNavLinks">
-            <Link href={localePath(lang, '/about')}>{dict.nav.about || 'About'}</Link>
-            <Link href={localePath(lang, '/news')}>{dict.nav.news}</Link>
-            <Link href={localePath(lang, '/for-businesses')}>{dict.nav.forBusinesses}</Link>
-          </nav>
-          <LanguageSwitcher locale={lang} variant="light" />
-        </div>
-      </header>
+      <SiteHeader locale={lang} />
 
       <main>
         {/* Section 1: Hero */}
