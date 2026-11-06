@@ -52,14 +52,26 @@ const CATEGORY_ICON: Record<PartnerTourCategory, string> = {
   camping: '⛺',
 };
 
-// 비공개 카테고리 (2026-11-04): 데이터는 유지하고 화면에서만 숨김. 다시 공개하려면 목록에서 제거.
-export const HIDDEN_PARTNER_CATEGORIES: PartnerTourCategory[] = ['cablecar', 'land', 'camping'];
+// 비공개 처리 (2026-11-06): 데이터는 유지하고 화면에서만 숨김. 다시 공개하려면 목록에서 제거.
+// 존스 새 공시가표(2026-08-23) 반영으로 케이블카·육상·캠핑 카테고리를 다시 공개하고, 글램핑만 투어 단위로 비공개.
+export const HIDDEN_PARTNER_CATEGORIES: PartnerTourCategory[] = [];
+export const HIDDEN_PARTNER_TOUR_IDS: string[] = ['johns-glamping-trip'];
 
 const PARTNER_TOURS = ALL_PARTNER_TOURS.filter(
-  (t) => !HIDDEN_PARTNER_CATEGORIES.includes(t.category),
+  (t) =>
+    !HIDDEN_PARTNER_CATEGORIES.includes(t.category) &&
+    !HIDDEN_PARTNER_TOUR_IDS.includes(t.id),
 );
 
-const CATEGORIES: PartnerTourCategory[] = ['hopping', 'fishing', 'sunset', 'diving'];
+const CATEGORIES: PartnerTourCategory[] = [
+  'hopping',
+  'cablecar',
+  'fishing',
+  'sunset',
+  'diving',
+  'land',
+  'camping',
+];
 
 const OPERATORS: PartnerOperator[] = ['johns', 'redriver'];
 
