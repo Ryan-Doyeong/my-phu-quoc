@@ -29,8 +29,8 @@ export const VEHICLE_FARES: VehicleFareTable[] = [
   {
     seats: 4,
     south: {
-      airportToSouth: 350_000,
-      southToAirport: 290_000,
+      airportToSouth: 300_000,
+      southToAirport: 300_000,
       southToCenterOneWay: 460_000,
       southToCenterRoundTrip: 810_000,
       southToNorthOneWay: 750_000,
