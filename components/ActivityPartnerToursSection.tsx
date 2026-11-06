@@ -52,14 +52,40 @@ const CATEGORY_ICON: Record<PartnerTourCategory, string> = {
   camping: '⛺',
 };
 
-// 비공개 카테고리 (2026-11-04): 데이터는 유지하고 화면에서만 숨김. 다시 공개하려면 목록에서 제거.
-export const HIDDEN_PARTNER_CATEGORIES: PartnerTourCategory[] = ['cablecar', 'land', 'camping'];
+// 비공개 처리 (2026-11-06): 데이터는 유지하고 화면에서만 숨김. 다시 공개하려면 목록에서 제거.
+// 존스 새 공시가표(2026-08-23) 반영으로 케이블카·육상·캠핑 카테고리를 다시 공개하고, 글램핑만 투어 단위로 비공개.
+export const HIDDEN_PARTNER_CATEGORIES: PartnerTourCategory[] = [];
+export // Red River 투어별 사진 (얼굴이 나온 사진은 제외하고 풍경·어획물 위주로 선별)
+const REDRIVER_TOUR_PHOTOS: Record<string, string> = {
+  'redriver-fishing': '/activities/partner/redriver/fishing.webp',
+  'redriver-red-4': '/activities/partner/redriver/sunset-squid.webp',
+  'redriver-red-10': '/activities/partner/redriver/red10.webp',
+  'redriver-redspecial': '/activities/partner/redriver/islands-1.webp',
+  'redriver-red-1': '/activities/partner/redriver/islands-2.webp',
+  'redriver-red-2': '/activities/partner/redriver/islands-3.webp',
+  'redriver-red-3': '/activities/partner/redriver/islands-4.webp',
+  'redriver-red-7': '/activities/partner/redriver/islands-5.webp',
+  'redriver-trip-1': '/activities/partner/redriver/islands-6.webp',
+  'redriver-trip-2': '/activities/partner/redriver/islands-7.webp',
+};
+
+const HIDDEN_PARTNER_TOUR_IDS: string[] = ['johns-glamping-trip'];
 
 const PARTNER_TOURS = ALL_PARTNER_TOURS.filter(
-  (t) => !HIDDEN_PARTNER_CATEGORIES.includes(t.category),
+  (t) =>
+    !HIDDEN_PARTNER_CATEGORIES.includes(t.category) &&
+    !HIDDEN_PARTNER_TOUR_IDS.includes(t.id),
 );
 
-const CATEGORIES: PartnerTourCategory[] = ['hopping', 'fishing', 'sunset', 'diving'];
+const CATEGORIES: PartnerTourCategory[] = [
+  'hopping',
+  'cablecar',
+  'fishing',
+  'sunset',
+  'diving',
+  'land',
+  'camping',
+];
 
 const OPERATORS: PartnerOperator[] = ['johns', 'redriver'];
 
@@ -334,7 +360,8 @@ export function ActivityPartnerToursSection({
                     src={
                       detail
                         ? getPartnerTourPhoto(tour.id, 1)
-                        : `/activities/partner/${tour.category}.webp`
+                        : REDRIVER_TOUR_PHOTOS[tour.id] ??
+                          `/activities/partner/${tour.category}.webp`
                     }
                     alt={tourTitle}
                     loading="lazy"
