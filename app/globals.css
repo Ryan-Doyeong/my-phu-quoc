@@ -2631,3 +2631,12 @@ html:lang(ja) body * {
 @media (max-width: 640px) {
   .buggyPhotoGrid { grid-template-columns: repeat(2, 1fr); }
 }
+
+/* 버기·택시 투어 페이지: 흰 배경 위 헤더(로고·메뉴) 가시성 확보 */
+.tourLandingWrap > .heroHeader {
+  position: relative;
+  color: var(--ink);
+  text-shadow: none;
+  background: #FFFFFF;
+  border-bottom: 1px solid var(--line);
+}
