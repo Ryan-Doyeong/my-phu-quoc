@@ -30,6 +30,33 @@ import {
 } from '@/lib/i18n/config'
 import { getDictionary, localizeStory } from '@/lib/i18n/dictionaries'
 
+// ── Event 구조화 데이터 보완 (Search Console: offers/performer 누락) ──
+// 공식 출처(Sun World 티켓 안내, 2026-11-06 확인)에서 확인된 값만 기재한다. 확인 안 된 값(availability, validFrom 등)은 넣지 않는다.
+const SUN_GROUP_ORG = { '@type': 'Organization', name: 'Sun Group', url: 'https://sungroup.com.vn' }
+const SUN_BOOKING_URL = 'https://booking.sunworld.vn/vi'
+const EVENT_LD_EXTRAS: Record<string, { organizer?: any; performer?: any; offers?: any[] }> = {
+  // 키스 오브 더 씨: 유료 950,000 VND, 키 1m 미만 무료 (sunworld.vn 2026-10-13 안내)
+  'kiss-of-the-sea-nightly-multimedia-show': {
+    organizer: SUN_GROUP_ORG,
+    performer: SUN_GROUP_ORG,
+    offers: [
+      { '@type': 'Offer', name: 'Standard ticket', price: 950000, priceCurrency: 'VND', url: SUN_BOOKING_URL },
+      { '@type': 'Offer', name: 'Children under 1 m', price: 0, priceCurrency: 'VND', url: SUN_BOOKING_URL },
+    ],
+  },
+  // 심포니 오브 더 씨: 예매 포털 온라인가 640,000 VND (정가 660,000 VND, 2026-11-06 포털 확인)
+  'symphony-of-the-sea-season-3-opening': {
+    organizer: SUN_GROUP_ORG,
+    performer: SUN_GROUP_ORG,
+    offers: [
+      { '@type': 'Offer', name: 'Standard ticket (online)', price: 640000, priceCurrency: 'VND', url: SUN_BOOKING_URL },
+    ],
+  },
+}
+// 공연이 아닌 온라인 프로모션은 Event 마크업에서 제외 (Article만 유지)
+const NON_EVENT_LD_SLUGS = new Set(['sun-world-spa-anniversary-offers-november-2026'])
+
+
 export async function generateNewsListMetadata(locale: Locale = 'en'): Promise<Metadata> {
   const dict = getDictionary(locale)
   const barePath = '/news'
@@ -252,7 +279,8 @@ export async function renderArticleRoute(
         }
       : null
 
-  const eventLd: any = isEvent
+  const eventExtras = EVENT_LD_EXTRAS[slug]
+  const eventLd: any = isEvent && !NON_EVENT_LD_SLUGS.has(slug)
     ? {
         '@context': 'https://schema.org',
         '@type': 'Event',
@@ -275,11 +303,13 @@ export async function renderArticleRoute(
             addressCountry: 'VN',
           },
         },
-        organizer: {
+        organizer: eventExtras?.organizer || {
           '@type': 'Organization',
           name: 'My Phu Quoc',
           url: baseUrl,
         },
+        ...(eventExtras?.performer ? { performer: eventExtras.performer } : {}),
+        ...(eventExtras?.offers ? { offers: eventExtras.offers } : {}),
       }
     : null
 
