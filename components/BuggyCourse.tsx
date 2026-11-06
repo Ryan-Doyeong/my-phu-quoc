@@ -1,7 +1,7 @@
 import type { Locale } from '@/lib/i18n/config'
 import { getBuggyCourseCopy } from '@/lib/buggyCourseCopy'
 
-const BUGGY_PHOTOS = [1, 2, 3, 4, 5, 6].map((n) => `/activities/buggy/buggy-${n}.webp`)
+const BUGGY_PHOTOS = [1, 2, 3, 4, 5, 6, 7, 8, 9].map((n) => `/activities/buggy/buggy-${n}.webp`)
 
 export function BuggyCourse({ locale }: { locale: Locale }) {
   const copy = getBuggyCourseCopy(locale)
