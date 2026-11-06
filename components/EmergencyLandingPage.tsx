@@ -1,5 +1,6 @@
 // Translations: 7개 국어 (ko, en, zh, ja, ru, hi, vi)
 import Link from 'next/link'
+import { SiteHeader } from '@/components/SiteHeader'
 import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { CommonHelpSection } from '@/components/BookingServiceSections'
@@ -722,23 +723,7 @@ export function EmergencyLandingPage({ locale = 'en' }: EmergencyLandingPageProp
   return (
     <div className="emergencyPageRoot">
       {/* 0. Top Header */}
-      <header className="detailNav">
-        <Logo locale={locale} />
-        <div className="detailNavRight">
-          <nav>
-            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
-            <Link href={localePath(locale, '/zones/sunset-town')}>
-              {NAV_ZONE_LABELS.sunset[locale] || NAV_ZONE_LABELS.sunset.en}
-            </Link>
-            <Link href={localePath(locale, '/zones/khem-beach')}>
-              {NAV_ZONE_LABELS.khem[locale] || NAV_ZONE_LABELS.khem.en}
-            </Link>
-            <Link href={localePath(locale, '/activities')}>{c.activities}</Link>
-            <Link href={localePath(locale, '/itineraries')}>{c.itineraries}</Link>
-          </nav>
-          <LanguageSwitcher locale={locale} variant="light" />
-        </div>
-      </header>
+      <SiteHeader locale={locale} />
 
       {/* Main Container */}
       <main className="emergencyContainer">

@@ -1,4 +1,5 @@
 import React from 'react'
+import { SiteHeader } from '@/components/SiteHeader'
 import type { Metadata } from 'next'
 import { SunsetTownMap } from '@/components/SunsetTownMapClient'
 import { Logo } from '@/components/Logo'
@@ -170,29 +171,7 @@ export default async function MapPage({ params }: MapPageProps) {
   return (
     <div className="siteRoot" style={{ minHeight: '100vh', background: '#F8FAFC' }}>
       {/* 사이트 상단 공통 헤더 */}
-      <header className="siteHeader" style={{ background: '#12333B', color: '#ffffff' }}>
-        <Logo locale={locale} />
-        <nav className="desktopNav">
-          <Link href={localePath(locale, '/')}>Home</Link>
-          <Link href={localePath(locale, '/map')} style={{ color: '#C86D2D', fontWeight: 800 }}>
-            🗺️ {isKo ? '선셋타운 지도' : 'Town Map'}
-          </Link>
-          {DIRECTORY_CATEGORY_KEYS.filter((key) => getCategoryPublishedCount(key) > 0).slice(0, 5).map((key) => (
-            <Link
-              href={key === 'hotels' ? localePath(locale, '/hotels') : key === 'activities' ? localePath(locale, '/activities') : localePath(locale, `/directory/${key}`)}
-              key={key}
-            >
-              {categoryLabel(key, locale)}
-            </Link>
-          ))}
-          <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
-          <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
-        </nav>
-        <div className="headerActions">
-          <LanguageSwitcher locale={locale} variant="hero" />
-          <MobileMenu locale={locale} />
-        </div>
-      </header>
+      <SiteHeader locale={locale} />
 
       {/* 지도 메인 컨텐츠 영역 */}
       <main style={{ maxWidth: '1360px', margin: '0 auto', padding: '32px 20px 80px' }}>

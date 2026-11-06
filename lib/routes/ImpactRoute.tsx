@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { SiteHeader } from '@/components/SiteHeader'
 import type { Metadata } from 'next'
 import { createPublicClient } from '@/lib/supabase/public'
 import { Logo } from '@/components/Logo'
@@ -74,19 +75,7 @@ export async function renderImpactRoute(topic: string | undefined, locale: Local
 
   return (
     <main>
-      <header className="detailNav">
-        <Logo locale={locale} />
-        <div className="detailNavRight">
-          <nav>
-            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
-            <Link href={localePath(locale, '/news')}>{dict.nav.newsAndBlog}</Link>
-            <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
-            <Link href={localePath(locale, '/impact')}>{dict.nav.impact}</Link>
-            <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
-          </nav>
-          <LanguageSwitcher locale={locale} variant="light" />
-        </div>
-      </header>
+      <SiteHeader locale={locale} />
 
       <section className="newsHero impactEditorialHero">
         <div className="shell">

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { SiteHeader } from '@/components/SiteHeader'
 import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { BookingCommonIntroCallout, CommonHelpSection } from '@/components/BookingServiceSections'
@@ -223,18 +224,7 @@ export function ActivitiesLandingPage({ locale = 'ko' }: ActivitiesLandingPagePr
   return (
     <div className="activitiesPageRoot">
       {/* 0. Top Header */}
-      <header className="detailNav">
-        <Logo locale={locale} />
-        <div className="detailNavRight">
-          <nav>
-            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
-            <Link href={localePath(locale, '/zones/sunset-town')}>{t.sunsetTown}</Link>
-            <Link href={localePath(locale, '/zones/khem-beach')}>{t.khemBeach}</Link>
-            <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
-          </nav>
-          <LanguageSwitcher locale={locale} variant="light" />
-        </div>
-      </header>
+      <SiteHeader locale={locale} />
 
       <main className="activitiesContainer">
         {/* Breadcrumb */}

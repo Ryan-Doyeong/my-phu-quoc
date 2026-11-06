@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { SiteHeader } from '@/components/SiteHeader'
 import type { Metadata } from 'next'
 import { createPublicClient } from '@/lib/supabase/public'
 import businessesRegistryJson from '@/data/businesses-registry.json'
@@ -46,17 +47,7 @@ export function renderMemberRoute(locale: Locale = 'en') {
   const dict = getDictionary(locale)
   return (
     <main className="memberInfoPage">
-      <header className="detailNav">
-        <Logo locale={locale} />
-        <div className="detailNavRight">
-          <nav>
-            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
-            <Link href={localePath(locale, '/search')}>{dict.nav.directory}</Link>
-            <Link href={localePath(locale, '/news')}>{dict.nav.newsAndBlog}</Link>
-          </nav>
-          <LanguageSwitcher locale={locale} variant="light" />
-        </div>
-      </header>
+      <SiteHeader locale={locale} />
       <section className="memberHero">
         <div className="shell">
           <span className="eyebrow">{dict.member.eyebrow}</span>
@@ -283,30 +274,7 @@ export async function renderSearchRoute(qRaw: string | undefined, locale: Locale
 
   return (
     <main className="searchPage">
-      <header className="detailNav">
-        <Logo locale={locale} />
-        <div className="detailNavRight">
-          <nav>
-            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
-            {DIRECTORY_CATEGORY_KEYS.filter((key) => getCategoryPublishedCount(key) > 0).map((key) => (
-              <Link
-                href={
-                  key === 'hotels'
-                    ? localePath(locale, '/hotels')
-                    : key === 'activities'
-                    ? localePath(locale, '/activities')
-                    : localePath(locale, `/directory/${key}`)
-                }
-                key={key}
-              >
-                {categoryLabel(key, locale)}
-              </Link>
-            ))}
-            <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
-          </nav>
-          <LanguageSwitcher locale={locale} variant="light" />
-        </div>
-      </header>
+      <SiteHeader locale={locale} />
       <section className="newsHero">
         <div className="shell">
           <span className="eyebrow">{dict.search.eyebrow}</span>
