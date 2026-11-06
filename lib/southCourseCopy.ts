@@ -15,6 +15,8 @@ export interface SouthCourseCopy {
   eyebrow: string
   title: string
   note: string
+  /** 8시간 초과 시 추가 요금 안내 (금액은 vehiclePricing 기준) */
+  overtime: (amount: string) => string
   stops: SouthCourseStop[]
   /** 추천 테마 일정 페이지에서 쓰는 짧은 소개 */
   teaserTitle: string
@@ -26,6 +28,7 @@ const EN: SouthCourseCopy = {
   eyebrow: 'Recommended course',
   title: 'Phu Quoc South Island Tour Itinerary',
   note: 'The actual departure time can be flexibly arranged and customized to best suit the needs, flight schedules, or personal preferences of each tourist.',
+  overtime: (amount) => `Extra charge if the tour exceeds 8 hours: ${amount} per hour.`,
   teaserTitle: 'South Island Tour Itinerary',
   teaserText: 'A recommended 8-hour car tour route through the craft villages and local products of South Phu Quoc.',
   teaserCta: 'View the itinerary',
@@ -47,6 +50,7 @@ const VI: SouthCourseCopy = {
   eyebrow: 'Lịch trình gợi ý',
   title: 'Chương trình tour Nam Đảo Phú Quốc',
   note: 'Thời gian khởi hành thực tế có thể linh hoạt sắp xếp và điều chỉnh sao cho phù hợp nhất với nhu cầu, giờ giấc bay hoặc lịch trình riêng của từng khách du lịch.',
+  overtime: (amount) => `Phụ thu nếu vượt quá 8 tiếng: ${amount}/giờ.`,
   teaserTitle: 'Chương trình tour Nam Đảo',
   teaserText: 'Lịch trình gợi ý 8 tiếng bằng xe, khám phá các làng nghề và sản vật phía Nam đảo Phú Quốc.',
   teaserCta: 'Xem lịch trình',
@@ -68,6 +72,7 @@ const KO: SouthCourseCopy = {
   eyebrow: '추천 코스',
   title: '남부 문화·특산품 코스 (추천 일정)',
   note: '8시간 차량 대절로 둘러보는 푸꾸옥 남부 추천 코스입니다. 순서는 추천일 뿐이며, 취향과 항공 시간에 맞춰 조정할 수 있습니다. 요금은 위 "남부 관광 투어" 8시간 차량 요금표를 따릅니다.',
+  overtime: (amount) => `8시간을 넘기면 시간당 추가 요금은 ${amount}입니다.`,
   teaserTitle: '남부 문화·특산품 코스',
   teaserText: '8시간 차량 대절로 후추·심 와인·진주 농장 등 푸꾸옥 남부를 둘러보는 추천 코스예요.',
   teaserCta: '추천 코스 보기',
