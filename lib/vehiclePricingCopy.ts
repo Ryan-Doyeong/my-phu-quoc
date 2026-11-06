@@ -24,7 +24,7 @@ export interface VehiclePricingCopy {
 const EN: VehiclePricingCopy = {
   eyebrow: 'Vehicle Rates',
   title: 'Transfer & Car Tour Rates',
-  subtitle: 'Published rates per vehicle in VND. Choose a 4-seater or 7-seater.',
+  subtitle: 'Published rates per vehicle in VND. Choose a 4-, 7- or 16-seater.',
   seatsLabel: (seats) => `${seats}-seater`,
   southTitle: 'South Island',
   northTitle: 'North Island',
@@ -55,7 +55,7 @@ const VI: VehiclePricingCopy = {
   ...EN,
   eyebrow: 'Bảng giá xe',
   title: 'Bảng giá xe đưa đón & tour xe',
-  subtitle: 'Giá niêm yết theo xe (VND). Chọn xe 4 chỗ hoặc 7 chỗ.',
+  subtitle: 'Giá niêm yết theo xe (VND). Chọn xe 4, 7 hoặc 16 chỗ.',
   seatsLabel: (seats) => `Xe ${seats} chỗ`,
   southTitle: 'Khu vực Nam đảo',
   northTitle: 'Khu vực Bắc đảo',
@@ -88,7 +88,7 @@ const TRANSLATED: Partial<Record<Locale, VehiclePricingCopy>> = {
   ko: {
     eyebrow: "차량 요금",
     title: "이동 및 차량 투어 요금",
-    subtitle: "차량 1대당 공시 요금(VND)입니다. 4인승 또는 7인승 차량을 선택하세요.",
+    subtitle: "차량 1대당 공시 요금(VND)입니다. 4인승, 7인승 또는 16인승 차량을 선택하세요.",
     seatsLabel: (seats) => `${seats}인승`,
     southTitle: "남부",
     northTitle: "북부",
@@ -116,7 +116,7 @@ const TRANSLATED: Partial<Record<Locale, VehiclePricingCopy>> = {
   zh: {
     eyebrow: "车辆价格",
     title: "接送及包车游览价格",
-    subtitle: "价格以每辆车计算，单位为越南盾（VND）。请选择4座或7座车型。",
+    subtitle: "价格以每辆车计算，单位为越南盾（VND）。请选择4座、7座或16座车型。",
     seatsLabel: (seats) => `${seats}座`,
     southTitle: "南部",
     northTitle: "北部",
@@ -144,7 +144,7 @@ const TRANSLATED: Partial<Record<Locale, VehiclePricingCopy>> = {
   ru: {
     eyebrow: "Тарифы на транспорт",
     title: "Тарифы на трансфер и автотуры",
-    subtitle: "Опубликованные тарифы указаны за автомобиль в VND. Выберите 4-местный или 7-местный автомобиль.",
+    subtitle: "Опубликованные тарифы указаны за автомобиль в VND. Выберите 4-, 7- или 16-местный автомобиль.",
     seatsLabel: (seats) => `${seats}-местный`,
     southTitle: "Южная часть острова",
     northTitle: "Северная часть острова",
@@ -172,7 +172,7 @@ const TRANSLATED: Partial<Record<Locale, VehiclePricingCopy>> = {
   ja: {
     eyebrow: "車両料金",
     title: "送迎・チャーターツアー料金",
-    subtitle: "車両1台あたりの公示料金（VND）です。4人乗りまたは7人乗りの車両をお選びください。",
+    subtitle: "車両1台あたりの公示料金（VND）です。4人乗り・7人乗りまたは16人乗りの車両をお選びください。",
     seatsLabel: (seats) => `${seats}人乗り`,
     southTitle: "南部",
     northTitle: "北部",
@@ -200,7 +200,7 @@ const TRANSLATED: Partial<Record<Locale, VehiclePricingCopy>> = {
   hi: {
     eyebrow: "वाहन दरें",
     title: "ट्रांसफर और कार टूर दरें",
-    subtitle: "प्रति वाहन प्रकाशित दरें VND में हैं। 4-सीटर या 7-सीटर वाहन चुनें।",
+    subtitle: "प्रति वाहन प्रकाशित दरें VND में हैं। 4, 7 या 16-सीटर वाहन चुनें।",
     seatsLabel: (seats) => `${seats}-सीटर`,
     southTitle: "द्वीप का दक्षिणी भाग",
     northTitle: "द्वीप का उत्तरी भाग",
