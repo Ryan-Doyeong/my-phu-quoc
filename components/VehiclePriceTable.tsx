@@ -10,6 +10,31 @@ import { getVehiclePricingCopy } from '@/lib/vehiclePricingCopy'
 
 interface VehiclePriceTableProps {
   locale: Locale
+  /** airport: 공항 노선만 / other: 공항 노선 제외(이동·차량 투어) / all: 전체 */
+  variant?: 'airport' | 'other' | 'all'
+  title?: string
+  subtitle?: string
+  eyebrow?: string
+}
+
+const AIRPORT_KEYS: VehicleRouteKey[] = [
+  'airportToSouth',
+  'southToAirport',
+  'airportToNorth',
+  'northToAirport',
+]
+
+function filterFares(
+  fares: Partial<Record<VehicleRouteKey, number>>,
+  variant: 'airport' | 'other' | 'all',
+) {
+  if (variant === 'all') return fares
+  const out: Partial<Record<VehicleRouteKey, number>> = {}
+  for (const k of Object.keys(fares) as VehicleRouteKey[]) {
+    const isAirport = AIRPORT_KEYS.includes(k)
+    if ((variant === 'airport') === isAirport) out[k] = fares[k]
+  }
+  return out
 }
 
 function FareRows({
@@ -31,7 +56,15 @@ function FareRows({
   )
 }
 
-function SeatBlock({ table, locale }: { table: VehicleFareTable; locale: Locale }) {
+function SeatBlock({
+  table,
+  locale,
+  variant,
+}: {
+  table: VehicleFareTable
+  locale: Locale
+  variant: 'airport' | 'other' | 'all'
+}) {
   const copy = getVehiclePricingCopy(locale)
   return (
     <article className="vehicleFareCard">
@@ -39,7 +72,10 @@ function SeatBlock({ table, locale }: { table: VehicleFareTable; locale: Locale 
       {[
         { title: copy.southTitle, fares: table.south },
         { title: copy.northTitle, fares: table.north },
-      ].map((area) => (
+      ]
+        .map((a) => ({ ...a, fares: filterFares(a.fares, variant) }))
+        .filter((a) => Object.keys(a.fares).length > 0)
+        .map((area) => (
         <div className="vehicleFareArea" key={area.title}>
           <h4 className="vehicleFareAreaTitle">{area.title}</h4>
           <table className="vehicleFareTable">
@@ -59,28 +95,36 @@ function SeatBlock({ table, locale }: { table: VehicleFareTable; locale: Locale 
   )
 }
 
-export function VehiclePriceTable({ locale }: VehiclePriceTableProps) {
+export function VehiclePriceTable({
+  locale,
+  variant = 'all',
+  title,
+  subtitle,
+  eyebrow,
+}: VehiclePriceTableProps) {
   const copy = getVehiclePricingCopy(locale)
   const overtime = VEHICLE_FARES[0].overtimePerHourVnd
-  const hasRoundTrip = VEHICLE_FARES.some((t) =>
-    VEHICLE_ROUND_TRIP_KEYS.some((k) => t.south[k] !== undefined || t.north[k] !== undefined)
-  )
+  const hasRoundTrip =
+    variant !== 'airport' &&
+    VEHICLE_FARES.some((t) =>
+      VEHICLE_ROUND_TRIP_KEYS.some((k) => t.south[k] !== undefined || t.north[k] !== undefined)
+    )
   return (
-    <section className="vehiclePriceSection" id="vehicle-rates">
+    <section className="vehiclePriceSection" id={variant === 'airport' ? 'airport-rates' : 'vehicle-rates'}>
       <div className="tourSectionHeader">
-        <div className="tourSectionEyebrow">{copy.eyebrow}</div>
-        <h2 className="tourSectionTitle">{copy.title}</h2>
-        <p className="vehicleFareSubtitle">{copy.subtitle}</p>
+        <div className="tourSectionEyebrow">{eyebrow ?? copy.eyebrow}</div>
+        <h2 className="tourSectionTitle">{title ?? copy.title}</h2>
+        <p className="vehicleFareSubtitle">{subtitle ?? copy.subtitle}</p>
       </div>
       <div className="vehicleFareGrid">
         {VEHICLE_FARES.map((table) => (
-          <SeatBlock key={table.seats} table={table} locale={locale} />
+          <SeatBlock key={table.seats} table={table} locale={locale} variant={variant} />
         ))}
       </div>
       <ul className="vehicleFareNotes">
-        <li>{copy.tourIncludes}</li>
+        {variant !== 'airport' && <li>{copy.tourIncludes}</li>}
         {hasRoundTrip && <li>{copy.roundTripNote}</li>}
-        <li>{copy.overtimeNote(formatVnd(overtime))}</li>
+        {variant !== 'airport' && <li>{copy.overtimeNote(formatVnd(overtime))}</li>}
         <li>{copy.extraNote}</li>
       </ul>
     </section>

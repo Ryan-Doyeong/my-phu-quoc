@@ -14,6 +14,7 @@ import { VehiclePriceTable } from '@/components/VehiclePriceTable'
 import { NoOvercharge, MustDoBadge } from '@/components/NoOvercharge'
 import { DriverShowcase } from '@/components/DriverShowcase'
 import { AirportTaxiHighlight } from '@/components/AirportTaxiHighlight'
+import { getAirportTaxiCopy } from '@/lib/airportTaxiCopy'
 import { BuggyCourse } from '@/components/BuggyCourse'
 
 interface TourPoint {
@@ -362,7 +363,16 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
       {!isBuggy && <AirportTaxiHighlight locale={locale} whatsappHref={whatsappTransferUrl} />}
 
       {/* ①-4 Vehicle fare table (taxi / car tour page only) */}
-      {!isBuggy && <VehiclePriceTable locale={locale} />}
+      {!isBuggy && (
+        <VehiclePriceTable
+          locale={locale}
+          variant="airport"
+          eyebrow={getAirportTaxiCopy(locale).rateEyebrow}
+          title={getAirportTaxiCopy(locale).rateTitle}
+          subtitle={getAirportTaxiCopy(locale).rateSubtitle}
+        />
+      )}
+      {!isBuggy && <VehiclePriceTable locale={locale} variant="other" />}
       {isBuggy && <BuggyCourse locale={locale} />}
       {!isBuggy && <DriverShowcase locale={locale} />}
       <NoOvercharge locale={locale} />

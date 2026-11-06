@@ -8,6 +8,9 @@ export interface AirportTaxiCopy {
   subtitle: string
   points: { icon: string; title: string; body: string }[]
   cta: string
+  rateEyebrow: string
+  rateTitle: string
+  rateSubtitle: string
 }
 
 const COPY: Record<Locale, AirportTaxiCopy> = {
@@ -33,6 +36,9 @@ const COPY: Record<Locale, AirportTaxiCopy> = {
       },
     ],
     cta: '공항 택시 문의하기',
+    rateEyebrow: '공항 택시 요금',
+    rateTitle: '공항 ↔ 숙소 택시 요금',
+    rateSubtitle: '공항 이동 노선만 모았습니다. 차량 1대 기준 공시 요금(VND)이며 4인승·7인승 중 선택하세요.',
   },
   en: {
     badge: 'Airport Taxi · Top Pick',
@@ -56,6 +62,9 @@ const COPY: Record<Locale, AirportTaxiCopy> = {
       },
     ],
     cta: 'Ask About Airport Taxi',
+    rateEyebrow: 'Airport Taxi Rates',
+    rateTitle: 'Airport ↔ Hotel Taxi Rates',
+    rateSubtitle: 'Airport routes only. Published rates per vehicle in VND — choose a 4-seater or 7-seater.',
   },
   zh: {
     badge: '机场出租车 强烈推荐',
@@ -79,6 +88,9 @@ const COPY: Record<Locale, AirportTaxiCopy> = {
       },
     ],
     cta: '咨询机场出租车',
+    rateEyebrow: '机场出租车价格',
+    rateTitle: '机场 ↔ 酒店 出租车价格',
+    rateSubtitle: '仅列出机场路线。按每辆车公示价格（越南盾），可选4座或7座。',
   },
   ru: {
     badge: 'Такси из аэропорта · Рекомендуем',
@@ -102,6 +114,9 @@ const COPY: Record<Locale, AirportTaxiCopy> = {
       },
     ],
     cta: 'Узнать про такси из аэропорта',
+    rateEyebrow: 'Тарифы такси из аэропорта',
+    rateTitle: 'Такси аэропорт ↔ отель',
+    rateSubtitle: 'Только маршруты аэропорта. Опубликованные тарифы за автомобиль в VND — на 4 или 7 мест.',
   },
   ja: {
     badge: '空港タクシー 一押し',
@@ -125,6 +140,9 @@ const COPY: Record<Locale, AirportTaxiCopy> = {
       },
     ],
     cta: '空港タクシーを問い合わせる',
+    rateEyebrow: '空港タクシー料金',
+    rateTitle: '空港 ↔ ホテル タクシー料金',
+    rateSubtitle: '空港路線のみ掲載。車両1台あたりの公示料金（VND）で、4人乗り・7人乗りから選べます。',
   },
   hi: {
     badge: 'एयरपोर्ट टैक्सी · ख़ास सिफ़ारिश',
@@ -148,6 +166,9 @@ const COPY: Record<Locale, AirportTaxiCopy> = {
       },
     ],
     cta: 'एयरपोर्ट टैक्सी पूछें',
+    rateEyebrow: 'एयरपोर्ट टैक्सी दरें',
+    rateTitle: 'एयरपोर्ट ↔ होटल टैक्सी दरें',
+    rateSubtitle: 'केवल एयरपोर्ट रूट। प्रति वाहन प्रकाशित दरें (VND) — 4-सीटर या 7-सीटर चुनें।',
   },
   vi: {
     badge: 'Taxi sân bay · Rất nên chọn',
@@ -171,6 +192,9 @@ const COPY: Record<Locale, AirportTaxiCopy> = {
       },
     ],
     cta: 'Hỏi về taxi sân bay',
+    rateEyebrow: 'Giá taxi sân bay',
+    rateTitle: 'Taxi sân bay ↔ khách sạn',
+    rateSubtitle: 'Chỉ gồm các tuyến sân bay. Giá niêm yết theo xe (VND), chọn xe 4 chỗ hoặc 7 chỗ.',
   },
 }
 
