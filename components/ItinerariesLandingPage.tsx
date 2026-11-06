@@ -7,6 +7,7 @@ import { TripPlanner } from '@/components/TripPlanner'
 import { BookingCommonIntroCallout, CommonHelpSection } from '@/components/BookingServiceSections'
 import { localePath, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
+import { getSouthCourseCopy } from '@/lib/southCourseCopy'
 
 interface ItinerariesLandingPageProps {
   locale?: Locale
@@ -151,6 +152,7 @@ export function ItinerariesLandingPage({ locale = 'ko' }: ItinerariesLandingPage
   const dict = getDictionary(locale)
   const nav = NAV[locale] ?? NAV.en
   const c = COPY[locale] ?? COPY.en
+  const south = getSouthCourseCopy(locale)
 
   return (
     <div className="itinerariesPageRoot">
@@ -177,6 +179,14 @@ export function ItinerariesLandingPage({ locale = 'ko' }: ItinerariesLandingPage
         <BookingCommonIntroCallout locale={locale} />
 
         <TripPlanner locale={locale} />
+
+        <Link href={`${localePath(locale, '/taxi-tour')}#south-course`} className="southCourseTeaser">
+          <div className="southCourseTeaserBody">
+            <div className="southCourseTeaserTitle">{south.teaserTitle}</div>
+            <div className="southCourseTeaserText">{south.teaserText}</div>
+          </div>
+          <span className="southCourseTeaserCta">{south.teaserCta} &rarr;</span>
+        </Link>
 
         <div className="itinerariesCalloutBox">
           <div className="calloutIcon">ℹ️</div>

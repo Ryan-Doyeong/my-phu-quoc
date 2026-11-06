@@ -2706,3 +2706,29 @@ html:lang(ja) body * {
 .pillMenuTitle{margin:4px 10px 2px;font-size:10.5px}
 .pillMenuItem{display:block;padding:7px 10px;font-size:13px;line-height:1.3}
 @media(max-width:900px){.siteHeaderCommon .pillMenuPanel{left:8px;right:8px;width:auto;top:70px;gap:0 4px}.pillMenuItem{font-size:12.5px;padding:7px 8px}}
+
+/* 추천 테마 일정 페이지: 남부 추천 코스 안내 카드 */
+.southCourseTeaser {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin: 18px 0;
+  padding: 16px 18px;
+  background: #FFFFFF;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md, 14px);
+  color: inherit;
+  text-decoration: none;
+}
+.southCourseTeaserTitle { font-size: 16px; font-weight: 800; color: var(--ink); margin-bottom: 4px; }
+.southCourseTeaserText { font-size: 14px; line-height: 1.5; color: #475569; }
+.southCourseTeaserCta { flex-shrink: 0; font-size: 14px; font-weight: 800; color: #0A4F5C; }
+@media (max-width: 640px) {
+  .southCourseTeaser { flex-direction: column; align-items: flex-start; }
+}
+/* 남부 추천 코스: 한글 단어 중간 끊김 방지 */
+#south-course .buggyCourseNote,
+#south-course .buggyCourseStopTitle,
+#south-course .buggyCourseStopDesc,
+.southCourseTeaserText { word-break: keep-all; }

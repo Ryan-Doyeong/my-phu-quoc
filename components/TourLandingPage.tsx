@@ -12,6 +12,7 @@ import { NAV_ZONE_LABELS } from '@/lib/i18n/uiStrings'
 import { BOOKING_SERVICE_COPY, buildServiceWhatsappUrl } from '@/lib/i18n/bookingServiceCopy'
 import { categoryLabel } from '@/lib/directory'
 import { VehiclePriceTable } from '@/components/VehiclePriceTable'
+import { SouthCourse } from '@/components/SouthCourse'
 import { NoOvercharge, MustDoBadge } from '@/components/NoOvercharge'
 import { DriverShowcase } from '@/components/DriverShowcase'
 import { AirportTaxiHighlight } from '@/components/AirportTaxiHighlight'
@@ -352,6 +353,7 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
         />
       )}
       {!isBuggy && <VehiclePriceTable locale={locale} variant="other" />}
+      {!isBuggy && <SouthCourse locale={locale} />}
       {isBuggy && <BuggyCourse locale={locale} />}
       {!isBuggy && <DriverShowcase locale={locale} />}
       <NoOvercharge locale={locale} />
