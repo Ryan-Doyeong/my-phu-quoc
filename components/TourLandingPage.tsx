@@ -14,6 +14,8 @@ import { categoryLabel } from '@/lib/directory'
 import { VehiclePriceTable } from '@/components/VehiclePriceTable'
 import { NoOvercharge, MustDoBadge } from '@/components/NoOvercharge'
 import { DriverShowcase } from '@/components/DriverShowcase'
+import { AirportTaxiHighlight } from '@/components/AirportTaxiHighlight'
+import { getAirportTaxiCopy } from '@/lib/airportTaxiCopy'
 import { BuggyCourse } from '@/components/BuggyCourse'
 
 interface TourPoint {
@@ -293,6 +295,26 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
           </div>
         ) : (
           <div className="tourServiceSplitGrid dual">
+            {/* [택시·공항 이동] */}
+            <article className="tourServicePrimaryCard" id="transfer-service">
+              <div className="tourServiceCardHeader">
+                <span className="tourServiceTagBadge">{transferService.tag}</span>
+                <span className="tourServicePricePill">{transferService.priceLabel}</span>
+              </div>
+              <h2 className="tourServiceCardTitle">{transferService.title}</h2>
+              <p className="tourServiceCardBody">{transferService.body}</p>
+              <div className="tourServiceCardBtnGroup">
+                <a
+                  href={whatsappTransferUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="tourBtnLarge tourBtnWhatsapp"
+                >
+                  <span>{transferService.ctaLabel}</span>
+                </a>
+              </div>
+            </article>
+
             {/* [차량 투어] */}
             <article className="tourServicePrimaryCard" id="car-tour-service">
               <div className="tourServiceCardHeader">
@@ -313,31 +335,23 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
               </div>
             </article>
 
-            {/* [택시·공항 이동] */}
-            <article className="tourServicePrimaryCard" id="transfer-service">
-              <div className="tourServiceCardHeader">
-                <span className="tourServiceTagBadge">{transferService.tag}</span>
-                <span className="tourServicePricePill">{transferService.priceLabel}</span>
-              </div>
-              <h2 className="tourServiceCardTitle">{transferService.title}</h2>
-              <p className="tourServiceCardBody">{transferService.body}</p>
-              <div className="tourServiceCardBtnGroup">
-                <a
-                  href={whatsappTransferUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="tourBtnLarge tourBtnWhatsapp"
-                >
-                  <span>{transferService.ctaLabel}</span>
-                </a>
-              </div>
-            </article>
           </div>
         )}
       </section>
 
+      {!isBuggy && <AirportTaxiHighlight locale={locale} whatsappHref={whatsappTransferUrl} />}
+
       {/* ①-4 Vehicle fare table (taxi / car tour page only) */}
-      {!isBuggy && <VehiclePriceTable locale={locale} />}
+      {!isBuggy && (
+        <VehiclePriceTable
+          locale={locale}
+          variant="airport"
+          eyebrow={getAirportTaxiCopy(locale).rateEyebrow}
+          title={getAirportTaxiCopy(locale).rateTitle}
+          subtitle={getAirportTaxiCopy(locale).rateSubtitle}
+        />
+      )}
+      {!isBuggy && <VehiclePriceTable locale={locale} variant="other" />}
       {isBuggy && <BuggyCourse locale={locale} />}
       {!isBuggy && <DriverShowcase locale={locale} />}
       <NoOvercharge locale={locale} />
