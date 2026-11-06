@@ -24,7 +24,7 @@ export function generateItinerariesMetadata(locale: Locale = 'en'): Metadata {
     zh: '根据您的航班、同行人员和旅行主题，为您定制富国岛南部日落小镇与凯姆海滩专属行程。',
     ja: 'フライト時間や同行者、旅の目的に合わせてフーコック島南部のモデルコースを自動作成します。',
     ru: 'Индивидуальные маршруты по югу Фукуока для пар, семей и компаний друзей.',
-    hi: 'जोड़ों, परिवार और दोस्तों के लिए दक्षिण फु क्वोक की अनुकूलित यात्रा योजना।',
+    hi: 'जोड़ों, परिवार और दोस्तों के लिए दक्षिण फू क्वोक की अनुकूलित यात्रा योजना।',
     vi: 'Lịch trình gợi ý theo phong cách du lịch tại Thị trấn Hoàng Hôn và Bãi Khem, Nam Phú Quốc.',
   }
   const title = TITLE_MAP[locale] || TITLE_MAP.en

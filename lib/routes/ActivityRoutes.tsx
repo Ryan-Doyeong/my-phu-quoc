@@ -24,7 +24,7 @@ export function generateActivitiesMetadata(locale: Locale = 'en'): Metadata {
     zh: '为您介绍富国岛南部日落小镇和凯姆海滩一带的代表性海上活动与旅游项目。',
     ja: 'フーコック島南部のサンセットタウンとケムビーチで楽しめる代表的なマリンアクティビティとツアーのご案内。',
     ru: 'Обзор основных морских активностей и туров в Сансет-Тауне и на пляже Кхем на юге Фукуока.',
-    hi: 'दक्षिण फु क्वोक के सनसेट टाउन और खेम बीच में प्रमुख समुद्री गतिविधियों और टूर की जानकारी।',
+    hi: 'दक्षिण फू क्वोक के सनसेट टाउन और खेम बीच में प्रमुख समुद्री गतिविधियों और टूर की जानकारी।',
     vi: 'Khám phá các hoạt động biển và tour trải nghiệm tiêu biểu tại Thị trấn Hoàng Hôn và Bãi Khem, Nam Phú Quốc.',
   }
   const title = TITLE_MAP[locale] || TITLE_MAP.en
