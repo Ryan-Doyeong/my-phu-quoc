@@ -73,10 +73,10 @@ const STRONG_PICK_LABEL: Record<string, string> = {
   ko: '강력 추천',
   en: 'Top Pick',
   zh: '强烈推荐',
-  ru: 'Рекомендуем',
+  ru: 'Настоятельно рекомендуем',
   ja: '一押し',
   hi: 'ख़ास सिफ़ारिश',
-  vi: 'Rất nên thử',
+  vi: 'Rất đáng chọn',
 }
 
 export type QuickServiceKey =

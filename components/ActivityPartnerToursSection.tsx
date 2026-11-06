@@ -38,10 +38,10 @@ const DETAIL_COPY_KO = {
 // 업체 브로셔에 상세 일정이 없는 상품: 일정 없이 노출하고 문의를 안내한다.
 const NO_DETAIL_NOTICE: Record<string, string> = {
   ko: '상세 일정·포함 사항·준비물은 업체 자료 확인 후 안내해 드립니다. 구체적인 내용은 문의해 주세요.',
-  en: 'Detailed itinerary, inclusions and what to bring are confirmed on request. Please contact us for details.',
-  zh: '详细行程、包含项目及携带物品将在确认后告知，具体内容请咨询我们。',
+  en: 'We will provide the detailed itinerary, inclusions and what to bring after checking with the tour operator. Please contact us for details.',
+  zh: '详细行程、包含项目及需携带的物品，将在核实服务商提供的资料后告知。如需了解具体内容，请联系我们。',
   ru: 'Подробная программа, что включено и что взять с собой уточняются по запросу. Свяжитесь с нами.',
-  ja: '詳細な日程・含まれる内容・持ち物はご確認のうえご案内します。詳しくはお問い合わせください。',
+  ja: '詳しい日程・料金に含まれる内容・持ち物については、催行会社の資料を確認したうえでご案内します。詳細はお問い合わせください。',
   hi: 'विस्तृत कार्यक्रम, शामिल सेवाएँ और साथ ले जाने की चीज़ें पूछने पर बताई जाती हैं। कृपया हमसे संपर्क करें।',
   vi: 'Lịch trình chi tiết, dịch vụ bao gồm và đồ cần mang sẽ được báo khi bạn liên hệ. Vui lòng nhắn cho chúng tôi để biết thêm.',
 }
