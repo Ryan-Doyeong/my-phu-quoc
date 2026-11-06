@@ -955,9 +955,9 @@ export const PARTNER_TOURS: PartnerTour[] = [
       vi: 'Câu cá lớn (Big Game Fishing)',
     },
     summary: {
-      ko: '주간 또는 야간 선택이 가능한 대물 낚시 투어 (매일 출발)',
-      en: 'Daytime or nighttime big-game fishing tour (daily departures)',
-      vi: 'Tour câu cá lớn ban ngày hoặc ban đêm (khởi hành hàng ngày)',
+      ko: '새벽 출발 주간 대물 낚시 투어 (매일 출발)',
+      en: 'Early-morning daytime big-game fishing tour (daily departures)',
+      vi: 'Tour câu cá lớn ban ngày, khởi hành sáng sớm (hàng ngày)',
     },
     variants: [
       {
@@ -968,20 +968,6 @@ export const PARTNER_TOURS: PartnerTour[] = [
         },
         adultVnd: 3500000,
         childVnd: 2450000,
-        childNote: {
-          ko: '키 100cm 이상 ~ 140cm 미만 어린이 요금 (100cm 미만 무료)',
-          en: 'Height 100cm to under 140cm: Child fare (under 100cm free)',
-          vi: 'Chiều cao từ 100cm đến dưới 140cm: Áp dụng giá trẻ em (dưới 100cm miễn phí)',
-        },
-      },
-      {
-        label: {
-          ko: '밤 (야간)',
-          en: 'Night Fishing',
-          vi: 'Ban đêm',
-        },
-        adultVnd: 3800000,
-        childVnd: 2660000,
         childNote: {
           ko: '키 100cm 이상 ~ 140cm 미만 어린이 요금 (100cm 미만 무료)',
           en: 'Height 100cm to under 140cm: Child fare (under 100cm free)',

@@ -476,7 +476,7 @@ export const en = {
     guide1Title: 'Program & Rates: On Request',
     guide1Desc: 'We check and explain vehicle type, usage hours, route, inclusions, and fare tailored to your group and schedule.',
     guide2Label: 'Taxi & Airport Transfer',
-    guide2Title: 'Rates: On Request (By Route)',
+    guide2Title: 'Published Rates by Route',
     guide2Desc: 'Share your pickup and drop-off points, passengers, and luggage—we check the fare and pickup method for you.',
     guide3Label: 'Inclusions & Terms',
     guide3Title: 'Clear Advance Guidance on Terms',

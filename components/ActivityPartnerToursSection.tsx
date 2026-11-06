@@ -24,13 +24,15 @@ import styles from './ActivityPartnerToursSection.module.css';
 const DETAIL_COPY_KO = {
   includedExcluded: '포함 · 불포함',
   partner: '파트너',
-  operator: "John's Tours",
+  operator: { johns: "John's Tours", redriver: 'Red River Tour' } as Record<PartnerOperator, string>,
   itinerary: '일정',
   included: '포함',
   excluded: '불포함',
+  bring: '준비물',
   notice:
     '일정·시간은 일반적인 기준이며, 날씨·해상 상태·당일 상황에 따라 변경될 수 있습니다.',
   credit: '사진: 존스 투어(phuquoctrip.com)',
+  creditRedriver: '사진: Red River Tour',
 };
 
 export interface ActivityPartnerToursSectionProps {
@@ -69,7 +71,19 @@ const REDRIVER_TOUR_PHOTOS: Record<string, string> = {
   'redriver-trip-2': '/activities/partner/redriver/islands-7.webp',
 };
 
-const HIDDEN_PARTNER_TOUR_IDS: string[] = ['johns-glamping-trip'];
+// 시트·브로셔 내용이 서로 맞지 않아 '업체 확인 중'이 필요한 상품은 확인될 때까지 비공개 (2026-11-06 사용자 지시).
+// - redriver-red-1: 섬 2곳/3곳 표기 불일치 · redriver-trip-1: 3개 섬/4개 섬 불일치
+// - redriver-red-2, redriver-trip-2, redriver-land-2: 아쿠아토피아 '자비'와 '포함' 표기 불일치
+// - johns-land-tour-5: 포함·불포함 세부 내역 업체 확인 중
+const HIDDEN_PARTNER_TOUR_IDS: string[] = [
+  'johns-glamping-trip',
+  'johns-land-tour-5',
+  'redriver-red-1',
+  'redriver-red-2',
+  'redriver-trip-1',
+  'redriver-trip-2',
+  'redriver-land-2',
+];
 
 const PARTNER_TOURS = ALL_PARTNER_TOURS.filter(
   (t) =>
@@ -358,7 +372,7 @@ export function ActivityPartnerToursSection({
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={
-                      detail
+                      detail && detail.photoCount > 0
                         ? getPartnerTourPhoto(tour.id, 1)
                         : REDRIVER_TOUR_PHOTOS[tour.id] ??
                           `/activities/partner/${tour.category}.webp`
@@ -374,7 +388,7 @@ export function ActivityPartnerToursSection({
                   <span className={styles.mediaCode}>{tour.code}</span>
                 </div>
 
-                {detail && (
+                {detail && detail.photoCount > 0 && (
                   <div className={styles.tourThumbs}>
                     {[2, 3].map((n) => (
                       // eslint-disable-next-line @next/next/no-img-element
@@ -399,7 +413,7 @@ export function ActivityPartnerToursSection({
 
                   {detail && (
                     <p className={styles.tourOp}>
-                      {DETAIL_COPY_KO.partner} · {DETAIL_COPY_KO.operator}
+                      {DETAIL_COPY_KO.partner} · {DETAIL_COPY_KO.operator[tour.operator]}
                     </p>
                   )}
                   <h3 className={styles.cardTitle}>{tourTitle}</h3>
@@ -463,10 +477,19 @@ export function ActivityPartnerToursSection({
                         <p className={styles.tourText}>{detail.included}</p>
                         <p className={styles.tourSub}>{DETAIL_COPY_KO.excluded}</p>
                         <p className={styles.tourText}>{detail.excluded}</p>
+                        {detail.bring && (
+                          <>
+                            <p className={styles.tourSub}>{DETAIL_COPY_KO.bring}</p>
+                            <p className={styles.tourText}>{detail.bring}</p>
+                          </>
+                        )}
                       </details>
                       <p className={styles.tourDetailNotice}>
                         {DETAIL_COPY_KO.notice}
                       </p>
+                      {detail.note && (
+                        <p className={styles.tourDetailNotice}>{detail.note}</p>
+                      )}
                     </>
                   )}
 
@@ -492,7 +515,11 @@ export function ActivityPartnerToursSection({
                   </a>
                 </div>
                 {detail && (
-                  <p className={styles.tourCredit}>{DETAIL_COPY_KO.credit}</p>
+                  <p className={styles.tourCredit}>
+                    {tour.operator === 'johns'
+                      ? DETAIL_COPY_KO.credit
+                      : DETAIL_COPY_KO.creditRedriver}
+                  </p>
                 )}
               </article>
             );

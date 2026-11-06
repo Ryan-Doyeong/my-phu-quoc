@@ -11,6 +11,7 @@ import {
 } from '@/lib/activities/marmorisYacht'
 import { BOOKING_SERVICE_COPY } from '@/lib/i18n/bookingServiceCopy'
 import type { Locale } from '@/lib/i18n/config'
+import { NoOvercharge, MustDoBadge } from '@/components/NoOvercharge'
 
 /* ChatGPT 7개 국어 검수 완료 (2026-11-02) */
 const pick = (l: L, locale: Locale) => (l as unknown as Record<string, string>)[locale] ?? l.en
@@ -162,6 +163,7 @@ export function ActivityYachtSection({ locale = 'ko' }: { locale?: Locale }) {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={t.images[0]} alt={pick(t.title, locale)} loading="lazy" />
               <span className="yachtBadge">{pick(t.badge, locale)}</span>
+              <span style={{ position: 'absolute', top: 12, right: 12 }}><MustDoBadge locale={locale} /></span>
             </div>
             <div className="yachtThumbs">
               {t.images.slice(1).map((src) => (
@@ -259,6 +261,7 @@ export function ActivityYachtSection({ locale = 'ko' }: { locale?: Locale }) {
         ))}
       </div>
       <p className="yachtCredit">{ui.credit}</p>
+      <NoOvercharge locale={locale} />
     </section>
   )
 }

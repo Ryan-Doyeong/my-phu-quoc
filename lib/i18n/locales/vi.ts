@@ -477,7 +477,7 @@ export const vi = {
     guide1Title: 'Chương trình · Chi phí: Liên hệ',
     guide1Desc: 'Thông báo trước loại xe, thời gian sử dụng, lịch trình điểm đến, hạng mục bao gồm và chi phí theo đoàn của bạn.',
     guide2Label: 'Taxi · Đưa đón sân bay',
-    guide2Title: 'Chi phí: Liên hệ (theo chặng)',
+    guide2Title: 'Bảng giá niêm yết theo tuyến',
     guide2Desc: 'Cho biết điểm đón, điểm đến, số khách và hành lý để chúng tôi kiểm tra giá cước và cách thức đón.',
     guide3Label: 'Hạng mục bao gồm',
     guide3Title: 'Hướng dẫn trước điều kiện & hạng mục bao gồm',
