@@ -1,5 +1,6 @@
 // Translations: ChatGPT 7개 국어 검수 완료 (2026-11-02)
 import Link from 'next/link'
+import { SiteHeader } from '@/components/SiteHeader'
 import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { TripPlanner } from '@/components/TripPlanner'
@@ -153,19 +154,7 @@ export function ItinerariesLandingPage({ locale = 'ko' }: ItinerariesLandingPage
 
   return (
     <div className="itinerariesPageRoot">
-      <header className="detailNav">
-        <Logo locale={locale} />
-        <div className="detailNavRight">
-          <nav>
-            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
-            <Link href={localePath(locale, '/zones/sunset-town')}>{nav.sunsetTown}</Link>
-            <Link href={localePath(locale, '/zones/khem-beach')}>{nav.khemBeach}</Link>
-            <Link href={localePath(locale, '/activities')}>{nav.activities}</Link>
-            <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
-          </nav>
-          <LanguageSwitcher locale={locale} variant="light" />
-        </div>
-      </header>
+      <SiteHeader locale={locale} />
 
       <main className="itinerariesContainer">
         <div className="itinerariesBreadcrumb">

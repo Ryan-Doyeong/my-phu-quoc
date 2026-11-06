@@ -2,6 +2,7 @@
 'use client'
 
 import { ContextCta } from '@/components/ContextCta'
+import { SiteHeader } from '@/components/SiteHeader'
 import React, { useState, useMemo, useEffect, Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
@@ -966,31 +967,7 @@ function HotelsPageInner({ hotels: rawHotels, locale = 'en', initialArea }: Hote
   return (
     <div className="hotelsPageWrap">
       {/* 0. Top Header */}
-      <header className="detailNav">
-        <Logo locale={locale} />
-        <div className="detailNavRight">
-          <nav>
-            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
-            <Link href={localePath(locale, '/zones/sunset-town')}>
-              {t.areaSunsetTown}
-            </Link>
-            <Link href={localePath(locale, '/zones/khem-beach')}>
-              {t.areaKhemBeach}
-            </Link>
-            <Link href={localePath(locale, '/directory/dining')}>
-              {categoryLabel('dining', locale)}
-            </Link>
-            <Link href={localePath(locale, '/directory/bars')}>
-              {categoryLabel('bars', locale)}
-            </Link>
-            <Link href={localePath(locale, '/hotels')} style={{ fontWeight: 800, color: '#0f172a' }}>
-              {categoryLabel('hotels', locale)}
-            </Link>
-            <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
-          </nav>
-          <LanguageSwitcher locale={locale} variant="light" />
-        </div>
-      </header>
+      <SiteHeader locale={locale} />
 
       {/* Hero Section */}
       <section

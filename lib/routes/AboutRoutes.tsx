@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { SiteHeader } from '@/components/SiteHeader'
 import type { Metadata } from 'next'
 import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
@@ -305,21 +306,7 @@ export function renderAboutRoute(locale: Locale = 'en') {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <header className="detailNav">
-        <Logo locale={locale} />
-        <div className="detailNavRight">
-          <nav>
-            <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
-            <Link href={localePath(locale, '/zones/sunset-town')}>
-              {dict.nav.zones}
-            </Link>
-            <Link href={localePath(locale, '/news')}>{dict.nav.newsAndBlog}</Link>
-            <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
-            <Link href={localePath(locale, '/search')}>{dict.nav.search}</Link>
-          </nav>
-          <LanguageSwitcher locale={locale} variant="light" />
-        </div>
-      </header>
+      <SiteHeader locale={locale} />
 
       <div className="aboutContainer">
         <header className="aboutHeader">

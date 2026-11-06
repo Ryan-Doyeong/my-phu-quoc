@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { SiteHeader } from '@/components/SiteHeader'
 import type { ReactNode } from 'react'
 import { Logo } from '@/components/Logo'
 import { MobileMenu } from '@/components/MobileMenu'
@@ -231,29 +232,7 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
   return (
     <div className="tourLandingWrap">
       {/* Site Header (Common) */}
-      <header className="siteHeader heroHeader">
-        <Logo locale={locale} />
-        <nav className="desktopNav">
-          <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
-          <Link href={localePath(locale, '/zones/sunset-town')}>{NAV_ZONE_LABELS.sunset[locale] || NAV_ZONE_LABELS.sunset.en}</Link>
-          <Link href={localePath(locale, '/zones/khem-beach')}>{NAV_ZONE_LABELS.khem[locale] || NAV_ZONE_LABELS.khem.en}</Link>
-          <Link href={localePath(locale, '/directory/dining')}>{categoryLabel('dining', locale)}</Link>
-          <Link href={localePath(locale, '/directory/bars')}>{categoryLabel('bars', locale)}</Link>
-          <Link href={localePath(locale, '/hotels')}>{categoryLabel('hotels', locale)}</Link>
-          <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
-        </nav>
-        <div className="headerActions">
-          <Link
-            href={localePath(locale, '/search')}
-            className="searchGlyph"
-            aria-label={dict.nav.search}
-          >
-            ⌕
-          </Link>
-          <LanguageSwitcher locale={locale} variant="hero" />
-          <MobileMenu locale={locale} />
-        </div>
-      </header>
+      <SiteHeader locale={locale} />
 
       {/* ① First Screen (Hero Section) */}
       <section className="tourHeroSection">
