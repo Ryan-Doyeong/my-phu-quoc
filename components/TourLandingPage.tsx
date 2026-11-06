@@ -10,6 +10,7 @@ import { getDictionary } from '@/lib/i18n/dictionaries'
 import { NAV_ZONE_LABELS } from '@/lib/i18n/uiStrings'
 import { BOOKING_SERVICE_COPY, buildServiceWhatsappUrl } from '@/lib/i18n/bookingServiceCopy'
 import { categoryLabel } from '@/lib/directory'
+import { VehiclePriceTable } from '@/components/VehiclePriceTable'
 
 interface TourPoint {
   order: string
@@ -351,6 +352,9 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
           </div>
         )}
       </section>
+
+      {/* ①-4 Vehicle fare table (taxi / car tour page only) */}
+      {!isBuggy && <VehiclePriceTable locale={locale} />}
 
       {/* ② Advantage Cards (3 Highlights) */}
       <section className="tourFeaturesSection">
