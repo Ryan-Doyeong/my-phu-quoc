@@ -60,6 +60,7 @@ const HOME_NAV_KHEM: Record<string, string> = {
 
 import {
   QUICK_CARD_EXCHANGE,
+  QUICK_CARD_HOTELS,
   QUICK_CARD_BUGGY,
   QUICK_CARD_TAXI,
   QUICK_CARD_EVENTS,
@@ -81,6 +82,7 @@ const STRONG_PICK_LABEL: Record<string, string> = {
 
 export type QuickServiceKey =
   | 'exchange'
+  | 'hotels'
   | 'buggy'
   | 'taxi'
   | 'events'
@@ -94,7 +96,7 @@ export type QuickServiceKey =
  * 아래 배열 요소의 순서를 변경하거나 추가/제거하면 홈 화면에 즉시 반영됩니다.
  */
 export const QUICK_SERVICE_ORDER: QuickServiceKey[] = [
-  'exchange',     // 1. 환전 (링크 없음)
+  'hotels',       // 1. 호텔
   'buggy',        // 2. 버기 투어
   'taxi',         // 3. 차량 투어
   'events',       // 4. 이벤트
@@ -128,6 +130,23 @@ const QUICK_SERVICES_REGISTRY: Record<QuickServiceKey, QuickServiceDefinition> =
         <text x="25" y="24" textAnchor="middle" fontSize="7" fontWeight="900" fill="#92400E">₫</text>
         <circle cx="28.5" cy="14" r="4.5" fill="#FBBF24" stroke="#D97706" strokeWidth="1" />
         <circle cx="28.5" cy="14" r="2.8" fill="#FDE68A" />
+      </svg>
+    ),
+  },
+  hotels: {
+    key: 'hotels',
+    labels: QUICK_CARD_HOTELS,
+    href: '/hotels',
+    iconWrapClass: 'iconWrapHotel',
+    renderIcon: () => (
+      <svg viewBox="0 0 36 36" fill="none" aria-hidden="true">
+        <rect x="7" y="7" width="22" height="22" rx="3" fill="#6366F1" />
+        <rect x="10" y="10" width="16" height="16" rx="2" fill="#818CF8" />
+        <rect x="11" y="11" width="5" height="5" rx="1" fill="#FDE68A" />
+        <rect x="20" y="11" width="5" height="5" rx="1" fill="#FDE68A" />
+        <rect x="11" y="19" width="5" height="4" rx="1" fill="#FDE68A" />
+        <rect x="20" y="19" width="5" height="4" rx="1" fill="#FDE68A" />
+        <rect x="15" y="22" width="6" height="7" rx="1.2" fill="#312E81" />
       </svg>
     ),
   },
