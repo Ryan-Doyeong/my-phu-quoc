@@ -1,7 +1,7 @@
 /**
  * 차량(택시·공항 이동·투어) 공시 요금표 — 마이푸꾸옥 택시/차량 투어 페이지용.
  * - 금액은 사이트 게시용 최종 요금(VND)만 기록한다. (업체 원가는 이 저장소에 두지 않는다.)
- * - 4인승 / 7인승 두 표, 구역은 남부·북부.
+ * - 4인승 / 7인승 / 16인승 표, 구역은 남부·북부. (16인승은 업체 확인된 남부 노선만 게시)
  * - 라벨 문구는 lib/vehiclePricingCopy.ts 에서 언어별로 관리한다.
  */
 export type VehicleRouteKey =
@@ -19,7 +19,7 @@ export type VehicleRouteKey =
   | 'northToSouthRoundTrip'
 
 export interface VehicleFareTable {
-  seats: 4 | 7
+  seats: 4 | 7 | 16
   south: Partial<Record<VehicleRouteKey, number>>
   north: Partial<Record<VehicleRouteKey, number>>
   overtimePerHourVnd: number
@@ -64,6 +64,17 @@ export const VEHICLE_FARES: VehicleFareTable[] = [
       northToSouthOneWay: 810_000,
       northToSouthRoundTrip: 1_500_000,
     },
+    overtimePerHourVnd: 120_000,
+  },
+  {
+    seats: 16,
+    south: {
+      airportToSouth: 760_000,
+      southToAirport: 760_000,
+      southToCenterOneWay: 890_000,
+      southSightseeingTour: 1_200_000,
+    },
+    north: {},
     overtimePerHourVnd: 120_000,
   },
 ]
