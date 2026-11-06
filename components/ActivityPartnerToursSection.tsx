@@ -104,7 +104,7 @@ interface UiLabels {
   emptyResult: string;
 }
 
-const UI_COPY: { ko: UiLabels; en: UiLabels } = {
+const UI_COPY: { ko: UiLabels; en: UiLabels; vi: UiLabels } = {
   ko: {
     sectionTitle: '해양·투어 액티비티',
     sectionSubtitle:
@@ -183,6 +183,45 @@ const UI_COPY: { ko: UiLabels; en: UiLabels } = {
     perPerson: '/ person',
     emptyResult: 'No tours match the selected filter.',
   },
+  vi: {
+    sectionTitle: 'Hoạt động biển & Tour du lịch',
+    sectionSubtitle:
+      'Giá niêm yết là giá chính thức từ đơn vị đối tác (VND/người) và có thể thay đổi tùy thời tiết, mùa du lịch hoặc tình hình vận hành. Các dịch vụ bao gồm sẽ được xác nhận trước khi đặt tour.',
+    filterAriaLabel: 'Lọc hoạt động',
+    filterAll: 'Tất cả',
+    operatorBanner: {
+      johns: "JOHN'S TOURS PHÚ QUỐC",
+      redriver: 'RED RIVER TOUR',
+    },
+    operatorChip: {
+      johns: "John's Tours",
+      redriver: 'Red River Tour',
+    },
+    categoryChip: {
+      hopping: 'Tour khám phá các đảo',
+      cablecar: 'Cáp treo',
+      fishing: 'Câu cá',
+      sunset: 'Hoàng hôn & Buổi tối',
+      diving: 'Lặn biển & Đi bộ dưới biển',
+      land: 'Tour trên đảo',
+      camping: 'Cắm trại & Glamping',
+    },
+    adult: 'Người lớn',
+    child: 'Trẻ em',
+    childNotApplicable: 'Trẻ em: Không áp dụng',
+    priceAsOfLabel: 'Giá cập nhật ngày',
+    detailsToggleTitle: 'Xem thông tin & chính sách tour (Bao gồm · Đón khách · Hủy tour)',
+    includedTitle: 'Bao gồm',
+    excludedTitle: 'Không bao gồm',
+    childPolicyTitle: 'Chính sách trẻ em',
+    pickupTitle: 'Phụ thu đón khách theo khu vực (mỗi người)',
+    pickupSpecialPrefix: 'Phụ thu đón khách tại địa điểm cụ thể',
+    cancellationTitle: 'Chính sách hủy tour',
+    departureTitle: 'Lịch khởi hành',
+    unverifiedTitle: 'Thông tin chưa xác minh',
+    perPerson: '/ người',
+    emptyResult: 'Không có tour nào phù hợp với bộ lọc đã chọn.',
+  },
 };
 
 export function ActivityPartnerToursSection({
@@ -199,7 +238,7 @@ export function ActivityPartnerToursSection({
     return () => window.removeEventListener('partner-tour-category', onCat);
   }, []);
 
-  const ui: UiLabels = locale === 'ko' ? UI_COPY.ko : UI_COPY.en;
+  const ui: UiLabels = locale === 'ko' ? UI_COPY.ko : locale === 'vi' ? UI_COPY.vi : UI_COPY.en;
   const bookingCopy =
     (BOOKING_SERVICE_COPY[locale] ?? BOOKING_SERVICE_COPY.en).activities;
 
