@@ -22,7 +22,7 @@ const COPY: Record<Locale, AirportTaxiCopy> = {
       {
         icon: '🪧',
         title: '기사님이 미리 기다립니다',
-        body: '고객님 이름을 출력해 들고 미리 기다립니다. 도착하면 바로 택시에 탑승하실 수 있습니다.',
+        body: '고객님 이름이 적힌 안내판을 들고 미리 기다립니다. 도착하시면 바로 택시에 탑승하실 수 있습니다.',
       },
       {
         icon: '🤝',
@@ -38,7 +38,7 @@ const COPY: Record<Locale, AirportTaxiCopy> = {
     cta: '공항 택시 문의하기',
     rateEyebrow: '공항 택시 요금',
     rateTitle: '공항 ↔ 숙소 택시 요금',
-    rateSubtitle: '공항 이동 노선만 모았습니다. 차량 1대 기준 공시 요금(VND)이며 4·7·16인승 중 선택하세요.',
+    rateSubtitle: '공항 이동 노선만 모았습니다. 차량 1대 기준 공시 요금(VND)이며 4인승·7인승·16인승 중 선택하세요.',
   },
   en: {
     badge: 'Airport Taxi · Top Pick',
