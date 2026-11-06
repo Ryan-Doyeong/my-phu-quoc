@@ -11,6 +11,7 @@ import { NAV_ZONE_LABELS } from '@/lib/i18n/uiStrings'
 import { BOOKING_SERVICE_COPY, buildServiceWhatsappUrl } from '@/lib/i18n/bookingServiceCopy'
 import { categoryLabel } from '@/lib/directory'
 import { VehiclePriceTable } from '@/components/VehiclePriceTable'
+import { BuggyCourse } from '@/components/BuggyCourse'
 
 interface TourPoint {
   order: string
@@ -355,6 +356,7 @@ export function TourLandingPage({ type, locale = 'en' }: TourLandingPageProps) {
 
       {/* ①-4 Vehicle fare table (taxi / car tour page only) */}
       {!isBuggy && <VehiclePriceTable locale={locale} />}
+      {isBuggy && <BuggyCourse locale={locale} />}
 
       {/* ② Advantage Cards (3 Highlights) */}
       <section className="tourFeaturesSection">
