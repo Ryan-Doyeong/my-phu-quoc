@@ -217,7 +217,7 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     address: 'Ga Cáp treo Ánh Dương, Sunset Town, An Thới, Phú Quốc',
     image: '/tickets/hon-thom-cable-car.webp',
     ticketSlug: 'hon-thom-cable-car',
-    ticketUrl: 'https://www.klook.com/en-US/destination/p60275095-sunworld-hon-thom-phu-quoc/?aid=MYPHUQUOC',
+    ticketUrl: 'https://www.klook.com/en-US/activity/20750-sun-world-hon-thom-cable-car-ticket/?aid=MYPHUQUOC',
     description: {
       ko: '혼똠섬으로 연결되는 7,899.9m 3선식 논스톱 해상 케이블카의 출발역. 로마 콜로세움을 모티브로 한 아치 건축과 폼페이 전사 동상이 있습니다.',
       en: "Non-stop 3-rope ocean cable car (7,899.9m). Architectural tribute to Rome's Colosseum with gladiator statues.",

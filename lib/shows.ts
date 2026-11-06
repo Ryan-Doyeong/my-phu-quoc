@@ -97,7 +97,7 @@ export const SHOW_SCHEDULES: Record<ShowScheduleSpec['id'], ShowScheduleSpec> = 
       ru: '3-й сезон шоу «Симфония моря» открывается 10 ноября 2026 г. В более ранние даты рекомендуем вечернюю прогулку и ночной рынок.',
       hi: 'सिम्फनी ऑफ़ द सी सीज़न 3 की शुरुआत 10 नवंबर 2026 से होगी। इससे पहले की तारीखों के लिए सनसेट टाउन नाइट वॉक शामिल किया गया है।',
     },
-    klookUrl: 'https://www.klook.com/en-US/destination/p60275095-sunworld-hon-thom-phu-quoc/?aid=MYPHUQUOC',
+    klookUrl: 'https://www.klook.com/en-US/activity/138041-symphony-of-the-sea-show-ticket-in-phu-quoc/?aid=MYPHUQUOC',
     officialUrl: 'https://booking.sunworld.vn',
   },
 }
