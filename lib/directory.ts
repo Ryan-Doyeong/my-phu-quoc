@@ -394,7 +394,7 @@ const T2_ADDRESS_SUFFIX: Partial<Record<Locale, string>> = {
   zh: '越南富国岛',
   ru: 'Фукуок, Вьетнам',
   ja: 'ベトナム・フーコック',
-  hi: 'फु क्वोक, वियतनाम',
+  hi: 'फू क्वोक, वियतनाम',
   vi: 'Phú Quốc, Việt Nam',
 }
 

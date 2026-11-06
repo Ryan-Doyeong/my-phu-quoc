@@ -24,7 +24,7 @@ export function generateEmergencyMetadata(locale: Locale = 'en'): Metadata {
     zh: '面向富国岛南部日落小镇及凯姆海滩游客的紧急医疗与安全联系指南。',
     ja: 'サンセットタウン・ケムビーチ滞在中の緊急連絡先・病院・薬局のご案内。',
     ru: 'Экстренные телефоны, больницы и аптеки для путешественников на юге Фукуока.',
-    hi: 'दक्षिण फु क्वोक के यात्रियों के लिए आपातकालीन नंबर, अस्पताल और फ़ार्मेसी की जानकारी।',
+    hi: 'दक्षिण फू क्वोक के यात्रियों के लिए आपातकालीन नंबर, अस्पताल और फ़ार्मेसी की जानकारी।',
     vi: 'Hướng dẫn liên hệ khẩn cấp, bệnh viện và nhà thuốc cho du khách tại Nam Phú Quốc.',
   }
   const title = TITLE_MAP[locale] || TITLE_MAP.en

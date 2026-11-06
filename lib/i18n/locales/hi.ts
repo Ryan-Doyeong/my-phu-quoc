@@ -101,7 +101,7 @@ export const hi = {
     exploreCategory: (label: string) => `${label} देखें →`,
     storiesEyebrow: 'स्थानीय जानकारी',
     storiesTitle: 'समाचार, ब्लॉग और कहानियां',
-    storiesDesc: 'फु क्वोक की ताज़ा ख़बरें और आपकी यात्रा के लिए उपयोगी स्थानीय जानकारी।',
+    storiesDesc: 'फू क्वोक की ताज़ा ख़बरें और आपकी यात्रा के लिए उपयोगी स्थानीय जानकारी।',
     viewAll: 'सभी देखें →',
     newsletterEyebrow: 'फू क्वोक आपके इनबॉक्स में',
     newsletterTitle: 'ईमेल पत्रिका की सदस्यता लें',

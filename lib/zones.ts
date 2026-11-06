@@ -402,7 +402,7 @@ export const MAIN_ZONES: Record<MainZoneSlug, MainZoneInfo> = {
           zh: '富国岛翡翠湾JW万豪度假酒店',
           ru: 'JW Marriott Phu Quoc Emerald Bay Resort',
           ja: 'JWマリオット・フーコック・エメラルドベイ',
-          hi: 'JW मैरियट फु क्वोक एमराल्ड बे',
+          hi: 'JW मैरियट फू क्वोक एमराल्ड बे',
           vi: 'JW Marriott Phu Quoc Emerald Bay Resort & Spa',
         },
         description: {
@@ -424,7 +424,7 @@ export const MAIN_ZONES: Record<MainZoneSlug, MainZoneInfo> = {
           zh: '富国岛翡翠湾雅高高级公寓',
           ru: 'Premier Residences Phu Quoc Emerald Bay',
           ja: 'プレミアレジデンス・フーコック・エメラルドベイ',
-          hi: 'प्रीमियर रेजिडेंस फु क्वोक एमराल्ड बे',
+          hi: 'प्रीमियर रेजिडेंस फू क्वोक एमराल्ड बे',
           vi: 'Premier Residences Phu Quoc Emerald Bay',
         },
         description: {
@@ -446,7 +446,7 @@ export const MAIN_ZONES: Record<MainZoneSlug, MainZoneInfo> = {
           zh: '富国岛新世界度假酒店 (New World)',
           ru: 'New World Phu Quoc Resort',
           ja: 'ニューワールド・フーコック・リゾート',
-          hi: 'न्यू वर्ल्ड फु क्वोक रिसॉर्ट',
+          hi: 'न्यू वर्ल्ड फू क्वोक रिसॉर्ट',
           vi: 'New World Phu Quoc Resort',
         },
         description: {
