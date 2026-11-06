@@ -53,8 +53,11 @@ const EVENT_LD_EXTRAS: Record<string, { organizer?: any; performer?: any; offers
     ],
   },
 }
-// 공연이 아닌 온라인 프로모션은 Event 마크업에서 제외 (Article만 유지)
-const NON_EVENT_LD_SLUGS = new Set(['sun-world-spa-anniversary-offers-november-2026'])
+// 공연이 아닌 온라인 프로모션, 이미 종료된 이벤트는 Event 마크업에서 제외 (Article만 유지)
+const NON_EVENT_LD_SLUGS = new Set([
+  'sun-world-spa-anniversary-offers-november-2026',
+  'phu-quoc-halloween-sunset-town-hon-thom', // 2026-10-31 종료
+])
 
 
 export async function generateNewsListMetadata(locale: Locale = 'en'): Promise<Metadata> {
