@@ -9,6 +9,16 @@ export const QUICK_CARD_EXCHANGE: Record<string, string> = {
   vi: 'Đổi tiền',
 }
 
+export const QUICK_CARD_HOTELS: Record<string, string> = {
+  ko: '호텔',
+  en: 'Hotels',
+  zh: '酒店',
+  ru: 'Отели',
+  ja: 'ホテル',
+  hi: 'होटल',
+  vi: 'Khách sạn',
+}
+
 export const QUICK_CARD_BUGGY: Record<string, string> = {
   ko: '버기 투어',
   en: 'Buggy Tours',
