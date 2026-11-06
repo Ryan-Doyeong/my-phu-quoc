@@ -28,7 +28,7 @@ const COPY: Record<Locale, DriverShowcaseCopy> = {
     points: [
       'Professional service',
       'No hidden fees',
-      'If any extra cost is needed, we tell you in advance',
+      'We let you know in advance if any additional charges apply',
     ],
     report: 'If you are asked to pay more than the listed rate, please report it to us right away.',
     alt: 'My Phu Quoc car tour driver',
@@ -36,7 +36,7 @@ const COPY: Record<Locale, DriverShowcaseCopy> = {
   zh: {
     title: '帅气的司机们，为您带来有趣又难忘的旅程',
     subtitle: '认识与 My Phu Quoc 合作的司机们。',
-    points: ['提供专业服务', '没有隐性费用', '如需额外费用，会提前告知您'],
+    points: ['提供专业服务', '没有隐性费用', '如需收取额外费用，我们会提前告知您'],
     report: '如果被要求支付与公布价格不符的费用，请立即向我们举报。',
     alt: 'My Phu Quoc 包车游司机',
   },
@@ -46,7 +46,7 @@ const COPY: Record<Locale, DriverShowcaseCopy> = {
     points: [
       'Профессиональный сервис',
       'Никаких скрытых платежей',
-      'Если понадобятся дополнительные расходы, мы сообщим заранее',
+      'Если возникнут дополнительные расходы, мы предупредим вас заранее',
     ],
     report: 'Если с вас просят больше указанной цены, сразу сообщите нам.',
     alt: 'Водитель автомобильных туров My Phu Quoc',
@@ -68,7 +68,7 @@ const COPY: Record<Locale, DriverShowcaseCopy> = {
     points: [
       'पेशेवर सेवा',
       'कोई छिपा शुल्क नहीं',
-      'अगर कोई अतिरिक्त खर्च हो, तो हम पहले से बता देंगे',
+      'अगर कोई अतिरिक्त शुल्क लगेगा, तो हम आपको पहले ही बता देंगे',
     ],
     report: 'अगर बताई गई दर से ज़्यादा पैसे माँगे जाएँ, तो तुरंत हमें बताएँ।',
     alt: 'My Phu Quoc कार टूर ड्राइवर',

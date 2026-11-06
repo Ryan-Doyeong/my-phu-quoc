@@ -47,13 +47,13 @@ const COPY: Record<Locale, AirportTaxiCopy> = {
     points: [
       {
         icon: '🪧',
-        title: 'Your driver is already waiting',
-        body: 'Your driver waits for you in advance holding a printed sign with your name, so you can get straight into the taxi.',
+        title: 'Your driver will be waiting',
+        body: 'Your driver will be waiting with a printed sign showing your name, so you can get straight into the taxi when you arrive.',
       },
       {
         icon: '🤝',
         title: 'A driver you can trust',
-        body: 'If anything is uncomfortable during your ride, we take your report and handle it for you.',
+        body: 'If you run into any inconvenience during your ride, we take your report and handle it on your behalf.',
       },
       {
         icon: '✨',
@@ -74,12 +74,12 @@ const COPY: Record<Locale, AirportTaxiCopy> = {
       {
         icon: '🪧',
         title: '司机提前等候',
-        body: '司机会提前打印您的姓名牌等候，您到达后可直接上车。',
+        body: '司机会提前手持印有您姓名的接机牌等候，您抵达后即可直接上车。',
       },
       {
         icon: '🤝',
         title: '值得信赖的司机',
-        body: '乘车过程中如有任何不便，我们会受理并代为处理。',
+        body: '乘车过程中如遇任何不便，我们会受理并代您处理。',
       },
       {
         icon: '✨',
@@ -93,14 +93,14 @@ const COPY: Record<Locale, AirportTaxiCopy> = {
     rateSubtitle: '仅列出机场路线。按每辆车公示价格（越南盾），可选4座、7座或16座。',
   },
   ru: {
-    badge: 'Такси из аэропорта · Рекомендуем',
+    badge: 'Такси из аэропорта · Настоятельно рекомендуем',
     title: 'Комфортное начало поездки на Фукуок — такси из аэропорта',
     subtitle: 'Удобная первая поездка задаёт тон всему путешествию.',
     points: [
       {
         icon: '🪧',
-        title: 'Водитель ждёт заранее',
-        body: 'Водитель заранее ждёт вас с табличкой с вашим именем, и вы сразу садитесь в такси.',
+        title: 'Водитель встретит вас',
+        body: 'Водитель будет ждать вас с табличкой, на которой напечатано ваше имя, и вы сразу сядете в такси по прибытии.',
       },
       {
         icon: '🤝',
@@ -126,12 +126,12 @@ const COPY: Record<Locale, AirportTaxiCopy> = {
       {
         icon: '🪧',
         title: 'ドライバーが先に待っています',
-        body: 'お客様のお名前を印刷したボードを持って先にお待ちしています。到着後すぐにタクシーに乗れます。',
+        body: 'お客様のお名前を印刷したボードを持ってお待ちしています。ご到着後、すぐにタクシーにご乗車いただけます。',
       },
       {
         icon: '🤝',
         title: '信頼できるドライバー',
-        body: 'ご利用中に不便なことがあれば、私たちが承り、代わりに対応します。',
+        body: 'ご利用中にお困りのことがあれば、私たちがお申し出を受け付け、お客様に代わって対応いたします。',
       },
       {
         icon: '✨',
@@ -152,7 +152,7 @@ const COPY: Record<Locale, AirportTaxiCopy> = {
       {
         icon: '🪧',
         title: 'ड्राइवर पहले से इंतज़ार करता है',
-        body: 'ड्राइवर आपके नाम की छपी तख़्ती लेकर पहले से इंतज़ार करता है, इसलिए आप सीधे टैक्सी में बैठ सकते हैं।',
+        body: 'ड्राइवर आपके नाम की छपी हुई तख़्ती लेकर इंतज़ार करेगा, ताकि आप पहुँचते ही सीधे टैक्सी में बैठ सकें।',
       },
       {
         icon: '🤝',
@@ -177,13 +177,13 @@ const COPY: Record<Locale, AirportTaxiCopy> = {
     points: [
       {
         icon: '🪧',
-        title: 'Tài xế chờ sẵn',
-        body: 'Tài xế chờ sẵn với bảng in tên của bạn, bạn có thể lên taxi ngay khi đến nơi.',
+        title: 'Tài xế đón sẵn',
+        body: 'Tài xế sẽ chờ bạn với bảng đón có in tên của bạn, giúp bạn lên taxi ngay khi đến nơi.',
       },
       {
         icon: '🤝',
         title: 'Tài xế đáng tin cậy',
-        body: 'Nếu có điều gì bất tiện trong chuyến đi, chúng tôi tiếp nhận và xử lý thay bạn.',
+        body: 'Nếu gặp bất kỳ bất tiện nào trong chuyến đi, chúng tôi sẽ tiếp nhận phản ánh và thay mặt bạn xử lý.',
       },
       {
         icon: '✨',
