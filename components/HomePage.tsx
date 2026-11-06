@@ -930,7 +930,13 @@ export function HomePage({
               </div>
             </div>
             <div className="categoryCards categoryCardsFive">
-              {DIRECTORY_CATEGORY_KEYS.filter((key) => getCategoryPublishedCount(key) > 0).map((key) => {
+              {[...DIRECTORY_CATEGORY_KEYS]
+                .sort((a, b) => {
+                  const rank = (k: string) => (k === 'hotels' ? 0 : k === 'dining' ? 1 : 2)
+                  return rank(a) - rank(b)
+                })
+                .filter((key) => getCategoryPublishedCount(key) > 0)
+                .map((key) => {
                 const c = DIRECTORY_CATEGORIES[key]
                 const icon = categoryAppearance[key]
                 const locLabel = categoryLabel(key, locale)
