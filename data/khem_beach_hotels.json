@@ -151,10 +151,10 @@
         }
       ],
       "photos": [
-        "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg",
-        "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-guestroom.jpg",
-        "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-pink-pearl.jpg",
-        "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-chanterelle-spa.jpg"
+        "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.webp",
+        "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-guestroom.webp",
+        "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-pink-pearl.webp",
+        "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-chanterelle-spa.webp"
       ],
       "agodaUrl": "https://www.agoda.com/jw-marriott-phu-quoc-emerald-bay-resort-spa/hotel/phu-quoc-island-vn.html",
       "priceRange": "$$$$$",
@@ -307,7 +307,7 @@
         }
       ],
       "photos": [
-        "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-resort-overview.jpg",
+        "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-resort-overview.webp",
         "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-pool-villa.jpg",
         "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-infinity-pool.jpg",
         "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-the-spa.jpg"
@@ -1003,8 +1003,8 @@
         }
       ],
       "photos": [
-        "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-superior-room.jpg",
-        "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-deluxe-room.jpg",
+        "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-superior-room.webp",
+        "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-deluxe-room.webp",
         "/covers-photo/ann-hotel-spa-phu-quoc-1.webp",
         "/covers-photo/ann-hotel-spa-phu-quoc-2.webp",
         "/covers-photo/ann-hotel-spa-phu-quoc-3.webp"

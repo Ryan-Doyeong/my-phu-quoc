@@ -12,7 +12,7 @@
   {
     "slug": "sakurakyo-hotel-spa-phu-quoc",
     "name": "사쿠라쿄 호텔 앤 스파 푸꾸옥",
-    "image_url": "/images/hotels/sakurakyo-hotel-spa-phu-quoc/photo_01.jpg",
+    "image_url": "/images/hotels/sakurakyo-hotel-spa-phu-quoc/photo_01.webp",
     "source_page_url": "https://www.agoda.com/ko-kr/sakurakyo-hotel-spa-phu-quoc/hotel/phu-quoc-island-vn.html",
     "found_at": "2026-11-02T00:40:00Z",
     "content_type": "image/jpeg",
@@ -22,7 +22,7 @@
   {
     "slug": "venice-hotel-phu-quoc",
     "name": "베니스 호텔 푸꾸옥",
-    "image_url": "/images/hotels/venice-hotel-phu-quoc/photo_01.jpg",
+    "image_url": "/images/hotels/venice-hotel-phu-quoc/photo_01.webp",
     "source_page_url": "https://www.agoda.com/ko-kr/venice-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
     "found_at": "2026-11-02T00:40:00Z",
     "content_type": "image/jpeg",
@@ -2495,7 +2495,7 @@
   {
     "slug": "jw-marriott-phu-quoc-emerald-bay",
     "name": "JW 메리어트 푸꾸옥 에메랄드 베이 리조트 & 스파",
-    "image_url": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg",
+    "image_url": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.webp",
     "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJLZPWxLiWpzERwrkgfIa1P8I",
     "found_at": "2026-11-02T00:40:00Z",
     "content_type": "image/jpeg",
@@ -2515,7 +2515,7 @@
   {
     "slug": "new-world-phu-quoc-resort",
     "name": "뉴월드 푸꾸옥 리조트",
-    "image_url": "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-resort-overview.jpg",
+    "image_url": "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-resort-overview.webp",
     "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJy5uCwXCXpzERQSR2-hAgnuo",
     "found_at": "2026-11-02T00:40:00Z",
     "content_type": "image/jpeg",
@@ -2545,7 +2545,7 @@
   {
     "slug": "ann-hotel-spa-phu-quoc",
     "name": "앤 호텔 & 스파 푸꾸옥",
-    "image_url": "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-superior-room.jpg",
+    "image_url": "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-superior-room.webp",
     "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJpyMOH-WXpzERgb6Kly4H7QA",
     "found_at": "2026-11-02T00:40:00Z",
     "content_type": "image/jpeg",
