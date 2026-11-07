@@ -86,10 +86,10 @@ export function ShowsHubPage({ locale }: { locale: Locale }) {
   )
 
   const sections = [
-    [c.h2_1, c.p1],
-    [c.h2_2, c.p2],
-    [c.h2_3, c.p3],
-    [c.h2_4, c.p4],
+    [c.h2_1, c.p1, '/shows/show-1.webp'],
+    [c.h2_2, c.p2, '/shows/show-2.webp'],
+    [c.h2_3, c.p3, '/shows/show-3.webp'],
+    [c.h2_4, c.p4, '/shows/show-4.webp'],
   ] as const
 
   return (
@@ -131,14 +131,16 @@ export function ShowsHubPage({ locale }: { locale: Locale }) {
             </div>
           </section>
 
-          {sections.map(([h, p]) => (
+          {sections.map(([h, p, img]) => (
             <section key={h} className={styles.card}>
+              <img className={styles.figure} src={img} alt={h} width={960} height={536} loading="lazy" />
               <h2>{h}</h2>
               <p>{p}</p>
             </section>
           ))}
 
           <section className={styles.card}>
+            <img className={styles.figure} src="/shows/show-5.webp" alt={c.h2_5} width={960} height={536} loading="lazy" />
             <h2>{c.h2_5}</h2>
             <p>{c.p5}</p>
             <div className={styles.links}>

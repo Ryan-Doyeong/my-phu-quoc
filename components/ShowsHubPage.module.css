@@ -23,3 +23,4 @@
 .faq summary { cursor: pointer; font-weight: 700; color: #12333B; font-size: 15px; line-height: 1.5; }
 .faq details p { margin-top: 8px; }
 @media (max-width: 600px) { .hero { padding-top: 96px; } .card { padding: 16px; } .table { font-size: 14px; } }
+.figure { display: block; width: 100%; height: auto; aspect-ratio: 960 / 536; object-fit: cover; border-radius: 12px; margin-bottom: 14px; }
