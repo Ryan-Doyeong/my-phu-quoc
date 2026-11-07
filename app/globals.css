@@ -710,6 +710,7 @@ html[lang="hi"] body{font-family:"Noto Sans Devanagari","Noto Sans",Arial,sans-s
 html[lang="zh"] body{font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei",Arial,sans-serif}
 html[lang="ja"] body{font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",Arial,sans-serif}
 html[lang="ko"] body{font-family:"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",Arial,sans-serif}
+html[lang="ko"] body{word-break:keep-all;overflow-wrap:break-word}
 html[lang="ru"] body{font-family:"Noto Sans",Arial,sans-serif}
 
 /* 뉴스(오션) / 이벤트(앰버) 게시판 테마 */
