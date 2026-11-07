@@ -18,3 +18,7 @@ tsconfig.tsbuildinfo
 ai-photos/
 convert.py
 resize.py
+
+# 배포 속도: 보관용 폴더는 저장소에 넣지 않고 Drive에 둔다
+/docs/progress/
+/_removed/
