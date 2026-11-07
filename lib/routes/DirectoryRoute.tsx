@@ -26,6 +26,40 @@ import businessesRegistry from '@/data/businesses-registry.json'
 import khemBusinesses from '@/data/khem-beach-businesses.json'
 import zoneAssignmentsJson from '@/data/zone-assignments.json'
 
+// 2026-11-07 SEO: 환전·ATM 페이지 검색용 title/meta (ChatGPT 언어 검수본). vi는 검수 전이라 기본 문구 유지.
+const BANKING_SEO: Partial<Record<Locale, { title: string; description: string }>> = {
+  en: {
+    title: 'Sunset Town Currency Exchange & ATMs | My Phu Quoc',
+    description:
+      'Find currency exchange locations and ATMs in Sunset Town, Phu Quoc. Learn how to prepare VND cash for Vui-Fest night market and contact us via WhatsApp.',
+  },
+  ko: {
+    title: '푸꾸옥 선셋타운 환전소·ATM 위치 및 환전 안내 | 마이 푸꾸옥',
+    description:
+      '푸꾸옥 선셋타운 내 환전소와 ATM 위치를 정리했습니다. 부이페스트 야시장·투어 전 현금 준비 방법과 WhatsApp 환전 문의를 확인하세요.',
+  },
+  zh: {
+    title: '富国岛日落小镇换汇与ATM指南 | My Phu Quoc',
+    description:
+      '查看富国岛Sunset Town（日落小镇）的换汇点和ATM位置，了解逛夜市或参加行程前如何准备越南盾现金。如有换汇相关问题，可通过WhatsApp咨询。',
+  },
+  ru: {
+    title: 'Обмен валюты и банкоматы в Сансет Таун | My Phu Quoc',
+    description:
+      'Где обменять валюту и снять наличные в Sunset Town на Фукуоке? Узнайте, где находятся обменные пункты и банкоматы. Вопросы об обмене валюты — через WhatsApp.',
+  },
+  ja: {
+    title: 'フーコック島サンセットタウンの両替・ATM案内 | My Phu Quoc',
+    description:
+      'フーコック島のSunset Town（サンセットタウン）にある両替所とATMの場所をご案内。ナイトマーケットやツアーに備えたベトナムドンの現金準備、WhatsAppでの両替相談についてもご紹介します。',
+  },
+  hi: {
+    title: 'सनसेट टाउन में करेंसी एक्सचेंज और ATM | My Phu Quoc',
+    description:
+      'फु क्वोक के Sunset Town में करेंसी एक्सचेंज और ATM की जानकारी पाएं। नाइट मार्केट और टूर के लिए वियतनामी डोंग में नकदी तैयार करने के तरीके जानें। WhatsApp पर संपर्क करें।',
+  },
+}
+
 export async function generateDirectoryMetadata(
   rawCategory: string,
   locale: Locale = 'en'
@@ -48,17 +82,21 @@ export async function generateDirectoryMetadata(
   const barePath = `/directory/${category}`
   const canonicalUrl = localeUrl(locale, barePath)
   const alternates = buildAlternates(barePath)
+  const bankingSeo = category === 'banking' ? BANKING_SEO[locale] : undefined
+  const finalTitle = bankingSeo ? { absolute: bankingSeo.title } : title
+  const finalTitleText = bankingSeo ? bankingSeo.title : title
+  const finalDescription = bankingSeo ? bankingSeo.description : description
 
   return {
-    title,
-    description,
+    title: finalTitle,
+    description: finalDescription,
     alternates: {
       canonical: canonicalUrl,
       languages: alternates.languages,
     },
     openGraph: {
-      title,
-      description,
+      title: finalTitleText,
+      description: finalDescription,
       url: canonicalUrl,
       locale: ogLocaleFor(locale),
     },
