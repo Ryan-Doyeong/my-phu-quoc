@@ -83,6 +83,7 @@ const SKY_DECK: L = {
 const WEATHER: L = {
   ko: '표시된 일정과 시간은 일반적인 기준입니다. 해상 상태·날씨·바람 계절·당일 운영 상황 등 여러 변수에 따라 출발 항구, 항로, 정박 장소, 시간, 프로그램이 달라지거나 조정될 수 있습니다. 액티비티는 날씨와 탑승객의 건강 상태가 안전할 때에만 진행됩니다.',
   en: 'Schedules and times shown are general guidelines. Departure port, route, anchorage, timings and programs may change or be adjusted depending on sea conditions, weather, wind season and other circumstances on the day. Activities run only when weather and guests\' health allow safe operation.',
+  vi: 'Lịch trình và thời gian nêu trên chỉ mang tính tham khảo. Cảng khởi hành, tuyến đi, điểm neo đậu, thời gian và chương trình có thể thay đổi hoặc điều chỉnh tùy theo tình trạng biển, thời tiết, mùa gió và các điều kiện thực tế trong ngày. Các hoạt động chỉ được tổ chức khi thời tiết và tình trạng sức khỏe của khách cho phép vận hành an toàn.',
 }
 
 export const MARMORIS_YACHT_TOURS: YachtTour[] = [
