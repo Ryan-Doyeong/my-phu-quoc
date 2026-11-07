@@ -8,6 +8,16 @@ import { getDictionary } from '@/lib/i18n/dictionaries'
 import { tUi } from '@/lib/i18n/uiStrings'
 import { SITE_CONTACT } from '@/lib/siteAgent'
 
+const SHOWS_LABEL: Record<string, string> = {
+  ko: '공연 시간표',
+  en: 'Show Schedule',
+  zh: '演出时间表',
+  ru: 'Расписание шоу',
+  ja: 'ショー時間表',
+  hi: 'शो का समय',
+  vi: 'Lịch diễn',
+}
+
 export function SiteFooter() {
   const pathname = usePathname()
   if (!pathname) return null
@@ -40,6 +50,7 @@ export function SiteFooter() {
         <Link href={localePath(locale, '/map')}>{locale === 'ko' ? '🗺️ 선셋타운 지도' : locale === 'vi' ? '🗺️ Bản đồ thị trấn' : tUi('🗺️  Town Map', locale)}</Link>
         <Link href={localePath(locale, '/news')}>{dict.nav.news}</Link>
         <Link href={localePath(locale, '/events')}>{dict.nav.events}</Link>
+        <Link href={localePath(locale, '/sunset-town-shows')}>{SHOWS_LABEL[locale] || SHOWS_LABEL.en}</Link>
         <Link href={localePath(locale, '/about')}>{dict.nav.about || 'About'}</Link>
         <Link href={localePath(locale, '/contact')}>{locale === 'ko' ? '문의하기' : 'Contact'}</Link>
         <Link href={localePath(locale, '/terms')}>{locale === 'ko' ? '이용약관' : 'Terms'}</Link>
