@@ -2083,6 +2083,15 @@
     overflow-wrap: anywhere;
     line-height: 1.25;
   }
+  /* Latin/Cyrillic labels (en, vi, ru, hi...) are longer: shrink so words are not split mid-word */
+  html:not([lang="ko"]):not([lang="zh"]):not([lang="ja"]) .categoryTabBtn .areaTabName {
+    font-size: 0.56rem;
+    letter-spacing: -0.03em;
+  }
+  html[lang="ru"] .categoryTabBtn .areaTabName {
+    font-size: 0.5rem;
+    overflow-wrap: normal;
+  }
   .categoryTabBtn .areaTabCount {
     font-size: 0.68rem;
     padding: 1px 6px;
