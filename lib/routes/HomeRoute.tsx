@@ -10,22 +10,25 @@ import { DEFAULT_SPONSOR_BANNERS } from '@/lib/banners'
 import { PUBLISHED_EVENTS } from '@/lib/eventSamples'
 import { JsonLd } from '@/components/JsonLd'
 import { homeJsonLd } from '@/lib/seo/homeJsonld'
+import { HOME_TITLE, HOME_DESCRIPTION } from '@/lib/seo/meta'
 
 export async function generateHomeMetadata(locale: Locale = 'en'): Promise<Metadata> {
   const dict = getDictionary(locale)
   const alternates = buildAlternates('/')
   const canonicalUrl = localeUrl(locale, '/')
-  const siteTitle = locale === 'ko' ? '마이 푸꾸옥' : 'My Phu Quoc'
+  // 2026-11-07 SEO: 홈 title/description에 검색 키워드 반영 (lib/seo/meta.ts 값 사용, 없으면 기존 값)
+  const siteTitle = HOME_TITLE[locale] || HOME_TITLE.en
+  const siteDescription = HOME_DESCRIPTION[locale] || dict.home.heroDescription
   return {
-    title: siteTitle,
-    description: dict.home.heroDescription,
+    title: { absolute: siteTitle },
+    description: siteDescription,
     alternates: {
       canonical: canonicalUrl,
       languages: alternates.languages,
     },
     openGraph: {
       title: siteTitle,
-      description: dict.home.heroDescription,
+      description: siteDescription,
       url: canonicalUrl,
       locale: ogLocaleFor(locale),
     },

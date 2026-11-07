@@ -1,22 +1,28 @@
 import type { Metadata } from 'next'
 import { getAllHotels } from '@/lib/hotels'
 import { HotelsPage } from '@/components/HotelsPage'
-import type { Locale } from '@/lib/i18n/config'
+import { buildAlternates, localeUrl, type Locale } from '@/lib/i18n/config'
 import { HOTEL_TRANSLATIONS, localizeHotel } from '@/lib/i18n/hotelTranslations'
-import { SITE_URL } from '@/lib/supabase/config'
 
 export function generateHotelsMetadata(locale: Locale = 'en'): Metadata {
   const t = HOTEL_TRANSLATIONS[locale] || HOTEL_TRANSLATIONS.en
   const title = `${t.pageTitle} | MyPhuQuoc.NET`
   const description = t.pageSubtitle
 
+  // 2026-11-07 SEO: 호텔 페이지에 canonical + hreflang 추가 (기존엔 둘 다 없었음), OG url도 언어별로
+  const alternates = buildAlternates('/hotels')
+  const canonicalUrl = localeUrl(locale, '/hotels')
   return {
     title,
     description,
+    alternates: {
+      canonical: canonicalUrl,
+      languages: alternates.languages,
+    },
     openGraph: {
       title,
       description,
-      url: `${SITE_URL}/hotels`,
+      url: canonicalUrl,
       images: [
         {
           url: '/images/hotels/the-room-hotel/the-room-hotel-oceanview-room.jpg',
