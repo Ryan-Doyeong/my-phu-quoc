@@ -61,10 +61,10 @@
       }
     },
     "gallery_urls": [
-      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg",
-      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-guestroom.jpg",
-      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-pink-pearl.jpg",
-      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-chanterelle-spa.jpg"
+      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.webp",
+      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-guestroom.webp",
+      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-pink-pearl.webp",
+      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-chanterelle-spa.webp"
     ],
     "source_urls": [
       "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/overview/",
@@ -77,22 +77,22 @@
     "zone": "khem-beach",
     "image_credits": [
       {
-        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg",
+        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.webp",
         "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
         "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
       },
       {
-        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-guestroom.jpg",
+        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-guestroom.webp",
         "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
         "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/rooms/"
       },
       {
-        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-pink-pearl.jpg",
+        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-pink-pearl.webp",
         "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
         "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/"
       },
       {
-        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-chanterelle-spa.jpg",
+        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-chanterelle-spa.webp",
         "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
         "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
       }
@@ -344,7 +344,7 @@
       }
     },
     "gallery_urls": [
-      "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-resort-overview.jpg",
+      "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-resort-overview.webp",
       "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-pool-villa.jpg",
       "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-infinity-pool.jpg",
       "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-the-spa.jpg"
@@ -362,7 +362,7 @@
     "zone": "khem-beach",
     "image_credits": [
       {
-        "file": "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-resort-overview.jpg",
+        "file": "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-resort-overview.webp",
         "credit_text": "Image: New World Phu Quoc Resort (phuquoc.newworldhotels.com)",
         "source_page_url": "https://phuquoc.newworldhotels.com/en/"
       },
@@ -630,8 +630,8 @@
       }
     },
     "gallery_urls": [
-      "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-superior-room.jpg",
-      "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-deluxe-room.jpg",
+      "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-superior-room.webp",
+      "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-deluxe-room.webp",
       "/covers-photo/ann-hotel-spa-phu-quoc-1.webp",
       "/covers-photo/ann-hotel-spa-phu-quoc-2.webp",
       "/covers-photo/ann-hotel-spa-phu-quoc-3.webp"
@@ -644,12 +644,12 @@
     "zone": "khem-beach",
     "image_credits": [
       {
-        "file": "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-superior-room.jpg",
+        "file": "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-superior-room.webp",
         "credit_text": "Image: Ann Hotel & Spa Phu Quoc (annhotelphuquoc.com)",
         "source_page_url": "https://annhotelphuquoc.com/"
       },
       {
-        "file": "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-deluxe-room.jpg",
+        "file": "/zones/khem-beach/images/ann-hotel-spa-phu-quoc/ann-hotel-deluxe-room.webp",
         "credit_text": "Image: Ann Hotel & Spa Phu Quoc (annhotelphuquoc.com)",
         "source_page_url": "https://annhotelphuquoc.com/"
       }
@@ -705,7 +705,7 @@
     "description_en": "A French fine dining restaurant inside JW Marriott Phu Quoc Emerald Bay, inspired by the fictional mansion of Madam Pearl Collins, serving French cuisine and wines.",
     "facilities": "미확인",
     "gallery_urls": [
-      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-pink-pearl.jpg"
+      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-pink-pearl.webp"
     ],
     "source_urls": [
       "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/",
@@ -715,7 +715,7 @@
     "zone": "khem-beach",
     "image_credits": [
       {
-        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-pink-pearl.jpg",
+        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-pink-pearl.webp",
         "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
         "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/"
       }
@@ -758,7 +758,7 @@
     "description_en": "Beachfront all-day dining restaurant at JW Marriott Phu Quoc featuring open kitchens for Vietnamese, Japanese, and Western specialties.",
     "facilities": "미확인",
     "gallery_urls": [
-      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg"
+      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.webp"
     ],
     "source_urls": [
       "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/",
@@ -768,7 +768,7 @@
     "zone": "khem-beach",
     "image_credits": [
       {
-        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg",
+        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.webp",
         "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
         "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
       }
@@ -811,7 +811,7 @@
     "description_en": "An open-air beachfront grill restaurant at JW Marriott Phu Quoc serving grilled seafood, meat dishes, and drinks by the sea.",
     "facilities": "미확인",
     "gallery_urls": [
-      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg"
+      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.webp"
     ],
     "source_urls": [
       "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/",
@@ -821,7 +821,7 @@
     "zone": "khem-beach",
     "image_credits": [
       {
-        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg",
+        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.webp",
         "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
         "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
       }
@@ -864,7 +864,7 @@
     "description_en": "A French bakery and salon at JW Marriott Phu Quoc serving pastries, bread, coffee, and tea.",
     "facilities": "미확인",
     "gallery_urls": [
-      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg"
+      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.webp"
     ],
     "source_urls": [
       "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/",
@@ -874,7 +874,7 @@
     "zone": "khem-beach",
     "image_credits": [
       {
-        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg",
+        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.webp",
         "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
         "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
       }
@@ -917,7 +917,7 @@
     "description_en": "A chemistry lab-themed cocktail bar at JW Marriott Phu Quoc serving mixology cocktails and beverages alongside sea views.",
     "facilities": "미확인",
     "gallery_urls": [
-      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg"
+      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.webp"
     ],
     "source_urls": [
       "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/",
@@ -927,7 +927,7 @@
     "zone": "khem-beach",
     "image_credits": [
       {
-        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.jpg",
+        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.webp",
         "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
         "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
       }
@@ -966,7 +966,7 @@
     "description_en": "The luxury spa facility at JW Marriott Phu Quoc, themed around mycological studies and offering massages and wellness therapies.",
     "facilities": "미확인",
     "gallery_urls": [
-      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-chanterelle-spa.jpg"
+      "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-chanterelle-spa.webp"
     ],
     "source_urls": [
       "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/",
@@ -976,7 +976,7 @@
     "zone": "khem-beach",
     "image_credits": [
       {
-        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-chanterelle-spa.jpg",
+        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-chanterelle-spa.webp",
         "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
         "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
       }
