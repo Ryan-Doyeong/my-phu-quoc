@@ -1074,6 +1074,16 @@
   white-space: nowrap;
 }
 
+@media (max-width: 760px) {
+  .reviewHighlightText {
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow-wrap: break-word;
+  }
+}
+
 .googleScoreBadge {
   background: #ecfdf5;
   color: #047857;
