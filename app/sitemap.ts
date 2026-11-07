@@ -17,6 +17,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/zones/sunset-town',
     '/zones/khem-beach',
     '/hotels',
+    '/sunset-town-shows',
     ...DIRECTORY_CATEGORY_KEYS.filter((key) => key !== 'hotels' && getCategoryPublishedCount(key) > 0).map((key) =>
       key === 'activities' ? '/activities' : `/directory/${key}`
     ),
