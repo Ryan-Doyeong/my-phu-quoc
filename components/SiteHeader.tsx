@@ -36,6 +36,16 @@ const SERVICES_TITLE: Record<string, string> = {
   vi: 'Dịch vụ du lịch',
 }
 
+const SHOWS_LABEL: Record<string, string> = {
+  ko: '공연 시간표',
+  en: 'Show Schedule',
+  zh: '演出时间表',
+  ru: 'Расписание шоу',
+  ja: 'ショー時間表',
+  hi: 'शो का समय',
+  vi: 'Lịch diễn',
+}
+
 const pick = (m: Record<string, string>, l: string) => m[l] || m.en
 
 /** 모든 공개 페이지가 같이 쓰는 헤더: 로고 + 검색 + 언어 + 알약형 드롭다운 메뉴 */
@@ -53,6 +63,7 @@ export function SiteHeader({ locale = 'en' }: { locale?: Locale }) {
         { href: P('/map'), label: pick(MAP_LABEL, locale) },
         { href: P('/news'), label: dict.nav.newsAndBlog },
         { href: P('/events'), label: pick(QUICK_CARD_EVENTS, locale) },
+        { href: P('/sunset-town-shows'), label: pick(SHOWS_LABEL, locale) },
       ],
     },
     {
