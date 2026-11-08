@@ -4,6 +4,7 @@ import travelGuidePhuQuocStay from '@/data/travel-guide-phuquoc-stay-20261108.js
 import travelGuideSunsetTownWorth from '@/data/travel-guide-sunset-town-worth-20261108.json'
 import travelGuideCableCarHonThom from '@/data/travel-guide-cable-car-hon-thom-20261108.json'
 import travelGuideMassage from '@/data/travel-guide-massage-20261108.json'
+import travelGuideNightMarket from '@/data/travel-guide-night-market-20261108.json'
 
 export type EventSampleStory = {
   id: string
@@ -25,6 +26,7 @@ export const PUBLISHED_EVENTS: EventSampleStory[] = [
   ...(travelGuideSunsetTownWorth as EventSampleStory[]),
   ...(travelGuideCableCarHonThom as EventSampleStory[]),
   ...(travelGuideMassage as EventSampleStory[]),
+  ...(travelGuideNightMarket as EventSampleStory[]),
   {
     "id": "news-sun-signature-gallery-sunset-town-bill-bensley",
     "slug": "sun-signature-gallery-sunset-town-bill-bensley",
