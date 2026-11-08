@@ -1,5 +1,6 @@
 import type { Locale } from '@/lib/i18n/config'
 import sunWorldEditorial from '@/data/sun-world-editorial-20261104.json'
+import travelGuidePhuQuocStay from '@/data/travel-guide-phuquoc-stay-20261108.json'
 
 export type EventSampleStory = {
   id: string
@@ -17,6 +18,7 @@ export type EventSampleStory = {
  */
 export const PUBLISHED_EVENTS: EventSampleStory[] = [
   ...(sunWorldEditorial as EventSampleStory[]),
+  ...(travelGuidePhuQuocStay as EventSampleStory[]),
   {
     "id": "news-sun-signature-gallery-sunset-town-bill-bensley",
     "slug": "sun-signature-gallery-sunset-town-bill-bensley",
