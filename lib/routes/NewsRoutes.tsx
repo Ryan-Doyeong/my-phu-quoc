@@ -57,6 +57,7 @@ const EVENT_LD_EXTRAS: Record<string, { organizer?: any; performer?: any; offers
 const NON_EVENT_LD_SLUGS = new Set([
   'sun-world-spa-anniversary-offers-november-2026',
   'phu-quoc-halloween-sunset-town-hon-thom', // 2026-10-31 종료
+  'symphony-of-the-sea-season-3-new-touchpoints', // 공연 날짜·시간 미기재 소식 글 (Article만 유지)
 ])
 
 

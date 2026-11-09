@@ -5,6 +5,7 @@ import travelGuideSunsetTownWorth from '@/data/travel-guide-sunset-town-worth-20
 import travelGuideCableCarHonThom from '@/data/travel-guide-cable-car-hon-thom-20261108.json'
 import travelGuideMassage from '@/data/travel-guide-massage-20261108.json'
 import travelGuideNightMarket from '@/data/travel-guide-night-market-20261108.json'
+import symphonySeason3Touchpoints from '@/data/symphony-season3-touchpoints-20261109.json'
 
 export type EventSampleStory = {
   id: string
@@ -21,6 +22,7 @@ export type EventSampleStory = {
  * - 날짜(effective_date) 경과 시 자동으로 Ended / Đã kết thúc / 종료 배지로 전환됨
  */
 export const PUBLISHED_EVENTS: EventSampleStory[] = [
+  ...(symphonySeason3Touchpoints as EventSampleStory[]),
   ...(sunWorldEditorial as EventSampleStory[]),
   ...(travelGuidePhuQuocStay as EventSampleStory[]),
   ...(travelGuideSunsetTownWorth as EventSampleStory[]),
