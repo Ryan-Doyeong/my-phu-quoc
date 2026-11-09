@@ -36,6 +36,57 @@ const nextConfig: NextConfig = {
         destination: '/:locale/business/l-a-hillside-apartment-sunset-town-phu-quoc',
         permanent: true,
       },
+      // Search Console 404 정리 (2026-11-09): 옛 워드프레스 한글 슬러그 -> 새 사이트 대응 페이지 301
+      {
+        source: '/푸꾸옥-호텔',
+        destination: '/ko/hotels',
+        permanent: true,
+      },
+      {
+        source: '/category/푸꾸옥-호텔',
+        destination: '/ko/hotels',
+        permanent: true,
+      },
+      {
+        source: '/푸꾸옥-여행-준비-및-주의사항',
+        destination: '/ko/news',
+        permanent: true,
+      },
+      {
+        source: '/푸꾸옥-선셋타운-티켓-최저가-구매',
+        destination: '/ko/sunset-town-shows',
+        permanent: true,
+      },
+      {
+        source: '/푸꾸옥-선셋타운-티켓-최저가-구매-2',
+        destination: '/ko/sunset-town-shows',
+        permanent: true,
+      },
+      {
+        source: '/푸꾸옥-마사지-루미스파',
+        destination: '/ko/directory/wellness',
+        permanent: true,
+      },
+      {
+        source: '/푸꾸옥-트로피카-페스트',
+        destination: '/ko/events',
+        permanent: true,
+      },
+      {
+        source: '/푸꾸옥-맛집-추천-방법2',
+        destination: '/ko/directory/dining',
+        permanent: true,
+      },
+      {
+        source: '/푸꾸옥-여행-추천-방법3',
+        destination: '/ko/itineraries',
+        permanent: true,
+      },
+      {
+        source: '/home/about',
+        destination: '/ko/about',
+        permanent: true,
+      },
       // Ryan 15차 지시: /partners, /for-businesses 6개 언어 홈으로 임시 리다이렉트 (307)
       {
         source: '/partners',
