@@ -87,6 +87,82 @@ const nextConfig: NextConfig = {
         destination: '/ko/about',
         permanent: true,
       },
+      // Search Console 404 정리 2차 (2026-11-09): 나머지 옛 워드프레스 슬러그 -> 새 사이트 대응 페이지 301 (slider-2, 강릉 아르떼뮤지엄은 대응 페이지 없어 404 유지)
+      {
+        source: '/%ED%91%B8%EA%BE%B8%EC%98%A5-%EC%97%AC%ED%96%89-%EA%B1%B4%EA%B0%95',  // /푸꾸옥-여행-건강
+        destination: '/ko/emergency',
+        permanent: true,
+      },
+      {
+        source: '/%ED%91%B8%EA%BE%B8%EC%98%A5-%EB%B3%91%EC%9B%90',  // /푸꾸옥-병원
+        destination: '/ko/emergency',
+        permanent: true,
+      },
+      {
+        source: '/%ED%91%B8%EA%BE%B8%EC%98%A5-%EB%A7%9B%EC%A7%91-%ED%95%9C%EA%B5%AD%EA%B4%80-3',  // /푸꾸옥-맛집-한국관-3
+        destination: '/ko/directory/dining',
+        permanent: true,
+      },
+      {
+        source: '/%ED%91%B8%EA%BE%B8%EC%98%A5-%EB%A7%9B%EC%A7%91-%EC%B6%94%EC%B2%9C-%EB%B0%A9%EB%B2%951',  // /푸꾸옥-맛집-추천-방법1
+        destination: '/ko/directory/dining',
+        permanent: true,
+      },
+      {
+        source: '/%ED%91%B8%EA%BE%B8%EC%98%A5-%EB%A7%9B%EC%A7%91-%EC%84%A0%EC%85%8B%EB%B6%84%EC%8B%9D',  // /푸꾸옥-맛집-선셋분식
+        destination: '/ko/directory/dining',
+        permanent: true,
+      },
+      {
+        source: '/%ED%91%B8%EA%BE%B8%EC%98%A5-%EB%A7%9B%EC%A7%91',  // /푸꾸옥-맛집
+        destination: '/ko/directory/dining',
+        permanent: true,
+      },
+      {
+        source: '/%ED%91%B8%EA%BE%B8%EC%98%A5-%EB%A7%9B%EC%A7%91-%EC%97%90%EB%A6%AD%EC%B9%B4%EC%9D%B4%EC%A0%80',  // /푸꾸옥-맛집-에릭카이저
+        destination: '/ko/directory/dining',
+        permanent: true,
+      },
+      {
+        source: '/%ED%91%B8%EA%BE%B8%EC%98%A5-%EB%A7%9B%EC%A7%91-%ED%8D%BC%ED%8B%B4-%ED%95%98%EB%85%B8%EC%9D%B4',  // /푸꾸옥-맛집-퍼틴-하노이
+        destination: '/ko/directory/dining',
+        permanent: true,
+      },
+      {
+        source: '/%ED%91%B8%EA%BE%B8%EC%98%A5-apec',  // /푸꾸옥-apec
+        destination: '/ko/news',
+        permanent: true,
+      },
+      {
+        source: '/apec-%ED%91%B8%EA%BE%B8%EC%98%A5-2',  // /apec-푸꾸옥-2
+        destination: '/ko/news',
+        permanent: true,
+      },
+      {
+        source: '/category/info/%ED%91%B8%EA%BE%B8%EC%98%A5-%EC%97%AC%ED%96%89',  // /category/info/푸꾸옥-여행
+        destination: '/ko/news',
+        permanent: true,
+      },
+      {
+        source: '/%ED%91%B8%EA%BE%B8%EC%98%A5-%EB%A7%88%EC%82%AC%EC%A7%80-%ED%95%9C%EC%A6%88',  // /푸꾸옥-마사지-한즈
+        destination: '/ko/directory/wellness',
+        permanent: true,
+      },
+      {
+        source: '/2026-%ED%91%B8%EA%BE%B8%EC%98%A5-%EC%84%A0%EC%85%8B%ED%83%80%EC%9A%B4-%EA%B1%B0%EB%A6%AC-%EB%B6%84%EC%84%9D',  // /2026-푸꾸옥-선셋타운-거리-분석
+        destination: '/ko/zones/sunset-town',
+        permanent: true,
+      },
+      {
+        source: '/%ED%91%B8%EA%BE%B8%EC%98%A5-%EC%84%A0%EC%85%8B%ED%83%80%EC%9A%B4-%EC%A7%80%EB%8F%84',  // /푸꾸옥-선셋타운-지도
+        destination: '/ko/map',
+        permanent: true,
+      },
+      {
+        source: '/category/%ED%91%B8%EA%BE%B8%EC%98%A5-%ED%88%AC%EC%96%B4',  // /category/푸꾸옥-투어
+        destination: '/ko/activities',
+        permanent: true,
+      },
       // Ryan 15차 지시: /partners, /for-businesses 6개 언어 홈으로 임시 리다이렉트 (307)
       {
         source: '/partners',
