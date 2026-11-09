@@ -19,6 +19,7 @@ function eventNode(opts: {
   locale: Locale
 }) {
   const [h, m] = opts.startTime.split(':')
+  const end = opts.endTime?.split(':')
   return {
     '@type': 'Event',
     name: opts.name,
@@ -26,6 +27,9 @@ function eventNode(opts: {
     url: opts.url,
     inLanguage: inLanguage(opts.locale),
     startDate: `${SHOWS_CHECKED_DATE}T${h}:${m}:00+07:00`,
+    // endDate는 공식 시간표로 확인된 경우에만 기재 (확인 안 된 종료 시각은 넣지 않음)
+    ...(end ? { endDate: `${SHOWS_CHECKED_DATE}T${end[0]}:${end[1]}:00+07:00` } : {}),
+    eventStatus: 'https://schema.org/EventScheduled',
     eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
     location: {
       '@type': 'Place',
@@ -45,6 +49,7 @@ export function ShowsHubPage({ locale }: { locale: Locale }) {
   const symphony = eventNode({
     name: 'Symphony of the Sea',
     startTime: '19:30',
+    endTime: '20:05', // showsHubCopy row1Time '19:30–20:05'
     description: `${c.row1Time} · ${c.row1Note}`,
     url,
     locale,
