@@ -936,4 +936,10 @@ export const HOTEL_TEXT_VI: Record<string, string> = {
   "호텔 1층에서 바로 이용할 수 있는 수준 높은 스파 마사지": "Có spa massage chất lượng ngay tầng trệt khách sạn.",
   "가성비 뛰어난 숙박 요금 대비 깨끗하고 안락한 침구와 룸 컨디션": "Giá phòng đáng tiền, chăn ga và phòng nghỉ sạch, thoải mái.",
   "대형 리조트형 부대시설(대형 풀, 전용 비치 등)은 없음": "Không có tiện nghi resort lớn như hồ bơi lớn hoặc bãi biển riêng.",
+  "D1-45, Melodia Bãi Khem, An Thới, Phú Quốc, Kiên Giang, Vietnam (바이켐 숍하우스)": "D1-45, Melodia Bãi Khem, An Thới, Phú Quốc, Kiên Giang, Việt Nam (Shophouse Bãi Khem)",
+  "바이켐 해변 도보 3분": "Đi bộ 3 phút ra Bãi Khem",
+  "바이켐 해변 도보 3분 입지와 부담 없는 숙박 요금의 실속형 숍하우스 호텔": "Khách sạn shophouse giá hợp lý, đi bộ 3 phút ra biển Bãi Khem.",
+  "바이켐 해변 메인 진입 블록(D1-45)에 위치해 해변까지 평지 도보 3분 이동 가능": "Nằm trên trục chính ra biển (D1-45), đi bộ đường bằng khoảng 3 phút tới Bãi Khem.",
+  "리조트 단지 대비 합리적인 숙박 요금과 정돈된 객실 컨디션": "Giá lưu trú hợp lý so với khu resort ven biển, phòng nghỉ gọn gàng.",
+  "주변 해변 씨푸드 식당 및 스파·마사지숍 도보 이용 용이": "Dễ dàng đi bộ tới các nhà hàng hải sản ven biển và tiệm spa lân cận.",
 }

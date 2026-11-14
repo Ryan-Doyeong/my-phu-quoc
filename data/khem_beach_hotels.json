@@ -777,7 +777,10 @@
       ],
       "driveMinutesToSunsetTown": 10,
       "driveMinutesNote": "사장님 확인 2026-10-31",
-      "agodaRawDescription": "바이켐 썬 그랜드 시티 숍하우스 단지(D107-D115)에 자리한 부티크 호텔입니다. 바이켐 해변 인근에서 부담 없는 가격대로 머무를 수 있는 뛰어난 가성비가 장점입니다. 바이켐 백사장까지 도보 5분 거리이며, 호텔 내 실내 수영장, 레스토랑, 테라스 라운지를 구비하고 있습니다."
+      "agodaRawDescription": "바이켐 썬 그랜드 시티 숍하우스 단지(D107-D115)에 자리한 부티크 호텔입니다. 바이켐 해변 인근에서 부담 없는 가격대로 머무를 수 있는 뛰어난 가성비가 장점입니다. 바이켐 백사장까지 도보 5분 거리이며, 호텔 내 실내 수영장, 레스토랑, 테라스 라운지를 구비하고 있습니다.",
+      "googlePlaceId": "ChIJ--GCQXqXpzER7itlt0HX5Ps",
+      "lat": 10.0358489,
+      "lng": 104.02847
     },
     {
       "slug": "jm-boutique-hotel-phu-quoc",
@@ -856,7 +859,7 @@
           ]
         }
       ],
-      "checkIn": "14:00",
+      "checkIn": "15:00",
       "checkOut": "12:00",
       "builtYear": 2020,
       "floors": 5,
@@ -904,7 +907,10 @@
       ],
       "driveMinutesToSunsetTown": 10,
       "driveMinutesNote": "사장님 확인 2026-10-31",
-      "agodaRawDescription": "바이켐 숍하우스 구역(D2-7)에 위치한 감각적이고 아기자기한 친환경 부티크 호텔입니다. 세심한 인테리어와 자연 채광을 살린 객실 구조가 돋보이며, 정성 가득한 주문식 브런치 조식과 직원들의 따뜻하고 세심한 서비스로 높은 고객 만족도를 유지하고 있습니다. 바이켐 해변까지 걸어서 5분이면 닿을 수 있습니다."
+      "agodaRawDescription": "바이켐 숍하우스 구역(D2-7)에 위치한 감각적이고 아기자기한 친환경 부티크 호텔입니다. 세심한 인테리어와 자연 채광을 살린 객실 구조가 돋보이며, 정성 가득한 주문식 브런치 조식과 직원들의 따뜻하고 세심한 서비스로 높은 고객 만족도를 유지하고 있습니다. 바이켐 해변까지 걸어서 5분이면 닿을 수 있습니다.",
+      "googlePlaceId": "ChIJhfbFBaCXpzER-fkbP-fwDcI",
+      "lat": 10.0361974,
+      "lng": 104.0288356
     },
     {
       "slug": "ann-hotel-spa-phu-quoc",
@@ -1023,7 +1029,112 @@
       ],
       "driveMinutesToSunsetTown": 10,
       "driveMinutesNote": "사장님 확인 2026-10-31",
-      "agodaRawDescription": "바이켐 숍하우스 단지 D141-D143에 위치한 편안한 분위기의 호텔입니다. 호텔 1층과 전용 공간에서 전문적인 바디 & 풋 스파 마사지 프로그램을 운영하여 여행의 피로를 풀기에 최적입니다. 깔끔하고 모던한 객실 컨디션을 유지하며, 바이켐 해변과 주변 상점들을 편리하게 오갈 수 있습니다."
+      "agodaRawDescription": "바이켐 숍하우스 단지 D141-D143에 위치한 편안한 분위기의 호텔입니다. 호텔 1층과 전용 공간에서 전문적인 바디 & 풋 스파 마사지 프로그램을 운영하여 여행의 피로를 풀기에 최적입니다. 깔끔하고 모던한 객실 컨디션을 유지하며, 바이켐 해변과 주변 상점들을 편리하게 오갈 수 있습니다.",
+      "googlePlaceId": "ChIJpyMOH-WXpzERgb6Kly4H7QA",
+      "lat": 10.0358539,
+      "lng": 104.0274248
+    },
+    {
+      "slug": "sun-hotel-khem-beach",
+      "hotelId": "khem-sun-hotel",
+      "name_ko": "선 호텔 켐비치",
+      "name_en": "Sun Hotel Khem Beach",
+      "star": 3,
+      "officialStar": 3,
+      "area": "khem-beach",
+      "order": 8,
+      "tier": "standard",
+      "rating": 8.4,
+      "reviewsCount": 95,
+      "cable_m": 13300,
+      "lat": 10.03605,
+      "lng": 104.02955,
+      "address": "D1-45, Melodia Bãi Khem, An Thới, Phú Quốc, Kiên Giang, Vietnam (바이켐 숍하우스)",
+      "landmarks": [
+        {
+          "name": "바이켐 해변",
+          "distance": "250m (도보 3분)"
+        },
+        {
+          "name": "선셋타운 & 케이블카",
+          "distance": "차량 약 10분 (약 6.5km)"
+        },
+        {
+          "name": "푸꾸옥 감옥",
+          "distance": "차량 5분 (4.7km)"
+        },
+        {
+          "name": "푸꾸옥 국제공항",
+          "distance": "차량 22분 (19km)"
+        }
+      ],
+      "summary": "바이켐 메인 해변 진입로 블록(D1-45) 위치, 바이켐 해변까지 도보 3분 거리의 깔끔한 3성급 가성비 호텔.",
+      "summary_en": "Clean 3-star value hotel on the main D1 beach-access block (D1-45 Melodia Bãi Khem), just a 3-minute walk from the white sands of Khem Beach.",
+      "summary_zh": "位于凯姆海滩主通道街区（D1-45 Melodia）的整洁三星级高性价比酒店，步行3分钟可达凯姆海滩白沙滩。",
+      "summary_ja": "バイケムのメインビーチアクセス街区（D1-45）にある清潔な3つ星バリューホテル。ケムビーチまで徒歩3分。",
+      "summary_ru": "Чистый бюджетный 3-звёздочный отель на главной линии прохода к морю (D1-45 Melodia Bãi Khem), в 3 минутах ходьбы от пляжа Кхем.",
+      "summary_hi": "मेलोडिया बाई खेम के मुख्य बीच-एक्सेस ब्लॉक (D1-45) पर स्थित साफ़ 3-सितारा बजट होटल, खेम बीच से केवल 3 मिनट की पैदल दूरी पर।",
+      "summary_vi": "Khách sạn 3 sao sạch sẽ, giá hợp lý nằm ngay trục đường chính ra biển (căn D1-45 Melodia Bãi Khem), cách Bãi Khem chỉ 3 phút đi bộ.",
+      "coreFacilities": [
+        "바이켐 해변 도보 3분",
+        "무료 Wi-Fi",
+        "엘리베이터",
+        "개별 에어컨",
+        "24시간 응대"
+      ],
+      "facilityCategories": [
+        {
+          "name": "주요 편의시설",
+          "items": [
+            "24시간 프런트 응대",
+            "엘리베이터",
+            "무료 Wi-Fi",
+            "수하물 보관"
+          ]
+        },
+        {
+          "name": "객실 시설",
+          "items": [
+            "개별 냉난방 에어컨",
+            "평면 TV",
+            "미니 냉장고",
+            "전용 샤워 부스",
+            "무료 세면용품"
+          ]
+        }
+      ],
+      "checkIn": "14:00",
+      "checkOut": "12:00",
+      "floors": 5,
+      "rooms": [
+        {
+          "name": "수페리어 룸",
+          "size": "24㎡",
+          "bed": "더블 침대 1개",
+          "view": "시티/창문",
+          "features": "원목 바닥, 샤워 부스, 무료 Wi-Fi"
+        },
+        {
+          "name": "디럭스 발코니 룸",
+          "size": "28㎡",
+          "bed": "퀸 침대 1개 또는 싱글 2개",
+          "view": "발코니 뷰",
+          "features": "전용 발코니, 테이블 및 체어, 자연 채광"
+        }
+      ],
+      "photos": [
+        "/zones/khem-beach-hero.webp"
+      ],
+      "agodaUrl": "https://www.agoda.com/sun-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
+      "priceRange": "$$",
+      "googleMapsUrl": "https://www.google.com/maps/place/Sun+Hotel+Khem+Beach,+D1-45+Melodia+B%C3%A3i+Khem,+An+Th%E1%BB%9Bi,+Ph%C3%BA+Qu%E1%BB%91c/@10.03605,104.02955,18z",
+      "reviewHighlight": "바이켐 해변 도보 3분 입지와 부담 없는 숙박 요금의 실속형 숍하우스 호텔",
+      "reviewPros": [
+        "바이켐 해변 메인 진입 블록(D1-45)에 위치해 해변까지 평지 도보 3분 이동 가능",
+        "리조트 단지 대비 합리적인 숙박 요금과 정돈된 객실 컨디션",
+        "주변 해변 씨푸드 식당 및 스파·마사지숍 도보 이용 용이"
+      ],
+      "driveMinutesToSunsetTown": 10
     }
   ]
 }

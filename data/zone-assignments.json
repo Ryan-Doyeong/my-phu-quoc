@@ -3228,5 +3228,145 @@
     "service_areas": [
       "sunset-town"
     ]
+  },
+  "local-sunset-301": {
+    "place_id": "local-sunset-301",
+    "google_place_id": null,
+    "name": "마 인디안 레스토랑 (Maa Indian Restaurant)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-302": {
+    "place_id": "local-sunset-302",
+    "google_place_id": null,
+    "name": "스와드 키친 (Swad Kitchen)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-303": {
+    "place_id": "local-sunset-303",
+    "google_place_id": null,
+    "name": "압나 인디안 다바 비스트로 (Apnaa Indian Dhaba Bistro)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-304": {
+    "place_id": "local-sunset-304",
+    "google_place_id": "ChIJR4_RrzuVpzERTNZI9HaezLk",
+    "name": "마하라자 라운지 선셋타운 (Maharaja Lounge Sunset Town)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-305": {
+    "place_id": "local-sunset-305",
+    "google_place_id": null,
+    "name": "로드 오브 더 바오 (Lord of the Bao)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-306": {
+    "place_id": "local-sunset-306",
+    "google_place_id": null,
+    "name": "러우 뜨 쑤옌 사천 훠궈 (Lẩu Tứ Xuyên Chinese Hotpot)",
+    "zone": "sunset-town",
+    "public_category": "dining",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-307": {
+    "place_id": "local-sunset-307",
+    "google_place_id": "ChIJ51OpPgCVpzER-TzMZtCOk0o",
+    "name": "메종 카이저 선셋타운 (Maison Kayser Sunset Town)",
+    "zone": "sunset-town",
+    "public_category": "bars",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-308": {
+    "place_id": "local-sunset-308",
+    "google_place_id": null,
+    "name": "응옥 히엔 진주 농장 & 쇼룸 (Ngọc Hiền Pearl Farm & Showroom)",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-309": {
+    "place_id": "local-sunset-309",
+    "google_place_id": null,
+    "name": "풍흥 느억맘 전통 발효장 (Nhà Thùng Nước Mắm Phụng Hưng)",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-310": {
+    "place_id": "local-sunset-310",
+    "google_place_id": null,
+    "name": "푸꾸옥 크래프트 링크 (Phu Quoc Craft Link)",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-311": {
+    "place_id": "local-sunset-311",
+    "google_place_id": null,
+    "name": "안터이 재래시장 (Chợ An Thới)",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-312": {
+    "place_id": "local-sunset-312",
+    "google_place_id": "ChIJgeZqD5SVpzERoy7NGQ43Sy8",
+    "name": "아말피 67 약국 (Pharmacy Amalfi 67)",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town"
+    ]
+  },
+  "local-sunset-313": {
+    "place_id": "local-sunset-313",
+    "google_place_id": "ChIJY5o0asSXpzERJEewEY1Dy9U",
+    "name": "FPT 롱쩌우 약국 안터이점 (Nhà Thuốc FPT Long Châu An Thới)",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
+  },
+  "local-sunset-314": {
+    "place_id": "local-sunset-314",
+    "google_place_id": "ChIJuYW74Y2XpzERIbXTGTiotEU",
+    "name": "안캉 약국 안터이점 (Nhà Thuốc An Khang An Thới)",
+    "zone": "sunset-town",
+    "public_category": "shopping",
+    "service_areas": [
+      "sunset-town-adjacent"
+    ]
   }
 }
