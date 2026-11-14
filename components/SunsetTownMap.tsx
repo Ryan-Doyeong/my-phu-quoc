@@ -4,6 +4,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { localePath, type Locale } from '@/lib/i18n/config'
+import { buildGoogleMapsUrl, isValidGooglePlaceId } from '@/lib/mapsLink'
 import {
   SUNSET_LANDMARKS,
   getSunsetMapImage,
@@ -487,10 +488,22 @@ export function SunsetTownMap({ locale }: Props) {
             const desc =
               lm.description[loc] || lm.description.en || lm.description.ko
             const tip = lm.tips[loc] || lm.tips.en || lm.tips.ko
-            const mapUrl =
-              lm.lat && lm.lng
-                ? `https://www.google.com/maps/search/?api=1&query=${lm.lat},${lm.lng}`
-                : lm.googleMapsUrl
+            const mapUrl = isValidGooglePlaceId(lm.googlePlaceId)
+              ? buildGoogleMapsUrl({
+                  public_name: lm.name.en || lm.name.vi || primaryName,
+                  google_place_id: lm.googlePlaceId,
+                  address: lm.address,
+                  lat: lm.lat,
+                  lng: lm.lng,
+                }) || lm.googleMapsUrl
+              : lm.googleMapsUrl ||
+                buildGoogleMapsUrl({
+                  public_name: lm.name.en || lm.name.vi || primaryName,
+                  address: lm.address,
+                  lat: lm.lat,
+                  lng: lm.lng,
+                }) ||
+                '#'
 
             return (
               <article

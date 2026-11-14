@@ -28,6 +28,7 @@ export interface MapLandmark {
   operatingHours?: string
   walkingDistance?: string
   walkingTime?: string
+  googlePlaceId?: string
   googleMapsUrl: string
 }
 
@@ -76,8 +77,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     zone: 'central',
     imgX: 144,
     imgY: 856,
-    lat: 10.02708,
-    lng: 104.0049,
+    lat: 10.0280346,
+    lng: 104.0037872,
     address: 'Bờ biển Sunset Town, Phường An Thới, Phú Quốc',
     image: '/tickets/kiss-bridge.webp',
     ticketSlug: 'kiss-bridge',
@@ -102,7 +103,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     },
     bestTime: '17:00 - 18:00 (Sunset)',
     operatingHours: '07:00 - 23:00',
-    googleMapsUrl: 'https://maps.google.com/?q=Kiss+Bridge+Phu+Quoc',
+    googlePlaceId: 'ChIJG-HZ4ZaRpzERhjtO1_1kObg',
+    googleMapsUrl: 'https://www.google.com/maps/place/?q=place_id:ChIJG-HZ4ZaRpzERhjtO1_1kObg',
   },
   {
     id: 'kiss-of-the-sea',
@@ -122,8 +124,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     zone: 'central',
     imgX: 308,
     imgY: 942,
-    lat: 10.02708,
-    lng: 104.0069,
+    lat: 10.0276968,
+    lng: 104.0060548,
     address: 'Sân khấu biển Sunset Town, Phường An Thới, Phú Quốc',
     image: '/tickets/kiss-of-the-sea.webp',
     ticketSlug: 'kiss-of-the-sea',
@@ -148,7 +150,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     },
     bestTime: '20:30 - 21:45',
     operatingHours: '수~월 21:00 (화요일 정기 휴무; 국경일 정상 운행 여부 공지 확인)',
-    googleMapsUrl: 'https://maps.google.com/?q=Kiss+of+the+Sea+Show+Phu+Quoc',
+    googlePlaceId: 'ChIJtSQ7ywmVpzERvzagy4sWZus',
+    googleMapsUrl: 'https://www.google.com/maps/place/?q=place_id:ChIJtSQ7ywmVpzERvzagy4sWZus',
   },
   {
     id: 'clock-tower',
@@ -168,8 +171,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     zone: 'central',
     imgX: 396,
     imgY: 498,
-    lat: 10.0292,
-    lng: 104.0077,
+    lat: 10.0292527,
+    lng: 104.0074202,
     address: 'Quảng trường trung tâm Sunset Town, Phú Quốc',
     image: '/categories/dining.webp',
     description: {
@@ -192,7 +195,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     },
     bestTime: '16:30 - 18:30',
     operatingHours: '24시간 관람 가능 (야간 조명 연출)',
-    googleMapsUrl: 'https://maps.google.com/?q=Clock+Tower+Sunset+Town+Phu+Quoc',
+    googlePlaceId: 'ChIJGz2yTr6XpzERw3f-8LpV0PM',
+    googleMapsUrl: 'https://www.google.com/maps/place/?q=place_id:ChIJGz2yTr6XpzERw3f-8LpV0PM',
   },
   {
     id: 'cable-car-station',
@@ -212,8 +216,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     zone: 'sorrento',
     imgX: 552,
     imgY: 986,
-    lat: 10.0274,
-    lng: 104.0072,
+    lat: 10.0268905,
+    lng: 104.0085686,
     address: 'Ga Cáp treo Ánh Dương, Sunset Town, An Thới, Phú Quốc',
     image: '/tickets/hon-thom-cable-car.webp',
     ticketSlug: 'hon-thom-cable-car',
@@ -238,7 +242,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     },
     bestTime: '08:30 - 11:00 / 14:00 - 17:00',
     operatingHours: '09:00 - 17:00 (회차별 탄력 운행)',
-    googleMapsUrl: 'https://maps.google.com/?q=Hon+Thom+Departure+Cable+Car+Station',
+    googlePlaceId: 'ChIJvxdKNoKWpzERAWSyG5rABsg',
+    googleMapsUrl: 'https://www.google.com/maps/place/?q=place_id:ChIJvxdKNoKWpzERAWSyG5rABsg',
   },
   {
     id: 'vuifest-bazaar',
@@ -258,8 +263,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     zone: 'venice',
     imgX: 20,
     imgY: 145,
-    lat: 10.035,
-    lng: 104.0027,
+    lat: 10.0356275,
+    lng: 104.0031156,
     address: 'Đường ven biển Venice, Sunset Town, An Thới, Phú Quốc',
     image: '/categories/shopping.webp',
     description: {
@@ -282,7 +287,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     },
     bestTime: '18:00 - 23:00',
     operatingHours: '16:00 - 24:00',
-    googleMapsUrl: 'https://maps.google.com/?q=Vui-Fest+Bazaar+Phu+Quoc',
+    googlePlaceId: 'ChIJe-XGILOVpzERFUpU0tLXMoY',
+    googleMapsUrl: 'https://www.google.com/maps/place/?q=place_id:ChIJe-XGILOVpzERFUpU0tLXMoY',
   },
   {
     id: 'sun-signature-gallery',
@@ -302,8 +308,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     zone: 'central',
     imgX: 531,
     imgY: 563,
-    lat: 10.0306,
-    lng: 104.0071,
+    lat: 10.0304409,
+    lng: 104.0068911,
     address: 'Đường Amalfi, Sunset Town, An Thới, Phú Quốc',
     image: '/categories/wellness.webp',
     description: {
@@ -326,7 +332,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     },
     bestTime: '10:00 - 16:00',
     operatingHours: '08:00 - 18:00 (전시 및 행사 일정에 따름)',
-    googleMapsUrl: 'https://maps.google.com/?q=Sun+Signature+Gallery+Phu+Quoc',
+    googlePlaceId: 'ChIJb5dRi2aVpzER5yka1zrbkLM',
+    googleMapsUrl: 'https://www.google.com/maps/place/?q=place_id:ChIJb5dRi2aVpzER5yka1zrbkLM',
   },
   {
     id: 'king-sun-fountain',
@@ -370,7 +377,7 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     },
     bestTime: '15:00 - 17:30',
     operatingHours: '24시간 관람 가능',
-    googleMapsUrl: 'https://maps.google.com/?q=King+Sun+Fountain+Sunset+Town+Phu+Quoc',
+    googleMapsUrl: 'https://www.google.com/maps/place/%C4%90%C3%A0i+phun+n%C6%B0%E1%BB%9Bc+Th%E1%BA%A7n+M%E1%BA%B7t+Tr%E1%BB%9Di,+Sunset+Town,+An+Th%E1%BB%9Bi,+Ph%C3%BA+Qu%E1%BB%91c/@10.0299,104.0072,18z',
   },
   {
     id: 'sunset-beach',
@@ -390,8 +397,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     zone: 'central',
     imgX: 304,
     imgY: 641,
-    lat: 10.0291,
-    lng: 104.0062,
+    lat: 10.0289714,
+    lng: 104.0064217,
     address: 'Bờ biển Sunset Town, Phú Quốc',
     image: '/categories/beach.webp',
     description: {
@@ -414,7 +421,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     },
     bestTime: '16:00 - 18:30',
     operatingHours: '06:00 - 22:00',
-    googleMapsUrl: 'https://maps.google.com/?q=Sunset+Town+Beach+Phu+Quoc',
+    googlePlaceId: 'ChIJZXM2cdOVpzERTz6J6CvWVwg',
+    googleMapsUrl: 'https://www.google.com/maps/place/?q=place_id:ChIJZXM2cdOVpzERTz6J6CvWVwg',
   },
   {
     id: 'arc-de-triomphe',
@@ -434,8 +442,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     zone: 'sorrento',
     imgX: 649,
     imgY: 1283,
-    lat: 10.0251,
-    lng: 104.0084,
+    lat: 10.02545,
+    lng: 104.00785,
     address: 'Cổng vào phía Nam, Sunset Town, An Thới, Phú Quốc',
     image: '/categories/hotels.webp',
     description: {
@@ -458,7 +466,7 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     },
     bestTime: '09:00 - 11:00 / 15:00 - 17:00',
     operatingHours: '24시간 관람 가능',
-    googleMapsUrl: 'https://maps.google.com/?q=Arc+de+Triomphe+Sunset+Town+Phu+Quoc',
+    googleMapsUrl: 'https://www.google.com/maps/place/Kh%E1%BA%A3i+Ho%C3%A0n+M%C3%B4n+Th%E1%BB%8B+Tr%E1%BA%A5n+Ho%C3%A0ng+H%C3%B4n,+Sunset+Town,+An+Th%E1%BB%9Bi,+Ph%C3%BA+Qu%E1%BB%91c/@10.02545,104.00785,18z',
   },
   {
     id: 'marina-pier',
@@ -478,8 +486,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     zone: 'sorrento',
     imgX: 471,
     imgY: 1436,
-    lat: 10.0245,
-    lng: 104.0055,
+    lat: 10.02485,
+    lng: 104.00685,
     address: 'Bến du thuyền Sunset Town, An Thới, Phú Quốc',
     image: '/categories/activities.webp',
     description: {
@@ -502,7 +510,7 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     },
     bestTime: '16:30 - 19:00',
     operatingHours: '07:00 - 21:00',
-    googleMapsUrl: 'https://maps.google.com/?q=Marina+Sunset+Town+Phu+Quoc',
+    googleMapsUrl: 'https://www.google.com/maps/place/B%E1%BA%BFn+du+thuy%E1%BB%81n+Sunset+Town,+An+Th%E1%BB%9Bi,+Ph%C3%BA+Qu%E1%BB%91c/@10.02485,104.00685,18z',
   },
   {
     id: 'pompeii-ruins',
@@ -522,8 +530,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     zone: 'sorrento',
     imgX: 570,
     imgY: 1146,
-    lat: 10.0265,
-    lng: 104.008,
+    lat: 10.0265838,
+    lng: 104.0079771,
     address: 'Gần Ga Ánh Dương, Sunset Town, An Thới, Phú Quốc',
     image: '/categories/bars.webp',
     description: {
@@ -546,7 +554,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     },
     bestTime: '15:30 - 17:30',
     operatingHours: '24시간 관람 가능',
-    googleMapsUrl: 'https://maps.google.com/?q=Pompeii+Ruins+Sunset+Town+Phu+Quoc',
+    googlePlaceId: 'ChIJR1rvoz6XpzERak7X8IIpK7Q',
+    googleMapsUrl: 'https://www.google.com/maps/place/?q=place_id:ChIJR1rvoz6XpzERak7X8IIpK7Q',
   },
   {
     id: 'dragon-staircase',
@@ -566,8 +575,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     zone: 'central',
     imgX: 578,
     imgY: 609,
-    lat: 10.0301,
-    lng: 104.0078,
+    lat: 10.0300494,
+    lng: 104.0077286,
     address: 'Nối từ Đường Amalfi xuống bờ biển, Sunset Town, Phú Quốc',
     image: '/categories/dining.webp',
     description: {
@@ -590,7 +599,8 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     },
     bestTime: '15:00 - 17:00',
     operatingHours: '24시간 관람 가능',
-    googleMapsUrl: 'https://maps.google.com/?q=Sunset+Town+Phu+Quoc',
+    googlePlaceId: 'ChIJlxCWdMWXpzER1uHLQ3OpVkI',
+    googleMapsUrl: 'https://www.google.com/maps/place/?q=place_id:ChIJlxCWdMWXpzER1uHLQ3OpVkI',
   },
 ]
 

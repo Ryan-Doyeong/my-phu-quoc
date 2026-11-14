@@ -14,10 +14,31 @@ export interface MapsLinkSource {
   lng?: number | null
 }
 
+const FAKE_PLACE_ID_SLUG_RE = /^ChIJ_[a-z0-9_]+$/
+const VALID_GOOGLE_PLACE_ID_RE = /^(?:ChIJ|GhIJ|Eh)[A-Za-z0-9_-]{20,}$/
+
+export function isValidGooglePlaceId(placeId?: string | null): boolean {
+  if (typeof placeId !== 'string') return false
+  const trimmed = placeId.trim()
+  if (trimmed.length < 24) return false
+  if (FAKE_PLACE_ID_SLUG_RE.test(trimmed)) return false
+  if (!VALID_GOOGLE_PLACE_ID_RE.test(trimmed)) return false
+  const suffix = trimmed.replace(/^(?:ChIJ|GhIJ|Eh)/, '')
+  if (!/[A-Z]/.test(suffix) && (suffix.match(/_/g) || []).length >= 2) {
+    return false
+  }
+  return true
+}
+
+function sanitizePlaceId(placeId?: string | null): string | null {
+  if (!isValidGooglePlaceId(placeId)) return null
+  return placeId!.trim()
+}
+
 function extractPlaceId(url?: string | null): string | null {
   if (!url) return null
   const m = url.match(/place_id[:=]([A-Za-z0-9_-]+)/) || url.match(/query_place_id=([A-Za-z0-9_-]+)/)
-  return m ? m[1] : null
+  return m ? sanitizePlaceId(m[1]) : null
 }
 
 function areaHint(address?: string | null): string {
@@ -27,23 +48,38 @@ function areaHint(address?: string | null): string {
 }
 
 export function buildGoogleMapsUrl(b: MapsLinkSource): string | null {
-  const placeId = b.google_place_id || extractPlaceId(b.google_maps_url)
+  const placeId = sanitizePlaceId(b.google_place_id) || extractPlaceId(b.google_maps_url)
   const name = (b.google_maps_name || b.public_name || '').trim()
   const hasCoords = typeof b.lat === 'number' && typeof b.lng === 'number' && b.lat !== 0 && b.lng !== 0
 
-  // 좌표가 검증된 업체: 좌표 + place_id (가장 정확)
-  if (hasCoords && placeId) {
-    return `https://www.google.com/maps/search/?api=1&query=${b.lat},${b.lng}&query_place_id=${placeId}`
+  // 1순위: 검증된 Google Place ID가 있는 경우 (폴백 쿼리도 상호명 우선으로 지정하여 좌표 핀 폴백 방지)
+  if (placeId) {
+    const fallbackQuery = name
+      ? encodeURIComponent(`${name} ${areaHint(b.address)}`)
+      : hasCoords
+        ? `${b.lat},${b.lng}`
+        : encodeURIComponent('Sunset Town Phu Quoc')
+    return `https://www.google.com/maps/search/?api=1&query=${fallbackQuery}&query_place_id=${placeId}`
   }
-  // 상호명 기반 검색 (+ place_id 가 맞으면 바로 장소로 이동)
+
+  // 2순위: place_id 파라미터 없는 확정 프로필 URL(cid= 또는 /maps/place/ 경로) 우선 활용
+  const rawUrl = b.google_maps_url?.trim()
+  if (
+    rawUrl &&
+    !rawUrl.includes('place_id') &&
+    (rawUrl.includes('cid=') || rawUrl.includes('/maps/place/'))
+  ) {
+    return rawUrl
+  }
+
+  // 3순위: 상호명 기반 검색 (단순 lat,lng 좌표 핀 노출 방지)
   if (name) {
     const q = encodeURIComponent(`${name} ${areaHint(b.address)}`)
-    return placeId
-      ? `https://www.google.com/maps/search/?api=1&query=${q}&query_place_id=${placeId}`
-      : `https://www.google.com/maps/search/?api=1&query=${q}`
+    return `https://www.google.com/maps/search/?api=1&query=${q}`
   }
+
+  // 4순위: 상호명이 없을 때만 좌표 또는 기존 search URL 폴백
   if (hasCoords) return `https://www.google.com/maps/search/?api=1&query=${b.lat},${b.lng}`
-  // 마지막 수단: 기존 URL 중 search 형식만 신뢰
-  if (b.google_maps_url && b.google_maps_url.includes('api=1')) return b.google_maps_url
+  if (rawUrl && rawUrl.includes('api=1') && !rawUrl.includes('place_id')) return rawUrl
   return null
 }

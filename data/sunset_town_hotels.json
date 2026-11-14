@@ -217,7 +217,11 @@
       "reviewQuote": {
         "text": "바다 전망 발코니에서 불꽃놀이가 한눈에 보이고 침구가 포근해 편안히 머물렀습니다.",
         "source": "Google 리뷰"
-      }
+      },
+      "googlePlaceId": "ChIJazttI-mVpzER0S79ZGkYs78",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJazttI-mVpzER0S79ZGkYs78",
+      "lat": 10.0320914,
+      "lng": 104.0043098
     },
     {
       "slug": "la-festa-phu-quoc-curio-collection-by-hilton",
@@ -1650,7 +1654,10 @@
           "distance": "350m (도보 5분)"
         }
       ],
-      "priceRange": "$$$"
+      "priceRange": "$$$",
+      "googleMapsUrl": "https://www.google.com/maps/place/Coastal+Living+Hotel+Phu+Quoc,+17+Positano,+Sunset+Town,+An+Th%E1%BB%9Bi,+Ph%C3%BA+Qu%E1%BB%91c/@10.0268,104.0079,18z",
+      "lat": 10.0268,
+      "lng": 104.0079
     },
     {
       "slug": "roma-hotel-phu-qu-c",
@@ -3776,7 +3783,11 @@
       "reviewQuote": {
         "text": "옥상에서 일몰을 편하게 바라볼 수 있어 좋았습니다.",
         "source": "Agoda"
-      }
+      },
+      "googlePlaceId": "ChIJe4CLfRKXpzERL0ZvGC778Bk",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJe4CLfRKXpzERL0ZvGC778Bk",
+      "lat": 10.0257322,
+      "lng": 104.0076549
     },
     {
       "slug": "palo-santo-hotel-phu-quoc",
@@ -4409,7 +4420,11 @@
       "reviewQuote": {
         "text": "직원들이 항상 웃는 얼굴로 친절하게 응대해 주어 기분 좋게 묵었습니다.",
         "source": "Agoda"
-      }
+      },
+      "googlePlaceId": "ChIJJyvaIBKXpzERPWxGoWlnWoc",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJJyvaIBKXpzERPWxGoWlnWoc",
+      "lat": 10.03049,
+      "lng": 104.005862
     },
     {
       "slug": "solaro-hotel-spa-h84816481",
@@ -5435,8 +5450,8 @@
       ],
       "priceRange": "$$$$$",
       "googleRating": 4.9,
-      "googlePlaceId": "ChIJF_c9aMCXpzERt1r0W687Y4U",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJF_c9aMCXpzERt1r0W687Y4U",
+      "googlePlaceId": "ChIJ9SwzZzeVpzERAz84CLvBLh8",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ9SwzZzeVpzERAz84CLvBLh8",
       "reviewHighlight": "베니스 거리 오션뷰와 친절한 서비스",
       "reviewPros": [
         "발코니에서 일몰과 불꽃놀이 관람",
@@ -5446,7 +5461,9 @@
       "reviewQuote": {
         "text": "베니스 거리 위치가 정말 좋고 발코니에서 불꽃놀이가 정면으로 보입니다.",
         "source": "Google 리뷰"
-      }
+      },
+      "lat": 10.0301732,
+      "lng": 104.0060854
     },
     {
       "slug": "fella-hotel",
@@ -5522,8 +5539,8 @@
       ],
       "priceRange": "$",
       "googleRating": 4.7,
-      "googlePlaceId": "ChIJ11j5_KeXpzERFq08eB1nJt4",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ11j5_KeXpzERFq08eB1nJt4",
+      "googlePlaceId": "ChIJjZ-YVl6XpzERBev66-X35uQ",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJjZ-YVl6XpzERBev66-X35uQ",
       "reviewHighlight": "키스브릿지 인접 입지와 가성비",
       "reviewPros": [
         "키스브릿지 및 광장 도보 3분 거리",
@@ -5533,7 +5550,9 @@
       "reviewQuote": {
         "text": "가격 대비 위치가 훌륭하고 방도 깔끔하여 만족스러웠습니다.",
         "source": "Google 리뷰"
-      }
+      },
+      "lat": 10.0256867,
+      "lng": 104.0076622
     },
     {
       "slug": "sole-casa-phu-quoc",
@@ -5598,8 +5617,8 @@
       ],
       "priceRange": "$$$$",
       "googleRating": 4.7,
-      "googlePlaceId": "ChIJq2r4s86VpzER3e5p9a8K5jY",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJq2r4s86VpzER3e5p9a8K5jY",
+      "googlePlaceId": "ChIJCzU1h7OXpzER6BRzBKSqRks",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJCzU1h7OXpzER6BRzBKSqRks",
       "reviewHighlight": "케이블카 초근접 입지와 모던 인테리어",
       "reviewPros": [
         "케이블카 정류장 도보 4분 초인접",
@@ -5608,7 +5627,9 @@
       "reviewQuote": {
         "text": "케이블카 타기 너무 편하고 인테리어가 예뻐서 머무는 내내 기분 좋았습니다.",
         "source": "Google 리뷰"
-      }
+      },
+      "lat": 10.0290612,
+      "lng": 104.0098077
     },
     {
       "slug": "golden-sunset-hotel",
@@ -5664,8 +5685,8 @@
       ],
       "priceRange": "$",
       "googleRating": 4.1,
-      "googlePlaceId": "ChIJN3vR_L6VpzER4o1cI_K00e8",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN3vR_L6VpzER4o1cI_K00e8",
+      "googlePlaceId": "ChIJLYZRqS2VpzERBkJetwNxgg8",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJLYZRqS2VpzERBkJetwNxgg8",
       "reviewHighlight": "포지타노 거리의 조용한 휴식처",
       "reviewPros": [
         "조용한 주변 환경",
@@ -5674,7 +5695,9 @@
       "reviewQuote": {
         "text": "가성비 좋고 주변 골목이 예쁩니다.",
         "source": "Google 리뷰"
-      }
+      },
+      "lat": 10.0305882,
+      "lng": 104.0061444
     },
     {
       "slug": "casa-del-mar-boutique-hotel",
@@ -5730,8 +5753,8 @@
       ],
       "priceRange": "$",
       "googleRating": 4,
-      "googlePlaceId": "ChIJz_xV0ceVpzERL_Q5j7K_c4E",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJz_xV0ceVpzERL_Q5j7K_c4E",
+      "googlePlaceId": "ChIJL0J55ZiXpzERbAGmlh0s12I",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJL0J55ZiXpzERbAGmlh0s12I",
       "reviewHighlight": "아말피 거리 감성과 산책 접근성",
       "reviewPros": [
         "이탈리아풍 아말피 거리 위치",
@@ -5740,7 +5763,9 @@
       "reviewQuote": {
         "text": "골목 분위기가 좋고 객실이 편안합니다.",
         "source": "Google 리뷰"
-      }
+      },
+      "lat": 10.0307485,
+      "lng": 104.0072895
     },
     {
       "slug": "js-hotel-phu-quoc-sunset-town",
@@ -5796,8 +5821,8 @@
       ],
       "priceRange": "$",
       "googleRating": 4.8,
-      "googlePlaceId": "ChIJ92fL7_KVpzERx5f4P9A2j8k",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ92fL7_KVpzERx5f4P9A2j8k",
+      "googlePlaceId": "ChIJRSic4YOXpzERfVMlKoCM9v8",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJRSic4YOXpzERfVMlKoCM9v8",
       "reviewHighlight": "높은 평점과 친절한 직원",
       "reviewPros": [
         "깨끗하게 관리된 객실",
@@ -5806,7 +5831,9 @@
       "reviewQuote": {
         "text": "직원분들이 매우 친절하고 방이 깔끔해서 편히 쉬었습니다.",
         "source": "Google 리뷰"
-      }
+      },
+      "lat": 10.0317854,
+      "lng": 104.0060131
     },
     {
       "slug": "merci-hotel-sunset-town-phu-quoc",

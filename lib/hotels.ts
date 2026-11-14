@@ -1,6 +1,7 @@
 import rawSunsetTownHotels from '@/data/sunset_town_hotels.json'
 import rawKhemBeachHotels from '@/data/khem_beach_hotels.json'
 import rawHotelInsights from '@/data/hotel_insights.json'
+import { buildGoogleMapsUrl, isValidGooglePlaceId } from '@/lib/mapsLink'
 
 export interface HotelInsight {
   googleMapsUrl?: string
@@ -209,18 +210,64 @@ export interface HotelItem {
   googleReviews?: HotelGoogleReview[]
   unverified?: string[]
   insight?: HotelInsight
+  lat?: number
+  lng?: number
   googleMapsUrl?: string
   googlePlaceId?: string
 }
 
+function sanitizeHotelMapsUrl(
+  candidateUrl: string | undefined,
+  fallbackSource: {
+    name?: string
+    address?: string
+    placeId?: string
+    lat?: number
+    lng?: number
+  }
+): string | undefined {
+  if (candidateUrl) {
+    const pidMatch =
+      candidateUrl.match(/place_id[:=]([A-Za-z0-9_-]+)/) ||
+      candidateUrl.match(/query_place_id=([A-Za-z0-9_-]+)/)
+    if (!pidMatch || isValidGooglePlaceId(pidMatch[1])) {
+      return candidateUrl
+    }
+  }
+  return (
+    buildGoogleMapsUrl({
+      public_name: fallbackSource.name,
+      google_place_id: fallbackSource.placeId,
+      address: fallbackSource.address,
+      lat: fallbackSource.lat,
+      lng: fallbackSource.lng,
+    }) || undefined
+  )
+}
+
 function mapHotelItem(raw: any, defaultArea: HotelArea): HotelItem {
   const insight = HOTEL_INSIGHTS[raw.slug]
+  const validPlaceId = isValidGooglePlaceId(raw.googlePlaceId)
+    ? raw.googlePlaceId.trim()
+    : undefined
+  const googleMapsUrl = sanitizeHotelMapsUrl(
+    insight?.googleMapsUrl || raw.googleMapsUrl,
+    {
+      name: raw.name_en || raw.name_ko,
+      address: raw.address,
+      placeId: validPlaceId,
+      lat: raw.lat,
+      lng: raw.lng,
+    }
+  )
   return {
     ...raw,
     area: raw.area || defaultArea,
     insight,
-    googleMapsUrl: insight?.googleMapsUrl || raw.googleMapsUrl,
-    googlePlaceId: raw.googlePlaceId,
+    lat: raw.lat,
+    lng: raw.lng,
+    googleMapsUrl,
+    googlePlaceId: validPlaceId,
     googleRating: raw.googleRating,
     googleReviewsCount: raw.googleReviewsCount,
     priceRange: raw.priceRange,
