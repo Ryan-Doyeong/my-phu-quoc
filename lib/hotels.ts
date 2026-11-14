@@ -228,9 +228,9 @@ function sanitizeHotelMapsUrl(
 ): string | undefined {
   if (candidateUrl) {
     const pidMatch =
-      candidateUrl.match(/place_id[:=]([A-Za-z0-9_-]+)/) ||
-      candidateUrl.match(/query_place_id=([A-Za-z0-9_-]+)/)
-    if (!pidMatch || isValidGooglePlaceId(pidMatch[1])) {
+      candidateUrl.match(/place_id[:=]([A-Za-z0-9_-]+(?:=|%3D){0,2})/i) ||
+      candidateUrl.match(/query_place_id=([A-Za-z0-9_-]+(?:=|%3D){0,2})/i)
+    if (!pidMatch || isValidGooglePlaceId(pidMatch[1].replace(/%3D/gi, '='))) {
       return candidateUrl
     }
   }
@@ -247,8 +247,9 @@ function sanitizeHotelMapsUrl(
 
 function mapHotelItem(raw: any, defaultArea: HotelArea): HotelItem {
   const insight = HOTEL_INSIGHTS[raw.slug]
-  const validPlaceId = isValidGooglePlaceId(raw.googlePlaceId)
-    ? raw.googlePlaceId.trim()
+  const trimmedPlaceId = typeof raw.googlePlaceId === 'string' ? raw.googlePlaceId.trim() : undefined
+  const validPlaceId = isValidGooglePlaceId(trimmedPlaceId)
+    ? trimmedPlaceId
     : undefined
   const googleMapsUrl = sanitizeHotelMapsUrl(
     insight?.googleMapsUrl || raw.googleMapsUrl,

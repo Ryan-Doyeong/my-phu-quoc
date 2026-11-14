@@ -57,9 +57,10 @@
 
 ## 2. 수정된 코드·데이터·마이그레이션 파일 요약
 
-1. **`lib/mapsLink.ts`** (P1 방어 로직 강화)
+1. **`lib/mapsLink.ts`** (P1 방어 로직 및 공식 Place ID 확장성 강화)
    - `isValidGooglePlaceId(placeId?: string | null): boolean` 헬퍼 함수를 구현 및 export.
-   - `^ChIJ_[a-z0-9_]+$` 가짜 슬러그, 짧은 문자열, 공백, 접두사 이후 대문자가 전혀 없는 언더스코어 조합 문자열을 엄격히 차단하는 동시에 `ChIJ_VQ_ljWXpzERbwSZZ5XUYYU` 등 실제 Base64URL(`_` 포함) Google Place ID 314건은 전수 통과하도록 설계.
+   - 표준 POI 식별자(`ChI[A-Za-z0-9_-]{21,}`), 지오코딩 피처 식별자(`GhIJ[A-Za-z0-9_-]{23}`), 광장·도로·복합 구역 Protobuf 식별자(`E[g-v][A-Za-z0-9_-]{20,}={0,2}`)를 공식 지원하여 향후 조형물·광장·선착장 공식 ID 바인딩 시에도 정상 통과하도록 구성.
+   - 동시에 `^(ChI...|GhIJ|E[g-v])_[a-z0-9_]+$` 및 `[a-z]{4,}_[a-z]{4,}` 형태의 슬러그형 할루시네이션, 연속 숫자/동일 문자 반복 더미(`ChIJ12345678901234567890123` 등), 공백 포함 문자열, 단문, 비-ASCII, URL 문자열은 전수 차단하며 `ChIJ_VQ_ljWXpzERbwSZZ5XUYYU` 등 실제 Base64URL(`_` 포함) Google Place ID 314건은 오탐 없이 통과하도록 설계.
    - `buildGoogleMapsUrl()`에서 `isValidGooglePlaceId()`를 통과한 경우에만 `query_place_id`를 부착하며, `query` 파라미터와 미검증 폴백 경로 모두 순수 숫자 좌표(`lat,lng`)보다 **상호명 + 권역 힌트** 및 확정 프로필 URL(`cid=`, `/maps/place/`)을 우선하도록 개선.
 2. **`components/SunsetTownMap.tsx`** (P1 랜드마크 좌표 강제 덮어쓰기 버그 수정)
    - 기존 `lm.lat && lm.lng ? query=lat,lng : lm.googleMapsUrl` 삼항 연산자를 제거하고, `isValidGooglePlaceId(lm.googlePlaceId)` 검증을 거친 `buildGoogleMapsUrl()` 및 `lm.googleMapsUrl`을 최우선으로 사용하도록 수정 (7개 로케일 `/`, `/ko`, `/zh`, `/ru`, `/ja`, `/hi`, `/vi` 공통 적용).
@@ -72,7 +73,7 @@
    - 호치민 빈 지도 4개소, 오매핑 1개소(`sunny-hotel`), 가짜 ID 1개소(`coastal-living-hotel-phu-quoc`), 충돌 3개소, 단축 URL 1개소(`the-room-hotel`) 및 비공개 비표준 ID 2개소 일괄 정규화.
 6. **`lib/emergencyFacilities.ts`** (P0 응급 병원 2개소 프로필 고정)
    - `phu-quoc-medical-center`, `vinmec-phu-quoc`의 `Search_List` 검색 링크를 확정 `/maps/place/` 프로필 URL 및 기관명 명시 길찾기 URL로 교체.
-7. **`supabase/migrations/032_fix_gmaps_p0_p1_20261115.sql`** (운영 DB 마이그레이션)
+7. **`supabase/migrations/036_fix_gmaps_p0_p1_20261115.sql`** (운영 DB 마이그레이션 — `035` 이후 순번 부여로 `032` 버전 충돌 해소)
    - `public.businesses` 테이블 대상 멱등성(`WHERE slug = ...`) 보장 트랜잭션 SQL 작성.
 
 ---
@@ -114,15 +115,15 @@ ORDER BY slug;
 ```
 
 ### Step 2. 마이그레이션 실행
-- `supabase/migrations/032_fix_gmaps_p0_p1_20261115.sql` 전체 내용을(`BEGIN; ... COMMIT;` 포함) 그대로 실행합니다.
+- `supabase/migrations/036_fix_gmaps_p0_p1_20261115.sql` 전체 내용을(`BEGIN; ... COMMIT;` 포함) 그대로 실행합니다.
 
 ### Step 3. 실행 후 무결성 검증 쿼리 (결과가 모두 `0`이어야 정상)
 ```sql
 SELECT
-  COUNT(*) FILTER (WHERE google_place_id ~ '^ChIJ_[a-z0-9_]+$') AS fake_slug_pids,
+  COUNT(*) FILTER (WHERE google_place_id ~ '^(ChI[A-Za-z0-9]?|GhIJ|E[g-v])_[a-z0-9_]+$') AS fake_slug_pids,
   COUNT(*) FILTER (
     WHERE google_place_id IS NOT NULL
-      AND google_place_id !~ '^(ChIJ|GhIJ|Eh)[A-Za-z0-9_-]{20,}$'
+      AND google_place_id !~ '^(ChI[A-Za-z0-9_-]{21,}|GhIJ[A-Za-z0-9_-]{23}|E[g-v][A-Za-z0-9_-]{20,}={0,2})$'
   ) AS malformed_pids,
   COUNT(*) FILTER (
     WHERE lat IS NOT NULL AND lng IS NOT NULL
@@ -135,9 +136,10 @@ FROM public.businesses;
 
 ## 4. 로컬 정적 검증 통과 수치 (Verification Metrics)
 
-1. **`isValidGooglePlaceId()` 단위 검증 (레지스트리 전수 대조):**
-   - `businesses-registry.json` + `khem-beach-businesses.json` 내 실제 유효 Google Place ID **314건 전수 `true` 반환** (`ChIJ_`로 시작하는 정상 Base64URL ID 6건 포함 오탐 **0건**).
-   - `"ChIJ_coastal_living_phuquoc"`, `"mimi_fruits_sunset_town"`, `"buggy_service_sunset_town"`, 빈 문자열(`""`), 공백(`"   "`), 짧은 문자열(`"ChIJshort123"`), `null`, `undefined` 전수 **`false` 반환**.
+1. **`isValidGooglePlaceId()` 단위 검증 (레지스트리 전수 대조 + `GhIJ` / `E[g-v]` 확장 검증):**
+   - **Positive 1 (레지스트리 실데이터):** `businesses-registry.json` + `khem-beach-businesses.json` 내 실제 유효 Google Place ID **314건 전수 `true` 반환** (`ChIJ_`로 시작하는 정상 Base64URL ID 6건 포함 오탐 **0건**).
+   - **Positive 2 (지오코딩·광장·도로 공식 포맷):** `GhIJ` 27자 Base64URL 지오코딩 샘플 및 `Ej`/`Ek` 공식 광장·도로 Protobuf Place ID 샘플(`=` 패딩 포함) 전수 **`true` 반환**.
+   - **Negative (가짜 슬러그·더미·비정상 입력):** `"ChIJ_coastal_living_phuquoc"`, `"ChIJ_sunset_town_clock_tower"`, `"GhIJ_fake_plaza_phuquoc_123"`, `"Ej_fake_arc_de_triomphe_sunset"`, `"ChIJ12345678901234567890123"`, `"mimi_fruits_sunset_town"`, `"buggy_service_sunset_town"`, `""`, `"   "`, `"short"`, `"https://maps.app.goo.gl/test"`, `null`, `undefined` 전수 **`false` 반환**.
 2. **PR #116 기준 전체 노출 링크 430건 정적 재검증 (네트워크/CAPTCHA 호출 0회):**
    - 가짜 Place ID 패턴 (`ChIJ_...` 및 원시 JSON 비유효 ID): **0건**
    - 호치민시 폴백 좌표 (`10.7905, 106.6893`), 깨진 호텔 Place ID, 푸꾸옥 바운딩 박스(`Lat 9.90~10.45`, `Lng 103.80~104.10`) 이탈: **0건** (검증 좌표 쌍 380건 전수 범위 내 통과)

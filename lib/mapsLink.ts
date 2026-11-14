@@ -14,16 +14,35 @@ export interface MapsLinkSource {
   lng?: number | null
 }
 
-const FAKE_PLACE_ID_SLUG_RE = /^ChIJ_[a-z0-9_]+$/
-const VALID_GOOGLE_PLACE_ID_RE = /^(?:ChIJ|GhIJ|Eh)[A-Za-z0-9_-]{20,}$/
+const VALID_POI_PLACE_ID_RE = /^ChI[A-Za-z0-9_-]{21,}$/
+const VALID_GEOCODE_PLACE_ID_RE = /^GhIJ[A-Za-z0-9_-]{23}$/
+const VALID_COMPOUND_PLACE_ID_RE = /^E[g-v][A-Za-z0-9_-]{20,}={0,2}$/
+const FAKE_PREFIX_SLUG_RE = /^(?:ChI[A-Za-z0-9]?|GhIJ|E[g-v])_[a-z0-9_]+$/
+const HUMAN_SNAKE_WORDS_RE = /[a-z]{4,}_[a-z]{4,}/
+const REPEATED_CHAR_RE = /(.)\1{7,}/
+const SEQUENTIAL_DUMMY_RE = /(?:01234567|12345678|23456789|98765432|87654321|abcdefgh)/i
 
 export function isValidGooglePlaceId(placeId?: string | null): boolean {
   if (typeof placeId !== 'string') return false
-  const trimmed = placeId.trim()
-  if (trimmed.length < 24) return false
-  if (FAKE_PLACE_ID_SLUG_RE.test(trimmed)) return false
-  if (!VALID_GOOGLE_PLACE_ID_RE.test(trimmed)) return false
-  const suffix = trimmed.replace(/^(?:ChIJ|GhIJ|Eh)/, '')
+  if (placeId.length < 22 || /\s/.test(placeId) || /[^\x20-\x7E]/.test(placeId)) {
+    return false
+  }
+  if (/https?:\/\/|\/maps\//i.test(placeId)) return false
+
+  const matchesOfficialFormat =
+    VALID_POI_PLACE_ID_RE.test(placeId) ||
+    VALID_GEOCODE_PLACE_ID_RE.test(placeId) ||
+    VALID_COMPOUND_PLACE_ID_RE.test(placeId)
+  if (!matchesOfficialFormat) return false
+
+  if (FAKE_PREFIX_SLUG_RE.test(placeId)) return false
+
+  const suffix = placeId
+    .replace(/^(?:ChI[A-Za-z0-9]|GhIJ|E[g-v])/, '')
+    .replace(/=+$/, '')
+  if (HUMAN_SNAKE_WORDS_RE.test(suffix)) return false
+  if (!/[A-Za-z]/.test(suffix)) return false
+  if (REPEATED_CHAR_RE.test(suffix) || SEQUENTIAL_DUMMY_RE.test(suffix)) return false
   if (!/[A-Z]/.test(suffix) && (suffix.match(/_/g) || []).length >= 2) {
     return false
   }
@@ -31,14 +50,19 @@ export function isValidGooglePlaceId(placeId?: string | null): boolean {
 }
 
 function sanitizePlaceId(placeId?: string | null): string | null {
-  if (!isValidGooglePlaceId(placeId)) return null
-  return placeId!.trim()
+  if (typeof placeId !== 'string') return null
+  const trimmed = placeId.trim()
+  return isValidGooglePlaceId(trimmed) ? trimmed : null
 }
 
 function extractPlaceId(url?: string | null): string | null {
   if (!url) return null
-  const m = url.match(/place_id[:=]([A-Za-z0-9_-]+)/) || url.match(/query_place_id=([A-Za-z0-9_-]+)/)
-  return m ? sanitizePlaceId(m[1]) : null
+  const m =
+    url.match(/place_id[:=]([A-Za-z0-9_-]+(?:=|%3D){0,2})/i) ||
+    url.match(/query_place_id=([A-Za-z0-9_-]+(?:=|%3D){0,2})/i)
+  if (!m) return null
+  const normalized = m[1].replace(/%3D/gi, '=')
+  return sanitizePlaceId(normalized)
 }
 
 function areaHint(address?: string | null): string {
@@ -59,7 +83,7 @@ export function buildGoogleMapsUrl(b: MapsLinkSource): string | null {
       : hasCoords
         ? `${b.lat},${b.lng}`
         : encodeURIComponent('Sunset Town Phu Quoc')
-    return `https://www.google.com/maps/search/?api=1&query=${fallbackQuery}&query_place_id=${placeId}`
+    return `https://www.google.com/maps/search/?api=1&query=${fallbackQuery}&query_place_id=${encodeURIComponent(placeId)}`
   }
 
   // 2순위: place_id 파라미터 없는 확정 프로필 URL(cid= 또는 /maps/place/ 경로) 우선 활용
