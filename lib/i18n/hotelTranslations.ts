@@ -1775,6 +1775,12 @@ const HOTEL_TEXT_EN: Record<string, string> = {
   "호텔 1층에서 바로 이용할 수 있는 수준 높은 스파 마사지": "Quality spa massages available directly on the ground floor",
   "가성비 뛰어난 숙박 요금 대비 깨끗하고 안락한 침구와 룸 컨디션": "Clean, comfortable bedding and rooms at good-value rates",
   "대형 리조트형 부대시설(대형 풀, 전용 비치 등)은 없음": "Does not have large resort facilities such as a pool or private beach",
+  "D1-45, Melodia Bãi Khem, An Thới, Phú Quốc, Kiên Giang, Vietnam (바이켐 숍하우스)": "D1-45, Melodia Bãi Khem, An Thới, Phú Quốc, Kiên Giang, Vietnam (Bai Khem Shophouse)",
+  "바이켐 해변 도보 3분": "3-min walk to Khem Beach",
+  "바이켐 해변 도보 3분 입지와 부담 없는 숙박 요금의 실속형 숍하우스 호텔": "Good-value shophouse hotel just a 3-minute walk from Khem Beach",
+  "바이켐 해변 메인 진입 블록(D1-45)에 위치해 해변까지 평지 도보 3분 이동 가능": "Located on the main D1 beach-access block (D1-45), a flat 3-minute walk to Khem Beach",
+  "리조트 단지 대비 합리적인 숙박 요금과 정돈된 객실 컨디션": "Tidy rooms at reasonable rates compared to beachfront resorts",
+  "주변 해변 씨푸드 식당 및 스파·마사지숍 도보 이용 용이": "Easy walking access to beachfront seafood restaurants and day spas",
 }
 
 const HOTEL_TEXT_BY_LOCALE: Partial<Record<Locale, Record<string, string>>> = {
@@ -1807,6 +1813,7 @@ function localizedSummary(hotel: HotelItem, locale: Locale): string {
     zh: hotel.summary_zh,
     ja: hotel.summary_ja,
     ru: hotel.summary_ru,
+    hi: (hotel as { summary_hi?: string }).summary_hi,
     vi: hotel.summary_vi,
   }
   // locale -> en -> localized ko summary
