@@ -1871,7 +1871,7 @@
   },
   "local-sunset-189": {
     "place_id": "local-sunset-189",
-    "google_place_id": "mimi_fruits_sunset_town",
+    "google_place_id": null,
     "name": "미미프루츠 & 미미편의점 (선셋타운 전 구역 배달)",
     "zone": "sunset-town",
     "public_category": "shopping",
@@ -2651,7 +2651,7 @@
   },
   "local-sunset-268": {
     "place_id": "local-sunset-268",
-    "google_place_id": "buggy_service_sunset_town",
+    "google_place_id": null,
     "name": "선셋타운 공식 전동 버기카 & 무료 셔틀버스 (Electric Buggy)",
     "zone": "sunset-town",
     "public_category": "activities",
@@ -3211,7 +3211,7 @@
   },
   "local-sunset-coastal-living": {
     "place_id": "local-sunset-coastal-living",
-    "google_place_id": "ChIJ_coastal_living_phuquoc",
+    "google_place_id": "ChIJ7WFKmwSVpzER8gm7K8E6wZQ",
     "name": "코스탈 리빙 호텔 푸꾸옥 (Coastal Living Hotel Phu Quoc)",
     "zone": "sunset-town",
     "public_category": "hotels",
@@ -3231,7 +3231,7 @@
   },
   "local-sunset-301": {
     "place_id": "local-sunset-301",
-    "google_place_id": null,
+    "google_place_id": "ChIJ4VVaNjOVpzERHr3Zajuks9w",
     "name": "마 인디안 레스토랑 (Maa Indian Restaurant)",
     "zone": "sunset-town",
     "public_category": "dining",
@@ -3241,7 +3241,7 @@
   },
   "local-sunset-302": {
     "place_id": "local-sunset-302",
-    "google_place_id": null,
+    "google_place_id": "ChIJV9MSawCVpzERXkk3kIRw9Fk",
     "name": "스와드 키친 (Swad Kitchen)",
     "zone": "sunset-town",
     "public_category": "dining",
@@ -3251,7 +3251,7 @@
   },
   "local-sunset-303": {
     "place_id": "local-sunset-303",
-    "google_place_id": null,
+    "google_place_id": "ChIJSUJb5mqXpzERz_eLitIIBRw",
     "name": "압나 인디안 다바 비스트로 (Apnaa Indian Dhaba Bistro)",
     "zone": "sunset-town",
     "public_category": "dining",
@@ -3271,7 +3271,7 @@
   },
   "local-sunset-305": {
     "place_id": "local-sunset-305",
-    "google_place_id": null,
+    "google_place_id": "ChIJP7ucaeCVpzERhJvju25r54Y",
     "name": "로드 오브 더 바오 (Lord of the Bao)",
     "zone": "sunset-town",
     "public_category": "dining",
@@ -3281,7 +3281,7 @@
   },
   "local-sunset-306": {
     "place_id": "local-sunset-306",
-    "google_place_id": null,
+    "google_place_id": "ChIJ9Wt2ewCXpzERyVdi6z6IfCo",
     "name": "러우 뜨 쑤옌 사천 훠궈 (Lẩu Tứ Xuyên Chinese Hotpot)",
     "zone": "sunset-town",
     "public_category": "dining",
@@ -3301,7 +3301,7 @@
   },
   "local-sunset-308": {
     "place_id": "local-sunset-308",
-    "google_place_id": null,
+    "google_place_id": "ChIJG0ygU8-NpzERXtcRcF0Av7k",
     "name": "응옥 히엔 진주 농장 & 쇼룸 (Ngọc Hiền Pearl Farm & Showroom)",
     "zone": "sunset-town",
     "public_category": "shopping",
@@ -3311,7 +3311,7 @@
   },
   "local-sunset-309": {
     "place_id": "local-sunset-309",
-    "google_place_id": null,
+    "google_place_id": "ChIJP1Wau62WpzERTHG2ZMqIK7Q",
     "name": "풍흥 느억맘 전통 발효장 (Nhà Thùng Nước Mắm Phụng Hưng)",
     "zone": "sunset-town",
     "public_category": "shopping",

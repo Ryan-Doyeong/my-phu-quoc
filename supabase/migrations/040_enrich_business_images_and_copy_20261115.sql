@@ -1,5 +1,5 @@
 -- =============================================================================
--- Supabase Migration: 038_enrich_business_images_and_copy_20261115.sql
+-- Supabase Migration: 040_enrich_business_images_and_copy_20261115.sql
 -- 목적: 전체 디렉터리 업체 이미지(WebP 갤러리), 7개 언어 에디토리얼 설명,
 --       카테고리/태그 오분류, 누락 주소 및 시맨틱 슬러그(sunset-place-9 -> solana-spa-sunset-town-phu-quoc) DB 동기화
 -- 주의: 운영 DB 반영은 사용자 명시 승인 후에만 실행

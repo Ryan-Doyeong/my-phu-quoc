@@ -9,6 +9,7 @@ export interface BankingItem {
   zone: BankingZone
   lat: number
   lng: number
+  googlePlaceId?: string
   googleMapsUrl: string
   location: Record<Locale, string>
   cards?: string[] | null // null or empty array indicates unconfirmed
@@ -80,7 +81,7 @@ export const BANKING_UI_STRINGS: Record<Locale, BankingUiStrings> = {
     atmSectionTitle: (c: number) => `ATM ${c}か所`,
     exchangeSectionTitle: (c: number) => `両替所 ${c}か所`,
     cardLabel: '対応カード',
-    unconfirmed: '現地でご確認ください',
+    unconfirmed: '現地確認推奨',
     googleMapsBtn: 'Googleマップで見る',
   },
   hi: {
@@ -91,7 +92,7 @@ export const BANKING_UI_STRINGS: Record<Locale, BankingUiStrings> = {
     atmSectionTitle: (c: number) => `${c} एटीएम`,
     exchangeSectionTitle: (c: number) => `${c} मुद्रा विनिमय केंद्र`,
     cardLabel: 'कार्ड',
-    unconfirmed: 'मौके पर जांचें',
+    unconfirmed: 'मौके पर पुष्टि करें',
     googleMapsBtn: 'Google मानचित्र पर देखें',
   },
   vi: {
@@ -102,7 +103,7 @@ export const BANKING_UI_STRINGS: Record<Locale, BankingUiStrings> = {
     atmSectionTitle: (c: number) => `${c} cây ATM`,
     exchangeSectionTitle: (c: number) => `${c} quầy đổi tiền`,
     cardLabel: 'Thẻ',
-    unconfirmed: 'Kiểm tra trực tiếp tại quầy',
+    unconfirmed: 'Nên kiểm tra tại quầy',
     googleMapsBtn: 'Xem Google Maps',
   },
 }
@@ -125,7 +126,8 @@ export const BANKING_PLACES: BankingItem[] = [
     zone: 'sunset-town',
     lat: 10.0354681,
     lng: 104.0047262,
-    googleMapsUrl: 'https://www.google.com/maps?cid=6440178889712391999',
+    googlePlaceId: 'ChIJ1R0-b6eVpzERP9dGI5QcYFk',
+    googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=MB%20ATM%20(N%E1%BB%99p%2Fr%C3%BAt%20ti%E1%BB%81n)%20Sunset%20Town%20Phu%20Quoc&query_place_id=ChIJ1R0-b6eVpzERP9dGI5QcYFk',
     location: {
       ko: '뉴 안터이 대로, 24시간',
       en: 'New An Thoi Blvd, 24 Hours',
@@ -152,7 +154,8 @@ export const BANKING_PLACES: BankingItem[] = [
     zone: 'sunset-town',
     lat: 10.0356939,
     lng: 104.0030911,
-    googleMapsUrl: 'https://www.google.com/maps?cid=11580843206114582841',
+    googlePlaceId: 'ChIJc4dmHQCVpzEROaH0u4lrt6A',
+    googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=VietinBank%20ATM%20Sunset%20Town%20Phu%20Quoc&query_place_id=ChIJc4dmHQCVpzEROaH0u4lrt6A',
     location: {
       ko: '7구역',
       en: 'Zone 7',
@@ -179,7 +182,8 @@ export const BANKING_PLACES: BankingItem[] = [
     zone: 'sunset-town',
     lat: 10.0276568,
     lng: 104.0073166,
-    googleMapsUrl: 'https://www.google.com/maps?cid=4069597228033058591',
+    googlePlaceId: 'ChIJ_YsvGwCXpzERHyfTAx4dejg',
+    googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=BIDV%20ATM%20machine%20Sunset%20Town%20Phu%20Quoc&query_place_id=ChIJ_YsvGwCXpzERHyfTAx4dejg',
     location: {
       ko: '아말피 남쪽 아케이드',
       en: 'Amalfi South Arcade',
@@ -208,7 +212,8 @@ export const BANKING_PLACES: BankingItem[] = [
     zone: 'sunset-town',
     lat: 10.0311981,
     lng: 104.0062552,
-    googleMapsUrl: 'https://www.google.com/maps?cid=4926815319696634130',
+    googlePlaceId: 'ChIJsY4JY3iXpzEREnF4DG6QX0Q',
+    googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=EXMoney%20Sunset%20Town%20%7C%20Currency%20Exchange%20Sunset%20Town%20Phu%20Quoc&query_place_id=ChIJsY4JY3iXpzEREnF4DG6QX0Q',
     location: {
       ko: '아말피 25번지',
       en: '25 Amalfi St',
@@ -234,7 +239,8 @@ export const BANKING_PLACES: BankingItem[] = [
     zone: 'sunset-town',
     lat: 10.0307205,
     lng: 104.0064964,
-    googleMapsUrl: 'https://www.google.com/maps?cid=13561394820020633960',
+    googlePlaceId: 'ChIJVzqFZ6eVpzERaAEnyrzAM7w',
+    googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=Money%20Exchange%20Sunset%20Town%20Sunset%20Town%20Phu%20Quoc&query_place_id=ChIJVzqFZ6eVpzERaAEnyrzAM7w',
     location: {
       ko: '아말피 중심가',
       en: 'Central Amalfi',
@@ -260,7 +266,8 @@ export const BANKING_PLACES: BankingItem[] = [
     zone: 'sunset-town',
     lat: 10.0285625,
     lng: 104.0083125,
-    googleMapsUrl: 'https://www.google.com/maps?cid=17008406116662590211',
+    googlePlaceId: 'ChIJ7aTxLR2VpzERAztBqz__Cew',
+    googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=G%26G%20Money%20Exchange%20Sunset%20Town%20Sunset%20Town%20Phu%20Quoc&query_place_id=ChIJ7aTxLR2VpzERAztBqz__Cew',
     location: {
       ko: '아말피 남쪽',
       en: 'South Amalfi',
@@ -286,7 +293,8 @@ export const BANKING_PLACES: BankingItem[] = [
     zone: 'sunset-town',
     lat: 10.0289939,
     lng: 104.0083389,
-    googleMapsUrl: 'https://www.google.com/maps?cid=9480964989714363871',
+    googlePlaceId: 'ChIJK4MK9QeXpzER3_XWA20nk4M',
+    googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=Sunset%20Town%20Exchange%20Sunset%20Town%20Phu%20Quoc&query_place_id=ChIJK4MK9QeXpzER3_XWA20nk4M',
     location: {
       ko: '아말피 58번지',
       en: '58 Amalfi St',
@@ -312,7 +320,8 @@ export const BANKING_PLACES: BankingItem[] = [
     zone: 'sunset-town',
     lat: 10.0363354,
     lng: 104.0069754,
-    googleMapsUrl: 'https://www.google.com/maps?cid=11676667545235786167',
+    googlePlaceId: 'ChIJX_dQ80WVpzERt4kcSkTbC6I',
+    googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=Exchange%20Money%20-%20Sol%20Cosy%20Phu%20Quoc%20Sunset%20Town%20Phu%20Quoc&query_place_id=ChIJX_dQ80WVpzERt4kcSkTbC6I',
     location: {
       ko: '뉴 안터이 북쪽(AT 96)',
       en: 'North New An Thoi (AT 96)',
@@ -341,7 +350,8 @@ export const BANKING_PLACES: BankingItem[] = [
     zone: 'khem-beach',
     lat: 10.035788,
     lng: 104.024647,
-    googleMapsUrl: 'https://www.google.com/maps?cid=5124801132809454571',
+    googlePlaceId: 'ChIJHb8567mWpzER64OgWXrzHkc',
+    googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=ATM%20Vietcombank%2C%20BIDV%20ATM%20Sunset%20Town%20Phu%20Quoc&query_place_id=ChIJHb8567mWpzER64OgWXrzHkc',
     location: {
       ko: 'JW 메리어트 입구, 24시간',
       en: 'JW Marriott Entrance, 24 Hours',
@@ -368,9 +378,10 @@ export const BANKING_PLACES: BankingItem[] = [
     },
     type: 'exchange',
     zone: 'khem-beach',
-    lat: 10.0335,
-    lng: 104.0285,
-    googleMapsUrl: 'https://www.google.com/maps?cid=7406987655171001539',
+    lat: 10.035838,
+    lng: 104.0268677,
+    googlePlaceId: 'ChIJ1cpuHmuXpzERw8wrSgfoymY',
+    googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=King%20Kong%20Money%20Exchange%20-%20Khem%20Beach%20Sunset%20Town%20Phu%20Quoc&query_place_id=ChIJ1cpuHmuXpzERw8wrSgfoymY',
     location: {
       ko: 'Kem Beach, 59 Diamond 1',
       en: 'Kem Beach, 59 Diamond 1',
