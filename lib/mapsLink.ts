@@ -14,10 +14,55 @@ export interface MapsLinkSource {
   lng?: number | null
 }
 
+const VALID_POI_PLACE_ID_RE = /^ChI[A-Za-z0-9_-]{21,}$/
+const VALID_GEOCODE_PLACE_ID_RE = /^GhIJ[A-Za-z0-9_-]{23}$/
+const VALID_COMPOUND_PLACE_ID_RE = /^E[g-v][A-Za-z0-9_-]{20,}={0,2}$/
+const FAKE_PREFIX_SLUG_RE = /^(?:ChI[A-Za-z0-9]?|GhIJ|E[g-v])_[a-z0-9_]+$/
+const HUMAN_SNAKE_WORDS_RE = /[a-z]{4,}_[a-z]{4,}/
+const REPEATED_CHAR_RE = /(.)\1{7,}/
+const SEQUENTIAL_DUMMY_RE = /(?:01234567|12345678|23456789|98765432|87654321|abcdefgh)/i
+
+export function isValidGooglePlaceId(placeId?: string | null): boolean {
+  if (typeof placeId !== 'string') return false
+  if (placeId.length < 22 || /\s/.test(placeId) || /[^\x20-\x7E]/.test(placeId)) {
+    return false
+  }
+  if (/https?:\/\/|\/maps\//i.test(placeId)) return false
+
+  const matchesOfficialFormat =
+    VALID_POI_PLACE_ID_RE.test(placeId) ||
+    VALID_GEOCODE_PLACE_ID_RE.test(placeId) ||
+    VALID_COMPOUND_PLACE_ID_RE.test(placeId)
+  if (!matchesOfficialFormat) return false
+
+  if (FAKE_PREFIX_SLUG_RE.test(placeId)) return false
+
+  const suffix = placeId
+    .replace(/^(?:ChI[A-Za-z0-9]|GhIJ|E[g-v])/, '')
+    .replace(/=+$/, '')
+  if (HUMAN_SNAKE_WORDS_RE.test(suffix)) return false
+  if (!/[A-Za-z]/.test(suffix)) return false
+  if (REPEATED_CHAR_RE.test(suffix) || SEQUENTIAL_DUMMY_RE.test(suffix)) return false
+  if (!/[A-Z]/.test(suffix) && (suffix.match(/_/g) || []).length >= 2) {
+    return false
+  }
+  return true
+}
+
+function sanitizePlaceId(placeId?: string | null): string | null {
+  if (typeof placeId !== 'string') return null
+  const trimmed = placeId.trim()
+  return isValidGooglePlaceId(trimmed) ? trimmed : null
+}
+
 function extractPlaceId(url?: string | null): string | null {
   if (!url) return null
-  const m = url.match(/place_id[:=]([A-Za-z0-9_-]+)/) || url.match(/query_place_id=([A-Za-z0-9_-]+)/)
-  return m ? m[1] : null
+  const m =
+    url.match(/place_id[:=]([A-Za-z0-9_-]+(?:=|%3D){0,2})/i) ||
+    url.match(/query_place_id=([A-Za-z0-9_-]+(?:=|%3D){0,2})/i)
+  if (!m) return null
+  const normalized = m[1].replace(/%3D/gi, '=')
+  return sanitizePlaceId(normalized)
 }
 
 function areaHint(address?: string | null): string {
@@ -27,23 +72,38 @@ function areaHint(address?: string | null): string {
 }
 
 export function buildGoogleMapsUrl(b: MapsLinkSource): string | null {
-  const placeId = b.google_place_id || extractPlaceId(b.google_maps_url)
+  const placeId = sanitizePlaceId(b.google_place_id) || extractPlaceId(b.google_maps_url)
   const name = (b.google_maps_name || b.public_name || '').trim()
   const hasCoords = typeof b.lat === 'number' && typeof b.lng === 'number' && b.lat !== 0 && b.lng !== 0
 
-  // 좌표가 검증된 업체: 좌표 + place_id (가장 정확)
-  if (hasCoords && placeId) {
-    return `https://www.google.com/maps/search/?api=1&query=${b.lat},${b.lng}&query_place_id=${placeId}`
+  // 1순위: 검증된 Google Place ID가 있는 경우 (폴백 쿼리도 상호명 우선으로 지정하여 좌표 핀 폴백 방지)
+  if (placeId) {
+    const fallbackQuery = name
+      ? encodeURIComponent(`${name} ${areaHint(b.address)}`)
+      : hasCoords
+        ? `${b.lat},${b.lng}`
+        : encodeURIComponent('Sunset Town Phu Quoc')
+    return `https://www.google.com/maps/search/?api=1&query=${fallbackQuery}&query_place_id=${encodeURIComponent(placeId)}`
   }
-  // 상호명 기반 검색 (+ place_id 가 맞으면 바로 장소로 이동)
+
+  // 2순위: place_id 파라미터 없는 확정 프로필 URL(cid= 또는 /maps/place/ 경로) 우선 활용
+  const rawUrl = b.google_maps_url?.trim()
+  if (
+    rawUrl &&
+    !rawUrl.includes('place_id') &&
+    (rawUrl.includes('cid=') || rawUrl.includes('/maps/place/'))
+  ) {
+    return rawUrl
+  }
+
+  // 3순위: 상호명 기반 검색 (단순 lat,lng 좌표 핀 노출 방지)
   if (name) {
     const q = encodeURIComponent(`${name} ${areaHint(b.address)}`)
-    return placeId
-      ? `https://www.google.com/maps/search/?api=1&query=${q}&query_place_id=${placeId}`
-      : `https://www.google.com/maps/search/?api=1&query=${q}`
+    return `https://www.google.com/maps/search/?api=1&query=${q}`
   }
+
+  // 4순위: 상호명이 없을 때만 좌표 또는 기존 search URL 폴백
   if (hasCoords) return `https://www.google.com/maps/search/?api=1&query=${b.lat},${b.lng}`
-  // 마지막 수단: 기존 URL 중 search 형식만 신뢰
-  if (b.google_maps_url && b.google_maps_url.includes('api=1')) return b.google_maps_url
+  if (rawUrl && rawUrl.includes('api=1') && !rawUrl.includes('place_id')) return rawUrl
   return null
 }
