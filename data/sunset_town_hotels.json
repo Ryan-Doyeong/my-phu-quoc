@@ -453,7 +453,11 @@
       "reviewQuote": {
         "text": "선셋타운 중심에 있어 위치가 탁월하고 수영장 전망과 조식이 훌륭합니다.",
         "source": "Agoda"
-      }
+      },
+      "googlePlaceId": "ChIJc4_lgKCWpzERfX9ic42Xi-s",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJc4_lgKCWpzERfX9ic42Xi-s",
+      "lat": 10.0295713,
+      "lng": 104.007601
     },
     {
       "slug": "roma-hotel-phu-quoc-h39560696",
@@ -708,7 +712,11 @@
       "reviewQuote": {
         "text": "루프탑에서 바라보는 일몰 풍경이 멋지고 가성비가 좋습니다.",
         "source": "Agoda"
-      }
+      },
+      "googlePlaceId": "ChIJjwfWKIqXpzERYsn-qQI_59o",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJjwfWKIqXpzERYsn-qQI_59o",
+      "lat": 10.0249368,
+      "lng": 104.0077788
     },
     {
       "slug": "times-corner-sorrento-boutique-hotel",
@@ -931,7 +939,11 @@
       "reviewQuote": {
         "text": "야시장과 광장이 바로 앞이라 이동하기 편하고 객실이 깨끗합니다.",
         "source": "Agoda"
-      }
+      },
+      "googlePlaceId": "ChIJk9NfQm6XpzERAcfkxs2uJV8",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJk9NfQm6XpzERAcfkxs2uJV8",
+      "lat": 10.0243852,
+      "lng": 104.0080894
     },
     {
       "slug": "le-bonheur-hotel",
@@ -1119,7 +1131,11 @@
       "reviewQuote": {
         "text": "케이블카 탑승장이 바로 코앞이라 케이블카 이용 시 최적의 위치입니다.",
         "source": "Agoda"
-      }
+      },
+      "googlePlaceId": "ChIJPZ4-MRiXpzER0cBb6s2l0EI",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJPZ4-MRiXpzER0cBb6s2l0EI",
+      "lat": 10.0278922,
+      "lng": 104.0084608
     },
     {
       "slug": "venice-hotel-phu-quoc",
@@ -1445,7 +1461,11 @@
       "reviewQuote": {
         "text": "발코니에서 바라보는 키스 브릿지 뷰가 인상적이고 조용하게 휴식하기 좋습니다.",
         "source": "Agoda"
-      }
+      },
+      "googlePlaceId": "ChIJT1X9WkqVpzERe6nExGNSEYw",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJT1X9WkqVpzERe6nExGNSEYw",
+      "lat": 10.0305511,
+      "lng": 104.0056075
     },
     {
       "slug": "coastal-living-hotel-phu-quoc",
@@ -1655,9 +1675,10 @@
         }
       ],
       "priceRange": "$$$",
-      "googleMapsUrl": "https://www.google.com/maps/place/Coastal+Living+Hotel+Phu+Quoc,+17+Positano,+Sunset+Town,+An+Th%E1%BB%9Bi,+Ph%C3%BA+Qu%E1%BB%91c/@10.0268,104.0079,18z",
-      "lat": 10.0268,
-      "lng": 104.0079
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ7WFKmwSVpzER8gm7K8E6wZQ",
+      "lat": 10.0305671,
+      "lng": 104.0061225,
+      "googlePlaceId": "ChIJ7WFKmwSVpzER8gm7K8E6wZQ"
     },
     {
       "slug": "roma-hotel-phu-qu-c",
@@ -1796,7 +1817,11 @@
       "reviewQuote": {
         "text": "부담 없는 가격에 깨끗한 룸에서 편안하게 잘 쉬었습니다.",
         "source": "Agoda"
-      }
+      },
+      "googlePlaceId": "ChIJSf1XiyqVpzERESXp2yD4RDI",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJSf1XiyqVpzERESXp2yD4RDI",
+      "lat": 10.0314659,
+      "lng": 104.0056396
     },
     {
       "slug": "sakurakyo-hotel-spa-phu-quoc",
@@ -2050,7 +2075,11 @@
         "text": "시설이 깔끔하고 스파와 수영장이 잘 갖추어져 있어 힐링하기 좋았습니다.",
         "source": "Agoda"
       },
-      "order": 2
+      "order": 2,
+      "googlePlaceId": "ChIJ5RnXOaiXpzER0QhbiBUJ6d8",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ5RnXOaiXpzER0QhbiBUJ6d8",
+      "lat": 10.0285478,
+      "lng": 104.0083292
     },
     {
       "slug": "times-corner-amalfi-hotel",
@@ -2238,7 +2267,11 @@
       "reviewQuote": {
         "text": "객실에서 불꽃놀이가 보이고 수영장이 예뻐서 만족스러웠습니다.",
         "source": "Agoda"
-      }
+      },
+      "googlePlaceId": "ChIJjRZrewCXpzERoLfxbMC-_ao",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJjRZrewCXpzERoLfxbMC-_ao",
+      "lat": 10.0286037,
+      "lng": 104.0085308
     },
     {
       "slug": "milan-hotel-coffee",
@@ -2406,7 +2439,11 @@
       "reviewQuote": {
         "text": "루프탑 수영장에서 보는 일몰이 멋지고 카페 커피도 맛있었습니다.",
         "source": "Agoda"
-      }
+      },
+      "googlePlaceId": "ChIJ8wmMbXaXpzERStmPml0_UD8",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ8wmMbXaXpzERStmPml0_UD8",
+      "lat": 10.0312009,
+      "lng": 104.0072642
     },
     {
       "slug": "kl-hotel-phu-quoc",
@@ -2596,7 +2633,11 @@
       "reviewQuote": {
         "text": "케이블카 바로 앞이라 이동하기 너무 편하고 가성비 좋습니다.",
         "source": "Agoda"
-      }
+      },
+      "googlePlaceId": "ChIJzwK0aw-XpzERxNMvFXY3aE4",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJzwK0aw-XpzERxNMvFXY3aE4",
+      "lat": 10.0279317,
+      "lng": 104.0085074
     },
     {
       "slug": "casepia",
@@ -2809,7 +2850,11 @@
       "reviewQuote": {
         "text": "바다와 산책로가 가까워 여유롭게 걷기 좋았고 룸 인테리어가 감각적입니다.",
         "source": "Agoda"
-      }
+      },
+      "googlePlaceId": "ChIJRxYLYomXpzERCi3mFgoiNp4",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJRxYLYomXpzERCi3mFgoiNp4",
+      "lat": 10.0245108,
+      "lng": 104.00787
     },
     {
       "slug": "solea-hotel-sunset-town-phu-quoc",
@@ -3042,7 +3087,11 @@
       "reviewQuote": {
         "text": "아이와 함께 수영장 이용하기 좋았고 위치도 이동하기 수월했습니다.",
         "source": "Agoda"
-      }
+      },
+      "googlePlaceId": "ChIJxbxyGNSXpzEREPa-cnK86aY",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJxbxyGNSXpzEREPa-cnK86aY",
+      "lat": 10.0298578,
+      "lng": 104.0083037
     },
     {
       "slug": "de-stefano-coffee-and-hotel",
@@ -3195,7 +3244,11 @@
       "reviewQuote": {
         "text": "커피 향 가득한 1층 분위기와 친절한 직원 덕분에 편안히 묵었습니다.",
         "source": "Agoda"
-      }
+      },
+      "googlePlaceId": "ChIJCY_uEYqXpzERtNAHnYgN8rc",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJCY_uEYqXpzERtNAHnYgN8rc",
+      "lat": 10.026039,
+      "lng": 104.0083764
     },
     {
       "slug": "khach-san-royal-phu-quoc",
@@ -3449,7 +3502,11 @@
       "reviewQuote": {
         "text": "케이블카와 가까워 관광 동선이 편했고 방이 넓었습니다.",
         "source": "Agoda"
-      }
+      },
+      "googlePlaceId": "ChIJtc9o0lKXpzERaiJkBt3PCf0",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJtc9o0lKXpzERaiJkBt3PCf0",
+      "lat": 10.0273346,
+      "lng": 104.0084437
     },
     {
       "slug": "cybele-hotel",
@@ -3663,7 +3720,11 @@
       "reviewQuote": {
         "text": "조용하게 지내기 좋고 가격 대비 부담 없이 머물기 좋은 숙소입니다.",
         "source": "Agoda"
-      }
+      },
+      "googlePlaceId": "ChIJM3WdM8mVpzERaaspeat4G3I",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJM3WdM8mVpzERaaspeat4G3I",
+      "lat": 10.0306654,
+      "lng": 104.0060165
     },
     {
       "slug": "hoang-hon-hotel",
@@ -3945,7 +4006,11 @@
       "reviewQuote": {
         "text": "스파를 함께 즐길 수 있어서 여행 피로를 풀기에 아주 좋았습니다.",
         "source": "Agoda"
-      }
+      },
+      "googlePlaceId": "ChIJOZ2m40eNpzERS3t2dXx4wKc",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJOZ2m40eNpzERS3t2dXx4wKc",
+      "lat": 10.0310481,
+      "lng": 104.0057705
     },
     {
       "slug": "thala-hotel-sorrento",
@@ -4121,7 +4186,11 @@
       "reviewQuote": {
         "text": "케이블카 타러 가기 편하고 주변에 먹거리도 많아서 좋았습니다.",
         "source": "Agoda"
-      }
+      },
+      "googlePlaceId": "ChIJhRYHJwCXpzERee2VZCGiccg",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJhRYHJwCXpzERee2VZCGiccg",
+      "lat": 10.0259619,
+      "lng": 104.0078636
     },
     {
       "slug": "catarina-hotel-phu-quoc",
@@ -4271,7 +4340,11 @@
       "reviewQuote": {
         "text": "룸이 깔끔하고 주방 편의가 있어 가족끼리 머물기 편리했습니다.",
         "source": "Agoda"
-      }
+      },
+      "googlePlaceId": "ChIJvXlceNuXpzERCRyDqyTL93o",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJvXlceNuXpzERCRyDqyTL93o",
+      "lat": 10.0296225,
+      "lng": 104.0085035
     },
     {
       "slug": "sunny-hotel",
@@ -4789,7 +4862,11 @@
       "reviewQuote": {
         "text": "수영장과 스파가 잘 되어 있고 케이블카 탑승장과도 아주 가깝습니다.",
         "source": "Agoda"
-      }
+      },
+      "googlePlaceId": "ChIJk3JMmVKXpzERdcBhMd_k9KY",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJk3JMmVKXpzERdcBhMd_k9KY",
+      "lat": 10.0271621,
+      "lng": 104.0088427
     },
     {
       "slug": "anna-hotel-free-cable-car-and-water-park-tickets",
@@ -4980,7 +5057,11 @@
       "reviewQuote": {
         "text": "인피니티 풀 전망이 시원하고 가격 대비 훌륭한 숙소입니다.",
         "source": "Agoda"
-      }
+      },
+      "googlePlaceId": "ChIJxTnMPKCWpzERg7paQsHm-00",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJxTnMPKCWpzERg7paQsHm-00",
+      "lat": 10.0307562,
+      "lng": 104.007559
     },
     {
       "slug": "juliet-boutique-hotel",
@@ -5194,7 +5275,11 @@
       "reviewQuote": {
         "text": "분위기가 아늑하고 조식이 맛있어 커플 여행에 추천합니다.",
         "source": "Agoda"
-      }
+      },
+      "googlePlaceId": "ChIJ5Z5ZTfmVpzERiSVXng2WHUY",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ5Z5ZTfmVpzERiSVXng2WHUY",
+      "lat": 10.0304382,
+      "lng": 104.0057465
     },
     {
       "slug": "hoa-ng-hon-ti-m-boutique-hotel",
@@ -5365,7 +5450,11 @@
       "reviewQuote": {
         "text": "소렌토 거리가 예쁘고 주변 산책하기 좋은 아담한 호텔입니다.",
         "source": "Agoda"
-      }
+      },
+      "googlePlaceId": "ChIJe4CLfRKXpzERL0ZvGC778Bk",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJe4CLfRKXpzERL0ZvGC778Bk",
+      "lat": 10.0257322,
+      "lng": 104.0076549
     },
     {
       "slug": "noska-hotel",
@@ -5877,7 +5966,9 @@
         "location": 8.8,
         "facilities": 7.9,
         "value": 8.6
-      }
+      },
+      "lat": 10.0327418,
+      "lng": 104.0055633
     },
     {
       "slug": "blue-hotel-sunset-town-phu-quoc",
@@ -5923,7 +6014,9 @@
         "location": 10,
         "facilities": 10,
         "value": 10
-      }
+      },
+      "lat": 10.0312716,
+      "lng": 104.0067887
     },
     {
       "slug": "the-fern-phu-quoc-hotel-sunset-town",
@@ -5969,7 +6062,9 @@
         "location": 8.2,
         "facilities": 6.7,
         "value": 7.2
-      }
+      },
+      "lat": 10.0321973,
+      "lng": 104.0056224
     },
     {
       "slug": "dido-carthage-apartment-sunset-town-phu-quoc-island",
@@ -6014,7 +6109,9 @@
         "location": 9.1,
         "facilities": 8.4,
         "value": 7.9
-      }
+      },
+      "lat": 10.030641,
+      "lng": 104.0078131
     },
     {
       "slug": "crystal-apartment-hillside-phu-quoc-sunset-town-firework",
@@ -6060,7 +6157,9 @@
         "location": 8.9,
         "facilities": 8.3,
         "value": 8.1
-      }
+      },
+      "lat": 10.0297255,
+      "lng": 104.0088018
     },
     {
       "slug": "rosie-hillside-phu-quoc-apartment",
@@ -6106,7 +6205,9 @@
         "location": 9.2,
         "facilities": 8.6,
         "value": 8.9
-      }
+      },
+      "lat": 10.0290251,
+      "lng": 104.0097745
     },
     {
       "slug": "sunset-home-apartment-phu-quoc",
@@ -6152,7 +6253,9 @@
         "location": 10,
         "facilities": 9.2,
         "value": 10
-      }
+      },
+      "lat": 10.0295592,
+      "lng": 104.0092207
     },
     {
       "slug": "the-juliet-a-boutique-hotel-coffee-ama-71",
@@ -6197,7 +6300,9 @@
         "location": 8.6,
         "facilities": 8,
         "value": 8.4
-      }
+      },
+      "lat": 10.0326826,
+      "lng": 104.0048769
     },
     {
       "slug": "eirlys-home-apartment-phu-quoc-firework-ocean-view",
@@ -6243,7 +6348,9 @@
         "location": 9.5,
         "facilities": 9,
         "value": 9.2
-      }
+      },
+      "lat": 10.0294303,
+      "lng": 104.0089904
     }
   ]
 }

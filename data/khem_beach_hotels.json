@@ -171,7 +171,10 @@
       "driveMinutesToSunsetTown": 10,
       "driveMinutesNote": "사장님 확인 2026-10-31",
       "agodaRawDescription": "바이켐 백사장에 위치한 메리어트 인터내셔널의 5성급 리조트입니다. 건축가 빌 벤슬리가 가상의 라마르크 대학교(Lamarck University) 콘셉트로 디자인하여 캠퍼스를 거니는 듯한 분위기를 제공합니다. 조개 모양의 쉘 풀을 포함한 3개의 야외 수영장, 핑크 펄 프렌치 레스토랑, 샹터렐 스파 바이 JW를 구비하고 있습니다.",
-      "isFeatured": true
+      "isFeatured": true,
+      "googlePlaceId": "ChIJLZPWxLiWpzERwrkgfIa1P8I",
+      "lat": 10.0332622,
+      "lng": 104.0284082
     },
     {
       "slug": "new-world-phu-quoc-resort",
@@ -190,7 +193,7 @@
         "service": 9.1,
         "facilities": 9.1,
         "valueForMoney": 8.7,
-        "location": 9.0
+        "location": 9
       },
       "cable_m": 13500,
       "address": "Khem Beach, An Thới, Phú Quốc, Kiên Giang 922280, Vietnam (바이켐 해변 남측)",
@@ -327,7 +330,10 @@
       "driveMinutesNote": "사장님 확인 2026-10-31",
       "agodaRawDescription": "바이켐 해변의 모래사장에 자리잡은 전 객실 독채 풀빌라 리조트입니다. 베트남 전통 어촌 마을의 초가지붕과 목재 건축 양식을 현대적으로 재해석한 375채의 독채 풀빌라로만 이루어져 있습니다. 리조트 중앙에는 해변까지 이어진 120미터 길이의 야외 인피니티 풀이 자리하며, 더 스파(The Spa), 바이켐 백사장, 키즈클럽, 그릴 레스토랑을 갖추고 있습니다.",
       "isFeatured": true,
-      "priceRange": "$$$$$"
+      "priceRange": "$$$$$",
+      "googlePlaceId": "ChIJy5uCwXCXpzERQSR2-hAgnuo",
+      "lat": 10.0393884,
+      "lng": 104.0274382
     },
     {
       "slug": "premier-village-phu-quoc-resort",
@@ -339,7 +345,7 @@
       "area": "khem-beach",
       "order": 3,
       "tier": "recommended",
-      "rating": 9.0,
+      "rating": 9,
       "reviewsCount": 1420,
       "subRatings": {
         "cleanliness": 9.2,
@@ -470,7 +476,7 @@
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/premier-village-phu-quoc-resort-managed-by-accorhotels/hotel/phu-quoc-island-vn.html",
       "priceRange": "$$$$$",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJr4pU6WmWpzERs3lqA96_P1I",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJcSDG-fqWpzERQkkxuLWDUyU",
       "googleRating": 4.7,
       "googleReviewsCount": 3820,
       "reviewHighlight": "곶 양쪽 바다를 품은 절경과 프라이빗 독채 풀빌라의 안락함",
@@ -483,7 +489,10 @@
       "driveMinutesToSunsetTown": 10,
       "driveMinutesNote": "사장님 확인 2026-10-31",
       "agodaRawDescription": "푸꾸옥 최남단 옹도이 곶(Mũi Ông Đội)의 반도 지형에 자리한 아코르 계열 5성급 풀빌라 리조트입니다. 바다로 둘러싸인 독특한 지형 덕분에 한 자리에서 동쪽 바다의 일출과 서쪽 바다의 일몰을 모두 감상할 수 있습니다. 전 객실이 단독 개인 수영장을 갖춘 풀빌라로 구성되어 프라이빗한 휴양을 지원하며, 반도를 가로지르는 다단식 인피니티 풀과 플루메리아 스파를 갖추고 있습니다.",
-      "isFeatured": true
+      "isFeatured": true,
+      "googlePlaceId": "ChIJcSDG-fqWpzERQkkxuLWDUyU",
+      "lat": 10.0159773,
+      "lng": 104.0392224
     },
     {
       "slug": "premier-residences-phu-quoc-emerald-bay",
@@ -498,7 +507,7 @@
       "rating": 8.8,
       "reviewsCount": 4210,
       "subRatings": {
-        "cleanliness": 9.0,
+        "cleanliness": 9,
         "service": 8.9,
         "facilities": 8.9,
         "valueForMoney": 8.9,
@@ -637,7 +646,10 @@
       ],
       "driveMinutesToSunsetTown": 10,
       "driveMinutesNote": "사장님 확인 2026-10-31",
-      "agodaRawDescription": "바이켐 해변의 백사장을 품은 아코르(Accor) 계열의 5성급 콘도텔형 리조트입니다. 총 629개의 현대적인 객실과 아파트먼트형 스위트로 구성되어 있으며, 일부 객실에는 간이 주방과 개인 플런지 풀이 구비되어 있어 가족 단위 여행객에게 인기가 높습니다. 5,000㎡ 규모의 계단식 멀티 레벨 야외 수영장은 해변까지 자연스럽게 연결되며, 키즈클럽, 에메랄드 스파, 다양한 레스토랑을 갖추고 있습니다."
+      "agodaRawDescription": "바이켐 해변의 백사장을 품은 아코르(Accor) 계열의 5성급 콘도텔형 리조트입니다. 총 629개의 현대적인 객실과 아파트먼트형 스위트로 구성되어 있으며, 일부 객실에는 간이 주방과 개인 플런지 풀이 구비되어 있어 가족 단위 여행객에게 인기가 높습니다. 5,000㎡ 규모의 계단식 멀티 레벨 야외 수영장은 해변까지 자연스럽게 연결되며, 키즈클럽, 에메랄드 스파, 다양한 레스토랑을 갖추고 있습니다.",
+      "googlePlaceId": "ChIJn6kim_SXpzERd6rlRMQmpZc",
+      "lat": 10.0349083,
+      "lng": 104.0276137
     },
     {
       "slug": "paralia-khem-beach-phu-quoc-hotel",
@@ -798,7 +810,7 @@
         "cleanliness": 9.2,
         "service": 9.3,
         "facilities": 8.6,
-        "valueForMoney": 9.0,
+        "valueForMoney": 9,
         "location": 8.8
       },
       "cable_m": 13300,
@@ -926,7 +938,7 @@
       "reviewsCount": 215,
       "subRatings": {
         "cleanliness": 8.8,
-        "service": 9.0,
+        "service": 9,
         "facilities": 8.3,
         "valueForMoney": 8.8,
         "location": 8.6
