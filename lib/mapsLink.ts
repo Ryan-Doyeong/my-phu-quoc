@@ -71,6 +71,17 @@ function areaHint(address?: string | null): string {
   return 'Sunset Town Phu Quoc'
 }
 
+export function isConfirmedPlaceProfileUrl(url?: string | null): boolean {
+  if (typeof url !== 'string') return false
+  const trimmed = url.trim()
+  if (!trimmed || /maps\.app\.goo\.gl|goo\.gl\/maps/i.test(trimmed)) return false
+  if (trimmed.includes('cid=') || trimmed.includes('ftid=')) return true
+  if (!trimmed.includes('/maps/place/')) return false
+  // 수제 `/maps/place/<Name>/@lat,lng,18z` URL은 실제 브라우저에서 `/maps/place//@lat,lng` 빈 지도로 리다이렉트되므로 차단.
+  // Google 공식 확정 프로필 경로는 반드시 `!1s0x...:0x...` 피처 ID 또는 `!3d...!4d...` 핀 데이터 블록을 포함함.
+  return /!1s0x[0-9a-f]+:0x[0-9a-f]+|!3d-?\d+\.\d+!4d-?\d+\.\d+/i.test(trimmed)
+}
+
 export function buildGoogleMapsUrl(b: MapsLinkSource): string | null {
   const placeId = sanitizePlaceId(b.google_place_id) || extractPlaceId(b.google_maps_url)
   const name = (b.google_maps_name || b.public_name || '').trim()
@@ -86,13 +97,9 @@ export function buildGoogleMapsUrl(b: MapsLinkSource): string | null {
     return `https://www.google.com/maps/search/?api=1&query=${fallbackQuery}&query_place_id=${encodeURIComponent(placeId)}`
   }
 
-  // 2순위: place_id 파라미터 없는 확정 프로필 URL(cid= 또는 /maps/place/ 경로) 우선 활용
+  // 2순위: place_id 파라미터 없는 확정 프로필 URL(cid=, ftid= 또는 엔티티 데이터 블록이 있는 /maps/place/) 우선 활용
   const rawUrl = b.google_maps_url?.trim()
-  if (
-    rawUrl &&
-    !rawUrl.includes('place_id') &&
-    (rawUrl.includes('cid=') || rawUrl.includes('/maps/place/'))
-  ) {
+  if (rawUrl && !rawUrl.includes('place_id') && isConfirmedPlaceProfileUrl(rawUrl)) {
     return rawUrl
   }
 

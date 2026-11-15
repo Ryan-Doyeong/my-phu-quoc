@@ -1059,8 +1059,8 @@
       "rating": 8.4,
       "reviewsCount": 95,
       "cable_m": 13300,
-      "lat": 10.03605,
-      "lng": 104.02955,
+      "lat": 10.0358408,
+      "lng": 104.0272998,
       "address": "D1-45, Melodia Bãi Khem, An Thới, Phú Quốc, Kiên Giang, Vietnam (바이켐 숍하우스)",
       "landmarks": [
         {
@@ -1139,7 +1139,8 @@
       ],
       "agodaUrl": "https://www.agoda.com/sun-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
       "priceRange": "$$",
-      "googleMapsUrl": "https://www.google.com/maps/place/Sun+Hotel+Khem+Beach,+D1-45+Melodia+B%C3%A3i+Khem,+An+Th%E1%BB%9Bi,+Ph%C3%BA+Qu%E1%BB%91c/@10.03605,104.02955,18z",
+      "googlePlaceId": "ChIJseXhorWXpzERrZEosod6EGQ",
+      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJseXhorWXpzERrZEosod6EGQ",
       "reviewHighlight": "바이켐 해변 도보 3분 입지와 부담 없는 숙박 요금의 실속형 숍하우스 호텔",
       "reviewPros": [
         "바이켐 해변 메인 진입 블록(D1-45)에 위치해 해변까지 평지 도보 3분 이동 가능",
