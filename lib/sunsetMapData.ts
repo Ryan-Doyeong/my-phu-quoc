@@ -377,7 +377,7 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     },
     bestTime: '15:00 - 17:30',
     operatingHours: '24시간 관람 가능',
-    googleMapsUrl: 'https://www.google.com/maps/place/%C4%90%C3%A0i+phun+n%C6%B0%E1%BB%9Bc+Th%E1%BA%A7n+M%E1%BA%B7t+Tr%E1%BB%9Di,+Sunset+Town,+An+Th%E1%BB%9Bi,+Ph%C3%BA+Qu%E1%BB%91c/@10.0299,104.0072,18z',
+    googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=%C4%90%C3%A0i+phun+n%C6%B0%E1%BB%9Bc+Th%E1%BA%A7n+M%E1%BA%B7t+Tr%E1%BB%9Di+Sunset+Town+Ph%C3%BA+Qu%E1%BB%91c',
   },
   {
     id: 'sunset-beach',
@@ -466,7 +466,7 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     },
     bestTime: '09:00 - 11:00 / 15:00 - 17:00',
     operatingHours: '24시간 관람 가능',
-    googleMapsUrl: 'https://www.google.com/maps/place/Kh%E1%BA%A3i+Ho%C3%A0n+M%C3%B4n+Th%E1%BB%8B+Tr%E1%BA%A5n+Ho%C3%A0ng+H%C3%B4n,+Sunset+Town,+An+Th%E1%BB%9Bi,+Ph%C3%BA+Qu%E1%BB%91c/@10.02545,104.00785,18z',
+    googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=Kh%E1%BA%A3i+Ho%C3%A0n+M%C3%B4n+Sunset+Town+Ph%C3%BA+Qu%E1%BB%91c',
   },
   {
     id: 'marina-pier',
@@ -510,7 +510,7 @@ export const SUNSET_LANDMARKS: MapLandmark[] = [
     },
     bestTime: '16:30 - 19:00',
     operatingHours: '07:00 - 21:00',
-    googleMapsUrl: 'https://www.google.com/maps/place/B%E1%BA%BFn+du+thuy%E1%BB%81n+Sunset+Town,+An+Th%E1%BB%9Bi,+Ph%C3%BA+Qu%E1%BB%91c/@10.02485,104.00685,18z',
+    googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=B%E1%BA%BFn+du+thuy%E1%BB%81n+Sunset+Town+Ph%C3%BA+Qu%E1%BB%91c',
   },
   {
     id: 'pompeii-ruins',

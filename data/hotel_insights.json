@@ -100,7 +100,7 @@
       "키스 브릿지 및 해변 도보 3분",
       "쾌적하고 모던한 객실 컨디션"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/place/Coastal+Living+Hotel+Phu+Quoc,+17+Positano,+Sunset+Town,+An+Th%E1%BB%9Bi,+Ph%C3%BA+Qu%E1%BB%91c/@10.0268,104.0079,18z",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ7WFKmwSVpzER8gm7K8E6wZQ",
     "location_en": "Kiss Bridge (240 m · 3 min walk) · VuiFest Night Market (280 m · 4 min walk) · Cable Car (360 m · 5 min walk) · Sun Bavaria Pub (350 m · 5 min walk)"
   },
   "roma-hotel-phu-qu-c": {
@@ -175,7 +175,7 @@
     "cons": [
       "객실 크기는 아담한 편"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=KL+Hotel+Phu+Quoc+Sunset+Town+An+Thoi",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJzwK0aw-XpzERxNMvFXY3aE4",
     "location_en": "Hon Thom Cable Car (approx. 40 m · 1 min walk)"
   },
   "casepia": {
@@ -295,7 +295,7 @@
     "cons": [
       "가장 작은 방은 17㎡로 다소 콤팩트함"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Palo+Santo+Hotel+Phu+Quoc+Sunset+Town",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJOZ2m40eNpzERS3t2dXx4wKc",
     "location_en": "Hon Thom Cable Car (approx. 430 m · 6 min walk)"
   },
   "thala-hotel-sorrento": {
@@ -325,7 +325,7 @@
     "cons": [
       "주요 번화가에서 약간 떨어진 조용한 위치"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Catarina+Hotel+Phu+Quoc+Sunset+Town",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJvXlceNuXpzERCRyDqyTL93o",
     "location_en": "Hon Thom Cable Car (approx. 230 m · 4 min walk)"
   },
   "sunny-hotel": {
@@ -355,7 +355,7 @@
     "cons": [
       "케이블카 탑승장까지 도보 약 8~9분 거리"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Solaro+Hotel+Sunset+Town+Phu+Quoc",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJk3JMmVKXpzERdcBhMd_k9KY",
     "location_en": "Hon Thom Cable Car (approx. 150 m · 2 min walk)"
   },
   "anna-hotel-free-cable-car-and-water-park-tickets": {
@@ -370,7 +370,7 @@
     "cons": [
       "중심 번화가까지 도보 이동 필요"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Anna+Hotel+Sunset+Town+Phu+Quoc",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJxTnMPKCWpzERg7paQsHm-00",
     "location_en": "Hon Thom Cable Car (approx. 340 m · 5 min walk)"
   },
   "juliet-boutique-hotel": {
@@ -432,7 +432,7 @@
     "cons": [
       "곶 끝자락에 위치해 외부 상권으로 나가려면 버기 및 차량 필요"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJr4pU6WmWpzERs3lqA96_P1I"
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJcSDG-fqWpzERQkkxuLWDUyU"
   },
   "premier-residences-phu-quoc-emerald-bay": {
     "location": "켐비치에 위치, 선셋타운까지 차량 10분",
@@ -614,6 +614,6 @@
       "케이블카 도보 4분 초인접"
     ],
     "cons": [],
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ_triland_hillside_phu_quoc"
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJOZ1p38-VpzERKC1kUSIrA4A"
   }
 }
