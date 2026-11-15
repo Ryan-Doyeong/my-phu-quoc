@@ -1,0 +1,16 @@
+{
+  "ban-google-places-api": {
+    "PreToolUse": [
+      {
+        "matcher": "run_command",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ./hooks/block-google-places-api.mjs",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
