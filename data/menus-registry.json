@@ -3515,7 +3515,7 @@
     "master_category": "4. 바 & 펍 & 비치클럽",
     "info_level": "B",
     "status": "partial",
-    "menu_date": "2026-10",
+    "menu_date": "2026-11",
     "stale": false,
     "currency": "VND",
     "price_note_global": null,
@@ -3531,18 +3531,84 @@
     "sections": [
       {
         "section_original": "Skyline Cocktails / 스카이라인 선셋 칵테일",
-        "section_ko": "선셋 루프탑 시그니처 칵테일",
+        "section_ko": "선셋 루프탑 시그니처 칵테일 & 스프리츠",
         "items": [
           {
             "name_original": "Cielo Kiss of the Sea Cocktail",
             "name_ko": "씨엘로 키스 오브 더 씨 칵테일",
-            "description_original": "Sparkling prosecco layered with blue curacao, elderflower liqueur, and gold glitter",
-            "description_ko": "야간 불꽃놀이와 바다의 반짝임을 모티브로 프로세코와 엘더플라워로 빚어낸 칵테일",
+            "description_original": "Sparkling prosecco layered with blue curacao, elderflower liqueur, and gold shimmer",
+            "description_ko": "야간 불꽃놀이와 바다의 반짝임을 모티브로 프로세코와 엘더플라워로 빚어낸 시그니처 칵테일",
             "price_vnd": 290000,
             "tags": [
-              "칵테일",
               "시그니처",
-              "불꽃놀이명당"
+              "칵테일"
+            ],
+            "source_ref": "s1"
+          },
+          {
+            "name_original": "Amalfi Sunset Aperol Spritz",
+            "name_ko": "아말피 선셋 아페롤 스프리츠",
+            "description_original": "Classic Italian Aperol spritz with chilled prosecco, soda, and charred blood orange",
+            "description_ko": "아말피 해안 노을을 닮은 오렌지빛 아페롤과 프로세코 스파클링 와인을 블렌딩한 이탈리안 스프리츠",
+            "price_vnd": 260000,
+            "tags": [
+              "스프리츠",
+              "인기"
+            ],
+            "source_ref": "s1"
+          },
+          {
+            "name_original": "Mediterranean Tropical Campari Spritz",
+            "name_ko": "지중해 트로피컬 캄파리 스프리츠",
+            "description_original": "Campari infused with Phu Quoc passionfruit, sparkling wine, and fresh rosemary",
+            "description_ko": "쌉싸름한 캄파리에 푸꾸옥 열대 패션프루트와 로즈마리 향을 더한 루프탑 아페리티보",
+            "price_vnd": 260000,
+            "tags": [
+              "아페리티보",
+              "칵테일"
+            ],
+            "source_ref": "s1"
+          },
+          {
+            "name_original": "Italian Prosecco DOC (By the Glass)",
+            "name_ko": "이탈리안 프로세코 스파클링 와인 (글라스)",
+            "description_original": "Crisp Venetian Prosecco DOC served chilled with orchard fruit notes",
+            "description_ko": "선셋과 야간 불꽃놀이에 가볍게 곁들이기 좋은 산뜻한 베네토산 프로세코 글라스 와인",
+            "price_vnd": 250000,
+            "tags": [
+              "와인",
+              "스파클링"
+            ],
+            "source_ref": "s1"
+          }
+        ]
+      },
+      {
+        "section_original": "Venetian Cicchetti & Tapas",
+        "section_ko": "베네치안 치케티 & 타파스 스낵",
+        "items": [
+          {
+            "name_original": "Assorted Venetian Cicchetti & Tapas Bites",
+            "name_ko": "베네치안 치케티 & 지중해 타파스 플래터",
+            "description_original": "Artisanal bruschetta, marinated Mediterranean olives, cured meats, and crispy calamari bites",
+            "description_ko": "수제 브루스케타, 지중해식 마리네이드 올리브, 샤퀴테리와 바삭한 칼라마리를 모은 루프탑 와인 안주 플래터",
+            "price_vnd": 380000,
+            "tags": [
+              "타파스",
+              "핑거푸드"
+            ],
+            "source_ref": "s1"
+          },
+          {
+            "name_original": "Fireworks Balcony Surf & Turf Sharing Set (For 2)",
+            "name_ko": "심포니 오브 더 씨 불꽃놀이 서프 앤 터프 2인 세트",
+            "description_original": "Prime balcony seating grill platter with seafood and beef cuts for two during the fireworks show",
+            "description_ko": "발코니 불꽃놀이 관람석에서 즐기는 그릴 해산물 & 비프 서프 앤 터프 2인 다이닝 세트",
+            "price_vnd": 1900000,
+            "price_note": "1,900,000 VND (2인 기준)",
+            "tags": [
+              "불꽃놀이세트",
+              "2인추천"
             ],
             "source_ref": "s1"
           }
@@ -7872,26 +7938,27 @@
         "accessed": "2026-10-25"
       }
     ],
-    "sections": [
-      {
-        "section_ko": "구글맵 검증 대표 추천 메뉴 (Signature Dishes)",
-        "section_original": "Signature Dishes & Recommendations",
-        "items": [
-          {
-            "name_original": "Buffet Hải Sản Nướng & Lẩu Hoàng Hôn",
-            "name_ko": "선셋타운 대형 해산물 구이 & 핫팟 뷔페 (석식)",
-            "price_vnd": 350000,
-            "price_note": "약 350,000 ~ 550,000 VND / 1인",
-            "description_ko": "구글맵 방문자 리뷰 및 사진에서 확인된 대표 추천 메뉴 (선셋타운 대형 해산물 구이 & 핫팟 뷔페 (석식))"
-          }
-        ]
-      }
-    ],
+    "sections": [],
     "known_dishes": [
       {
-        "name_original": "Buffet Hải Sản Nướng & Lẩu Hoàng Hôn",
-        "name_ko": "선셋타운 대형 해산물 구이 & 핫팟 뷔페 (석식)",
-        "price_approx": "약 350,000 ~ 550,000 VND / 1인"
+        "name_original": "Buffet Hải Sản Nướng & Lẩu Hoàng Hôn | Sunset Town BBQ & Hotpot Seafood Buffet",
+        "name_ko": "선셋타운 해산물 구이 & 핫팟 디너 뷔페",
+        "price_approx": "350,000 ~ 600,000 VND"
+      },
+      {
+        "name_original": "Ghẹ Hàm Ninh & Tôm Sú Tươi Nướng | Grilled Phu Quoc Flower Crab & Tiger Prawns",
+        "name_ko": "푸꾸옥 꽃게찜 & 타이거 새우 숯불구이 코너",
+        "price_approx": null
+      },
+      {
+        "name_original": "Hàu Nướng Phô Mai & Sò Điệp Mỡ Hành | Baked Cheese Oysters & Scallops with Scallion Oil",
+        "name_ko": "치즈 굴구이 & 쪽파기름 가리비 구이",
+        "price_approx": null
+      },
+      {
+        "name_original": "Lẩu Hải Sản Chua Cay Phú Quốc | Phu Quoc Spicy & Sour Seafood Hotpot",
+        "name_ko": "푸꾸옥식 매콤새콤 해산물 전골(러우 하이산)",
+        "price_approx": null
       }
     ],
     "price_range": {
@@ -16291,7 +16358,7 @@
   },
   "ChIJ-yY2EeuVpzERZkC-0w4sM4A": {
     "place_id": "ChIJ-yY2EeuVpzERZkC-0w4sM4A",
-    "slug": "sunset-place-9",
+    "slug": "solana-spa-sunset-town-phu-quoc",
     "info_level": "C",
     "menu_date": "2026-11",
     "sources": [

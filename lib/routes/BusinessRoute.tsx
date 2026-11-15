@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { SiteHeader } from '@/components/SiteHeader'
-import { notFound, redirect } from 'next/navigation'
+import { notFound, permanentRedirect, redirect } from 'next/navigation'
 import type { Metadata } from 'next'
 import { createPublicClient } from '@/lib/supabase/public'
 import { Logo } from '@/components/Logo'
@@ -89,6 +89,7 @@ const PHOTO_REQUEST_LINK: Record<string, string> = {
 const DELETED_SLUG_REDIRECTS: Record<string, string> = {
   'sunset-place-4': '/directory/dining',
   'sunset-place-8': '/directory/wellness',
+  'sunset-place-9': '/business/solana-spa-sunset-town-phu-quoc',
   'the-nice-hotel-phu-quoc-fireworks-ocean-view': '/hotels',
   'th-luxury-hotel': '/hotels',
 }
@@ -120,7 +121,10 @@ export async function generateBusinessMetadata(
   }
   // Supabase에 데이터가 없거나 에러인 경우 로컬 선셋타운 JSON fallback 사용
   if (!b) {
-    b = (businessesRegistry as any[]).find((x) => x.slug === slug && x.status === 'published') || null
+    b =
+      (businessesRegistry as any[]).find(
+        (x) => x.slug === slug && (!x.status || x.status === 'published')
+      ) || null
   }
   // 켐비치 업체는 Supabase에 없으므로 khemBusinesses에서 published 상태인 업체 조회
   if (!b) {
@@ -136,6 +140,11 @@ export async function generateBusinessMetadata(
       status: regItem.status ?? b.status,
       category: regItem.category ?? b.category,
       subcategory: regItem.subcategory ?? b.subcategory,
+      address: regItem.address ?? b.address,
+      description_ko: regItem.description_ko ?? b.description_ko,
+      description_en: regItem.description_en ?? b.description_en,
+      description_vi: regItem.description_vi ?? b.description_vi,
+      website_url: regItem.website_url ?? b.website_url,
       price_level: 'price_level' in regItem ? regItem.price_level : b.price_level,
       lat: regItem.lat ?? b.lat,
       lng: regItem.lng ?? b.lng,
@@ -154,6 +163,18 @@ export async function generateBusinessMetadata(
           : b.badges,
       is_featured: regItem.is_featured ?? b.is_featured,
       aliases: regItem.aliases ?? b.aliases,
+      amenities:
+        regItem.amenities && Object.keys(regItem.amenities).length > 0
+          ? { ...(b.amenities || {}), ...regItem.amenities }
+          : b.amenities,
+      services:
+        Array.isArray(regItem.services) && regItem.services.length > 0
+          ? regItem.services
+          : b.services,
+      highlights:
+        Array.isArray(regItem.highlights) && regItem.highlights.length > 0
+          ? regItem.highlights
+          : b.highlights,
       gallery_urls:
         Array.isArray(regItem.gallery_urls) && regItem.gallery_urls.length > 0
           ? regItem.gallery_urls
@@ -214,6 +235,9 @@ function splitBusinessTitle(name: string) {
 }
 
 export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
+  if (slug === 'sunset-place-9') {
+    permanentRedirect(localePath(locale, '/business/solana-spa-sunset-town-phu-quoc'))
+  }
   if (DELETED_SLUG_REDIRECTS[slug]) {
     redirect(localePath(locale, DELETED_SLUG_REDIRECTS[slug]))
   }
@@ -238,7 +262,10 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
   }
   // Supabase에 데이터가 없거나 에러인 경우 로컬 선셋타운 JSON fallback 사용
   if (!b) {
-    b = (businessesRegistry as any[]).find((x) => x.slug === slug && x.status === 'published') || null
+    b =
+      (businessesRegistry as any[]).find(
+        (x) => x.slug === slug && (!x.status || x.status === 'published')
+      ) || null
   }
   // 켐비치 업체는 Supabase에 없으므로 khemBusinesses에서 published 상태인 업체 조회
   if (!b) {
@@ -251,6 +278,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
     if ('price_level' in regItemForEnrich) b.price_level = regItemForEnrich.price_level
     if (regItemForEnrich.description_ko) b.description_ko = regItemForEnrich.description_ko
     if (regItemForEnrich.description_en) b.description_en = regItemForEnrich.description_en
+    if (regItemForEnrich.description_vi) b.description_vi = regItemForEnrich.description_vi
     if (regItemForEnrich.agoda_url && !b.agoda_url) b.agoda_url = regItemForEnrich.agoda_url
     if (regItemForEnrich.website_url && regItemForEnrich.website_url.includes('agoda.com') && (!b.website_url || !b.website_url.includes('agoda.com'))) {
       b.website_url = regItemForEnrich.website_url
@@ -278,6 +306,11 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
       status: regItem.status ?? b.status,
       category: regItem.category ?? b.category,
       subcategory: regItem.subcategory ?? b.subcategory,
+      address: regItem.address ?? b.address,
+      description_ko: regItem.description_ko ?? b.description_ko,
+      description_en: regItem.description_en ?? b.description_en,
+      description_vi: regItem.description_vi ?? b.description_vi,
+      website_url: regItem.website_url ?? b.website_url,
       price_level: 'price_level' in regItem ? regItem.price_level : b.price_level,
       lat: regItem.lat ?? b.lat,
       lng: regItem.lng ?? b.lng,
@@ -296,6 +329,18 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
           : b.badges,
       is_featured: regItem.is_featured ?? b.is_featured,
       aliases: regItem.aliases ?? b.aliases,
+      amenities:
+        regItem.amenities && Object.keys(regItem.amenities).length > 0
+          ? { ...(b.amenities || {}), ...regItem.amenities }
+          : b.amenities,
+      services:
+        Array.isArray(regItem.services) && regItem.services.length > 0
+          ? regItem.services
+          : b.services,
+      highlights:
+        Array.isArray(regItem.highlights) && regItem.highlights.length > 0
+          ? regItem.highlights
+          : b.highlights,
       gallery_urls:
         Array.isArray(regItem.gallery_urls) && regItem.gallery_urls.length > 0
           ? regItem.gallery_urls
@@ -354,13 +399,20 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
   const businessDisplayName = displayBusinessName(b, locale)
 
   const isDiningOrFood =
-    (!isNameOnly || Boolean(menuData)) &&
+    !isNameOnly &&
     (b.category === 'dining' ||
       b.category === 'food' ||
       b.category === 'cafe' ||
       b.category === 'bars' ||
-      (b.category === 'beaches' && b.subcategory !== 'beach') ||
-      Boolean(menuData))
+      (b.category === 'beaches' && b.subcategory !== 'beach'))
+
+  const isStockOrFallbackUrl = (u?: string | null) =>
+    !u || u.startsWith('/stock/') || u.startsWith('/categories/')
+  const coverEntry = getCoverPhoto(b.slug)
+  const hasRealVenuePhotos =
+    (Array.isArray(b.gallery_urls) &&
+      b.gallery_urls.some((u: string) => !isStockOrFallbackUrl(u))) ||
+    Boolean(coverEntry?.image_url && !isStockOrFallbackUrl(coverEntry.image_url))
 
   const foodGuide = isDiningOrFood ? getFoodGuideForBusiness(b, menuData) : null
   const categoryGuide = !isNameOnly && !isDiningOrFood && !isKhem ? getKnowledgeGuideForBusiness(b, menuData) : null
@@ -689,7 +741,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
             />
           )}
         </div>
-        {!isNameOnly && b.media_note && (
+        {!isNameOnly && !hasRealVenuePhotos && b.media_note && (
           <div className="mediaDisclosure">
             <strong>{dict.business.photoNoteTitle}</strong>{' '}
             <span>{dict.business.photoNoteDesc}</span>
@@ -843,28 +895,34 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
               )}
             </article>
 
-            {/* 2. Menu & Enriched Accordions (식음료 업체 전용 아코디언 3섹션) */}
+            {/* 2. Menu & Enriched Accordions (업종별 맞춤 아코디언) */}
             {(() => {
-              if (isDiningOrFood) {
-                const explicitGuide = (diningCultureGuidesJson as Record<string, any>)[b.slug]
-                const fallbackGuide = foodGuide ? {
-                  food_style: { ko: foodGuide.eyebrow, en: foodGuide.eyebrow },
-                  culture_story: { ko: foodGuide.introText, en: foodGuide.introText },
-                  sauce_guide: null,
-                  sauce_details: null,
-                  eating_tips: foodGuide.sections.map(s => ({
-                    title_ko: s.ko?.subheading || s.title,
-                    title_en: s.en?.subheading || s.title,
-                    desc_ko: s.ko?.paragraphs?.[0] || '',
-                    desc_en: s.en?.paragraphs?.[0] || '',
-                  }))
-                } : null
+              const enrichedPhotos =
+                Array.isArray(b.gallery_urls) && b.gallery_urls.length > 0 ? b.gallery_urls : []
+              const shouldShowAccordions =
+                !isNameOnly && (isDiningOrFood || Boolean(menuData) || enrichedPhotos.length > 0)
 
-                const cultureGuide = explicitGuide || fallbackGuide
-                // 핫픽스: 실제 고유 사진이 등록된 업체(b.gallery_urls)에만 사진 더 보기 갤러리를 노출하고, 그 외에는 빈 배열 전달하여 섹션 숨김
-                const enrichedPhotos = b.gallery_urls && b.gallery_urls.length > 0
-                  ? b.gallery_urls
-                  : []
+              if (shouldShowAccordions) {
+                const explicitGuide = isDiningOrFood
+                  ? (diningCultureGuidesJson as Record<string, any>)[b.slug]
+                  : null
+                const fallbackGuide =
+                  isDiningOrFood && foodGuide
+                    ? {
+                        food_style: { ko: foodGuide.eyebrow, en: foodGuide.eyebrow },
+                        culture_story: { ko: foodGuide.introText, en: foodGuide.introText },
+                        sauce_guide: null,
+                        sauce_details: null,
+                        eating_tips: foodGuide.sections.map((s) => ({
+                          title_ko: s.ko?.subheading || s.title,
+                          title_en: s.en?.subheading || s.title,
+                          desc_ko: s.ko?.paragraphs?.[0] || '',
+                          desc_en: s.en?.paragraphs?.[0] || '',
+                        })),
+                      }
+                    : null
+
+                const cultureGuide = isDiningOrFood ? explicitGuide || fallbackGuide : null
 
                 return (
                   <EnrichedBusinessAccordions
@@ -873,6 +931,7 @@ export async function renderBusinessRoute(slug: string, locale: Locale = 'en') {
                     locale={locale}
                     cultureGuide={cultureGuide}
                     photos={enrichedPhotos}
+                    isDiningOrFood={isDiningOrFood}
                   />
                 )
               }

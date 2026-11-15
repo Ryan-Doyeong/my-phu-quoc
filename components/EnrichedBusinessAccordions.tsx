@@ -11,6 +11,7 @@ interface EnrichedBusinessAccordionsProps {
   locale?: Locale
   cultureGuide?: any
   photos?: string[]
+  isDiningOrFood?: boolean
 }
 
 const SECTION_TITLES = {
@@ -22,6 +23,33 @@ const SECTION_TITLES = {
     ja: 'メニュー・料金',
     ru: 'Меню и цены',
     hi: 'मेन्यू और कीमतें',
+  },
+  shopping: {
+    ko: '주요 취급 품목 & 가격',
+    en: 'Featured Items & Prices',
+    vi: 'Mặt hàng & Giá cả',
+    zh: '主要商品与价格',
+    ja: '主な取扱商品・価格',
+    ru: 'Товары и цены',
+    hi: 'प्रमुख सामान और कीमतें',
+  },
+  wellness: {
+    ko: '프로그램 & 요금',
+    en: 'Treatments & Rates',
+    vi: 'Liệu trình & Bảng giá',
+    zh: '理疗项目与价格',
+    ja: '施術メニュー・料金',
+    ru: 'Процедуры и цены',
+    hi: 'स्पा प्रोग्राम और शुल्क',
+  },
+  tickets: {
+    ko: '이용권 & 요금 안내',
+    en: 'Tickets & Rates',
+    vi: 'Vé & Bảng giá',
+    zh: '门票与费用指南',
+    ja: 'チケット・料金案内',
+    ru: 'Билеты и тарифы',
+    hi: 'टिकट और शुल्क विवरण',
   },
   culture: {
     ko: '이 음식 알고 먹기',
@@ -149,6 +177,7 @@ export function EnrichedBusinessAccordions({
   locale = 'ko',
   cultureGuide,
   photos = [],
+  isDiningOrFood = true,
 }: EnrichedBusinessAccordionsProps) {
   // 3개 섹션 기본은 모두 접힌 상태 (false)
   const [openSections, setOpenSections] = useState<Record<string, boolean>>({
@@ -169,6 +198,24 @@ export function EnrichedBusinessAccordions({
 
   const isKo = locale === 'ko'
   const ui = ACCORDION_UI[locale] || ACCORDION_UI.en
+  const cat = business?.category || ''
+  const catalogSectionKey: 'menu' | 'shopping' | 'wellness' | 'tickets' =
+    cat === 'shopping'
+      ? 'shopping'
+      : cat === 'wellness'
+      ? 'wellness'
+      : !isDiningOrFood && (cat === 'beaches' || cat === 'activities')
+      ? 'tickets'
+      : 'menu'
+  const catalogIcon =
+    catalogSectionKey === 'shopping'
+      ? '🛍️'
+      : catalogSectionKey === 'wellness'
+      ? '💆'
+      : catalogSectionKey === 'tickets'
+      ? '🎟️'
+      : '🍽️'
+  const showCatalogAccordion = isDiningOrFood || Boolean(menuData)
 
   // 사진 캡션 헬퍼
   const getImageCaption = (url: string, index: number) => {
@@ -213,13 +260,51 @@ export function EnrichedBusinessAccordions({
   const rawEatingTips = locGuide?.eating_tips || (isKo ? cultureGuide?.eating_tips : []) || []
   const eatingTips = typeof rawEatingTips === 'string' ? [{ desc_ko: rawEatingTips, desc_en: rawEatingTips }] : rawEatingTips
 
-  // 고객용 메뉴 요약줄 계산 (7개 국어 지원)
+  // 고객용 메뉴/품목/프로그램 요약줄 계산 (7개 국어 지원, 업종별 자연스러운 표현)
   const getMenuSummaryText = () => {
+    const total = String(menuData?.totalItems || 0)
+    const hasPrices = menuData?.sections?.some(s =>
+      s.items?.some(i => i.price_vnd !== null || (i.price_text && !i.price_text.includes('미확인')))
+    )
+    if (catalogSectionKey === 'shopping') {
+      if (!menuData || menuData.totalItems === 0) {
+        return locale === 'ko' ? '현장 진열 품목 기준 운영' : locale === 'vi' ? 'Bán theo niêm yết tại quầy' : locale === 'zh' ? '按店内实际陈列销售' : locale === 'ja' ? '店頭陳列商品に準拠' : locale === 'ru' ? 'Ассортимент представлен на месте' : locale === 'hi' ? 'स्टोर में उपलब्ध सामान के अनुसार' : 'Items stocked on-site'
+      }
+      return locale === 'ko'
+        ? `주요 취급 품목 ${total}개 안내${hasPrices ? ' · 가격 포함' : ''}`
+        : locale === 'vi'
+        ? `${total} mặt hàng tiêu biểu${hasPrices ? ' · Có giá tham khảo' : ''}`
+        : locale === 'zh'
+        ? `已整理 ${total} 项主要商品${hasPrices ? ' · 含参考价格' : ''}`
+        : locale === 'ja'
+        ? `主な取扱商品 ${total}点${hasPrices ? ' · 参考価格あり' : ''}`
+        : locale === 'ru'
+        ? `Позиций в каталоге: ${total}${hasPrices ? ' · С ценами' : ''}`
+        : locale === 'hi'
+        ? `${total} प्रमुख सामान सूचीबद्ध${hasPrices ? ' · कीमतें शामिल' : ''}`
+        : `${total} featured items listed${hasPrices ? ' · Prices included' : ''}`
+    }
+    if (catalogSectionKey === 'wellness') {
+      if (!menuData || menuData.totalItems === 0) {
+        return locale === 'ko' ? '현장 상담 후 코스 선택 가능' : locale === 'vi' ? 'Tư vấn liệu trình trực tiếp tại spa' : locale === 'zh' ? '到店咨询选择理疗套餐' : locale === 'ja' ? '店頭カウンセリング後にコース選択可' : locale === 'ru' ? 'Подбор программы на месте' : locale === 'hi' ? 'स्पा में परामर्श के बाद चयन उपलब्ध' : 'Consultation & treatment menu available on-site'
+      }
+      return locale === 'ko'
+        ? `스파·마사지 프로그램 ${total}개 확인${hasPrices ? ' · 요금 포함' : ''}`
+        : locale === 'vi'
+        ? `${total} liệu trình spa & massage${hasPrices ? ' · Có bảng giá' : ''}`
+        : locale === 'zh'
+        ? `已核实 ${total} 项理疗套餐${hasPrices ? ' · 含价格信息' : ''}`
+        : locale === 'ja'
+        ? `施術プログラム ${total}コース確認済み${hasPrices ? ' · 料金あり' : ''}`
+        : locale === 'ru'
+        ? `Проверено программ: ${total}${hasPrices ? ' · Тарифы указаны' : ''}`
+        : locale === 'hi'
+        ? `${total} स्पा प्रोग्राम सूचीबद्ध${hasPrices ? ' · शुल्क शामिल' : ''}`
+        : `${total} spa & massage treatments${hasPrices ? ' · Rates included' : ''}`
+    }
     if (!menuData || menuData.totalItems === 0) {
       return ui.menuUnconfirmed
     }
-    const hasPrices = menuData.sections?.some(s => s.items?.some(i => i.price_vnd !== null || (i.price_text && !i.price_text.includes('미확인'))))
-    const total = String(menuData.totalItems)
     if (hasPrices) {
       return ui.menuWithPricesTpl.replace('{n}', total)
     } else {
@@ -228,113 +313,131 @@ export function EnrichedBusinessAccordions({
   }
 
   const menuSummary = getMenuSummaryText()
+  const photoCountText = isDiningOrFood
+    ? ui.photoCountTpl.replace('{n}', String(photos.length))
+    : locale === 'ko'
+    ? `현장 확인 매장·시설 사진 총 ${photos.length}장`
+    : locale === 'vi'
+    ? `Tổng cộng ${photos.length} ảnh không gian và cơ sở thực tế`
+    : locale === 'zh'
+    ? `共 ${photos.length} 张门店与设施实拍照片`
+    : locale === 'ja'
+    ? `店舗・施設の現地写真 全${photos.length}枚`
+    : locale === 'ru'
+    ? `Реальные фото заведения и интерьеров: ${photos.length}`
+    : locale === 'hi'
+    ? `स्थान और सुविधाओं की ${photos.length} वास्तविक तस्वीरें`
+    : `${photos.length} verified venue & facility photos`
 
   return (
     <div className="enrichedAccordionWrapper" style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
       {/* ========================================================= */}
-      {/* 1. 메뉴 & 가격 아코디언 */}
+      {/* 1. 메뉴 / 취급 품목 / 프로그램 아코디언 */}
       {/* ========================================================= */}
-      <section
-        className={`accordionCard ${openSections.menu ? 'isOpen' : ''}`}
-        style={{
-          background: '#ffffff',
-          border: '1px solid #e5e7eb',
-          borderRadius: '14px',
-          overflow: 'hidden',
-          boxShadow: '0 1px 3px rgba(0,0,0,0.04)',
-          transition: 'all 0.2s ease',
-        }}
-      >
-        <button
-          type="button"
-          onClick={() => toggleSection('menu')}
-          aria-expanded={openSections.menu}
+      {showCatalogAccordion && (
+        <section
+          className={`accordionCard ${openSections.menu ? 'isOpen' : ''}`}
           style={{
-            width: '100%',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            padding: '18px 20px',
-            background: 'none',
-            border: 'none',
-            cursor: 'pointer',
-            textAlign: 'left',
+            background: '#ffffff',
+            border: '1px solid #e5e7eb',
+            borderRadius: '14px',
+            overflow: 'hidden',
+            boxShadow: '0 1px 3px rgba(0,0,0,0.04)',
+            transition: 'all 0.2s ease',
           }}
         >
-          <div style={{ display: 'flex', alignItems: 'center', gap: '12px', minWidth: 0 }}>
-            <span style={{ fontSize: '20px', flexShrink: 0 }}>🍽️</span>
-            <div>
-              <h2
-                style={{
-                  margin: 0,
-                  fontSize: '17px',
-                  fontWeight: 700,
-                  color: '#111827',
-                  letterSpacing: '-0.01em',
-                }}
-              >
-                {SECTION_TITLES.menu[locale] || SECTION_TITLES.menu.en}
-              </h2>
-              <span style={{ fontSize: '13px', color: '#6b7280', marginTop: '2px', display: 'block' }}>
-                {menuSummary}
-              </span>
-            </div>
-          </div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <span
-              style={{
-                fontSize: '12px',
-                fontWeight: 600,
-                color: openSections.menu ? '#0B7A8A' : '#6b7280',
-                background: openSections.menu ? '#E6F4F6' : '#f3f4f6',
-                padding: '4px 10px',
-                borderRadius: '999px',
-              }}
-            >
-              {openSections.menu ? ui.close : ui.expand}
-            </span>
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="#6b7280"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              style={{
-                transform: openSections.menu ? 'rotate(180deg)' : 'rotate(0deg)',
-                transition: 'transform 0.2s ease',
-              }}
-            >
-              <polyline points="6 9 12 15 18 9"></polyline>
-            </svg>
-          </div>
-        </button>
-
-        {openSections.menu && (
-          <div
+          <button
+            type="button"
+            onClick={() => toggleSection('menu')}
+            aria-expanded={openSections.menu}
             style={{
-              padding: '0 20px 22px 20px',
-              borderTop: '1px solid #f3f4f6',
-              animation: 'fadeIn 0.2s ease',
+              width: '100%',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              padding: '18px 20px',
+              background: 'none',
+              border: 'none',
+              cursor: 'pointer',
+              textAlign: 'left',
             }}
           >
-            <div style={{ marginTop: '16px' }}>
-              <BusinessMenuSection
-                menuData={menuData}
-                locale={locale}
-                menuImages={menuData?.menuImages}
-              />
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px', minWidth: 0 }}>
+              <span style={{ fontSize: '20px', flexShrink: 0 }}>{catalogIcon}</span>
+              <div>
+                <h2
+                  style={{
+                    margin: 0,
+                    fontSize: '17px',
+                    fontWeight: 700,
+                    color: '#111827',
+                    letterSpacing: '-0.01em',
+                  }}
+                >
+                  {SECTION_TITLES[catalogSectionKey][locale] || SECTION_TITLES[catalogSectionKey].en}
+                </h2>
+                <span style={{ fontSize: '13px', color: '#6b7280', marginTop: '2px', display: 'block' }}>
+                  {menuSummary}
+                </span>
+              </div>
             </div>
-          </div>
-        )}
-      </section>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <span
+                style={{
+                  fontSize: '12px',
+                  fontWeight: 600,
+                  color: openSections.menu ? '#0B7A8A' : '#6b7280',
+                  background: openSections.menu ? '#E6F4F6' : '#f3f4f6',
+                  padding: '4px 10px',
+                  borderRadius: '999px',
+                }}
+              >
+                {openSections.menu ? ui.close : ui.expand}
+              </span>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#6b7280"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                style={{
+                  transform: openSections.menu ? 'rotate(180deg)' : 'rotate(0deg)',
+                  transition: 'transform 0.2s ease',
+                }}
+              >
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </div>
+          </button>
+
+          {openSections.menu && (
+            <div
+              style={{
+                padding: '0 20px 22px 20px',
+                borderTop: '1px solid #f3f4f6',
+                animation: 'fadeIn 0.2s ease',
+              }}
+            >
+              <div style={{ marginTop: '16px' }}>
+                <BusinessMenuSection
+                  menuData={menuData}
+                  locale={locale}
+                  menuImages={menuData?.menuImages}
+                  category={cat}
+                />
+              </div>
+            </div>
+          )}
+        </section>
+      )}
 
       {/* ========================================================= */}
-      {/* 2. 이 음식 알고 먹기 아코디언 */}
+      {/* 2. 이 음식 알고 먹기 아코디언 (식음료 매장 전용) */}
       {/* ========================================================= */}
-      {cultureStory && (
+      {isDiningOrFood && cultureStory && (
         <section
           className={`accordionCard ${openSections.culture ? 'isOpen' : ''}`}
           style={{
@@ -585,7 +688,7 @@ export function EnrichedBusinessAccordions({
                   {SECTION_TITLES.photos[locale] || SECTION_TITLES.photos.en}
                 </h2>
                 <span style={{ fontSize: '13px', color: '#6b7280', marginTop: '2px', display: 'block' }}>
-                  {ui.photoCountTpl.replace('{n}', String(photos.length))}
+                  {photoCountText}
                 </span>
               </div>
             </div>
