@@ -80,6 +80,14 @@ export async function proxy(request: NextRequest) {
     url.pathname = pathname.replace('l-a-hillside-aparment-sunset-town-phu-quoc', 'l-a-hillside-apartment-sunset-town-phu-quoc')
     return NextResponse.redirect(url, 301)
   }
+  if (pathname === '/business/sunset-place-9' || pathname.endsWith('/business/sunset-place-9')) {
+    const url = request.nextUrl.clone()
+    url.pathname = pathname.replace(/\/business\/sunset-place-9$/, '/business/solana-spa-sunset-town-phu-quoc')
+    if (url.pathname.startsWith('/en/')) {
+      url.pathname = url.pathname.slice(3)
+    }
+    return NextResponse.redirect(url, 301)
+  }
 
   // 1) Unnecessary /en prefix -> unprefixed English path (301)
   if (pathname === '/en' || pathname.startsWith('/en/')) {

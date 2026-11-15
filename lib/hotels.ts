@@ -181,7 +181,15 @@ export interface HotelItem {
   summary_zh?: string
   summary_ja?: string
   summary_ru?: string
+  summary_hi?: string
   summary_vi?: string
+  detailIntro?: string
+  detailIntro_en?: string
+  detailIntro_zh?: string
+  detailIntro_ja?: string
+  detailIntro_ru?: string
+  detailIntro_hi?: string
+  detailIntro_vi?: string
   agodaRawDescription?: string
   isAiGeneratedIntro?: boolean
   coreFacilities: string[]

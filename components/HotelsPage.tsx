@@ -30,6 +30,7 @@ function getLocalizedSummary(hotel: HotelItem, locale?: Locale): string {
   if (locale === 'zh' && hotel.summary_zh) return hotel.summary_zh
   if (locale === 'ja' && hotel.summary_ja) return hotel.summary_ja
   if (locale === 'ru' && hotel.summary_ru) return hotel.summary_ru
+  if (locale === 'hi' && hotel.summary_hi) return hotel.summary_hi
   if (locale === 'vi' && hotel.summary_vi) return hotel.summary_vi
   return hotel.summary_en || hotel.summary
 }
@@ -183,11 +184,9 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
           </div>
         )}
 
-        {/* 한 줄 요약 (최대 40자) */}
+        {/* 완결형 2줄 요약 (중간 어절 잘림 방지) */}
         {summaryText && (
-          <p className="cardSummary">
-            {summaryText.length > 40 ? `${summaryText.slice(0, 39)}…` : summaryText}
-          </p>
+          <p className="cardSummary">{summaryText}</p>
         )}
 
         {/* 고객 리뷰 핵심 한 줄 */}
@@ -376,9 +375,9 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
             <h2 className="modalHotelTitle">{hotel.displayName || hotel.name_ko}</h2>
             {locale === 'ko' && <div className="modalHotelTitleEn">{hotel.name_en}</div>}
 
-            {/* 1~2줄 요약 (화면에는 summary만 사용, description 필드 절대 비노출) */}
-            {summaryText && (
-              <p className="modalShortIntro">{summaryText}</p>
+            {/* 에디토리얼 상세 소개문(detailIntro) 우선 노출, 없으면 카드 요약문 사용 */}
+            {(hotel.detailIntro || summaryText) && (
+              <p className="modalShortIntro">{hotel.detailIntro || summaryText}</p>
             )}
           </div>
 

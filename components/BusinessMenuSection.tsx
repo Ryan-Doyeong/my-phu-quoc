@@ -13,6 +13,7 @@ interface BusinessMenuSectionProps {
   menuData: BusinessMenuData | null
   locale?: Locale
   menuImages?: { url: string; label: string }[]
+  category?: string
 }
 
 const PRICE_ON_REQUEST: Record<string, string> = {
@@ -68,24 +69,89 @@ function getItemCountText(count: number, locale: Locale): string {
   }
 }
 
-const MENU_TITLE: Record<string, string> = {
-  ko: '메뉴 & 가격 안내',
-  vi: 'Thực đơn & Bảng giá',
-  en: 'Menu & Prices',
-  zh: '菜单与价格信息',
-  ru: 'Меню и цены',
-  ja: 'メニュー・料金案内',
-  hi: 'मेन्यू और कीमतों की जानकारी',
+const MENU_TITLE_BY_CATEGORY: Record<'fnb' | 'shopping' | 'wellness' | 'tickets', Record<string, string>> = {
+  fnb: {
+    ko: '메뉴 & 가격 안내',
+    vi: 'Thực đơn & Bảng giá',
+    en: 'Menu & Prices',
+    zh: '菜单与价格信息',
+    ru: 'Меню и цены',
+    ja: 'メニュー・料金案内',
+    hi: 'मेन्यू और कीमतों की जानकारी',
+  },
+  shopping: {
+    ko: '주요 취급 품목 & 가격',
+    vi: 'Mặt hàng & Bảng giá',
+    en: 'Featured Items & Prices',
+    zh: '主要商品与价格',
+    ru: 'Товары и цены',
+    ja: '主な取扱商品・価格',
+    hi: 'प्रमुख सामान और कीमतें',
+  },
+  wellness: {
+    ko: '프로그램 & 요금 안내',
+    vi: 'Liệu trình & Bảng giá',
+    en: 'Treatments & Rates',
+    zh: '理疗项目与价格',
+    ru: 'Процедуры и цены',
+    ja: '施術メニュー・料金案内',
+    hi: 'स्पा प्रोग्राम और शुल्क',
+  },
+  tickets: {
+    ko: '이용권 & 요금 안내',
+    vi: 'Vé & Bảng giá',
+    en: 'Tickets & Rates',
+    zh: '门票与费用指南',
+    ru: 'Билеты и тарифы',
+    ja: 'チケット・料金案内',
+    hi: 'टिकट और शुल्क विवरण',
+  },
 }
 
-const MENU_EYEBROW: Record<string, string> = {
-  ko: '메뉴',
-  vi: 'Thực đơn',
-  en: 'Menu',
-  zh: '菜单',
-  ru: 'Меню',
-  ja: 'メニュー',
-  hi: 'मेन्यू',
+const MENU_EYEBROW_BY_CATEGORY: Record<'fnb' | 'shopping' | 'wellness' | 'tickets', Record<string, string>> = {
+  fnb: {
+    ko: '메뉴',
+    vi: 'Thực đơn',
+    en: 'Menu',
+    zh: '菜单',
+    ru: 'Меню',
+    ja: 'メニュー',
+    hi: 'मेन्यू',
+  },
+  shopping: {
+    ko: '취급 품목',
+    vi: 'Sản phẩm',
+    en: 'Catalog',
+    zh: '商品目录',
+    ru: 'Ассортимент',
+    ja: '取扱商品',
+    hi: 'सामान सूची',
+  },
+  wellness: {
+    ko: '스파 프로그램',
+    vi: 'Liệu trình',
+    en: 'Treatments',
+    zh: '理疗项目',
+    ru: 'Процедуры',
+    ja: '施術プログラム',
+    hi: 'ट्रीटमेंट्स',
+  },
+  tickets: {
+    ko: '이용 요금',
+    vi: 'Giá vé',
+    en: 'Rates',
+    zh: '费用',
+    ru: 'Тарифы',
+    ja: '料金',
+    hi: 'शुल्क',
+  },
+}
+
+function resolveCatalogKind(category?: string): 'fnb' | 'shopping' | 'wellness' | 'tickets' {
+  if (category === 'shopping') return 'shopping'
+  if (category === 'wellness') return 'wellness'
+  if (category === 'activities') return 'tickets'
+  return 'fnb'
 }
 
 const MENU_UPDATING_BADGE: Record<string, string> = {
@@ -219,9 +285,11 @@ export function BusinessMenuSection({
   menuData,
   locale = 'ko',
   menuImages,
+  category,
 }: BusinessMenuSectionProps) {
   const isKo = locale === 'ko'
   const isVi = locale === 'vi'
+  const catalogKind = resolveCatalogKind(category)
 
   // 아코디언 상태 관리: 기본은 전부 접힌 상태 (null)
   // 클릭 시 해당 카테고리만 펼쳐짐 (이미 열려있는 것을 클릭하면 다시 접힘)
@@ -231,8 +299,8 @@ export function BusinessMenuSection({
     setOpenSectionIdx((prev) => (prev === idx ? null : idx))
   }
 
-  const title = MENU_TITLE[locale] || MENU_TITLE.en
-  const eyebrow = MENU_EYEBROW[locale] || MENU_EYEBROW.en
+  const title = MENU_TITLE_BY_CATEGORY[catalogKind][locale] || MENU_TITLE_BY_CATEGORY[catalogKind].en
+  const eyebrow = MENU_EYEBROW_BY_CATEGORY[catalogKind][locale] || MENU_EYEBROW_BY_CATEGORY[catalogKind].en
 
   if (!menuData) {
     return (

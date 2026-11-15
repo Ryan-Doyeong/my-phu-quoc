@@ -36,7 +36,7 @@ export const BANKING_UI_STRINGS: Record<Locale, BankingUiStrings> = {
     atmSectionTitle: (c: number) => `ATM ${c}곳`,
     exchangeSectionTitle: (c: number) => `환전소 ${c}곳`,
     cardLabel: '카드',
-    unconfirmed: '미확인',
+    unconfirmed: '현장 확인 권장',
     googleMapsBtn: '구글맵 보기',
   },
   en: {
@@ -47,7 +47,7 @@ export const BANKING_UI_STRINGS: Record<Locale, BankingUiStrings> = {
     atmSectionTitle: (c: number) => `${c} ATM${c > 1 ? 's' : ''}`,
     exchangeSectionTitle: (c: number) => `${c} Currency Exchange${c > 1 ? 's' : ''}`,
     cardLabel: 'Cards',
-    unconfirmed: 'Unconfirmed',
+    unconfirmed: 'Check on-site',
     googleMapsBtn: 'View on Google Maps',
   },
   zh: {
@@ -58,7 +58,7 @@ export const BANKING_UI_STRINGS: Record<Locale, BankingUiStrings> = {
     atmSectionTitle: (c: number) => `${c}处 ATM`,
     exchangeSectionTitle: (c: number) => `${c}处 货币兑换点`,
     cardLabel: '支持银行卡',
-    unconfirmed: '未确认',
+    unconfirmed: '建议现场确认',
     googleMapsBtn: '谷歌地图',
   },
   ru: {
@@ -69,7 +69,7 @@ export const BANKING_UI_STRINGS: Record<Locale, BankingUiStrings> = {
     atmSectionTitle: (c: number) => `${c} банкомат${c > 4 ? 'ов' : c > 1 ? 'а' : ''}`,
     exchangeSectionTitle: (c: number) => `${c} обменны${c > 4 ? 'х' : c > 1 ? 'х' : 'й'} пункт${c > 4 ? 'ов' : c > 1 ? 'а' : ''}`,
     cardLabel: 'Карты',
-    unconfirmed: 'Не подтверждено',
+    unconfirmed: 'Уточняйте на месте',
     googleMapsBtn: 'Google Карты',
   },
   ja: {
@@ -80,7 +80,7 @@ export const BANKING_UI_STRINGS: Record<Locale, BankingUiStrings> = {
     atmSectionTitle: (c: number) => `ATM ${c}か所`,
     exchangeSectionTitle: (c: number) => `両替所 ${c}か所`,
     cardLabel: '対応カード',
-    unconfirmed: '未確認',
+    unconfirmed: '現地でご確認ください',
     googleMapsBtn: 'Googleマップで見る',
   },
   hi: {
@@ -91,7 +91,7 @@ export const BANKING_UI_STRINGS: Record<Locale, BankingUiStrings> = {
     atmSectionTitle: (c: number) => `${c} एटीएम`,
     exchangeSectionTitle: (c: number) => `${c} मुद्रा विनिमय केंद्र`,
     cardLabel: 'कार्ड',
-    unconfirmed: 'अपुष्ट',
+    unconfirmed: 'मौके पर जांचें',
     googleMapsBtn: 'Google मानचित्र पर देखें',
   },
   vi: {
@@ -102,7 +102,7 @@ export const BANKING_UI_STRINGS: Record<Locale, BankingUiStrings> = {
     atmSectionTitle: (c: number) => `${c} cây ATM`,
     exchangeSectionTitle: (c: number) => `${c} quầy đổi tiền`,
     cardLabel: 'Thẻ',
-    unconfirmed: 'Chưa xác nhận',
+    unconfirmed: 'Kiểm tra trực tiếp tại quầy',
     googleMapsBtn: 'Xem Google Maps',
   },
 }

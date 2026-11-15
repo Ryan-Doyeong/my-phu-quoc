@@ -59,6 +59,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         let bSlug = b.slug
         if (bSlug === "sunset-house-phu-quoc-buggy-sevices") bSlug = "sunset-house-phu-quoc-buggy-services"
         if (bSlug === "l-a-hillside-aparment-sunset-town-phu-quoc") bSlug = "l-a-hillside-apartment-sunset-town-phu-quoc"
+        if (bSlug === "sunset-place-9") bSlug = "solana-spa-sunset-town-phu-quoc"
         if (bSlug && !HIDDEN_BUSINESS_SLUGS.has(bSlug)) {
           const barePath = `/business/${bSlug}`
           const lastModified = b.updated_at ? new Date(b.updated_at) : now

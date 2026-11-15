@@ -140,7 +140,8 @@
     },
     "internal_verified": {
       "address_raw": "Khem Beach, An Thới, Phú Quốc, Kiên Giang 922280, Vietnam"
-    }
+    },
+    "description_vi": "Khu nghỉ dưỡng 5 sao sang trọng bên bờ Bãi Khem được kiến trúc sư Bill Bensley thiết kế theo ý tưởng Đại học giả tưởng Lamarck độc đáo. Khuôn viên sở hữu bãi biển cát trắng riêng, ba hồ bơi ngoài trời gồm hồ bơi Con Sò biểu tượng cùng hệ thống nhà hàng và spa đẳng cấp quốc tế."
   },
   {
     "id": "khem-draft-002",
@@ -280,7 +281,8 @@
     },
     "internal_verified": {
       "address_raw": "Khem Beach, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam"
-    }
+    },
+    "description_vi": "Khu nghỉ dưỡng 5 sao sát biển Bãi Khem do tập đoàn Accor quản lý, cung cấp 629 phòng nghỉ, suite và căn hộ hiện đại phù hợp cho cả cặp đôi lẫn gia đình. Điểm nhấn của khu nghỉ dưỡng là hồ bơi tràn bờ đa tầng rộng 5.000m² nối thẳng ra bãi cát trắng mịn cùng cụm nhà hàng, beach club và spa tiện nghi."
   },
   {
     "id": "khem-draft-003",
@@ -424,7 +426,8 @@
     },
     "internal_verified": {
       "address_raw": "Khem Beach, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam"
-    }
+    },
+    "description_vi": "Khu nghỉ dưỡng 5 sao thuần biệt thự tọa lạc dọc bờ biển Bãi Khem, quy tụ 375 căn biệt thự hồ bơi riêng lấy cảm hứng từ nếp nhà làng chài truyền thống Việt Nam. Tâm điểm khuôn viên là hồ bơi vô cực dài 120m hướng biển cùng khu spa sân vườn, câu lạc bộ trẻ em và chuỗi nhà hàng hải sản."
   },
   {
     "id": "khem-draft-004",
@@ -720,6 +723,9 @@
     "description_en": "French fine dining mansion inside JW Marriott Phu Quoc Emerald Bay on Khem Beach offering seasonal tasting menus and wine pairings. Open to non-resort guests with advance dinner reservation and smart-casual dress code.",
     "facilities": null,
     "gallery_urls": [
+      "/covers-photo/pink-pearl-jw-marriott-1.webp",
+      "/covers-photo/pink-pearl-jw-marriott-2.webp",
+      "/covers-photo/pink-pearl-jw-marriott-3.webp",
       "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-pink-pearl.webp"
     ],
     "source_urls": [
@@ -730,9 +736,24 @@
     "zone": "khem-beach",
     "image_credits": [
       {
-        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-pink-pearl.webp",
-        "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
-        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/"
+        "image_url": "/covers-photo/pink-pearl-jw-marriott-1.webp",
+        "credit_text": "핑크 펄 바이 올리비에 E. (Pink Pearl by Olivier E.)",
+        "source_page_url": "https://www.pinkpearlrestaurant.com/"
+      },
+      {
+        "image_url": "/covers-photo/pink-pearl-jw-marriott-2.webp",
+        "credit_text": "핑크 펄 바이 올리비에 E. (Pink Pearl by Olivier E.)",
+        "source_page_url": "https://www.pinkpearlrestaurant.com/"
+      },
+      {
+        "image_url": "/covers-photo/pink-pearl-jw-marriott-3.webp",
+        "credit_text": "핑크 펄 바이 올리비에 E. (Pink Pearl by Olivier E.)",
+        "source_page_url": "https://www.pinkpearlrestaurant.com/"
+      },
+      {
+        "image_url": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-pink-pearl.webp",
+        "credit_text": "핑크 펄 바이 올리비에 E. (Pink Pearl by Olivier E.)",
+        "source_page_url": "https://www.pinkpearlrestaurant.com/"
       }
     ],
     "google_place_id": "ChIJp_ryeK-XpzERKtgeuSUzPMk",
@@ -747,7 +768,9 @@
     "description_ru": "Ресторан высокой французской кухни в розовом особняке отеля JW Marriott Phu Quoc на пляже Кхем: дегустационные сеты и винное сопровождение. Открыт для внешних гостей по предварительному бронированию.",
     "description_ja": "JWマリオット・フーコック・エメラルドベイ内の邸宅にあるフレンチ・ファインダイニング。季節のテイスティングコースとワインペアリングを提供し、宿泊者以外も事前ディナー予約で利用可能です。",
     "description_hi": "जेडब्ल्यू मैरियट फू क्वोक (खेम बीच) में स्थित फ़्रेंच फ़ाइन डाइनिंग रेस्तरां, जहाँ टेस्टिंग मेनू और वाइन पेयरिंग परोसी जाती है। अग्रिम डिनर बुकिंग के साथ बाहरी मेहमानों के लिए भी खुला है।",
-    "description_vi": "Nhà hàng ẩm thực Pháp cao cấp trong biệt thự hồng tại JW Marriott Phu Quoc Emerald Bay (Bãi Khem), phục vụ thực đơn tasting theo mùa. Mở cửa đón khách ngoài lưu trú khi đặt bàn trước cho bữa tối."
+    "description_vi": "Nhà hàng ẩm thực Pháp cao cấp trong biệt thự hồng tại JW Marriott Phu Quoc Emerald Bay (Bãi Khem), phục vụ thực đơn tasting theo mùa. Mở cửa đón khách ngoài lưu trú khi đặt bàn trước cho bữa tối.",
+    "media_note": "핑크 펄 바이 올리비에 E. (Pink Pearl by Olivier E.)",
+    "photo_permission": "official_website_editorial"
   },
   {
     "id": "khem-draft-008",
@@ -778,6 +801,10 @@
     "description_en": "Beachfront all-day dining restaurant at JW Marriott Phu Quoc on Khem Beach serving Vietnamese, contemporary Japanese, and Western French-inspired dishes across breakfast, lunch, and dinner. Open to non-guests (service breaks 10:30–12:00 and 15:00–18:00).",
     "facilities": null,
     "gallery_urls": [
+      "/covers-photo/tempus-fugit-jw-marriott-1.webp",
+      "/covers-photo/tempus-fugit-jw-marriott-2.webp",
+      "/covers-photo/tempus-fugit-jw-marriott-3.webp",
+      "/covers-photo/tempus-fugit-jw-marriott-4.webp",
       "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.webp"
     ],
     "source_urls": [
@@ -788,9 +815,29 @@
     "zone": "khem-beach",
     "image_credits": [
       {
-        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.webp",
-        "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
-        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+        "image_url": "/covers-photo/tempus-fugit-jw-marriott-1.webp",
+        "credit_text": "템푸스 푸짓 (Tempus Fugit)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/"
+      },
+      {
+        "image_url": "/covers-photo/tempus-fugit-jw-marriott-2.webp",
+        "credit_text": "템푸스 푸짓 (Tempus Fugit)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/"
+      },
+      {
+        "image_url": "/covers-photo/tempus-fugit-jw-marriott-3.webp",
+        "credit_text": "템푸스 푸짓 (Tempus Fugit)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/"
+      },
+      {
+        "image_url": "/covers-photo/tempus-fugit-jw-marriott-4.webp",
+        "credit_text": "템푸스 푸짓 (Tempus Fugit)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/"
+      },
+      {
+        "image_url": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.webp",
+        "credit_text": "템푸스 푸짓 (Tempus Fugit)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/"
       }
     ],
     "google_place_id": "ChIJeZJAoFGXpzEREV_d11IUwpo",
@@ -807,7 +854,9 @@
     "description_ru": "Ресторан на берегу моря в JW Marriott Phu Quoc с вьетнамской, японской и европейской кухней на завтрак, обед и ужин. Открыт для гостей со стороны (перерывы 10:30–12:00 и 15:00–18:00).",
     "description_ja": "JWマリオット・フーコックのビーチ沿いにあるオールデイダイニング。ベトナム料理・日本料理・洋食を提供し、宿泊者以外も利用可能です（10:30〜12:00、15:00〜18:00は準備中）。",
     "description_hi": "जेडब्ल्यू मैरियट फू क्वोक (खेम बीच) का बीचफ़्रंट ऑल-डे डाइनिंग रेस्तरां, जहाँ वियतनामी, जापानी और पश्चिमी व्यंजन परोसे जाते हैं। बाहरी मेहमानों के लिए खुला (10:30–12:00 और 15:00–18:00 ब्रेक समय)।",
-    "description_vi": "Nhà hàng all-day dining ven biển tại JW Marriott Phu Quoc (Bãi Khem) phục vụ ẩm thực Việt, Nhật và Âu cho bữa sáng, trưa, tối. Có đón khách ngoài resort (nghỉ giữa ca 10:30–12:00 và 15:00–18:00)."
+    "description_vi": "Nhà hàng all-day dining ven biển tại JW Marriott Phu Quoc (Bãi Khem) phục vụ ẩm thực Việt, Nhật và Âu cho bữa sáng, trưa, tối. Có đón khách ngoài resort (nghỉ giữa ca 10:30–12:00 và 15:00–18:00).",
+    "media_note": "템푸스 푸짓 (Tempus Fugit)",
+    "photo_permission": "official_website_editorial"
   },
   {
     "id": "khem-draft-009",
@@ -891,6 +940,9 @@
     "description_en": "Artisanal French bakery and patisserie cafe on Rue de Lamarck inside JW Marriott Phu Quoc on Khem Beach, serving freshly baked croissants, pastries, specialty coffee, and afternoon tea. Open to non-guests during daytime hours.",
     "facilities": null,
     "gallery_urls": [
+      "/covers-photo/french-and-co-jw-marriott-1.webp",
+      "/covers-photo/french-and-co-jw-marriott-2.webp",
+      "/covers-photo/french-and-co-jw-marriott-3.webp",
       "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.webp"
     ],
     "source_urls": [
@@ -901,9 +953,24 @@
     "zone": "khem-beach",
     "image_credits": [
       {
-        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.webp",
-        "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
-        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+        "image_url": "/covers-photo/french-and-co-jw-marriott-1.webp",
+        "credit_text": "프렌치 앤 코 (French & Co.)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/"
+      },
+      {
+        "image_url": "/covers-photo/french-and-co-jw-marriott-2.webp",
+        "credit_text": "프렌치 앤 코 (French & Co.)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/"
+      },
+      {
+        "image_url": "/covers-photo/french-and-co-jw-marriott-3.webp",
+        "credit_text": "프렌치 앤 코 (French & Co.)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/"
+      },
+      {
+        "image_url": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.webp",
+        "credit_text": "프렌치 앤 코 (French & Co.)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/"
       }
     ],
     "google_place_id": "ChIJBR2AMf2XpzERKaMeLRIfAdk",
@@ -919,7 +986,9 @@
     "description_ru": "Французская пекарня-кондитерская на улице Rue de Lamarck в JW Marriott Phu Quoc: свежие круассаны, десерты, кофе и дневное чаепитие. Открыта для внешних посетителей днём.",
     "description_ja": "JWマリオット・フーコック内のラマルク通りにあるフレンチベーカリー＆カフェ。焼きたてクロワッサンやペストリー、コーヒー、アフタヌーンティーを提供し、日中は宿泊者以外も利用できます。",
     "description_hi": "जेडब्ल्यू मैरियट फू क्वोक में स्थित फ़्रेंच बेकरी और कैफ़े, जहाँ ताज़ा बेक किए गए क्रोसां, पेस्ट्री, कॉफ़ी और आफ़्टरनून टी मिलती है; दिन में बाहरी मेहमानों के लिए खुला है।",
-    "description_vi": "Tiệm bánh Pháp thủ công & cà phê trên phố Rue de Lamarck thuộc JW Marriott Phu Quoc, phục vụ bánh sừng bò nướng mới, bánh ngọt, cà phê và trà chiều cho cả khách lưu trú lẫn khách tham quan."
+    "description_vi": "Tiệm bánh Pháp thủ công & cà phê trên phố Rue de Lamarck thuộc JW Marriott Phu Quoc, phục vụ bánh sừng bò nướng mới, bánh ngọt, cà phê và trà chiều cho cả khách lưu trú lẫn khách tham quan.",
+    "media_note": "프렌치 앤 코 (French & Co.)",
+    "photo_permission": "official_website_editorial"
   },
   {
     "id": "khem-draft-017",
@@ -950,6 +1019,9 @@
     "description_en": "Oceanfront cocktail lounge at JW Marriott Phu Quoc styled after a vintage university chemistry lab, overlooking Emerald Bay. Serves craft cocktails and tapas from late afternoon until midnight; open to non-resort guests.",
     "facilities": null,
     "gallery_urls": [
+      "/covers-photo/department-of-chemistry-bar-1.webp",
+      "/covers-photo/department-of-chemistry-bar-2.webp",
+      "/covers-photo/department-of-chemistry-bar-3.webp",
       "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.webp"
     ],
     "source_urls": [
@@ -960,9 +1032,24 @@
     "zone": "khem-beach",
     "image_credits": [
       {
-        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.webp",
-        "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
-        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+        "image_url": "/covers-photo/department-of-chemistry-bar-1.webp",
+        "credit_text": "디파트먼트 오브 케미스트리 바 (Department of Chemistry Bar)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/"
+      },
+      {
+        "image_url": "/covers-photo/department-of-chemistry-bar-2.webp",
+        "credit_text": "디파트먼트 오브 케미스트리 바 (Department of Chemistry Bar)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/"
+      },
+      {
+        "image_url": "/covers-photo/department-of-chemistry-bar-3.webp",
+        "credit_text": "디파트먼트 오브 케미스트리 바 (Department of Chemistry Bar)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/"
+      },
+      {
+        "image_url": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-overview.webp",
+        "credit_text": "디파트먼트 오브 케미스트리 바 (Department of Chemistry Bar)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/dining/"
       }
     ],
     "google_place_id": "ChIJlRtyQYOXpzEROqImw3nAJF0",
@@ -977,7 +1064,9 @@
     "description_ru": "Коктейль-бар на берегу океана в JW Marriott Phu Quoc, оформленный в стиле университетской химической лаборатории: авторские коктейли, закуски и вид на залив. Открыт для внешних гостей.",
     "description_ja": "JWマリオット・フーコックの海辺にある化学実験室テーマのオーシャンフロント・カクテルバー。夕方から深夜までクラフトカクテルとタパスを楽しめ、宿泊者以外も利用可能です。",
     "description_hi": "जेडब्ल्यू मैरियट फू क्वोक (खेम बीच) में केमिस्ट्री लैब थीम पर बना ओशनफ़्रंट कॉकटेल बार, जो शाम 4 बजे से मध्यरात्रि तक क्राफ़्ट कॉकटेल परोसता है और बाहरी मेहमानों के लिए खुला है।",
-    "description_vi": "Quầy bar cocktail sát biển mang chủ đề phòng thí nghiệm hóa học tại JW Marriott Phu Quoc (Bãi Khem), phục vụ cocktail thủ công và tapas từ chiều muộn đến nửa đêm, mở cửa cho cả khách ngoài."
+    "description_vi": "Quầy bar cocktail sát biển mang chủ đề phòng thí nghiệm hóa học tại JW Marriott Phu Quoc (Bãi Khem), phục vụ cocktail thủ công và tapas từ chiều muộn đến nửa đêm, mở cửa cho cả khách ngoài.",
+    "media_note": "디파트먼트 오브 케미스트리 바 (Department of Chemistry Bar)",
+    "photo_permission": "official_website_editorial"
   },
   {
     "id": "khem-draft-020",
@@ -1004,6 +1093,9 @@
     "description_en": "Luxury resort spa inside JW Marriott Phu Quoc Emerald Bay featuring private treatment suites, sauna, steam room, and signature body therapies and facials. Open to non-resort guests by advance appointment.",
     "facilities": null,
     "gallery_urls": [
+      "/covers-photo/chanterelle-spa-jw-marriott-1.webp",
+      "/covers-photo/chanterelle-spa-jw-marriott-2.webp",
+      "/covers-photo/chanterelle-spa-jw-marriott-3.webp",
       "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-chanterelle-spa.webp"
     ],
     "source_urls": [
@@ -1014,8 +1106,23 @@
     "zone": "khem-beach",
     "image_credits": [
       {
-        "file": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-chanterelle-spa.webp",
-        "credit_text": "Image: JW Marriott Phu Quoc Emerald Bay Resort & Spa (marriott.com)",
+        "image_url": "/covers-photo/chanterelle-spa-jw-marriott-1.webp",
+        "credit_text": "샹트렐 – 스파 바이 JW (Chanterelle – Spa by JW)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+      },
+      {
+        "image_url": "/covers-photo/chanterelle-spa-jw-marriott-2.webp",
+        "credit_text": "샹트렐 – 스파 바이 JW (Chanterelle – Spa by JW)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+      },
+      {
+        "image_url": "/covers-photo/chanterelle-spa-jw-marriott-3.webp",
+        "credit_text": "샹트렐 – 스파 바이 JW (Chanterelle – Spa by JW)",
+        "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
+      },
+      {
+        "image_url": "/zones/khem-beach/images/jw-marriott-phu-quoc-emerald-bay/jw-marriott-chanterelle-spa.webp",
+        "credit_text": "샹트렐 – 스파 바이 JW (Chanterelle – Spa by JW)",
         "source_page_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
       }
     ],
@@ -1033,7 +1140,9 @@
     "description_ru": "Спа-центр класса люкс в JW Marriott Phu Quoc Emerald Bay с приватными процедурными кабинетами, сауной, парной, массажем и уходом за кожей. Доступен для внешних гостей по предварительной записи.",
     "description_ja": "JWマリオット・フーコック内のラグジュアリー・リゾートスパ。個室トリートメントスイートやサウナを備え、ボディセラピーやフェイシャルを提供。宿泊者以外も事前予約で利用可能です。",
     "description_hi": "जेडब्ल्यू मैरियट फू क्वोक रिज़ॉर्ट के भीतर स्थित लक्ज़री स्पा, जहाँ प्राइवेट ट्रीटमेंट सुइट्स, सौना, बॉडी मसाज और फ़ेशियल उपलब्ध हैं; पूर्व अपॉइंटमेंट पर बाहरी मेहमानों के लिए खुला।",
-    "description_vi": "Spa nghỉ dưỡng cao cấp tại JW Marriott Phu Quoc Emerald Bay với phòng trị liệu riêng, xông hơi và các liệu trình chăm sóc toàn thân, da mặt; nhận khách ngoài lưu trú khi đặt lịch hẹn trước."
+    "description_vi": "Spa nghỉ dưỡng cao cấp tại JW Marriott Phu Quoc Emerald Bay với phòng trị liệu riêng, xông hơi và các liệu trình chăm sóc toàn thân, da mặt; nhận khách ngoài lưu trú khi đặt lịch hẹn trước.",
+    "media_note": "샹트렐 – 스파 바이 JW (Chanterelle – Spa by JW)",
+    "photo_permission": "official_website_editorial"
   },
   {
     "id": "khem-draft-011",
@@ -1205,6 +1314,10 @@
     "description_en": "Resort wellness spa at Premier Residences Phu Quoc Emerald Bay on Khem Beach offering Vietnamese herbal massages, aromatherapy oil treatments, soothing after-sun body care, and steam facilities. Open to non-guests with prior booking.",
     "facilities": null,
     "gallery_urls": [
+      "/covers-photo/emerald-spa-premier-residences-1.webp",
+      "/covers-photo/emerald-spa-premier-residences-2.webp",
+      "/covers-photo/emerald-spa-premier-residences-3.webp",
+      "/covers-photo/emerald-spa-premier-residences-4.webp",
       "/zones/khem-beach/images/premier-residences-phu-quoc-emerald-bay/premier-residences-emerald-spa.jpg"
     ],
     "source_urls": [
@@ -1215,9 +1328,29 @@
     "zone": "khem-beach",
     "image_credits": [
       {
-        "file": "/zones/khem-beach/images/premier-residences-phu-quoc-emerald-bay/premier-residences-emerald-spa.jpg",
-        "credit_text": "Image: Premier Residences Phu Quoc Emerald Bay (premierresidencesphuquoc.com)",
-        "source_page_url": "https://premierresidencesphuquoc.com/emerald-spa-recreation/emerald-spa/"
+        "image_url": "/covers-photo/emerald-spa-premier-residences-1.webp",
+        "credit_text": "에메랄드 스파 (Emerald Spa)",
+        "source_page_url": "https://premierresidencesphuquoc.com/wellness/emerald-spa/"
+      },
+      {
+        "image_url": "/covers-photo/emerald-spa-premier-residences-2.webp",
+        "credit_text": "에메랄드 스파 (Emerald Spa)",
+        "source_page_url": "https://premierresidencesphuquoc.com/wellness/emerald-spa/"
+      },
+      {
+        "image_url": "/covers-photo/emerald-spa-premier-residences-3.webp",
+        "credit_text": "에메랄드 스파 (Emerald Spa)",
+        "source_page_url": "https://premierresidencesphuquoc.com/wellness/emerald-spa/"
+      },
+      {
+        "image_url": "/covers-photo/emerald-spa-premier-residences-4.webp",
+        "credit_text": "에메랄드 스파 (Emerald Spa)",
+        "source_page_url": "https://premierresidencesphuquoc.com/wellness/emerald-spa/"
+      },
+      {
+        "image_url": "/zones/khem-beach/images/premier-residences-phu-quoc-emerald-bay/premier-residences-emerald-spa.jpg",
+        "credit_text": "에메랄드 스파 (Emerald Spa)",
+        "source_page_url": "https://premierresidencesphuquoc.com/wellness/emerald-spa/"
       }
     ],
     "google_place_id": "ChIJqc1FyFmXpzERV5UOP0OCXMk",
@@ -1234,7 +1367,9 @@
     "description_ru": "Курортный спа-центр в Premier Residences Phu Quoc Emerald Bay (пляж Кхем): травяной вьетнамский массаж, ароматерапия, уход после солнца и парная. Открыт для внешних гостей по записи.",
     "description_ja": "プレミア・レジデンス・フーコック・エメラルドベイ内のリゾートスパ。ベトナム伝統ハーブマッサージやアロマセラピー、日焼け後の鎮静ケアを提供し、宿泊者以外も事前予約で利用可能です。",
     "description_hi": "प्रीमियर रेज़िडेंसेज़ फू क्वोक एमराल्ड बे (खेम बीच) में स्थित रिज़ॉर्ट स्पा, जहाँ हर्बल मसाज, अरोमाथेरेपी और धूप से झुलसी त्वचा की देखभाल उपलब्ध है; पूर्व बुकिंग पर बाहरी मेहमानों के लिए खुला।",
-    "description_vi": "Spa chăm sóc sức khỏe tại Premier Residences Phu Quoc Emerald Bay (Bãi Khem) cung cấp massage thảo dược, tinh dầu aromatherapy và liệu trình dịu da sau nắng; mở cửa đón khách ngoài khi đặt lịch trước."
+    "description_vi": "Spa chăm sóc sức khỏe tại Premier Residences Phu Quoc Emerald Bay (Bãi Khem) cung cấp massage thảo dược, tinh dầu aromatherapy và liệu trình dịu da sau nắng; mở cửa đón khách ngoài khi đặt lịch trước.",
+    "media_note": "에메랄드 스파 (Emerald Spa)",
+    "photo_permission": "official_website_editorial"
   },
   {
     "id": "khem-draft-012",
@@ -1317,14 +1452,34 @@
     "description_ko": "뉴월드 푸꾸옥 리조트 해변 및 풀사이드에 자리한 그릴 & 바로, 화덕 피자와 수제 파스타, 참숯 해산물 그릴 요리를 선보입니다. 외부 방문객도 리조트 정문 안내 후 버기를 이용해 방문할 수 있습니다.",
     "description_en": "Poolside and beachfront Italian-coastal grill inside New World Phu Quoc Resort on Khem Beach serving wood-fired pizzas, handmade pasta, and charcoal-grilled local seafood. Open to non-resort visitors; inform the main gate for buggy transfer.",
     "facilities": null,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/lua-grill-bar-new-world-1.webp",
+      "/covers-photo/lua-grill-bar-new-world-2.webp",
+      "/covers-photo/lua-grill-bar-new-world-3.webp"
+    ],
     "source_urls": [
       "https://phuquoc.newworldhotels.com/en/dining/lua-grill-bar/",
       "https://www.google.com/maps/place/?q=place_id:ChIJjVU-q62XpzERMLgQeXaY4S0"
     ],
     "verified_at": "2026-10-30T11:00:00+07:00",
     "zone": "khem-beach",
-    "image_credits": [],
+    "image_credits": [
+      {
+        "image_url": "/covers-photo/lua-grill-bar-new-world-1.webp",
+        "credit_text": "New World Phu Quoc Resort",
+        "source_page_url": "https://phuquoc.newworldhotels.com/en/dining/lua-grill-bar/"
+      },
+      {
+        "image_url": "/covers-photo/lua-grill-bar-new-world-2.webp",
+        "credit_text": "New World Phu Quoc Resort",
+        "source_page_url": "https://phuquoc.newworldhotels.com/en/dining/lua-grill-bar/"
+      },
+      {
+        "image_url": "/covers-photo/lua-grill-bar-new-world-3.webp",
+        "credit_text": "New World Phu Quoc Resort",
+        "source_page_url": "https://phuquoc.newworldhotels.com/en/dining/lua-grill-bar/"
+      }
+    ],
     "google_place_id": "ChIJjVU-q62XpzERMLgQeXaY4S0",
     "tags": [
       "Western",
@@ -1338,7 +1493,9 @@
     "description_ru": "Гриль-бар у бассейна и пляжа в New World Phu Quoc Resort (пляж Кхем): пицца из дровяной печи, паста и морепродукты на углях. Открыт для внешних гостей (трансфер на багги от главного входа).",
     "description_ja": "ニューワールド・フーコック・リゾート内のビーチ＆プールサイドにあるグリル＆バー。薪窯ピザやパスタ、地元産シーフードの炭火焼きを提供し、宿泊者以外もゲート受付後にバギーで利用できます。",
     "description_hi": "न्यू वर्ल्ड फू क्वोक रिज़ॉर्ट (खेम बीच) में स्थित ग्रिल और बार, जहाँ वुड-फ़ायर्ड पिज़्ज़ा, पास्ता और सीफ़ूड ग्रिल परोसा जाता है। बाहरी मेहमानों के लिए भी खुला है।",
-    "description_vi": "Nhà hàng nướng & quầy bar cạnh hồ bơi sát biển trong New World Phu Quoc Resort (Bãi Khem), chuyên pizza lò củi, mì Ý và hải sản nướng than. Có đón khách ngoài lưu trú."
+    "description_vi": "Nhà hàng nướng & quầy bar cạnh hồ bơi sát biển trong New World Phu Quoc Resort (Bãi Khem), chuyên pizza lò củi, mì Ý và hải sản nướng than. Có đón khách ngoài lưu trú.",
+    "media_note": "New World Phu Quoc Resort",
+    "photo_permission": "official_website_editorial"
   },
   {
     "id": "khem-draft-030",
@@ -1650,7 +1807,8 @@
     "media_note": "Google Maps",
     "photo_permission": "google_maps_verified",
     "phone": "+84 889 777 077",
-    "hours": "10:00 - 23:00"
+    "hours": "10:00 - 23:00",
+    "description_vi": "Nhà hàng hải sản không gian mở quy mô lớn nằm ngay sát bãi cát trắng Bãi Khem với tầm nhìn thoáng đãng ra làn nước biển xanh ngọc. Thực khách có thể chọn hải sản địa phương tươi sống tại bể như tôm sú sốt bơ tỏi, mực và cá nướng than hoa để thưởng thức cùng bia tươi mát lạnh."
   },
   {
     "id": "khem-draft-013",
@@ -1676,13 +1834,39 @@
     "description_ko": "바이켐 해변 앞(KB-03)에 자리한 해산물 전문 레스토랑입니다. 신선한 푸꾸옥 해산물 요리와 별도의 비건·채식 메뉴 섹션을 갖추고 있으며, 식사 이용객에게 해변 선베드를 무료로 제공합니다.",
     "description_en": "Beachfront seafood restaurant at KB-03 on Khem Beach featuring live Phu Quoc seafood, a dedicated vegan and vegetarian menu section, and complimentary beach sunbeds for dining guests.",
     "facilities": null,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/ann-seafood-khem-beach-1.webp",
+      "/covers-photo/ann-seafood-khem-beach-2.webp",
+      "/covers-photo/ann-seafood-khem-beach-3.webp",
+      "/covers-photo/ann-seafood-khem-beach-4.webp"
+    ],
     "source_urls": [
       "https://www.google.com/maps/place/?q=place_id:ChIJMwe2gsuXpzERYM-EJba18Po"
     ],
     "verified_at": "2026-10-30T11:00:00+07:00",
     "zone": "khem-beach",
-    "image_credits": [],
+    "image_credits": [
+      {
+        "image_url": "/covers-photo/ann-seafood-khem-beach-1.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/Ann+Seafood/@10.0366286,104.0306752,17z/data=!3m1!4b1!4m6!3m5!1s0x31a797cb82b60733:0xfaf0b5b62584cf60!8m2!3d10.0366286!4d104.0306752!16s%2Fg%2F11s_gwxw7b?hl=en&entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D"
+      },
+      {
+        "image_url": "/covers-photo/ann-seafood-khem-beach-2.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/Ann+Seafood/@10.0366286,104.0306752,17z/data=!3m1!4b1!4m6!3m5!1s0x31a797cb82b60733:0xfaf0b5b62584cf60!8m2!3d10.0366286!4d104.0306752!16s%2Fg%2F11s_gwxw7b?hl=en&entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D"
+      },
+      {
+        "image_url": "/covers-photo/ann-seafood-khem-beach-3.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/Ann+Seafood/@10.0366286,104.0306752,17z/data=!3m1!4b1!4m6!3m5!1s0x31a797cb82b60733:0xfaf0b5b62584cf60!8m2!3d10.0366286!4d104.0306752!16s%2Fg%2F11s_gwxw7b?hl=en&entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D"
+      },
+      {
+        "image_url": "/covers-photo/ann-seafood-khem-beach-4.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/Ann+Seafood/@10.0366286,104.0306752,17z/data=!3m1!4b1!4m6!3m5!1s0x31a797cb82b60733:0xfaf0b5b62584cf60!8m2!3d10.0366286!4d104.0306752!16s%2Fg%2F11s_gwxw7b?hl=en&entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D"
+      }
+    ],
     "google_place_id": "ChIJMwe2gsuXpzERYM-EJba18Po",
     "tags": [
       "Seafood",
@@ -1697,7 +1881,9 @@
     "description_ru": "Ресторан морепродуктов на первой линии пляжа Кхем (KB-03): свежие морепродукты Фукуока, отдельный раздел веганских и вегетарианских блюд и бесплатные шезлонги для гостей ресторана.",
     "description_ja": "ケムビーチの海沿い（KB-03）にあるシーフードレストラン。新鮮なフーコック産魚介料理に加え、ヴィーガン・ベジタリアン専用メニューも用意されており、食事利用客にはビーチサンベッドが無料提供されます。",
     "description_hi": "खेम बीच के समुद्र तट (KB-03) पर स्थित सीफ़ूड रेस्तरां, जहाँ ताज़ा फू क्वोक सीफ़ूड और अलग वीगन व शाकाहारी मेनू उपलब्ध है; भोजन करने वाले मेहमानों के लिए सनबेड निःशुल्क हैं।",
-    "description_vi": "Nhà hàng hải sản sát biển tại KB-03 Bãi Khem phục vụ hải sản tươi sống Phú Quốc, có thực đơn chay riêng và miễn phí ghế tắm nắng trên bãi biển cho thực khách dùng bữa."
+    "description_vi": "Nhà hàng hải sản sát biển tại KB-03 Bãi Khem phục vụ hải sản tươi sống Phú Quốc, có thực đơn chay riêng và miễn phí ghế tắm nắng trên bãi biển cho thực khách dùng bữa.",
+    "media_note": "Google Maps",
+    "photo_permission": "google_maps_verified"
   },
   {
     "id": "khem-draft-016",
@@ -1863,7 +2049,8 @@
     "media_note": "Google Maps",
     "photo_permission": "google_maps_verified",
     "phone": "+84 949 440 144",
-    "hours": "08:00 - 23:45"
+    "hours": "08:00 - 23:45",
+    "description_vi": "Câu lạc bộ biển và nhà hàng mang phong cách Địa Trung Hải – Thổ Nhĩ Kỳ độc đáo nằm dưới hàng dừa xanh mát ngay mặt biển Bãi Khem. Nơi đây trang bị ghế tắm nắng sát biển và phục vụ đa dạng kebab nướng chuẩn vị Thổ Nhĩ Kỳ, pizza lò củi, mì Ý cùng cocktail nhiệt đới suốt cả ngày."
   },
   {
     "id": "khem-draft-034",
@@ -2026,7 +2213,8 @@
     "media_note": "Google Maps",
     "photo_permission": "google_maps_verified",
     "phone": "+84 98 948 11 88",
-    "hours": "09:00 - 22:30"
+    "hours": "09:00 - 22:30",
+    "description_vi": "Nhà hàng hải sản và quầy bar ven biển thân thiện tọa lạc tại khu trung tâm Bãi Khem với không gian thoáng mát đón gió biển. Thực đơn kết hợp hài hòa các món hải sản Phú Quốc xào nướng tươi ngon, cơm nhà Việt Nam truyền thống cùng sinh tố trái cây nhiệt đới và cocktail giá hợp lý."
   },
   {
     "id": "khem-draft-033",
@@ -2189,7 +2377,8 @@
     "media_note": "Google Maps",
     "photo_permission": "google_maps_verified",
     "phone": "+84 94 246 22 88",
-    "hours": "09:00 - 21:00"
+    "hours": "09:00 - 21:00",
+    "description_vi": "Không gian ẩm thực và quầy bar lãng mạn ngay sát mép sóng Bãi Khem, nơi thực khách dùng bữa trong tiếng sóng biển dịu êm. Nhà hàng phục vụ thực đơn Á – Âu đa dạng kết hợp hương vị Thái – Việt, các khay hải sản địa phương tươi rói và danh sách cocktail hoàng hôn tuyển chọn."
   },
   {
     "id": "khem-draft-031",
@@ -2263,13 +2452,39 @@
     "description_ko": "바이켐 해변 북단 해안가에 위치한 로컬 해산물 식당입니다. 푸꾸옥 향토 별미인 청어회 무침(고이 까 찌익, Gỏi cá trích)과 성게 구이, 찜 해산물을 바다 바로 앞 야외 좌석에서 합리적으로 즐길 수 있습니다.",
     "description_en": "Casual local seafood restaurant on northern Khem Beach known for Phu Quoc herring salad (Gỏi cá trích), grilled sea urchin, steamed crab, and open-air tables right by the water.",
     "facilities": null,
-    "gallery_urls": [],
+    "gallery_urls": [
+      "/covers-photo/thanh-nga-seafood-khem-beach-1.webp",
+      "/covers-photo/thanh-nga-seafood-khem-beach-2.webp",
+      "/covers-photo/thanh-nga-seafood-khem-beach-3.webp",
+      "/covers-photo/thanh-nga-seafood-khem-beach-4.webp"
+    ],
     "source_urls": [
       "https://www.google.com/maps/place/?q=place_id:ChIJc94dJtyXpzERBMOqu0G8zDE"
     ],
     "verified_at": "2026-10-30T11:00:00+07:00",
     "zone": "khem-beach",
-    "image_credits": [],
+    "image_credits": [
+      {
+        "image_url": "/covers-photo/thanh-nga-seafood-khem-beach-1.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/Thanh+Nga+Seafood+beach+restaurant/@10.0410221,104.0340026,17z/data=!3m1!4b1!4m6!3m5!1s0x31a797dc261dde73:0x31ccbc41bbaac304!8m2!3d10.0410221!4d104.0340026!16s%2Fg%2F11fhqk_wzv?hl=en&entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D"
+      },
+      {
+        "image_url": "/covers-photo/thanh-nga-seafood-khem-beach-2.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/Thanh+Nga+Seafood+beach+restaurant/@10.0410221,104.0340026,17z/data=!3m1!4b1!4m6!3m5!1s0x31a797dc261dde73:0x31ccbc41bbaac304!8m2!3d10.0410221!4d104.0340026!16s%2Fg%2F11fhqk_wzv?hl=en&entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D"
+      },
+      {
+        "image_url": "/covers-photo/thanh-nga-seafood-khem-beach-3.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/Thanh+Nga+Seafood+beach+restaurant/@10.0410221,104.0340026,17z/data=!3m1!4b1!4m6!3m5!1s0x31a797dc261dde73:0x31ccbc41bbaac304!8m2!3d10.0410221!4d104.0340026!16s%2Fg%2F11fhqk_wzv?hl=en&entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D"
+      },
+      {
+        "image_url": "/covers-photo/thanh-nga-seafood-khem-beach-4.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/Thanh+Nga+Seafood+beach+restaurant/@10.0410221,104.0340026,17z/data=!3m1!4b1!4m6!3m5!1s0x31a797dc261dde73:0x31ccbc41bbaac304!8m2!3d10.0410221!4d104.0340026!16s%2Fg%2F11fhqk_wzv?hl=en&entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D"
+      }
+    ],
     "google_place_id": "ChIJc94dJtyXpzERBMOqu0G8zDE",
     "tags": [
       "Seafood",
@@ -2284,7 +2499,9 @@
     "description_ru": "Непринуждённый местный рыбный ресторан в северной части пляжа Кхем: фирменный фукуокский салат из сельди (Gỏi cá trích), морские ежи на гриле и столики прямо у воды.",
     "description_ja": "ケムビーチ北端の海辺にあるローカル海鮮食堂。フーコック名物のニシンサラダ（Gỏi cá trích）やウニ焼き、蒸し海鮮を波打ち際のオープン席で気軽に味わえます。",
     "description_hi": "उत्तरी खेम बीच के तट पर स्थित स्थानीय सीफ़ूड रेस्तरां, जो फू क्वोक के पारंपरिक हेरिंग सलाद (Gỏi cá trích), ग्रिल्ड सीफ़ूड और समुद्र के किनारे खुले बैठने की व्यवस्था के लिए जाना जाता है।",
-    "description_vi": "Quán hải sản địa phương ven bờ bắc Bãi Khem nổi tiếng với món gỏi cá trích Phú Quốc, nhum nướng mỡ hành và hải sản tươi sống ngay sát mép biển."
+    "description_vi": "Quán hải sản địa phương ven bờ bắc Bãi Khem nổi tiếng với món gỏi cá trích Phú Quốc, nhum nướng mỡ hành và hải sản tươi sống ngay sát mép biển.",
+    "media_note": "Google Maps",
+    "photo_permission": "google_maps_verified"
   },
   {
     "id": "khem-draft-023",
@@ -2412,7 +2629,8 @@
       ]
     },
     "media_note": "Google Maps",
-    "photo_permission": "google_maps_verified"
+    "photo_permission": "google_maps_verified",
+    "description_vi": "Một trong những bãi biển tự nhiên đẹp nhất phía đông nam đảo Phú Quốc, nổi tiếng với dải cát trắng mịn như kem và làn nước biển xanh ngọc bích êm ả. Nhờ độ dốc thoải an toàn và cảnh quan vịnh biển thanh bình, Bãi Khem rất lý tưởng để tắm biển, chèo SUP, dạo bộ và thưởng thức hải sản ven bờ."
   },
   {
     "id": "khem-draft-024",
@@ -2573,8 +2791,8 @@
     "slug": "min-spa-melodia-khem-beach",
     "category": "wellness",
     "subcategory": "spa",
-    "address": "D167, Sun Melodia Shophouse, Bãi Khem, An Thới, Phú Quốc, Kiên Giang, Vietnam",
-    "google_maps_name": "MIN Spa Phú Quốc - Massage & Nail ( M.I.N Spa)",
+    "address": "D167 Khu đô thị Sun Melodia, Bãi Khem, An Thới, Phú Quốc, Kiên Giang, Vietnam",
+    "google_maps_name": "MIN Spa Phú Quốc - Massage & Nail (M.I.N Spa)",
     "google_maps_url": "https://www.google.com/maps/place/MIN+Spa+Ph%C3%BA+Qu%E1%BB%91c+-+Massage+%26+Nail+(+M.I.N+Spa)/@10.0358429,104.0265382,17z/data=!3m1!4b1!4m6!3m5!1s0x31a7971b3db912b5:0xe0d8abdf5ba0da18!8m2!3d10.0358429!4d104.0265382!16s%2Fg%2F11mcc_cp9n",
     "place_id": null,
     "google_place_id": null,
@@ -2585,10 +2803,36 @@
     "hours": "09:00 - 21:00",
     "status": "published",
     "verification_status": "verified",
-    "description_ko": "바이켐 선 멜로디아 숍하우스(D167)에 위치한 스파 & 네일 숍으로, 핫스톤 전신 마사지, 페이셜 케어, 해변 물놀이 후 알로에 선번 진정 테라피와 네일 케어를 합리적인 정찰 요금으로 제공합니다.",
-    "description_en": "Clean shophouse day spa at D167 Sun Melodia in Khem Beach offering hot stone body massage, facials, soothing aloe sunburn care after beach hours, and nail services within walking distance of Khem Beach resorts.",
-    "gallery_urls": [],
-    "image_credits": [],
+    "description_ko": "켐비치 선 멜로디아 숍하우스(D167)에 위치한 깔끔한 데이 스파 & 네일 살롱으로 주변 5성급 리조트에서 도보로 편리하게 방문할 수 있습니다. 핫스톤 전신 마사지와 발 리플렉솔로지, 해변 물놀이 후 열감을 가라앉히는 알로에 선번 진정 테라피, 꼼꼼한 젤 네일·페디큐어를 투명한 정찰 요금으로 선보입니다.",
+    "description_en": "Set at shophouse D167 in the Sun Melodia quarter within walking distance of Khem Beach resorts, MIN Spa Phu Quoc is a spotless day spa and nail lounge with transparent pricing. Guests visit for hot stone full-body massages, foot reflexology, cooling aloe sunburn relief after beach hours, and detailed manicure-pedicure care.",
+    "gallery_urls": [
+      "/covers-photo/min-spa-melodia-khem-beach-1.webp",
+      "/covers-photo/min-spa-melodia-khem-beach-2.webp",
+      "/covers-photo/min-spa-melodia-khem-beach-3.webp",
+      "/covers-photo/min-spa-melodia-khem-beach-4.webp"
+    ],
+    "image_credits": [
+      {
+        "image_url": "/covers-photo/min-spa-melodia-khem-beach-1.webp",
+        "credit_text": "민 스파 푸꾸옥 (MIN Spa Phú Quốc)",
+        "source_page_url": "https://minspaphuquoc.com/"
+      },
+      {
+        "image_url": "/covers-photo/min-spa-melodia-khem-beach-2.webp",
+        "credit_text": "민 스파 푸꾸옥 (MIN Spa Phú Quốc)",
+        "source_page_url": "https://minspaphuquoc.com/"
+      },
+      {
+        "image_url": "/covers-photo/min-spa-melodia-khem-beach-3.webp",
+        "credit_text": "민 스파 푸꾸옥 (MIN Spa Phú Quốc)",
+        "source_page_url": "https://minspaphuquoc.com/"
+      },
+      {
+        "image_url": "/covers-photo/min-spa-melodia-khem-beach-4.webp",
+        "credit_text": "민 스파 푸꾸옥 (MIN Spa Phú Quốc)",
+        "source_page_url": "https://minspaphuquoc.com/"
+      }
+    ],
     "source_urls": [
       "https://minspaphuquoc.com/",
       "https://www.google.com/maps/place/MIN+Spa+Ph%C3%BA+Qu%E1%BB%91c+-+Massage+%26+Nail+(+M.I.N+Spa)/@10.0358429,104.0265382,17z/data=!3m1!4b1!4m6!3m5!1s0x31a7971b3db912b5:0xe0d8abdf5ba0da18!8m2!3d10.0358429!4d104.0265382!16s%2Fg%2F11mcc_cp9n"
@@ -2608,7 +2852,12 @@
     "description_ru": "Уютный дневной спа-салон в квартале Sun Melodia на пляже Кхем (D167): массаж горячими камнями, уход за лицом, успокаивающие процедуры с алоэ после загара и маникюр.",
     "description_ja": "バイケムのサン・メロディア地区（D167）にあるスパ＆ネイルサロン。ホットストーンマッサージやフェイシャル、ビーチ後のアロエ日焼け鎮静ケアを明朗会計で提供しています。",
     "description_hi": "खेम बीच के सन मेलोडिया शॉपहाउस (D167) में स्थित डे स्पा, जहाँ हॉट स्टोन मसाज, फ़ेशियल, धूप से राहत देने वाली एलोवेरा सनबर्न केयर और नेल सेवाएँ उपलब्ध हैं।",
-    "description_vi": "Spa & Nail tại căn D167 khu Sun Melodia Bãi Khem chuyên massage đá nóng, chăm sóc da mặt, liệu trình nha đam làm dịu da cháy nắng sau khi tắm biển và làm nail."
+    "description_vi": "Nằm tại căn D167 khu shophouse Sun Melodia cách các resort Bãi Khem chỉ vài phút đi bộ, MIN Spa Phú Quốc là địa chỉ spa & nail sạch sẽ với bảng giá niêm yết rõ ràng. Tiệm chuyên massage đá nóng toàn thân, bấm huyệt bàn chân, liệu trình nha đam làm dịu da sau tắm biển cùng chăm sóc móng tỉ mỉ.",
+    "media_note": "민 스파 푸꾸옥 (MIN Spa Phú Quốc)",
+    "photo_permission": "official_website_editorial",
+    "google_rating": 4.9,
+    "google_review_count": 523,
+    "rating_check_date": "2026-11-15"
   },
   {
     "id": "khem-seed-036",
@@ -2622,7 +2871,7 @@
     "google_maps_name": "Sun Hotel Khem Beach Phu Quoc",
     "google_maps_url": "https://www.google.com/maps/place/Sun+Hotel+Khem+Beach,+D1-45+Melodia+B%C3%A3i+Khem,+An+Th%E1%BB%9Bi,+Ph%C3%BA+Qu%E1%BB%91c/@10.03605,104.02955,18z",
     "place_id": null,
-    "google_place_id": null,
+    "google_place_id": "ChIJseXhorWXpzERrZEosod6EGQ",
     "lat": 10.03605,
     "lng": 104.02955,
     "phone": null,
@@ -2632,8 +2881,28 @@
     "verification_status": "verified",
     "description_ko": "멜로디아 바이켐 메인 해변 진입 블록(D1-45)에 위치한 깔끔한 3성급 가성비 호텔입니다. 고운 백사장의 바이켐 해변까지 도보 약 3분(약 250m) 거리로 해변 식당가와 마사지숍 이동이 편리합니다.",
     "description_en": "Clean 3-star value shophouse hotel on the main D1 beach-access block (D1-45 Melodia Bãi Khem), situated about a 3-minute walk (250 m) from Khem Beach sands and beachfront seafood restaurants.",
-    "gallery_urls": [],
-    "image_credits": [],
+    "gallery_urls": [
+      "/covers-photo/sun-hotel-khem-beach-1.webp",
+      "/covers-photo/sun-hotel-khem-beach-2.webp",
+      "/covers-photo/sun-hotel-khem-beach-3.webp"
+    ],
+    "image_credits": [
+      {
+        "image_url": "/covers-photo/sun-hotel-khem-beach-1.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/Sun+Hotel+Khem+Beach+-+Phu+Quoc/@10.0358408,104.0272998,17z/data=!3m1!4b1!4m9!3m8!1s0x31a797b5a2e1e5b1:0x64107a87b22891ad!5m2!4m1!1i2!8m2!3d10.0358408!4d104.0272998!16s%2Fg%2F11z58p8h3z?hl=en&entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D"
+      },
+      {
+        "image_url": "/covers-photo/sun-hotel-khem-beach-2.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/Sun+Hotel+Khem+Beach+-+Phu+Quoc/@10.0358408,104.0272998,17z/data=!3m1!4b1!4m9!3m8!1s0x31a797b5a2e1e5b1:0x64107a87b22891ad!5m2!4m1!1i2!8m2!3d10.0358408!4d104.0272998!16s%2Fg%2F11z58p8h3z?hl=en&entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D"
+      },
+      {
+        "image_url": "/covers-photo/sun-hotel-khem-beach-3.webp",
+        "credit_text": "Google Maps",
+        "source_page_url": "https://www.google.com/maps/place/Sun+Hotel+Khem+Beach+-+Phu+Quoc/@10.0358408,104.0272998,17z/data=!3m1!4b1!4m9!3m8!1s0x31a797b5a2e1e5b1:0x64107a87b22891ad!5m2!4m1!1i2!8m2!3d10.0358408!4d104.0272998!16s%2Fg%2F11z58p8h3z?hl=en&entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D"
+      }
+    ],
     "source_urls": [
       "https://www.agoda.com/sun-hotel-phu-quoc/hotel/phu-quoc-island-vn.html"
     ],
@@ -2648,6 +2917,11 @@
     "description_ru": "Чистый бюджетный 3-звёздочный отель на главной линии прохода к морю (D1-45 Melodia Bãi Khem), всего в 3 минутах ходьбы (250 м) от белого песка пляжа Кхем.",
     "description_ja": "メロディア・バイケムのビーチアクセス通り（D1-45）に位置する清潔な3つ星バリューホテル。ケムビーチの白砂浜や海沿いのレストランまで徒歩約3分（約250m）です。",
     "description_hi": "मेलोडिया बाई खेम के मुख्य बीच-एक्सेस ब्लॉक (D1-45) पर स्थित साफ़-सुथरा 3-सितारा बजट होटल, जो खेम बीच से केवल 3 मिनट (250 मीटर) की पैदल दूरी पर है।",
-    "description_vi": "Khách sạn 3 sao sạch sẽ, giá tốt nằm ngay trục đường chính ra biển (căn D1-45 Melodia Bãi Khem), chỉ cách bãi cát trắng Bãi Khem khoảng 3 phút đi bộ (250m)."
+    "description_vi": "Khách sạn 3 sao sạch sẽ, giá tốt nằm ngay trục đường chính ra biển (căn D1-45 Melodia Bãi Khem), chỉ cách bãi cát trắng Bãi Khem khoảng 3 phút đi bộ (250m).",
+    "media_note": "Google Maps",
+    "photo_permission": "google_maps_verified",
+    "google_rating": 4.8,
+    "google_review_count": 37,
+    "rating_check_date": "2026-11-15"
   }
 ]
