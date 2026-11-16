@@ -959,6 +959,14 @@ export function HomePage({
                 />
               )
             )}
+            <HomeFeedSection
+              id="home-news"
+              title={HOME_FEED_TITLES.news[locale] || HOME_FEED_TITLES.news.en}
+              viewAllHref={localePath(locale, '/news')}
+              viewAllLabel={viewAllLabel}
+              items={storyItems}
+              itemBase={localePath(locale, '/news')}
+            />
           </>
         )}
 
@@ -1032,19 +1040,6 @@ export function HomePage({
         )}
 
         <SunsetTownTickets locale={locale} />
-
-        {homeSections.stories.visible && (
-          <>
-            <HomeFeedSection
-              id="home-news"
-              title={HOME_FEED_TITLES.news[locale] || HOME_FEED_TITLES.news.en}
-              viewAllHref={localePath(locale, '/news')}
-              viewAllLabel={viewAllLabel}
-              items={storyItems}
-              itemBase={localePath(locale, '/news')}
-            />
-          </>
-        )}
 
         {homeSections.newsletter.visible && (
           <section className="newsletterBand">
