@@ -44,6 +44,7 @@ export interface EventBoardItem {
 interface EventsBoardProps {
   items: EventBoardItem[]
   locale: Locale
+  defaultStatus?: 'all' | 'active' | 'ended'
 }
 
 const DEFAULT_PAGE_SIZE = 10
@@ -127,12 +128,12 @@ const BOARD_FILTER_LABELS: Record<
   },
 }
 
-export function EventsBoard({ items, locale }: EventsBoardProps) {
+export function EventsBoard({ items, locale, defaultStatus = 'all' }: EventsBoardProps) {
   const dict = getDictionary(locale)
   const ui = BOARD_FILTER_LABELS[locale] || BOARD_FILTER_LABELS.en
   const [inputValue, setInputValue] = useState('')
   const [activeQuery, setActiveQuery] = useState('')
-  const [statusFilter, setStatusFilter] = useState<StatusFilter>('all')
+  const [statusFilter, setStatusFilter] = useState<StatusFilter>(defaultStatus)
   const [selectedDate, setSelectedDate] = useState('')
   const [pageSize, setPageSize] = useState(DEFAULT_PAGE_SIZE)
   const [visibleCount, setVisibleCount] = useState(DEFAULT_PAGE_SIZE)

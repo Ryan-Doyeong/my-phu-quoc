@@ -6,7 +6,8 @@ import { createPublicClient } from '@/lib/supabase/public'
 import { Logo } from '@/components/Logo'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { ArticleBody } from '@/components/ArticleBody'
-import { EventsBoard } from '@/components/EventsBoard'
+import { EventsHub } from '@/components/EventsHub'
+import { EVENT_HUB_LABELS } from '@/lib/eventTracks'
 import { ContentCategoryTabs } from '@/components/ContentCategoryTabs'
 import { type ContentCategory } from '@/lib/contentCategories'
 import { imageUrl } from '@/lib/imageUrl'
@@ -613,13 +614,13 @@ export async function renderEventsRoute(locale: Locale = 'en') {
       <SiteHeader locale={locale} />
       <section className="newsHero eventsHeroCompact">
         <div className="shell">
-          <span className="eyebrow">{dict.news.eventsEyebrow}</span>
-          <h1>{dict.news.eventsTitle}</h1>
-          <p className="lead">{dict.news.eventsLead}</p>
+          <span className="eyebrow">{(EVENT_HUB_LABELS[locale] || EVENT_HUB_LABELS.en).eyebrow}</span>
+          <h1>{(EVENT_HUB_LABELS[locale] || EVENT_HUB_LABELS.en).title}</h1>
+          <p className="lead">{(EVENT_HUB_LABELS[locale] || EVENT_HUB_LABELS.en).lead}</p>
         </div>
       </section>
       <ContentCategoryTabs locale={locale} active="event" />
-      <EventsBoard items={items} locale={locale} />
+      <EventsHub items={items} locale={locale} />
     </main>
   )
 }
