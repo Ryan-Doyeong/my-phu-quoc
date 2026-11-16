@@ -36,6 +36,7 @@ import { getDictionary, localizeStory, translateTerm } from '@/lib/i18n/dictiona
 import { HOME_FEED_TITLES, VIEW_ALL_LABELS } from '@/lib/contentCategories'
 import { DEFAULT_SPONSOR_BANNERS } from '@/lib/banners'
 import { PUBLISHED_EVENTS } from '@/lib/eventSamples'
+import { HomeEventsBlock } from '@/components/HomeEventsBlock'
 import { SITE_CONFIG } from '@/lib/siteConfig'
 
 const HOME_NAV_SUNSET: Record<string, string> = {
@@ -439,6 +440,7 @@ export function HomePage({
   categoryAppearance,
   stories,
   events = [],
+  eventPool = [],
   banners,
   event,
   homeSections,
@@ -448,6 +450,7 @@ export function HomePage({
   categoryAppearance: Record<DirectoryCategory, DirectoryCategoryAppearance>
   stories: Story[]
   events?: Story[]
+  eventPool?: Story[]
   banners: Banner[]
   event: Story | null
   homeSections: HomeSections
@@ -1012,15 +1015,19 @@ export function HomePage({
 
         {homeSections.stories.visible && (
           <>
-            {eventItems.length > 0 && (
-              <HomeFeedSection
-                id="home-events"
-                title={HOME_FEED_TITLES.event[locale] || HOME_FEED_TITLES.event.en}
-                viewAllHref={localePath(locale, '/events')}
-                viewAllLabel={viewAllLabel}
-                items={eventItems}
-                itemBase={localePath(locale, '/events')}
-              />
+            {eventPool.length > 0 ? (
+              <HomeEventsBlock pool={eventPool} locale={locale} />
+            ) : (
+              eventItems.length > 0 && (
+                <HomeFeedSection
+                  id="home-events"
+                  title={HOME_FEED_TITLES.event[locale] || HOME_FEED_TITLES.event.en}
+                  viewAllHref={localePath(locale, '/events')}
+                  viewAllLabel={viewAllLabel}
+                  items={eventItems}
+                  itemBase={localePath(locale, '/events')}
+                />
+              )
             )}
             <HomeFeedSection
               id="home-news"

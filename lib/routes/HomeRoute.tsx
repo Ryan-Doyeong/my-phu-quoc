@@ -45,6 +45,7 @@ export async function renderHomeRoute(locale: Locale = 'en') {
     { data: banners },
     { data: eventRows },
     { data: latestEventRows },
+    { data: poolEventRows },
   ] = await Promise.all([
     supabase.from('site_settings').select('value').eq('key', 'appearance').maybeSingle(),
     supabase.from('site_settings').select('value').eq('key', 'directory_categories').maybeSingle(),
@@ -75,6 +76,13 @@ export async function renderHomeRoute(locale: Locale = 'en') {
       .eq('content_type', 'event')
       .order('published_at', { ascending: false })
       .limit(3),
+    supabase
+      .from('stories')
+      .select('*')
+      .eq('status', 'published')
+      .eq('content_type', 'event')
+      .order('published_at', { ascending: false })
+      .limit(30),
   ])
   // 홈 하단 피드: DB + 저장소 내 게시물을 합쳐 최신순 3개
   const latestOf = (rows: any[] | null, inRepo: (t: string) => boolean) => {
@@ -87,6 +95,11 @@ export async function renderHomeRoute(locale: Locale = 'en') {
       .sort((a: any, b: any) => +new Date(b.published_at || 0) - +new Date(a.published_at || 0))
       .slice(0, 3)
   }
+  const poolSlugs = new Set((poolEventRows || []).map((r: any) => r.slug))
+  const eventPool = [
+    ...(poolEventRows || []),
+    ...PUBLISHED_EVENTS.filter((e) => e.status === 'published' && e.content_type === 'event' && !poolSlugs.has(e.slug)),
+  ]
   const homeNews = latestOf(stories, (t) => t !== 'event' && t !== 'guide')
   const homeEvents = latestOf(latestEventRows, (t) => t === 'event')
   const settings = { ...defaultSettings, ...((settingRow?.value || {}) as Partial<SiteSettings>) }
@@ -104,6 +117,7 @@ export async function renderHomeRoute(locale: Locale = 'en') {
         categoryAppearance={categoryAppearance}
         stories={homeNews}
         events={homeEvents}
+        eventPool={eventPool}
         banners={effectiveBanners}
         event={effectiveEvent}
         homeSections={homeSections}
