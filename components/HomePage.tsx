@@ -942,6 +942,26 @@ export function HomePage({
           })()}
         </section>
 
+        {/* 이벤트 소식: 가이드 미니배너(지도 & 12대 명소) 바로 아래 */}
+        {homeSections.stories.visible && (
+          <>
+            {eventPool.length > 0 ? (
+              <HomeEventsBlock pool={eventPool} locale={locale} />
+            ) : (
+              eventItems.length > 0 && (
+                <HomeFeedSection
+                  id="home-events"
+                  title={HOME_FEED_TITLES.event[locale] || HOME_FEED_TITLES.event.en}
+                  viewAllHref={localePath(locale, '/events')}
+                  viewAllLabel={viewAllLabel}
+                  items={eventItems}
+                  itemBase={localePath(locale, '/events')}
+                />
+              )
+            )}
+          </>
+        )}
+
         {homeSections.discover.visible && (
           <section className="shell discover" id="discover">
             <div className="sectionIntro">
@@ -1015,20 +1035,6 @@ export function HomePage({
 
         {homeSections.stories.visible && (
           <>
-            {eventPool.length > 0 ? (
-              <HomeEventsBlock pool={eventPool} locale={locale} />
-            ) : (
-              eventItems.length > 0 && (
-                <HomeFeedSection
-                  id="home-events"
-                  title={HOME_FEED_TITLES.event[locale] || HOME_FEED_TITLES.event.en}
-                  viewAllHref={localePath(locale, '/events')}
-                  viewAllLabel={viewAllLabel}
-                  items={eventItems}
-                  itemBase={localePath(locale, '/events')}
-                />
-              )
-            )}
             <HomeFeedSection
               id="home-news"
               title={HOME_FEED_TITLES.news[locale] || HOME_FEED_TITLES.news.en}
