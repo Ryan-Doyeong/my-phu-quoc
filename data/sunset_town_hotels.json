@@ -2916,9 +2916,9 @@
       ],
       "priceRange": "$$$$",
       "googleRating": 4.6,
-      "tier": "recommended",
+      "tier": "standard",
       "order": 3,
-      "isFeatured": true,
+      "isFeatured": false,
       "reviewHighlight": "비치클럽 인접 및 부티크 객실 인테리어",
       "reviewPros": [
         "해변 산책로와 비치클럽 인접 부티크 숙소",
