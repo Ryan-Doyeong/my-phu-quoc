@@ -48,8 +48,8 @@ export function ShowsHubPage({ locale }: { locale: Locale }) {
 
   const symphony = eventNode({
     name: 'Symphony of the Sea',
-    startTime: '19:30',
-    endTime: '20:05', // showsHubCopy row1Time '19:30–20:05'
+    startTime: '19:45',
+    endTime: '20:10', // showsHubCopy row1Time '19:45–20:10'
     description: `${c.row1Time} · ${c.row1Note}`,
     url,
     locale,
