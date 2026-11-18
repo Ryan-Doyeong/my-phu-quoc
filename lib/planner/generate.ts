@@ -5,8 +5,8 @@
  *  1. 일정은 남부(선셋타운·켐비치·안토이)만 짠다. 남부 일정은 최대 3박 4일.
  *  2. 여행 형태: 남부만 / 남부에서 시작 → 다른 지역 / 다른 지역 → 남부에서 마무리.
  *     중부·북부는 일정 대신 조언(이동 시간 등)으로 안내한다.
- *  3. 필수 공연 2개(심포니 19:30 / 키스 21:00)는 남부 저녁에 배치.
- *     - 저녁이 하루뿐이면 같은 날 연달아 관람(19:30 → 21:00).
+ *  3. 필수 공연 2개(심포니 19:45 / 키스 21:00)는 남부 저녁에 배치.
+ *     - 저녁이 하루뿐이면 같은 날 연달아 관람(19:45 → 21:00).
  *     - 여행 날짜를 알면 키스 오브 더 씨를 화요일에 두지 않도록 피함(휴무 여부 미확인).
  *  4. 남부 도착·출발 시간대에 맞춰 첫날/마지막 날 쓸 수 있는 시간만 채움.
  *     이른 도착은 체크인 전 '호국사 → 쌀국수 → 커피' 동선.
@@ -353,8 +353,8 @@ export function generatePlan(input: PlannerInput): Plan {
     if (symphonyDay !== null && symphonyDay === kissDay) {
       notes.push(
         t(
-          '두 공연 모두 관람 가능한 저녁에 맞춰 같은 날 연달아 보도록 구성했어요 (19:30 심포니 → 21:00 키스 오브 더 씨).',
-          'Both shows are arranged back to back on your available evening (19:30 Symphony → 21:00 Kiss of the Sea).',
+          '두 공연 모두 관람 가능한 저녁에 맞춰 같은 날 연달아 보도록 구성했어요 (19:45 심포니 → 21:00 키스 오브 더 씨).',
+          'Both shows are arranged back to back on your available evening (19:45 Symphony → 21:00 Kiss of the Sea).',
         ),
       )
     }
@@ -577,13 +577,13 @@ export function generatePlan(input: PlannerInput): Plan {
           } else {
             symFlags.push(
               t(
-                '공연 약 30분 소요 (19:30~20:00) · 해변 관람 구역 15분 전 도착 권장',
-                'Approx. 30 min show (19:30–20:00) · Arrive 15 min early at beachfront viewing zone',
+                '공연 약 30분 소요 (19:45~20:10) · 해변 관람 구역 15분 전 도착 권장',
+                'Approx. 30 min show (19:45–20:10) · Arrive 15 min early at beachfront viewing zone',
               ),
             )
           }
           items.push(
-            item(ctx, 'symphony', '19:30', 'must', SPOT.symphony.title, 'south', {
+            item(ctx, 'symphony', '19:45', 'must', SPOT.symphony.title, 'south', {
               desc: SPOT.symphony.desc,
               productId: 'symphony_ticket',
               flags: symFlags,
