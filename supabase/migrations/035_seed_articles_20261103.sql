@@ -133,10 +133,10 @@ Source: Sun World Paradise Land Phu Quoc Official Facebook (November 3, 2026 pos
 
 ## 官方渠道一并介绍的内容
 
-- 提及[南部岛屿住宿](/zh/news/phu-quoc-south-island-family-pool-villas)：富国岛翡翠湾高级乡村度假村（Premier Village Phu Quoc Resort）、富国岛新世界度假酒店（New World Phu Quoc Resort）、富国岛翡翠湾JW万豪度假酒店（JW Marriott Phu Quoc Emerald Bay Resort）。
+- 提及[南部岛屿住宿](/zh/news/phu-quoc-south-island-family-pool-villas)：Premier Village Phu Quoc Resort、富国岛新世界度假酒店（New World Phu Quoc Resort）、富国岛翡翠湾JW万豪度假酒店（JW Marriott Phu Quoc Emerald Bay Resort）。
 - 从日落小镇（Thị trấn Hoàng Hôn）可搭乘跨海缆车前往太阳世界香岛（Sun World Hòn Thơm）。
 - 夜间举行[《海洋交响乐》（Symphony of the Sea）](/zh/news/symphony-of-the-sea-season-3-opening)与[《海洋之吻》（Kiss of the Sea）](/zh/news/kiss-of-the-sea-fireworks-viewing-tips)烟花演出。
-- 介绍了Sun PhuQuoc Airways开通的首尔直飞航线。
+- 介绍了Sun PhuQuoc Airways有首尔直飞航线。
 
 具体搜索数值、航班班次及票价未在官方帖文中公布，因此本文未予收录。具体日程与费用请通过各官方渠道确认。
 
@@ -230,7 +230,7 @@ Source: Sun World Paradise Land Phu Quoc Official Facebook (November 3, 2026 pos
 
 출처: 선월드 파라다이스 랜드 푸꾸옥 공식 페이스북 (2026년 11월 3일 게시물)', '官方帖文提及了位于富国岛南部岛屿的三处度假村作为家庭旅行住宿：
 
-- 富国岛翡翠湾高级乡村度假村（Premier Village Phu Quoc Resort）
+- Premier Village Phu Quoc Resort
 - 富国岛新世界度假酒店（New World Phu Quoc Resort）
 - 富国岛翡翠湾JW万豪度假酒店（JW Marriott Phu Quoc Emerald Bay Resort）
 
@@ -309,7 +309,7 @@ Source: Sun World Paradise Land Phu Quoc Official Facebook (November 3, 2026 pos
 INSERT INTO public.stories (
   slug, title, title_ko, category, content_type, status, is_featured, published_at, cover_image_url, hero_caption, hero_caption_ko, excerpt, excerpt_ko, seo_title, seo_title_ko, seo_description, seo_description_ko, body_en, body_ko, body_zh, body_ru, body_ja, body_hi
 ) VALUES (
-  'vietnam-culture-day-nov-24-sunset-town', 'Vietnam Culture Day (Nov 24) — Sunset Town Visit Notes', '11월 24일 베트남 문화의 날 — 선셋타운에서 보내는 하루 참고', 'Culture & Notice', 'news', 'published', TRUE, '2026-11-03', '/stock/vietnam-culture-day-nov-24-sunset-town-cover.webp', 'AI-generated illustration: Central plaza and gallery exterior with arched doorways in Sunset Town, Phu Quoc', 'AI-generated illustration: 푸꾸옥 선셋타운 중심부 광장과 아치형 출입구 건축 외관 일러스트', 'Verified details from official Sun World posts mentioning Vietnam Culture Day on November 24 and an upcoming Culture Week (Tuần lễ Văn hóa) in Sunset Town.', '공식 채널에서 언급한 11월 24일 베트남 문화의 날과 곧 열릴 예정이라고 예고한 문화 주간. 확인된 정보만 정리했습니다.', 'Vietnam Culture Day (Nov 24) — Sunset Town Visit Notes', '11월 24일 베트남 문화의 날 — 선셋타운에서 보내는 하루 참고', 'Verified details from official Sun World posts mentioning Vietnam Culture Day on November 24 and an upcoming Culture Week (Tuần lễ Văn hóa) in Sunset Town.', '공식 채널에서 언급한 11월 24일 베트남 문화의 날과 곧 열릴 예정이라고 예고한 문화 주간. 확인된 정보만 정리했습니다.', 'On the official Sun World page, visitors were encouraged to visit [Sun Signature Gallery (see Article 1)](/news/sun-signature-gallery-sunset-town-bill-bensley) on November 24, Vietnam Culture Day. In addition, a video post previewed an "upcoming Culture Week (Tuần lễ Văn hóa)."
+  'vietnam-culture-day-nov-24-sunset-town', 'Vietnam Culture Day (Nov 24) — Sunset Town Visit Notes', '11월 24일 베트남 문화의 날 — 선셋타운에서 보내는 하루 참고', 'Culture & Notice', 'news', 'published', TRUE, '2026-11-03', '/stock/vietnam-culture-day-nov-24-sunset-town-cover.webp', 'AI-generated illustration: Central plaza and gallery exterior with arched doorways in Sunset Town, Phu Quoc', 'AI-generated illustration: 푸꾸옥 선셋타운 중심부 광장과 아치형 출입구 건축 외관 일러스트', 'Confirmed details from official Sun World posts mentioning Vietnam Culture Day on November 24 and an upcoming Culture Week (Tuần lễ Văn hóa) in Sunset Town.', '공식 채널에서 언급한 11월 24일 베트남 문화의 날과 곧 열릴 예정이라고 예고한 문화 주간. 확인된 정보만 정리했습니다.', 'Vietnam Culture Day (Nov 24) — Sunset Town Visit Notes', '11월 24일 베트남 문화의 날 — 선셋타운에서 보내는 하루 참고', 'Confirmed details from official Sun World posts mentioning Vietnam Culture Day on November 24 and an upcoming Culture Week (Tuần lễ Văn hóa) in Sunset Town.', '공식 채널에서 언급한 11월 24일 베트남 문화의 날과 곧 열릴 예정이라고 예고한 문화 주간. 확인된 정보만 정리했습니다.', 'On the official Sun World page, visitors were encouraged to visit [Sun Signature Gallery (see Article 1)](/news/sun-signature-gallery-sunset-town-bill-bensley) on November 24, Vietnam Culture Day. In addition, a video post previewed an "upcoming Culture Week (Tuần lễ Văn hóa)."
 
 Currently, those two points are the only details confirmed in the official posts. Specific dates and programs for Culture Week, as well as event details for November 24, have not yet been announced. This article will be updated once new official guidance is released.
 
@@ -391,12 +391,12 @@ Source: Sun World Paradise Land Phu Quoc Official Facebook (November 2, 2026 vid
 
 出处：太阳世界富国岛乐园（Sun World Paradise Land Phu Quoc）官方 Facebook（2026年11月2日视频帖文）', 'На официальной странице Sun World в видеоролике архитектура [Фукуока](/ru/news/conde-nast-top-island-sunset-town-course) была представлена с точки зрения культурной идентичности Вьетнама. В видео упомянуты следующие элементы:
 
-- Императорский стиль Хюэ: красный и золотой цвета, бронзовые котлы
+- Императорский стиль Хюэ: красный и золотой цвета, бронзовый котёл
 - Фонарики Хойана
 - Французская архитектура
 - Атмосфера рыбацкой деревни с крышами из листьев и бамбуком
 
-Какие именно объекты относятся к каждому из стилей, в официальной публикации не указано, поэтому эти сведения здесь не приводятся.
+В официальной публикации не указано, какие именно объекты относятся к каждому из стилей, поэтому эти сведения здесь не приводятся.
 
 Источник: официальная страница Sun World Paradise Land Phu Quoc в Facebook (видеопубликация от 2 ноября 2026 г.)', 'サンワールド公式ページでは、動画を通じて[フーコック島](/ja/news/conde-nast-top-island-sunset-town-course)の建築がベトナムの文化的アイデンティティという観点から紹介されました。動画内で言及された要素は次のとおりです。
 
