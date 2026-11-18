@@ -135,7 +135,7 @@ const DRAFT_KEY = 'antigravity-article-draft';
     }
     if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
       e.preventDefault();
-      replaceSelection('[', '](https://example.com)');
+      replaceSelection('[', '](https://)');
     }
   }
 
@@ -266,7 +266,7 @@ const DRAFT_KEY = 'antigravity-article-draft';
       <button type="button" onClick={()=>replaceSelection('**','**')}>Bold</button>
       <button type="button" onClick={()=>replaceSelection('- ','',true)}>List</button>
       <button type="button" onClick={()=>replaceSelection('> ','',true)}>Quote</button>
-      <button type="button" onClick={()=>replaceSelection('[','](https://example.com)')}>Link</button>
+      <button type="button" onClick={()=>replaceSelection('[','](https://)')}>Link</button>
       <button type="button" onClick={()=>replaceSelection('\n---\n')}>Rule</button>
       <button type="button" onClick={()=>imageInputRef.current?.click()} disabled={uploading}>{uploading?'Uploading…':'Photo'}</button>
       <button type="button" onClick={togglePreview}>{preview?'Write':'Preview'}</button>
