@@ -79,11 +79,19 @@ export function EventsHub({ items, locale }: { items: EventBoardItem[]; locale: 
   }, [trackItems, chip])
 
   const topSlugs = useMemo(() => new Set(highlights.map((h) => h.slug)), [highlights])
-  const listItems = useMemo(() => trackItems.filter((it) => !topSlugs.has(it.slug)), [trackItems, topSlugs])
-  const hasActiveMore = useMemo(
-    () => listItems.some((it) => getEventProgressStatus(it.event_date, endOf(it)) !== 'ended'),
-    [listItems]
+  const hasAnyActive = useMemo(
+    () => trackItems.some((it) => getEventProgressStatus(it.event_date, endOf(it)) !== 'ended'),
+    [trackItems]
   )
+  const hasActiveBeyondHighlights = useMemo(
+    () => trackItems.some((it) => !topSlugs.has(it.slug) && getEventProgressStatus(it.event_date, endOf(it)) !== 'ended'),
+    [trackItems, topSlugs]
+  )
+  const listItems = useMemo(
+    () => (hasActiveBeyondHighlights ? trackItems.filter((it) => !topSlugs.has(it.slug)) : trackItems),
+    [trackItems, topSlugs, hasActiveBeyondHighlights]
+  )
+  const hasActiveMore = hasAnyActive
 
   const trackCard = (key: EventTrack, tag: string, title: string, desc: string) => {
     const on = track === key
