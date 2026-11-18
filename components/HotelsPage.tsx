@@ -148,7 +148,7 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
                 {typeof hotel.googleReviewsCount === 'number' && hotel.googleReviewsCount > 0 ? ` (${hotel.googleReviewsCount})` : ''}
               </span>
             )}
-            <HotelPriceBadge priceRange={hotel.priceRange} locale={locale} />
+            <HotelPriceBadge priceRange={hotel.priceRange} priceFrom={hotel.priceFrom} locale={locale} />
           </div>
           {isKhem ? (
             <span className="khemDistBadge">🚗 {getKhemDistanceBadge(hotel, t)}</span>
@@ -164,7 +164,7 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
         {locale === 'ko' && <div className="cardTitleEn">{hotel.name_en}</div>}
 
         {/* 아고다 1박 요금 범위 (선셋타운: 미확인 시 '요금 미확인', 켐 비치: 요금대 있을 때만) */}
-        <HotelPriceRangeText priceRange={hotel.priceRange} locale={locale} showUnverified={!isKhem} />
+        <HotelPriceRangeText priceRange={hotel.priceRange} priceFrom={hotel.priceFrom} locale={locale} showUnverified={!isKhem} />
 
         {/* 위치·전망 핵심 한 줄 (데이터 있는 호텔만 노출) */}
         {hotel.insight && (hotel.insight.location || hotel.insight.view) && (
@@ -359,7 +359,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                     {typeof hotel.googleReviewsCount === 'number' && hotel.googleReviewsCount > 0 ? ` (${hotel.googleReviewsCount})` : ''}
                   </span>
                 )}
-                <HotelPriceBadge priceRange={hotel.priceRange} locale={locale} style={{ marginLeft: '6px' }} />
+                <HotelPriceBadge priceRange={hotel.priceRange} priceFrom={hotel.priceFrom} locale={locale} style={{ marginLeft: '6px' }} />
               </div>
               {isKhem ? (
                 <span className="khemDistBadge" style={{ fontSize: '0.85rem', padding: '4px 10px' }}>
@@ -938,7 +938,8 @@ function HotelsPageInner({ hotels: rawHotels, locale = 'en', initialArea }: Hote
     if (activeRating === 9.0) list = list.filter(h => h.rating >= 9.0)
     else if (activeRating === 8.5) list = list.filter(h => h.rating >= 8.5)
 
-    const priceLevel = (h: HotelItem) => getPriceTierLevel(h.priceRange) || 0
+    const priceLevel = (h: HotelItem) =>
+      activeCategory === 'recommended' && h.priceFrom ? h.priceFrom.usd : getPriceTierLevel(h.priceRange) || 0
     list.sort((a, b) => {
       // 3성급 호텔 탭: 더 룸 호텔(마이 푸꾸옥 추천)을 어떤 정렬에서도 맨 위에 고정
       if (activeCategory === 'boutique') {

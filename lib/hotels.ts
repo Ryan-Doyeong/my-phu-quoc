@@ -1,6 +1,7 @@
 import rawSunsetTownHotels from '@/data/sunset_town_hotels.json'
 import rawKhemBeachHotels from '@/data/khem_beach_hotels.json'
 import rawHotelInsights from '@/data/hotel_insights.json'
+import rawPriceSurvey from '@/data/hotel_price_survey.json'
 import { buildGoogleMapsUrl, isValidGooglePlaceId } from '@/lib/mapsLink'
 
 export interface HotelInsight {
@@ -64,6 +65,24 @@ export interface HotelReviewQuote {
 export type HotelArea = 'sunset-town' | 'khem-beach'
 export type HotelTier = 'top' | 'recommended' | 'standard'
 export type HotelPriceRange = '$' | '$$' | '$$$' | '$$$$' | '$$$$$'
+
+export type HotelPriceGroup = 'boutique' | 'resort'
+export type HotelPriceTag = 'breakfast' | 'oceanView' | 'villaOnly' | 'seasonal' | 'twoNight'
+/** 조사 기반 '약 $N~' 표기 (data/hotel_price_survey.json). usd 는 세금 포함 예상가를 반올림한 시작가 */
+export interface HotelPriceFrom {
+  usd: number
+  group: HotelPriceGroup
+  tags: HotelPriceTag[]
+}
+
+const PRICE_SURVEY = (rawPriceSurvey as { hotels: Record<string, HotelPriceFrom> }).hotels
+export const PRICE_SURVEY_DATE: string = (rawPriceSurvey as { surveyDate: string }).surveyDate
+
+/** 부티크 전용 $ 단계: $ 100달러 미만 · $$ 100~249달러 · $$$ 250달러 이상. 리조트급은 단계 없음 */
+export function getBoutiqueTier(priceFrom?: HotelPriceFrom | null): HotelPriceRange | undefined {
+  if (!priceFrom || priceFrom.group !== 'boutique') return undefined
+  return priceFrom.usd < 100 ? '$' : priceFrom.usd < 250 ? '$$' : '$$$'
+}
 
 export const PRICE_TIER_CONFIG = {
   currency: 'VND',
@@ -215,6 +234,7 @@ export interface HotelItem {
   googleRating?: number
   googleReviewsCount?: number
   priceRange?: HotelPriceRange
+  priceFrom?: HotelPriceFrom
   googleReviews?: HotelGoogleReview[]
   unverified?: string[]
   insight?: HotelInsight
@@ -280,6 +300,7 @@ function mapHotelItem(raw: any, defaultArea: HotelArea): HotelItem {
     googleRating: raw.googleRating,
     googleReviewsCount: raw.googleReviewsCount,
     priceRange: raw.priceRange,
+    priceFrom: PRICE_SURVEY[raw.slug],
   }
 }
 
@@ -322,17 +343,19 @@ export function getHotelPriceRangeForBusiness(b: {
 } | null | undefined): HotelPriceRange | undefined {
   if (!b) return undefined
   const all = getAllHotels()
+  const tierOf = (h: HotelItem | undefined): HotelPriceRange | undefined =>
+    h?.priceFrom ? getBoutiqueTier(h.priceFrom) : h?.priceRange
 
   // 1. Direct slug match
   if (b.slug) {
     const found = all.find((h) => h.slug === b.slug)
-    if (found?.priceRange) return found.priceRange
+    if (found && (found.priceFrom || found.priceRange)) return tierOf(found)
   }
 
   // 2. Google Place ID match
   if (b.google_place_id) {
     const found = all.find((h) => h.googlePlaceId && h.googlePlaceId === b.google_place_id)
-    if (found?.priceRange) return found.priceRange
+    if (found && (found.priceFrom || found.priceRange)) return tierOf(found)
   }
 
   // 3. Agoda URL match
@@ -346,14 +369,14 @@ export function getHotelPriceRangeForBusiness(b: {
         const hm = h.agodaUrl.match(/agoda\.com\/(?:[a-z]{2}-[a-z]{2}\/)?([^/?#]+)\/hotel/i)
         return hm && hm[1].toLowerCase() === agodaSlug
       })
-      if (found?.priceRange) return found.priceRange
+      if (found && (found.priceFrom || found.priceRange)) return tierOf(found)
     }
   }
 
   // 4. Special alias mappings
   if (b.slug === 'sunset-place-7') {
     const found = all.find((h) => h.slug.includes('la-festa'))
-    if (found?.priceRange) return found.priceRange
+    if (found && (found.priceFrom || found.priceRange)) return tierOf(found)
   }
 
   return undefined

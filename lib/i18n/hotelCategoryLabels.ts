@@ -12,6 +12,11 @@ export interface HotelCategoryDictionary {
   orMore: string
   priceUnverified: string
   priceNote: string
+  /** '약 {usd}~' 형식. {usd} 자리에 '$250' 가 들어감 */
+  priceFromTpl: string
+  priceFromSub: string
+  priceFromNote: string
+  priceFromTags: { breakfast: string; oceanView: string; villaOnly: string; seasonal: string; twoNight: string }
   sortPrice: string
   sortPriceLow: string
   emptyCategory: string
@@ -31,6 +36,10 @@ export const HOTEL_CATEGORY_LABELS: Record<Locale, HotelCategoryDictionary> = {
     orMore: '이상',
     priceUnverified: '요금 미확인',
     priceNote: '요금 범위는 아고다 2026-11-01 조회 기준(2인 1실, 1박 시작가)이며 날짜·시즌에 따라 달라집니다. 정확한 요금은 아고다 예약 페이지에서 확인해 주세요.',
+    priceFromTpl: '약 {usd}~',
+    priceFromSub: '1박 · 2인 · 세금 포함 예상가',
+    priceFromNote: '가격은 아고다 2026-11 조사 기준(2인 1실 1박, 세금·봉사료 포함 예상가)이며 시기·객실에 따라 달라집니다. 정확한 요금은 아고다 예약 페이지에서 확인해 주세요.',
+    priceFromTags: { breakfast: '조식 포함 요금', oceanView: '오션뷰 객실 보유', villaOnly: '풀빌라 전용', seasonal: '시기별 변동 큼', twoNight: '2박 기준 환산' },
     sortPrice: '가격 높은순',
     sortPriceLow: '가격 낮은순',
     emptyCategory: '이 카테고리에 해당하는 호텔이 아직 없습니다.',
@@ -48,6 +57,10 @@ export const HOTEL_CATEGORY_LABELS: Record<Locale, HotelCategoryDictionary> = {
     orMore: 'or more',
     priceUnverified: 'Rate not verified',
     priceNote: 'Price ranges are Agoda starting rates checked on 2026-11-01 (2 adults, 1 room, 1 night) and vary by date and season. Check the Agoda booking page for exact rates.',
+    priceFromTpl: 'from approx. {usd}',
+    priceFromSub: 'per night · 2 adults · est. incl. tax',
+    priceFromNote: 'Prices are based on a November 2026 Agoda survey (2 adults, 1 room, 1 night, estimated incl. tax and service charge) and vary by date and room. Check the Agoda booking page for exact rates.',
+    priceFromTags: { breakfast: 'Breakfast included', oceanView: 'Ocean-view rooms', villaOnly: 'Pool villas only', seasonal: 'Varies by season', twoNight: 'Based on 2-night stay' },
     sortPrice: 'Price: high to low',
     sortPriceLow: 'Price: low to high',
     emptyCategory: 'No hotels in this category yet.',
@@ -65,6 +78,10 @@ export const HOTEL_CATEGORY_LABELS: Record<Locale, HotelCategoryDictionary> = {
     orMore: '以上',
     priceUnverified: '房价未确认',
     priceNote: '价格区间为 2026-11-01 查询的 Agoda 起始价（2 位成人、1 间房、1 晚），会因日期和季节而变动。准确房价请以 Agoda 预订页面为准。',
+    priceFromTpl: '约 {usd} 起',
+    priceFromSub: '每晚 · 2位成人 · 含税预估价',
+    priceFromNote: '价格基于 2026 年 11 月 Agoda 调查（2 位成人、1 间房、1 晚，含税及服务费预估价），会因日期和房型而变动。准确房价请以 Agoda 预订页面为准。',
+    priceFromTags: { breakfast: '含早餐', oceanView: '设有海景房', villaOnly: '仅限泳池别墅', seasonal: '季节价差较大', twoNight: '按 2 晚折算' },
     sortPrice: '价格从高到低',
     sortPriceLow: '价格从低到高',
     emptyCategory: '此分类暂无酒店。',
@@ -82,6 +99,10 @@ export const HOTEL_CATEGORY_LABELS: Record<Locale, HotelCategoryDictionary> = {
     orMore: '以上',
     priceUnverified: '料金未確認',
     priceNote: '料金帯は 2026-11-01 時点のアゴダ最低料金（大人2名・1室・1泊）で、日付や季節により変動します。正確な料金はアゴダの予約ページでご確認ください。',
+    priceFromTpl: '約 {usd}〜',
+    priceFromSub: '1泊 · 大人2名 · 税込み目安',
+    priceFromNote: '料金は 2026年11月のアゴダ調査（大人2名・1室・1泊、税・サービス料込みの目安）で、日付や客室により変動します。正確な料金はアゴダの予約ページでご確認ください。',
+    priceFromTags: { breakfast: '朝食付き料金', oceanView: 'オーシャンビュー客室あり', villaOnly: 'プール付きヴィラのみ', seasonal: '時期による変動大', twoNight: '2泊の1泊換算' },
     sortPrice: '料金が高い順',
     sortPriceLow: '料金が安い順',
     emptyCategory: 'このカテゴリに該当するホテルはまだありません。',
@@ -99,6 +120,10 @@ export const HOTEL_CATEGORY_LABELS: Record<Locale, HotelCategoryDictionary> = {
     orMore: 'и больше',
     priceUnverified: 'Цена не подтверждена',
     priceNote: 'Ценовые диапазоны — стартовые цены Agoda на 2026-11-01 (2 взрослых, 1 номер, 1 ночь), они меняются в зависимости от дат и сезона. Точные цены смотрите на странице бронирования Agoda.',
+    priceFromTpl: 'от ок. {usd}',
+    priceFromSub: 'за ночь · 2 взрослых · ориентировочно с налогами',
+    priceFromNote: 'Цены основаны на исследовании Agoda в ноябре 2026 (2 взрослых, 1 номер, 1 ночь, ориентировочно с налогами и сервисным сбором) и меняются в зависимости от дат и номера. Точные цены смотрите на странице бронирования Agoda.',
+    priceFromTags: { breakfast: 'Завтрак включён', oceanView: 'Есть номера с видом на океан', villaOnly: 'Только виллы с бассейном', seasonal: 'Сильно зависит от сезона', twoNight: 'Из расчёта на 2 ночи' },
     sortPrice: 'Цена: по убыванию',
     sortPriceLow: 'Цена: по возрастанию',
     emptyCategory: 'В этой категории пока нет отелей.',
@@ -116,6 +141,10 @@ export const HOTEL_CATEGORY_LABELS: Record<Locale, HotelCategoryDictionary> = {
     orMore: 'या अधिक',
     priceUnverified: 'दर सत्यापित नहीं',
     priceNote: 'मूल्य सीमा 2026-11-01 को जाँची गई Agoda की प्रारंभिक दरें हैं (2 वयस्क, 1 कमरा, 1 रात) और तिथि व मौसम के अनुसार बदलती हैं। सटीक दर Agoda बुकिंग पेज पर देखें।',
+    priceFromTpl: 'लगभग {usd} से',
+    priceFromSub: 'प्रति रात · 2 वयस्क · कर सहित अनुमान',
+    priceFromNote: 'मूल्य नवंबर 2026 के Agoda सर्वेक्षण पर आधारित हैं (2 वयस्क, 1 कमरा, 1 रात, कर व सेवा शुल्क सहित अनुमान) और तिथि व कमरे के अनुसार बदलते हैं। सटीक दर Agoda बुकिंग पेज पर देखें।',
+    priceFromTags: { breakfast: 'नाश्ता शामिल', oceanView: 'ओशन-व्यू कमरे उपलब्ध', villaOnly: 'केवल पूल विला', seasonal: 'मौसम के अनुसार काफ़ी बदलाव', twoNight: '2 रातों के आधार पर' },
     sortPrice: 'कीमत: अधिक से कम',
     sortPriceLow: 'कीमत: कम से अधिक',
     emptyCategory: 'इस श्रेणी में अभी कोई होटल नहीं है।',
@@ -133,6 +162,10 @@ export const HOTEL_CATEGORY_LABELS: Record<Locale, HotelCategoryDictionary> = {
     orMore: 'trở lên',
     priceUnverified: 'Chưa xác nhận giá',
     priceNote: 'Khoảng giá là giá khởi điểm trên Agoda tra cứu ngày 2026-11-01 (2 người lớn, 1 phòng, 1 đêm) và thay đổi theo ngày, mùa. Vui lòng xem giá chính xác trên trang đặt phòng Agoda.',
+    priceFromTpl: 'từ khoảng {usd}',
+    priceFromSub: 'mỗi đêm · 2 người lớn · giá ước tính đã gồm thuế',
+    priceFromNote: 'Giá dựa trên khảo sát Agoda tháng 11/2026 (2 người lớn, 1 phòng, 1 đêm, ước tính đã gồm thuế và phí dịch vụ) và thay đổi theo ngày, loại phòng. Vui lòng xem giá chính xác trên trang đặt phòng Agoda.',
+    priceFromTags: { breakfast: 'Đã gồm bữa sáng', oceanView: 'Có phòng hướng biển', villaOnly: 'Chỉ có biệt thự hồ bơi', seasonal: 'Chênh lệch lớn theo mùa', twoNight: 'Quy đổi theo 2 đêm' },
     sortPrice: 'Giá: cao đến thấp',
     sortPriceLow: 'Giá: thấp đến cao',
     emptyCategory: 'Chưa có khách sạn trong mục này.',
