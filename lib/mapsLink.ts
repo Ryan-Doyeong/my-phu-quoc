@@ -3,6 +3,8 @@
  * 문제: DB의 google_maps_url 이 `maps/place/?q=place_id:XXX` 형식이라 place_id 가 틀리면 빈 지도가 열림.
  * 해결: 공식 Maps URL 스킴 `search/?api=1&query=<텍스트|좌표>&query_place_id=<id>` 사용.
  *  - place_id 가 유효하면 해당 장소를, 유효하지 않으면 query 텍스트(상호 + Sunset Town Phu Quoc)로 검색 결과를 보여줌.
+ * 정책: 베트남 현지 환경 제약에 따라 `GOOGLE_PLACES_API_KEY` / `GOOGLE_MAPS_API_KEY` 및 유료 Google Places/Maps API 호출은 원천 금지하며,
+ *       오직 API 키가 불필요한 공개 Google Maps URL만 사용한다.
  */
 export interface MapsLinkSource {
   public_name?: string | null
