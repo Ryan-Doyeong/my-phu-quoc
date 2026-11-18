@@ -32,7 +32,8 @@
       "festival",
       "duong-dong",
       "island"
-    ]
+    ],
+    "cover_image_url": "/features/event_dinh_cau_festival_pixel_1280.webp"
   },
   {
     "id": "event-tides-festival-nye-2027",
@@ -68,6 +69,7 @@
       "music",
       "duong-dong",
       "island"
-    ]
+    ],
+    "cover_image_url": "/features/event_tides_festival_pixel_1280.webp"
   }
 ]
