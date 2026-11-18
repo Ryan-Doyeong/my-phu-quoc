@@ -538,14 +538,14 @@ export const ESSENTIAL_GUIDE_UI_MAP: Record<string, { title: string; excerpt: st
   'vui-fest-bazaar-night-market-food': { title: 'U112', excerpt: 'U36', category: 'U68' },
 }
 
-/** 스토리에 번역 본문(body_xx)이 있는 언어 목록 */
+/** 스토리에 번역 본문(body_xx)이 있는 활성 언어 목록 (vi 임시 숨김) */
 export function storyAvailableLocales(story: any): Locale[] {
   if (!story) return ['en']
   if (TEN_EDITORIAL_SLUGS.has(story.slug)) {
-    return ['en', 'ko', 'zh', 'ru', 'ja', 'hi', 'vi']
+    return ['en', 'ko', 'zh', 'ru', 'ja', 'hi']
   }
   const out: Locale[] = ['en']
-  for (const loc of ['vi', 'hi', 'zh', 'ru', 'ko', 'ja'] as const) {
+  for (const loc of ['hi', 'zh', 'ru', 'ko', 'ja'] as const) {
     if (hasText(story[`body_${loc}`])) out.push(loc)
   }
   return out

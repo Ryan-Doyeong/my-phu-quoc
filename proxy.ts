@@ -104,7 +104,16 @@ export async function proxy(request: NextRequest) {
     return NextResponse.redirect(url, 301)
   }
 
-  // 1-b) (2026-11-05) /vi 접두어 리다이렉트 제거 — 베트남어가 다시 활성 언어이므로 /vi 는 정상 경로
+  // 1-b) (2026-11-18) /vi 및 /vi/* 임시 숨김 -> 동일 경로의 기본 영어 페이지(/ 또는 /<경로>)로 307 임시 리다이렉트
+  if (pathname === '/vi' || pathname.startsWith('/vi/')) {
+    const barePath = pathname === '/vi' ? '/' : pathname.slice(3) || '/'
+    const url = request.nextUrl.clone()
+    url.pathname = barePath
+    if (url.searchParams.get('lang')?.toLowerCase() === 'vi') {
+      url.searchParams.delete('lang')
+    }
+    return NextResponse.redirect(url, 307)
+  }
 
   // 1-c) Ryan 15차 지시: /partners, /for-businesses 6개 언어 홈으로 임시 리다이렉트 (307)
   {
@@ -132,8 +141,15 @@ export async function proxy(request: NextRequest) {
     }
   }
 
-  // 3) ?lang=<locale> query parameter -> 301 redirect to path-based locale URL
+  // 3) ?lang=<locale> query parameter -> 301 redirect to path-based locale URL (/vi 는 307 영어 임시 리다이렉트)
   const langParam = searchParams.get('lang')?.toLowerCase()
+  if (langParam === 'vi') {
+    const { barePath } = stripLocalePrefix(pathname)
+    const url = request.nextUrl.clone()
+    url.pathname = localePath('en', barePath)
+    url.searchParams.delete('lang')
+    return NextResponse.redirect(url, 307)
+  }
   if (isValidLocale(langParam)) {
     const { barePath } = stripLocalePrefix(pathname)
     const url = request.nextUrl.clone()

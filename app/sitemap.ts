@@ -29,7 +29,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const routes: MetadataRoute.Sitemap = []
 
-  // 1) Static & Category routes exist in all all 7 locales
+  // 1) Static & Category routes exist in all active locales (6 locales; /vi temporarily hidden)
   for (const barePath of staticPaths) {
     const alternates = buildAlternates(barePath, LOCALES)
     for (const loc of LOCALES) {
@@ -46,7 +46,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   try {
     const supabase = await createPublicClient()
 
-    // 2) Published businesses exist in all all 7 locales with localized UI/curation
+    // 2) Published businesses exist in all active locales (6 locales; /vi temporarily hidden) with localized UI/curation
     const { data: businesses } = await supabase
       .from('businesses')
       .select('slug, updated_at, category')
@@ -154,7 +154,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         if (s.slug) {
           const barePath = `${s.content_type === 'event' ? '/events' : '/news'}/${s.slug}`
           const lastModified = s.updated_at ? new Date(s.updated_at) : now
-          const availableLocales: Locale[] = storyAvailableLocales(s)
+          const availableLocales: Locale[] = storyAvailableLocales(s).filter((loc) => loc !== 'vi')
           const alternates = buildAlternates(barePath, availableLocales)
           for (const loc of availableLocales) {
             routes.push({
