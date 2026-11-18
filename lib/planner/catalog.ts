@@ -334,7 +334,7 @@ export const PRODUCTS: Record<string, Product> = {
     id: 'symphony_ticket',
     kind: 'ticket',
     operator: 'klook',
-    klookUrl: klook('south-all-in-one-combo'),
+    klookUrl: klook('symphony-of-the-sea'),
     name: { ko: '심포니 오브 더 씨 좌석·디너 콤보', en: 'Symphony of the Sea seats / dinner combo' },
     summary: {
       ko: '쇼를 앞자리에서 보거나 해변 레스토랑 디너와 함께 즐기는 티켓이에요. 무료 관람도 가능하니 좌석은 선택이에요.',
