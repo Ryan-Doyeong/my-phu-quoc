@@ -6,6 +6,7 @@ import travelGuideCableCarHonThom from '@/data/travel-guide-cable-car-hon-thom-2
 import travelGuideMassage from '@/data/travel-guide-massage-20261108.json'
 import travelGuideNightMarket from '@/data/travel-guide-night-market-20261108.json'
 import symphonySeason3Touchpoints from '@/data/symphony-season3-touchpoints-20261109.json'
+import eventsIsland from '@/data/events-island-20261116.json'
 
 export type EventSampleStory = {
   id: string
@@ -23,6 +24,7 @@ export type EventSampleStory = {
  */
 export const PUBLISHED_EVENTS: EventSampleStory[] = [
   ...(symphonySeason3Touchpoints as EventSampleStory[]),
+  ...(eventsIsland as EventSampleStory[]),
   ...(sunWorldEditorial as EventSampleStory[]),
   ...(travelGuidePhuQuocStay as EventSampleStory[]),
   ...(travelGuideSunsetTownWorth as EventSampleStory[]),

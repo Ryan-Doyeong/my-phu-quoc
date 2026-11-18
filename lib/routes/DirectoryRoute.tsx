@@ -176,9 +176,15 @@ export async function renderDirectoryRoute(
     (b) => b.zone === 'khem-beach' && b.public_category === category
   )
 
+  const LEGACY_SLUG_RENAMES: Record<string, string> = {
+    'sunset-place-9': 'solana-spa-sunset-town-phu-quoc',
+  }
+
   const enrichedData = (data || [])
-    .map((b: any) => {
-      const reg = registryBySlug.get(b.slug)
+    .map((rawBiz: any) => {
+      const normalizedSlug = LEGACY_SLUG_RENAMES[rawBiz.slug] || rawBiz.slug
+      const b = normalizedSlug !== rawBiz.slug ? { ...rawBiz, slug: normalizedSlug } : rawBiz
+      const reg = registryBySlug.get(normalizedSlug)
       if (!reg) return b
       return {
         ...b,
@@ -186,8 +192,12 @@ export async function renderDirectoryRoute(
         category: reg.category ?? b.category,
         subcategory: reg.subcategory ?? b.subcategory,
         public_name: reg.public_name ?? b.public_name,
+        address: reg.address ?? b.address,
+        price_level: 'price_level' in reg ? reg.price_level : b.price_level,
         description_ko: reg.description_ko ?? b.description_ko,
         description_en: reg.description_en ?? b.description_en,
+        description_vi: reg.description_vi ?? b.description_vi,
+        website_url: reg.website_url ?? b.website_url,
         tags: reg.tags ?? b.tags,
         badges:
           Array.isArray(reg.badges) && reg.badges.length > 0
@@ -203,6 +213,8 @@ export async function renderDirectoryRoute(
         google_review_count: reg.google_review_count ?? b.google_review_count,
         rating_check_date: reg.rating_check_date ?? b.rating_check_date,
         google_review_analysis: reg.google_review_analysis ?? b.google_review_analysis,
+        amenities: reg.amenities ?? b.amenities,
+        highlights: reg.highlights ?? b.highlights,
         services: reg.services ?? b.services,
         gallery_urls:
           Array.isArray(reg.gallery_urls) && reg.gallery_urls.length > 0
@@ -214,7 +226,7 @@ export async function renderDirectoryRoute(
     })
     .filter((b: any) => b.category === category && (!b.status || b.status === 'published') && !isHiddenBusiness(b))
 
-  const dbSlugs = new Set((data || []).map((b: any) => b.slug))
+  const dbSlugs = new Set((data || []).map((b: any) => LEGACY_SLUG_RENAMES[b.slug] || b.slug))
   const unmigratedSunsetItems = combinedRegistry.filter(
     (b) => b.zone !== 'khem-beach' && b.public_category === category && !dbSlugs.has(b.slug)
   )

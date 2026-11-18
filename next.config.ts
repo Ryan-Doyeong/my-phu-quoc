@@ -32,9 +32,25 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: '/:locale(ko|zh|ru|ja|hi)/business/l-a-hillside-aparment-sunset-town-phu-quoc',
+        source: '/:locale(ko|zh|ru|ja|hi|vi)/business/l-a-hillside-aparment-sunset-town-phu-quoc',
         destination: '/:locale/business/l-a-hillside-apartment-sunset-town-phu-quoc',
         permanent: true,
+      },
+      // 시맨틱 슬러그 전환 (2026-11-15): SOLANA Spa Sunset Town Phú Quốc 임시 슬러그 -> 정식 슬러그 301 영구 리다이렉트
+      {
+        source: '/business/sunset-place-9',
+        destination: '/business/solana-spa-sunset-town-phu-quoc',
+        statusCode: 301,
+      },
+      {
+        source: '/en/business/sunset-place-9',
+        destination: '/business/solana-spa-sunset-town-phu-quoc',
+        statusCode: 301,
+      },
+      {
+        source: '/:locale(ko|zh|ru|ja|hi|vi)/business/sunset-place-9',
+        destination: '/:locale/business/solana-spa-sunset-town-phu-quoc',
+        statusCode: 301,
       },
       // Search Console 404 정리 (2026-11-09): 옛 워드프레스 한글 슬러그 -> 새 사이트 대응 페이지 301
       {

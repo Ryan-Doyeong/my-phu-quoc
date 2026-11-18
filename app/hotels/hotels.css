@@ -664,6 +664,7 @@
   color: #0f172a;
   line-height: 1.35;
   margin-bottom: 4px;
+  text-wrap: balance;
 }
 
 .cardTitleEn {
@@ -709,12 +710,15 @@
 .cardSummary {
   font-size: 0.875rem;
   color: #475569;
-  line-height: 1.5;
+  line-height: 1.55;
   margin-bottom: 16px;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  text-wrap: pretty;
 }
 
 .cardFacilities {

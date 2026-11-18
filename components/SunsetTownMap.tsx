@@ -16,7 +16,7 @@ const LANDMARK_BUSINESS_SLUG: Record<string, string> = {
   'kiss-of-the-sea': 'sunset-place-10',
   'vui-fest-bazaar': 'cho-dem-vui-fest-bazaar-sunset-town',
   'cable-car-station': 'sunworld-hon-thom-hon-thom-cable-car-phu-quoc',
-  'clock-tower': 'sunset-place-9',
+  'clock-tower': 'thap-dong-ho',
   'la-festa-hilton': 'sunset-place-7',
   'sun-bavaria': 'sun-bavaria-gastropub',
   'sunset-beach': 'sunset-place-11',

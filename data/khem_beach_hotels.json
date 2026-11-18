@@ -49,12 +49,12 @@
           "distance": "차량 22분 (19km)"
         }
       ],
-      "summary": "선셋타운까지 차량 10분 거리. 빌 벤슬리가 디자인한 공간과 조개 모양 수영장, 전용 해변을 갖추고 있습니다. 평점과 후기는 아고다 기준입니다.",
-      "summary_en": "10 min by car to Sunset Town. Bill Bensley design, Shell Pool, and direct private beach access. Ratings and reviews from Agoda.",
-      "summary_zh": "至日落小镇车程约10分钟，比尔·本斯利设计，贝壳泳池直通私人海滩。评分与评价基于Agoda数据。",
-      "summary_ja": "サンセットタウンまで車で約10分、ビル・ベンズリー設計、シェルプールとプライベートビーチ直結。評価・クチコミはAgoda基準。",
-      "summary_ru": "10 мин на авто до Сансет Тауна, дизайн Билла Бенсли, бассейн Shell и собственный пляж. Оценки и отзывы по данным Agoda.",
-      "summary_vi": "Khoảng 10 phút đi xe tới Sunset Town, thiết kế Bill Bensley, Shell Pool và bãi biển riêng. Đánh giá dựa trên dữ liệu Agoda.",
+      "summary": "빌 벤슬리 설계의 켐비치 5성급 리조트, 전용 백사장과 조개 모양 수영장을 갖췄습니다.",
+      "summary_en": "Bill Bensley-designed 5-star Khem Beach resort famed for its Shell Pool and private beachfront.",
+      "summary_zh": "比尔·本斯利设计的凯姆海滩五星级奢华度假村，拥有私人白沙滩与标志性贝壳泳池。",
+      "summary_ja": "ビル・ベンスリー設計のケムビーチ5つ星リゾート。白砂の専用ビーチとシェルプールが象徴です。",
+      "summary_ru": "Пятизвёздочный курорт Билла Бенсли на пляже Кхем с частным белым пляжем и бассейном-ракушкой.",
+      "summary_vi": "Khu nghỉ dưỡng 5 sao Bãi Khem do Bill Bensley thiết kế với bãi biển riêng và hồ bơi Con Sò biểu tượng.",
       "coreFacilities": [
         "전용 해변",
         "조개 모양 수영장을 포함한 수영장 3곳",
@@ -174,7 +174,8 @@
       "isFeatured": true,
       "googlePlaceId": "ChIJLZPWxLiWpzERwrkgfIa1P8I",
       "lat": 10.0332622,
-      "lng": 104.0284082
+      "lng": 104.0284082,
+      "summary_hi": "बिल बेंसली द्वारा डिज़ाइन किया गया खेम बीच 5-स्टार रिसॉर्ट, शेल पूल और निजी समुद्र तट के लिए प्रसिद्ध।"
     },
     {
       "slug": "new-world-phu-quoc-resort",
@@ -219,12 +220,12 @@
           "distance": "차량 23분 (19.5km)"
         }
       ],
-      "summary": "선셋타운까지 차량 10분, 전 객실 독채 프라이빗 풀빌라 및 120m 인피니티 풀. 평점·후기는 아고다 기준.",
-      "summary_en": "10 min by car to Sunset Town. all private pool villas and 120m infinity pool. Ratings and reviews from Agoda.",
-      "summary_zh": "至日落小镇车程约10分钟，全独栋私人泳池别墅与120米无边泳池。评分与评价基于Agoda数据。",
-      "summary_ja": "サンセットタウンまで車で約10分、全室プライベートプール付きヴィラと120mインフィニティプール。評価・クチコミはAgoda基準。",
-      "summary_ru": "10 мин на авто до Сансет Тауна, все виллы с бассейном и 120-метровый пейзажный бассейн. Оценки и отзывы по данным Agoda.",
-      "summary_vi": "Khoảng 10 phút đi xe tới Sunset Town, 100% biệt thự hồ bơi riêng và hồ bơi vô cực 120m. Đánh giá dựa trên dữ liệu Agoda.",
+      "summary": "켐비치 해변을 품은 5성급 리조트로 전 객실 독채 풀빌라와 120m 인피니티 풀을 운영합니다.",
+      "summary_en": "All-pool-villa 5-star resort on Khem Beach centered around a sweeping 120m infinity pool.",
+      "summary_zh": "坐拥凯姆海滩的五星级全泳池别墅度假村，配备长达120米的临海无边际泳池。",
+      "summary_ja": "ケムビーチ沿いの全室プライベートプール付きヴィラリゾート。全長120mのインフィニティプールを完備。",
+      "summary_ru": "Пятизвёздочный курорт на пляже Кхем с частными виллами с бассейнами и 120-метровым инфинити-пулом.",
+      "summary_vi": "Khu nghỉ dưỡng 5 sao ven Bãi Khem với 100% biệt thự hồ bơi riêng và hồ bơi vô cực dài 120m ấn tượng.",
       "coreFacilities": [
         "전 객실 독채 프라이빗 풀빌라",
         "120m 야외 대형 인피니티 풀",
@@ -333,7 +334,8 @@
       "priceRange": "$$$$$",
       "googlePlaceId": "ChIJy5uCwXCXpzERQSR2-hAgnuo",
       "lat": 10.0393884,
-      "lng": 104.0274382
+      "lng": 104.0274382,
+      "summary_hi": "खेम बीच पर सभी निजी पूल विला वाला 5-स्टार रिसॉर्ट, जिसमें 120 मीटर लंबा इन्फिनिटी पूल है।"
     },
     {
       "slug": "premier-village-phu-quoc-resort",
@@ -378,12 +380,12 @@
           "distance": "차량 28분 (24km)"
         }
       ],
-      "summary": "선셋타운까지 차량 10분, 푸꾸옥 남단 옹도이 곶, 전 객실 단독 프라이빗 풀빌라. 평점·후기는 아고다 기준.",
-      "summary_en": "10 min by car to Sunset Town. located at Mui Ong Doi, all private pool villas. Ratings and reviews from Agoda.",
-      "summary_zh": "至日落小镇车程约10分钟，位于翁堆岬，全独栋私人泳池别墅。评分与评价基于Agoda数据。",
-      "summary_ja": "サンセットタウンまで車で約10分、オンゾイ岬に位置、全室プライベートプール付きヴィラ。評価・クチコミはAgoda基準。",
-      "summary_ru": "10 мин на авто до Сансет Тауна, на мысе Онг Дой, все виллы с собственным бассейном. Оценки и отзывы по данным Agoda.",
-      "summary_vi": "Khoảng 10 phút đi xe tới Sunset Town, tại Mũi Ông Đội, 100% biệt thự có hồ bơi riêng. Đánh giá dựa trên dữ liệu Agoda.",
+      "summary": "옹도이 곶 양쪽 바다를 조망하는 5성급 독채 풀빌라 리조트로 일출과 일몰을 모두 만납니다.",
+      "summary_en": "Dual-bay 5-star pool villa resort on Ong Doi Cape offering both ocean sunrise and sunset views.",
+      "summary_zh": "独占翁队角双海湾的五星级独栋泳池别墅度假村，可同赏海上日出与日落奇观。",
+      "summary_ja": "オンドイ岬の両岸を望む5つ星プールヴィラリゾート。海からの日の出と夕陽の両方を楽しめます。",
+      "summary_ru": "Пятизвёздочный курорт с виллами на мысе Онг-Дой, где видны и морские рассветы, и закаты.",
+      "summary_vi": "Khu nghỉ dưỡng biệt thự hồ bơi 5 sao tại Mũi Ông Đội hiếm có nơi ngắm được cả bình minh lẫn hoàng hôn.",
       "coreFacilities": [
         "전 객실 단독 프라이빗 풀빌라",
         "반도 양면 바다 직결 (일출/일몰)",
@@ -492,7 +494,8 @@
       "isFeatured": true,
       "googlePlaceId": "ChIJcSDG-fqWpzERQkkxuLWDUyU",
       "lat": 10.0159773,
-      "lng": 104.0392224
+      "lng": 104.0392224,
+      "summary_hi": "ओंग दोई केप पर स्थित 5-स्टार पूल विला रिसॉर्ट, जहाँ एक ही प्रायद्वीप से सूर्योदय और सूर्यास्त दिखते हैं।"
     },
     {
       "slug": "premier-residences-phu-quoc-emerald-bay",
@@ -537,12 +540,12 @@
           "distance": "차량 22분 (19km)"
         }
       ],
-      "summary": "선셋타운까지 차량 10분, 5,000㎡ 계단식 수영장 및 취사 가능 스위트 구비. 평점·후기는 아고다 기준.",
-      "summary_en": "10 min by car to Sunset Town. 5,000m² cascading pool and kitchenette suites. Ratings and reviews from Agoda.",
-      "summary_zh": "至日落小镇车程约10分钟，5,000㎡层叠泳池与配有简易厨房的套房。评分与评价基于Agoda数据。",
-      "summary_ja": "サンセットタウンまで車で約10分、5,000㎡の多段式プールとキッチン付きスイート完備。評価・クチコミはAgoda基準。",
-      "summary_ru": "10 мин на авто до Сансет Тауна, каскадный бассейн 5000 кв.м и люксы с кухней. Оценки и отзывы по данным Agoda.",
-      "summary_vi": "Khoảng 10 phút đi xe tới Sunset Town, hồ bơi nhiều tầng 5.000m² và căn hộ có bếp. Đánh giá dựa trên dữ liệu Agoda.",
+      "summary": "켐비치 바로 앞 아코르 계열 5성급 리조트로 5,000㎡ 다단식 수영장과 스위트를 갖췄습니다.",
+      "summary_en": "Accor-managed 5-star Khem Beach resort featuring a 5,000 sqm cascade pool and family suites.",
+      "summary_zh": "雅高旗下凯姆海滩五星级海滨度假酒店，拥有5,000平方米阶梯式泳池与家庭套房。",
+      "summary_ja": "ケムビーチ目の前のアコー系5つ星リゾート。5,000㎡の多段プールとキッチン付きスイートを完備。",
+      "summary_ru": "Пятизвёздочный пляжный курорт сети Accor на Бãi Кхем с каскадным бассейном 5000 м² и люксами.",
+      "summary_vi": "Khu nghỉ dưỡng 5 sao sát Bãi Khem thuộc Accor với hồ bơi tràn tầng 5.000m² và căn hộ suite tiện nghi.",
       "coreFacilities": [
         "5,000㎡ 계단식 멀티 수영장",
         "바이켐 전용 비치 직결",
@@ -649,7 +652,8 @@
       "agodaRawDescription": "바이켐 해변의 백사장을 품은 아코르(Accor) 계열의 5성급 콘도텔형 리조트입니다. 총 629개의 현대적인 객실과 아파트먼트형 스위트로 구성되어 있으며, 일부 객실에는 간이 주방과 개인 플런지 풀이 구비되어 있어 가족 단위 여행객에게 인기가 높습니다. 5,000㎡ 규모의 계단식 멀티 레벨 야외 수영장은 해변까지 자연스럽게 연결되며, 키즈클럽, 에메랄드 스파, 다양한 레스토랑을 갖추고 있습니다.",
       "googlePlaceId": "ChIJn6kim_SXpzERd6rlRMQmpZc",
       "lat": 10.0349083,
-      "lng": 104.0276137
+      "lng": 104.0276137,
+      "summary_hi": "खेम बीच पर एकॉर समूह का 5-स्टार रिसॉर्ट, जिसमें 5,000 वर्ग मीटर का कैस्केड पूल और फैमिली सुइट्स हैं।"
     },
     {
       "slug": "paralia-khem-beach-phu-quoc-hotel",
@@ -694,12 +698,12 @@
           "distance": "차량 22분 (19km)"
         }
       ],
-      "summary": "선셋타운까지 차량 10분, 바이켐 해변 도보 5분, 실내 수영장 및 조식 구비. 평점·후기는 아고다 기준.",
-      "summary_en": "10 min by car to Sunset Town. 5-min walk to Bai Khem beach, indoor pool and breakfast. Ratings and reviews from Agoda.",
-      "summary_zh": "至日落小镇车程约10分钟，步行5分钟达海滩，配室内泳池与早餐。评分与评价基于Agoda数据。",
-      "summary_ja": "サンセットタウンまで車で約10分、バイケムビーチ徒歩5分、屋内プールと朝食完備。評価・クチコミはAgoda基準。",
-      "summary_ru": "10 мин на авто до Сансет Тауна, 5 минут пешком до пляжа, крытый бассейн и завтрак. Оценки и отзывы по данным Agoda.",
-      "summary_vi": "Khoảng 10 phút đi xe tới Sunset Town, đi bộ 5 phút ra bãi biển, có hồ bơi trong nhà và bữa sáng. Đánh giá dựa trên dữ liệu Agoda.",
+      "summary": "켐비치 해변 도보 5분 거리의 부티크 호텔로 실내외 수영장과 깔끔한 조식당을 갖췄습니다.",
+      "summary_en": "Boutique hotel a 5-minute walk from Khem Beach featuring a swimming pool and daily breakfast.",
+      "summary_zh": "距离凯姆海滩步行仅5分钟的精品酒店，配备游泳池与整洁舒适的每日早餐服务。",
+      "summary_ja": "ケムビーチから徒歩5分のブティックホテル。屋内プールと清潔な朝食レストランを備えています。",
+      "summary_ru": "Уютный бутик-отель в 5 минутах ходьбы от пляжа Кхем с крытым бассейном и ежедневными завтраками.",
+      "summary_vi": "Khách sạn boutique cách Bãi Khem 5 phút đi bộ, trang bị hồ bơi trong nhà và phục vụ bữa sáng hàng ngày.",
       "coreFacilities": [
         "바이켐 해변 도보 5분",
         "실내 수영장",
@@ -792,7 +796,8 @@
       "agodaRawDescription": "바이켐 썬 그랜드 시티 숍하우스 단지(D107-D115)에 자리한 부티크 호텔입니다. 바이켐 해변 인근에서 부담 없는 가격대로 머무를 수 있는 뛰어난 가성비가 장점입니다. 바이켐 백사장까지 도보 5분 거리이며, 호텔 내 실내 수영장, 레스토랑, 테라스 라운지를 구비하고 있습니다.",
       "googlePlaceId": "ChIJ--GCQXqXpzER7itlt0HX5Ps",
       "lat": 10.0358489,
-      "lng": 104.02847
+      "lng": 104.02847,
+      "summary_hi": "खेम बीच से 5 मिनट की पैदल दूरी पर स्थित बुटीक होटल, जिसमें इनडोर पूल और नाश्ते की सुविधा है।"
     },
     {
       "slug": "jm-boutique-hotel-phu-quoc",
@@ -833,12 +838,12 @@
           "distance": "차량 22분 (19km)"
         }
       ],
-      "summary": "선셋타운까지 차량 10분, 바이켐 해변 도보 5분, 친환경 인테리어 및 조식 제공. 평점·후기는 아고다 기준.",
-      "summary_en": "10 min by car to Sunset Town. 5-min walk to Bai Khem beach, eco-friendly interior and breakfast. Ratings and reviews from Agoda.",
-      "summary_zh": "至日落小镇车程约10分钟，步行5分钟达海滩，环保设计并提供精制早餐。评分与评价基于Agoda数据。",
-      "summary_ja": "サンセットタウンまで車で約10分、バイケムビーチ徒歩5分、エコデザインと手作り朝食。評価・クチコミはAgoda基準。",
-      "summary_ru": "10 мин на авто до Сансет Тауна, 5 минут пешком до пляжа, эко-дизайн и завтраки. Оценки и отзывы по данным Agoda.",
-      "summary_vi": "Khoảng 10 phút đi xe tới Sunset Town, đi bộ 5 phút ra bãi biển, phong cách thân thiện môi trường. Đánh giá dựa trên dữ liệu Agoda.",
+      "summary": "켐비치 도보 5분 거리의 감각적인 친환경 우드 톤 부티크 호텔로 조식과 서비스가 우수합니다.",
+      "summary_en": "Eco-styled boutique hotel 5 minutes on foot from Khem Beach known for warm wood interiors.",
+      "summary_zh": "距凯姆海滩步行5分钟的原木生态风精品酒店，环境雅致且早餐与服务口碑出众。",
+      "summary_ja": "ケムビーチ徒歩5分、温もりある木目調エコデザインのブティックホテル。朝食と接客が好評です。",
+      "summary_ru": "Эко-бутик-отель с тёплым деревянным интерьером в 5 минутах пешком от белого песка пляжа Кхем.",
+      "summary_vi": "Khách sạn boutique thiết kế gỗ thân thiện môi trường cách Bãi Khem 5 phút đi bộ, bữa sáng chu đáo.",
       "coreFacilities": [
         "바이켐 해변 도보 5분",
         "정성스러운 오더메이드 조식",
@@ -922,7 +927,8 @@
       "agodaRawDescription": "바이켐 숍하우스 구역(D2-7)에 위치한 감각적이고 아기자기한 친환경 부티크 호텔입니다. 세심한 인테리어와 자연 채광을 살린 객실 구조가 돋보이며, 정성 가득한 주문식 브런치 조식과 직원들의 따뜻하고 세심한 서비스로 높은 고객 만족도를 유지하고 있습니다. 바이켐 해변까지 걸어서 5분이면 닿을 수 있습니다.",
       "googlePlaceId": "ChIJhfbFBaCXpzER-fkbP-fwDcI",
       "lat": 10.0361974,
-      "lng": 104.0288356
+      "lng": 104.0288356,
+      "summary_hi": "खेम बीच से 5 मिनट पैदल दूर इको-वुड डिज़ाइन वाला बुटीक होटल, स्वादिष्ट नाश्ते और सेवा के लिए प्रसिद्ध।"
     },
     {
       "slug": "ann-hotel-spa-phu-quoc",
@@ -963,12 +969,12 @@
           "distance": "차량 22분 (19km)"
         }
       ],
-      "summary": "선셋타운까지 차량 10분, 바이켐 상가 구역 위치, 호텔 내 전문 스파 마사지 구비. 평점·후기는 아고다 기준.",
-      "summary_en": "10 min by car to Sunset Town. located in Bai Khem shophouse zone with on-site spa massage. Ratings and reviews from Agoda.",
-      "summary_zh": "至日落小镇车程约10分钟，位于白沙滩商业街区，配有专业水疗按摩。评分与评价基于Agoda数据。",
-      "summary_ja": "サンセットタウンまで車で約10分、バイケム商業地区に位置、館内スパマッサージ完備。評価・クチコミはAgoda基準。",
-      "summary_ru": "10 мин на авто до Сансет Тауна, в районе шопхаусов Бай Кхем, спа-салон в отеле. Оценки и отзывы по данным Agoda.",
-      "summary_vi": "Khoảng 10 phút đi xe tới Sunset Town, khu shophouse Bãi Khem với dịch vụ massage spa tại chỗ. Đánh giá dựa trên dữ liệu Agoda.",
+      "summary": "바이켐 멜로디아 상가 구역의 부티크 호텔로 구내 스파 마사지와 해변 도보 접근성을 갖췄습니다.",
+      "summary_en": "Boutique hotel in the Bai Khem shophouse zone with an on-site massage spa near the beach.",
+      "summary_zh": "位于凯姆海滩商业街区的精品酒店，设有馆内按摩水疗馆，步行前往海滩十分便捷。",
+      "summary_ja": "バイケム商業エリアに位置するブティックホテル。館内スパを備え、ビーチへも徒歩で移動可能。",
+      "summary_ru": "Бутик-отель в торговом квартале пляжа Кхем с собственным массажным спа-салоном недалеко от моря.",
+      "summary_vi": "Khách sạn boutique khu shophouse Bãi Khem tích hợp spa massage ngay tại tầng dưới, gần bãi tắm.",
       "coreFacilities": [
         "바이켐 해변 도보 6분",
         "전문 스파 & 마사지",
@@ -1044,7 +1050,8 @@
       "agodaRawDescription": "바이켐 숍하우스 단지 D141-D143에 위치한 편안한 분위기의 호텔입니다. 호텔 1층과 전용 공간에서 전문적인 바디 & 풋 스파 마사지 프로그램을 운영하여 여행의 피로를 풀기에 최적입니다. 깔끔하고 모던한 객실 컨디션을 유지하며, 바이켐 해변과 주변 상점들을 편리하게 오갈 수 있습니다.",
       "googlePlaceId": "ChIJpyMOH-WXpzERgb6Kly4H7QA",
       "lat": 10.0358539,
-      "lng": 104.0274248
+      "lng": 104.0274248,
+      "summary_hi": "बाई खेम शॉपहाउस क्षेत्र में स्थित बुटीक होटल, जहाँ ऑन-साइट मसाज स्पा और बीच की नज़दीकी मिलती है।"
     },
     {
       "slug": "sun-hotel-khem-beach",
@@ -1080,13 +1087,13 @@
           "distance": "차량 22분 (19km)"
         }
       ],
-      "summary": "바이켐 메인 해변 진입로 블록(D1-45) 위치, 바이켐 해변까지 도보 3분 거리의 깔끔한 3성급 가성비 호텔.",
-      "summary_en": "Clean 3-star value hotel on the main D1 beach-access block (D1-45 Melodia Bãi Khem), just a 3-minute walk from the white sands of Khem Beach.",
-      "summary_zh": "位于凯姆海滩主通道街区（D1-45 Melodia）的整洁三星级高性价比酒店，步行3分钟可达凯姆海滩白沙滩。",
-      "summary_ja": "バイケムのメインビーチアクセス街区（D1-45）にある清潔な3つ星バリューホテル。ケムビーチまで徒歩3分。",
-      "summary_ru": "Чистый бюджетный 3-звёздочный отель на главной линии прохода к морю (D1-45 Melodia Bãi Khem), в 3 минутах ходьбы от пляжа Кхем.",
-      "summary_hi": "मेलोडिया बाई खेम के मुख्य बीच-एक्सेस ब्लॉक (D1-45) पर स्थित साफ़ 3-सितारा बजट होटल, खेम बीच से केवल 3 मिनट की पैदल दूरी पर।",
-      "summary_vi": "Khách sạn 3 sao sạch sẽ, giá hợp lý nằm ngay trục đường chính ra biển (căn D1-45 Melodia Bãi Khem), cách Bãi Khem chỉ 3 phút đi bộ.",
+      "summary": "켐비치 메인 진입로(D145)에 자리해 해변까지 도보 3분이면 닿는 깔끔한 가성비 3성급 호텔입니다.",
+      "summary_en": "Clean 3-star value hotel on the main D145 block, just a 3-minute walk from Khem Beach sands.",
+      "summary_zh": "位于凯姆海滩主通道（D145）的整洁三星级实惠酒店，步行3分钟即可踏上白沙滩。",
+      "summary_ja": "ケムビーチ正面アクセス通り（D145）に位置し、白砂のビーチまで徒歩3分の清潔な3つ星ホテル。",
+      "summary_ru": "Чистый 3-звёздочный отель на главной аллее D145, всего в 3 минутах ходьбы от пляжа Кхем.",
+      "summary_hi": "मुख्य D145 ब्लॉक पर स्थित साफ़-सुथरा 3-स्टार होटल, खेम बीच की सफ़ेद रेत से मात्र 3 मिनट पैदल दूर।",
+      "summary_vi": "Khách sạn 3 sao sạch sẽ ngay trục chính D145 Melodia, chỉ đi bộ 3 phút là chạm cát trắng Bãi Khem.",
       "coreFacilities": [
         "바이켐 해변 도보 3분",
         "무료 Wi-Fi",
@@ -1135,7 +1142,9 @@
         }
       ],
       "photos": [
-        "/zones/khem-beach-hero.webp"
+        "/covers-photo/sun-hotel-khem-beach-1.webp",
+        "/covers-photo/sun-hotel-khem-beach-2.webp",
+        "/covers-photo/sun-hotel-khem-beach-3.webp"
       ],
       "agodaUrl": "https://www.agoda.com/sun-hotel-phu-quoc/hotel/phu-quoc-island-vn.html",
       "priceRange": "$$",

@@ -6270,5 +6270,45 @@
     "ja": "サンセット樽生ビール（タイガー／ハイネケン）",
     "hi": "सनसेट ड्राफ्ट बीयर (टाइगर या हेनेकेन)",
     "vi": "Bia Tươi Sunset"
+  },
+  "Amalfi Sunset Aperol Spritz": {
+    "en": "Amalfi Sunset Aperol Spritz",
+    "zh": "阿马尔菲日落阿佩罗橙光起泡鸡尾酒",
+    "ru": "Апероль Шприц «Закат Амальфи»",
+    "ja": "アマルフィ・サンセット・アペロールスプリッツ",
+    "hi": "अमाल्फ़ी सनसेट एपरोल स्प्रित्ज़",
+    "vi": "Cocktail Amalfi Sunset Aperol Spritz"
+  },
+  "Mediterranean Tropical Campari Spritz": {
+    "en": "Mediterranean Tropical Campari Spritz",
+    "zh": "地中海热带百香果金巴利特调",
+    "ru": "Средиземноморский тропический Кампари Шприц",
+    "ja": "地中海トロピカル・カンパリスプリッツ",
+    "hi": "मेडिटेरेनियन ट्रॉपिकल कैंपारी स्प्रित्ज़",
+    "vi": "Cocktail Campari Spritz Nhiệt Đới Địa Trung Hải"
+  },
+  "Italian Prosecco DOC (By the Glass)": {
+    "en": "Italian Prosecco DOC (By the Glass)",
+    "zh": "意大利普罗塞克 DOC 起泡酒（单杯）",
+    "ru": "Итальянское игристое Просекко DOC (бокал)",
+    "ja": "イタリア産プロセッコ DOC（グラス）",
+    "hi": "इतालवी प्रोसेको DOC स्पार्कलिंग वाइन (ग्लास)",
+    "vi": "Vang nổ Ý Prosecco DOC (Phục vụ theo ly)"
+  },
+  "Assorted Venetian Cicchetti & Tapas Bites": {
+    "en": "Assorted Venetian Cicchetti & Tapas Bites",
+    "zh": "威尼斯意式小食与地中海塔帕斯拼盘",
+    "ru": "Ассорти венецианских чикетти и средиземноморских тапас",
+    "ja": "ヴェネツィア風チケッティ＆地中海タパス盛り合わせ",
+    "hi": "वेनेशियन चिकेटी और मेडिटेरेनियन तापास प्लैटर",
+    "vi": "Đĩa khai vị Cicchetti Ý & Tapas Địa Trung Hải tổng hợp"
+  },
+  "Fireworks Balcony Surf & Turf Sharing Set (For 2)": {
+    "en": "Fireworks Balcony Surf & Turf Sharing Set (For 2)",
+    "zh": "烟花露台海陆双人烧烤套餐（2人份）",
+    "ru": "Балконный сет «Серф-энд-Тёрф» под салют (на 2 персоны)",
+    "ja": "花火バルコニー席 サーフ＆ターフ 2名様シェアセット",
+    "hi": "फ़ायरवर्क्स बालकनी सर्फ़ एंड टर्फ़ शेयरिंग सेट (2 लोगों के लिए)",
+    "vi": "Set nướng Hải sản & Bò Surf & Turf ngắm pháo hoa (Dành cho 2 khách)"
   }
 }

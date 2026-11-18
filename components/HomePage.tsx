@@ -36,6 +36,7 @@ import { getDictionary, localizeStory, translateTerm } from '@/lib/i18n/dictiona
 import { HOME_FEED_TITLES, VIEW_ALL_LABELS } from '@/lib/contentCategories'
 import { DEFAULT_SPONSOR_BANNERS } from '@/lib/banners'
 import { PUBLISHED_EVENTS } from '@/lib/eventSamples'
+import { HomeEventsBlock } from '@/components/HomeEventsBlock'
 import { SITE_CONFIG } from '@/lib/siteConfig'
 
 const HOME_NAV_SUNSET: Record<string, string> = {
@@ -439,6 +440,7 @@ export function HomePage({
   categoryAppearance,
   stories,
   events = [],
+  eventPool = [],
   banners,
   event,
   homeSections,
@@ -448,6 +450,7 @@ export function HomePage({
   categoryAppearance: Record<DirectoryCategory, DirectoryCategoryAppearance>
   stories: Story[]
   events?: Story[]
+  eventPool?: Story[]
   banners: Banner[]
   event: Story | null
   homeSections: HomeSections
@@ -680,6 +683,34 @@ export function HomePage({
       <main>
         {/* 예약·이동 안내 서비스 ([공통 소개] 및 버기·차량·이동·액티비티 안내 카드) */}
         <BookingServiceOverviewSection locale={locale} />
+
+        {/* 이벤트 소식: 현지 안내·예약 도우미 영역 바로 아래 */}
+        {homeSections.stories.visible && (
+          <>
+            {eventPool.length > 0 ? (
+              <HomeEventsBlock pool={eventPool} locale={locale} />
+            ) : (
+              eventItems.length > 0 && (
+                <HomeFeedSection
+                  id="home-events"
+                  title={HOME_FEED_TITLES.event[locale] || HOME_FEED_TITLES.event.en}
+                  viewAllHref={localePath(locale, '/events')}
+                  viewAllLabel={viewAllLabel}
+                  items={eventItems}
+                  itemBase={localePath(locale, '/events')}
+                />
+              )
+            )}
+            <HomeFeedSection
+              id="home-news"
+              title={HOME_FEED_TITLES.news[locale] || HOME_FEED_TITLES.news.en}
+              viewAllHref={localePath(locale, '/news')}
+              viewAllLabel={viewAllLabel}
+              items={storyItems}
+              itemBase={localePath(locale, '/news')}
+            />
+          </>
+        )}
 
         {/* Ryan 지시: 시안대로 홈의 스폰서 영역은 미사용 (컴포넌트는 보존) */}
         {false && <SponsorCarousel main={mainBanners} small={smallBanners} locale={locale} />}
@@ -1009,29 +1040,6 @@ export function HomePage({
         )}
 
         <SunsetTownTickets locale={locale} />
-
-        {homeSections.stories.visible && (
-          <>
-            {eventItems.length > 0 && (
-              <HomeFeedSection
-                id="home-events"
-                title={HOME_FEED_TITLES.event[locale] || HOME_FEED_TITLES.event.en}
-                viewAllHref={localePath(locale, '/events')}
-                viewAllLabel={viewAllLabel}
-                items={eventItems}
-                itemBase={localePath(locale, '/events')}
-              />
-            )}
-            <HomeFeedSection
-              id="home-news"
-              title={HOME_FEED_TITLES.news[locale] || HOME_FEED_TITLES.news.en}
-              viewAllHref={localePath(locale, '/news')}
-              viewAllLabel={viewAllLabel}
-              items={storyItems}
-              itemBase={localePath(locale, '/news')}
-            />
-          </>
-        )}
 
         {homeSections.newsletter.visible && (
           <section className="newsletterBand">

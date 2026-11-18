@@ -418,6 +418,24 @@ export const SUBCATEGORY_DICTIONARY: Record<string, LocalizedSubcategory> = {
     ko: '디저트 카페',
     ja: 'デザートカフェ',
   },
+  dessert_fruit_cafe: {
+    en: 'Dessert & Fruit Cafe',
+    vi: 'Cà phê tráng miệng & Trái cây',
+    hi: 'डेज़र्ट और फ्रूट कैफ़े',
+    zh: '甜品与鲜果咖啡馆',
+    ru: 'Десерты и фруктовое кафе',
+    ko: '디저트 & 과일 카페',
+    ja: 'デザート＆フルーツカフェ',
+  },
+  european_brasserie_bakery: {
+    en: 'European Brasserie & Bakery',
+    vi: 'Brasserie Âu & Bánh ngọt',
+    hi: 'यूरोपीय ब्रासरी और बेकरी',
+    zh: '欧式小酒馆与烘焙',
+    ru: 'Европейская брассери и пекарня',
+    ko: '유러피안 브라세리 & 베이커리',
+    ja: 'ヨーロピアンブラッスリー＆ベーカリー',
+  },
 
   // 3. 숙박 (Hotels & Lodging)
   boutique_hotel: {

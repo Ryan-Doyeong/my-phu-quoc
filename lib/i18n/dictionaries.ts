@@ -108,8 +108,18 @@ export function getPhotoBadgeText(mediaNote: string | null, locale: Locale = 'en
     (mediaNote && /illustrat/i.test(mediaNote)) ||
     (img && (img.includes('/beauty__') || img.includes('/services__') || img.includes('/market__')))
   if (isIllustrative) return pickBadge('illustration', locale)
+  if (img && (img.startsWith('/images/hotels/') || img.startsWith('/zones/'))) {
+    return pickBadge('official', locale)
+  }
+  if (img && img.startsWith('/covers-photo/')) {
+    return mediaNote?.startsWith('Image source:') || /official|공식/i.test(mediaNote || '')
+      ? pickBadge('official', locale)
+      : pickBadge('google_maps', locale)
+  }
   if (mediaNote && /google\s*maps|구글맵/i.test(mediaNote)) return pickBadge('google_maps', locale)
-  if (mediaNote?.startsWith('Image source:')) return pickBadge('official', locale)
+  if (mediaNote?.startsWith('Image source:') || (mediaNote && /official|공식/i.test(mediaNote))) {
+    return pickBadge('official', locale)
+  }
   if (!mediaNote) return null
   return pickBadge('representative', locale)
 }
@@ -281,9 +291,73 @@ const TERM_GLOSSARY: Record<string, LocalizedText> = {
   'group tables': { vi: 'Bàn nhóm', ko: '단체석' },
   card_payment: { vi: 'Thanh toán thẻ', ko: '카드 결제' },
   'card payment': { vi: 'Thanh toán thẻ', ko: '카드 결제' },
-  available: { vi: 'Có sẵn', ko: '있음' },
-  nearby: { vi: 'Gần đó', ko: '인근 가능' },
-  yes: { vi: 'Có', ko: '가능' },
+  wheelchair_accessible_entrance: {
+    vi: 'Lối vào cho xe lăn',
+    ko: '휠체어 이용 가능 출입구',
+    zh: '无障碍入口',
+    ja: '車椅子対応入口',
+    ru: 'Вход для колясок',
+    hi: 'व्हीलचेयर सुलभ प्रवेश',
+  },
+  'wheelchair accessible entrance': {
+    vi: 'Lối vào cho xe lăn',
+    ko: '휠체어 이용 가능 출입구',
+    zh: '无障碍入口',
+    ja: '車椅子対応入口',
+    ru: 'Вход для колясок',
+    hi: 'व्हीलचेयर सुलभ प्रवेश',
+  },
+  wheelchair_accessible_seating: {
+    vi: 'Chỗ ngồi cho xe lăn',
+    ko: '휠체어 이용 가능 좌석',
+    zh: '无障碍座位',
+    ja: '車椅子対応席',
+    ru: 'Места для колясок',
+    hi: 'व्हीलचेयर सुलभ सीटें',
+  },
+  'wheelchair accessible seating': {
+    vi: 'Chỗ ngồi cho xe lăn',
+    ko: '휠체어 이용 가능 좌석',
+    zh: '无障碍座位',
+    ja: '車椅子対応席',
+    ru: 'Места для колясок',
+    hi: 'व्हीलचेयर सुलभ सीटें',
+  },
+  wheelchair_accessible_restroom: {
+    vi: 'Nhà vệ sinh cho xe lăn',
+    ko: '휠체어 이용 가능 화장실',
+    zh: '无障碍洗手间',
+    ja: '車椅子対応トイレ',
+    ru: 'Туалет для колясок',
+    hi: 'व्हीलचेयर सुलभ शौचालय',
+  },
+  'wheelchair accessible restroom': {
+    vi: 'Nhà vệ sinh cho xe lăn',
+    ko: '휠체어 이용 가능 화장실',
+    zh: '无障碍洗手间',
+    ja: '車椅子対応トイレ',
+    ru: 'Туалет для колясок',
+    hi: 'व्हीलचेयर सुलभ शौचालय',
+  },
+  wheelchair_accessible_parking: {
+    vi: 'Bãi đỗ xe cho xe lăn',
+    ko: '휠체어 이용 가능 주차장',
+    zh: '无障碍停车场',
+    ja: '車椅子対応駐車場',
+    ru: 'Парковка для колясок',
+    hi: 'व्हीलचेयर सुलभ पार्किंग',
+  },
+  'wheelchair accessible parking': {
+    vi: 'Bãi đỗ xe cho xe lăn',
+    ko: '휠체어 이용 가능 주차장',
+    zh: '无障碍停车场',
+    ja: '車椅子対応駐車場',
+    ru: 'Парковка для колясок',
+    hi: 'व्हीलचेयर सुलभ पार्किंग',
+  },
+  available: { vi: 'Có sẵn', ko: '있음', zh: '提供', ja: 'あり', ru: 'Есть', hi: 'उपलब्ध' },
+  nearby: { vi: 'Gần đó', ko: '인근 가능', zh: '附近可用', ja: '近隣あり', ru: 'Рядом', hi: 'पास में' },
+  yes: { vi: 'Có', ko: '가능', zh: '支持', ja: '対応', ru: 'Да', hi: 'हाँ' },
   'selected outdoor seats': { vi: 'Một số bàn ngoài trời', ko: '야외 지정석 가능' },
 
   // Frequent Google Review Topics (review_summary.topics)
@@ -718,7 +792,11 @@ const SPECIAL_VENUE_NAMES: Record<string, { en: string; ko: string }> = {
     en: 'Mimi Fruits & Mimi Mini Mart (Delivery across Sunset Town)',
   },
   'sunset-place-9': {
-    ko: '솔라나 스파',
+    ko: '솔라나 스파 선셋타운',
+    en: 'SOLANA Spa Sunset Town Phú Quốc',
+  },
+  'solana-spa-sunset-town-phu-quoc': {
+    ko: '솔라나 스파 선셋타운',
     en: 'SOLANA Spa Sunset Town Phú Quốc',
   },
 }

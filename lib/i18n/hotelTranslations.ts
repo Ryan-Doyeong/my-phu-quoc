@@ -1813,11 +1813,25 @@ function localizedSummary(hotel: HotelItem, locale: Locale): string {
     zh: hotel.summary_zh,
     ja: hotel.summary_ja,
     ru: hotel.summary_ru,
-    hi: (hotel as { summary_hi?: string }).summary_hi,
+    hi: hotel.summary_hi,
     vi: hotel.summary_vi,
   }
   // locale -> en -> localized ko summary
   return byLocale[locale] || hotel.summary_en || localizeHotelText(hotel.summary, locale)
+}
+
+function localizedDetailIntro(hotel: HotelItem, locale: Locale): string | undefined {
+  if (!hotel.detailIntro && !hotel.detailIntro_en) return undefined
+  const byLocale: Partial<Record<Locale, string | undefined>> = {
+    ko: hotel.detailIntro,
+    en: hotel.detailIntro_en,
+    zh: hotel.detailIntro_zh,
+    ja: hotel.detailIntro_ja,
+    ru: hotel.detailIntro_ru,
+    hi: hotel.detailIntro_hi,
+    vi: hotel.detailIntro_vi,
+  }
+  return byLocale[locale] || hotel.detailIntro_en || hotel.detailIntro
 }
 
 /**
@@ -1834,6 +1848,7 @@ export function localizeHotel(hotel: HotelItem, locale: Locale): HotelItem {
     displayName: hotel.name_en || hotel.name_ko,
     address: L(hotel.address),
     summary: localizedSummary(hotel, locale),
+    detailIntro: localizedDetailIntro(hotel, locale),
     badgeText: hotel.badgeText ? L(hotel.badgeText) : hotel.badgeText,
     checkIn: L(hotel.checkIn),
     checkOut: L(hotel.checkOut),
