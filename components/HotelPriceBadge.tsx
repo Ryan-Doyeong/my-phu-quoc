@@ -1,10 +1,12 @@
 import React from 'react'
-import { HotelPriceRange, getPriceTierLevel, getPriceTierBand } from '@/lib/hotels'
+import { HotelPriceRange, HotelPriceFrom, getPriceTierLevel, getPriceTierBand, getBoutiqueTier } from '@/lib/hotels'
 import { getHotelCategoryLabels } from '@/lib/i18n/hotelCategoryLabels'
 import type { Locale } from '@/lib/i18n/config'
 
 export interface HotelPriceRangeTextProps {
   priceRange?: HotelPriceRange | string | null
+  /** 조사 기반 '약 $N~' 표기가 있으면 요금대 대신 사용 */
+  priceFrom?: HotelPriceFrom | null
   locale?: Locale
   /** 요금대가 없을 때 '요금 미확인' 표시 여부 (기본 true) */
   showUnverified?: boolean
@@ -17,8 +19,17 @@ const fmtVnd = (v: number) => `₫${v.toLocaleString('en-US')}`
  * 아고다 5단계 요금대 → 실제 1박 가격 범위 텍스트.
  * 예) "1박 약 $49~69 · ₫1,250,000~1,750,000" / "1박 약 $39 이하" / "1박 약 $83 이상"
  */
-export function HotelPriceRangeText({ priceRange, locale = 'ko', showUnverified = true, className = 'cardPriceRange' }: HotelPriceRangeTextProps) {
+export function HotelPriceRangeText({ priceRange, priceFrom, locale = 'ko', showUnverified = true, className = 'cardPriceRange' }: HotelPriceRangeTextProps) {
   const labels = getHotelCategoryLabels(locale)
+  if (priceFrom) {
+    const tags = priceFrom.tags.map((k) => labels.priceFromTags[k]).join(' · ')
+    return (
+      <span className={className} title={labels.priceFromNote}>
+        <span className="cardPriceRangeMain">💲 {labels.priceFromTpl.replace('{usd}', `$${priceFrom.usd.toLocaleString('en-US')}`)}</span>
+        <span className="cardPriceRangeSub">{labels.priceFromSub}{tags ? ` · ${tags}` : ''}</span>
+      </span>
+    )
+  }
   const band = getPriceTierBand(priceRange)
   if (!band) {
     if (!showUnverified) return null
@@ -46,6 +57,8 @@ export function HotelPriceRangeText({ priceRange, locale = 'ko', showUnverified 
 
 export interface HotelPriceBadgeProps {
   priceRange?: HotelPriceRange | string | null
+  /** 조사 기반 표기가 있으면 부티크만 $ 단계 배지를 보이고 리조트급은 숨김 */
+  priceFrom?: HotelPriceFrom | null
   className?: string
   style?: React.CSSProperties
   /** Optional custom date string for tooltip, default '2026-11-01' */
@@ -68,12 +81,14 @@ const TOOLTIP_BY_LOCALE: Record<string, (level: number, date: string) => string>
  * Hidden when priceRange is missing/undefined (미확인 시 숨김).
  */
 export function HotelPriceBadge({
-  priceRange,
+  priceRange: legacyRange,
+  priceFrom,
   className = 'cardPriceBadge',
   style,
   checkDate = '2026-11-01',
   locale = 'ko',
 }: HotelPriceBadgeProps) {
+  const priceRange = priceFrom ? getBoutiqueTier(priceFrom) : legacyRange
   if (!priceRange) return null
   const level = getPriceTierLevel(priceRange) || priceRange.length
   const fn = TOOLTIP_BY_LOCALE[locale] || TOOLTIP_BY_LOCALE.en
