@@ -1,9 +1,9 @@
 import { SITE_URL } from '@/lib/supabase/config'
 
 // My Phu Quoc — 6개 언어 (2026-10-25 4차 수정 지시 확정: 한국어·영어·중국어·러시아어·일본어·힌디어)
-// 2026-11-05: 베트남어(vi) 재활성화 — 7개 언어(한·영·중·러·일·힌디·베트남어)
+// 2026-11-18: 베트남어(vi) 임시 숨김 (데이터·사전·ALL_HISTORICAL_LOCALES 보존, 복구 가능)
 export const ALL_HISTORICAL_LOCALES = ['en', 'vi', 'hi', 'zh', 'ru', 'ko', 'ja'] as const
-export const SUPPORTED_LOCALES = ['en', 'ko', 'zh', 'ru', 'ja', 'hi', 'vi'] as const
+export const SUPPORTED_LOCALES = ['en', 'ko', 'zh', 'ru', 'ja', 'hi'] as const
 export const LOCALES = SUPPORTED_LOCALES
 export type HistoricalLocale = (typeof ALL_HISTORICAL_LOCALES)[number]
 export type Locale = HistoricalLocale
@@ -62,10 +62,10 @@ export function detectPreferredLocale(acceptLanguage: string | null | undefined)
     return 'hi'
   }
 
-  // vi-VN, vi -> vi
-  if (clean.includes('vi-vn') || clean.startsWith('vi')) {
-    return 'vi'
-  }
+  // vi-VN, vi -> 임시 숨김 기간 동안 기본 영어('en')로 폴백 (복구 시 return 'vi' 재활성화)
+  // if (clean.includes('vi-vn') || clean.startsWith('vi')) {
+  //   return 'vi'
+  // }
 
   // 기본은 영어
   return 'en'
@@ -131,6 +131,7 @@ export function buildAlternates(
 ) {
   const languages: Record<string, string> = {}
   for (const loc of availableLocales) {
+    if (!isValidLocale(loc)) continue
     languages[HREFLANG[loc]] = localeUrl(loc, barePath, baseUrl)
   }
   if (availableLocales.includes('en')) {

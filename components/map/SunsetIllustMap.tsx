@@ -495,8 +495,8 @@ export function SunsetIllustMap({
   showLanguageSwitcher = true,
   initialMapData,
 }: SunsetIllustMapProps) {
-  // Normalize initial locale (only 6 supported languages, fall back to 'ko')
-  const validLocales: MapLanguage[] = ['ko', 'en', 'zh', 'ru', 'ja', 'hi', 'vi']
+  // Normalize initial locale (only 6 supported languages, fall back to 'ko'; 'vi' temporarily hidden)
+  const validLocales: MapLanguage[] = ['ko', 'en', 'zh', 'ru', 'ja', 'hi']
   const defaultLang: MapLanguage = validLocales.includes(initialLocale as MapLanguage)
     ? (initialLocale as MapLanguage)
     : 'ko'
