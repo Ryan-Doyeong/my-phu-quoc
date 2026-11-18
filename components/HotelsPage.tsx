@@ -150,6 +150,7 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
             )}
             <HotelPriceBadge priceRange={hotel.priceRange} priceFrom={hotel.priceFrom} locale={locale} />
           </div>
+          {/* Ryan 2026-11-19: 거리 표시 숨김(좌표·거리 재측정 전까지)
           {isKhem ? (
             <span className="khemDistBadge">🚗 {getKhemDistanceBadge(hotel, t)}</span>
           ) : hotel.cable_m != null ? (
@@ -157,6 +158,7 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
               🚡 {t.cableCarDistance} {hotel.cable_m}m
             </span>
           ) : null}
+          */}
         </div>
 
         {/* 호텔명 (한글 / 영문) */}
@@ -361,6 +363,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                 )}
                 <HotelPriceBadge priceRange={hotel.priceRange} priceFrom={hotel.priceFrom} locale={locale} style={{ marginLeft: '6px' }} />
               </div>
+              {/* Ryan 2026-11-19: 거리 표시 숨김(좌표·거리 재측정 전까지)
               {isKhem ? (
                 <span className="khemDistBadge" style={{ fontSize: '0.85rem', padding: '4px 10px' }}>
                   🚗 {getKhemDistanceBadge(hotel, t)}
@@ -370,6 +373,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                   🚡 {t.cableCarStationDistance} {hotel.cable_m}m
                 </span>
               ) : null}
+              */}
             </div>
 
             <h2 className="modalHotelTitle">{hotel.displayName || hotel.name_ko}</h2>
@@ -716,6 +720,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                     <div style={{ marginBottom: '8px' }}>
                       <strong>📍 {t.accordionLocation}:</strong> {hotel.address}
                     </div>
+                    {/* Ryan 2026-11-19: 거리 표시 숨김(좌표·거리 재측정 전까지)
                     {isKhem ? (
                       <div style={{ marginBottom: '8px' }}>
                         <strong>🚗 {t.travelToSunsetTown}:</strong> {t.khemDistanceBadge} ({t.approxKm})
@@ -725,9 +730,11 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                         <strong>🚡 {t.cableCarStationDistance}:</strong> {hotel.cable_m}m
                       </div>
                     )}
+                    */}
                     <div style={{ marginBottom: '12px', color: '#0f172a', fontWeight: 600 }}>
                       🕒 {t.checkIn} {hotel.checkIn || '14:00'} · {t.checkOut} {hotel.checkOut || '12:00'}
                     </div>
+                    {/* Ryan 2026-11-19: 거리 표시 숨김(좌표·거리 재측정 전까지)
                     {hotel.landmarks && hotel.landmarks.length > 0 && (
                       <div style={{ marginTop: '12px', paddingTop: '10px', borderTop: '1px solid #e2e8f0' }}>
                         <div style={{ fontWeight: 700, marginBottom: '6px', color: '#0f172a' }}>
@@ -740,6 +747,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                         </ul>
                       </div>
                     )}
+                    */}
 
                     {/* 구글맵에서 위치 보기 버튼 */}
                     {hotel.googleMapsUrl && (
@@ -1097,6 +1105,7 @@ function HotelsPageInner({ hotels: rawHotels, locale = 'en', initialArea }: Hote
                 >
                   💬 {t.sortReviews}
                 </button>
+                {/* Ryan 2026-11-19: 거리 표시 숨김(좌표·거리 재측정 전까지)
                 {activeCategory !== 'khem-beach' && (
                   <button
                     type="button"
@@ -1106,6 +1115,7 @@ function HotelsPageInner({ hotels: rawHotels, locale = 'en', initialArea }: Hote
                     🚡 {t.sortNearest}
                   </button>
                 )}
+                */}
               </div>
             </div>
           </div>
