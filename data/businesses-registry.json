@@ -175,8 +175,8 @@
     "category": "hotels",
     "subcategory": "boutique_hotel",
     "google_place_id": "ChIJ5Z5ZTfmVpzERiSVXng2WHUY",
-    "description_en": "Set at Ven 07 on vibrant Venice Street, The Juliet Boutique Hotel & Coffee pairs sunlit Mediterranean guestrooms with a ground-floor specialty coffee and pastry lounge. Guests also enjoy a scenic rooftop infinity pool within easy walking distance of Kiss Bridge and VuiFest Bazaar.",
-    "description_ko": "베니스 거리 중심부(Ven 07)에 위치한 감각적인 디저트 카페 결합형 부티크 호텔입니다. 1층 아티산 커피 & 페이스트리 라운지와 지중해풍 객실, 루프탑 인피니티 풀을 함께 갖추어 휴양과 감성 사진 촬영을 동시에 즐기기 좋습니다.",
+    "description_en": "Set at Ven 07 on vibrant Venice Street, The Juliet Boutique Hotel & Coffee pairs sunlit Mediterranean guestrooms with a ground-floor specialty coffee and pastry lounge, within easy walking distance of Kiss Bridge and VuiFest Bazaar.",
+    "description_ko": "베니스 거리 중심부(Ven 07)에 위치한 감각적인 디저트 카페 결합형 부티크 호텔입니다. 1층 아티산 커피 & 페이스트리 라운지와 지중해풍 객실을 함께 갖추어 휴양과 감성 사진 촬영을 동시에 즐기기 좋습니다.",
     "address": "Ven07 Sunset Town, Phú Quốc, An Giang, Vietnam",
     "google_maps_name": "The Juliet A Boutique Hotel & Coffee - Venice 07",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5Z5ZTfmVpzERiSVXng2WHUY",
@@ -208,7 +208,7 @@
     "media_note": "Image source: http://thejuliethotel.vn/",
     "photo_permission": "Official public media (http://thejuliethotel.vn/)",
     "agoda_url": "https://www.agoda.com/ko-kr/juliet-boutique-hotel/hotel/phu-quoc-island-vn.html",
-    "description_vi": "Nằm tại căn Ven 07 trên trục đường Venice nhộn nhịp, The Juliet Boutique Hotel & Coffee kết hợp phòng nghỉ Địa Trung Hải ngập nắng cùng không gian cà phê và bánh ngọt ở tầng trệt. Hồ bơi vô cực trên sân thượng và vị trí gần Cầu Hôn giúp nơi đây rất được lòng du khách trẻ."
+    "description_vi": "Nằm tại căn Ven 07 trên trục đường Venice nhộn nhịp, The Juliet Boutique Hotel & Coffee kết hợp phòng nghỉ Địa Trung Hải ngập nắng cùng không gian cà phê và bánh ngọt ở tầng trệt. Vị trí gần Cầu Hôn giúp nơi đây rất được lòng du khách trẻ."
   },
   {
     "id": "local-sunset-6",
@@ -2961,8 +2961,8 @@
     "category": "hotels",
     "subcategory": "residence",
     "google_place_id": "ChIJcWEuF12XpzERcz_lK7OYDlw",
-    "description_en": "Set within the Milan–Hillside high-rise enclave of Sunset Town, Dido Carthage Apartment offers thoughtfully styled self-contained residences with sea and town views. Guests enjoy living rooms, kitchenettes, in-unit laundry, and access to scenic rooftop infinity pool decks.",
-    "description_ko": "밀란·힐사이드 고층 단지에 위치한 감각적인 인테리어의 오션뷰 레지던스 아파트먼트입니다. 여유로운 거실과 간이 주방, 세탁기, 루프탑 인피니티 풀 이용 권한을 갖추고 있어 푸꾸옥 남부에서 내 집처럼 편안하게 머물기 좋습니다.",
+    "description_en": "Set within the Milan–Hillside high-rise enclave of Sunset Town, Dido Carthage Apartment offers thoughtfully styled self-contained residences with sea and town views. Guests enjoy living rooms, kitchenettes, and in-unit laundry.",
+    "description_ko": "밀란·힐사이드 고층 단지에 위치한 감각적인 인테리어의 오션뷰 레지던스 아파트먼트입니다. 여유로운 거실과 간이 주방, 세탁기를 갖추고 있어 푸꾸옥 남부에서 내 집처럼 편안하게 머물기 좋습니다.",
     "address": "Milan, Phú Quốc, An Giang 91000, Vietnam",
     "google_maps_name": "Dido Carthage Apartment Sunset Town, Phu Quoc Island",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJcWEuF12XpzERcz_lK7OYDlw",
@@ -3020,7 +3020,7 @@
         "source_page_url": "https://www.google.com/maps/place/?q=place_id:ChIJcWEuF12XpzERcz_lK7OYDlw"
       }
     ],
-    "description_vi": "Tọa lạc tại cụm căn hộ cao tầng khu Milan – Hillside, Dido Carthage Apartment gây ấn tượng với thiết kế nội thất tinh tế cùng tầm nhìn hướng biển và phố thị. Căn hộ có phòng khách, bếp, máy giặt riêng và quyền sử dụng hồ bơi vô cực trên tầng thượng."
+    "description_vi": "Tọa lạc tại cụm căn hộ cao tầng khu Milan – Hillside, Dido Carthage Apartment gây ấn tượng với thiết kế nội thất tinh tế cùng tầm nhìn hướng biển và phố thị. Căn hộ có phòng khách, bếp và máy giặt riêng."
   },
   {
     "id": "local-sunset-79",

@@ -220,15 +220,14 @@
           "distance": "차량 23분 (19.5km)"
         }
       ],
-      "summary": "켐비치 해변을 품은 5성급 리조트로 전 객실 독채 풀빌라와 120m 인피니티 풀을 운영합니다.",
-      "summary_en": "All-pool-villa 5-star resort on Khem Beach centered around a sweeping 120m infinity pool.",
-      "summary_zh": "坐拥凯姆海滩的五星级全泳池别墅度假村，配备长达120米的临海无边际泳池。",
-      "summary_ja": "ケムビーチ沿いの全室プライベートプール付きヴィラリゾート。全長120mのインフィニティプールを完備。",
-      "summary_ru": "Пятизвёздочный курорт на пляже Кхем с частными виллами с бассейнами и 120-метровым инфинити-пулом.",
-      "summary_vi": "Khu nghỉ dưỡng 5 sao ven Bãi Khem với 100% biệt thự hồ bơi riêng và hồ bơi vô cực dài 120m ấn tượng.",
+      "summary": "켐비치 해변을 품은 5성급 리조트로 전 객실 독채 풀빌라를 운영합니다.",
+      "summary_en": "All-pool-villa 5-star resort on Khem Beach.",
+      "summary_zh": "坐拥凯姆海滩的五星级全泳池别墅度假村。",
+      "summary_ja": "ケムビーチ沿いの全室プライベートプール付きヴィラリゾート。",
+      "summary_ru": "Пятизвёздочный курорт на пляже Кхем с частными виллами с бассейнами.",
+      "summary_vi": "Khu nghỉ dưỡng 5 sao ven Bãi Khem với 100% biệt thự hồ bơi riêng.",
       "coreFacilities": [
         "전 객실 독채 프라이빗 풀빌라",
-        "120m 야외 대형 인피니티 풀",
         "바이켐 프라이빗 비치 직결",
         "더 스파(The Spa)",
         "더 레스토랑 (올데이 뷔페)",
@@ -242,7 +241,6 @@
         {
           "name": "수영장 & 비치",
           "items": [
-            "120m 초대형 야외 인피니티 수영장",
             "전 빌라 전용 야외 풀장 및 썬라운저",
             "바이켐 백사장 프라이빗 비치",
             "비치 발리볼 & 카약 무료 대여"
@@ -313,29 +311,27 @@
       "photos": [
         "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-resort-overview.webp",
         "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-pool-villa.jpg",
-        "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-infinity-pool.jpg",
         "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-the-spa.jpg"
       ],
       "agodaUrl": "https://www.agoda.com/ko-kr/new-world-phu-quoc-resort-h25124946/hotel/phu-quoc-island-vn.html",
       "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJy5uCwXCXpzERQSR2-hAgnuo",
       "googleRating": 4.7,
       "googleReviewsCount": 6093,
-      "reviewHighlight": "전 객실 프라이빗 풀빌라의 프라이버시와 환상적인 120m 인피니티 풀",
+      "reviewHighlight": "전 객실 프라이빗 풀빌라의 프라이버시",
       "reviewPros": [
         "모든 객실이 독립된 수영장을 갖춘 단독 풀빌라로 사생활 보호 철저",
-        "해변까지 곧게 뻗은 120m 대형 인피니티 풀의 이국적인 경관",
         "전통 어촌 가옥을 모티브로 한 아늑하고 고급스러운 인테리어",
         "친절하고 신속한 버기 및 직원 서비스, 풍성한 조식"
       ],
       "driveMinutesToSunsetTown": 10,
       "driveMinutesNote": "사장님 확인 2026-10-31",
-      "agodaRawDescription": "바이켐 해변의 모래사장에 자리잡은 전 객실 독채 풀빌라 리조트입니다. 베트남 전통 어촌 마을의 초가지붕과 목재 건축 양식을 현대적으로 재해석한 375채의 독채 풀빌라로만 이루어져 있습니다. 리조트 중앙에는 해변까지 이어진 120미터 길이의 야외 인피니티 풀이 자리하며, 더 스파(The Spa), 바이켐 백사장, 키즈클럽, 그릴 레스토랑을 갖추고 있습니다.",
+      "agodaRawDescription": "바이켐 해변의 모래사장에 자리잡은 전 객실 독채 풀빌라 리조트입니다. 베트남 전통 어촌 마을의 초가지붕과 목재 건축 양식을 현대적으로 재해석한 375채의 독채 풀빌라로만 이루어져 있습니다. 더 스파(The Spa), 바이켐 백사장, 키즈클럽, 그릴 레스토랑을 갖추고 있습니다.",
       "isFeatured": true,
       "priceRange": "$$$$$",
       "googlePlaceId": "ChIJy5uCwXCXpzERQSR2-hAgnuo",
       "lat": 10.0393884,
       "lng": 104.0274382,
-      "summary_hi": "खेम बीच पर सभी निजी पूल विला वाला 5-स्टार रिसॉर्ट, जिसमें 120 मीटर लंबा इन्फिनिटी पूल है।"
+      "summary_hi": "खेम बीच पर सभी निजी पूल विला वाला 5-स्टार रिसॉर्ट।"
     },
     {
       "slug": "premier-village-phu-quoc-resort",
@@ -389,7 +385,6 @@
       "coreFacilities": [
         "전 객실 단독 프라이빗 풀빌라",
         "반도 양면 바다 직결 (일출/일몰)",
-        "다단식 멀티 인피니티 풀",
         "플루메리아 스파",
         "더 마켓 레스토랑 & 코라브 BBQ",
         "피트니스 센터",
@@ -402,7 +397,6 @@
         {
           "name": "수영장 & 해변",
           "items": [
-            "반도를 가로지르는 계단식 인피니티 수영장",
             "전 빌라 전용 개인 수영장",
             "동쪽 비치(일출) & 서쪽 비치(일몰)",
             "스노클링 & 카약 장비 무료 이용"
@@ -485,12 +479,11 @@
       "reviewPros": [
         "전 객실이 개인 풀을 갖춘 대형 독채 빌라로 가족·연인 여행에 최적",
         "일출과 일몰을 둘 다 감상할 수 있는 독보적인 옹도이 곶 입지",
-        "반도를 가로지르는 아름다운 계단식 멀티 인피니티 풀",
         "버기 시스템이 잘 갖추어져 리조트 내 이동이 편리함"
       ],
       "driveMinutesToSunsetTown": 10,
       "driveMinutesNote": "사장님 확인 2026-10-31",
-      "agodaRawDescription": "푸꾸옥 최남단 옹도이 곶(Mũi Ông Đội)의 반도 지형에 자리한 아코르 계열 5성급 풀빌라 리조트입니다. 바다로 둘러싸인 독특한 지형 덕분에 한 자리에서 동쪽 바다의 일출과 서쪽 바다의 일몰을 모두 감상할 수 있습니다. 전 객실이 단독 개인 수영장을 갖춘 풀빌라로 구성되어 프라이빗한 휴양을 지원하며, 반도를 가로지르는 다단식 인피니티 풀과 플루메리아 스파를 갖추고 있습니다.",
+      "agodaRawDescription": "푸꾸옥 최남단 옹도이 곶(Mũi Ông Đội)의 반도 지형에 자리한 아코르 계열 5성급 풀빌라 리조트입니다. 바다로 둘러싸인 독특한 지형 덕분에 한 자리에서 동쪽 바다의 일출과 서쪽 바다의 일몰을 모두 감상할 수 있습니다. 전 객실이 단독 개인 수영장을 갖춘 풀빌라로 구성되어 프라이빗한 휴양을 지원하며, 플루메리아 스파를 갖추고 있습니다.",
       "isFeatured": true,
       "googlePlaceId": "ChIJcSDG-fqWpzERQkkxuLWDUyU",
       "lat": 10.0159773,
@@ -626,7 +619,7 @@
           "size": "256㎡",
           "bed": "킹 침대 2개",
           "view": "파노라마 에메랄드 베이 뷰",
-          "features": "최상층 펜트하우스, 루프탑 전용 인피니티 풀, 와이드 거실"
+          "features": "최상층 펜트하우스, 루프탑 전용 풀, 와이드 거실"
         }
       ],
       "photos": [
