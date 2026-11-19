@@ -3,13 +3,241 @@
   "surveyDate": "2026-11-18",
   "source": "Agoda, 성인 2, 객실 1, 1박(New World는 2박 환산), 조사일 2026-12-02/12-05/2027-01-13/01-16",
   "hotels": {
-    "the-room-hotel": { "usd": 60, "group": "boutique", "tags": ["oceanView"] },
-    "coastal-living-hotel-phu-quoc": { "usd": 80, "group": "boutique", "tags": [] },
-    "venice-hotel-phu-quoc": { "usd": 150, "group": "boutique", "tags": ["breakfast", "seasonal"] },
-    "sakurakyo-hotel-spa-phu-quoc": { "usd": 250, "group": "boutique", "tags": ["oceanView"] },
-    "la-festa-phu-quoc-curio-collection-by-hilton": { "usd": 300, "group": "resort", "tags": ["oceanView"] },
-    "jw-marriott-phu-quoc-emerald-bay": { "usd": 600, "group": "resort", "tags": ["oceanView"] },
-    "new-world-phu-quoc-resort": { "usd": 700, "group": "resort", "tags": ["villaOnly", "twoNight"] },
-    "premier-village-phu-quoc-resort": { "usd": 500, "group": "resort", "tags": ["villaOnly"] }
+    "the-room-hotel": {
+      "usd": 60,
+      "group": "boutique",
+      "tags": [
+        "oceanView"
+      ]
+    },
+    "coastal-living-hotel-phu-quoc": {
+      "usd": 80,
+      "group": "boutique",
+      "tags": []
+    },
+    "venice-hotel-phu-quoc": {
+      "usd": 150,
+      "group": "boutique",
+      "tags": [
+        "breakfast",
+        "seasonal"
+      ]
+    },
+    "sakurakyo-hotel-spa-phu-quoc": {
+      "usd": 250,
+      "group": "boutique",
+      "tags": [
+        "oceanView"
+      ]
+    },
+    "la-festa-phu-quoc-curio-collection-by-hilton": {
+      "usd": 300,
+      "group": "resort",
+      "tags": [
+        "oceanView"
+      ]
+    },
+    "jw-marriott-phu-quoc-emerald-bay": {
+      "usd": 600,
+      "group": "resort",
+      "tags": [
+        "oceanView"
+      ]
+    },
+    "new-world-phu-quoc-resort": {
+      "usd": 700,
+      "group": "resort",
+      "tags": [
+        "villaOnly",
+        "twoNight"
+      ]
+    },
+    "premier-village-phu-quoc-resort": {
+      "usd": 500,
+      "group": "resort",
+      "tags": [
+        "villaOnly"
+      ]
+    },
+    "roma-hotel-phu-quoc-h39560696": {
+      "usd": 100,
+      "group": "boutique",
+      "tags": [
+        "breakfast",
+        "seasonal"
+      ]
+    },
+    "times-corner-sorrento-boutique-hotel": {
+      "usd": 50,
+      "group": "boutique",
+      "tags": [
+        "breakfast"
+      ]
+    },
+    "roma-hotel-phu-qu-c": {
+      "usd": 30,
+      "group": "boutique",
+      "tags": [
+        "seasonal"
+      ]
+    },
+    "le-bonheur-hotel": {
+      "usd": 70,
+      "group": "boutique",
+      "tags": [
+        "breakfast"
+      ]
+    },
+    "kl-hotel-phu-quoc": {
+      "usd": 50,
+      "group": "boutique",
+      "tags": [
+        "breakfast"
+      ]
+    },
+    "times-corner-amalfi-hotel": {
+      "usd": 90,
+      "group": "boutique",
+      "tags": [
+        "breakfast"
+      ]
+    },
+    "casepia": {
+      "usd": 90,
+      "group": "boutique",
+      "tags": [
+        "breakfast"
+      ]
+    },
+    "milan-hotel-coffee": {
+      "usd": 50,
+      "group": "boutique",
+      "tags": []
+    },
+    "de-stefano-coffee-and-hotel": {
+      "usd": 60,
+      "group": "boutique",
+      "tags": [
+        "breakfast"
+      ]
+    },
+    "cybele-hotel": {
+      "usd": 50,
+      "group": "boutique",
+      "tags": [
+        "breakfast"
+      ]
+    },
+    "solea-hotel-sunset-town-phu-quoc": {
+      "usd": 90,
+      "group": "boutique",
+      "tags": [
+        "breakfast"
+      ]
+    },
+    "khach-san-royal-phu-quoc": {
+      "usd": 60,
+      "group": "boutique",
+      "tags": []
+    },
+    "hoang-hon-hotel": {
+      "usd": 40,
+      "group": "boutique",
+      "tags": []
+    },
+    "thala-hotel-sorrento": {
+      "usd": 40,
+      "group": "boutique",
+      "tags": []
+    },
+    "catarina-hotel-phu-quoc": {
+      "usd": 50,
+      "group": "boutique",
+      "tags": [
+        "breakfast"
+      ]
+    },
+    "palo-santo-hotel-phu-quoc": {
+      "usd": 60,
+      "group": "boutique",
+      "tags": []
+    },
+    "sunny-hotel": {
+      "usd": 70,
+      "group": "boutique",
+      "tags": []
+    },
+    "solaro-hotel-spa-h84816481": {
+      "usd": 100,
+      "group": "boutique",
+      "tags": [
+        "breakfast"
+      ]
+    },
+    "anna-hotel-free-cable-car-and-water-park-tickets": {
+      "usd": 40,
+      "group": "boutique",
+      "tags": []
+    },
+    "juliet-boutique-hotel": {
+      "usd": 90,
+      "group": "boutique",
+      "tags": [
+        "breakfast"
+      ]
+    },
+    "golden-sunset-hotel": {
+      "usd": 60,
+      "group": "boutique",
+      "tags": []
+    },
+    "casa-del-mar-boutique-hotel": {
+      "usd": 60,
+      "group": "boutique",
+      "tags": []
+    },
+    "merci-hotel-sunset-town-phu-quoc": {
+      "usd": 50,
+      "group": "boutique",
+      "tags": []
+    },
+    "blue-hotel-sunset-town-phu-quoc": {
+      "usd": 40,
+      "group": "boutique",
+      "tags": []
+    },
+    "eirlys-home-apartment-phu-quoc-firework-ocean-view": {
+      "usd": 80,
+      "group": "boutique",
+      "tags": []
+    },
+    "premier-residences-phu-quoc-emerald-bay": {
+      "usd": 200,
+      "group": "resort",
+      "tags": [
+        "breakfast"
+      ]
+    },
+    "paralia-khem-beach-phu-quoc-hotel": {
+      "usd": 70,
+      "group": "boutique",
+      "tags": [
+        "breakfast"
+      ]
+    },
+    "jm-boutique-hotel-phu-quoc": {
+      "usd": 150,
+      "group": "boutique",
+      "tags": [
+        "breakfast"
+      ]
+    },
+    "ann-hotel-spa-phu-quoc": {
+      "usd": 60,
+      "group": "boutique",
+      "tags": [
+        "breakfast"
+      ]
+    }
   }
 }
