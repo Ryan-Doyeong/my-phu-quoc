@@ -32,7 +32,7 @@
         "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/rooms/"
       },
       "pools": {
-        "detail": "3개 야외 수영장: Shell Pool(조개 형태 인피니티 풀), Sun Pool, Sand Pool",
+        "detail": "3개 야외 수영장: Shell Pool(조개 형태 풀), Sun Pool, Sand Pool",
         "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
       },
       "dining_and_bars": {
@@ -110,7 +110,7 @@
         "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/rooms/"
       },
       "pools": {
-        "detail": "3 outdoor pools: Shell Pool (seashell-shaped infinity pool), Sun Pool, and Sand Pool",
+        "detail": "3 outdoor pools: Shell Pool (seashell-shaped pool), Sun Pool, and Sand Pool",
         "source_url": "https://www.marriott.com/en-us/hotels/pqcjw-jw-marriott-phu-quoc-emerald-bay-resort-and-spa/experiences/"
       },
       "dining_and_bars": {
@@ -309,15 +309,15 @@
     "rating_check_date": "2026-10-30",
     "status": "published",
     "verification_status": "verified",
-    "description_ko": "바이켐 해변에 자리한 전 객실 풀빌라 리조트. 베트남 전통 어촌 가옥 스타일의 375채 독채 풀빌라와 120미터 길이의 인피니티 풀, 스파, 레스토랑 등의 시설을 구비하고 있습니다.",
-    "description_en": "An all-villa luxury resort located along Bai Khem, featuring 375 freestanding pool villas inspired by traditional fishing villages, centered around a 120-meter infinity pool.",
+    "description_ko": "바이켐 해변에 자리한 전 객실 풀빌라 리조트. 베트남 전통 어촌 가옥 스타일의 375채 독채 풀빌라와 스파, 레스토랑 등의 시설을 구비하고 있습니다.",
+    "description_en": "An all-villa luxury resort located along Bai Khem, featuring 375 freestanding pool villas inspired by traditional fishing villages.",
     "facilities": {
       "accommodations": {
         "detail": "공식 사이트 기준 총 375채 독채 풀빌라 (Garden Pool Villa, Deluxe Pool Villa, Premium Pool Villa 등 전 객실 개인 풀 보유)",
         "source_url": "https://phuquoc.newworldhotels.com/en/accommodation/"
       },
       "pools": {
-        "detail": "120미터 대형 야외 인피니티 풀 및 키즈 전용 풀",
+        "detail": "120미터 대형 야외 풀 및 키즈 전용 풀",
         "source_url": "https://phuquoc.newworldhotels.com/en/destinations/beach-swimming-pool/"
       },
       "dining_and_bars": {
@@ -348,7 +348,6 @@
     "gallery_urls": [
       "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-resort-overview.webp",
       "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-pool-villa.jpg",
-      "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-infinity-pool.jpg",
       "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-the-spa.jpg"
     ],
     "source_urls": [
@@ -374,11 +373,6 @@
         "source_page_url": "https://phuquoc.newworldhotels.com/en/accommodation/"
       },
       {
-        "file": "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-infinity-pool.jpg",
-        "credit_text": "Image: New World Phu Quoc Resort (phuquoc.newworldhotels.com)",
-        "source_page_url": "https://phuquoc.newworldhotels.com/en/destinations/beach-swimming-pool/"
-      },
-      {
         "file": "/zones/khem-beach/images/new-world-phu-quoc-resort/new-world-the-spa.jpg",
         "credit_text": "Image: New World Phu Quoc Resort (phuquoc.newworldhotels.com)",
         "source_page_url": "https://phuquoc.newworldhotels.com/en/destinations/spa/"
@@ -396,7 +390,7 @@
         "source_url": "https://phuquoc.newworldhotels.com/en/accommodation/"
       },
       "pools": {
-        "detail": "120-meter outdoor infinity pool and dedicated kids pool",
+        "detail": "120-meter outdoor pool and dedicated kids pool",
         "source_url": "https://phuquoc.newworldhotels.com/en/destinations/beach-swimming-pool/"
       },
       "dining_and_bars": {
@@ -427,7 +421,7 @@
     "internal_verified": {
       "address_raw": "Khem Beach, An Thới, Phú Quốc, Kiên Giang 920000, Vietnam"
     },
-    "description_vi": "Khu nghỉ dưỡng 5 sao thuần biệt thự tọa lạc dọc bờ biển Bãi Khem, quy tụ 375 căn biệt thự hồ bơi riêng lấy cảm hứng từ nếp nhà làng chài truyền thống Việt Nam. Tâm điểm khuôn viên là hồ bơi vô cực dài 120m hướng biển cùng khu spa sân vườn, câu lạc bộ trẻ em và chuỗi nhà hàng hải sản."
+    "description_vi": "Khu nghỉ dưỡng 5 sao thuần biệt thự tọa lạc dọc bờ biển Bãi Khem, quy tụ 375 căn biệt thự hồ bơi riêng lấy cảm hứng từ nếp nhà làng chài truyền thống Việt Nam. Khuôn viên có khu spa sân vườn, câu lạc bộ trẻ em và chuỗi nhà hàng hải sản."
   },
   {
     "id": "khem-draft-004",
