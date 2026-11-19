@@ -169,9 +169,10 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
         <HotelPriceRangeText priceRange={hotel.priceRange} priceFrom={hotel.priceFrom} locale={locale} showUnverified={!isKhem} />
 
         {/* 위치·전망 핵심 한 줄 (데이터 있는 호텔만 노출) */}
-        {hotel.insight && (hotel.insight.location || hotel.insight.view) && (
+        {hotel.insight && (hotel.insight.view) && (
           <div className="cardInsightLine">
-            {hotel.insight.location && (
+            {/* Ryan 2026-11-19: 거리 표시 숨김 — insight.location 문구는 거리 포함 */}
+            {(false as boolean) && hotel.insight.location && (
               <div className="cardInsightItem">
                 <span className="insightIcon">📍</span>
                 <span className="insightText">{hotel.insight.location}</span>
@@ -192,7 +193,7 @@ function HotelCard({ hotel, t, locale, isFeatured = false, isTopGrade = false, o
         )}
 
         {/* 고객 리뷰 핵심 한 줄 */}
-        {hotel.reviewHighlight && (
+        {hotel.reviewHighlight && !/\d+\s?(m|km)\b|도보|차량 \d+분/.test(hotel.reviewHighlight) && (
           <div className={`cardReviewHighlight ${isFeatured || isTopGrade ? 'featuredReviewHighlight' : ''}`}>
             <span className="reviewHighlightIcon">💬</span>
             <span className="reviewHighlightText">{hotel.reviewHighlight}</span>
@@ -285,7 +286,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
   const insight = hotel.insight
   const hasInsights = Boolean(
     insight && (
-      insight.location || insight.view || insight.condition || insight.staff ||
+      insight.view || insight.condition || insight.staff ||
       (insight.pros && insight.pros.length > 0) ||
       (insight.cons && insight.cons.length > 0)
     )
@@ -582,7 +583,7 @@ function HotelDetailModal({ hotel, t, locale, onClose }: HotelDetailModalProps) 
                   <div className="accordionBody">
                     <div className="insightsSummaryBox">
                       <div className="insightsGrid">
-                        {insight.location && (
+                        {(false as boolean) && insight.location && (
                           <div className="insightItemCard">
                             <div className="insightItemLabel">
                               <span>📍</span>
