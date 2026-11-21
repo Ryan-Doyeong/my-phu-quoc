@@ -202,8 +202,8 @@ export const en = {
     igSubDefault: "Recent posts shown with Instagram's official embed.",
   },
   news: {
-    metaTitle: 'Blog & News | My Phu Quoc',
-    metaDesc: 'Phu Quoc updates, practical information for foreign residents, local stories and event announcements.',
+    metaTitle: 'Phu Quoc News & Travel Guides | My Phu Quoc',
+    metaDesc: 'Phu Quoc and Sunset Town news, travel guides and event announcements.',
     eyebrow: 'LOCAL INFORMATION · PHU QUOC',
     title: 'Blog & News',
     lead: 'Phu Quoc updates, practical information for residents, local stories and event announcements — with sources linked where they matter.',

@@ -18,6 +18,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/zones/khem-beach',
     '/hotels',
     '/sunset-town-shows',
+    '/taxi-tour',
+    '/buggy-tour',
+    '/itineraries',
+    '/map',
     ...DIRECTORY_CATEGORY_KEYS.filter((key) => key !== 'hotels' && getCategoryPublishedCount(key) > 0).map((key) =>
       key === 'activities' ? '/activities' : `/directory/${key}`
     ),
