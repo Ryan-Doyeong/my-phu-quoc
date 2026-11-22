@@ -161,6 +161,17 @@ function getLandmarksGuideBtnText(locale: string) {
   }
 }
 
+const KHEM_BEACH_SEO: Partial<Record<Locale, { title: string; description: string }>> = {
+  ko: {
+    title: '푸꾸옥 켐비치(Khem Beach) 여행 가이드: 리조트·비치 | 마이 푸꾸옥',
+    description: '푸꾸옥 남부 켐비치(Khem Beach)의 백사장 해변과 리조트, 비치클럽을 정리한 여행 가이드입니다.',
+  },
+  en: {
+    title: 'Khem Beach, Phu Quoc Travel Guide: Resorts & Beach | My Phu Quoc',
+    description: 'A travel guide to Khem Beach in southern Phu Quoc: the white-sand beach, resorts and beach clubs.',
+  },
+}
+
 export async function generateZoneMetadata(
   slug: string,
   locale: Locale = 'en'
@@ -171,12 +182,17 @@ export async function generateZoneMetadata(
   const name = zone.name[locale] || zone.name.en
   const summary = zone.summary[locale] || zone.summary.en
   const rawEnTitle = `${zone.name.en} Travel Guide | My Phu Quoc`
-  const title =
+  const defaultTitle =
     locale === 'ko'
       ? `${name} 여행 가이드 | 마이 푸꾸옥 (My Phu Quoc)`
       : locale === 'en'
       ? rawEnTitle
       : tUi(rawEnTitle, locale)
+
+  const khemSeo = slug === 'khem-beach' ? KHEM_BEACH_SEO[locale] : undefined
+  const titleText = khemSeo ? khemSeo.title : defaultTitle
+  const title = khemSeo ? { absolute: khemSeo.title } : defaultTitle
+  const description = khemSeo ? khemSeo.description : summary
 
   const barePath = `/zones/${slug}`
   const canonicalUrl = localeUrl(locale, barePath)
@@ -187,14 +203,14 @@ export async function generateZoneMetadata(
 
   return {
     title,
-    description: summary,
+    description,
     alternates: {
       canonical: canonicalUrl,
       languages: alternates.languages,
     },
     openGraph: {
-      title,
-      description: summary,
+      title: titleText,
+      description,
       url: canonicalUrl,
       locale: ogLocaleFor(locale),
       images: [

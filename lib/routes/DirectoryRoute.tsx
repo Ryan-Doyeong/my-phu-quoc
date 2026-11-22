@@ -60,6 +60,17 @@ const BANKING_SEO: Partial<Record<Locale, { title: string; description: string }
   },
 }
 
+const DINING_SEO: Partial<Record<Locale, { title: string; description: string }>> = {
+  ko: {
+    title: '푸꾸옥 선셋타운 맛집·식당: 해산물·베트남 요리·한식 | 마이 푸꾸옥',
+    description: '푸꾸옥 선셋타운과 주변의 해산물 식당, 베트남 요리, 한식, 카페를 업종별로 모아 소개합니다.',
+  },
+  en: {
+    title: 'Restaurants in Sunset Town, Phu Quoc: Seafood, Vietnamese, Korean | My Phu Quoc',
+    description: 'Seafood restaurants, Vietnamese food, Korean BBQ, international cuisine and cafes in and around Sunset Town, Phu Quoc, sorted by type.',
+  },
+}
+
 export async function generateDirectoryMetadata(
   rawCategory: string,
   locale: Locale = 'en'
@@ -82,10 +93,15 @@ export async function generateDirectoryMetadata(
   const barePath = `/directory/${category}`
   const canonicalUrl = localeUrl(locale, barePath)
   const alternates = buildAlternates(barePath)
-  const bankingSeo = category === 'banking' ? BANKING_SEO[locale] : undefined
-  const finalTitle = bankingSeo ? { absolute: bankingSeo.title } : title
-  const finalTitleText = bankingSeo ? bankingSeo.title : title
-  const finalDescription = bankingSeo ? bankingSeo.description : description
+  const categorySeo =
+    category === 'banking'
+      ? BANKING_SEO[locale]
+      : category === 'dining'
+      ? DINING_SEO[locale]
+      : undefined
+  const finalTitle = categorySeo ? { absolute: categorySeo.title } : title
+  const finalTitleText = categorySeo ? categorySeo.title : title
+  const finalDescription = categorySeo ? categorySeo.description : description
 
   return {
     title: finalTitle,

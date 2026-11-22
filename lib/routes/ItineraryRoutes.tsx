@@ -10,8 +10,8 @@ import {
 export function generateItinerariesMetadata(locale: Locale = 'en'): Metadata {
   const path = '/itineraries'
   const TITLE_MAP: Record<string, string> = {
-    ko: '추천 테마 일정 | My Phu Quoc',
-    en: 'Trip Planner & Itineraries | My Phu Quoc',
+    ko: '푸꾸옥 남부 여행 일정 추천: 선셋타운·켐비치 코스 | 마이 푸꾸옥',
+    en: 'South Phu Quoc Itinerary Planner: Sunset Town & Khem Beach | My Phu Quoc',
     zh: '推荐主题行程 | My Phu Quoc',
     ja: 'おすすめテーマ別モデルコース | My Phu Quoc',
     ru: 'Планировщик маршрутов | My Phu Quoc',

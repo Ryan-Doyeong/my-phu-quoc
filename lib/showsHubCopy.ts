@@ -42,8 +42,8 @@ export interface ShowsHubCopy {
 export const SHOWS_CHECKED_DATE = '2026-11-07'
 
 const en: ShowsHubCopy = {
-  title: 'Phu Quoc Sunset Town Show Schedule | My Phu Quoc',
-  meta: "Show times at Phu Quoc's Sunset Town: Symphony of the Sea at 19:45 and Kiss of the Sea at 21:00 (official information as of 2026-11-07). Plus viewing tips.",
+  title: 'Sunset Town Phu Quoc Fireworks Time & Show Schedule | My Phu Quoc',
+  meta: 'Fireworks and show times at Sunset Town, Phu Quoc: Symphony of the Sea at 19:45 and Kiss of the Sea at 21:00 (official information as of 2026-11-07). Plus viewing tips.',
   h1: 'Phu Quoc Sunset Town Show Schedule',
   lastChecked: 'Last checked: 2026-11-07',
   sourceNote: 'Sources: Sun World official booking website and Sunset Town official website. Show times may change, so check the official booking page for your date before visiting.',
@@ -72,8 +72,8 @@ const en: ShowsHubCopy = {
 }
 
 const ko: ShowsHubCopy = {
-  title: '푸꾸옥 선셋타운 공연 시간표: 심포니 오브 더 씨·키스 오브 더 씨 | 마이 푸꾸옥',
-  meta: '푸꾸옥 선셋타운 공연 시간표 정리. 심포니 오브 더 씨는 19:45, 키스 오브 더 씨는 21:00 시작(2026-11-07 공식 안내 기준). 관람 팁도 함께 확인하세요.',
+  title: '푸꾸옥 선셋타운 불꽃놀이 시간·공연 시간표 | 마이 푸꾸옥',
+  meta: '푸꾸옥 선셋타운 불꽃놀이·공연 시간 정리. 심포니 오브 더 씨는 19:45, 키스 오브 더 씨는 21:00 시작(2026-11-07 공식 안내 기준). 관람 팁도 함께 확인하세요.',
   h1: '푸꾸옥 선셋타운 공연 시간표',
   lastChecked: '마지막 확인일: 2026-11-07',
   sourceNote: '출처: Sun World 공식 예약 사이트, 선셋타운 공식 사이트. 시간은 바뀔 수 있으니 방문 전에 공식 예약 페이지에서 날짜별로 확인하세요.',
