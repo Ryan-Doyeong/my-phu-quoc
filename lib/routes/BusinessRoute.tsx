@@ -92,6 +92,8 @@ const DELETED_SLUG_REDIRECTS: Record<string, string> = {
   'sunset-place-9': '/business/solana-spa-sunset-town-phu-quoc',
   'the-nice-hotel-phu-quoc-fireworks-ocean-view': '/hotels',
   'th-luxury-hotel': '/hotels',
+  'crystal-apartment-hillside-phu-quoc-sunset-town-firework': '/hotels',
+  'dido-carthage-apartment-sunset-town-phu-quoc-island': '/hotels',
 }
 
 export async function generateBusinessMetadata(
