@@ -1,4 +1,20 @@
 import type { NextConfig } from 'next'
+
+const BANNED_GOOGLE_API_ENV_KEYS = [
+  'GOOGLE_PLACES_API_KEY',
+  'GOOGLE_MAPS_API_KEY',
+  'NEXT_PUBLIC_GOOGLE_PLACES_API_KEY',
+  'NEXT_PUBLIC_GOOGLE_MAPS_API_KEY',
+] as const
+
+for (const key of BANNED_GOOGLE_API_ENV_KEYS) {
+  if (process.env[key]?.trim()) {
+    throw new Error(
+      `[Banned Config] ${key} 사용이 원천 금지되어 있습니다 (베트남 현지 사용 불가 정책). 환경변수에서 제거하고 무키 공개 Google Maps URL(lib/mapsLink.ts)만 사용하세요.`
+    )
+  }
+}
+
 const nextConfig: NextConfig = {
   images: { remotePatterns: [{ protocol: 'https', hostname: '**' }] },
   experimental: {

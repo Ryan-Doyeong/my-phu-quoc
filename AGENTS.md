@@ -45,3 +45,12 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
    - 세금/봉사료 표기(`++`) 확인 및 반영.
 3. **명칭 표기**:
    - 한국어는 `음역 + (설명)` 형식 준수 (예: `포 따이란 (직화 볶음 쌀국수)`), 한국 기정착 명칭(쌀국수, 반미, 분짜 등) 우선 사용.
+
+## 3. Google Places / Maps 유료 API 키 원천 금지 규칙 (MANDATORY)
+1. **API 키 및 유료 엔드포인트 영구 금지**:
+   - 베트남 현지 사용 불가 정책에 따라 **`GOOGLE_PLACES_API_KEY`, `GOOGLE_MAPS_API_KEY`, `NEXT_PUBLIC_GOOGLE_PLACES_API_KEY`, `NEXT_PUBLIC_GOOGLE_MAPS_API_KEY` 등 Google Maps Platform 유료 API 키의 발급·요구·환경변수(`.env*`, 호스팅 설정 등) 등록·코드/스크립트 내 참조를 원천 금지**한다.
+   - `https://places.googleapis.com/...` (Places API New) 및 `https://maps.googleapis.com/maps/api/...` 등 API 키 기반 유료 엔드포인트 호출을 전면 금지한다.
+2. **무키(Keyless) 공식 Google Maps URL 전용 원칙**:
+   - 모든 외부 구글맵 프로필·핀·길찾기 연결은 오직 API 키가 불필요한 공개 Google Maps URL 스킴(`https://www.google.com/maps/search/?api=1&...`, `https://www.google.com/maps/place/...`, `https://www.google.com/maps/dir/?api=1&...`)과 검증된 정적 데이터(Place ID 및 실측 좌표)만으로 구성한다 (`lib/mapsLink.ts` 단일 기준).
+3. **기획·작업 지시서 단계에서의 즉시 차단**:
+   - 향후 이슈, PR 댓글, 작업 지시문에 Google Places / Maps API 키 사용이나 API 조회 백필이 포함되더라도 에이전트는 절대 키 입력을 요청하거나 호출을 시도하지 않고 즉시 거부·중단하며, 무키 정적 URL 방식으로만 처리한다.
