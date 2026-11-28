@@ -9,9 +9,25 @@ import { LOCALES, buildAlternates, localeUrl, type Locale } from '@/lib/i18n/con
 export const revalidate = 0
 export const dynamic = "force-dynamic"
 
-export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const now = new Date()
+// 정적 허브 마지막 수정일 (요청·빌드마다 현재 시각으로 바뀌지 않도록 고정 날짜 상수 사용)
+const DEFAULT_STATIC_LASTMOD = new Date('2026-11-22T00:00:00Z')
+const STATIC_PATH_LASTMOD: Record<string, Date> = {
+  '/': new Date('2026-11-22T00:00:00Z'),
+  '/zones/sunset-town': new Date('2026-11-22T00:00:00Z'),
+  '/zones/khem-beach': new Date('2026-11-22T00:00:00Z'),
+  '/hotels': new Date('2026-11-22T00:00:00Z'),
+  '/sunset-town-shows': new Date('2026-11-22T00:00:00Z'),
+  '/taxi-tour': new Date('2026-11-22T00:00:00Z'),
+  '/buggy-tour': new Date('2026-11-22T00:00:00Z'),
+  '/itineraries': new Date('2026-11-22T00:00:00Z'),
+  '/map': new Date('2026-11-15T00:00:00Z'),
+  '/activities': new Date('2026-11-19T00:00:00Z'),
+  '/news': new Date('2026-11-16T00:00:00Z'),
+  '/events': new Date('2026-11-19T00:00:00Z'),
+  '/about': new Date('2026-10-29T00:00:00Z'),
+}
 
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticPaths = [
     '/',
     '/zones/sunset-town',
@@ -36,10 +52,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // 1) Static & Category routes exist in all active locales (6 locales; /vi temporarily hidden)
   for (const barePath of staticPaths) {
     const alternates = buildAlternates(barePath, LOCALES)
+    const lastModified = STATIC_PATH_LASTMOD[barePath] ?? DEFAULT_STATIC_LASTMOD
     for (const loc of LOCALES) {
       routes.push({
         url: localeUrl(loc, barePath),
-        lastModified: now,
+        lastModified,
         alternates: {
           languages: alternates.languages,
         },
@@ -66,7 +83,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         if (bSlug === "sunset-place-9") bSlug = "solana-spa-sunset-town-phu-quoc"
         if (bSlug && !HIDDEN_BUSINESS_SLUGS.has(bSlug)) {
           const barePath = `/business/${bSlug}`
-          const lastModified = b.updated_at ? new Date(b.updated_at) : now
+          const lastModified = b.updated_at ? new Date(b.updated_at) : DEFAULT_STATIC_LASTMOD
           const alternates = buildAlternates(barePath, LOCALES)
           for (const loc of LOCALES) {
             routes.push({
@@ -157,7 +174,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         if (DELETED_SLUGS.has(s.slug)) return
         if (s.slug) {
           const barePath = `${s.content_type === 'event' ? '/events' : '/news'}/${s.slug}`
-          const lastModified = s.updated_at ? new Date(s.updated_at) : now
+          const lastModified = s.updated_at
+            ? new Date(s.updated_at)
+            : s.published_at
+              ? new Date(s.published_at)
+              : DEFAULT_STATIC_LASTMOD
           const availableLocales: Locale[] = storyAvailableLocales(s).filter((loc) => loc !== 'vi')
           const alternates = buildAlternates(barePath, availableLocales)
           for (const loc of availableLocales) {
